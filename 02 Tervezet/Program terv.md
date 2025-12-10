@@ -270,20 +270,22 @@ Ez használható **flyerre, szülőknek, vezetőknek**:
 
 
 
-[M1 – „Vakfolt, tükör, feedback” – Önismeret & visszajelzés: Johari + SBI ](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/TqiYduCSnaukaVQ2pxcpB)
 
-[M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/kEFEy-3-s5D6ZPDKmBlDH)
 
-[M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyerekvédelem ](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/7IBlR9enSiEqfUVW0-6oc)
+[M1 – „Vakfolt, tükör, feedback” – Önismeret & visszajelzés: Johari + SBI](../03 MODULOK/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés Johari + SBI.md)
 
-[M4 – „Hallható és érthető vagyok?” – Kiállás, kapcsolódás & kérdezéstechnika](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/yK3ycr65NmnFq4c3-FYev)
+[M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit](../03 MODULOK/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md)
 
-[M5 – „Ez most játék vagy tanulás?” – Nonformális nevelés, módszerválasztás & tanulástan](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/bqypQdbghGphOsS4LvSUe)
+[M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyerekvédelem](../03 MODULOK/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyerekvédelem.md)
 
-[M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/nT6ibLaLwTbDtzPHLliAo)
+[M4 – „Hallható és érthető vagyok?” – Kiállás, kapcsolódás & kérdezéstechnika](../03 MODULOK/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás és kérdezéstechnika.md)
 
-[M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/_Ytn7-7IdY2aDeqZgcF0E)
+[M5 – „Ez most játék vagy tanulás?” – Nonformális nevelés, módszerválasztás & tanulástan](../03 MODULOK/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás és tanulástan.md)
 
-[Z – „Zárás & híd a terepre”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/DynlaytXo8Zq-0hchrYw7)
+[M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”](../03 MODULOK/M6/M6 – Toolbox játék történet kézműves és inkluzivitás.md)
 
-[M0 – „Kickoff, keret, technika”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/OBT7OtB6w53q6UOKXG-sH)
+[M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés](../03 MODULOK/M7/M7 – Peula a papírtól a valóságig – Programírás Zmán Kvucá és AI-támogatott tervezés.md)
+
+[Z – „Zárás & híd a terepre”](../03 MODULOK/Z/Z – Zárás és híd a terepre.md)
+
+[M0 – „Kickoff, keret, technika”](../03 MODULOK/M0/M0 – Kickoff keret technika.md)
