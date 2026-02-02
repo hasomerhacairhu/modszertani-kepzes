@@ -176,12 +176,12 @@ A modul végére a madrich…
      * egyszerűsített, vizuális összefoglaló Page készítése („Madrich, nem terapeuta”, „kapuk”),
      * másik modul peulájában 5 perces „keret-újramondás”.
 
-[M0.1 – „Üdv a képzésben!” – Éves útiterv & mi köze hozzám](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/y1fQ4waTsHH2xre4ZSGRi)
+[M0.1 – „Üdv a képzésben!” – Éves útiterv & mi köze hozzám](./M0_ONLINE_LECKE/M0.1%20–%20„Üdv%20a%20képzésben!”%20–%20Éves%20útiterv%20&%20mi%20köze%20hozzám.md)
 
-[M0.2 – „Madrich, nem terapeuta” – szerepek és elvárások](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/jhmnFi8xFEemX6dg5eUHe)
+[M0.2 – „Madrich, nem terapeuta” – szerepek és elvárások](./M0_ONLINE_LECKE/M0.2%20–%20„Madrich,%20nem%20terapeuta”%20–%20szerepek%20és%20elvárások.md)
 
-[M0.3 – „Hogyan működik a Moodle / H5P / gate?”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/_Ocm8f_GXd4br1pHmV9gl)
+[M0.3 – „Hogyan működik a Moodle / H5P / gate?”](./M0_ONLINE_LECKE/M0.3%20–%20„Hogyan%20működik%20a%20Moodle%20_%20H5P%20_%20gate_”.md)
 
-[M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/so2AKR8VceArcZP4Jbm5T)
+[M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum”](./M0_ONLINE_LECKE/M0.4%20–%20„Dugma%20Ishit%20az%20online%20térben%20+%20bemutatkozó%20fórum”.md)
 
-[M0.A – „Kickoff & ismerkedés + közös keret”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/HeYfQqY00bT_-F8VhqStT)
+[M0.A – „Kickoff & ismerkedés + közös keret”](./M0_PEULA/M0.A%20–%20„Kickoff%20&%20ismerkedés%20+%20közös%20keret”.md)
