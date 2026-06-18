@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Audit munkafájlok (a human-readable riportok .md-i verziókövetve vannak,
+# a gépi köztes JSON-ok és a részeredmények nem)
+/02 Tervezet/_AUDIT/*.json
+/02 Tervezet/_AUDIT/partial/
