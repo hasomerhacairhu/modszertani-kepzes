@@ -10,7 +10,7 @@
 
 ### Mi ez a program?
 
-Az első félév egy **moduláris, blended madrichképzés**: online mikroleckék (Moodle + H5P) és heti offline peulák egységes rendszerben. Minden modul kb. **2 hétig tart**, **4 mikroleckéből (L1–L4)** és **2×45’ peulából (A, B)** áll, a teljes terhelés modulonként kb. **2–3 óra**. 
+Az első félév egy **moduláris, blended madrichképzés**: online mikroleckék (Moodle + H5P) és heti offline peulák egységes rendszerben. Az **M1–M7** modulok kb. **2 hétig tartanak**, **4 mikroleckéből (L1–L4)** és **2×45’ peulából (A, B)** állnak, a teljes terhelés modulonként kb. **2–3 óra**. Az **M0** és a **Z** könnyített: kb. **1 hét**, és csak **1 peula (A)** tartozik hozzájuk. 
 
 A program a Hasomer Hacair ifjúsági mozgalom **ideológiai (három pillér, társadalmi felelősség, hagshama)** és **pedagógiai (kvuca, dugma ishit, nonformális nevelés)** keretére épül, ugyanakkor adaptálható más youth work szervezetekre is.
 
@@ -54,7 +54,7 @@ A félév **ív-szerűen** építkezik:
 **Időtáv és struktúra:**
 
 * 1 félév, **M0–M7 + Z** modul (összesen 9 modulblokk). 
-* Modulonként: **2 hét**, 4 online mikrolecke (L1–L4) + 2×45’ peula (A, B). 
+* Modulonként (M1–M7): **2 hét**, 4 online mikrolecke (L1–L4) + 2×45’ peula (A, B); **M0** és **Z** könnyített: 1 hét + csak 1 peula (A). 
 * Átlagos modul-időráfordítás: **2–3 óra** (online + offline). 
 
 **Blended megvalósítás:**
@@ -87,12 +87,12 @@ A félév **ív-szerűen** építkezik:
 | ----- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
 | M0    | **Kickoff, keret, technika**                                                           | képzésív és szerepek értése; Moodle-belépés és alap használat; biztonságos online hangnem                    | bemutatkozó poszt + 1–2 támogató komment                     | puha mini-quiz (technika + szabály)            |
 | M1    | **„Vakfolt, tükör, feedback” – Önismeret & visszajelzés: Johari + SBI**                | vakfolt-tudatosság; megfigyelés vs. címkézés; egyszerű, biztonságos SBI-visszajelzés adása és fogadása       | 1–2 db 2–3 mondatos SBI-váz valós/fiktív helyzetre           | **ÉLES:** SBI-Assignment rubrikával            |
-| M2    | **„Ki vagyok madrichként?” – Identitás, Somer-értékek & dugma ishit**                  | madrich-identitás térképe; személyes + someres értékek; dugma ishit és határok tudatosítása                  | 1 oldalas madrich identitás-jegyzet + 1 érték-mondat         | puha: completion + checklist                   |
+| M2    | **„Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit**                 | madrich-identitás térképe; személyes + someres értékek; dugma ishit és határok tudatosítása                  | 1 oldalas madrich identitás-jegyzet + 1 érték-mondat         | puha: completion + checklist                   |
 | M3    | **„Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok & gyerekvédelem**      | Tuckman-szakaszok felismerése; 4 someres kvuca-profil; gyerekvédelmi red flag-ek és első lépések madrichként | korosztály-mátrix + 1 red flag szituáció + első lépés leírás | **ÉLES:** szcenárió-kvíz (≥80%)                |
 | M4    | **„Hallható és érthető vagyok?” – Kiállás, kapcsolódás & kérdezéstechnika**            | metakommunikációs alapok; aktív hallgatás; kérdezési technikák; rövid peula-pitch kvucára szabva             | 45 mp-es peula-pitch váz egy választott kvucára              | puha mini-quiz                                 |
 | M5    | **„Ez most játék vagy tanulás?” – Nonformális nevelés, módszerválasztás & tanulástan** | formális–nonformális–informális megkülönböztetése; feladat→cél→kvuca→módszer gondolkodás; alap tanulástan    | „Feladat–kvuca–módszer + tanulástan” táblázat                | **ÉLES:** fogalom-kvíz (≥80%)                  |
-| M6    | **„Toolbox: játék, történet, kézműves & inkluzivitás”**                                | konkrét játékok/történetek/ kézművesek illesztése kvucára; biztonság, inkluzivitás, trigger-érzékenység      | 1 részletes játéklap (cél, kvuca, leírás, bizt., inkluzió)   | **ÉLES:** szcenárió-kvíz + játéklap-rubrika    |
-| M7    | **„Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés**  | SMART nevelési cél; Peula 11 pontja; Zmán Kvucá-checklist; AI-etikus felhasználása a peula-tervezésben       | 1 db Peula v2 + 1 db Zmán Kvucá-checklist                    | **FÉLÉVZÁRÓ, ÉLES:** Peula-rubrika + checklist |
+| M6    | **„Toolbox: játék, történet, kézműves & inkluzivitás”**                                | konkrét játékok/történetek/ kézművesek illesztése kvucára; biztonság, inkluzivitás, trigger-érzékenység      | 1 részletes játéklap (cél, kvuca, leírás, bizt., inkluzió)   | **ÉLES:** szcenárió-kvíz (≥80%) + játéklap-rubrika |
+| M7    | **„Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés**  | SMART nevelési cél; Peula 11 pontja; Zmán Kvucá-checklist; AI-etikus felhasználása a peula-tervezésben       | 1 db Peula v2 + 1 db Zmán Kvucá-checklist                    | **FÉLÉVZÁRÓ, ÉLES:** Peula-rubrika (≥70%) + checklist + kvíz (≥80%) |
 | Z     | **Zárás & híd a terepre**                                                              | saját tanulási ív reflektálása; erőforrások és nehézségek megnevezése; konkrét következő lépés kijelölése    | rövid reflektív írás vagy videó + „next step”                | nincs éles kapu, completion alapú              |
 
 ***
@@ -123,7 +123,7 @@ Az M1 modulban a madrich **önmagára és a visszajelzésre néz rá új szemmel
 
 ***
 
-#### M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek & dugma ishit
+#### M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit
 
 Az M2 modulban a madrich **saját identitása és Somer-értékei felől közelít a szerepéhez**. Az identitás-körök segítenek abban, hogy lássa: több közeg metszéspontjában áll (család, zsidóság, Somer, iskola, egyéb közösségek), és ezek mind hatnak arra, hogyan lesz dugma ishit. A modul a someres ideológiát (három pillér) személyes döntésekkel köti össze: mit vállalok, mire mondok nemet, hogyan tanítanak a hétköznapi döntéseim. A végére a résztvevő 1 oldalas madrich-identitás jegyzetet ír, benne egy konkrét értékkel, amit abban az évben tudatosan szeretne élni.
 

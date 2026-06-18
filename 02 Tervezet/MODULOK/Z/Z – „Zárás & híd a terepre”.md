@@ -5,8 +5,8 @@
 * **Időtartam:** 1 hét (könnyített zárómodul)
 * **Heti offline:** péntek 2. sáv – **Z.A záró peula** (45–60’)
 * **Opcionális kísérő elem:mentori / kiscsoportos záró beszélgetés** (nem peula, 20–30’) azoknak, akiknek szükségük van rá
-* **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + 1×15–20 perc záró reflektív produktum (**Z.4**)
-* **Teljes terhelés:** kb. 2 óra
+* **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (H5P jegyzetelő ~15–20’ + Assignment-produktum ~20–30’ + feedback-űrlap ~5–10’)
+* **Teljes terhelés:** kb. 2,5–3 óra
 
 **Modulközponti kérdés**
 
@@ -67,7 +67,7 @@ A modul végére a résztvevő…
 
 ***
 
-### Z.4 – „Záró reflexió + képzés feedback” (15–20’)
+### Z.4 – „Záró reflexió + képzés feedback” (H5P jegyzetelő ~15–20’ + Assignment-produktum ~20–30’ + feedback ~5–10’)
 
 * **Cél:** záró reflektív produktum + képzés-értékelés.
 * **Eszközök:**

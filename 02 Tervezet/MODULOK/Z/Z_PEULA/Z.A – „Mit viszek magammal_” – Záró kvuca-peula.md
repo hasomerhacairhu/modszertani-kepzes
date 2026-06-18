@@ -62,7 +62,15 @@
 **40–55’** – 3. fő aktivitás: Elismerés & köszönés kör (minimális SBI-vel)
 **55–60’** – Záró rituálé: 1 szó, szó-felhő, közös lezárás
 
-*(45 perces verziónál a 2–4. blokkok rövidíthetők: kevesebb beszélő kör, rövidebb poszter-idő stb.)*
+**45 perces verzió – explicit percbontás:**
+
+**0–7’** – Check-in: „Félév-emojik” (gyorsabb kör, max. 1 mondat/fő)
+**7–18’** – 1. fő aktivitás: „Időkapszula” – tanulási pillanatok párokban (nagykörös visszahozás nélkül)
+**18–30’** – 2. fő aktivitás: „Híd a terepre” poszter (rövidítve, poszter-bemutató nélkül)
+**30–41’** – 3. fő aktivitás: Elismerés & köszönés kör (minimális SBI-vel)
+**41–45’** – Záró rituálé: 1 szó, szó-felhő, közös lezárás
+
+*(Vagyis a 45’-es verziónál a 2–4. blokkok rövidülnek: kevesebb beszélő kör, rövidebb poszter-idő, a poszter- és nagykörös visszahozások esnek ki először – az elismerés-kört és a záró szót próbáld megtartani.)*
 
 ***
 

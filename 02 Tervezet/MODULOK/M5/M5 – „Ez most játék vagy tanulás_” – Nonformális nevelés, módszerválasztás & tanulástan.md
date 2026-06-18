@@ -4,8 +4,8 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M5.A (hét 1) és M5.B (hét 2), **45–45’**
-* **Online terhelés:** kb. **4×10–20 perc** (M5.1–M5.4) 
-* **Teljes terhelés:** kb. **2–3 óra** (online + offline együtt)
+* **Online terhelés:** kb. **4×10–20 perc** (M5.1–M5.4) — az M5.4 produktum-készítés (saját táblázat + Assignment-feltöltés) akár **20–30 perc** is lehet. 
+* **Teljes terhelés:** kb. **2,5–3,5 óra** (online + offline együtt)
 
 **Modulközponti kérdés**
 

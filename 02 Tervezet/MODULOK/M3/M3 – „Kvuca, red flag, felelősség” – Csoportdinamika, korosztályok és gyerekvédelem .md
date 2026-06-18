@@ -5,7 +5,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – **Peula A (M3.A)** az 1. héten, **Peula B (M3.B)** a 2. héten, kb. 45–45’
 * **Online terhelés:** kb. 4×10–20 perc mikrolecke (**M3.1–M3.4**)
-* **Teljes terhelés:** kb. 2–3 óra
+* **Teljes terhelés:** kb. 2,5–3,5 óra – ebből **online ~1 óra** (M3.1–M3.4) + **2 peula (2×45’ = 90’)** + **modulproduktum & kapu-kvíz ~30–45’** (a helyzetleírás megírása + a mastery-kvíz, ami több próbálkozást is jelenthet)
 
 **Modulközponti kérdés**
 
