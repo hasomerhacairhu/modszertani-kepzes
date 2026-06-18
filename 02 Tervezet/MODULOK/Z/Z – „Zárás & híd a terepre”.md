@@ -177,12 +177,12 @@ A modul végére a résztvevő…
 
 
 
-[Z.1 – „Visszanéző tükör” – M0–M7 timeline](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/C887FolKCTWy41rDg7JZC)
+[Z.1 – „Visszanéző tükör” – M0–M7 timeline](./Z_ONLINE_LECKE/Z.1%20–%20„Visszanéző%20tükör”%20–%20M0–M7%20timeline.md)
 
-[Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/loOVJjf55bpnJIT2CiENo)
+[Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim](./Z_ONLINE_LECKE/Z.2%20–%20„Tanultam%20valamit_!”%20–%20saját%20tanulási%20pillanataim.md)
 
-[Z.3 – „Híd a terepre” – következő lépések](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/7f4NBnGdz_jJpH14hiEQg)
+[Z.3 – „Híd a terepre” – következő lépések](./Z_ONLINE_LECKE/Z.3%20–%20„Híd%20a%20terepre”%20–%20következő%20lépések.md)
 
-[Z.4 – „Záró reflexió + képzés feedback”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/bVGjIYEzUNMukL-xqujFQ)
+[Z.4 – „Záró reflexió + képzés feedback”](./Z_ONLINE_LECKE/Z.4%20–%20„Záró%20reflexió%20+%20képzés%20feedback”.md)
 
-[Z.A – „Mit viszek magammal?” – Záró kvuca-peula](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/gc9DxCpJ9hyMx8g7BR6N0)
+[Z.A – „Mit viszek magammal?” – Záró kvuca-peula](./Z_PEULA/Z.A%20–%20„Mit%20viszek%20magammal_”%20–%20Záró%20kvuca-peula.md)

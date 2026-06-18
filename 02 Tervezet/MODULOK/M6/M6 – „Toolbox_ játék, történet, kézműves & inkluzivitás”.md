@@ -211,16 +211,16 @@ A modul végére a madrich…
 
 ***
 
-[M6.1 – „Játék-kategóriák 4 kvucára”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/OHWxCdRUp2LUDhZ60EG5m)
+[M6.1 – „Játék-kategóriák 4 kvucára”](./M6_ONLINE_LECKE/M6.1%20–%20„Játék-kategóriák%204%20kvucára”.md)
 
-[M6.2 – „Történet, mint tükör”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/v5IdlpsYXOezBiN931T1A)
+[M6.2 – „Történet, mint tükör”](./M6_ONLINE_LECKE/M6.2%20–%20„Történet,%20mint%20tükör”.md)
 
-[M6.3 – „Kézműves, ami tanít is”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/M2X8H5-qrL6vxY0b5MudE)
+[M6.3 – „Kézműves, ami tanít is”](./M6_ONLINE_LECKE/M6.3%20–%20„Kézműves,%20ami%20tanít%20is”.md)
 
-[M6.4 – „Döntési szcenáriók: mit választanál?”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/Wg0W1_PUsscpjOOdsb-qP)
+[M6.4 – „Döntési szcenáriók: mit választanál?”](./M6_ONLINE_LECKE/M6.4%20–%20„Döntési%20szcenáriók_%20mit%20választanál_”.md)
 
-[M6.A – Peula: „Játék-labor 4 kvucára” (45’)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/peIrhTnqEL-cT2Q5RFhhA)
+[M6.A – Peula: „Játék-labor 4 kvucára” (45’)](./M6_PEULA/M6.A%20–%20Peula_%20„Játék-labor%204%20kvucára”%20(45’).md)
 
-[M6.B – Peula: „Játéklap workshop – saját eszköz tervezése” (45’)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/jpUuhKyCvRGbBNvlzP1N_)
+[M6.B – Peula: „Játéklap workshop – saját eszköz tervezése” (45’)](./M6_PEULA/M6.B%20–%20Peula_%20„Játéklap%20workshop%20–%20saját%20eszköz%20tervezése”%20(45’).md)
 
-[M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/UqUH8YJgBIQfMR7RSov5f)
+[M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab)](./M6_PEULA/M6.F%20–%20Felzárkóztató%20peula%20–%20Toolbox%20&%20játéklap%20(Study%20Lab).md)

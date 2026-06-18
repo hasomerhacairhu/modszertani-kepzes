@@ -171,7 +171,7 @@ Opciók:
 Egyszerű **Short Answer** mező:
 
 Placeholder:
-`A következő 3 Zmán Kvucámon ...`
+`A következő 3 Zmán Kvucámon **figyelek rá, hogy** ...`
 
 ***
 
@@ -197,7 +197,7 @@ Placeholder:
 **Beágyazott kérdés – Short Answer**
 
 Placeholder:
-`A következő hónapban ...`
+`A következő hónapban **minden peula után** ...`
 
 ***
 
@@ -261,6 +261,6 @@ Opciók:
 * Félig:
   > „Oké – érdemes lehet még 1 szót hozzátenni (pl. mikor, hol, kivel), hogy biztosabb legyen.”
 * Nem:
-  > „Teljesen oké – inkább most derüljön ki. Nyugodtan lépj vissza 1–2 diát, és írd át úgy, hogy , hogy meg tudod csinálni.”
+  > „Teljesen oké – inkább most derüljön ki. Nyugodtan lépj vissza 1–2 diát, és írd át úgy, hogy **konkrétabb és reálisabb legyen, és tényleg elhidd**, hogy meg tudod csinálni.”
 
 (Opcionálisan alul: mini Short Answer – „Ha szeretnél, 1 szóban írd le, milyen érzés most ezekkel a célokkal a terepre gondolni.” – de ez már extra.)

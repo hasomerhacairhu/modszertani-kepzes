@@ -243,16 +243,16 @@ A modul végére a madrich…
 
 
 
-[M7.1 – „Ez még csak vágy, nem cél” – SMART nevelési cél someres módra](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/YiD6pq6LcLNBRZV9scFZB)
+[M7.1 – „Ez még csak vágy, nem cél” – SMART nevelési cél someres módra](./M7_ONLINE_LECKE/M7.1%20–%20„Ez%20még%20csak%20vágy,%20nem%20cél”%20–%20SMART%20nevelési%20cél%20someres%20módra.md)
 
-[M7.2 – „Nem csak játék, hanem peula” – 11 tervezési pont & AI-támogatás](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/1q5xnKgqQxEtGheof-sOG)
+[M7.2 – „Nem csak játék, hanem peula” – 11 tervezési pont & AI-támogatás](./M7_ONLINE_LECKE/M7.2%20–%20„Nem%20csak%20játék,%20hanem%20peula”%20–%2011%20tervezési%20pont%20&%20AI-támogatás.md)
 
-[M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/3J1In4FeTkw-E9lFWxben)
+[M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség](./M7_ONLINE_LECKE/M7.3%20–%20Zmán%20Kvucá-checklist%20–%20idő,%20tér,%20felelősség.md)
 
-[M7.4 – „Peula v2 + AI” – modulproduktum váz](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/R0635SqgQa0VkreDT6rQG)
+[M7.4 – „Peula v2 + AI” – modulproduktum váz](./M7_ONLINE_LECKE/M7.4%20–%20„Peula%20v2%20+%20AI”%20–%20modulproduktum%20váz.md)
 
-[M7.A – Célból peula – SMART & 11 pont élőben](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/rFjkDMzDjJaOCitg51Did)
+[M7.A – Célból peula – SMART & 11 pont élőben](./M7_PEULA/M7.A%20–%20Célból%20peula%20–%20SMART%20&%2011%20pont%20élőben.md)
 
-[M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/9SArfim_uhu6ExAaIahYp)
+[M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal](./M7_PEULA/M7.B%20–%20Peula%20v2%20&%20Zmán%20Kvucá%20–%20amikor%20a%20papír%20találkozik%20a%20valósággal.md)
 
-[M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/bqUPiilqd95wziWP79QkQ)
+[M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab)](./M7_PEULA/M7.F%20–%20Felzárkóztató%20peula%20–%20Peula%20&%20Zmán%20Kvucá%20(Study%20Lab).md)

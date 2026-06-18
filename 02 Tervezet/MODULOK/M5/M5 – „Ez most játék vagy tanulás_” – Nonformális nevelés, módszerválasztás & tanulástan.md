@@ -169,16 +169,16 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
 
 
 
-[M5.1 – Mi a nonformális nevelés? – Suli / Somer / random](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/WtdUbnX4rgFExLXk2fgeo)
+[M5.1 – Mi a nonformális nevelés? – Suli / Somer / random](./M5_ONLINE_LECKE/M5.1%20–%20Mi%20a%20nonformális%20nevelés_%20–%20Suli%20_%20Somer%20_%20random.md)
 
-[M5.2 – Feladat → módszer döntési fa – Mit választok először?](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/VLF9HLrPwunIb61nxzLOF)
+[M5.2 – Feladat → módszer döntési fa – Mit választok először?](./M5_ONLINE_LECKE/M5.2%20–%20Feladat%20→%20módszer%20döntési%20fa%20–%20Mit%20választok%20először_.md)
 
-[M5.3 – Hogyan tanulunk tényleg? – Gyakorlás, visszahívás, spacing](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/Wum4wxE2TsD3xYd4qLwLH)
+[M5.3 – Hogyan tanulunk tényleg? – Gyakorlás, visszahívás, spacing](./M5_ONLINE_LECKE/M5.3%20–%20Hogyan%20tanulunk%20tényleg_%20–%20Gyakorlás,%20visszahívás,%20spacing.md)
 
-[M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/o1iKu4fYI5y1fvbpARwdz)
+[M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként](./M5_ONLINE_LECKE/M5.4%20–%20„Cél–kvuca–módszer%20mini-táblázat”%20–%20saját%20adatbázisod%20madrichként.md)
 
-[M5.A – „Suli, Somer vagy random?” – Hol tanulunk és hogyan?](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/OxhfoJgFJp46kmS5_80nx)
+[M5.A – „Suli, Somer vagy random?” – Hol tanulunk és hogyan?](./M5_PEULA/M5.A%20–%20„Suli,%20Somer%20vagy%20random_”%20–%20Hol%20tanulunk%20és%20hogyan_.md)
 
-[M5.B – „Tervezek egy nonformális peula-részletet” – hogy tényleg tanuljunk is](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/M-V2cc-Mbs1EZqJ_WbdMM)
+[M5.B – „Tervezek egy nonformális peula-részletet” – hogy tényleg tanuljunk is](./M5_PEULA/M5.B%20–%20„Tervezek%20egy%20nonformális%20peula-részletet”%20–%20hogy%20tényleg%20tanuljunk%20is.md)
 
-[M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/8-iHahZtqP7xw4Ab_pnMe)
+[M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab)](./M5_PEULA/M5.F%20–%20Felzárkóztató%20peula%20–%20Suli,%20Somer%20&%20tanulástan%20(Study%20Lab).md)

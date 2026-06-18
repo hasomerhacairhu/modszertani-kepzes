@@ -116,11 +116,11 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Ha valaki egyedül maradna, a képző csatlakozik hozzá.
 3. **Megosztás – 1 tanulási pillanat mindenkinek (10–12 perc)**
    &#x20;Instrukció a csoportoknak:
-   > „Mindenki meséljen el a többieknek  ebből a félévből. Ez lehet egy modul, egy peula, egy visszajelzés, egy nehéz beszélgetés… bármi.A többiek feladata: . A történet végén egyikőtök mondjon vissza 1 mondatot: + 1 dolog, ami neki megmaradt ebből.”Idő: fejenként kb. 3–4 perc.”
+   > „Mindenki meséljen el a többieknek **egy tanulási pillanatot** ebből a félévből. Ez lehet egy modul, egy peula, egy visszajelzés, egy nehéz beszélgetés… bármi.A többiek feladata: **figyelmesen hallgatni, közbevágás nélkül**. A történet végén egyikőtök mondjon vissza 1 mondatot: + 1 dolog, ami neki megmaradt ebből.”Idő: fejenként kb. 3–4 perc.”
    * Képző figyel az időre, kb. 3–3–3 perc / fő.
 4. **Rövid visszahozás nagykörbe (2–3 perc)**
    &#x20;Kérhetsz 2–3 önkéntest:
-   > „Ki az, aki  szívesen megosztaná, mi volt az egyik érdekes tanulási pillanat, amit hallott vagy mondott?”
+   > „Ki az, aki **önként** szívesen megosztaná, mi volt az egyik érdekes tanulási pillanat, amit hallott vagy mondott?”
 
 **Facilitátori tippek:**
 
@@ -147,7 +147,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Mindegyik kapjon 1 nagy lapot (flipchart / A3).
 2. **Poszter-keret elmagyarázása (1–2 perc)**
    &#x20;Képző:
-   > „Készítsetek egy közös plakátot, aminek két fele van: – bal oldal:  – kulcsszavak az M0–M7-ből, mondatok, élmények – jobb oldal:  – konkrét jövőbeli lépések.Nem művészeti verseny – rajzolhattok, írhattok, használhattok jeleket, ikonokat, ami jól esik.”
+   > „Készítsetek egy közös plakátot, aminek két fele van: – bal oldal: **Mit tanultunk?** – kulcsszavak az M0–M7-ből, mondatok, élmények – jobb oldal: **Mit csinálunk másképp a terepen?** – konkrét jövőbeli lépések.Nem művészeti verseny – rajzolhattok, írhattok, használhattok jeleket, ikonokat, ami jól esik.”
 3. **Kiscsoportos munka (10–12 perc)**&#x4B;épző körbejár, kérdezhet:
    * Bal oldalra gyűljenek:
      &#x20;– modulnevek / témák (önismeret, feedback, kvuca, gyerekvédelem, nonformális, stb.),
@@ -186,7 +186,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Mindenki húz egy nevet (ha valaki saját magát húzza, húzhat újra).
 2. **Mini-SBI keret elmagyarázása (2 perc)**
    &#x20;Képző:
-   > „Most egy  csinálunk.Arra kérlek, hogy annak, akinek a nevét húztad, mondj 1 rövid, erről a félévről.Segítő minta (nem kell szóról szóra): – Csak pozitívat mondunk most, és  a végére.”
+   > „Most egy **elismerés-kört** csinálunk.Arra kérlek, hogy annak, akinek a nevét húztad, mondj 1 rövid **elismerő mondatot**, erről a félévről.Segítő minta (nem kell szóról szóra): – Csak pozitívat mondunk most, és **mindenki kapjon legalább 1 mondatot** a végére.”
 3. **Elismerés-kör lejátszása (10–12 perc)**&#x4B;épző figyeljen arra, hogy időben maradjatok (1–1 mondat/fő).
    * Menjetek körbe; mindenki elmondja a mondatát annak, akit kihúzott.
    * Ha a kvuca nagyon nagy, csinálhatjátok két körben vagy kiscsoportokban is.
@@ -206,7 +206,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 1. **Szó-írás (2–3 perc)**
    &#x20;Képző:
-   > „Most mindenki kap egy kis cetlit.Írj rá , amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat, mondat – ami neked most igaz.Nem kell nevet írni rá.”
+   > „Most mindenki kap egy kis cetlit.Írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat, mondat – ami neked most igaz.Nem kell nevet írni rá.”
    * Mindenki felír egy szót.
 2. **Közös felhő kirakása (2 perc)**
    * Kérd meg őket, hogy egyenként (vagy egyszerre) vigyék a cetlit a kijelölt felületre (plakát, fal, kör közepe).

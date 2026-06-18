@@ -176,16 +176,16 @@ A modul végére a madrich…
 
 ***
 
-[M2.1 – Ki vagyok én madrichként? – identitás-körök](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/f4KdjU5Z2YlS7WJ6LGm-Y)
+[M2.1 – Ki vagyok én madrichként? – identitás-körök](./M2_ONLINE_LECKE/M2.1%20–%20Ki%20vagyok%20én%20madrichként_%20–%20identitás-körök.md)
 
-[M2.2 – Értékeim mint iránytű](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/YofIc9AR-y7QNt80KtadY)
+[M2.2 – Értékeim mint iránytű](./M2_ONLINE_LECKE/M2.2%20–%20Értékeim%20mint%20iránytű.md)
 
-[M2.3 – Somer 3 pillére – mini-kapszula](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/NN9laeShdFpEci8e1ObZ6)
+[M2.3 – Somer 3 pillére – mini-kapszula](./M2_ONLINE_LECKE/M2.3%20–%20Somer%203%20pillére%20–%20mini-kapszula.md)
 
-[M2.4 – Reflektív napló & határok: „A dugma ishit nem terapeuta”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/yJDPdxc4SQChMearf8rbT)
+[M2.4 – Reflektív napló & határok: „A dugma ishit nem terapeuta”](./M2_ONLINE_LECKE/M2.4%20–%20Reflektív%20napló%20&%20határok_%20„A%20dugma%20ishit%20nem%20terapeuta”.md)
 
-[M2.A – Identitás-körök élőben – mit mutatok magamból?  (45’)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/enPXQLDmuCczzx92Q9O9Y)
+[M2.A – Identitás-körök élőben – mit mutatok magamból?  (45’)](./M2_PEULA/M2.A%20–%20Identitás-körök%20élőben%20–%20mit%20mutatok%20magamból_%20%20(45’).md)
 
-[M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/K1KOgNGqQ4FYiaPSfzbm8)
+[M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak](./M2_PEULA/M2.B%20–%20Somer-értékek%20a%20gyakorlatban%20–%20döntések,%20amelyek%20tanítanak.md)
 
-[M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/kLUkg8RRDK71Gq4ZqPM87)
+[M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab)](./M2_PEULA/M2.F%20–%20Felzárkóztató%20peula%20–%20Identitás,%20értékek,%20pillérek,%20személyes%20példamutatás%20(Study%20Lab).md)

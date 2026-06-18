@@ -146,16 +146,16 @@ A modul végére a résztvevő…
 
 
 
-[M4.1 – Mit üzen a testem? – Nonverbális kiállás](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/I5DwOWLORyhMmzeAuJBhO)
+[M4.1 – Mit üzen a testem? – Nonverbális kiállás](./M4_ONLINE_LECKE/M4.1%20–%20Mit%20üzen%20a%20testem_%20–%20Nonverbális%20kiállás.md)
 
-[M4.2 – Aktív hallgatás & visszatükrözés](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/8xvf-hZnkzA1BBWmYk2-K)
+[M4.2 – Aktív hallgatás & visszatükrözés](./M4_ONLINE_LECKE/M4.2%20–%20Aktív%20hallgatás%20&%20visszatükrözés.md)
 
-[M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/zkDfST4eiC7Zyx7wot48n)
+[M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések](./M4_ONLINE_LECKE/M4.3%20–%20Kérdezési%20minták%20–%20nyitott,%20zárt,%20tisztázó,%20irányító%20kérdések.md)
 
-[M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/dxMxoOq1aBcjgqQZN_O2z)
+[M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára](./M4_ONLINE_LECKE/M4.4%20–%2045%20mp-es%20peula-pitch%20–%20vázlat%20egy%20konkrét%20kvucára.md)
 
-[M4.A – „Állj oda!” – Kiállás & jelenlét a térben](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/pWGaAKGXY2kaYHvRkhZ7_)
+[M4.A – „Állj oda!” – Kiállás & jelenlét a térben](./M4_PEULA/M4.A%20–%20„Állj%20oda!”%20–%20Kiállás%20&%20jelenlét%20a%20térben.md)
 
-[M4.B –  „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/lLf2sr5Xu9ItSV8e8Oy0u)
+[M4.B –  „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása](./M4_PEULA/M4.B%20–%20%20„Mit%20és%20hogyan%20kérdezek_”%20–%20Kérdezés%20&%20pitch%20gyakorlása.md)
 
-[M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/zBAtf-ALcWvy-2PiCoVHu)
+[M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab)](./M4_PEULA/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20pitch%20(Study%20Lab).md)

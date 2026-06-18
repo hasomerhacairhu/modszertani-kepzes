@@ -33,6 +33,10 @@ A modul végére a résztvevő…
 4. **Határok, ígéretek, első lépések**
    * Tudja, hogy **nem ígérhet 100% titoktartást** egy nehéz helyzetet megosztó chanichnak **(M3.3)**.
    * Tudja, kit kell bevonni (mentor / gyerekvédelmi felelős / vezető), és mi a logikus első lépés **(M3.3, M3.B)**.
+
+> ⚖️ **Jó tudni – a jelzés Magyarországon törvényi kötelezettség.**
+> &#x20;A gyermek **veszélyeztetettségének jelzése nem csak „jó gyakorlat”, hanem törvényi kötelezettség** (**1997. évi XXXI. tv. – Gyvt., gyermekvédelmi jelzőrendszer**). A gyakorlatban ez **nem a madrich egyéni terhe**: a madrich a **mentornak / gyerekvédelmi felelősnek / vezetőnek** jelez, és **ők gondoskodnak** a külső jelzésről a **gyermekjóléti szolgálat / hatóság** felé (súlyos, bűncselekmény-gyanús esetben a rendőrség felé). A szervezeti belüli szóbeli jelzéssel tehát a felelősség **nem feltétlenül zárul le** – a felelős dolga a továbblépés. Ezért fontos, hogy a madrich mindig **jelezzen**, és **ne maradjon egyedül** a helyzettel.
+> &#x20;*(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyerekvédelemre **(M3.4)**.
    * Külön kiemeli, hogy **madrich nem lehet párkapcsolatban chanich-hal** – ezt súlyos határátlépésnek, red flag-nek tartja **(M3.4)**.
@@ -236,16 +240,16 @@ A modul végére a résztvevő…
 
 ***
 
-[M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/j63V4iUe769Enbl4DCAfO)
+[M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése](./M3_ONLINE_LECKE/M3.1%20–%20„Történetek%20egy%20kvucáról”%20–%20Tuckman-szakaszok%20felismerése.md)
 
-[M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/oIbjS2hEAb1LPgDfzaZVS)
+[M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ](./M3_ONLINE_LECKE/M3.2%20–%20„Parparim,%20Kivsza,%20Leviatan,%20Zorea”%20–%204%20kvuca,%204%20világ.md)
 
-[M3.3 – „Gyerekvédelem 101” – red flag felismerése & első lépések](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/Flp4Gapa0JtB8qLCTRDG_)
+[M3.3 – „Gyerekvédelem 101” – red flag felismerése & első lépések](./M3_ONLINE_LECKE/M3.3%20–%20„Gyerekvédelem%20101”%20–%20red%20flag%20felismerése%20&%20első%20lépések.md)
 
-[M3.4 – „Do / Don’t madrichként” – határok, red flag-ek és modulproduktum](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/EbAQ35EI1sxZPtQXSTC_U)
+[M3.4 – „Do / Don’t madrichként” – határok, red flag-ek és modulproduktum](./M3_ONLINE_LECKE/M3.4%20–%20„Do%20_%20Don’t%20madrichként”%20–%20határok,%20red%20flag-ek%20és%20modulproduktum.md)
 
-[M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/-UQAq9YXO-J81p8Uy8lnl)
+[M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át](./M3_PEULA/M3.A%20–%20Találd%20ki,%20hol%20tart%20a%20kvuca!%20–%20Történetek%20Tuckman%20szemüvegén%20át.md)
 
-[M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/WPLl1hXwQNdttAcyVqzqo)
+[M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép](./M3_PEULA/M3.B%20–%20Red%20flag%20vagy%20nem_%20–%20Miniszínház%20&%20lépés-térkép.md)
 
-[M3.F – Felzárkóztató peula – Kvucadinamika & gyerekvédelem (Study Lab)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/Lhfg9goIM342PsiqAwHo8)
+[M3.F – Felzárkóztató peula – Kvucadinamika & gyerekvédelem (Study Lab)](./M3_PEULA/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyerekvédelem%20(Study%20Lab).md)

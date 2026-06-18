@@ -229,7 +229,7 @@ A mentori rendszer célja, hogy **ne csak adatból, hanem kapcsolatból is tanul
   * félév elején: célkitűzés beszélgetés (mit vár a madrich a képzéstől);
   * közben: jelzés, ha valamelyik modulnál erős elakadás van (pl. nem teljesíti az éles kaput);
   * félév végén: Z modul reflektív „exit interview” (akár rövid írás, akár beszélgetés).
-* **Felzárkóztató peulák (Study Lab-ek):** modulonként opcionális F-peula (M2.F, M5.F, M7.F) a lemaradóknak – **nem büntető, hanem támogató** tér. 
+* **Felzárkóztató peulák (Study Lab-ek):** modulonként opcionális F-peula (M1.F–M7.F, azaz minden M1–M7 modulhoz) a lemaradóknak – **nem büntető, hanem támogató** tér. 
 
 ***
 

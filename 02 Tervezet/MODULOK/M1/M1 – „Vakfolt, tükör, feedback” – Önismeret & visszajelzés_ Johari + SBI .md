@@ -208,16 +208,16 @@ A modul végére a résztvevő…
 
 ***
 
-[M1.1 – Johari-ablak – vakfoltjaim felismerése](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/J7wxVPqB2Dm0j1Gns2Kp9)
+[M1.1 – Johari-ablak – vakfoltjaim felismerése](./M1_ONLINE_LECKE/M1.1%20–%20Johari-ablak%20–%20vakfoltjaim%20felismerése.md)
 
-[M1.2 – Megfigyelés ≠ értelmezés](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/5XnRj5cu3cTHMOiDU6ZeG)
+[M1.2 – Megfigyelés ≠ értelmezés](./M1_ONLINE_LECKE/M1.2%20–%20Megfigyelés%20≠%20értelmezés.md)
 
-[M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést?](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/lUZcoYSCwG-0PySxJKWTI)
+[M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést?](./M1_ONLINE_LECKE/M1.3%20–%20SBI-modell%20–%20hogyan%20adjak%20korrekt%20visszajelzést_.md)
 
-[M1.4 – Miniszituációk: „Mondd el SBI-ben”](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/eTUVX_Ffk4s9zlYCfg0s7)
+[M1.4 – Miniszituációk: „Mondd el SBI-ben”](./M1_ONLINE_LECKE/M1.4%20–%20Miniszituációk_%20„Mondd%20el%20SBI-ben”.md)
 
-[M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/zdBFfTMT-XGS56isGHRSi)
+[M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’)](./M1_PEULA/M1.A%20–%20Önismeret%20&%20Johari%20+%20megfigyelés%20vs.%20címkézés%20(45’).md)
 
-[M1.B – SBI-lab – Smiley-től a használható visszajelzésig (45’)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/E9hF4oFVZJdxJ9hHC6TH0)
+[M1.B – SBI-lab – Smiley-től a használható visszajelzésig (45’)](./M1_PEULA/M1.B%20–%20SBI-lab%20–%20Smiley-től%20a%20használható%20visszajelzésig%20(45’).md)
 
-[M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)](file:///workspace/e4c042ef-a07c-4c9e-8d3a-c1a77b46a964/gQY2LdmC92dSB0RHf8Wnl)
+[M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)](./M1_PEULA/M1.F%20–%20Felzárkóztató%20peula%20–%20Johari,%20megfigyelés%20és%20SBI%20egyben%20(45’).md)
