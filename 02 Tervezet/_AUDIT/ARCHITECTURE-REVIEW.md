@@ -359,3 +359,267 @@
 > **eltérő dimenzióból**: a 3. a *determinisztikus implementáció* hiányát (D3.8 —
 > kapu-logika), az 5. a *súlyozásos fallback érvénytelenségét* (D3.8 — cut-score
 > validitás) emeli ki. Együtt kezelendők egyetlen LMS-architektúra döntésben.
+
+---
+
+### Kör 2 — kiegészítő tételbatch (kelt: 2026-06-19)
+
+> Az alábbi 10 tétel a kör 2 folytatása (6–15. sorszám), a már lezárt 1–5. tételek
+> mellé. Mind **emberi DÖNTÉST igényel** (kapu-filozófia, cél↔item átfogalmazás,
+> curriculum-ív, produktumlánc-horgonyzás); **tananyag-forrást nem módosítunk**.
+> Ehhez a batch-hez érintett dimenzió-kódok:
+> - **D2** — constructive alignment (cél↔tanítás↔értékelés; tanítva vs. mérve)
+> - **D3** (D3.1 item↔cél lefedettség/alulreprezentáció; D3.6 szcenárió-/SJT-item;
+>   D3.7 kétképzős kalibráció; D3.8 indokolt cut-score + determinisztikus kapu-logika)
+> - **D4** — produktumlánc / árva kompetencia
+
+### 6. [D3] M0 belépő-quiz — a kimondott „60–70%” küszöb funkció nélküli (completion ≠ cut-score, belső ellentmondás)
+
+- **Dimenzió:** D3 — kapu-érvényesség (D3.8: indokolt cut-score; belső konzisztencia)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M0/M0 – „Kickoff, keret, technika”.md`
+  → 5. Kapuk (124–151. sor), különösen 138. sor („ajánlott minimum: 60–70%”) és
+  143–144. sor (a complete-követelmény: quiz „kitöltve, eredménytől függetlenül”)
+- **Probléma:** A mastery-kapu cut-score-ja nincs kritérium-referenciásan indokolva
+  (D3.8). A belépő-quiznél „ajánlott minimum: 60–70%” (138.) szerepel mint **kerek
+  tartomány, indoklás nélkül**, ráadásul a complete-követelmény szerint a quiz
+  „kitöltve (eredménytől függetlenül)” elég (143–144.) — vagyis a kimondott küszöb
+  **funkció nélküli**: nincs valódi, a tanuló számára a lecke elején kimondott,
+  indokolt cut-score. **Belső ellentmondás:** vagy van küszöb (akkor indokolni ÉS
+  érvényesíteni kell), vagy nincs (akkor ne nevezzünk meg számot). Soft gate
+  belépő-modulnál ez védhető döntés lehet, de jelenleg indoklás nélküli.
+- **Javaslat (DÖNTÉS):** Architektúra/értékelés-review döntse el, hogy az M0-quiz
+  **tisztán diagnosztikus** (nincs cut-score, csak completion) vagy **valódi
+  küszöbös**. Ha diagnosztikus: töröljék a „60–70%” számot, vagy jelöljék explicit
+  **nem-kapuzónak**. Ha küszöb: adjanak kritérium-referenciás indoklást és
+  remediációt. Ez a kapu-filozófia döntése.
+- **Forrás:** —
+
+> **Megj.:** Ez a tétel a kör 2 / 1. és a kör 1 / 1. M0-quiz tételekkel **átfed, de
+> más metszetet** emel ki: itt nem az itemek hiánya, hanem a **completion ↔ kimondott
+> küszöb belső ellentmondása** a döntési mag. Egy M0-kapu-filozófiai döntésben
+> kezelendők együtt.
+
+---
+
+### 7. [D3] M6 KAPU — a modul-hub mennyiségi mastery-céljai (3 inkluzivitási szempont, 3–4 nyitott kérdés) alulreprezentáltak a kapuban
+
+- **Dimenzió:** D3 — item↔cél lefedettség / mérési hiány (D3.1)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M6/M6 – KAPU – értékelő (item-bank + rubrika).md`
+  → összevetés: modul-hub kompetencia 2 (sor 30) és 3 (sor 34) vs. KAPU R5 (sor 343),
+  Oké-checklist (sor 353) és item-lefedettség tábla (sor 35–40)
+- **Probléma:** A modul-hub kimeneti kompetenciái konkrét **mennyiségi célokat**
+  ígérnek: »Legalább 3 inkluzivitási szempontot meg tud nevezni« (kompetencia 2,
+  hub sor 30) és »Képes 3–4 nyitott kérdéssel feldolgozni egy történetet«
+  (kompetencia 3, sor 34). A kapu ezeket **alulreprezentálja**:
+  - az **R5 Inkluzivitás** rubrika-sor »Oké« szintje csak »1 nevezett akadály +
+    1 konkrét alternatív belépési pont«-ot kér (KAPU sor 343/353) — a »3
+    inkluzivitási szempont« **sosem mérődik**;
+  - a »3–4 nyitott kérdés« kompetenciának a kapuban (sem kvíz, sem rubrika) **NINCS
+    önálló itemje vagy rubrika-sora**: a 12 itemből a trigger / kérdés-érzékenységet
+    csak 2 item (11, 12) érinti, a »3–4 kérdés generálása« **produktum-szintű mérése
+    hiányzik**.
+
+  Így a kapu **nem méri a kimondott mastery-célok egy részét**.
+- **Javaslat (DÖNTÉS):** Vagy **igazítsd a kimeneti kompetencia-megfogalmazásokat** a
+  ténylegesen mért szinthez (»legalább 1«), vagy **emeld a rubrika/kvíz mérési
+  szintjét** a célhoz: R5 »Oké« = 2 akadály + variáció; külön rubrika-sor vagy item a
+  3–4 nyitott kérdés generálására. A cut-score / szint-átfogalmazás **emberi review-t**
+  érdemel.
+- **Forrás:**
+  - assessment-validity (construct coverage)
+  - id-alignment (mastery)
+
+---
+
+### 8. [D3] M7 KAPU — a BLOKKOLÓ gyerekvédelmi konstruktumra (R4) nulla kvíz-item esik (construct-validitási rés)
+
+- **Dimenzió:** D3 — konstruktum-validitás / item↔cél lefedettség (D3.1; D3.6)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M7/M7 – KAPU – értékelő (item-bank + rubrika).md`
+  → (A) ITEM-BANK Q1–Q12 (Blokk 4 etikus AI: Q10–Q12) szemben a (B) rubrika **R4
+  blokkoló** + R7 sorral és a 35. sori lefedettség-állítással
+- **Probléma:** A kvíz (12 item) lefedettsége: SMART, 11 pont, Zmán Kvucá-checklist,
+  etikus AI — **de a kapu BLOKKOLÓ gyerekvédelmi konstruktumára (R4) NULLA item esik:**
+  nincs item a red-flag-eljárásra, eszkalációs láncra vagy disclosure-elvekre. Így a
+  „fogalmi belépő” **épp azt a tudásalapot nem igazolja**, amit a produktum-rubrika
+  blokkolóként kapuz. Ráadásul a 33. sor elvárása („minden mastery-kulcscélnak van
+  legalább egy itemje”, D3.1) **sérül**: az R4-kulcscél item nélkül marad.
+- **Javaslat (DÖNTÉS):** Legalább **1–2 szcenárió-alapú (SJT, D3.6) item** felvétele a
+  gyerekvédelmi alaplépésre (red flag → mit teszel / mit NEM teszel / kit vonsz be),
+  best-response kulccsal, és **cél→item tábla kitöltése**, hogy R4 ne maradjon
+  alul-reprezentálva. (A safeguarding tartalmi megalapozása maga **D7-döntés**.)
+- **Forrás:** —
+
+---
+
+### 9. [D2] Korosztályi / fejlődéslélektani alapismeret árva-alátámasztatlan — M6 és M7 R2 méri/kapuzza, a curriculum sehol nem tanítja explicit
+
+- **Dimenzió:** D2 — constructive alignment (tanítva vs. mérve)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M6/M6 – „Toolbox_ játék, történet, kézműves & inkluzivitás”.md`
+  → M6 §2 (1. kimeneti kompetencia, „6–10 / 11–13 / 14–16 / 16+”) és **M6 KAPU R2**;
+  továbbá `02 Tervezet/MODULOK/M7/M7 – KAPU – értékelő (item-bank + rubrika).md` **R2
+  level-3** („életkori / korosztályi sajátosság”), M7 áttekintő §6 rubrika 2. sor;
+  `CURRICULUM-IV` unsupported #17
+- **Probléma:** A korosztályi / fejlődéslélektani alapismeret (6–10, 11–13, 14–16,
+  16+ életkori sajátosságok) **ÁRVA-ALÁTÁMASZTATLAN**: az M6 mérőeszköze (eszköz↔
+  korosztály illesztés, R2 sor) és az M7 Peula v2 rubrika (R2 korosztály-illeszkedés,
+  level-3) **MÉRI / KAPUZZA**, de a curriculum **SEHOL nem TANÍTJA** explicit. Az M3 a
+  someres kvuca-PROFILOKAT (Parparim / Kivsza / Leviatan / Zorea) tanítja, ami someres
+  **archetípus, NEM életkori fejlődéslélektan** — maga az M6 áttekintő is „csak
+  röviden ismételve, nem tanítva”-ként jelöli (M6 §Feltételez). Az M7 R2 level-3
+  ráadásul **össze is mossa** a kettőt: „az M3-ban tanult kvuca-profil mentén” életkori
+  sajátosságot kér számon, amit az M3 nem ad meg. Constructive alignment sérül: a
+  tanuló **olyan tudásra van kapuzva, amihez nem kap tanítást**.
+- **Javaslat (DÖNTÉS):** Vagy az **M3-ba** (korosztály-mátrix produktum köré) emelj be
+  egy explicit életkori / fejlődéslélektani tanító elemet, amely a 6–10 / 11–13 /
+  14–16 / 16+ sávokat a someres profilokhoz köti, VAGY az **M6 elejére** tegyél egy
+  rövid korosztály-tanító leckét. Ennek hiányában az M6 R2 és az M7 R2 **nem-tanított
+  konstruktumot mér**. (Curriculum-ív strukturális kérdés.)
+- **Forrás:** —
+
+> **Megj.:** Ütközik a kör 2 / 2. tétellel: a `CURRICULUM-IV` szinkron-tétel szerint a
+> korosztály-tanítás a **mai modulfájlokban már részben tanítva van** (M3.2 SLIDE 5B).
+> A 9. tétel az M6/M7 R2 **mérési oldaláról** vetít — döntéskor a kettőt
+> össze kell olvasni (tényleg tanítva van-e az M6/M7 R2 által mért konstruktum, vagy
+> az M3.2 5B csak a hub-szintet fedi).
+
+---
+
+### 10. [D3] M7 KAPU — a peula-dramaturgia (4 fázis) FELTÉTELEZETT és MÉRT, de a curriculumban korábban nem tanított
+
+- **Dimenzió:** D3 — konstruktum-validitás (feltételezett előtudás ↔ mért konstruktum)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M7/M7 – KAPU – értékelő (item-bank + rubrika).md`
+  → M7 KAPU **R3** (level-2/3: „bevezetés–élmény–feldolgozás–zárás ív”), kvíz **Q4**
+  (11 pont 3 fázisa); M7 áttekintő §2.2 („Azonosítja a Peula 11 pontjának fázisait”);
+  `CURRICULUM-IV` unsupported #21
+- **Probléma:** A peula-dramaturgia (4 fázis: bevezetés–élmény–feldolgozás–zárás)
+  **FELTÉTELEZETT és MÉRT, de nem TANÍTOTT**. Az M7 áttekintő §Feltételez expliciten
+  „Alap peula-fogalom és -felépítés (korábbi programírás-alap)”-ra hivatkozik, ami a
+  curriculumban **NEM létezik**: az M4 pitch 5 kérdéses (nem fázis-szerkezet), az M5
+  tervezési táblázat, az M6 egyetlen játéklap — **egyik sem tanítja** a teljes peula
+  4-fázisú dramaturgiáját. Az M7 R3 rubrikasor és a kvíz mégis a **fázis-ív
+  felismerését** kéri. Konstruktum-validitás: a kapu a saját tanítása **ELŐTT**
+  feltételezi és méri a fázisszerkezetet.
+- **Javaslat (DÖNTÉS):** Vagy az **M5 / M6-ba** építs be egy minimál
+  peula-dramaturgia (4 fázis) tanító elemet, amire az M7 Peula 11 pont épülhet, VAGY az
+  **M7-be** tegyél explicit fázis-tanító micro-blokkot a Peula 11 pont előtt. Az M7
+  §Feltételez **ne hivatkozzon** nem létező „korábbi programírás-alap”-ra.
+- **Forrás:** —
+
+> **Megj.:** Átfed a kör 1 / 7. és a kör 2 / 2. tétellel. A `CURRICULUM-IV`
+> szinkron-tétel szerint a 4-fázist az **M7.2 lecke már tanítja** a KAPU előtt — ha ez
+> a mai forrásban igaz, a 10. tétel megoldása részben az **M7 §Feltételez
+> átfogalmazása** (ne hivatkozzon „korábbi programírás-alap”-ra), nem új tanító elem.
+
+---
+
+### 11. [D4] M2 identitás-térképezés árva kompetencia — egyetlen későbbi modul sem erősíti/alkalmazza újra mint kompetenciát
+
+- **Dimenzió:** D4 — produktumlánc / árva kompetencia
+- **Fájl / hely:** `02 Tervezet/MODULOK/M2/M2 – „Ki vagyok madrichként_” – Identitás, Somer-értékek és dugma ishit.md`
+  → M2 §2 (identitás-körök, érték→viselkedés) + §6 portfólió-átkötés; kompetencia-térkép
+  (`CURRICULUM-IV`): „Identitás-körök – Tanítva: M2, Erősítve: —”; M7 KAPU CAPSTONE-tábla
+- **Probléma:** **ÁRVA KOMPETENCIA:** az M2 identitás-térképezés (identitás-körök +
+  érték→viselkedés) tanítva és produktumba öntve (1 oldalas identitás-jegyzet), de a
+  produktumlánc szempontjából **zsákutca** — egyetlen későbbi modul SEM erősíti /
+  alkalmazza újra az identitás-térképezést **mint kompetenciát** (Erősítve: —).
+  **Részben enyhítve:** az M2 §6 és az M7 KAPU CAPSTONE-tábla már beköti a választott
+  someres **ÉRTÉKET** a SMART cél R-eleméhez (R1 „someres értékhez kötött”). **DE:**
+  (a) ez csak az **érték-mondatot** horgonyozza, magát az **identitás-térkép
+  kompetenciát** nem; (b) a Z reflexió **nem méri** az M2-höz viszonyított
+  identitás-elmozdulást. A blended-ív így a madrich-identitásnál **cél-szakadást** mutat.
+- **Javaslat (DÖNTÉS):** Erősítsd a horgonyt: vagy az **M4 kiállás/pitch** kösse vissza
+  a madrich saját értékéhez / dugma ishitjéhez, vagy a **Z záró-reflexió** kérje számon
+  az M2-höz mért identitás-elmozdulást (M0→Z szemléletváltás analógiájára). Így az
+  identitás-térkép **nem csak az M2 érték-mondatként, hanem kompetenciaként is
+  továbbél**.
+- **Forrás:** —
+
+---
+
+### 12. [D2] M0 belépő-quiz — gyerekvédelmi viselkedés-cél Bloom-szintje > a quiz mérési szintje (felidéző item < alkalmazási cél)
+
+- **Dimenzió:** D2 — cél↔értékelés illeszkedési rés (D2.5 + D3.1; Bloom-szint eltérés D2.4)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M0/M0 – „Kickoff, keret, technika”.md`
+  → 2. Kimeneti kompetenciák (20–44. sor) vs. 5. Kapuk M0 belépő-quiz (132–138. sor)
+- **Probléma:** **Cél↔értékelés illeszkedési rés** (D2.5 + D3.1). A modul 2.
+  kompetenciája explicit **gyerekvédelmi viselkedés-célt** fogalmaz meg („meg tudja
+  különböztetni, mi NEM az ő feladata… nem egyedül visz gyerekvédelmi ügyet”, 30. sor),
+  és a quiz-témák között szerepel a „jelzési út gyerekvédelmi ügyben” (137. sor).
+  Viszont a quiz csak „6–8 egyszerű kérdés (true/false + feleletválasztás)” szintű, ami
+  **felidéző / megértő Bloom-szint** — a gyerekvédelmi cél **viselkedés / alkalmazás
+  szinten** kimondott, de az értékelés **nem alkalmazási / elemzési** (D2.4: item
+  Bloom-szint < cél Bloom-szint). A 4. kompetencia (puha / éles kapu különbség) jól
+  mért M0.3-ban, de a **gyerekvédelmi cél mérése aluldimenzionált** a célhoz képest.
+- **Javaslat (DÖNTÉS):** Az M0 belépő-quizbe (vagy az M0.2 aktivitásába) kerüljön
+  **legalább egy szcenárió-alapú, döntést kérő item** a gyerekvédelmi jelzési útról
+  (van ilyen az M0.2 SLIDE 3-ban, de az **nem kapuzott**) — a kompetencia-cél
+  Bloom-szintjének megfelelő mérés. **Tevékenység-redesign, emberi tervezést igényel.**
+- **Forrás:** —
+
+---
+
+### 13. [D3] M1 KAPU — a sor-szintű ≥1 (különösen az I/hatás) kapu-garancia a Moodle-ban nem automatizálható; kétképzős kalibráció nélkül kompenzálható
+
+- **Dimenzió:** D3 — mastery-kapu construct-validitás (D3.1) + cut-score védhetőség (D3.8) + kalibráció (D3.7)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M1/M1 – KAPU – értékelő (item-bank + rubrika).md`
+  → 0. szakasz fejléc (17. sor) és 5. Moodle-gyorslista (279. sor): „A Moodle natívan
+  az összpontot kapuzza; a »minden sorban ≥1« szabályt a képző a pontozáskor
+  érvényesíti”. Ugyanez **M1.4-ben** (238. sor).
+- **Probléma:** A kapu **kulcsbiztosítéka** („egyik SBI-elem, különösen az I/hatás, sem
+  hiányozhat teljesen”) kizárólag a **sor-szintű ≥1** feltételen áll, ám a fájl maga
+  elismeri, hogy ezt a Moodle **automatikusan NEM tudja kapuzni** — csak az 5/8
+  összpontot. Így a tényleges automatizált kapu **átengedhet** olyan beadványt, ahol pl.
+  az **I (hatás) sor 0**, ha a többi sor kompenzál (pl. 2+2+0+2=6 ≥5). A validitási
+  garancia teljes egészében a **képző kézi, kalibrálatlan-kockázatú ellenőrzésére**
+  hárul, dokumentált **kétképzős kalibráció (D3.7 cél) nélkül**. Ez a mastery-kapu
+  **construct-validitását (D3.1)** és a **cut-score védhetőségét (D3.8)** gyengíti.
+- **Javaslat (DÖNTÉS):** Architektúra-döntés: vagy állítsd be a sorszintű minimumot
+  **technikailag** (pl. Moodle conditional / külön „I-sor ≥1” feltétel workflow-val,
+  vagy a hatás-sort **önálló pass/fail kérdésként**), vagy tedd **kötelezővé a
+  kétképzős kalibrációt** minden határeset-beadványra, dokumentált eljárással. A
+  jelenlegi „a képző majd figyel rá” **nem reprodukálható kapu**.
+- **Forrás:** —
+
+---
+
+### 14. [D3] M2 KAPU — a hub 3-értékes kimeneti kompetenciája vs. a rubrika 1 kiemelt értéke (cél↔item alulreprezentáció)
+
+- **Dimenzió:** D3 — konstruktum-/illeszkedési ellentmondás (D3.1)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M2/M2 – KAPU – értékelő (item-bank + rubrika).md`
+  → C. szakasz rubrika **R2 sor** (173. sor) vs. modul-hub **2. kompetencia** (M2-hub
+  28–31. sor: „Kiválaszt 3 személyes értéket”) és **M2.2 lecke** (3 vezető érték)
+- **Probléma:** **Konstruktum-/illeszkedési ellentmondás** a mastery-produktum és a
+  kimondott kompetencia között (D3.1): a hub 2. kompetenciája **3 érték + mindegyikhez
+  viselkedés** megfogalmazását követeli, az M2.1–M2.2 leckék is 3 értéket tanítanak /
+  gyakoroltatnak, a kapu-rubrika **R2 viszont csak 1 kiemelt értéket** horgonyoz le. A
+  hub maga jelzi („a másik kettő a feltáró munkát gazdagítja”), de ez azt jelenti, hogy
+  a **3-értékes kimeneti kompetencia 2/3-a** se a rubrikában, se máshol **nincs mérve**
+  — lefedetlen cél / alul-reprezentáció a kapuban.
+- **Javaslat (DÖNTÉS):** Döntés: vagy a kimeneti kompetenciát **igazítják 1 kiemelt
+  értékre** (a 3 érték explicit „feltáró, nem mért” státuszba kerül a 2. kompetenciánál
+  is), vagy a **rubrika / self-check kiterjed a 3 érték→viselkedés** leképezésre. A
+  jelenlegi **szövegszintű mentegetés nem old fel** egy cél↔item alul-reprezentációt.
+- **Forrás:**
+  - assessment-validity
+  - id-alignment
+
+---
+
+### 15. [batch összegzés] Visszatérő architektúra-minta: a kapuk a hub-szintű mennyiségi/blokkoló célok egy részét nem (vagy nem determinisztikusan) mérik
+
+- **Dimenzió:** D3.1 / D3.8 / D2 (kereszt-modul minta)
+- **Fájl / hely:** M0 / M1 / M2 / M6 / M7 KAPU + hub-fájlok (lásd 6–14. tételek hivatkozásai)
+- **Probléma (összegző, nem önálló új találat):** A 6–14. tételekből kirajzolódik egy
+  **ismétlődő minta**: több modulban a **hub-szintű kimeneti kompetencia** (mennyiségi
+  cél — 3 érték, 3 inkluzivitási szempont, 3–4 nyitott kérdés — vagy blokkoló
+  konstruktum — R4 gyerekvédelem, I/hatás-sor) **ígéretesebb / szigorúbb**, mint amit a
+  hozzá tartozó **kapu ténylegesen, determinisztikusan mér**. A rés vagy
+  **alulreprezentáció** (M2 R2, M6 R5, M7 R4), vagy **nem-automatizálható garancia**
+  (M1 sor-szintű ≥1), vagy **completion ↔ küszöb ellentmondás** (M0).
+- **Javaslat (DÖNTÉS):** Egy **egységes kapu-filozófiai döntés** ajánlott a stáb/
+  architektúra-review szintjén: rögzítsék, hogy a hub-kompetenciák **(a) mind
+  kapuzandók** (akkor a rubrika/kvíz emelendő a célhoz), vagy **(b) explicit
+  szétválasztják** a „mért mastery-magot” a „feltáró/gazdagító” céloktól (akkor a hub
+  szövegét kell e státuszhoz igazítani). A modulonkénti megoldás (6–14.) legyen e
+  közös elv leképezése, ne ad-hoc.
+- **Forrás:** —
