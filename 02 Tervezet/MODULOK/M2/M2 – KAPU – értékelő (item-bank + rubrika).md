@@ -84,10 +84,10 @@ A jegyzetedbe a „felelősség” értéket írtad. Melyik megfogalmazás **vis
 
 Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mutat **leginkább dugma ishitet a zionizmus pillérében**, ahogy az M2.3 tanítja?
 
-- A) Gyorsan lezárod a témát, mert kínos, és áttérsz egy játékra.
-- B) Elmondod a saját, „helyes” véleményedet, és lezárod a vitát vele.
+- A) Gyorsan lezárod a témát, mert kínos, áttérsz egy játékra, és nem engeded vissza a vitát.
+- B) Elmondod a saját, „helyes” véleményedet, lezárod vele a vitát, és nem kéred ki a többiek nézőpontját.
 - C) **Teret adsz mindkét nézőpontnak, kérdezel, kereteket tartasz**, és közben vigyázol az emberi méltóságra és a békés hangnemre. ✅
-- D) Megvárod, míg maguktól abbahagyják, és nem szólsz bele.
+- D) Megvárod, míg maguktól abbahagyják, nem szólsz bele, és a feszültséget keret nélkül hagyod kifutni.
 
 > **Feedback:** ✅ **C.** A Somerben a zionizmus **kapcsolat + kritikus gondolkodás + emberi méltóság/béke** – ez a vitavezetés *módjában* látszik. Az A elkerülés, a B a saját igazság ráerőltetése, a D pedig keret nélkül hagyja a feszültséget – egyik sem mutat tudatos, someres példát. A jegyzeted 5. pontjához érdemes egy ilyen konkrét helyzetet kötni.
 
@@ -95,10 +95,10 @@ Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mut
 
 Egy 12 éves chanichod késő este privátban ír: *„Senki nem ért meg. Minden rossz. Te vagy az egyetlen, aki normális.”* Melyik a **felelős, határtartó** első lépés, amit a jegyzeted határ-részében is modellezel?
 
-- A) Egész éjjel chatelsz vele, amíg jobban nem lesz – nem hagyhatod magára.
+- A) Egész éjjel chatelsz vele privátban, amíg jobban nem lesz, és senki másnak nem szólsz, mert nem hagyhatod magára.
 - B) **Adsz egy rövid, empatikus választ, nappali/hivatalos csatornára tereled, és jelzel a mentornak/felelősnek – nem maradsz egyedül vele.** ✅
-- C) Nem válaszolsz, mert ez már nem a te dolgod, és túl nagy teher.
-- D) Megígéred neki, hogy ez kettőtök titka marad, és majd te megoldod.
+- C) Nem válaszolsz neki, mert ez már nem a te dolgod, túl nagy teher, és nem a te felelősséged megoldani.
+- D) Megígéred neki, hogy ez kettőtök titka marad, magad próbálod megoldani, és nem vonsz be felnőttet.
 
 > **Feedback:** ✅ **B.** Ez a *„nem terapeuta, de megbízható felnőtt”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyerekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. self-check pontjánál.
 
@@ -150,10 +150,10 @@ M2.4 központi gondolata, hogy a határtartás maga is **dugma ishit**. Miért *
 
 Közös hanuka-programon valaki odaszól: *„Ez az egész zsidó dolog tök ciki.”* Egy másik chanich vallásos hangon leteremti, többen feszengeni kezdenek. Melyik viselkedés mutat **leginkább dugma ishitet a humanista zsidóság pillérében**, ahogy M2.3 tanítja?
 
-- A) Igazat adsz a vallásos chanichnak, és megmondod, hogy tisztelni kell a hagyományt, pont.
-- B) Gyorsan továbblépsz a programban, hogy oldódjon a kínos helyzet.
+- A) Igazat adsz a vallásos chanichnak, megmondod, hogy a hagyományt tisztelni kell, pont, és a többi élményt nem engeded szóhoz.
+- B) Gyorsan továbblépsz a programban, hogy oldódjon a kínos helyzet, és a felszínre került feszültséget szó nélkül hagyod.
 - C) **Teret adsz többféle zsidó élménynek, kérdezel, és úgy keretezed, hogy a hagyomány nyitottsággal és emberi méltósággal is összefér.** ✅
-- D) Igazat adsz a beszólónak, hogy tényleg fölösleges az egész, csak legyen béke.
+- D) Igazat adsz a beszólónak, hogy tényleg fölösleges az egész, csak legyen béke, és a vallásos chanich érzését figyelmen kívül hagyod.
 
 > **Feedback:** ✅ **C.** M2.3 a humanista zsidóságot így tanítja: nem azt méri, ki mennyire vallásos, hanem **emberi méltóság, nyitottság**, és hogy többféle zsidó élménynek legyen tere. A C pontosan ezt a keretezést mutatja. Az A az egyik oldal igazságát erőlteti rá a csoportra, a D a másik szélsőséget hagyja jóvá, a B pedig keret nélkül elkerüli a helyzetet – egyik sem mutat nyitott, méltóság-központú példát. A jegyzeted R3 sorához köthetsz egy ilyen konkrét ünnep-helyzetet.
 
