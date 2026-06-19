@@ -210,7 +210,7 @@ A modul végére a madrich…
      5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható chanich-sztorik.
    * **Követelmény:**
      * min. **70%** összpontszám, vagy minden kritikus rubrika-sorban legalább „alapszint / rendben”.
-2. **Moodle Quiz – „SMART & Zmán Kvucá” (kiegészítő kapu, rövid)**
+2. **Moodle Quiz – „SMART & Zmán Kvucá”** **(kötelező 2. rész a kétrészes mastery-kapuban – ≥80%; fogalmi belépő, de a teljesítése is feltétel, mindkét részt teljesítened kell)**
    * **12 item**: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.4 tartalma; a részletes item-bank: „M7 – KAPU” §A).
    * **Követelmény:** **≥80% (12 itemből ≥10 jó)**, **2–3 próbálkozás** engedélyezve, kérdés- és válasz-randomizálással.
 

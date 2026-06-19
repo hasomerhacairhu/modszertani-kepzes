@@ -182,14 +182,15 @@ A modul végére a madrich…
 
 * **Eszköz:** Moodle Workshop vagy Assignment + peer feedback (M6 játéklap feladat). 
 * **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
-* **Rubrika fő sorai:**
-  1. **Cél & kvuca illeszkedése** – világos-e, kinek és mire való az eszköz?
-  2. **Leírás & strukturáltság** – érthető-e a folyamat, időkeret, lépések.
-  3. **Biztonság & inkluzivitás** – van-e konkrét biztonsági megjegyzés és legalább 2–3 inkluzív variáció.
-  4. **Somer-érték kapcsolódása** – 1 mondat arról, milyen someres értéket tanít az eszköz (kvuca, egalitás, társadalmi felelősség, stb.). 
+* **Rubrika fő sorai** (a mérvadó **5 soros (R1–R5)** rubrika a [KAPU-fájlban](./M6%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) él – itt csak az áttekintés):
+  1. **R1 – Cél-illeszkedés** – világos-e, mit tanít / mire való az eszköz; **„erős” szinten 1 mondatban a someres értékhez (kvuca, egalitás, társadalmi felelősség) is kapcsolódik**.
+  2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (6–10 / 11–13 / 14–16 / 16+) + létszámot, és életkorilag védhető-e az eszköz**.
+  3. **R3 – Leírás végrehajthatósága** – érthető-e a folyamat, időkeret, lépések, eszközök; **egy másik madrich el tudná-e indítani**.
+  4. **R4 – Biztonság** *(**hard-gate**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / consent biztonsági megjegyzés.
+  5. **R5 – Inkluzivitás** *(**hard-gate**)* – van-e legalább 1 nevezett akadály **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. 
 * **Követelmény:**
-  * rubrikában min. „oké” szint minden sorban,
-  * ha a „Biztonság & inkluzivitás” sor nem éri el az „oké” szintet → javítás kötelező (mentorral / staffal egyeztetve). 
+  * rubrikában min. „oké” (2) szint **minden sorban**,
+  * **a Biztonság (R4) ÉS az Inkluzivitás (R5) sor egyaránt hard-gate**: ha **bármelyik** nem éri el az „oké” szintet → javítás kötelező (mentorral / staffal egyeztetve), a többi sortól függetlenül. 
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának – az M7 Peula v2-ben ez adja a peula „Élmény-blokk” pontját, a biztonsági és inkluzivitási megjegyzések pedig becsatlakoznak a Zmán Kvucá-checklistbe. 
 
