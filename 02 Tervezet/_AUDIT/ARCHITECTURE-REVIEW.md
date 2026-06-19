@@ -190,3 +190,172 @@
 - **Forrás:**
   - `02 Tervezet/MODULOK/M3/…Csoportdinamika….md` §2.1 + §6
   - `02 Tervezet/_AUDIT/CURRICULUM-IV.md` 25–26., 58. sor
+
+---
+
+## Deep-audit kör 2
+
+> Második deep-audit kör (kelt: 2026-06-19). Az alábbi tételek szintén **emberi
+> DÖNTÉST igényelnek** — tananyag-forrás nem módosul, csak ez a döksi.
+> Hozzáadott dimenzió-kódok ehhez a körhöz:
+> - **D3.1** — item↔cél illeszkedés (konstruktum-lefedettség, nem-túlreprezentáció)
+> - **D3.2** — egy védhető helyes válasz / kulcs egyértelműsége
+> - **D3.8** — build-ready küszöb + remediáció + determinisztikus kapu-logika
+
+### 1. [D3.1] M0 belépő-quiz: itemek ténylegesen nincsenek megírva — a kapu nem build-ready, item↔cél nem ellenőrizhető
+
+- **Dimenzió:** D3.1 — item↔cél illeszkedés (kihat D3.2-re és D3.8-ra is)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M0/M0 – „Kickoff, keret, technika”.md`
+  → 5. Kapuk → „Moodle Quiz – M0 belépő-quiz” (132–138. sor). A kvízt az
+  **M0.3 SLIDE 6** és az **M0 overview** is hivatkozza mint éles, kapus mérőeszközt.
+- **Probléma:** Az M0 belépő-quiz (a modul completion **egyik feltétele**) sehol nincs
+  ténylegesen kidolgozva: csak témamegjelölés van („madrich vs. terapeuta”, „jelzési
+  út”, „puha vs. éles kapu”, „hol találom a modulokat”) és „6–8 egyszerű kérdés
+  (true/false + feleletválasztás)”. **Nincsenek megírt itemek**, nincs dokumentált
+  helyes-válasz kulcs, nincs cél→item leképezés. Így a **D3.1** (item↔cél illeszkedés),
+  a **D3.2** (egy védhető helyes válasz) és a **D3.8** (explicit cut-score indoklás)
+  sem ellenőrizhető. A „ajánlott minimum 60–70%” küszöb **kerek szám**,
+  kritérium-referenciás indoklás nélkül. Az éles kapus mérőeszköz **nem build-ready**.
+- **Javaslat (DÖNTÉS):** A belépő-quiz itemeit ténylegesen meg kell írni (lead-in,
+  opciók, kulcs, distraktor-logika), **minden mastery-kulcscélhoz legalább 1 item**,
+  NBME-flaw-mentesen, dokumentált helyes-válasz kulccsal és kritérium-referenciás
+  cut-score-indoklással. Ez tananyag-szerzői / architekturális munka, **nem
+  biztonságos auto-edit**.
+- **Forrás:**
+  - assessment-validity (construct validity, Angoff cut-score)
+
+> **Megj.:** Ez a tétel részben átfed a kör 1 / 1–2. tételeivel (M0-quiz nem
+> build-ready, item↔cél nem ellenőrizhető), de **élesíti** azt: itt a kifejezett
+> elvárás az itemek tényleges megírása answer-key-vel, cél→item leképezéssel és
+> kritérium-referenciás cut-score-ral. A két kör együtt olvasandó.
+
+---
+
+### 2. [D4] CURRICULUM-IV.md (és párhuzamosan a GAP-MAP.md) érdemben ELAVULT — aktívan félrevezet a hatókör-feltérképezésben
+
+- **Dimenzió:** D4 — curriculum-ív / kompetencia-lefedettség (audit-riport karbantartás)
+- **Fájl / hely:** `02 Tervezet/_AUDIT/CURRICULUM-IV.md` — teljes fájl; kiemelten:
+  - fejléc „Koherencia-találatok: 🔴 3 · 🟡 7”;
+  - 17–18. sor (🔴 unsupported korosztály), 21–22. sor (🟡 unsupported 4-fázis),
+    23–24. sor (🔴 orphan M2-identitás), 31–34. sor (🔴 capstone-gap + 🟡 horgonyzás);
+  - Kompetencia-térkép 80–82. sor (Tanítva-oszlop üres: peula-4-fázis, korosztály, Gen Alpha)
+- **Probléma:** A program-szintű koherencia-audit (`CURRICULUM-IV.md`) **érdemben
+  elavult** a tényleges modulfájlokhoz képest, és ezért **aktívan félrevezet**. A git
+  history igazolja: az audit-riportot az `e61cee4 docs(audit)` commit hozta létre, majd
+  a **későbbi** `6f3c82b fix(curriculum): koherencia-szakadások — korosztály-tanítás,
+  portfólió-átkötések, capstone` commit a benne diagnosztizált hibákat a tényleges
+  modulokban javította, **de a riportot senki nem frissítette**. A riportban még
+  🔴/🟡-ként szereplő alábbi hibák a valós fájlokban **MÁR MEG VANNAK OLDVA:**
+  - (a) a korosztályi / fejlődéslélektani alapismeret most **explicit TANÍTVA** —
+    **M3.2 SLIDE 5B** „Korosztály → fejlődés → madrich-implikáció” referencia-táblázat a
+    6–10 / 11–13 / 14–16 / 16+ sávokat fejlődési jellemzőkhöz köti és előrekapcsol M6-ra;
+  - (b) a peula 4-fázisú dramaturgiát az **M7.2** lecke már explicit tanítja, mielőtt az
+    M7 KAPU mérné;
+  - (c) a „Gen Alpha” rubrikasor az **M7 KAPU**-ból eltűnt, helyette „az M3-ban tanult
+    kvuca-profil mentén” életkori sajátosság;
+  - (d) a portfólió-átkötések (M1/M2/M3/M5/M6 → M7 Peula v2) megvannak az **M7
+    áttekintő §PORTFÓLIÓ-BEMENET** és az **M7 KAPU §CAPSTONE** tábláiban, és egyeznek;
+  - (e) a capstone-leadás **horgonyzva van** („NEM csúszik a modulon kívülre, a Z nem
+    helyettesíti”) — miközben a `CURRICULUM-IV` 33. és 137. sora **MÉG** a „modulon
+    KÍVÜLi, későbbi végleges verzió Workshop”-ot írja le.
+
+  Egy stábtag, aki ezt az audit-anyagot olvassa a hatókör feltérképezéséhez, **hamis
+  hibalistát és hamis kompetencia-térképet kap**.
+- **Javaslat (DÖNTÉS):** Futtasd újra a program-szintű koherencia-auditot a **jelenlegi**
+  modulfájlokon; **vagy** láss el a `CURRICULUM-IV.md` (és a párhuzamosan elavult
+  `GAP-MAP.md`) tetejére egy explicit **verzió- / dátum- / commit-bélyeget +
+  figyelmeztetést**, hogy a `6f3c82b` előtti állapotot tükrözi. Minimum a már lezárt
+  🔴/🟡 tételeket (korosztály-tanítás, 4-fázis, Gen Alpha, M2-orphan, capstone-átkötés,
+  horgonyzás) jelöld **RESOLVED**-ként, hogy ne kerüljenek újra javítási sorba. **Nem
+  egyszerű szövegcsere:** a kompetencia-térkép Tanítva / Erősítve / Mérve oszlopait újra
+  kell vezetni.
+- **Forrás:**
+  - git log: `e61cee4 docs(audit)` → `6f3c82b fix(curriculum)`
+  - M3.2 SLIDE 5B referencia-táblázat (235–254. sor)
+  - M7.2 lecke 4-fázis (288 / 315. sor)
+  - M7 KAPU CAPSTONE-tábla (323–335. sor)
+
+> **Megj.:** Ez a tétel **felülírja** a kör 1 / 6. és 7. tételének súlyozását: az ott
+> „unsupported competency”-ként jelölt korosztály- és 4-fázis-hiányok a **mai
+> modulfájlokban már tanítva vannak** (M3.2 SLIDE 5B, ill. M7.2). A kör 1 / 6–7.
+> találat a `CURRICULUM-IV.md` elavult állapotán alapult; a tényleges javítási feladat
+> elsősorban az **audit-riport szinkronizálása**, nem új tanító elem beépítése.
+
+---
+
+### 3. [D3.8] M3 gate — a „kötelező kritikus item (2,4,7,9)” szabály nincs determinisztikusan implementálva
+
+- **Dimenzió:** D3.8 — build-ready küszöb + determinisztikus kapu-logika (biztonságkritikus)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M3/M3 – KAPU – értékelő (item-bank + rubrika).md`
+  → 1.2 Pontozás és küszöb, 57. sor
+- **Probléma:** A **biztonságkritikus** M3 gate „kötelező kritikus item (2,4,7,9)”
+  szabálya nincs determinisztikusan implementálva. A fájl maga elismeri, hogy a Moodle
+  natívan **nem tud item-szintű pass-feltételt**, és három, **nem ekvivalens**
+  alternatívát kínál (kritikus itemek súlyozása 2 pontra + arányos küszöbemelés VAGY
+  mentori utóellenőrzés), a döntést a stábra hagyva. A súlyozott megoldás
+  **matematikailag nem zárja ki**, hogy valaki egy kritikus itemet elvétve mégis elérje
+  a küszöböt (a hiányzó kritikus pont **kompenzálható** nem-kritikus itemekkel), tehát a
+  „tévesztése akkor is bukás” ígéret **nem garantált**. Gyerekvédelmi kapunál a
+  kritikus-item-szabály érvényesítése **nem maradhat** „a stáb döntése, dokumentáld”
+  szinten.
+- **Javaslat (DÖNTÉS):** Determinisztikus implementáció kell: vagy a 4 kritikus itemet
+  külön **„all-or-nothing” Quiz-szekcióba** szervezni (kötelező 4/4 + külön ≥80% a
+  többire), vagy a Moodle gradebook „conditional” / locked-feltételével, vagy **explicit
+  kötelező mentori review-checklisttel minden átmenőnél**, amíg a tényleges
+  LMS-konfiguráció nem garantálja. Az architektúrát a **gyerekvédelmi felelőssel együtt**
+  kell véglegesíteni.
+- **Forrás:**
+  - https://learning.nspcc.org.uk/child-abuse-and-neglect/recognising-and-responding-to-abuse
+
+---
+
+### 4. [D3.2] M3 gate — ITEM 2 (kritikus) és ITEM 8 ugyanazt a titoktartás-konstruktumot duplikálja
+
+- **Dimenzió:** D3.2 — egy védhető helyes válasz / konstruktum-lefedettség (kihat D3.1-re)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M3/M3 – KAPU – értékelő (item-bank + rubrika).md`
+  → ITEM 2 (~79–93. sor) és ITEM 8 (~187–201. sor); lefedettség-tábla 1.1 (mindkettő a
+  „titoktartás” célhoz kötve)
+- **Probléma:** Az **ITEM 2 (KRITIKUS)** és az **ITEM 8** lényegében ugyanazt a
+  konstruktumot méri ugyanazzal a helyes-válasz mintával („nem ígérek titkot + elmondom
+  kinek-miért + nem hagylak egyedül”), sőt a tanulói feedbackjük is csaknem azonos. Az
+  **1.1 tábla** is mindkettőt a „Nincs 100% titoktartás” sorhoz rendeli. Ez
+  **konstruktum-túlreprezentáció (D3.1)** és gyengíti a 12-itemes lefedettség valódi
+  szélességét: két item egy fogalmat duplikál, miközben a kötelező kritikus itemek
+  (2/4/7/9) súlya így a titoktartásra billen. **Nem** két egyformán védhető OPCIÓ egy
+  itemen belül, **hanem két item redundanciája** — de a kapu validitását érinti.
+- **Javaslat (DÖNTÉS):** Az item-bank felülvizsgálata: vagy **ITEM 8-at élesítsd egy
+  MÁS, jelenleg alulreprezentált célra** (pl. adatkezelés / megosztás-korlát „csak a
+  felelősnek, nem mindenkinek” önállóan), vagy **vond össze és helyettesítsd egy új
+  construct-tal**, hogy a 12 item ne duplikálja a titoktartás-konstruktumot. Mivel a
+  kapu-szerkezetet és a kritikus-item készletet érinti, **strukturális review**.
+- **Forrás:** —
+
+---
+
+### 5. [D3.8] M3 gate — a kritikus-item kapuzás súlyozásos fallback-je nem garantálja a „minden kritikus item helyes” feltételt
+
+- **Dimenzió:** D3.8 — cut-score / megkülönböztető-szint validitása (biztonságkritikus)
+- **Fájl / hely:** `02 Tervezet/MODULOK/M3/M3 – KAPU – értékelő (item-bank + rubrika).md`
+  → 1.2 pontozás (~57. sor) — „ha a Moodle nem tud item-szintű feltételt, a kritikus
+  itemek súlyozhatók 2 pontra és a küszöb arányosan emelhető – a stáb döntése”;
+  0. tábla „Kötelező kritikus itemek”
+- **Probléma:** A kapu **legbiztonságkritikusabb** logikája — a 4 kötelező kritikus item
+  (2,4,7,9) tévesztése akkor is bukás, ha az összpont ≥80% — **nincs garantáltan
+  implementálva**: a fájl maga ismeri el, hogy ha a Moodle nem tud item-szintű
+  feltételt, akkor a súlyozás „a stáb döntése”. A javasolt fallback (kritikus item 2
+  pontra súlyozása) **nem ekvivalens** a „minden kritikus item helyes” feltétellel: egy
+  2-pontos kritikus item elbukása az **emelt küszöbnél is kompenzálható** lehet más
+  itemekkel, így egy kritikus biztonsági állítás tévesztése **átcsúszhat**. Egy
+  biztonságkritikus mastery-kapunál ez a **cut-score / megkülönböztető-szint validitását
+  (D3.8)** érinti.
+- **Javaslat (DÖNTÉS):** Rögzítsd egyértelműen, melyik LMS-mechanizmus biztosítja az
+  item-szintű kötelező feltételt (pl. külön H5P / Moodle feltételes elérés, vagy mentori
+  utóellenőrzés **mint kötelező lépés, nem opció**), és **töröld vagy korlátozd a
+  súlyozásos fallback-et**, mert nem garantálja a kritikus-item kapuzást. **Strukturális
+  / assessment-architektúra döntés.**
+- **Forrás:** —
+
+> **Megj.:** A 3. és az 5. tétel ugyanarra a sorra (1.2 pontozás, ~57. sor) mutat, de
+> **eltérő dimenzióból**: a 3. a *determinisztikus implementáció* hiányát (D3.8 —
+> kapu-logika), az 5. a *súlyozásos fallback érvénytelenségét* (D3.8 — cut-score
+> validitás) emeli ki. Együtt kezelendők egyetlen LMS-architektúra döntésben.

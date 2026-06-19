@@ -245,5 +245,87 @@ egyenetlenül alkalmazva. Lásd SOMERES-FIDELITY 🟢 „elv-vs-gyakorlat" meger
 
 ---
 
+## Deep-audit kör 1 — kiegészítő tételek (mélyebb átvizsgálás)
+
+> A deep-audit 1. körének **további, mélyebb** átvizsgálásból származó, **döntést igénylő**
+> (review-eszkalációs) találatai. Az ügynök ezeket **nem zárta le** és **nem módosított
+> tananyag-forrásfájlt** — mozgalmi (someres) szakértői, pedagógiai stáb- vagy
+> jogi/adatvédelmi/szervezeti döntésre várnak. Tételenként:
+> dimenzió · fájl/hely · probléma · javaslat · forrás.
+
+### DA1.23 — D8.1 (adatvédelmi tájékoztató + tárolási korlát, M0 napló/kvíz/fórum)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M0/M0_ONLINE_LECKE/M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum".md` — 3. szakasz „Bemutatkozó fal" fórum leírás (292. sor) + minden Essay/Short Answer beágyazott kérdés (M0.1–M0.4)
+- **Probléma:** Nincs sehol plain-language adatvédelmi tájékoztató a napló-/kvíz-/fórum-indító ponton (milyen adat, mire, meddig, kihez fordulhat), és nincs tárolási-korlát/törlési folyamat megnevezve (D8.3 + D8.4 is sérül). A fórumleírás csak annyit mond, hogy a poszt „a csoportnak látszik", de nem mondja meg, meddig tárolódik, ki fér hozzá, hogyan törölhető. A reflexiós esszéknél csak „ezt csak a képzőid/mentorod látják" szerepel — ez nem teljes tájékoztató. Adatminimalizálási flag és célonkénti hozzájárulás hiányzik.
+- **Javaslat:** Emberi jóváhagyással: rövid, gyermek-nyelvű tájékoztató sablon a napló/kvíz/fórum indításához (mit, mire, meddig, kihez), megőrzési idő + törlési folyamat a haladási/reflexiós adatra. A sablon szövegezhető, de a megőrzési idő/jogalap jogi döntés — ezért nem auto-fix.
+- **Forrás:** GDPR 5(1)(c) adatminimalizálás, 5(1)(e) tárolási korlát; ICO Children's Code
+
+### DA1.24 — D6 (Kolb-ciklus — debrief/transzfer hiánya az M1 online leckében és peulában)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M1/M1_ONLINE_LECKE/M1.1 – Johari-ablak – vakfoltjaim felismerése.md` — M1.1 fájl 258–296. sor (napló debrief nélkül); M1.B fájl 213–234. és 256–283. sor (1-mondatos mini-debrief).
+- **Probléma:** Az M1.1 online mikrolecke élményalapú aktivitása (Slide 5 önreflexiós napló, „eszedbe jutott egy helyzet, amikor valaki mást mondott rólad") után NINCS strukturált debrief/transzfer — a Kolb-ciklus reflexiós→fogalmi→transzfer fázisai hiányoznak, a lecke a Check-kvízbe és outróba fut. Tágabban: a két fő peula közül az M1.A erős reflexióval zár, de az M1.B a trió-szerepjáték (élmény) után a debriefet szigorúan „szerepenként 1 mondatra" korlátozza (4.2.3, 231–234. sor), és a nagyköri feldolgozás is főleg élménymegosztás, kevés a fogalmi általánosítás/transzfer-strukturálás. Élményalapú, érzelmileg exponáló someres munkánál a debrief lerövidítése/kihagyása D6.1 sértés.
+- **Javaslat:** Someres review döntsön a Kolb-teljesség pótlásáról: az M1.1 napló után legalább 1 reflexiós + 1 általánosító prompt; az M1.B trió-körök után érdemibb, strukturált debrief (mi általánosítható, hová viszem). Az ügynök ne zárja le — D6.1 eszkalációs tétel.
+- **Forrás:** nonformal-youth (Kolb)
+
+### DA1.25 — D8.2 (korhatár + szülői hozzájárulás, M3 KAPU adatgyűjtő pontok)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M3/M3 – KAPU – értékelő (item-bank + rubrika).md` — Az egész modul adatgyűjtő pontjai: KAPU 0. tábla (Komponens A kvíz + Komponens B Assignment); M3.3 SLIDE 6 reflexió (Essay/Short Answer); M3.4 SLIDE 5 'Saját Do/Don't listám' + modulproduktum-helyzetleírás; M3.1 SLIDE 5 / M3.2 SLIDE 7 reflexiós mezők
+- **Probléma:** A modul végig személyes adatot rögzít (reflexiós naplók érzelmi tartalommal, kvíz-/mastery-haladás, modulproduktum-szöveg), és a célcsoport explicit 15+ — pont a GDPR Art.8 / ICO Children's Code 16-os (HU: 16) korhatár vonala. Sehol a 9 fájlban nincs korhatár-kezelés és nincs 16 alatti résztvevőre szülői/gondviselői hozzájárulás a reflexiós/kvíz-adatra. Megjelennek 'biztonságos megosztás' jellegű mondatok (M3.3/M3.4 🔒 doboz), de ezek nem pótolják a korhatár+hozzájárulás dimenziót. A rubrika D8.2-t kritikusnak jelöli: 'a fájl jelzi, hogy 16 alatt a szülő erősíti meg'.
+- **Javaslat:** Eszkaláció jogi/adatvédelmi döntésre: dokumentálni a minimum korhatárt, és 16 alatti madrichoknál szülői/gondviselői hozzájárulást a reflexiós napló + kvíz/mastery adatok kezelésére; a KAPU 0. táblába és az online intrókba beépíteni egy hozzájárulás/korhatár-sort. Nem auto-fixálható (jogi döntés), de blokkoló az élesítés előtt.
+- **Forrás:** —
+
+### DA1.26 — D3 (cut-score kritérium-referenciás indoklása, M5 KAPU)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M5/M5 – KAPU – értékelő (item-bank + rubrika).md` — 0. Kapu-meta (13–20. sor) + 'Miért 12 item' bekezdés (300. sor 'Küszöb-érzékenység')
+- **Probléma:** Cut-score nem kritérium-referenciásan indokolt (D3.8). A ≥80% (10/12) küszöböt a fájl matematikailag magyarázza ('80% = max 2 hiba fér bele', '12 itemnél kerek'), de NINCS kritérium-referenciás / Angoff-jellegű indoklás arra, hogy a 'minimálisan kompetens madrich' miért épp ezen a ponton húzandó meg, és nincs megkülönböztető-szint elemzés a 9/12 vs 10/12 határon. A rubrika D3.8 explicit tiltja a 'kerek szám' indoklást éles mastery-kapunál.
+- **Javaslat:** Adj kritérium-referenciás indoklást: fogalomcsaládonként mondd ki, hány item kihagyása jelez még elfogadható részleges megértést vs. nem (pl. 'mindhárom családban min. 3/4', nem csak globális 10/12), és kösd a küszöböt a 'minimálisan kompetens madrich' profiljához. Ez szervezeti/szakmai döntés → emberi review.
+- **Forrás:** —
+
+### DA1.27 — D6 (Kolb-ciklus — fogalmi általánosítás + transzfer hiánya, M5.A/M5.B)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M5/M5_PEULA/M5.A – „Suli, Somer vagy random_" – Hol tanulunk és hogyan_.md` — 4.4 Megosztás & tanulságok (259–304. sor) + 4.5 Zárókör
+- **Probléma:** Hiányos Kolb-ciklus (D6.1). A peula erős a konkrét tapasztalatban (3 sarok játék, átöltöztetés-poszter = fázis 1) és a reflexióban (fázis 2: 'mitől lett someresebb?'), de a 3. fázis (fogalmi összekötés/általánosítás a formális tanuláselmélethez) csak implicit, és a 4. fázis (transzfer/kipróbálás új helyzetben) a zárókörben puszta szándéknyilatkozatra ('a következő peulán figyelni fogok arra...') szűkül, gyakorlás nélkül. Ugyanez a minta M5.B-ben (4.4 zárókör) – a debrief megvan, de az absztrakciós lépés ki nem mondott. Ez ideológiai/someres mélységet érint → review.
+- **Javaslat:** Iktass be explicit általánosító mozzanatot ('Hogyan mondanád ki 1 szabályként, amit ma tanultunk a someresítésről?') és egy mini-transzfer lépést (alkalmazás egy ÚJ, nem feldolgozott kártyára) a megosztás után, a zárókör előtt. Someres szakértői review szükséges, mert érinti a peula nevelési-ideológiai felépítését.
+- **Forrás:** —
+
+### DA1.28 — D6 (Kolb-ciklus — transzfer-fázis az M6.A→M6.B íven)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M6/M6_PEULA/M6.A – Peula_ „Játék-labor 4 kvucára" (45').md` — Blokk 2–4 Kolb-ciklus (4.2–4.4), különösen a 4.2.4 elemzés vs. transzfer
+- **Probléma:** A peulák Kolb-ciklusa nem zár teljes kört a transzfer (4. fázis) szintjén megfigyelhetően. Az M6.A erős konkrét tapasztalat (játék) + reflexió (mini-kör) + fogalmi összekötés (cél-kvuca-rizikó-variáció mátrix) fázisokban, de az aktív kísérletezés/transzfer csak verbális szándék-megfogalmazás („egy szempont, amire figyelni akarok") — nincs új helyzetben való tényleges kipróbálás, az átkerül az M6.B-be mint külön produktum. Ez someres/ideológiai review-igényes Kolb-megállapítás (D6.1), az ügynök nem zárja le.
+- **Javaslat:** Someres szakértői review: értékelje, hogy a Kolb-transzfer fázis az M6.A→M6.B modul-ívben elfogadhatóan zár-e, vagy az M6.A-ba is kell explicit „próbáld ki most másik korosztályra/más kerettel" mozzanat. (Modul-szintű online↔offline ív értékelés.)
+- **Forrás:** nonformal-youth (Kolb)
+
+### DA1.29 — D8 (tanulói saját adat-/korhatár-kezelés külső GenAI-nál, M7)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M7/M7_ONLINE_LECKE/M7.1 – „Ez még csak vágy, nem cél" – SMART nevelési cél someres módra.md` — M7.1 SLIDE 5 (185–226. sor: „kérhetsz segítséget AI-tól, például ChatGPT-től") + SLIDE 7 Short Answer napló (277–305. sor); M7.4 Moodle intro/SLIDE 3 (51–59., 240–262. sor) — az egész modulban
+- **Probléma:** Hiányzik a TANULÓ saját adat-/korhatár-kezelése. A modul aktívan külső GenAI (ChatGPT) megnyitására ösztönzi a 15–19 éves madrichokat (akik közül egyesek 16 alattiak), ÉS reflexiós Short Answer / napló mezőket gyűjt (M7.1 SLIDE 7, M7.4 SLIDE 3). Sehol nincs: ≥13 korhatár-jelölés a külső GenAI-interakcióhoz, 16 alatti szülői/gondviselői hozzájárulás a napló-/kvíz-adatokra, GDPR-adatminimalizálás, megőrzési idő/törlés, vagy plain-language adatkezelési tájékoztató. A modul gondosan védi a CHANICH adatait az AI-tól, de a TANULÓ saját adatáról és hozzájárulásáról hallgat. D8.1/D8.2 kritikus.
+- **Javaslat:** Jogi/korhatár-DÖNTÉS: vegyél fel a külső GenAI-t és naplót használó leckékbe (M7.1, M7.4, ill. M7 – KAPU) egy adatvédelmi blokkot: ≥13 minimum korhatár, 16 alatt szülői megerősítés a reflexiós/kvíz-adatokra, plain-language tájékoztató (milyen adat, mire, meddig, kihez fordulhat), és hogy a külső ChatGPT-használat opcionális, alternatív (nem-AI) út kötelezően kínált. Ezt emberi jogi/adatvédelmi felelős hagyja jóvá.
+- **Forrás:** —
+
+### DA1.30 — D6 (Kolb-ciklus — strukturált debrief + általánosítás hiánya, Z.A záró peula)
+- **Fájl/hely:** `02 Tervezet/MODULOK/Z/Z_PEULA/Z.A – „Mit viszek magammal_" – Záró kvuca-peula.md` — Blokk 2 Időkapszula (sorok 107-144) → Blokk 3 poszter (147-183) → Blokk 4 elismerés+rituálé (185-241)
+- **Probléma:** A Kolb-ciklus négy fázisa nem teljes a peulában. Van konkrét tapasztalat/megosztás (Időkapszula, poszter) és némi reflexió, de a strukturált DEBRIEF + fogalmi általánosítás fázisa hiányos: a személyesebb Időkapszula-blokk után csak egy 2-3 perces, opcionális önkéntes nagykörös visszahozás van (sorok 135-137), strukturált debrief-kérdéssor nélkül; a zárás elismerés-kör + szimbolikus rituálé, nem általánosító+transzfer debrief. Élményalapú, érzelmileg töltött aktivitás után a debrief nem hagyható el (D6.1).
+- **Javaslat:** Someres/szakértői review döntsön a debrief-fázis beépítéséről: az Időkapszula és a poszter után strukturált, kérdéssoros debrief (mi történt → mit jelent → hova viszem) kerüljön be, ne csak opcionális megosztás és rituálé.
+- **Forrás:** —
+
+### DA1.31 — D6.1 (Kolb-ciklus — transzfer-fázis hiánya a belépő peulán, M0.A)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M0/M0_PEULA/M0.A – „Kickoff & ismerkedés + közös keret".md` — 3. Percbontás (72–85. sor) + 4. blokk-leírások; a kapcsolt online leckék M0.1–M0.4
+- **Probléma:** A peula erős a tapasztalat (1) és reflexió (2) fázisokban, de a teljes Kolb-ciklus (D6.1, eszkalációs kritérium) nem zárul: hiányzik a (4) transzfer/kipróbálás új helyzetben fázis — a „Kihez fordulhatok?" térkép és a zárókör reflexió/keretezés, nem strukturált transzfer-kipróbálás. Belépő modulként ez védhető lehet, de mivel D6.1 someres/ideológiai eszkalációs kritérium, nem az ügynök zárja le. Emellett az online↔offline koherencia (D4.3) erős a kereszt-linkekben, de a célrendszer két helyen eltér (lásd D2.5 finding chat-szívatás), így a someres review-nak ezt is mérlegelnie kell.
+- **Javaslat:** Someres/szakértői review döntsön: belépő-peulaként elfogadható-e a hiányzó explicit Kolb-transzferfázis, vagy be kell-e építeni egy mini „hogyan viszem a terepre" kipróbálási mozzanatot. Ideológiai/nonformális mélység emberi döntés, nem auto-fix.
+- **Forrás:** nonformal-youth (Kolb teljes ciklus); rubrika D6 eszkalációs szabály
+
+### DA1.32 — D6 (mozgalmi/érték-dimenzió hiánya a technika-fókuszú M1-ben)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M1` — Modul-hub 2. és 6. szakasz; M1.A 4.4. záró üzenet (332–347. sor); M1.B 4.4 záró üzenet — mindenhol technika-keret, érték-keret nélkül.
+- **Probléma:** A modul gyakorlatilag teljesen készség-/eszköz-fókuszú (Johari + SBI mint kommunikációs technika), és hiányzik belőle a mozgalmi/érték-dimenzió beágyazása, amit a rubrika elvár. Sehol nem jelenik meg, hogy a tisztelettudó, címke-mentes visszajelzés a someres/Hasomer értékekhez (méltóság, egyenlőség, szolidaritás, az ember mint cél) kötődne; a reflexió nem kérdez rá saját értékre/identitásra, csak a technika begyakorlására. A példák jellemzően általános viselkedés-helyzetek (közbevágás, késés, telefonozás), nem a 15+ Hasomer-élményvilág sajátos, értékhordozó szituációi.
+- **Javaslat:** Someres review döntsön arról, hogyan ágyazható be az érték-/mozgalmi dimenzió a tevékenységbe (nem ráaggatott záróblokként): pl. a zárókör reflexiója kérdezzen rá, miért someres érték a másik méltóságát megőrző visszajelzés, és a helyzetkártyák között legyen mozgalmi-kontextusú példa is.
+- **Forrás:** nonformal-youth (COE, learning about/through/for values)
+
+### DA1.33 — D8.2 (különleges adat + korhatár a reflektív naplónál, M2.4)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M2/M2_ONLINE_LECKE/M2.4 – Reflektív napló & határok_ „A dugma ishit nem terapeuta".md` — SLIDE 5 (sor 249–251: '3–3 kulcsszó ... mentális egészség, családi veszekedés'); SLIDE 4 privát témák; M2.2 SLIDE 5 (sor 213–215)
+- **Probléma:** A reflektív napló kifejezetten érzékeny személyes adat (különleges kategória) beírására kéri a 15+ (részben 16 alatti) tanulót — a slide példái: 'mentális egészség', 'családi veszekedés', valamint a privát/intim témák kulcsszavazása — a naplót pedig a mentor/képző látja (Moodle Assignment). Hiányzik: adatminimalizálási keret (D8.1), gyermek-nyelvű plain-language adatvédelmi tájékoztató a napló indításánál (milyen adat, meddig tárolva, ki látja, törlés — D8.3), megőrzési/törlési szabály (D8.4), és 16 alatti tanulóra a szülői hozzájárulás kérdése (D8.2). A jelenlegi 'csak a mentorod látja' sor nem pótolja a tájékoztatást.
+- **Javaslat:** A napló-indító ponton rövid, gyermek-nyelvű adatvédelmi tájékoztató + adatminimalizálás (kulcsszó-szint elég, intim részlet ne) + megőrzési/törlési megjegyzés. A 16 alatti korhatár és szülői hozzájárulás jogi döntése emberhez. A sablon-flag auto-javasolható, a korhatár-döntés review.
+- **Forrás:** —
+
+### DA1.34 — D6 (Kolb-ciklus — tapasztalat→reflexió átmenet gyenge, M2.B)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M2/M2_PEULA/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md` — Percbontás (sor 70–76) és Blokk 3–4 (sor 151–214); szemben az M2.A-val, ahol a páros megosztás + nagyköri reflexió erős
+- **Probléma:** Hiányos Kolb-ciklus a peulában (D6.1, 🔴 kritérium, eszkaláció-igényes). Az M2.B-ben az Érték-szigetek és a Pillér-sztori műhely konkrét tapasztalat (1) és aktivitás, de a strukturált debrief/reflexió (2) nagyon vékony: a műhely után csak 1 mondatos képzői visszacsatolás van (sor 179–180), a záróblokk pedig egyből egyéni írásba és commit-mondatba ugrik — nincs csoportos élmény-debrief 'milyen volt / mit vettetek észre egymáson' kérdésekkel a játékok után. A fogalmi általánosítás (3) és transzfer (4) megvan, de a tapasztalat→reflexió átmenet gyenge egy erősen élményalapú peulánál.
+- **Javaslat:** Az Érték-szigetek és/vagy a Pillér-műhely után be kell illeszteni egy rövid strukturált debrief-kört (mit éltél át / mi lepett meg / mit jelent ez a saját kvucádra) a fogalmi összekötés előtt. Someres szakértői review, mert a Kolb-fázis pótlása ideológiai/módszertani döntés is.
+- **Forrás:** —
+
+---
+
 *Készült a SOMERES-FIDELITY.md 🧑‍🏫 és elv-vs-gyakorlat findingjaiból. Társdokumentum:
 `SAFEGUARDING-REVIEW.md` (gyerekvédelmi szervezeti döntések).*

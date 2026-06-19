@@ -505,3 +505,174 @@ forrásában találhatók.*
 - **Probléma:** A fájl helyesen jelzi, hogy gyerekvédelmi felelős review és helyi protokollhoz illesztés szükséges a véglegesítés előtt, és a hívószámok (112, 116-123) webkereséssel ellenőrzöttek és aktuálisak. Mivel azonban ez biztonságkritikus kapu, a D7 rubrika szerint a teljes D7 kötelezően emberi gyerekvédelmi jóváhagyáshoz megy; az ügynök nem zárja le. A finding nem hibát jelez, hanem a kötelező eszkalációs státuszt rögzíti: a kapu addig BLOKKOLT (safeguarding), amíg a nevesített gyerekvédelmi felelős jóvá nem hagyja és be nem illeszti a helyi jelzési láncot (kit hívnak, milyen sorrendben, ki a DSL név szerint).
 - **Javaslat:** A modult tartsd BLOKKOLT (safeguarding) státuszban a véglegesítésig. A gyerekvédelmi felelős: (1) erősítse meg a 112/116-123 currentséget és a helyi DSL-nevet/elérhetőséget, (2) hagyja jóvá a 4 kritikus item és az R2/R4 blokkoló rubrikasorok megfogalmazását, (3) rögzítsen felülvizsgálati dátumot (D7.10). Az ügynök ezt nem zárja le.
 - **Forrás:** <https://sos116-123.hu/>; <https://www.police.hu/hu/hirek-es-informaciok/bunmegelozes/aktualis/tajekoztato-a-lelki-elsosegely-telefonszolgalatokrol>; <https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelkisegely-szolgalatok.html>
+
+### 47. D8.2 — M0.4 SLIDE 6 Essay + „Bemutatkozó fal” fórum (289–296. sor); M0.1 SLIDE 6/7 Essay, M0.2 SLIDE 6 Essay, M0.3 SLIDE 7 Short Answer
+
+- **Dimenzió:** D8.2
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M0/M0_ONLINE_LECKE/M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum”.md`
+- **Hely:** SLIDE 6 (Essay reflexió) + 3. szakasz „Bemutatkozó fal” fórum (289–296. sor); továbbá M0.1 SLIDE 6/7 Essay, M0.2 SLIDE 6 Essay, M0.3 SLIDE 7 Short Answer
+- **Probléma:** A célcsoport explicit módon 15+ (M0.A 11. sor), tehát van 16 alatti kiskorú a résztvevők között. A modul reflexiós esszéket, kvíz-/skála-adatokat és egy NYILVÁNOS (csoportnak látszó) bemutatkozó fórumposztot gyűjt személyes adatként, mégis SEHOL nincs korhatár-kezelés, sem szülői/gondviselői hozzájárulás 16 alatt. Magyarországon a GDPR Art. 8 digitális hozzájárulási korhatára 16 év — 16 alatt szülői megerősítés kötelező a reflexiós/kvíz-adatokra. Ez a teljes D8.2 kritikus kritérium bukása.
+- **Javaslat:** Emberi (adatvédelmi + gyerekvédelmi) döntés kell: a 16 alatti résztvevőkre szülői/gondviselői hozzájárulási mechanizmus a reflexiós/kvíz/fórum-adatokra, dokumentált minimum korhatárral. Amíg nincs jóváhagyva, a modul adatkezelési szempontból BLOKKOLT.
+- **Forrás:** GDPR Art. 8 (digitális szolgáltatás gyermek-hozzájárulás); Magyarország a korhatárt 16 évben rögzítette
+
+### 48. D7.4 — M0.4 SLIDE 4 „3 egyszerű szabály” (143–163. sor) + teljes M0.4; M0.2 SLIDE 4 jelzési lánc (160–187. sor); M0 overview 5. Kapuk
+
+- **Dimenzió:** D7.4
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M0/M0_ONLINE_LECKE/M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum”.md`
+- **Hely:** SLIDE 4 „3 egyszerű szabály” (143–163. sor) + teljes M0.4; valamint M0.2 SLIDE 4 jelzési lánc (160–187. sor) és M0 overview 5. Kapuk
+- **Probléma:** Ez az online/blended-specifikus modul (saját definíciója szerint a digitális térről szól), mégis hiányoznak a kötelező D7.4 digitális kontaktus-szabályok: (a) csak hivatalos fiók/eszköz, soha személyes fiókról; (b) moderált, rendszeresen ellenőrzött fórum/üzenet; (c) egyetlen moderátorra épülő függőség kerülendő. A modul a magán-chat/insta/messenger helyzeteket tárgyalja (SLIDE 1–3), de NEM mondja ki, hogy madrich kiskorúval ne személyes fiókról, hanem csak hivatalos csatornán kommunikáljon. Emellett a jelzési lánc (D7.2) csak „ken-vezető/felelős/szakember” általánosságban — nincs nevesített gyerekvédelmi felelős (focal point/DSL) szerep, és nincs külön azonnali-veszély (112/rendőrség) ág az online SOS-helyzethez (M0.4 SLIDE 3 Helyzet 2 „nem akarok élni” típus). A „madrich, nem terapeuta” (M0.2) motivációs keretként jelenik meg, nem explicit safeguarding szerephatárként a 4 NSPCC-tilalommal (D7.1) és kettős-felügyelet/kontakt-kódexszel (D7.3) együtt.
+- **Javaslat:** Gyerekvédelmi felelős döntése kell: a 3 digitális kontaktus-szabály beépítése az online modulba; nevesített focal point/DSL szerep + külön azonnali-veszély ág a jelzési láncba; a 4 NSPCC-tilalom és a kettős-felügyelet/online-kontaktus kódex megjelenítése. D7 minden hiány kötelezően emberhez megy; a modul safeguarding szempontból BLOKKOLT jóváhagyásig.
+- **Forrás:** safeguarding NSPCC online contact; KCSiE DSL; NSPCC disclosure 4 prohibitions
+
+### 49. D8 — M1.1 fájl 258–296. sor (Slide 5 napló + H5P „látja-e a mentor”); M1.4 fájl 170–238. sor (Assignment + beállítások); érinti M1.3 és M1.A/M1.B
+
+- **Dimenzió:** D8
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M1`
+- **Hely:** M1.1 fájl 258–296. sor (Slide 5 napló + H5P-beállítás, „látja-e a mentor”); M1.4 fájl 170–238. sor (Assignment + beállítások); érinti M1.3 (saját mini-SBI tárolás) és M1.A/M1.B (saját visszajelzés-történetek).
+- **Probléma:** A teljes M1 modulban NULLA adatvédelmi/hozzájárulási réteg van, miközben több ponton személyes — sőt másokat is azonosító — adatot gyűjt és tárol. M1.1 Slide 5 reflexiós napló (önfeltáró: „valaki mást mondott rólad”), H5P „Essay”/Moodle szövegmező, a fájl saját megjegyzése szerint a mentor láthatja („Szervezeti döntés: látja-e a mentor; ha igen, ezt előre jelezni!”), de NINCS plain-language tájékoztató (milyen adat, mire, meddig, kihez fordulhat). M1.4 Moodle Assignment a tanuló SBI-szövegét tárolja és pontozza — ez gyakran valós helyzetre és NÉVVEL nevezett harmadik személyre utal (a mintaértékelésekben pl. „Dani”), megőrzési idő/törlés és adatminimalizálás nélkül. A 15+ célcsoport épp a GDPR Art.8 / ICO 16-éves határvonalán ül: nincs korhatár-kezelés és 16 alatt szülői/gondviselői megerősítés a napló/kvíz/mastery-adatra. Grep megerősítette: a teljes M1-ben nincs GDPR/adatkezelés/megőrzés/törlés/szülő/korhatár szövegrész (az egyetlen „megőriz” találat a rubrika-pontozásról szól).
+- **Javaslat:** Adjatok minden adatgyűjtő ponthoz (M1.1 napló, M1.3 saját SBI, M1.4 Assignment) rövid, gyermek-nyelvű adatvédelmi tájékoztatót (milyen adat, mire, meddig, ki látja, hogyan kérhető törlés), adatminimalizálási elvet (ne kérjen valós nevet a beadványban — fiktív/anonimizált helyzet javasolt), megőrzési időt + törlési folyamatot a képzés végén, és dokumentált korhatár/szülői-hozzájárulás kezelést a 16 év alatti résztvevőkre. Mivel jogi/korhatár-döntés, emberi jóváhagyás kell.
+- **Forrás:** ai-ethics-data (GDPR 5(1)(c)/(e), Art.8, ICO Children's Code)
+
+### 50. D7 — M1.A 62. és 326–328. sor; M1.B 61. és 245–246. sor; M1.1 99–138. és 258–296. sor; M1.F (teljes — nincs eszkalációs lánc)
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M1`
+- **Hely:** M1.A 62. és 326–328. sor; M1.B 61. és 245–246. sor; M1.1 99–138. és 258–296. sor; M1.F (teljes — nincs eszkalációs lánc).
+- **Probléma:** A modul végig önfeltáró, érzelmileg exponáló aktivitásokat futtat (M1.1 emoji-checkin + személyes napló; M1.A Johari post-itek, köztük „1 dolog, amit nehéznek érzel magadban” + személyes visszajelzés-történetek kiscsoportban; M1.B valós konfliktusok szerepjátéka), de hiányzik a működő gyerekvédelmi háló. A „pass” jog, a bizalmassági kérés és egy-egy safety-mondat MEGVAN — viszont az eszkalációs lánc csak homályos „tudja, kihez fordul (mentor, felelős felnőtt, gyerekvédelmi felelős)” a KÉPZŐ felkészülési checklistjében (M1.A 62. sor, M1.B 61. sor); nincs NÉVVEL nevesített belső felelős (focal point/DSL), nincs külső hatóság és nincs azonnali-veszély (112) ág, és NINCS disclosure-protokoll arra, mi a teendő, ha egy résztvevő épp ezekben az önfeltáró gyakorlatokban hoz be jelzésköteles tartalmat (a meglévő válasz csak: „a peula után szívesen beszélgetek veled külön”). Az M1.F felzárkóztató peulában — ami szintén frusztráció/szégyen körül mozog — egyáltalán nincs eszkalációs/safeguarding sor. Mindez annak fényében súlyos, hogy a modul maga deklarálja: az itt épített nyelv az M3 gyerekvédelem alapja.
+- **Javaslat:** Emberi gyerekvédelmi felelős vizsgálja felül és hagyja jóvá. Minden önfeltáró/expono blokkhoz kerüljön be egységes, tanulónak is látható eszkalációs út: nevesített belső gyerekvédelmi felelős szerep + külső hatóság + külön azonnali-veszély (112) ág, és a madrich számára egy rövid disclosure-protokoll (ne ígérj titoktartást, ne nyomozz, rögzítsd a tényt, jelezz a felelősnek). Az M1.F is kapja meg ugyanezt a safety-keretet.
+- **Forrás:** safeguarding (NSPCC, KCSiE focal point/DSL); nonformal-youth (secure environment)
+
+### 51. D7 — M2.4 SLIDE 1 (95–99. sor) és SLIDE 6 (268–285. sor); M2.A blokk 2 (174–181. sor)
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M2/M2_ONLINE_LECKE/M2.4 – Reflektív napló & határok_ „A dugma ishit nem terapeuta”.md`
+- **Hely:** SLIDE 1 (sor 95–99) és SLIDE 6 (sor 268–285); valamint M2.A blokk 2 (sor 174–181)
+- **Probléma:** A modul középponti, ismétlődő szituációja egy 12 éves chanich éjszakai krízis-üzenete (öngyilkossági/elhagyatottsági jelzés tartalmával), de NINCS nevesített disclosure-protokoll. Hiányzik az NSPCC 4 tilalma explicit formában: (1) NE ígérj titoktartást, (2) NE nyomozz/ne tegyél fel rávezető kérdéseket, (3) NE beszélj a gyanúsítottal, (4) rögzítsd a gyerek szó szerinti szavait (tény vs. vélemény elkülönítve). A 'titoktartás-ígéret = hiba' csak egy kapu-kvíz distraktor-feedbackjében bukkan fel (M2 – KAPU, sor 103), nem tananyagi tartalomként. A protokoll explicit kifejtését a fájl az M3.3-ra utalja előre ('ugyanaz a logika, mint M3.3'), miközben az érzelmileg exponáló feladat ITT, M2-ben fut. D7.1 (NSPCC) szerint bármelyik tilalom hiánya bukás.
+- **Javaslat:** Az M2.4-be (vagy egy nevesített safeguarding-keretbe) be kell emelni az NSPCC 4 tilalmát konkrét, viselkedés-szintű megfogalmazásban, MIELŐTT a tanuló a 12 éves krízis-üzenetre választ ír. A 'ne ígérj titkot' nem maradhat kizárólag kvíz-distraktorban. Emberi gyerekvédelmi felelős hagyja jóvá, hogy mennyi tehető M2-be vs. M3.3-ba — a modul jelenleg BLOKKOLT (safeguarding) státuszú.
+- **Forrás:** <https://learning.nspcc.org.uk/child-abuse-and-neglect/recognising-and-responding-to-abuse>
+
+### 52. D7 — M2.4 SLIDE 1 keret (95–99. sor), SLIDE 6 pont 3 (280–281. sor), SLIDE 2 (117–122. sor)
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M2/M2_ONLINE_LECKE/M2.4 – Reflektív napló & határok_ „A dugma ishit nem terapeuta”.md`
+- **Hely:** SLIDE 1 keret (sor 95–99), SLIDE 6 pont 3 (sor 280–281), SLIDE 2 (sor 117–122)
+- **Probléma:** Az eszkalációs lánc nincs nevesített lépésekkel kibontva (D7.2). A szöveg 'jelzel a mentorodnak/felelősnek' és 'mentor, szülő, szervezeti felelős, szakember' szinten marad — nincs megnevezve a szervezet kijelölt gyerekvédelmi felelőse (focal point/DSL mint konkrét szerep), és teljesen hiányzik a közvetlen veszély (öngyilkossági tartalmú üzenet!) esetére szóló 112/azonnali-segély ág. A 'minden rossz / te vagy az egyetlen, aki normális' üzenet potenciális önveszély-jelzés, amelyhez a 'majd jelzek a mentornak nappal' nem elégséges azonnali-veszély-protokoll.
+- **Javaslat:** Nevesített lánc kell: madrich → szervezet gyerekvédelmi felelőse (konkrét szerepnév) → hatóság, KÜLÖN azonnali-veszély ág (112/krízisvonal) az önveszélyt jelző tartalomhoz. Gyerekvédelmi felelős döntse el a lánc pontos szereplőit a Hasomer-struktúrában.
+- **Forrás:** —
+
+### 53. D7 — M2.A Meta: 'Korosztály: 16+' (sor 11); a 4 peula mind 16+ képzősöket céloz
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M2/M2_PEULA/M2.A – Identitás-körök élőben – mit mutatok magamból_  (45’).md`
+- **Hely:** Meta: 'Korosztály: 16+' (sor 11); a 4 peula mind 16+ képzősöket céloz
+- **Probléma:** A 15+ önkéntes vezetők kettős státusza kezeletlen az egész M2-ben (D7.5). A program scope-ja 15+, a peulák 'Korosztály: 16+' madrichokat céloznak — vagyis a célcsoport jelentős része 18 alatti kiskorú, akik egyben majdani vezetők. Sehol nem jelenik meg: (a) 18 alatti soha nem felügyel egyedül és nem számít a felnőtt-gyerek arányba; (b) korának megfelelő safeguarding-tréning/bejelentési út; (c) a bizalmi pozíció/hatalmi egyenlőtlenség tudatosítása. Ez különösen éles, mert M2.4 épp az ő határtartásukat és 'megbízható felnőtt' szerepüket tanítja — miközben ők maguk is védendő kiskorúak lehetnek.
+- **Javaslat:** A vezetői szerepleírásnál (M2.4 keret + modul-hub kompetenciák) explicit szakasz kell a 18 alatti madrichok kettős státuszáról a 3 NSPCC-ponttal. Gyerekvédelmi felelős jóváhagyása szükséges.
+- **Forrás:** —
+
+### 54. D7.5 — M3.4 egész fájl (SLIDE 2–3); M3.3 SLIDE 2; KAPU — nincs vezetői/önkéntes szerepleírás-szakasz
+
+- **Dimenzió:** D7.5
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M3/M3.4 – „Do _ Don’t madrichként” – határok, red flag-ek és modulproduktum.md`
+- **Hely:** M3.4 egész fájl (SLIDE 2–3 a madrich-szerep és határok); M3.3 SLIDE 2 'mi a gyerekvédelem madrichként'; KAPU – nincs vezetői/önkéntes szerepleírás-szakasz
+- **Probléma:** A célcsoport 15+ önkéntes vezető (madrich), tehát jelentős részük 18 alatti. A modul kizárólag a madrichot mint VÉDŐ/jelző felnőttet kezeli ('te vagy a felelősebb fél', M3.4 SLIDE 2), de sehol nem kezeli a 15+ önkéntes KETTŐS státuszát: (a) 18 alatti maga is védendő, nem felügyelhet egyedül és nem számít a felnőtt-gyerek arányba; (b) saját, korának megfelelő safeguarding-tréning és bejelentési út; (c) a saját bizalmi pozíció/hatalmi egyenlőtlenség tudatosítása rá nézve is. A rubrika D7.5 mind a 3 pontot kritikusként a vezetői szerepleírásnál várja.
+- **Javaslat:** Gyerekvédelmi felelős döntése: önálló 'a 15+ madrich kettős státusza' szakasz (M3.4-ben vagy a KAPU-anyagban), amely kimondja, hogy 18 alatti nem felügyel egyedül és nem számít az arányba, van saját bejelentési útja és védelme. Kötelező emberi jóváhagyás, nem auto-fixálható.
+- **Forrás:** —
+
+### 55. D7.4 — M3.4 SLIDE 3A 'Kommunikáció & online' DO/DON'T; M3.3 SLIDE 3 red flag lista + SLIDE 5 online; KAPU item 6, 11
+
+- **Dimenzió:** D7.4
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M3/M3.4 – „Do _ Don’t madrichként” – határok, red flag-ek és modulproduktum.md`
+- **Hely:** M3.4 SLIDE 3A 'Kommunikáció & online' DO/DON'T; M3.3 SLIDE 3 red flag lista + SLIDE 5 online; KAPU item 6, 11
+- **Probléma:** A blended modul az online digitális kontaktus-szabályokból csak egyet visz végig konzekvensen ('csoportos csatorna előnyben, ne állandó privát'). Hiányzik a rubrika D7.4 által kritikusként várt másik két szabály: (a) explicit 'csak hivatalos fiók/eszköz, soha személyes fiókról' (M3.4 DON'T említi a 'személyes profilról küldözgetés' tilalmát egy KAPU-item szintjén, de a leíró online szabály-blokkban nem mondja ki a 'csak hivatalos fiók' pozitív szabályt), és (b) a moderált, rendszeresen ellenőrzött fórum/üzenet ÉS az egyetlen moderátorra épülő függőség kerülése — ez utóbbi teljesen hiányzik, holott a modul maga is egy mentor/madrich köré szervezi az online jelzést.
+- **Javaslat:** Gyerekvédelmi review: az M3.4 online DO/DON'T blokkban egészítsd ki mindhárom NSPCC online-szabályt: (1) csak hivatalos fiók/eszköz, (2) moderált, rendszeresen ellenőrzött csoportcsatorna, (3) ne épüljön egyetlen felnőtt/moderátor függőségére. Mivel safeguarding-tartalom, emberi jóváhagyás kell.
+- **Forrás:** —
+
+### 56. D7 — M4.2 SLIDE 5, Kérdés 2 (350–359. sor); SLIDE 2 'Nem terapeuta vagy' (149–151. sor)
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M4/M4_ONLINE_LECKE/M4.2 – Aktív hallgatás & visszatükrözés.md`
+- **Hely:** SLIDE 5, Kérdés 2 (350–359. sor): 'továbbadni a megfelelő felnőttnek / mentornak'; SLIDE 2 'Nem terapeuta vagy' (149–151)
+- **Probléma:** A lecke érdemben belép a disclosure/nehézség-megosztás territóriumába (chanich/társ oszt meg nehézséget, 'továbbadni a megfelelő felnőttnek'), de NINCS nevesített eszkalációs lánc (D7.2: ki a kijelölt gyerekvédelmi felelős/DSL, mikor hatóság), és a 'megfelelő felnőtt' megfogalmazás a 'szólj valakinek' szint alatt marad. A 4 NSPCC-tilalom (titoktartás-ígéret tilalma, ne nyomozz, dokumentálás) sehol nem jelenik meg, holott a lecke aktívan tanácsadási/meghallgatási viselkedést gyakoroltat. Ez kötelező emberi gyerekvédelmi jóváhagyást igényel.
+- **Javaslat:** Gyerekvédelmi felelős vizsgálja meg, kell-e a M4.2-be (vagy modul-szintű utalásként) explicit eszkalációs útvonal és a 'mit NEM tegyél, ha valaki nehéz dolgot oszt meg' minimum. Az ügynök nem zárja le; a modul safeguarding-szempontból BLOKKOLT marad jóváhagyásig.
+- **Forrás:** —
+
+### 57. D7 — M4.A Blokk 4 (4.4), triád-videózás 200–229. sor (törlés-ellenőrzés); 2.3 képző-felkészülés
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M4/M4_PEULA/M4.A – „Állj oda!” – Kiállás & jelenlét a térben.md`
+- **Hely:** Blokk 4 (4.4), triád-videózás 200–229. sor (törlés-ellenőrzés), és 2.3 képző-felkészülés
+- **Probléma:** A peula kiskorúakat (a célcsoport 15–16+, az M4.F szerint 15–16+) videóztat telefonon. A törlési protokoll részletes és jó, DE a digitális kontaktus szabályai (D7.4) nincsenek a gyerekvédelmi rubrika szerint lefedve: nincs kimondva, hogy a felvétel kizárólag a résztvevő SAJÁT eszközén készülhet és soha nem a képző/szervezet eszközén tárolódik, és nincs adatvédelmi/hozzájárulási keret a kiskorúak képmás-rögzítéséhez (GDPR/ICO, 16 alatti szülői hozzájárulás). A 'csak ha a csoportnak oké' szóbeli opt-in nem helyettesíti a dokumentált hozzájárulást kiskorúak felvételénél.
+- **Javaslat:** Gyerekvédelmi + adatvédelmi felelős döntsön: szükséges-e dokumentált (szülői) hozzájárulás a kiskorúak rögzítéséhez, és hogy a felvétel kizárólag saját eszközön/azonnali helyszíni törléssel készülhet-e. Az ügynök nem írja át; eszkaláció.
+- **Forrás:** —
+
+### 58. D7 — Egész M6 modul: M6.1 SLIDE 5/6, M6.4 5B-J/5D-J, M6.A 4.3, KAPU 6./7. item
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M6`
+- **Hely:** Egész modul: M6.1 SLIDE 5 (bizalomjáték), SLIDE 6 (kirekesztés-szerepjáték); M6.4 5B-J/5D-J (élmény-kirekesztés, szerepjáték); M6.A 4.3 („Szél fújja azt, aki…”, kirekesztés-élmény); KAPU 6./7. item
+- **Probléma:** A modul kifejezetten érzelmileg expono, önfeltárást és kirekesztés-élményt provokáló aktivitásokat tanít chanichokkal (kirekesztés-szerepjáték, valakit szándékosan kihagyó körjáték, bizalom-/kontaktjáték), de SEHOL nincs disclosure-protokoll, eszkalációs lánc nevesített gyerekvédelmi felelőssel (DSL/focal point), külső hatóság/112-ág, vagy madrich≠terapeuta szereptisztázás. A D7.1–D7.7 kritikus kritériumok közül egy sem teljesül a modulban. Ez kötelező emberi eszkaláció — a modul safeguarding-szempontból BLOKKOLT, amíg gyerekvédelmi felelős nem hagyja jóvá. (Megj.: M6.A 4.3.2/B in-the-moment safety jó kezdet, de nem helyettesíti a teljes protokollt, és csak a peulában van, az online modulban és a KAPU rubrikájában nem.)
+- **Javaslat:** Gyerekvédelmi felelős vonja be: a modulhoz kell egy explicit disclosure/eszkalációs protokoll (NSPCC 4 tilalom + nevesített belső felelős + külső hatóság + azonnali-veszély ág), madrich≠terapeuta határszakasz, és a rubrika R4 Biztonság sorába be kell emelni az eszkalációs út megnevezését (kihez fordul, ha egy chanichot egy kirekesztés-élmény erősen érint).
+- **Forrás:** safeguarding (NSPCC); safeguarding (KCS People)
+
+### 59. D7 — M6 – KAPU: R4 BIZTONSÁG rubrika-sor és „Oké-küszöb checklist” (337–355. sor)
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M6/M6 – KAPU – értékelő (item-bank + rubrika).md`
+- **Hely:** R4 BIZTONSÁG rubrika-sor és „Oké-küszöb checklist” (337–355. sor)
+- **Probléma:** A KAPU R4 Biztonság hard-gate sora az „Oké” (2) szinten mindössze „legalább 1 konkrét fizikai VAGY érzelmi/consent biztonsági megjegyzést” követel meg. Egy chanich így átengedhet egy kirekesztés-szerepjátékot vagy bizalomjátékot tartalmazó játéklapot úgy, hogy NINCS benne semmilyen eszkalációs/segítségkérési útvonal (kit hív a madrich, ha valaki összeomlik), holott pont ezeket az érzelmileg veszélyes eszközöket tanítja a modul. A D7.7 (biztonságos tér + visszavonulási mechanizmus + eszkalációs út minden expono feladatnál) megfigyelhető-rubrika szinten nincs lefedve a mastery-kapuban — csak a „3 = Erős” szinten jelenik meg az eszkaláció, az átmenőn nem.
+- **Javaslat:** Gyerekvédelmi review döntsön: az érzelmileg expono eszközt (kirekesztés/bizalom/trigger) tartalmazó játéklapnál az „Oké” küszöb is követelje meg a „pass/önkéntesség joga + eszkalációs út” jelenlétét, ne csak az „Erős” szint. A hard-gate cut-score-t safeguarding-felelősnek kell jóváhagynia.
+- **Forrás:** safeguarding (NSPCC); nonformal-youth (secure environment)
+
+### 60. D7 — M7 – KAPU: R4 Gyerekvédelem & safety (239–249. sor): blokkoló + kritikus sor
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M7/M7 – KAPU – értékelő (item-bank + rubrika).md`
+- **Hely:** R4 – Gyerekvédelem & safety (239–249. sor): blokkoló + kritikus sor; a „3” szint „red-flag-protokoll + nem-egyedül-elv + kihez fordul (mentor/felelős)” demonstrációt vár
+- **Probléma:** A kapu BLOKKOLÓ safety-sora (R4) olyan red-flag-protokollt és eszkalációs döntést értékel/követel, amelyet maga az M7 modul nem tanít újra: az M7 tartalom mindenhol csak annyit mond, hogy gyerekvédelmi ügyben „mentort/felelőst” keress (M7.2 SLIDE 5, M7.3 SLIDE 4, M7.4 SLIDE 4) — a nevesített eszkalációs lánc (belső gyerekvédelmi felelős/DSL → hatóság/gyermekvédelem → azonnali veszély 112 ág) és a disclosure-tilalmak NEM jelennek meg az M7-ben (azok az M3.3/M3.4-ben élnek). Emiatt egy blokkoló kompetenciát a modul a saját anyagában csak referenciaszinten horgonyoz, miközben a kapu rajta bukik vagy nyílik. A rubrika saját eszkalációs szabálya szerint minden D7 FAIL/PARTIAL kötelező emberi gyerekvédelmi jóváhagyást igényel — ez a sor nem zárható le ügynökként.
+- **Javaslat:** Gyerekvédelmi DÖNTÉS: (a) az M7 safety-tartalmába (M7.2/M7.3) emeld be röviden az M3-as eszkalációs lánc nevesített lépéseit (belső felelős → hatóság → 112), ne csak „mentor/felelős”-t; (b) a KAPU R4 leírásában tedd explicitté, melyik M3-elemre épül a demonstrálandó red-flag-protokoll; (c) a R4 blokkoló kapu-döntést gyerekvédelmi felelős hagyja jóvá. NE automatizáld.
+- **Forrás:** —
+
+### 61. D7 — Z.A Blokk 2 'Időkapszula' (107–144. sor) és 2.3 Képző felkészülése (51–53. sor); Z.4 sor 215 és Z.2 slide 4–6
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/Z/Z_PEULA/Z.A – „Mit viszek magammal_” – Záró kvuca-peula.md`
+- **Hely:** Blokk 2 'Időkapszula' (sorok 107-144) és 2.3 Képző felkészülése (sor 51-53); valamint Z.4 sor 215 és Z.2 slide 4-6
+- **Probléma:** A modul több ponton kifejezetten érzelmileg expono önfeltárást kér (kudarcélmény, 'ami fájt', nehéz beszélgetés, 'min változtál'), de a RÉSZTVEVŐ számára sehol nincs nevesített segítségkérési / eszkalációs útvonal arra az esetre, ha rosszul érinti. A Z.A csak a KÉPZŐNEK mondja meg, kihez fordul (sor 53: 'Tudja, kihez fordul (mentor/felelős)'); a tanuló felé csak egy 'passz' jog és egy általános safety-mondat hangzik el, konkrét 'kihez fordulhatsz, ha ez most nehéz' útvonal nélkül. A Z.4 (sor 215) is csak lazán 'mentor/képző'-höz irányít. Ez a D7.7 (biztonságos tér + eszkalációs út minden expono feladatnál) bukása, és D7.6 (madrich≠terapeuta explicit határ-szakasz) sincs kifejtve, csak egy odavetett 'nem terápiát tartunk' mondat (Z.A sor 121).
+- **Javaslat:** Gyerekvédelmi felelős döntse el és írja be minden önfeltárást kérő aktivitáshoz (Z.A Időkapszula, Z.2 nehéz-modul esszé, Z.4 Assignment) a résztvevőnek szóló explicit segítségkérési útvonalat (kihez fordulhat, ha rosszul érinti) + 'passz/önkéntesség' + bizalmasság együttesét, és egy rövid 'mit NEM csinál a madrich/képző ebben a helyzetben' határ-szakaszt.
+- **Forrás:** —
+
+### 62. D8 — Z.4 Assignment 'Záró reflexió + next step' (219–270. sor); Z.1 sor 254, Z.2 sor 39 és 226
+
+- **Dimenzió:** D8
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/Z/Z_ONLINE_LECKE/Z.4 – „Záró reflexió + képzés feedback”.md`
+- **Hely:** Assignment 'Záró reflexió + next step' (sorok 219-270); kapcsolódóan Z.1 sor 254, Z.2 sor 39 és 226
+- **Probléma:** A záró reflexiós Assignment azonosítható (nem anonim), és tartalmilag érzékeny személyes adatot gyűjt (kudarcélmény, érzelmi tartalom, 'miben változtál', gyerekvédelmi témára adott reakció). A fájlban NINCS adatvédelmi tájékoztató: nincs megőrzési idő / törlési folyamat (D8.4), nincs plain-language tájékoztató arról, milyen adat / mire / meddig / kihez fordulhat (D8.3), és a 15+ célcsoportnál nincs kezelve a 16 év alatti szülői hozzájárulás vonala (D8.2). A Z.1/Z.2 esszéknél van egy minimális 'csak a képzőid/mentorod látják' mondat, de az Assignmentnél (a leginkább tárolt produktumnál) ez is hiányzik — ez egyúttal D9.5 (biztonságos-megosztási megjegyzés érzékeny tartalomnál) hiánya.
+- **Javaslat:** Adatvédelmi felelős döntsön a megőrzési időről, törlési folyamatról és a 16 alatti hozzájárulásról; majd kerüljön az Assignment és minden reflexiós esszé indító pontjára rövid, gyermek-nyelvű tájékoztató (milyen adat, mire, meddig, ki látja, mikor törlik) és egységes 'ki látja' megjegyzés.
+- **Forrás:** —
+
+### 63. D1.2 — M0.2 teljes fájl (gyerekvédelmi/jelzési tartalom SLIDE 3–4); M0.A 2.4 red-flag mini-protokoll és M0.4 SLIDE 3–4
+
+- **Dimenzió:** D1.2
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M0/M0_ONLINE_LECKE/M0.2 – „Madrich, nem terapeuta” – szerepek és elvárások.md`
+- **Hely:** Teljes fájl (gyerekvédelmi/jelzési tartalom SLIDE 3–4); ugyanígy M0.A 2.4 red-flag mini-protokoll és M0.4 SLIDE 3–4
+- **Probléma:** A magas tétű (gyerekvédelmi, krízis-, önsértés/„nem akarok élni”) tartalmon SEHOL nincs emberi szakmai lektorálás nyoma (lektor neve/dátum/verzió/review-jelölés) — D1.2 kritikus. Ugyanígy nincs AI-provenance címke vagy „100% emberi” nyilatkozat egyetlen fájlon sem (D1.3, 🟡). Mivel a tartalom egy része generatív-gyanús (sablonos slide-struktúra, feedback-szövegek), a provenance és a lektorálás-nyom hiánya együtt az élesítés előtt javítandó. (Összevont megállapítás mind a 6 fájlra.)
+- **Javaslat:** A gyerekvédelmi/krízis-tartalomra kötelező emberi (gyerekvédelmi szakértői) lektorálás + dátum/verzió/felelős-nyom; AI-provenance vagy „100% emberi” címke minden fájl láblécébe. A lektorálás emberi döntés; a provenance-címke sablon külön, kisebb körben gépiesíthető, de a lektor-jóváhagyás nem.
+- **Forrás:** ai-ethics-data (human-in-the-loop, 3.3.2 provenance)
+
+### 64. D2.5 — M0.2 SLIDE 3 „Kihez tartozik?” (119–156. sor) — 4 szituáció jó válaszai + SLIDE 4 jelzési lánc
+
+- **Dimenzió:** D2.5
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M0/M0_ONLINE_LECKE/M0.2 – „Madrich, nem terapeuta” – szerepek és elvárások.md`
+- **Hely:** SLIDE 3 „Kihez tartozik?” (119–156. sor) — a 4 szituáció jó válaszai + SLIDE 4 jelzési lánc
+- **Probléma:** A gyerekvédelmi tartalom van célhoz kötve és van alkalmazási item (SLIDE 3 szituációk), de a jó-válasz kulcs egy-egy szituációnál TÚL TÁGAN definiált, így D3.2 (egy védhető helyes válasz) sérül: pl. SLIDE 3 / 4. helyzet (csoportchat-szívatás) jó válasza „Ráírok a szívatottra, és jelzek egy felnőtt felelősnek”, miközben M0.4 SLIDE 3 ugyanezt a chat-szívatás helyzetet úgy modellezi, hogy a dugma ishit a CSOPORTBAN szólal meg (nem privátban a szívatottnak) — a két lecke ellentmondó best-response-t tanít ugyanarra a helyzetre. Ez D4 koherencia-szakadás is az online modulon belül.
+- **Javaslat:** A két lecke (M0.2 SLIDE 3 / M0.4 SLIDE 3) chat-szívatás best-response-ját össze kell hangolni egyetlen védhető szakmai kulcsra; gyerekvédelmi szempontból emberi döntés, mi a helyes madrich-reakció (nyilvános fellépés vs. privát megkeresés vs. jelzés), és azt mindkét helyen konzisztensen kell tanítani+mérni.
+- **Forrás:** assessment-validity (single defensible key); safeguarding; id-alignment koherencia
+
+### 65. D7 — M2.4 SLIDE 1 (96–98. sor) és SLIDE 7 határszabályok (307–314. sor); modul-szinten nincs külön kódex-fájl
+
+- **Dimenzió:** D7
+- **Fájl:** `/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/MODULOK/M2/M2_ONLINE_LECKE/M2.4 – Reflektív napló & határok_ „A dugma ishit nem terapeuta”.md`
+- **Hely:** Magatartási kódex / online kontaktus: M2.4 SLIDE 1 (sor 96–98) és SLIDE 7 határszabályok (sor 307–314); modul-szinten nincs külön kódex-fájl
+- **Probléma:** A blended-specifikus online/digitális kontaktus-szabályok (D7.4) és a megfigyelhető magatartási kódex (D7.3) csak szétszórt, tanulóra bízott 'határszabály'-ként jelennek meg, nem nevesített szervezeti szabályként. A 'nem csetelek éjfél után' a tanuló saját választása, nem kötelező kódex. Hiányzik explicit, kötelező formában: (a) csak hivatalos fiók/eszköz, soha személyes fiókról; (b) moderált, rendszeresen ellenőrzött fórum; (c) kettős felügyelet elve. A szituáció épp privát Messenger-kontaktust mutat be — ennek tiltása kódex-szinten kimondatlan.
+- **Javaslat:** A modul online-leírásába kötelező digitális kontaktus-szabályok (3 NSPCC online pont) mint szervezeti kódex, nem opcionális tanulói határszabály. Gyerekvédelmi felelős jóváhagyásával.
+- **Forrás:** <https://learning.nspcc.org.uk/safeguarding-child-protection/safeguarding-examples-scenarios-issues-concerns>
