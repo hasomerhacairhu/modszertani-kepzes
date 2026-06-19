@@ -1,5 +1,7 @@
 # M1 – KAPU – értékelő (item-bank + rubrika)
 
+← Vissza a modul-hubhoz: **[M1 – „Vakfolt, tükör, feedback” – Önismeret & visszajelzés_ Johari + SBI](./M1%20–%20„Vakfolt,%20tükör,%20feedback”%20–%20Önismeret%20&%20visszajelzés_%20Johari%20+%20SBI%20.md)**
+
 > **Mi ez?** Az M1 modul **éles (mastery) kapujának** kész értékelő anyaga: egy szintezett SBI-rubrika a beadott visszajelzés-szöveghez, két mintaértékelés, és egy kísérő (formatív) item-bank a felismerő tudás ellenőrzéséhez.
 > **Kinek szól?** Neked, aki képzőként/mentorként pontozod az M1.4 beadványt és visszajelzést írsz a tanulónak. Tegezős, someres-barát, de szakmailag pontos.
 

@@ -1,5 +1,7 @@
 # M2 – KAPU – értékelő (item-bank + rubrika)
 
+← Vissza a modul-hubhoz: **[M2 – „Ki vagyok madrichként_” – Identitás, Somer-értékek és dugma ishit](./M2%20–%20„Ki%20vagyok%20madrichként_”%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)**
+
 > **Mihez tartozik:** M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit.
 > Ez a **kapu (mastery-kapu) értékelője**: az M2 modul fő produktumát – az **1 oldalas madrich identitás-jegyzetet + 1 someres érték-mondatot** – horgonyozza le, hogy a „mesterfokú tanulás” ígérete valódi legyen, ne csak a leadás ténye számítson.
 

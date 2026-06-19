@@ -200,3 +200,5 @@ A modul végére a madrich…
 [M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak](./M2_PEULA/M2.B%20–%20Somer-értékek%20a%20gyakorlatban%20–%20döntések,%20amelyek%20tanítanak.md)
 
 [M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab)](./M2_PEULA/M2.F%20–%20Felzárkóztató%20peula%20–%20Identitás,%20értékek,%20pillérek,%20személyes%20példamutatás%20(Study%20Lab).md)
+
+**[M2 – KAPU – értékelő (item-bank + rubrika)](./M2%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md)** – a modul **kapujának** kanonikus értékelője: 10 pontos self-check, 4 soros (R1–R4) fejlesztő rubrika és az 1 oldalas jegyzet-sablon.

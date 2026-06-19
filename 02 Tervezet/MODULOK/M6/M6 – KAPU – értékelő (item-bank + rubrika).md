@@ -1,5 +1,7 @@
 # M6 – KAPU – értékelő (item-bank + rubrika)
 
+← Vissza a modul-hubhoz: **[M6 – „Toolbox_ játék, történet, kézműves & inkluzivitás”](./M6%20–%20„Toolbox_%20játék,%20történet,%20kézműves%20&%20inkluzivitás”.md)**
+
 > **Modul:** M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”
 > **Kaputípus:** **ÉLES kapu (mastery gate)** – mert a módszerválasztás és a játékvezetés közvetlenül érinti a chanichok **fizikai és érzelmi biztonságát** és **inkluzív élményét**.
 

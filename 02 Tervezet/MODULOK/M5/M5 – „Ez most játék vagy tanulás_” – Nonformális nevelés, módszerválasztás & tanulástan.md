@@ -185,3 +185,5 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
 [M5.B – „Tervezek egy nonformális peula-részletet” – hogy tényleg tanuljunk is](./M5_PEULA/M5.B%20–%20„Tervezek%20egy%20nonformális%20peula-részletet”%20–%20hogy%20tényleg%20tanuljunk%20is.md)
 
 [M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab)](./M5_PEULA/M5.F%20–%20Felzárkóztató%20peula%20–%20Suli,%20Somer%20&%20tanulástan%20(Study%20Lab).md)
+
+**[M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md)** – a modul **éles (mastery) kapuja**: a 12 itemes item-bank és a 4 soros, megfigyelhető rubrika (R1–R4).

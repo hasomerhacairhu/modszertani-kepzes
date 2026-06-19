@@ -226,3 +226,5 @@ A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 [M1.B – SBI-lab – Smiley-től a használható visszajelzésig (45’)](./M1_PEULA/M1.B%20–%20SBI-lab%20–%20Smiley-től%20a%20használható%20visszajelzésig%20(45’).md)
 
 [M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)](./M1_PEULA/M1.F%20–%20Felzárkóztató%20peula%20–%20Johari,%20megfigyelés%20és%20SBI%20egyben%20(45’).md)
+
+**[M1 – KAPU – értékelő (item-bank + rubrika)](./M1%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md)** – a modul **éles (mastery) kapuja**: a kanonikus 4 soros SBI-rubrika, a küszöb és a kísérő item-bank.

@@ -1,5 +1,7 @@
 # M5 – KAPU – értékelő (item-bank + rubrika)
 
+← Vissza a modul-hubhoz: **[M5 – „Ez most játék vagy tanulás_” – Nonformális nevelés, módszerválasztás & tanulástan](./M5%20–%20„Ez%20most%20játék%20vagy%20tanulás_”%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)**
+
 > **Ez a fájl a hiányzó M5 mastery-kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva (lásd `_AUDIT/GATE-VALIDITY.md` → M5). Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
 
 ---

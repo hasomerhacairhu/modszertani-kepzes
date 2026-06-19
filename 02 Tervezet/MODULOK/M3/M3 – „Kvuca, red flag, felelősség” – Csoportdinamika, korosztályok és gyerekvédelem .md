@@ -253,3 +253,5 @@ A modul végére a résztvevő…
 [M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép](./M3_PEULA/M3.B%20–%20Red%20flag%20vagy%20nem_%20–%20Miniszínház%20&%20lépés-térkép.md)
 
 [M3.F – Felzárkóztató peula – Kvucadinamika & gyerekvédelem (Study Lab)](./M3_PEULA/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyerekvédelem%20(Study%20Lab).md)
+
+**[M3 – KAPU – értékelő (item-bank + rubrika)](./M3%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md)** – a modul **éles, gyerekvédelmi kapuja**: a szcenárió-item-bank és a megfigyelhető rubrika (gyerekvédelmi felelős review-jával).

@@ -226,3 +226,5 @@ A modul végére a madrich…
 [M6.B – Peula: „Játéklap workshop – saját eszköz tervezése” (45’)](./M6_PEULA/M6.B%20–%20Peula_%20„Játéklap%20workshop%20–%20saját%20eszköz%20tervezése”%20(45’).md)
 
 [M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab)](./M6_PEULA/M6.F%20–%20Felzárkóztató%20peula%20–%20Toolbox%20&%20játéklap%20(Study%20Lab).md)
+
+**[M6 – KAPU – értékelő (item-bank + rubrika)](./M6%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md)** – a modul **éles (mastery) kapuja**: a szcenárió-kvíz item-bankja és a játéklap megfigyelhető rubrikája.
