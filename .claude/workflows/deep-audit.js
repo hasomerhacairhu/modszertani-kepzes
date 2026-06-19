@@ -2,60 +2,59 @@
 //  DEEP-AUDIT — iteratív kiértékelő → felülvizsgáló → javító → önállóan commitoló
 //  harness a Hasomer Hacair madrichképzés (02 Tervezet) tananyagához.
 //
-//  ÍV (loop-until-dry konvergencia, körönként):
-//    1. ASSESS    — fan-out auditor-ügynökök (modulonként + program-szinten),
-//                   a kutatott DEEP-AUDIT-RUBRIC.md dimenziói szerint
-//    2. VERIFY    — adverzális megerősítés: minden auto-javítandó találatot
-//                   skeptikusok próbálnak cáfolni; csak a túlélők maradnak
-//    3. (DEDUP)   — körök közti deduplikáció (seen halmaz)
-//    4. FIX       — dimenziónként, fájlonként párhuzamos javítás (ütközésmentes)
-//    5. GATE      — integritás-kapu (félkövér-balansz, ⟦?⟧, törött link) commit ELŐTT
-//    6. COMMIT    — dimenziónként egy önálló commit (stagenként)
-//    + ROUTE      — safety / ideológiai-mélység / architekturális találatok
-//                   review-docba kerülnek, NEM auto-javítjuk
-//    A kör addig ismétel, amíg DRY_STREAK egymást követő kör 0 új találatot ad.
+//  ⚠️ MÓD-VÁLASZTÁS: a futás módját a lenti MODE LITERÁL vezérli — NEM args-ból,
+//  mert ebben a környezetben az args nem ér át megbízhatóan a scripthez.
+//  Élesben futtatáshoz: állítsd MODE='live'-ra, mentsd, majd indítsd a Workflow-t.
+//  Alapértelmezett SAFE: 'dry' (csak kiértékel + riportál, semmit nem javít/commitol).
 //
-//  args (mind opcionális):
-//    { dryRun: bool=false,           // true: csak ASSESS+VERIFY+riport+review, NINCS fix/commit
-//      maxRounds: number=3,
-//      dryStreak: number=2,          // ennyi üres kör után konvergens
-//      modules: string[]=M0..Z,
-//      rubricPath: string,
-//      skepticsPerFinding: number=2,
-//      branch: string='deep-audit' } // dryRun=false esetén külön branch-re commitol
+//  ÍV (loop-until-dry konvergencia, körönként):
+//    1. ASSESS  — auditor-ügynökök (modulonként + program-szinten), a kutatott
+//                 DEEP-AUDIT-RUBRIC.md szerint. CAP: max N finding / auditor, csak 🔴/🟡.
+//    2. (DEDUP + GLOBÁLIS CAP) — körök közti dedup + max finding/kör.
+//    3. VERIFY  — FÁJLONKÉNT egy szkeptikus ügynök erősíti meg a fájl találatait
+//                 (bounded a fájlszámmal — NINCS találatonkénti robbanás).
+//    4. FIX     — dimenziónként, fájlonként párhuzamos javítás (ütközésmentes).
+//    5. GATE    — integritás-kapu (félkövér-balansz, ⟦?⟧, törött link) commit ELŐTT.
+//    6. COMMIT  — dimenziónként egy önálló commit (stagenként).
+//    + ROUTE    — safety (D7) / ideológiai-mélység (D6) / architekturális találatok
+//                 review-docba; SOHA nem auto-javítjuk.
+//  A kör addig ismétel, amíg DRY_STREAK egymást követő kör 0 új találatot ad.
+//  Push SOHA. Élesben külön BRANCH-en commitol.
 // ============================================================================
 
 export const meta = {
   name: 'deep-audit',
-  description: 'Iteratív deep-audit: kiértékel → adverzálisan verifikál → javít → stagenként önállóan commitol, konvergenciáig',
+  description: 'Iteratív deep-audit: kiértékel → verifikál → javít → stagenként önállóan commitol, konvergenciáig (MODE a scriptben)',
   phases: [
-    { title: 'Setup', detail: 'branch + rubrika + kiindulási integritás' },
-    { title: 'Assess', detail: 'auditor-ügynökök modulonként + program-szinten, rubrika szerint' },
-    { title: 'Verify', detail: 'adverzális megerősítés (skeptikusok cáfolnak)' },
+    { title: 'Setup', detail: 'mód + branch + rubrika + tiszta-fa előfeltétel' },
+    { title: 'Assess', detail: 'auditorok modul + program-szinten, capelt findinggel' },
+    { title: 'Verify', detail: 'fájlonként egy szkeptikus megerősítés (bounded)' },
     { title: 'Fix', detail: 'dimenziónként, fájlonként párhuzamos javítás' },
     { title: 'Commit', detail: 'integritás-kapu + dimenziónkénti önálló commit' },
     { title: 'Konvergencia', detail: 'loop-until-dry + záró riport' },
   ],
 }
 
-// ---- paraméterek ----
-const A = args || {}
+// ============================================================================
+//  ⚙️  KONFIG — LITERÁLOK (NEM args). Éleshez: MODE='live'.
+// ============================================================================
+const MODE = 'dry'              // 'dry' = csak kiértékel+riportál | 'live' = javít+commitol
+const MAX_ROUNDS = MODE === 'live' ? 2 : 1   // dry: 1 kör (a tananyag nem változik); live: 2
+const DRY_STREAK = 1            // ennyi üres kör után konvergens (dry módban 1 elég: 1 kör)
+const MAX_FINDINGS_PER_ASSESSOR = 10   // auditoronkénti finding-plafon
+const MAX_FINDINGS_PER_ROUND = 60      // körönkénti globális finding-plafon (top by severity)
+const BRANCH = 'deep-audit'    // élesben ide commitol (külön a main-től)
+
+const DRY_RUN = MODE !== 'live'
 const ABS = '/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet'
 const REPO = '/Users/heymarcell/DEV/modszertani-kepzes'
 const MOD = ABS + '/MODULOK'
-const RUBRIC = A.rubricPath || ABS + '/_AUDIT/DEEP-AUDIT-RUBRIC.md'
-const MODULES = A.modules || ['M0', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'Z']
-const DRY_RUN = !!A.dryRun
-const MAX_ROUNDS = A.maxRounds || 3
-const DRY_STREAK = A.dryStreak || 2
-const SKEPTICS = A.skepticsPerFinding || 2
-const BRANCH = A.branch || 'deep-audit'
-
-// program-szintű auditor-fókuszok (a modulokon átívelő dimenziókra)
+const RUBRIC = ABS + '/_AUDIT/DEEP-AUDIT-RUBRIC.md'
+const MODULES = ['M0', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'Z']
 const PROGRAM_LENSES = [
-  { key: 'curriculum-ív', scope: 'A Program terv + minden modul-áttekintő: kompetencia-ív, prerekvizitek, árva/alátámasztatlan kompetenciák, a produktumok összeállása a záró Peula v2-be (capstone).' },
-  { key: 'kapu-rendszer', scope: 'A Program terv §5 + minden modul Kapuk szakasza + a "<M> – KAPU – értékelő" fájlok: kapu-validitás, küszöbök védhetősége, rubrika/item minőség, kapu-architektúra koherenciája.' },
-  { key: 'konzisztencia', scope: 'Az EGÉSZ korpusz: terminológia (a GLOSSZÁRIUM szerint), kereszthivatkozások kétirányú épsége, sablon-konformitás, cím↔fájlnév egyezés, törött linkek.' },
+  { key: 'curriculum-ív', scope: 'A Program terv + minden modul-áttekintő: kompetencia-ív, prerekvizitek, árva/alátámasztatlan kompetenciák, a produktumok összeállása a záró Peula v2-be.' },
+  { key: 'kapu-rendszer', scope: 'A Program terv §5 + minden modul Kapuk szakasza + a "<M> – KAPU – értékelő" fájlok: kapu-validitás, küszöbök, rubrika/item minőség, kapu-architektúra.' },
+  { key: 'konzisztencia', scope: 'Az EGÉSZ korpusz: terminológia (GLOSSZÁRIUM szerint), kereszthivatkozások épsége, sablon-konformitás, cím↔fájlnév egyezés, törött linkek. FONTOS: a tömeges/ismétlődő apró eltéréseket VOND ÖSSZE egyetlen findingba — ne sorold fel külön minden előfordulást.' },
 ]
 
 // ---- sémák ----
@@ -63,201 +62,157 @@ const FINDING = {
   type: 'object',
   properties: {
     findings: { type: 'array', items: { type: 'object', properties: {
-      dimension: { type: 'string', description: 'a rubrika dimenzió-azonosítója, pl. D3' },
-      severity: { type: 'string', enum: ['red', 'yellow', 'green'] },
-      file: { type: 'string', description: 'abszolút útvonal, vagy "program" ha több fájlt érint' },
+      dimension: { type: 'string', description: 'rubrika dimenzió-azonosító, pl. D3' },
+      severity: { type: 'string', enum: ['red', 'yellow'] },
+      file: { type: 'string', description: 'abszolút útvonal, vagy "program"' },
       location: { type: 'string' },
       issue: { type: 'string' },
       recommendation: { type: 'string' },
-      autoFixable: { type: 'boolean', description: 'true ha egyértelmű szerkesztéssel javítható; false ha gyerekvédelmi/ideológiai-mélység/szervezeti/architekturális DÖNTÉS kell' },
-      routeTo: { type: 'string', enum: ['fix', 'safeguarding-review', 'ideology-gate-review', 'architecture-review', 'none'], description: 'hova tartozik' },
+      autoFixable: { type: 'boolean' },
+      routeTo: { type: 'string', enum: ['fix', 'safeguarding-review', 'ideology-gate-review', 'architecture-review'] },
       sources: { type: 'array', items: { type: 'string' } },
-    }, required: ['dimension', 'severity', 'issue', 'autoFixable', 'routeTo'] } },
+    }, required: ['dimension', 'severity', 'file', 'issue', 'autoFixable', 'routeTo'] } },
   },
   required: ['findings'],
 }
-const VERDICT = {
-  type: 'object',
-  properties: { refuted: { type: 'boolean' }, reason: { type: 'string' } },
-  required: ['refuted'],
-}
-const FIXREPORT = {
+const VERIFY = {
   type: 'object',
   properties: {
-    file: { type: 'string' }, applied: { type: 'number' },
-    changes: { type: 'array', items: { type: 'string' } }, skipped: { type: 'array', items: { type: 'string' } },
+    confirmed: { type: 'array', items: { type: 'object', properties: {
+      idx: { type: 'number', description: 'a bemeneti finding indexe' },
+      keep: { type: 'boolean', description: 'true = valós, javítandó; false = fals pozitív/elvetendő' },
+      note: { type: 'string' },
+    }, required: ['idx', 'keep'] } },
   },
-  required: ['file', 'applied'],
+  required: ['confirmed'],
 }
+const FIXREPORT = { type: 'object', properties: { file: { type: 'string' }, applied: { type: 'number' }, changes: { type: 'array', items: { type: 'string' } } }, required: ['file', 'applied'] }
 const OPRESULT = { type: 'object', properties: { ok: { type: 'boolean' }, detail: { type: 'string' } }, required: ['ok', 'detail'] }
 
-// ---- segédek ----
-const fkey = (f) => `${f.file || 'program'}|${f.dimension}|${(f.issue || '').slice(0, 70).toLowerCase().replace(/\s+/g, ' ')}`
-const sevRank = { red: 0, yellow: 1, green: 2 }
+const fkey = (f) => `${f.file || 'program'}|${f.dimension}|${(f.location || '').slice(0, 40)}|${(f.issue || '').slice(0, 50).toLowerCase()}`
+const sevRank = { red: 0, yellow: 1 }
 
 // ============================================================================
 //  SETUP
 // ============================================================================
 phase('Setup')
 const setup = await agent(
-  `Setup a deep-audit futáshoz. Bash-sel:
-1. Ellenőrizd, hogy a "${RUBRIC}" fájl létezik (test -f). Ha NEM, jelezd ok:false-szal (a rubrika kötelező).
-2. Ellenőrizd, hogy a git working tree TISZTA (git -C "${REPO}" status --porcelain). Ha nem tiszta, jelezd (ok:false, detail a piszkos fájlokkal) — ne kezdjünk piszkos fán.
-${DRY_RUN ? '3. DRY RUN mód: NE válts branch-et, ne commitolj.' : `3. Hozz létre / válts a "${BRANCH}" branch-re (git -C "${REPO}" checkout -B ${BRANCH}).`}
-Add vissza ok + detail (a rubrika dimenzió-azonosítóinak listája, ha ki tudod olvasni a fájl elejéből).`,
+  `Setup a deep-audit futáshoz (MÓD: ${MODE}). Bash-sel:
+1. test -f "${RUBRIC}" — a rubrika kötelező; ha nincs, ok:false.
+2. git -C "${REPO}" status --porcelain — ha NEM tiszta a working tree, ok:false (a piszkos fájlokkal).
+${DRY_RUN ? '3. DRY mód: NE válts branch-et, ne commitolj. Maradj a jelenlegi branch-en.' : `3. LIVE mód: git -C "${REPO}" checkout -B ${BRANCH} (külön branch a main-től).`}
+Add vissza ok + detail (a jelenlegi branch neve).`,
   { schema: OPRESULT, phase: 'Setup', label: 'setup', agentType: 'claude' })
-
-if (!setup || !setup.ok) {
-  log('⛔ Setup megállította a futást: ' + (setup ? setup.detail : 'nincs válasz'))
-  return { aborted: true, reason: setup && setup.detail }
-}
-log('Setup OK. ' + (DRY_RUN ? '[DRY RUN]' : 'Branch: ' + BRANCH) + ' — ' + setup.detail)
+if (!setup || !setup.ok) { log('⛔ Setup megállt: ' + (setup ? setup.detail : 'nincs válasz')); return { aborted: true, reason: setup && setup.detail } }
+log(`Setup OK [${MODE}] — ${setup.detail}`)
 
 // ============================================================================
 //  ITERATÍV KÖRÖK
 // ============================================================================
 const seen = new Set()
-const allConfirmed = []        // minden megerősített találat (riporthoz)
+const allConfirmed = []
 const routed = { 'safeguarding-review': 0, 'ideology-gate-review': 0, 'architecture-review': 0 }
 const commits = []
-let dryStreak = 0
-let round = 0
+let dryStreak = 0, round = 0
 
 while (round < MAX_ROUNDS && dryStreak < DRY_STREAK) {
   round++
-  log(`\n========== KÖR ${round}/${MAX_ROUNDS} ==========`)
+  log(`\n===== KÖR ${round}/${MAX_ROUNDS} =====`)
 
   // ---- 1) ASSESS ----
   phase('Assess')
-  const assessPrompt = (scopeLabel, scopeInstr) => `Deep-audit AUDITOR vagy. Olvasd be a rubrikát: ${RUBRIC} (dimenziók + ellenőrizhető kritériumok + súlyozás + mely dimenziók AUTO-JAVÍTHATÓK vs. review-t igénylők).
+  const assessPrompt = (scopeInstr) => `Deep-audit AUDITOR vagy. Olvasd be a rubrikát: ${RUBRIC} (dimenziók + ellenőrizhető kritériumok + súlyozás + auto-fix vs. review besorolás).
 
 HATÓKÖR: ${scopeInstr}
 
-FELADAT: vizsgáld át a hatókörödbe eső tananyagot a rubrika MINDEN releváns dimenziója szerint. Minden valós problémához adj egy findingot: dimension (rubrika-azonosító, pl. D3), severity (red/yellow/green), file (abszolút útvonal vagy "program"), location, issue, recommendation, autoFixable, routeTo.
-- autoFixable=true + routeTo='fix' CSAK ha egyértelmű, biztonságos szerkesztéssel javítható (szöveg, formázás, konzisztencia, hiányzó-de-kikövetkeztethető tartalom, link, terminológia, akadálymentesítési jegyzet, hiányzó rubrika/item-elem).
-- autoFixable=false + routeTo='safeguarding-review' a gyerekvédelmi DÖNTÉST igénylő tételekhez; 'ideology-gate-review' az ideológiai-mélység és kapu-filozófia DÖNTÉSEKHEZ; 'architecture-review' a nagy strukturális átalakításhoz.
-- Ahol tárgyi/forrás-pontosság kell, ToolSearch → WebSearch/WebFetch és add meg a sources-t.
-- Ami már RENDBEN van, arról adj 1-2 green findingot (routeTo='none').
-NE módosíts SEMMILYEN fájlt — csak olvass. Légy konkrét (fájl+hely). Add vissza a FINDING sémát.`
+FELADAT: a rubrika releváns dimenziói szerint keresd a VALÓS, FONTOS problémákat.
+- CSAK 🔴 (kritikus) és 🟡 (fontos) findingot adj — green/"rendben" megállapítást NE.
+- LEGFELJEBB ${MAX_FINDINGS_PER_ASSESSOR} finding, a legfontosabbak. Ne sorold fel a tömeges apró/ismétlődő eltéréseket külön — vond össze.
+- autoFixable=true + routeTo='fix' CSAK ha egyértelmű, biztonságos szerkesztéssel javítható.
+- routeTo='safeguarding-review' a gyerekvédelmi (D7) DÖNTÉSEKHEZ; 'ideology-gate-review' a D6 ideológiai-mélység / kapu-filozófia DÖNTÉSEKHEZ; 'architecture-review' a nagy strukturális átalakításhoz. Ezeket NE jelöld autoFixable-nek.
+- Tárgyi pontosságnál ToolSearch → WebSearch/WebFetch + sources.
+NE módosíts fájlt. Légy konkrét (file abszolút útvonal + location). Add vissza FINDING.`
 
   const assessThunks = [
-    ...MODULES.map((m) => () => agent(assessPrompt(m, `A(z) ${m} modul minden .md fájlja: "${MOD}/${m}" és almappái (ls -R). Modul-áttekintő + online leckék + peulák + a "${m} – KAPU" fájl ha van.`),
+    ...MODULES.map((m) => () => agent(assessPrompt(`A(z) ${m} modul minden .md fájlja: "${MOD}/${m}" és almappái (ls -R), beleértve a "${m} – KAPU" fájlt.`),
       { schema: FINDING, phase: 'Assess', label: `assess:${m}`, agentType: 'claude' })),
-    ...PROGRAM_LENSES.map((l) => () => agent(assessPrompt(l.key, l.scope),
+    ...PROGRAM_LENSES.map((l) => () => agent(assessPrompt(l.scope),
       { schema: FINDING, phase: 'Assess', label: `assess:${l.key}`, agentType: 'claude' })),
   ]
   const assessed = []
-  const BATCH = 6
-  for (let i = 0; i < assessThunks.length; i += BATCH) {
-    const r = await parallel(assessThunks.slice(i, i + BATCH))
-    assessed.push(...r.filter(Boolean))
-  }
-  const rawFindings = assessed.flatMap((a) => a.findings || [])
+  for (let i = 0; i < assessThunks.length; i += 6) assessed.push(...(await parallel(assessThunks.slice(i, i + 6))).filter(Boolean))
+  let raw = assessed.flatMap((a) => (a.findings || []).slice(0, MAX_FINDINGS_PER_ASSESSOR))
 
-  // ---- dedup vs seen, és csak actionable (nem-green, nem-seen) ----
+  // ---- dedup vs seen + globális cap (top by severity) ----
   const fresh = []
-  for (const f of rawFindings) {
-    if (f.severity === 'green' || f.routeTo === 'none') continue
-    const k = fkey(f)
-    if (seen.has(k)) continue
-    seen.add(k)
-    fresh.push(f)
-  }
-  log(`Kör ${round}: ${rawFindings.length} nyers finding → ${fresh.length} friss, actionable`)
-
-  if (fresh.length === 0) { dryStreak++; log(`Üres kör (dry streak ${dryStreak}/${DRY_STREAK})`); continue }
+  for (const f of raw) { const k = fkey(f); if (seen.has(k)) continue; seen.add(k); fresh.push(f) }
+  fresh.sort((a, b) => sevRank[a.severity] - sevRank[b.severity])
+  const capped = fresh.slice(0, MAX_FINDINGS_PER_ROUND)
+  const deferred = fresh.length - capped.length
+  log(`Kör ${round}: ${raw.length} nyers → ${fresh.length} friss → ${capped.length} feldolgozva${deferred > 0 ? ` (${deferred} elhalasztva a cap miatt)` : ''}`)
+  if (capped.length === 0) { dryStreak++; log(`Üres kör (dry streak ${dryStreak}/${DRY_STREAK})`); continue }
   dryStreak = 0
 
-  // ---- route: review-be menők elkülönítése ----
-  const toReview = fresh.filter((f) => f.routeTo !== 'fix')
-  const toFixAll = fresh.filter((f) => f.routeTo === 'fix' && f.autoFixable)
-
-  // ---- 2) VERIFY (adverzális) a fix-jelölteken ----
-  phase('Verify')
-  const confirmed = []
-  const verifyThunks = toFixAll.map((f) => () =>
-    parallel(Array.from({ length: SKEPTICS }, (_, i) => () =>
-      agent(`Adverzális ELLENŐR vagy. Próbáld CÁFOLNI az alábbi audit-találatot. Olvasd be az érintett fájlt (${f.file}) és a rubrikát (${RUBRIC}); ha tárgyi kérdés, ToolSearch → WebSearch.
-TALÁLAT [${f.dimension}/${f.severity}] ${f.location || ''}: ${f.issue}
-JAVASLAT: ${f.recommendation || ''}
-Ha a találat HIBÁS, túlzó, már javított, vagy a "javítás" rontana a tananyagon → refuted=true. Bizonytalanságnál hajlj a refuted=true felé (csak valós, egyértelmű problémát fixálunk). Add vissza VERDICT.`,
-        { schema: VERDICT, phase: 'Verify', label: `verify:${(f.dimension || '?')}#${i + 1}`, agentType: 'claude' })))
-      .then((votes) => {
-        const refutes = votes.filter(Boolean).filter((v) => v.refuted).length
-        const survives = refutes < Math.ceil(SKEPTICS / 2 + 0.001) // többségi cáfolat kell a kiejtéshez
-        return survives ? f : null
-      }))
-  const vBatch = 8
-  for (let i = 0; i < verifyThunks.length; i += vBatch) {
-    const r = await parallel(verifyThunks.slice(i, i + vBatch))
-    confirmed.push(...r.filter(Boolean))
-  }
-  log(`Verify: ${toFixAll.length} jelölt → ${confirmed.length} megerősítve (${toReview.length} review-be)`)
-  allConfirmed.push(...confirmed)
-
-  // ---- review-be route-olt találatok kiírása (NEM dry-specifikus: mindig dokumentáljuk) ----
+  // ---- route: review-be ----
+  const toReview = capped.filter((f) => f.routeTo !== 'fix')
+  const toFix = capped.filter((f) => f.routeTo === 'fix' && f.autoFixable)
   if (toReview.length) {
-    const byDoc = {
-      'safeguarding-review': toReview.filter((f) => f.routeTo === 'safeguarding-review'),
-      'ideology-gate-review': toReview.filter((f) => f.routeTo === 'ideology-gate-review'),
-      'architecture-review': toReview.filter((f) => f.routeTo === 'architecture-review'),
-    }
-    for (const [doc, items] of Object.entries(byDoc)) {
+    const groups = { 'safeguarding-review': 'SAFEGUARDING-REVIEW.md', 'ideology-gate-review': 'IDEOLOGY-GATE-REVIEW.md', 'architecture-review': 'ARCHITECTURE-REVIEW.md' }
+    for (const [route, fname] of Object.entries(groups)) {
+      const items = toReview.filter((f) => f.routeTo === route)
       if (!items.length) continue
-      routed[doc] += items.length
-      const fname = doc === 'safeguarding-review' ? 'SAFEGUARDING-REVIEW.md'
-        : doc === 'ideology-gate-review' ? 'IDEOLOGY-GATE-REVIEW.md' : 'ARCHITECTURE-REVIEW.md'
-      await agent(`Egészítsd ki (append) a "${ABS}/_AUDIT/${fname}" review-dokumentumot (ha nincs, hozd létre megfelelő fejléccel) az alábbi, DÖNTÉST igénylő találatokkal — egy "## Deep-audit kör ${round}" szakasz alatt, tételenként: dimenzió, fájl/hely, probléma, javaslat, forrás. NE módosíts tananyag-forrásfájlt, csak ezt a review-doksit.
-TÉTELEK (JSON): ${JSON.stringify(items.map((f) => ({ dimension: f.dimension, file: f.file, location: f.location, issue: f.issue, recommendation: f.recommendation, sources: f.sources })))}
-Add vissza ok + detail.`, { schema: OPRESULT, phase: 'Verify', label: `route:${doc}`, agentType: 'claude' })
+      routed[route] += items.length
+      await agent(`Egészítsd ki (append) a "${ABS}/_AUDIT/${fname}" review-dokumentumot egy "## Deep-audit kör ${round}" szakasszal, az alábbi DÖNTÉST igénylő találatokkal (dimenzió · fájl/hely · probléma · javaslat · forrás). NE módosíts tananyag-forrást, csak ezt a doksit.
+TÉTELEK: ${JSON.stringify(items.map((f) => ({ dimension: f.dimension, file: f.file, location: f.location, issue: f.issue, recommendation: f.recommendation, sources: f.sources })))}
+Add vissza ok + detail.`, { schema: OPRESULT, phase: 'Assess', label: `route:${route}`, agentType: 'claude' })
     }
   }
+  if (!toFix.length) { log(`Kör ${round}: nincs auto-javítandó (${toReview.length} review-be).`); continue }
 
-  if (DRY_RUN) { log(`[DRY RUN] Kör ${round}: ${confirmed.length} megerősített javítandó (nem alkalmazva), ${toReview.length} review-be írva.`); continue }
-  if (confirmed.length === 0) { log(`Kör ${round}: nincs megerősített auto-javítás.`); continue }
+  // ---- 2) VERIFY — FÁJLONKÉNT egy szkeptikus (bounded) ----
+  phase('Verify')
+  const byFileV = {}
+  for (const f of toFix) { (byFileV[f.file] = byFileV[f.file] || []).push(f) }
+  const vFiles = Object.keys(byFileV)
+  const confirmed = []
+  const vThunks = vFiles.map((file) => () => {
+    const items = byFileV[file]
+    return agent(`Adverzális ELLENŐR vagy. Olvasd be a fájlt (${file === 'program' ? 'a finding-ekben megnevezett fájlok' : file}) és a rubrikát (${RUBRIC}). Az alábbi javítandó-jelölt találatok mindegyikéről döntsd el, VALÓS és érdemes-e javítani (keep:true), vagy fals pozitív / túlzó / már javított / a "javítás" rontana (keep:false). Bizonytalanságnál hajlj keep:false felé. Tárgyi kérdésnél ToolSearch → WebSearch.
+TALÁLATOK (idx-szel): ${JSON.stringify(items.map((f, i) => ({ idx: i, dimension: f.dimension, location: f.location, issue: f.issue, recommendation: f.recommendation })))}
+Add vissza VERIFY (minden idx-re keep + rövid note).`,
+      { schema: VERIFY, phase: 'Verify', label: `verify:${(file.split('/').pop() || file).slice(0, 18)}`, agentType: 'claude' })
+      .then((v) => { const keep = new Set((v && v.confirmed || []).filter((c) => c.keep).map((c) => c.idx)); return items.filter((_, i) => keep.has(i)) })
+  })
+  for (let i = 0; i < vThunks.length; i += 8) confirmed.push(...(await parallel(vThunks.slice(i, i + 8))).filter(Boolean).flat())
+  log(`Verify: ${toFix.length} jelölt → ${confirmed.length} megerősítve`)
+  allConfirmed.push(...confirmed)
+  if (DRY_RUN) { log(`[DRY] Kör ${round}: ${confirmed.length} megerősített javítandó (nem alkalmazva), ${toReview.length} review-be.`); continue }
+  if (!confirmed.length) continue
 
-  // ---- 4) FIX — dimenziónként, fájlonként; majd 5) GATE + 6) COMMIT dimenziónként ----
+  // ---- 4) FIX dimenziónként, fájlonként + 5) GATE + 6) COMMIT ----
   const byDim = {}
-  for (const f of confirmed) { (byDim[f.dimension] = byDim[f.dimension] || []).push(f) }
-  const dims = Object.keys(byDim).sort()
-
-  for (const dim of dims) {
+  for (const f of confirmed) (byDim[f.dimension] = byDim[f.dimension] || []).push(f)
+  for (const dim of Object.keys(byDim).sort()) {
     phase('Fix')
-    const dimFindings = byDim[dim]
-    // fájlonként csoportosít (a "program" hatókörűeket külön kezeljük, fájlonként a recommendation szerint)
     const byFile = {}
-    for (const f of dimFindings) { const key = f.file && f.file !== 'program' ? f.file : `__program__:${(f.location || f.issue).slice(0, 30)}`; (byFile[key] = byFile[key] || []).push(f) }
-    const fileKeys = Object.keys(byFile)
+    for (const f of byDim[dim]) (byFile[f.file] = byFile[f.file] || []).push(f)
+    const fixThunks = Object.entries(byFile).map(([file, items]) => () =>
+      agent(`Deep-audit JAVÍTÓ vagy (${dim}). Cél: ${file === 'program' ? 'a finding-ekben megnevezett fájl(ok)' : file}. Olvasd be a fájl(oka)t + a rubrikát (${RUBRIC}). Minden találatra PRECÍZ, MINIMÁLIS Edit; a meglévő helyes tartalmat ne töröld; a pótolt/kiemelt részt **félkövérrel**; tegező, someres hangnem; tárgyinál ToolSearch → WebSearch + forrás. Integritás: páros félkövér, nincs ⟦?⟧, nincs törött link, cím↔fájlnév egyezés. Ne nyúlj a finding hatókörén kívülre.
+TALÁLATOK: ${JSON.stringify(items.map((f) => ({ location: f.location, issue: f.issue, recommendation: f.recommendation, sources: f.sources })))}
+Ellenőrizd Read-del. Add vissza FIXREPORT.`,
+        { schema: FIXREPORT, phase: 'Fix', label: `fix:${dim}:${(file.split('/').pop() || file).slice(0, 14)}`, agentType: 'claude' }))
+    const fixRes = []
+    for (let i = 0; i < fixThunks.length; i += 6) fixRes.push(...(await parallel(fixThunks.slice(i, i + 6))).filter(Boolean))
+    if (fixRes.reduce((a, b) => a + (b.applied || 0), 0) === 0) { log(`${dim}: 0 javítás.`); continue }
 
-    const fixResults = []
-    const fxBatch = 6
-    const fileThunks = fileKeys.map((key) => () => {
-      const items = byFile[key]
-      const target = key.startsWith('__program__') ? 'a finding(ek)ben megnevezett fájl(ok) (a recommendation szerint, jellemzően a Program terv vagy egy áttekintő)' : key
-      return agent(`Deep-audit JAVÍTÓ vagy. Hajtsd végre az alábbi, MÁR MEGERŐSÍTETT (${dim} dimenziós) találatok javítását. Cél: ${target}.
-Olvasd be a fájl(oka)t és a rubrikát (${RUBRIC}). Minden találatra: PRECÍZ, MINIMÁLIS Edit; a meglévő helyes tartalmat ne töröld; a pótolt/kiemelt részt **félkövérrel**; tegező, someres hangnem; tárgyi pontosságnál ToolSearch → WebSearch + forrás. Őrizd az integritást: páros félkövér, nincs ⟦?⟧, nincs törött link, cím↔fájlnév egyezés. Ne nyúlj a finding hatókörén kívüli tartalomhoz.
-TALÁLATOK (JSON): ${JSON.stringify(items.map((f) => ({ file: f.file, location: f.location, issue: f.issue, recommendation: f.recommendation, sources: f.sources })))}
-Ellenőrizd Read-del. Add vissza FIXREPORT (file, applied, changes[], skipped[]).`,
-        { schema: FIXREPORT, phase: 'Fix', label: `fix:${dim}:${(key.split('/').pop() || key).slice(0, 18)}`, agentType: 'claude' })
-    })
-    for (let i = 0; i < fileThunks.length; i += fxBatch) {
-      const r = await parallel(fileThunks.slice(i, i + fxBatch))
-      fixResults.push(...r.filter(Boolean))
-    }
-    const applied = fixResults.reduce((a, b) => a + (b.applied || 0), 0)
-    if (applied === 0) { log(`${dim}: 0 javítás alkalmazva — nincs commit.`); continue }
-
-    // ---- 5) INTEGRITÁS-KAPU + 6) COMMIT (egy ügynök, szekvenciális → nincs git-verseny) ----
     phase('Commit')
-    const commit = await agent(`Integritás-kapu + commit a deep-audit ${dim} dimenziójának javításaihoz (kör ${round}).
-1. Futtass egy integritás-ellenőrzést a megváltozott fájlokon (git -C "${REPO}" diff --name-only). Minden megváltozott .md-re Node-dal ellenőrizd: (a) a félkövér ** párokban van-e (a *** vízszintes elválasztókat és a *dőlt***félkövér** szomszédosságot kezeld helyesen: előbb dobd a csak-*** sorokat, majd cseréld a "***"-t "** *"-ra, úgy számold a **-okat — páratlan = HIBA); (b) nincs ⟦?⟧ maradék jelölő; (c) nincs "file:///workspace" törött link.
-2. Ha az integritás HIBÁS: NE commitolj; add vissza ok:false + detail (mely fájl, mi a hiba), hogy a következő kör javíthassa.
-3. Ha OK: git -C "${REPO}" add -u -- "02 Tervezet" (és add hozzá az új fájlokat is, ha a javítás hozott létre ilyet), majd commitolj egy beszédes üzenettel:
-   "fix(deep-audit ${dim}): <rövid összefoglaló> [kör ${round}]\n\n<dimenzió szerinti felsorolás>\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>"
-   (a commit üzenetet írd FÁJLBA és git commit -F-fel add be, a magyar karakterek/zárójelek miatt). NE pushelj.
-Add vissza ok + detail (a commit SHA és a megváltozott fájlok száma).`,
+    const commit = await agent(`Integritás-kapu + commit a deep-audit ${dim} javításaihoz (kör ${round}).
+1. Integritás a megváltozott fájlokon (git -C "${REPO}" diff --name-only). Node-dal minden .md-re: (a) a *** elválasztó-sorok eldobása + a "***" → "** *" csere UTÁN a ** párok száma PÁROS legyen (páratlan=HIBA); (b) nincs ⟦?⟧; (c) nincs "file:///workspace".
+2. HIBA esetén NE commitolj, ok:false + detail (mely fájl/mi).
+3. OK esetén: git -C "${REPO}" add -u -- "02 Tervezet" (+ új fájlok); commit -F fájlból (magyar karakterek!): "fix(deep-audit ${dim}): <összefoglaló> [kör ${round}]\\n\\n<felsorolás>\\n\\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>". NE pushelj.
+Add vissza ok + detail (commit SHA + fájlszám).`,
       { schema: OPRESULT, phase: 'Commit', label: `commit:${dim}`, agentType: 'claude' })
-    commits.push({ round, dim, ok: commit && commit.ok, detail: commit && commit.detail })
+    commits.push({ round, dim, ok: commit && commit.ok })
     log(`${dim} commit: ${commit && commit.ok ? '✓ ' + commit.detail : '⛔ ' + (commit && commit.detail)}`)
   }
 }
@@ -266,21 +221,11 @@ Add vissza ok + detail (a commit SHA és a megváltozott fájlok száma).`,
 //  ZÁRÓ RIPORT
 // ============================================================================
 phase('Konvergencia')
-const sevTally = (arr) => arr.reduce((a, f) => (a[f.severity] = (a[f.severity] || 0) + 1, a), {})
-const summary = {
-  rounds: round,
-  converged: dryStreak >= DRY_STREAK,
-  confirmedFixes: allConfirmed.length,
-  bySeverity: sevTally(allConfirmed),
-  routedToReview: routed,
-  commits: commits.filter((c) => c.ok).length,
-  dryRun: DRY_RUN,
-}
-await agent(`Írd meg / frissítsd a "${ABS}/_AUDIT/DEEP-AUDIT-REPORT.md" záró riportot (Write/Edit). Tartalom: a deep-audit futás összegzése.
-ÖSSZEGZŐ ADATOK (JSON): ${JSON.stringify(summary)}
-MEGERŐSÍTETT TALÁLATOK (JSON, dimenziónként csoportosítva, fájl+hely+probléma): ${JSON.stringify(allConfirmed.map((f) => ({ dimension: f.dimension, severity: f.severity, file: f.file, location: f.location, issue: f.issue })).slice(0, 200))}
-Szakaszok: (1) Vezetői összefoglaló (hány kör, konvergált-e, hány javítás/commit, mi ment review-ba); (2) Megerősített javítások dimenziónként; (3) Review-be route-olt döntések (SAFEGUARDING-REVIEW / IDEOLOGY-GATE-REVIEW / ARCHITECTURE-REVIEW — utalás); (4) Következő lépések. Tegező-szakmai, magyar. NE módosíts tananyag-forrást, csak ezt a riportot. Add vissza ok + detail.`,
+const summary = { mode: MODE, rounds: round, converged: dryStreak >= DRY_STREAK, confirmed: allConfirmed.length, routed, commits: commits.filter((c) => c.ok).length }
+await agent(`Írd meg/frissítsd a "${ABS}/_AUDIT/DEEP-AUDIT-REPORT.md" záró riportot (Write).
+ÖSSZEGZÉS: ${JSON.stringify(summary)}
+MEGERŐSÍTETT TALÁLATOK (dimenziónként, fájl+hely+probléma): ${JSON.stringify(allConfirmed.map((f) => ({ dimension: f.dimension, severity: f.severity, file: f.file, location: f.location, issue: f.issue })).slice(0, 120))}
+Szakaszok: (1) Vezetői összefoglaló (mód, körök, konvergált-e, hány javítás/commit, mi ment review-ba); (2) Megerősített találatok dimenziónként; (3) Review-be route-olt döntések (utalás a SAFEGUARDING/IDEOLOGY-GATE/ARCHITECTURE-REVIEW-ra); (4) Következő lépések. Magyar, tegező. Add vissza ok + detail.`,
   { schema: OPRESULT, phase: 'Konvergencia', label: 'záró-riport', agentType: 'claude' })
-
-log(`\n✅ DEEP-AUDIT kész: ${round} kör, ${summary.converged ? 'KONVERGÁLT' : 'maxRounds elérve'}, ${allConfirmed.length} megerősített javítás, ${commits.filter((c) => c.ok).length} commit, ${Object.values(routed).reduce((a, b) => a + b, 0)} review-be.`)
+log(`\n✅ DEEP-AUDIT [${MODE}] kész: ${round} kör, ${allConfirmed.length} megerősített, ${commits.filter((c) => c.ok).length} commit, ${Object.values(routed).reduce((a, b) => a + b, 0)} review-be.`)
 return summary
