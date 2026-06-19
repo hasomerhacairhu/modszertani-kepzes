@@ -26,8 +26,8 @@ A modul végére a madrich…
    * Megnevezi, melyik réteg hogyan befolyásolja a madrich-szerepét.
    * **Támogató elemek:** M2.1 (identitás-körök), M2.A (identitás-megosztás élőben).
 2. **Értékalapú dugma ishit**
-   * Kiválaszt **3 személyes értéket**.
-   * Mindegyikhez 1 konkrét viselkedést fogalmaz meg, amelyet a chanichok rajta láthatnak.
+   * Kiválaszt **3 személyes értéket**, és mindegyikhez 1 konkrét viselkedést fogalmaz meg, amelyet a chanichok rajta láthatnak.
+   * **Ezek közül 1 someres értéket emel ki, amelyben idén tudatosan dugma ishit szeretne lenni – ez a kiemelt érték az, amit a kapu (a self-check 2. pontja és a fejlesztő rubrika R2 sora) lehorgonyoz. A másik kettő a feltáró munkát gazdagítja, de a mastery-produktum a kiemelt értékre fókuszál.**
    * **Támogató elemek:** M2.2 (Értékeim mint iránytű), M2.B (Somer-értékek a gyakorlatban).
 3. **Ideológiai tudatosság mint példaadás**
    * Röviden elmondja, mit jelent számára a **zionizmus, szocializmus, humanista zsidóság**.
