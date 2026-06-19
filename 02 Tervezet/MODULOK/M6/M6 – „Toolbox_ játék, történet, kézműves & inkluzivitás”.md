@@ -191,6 +191,8 @@ A modul végére a madrich…
   * rubrikában min. „oké” szint minden sorban,
   * ha a „Biztonság & inkluzivitás” sor nem éri el az „oké” szintet → javítás kötelező (mentorral / staffal egyeztetve). 
 
+> **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának – az M7 Peula v2-ben ez adja a peula „Élmény-blokk” pontját, a biztonsági és inkluzivitási megjegyzések pedig becsatlakoznak a Zmán Kvucá-checklistbe. 
+
 ## 7. Learning analytics a modul szintjén – mit nézzen a stáb?
 
 * **Activity completion:**

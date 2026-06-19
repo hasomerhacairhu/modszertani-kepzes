@@ -146,6 +146,8 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
   * **2–3 próbálkozás** engedélyezve,
   * hibánál rövid magyarázó feedback: merre menjen vissza (M5.1–M5.4) javítani a megértést.
 
+> **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, visszahívás, spacing) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem random játékot raksz be, hanem a SMART nevelési célhoz és a kvucához illő módszert. 
+
 ## 7. Learning analytics – mit figyeljen a stáb az M5-nél?
 
 1. **Completion adatok (Moodle):**

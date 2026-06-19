@@ -147,6 +147,8 @@ A modul végére a madrich…
 4. L4 / M2.4 – reflektív napló leadva, benne 3 saját határszabály.
 5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal.
 
+> **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzet + a választott someres értéked és dugma ishit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika pedig pontozza a *„SMART cél – someres értékhez kötött”* sort. Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
+
 **Javítás / támogatás logika:**
 
 * Ha valaki nem fejezi be valamelyik kulcselemét → mentor értesítése, M2.F (Study Lab) ajánlása.

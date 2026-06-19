@@ -180,6 +180,8 @@ A modul végére a résztvevő…
 * **Online:** M1.1–M1.4 mikroleckék activity completion (H5P-k végigjátszva).
 * **Produktum:** legalább **1 db SBI** beadása az Assignmentben, a rubrika minden sorában min. „alapszint”, legalább egy sorban „fejlődő” szint. 
 
+> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt megtanult SBI-nyelv lesz az alapja a Peula v2 utóreflexiójának és a peer-feedbacknek – az M7 produktum-leadásánál (Peula v2 + Zmán Kvucá) a javító visszajelzés is **SBI-ben** érkezik, és az M7.A/M7.B peulákon SBI-ben adtok egymásnak peer-feedbacket a peulátokra. 
+
 ### Javítási logika
 
 * Ha nem éri el a minimumot, rövid, **SBI-típusú feedbacket** kap, és újrapróbálhatja (mastery learning). 

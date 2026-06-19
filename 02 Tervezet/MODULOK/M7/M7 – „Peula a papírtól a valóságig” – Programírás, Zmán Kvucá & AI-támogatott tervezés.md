@@ -180,10 +180,28 @@ A modul végére a madrich…
 * **Kaputípus:**
   **Éles (hard/mastery) kapu**, mert peula- és gyerekbiztonság-fókuszú modulról van szó – itt nem elég a „kb. értem”.
 
+> **Hol történik a tényleges Peula v2 mastery-leadás?**
+> Az M7.4 Assignment („Peula v2 – első vázlat”) **formatív** (0/1 completion) – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu.
+> A **félévzáró, éles kapu** a **véglegesített Peula v2 + Zmán Kvucá** leadása: a v1 vázlatot az M7.B peula-klinikán finomhangolod, majd a kész verziót adod le.
+> A részletes értékelőt (item-bank, 8 soros rubrika, blokkoló safety-sor, ponthoz kötött ≥70%) az **[M7 – KAPU – értékelő (item-bank + rubrika)](./M7%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** fájl tartalmazza.
+> **Horgonyzás:** a végleges Peula v2-t a **félév végén, mentor / képző** zárja le ezen az éles kapun – ez NEM csúszik a modulon kívülre, és a Z modul completion-alapú reflexiója **nem helyettesíti** ezt a mastery-értékelést.
+
 1. **Moodle Assignment – „Peula v2 + Zmán Kvucá” (modulproduktum)**
    * **Beadás:**
      * kitöltött **Peula v2 sablon** a modernizált Peula 11 pontja alapján,
      * kitöltött **Zmán Kvucá-checklist** ugyanarra a programra.
+
+   > **PORTFÓLIÓ-BEMENET – a Peula v2 nem nulláról indul.**
+   > A félév szintézis-produktuma a korábbi modulok kész produktumaira épít (tükrözve az „M7 – KAPU” capstone-átkötés tábláját):
+   >
+   > * **M1 – SBI** (Situation–Behavior–Impact): az utóreflexió (11. pont), a peer-feedback és a bukás-útvonal visszajelzése SBI-nyelven íródik.
+   > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd.
+   > * **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá-safety és a kvuca-illeszkedés a korábban tanult gyerekvédelmi keretre és a someres kvuca-profilra támaszkodik.
+   > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
+   > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a safety- és inkluzivitási mezők itt élnek tovább.
+   >
+   > Üzenet a madrichnak: „Hozd be az M1 SBI-nyelvet, az M2 saját értékedet, az M3 safety-keretet, az M5 módszer-logikádat és egy M6 játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §CAPSTONE.)
+
    * **Rubrika-minimum (példa):**
      1. SMART cél – egyértelmű, someres értékhez kötött.
      2. Kvuca-illeszkedés – korosztály, energiaszint, Gen Alpha sajátosságok.
