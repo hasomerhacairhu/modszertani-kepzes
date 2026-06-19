@@ -52,9 +52,9 @@ A modul végére a madrich…
 ### M7.1 – „Ez még csak vágy, nem cél” – SMART nevelési cél someres módra (10–15’)
 
 * **Cél:**
-  &#x20;Megkülönböztetni a „szétfolyó” kívánság-szintű célokat a **SMART nevelési céltól**, és 1 saját peula-ötlethez SMART célt írni.
+  Megkülönböztetni a „szétfolyó” kívánság-szintű célokat a **SMART nevelési céltól**, és 1 saját peula-ötlethez SMART célt írni.
 * **Programírás-fókusz:**
-  &#x20;„Ha nem tudom pontosan, mit szeretnék, nem tudom jól megtervezni a peulát sem.”
+  „Ha nem tudom pontosan, mit szeretnék, nem tudom jól megtervezni a peulát sem.”
 * **Eszközök:** H5P **Course Presentation** (5–7 slide) + beépített **Fill in the Blanks** + **Single Choice Set**.
 * **Tartalom röviden:**
   * „Szétfolyó vágyak” vs. mérhető célok (kvuca-szituációkra írva).
@@ -68,9 +68,9 @@ A modul végére a madrich…
 ### M7.2 – „Peula 11 pontja 2025-ben – ember + AI” (15–20’)
 
 * **Cél:**
-  &#x20;Megismerni a modernizált **Peula 11 pontját**, és látni 1–1 AI-használati példát (ötletelés, kérdés-generálás, nyelvi egyszerűsítés).
+  Megismerni a modernizált **Peula 11 pontját**, és látni 1–1 AI-használati példát (ötletelés, kérdés-generálás, nyelvi egyszerűsítés).
 * **Programírás-fókusz:**
-  &#x20;„Nem elég a játék – a peulának *szerkezete* és *biztonsági kerete* van.”
+  „Nem elég a játék – a peulának *szerkezete* és *biztonsági kerete* van.”
 * **Eszközök:** H5P **Course Presentation** (kb. 7–11 slide) + **Matching / Drag & Drop**.
 * **Tartalom röviden:**
   * A 11 pont nevei és someres példái (Kvuca-profil, Élmény-blokk, Feldolgozás, Safety, Operáció stb.).
@@ -86,9 +86,9 @@ A modul végére a madrich…
 ### M7.3 – „Zmán Kvucá-checklist” – idő, tér, felelősség (15–20’)
 
 * **Cél:**
-  &#x20;Érteni, mitől lesz egy Zmán Kvucá **vállalható és biztonságos**, és használni a hozzá tartozó **checklistet** saját programokra.
+  Érteni, mitől lesz egy Zmán Kvucá **vállalható és biztonságos**, és használni a hozzá tartozó **checklistet** saját programokra.
 * **Programírás-fókusz:**
-  &#x20;„A Zmán Kvucá nem csak egy játékidő – hanem *idő + helyszín + kvuca + cél + felelős madrichok* tudatos kerete.”
+  „A Zmán Kvucá nem csak egy játékidő – hanem *idő + helyszín + kvuca + cél + felelős madrichok* tudatos kerete.”
 * **Eszközök:** H5P **Course Presentation** (kb. 6 slide) + **Moodle Checklist** külön aktivitásként.
 * **Tartalom röviden:**
   * Mini-sztori(k) széteső Zmán Kvucáról (nincs B-terv, kevés madrich, bizonytalan terek).
@@ -106,9 +106,9 @@ A modul végére a madrich…
 ### M7.4 – „Peula v2 + AI” – modulproduktum váz (15–20’)
 
 * **Cél:**
-  &#x20;Előkészíteni a modul produktumát: 1 **Peula v2 vázlatot** és a hozzá tartozó **Zmán Kvucá-operáció** alapjait.
+  Előkészíteni a modul produktumát: 1 **Peula v2 vázlatot** és a hozzá tartozó **Zmán Kvucá-operáció** alapjait.
 * **Programírás-fókusz:**
-  &#x20;„A végén legyen egy peula, amit **tényleg meg mernél tartani** – nem csak papíron néz ki jól.”
+  „A végén legyen egy peula, amit **tényleg meg mernél tartani** – nem csak papíron néz ki jól.”
 * **Eszközök:** H5P **Column / Course Presentation** + Moodle **Assignment** („Peula v2 – első vázlat” – formatív, még nem kapu).
 * **Tartalom röviden:**
   * Recap: 3 építőkocka összekapcsolása (SMART cél – Peula 11 pontja – Zmán Kvucá-checklist).
@@ -130,7 +130,7 @@ A modul végére a madrich…
   * A résztvevő jobban látja, mitől „szétfolyó” egy cél, és mitől SMART egy konkrét kvucára.
   * 1 saját peula-ötletből **félkész vázlatot** formál (SMART cél + néhány kijelölt peula-pont).
 * **Fókusz-mondat:**
-  &#x20;„Ha jól megfogalmazom a célt, a peula fele már kész.”
+  „Ha jól megfogalmazom a célt, a peula fele már kész.”
 * **Rövid váz:**
   * Check-in: „Mitől jó egy Zmán Kvucá chanich-szemmel?”
   * Játék: SMART vs. wishful thinking célok – sarokválasztás, rövid megbeszélés.
@@ -147,7 +147,7 @@ A modul végére a madrich…
   * 1 meglévő Peula v2 vázlat **finomhangolása** Zmán Kvucá-szempontból (idő, tér, létszám, eszköz/B-terv, inkluzivitás, gyerekvédelem).
   * Átélni, hogy nem az a jó peula, ami papíron a legkreatívabb, hanem amit **biztonságban meg is tudsz tartani** a saját kvucádnak.
 * **Fókusz-mondat:**
-  &#x20;„Nem az a jó peula, ami papíron nagyon kreatív, hanem amit **biztonságban meg is tudsz tartani**.”
+  „Nem az a jó peula, ami papíron nagyon kreatív, hanem amit **biztonságban meg is tudsz tartani**.”
 * **Rövid váz:**
   * Check-in: „Mi volt a legnagyobb tanulságod a Zmán Kvucá-checklistből?”
   * Peula-klinika kiscsoportban:
