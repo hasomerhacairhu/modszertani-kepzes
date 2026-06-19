@@ -32,7 +32,7 @@ A modul végére a madrich…
    * 2–3 „szétfolyó” célt át tud írni **SMART nevelési céllá** egy adott kvucára (M7.1, M7.A).
    * Érti, hogyan kapcsolódik a cél Somer-értékhez / kvuca-állapothoz (M7.1, M7.4).
 2. **„Peula 11 pontja” – modern, AI-támogatott verzió**
-   * Fejben tartja a Peula 11 pontját (meta, kvuca-profil, SMART cél, kulcsüzenetek, élmény-blokk, feldolgozás, zárás, safety, inkluzivitás, operáció, reflexió) (M7.2).
+   * **Azonosítja a Peula 11 pontjának fázisait egy adott peulavázban** (meta, kvuca-profil, SMART cél, kulcsüzenetek, élmény-blokk, feldolgozás, zárás, safety, inkluzivitás, operáció, reflexió) (M7.2).
    * Képes ezek mentén **Peula v2-t írni**, és AI-t használni ötleteléshez, nyelvi finomításhoz – anélkül, hogy lemásolná az AI-szöveget (M7.2, M7.4, M7.A).
 3. **Zmán Kvucá & operáció**
    * Érti, mit jelent a **Zmán Kvucá** mint időkeret, felelősség és gyerekvédelmi kontextus (M7.3).
@@ -204,7 +204,7 @@ A modul végére a madrich…
 
    * **Rubrika-minimum (példa):**
      1. SMART cél – egyértelmű, someres értékhez kötött.
-     2. Kvuca-illeszkedés – korosztály, energiaszint, Gen Alpha sajátosságok.
+     2. Kvuca-illeszkedés – korosztály, energiaszint, **életkori / korosztályi sajátosságok**.
      3. Struktúra – a Peula 11 pontja felismerhetően jelen van.
      4. Biztonság & gyerekvédelem – átgondolt safety-rész a Zmán Kvucá-checklist alapján.
      5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható chanich-sztorik.

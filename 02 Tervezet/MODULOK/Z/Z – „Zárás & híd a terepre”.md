@@ -22,13 +22,13 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 
 A modul végére a résztvevő…
 
-1. **Féléves tanulási ív tudatosítása**
+1. **Megnevez legalább 3 fontos tanulási pillanatot az M0–M7 ívről**
    &#x20;– Vissza tud tekinteni az **M0–M7** modulokra mint összefüggő tanulási folyamatra, és meg tud nevezni legalább **3 fontos tanulási pillanatot**.
 2. **Reflektív önértékelés**
    &#x20;– Képes rövid, őszinte **önreflexiót írni vagy videóban megfogalmazni** arról, miben változott madrichként.
 3. **Konkrét „next step” célok a terepre**
    &#x20;– Megfogalmaz legalább **1–2 konkrét, időben behatárolt „next step” célt**, ami a terepi madrich-gyakorlatára vonatkozik.
-4. **Támogató háló ismerete**
+4. **Felsorolja, kihez fordulhat (mentor / képzők / ken-vezető / társ) elakadás esetén**
    &#x20;– Tudja, **kihez fordulhat** (mentor, képzők, ken-vezetők, társak), ha a következő időszakban elakad.
 5. **Képzés-szintű visszajelzés adása**
    &#x20;– Részt vesz a képzés **értékelésében** (feedback-űrlap), és tud legalább 1–2 konstruktív javaslatot megfogalmazni.

@@ -221,7 +221,7 @@
 | **0** | Nincs kvuca-meta, vagy nem derül ki, kinek szól a peula. |
 | **1** | Van kvuca-típus / életkor megnevezve, de a program ezt **figyelmen kívül hagyja** (pl. 6–10 éveseknek hosszú frontális beszélgetés). |
 | **2** | A kvuca-meta tartalmazza a **típust, korosztályt, kb. létszámot és kiinduló hangulatot**, és a program ehhez **láthatóan igazodik** (energiaszint, figyelem-időtartam). |
-| **3** | A meta + a választott módszerek **konkrétan reflektálnak a kvuca állapotára** (pl. „szétesett régi someresek” → keret-erősítő blokk), Gen Alpha / életkori sajátosság megjelenik a tervben. |
+| **3** | A meta + a választott módszerek **konkrétan reflektálnak a kvuca állapotára** (pl. „szétesett régi someresek” → keret-erősítő blokk), és az **életkori / korosztályi sajátosság** (az M3-ban tanult kvuca-profil mentén) megjelenik a tervben. |
 
 ***
 
