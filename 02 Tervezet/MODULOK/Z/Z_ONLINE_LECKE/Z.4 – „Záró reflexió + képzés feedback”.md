@@ -288,7 +288,7 @@ Ha nagyon hiányos / alibi:
 5. **Mi volt nehéz / túl sok?** – Short Answer
    > „Mi volt számodra a **legnehezebb** része ennek a félévnek?”
 6. **Javaslat a jövőre** – Short Answer
-   > „Ha egy dolgot változtathatnál a képzésen jövőre, ”
+   > „Ha egy dolgot változtathatnál a képzésen jövőre, **mi lenne az?**”
 
 ### Beállítás-javaslatok
 
