@@ -135,9 +135,14 @@ A modul végére a madrich…
 ## 6. Kapuk
 
 * **Kaputípus:** puha kapu (soft gate) – az önreflexió a lényeg, nem vizsga; jelzés és támogatás, nem kizárás.
+* **A kapu értékelő sablonja:** a self-check checklist, az 1 oldalas jegyzet-sablon és a fejlesztő rubrika **nem itt, hanem a kanonikus [M2 – KAPU – értékelő (item-bank + rubrika)](./M2%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) fájlban él** – ez a §6 hivatkozási forrása. **Az ottani A. szakasz adja a 10 pontos tanulói self-checket, a C. szakasz a 4 soros (R1–R4) fejlesztő rubrikát, a D. szakasz pedig az 1 oldalas jegyzet-sablont.**
 * **Eszközök:**
-  * Activity completion (H5P + Assignment) az M2.1–M2.4 leckékre;
-  * modul-végi checklist vagy „M2 – Kapu (self-check)” Moodle Page. 
+  * Activity completion (H5P + Assignment) az M2.1–M2.4 leckékre **– ahol a „completion” nem a végiglapozást jelenti, hanem érdemi kitöltést** (lásd lentebb a „Mit jelent a complete?” pontot);
+  * **az identitás-jegyzet Moodle Assignment, hozzá a fenti értékelő-fájl 4 soros rubrikája Moodle „Rubric” értékelési módszerként rögzítve** (a régi „modul-végi checklist vagy »M2 – Kapu (self-check)« Moodle Page” helyett); **opcionálisan H5P Question Set / Moodle Quiz a B. szakasz fogalmi self-check itemeivel – ez formatív, completion-alapú, NEM a kapu.** 
+
+**Mit jelent a „complete”? (nem a végiglapozás)**
+
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a slide-ok végigléptetését – összhangban a §7 beavatkozási triggerével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve** (nem üres beküldés); **M2.3 = a mini-kapszula végig + a 3 „így mutatok példát” mondat beírva**; **M2.1 / M2.4 = a feltöltött Assignmentben van érdemi szöveg** (identitás-térkép reflexióval, ill. napló a 3 határszabállyal), nem üres fájl.
 
 **Követelmény az M2 „complete”-hez:**
 
@@ -145,7 +150,11 @@ A modul végére a madrich…
 2. L2 / M2.2 – H5P értékválasztás + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula végig, 3 „így mutatok példát” mondat beírva.
 4. L4 / M2.4 – reflektív napló leadva, benne 3 saját határszabály.
-5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal.
+5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal **– az értékelő-fájl D. szakasz sablonja szerint, a tanuló előbb lefuttatja magán az A. szakasz 10 pontos self-checkjét.**
+
+**Soft-gate küszöb (az értékelő-fájlból átvéve):**
+
+> A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (Study Lab) ajánlást kap, és újra beadhat** – nincs kizárás, nincs limit a próbálkozásra.
 
 > **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzet + a választott someres értéked és dugma ishit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika pedig pontozza a *„SMART cél – someres értékhez kötött”* sort. Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
 

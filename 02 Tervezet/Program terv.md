@@ -94,7 +94,7 @@ A félév **ív-szerűen** építkezik:
 | M4    | **„Hallható és érthető vagyok?” – Kiállás, kapcsolódás & kérdezéstechnika**            | metakommunikációs alapok; aktív hallgatás; kérdezési technikák; rövid peula-pitch kvucára szabva             | 45 mp-es peula-pitch váz egy választott kvucára              | puha mini-quiz                                 |
 | M5    | **„Ez most játék vagy tanulás?” – Nonformális nevelés, módszerválasztás & tanulástan** | formális–nonformális–informális megkülönböztetése; feladat→cél→kvuca→módszer gondolkodás; alap tanulástan    | „Feladat–kvuca–módszer + tanulástan” táblázat                | **ÉLES:** fogalom-kvíz (≥80%)                  |
 | M6    | **„Toolbox: játék, történet, kézműves & inkluzivitás”**                                | konkrét játékok/történetek/ kézművesek illesztése kvucára; biztonság, inkluzivitás, trigger-érzékenység      | 1 részletes játéklap (cél, kvuca, leírás, bizt., inkluzió)   | **ÉLES:** szcenárió-kvíz (≥80%) + játéklap-rubrika |
-| M7    | **„Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés**  | SMART nevelési cél; Peula 11 pontja; Zmán Kvucá-checklist; AI-etikus felhasználása a peula-tervezésben       | 1 db Peula v2 + 1 db Zmán Kvucá-checklist                    | **FÉLÉVZÁRÓ, ÉLES:** Peula-rubrika (≥70%) + checklist + kvíz (≥80%) |
+| M7    | **„Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés**  | SMART nevelési cél; Peula 11 pontja; Zmán Kvucá-checklist; AI-etikus felhasználása a peula-tervezésben       | 1 db Peula v2 + 1 db Zmán Kvucá-checklist **(félév-szintézis: a korábbi produktumokra épít – M1 SBI, M2 identitás/érték, M3 safety + kvuca-profil, M5 módszer-logika, M6 játéklap)** | **FÉLÉVZÁRÓ, ÉLES:** Peula-rubrika (≥70% = ≥17/24, R4 blokkoló) + checklist + kvíz (≥80%) |
 | Z     | **Zárás & híd a terepre**                                                              | saját tanulási ív reflektálása; erőforrások és nehézségek megnevezése; konkrét következő lépés kijelölése    | rövid reflektív írás vagy videó + „next step”                | nincs éles kapu, completion alapú              |
 
 ***
@@ -121,7 +121,7 @@ Az M1 modulban a madrich **önmagára és a visszajelzésre néz rá új szemmel
 
 * **Online:** M1.1–M1.4 – Johari-ablak; megfigyelés ≠ értelmezés; SBI építőkockák; miniszituációk „mondd el SBI-ben”. 
 * **Offline:** M1.A – Johari & megfigyelés/címke játék; M1.B – visszajelzés-adás és -fogadás kiscsoportban. 
-* **Produktum & kapu:** 1–2 db 2–3 mondatos SBI-váz Moodle Assignmentben; **éles kapu** rubrikával, min. közepes szint. 
+* **Produktum & kapu:** 1–2 db 2–3 mondatos SBI-váz Moodle Assignmentben; **éles kapu** rubrikával, **kanonikus küszöb: minden rubrikasor ≥1 (egyik sem 0) ÉS összpont ≥5/8** (a kvíz formatív, nem kapuz – lásd §5 és M1 – KAPU). 
 
 ***
 
@@ -177,7 +177,7 @@ Az M6 modul a **konkrét eszköztár bővítésére** szolgál: a madrich külö
 
 #### M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés
 
-Az M7 modul az eddigiek **összerendezése egy valós peula-tervben**. A madrich megtanul SMART nevelési célt írni someres kontextusban, fejben tartja a modernizált **Peula 11 pontját**, és megismeri a **Zmán Kvucá-checklistet**, amely az idő, helyszín, létszám, anyagok, hozzáférhetőség és gyerekvédelem szempontjait rendezi egybe. A modul külön fókusza az **AI etikus használata**: hogyan támogathatja az ötletelést és fogalmazást anélkül, hogy átvenné a felelősséget vagy személyes adatokat szivárogtatna. A végére minden résztvevőnek van egy valós kvucára írt, vállalható Peula v2 + Zmán Kvucá csomagja.
+Az M7 modul az eddigiek **összerendezése egy valós peula-tervben**. A madrich megtanul SMART nevelési célt írni someres kontextusban, fejben tartja a modernizált **Peula 11 pontját**, és megismeri a **Zmán Kvucá-checklistet**, amely az idő, helyszín, létszám, anyagok, hozzáférhetőség és gyerekvédelem szempontjait rendezi egybe. A modul külön fókusza az **AI etikus használata**: hogyan támogathatja az ötletelést és fogalmazást anélkül, hogy átvenné a felelősséget vagy személyes adatokat szivárogtatna. **A Peula v2 nem nulláról indul: ez a félév szintézis-produktuma, amely a korábbi modulok kész kimeneteire épít – az M1 SBI-nyelvre (utóreflexió, peer-feedback), az M2 saját someres értékére és dugma ishitjére (SMART cél), az M3 gyerekvédelmi keretére és kvuca-profiljára (safety + korosztály-illeszkedés), az M5 feladat–cél–kvuca–módszer logikájára és egy kész M6 játéklapra.** A végére minden résztvevőnek van egy valós kvucára írt, vállalható Peula v2 + Zmán Kvucá csomagja. **A végleges Peula v2 mastery-leadása a félév végén, a mentor / képző által, ezen az éles kapun történik – ez NEM csúszik a modulon kívülre, és a Z modul completion-alapú reflexiója nem helyettesíti.**
 
 * **Online:** M7.1–M7.4 – SMART cél; Peula 11 pontja 2025-ben; Zmán Kvucá; Peula v2 + AI modulproduktum-váz. 
 * **Offline:** M7.A – SMART cél és 11 pont „élőben”; M7.B – Zmán Kvucá-szimulációk, peula-klinika; opcionális M7.F Study Lab pótlásra. 
@@ -212,9 +212,19 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 
 * **Puha kapuk (soft gate):** M0, M2, M4, Z – jelzés a stábnak és a mentornak, ha hiányzik a completion vagy nagyon gyenge a teljesítmény; cél: támogatás, nem kizárás. 
 * **Éles kapuk (hard/mastery):** M1 (SBI), M3 (gyerekvédelem), M5 (nonformális + tanulástan), M6 (toolbox & safety), M7 (Peula v2 + Zmán Kvucá). Itt minőségi és gyerekbiztonsági okból **nem elég a „kb. értem”**. 
-* **Küszöbök (példák):**
-  * Quiz: általában **≥80%**, 2–3 próbálkozással.
-  * Rubrikás Assignment: min. **70%**, vagy minden kritikus sorban „alapszint / rendben” (külön sorok: safety, gyerekvédelem, inkluzivitás, SMART cél). 
+* **Küszöbök (általános elv):**
+  * Quiz: általában **≥80%** (a 12 itemes kapuknál ez **≥10/12**), 2–3 próbálkozással.
+  * Rubrikás Assignment: az adott modul **kanonikus küszöbe** szerint – pontszám **és/vagy** kötelező kritikus sorok (a pontos szabály a modul KAPU-fájljában). **A „min. 70%” NEM uniform: modulonként eltér, és több éles kapunál nem pontszám, hanem soronkénti minimum + blokkoló sorok döntenek.**
+
+* **Kanonikus küszöb-tábla modulonként** (a forrás mindig a modul KAPU-fájlja):
+
+| Modul (kapu) | Kanonikus küszöb | KAPU-forrás |
+| --- | --- | --- |
+| **M1 – SBI** | Produktum dönt (a kvíz formatív/completion, NEM kapuz): **minden rubrikasor ≥1 (egyik sem 0) ÉS összpont ≥5/8** (≈62,5%). | [M1 – KAPU](./MODULOK/M1/M1%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
+| **M3 – gyerekvédelem** | **Kvíz ≥10/12 (≥80%) + kötelező kritikus itemek (2,4,7,9)**; Assignment: minden sor ≥1, **R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) blokkoló**. | [M3 – KAPU](./MODULOK/M3/M3%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
+| **M5 – nonformális + tanulástan** | **Kvíz ≥10/12 (≥80%)** + az M5.4 táblázat minden rubrikasora ≥ „Alapszint”, **R4 (tanulástan-elem valódisága) kritikus**. | [M5 – KAPU](./MODULOK/M5/M5%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
+| **M6 – toolbox & safety** | **Kvíz ≥10/12 (≥80%)** + játéklap minden sora ≥2 („Oké”), **R4 (Biztonság) és R5 (Inkluzivitás) hard-gate**. | [M6 – KAPU](./MODULOK/M6/M6%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
+| **M7 – Peula v2 (félévzáró)** | **Peula v2: összpont ≥17/24 (≥70%) ÉS R1/R5/R6 ≥2 ÉS R4 ≥2 (blokkoló)** + **kvíz ≥10/12 (≥80%)**. A végleges leadás a félév végén, mentor/képző zárja; a Z **nem helyettesíti**. | [M7 – KAPU](./MODULOK/M7/M7%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
 
 **Nem teljesítés kezelése:**
 

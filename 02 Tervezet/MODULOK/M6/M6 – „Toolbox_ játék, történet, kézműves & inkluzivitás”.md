@@ -165,7 +165,7 @@ A modul végére a madrich…
 
 * **Kaputípus:** éles kapu (mastery gate) – módszerválasztás és játékvezetés közvetlenül érinti a chanichok **biztonságát és inkluzív élményét**. 
 
-### 6.1. Szcenárió-kvíz (Question Set) – min. 80%
+### 6.1. Szcenárió-kvíz (Question Set) – **≥80% (12 itemből max. 2 hiba)**
 
 * **Eszköz:** Moodle Quiz vagy H5P Question Set.
 * **Tartalom:**
@@ -175,7 +175,7 @@ A modul végére a madrich…
     * „Melyik biztonsági megjegyzés hiányzik?”,
     * „Melyik variáció teszi inkluzívabbá a helyzetet?” 
 * **Követelmény:**
-  * **≥80%** eredmény, több próbálkozással,
+  * **≥80% eredmény (12 itemből legfeljebb 2 hiba, vagyis 10/12)**, több próbálkozással, **randomizált item-sorrenddel / kicserélhető item-poolból** (hogy a küszöb ne magolással, hanem megértéssel legyen teljesíthető),
   * ha elsőre nem sikerül: rövid feedback, mely leckét érdemes visszanézni (pl. M6.1: kvucák, M6.3: inkluzivitás). 
 
 ### 6.2. Játéklap – Workshop + rubrika

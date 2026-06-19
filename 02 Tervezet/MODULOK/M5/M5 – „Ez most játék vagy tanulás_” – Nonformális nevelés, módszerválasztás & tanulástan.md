@@ -141,10 +141,11 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
   1. Formális–nonformális–informális helyzetek felismerése.
   2. Feladat → cél → kvuca → módszer logika, rövid szcenáriókkal.
   3. Gyakorlás, visszahívás, spacing fogalmai, egyszerű helyzetekkel.
-* **Követelmény:**
-  * Minimum **80%**,
+* **Követelmény (kompozit pass-szabály):**
+  * **Kvíz:** minimum **80%**, azaz **12 itemből legalább 10 jó válasz**,
   * **2–3 próbálkozás** engedélyezve,
   * hibánál rövid magyarázó feedback: merre menjen vissza (M5.1–M5.4) javítani a megértést.
+  * **A modul akkor teljesített, ha a kvíz ≥80% (≥10/12) ÉS a leadott M5.4 „Feladat–kvuca–módszer + tanulástan” táblázat minden rubrika-soron eléri legalább az „Alapszint”-et** – így a 4. kimeneti (produkciós) kompetencia is kapuzva van, nem marad csak formatív. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent. (A 12-itemes item-bank és a 4-soros, megfigyelhető rubrika a kanonikus KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).) Ha a szervezet a táblázatot mégis formatívnak akarja hagyni, azt **expliciten ki kell mondani** – de akkor a 4. kompetencia kapu nélkül marad.
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, visszahívás, spacing) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem random játékot raksz be, hanem a SMART nevelési célhoz és a kvucához illő módszert. 
 
@@ -161,7 +162,7 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
    * ha sokan előbb választanak módszert, mint célt → erősíteni a M5.2 üzenetét („cél az első”).
 4. **Modulproduktum (Assignment – M5.4):**
    * leadási arány: hányan adták le a táblázatot;
-   * minimum ellenőrzés: minden sorban van-e cél + kvuca + módszer + tanulástan-szemlélet (legalább gyakorlás / visszahívás / spacing egyik formája).
+   * **minőség-ellenőrzés a kanonikus KAPU-fájl 4-soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-check, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).
 5. **Offline „exit ticket” (M5.B végén):**
    * 1 perc írás:
      * „Mi volt ma a leghasznosabb gondolat a tanulásról?”
