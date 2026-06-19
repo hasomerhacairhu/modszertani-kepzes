@@ -16,7 +16,7 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 | **(B) Játéklap** *(ELSŐDLEGES ÉLES KAPU)* | **Moodle Workshop** (peer feedback) vagy **Assignment + rubrika** | **éles, blokkoló** | **minden rubrika-sor legalább „Oké” (2) szint** + **hard-gate a Biztonság és az Inkluzivitás soron** |
 | **(A) Szcenárió-kvíz** | **Moodle Quiz** vagy **H5P Question Set** | **formatív / diagnosztikus** (nem blokkol) | **ajánlott ≥ 80%** (12 itemből legfeljebb 2 hiba) önellenőrzésként, korlátlan próbálkozással, randomizált item-sorrenddel |
 
-### Kapu-filozófia – miért a játéklap az elsődleges kapu? *(2026-os audit-igazítás)*
+### Kapu-filozófia – miért a játéklap az elsődleges kapu?
 
 > A modul nonformális, élmény- és produktum-alapú. Az **M6.4 Branching** szándékosan **divergens** („nem az volt a lényeg, hogy »eltaláld a jó választ«”): ott a tudatos mérlegelés a tét, nem az egyetlen helyes opció. Egy ezután következő, **konvergens, egy-helyes-válaszos ≥80%-os kvíz** ezzel **ellentmondana** – a „sulis” logikát hozná vissza épp ott, ahol a tananyag azt tanítja, hogy a Somer **nem suli**.
 >
@@ -35,9 +35,9 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 
 ### Miért 12 item és miért „legfeljebb 2 hiba”?
 
-A korábbi audit (GATE-VALIDITY, M6) jelezte: ha az itemszám alacsony (5–6), akkor 80% = 1 hiba mozgástere, ami véletlen-érzékeny. 12 itemnél a 80% küszöb = **max. 2 hiba (10/12)**, ami stabilabb visszajelzést ad arról, hol állsz. A **korlátlan próbálkozás** + **randomizált sorrend / kicserélhető item-pool** ajánlott, hogy a kvíz ne magolásra, hanem megértésre ösztönözzön.
+A kapu-validitási szempont szerint: ha az itemszám alacsony (5–6), akkor 80% = 1 hiba mozgástere, ami véletlen-érzékeny. 12 itemnél a 80% küszöb = **max. 2 hiba (10/12)**, ami stabilabb visszajelzést ad arról, hol állsz. A **korlátlan próbálkozás** + **randomizált sorrend / kicserélhető item-pool** ajánlott, hogy a kvíz ne magolásra, hanem megértésre ösztönözzön.
 
-> **Megjegyzés a tétről *(2026-os audit-igazítás)*:** mivel a kvíz itt **formatív/diagnosztikus** (nem blokkol), a ≥80% **önellenőrző cél**, nem buktató küszöb. A 80% szerepe így nem a kapuzás, hanem hogy **jelzést adjon** neked és a stábnak: ha rendre a biztonsági/inkluzivitási itemeknél hibázol, azt a játéklap előtt érdemes átnézni. Az **éles, blokkoló** mérés a játéklap-rubrika (B).
+> **Megjegyzés a tétről:** mivel a kvíz itt **formatív/diagnosztikus** (nem blokkol), a ≥80% **önellenőrző cél**, nem buktató küszöb. A 80% szerepe így nem a kapuzás, hanem hogy **jelzést adjon** neked és a stábnak: ha rendre a biztonsági/inkluzivitási itemeknél hibázol, azt a játéklap előtt érdemes átnézni. Az **éles, blokkoló** mérés a játéklap-rubrika (B).
 
 ### Lefedettség (construct-validitás)
 

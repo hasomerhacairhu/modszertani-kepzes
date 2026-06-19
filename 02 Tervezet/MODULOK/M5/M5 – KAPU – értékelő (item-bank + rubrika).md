@@ -2,9 +2,9 @@
 
 ← Vissza a modul-hubhoz: **[M5 – „Ez most játék vagy tanulás_” – Nonformális nevelés, módszerválasztás & tanulástan](./M5%20–%20„Ez%20most%20játék%20vagy%20tanulás_”%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)**
 
-> **Ez a fájl az M5 mastery-kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva (lásd `_AUDIT/GATE-VALIDITY.md` → M5). Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
+> **Ez a fájl az M5 mastery-kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva. Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
 >
-> **Kapu-filozófia (lásd `IDEOLOGY-GATE-REVIEW` B1 + Program terv §5):** mivel az M5 nonformális nevelést tanít, **az éles (mastery) kapu az M5.4 produktum rubrikás értékelése** (4. szakasz) – nem a fogalom-kvíz. A **kvíz formatív/diagnosztikus**: megmutatja, melyik fogalomcsalád szorul felzárkózásra, de nem konvergens kvíz-kapuként szűr. Így a kapu a someres elvet (produktum + reflexió a sulis fogalom-kvíz helyett) követi, megőrizve a minőségbiztosítást.
+> **Kapu-filozófia (lásd Program terv §5):** mivel az M5 nonformális nevelést tanít, **az éles (mastery) kapu az M5.4 produktum rubrikás értékelése** (4. szakasz) – nem a fogalom-kvíz. A **kvíz formatív/diagnosztikus**: megmutatja, melyik fogalomcsalád szorul felzárkózásra, de nem konvergens kvíz-kapuként szűr. Így a kapu a someres elvet (produktum + reflexió a sulis fogalom-kvíz helyett) követi, megőrizve a minőségbiztosítást.
 
 ---
 
@@ -17,11 +17,11 @@
 | **Kvíz – LMS-eszköz** | **Moodle Quiz** (vagy ekvivalens **H5P Question Set**), **12 item**, randomizált item- és válaszsorrend. |
 | **A kvíz szerepe** | **Formatív / diagnosztikus belépő** – nem ez az éles kapu. A kvíz azt mutatja meg a madrichnak ÉS a stábnak, melyik fogalomcsalád ül már és melyik szorul még felzárkózásra (M5.1–M5.4 / M5.F). **2–3 próbálkozás** engedélyezve; minden próbálkozás után **kérdés-szintű magyarázó feedback + visszairányítás** a hibás itemekhez. Ajánlott diagnosztikus jelzőküszöb **≥ 80%** (12-ből ≥10 jó): alatta **nem-blokkoló** mentori jelzés és Study Lab-ajánlás – **nem kizárás**. |
 | **Produktum – LMS-eszköz (ÉLES KAPU)** | **Moodle Assignment + rubrika** (lent, 4. szakasz) az M5.4 „Feladat–kvuca–módszer + tanulástan” táblázathoz. **Ez a modul elsődleges, éles (mastery) kapuja** – mint az M1/M7 modulokban a produktum-rubrika. |
-| **Modul-szintű pass-szabály** | **A produktum-rubrika az elsődleges éles kapu** (kapu-filozófia, lásd Program terv §5 / `IDEOLOGY-GATE-REVIEW` B1): a modul akkor teljesített, ha a **leadott M5.4 táblázat minden rubrika-soron eléri legalább az „Alapszint”-et** (a kritikus **R4** soron is). A **kvíz formatív/diagnosztikus**: a ≥80% diagnosztikus jelző, nem kizáró feltétel – aki alatta van, **felzárkóztató hurokba** kerül (M5.F + a kvíz item-szintű analitikája alapján célzott visszairányítás), nem bukik. Így a 4. kimeneti (produkciós) kompetencia van élesen kapuzva, a fogalmi tudást pedig a kvíz **diagnosztizálja és fejleszti**, nem konvergens kvíz-kapuként szűri. *(Ez feloldja a `GATE-VALIDITY` M5 „construct-rés” findingot és a `IDEOLOGY-GATE-REVIEW` DA1.11 kapu-politika ütközést: egyetlen, kimondott kapu-logika él, nem két egymást kizáró opció.)* |
+| **Modul-szintű pass-szabály** | **A produktum-rubrika az elsődleges éles kapu** (kapu-filozófia, lásd Program terv §5): a modul akkor teljesített, ha a **leadott M5.4 táblázat minden rubrika-soron eléri legalább az „Alapszint”-et** (a kritikus **R4** soron is). A **kvíz formatív/diagnosztikus**: a ≥80% diagnosztikus jelző, nem kizáró feltétel – aki alatta van, **felzárkóztató hurokba** kerül (M5.F + a kvíz item-szintű analitikája alapján célzott visszairányítás), nem bukik. Így a 4. kimeneti (produkciós) kompetencia van élesen kapuzva, a fogalmi tudást pedig a kvíz **diagnosztizálja és fejleszti**, nem konvergens kvíz-kapuként szűri. *(Ez feloldja a korábbi kapu-elemzés „construct-rés” szempontját és a kapu-politika ütközést: egyetlen, kimondott kapu-logika él, nem két egymást kizáró opció.)* |
 
 **Miért 12 item / fogalomcsaládonként ≥3?** 12 itemnél a 80% azt jelenti, hogy legföljebb 2 hiba fér bele. Ha mindhárom fogalomcsaládra **4–4 item** jut, egyetlen gyengén értett terület (pl. nonformális vs. informális határeset) nem tud automatikusan „átengedni” vagy „megbuktatni”. Ezért az item-bank **fogalomcsaládonként 4 itemet** tartalmaz, **felismerő ÉS alkalmazás-szintű** keverékben.
 
-**Distraktor-elv (a GATE-VALIDITY M5 findingjára).** Nincs „minden fenti”, nincs karikatúra-rossz töltelék (pl. „Semmi köze a tanuláshoz”). Minden distraktor egy **valós madrich-tévedést vagy gyakori félreértést** testesít meg – főleg a két dokumentumban is jelzett gyenge pont köré építve: **nonformális ↔ informális** összekeverése, és **spacing ↔ „egyben magolás”** összekeverése.
+**Distraktor-elv (a kapu-validitási szempontra).** Nincs „minden fenti”, nincs karikatúra-rossz töltelék (pl. „Semmi köze a tanuláshoz”). Minden distraktor egy **valós madrich-tévedést vagy gyakori félreértést** testesít meg – főleg a két jellemzően gyenge pont köré építve: **nonformális ↔ informális** összekeverése, és **spacing ↔ „egyben magolás”** összekeverése.
 
 **Item-térkép (tartalmi lefedettség + szint):**
 
@@ -94,7 +94,7 @@
 **Distraktor-indokok:**
 - A) a „tanulsz valamit” alapján mindkettőt nonformálisnak veszi – nem a **tervezett cél** mentén különböztet.
 - C) felszíni jegy (eszközhasználat) alapján sorol, és a játékot „csak játéknak” minősíti.
-- D) a „nem suli = informális” tévhit (a két dokumentumban is jelzett #1 félreértés).
+- D) a „nem suli = informális” tévhit (a leggyakoribb #1 félreértés).
 
 **Feedback:** A választóvonal a **tervezett nevelési cél**: a II.-ben van (kvuca + reflexió a szolidaritásról), az I.-ben nincs. „Nem suli” még nem jelent „informálisat”. (**M5.1, SLIDE 4; M5.A helyzetkártyák 10. és 12.**)
 
@@ -274,7 +274,7 @@
 
 > **Eszköz:** Moodle **Assignment + rubrika** (a leadott táblázathoz, online-szövegként vagy fájlként). A táblázat minimum **3–4 sor**.
 > **Ez a modul ÉLES (mastery) kapuja** – a kvíz formatív/diagnosztikus, a tényleges továbblépést **ez a produktum-rubrika** dönti el (mint M1/M7). A rubrika **megfigyelhető sorai** a B1 kapu-filozófia szerinti négy láncot mérik: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4).**
-> **Cél:** a GATE-VALIDITY M5-findingjának megszüntetése – a „minden sorban van-e cél + kvuca + módszer + tanulástan” bináris jelenlét-ellenőrzés helyett **megfigyelhető, szintezett** kritériumok (illik-e a módszer a célhoz; valódi tanulástan-elem vs. ráírt címke).
+> **Cél:** a kapu-validitási rés megszüntetése – a „minden sorban van-e cél + kvuca + módszer + tanulástan” bináris jelenlét-ellenőrzés helyett **megfigyelhető, szintezett** kritériumok (illik-e a módszer a célhoz; valódi tanulástan-elem vs. ráírt címke).
 > **Átmenő szabály (a kapu):** minden sorban legalább **„Alapszint”** mind a 4 kritériumon. A 4. sor (tanulástan-elem valódisága) **kritikus**: itt a „Hiányos” szint javításra visszaküldést jelent, mert ez a modul fő tanulástan-üzenete.
 
 A rubrika **a teljes leadott táblázatra** vonatkozik (nem soronként pontozzuk újra): a szintet az határozza meg, hogy a sorok **többségében** (≥3 sorból ≥2-ben, illetve 4 sorból ≥3-ban) milyen minőség figyelhető meg.
@@ -297,7 +297,7 @@ A rubrika **a teljes leadott táblázatra** vonatkozik (nem soronként pontozzuk
 
 ## 5. Stáb-jegyzet – item-szintű analitika és karbantartás
 
-- **Kérdés-szintű elemzés (M5 §7):** ha sokan elvétik **Q3-at vagy Q11-et**, az a két dokumentumban jelzett tipikus félreértés (nonformális↔informális, spacing↔magolás) – a következő évfolyamnak több határeset-példa kell M5.1 / M5.3 köré.
+- **Kérdés-szintű elemzés (M5 §7):** ha sokan elvétik **Q3-at vagy Q11-et**, az a tipikus félreértés (nonformális↔informális, spacing↔magolás) – a következő évfolyamnak több határeset-példa kell M5.1 / M5.3 köré.
 - **Ha a Q5–Q8 (lánc) megy rosszul:** a sorrend-üzenet (M5.2 „cél az első”) erősítendő; tipikusan a Q6/Q7 (alkalmazás) bukik, ha csak a Q5 sorrend-tényt magolták.
 - **Magolás-védelem:** a kvíz itemei **eltérnek** a leckékbe ágyazott formatív kérdésektől (más szituációk, más megfogalmazás), és 2–3 próbálkozásnál a Moodle **randomizálja** az item- és válaszsorrendet, hogy a próbálkozások közt ne a pozíciót jegyezzék meg.
 - **Küszöb-érzékenység:** 12 itemnél a 80% = max 2 hiba. Ha egy évfolyamnál a bukás tömegesen 1 fogalomcsaládon múlik, érdemes az adott családban **+1–2 itemmel** bővíteni és a többszöri próbálkozáshoz cserélhető item-poolt tartani.

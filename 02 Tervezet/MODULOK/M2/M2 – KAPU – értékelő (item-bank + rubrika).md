@@ -19,7 +19,7 @@
 | **LMS-eszköz** | **Moodle Assignment + rubrika** (a fő produktum: identitás-jegyzet feltöltés, fájl vagy online szöveg; a 4 soros rubrika a Moodle „Rubric” értékelési módszereként rögzítve, fejlesztő kommenttel). **Opcionálisan: H5P Question Set / Moodle Quiz** a B. szakasz fogalmi self-check itemeivel – ez **formatív, completion-alapú, NEM ponthatáros**, csak segít a tanulónak ellenőrizni, érti-e a kulcsfogalmakat a jegyzet megírása előtt. |
 | **Bukás-útvonal** | Hiányos / nagyon felszínes jegyzet → mentor SBI-jellegű fejlesztő üzenet (max. 3 pont) + M2.F ajánlása + újra beadás. Nincs limit a próbálkozásra. |
 
-> ⚠️ **Construct-validitási megjegyzés (GATE-VALIDITY M2 alapján):** a régi kapu csak a *leadás tényét* mérte, amit üres/felszínes tartalommal is ki lehetett váltani. Ezért minden rubrikasor **megfigyelhető, viselkedés-szintű kritériumhoz** van kötve (pl. „van konkrét, viselkedés-szintű mondat” vs. „csak absztrakt értékszó”), nem „jó/rossz” minősítéshez. A B. szakasz kvízei szándékosan **nem a kapu** – formatív önellenőrzés.
+> ⚠️ **Construct-validitási megjegyzés:** a régi kapu csak a *leadás tényét* mérte, amit üres/felszínes tartalommal is ki lehetett váltani. Ezért minden rubrikasor **megfigyelhető, viselkedés-szintű kritériumhoz** van kötve (pl. „van konkrét, viselkedés-szintű mondat” vs. „csak absztrakt értékszó”), nem „jó/rossz” minősítéshez. A B. szakasz kvízei szándékosan **nem a kapu** – formatív önellenőrzés.
 
 ***
 

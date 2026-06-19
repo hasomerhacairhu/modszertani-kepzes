@@ -32,7 +32,7 @@
 **Miért éles és nem puha ez a kapu?** A gyerekvédelem és a red flag-felismerés **biztonsági kérdés** – itt nem elég a részvétel, mérhető megértés kell. Ezért: produktív Assignment + valódi ≥80% küszöb + kötelező kritikus itemek.
 
 ### Miért 12 item és miért így van a küszöb?
-A korábbi audit (GATE-VALIDITY → M3) jelezte: az 5–8 itemes kvíznél a 80% durva, „1 hiba = bukás vagy 100%” ugrásokat ad, biztonságkritikus témánál ez nem védhető. **12 item** mellett a 80% = **10/12** helyes – ez egy hiba (11/12 ≈ 92%) és két hiba (10/12 ≈ 83%) esetén is átenged, három hiba (9/12 = 75%) esetén nem. Így a küszöb nem billen át egyetlen bizonytalan itemnél, **de** a négy legkritikusabb biztonsági állítást (titoktartás határa, akut önveszély, do-not-tip-off felnőtt-gyanúnál, jelzési út) **külön, kötelezően** is helyesen kell tudni – ezek tévesztése akkor is bukás, ha az összpontszám egyébként meglenne.
+A kapu-validitási szempont fontos itt: az 5–8 itemes kvíznél a 80% durva, „1 hiba = bukás vagy 100%” ugrásokat ad, biztonságkritikus témánál ez nem védhető. **12 item** mellett a 80% = **10/12** helyes – ez egy hiba (11/12 ≈ 92%) és két hiba (10/12 ≈ 83%) esetén is átenged, három hiba (9/12 = 75%) esetén nem. Így a küszöb nem billen át egyetlen bizonytalan itemnél, **de** a négy legkritikusabb biztonsági állítást (titoktartás határa, akut önveszély, do-not-tip-off felnőtt-gyanúnál, jelzési út) **külön, kötelezően** is helyesen kell tudni – ezek tévesztése akkor is bukás, ha az összpontszám egyébként meglenne.
 
 ---
 

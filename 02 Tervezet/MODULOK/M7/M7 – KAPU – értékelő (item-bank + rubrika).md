@@ -20,7 +20,7 @@
 
 **Mit NEM ez a kapu:** az M7.4 Assignment („Peula v2 – első vázlat”) **formatív**, 0/1 completion – az NEM ez a kapu. Ez a fájl a **félévzáró, éles** produktumot értékeli, amely a v1 vázlatra épül.
 
-**Audit-megjegyzés (GATE-VALIDITY → M7):** ez a fájl horgonyozza le a korábban csak `§6`-ban deklarált, de meg nem írt éles kaput: konkrét item-bank (distraktorokkal), teljes 3-szintes megfigyelhető rubrika, kijelölt blokkoló safety-sor, és ponthoz kötött ≥70%.
+**Kapu-lehorgonyzás:** ez a fájl horgonyozza le a korábban csak `§6`-ban deklarált, de meg nem írt éles kaput: konkrét item-bank (distraktorokkal), teljes 3-szintes megfigyelhető rubrika, kijelölt blokkoló safety-sor, és ponthoz kötött ≥70%.
 
 ***
 

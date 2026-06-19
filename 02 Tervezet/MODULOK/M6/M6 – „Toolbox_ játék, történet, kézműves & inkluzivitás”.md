@@ -165,7 +165,7 @@ A modul végére a madrich…
 
 * **Kaputípus:** éles kapu (mastery gate) – módszerválasztás és játékvezetés közvetlenül érinti a chanichok **biztonságát és inkluzív élményét**. 
 
-> **A kapu súlyozása *(2026-os audit-igazítás)*:** a modul nonformális és produktum-alapú, ezért az **éles, blokkoló kapu a játéklap-rubrika (6.2)** – itt a **Biztonság** és **Inkluzivitás** sor a valódi tét. A **szcenárió-kvíz (6.1) formatív/diagnosztikus** előkészítő: felkészít és jelez, de **nem blokkol**. Ez összhangban van az M6.4 Branching divergens logikájával („nincs egyetlen jó megoldás”). A mérvadó kapu-logika a [KAPU-fájlban](./M6%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) él.
+> **A kapu súlyozása:** a modul nonformális és produktum-alapú, ezért az **éles, blokkoló kapu a játéklap-rubrika (6.2)** – itt a **Biztonság** és **Inkluzivitás** sor a valódi tét. A **szcenárió-kvíz (6.1) formatív/diagnosztikus** előkészítő: felkészít és jelez, de **nem blokkol**. Ez összhangban van az M6.4 Branching divergens logikájával („nincs egyetlen jó megoldás”). A mérvadó kapu-logika a [KAPU-fájlban](./M6%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) él.
 
 ### 6.1. Szcenárió-kvíz (Question Set) – *formatív / diagnosztikus, ajánlott ≥80%*
 

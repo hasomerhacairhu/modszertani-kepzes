@@ -18,6 +18,7 @@
 | **M3.4** (sor 161) | a ken **hivatalos alkohol- és dohányzási magatartási kódexe** (mit szabad/nem, hol, milyen kortól) |
 | **M0.2** (sor 257) | kihez fordulhat a madrich személyesen (megnevezett **gyerekvédelmi felelős/mentor + elérhetőség**) |
 | **M7 – KAPU** (sor 206) | a ken nevesített **gyerekvédelmi felelőse + helyi jelzési protokoll** (azonnali-veszély / 112 ág) |
+| **Program terv** §5/§6 (`[...]` jelölés) | a **support-kapcsolatok**: adatkezelési felelős + technikai support **megnevezett címe/elérhetősége** (a `[a mentorodnak / megnevezett felelős – kapcsolat]` zárójeles helyek) |
 
 > A szöveg ezeken a helyeken a **best-practice keretet** már tartalmazza (transzparencia,
 > jelzési kötelezettség, „nem hagylak egyedül"); csak a **konkrét nevet/dátumot/helyi

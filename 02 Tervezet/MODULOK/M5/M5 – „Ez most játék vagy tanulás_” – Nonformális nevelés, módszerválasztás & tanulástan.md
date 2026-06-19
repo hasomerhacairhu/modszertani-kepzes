@@ -136,11 +136,11 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
 
 ## 6. Kapu – az M5.4 produktum az éles kapu, a kvíz diagnosztikus
 
-> **Kapu-filozófia (Program terv §5 / `IDEOLOGY-GATE-REVIEW` B1):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktum-alapú értékelés. **Az éles (mastery) kapu az M5.4 táblázat rubrikás értékelése** (mint M1/M7), a **kvíz pedig formatív/diagnosztikus**.
+> **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktum-alapú értékelés. **Az éles (mastery) kapu az M5.4 táblázat rubrikás értékelése** (mint M1/M7), a **kvíz pedig formatív/diagnosztikus**.
 
 * **Éles kapu – M5.4 produktum (rubrika):**
   * Eszköz: **Moodle Assignment + rubrika**.
-  * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrika-soron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor a B1 láncait méri: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
+  * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrika-soron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor a kimeneti kompetenciák láncait méri: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
   * **Bukás-útvonal:** ha egy sor „Hiányos”, rövid fejlesztő (SBI-jellegű) visszajelzés + **újraleadás** – nincs kizárás, a cél a megértés.
 * **Diagnosztikus kvíz – fogalmi felzárkózás (NEM éles kapu):**
   * Eszköz: Moodle **Quiz**, **12 kérdés** (formális–nonformális–informális; feladat→cél→kvuca→módszer; gyakorlás/visszahívás/spacing).

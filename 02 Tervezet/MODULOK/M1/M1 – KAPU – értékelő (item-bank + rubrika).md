@@ -85,7 +85,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 
 ## 2. Az inkonzisztencia feloldása – egyetlen kanonikus küszöb
 
-A modulban **két, egymásnak ellentmondó** kapu-leírás élt egymás mellett (lásd `_AUDIT/GATE-VALIDITY.md`, M1, 🔴):
+A modulban **két, egymásnak ellentmondó** kapu-leírás élt egymás mellett (a kapu-validitási elemzés alapján):
 
 - **Modul-áttekintő (§6)** – **3 soros** „minimum” rubrika (S konkrét / B megfigyelhető / I érthető), küszöb: *„minden sorban min. alapszint, legalább egy sorban fejlődő”*.
 - **M1.4** – **4 soros** rubrika (a 4. sor ott „SBI struktúra összhatása”), 0–2 pont/sor, küszöb: *„minden sorban ≥1 ÉS ≥6/8”*.
@@ -111,7 +111,7 @@ Hogy ez **pontszámban** is egyértelmű és LMS-be vihető legyen:
 
 Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **LMS-eszköz: Moodle Quiz vagy H5P Question Set, completion-alapú, küszöb nélkül.** A distraktorok **plauzibilisek**: mindegyik egy valós madrich-tévedést testesít meg (címke, általánosítás, érzés-helyett-hatás), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli.
 
-> Megjegyzés a construct-validitásról: az audit (M1 🟡) jelezte, hogy a leckékben több distraktor túl könnyű (pl. az egyetlen időhatározós opció felületi mintázatból megfejthető). Az alábbi itemeknél ezért **minden distraktor egy-egy konkrét SBI-hibatípus**, és van **alkalmazó (író) item** is, nem csak besorolás.
+> Megjegyzés a construct-validitásról: a leckékben több distraktor túl könnyű volt (pl. az egyetlen időhatározós opció felületi mintázatból megfejthető). Az alábbi itemeknél ezért **minden distraktor egy-egy konkrét SBI-hibatípus**, és van **alkalmazó (író) item** is, nem csak besorolás.
 
 ### Item 1 – Mi az S? (felismerés, Single Choice)
 **Szituáció:** A beszélgetőkörben az egyik chanich minden megszólalót kinevet.
