@@ -126,6 +126,12 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    &#x20;Instrukció a csoportoknak:
    > „Mindenki meséljen el a többieknek **egy tanulási pillanatot** ebből a félévből. Ez lehet egy modul, egy peula, egy visszajelzés, egy nehéz beszélgetés… bármi.A többiek feladata: **figyelmesen hallgatni, közbevágás nélkül**. A történet végén egyikőtök mondjon vissza 1 mondatot: + 1 dolog, ami neki megmaradt ebből.”Idő: fejenként kb. 3–4 perc.”
    * Képző figyel az időre, kb. 3–3–3 perc / fő.
+
+   > **Mi van, ha sokan NEM csinálták meg az online leckéket (Z.1–Z.3) és „üres kézzel” érkeznek?** Ez teljesen normális, ne hagyd, hogy ettől megakadjon a blokk. A párok kialakítása előtt iktass be **1–2 perc néma, egyéni gondolkodást**, és mondd ki: „Mielőtt párba álltok, gondoljatok magatokban egy pillanatra – nem kell leírni, csak felidézni.” Ehhez tartsd készenlétben ezeket az **előhívó kérdéseket**, ha valaki elakad (akár fel is írhatod a táblára):
+   > – **„Volt egy pillanat a félévben, amikor azt érezted: ’ezt eddig nem így gondoltam’?”**
+   > – **„Melyik peula vagy gyakorlat ragadt meg benned a legjobban – jó vagy rossz értelemben?”**
+   > – **„Mi az az egy dolog, amit most másképp csinálnál, mint az első héten?”**
+   > Ezek a kérdések annak is segítenek, aki készült, de elsőre nem jut eszébe semmi.
 4. **Rövid visszahozás nagykörbe (2–3 perc)**
    &#x20;Kérhetsz 2–3 önkéntest:
    > „Ki az, aki **önként** szívesen megosztaná, mi volt az egyik érdekes tanulási pillanat, amit hallott vagy mondott?”
@@ -164,6 +170,10 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
      &#x20;– 3–5 konkrét mondat: „A következő időszakban **úgy akarunk működni**, hogy…”,
      &#x20;pl. több kérdés a peulán, tudatosabb Zmán Kvucá, gyerekvédelmi red flag-ek figyelése, stb.
    > „Mi az, ami titeket leginkább megfogott a félévből?” „Melyik mondatot szeretnétek majd viszontlátni a valós peulákban is?”
+   * **Ha egy csoport megakad / üres a plakát / senki nem szólal meg:** ne várj rá, hogy maguktól beinduljanak – ülj le közéjük 1 percre, és indítsd be egy **kész seed-példával**, hogy „így néz ki egy beírás”:
+     &#x20;– bal oldalra (Mit tanultunk?): **„SBI-feedback – nem smiley, hanem konkrét helyzet + viselkedés + hatás”**, **„Johari-ablak: van vakfoltom”**, **„Zmán Kvucá tudatos tervezése”**, **„gyerekvédelmi red flag-ek”**.
+     &#x20;– jobb oldalra (Mit csinálunk másképp?): **„A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”**, **„Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.”**
+     &#x20;Aztán kérdezz vissza: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?” – általában ettől beindul a csoport.
 4. **Rövid poszter-bemutatás nagykörben (5–6 perc)**&#x4B;épző a végén:
    * Minden kiscsoportból 1–2 ember **max. 1–1 percben** bemutatja:
      &#x20;– 1 dolgot a bal oldalról („Mit tanultunk?”),
@@ -194,7 +204,11 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Mindenki húz egy nevet (ha valaki saját magát húzza, húzhat újra).
 2. **Mini-SBI keret elmagyarázása (2 perc)**
    &#x20;Képző:
-   > „Most egy **elismerés-kört** csinálunk.Arra kérlek, hogy annak, akinek a nevét húztad, mondj 1 rövid **elismerő mondatot**, erről a félévről.Segítő minta (nem kell szóról szóra): – Csak pozitívat mondunk most, és **mindenki kapjon legalább 1 mondatot** a végére.”
+   > „Most egy **elismerés-kört** csinálunk. Arra kérlek, hogy annak, akinek a nevét húztad, mondj 1 rövid **elismerő mondatot** erről a félévről.
+   > Segítő minta (nem kell szóról szóra), ahogy az SBI-nél tanultuk – helyzet + konkrét viselkedés + hatás:
+   > – **„Amikor [helyzet], te [konkrét dolgot csináltál] – és ez nekem / a csoportnak [hatás] volt.”**
+   > – **„Emlékszem, amikor a [modul / peula / nehéz pillanat]-nál [konkrétan ezt tetted], és attól én [így éreztem magam / ezt tanultam tőled].”**
+   > Csak pozitívat mondunk most, és **mindenki kapjon legalább 1 mondatot** a végére.”
 3. **Elismerés-kör lejátszása (10–12 perc)**&#x4B;épző figyeljen arra, hogy időben maradjatok (1–1 mondat/fő).
    * Menjetek körbe; mindenki elmondja a mondatát annak, akit kihúzott.
    * Ha a kvuca nagyon nagy, csinálhatjátok két körben vagy kiscsoportokban is.
