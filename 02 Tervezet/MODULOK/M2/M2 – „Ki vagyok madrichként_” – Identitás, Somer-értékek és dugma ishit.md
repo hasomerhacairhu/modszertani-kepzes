@@ -13,7 +13,7 @@
 
 **Modulcél röviden**
 
-A madrich tudatosítja identitásrétegeit és Somer-értékeit, és megfogalmazza, **milyen dugma ishit szeretne lenni** – konkrét viselkedésben, nem csak szavakban. 
+A madrich **megnevezi identitásrétegeit és 3 Somer-értékét, mindegyikhez 1 megfigyelhető madrich-viselkedést rendel**, és megfogalmazza, **milyen dugma ishit szeretne lenni** – konkrét viselkedésben, nem csak szavakban. 
 
 ***
 
@@ -21,7 +21,7 @@ A madrich tudatosítja identitásrétegeit és Somer-értékeit, és megfogalmaz
 
 A modul végére a madrich… 
 
-1. **Identitás-tudatosság**
+1. **Identitás-tudatosság – felrajzolja és megnevezi az identitásrétegeit**
    * Felrajzolja saját identitás-térképét (ÉN–család–zsidóság–Somer–egyéb közegek).
    * Megnevezi, melyik réteg hogyan befolyásolja a madrich-szerepét.
    * **Támogató elemek:** M2.1 (identitás-körök), M2.A (identitás-megosztás élőben).
@@ -35,7 +35,7 @@ A modul végére a madrich…
    * **Támogató elemek:** M2.3 (Somer 3 pillére – mini-kapszula), M2.B (értékek konkrét helyzetekben).
 4. **Határok és felelősség**
    * 2–3 saját **határszabályt** megfogalmaz (online/offline).
-   * Érti, hogy ezekkel **példát ad** a chanichoknak a saját határaik védéséről.
+   * **Megfogalmazza, hogyan ad** ezekkel **példát** a chanichoknak a saját határaik védéséről.
    * **Támogató elemek:** M2.4 (privát–személyes–szakmai határok), M2.A (megosztási határok gyakorlása), M2.F (pótlás, fogalom-térkép).
 5. **Összegző írás**
    * Elkészít egy 1 oldalas **madrich identitás-jegyzetet**, amely összekapcsolja: identitás-körök + értékek + Somer-pillérek + dugma ishit cél.
@@ -122,7 +122,7 @@ A modul végére a madrich…
 * **Cím:** Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab) 
 * **Kapcsolódó leckék:** M2.1, M2.2, M2.3, M2.4. 
 * **Fő célok:**
-  1. Tisztábban lássa, hol tart az M2.1–M2.4 leckékben, és mit kell még pótolnia/újranéznie.
+  1. **Beazonosítja**, hol tart az M2.1–M2.4 leckékben, és **megnevezi**, mit kell még pótolnia/újranéznie.
   2. Legalább egy leckében érdemben haladjon (befejez, újranéz vagy kiegészít egy kritikus részt).
   3. Le tudjon írni/ mondani leckénként 1 gondolatot és 1 kérdést.
   4. Lásson egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás). 

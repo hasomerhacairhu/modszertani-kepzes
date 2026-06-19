@@ -22,16 +22,16 @@ Alap önismereti keret (Johari-ablak) és egy **konkrét, biztonságos visszajel
 A modul végére a résztvevő…
 
 1. **Vakfolt-tudatosság**
-   &#x20;– Érti, hogy mindenkinek vannak **vakfoltjai**, és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
+   &#x20;– **Megnevezed** a Johari-ablak 4 mezőjét, és **saját (akár fiktív) példával illusztrálod**, miért természetes, hogy mindenkinek vannak **vakfoltjai** – és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
    &#x20;– Támogató tartalmak: M1.1, M1.A, M1.F.
 2. **Megfigyelés vs. címkézés**
-   &#x20;– Különbséget tud tenni **konkrét megfigyelés** („háromszor közbevágott”) és **címkézés / értelmezés** („tiszteletlen voltál”) között.
+   &#x20;– **Megkülönbözteted** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – **legalább 4/5 tételben helyesen besorolod**, és **címkéből megfigyelést írsz át**.
    &#x20;– Támogató tartalmak: M1.2, M1.A, M1.B, M1.F.
 3. **SBI-nyelv használata**
-   &#x20;– Tud **2–3 mondatos, egyszerű, de korrekt SBI-visszajelzést** fogalmazni (S – helyzet; B – viselkedés; I – hatás).
+   &#x20;– **Megírsz egy 2–3 mondatos, egyszerű, de korrekt SBI-visszajelzést, amely tartalmaz S-t (helyzet), B-t (viselkedés) és I-t (hatás)**.
    &#x20;– Támogató tartalmak: M1.3, M1.4, M1.B, M1.F.
-4. **Visszajelzéshez való viszony**
-   &#x20;– Reálisabb, kevésbé fenyegető képe van a visszajelzésről: érti, hogy az **tanulási eszköz**, nem csak kritika; képes saját érzéseit is megfogalmazni visszajelzés kapásakor.
+4. **Visszajelzéshez való viszony** *(nem értékelt, nevelési cél)*
+   &#x20;– **Megfogalmazol** a záróreflexióban **1 mondatot arról, milyen visszajelzés segített már neked**, és **megnevezed**, mit teszel legközelebb, amikor visszajelzést kapsz – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk; reflexiós produktumként jelenik meg, nem a kapu része.)*
    &#x20;– Támogató tartalmak: M1.1–M1.4, M1.A, M1.B, M1.F.
 5. **Modulproduktum előállítása**
    &#x20;– Elkészít 1–2 db **2–3 mondatos SBI-vázat** valós vagy fiktív helyzetre, és feltölti az Assignmentbe.
@@ -44,7 +44,7 @@ A modul végére a résztvevő…
 ### M1.1 – „Johari-ablak: vakfoltjaim felismerése” (10–15’)
 
 * **Cél:**
-  &#x20;Ráérezni, hogy **nem látok mindent magamból**, és hogy a többiektől kapott visszajelzés segíthet, nem (csak) fáj. 
+  &#x20;**Megnevezed** a Johari-ablak 4 mezőjét, és **saját szóval elmagyarázod**, hogy **nem látsz mindent magadból**, ezért a többiektől kapott visszajelzés segíthet feltárni a vakfoltjaidat, nem (csak) fáj. 
 * **Fókusz:**
   &#x20;Johari-ablak 4 területe (nyitott, vakfolt, rejtett, ismeretlen); „vakfolt ≠ velem baj van”, hanem természetes emberi jelenség. 
 * **Eszközök:**
@@ -60,7 +60,7 @@ A modul végére a résztvevő…
 ### M1.2 – „Megfigyelés ≠ értelmezés” (10–15’)
 
 * **Cél:**
-  &#x20;Megérteni, hogy **nem mindegy, megfigyelést vagy címkét mondok**, és hogy a jó visszajelzés megfigyelésre épül. 
+  &#x20;**Besorolsz 4/5 mondatot helyesen** „megfigyelés” vagy „címke” kategóriába, és **átírsz legalább 3 címkét megfigyeléssé** – így megmutatod, hogy **nem mindegy, megfigyelést vagy címkét mondasz**, és hogy a jó visszajelzés megfigyelésre épül. 
 * **Fókusz:**
   &#x20;„Bunkó voltál” vs. „háromszor közbevágott másoknak” típusú különbségek; „kamera” (tényszerű leírás) vs. „kommentár a fejemben”.
 * **Eszközök:**
@@ -92,7 +92,7 @@ A modul végére a résztvevő…
 ### M1.4 – „Miniszituációk: ‘Mondd el SBI-ben’” (15–20’)
 
 * **Cél:**
-  &#x20;2–3 mondatos, **konkrét SBI** megfogalmazása írásban, 1 választott szituációra; a modulproduktum (SBI-váz) előállítása.
+  &#x20;**Megírsz** írásban egy 2–3 mondatos, **konkrét SBI-t, amely tartalmaz S-t, B-t és I-t**, 1 választott szituációra, és **beadod** a modulproduktumot (SBI-váz) az Assignmentbe.
 * **Fókusz:**
   &#x20;Modul-kapu előkészítése: legalább 1 használható SBI-szöveg megírása.
 * **Eszközök:**
