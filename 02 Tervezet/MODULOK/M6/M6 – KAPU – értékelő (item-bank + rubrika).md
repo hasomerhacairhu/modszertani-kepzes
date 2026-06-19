@@ -9,24 +9,35 @@
 
 ## 0. Mire való ez a dokumentum?
 
-Ez az M6 kapu **két komponensének** kész értékelő-anyaga:
+Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem egyenrangú**: a játéklap-rubrika az **elsődleges éles kapu**, a szcenárió-kvíz **formatív/diagnosztikus** előkészítő (lásd a kapu-filozófiát alább).
 
-| Komponens | LMS-eszköz | Küszöb |
-|---|---|---|
-| **(A) Szcenárió-kvíz** | **Moodle Quiz** vagy **H5P Question Set** | **≥ 80%** (12 itemből legfeljebb 2 hiba), több próbálkozással, randomizált item-sorrenddel |
-| **(B) Játéklap** | **Moodle Workshop** (peer feedback) vagy **Assignment + rubrika** | **minden rubrika-sor legalább „Oké” (2) szint** + **hard-gate a Biztonság és az Inkluzivitás soron** |
+| Komponens | LMS-eszköz | Szerep | Küszöb |
+|---|---|---|---|
+| **(B) Játéklap** *(ELSŐDLEGES ÉLES KAPU)* | **Moodle Workshop** (peer feedback) vagy **Assignment + rubrika** | **éles, blokkoló** | **minden rubrika-sor legalább „Oké” (2) szint** + **hard-gate a Biztonság és az Inkluzivitás soron** |
+| **(A) Szcenárió-kvíz** | **Moodle Quiz** vagy **H5P Question Set** | **formatív / diagnosztikus** (nem blokkol) | **ajánlott ≥ 80%** (12 itemből legfeljebb 2 hiba) önellenőrzésként, korlátlan próbálkozással, randomizált item-sorrenddel |
 
-### Kapu-logika (kötelező, AND)
+### Kapu-filozófia – miért a játéklap az elsődleges kapu? *(2026-os audit-igazítás)*
+
+> A modul nonformális, élmény- és produktum-alapú. Az **M6.4 Branching** szándékosan **divergens** („nem az volt a lényeg, hogy »eltaláld a jó választ«”): ott a tudatos mérlegelés a tét, nem az egyetlen helyes opció. Egy ezután következő, **konvergens, egy-helyes-válaszos ≥80%-os kvíz** ezzel **ellentmondana** – a „sulis” logikát hozná vissza épp ott, ahol a tananyag azt tanítja, hogy a Somer **nem suli**.
+>
+> Ezért a **valódi tét a játéklap**: egy **saját, kézbe vehető produktum**, amin a **Biztonság és az Inkluzivitás** sor megléte a mastery igazi, transzferálható bizonyítéka. A kvíz ehhez **felkészít és diagnosztizál** (megmutatja, melyik témát kell még átnézned), de **önmagában nem enged át és nem buktat**.
+
+### Kapu-logika (kötelező)
 
 > A modul **akkor teljesített**, ha:
-> **(A) kvíz ≥ 80% ÉS (B) a játéklap MINDEN rubrika-sora eléri legalább az „Oké” (2) szintet.**
-> A két komponens **nem helyettesíti egymást** – jó kvíz nem ír felül gyenge játéklapot, és fordítva.
+> **(B) a játéklap MINDEN rubrika-sora eléri legalább az „Oké” (2) szintet**, és a **Biztonság** és **Inkluzivitás** sor a hard-gate-et teljesíti.
+>
+> A **(A) szcenárió-kvíz formatív**: erősen ajánlott a játéklap előtt megcsinálni (ez készít fel a biztonsági+inkluzív szempontokra), de **nem blokkoló feltétel** – egy gyenge játéklapot egy jó kvíz nem ír felül, és fordítva sem. A kvíz **diagnózisa** azonban kötelezően becsatornázódik: ha valaki a kvízen következetesen a **biztonsági vagy inkluzivitási** itemeknél hibázik, a játéklap leadása előtt **célzott recap + mentori egyeztetés** ajánlott (lásd (D) Stáb-jelzések).
 >
 > **Hard-gate:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/staffal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
+>
+> **Terhelés-őszinteség:** ez az átsúlyozás **nem növeli** a tanuló terhét – a kvíz ugyanaz az item-bank marad, csak **alacsonyabb a tét** (önellenőrzés, korlátlan próbálkozás, nem buktat). A blokkoló bizonyíték egyetlen produktumra (a játéklapra) koncentrálódik, így kevesebb a párhuzamos „éles” megmérettetés.
 
 ### Miért 12 item és miért „legfeljebb 2 hiba”?
 
-A korábbi audit (GATE-VALIDITY, M6) jelezte: ha az itemszám alacsony (5–6), akkor 80% = 1 hiba mozgástere, ami véletlen-érzékeny. 12 itemnél a 80% küszöb = **max. 2 hiba (10/12)**, ami stabilabb mastery-döntést ad. A több próbálkozáshoz **randomizált sorrend / kicserélhető item-pool** ajánlott, hogy a küszöb ne magolással, hanem megértéssel legyen teljesíthető.
+A korábbi audit (GATE-VALIDITY, M6) jelezte: ha az itemszám alacsony (5–6), akkor 80% = 1 hiba mozgástere, ami véletlen-érzékeny. 12 itemnél a 80% küszöb = **max. 2 hiba (10/12)**, ami stabilabb visszajelzést ad arról, hol állsz. A **korlátlan próbálkozás** + **randomizált sorrend / kicserélhető item-pool** ajánlott, hogy a kvíz ne magolásra, hanem megértésre ösztönözzön.
+
+> **Megjegyzés a tétről *(2026-os audit-igazítás)*:** mivel a kvíz itt **formatív/diagnosztikus** (nem blokkol), a ≥80% **önellenőrző cél**, nem buktató küszöb. A 80% szerepe így nem a kapuzás, hanem hogy **jelzést adjon** neked és a stábnak: ha rendre a biztonsági/inkluzivitási itemeknél hibázol, azt a játéklap előtt érdemes átnézni. Az **éles, blokkoló** mérés a játéklap-rubrika (B).
 
 ### Lefedettség (construct-validitás)
 
@@ -41,10 +52,13 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
-# (A) ITEM-BANK – Szcenárió-kvíz (12 item)
+# (A) ITEM-BANK – Szcenárió-kvíz (12 item) *(formatív / diagnosztikus)*
 
+> **Szerep:** ez a kvíz **felkészít a játéklapra és diagnosztizál** – nem ez az éles kapu (lásd Kapu-filozófia). A tét alacsony: korlátlan próbálkozás, nem buktat. A célja, hogy **a játéklap megírása előtt** ráérezz a biztonsági + inkluzív szempontokra.
 > **Formátum:** minden item = rövid **szcenárió-szár** (korosztály + kvuca + cél / körülmény) + **4 opció** + jelölt **helyes válasz (✅)** + **distraktor-indok** (miért hihető, de miért rossz) + rövid **tanulói feedback**.
 > A distraktorok mind **valós madrich-tévedést** testesítenek meg (nem karikatúrát, nem tölteléket).
+>
+> **Megjegyzés a konvergenciáról:** a 12 item egy része (eszköz-illesztés) szándékosan **egy-helyes-válaszos** – ott valódi biztonsági/illesztési minimum van (pl. 6–10-esnél nem indítunk mély kirekesztés-szerepjátékot). Ez **diagnosztikai** jelzés, nem éles kapuzás. A **nyitott, divergens** mérlegelést a játéklap-rubrika (B) és az M6.4 Branching viszi, ahol nincs „egyetlen jó megoldás”.
 
 ---
 
@@ -315,9 +329,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ### Kvíz-zárás (mindkét kimenetnél megjelenő szöveg)
 
-> **Ha elérted a 80%-ot:** Szép munka! Látszik, hogy nemcsak eszközöket ismersz, hanem a **kvuca + cél + biztonság + inkluzivitás** együtt látod. Most jöhet a játéklap.
+> **Ha elérted a 80%-ot:** Szép munka! Látszik, hogy a **kvuca + cél + biztonság + inkluzivitás** szempontokat együtt látod. **Ez az önellenőrzés most jó alap** – jöhet a modul éles kapuja, a **játéklap**, ahol ezt egy saját eszközön kell megmutatnod.
 >
-> **Ha most nem sikerült (újrapróbálható):** Semmi gond, ez éles kapu. Nézd vissza a témát, amelyikben többször hibáztál:
+> **Ha most kevesebb lett (nyugodtan újrapróbálható, nem buktat):** Semmi gond, **ez nem éles kapu, hanem felkészítő önellenőrzés**. Nézd vissza a témát, amelyikben többször hibáztál – főleg ha **biztonsági vagy inkluzivitási** itemnél, mert ezek a játéklap **hard-gate** sorai is:
 > - korosztály-illesztés → **M6.1** és **M6.4**,
 > - biztonsági minimum → **M6.1** (bizalomjáték) és **M6.A**,
 > - inkluzív variáció → **M6.3** és **M6.4**,
@@ -352,7 +366,7 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 - [ ] **R4** *(hard-gate)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
 - [ ] **R5** *(hard-gate)* – legalább **1** nevezett akadály **+ 1** konkrét alternatív belépési pont.
 
-> **Döntési szabály:** Ha bármelyik **hard-gate sor (R4 vagy R5)** üres / csak deklaráció → **a sor = 1**, a játéklap **javításra megy** (mentorral/staffal). Ha minden sor ≥ 2 ÉS a kvíz ≥ 80% → **modul teljesítve**.
+> **Döntési szabály:** Ha bármelyik **hard-gate sor (R4 vagy R5)** üres / csak deklaráció → **a sor = 1**, a játéklap **javításra megy** (mentorral/staffal). Ha **minden sor ≥ 2** (és a két hard-gate sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz biztonsági/inkluzivitási diagnózisát a játéklap előtt érdemes orvosolni (lásd Kapu-logika és (D) Stáb-jelzések).
 
 ---
 
@@ -372,5 +386,5 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 ## (D) Stáb-jelzések (learning analytics, a modul-leírás 7. szakasza alapján)
 
-- **Kvíz:** ha a résztvevők **>30%-a** nem éri el a 80%-ot 2 próbálkozás után → célzott online recap + **M6.F** (felzárkóztató) ajánlása. Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / trigger) hibáznak sokan.
+- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online recap + **M6.F** (felzárkóztató) ajánlása **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / trigger) hibáznak sokan; a **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás esetén egyéni mentori egyeztetés a játéklap előtt.
 - **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → külön workshop „inkluzív játékok & kézművesek” témában + egyéni mentoros munka a kritikus esetekkel.

@@ -7,6 +7,8 @@
 * **Online terhelés:** kb. **4×10–20 perc** (M5.1–M5.4) — az M5.4 produktum-készítés (saját táblázat + Assignment-feltöltés) akár **20–30 perc** is lehet. 
 * **Teljes terhelés:** kb. **2,5–3,5 óra** (online + offline együtt)
 
+> **Terhelés-őszinteség:** a fenti sávok a *reális felső* értéket is tartalmazzák — **tervezz inkább a felső értékkel** (≈ **3,5 óra**, az M5.4-nél a **30 perc** produktum-idővel). Az M5.4 az M5 **éles kapuja** (produktum-rubrika), ezért **ez a leginkább alulbecsülhető rész** — a táblázat összeállítása + önellenőrzés + Assignment-feltöltés könnyen átlépi a 20 percet, ezért szánj rá tudatosan többet. A felzárkóztató M5.F (Study Lab) ezen felül +45 perc, ha élsz vele.
+
 **Modulközponti kérdés**
 
 > Ha valaki ránéz egy someres peulára, honnan látszik rajta, hogy ez **nem suli, nem is random lógás**, hanem **nonformális nevelés**? 
@@ -132,20 +134,20 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 
 Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit oszt meg, a tempót a saját hiányaihoz igazítja. 
 
-## 6. Kapu – M5 fogalom-kvíz (éles, de barátságos)
+## 6. Kapu – az M5.4 produktum az éles kapu, a kvíz diagnosztikus
 
-* **Típus:**
-  * **Éles mastery gate** – minden madrichnak értenie kell a nonformális nevelés és az alap tanulástan-logika lényegét.
-  * Eszköz: Moodle **Quiz**, kb. 10–12 kérdés.
-* **Fókusz:**
-  1. Formális–nonformális–informális helyzetek felismerése.
-  2. Feladat → cél → kvuca → módszer logika, rövid szcenáriókkal.
-  3. Gyakorlás, visszahívás, spacing fogalmai, egyszerű helyzetekkel.
-* **Követelmény (kompozit pass-szabály):**
-  * **Kvíz:** minimum **80%**, azaz **12 itemből legalább 10 jó válasz**,
-  * **2–3 próbálkozás** engedélyezve,
-  * hibánál rövid magyarázó feedback: merre menjen vissza (M5.1–M5.4) javítani a megértést.
-  * **A modul akkor teljesített, ha a kvíz ≥80% (≥10/12) ÉS a leadott M5.4 „Feladat–kvuca–módszer + tanulástan” táblázat minden rubrika-soron eléri legalább az „Alapszint”-et** – így a 4. kimeneti (produkciós) kompetencia is kapuzva van, nem marad csak formatív. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent. (A 12-itemes item-bank és a 4-soros, megfigyelhető rubrika a kanonikus KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).) Ha a szervezet a táblázatot mégis formatívnak akarja hagyni, azt **expliciten ki kell mondani** – de akkor a 4. kompetencia kapu nélkül marad.
+> **Kapu-filozófia (Program terv §5 / `IDEOLOGY-GATE-REVIEW` B1):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktum-alapú értékelés. **Az éles (mastery) kapu az M5.4 táblázat rubrikás értékelése** (mint M1/M7), a **kvíz pedig formatív/diagnosztikus**.
+
+* **Éles kapu – M5.4 produktum (rubrika):**
+  * Eszköz: **Moodle Assignment + rubrika**.
+  * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrika-soron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor a B1 láncait méri: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
+  * **Bukás-útvonal:** ha egy sor „Hiányos”, rövid fejlesztő (SBI-jellegű) visszajelzés + **újraleadás** – nincs kizárás, a cél a megértés.
+* **Diagnosztikus kvíz – fogalmi felzárkózás (NEM éles kapu):**
+  * Eszköz: Moodle **Quiz**, **12 kérdés** (formális–nonformális–informális; feladat→cél→kvuca→módszer; gyakorlás/visszahívás/spacing).
+  * **2–3 próbálkozás** engedélyezve; hibánál rövid magyarázó feedback: merre menjen vissza (M5.1–M5.4) javítani a megértést.
+  * Ajánlott **diagnosztikus jelzőküszöb ≥ 80% (≥10/12)** – ez **nem kizáró feltétel**: aki alatta van, **nem bukik**, hanem felzárkóztató hurokba kerül (**M5.F Study Lab** + a kvíz item-szintű analitikája alapján célzott visszairányítás). A kvíz célja, hogy a fogalmi tudás **mérve és fejlesztve** legyen, mire a madrich a produktumot beadja.
+
+> A 12-itemes item-bank, a distraktor-logika és a 4-soros, megfigyelhető rubrika (R1–R4) a kanonikus KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, visszahívás, spacing) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem random játékot raksz be, hanem a SMART nevelési célhoz és a kvucához illő módszert. 
 
@@ -157,12 +159,13 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
 2. **H5P analitika:**
    * M5.1: mely helyzeteket sorolják gyakran félre (nonformális vs. informális).
    * M5.3: mely tanulástan-fogalmaknál van sok rossz válasz (gyakorlás vs. „hallgatás”, spacing vs. „egyben magolás”).
-3. **Kapu (Quiz) eredmények:**
-   * kérdés-szintű elemzés: ha sokan félreértik a spacinget → több példa a következő évfolyamnak;
-   * ha sokan előbb választanak módszert, mint célt → erősíteni a M5.2 üzenetét („cél az első”).
-4. **Modulproduktum (Assignment – M5.4):**
+3. **Diagnosztikus kvíz (Quiz) eredmények – felzárkózás-jelző, nem kapu:**
+   * kérdés-szintű elemzés: ha sokan félreértik a spacinget → több példa a következő évfolyamnak, és **M5.F-be irányítás** az érintett madrichoknak;
+   * ha sokan előbb választanak módszert, mint célt → erősíteni a M5.2 üzenetét („cél az első”);
+   * a ≥80% jelzőküszöb alattiak **nem buknak**, hanem célzott felzárkóztatást kapnak a produktum beadása előtt.
+4. **Modulproduktum (Assignment – M5.4) – az éles kapu:**
    * leadási arány: hányan adták le a táblázatot;
-   * **minőség-ellenőrzés a kanonikus KAPU-fájl 4-soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-check, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).
+   * **minőség-ellenőrzés a kanonikus KAPU-fájl 4-soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-check, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. **Ez a sor dönti el a továbblépést** (a kvíz csak diagnosztizál). A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).
 5. **Offline „exit ticket” (M5.B végén):**
    * 1 perc írás:
      * „Mi volt ma a leghasznosabb gondolat a tanulásról?”
@@ -186,4 +189,4 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
 
 [M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab)](./M5_PEULA/M5.F%20–%20Felzárkóztató%20peula%20–%20Suli,%20Somer%20&%20tanulástan%20(Study%20Lab).md)
 
-**[M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md)** – a modul **éles (mastery) kapuja**: a 12 itemes item-bank és a 4 soros, megfigyelhető rubrika (R1–R4).
+**[M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md)** – a modul mastery-értékelője: a **diagnosztikus** 12 itemes item-bank és az **éles kaput adó**, 4 soros megfigyelhető produktum-rubrika (R1–R4).

@@ -2,7 +2,9 @@
 
 ← Vissza a modul-hubhoz: **[M5 – „Ez most játék vagy tanulás_” – Nonformális nevelés, módszerválasztás & tanulástan](./M5%20–%20„Ez%20most%20játék%20vagy%20tanulás_”%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)**
 
-> **Ez a fájl a hiányzó M5 mastery-kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva (lásd `_AUDIT/GATE-VALIDITY.md` → M5). Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
+> **Ez a fájl az M5 mastery-kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva (lásd `_AUDIT/GATE-VALIDITY.md` → M5). Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
+>
+> **Kapu-filozófia (lásd `IDEOLOGY-GATE-REVIEW` B1 + Program terv §5):** mivel az M5 nonformális nevelést tanít, **az éles (mastery) kapu az M5.4 produktum rubrikás értékelése** (4. szakasz) – nem a fogalom-kvíz. A **kvíz formatív/diagnosztikus**: megmutatja, melyik fogalomcsalád szorul felzárkózásra, de nem konvergens kvíz-kapuként szűr. Így a kapu a someres elvet (produktum + reflexió a sulis fogalom-kvíz helyett) követi, megőrizve a minőségbiztosítást.
 
 ---
 
@@ -13,9 +15,9 @@
 | **Melyik kapuhoz tartozik?** | **M5 – „Ez most játék vagy tanulás?”** éles (mastery) kapu. |
 | **Mit mér?** | A modul három tanított fogalomcsaládját: (1) formális / nonformális / informális tanulás megkülönböztetése; (2) a **négytagú** *feladat → cél → kvuca → módszer* döntési lánc; (3) tanulástan – gyakorlás, visszahívás (retrieval), spacing. |
 | **Kvíz – LMS-eszköz** | **Moodle Quiz** (vagy ekvivalens **H5P Question Set**), **12 item**, randomizált item- és válaszsorrend. |
-| **Kvíz-küszöb** | **≥ 80%** = 12-ből **legalább 10 jó válasz**. **2–3 próbálkozás** engedélyezve; minden próbálkozás után **kérdés-szintű magyarázó feedback + visszairányítás** (M5.1–M5.4) a hibás itemekhez. |
-| **Produktum – LMS-eszköz** | **Moodle Assignment + rubrika** (lent, 4. szakasz) az M5.4 „Feladat–kvuca–módszer + tanulástan” táblázathoz. |
-| **Modul-szintű pass-szabály** | Ajánlott **kompozit kapu** (feloldja a GATE-VALIDITY „construct-rés” findingot): a modul akkor teljesített, ha **kvíz ≥80% ÉS a leadott M5.4 táblázat minden rubrika-sorban eléri legalább az „Alapszint”-et.** Ha a szervezet a táblázatot formatívnak hagyja, azt itt explicit ki kell mondani – de akkor a 4. kimeneti kompetencia (produktum) nincs kapuzva. |
+| **A kvíz szerepe** | **Formatív / diagnosztikus belépő** – nem ez az éles kapu. A kvíz azt mutatja meg a madrichnak ÉS a stábnak, melyik fogalomcsalád ül már és melyik szorul még felzárkózásra (M5.1–M5.4 / M5.F). **2–3 próbálkozás** engedélyezve; minden próbálkozás után **kérdés-szintű magyarázó feedback + visszairányítás** a hibás itemekhez. Ajánlott diagnosztikus jelzőküszöb **≥ 80%** (12-ből ≥10 jó): alatta **nem-blokkoló** mentori jelzés és Study Lab-ajánlás – **nem kizárás**. |
+| **Produktum – LMS-eszköz (ÉLES KAPU)** | **Moodle Assignment + rubrika** (lent, 4. szakasz) az M5.4 „Feladat–kvuca–módszer + tanulástan” táblázathoz. **Ez a modul elsődleges, éles (mastery) kapuja** – mint az M1/M7 modulokban a produktum-rubrika. |
+| **Modul-szintű pass-szabály** | **A produktum-rubrika az elsődleges éles kapu** (kapu-filozófia, lásd Program terv §5 / `IDEOLOGY-GATE-REVIEW` B1): a modul akkor teljesített, ha a **leadott M5.4 táblázat minden rubrika-soron eléri legalább az „Alapszint”-et** (a kritikus **R4** soron is). A **kvíz formatív/diagnosztikus**: a ≥80% diagnosztikus jelző, nem kizáró feltétel – aki alatta van, **felzárkóztató hurokba** kerül (M5.F + a kvíz item-szintű analitikája alapján célzott visszairányítás), nem bukik. Így a 4. kimeneti (produkciós) kompetencia van élesen kapuzva, a fogalmi tudást pedig a kvíz **diagnosztizálja és fejleszti**, nem konvergens kvíz-kapuként szűri. *(Ez feloldja a `GATE-VALIDITY` M5 „construct-rés” findingot és a `IDEOLOGY-GATE-REVIEW` DA1.11 kapu-politika ütközést: egyetlen, kimondott kapu-logika él, nem két egymást kizáró opció.)* |
 
 **Miért 12 item / fogalomcsaládonként ≥3?** 12 itemnél a 80% azt jelenti, hogy legföljebb 2 hiba fér bele. Ha mindhárom fogalomcsaládra **4–4 item** jut, egyetlen gyengén értett terület (pl. nonformális vs. informális határeset) nem tud automatikusan „átengedni” vagy „megbuktatni”. Ezért az item-bank **fogalomcsaládonként 4 itemet** tartalmaz, **felismerő ÉS alkalmazás-szintű** keverékben.
 
@@ -271,8 +273,9 @@
 ## 4. Rubrika – M5.4 modulproduktum („Feladat–kvuca–módszer + tanulástan” táblázat)
 
 > **Eszköz:** Moodle **Assignment + rubrika** (a leadott táblázathoz, online-szövegként vagy fájlként). A táblázat minimum **3–4 sor**.
+> **Ez a modul ÉLES (mastery) kapuja** – a kvíz formatív/diagnosztikus, a tényleges továbblépést **ez a produktum-rubrika** dönti el (mint M1/M7). A rubrika **megfigyelhető sorai** a B1 kapu-filozófia szerinti négy láncot mérik: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4).**
 > **Cél:** a GATE-VALIDITY M5-findingjának megszüntetése – a „minden sorban van-e cél + kvuca + módszer + tanulástan” bináris jelenlét-ellenőrzés helyett **megfigyelhető, szintezett** kritériumok (illik-e a módszer a célhoz; valódi tanulástan-elem vs. ráírt címke).
-> **Átmenő szabály (ajánlott):** minden sorban legalább **„Alapszint”** mind a 4 kritériumon. A 4. sor (tanulástan-elem valódisága) **kritikus**: itt a „Hiányos” szint javításra visszaküldést jelent, mert ez a modul fő tanulástan-üzenete.
+> **Átmenő szabály (a kapu):** minden sorban legalább **„Alapszint”** mind a 4 kritériumon. A 4. sor (tanulástan-elem valódisága) **kritikus**: itt a „Hiányos” szint javításra visszaküldést jelent, mert ez a modul fő tanulástan-üzenete.
 
 A rubrika **a teljes leadott táblázatra** vonatkozik (nem soronként pontozzuk újra): a szintet az határozza meg, hogy a sorok **többségében** (≥3 sorból ≥2-ben, illetve 4 sorból ≥3-ban) milyen minőség figyelhető meg.
 

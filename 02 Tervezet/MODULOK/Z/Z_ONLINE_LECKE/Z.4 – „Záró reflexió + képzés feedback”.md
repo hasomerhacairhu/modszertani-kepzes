@@ -4,7 +4,14 @@
 
 **Kód:** Z.4
 **Cím (tanulónak):** Záró reflexió + képzés feedback
-**Időtartam:** 15–20 perc
+**Időtartam (teljes lecke):** **kb. 40–60 perc – tervezz inkább a felsővel (1 óra).** Ez a Z modul leghosszabb online eleme, mert nem csak jegyzetelsz, hanem egy kész produktumot is leadsz. Bontása:
+
+* H5P jegyzetelő / összerendező (a 3 kérdéshez): **~15–20’**
+* **Moodle Assignment – záró reflektív produktum** (0,5–1 oldal szöveg **vagy** 2–3 perces videó, a jegyzetből megírva/felvéve): **~20–30’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
+* Anonim képzés-feedback űrlap: **~5–10’**
+
+> **Őszinte terhelés:** a régi „15–20 perc” csak a jegyzetelő részre igaz volt – a tényleges produktum-leadással együtt ez **inkább egy teljes óra**. Jobb, ha eleve ennyit szánsz rá, mint hogy menet közben érjen meglepetés. Nem kell egyben megcsinálnod: a jegyzetelő után **nyugodtan tarthatsz szünetet**, és külön ülésben írhatod meg / veheted fel a végleges reflexiót.
+
 **Eszközök:**
 
 * H5P **Course Presentation** (4–5 slide – jegyzetelő/összerendező segítség)

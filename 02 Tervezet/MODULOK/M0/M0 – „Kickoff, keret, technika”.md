@@ -5,7 +5,7 @@
 * **Időtartam:** 1 hét (könnyített bevezető modul)
 * **Heti offline:** péntek 2. sáv – **Peula A (M0.A, 45–60’)** – Kickoff & ismerkedés + technikai helpdesk-sarok
 * **Online terhelés:** kb. **3×10–15’ + 1×15–20’** mikrolecke (M0.1–M0.4) **+ külön bemutatkozó fórum-aktivitás** (poszt + komment), össz. kb. **45–70 perc + fórum**
-* **Teljes terhelés:** kb. **2–2,5 óra**
+* **Teljes terhelés:** kb. **2–2,5 óra** – **tervezz inkább a felső értékkel (≈2,5 óra):** a bemutatkozó fórumposzt + komment és a technikai elsőlépések (Moodle-belépés, H5P) az első héten reálisan a hosszabb sávot viszik. **Jobb felfelé kerekíteni, mint alá-ígérni.**
 
 **Modulközponti kérdés**
 
@@ -135,13 +135,14 @@ A modul végére a madrich…
       * jelzési út gyerekvédelmi ügyben,
       * puha vs. éles kapu,
       * „hol találom a modulokat / leckéket a Moodle-ben?”.
-    * Több próbálkozás engedélyezett, ajánlott minimum: 60–70%.
+    * Több próbálkozás engedélyezett.
+    * **Funkció (egyértelműsítés): ez a quiz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a quizen elért eredmény nem zár ki és nem blokkol senkit. **A „60–70%" tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „megbukik". **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** – lásd a `placeholders`-be jelölt item-bank tételt.
 
 **Követelmény az M0 „complete”-hez:**
 
 1. L1–L4 (M0.1–M0.4) mikroleckék activity completion.
 2. Bemutatkozó fórum: 1 poszt + 1 komment.
-3. M0 belépő-quiz kitöltve (eredménytől függetlenül, de cél, hogy a többség 60%+ körül legyen).
+3. M0 belépő-quiz **kitöltve** – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a quiz completion-jelző, nem küszöbös kapu). **A „többség 60%+" nem belépési feltétel, hanem stáb-oldali elvárás-szint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrichot zárja ki.
 
 **Javítás / támogatás logika:**
 
@@ -172,7 +173,7 @@ A modul végére a madrich…
      * célzott emlékeztető,
      * extra tech helpdesk szervezése (offline / online),
      * rövid felmérés: technikai ok vagy motivációs ok áll-e a háttérben.
-   * Ha az M0-quiz átlag **nagyon alacsony** (pl. <60%),
+   * Ha az M0-quiz átlag **nagyon alacsony** (pl. <60%) – **ez a stáb felé jelez, NEM a madrich kizárását jelenti** (a quiz completion-jelző, lásd 5. Kapuk):
      * egyszerűsített, vizuális összefoglaló Page készítése („Madrich, nem terapeuta”, „kapuk”),
      * másik modul peulájában 5 perces „keret-újramondás”.
 

@@ -5,7 +5,8 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), kb. 45–45’
 * **Online terhelés:** kb. 4×10–15 perc mikrolecke (M4.1–M4.4)
-* **Teljes terhelés:** kb. 2–3 óra (online + offline) 
+* **Teljes terhelés:** **kb. 2,5–3,5 óra (online + offline) – tervezz inkább a felső, ~3,5 órás értékkel.** A becslés őszintén felfelé kerekített: a két peula (2×45’) önmagában ~1,5 óra, az online leckék ~45–60 perc, **és erre jön a modulproduktum (M4.4 peula-pitch váz) tényleges megírása + finomítása**, amit könnyű alulbecsülni. A pitch-váz az M4.4 online lecke ~15 perce alatt elindul, de a kvucára szabott, leadható verzió kidolgozása (és az M4.B-n a hangos gyakorlás) reálisan **további ~20–30 perc** – ezt a teljes terhelésbe beleszámoltuk.
+* **Terhelés-megjegyzés (peulavezetőnek):** a peula-percbontások feszesek; **minden peulában van „core” (el nem hagyható) és „rövidíthető/elhagyható” rész** – ezeket a peula-fájlok blokkonként jelölik. Ha csúszol, a rövidíthető részekből vegyél vissza, ne a debrief-ből / zárókörből. **Tervezz ~10–15% puffert** (késés, technika, érzelmileg ráhangolódó kör), hogy a zárás ne maradjon ki.
 * **Tartalmi eredet (provenance):** **ember által írt / AI-asszisztált tananyag** – ahol generatív AI-t használtunk (szöveg, kvíz-item, distraktor, ábra, AI-videó), azt a leckében külön jelöljük.
 * **Szakmai lektorálás:** **lektor: [ ] · dátum: [ ] · verzió: [ ]** (a gyerekvédelmi és érzékeny tartalmat éles indítás előtt embernek kell jóváhagynia – UNESCO AI-etika: emberi felügyelet + átláthatóság).
 

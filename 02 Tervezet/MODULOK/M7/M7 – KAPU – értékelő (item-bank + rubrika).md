@@ -12,7 +12,7 @@
 | Rész | Mit mér | LMS-eszköz | Küszöb |
 | --- | --- | --- | --- |
 | **(B) Peula v2 értékelő rubrika** | A leadott **Peula v2 + Zmán Kvucá-operáció** produktum minősége (SMART cél, 11 pont struktúra, gyerekvédelem, inkluzivitás, módszer-illeszkedés, etikus AI) | **Moodle Assignment + rubrika** (analitikus, 8 sor) | **Megfelelt = (összpont ≥70% = ≥17/24) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló)** – a kritikus sorok minimuma a ponthatártól **függetlenül mindig kötelező**; a „Gyerekvédelem & safety” (R4) sor külön blokkoló: e nélkül a kapu nem nyílik, a %-tól függetlenül |
-| **(A) SMART & Zmán Kvucá kvíz** | M7.1–M7.4 fogalmainak felismerő/alkalmazó szintű tudása (SMART, Peula 11 pont, Zmán Kvucá-checklist, etikus AI) | **Moodle Quiz** (vagy H5P Question Set, ha nem kell Gradebook-súly) | **≥80%** (12 itemből **≥10 jó**), **2–3 próbálkozás**, kérdés- és válasz-**randomizálással** |
+| **(A) SMART & Zmán Kvucá kvíz** | M7.1–M7.4 fogalmainak felismerő/alkalmazó szintű tudása (SMART, Peula 11 pont, Zmán Kvucá-checklist, etikus AI) **+ gyerekvédelmi alaplépés (red flag)** | **Moodle Quiz** (vagy H5P Question Set, ha nem kell Gradebook-súly) | **≥80%** (14 itemből **≥12 jó**) **ÉS a gyerekvédelmi Q13 helyes** (a blokkoló R4-konstruktum tudásalapja külön kötelező), **2–3 próbálkozás**, kérdés- és válasz-**randomizálással** |
 
 **Súlyozás:** a kapu konstruktumának gerince a **Peula v2 rubrika** (domináns súly). A kvíz „fogalmi belépő” – a tudásalap meglétét igazolja, de önmagában nem méri a produktív készséget.
 
@@ -24,15 +24,17 @@
 
 ***
 
-## (A) ITEM-BANK – „SMART & Zmán Kvucá” kvíz (12 item)
+## (A) ITEM-BANK – „SMART & Zmán Kvucá” kvíz (14 item)
 
 **Beállítások (Moodle Quiz):**
 
-* 12 item, **küszöb ≥80% (≥10 jó válasz)**, 2–3 próbálkozás.
+* 14 item, **küszöb ≥80% (≥12 jó válasz)** **ÉS a gyerekvédelmi Q13 kötelezően helyes** (a blokkoló R4-konstruktum tudásalapja a %-tól függetlenül nem hiányozhat), 2–3 próbálkozás.
 * **Kérdés- és válasz-sorrend randomizálva** (a 2–3 próbálkozás miatt ne legyen megjegyezhető a sorrend).
 * Item-típusok: Single Choice (1 jó válasz) és Multi-Select (több jó válasz – jelölve). A Multi-Selectnél **„minden helyes opció + egy hibás sem”** = teljes pont.
 * Minden itemhez egyértelmű helyes válasz, plauzibilis distraktorok (gyakori someres félreértésekre építve), rövid tanulói feedback.
-* Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12) → így a kvíz az M7.4 etikus-AI és idő-feladat-felelős logikáját is méri, nem csak M7.1–M7.3 felismerést.
+* Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12), **gyerekvédelem & safety (Q13–Q14 – a blokkoló R4-sor tudásalapja)** → így a kvíz az M7.4 etikus-AI, idő-feladat-felelős logikáját **és a kapu blokkoló gyerekvédelmi konstruktumát** is méri, nem csak M7.1–M7.3 felismerést.
+
+> **Cél → item lefedettségi tábla (construct-validitás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyerekvédelem & safety (rubrika R4, BLOKKOLÓ) → Q13–Q14**. Így **minden mastery-kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alul-reprezentálva azt, amit a produktum-rubrika kapuz.
 
 ***
 
@@ -188,6 +190,34 @@
 
 ***
 
+### Blokk 5 – Gyerekvédelem & safety a peulatervben (Q13–Q14)  🔴 BLOKKOLÓ-LEFEDETTSÉG
+
+> **Miért van külön blokk?** A produktum-rubrika **R4 (Gyerekvédelem & safety)** sora a kapu **blokkoló** konstruktuma – e nélkül a kapu a %-tól függetlenül nem nyílik. A fogalmi belépő (kvíz) ezért **nem maradhat item nélkül épp erre**: az alábbi két szcenárió-item igazolja a red-flag-alaplépés és a nem-egyedül-elv tudásalapját, mielőtt a tanuló a Peula v2-be építené. A megfogalmazás az M3.3 gyerekvédelmi alapozásra épül (red flag → mit teszel / mit NEM teszel / kit vonsz be), és **nem helyettesíti** a mentor / gyerekvédelmi felelős szerepét.
+
+#### Q13 — Red flag a peulán: mi az első lépés? (Single Choice)
+
+**A peulád egyik chanichja egy feladatnál olyat ír le, amiből arra gyanakszol, hogy otthon bántják. Mi a someres alaplépés a tervedben rögzítve?**
+
+- A) Megígérem neki, hogy senkinek nem mondom el, hogy bízzon bennem.
+- B) Rákérdezek a részletekre, és kifaggatom, pontosan mi történt, hogy biztos legyek.
+- C) **Nyugodtan, ítélkezés nélkül meghallgatom, NEM ígérek titoktartást, NEM nyomozok – és még aznap jelzem a mentornak / gyerekvédelmi felelősnek.** ✅
+- D) Szólok a szüleinek, hogy beszéljék meg otthon.
+
+**Feedback:** A helyes alaplépés: **meghallgatsz, de nem ígérsz titoktartást** (A téves – nem ígérhetsz olyat, amit a jelzési kötelezettség miatt nem tarthatsz meg), **nem nyomozol / nem faggatsz rávezetően** (B téves), és **nem keresed meg a feltételezett bántalmazót** (D téves – itt épp a szülő lehet érintett). A felelősség **megosztott**: a mentort / gyerekvédelmi felelőst vonod be – nem maradsz egyedül a helyzettel. **(Ha azonnali veszélyt látsz, a helyi gyerekvédelmi protokoll / 112 lép – ezt a ⟬KITÖLTENDŐ: a ken nevesített gyerekvédelmi felelőse és a helyi jelzési protokoll⟭ rögzíti.)** (M3.3, M7.3)
+
+#### Q14 — Mit NEM hagysz a peulatervben? (Multi-Select – több jó válasz)
+
+**Jelöld be az ÖSSZESET, amit a Peula v2 safety-része szerint TILOS úgy hagyni a tervben!**
+
+- A) Egy madrich egyedül, becsukott ajtó mögött marad egy chanichhal. ✅
+- B) A kockázatos / kültéri elemnél nincs semmilyen B-terv. ✅
+- C) Sehol nincs leírva, kihez fordul a madrich, ha red flaget észlel. ✅
+- D) A peula elején van egy rövid, közös „kit kérhetsz, ha rosszul érzed magad” kör.
+
+**Feedback:** Az A–B–C mind **kockázatot hagy a tervben**, ezért a rubrika R4-sora ezt 0–1-re értékeli (→ a kapu nem nyílik): a **nem-egyedül-elv** (A), a **B-terv** a kockázatos elemre (B) és a **megnevezett jelzési út** (C) mind kötelező. A D **épp jó gyakorlat** – ez a biztonságos tér része, nem hiba. (M3.3, M7.3) *(A teljes ponthoz A, B, C jelölve, D NEM.)*
+
+***
+
 ## (B) PEULA v2 – értékelő rubrika (félévzáró produktum)
 
 **Eszköz:** Moodle Assignment + **analitikus rubrika**, 8 sor, soronként 0–3 pont.
@@ -338,8 +368,9 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 
 ## Fejlesztői QA-checklist (élesítés előtt)
 
-* [ ] Kvíz: 12 item, **randomizálás BE**, ≥80% (≥10/12), 2–3 próbálkozás.
-* [ ] Minden itemnek 1 egyértelmű helyes válasza (Q11 multi-select: A+B+C jó, D nem), distraktorok plauzibilisek (nincs „minden fenti”, nincs töltelék).
+* [ ] Kvíz: **14 item**, **randomizálás BE**, **≥80% (≥12/14)** **ÉS a gyerekvédelmi Q13 kötelezően helyes**, 2–3 próbálkozás.
+* [ ] Minden itemnek 1 egyértelmű helyes válasza (Q11 és Q14 multi-select: A+B+C jó, D nem), distraktorok plauzibilisek (nincs „minden fenti”, nincs töltelék).
+* [ ] **Construct-lefedettség:** a blokkoló R4 (Gyerekvédelem & safety) sornak van kvíz-itemje (**Q13–Q14**); a cél→item tábla teljes, R4 nem alul-reprezentált.
 * [ ] Assignment-rubrika: 8 sor, 0–3 pont, max 24, küszöb **zárt ÉS-logikával**: **Megfelelt = (összpont ≥17) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló)** – a kritikus sorok ≥2 minimuma a ponthatártól függetlenül mindig kötelező.
 * [ ] **R4 blokkoló** szabály a Moodle-leírásban is rögzítve (nem csak a rubrikában).
 * [ ] Kritikus sorok kijelölve: R1, R4, R5, R6.

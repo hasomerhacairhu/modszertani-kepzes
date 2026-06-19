@@ -4,6 +4,13 @@
 
 > ⚠️ **Gyerekvédelmi felelős review szükséges a véglegesítés előtt.**
 > Ez egy biztonságkritikus (gyerekvédelmi) kapu. Az éles használat előtt a szervezet **gyerekvédelmi felelőse / vezetője** olvassa át és hagyja jóvá, és illessze a **helyi protokollhoz** (kit hívnak, milyen sorrendben, mikor jön a 112, ki a gyerekvédelmi felelős név szerint). A hívószámok és jogszabályi hivatkozások a magyar gyakorlatot tükrözik – ellenőrizd, hogy időközben nem változtak-e.
+> **A safeguarding-tartalom (és ez a kapu) nem élesedik a gyerekvédelmi felelős aláírása nélkül.**
+>
+> | Mező | Érték |
+> |---|---|
+> | **Lektor (gyerekvédelmi felelős):** | ⟬ KITÖLTENDŐ – gyerekvédelmi felelős neve ⟭ |
+> | **Jóváhagyás dátuma:** | ⟬ KITÖLTENDŐ – ÉÉÉÉ-HH-NN ⟭ |
+> | **Következő felülvizsgálat:** | ⟬ KITÖLTENDŐ – ÉÉÉÉ-HH-NN (ajánlott: évente) ⟭ |
 
 ---
 

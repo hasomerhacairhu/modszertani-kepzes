@@ -72,6 +72,13 @@
 
 *(Vagyis a 45’-es verziónál a 2–4. blokkok rövidülnek: kevesebb beszélő kör, rövidebb poszter-idő, a poszter- és nagykörös visszahozások esnek ki először – az elismerés-kört és a záró szót próbáld megtartani.)*
 
+**Reális időtervezés (terhelés-őszinteség):**
+
+* **A fenti percek feszesek** – záró peulánál a megosztó körök szinte mindig túlcsúsznak (több az érzelem, többen akarnak beszélni). **Tervezz 10–15% puffert**: a 60’-es verziónál gondolj inkább **60–70’-ben**, a 45’-esnél **45–50’-ben**, és inkább a felső sávval kalkulálj.
+* **Core (el ne hagyd) vs. elhagyható/rövidíthető** – ha csúszol, ebben a sorrendben vágj:
+  * **Core (a peula lényege):** Check-in (Blokk 1) · az **Elismerés-kör** (4.4.1) · a **záró szó-felhő rituálé** (4.4.2). Ezek adják a lezárás élményét – ezeket tartsd meg.
+  * **Elhagyható / rövidíthető elsőként:** a poszter **nagykörös bemutatása** (4.3 / 4. lépés) · az Időkapszula **nagykörös visszahozása** (4.2 / 4. lépés). A párokban/kiscsoportban zajló rész marad, csak a plenáris visszahozás esik ki vagy rövidül 1–2 önkéntesre.
+
 ***
 
 ## 4. Blokk-leírások (részletesen)

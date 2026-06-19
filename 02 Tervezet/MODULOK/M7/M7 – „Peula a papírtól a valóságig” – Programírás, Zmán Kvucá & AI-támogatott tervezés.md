@@ -5,7 +5,12 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), **45’ + 45’**
 * **Online terhelés:** kb. **4×15–20 perc** mikrolecke (M7.1–M7.4, össz. 60–80 perc)
-* **Teljes terhelés:** kb. **2,5–3 óra** (online + offline)
+* **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrich-óra, otthoni / védett munkaidő):**
+  * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
+  * **v1 → v2 véglegesítés** (az M7.B peula-klinika visszajelzései után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **safety-rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, etikus AI-átírás, és a **capstone-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 safety/kvuca-profil · M5 módszer · M6 játéklap).
+  * **Mastery-kvíz** (14 item, esetleg 2–3 próbálkozás): **~15–25 perc**.
+  * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 1,5–2,5 óra**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrichoknak (alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok), és adj hozzá **védett munkaidőt** (pl. M7.B-klinika + M7.F study lab).
+* **Teljes terhelés:** kb. **2,5–3 óra kontaktidő (online mikroleckék + 2 peula)** **+ kb. 1,5–2,5 óra önálló szintézis-produktum-munka (Peula v2 véglegesítés + kvíz)** → reálisan **össz. ~4–5,5 óra** a félévzáró kapuig.
 
 **Modulközponti kérdés**
 
@@ -211,8 +216,8 @@ A modul végére a madrich…
    * **Követelmény:**
      * min. **70%** összpontszám, vagy minden kritikus rubrika-sorban legalább „alapszint / rendben”.
 2. **Moodle Quiz – „SMART & Zmán Kvucá”** **(kötelező 2. rész a kétrészes mastery-kapuban – ≥80%; fogalmi belépő, de a teljesítése is feltétel, mindkét részt teljesítened kell)**
-   * **12 item**: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.4 tartalma; a részletes item-bank: „M7 – KAPU” §A).
-   * **Követelmény:** **≥80% (12 itemből ≥10 jó)**, **2–3 próbálkozás** engedélyezve, kérdés- és válasz-randomizálással.
+   * **14 item**: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.4 tartalma) **+ gyerekvédelmi alaplépés (red flag, Q13–Q14 – a blokkoló R4-sor tudásalapja)** (a részletes item-bank: „M7 – KAPU” §A).
+   * **Követelmény:** **≥80% (14 itemből ≥12 jó)** **és a gyerekvédelmi Q13 helyes** (a blokkoló konstruktum külön kötelező), **2–3 próbálkozás** engedélyezve, kérdés- és válasz-randomizálással.
 
 * **Javítás / támogatás:**
   * ha valaki nem éri el a küszöböt:

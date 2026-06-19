@@ -10,7 +10,7 @@
 
 ### Mi ez a program?
 
-Az első félév egy **moduláris, blended madrichképzés**: online mikroleckék (Moodle + H5P) és heti offline peulák egységes rendszerben. Az **M1–M7** modulok kb. **2 hétig tartanak**, **4 mikroleckéből (L1–L4)** és **2×45’ peulából (A, B)** állnak, a teljes terhelés modulonként kb. **2–3 óra**. Az **M0** és a **Z** könnyített: kb. **1 hét**, és csak **1 peula (A)** tartozik hozzájuk. 
+Az első félév egy **moduláris, blended madrichképzés**: online mikroleckék (Moodle + H5P) és heti offline peulák egységes rendszerben. Az **M1–M7** modulok kb. **2 hétig tartanak**, **4 mikroleckéből (L1–L4)** és **2×45’ peulából (A, B)** állnak, a teljes terhelés modulonként kb. **2–3 óra** – **a tervezésnél a sáv felső értékével számolj („tervezz inkább 3-mal”): a tapasztalat szerint a produktum-modulok (kiemelten az M7 félév-szintézis, valamint az M0/M2/M4 produktum-ideje) inkább a felső érték felé húznak, és az alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok**. Az **M0** és a **Z** könnyített: kb. **1 hét**, és csak **1 peula (A)** tartozik hozzájuk. 
 
 A program a Hasomer Hacair ifjúsági mozgalom **ideológiai (három pillér, társadalmi felelősség, hagshama)** és **pedagógiai (kvuca, dugma ishit, nonformális nevelés)** keretére épül, ugyanakkor adaptálható más youth work szervezetekre is.
 
@@ -57,7 +57,7 @@ A félév **ív-szerűen** építkezik:
 
 * 1 félév, **M0–M7 + Z** modul (összesen 9 modulblokk). 
 * Modulonként (M1–M7): **2 hét**, 4 online mikrolecke (L1–L4) + 2×45’ peula (A, B); **M0** és **Z** könnyített: 1 hét + csak 1 peula (A). 
-* Átlagos modul-időráfordítás: **2–3 óra** (online + offline). 
+* Átlagos modul-időráfordítás: **2–3 óra** (online + offline) – **a terhelést őszintén, felfelé kerekítve kommunikáld: a sáv felső értékét (3 óra) hangsúlyozd, és „tervezz inkább 3-mal”, mert több modul (kiemelten az M7 szintézis-produktum) a felső érték felé húz**. 
 
 **Blended megvalósítás:**
 
@@ -75,7 +75,7 @@ A félév **ív-szerűen** építkezik:
 ## 2. Pedagógiai–ideológiai keret (rövid)
 
 * **Youth work & nonformális nevelés:** a képzés kulcsfogalma a **tanulás közösségi élményen, részvételen és saját élményen keresztül**, nem frontális oktatással. 
-* **Hasomer Hacair értékek:** zionizmus, szocializmus, **világi (szekuláris) humanista zsidóság**, társadalmi felelősség, kritikus gondolkodás és hagshama. Ezek a modulokban folyton visszaköszönnek (pl. identitás, döntések, peulák céljai). 
+* **Hasomer Hacair értékek:** zionizmus, szocializmus, **világi (szekuláris) humanista zsidóság**, társadalmi felelősség, kritikus gondolkodás és hagshama. Ezek a modulokban folyton visszaköszönnek (pl. identitás, döntések, peulák céljai). **A hagshamát (az eszmék gyakorlatba ültetése, önmegvalósítás a mozgalmi értékek mentén) a programban az M2 modul viszi és operacionalizálja: az M2.3 (Somer 3 pillére) és az M2.B/M2.4 reflexiója a dugma ishit = „az ideáljaim megélése a hétköznapi döntéseimben” kapcsolaton át teszi megfoghatóvá, ahol a résztvevő egy konkrét someres értéket nevez meg, amit abban az évben tudatosan élni szeretne (1 érték-mondat). Ez a választott érték kötődik tovább az M7 Peula v2 SMART céljához (lásd §3.1 M7 portfólió-bemenet), így a hagshama nem absztrakt ígéret marad, hanem személyes praxis-döntéssé válik.** 
 * **Dugma ishit:** a madrich saját döntéseivel tanít; a program végig arra épít, hogy minden módszer mögött **emberi példamutatás** van. 
 * **Gyerekvédelem & inkluzivitás:** a modulok (különösen M3, M6, M7) gyerekvédelmi protokollhoz illeszkedve tanítják a határokat, red flag-eket, safety-szempontokat. 
 
@@ -229,6 +229,8 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 ***
 
 ## 5. Értékelési rendszer és kapuk (mastery logika)
+
+> **Kapu-filozófia – vezérelv (mit kapuz mit).** **A program nonformális, élmény- és részvétel-alapú nevelést hirdet (§2: „nem frontális oktatással”), ezért a kapuk is ehhez igazodnak. Az alapelv: ahol van modulproduktum, ott a produktum rubrikás értékelése az elsődleges éles kapu; a kvíz formatív/diagnosztikus (fejlődést jelez, nem önmagában kapuz). Tisztán kvíz-kapu CSAK ott éles, ahol biztonsági minimum-tudás konvergens (egy-helyes-válaszos) ellenőrzése indokolt – ez gyakorlatilag az M3 gyerekvédelmi reflexei –, és ott is szcenárió-alapú (helyzetből indít, „mit teszel?”), nem definíció-felmondás.** **Ez egységesíti az 5 éles kaput a §2 nonformális elvével, miközben a gyerekbiztonsági és minőségi minimumot megőrzi. A leképezés: M1 (SBI) és M7 (Peula v2) → a produktum rubrikája az éles kapu, a kvíz formatív; M5 (nonformális + tanulástan) és M6 (toolbox & safety) → a produktum (M5.4 táblázat, M6 játéklap) az elsődleges éles kapu, a kvíz formatív/diagnosztikus marad, ha pedig éles, akkor szcenárió-alapú; M3 (gyerekvédelem) → kétkomponensű, a konvergens, szcenárió-alapú biztonsági minimum-kvíz NEM-alkudható kapu marad, mellette a rubrika a transzferálható bizonyíték (lásd a kanonikus küszöb-táblát alább).** *(Forrás-elv: programmatic assessment – a formatív és a szummatív funkció szétválasztása; a someres értékelési eszköztár – produktum, peer/Workshop, reflektív bizonyíték – már létezik a programban, itt csak a kapu elsődleges elemét jelöljük ki.)*
 
 * **Puha kapuk (soft gate):** M0, M2, M4, Z – jelzés a stábnak és a mentornak, ha hiányzik a completion vagy nagyon gyenge a teljesítmény; cél: támogatás, nem kizárás. 
 * **Éles kapuk (hard/mastery):** M1 (SBI), M3 (gyerekvédelem), M5 (nonformális + tanulástan), M6 (toolbox & safety), M7 (Peula v2 + Zmán Kvucá). Itt minőségi és gyerekbiztonsági okból **nem elég a „kb. értem”**. 

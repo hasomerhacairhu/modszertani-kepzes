@@ -165,20 +165,23 @@ A modul végére a madrich…
 
 * **Kaputípus:** éles kapu (mastery gate) – módszerválasztás és játékvezetés közvetlenül érinti a chanichok **biztonságát és inkluzív élményét**. 
 
-### 6.1. Szcenárió-kvíz (Question Set) – **≥80% (12 itemből max. 2 hiba)**
+> **A kapu súlyozása *(2026-os audit-igazítás)*:** a modul nonformális és produktum-alapú, ezért az **éles, blokkoló kapu a játéklap-rubrika (6.2)** – itt a **Biztonság** és **Inkluzivitás** sor a valódi tét. A **szcenárió-kvíz (6.1) formatív/diagnosztikus** előkészítő: felkészít és jelez, de **nem blokkol**. Ez összhangban van az M6.4 Branching divergens logikájával („nincs egyetlen jó megoldás”). A mérvadó kapu-logika a [KAPU-fájlban](./M6%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) él.
+
+### 6.1. Szcenárió-kvíz (Question Set) – *formatív / diagnosztikus, ajánlott ≥80%*
 
 * **Eszköz:** Moodle Quiz vagy H5P Question Set.
+* **Szerep:** **felkészítő önellenőrzés a játéklap előtt** – nem ez az éles kapu, nem buktat.
 * **Tartalom:**
   * rövid helyzetleírások (korosztály + kvuca + cél),
   * többválasztós kérdések:
     * „Melyik eszközt választanád?” (játék / történet / kézműves),
     * „Melyik biztonsági megjegyzés hiányzik?”,
     * „Melyik variáció teszi inkluzívabbá a helyzetet?” 
-* **Követelmény:**
-  * **≥80% eredmény (12 itemből legfeljebb 2 hiba, vagyis 10/12)**, több próbálkozással, **randomizált item-sorrenddel / kicserélhető item-poolból** (hogy a küszöb ne magolással, hanem megértéssel legyen teljesíthető),
-  * ha elsőre nem sikerül: rövid feedback, mely leckét érdemes visszanézni (pl. M6.1: kvucák, M6.3: inkluzivitás). 
+* **Ajánlás (nem blokkoló):**
+  * **≥80% eredmény (12 itemből legfeljebb 2 hiba, vagyis 10/12) önellenőrző célként**, **korlátlan próbálkozással**, **randomizált item-sorrenddel / kicserélhető item-poolból** (hogy a megértésen legyen a hangsúly, ne a magoláson),
+  * ha kevesebb sikerül: rövid feedback, mely leckét érdemes visszanézni (pl. M6.1: kvucák, M6.3: inkluzivitás) **a játéklap leadása előtt** – főleg ha biztonsági/inkluzivitási itemnél hibáztál. 
 
-### 6.2. Játéklap – Workshop + rubrika
+### 6.2. Játéklap – Workshop + rubrika *(ELSŐDLEGES ÉLES KAPU)*
 
 * **Eszköz:** Moodle Workshop vagy Assignment + peer feedback (M6 játéklap feladat). 
 * **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
@@ -202,15 +205,15 @@ A modul végére a madrich…
 * **H5P analitika:**
   * M6.1: mely játéktípusokat jelölik gyakran „rossz kvucára” (tipikus tévedések),
   * M6.3: hányan jelölnek be inkluzivitási kockázatot a kézműveseknél. 
-* **Szcenárió-kvíz eredmények (kapuhoz kötve):**
+* **Szcenárió-kvíz eredmények (formatív/diagnosztikus jelzés):**
   * mely döntési pontoknál hibáznak sokan (pl. túl komplex játék fiatalabb kvucának, inkluzivitás figyelmen kívül hagyása),
-  * ha a résztvevők >30%-a **nem éri el a 80%-ot** 2 próbálkozás után → extra online recap + M6.F ajánlás. 
-* **Játéklap-rubrika:**
+  * ha a résztvevők >30%-a **nem éri el a 80%-ot** pár próbálkozás után → extra online recap + M6.F ajánlás **a játéklap leadása előtt** (felkészítés, nem kapuzás). 
+* **Játéklap-rubrika (éles kapu):**
   * hány játéklap ér el minimum „oké” szintet,
   * külön figyelni a „Biztonság & inkluzivitás” sorra – ha sok a gyenge lap, külön workshop „inkluzív játékok & kézművesek” témában. 
 * **Thresholdok / beavatkozási pontok:**
-  * ha a résztvevők >30%-a nem éri el a mastery-küszöböt a szcenárió-kvízen → célzott támogatás / felzárkóztatás,
-  * ha a játéklapok >25%-ánál gyenge a „Biztonság & inkluzivitás” sor → extra workshop, illetve egyéni mentoros munka a kritikus esetekkel. 
+  * ha a résztvevők >30%-a nem éri el a 80%-ot a **formatív** szcenárió-kvízen → célzott támogatás / felzárkóztatás a játéklap előtt,
+  * ha a játéklapok >25%-ánál gyenge a „Biztonság & inkluzivitás” sor → extra workshop, illetve egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**. 
 
 ***
 

@@ -5,7 +5,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M1.A (hét 1) és M1.B (hét 2), kb. 45–45’
 * **Online terhelés:** kb. 4×10–20 perc mikrolecke (M1.1–M1.4, össz. \~50–70’)
-* **Teljes terhelés:** kb. 2–3 óra (online + offline)
+* **Teljes terhelés:** kb. 2–3 óra (online + offline). **Tervezz inkább a felső értékkel (≈3 óra): a megadott sávok a tényleges idő alsó becslései, és a reflexiós, írásos részek (különösen az M1.4 SBI-beadó + esetleges újrapróbálkozás a kapun) egyénenként hosszabbak lehetnek. Jobb felfelé kerekíteni, mint alá-ígérni – így a modul nem lesz „a vártnál nehezebb”.**
 
 **Modulközponti kérdés**
 
