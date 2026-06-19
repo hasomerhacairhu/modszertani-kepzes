@@ -4,7 +4,7 @@
 
 * **Időtartam:** 1 hét (könnyített zárómodul)
 * **Heti offline:** péntek 2. sáv – **Z.A záró peula** (45–60’)
-* **Opcionális kísérő elem:mentori / kiscsoportos záró beszélgetés** (nem peula, 20–30’) azoknak, akiknek szükségük van rá
+* **Opcionális kísérő elem:** mentori / kiscsoportos záró beszélgetés (nem peula, 20–30’) azoknak, akiknek szükségük van rá
 * **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (H5P jegyzetelő ~15–20’ + Assignment-produktum ~20–30’ + feedback-űrlap ~5–10’ = **Z.4 önmagában kb. 40–60’**, a modul leghosszabb online eleme)
 * **Teljes terhelés:** kb. 2,5–3 óra – **tervezz inkább a felső értékkel (3 óra)**, mert a Z.4 produktum-leadás könnyen csúszik felfelé (kivált videós úton). A Z.4-et nyugodtan **két ülésre is bonthatod** (jegyzetelő külön, végleges reflexió külön).
 

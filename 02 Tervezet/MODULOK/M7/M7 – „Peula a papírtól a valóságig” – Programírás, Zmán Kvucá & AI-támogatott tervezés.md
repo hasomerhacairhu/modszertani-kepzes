@@ -70,7 +70,7 @@ A modul végére a madrich…
 
 ***
 
-### M7.2 – „Peula 11 pontja 2025-ben – ember + AI” (15–20’)
+### M7.2 – „Nem csak játék, hanem peula” – 11 tervezési pont & AI-támogatás (15–20’)
 
 * **Cél:**
   Megismerni a modernizált **Peula 11 pontját**, és látni 1–1 AI-használati példát (ötletelés, kérdés-generálás, nyelvi egyszerűsítés).
@@ -214,7 +214,7 @@ A modul végére a madrich…
      4. Biztonság & gyerekvédelem – átgondolt safety-rész a Zmán Kvucá-checklist alapján.
      5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható chanich-sztorik.
    * **Követelmény:**
-     * min. **70%** összpontszám, vagy minden kritikus rubrika-sorban legalább „alapszint / rendben”.
+     * min. **70%** összpontszám **és** minden kritikus rubrika-sorban legalább „alapszint / rendben” (zárt **ÉS**-logika; a blokkoló safety-sor e nélkül is buktat – a pontos szabály: „M7 – KAPU” §B).
 2. **Moodle Quiz – „SMART & Zmán Kvucá”** **(kötelező 2. rész a kétrészes mastery-kapuban – ≥80%; fogalmi belépő, de a teljesítése is feltétel, mindkét részt teljesítened kell)**
    * **14 item**: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.4 tartalma) **+ gyerekvédelmi alaplépés (red flag, Q13–Q14 – a blokkoló R4-sor tudásalapja)** (a részletes item-bank: „M7 – KAPU” §A).
    * **Követelmény:** **≥80% (14 itemből ≥12 jó)** **és a gyerekvédelmi Q13 helyes** (a blokkoló konstruktum külön kötelező), **2–3 próbálkozás** engedélyezve, kérdés- és válasz-randomizálással.

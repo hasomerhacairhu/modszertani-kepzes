@@ -92,8 +92,8 @@ A félév **ív-szerűen** építkezik:
 | M2    | **„Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit**                 | madrich-identitás térképe; személyes + someres értékek; dugma ishit és határok tudatosítása                  | 1 oldalas madrich identitás-jegyzet + 1 érték-mondat         | puha: completion + checklist                   |
 | M3    | **„Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok & gyerekvédelem**      | Tuckman-szakaszok felismerése; 4 someres kvuca-profil; gyerekvédelmi red flag-ek és első lépések madrichként | korosztály-mátrix + 1 red flag szituáció + első lépés leírás | **ÉLES:** szcenárió-kvíz (≥80%)                |
 | M4    | **„Hallható és érthető vagyok?” – Kiállás, kapcsolódás & kérdezéstechnika**            | metakommunikációs alapok; aktív hallgatás; kérdezési technikák; rövid peula-pitch kvucára szabva             | 45 mp-es peula-pitch váz egy választott kvucára              | puha mini-quiz                                 |
-| M5    | **„Ez most játék vagy tanulás?” – Nonformális nevelés, módszerválasztás & tanulástan** | formális–nonformális–informális megkülönböztetése; feladat→cél→kvuca→módszer gondolkodás; alap tanulástan    | „Feladat–kvuca–módszer + tanulástan” táblázat                | **ÉLES:** fogalom-kvíz (≥80%)                  |
-| M6    | **„Toolbox: játék, történet, kézműves & inkluzivitás”**                                | konkrét játékok/történetek/ kézművesek illesztése kvucára; biztonság, inkluzivitás, trigger-érzékenység      | 1 részletes játéklap (cél, kvuca, leírás, bizt., inkluzió)   | **ÉLES:** szcenárió-kvíz (≥80%) + játéklap-rubrika |
+| M5    | **„Ez most játék vagy tanulás?” – Nonformális nevelés, módszerválasztás & tanulástan** | formális–nonformális–informális megkülönböztetése; feladat→cél→kvuca→módszer gondolkodás; alap tanulástan    | „Feladat–kvuca–módszer + tanulástan” táblázat                | **ÉLES:** produktum-rubrika (M5.4 táblázat) – a fogalom-kvíz formatív/diagnosztikus (≥80% jelzőküszöb, nem kapuz) |
+| M6    | **„Toolbox: játék, történet, kézműves & inkluzivitás”**                                | konkrét játékok/történetek/ kézművesek illesztése kvucára; biztonság, inkluzivitás, trigger-érzékenység      | 1 részletes játéklap (cél, kvuca, leírás, bizt., inkluzió)   | **ÉLES:** játéklap-rubrika (R4 Biztonság & R5 Inkluzivitás hard-gate) – a szcenárió-kvíz formatív/diagnosztikus (≥80% ajánlott, nem kapuz) |
 | M7    | **„Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés**  | SMART nevelési cél; Peula 11 pontja; Zmán Kvucá-checklist; AI-etikus felhasználása a peula-tervezésben       | 1 db Peula v2 + 1 db Zmán Kvucá-checklist **(félév-szintézis: a korábbi produktumokra épít – M1 SBI, M2 identitás/érték, M3 safety + kvuca-profil, M5 módszer-logika, M6 játéklap)** | **FÉLÉVZÁRÓ, ÉLES:** Peula-rubrika (≥70% = ≥17/24, R4 blokkoló) + checklist + kvíz (≥80%) |
 | Z     | **Zárás & híd a terepre**                                                              | saját tanulási ív reflektálása; erőforrások és nehézségek megnevezése; konkrét következő lépés kijelölése    | rövid reflektív írás vagy videó + „next step”                | nincs éles kapu, completion alapú              |
 
@@ -107,7 +107,7 @@ Minden modulnál:
 
 #### M0 – Kickoff, keret, technika
 
-A M0 modulban a résztvevő **belép a képzés világába**. A modul végére mérhetően: **felsorolja az éves ív (M0–M7 + Z) főbb állomásait, megnevezi az alap elvárásokat, és megmutatja, hol használja a Moodle-t, a H5P-t és az alap kommunikációs csatornákat.** A fókusz az, hogy **biztonságos keretbe** érkezzen – **megfogalmazza, mit ígér a program, megkülönbözteti, mit várnak tőle madrichként és mit nem (pl. nem terapeuta), és példát hoz arra, hogyan jelenik meg a Dugma Ishit az online térben** is. A végére minden résztvevő **elvégez egy egyszerű online feladatot, és megírja a bemutatkozó posztját** a közösségnek.
+A M0 modulban a résztvevő **belép a képzés világába**. A modul végére mérhetően: **felsorolja az éves ív (M0–M7 + Z) főbb állomásait, megnevezi az alap elvárásokat, és megmutatja, hol használja a Moodle-t, a H5P-t és az alap kommunikációs csatornákat.** A fókusz az, hogy **biztonságos keretbe** érkezzen – **megfogalmazza, mit ígér a program, megkülönbözteti, mit várnak tőle madrichként és mit nem (pl. nem terapeuta), és példát hoz arra, hogyan jelenik meg a dugma ishit az online térben** is. A végére minden résztvevő **elvégez egy egyszerű online feladatot, és megírja a bemutatkozó posztját** a közösségnek.
 
 * **Online:** M0.1–M0.4 – útiterv & motiváció; szerepek és elvárások; „Hogyan működik a Moodle / H5P / gate?”; Dugma Ishit az online térben. 
 * **Ha elakadsz (technikai + tanulási support):** **az M0.1–M0.4 online leckék introjába kerül egy rövid support-utalás – „Ha valami technikailag nem megy (nem indul a H5P, nem tölt fel a fotó/fájl, nem látod a következő leckét), írj a [kurzus technikai segítségébe / Moodle support] csatornára, vagy gyere az M0 technikai helpdeskre; ha a tartalom akad meg (nem érted a feladatot vagy a bemutatkozó poszt kérdéseit), fordulj a mentorodhoz, vagy hozd be élőben az M0.A Kickoff-peulára.”** **Így már a belépő M0-modulban is tudja a tanuló, kihez forduljon online elakadásnál – nem csak a heti, offline helpdesken.** *(Forrás: [QM Higher Ed Rubric – Standard 7: Learner Support](https://www.qualitymatters.org/qa-resources/rubric-standards/higher-ed-rubric) – a kurzus világosan közli a technikai és tanulási támogatás elérhetőségét; [OSCQR – Standard 5 / 11–13](https://oscqr.suny.edu/) – elérhető technikai és akadémiai support-utalás.)* 
@@ -163,7 +163,7 @@ Az M5 modul segít a madrichnak **„belenézni” a peulák belsejébe**: mitő
 
 * **Online:** M5.1–M5.4 – tanulási formák; feladat→cél→kvuca→módszer döntési fa; tanulástan-kapszula; saját táblázat összeállítása. 
 * **Offline:** M5.A – peulák elemzése: „Ez most játék, suli, Somer?”; M5.B – saját ötletek cél–kvuca–módszer bontásban. 
-* **Produktum & kapu:** 3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázat; **éles kapu**: fogalom-quiz (min. 80%). 
+* **Produktum & kapu:** 3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázat; **éles kapu az M5.4 produktum-rubrika** (minden sor ≥ „Alapszint”, R4 tanulástan-elem kritikus); a **fogalom-quiz formatív/diagnosztikus** (≥80% jelzőküszöb, nem kizáró – lásd §5 és [M5 – KAPU]). 
 
 ***
 
@@ -173,7 +173,7 @@ Az M6 modul a **konkrét eszköztár bővítésére** szolgál: a madrich külö
 
 * **Online:** M6.1–M6.4 – játék-kategóriák kvucákra; történet mint tükör; „kézműves, ami tanít is”; döntési szcenáriók módszerválasztásra. 
 * **Offline:** M6.A – játékok kipróbálása, adaptálása; M6.B – játéklap-ötletek peer feedbackkel, SBI-nyelven. 
-* **Produktum & kapu:** 1 részletes játéklap; **éles kapu**: szcenárió-kvíz (≥80%) + játéklap Workshop-rubrika alapján min. „oké”. 
+* **Produktum & kapu:** 1 részletes játéklap; **éles kapu a játéklap Workshop-rubrika** (minden sor min. „oké” (2), az R4 Biztonság és R5 Inkluzivitás sor hard-gate); a **szcenárió-kvíz formatív/diagnosztikus** előkészítő (≥80% ajánlott, nem blokkol – lásd §5 és [M6 – KAPU]). 
 
 ***
 
@@ -183,7 +183,7 @@ Az M7 modul az eddigiek **összerendezése egy valós peula-tervben**. A madrich
 
 * **Online:** M7.1–M7.4 – SMART cél; Peula 11 pontja 2025-ben; Zmán Kvucá; Peula v2 + AI modulproduktum-váz. 
 * **Offline:** M7.A – SMART cél és 11 pont „élőben”; M7.B – Zmán Kvucá-szimulációk, peula-klinika; opcionális M7.F Study Lab pótlásra. 
-* **Produktum & kapu:** Peula v2 + Zmán Kvucá-checklist; **félévzáró, éles kapu**: rubrikás Assignment (min. 70% vagy minden kritikus sor „rendben”) + SMART & Zmán Kvucá quiz (min. 80%). 
+* **Produktum & kapu:** Peula v2 + Zmán Kvucá-checklist; **félévzáró, éles kapu**: rubrikás Assignment **(összpont ≥17/24 = ≥70% ÉS a blokkoló sorok teljesülnek – a kanonikus küszöböt lásd §5 és [M7 – KAPU])** + SMART & Zmán Kvucá quiz (min. 80%). 
 
 ***
 
@@ -230,12 +230,12 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 
 ## 5. Értékelési rendszer és kapuk (mastery logika)
 
-> **Kapu-filozófia – vezérelv (mit kapuz mit).** **A program nonformális, élmény- és részvétel-alapú nevelést hirdet (§2: „nem frontális oktatással”), ezért a kapuk is ehhez igazodnak. Az alapelv: ahol van modulproduktum, ott a produktum rubrikás értékelése az elsődleges éles kapu; a kvíz formatív/diagnosztikus (fejlődést jelez, nem önmagában kapuz). Tisztán kvíz-kapu CSAK ott éles, ahol biztonsági minimum-tudás konvergens (egy-helyes-válaszos) ellenőrzése indokolt – ez gyakorlatilag az M3 gyerekvédelmi reflexei –, és ott is szcenárió-alapú (helyzetből indít, „mit teszel?”), nem definíció-felmondás.** **Ez egységesíti az 5 éles kaput a §2 nonformális elvével, miközben a gyerekbiztonsági és minőségi minimumot megőrzi. A leképezés: M1 (SBI) és M7 (Peula v2) → a produktum rubrikája az éles kapu, a kvíz formatív; M5 (nonformális + tanulástan) és M6 (toolbox & safety) → a produktum (M5.4 táblázat, M6 játéklap) az elsődleges éles kapu, a kvíz formatív/diagnosztikus marad, ha pedig éles, akkor szcenárió-alapú; M3 (gyerekvédelem) → kétkomponensű, a konvergens, szcenárió-alapú biztonsági minimum-kvíz NEM-alkudható kapu marad, mellette a rubrika a transzferálható bizonyíték (lásd a kanonikus küszöb-táblát alább).** *(Forrás-elv: programmatic assessment – a formatív és a szummatív funkció szétválasztása; a someres értékelési eszköztár – produktum, peer/Workshop, reflektív bizonyíték – már létezik a programban, itt csak a kapu elsődleges elemét jelöljük ki.)*
+> **Kapu-filozófia – vezérelv (mit kapuz mit).** **A program nonformális, élmény- és részvétel-alapú nevelést hirdet (§2: „nem frontális oktatással”), ezért a kapuk is ehhez igazodnak. Az alapelv: ahol van modulproduktum, ott a produktum rubrikás értékelése az elsődleges éles kapu; a kvíz formatív/diagnosztikus (fejlődést jelez, nem önmagában kapuz). Tisztán kvíz-kapu CSAK ott éles, ahol biztonsági minimum-tudás konvergens (egy-helyes-válaszos) ellenőrzése indokolt – ez gyakorlatilag az M3 gyerekvédelmi reflexei –, és ott is szcenárió-alapú (helyzetből indít, „mit teszel?”), nem definíció-felmondás.** **Ez egységesíti az 5 éles kaput a §2 nonformális elvével, miközben a gyerekbiztonsági és minőségi minimumot megőrzi. A leképezés: M1 (SBI) → a produktum rubrikája az éles kapu, a kvíz formatív (nem kapuz); M7 (Peula v2) → a produktum rubrikája a kapu gerince (domináns súly), mellette a kvíz „fogalmi belépő” küszöbbel (≥12/14 ÉS a gyerekvédelmi Q13 kötelezően helyes – lásd [M7 – KAPU]); M5 (nonformális + tanulástan) és M6 (toolbox & safety) → a produktum (M5.4 táblázat, M6 játéklap) az elsődleges éles kapu, a kvíz formatív/diagnosztikus marad, ha pedig éles, akkor szcenárió-alapú; M3 (gyerekvédelem) → kétkomponensű, a konvergens, szcenárió-alapú biztonsági minimum-kvíz NEM-alkudható kapu marad, mellette a rubrika a transzferálható bizonyíték (lásd a kanonikus küszöb-táblát alább).** *(Forrás-elv: programmatic assessment – a formatív és a szummatív funkció szétválasztása; a someres értékelési eszköztár – produktum, peer/Workshop, reflektív bizonyíték – már létezik a programban, itt csak a kapu elsődleges elemét jelöljük ki.)*
 
 * **Puha kapuk (soft gate):** M0, M2, M4, Z – jelzés a stábnak és a mentornak, ha hiányzik a completion vagy nagyon gyenge a teljesítmény; cél: támogatás, nem kizárás. 
 * **Éles kapuk (hard/mastery):** M1 (SBI), M3 (gyerekvédelem), M5 (nonformális + tanulástan), M6 (toolbox & safety), M7 (Peula v2 + Zmán Kvucá). Itt minőségi és gyerekbiztonsági okból **nem elég a „kb. értem”**. 
 * **Küszöbök (általános elv):**
-  * Quiz: általában **≥80%** (a 12 itemes kapuknál ez **≥10/12**), 2–3 próbálkozással.
+  * Quiz: általában **≥80%** (a 12 itemes kapuknál ez **≥10/12**, az M7 14 itemes kapujánál **≥12/14**), 2–3 próbálkozással.
   * Rubrikás Assignment: az adott modul **kanonikus küszöbe** szerint – pontszám **és/vagy** kötelező kritikus sorok (a pontos szabály a modul KAPU-fájljában). **A „min. 70%” NEM uniform: modulonként eltér, és több éles kapunál nem pontszám, hanem soronkénti minimum + blokkoló sorok döntenek.**
 
 * **Kanonikus küszöb-tábla modulonként** (a forrás mindig a modul KAPU-fájlja):
@@ -246,7 +246,7 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 | **M3 – gyerekvédelem** | **Kvíz ≥10/12 (≥80%) + kötelező kritikus itemek (2,4,7,9)**; Assignment: minden sor ≥1, **R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) blokkoló**. | [M3 – KAPU](./MODULOK/M3/M3%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
 | **M5 – nonformális + tanulástan** | **Kvíz ≥10/12 (≥80%)** + az M5.4 táblázat minden rubrikasora ≥ „Alapszint”, **R4 (tanulástan-elem valódisága) kritikus**. | [M5 – KAPU](./MODULOK/M5/M5%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
 | **M6 – toolbox & safety** | **Kvíz ≥10/12 (≥80%)** + játéklap minden sora ≥2 („Oké”), **R4 (Biztonság) és R5 (Inkluzivitás) hard-gate**. | [M6 – KAPU](./MODULOK/M6/M6%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
-| **M7 – Peula v2 (félévzáró)** | **Peula v2: összpont ≥17/24 (≥70%) ÉS R1/R5/R6 ≥2 ÉS R4 ≥2 (blokkoló)** + **kvíz ≥10/12 (≥80%)**. A végleges leadás a félév végén, mentor/képző zárja; a Z **nem helyettesíti**. | [M7 – KAPU](./MODULOK/M7/M7%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
+| **M7 – Peula v2 (félévzáró)** | **Peula v2: összpont ≥17/24 (≥70%) ÉS R1/R5/R6 ≥2 ÉS R4 ≥2 (blokkoló)** + **kvíz ≥12/14 (≥80%) ÉS a gyerekvédelmi Q13 kötelezően helyes**. A végleges leadás a félév végén, mentor/képző zárja; a Z **nem helyettesíti**. | [M7 – KAPU](./MODULOK/M7/M7%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
 
 **Nem teljesítés kezelése:**
 

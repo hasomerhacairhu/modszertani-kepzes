@@ -25,7 +25,7 @@ A modul végére a résztvevő…
    * Rövid kvuca-sztorik alapján be tudja azonosítani a Tuckman-szakaszt (forming–storming–norming–performing) **(M3.1, M3.A)**.
    * Megérti, hogy a **storming nem „hiba”**, hanem a fejlődés része.
 2. **Korosztályi profilok – 4 kvuca, 4 világ**
-   * 1–1 mondatos „miniprofilt” tud mondani a 4 kvucáról: **Parparim, Kivsza, Leviatan, Zorea(M3.2)**.
+   * 1–1 mondatos „miniprofilt” tud mondani a 4 kvucáról: **Parparim, Kivsza, Leviatan, Zorea** **(M3.2)**.
    * Meg tud nevezni kvucánként legalább 2 tényezőt: figyelem & energia, tipikus motivációk, tipikus helyzetek.
 3. **Gyerekvédelem & red flag-ek**
    * Érti, mi a gyerekvédelem lényege: **észrevenni és jelezni**, nem egyedül „megoldani” **(M3.3)**.
@@ -143,7 +143,7 @@ A modul végére a résztvevő…
 
 ### Peula A (M3.A) – „Találd ki, hol tart a kvuca!” – Történetek Tuckman szemüvegén át (45’)
 
-* **Kapcsolódó online leckék:M3.1, M3.2**
+* **Kapcsolódó online leckék:** M3.1, M3.2
 * **Célok:**
   * A Tuckman-szakaszok és a kvuca-profilok élményes, közös átélése.
   * Az online leckék (M3.1–M3.2) tartalmának „testbe hozása” kvuca-szinten.
@@ -162,7 +162,7 @@ A modul végére a résztvevő…
 
 ### Peula B (M3.B) – „Red flag vagy nem?” – Miniszínház & lépés-térkép (45’)
 
-* **Kapcsolódó online leckék:M3.3, M3.4**
+* **Kapcsolódó online leckék:** M3.3, M3.4
 * **Célok:**
   * Red flag helyzetek felismerése **élő, eljátszott** szituációkban.
   * A felelős első lépés gyakorlása: mit mond a madrich, mit nem ígér, kit von be.
@@ -219,6 +219,8 @@ A modul végére a résztvevő…
 * **Kapu-jelzés & támogatás:**
   * Több próbálkozás engedélyezett (mastery logika).
   * Ha valaki 2 próbálkozás után sem éri el a 80%-ot → mentor értesítése, rövid egyéni beszélgetés (támogatás, nem büntetés).
+
+> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyerekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **4 someres kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea) lesz az M7 záró produktumának safety- és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyerekvédelem & safety, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §CAPSTONE).
 
 ***
 
