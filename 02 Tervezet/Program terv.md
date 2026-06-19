@@ -14,6 +14,8 @@ Az első félév egy **moduláris, blended madrichképzés**: online mikrolecké
 
 A program a Hasomer Hacair ifjúsági mozgalom **ideológiai (három pillér, társadalmi felelősség, hagshama)** és **pedagógiai (kvuca, dugma ishit, nonformális nevelés)** keretére épül, ugyanakkor adaptálható más youth work szervezetekre is.
 
+> **Fogalmak első előfordulásukkor:** **kvuca** = a someres nevelés alapegysége, az azonos korosztályú chanichok (neveltek) állandó kiscsoportja, amelyet a madrich vezet; **dugma ishit** = „személyes példamutatás”, vagyis a madrich a saját döntéseivel és viselkedésével nevel, nem csak szavakkal; **hagshama** = az eszmék gyakorlatba ültetése, önmegvalósítás a mozgalmi értékek mentén; **tikkun olam** = „a világ javítása”, a társadalmi felelősségvállalás zsidó alapfogalma (egységes átírás végig két *k*-val).
+
 ### Mit tud a madrich a félév végére?
 
 A félév végére a résztvevő:
@@ -197,6 +199,7 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 
 * **Kurzus-struktúra:** egy Moodle-kurzus, Topics: M0–M7 + Z; minden modulon belül: „Online mikroleckék”, „Peulák”, „Modul-kapu”, „Extra / Study Lab”. 
 * **H5P szerepe:** minden mikrolecke **Hook–Input–Activity–Check** logikára épül, H5P-vel támogatva (Course Presentation, Interactive Video, Branching Scenario, Question Set stb.). 
+* **AI-provenance (átláthatóság):** **ahol a videós/grafikai tartalom (pl. beszélő fej videók, diagram-animációk, B-roll) részben vagy egészben generatív AI-eszközzel készül, ott ember által olvasható jelölést teszünk ki a tanuló felé** – pl. a lecke alján egy rövid sor: **„A videók egy része AI-eszközzel készült, emberi lektorálással.”** **Ez nem csak a videós médiára vonatkozik: ugyanígy jelölendő minden generatív AI-val készült narrációs szöveg, példa és kvíz-/H5P-item (kérdés, distraktor) is** – **konkrétan az „AI beszélő fej videó” diák (pl. M6.1 és M6.2 1. dia), az ezekhez tartozó narrációs szövegek és a generált kvíz-itemek.** **Fejlesztői checklist:** **(1) jelöld meg minden AI-val generált médiaelemnél, narrációnál és kvíz-itemnél a provenance-t; (2) minden AI-elem átment emberi szakmai lektoráláson (human-in-the-loop) – a kvíz-kulcsok, a gyerekvédelmi és someres tartalom emberi jóváhagyással véglegesül; (3) ahol 100% emberi a tartalom, az is jelölhető.** **A 15+ gyerekvédelmi kontextus miatt ez a provenance-jelölés alapelv, nem opció.** *(Forrás: [UNESCO – Recommendation on the Ethics of Artificial Intelligence](https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence) – az AI-használat elismerése és a generálási folyamat átláthatósága.)* 
 * **Moodle aktivitások:**
   * **Quiz:** főleg fogalom- és szcenárió-kapuk (M1, M3, M5, M6, M7). 
   * **Assignment:** SBI szöveg, identitás-jegyzet, pitch-váz, táblázat, játéklap, Peula v2 + Zmán Kvucá. 

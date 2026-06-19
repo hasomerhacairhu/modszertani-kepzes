@@ -104,5 +104,146 @@ egyenetlenül alkalmazva. Lásd SOMERES-FIDELITY 🟢 „elv-vs-gyakorlat" meger
 
 ---
 
+## Deep-audit kör 1
+
+> A deep-audit 1. körének **döntést igénylő** (review-eszkalációs) találatai. Az ügynök
+> ezeket **nem zárta le** és **nem módosított tananyag-forrásfájlt** — mozgalmi (someres)
+> szakértői, pedagógiai stáb- vagy jogi/szervezeti döntésre várnak. Tételenként:
+> dimenzió · fájl/hely · probléma · javaslat · forrás.
+
+### DA1.1 — D6.1 (Kolb-ciklus teljessége, belépő-peula)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M0/M0_PEULA/M0.A – „Kickoff & ismerkedés + közös keret".md` — 3. percbontás (72–85.); 4.2 plakát-aktivitás (124–164.); 4.4 zárókör (234–250.)
+- **Probléma:** A Kolb-ciklus a peulában nem teljes körű, de ez a kickoff jellegéből részben adódik. Van konkrét tapasztalat (ismerkedő játék, plakát-készítés) és reflexió/debrief (plenáris körbenézés, zárókör, exit ticket), de a fogalmi általánosítás és a transzfer/új-helyzetbeli kipróbálás kevéssé explicit — a peula inkább ráhangoló/keretező, mint élmény-feldolgozó ciklus. A fájl 4.5 jegyzete maga is jelzi: „inkább hangolás, mint mély tartalom". Mivel D6.1 review-igényes és kötelező someres eszkaláció, az ügynök nem zárja le.
+- **Javaslat:** Someres review döntse el, hogy a belépő-peulánál elvárás-e a teljes Kolb-ív, vagy a keretező funkció elfogadható. Kolb-fázis kiegészítés legfeljebb javasolható, nem auto.
+- **Forrás:** —
+
+### DA1.2 — D6.3 (megfigyelés vs. értelmezés/címkézés, M0)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M0/M0_ONLINE_LECKE/M0.2 – „Madrich, nem terapeuta" – szerepek és elvárások.md` — SLIDE 3 3. kérdés (144.) „beszélgetek vele"; M0.A 4.2 „Mitől félek?" oszlop; nincs SBI/Johari M0-ban (az M1-re tartozik)
+- **Probléma:** A megfigyelés vs. értelmezés/címkézés szétválasztása M0-ban még nem fő téma (az SBI/Johari az M1-é), ezért nagyrészt N/A. Ahol mégis releváns: a M0.2 SLIDE 3 „visszahúzódó" szcenárió leíró (megfigyelhető), nem címkéz — ez jó. A „beszélgetek vele" viszont enyhén interpretáció felé tol (lásd D3.2). A modul nem sért alapvető megfigyelés-elvet, de a someres review hatáskörébe tartozik a D6.3 lezárása.
+- **Javaslat:** Someres review erősítse meg, hogy az M0 nem visz be korai címkéző mintát; a „beszélgetek vele" finomítása a fix-ágon kezelhető.
+- **Forrás:** —
+
+### DA1.3 — D6 / D6.1 (Kolb-ciklus az online mikroleckékben, M1.1)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M1/M1_ONLINE_LECKE/M1.1 – Johari-ablak – vakfoltjaim felismerése.md` — teljes online lecke-flow (Hook→Input→Activity→Check)
+- **Probléma:** D6.1: az online mikroleckék Kolb-szempontból csonkák — erős a konkrét tapasztalat/fogalmi input, de a négyfázisú ciklus (strukturált debrief + transzfer) az online részben nem teljes; ez önmagában a peulákban (M1.A/M1.B teljes Kolb) realizálódik. Modul-szinten a Kolb-ciklus a peulákkal együtt áll össze — review-igényes, hogy ez elfogadható-e az online szegmensre külön.
+- **Javaslat:** Someres/nonformális szakértő döntsön, hogy az online mikrolecke-szinten elvárt-e a teljes Kolb-ciklus, vagy elég a modul-szintű (online+peula) teljesség. Az ügynök nem zárja le (D6.1 eszkalációs tétel).
+- **Forrás:** —
+
+### DA1.4 — D8 (adatminimalizálás + különleges adat, reflektív napló)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M2/M2_ONLINE_LECKE/M2.4 – Reflektív napló & határok_ „A dugma ishit nem terapeuta".md` — SLIDE 5 (3 oszlopos lista: „mentális egészség", „családi veszekedés" kulcsszavakkal); SLIDE 4, 6 napló-mezők
+- **Probléma:** D8.1/D8.4 adatminimalizálás és tárolási korlát sérülhet: a reflektív napló kifejezetten érzékeny személyes adatot kér (mentális egészség, családi konfliktus, identitás), és a SLIDE 5 példakulcsszavai között szerepel „mentális egészség". Nincs jelölve megőrzési idő, törlési folyamat, sem hogy a kapuhoz/mastery-hez ténylegesen szükséges-e ennek tárolása. A „csak a mentor látja" megjegyzés jelen van (jó), de adatkezelési keret nélkül.
+- **Javaslat:** Adatminimalizálási flag + megőrzési/törlési megjegyzés sablon javasolható (auto-fixálható szövegként), de a tényleges megőrzési idő és a különleges adat (egészségügyi) kezelése JOGI DÖNTÉS → review. Megfontolandó: a SLIDE 5 ne nevesítsen „mentális egészség" szintű kategóriát kötelezően.
+- **Forrás:** —
+
+### DA1.5 — D8 (gyermek-hozzájárulás & korhatár, GDPR Art.8)
+- **Fájl/hely:** `program` — M2.1 (fotófeltöltés identitás-térkép), M2.2/M2.3/M2.4 napló-mezők, KAPU (identitás-jegyzet feltöltés); célcsoport 15+/16+
+- **Probléma:** D8.2 gyermek-hozzájárulás & korhatár nincs kezelve. A modul 15+ (online) / 16+ (peula) célcsoportra megy, ami átlépi a GDPR Art.8 16 éves vonalat: 16 alatt szülői/gondviselői hozzájárulás kellene a reflexiós/napló/fotó-adatokra. Egyetlen M2-fájl sem jelzi a korhatárt vagy a szülői megerősítés szükségességét. M2.1 ráadásul azonosítható fotó (kézírásos identitás-térkép) feltöltését kéri.
+- **Javaslat:** DÖNTÉS kell a korhatár-kezelésről és a 16 alatti szülői hozzájárulásról program-szinten; a modulfájlokban legalább utalás/flag szükséges. Plain-language tájékoztató sablon auto-javasolható.
+- **Forrás:** —
+
+### DA1.6 — D6.1 (Kolb-ciklus — strukturált debrief hiánya, M2.B)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M2/M2_PEULA/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md` — 4.§ blokkok: Érték-szigetek (5-20'), Pillér-sztori műhely (20-35'), Reflexió (35-45')
+- **Probléma:** D6.1 Kolb-ciklus teljessége: M2.B-ben a konkrét tapasztalat (szigetek/storyboard), a fogalmi összekötés (pillérek) és a transzfer (commit-mondat) jelen van, de a strukturált DEBRIEF/reflexió a játékok után rövid (a mini-összegzéseket a képző mondja, nem a résztvevők dolgozzák fel kérdésekkel). M2.A ezzel szemben erős reflexiós kört tartalmaz. A 4. fázis (új helyzetben kipróbálás) inkább a commit-mondat ígérete, nem gyakorlás.
+- **Javaslat:** DÖNTÉS/szakértői someres review: a Pillér-sztori műhely után egy rövid, résztvevői debrief-kérdéssor beépítése javasolható (Kolb-fázis kiegészítés). Nem auto-fixálható, mert tevékenység-redesign.
+- **Forrás:** —
+
+### DA1.7 — D6.6 (ideológiai pillérek mélysége, zionizmus-keretezés)
+- **Fájl/hely:** `program` — M2.3 SLIDE 2 (pillérek tartalma), M2 modul-áttekintő 2.§ kompetencia 3, KAPU Item 4/10 ideológiai keretezés
+- **Probléma:** D6.6 emberi jogi / mozgalmi érték-dimenzió: az ideológiai pillérek (zionizmus mint „kritikus kapcsolat Izraellel + béke + emberi méltóság", szocializmus mint egyenlőség, humanista zsidóság mint nyitottság) tevékenységbe ágyazottak, nem moralizáló záróblokk — ez jó. AZONBAN a zionizmus pillér tartalmi keretezése („kapcsolat Izraellel, kritikus gondolkodás, békére törekvés") mozgalmi-ideológiai DÖNTÉST hordoz, amelynek hitelességét és mélységét someres szakértőnek kell jóváhagynia (a rubrika nem zárhatja le).
+- **Javaslat:** Szakértői (someres) review a 3 pillér ideológiai mélységéről és a zionizmus-keretezés hitelességéről. A tárgyi keret a hivatalos HH-ideológiával egyezik (ld. források), de a mélység/hangsúly mozgalmi döntés.
+- **Forrás:** https://www.hhnabogrim.com/three-pillars-of-hashomer-hatzair.html · https://www.hashyaus.org/ideology
+
+### DA1.8 — D6.6 (mozgalmi érték-dimenzió beágyazottsága, M3)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M3/M3 – „Kvuca, red flag, felelősség" – Csoportdinamika, korosztályok és gyerekvédelem .md` — egész modul, mozgalmi érték-dimenzió
+- **Probléma:** D6.6 (emberi jogi / mozgalmi érték-dimenzió beágyazva): a modul erősen safeguarding-fókuszú, de a someres/mozgalmi értékdimenzió (mlachomut, szolidaritás, méltóság, egyenlőség) alig jelenik meg explicit reflexióként — a „dugma ishit" fogalom (M3.4) és a „someres kvuca" keret jelen van, de az értékek inkább kontextusként, nem reflektált tanulási dimenzióként. Ez ideológiai-mélység döntés.
+- **Javaslat:** Someres szakértői review: kell-e a red flag/határtartás témát erősebben mozgalmi érték-kerethez (méltóság, felelősség egymásért) kötni a reflexióban, vagy a jelenlegi beágyazottság elég. Nem auto-javítható.
+- **Forrás:** —
+
+### DA1.9 — D6.1 (Kolb-ciklus — fogalmi általánosítás gyenge, M4.A)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M4/M4_PEULA/M4.A – „Állj oda!" – Kiállás & jelenlét a térben.md` — Blokk 2–5 (101–248. sor), egész peula-szerkezet
+- **Probléma:** Kolb-ciklus (D6.1) teljessége review-igényes: a konkrét tapasztalat (szobrok, mini színpad, triádok) és a reflexió/debrief erős, de a (3) fogalmi összekötés/általánosítás fázis gyenge – a peula nem köti vissza explicit az online M4.1 fogalmi keretéhez (testtartás-tekintet-térfoglalás mint modell), inkább élmény + személyes fókusz marad. A (4) transzfer csak „fókuszmondat" szinten jelenik meg.
+- **Javaslat:** SOMERES/pedagógiai review: erősítendő-e a 3. Kolb-fázis (rövid közös fogalmi általánosítás: „mit mond ez az M4.1 három jeléről?") a peula közepén/végén. Az ügynök nem zárja le.
+- **Forrás:** https://www.devlinpeck.com/content/kirkpatrick-model-evaluation
+
+### DA1.10 — D6.6 (mozgalmi érték-dimenzió a készség-fókuszú M4-ben)
+- **Fájl/hely:** `program` — M4 modul egésze
+- **Probléma:** Emberi jogi / mozgalmi érték-dimenzió (D6.6) gyengén jelenik meg: a modul erősen készség-fókuszú (kiállás, kérdezés, pitch), de a someres/mozgalmi értékkeret (méltóság, egyenlőség, szolidaritás, a hallgatás mint érték) nincs beágyazva a reflexiókba; a „madrich nem terapeuta" szereptisztázás jelen van (M4.2), de érték-dimenzióra a reflexió nem kérdez rá.
+- **Javaslat:** SOMERES review: kell-e a modulba értékdimenzió-beágyazás (pl. „a meghallgatás mint méltóság-gyakorlat" / „kinek nem adunk hangot, ha csak zárt kérdéseket teszünk fel"). Az ügynök nem dönt.
+- **Forrás:** https://www.coe.int/en/web/youth
+
+### DA1.11 — D3.8 (kapu-politika ütközés, M5 KAPU)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M5/M5 – KAPU – értékelő (item-bank + rubrika).md` — modul-szintű pass-szabály (16. sor)
+- **Probléma:** A KAPU két, egymást kizáró kapu-politikát kínál föl („kompozit: kvíz ÉS táblázat ≥Alapszint" VAGY „a táblázat formatív marad"), de a döntést a szervezetre bízza. Amíg nincs eldöntve, a 4. kimeneti kompetencia (produktum) kapuzottsága bizonytalan — a modul-áttekintő §6 csak a kvízt nevezi kapunak, ami ellentmondhat a kompozit ajánlásnak.
+- **Javaslat:** Szervezeti döntés szükséges: kapuzott-e az M5.4 táblázat. A döntés után az M5 §6 és a KAPU §0 összehangolása. Cut-score/kapu-politika → review.
+- **Forrás:** —
+
+### DA1.12 — D6.6 (érték-/mozgalmi mélység módszertani modulnál, M5)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M5/M5 – „Ez most játék vagy tanulás_" – Nonformális nevelés, módszerválasztás & tanulástan.md` — program-szint: a modul érték-/mozgalmi dimenziója
+- **Probléma:** A modul módszertani-pedagógiai fókuszú (mi a nonformális nevelés, módszerválasztás, tanulástan). A mozgalmi érték-dimenzió (szolidaritás, méltóság, hasomeri ideológia) csak példa-szinten jelenik meg (szolidaritás mint peula-téma), nem mint a modul saját ideológiai mélysége. Kérdés, elég-e ez a someres hitelesség szempontjából egy módszertani modulnál — ez ideológiai mélység-döntés, az ügynök nem zárja le.
+- **Javaslat:** Someres/szakértői review: elegendő-e az M5 módszertani fókusza, vagy be kell-e emelni mélyebb mozgalmi értékkeretet a módszerválasztásba (learning about/through/for).
+- **Forrás:** —
+
+### DA1.13 — D8 (adatvédelmi tájékoztató + tárolási korlát, M6 analytics)
+- **Fájl/hely:** `program` — M6.1–M6.4 reflexiós/kvíz-indító pontok; M6 – modul-leírás 7. szakasz (learning analytics) és KAPU-fájl (D) stáb-jelzések
+- **Probléma:** Nincs informált, gyermek-nyelvű adatvédelmi tájékoztató a naplót/kvízt indító ponton (D8.3): milyen adat, mire, meddig, kihez fordulhat. Nincs tárolási korlát / törlési folyamat a kvíz-, reflexiós- és mastery-haladási adatokra (D8.4), pedig a learning analytics (completion, H5P-analitika, kvíz-eredmények, rubrika-pontok) személyhez köthető adatot kezel.
+- **Javaslat:** Plain-language tájékoztató-sablon beillesztése a reflexiós/kvíz-belépéshez + megőrzési idő és törlési folyamat rögzítése (sablonnal auto-javasolható, a konkrét időtartam jogi jóváhagyással).
+- **Forrás:** —
+
+### DA1.14 — D6.6 (someres érték-dimenzió mélysége, M6)
+- **Fájl/hely:** `program` — M6.3 SLIDE 5 Kvuca-zászló szimbólum-érzékenység; M6.4 D-ág 16+ felelősség-téma; a someres értékek (kvuca, egalitás, társadalmi felelősség) mint rubrika-sor (KAPU R1 „Erős" szint)
+- **Probléma:** A mozgalmi/someres érték-dimenzió (D6.6, mlachomut, szolidaritás, egyenlőség) jelen van, de főként a kézműves/zászló kontextusban és a rubrika legmagasabb („Erős") szintjén opcionálisként; az ideológiai mélység és a someres hitelesség megítélése emberi döntést kíván — nem zárható le ágynsökként.
+- **Javaslat:** Eszkaláció someres szakértőhöz: elég mély-e és hitelesen beágyazott-e az érték-dimenzió, vagy ráerősítendő (learning about/through/for).
+- **Forrás:** —
+
+### DA1.15 — D8.5/D8.6 (AI-literacy hiánya, M6)
+- **Fájl/hely:** `program` — M6.1–M6.4 nyitott reflexiós feladatok és a saját kvuca-prompt — sehol nincs AI-túltámaszkodás vagy AI-literacy elem
+- **Probléma:** A modul nem ad AI-literacy elemet és nem védi explicit az AI-túltámaszkodástól (D8.5, D8.6). Bár a feladatok saját reflexiót kérnek (ami közvetve véd), egyetlen ponton sincs kritikus AI-értékelés/adatbiztonság-tudatosság — a rubrika ezt nice-to-have-ként kezeli, de a modul AI-avatart használ, így a hiány feltűnőbb.
+- **Javaslat:** Backlog: megfontolandó egy rövid AI-literacy mozzanat (pl. „az avatar AI-generált; mit ellenőrizz egy AI-magyarázatban"), összhangban a provenance-finding-gal.
+- **Forrás:** —
+
+### DA1.16 — D6.6 (érték-/identitásreflexió a tervezési modulban, M7 peulák)
+- **Fájl/hely:** `program` — M7.A/M7.B/M7.F érték-tartalma: a peulák a tervezési készségre fókuszálnak; a someres/mozgalmi értékdimenzió (mlachomut, szolidaritás, méltóság) csak példa-témaként (SMART-célok tárgya) jelenik meg, nem a reflexió tárgyaként
+- **Probléma:** Az emberi jogi / mozgalmi érték-dimenzió beágyazottsága gyenge (D6.6 – REVIEW-IGÉNYES): a modul erősen technikai-tervezési; a someres értékek inkább „téma-tartalomként" szerepelnek (pl. „szolidaritás mint peula-téma"), de a reflexió ritkán kérdez rá a madrich SAJÁT értékére/identitására (kivéve a KAPU R1 „dugma ishithez kötés" jegye). Ez ideológiai mélység-döntést igényel.
+- **Javaslat:** Someres (mozgalmi) szakértői review: döntsék el, kell-e a peulákba explicit érték-/identitásreflexió (pl. „melyik someres értéked jelenik meg ebben a célban?"), vagy a tervezési fókusz tudatosan szűk. Az ügynök ezt nem zárja le.
+- **Forrás:** nonformal-youth (COE „learning for")
+
+### DA1.17 — D6.3 (megfigyelés vs. csoportcímke, M7 Gen Alpha / kvuca-profil)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M7/M7 – „Peula a papírtól a valóságig" – Programírás, Zmán Kvucá & AI-támogatott tervezés.md` — Kulcsfogalmak (16. sor), R2 rubrika „Gen Alpha sajátosságok" (224. sor)
+- **Probléma:** Megfigyelés vs. értelmezés/címkézés (D6.3 – REVIEW-IGÉNYES): a „Gen Alpha sajátosságok" és a kvuca-profilhoz kötött jellemzők („szétesett régi someresek", „sokat ugrabugrálnak") a határán mozognak a megfigyelhető viselkedés és a csoportcímke között; a SMART-példák („biztonságban érzi magát") önreport-jellegűek, nem mindig külső megfigyelő által eldönthetők.
+- **Javaslat:** Someres review: ellenőrizzék, hogy a kvuca-jellemzések megfigyelhető viselkedés-szinten maradnak-e (M1/SBI-elv), és a „biztonságban érzi magát" típusú célok kapnak-e megfigyelhető viselkedés-jelet (a KAPU R1 „3" szint ezt már megköveteli – ez jó irány).
+- **Forrás:** nonformal-youth · assessment-validity
+
+### DA1.18 — D6.1 (Kolb-ciklus — transzfer-fázis a záró peulán, Z.A)
+- **Fájl/hely:** `02 Tervezet/MODULOK/Z/Z_PEULA/Z.A – „Mit viszek magammal_" – Záró kvuca-peula.md` — 4. Blokk-leírások — Blokk 2 (Időkapszula), Blokk 3 (poszter), Blokk 4 (elismerés + szó-felhő)
+- **Probléma:** A peula erős a konkrét tapasztalat (1,2), reflexió (debrief visszamondással) és általánosítás (poszter) fázisokban, DE a Kolb-ciklus 4. fázisa (transzfer/kipróbálás új helyzetben) a peulán belül gyenge: a „mit csinálunk másképp" poszter elindítja, de a konkrét egyéni transzfer-cél kidolgozása az online Z.3/Z.4-re van kiszervezve. Záró peulánál ez védhető tervezési döntés, de érdemes someres szemmel ellenőrizni, hogy a debrief→transzfer híd nem szakad-e meg azoknál, akik az online részt nem csinálták meg. (D6.1 — eszkalációköteles.)
+- **Javaslat:** Someres review döntse el, kell-e a peula zárásába egy rövid egyéni transzfer-mozzanat (1 konkrét „én holnap ezt teszem" mondat), vagy elég a Z.3/Z.4-re hagyni. Az ügynök ezt nem zárja le.
+- **Forrás:** —
+
+### DA1.19 — D6.6 (Somer 3 pillérének hiteles tanítása, M2→M7 érték-átkötés)
+- **Fájl/hely:** `program` — Modul-áttekintők ideológiai/someres mélység: M2 §2.3 (Somer 3 pillére – zionizmus/szocializmus/humanista zsidóság), M2.3 lecke, Program terv §2 (értékkeret), M6 rubrika „Somer-érték" sora
+- **Probléma:** A D6 someres/ideológiai mélység (D6.6 mozgalmi érték-dimenzió beágyazottsága; a Somer 3 pillérének hiteles, nem-moralizáló tanítása) a rubrika szerint REVIEW-IGÉNYES, az ügynök NEM zárja le. A hatókörömben a 3 pillér tanítása (M2.3) és a someres értékek capstone-ba kötése (M7 R1 „someres értékhez kötött") ideológiai hitelességi döntést érint, amit someres szakértőnek kell validálnia.
+- **Javaslat:** Az M2 ideológiai pillér-tartalmát és a someres érték-átkötéseket (M2→M7) eszkaláld someres/ideológiai szakértői review-ra a mozgalmi hitelesség és a „learning about/through/for" beágyazottság (D6.6) megerősítésére. Routing-jelzés, nem szövegjavítás.
+- **Forrás:** DEEP-AUDIT-RUBRIC D6 + eszkalációs megjegyzés (sor 133) · `02 Tervezet/MODULOK/M2…md §2.3` · `02 Tervezet/Program terv.md §2`
+
+### DA1.20 — D3 (mastery-küszöb: 5/8 vs. 6/8, M1 KAPU)
+- **Fájl/hely:** `program` — M1 – KAPU – értékelő, 2. szakasz (sorok 96-102) vs. `_AUDIT/GATE-VALIDITY.md` M1 ajánlás (≥6/8)
+- **Probléma:** A korábbi GATE-VALIDITY kör a M1 mastery-küszöbként ≥6/8 + „minden sorban ≥1" fenntartását javasolta. A kanonikus KAPU-fájl ezt 5/8-ra CSÖKKENTETTE (azzal érvelve, hogy ez felel meg az áttekintőben ígért „minimum"-nak). Ez védhetően dokumentált a fájlon belül, DE a fájl maga is felkínálja a 6/8 opciót „szervezeti döntés"-ként, és a tényleges Moodle „Grade to pass" érték (5) most eltér a korábbi auditban ajánlott szinttől. Mivel ez a mastery-szigorúság érdemi döntése, és érinti, hogy egy „épp átmegy" (5/8) beadvány tényleg eléri-e a mastery-szintet, egyetlen jóváhagyott forrást kell rögzíteni — különben évfolyamonként/képzőnként eltérő küszöb csúszhat be.
+- **Javaslat:** Hozz egy explicit szervezeti döntést 5/8 vs. 6/8 között, és rögzítsd EGY helyen (a KAPU-fájl fejlécében + a Moodle „Grade to pass"-ben + a §6-ban azonos számmal). A „minden sorban ≥1" (különösen az I/hatás-sor nem lehet 0) feltételt mindenképp tartsd meg, mert a puszta pontösszeg ezt elengedné.
+- **Forrás:** —
+
+### DA1.21 — D10.1 (mozgalmi név kánoni írásmódja: Hasomer Hacair vs. Hashomer Hatzair)
+- **Fájl/hely:** `program` — Movement-név: Program terv.md:15 és :76 (`Hasomer Hacair`) + DEEP-AUDIT-RUBRIC fejléc (`Hasomer Hacair`) vs. GLOSSZÁRIUM §1 „Somer" és 3. szabály (`Hashomer Hatzair`)
+- **Probléma:** A mozgalom teljes neve két, egymásnak ellentmondó írásmódban él a korpuszban: `Hasomer Hacair` (Program terv 2×) és `Hashomer Hatzair` (glosszárium kánoni-alak lista, 3. írásmód-szabály). A glosszárium magát „kánoni terminológiai referenciának" nevezi, de a saját `Hashomer Hatzair` alakja eltér a Program terv `Hasomer Hacair` alakjától – nincs eldöntve, melyik a kánoni teljes név.
+- **Javaslat:** Döntsd el és rögzítsd a glosszáriumban a teljes mozgalmi név EGY kánoni alakját (a `Somer`/`someres` rövid alakok már egységesek), majd egységesítsd a Program tervben és a rubrika-fejlécben. A glosszárium „Somer" tételéhez vedd fel explicit a teljes név kánoni írásmódját.
+- **Forrás:** —
+
+### DA1.22 — D10.1 (`Dugma Ishit` nagybetűs/megszemélyesített alak — kánoni: `dugma ishit`)
+- **Fájl/hely:** `02 Tervezet/MODULOK/M0/M0_ONLINE_LECKE/M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum".md` — M0-hub (4×), M0.A (1×), M0.4 (2×, köztük a H1-cím és a fájlnév), Program terv.md:108 és :110
+- **Probléma:** A megszemélyesített, nagybetűs `Dugma Ishit` forma szerepel az M0-blokkban és a Program tervben, amit a glosszárium kifejezetten KERÜLENDŐ-nek jelöl (kánoni: kisbetűs köznév `dugma ishit`; a megszemélyesített `Dugma Ishit` és a „Dugma Ishitnek lenni" forma tiltott). Az M0.4 fájlnév/H1-cím maga is `Dugma Ishit`-et tartalmaz, így a hibás alak a cím-láncba és a fájlrendszerbe is beépült.
+- **Javaslat:** Prózában cseréld `dugma ishit`-re (kisbetűs köznév) az M0-hubban, M0.A-ban, M0.4 törzsében és a Program tervben. A fájlnév + H1-cím átírása (`M0.4 – „dugma ishit az online térben…"`) kisebb szerkezeti döntés, mert érinti a hub-footer linkjét és a `Kapcsolódó leckék` hivatkozásokat – ezt egyben, konzisztensen kell végrehajtani.
+- **Forrás:** —
+
+---
+
 *Készült a SOMERES-FIDELITY.md 🧑‍🏫 és elv-vs-gyakorlat findingjaiból. Társdokumentum:
 `SAFEGUARDING-REVIEW.md` (gyerekvédelmi szervezeti döntések).*

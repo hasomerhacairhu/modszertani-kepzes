@@ -6,6 +6,8 @@
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), kb. 45–45’
 * **Online terhelés:** kb. 4×10–15 perc mikrolecke (M4.1–M4.4)
 * **Teljes terhelés:** kb. 2–3 óra (online + offline) 
+* **Tartalmi eredet (provenance):** **ember által írt / AI-asszisztált tananyag** – ahol generatív AI-t használtunk (szöveg, kvíz-item, distraktor, ábra, AI-videó), azt a leckében külön jelöljük.
+* **Szakmai lektorálás:** **lektor: [ ] · dátum: [ ] · verzió: [ ]** (a gyerekvédelmi és érzékeny tartalmat éles indítás előtt embernek kell jóváhagynia – UNESCO AI-etika: emberi felügyelet + átláthatóság).
 
 **Modulközponti kérdés:**
 
