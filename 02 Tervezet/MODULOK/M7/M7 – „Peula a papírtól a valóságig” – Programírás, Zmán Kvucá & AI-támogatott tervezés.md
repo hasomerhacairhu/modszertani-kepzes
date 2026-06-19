@@ -76,7 +76,7 @@ A modul végére a madrich…
   Megismerni a modernizált **Peula 11 pontját**, és látni 1–1 AI-használati példát (ötletelés, kérdés-generálás, nyelvi egyszerűsítés).
 * **Programírás-fókusz:**
   „Nem elég a játék – a peulának *szerkezete* és *biztonsági kerete* van.”
-* **Eszközök:** H5P **Course Presentation** (kb. 7–11 slide) + **Matching / Drag & Drop**.
+* **Eszközök:** H5P **Course Presentation** (**7 slide**) + **Matching**.
 * **Tartalom röviden:**
   * A 11 pont nevei és someres példái (Kvuca-profil, Élmény-blokk, Feldolgozás, Safety, Operáció stb.).
   * Minden ponthoz 1 rövid someres szituáció + 1 ajánlott **AI-prompt** (pl. feldolgozó kérdések generálására).

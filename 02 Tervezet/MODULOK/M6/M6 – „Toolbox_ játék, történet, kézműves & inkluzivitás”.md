@@ -130,7 +130,7 @@ A modul végére a madrich…
   1. 0–10’ – Recap: mi a játéklap minimum tartalma (cél, kvuca, leírás, eszközök, biztonság, inkluzivitás, variációk).
   2. 10–30’ – Műhelymunka: párok / kiscsoportok dolgoznak a saját játéklapon.
   3. 30–40’ – Mini-bemutatók: 2–3 játéklap rövid megosztása, SBI feedback-kör.
-  4. 40–45’ – Commit-kör: „Miben szeretném, hogy a saját játékom **biztonság & inkluzivitás szempontból dugma ishit** legyen?” 
+  4. 40–45’ – Commit-kör: „Miben szeretném, hogy a saját játékom **biztonság & inkluzivitás szempontból** *dugma ishit* (személyes példamutatás) legyen?” 
 * **Kompetenciakapcsolat:**
   * 2\. Biztonság & inkluzivitás (konkrét sor a játéklapon),
   *

@@ -136,13 +136,13 @@ A modul végére a madrich…
       * puha vs. éles kapu,
       * „hol találom a modulokat / leckéket a Moodle-ben?”.
     * Több próbálkozás engedélyezett.
-    * **Funkció (egyértelműsítés): ez a quiz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a quizen elért eredmény nem zár ki és nem blokkol senkit. **A „60–70%" tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „megbukik". **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** – lásd a `placeholders`-be jelölt item-bank tételt.
+    * **Funkció (egyértelműsítés): ez a quiz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a quizen elért eredmény nem zár ki és nem blokkol senkit. **A „kb. 60%" tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „megbukik". **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** – lásd a `placeholders`-be jelölt item-bank tételt.
 
 **Követelmény az M0 „complete”-hez:**
 
 1. L1–L4 (M0.1–M0.4) mikroleckék activity completion.
 2. Bemutatkozó fórum: 1 poszt + 1 komment.
-3. M0 belépő-quiz **kitöltve** – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a quiz completion-jelző, nem küszöbös kapu). **A „többség 60%+" nem belépési feltétel, hanem stáb-oldali elvárás-szint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrichot zárja ki.
+3. M0 belépő-quiz **kitöltve** – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a quiz completion-jelző, nem küszöbös kapu). **A „kb. 60%" nem belépési feltétel, hanem stáb-oldali jelzőszint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrichot zárja ki.
 
 **Javítás / támogatás logika:**
 
@@ -173,7 +173,7 @@ A modul végére a madrich…
      * célzott emlékeztető,
      * extra tech helpdesk szervezése (offline / online),
      * rövid felmérés: technikai ok vagy motivációs ok áll-e a háttérben.
-   * Ha az M0-quiz átlag **nagyon alacsony** (pl. <60%) – **ez a stáb felé jelez, NEM a madrich kizárását jelenti** (a quiz completion-jelző, lásd 5. Kapuk):
+   * Ha az M0-quiz átlag tartósan a **kb. 60%-os jelzőszint** alatt van – **ez a stáb felé jelez, NEM a madrich kizárását jelenti** (a quiz completion-jelző, lásd 5. Kapuk):
      * egyszerűsített, vizuális összefoglaló Page készítése („Madrich, nem terapeuta”, „kapuk”),
      * másik modul peulájában 5 perces „keret-újramondás”.
 

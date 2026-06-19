@@ -70,7 +70,7 @@
 **30–41’** – 3. fő aktivitás: Elismerés & köszönés kör (minimális SBI-vel)
 **41–45’** – Záró rituálé: 1 szó, szó-felhő, közös lezárás
 
-*(Vagyis a 45’-es verziónál a 2–4. blokkok rövidülnek: kevesebb beszélő kör, rövidebb poszter-idő, a poszter- és nagykörös visszahozások esnek ki először – az elismerés-kört és a záró szót próbáld megtartani.)*
+*(Vagyis a 45’-es verziónál **minden blokk rövidül egy kicsit**, a legnagyobb vágás a **2. (Időkapszula, 15’→11’, –4’)** és a **4. (Elismerés-kör, 15’→11’, –4’) blokkon** van, a poszter **3’-mal** (15’→12’), a check-in szintén **3’-mal** (10’→7’), a záró rituálé pedig csak **1’-mal** (5’→4’) rövidül: kevesebb beszélő kör, rövidebb poszter-idő, a poszter- és nagykörös visszahozások esnek ki először – az elismerés-kört és a záró szót próbáld megtartani.)*
 
 **Reális időtervezés (terhelés-őszinteség):**
 
