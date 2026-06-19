@@ -38,11 +38,20 @@ Ezeket egy szakember (gyerekvédelmi felelős + szükség esetén jogi/adatvéde
 - **AI-tartalom kétlépcsős lektorálási policy** kimondása az indító dokumentumban
   (általános: módszertani felelős; safeguarding: + gyerekvédelmi felelős sign-off).
 
-## 3. Opcionális szerzői döntés
+## 3. Opcionális szerzői / stiláris döntés
 
 - **M0 belépő-kvíz:** jelenleg **completion-jelzőként** építettük be (nem küszöbös vizsga).
   Ha a stáb mégis éles, küszöbös kaput akar: 6–8 megírt item + answer key + cél→item tábla
   (kiemelten az „éves ív" és „online dugma ishit" kompetenciákra) szükséges.
+- **„Dugma Ishit az online térben" leckecím (M0.4) — casing:** a glosszárium szerint a
+  *dugma ishit* kisbetűs köznév, de ez a cím (és a **fájlnév** + ~7 link) nagybetűs
+  címformát használ. A folyószövegben már kisbetűsítettük; a **címet/fájlnevet NEM**
+  neveztük át (a fájl-átnevezés a linkeket is érinti). Döntés: maradjon-e a címben a
+  nagybetűs forma (mint tulajdonnévszerű lecke-cím), vagy egységesítsük kisbetűsre
+  (akkor fájl-átnevezés + a hivatkozó linkek frissítése kell).
+- **M3.1 Tuckman magyar címkék:** a lecke a „storming"-ra helyenként „viharzás",
+  máshol „balhék" alakot használ (utóbbi szándékos, Gen Z-barát glossza lehet) — ha
+  teljes egységesség a cél, a stáb döntse el a kanonikus magyar megfeleltetést.
 
 ---
 
