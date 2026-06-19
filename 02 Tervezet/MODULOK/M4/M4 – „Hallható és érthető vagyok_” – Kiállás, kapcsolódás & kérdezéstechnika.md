@@ -110,7 +110,7 @@ A modul végére a résztvevő…
 
 ## 6. Kapuk
 
-**Kaputípus:** puha kapu (soft gate) – az önreflexió és a készségek tudatosítása a fő cél, nem „kizárás”. M4 modulra ez illeszkedik a Mastery gate-ek általános sablonjához. 
+**Kaputípus:** puha kapu (soft gate) – az önreflexió és a készségek tudatosítása a fő cél, nem „kizárás”. **Az M4 a puha kapuk sablonját követi (formáló jelzés a mentornak / stábnak, nem kizárás), összhangban a Program terv §3.1 mátrixával és §5-ével, ahol az M4 a puha kapuk közé sorolódik.** 
 
 **Javasolt modul-kapuk:**
 
@@ -120,8 +120,13 @@ A modul végére a résztvevő…
    * **Következmény:** ha gyenge az eredmény vagy hiányzik a completion, jelzés a mentornak / stábnak; opcionálisan M4.F felzárkóztatás ajánlása. 
 2. **Kapu 2 – M4.4 Assignment – „Peula-pitch váz”**
    * **Eszköz:** Moodle Assignment, online szöveges beadás; a M4.4 H5P-ből átvett / finomított pitch-váz.
-   * **Követelmény (soft szint):** a pitch minden kérdésre válaszoljon (kvuca, téma, miért fontos, mit csinálunk, mit vigyenek haza); nincs fix pontszám, de a mentor minimum „alapszint / rendben” rubrika-szintre néz rá. 
-   * **Következmény:** ha nincs beadva vagy nagyon hiányos → mentori jelzés, finomító kör (SBI-alapú visszajelzés) + újra-beadás lehetősége (mastery logika). 
+   * **Követelmény (soft szint):** a pitch minden kérdésre válaszoljon (kvuca, téma, miért fontos, mit csinálunk, mit vigyenek haza); nincs fix pontszám, de a mentor a lenti, megfigyelhető viselkedést leíró rubrika alapján minimum „alapszint / rendben” szintre néz rá. 
+   * **Megfigyelhető rubrika (5 sablon-elem mentén):** a pitch sablon öt eleme = **(1) kvuca (kihez beszélsz), (2) téma (miről szól), (3) miért fontos nekik, (4) mit fogtok csinálni, (5) mit vigyenek haza.** A mentor minden pitchet az alábbi, egymást kizáró szinteken helyez el – a besorolás külső megfigyelő által, értelmezés nélkül eldönthető (megvan-e az adott elem, és kvuca-specifikus-e):
+     * **Fejlettebb (kvucára szabott):** **mind az 5 elem megnevezve, és legalább a kvuca + a „miért fontos nekik” rész konkrét, az adott kvucára szabott (nem általános) – pl. nevesített korosztály/élethelyzet, rájuk illő indok.**
+     * **Alapszint / rendben (= küszöb):** **mind az 5 elem megnevezve és értelmezhető, de általánosabb, nincs kifejezetten erre a kvucára szabva.**
+     * **Még nem éri el:** **legalább egy elem hiányzik vagy nem értelmezhető (pl. nincs megnevezve a kvuca, vagy nincs „mit vigyenek haza”).**
+   * **Küszöb (cut-score) indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritérium-referenciás, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett pitch-váz) akkor teljesül érdemben, ha a pitch hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kinek” vagy „miért fontos nekik”) esetén a pitch nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
+   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (SBI-alapú visszajelzés) + újra-beadás lehetősége (mastery logika). 
 
 ***
 

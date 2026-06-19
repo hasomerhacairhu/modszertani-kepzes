@@ -211,8 +211,8 @@ A modul végére a madrich…
    * **Követelmény:**
      * min. **70%** összpontszám, vagy minden kritikus rubrika-sorban legalább „alapszint / rendben”.
 2. **Moodle Quiz – „SMART & Zmán Kvucá” (kiegészítő kapu, rövid)**
-   * 8–10 kérdés: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.3 tartalma).
-   * **Követelmény:** min. **80%**, 2–3 próbálkozás engedélyezve.
+   * **12 item**: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.4 tartalma; a részletes item-bank: „M7 – KAPU” §A).
+   * **Követelmény:** **≥80% (12 itemből ≥10 jó)**, **2–3 próbálkozás** engedélyezve, kérdés- és válasz-randomizálással.
 
 * **Javítás / támogatás:**
   * ha valaki nem éri el a küszöböt:

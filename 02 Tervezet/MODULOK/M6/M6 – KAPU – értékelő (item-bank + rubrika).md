@@ -230,13 +230,15 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 **Opciók:**
 - A) Ha **„ki rajzol szebben” verseny** lesz belőle; ezt úgy kerülöd el, hogy matricát/kivágott formát/szót is fel lehet tenni, és kimondod, hogy nem a szépség a cél. ✅
-- B) Ha túl nagy a papír; vágd kisebbre.
-- C) Ha túl sok szín van; használj csak feketét.
-- D) Ha rákerül a kvuca neve; hagyd le róla.
+- B) **Ha elég kimondani, hogy „mindenki rajzoljon valamit” – aztán magukra hagyod őket a papírral.**
+- C) **Ha a leggyorsabb, legügyesebb rajzolók töltik ki a papír nagy részét, mire a bizonytalanabbak sorra kerülnének.**
+- D) **Ha csak rajzolni lehet, és nincs alternatív eszköz annak, aki nem szívesen vagy nehezen rajzol.**
 
 **Helyes:** A
 **Distraktor-indok:**
-- B / C / D – Mind **felszíni, irreleváns** „kockázatok”: a papírméret, a színek száma és a kvuca-név nem zár ki senkit. A valódi kirekesztő tényező a **teljesítménykényszer**.
+- B – **Hihető („mindenki vegyen részt”), DE a puszta felszólítás nem old fel semmit: a teljesítménykényszer ettől még ott van, és a bizonytalanabbak így is kimaradnak.**
+- C – **Valós kockázat, DE nem ez a fő kirekesztő tényező, és nem is így kezeled: nem a tempót szabályozod, hanem a versenyhelyzetet veszed ki (matrica/forma/szó), hogy ne a szépség és a gyorsaság számítson.**
+- D – **Valós inkluzivitási hiányosság, DE önmagában az alternatív eszköz hiánya kevés: a kulcs, hogy közben kimondod, nem művészi verseny – különben az ügyesebbek akkor is „nyernek”.**
 
 **Feedback:**
 > ✅ A közös plakát akkor inkluzív, ha nem művészeti verseny: legyen alternatív eszköz (matrica, szó, forma), és az üzenet az legyen, hogy „mindenki hozzátesz valamit”. (M6.3 PÉLDA 1)

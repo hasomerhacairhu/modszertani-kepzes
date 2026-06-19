@@ -11,7 +11,7 @@
 
 | Rész | Mit mér | LMS-eszköz | Küszöb |
 | --- | --- | --- | --- |
-| **(B) Peula v2 értékelő rubrika** | A leadott **Peula v2 + Zmán Kvucá-operáció** produktum minősége (SMART cél, 11 pont struktúra, gyerekvédelem, inkluzivitás, módszer-illeszkedés, etikus AI) | **Moodle Assignment + rubrika** (analitikus, 8 sor) | **≥70%** összpontszám **VAGY** minden **kritikus** sorban legalább „2 – Megfelelő” – **DE** a „Gyerekvédelem & safety” sor blokkoló: e nélkül a kapu nem nyílik, a %-tól függetlenül |
+| **(B) Peula v2 értékelő rubrika** | A leadott **Peula v2 + Zmán Kvucá-operáció** produktum minősége (SMART cél, 11 pont struktúra, gyerekvédelem, inkluzivitás, módszer-illeszkedés, etikus AI) | **Moodle Assignment + rubrika** (analitikus, 8 sor) | **Megfelelt = (összpont ≥70% = ≥17/24) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló)** – a kritikus sorok minimuma a ponthatártól **függetlenül mindig kötelező**; a „Gyerekvédelem & safety” (R4) sor külön blokkoló: e nélkül a kapu nem nyílik, a %-tól függetlenül |
 | **(A) SMART & Zmán Kvucá kvíz** | M7.1–M7.4 fogalmainak felismerő/alkalmazó szintű tudása (SMART, Peula 11 pont, Zmán Kvucá-checklist, etikus AI) | **Moodle Quiz** (vagy H5P Question Set, ha nem kell Gradebook-súly) | **≥80%** (12 itemből **≥10 jó**), **2–3 próbálkozás**, kérdés- és válasz-**randomizálással** |
 
 **Súlyozás:** a kapu konstruktumának gerince a **Peula v2 rubrika** (domináns súly). A kvíz „fogalmi belépő” – a tudásalap meglétét igazolja, de önmagában nem méri a produktív készséget.
@@ -191,7 +191,7 @@
 ## (B) PEULA v2 – értékelő rubrika (félévzáró produktum)
 
 **Eszköz:** Moodle Assignment + **analitikus rubrika**, 8 sor, soronként 0–3 pont.
-**Maximum:** 8 × 3 = **24 pont**. **Küszöb: ≥70% = ≥17 pont** (kerekítve), **VAGY** minden kritikus sorban legalább „2 – Megfelelő”.
+**Maximum:** 8 × 3 = **24 pont**. **Küszöb (zárt ÉS-logika): Megfelelt = (összpont ≥70% = ≥17 pont, kerekítve) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló).** A kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező** – egy gyenge kritikus soros, de pontszámban átmenő Peula v2 nem csúszhat át.
 **Blokkoló (override) sor:** **R4 – Gyerekvédelem & safety**. Ha ez „0” vagy „1”, a kapu **NEM** nyílik, a teljes %-tól függetlenül. (Itt nem elég a „kb. értem” – gyerekvédelmi tét.)
 
 **Mit ad le a tanuló (a kapu produktuma):** kitöltött **Peula v2** (kvuca-meta + SMART cél + Peula 11 pont struktúra felismerhetően) + **Zmán Kvucá-operációs táblázat** (idő–feladat–felelős, lásd (C) pontozó váz).
@@ -295,9 +295,9 @@
 
 ### Pontozás & döntési szabály (összefoglaló)
 
-* **Max pont:** 24. **Küszöb:** ≥17 pont (≈70%) **VAGY** minden kritikus sor (R1, R4, R5, R6) ≥2.
-* **Blokkoló:** R4 < 2 → **bukás**, függetlenül mindentől.
-* **Megfelelt:** ≥17 pont **és** R4 ≥ 2.
+* **Max pont:** 24. **Küszöb (zárt ÉS-logika):** **Megfelelt = (összpont ≥17 pont, ≈70%) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló).** A kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**.
+* **Blokkoló:** R4 < 2 → **bukás**, függetlenül mindentől (a pontszámtól és a többi sortól is).
+* **Bukás akkor is**, ha bármely kritikus sor (R1, R5, R6) < 2 – **akkor is, ha az összpont ≥17**.
 * **Bukás:** SBI-feedback (max 3 pont, a leggyengébb sorokra) → javított Peula v2 → szükség esetén mentoros peula-klinika.
 
 ***
@@ -340,7 +340,7 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 
 * [ ] Kvíz: 12 item, **randomizálás BE**, ≥80% (≥10/12), 2–3 próbálkozás.
 * [ ] Minden itemnek 1 egyértelmű helyes válasza (Q11 multi-select: A+B+C jó, D nem), distraktorok plauzibilisek (nincs „minden fenti”, nincs töltelék).
-* [ ] Assignment-rubrika: 8 sor, 0–3 pont, max 24, küszöb ≥17 VAGY minden kritikus sor ≥2.
+* [ ] Assignment-rubrika: 8 sor, 0–3 pont, max 24, küszöb **zárt ÉS-logikával**: **Megfelelt = (összpont ≥17) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló)** – a kritikus sorok ≥2 minimuma a ponthatártól függetlenül mindig kötelező.
 * [ ] **R4 blokkoló** szabály a Moodle-leírásban is rögzítve (nem csak a rubrikában).
 * [ ] Kritikus sorok kijelölve: R1, R4, R5, R6.
 * [ ] (C) checklist-pontozó az R4/R7 alá kötve, önellenőrzésként a tanulónak is kiadva.

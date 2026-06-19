@@ -113,10 +113,10 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 ### ITEM 4 — Akut önveszély sürgőssége *(KRITIKUS)*
 **Szituáció:** Este 23:15. Egy chanich privát üzenetben azt írja, hogy **most, ma este úgy érzi, kárt tenne magában**, és egyedül van otthon. Mi a felelős reakció?
 
-- A) Megírom, hogy beszéljük meg holnap a peulán, addig próbáljon aludni.
-- B) **Nem hagyom egyedül** (folytatom a beszélgetést / maradok elérhető), **azonnal** jelzek egy felnőttnek (mentor / felelős / a közelben lévő szülő), és **közvetlen életveszély / azonnali öngyilkossági szándék esetén a 112-t** hívom; lelki krízisben a **116-123** is hívható. ✅
-- C) Megnyugtatom, hogy biztosan elmúlik, és megígérem, hogy senkinek nem szólok róla.
-- D) Kiírom a kvuca csoportchatbe, hogy figyeljen rá mindenki, mert rosszul van.
+- A) Megírom, hogy beszéljük meg holnap a peulán, addig próbáljon aludni, és felírom magamnak, hogy reggel rákérdezek, hogy van.
+- B) **Nem hagyom egyedül**, **azonnal** felnőttet jelzek, és **közvetlen életveszélynél a 112-t** hívom (lelki krízisben **116-123**). ✅
+- C) Megnyugtatom, hogy biztosan elmúlik, átbeszéljük chaten a problémáit, és megígérem, hogy ez kettőnk titka marad.
+- D) Kiírom a kvuca csoportchatbe, hogy figyeljen rá most mindenki, és megkérem a hozzá legközelebb lakó chanichot, hogy nézzen rá.
 
 **Miért ez a jó / miért rossz a többi:**
 - ✅ **B** — Az **akut, aznapi** önveszély **sürgős** – nem ugyanaz, mint egy „lassú” red flag. Itt a gyorsaság életet menthet: ne maradjon egyedül, azonnali felnőtt-jelzés, súlyos esetben 112, lelki krízisben 116-123 (ingyenes, 0–24).

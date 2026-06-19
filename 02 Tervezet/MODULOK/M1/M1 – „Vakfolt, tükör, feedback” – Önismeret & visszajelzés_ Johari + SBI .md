@@ -169,16 +169,19 @@ A modul végére a résztvevő…
 
 * **Moodle Assignment** – az M1.4 SBI-beadó, **rubrikás értékeléssel** (M1.4 produktumára építve).
 
-### Értékelési szempontok (rubrika – minimum)
+### Értékelési szempontok (rubrika)
 
-1. Szituáció **konkrét-e** (hely, idő, kontextus).
-2. Viselkedés **megfigyelhető-e** (nincs címke).
-3. Hatás **érthető / hiteles-e** (S–B–I logika felismerhető).
+A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-bank + rubrika)](./M1%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) fájl tartalmazza (soronként 0/1/2 pont). A négy sor:
+
+1. Szituáció (S) **konkrét-e** (hely, idő, kontextus).
+2. Viselkedés (B) **megfigyelhető-e** (nincs címke, kamera is felvenné).
+3. Hatás (I) **érthető / hiteles-e** (S–B–I logika felismerhető).
+4. **Tisztelettudó, nem támadó hangnem** – a viselkedésről szól (nem a személyt minősíti), nincs „mindig/soha”, a másik nem-védekezve tudna rá reagálni.
 
 ### Minimális teljesítés (M1 „complete”)
 
 * **Online:** M1.1–M1.4 mikroleckék activity completion (H5P-k végigjátszva).
-* **Produktum:** legalább **1 db SBI** beadása az Assignmentben, a rubrika minden sorában min. „alapszint”, legalább egy sorban „fejlődő” szint. 
+* **Produktum:** legalább **1 db SBI** beadása az Assignmentben, ami eléri a [KAPU-fájl](./M1%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) kanonikus küszöbét: **minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS az összpontszám ≥5/8**. (Vigyázz: a rubrikában az „alapszint” a **legalsó, 0 pontos** szint = „még nem tudja”, ezért az átmenethez nem elég – minden sornak legalább „fejlődő” szintűnek kell lennie.) 
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** az itt megtanult SBI-nyelv lesz az alapja a Peula v2 utóreflexiójának és a peer-feedbacknek – az M7 produktum-leadásánál (Peula v2 + Zmán Kvucá) a javító visszajelzés is **SBI-ben** érkezik, és az M7.A/M7.B peulákon SBI-ben adtok egymásnak peer-feedbacket a peulátokra. 
 
