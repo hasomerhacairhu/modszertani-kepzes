@@ -38,7 +38,7 @@ export const meta = {
 // ============================================================================
 //  ⚙️  KONFIG — LITERÁLOK (NEM args). Éleshez: MODE='live'.
 // ============================================================================
-const MODE = 'dry'              // 'dry' = csak kiértékel+riportál | 'live' = javít+commitol
+const MODE = 'live'            // 'dry' = csak kiértékel+riportál | 'live' = javít+commitol
 const MAX_ROUNDS = MODE === 'live' ? 2 : 1   // dry: 1 kör (a tananyag nem változik); live: 2
 const DRY_STREAK = 1            // ennyi üres kör után konvergens (dry módban 1 elég: 1 kör)
 const MAX_FINDINGS_PER_ASSESSOR = 10   // auditoronkénti finding-plafon
