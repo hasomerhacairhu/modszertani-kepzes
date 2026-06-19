@@ -13,7 +13,7 @@
 
 **Modulcél röviden**
 
-A madrich értse, mitől nonformális a someres nevelés, tudjon tudatosan **feladat → cél → kvuca → módszer** logikával gondolkodni, és legyen alap képe arról, hogyan tanulnak tényleg a chanichok (**gyakorlás, visszahívás, spacing**).
+A modul végére **megnevezed**, mitől nonformális a someres nevelés, **alkalmazod** a tudatos **feladat → cél → kvuca → módszer** logikát, és saját szavaiddal **elmagyarázod**, hogyan tanulnak tényleg a chanichok (**gyakorlás, visszahívás, spacing**).
 
 **Célcsoport:** képzős madrichok / madrichot (kb. 15+)
 
@@ -25,7 +25,7 @@ A modul végére a madrich / madricha…
    * Legalább 6–8 konkrét példát be tud sorolni „inkább suli / Somer / random élet” kategóriákba (M5.1, M5.A).
 2. **Tudatosan használja a feladat → cél → kvuca → módszer gondolkodást.**
    * Végig tud menni a soron: *„Mi a feladatom? → Mi a nevelési célom? → Milyen kvucával dolgozom? → Milyen módszer illik ide?”* (M5.2, M5.A, M5.4).
-3. **Érti az alap tanulástan-fogalmakat és rá tudja húzni a saját peuláira.**
+3. **Elmagyarázza az alap tanulástan-fogalmakat és alkalmazza őket a saját peuláira.**
    * Saját szavaival el tudja magyarázni a **gyakorlás, visszahívás (retrieval), spacing** fogalmakat, és 2–3 konkrét ötlete van, hogyan jelenjenek meg a kvuca életében (M5.3, M5.B).
 4. **Modulproduktumot készít.**
    * Összeállít egy legalább 3–4 soros **„Feladat–kvuca–módszer + tanulástan” táblázatot**, amelyben minden sorban látszik, milyen tanulástan-logika (gyakorlás / visszahívás / spacing) érvényesül (M5.4).
