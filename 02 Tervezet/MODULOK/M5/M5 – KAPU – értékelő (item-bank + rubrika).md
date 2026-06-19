@@ -253,7 +253,7 @@
 **Új dalt tanítasz a kvucának, és azt szeretnéd, hogy egy hónap múlva is fújják. Melyik terv használja *együtt* helyesen a gyakorlást, visszahívást és spacinget?**
 
 - A) Egy hosszú próbán végigénekeljük 20-szor egymás után, aztán nem vesszük elő többet.
-- B) Egyszer eléneklem nekik tisztán, hogy halljfiles, és bízom benne, hogy megjegyzik.
+- B) Egyszer eléneklem nekik tisztán, hogy **hallják**, és bízom benne, hogy megjegyzik.
 - C) ✅ Az első alkalommal **közösen eléneklik** (gyakorlás); a következő pénteken **fejből próbálják felidézni** a szöveget (visszahívás); és a dal **több héten át, röviden visszatér** a peulákban (spacing).
 - D) Kiírom a dalszöveget egy plakátra, és minden héten felolvassuk együtt.
 
