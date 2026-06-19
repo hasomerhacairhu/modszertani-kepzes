@@ -13,7 +13,7 @@
 
 **Modulcél röviden**
 
-A madrich **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alap elvárásokat és határokat („madrich, nem terapeuta”), megismeri az alap technikai eszközöket (Moodle, H5P, gate/kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent Dugma Ishitnek lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
+A madrich **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alap elvárásokat és határokat („madrich, nem terapeuta”), megismeri az alap technikai eszközöket (Moodle, H5P, gate/kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma ishitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
 
 ***
 
@@ -39,9 +39,9 @@ A modul végére a madrich…
    * Tudja, hogy a kapuk nem azonnali kizuhanást jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
    * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépő-quiz.
 5. **Dugma Ishit az online térben**
-   * Tud mondani 1–2 példát arra, **hogyan viselkedik Dugma Ishitként online** (Moodle, csoportchat, social media).
+   * Tud mondani 1–2 példát arra, **hogyan viselkedik dugma ishitként online** (Moodle, csoportchat, social media).
    * Megfogalmaz **legalább 1 saját online határ-szabályt** (pl. mikor válaszol, mit oszt meg, kinek).
-   * **Támogató elemek:** M0.2 (madrich, nem terapeuta), M0.4 (online Dugma Ishit + szituációk).
+   * **Támogató elemek:** M0.2 (madrich, nem terapeuta), M0.4 (online dugma ishit + szituációk).
 
 ***
 
@@ -50,7 +50,7 @@ A modul végére a madrich…
 > **Mapping:**
 
 * **L1 = M0.1** – Üdv a képzésben! – Éves útiterv & mi köze hozzám
-* **L2 = M0.2** – Madrich, nem terapeuta – szerepek, elvárások, Dugma Ishit alapok
+* **L2 = M0.2** – Madrich, nem terapeuta – szerepek, elvárások, dugma ishit alapok
 * **L3 = M0.3** – Hogyan működik a Moodle / H5P / gate?
 * **L4 = M0.4** – Dugma Ishit az online térben + bemutatkozó fórum
 
@@ -65,11 +65,11 @@ A modul végére a madrich…
 
 ### L2 / M0.2 – Madrich, nem terapeuta – szerepek és elvárások (10–15’)
 
-* **Cél:** tisztázni a **madrich-szerepet** és a határokat (nem terapeuta, nem egyedüli felelős), és bevezetni a Dugma Ishit fogalmát egyszerű példákkal.
+* **Cél:** tisztázni a **madrich-szerepet** és a határokat (nem terapeuta, nem egyedüli felelős), és bevezetni a dugma ishit fogalmát egyszerű példákkal.
 * **Fő tartalom röviden:**
   * szerepek: mit jelent madrichnak lenni (biztonság, keret, jelzés), és mi az, ami más felelős dolga (szakember, ken-vezető);
   * „madrich, nem terapeuta” – basic gyerekvédelmi logika jelzés-szinten;
-  * Dugma Ishit 1 mondatban + 2–3 helyzet, ahol ez látszik.
+  * dugma ishit 1 mondatban + 2–3 helyzet, ahol ez látszik.
 * **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-quiz, nyitott reflexió).
 
 ### L3 / M0.3 – „Hogyan működik a Moodle / H5P / gate?” (10–15’)
@@ -83,7 +83,7 @@ A modul végére a madrich…
 
 ### L4 / M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum” (15–20’)
 
-* **Cél:** a madrich elgondolkodik, mit jelent **online Dugma Ishitnek lenni**, és belép a közösségbe egy **bemutatkozó fórumposzttal**.
+* **Cél:** a madrich elgondolkodik, mit jelent **online is dugma ishitként jelen lenni**, és belép a közösségbe egy **bemutatkozó fórumposzttal**.
 * **Fő tartalom röviden:**
   * online helyzetek (chat, insta, messenger, Moodle-komment) – mitől dugma ishit / mitől nem;
   * 2–3 egyszerű szabály az online térre (pl. gyerekvédelmi jelzés, határok az elérhetőségben, tisztelet a kvucával kapcsolatban);
@@ -113,7 +113,7 @@ A modul végére a madrich…
 * **Kapcsolódó leckék:** M0.3, M0.4
 * **Fő cél:**
   * aki technikailag elakadt (Moodle-belépés, H5P, fórumhasználat), az **itt kapjon személyes segítséget**;
-  * első tapasztalat: „nyugodtan kérhetek segítséget, ez is Dugma Ishit.”
+  * első tapasztalat: „nyugodtan kérhetek segítséget, ez is dugma ishit.”
 * **Formátum:**
   * a peula után a képző(k) a teremben maradnak,
   * 1–1-ben vagy kis csoportban segítenek bejelentkezni, megtalálni az M0.1–M0.4-et, posztolni a fórumba.
