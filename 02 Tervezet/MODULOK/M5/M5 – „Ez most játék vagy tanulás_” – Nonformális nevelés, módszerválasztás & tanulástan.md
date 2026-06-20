@@ -70,7 +70,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * Hook: hétköznapi tanulás-helyzetek (dolgozat, szabálymagyarázás, énekpróba) – „melyiktől emlékszel jobban?”.
   * Input: három kulcsfogalom rövid, someres példákkal (peula, tábor, ken).
   * Activity: döntések arról, melyik megoldás segíti jobban a hosszú távú tanulást (drag & drop / jelölés).
-  * Check: 4–5 kérdés fogalomfelismerésre + 1–2 szituációs kérdés „mit csinálsz, ha azt akarod, hogy jövő héten is emlékezzenek?”.
+  * Check: 3 kérdés fogalomfelismerésre + 1–2 szituációs kérdés „mit csinálsz, ha azt akarod, hogy jövő héten is emlékezzenek?”.
 
 ### M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként (15–20’)
 

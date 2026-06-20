@@ -14,7 +14,7 @@
 
 **Eszközök:**
 
-* H5P **Course Presentation** (4–5 slide – jegyzetelő/összerendező segítség)
+* H5P **Course Presentation** (5 slide – jegyzetelő/összerendező segítség)
 * **Moodle Assignment** – „Záró reflexió + next step” (szöveg vagy videó)
 * **Moodle Feedback / Questionnaire** – anonimizált képzés-értékelő
 
@@ -48,7 +48,7 @@
 > A reflektív produktumhoz 3 vezető kérdésed lesz:
 
 1. „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
-2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő az M0-ban magadnak elmentett mondataidat** – a *„Mit várok ettől az évtől?”* és a *„figyelek rá, hogy…”* mondatot –, és nézd meg, mi valósult meg belőlük.)”
+2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő az M0-ban magadnak elmentett mondataidat** – a *„Mit várok ettől az évtől madrichként?”* és a *„figyelek rá, hogy…”* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét next step célt** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > A H5P-ben most **jegyzetelsz és rendezed a gondolataidat**, utána mész át az Assignmentre és a Feedbackre.
