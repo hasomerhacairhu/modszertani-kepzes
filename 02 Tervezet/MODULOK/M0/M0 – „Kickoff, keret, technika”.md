@@ -183,6 +183,6 @@ A modul végére a madrich…
 
 [M0.3 – „Hogyan működik a Moodle / H5P / gate?”](./M0_ONLINE_LECKE/M0.3%20–%20„Hogyan%20működik%20a%20Moodle%20_%20H5P%20_%20gate_”.md)
 
-[M0.4 – „Dugma ishit az online térben + bemutatkozó fórum”](./M0_ONLINE_LECKE/M0.4%20–%20„Dugma%20Ishit%20az%20online%20térben%20+%20bemutatkozó%20fórum”.md)
+[M0.4 – „Dugma ishit az online térben + bemutatkozó fórum”](./M0_ONLINE_LECKE/M0.4%20–%20„Dugma%20ishit%20az%20online%20térben%20+%20bemutatkozó%20fórum”.md)
 
 [M0.A – „Kickoff & ismerkedés + közös keret”](./M0_PEULA/M0.A%20–%20„Kickoff%20&%20ismerkedés%20+%20közös%20keret”.md)

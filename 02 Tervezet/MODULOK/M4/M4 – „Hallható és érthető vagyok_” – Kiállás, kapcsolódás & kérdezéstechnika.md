@@ -127,7 +127,7 @@ A modul végére a résztvevő…
      * **Alapszint / rendben (= küszöb):** **mind az 5 elem megnevezve és értelmezhető, de általánosabb, nincs kifejezetten erre a kvucára szabva.**
      * **Még nem éri el:** **legalább egy elem hiányzik vagy nem értelmezhető (pl. nincs megnevezve a kvuca, vagy nincs „mit vigyenek haza”).**
    * **Küszöb (cut-score) indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritérium-referenciás, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett pitch-váz) akkor teljesül érdemben, ha a pitch hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kinek” vagy „miért fontos nekik”) esetén a pitch nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
-   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (SBI-alapú visszajelzés) + újra-beadás lehetősége (mastery logika).
+   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** SBI-szellemű, M1-ben tanult visszajelzése a beadott pitchre) + újra-beadás lehetősége (mastery logika). *(Megjegyzés: az M4.B peulán a társas visszajelzés két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, és a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott pitch-vázra a strukturált, SBI-szellemű mentori visszajelzést itt a mentor adja.)*
 
 ***
 

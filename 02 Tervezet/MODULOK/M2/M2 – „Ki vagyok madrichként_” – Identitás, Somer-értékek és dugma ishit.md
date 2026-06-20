@@ -156,7 +156,7 @@ A modul végére a madrich…
 
 > A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (Study Lab) ajánlást kap, és újra beadhat** – nincs kizárás, nincs limit a próbálkozásra.
 
-> **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzet + a választott someres értéked és dugma ishit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika pedig pontozza a *„SMART cél – someres értékhez kötött”* sort. Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
+> **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzet + a választott someres értéked és dugma ishit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika R1 (**SMART nevelési cél**) sora pedig pontozza a *„someres értékhez kötött”* jegyet (lásd „M7 – KAPU” §B, R1 sor). Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
 
 **Javítás / támogatás logika:**
 
@@ -170,7 +170,7 @@ A modul végére a madrich…
 **Minimum, amit érdemes figyelni:**
 
 * **Activity completion:**
-  * L1–L4 teljesítési arány modulonként;
+  * L1–L4 teljesítési arány leckénként;
   * külön figyelni, hol esnek ki (különösen L3–L4 körül).
 * **H5P analitika:**
   * Melyik pillérnél (cionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
@@ -180,7 +180,7 @@ A modul végére a madrich…
   * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrich-szerephez kötött szabály.
 * **Thresholdok / beavatkozási pontok (példák):**
   * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → M2.F Study Lab + extra emlékeztető.
-  * Ha az identitás-jegyzetek <70%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma ishitről.
+  * Ha az identitás-jegyzetek >30%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma ishitről.
 * **Program-szintű használat:**
   * az M2 completion-adatai jelzik, mennyire sikerül a résztvevőket bevonni a saját identitásuk és értékeik tudatosításába;
   * a száraz completion mellé érdemes rövid offline „exit ticketet” is kérni Peula A/B után (pl. 1 mondat: „Miben szeretnék idén dugma ishit lenni?”).

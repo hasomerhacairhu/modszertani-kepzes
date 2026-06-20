@@ -17,6 +17,8 @@
 
 A madrich toolboxa **bővül konkrét játékokkal, történetekkel és kézműves ötletekkel**, és érti, hogy **melyik eszköz melyik kvucának**, milyen céllal és **milyen biztonsági / inkluzivitási szempontokkal** való. A modul végére elkészít **1 használható játéklapot** választott játékhoz / történethez / kézműveshez, benne: cél, kvuca, leírás, biztonság, inkluzivitás, variációk.
 
+> 🔁 **Vissza M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / visszahívás / spacing) **változatlanul érvényes** – az M6 toolbox ennek a láncnak az eszköz-szintű folytatása.
+
 ## 2. Kimeneti kompetenciák
 
 A modul végére a madrich…
@@ -189,7 +191,7 @@ A modul végére a madrich…
   * rubrikában min. „oké” (2) szint **minden sorban**,
   * **a Biztonság (R4) ÉS az Inkluzivitás (R5) sor egyaránt hard-gate**: ha **bármelyik** nem éri el az „oké” szintet → javítás kötelező (mentorral / staffal egyeztetve), a többi sortól függetlenül.
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának – az M7 Peula v2-ben ez adja a peula „Élmény-blokk” pontját, a biztonsági és inkluzivitási megjegyzések pedig becsatlakoznak a Zmán Kvucá-checklistbe.
+> **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának. Az M7 Peula v2-ben ez emelhető be az **élmény-blokkba (rubrika R3)**; a játéklap **eszközspecifikus biztonsági megjegyzései** (pl. stop-jelszó, consent, „nem valós szerepet játszunk le”) a Peula v2 **R4 (Gyerekvédelem & safety)** sorának konkrét építőkövei – az M3 általános red-flag-kerete mellé –, az **inkluzivitási variációk** pedig az **R5 (Inkluzivitás)** sorát töltik meg. Mindkettő tovább él a Zmán Kvucá-checklist **hozzáférhetőség & inkluzivitás** és **gyerekvédelem & határok** sorában is. *(A pontos beépülést az [M7 – KAPU](../M7/M7%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) §CAPSTONE M6-sora rögzíti.)*
 
 ## 7. Learning analytics a modul szintjén – mit nézzen a stáb?
 

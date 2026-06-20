@@ -291,15 +291,22 @@ Ha nagyon hiányos / alibi:
 
 1. **Általános elégedettség** – Likert (1–5)
    > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrichként fejlődj?”
-2. **Hasznos modulok** – Multi Choice (több válasz jelölhető)
+2. **A 3 belépő-ígéret beváltása** – 3×Igen / Részben / Nem rács (vagy 3×Likert 1–5)
+   > „Az **M0-ban 3 ígéretet** kaptál a képzéstől. Mennyire érezted, hogy ezek **beváltak**?”
+   > a) **Nem voltam egyedül** (volt kvuca / stáb / mentor, akire számíthattam).
+   > b) **Ez fejlődési út volt, nem vizsga.**
+   > c) **Számított a hangom** (a kérdéseim, visszajelzéseim eljutottak valahova).
+   >
+   > *(Kísérő Short Answer, opcionális):* „Hol hiányzott ezekből valami?”
+3. **Hasznos modulok** – Multi Choice (több válasz jelölhető)
    > „Melyik modul(oka)t élted meg **a leghasznosabbnak**?” (M0–M7 listázva)
-3. **Terhelés** – Single Choice
+4. **Terhelés** – Single Choice
    > „Hogyan élted meg a félév összterhelését (online + offline)?” – Túl kevés / pont elég / néha sok / túl sok
-4. **Mi segített a legjobban?** – Short Answer
+5. **Mi segített a legjobban?** – Short Answer
    > „Mi volt az az 1–2 dolog (modul, peula, módszer, ember), ami **a legtöbbet segített** neked madrichként?”
-5. **Mi volt nehéz / túl sok?** – Short Answer
+6. **Mi volt nehéz / túl sok?** – Short Answer
    > „Mi volt számodra a **legnehezebb** része ennek a félévnek?”
-6. **Javaslat a jövőre** – Short Answer
+7. **Javaslat a jövőre** – Short Answer
    > „Ha egy dolgot változtathatnál a képzésen jövőre, **mi lenne az?**”
 
 ### Beállítás-javaslatok

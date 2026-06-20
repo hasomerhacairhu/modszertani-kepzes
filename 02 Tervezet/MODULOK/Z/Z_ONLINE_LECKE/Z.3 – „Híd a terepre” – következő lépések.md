@@ -93,7 +93,7 @@ Opciók:
 > **Miért „small steps”?**
 
 > Ha túl nagyot vállalsz, könnyen jön a:
-> – *„Úgysem sikerült, akkor inkább nem is próbálkozom.”*
+> – *„Úgysem sikerülne, akkor inkább nem is próbálkozom.”*
 
 > Ha túl kicsit, túl általánosat:
 > – *„Jobb madrich leszek.”* – ez szép, de **nem tudod, mikor teljesült.**
@@ -233,7 +233,7 @@ Placeholder:
 
 > ✅ **Self-check – Ha holnap kezdenéd…**
 
-> Nézd meg a 2 célmondatodat (a „A következő 3 Zmán Kvucámon…” és „A következő hónapban…” kezdetűt).
+> Nézd meg a 2 célmondatodat (a „A következő 3 Zmán Kvucámon…” és „A következő hónapban…” kezdetűeket).
 
 > Tegyél fel magadnak 1 kérdést:
 

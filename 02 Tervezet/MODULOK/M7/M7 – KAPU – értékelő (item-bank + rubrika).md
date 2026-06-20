@@ -273,13 +273,15 @@
 | **0** | Nincs safety-rész, **vagy** a terv aktív kockázatot hagy benne (pl. madrich egyedül, becsukott ajtó mögött egy chanichhal; nincs B-terv kockázatos elemnél). **→ Kapu nem nyílik.** |
 | **1** | Van utalás a biztonságra, de **általános** („figyelünk rá”), nincs konkrét red-flag-lépés és nincs megnevezve, kihez fordul. **→ Kapu nem nyílik.** |
 | **2** | A Zmán Kvucá-checklist alapján **legalább 1 konkrét gyerekvédelmi lépés** szerepel (mit tesz red flag esetén, **kit von be** – mentor / felelős), és látszik a **B-terv** a kockázatos elemnél. |
-| **3** | Több területre kiterjedő, **konkrét** safety-keret: red-flag-protokoll + nem-egyedül-elv + határhelyzet-mondat („mit nem engedek meg”) + B-terv – mind a saját peulára szabva, nem sablonszöveg. |
+| **3** | Több területre kiterjedő, **konkrét** safety-keret: red-flag-protokoll (chanich-disclosure **ÉS** felnőtt-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” elv) + nem-egyedül-elv + határhelyzet-mondat („mit nem engedek meg”) + B-terv – mind a saját peulára szabva, nem sablonszöveg. |
 
 > ⛔ **Override-szabály:** R4 = 0 vagy 1 → a kapu nem teljesíthető, függetlenül a többi sortól és a %-tól. Visszajelzés + javított leadás kötelező.
 
 ***
 
 ### R5 — Inkluzivitás & hozzáférhetőség  🔴 KRITIKUS
+
+> **Hova kerül a 11 pontban?** Az inkluzivitás nem önálló 11-pont, hanem a **„3. Kvuca + idő + helyszín”** pontba és a Zmán Kvucá-checklist **„Hozzáférhetőség & inkluzivitás”** (4.) területébe épül be – innen, illetve az **M6 játéklap inkluzivitás-mezőjéből** emeld át a saját peuládba. Ez a kritikus sor ezt méri.
 
 | Pont | Megfigyelhető kritérium |
 | --- | --- |
@@ -358,7 +360,7 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 | --- | --- | --- |
 | **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A produktum **utóreflexiója (11. pont)** és a **bukás-útvonal javító visszajelzése** SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de ugyanazzal az SBI-szemlélettel (konkrét helyzet–viselkedés–hatás). | R3 (utóreflexió), bukás-feedback-protokoll |
 | **M2 – identitás / érték** (identitás-jegyzet, dugma ishit; a kiemelt someres érték) | A SMART nevelési cél a madrich saját someres értékéhez / dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd (R – Releváns). | **R1 – SMART cél** („someres értékhez kötött” jegy), R2 (kvuca-illeszkedés indoklása) |
-| **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá-safety a korábban tanult gyerekvédelmi keretre (red flag → első lépés → jelzés) támaszkodik. | **R2 – kvuca-illeszkedés** (korosztály), **R4 – Gyerekvédelem & safety** |
+| **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá-safety a korábban tanult gyerekvédelmi keretre támaszkodik: chanich-disclosure esetén red flag → meghallgat (nem ígér titoktartást, nem nyomoz) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály), **R4 – Gyerekvédelem & safety** |
 | **M5 – módszer-logika** („Feladat–kvuca–módszer + tanulástan” táblázat) | A cél ↔ módszer ↔ kvuca illesztés tudatos indoklása. | **R6 – Módszer-illeszkedés** (a „3” szinten explicit M5-hivatkozás) |
 | **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) | A peula konkrét élmény-blokkja egy M6-játéklapból emelhető be; a safety + inkluzivitási mezők továbbélnek. | R3 (élmény-blokk), **R5 (inkluzivitás)**, **R4 (safety)** |
 

@@ -144,8 +144,8 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 
 - A) „Úgy éreztem, nem fontos neked, amit megbeszélünk.” ✅
 - B) „Idegesítő vagy.” *(címke a személyről)*
-- C) „Mindig a telefonod nyomkodod.” *(általánosított viselkedés, ráadásul „mindig”)*
-- D) „A megbeszélésen, a végefelé…” *(ez S – szituáció)*
+- C) „Mindig a telefonodat nyomkodod.” *(általánosított viselkedés, ráadásul „mindig”)*
+- D) „A megbeszélésen, a vége felé…” *(ez S – szituáció)*
 
 **Feedback:** Az I azt mondja el, **mit okozott benned / a csapatban**. A B minősít, a C általánosít („mindig”), a D pedig a helyzetet jelöli – nem a hatást.
 

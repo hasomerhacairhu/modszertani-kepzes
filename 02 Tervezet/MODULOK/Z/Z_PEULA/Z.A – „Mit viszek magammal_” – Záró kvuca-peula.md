@@ -126,6 +126,8 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 1. **Safety keret (1–2 perc)**
    Képző:
    > „Most jön egy kicsit személyesebb rész, de nem terápiát tartunk – tanulási pillanatokról beszélgetünk. Nem kötelező mély vagy nagyon fájdalmas dolgot hozni, annyit mondasz, amennyi neked most oké.”
+   * **M0-tükör (kb. 1 perc – kösd vissza az első peulához):** Az első, kickoff-peulán (M0.A) a kvuca egy plakátra felírta, hogy **mit vár, mitől fél, mit hoz** a képzésbe – akkor azt ígértük, hogy a Z-modulnál visszanézünk rá. Ha az eredeti plakát fizikailag megvan, **hozd be és függeszd ki** most; ha nincs meg, emlékezetből idéztesd fel. Indító mondat:
+     > „Az első alkalmon felírtátok egy plakátra, mit vártok ettől a képzéstől, mitől féltek, és mit hoztok bele. Most, mielőtt párba álltok, gondolj vissza: **amitől akkor féltél, az hogy alakult? Amit vártál, megvalósult-e?** Lehet, hogy épp ez lesz az egyik tanulási pillanatod, amit mindjárt megosztasz.”
 2. **Párok / triádok kialakítása (1–2 perc)**
    * Kérd meg őket, hogy alakítsanak **párokat vagy hármasokat** (létszámtól függ).
    * Ha valaki egyedül maradna, a képző csatlakozik hozzá.
@@ -237,8 +239,8 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Lépések:**
 
 1. **Szó-írás (2–3 perc)**
-   Képző:
-   > „Most mindenki kap egy kis cetlit. Írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat, mondat – ami neked most igaz. Nem kell nevet írni rá.”
+   Képző (kösd vissza az M0.A induló-szavaihoz):
+   > „Az első alkalmon mindenki mondott **1 szót, amivel elindult** ebben a képzős évben. Most nézzük meg, **milyen szóval érkeztetek meg**. Mindenki kap egy kis cetlit – írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat, mondat – ami neked most igaz. Nem kell nevet írni rá.”
    * Mindenki felír egy szót.
 2. **Közös felhő kirakása (2 perc)**
    * Kérd meg őket, hogy egyenként (vagy egyszerre) vigyék a cetlit a kijelölt felületre (plakát, fal, kör közepe).

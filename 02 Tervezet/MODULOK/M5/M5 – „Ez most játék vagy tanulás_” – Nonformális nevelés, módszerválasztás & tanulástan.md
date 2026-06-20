@@ -65,12 +65,12 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Cél:**
   Megérteni, hogy a kvuca akkor tanul, ha **csinál, felidéz és többször találkozik a tartalommal**, nem attól, hogy a madrich sokat beszél.
 * **Eszközök:**
-  * H5P **Interactive Video** / Column: példák párokban („egyszer, hosszú elmondás” vs. „többször, röviden ismételni”; „én mondom meg” vs. „ők próbálják felidézni”).
+  * H5P **Course Presentation** (6–8 slide) + **Question Set** (4–5 kérdés, a Course Presentation végébe ágyazva): példák párokban („egyszer, hosszú elmondás” vs. „többször, röviden ismételni”; „én mondom meg” vs. „ők próbálják felidézni”).
 * **Rövid flow:**
   * Hook: hétköznapi tanulás-helyzetek (dolgozat, szabálymagyarázás, énekpróba) – „melyiktől emlékszel jobban?”.
   * Input: három kulcsfogalom rövid, someres példákkal (peula, tábor, ken).
   * Activity: döntések arról, melyik megoldás segíti jobban a hosszú távú tanulást (drag & drop / jelölés).
-  * Check: 4–6 kérdés fogalomfelismerésre + 1–2 szituációs kérdés „mit csinálsz, ha azt akarod, hogy jövő héten is emlékezzenek?”.
+  * Check: 4–5 kérdés fogalomfelismerésre + 1–2 szituációs kérdés „mit csinálsz, ha azt akarod, hogy jövő héten is emlékezzenek?”.
 
 ### M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként (15–20’)
 

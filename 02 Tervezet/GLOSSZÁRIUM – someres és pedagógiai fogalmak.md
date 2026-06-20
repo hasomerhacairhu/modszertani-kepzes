@@ -27,13 +27,16 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 
 ### hagshama (הגשמה)
 - **Jelentés:** önmegvalósítás; a mozgalmi eszmék gyakorlati beteljesítése (pl. alija, kibuc, „az értékeimet tettekre váltom”).
-- **Státusz:** **szerepel** a tananyagban (M2.3 – „Somer 3 pillére" outró, a dugma ishit-kapcsolaton át operacionalizálva; Program terv §0/§2). A pontos mozgalmi megfogalmazást érdemes a helyi Somer szakértővel megerősíteni.
+- **Státusz:** **szerepel** a tananyagban (M2.3 – „Somer 3 pillére" outró, a dugma ishit-kapcsolaton át operacionalizálva), és curriculum-szinten az M2-érték→M7 SMART nevelési cél átkötésben teljesedik ki (M7.1 – a SMART cél Releváns eleme a saját someres értékre épül; vö. az M2-ben kiemelt érték + személyes példamutató mondat); Program terv §0/§2. A pontos mozgalmi megfogalmazást érdemes a helyi Somer szakértővel megerősíteni.
 - **Megjegyzés:** írásmód `hagshama` (ne „hagsama”).
 
 ### ken (קן)
 - **Jelentés:** „fészek” – a Hasomer Hacair helyi csoportja és fizikai klubhelyisége egyben.
 - **Összetétel (kánoni):** `ken-vezető`, „ken nagyterme”, „ken szabályai”.
 - **Megjegyzés:** mozgalmi szakszó. Ne keverd a magyar „ken” igével/köznévvel – kontextusból mindig a fészek/helyi csoport jelentés.
+
+### Kivsza
+- Lásd: **kvuca-nevek** (4. korosztály). Jelentés: bárány/juh (11–13 év). 🐑
 
 ### kvuca (קבוצה)
 - **Jelentés:** csoport; a someres nevelés alapegysége – a bensőséges kiscsoport, ahonnan az egész nevelési élmény kibomlik.
@@ -42,9 +45,6 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
   - alapalak / alanyeset: **`kvuca`** (ékezet nélkül).
   - toldalékolt tő: **`kvucá-`** (hosszú á): kvucának, kvucára, kvucában, kvucáról.
   - Ez szabályos magyar tőhangzónyúlás, **nem hiba** – ne „egységesítsd” rövid a-ra.
-
-### Kivsza
-- Lásd: **kvuca-nevek** (4. korosztály). Jelentés: bárány/juh (11–13 év). 🐑
 
 ### Leviatan
 - Lásd: **kvuca-nevek**. Jelentés: cet/leviatán (14–16 év). 🐋
@@ -76,7 +76,7 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 
 ### Zmán Kvucá (זמן קבוצה)
 - **Jelentés:** „csoport-idő / kvuca-idő” – a kvucának szentelt, rendszeres közös idő/keret.
-- **Írásmód (kánoni):** **egységesen `Zmán Kvucá`** (mindkét szó nagybetűs kezdettel, a Kvucá hosszú á-val). 221 előfordulásban teljesen egységes – ne bontsd meg.
+- **Írásmód (kánoni):** **egységesen `Zmán Kvucá`** (mindkét szó nagybetűs kezdettel, a Kvucá hosszú á-val). A teljes tananyagban egységes – ne bontsd meg.
 
 ---
 
@@ -133,7 +133,8 @@ Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és 
 ### mastery-kapu
 Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** köti (pl. ≥80%, több próbálkozással), nem egyszeri vizsgához. Cél a tényleges elsajátítás, nem a rangsorolás. A tananyagban kvíz- vagy rubrika-alapú formában jelenik meg.
 
-### spacing / retrieval (tanulástan)
+### gyakorlás / spacing / retrieval (tanulástan)
+- **gyakorlás (aktív cselekvés):** a chanich nem csak hallgat, hanem maga **csinál** valamit (játszik, mondja, írja, mutatja); az aktív feldolgozás jobban rögzít, mint a passzív befogadás. (M5.3)
 - **spacing (elosztott gyakorlás):** a tananyag időben **szétterítve**, ismételt visszatérésekkel rögzül jobban, mint egyszeri tömbben.
 - **retrieval (előhívásos gyakorlás):** a tudás **aktív felidézése** (kvíz, kérdés, „mondd el SBI-ben”) erősebben rögzít, mint az újraolvasás.
 

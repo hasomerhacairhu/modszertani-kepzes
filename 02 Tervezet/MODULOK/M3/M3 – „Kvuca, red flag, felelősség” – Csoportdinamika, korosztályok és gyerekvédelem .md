@@ -129,7 +129,7 @@ A modul végére a résztvevő…
 * **Tartalom röviden:**
   * Rövid Do/Don’t példa-lista:
     * **DO:** közös chat-szabályok, csoportos kommunikáció preferálása, red flag jelzése mentornak / felelősnek.
-    * **DON’T:** késő esti privát chat egy chanichcsal, privát fotók kérése, red flag elhallgatása,
+    * **DON’T:** késő esti privát chat egy chanichhal, privát fotók kérése, red flag elhallgatása,
       * **+ egyértelműen:** madrich nem lehet párkapcsolatban chanichhal (súlyos red flag).
   * H5P Sorting feladat konkrét példákkal (OK / Nem OK).
   * Assignment-sablon a modulproduktumhoz:
