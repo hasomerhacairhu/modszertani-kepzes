@@ -22,7 +22,7 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 
 ### hagshama (הגשמה)
 - **Jelentés:** önmegvalósítás; a mozgalmi eszmék gyakorlati beteljesítése (pl. alija, kibuc, „az értékeimet tettekre váltom”).
-- **Státusz:** **jelenleg NEM szerepel** a tananyagban (0 előfordulás). Ha bekerül, ezzel a jelentéssel és magyar glosszával vezesd be, a helyi Somer szakértővel egyeztetve.
+- **Státusz:** **szerepel** a tananyagban (M2.3 – „Somer 3 pillére" outró, a dugma ishit-kapcsolaton át operacionalizálva; Program terv §0/§2). A pontos mozgalmi megfogalmazást érdemes a helyi Somer szakértővel megerősíteni.
 - **Megjegyzés:** írásmód `hagshama` (ne „hagsama”).
 
 ### ken (קן)
