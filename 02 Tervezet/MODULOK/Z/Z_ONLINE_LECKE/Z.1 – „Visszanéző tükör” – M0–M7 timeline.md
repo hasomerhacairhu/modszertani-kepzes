@@ -18,7 +18,7 @@
 
 > „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit jöttél már végig** madrichként.”
 
-**Flow:** Hook → Input (timeline + modul-egymondatosok) → Activity (saját highlightok) → Check (mini-kvíz + záró mondat) 
+**Flow:** Hook → Input (timeline + modul-egymondatosok) → Activity (saját highlightok) → Check (mini-kvíz + záró mondat)
 
 ***
 

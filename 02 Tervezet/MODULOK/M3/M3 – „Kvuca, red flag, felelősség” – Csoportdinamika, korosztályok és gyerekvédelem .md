@@ -1,4 +1,4 @@
-# M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyerekvédelem 
+# M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyerekvédelem
 
 ## 1. Modul meta
 

@@ -4,22 +4,22 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (M2.A, 1. hét) és Peula B (M2.B, 2. hét), kb. **45–45’**
-* **Online terhelés:** kb. 4×10–15 perc mikrolecke (M2.1–M2.4, össz. 40–60 perc) 
+* **Online terhelés:** kb. 4×10–15 perc mikrolecke (M2.1–M2.4, össz. 40–60 perc)
 * **Teljes terhelés:** kb. 2–3 óra
 
 **Modulközponti kérdés**
 
-> „Ha egy chanich végignézne rajtam egy napon, **milyen értékeket tanulna tőlem** anélkül, hogy bármit magyaráznék?” 
+> „Ha egy chanich végignézne rajtam egy napon, **milyen értékeket tanulna tőlem** anélkül, hogy bármit magyaráznék?”
 
 **Modulcél röviden**
 
-A madrich **megnevezi identitásrétegeit és 3 személyes értékét, mindegyikhez 1 megfigyelhető madrich-viselkedést rendel**, és megfogalmazza, **milyen dugma ishit szeretne lenni** – konkrét viselkedésben, nem csak szavakban. 
+A madrich **megnevezi identitásrétegeit és 3 személyes értékét, mindegyikhez 1 megfigyelhető madrich-viselkedést rendel**, és megfogalmazza, **milyen dugma ishit szeretne lenni** – konkrét viselkedésben, nem csak szavakban.
 
 ***
 
 ## 2. Kimeneti kompetenciák
 
-A modul végére a madrich… 
+A modul végére a madrich…
 
 1. **Identitás-tudatosság – felrajzolja és megnevezi az identitásrétegeit**
    * Felrajzolja saját identitás-térképét (ÉN–család–zsidóság–Somer–egyéb közegek).
@@ -50,7 +50,7 @@ A modul végére a madrich…
 * **L1 = M2.1** – Ki vagyok én madrichként? – identitás-körök
 * **L2 = M2.2** – Értékeim mint iránytű
 * **L3 = M2.3** – Somer 3 pillére – mini-kapszula
-* **L4 = M2.4** – Reflektív napló & határok: „A dugma ishit nem terapeuta” 
+* **L4 = M2.4** – Reflektív napló & határok: „A dugma ishit nem terapeuta”
 
 ### L1 / M2.1 – „Ki vagyok én madrichként?” – identitás-körök (10–15’)
 
@@ -62,12 +62,12 @@ A modul végére a madrich…
 
 ### L2 / M2.2 – Értékeim mint iránytű (10–15’)
 
-* **Cél:** 3 vezető személyes érték azonosítása és „lefordítása” látható viselkedéssé, amit a chanich le tud olvasni a madrichról. 
+* **Cél:** 3 vezető személyes érték azonosítása és „lefordítása” látható viselkedéssé, amit a chanich le tud olvasni a madrichról.
 * **Fő tartalom röviden:**
   * érték fogalma és példák (igazságosság, közösség, szolidaritás, someres értékek);
   * 10–15 érték közül top 3 kiválasztása;
   * rövid reflexió konkrét helyzetekről + 1 kiemelt érték, amelyben idén különösen dugma ishit szeretne lenni.
-* **Moodle/H5P mix:** H5P (választós + nyitott kérdések). 
+* **Moodle/H5P mix:** H5P (választós + nyitott kérdések).
 
 ### L3 / M2.3 – Somer 3 pillére – mini-kapszula (kb. 15’)
 
@@ -94,7 +94,7 @@ A modul végére a madrich…
 
 ### Peula A (M2.A) – „Identitás-körök élőben – mit mutatok magamból?” (45’)
 
-* **Kapcsolódó leckék:** M2.1, M2.2 (opcionálisan M2.4). 
+* **Kapcsolódó leckék:** M2.1, M2.2 (opcionálisan M2.4).
 * **Fő cél:**
   * az online identitás- és értékmunka élményesítése kvucában;
   * biztonságos megosztási tér gyakorlása – mindenki annyit oszt meg, amennyi neki oké;
@@ -105,11 +105,11 @@ A modul végére a madrich…
 
 ### Peula B (M2.B) – „Somer-értékek a gyakorlatban – döntések, amelyek tanítanak” (45’)
 
-* **Kapcsolódó leckék:** M2.2, M2.3. 
+* **Kapcsolódó leckék:** M2.2, M2.3.
 * **Fő cél:**
   * someres értékek (pillérek + gyakorlati értékek) felismerése konkrét helyzetekben (suli, tábor, kvuca);
   * megértés, hogy egy leendő madrich **minden döntése tanít**;
-  * helyzetek elemzése: „Milyen érték látszik ezen a viselkedésen?” és hogyan lehet ezt tudatosabb dugma ishitté formálni. 
+  * helyzetek elemzése: „Milyen érték látszik ezen a viselkedésen?” és hogyan lehet ezt tudatosabb dugma ishitté formálni.
 * **Modulhoz való szerepe:**
   * összeköti a személyes értékeket (M2.2) és az ideológiai pilléreket (M2.3) a terepen hozott döntésekkel;
   * előkészíti az 1 oldalas identitás-jegyzet értékrészét.
@@ -119,16 +119,16 @@ A modul végére a madrich…
 ## 5. Felzárkóztató peula (M2.F – Study Lab) – ha szükséges (45’)
 
 * **Peula kód:** M2.F
-* **Cím:** Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab) 
-* **Kapcsolódó leckék:** M2.1, M2.2, M2.3, M2.4. 
+* **Cím:** Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab)
+* **Kapcsolódó leckék:** M2.1, M2.2, M2.3, M2.4.
 * **Fő célok:**
   1. **Beazonosítja**, hol tart az M2.1–M2.4 leckékben, és **megnevezi**, mit kell még pótolnia/újranéznie.
   2. Legalább egy leckében érdemben haladjon (befejez, újranéz vagy kiegészít egy kritikus részt).
   3. Le tudjon írni/ mondani leckénként 1 gondolatot és 1 kérdést.
-  4. Lásson egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás). 
+  4. Lásson egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás).
 * **Modulhoz való szerepe:**
   * technikai és tartalmi „mentőöv” azoknak, akik lemaradtak;
-  * segít, hogy senki ne maradjon ki az identitás/érték/határ fogalmi keretből, mielőtt továbblép a programban. 
+  * segít, hogy senki ne maradjon ki az identitás/érték/határ fogalmi keretből, mielőtt továbblép a programban.
 
 ***
 
@@ -138,7 +138,7 @@ A modul végére a madrich…
 * **A kapu értékelő sablonja:** a self-check checklist, az 1 oldalas jegyzet-sablon és a fejlesztő rubrika **nem itt, hanem a kanonikus [M2 – KAPU – értékelő (item-bank + rubrika)](./M2%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) fájlban él** – ez a §6 hivatkozási forrása. **Az ottani A. szakasz adja a 10 pontos tanulói self-checket, a C. szakasz a 4 soros (R1–R4) fejlesztő rubrikát, a D. szakasz pedig az 1 oldalas jegyzet-sablont.**
 * **Eszközök:**
   * Activity completion (H5P + Assignment) az M2.1–M2.4 leckékre **– ahol a „completion” nem a végiglapozást jelenti, hanem érdemi kitöltést** (lásd lentebb a „Mit jelent a complete?” pontot);
-  * **az identitás-jegyzet Moodle Assignment, hozzá a fenti értékelő-fájl 4 soros rubrikája Moodle „Rubric” értékelési módszerként rögzítve** (a régi „modul-végi checklist vagy »M2 – Kapu (self-check)« Moodle Page” helyett); **opcionálisan H5P Question Set / Moodle Quiz a B. szakasz fogalmi self-check itemeivel – ez formatív, completion-alapú, NEM a kapu.** 
+  * **az identitás-jegyzet Moodle Assignment, hozzá a fenti értékelő-fájl 4 soros rubrikája Moodle „Rubric” értékelési módszerként rögzítve** (a régi „modul-végi checklist vagy »M2 – Kapu (self-check)« Moodle Page” helyett); **opcionálisan H5P Question Set / Moodle Quiz a B. szakasz fogalmi self-check itemeivel – ez formatív, completion-alapú, NEM a kapu.**
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
@@ -161,7 +161,7 @@ A modul végére a madrich…
 **Javítás / támogatás logika:**
 
 * Ha valaki nem fejezi be valamelyik kulcselemét → mentor értesítése, M2.F (Study Lab) ajánlása.
-* Nincs kizárás, csak jelzés és támogatás. 
+* Nincs kizárás, csak jelzés és támogatás.
 
 ***
 
