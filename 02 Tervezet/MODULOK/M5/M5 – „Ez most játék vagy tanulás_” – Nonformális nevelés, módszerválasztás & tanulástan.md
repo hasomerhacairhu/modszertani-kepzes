@@ -17,6 +17,8 @@
 
 A modul végére **megnevezed**, mitől nonformális a someres nevelés, **alkalmazod** a tudatos **feladat → cél → kvuca → módszer** logikát, és saját szavaiddal **elmagyarázod**, hogyan tanulnak tényleg a chanichok (**gyakorlás, visszahívás, spacing**).
 
+> 🔁 **Honnan jössz:** Az M4-ben megírtad az első, kvucára szabott **peula-pitchedet** (téma + kvuca). Itt ezt visszük tovább: ugyanaz a kvuca és témakör lehet az **M5.4 „Feladat–kvuca–módszer” táblázatod** egyik kiinduló sora – most a tudatos **módszer-** és **tanulástan-szempontot** tesszük hozzá.
+
 **Célcsoport:** képzős madrichok / madrichot (kb. 15+)
 
 ## 2. Kimeneti kompetenciák
@@ -147,6 +149,14 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
   * **2–3 próbálkozás** engedélyezve; hibánál rövid magyarázó feedback: merre menjen vissza (M5.1–M5.4) javítani a megértést.
   * Ajánlott **diagnosztikus jelzőküszöb ≥ 80% (≥10/12)** – ez **nem kizáró feltétel**: aki alatta van, **nem bukik**, hanem felzárkóztató hurokba kerül (**M5.F Study Lab** + a kvíz item-szintű analitikája alapján célzott visszairányítás). A kvíz célja, hogy a fogalmi tudás **mérve és fejlesztve** legyen, mire a madrich a produktumot beadja.
 
+**Minimális teljesítés (M5 „complete”):**
+
+1. **M5.1–M5.4** mikroleckék activity completion **– érdemi kitöltéssel, nem csak a slide-ok végigléptetésével** (M5.4-nél: a saját táblázat ténylegesen összeállítva és Assignmentként feltöltve, nem üres fájl).
+2. **Éles kapu – modulproduktum:** a leadott **„Feladat–kvuca–módszer + tanulástan” táblázat** eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint, az R4 (tanulástan-elem valódisága) kritikus sor** (a „Hiányos” = javításra vissza, nincs kizárás).
+3. **Diagnosztikus fogalom-kvíz:** **formatív, completion-alapú** (kitöltés elég, NEM kapuz) – a ≥80% csak felzárkózás-jelző.
+
+> **Megjegyzés:** üres / csak címke-szintű táblázat **nem „complete”** – a KAPU R4 „csak címke” = Hiányos, ami javításra visszaküldést jelent.
+
 > A 12-itemes item-bank, a distraktor-logika és a 4-soros, megfigyelhető rubrika (R1–R4) a kanonikus KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, visszahívás, spacing) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem random játékot raksz be, hanem a SMART nevelési célhoz és a kvucához illő módszert.
@@ -166,10 +176,8 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
 4. **Modulproduktum (Assignment – M5.4) – az éles kapu:**
    * leadási arány: hányan adták le a táblázatot;
    * **minőség-ellenőrzés a kanonikus KAPU-fájl 4-soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-check, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. **Ez a sor dönti el a továbblépést** (a kvíz csak diagnosztizál). A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md).
-5. **Offline „exit ticket” (M5.B végén):**
-   * 1 perc írás:
-     * „Mi volt ma a leghasznosabb gondolat a tanulásról?”
-     * „Mit fogsz kipróbálni legközelebb, amikor peulát tartasz (tanulás szempontból)?”
+5. **Offline zárókör-jelzés (M5.B végén):**
+   * Az M5.B záró mondatbefejező köréből (**„Ha legközelebb peulát tervezek, először arra fogok figyelni, hogy…”**) a stáb élőben hallja, mire fókuszálnak a madrichok: a cél elsődlegessége, az aktív chanich, vagy a tanulástan (gyakorlás / visszahívás / spacing). Ha sokan általánosságban maradnak, érdemes a következő évfolyamnál erősíteni a tanulástan-elem konkretizálását (M5.3–M5.4).
 
 ***
 

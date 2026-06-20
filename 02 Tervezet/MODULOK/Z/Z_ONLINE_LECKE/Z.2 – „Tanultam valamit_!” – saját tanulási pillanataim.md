@@ -204,8 +204,9 @@ Opciók:
 
 > **1. saját feladat – „Na, most tanultam valamit…”**
 
-> Gondolj vissza a félévre.
-> Írj **5–8 mondatot** egy olyan helyzetről, amikor azt érezted:
+> 🔎 **A Z.1-ben felsoroltad a highlightjaidat** (2–3 modul/pillanat, ami megmaradt benned). Most **ne újra listázz** – **válassz ki közülük EGYET**, és menj bele mélyebben. Ha új pillanat jut eszedbe, az is jó – a lényeg, hogy itt **egyetlen** helyzetet dolgozz ki alaposan.
+
+> Írj **5–8 mondatot** erről az **egy** helyzetről, amikor azt érezted:
 > *„Na, most tanultam valamit magamról / a kvucámról / a madrich-szerepről.”*
 
 > Segítő kérdések:

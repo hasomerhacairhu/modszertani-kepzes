@@ -20,13 +20,13 @@
 |---|---|
 | **Modul** | M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyerekvédelem |
 | **Kapu típusa** | **Éles / mastery gate** (biztonságkritikus, gyerekvédelmi) |
-| **Komponens A – tudásmérés** | Szcenárió-alapú kvíz – **Moodle Quiz** *vagy* **H5P Question Set** |
+| **Komponens A – tudásmérés** | Szcenárió-alapú kvíz – **Moodle Quiz** (Gradebook-súllyal, „Grade to pass”, item-szintű/kritikus-item feltétel). **H5P Question Set csak akkor**, ha a Moodle-beli completionje **grade-alapú** (≥80% completionre állítva, **nem** attempt-/megtekintés-alapú) ÉS a kritikus itemek külön kikényszerítve – különben a kaput Moodle Quiz adja (vö. M7 KAPU minta). |
 | **Komponens B – produktum** | **Moodle Assignment + rubrika** (modulproduktum: helyzetleírás) |
 | **Küszöb (A)** | **≥ 80%** → 12 itemből **legalább 10 helyes** (lásd 1.2 pontozás) |
 | **Kötelező (kritikus) itemek** | **2., 4., 7., 9.** item **helyes válasza kötelező** a 80% mellett is (lásd 1.2) |
 | **Küszöb (B)** | Rubrika 1–4. sora mind legalább **„Alapszint (1)”**, az **R2 (titoktartás)** és **R4 (nem nyomoz / nem konfrontál)** sor **blokkoló** |
 | **Próbálkozások** | Több próbálkozás engedett (mastery-logika); 2 sikertelen próba után **mentor-bevonás (támogatás, nem büntetés)** |
-| **Belépő feltétel** | M3.1–M3.4 activity completion |
+| **Belépő feltétel** | M3.1–M3.4 activity completion. A modulproduktum (Komponens B) minőségi alapjához **erősen ajánlott az M3.B peulán való részvétel** (élő red-flag-felismerés + első-lépés / lépés-térkép gyakorlás). Ajánlott sorrend: **L1–L4 → M3.A/B → produktum-leadás → kapu-kvíz**. Ha a tanuló kihagyta az M3.B-t, a mentori review nézze meg, hogy a produktum **első lépése és „kit von be” része kellően konkrét-e** (vö. R3/R4). |
 | **Item-randomizálás** | Ajánlott: kérdés- és opció-sorrend keverése, próbálkozásonként cserélt item-pool (a leckebeli mini-kvízektől eltérő itemek – ezek itt új, dedikált kapu-itemek) |
 
 **Miért éles és nem puha ez a kapu?** A gyerekvédelem és a red flag-felismerés **biztonsági kérdés** – itt nem elég a részvétel, mérhető megértés kell. Ezért: produktív Assignment + valódi ≥80% küszöb + kötelező kritikus itemek.

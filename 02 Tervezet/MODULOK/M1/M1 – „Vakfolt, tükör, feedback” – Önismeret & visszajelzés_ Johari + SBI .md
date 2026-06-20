@@ -5,6 +5,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M1.A (hét 1) és M1.B (hét 2), kb. 45–45’
 * **Online terhelés:** kb. 4×10–20 perc mikrolecke (M1.1–M1.4, össz. \~50–70’)
+* **Javasolt sorrend (egymásba fűzve / interleaving):** hét 1: **M1.1–M1.2 online → M1.A peula**; hét 2: **M1.3–M1.4 online (a kapu-beadóval) → M1.B peula**. A mikroleckék tehát **nem egy ülésben**, hanem a két peula köré csoportosítva haladnak: M1.A-t a tanuló **az M1.3–M1.4 ELŐTT** végezze (M1.A előremutató SBI-hídja erre épül), M1.B-t pedig **utánuk**. Az M1.4 SBI-beadót (kapu) a 2. héten, M1.B előtt érdemes leadni.
 * **Teljes terhelés:** kb. 2–3 óra (online + offline). **Tervezz inkább a felső értékkel (≈3 óra): a megadott sávok a tényleges idő alsó becslései, és a reflexiós, írásos részek (különösen az M1.4 SBI-beadó + esetleges újrapróbálkozás a kapun) egyénenként hosszabbak lehetnek. Jobb felfelé kerekíteni, mint alá-ígérni – így a modul nem lesz „a vártnál nehezebb”.**
 
 **Modulközponti kérdés**
@@ -40,6 +41,8 @@ A modul végére a résztvevő…
 ***
 
 ## 3. Online mikroleckék (M1.1–M1.4)
+
+> A leckék itt sorszám szerint (M1.1→M1.4) szerepelnek, de a tanuló **nem egyben** dolgozza fel őket: **M1.1–M1.2** az M1.A peula **előtt**, **M1.3–M1.4** (a kapu-beadóval) az M1.B peula előtt esedékes – a részletes kadencia a §1 Modul meta „Javasolt sorrend” sorában.
 
 ### M1.1 – „Johari-ablak: vakfoltjaim felismerése” (10–15’)
 
@@ -163,7 +166,7 @@ A modul végére a résztvevő…
 
 ### Kaputípus
 
-* **Éles / mastery gate** – mivel az SBI-nyelv **alapeszköz** lesz a további modulokban és terepen (M3 gyerekvédelem, M6–M7 gyerekbiztonság stb.).
+* **Éles / mastery gate** – mivel az SBI-nyelv **alapeszköz** lesz a további modulokban és terepen: a tanuló itt tanult SBI-jét később **maga is produkálja** – az **M6.B** játéklap peer-feedbacknél (ahol az M6 expliciten vissza is horgonyozza M1-re) és az **M7 Peula v2** utóreflexiójánál + bukás-feedbackjénél. (Megjegyzés: az M3-ban az SBI-keretet nem a tanuló produktuma, hanem a **képzői/mentori** bukás-visszajelzés használja.)
 
 ### Eszköz
 

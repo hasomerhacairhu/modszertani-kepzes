@@ -4,7 +4,7 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), **45’ + 45’**
-* **Online terhelés:** kb. **4 db mikrolecke** (M7.1: 10–15’, M7.2–M7.4: 15–20’; össz. **55–75 perc**)
+* **Online terhelés:** kb. **4 db mikrolecke** H5P-magja: M7.1 **10–15’**, M7.2–M7.4 egyenként **15–20’** (össz. ~**55–75’**); ehhez jön **M7.3 Moodle Checklist (5–10’)** és **M7.4 Moodle Assignment-kitöltés (5–10’)** külön lépésként → online összterhelés **~65–95 perc**.
 * **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrich-óra, otthoni / védett munkaidő):**
   * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
   * **v1 → v2 véglegesítés** (az M7.B peula-klinika visszajelzései után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **safety-rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, etikus AI-átírás, és a **capstone-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 safety/kvuca-profil · M5 módszer · M6 játéklap).
@@ -202,10 +202,11 @@ A modul végére a madrich…
    > * **M1 – SBI** (Situation–Behavior–Impact): az utóreflexió (11. pont) és a bukás-útvonal javító visszajelzése SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni.
    > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd.
    > * **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá-safety és a kvuca-illeszkedés a korábban tanult gyerekvédelmi keretre és a someres kvuca-profilra támaszkodik.
+   > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch): a Peula 11-pont **élmény-blokk/feldolgozás** (5. pont) és **Feedback & finomhangolás** (10. pont) blokkja és az élő levezetés erre épül – a feldolgozó kérdéseid és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
    > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a safety- és inkluzivitási mezők itt élnek tovább.
    >
-   > Üzenet a madrichnak: „Hozd be az M1 SBI-nyelvet, az M2 saját értékedet, az M3 safety-keretet, az M5 módszer-logikádat és egy M6 játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §CAPSTONE.)
+   > Üzenet a madrichnak: „Hozd be az M1 SBI-nyelvet, az M2 saját értékedet, az M3 safety-keretet, az M4 kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5 módszer-logikádat és egy M6 játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §CAPSTONE.)
 
    * **Rubrika-minimum (példa):**
      1. SMART cél – egyértelmű, someres értékhez kötött.

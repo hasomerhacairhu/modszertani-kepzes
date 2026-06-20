@@ -6,6 +6,7 @@
 * **Heti offline:** péntek 2. sáv – **Z.A záró peula** (45–60’)
 * **Opcionális kísérő elem:** mentori / kiscsoportos záró beszélgetés (nem peula, 20–30’) azoknak, akiknek szükségük van rá
 * **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (H5P jegyzetelő ~15–20’ + Assignment-produktum ~20–30’ + feedback-űrlap ~5–10’ = **Z.4 önmagában kb. 40–60’**, a modul leghosszabb online eleme)
+* **Az ív sorrendje:** a **Z.1–Z.3** mikroleckék **a Z.A peula ELŐTT** ajánlottak (ráhangolódás), a **Z.4** záró reflexió pedig **a Z.A peula UTÁNRA** esik – a peulán megfogalmazott gondolatokból dolgozik. A peula tehát a Z.3 és a Z.4 közé ékelődik.
 * **Teljes terhelés:** kb. 2,5–3 óra – **tervezz inkább a felső értékkel (3 óra)**, mert a Z.4 produktum-leadás könnyen csúszik felfelé (kivált videós úton). A Z.4-et nyugodtan **két ülésre is bonthatod** (jegyzetelő külön, végleges reflexió külön).
 
 **Modulközponti kérdés**
@@ -134,6 +135,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 **Fontos:**
 – Nem kötelező és **nem része a formalizált modul-kapunak**.
 – Inkább a **mentori rendszer** eszköze, rugalmasan szervezhető (1:1 vagy 3–4 fős kiscsoport).
+– A Program terv §6 „félév-végi **reflektív »exit interview«** (akár rövid írás, akár beszélgetés)” pontja erre a beszélgetésre **és** a Z.4 záró reflektív produktumra (a „rövid írás” ág, ami mindenkinek kötelező) utal. Ez **reflektív, NEM értékelő** aktus: a summatív kaput az M7 már lezárta, a Z mentori beszélgetése nem értékel újra.
 
 ***
 
@@ -156,9 +158,12 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 ### Minimális teljesítés (Z „complete”)
 
-1. Z.1–Z.4 mikroleckék activity completion.
-2. Leadott záró reflexió + benne next step cél(ok).
-3. (Erősen ajánlott) feedback-űrlap kitöltése.
+A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 online a Z.A peula ELŐTT → 2) Z.A záró peula → 3) Z.4 záró reflexió + feedback a peula UTÁN, abból dolgozva.** Moodle-szinten érdemes a **Z.4-et `restrict access`-szel a Z.A dátuma mögé tenni**, hogy a tanuló ne tudja a peula előtt megírni a záró reflexiót.
+
+1. Z.1–Z.3 mikroleckék activity completion (ajánlottan a peula előtt).
+2. Z.A záró peula (offline).
+3. Z.4 leadott záró reflexió + benne next step cél(ok) (a peula után).
+4. (Erősen ajánlott) feedback-űrlap kitöltése.
 
 ***
 

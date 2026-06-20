@@ -15,6 +15,8 @@
 
 A résztvevő érti a csoportfejlődés (Tuckman) alaplogikáját, fejben tartja a 4 someres kvuca (Parparim, Kivsza, Leviatan, Zorea) fő jellemzőit, és rendelkezik **alap gyerekvédelmi szemlélettel**: felismer **red flag** helyzeteket, tudja, mit ígérhet / mit nem, és tudja, kihez fordul segítségért madrichként.
 
+> **Hol tartunk? (fázis-híd)** Eddig (M1–M2) magadra néztél: önismeret, visszajelzés, identitás és **dugma ishit**. Innentől (M3–M4) a **kvucára és a kapcsolatra** fordulunk – kikkel és hogyan dolgozol. Az M2-ben tisztázott **határaid** és a „**madrich, nem terapeuta**” szerep most a gyerekvédelmi keretben élesedik ki: a biztonságos felnőtt jelenlét ennek a folytatása.
+
 ***
 
 ## 2. Kimeneti kompetenciák
@@ -213,7 +215,7 @@ A modul végére a résztvevő…
   * Moodle Quiz vagy H5P Question Set – **szcenárió-alapú kvíz** gyerekvédelem & red flag témában.
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
 * **Követelmény az M3 „complete”-hez (kétkomponensű éles kapu – a kanonikus küszöb a [M3 – KAPU](./M3%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) fájlban):**
-  1. **M3.1–M3.4** mikroleckék activity completion (H5P-k végigjátszva).
+  1. **M3.1–M3.4** mikroleckék activity completion — **érdemi kitöltéssel** (a beágyazott H5P-interakciók / kérdések megválaszolva – pl. M3.3 Branching végigvitele döntésekkel, M3.4 Sorting elvégzése), **nem csak a slide-ok végigléptetésével**.
   2. **Komponens B – modulproduktum:** helyzetleírás (red flag + első lépés + kit von be) **Assignmentként leadva**, és eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint (1), az R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) sor blokkoló** (M3.4-hez kapcsolódva).
   3. **Komponens A – szcenárió-kvíz:** **≥80% (≥10/12) ÉS a kötelező kritikus itemek (2., 4., 7., 9.) helyesek** – a kritikus itemek tévesztése a 80% mellett is bukás.
 * **Kapu-jelzés & támogatás:**

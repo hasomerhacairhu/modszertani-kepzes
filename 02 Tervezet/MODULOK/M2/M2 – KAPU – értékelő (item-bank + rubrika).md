@@ -210,6 +210,10 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
    • __________________________________________________________________
    Ha egy chanich csak FIGYEL egy peulán, ezt olvasná le rólam:
    • __________________________________________________________________
+   ➡️ ÉRTÉK-MONDATOM (1 mondat – EZT viszem majd az M7 Peula v2 SMART-céljának
+      R/Releváns eleméhez): „Idén a [érték] értékben mutatok példát azzal, hogy
+      [konkrét, megfigyelhető viselkedés].”
+   • __________________________________________________________________
 
 3) PILLÉR A GYAKORLATBAN  (M2.3)
    Választott pillér (cionizmus / szocializmus / humanista zsidóság): __________

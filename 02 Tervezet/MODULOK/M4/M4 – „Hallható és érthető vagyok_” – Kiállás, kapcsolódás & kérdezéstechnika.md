@@ -16,7 +16,7 @@
 > **mennyire értik, mit akarok, és mennyire érzik, hogy rájuk figyelek?**”
 
 **Modulcél röviden:**
-A résztvevő tudatosabban használja a **testét és hangját**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es peula-pitchre**, amit egy konkrét kvucának címez.
+A résztvevő tudatosabban használja a **testét**, **tudatosul benne, hogy a hangja (hangerő, tempó) is hat az érthetőségére**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es peula-pitchre**, amit egy konkrét kvucának címez.
 
 ***
 
@@ -28,10 +28,10 @@ A modul végére a résztvevő…
    * Felismeri alapvető nonverbális mintáit (testtartás, tekintet, kézmozdulatok), és tudatosan tud **nyitottabb, jelenlévőbb** kiállást választani peula előtt / alatt.
    * Érti, hogy a kvuca már **a testéből „olvas”**, mielőtt megszólal.
      *(Főleg: M4.1, M4.A)*
-2. **Hanghasználat & érthetőség**
-   * Figyel a **hangerőre, beszédtempóra, tagolásra**, és kerülni igyekszik a hadarást, illetve a teljes monotonitást.
+2. **Hanghasználat & érthetőség (tudatosítás szintjén)**
+   * **Észreveszi**, hogy a **hangerő, a beszédtempó és a tagolás** hat az érthetőségére (pl. a túl halk, hadaró vagy monoton beszéd nehezíti a követést) – ezt a fő úton elsősorban **felismeri / tudatosítja**, nem külön gyakorolt készségként.
    * Képes rövid, **érthető mondatokban** összefoglalni, mit szeretne, és vissza is kérdez: „Követtek?”
-     *(Főleg: M4.1, M4.A, M4.B)*
+     *(Tudatosítás: az M4.A „mini színpadon” a hangerő/tempó a társak megfigyelési szempontjai közt is megjelenhet. A célzott hangkészség-fejlesztés nem önálló tananyag a modulban.)*
 3. **Aktív hallgatás & visszatükrözés**
    * Felismeri a különbséget a **lezáró / bagatellizáló** és a **támogató, visszatükröző** reakciók között.
    * Tud használni egyszerű **visszatükröző mondatokat** („Azt hallom, hogy…”, „Úgy tűnik, neked az a fontos, hogy…”), és nem ugrik azonnal tanácsadásba.
@@ -75,7 +75,7 @@ A modul végére a résztvevő…
 * **Szerepe a modulban:** a modul **produktumának előkészítése** – konkrét pitch-váz egy valós/valószerű kvucára.
 * **Kulcstémák:** 5 kérdéses pitch-sablon (kihez beszélsz, miről szól, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza).
 * **Formátum:** H5P Course Presentation + külön Moodle Assignment („M4.4 – Peula-pitch váz”) – ez lesz a modul kimeneti produktuma.
-* **Completion (modul-szinten kulcs):** H5P lecke végignézve + **M4.4 Assignment leadva** (pitch-váz egy konkrét kvucára).
+* **Completion (modul-szinten kulcs):** H5P lecke végignézve + **M4.4 Assignment leadva** – **nem üres beküldés**: az 5 sablon-elem (kvuca, téma, miért fontos nekik, mit csináltok, mit vigyenek haza) azonosíthatóan jelen van (a §6 Kapu 2 „még nem éri el” szintje nem számít leadott produktumnak).
 
 ***
 
@@ -127,7 +127,17 @@ A modul végére a résztvevő…
      * **Alapszint / rendben (= küszöb):** **mind az 5 elem megnevezve és értelmezhető, de általánosabb, nincs kifejezetten erre a kvucára szabva.**
      * **Még nem éri el:** **legalább egy elem hiányzik vagy nem értelmezhető (pl. nincs megnevezve a kvuca, vagy nincs „mit vigyenek haza”).**
    * **Küszöb (cut-score) indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritérium-referenciás, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett pitch-váz) akkor teljesül érdemben, ha a pitch hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kinek” vagy „miért fontos nekik”) esetén a pitch nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
+   * **Ajánlott folyamat (a két feedback-forrás sorrendje):** az **M4.B élő PEER-feedback** (érthetőség/emlékezetesség + lehetséges nyitó kérdés) a pitch **formáló finomítását** szolgálja → ezután adja le a résztvevő a **véglegesített pitch-vázat** az M4.4 Assignmentbe → erre érkezik a strukturált, SBI-szellemű **MENTORI** visszajelzés (és szükség esetén újra-beadás). Így a peer (leadás előtti, formáló) és a mentor (leadás utáni, strukturált) ág nem mosódik össze.
    * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** SBI-szellemű, M1-ben tanult visszajelzése a beadott pitchre) + újra-beadás lehetősége (mastery logika). *(Megjegyzés: az M4.B peulán a társas visszajelzés két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, és a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott pitch-vázra a strukturált, SBI-szellemű mentori visszajelzést itt a mentor adja.)*
+
+**Minimális teljesítés (M4 complete):**
+
+* **M4.1–M4.4 completion** érdemi kitöltéssel (nem csak a slide-ok végigléptetése; M4.1/M4.2/M4.3 reflektív kérdései megválaszolva).
+* **M4.4 pitch-váz leadva érdemi tartalommal** – nem üres beküldés: az 5 sablon-elem azonosíthatóan jelen van (a §6 Kapu 2 „még nem éri el” szintje nem számít leadott produktumnak).
+
+*(A kapu továbbra is puha: a hiányos / „még nem éri el” szintű pitch nem zár ki, csak mentori jelzést és finomító kört vált ki – de a »complete« nem áll be üres beküldésre. Egységes az M2 „nem üres beküldés / érdemi kitöltés” standardjával.)*
+
+> **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es pitch-váz** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás” / debrief** és **„Feedback”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
 
 ***
 

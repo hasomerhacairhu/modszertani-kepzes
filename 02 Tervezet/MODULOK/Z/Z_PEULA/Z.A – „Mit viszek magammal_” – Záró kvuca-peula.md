@@ -51,6 +51,7 @@
 * Előre átgondol 1–2 **safety-mondatot**, pl.:
   > „Nem kötelező mély vagy fájdalmas dolgot megosztani, annyit mondasz, amennyi neked most oké.”
 * Tudja, **kihez fordul** (mentor / felelős), ha a peula alatt valakin látszik, hogy nagyon megüti magát egy helyzet (utána külön odamegy hozzá).
+* **Még a peula előtt szerezd be az M0-artefaktumokat** (ezekre épül a 4.2 „M0-tükör” és a 4.4.2 záró rituálé): kérd el a ken-vezetőtől / stábtól az **M0.A kickoff-plakátot** (*mit várok / mitől félek / mit hozok*), és – ha rögzítették – az **M0.A induló-szavak** listáját. Ha nincs archiválva, készíts a saját jegyzeteidből **2–3 anonim idézetet**, amit a táblára kitehetsz, hogy a visszakötés ne csak emlékezetből menjen.
 
 ***
 
@@ -128,6 +129,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    > „Most jön egy kicsit személyesebb rész, de nem terápiát tartunk – tanulási pillanatokról beszélgetünk. Nem kötelező mély vagy nagyon fájdalmas dolgot hozni, annyit mondasz, amennyi neked most oké.”
    * **M0-tükör (kb. 1 perc – kösd vissza az első peulához):** Az első, kickoff-peulán (M0.A) a kvuca egy plakátra felírta, hogy **mit vár, mitől fél, mit hoz** a képzésbe – akkor azt ígértük, hogy a Z-modulnál visszanézünk rá. Ha az eredeti plakát fizikailag megvan, **hozd be és függeszd ki** most; ha nincs meg, emlékezetből idéztesd fel. Indító mondat:
      > „Az első alkalmon felírtátok egy plakátra, mit vártok ettől a képzéstől, mitől féltek, és mit hoztok bele. Most, mielőtt párba álltok, gondolj vissza: **amitől akkor féltél, az hogy alakult? Amit vártál, megvalósult-e?** Lehet, hogy épp ez lesz az egyik tanulási pillanatod, amit mindjárt megosztasz.”
+     > Aki az **M0.1–M0.2 online leckében** elmentette magának a *„Mit várok ettől az évtől madrichként?”* és a *„Madrichként ebben az évben figyelek rá, hogy…”* mondatát, most idézze fel (jegyzetből vagy emlékezetből) – ez is lehet az egyik tanulási pillanatod, amit mindjárt megosztasz a párodnak. Ha nincs meg, semmi gond, idézd fel körülbelül.
 2. **Párok / triádok kialakítása (1–2 perc)**
    * Kérd meg őket, hogy alakítsanak **párokat vagy hármasokat** (létszámtól függ).
    * Ha valaki egyedül maradna, a képző csatlakozik hozzá.

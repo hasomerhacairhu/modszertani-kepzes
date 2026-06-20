@@ -170,6 +170,9 @@ Opciók:
 
 > b) **Next step + kinek mondod el**
 
+> Mielőtt írsz, **vedd elő a Z.3-ban magadnak elmentett két célmondatodat** (a *„A következő 3 Zmán Kvucámon…”* és a *„A következő hónapban…”* kezdetűeket) – itt most ezeket **finomítod/véglegesíted**, nem nulláról kezded.
+> Ha nincs meg, nem baj – idézd fel emlékezetből, körülbelül mit írtál akkor.
+
 > Írj **még 2–4 mondatot**:
 
 > – *„Írj le 1–2 konkrét next step célt a terepre.”*

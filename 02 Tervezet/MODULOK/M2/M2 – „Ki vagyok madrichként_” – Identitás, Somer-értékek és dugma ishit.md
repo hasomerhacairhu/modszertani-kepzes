@@ -52,6 +52,8 @@ A modul végére a madrich…
 * **L3 = M2.3** – Somer 3 pillére – mini-kapszula
 * **L4 = M2.4** – Reflektív napló & határok: „A dugma ishit nem terapeuta”
 
+> **Ajánlott ütem (peula-vezérelt, NEM szigorúan sorszám szerint):** a fenti L1–L4 a leckék katalógusa, nem a végrehajtás kötelező sorrendje. A peulák elő/utó-bekötése miatt a tényleges ajánlott út: **1. hét** – M2.1 + M2.2 → **Peula A (M2.A)** → **M2.4** (a határ-lecke a Peula A élménye után erősebb, ezért M2.4 itt M2.3 elé kerül); **2. hét** – M2.3 → **Peula B (M2.B)** → az 1 oldalas identitás-jegyzet. Vagyis a sorszám (L4) és a haladási sorrend (M2.4 már az 1. héten) szándékosan eltér; ha valaki a sorszám-sínen halad, M2.4 a Peula A után már esedékes, nem a modul legvégén.
+
 ### L1 / M2.1 – „Ki vagyok én madrichként?” – identitás-körök (10–15’)
 
 * **Cél:** saját identitás-körök tudatosítása, és annak belátása, hogy ebből mit lát a kvuca; első lépés a személyes példamutatás (dugma ishit) felé.

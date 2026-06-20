@@ -277,7 +277,7 @@
 > **Cél:** a kapu-validitási rés megszüntetése – a „minden sorban van-e cél + kvuca + módszer + tanulástan” bináris jelenlét-ellenőrzés helyett **megfigyelhető, szintezett** kritériumok (illik-e a módszer a célhoz; valódi tanulástan-elem vs. ráírt címke).
 > **Átmenő szabály (a kapu):** minden sorban legalább **„Alapszint”** mind a 4 kritériumon. A 4. sor (tanulástan-elem valódisága) **kritikus**: itt a „Hiányos” szint javításra visszaküldést jelent, mert ez a modul fő tanulástan-üzenete.
 
-A rubrika **a teljes leadott táblázatra** vonatkozik (nem soronként pontozzuk újra): a szintet az határozza meg, hogy a sorok **többségében** (≥3 sorból ≥2-ben, illetve 4 sorból ≥3-ban) milyen minőség figyelhető meg.
+**Minden egyes sor külön pontozódik** a Hiányos / Alapszint / Erős skálán (lásd a táblázatot). **ÁTMEGY = MINDEN sor ≥ Alapszint** – egyetlen Hiányos sor (akár nem kritikus is) javításra-visszaküldést jelent; nincs „többség”-alapú átlagolás, és a táblázat nem kap egyetlen globális szintet. Az **R4 (tanulástan-elem valódisága) Hiányos szintje a többi sortól FÜGGETLENÜL azonnali javításra-visszaküldést jelent** (kritikus / blokkoló sor). Ez egyezik a hub §6–§7 olvasatával és az M3 KAPU kritikus-soros mintájával.
 
 | # | Kritérium (mit nézünk) | Hiányos (vissza javításra) | Alapszint (átmegy) | Erős (kiváló) |
 |---|---|---|---|---|
