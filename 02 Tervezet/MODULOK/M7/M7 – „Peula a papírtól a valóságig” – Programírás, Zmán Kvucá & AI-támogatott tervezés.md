@@ -199,7 +199,7 @@ A modul végére a madrich…
    > **PORTFÓLIÓ-BEMENET – a Peula v2 nem nulláról indul.**
    > A félév szintézis-produktuma a korábbi modulok kész produktumaira épít (tükrözve az „M7 – KAPU” capstone-átkötés tábláját):
    >
-   > * **M1 – SBI** (Situation–Behavior–Impact): az utóreflexió (11. pont), a peer-feedback és a bukás-útvonal visszajelzése SBI-nyelven íródik.
+   > * **M1 – SBI** (Situation–Behavior–Impact): az utóreflexió (11. pont) és a bukás-útvonal javító visszajelzése SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni.
    > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd.
    > * **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá-safety és a kvuca-illeszkedés a korábban tanult gyerekvédelmi keretre és a someres kvuca-profilra támaszkodik.
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.

@@ -356,7 +356,7 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 
 | Korábbi produktum | Hol jelenik meg a Peula v2-ben | Melyik rubrikasor jutalmazza |
 | --- | --- | --- |
-| **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A bukás-útvonal SBI-feedbackje; a peer-feedback és az utóreflexió (11. pont) SBI-nyelven íródik. | R3 (utóreflexió), bukás-feedback-protokoll |
+| **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A produktum **utóreflexiója (11. pont)** és a **bukás-útvonal javító visszajelzése** SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de ugyanazzal az SBI-szemlélettel (konkrét helyzet–viselkedés–hatás). | R3 (utóreflexió), bukás-feedback-protokoll |
 | **M2 – identitás / érték** (identitás-jegyzet, dugma ishit; a kiemelt someres érték) | A SMART nevelési cél a madrich saját someres értékéhez / dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd (R – Releváns). | **R1 – SMART cél** („someres értékhez kötött” jegy), R2 (kvuca-illeszkedés indoklása) |
 | **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá-safety a korábban tanult gyerekvédelmi keretre (red flag → első lépés → jelzés) támaszkodik. | **R2 – kvuca-illeszkedés** (korosztály), **R4 – Gyerekvédelem & safety** |
 | **M5 – módszer-logika** („Feladat–kvuca–módszer + tanulástan” táblázat) | A cél ↔ módszer ↔ kvuca illesztés tudatos indoklása. | **R6 – Módszer-illeszkedés** (a „3” szinten explicit M5-hivatkozás) |

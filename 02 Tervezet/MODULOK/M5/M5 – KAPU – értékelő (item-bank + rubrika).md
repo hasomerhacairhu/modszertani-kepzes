@@ -273,7 +273,7 @@
 ## 4. Rubrika – M5.4 modulproduktum („Feladat–kvuca–módszer + tanulástan” táblázat)
 
 > **Eszköz:** Moodle **Assignment + rubrika** (a leadott táblázathoz, online-szövegként vagy fájlként). A táblázat minimum **3–4 sor**.
-> **Ez a modul ÉLES (mastery) kapuja** – a kvíz formatív/diagnosztikus, a tényleges továbblépést **ez a produktum-rubrika** dönti el (mint M1/M7). A rubrika **megfigyelhető sorai** a B1 kapu-filozófia szerinti négy láncot mérik: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4).**
+> **Ez a modul ÉLES (mastery) kapuja** – a kvíz formatív/diagnosztikus, a tényleges továbblépést **ez a produktum-rubrika** dönti el (mint M1/M7). A rubrika **megfigyelhető sorai** a kapu-filozófiai elv (Program terv §5) szerinti négy láncot mérik: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4).**
 > **Cél:** a kapu-validitási rés megszüntetése – a „minden sorban van-e cél + kvuca + módszer + tanulástan” bináris jelenlét-ellenőrzés helyett **megfigyelhető, szintezett** kritériumok (illik-e a módszer a célhoz; valódi tanulástan-elem vs. ráírt címke).
 > **Átmenő szabály (a kapu):** minden sorban legalább **„Alapszint”** mind a 4 kritériumon. A 4. sor (tanulástan-elem valódisága) **kritikus**: itt a „Hiányos” szint javításra visszaküldést jelent, mert ez a modul fő tanulástan-üzenete.
 
