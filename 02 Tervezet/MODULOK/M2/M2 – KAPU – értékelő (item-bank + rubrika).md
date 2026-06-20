@@ -31,7 +31,7 @@
 - [ ] **2. 1 someres érték.** Kiválasztottam **1 konkrét someres értéket** (pl. egyenlőség, közösség, társadalmi felelősség, szolidaritás, igazságosság), amiben idén tudatosan példát szeretnék mutatni – és ez **érték, nem hangulat** (nem „jó fej leszek”, hanem pl. „egyenlőség”).
 - [ ] **3. Érték → viselkedés.** Az értékemhez leírtam **legalább 1 konkrét, megfigyelhető viselkedést**, amit a chanichok **rajtam láthatnak** (pl. „a csendesebbeket is név szerint megszólítom körben”), nem csak azt, hogy „fontos nekem a közösség”.
 - [ ] **4. Külső nézőpont.** Megfogalmaztam, **mit olvasna le rólam egy chanich**, ha csak figyelne egy peulán – tehát kívülről, a viselkedésemből nézem, nem belülről a szándékomból.
-- [ ] **5. Pillér-kapcsolat.** Legalább **1 helyen összekötöttem** az értékemet vagy a viselkedésemet a Somer egyik pillérével (zionizmus / szocializmus / humanista zsidóság) egy konkrét helyzeten keresztül.
+- [ ] **5. Pillér-kapcsolat.** Legalább **1 helyen összekötöttem** az értékemet vagy a viselkedésemet a Somer egyik pillérével (cionizmus / szocializmus / humanista zsidóság) egy konkrét helyzeten keresztül.
 - [ ] **6. Határ / dugma ishit ≠ terapeuta.** Beírtam **legalább 1 saját határszabályt** (pl. „nem csetelek chanichokkal éjfél után”, „súlyos jelzésnél nem maradok egyedül, szólok a mentornak”), és értem, hogy **a határtartás is példamutatás**.
 - [ ] **7. Idei vállalás.** Van benne **1 konkrét, idei (most kezdődő évre szóló) dugma ishit-vállalásom** – nem általános elv, hanem valami, amit a saját kvucámmal el tudok kezdeni.
 - [ ] **8. Záró dugma ishit-mondat.** Van egy **záró mondatom**, ami így (vagy hasonlóan) kezdődik: *„Idén madrichként abban szeretnék személyes példát mutatni, hogy…”* – és konkrét viselkedéssel folytatódik.
@@ -82,14 +82,14 @@ A jegyzetedbe a „felelősség” értéket írtad. Melyik megfogalmazás **vis
 
 ### Item 4 – Pillér a gyakorlatban (M2.3)
 
-Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mutat **leginkább dugma ishitet a zionizmus pillérében**, ahogy az M2.3 tanítja?
+Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mutat **leginkább dugma ishitet a cionizmus pillérében**, ahogy az M2.3 tanítja?
 
 - A) Gyorsan lezárod a témát, mert kínos, áttérsz egy játékra, és nem engeded vissza a vitát.
 - B) Elmondod a saját, „helyes” véleményedet, lezárod vele a vitát, és nem kéred ki a többiek nézőpontját.
 - C) **Teret adsz mindkét nézőpontnak, kérdezel, kereteket tartasz**, és közben vigyázol az emberi méltóságra és a békés hangnemre. ✅
 - D) Megvárod, míg maguktól abbahagyják, nem szólsz bele, és a feszültséget keret nélkül hagyod kifutni.
 
-> **Feedback:** ✅ **C.** A Somerben a zionizmus **kapcsolat + kritikus gondolkodás + emberi méltóság/béke** – ez a vitavezetés *módjában* látszik. Az A elkerülés, a B a saját igazság ráerőltetése, a D pedig keret nélkül hagyja a feszültséget – egyik sem mutat tudatos, someres példát. A jegyzeted 5. pontjához érdemes egy ilyen konkrét helyzetet kötni.
+> **Feedback:** ✅ **C.** A Somerben a cionizmus **kapcsolat + kritikus gondolkodás + emberi méltóság/béke** – ez a vitavezetés *módjában* látszik. Az A elkerülés, a B a saját igazság ráerőltetése, a D pedig keret nélkül hagyja a feszültséget – egyik sem mutat tudatos, someres példát. A jegyzeted 5. pontjához érdemes egy ilyen konkrét helyzetet kötni.
 
 ### Item 5 – Dugma ishit ≠ terapeuta / határ (M2.4)
 
@@ -171,7 +171,7 @@ Közös hanuka-programon valaki odaszól: *„Ez az egész zsidó dolog tök cik
 |---|---|---|---|---|
 | **R1** | **Identitás-körök és hatásuk** (M2.1) | Csak címke vagy felsorolás van („someres vagyok”), vagy hiányzik; nem derül ki, mi hat a madrich-szerepre. | Legalább 3 kör meg van nevezve, de a hatásuk általános („fontos nekem a család”), nincs konkrét kapcsolat a madrich-szerephez. | **Legalább 3 kör + mindegyikhez (vagy legalább kettőhöz) egy mondat arról, hogyan hat a madrich-viselkedésére** (pl. „a someres körömből hozom, hogy a vitában mindenki kap szót”). |
 | **R2** | **Érték → megfigyelhető viselkedés** (M2.2) | Csak absztrakt értékszó(k) szerepel(nek) („közösség, felelősség”), viselkedés nélkül; vagy hangulat/népszerűség van érték helyett („jó fej leszek”). | Van 1 someres érték megnevezve és egy **általános** szándék mellé („szeretnék befogadó lenni”), de nem konkrét, nem megfigyelhető cselekvés. | **1 someres érték + legalább 1 konkrét, megfigyelhető viselkedés**, amit egy kívülálló is észrevehetne (pl. „a csendesebbeket körben név szerint megszólítom”). Megjelenik a **külső nézőpont** is: mit olvasna le róla egy chanich. |
-| **R3** | **Pillér- / dugma ishit-kapcsolat helyzetben** (M2.3) | Nincs pillér-kapcsolat, vagy csak a pillér neve szerepel definíció-szinten, helyzet nélkül. | Megnevez egy pillért (zionizmus / szocializmus / humanista zsidóság) és kapcsol hozzá értéket, de **általánosságban**, konkrét kvuca-helyzet nélkül. | **Legalább 1 pillér konkrét kvuca-helyzethez kötve** (vita / döntés / ünnep), és látszik, **milyen viselkedéssel** mutatna ott példát (nem a definíció, hanem a tett). |
+| **R3** | **Pillér- / dugma ishit-kapcsolat helyzetben** (M2.3) | Nincs pillér-kapcsolat, vagy csak a pillér neve szerepel definíció-szinten, helyzet nélkül. | Megnevez egy pillért (cionizmus / szocializmus / humanista zsidóság) és kapcsol hozzá értéket, de **általánosságban**, konkrét kvuca-helyzet nélkül. | **Legalább 1 pillér konkrét kvuca-helyzethez kötve** (vita / döntés / ünnep), és látszik, **milyen viselkedéssel** mutatna ott példát (nem a definíció, hanem a tett). |
 | **R4** | **Határ + konkrét idei vállalás + záró mondat** (M2.4 + integráció) | Nincs határszabály vagy idei vállalás; a záró mondat hiányzik vagy üres általánosság („jó madrich leszek”). | Van záró dugma ishit-mondat és/vagy határszabály, de **általános**, nem idei vagy nem viselkedés-szintű („tisztelni fogom a határokat”). | **Van legalább 1 konkrét, viselkedés-szintű határszabály** ÉS **1 konkrét, idei dugma ishit-vállalás** a záró mondatban (mit, hol, hogyan – a saját kvucájában elkezdhető). |
 
 ### Sablon-feedback a mentornak (gyors, konzisztens, SBI-szellemű)
@@ -212,7 +212,7 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
    • __________________________________________________________________
 
 3) PILLÉR A GYAKORLATBAN  (M2.3)
-   Választott pillér (zionizmus / szocializmus / humanista zsidóság): __________
+   Választott pillér (cionizmus / szocializmus / humanista zsidóság): __________
    Egy konkrét kvuca-helyzet (vita / döntés / ünnep), ahol példát mutatok:
    • Helyzet: ________________________________________________________
    • Amit CSINÁLOK benne (nem a definíció, a tett): _________________

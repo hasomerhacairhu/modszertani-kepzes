@@ -30,7 +30,7 @@ A modul végére a madrich…
    * **Ezek közül 1 someres értéket emel ki, amelyben idén tudatosan dugma ishit szeretne lenni – ez a kiemelt érték az, amit a kapu (a self-check 2. pontja és a fejlesztő rubrika R2 sora) lehorgonyoz. A másik kettő a feltáró munkát gazdagítja, de a mastery-produktum a kiemelt értékre fókuszál.**
    * **Támogató elemek:** M2.2 (Értékeim mint iránytű), M2.B (Somer-értékek a gyakorlatban).
 3. **Ideológiai tudatosság mint példaadás**
-   * Röviden elmondja, mit jelent számára a **zionizmus, szocializmus, humanista zsidóság**.
+   * Röviden elmondja, mit jelent számára a **cionizmus, szocializmus, humanista zsidóság**.
    * Mindhárom pillérhez példát hoz arra, hogyan akar **dugma ishit lenni** a kvucájának.
    * **Támogató elemek:** M2.3 (Somer 3 pillére – mini-kapszula), M2.B (értékek konkrét helyzetekben).
 4. **Határok és felelősség**
@@ -71,7 +71,7 @@ A modul végére a madrich…
 
 ### L3 / M2.3 – Somer 3 pillére – mini-kapszula (kb. 15’)
 
-* **Cél:** a Somer 3 ideológiai pillérének (zionizmus, szocializmus, humanista zsidóság) összekötése a mindennapi madrich-példamutatással.
+* **Cél:** a Somer 3 ideológiai pillérének (cionizmus, szocializmus, humanista zsidóság) összekötése a mindennapi madrich-példamutatással.
 * **Fő tartalom röviden:**
   * három rövid blokk a 3 pillérről;
   * mindegyikhez 1 hétköznapi kvuca-szituáció (vita, döntés, ünnep);
@@ -173,7 +173,7 @@ A modul végére a madrich…
   * L1–L4 teljesítési arány modulonként;
   * külön figyelni, hol esnek ki (különösen L3–L4 körül).
 * **H5P analitika:**
-  * Melyik pillérnél (zionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
+  * Melyik pillérnél (cionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
   * Hányan írnak ténylegesen példát dugma ishitre (legalább 1–1 mondat pillérenként).
 * **Assignment adatok:**
   * Identitás-térkép, reflektív napló és identitás-jegyzet leadási aránya.

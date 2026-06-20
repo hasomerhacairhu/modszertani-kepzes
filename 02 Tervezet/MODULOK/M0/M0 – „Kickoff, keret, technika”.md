@@ -38,7 +38,7 @@ A modul végére a madrich…
    * Érti a **puha (soft) és éles (hard) kapuk** közti különbséget.
    * Tudja, hogy a kapuk nem azonnali kizuhanást jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
    * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépő-quiz.
-5. **Dugma Ishit az online térben**
+5. **Dugma ishit az online térben**
    * Tud mondani 1–2 példát arra, **hogyan viselkedik dugma ishitként online** (Moodle, csoportchat, social media).
    * Megfogalmaz **legalább 1 saját online határ-szabályt** (pl. mikor válaszol, mit oszt meg, kinek).
    * **Támogató elemek:** M0.2 (madrich, nem terapeuta), M0.4 (online dugma ishit + szituációk).
@@ -52,7 +52,7 @@ A modul végére a madrich…
 * **L1 = M0.1** – Üdv a képzésben! – Éves útiterv & mi köze hozzám
 * **L2 = M0.2** – Madrich, nem terapeuta – szerepek, elvárások, dugma ishit alapok
 * **L3 = M0.3** – Hogyan működik a Moodle / H5P / gate?
-* **L4 = M0.4** – Dugma Ishit az online térben + bemutatkozó fórum
+* **L4 = M0.4** – Dugma ishit az online térben + bemutatkozó fórum
 
 ### L1 / M0.1 – „Üdv a képzésben!” – Éves útiterv & mi köze hozzám (10–15’)
 
@@ -81,7 +81,7 @@ A modul végére a madrich…
   * mini-quiz: „mi történik, ha…?” (nem tölt ki valamit, nem megy elsőre a kapu).
 * **Moodle/H5P mix:** Moodle Page (screenshotok) + H5P Course Presentation (fogalom–definíció párosítás, Single Choice kérdések).
 
-### L4 / M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum” (15–20’)
+### L4 / M0.4 – „Dugma ishit az online térben + bemutatkozó fórum” (15–20’)
 
 * **Cél:** a madrich elgondolkodik, mit jelent **online is dugma ishitként jelen lenni**, és belép a közösségbe egy **bemutatkozó fórumposzttal**.
 * **Fő tartalom röviden:**
@@ -183,6 +183,6 @@ A modul végére a madrich…
 
 [M0.3 – „Hogyan működik a Moodle / H5P / gate?”](./M0_ONLINE_LECKE/M0.3%20–%20„Hogyan%20működik%20a%20Moodle%20_%20H5P%20_%20gate_”.md)
 
-[M0.4 – „Dugma Ishit az online térben + bemutatkozó fórum”](./M0_ONLINE_LECKE/M0.4%20–%20„Dugma%20Ishit%20az%20online%20térben%20+%20bemutatkozó%20fórum”.md)
+[M0.4 – „Dugma ishit az online térben + bemutatkozó fórum”](./M0_ONLINE_LECKE/M0.4%20–%20„Dugma%20Ishit%20az%20online%20térben%20+%20bemutatkozó%20fórum”.md)
 
 [M0.A – „Kickoff & ismerkedés + közös keret”](./M0_PEULA/M0.A%20–%20„Kickoff%20&%20ismerkedés%20+%20közös%20keret”.md)

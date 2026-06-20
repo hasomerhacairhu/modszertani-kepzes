@@ -100,7 +100,7 @@ Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései.
 
 A mozgalom **modern (2008/2017 utáni) megfogalmazása**. (Történetileg a harmadik pillér a cserkészet/scoutizmus volt; a zsidóságot a 2008-as ideológiai kongresszuson emelték pillérré.)
 
-1. **cionizmus** (zionizmus) – kapcsolat Izraellel, a zsidó önrendelkezés, kritikus és békét kereső gondolkodás, társadalmi igazságosság / pluralizmus keretében.
+1. **cionizmus** – kapcsolat Izraellel, a zsidó önrendelkezés, kritikus és békét kereső gondolkodás, társadalmi igazságosság / pluralizmus keretében. *(Kánoni írásmód: „cionizmus" / „cionista" – **c**-vel; NEM „zionizmus". A magyar standard helyesírás és a magyarországi Somer is c-vel írja.)*
 2. **szocializmus** – egyenlőség és igazságosság: nemcsak a kvuca mikroszintjén, hanem társadalmi/gazdasági/politikai szinten is.
 3. **humanista zsidóság** – kánoni teljes alak: **„világi (szekuláris) humanista zsidóság”**. Az erkölcs az emberiség iránti felelősségből és tiszteletből fakad, nem vallási tekintélyből. Az első előforduláskor érdemes kiírni a „szekuláris” jelzőt, hogy a világi jelleg explicit legyen.
 
@@ -109,7 +109,7 @@ A mozgalom **modern (2008/2017 utáni) megfogalmazása**. (Történetileg a harm
 ## 2. Pedagógiai fogalmak
 
 ### Johari-ablak
-Önismereti modell négy mezővel (nyílt / vak / rejtett / ismeretlen én) aszerint, hogy egy tulajdonság **én magam** és **mások** számára ismert-e. A tananyagban a **vakfolt** (amit mások látnak, én nem) a fókusz – a visszajelzés segít szűkíteni. (M1)
+Önismereti modell négy mezővel (nyitott / vakfolt / rejtett / ismeretlen terület) aszerint, hogy egy tulajdonság **én magam** és **mások** számára ismert-e. A tananyagban a **vakfolt** (amit mások látnak, én nem) a fókusz – a visszajelzés segít szűkíteni. (M1)
 
 ### SBI (Situation–Behavior–Impact)
 Visszajelzési modell: **Helyzet → Viselkedés → Hatás**. Konkrét helyzetet, megfigyelhető viselkedést és a kiváltott hatást nevezed meg – értelmezés/címkézés helyett. A korrekt, használható visszajelzés váza. (M1)
@@ -125,7 +125,7 @@ Csoportfejlődési modell. Kánoni magyar megfeleltetés a tananyagban:
 Cél: kvuca-történetekhez hozzápárosítani, **hol tart a csoport**. (M3)
 
 ### SMART nevelési cél
-Cél-megfogalmazási keret: **S**pecifikus, **M**érhető, **A**dekvát/elérhető, **R**eleváns, **T**erminusos (időhöz kötött). A tananyagban „someres módra” – a „még csak vágy, nem cél” állapotból konkrét, megfigyelhető nevelési céllá alakít. (M7)
+Cél-megfogalmazási keret: **S**pecifikus, **M**érhető, **A**chievable (elérhető), **R**eleváns, **T**ime-bound (időhöz kötött). A tananyagban „someres módra” – a „még csak vágy, nem cél” állapotból konkrét, megfigyelhető nevelési céllá alakít. (M7)
 
 ### nonformális nevelés
 Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és kapcsolat-alapú, a kvuca valóságához kötve. A someres pedagógia alapállása – „a Somer NEM suli”. A peula a tipikus nonformális egység.
@@ -152,6 +152,8 @@ Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** k
 5. **Nőnemű többes: `madrichot`, nem `madrichák`.** Egységesen `madrichok / madrichot` mindenhol.
 
 6. **Glosszázás első előforduláskor.** Héber kifejezés első bevezetése: *kurzív* + magyar glossza zárójelben (pl. *dugma ishit* – „személyes példamutatás”).
+
+7. **A pillér írásmódja „cionizmus” (c-vel).** A magyar standard helyesírás és a magyarországi Somer alak `cionizmus` / `cionista`; a `zionizmus` / `zionista` (z-vel) **kerülendő**. Egységesen a teljes tananyagban.
 
 ---
 
