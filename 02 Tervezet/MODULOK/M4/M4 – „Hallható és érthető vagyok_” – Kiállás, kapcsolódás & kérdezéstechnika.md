@@ -138,6 +138,8 @@ A modul végére a résztvevő…
 *(A kapu továbbra is puha: a hiányos / „még nem éri el” szintű pitch nem zár ki, csak mentori jelzést és finomító kört vált ki – de a »complete« nem áll be üres beküldésre. Egységes az M2 „nem üres beküldés / érdemi kitöltés” standardjával.)*
 
 > **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es pitch-váz** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás” / debrief** és **„Feedback”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
+>
+> **→ Ezt is ezzel moderálod (visszafelé):** ugyanez a **kérdezéstechnika** (tisztázó / nyitott kérdés, a „Na, értitek?” helyett) és **aktív hallgatás** a **legfőbb moderálási eszközöd egy heves értékvitában** is – pl. az [M2.3 cionizmus-szituban](../M2/M2_ONLINE_LECKE/M2.3%20–%20Somer%203%20pillére%20–%20mini-kapszula.md), ahol egy friss Izrael-hír miatt feszült lesz a kvuca. Az M2.3 a **mit** (someres pillér, dugma ishit) felől nézi ezt a helyzetet; az M4 adja hozzá a **hogyan**-t: hogy egy kérdéssel teret nyiss és visszatükrözéssel keretet tarts, ahelyett hogy lezárnád vagy az egyik oldal mellé állnál.
 
 ***
 

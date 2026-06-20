@@ -4,6 +4,7 @@
 
 > ⚠️ **Gyerekvédelmi felelős review szükséges a véglegesítés előtt.**
 > Ez egy biztonságkritikus (gyerekvédelmi) kapu. Az éles használat előtt a szervezet **gyerekvédelmi felelőse / vezetője** olvassa át és hagyja jóvá, és illessze a **helyi protokollhoz** (kit hívnak, milyen sorrendben, mikor jön a 112, ki a gyerekvédelmi felelős név szerint). A hívószámok és jogszabályi hivatkozások a magyar gyakorlatot tükrözik – ellenőrizd, hogy időközben nem változtak-e.
+> **Külső / alternatív eszkalációs út (kötelező rögzíteni):** ha a gyanú épp a gyerekvédelmi felelősre / vezetőre vonatkozik, **vagy** a teljes helyi lánc érintett (összeférhetetlen), a jelzés **nem áll meg a kenben** – ilyenkor egy másik, nem érintett vezetőhöz, az **országos mozgalmi gyerekvédelmi kontakthoz** (⟬ KITÖLTENDŐ – országos mozgalmi gyerekvédelmi felelős / kontakt ⟭), illetve **közvetlenül a hatósági gyermekvédelmi jelzőrendszerhez** (Gyvt. szerinti jelzési kötelezettség; akut veszélynél **112**) megy. Ezt az utat a felelős a véglegesítés előtt töltse ki, és illessze a helyi protokollhoz.
 > **A safeguarding-tartalom (és ez a kapu) nem élesedik a gyerekvédelmi felelős aláírása nélkül.**
 >
 > | Mező | Érték |

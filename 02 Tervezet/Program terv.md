@@ -314,6 +314,22 @@ Ez használható **flyerre, szülőknek, vezetőknek**:
 
 ***
 
+## 9. Élesítés előtti compliance gate (kötelező, program-szintű aláírólista)
+
+> **Vezérelv.** **A program tartalma csak akkor élesedhet a tanulók felé, ha az alábbi, egyetlen aláírólista MINDEN sora ki van töltve és aláírva. Ez nem tanulói kapu (vö. §5), hanem program-szintű, élesítés előtti governance-kapu: amíg egyetlen sor is nyitott (`[...]` paraméter, hiányzó név vagy aláírás), addig EGYETLEN modul (M0–M7 + Z) sem kerülhet ki éles felhasználásra. A felelős a stáb / képzésvezető; a lista kitöltése a §4 fejlesztői checklistjeire és a KAPU D-sablonra (D8.4) támaszkodik, nem ismétli meg azokat.**
+
+| # | Mit kell rögzíteni (élesítés feltétele) | Forrás / hol töltöd ki | Felelős (név) | Aláírás + dátum |
+| --- | --- | --- | --- | --- |
+| 1 | **Nevesített gyerekvédelmi felelős** – a §2 és M3 red flag-protokoll mögött álló, névvel megnevezett személy, akihez a madrich és a stáb jelez. | [gyerekvédelmi felelős neve + kapcsolat] | [...] | [...] |
+| 2 | **Support kontaktok kitöltve** – a §4 technikai ÉS tanulási support-utalások minden `[...]` paramétere (technikai kontakt, Moodle-súgó link, mentor-kapcsolat) él, nincs nyitott placeholder. | §4 support-checklistek (build-readiness) | [...] | [...] |
+| 3 | **Adatmegőrzés és törlés rögzítve** – a §4 és §7 plain-language dobozok `[képzés / félév végéig + megőrzési idő]` és `[töröljük / anonimizáljuk]` paraméterei konkrét értékre cserélve, a törlési/anonimizálási folyamat leírva. | KAPU D-sablon / D8.4, kurzus adatkezelési pont | [...] | [...] |
+| 4 | **Akadálymentesítési lektor jóváhagyása** – a §4 akadálymentesítési fejlesztői checklistek (alt-szöveg & szöveges ekvivalens, H5P interaktív, kontraszt – AA) emberi ellenőrzése megtörtént. | §4 akadálymentesítési checklistek (WCAG 2.2 AA) | [...] | [...] |
+| 5 | **Someres szakmai lektor jóváhagyása** – a gyerekvédelmi, someres és pedagógiai tartalom (kvíz-kulcsok, KAPU-küszöbök, glosszárium-konzisztencia) emberi szakmai lektoráláson átment (human-in-the-loop, vö. §4 AI-provenance). | §4 AI-provenance / human-in-the-loop, [GLOSSZÁRIUM](./GLOSSZÁRIUM%20–%20someres%20és%20pedagógiai%20fogalmak.md) | [...] | [...] |
+
+**A gate logikája:** **minden sor blokkoló (AND-kapcsolat): nincs „részleges” élesítés, és egy modul sem indítható, amíg a fenti öt sor bármelyike nyitott. A kitöltött és aláírt listát a stáb a félév indítása előtt archiválja; tartalmi változás (új modul, módosított kvíz, új médiaelem) esetén az érintett sorok újra-aláírása kötelező.**
+
+***
+
 
 
 [M0 – „Kickoff, keret, technika”](./MODULOK/M0/M0%20–%20„Kickoff,%20keret,%20technika”.md)
