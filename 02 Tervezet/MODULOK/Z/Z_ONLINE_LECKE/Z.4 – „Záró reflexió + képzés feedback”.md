@@ -48,7 +48,7 @@
 > A reflektív produktumhoz 3 vezető kérdésed lesz:
 
 1. „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
-2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
+2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő az M0-ban magadnak elmentett mondataidat** – a *„Mit várok ettől az évtől?”* és a *„figyelek rá, hogy…”* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét next step célt** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > A H5P-ben most **jegyzetelsz és rendezed a gondolataidat**, utána mész át az Assignmentre és a Feedbackre.
@@ -158,9 +158,14 @@ Opciók:
 
 > a) **Madrich-szemléleted változása**
 
+> Mielőtt írsz, **vedd elő az M0-ban magadnak elmentett két mondatodat** (jegyzet vagy screenshot):
+> – az M0.1 várakozás-mondatát: *„Mit várok ettől az évtől madrichként?”*,
+> – és az M0.2 ígéret-mondatát: *„Madrichként ebben az évben figyelek rá, hogy…”*.
+> Ha nincs meg, nem baj – idézd fel emlékezetből, körülbelül mit írtál akkor.
+
 > Írj **3–5 mondatot**:
 
-> – *„Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest?”*
+> – *„Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
 > (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyerekvédelemre, a saját határaidra, a visszajelzésre…)
 
 > b) **Next step + kinek mondod el**

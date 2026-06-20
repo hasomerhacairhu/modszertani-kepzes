@@ -322,7 +322,7 @@ A mentor a learning analytics alapján nézze át, **mely red flag típust** nem
 
 ## 4. Források (webkereséssel ellenőrizve, 2026-06)
 
-**Nemzetközi safeguarding alapelvek** (ne ígérj titoktartást; ne nyomozz, hallgasd meg a gyermek saját szavaival; felnőtt-gyanúnál ne konfrontáld a gyanúsítottat, közvetlenül a felelősnek/DSL-nek jelezz):
+**Nemzetközi safeguarding alapelvek** (ne ígérj titoktartást; ne nyomozz, hallgasd meg a gyermek saját szavaival; felnőtt-gyanúnál ne konfrontáld a gyanúsítottat, közvetlenül a felelősnek – nemzetközi terminológiával: DSL, *Designated Safeguarding Lead* – jelezz):
 - NSPCC Learning – *Recognising and responding to abuse* / *Safeguarding example scenarios* — https://learning.nspcc.org.uk/child-abuse-and-neglect/recognising-and-responding-to-abuse
 - Safeguarding Network – *Dealing with a disclosure* — https://safeguarding.network/content/dealing-with-a-disclosure
 - British Council – *Guidance on handling a disclosure from a child* (PDF) — https://www.britishcouncil.org/sites/default/files/handling_disclosure_from_a_child_0.pdf

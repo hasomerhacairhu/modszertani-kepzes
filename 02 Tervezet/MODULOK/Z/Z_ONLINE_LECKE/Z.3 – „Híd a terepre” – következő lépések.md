@@ -118,11 +118,11 @@ Opciók:
 
 > **Példamondatok – „next step” célok**
 
-> 1️⃣ *„A következő 3 Zmán Kvucámon figyelek rá, hogy&#x20;****legalább 1 új kérdezéstechnikát kipróbáljak****.”*
+> 1️⃣ *„A következő 3 Zmán Kvucámon figyelek rá, hogy ****legalább 1 új kérdezéstechnikát kipróbáljak****.”*
 
-> 2️⃣ *„A következő hónapban&#x20;****minden peula után 1 mondatban leírom****, mit tanultam én madrichként.”*
+> 2️⃣ *„A következő hónapban ****minden peula után 1 mondatban leírom****, mit tanultam én madrichként.”*
 
-> 3️⃣ *„A következő 4 hétben&#x20;****minden héten megkérdezem a madrich-társamtól****, hogy mi volt számára a legnehezebb pillanat.”*
+> 3️⃣ *„A következő 4 hétben ****minden héten megkérdezem a madrich-társamtól****, hogy mi volt számára a legnehezebb pillanat.”*
 
 > Ezekben közös, hogy:
 > – meg van nevezve **az időtáv** („következő 3 Zmán Kvucám”, „következő hónap”),

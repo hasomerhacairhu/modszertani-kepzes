@@ -278,4 +278,4 @@ A modul végére a madrich…
 
 [M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal](./M7_PEULA/M7.B%20–%20Peula%20v2%20&%20Zmán%20Kvucá%20–%20amikor%20a%20papír%20találkozik%20a%20valósággal.md)
 
-[M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab)](./M7_PEULA/M7.F%20–%20Felzárkóztató%20peula%20–%20Peula%20&%20Zmán%20Kvucá%20(Study%20Lab).md)
+[M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab)](./M7_PEULA/M7.F%20–%20Felzárkóztató%20peula%20–%20Peula%20&%20Zmán%20Kvucá%20%28Study%20Lab%29.md)

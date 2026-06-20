@@ -197,7 +197,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Időtartam:** 40–60’
 
 *(60’ verzió: 15’ elismerés-kör + 5’ rituálé;
-45’-os peulánál rövidíts: 10’ elismerés + 3–5’ rituálé.)*
+45’-os peulánál rövidíts: 11’ elismerés + 3–4’ rituálé.)*
 
 #### 4.4.1. Elismerés & köszönés kör (`40–55’`)
 
@@ -223,7 +223,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Menjetek körbe; mindenki elmondja a mondatát annak, akit kihúzott.
    * Ha a kvuca nagyon nagy, csinálhatjátok két körben vagy kiscsoportokban is.
 4. **Képző / ken-vezetői záró-szavak (3–5 perc)**
-   * A képző( k) mondanak 1–2 mondatot arról, mit láttak a csoportban a félév során:
+   * A képző(k) mondanak 1–2 mondatot arról, mit láttak a csoportban a félév során:
      > „Amit én látok ebben a kvucában, az az, hogy …”
    * Ha van ken-vezető / felelős jelen, ő is mondhat 1–2 mondatot arról, hova fut ki ez a képzős félév a terepen.
 

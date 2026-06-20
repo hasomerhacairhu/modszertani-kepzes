@@ -35,7 +35,7 @@ A modul végére a résztvevő…
    * Tudja, kit kell bevonni (mentor / gyerekvédelmi felelős / vezető), és mi a logikus első lépés **(M3.3, M3.B)**.
 
 > ⚖️ **Jó tudni – a jelzés Magyarországon törvényi kötelezettség.**
-> A gyermek **veszélyeztetettségének jelzése nem csak „jó gyakorlat”, hanem törvényi kötelezettség** (**1997. évi XXXI. tv. – Gyvt., gyermekvédelmi jelzőrendszer**). A gyakorlatban ez **nem a madrich egyéni terhe**: a madrich a **mentornak / gyerekvédelmi felelősnek / vezetőnek** jelez, és **ők gondoskodnak** a külső jelzésről a **gyermekjóléti szolgálat / hatóság** felé (súlyos, bűncselekmény-gyanús esetben a rendőrség felé). A szervezeti belüli szóbeli jelzéssel tehát a felelősség **nem feltétlenül zárul le** – a felelős dolga a továbblépés. Ezért fontos, hogy a madrich mindig **jelezzen**, és **ne maradjon egyedül** a helyzettel.
+> A gyermek **veszélyeztetettségének jelzése nem csak „jó gyakorlat”, hanem törvényi kötelezettség** (**1997. évi XXXI. tv. – Gyvt., gyermekvédelmi jelzőrendszer**). A gyakorlatban ez **nem a madrich egyéni terhe**: a madrich a **mentornak / gyerekvédelmi felelősnek / vezetőnek** jelez, és **ők gondoskodnak** a külső jelzésről a **gyermekjóléti szolgálat / hatóság** felé (súlyos, bűncselekmény-gyanús esetben a rendőrség felé). A szervezeten belüli szóbeli jelzéssel tehát a felelősség **nem feltétlenül zárul le** – a felelős dolga a továbblépés. Ezért fontos, hogy a madrich mindig **jelezzen**, és **ne maradjon egyedül** a helyzettel.
 > *(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyerekvédelemre **(M3.4)**.

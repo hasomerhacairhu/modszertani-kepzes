@@ -60,7 +60,7 @@ A modul végére a résztvevő…
 
 * **Szerepe a modulban:** nyelvet ad az aktív hallgatáshoz; megkülönbözteti a **lezáró** vs. **támogató** reakciókat.
 * **Kulcstémák:** „rá figyelek vs. elütöm”; visszatükröző mondatok alap-sablonjai; mit él meg a másik egy-egy válasz mögött.
-* **Formátum:** H5P Course Presentation (6 slide) dialog cards + egyszerű csoportosító/drag\&drop feladat.
+* **Formátum:** H5P Course Presentation (6 slide) dialog cards + egyszerű csoportosító/drag&drop feladat.
 * **Completion:** lecke végignézve + 1 saját visszatükröző mondat megfogalmazása.
 
 ### M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések (L3, 10–15’)

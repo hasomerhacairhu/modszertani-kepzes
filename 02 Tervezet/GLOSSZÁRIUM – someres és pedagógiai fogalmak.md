@@ -2,13 +2,18 @@
 
 > **Kánoni terminológiai referencia.** Ez a fájl rögzíti a tananyag SZÁNDÉKOS írásmódjait és fogalmi jelentéseit. Ha fejlesztő vagy lektor vagy: ezeket az alakokat **ne „javítsd el”** nemzetközi átírásra vagy **magyaros „helyesbítésre”** – a tananyag egységessége múlik rajtuk.
 >
-> Forrás: `_AUDIT/SOMERES-FIDELITY.md` „## héber-terminológia” (🟢 findingek) + „## ideológiai-hűség”. A jelentések mozgalmi/Judaica forrásokkal alátámasztottak; a 🧑‍🏫 jelű tételeknél a helyi (magyarországi Somer) ken végső megerősítése ajánlott.
+> A jelentések mozgalmi/Judaica forrásokkal alátámasztottak (a részletes someres-terminológiai audit a git-history-ban érhető el); a 🧑‍🏫 jelű tételeknél a helyi (magyarországi Somer) ken végső megerősítése ajánlott.
 
 ---
 
 ## 1. Héber / someres fogalmak
 
 Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szerinti jelentés · mozgalmi jelentés · megjegyzés.
+
+### bogrim (בוגרים)
+- **Jelentés:** „érettek / idősebbek” – a legidősebb (16+) korosztály mozgalmi **köznévi** megnevezése.
+- **Írásmód (kánoni):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
+- **Megjegyzés:** a **Zorea** a 16+ kvuca **tulajdonneve**, a `bogrim` ugyanennek a korosztálynak a köznévi leírása – a kettő nem ellentmondás. (M6, M2.A, M3.2)
 
 ### chanich (חניך)
 - **Jelentés:** növendék, gondozott; mozgalmi értelemben a kvuca tagja, akit a madrich vezet.
@@ -26,7 +31,7 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 - **Megjegyzés:** írásmód `hagshama` (ne „hagsama”).
 
 ### ken (קן)
-- **Jelentés:** „fészek” – a Hashomer Hatzair helyi csoportja és fizikai klubhelyisége egyben.
+- **Jelentés:** „fészek” – a Hasomer Hacair helyi csoportja és fizikai klubhelyisége egyben.
 - **Összetétel (kánoni):** `ken-vezető`, „ken nagyterme”, „ken szabályai”.
 - **Megjegyzés:** mozgalmi szakszó. Ne keverd a magyar „ken” igével/köznévvel – kontextusból mindig a fészek/helyi csoport jelentés.
 
@@ -64,8 +69,9 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 - **Ékezet-szabály (kánoni):** toldalékolt tövek hosszú á-val: **`peulát`, `peulán`, `peulára`** – szabályos magyar morfológia, nem hiba.
 
 ### Somer
-- **Jelentés:** „őr, őrző” – a **Hashomer Hatzair / שומר** mozgalom magyar-fonetikus rövidítése (a magyar „s” = /ʃ/).
+- **Jelentés:** „őr, őrző” – a **Hasomer Hacair / שומר** mozgalom magyar-fonetikus rövidítése (a magyar „s” = /ʃ/).
 - **Írásmód (kánoni):** **tulajdonnév, nagybetűs `Somer`**. **NEM** „shomer” (az a nemzetközi standard átírás, itt nem ezt használjuk).
+- **A teljes mozgalmi név (kánoni):** **`Hasomer Hacair`** (magyar-fonetikus). **NEM** „Hashomer Hatzair” (nemzetközi átírás) – ez egységben van a `Somer`/`someres` magyar-fonetikus alakkal; ne „javítsd” nemzetközire.
 - **Melléknév (kánoni):** **`someres`** (pl. „someres szellem”, „someres értékek”); mondat/fejléc elején `Someres` nagybetűvel – nyelvtanilag helyes.
 
 ### Zmán Kvucá (זמן קבוצה)
@@ -139,7 +145,7 @@ Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** k
 
 2. **A héber köznevek kisbetűsek.** `dugma ishit`, `chanich`, `madrich`, `kvuca`, `peula`, `ken` köznév → kisbetű (kivéve mondat/fejléc eleje). A megszemélyesített nagybetűs `Dugma Ishit` kerülendő.
 
-3. **A tulajdonnevek nagybetűsek, a kvuca-nevek ékezet nélküliek.** `Somer`, `Hashomer Hatzair`, `Zmán Kvucá` és a 4 kvuca-név (`Parparim`, `Kivsza`, `Leviatan`, `Zorea`) tulajdonnév. A kvuca-nevek **ékezet nélkül** – kiemelten: `Leviatan`, NEM „Leviatán”.
+3. **A tulajdonnevek nagybetűsek, a kvuca-nevek ékezet nélküliek.** `Somer`, `Hasomer Hacair`, `Zmán Kvucá` és a 4 kvuca-név (`Parparim`, `Kivsza`, `Leviatan`, `Zorea`) tulajdonnév. A kvuca-nevek **ékezet nélkül** – kiemelten: `Leviatan`, NEM „Leviatán”.
 
 4. **Az á-s toldalékolás szabályos.** `kvucá-` (kvucának, kvucára), `peulát/peulán/peulára`, `Zmán Kvucá` – a hosszú á magyar tőhangzónyúlás, nem elírás.
 

@@ -244,8 +244,8 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 | --- | --- | --- |
 | **M1 – SBI** | Produktum dönt (a kvíz formatív/completion, NEM kapuz): **minden rubrikasor ≥1 (egyik sem 0) ÉS összpont ≥5/8** (≈62,5%). | [M1 – KAPU](./MODULOK/M1/M1%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
 | **M3 – gyerekvédelem** | **Kvíz ≥10/12 (≥80%) + kötelező kritikus itemek (2,4,7,9)**; Assignment: minden sor ≥1, **R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) blokkoló**. | [M3 – KAPU](./MODULOK/M3/M3%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
-| **M5 – nonformális + tanulástan** | **Kvíz ≥10/12 (≥80%)** + az M5.4 táblázat minden rubrikasora ≥ „Alapszint”, **R4 (tanulástan-elem valódisága) kritikus**. | [M5 – KAPU](./MODULOK/M5/M5%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
-| **M6 – toolbox & safety** | **Kvíz ≥10/12 (≥80%)** + játéklap minden sora ≥2 („Oké”), **R4 (Biztonság) és R5 (Inkluzivitás) hard-gate**. | [M6 – KAPU](./MODULOK/M6/M6%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
+| **M5 – nonformális + tanulástan** | Produktum dönt: az M5.4 táblázat minden rubrikasora ≥ „Alapszint”, **R4 (tanulástan-elem valódisága) kritikus** (a fogalom-kvíz formatív/diagnosztikus: ≥10/12 ≈ ≥80% jelzőküszöb, **nem kapuz**). | [M5 – KAPU](./MODULOK/M5/M5%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
+| **M6 – toolbox & safety** | Produktum dönt: a játéklap minden sora ≥2 („Oké”), **R4 (Biztonság) és R5 (Inkluzivitás) hard-gate** (a szcenárió-kvíz formatív/diagnosztikus: ≥10/12 ≈ ≥80% ajánlott, **nem kapuz**). | [M6 – KAPU](./MODULOK/M6/M6%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
 | **M7 – Peula v2 (félévzáró)** | **Peula v2: összpont ≥17/24 (≥70%) ÉS R1/R5/R6 ≥2 ÉS R4 ≥2 (blokkoló)** + **kvíz ≥12/14 (≥80%) ÉS a gyerekvédelmi Q13 kötelezően helyes**. A végleges leadás a félév végén, mentor/képző zárja; a Z **nem helyettesíti**. | [M7 – KAPU](./MODULOK/M7/M7%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) |
 
 **Nem teljesítés kezelése:**

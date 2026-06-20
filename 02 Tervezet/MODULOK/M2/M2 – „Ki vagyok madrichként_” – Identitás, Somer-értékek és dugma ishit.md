@@ -124,7 +124,7 @@ A modul végére a madrich…
 * **Fő célok:**
   1. **Beazonosítja**, hol tart az M2.1–M2.4 leckékben, és **megnevezi**, mit kell még pótolnia/újranéznie.
   2. Legalább egy leckében érdemben haladjon (befejez, újranéz vagy kiegészít egy kritikus részt).
-  3. Le tudjon írni/ mondani leckénként 1 gondolatot és 1 kérdést.
+  3. Le tudjon írni/mondani leckénként 1 gondolatot és 1 kérdést.
   4. Lásson egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás).
 * **Modulhoz való szerepe:**
   * technikai és tartalmi „mentőöv” azoknak, akik lemaradtak;

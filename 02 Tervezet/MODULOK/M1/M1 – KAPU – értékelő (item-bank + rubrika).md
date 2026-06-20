@@ -88,7 +88,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 A modulban **két, egymásnak ellentmondó** kapu-leírás élt egymás mellett (a kapu-validitási elemzés alapján):
 
 - **Modul-áttekintő (§6)** – **3 soros** „minimum” rubrika (S konkrét / B megfigyelhető / I érthető), küszöb: *„minden sorban min. alapszint, legalább egy sorban fejlődő”*.
-- **M1.4** – **4 soros** rubrika (a 4. sor ott „SBI struktúra összhatása”), 0–2 pont/sor, küszöb: *„minden sorban ≥1 ÉS ≥6/8”*.
+- **M1.4 (korábbi, mostanra érvénytelen küszöb)** – **4 soros** rubrika (a 4. sor ott „SBI struktúra összhatása”), 0–2 pont/sor, a régi küszöb: *„minden sorban ≥1 ÉS ≥6/8”*. Ezt a 6/8-at az alábbi feloldás váltja ≥5/8-ra (lásd a „Miért 5/8 és nem 6/8?” bekezdést), egyezésben a 0. fejléccel és a Program terv §5 táblájával.
 
 **Ez a fájl a kanonikus rubrika.** A két szabályt **egyetlen, ekvivalens megfogalmazásban** oldjuk fel, a feladatban rögzített minimum-elv mentén:
 
