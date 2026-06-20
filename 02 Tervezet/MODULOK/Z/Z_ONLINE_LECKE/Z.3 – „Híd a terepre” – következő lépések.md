@@ -100,7 +100,7 @@ Opciók:
 
 > A jó „next step” cél:
 > &#x20;– **konkrét** (tudod, mit kell csinálni),
-> &#x20;– **időben behatárolt** (pl. „a következő 3 Zmán Kvucámban…”),
+> &#x20;– **időben behatárolt** (pl. „a következő 3 Zmán Kvucámon…”),
 > &#x20;– **hozzád mérten reális**, de kicsit kihívó is.
 
 > Nem az a cél, hogy tökéletes célokat írj,
@@ -147,7 +147,7 @@ Opciók:
 
 ***
 
-### SLIDE 4 – ACTIVITY 1: „A következő 3 Zmán Kvucámban…”
+### SLIDE 4 – ACTIVITY 1: „A következő 3 Zmán Kvucámon…”
 
 **Cél:** az első saját, terepre irányuló cél megfogalmazása.
 

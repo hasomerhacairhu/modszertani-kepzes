@@ -34,7 +34,7 @@ A modul végére a résztvevő…
    &#x20;– **Megfogalmazol** a záróreflexióban **1 mondatot arról, milyen visszajelzés segített már neked**, és **megnevezed**, mit teszel legközelebb, amikor visszajelzést kapsz – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk; reflexiós produktumként jelenik meg, nem a kapu része.)*
    &#x20;– Támogató tartalmak: M1.1–M1.4, M1.A, M1.B, M1.F.
 5. **Modulproduktum előállítása**
-   &#x20;– Elkészít 1–2 db **2–3 mondatos SBI-vázat** valós vagy fiktív helyzetre, és feltölti az Assignmentbe.
+   &#x20;– **Elkészítesz** 1–2 db **2–3 mondatos SBI-vázat** valós vagy fiktív helyzetre, és **feltöltöd** az Assignmentbe.
    &#x20;– Támogató tartalmak: M1.4, M1.B.
 
 ***

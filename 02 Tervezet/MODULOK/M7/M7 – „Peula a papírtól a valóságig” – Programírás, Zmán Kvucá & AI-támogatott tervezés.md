@@ -4,7 +4,7 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), **45’ + 45’**
-* **Online terhelés:** kb. **4×15–20 perc** mikrolecke (M7.1–M7.4, össz. 60–80 perc)
+* **Online terhelés:** kb. **4 db mikrolecke** (M7.1: 10–15’, M7.2–M7.4: 15–20’; össz. **55–75 perc**)
 * **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrich-óra, otthoni / védett munkaidő):**
   * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
   * **v1 → v2 véglegesítés** (az M7.B peula-klinika visszajelzései után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **safety-rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, etikus AI-átírás, és a **capstone-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 safety/kvuca-profil · M5 módszer · M6 játéklap).

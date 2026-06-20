@@ -286,12 +286,12 @@ Ha nagyon hiányos / alibi:
 
 1. **Általános elégedettség** – Likert (1–5)
    > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrichként fejlődj?”
-2. **Hasznos modulok** – Multi Choice (több válasz szükséges)
+2. **Hasznos modulok** – Multi Choice (több válasz jelölhető)
    > „Melyik modul(oka)t élted meg **a leghasznosabbnak**?” (M0–M7 listázva)
 3. **Terhelés** – Single Choice
    > „Hogyan élted meg a félév összterhelését (online + offline)?” – Túl kevés / pont elég / néha sok / túl sok
 4. **Mi segített a legjobban?** – Short Answer
-   > „Mi volt az a 1–2 dolog (modul, peula, módszer, ember), ami **a legtöbbet segített** neked madrichként?”
+   > „Mi volt az az 1–2 dolog (modul, peula, módszer, ember), ami **a legtöbbet segített** neked madrichként?”
 5. **Mi volt nehéz / túl sok?** – Short Answer
    > „Mi volt számodra a **legnehezebb** része ennek a félévnek?”
 6. **Javaslat a jövőre** – Short Answer

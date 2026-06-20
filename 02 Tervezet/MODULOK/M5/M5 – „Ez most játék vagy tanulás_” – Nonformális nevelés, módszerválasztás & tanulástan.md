@@ -161,7 +161,7 @@ Attitűd: **support space, nem büntető óra**; a madrich maga dönt, mennyit o
    * M5.3: mely tanulástan-fogalmaknál van sok rossz válasz (gyakorlás vs. „hallgatás”, spacing vs. „egyben magolás”).
 3. **Diagnosztikus kvíz (Quiz) eredmények – felzárkózás-jelző, nem kapu:**
    * kérdés-szintű elemzés: ha sokan félreértik a spacinget → több példa a következő évfolyamnak, és **M5.F-be irányítás** az érintett madrichoknak;
-   * ha sokan előbb választanak módszert, mint célt → erősíteni a M5.2 üzenetét („cél az első”);
+   * ha sokan előbb választanak módszert, mint célt → erősíteni az M5.2 üzenetét („cél az első”);
    * a ≥80% jelzőküszöb alattiak **nem buknak**, hanem célzott felzárkóztatást kapnak a produktum beadása előtt.
 4. **Modulproduktum (Assignment – M5.4) – az éles kapu:**
    * leadási arány: hányan adták le a táblázatot;

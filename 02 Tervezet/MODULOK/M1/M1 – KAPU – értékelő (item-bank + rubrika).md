@@ -18,7 +18,7 @@
 | **Próbálkozás** | Több próbálkozás engedélyezve (mastery learning). Bukásnál rövid, **SBI-típusú** képzői feedback + új próbálkozás nyitása. |
 | **Kísérő mérés (NEM kapu)** | A 3. szakasz item-bankja (Moodle Quiz / **H5P Question Set**) **formatív / completion** – a felismerő tudást méri, nincs ≥80% küszöbe, nem dönt a kapuról. |
 
-> **Fontos elhatárolás.** A kapu maga a **produktív** beadvány (SBI írása) – ez méri a tényleges kimeneti kompetenciát. A kvíz-itemek (S/B/I azonosítás, megfigyelés vs. címke) **felismerést** mérnek, és csak gyakorlásra/önellenőrzésre valók. Ne keverd a kettőt: a kvíz „megment” senkit, ha a beadott SBI nem éri el a rubrika-küszöböt, és fordítva.
+> **Fontos elhatárolás.** A kapu maga a **produktív** beadvány (SBI írása) – ez méri a tényleges kimeneti kompetenciát. A kvíz-itemek (S/B/I azonosítás, megfigyelés vs. címke) **felismerést** mérnek, és csak gyakorlásra/önellenőrzésre valók. Ne keverd a kettőt: a kvíz **nem** „ment meg” senkit, ha a beadott SBI nem éri el a rubrika-küszöböt, és fordítva.
 
 ---
 
@@ -92,7 +92,7 @@ A modulban **két, egymásnak ellentmondó** kapu-leírás élt egymás mellett 
 
 **Ez a fájl a kanonikus rubrika.** A két szabályt **egyetlen, ekvivalens megfogalmazásban** oldjuk fel, a feladatban rögzített minimum-elv mentén:
 
-> **A kapu minimuma = minden sorban legalább „alapszint” (azaz ≥1 pont, mert a 0 = „még nem tudja”) ÉS legalább egy sorban „fejlődő” vagy magasabb.**
+> **A kapu minimuma = minden sorban legalább „fejlődő” (≥1 pont, mert a 0 = „még nem tudja”) ÉS legalább egy sorban „kiváló” (=2 pont).**
 
 Hogy ez **pontszámban** is egyértelmű és LMS-be vihető legyen:
 

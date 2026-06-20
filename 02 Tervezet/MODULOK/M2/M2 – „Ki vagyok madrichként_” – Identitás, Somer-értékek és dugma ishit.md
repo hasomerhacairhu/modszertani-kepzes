@@ -13,7 +13,7 @@
 
 **Modulcél röviden**
 
-A madrich **megnevezi identitásrétegeit és 3 Somer-értékét, mindegyikhez 1 megfigyelhető madrich-viselkedést rendel**, és megfogalmazza, **milyen dugma ishit szeretne lenni** – konkrét viselkedésben, nem csak szavakban. 
+A madrich **megnevezi identitásrétegeit és 3 személyes értékét, mindegyikhez 1 megfigyelhető madrich-viselkedést rendel**, és megfogalmazza, **milyen dugma ishit szeretne lenni** – konkrét viselkedésben, nem csak szavakban. 
 
 ***
 
@@ -174,7 +174,7 @@ A modul végére a madrich…
   * külön figyelni, hol esnek ki (különösen L3–L4 körül).
 * **H5P analitika:**
   * Melyik pillérnél (zionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
-  * Hányan írnak ténylegesen példát dugma ishitre (legalább 1–1 mondat pillerenként).
+  * Hányan írnak ténylegesen példát dugma ishitre (legalább 1–1 mondat pillérenként).
 * **Assignment adatok:**
   * Identitás-térkép, reflektív napló és identitás-jegyzet leadási aránya.
   * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrich-szerephez kötött szabály.

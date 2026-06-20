@@ -111,7 +111,7 @@ Opciók:
 
 ***
 
-### SLIDE 3 – PÉLDASTORI 1: Pozitív „aha-pillanat”
+### SLIDE 3 – PÉLDASZTORI 1: Pozitív „aha-pillanat”
 
 **Cél:** ráismerés egy könnyebb, pozitív tanulási pillanatra.
 
@@ -148,7 +148,7 @@ Opciók:
 
 ***
 
-### SLIDE 4 – PÉLDASTORI 2: Nehéz / kellemetlen tanulási pillanat
+### SLIDE 4 – PÉLDASZTORI 2: Nehéz / kellemetlen tanulási pillanat
 
 **Cél:** normalizálni, hogy a nehéz helyzetekből is lehet tanulni.
 

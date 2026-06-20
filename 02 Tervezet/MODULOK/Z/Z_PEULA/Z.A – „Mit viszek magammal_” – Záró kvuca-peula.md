@@ -209,7 +209,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Lépések:**
 
 1. **Névhúzás előkészítése (2–3 perc)**
-   * Mindeki nevét írjátok fel külön kis cetlire, tegyétek egy tálba / kalapba.
+   * Mindenki nevét írjátok fel külön kis cetlire, tegyétek egy tálba / kalapba.
    * Mindenki húz egy nevet (ha valaki saját magát húzza, húzhat újra).
 2. **Mini-SBI keret elmagyarázása (2 perc)**
    &#x20;Képző:

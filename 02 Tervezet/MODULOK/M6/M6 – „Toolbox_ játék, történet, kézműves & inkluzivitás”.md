@@ -10,8 +10,8 @@
 **Modulközponti kérdés**
 
 > „Milyen **konkrét eszközökkel** (játék, történet, kézműves) tudok
-> &#x20;biztonságos, inkluzív és értelmes peulát tartani
-> **különböző kvucáknak**?” 
+> biztonságos, inkluzív és értelmes peulát tartani
+> **különböző kvucáknak**?”
 
 **Modulcél röviden**
 
@@ -87,7 +87,7 @@ A modul végére a madrich…
 
 ### M6.4 – „Döntési szcenáriók: mit választanál?” (15–20’)
 
-* **Fő fókusz:kvuca + cél + körülmény → játék / történet / kézműves** döntés, biztonság & inkluzivitás szempontokkal. 
+* **Fő fókusz:** kvuca + cél + körülmény → játék / történet / kézműves döntés, biztonság & inkluzivitás szempontokkal.
 * **Eszköz:** H5P Branching Scenario (4 szcenárió, döntési pontokkal). 
 * **Mit tanul a madrich?**
   * 3–4 valós-szerű helyzetben módszert választani,
@@ -110,12 +110,9 @@ A modul végére a madrich…
   3. 20–35’ – Játék-lab 2: új játék / variáció, most hangsúlyosan inkluzivitás-szemüveggel.
   4. 35–45’ – Zárókör: „Egy játék-szempont, amire mostantól figyelni akarok.”
 * **Kompetenciakapcsolat:**
-  *
-    1. Eszköz–kvuca illesztés (korosztály-szemüvegek),
-  *
-    1. Biztonság & inkluzivitás (kockázat- és variáció-kör),
-  *
-    1. Módszerválasztási döntés (játékok tudatos elemzése).
+  1. Eszköz–kvuca illesztés (korosztály-szemüvegek),
+  2. Biztonság & inkluzivitás (kockázat- és variáció-kör),
+  5. Módszerválasztási döntés (játékok tudatos elemzése).
 
 ***
 
@@ -132,13 +129,10 @@ A modul végére a madrich…
   3. 30–40’ – Mini-bemutatók: 2–3 játéklap rövid megosztása, SBI feedback-kör.
   4. 40–45’ – Commit-kör: „Miben szeretném, hogy a saját játékom **biztonság & inkluzivitás szempontból** *dugma ishit* (személyes példamutatás) legyen?” 
 * **Kompetenciakapcsolat:**
-  * 2\. Biztonság & inkluzivitás (konkrét sor a játéklapon),
-  *
-    1. Történet mint nevelési eszköz (ha történetet választ),
-  *
-    1. Kézműves, ami tanít is (ha kézművest választ),
-  *
-    1. Módszerválasztási döntés & játéklap (produktum).
+  2. Biztonság & inkluzivitás (konkrét sor a játéklapon),
+  3. Történet mint nevelési eszköz (ha történetet választ),
+  4. Kézműves, ami tanít is (ha kézművest választ),
+  5. Módszerválasztási döntés & játéklap (produktum).
 
 ***
 

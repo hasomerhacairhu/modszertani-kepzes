@@ -29,7 +29,7 @@ A modul végére a résztvevő…
    * Érti, hogy a kvuca már **a testéből „olvas”**, mielőtt megszólal.
      *(Főleg: M4.1, M4.A)*
 2. **Hanghasználat & érthetőség**
-   * Figyel a **hangerőre, beszédtempóra, tagolásra**, és kerülni igyekszik a hadarást illetve a teljes monotonitást.
+   * Figyel a **hangerőre, beszédtempóra, tagolásra**, és kerülni igyekszik a hadarást, illetve a teljes monotonitást.
    * Képes rövid, **érthető mondatokban** összefoglalni, mit szeretne, és vissza is kérdez: „Követtek?”
      *(Főleg: M4.1, M4.A, M4.B)*
 3. **Aktív hallgatás & visszatükrözés**

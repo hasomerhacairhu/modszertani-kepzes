@@ -32,7 +32,7 @@
 **Miért éles és nem puha ez a kapu?** A gyerekvédelem és a red flag-felismerés **biztonsági kérdés** – itt nem elég a részvétel, mérhető megértés kell. Ezért: produktív Assignment + valódi ≥80% küszöb + kötelező kritikus itemek.
 
 ### Miért 12 item és miért így van a küszöb?
-A kapu-validitási szempont fontos itt: az 5–8 itemes kvíznél a 80% durva, „1 hiba = bukás vagy 100%” ugrásokat ad, biztonságkritikus témánál ez nem védhető. **12 item** mellett a 80% = **10/12** helyes – ez egy hiba (11/12 ≈ 92%) és két hiba (10/12 ≈ 83%) esetén is átenged, három hiba (9/12 = 75%) esetén nem. Így a küszöb nem billen át egyetlen bizonytalan itemnél, **de** a négy legkritikusabb biztonsági állítást (titoktartás határa, akut önveszély, do-not-tip-off felnőtt-gyanúnál, jelzési út) **külön, kötelezően** is helyesen kell tudni – ezek tévesztése akkor is bukás, ha az összpontszám egyébként meglenne.
+A kapu-validitási szempont fontos itt: az 5–8 itemes kvíznél a 80% durva, „1 hiba = bukás vagy 100%” ugrásokat ad, biztonságkritikus témánál ez nem védhető. **12 item** mellett a 80% = **10/12** helyes – ez egy hiba (11/12 ≈ 92%) és két hiba (10/12 ≈ 83%) esetén is átenged, három hiba (9/12 = 75%) esetén nem. Így a küszöb nem billen át egyetlen bizonytalan itemnél, **de** a négy legkritikusabb biztonsági állítást (titoktartás határa, akut önveszély, do-not-tip-off felnőtt-gyanúnál, meghallgatás ≠ nyomozás) **külön, kötelezően** is helyesen kell tudni – ezek tévesztése akkor is bukás, ha az összpontszám egyébként meglenne.
 
 ---
 
@@ -49,7 +49,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 | Red flag felismerése (M3.3 SLIDE 3) | 1 |
 | Online zaklatás mint red flag (M3.3 SLIDE 4 – sértő mém szcenárió) | 11 |
 | Nincs 100% titoktartás, mit ígérhetsz (M3.3 SLIDE 1, 4) | **2**, 8 |
-| Akut önveszély sürgőssége – 112 / 116-123 (M3.3 SLIDE 4 ⚠️ doboz) | **4** |
+| Akut önveszély sürgőssége – 112 / 116-111 / 116-123 (M3.3 SLIDE 4 ⚠️ doboz) | **4** |
 | Meghallgatás ≠ nyomozás (M3.3 SLIDE 5 ✅ doboz) | **9** |
 | Felnőtt/madrich-gyanú: ne konfrontáld, közvetlenül a felelősnek (M3.3 SLIDE 5 ⚠️ doboz) | **7** |
 | Bizonytalanság esetén is jelezz; a red flag ritkán 100%-ig egyértelmű (M3.3 SLIDE 1 T/F2, SLIDE 3) | 12 |
@@ -102,7 +102,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 ---
 
 ### ITEM 3 — Jelzési út: kihez fordulsz
-**Szituáció:** Biztos vagy benne, hogy egy chanichcsal kapcsolatban red flag helyzet áll fenn, és jelezni akarsz. **Kihez** fordulsz elsőként a someres keretben?
+**Szituáció:** Biztos vagy benne, hogy egy chanichhal kapcsolatban red flag helyzet áll fenn, és jelezni akarsz. **Kihez** fordulsz elsőként a someres keretben?
 
 - A) A kvuca csoportchatjébe írom ki, hogy mindenki figyeljen oda.
 - B) A **mentoromhoz / a gyerekvédelmi felelőshöz / a vezetőhöz** fordulok, és velük együtt lépünk tovább. ✅
@@ -123,17 +123,17 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 **Szituáció:** Este 23:15. Egy chanich privát üzenetben azt írja, hogy **most, ma este úgy érzi, kárt tenne magában**, és egyedül van otthon. Mi a felelős reakció?
 
 - A) Megírom, hogy beszéljük meg holnap a peulán, addig próbáljon aludni, és felírom magamnak, hogy reggel rákérdezek, hogy van.
-- B) **Nem hagyom egyedül**, **azonnal** felnőttet jelzek, és **közvetlen életveszélynél a 112-t** hívom (lelki krízisben **116-123**). ✅
+- B) **Nem hagyom egyedül**, **azonnal** felnőttet jelzek, és **közvetlen életveszélynél a 112-t** hívom (lelki krízisben **116-111** Kék Vonal vagy **116-123** Lelki Elsősegély). ✅
 - C) Megnyugtatom, hogy biztosan elmúlik, átbeszéljük chaten a problémáit, és megígérem, hogy ez kettőnk titka marad.
 - D) Kiírom a kvuca csoportchatbe, hogy figyeljen rá most mindenki, és megkérem a hozzá legközelebb lakó chanichot, hogy nézzen rá.
 
 **Miért ez a jó / miért rossz a többi:**
-- ✅ **B** — Az **akut, aznapi** önveszély **sürgős** – nem ugyanaz, mint egy „lassú” red flag. Itt a gyorsaság életet menthet: ne maradjon egyedül, azonnali felnőtt-jelzés, súlyos esetben 112, lelki krízisben 116-123 (ingyenes, 0–24).
+- ✅ **B** — Az **akut, aznapi** önveszély **sürgős** – nem ugyanaz, mint egy „lassú” red flag. Itt a gyorsaság életet menthet: ne maradjon egyedül, azonnali felnőtt-jelzés, súlyos esetben 112, lelki krízisben 116-111 Kék Vonal (gyermek/ifjúsági) vagy 116-123 Lelki Elsősegély (mindkettő ingyenes, 0–24).
 - A — A halasztás („majd holnap”) közvetlen veszélynél elfogadhatatlan.
 - C — A „biztosan elmúlik” bagatellizál, a titoktartás-ígéret pedig itt különösen veszélyes.
 - D — A csoportchat nem segítség, hanem megaláztatás és további veszély forrása.
 
-**Tanulói feedback:** „Akut önveszélynél a kulcs: **ne maradjon egyedül + azonnali felnőtt + súlyos esetben 112**, lelki krízisben **116-123**. Ez nem várhat másnapig.”
+**Tanulói feedback:** „Akut önveszélynél a kulcs: **ne maradjon egyedül + azonnali felnőtt + súlyos esetben 112**, lelki krízisben **116-111** Kék Vonal (gyermek/ifjúsági) vagy **116-123** Lelki Elsősegély. Ez nem várhat másnapig.”
 
 ---
 
@@ -174,7 +174,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 ---
 
 ### ITEM 7 — Felnőtt-gyanú: ne tippeld le *(KRITIKUS)*
-**Szituáció:** Észreveszed, hogy **egy másik madrich** feltűnően sokat van négyszemközt egy chanichcsal, sok az ölelés, és „ezt ne mondjuk el senkinek” mondatok mennek. Mit teszel **először**?
+**Szituáció:** Észreveszed, hogy **egy másik madrich** feltűnően sokat van négyszemközt egy chanichhal, sok az ölelés, és „ezt ne mondjuk el senkinek” mondatok mennek. Mit teszel **először**?
 
 - A) Odamegyek a másik madrichhoz, és szemtől szembe megkérdezem, mi folyik itt.
 - B) **Közvetlenül a gyerekvédelmi felelősnek / vezetőnek jelzek**, és **nem** figyelmeztetem, nem konfrontálom a gyanúsított madrichot. ✅
@@ -228,11 +228,11 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 ---
 
 ### ITEM 10 — Madrich–chanich párkapcsolat
-**Szituáció:** Egy madrich elmondja neked négyszemközt, hogy „összejött” egy chanichcsal, de kéri, hogy tartsd titokban. Hogyan értékeled ezt?
+**Szituáció:** Egy madrich elmondja neked négyszemközt, hogy „összejött” egy chanichhal, de kéri, hogy tartsd titokban. Hogyan értékeled ezt?
 
 - A) Ha mindketten akarják, magánügy, és nem kell beleszólni.
 - B) Kínos, de mivel a madrich idősebb és tapasztaltabb nálad, jobb nem ütközni vele.
-- C) Ez **súlyos red flag** – madrich nem lehet párkapcsolatban chanich-hal –, és **mindig** be kell vonni egy felelős felnőttet. ✅
+- C) Ez **súlyos red flag** – madrich nem lehet párkapcsolatban chanichhal –, és **mindig** be kell vonni egy felelős felnőttet. ✅
 - D) Megmondom a madrichnak, hogy ez gáz, és ezzel le is van tudva a dolog.
 
 **Miért ez a jó / miért rossz a többi:**
@@ -298,7 +298,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 |---|---|---|---|
 | **R1 – Red flag megnevezése** *(megfigyelhető: a szövegben néven nevezi a biztonsági jelet)* | Nem nevez meg valódi red flaget, vagy ártalmatlan dolgot címkéz red flagnek (pl. „csendes a chanich”). | **Legalább 1 valódi** red flaget pontosan megnevez (pl. önsértés-gyanú, online zaklatás, madrich–chanich határátlépés, bántalmazás-gyanú) és röviden indokolja, miért az. | Több releváns red flaget azonosít vagy egyet mélyebben elemez (mire kell figyelni, miért nem egyértelmű), és megkülönbözteti a „lassú” red flaget az **akut** veszélytől. |
 | **R2 – Titoktartás kezelése** *(BLOKKOLÓ)* *(megfigyelhető: mit ígér / nem ígér a leírt madrich)* | A leírt első lépésben **titoktartást ígér** (pl. „megígérem, hogy nem szólok senkinek”), vagy a kérdést meg sem említi. | Kimondja, hogy **nem ígér 100% titoktartást**, és jelzi, hogy bevonhat mást. | Pontosan megfogalmazza a felelős mondatot: komolyan veszem + elmondom **kinek és miért** szólok + **nem hagylak egyedül**; a megosztást a **segíteni tudó** felelősre korlátozza (nem „mindenkinek”). |
-| **R3 – Felelős első lépés + kit von be** *(megfigyelhető: megnevez konkrét felnőttet/szerepet)* | Nincs konkrét lépés, vagy egyedül „megoldja”, vagy a kvucának / csoportchatnek / közvetlenül a szülőnek „jelez”. | Megnevez **legalább egy konkrét felelős felnőttet/szerepet** (mentor / gyerekvédelmi felelős / vezető), akihez fordul. | A bevonás illeszkedik a helyzet **súlyosságához és típusához**: akut önveszélynél azonnaliság/112/116-123; felnőtt-gyanúnál közvetlenül a felelős; és van utánkövetés-elem („nem tűnik el a levegőben”). |
+| **R3 – Felelős első lépés + kit von be** *(megfigyelhető: megnevez konkrét felnőttet/szerepet)* | Nincs konkrét lépés, vagy egyedül „megoldja”, vagy a kvucának / csoportchatnek / közvetlenül a szülőnek „jelez”. | Megnevez **legalább egy konkrét felelős felnőttet/szerepet** (mentor / gyerekvédelmi felelős / vezető), akihez fordul. | A bevonás illeszkedik a helyzet **súlyosságához és típusához**: akut önveszélynél azonnaliság/112/116-111/116-123; felnőtt-gyanúnál közvetlenül a felelős; és van utánkövetés-elem („nem tűnik el a levegőben”). |
 | **R4 – Nem nyomoz / nem konfrontál + realisztikus helyzet** *(BLOKKOLÓ)* *(megfigyelhető: a leírt viselkedés)* | A leírt madrich **nyomoz / kikérdez** (ki, mikor, hányszor), **vagy konfrontálja** a gyanúsított felnőttet, **vagy** a helyzet nem életszerű / nem értelmezhető. | A leírt madrich **meghallgat, de nem nyomoz**, és felnőtt-gyanú esetén **nem konfrontálja** a gyanúsítottat; a helyzet életszerű, konkrét (hely + kvuca + esemény). | Tudatosan jelzi a „meghallgatni szabad, nyomozni nem” elvet (pl. nyílt, nem terelő kérdés, saját szavak feljegyzése), felnőtt-gyanúnál a diszkrét, közvetlen jelzést; a helyzet konkrét és reflektált. |
 
 ### 2.3 Pontozás-összegzés (stábnak)
@@ -333,9 +333,10 @@ A mentor a learning analytics alapján nézze át, **mely red flag típust** nem
 - 1997. évi XXXI. törvény a gyermekek védelméről és a gyámügyi igazgatásról (Gyvt.) – Nemzeti Jogszabálytár — https://njt.hu/jogszabaly/1997-31-00-00
 - Gyvt. – Hatályos Jogszabályok Gyűjteménye (net.jogtar.hu) — https://net.jogtar.hu/jogszabaly?docid=99700031.tv
 
-**Akut önveszély / krízis – hívószámok** (112 segélyhívó; 116-123 ingyenes, 0–24 Lelki Elsősegély):
+**Akut önveszély / krízis – hívószámok** (112 segélyhívó; 116-111 Kék Vonal gyermek- és ifjúsági lelkisegély, ingyenes 0–24; 116-123 ingyenes, 0–24 Lelki Elsősegély):
 - A Rendőrség hivatalos honlapja – *Tájékoztató a Lelki Elsősegély Telefonszolgálatokról* — https://www.police.hu/hu/hirek-es-informaciok/bunmegelozes/aktualis/tajekoztato-a-lelki-elsosegely-telefonszolgalatokrol
-- Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége (LESZ) – 116-123 (ingyenes, 0–24) — https://sos116-123.hu/
+- Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége (LESZ) – 116-123 (ingyenes, 0–24, mindenkinek) — https://sos116-123.hu/
+- Kék Vonal Gyermekkrízis Alapítvány – 116-111 (gyermek- és ifjúsági lelkisegély, ingyenes, 0–24, 24 év alatt) — https://kek-vonal.hu/
 - Egészségvonal (NNGYK) – *Lelkisegély-szolgálatok és kríziskezelés* (112 közvetlen veszélynél) — https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelkisegely-szolgalatok.html
 
 > A hívószámok és a helyi gyerekvédelmi protokoll pontosítása a **gyerekvédelmi felelős** feladata a véglegesítés előtt.

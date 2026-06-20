@@ -46,7 +46,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | Téma | Honnan (lecke/peula) | Itemek |
 |---|---|---|
 | Korosztály–eszköz illesztés (6–10 / 11–13 / 14–16 / 16+) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
-| Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4 | 5, 6, 7 |
+| Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4, M6.A | 5, 6, 7 |
 | **Inkluzivitást** növelő variáció azonosítása | M6.3, M6.4 | 8, 9, 10 |
 | **Trigger-érzékenység** (történet/élményjáték) | M6.2, M6.4 (B-ág) | 11, 12 |
 
@@ -108,7 +108,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 ## 3. ITEM – Eszköz-illesztés: fáradt napzárás
 
 **Szár:**
-> **13 éves** kvuca, **fáradtan** a ken (tábor) végén, egész napos program után. Célod a **lezárás és rövid közös reflektálás**, kb. 15 perced van, és a tér már nem alkalmas sok mozgásra. Mi a legjobb választás?
+> **13 éves** kvuca, **fáradtan** a ken-nap végén, egész napos program után. Célod a **lezárás és rövid közös reflektálás**, kb. 15 perced van, és a tér már nem alkalmas sok mozgásra. Mi a legjobb választás?
 
 **Opciók:**
 - A) Pörgős, fizikailag megterhelő energizer „még egy utolsó nagy őrület”.
@@ -333,7 +333,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 >
 > **Ha most kevesebb lett (nyugodtan újrapróbálható, nem buktat):** Semmi gond, **ez nem éles kapu, hanem felkészítő önellenőrzés**. Nézd vissza a témát, amelyikben többször hibáztál – főleg ha **biztonsági vagy inkluzivitási** itemnél, mert ezek a játéklap **hard-gate** sorai is:
 > - korosztály-illesztés → **M6.1** és **M6.4**,
-> - biztonsági minimum → **M6.1** (bizalomjáték) és **M6.A**,
+> - biztonsági minimum → **M6.1** (bizalomjáték), **M6.4** és **M6.A**,
 > - inkluzív variáció → **M6.3** és **M6.4**,
 > - trigger-érzékenység → **M6.2**.
 

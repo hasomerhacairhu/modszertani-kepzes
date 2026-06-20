@@ -39,7 +39,7 @@ A modul végére a résztvevő…
 > &#x20;*(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyerekvédelemre **(M3.4)**.
-   * Külön kiemeli, hogy **madrich nem lehet párkapcsolatban chanich-hal** – ezt súlyos határátlépésnek, red flag-nek tartja **(M3.4)**.
+   * Külön kiemeli, hogy **madrich nem lehet párkapcsolatban chanichhal** – ezt súlyos határátlépésnek, red flag-nek tartja **(M3.4)**.
 6. **Szituáció-elemzés & modulproduktum**
    * Elkészít egy rövid **helyzetleírást** (kvuca + konkrét eset), amelyben:
      * megnevez legalább egy **red flag**-et,
@@ -130,7 +130,7 @@ A modul végére a résztvevő…
   * Rövid Do/Don’t példa-lista:
     * **DO:** közös chat-szabályok, csoportos kommunikáció preferálása, red flag jelzése mentornak / felelősnek.
     * **DON’T:** késő esti privát chat egy chanichcsal, privát fotók kérése, red flag elhallgatása,
-      * **+ egyértelműen:** madrich nem lehet párkapcsolatban chanich-hal (súlyos red flag).
+      * **+ egyértelműen:** madrich nem lehet párkapcsolatban chanichhal (súlyos red flag).
   * H5P Sorting feladat konkrét példákkal (OK / Nem OK).
   * Assignment-sablon a modulproduktumhoz:
     * helyzetleírás (hol játszódik, kvuca-típus, mi történik),
@@ -212,13 +212,13 @@ A modul végére a résztvevő…
 * **Eszközök:**
   * Moodle Quiz vagy H5P Question Set – **szcenárió-alapú kvíz** gyerekvédelem & red flag témában.
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
-* **Követelmény az M3 „complete”-hez:**
+* **Követelmény az M3 „complete”-hez (kétkomponensű éles kapu – a kanonikus küszöb a [M3 – KAPU](./M3%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) fájlban):**
   1. **M3.1–M3.4** mikroleckék activity completion (H5P-k végigjátszva).
-  2. Modulproduktum (helyzetleírás + red flag + első lépés + kit von be) **Assignmentként leadva** (M3.4-hez kapcsolódva).
-  3. **M3 – KAPU** szcenárió-kvíz legalább **80%**-os eredménnyel.
+  2. **Komponens B – modulproduktum:** helyzetleírás (red flag + első lépés + kit von be) **Assignmentként leadva**, és eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint (1), az R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) sor blokkoló** (M3.4-hez kapcsolódva).
+  3. **Komponens A – szcenárió-kvíz:** **≥80% (≥10/12) ÉS a kötelező kritikus itemek (2., 4., 7., 9.) helyesek** – a kritikus itemek tévesztése a 80% mellett is bukás.
 * **Kapu-jelzés & támogatás:**
   * Több próbálkozás engedélyezett (mastery logika).
-  * Ha valaki 2 próbálkozás után sem éri el a 80%-ot → mentor értesítése, rövid egyéni beszélgetés (támogatás, nem büntetés).
+  * Ha valaki 2 próbálkozás után sem éri el a küszöböt (≥10/12 + kritikus itemek, ill. a blokkoló rubrikasorok) → mentor értesítése, rövid egyéni beszélgetés (támogatás, nem büntetés).
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyerekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **4 someres kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea) lesz az M7 záró produktumának safety- és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyerekvédelem & safety, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §CAPSTONE).
 
