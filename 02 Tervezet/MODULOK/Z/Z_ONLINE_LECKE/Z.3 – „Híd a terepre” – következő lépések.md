@@ -13,8 +13,8 @@
 **Mikrocél (tanulói nyelven):**
 
 > A lecke végére lesz **1–2 konkrét „next step” célod** a terepre
-> &#x20;(pl. „A következő 3 Zmán Kvucámon…”, „A következő hónapban…”),
-> &#x20;és tudod magadról, hogy **mi lesz az első lépés**, ha holnap kezdenéd.
+> (pl. „A következő 3 Zmán Kvucámon…”, „A következő hónapban…”),
+> és tudod magadról, hogy **mi lesz az első lépés**, ha holnap kezdenéd.
 
 **Központi mondat:**
 
@@ -31,14 +31,14 @@
 ### Z.3 – „Híd a terepre” – következő lépések
 
 > Az előző leckékben **visszanéztél** a félévre (M0–M7, tanulási pillanataid).
-> &#x20;Most előre nézünk: **mit szeretnél a terepen kipróbálni vagy másképp csinálni?**
+> Most előre nézünk: **mit szeretnél a terepen kipróbálni vagy másképp csinálni?**
 
 > Nem óriási, életreszóló fogadalmakat keresünk, hanem **kis, konkrét lépéseket**:
-> &#x20;olyan dolgokat, amiket **tényleg meg tudsz csinálni** a következő 1–3 hónapban.
+> olyan dolgokat, amiket **tényleg meg tudsz csinálni** a következő 1–3 hónapban.
 
 > Ebben a leckében:
-> &#x20;– kapsz pár **példamondatot „next step” célokra**,
-> &#x20;– és megfogalmazol **legalább 1–2 saját célt** a terepre.
+> – kapsz pár **példamondatot „next step” célokra**,
+> – és megfogalmazol **legalább 1–2 saját célt** a terepre.
 
 > A végén lesz egy rövid **self-check**:
 > *„Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”*
@@ -61,8 +61,8 @@
 **Szöveg a dián:**
 
 > A terepre készülve sokan érzik azt, hogy:
-> &#x20;– *„Most kell megváltanom a világot.”*
-> &#x20;– vagy *„Nem merek semmit ígérni, nehogy ne sikerüljön.”*
+> – *„Most kell megváltanom a világot.”*
+> – vagy *„Nem merek semmit ígérni, nehogy ne sikerüljön.”*
 
 > A Z.3-ban azt keressük, hol van a **középút**:
 > **kicsi, konkrét lépések**, amik reálisak – és közben tényleg előre visznek.
@@ -80,7 +80,7 @@ Opciók:
 **Feedback (mindháromra hasonló, támogató):**
 
 > „Oké, érthető.
-> &#x20;Ebben a leckében pont abban segítünk, hogy **1–2 kis, konkrét lépést** találj, amit most reálisan be tudsz vállalni.”
+> Ebben a leckében pont abban segítünk, hogy **1–2 kis, konkrét lépést** találj, amit most reálisan be tudsz vállalni.”
 
 ***
 
@@ -93,18 +93,18 @@ Opciók:
 > **Miért „small steps”?**
 
 > Ha túl nagyot vállalsz, könnyen jön a:
-> &#x20;– *„Úgysem sikerült, akkor inkább nem is próbálkozom.”*
+> – *„Úgysem sikerült, akkor inkább nem is próbálkozom.”*
 
 > Ha túl kicsit, túl általánosat:
-> &#x20;– *„Jobb madrich leszek.”* – ez szép, de **nem tudod, mikor teljesült.**
+> – *„Jobb madrich leszek.”* – ez szép, de **nem tudod, mikor teljesült.**
 
 > A jó „next step” cél:
-> &#x20;– **konkrét** (tudod, mit kell csinálni),
-> &#x20;– **időben behatárolt** (pl. „a következő 3 Zmán Kvucámon…”),
-> &#x20;– **hozzád mérten reális**, de kicsit kihívó is.
+> – **konkrét** (tudod, mit kell csinálni),
+> – **időben behatárolt** (pl. „a következő 3 Zmán Kvucámon…”),
+> – **hozzád mérten reális**, de kicsit kihívó is.
 
 > Nem az a cél, hogy tökéletes célokat írj,
-> &#x20;hanem hogy legyen **1–2 mondat**, amihez vissza tudsz térni a terepen.
+> hanem hogy legyen **1–2 mondat**, amihez vissza tudsz térni a terepen.
 
 *(Nincs kérdés – tiszta Input.)*
 
@@ -125,9 +125,9 @@ Opciók:
 > 3️⃣ *„A következő 4 hétben&#x20;****minden héten megkérdezem a madrich-társamtól****, hogy mi volt számára a legnehezebb pillanat.”*
 
 > Ezekben közös, hogy:
-> &#x20;– meg van nevezve **az időtáv** („következő 3 Zmán Kvucám”, „következő hónap”),
-> &#x20;– meg van nevezve **a konkrét cselekvés**,
-> &#x20;– és **reálisan belőhető**, hogy sikerült-e.
+> – meg van nevezve **az időtáv** („következő 3 Zmán Kvucám”, „következő hónap”),
+> – meg van nevezve **a konkrét cselekvés**,
+> – és **reálisan belőhető**, hogy sikerült-e.
 
 **Beágyazott kérdés – Multi Choice**
 
@@ -143,7 +143,7 @@ Opciók:
 **Feedback:**
 
 > „Jó kiindulópont, amit választottál.
-> &#x20;A következő slide-okon **a saját mondatodat** fogod megfogalmazni hasonló szerkezetben.”
+> A következő slide-okon **a saját mondatodat** fogod megfogalmazni hasonló szerkezetben.”
 
 ***
 
@@ -160,9 +160,9 @@ Opciók:
 > **„A következő 3 Zmán Kvucámon…”**
 
 > Segítő példák:
-> &#x20;– „…figyelek rá, hogy **legalább 1 új kérdezéstechnikát kipróbáljak**.”
-> &#x20;– „…minden alkalom után megkérdezem **legalább 1 chanichtól**, hogy mi tetszett / mi volt nehéz.”
-> &#x20;– „…előkészítek **legalább 1 játékot**, ahol tudatosan figyelek az inkluzivitásra.”
+> – „…figyelek rá, hogy **legalább 1 új kérdezéstechnikát kipróbáljak**.”
+> – „…minden alkalom után megkérdezem **legalább 1 chanichtól**, hogy mi tetszett / mi volt nehéz.”
+> – „…előkészítek **legalább 1 játékot**, ahol tudatosan figyelek az inkluzivitásra.”
 
 > Fontos: legyen **valóságos**, amit beírsz – olyan, amit tényleg el tudsz képzelni magad előtt.
 
@@ -188,9 +188,9 @@ Placeholder:
 > **„A következő hónapban…”**
 
 > Segítő példák:
-> &#x20;– „…minden peula után **1 mondatban leírom**, mit tanultam én madrichként.”
-> &#x20;– „…legalább **2-szer leülök a mentorommal / madrich-társammal** átbeszélni, mi ment jól és mi volt nehéz.”
-> &#x20;– „…minden héten **1 konkrét visszajelzést kérek** valakitől a stábban.”
+> – „…minden peula után **1 mondatban leírom**, mit tanultam én madrichként.”
+> – „…legalább **2-szer leülök a mentorommal / madrich-társammal** átbeszélni, mi ment jól és mi volt nehéz.”
+> – „…minden héten **1 konkrét visszajelzést kérek** valakitől a stábban.”
 
 > Itt is az a cél, hogy **kicsi, de konkrét** lépést írj le.
 
@@ -212,8 +212,8 @@ Placeholder:
 > A legtöbb „next step” cél **könnyebben megvalósul**, ha **megosztod valakivel**.
 
 > Gondold végig:
-> &#x20;– Kinek fogod elmondani ezeket a célokat?
-> &#x20;– Ki tud ebben neked **támasz** lenni? (mentor, madrich-társ, ken-vezető…)
+> – Kinek fogod elmondani ezeket a célokat?
+> – Ki tud ebben neked **támasz** lenni? (mentor, madrich-társ, ken-vezető…)
 
 > Írj le 1 rövid mondatot:
 
@@ -240,7 +240,7 @@ Placeholder:
 > **„Ha holnap kezdeném, tudom, mi lenne az első konkrét lépésem?”**
 
 > – Ha **igen**: szuper, jó irányban vagy.
-> &#x20;– Ha **nem**, akkor próbáld meg **még 1 kicsit konkrétabbra húzni** az egyik mondatot (pl. „pontosan mikor”, „pontosan mivel”, „pontosan kivel?”).
+> – Ha **nem**, akkor próbáld meg **még 1 kicsit konkrétabbra húzni** az egyik mondatot (pl. „pontosan mikor”, „pontosan mivel”, „pontosan kivel?”).
 
 **Beágyazott kérdés – Single Choice + Short Answer (opcionális)**
 

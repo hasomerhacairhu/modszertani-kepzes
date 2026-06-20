@@ -23,15 +23,15 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 A modul végére a résztvevő…
 
 1. **Megnevez legalább 3 fontos tanulási pillanatot az M0–M7 ívről**
-   &#x20;– Vissza tud tekinteni az **M0–M7** modulokra mint összefüggő tanulási folyamatra, és meg tud nevezni legalább **3 fontos tanulási pillanatot**.
+   – Vissza tud tekinteni az **M0–M7** modulokra mint összefüggő tanulási folyamatra, és meg tud nevezni legalább **3 fontos tanulási pillanatot**.
 2. **Reflektív önértékelés**
-   &#x20;– Képes rövid, őszinte **önreflexiót írni vagy videóban megfogalmazni** arról, miben változott madrichként.
+   – Képes rövid, őszinte **önreflexiót írni vagy videóban megfogalmazni** arról, miben változott madrichként.
 3. **Konkrét „next step” célok a terepre**
-   &#x20;– Megfogalmaz legalább **1–2 konkrét, időben behatárolt „next step” célt**, ami a terepi madrich-gyakorlatára vonatkozik.
+   – Megfogalmaz legalább **1–2 konkrét, időben behatárolt „next step” célt**, ami a terepi madrich-gyakorlatára vonatkozik.
 4. **Felsorolja, kihez fordulhat (mentor / képzők / ken-vezető / társ) elakadás esetén**
-   &#x20;– Tudja, **kihez fordulhat** (mentor, képzők, ken-vezetők, társak), ha a következő időszakban elakad.
+   – Tudja, **kihez fordulhat** (mentor, képzők, ken-vezetők, társak), ha a következő időszakban elakad.
 5. **Képzés-szintű visszajelzés adása**
-   &#x20;– Részt vesz a képzés **értékelésében** (feedback-űrlap), és tud legalább 1–2 konstruktív javaslatot megfogalmazni.
+   – Részt vesz a képzés **értékelésében** (feedback-űrlap), és tud legalább 1–2 konstruktív javaslatot megfogalmazni.
 
 ***
 
@@ -50,8 +50,8 @@ A modul végére a résztvevő…
 * **Cél:** azonosítani **konkrét tanulási pillanatokat**.
 * **Eszközök:** H5P Column (példasztorik), Likert / multichoice, Essay / Short Answer.
 * **Kulcskérdések:**
-  &#x20;– „Nevezz meg 1 pillanatot, amikor úgy érezted: *na, most tanultam valamit magamról / a kvucámról*.”
-  &#x20;– „Volt-e modul, amit nehéznek éltél meg? Mit mond ez rólad?”
+  – „Nevezz meg 1 pillanatot, amikor úgy érezted: *na, most tanultam valamit magamról / a kvucámról*.”
+  – „Volt-e modul, amit nehéznek éltél meg? Mit mond ez rólad?”
 * **Check:** „Ha a félévedet 3 szóval kéne leírni, mik lennének ezek?”
 
 ***
@@ -61,8 +61,8 @@ A modul végére a résztvevő…
 * **Cél:** jövőre néző, **konkrét lépések** megfogalmazása a terepre.
 * **Eszközök:** Page / Presentation a „small steps” logikáról, H5P Fill in the Blanks / Short Answer sablon mondatokkal.
 * **Példamondatok:**
-  &#x20;– „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”
-  &#x20;– „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrichként.”
+  – „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”
+  – „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrichként.”
 * **Check:** self-check: „Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”
 
 ***
@@ -71,8 +71,8 @@ A modul végére a résztvevő…
 
 * **Cél:** záró reflektív produktum + képzés-értékelés.
 * **Eszközök:**
-  &#x20;– **Moodle Assignment – „Záró reflexió + next step”** (szöveg vagy videó)
-  &#x20;– **Moodle Feedback / Questionnaire** – anonimizált képzés-értékelő.
+  – **Moodle Assignment – „Záró reflexió + next step”** (szöveg vagy videó)
+  – **Moodle Feedback / Questionnaire** – anonimizált képzés-értékelő.
 * **Ajánlott prompt a reflektív produktumhoz:**
   1. „Nevezz meg 2–3 pillanatot ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
   2. „Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest?”
@@ -90,20 +90,20 @@ A modul végére a résztvevő…
 **Példa percbontás (60’):**
 
 1. **0–10’ – Check-in: „Félév-emojik”**
-   &#x20;– Körkérdés: „Ha a féléved egy emoji lenne, melyik lenne az és miért?”
+   – Körkérdés: „Ha a féléved egy emoji lenne, melyik lenne az és miért?”
 2. **10–25’ – „Időkapszula” – tanulási pillanatok megosztása**
-   &#x20;– Párok/triádok: mindenki elmesél 1 fontos tanulási pillanatot.
-   &#x20;– A hallgató 1 mondatban visszamondja: „Amit tőled hallottam, az az, hogy…”
+   – Párok/triádok: mindenki elmesél 1 fontos tanulási pillanatot.
+   – A hallgató 1 mondatban visszamondja: „Amit tőled hallottam, az az, hogy…”
 3. **25–40’ – „Híd a terepre” poszter**
-   &#x20;– Kiscsoportos plakát:
-   &#x20;– bal oldal: „Mit tanultunk?” (kulcsszavak M0–M7-ből),
-   &#x20;– jobb oldal: „Mit csinálunk másképp a terepen?” (konkrét célok).
-   &#x20;– Rövid bemutatás nagykörben.
+   – Kiscsoportos plakát:
+   – bal oldal: „Mit tanultunk?” (kulcsszavak M0–M7-ből),
+   – jobb oldal: „Mit csinálunk másképp a terepen?” (konkrét célok).
+   – Rövid bemutatás nagykörben.
 4. **40–55’ – Elismerés & köszönés kör**
-   &#x20;– Mindenki húz egy nevet, és **1 konkrét, pozitív visszajelzést** mond róla (mini-SBI).
-   &#x20;– Képzői/ken-vezetői zárómondatok: mit látnak a csoportban, hogyan megy tovább ez a folyamat.
+   – Mindenki húz egy nevet, és **1 konkrét, pozitív visszajelzést** mond róla (mini-SBI).
+   – Képzői/ken-vezetői zárómondatok: mit látnak a csoportban, hogyan megy tovább ez a folyamat.
 5. **55–60’ – Lezáró rituálé**
-   &#x20;– Mindenki felír 1 szót, amit magával visz, és egy közös „felhőbe” rakják (pl. plakát, kör közepe).
+   – Mindenki felír 1 szót, amit magával visz, és egy közös „felhőbe” rakják (pl. plakát, kör közepe).
 
 *(45 perces verziónál a 2–4. blokkok rövidíthetők.)*
 
@@ -114,7 +114,7 @@ A modul végére a résztvevő…
 *(NEM peula, hanem támogatási forma)*
 
 **Mi ez?**
-&#x20;Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsoportos beszélgetés** azoknak, akik szeretnének mélyebben reflektálni, vagy akiknél a mentor/stáb erősebb elakadásokat látott.
+Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsoportos beszélgetés** azoknak, akik szeretnének mélyebben reflektálni, vagy akiknél a mentor/stáb erősebb elakadásokat látott.
 
 **Célok:**
 
@@ -126,14 +126,14 @@ A modul végére a résztvevő…
 
 1. Ráhangolódó kérdés: „Mi az, amire a legbüszkébb vagy ebben a félévben?”
 2. 1–2 körkérdés:
-   &#x20;– „Miben érzed a legnagyobb változást magadon?”
-   &#x20;– „Miben vagy most a legbizonytalanabb a tereppel kapcsolatban?”
+   – „Miben érzed a legnagyobb változást magadon?”
+   – „Miben vagy most a legbizonytalanabb a tereppel kapcsolatban?”
 3. „Support map”: kitől milyen támogatást kérne (mentor, társ, ken-vezető).
 4. Zárókör: „Mi az az 1 mondat, amit elteszel ebből a beszélgetésből?”
 
 **Fontos:**
-&#x20;– Nem kötelező és **nem része a formalizált modul-kapunak**.
-&#x20;– Inkább a **mentori rendszer** eszköze, rugalmasan szervezhető (1:1 vagy 3–4 fős kiscsoport).
+– Nem kötelező és **nem része a formalizált modul-kapunak**.
+– Inkább a **mentori rendszer** eszköze, rugalmasan szervezhető (1:1 vagy 3–4 fős kiscsoport).
 
 ***
 
@@ -146,13 +146,13 @@ A modul végére a résztvevő…
 ### Eszközök
 
 * **Moodle Assignment – „Záró reflexió + next step”**
-  &#x20;– Leadás: írás vagy videó.
-  &#x20;– Értékelés: „Teljesítve / Hiányos / Nem teljesítve”.
-  &#x20;– Minimum elvárás:
+  – Leadás: írás vagy videó.
+  – Értékelés: „Teljesítve / Hiányos / Nem teljesítve”.
+  – Minimum elvárás:
   * legalább 2 tanulási pillanat megnevezése,
   * 1–2 konkrét next step cél.
 * **Moodle Feedback / Questionnaire – „Képzés-értékelés”**
-  &#x20;– Activity completion része, de nem „vizsga”.
+  – Activity completion része, de nem „vizsga”.
 
 ### Minimális teljesítés (Z „complete”)
 
@@ -165,11 +165,11 @@ A modul végére a résztvevő…
 ## 6. Learning analytics – mit néz a stáb?
 
 * **Completion:**
-  &#x20;– Z.1–Z.4 lezárása, Assignment leadási arány, feedback kitöltési arány.
+  – Z.1–Z.4 lezárása, Assignment leadási arány, feedback kitöltési arány.
 * **Minőségi jelek:**
-  &#x20;– Van-e a reflektív produktumban minimum 2 pillanat + 1–2 reális next step.
+  – Van-e a reflektív produktumban minimum 2 pillanat + 1–2 reális next step.
 * **Beavatkozás:**
-  &#x20;– Ha sok a hiányos / üres reflektív produktum → következő évben több modul-közi mini-reflexió beépítése, és/vagy több mentori beszélgetés.
+  – Ha sok a hiányos / üres reflektív produktum → következő évben több modul-közi mini-reflexió beépítése, és/vagy több mentori beszélgetés.
 
 
 

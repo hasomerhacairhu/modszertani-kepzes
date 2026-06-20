@@ -13,8 +13,8 @@
 **Mikrocél (tanulói nyelven):**
 
 > A lecke végére **fel tudsz idézni legalább 1 konkrét tanulási pillanatot** ebből a félévből,
-> &#x20;meg tudod nevezni, **volt-e olyan modul, amit nehéznek éltél meg és mit mond ez rólad**,
-> &#x20;és **3 szóban össze tudod foglalni** a féléves madrichképzős élményedet.
+> meg tudod nevezni, **volt-e olyan modul, amit nehéznek éltél meg és mit mond ez rólad**,
+> és **3 szóban össze tudod foglalni** a féléves madrichképzős élményedet.
 
 **Központi mondat:**
 
@@ -34,10 +34,10 @@
 
 > Olyan **konkrét pillanatokat** keresünk, amikor azt érezted:
 > *„na, most tanultam valamit magamról / a kvucámról / a madrich-szerepről”*
-> &#x20;– akár pozitív élmény volt, akár nehéz.
+> – akár pozitív élmény volt, akár nehéz.
 
 > A lecke **csendes, reflektív** – amit írsz, azt csak a képzőid / mentorod látják.
-> &#x20;Nem fogalmazásverseny, hanem **őszinte gondolkodás**.
+> Nem fogalmazásverseny, hanem **őszinte gondolkodás**.
 
 > A végén 3 szóval fogod összefoglalni, mit jelentett számodra ez a félév.
 
@@ -61,10 +61,10 @@
 > **Volt már ilyen érzésed?**
 
 > – Egy peula után azt érzed: *„Na, ez most nagyon betalált – bennem is.”*
-> &#x20;– Vagy egy nehezebb beszélgetés után: *„Hú, ez durva volt… de közben tanultam valamit magamról.”*
+> – Vagy egy nehezebb beszélgetés után: *„Hú, ez durva volt… de közben tanultam valamit magamról.”*
 
 > Ezt hívjuk itt **„tanulási pillanatnak”**:
-> &#x20;amikor utólag **már máshogy látsz** valamit, mint előtte.
+> amikor utólag **már máshogy látsz** valamit, mint előtte.
 
 **Beágyazott kérdés – Single Choice**
 
@@ -94,16 +94,16 @@ Opciók:
 > **Mi az a „tanulási pillanat”?**
 
 > Nem csak az, amikor **új infót** tanulsz (dátum, fogalom),
-> &#x20;hanem amikor **valami átkattan benned**:
+> hanem amikor **valami átkattan benned**:
 
 > – észreveszed, hogy egy vicced valakit rosszul érintett, és legközelebb másképp csinálod;
-> &#x20;– rájössz, hogy amikor **kérdezel**, jobban figyel rád a kvuca;
-> &#x20;– megélsz egy helyzetet, ahol **nem tudod megoldani egyedül**, és felismered, hogy segítséget kérni oké.
+> – rájössz, hogy amikor **kérdezel**, jobban figyel rád a kvuca;
+> – megélsz egy helyzetet, ahol **nem tudod megoldani egyedül**, és felismered, hogy segítséget kérni oké.
 
 > A tanulási pillanatok lehetnek:
 
 > – **pozitívak** (aha-pillanat, sikerélmény),
-> &#x20;– vagy **kényelmetlenek / nehezek** (szégyen, konfliktus, „úúú, ezt elszúrtam”).
+> – vagy **kényelmetlenek / nehezek** (szégyen, konfliktus, „úúú, ezt elszúrtam”).
 
 > A lényeg: **valami megmozdul benned**, és legközelebb már kicsit máshogy reagálsz.
 
@@ -120,16 +120,16 @@ Opciók:
 > **Példa 1 – „Nem csak én beszélek”**
 
 > Egy peulán azt vetted észre, hogy amikor **hosszan magyarázol**, a kvuca szétesik,
-> &#x20;de amikor **kérdéseket teszel fel** („Ti hogy látjátok?”, „Volt már ilyen veletek?”),
-> &#x20;hirtelen **bekapcsolnak**, és elkezdenek mesélni.
+> de amikor **kérdéseket teszel fel** („Ti hogy látjátok?”, „Volt már ilyen veletek?”),
+> hirtelen **bekapcsolnak**, és elkezdenek mesélni.
 
 > A peula után azt érzed:
 > *„Na jó, ez tanulság: ha kevesebbet beszélek, de többet kérdezek,
-> &#x20;akkor sokkal jobban működik a kvucám.”*
+> akkor sokkal jobban működik a kvucám.”*
 
 > Ez egy **pozitív tanulási pillanat**:
-> &#x20;nem azért tanulsz, mert rossz volt, hanem mert **észreveszel valami működőt**,
-> &#x20;és el akarod vinni magaddal.
+> nem azért tanulsz, mert rossz volt, hanem mert **észreveszel valami működőt**,
+> és el akarod vinni magaddal.
 
 **Beágyazott kérdés – Single Choice (Likert-szerű)**
 
@@ -144,7 +144,7 @@ Opciók:
 **Feedback:**
 
 > „Oké. A tanulási pillanatok **nem néznek ki ugyanúgy** mindenkinek.
-> &#x20;A lényeg, hogy legyen bennük valami *‘aha, legközelebb máshogy csinálom’* érzés.”
+> A lényeg, hogy legyen bennük valami *‘aha, legközelebb máshogy csinálom’* érzés.”
 
 ***
 
@@ -157,26 +157,26 @@ Opciók:
 > **Példa 2 – „Ez most fájt… de tanultam belőle”**
 
 > Egy másik peulán **elszabadul a káosz**.
-> &#x20;Ketten összevesznek, valaki kiszalad a teremből,
-> &#x20;te pedig úgy érzed: *„teljes kudarc volt az egész”*.
+> Ketten összevesznek, valaki kiszalad a teremből,
+> te pedig úgy érzed: *„teljes kudarc volt az egész”*.
 
 > Később a képződdel / madrich-társaddal átbeszélitek, mi történt.
-> &#x20;Rájössz, hogy:
-> &#x20;– nem volt elég időd a check-in-re,
-> &#x20;– túl sok mindent akartál belesűríteni,
-> &#x20;– és nem volt B terved, ha elszabadul a hangulat.
+> Rájössz, hogy:
+> – nem volt elég időd a check-in-re,
+> – túl sok mindent akartál belesűríteni,
+> – és nem volt B terved, ha elszabadul a hangulat.
 
 > Rosszul esik visszagondolni rá,
-> &#x20;de közben azt érzed:
+> de közben azt érzed:
 > *„Legközelebb jobban figyelek az elejére,
-> &#x20;és nem akarok ennyi mindent egy peulába zsúfolni.”*
+> és nem akarok ennyi mindent egy peulába zsúfolni.”*
 
 > Ez is **tanulási pillanat** – csak **nehéz**, mégis továbbvisz.
 
 **Beágyazott kérdés – Single Choice**
 
 > „Volt-e a félévben olyan helyzeted, amit **kudarcélményként** éltél meg,
-> &#x20;de ma már valamennyire tanulási pillanatnak látod?”
+> de ma már valamennyire tanulási pillanatnak látod?”
 
 Opciók:
 
@@ -187,8 +187,8 @@ Opciók:
 **Feedback:**
 
 > „Teljesen rendben van, amit érzel.
-> &#x20;Nem az a cél, hogy minden nehézséget ‘pozitív tanulsággá’ sminkeljünk,
-> &#x20;hanem hogy **észrevedd azokat a pontokat**, ahol valami benned változott.”
+> Nem az a cél, hogy minden nehézséget ‘pozitív tanulsággá’ sminkeljünk,
+> hanem hogy **észrevedd azokat a pontokat**, ahol valami benned változott.”
 
 ***
 
@@ -205,17 +205,17 @@ Opciók:
 > **1. saját feladat – „Na, most tanultam valamit…”**
 
 > Gondolj vissza a félévre.
-> &#x20;Írj **5–8 mondatot** egy olyan helyzetről, amikor azt érezted:
+> Írj **5–8 mondatot** egy olyan helyzetről, amikor azt érezted:
 > *„Na, most tanultam valamit magamról / a kvucámról / a madrich-szerepről.”*
 
 > Segítő kérdések:
-> &#x20;– Mi történt pontosan? (röviden)
-> &#x20;– Mit éreztél **közben**?
-> &#x20;– Mit gondoltál róla **utólag**?
-> &#x20;– Mit csinálnál **másképp**, ha újra ilyen helyzetbe kerülnél?
+> – Mi történt pontosan? (röviden)
+> – Mit éreztél **közben**?
+> – Mit gondoltál róla **utólag**?
+> – Mit csinálnál **másképp**, ha újra ilyen helyzetbe kerülnél?
 
 > Nem kell „tökéletes” sztori.
-> &#x20;Elég egy **valóságos, őszinte** pillanat.
+> Elég egy **valóságos, őszinte** pillanat.
 
 **Beágyazott kérdés – Essay**
 
@@ -224,7 +224,7 @@ Opciók:
 **Megnyugtató kis szöveg a mező alatt:**
 
 > Amit ide leírsz, azt csak a képzőid / mentorod látják.
-> &#x20;Nem az a cél, hogy „jó madrichnak tűnj”, hanem hogy **tudd, mit tanultál**.
+> Nem az a cél, hogy „jó madrichnak tűnj”, hanem hogy **tudd, mit tanultál**.
 
 ***
 
@@ -239,15 +239,15 @@ Opciók:
 > **2. saját feladat – „Nehéz modul / ellenállás”**
 
 > Most gondolj egy olyan **modulra vagy témára** (M0–M7-ből),
-> &#x20;amit **nehéznek éltél meg**, vagy amelyiknél **ellenállást éreztél**
-> &#x20;(pl. „unalmas”, „túl sok”, „túl személyes”, „nem rám való”).
+> amit **nehéznek éltél meg**, vagy amelyiknél **ellenállást éreztél**
+> (pl. „unalmas”, „túl sok”, „túl személyes”, „nem rám való”).
 
 > Írj róla **5–8 mondatot**:
 
 > 1️⃣ Melyik modul / téma volt ez? (pl. M1 – feedback, M3 – gyerekvédelem, M5 – tanulástan…)
-> &#x20;2️⃣ Pontosan **mi volt benne nehéz** vagy taszító?
-> &#x20;3️⃣ Mit mond ez rólad **most**? (pl. mire vagy érzékeny, miben vagy még bizonytalan)
-> &#x20;4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrichként?
+> 2️⃣ Pontosan **mi volt benne nehéz** vagy taszító?
+> 3️⃣ Mit mond ez rólad **most**? (pl. mire vagy érzékeny, miben vagy még bizonytalan)
+> 4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrichként?
 
 > Itt sem kell „szépen” fogalmazni – **az őszinteség többet ér**, mint a szép mondatok.
 
@@ -266,7 +266,7 @@ Opciók:
 > ✅ **Check – 3 szó a félévedről**
 
 > Ha most ránézel erre az egész félévre **madrichként**,
-> &#x20;melyik **3 szó** jut eszedbe róla leginkább?
+> melyik **3 szó** jut eszedbe róla leginkább?
 
 > Lehetnek érzések, kulcsszavak, helyzetek, értékek – bármi, ami Neked most igaz.
 
@@ -282,7 +282,7 @@ Opciók:
 **Záró mondat:**
 
 > Köszi, hogy végiggondoltad a saját tanulási pillanataidat 💙
-> &#x20;Ezek a sztorik fognak segíteni a **Z.3-ban** is,
-> &#x20;amikor már kifejezetten a **következő lépéseidet** fogod megfogalmazni a terepre.
+> Ezek a sztorik fognak segíteni a **Z.3-ban** is,
+> amikor már kifejezetten a **következő lépéseidet** fogod megfogalmazni a terepre.
 
 ***

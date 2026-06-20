@@ -21,8 +21,8 @@
 **Mikrocél (tanulói nyelven):**
 
 > A lecke végére lesz egy **összerakott reflektív anyagod** (szöveg vagy videó vázlata),
-> &#x20;tudni fogod, **melyik 2–3 pillanatról szeretnél írni/beszélni**,
-> &#x20;és megfogalmazol **1–2 konkrét next step célt a terepre**, plusz kitöltöd a képzés feedbacket.
+> tudni fogod, **melyik 2–3 pillanatról szeretnél írni/beszélni**,
+> és megfogalmazol **1–2 konkrét next step célt a terepre**, plusz kitöltöd a képzés feedbacket.
 
 **Központi mondat:**
 
@@ -70,10 +70,10 @@
 > Amit most csinálsz, az:
 
 > – **üzenet a jövőbeli önmagadnak** (hogy emlékezz, hol tartottál most),
-> &#x20;– és **visszajelzés a képzésnek**, hogy mi működött neked és hol volt nehéz.
+> – és **visszajelzés a képzésnek**, hogy mi működött neked és hol volt nehéz.
 
 > Nem fogalmazásverseny, nem jegy.
-> &#x20;Az számít, hogy **őszinte** legyél – magaddal és velünk.
+> Az számít, hogy **őszinte** legyél – magaddal és velünk.
 
 **Beágyazott kérdés – Single Choice**
 
@@ -88,7 +88,7 @@ Opciók:
 **Feedback:**
 
 > „Bármelyik jó – válassz olyat, amiben **könnyebben vagy önazonos**.
-> &#x20;A következő diákon mindkettőhöz ugyanazt a 3 kérdést használjuk vázlatnak.”
+> A következő diákon mindkettőhöz ugyanazt a 3 kérdést használjuk vázlatnak.”
 
 ***
 
@@ -103,18 +103,18 @@ Opciók:
 > 3 kérdés köré építjük:
 
 > 1️⃣ **Pillanatok**
-> &#x20;„Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
-> &#x20;Miért pont ezek?”
+> „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
+> Miért pont ezek?”
 
 > 2️⃣ **Szemléletváltás**
-> &#x20;„Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
+> „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
 
 > 3️⃣ **Következő lépések + megosztás**
-> &#x20;„Írj le **1–2 konkrét next step célt** a terepre.
-> &#x20;Kinek fogod elmondani, hogy ezeket vállalod?”
+> „Írj le **1–2 konkrét next step célt** a terepre.
+> Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > A következő diákon **jegyzetelni fogsz** mindhárom kérdéshez.
-> &#x20;Ebből lesz utána **a szöveged vagy a videód vázlata**.
+> Ebből lesz utána **a szöveged vagy a videód vázlata**.
 
 *(Ezen a slide-on nincs kérdés, csak Input.)*
 
@@ -129,7 +129,7 @@ Opciók:
 > **1. blokk – 2–3 pillanat ebből a félévből**
 
 > Gondolj vissza arra, amit a Z.1–Z.2-ben már elkezdtél:
-> &#x20;– mely modulok, peulák, helyzetek maradtak meg benned?
+> – mely modulok, peulák, helyzetek maradtak meg benned?
 
 > Írj **3–8 mondatot** a szövegmezőbe az alábbiak alapján:
 
@@ -144,7 +144,7 @@ Opciók:
 **Kis jelzés:**
 
 > Ez most **jegyzet** – átírhatod, kiegészítheted az Assignment leadása előtt.
-> &#x20;Nem kell még „szépnek” lennie, csak legyen benne **2–3 pillanat + miért fontosak**.
+> Nem kell még „szépnek” lennie, csak legyen benne **2–3 pillanat + miért fontosak**.
 
 ***
 
@@ -161,15 +161,15 @@ Opciók:
 > Írj **3–5 mondatot**:
 
 > – *„Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest?”*
-> &#x20;(Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyerekvédelemre, a saját határaidra, a visszajelzésre…)
+> (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyerekvédelemre, a saját határaidra, a visszajelzésre…)
 
 > b) **Next step + kinek mondod el**
 
 > Írj **még 2–4 mondatot**:
 
 > – *„Írj le 1–2 konkrét next step célt a terepre.”*
-> &#x20;– *„Kinek fogod elmondani, hogy ezeket vállalod?”*
-> &#x20;(mentor, madrich-társ, ken-vezető, más)
+> – *„Kinek fogod elmondani, hogy ezeket vállalod?”*
+> (mentor, madrich-társ, ken-vezető, más)
 
 > Próbálj **konkrét időtávot és cselekvést** írni (pl. „a következő 3 Zmán Kvucámban…”, „a következő hónapban…”).
 
@@ -190,12 +190,12 @@ Opciók:
 > Nézd meg, amit az előző diákon írtál.
 
 > ✔ Van benne **2–3 konkrét pillanat**, röviden leírva?
-> &#x20;✔ Leírtad, **miben változott a madrich-szemléleted** M0-hoz képest?
-> &#x20;✔ Van **1–2 konkrét next step célod**, és benne, hogy **kinek mondod el**?
+> ✔ Leírtad, **miben változott a madrich-szemléleted** M0-hoz képest?
+> ✔ Van **1–2 konkrét next step célod**, és benne, hogy **kinek mondod el**?
 
 > Ha a fenti 3 kérdésre **igen** a válaszod,
-> &#x20;akkor készen állsz, hogy **átmenj a „Záró reflexió + next step” feladatra**,
-> &#x20;és ott ebből a vázlatból megírd a végleges szöveget vagy felvedd a videót.
+> akkor készen állsz, hogy **átmenj a „Záró reflexió + next step” feladatra**,
+> és ott ebből a vázlatból megírd a végleges szöveget vagy felvedd a videót.
 
 > ➜ A lecke után:
 
@@ -231,27 +231,27 @@ Opciók:
 ### Leírás (tanulónak szóló szöveg)
 
 > **Feladatod:**
-> &#x20;Készíts egy **rövid záró reflexiót** a félévről – szövegben **vagy** videóban.
+> Készíts egy **rövid záró reflexiót** a félévről – szövegben **vagy** videóban.
 
 > Használd a Z.1–Z.3 leckékben átgondolt dolgokat, különösen a Z.4 vázlatodat.
 
 > A reflektív produktumod 3 kérdésre válaszoljon:
 
 1. **2–3 pillanat**
-   &#x20;„Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
-   &#x20;Miért pont ezek?”
+   „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
+   Miért pont ezek?”
 2. **Madrich-szemlélet**
-   &#x20;„Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
+   „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
 3. **Next step + megosztás**
-   &#x20;„Írj le **1–2 konkrét next step célt** a terepre.
-   &#x20;Kinek fogod elmondani, hogy ezeket vállalod?”
+   „Írj le **1–2 konkrét next step célt** a terepre.
+   Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > **Formátum:**
-> &#x20;– *szöveg*: kb. **0,5–1 oldal** (max. 400–500 szó)
-> &#x20;– *videó*: **2–3 perc**, beszélhetsz szabadon, jegyzet alapján
+> – *szöveg*: kb. **0,5–1 oldal** (max. 400–500 szó)
+> – *videó*: **2–3 perc**, beszélhetsz szabadon, jegyzet alapján
 
 > Nem fogalmazásverseny, nem jegy –
-> &#x20;a cél, hogy **magadnak is megfogalmazd**, mit viszel tovább, és nekünk is adj tükröt a képzésről.
+> a cél, hogy **magadnak is megfogalmazd**, mit viszel tovább, és nekünk is adj tükröt a képzésről.
 
 ### Beállítás-javaslatok
 

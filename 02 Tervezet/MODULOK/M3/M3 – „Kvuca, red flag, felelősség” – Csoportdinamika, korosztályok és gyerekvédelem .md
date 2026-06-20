@@ -35,8 +35,8 @@ A modul végére a résztvevő…
    * Tudja, kit kell bevonni (mentor / gyerekvédelmi felelős / vezető), és mi a logikus első lépés **(M3.3, M3.B)**.
 
 > ⚖️ **Jó tudni – a jelzés Magyarországon törvényi kötelezettség.**
-> &#x20;A gyermek **veszélyeztetettségének jelzése nem csak „jó gyakorlat”, hanem törvényi kötelezettség** (**1997. évi XXXI. tv. – Gyvt., gyermekvédelmi jelzőrendszer**). A gyakorlatban ez **nem a madrich egyéni terhe**: a madrich a **mentornak / gyerekvédelmi felelősnek / vezetőnek** jelez, és **ők gondoskodnak** a külső jelzésről a **gyermekjóléti szolgálat / hatóság** felé (súlyos, bűncselekmény-gyanús esetben a rendőrség felé). A szervezeti belüli szóbeli jelzéssel tehát a felelősség **nem feltétlenül zárul le** – a felelős dolga a továbblépés. Ezért fontos, hogy a madrich mindig **jelezzen**, és **ne maradjon egyedül** a helyzettel.
-> &#x20;*(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.)*
+> A gyermek **veszélyeztetettségének jelzése nem csak „jó gyakorlat”, hanem törvényi kötelezettség** (**1997. évi XXXI. tv. – Gyvt., gyermekvédelmi jelzőrendszer**). A gyakorlatban ez **nem a madrich egyéni terhe**: a madrich a **mentornak / gyerekvédelmi felelősnek / vezetőnek** jelez, és **ők gondoskodnak** a külső jelzésről a **gyermekjóléti szolgálat / hatóság** felé (súlyos, bűncselekmény-gyanús esetben a rendőrség felé). A szervezeti belüli szóbeli jelzéssel tehát a felelősség **nem feltétlenül zárul le** – a felelős dolga a továbblépés. Ezért fontos, hogy a madrich mindig **jelezzen**, és **ne maradjon egyedül** a helyzettel.
+> *(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyerekvédelemre **(M3.4)**.
    * Külön kiemeli, hogy **madrich nem lehet párkapcsolatban chanichhal** – ezt súlyos határátlépésnek, red flag-nek tartja **(M3.4)**.
@@ -52,9 +52,9 @@ A modul végére a résztvevő…
 ### M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése (10–15’)
 
 * **Cél:**
-  &#x20;A résztvevő megismeri a **Tuckman-modellt**, és kvuca-sztorikhoz tudja párosítani a szakaszokat (forming–storming–norming–performing).
+  A résztvevő megismeri a **Tuckman-modellt**, és kvuca-sztorikhoz tudja párosítani a szakaszokat (forming–storming–norming–performing).
 * **Fókusz:**
-  &#x20;„Ha ránézek egy kvucára, **hol tart a történetében**?”
+  „Ha ránézek egy kvucára, **hol tart a történetében**?”
 * **Eszközök:**
   * Moodle Page – rövid intro a csoportélet szakaszairól
   * H5P Course Presentation / Timeline – 4 Tuckman-szakasz minitörténetekkel
@@ -70,9 +70,9 @@ A modul végére a résztvevő…
 ### M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ (10–15’)
 
 * **Cél:**
-  &#x20;A résztvevő **fejben tartja a 4 kvuca alapprofilját**: milyen világban élnek, mire figyelnek, mi motiválja őket.
+  A résztvevő **fejben tartja a 4 kvuca alapprofilját**: milyen világban élnek, mire figyelnek, mi motiválja őket.
 * **Fókusz:**
-  &#x20;„Nem ugyanúgy működik minden kvuca – és nekem ehhez kell alkalmazkodnom.”
+  „Nem ugyanúgy működik minden kvuca – és nekem ehhez kell alkalmazkodnom.”
 * **Eszközök:**
   * H5P Course Presentation (profilok)
   * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatan, Zorea)
@@ -91,9 +91,9 @@ A modul végére a résztvevő…
 ### M3.3 – „Gyerekvédelem 101” – red flag felismerése & első lépések (15–20’)
 
 * **Cél:**
-  &#x20;Alap **gyerekvédelmi szemlélet**: mi az a red flag, és mi a felelős első lépés madrichként.
+  Alap **gyerekvédelmi szemlélet**: mi az a red flag, és mi a felelős első lépés madrichként.
 * **Fókusz:**
-  &#x20;„Nem vagyok terapeuta – de **nem maradok egyedül** a red flag-ekkel.”
+  „Nem vagyok terapeuta – de **nem maradok egyedül** a red flag-ekkel.”
 * **Eszközök:**
   * H5P Course Presentation
   * Beépített **True/False** blokkok
@@ -119,9 +119,9 @@ A modul végére a résztvevő…
 ### M3.4 – „Do / Don’t madrichként” – határok, red flag-ek és modulproduktum (15–20’)
 
 * **Cél:**
-  &#x20;A résztvevő **konkrét Do/Don’t listát** készít madrich-szerepre, és előkészíti a modulproduktumát (helyzetleírás + első lépés).
+  A résztvevő **konkrét Do/Don’t listát** készít madrich-szerepre, és előkészíti a modulproduktumát (helyzetleírás + első lépés).
 * **Fókusz:**
-  &#x20;„Azzal is tanítok, amit **nem** csinálok – a határtartás maga is **dugma ishit**.”
+  „Azzal is tanítok, amit **nem** csinálok – a határtartás maga is **dugma ishit**.”
 * **Eszközök:**
   * H5P Course Presentation (7 slide: Hook – 2×Input – Sorting – Reflexió – Check – Modulproduktum)
   * H5P Sorting / Drag & Drop – „OK / Nem OK madrichként”
@@ -148,7 +148,7 @@ A modul végére a résztvevő…
   * A Tuckman-szakaszok és a kvuca-profilok élményes, közös átélése.
   * Az online leckék (M3.1–M3.2) tartalmának „testbe hozása” kvuca-szinten.
 * **Fókusz:**
-  &#x20;„A kvuca nem statikus – **történet**, amin együtt megyünk végig.”
+  „A kvuca nem statikus – **történet**, amin együtt megyünk végig.”
 * **Rövid percbontás-váz:**
   1. **0–5’ – Check-in:** 1 szóval: „Milyen volt számodra egy emlékezetes kvuca?”
   2. **5–20’ – Csoportszobrok Tuckmanre:**
@@ -167,7 +167,7 @@ A modul végére a résztvevő…
   * Red flag helyzetek felismerése **élő, eljátszott** szituációkban.
   * A felelős első lépés gyakorlása: mit mond a madrich, mit nem ígér, kit von be.
 * **Fókusz:**
-  &#x20;„Nem az a jó madrich, aki mindent egyedül megold, hanem aki tudja, **mikor kér segítséget**.”
+  „Nem az a jó madrich, aki mindent egyedül megold, hanem aki tudja, **mikor kér segítséget**.”
 * **Rövid percbontás-váz:**
   1. **0–10’ – Check-in & alapok:**
      * Gyors A/B sarok: „Red flag vagy nem?” pár egyszerű állításra.
@@ -186,7 +186,7 @@ A modul végére a résztvevő…
 **M3.F – Felzárkóztató peula – Kvucadinamika & gyerekvédelem (Study Lab)**
 
 * **Cél:**
-  &#x20;Támogatott térben segíteni azoknak, akik lemaradtak az online leckékkel (**M3.1–M3.4**), hogy:
+  Támogatott térben segíteni azoknak, akik lemaradtak az online leckékkel (**M3.1–M3.4**), hogy:
   * értsék a fő fogalmakat (Tuckman, 4 kvuca-profil, gyerekvédelem, red flag),
   * legalább egy leckében érdemben haladjanak,
   * legyen „1 gondolat + 1 kérdés” mindegyik leckéhez.

@@ -51,7 +51,7 @@ A félév **ív-szerűen** építkezik:
 ## 1. Program alapadatok
 
 **Célcsoport:**
-&#x20;– 15+ éves képzős madrichok / madrichot, akik már részei a someres közösségnek, és a következő 1–2 évben kvucát visznek vagy erre készülnek.
+– 15+ éves képzős madrichok / madrichot, akik már részei a someres közösségnek, és a következő 1–2 évben kvucát visznek vagy erre készülnek.
 
 **Időtáv és struktúra:**
 
@@ -102,8 +102,8 @@ A félév **ív-szerűen** építkezik:
 ### 3.2 Modul-leírások – egységes struktúrában
 
 Minden modulnál:
-&#x20;– 1 bekezdés: **fókusz + kimeneti kép**,
-&#x20;– utána: **online / offline / produktum & kapu** rövid bulletben.
+– 1 bekezdés: **fókusz + kimeneti kép**,
+– utána: **online / offline / produktum & kapu** rövid bulletben.
 
 #### M0 – Kickoff, keret, technika
 

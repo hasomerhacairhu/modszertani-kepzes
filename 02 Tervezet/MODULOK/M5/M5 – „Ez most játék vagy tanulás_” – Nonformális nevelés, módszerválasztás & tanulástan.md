@@ -39,7 +39,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 ### M5.1 – „Mi a nonformális nevelés?” – Suli / Somer / random (10–15’)
 
 * **Cél:**
-  &#x20;A formális–nonformális–informális tanulási helyzetek megkülönböztetése, és a someres nonformális nevelés fő jellemzőinek beazonosítása (kvuca, önkéntesség, élmény, beszélgetés).
+  A formális–nonformális–informális tanulási helyzetek megkülönböztetése, és a someres nonformális nevelés fő jellemzőinek beazonosítása (kvuca, önkéntesség, élmény, beszélgetés).
 * **Eszközök:**
   * H5P **Course Presentation** (5–7 slide) beépített Single Choice / True–False kérdésekkel.
 * **Rövid flow:**
@@ -51,7 +51,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 ### M5.2 – Feladat → módszer döntési fa – „Mit választok először?” (10–15’)
 
 * **Cél:**
-  &#x20;Ráerősíteni arra, hogy **először célt választunk, aztán kvucát nézünk, és csak ezután módszert / játékot**, nem fordítva.
+  Ráerősíteni arra, hogy **először célt választunk, aztán kvucát nézünk, és csak ezután módszert / játékot**, nem fordítva.
 * **Eszközök:**
   * H5P **Branching Scenario** – célágak, kvuca- és módszerválasztó lépések.
 * **Rövid flow:**
@@ -63,7 +63,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 ### M5.3 – „Hogyan tanulunk tényleg?” – Gyakorlás, visszahívás, spacing (15–20’)
 
 * **Cél:**
-  &#x20;Megérteni, hogy a kvuca akkor tanul, ha **csinál, felidéz és többször találkozik a tartalommal**, nem attól, hogy a madrich sokat beszél.
+  Megérteni, hogy a kvuca akkor tanul, ha **csinál, felidéz és többször találkozik a tartalommal**, nem attól, hogy a madrich sokat beszél.
 * **Eszközök:**
   * H5P **Interactive Video** / Column: példák párokban („egyszer, hosszú elmondás” vs. „többször, röviden ismételni”; „én mondom meg” vs. „ők próbálják felidézni”).
 * **Rövid flow:**
@@ -75,7 +75,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 ### M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként (15–20’)
 
 * **Cél:**
-  &#x20;Elkészíteni a modul produktumának vázát: egy **3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázatot**, amihez madrichként később is vissza tud térni.
+  Elkészíteni a modul produktumának vázát: egy **3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázatot**, amihez madrichként később is vissza tud térni.
 * **Eszközök:**
   * H5P **Column** – rövid recap + minta-táblázat + checklist.
   * **Moodle Assignment** – a kész táblázat leadására.

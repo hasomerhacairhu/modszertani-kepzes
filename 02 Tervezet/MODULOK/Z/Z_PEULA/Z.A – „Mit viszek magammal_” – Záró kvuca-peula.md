@@ -124,13 +124,13 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Lépések:**
 
 1. **Safety keret (1–2 perc)**
-   &#x20;Képző:
+   Képző:
    > „Most jön egy kicsit személyesebb rész, de nem terápiát tartunk – tanulási pillanatokról beszélgetünk. Nem kötelező mély vagy nagyon fájdalmas dolgot hozni, annyit mondasz, amennyi neked most oké.”
 2. **Párok / triádok kialakítása (1–2 perc)**
    * Kérd meg őket, hogy alakítsanak **párokat vagy hármasokat** (létszámtól függ).
    * Ha valaki egyedül maradna, a képző csatlakozik hozzá.
 3. **Megosztás – 1 tanulási pillanat mindenkinek (10–12 perc)**
-   &#x20;Instrukció a csoportoknak:
+   Instrukció a csoportoknak:
    > „Mindenki meséljen el a többieknek **egy tanulási pillanatot** ebből a félévből. Ez lehet egy modul, egy peula, egy visszajelzés, egy nehéz beszélgetés… bármi. A többiek feladata: **figyelmesen hallgatni, közbevágás nélkül**. A történet végén egyikőtök mondjon vissza 1 mondatot arról, ami neki megmaradt ebből. Idő: fejenként kb. 3–4 perc.”
    * Képző figyel az időre, kb. 3–3–3 perc / fő.
 
@@ -140,7 +140,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    > – **„Mi az az egy dolog, amit most másképp csinálnál, mint az első héten?”**
    > Ezek a kérdések annak is segítenek, aki készült, de elsőre nem jut eszébe semmi.
 4. **Rövid visszahozás nagykörbe (2–3 perc)**
-   &#x20;Kérhetsz 2–3 önkéntest:
+   Kérhetsz 2–3 önkéntest:
    > „Ki az, aki **önként** szívesen megosztaná, mi volt az egyik érdekes tanulási pillanat, amit hallott vagy mondott?”
 
 **Facilitátori tippek:**
@@ -167,26 +167,26 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Osszd a csoportot 3–5 fős kiscsoportokra (létszámtól függően).
    * Mindegyik kapjon 1 nagy lapot (flipchart / A3).
 2. **Poszter-keret elmagyarázása (1–2 perc)**
-   &#x20;Képző:
+   Képző:
    > „Készítsetek egy közös plakátot, aminek két fele van: – bal oldal: **Mit tanultunk?** – kulcsszavak az M0–M7-ből, mondatok, élmények – jobb oldal: **Mit csinálunk másképp a terepen?** – konkrét jövőbeli lépések. Nem művészeti verseny – rajzolhattok, írhattok, használhattok jeleket, ikonokat, ami jól esik.”
 3. **Kiscsoportos munka (10–12 perc)**
-   &#x20;Képző körbejár, kérdezhet:
+   Képző körbejár, kérdezhet:
    * Bal oldalra gyűljenek:
-     &#x20;– modulnevek / témák (önismeret, feedback, kvuca, gyerekvédelem, nonformális, stb.),
-     &#x20;– 1–1 szó vagy mondat arról, mit visznek ebből.
+     – modulnevek / témák (önismeret, feedback, kvuca, gyerekvédelem, nonformális, stb.),
+     – 1–1 szó vagy mondat arról, mit visznek ebből.
    * Jobb oldalra:
-     &#x20;– 3–5 konkrét mondat: „A következő időszakban **úgy akarunk működni**, hogy…”,
-     &#x20;pl. több kérdés a peulán, tudatosabb Zmán Kvucá, gyerekvédelmi red flag-ek figyelése, stb.
+     – 3–5 konkrét mondat: „A következő időszakban **úgy akarunk működni**, hogy…”,
+     pl. több kérdés a peulán, tudatosabb Zmán Kvucá, gyerekvédelmi red flag-ek figyelése, stb.
    > „Mi az, ami titeket leginkább megfogott a félévből?” „Melyik mondatot szeretnétek majd viszontlátni a valós peulákban is?”
    * **Ha egy csoport megakad / üres a plakát / senki nem szólal meg:** ne várj rá, hogy maguktól beinduljanak – ülj le közéjük 1 percre, és indítsd be egy **kész seed-példával**, hogy „így néz ki egy beírás”:
-     &#x20;– bal oldalra (Mit tanultunk?): **„SBI-feedback – nem smiley, hanem konkrét helyzet + viselkedés + hatás”**, **„Johari-ablak: van vakfoltom”**, **„Zmán Kvucá tudatos tervezése”**, **„gyerekvédelmi red flag-ek”**.
-     &#x20;– jobb oldalra (Mit csinálunk másképp?): **„A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”**, **„Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.”**
-     &#x20;Aztán kérdezz vissza: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?” – általában ettől beindul a csoport.
+     – bal oldalra (Mit tanultunk?): **„SBI-feedback – nem smiley, hanem konkrét helyzet + viselkedés + hatás”**, **„Johari-ablak: van vakfoltom”**, **„Zmán Kvucá tudatos tervezése”**, **„gyerekvédelmi red flag-ek”**.
+     – jobb oldalra (Mit csinálunk másképp?): **„A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”**, **„Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.”**
+     Aztán kérdezz vissza: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?” – általában ettől beindul a csoport.
 4. **Rövid poszter-bemutatás nagykörben (5–6 perc)**
-   &#x20;Képző a végén:
+   Képző a végén:
    * Minden kiscsoportból 1–2 ember **max. 1–1 percben** bemutatja:
-     &#x20;– 1 dolgot a bal oldalról („Mit tanultunk?”),
-     &#x20;– 1 dolgot a jobb oldalról („Mit csinálunk másképp a terepen?”).
+     – 1 dolgot a bal oldalról („Mit tanultunk?”),
+     – 1 dolgot a jobb oldalról („Mit csinálunk másképp a terepen?”).
    > „Ha csak ezeket a mondatokat nézem, már most látszik, hogy mennyi minden történt ebben a félévben, és hogy nagyon konkrét ötleteitek vannak arra, hogyan legyetek madrichok a terepen.”
 
 ***
@@ -197,7 +197,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Időtartam:** 40–60’
 
 *(60’ verzió: 15’ elismerés-kör + 5’ rituálé;
-&#x20;45’-os peulánál rövidíts: 10’ elismerés + 3–5’ rituálé.)*
+45’-os peulánál rövidíts: 10’ elismerés + 3–5’ rituálé.)*
 
 #### 4.4.1. Elismerés & köszönés kör (`40–55’`)
 
@@ -212,14 +212,14 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Mindenki nevét írjátok fel külön kis cetlire, tegyétek egy tálba / kalapba.
    * Mindenki húz egy nevet (ha valaki saját magát húzza, húzhat újra).
 2. **Mini-SBI keret elmagyarázása (2 perc)**
-   &#x20;Képző:
+   Képző:
    > „Most egy **elismerés-kört** csinálunk. Arra kérlek, hogy annak, akinek a nevét húztad, mondj 1 rövid **elismerő mondatot** erről a félévről.
    > Segítő minta (nem kell szóról szóra), ahogy az SBI-nél tanultuk – helyzet + konkrét viselkedés + hatás:
    > – **„Amikor [helyzet], te [konkrét dolgot csináltál] – és ez nekem / a csoportnak [hatás] volt.”**
    > – **„Emlékszem, amikor a [modul / peula / nehéz pillanat]-nál [konkrétan ezt tetted], és attól én [így éreztem magam / ezt tanultam tőled].”**
    > Csak pozitívat mondunk most, és **mindenki kapjon legalább 1 mondatot** a végére.”
 3. **Elismerés-kör lejátszása (10–12 perc)**
-   &#x20;Képző figyeljen arra, hogy időben maradjatok (1–1 mondat/fő).
+   Képző figyeljen arra, hogy időben maradjatok (1–1 mondat/fő).
    * Menjetek körbe; mindenki elmondja a mondatát annak, akit kihúzott.
    * Ha a kvuca nagyon nagy, csinálhatjátok két körben vagy kiscsoportokban is.
 4. **Képző / ken-vezetői záró-szavak (3–5 perc)**
@@ -237,7 +237,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Lépések:**
 
 1. **Szó-írás (2–3 perc)**
-   &#x20;Képző:
+   Képző:
    > „Most mindenki kap egy kis cetlit. Írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat, mondat – ami neked most igaz. Nem kell nevet írni rá.”
    * Mindenki felír egy szót.
 2. **Közös felhő kirakása (2 perc)**
@@ -256,10 +256,10 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 1. **Meta tiszta?**
    * Tudod, hogy a peula fő célja:
-     &#x20;– a félév **közös lezárása**,
-     &#x20;– tanulási pillanatok megosztása,
-     &#x20;– **jövőre mutató mondatok** megfogalmazása,
-     &#x20;– és egymás **elismerése**.
+     – a félév **közös lezárása**,
+     – tanulási pillanatok megosztása,
+     – **jövőre mutató mondatok** megfogalmazása,
+     – és egymás **elismerése**.
    * Látod, hogyan kapcsolódik **Z.1–Z.4 leckékhez**?
 2. **Eszközök előkészítve?**
    * Papírok, filcek, post-itok, tál a névhúzáshoz, felület a szó-felhőnek.
@@ -274,9 +274,9 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Fel vagy készülve rá, hogy a félév lezárása **erősebb érzéseket is hozhat** (pl. búcsú, fáradtság, megkönnyebbülés)?
 5. **Időkeret & prioritás**
    * Tudod, mit rövidítesz, ha csúsztok?
-     &#x20;– először a poszter-bemutatót és a nagykörös megosztásokat érdemes rövidíteni,
-     &#x20;– az **elismerés-kört és a záró szót** viszont próbáld meg megtartani.
+     – először a poszter-bemutatót és a nagykörös megosztásokat érdemes rövidíteni,
+     – az **elismerés-kört és a záró szót** viszont próbáld meg megtartani.
 6. **Híd az online Z.4-hez / terepre**
    * Tudod, mit fogsz mondani a peula végén arról, hogy:
-     &#x20;– **hol folytatódik** ez a folyamat online (Z.4 Assignment + feedback),
-     &#x20;– és mit jelent ez a terepre lépő madrich-szerep szempontjából?
+     – **hol folytatódik** ez a folyamat online (Z.4 Assignment + feedback),
+     – és mit jelent ez a terepre lépő madrich-szerep szempontjából?

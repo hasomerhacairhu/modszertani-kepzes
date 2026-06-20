@@ -16,7 +16,7 @@
 > **mennyire értik, mit akarok, és mennyire érzik, hogy rájuk figyelek?**”
 
 **Modulcél röviden:**
-&#x20;A résztvevő tudatosabban használja a **testét és hangját**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es peula-pitchre**, amit egy konkrét kvucának címez.
+A résztvevő tudatosabban használja a **testét és hangját**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es peula-pitchre**, amit egy konkrét kvucának címez.
 
 ***
 
@@ -164,6 +164,6 @@ A modul végére a résztvevő…
 
 [M4.A – „Állj oda!” – Kiállás & jelenlét a térben](./M4_PEULA/M4.A%20–%20„Állj%20oda!”%20–%20Kiállás%20&%20jelenlét%20a%20térben.md)
 
-[M4.B –  „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása](./M4_PEULA/M4.B%20–%20%20„Mit%20és%20hogyan%20kérdezek_”%20–%20Kérdezés%20&%20pitch%20gyakorlása.md)
+[M4.B – „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása](./M4_PEULA/M4.B%20–%20%20„Mit%20és%20hogyan%20kérdezek_”%20–%20Kérdezés%20&%20pitch%20gyakorlása.md)
 
 [M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab)](./M4_PEULA/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20pitch%20(Study%20Lab).md)
