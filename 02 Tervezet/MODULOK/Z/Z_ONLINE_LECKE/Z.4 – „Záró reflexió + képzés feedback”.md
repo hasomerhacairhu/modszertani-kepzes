@@ -50,7 +50,7 @@
 > Az íven 3 vezető kérdésed lesz:
 
 1. „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
-2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő az M0-ban magadnak elmentett mondataidat** – a *„Mit várok ettől az évtől madrichként?”* és a *„figyelek rá, hogy…”* mondatot –, és nézd meg, mi valósult meg belőlük.)”
+2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *„Mit várok ettől az évtől madrichként?”* és a *„figyelek rá, hogy…”* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét next step célt** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > A H5P-ben most **egy összefüggő íven** rendezed a gondolataidat, a végén **letöltöd**, utána mész át az Assignmentre és a Feedbackre.
@@ -169,9 +169,10 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > a) **Madrich-szemléleted változása**
 
-> Mielőtt írsz, **vedd elő az M0-ban magadnak elmentett két mondatodat** (jegyzet vagy screenshot):
+> Mielőtt írsz, **vedd elő a SAJÁT két mondatodat, amit M0-ban magadnak elmentettél** (jegyzet vagy screenshot):
 > – az M0.1 várakozás-mondatát: *„Mit várok ettől az évtől madrichként?”*,
 > – és az M0.2 ígéret-mondatát: *„Madrichként ebben az évben figyelek rá, hogy…”*.
+> *(Figyelj: itt a **te saját két mondatodról** van szó, nem a programtól kapott 3 ígéretről – azokra majd a végén, a képzés-feedbackben reflektálsz.)*
 > Ha nincs meg, nem baj – idézd fel emlékezetből, körülbelül mit írtál akkor.
 
 > Írj **3–5 mondatot**:
@@ -338,7 +339,7 @@ Ha nagyon hiányos / alibi:
 1. **Általános elégedettség** – Likert (1–5)
    > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrichként fejlődj?”
 2. **A 3 belépő-ígéret beváltása** – 3×Igen / Részben / Nem rács (vagy 3×Likert 1–5)
-   > „Az **M0-ban 3 ígéretet** kaptál a képzéstől. Mennyire érezted, hogy ezek **beváltak**?”
+   > „Az **M0.1-diáján a program 3 ígéretet** adott neked a képzéstől. *(Ez most NEM a saját mondataid, amiket a reflexiós íven elővettél – hanem a képzéstől kapott 3 ígéret; arra reflektálsz, beváltak-e.)* Mennyire érezted, hogy ezek **beváltak**?”
    > a) **Nem voltam egyedül** (volt kvuca / stáb / mentor, akire számíthattam).
    > b) **Ez fejlődési út volt, nem vizsga.**
    > c) **Számított a hangom** (a kérdéseim, visszajelzéseim eljutottak valahova).

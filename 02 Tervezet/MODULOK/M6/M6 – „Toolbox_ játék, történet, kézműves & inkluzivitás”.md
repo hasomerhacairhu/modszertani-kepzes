@@ -4,7 +4,7 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M6.A (hét 1) és M6.B (hét 2), kb. 45–45’
-* **Online terhelés:** 4×10–20 perc mikrolecke (M6.1–M6.4), összesen kb. **45–65 perc**
+* **Online terhelés:** 3×10–15’ (M6.1–M6.3) + 1×15–20’ (M6.4) mikrolecke, összesen kb. **45–65 perc**
 * **Teljes terhelés:** kb. 2,5–3 óra
 
 **Modulközponti kérdés**
@@ -17,7 +17,7 @@
 
 A madrich toolboxa **bővül konkrét játékokkal, történetekkel és kézműves ötletekkel**, és érti, hogy **melyik eszköz melyik kvucának**, milyen céllal és **milyen biztonsági / inkluzivitási szempontokkal** való. A modul végére elkészít **1 használható játéklapot** választott játékhoz / történethez / kézműveshez, benne: cél, kvuca, leírás, biztonság, inkluzivitás, variációk.
 
-> 🔁 **Vissza M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / visszahívás / spacing) **változatlanul érvényes** – az M6 toolbox ennek a láncnak az eszköz-szintű folytatása.
+> 🔁 **Vissza M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / visszahívás / spacing) **változatlanul érvényes** – az M6 toolbox ennek a láncnak az eszköz-szintű folytatása. **Új dimenzió itt:** a **biztonság és az inkluzivitás** mint kapuzott mérce **az M6-ban indul** (nem korábbi M5-visszahívás) – itt kapcsoljuk rá a már ismert lánc minden lépésére.
 
 ## 2. Kimeneti kompetenciák
 
@@ -29,12 +29,12 @@ A modul végére a madrich…
      *(Főleg: M6.1, M6.4, M6.A)*
 2. **Biztonság & inkluzivitás**
    * 1 játéklaphoz képes **konkrét biztonsági megjegyzéseket** írni (fizikai biztonság, consent, trigger-veszély, időkeret, felelősségek).
-   * Legalább **3 inkluzivitási szempontot** meg tud nevezni (pl. mozgáskorlátozás, introvertált / szorongó résztvevők, nyelvi nehézség, vallási/kulturális érzékenység), és ezekhez variációkat javasol.
+   * A játéklapon legalább **1 inkluzivitási akadályt** meg tud nevezni (pl. mozgáskorlátozás, introvertált / szorongó résztvevők, nyelvi nehézség, vallási/kulturális érzékenység) **+ 1 konkrét alternatív belépési pontot** ad hozzá (ez az R5 „oké” hard-gate küszöbe); a leckékben és a peulában pedig **több inkluzivitási szempontot** is gyakorol és variációkat javasol.
      *(Főleg: M6.1, M6.3, M6.4, M6.B)*
 3. **Történet mint nevelési eszköz**
    * Ért egy rövid történetet mint **„tükröt”**: mit mutat a kvucának, milyen értéket hordoz.
    * Képes **3–4 nyitott kérdéssel** (nem szégyenítő módon) feldolgozni egy történetet különböző kvucákkal.
-     *(Főleg: M6.2, M6.B, M6.F)*
+     *(Főleg: M6.2, M6.4 (T-ágak), M6.B, M6.F)*
 4. **Kézműves, ami tanít is**
    * Fel tud sorolni legalább **2–3 egyszerű kézműves-ötletet**, mindegyikhez 1–1 **nevelési fókuszt** (pl. együttműködés, identitás, felelősség, környezet).
    * Észreveszi, ha egy kézműves **kirekesztő** lehet (ár, anyaghoz való hozzáférés, finommotorika, érzékenységek) és tud rajta igazítani.
@@ -65,7 +65,7 @@ A modul végére a madrich…
 ### M6.2 – „Történet, mint tükör” (10–15’)
 
 * **Fő fókusz:** hogyan működik a **történet mint tükör** a kvucának; mit látnak magukból a chanichok.
-* **Eszköz:** H5P Interactive Video vagy Course Presentation (1 someres sztori + kérdések).
+* **Eszköz:** H5P Course Presentation (kb. 8 slide; 1 someres sztori beágyazott narrációval + kérdések).
 * **Mit tanul a madrich?**
   * kiválasztani egy korosztályhoz illő, someres értéket hordozó történetet,
   * megkülönböztetni megértő és reflektív kérdéseket,
@@ -183,9 +183,9 @@ A modul végére a madrich…
 * **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
 * **Rubrika fő sorai** (a mérvadó **5 soros (R1–R5)** rubrika a [KAPU-fájlban](./M6%20–%20KAPU%20–%20értékelő%20(item-bank%20+%20rubrika).md) él – itt csak az áttekintés):
   1. **R1 – Cél-illeszkedés** – világos-e, mit tanít / mire való az eszköz; **„erős” szinten 1 mondatban a someres értékhez (kvuca, egalitás, társadalmi felelősség) is kapcsolódik**.
-  2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (6–10 / 11–13 / 14–16 / 16+) + létszámot, és életkorilag védhető-e az eszköz**.
+  2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (6–10 / 11–13 / 14–16 / 16+) + létszámot, és életkorilag védhető-e az eszköz**; **„erős” szinten megnevezi a someres kvuca-típust (Parparim / Kivsza / Leviatan / Zorea) + legalább 1, az M3.2-ben tanult korosztály-jellemzőt (figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) előhívva indokol**.
   3. **R3 – Leírás végrehajthatósága** – érthető-e a folyamat, időkeret, lépések, eszközök; **egy másik madrich el tudná-e indítani**.
-  4. **R4 – Biztonság** *(**hard-gate**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / consent biztonsági megjegyzés.
+  4. **R4 – Biztonság** *(**hard-gate**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / consent biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyerekvédelem & safety keret M6-os, eszközspecifikus rétege [consent / fizikai / trigger]; M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyerekvédelem & safety** (R4) sorba.)*
   5. **R5 – Inkluzivitás** *(**hard-gate**)* – van-e legalább 1 nevezett akadály **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz.
 * **Követelmény:**
   * rubrikában min. „oké” (2) szint **minden sorban**,

@@ -100,7 +100,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * 0–5’ – Check-in: 1 „sulis” és 1 „someres” helyzet megosztása körben.
   * 5–10’ – 3 sarok játék: a tér három sarka – Suli / Somer / Random élet; helyzetkártyák besorolása, rövid indoklásokkal.
   * 10–30’ – Fő gyakorlat: kiscsoportos munka helyzetkártyákkal; besorolás után áttervezik, hogyan csinálnák meg nonformális someres peulának, poszteren **Feladat / Cél / Kvuca / Módszer** bontásban.
-  * 30–40’ – Megosztás: 2–3 csoport bemutat, közös kérdések: „Mitől lett someresebb? Mi maradt még sulis?”
+  * 30–40’ – Megosztás **gallery walkkal (poszter-séta)**: minden csoport posztere egyszerre kikerül a „galériába”, a kvuca körbejár és post-it / pötty-reakciókat hagy, majd közös tanulságok: „Mitől lett someresebb? Mi maradt még sulis?”
   * 40–45’ – Zárókör: mondatbefejezés – „A következő peulán figyelni fogok arra, hogy…”.
 
 ### Peula B – M5.B: „Tervezek egy nonformális peula-részletet” – hogy tényleg tanuljunk is (45’)

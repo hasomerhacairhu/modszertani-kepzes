@@ -157,7 +157,9 @@ Opciók:
 
 > Emlékszel a **Peula v2-dre**, amit az M7-ben raktál össze? Itt az ideje, hogy a papírról a terepre lépjen.
 
-> Írj 1 konkrét **lefuttatási tervet** a Peula v2-dre az alábbi kezdéssel:
+> 🔁 Az **M7-ben a Peula v2-d mellé már leadtál egy kipróbálási tervet** (mikor / melyik Zmán Kvucán + 1 várható akadály → **ha–akkor** megkerülés). **Vedd most elő** – itt nem nulláról kezded, hanem **a tényleges első Zmán Kvucádra finomítod / aktualizálod** ugyanazt az egy vállalást.
+
+> Írd át / pontosítsd a **lefuttatási tervedet** a Peula v2-dre az alábbi kezdéssel:
 
 > **„A következő 3 Zmán Kvucámon…”**
 
@@ -228,6 +230,23 @@ Placeholder:
 **Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
 
 1 rövid mező, 1–3 mondat – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **kinek** mondod el, és **ha**–**akkor** miben kéred a támogatását a Peula v2 lefuttatásánál.
+
+***
+
+> 🛟 **Mielőtt élesben kvucát viszel – 1 safety-lépés (nem hagyható ki)**
+
+> A terepen nem csak madrich-módszertanilag lépsz élesbe: **te leszel az a felnőtt**, aki észreveszi, ha valami nagyon nem oké a kvucádban. Ezért **az első éles Zmán Kvucád ELŐTT** intézd el ezt az egyet – pont azt, amit az **M0.A „Kihez fordulhatok?” térképén** és az **M3.3 jelzési láncában** (*észreveszem → komolyan veszem → jelzek*) tanultál, most a saját kenedre / kvucádra húzva:
+
+> – **Tudd meg / erősítsd meg**, ki a kened **gyerekvédelmi felelőse** (név + ahogy eléred), és ki a **ken-vezetőd**.
+> – Tudd, **hova / kihez jelzel red flag esetén** – és hogy **nem maradsz egyedül** vele.
+
+> Írd le 1 mondatban (ha még nincs meg a név, írd be, kit kérdezel meg róla):
+
+> **„Az első éles Zmán Kvucám előtt megerősítem, ki a kened gyerekvédelmi felelőse (⟬KITÖLTENDŐ: név / elérhetőség – vagy: kit kérdezek meg róla⟭), és red flag esetén hozzá / a ken-vezetőhöz jelzek.”**
+
+**Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
+
+1 rövid mező – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **ki** a gyerekvédelmi felelős (vagy kit kérdezel meg róla) és **kihez jelzel** red flag esetén. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy a terepen megtudd; lásd M0.A → M3.3.)*
 
 ***
 

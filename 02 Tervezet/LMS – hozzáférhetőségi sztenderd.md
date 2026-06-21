@@ -43,7 +43,16 @@
   - **engedélyezd az online-text beadást** is (Online text ON) a fájlfeltöltés mellett.
 - Cél: csökkenteni a több lépcsős, súrlódásos beadási folyamatot, ami a leadási arányt (LA-metrika) rontja.
 
-## 5. H5P Essay és önreflexiók
+## 5. Eszköz- és adat-méltányosság (equity-fallback)
+
+- A mobil-first premissza nem feltételezheti, hogy **minden madrichnak van saját okostelefonja + elegendő adatforgalma** (a videós leckék adatigényesek). Ahol az eszköz vagy az adatkeret hiányzik — nincs saját készülék, megosztott a családi telefon, korlátos az adatkeret —, ott **alternatív útnak kell lennie**: az eszköz-hiány **nem zárhat ki a completionből**.
+- **Kötelező minimum a videós/adatigényes leckékhez:**
+  - adj **alacsony adatigényű, offline letölthető leckeváltozatot** (a narráció szöveges leirata + a kulcsképek; a felirat/leirat eleve elvárás — lásd 1. szakasz —, így a videó hang és sávozás nélkül, letöltött szövegből is teljesíthető);
+  - a **Study Lab / F-peula** (offline, képző-kísérte tér) egyben **eszközhöz-jutási pont** is: itt a madrich a ken közös eszközén / a helyszín wifijén végezheti el az online elemeket;
+  - ahol a kapus/online elem teljesítése eszközhöz kötött, ott **biztosítani kell egy eszköz-független pótlási utat** (a fenti offline/letölthető változat + a ken közös eszköze); ahol az **opcionális** Study Lab elérhető, az is egyenértékű pótlási tér — de a méltányos hozzáférés **nem függhet kizárólag** az opcionális Study Lab meglététől.
+- Tedd explicitté a lecke fejlesztői megjegyzésében, ha egy elem csak online, élő neten teljesíthető — ez akadálymentesítési kockázat, és kell hozzá offline/Study Lab fallback.
+
+## 6. H5P Essay és önreflexiók
 
 - Önreflexióknál a H5P **Essay** content type (vagy Moodle szöveges mező) **completion-alapú** beállítással kerüljön be: **kulcsszó-pontozás kikapcsolva**.
 - Így nem keletkezik téves pontszám ott, ahol a cél a „megcsinálta / nem csinálta meg" completion, nem az értékelés.
@@ -65,6 +74,14 @@
 
 ⟬KITÖLTENDŐ: a11y-lektor — ki a felelős a kapus elemek pre-flight jóváhagyásáért (név / szerep)⟭
 
+## 7. Kognitív és olvasási hozzáférhetőség
+
+> A hozzáférhetőség nem áll meg az érzékelésnél (felirat, alt-szöveg, kontraszt, billentyűzet) — kiterjed a **megértésre** is. Ez a szakasz a leckeszövegek olvashatóságát és a tanulási nehézséggel élő madrich támogatását rögzíti (a WCAG 2.2 érthetőség-elve és a többszörös reprezentáció — UDL — mentén).
+
+- **Plain-language a leckeszövegre:** a tananyagszöveg **rövid mondatokra, egyszerű, tegező nyelvre** törekszik; a szakszót (someres/pedagógiai fogalom) az **első előforduláskor egy mondatban feloldod**, vagy a glosszáriumra linkelsz. (Ez a leckeszövegre vonatkozik — nem keverendő az adatkezelési „just-in-time" dobozok plain-language elvével.)
+- **Kulcsfogalom mindig szövegben is:** minden lényeges fogalom és lépés **szövegként** is jelen van, nem csak ábrán/ikonon (ez a 2. szakasz alt-szöveg-elvárásával együtt zárja le a szöveg+vizuális redundanciát, ami tanulási nehézségnél kritikus).
+- **Tanulási nehézséggel / diszlexiával / SNI-vel élő madrich támogatása:** ahol az olvasás vagy a megértés akadályba ütközik, a madrich a **mentorától** kap segítséget, és a **Study Lab / F-peula** támogató, egyéni/kiscsoportos pótlási tér is — az online szöveg nem az egyetlen út a tananyaghoz.
+
 ---
 
 ## Gyors checklist fejlesztőnek
@@ -76,8 +93,10 @@
 - [ ] Drag & Drop helyett/mellett billentyűzet-barát alternatíva (Matching / Single Choice)
 - [ ] Interakció-típus következetes a modulon belül
 - [ ] Mobil-táblázat = kártya/akkordeon nézet, nem vízszintes scroll
+- [ ] Adatigényes/videós leckéhez offline letölthető, alacsony adatigényű változat + Study Lab mint eszközhöz-jutási pont (eszköz-hiány nem zár ki a completionből)
 - [ ] Produktumhoz letölthető sablon + online-text beadás engedélyezve
 - [ ] H5P Essay completion-alapú, kulcsszó-pontozás kikapcsolva
+- [ ] Leckeszöveg plain-language: rövid mondatok, szakszó első előforduláskor feloldva; kulcsfogalom szövegben is (nem csak ábrán)
 
 ---
 

@@ -37,6 +37,8 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 
 A kapu-validitási szempont szerint: ha az itemszám alacsony (5–6), akkor 80% = 1 hiba mozgástere, ami véletlen-érzékeny. 12 itemnél a 80% küszöb = **max. 2 hiba (10/12)**, ami stabilabb visszajelzést ad arról, hol állsz. A **korlátlan próbálkozás** + **randomizált sorrend / kicserélhető item-pool** ajánlott, hogy a kvíz ne magolásra, hanem megértésre ösztönözzön.
 
+> **A 12-item-érv hatóköre (őszinte korlát):** a „max. 2 hiba stabil” állítás a **globális** összpontszámra igaz – a témánkénti (korosztály / biztonság / inkluzivitás / trigger) bontás itemszáma kicsi (3 / 3 / 3 / 2), ezért a **témánkénti jelzés irányadó, nem statisztikai bizonyíték**. A trigger pl. csak 2 itemen mér – egy elrontott item önmagában még nem „diagnózis”. Ezért az altéma-szintű hibázás a stábnak **figyelmeztető jel a beszélgetéshez**, nem ítélet; az **éles döntés** mindig a játéklap **R4/R5 hard-gate-jén** dől el, nem 2 kvíz-itemen.
+
 > **Megjegyzés a tétről:** mivel a kvíz itt **formatív/diagnosztikus** (nem blokkol), a ≥80% **önellenőrző cél**, nem buktató küszöb. A 80% szerepe így nem a kapuzás, hanem hogy **jelzést adjon** neked és a stábnak: ha rendre a biztonsági/inkluzivitási itemeknél hibázol, azt a játéklap előtt érdemes átnézni. Az **éles, blokkoló** mérés a játéklap-rubrika (B).
 
 ### Lefedettség (construct-validitás)
@@ -47,6 +49,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 |---|---|---|
 | Korosztály–eszköz illesztés (6–10 / 11–13 / 14–16 / 16+) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
 | Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4, M6.A | 5, 6, 7 |
+| **Biztonsági in-the-moment reflex** (mikor állsz le / kit jelzel) – R4 „Erős” | M6.A 4.3.2/B, M3 gyerekvédelmi átkötés | **P1** *(pool/csere-item)* |
 | **Inkluzivitást** növelő variáció azonosítása | M6.3, M6.4 | 8, 9, 10 |
 | **Trigger-érzékenység** (történet/élményjáték) | M6.2, M6.4 (B-ág) | 11, 12 |
 
@@ -327,6 +330,30 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
+## P1. POOL-ITEM (csere-item) – Biztonság: in-the-moment leállítás + jelzés
+
+> **Pool-item:** ez a 13. blokk a **kicserélhető item-pool** része (lásd „Miért 12 item”). A live kvíz **12 itemes marad**; ez az item **becserélhető** valamelyik biztonsági item (5/6/7) helyére, vagy 13.-ként betehető, ha a stáb épp az **R4 in-the-moment reflexet** (mikor állok le / kihez fordulok) akarja diagnosztizálni. Az R4 „Erős” szint ezt a reflexet várja (jelzés, mikor kell leállítani / kit hív a madrich), és a peulák (M6.A 4.3.2/B) is ezt tanítják – ezt a rést zárja, anélkül hogy a kvíz tétjét emelné.
+
+**Szár:**
+> Egy **15 éves** kvucában „Szél fújja azt, aki…” közben az egyik chanich **láthatóan rosszul lesz** egy identitást súroló állítás után: elhúzódik, könnybe lábad a szeme. A játék még tart. **Mit teszel ELSŐ lépésként?**
+
+**Opciók:**
+- A) **Leállítom a kört egy semleges mondattal** („Álljunk meg egy pillanatra, csináljunk egy kis levegőt”), felkínálom mindenkinek a kiülést, nem reflektorozom rá az érintettet – és **még a peula alatt jelzem a felelős madrichnak / mentornak**. ✅
+- B) Nyilvánosan megkérdezem tőle a kör előtt, hogy „mi a baj?”, hogy a kvuca lássa, törődünk vele.
+- C) Gyorsan továbbpörgetem a játékot, hogy ne legyen kínos, és a peula után négyszemközt rákérdezek.
+- D) Kiállítom a játékból, hogy pihenjen, és nem szólok róla senkinek, mert nem akarom „nagy ügyet” csinálni belőle.
+
+**Helyes:** A
+**Distraktor-indok:**
+- B – Jó szándékú („törődünk vele”), DE a nyilvános kikérdezés **reflektorba teszi** és fokozza a kirekesztettség-érzést – pont ezt kerüli a 4 lépés.
+- C – A „ne legyen kínos” logika **magára hagyja** a megélővel, és a peula utánra halasztott jelzés túl késő, ha valaki erősen érintett.
+- D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyerekvédelmi becsatornázást (jelzés a felelősnek) mulasztja el.
+
+**Feedback:**
+> ✅ In-the-moment safety 4 lépésben: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt jelzel a felelős madrichnak / mentornak** – nem hagyod egyedül a helyzetet, és nem halasztod utánra. (M6.A 4.3.2/B; M3 gyerekvédelmi átkötés)
+
+---
+
 ### Kvíz-zárás (mindkét kimenetnél megjelenő szöveg)
 
 > **Ha elérted a 80%-ot:** Szép munka! Látszik, hogy a **kvuca + cél + biztonság + inkluzivitás** szempontokat együtt látod. **Ez az önellenőrzés most jó alap** – jöhet a modul éles kapuja, a **játéklap**, ahol ezt egy saját eszközön kell megmutatnod.
@@ -353,7 +380,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | # | Kritérium | 1 – Még nem | 2 – Oké (minimum átmenő) | 3 – Erős |
 |---|---|---|---|---|
 | **R1** | **Cél-illeszkedés** (mit tanít / mire való) | Nincs cél, vagy csak az eszköz neve szerepel („névkör”) cél nélkül. | A lapon **1 konkrét, kimondott cél** áll, ami az eszközhöz illik (pl. „biztonságosabban ismerkedjenek”, „észrevegyék a kirekesztést”). | A cél konkrét **és** kapcsolódik egy **someres értékhez** (pl. kvuca, egalitás, társadalmi felelősség), 1 mondatban kimondva, miért ezt tanítja. |
-| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. mély kirekesztés-szerepjáték 6–10-re). | Megadva a **korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör 6–10, esetleírás+vita 16+). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), a lap **megnevezi a someres kvuca-típust** (Parparim / Kivsza / Leviatan / Zorea) **+ legalább 1 korosztály-jellemzőt, amit az M3.2-ben tanultál és előhívtál** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás), és ezzel **megindokolja**, miért épp ennek a kvucának való – és melyiknek **nem**. |
+| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. mély kirekesztés-szerepjáték 6–10-re). | Megadva a **korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör 6–10, esetleírás+vita 16+). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
 | **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrich **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrich kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
 | **R4** | **BIZTONSÁG** *(hard-gate)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi/consent biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „nem valós szerepet játszunk le”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi/consent** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
 | **R5** | **INKLUZIVITÁS** *(hard-gate)* | Nincs inkluzivitási szempont, vagy csak deklaráció („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
@@ -376,7 +403,7 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 > A peula (M6.B) az **SBI-feedbacket** gyakoroltatja a játéklapra mint produktumra. A Workshopban a peer-értékelő **a rubrika mellé** írjon **1 SBI-megjegyzést**:
 >
-> - **S (helyzet):** milyen kvuca-helyzetben hasznos ez a lap,
+> - **S (helyzet):** a lap **melyik részénél / melyik elemnél** nézted, amire reagálsz (a megfigyelés horgonya – ahogy az **M1**-ben: *mikor, hol, milyen helyzetben*; itt: a lapon hol),
 > - **B (konkrét elem):** melyik **konkrét** elemet emeled ki (pl. „külön sor az inkluzivitásnak”),
 > - **I (hatás):** mit tesz hozzá a **biztonsághoz / inkluzivitáshoz / érthetőséghez**.
 >
@@ -388,5 +415,5 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 ## (D) Stáb-jelzések (learning analytics, a modul-leírás 7. szakasza alapján)
 
-- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online recap + **M6.F** (felzárkóztató) ajánlása **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / trigger) hibáznak sokan; a **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás esetén egyéni mentori egyeztetés a játéklap előtt.
+- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online recap + **M6.F** (felzárkóztató) ajánlása **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / trigger) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 3 / 3 / 3 / 2, a trigger pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: az érdemi mastery-bizonyíték és a blokkoló döntés a játéklap **R4/R5 hard-gate-jén** dől el, nem 2 kvíz-itemen.
 - **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → külön workshop „inkluzív játékok & kézművesek” témában + egyéni mentoros munka a kritikus esetekkel.

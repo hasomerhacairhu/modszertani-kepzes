@@ -70,7 +70,7 @@ A modul végére a madrich…
   Megkülönböztetni a „szétfolyó” kívánság-szintű célokat a **SMART nevelési céltól**, és 1 saját peula-ötlethez SMART célt írni.
 * **Programírás-fókusz:**
   „Ha nem tudom pontosan, mit szeretnék, nem tudom jól megtervezni a peulát sem.”
-* **Eszközök:** H5P **Course Presentation** (5–7 slide) + beépített **Fill in the Blanks** + **Single Choice Set**.
+* **Eszközök:** H5P **Course Presentation** (**7 slide**) + beépített **Single Choice Set** + **Fill in the Blanks** + **Short Answer** (a záró SLIDE 7 saját SMART cél megírására).
 * **Tartalom röviden:**
   * „Szétfolyó vágyak” vs. mérhető célok (kvuca-szituációkra írva).
   * SMART definíció **madrich-nyelven** + 2 someres minta (pl. szolidaritás / biztonság).
@@ -228,7 +228,7 @@ A modul végére a madrich…
      4. Biztonság & gyerekvédelem – átgondolt safety-rész a Zmán Kvucá-checklist alapján.
      5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható chanich-sztorik.
    * **Követelmény:**
-     * min. **70%** összpontszám **és** minden kritikus rubrika-sorban legalább „alapszint / rendben” (zárt **ÉS**-logika; a blokkoló safety-sor e nélkül is buktat – a pontos szabály: „M7 – KAPU” §B).
+     * **Megfelelt = (összpont ≥70% = ≥17/24) ÉS (R1, R5, R6 mindegyike ≥2 = „Megfelelő”) ÉS (R4 – Gyerekvédelem & safety ≥2, blokkoló)** – zárt **ÉS**-logika; a kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**, a blokkoló safety-sor (R4) e nélkül a %-tól függetlenül buktat (a pontos szabály: „M7 – KAPU” §B).
 2. **Moodle Quiz – „SMART & Zmán Kvucá”** **(kötelező 2. rész a kétrészes mastery-kapuban – ≥80%; fogalmi belépő, de a teljesítése is feltétel, mindkét részt teljesítened kell)**
    * **14 item**: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.4 tartalma) **+ gyerekvédelmi alaplépés (red flag, Q13–Q14 – a blokkoló R4-sor tudásalapja)** (a részletes item-bank: „M7 – KAPU” §A).
    * **Követelmény:** **≥80% (14 itemből ≥12 jó)** **és a gyerekvédelmi Q13 helyes** (a blokkoló konstruktum külön kötelező), **2–3 próbálkozás** engedélyezve, kérdés- és válasz-randomizálással.

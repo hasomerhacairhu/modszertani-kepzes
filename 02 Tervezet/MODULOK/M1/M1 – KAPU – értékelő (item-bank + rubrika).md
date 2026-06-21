@@ -75,7 +75,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 |---|---|---|
 | **alapszint (0)** | **Személyt minősít / támad**: általánosító „mindig/soha”, jellem-címke, gúny, leszólás. | „Te mindig szétszúrod a peulát.” / „Reménytelen vagy.” |
 | **fejlődő (1)** | **Alapvetően a viselkedésről** szól, de van benne egy-egy éles/szúrós fordulat vagy enyhe minősítés. | „Megint elkéstél, ami azért elég gáz tőled.” |
-| **kiváló (2)** | Végig a **viselkedésre és a hatásra** fókuszál, „én-üzenet” jellegű, a másik **nem-védekezve** tudna reagálni; nincs gúny, nincs általánosítás. | „Amikor ma a körben háromszor közbevágtál, nehéz volt összetartani a figyelmet – jó lenne, ha ők is több teret kapnának.” |
+| **kiváló (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címke-mentes és nem általánosít**, a másik **nem-védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de a kiváló szint kritériuma a viselkedés-fókuszú hangnem, nem az „én-üzenet” nyelvtan; a leckékben tanított minta végig 2. személyű „te”-szerkezet.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt összetartani a figyelmet – jó lenne, ha ők is több teret kapnának.” |
 
 ***
 

@@ -36,7 +36,7 @@ A modul végére a résztvevő…
 
 ***
 
-## 3. Online mikroleckék (Z.1–Z.4)
+## 3. Online mikroleckék (Z.1–Z.3) + záró produktum (Z.4)
 
 ### Z.1 – „Visszanéző tükör” – M0–M7 timeline (10–15’)
 
@@ -61,6 +61,7 @@ A modul végére a résztvevő…
 
 * **Cél:** jövőre néző, **konkrét lépések** megfogalmazása a terepre.
 * **Eszközök:** Page / Presentation a „small steps” logikáról, H5P Fill in the Blanks / Short Answer sablon mondatokkal.
+* **Általánosító lépés (a konkrét pillanattól a konkrét lépésig):** mielőtt next stepet írnál, fogalmazz meg a Z.2-ben felidézett pillanatból **1 általános elvet** – pl. „**Megtanultam, hogy amikor …, akkor jobb, ha …**” –, olyan tanulságot, ami **nem csak azon az egy peulán, hanem MÁS kvucáknál is igaz**. A next step ehhez az elvhez kötődjön, hogy a terepi transzfer ne maradjon esemény-specifikus.
 * **Példamondatok:**
   – „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”
   – „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrichként.”

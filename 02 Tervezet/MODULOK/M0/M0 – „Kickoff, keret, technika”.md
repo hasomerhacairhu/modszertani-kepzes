@@ -134,8 +134,23 @@ A modul végére a madrich…
       * madrich vs. nem terapeuta,
       * jelzési út gyerekvédelmi ügyben,
       * puha vs. éles kapu,
+      * **kapu-következmény** – 1 rövid szcenárió-item: „mi történik, ha a puha/éles kapu nem megy elsőre?” → válaszd ki a **helyes következményt** (jelzés + javítási lehetőség, nem kizárás) – az M0.3 SLIDE 6 „mi történik, ha…?” mintájára,
+      * **online hangnem / szabály** – 1 felismerő item: melyik reakció / szabály illik egy **dugma ishit** madrichhoz az online térben (chat, komment) – az M0.4 SLIDE 3–4 helyzeteinek és a „3 egyszerű szabály” logikájára építve,
       * „hol találom a modulokat / leckéket a Moodle-ben?”.
     * Több próbálkozás engedélyezett.
+    * **Quiz-blueprint (item ↔ M0-kompetencia leképezés):** hogy a §6 stáb-jelzés mért alapon álljon, minden item egy konkrét M0-kompetenciához kötődik:
+
+      | Item-téma | M0-kompetencia (lásd 2. szakasz) |
+      | --- | --- |
+      | madrich vs. nem terapeuta | 2. Szerepek és elvárások (madrich-határ) |
+      | jelzési út gyerekvédelmi ügyben | 2. Szerepek és elvárások (jelzés) |
+      | puha vs. éles kapu | 4. Kapuk és completion-logika |
+      | kapu-következmény (mi történik, ha…?) | 4. Kapuk és completion-logika (helyes következmény) |
+      | online hangnem / szabály | 5. Dugma ishit az online térben |
+      | hol találom a modulokat / leckéket | 3. Alap technikai működés (+ 1. éves ív tájékozódás) |
+
+      Így a „mely kérdés / témakör megy rosszul → melyik modulban erősítsünk” elemzés (§6) **item-szinten** értelmezhető.
+    * **A „kb. 60%” jelzőszint értelmezése:** ez **nem levezetett pszichometriai cut-score**, hanem durva, gyakorlati stáb-küszöb: a ~6–8 itemes belépő-quizben **átlagosan ≥ kb. fele-kétharmada helyes** azt jelzi, hogy a kvuca a strukturált belépéshez szükséges alapokat (keret, határ, jelzés, kapu) nagyjából átvette. **Item-szinten erősebb a jelzés, mint az átlag:** ha bármelyik **témakör tartósan < 50%-on** teljesít, az önmagában indok a ráerősítésre (lásd §6), függetlenül a globális átlagtól. Pontos küszöb-finomítás az első kohorsz adatai után: ⟬KITÖLTENDŐ: első futás item-statisztikái alapján⟭.
     * **Funkció (egyértelműsítés): ez a quiz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a quizen elért eredmény nem zár ki és nem blokkol senkit. **A „kb. 60%” tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „megbukik”. **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** (mintaként lásd az M1/M5/M7 „KAPU – értékelő (item-bank + rubrika)” fájlokat).
 
 **Követelmény az M0 „complete”-hez:**
@@ -165,9 +180,9 @@ A modul végére a madrich…
 3. **Bemutatkozó fórum aktivitása**
    * Ki posztolt / ki kommentelt?
    * Ha sokan csak „formalizáltan” írnak, az még oké, de jelzés lehet, hogy a következő modulban (M1, M2) több **kapcsolódó jellegű** feladat kell.
-4. **M0-quiz eredmények**
-   * Mely kérdések mennek nagyon rosszul?
-   * Ha sokan félreértik a „madrich, nem terapeuta” vagy a „kihez jelzek?” kérdéseket, azt M2/M3-ben **erősebben, többször** kell elővenni.
+4. **M0-quiz eredmények (item-szinten, a quiz-blueprint mentén – lásd 5. Kapuk)**
+   * Mely **témakör** megy nagyon rosszul (≈ tartósan < 50%)? A blueprint megmondja, melyik M0-kompetencia gyenge.
+   * Ha sokan félreértik a „madrich, nem terapeuta” vagy a „kihez jelzek?” itemeket, azt M2/M3-ben **erősebben, többször** kell elővenni; ha a **kapu-következmény** vagy az **online hangnem / szabály** item gyenge, az még M0-on belül (M0.3 / M0.4 újramondás, tech helpdesk) is pótolható.
 5. **Thresholdok / beavatkozási pontok (javaslatok):**
    * Ha az első hét végére a résztvevők **>30%-a nem „complete”** M0-ban:
      * célzott emlékeztető,

@@ -31,7 +31,7 @@ A modul végére a madrich…
    * **Támogató elemek:** M2.2 (Értékeim mint iránytű), M2.B (Somer-értékek a gyakorlatban).
 3. **Ideológiai tudatosság mint példaadás**
    * Röviden elmondja, mit jelent számára a **cionizmus, szocializmus, humanista zsidóság**.
-   * Mindhárom pillérhez példát hoz arra, hogyan akar **dugma ishit lenni** a kvucájának.
+   * Legalább **1 pillérhez** konkrét helyzet-példát hoz arra, hogyan akar **dugma ishit lenni** a kvucájának (a döntés-fa egy ágát végigjátszva), a másik kettőt feltáró módon megismeri.
    * **Támogató elemek:** M2.3 (Somer 3 pillére – mini-kapszula), M2.B (értékek konkrét helyzetekben).
 4. **Határok és felelősség**
    * 2–3 saját **határszabályt** megfogalmaz (online/offline).
@@ -144,13 +144,13 @@ A modul végére a madrich…
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
-> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a slide-ok végigléptetését – összhangban a §7 beavatkozási triggerével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve** (nem üres beküldés); **M2.3 = a mini-kapszula végig + a 3 „így mutatok példát” mondat beírva**; **M2.1 / M2.4 = a feltöltött Assignmentben van érdemi szöveg** (identitás-térkép reflexióval, ill. napló a 3 határszabállyal), nem üres fájl.
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a slide-ok végigléptetését – összhangban a §7 beavatkozási triggerével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve** (nem üres beküldés); **M2.3 = legalább 1 pillér-ág (döntés-fa) végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.1 / M2.4 = a feltöltött Assignmentben van érdemi szöveg** (identitás-térkép reflexióval, ill. napló a 3 határszabállyal), nem üres fájl.
 
 **Követelmény az M2 „complete”-hez:**
 
 1. L1 / M2.1 – identitás-térkép Assignment leadva.
 2. L2 / M2.2 – H5P értékválasztás + nyitott kérdések kitöltve.
-3. L3 / M2.3 – H5P mini-kapszula végig, 3 „így mutatok példát” mondat beírva.
+3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
 4. L4 / M2.4 – reflektív napló leadva, benne 3 saját határszabály.
 5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal **– az értékelő-fájl D. szakasz sablonja szerint, a tanuló előbb lefuttatja magán az A. szakasz 10 pontos self-checkjét.**
 

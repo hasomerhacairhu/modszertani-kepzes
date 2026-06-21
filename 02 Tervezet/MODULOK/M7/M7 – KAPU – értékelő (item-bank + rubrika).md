@@ -23,6 +23,7 @@
 **Kétkapus capstone (időben szétterítve – spacing):** a produktum **két menetben** érik be:
 * **v1 – first-draft gate (M7 hét 1 vége, M7.A után):** az M7.4 Assignment – **alacsony tét, rubrika-előnézet, újrapróbálható, NEM buktat**. Ez a kapu **bemenete**. (Határidő: ⟬KITÖLTENDŐ: v1-leadás⟭)
 * **~1 hét spacing-köz:** csiszolás az **M7.B peula-klinikán + otthon** (nem aznapi v1→v2).
+  * 🔒 **Spacing-invariáns (dátum-független, akkor is véd, ha a dátumok még ⟬KITÖLTENDŐ⟭):** a v1→v2 köz **nem lehet aznapi**, és **nem lehet rövidebb, mint ⟬KITÖLTENDŐ: spacing-minimum napban, javasolt ≥ X nap⟭**. A két dátum kitöltésekor ez gépiesen ellenőrizhető: (v2-leadás − v1-leadás) ≥ a minimum. Ez garantálja, hogy a „két kapu időben szétterítve” integritása ne csak a dátumok egyezésén múljon.
 * **v2 – mastery-kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: ⟬KITÖLTENDŐ: v2 mastery-leadás⟭)
 
 **Kapu-lehorgonyzás:** ez a fájl horgonyozza le a korábban csak `§6`-ban deklarált, de meg nem írt éles kaput: konkrét item-bank (distraktorokkal), teljes 3-szintes megfigyelhető rubrika, kijelölt blokkoló safety-sor, és ponthoz kötött ≥70%.
@@ -33,13 +34,13 @@
 
 **Beállítások (Moodle Quiz):**
 
-* 14 item, **küszöb ≥80% (≥12 jó válasz)** **ÉS a gyerekvédelmi Q13 kötelezően helyes** (a blokkoló R4-konstruktum tudásalapja a %-tól függetlenül nem hiányozhat), 2–3 próbálkozás.
+* 14 item, **küszöb ≥80% (≥12 jó válasz)** **ÉS a gyerekvédelmi Q13 kötelezően helyes** (ez az egyetlen, a %-tól függetlenül **kötelezően-helyes blokkoló item** – a blokkoló R4-konstruktum red-flag-alaplépését hordozza). A **Q14** ugyanezt az R4-területet **fedi le** (nem-egyedül-elv, B-terv, jelzési út), de **nem külön blokkoló item**: a pontszámba számít, a kötelezően-helyes minimumot egyedül a Q13 viszi. 2–3 próbálkozás.
 * **Kérdés- és válasz-sorrend randomizálva** (a 2–3 próbálkozás miatt ne legyen megjegyezhető a sorrend).
 * Item-típusok: Single Choice (1 jó válasz) és Multi-Select (több jó válasz – jelölve). A Multi-Selectnél **„minden helyes opció + egy hibás sem”** = teljes pont.
 * Minden itemhez egyértelmű helyes válasz, plauzibilis distraktorok (gyakori someres félreértésekre építve), rövid tanulói feedback.
-* Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12), **gyerekvédelem & safety (Q13–Q14 – a blokkoló R4-sor tudásalapja)** → így a kvíz az M7.4 etikus-AI, idő-feladat-felelős logikáját **és a kapu blokkoló gyerekvédelmi konstruktumát** is méri, nem csak M7.1–M7.3 felismerést.
+* Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12), **gyerekvédelem & safety (Q13–Q14 – a blokkoló R4-sor tudásalapját fedik le; a kötelezően-helyes blokkoló item ezen belül egyedül a Q13, a Q14 lefedettségi item)** → így a kvíz az M7.4 etikus-AI, idő-feladat-felelős logikáját **és a kapu blokkoló gyerekvédelmi konstruktumát** is méri, nem csak M7.1–M7.3 felismerést.
 
-> **Cél → item lefedettségi tábla (construct-validitás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyerekvédelem & safety (rubrika R4, BLOKKOLÓ) → Q13–Q14**. Így **minden mastery-kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alul-reprezentálva azt, amit a produktum-rubrika kapuz.
+> **Cél → item lefedettségi tábla (construct-validitás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyerekvédelem & safety (rubrika R4, BLOKKOLÓ) → Q13–Q14** (a kötelezően-helyes **blokkoló** item ezen belül **csak a Q13**; a Q14 a területet bővebben fedi le, de nem külön blokkoló küszöb). Így **minden mastery-kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alul-reprezentálva azt, amit a produktum-rubrika kapuz.
 
 ***
 
@@ -180,7 +181,7 @@
 - C) Beírom egy konkrét chanich valódi nevét és otthoni sztoriját, hogy „személyre szabott” tanácsot kapjak.
 - D) Megkérek egy nyers AI-vázlatot, amit utána átolvasok, kiválasztok belőle, és a kvucámhoz igazítok. ✅
 
-**Feedback:** Az A, B és D **megengedett**: általánosítva, adat nélkül ötletelni, fogalmat magyaráztatni, vagy nyersanyagot kérni és **kritikusan átdolgozni** teljesen rendben van – a döntés végig nálad marad. A **C tilos**: valódi név és beazonosítható chanich-sztori soha nem mehet a chatbe (adatvédelem + gyerekvédelem). Figyelj: itt a **kakukktojás a tiltott elem**, nem a megengedett – nem mindig az utolsó opció a kivétel. (M7.2, M7.4) *(A teljes ponthoz A, B, D jelölve, C NEM.)*
+**Feedback:** Az A, B és D **megengedett**: általánosítva, adat nélkül ötletelni, fogalmat magyaráztatni, vagy nyersanyagot kérni és **kritikusan átdolgozni** teljesen rendben van – a döntés végig nálad marad. Fontos árnyalat: nem maga a „saját szavakkal átírás” teszi etikussá az AI-használatot, hanem **(1) a transzparens jelölés** (a v2 leadásnál 1 sorban: hol/mire használtál AI-t) **és (2) a te tényleges szakmai döntésed** – a parafrázis önmagában nem „mossa tisztára” az AI-anyagot. A **C tilos**: valódi név és beazonosítható chanich-sztori soha nem mehet a chatbe (adatvédelem + gyerekvédelem). Figyelj: itt a **kakukktojás a tiltott elem**, nem a megengedett – nem mindig az utolsó opció a kivétel. (M7.2, M7.4) *(A teljes ponthoz A, B, D jelölve, C NEM.)*
 
 #### Q12 — Operáció: idő–feladat–felelős (Single Choice)
 
@@ -197,7 +198,7 @@
 
 ### Blokk 5 – Gyerekvédelem & safety a peulatervben (Q13–Q14)  🔴 BLOKKOLÓ-LEFEDETTSÉG
 
-> **Miért van külön blokk?** A produktum-rubrika **R4 (Gyerekvédelem & safety)** sora a kapu **blokkoló** konstruktuma – e nélkül a kapu a %-tól függetlenül nem nyílik. A fogalmi belépő (kvíz) ezért **nem maradhat item nélkül épp erre**: az alábbi két szcenárió-item igazolja a red-flag-alaplépés és a nem-egyedül-elv tudásalapját, mielőtt a tanuló a Peula v2-be építené. A megfogalmazás az M3.3 gyerekvédelmi alapozásra épül (red flag → mit teszel / mit NEM teszel / kit vonsz be), és **nem helyettesíti** a mentor / gyerekvédelmi felelős szerepét.
+> **Miért van külön blokk?** A produktum-rubrika **R4 (Gyerekvédelem & safety)** sora a kapu **blokkoló** konstruktuma – e nélkül a kapu a %-tól függetlenül nem nyílik. A fogalmi belépő (kvíz) ezért **nem maradhat item nélkül épp erre**: az alábbi két szcenárió-item igazolja a red-flag-alaplépés és a nem-egyedül-elv tudásalapját, mielőtt a tanuló a Peula v2-be építené. **Fontos a két item státusza:** a **Q13** (red-flag-alaplépés) a **kötelezően-helyes blokkoló item** – ez az, ami a %-tól függetlenül kötelezően jó kell, hogy legyen; a **Q14** ugyanezt az R4-területet (nem-egyedül-elv, B-terv, jelzési út) **bővebben fedi le**, de **nem külön blokkoló küszöb** (a pontszámba számít, de nem kötelezően-helyes). Így a blokkoló minimumot egyértelműen egyetlen item, a Q13 hordozza. A megfogalmazás az M3.3 gyerekvédelmi alapozásra épül (red flag → mit teszel / mit NEM teszel / kit vonsz be), és **nem helyettesíti** a mentor / gyerekvédelmi felelős szerepét.
 
 #### Q13 — Red flag a peulán: mi az első lépés? (Single Choice)
 
@@ -238,10 +239,14 @@
 > – **HA** ez az akadály jön, **AKKOR** mit tesz? (1 konkrét if–then megkerülés).
 > A mezőt a madrich **először élőben** fogalmazza meg az M7.B zárókörében, majd a v2 leadásakor rögzíti. Az értékelő **completion-szinten** (leadta / nem) veszi figyelembe, tartalmilag NEM pontozza – ez a madrich saját elköteleződése, nem teljesítmény-mérés.
 
+> 🔎 **AI-használat-megjegyzés (a v2 leadás MELLÉ – transzparencia, NEM rubrika-pont).**
+> A Peula v2 mellé a madrich tesz **1 rövid sort arról, hol és mire használt AI-t** (pl. „ChatGPT-vel ötleteltem feldolgozó kérdéseket, és a kvucámhoz igazítottam” – vagy „nem használtam AI-t”). **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol.** Ugyanaz az átláthatóság, amit a modul a **saját AI-médiáinál** is megkövetel (D1.3 AI-provenance: „AI-generált avatar, narrációt madrich lektorálta”) – itt a tanulói produktumra alkalmazva.
+> **Miért fontos a hangsúly?** Nem a „saját szavakkal átírás” teszi etikussá az AI-használatot, hanem **(1) a transzparens jelölés** (hol, mire használtad) **és (2) a madrich tényleges szakmai döntése** (mi illik a kvucához, mit hagysz ki). A parafrázis önmagában nem cél; a felelősség és a hozzáadott érték végig a madrichnál marad.
+
 **Szintezés logikája:** minden sor megfigyelhető **szövegjegyhez** kötött (mit kell látnia az értékelőnek a leadott szövegben), nem „jó/rossz” érzéshez.
 **0 = Hiányzik / nem értékelhető · 1 = Kezdő · 2 = Megfelelő · 3 = Mesteri.**
 
-**Kritikus sorok (a kettős küszöb „minden kritikus sorban ≥2” feltételéhez):** **R1 (SMART cél), R4 (Gyerekvédelem & safety – egyben blokkoló), R5 (Inkluzivitás), R6 (Módszer-illeszkedés).**
+**Kritikus sorok (a kettős küszöb „minden kritikus sorban ≥2” feltételéhez):** **R1 (SMART cél), R4 (Gyerekvédelem & safety – egyben blokkoló), R5 (Inkluzivitás), R6 (Módszer-illeszkedés).** Az **R2 – Kvuca-illeszkedés (korosztály-illeszkedés)** **értékelt és fontos sor, de szándékosan NEM kritikus küszöb-sor**: beleszámít az összpontba, de önmagában nem blokkol (a modul-áttekintő §6 rubrika-minimumában a korosztály-illeszkedés mint értékelt elem szerepel, nem mint nem-alkudható küszöb).
 
 ***
 
@@ -274,7 +279,7 @@
 | **0** | A leadás lényegében csak egy játékötlet; a 11 pont fázisai nem azonosíthatók. |
 | **1** | 1–2 fázis felismerhető (pl. csak az Élmény-blokk), de **hiányzik a feldolgozás vagy a zárás**, az ív töredékes. |
 | **2** | A 3 fázis (Előkészítés / Megírás / Utómunka) **felismerhetően jelen van**, és a 3–4 részletezett pont között ott a **bevezetés–élmény–feldolgozás–zárás** ív. |
-| **3** | A 3–4 kidolgozott pont **koherensen egymásra épül** (cél → módszer → feldolgozás → zárás → utóreflexió), és látszik a tudatos **realitás-check** (idő-arányok kiosztva). |
+| **3** | A 3–4 kidolgozott pont **koherensen egymásra épül** (cél → módszer → feldolgozás → zárás → utóreflexió), és látszik a tudatos **realitás-check** (idő-arányok kiosztva). Az **utóreflexió (11. pont) SBI-szerkezetben** fogalmaz (konkrét **helyzet → viselkedés → hatás** – mi történt, mit tettem/tettünk, mi lett a hatása), nem általános „jól sikerült” összegzés. |
 
 ***
 
@@ -333,7 +338,7 @@
 | **0** | A szöveg „robotnyelvű”, sablonos, AI-másolat hatású, **és/vagy** beazonosítható chanich-adat (név, konkrét sztori) szerepel benne. **(Adat-szivárgás esetén jelzés a mentornak.)** |
 | **1** | Vegyes: helyenként emberi, de vannak nyersen bemásolt, a kvucára nem szabott AI-blokkok; nincs jele a saját döntésnek. |
 | **2** | A szöveg **emberi, érthető, a saját szavakkal írt**; ha volt AI-támogatás, az ötlet-szinten maradt; **nincs** beazonosítható chanich-adat. |
-| **3** | Egyértelműen **saját, someres hangú** munka; ahol AI-t használt, ott látszik a **kritikus átdolgozás** (mi illik a kvucához, mit hagyott ki), a felelősség végig a madrichnál marad. |
+| **3** | Egyértelműen **saját, someres hangú** munka; ahol AI-t használt, ott látszik a **kritikus átdolgozás** (mi illik a kvucához, mit hagyott ki) **és a transzparens jelölés** (a mellékelt AI-használat-megjegyzésből kiderül, hol / mire használt AI-t) – nem a parafrázis önmagában, hanem a **feltüntetés + a madrich tényleges szakmai döntése** teszi etikussá; a felelősség végig a madrichnál marad. |
 
 ***
 
@@ -370,9 +375,9 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 
 | Korábbi produktum | Hol jelenik meg a Peula v2-ben | Melyik rubrikasor jutalmazza |
 | --- | --- | --- |
-| **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A produktum **utóreflexiója (11. pont)** és a **bukás-útvonal javító visszajelzése** SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de ugyanazzal az SBI-szemlélettel (konkrét helyzet–viselkedés–hatás). | R3 (utóreflexió), bukás-feedback-protokoll |
+| **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A produktum **utóreflexiója (11. pont)** és a **bukás-útvonal javító visszajelzése** SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback maga a peula-tervezés szempontjaira épül (SMART-cél: „hol érzem SMART-nak / mit kérdeznék még?”, illetve a Zmán Kvucá „előtte–utána”), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni. | **R3 (utóreflexió)** – a „3” szint az utóreflexió **SBI-szerkezetét** (helyzet–viselkedés–hatás) konkrét, megfigyelhető jegyként pontozza; + a képzői bukás-feedback-protokoll SBI-formátuma |
 | **M2 – identitás / érték** (identitás-jegyzet, dugma ishit; a kiemelt someres érték) | A SMART nevelési cél a madrich saját someres értékéhez / dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd (R – Releváns). | **R1 – SMART cél** („someres értékhez kötött” jegy), R2 (kvuca-illeszkedés indoklása) |
-| **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá-safety a korábban tanult gyerekvédelmi keretre támaszkodik: chanich-disclosure esetén red flag → meghallgat (nem ígér titoktartást, nem nyomoz) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály), **R4 – Gyerekvédelem & safety** |
+| **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá-safety a korábban tanult gyerekvédelmi keretre támaszkodik: chanich-disclosure esetén red flag → meghallgat (nem ígér titoktartást, nem nyomoz) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály) – **értékelt, de NEM kritikus küszöb-sor** (a kapu kritikus sorai: R1, R4, R5, R6); a korosztály-illeszkedés a pontszámba számít, de önmagában nem blokkol · **R4 – Gyerekvédelem & safety** (kritikus + blokkoló) |
 | **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch) | A peula **feldolgozó kérdései** és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek; az élő peer-feedback megfogalmazása is erre épül. | R3 (élmény-/feldolgozó-blokk), feedback-megfogalmazás |
 | **M5 – módszer-logika** („Feladat–kvuca–módszer + tanulástan” táblázat) | A cél ↔ módszer ↔ kvuca illesztés tudatos indoklása. | **R6 – Módszer-illeszkedés** (a „3” szinten explicit M5-hivatkozás) |
 | **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) | A peula konkrét élmény-blokkja egy M6-játéklapból emelhető be; a safety + inkluzivitási mezők továbbélnek. | R3 (élmény-blokk), **R5 (inkluzivitás)**, **R4 (safety)** |
@@ -385,12 +390,13 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 
 * [ ] Kvíz: **14 item**, **randomizálás BE**, **≥80% (≥12/14)** **ÉS a gyerekvédelmi Q13 kötelezően helyes**, 2–3 próbálkozás.
 * [ ] Minden itemnek egyértelmű kulcsa; a két multi-select **szándékosan eltérő polaritású** (anti-sablon): **Q11** „mit teHETsz” → **A+B+D** jó, a tiltott **C** a kakukktojás; **Q14** „mit TILOS úgy hagyni” → **A+B+C** jó, a jó gyakorlat **D** a kakukktojás. Distraktorok plauzibilisek (nincs „minden fenti”, nincs töltelék).
-* [ ] **Construct-lefedettség:** a blokkoló R4 (Gyerekvédelem & safety) sornak van kvíz-itemje (**Q13–Q14**); a cél→item tábla teljes, R4 nem alul-reprezentált.
+* [ ] **Construct-lefedettség:** a blokkoló R4 (Gyerekvédelem & safety) sornak van kvíz-itemje (**Q13–Q14**); a cél→item tábla teljes, R4 nem alul-reprezentált. A **kötelezően-helyes blokkoló item csak a Q13** (a Q14 lefedettségi, nem blokkoló) – ez a fejlécben, a §A beállításokban és a küszöb-formulában egységesen így szerepel.
 * [ ] Assignment-rubrika: 8 sor, 0–3 pont, max 24, küszöb **zárt ÉS-logikával**: **Megfelelt = (összpont ≥17) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló)** – a kritikus sorok ≥2 minimuma a ponthatártól függetlenül mindig kötelező.
 * [ ] **R4 blokkoló** szabály a Moodle-leírásban is rögzítve (nem csak a rubrikában).
 * [ ] Kritikus sorok kijelölve: R1, R4, R5, R6.
 * [ ] (C) checklist-pontozó az R4/R7 alá kötve, önellenőrzésként a tanulónak is kiadva.
-* [ ] Capstone-hivatkozások (M1/M2/M3/M5/M6) szerepelnek a tanulói briefben, és a CAPSTONE-tábla egyezik a modul-áttekintő §6 PORTFÓLIÓ-BEMENET listájával.
-* [ ] **Kétkapus időzítés rögzítve:** v1 first-draft gate (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét spacing-köz (M7.B) → v2 mastery-kapu (hét 2 vége); a ⟬KITÖLTENDŐ⟭ dátumok kitöltve élesítés előtt.
+* [ ] Capstone-hivatkozások (M1/M2/M3/M4/M5/M6) szerepelnek a tanulói briefben, és a CAPSTONE-tábla egyezik a modul-áttekintő §6 PORTFÓLIÓ-BEMENET listájával (mindkettő 6 forrásmodult nevez, az M4 kérdezés/kapcsolódással együtt).
+* [ ] **Kétkapus időzítés rögzítve:** v1 first-draft gate (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét spacing-köz (M7.B) → v2 mastery-kapu (hét 2 vége); a ⟬KITÖLTENDŐ⟭ dátumok kitöltve élesítés előtt **ÉS a spacing-invariáns betartva: (v2-leadás − v1-leadás) ≥ ⟬KITÖLTENDŐ: spacing-minimum nap⟭, nem aznapi** (a §0 spacing-invariáns szerint). Ez a két dátum kitöltésével együtt **élesítési feltétel** (vö. Program terv §9 compliance gate M7-sora).
 * [ ] **Kipróbálási kötelezettségvállalás** mező a v2 leadás mellett **completion-szinten** (leadta/nem), tartalmilag **NEM pontozva**, **nem blokkol** – if–then formátum, M7.B-ben élőben előkészítve.
+* [ ] **AI-használat-megjegyzés** mező a v2 leadás mellett (1 sor: hol/mire használt AI-t, vagy „nem használtam”), **completion-szinten**, tartalmilag **NEM pontozva**, **nem blokkol** – összhangban a modul saját AI-provenance (D1.3) elvárásával.
 * [ ] Bukás-útvonal: SBI max 3 pont + újraleadás + mentoros klinika dokumentálva.
