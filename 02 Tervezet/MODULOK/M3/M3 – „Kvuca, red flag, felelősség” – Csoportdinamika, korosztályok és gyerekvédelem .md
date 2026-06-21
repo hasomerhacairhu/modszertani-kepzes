@@ -24,7 +24,7 @@ A résztvevő érti a csoportfejlődés (Tuckman) alaplogikáját, fejben tartja
 A modul végére a résztvevő…
 
 1. **Csoportdinamika-alapozó (Tuckman)**
-   * Rövid kvuca-sztorik alapján be tudja azonosítani a Tuckman-szakaszt (forming–storming–norming–performing) **(M3.1, M3.A)**.
+   * Rövid kvuca-sztorik alapján be tudja azonosítani a Tuckman-szakaszt (forming–storming–norming–performing, + a lezáró **adjourning**) **(M3.1, M3.A)**.
    * Megérti, hogy a **storming nem „hiba”**, hanem a fejlődés része.
 2. **Korosztályi profilok – 4 kvuca, 4 világ**
    * 1–1 mondatos „miniprofilt” tud mondani a 4 kvucáról: **Parparim, Kivsza, Leviatan, Zorea** **(M3.2)**.
@@ -55,7 +55,7 @@ A modul végére a résztvevő…
 ### M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése (10–15’)
 
 * **Cél:**
-  A résztvevő megismeri a **Tuckman-modellt**, és kvuca-sztorikhoz tudja párosítani a szakaszokat (forming–storming–norming–performing).
+  A résztvevő megismeri a **Tuckman-modellt**, és kvuca-sztorikhoz tudja párosítani a szakaszokat (forming–storming–norming–performing, valamint a lezáró adjourning).
 * **Fókusz:**
   „Ha ránézek egy kvucára, **hol tart a történetében**?”
 * **Eszközök:**
