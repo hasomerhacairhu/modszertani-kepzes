@@ -27,6 +27,16 @@
 
 A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucára (pl. Parparim/Kivsza), amelyet a **modernizált Peula 11 pont** szerint írt meg; érti és használja a **Zmán Kvucá-checklistet**, és tudatosan, etikusan vonja be az **AI-t (pl. ChatGPT)** a tervezésbe – úgy, hogy a döntések a végén az ő kezében maradnak. (M7.1–M7.4, M7.A, M7.B)
 
+**Kétkapus capstone – a Peula v2 nem egy ülésben készül el**
+
+> A félévzáró capstone **két kapun** át érik be – szándékosan **időben szétterítve** (spacing), hogy a peuládat ne egy lélegzetre, hanem két menetben csiszold:
+>
+> * **v1 – first-draft gate (M7 hét 1 vége, az M7.A után):** leadod a **Peula v1 első vázlatot** (M7.4 Assignment). Ez **alacsony tét**: rubrika-**előnézet**, NEM buktat, **újrapróbálható** – a célja, hogy lásd, hova tartasz, és hol kérsz segítséget. (Dátum: ⟬KITÖLTENDŐ: v1-leadás határideje⟭)
+> * **~1 hét spacing-köz:** a v1 visszajelzései után, **az M7.B peula-klinikán és otthon** csiszolod a vázlatot – nem aznap, hanem a két hét közti időben érik be a gondolat.
+> * **v2 – mastery-kapu (M7 hét 2 vége, az M7.B után):** leadod a **véglegesített Peula v2 + Zmán Kvucá-operációt** – ez a tényleges, éles mastery-kapu (rubrika + kvíz, lásd „M7 – KAPU”). (Dátum: ⟬KITÖLTENDŐ: v2 mastery-leadás határideje⟭)
+>
+> A v1 és a v2 **ugyanaz a peula**, két érettségi fokon: a v1 a próba, a v2 a vállalható, megtartható verzió. A portfólió-átkötés (M1 SBI … M6 játéklap → v2) ezt táplálja – részletesen a §6 PORTFÓLIÓ-BEMENET és az „M7 – KAPU” §CAPSTONE.
+
 ***
 
 ## 2. Kimeneti kompetenciák
@@ -148,8 +158,9 @@ A modul végére a madrich…
 ### Peula B (M7.B) – „Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal” (45’)
 
 * **Kapcsolódás:** elsősorban **M7.3–M7.4** alkalmazása (Zmán Kvucá-checklist + Peula v2 váz).
+* **Hol áll a kétkapus ívben:** ez a **hét 2** peulája – a **v1 first-draft gate** (hét 1 vége) és a **v2 mastery-kapu** (hét 2 vége) **közti spacing-köz** csiszoló alkalma. A klinikán **a már leadott Peula v1-et** fejleszted tovább; a véglegesített v2-t **nem itt, aznap** adod le, hanem a klinika utáni munkával, a hét 2 végén.
 * **Fő cél:**
-  * 1 meglévő Peula v2 vázlat **finomhangolása** Zmán Kvucá-szempontból (idő, tér, létszám, eszköz/B-terv, inkluzivitás, gyerekvédelem).
+  * 1 már leadott **Peula v1 vázlat** továbbfejlesztése a **v2 felé** Zmán Kvucá-szempontból (idő, tér, létszám, eszköz/B-terv, inkluzivitás, gyerekvédelem).
   * Átélni, hogy nem az a jó peula, ami papíron a legkreatívabb, hanem amit **biztonságban meg is tudsz tartani** a saját kvucádnak.
 * **Fókusz-mondat:**
   „Nem az a jó peula, ami papíron nagyon kreatív, hanem amit **biztonságban meg is tudsz tartani**.”
@@ -185,9 +196,11 @@ A modul végére a madrich…
 * **Kaputípus:**
   **Éles (hard/mastery) kapu**, mert peula- és gyerekbiztonság-fókuszú modulról van szó – itt nem elég a „kb. értem”.
 
-> **Hol történik a tényleges Peula v2 mastery-leadás?**
-> Az M7.4 Assignment („Peula v2 – első vázlat”) **formatív** (0/1 completion) – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu.
-> A **félévzáró, éles kapu** a **véglegesített Peula v2 + Zmán Kvucá** leadása: a v1 vázlatot az M7.B peula-klinikán finomhangolod, majd a kész verziót adod le.
+> **Hol történik a tényleges Peula v2 mastery-leadás? (kétkapus, időben szétterítve)**
+> A capstone **két kapun** át érik be:
+> – **v1 – first-draft gate (hét 1 vége, M7.A után):** az M7.4 Assignment („Peula v2 – első vázlat”) **formatív** (0/1 completion), **alacsony tét, rubrika-előnézettel, újrapróbálható, NEM buktat** – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu. (Határidő: ⟬KITÖLTENDŐ: v1-leadás⟭)
+> – **~1 hét spacing-köz:** a v1 visszajelzései után a finomítás az **M7.B peula-klinikán és otthon** történik – nem aznapi v1→v2, hanem a két hét közti időben.
+> – **v2 – mastery-kapu (hét 2 vége, M7.B után):** a **véglegesített Peula v2 + Zmán Kvucá** leadása az **éles kapu**. (Határidő: ⟬KITÖLTENDŐ: v2 mastery-leadás⟭)
 > A részletes értékelőt (item-bank, 8 soros rubrika, blokkoló safety-sor, ponthoz kötött ≥70%) az **[M7 – KAPU – értékelő (item-bank + rubrika)](./M7%20–%20KAPU%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** fájl tartalmazza.
 > **Horgonyzás:** a végleges Peula v2-t a **félév végén, mentor / képző** zárja le ezen az éles kapun – ez NEM csúszik a modulon kívülre, és a Z modul completion-alapú reflexiója **nem helyettesíti** ezt a mastery-értékelést.
 
@@ -202,7 +215,7 @@ A modul végére a madrich…
    > * **M1 – SBI** (Situation–Behavior–Impact): az utóreflexió (11. pont) és a bukás-útvonal javító visszajelzése SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni.
    > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd.
    > * **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá-safety és a kvuca-illeszkedés a korábban tanult gyerekvédelmi keretre és a someres kvuca-profilra támaszkodik.
-   > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch): a Peula 11-pont **élmény-blokk/feldolgozás** (5. pont) és **Feedback & finomhangolás** (10. pont) blokkja és az élő levezetés erre épül – a feldolgozó kérdéseid és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
+   > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch): a Peula 11-pont **élmény- és feldolgozó-blokkja** (5–6. pont) és a **Feedback & finomhangolás** (10. pont) és az élő levezetés erre épül – a feldolgozó kérdéseid és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
    > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a safety- és inkluzivitási mezők itt élnek tovább.
    >

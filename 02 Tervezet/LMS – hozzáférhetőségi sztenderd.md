@@ -29,6 +29,11 @@
 - A párosító/állítás-párosító feladatok alapértelmezésben **Matching** típusúak legyenek (ujj-barát). Ha valahol mégis Drag & Drop kell, azt a lecke fejlesztői megjegyzésében indokolni kell.
 - Az interakció-típus legyen **következetes a modulon belül** — ne fordulhasson elő, hogy az egyik slide tudatosan kerüli a Drag & Drop-ot, a másik mégis előírja.
 
+> **Phase-0 univerzális a11y-protokoll (minden H5P-re, nem csak a kapusakra):**
+> - **Minden H5P elé heading az aktivitás nevével** — hogy a madrich (és a képernyőolvasó) tudja, melyik feladatba érkezik, mielőtt beletenyerel.
+> - **Rövid task description** közvetlenül a heading alatt: 1–2 mondat arról, mi a dolga és mikor „kész" — ne kelljen a feladatból visszafejtenie, mit várunk tőle.
+> - **A meglévő AI-videókhoz magyar felirat + leirat kötelező** — visszamenőleg is: ahol már van beágyazott AI beszélő fej / narrált videó, oda magyar feliratot és teljes szöveges leiratot kell pótolni (hang nélkül, tömegközlekedésen is teljesíthető legyen).
+
 ## 4. Mobil-first táblázatok és produktumok
 
 - Több oszlopos táblázatot **ne vízszintes görgetésű táblaként** jeleníts meg mobilon (apró cellák, horizontális scroll → ellentmond a „nincs zsúfolt táblázat" elvnek).
@@ -43,6 +48,22 @@
 - Önreflexióknál a H5P **Essay** content type (vagy Moodle szöveges mező) **completion-alapú** beállítással kerüljön be: **kulcsszó-pontozás kikapcsolva**.
 - Így nem keletkezik téves pontszám ott, ahol a cél a „megcsinálta / nem csinálta meg" completion, nem az értékelés.
 - Megnevezésnél ne használd a „Short Answer" megfogalmazást önálló H5P típusként — a hivatalos content type neve **Essay**. (A félreérthető „Essay / Short Answer" megnevezés helyett írd egyértelműen, melyik kerül be.)
+
+### KAPUS H5P „pre-flight" checklist
+
+> Ez a blokk **kizárólag a kapus / értékelt (gate-höz, completionhöz vagy mastery-kapuhoz kötött) H5P-elemekre** vonatkozik — ahol a továbblépés a madrich teljesítésén múlik. Itt a hozzáférhetőség nem „jó, ha van", hanem **élesítési feltétel**: ha bármelyik pont kipipálatlan, az elem **nem mehet élesbe**, mert egy chanich vagy madrich emiatt elakadhat a kapuban.
+>
+> **„Kész = élesíthető" definíció:** az elem akkor élesíthető, ha **mind a 7 pont** ki van pipálva ÉS az a11y-lektor jóváhagyta. Részleges teljesítés nem „majdnem kész" — kapus elemnél a hozzáférhetőségi rés egyenlő azzal, hogy valaki kizáródik a továbbhaladásból.
+
+- [ ] **Target size ≥ 24px** — minden kattintható/koppintható elem (válaszgomb, hotspot, drop-zóna) elég nagy ujj-barát célfelület mobilon.
+- [ ] **Billentyűzet-teljesíthetőség** — az elem **végigvihető és befejezhető kizárólag billentyűzettel** (Tab-rend logikus, fókusz látható, egér/érintés nélkül is teljesíthető).
+- [ ] **Drag-free egypontos alternatíva** — ha az elem húzásra épül, van **drag nélkül is teljesíthető** út (Matching / Single Choice / koppintásos párosítás), hogy a motoros nehézséggel élő vagy apró kijelzőn dolgozó madrich is átjusson a kapun.
+- [ ] **Alt-szöveg / szöveges ekvivalens** — minden képnek, ikonnak, hotspotnak, screenshotnak van alt-szövege vagy szöveges megfeleltetése; a feladat **nem oldható meg kizárólag vizuális infóból**.
+- [ ] **Kontraszt ≥ 4,5:1** — szöveg és lényeges UI-elem kontrasztja eléri a 4,5:1 küszöböt (apró szövegnél is), gyenge fényben / olcsó kijelzőn is olvasható.
+- [ ] **Magyar nyelv + iframe-title** — az elem nyelve magyarra állítva, az iframe-nek **beszédes magyar címe** van (képernyőolvasó felolvassa, melyik aktivitásban jár a madrich).
+- [ ] **Felirat + leirat a videókhoz** — minden beágyazott (AI beszélő fej / Interactive / narrált) videóhoz **magyar felirat ÉS teljes szöveges leirat** (slide-jegyzetben vagy a dián), hang nélkül is teljesíthető.
+
+⟬KITÖLTENDŐ: a11y-lektor — ki a felelős a kapus elemek pre-flight jóváhagyásáért (név / szerep)⟭
 
 ---
 

@@ -20,6 +20,11 @@
 
 **Mit NEM ez a kapu:** az M7.4 Assignment („Peula v2 – első vázlat”) **formatív**, 0/1 completion – az NEM ez a kapu. Ez a fájl a **félévzáró, éles** produktumot értékeli, amely a v1 vázlatra épül.
 
+**Kétkapus capstone (időben szétterítve – spacing):** a produktum **két menetben** érik be:
+* **v1 – first-draft gate (M7 hét 1 vége, M7.A után):** az M7.4 Assignment – **alacsony tét, rubrika-előnézet, újrapróbálható, NEM buktat**. Ez a kapu **bemenete**. (Határidő: ⟬KITÖLTENDŐ: v1-leadás⟭)
+* **~1 hét spacing-köz:** csiszolás az **M7.B peula-klinikán + otthon** (nem aznapi v1→v2).
+* **v2 – mastery-kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: ⟬KITÖLTENDŐ: v2 mastery-leadás⟭)
+
 **Kapu-lehorgonyzás:** ez a fájl horgonyozza le a korábban csak `§6`-ban deklarált, de meg nem írt éles kaput: konkrét item-bank (distraktorokkal), teljes 3-szintes megfigyelhető rubrika, kijelölt blokkoló safety-sor, és ponthoz kötött ≥70%.
 
 ***
@@ -226,6 +231,13 @@
 
 **Mit ad le a tanuló (a kapu produktuma):** kitöltött **Peula v2** (kvuca-meta + SMART cél + Peula 11 pont struktúra felismerhetően) + **Zmán Kvucá-operációs táblázat** (idő–feladat–felelős, lásd (C) pontozó váz).
 
+> 🎯 **Kipróbálási kötelezettségvállalás (a v2 leadás MELLÉ – rögzített szándék, NEM rubrika-pont).**
+> A véglegesített Peula v2 mellé a madrich leadja a saját **kipróbálási szándékát** is. **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol** – a célja, hogy a peula a fiókból a **terepre** kerüljön (implementation-intention). Formátum (someres nyelven, 3 sor):
+> – **MIKOR / MELYIK Zmán Kvucán** vinné be? (kb. alkalom vagy dátum)
+> – **1 várható akadály** (pl. kevés idő, nincs B-terem, kevés madrich);
+> – **HA** ez az akadály jön, **AKKOR** mit tesz? (1 konkrét if–then megkerülés).
+> A mezőt a madrich **először élőben** fogalmazza meg az M7.B zárókörében, majd a v2 leadásakor rögzíti. Az értékelő **completion-szinten** (leadta / nem) veszi figyelembe, tartalmilag NEM pontozza – ez a madrich saját elköteleződése, nem teljesítmény-mérés.
+
 **Szintezés logikája:** minden sor megfigyelhető **szövegjegyhez** kötött (mit kell látnia az értékelőnek a leadott szövegben), nem „jó/rossz” érzéshez.
 **0 = Hiányzik / nem értékelhető · 1 = Kezdő · 2 = Megfelelő · 3 = Mesteri.**
 
@@ -361,10 +373,11 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 | **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A produktum **utóreflexiója (11. pont)** és a **bukás-útvonal javító visszajelzése** SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de ugyanazzal az SBI-szemlélettel (konkrét helyzet–viselkedés–hatás). | R3 (utóreflexió), bukás-feedback-protokoll |
 | **M2 – identitás / érték** (identitás-jegyzet, dugma ishit; a kiemelt someres érték) | A SMART nevelési cél a madrich saját someres értékéhez / dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd (R – Releváns). | **R1 – SMART cél** („someres értékhez kötött” jegy), R2 (kvuca-illeszkedés indoklása) |
 | **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá-safety a korábban tanult gyerekvédelmi keretre támaszkodik: chanich-disclosure esetén red flag → meghallgat (nem ígér titoktartást, nem nyomoz) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály), **R4 – Gyerekvédelem & safety** |
+| **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch) | A peula **feldolgozó kérdései** és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek; az élő peer-feedback megfogalmazása is erre épül. | R3 (élmény-/feldolgozó-blokk), feedback-megfogalmazás |
 | **M5 – módszer-logika** („Feladat–kvuca–módszer + tanulástan” táblázat) | A cél ↔ módszer ↔ kvuca illesztés tudatos indoklása. | **R6 – Módszer-illeszkedés** (a „3” szinten explicit M5-hivatkozás) |
 | **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) | A peula konkrét élmény-blokkja egy M6-játéklapból emelhető be; a safety + inkluzivitási mezők továbbélnek. | R3 (élmény-blokk), **R5 (inkluzivitás)**, **R4 (safety)** |
 
-> **Üzenet a tanulónak (a feladat-briefbe is beilleszthető):** „A Peula v2-d nem nulláról indul. Hozd be az M1-ből az SBI-nyelvet a feedbackhez, az M2-ből a saját someres értékedet (ez lesz a SMART cél R – Releváns eleme), az M3-ból a kvuca-profilt és a safety-keretet, az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot – itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani.”
+> **Üzenet a tanulónak (a feladat-briefbe is beilleszthető):** „A Peula v2-d nem nulláról indul. Hozd be az M1-ből az SBI-nyelvet a feedbackhez, az M2-ből a saját someres értékedet (ez lesz a SMART cél R – Releváns eleme), az M3-ból a kvuca-profilt és a safety-keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot – itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani.”
 
 ***
 
@@ -378,4 +391,6 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 * [ ] Kritikus sorok kijelölve: R1, R4, R5, R6.
 * [ ] (C) checklist-pontozó az R4/R7 alá kötve, önellenőrzésként a tanulónak is kiadva.
 * [ ] Capstone-hivatkozások (M1/M2/M3/M5/M6) szerepelnek a tanulói briefben, és a CAPSTONE-tábla egyezik a modul-áttekintő §6 PORTFÓLIÓ-BEMENET listájával.
+* [ ] **Kétkapus időzítés rögzítve:** v1 first-draft gate (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét spacing-köz (M7.B) → v2 mastery-kapu (hét 2 vége); a ⟬KITÖLTENDŐ⟭ dátumok kitöltve élesítés előtt.
+* [ ] **Kipróbálási kötelezettségvállalás** mező a v2 leadás mellett **completion-szinten** (leadta/nem), tartalmilag **NEM pontozva**, **nem blokkol** – if–then formátum, M7.B-ben élőben előkészítve.
 * [ ] Bukás-útvonal: SBI max 3 pont + újraleadás + mentoros klinika dokumentálva.

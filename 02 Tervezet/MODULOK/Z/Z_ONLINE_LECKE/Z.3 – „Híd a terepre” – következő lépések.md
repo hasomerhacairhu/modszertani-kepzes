@@ -118,11 +118,11 @@ Opciók:
 
 > **Példamondatok – „next step” célok**
 
-> 1️⃣ *„A következő 3 Zmán Kvucámon figyelek rá, hogy ****legalább 1 új kérdezéstechnikát kipróbáljak****.”*
+> 1️⃣ *„A következő 3 Zmán Kvucámon figyelek rá, hogy **legalább 1 új kérdezéstechnikát kipróbáljak**.”*
 
-> 2️⃣ *„A következő hónapban ****minden peula után 1 mondatban leírom****, mit tanultam én madrichként.”*
+> 2️⃣ *„A következő hónapban **minden peula után 1 mondatban leírom**, mit tanultam én madrichként.”*
 
-> 3️⃣ *„A következő 4 hétben ****minden héten megkérdezem a madrich-társamtól****, hogy mi volt számára a legnehezebb pillanat.”*
+> 3️⃣ *„A következő 4 hétben **minden héten megkérdezem a madrich-társamtól**, hogy mi volt számára a legnehezebb pillanat.”*
 
 > Ezekben közös, hogy:
 > – meg van nevezve **az időtáv** („következő 3 Zmán Kvucám”, „következő hónap”),
@@ -147,31 +147,37 @@ Opciók:
 
 ***
 
-### SLIDE 4 – ACTIVITY 1: „A következő 3 Zmán Kvucámon…”
+### SLIDE 4 – ACTIVITY 1: „A következő 3 Zmán Kvucámon…” – a Peula v2-d a terepen
 
-**Cél:** az első saját, terepre irányuló cél megfogalmazása.
+**Cél:** az M7-ben elkészített **saját Peula v2** konkrét, terepi lefuttatási tervének megírása (mikor / melyik kvuca / 1 megnevezett akadály → if–then megkerülés).
 
 **Szöveg a dián:**
 
-> **1. saját cél – kvuca-fókusz**
+> **1. saját cél – a Peula v2-d éles bevetése**
 
-> Írj 1 mondatot az alábbi kezdéssel:
+> Emlékszel a **Peula v2-dre**, amit az M7-ben raktál össze? Itt az ideje, hogy a papírról a terepre lépjen.
+
+> Írj 1 konkrét **lefuttatási tervet** a Peula v2-dre az alábbi kezdéssel:
 
 > **„A következő 3 Zmán Kvucámon…”**
 
-> Segítő példák:
-> – „…figyelek rá, hogy **legalább 1 új kérdezéstechnikát kipróbáljak**.”
-> – „…minden alkalom után megkérdezem **legalább 1 chanichtól**, hogy mi tetszett / mi volt nehéz.”
-> – „…előkészítek **legalább 1 játékot**, ahol tudatosan figyelek az inkluzivitásra.”
+> Töltsd ki mind a hármat (ez nem fogadalom, hanem terv):
+> – **MIKOR** futtatod le? (pl. „a következő 3 Zmán Kvucám közül a másodikon”)
+> – **MELYIK KVUCÁVAL**? (pl. ⟬KITÖLTENDŐ: a saját kvucád neve / korosztály – pl. Kivsza, Leviatan⟭)
+> – **1 ELŐRE LÁTOTT AKADÁLY → if–then megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
 
-> Fontos: legyen **valóságos**, amit beírsz – olyan, amit tényleg el tudsz képzelni magad előtt.
+> Segítő példa (if–then):
+> – „…a Peula v2-met a 2. Zmán Kvucámon futtatom le a Leviatan-kvucámmal. **Ha** kevesebben jönnek a tervezettnél, **akkor** a páros feladatot egész csoportos körré húzom össze.”
+> – „…**ha** nincs elég idő a teljes peulára, **akkor** a nyitó-ráhangolót lerövidítem, és a fő élményrészt viszem végig.”
 
-**Beágyazott kérdés – Short Answer / Fill-in jelleg**
+> Fontos: legyen **valóságos**, amit beírsz – olyan terv, amit tényleg el tudsz képzelni magad előtt a kvucáddal.
 
-Egyszerű **Short Answer** mező:
+**Beágyazott kérdés – Short Answer / Fill-in jelleg (KÖTELEZŐ)**
+
+**Short Answer** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály if–then formában).
 
 Placeholder:
-`A következő 3 Zmán Kvucámon **figyelek rá, hogy** ...`
+`A következő 3 Zmán Kvucámon **a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...**`
 
 ***
 
@@ -201,27 +207,27 @@ Placeholder:
 
 ***
 
-### SLIDE 6 – ACTIVITY 3: „Ki tud ebben segíteni?” – support & commitment
+### SLIDE 6 – ACTIVITY 3: „Ki tud ebben segíteni?” – support & elköteleződés a Peula v2-re
 
-**Cél:** ne legyen magányos cél, tudatosítsa, kivel osztja meg.
+**Cél:** ne legyen magányos vállalás – a **Peula v2 lefuttatása** mögé tegyél támaszt, és kösd meg az elköteleződést.
 
 **Szöveg a dián:**
 
-> **3. lépés – Nem egyedül csinálod**
+> **3. lépés – A Peula v2-det nem egyedül viszed terepre**
 
-> A legtöbb „next step” cél **könnyebben megvalósul**, ha **megosztod valakivel**.
+> A SLIDE 4-en leírt **Peula v2-lefuttatásod** (mikor / melyik kvuca / if–then akadály) **könnyebben megvalósul**, ha **van mögötte egy ember**, akinek elmondod.
 
 > Gondold végig:
-> – Kinek fogod elmondani ezeket a célokat?
+> – Kinek mondod el, hogy **lefuttatod a Peula v2-det** ezeken a Zmán Kvucákon?
 > – Ki tud ebben neked **támasz** lenni? (mentor, madrich-társ, ken-vezető…)
 
-> Írj le 1 rövid mondatot:
+> Írj le 1 rövid **elköteleződő** mondatot – ha–akkor kötéssel:
 
-> **„Kinek fogom elmondani a céljaimat, és miben kérem a támogatását?”**
+> **„Elmondom a Peula v2-tervemet ⟬KITÖLTENDŐ: kinek⟭-nek, és ha elakadok / közbejön az akadály, akkor tőle kérek segítséget.”**
 
-**Beágyazott kérdés – Short Answer**
+**Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
 
-1 rövid mező, 1–3 mondat.
+1 rövid mező, 1–3 mondat – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **kinek** mondod el, és **ha**–**akkor** miben kéred a támogatását a Peula v2 lefuttatásánál.
 
 ***
 
