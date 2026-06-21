@@ -308,13 +308,13 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 ## 12. ITEM – Trigger-érzékenység: friss seb / nyitott vs. szégyenítő kérdés
 
 **Szár:**
-> Elmeséled a „Dani, az új fiú” történetet (egy újonnan érkezőt egy beszólás kicsit kirekeszt). Tudod, hogy a kvucában nemrég valakit tényleg csúfoltak. **Melyik feldolgozó kérdés a legbiztonságosabb és leginkább reflektív** ezután?
+> Elmeséled a „Lili, az új lány” történetet (egy újonnan érkezőt egy beszólás kicsit kirekeszt). Tudod, hogy a kvucában nemrég valakit tényleg csúfoltak. **Melyik feldolgozó kérdés a legbiztonságosabb és leginkább reflektív** ezután?
 
 **Opciók:**
 - A) „Volt-e már olyan, hogy egy beszólás miatt **te** érezted magad kívül? (Nem kell nevet mondani.)” ✅
 - B) „Ki volt itt a bunkó? Nevezzük meg!”
 - C) „Ugye mindannyian egyetértünk, hogy ilyet sosem csinálunk?”
-- D) „Szerintetek Dani túlreagálta?”
+- D) „Szerintetek Lili túlreagálta?”
 
 **Helyes:** A
 **Distraktor-indok:**
