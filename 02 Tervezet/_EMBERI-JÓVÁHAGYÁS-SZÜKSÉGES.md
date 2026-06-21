@@ -1,62 +1,74 @@
 # Emberi jóváhagyás / kitöltés szükséges
 
-> Ez az egyetlen, rövid átadó-jegyzék. Az audit-folyamat részletes nyomait (riportok,
-> review-doksik) **eltakarítottuk** — a belőlük származó döntéseket **beépítettük** a
-> tananyagba. Ami **nem volt szakmailag eldönthető** (szervezet-specifikus tény, jogi
-> kérdés, mozgalmi/szakértői aláírás), az itt és a szövegben **⟬KITÖLTENDŐ: …⟭**
-> jelöléssel vár emberi kézre. A teljes audit-history a git-ben megmarad.
+> Ez az egyetlen, rövid átadó-jegyzék. A teljes audit- és javítás-folyamat a **git-history-ban**
+> él (`git log`); az abból származó **szakmailag eldönthető** döntéseket **beépítettük**. Ami
+> **szervezet-specifikus tény, jog, vagy mozgalmi/szakértői aláírás**, az itt és a szövegben
+> **`⟬KITÖLTENDŐ: …⟭`** jelöléssel vár emberi kézre.
+>
+> **Az összes inline jelölő egy paranccsal:** `grep -rn "⟬KITÖLTENDŐ" "02 Tervezet"`  (jelenleg ~30 db)
 
 ---
 
-## 1. Inline kitöltendők (12 db) — keresd: `grep -rn "⟬" "02 Tervezet"`
+## 1. Gyerekvédelmi felelős + eszkalációs lánc (a legmagasabb prioritás)
 
-| Hol | Mit kell kitölteni |
-|-----|--------------------|
-| **M3.3** fejléc (sor 8–10) | gyerekvédelmi felelős **neve**, jóváhagyás **dátuma**, következő felülvizsgálat dátuma |
-| **M3.B** fejléc (sor 8–10) | gyerekvédelmi felelős **neve**, (ajánlott) mentálhigiénés szakértő **neve**, dátum |
-| **M3 – KAPU** fejléc (sor 11–13) | gyerekvédelmi felelős **neve**, jóváhagyás + felülvizsgálat **dátuma** |
-| **M3.4** (sor 161) | a ken **hivatalos alkohol- és dohányzási magatartási kódexe** (mit szabad/nem, hol, milyen kortól) |
-| **M0.2** (sor 257) | kihez fordulhat a madrich személyesen (megnevezett **gyerekvédelmi felelős/mentor + elérhetőség**) |
-| **M7 – KAPU** (sor 206) | a ken nevesített **gyerekvédelmi felelőse + helyi jelzési protokoll** (azonnali-veszély / 112 ág) |
-| **Program terv** §5/§6 (`[...]` jelölés) | a **support-kapcsolatok**: adatkezelési felelős + technikai support **megnevezett címe/elérhetősége** (a `[a mentorodnak / megnevezett felelős – kapcsolat]` zárójeles helyek) |
+A program **több ponton** a nevesített gyerekvédelmi felelősre (DSL) épül. **Egyetlen aláírás-hiány az M3-at és az M7 félévzáró kaput is blokkolja** (lásd Program terv §9). Kitöltendő:
 
-> A szöveg ezeken a helyeken a **best-practice keretet** már tartalmazza (transzparencia,
-> jelzési kötelezettség, „nem hagylak egyedül"); csak a **konkrét nevet/dátumot/helyi
-> politikát** kell behelyettesíteni.
+| Hol | Mit |
+|---|---|
+| **M3.3** / **M3.B** / **M3 – KAPU** fejléc | gyerekvédelmi felelős **neve**, jóváhagyás + felülvizsgálat **dátuma** |
+| **M3 – KAPU** §3 (külső eszkalációs út) | ha a gyanú épp a felelősre vonatkozik: **alternatív/külső** jelzési út |
+| **M7 – KAPU** (~211. sor) | a ken nevesített **gyerekvédelmi felelőse + helyi jelzési protokoll** (azonnali-veszély / 112 ág) |
+| **M0.2** (~270. sor) | kihez fordulhat a madrich személyesen (**felelős/mentor + elérhetőség**) |
+| **M3.4** | a ken **alkohol- és dohányzási magatartási kódexe** (mit/hol/milyen kortól) |
 
-## 2. Jogi / szervezeti döntést igénylő tételek (szándékosan NEM auto-írtuk meg)
+## 2. Kapu-dátumok — M7 kétkapus capstone (ÚJ)
 
-Ezeket egy szakember (gyerekvédelmi felelős + szükség esetén jogi/adatvédelmi) döntse el:
+A jóváhagyott M7-átalakítás bevezetett egy **kétkapus, időben elosztott** capstone-ütemtervet (Peula v1 first-draft gate → ~1 hét spacing-köz → v2 mastery-kapu). A **pontos naptári dátumok** kitöltendők:
 
-- **Adatvédelem (GDPR / kiskorúak):** a reflexiós napló- és Assignment-/Essay-adatok
-  **megőrzési ideje, törlési folyamata, korhatár-kezelése és 16 alatti szülői hozzájárulása**
-  (érintett: M0, M2.4, M4 Essay-k + M4.4 Assignment). Adatminimalizálási elv: csak ami kell.
-- **Nevesített eszkalációs lánc:** madrich → **megnevezett** gyerekvédelmi felelős (DSL) →
-  hatóság, külön **azonnali-veszély / 112** ág — a szerepek és elérhetőségek behelyettesítése.
-- **Kiskorú (15–17) madrich kettős státusza:** 18 alatti ne felügyeljen egyedül; saját
-  bejelentési útja és a hatalmi egyenlőtlenség kezelése — szervezeti policy.
-- **AI-tartalom kétlépcsős lektorálási policy** kimondása az indító dokumentumban
-  (általános: módszertani felelős; safeguarding: + gyerekvédelmi felelős sign-off).
+- **M7 hub** (~34/36/201/203), **M7 – KAPU** (~24/26), **M7.B** (~14): v1-leadás + v2 mastery-leadás határideje
+- **Program terv** §3.1 / §3.2 / §5 (~97/186/249): ugyanezek a kapu-dátumok
+- *Döntés:* a v1-kapu Moodle-ben „külön határidős, de nem buktató" aktivitás-e, vagy mentor-jelölt mérföldkő.
 
-## 3. Opcionális szerzői / stiláris döntés
+## 3. Governance & megfelelőség — Program terv §9 compliance gate (ÚJ)
 
-- **M0 belépő-kvíz:** jelenleg **completion-jelzőként** építettük be (nem küszöbös vizsga).
-  Ha a stáb mégis éles, küszöbös kaput akar: 6–8 megírt item + answer key + cél→item tábla
-  (kiemelten az „éves ív" és „online dugma ishit" kompetenciákra) szükséges.
-- **„Dugma Ishit az online térben" leckecím (M0.4) — casing:** a glosszárium szerint a
-  *dugma ishit* kisbetűs köznév, de ez a cím (és a **fájlnév** + ~7 link) nagybetűs
-  címformát használ. A folyószövegben már kisbetűsítettük; a **címet/fájlnevet NEM**
-  neveztük át (a fájl-átnevezés a linkeket is érinti). Döntés: maradjon-e a címben a
-  nagybetűs forma (mint tulajdonnévszerű lecke-cím), vagy egységesítsük kisbetűsre
-  (akkor fájl-átnevezés + a hivatkozó linkek frissítése kell).
-- **M3.1 Tuckman magyar címkék:** a lecke a „storming"-ra helyenként „viharzás",
-  máshol „balhék" alakot használ (utóbbi szándékos, Gen Z-barát glossza lehet) — ha
-  teljes egységesség a cél, a stáb döntse el a kanonikus magyar megfeleltetést.
+A §9 **élesítés-előtti, blokkoló aláírólista** (7 sor). Kitöltendő:
+
+- **Módszertani felelős** + **DSL/gyerekvédelmi felelős** neve (§9 új 6. sor – kétlépcsős AI+safeguarding lektorálás; Program terv ~333/334)
+- **AI-média gépi-olvasható jelölés eszköze/eljárása** (§4 + §9 7. sor; Program terv ~207/333 – pl. C2PA / Content Credentials / vízjel; EU AI Act 50. cikk, hatály 2026.08.02)
+- **Support-kontaktok** (§5/§6 `[...]`): adatkezelési felelős + technikai support megnevezett elérhetősége; **M4.1** (~54) technikai support csatorna
+- **Mentor:madrich arány** (§6 stáb-kapacitás realitás-megjegyzés) — a stáb tényleges kapacitása szerint
+- **Akadálymentesítési lektor** neve (LMS-sztenderd KAPUS pre-flight)
+
+## 4. Adatvédelem (GDPR / kiskorúak) — jogi döntés
+
+Szakember (gyerekvédelmi + adatvédelmi) döntse el:
+- A reflexiós napló-, Essay- és Assignment-adatok **megőrzési ideje, törlési/anonimizálási folyamata, 16 alatti szülői hozzájárulása** (érintett: M0, M2.4, M4-Essay-k + M4.4 Assignment).
+- **M6.3 fotók** (~48/49/52): kép **forrása/fotós**, **licenc**, és gyerek-képmás esetén **GDPR-hozzájárulás** (kiskorúnál szülői).
+- **Kiskorú (15–17) madrich kettős státusza:** 18 alatti ne felügyeljen egyedül; saját bejelentési útja + a transzfer-próba (M7→Z terep-commit) felügyelete — szervezeti policy.
+
+## 5. Mozgalmi / ken-megerősítés — tartalmi (ÚJ)
+
+A helyi Somer / ken erősítse meg:
+- **Izrael/cionizmus — palesztin-/béke-dimenzió** (M2.3 ~227. sor + M2.B emlékeztető): a kánon-hű kiegészítés **pontos mozgalmi szövegezése** (`⟬KITÖLTENDŐ: ken-megerősítés⟭`). Politikailag érzékeny — a mozgalmi vezetés hatásköre.
+- **Kvuca-korosztályok és profilok** (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+): mozgalom-belső konvenció, a helyi ken-vezetővel megerősítendő (glosszárium 🧑‍🏫 jelölés).
+- **Hagshama** pontos mozgalmi megfogalmazása (glosszárium).
+
+## 6. Opcionális szerzői / stiláris döntés
+
+- **„Dugma ishit" leckecím (M0.4) — fájlnév:** a látható szövegekben már kisbetűsítve; a **fájlnév** (+ ~7 link-URL) maradt nagybetűs (a fájl-átnevezés a linkeket is érinti). Döntés: marad-e a fájlnév, vagy átnevezés + link-frissítés.
+- **M0 belépő-kvíz:** jelenleg **completion-jelző** (nem küszöbös). Ha éles kapu kell: item-bank + answer key + cél→item tábla.
+- **Gyártási becslések** (pl. M2.3 Branching-embernap ~13. sor; M5.3 Moodle-időzítő eszköz): a tényleges fejlesztési ráfordítás/eszköz behelyettesítése.
 
 ---
 
-*A részletes javítási terv (P0/P1/P2 prioritások, kutatás-alapú ajánlások, források) és a
-teljes audit a git-history-ban elérhető (`git log`, a `docs(audit)` és `fix(deep-audit)`
-commitok). Vezérelv a továbblépéshez: **„kevesebb gépezet, több mozgalom"** — a meglévő
-nonformális erősségekre építeni, reális önkéntes-kapacitással, MVP-logikával (1 modul +
-1 kapu élesben → mérés → bővítés).*
+## Dokumentált, elfogadott reziduumok (NEM hiba, tudatos megállás)
+
+- **Lecke-beágyazott kvízek hossz-cue:** a 6 KAPU-bank (éles kapuk) + a lecke-kvízek javítva (a helyes válasz már sehol nem a szigorúan leghosszabb); a **kulcsok igazoltan változatlanok**. Ahol az M3-KAPU safeguarding-itemje hosszabb, az **elkerülhetetlen** (a teljes, biztonságos válasz eleve hosszabb) — elfogadható.
+- **Peula módszer-paletta:** a mag érett és változatos; a **nagycsoportos önszervező dialógus** (fishbowl / world café / open space) **tudatosan NEM** került be (45' időkeret + önkéntes-stáb facilitációs teher). A fórum-színház (M3.B) és Living Library (M2.A) **opcionálisként**, facilitátor-kompetencia jegyzettel.
+- **Sablon-konzisztencia (modalitás):** a #3 modalitás-pilot (M5.3 Dialog Cards, M2.3 Branching, Z.4 Documentation Tool) beépült; a teljes terv a `[[modality-variety-plan]]` memóriában.
+
+---
+
+*Vezérelv a továbblépéshez: **„kevesebb gépezet, több mozgalom"** — a meglévő nonformális
+erősségekre építeni, reális önkéntes-kapacitással, MVP-logikával (5 → 4 → 3 modul/kapu
+élesben → mérés → bővítés). A teljes audit-history: `git log`.*
