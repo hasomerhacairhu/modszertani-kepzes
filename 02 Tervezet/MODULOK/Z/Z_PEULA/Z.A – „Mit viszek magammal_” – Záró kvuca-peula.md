@@ -60,7 +60,7 @@
 **0–10’** – Check-in: „Félév-emojik”
 **10–25’** – 1. fő aktivitás: „Időkapszula” – tanulási pillanatok megosztása párokban / triádokban
 **25–40’** – 2. fő aktivitás: „Híd a terepre” kiscsoportos poszter
-**40–55’** – 3. fő aktivitás: Elismerés & köszönés kör (minimális SBI-vel)
+**40–55’** – 3. fő aktivitás: Elismerés-kör – párcsere (Időkapszula-párok oda-vissza SBI-elismerése) + névhúzásos rákötés
 **55–60’** – Záró rituálé: 1 szó, szó-felhő, közös lezárás
 
 **45 perces verzió – explicit percbontás:**
@@ -68,17 +68,19 @@
 **0–7’** – Check-in: „Félév-emojik” (gyorsabb kör, max. 1 mondat/fő)
 **7–18’** – 1. fő aktivitás: „Időkapszula” – tanulási pillanatok párokban (nagykörös visszahozás nélkül)
 **18–30’** – 2. fő aktivitás: „Híd a terepre” poszter (rövidítve, poszter-bemutató nélkül)
-**30–41’** – 3. fő aktivitás: Elismerés & köszönés kör (minimális SBI-vel)
+**30–41’** – 3. fő aktivitás: Elismerés-kör – párcsere (Időkapszula-párok oda-vissza SBI-elismerése); 45’-ben a párcsere a teljes blokk, névhúzás nélkül
 **41–45’** – Záró rituálé: 1 szó, szó-felhő, közös lezárás
 
 *(Vagyis a 45’-es verziónál **minden blokk rövidül egy kicsit**, a legnagyobb vágás a **2. (Időkapszula, 15’→11’, –4’)** és a **4. (Elismerés-kör, 15’→11’, –4’) blokkon** van, a poszter **3’-mal** (15’→12’), a check-in szintén **3’-mal** (10’→7’), a záró rituálé pedig csak **1’-mal** (5’→4’) rövidül: kevesebb beszélő kör, rövidebb poszter-idő, a poszter- és nagykörös visszahozások esnek ki először – az elismerés-kört és a záró szót próbáld megtartani.)*
+
+> **Hol fér bele az új párcsere-elem?** Az elismerés-kör magját mostantól a **párcsere** adja (4.4.1 / 1–2. lépés): az Időkapszula-párok **oda-vissza** mondanak egymásnak 1-1 SBI-elismerést. Ehhez **nem kell új idő**, mert a régi névhúzásos kör idejét használja fel, és a párok már léteznek a 2. blokkból. A **45’-es verzióban a párcsere maga a teljes 11’-es blokk** (a névhúzásos plenáris rákötés kimarad); a **60’-es verzióban** a párcsere (kb. 7’) után marad idő a meglévő névhúzásos körre is (kb. 6’) – ha csúszol, a névhúzás esik ki először, a párcsere a core.
 
 **Reális időtervezés (terhelés-őszinteség):**
 
 * **A fenti percek feszesek** – záró peulánál a megosztó körök szinte mindig túlcsúsznak (több az érzelem, többen akarnak beszélni). **Tervezz 10–15% puffert**: a 60’-es verziónál gondolj inkább **60–70’-ben**, a 45’-esnél **45–50’-ben**, és inkább a felső sávval kalkulálj.
 * **Core (el ne hagyd) vs. elhagyható/rövidíthető** – ha csúszol, ebben a sorrendben vágj:
-  * **Core (a peula lényege):** Check-in (Blokk 1) · az **Elismerés-kör** (4.4.1) · a **záró szó-felhő rituálé** (4.4.2). Ezek adják a lezárás élményét – ezeket tartsd meg.
-  * **Elhagyható / rövidíthető elsőként:** a poszter **nagykörös bemutatása** (4.3 / 4. lépés) · az Időkapszula **nagykörös visszahozása** (4.2 / 4. lépés). A párokban/kiscsoportban zajló rész marad, csak a plenáris visszahozás esik ki vagy rövidül 1–2 önkéntesre.
+  * **Core (a peula lényege):** Check-in (Blokk 1) · az **Elismerés-kör párcsere-magja** (4.4.1 / 1–2. lépés – az Időkapszula-párok oda-vissza SBI-elismerése) · a **záró szó-felhő rituálé** (4.4.2). Ezek adják a lezárás élményét – ezeket tartsd meg.
+  * **Elhagyható / rövidíthető elsőként:** a poszter **nagykörös bemutatása** (4.3 / 4. lépés) · az Időkapszula **nagykörös visszahozása** (4.2 / 4. lépés) · az elismerés-kör **névhúzásos plenáris rákötése** (4.4.1 / 3. lépés – ez épül a párcsere magjára, de elhagyható, ha csúszol). A párokban/kiscsoportban zajló rész marad, csak a plenáris visszahozás esik ki vagy rövidül 1–2 önkéntesre.
 
 ***
 
@@ -200,32 +202,38 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Cím:** Elismerés & szó-felhő – kvuca-búcsú
 **Időtartam:** 40–60’
 
-*(60’ verzió: 15’ elismerés-kör + 5’ rituálé;
-45’-os peulánál rövidíts: 11’ elismerés + 3–4’ rituálé.)*
+*(60’ verzió: 15’ elismerés-kör [kb. 2’ keret + 7’ párcsere + 6’ névhúzásos rákötés] + 5’ rituálé;
+45’-os peulánál rövidíts: 11’ elismerés [keret + párcsere, névhúzás nélkül] + 3–4’ rituálé.)*
 
-#### 4.4.1. Elismerés & köszönés kör (`40–55’`)
+#### 4.4.1. Elismerés-kör – párcsere + névhúzás (`40–55’`)
 
 **Cél:**
 
 * A résztvevők megtapasztalják a **konkrét, pozitív visszajelzés** erejét.
-* Mindenki kapjon **legalább 1 mondatnyi elismerést** a féléves jelenlétéért.
+* **Mindenki adjon ÉS kapjon** legalább 1 mondatnyi elismerést a féléves jelenlétéért – ne csak a névhúzás véletlenje döntse el, ki kap.
+
+> **Miért párcsere?** Az SBI-elismerésnek akkor van a legnagyobb ereje, ha a kérdés nem „mi volt rossz / mit javítsunk”, hanem **„mi a legjobb benned, és mikor láttam ezt működni”** – ez az *appreciative inquiry* („elismerő, erősség-központú rákérdezés”) logikája (forrás: nonformal-education.eu). A párcsere ezt garantálja: a **meglévő Időkapszula-párok** (a 2. blokkból) **oda-vissza** adnak egymásnak 1-1 konkrét, erősség-/sikerközpontú elismerést – így a kölcsönösség nem a véletlenen, hanem a formán múlik.
 
 **Lépések:**
 
-1. **Névhúzás előkészítése (2–3 perc)**
-   * Mindenki nevét írjátok fel külön kis cetlire, tegyétek egy tálba / kalapba.
-   * Mindenki húz egy nevet (ha valaki saját magát húzza, húzhat újra).
-2. **Mini-SBI keret elmagyarázása (2 perc)**
+1. **Mini-SBI keret elmagyarázása (2 perc)**
    Képző:
-   > „Most egy **elismerés-kört** csinálunk. Arra kérlek, hogy annak, akinek a nevét húztad, mondj 1 rövid **elismerő mondatot** erről a félévről.
+   > „Most egy **elismerés-kört** csinálunk – és először azzal kezdjük, akivel az imént az **Időkapszulában** párban / hármasban voltatok. Üljetek vissza ahhoz a párhoz.
+   > Arra kérlek, hogy a párodnak mondj 1 rövid **elismerő mondatot** erről a félévről – nem általában dicsérsz, hanem az **erősségére / egy konkrét sikerére** kérdezel rá: mi az, amit jól csinált, és mikor láttad ezt működni.
    > Segítő minta (nem kell szóról szóra), ahogy az SBI-nél tanultuk – helyzet + konkrét viselkedés + hatás:
    > – **„Amikor [helyzet], te [konkrét dolgot csináltál] – és ez nekem / a csoportnak [hatás] volt.”**
    > – **„Emlékszem, amikor a [modul / peula / nehéz pillanat]-nál [konkrétan ezt tetted], és attól én [így éreztem magam / ezt tanultam tőled].”**
-   > Csak pozitívat mondunk most, és **mindenki kapjon legalább 1 mondatot** a végére.”
-3. **Elismerés-kör lejátszása (10–12 perc)**
-   Képző figyeljen arra, hogy időben maradjatok (1–1 mondat/fő).
-   * Menjetek körbe; mindenki elmondja a mondatát annak, akit kihúzott.
-   * Ha a kvuca nagyon nagy, csinálhatjátok két körben vagy kiscsoportokban is.
+   > Csak pozitívat mondunk most. Ha most nem szeretnél megszólalni, mondhatod azt is, hogy *passz* – a párod akkor is megkapja a magáét.”
+2. **Párcsere – oda-vissza elismerés (5–7 perc)**
+   * A párok / hármasok **körben** mondják el egymásnak a mondatukat: **A → B**, majd **B → A** (hármasban A → B → C → A). Így **mindenki ad és kap** is.
+   * Kérd meg őket, hogy a másikat **közbevágás nélkül** hallgassák végig, és aki kapta, **csak annyit mondjon vissza: „köszönöm”** – ne magyarázza el, ne hárítsa el (ez a forma intimitását védi).
+   * Képző körbejár, figyel az időre (kb. 1–1 perc / irány), és diszkréten segít, ha egy pár elakad: „Gondolj egy konkrét pillanatra a félévből, amikor a párod jól csinált valamit.”
+   > **Ha valaki egyedül maradt párként** (a 2. blokkban a képző csatlakozott hozzá): a képző adja és fogadja a párcsere-elismerést, vagy a legközelebbi hármashoz csatlakozik – senki ne maradjon ki.
+3. **Névhúzásos rákötés – a kör kinyitása (kb. 6 perc, *60’-es verzióban; 45’-ben kihagyható*)**
+   Ha van rá idő, a páron túl is csorogjon át az elismerés a kvucába:
+   * Mindenki nevét írjátok fel külön kis cetlire, tegyétek egy tálba / kalapba; mindenki húz egy nevet (ha valaki saját magát húzza, húzhat újra).
+   * Menjetek körbe nagykörben: mindenki mond **1 rövid elismerő mondatot** (ugyanazzal az SBI-mintával) annak, **akit kihúzott** – így a párján kívül még valakitől kap mindenki egy mondatot.
+   * Ha a kvuca nagyon nagy, ezt a kört csinálhatjátok két körben vagy kiscsoportokban is – vagy ha csúszol, **hagyd ki**, a párcsere (2. lépés) önmagában is teljes elismerés-élmény.
 4. **Képző / ken-vezetői záró-szavak (3–5 perc)**
    * A képző(k) mondanak 1–2 mondatot arról, mit láttak a csoportban a félév során:
      > „Amit én látok ebben a kvucában, az az, hogy …”
@@ -278,8 +286,8 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Fel vagy készülve rá, hogy a félév lezárása **erősebb érzéseket is hozhat** (pl. búcsú, fáradtság, megkönnyebbülés)?
 5. **Időkeret & prioritás**
    * Tudod, mit rövidítesz, ha csúsztok?
-     – először a poszter-bemutatót és a nagykörös megosztásokat érdemes rövidíteni,
-     – az **elismerés-kört és a záró szót** viszont próbáld meg megtartani.
+     – először a poszter-bemutatót, a nagykörös megosztásokat és az elismerés-kör **névhúzásos rákötését** (4.4.1 / 3. lépés) érdemes rövidíteni / kihagyni,
+     – az elismerés-kör **párcsere-magját** (4.4.1 / 2. lépés – az Időkapszula-párok oda-vissza SBI-elismerése) **és a záró szót** viszont próbáld meg megtartani.
 6. **Híd az online Z.4-hez / terepre**
    * Tudod, mit fogsz mondani a peula végén arról, hogy:
      – **hol folytatódik** ez a folyamat online (Z.4 Assignment + feedback),
