@@ -75,7 +75,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – Hihető, mert a bizalomjáték „összehozó”, DE 6–10-nél a kontakt-/bizalomjáték **kockázatos** (testkép, bizalom még alakul); a leckében inkább **13+** ajánlott.
+- B – Hihető, mert a bizalomjáték „összehozó”, DE 6–10-nél a kontakt-/bizalomjáték **kockázatos** (testkép, bizalom még alakul); a lecke szerint inkább a **nagyobbaknak (14–16, 16+)** való, fiatalabbaknál csak nagyon egyszerű, rövid, jól szabályozott verzióban.
 - C – A mély élményjáték friss, fiatal kvucánál **túl sok**; érettebb (14–16, 16+), kis kvucára való.
 - D – Túl elvont, túl intim egy frissen ismerkedő fiatal kvucának; nem a cél (ismerkedés) szolgálja.
 
@@ -157,16 +157,16 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > **Melyik biztonsági elem hiányzik leginkább** ahhoz, hogy ez biztonságosan vezethető legyen?
 
 **Opciók:**
-- A) Közös **„stop” jelszó** + akadálymentes tér + a vezető hangos jelzése + lassú tempó. ✅
-- B) A pontos perc-beosztás óránként.
-- C) Hogy a párok azonos magasak legyenek.
-- D) Hogy zene szóljon közben a hangulatért.
+- A) Akadálymentes tér, közös **„stop” jelszó** és lassú, sétáló tempó. ✅
+- B) Pontos perc-beosztás, hogy mindkét pár-tag ugyanannyi időt töltsön a vezetett szerepben.
+- C) Hasonló testmagasságú párok, hogy a vezetés kényelmesebb és összehangoltabb legyen.
+- D) Halk háttérzene, hogy oldottabb és bizalmasabb legyen a páros séta hangulata.
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – Adminisztratív, de **nem biztonsági** elem; nem véd a balesettől.
-- C – Irreleváns a biztonság szempontjából.
-- D – A zene inkább **eltereli** a figyelmet és elnyomja a vezető jelzéseit – rontja a biztonságot.
+- B – A „mindenki ugyanannyit” méltányos szándék, DE **szervezési** elem, nem véd a balesettől – a fizikai biztonságot nem ez adja.
+- C – Kényelmi szempont lehet, de a biztonságot nem a magasság, hanem a tér, a „stop” és a tempó adja; irreleváns a kockázatra.
+- D – Hihető, hogy a zene oldottabbá tesz, DE **eltereli** a figyelmet és elnyomja a vezető hangos jelzéseit – épp **rontja** a biztonságot.
 
 **Feedback:**
 > ✅ Bizalom-/kontaktjátéknál a fizikai biztonsági minimum: akadálymentes tér, közös „stop” jelszó, a vezető folyamatos hangos jelzése, lassú (séta) tempó. (M6.1 fizikai biztonsági minimum)
@@ -201,16 +201,16 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > A „Szél fújja azt, aki…” játékban a középen álló mond egy állítást, és akire igaz, helyet cserél. **Melyik szabály teszi ezt biztonságossá** a kvuca érzelmi szempontjából?
 
 **Opciók:**
-- A) Csak olyan állítás hangozhat el, ami **nem identitásra, testre, családi helyzetre, pénzre** vonatkozik; felállni **nem kötelező**. ✅
-- B) Mindig a legszemélyesebb állításokat válasszuk, mert azok a leghatásosabbak.
-- C) Aki nem áll fel időben, az kiesik a játékból.
-- D) A madrich találja ki előre az összes állítást, a kvuca ne szólhasson bele.
+- A) Közös **tiltott zóna** az érzékeny témákra, és hogy felállni **nem kötelező** – aki ülve marad, az is rendben van. ✅
+- B) A legszemélyesebb, identitást súroló állításokat válasszuk, mert azok a leghatásosabbak és gyorsan összehoznak.
+- C) Aki nem áll fel időben, kiesik a játékból, hogy legyen tétje és pörögjön a tempó.
+- D) A madrich előre kitalálja az összes állítást, a kvuca ne szólhasson bele, hogy biztosan ártalmatlan maradjon.
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – Hihető („hatásos”), DE a személyes/identitás-állítások **megszégyenítők** lehetnek – pont a tiltott zóna.
-- C – A „kiesés” kirekesztő élményt gyárt, ráadásul kényszerít a felállásra (consent ellen).
-- D – A részvétel elvételével nem lesz biztonságosabb; a tiltott zóna közös kimondása a kulcs.
+- B – Hihető („hatásos, összehoz”), DE a személyes/identitás-állítások **megszégyenítők** lehetnek – pont ez a tiltott zóna.
+- C – A „kiesés” kirekesztő élményt gyárt, ráadásul a felállásra **kényszerít** (consent ellen) – nem ettől lesz biztonságos.
+- D – Jó szándékú kontroll, DE a részvétel elvétele nem véd: a tiltott zóna **közös kimondása** és az önkéntesség a kulcs, nem a madrich egyszemélyi szűrője.
 
 **Feedback:**
 > ✅ A biztonságos keret: tiltott zóna (identitás, test, család, pénz, szexualitás) közös kimondása, és hogy a felállás/megszólalás nem kötelező – aki ülve marad, az is rendben van. (M6.A 4.3)
@@ -223,16 +223,16 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > „Személyes szimbólum-karkötő” kézművest tervezel: mindenki gyöngyökből fűz karkötőt, ahol a színek jelentenek valamit. A kvucában van valaki, akinek **nehéz az apró gyöngyök fűzése (finommotorika)**. **Melyik variáció teszi a leginkluzívabbá** a helyzetet?
 
 **Opciók:**
-- A) Legyen **vastagabb zsinór / nagyobb gyöngy**, és aki nem akar/tud fűzni, készíthessen **rajzos „szimbólum-kártyát”** ugyanarról. ✅
-- B) Aki nem tudja megfűzni, az nézze meg, hogyan csinálják a többiek.
-- C) Mindenkitől kérjünk drágább, egyedi gyöngyöket otthonról, hogy szebb legyen.
-- D) A madrich fűzze meg helyette a karkötőt, hogy „neki is legyen”.
+- A) **Nagyobb gyöngy / vastagabb zsinór**, és aki így sem tud/akar fűzni, ugyanarról csinálhat **rajzos szimbólum-kártyát**. ✅
+- B) Aki nem tudja megfűzni, üljön a többiek mellé és nézze meg, hogyan csinálják, hogy legközelebb menjen neki.
+- C) Kérjünk mindenkitől szebb, drágább, egyedi gyöngyöket otthonról, hogy igényesebb és személyesebb legyen a karkötő.
+- D) A madrich fűzze meg helyette a karkötőt a kész minta szerint, hogy „neki is legyen kész darabja” a kör végére.
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – A „nézze meg” valójában **kizárás** dísz-szerepbe; nem belépési pont.
-- C – A drága alapanyag **státusz-versenyt** és anyagi kirekesztést gyárt – ellentétes az inkluzivitással.
-- D – Jó szándékú, de elveszi tőle az **önkifejezést**; nem ad valódi alternatívát ugyanahhoz a célhoz.
+- B – Hihető („majd tanul belőle”), DE a puszta „nézd meg” valójában **dísz-szerepbe** zárja ki – nem belépési pont ugyanahhoz a célhoz.
+- C – A drága alapanyag **státusz-versenyt** és anyagi kirekesztést gyárt – épp ellentétes az inkluzivitással.
+- D – Jó szándékú segítség, DE elveszi tőle az **önkifejezést**; nem ad valódi alternatívát, csak kész terméket.
 
 **Feedback:**
 > ✅ Inkluzív megoldás = másik belépési pont ugyanahhoz a témához (nagyobb gyöngy/vastagabb zsinór + szimbólum-kártya rajzolva), nem a feladat alóli felmentés vagy a dísz-szerep. (M6.3 PÉLDA 2)
@@ -245,16 +245,16 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > „Közös kvuca-plakát” kézművest tartasz, ahol mindenki rajzol valamit, ami a kvucát jelképezi. **Mi teszi ezt kirekesztővé, ha nem figyelsz** – és hogyan kerülöd el?
 
 **Opciók:**
-- A) Ha **„ki rajzol szebben” verseny** lesz belőle; ezt úgy kerülöd el, hogy matricát/kivágott formát/szót is fel lehet tenni, és kimondod, hogy nem a szépség a cél. ✅
-- B) **Ha elég kimondani, hogy „mindenki rajzoljon valamit” – aztán magukra hagyod őket a papírral.**
-- C) **Ha a leggyorsabb, legügyesebb rajzolók töltik ki a papír nagy részét, mire a bizonytalanabbak sorra kerülnének.**
-- D) **Ha csak rajzolni lehet, és nincs alternatív eszköz annak, aki nem szívesen vagy nehezen rajzol.**
+- A) „Ki rajzol szebben” verseny lesz belőle → úgy kerülöd el, hogy matrica/forma/szó is feltehető. ✅
+- B) A bizonytalanabbak kimaradnak → úgy kerülöd el, hogy kimondod „mindenki rajzoljon valamit”, aztán rájuk bízod a papírt.
+- C) A gyorsak elfoglalják a papírt → úgy kerülöd el, hogy sorrendet és időkorlátot szabsz, pontosan ki mennyit rajzolhat.
+- D) Csak rajzolni lehet → úgy kerülöd el, hogy mindenkit biztatsz, hogy próbáljon rajzolni, akkor is, ha nehezen megy.
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – **Hihető („mindenki vegyen részt”), DE a puszta felszólítás nem old fel semmit: a teljesítménykényszer ettől még ott van, és a bizonytalanabbak így is kimaradnak.**
-- C – **Valós kockázat, DE nem ez a fő kirekesztő tényező, és nem is így kezeled: nem a tempót szabályozod, hanem a versenyhelyzetet veszed ki (matrica/forma/szó), hogy ne a szépség és a gyorsaság számítson.**
-- D – **Valós inkluzivitási hiányosság, DE önmagában az alternatív eszköz hiánya kevés: a kulcs, hogy közben kimondod, nem művészi verseny – különben az ügyesebbek akkor is „nyernek”.**
+- B – Hihető („mindenki vegyen részt”), DE a puszta felszólítás nem old fel semmit: a teljesítménykényszer ettől még ott van, és a bizonytalanabbak így is kimaradnak.
+- C – Valós kockázat, DE nem a tempót kell szabályozni: a versenyhelyzetet kell kivenni (matrica/forma/szó), különben a szépség és a gyorsaság marad a tét.
+- D – Valós inkluzivitási hiányosság, DE a „próbáljon mindenki rajzolni” biztatás nem nyit alternatív belépést – a kulcs, hogy kimondod, nem művészi verseny, és más eszközt is adsz.
 
 **Feedback:**
 > ✅ A közös plakát akkor inkluzív, ha nem művészeti verseny: legyen alternatív eszköz (matrica, szó, forma), és az üzenet az legyen, hogy „mindenki hozzátesz valamit”. (M6.3 PÉLDA 1)
@@ -267,16 +267,16 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > Napzáráskor 13 éveseknél energizert választasz. Néhányan **már nagyon fáradtak**, fizikailag is. **Melyik megoldás a leginkluzívabb**, hogy ők se essenek ki?
 
 **Opciók:**
-- A) **Low-impact** játékot választasz, jelzed, hogy lehet **„low energy módban”** (ülve, kevesebb mozdulattal) is részt venni, és utána egy mini-kör mindenkinek. ✅
-- B) Megmondod, hogy mindenki vegyen részt teljes erőből, mert „attól lesz csapat”.
-- C) A fáradtakat kiállítod a játékból, hogy ne lassítsák a többieket.
-- D) Pörgetsz egy nagyon fizikai játékot, mert „az majd felébreszti őket”.
+- A) **Low-impact** játékot választasz, és jelzed, hogy **„low energy módban”** (ülve, kevesebb mozdulattal) is részt lehet venni. ✅
+- B) Megmondod, hogy mindenki vegyen részt teljes erőből, mert a közös erőfeszítéstől lesz igazán összekovácsolt csapat.
+- C) A fáradtakat kiállítod a játékból, hogy ők is pihenjenek, és ne lassítsák le a többieket a játék közben.
+- D) Pörgetsz egy nagyon fizikai, intenzív játékot, mert a mozgás majd felébreszti és energizálja a fáradt résztvevőket.
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – A kötelező teljes részvétel **figyelmen kívül hagyja** a tényleges állapotukat (consent/inkluzivitás ellen).
-- C – A kiállítás **nyílt kirekesztés**.
-- D – A „majd felébreszti” a fáradt résztvevőket **tovább lök kívülre**, nem von be.
+- B – Hihető („a közös erőfeszítés összehoz”), DE a kötelező teljes részvétel **figyelmen kívül hagyja** a tényleges állapotukat (consent/inkluzivitás ellen).
+- C – A „hadd pihenjenek” gondoskodásnak tűnik, DE a játékból való kiállítás valójában **nyílt kirekesztés**.
+- D – A „majd felébreszti” jó szándékú, DE a fáradtakat **tovább löki kívülre**, nem von be – épp a kapcsolódást veszti el.
 
 **Feedback:**
 > ✅ Inkluzív energizer = low-impact forma + felkínált low-energy mód + utólagos mini-kör, hogy a fáradtak is benne legyenek a lezárásban. (M6.4 5C-J)

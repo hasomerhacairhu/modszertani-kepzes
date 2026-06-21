@@ -87,10 +87,10 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 ### ITEM 2 — Mit ígérhetsz a titoktartásról *(KRITIKUS)*
 **Szituáció:** Egy chanich peula után odajön: „Mondok valamit, de **esküdj meg, hogy soha senkinek nem mondod el**, jó?” Mit válaszolsz felelős madrichként?
 
-- A) „Megígérem, esküszöm, ez köztünk marad, bármi is az.”
-- B) „Fontos, amit mondasz. **Nem ígérhetem meg, hogy titokban marad**, mert lehet, hogy segítséget kell kérnünk – de elmondom, kinek és miért szólok, és nem hagylak egyedül.” ✅
-- C) „Inkább ne mondd el, mert akkor nem tudok mit kezdeni vele.”
-- D) „Oké, de csak ha nem valami nagy dolog – ha komoly, akkor nem ígérhetem.”
+- A) „Megígérem, esküszöm, ez köztünk marad, bármi is az – tudod, hogy bízhatsz bennem, nem mondom el senkinek.”
+- B) „Fontos, amit mondasz, de **teljes titoktartást nem ígérhetek** – elmondom, kinek és miért szólok, és nem hagylak egyedül.” ✅
+- C) „Inkább most ne mondd el, mert ha komoly, úgyis tovább kell adnom, és nem akarlak ezzel kínos helyzetbe hozni.”
+- D) „Oké, megígérem a titoktartást, de csak ha nem valami nagy dolog – és ha kiderül, hogy mégis komoly, akkor majd utólag elmondom neki, hogy visszavonom.”
 
 **Miért ez a jó / miért rossz a többi:**
 - ✅ **B** — Ez a tananyag (és a nemzetközi safeguarding) magja: **nem ígérsz teljes titoktartást**, de átláthatóan elmondod, kinek és miért szólsz, és hogy nem hagyod egyedül.
@@ -124,15 +124,15 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 **Szituáció:** Este 23:15. Egy chanich privát üzenetben azt írja, hogy **most, ma este úgy érzi, kárt tenne magában**, és egyedül van otthon. Mi a felelős reakció?
 
 - A) Megírom, hogy beszéljük meg holnap a peulán, addig próbáljon aludni, és felírom magamnak, hogy reggel rákérdezek, hogy van.
-- B) **Nem hagyom egyedül**, **azonnal** felnőttet jelzek, és **közvetlen életveszélynél a 112-t** hívom (lelki krízisben **116-111** Kék Vonal vagy **116-123** Lelki Elsősegély). ✅
-- C) Megnyugtatom, hogy biztosan elmúlik, átbeszéljük chaten a problémáit, és megígérem, hogy ez kettőnk titka marad.
-- D) Kiírom a kvuca csoportchatbe, hogy figyeljen rá most mindenki, és megkérem a hozzá legközelebb lakó chanichot, hogy nézzen rá.
+- B) **Nem hagyom egyedül**, **azonnal** felnőttet jelzek, és súlyos esetben a **112-t**, lelki krízisben a **116-111**/**116-123**-at hívom. ✅
+- C) Megnyugtatom, hogy ez biztosan csak egy nehéz este, átbeszéljük chaten a problémáit, és megígérem neki, hogy ez kettőnk titka marad.
+- D) Megkérem a hozzá legközelebb lakó, vele jóban lévő chanichot, hogy menjen át és maradjon vele éjszakára, és reggel jelzek egy felnőttnek.
 
 **Miért ez a jó / miért rossz a többi:**
 - ✅ **B** — Az **akut, aznapi** önveszély **sürgős** – nem ugyanaz, mint egy „lassú” red flag. Itt a gyorsaság életet menthet: ne maradjon egyedül, azonnali felnőtt-jelzés, súlyos esetben 112, lelki krízisben 116-111 Kék Vonal (gyermek/ifjúsági) vagy 116-123 Lelki Elsősegély (mindkettő ingyenes, 0–24).
 - A — A halasztás („majd holnap”) közvetlen veszélynél elfogadhatatlan.
 - C — A „biztosan elmúlik” bagatellizál, a titoktartás-ígéret pedig itt különösen veszélyes.
-- D — A csoportchat nem segítség, hanem megaláztatás és további veszély forrása.
+- D — Jó szándékú, de veszélyes: egy akut önveszélyes helyzet felelőssége **nem hárítható egy másik gyerekre**, és a felnőtt-jelzés **nem várhat reggelig**. A kortárs nem tud (és nem is szabad neki) egy krízist kezelni; ettől a chanich is és a „kirendelt" társa is magára marad.
 
 **Tanulói feedback:** „Akut önveszélynél a kulcs: **ne maradjon egyedül + azonnali felnőtt + súlyos esetben 112**, lelki krízisben **116-111** Kék Vonal (gyermek/ifjúsági) vagy **116-123** Lelki Elsősegély. Ez nem várhat másnapig.”
 
@@ -177,10 +177,10 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 ### ITEM 7 — Felnőtt-gyanú: ne tippeld le *(KRITIKUS)*
 **Szituáció:** Észreveszed, hogy **egy másik madrich** feltűnően sokat van négyszemközt egy chanichhal, sok az ölelés, és „ezt ne mondjuk el senkinek” mondatok mennek. Mit teszel **először**?
 
-- A) Odamegyek a másik madrichhoz, és szemtől szembe megkérdezem, mi folyik itt.
-- B) **Közvetlenül a gyerekvédelmi felelősnek / vezetőnek jelzek**, és **nem** figyelmeztetem, nem konfrontálom a gyanúsított madrichot. ✅
-- C) Megkérdezem a chanichot részletesen, hogy pontosan mi történt köztük.
-- D) Várok, hátha félreértem, és csak akkor szólok, ha biztosat tudok.
+- A) Odamegyek a másik madrichhoz, négyszemközt szóvá teszem, amit látok, és megkérem, hogy hagyja abba.
+- B) **Közvetlenül a gyerekvédelmi felelősnek / vezetőnek jelzek**, a gyanúsított madrichot pedig nem figyelmeztetem. ✅
+- C) Diszkréten kikérdezem a chanichot a részletekről, hogy legyen elég konkrétumom, mielőtt bárkit bevádolok.
+- D) Várok és diszkréten tovább figyelem őket néhány napig, hátha csak félreértem a helyzetet, és csak akkor szólok, ha egészen biztosat tudok.
 
 **Miért ez a jó / miért rossz a többi:**
 - ✅ **B** — Felnőtt/kolléga elleni gyanúnál **külön eljárás** van: **ne konfrontáld** a gyanúsítottat (akaratlanul figyelmeztetnéd, veszélyeztetnéd a chanichot és a későbbi kivizsgálást), hanem **közvetlenül a felelősnek/vezetőnek** jelezz.
@@ -213,10 +213,10 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 ### ITEM 9 — Meghallgatás ≠ nyomozás *(KRITIKUS)*
 **Szituáció:** Egy chanich **magától** kezd mesélni arról, hogy otthon bántják. Hogyan hallgatod meg helyesen?
 
-- A) Részletesen kikérdezem: pontosan ki, mikor, hányszor, mivel – hogy minél több infóm legyen a jelzéshez.
-- B) **Nyugodtan, ítélkezés nélkül** meghallgatom, hagyom a **saját szavaival** és tempójában mesélni, csak nyílt, nem terelő kérdést teszek fel, **nem nyomozok**, és **a saját szavait** jegyzem fel a felelősnek. ✅
-- C) Megkérdőjelezem, amit mond, hogy lássam, biztosan igaz-e, mielőtt bárkit „alaptalanul” bemártanék.
-- D) Gyorsan megnyugtatom, hogy „biztos nem olyan vészes”, és témát váltok, hogy ne legyen kínos.
+- A) Részletesen kikérdezem: pontosan ki, mikor, hányszor, mivel – hogy minél több konkrét infóm legyen a jelzéshez és a felelős könnyebb dolga legyen.
+- B) **Nyugodtan, ítélkezés nélkül meghallgatom**, hagyom a **saját szavaival** mesélni, és csak nyílt kérdést teszek fel – **nem nyomozok**. ✅
+- C) Óvatosan megkérdőjelezem, amit mond, hogy lássam, biztosan igaz-e, és nehogy valakit utóbb alaptalanul mártsak be egy komoly üggyel.
+- D) Gyorsan megnyugtatom, hogy „biztos nem olyan vészes”, és témát váltok, hogy ne legyen kínos egyikünknek se a beszélgetés.
 
 **Miért ez a jó / miért rossz a többi:**
 - ✅ **B** — A safeguarding alapelv: **meghallgatni szabad, kihallgatni / nyomozni nem.** Nyugodt, ítélkezésmentes, a gyermek saját szavaival – a részletek kiderítése a felelős és a hatóság dolga.
@@ -250,14 +250,14 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 **Szituáció:** A kvuca csoportchatjében valaki egy **megalázó mémet** küld egy másik chanichról; többen nevetnek, az érintett nem ír semmit. Mit lépsz madrichként?
 
 - A) Semmit, mert nem akarok belekeveredni egy poénba.
-- B) Tovább küldöm a mémet egy másik csoportba, hogy lássák, milyenek.
+- B) Privátban ráírok a küldőre, hogy törölje a mémet, és ennyivel le is zárom – nem viszem tovább, hogy ne legyen még nagyobb ügy belőle.
 - C) **Jelzem a chatben, hogy ez bántó és nálunk ilyet nem küldünk**, majd **külön jelzem a mentoromnak / felelősnek**, mi történt. ✅
 - D) Privátban megírom az érintettnek, hogy ne foglalkozzon vele, biztos csak vicc.
 
 **Miért ez a jó / miért rossz a többi:**
 - ✅ **C** — Ez online zaklatás-gyanú: a madrich a helyszínen kiáll a keretért **és** jelez a felelősnek. Két lépés együtt.
 - A — A „csak poén” elbagatellizálás; a hallgatás a bántalmazónak ad teret.
-- B — A mém továbbküldése maga is bántás és adatvédelmi sértés.
+- B — Csábító „elintéztem"-érzés, de fél megoldás: a privát törlés-kérés **nem áll ki nyilvánosan a keretért** (a kvuca azt látja, hogy ez következmény nélkül maradt), és **kihagyja a jelzést** a felelősnek. Az érintett chanich így továbbra is támogatás nélkül marad – a „ne legyen nagy ügy" pont a hallgatás csapdája.
 - D — Az érintett egyedüli „ne foglalkozz vele” lerázása nem védi meg, és nem szünteti meg a zaklatást.
 
 **Tanulói feedback:** „Online zaklatásnál **a helyszínen is kiállsz** (ezt nálunk nem küldünk) **és jelzel** a felelősnek. A ‘csak poén’ és a továbbküldés nem opció.”
@@ -330,14 +330,17 @@ A mentor a learning analytics alapján nézze át, **mely red flag típust** nem
 - CSA Centre – *Key messages: identifying and responding to disclosures of child sexual abuse* (PDF) — https://www.csacentre.org.uk/app/uploads/2019/09/Key-messages-CSA-disclosures.pdf
 - NCVO – *Recognise, respond and report* / *Managing concerns* (ne konfrontáld a gyanúsított felnőttet) — https://www.ncvo.org.uk/help-and-guidance/safeguarding/steps-safer-organisation/recognise-respond-and-report/
 
-**Magyar jelzési kötelezettség** (gyermekvédelmi jelzőrendszer, együttműködési és jelzési kötelezettség):
+**Magyar jelzési kötelezettség** (gyermekvédelmi jelzőrendszer, együttműködési és jelzési kötelezettség): a veszélyeztetettség jelzése törvényi kötelezettség, és **2024.09.01 óta** a jelzés / feljelentés elmulasztása **kiemelt veszélyeztető oknál** (haladéktalan, de **legkésőbb 3 munkanapon belüli** jelzéssel) **minden jelzőrendszeri tagra büntetőjogi felelősséget vonhat** (Btk. 209/A. § – vétség, **akár 2 év**). A someres madrich tipikusan **nem maga a jelzőrendszeri tag-intézmény**, de a súly és a határidő ettől még valós – ez is a „mindig jelezz, időben, a felelősnek" üzenetet erősíti.
 - 1997. évi XXXI. törvény a gyermekek védelméről és a gyámügyi igazgatásról (Gyvt.) – Nemzeti Jogszabálytár — https://njt.hu/jogszabaly/1997-31-00-00
 - Gyvt. – Hatályos Jogszabályok Gyűjteménye (net.jogtar.hu) — https://net.jogtar.hu/jogszabaly?docid=99700031.tv
+- 2024.09.01-i módosítás / büntetőjogi felelősség (Btk. 209/A. §) – jelzőrendszeri összefoglaló — https://modszertan.maltai.hu/
 
-**Akut önveszély / krízis – hívószámok** (112 segélyhívó; 116-111 Kék Vonal gyermek- és ifjúsági lelkisegély, ingyenes 0–24; 116-123 ingyenes, 0–24 Lelki Elsősegély):
+**Akut önveszély / krízis – hívószámok** (112 segélyhívó; 116-111 Kék Vonal gyermek- és ifjúsági lelkisegély, ingyenes 0–24; 116-123 ingyenes, 0–24 Lelki Elsősegély; **116-000 Kék Vonal – a gyerek miatt aggódó felnőtteknek / szakembereknek**, ingyenes):
+> **A három szám szétválasztása (stáb/mentor):** a **gyerek** krízisére **116-111** (Kék Vonal), **felnőtt** lelki krízisre **116-123** (Lelki Elsősegély), és amikor a **madrich / mentor maga aggódik egy chanichért** (nem saját krízis, hanem egy gyerek miatti bizonytalanság: kihez forduljon, mi a következő lépés), a **116-000** Kék Vonal-segélyvonal a felnőtteknek/szakembereknek szóló út. Közvetlen életveszélynél mindig **112**.
 - A Rendőrség hivatalos honlapja – *Tájékoztató a Lelki Elsősegély Telefonszolgálatokról* — https://www.police.hu/hu/hirek-es-informaciok/bunmegelozes/aktualis/tajekoztato-a-lelki-elsosegely-telefonszolgalatokrol
 - Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége (LESZ) – 116-123 (ingyenes, 0–24, mindenkinek) — https://sos116-123.hu/
 - Kék Vonal Gyermekkrízis Alapítvány – 116-111 (gyermek- és ifjúsági lelkisegély, ingyenes, 0–24, 24 év alatt) — https://kek-vonal.hu/
+- Kék Vonal Gyermekkrízis Alapítvány – 116-000 (a gyerek miatt aggódó felnőtteknek / szakembereknek, ingyenes) — https://kek-vonal.hu/tudastar/116-000-segelyvonal-a-bantalmazott-es-eltunt-gyerekekert-szakembereknek-is
 - Egészségvonal (NNGYK) – *Lelkisegély-szolgálatok és kríziskezelés* (112 közvetlen veszélynél) — https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelkisegely-szolgalatok.html
 
 > A hívószámok és a helyi gyerekvédelmi protokoll pontosítása a **gyerekvédelmi felelős** feladata a véglegesítés előtt.

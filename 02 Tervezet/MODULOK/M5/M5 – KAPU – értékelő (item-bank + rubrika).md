@@ -48,17 +48,17 @@
 
 **Melyik állítás írja le legpontosabban a *nonformális* tanulást (pl. a someres peulát)?**
 
-- A) Iskolai tantervhez kötött, kötelező jelenlét, a végén jegyet kapsz rá.
-- B) ✅ Szervezett és célzott, de önkéntes; van nevelési cél, csak nem jegyben, hanem játékban, élményben, beszélgetésben jelenik meg.
-- C) Spontán, hétköznapi helyzet, amihez nincs előre tervezett nevelési cél, mégis ragad meg belőle valami.
-- D) Olyan tanulás, ami mindig egyedül, otthon történik, mások nélkül.
+- A) Iskolai tantervhez kötött, kötelező jelenlét, és a végén jegyet vagy osztályzatot kapsz a teljesítményedre.
+- B) ✅ Szervezett és célzott, de önkéntes; van mögötte nevelési cél, ami nem jegyben, hanem közös élményben jelenik meg.
+- C) Spontán, hétköznapi helyzet, amihez nincs előre tervezett nevelési cél, mégis ragad meg belőle valami a magadé.
+- D) Olyan tanulás, ami mindig egyedül, otthon, mások bevonása nélkül, magadtól, a saját tempódban történik.
 
 **Distraktor-indokok:**
 - A) = a *formális* tanulás leírása (tanterv + jegy + kötelező). Aki ezt választja, a „szervezett” jegyet összemossa a „formálissal”.
 - C) = az *informális* tanulás leírása. Ez a leggyakoribb tévesztés (nonformális ↔ informális): a „nem suli” érzés alapján informálisnak címkézi a célzott programot.
 - D) = a „magányos” félreértés: az informálist az otthoni/egyedüli helyzetre szűkíti.
 
-**Feedback:** A nonformális kulcsa, hogy **van mögötte nevelési cél, de önkéntes és élmény-alapú** – ezért nem suli (A) és nem is céltalan random (C). Ha bizonytalan vagy: **M5.1, SLIDE 3.**
+**Feedback:** A nonformális kulcsa, hogy **van mögötte nevelési cél, de önkéntes és élmény-alapú** – a cél nem jegyben, hanem **játékban, élményben, kvuca-beszélgetésben** jelenik meg. Ezért nem suli (A) és nem is céltalan random (C). Ha bizonytalan vagy: **M5.1, SLIDE 3.**
 
 ---
 
@@ -66,14 +66,14 @@
 
 **Tábori tábortűznél a madrich elmesél egy someres történetet, majd megkérdezi, ki hogyan kapcsolódik hozzá, és páran megosztják az élményüket. Ez melyik tanulásforma?**
 
-- A) Formális – mert a madrich vezeti, tehát olyan, mint egy tanár.
-- B) ✅ Nonformális – szervezett, someres céllal, madrich vezetésével, de önkéntes és élmény-alapú.
-- C) Informális – mert tábortűznél lazább a hangulat, tehát nincs benne tanulás.
-- D) Egyik sem, mert este van és nem „tanóra” keretben zajlik.
+- A) Formális – a madrich úgy vezeti és kérdez, mintha tanóra lenne, csak épp a táborban.
+- B) ✅ Nonformális – szervezett, someres céllal és madrich vezetésével, de önkéntes és élmény-alapú.
+- C) Informális – tábortűznél kötetlen a hangulat, így ez inkább spontán, tervezett cél nélküli helyzet.
+- D) Egyik sem – este, „tanóra-kereten” kívül zajlik, ezért nem sorolható egyik kategóriába sem.
 
 **Distraktor-indokok:**
-- A) „madrich = tanár” túláltalánosítás: a vezetett helyzetet automatikusan formálisnak veszi.
-- C) a hangulatból következtet a kategóriára („laza = informális”) – pont az a tévesztés, amit az M5.1 SLIDE 4 feedbackje cáfol.
+- A) „madrich = tanár” túláltalánosítás: a vezetett, kérdező helyzetet automatikusan formálisnak veszi.
+- C) a hangulatból következtet a kategóriára („kötetlen = informális, spontán”) – pont az a tévesztés, amit az M5.1 SLIDE 4 feedbackje cáfol: a tábortűz-reflexiónak van tervezett someres célja.
 - D) a „tanóra-keret hiánya = nincs kategória” tévhit.
 
 **Feedback:** A **hangulat (laza/komoly) nem dönti el** a kategóriát – a **nevelési cél + szervezettség + önkéntesség** dönti el. A tábortűz-reflexió tipikus nonformális helyzet. (**M5.1, SLIDE 4.**)
@@ -86,10 +86,10 @@
 > **I.** Otthon görgeted a TikTok-feedet; néha tanulsz egy infót, néha csak szórakozol, aztán elfelejted.
 > **II.** Pénteken a kenben a madrichok kitalálnak egy új játékot; eljátsszátok, majd körben megbeszélitek, hogyan kapcsolódik a szolidaritáshoz.
 
-- A) Mindkettő nonformális, mert mindkettőben tanulsz valamit.
-- B) ✅ A **II.** nonformális (tervezett nevelési cél + kvuca + reflexió); az **I.** informális (spontán, nincs előre tervezett cél).
-- C) Az **I.** nonformális, mert app-ot is használsz, az **II.** csak játék.
-- D) Mindkettő informális, mert egyik sem suli.
+- A) Mindkettő nonformális, mert mindkét helyzetben tanulsz valami újat, ami valahogy megragad benned.
+- B) ✅ A **II.** nonformális (tervezett cél + kvuca + reflexió); az **I.** informális (spontán, nincs cél).
+- C) Az **I.** nonformális, mert app-pal, tudatos eszközzel tanulsz; a **II.** viszont csak egy játék, semmi több.
+- D) Mindkettő informális, mert egyik sem suli, és sem tanterv, sem jegy nincs mögöttük.
 
 **Distraktor-indokok:**
 - A) a „tanulsz valamit” alapján mindkettőt nonformálisnak veszi – nem a **tervezett cél** mentén különböztet.
@@ -104,10 +104,10 @@
 
 **Mi az a *legbiztosabb* jegy, ami megkülönbözteti a nonformális someres peulát az informális „random élettől”?**
 
-- A) Hogy fiatalok vannak jelen és jó a hangulat.
-- B) Hogy van benne játék.
+- A) Hogy fiatalok vannak jelen, jó a hangulat, és mindenki jól érzi magát együtt.
+- B) Hogy van benne játék, mozgás és közös szórakozás, nem csak ülünk és beszélgetünk.
 - C) ✅ Hogy van mögötte **előre megfogalmazott nevelési cél**, amiért a kvucával dolgozol.
-- D) Hogy a madrich végig beszél és magyaráz.
+- D) Hogy a madrich végig beszél, magyaráz, és ő irányítja, mi történjen a peulán.
 
 **Distraktor-indokok:**
 - A) a résztvevők/hangulat nem megkülönböztető jegy – random helyzetben is fiatalok és jó hangulat van.
@@ -126,10 +126,10 @@
 
 **Mi a jó sorrend egy someres peula tervezésénél?**
 
-- A) Módszer → feladat → cél → kvuca (a kedvenc játékkal kezdek).
-- B) Feladat → kvuca → módszer → cél (a célt a végén tisztázom).
-- C) ✅ **Feladat → cél → kvuca → módszer.**
-- D) Feladat → módszer → cél → kvuca (módszert választok, aztán igazítom rá a célt).
+- A) Módszer → feladat → cél → kvuca (a kedvenc játékkal kezdek, és csak utólag keresek hozzá valami célt).
+- B) Feladat → kvuca → módszer → cél (előbb a kvucát nézem, módszert választok, a célt a legvégén tisztázom).
+- C) ✅ **Feladat → cél → kvuca → módszer** (a feladatból célt fogalmazok, ahhoz nézem a kvucát, és csak rá módszert).
+- D) Feladat → módszer → cél → kvuca (módszert választok elsőként, aztán igazítom rá a célt és a kvucát).
 
 **Distraktor-indokok:**
 - A) a „van egy jó játékom” csapda: módszerrel indít – pont ez ellen tanít az M5.2.
@@ -142,19 +142,19 @@
 
 ### Q6 – Alkalmazás (hibakeresés a láncban)
 
-**Egy madrich így tervez: „Imádom a bizalom-leeséses játékot, kérem a kvucát, hogy azt játsszuk, aztán majd kitalálom, mi a célja.” Hol csúszik el a négytagú láncban?**
+**Egy madrich így tervez: „Imádom a bizalom-leeséses játékot, ezt fogjuk játszani a kvucával, a többi majd menet közben kialakul.” Mi a fő probléma a tervezésével?**
 
-- A) Semmi gond, a fontos a jó játék – a cél úgyis kijön belőle.
-- B) ✅ A **módszerrel kezd** a feladat és a cél előtt; a helyes irány: feladat → cél → kvuca → **majd** módszer.
-- C) Az a baj, hogy nem nézte meg előbb a módszer biztonsági szabályait.
-- D) Az a baj, hogy nem kérdezte meg a kvucát, melyik játékot szeretné.
+- A) Igazából semmi: ha a játék jó, a kvuca élvezi, a tanulság úgyis kijön belőle magától.
+- B) ✅ Egy konkrét formával indít, mielőtt tisztázná, mit szeretne elérni vele és kinek szól.
+- C) Egy kockázatos formát választ anélkül, hogy átnézte volna a játék biztonsági szabályait.
+- D) A kvuca bevonása nélkül dönt; előbb meg kellett volna szavaztatni, melyik játék legyen.
 
 **Distraktor-indokok:**
 - A) elfogadja a „módszer az első” logikát – a tanított lánc tagadása.
-- C) valós szempont (biztonság), de **nem a sorrendi hiba** – elirányít a kérdés lényegéről.
-- D) a „kérdezzük meg a kvucát, mit akar játszani” összemossa a kvuca-jellemzők figyelembevételét a módszer demokratikus kiválasztásával; a hiba akkor is a sorrend.
+- C) valós, fontos szempont (biztonság) – egy bizalom-leeséses játéknál tényleg kötelező a fizikai biztonság (fogás, távolság, padló) átnézése –, de itt **nem ez a fő hiba**: ettől függetlenül a sorrend csúszik el.
+- D) a „szavaztassuk meg, mit akar játszani a kvuca” összemossa a kvuca-jellemzők figyelembevételét a módszer demokratikus kiválasztásával; ettől még a fő hiba a sorrend.
 
-**Feedback:** A hiba a **sorrend**: módszerrel (kedvenc játék) indít, és a célt utólag húzza rá. A láncban a módszer az **utolsó** lépés. (**M5.2, SLIDE 1 + SLIDE 8.**)
+**Feedback:** A fő hiba a **sorrend**: a madrich a módszerrel (kedvenc játék) indít, és a célt utólag húzza rá. A négytagú láncban (feladat → cél → kvuca → módszer) a módszer az **utolsó** lépés. (**M5.2, SLIDE 1 + SLIDE 8.**)
 
 ---
 
@@ -162,10 +162,10 @@
 
 **Megfogalmaztad a feladatot („tartsak egy peulát a felelősségről”) és a célt („a chanichok a saját példáikat hozzák, ne csak én magyarázzak”). A négytagú lánc szerint mi a **következő** lépésed, *mielőtt* módszert választanál?**
 
-- A) Rögtön kiválasztom a kedvenc kiscsoportos beszélgetős formámat.
-- B) ✅ Megnézem a **kvucát**: hány évesek, mennyire beszédesek, milyen a hangulatuk – mert ettől függ, milyen módszer fog működni.
-- C) Megírom a teljes peula-vázlatot percről percre.
-- D) Eldöntöm, hány percig tartson a peula.
+- A) Rögtön kiválasztom a kedvenc kiscsoportos beszélgetős formámat, ami eddig is jól bevált nálam.
+- B) ✅ Megnézem a **kvucát**: hány évesek, mennyire beszédesek, milyen a hangulatuk – ettől függ a módszer.
+- C) Megírom a teljes peula-vázlatot percről percre, minden átvezetéssel és időponttal együtt.
+- D) Eldöntöm, hány percig tartson a peula, és beírom a naptáramba a pontos időpontot.
 
 **Distraktor-indokok:**
 - A) átugorja a kvuca-lépést, és egyből módszert választ (lánc-rövidítés).
@@ -180,10 +180,10 @@
 
 **A célod: a kvuca *gyakorolja az együttműködést* (nem csak beszéljen róla). 13–14 évesek, hajlamosak versengeni. Melyik módszer illik legjobban a célhoz ÉS a kvucához?**
 
-- A) 20 perces frontális magyarázat arról, mi az együttműködés és miért fontos.
-- B) ✅ Kooperatív építős feladat (közös torony/pálya), ahol mindenkinek külön szerepe van, utána rövid közös reflexió.
-- C) Egyéni rajzfeladat: mindenki külön lerajzolja, neki mit jelent a Somer.
-- D) Csak egy energizer játék, aztán vége a peulának.
+- A) 20 perces frontális magyarázat arról, mi az együttműködés, miért fontos, és hogyan néz ki a gyakorlatban.
+- B) ✅ Kooperatív építős feladat (közös torony/pálya), ahol mindenkinek külön szerepe van, utána rövid reflexió.
+- C) Egyéni rajzfeladat: mindenki külön lerajzolja, neki mit jelent a Somer, majd körben megmutatjátok egymásnak.
+- D) Csak egy energizer játék a feszültség levezetésére, és ezután már be is fejezzük a peulát.
 
 **Miért B a helyes:** készséget **csinálással** tanulnak, és a közös szerep a versengést együttműködéssé fordítja (M5.2 SLIDE 5C/6C).
 
@@ -202,10 +202,10 @@
 
 **Mit jelent a *visszahívás (retrieval)* a tanulásban?**
 
-- A) Amikor újra és újra elolvasod / meghallgatod ugyanazt, amíg meg nem ragad.
-- B) ✅ Amikor **fejből próbálsz felidézni** valamit, anélkül hogy belenéznél a jegyzetbe / képernyőbe.
-- C) Amikor a madrich szó szerint újra elmondja az üzenetet, hogy biztosan rögzüljön.
-- D) Amikor több külön napon, rövid blokkokban gyakorolsz.
+- A) Amikor újra és újra elolvasod vagy meghallgatod ugyanazt, amíg végül meg nem ragad.
+- B) ✅ Amikor **fejből próbálsz felidézni** valamit, anélkül hogy belenéznél a jegyzetbe.
+- C) Amikor a madrich szó szerint újra elmondja az üzenetet, hogy biztosan jól rögzüljön.
+- D) Amikor több külön napon, rövid blokkokban gyakorolsz, nem pedig egyszerre, egyben.
 
 **Distraktor-indokok:**
 - A) az **újraolvasás/újrahallgatás** – ezt sokan visszahívásnak hiszik, pedig passzív (ez a leggyakoribb tévesztés).
@@ -220,10 +220,10 @@
 
 **Egy érték-peulán fontos mondatok hangzottak el. Azt akarod, hogy jövő héten is emlékezzenek rájuk. Melyik lépés segíti *legjobban* a hosszú távú tanulást?**
 
-- A) Jövő héten te mondod el újra, szinte szó szerint, ahogy múltkor.
+- A) Jövő héten te mondod el újra, szinte szó szerint, ahogy múltkor, hogy biztosan hallják.
 - B) ✅ Megkéred őket, hogy **ők idézzék fel**, mire emlékeznek, és te csak kiegészíted, ami kimaradt.
-- C) Kiírod a táblára az üzenetet, és közösen felolvassátok.
-- D) Nem hozod elő többé – ami fontos volt, az úgyis megmarad magától.
+- C) Kiírod a táblára az üzenetet, és közösen, hangosan felolvassátok még egyszer együtt.
+- D) Nem hozod elő többé – ami egyszer fontos volt, az úgyis magától megmarad bennük.
 
 **Distraktor-indokok:**
 - A) te idézed fel helyettük – passzív, nincs valódi visszahívás.
@@ -236,19 +236,19 @@
 
 ### Q11 – Alkalmazás (határeset: spacing vs. „egyben magolás”)
 
-**Egy madrich így indokol: „Spacing? Az az, amikor egy alkalommal, jó alaposan, sokáig átveszem a kvucával a témát – egyben, hogy ne kelljen visszatérni rá.” Mi a baj ezzel?**
+**Egy madrich a tervébe odaírja: „spacing”, és így indokolja: „egy alkalommal, jó alaposan, sokáig átveszem a kvucával a témát.” Mi a baj ezzel?**
 
-- A) Semmi, ez tényleg a spacing: egyszerre, alaposan átvenni a témát.
-- B) ✅ Ez **az ellenkezője** a spacingnek. A spacing = **több külön alkalommal, rövidebben** kerül elő ugyanaz (pl. 4×10 perc több héten át), nem 1× hosszan.
-- C) A baj csak az, hogy nem írta fel táblára a témát, különben jó volna.
-- D) A baj az, hogy nem kérdezte meg a kvucát, akarják-e a témát.
+- A) Semmi, ez tényleg spacing: a lényeg, hogy egyszerre, jó alaposan átvegyük a témát.
+- B) ✅ Amit leír, az **az ellenkezője** a spacingnek: egy hosszú blokk, nem több elosztott alkalom.
+- C) Az indoklása rendben, csak a téma nincs felírva a táblára; ettől eltekintve ez valóban spacing.
+- D) A módszer jó, de előbb meg kellett volna kérdeznie a kvucát, akarják-e ezt a témát.
 
 **Distraktor-indokok:**
 - A) elfogadja a „spacing = egyben magolás” tévedést – pont ez a dokumentumban jelzett #2 leggyakoribb félreértés.
-- C) felszíni operatív megjegyzés, nem a fogalmi hiba.
+- C) felszíni operatív megjegyzés (tábla), ráadásul tévesen helyben hagyja a fogalmi hibát.
 - D) elirányít a fogalom lényegéről (a részvétel kérdése nem a spacing definíciója).
 
-**Feedback:** A spacing épp az **elosztott** gyakorlás: **többször, röviden**, nem egyben sokáig. Az „egyben magolás” a spacing ellentéte. (**M5.3, SLIDE 3 True/False + Question Set Q3; M5.B élő kvíz 1. állítás.**)
+**Feedback:** A spacing épp az **elosztott** gyakorlás: **több külön alkalommal, rövidebben** kerül elő ugyanaz (pl. 4×10 perc több héten át), nem 1× hosszan. Az „egyben magolás” a spacing ellentéte. (**M5.3, SLIDE 3 True/False + Question Set Q3; M5.B élő kvíz 1. állítás.**)
 
 ---
 
@@ -256,10 +256,10 @@
 
 **Új dalt tanítasz a kvucának, és azt szeretnéd, hogy egy hónap múlva is fújják. Melyik terv használja *együtt* helyesen a gyakorlást, visszahívást és spacinget?**
 
-- A) Egy hosszú próbán végigénekeljük 20-szor egymás után, aztán nem vesszük elő többet.
-- B) Egyszer eléneklem nekik tisztán, hogy **hallják**, és bízom benne, hogy megjegyzik.
-- C) ✅ Az első alkalommal **közösen eléneklik** (gyakorlás); a következő pénteken **fejből próbálják felidézni** a szöveget (visszahívás); és a dal **több héten át, röviden visszatér** a peulákban (spacing).
-- D) Kiírom a dalszöveget egy plakátra, és minden héten felolvassuk együtt.
+- A) Egy hosszú próbán végigénekeljük 20-szor egymás után, aztán soha többé nem vesszük elő a dalt, mert kész.
+- B) Egyszer szépen, tisztán eléneklem nekik, hogy jól **hallják**, és bízom benne, hogy maguktól megjegyzik a szöveget.
+- C) ✅ Először **közösen eléneklik**, a következő pénteken **fejből idézik fel**, és a dal **több héten át röviden visszatér**.
+- D) Kiírom a dalszöveget egy nagy plakátra, és minden héten közösen, hangosan, együtt felolvassuk az egészet.
 
 **Distraktor-indokok:**
 - A) csak tömött gyakorlás, **nincs spacing** (egy blokk) és nincs visszahívás → gyorsan elhalványul.

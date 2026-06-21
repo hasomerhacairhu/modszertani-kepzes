@@ -118,23 +118,23 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 **Kérdés:** Melyik mondat a **legjobb S (szituáció)** ehhez?
 
 - A) „Az előző körben, amikor a kérdést jártuk körbe…” ✅
-- B) „Háromszor hangosan felnevettél, amikor más beszélt.” *(ez B – viselkedés)*
-- C) „A többiek elbátortalanodtak tőle.” *(ez I – hatás)*
-- D) „Elég bántó tudsz lenni.” *(ez címke)*
+- B) „Ma a kör elején háromszor hangosan felnevettél, amikor más beszélt.” *(ez B – viselkedés, hiába van benne időjelölés)*
+- C) „A mai peula után a többiek elbátortalanodtak tőle.” *(ez I – hatás, hiába van benne időjelölés)*
+- D) „A péntek esti körben elég bántó tudsz lenni.” *(ez címke, hiába van benne időjelölés)*
 
-**Feedback:** Az S a **mikor/hol/melyik helyzet** – ide tartozik az időpont és a kör szakasza. A B (mit csinált), az I (mi lett a hatása) és a címke más-más építőkocka.
+**Feedback:** Az S a **mikor/hol/melyik helyzet** – csak a helyzetet jelöli ki, semmi mást. Időhatározó több opcióban is van, ezért nem elég ránézni rá: a B (mit csinált konkrétan), az I (mi lett a hatása) és a címke akkor is más-más építőkocka marad, ha időt is raksz elé. Csak az A mond *kizárólag* helyzetet.
 
 ***
 
 ### Item 2 – B vagy címke? (megfigyelés vs. címke, Single Choice)
 **Kérdés:** Melyik a **tiszta megfigyelés (B)**, címke nélkül?
 
-- A) „Tök fárasztó voltál a peulán.”
+- A) „A mai peulán végig tök fárasztó voltál.”
 - B) „A játék alatt kétszer kivonultál a teremből.” ✅
-- C) „Látszott, hogy szét akarod verni az egészet.”
-- D) „Éretlenül viselkedtél.”
+- C) „A kör elején látszott, hogy szét akarod verni az egészet.”
+- D) „A délutáni programon végig éretlenül viselkedtél.”
 
-**Feedback:** Csak a B az, amit egy **kamera is felvenne** (szám + konkrét cselekvés). Az A és D minősít, a C pedig szándékot tulajdonít – egyik sem megfigyelés.
+**Feedback:** Csak a B az, amit egy **kamera is felvenne** (szám + konkrét cselekvés). Mindegyik opcióban van időjelölés, tehát nem az árulja el a jót: az A és D így is **minősít**, a C pedig **szándékot tulajdonít** – egyik sem megfigyelés, hiába konkrét a helyszín.
 
 ***
 
@@ -185,11 +185,11 @@ Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 
 **Kérdés:** Mi a fő gond azzal, ha csak címkét mondasz („lusta vagy”), és nem konkrét megfigyelést?
 
 - A) A másik nem tudja, **pontosan mit csinált és min változtasson**. ✅
-- B) A címke túl udvarias, ezért nem veszik komolyan.
-- C) Így objektívebb leszel, mint a megfigyeléssel.
-- D) A címke túl hosszú ahhoz, hogy elhangozzon egy peulán.
+- B) A címke **rövidebb és tömörebb**, ezért könnyebben félreérthető a szándékod.
+- C) A címke **a jellemet írja le**, így objektívebb és pontosabb, mint a megfigyelés.
+- D) A címkét **csak négyszemközt** szabad mondani, csoport előtt sosem.
 
-**Feedback:** A címkéből **nem derül ki a konkrét viselkedés**, így a másiknak nincs mihez kezdenie. A megfigyelés (pl. „nem adtad le a házit”) megfogható, abból lehet tanulni.
+**Feedback:** A címkéből **nem derül ki a konkrét viselkedés**, így a másiknak nincs mihez kezdenie (A). A B-ben nem a tömörség a baj, hanem hogy nincs benne tény; a C tévhit – a jellem-címke épp **nem** objektív, hanem értelmezés; a D pedig nem a fő gond (a hely külön kérdés). A megfigyelés (pl. „nem adtad le a házit”) megfogható, abból lehet tanulni.
 
 ***
 
@@ -208,12 +208,12 @@ Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 
 ### Item 9 – „Mindig / soha” – miért gond? (hangnem, Single Choice)
 **Kérdés:** Miért gyengíti a visszajelzést, ha azt mondod: „**Te mindig** szétszúrod a peulát”?
 
-- A) Mert **általánosít** (egyetlen alkalom helyett az egész személyt minősíti), így a másik védekezni kezd, és nem derül ki, *konkrétan* mit kéne másképp csinálnia. ✅
-- B) Mert a „mindig” túl udvarias szó, és ezért nem veszik komolyan.
-- C) Mert a mondat túl rövid ahhoz, hogy SBI legyen.
-- D) Mert dicséret, és a visszajelzésben csak hibát szabad mondani.
+- A) Mert **általánosít**: egyetlen alkalom helyett az egész személyt minősíti. ✅
+- B) Mert **túl konkrét** egyetlen helyzetre, ezért a másik nem érti az általános problémát.
+- C) Mert a „mindig” **felnagyítja a hatást**, így a másik komolyabban veszi a kritikát.
+- D) Mert **panaszkodás**, és a visszajelzésben csak megoldást szabad javasolni.
 
-**Feedback:** A „mindig/soha” típusú általánosítás a **személyt** minősíti egyetlen helyzet helyett (M1.3 hook). Ezért nehéz rá nem-védekezve reagálni, és nincs konkrét viselkedés, amin változtatni lehetne. Egy alkalomra szűkítve, megfigyeléssel jobban működik: „a mai játék közben háromszor közbevágtál…”.
+**Feedback:** Az A a jó: a „mindig/soha” a **személyt** minősíti egyetlen helyzet helyett (M1.3 hook), ezért nehéz rá nem-védekezve reagálni, és nincs konkrét viselkedés, amin változtatni lehetne. A B fordítva van – épp a konkrét egy alkalom a jó, nem a baj; a C tévhit, mert a felnagyítás nem segít, hanem védekezést szül; a D pedig nem ettől gyenge a mondat. Egy alkalomra szűkítve, megfigyeléssel jobban működik: „a mai játék közben háromszor közbevágtál…”.
 
 ***
 

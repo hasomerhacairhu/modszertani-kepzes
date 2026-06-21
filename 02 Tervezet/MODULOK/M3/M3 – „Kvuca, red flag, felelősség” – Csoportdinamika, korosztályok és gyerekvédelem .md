@@ -38,7 +38,8 @@ A modul végére a résztvevő…
 
 > ⚖️ **Jó tudni – a jelzés Magyarországon törvényi kötelezettség.**
 > A gyermek **veszélyeztetettségének jelzése nem csak „jó gyakorlat”, hanem törvényi kötelezettség** (**1997. évi XXXI. tv. – Gyvt., gyermekvédelmi jelzőrendszer**). A gyakorlatban ez **nem a madrich egyéni terhe**: a madrich a **mentornak / gyerekvédelmi felelősnek / vezetőnek** jelez, és **ők gondoskodnak** a külső jelzésről a **gyermekjóléti szolgálat / hatóság** felé (súlyos, bűncselekmény-gyanús esetben a rendőrség felé). A szervezeten belüli szóbeli jelzéssel tehát a felelősség **nem feltétlenül zárul le** – a felelős dolga a továbblépés. Ezért fontos, hogy a madrich mindig **jelezzen**, és **ne maradjon egyedül** a helyzettel.
-> *(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.)*
+> **A tét 2024.09.01 óta nőtt:** a jelzés (kiemelt veszélyeztető oknál a haladéktalan, de **legkésőbb 3 munkanapon belüli** jelzés / feljelentés) **elmulasztása minden jelzőrendszeri tagra büntetőjogi felelősséget vonhat** (Btk. 209/A. § – vétség, **akár 2 év** szabadságvesztés). A someres madrich tipikusan **nem maga a jelzőrendszeri tag-intézmény**, de a téma súlyát és a határidő-logikát ettől még komolyan kell venni – ez is azt erősíti: **mindig jelezz**, időben, a felelősnek.
+> *(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.; a 2024.09.01-i módosításhoz Btk. 209/A. §, vö. modszertan.maltai.hu jelzőrendszeri összefoglaló.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyerekvédelemre **(M3.4)**.
    * Külön kiemeli, hogy **madrich nem lehet párkapcsolatban chanichhal** – ezt súlyos határátlépésnek, red flag-nek tartja **(M3.4)**.

@@ -89,9 +89,10 @@ Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései.
 | **Parparim** | pillangók/lepkék | 6–10 | 🦋 | legkisebbek |
 | **Kivsza** | bárány/juh | 11–13 | 🐑 | kiskamasz |
 | **Leviatan** | cet/leviatán | 14–16 | 🐋 | tinédzser / identitás |
-| **Zorea** | magvető/csíra | 16+ | 🌱 | legidősebb / felelősség |
+| **Zorea** | magvető / vető | 16+ | 🌱 | legidősebb / felelősség |
 
 - **Figyelem:** `Leviatan` ékezet nélkül (NEM „Leviatán”). A toldalékos alakoknál (Parparimnál, Zoreánál) a tő miatti ékezet rendben van.
+- **Nyelvi pontosítás:** a `Zorea` (זורע) az aktív részesülő = **„magvető / aki vet”** (ágens), NEM „csíra”. A csíra/mag külön szó: **zera** (זרע). A 🌱 emoji a vetés/növekedés képét idézi, de a tulajdonnév jelentése a *vető*, nem a mag.
 - 🧑‍🏫 A pontos korosztály-besorolás és profil mozgalom-belső konvenció – a helyi ken-vezetővel megerősítendő, nem ellenőrizhető általános forrásból.
 
 ---

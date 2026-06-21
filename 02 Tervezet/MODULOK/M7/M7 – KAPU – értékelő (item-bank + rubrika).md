@@ -49,34 +49,34 @@
 
 **A SMART rövidítés melyik öt ismérvet takarja?**
 
-- A) Specifikus, Mérhető, Achievable (elérhető), Releváns, Time-bound (időhöz kötött) ✅
-- B) Specifikus, Motiváló, Aktív, Reális, Tematikus
-- C) Strukturált, Mérhető, Alapos, Rugalmas, Tervezett
-- D) Someres, Mozgalmas, Aktivizáló, Reflektív, Tudatos
+- A) Specifikus (pontosan miről szól), Mérhető (miből látod), Achievable (reális-e), Releváns (someres értékhez köt), Time-bound (mikorra) ✅
+- B) Specifikus (pontosan miről szól), Motiváló (lelkesít-e), Aktív (mozgásos-e), Reális (kivitelezhető-e), Tematikus (témába vág-e)
+- C) Strukturált (logikus-e a felépítés), Mérhető (miből látod), Alapos (mindenre kiterjed-e), Rugalmas (alakítható-e menet közben), Tervezett (előre átgondolt-e)
+- D) Specifikus (pontosan miről szól), Mérhető (miből látod), Aktivizáló (bevon-e mindenkit), Releváns (someres értékhez köt), Tartalmas (van-e mélysége)
 
-**Feedback:** A SMART nem someres szlogen, hanem egy emlékeztető: **Specifikus – Mérhető – Achievable (elérhető) – Releváns – Time-bound (időhöz kötött)**. A lényeg, hogy a peula végén tudd: tényleg megtörtént-e, amit szerettél volna. (M7.1)
+**Feedback:** A SMART nem someres szlogen, hanem egy emlékeztető: **Specifikus – Mérhető – Achievable (elérhető) – Releváns – Time-bound (időhöz kötött)**. A többi sor egy-egy hihető, de **téves** betűt csempész be: a B-ben az „Aktív” és „Tematikus” nem SMART-elem, a C-ben az egész sor más fogalmakból áll, a D-ben az „Aktivizáló” és „Tartalmas” cseréli ki az Achievable-t és a Time-boundot – pont az a két elem hiányzik belőle, ami az ellenőrizhetőséget adja. A lényeg, hogy a peula végén tudd: tényleg megtörtént-e, amit szerettél volna. (M7.1)
 
 #### Q2 — Vágy vs. SMART cél (Single Choice)
 
 **Az alábbiak közül melyik áll a legközelebb egy SMART nevelési célhoz?**
 
-- A) „Jó legyen a hangulat a kvucában Hanukakor.”
-- B) „Tanuljanak a felelősségről.”
-- C) „A peula végére a Kivsza-kvuca legalább 80%-a meg tud nevezni 2 konkrét dolgot, amitől biztonságban érzi magát a Zmán Kvucán.” ✅
-- D) „Legyen egy emlékezetes közös élmény.”
+- A) „Jó legyen a hangulat a kvucában Hanukakor, mindenki érezze otthon magát az ünnepi esten.”
+- B) „A chanichok sokat tanuljanak a felelősségről, és vigyék is haza az élményt magukkal.”
+- C) „A peula végére a Kivsza-kvuca 80%-a meg tud nevezni 2 dolgot, amitől biztonságban érzi magát a Zmán Kvucán.” ✅
+- D) „Legyen egy emlékezetes, jó energiájú közös élmény, amire még sokáig emlékeznek a chanichok.”
 
-**Feedback:** A C konkrét **kvucát**, **mérhető jelet** (80%, „2 konkrét dolog”) és **megfigyelhető viselkedést** tartalmaz – a peula végén ellenőrizhető. A többi szép **vágy**, de nem látszik rajta, mikor és miből tudod, hogy teljesült. (M7.1)
+**Feedback:** A C konkrét **kvucát**, **mérhető jelet** (80%, „2 dolog”) és **megfigyelhető viselkedést** („meg tud nevezni”) tartalmaz, és **a peula végéhez köti** az időpontot – így a végén tényleg ellenőrizhető. A többi szép, és látszólag bővebb is, de attól még **vágy** marad: az A-ból és D-ből hiányzik a mérhető jel, a B-ből pedig az látszik leginkább, hogy „sok” és „haza viszi” nem ellenőrizhető a peula végén. Nem a hosszú mondat teszi SMART-tá a célt, hanem a mérhetőség és az időkeret. (M7.1)
 
-#### Q3 — A legnehezebb SMART-betűk (Single Choice)
+#### Q3 — Melyik két elem teszi ellenőrizhetővé a célt? (Single Choice)
 
-**Egy peulára írt célnál someres tapasztalat szerint melyik két SMART-elemet a legnehezebb belerakni?**
+**Egy „vágy-szintű” mondatból akkor lesz a peula végén ténylegesen ellenőrizhető cél, ha melyik két SMART-elemet teszed hozzá?**
 
 - A) Specifikus és Releváns
 - B) Mérhető és Time-bound (időhöz kötött) ✅
 - C) Achievable (elérhető) és Specifikus
 - D) Releváns és Achievable (elérhető)
 
-**Feedback:** A téma (S) és az értékkapcsolat (R) általában adott. A buktató a **Mérhető** („miből látom, hogy megtörtént?”) és a **Time-bound** („pont mikorra?”) – ezekre kell tudatosan figyelned. (M7.1)
+**Feedback:** A téma (S) és az értékkapcsolat (R) megmondja, **miről** szól a cél, de attól még nem tudod a végén ellenőrizni. A **Mérhető** adja meg, *miből látod, hogy megtörtént*, a **Time-bound** pedig, *mikorra* – e kettő nélkül a cél ellenőrizhetetlen vágy marad, akkor is, ha specifikus és releváns. (Az M7.1 hangsúlyozza: nincs „nehézségi rangsor”, de a mérhetőség és az időkeret az, ami az ellenőrizhetőséget adja.) (M7.1)
 
 ***
 
@@ -95,16 +95,16 @@
 
 **Feedback:** Először **előkészítesz** (téma, háttér, kvuca/idő/hely, SMART cél), aztán **megírod** (módszerek, felépítés, realitás-check, kellék), végül jön az **utómunka & safety** (gyerekvédelem, feedback, utóreflexió → Peula v2). A D egy peula belső felépítése (6. pont), nem a 11 pont fázisai. (M7.2)
 
-#### Q5 — Melyik pont hiányzik? (Single Choice)
+#### Q5 — Melyik pont hiányzik a vázból? (Single Choice)
 
-**Egy peula-váz: téma „legyen jobb a hangulat”, kvuca 12–13 év / 45’ / kisterem, program: 3 névtanulós játék egymás után. Nincs leírva semmi más. A Peula 11 pontjából melyik a legégetőbb hiány?**
+**Egy peula-váz (Leviatan-kvuca, 14–16 év / 60’ / udvar) ezt tartalmazza: a „közösségi felelősség” modulhoz tartozik, röviden összeszedi a téma altémáit, listázza a kellékeket (kötél, kártyák, flipchart), és a végén ott a „mit kérdezzek vissza másik madrichtól” pont. Egyetlen dolog nincs sehol leírva: hogy mit szeretne a madrich, hogy a chanichokban a peula végére más legyen. A Peula 11 pontjából melyik pont hiányzik a vázból?**
 
 - A) Kelléklista (8. pont)
 - B) Háttér & altémák (2. pont)
 - C) Nevelési cél / SMART (4. pont) ✅
 - D) Feedback & finomhangolás (10. pont)
 
-**Feedback:** Több is hiányzik, de **nevelési cél** nélkül nem tudod megmondani, mit szeretnél elérni – a cél ad keretet az összes többi pontnak. A névtanulós játékok önmagukban még nem peula. (M7.2)
+**Feedback:** A modulhoz kötés (1.), az altémák (2.), a kelléklista (8.) és a visszajelzés-kérés (10.) **mind ott van** a vázban – egyedül a **nevelési cél / SMART** (4.) hiányzik. E nélkül nem tudod megmondani, mit szeretnél elérni; a cél ad keretet az összes többi pontnak, és belőle dől el, hogy a kész peula tényleg peula-e, vagy csak egymásra fűzött tevékenységek sora. (M7.2)
 
 #### Q6 — Pont → fázis hozzárendelés (Single Choice)
 
@@ -127,34 +127,34 @@
 
 **Melyik állítás írja le legpontosabban a Zmán Kvucát?**
 
-- A) Bármilyen jó program vagy játék, ami aznap eszünkbe jut a kvucának.
-- B) Egy fix, rendszeres foglalkozás-idősáv, ahol egy konkrét kvuca felelősen rád van bízva: idő + tér + kvuca + cél + felelős madrichok. ✅
-- C) A péntek esti közös vacsora a kenben.
-- D) Az online leckék kitöltésére szánt idő.
+- A) Bármilyen jó program vagy játék, ami aznap spontán eszébe jut a kvucát vivő madrichnak.
+- B) Egy fix idősáv, amelyben egy konkrét kvuca felelősen rád van bízva (idő + tér + kvuca + cél). ✅
+- C) A péntek esti közös ünnepi vacsora és éneklés a kenben, az egész korosztállyal együtt.
+- D) Az online leckék és a kötelező H5P-feladatok otthoni kitöltésére fenntartott egyéni idő.
 
-**Feedback:** A Zmán Kvucá **nem** random programidő, hanem tudatos keret: tudod, **mikor, hol, kikkel, miért, és ki mire figyel** (safety). Pont ettől több, mint „van egy jó játékom”. (M7.3)
+**Feedback:** A Zmán Kvucá **nem** random programidő (A), nem közösségi vacsora (C) és nem online tanulóidő (D), hanem tudatos keret egy konkrét kvucára: tudod, **mikor, hol, kikkel, miért, és ki mire figyel** (safety, felelős madrichok). Pont ettől több, mint „van egy jó játékom”. (M7.3)
 
 #### Q8 — Szituáció → checklist-terület (Single Choice)
 
-**„Az egyik chanich kerekesszékkel jönne, de a terembe csak lépcsőn át lehet bejutni.” Melyik Zmán Kvucá-területhez tartozik ez?**
+**„A peulán sok az írott-felolvasós feladat, de az egyik chanich diszlexiás, egy másik pedig még gyengén olvas magyarul, mert nemrég költözött ide.” Melyik Zmán Kvucá-területhez tartozik ez elsősorban?**
 
 - A) Idő & helyszín
 - B) Létszám & madrich–chanich arány
 - C) Hozzáférhetőség & inkluzivitás ✅
 - D) Gyerekvédelem & határok
 
-**Feedback:** Ez **hozzáférhetőség & inkluzivitás**: a kérdés az, be tud-e jutni mindenki, és nem marad-e ki valaki fizikai / technikai ok miatt. (M7.3)
+**Feedback:** Ez **hozzáférhetőség & inkluzivitás**: a kérdés az, hogy a feladat formája (sok olvasás/írás) miatt nem marad-e ki valaki – itt nyelvi és tanulási akadály miatt. A megoldás nem külön terem, hanem a feladat alternatív formája (pl. szóbeli / képes verzió). Nem a létszám (B) és nem önmagában a gyerekvédelem (D) a tét. (M7.3)
 
 #### Q9 — A leggyakrabban kifelejtett terület (Single Choice)
 
-**A „péntek esti mintaprogram” (12 chanich, 2 madrich, kintre tervezett játék) leírásából melyik checklist-elem hiányzik a leginkább?**
+**Egy madrich így ír le egy tervet: „Vasárnap 16–17 óra, Zorea-kvuca (16+), 8 chanich + 2 madrich, a ken előtti parkban filmes ügyességi versenyt tartunk projektorral, mindenki igénye átgondolva. Felelős madrichok kijelölve.” Melyik checklist-elem hiányzik a leginkább?**
 
 - A) Idő & helyszín (kezdés–zárás adott)
-- B) Anyagok, technika & **B-terv** (eső / zaj / helyhiány esetére) ✅
+- B) Anyagok, technika & **B-terv** (eső / áramhiány / túl világos esetére) ✅
 - C) Létszám & madrich–chanich arány
 - D) Gyerekvédelem & határok
 
-**Feedback:** Idő, hely és létszám nagyjából rendben – de **B-terv** egyáltalán nincs. „Mi lesz, ha esik / túl zajos / nem férünk el?” – ezt mindig előre érdemes végiggondolni. (M7.3)
+**Feedback:** Idő/hely, létszám/arány és a felelősök rendben, az inkluzivitásra is utal – de **B-terv** nincs: egy szabadtéri, projektoros programnál pont az kell, „mi lesz, ha esik, ha nincs áram, vagy ha túl világos a kép?”. A technika és az időjárás a leggyakrabban kifelejtett kockázat. (M7.3)
 
 ***
 
@@ -162,25 +162,25 @@
 
 #### Q10 — Mit kezdesz az AI válaszával? (Single Choice)
 
-**Kértél a ChatGPT-től SMART-cél-átírást. Mit csinálsz a kapott szöveggel a madrich-szemlélet szerint?**
+**Az AI-tól kértél 3 feldolgozó kérdést a peulád zárásához. A kapott kérdések jók, de kettő túl elvont a Kivsza-kvucádnak. Mit teszel a madrich-szemlélet szerint?**
 
-- A) Változtatás nélkül bemásolom a peula-tervbe – gyorsabb.
-- B) Átolvasom, kiválasztom, ami illik a kvucámhoz, és a saját szavaimmal írom át. ✅
-- C) Eldobom, mert AI-t használni mindig csalás.
-- D) Megkérdezem az AI-t, döntse el helyettem, jó-e a peula.
+- A) Mind a hármat változtatás nélkül beemelem, hisz az AI biztos jobban tudja.
+- B) Kiválasztom azt, ami illik, a másik kettőt a kvucámhoz igazítva átfogalmazom, és eldöntöm, mi marad. ✅
+- C) Az egészet eldobom, és inkább semmilyen feldolgozó kérdést nem teszek be, mert az AI-anyag csalásnak számít.
+- D) Visszaírom az AI-nak, hogy döntse el helyettem, melyik kérdés a legjobb a 11–13 éveseknek.
 
-**Feedback:** Az AI **ötlettár**, nem szerző. A döntés és a felelősség nálad marad: átolvasod, kiválasztod, **saját szavaiddal** átírod. Az AI használata önmagában nem csalás (C téves), de a döntést sem adjuk át neki (D téves). (M7.1, M7.2, M7.4)
+**Feedback:** Az AI **ötlettár**, nem szerző. A döntés és a felelősség nálad marad: kiválasztod, ami illik, a többit a **saját kvucádhoz igazítod**, és te mondod ki, mi marad. Az AI-anyag felhasználása önmagában nem csalás (C téves – a feldolgozó kérdés a peula lényegi része, nem hagyod ki), de a döntést sem adod át neki (D téves). (M7.1, M7.2, M7.4)
 
-#### Q11 — Mit NEM teszel AI-val? (Multi-Select – több jó válasz)
+#### Q11 — Mit teHETsz AI-val? (Multi-Select – több jó válasz)
 
-**Jelöld be az ÖSSZESET, ami a someres AI-etikett szerint TILOS peula-tervezéskor!**
+**Jelöld be az ÖSSZESET, ami a someres AI-etikett szerint MEGENGEDETT peula-tervezéskor!**
 
-- A) Valódi neveket és beazonosítható chanich-sztorikat írok be a chatbe. ✅
-- B) Teljes peulát másolok be gondolkodás nélkül, anélkül, hogy átgondolnám, illik-e a kvucámhoz. ✅
-- C) Konkrét gyerekvédelmi helyzetre kérek tanácsot az AI-tól mentor helyett. ✅
-- D) Általános leírással („11–13 éves kvuca, szolidaritás téma”) kérek játékötleteket.
+- A) Általános leírással („11–13 éves kvuca, szolidaritás téma”) kérek játékötleteket. ✅
+- B) Megkérem, magyarázzon el egy fogalmat 12 éves szinten, hogy aztán a saját szavaimmal írjam meg. ✅
+- C) Beírom egy konkrét chanich valódi nevét és otthoni sztoriját, hogy „személyre szabott” tanácsot kapjak.
+- D) Megkérek egy nyers AI-vázlatot, amit utána átolvasok, kiválasztok belőle, és a kvucámhoz igazítok. ✅
 
-**Feedback:** A–B–C mind **tilos**. Nincs név / beazonosítható sztori; az AI nem ír helyetted teljes peulát; gyerekvédelmi ügyben **mentort / felelőst** kérdezel, nem AI-t. A D **megengedett**: általánosítva, adat nélkül ötletelni teljesen rendben van. (M7.2, M7.4) *(A teljes ponthoz A, B, C jelölve, D NEM.)*
+**Feedback:** Az A, B és D **megengedett**: általánosítva, adat nélkül ötletelni, fogalmat magyaráztatni, vagy nyersanyagot kérni és **kritikusan átdolgozni** teljesen rendben van – a döntés végig nálad marad. A **C tilos**: valódi név és beazonosítható chanich-sztori soha nem mehet a chatbe (adatvédelem + gyerekvédelem). Figyelj: itt a **kakukktojás a tiltott elem**, nem a megengedett – nem mindig az utolsó opció a kivétel. (M7.2, M7.4) *(A teljes ponthoz A, B, D jelölve, C NEM.)*
 
 #### Q12 — Operáció: idő–feladat–felelős (Single Choice)
 
@@ -208,7 +208,7 @@
 - C) **Nyugodtan, ítélkezés nélkül meghallgatom, NEM ígérek titoktartást, NEM nyomozok – és még aznap jelzem a mentornak / gyerekvédelmi felelősnek.** ✅
 - D) Szólok a szüleinek, hogy beszéljék meg otthon.
 
-**Feedback:** A helyes alaplépés: **meghallgatsz, de nem ígérsz titoktartást** (A téves – nem ígérhetsz olyat, amit a jelzési kötelezettség miatt nem tarthatsz meg), **nem nyomozol / nem faggatsz rávezetően** (B téves), és **nem keresed meg a feltételezett bántalmazót** (D téves – itt épp a szülő lehet érintett). A felelősség **megosztott**: a mentort / gyerekvédelmi felelőst vonod be – nem maradsz egyedül a helyzettel. **(Ha azonnali veszélyt látsz, a helyi gyerekvédelmi protokoll / 112 lép – ezt a ⟬KITÖLTENDŐ: a ken nevesített gyerekvédelmi felelőse és a helyi jelzési protokoll⟭ rögzíti.)** (M3.3, M7.3)
+**Feedback:** A helyes alaplépés: **meghallgatsz, de nem ígérsz titoktartást** (A téves – nem ígérhetsz olyat, amit a jelzési kötelezettség miatt nem tarthatsz meg), **nem nyomozol / nem faggatsz rávezetően** (B téves), és **nem indítasz otthoni egyeztetést, nem értesítesz közvetlenül egyetlen lehetséges érintett felnőttet sem** (D téves – a madrich dolga nem az, hogy maga rendezze le otthon, hanem hogy a **protokoll szerint a felelősnek jelezzen**; azt, hogy ki érintett, nem a madrich vizsgálja). A felelősség **megosztott**: a mentort / gyerekvédelmi felelőst vonod be – nem maradsz egyedül a helyzettel. **(Ha azonnali veszélyt látsz, a helyi gyerekvédelmi protokoll / 112 lép – ezt a ⟬KITÖLTENDŐ: a ken nevesített gyerekvédelmi felelőse és a helyi jelzési protokoll⟭ rögzíti.)** (M3.3, M7.3)
 
 #### Q14 — Mit NEM hagysz a peulatervben? (Multi-Select – több jó válasz)
 
@@ -384,7 +384,7 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 ## Fejlesztői QA-checklist (élesítés előtt)
 
 * [ ] Kvíz: **14 item**, **randomizálás BE**, **≥80% (≥12/14)** **ÉS a gyerekvédelmi Q13 kötelezően helyes**, 2–3 próbálkozás.
-* [ ] Minden itemnek 1 egyértelmű helyes válasza (Q11 és Q14 multi-select: A+B+C jó, D nem), distraktorok plauzibilisek (nincs „minden fenti”, nincs töltelék).
+* [ ] Minden itemnek egyértelmű kulcsa; a két multi-select **szándékosan eltérő polaritású** (anti-sablon): **Q11** „mit teHETsz” → **A+B+D** jó, a tiltott **C** a kakukktojás; **Q14** „mit TILOS úgy hagyni” → **A+B+C** jó, a jó gyakorlat **D** a kakukktojás. Distraktorok plauzibilisek (nincs „minden fenti”, nincs töltelék).
 * [ ] **Construct-lefedettség:** a blokkoló R4 (Gyerekvédelem & safety) sornak van kvíz-itemje (**Q13–Q14**); a cél→item tábla teljes, R4 nem alul-reprezentált.
 * [ ] Assignment-rubrika: 8 sor, 0–3 pont, max 24, küszöb **zárt ÉS-logikával**: **Megfelelt = (összpont ≥17) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló)** – a kritikus sorok ≥2 minimuma a ponthatártól függetlenül mindig kötelező.
 * [ ] **R4 blokkoló** szabály a Moodle-leírásban is rögzítve (nem csak a rubrikában).
