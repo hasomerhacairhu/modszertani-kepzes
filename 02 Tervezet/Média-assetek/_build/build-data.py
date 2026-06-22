@@ -25,6 +25,13 @@ def clean(s):
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
+def vclean(s):
+    # verbatim: megtartja a sortöréseket (felmondandó szöveg), csak a sorvégi szóközöket takarítja
+    if s is None: return ""
+    s = str(s).replace("&amp;", "&").replace("\r\n", "\n")
+    s = "\n".join(line.rstrip() for line in s.split("\n"))
+    return s.strip()
+
 # ---- merge ----
 assets = {}
 dedup_groups = []
@@ -118,9 +125,9 @@ def style_sheet(ws, headers, widths, wrapcols):
 # --- Assetek ---
 ws = wb.active; ws.title = "Assetek"
 H = ["ID","Modul","Fájltípus","Forrásfájl","Hol (slide/blokk)","Sor / horgony","Asset-típus","Kategória","Legyártandó?",
-     "Cím","Mit kell generálni","Miért (cél)","Tech-spec","A11y igény","Eredet (nyers)","Eredet (norm)","Dedup","Audit-jelölés","Megjegyzés","Útvonal"]
-W = [16,7,12,34,26,22,18,16,14,24,52,40,28,30,22,20,16,46,28,46]
-WRAPC = {5,11,12,13,14,17,18,19}
+     "Cím","Mit kell generálni","Felmondandó / generálandó szöveg (verbatim)","Miért (cél)","Tech-spec","A11y igény","Eredet (nyers)","Eredet (norm)","Dedup","Audit-jelölés","Megjegyzés","Útvonal"]
+W = [16,7,12,34,26,22,18,16,14,24,46,72,34,26,28,22,20,16,42,26,42]
+WRAPC = {5,11,12,13,14,15,18,19,20}
 style_sheet(ws, H, W, WRAPC)
 r = 2
 for a in rows:
@@ -128,7 +135,7 @@ for a in rows:
     vals = [aid, a.get("mod",""), a.get("kind",""), clean(a.get("fileShort","")), clean(a.get("location","")),
             clean(a.get("lineRef","")), a.get("assetType",""), a.get("category",""),
             ("újrahasznosítás" if dedup_ref.get(aid) else "igen"),
-            clean(a.get("title","")), clean(a.get("contentSpec","")), clean(a.get("purpose","")), clean(a.get("techSpec","")),
+            clean(a.get("title","")), clean(a.get("contentSpec","")), vclean(a.get("verbatim","")), clean(a.get("purpose","")), clean(a.get("techSpec","")),
             clean(a.get("a11y","")), clean(a.get("provenance","")), prov_norm(a.get("provenance","")),
             dedup_ref.get(aid,"") or clean(a.get("dedup","")), audit_cell(aid) or clean(a.get("audit","")), clean(a.get("notes","")), clean(a.get("file",""))]
     for c,v in enumerate(vals,1):
@@ -231,7 +238,7 @@ assets_csv = write_csv("assetek.csv", H,
     [[a.get("assetId",""),a.get("mod",""),a.get("kind",""),clean(a.get("fileShort","")),clean(a.get("location","")),
       clean(a.get("lineRef","")),a.get("assetType",""),a.get("category",""),
       ("újrahasznosítás" if dedup_ref.get(a.get("assetId","")) else "igen"),
-      clean(a.get("title","")),clean(a.get("contentSpec","")),clean(a.get("purpose","")),clean(a.get("techSpec","")),
+      clean(a.get("title","")),clean(a.get("contentSpec","")),vclean(a.get("verbatim","")),clean(a.get("purpose","")),clean(a.get("techSpec","")),
       clean(a.get("a11y","")),clean(a.get("provenance","")),prov_norm(a.get("provenance","")),
       dedup_ref.get(a.get("assetId",""),"") or clean(a.get("dedup","")),audit_cell(a.get("assetId","")) or clean(a.get("audit","")),clean(a.get("notes","")),clean(a.get("file",""))] for a in rows])
 dedup_csv = write_csv("dedup.csv", H2,

@@ -170,12 +170,12 @@ for (const mod of modKeys) {
   for (const f of files) {
     const fr = byFile[f].slice().sort((x, y) => String(x.assetId).localeCompare(String(y.assetId), 'hu', { numeric: true }))
     P(`#### ${esc(fr[0].fileShort || f)}  \`(${fr[0].kind})\``); P(``)
-    P(`| ID | Típus | Kat. | Hol (slide ▸ sor) | Mit kell generálni | Miért (cél) | Tech-spec | A11y | Eredet | Dedup / Audit |`)
-    P(`|---|---|---|---|---|---|---|---|---|---|`)
+    P(`| ID | Típus | Kat. | Hol (slide ▸ sor) | Mit kell generálni | Felmondandó / generálandó szöveg (verbatim) | Miért (cél) | Tech-spec | A11y | Eredet | Dedup / Audit |`)
+    P(`|---|---|---|---|---|---|---|---|---|---|---|`)
     for (const a of fr) {
       const hol = [a.location, a.lineRef].filter(Boolean).map(esc).join(' ▸ ')
       const da = [a.dedup, a.audit].filter(Boolean).map(esc).join(' · ')
-      P(`| \`${cell(a.assetId)}\` | ${cell(a.assetType)} | ${KAT[a.category] || cell(a.category)} | ${cell(hol)} | ${cell(a.contentSpec)} | ${cell(a.purpose)} | ${cell(a.techSpec)} | ${cell(a.a11y)} | ${cell(provBucket(a.provenance))} | ${da || '—'} |`)
+      P(`| \`${cell(a.assetId)}\` | ${cell(a.assetType)} | ${KAT[a.category] || cell(a.category)} | ${cell(hol)} | ${cell(a.contentSpec)} | ${cell(a.verbatim)} | ${cell(a.purpose)} | ${cell(a.techSpec)} | ${cell(a.a11y)} | ${cell(provBucket(a.provenance))} | ${da || '—'} |`)
     }
     P(``)
   }

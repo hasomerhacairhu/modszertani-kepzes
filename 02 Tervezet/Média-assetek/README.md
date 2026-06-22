@@ -7,11 +7,20 @@ Ez a mappa a `02 Tervezet/` tananyaghoz **legyártandó média-assetek** teljes 
 | Fájl | Mire való |
 |---|---|
 | **`Média-asset regiszter.xlsx`** | **Elsődleges, data-driven formátum.** 6 munkalap: Összesítő · Assetek (szűrhető, fagyasztott fejléc) · Dedup-térkép · Audit · Médiamentes fájlok · Produkciós konvenciók |
-| `assetek.csv` | A teljes asset-tábla (748 sor × 20 oszlop), gépi feldolgozáshoz |
+| `assetek.csv` | A teljes asset-tábla (748 sor × 21 oszlop), gépi feldolgozáshoz |
 | `audit.csv` | A 61 audit-megállapítás diszpozícióval |
 | `dedup.csv` | A 35 dedup-csoport (újrahasznosítások) |
 | `Média-asset regiszter.md` | Ember-olvasható kísérő (ugyanaz, markdownban) |
 | `_build/` | A reprodukciós pipeline (lásd lent) |
+
+## „Felmondandó / generálandó szöveg" oszlop
+
+Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gyártásra kész szöveget** — nem kell a forrásfájlokban keresgélni. A `Felmondandó / generálandó szöveg (verbatim)` oszlopban:
+- **narráció** → a teljes felmondandó/TTS-be tölthető szkript szó szerint;
+- **felirat / leirat** → ugyanaz a szöveg (a felirat a narrációt szó szerint közli);
+- **alt-szöveg** → a kész alt-szöveg (a dekoratív elemeknél szándékosan üres).
+
+462 szöveg-asset kitöltve a forrásból; szűrd az `Asset-típus = narráció` sorokra, ha csak a felmondandó szövegek kellenek.
 
 ## Számok
 
