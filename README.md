@@ -15,6 +15,33 @@ Ismerkedj meg a projekt alapjaival:
 *   📖 **[Program Terv](./02%20Tervezet/Program%20terv.md)** – A képzés részletes pedagógiai és strukturális leírása.
 *   📂 **[Modulok](./02%20Tervezet/MODULOK)** – A tananyagok bontása modulonként (M0-M7).
 *   📚 **[Források](./01%20Fejlesztés/00%20Források)** – A képzés kidolgozásához felhasznált szakirodalom és források.
+*   📖 **[Glosszárium](./02%20Tervezet/GLOSSZÁRIUM%20–%20someres%20és%20pedagógiai%20fogalmak.md)** – Someres és pedagógiai fogalmak kánoni szótára.
+*   ♿ **[LMS hozzáférhetőségi sztenderd](./02%20Tervezet/LMS%20–%20hozzáférhetőségi%20sztenderd.md)** – WCAG 2.2 AA követelmények a Moodle/H5P megvalósításhoz.
+*   🎬 **[Média-asset regiszter](./02%20Tervezet/_MÉDIA-ASSETEK)** – A legyártandó médiaelemek (narráció, videó, illusztráció…) teljes, auditált leltára.
+
+## Repó-struktúra
+
+```
+modszertani-kepzes/
+├── README.md
+├── 01 Fejlesztés/                    # A képzés kidolgozásának nyersanyagai
+│   ├── 00 Források/                  #   felhasznált szakirodalom
+│   ├── 01 Promptok/                  #   AI-promptok
+│   ├── 02 Interjúk/                  #   felvételi interjú-jelentések
+│   └── 03 Beszámolók/                #   összefoglalók
+└── 02 Tervezet/                      # MAGA A TANANYAG
+    ├── Program terv.md               #   a képzés pedagógiai + strukturális gerince
+    ├── GLOSSZÁRIUM – ….md            #   fogalmi kánon
+    ├── LMS – hozzáférhetőségi ….md   #   akadálymentességi sztenderd
+    ├── _EMBERI-JÓVÁHAGYÁS-….md       #   handoff: amit embernek kell kitöltenie/jóváhagynia
+    ├── _MÉDIA-ASSETEK/               #   legyártandó médiaelemek auditált regisztere (xlsx/csv/md) + build-pipeline
+    └── MODULOK/                      #   M0–M7 + Z, modulonként:
+        └── Mx/
+            ├── Mx – ….md             #     modul-hub (áttekintő)
+            ├── Mx – KAPU – ….md      #     mastery-kapu (item-bank + rubrika; ahol van)
+            ├── Mx_ONLINE_LECKE/      #     online mikroleckék (Moodle/H5P)
+            └── Mx_PEULA/             #     élő tréningek (peulák)
+```
 
 ## Közreműködők (Contributors)
 
