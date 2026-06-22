@@ -13,11 +13,11 @@ A rendszer **Open Educational Resource (OER)**, azaz nyílt oktatási segédanya
 Ismerkedj meg a projekt alapjaival:
 
 *   📖 **[Program Terv](./02%20Tervezet/Program%20terv.md)** – A képzés részletes pedagógiai és strukturális leírása.
-*   📂 **[Modulok](./02%20Tervezet/MODULOK)** – A tananyagok bontása modulonként (M0-M7).
+*   📂 **[Modulok](./02%20Tervezet/Modulok)** – A tananyagok bontása modulonként (M0-M7).
 *   📚 **[Források](./01%20Fejlesztés/00%20Források)** – A képzés kidolgozásához felhasznált szakirodalom és források.
-*   📖 **[Glosszárium](./02%20Tervezet/GLOSSZÁRIUM%20–%20someres%20és%20pedagógiai%20fogalmak.md)** – Someres és pedagógiai fogalmak kánoni szótára.
+*   📖 **[Glosszárium](./02%20Tervezet/Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md)** – Someres és pedagógiai fogalmak kánoni szótára.
 *   ♿ **[LMS hozzáférhetőségi sztenderd](./02%20Tervezet/LMS%20–%20hozzáférhetőségi%20sztenderd.md)** – WCAG 2.2 AA követelmények a Moodle/H5P megvalósításhoz.
-*   🎬 **[Média-asset regiszter](./02%20Tervezet/_MÉDIA-ASSETEK)** – A legyártandó médiaelemek (narráció, videó, illusztráció…) teljes, auditált leltára.
+*   🎬 **[Média-asset regiszter](./02%20Tervezet/Média-assetek)** – A legyártandó médiaelemek (narráció, videó, illusztráció…) teljes, auditált leltára.
 
 ## Repó-struktúra
 
