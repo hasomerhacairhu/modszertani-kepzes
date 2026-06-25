@@ -52,6 +52,8 @@ Bedő Marci
 *   **Módszertani Fejlesztés:** [Név/Csapat]
 Bedő Laura
 Marton Marcell
+Rácz Eszter
+Weinberger Anna
 *   **Technikai Megvalósítás:** [Név/Csapat]
 Bedő Marci
 
