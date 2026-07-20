@@ -27,7 +27,7 @@ A modul végére a madrich…
    * **Támogató elemek:** M0.1 (Éves útiterv).
 2. **Szerepek és elvárások tisztázása**
    * Tud **2–3 mondatot** mondani arról, mit vár tőle a képzés és a ken (jelenlét, felelősség, jelzés, csapatmunka).
-   * Meg tudja különböztetni, **mi NEM az ő feladata** (nem terapeuta, nem egyedül visz gyerekvédelmi ügyet).
+   * Meg tudja különböztetni, **mi az ő feladata és mi NEM az övé** (nem terapeuta, nem egyedül kezel gyermekvédelmi ügyet).
    * **Támogató elemek:** M0.2 (szerepek, „madrich, nem terapeuta”), M0.A (keretek közös kimondása).
 3. **Alap technikai működés biztonságban**
    * Be tud lépni a **Moodle-be**, megtalálja a saját kurzusát és a modulokat.
@@ -36,7 +36,7 @@ A modul végére a madrich…
    * **Támogató elemek:** M0.3 (Moodle / H5P / gate), M0.4 (bemutatkozó fórum), M0.A utáni technikai helpdesk.
 4. **Kapuk és completion-logika alap megértése**
    * Érti a **puha (soft) és éles (hard) kapuk** közti különbséget.
-   * Tudja, hogy a kapuk nem azonnali kizuhanást jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
+   * Tudja, hogy a kapuk nem azonnali kiesést jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
    * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépő-quiz.
 5. **Dugma ishit az online térben**
    * Tud mondani 1–2 példát arra, **hogyan viselkedik dugma ishitként online** (Moodle, csoportchat, social media).
@@ -151,7 +151,7 @@ A modul végére a madrich…
 
       Így a „mely kérdés / témakör megy rosszul → melyik modulban erősítsünk” elemzés (§6) **item-szinten** értelmezhető.
     * **A „kb. 60%” jelzőszint értelmezése:** ez **nem levezetett pszichometriai cut-score**, hanem durva, gyakorlati stáb-küszöb: a ~6–8 itemes belépő-quizben **átlagosan ≥ kb. fele-kétharmada helyes** azt jelzi, hogy a kvuca a strukturált belépéshez szükséges alapokat (keret, határ, jelzés, kapu) nagyjából átvette. **Item-szinten erősebb a jelzés, mint az átlag:** ha bármelyik **témakör tartósan < 50%-on** teljesít, az önmagában indok a ráerősítésre (lásd §6), függetlenül a globális átlagtól. Pontos küszöb-finomítás az első kohorsz adatai után: ⟬KITÖLTENDŐ: első futás item-statisztikái alapján⟭.
-    * **Funkció (egyértelműsítés): ez a quiz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a quizen elért eredmény nem zár ki és nem blokkol senkit. **A „kb. 60%” tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „megbukik”. **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** (mintaként lásd az M1/M5/M7 „KAPU – értékelő (item-bank + rubrika)” fájlokat).
+    * **Funkció (egyértelműsítés): ez a quiz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a quizen elért eredmény nem zár ki és nem blokkol senkit. **A „kb. 60%” tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „bukik meg”. **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** (mintaként lásd az M1/M5/M7 „KAPU – értékelő (item-bank + rubrika)” fájlokat).
 
 **Követelmény az M0 „complete”-hez:**
 
