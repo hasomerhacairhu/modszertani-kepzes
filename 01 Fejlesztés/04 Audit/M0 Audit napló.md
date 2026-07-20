@@ -1,0 +1,1 @@
+ide fogom írni a 0. modul auditját
