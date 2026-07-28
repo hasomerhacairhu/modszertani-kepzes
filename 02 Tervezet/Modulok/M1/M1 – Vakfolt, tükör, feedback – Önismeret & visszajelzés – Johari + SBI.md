@@ -10,7 +10,7 @@
 
 **Modulközponti kérdés**
 
-> „Hogyan látnak engem mások madrichként, és hogyan tudok úgy visszajelzést adni és kapni, hogy abból tanulás legyen – ne csak bántás?”
+> „Hogyan látnak engem mások madrichként, és hogyan tudok úgy visszajelzést adni és kapni, hogy abból tanulás legyen – ne bántás?”
 
 **Modulcél röviden**
 
@@ -23,19 +23,19 @@ Alap önismereti keret (Johari-ablak) és egy **konkrét, biztonságos visszajel
 A modul végére a résztvevő…
 
 1. **Vakfolt-tudatosság**
-   – **Megnevezed** a Johari-ablak 4 mezőjét, és **saját (akár fiktív) példával illusztrálod**, miért természetes, hogy mindenkinek vannak **vakfoltjai** – és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
+   – **Meg tudja nevezni** a Johari-ablak 4 mezőjét, és **saját (akár fiktív) példával illusztrálja, miért természetes, hogy mindenkinek vannak **vakfoltjai** – és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
    – Támogató tartalmak: M1.1, M1.A, M1.F.
 2. **Megfigyelés vs. címkézés**
-   – **Megkülönbözteted** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – **legalább 4/5 tételben helyesen besorolod**, és **címkéből megfigyelést írsz át**.
+   – **Megkülönbözteti** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – **legalább 4/5 tételben helyesen besorolja, és **címkéből megfigyelést ír át**.
    – Támogató tartalmak: M1.2, M1.A, M1.B, M1.F.
 3. **SBI-nyelv használata**
-   – **Megírsz egy 2–3 mondatos, egyszerű, de korrekt SBI-visszajelzést, amely tartalmaz S-t (helyzet), B-t (viselkedés) és I-t (hatás)**.
+   – **Megír egy 2–3 mondatos, egyszerű, de korrekt SBI-visszajelzést, amely tartalmaz S-t (helyzet), B-t (viselkedés) és I-t (hatás)**.
    – Támogató tartalmak: M1.3, M1.4, M1.B, M1.F.
 4. **Visszajelzéshez való viszony** *(nem értékelt, nevelési cél)*
-   – **Megfogalmazol** a záróreflexióban **1 mondatot arról, milyen visszajelzés segített már neked**, és **megnevezed**, mit teszel legközelebb, amikor visszajelzést kapsz – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk; reflexiós produktumként jelenik meg, nem a kapu része.)*
+   – **Megfogalmaz** a záróreflexióban **1 mondatot arról, milyen visszajelzés segített már neki**, és **megnevezi**, mit tesz legközelebb, amikor visszajelzést kapsz – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk; reflexiós produktumként jelenik meg, nem a kapu része.)*
    – Támogató tartalmak: M1.1–M1.4, M1.A, M1.B, M1.F.
 5. **Modulproduktum előállítása**
-   – **Elkészítesz** 1–2 db **2–3 mondatos SBI-vázat** valós vagy fiktív helyzetre, és **feltöltöd** az Assignmentbe.
+   – **Elkészít** 1–2 db **2–3 mondatos SBI-vázatot** valós vagy fiktív helyzetre, és **feltölti** az Assignmentbe.
    – Támogató tartalmak: M1.4, M1.B.
 
 ***
@@ -47,7 +47,7 @@ A modul végére a résztvevő…
 ### M1.1 – „Johari-ablak: vakfoltjaim felismerése” (10–15’)
 
 * **Cél:**
-  **Megnevezed** a Johari-ablak 4 mezőjét, és **saját szóval elmagyarázod**, hogy **nem látsz mindent magadból**, ezért a többiektől kapott visszajelzés segíthet feltárni a vakfoltjaidat, nem (csak) fáj.
+  **Megnevezni** a Johari-ablak 4 mezőjét, és **saját szóval elmagyarázni**, hogyan **nem látunk mindent magunkból**, ezért a többiektől kapott visszajelzés segíthet feltárni a vakfoltjainkat.
 * **Fókusz:**
   Johari-ablak 4 területe (nyitott, vakfolt, rejtett, ismeretlen); „vakfolt ≠ velem baj van”, hanem természetes emberi jelenség.
 * **Eszközök:**
@@ -63,7 +63,7 @@ A modul végére a résztvevő…
 ### M1.2 – „Megfigyelés ≠ értelmezés” (10–15’)
 
 * **Cél:**
-  **Besorolsz 4/5 mondatot helyesen** „megfigyelés” vagy „címke” kategóriába, és **átírsz legalább 3 címkét megfigyeléssé** – így megmutatod, hogy **nem mindegy, megfigyelést vagy címkét mondasz**, és hogy a jó visszajelzés megfigyelésre épül.
+  **Besorol 4/5 mondatot helyesen** „megfigyelés” vagy „címke” kategóriába, és **átír legalább 3 címkét megfigyeléssé** – így megmutatva, hogy **nem mindegy, megfigyelést vagy címkét mondunk-e**, és hogy a jó visszajelzés megfigyelésre épül.
 * **Fókusz:**
   „Bunkó voltál” vs. „háromszor közbevágott másoknak” típusú különbségek; „kamera” (tényszerű leírás) vs. „kommentár a fejemben”.
 * **Eszközök:**
@@ -95,7 +95,7 @@ A modul végére a résztvevő…
 ### M1.4 – „Miniszituációk: ‘Mondd el SBI-ben’” (15–20’)
 
 * **Cél:**
-  **Megírsz** írásban egy 2–3 mondatos, **konkrét SBI-t, amely tartalmaz S-t, B-t és I-t**, 1 választott szituációra, és **beadod** a modulproduktumot (SBI-váz) az Assignmentbe.
+  **Megírni** írásban egy 2–3 mondatos, **konkrét SBI-t, amely tartalmaz S-t, B-t és I-t**, 1 választott szituációra, és **beadni** a modulproduktumot (SBI-váz) az Assignmentbe.
 * **Fókusz:**
   Modul-kapu előkészítése: legalább 1 használható SBI-szöveg megírása.
 * **Eszközök:**
@@ -115,7 +115,7 @@ A modul végére a résztvevő…
 * **Cél (rövid):**
   Ráérezni, hogy mindenkinek vannak vakfoltjai, és ez **normális**; megkülönböztetni megfigyelést és címkét élő helyzetekben; közös nyelvet teremteni: Johari-ablak, vakfolt, megfigyelés vs. címke.
 * **Fókusz:**
-  Johari „testbe hozása” (nagy Johari-ablak, saját példák) + megfigyelés/címke játékok biztonságos térben.
+  Johari „életbe léptetése” (nagy Johari-ablak, saját példák) + megfigyelés/címke játékok biztonságos térben.
 * **Rövid percbontás-váz:**
   1. 0–5’ – Check-in: milyen érzés a „visszajelzés” szó.
   2. 5–15’ – Nagy Johari-ablak megrajzolása, példák a 4 mezőre.
@@ -132,7 +132,7 @@ A modul végére a résztvevő…
   Átélni a különbséget a **smiley-s** („jó volt / béna volt”) és a konkrét **SBI-visszajelzés** között – adni és kapni is; legalább 1–2 használható SBI-mondat megfogalmazása tipikus madrich-helyzetre; megérteni, hogy nem kell „tökéletesnek” lenni, van egy egyszerű nyelv, amihez vissza lehet nyúlni.
 * **Fókusz:**
   Gyakorlás triókban, élő helyzetkártyákkal (M1.4 példáiból), megfigyelő-checklisttel.
-* **Rövid percbontás-váz:**
+* **Rövid percbontás-vázlat:**
   1. 0–10’ – Recap mini-kvíz (S–B–I elemek, megfigyelés-példák).
   2. 10–30’ – Hármas gyakorlat (A ad, B kap, C megfigyelő; helyzetkártyák M1.4-ből).
   3. 30–40’ – Közös megbeszélés: milyen SBI-k működtek, mi esett jól / rosszul.
@@ -166,11 +166,11 @@ A modul végére a résztvevő…
 
 ### Kaputípus
 
-* **Éles / mastery gate** – mivel az SBI-nyelv **alapeszköz** lesz a további modulokban és terepen: a tanuló itt tanult SBI-jét később **maga is produkálja** – az **M6.B** játéklap peer-feedbacknél (ahol az M6 expliciten vissza is horgonyozza M1-re) és az **M7 Peula v2** utóreflexiójánál + bukás-feedbackjénél. (Megjegyzés: az M3-ban az SBI-keretet nem a tanuló produktuma, hanem a **képzői/mentori** bukás-visszajelzés használja.)
+* **Éles / mastery gate** – mivel az SBI-nyelv **alapeszköz** lesz a további modulokban és terepen: a tanuló az itt tanult SBI-jét később **maga is produkálja** – az **M6.B** játéklap peer-feedbacknél (ahol az M6 expliciten vissza is horgonyozza M1-re) és az **M7 Peula v2** utóreflexiójánál + bukás-feedbackjénél. (Megjegyzés: az M3-ban az SBI-keretet nem a tanuló produktuma, hanem a **képzői/mentori** bukás-visszajelzés használja.)
 
 ### Eszköz
 
-* **Moodle Assignment** – az M1.4 SBI-beadó, **rubrikás értékeléssel** (M1.4 produktumára építve).
+* **Moodle Assignment** – az M1.4 SBI-beadandó, **rubrikás értékeléssel** (M1.4 produktumára építve).
 
 ### Értékelési szempontok (rubrika)
 
@@ -179,7 +179,7 @@ A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 1. Szituáció (S) **konkrét-e** (hely, idő, kontextus).
 2. Viselkedés (B) **megfigyelhető-e** (nincs címke, kamera is felvenné).
 3. Hatás (I) **érthető / hiteles-e** (S–B–I logika felismerhető).
-4. **Tisztelettudó, nem támadó hangnem** – a viselkedésről szól (nem a személyt minősíti), nincs „mindig/soha”, a másik nem-védekezve tudna rá reagálni.
+4. **Tisztelettudó, nem támadó hangnem** – a viselkedésről szól (nem a személyt minősíti), nincs „mindig/soha”, a másik nem védekezve tudna rá reagálni.
 
 ### Minimális teljesítés (M1 „complete”)
 
@@ -188,11 +188,12 @@ A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** az itt megtanult SBI-nyelv lesz az alapja a Peula v2 **utóreflexiójának (a Peula 11. pontja)** és a produktumra adott **javító visszajelzésnek** – az M7 produktum-leadásánál (Peula v2 + Zmán Kvucá) a bukás-útvonal javító visszajelzése **SBI-ben** érkezik (max. 3 pont). Az M7.A/M7.B peulákon a peer-feedback maga a **peula-tervezés szempontjaira** épül (SMART-cél: „hol érzem SMART-nak / mit kérdeznék még?”, illetve a Zmán Kvucá „előtte–utána”), de az itt elsajátított SBI-szemléletet – konkrét helyzet, megfigyelhető viselkedés, érthető hatás – ugyanígy be tudod vinni, amikor egymás peuláira reagáltok.
 >
-> **És nem csak adni: kapni is.** Az SBI-t itt főleg úgy gyakorlod, hogy **te írsz** egyet – de a későbbi kapuk bukás-útvonalán (pl. **M4.4** mentori visszajelzés a pitchedre, **M7** javító visszajelzés a Peula v2-re) **te leszel a címzett**: SBI-ben kapod a javítást. Jó, ha tudod: a **rólad szóló SBI** sem a személyedet minősíti, hanem egy **viselkedést és annak hatását** nevezi meg (ahogy az M1.B-ben adni *és* kapni is gyakoroltad) – így a javító visszajelzést nem támadásként éled meg, hanem fogódzóként, amiből látod, mit csinálj legközelebb.
+> **És nem csak adni: kapni is.** Az SBI-t itt főleg úgy gyakorlod, hogy **te írsz** egyet – de a későbbi kapuk bukás-útvonalán (pl. **M4.4** mentori visszajelzés a pitchedre, **M7** javító visszajelzés a Peula v2-re) **te leszel a címzett**: SBI-ben kapod a javítást. Jó, ha tudod: a **rólad szóló SBI** sem a személyedet minősíti, hanem egy **viselkedést, egy feladat kivitelezését és annak hatását** nevezi meg (ahogy az M1.B-ben adni *és* kapni is gyakoroltad) – így a javító visszajelzést ne támadásként éld meg, hanem fogódzóként, amiből látod, mit csinálj máshogy legközelebb.
 
 ### Javítási logika
 
 * Ha nem éri el a minimumot, rövid, **SBI-típusú feedbacket** kap, és újrapróbálhatja (mastery learning).
+* Amennyiben eléri a minimumot, ezesetben is kap feedbacket, érdemes hangúlyozni, hogy mik és miért voltak pontosan a jó megoldások, hogy ezeket megerősítsük.
 
 ***
 
@@ -228,7 +229,7 @@ A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 
 [M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’)](./Peulák/M1.A%20–%20Önismeret%20&%20Johari%20+%20megfigyelés%20vs.%20címkézés%20%2845’%29.md)
 
-[M1.B – SBI-lab – Smiley-től a használható visszajelzésig (45’)](./Peulák/M1.B%20–%20SBI-lab%20–%20Smiley-től%20a%20használható%20visszajelzésig%20%2845’%29.md)
+[M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’)](M1.B%20–%20SBI-lab%20–%20Smiley-tól%20a%20használható%20visszajelzésig%20(45’).md)
 
 [M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)](./Peulák/M1.F%20–%20Felzárkóztató%20peula%20–%20Johari,%20megfigyelés%20és%20SBI%20egyben%20%2845’%29.md)
 
