@@ -72,7 +72,7 @@ Egy chanich egy egész peulán át figyel téged. **Miből** fogja leginkább le
 
 ### Item 3 – Érték → viselkedés lefordítása (M2.2)
 
-A jegyzetedbe a „felelősség” értéket írtad. Melyik megfogalmazás **viselkedés-szintű** (vagyis tényleg látható rajtad)?
+A jegyzetedbe lehet, hogy a „felelősség” értéket írtad. Melyik megfogalmazás **viselkedés-szintű** (vagyis tényleg látható rajtad)?
 
 - A) „Nagyon felelős ember vagyok, ez mindig is a legfontosabb tulajdonságom volt.”
 - B) „Szeretném, ha a kvucám érezné, hogy számíthatnak rám, mert felelős madrich vagyok.”
@@ -105,7 +105,7 @@ Egy 12 éves chanichod késő este privátban ír: *„Senki nem ért meg. Minde
 
 ### Item 6 – Mi az „idei vállalás”? (M2 integráció)
 
-A záró dugma ishit-mondatod akkor jó, ha **konkrét idei vállalás**. Melyik az?
+A záró dugma ishit-mondatod akkor jó, ha **konkrét idei vállalás**. Az alábbiak közül melyik vállalás konkrét?
 
 - A) „Idén sokkal jobb és befogadóbb madrich szeretnék lenni, mint tavaly voltam.”
 - B) „Mindig tisztelni fogom a chanichokat, és figyelek arra, hogy senki ne maradjon ki.”
