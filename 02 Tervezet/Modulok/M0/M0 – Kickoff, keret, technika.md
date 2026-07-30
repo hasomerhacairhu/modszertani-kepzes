@@ -4,7 +4,7 @@
 
 * **Időtartam:** 1 hét (könnyített bevezető modul)
 * **Heti offline:** péntek 2. sáv – **Peula A (M0.A, 45–60’)** – Kickoff & ismerkedés + technikai helpdesk-sarok
-* **Online terhelés:** kb. **3×10–15’ + 1×15–20’** mikrolecke (M0.1–M0.4) **+ külön bemutatkozó fórum-aktivitás** (poszt + komment), össz. kb. **45–70 perc + fórum**
+* **Online terhelés:** kb. **4×15–20’** mikrolecke (M0.1–M0.4) **+ külön bemutatkozó fórum-aktivitás** (poszt + komment), össz. kb. **60–75 perc + fórum**
 * **Teljes terhelés:** kb. **2–2,5 óra** – **tervezz inkább a felső értékkel (≈2,5 óra):** a bemutatkozó fórumposzt + komment és a technikai elsőlépések (Moodle-belépés, H5P) az első héten reálisan a hosszabb sávot viszik. **Jobb felfelé kerekíteni, mint alá-ígérni.**
 
 **Modulközponti kérdés**
@@ -54,7 +54,7 @@ A modul végére a madrich…
 * **L3 = M0.3** – Hogyan működik a Moodle / H5P / gate?
 * **L4 = M0.4** – Dugma ishit az online térben + bemutatkozó fórum
 
-### L1 / M0.1 – „Üdv a képzésben!” – Éves útiterv & mi köze hozzám (10–15’)
+### L1 / M0.1 – „Üdv a képzésben!” – Éves útiterv & mi köze hozzám (15–20’)
 
 * **Cél:** a résztvevő belép a képzés világába, **egyben látja az éves ívet**, és megfogalmazza, mit remél ettől az évtől madrichként.
 * **Fő tartalom röviden:**
@@ -63,7 +63,7 @@ A modul végére a madrich…
   * első reflektív kérdés: „Mit várok ettől az évtől madrichként?”
 * **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (timeline + mini-kérdések, 1 nyitott kérdés).
 
-### L2 / M0.2 – Madrich, nem terapeuta – szerepek és elvárások (10–15’)
+### L2 / M0.2 – Madrich, nem terapeuta – szerepek és elvárások (15–20’)
 
 * **Cél:** tisztázni a **madrich-szerepet** és a határokat (nem terapeuta, nem egyedüli felelős), és bevezetni a dugma ishit fogalmát egyszerű példákkal.
 * **Fő tartalom röviden:**
@@ -72,7 +72,7 @@ A modul végére a madrich…
   * dugma ishit 1 mondatban + 2–3 helyzet, ahol ez látszik.
 * **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-quiz, nyitott reflexió).
 
-### L3 / M0.3 – „Hogyan működik a Moodle / H5P / gate?” (10–15’)
+### L3 / M0.3 – „Hogyan működik a Moodle / H5P / gate?” (15–20’)
 
 * **Cél:** biztonságos, gyakorlati beléptetés a technikai környezetbe; a madrich **megtanulja kezelni** a Moodle felületet, alap H5P-t, és érti a kapuk logikáját.
 * **Fő tartalom röviden:**

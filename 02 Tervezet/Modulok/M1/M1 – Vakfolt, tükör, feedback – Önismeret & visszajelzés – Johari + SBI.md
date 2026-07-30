@@ -4,7 +4,7 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M1.A (hét 1) és M1.B (hét 2), kb. 45–45’
-* **Online terhelés:** kb. 4×10–20 perc mikrolecke (M1.1–M1.4, össz. \~50–70’)
+* **Online terhelés:** kb. 4×15–20 perc mikrolecke (M1.1–M1.4, össz. \~60–80’)
 * **Javasolt sorrend (egymásba fűzve / interleaving):** hét 1: **M1.1–M1.2 online → M1.A peula**; hét 2: **M1.3–M1.4 online (a kapu-beadóval) → M1.B peula**. A mikroleckék tehát **nem egy ülésben**, hanem a két peula köré csoportosítva haladnak: M1.A-t a tanuló **az M1.3–M1.4 ELŐTT** végezze (M1.A előremutató SBI-hídja erre épül), M1.B-t pedig **utánuk**. Az M1.4 SBI-beadót (kapu) a 2. héten, M1.B előtt érdemes leadni.
 * **Teljes terhelés:** kb. 2–3 óra (online + offline) – ez a Program terv §0 általános, modulonként 2–3,5 órás sávjának **alsó-középső tartománya**: az M1 nincs a §0 által kiemelten a felső (~3,5 óra) értékhez húzó modulok (M5/M6 és az M7 félév-szintézis) között, ezért itt reálisan a sáv aljához-közepéhez számolj. **Tervezz inkább a felső értékkel (≈3 óra): a megadott sávok a tényleges idő alsó becslései, és a reflexiós, írásos részek (különösen az M1.4 SBI-beadó + esetleges újrapróbálkozás a kapun) egyénenként hosszabbak lehetnek. Jobb felfelé kerekíteni, mint alá-ígérni – így a modul nem lesz „a vártnál nehezebb”.**
 
@@ -44,7 +44,7 @@ A modul végére a résztvevő…
 
 > A leckék itt sorszám szerint (M1.1→M1.4) szerepelnek, de a tanuló **nem egyben** dolgozza fel őket: **M1.1–M1.2** az M1.A peula **előtt**, **M1.3–M1.4** (a kapu-beadóval) az M1.B peula előtt esedékes – a részletes kadencia a §1 Modul meta „Javasolt sorrend” sorában.
 
-### M1.1 – „Johari-ablak: vakfoltjaim felismerése” (10–15’)
+### M1.1 – „Johari-ablak: vakfoltjaim felismerése” (15–20’)
 
 * **Cél:**
   **Megnevezni** a Johari-ablak 4 mezőjét, és **saját szóval elmagyarázni**, hogyan **nem látunk mindent magunkból**, ezért a többiektől kapott visszajelzés segíthet feltárni a vakfoltjainkat.
@@ -60,7 +60,7 @@ A modul végére a résztvevő…
 
 ***
 
-### M1.2 – „Megfigyelés ≠ értelmezés” (10–15’)
+### M1.2 – „Megfigyelés ≠ értelmezés” (15–20’)
 
 * **Cél:**
   **Besorol 4/5 mondatot helyesen** „megfigyelés” vagy „címke” kategóriába, és **átír legalább 3 címkét megfigyeléssé** – így megmutatva, hogy **nem mindegy, megfigyelést vagy címkét mondunk-e**, és hogy a jó visszajelzés megfigyelésre épül.
