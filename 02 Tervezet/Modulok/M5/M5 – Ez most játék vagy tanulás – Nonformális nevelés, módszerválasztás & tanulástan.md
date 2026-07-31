@@ -4,7 +4,7 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M5.A (hét 1) és M5.B (hét 2), **45–45’**
-* **Online terhelés:** kb. **4×10–20 perc** (M5.1–M5.4) — az M5.4 produktum-készítés (saját táblázat + Assignment-feltöltés) akár **20–30 perc** is lehet.
+* **Online terhelés:** kb. **4×15–20 perc** (M5.1–M5.4) — az M5.4 produktum-készítés (saját táblázat + Assignment-feltöltés) akár **20–30 perc** is lehet.
 * **Teljes terhelés:** kb. **2,5–3,5 óra** (online + offline együtt)
 
 > **Terhelés-őszinteség:** a fenti sávok a *reális felső* értéket is tartalmazzák — **tervezz inkább a felső értékkel** (≈ **3,5 óra**, az M5.4-nél a **30 perc** produktum-idővel). Az M5.4 az M5 **éles kapuja** (produktum-rubrika), ezért **ez a leginkább alulbecsülhető rész** — a táblázat összeállítása + önellenőrzés + Assignment-feltöltés könnyen átlépi a 20 percet, ezért szánj rá tudatosan többet. A felzárkóztató M5.F (Study Lab) ezen felül +45 perc, ha élsz vele.
