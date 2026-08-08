@@ -82,7 +82,7 @@
 
 ### Q3 – Alkalmazás (határeset: nonformális vs. informális)
 
-**Két helyzetet látsz. Melyik a *nonformális* (és nem informális)?**
+**Két helyzetet látsz. Melyik a *nonformális*?**
 > **I.** Otthon görgeted a TikTok-feedet; néha tanulsz egy infót, néha csak szórakozol, aztán elfelejted.
 > **II.** Pénteken a kenben a madrichok kitalálnak egy új játékot; eljátsszátok, majd körben megbeszélitek, hogyan kapcsolódik a szolidaritáshoz.
 
@@ -142,7 +142,7 @@
 
 ### Q6 – Alkalmazás (hibakeresés a láncban)
 
-**Egy madrich így tervez: „Imádom a bizalom-leeséses játékot, ezt fogjuk játszani a kvucával, a többi majd menet közben kialakul.” Mi a fő probléma a tervezésével?**
+**Egy madrich így tervez: „Imádom ezt a játékot, ezt fogjuk játszani a kvucával, a többi majd menet közben kialakul.” Mi a fő probléma a tervezésével?**
 
 - A) Igazából semmi: ha a játék jó, a kvuca élvezi, a tanulság úgyis kijön belőle magától.
 - B) ✅ Egy konkrét formával indít, mielőtt tisztázná, mit szeretne elérni vele és kinek szól.
@@ -182,7 +182,7 @@
 
 - A) 20 perces frontális magyarázat arról, mi az együttműködés, miért fontos, és hogyan néz ki a gyakorlatban.
 - B) ✅ Kooperatív építős feladat (közös torony/pálya), ahol mindenkinek külön szerepe van, utána rövid reflexió.
-- C) Egyéni rajzfeladat: mindenki külön lerajzolja, neki mit jelent a Somer, majd körben megmutatjátok egymásnak.
+- C) Egyéni rajzfeladat: mindenki lerajzolja, neki mit jelent a Somer, majd körben megmutatjátok egymásnak.
 - D) Csak egy energizer játék a feszültség levezetésére, és ezután már be is fejezzük a peulát.
 
 **Miért B a helyes:** készséget **csinálással** tanulnak, és a közös szerep a versengést együttműködéssé fordítja (M5.2 SLIDE 5C/6C).
