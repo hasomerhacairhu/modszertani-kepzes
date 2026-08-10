@@ -4,7 +4,7 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M6.A (hét 1) és M6.B (hét 2), kb. 45–45’
-* **Online terhelés:** 3×10–15’ (M6.1–M6.3) + 1×15–20’ (M6.4) mikrolecke, összesen kb. **45–65 perc**
+* **Online terhelés:** 4×15–20’ (M6.1–M6.4) mikrolecke, összesen kb. **60–75 perc**
 * **Teljes terhelés:** kb. 2,5–3 óra
 
 **Modulközponti kérdés**
@@ -15,7 +15,7 @@
 
 **Modulcél röviden**
 
-A madrich toolboxa **bővül konkrét játékokkal, történetekkel és kézműves ötletekkel**, és érti, hogy **melyik eszköz melyik kvucának**, milyen céllal és **milyen biztonsági / inkluzivitási szempontokkal** való. A modul végére elkészít **1 használható játéklapot** választott játékhoz / történethez / kézműveshez, benne: cél, kvuca, leírás, biztonság, inkluzivitás, variációk.
+A madrich eszközkészlete **bővül konkrét játékokkal, történetekkel és kézműves ötletekkel**, és érti, hogy **melyik eszköz melyik kvucának**, milyen céllal és **milyen biztonsági / inkluzivitási szempontokkal** való. A modul végére elkészít **1 használható játéklapot** választott játékhoz / történethez / kézműveshez, benne: cél, kvuca, leírás, biztonság, inkluzivitás, variációk.
 
 > 🔁 **Vissza M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / visszahívás / spacing) **változatlanul érvényes** – az M6 toolbox ennek a láncnak az eszköz-szintű folytatása. **Új dimenzió itt:** a **biztonság és az inkluzivitás** mint kapuzott mérce **az M6-ban indul** (nem korábbi M5-visszahívás) – itt kapcsoljuk rá a már ismert lánc minden lépésére.
 
@@ -37,7 +37,7 @@ A modul végére a madrich…
      *(Főleg: M6.2, M6.4 (T-ágak), M6.B, M6.F)*
 4. **Kézműves, ami tanít is**
    * Fel tud sorolni legalább **2–3 egyszerű kézműves-ötletet**, mindegyikhez 1–1 **nevelési fókuszt** (pl. együttműködés, identitás, felelősség, környezet).
-   * Észreveszi, ha egy kézműves **kirekesztő** lehet (ár, anyaghoz való hozzáférés, finommotorika, érzékenységek) és tud rajta igazítani.
+   * Észreveszi, ha egy kézműves feladat **kirekesztő** lehet (ár, anyaghoz való hozzáférés, finommotorika, érzékenységek) és tud rajta igazítani.
      *(Főleg: M6.3, M6.B, terep)*
 5. **Módszerválasztási döntés & játéklap**
    * Egy egyszerű szcenárió (helyzet + kvuca + cél) alapján **indokolt módszerválasztást** tud hozni (játék / történet / kézműves).
@@ -76,7 +76,7 @@ A modul végére a madrich…
 
 ### M6.3 – „Kézműves, ami tanít is” (10–15’)
 
-* **Fő fókusz:** a kézműves **nem csak elfoglalás**, hanem tudatos nevelési eszköz.
+* **Fő fókusz:** a kézműves feladat **nem csak elfoglalás**, hanem tudatos nevelési eszköz.
 * **Eszköz:** H5P Course Presentation (5–7 slide, képekkel).
 * **Mit tanul a madrich?**
   * 2–3 konkrét kézműves ötlet (plakát, érték-fal, személyes szimbólum, kvuca-zászló),
@@ -93,7 +93,7 @@ A modul végére a madrich…
 * **Eszköz:** H5P Branching Scenario (4 szcenárió, döntési pontokkal).
 * **Mit tanul a madrich?**
   * 3–4 valós-szerű helyzetben módszert választani,
-  * minden döntéshez **legalább 1 biztonsági és 1 inkluzív szempontot** megnevezni,
+  * minden döntéshez **legalább 1 biztonsági és 1 inkluzivitási szempontot** megnevezni,
   * a végén 1 saját helyzetet végiggondolni – ebből lesz a játéklap alapja.
 * **Kompetenciakapcsolat:** 1. Eszköz–kvuca illesztés, 2. Biztonság & inkluzivitás, 5. Módszerválasztási döntés & játéklap.
 
@@ -159,7 +159,7 @@ A modul végére a madrich…
 
 ## 6. Kapuk
 
-* **Kaputípus:** éles kapu (mastery gate) – módszerválasztás és játékvezetés közvetlenül érinti a chanichok **biztonságát és inkluzív élményét**.
+* **Kaputípus:** éles kapu (mastery gate) – módszerválasztás és játékvezetés közvetlenül érinti a chanichok **biztonságát és inkluzivitás élményét**.
 
 > **A kapu súlyozása:** a modul nonformális és produktum-alapú, ezért az **éles, blokkoló kapu a játéklap-rubrika (6.2)** – itt a **Biztonság** és **Inkluzivitás** sor a valódi tét. A **szcenárió-kvíz (6.1) formatív/diagnosztikus** előkészítő: felkészít és jelez, de **nem blokkol**. Ez összhangban van az M6.4 Branching divergens logikájával („nincs egyetlen jó megoldás”). A mérvadó kapu-logika a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) él.
 
@@ -185,7 +185,7 @@ A modul végére a madrich…
   1. **R1 – Cél-illeszkedés** – világos-e, mit tanít / mire való az eszköz; **„erős” szinten 1 mondatban a someres értékhez (kvuca, egalitás, társadalmi felelősség) is kapcsolódik**.
   2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (6–10 / 11–13 / 14–16 / 16+) + létszámot, és életkorilag védhető-e az eszköz**; **„erős” szinten megnevezi a someres kvuca-típust (Parparim / Kivsza / Leviatan / Zorea) + legalább 1, az M3.2-ben tanult korosztály-jellemzőt (figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) előhívva indokol**.
   3. **R3 – Leírás végrehajthatósága** – érthető-e a folyamat, időkeret, lépések, eszközök; **egy másik madrich el tudná-e indítani**.
-  4. **R4 – Biztonság** *(**hard-gate**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / consent biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyerekvédelem & safety keret M6-os, eszközspecifikus rétege [consent / fizikai / trigger]; M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyerekvédelem & safety** (R4) sorba.)*
+  4. **R4 – Biztonság** *(**hard-gate**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / consent biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyermekvédelem & safety keret M6-os, eszközspecifikus rétege [consent / fizikai / trigger]; M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyermekvédelem & safety** (R4) sorba.)*
   5. **R5 – Inkluzivitás** *(**hard-gate**)* – van-e legalább 1 nevezett akadály **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz.
 * **Követelmény:**
   * rubrikában min. „oké” (2) szint **minden sorban**,

@@ -111,11 +111,11 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 ## 3. ITEM – Eszköz-illesztés: fáradt napzárás
 
 **Szár:**
-> **13 éves** kvuca, **fáradtan** a ken-nap végén, egész napos program után. Célod a **lezárás és rövid közös reflektálás**, kb. 15 perced van, és a tér már nem alkalmas sok mozgásra. Mi a legjobb választás?
+> **13 éves** kvuca, **fáradtan** egy ken-nap végén, egész napos program után. Célod a **lezárás és rövid közös reflektálás**, kb. 15 perced van, és a tér már nem alkalmas sok mozgásra. Mi a legjobb választás?
 
 **Opciók:**
 - A) Pörgős, fizikailag megterhelő energizer „még egy utolsó nagy őrület”.
-- B) Mini kézműves: mindenki **1 szót/rajzot/matricát** tesz egy közös lapra a napjáról. ✅
+- B) Mini kézműveskedés: mindenki **1 szót/rajzot/matricát** tesz egy közös lapra a napjáról. ✅
 - C) 30 perces mély szerepjáték társadalmi felelősségről.
 - D) Hosszú, többszereplős történet bonyolult szállal.
 
@@ -204,7 +204,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > A „Szél fújja azt, aki…” játékban a középen álló mond egy állítást, és akire igaz, helyet cserél. **Melyik szabály teszi ezt biztonságossá** a kvuca érzelmi szempontjából?
 
 **Opciók:**
-- A) Közös **tiltott zóna** az érzékeny témákra, és hogy felállni **nem kötelező** – aki ülve marad, az is rendben van. ✅
+- A) Közös **tiltott zóna** az érzékeny témákra, és hogy **nem kötelező** felállni  – aki ülve marad, az is rendben van. ✅
 - B) A legszemélyesebb, identitást súroló állításokat válasszuk, mert azok a leghatásosabbak és gyorsan összehoznak.
 - C) Aki nem áll fel időben, kiesik a játékból, hogy legyen tétje és pörögjön a tempó.
 - D) A madrich előre kitalálja az összes állítást, a kvuca ne szólhasson bele, hogy biztosan ártalmatlan maradjon.
@@ -270,7 +270,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > Napzáráskor 13 éveseknél energizert választasz. Néhányan **már nagyon fáradtak**, fizikailag is. **Melyik megoldás a leginkluzívabb**, hogy ők se essenek ki?
 
 **Opciók:**
-- A) **Low-impact** játékot választasz, és jelzed, hogy **„low energy módban”** (ülve, kevesebb mozdulattal) is részt lehet venni. ✅
+- A) **Low-impact** játékot választasz, és jelzed, hogy **„energiatakarékos üzemmódban”** (ülve, kevesebb mozdulattal) is részt lehet venni. ✅
 - B) Megmondod, hogy mindenki vegyen részt teljes erőből, mert a közös erőfeszítéstől lesz igazán összekovácsolt csapat.
 - C) A fáradtakat kiállítod a játékból, hogy ők is pihenjenek, és ne lassítsák le a többieket a játék közben.
 - D) Pörgetsz egy nagyon fizikai, intenzív játékot, mert a mozgás majd felébreszti és energizálja a fáradt résztvevőket.
@@ -292,10 +292,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > Egy madrich így gondolkodik: *„Minél traumatikusabb történetet hozok, annál mélyebb beszélgetést lehet belőle csinálni.”* **Mi a helyes szakmai álláspont** erről?
 
 **Opciók:**
-- A) **Téves**: a túl erős, triggerelő történet könnyen lezár, befagyaszt vagy magára hagy valakit; a cél a **biztonságos tér**, nem a „bármi áron mély”. ✅
+- A) **Téves**, a túl erős, triggerelő történet könnyen lezár, befagyaszt vagy magára hagy valakit; a cél a **biztonságos tér**, nem a „bármi áron mély”. ✅
 - B) Igaz, mert az erős érzelem mindig erős tanulást hoz.
 - C) Igaz, de csak 6–10 éveseknél működik.
-- D) Igaz, ha a madrich utána gyorsan témát vált.
+- D) Téves, de ha a madrich utána gyorsan témát vált, akkor még menthető a helyzet.
 
 **Helyes:** A
 **Distraktor-indok:**
@@ -311,10 +311,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 ## 12. ITEM – Trigger-érzékenység: friss seb / nyitott vs. szégyenítő kérdés
 
 **Szár:**
-> Elmeséled a „Lili, az új lány” történetet (egy újonnan érkezőt egy beszólás kicsit kirekeszt). Tudod, hogy a kvucában nemrég valakit tényleg csúfoltak. **Melyik feldolgozó kérdés a legbiztonságosabb és leginkább reflektív** ezután?
+> Elmeséled a történetet Liliről, az új lányról (egy újonnan érkezőt egy beszólás kicsit kirekeszt). Tudod, hogy a kvucában nemrég valakit tényleg kicsúfoltak. **Melyik feldolgozó kérdés a legbiztonságosabb és leginkább reflektív** ezután?
 
 **Opciók:**
-- A) „Volt-e már olyan, hogy egy beszólás miatt **te** érezted magad kívül? (Nem kell nevet mondani.)” ✅
+- A) „Láttál-e már olyat, hogy egy beszólás miatt **valaki** kívül érezte magát? (Nem kell nevet mondani.)” ✅
 - B) „Ki volt itt a bunkó? Nevezzük meg!”
 - C) „Ugye mindannyian egyetértünk, hogy ilyet sosem csinálunk?”
 - D) „Szerintetek Lili túlreagálta?”
