@@ -12,11 +12,11 @@
 
 **Mikrocél (tanulói nyelven):**
 
-> A lecke végére egyben látod az **M0–M7 féléves utat**, fel tudsz idézni **legalább 3 számodra fontos modult/pillanatot**, és leírsz **1 dolgot, amit semmiképp nem szeretnél elfelejteni** ebből a félévből.
+> A lecke végére egyben fogod látni az **M0–M7 féléves utat**, fel tudsz idézni **legalább 3 számodra fontos modult/pillanatot**, és le tudsz írni **1 dolgot, amit semmiképp nem szeretnél elfelejteni** ebből a félévből.
 
 **Központi mondat:**
 
-> „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit jöttél már végig** madrichként.”
+> „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit haladtál már** az úton madrichként.”
 
 **Flow:** Hook → Input (timeline + modul-egymondatosok) → Activity (saját highlightok) → Check (mini-kvíz + záró mondat)
 
@@ -31,7 +31,7 @@
 > Ebben a **10–15 perces** leckében visszanézünk az egész félévre:
 > **M0–M7** – honnan indultunk, és hova jutottál el madrichként.
 
-> Nem teszt vagy vizsga lesz, hanem **egy vizuális idővonal** + pár rövid kérdés,
+> Nem teszt vagy vizsga lesz, hanem **egy vizuális idővonal** és pár rövid kérdés,
 > hogy lásd, miben fejlődtél, és melyik modul/pillanat volt neked a legfontosabb.
 
 > A központi kérdés:
@@ -52,7 +52,7 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
 
 ### SLIDE 1 – HOOK: „Ha a féléved egy sorozat lenne…”
 
-**Cél:** ráhangolás, érzelmi belépés, játékos keret.
+**Cél:** ráhangolódás, érzelmi belépés, játékos keret.
 
 #### Mit látunk?
 
@@ -86,21 +86,21 @@ Opciók (legördülő vagy listában):
 
 **Feedback (bármelyikre azonos, barátságos):**
 
-> „Oké 🙂 Ezt jegyezd meg magadnak, mert később visszajövünk rá.
-> Nem az a lényeg, mit választottál, hanem az, **hogy már van egy epizód, ami kiugrik a többiből**.”
+> „Oké 🙂 Ezt jegyezd meg magadnak, mert később visszajövünk hozzá.
+> Nem az a lényeg, mit választottál, hanem az, **hogy már van egy epizód, ami kiemelkedik a többi közü**.”
 
 ***
 
 ### SLIDE 2 – INPUT 1: „Mit csináltunk M0–M7 között?” – rövid timeline
 
-**Cél:** időbeli és logikai keret – lássa, hogy ív volt, nem random modulok.
+**Cél:** időbeli és logikai keret – lássa, hogy egy felépített ív volt, nem csak modulok véletlenszerű sorrendben.
 
 #### Mit látunk?
 
 * Horizontálisan elrendezett **idővonal** (M0 → M7), modul-kódokkal.
 * Mindegyikhez **1 rövid kulcsmondat** (max. 1 sor mobilon).
 
-**Alt-szöveg (kötelező): „Vízszintes idővonal M0-tól M7-ig: nyolc állomás balról jobbra, mindegyiknél a modul kódja és egy rövid kulcsmondat – az önismerettől és visszajelzéstől a kvucán, gyerekvédelmen és módszereken át a saját peuláig.” A modul-kódok és kulcsmondatok ne legyenek képbe égetve – a lenti felsorolás szövegként hordozza ugyanezt a tartalmat, így az idővonal üzenete kép nélkül is elérhető.**
+**Alt-szöveg (kötelező): „Vízszintes idővonal M0-tól M7-ig: nyolc állomás balról jobbra, mindegyiknél a modul kódja és egy rövid kulcsmondat – az önismerettől és visszajelzéstől a kvucán, gyermekvédelmen és módszereken át a saját peuláig.” A modul-kódok és kulcsmondatok ne legyenek képbe égetve – a lenti felsorolás szövegként hordozza ugyanezt a tartalmat, így az idővonal üzenete kép nélkül is elérhető.**
 
 #### Szöveg a dián (tömören):
 
@@ -113,13 +113,13 @@ Opciók (legördülő vagy listában):
 * **M2 – „Ki vagyok madrichként?”**
   → identitás-körök, someres értékek, dugma ishit
 * **M3 – „Kvuca, red flag, felelősség”**
-  → csoportdinamika, korosztályok, gyerekvédelem
+  → csoportdinamika, korosztályok, gyermekvédelem
 * **M4 – „Hallható és érthető vagyok?”**
   → kiállás, metakommunikáció, kérdezéstechnika
 * **M5 – „Ez most játék vagy tanulás?”**
   → nonformális nevelés, tanulástan, cél–kvuca–módszer
 * **M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”**
-  → konkrét eszköztár, safety & inkluzió
+  → konkrét eszköztár, biztonság & inkluzió
 * **M7 – „Peula a papírtól a valóságig”**
   → Peula 11 pont, Zmán Kvucá, AI-támogatás
 
@@ -130,7 +130,7 @@ Opcionális narráció (30–40 mp), egyszerűen felolvasva, 1–2 plusz mondatt
 > „Ez itt a féléved idővonala.
 > Látod, honnan indultunk M0-ban, és hova jutottunk el M7-re.
 
-> Közben az önismerettől és visszajelzéstől eljutottunk a kvuca, a gyerekvédelem, a módszerek és végül a **saját peulád** megírásáig.”
+> Közben az önismerettől és visszajelzéstől eljutottunk a kvuca, a gyermekvédelem, a módszerek és végül a **saját peulád** megírásáig.”
 
 Nincs kérdés ezen a dián – ez tiszta Input.
 
@@ -149,16 +149,16 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 #### Szöveg a dián (példa-„headline”-ok):
 
 > **M0 – Kickoff**
-> *„Értem, mi ez a képzés, és tudok belépni a rendszerbe.”*
+> *„Értem, mi ez a képzés, és be tudok lépni a rendszerbe.”*
 
 > **M1 – Vakfolt & feedback**
 > *„A feedback nem bántás, hanem tükör, és tudok SBI-ben visszajelzést írni.”*
 
 > **M2 – Madrich-identitás**
-> *„El tudom mondani, ki vagyok madrichként, és milyen értékeket akarok élni.”*
+> *„El tudom mondani, ki vagyok madrichként, és milyen értékeket akarok közvetíteni.”*
 
 > **M3 – Kvuca & red flag**
-> *„Felismerek alap csoportszakaszokat és gyerekvédelmi red flag-eket, és tudom, kinek jelzek.”*
+> *„Felismerek alap csoportszakaszokat és gyermekvédelmi jelzéseket, és tudom, kinek jelzek.”*
 
 > **M4 – Kiállás & kérdések**
 > *„Nem csak beszélek, hanem kapcsolódom, és tudok kérdésekkel dolgozni.”*
@@ -170,17 +170,17 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 > *„Van pár konkrét játékom / történetem, amit biztonságosan és inkluzívan tudok használni.”*
 
 > **M7 – Peula & Zmán Kvucá**
-> *„Meg tudok írni egy Peula v2-t Zmán Kvucával, etikusan használva az AI-t.”*
+> *„Meg tudok írni egy Peula v2-t Zmán Kvucára, etikusan használva az AI-t.”*
 
 Alul 1 gyors Check-kérdés:
 
-> „Melyik modulnál érzed azt a mondatot, hogy **‘ez rólam szól’**?”
+> „Melyik modulnál érzed azt a mondatot, hogy **‘ez rólam szól’** vagy **'ez igaz rám'**?”
 
 H5P **Multi Choice** (pipálhat többet is – nincs jó/rossz, csak reflexió) – „Válaszd ki 1–3 modult a listából”.
 
 Feedback:
 
-> „Szuper. Ezekre különösen érdemes figyelned a záró reflexiód írásánál is – valószínűleg itt volt a legnagyobb mozgásod.”
+> „Szuper. Ezekre különösen érdemes figyelned a záró reflexiód írásánál is – valószínűleg ebben érted el a legnagyobb változást.”
 
 ***
 
@@ -207,7 +207,7 @@ Opciók:
 
 **Kérdés 2**
 
-> „Melyik modulról szól inkább **a kvuca fejlődése és a gyerekvédelem**?”
+> „Melyik modul szól inkább **a kvuca fejlődéséről és a gyermekvédelemről**?”
 
 * M2 – „Ki vagyok madrichként?”
 * M3 – „Kvuca, red flag, felelősség” ✅
@@ -246,9 +246,9 @@ Opciók:
 
 #### Szöveg a dián:
 
-> **Az én félévem highlightjai**
+> **Az én félévem fénypontjai**
 
-> 🔎 **Mielőtt írsz, nézz vissza:** ha az **M0**-ban elmentetted magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2), vedd most elő (jegyzet, screenshot). Olvasd el – **mi valósult meg belőle?** Ha nincs meg a jegyzeted, a mondataid ott vannak az **M0.1 és M0.2 H5P-válaszaidban a Moodle-ben** – keresd ki most, mert a **Z.4 záró reflexiónál** is szükséged lesz rájuk.
+> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban elmentetted magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2), vedd ezeket most elő (jegyzet, screenshot). Olvasd el – **mi valósult meg belőle?** Ha nincs meg a jegyzeted, a mondataid ott vannak az **M0.1 és M0.2 H5P-válaszaidban a Moodle-ben** – keresd ki most, mert a **Z.4 záró reflexiónál** is szükséged lesz rájuk.
 
 > Írj **3–6 mondatot** egy szövegmezőben az alábbi kérdések alapján:
 
@@ -278,7 +278,7 @@ H5P: **Essay** – minimális karakterszámmal (pl. 200 karakter).
 
 * láttad az egész **M0–M7 idővonalat** egyben,
 * felidéztél néhány kulcsmodult,
-* kiválasztottál **2–3 saját highlightot**,
+* kiválasztottál **2–3 saját fénypontot**,
 * elkezdtél gondolkodni azon, **mit tanultál madrichként**.
 
 > Zárásként írj le **1 mondatot**:
@@ -293,6 +293,6 @@ Opcionális narráció (20–30 mp):
 
 **Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (vagy adj hozzá magyar feliratot), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
 
-> „Köszi, hogy végigmentél a visszanéző tükrön.
+> „Köszi, hogy végigmentél a visszanéző tükör modulon.
 > A következő leckében (Z.2) már kifejezetten a saját **tanulási pillanataidról** fogunk beszélni –
 > de ez az 1 mondat, amit most leírsz, jó kapaszkodó lesz ahhoz is.”

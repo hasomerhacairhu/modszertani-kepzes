@@ -7,7 +7,7 @@
 **Időtartam (teljes lecke):** **kb. 40–60 perc – tervezz inkább a felsővel (1 óra).** Ez a Z modul leghosszabb online eleme, mert nem csak jegyzetelsz, hanem egy kész, **letölthető záró-ívet** is összeraksz. Bontása:
 
 * H5P **Documentation Tool** – záró reflexiós ív kitöltése (a 3 kérdéshez): **~20–30’**
-* **Az ív letöltése + Moodle Assignment leadás** (a kész ívet adod be, vagy belőle 2–3 perces videót veszel fel): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
+* **Az ív letöltése + Moodle Assignment leadás** (a kész ívet adod be, vagy egy 2–3 perces videót veszel fel belőle): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
 * Anonim képzés-feedback űrlap: **~5–10’**
 
 > **Őszinte terhelés:** a Z modul záró leckéje könnyen **szabad-szöveg-fáradtsággá** válik, ha minden kérdés külön üres mezőként néz rád. Ezért most **egy összefüggő reflexiós ívbe** fűzzük a kérdéseket: végighaladsz rajta, és a végén **egy darabban letöltöd** – ez lesz a záró-dokumentumod. Nem kell egyben megcsinálnod: az ív **menet közben menthető**, így **nyugodtan tarthatsz szünetet**, és külön ülésben fejezheted be / veheted fel a végleges reflexiót.
@@ -24,11 +24,11 @@
 
 > A lecke végére lesz egy **letölthető, összefüggő záró-íved** (a 3 kérdésre felfűzve),
 > tudni fogod, **melyik 2–3 pillanatról szeretnél írni/beszélni**,
-> és megfogalmazol **1–2 konkrét next step célt a terepre**, plusz kitöltöd a képzés feedbacket.
+> és megfogalmazol **1–2 konkrét célt következő lépésnek a terepre**, plusz kitöltöd a képzés feedbacket.
 
 **Központi mondat:**
 
-> „Ez nem vizsga, hanem **üzenet a jövőbeli önmagadnak** – és közben ajándék a képzésnek is, hogy tanulni tudjon belőled.”
+> „Ez nem vizsga, hanem **üzenet a jövőbeli önmagadnak** – és közben segítség a képzésnek is, hogy tanulni tudjon belőle.”
 
 **Flow:** Hook → Input (mi a reflexiós ív) → Activity (a 3 kérdés végigvezetése egy összefüggő íven) → Check (készen állsz az Assignment leadására?) → Export (letöltöd a záró-dokumentumod) → Assignment + Feedback
 
@@ -92,14 +92,14 @@
 
 Lehetőségek (a tanuló beírja / kiválasztja):
 
-* Inkább **szöveget** írnék (0,5–1 oldal) – ehhez maga a letöltött ív már majdnem kész.
+* Inkább **szöveget** írnék (kb. 1 oldal) – ehhez maga a letöltött ív már majdnem kész.
 * Inkább **videót** készítenék (2–3 perc) – a letöltött ív lesz a vázlatod a felvételhez.
 * Még nem tudom, majd a végén eldöntöm.
 
 **Kis jelzés:**
 
-> „Bármelyik jó – válassz olyat, amiben **könnyebben vagy önazonos**.
-> Ugyanazt a 3 kérdést használod vázlatnak mindkét úthoz – ezért szuper, hogy egy íven van.”
+> „Bármelyik jó – válassz olyat, ami **könnyebben megy vagy önazonosabb**.
+> Ugyanazt a 3 kérdést használod vázlatnak mindkét úthoz – ezért van egy íven.”
 
 ***
 
@@ -118,13 +118,13 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > Miért pont ezek?”
 
 > 2️⃣ **Szemléletváltás**
-> „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
+> „Miben érzed úgy, hogy **változott a madrich-szemléleted** az M0 modulhoz képest?”
 
 > 3️⃣ **Következő lépések + megosztás**
-> „Írj le **1–2 konkrét next step célt** a terepre.
+> „Írj le **1–2 konkrét célt a következő lépéshez** a terepre.
 > Kinek fogod elmondani, hogy ezeket vállalod?”
 
-> A következő lépéseken **végighaladsz** mindhárom kérdésen, egy összefüggő íven.
+> A következő lépésekben **végighaladsz** mindhárom kérdésen, egy összefüggő íven.
 > A végén ebből lesz **a letölthető záró-dokumentumod** – a szöveged, vagy a videód vázlata.
 
 *(Ezen a lépésen nincs beírnivaló, csak Input.)*
@@ -178,7 +178,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > Írj **3–5 mondatot**:
 
 > – *„Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
-> (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyerekvédelemre, a saját határaidra, a visszajelzésre…)
+> (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyermekvédelemre, a saját határaidra, a visszajelzésre…)
 
 **Text input mező a) (a Documentation Tool 2. szövegmezője)** – címke: *„Madrich-szemléletem változása”*. A szöveg **bekerül a letölthető ívbe**.
 
@@ -189,7 +189,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > Írj **még 2–4 mondatot**:
 
-> – *„Írj le 1–2 konkrét next step célt a terepre.”*
+> – *„Írj le 1–2 konkrét célt a következő lépésekhez a terepre.”*
 > – *„Kinek fogod elmondani, hogy ezeket vállalod?”*
 > (mentor, madrich-társ, ken-vezető, más)
 
@@ -211,7 +211,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > ✔ Van benne **2–3 konkrét pillanat**, röviden leírva?
 > ✔ Leírtad, **miben változott a madrich-szemléleted** M0-hoz képest?
-> ✔ Van **1–2 konkrét next step célod**, és benne, hogy **kinek mondod el**?
+> ✔ Van **1–2 konkrét célod a következő lépésekhez**, és megvan, hogy **kinek mondod el**?
 
 > Ha a fenti 3 kérdésre **igen** a válaszod, mehetsz a **letöltésre** – a következő lépés
 > egy darabban összeállítja és letölthetővé teszi a záró-íved.
@@ -233,7 +233,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 * Majdnem kész:
   > „Oké – görgess vissza, szánj rá még 5–10 percet, aztán töltsd le és menj tovább az Assignmentre.”
 * Elakadt:
-  > „Teljesen rendben – jelzést adhatsz a mentorodnak / képzőnek, hogy jó lenne egy rövid beszélgetés a Z-reflexióról. Az ívet **így is letöltheted**, ami megvan belőle.”
+  > „Teljesen rendben van – jelzést adhatsz a mentorodnak / képzőnek, hogy jó lenne egy rövid beszélgetés a Z-reflexióról. Az ívet **így is letöltheted**, ami megvan belőle.”
 
 ***
 
@@ -294,16 +294,16 @@ Lehetőségek (a tanuló beírja / kiválasztja):
    Miért pont ezek?”
 2. **Madrich-szemlélet**
    „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
-3. **Next step + megosztás**
-   „Írj le **1–2 konkrét next step célt** a terepre.
+3. **Következő lépések + megosztás**
+   „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre.
    Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > **Formátum:**
-> – *letöltött ív*: a Z.4 Documentation Toolból mentett dokumentum (kb. **0,5–1 oldalnyi** szöveg) – feltöltheted fájlként, vagy a tartalmát bemásolhatod az online szövegmezőbe
+> – *letöltött ív*: a Z.4 Documentation Toolból mentett dokumentum (kb. **1 oldalnyi** szöveg) – feltöltheted fájlként, vagy a tartalmát bemásolhatod az online szövegmezőbe
 > – *videó*: **2–3 perc**, beszélhetsz szabadon, a letöltött ív mint vázlat alapján
 
 > Nem fogalmazásverseny, nem jegy –
-> a cél, hogy **magadnak is megfogalmazd**, mit viszel tovább, és nekünk is adj tükröt a képzésről.
+> a cél, hogy **magadnak is megfogalmazd**, mit viszel tovább, és nekünk is tükröt adj a képzésről.
 
 ### Beállítás-javaslatok
 

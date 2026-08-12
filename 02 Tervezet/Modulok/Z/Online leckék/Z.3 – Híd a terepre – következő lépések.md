@@ -12,7 +12,7 @@
 
 **Mikrocél (tanulói nyelven):**
 
-> A lecke végére lesz **1–2 konkrét „next step” célod** a terepre
+> A lecke végére lesz **1–2 konkrét következő lépésed, célod** a terepre
 > (pl. „A következő 3 Zmán Kvucámon…”, „A következő hónapban…”),
 > és tudod magadról, hogy **mi lesz az első lépés**, ha holnap kezdenéd.
 
@@ -37,10 +37,10 @@
 > olyan dolgokat, amiket **tényleg meg tudsz csinálni** a következő 1–3 hónapban.
 
 > Ebben a leckében:
-> – kapsz pár **példamondatot „next step” célokra**,
+> – kapsz pár **példamondatot ezekhez a célokhoz**,
 > – és megfogalmazol **legalább 1–2 saját célt** a terepre.
 
-> A végén lesz egy rövid **self-check**:
+> A végén lesz egy rövid **önellenőrzés**:
 > *„Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”*
 
 **Gomb:** „Tovább a leckére” → H5P Course Presentation (Z.3)
@@ -75,7 +75,7 @@ Opciók:
 
 * „Túl nagy a nyomás, félek bármit ígérni.”
 * „Tele vagyok ötletekkel, de nehéz 1–2 dolgot kiválasztani.”
-* „Kicsit mindkettő – lelkes is vagyok, bizonytalan is.”
+* „Kicsit mindkettő – lelkes is vagyok, de bizonytalan is.”
 
 **Feedback (mindháromra hasonló, támogató):**
 
@@ -84,13 +84,13 @@ Opciók:
 
 ***
 
-### SLIDE 2 – INPUT: „Small steps” – miért kicsiben gondolkodunk?
+### SLIDE 2 – INPUT: Kis lépések – miért kicsiben gondolkodunk?
 
 **Cél:** elmagyarázni, miért jók a kis, konkrét lépések (nem kell SMART elmélet, csak light).
 
 **Szöveg a dián:**
 
-> **Miért „small steps”?**
+> **Miért kis lépések?**
 
 > Ha túl nagyot vállalsz, könnyen jön a:
 > – *„Úgysem sikerülne, akkor inkább nem is próbálkozom.”*
@@ -98,7 +98,7 @@ Opciók:
 > Ha túl kicsit, túl általánosat:
 > – *„Jobb madrich leszek.”* – ez szép, de **nem tudod, mikor teljesült.**
 
-> A jó „next step” cél:
+> A jó cél a következő lépés felé:
 > – **konkrét** (tudod, mit kell csinálni),
 > – **időben behatárolt** (pl. „a következő 3 Zmán Kvucámon…”),
 > – **hozzád mérten reális**, de kicsit kihívó is.
@@ -110,13 +110,13 @@ Opciók:
 
 ***
 
-### SLIDE 3 – INPUT + MINI-AKTIVITY: Példa „next step” mondatok
+### SLIDE 3 – INPUT + MINI-AKTIVITY: Példa mondatok a megvalósítható célokhoz
 
 **Cél:** példákon keresztül megmutatni, milyen formátumot szeretnénk.
 
 **Szöveg a dián:**
 
-> **Példamondatok – „next step” célok**
+> **Példamondatok – célokra a következő lépés felé**
 
 > 1️⃣ *„A következő 3 Zmán Kvucámon figyelek rá, hogy **legalább 1 új kérdezéstechnikát kipróbáljak**.”*
 
@@ -127,7 +127,7 @@ Opciók:
 > Ezekben közös, hogy:
 > – meg van nevezve **az időtáv** („következő 3 Zmán Kvucám”, „következő hónap”),
 > – meg van nevezve **a konkrét cselekvés**,
-> – és **reálisan belőhető**, hogy sikerült-e.
+> – és **reálisan felmérhető**, hogy sikerült-e.
 
 **Beágyazott kérdés – Multi Choice**
 
@@ -136,7 +136,7 @@ Opciók:
 (legalább 1 válasz választható)
 
 * A: Új kérdezéstechnikát kipróbálni.
-* B: Minden peula után 1 mondat saját tanulásról.
+* B: Minden peula után 1 mondatot írni a saját tanulásomról.
 * C: Tudatosabb beszélgetés a madrich-társammal.
 * D: Nekem teljesen más jut eszembe.
 
@@ -149,7 +149,7 @@ Opciók:
 
 ### SLIDE 4 – ACTIVITY 1: „A következő 3 Zmán Kvucámon…” – a Peula v2-d a terepen
 
-**Cél:** az M7-ben elkészített **saját Peula v2** konkrét, terepi lefuttatási tervének megírása (mikor / melyik kvuca / 1 megnevezett akadály → if–then megkerülés).
+**Cél:** az M7-ben elkészített **saját Peula v2** konkrét, terepi lefuttatási tervének megírása (mikor / melyik kvuca / 1 megnevezett akadály → ha–akkor megkerülés).
 
 **Szöveg a dián:**
 
@@ -166,17 +166,17 @@ Opciók:
 > Töltsd ki mind a hármat (ez nem fogadalom, hanem terv):
 > – **MIKOR** futtatod le? (pl. „a következő 3 Zmán Kvucám közül a másodikon”)
 > – **MELYIK KVUCÁVAL**? (pl. ⟬KITÖLTENDŐ: a saját kvucád neve / korosztály – pl. Kivsza, Leviatan⟭)
-> – **1 ELŐRE LÁTOTT AKADÁLY → if–then megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
+> – **1 ELŐRE LÁTOTT AKADÁLY → ha–akkor megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
 
-> Segítő példa (if–then):
-> – „…a Peula v2-met a 2. Zmán Kvucámon futtatom le a Leviatan-kvucámmal. **Ha** kevesebben jönnek a tervezettnél, **akkor** a páros feladatot egész csoportos körré húzom össze.”
-> – „…**ha** nincs elég idő a teljes peulára, **akkor** a nyitó-ráhangolót lerövidítem, és a fő élményrészt viszem végig.”
+> Segítő példa (ha–akkor):
+> – „…a Peula v2-met a 2. Zmán Kvucámon futtatom le a Leviatan-kvucámmal. **Ha** kevesebben jönnek a tervezettnél, **akkor** a páros feladatot egész csoportos körré alakítom át.”
+> – „…**ha** nincs elég idő a teljes peulára, **akkor** a nyitó-ráhangolódó részt lerövidítem, és a fő élményrészt viszem végig.”
 
 > Fontos: legyen **valóságos**, amit beírsz – olyan terv, amit tényleg el tudsz képzelni magad előtt a kvucáddal.
 
 **Beágyazott kérdés – Short Answer / Fill-in jelleg (KÖTELEZŐ)**
 
-**Short Answer** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály if–then formában).
+**Short Answer** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály ha–akkor formában).
 
 Placeholder:
 `A következő 3 Zmán Kvucámon **a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...**`
@@ -217,7 +217,7 @@ Placeholder:
 
 > **3. lépés – A Peula v2-det nem egyedül viszed terepre**
 
-> A SLIDE 4-en leírt **Peula v2-lefuttatásod** (mikor / melyik kvuca / if–then akadály) **könnyebben megvalósul**, ha **van mögötte egy ember**, akinek elmondod.
+> A SLIDE 4-en leírt **Peula v2-lefuttatásod** (mikor / melyik kvuca / ha–akkor akadály) **könnyebben megvalósul**, ha **van melletted egy ember**, akinek elmondod.
 
 > Gondold végig:
 > – Kinek mondod el, hogy **lefuttatod a Peula v2-det** ezeken a Zmán Kvucákon?
@@ -233,20 +233,20 @@ Placeholder:
 
 ***
 
-> 🛟 **Mielőtt élesben kvucát viszel – 1 safety-lépés (nem hagyható ki)**
+> 🛟 **Mielőtt élesben kvucát viszel – 1 biztonsági-lépés (nem hagyható ki)**
 
 > A terepen nem csak madrich-módszertanilag lépsz élesbe: **te leszel az a felnőtt**, aki észreveszi, ha valami nagyon nem oké a kvucádban. Ezért **az első éles Zmán Kvucád ELŐTT** intézd el ezt az egyet – pont azt, amit az **M0.A „Kihez fordulhatok?” térképén** és az **M3.3 jelzési láncában** (*észreveszem → komolyan veszem → jelzek*) tanultál, most a saját kenedre / kvucádra húzva:
 
-> – **Tudd meg / erősítsd meg**, ki a kened **gyerekvédelmi felelőse** (név + ahogy eléred), és ki a **ken-vezetőd**.
-> – Tudd, **hova / kihez jelzel red flag esetén** – és hogy **nem maradsz egyedül** vele.
+> – **Tudd meg / erősítsd meg**, ki a kened **gyermekvédelmi felelőse** (név + ahogy eléred), és ki a **ken-vezetőd**.
+> – Tudd, **hova / kinek szólsz jelzés esetén** – és hogy **nem maradsz egyedül** vele.
 
 > Írd le 1 mondatban (ha még nincs meg a név, írd be, kit kérdezel meg róla):
 
-> **„Az első éles Zmán Kvucám előtt megerősítem, ki a kened gyerekvédelmi felelőse (⟬KITÖLTENDŐ: név / elérhetőség – vagy: kit kérdezek meg róla⟭), és red flag esetén hozzá / a ken-vezetőhöz jelzek.”**
+> **„Az első éles Zmán Kvucám előtt megerősítem, ki a kened gyermekvédelmi felelőse (⟬KITÖLTENDŐ: név / elérhetőség – vagy: kit kérdezek meg róla⟭), és jelzés esetén neki / a ken-vezetőnek jelzek.”**
 
 **Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
 
-1 rövid mező – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **ki** a gyerekvédelmi felelős (vagy kit kérdezel meg róla) és **kihez jelzel** red flag esetén. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy a terepen megtudd; lásd M0.A → M3.3.)*
+1 rövid mező – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **ki** a gyermekvédelmi felelős (vagy kit kérdezel meg róla) és **kinek jelzel** ebben az esetben. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy a terepen megtudd; lásd M0.A → M3.3.)*
 
 ***
 

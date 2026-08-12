@@ -15,7 +15,7 @@
 
 **Modulcél röviden**
 
-A Z modul a félév **lezárását és értelmezését** támogatja. A madrich visszatekint az M0–M7 ívére, kiemel 2–3 számára meghatározó pillanatot, és megfogalmaz 1–2 konkrét „next step” célt a terepre (pl. „a következő 3 Zmán Kvucámon kipróbálok egy új feedback-formát”). A modul nem vizsga, hanem **reflektív tükör és híd a gyakorlat felé**, a kapu completion-alapú.
+A Z modul a félév **lezárását és értelmezését** támogatja. A madrich visszatekint az M0–M7 ívére, kiemel 2–3 számára meghatározó pillanatot, és megfogalmaz 1–2 konkrét következő lépést a terepre (pl. „a következő 3 Zmán Kvucámon kipróbálok egy új feedback-formát”). A modul nem vizsga, hanem **reflektív tükör és híd a gyakorlat felé**, a kapu completion-alapú.
 
 ***
 
@@ -27,8 +27,8 @@ A modul végére a résztvevő…
    – Vissza tud tekinteni az **M0–M7** modulokra mint összefüggő tanulási folyamatra, és meg tud nevezni legalább **3 fontos tanulási pillanatot**.
 2. **Reflektív önértékelés**
    – Képes rövid, őszinte **önreflexiót írni vagy videóban megfogalmazni** arról, miben változott madrichként.
-3. **Konkrét „next step” célok a terepre**
-   – Megfogalmaz legalább **1–2 konkrét, időben behatárolt „next step” célt**, ami a terepi madrich-gyakorlatára vonatkozik.
+3. **Konkrét következő lépések a terepre**
+   – Megfogalmaz legalább **1–2 konkrét, időben behatárolt „következő lépés” célt**, ami a terepi madrich-gyakorlatára vonatkozik.
 4. **Felsorolja, kihez fordulhat (mentor / képzők / ken-vezető / társ) elakadás esetén**
    – Tudja, **kihez fordulhat** (mentor, képzők, ken-vezetők, társak), ha a következő időszakban elakad.
 5. **Képzés-szintű visszajelzés adása**
@@ -65,7 +65,7 @@ A modul végére a résztvevő…
 * **Példamondatok:**
   – „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”
   – „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrichként.”
-* **Check:** self-check: „Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”
+* **Check:** önellenőrzés: „Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”
 
 ***
 
@@ -78,7 +78,7 @@ A modul végére a résztvevő…
 * **Ajánlott prompt a reflektív produktumhoz:**
   1. „Nevezz meg 2–3 pillanatot ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
   2. „Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest?”
-  3. „Írj le 1–2 konkrét next step célt a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
+  3. „Írj le 1–2 konkrét következő lépést, célt a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 ***
 
@@ -121,7 +121,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 **Célok:**
 
 1. Teret adni személyesebb megosztásnak (öröm, nehézség, félelem).
-2. Segíteni pontosítani a „next step” célokat.
+2. Segíteni pontosítani a következő lépéseket célokat.
 3. Feltérképezni, **milyen támogatásra van szükség a terepen**.
 
 **Javasolt struktúra (20–30’):**
