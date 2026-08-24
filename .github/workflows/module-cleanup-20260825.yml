@@ -22,6 +22,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Adapt M6.1 narration replacement to current punctuation
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('tools/module_cleanup_20260825.py')
+          s = p.read_text(encoding='utf-8')
+          old = """    if old_narr not in text:\n        raise RuntimeError('M6.1 age narration changed unexpectedly')\n    return text.replace(old_narr, new_narr)"""
+          new = """    if old_narr in text:\n        return text.replace(old_narr, new_narr)\n    pattern = re.compile(r'> \\*\\*6–10 évesek\\*\\*:.*?> \\*\\*16\\+ kvucák\\*\\*:.*?itt már több mély beszélgetés is belefér\\.', re.S)\n    replaced, n = pattern.subn(new_narr, text, count=1)\n    if n != 1:\n        raise RuntimeError('M6.1 age narration changed unexpectedly')\n    return replaced"""
+          if old not in s:
+              raise SystemExit('Expected M6.1 patch point not found')
+          p.write_text(s.replace(old, new, 1), encoding='utf-8')
+          PY
       - name: Apply validated module cleanup
         run: python tools/module_cleanup_20260825.py
       - name: Run objective integrity suite
