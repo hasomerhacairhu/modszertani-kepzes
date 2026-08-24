@@ -28,6 +28,24 @@ if start_marker in text and end_marker in text:
     text = text[:start] + replacement + text[end:]
 path.write_text(text, encoding='utf-8')
 
+# M7.2: explicit minor-safe, approved-service AI rule. The original heading is
+# "Flow (a Lecke sablon szerint)", so the generic transform did not match it.
+path = Path('02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md')
+text = path.read_text(encoding='utf-8')
+notice_header = '### Kötelező AI-hozzáférési és adatvédelmi keret'
+if notice_header not in text:
+    marker = '**Flow (a Lecke sablon szerint):**'
+    notice = '''### Kötelező AI-hozzáférési és adatvédelmi keret\n\n> Az AI **opcionális segédeszköz**, nem a feladat teljesítésének feltétele. A képző csak **szervezetileg jóváhagyott** AI-szolgáltatást nevezhet meg. 18 év alatti résztvevőnél a választott szolgáltatás aktuális korhatár- és szülői/gondviselői engedélyezési feltételeinek teljesülniük kell. Ha ez nem biztosított, legyen **egyenértékű, külső AI-fiók nélküli út**: saját ötletelés, mentor, nyomtatott promptkártya vagy képző által közvetített, anonimizált példa.\n>\n> Külső AI-szolgáltatásba **nem kerülhet chanich neve, elérhetősége, fotója, egészségügyi vagy mentális állapota, családi háttere, zsidó vagy más érzékeny identitása, pontos helyszíne vagy más beazonosítható/szenzitív története**. Gyermekvédelmi döntést, red flag minősítést vagy kríziskezelést **nem delegálunk AI-nak**; ilyen ügyben a kijelölt felelős embert kell bevonni.'''
+    if marker not in text:
+        raise SystemExit('M7.2 Flow marker not found')
+    text = text.replace(marker, notice + '\n\n' + marker, 1)
+# Replace the learner-facing blanket "open ChatGPT" invitation with policy-aware wording.
+text = text.replace(
+    '> 💡 *Nyugodtan nyiss meg egy AI-chat ablakot (pl. ChatGPT),  \n> és próbáld ki a javasolt promptokat – de ne írj be konkrét neveket,  \n> chanich-sztorikat vagy beazonosítható részleteket.  \n> Ha nem szeretnél AI-t használni, az is teljesen oké.*',
+    '> 💡 *Ha a képző megadott egy **jóváhagyott AI-eszközt**, és a használatának korhatár-/engedélyfeltételei nálad teljesülnek, kipróbálhatod a javasolt promptokat. Ha nem, ugyanazt a feladatot **AI-fiók nélkül** is teljesítheted. Konkrét neveket, chanich-sztorikat, érzékeny vagy beazonosítható részleteket egyik külső AI-ba se írj.*'
+)
+path.write_text(text, encoding='utf-8')
+
 errors = []
 def must(rel, phrase):
     if phrase not in Path(rel).read_text(encoding='utf-8'):
@@ -37,7 +55,7 @@ def must_not(rel, phrase):
         errors.append(f'FORBIDDEN {phrase!r} in {rel}')
 
 must('README.md', 'Release-státusz')
-must('02 Tervezet/RELEASE-READINESS.md', 'Állapot: NO-GO')
+must('02 Tervezet/RELEASE-READINESS.md', '**Állapot:** NO-GO')
 must_not('02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés – Johari + SBI.md', 'SBI-vázatot')
 must('02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md', 'nem ígérünk teljes titoktartást')
 must_not('02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md', 'érzelmi „gáz” (amygdala)')
