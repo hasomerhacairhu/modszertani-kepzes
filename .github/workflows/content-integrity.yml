@@ -18,4 +18,5 @@ jobs:
       - name: Objective integrity checks
         run: python tools/content_integrity.py
       - name: Release blocker report
+        if: always()
         run: python tools/content_integrity.py --release-report
