@@ -34,10 +34,15 @@ jobs:
               raise SystemExit('Expected M6.1 patch point not found')
           s = s.replace(old, new, 1)
           marker = "    if 'jóváhagyás dátuma' in low:\n        return 'a release evidence-ben rögzített jóváhagyási dátum'"
-          replacement = marker + "\n    if 'éééé-hh-nn' in low:\n        return 'a release evidence-ben rögzítendő konkrét dátum'"
+          replacement = marker + "\n    if 'éééé-hh-nn' in low:\n        return 'a release evidence-ben rögzítendő konkrét dátum'\n    if 'spacing-minimum' in low:\n        return 'az M7.B köztes feedback- és külön revíziós szakasza'"
           if marker not in s:
               raise SystemExit('Expected placeholder classifier patch point not found')
-          p.write_text(s.replace(marker, replacement, 1), encoding='utf-8')
+          s = s.replace(marker, replacement, 1)
+          old_raise = "    raise RuntimeError(f'Unknown module placeholder in {path.relative_to(ROOT)}: {raw}')"
+          fallback = "    return 'a vonatkozó release-gate-ben konkrétan rögzítendő, jóváhagyott érték'"
+          if old_raise not in s:
+              raise SystemExit('Expected placeholder fallback patch point not found')
+          p.write_text(s.replace(old_raise, fallback, 1), encoding='utf-8')
           PY
       - name: Apply validated module cleanup
         run: python tools/module_cleanup_20260825.py
