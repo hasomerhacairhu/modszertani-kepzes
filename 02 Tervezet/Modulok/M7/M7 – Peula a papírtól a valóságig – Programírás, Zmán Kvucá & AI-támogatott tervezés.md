@@ -286,7 +286,7 @@ A modul végére a madrich…
 
 [M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség](./Online%20leckék/M7.3%20–%20Zmán%20Kvucá-checklist%20–%20idő,%20tér,%20felelősség.md)
 
-[M7.4 – „Peula v2 + AI” – modulproduktum váz](./Online%20leckék/M7.4%20–%20Peula%20v1%20+%20AI%20–%20első%20modulproduktum-vázlat.md)
+[M7.4 – „Peula v1 + AI” – első modulproduktum-vázlat](./Online%20leckék/M7.4%20–%20Peula%20v1%20+%20AI%20–%20első%20modulproduktum-vázlat.md)
 
 [M7.A – Célból peula – SMART & 11 pont élőben](./Peulák/M7.A%20–%20Célból%20peula%20–%20SMART%20&%2011%20pont%20élőben.md)
 
