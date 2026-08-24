@@ -14,7 +14,7 @@
 
 **Modulközponti kérdés**
 
-> „Hogyan lesz egy someres ötletből olyan **Peula + Zmán Kvucá**, ami biztonságos, korosztály-illeszkedő – és ahol az AI (szervezetileg jóváhagyott generatív AI-eszköz) csak **segít**, nem helyettesít?”
+> „Hogyan lesz egy someres ötletből olyan **Peula + Zmán Kvucá**, ami biztonságos, korosztály-illeszkedő – és ahol a **szervezetileg jóváhagyott generatív AI-eszköz** csak segít, nem helyettesít?”
 
 **Kulcsfogalmak (első említés)**
 
@@ -25,7 +25,7 @@
 
 **Modulcél röviden**
 
-A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucára (pl. Parparim/Kivsza), amelyet a **modernizált Peula 11 pont** szerint írt meg; érti és használja a **Zmán Kvucá-checklistet**, és tudatosan, etikusan vonja be az **AI-t (szervezetileg jóváhagyott generatív AI-eszköz)** a tervezésbe – úgy, hogy a döntések a végén az ő kezében maradnak. (M7.1–M7.4, M7.A, M7.B)
+A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucára (pl. Parparim/Kivsza), amelyet a **modernizált Peula 11 pont** szerint írt meg; érti és használja a **Zmán Kvucá-checklistet**, és tudatosan, etikusan von be **szervezetileg jóváhagyott generatív AI-eszközt** a tervezésbe – úgy, hogy a döntések a végén az ő kezében maradnak. (M7.1–M7.4, M7.A, M7.B)
 
 **Kétkapus capstone – a Peula v2 nem egy ülésben készül el**
 
@@ -52,7 +52,7 @@ A modul végére a madrich…
 3. **Zmán Kvucá & operáció**
    * Érti, mit jelent a **Zmán Kvucá** mint időkeret, felelősség és gyermekvédelmi kontextus (M7.3).
    * Tud használni egy **Zmán Kvucá-checklistet** (helyszín, létszám, anyagok, B-terv, hozzáférhetőség, gyermekvédelem, szerepek) saját peulájára (M7.3, M7.4, M7.B).
-1. **AI-etikusság & adatbiztonság**
+4. **AI-etikusság & adatbiztonság**
    * Tudja, hogy AI-ba **nem írunk be azonosítható chanich-információt** (név, konkrét sztori, cím, fotó), és gyermekvédelmi ügyben mindig a kijelölt felelős felnőtt / gyermekvédelmi felelős a kontakt (M7.2–M7.4).
    * Különbséget tesz „AI segít ötletelni / fogalmazni” és „AI megírja helyettem az egész peulát” között; az utóbbit nem használja (M7.2, M7.4, M7.B).
 5. **Peula v2 + Zmán Kvucá produktum**
