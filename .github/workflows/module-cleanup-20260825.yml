@@ -1,0 +1,43 @@
+name: Module cleanup 2026-08-25
+
+on:
+  push:
+    branches:
+      - audit-fixes-2026-08-25
+    paths:
+      - tools/module_cleanup_20260825.py
+      - .github/workflows/module-cleanup-20260825.yml
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit-fixes-2026-08-25
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply validated module cleanup
+        run: python tools/module_cleanup_20260825.py
+      - name: Run objective integrity suite
+        run: python tools/content_integrity.py
+      - name: Assert zero module placeholders
+        run: |
+          if grep -R -n --include='*.md' 'KITÖLTENDŐ' '02 Tervezet/Modulok'; then
+            echo 'Module placeholders remain.' >&2
+            exit 1
+          fi
+      - name: Commit validated output
+        run: |
+          git config user.name "release-audit-bot"
+          git config user.email "release-audit-bot@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "fix: close module placeholders and align runtime semantics"
+            git push origin HEAD:audit-fixes-2026-08-25
+          fi
