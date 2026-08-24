@@ -1,10 +1,19 @@
 #!/usr/bin/env python3
 """Static integrity checks for the training repository.
 
-This intentionally separates objective repository errors from release blockers.
-Normal CI fails on broken local links, resurrected duplicate canonicals and known
-unsafe regressions. Organisation-specific KITÖLTENDŐ fields are reported as
-release blockers, but are not guessed or auto-filled.
+Read-only and deterministic. Two separate concerns:
+
+* **Objective errors** (exit 1) — things that are simply wrong in the repository:
+  broken internal links, resurrected duplicate canonical files, merge-conflict
+  markers, terminology drift, and a small set of *known* content regressions that
+  have actually happened here before and are dangerous to reintroduce.
+* **Release blockers** (reported, not failing unless ``--strict-release``) —
+  organisation-specific `KITÖLTENDŐ` fields and open release gates. These are
+  never guessed or auto-filled.
+
+Every rule below exists because the corresponding defect occurred in this
+repository. Do not add speculative prose linting: legitimate Hungarian text must
+never fail this check.
 """
 from __future__ import annotations
 
@@ -19,24 +28,19 @@ ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {'.git'}
 ACTIVE_ROOT = ROOT / '02 Tervezet'
 MODULE_ROOT = ACTIVE_ROOT / 'Modulok'
+MEDIA_ROOT = ACTIVE_ROOT / 'Média-assetek'
+AUDIT_ROOT = ROOT / '01 Fejlesztés' / '04 Audit'
 
+# Files whose duplicates were deleted during the 2026-08 canonicalisation. If one
+# reappears, two "canonical" versions of the same lesson exist again.
 LEGACY_PATHS = [
     '02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-től a használható visszajelzésig (45’).md',
     '02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyerekvédelem.md',
     '02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyerekvédelem 101 – red flag felismerése & első lépések.md',
     '02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyerekvédelem (Study Lab).md',
+    '02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md',
+    '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v2 + AI – modulproduktum váz.md',
 ]
-
-FORBIDDEN_ACTIVE = {
-    'te leszel az a felnőtt': '15+ célcsoportban a madrich maga is lehet kiskorú',
-    'érzelmi „gáz” (amygdala)': 'túlzottan leegyszerűsítő fejlődéslélektani metafora',
-    '2–3 perces minijelenetet': 'súlyos safeguarding-helyzetek kötelező eljátszása visszatérne',
-}
-
-CLOSED_REGRESSIONS = {
-    'fotózd le a rajzot, és töltsd fel': 'M2.1 teljes identitástérkép feltöltése visszatérne',
-    '2–3 perces minijelenetet': 'súlyos safeguarding-helyzetek kötelező eljátszása visszatérne',
-}
 
 REQUIRED_FILES = [
     'LICENSE',
@@ -49,9 +53,38 @@ REQUIRED_FILES = [
     '01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md',
 ]
 
+# Phrases that must not come back anywhere under Modulok/.
+FORBIDDEN_ANYWHERE = {
+    'te leszel az a felnőtt':
+        'a 15+ célcsoportban a madrich maga is lehet kiskorú, nem ő az egyedüli felelős felnőtt',
+    'érzelmi „gáz” (amygdala)':
+        'túlzottan leegyszerűsítő, nem védhető fejlődéslélektani metafora',
+    'fotózd le a rajzot, és töltsd fel':
+        'az M2.1 teljes identitástérkép-feltöltése adatminimalizálási regresszió',
+}
 
-def markdown_files():
-    for path in ROOT.rglob('*.md'):
+# M3 teaches disclosure, abuse and self-harm handling. The agreed safe default is
+# third-person case analysis, so *instructions to enact* those situations must not
+# reappear anywhere in M3. Matching is on instruction-level phrases, not on the
+# words "szerep" or "eset" in general.
+M3_ROLEPLAY_PHRASES = {
+    'miniszínház': 'a red flag helyzetek eljátszatása visszatérne',
+    'mini-színház': 'a red flag helyzetek eljátszatása visszatérne',
+    'minijelenet': 'a red flag helyzetek eljátszatása visszatérne',
+    'fórum-színház': 'a fórum-színház mikroelem szerepbe lépést kér',
+    'de-roling': 'a de-roling csak eljátszott szerep esetén értelmes',
+    'eljátssza a jelenetet': 'jelenet eljátszása súlyos gyermekvédelmi témán',
+    'eljátsszák': 'jelenet eljátszása súlyos gyermekvédelmi témán',
+    'gyermekvédelmi szerepjáték': 'a modul nem szerepjátékkal dolgozza fel a red flageket',
+}
+
+CONFLICT_MARKERS = re.compile(r'^(?:<{7}|={7}|>{7})(?:\s|$)', re.M)
+RESUME_PROMISE = re.compile(r'(mentve marad|később folytathatod|folytathatod később)')
+STALE_TERM = re.compile(r'[Gg]yerekvéd')
+
+
+def markdown_files(base: Path = ROOT):
+    for path in base.rglob('*.md'):
         if any(part in SKIP_DIRS for part in path.parts):
             continue
         yield path
@@ -105,6 +138,15 @@ def normalize_destination(raw: str) -> str | None:
     return unquote(raw)
 
 
+def check_structure(errors: list[str]) -> None:
+    for rel in REQUIRED_FILES:
+        if not (ROOT / rel).exists():
+            errors.append(f'MISSING-REQUIRED {rel}')
+    for rel in LEGACY_PATHS:
+        if (ROOT / rel).exists():
+            errors.append(f'LEGACY-DUPLICATE {rel}')
+
+
 def check_links(errors: list[str]) -> None:
     for md in markdown_files():
         text = md.read_text(encoding='utf-8', errors='replace')
@@ -122,34 +164,42 @@ def check_links(errors: list[str]) -> None:
                 errors.append(f'BROKEN-LINK {md.relative_to(ROOT)} -> {raw!r}')
 
 
-def check_structure(errors: list[str]) -> None:
-    for rel in REQUIRED_FILES:
-        if not (ROOT / rel).exists():
-            errors.append(f'MISSING-REQUIRED {rel}')
-    for rel in LEGACY_PATHS:
-        if (ROOT / rel).exists():
-            errors.append(f'LEGACY-DUPLICATE {rel}')
+def check_conflict_markers(errors: list[str]) -> None:
+    for md in markdown_files():
+        text = md.read_text(encoding='utf-8', errors='replace')
+        if CONFLICT_MARKERS.search(text):
+            errors.append(f'CONFLICT-MARKER {md.relative_to(ROOT)}')
+
+
+def check_terminology(errors: list[str]) -> None:
+    """`gyermekvédelem` is canonical (1997. évi XXXI. tv.); the audit logs keep
+    their historical wording, and the derived media register is regenerated."""
+    for md in markdown_files(ACTIVE_ROOT):
+        if md.is_relative_to(MEDIA_ROOT):
+            continue
+        for lineno, line in enumerate(md.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
+            if STALE_TERM.search(line):
+                errors.append(f'TERMINOLOGY {md.relative_to(ROOT)}:{lineno} „gyerekvéd…” — kánoni alak: „gyermekvéd…”')
 
 
 def check_regressions(errors: list[str]) -> None:
     for path in MODULE_ROOT.rglob('*.md'):
-        text = path.read_text(encoding='utf-8', errors='replace').lower()
-        for phrase, why in FORBIDDEN_ACTIVE.items():
-            if phrase.lower() in text:
-                errors.append(f'REGRESSION {path.relative_to(ROOT)}: {phrase!r} ({why})')
-        for phrase, why in CLOSED_REGRESSIONS.items():
-            if phrase.lower() in text:
-                errors.append(f'REGRESSION {path.relative_to(ROOT)}: {phrase!r} ({why})')
-    # H5P Documentation Tool has no content-state saving, so no lesson may promise
-    # resume for it. Scoped to a single line so that explaining *why we avoid it*
-    # does not trip the check.
-    promise = re.compile(r'(mentve marad|később folytathatod|folytathatod később)')
-    for path in MODULE_ROOT.rglob('*.md'):
-        for lineno, line in enumerate(path.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
-            if 'Documentation Tool' in line and promise.search(line):
-                errors.append(
-                    f'REGRESSION {path.relative_to(ROOT)}:{lineno} promises resume for H5P Documentation Tool'
-                )
+        text = path.read_text(encoding='utf-8', errors='replace')
+        low = text.lower()
+        rel = path.relative_to(ROOT)
+        for phrase, why in FORBIDDEN_ANYWHERE.items():
+            if phrase.lower() in low:
+                errors.append(f'REGRESSION {rel}: {phrase!r} ({why})')
+        if path.parts[-3] == 'M3' or '/M3/' in path.as_posix():
+            for phrase, why in M3_ROLEPLAY_PHRASES.items():
+                if phrase in low:
+                    errors.append(f'SAFEGUARDING {rel}: {phrase!r} ({why})')
+        # H5P Documentation Tool has no content-state saving, so no lesson may
+        # promise resume for it. Scoped to a single line, so that explaining *why
+        # we avoid it* does not trip the check.
+        for lineno, line in enumerate(text.splitlines(), 1):
+            if 'Documentation Tool' in line and RESUME_PROMISE.search(line):
+                errors.append(f'REGRESSION {rel}:{lineno} H5P Documentation Tool resume-ígéret')
 
 
 def release_blockers() -> list[str]:
@@ -175,7 +225,7 @@ def release_blockers() -> list[str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--strict-release', action='store_true', help='also fail when release blockers remain')
     parser.add_argument('--release-report', action='store_true', help='print release blockers but do not fail for them')
     args = parser.parse_args()
@@ -183,6 +233,8 @@ def main() -> int:
     errors: list[str] = []
     check_structure(errors)
     check_links(errors)
+    check_conflict_markers(errors)
+    check_terminology(errors)
     check_regressions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []
