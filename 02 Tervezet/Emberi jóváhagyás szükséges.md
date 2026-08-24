@@ -34,7 +34,7 @@ A jóváhagyott M7-átalakítás bevezetett egy **kétkapus, időben elosztott**
 A §9 **élesítés-előtti, blokkoló aláírólista** (7 sor). Kitöltendő:
 
 - **Módszertani felelős** + **DSL/gyerekvédelmi felelős** neve (§9 új 6. sor – kétlépcsős AI+safeguarding lektorálás; Program terv ~333/334)
-- **AI-média gépi-olvasható jelölés eszköze/eljárása** (§4 + §9 7. sor; Program terv ~207/333 – pl. C2PA / Content Credentials / vízjel; EU AI Act 50. cikk, hatály 2026.08.02)
+- **AI-média provenance-eljárás** (§4 + §9 7. sor): az **ember-olvasható** jelölés szövege és elhelyezése kötelező elem; a gépi provenance-jelölés (pl. C2PA / Content Credentials / vízjel) megőrzése ajánlott jó gyakorlat. Az EU AI Act 50. cikk (2) gépi jelölési kötelezettsége az AI-rendszer **szolgáltatóját** terheli; a deployer-oldali 50. cikk (4) közzétételi esetek (deepfake, közérdekű AI-szöveg) alkalmazhatóságát **jogi review** minősítse.
 - **Support-kontaktok** (§5/§6 `[...]`): adatkezelési felelős + technikai support megnevezett elérhetősége; **M4.1** (~54) technikai support csatorna
 - **Mentor:madrich arány** (§6 stáb-kapacitás realitás-megjegyzés) — a stáb tényleges kapacitása szerint
 - **Akadálymentesítési lektor** neve (LMS-sztenderd KAPUS pre-flight)
