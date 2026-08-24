@@ -4,14 +4,14 @@
 
 > ⚠️ **Gyermekvédelmi felelős review szükséges a véglegesítés előtt.**
 > Ez egy biztonságkritikus (gyermekvédelmi) kapu. Az éles használat előtt a szervezet **gyermekvédelmi felelőse / vezetője** olvassa át és hagyja jóvá, és illessze a **helyi protokollhoz** (kit hívnak, milyen sorrendben, mikor jön a 112, ki a gyermekvédelmi felelős név szerint). A hívószámok és jogszabályi hivatkozások a magyar gyakorlatot tükrözik – ellenőrizd, hogy időközben nem változtak-e.
-> **Külső / alternatív eszkalációs út (kötelező rögzíteni):** ha a gyanú épp a gyermekvédelmi felelősre / vezetőre vonatkozik, **vagy** a teljes helyi lánc érintett (összeférhetetlen), a jelzés **nem áll meg a kenben** – ilyenkor egy másik, nem érintett vezetőhöz, az **országos mozgalmi gyermekvédelmi kontakthoz** (⟬ KITÖLTENDŐ – országos mozgalmi gyermekvédelmi felelős / kontakt ⟭), illetve **közvetlenül a hatósági gyermekvédelmi jelzőrendszerhez** (Gyvt. szerinti jelzési kötelezettség; akut veszélynél **112**) megy. Ezt az utat a felelős a véglegesítés előtt töltse ki, és illessze a helyi protokollhoz.
+> **Külső / alternatív eszkalációs út (kötelező rögzíteni):** ha a gyanú épp a gyermekvédelmi felelősre / vezetőre vonatkozik, **vagy** a teljes helyi lánc érintett (összeférhetetlen), a jelzés **nem áll meg a kenben** – ilyenkor egy másik, nem érintett vezetőhöz, az **országos mozgalmi gyermekvédelmi kontakthoz** (a `Gyermekvédelem – release gate.md` szerint jóváhagyott alternatív/országos eszkalációs kontakt), illetve **közvetlenül a hatósági gyermekvédelmi jelzőrendszerhez** (Gyvt. szerinti jelzési kötelezettség; akut veszélynél **112**) megy. Ezt az utat a felelős a véglegesítés előtt töltse ki, és illessze a helyi protokollhoz.
 > **A safeguarding-tartalom (és ez a kapu) nem élesedik a gyermekvédelmi felelős aláírása nélkül.**
 >
 > | Mező | Érték |
 > |---|---|
-> | **Lektor (gyermekvédelmi felelős):** | ⟬ KITÖLTENDŐ – gyermekvédelmi felelős neve ⟭ |
-> | **Jóváhagyás dátuma:** | ⟬ KITÖLTENDŐ – ÉÉÉÉ-HH-NN ⟭ |
-> | **Következő felülvizsgálat:** | ⟬ KITÖLTENDŐ – ÉÉÉÉ-HH-NN (ajánlott: évente) ⟭ |
+> | **Lektor (gyermekvédelmi felelős):** | a `Gyermekvédelem – release gate.md`-ben jóváhagyott, névvel megadott kijelölt gyermekvédelmi felelős |
+> | **Jóváhagyás dátuma:** | a release evidence-ben rögzítendő konkrét dátum |
+> | **Következő felülvizsgálat:** | a release evidence-ben rögzítendő konkrét dátum |
 
 ---
 

@@ -31,9 +31,9 @@ A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucá
 
 > A félévzáró capstone **két kapun** át érik be – szándékosan **időben szétterítve** (spacing), hogy a peuládat ne egy lélegzetre, hanem két menetben csiszold:
 >
-> * **v1 – first-draft gate (M7 hét 1 vége, az M7.A után):** leadod a **Peula v1 első vázlatot** (M7.4 Assignment). Ez **alacsony tét**: rubrika-**előnézet**, NEM buktat, **újrapróbálható** – a célja, hogy lásd, hova tartasz, és hol kérsz segítséget. (Dátum: ⟬KITÖLTENDŐ: v1-leadás határideje⟭)
+> * **v1 – first-draft gate (M7 hét 1 vége, az M7.A után):** leadod a **Peula v1 első vázlatot** (M7.4 Assignment). Ez **alacsony tét**: rubrika-**előnézet**, NEM buktat, **újrapróbálható** – a célja, hogy lásd, hova tartasz, és hol kérsz segítséget. (Dátum: a Moodle-ben előre beállított és kommunikált v1-határidő)
 > * **~1 hét spacing-köz:** a v1 visszajelzései után, **az M7.B peula-klinikán és otthon** csiszolod a vázlatot – nem aznap, hanem a két hét közti időben érik be a gondolat.
-> * **v2 – mastery-kapu (M7 hét 2 vége, az M7.B után):** leadod a **véglegesített Peula v2 + Zmán Kvucá-operációt** – ez a tényleges, éles mastery-kapu (rubrika + kvíz, lásd „M7 – KAPU”). (Dátum: ⟬KITÖLTENDŐ: v2 mastery-leadás határideje⟭)
+> * **v2 – mastery-kapu (M7 hét 2 vége, az M7.B után):** leadod a **véglegesített Peula v2 + Zmán Kvucá-operációt** – ez a tényleges, éles mastery-kapu (rubrika + kvíz, lásd „M7 – KAPU”). (Dátum: a Moodle-ben előre beállított és kommunikált v2-határidő)
 >
 > A v1 és a v2 **ugyanaz a peula**, két érettségi fokon: a v1 a próba, a v2 a vállalható, megtartható verzió. A portfólió-átkötés (M1 SBI … M6 játéklap → v2) ezt táplálja – részletesen a §6 PORTFÓLIÓ-BEMENET és az „M7 – KAPU” §CAPSTONE.
 
@@ -124,7 +124,7 @@ A modul végére a madrich…
   Előkészíteni a modul produktumát: 1 **Peula v2 vázlatot** és a hozzá tartozó **Zmán Kvucá-operáció** alapjait.
 * **Programírás-fókusz:**
   „A végén legyen egy peula, amit **tényleg meg tudnál tartani** – nem csak papíron néz ki jól.”
-* **Eszközök:** H5P **Column / Course Presentation** + Moodle **Assignment** („Peula v2 – első vázlat” – formatív, még nem kapu).
+* **Eszközök:** H5P **Column / Course Presentation** + Moodle **Assignment** („Peula v1 – első vázlat” – formatív, még nem kapu).
 * **Tartalom röviden:**
   * Recap: 3 építőkocka összekapcsolása (SMART cél – Peula 11 pontja – Zmán Kvucá-checklist).
   * Vezetett kérdések a saját Peula v2-hez:
@@ -132,7 +132,7 @@ A modul végére a madrich…
     * SMART nevelési cél,
     * 3–4 fókuszpont a Peula 11 közül (pl. Élmény-blokk, Feldolgozás, Safety).
   * Mini AI-blokk: hogyan kérj AI-tól ötleteket feldolgozó kérdésekre, úgy, hogy a szöveget **a saját szavaiddal** írod át, és nem viszel be chanich-adatokat.
-  * Moodle Assignment: „Peula v2 – első vázlat” beadása minimum elvárásokkal (kitöltött meta, 3–4 peula-pont részletezve, mini Zmán Kvucá-táblázat).
+  * Moodle Assignment: „Peula v1 – első vázlat” beadása minimum elvárásokkal (kitöltött meta, 3–4 peula-pont részletezve, mini Zmán Kvucá-táblázat).
 
 ***
 
@@ -198,9 +198,9 @@ A modul végére a madrich…
 
 > **Hol történik a tényleges Peula v2 mastery-leadás? (kétkapus, időben szétterítve)**
 > A capstone **két kapun** át érik be:
-> – **v1 – first-draft gate (hét 1 vége, M7.A után):** az M7.4 Assignment („Peula v2 – első vázlat”) **formatív** (0/1 completion), **alacsony tét, rubrika-előnézettel, újrapróbálható, NEM buktat** – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu. (Határidő: ⟬KITÖLTENDŐ: v1-leadás⟭)
+> – **v1 – first-draft gate (hét 1 vége, M7.A után):** az M7.4 Assignment („Peula v1 – első vázlat”) **formatív** (0/1 completion), **alacsony tét, rubrika-előnézettel, újrapróbálható, NEM buktat** – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu. (Határidő: a Moodle-ben előre beállított és kommunikált v1-határidő)
 > – **~1 hét spacing-köz:** a v1 visszajelzései után a finomítás az **M7.B peula-klinikán és otthon** történik – nem aznapi v1→v2, hanem a két hét közti időben.
-> – **v2 – mastery-kapu (hét 2 vége, M7.B után):** a **véglegesített Peula v2 + Zmán Kvucá** leadása az **éles kapu**. (Határidő: ⟬KITÖLTENDŐ: v2 mastery-leadás⟭)
+> – **v2 – mastery-kapu (hét 2 vége, M7.B után):** a **véglegesített Peula v2 + Zmán Kvucá** leadása az **éles kapu**. (Határidő: a Moodle-ben előre beállított és kommunikált v2-határidő)
 > A részletes értékelőt (item-bank, 8 soros rubrika, blokkoló safety-sor, ponthoz kötött ≥70%) az **[M7 – KAPU – értékelő (item-bank + rubrika)](./M7%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** fájl tartalmazza.
 > **Horgonyzás:** a végleges Peula v2-t a **félév végén, mentor / képző** zárja le ezen az éles kapun – ez NEM csúszik a modulon kívülre, és a Z modul completion-alapú reflexiója **nem helyettesíti** ezt a mastery-értékelést.
 
@@ -286,7 +286,7 @@ A modul végére a madrich…
 
 [M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség](./Online%20leckék/M7.3%20–%20Zmán%20Kvucá-checklist%20–%20idő,%20tér,%20felelősség.md)
 
-[M7.4 – „Peula v2 + AI” – modulproduktum váz](./Online%20leckék/M7.4%20–%20Peula%20v2%20+%20AI%20–%20modulproduktum%20váz.md)
+[M7.4 – „Peula v2 + AI” – modulproduktum váz](./Online%20leckék/M7.4%20–%20Peula%20v1%20+%20AI%20–%20első%20modulproduktum-vázlat.md)
 
 [M7.A – Célból peula – SMART & 11 pont élőben](./Peulák/M7.A%20–%20Célból%20peula%20–%20SMART%20&%2011%20pont%20élőben.md)
 

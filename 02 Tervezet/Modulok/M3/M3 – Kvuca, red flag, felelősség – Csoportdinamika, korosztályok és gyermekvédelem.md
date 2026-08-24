@@ -255,7 +255,7 @@ A modul végére a résztvevő…
 
 [M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át](./Peulák/M3.A%20–%20Találd%20ki,%20hol%20tart%20a%20kvuca!%20–%20Történetek%20Tuckman%20szemüvegén%20át.md)
 
-[M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Miniszínház%20&%20lépés-térkép.md)
+[M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md)
 
 [M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab)](./Peulák/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyermekvédelem%20%28Study%20Lab%29.md)
 

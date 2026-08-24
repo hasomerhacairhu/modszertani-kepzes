@@ -217,7 +217,7 @@ replace(M32, "**Érzelmi szabályozás:** érettebb, stabilabb a fiatalabbaknál
 # ---------------------------------------------------------------------------
 # M3.B: remove learner enactment of high-risk safeguarding scenarios.
 # ---------------------------------------------------------------------------
-M3B = "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md"
+M3B = "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md"
 replace(M3B, "# M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép", "# M3.B – Red flag vagy nem? – Esetelemzés & lépés-térkép")
 replace(M3B, "**Cím (kvucának):** Red flag vagy nem? – Miniszínház & lépés-térkép", "**Cím (kvucának):** Red flag vagy nem? – Esetelemzés & lépés-térkép")
 replace(M3B, "Felismers **red flag helyzeteket** élő, eljátszott szituációkban (online/offline).", "Felismers **red flag helyzeteket** fiktív, harmadik személyű esetleírásokban (online/offline).", required=False)
@@ -321,7 +321,7 @@ replace_re(M72, r"\*\*Flow:\*\*", r'''### Kötelező AI-hozzáférési és adatv
 # ---------------------------------------------------------------------------
 # M7.4 naming: this is v1 draft; v2 is created after review in M7.B.
 # ---------------------------------------------------------------------------
-M74 = "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v2 + AI – modulproduktum váz.md"
+M74 = "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md"
 text = read(M74)
 text = text.replace("# M7.4 – „Peula v2 + AI” – modulproduktum váz", "# M7.4 – „Peula v1 + AI” – első modulproduktum-vázlat")
 text = text.replace("**Cím (tanulónak):** Peula v2 + AI – modulproduktum váz", "**Cím (tanulónak):** Peula v1 + AI – első modulproduktum-vázlat")

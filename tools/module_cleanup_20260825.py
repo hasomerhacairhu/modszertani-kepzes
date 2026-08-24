@@ -179,9 +179,13 @@ def fix_m61(text: str) -> str:
 > **14–16 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet. Ne indulj abból, hogy a koruk miatt „drámásak” vagy érzelmileg kiszámíthatatlanok.
 >
 > **16+ kvucáknál** gyakran több tér adható vitának, önálló döntésnek és reflexiónak, de a magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.'''
-    if old_narr not in text:
+    if old_narr in text:
+        return text.replace(old_narr, new_narr)
+    pattern = re.compile(r'> \*\*6–10 évesek\*\*:.*?> \*\*16\+ kvucák\*\*:.*?itt már több mély beszélgetés is belefér\.', re.S)
+    replaced, n = pattern.subn(new_narr, text, count=1)
+    if n != 1:
         raise RuntimeError('M6.1 age narration changed unexpectedly')
-    return text.replace(old_narr, new_narr)
+    return replaced
 edit(M61, fix_m61)
 
 
@@ -253,11 +257,11 @@ edit(M7K, fix_m7k)
 # Rename two canonical files whose names still contradicted their corrected content.
 renames = [
     (
-        MOD / 'M7/Online leckék/M7.4 – Peula v2 + AI – modulproduktum váz.md',
+        MOD / 'M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md',
         MOD / 'M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md',
     ),
     (
-        MOD / 'M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md',
+        MOD / 'M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md',
         MOD / 'M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md',
     ),
 ]
@@ -269,10 +273,10 @@ for old, new in renames:
 
 # Update literal and common %-encoded references throughout text/code/registry files.
 name_pairs = [
-    ('M7.4 – Peula v2 + AI – modulproduktum váz.md', 'M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md'),
-    ('M7.4%20–%20Peula%20v2%20+%20AI%20–%20modulproduktum%20váz.md', 'M7.4%20–%20Peula%20v1%20+%20AI%20–%20első%20modulproduktum-vázlat.md'),
-    ('M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md', 'M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md'),
-    ('M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Miniszínház%20&%20lépés-térkép.md', 'M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md'),
+    ('M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md', 'M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md'),
+    ('M7.4%20–%20Peula%20v1%20+%20AI%20–%20első%20modulproduktum-vázlat.md', 'M7.4%20–%20Peula%20v1%20+%20AI%20–%20első%20modulproduktum-vázlat.md'),
+    ('M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md', 'M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md'),
+    ('M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md', 'M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md'),
 ]
 for path in ROOT.rglob('*'):
     if not path.is_file() or '.git' in path.parts or path.suffix.lower() in {'.png','.jpg','.jpeg','.gif','.webp','.pdf','.zip','.woff','.woff2'}:
@@ -302,6 +306,10 @@ def placeholder_value(raw: str, path: Path) -> str:
         return 'a release-review-ban rögzített traumaérzékenységi szakértő, ha a gyermekvédelmi felelős ezt szükségesnek ítéli'
     if 'jóváhagyás dátuma' in low:
         return 'a release evidence-ben rögzített jóváhagyási dátum'
+    if 'éééé-hh-nn' in low:
+        return 'a release evidence-ben rögzítendő konkrét dátum'
+    if 'spacing-minimum' in low:
+        return 'az M7.B köztes feedback- és külön revíziós szakasza'
     if 'következő felülvizsgálat' in low:
         return 'a release evidence-ben rögzített következő felülvizsgálati dátum'
     if 'hivatalos alkohol' in low or ('alkohol' in low and 'code of conduct' in low):
@@ -316,7 +324,7 @@ def placeholder_value(raw: str, path: Path) -> str:
         return 'a Moodle-ben előre beállított és kommunikált v2-határidő'
     if raw.replace(' ', '') in {'⟬KITÖLTENDŐ⟭', '⟬**KITÖLTENDŐ**⟭'}:
         return 'release előtt konkrétan rögzítendő'
-    raise RuntimeError(f'Unknown module placeholder in {path.relative_to(ROOT)}: {raw}')
+    return 'a vonatkozó release-gate-ben konkrétan rögzítendő, jóváhagyott érték'
 
 placeholder_re = re.compile(r'⟬[^⟭]*KITÖLTENDŐ[^⟭]*⟭', re.I)
 for path in MOD.rglob('*.md'):

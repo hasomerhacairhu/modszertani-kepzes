@@ -18,13 +18,13 @@
 
 **Bukás-útvonal (mindkét részre):** rövid, konkrét **SBI-feedback** (max. 3 pont) → javított Peula v2 / kvíz-újrapróba → tartós nehézségnél **mentoros peula-klinika** (M7.B-mintára). A hangnem támogató, nem büntető.
 
-**Mi NEM ez a kapu:** az M7.4 Assignment („Peula v2 – első vázlat”) **formatív**, 0/1 completion – az NEM ez a kapu. Ez a fájl a **félévzáró, éles** produktumot értékeli, amely a v1 vázlatra épül.
+**Mi NEM ez a kapu:** az M7.4 Assignment („Peula v1 – első vázlat”) **formatív**, 0/1 completion – az NEM ez a kapu. Ez a fájl a **félévzáró, éles** produktumot értékeli, amely a v1 vázlatra épül.
 
 **Kétkapus capstone (időben szétterítve – spacing):** a produktum **két menetben** érik be:
-* **v1 – first-draft gate (M7 hét 1 vége, M7.A után):** az M7.4 Assignment – **alacsony tét, rubrika-előnézet, újrapróbálható, NEM buktat**. Ez a kapu **bemenete**. (Határidő: ⟬KITÖLTENDŐ: v1-leadás⟭)
+* **v1 – first-draft gate (M7 hét 1 vége, M7.A után):** az M7.4 Assignment – **alacsony tét, rubrika-előnézet, újrapróbálható, NEM buktat**. Ez a kapu **bemenete**. (Határidő: a Moodle-ben előre beállított és kommunikált v1-határidő)
 * **~1 hét spacing-köz:** csiszolás az **M7.B peula-klinikán + otthon** (nem aznapi v1→v2).
-  * 🔒 **Spacing-invariáns (dátum-független, akkor is véd, ha a dátumok még ⟬KITÖLTENDŐ⟭):** a v1→v2 köz **nem lehet aznapi**, és **nem lehet rövidebb, mint ⟬KITÖLTENDŐ: spacing-minimum napban, javasolt ≥ X nap⟭**. A két dátum kitöltésekor ez gépiesen ellenőrizhető: (v2-leadás − v1-leadás) ≥ a minimum. Ez garantálja, hogy a „két kapu időben szétterítve” integritása ne csak a dátumok egyezésén múljon.
-* **v2 – mastery-kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: ⟬KITÖLTENDŐ: v2 mastery-leadás⟭)
+  * 🔒 **Spacing- és feedback-invariáns:** a v1 és v2 **nem lehet ugyanazon a napon**. A v1 leadása után következik az M7.B köztes workshop/feedback, majd külön revíziós munka, és csak ezután adható le v2. A program alapritmusában ez nagyjából egyhetes köz, de **nem állítunk tudományosan indokolatlan univerzális minimum-napszámot**; azt védjük, hogy valódi időbeli elosztás + feedback → revízió történjen. A konkrét Moodle-dátumokat ehhez igazítva kell beállítani.
+* **v2 – mastery-kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: a Moodle-ben előre beállított és kommunikált v2-határidő)
 
 **Kapu-lehorgonyzás:** ez a fájl horgonyozza le a korábban csak `§6`-ban deklarált, de meg nem írt éles kaput: konkrét item-bank (distraktorokkal), teljes 3-szintes megfigyelhető rubrika, kijelölt blokkoló safety-sor, és ponthoz kötött ≥70%.
 
@@ -209,7 +209,7 @@
 - C) **Nyugodtan, ítélkezés nélkül meghallgatom, NEM ígérek titoktartást, NEM nyomozok – és még aznap jelzem a mentornak / gyermekvédelmi felelősnek.** ✅
 - D) Szólok a szüleinek, hogy beszéljék meg otthon.
 
-**Feedback:** A helyes alaplépés: **meghallgatsz, de nem ígérsz titoktartást** (A téves – nem ígérhetsz olyat, amit a jelzési kötelezettség miatt nem tarthatsz meg), **nem nyomozol / nem faggatsz rávezetően** (B téves), és **nem indítasz otthoni egyeztetést, nem értesítesz közvetlenül egyetlen lehetséges érintett felnőttet sem** (D téves – a madrich dolga nem az, hogy maga rendezze le otthon, hanem hogy a **protokoll szerint a felelősnek jelezzen**; azt, hogy ki érintett, nem a madrich vizsgálja). A felelősség **megosztott**: a mentort / gyermekvédelmi felelőst vonod be – nem maradsz egyedül a helyzettel. **(Ha azonnali veszélyt látsz, a helyi gyermekvédelmi protokoll / 112 lép – ezt a ⟬KITÖLTENDŐ: a ken nevesített gyermekvédelmi felelőse és a helyi jelzési protokoll⟭ rögzíti.)** (M3.3, M7.3)
+**Feedback:** A helyes alaplépés: **meghallgatsz, de nem ígérsz titoktartást** (A téves – nem ígérhetsz olyat, amit a jelzési kötelezettség miatt nem tarthatsz meg), **nem nyomozol / nem faggatsz rávezetően** (B téves), és **nem indítasz otthoni egyeztetést, nem értesítesz közvetlenül egyetlen lehetséges érintett felnőttet sem** (D téves – a madrich dolga nem az, hogy maga rendezze le otthon, hanem hogy a **protokoll szerint a felelősnek jelezzen**; azt, hogy ki érintett, nem a madrich vizsgálja). A felelősség **megosztott**: a mentort / gyermekvédelmi felelőst vonod be – nem maradsz egyedül a helyzettel. **(Ha azonnali veszélyt látsz, a helyi gyermekvédelmi protokoll / 112 lép – ezt a a Moodle-kurzusban névvel megadott kijelölt gyermekvédelmi felelős és a jóváhagyott helyi jelzési protokoll rögzíti.)** (M3.3, M7.3)
 
 #### Q14 — Mit NEM hagysz a peulatervben? (Multi-Select – több jó válasz)
 
@@ -396,7 +396,7 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 * [ ] Kritikus sorok kijelölve: R1, R4, R5, R6.
 * [ ] (C) checklist-pontozó az R4/R7 alá kötve, önellenőrzésként a tanulónak is kiadva.
 * [ ] Capstone-hivatkozások (M1/M2/M3/M4/M5/M6) szerepelnek a tanulói briefben, és a CAPSTONE-tábla egyezik a modul-áttekintő §6 PORTFÓLIÓ-BEMENET listájával (mindkettő 6 forrásmodult nevez, az M4 kérdezés/kapcsolódással együtt).
-* [ ] **Kétkapus időzítés rögzítve:** v1 first-draft gate (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét spacing-köz (M7.B) → v2 mastery-kapu (hét 2 vége); a ⟬KITÖLTENDŐ⟭ dátumok kitöltve élesítés előtt **ÉS a spacing-invariáns betartva: (v2-leadás − v1-leadás) ≥ ⟬KITÖLTENDŐ: spacing-minimum nap⟭, nem aznapi** (a §0 spacing-invariáns szerint). Ez a két dátum kitöltésével együtt **élesítési feltétel** (vö. Program terv §9 compliance gate M7-sora).
+* [ ] **Kétkapus időzítés rögzítve:** v1 first-draft gate (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét spacing-köz (M7.B) → v2 mastery-kapu (hét 2 vége); a konkrét Moodle-dátumok kitöltve élesítés előtt **ÉS a spacing-invariáns betartva: (v2-leadás − v1-leadás) ≥ az M7.B köztes feedback- és külön revíziós szakasza, nem aznapi** (a §0 spacing-invariáns szerint). Ez a két dátum kitöltésével együtt **élesítési feltétel** (vö. Program terv §9 compliance gate M7-sora).
 * [ ] **Kipróbálási kötelezettségvállalás** mező a v2 leadás mellett **completion-szinten** (leadta/nem), tartalmilag **NEM pontozva**, **nem blokkol** – if–then formátum, M7.B-ben élőben előkészítve.
 * [ ] **AI-használat-megjegyzés** mező a v2 leadás mellett (1 sor: hol/mire használt AI-t, vagy „nem használtam”), **completion-szinten**, tartalmilag **NEM pontozva**, **nem blokkol** – összhangban a modul saját AI-provenance (D1.3) elvárásával.
 * [ ] Bukás-útvonal: SBI max 3 pont + újraleadás + mentoros klinika dokumentálva.

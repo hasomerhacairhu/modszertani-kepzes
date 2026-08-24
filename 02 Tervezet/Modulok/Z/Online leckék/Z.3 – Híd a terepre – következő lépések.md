@@ -165,7 +165,7 @@ Opciók:
 
 > Töltsd ki mind a hármat (ez nem fogadalom, hanem terv):
 > – **MIKOR** futtatod le? (pl. „a következő 3 Zmán Kvucám közül a másodikon”)
-> – **MELYIK KVUCÁVAL**? (pl. ⟬KITÖLTENDŐ: a saját kvucád neve / korosztály – pl. Kivsza, Leviatan⟭)
+> – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed.
 > – **1 ELŐRE LÁTOTT AKADÁLY → ha–akkor megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
 
 > Segítő példa (ha–akkor):
@@ -225,7 +225,7 @@ Placeholder:
 
 > Írj le 1 rövid **elköteleződő** mondatot – ha–akkor kötéssel:
 
-> **„Elmondom a Peula v2-tervemet ⟬KITÖLTENDŐ: kinek⟭-nek, és ha elakadok / közbejön az akadály, akkor tőle kérek segítséget.”**
+> **„Elmondom a Peula v2-tervemet annak a konkrét mentoromnak vagy kijelölt tapasztalt madrichnak, akit név szerint ide beírok, és ha elakadok / közbejön az akadály, tőle kérek segítséget.”**
 
 **Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
 
@@ -242,7 +242,7 @@ Placeholder:
 
 > Írd le 1 mondatban (ha még nincs meg a név, írd be, kit kérdezel meg róla):
 
-> **„Az első éles Zmán Kvucám előtt megerősítem, ki a kened gyermekvédelmi felelőse (⟬KITÖLTENDŐ: név / elérhetőség – vagy: kit kérdezek meg róla⟭), és jelzés esetén neki / a ken-vezetőnek jelzek.”**
+> **„Az első éles Zmán Kvucám előtt a Moodle-kurzusban és a helyi protokollban ellenőrzöm a kijelölt gyermekvédelmi felelős és helyettes **nevét + elérhetőségét**, és felírom magamnak. Ha ez nincs egyértelműen megadva, nem vezetek önállóan éles foglalkozást, hanem jelzem a képzőnek.”**
 
 **Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
 

@@ -2,7 +2,7 @@
 from pathlib import Path
 
 # M3.B: eliminate any residual roleplay presentation block.
-path = Path('02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md')
+path = Path('02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md')
 text = path.read_text(encoding='utf-8')
 start_marker = '### 4.2.4. Jelenetek bemutatása + megbeszélés (kb. 3–4 perc / csoport)'
 end_marker = '**Képző kérdései a nagykörnek:**'
@@ -59,13 +59,13 @@ must('02 Tervezet/RELEASE-READINESS.md', '**Állapot:** NO-GO')
 must_not('02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés – Johari + SBI.md', 'SBI-vázatot')
 must('02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md', 'nem ígérünk teljes titoktartást')
 must_not('02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md', 'érzelmi „gáz” (amygdala)')
-must('02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md', 'Kötelező feldolgozási mód a jelen release-ben: harmadik személyű esetanalízis')
-must_not('02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md', '2–3 perces minijelenetet')
+must('02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md', 'Kötelező feldolgozási mód a jelen release-ben: harmadik személyű esetanalízis')
+must_not('02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md', '2–3 perces minijelenetet')
 must('02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md', 'Nincs eggyel kevesebb szék, nincs székszerző verseny')
 must('02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md', 'legalább 3 különböző teljes ágon')
 must('02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md', 'AI Act szerepek pontosan')
 must('02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md', 'Az AI **opcionális segédeszköz**')
-must('02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v2 + AI – modulproduktum váz.md', 'Peula v1')
+must('02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md', 'Peula v1')
 must_not('02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md', 'te leszel az a felnőtt')
 must('02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md', 'Moodle Assignment')
 must('02 Tervezet/LMS – hozzáférhetőségi sztenderd.md', 'WCAG 2.2 SC 1.2.2')
