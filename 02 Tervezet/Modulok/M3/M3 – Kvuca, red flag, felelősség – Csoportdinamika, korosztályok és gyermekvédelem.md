@@ -163,20 +163,21 @@ A modul végére a résztvevő…
 
 ***
 
-### Peula B (M3.B) – „Red flag vagy nem?” – Miniszínház & lépés-térkép (45’)
+### Peula B (M3.B) – „Red flag vagy nem?” – Esetelemzés & lépés-térkép (45’)
 
 * **Kapcsolódó online leckék:** M3.3, M3.4
 * **Célok:**
-  * Red flag helyzetek felismerése **élő, eljátszott** szituációkban.
+  * Red flag helyzetek felismerése **fiktív, harmadik személyű esetleírásokban**.
   * A felelős első lépés gyakorlása: mit mond a madrich, mit nem ígér, kit von be.
 * **Fókusz:**
   „Nem az a jó madrich, aki mindent egyedül megold, hanem aki tudja, **mikor kér segítséget**.”
+* ⚠️ **Kötelező formátum:** súlyos gyermekvédelmi helyzeteket **nem játszatunk el**. Nincs szereposztás, nincs „érintett gyerek” vagy „elkövető” szerep. A feldolgozás kívülről, esetkártya alapján történik – a részletes indoklás és a biztonsági keret az M3.B peulában van.
 * **Rövid percbontás-váz:**
   1. **0–10’ – Check-in & alapok:**
      * Gyors A/B sarok: „Red flag vagy nem?” pár egyszerű állításra.
-  2. **10–30’ – Miniszínház:**
-     * Kiscsoportok rövid szituációkat kapnak / írnak (online zaklatás, önsértés-gyanú, madrich–chanich határhelyzet, stb.) és eljátsszák.
-     * A többiek: red flag vagy nem? Mi az első lépés?
+  2. **10–30’ – Esetelemzés:**
+     * Kiscsoportok 1–1 **esetkártyát** kapnak (online zaklatás, önsértés-gyanú, madrich–chanich határhelyzet stb.), és négy pont mentén elemzik: mi a red flag → mi az első mondat → mit nem tesz a madrich → kit von be.
+     * A csoportok az **elemzésüket** hozzák vissza, nem jelenetet mutatnak be.
   3. **30–40’ – Lépés-térkép:**
      * Közös plakáton: észreveszem → jelzek → nem maradok egyedül → kit vonok be.
   4. **40–45’ – Zárókör:**
@@ -239,7 +240,7 @@ A modul végére a résztvevő…
   * Mely kérdésekre hibáznak sokan – ezeknél érdemes a tartalmat vagy a peula-részleteket finomhangolni (pl. madrich–chanich kapcsolat súlyossága, első lépés logikája).
 * **Thresholdok / beavatkozási pontok:**
   * Ha a résztvevők **>30%-a nem fejezi be az M3.3-at** a 2. hét végéig → extra emlékeztető + javasolt **M3.F** Study Lab.
-  * Ha a kapu-kvízen az átlag **<80%** → a következő képzős napon rövid összefoglaló blokk gyerekvédelem & red flag témában (esetleg újabb miniszínház-részlet a kvucákkal).
+  * Ha a kapu-kvízen az átlag **<80%** → a következő képzős napon rövid összefoglaló blokk gyermekvédelem & red flag témában (pl. további esetkártyák közös elemzése).
 
 
 
@@ -255,7 +256,7 @@ A modul végére a résztvevő…
 
 [M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át](./Peulák/M3.A%20–%20Találd%20ki,%20hol%20tart%20a%20kvuca!%20–%20Történetek%20Tuckman%20szemüvegén%20át.md)
 
-[M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md)
+[M3.B – Red flag vagy nem? – Esetelemzés & lépés-térkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md)
 
 [M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab)](./Peulák/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyermekvédelem%20%28Study%20Lab%29.md)
 
