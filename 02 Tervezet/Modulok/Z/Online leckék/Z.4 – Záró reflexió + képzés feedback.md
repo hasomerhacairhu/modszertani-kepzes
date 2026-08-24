@@ -17,7 +17,7 @@
 **Eszközök:**
 
 * **Moodle Assignment – Online text** – „Záró reflexiós ív” (strukturált sablonnal, piszkozatmentéssel; a tényleges draft/resume működést acceptance teszt igazolja)
-* **Moodle Assignment** – „Záró reflexió + next step” (a letöltött ív **vagy** abból felvett videó)
+* Ugyanez az Assignment a **leadás helye is**: online szöveg **vagy** abból felvett 2–3 perces videó
 * **Moodle Feedback / Questionnaire** – anonimizált képzés-értékelő *(külön marad)*
 
 **Mikrocél (tanulói nyelven):**
@@ -30,7 +30,7 @@
 
 > „Ez nem vizsga, hanem **üzenet a jövőbeli önmagadnak** – és közben segítség a képzésnek is, hogy tanulni tudjon belőle.”
 
-**Flow:** Hook → Input (mi a reflexiós ív) → Activity (a 3 kérdés végigvezetése egy összefüggő íven) → Check (készen állsz az Assignment leadására?) → Export (letöltöd a záró-dokumentumod) → Assignment + Feedback
+**Flow:** Hook → Input (mi a reflexiós ív) → Activity (a 3 kérdés végigvezetése egy összefüggő íven) → Check (készen állsz a leadásra?) → Leadás (véglegesíted a záró-dokumentumod) → Assignment + Feedback
 
 ***
 
@@ -44,7 +44,7 @@
 
 > Két dolgot csinálunk:
 
-1. Végigmész egy **összefüggő záró reflexiós íven** (H5P Documentation Tool), és a végén **letöltöd** egy darabban – ez lesz a „Záró reflexió + next step” feladathoz a produktumod (szöveg vagy belőle felvett videó).
+1. Végigmész egy **összefüggő záró reflexiós íven** – ez egy Moodle Assignment strukturált szövegsablonja –, és a végén **beadod** egy darabban (szöveg vagy belőle felvett videó).
 2. Kitöltesz egy **anonim képzés-értékelő űrlapot**, hogy mi, képzők is tanulni tudjunk ebből a félévből.
 
 > Az íven 3 vezető kérdésed lesz:
@@ -53,9 +53,9 @@
 2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *„Mit várok ettől az évtől madrichként?”* és a *„figyelek rá, hogy…”* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét next step célt** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
-> A H5P-ben most **egy összefüggő íven** rendezed a gondolataidat, a végén **letöltöd**, utána mész át az Assignmentre és a Feedbackre.
+> Most **egy összefüggő íven** rendezed a gondolataidat, a végén **beadod**, utána kitöltöd a Feedbacket.
 
-> **Egy darabban marad:** nem külön üres mezőkbe írsz – egyetlen, lépésenként kitölthető **reflexiós ívet** töltesz, amit a végén egyben mentesz le.
+> **Egy darabban marad:** nem külön üres mezőkbe írsz – egyetlen, szakaszokra bontott **reflexiós ívet** töltesz ki ugyanabban a beadásban.
 
 **Gomb:** „Tovább a leckére” → Moodle Assignment (Z.4 – „Záró reflexiós ív”, Online text)
 
@@ -83,8 +83,9 @@
 > Nem fogalmazásverseny, nem jegy.
 > Az számít, hogy **őszinte** legyél – magaddal és velünk.
 
-> Az íven **3 kérdésen** mész végig, a végén **letöltöd** egy darabban.
-> Megállhatsz közben, **ha a cél Moodle-környezetben a draftmentést előzetesen leteszteltük**; enélkül a tanulónak ezt nem ígérjük.
+> Az íven **3 kérdésen** mész végig, a végén **beadod** egy darabban.
+>
+> *(Fejlesztői feltétel: a megszakítás és a visszatérés lehetőségét csak akkor kommunikáljuk a tanulónak, ha a cél Moodle-környezetben a piszkozatmentést acceptance-teszttel igazoltuk – lásd `LMS – H5P runtime acceptance.md`. Amíg ez nincs meg, a lecke egy ülésben elvégzendő, és javasolja a szöveg külön lementését.)*
 
 **Beágyazott választás – Text input (rövid, egy soros) vagy Single-választás jellegű kérdés a lépésen belül**
 
@@ -92,8 +93,8 @@
 
 Lehetőségek (a tanuló beírja / kiválasztja):
 
-* Inkább **szöveget** írnék (kb. 1 oldal) – ehhez maga a letöltött ív már majdnem kész.
-* Inkább **videót** készítenék (2–3 perc) – a letöltött ív lesz a vázlatod a felvételhez.
+* Inkább **szöveget** írnék (kb. 1 oldal) – ehhez maga a kitöltött ív már majdnem kész.
+* Inkább **videót** készítenék (2–3 perc) – a kitöltött ív lesz a vázlatod a felvételhez.
 * Még nem tudom, majd a végén eldöntöm.
 
 **Kis jelzés:**
@@ -148,7 +149,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 2. Írd le röviden, **mi történt**.
 3. Írd le, **miért pont ezek** fontosak neked (mit tanultál, mit mutattak meg rólad / a kvucáról).
 
-**Text input mező (a Documentation Tool 1. szövegmezője)**
+**Az ív 1. szakasza (szövegmező)**
 
 * Címke: *„2–3 pillanat, ami megmaradt”* – a tanuló ide írja a 3–8 mondatot. Ez a szöveg **a Moodle-beadás része lesz**.
 
@@ -180,7 +181,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > – *„Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
 > (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyermekvédelemre, a saját határaidra, a visszajelzésre…)
 
-**Text input mező a) (a Documentation Tool 2. szövegmezője)** – címke: *„Madrich-szemléletem változása”*. A szöveg **bekerül a letölthető ívbe**.
+**Az ív 2. szakasza (szövegmező, a rész)** – címke: *„Madrich-szemléletem változása”*. A szöveg **a beadás része lesz**.
 
 > b) **Next step + kinek mondod el**
 
@@ -195,13 +196,13 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > Próbálj **konkrét időtávot és cselekvést** írni (pl. „a következő 3 Zmán Kvucámban…”, „a következő hónapban…”).
 
-**Text input mező b) (a Documentation Tool 3. szövegmezője)** – címke: *„Next step + kinek mondom el”*. A szöveg **bekerül a letölthető ívbe**.
+**Az ív 3. szakasza (szövegmező, b rész)** – címke: *„Next step + kinek mondom el”*. A szöveg **a beadás része lesz**.
 
 ***
 
-### LÉPÉS 5 – CHECK (Standard / szöveges lépés): Kész vagy a letöltésre?
+### LÉPÉS 5 – CHECK (Standard / szöveges lépés): Kész vagy a leadásra?
 
-**Cél:** mini self-check, mielőtt összeállítod és letöltöd az ívet.
+**Cél:** mini self-check, mielőtt véglegesíted és beadod az ívet.
 
 **Szöveg a lépésen:**
 
@@ -213,8 +214,8 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > ✔ Leírtad, **miben változott a madrich-szemléleted** M0-hoz képest?
 > ✔ Van **1–2 konkrét célod a következő lépésekhez**, és megvan, hogy **kinek mondod el**?
 
-> Ha a fenti 3 kérdésre **igen** a válaszod, mehetsz a **letöltésre** – a következő lépés
-> egy darabban összeállítja és letölthetővé teszi a záró-íved.
+> Ha a fenti 3 kérdésre **igen** a válaszod, mehetsz a **leadásra** – a következő lépésben
+> véglegesíted és beadod a záró-íved.
 
 **Beágyazott választás – Text input (rövid) a lépésen belül**
 
@@ -222,45 +223,45 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 Lehetőségek (a tanuló beírja / kiválasztja):
 
-* „Kész az ívem, mehet a letöltés és az Assignment.”
+* „Kész az ívem, mehet a leadás.”
 * „Majdnem kész, de még csiszolok rajta egy kicsit.”
 * „Elakadtam – lehet, hogy jó lenne valakivel beszélni róla.”
 
 **Kis jelzés (a választáshoz):**
 
 * Kész:
-  > „Szuper. Töltsd le az ívet, és lépj át az Assignmentre, amíg friss benned minden.”
+  > „Szuper. Add be az ívet, amíg friss benned minden.”
 * Majdnem kész:
-  > „Oké – görgess vissza, szánj rá még 5–10 percet, aztán töltsd le és menj tovább az Assignmentre.”
+  > „Oké – görgess vissza, szánj rá még 5–10 percet, aztán add be.”
 * Elakadt:
-  > „Teljesen rendben van – jelzést adhatsz a mentorodnak / képzőnek, hogy jó lenne egy rövid beszélgetés a Z-reflexióról. Az ívet **így is letöltheted**, ami megvan belőle.”
+  > „Teljesen rendben van – jelzést adhatsz a mentorodnak / képzőnek, hogy jó lenne egy rövid beszélgetés a Z-reflexióról. Az ívet **így is beadhatod**, ami megvan belőle.”
 
 ***
 
-### LÉPÉS 6 – EXPORT (Assignment véglegesítés lépés): Letöltöd a záró-dokumentumod
+### LÉPÉS 6 – LEADÁS (Assignment véglegesítés): Beadod a záró-íved
 
-**Cél:** a Documentation Tool **összeállítja egy összefüggő ívvé** mindazt, amit a 3 kérdéshez írtál, és **letölthetővé** teszi – ez a záró-dokumentumod.
+**Cél:** a tanuló véglegesíti és beadja a háromrészes ívet – ez a záró-dokumentuma.
 
 **Szöveg a lépésen:**
 
 > 🪶 **Kész a záró-íved.**
 
-> A Documentation Tool most **egy darabba fűzi** mindazt, amit írtál:
-> – a 2–3 pillanatot,
-> – a madrich-szemléleted változását,
-> – és a next step céljaidat + kinek mondod el.
+> Egy darabban van benne minden, amit írtál:
+> – a 2–3 pillanat,
+> – a madrich-szemléleted változása,
+> – és a next step céljaid + kinek mondod el.
 
-> Nyomd meg a **„Letöltés / Export”** gombot, és mentsd le magadnak az ívet.
-> Ez **üzenet a jövőbeli önmagadnak** – tedd el oda, ahol később megtalálod.
+> Nyomd meg a **„Beadás / Véglegesítés”** gombot.
+> Ez **üzenet a jövőbeli önmagadnak** is – ha szeretnéd megtartani, **másold ki magadnak a szöveget** (vagy nyomtasd ki a böngészőből), mielőtt beadod.
 
-**Assignment véglegesítés gomb**
+**Beadás gomb**
 
-* A Documentation Tool natív export-lépése: a kitöltött mezőket egy összefüggő dokumentummá fűzi, amelyet a tanuló **letölt** (a Documentation Tool a kitöltött ívet böngészőből menthető / nyomtatható dokumentumként adja vissza).
+* Moodle Assignment „Submit assignment / Beadás” – a háromrészes online szöveg (és/vagy a videófájl) leadása. Nincs külön exportlépés: a saját példányról a tanuló maga gondoskodik másolással vagy nyomtatással.
 
 **Kis jelzés:**
 
 > Nem fogalmazásverseny, nem portfólió – ez **a te íved magadnak**.
-> A közös, élő lezárás a kvucával a **Z.A záró-peulán** lesz; ez az ív azt **készíti elő**, nem váltja ki.
+> A közös, élő lezárás a kvucával a **Z.A záró-peulán** volt; ez az ív arra **épít**, nem váltja ki.
 
 ***
 
@@ -270,12 +271,14 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > ➜ A lecke után:
 
-1. Nyisd meg a **„Záró reflexió + next step” Assignmentet**, és add be a **letöltött ívedet** (vagy abból felvett videót).
+1. Véglegesítsd és add be a **„Záró reflexió + next step”** ívedet (vagy az abból felvett videót).
 2. Utána töltsd ki a **„Képzés feedback – anonim”** kérdőívet.
 
 ***
 
-## 4. Moodle Assignment – „Záró reflexió + next step”
+## 4. A leadás beállításai – „Záró reflexió + next step” Assignment
+
+> Ez **ugyanaz az Assignment**, amelynek szövegsablonján a 3. szakaszban végigmentél – itt a fejlesztői beállításai és a tanulónak megjelenő leírás szerepel. Nincs második, külön beadandó.
 
 **Név:**`Záró reflexió + next step`
 **Típus:** Assignment (Online text **és/vagy** File submission – videó)
@@ -283,7 +286,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 ### Leírás (tanulónak szóló szöveg)
 
 > **Feladatod:**
-> Add be a **letöltött záró reflexiós ívedet** (a Z.4 H5P Documentation Toolból), **vagy** abból felvett **2–3 perces videót**.
+> Töltsd ki és add be a **háromrészes záró reflexiós ívet**, **vagy** vedd fel belőle egy **2–3 perces videót**, és azt add be.
 
 > Az ív már a Z.1–Z.3-ban átgondolt dolgokra és a 3 kérdésre épül – itt most **leadod**, és ha szeretnéd, a beadás előtt még csiszolsz rajta.
 
@@ -299,8 +302,8 @@ Lehetőségek (a tanuló beírja / kiválasztja):
    Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > **Formátum:**
-> – *letöltött ív*: a Z.4 Documentation Toolból mentett dokumentum (kb. **1 oldalnyi** szöveg) – feltöltheted fájlként, vagy a tartalmát bemásolhatod az online szövegmezőbe
-> – *videó*: **2–3 perc**, beszélhetsz szabadon, a letöltött ív mint vázlat alapján
+> – *szöveg*: a kitöltött ív (kb. **1 oldalnyi**) közvetlenül az online szövegmezőben
+> – *videó*: **2–3 perc**, beszélhetsz szabadon, a kitöltött ív mint vázlat alapján
 
 > Nem fogalmazásverseny, nem jegy –
 > a cél, hogy **magadnak is megfogalmazd**, mit viszel tovább, és nekünk is tükröt adj a képzésről.

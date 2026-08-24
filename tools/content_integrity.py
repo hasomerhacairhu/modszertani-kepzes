@@ -140,11 +140,16 @@ def check_regressions(errors: list[str]) -> None:
         for phrase, why in CLOSED_REGRESSIONS.items():
             if phrase.lower() in text:
                 errors.append(f'REGRESSION {path.relative_to(ROOT)}: {phrase!r} ({why})')
-    z4 = MODULE_ROOT / 'Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md'
-    if z4.exists():
-        text = z4.read_text(encoding='utf-8', errors='replace')
-        if 'Documentation Tool' in text and ('mentve marad' in text or 'később folytathatod' in text):
-            errors.append('REGRESSION Z.4 unsupported H5P Documentation Tool resume promise')
+    # H5P Documentation Tool has no content-state saving, so no lesson may promise
+    # resume for it. Scoped to a single line so that explaining *why we avoid it*
+    # does not trip the check.
+    promise = re.compile(r'(mentve marad|később folytathatod|folytathatod később)')
+    for path in MODULE_ROOT.rglob('*.md'):
+        for lineno, line in enumerate(path.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
+            if 'Documentation Tool' in line and promise.search(line):
+                errors.append(
+                    f'REGRESSION {path.relative_to(ROOT)}:{lineno} promises resume for H5P Documentation Tool'
+                )
 
 
 def release_blockers() -> list[str]:
