@@ -26,8 +26,42 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Patch one-time transformer for current M3.B layout
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('tools/release_stabilization.py')
+          text = path.read_text(encoding='utf-8')
+          old = '    count=1, flags=re.S)\nreplace(M3B, "minijelenet", "esetfeldolgozás", required=False)'
+          new = '    count=1, flags=re.S, required=False)\nreplace(M3B, "minijelenet", "esetfeldolgozás", required=False)'
+          if old not in text:
+              raise SystemExit('Could not locate one-time M3.B compatibility patch point')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
       - name: Apply deterministic stabilization
         run: python tools/release_stabilization.py
+
+      - name: Finish M3.B case-analysis conversion by section boundaries
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md')
+          text = path.read_text(encoding='utf-8')
+          start_marker = '### 4.2.4. Jelenetek bemutatása + megbeszélés (kb. 3–4 perc / csoport)'
+          end_marker = '**Képző kérdései a nagykörnek:**'
+          if start_marker in text:
+              start = text.index(start_marker)
+              end = text.index(end_marker, start)
+              replacement = '''### 4.2.4. Esetek visszahozása + megbeszélés (kb. 3–4 perc / csoport)\n\nAlapértelmezés: 3 csoport → kb. 12 perc. Minden csoport röviden bemutatja a saját négy pontját. **Nem jelenetet mutat be**, hanem az elemzését: red flag → első mondat → tiltott reakció → bevonandó felelős.\n\nHa a megbeszélés közben valaki személyes érintettséget tár fel, állítsd meg a szakmai elemzést, ne kérdezd ki, és kövesd a fenti triage- és jelzési keretet.\n\n'''
+              text = text[:start] + replacement + text[end:]
+          text = text.replace('Jelenetek bemutatása', 'Esetek visszahozása')
+          text = text.replace('minijelenet', 'esetfeldolgozás')
+          text = text.replace('miniszínház', 'esetelemzés')
+          path.write_text(text, encoding='utf-8')
+          PY
 
       - name: Commit stabilization output
         run: |
