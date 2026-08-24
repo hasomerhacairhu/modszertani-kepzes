@@ -90,7 +90,7 @@ def normalize_destination(raw: str) -> str | None:
     if raw.startswith('<') and raw.endswith('>'):
         raw = raw[1:-1].strip()
     lower = raw.lower()
-    if lower.startswith(('http://', 'https://', 'mailto:', 'tel:', 'data:', 'javascript:')):
+    if lower.startswith(('http://', 'https://', 'file://', 'mailto:', 'tel:', 'data:', 'javascript:')):
         return None
     # Drop an optional Markdown title after a whitespace separator.
     m = re.match(r'^(.*?)(?:\s+["\'].*["\'])$', raw)

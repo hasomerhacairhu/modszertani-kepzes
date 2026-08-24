@@ -176,7 +176,7 @@ Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** k
 - **[M0 – „Kickoff, keret, technika”](./Modulok/M0/M0%20–%20Kickoff,%20keret,%20technika.md)**
 - **[M1 – „Vakfolt, tükör, feedback”](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20feedback%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)** – Johari-ablak, SBI.
 - **[M2 – „Ki vagyok madrichként_”](./Modulok/M2/M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)** – identitás, Somer-értékek, dugma ishit.
-- **[M3 – „Kvuca, red flag, felelősség”](./Modulok/M3/M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyerekvédelem.md)** – csoportdinamika, korosztályok, gyerekvédelem.
+- **[M3 – „Kvuca, red flag, felelősség”](./Modulok/M3/M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyermekvédelem.md)** – csoportdinamika, korosztályok, gyerekvédelem.
 - **[M4 – „Hallható és érthető vagyok_”](./Modulok/M4/M4%20–%20Hallható%20és%20érthető%20vagyok%20–%20Kiállás,%20kapcsolódás%20&%20kérdezéstechnika.md)**
 - **[M5 – „Ez most játék vagy tanulás_”](./Modulok/M5/M5%20–%20Ez%20most%20játék%20vagy%20tanulás%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)** – nonformális nevelés, tanulástan.
 - **[M6 – „Toolbox_ játék, történet, kézműves & inkluzivitás”](./Modulok/M6/M6%20–%20Toolbox%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**

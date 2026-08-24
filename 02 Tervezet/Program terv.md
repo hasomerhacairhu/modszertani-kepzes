@@ -370,7 +370,7 @@ Ez használható **flyerre, szülőknek, vezetőknek**:
 
 [M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit](./Modulok/M2/M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)
 
-[M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyerekvédelem](./Modulok/M3/M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyerekvédelem.md)
+[M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyerekvédelem](./Modulok/M3/M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyermekvédelem.md)
 
 [M4 – „Hallható és érthető vagyok?” – Kiállás, kapcsolódás & kérdezéstechnika](./Modulok/M4/M4%20–%20Hallható%20és%20érthető%20vagyok%20–%20Kiállás,%20kapcsolódás%20&%20kérdezéstechnika.md)
 
