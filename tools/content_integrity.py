@@ -53,7 +53,6 @@ def markdown_files():
 
 
 def strip_code_fences(text: str) -> str:
-    # Local-link checks should inspect rendered prose, not example code blocks.
     return re.sub(r'```.*?```', '', text, flags=re.S)
 
 
@@ -92,7 +91,6 @@ def normalize_destination(raw: str) -> str | None:
     lower = raw.lower()
     if lower.startswith(('http://', 'https://', 'file://', 'mailto:', 'tel:', 'data:', 'javascript:')):
         return None
-    # Drop an optional Markdown title after a whitespace separator.
     m = re.match(r'^(.*?)(?:\s+["\'].*["\'])$', raw)
     if m:
         raw = m.group(1)
@@ -146,9 +144,17 @@ def release_blockers() -> list[str]:
     placeholder_re = re.compile(r'KITÖLTENDŐ')
     for path in ACTIVE_ROOT.rglob('*.md'):
         text = path.read_text(encoding='utf-8', errors='replace')
-        count = len(placeholder_re.findall(text))
-        if count:
-            blockers.append(f'PLACEHOLDER {path.relative_to(ROOT)}: {count}')
+        if path.is_relative_to(MODULE_ROOT):
+            for lineno, line in enumerate(text.splitlines(), 1):
+                if placeholder_re.search(line):
+                    excerpt = ' '.join(line.strip().split())
+                    if len(excerpt) > 240:
+                        excerpt = excerpt[:237] + '...'
+                    blockers.append(f'MODULE-PLACEHOLDER {path.relative_to(ROOT)}:{lineno}: {excerpt}')
+        else:
+            count = len(placeholder_re.findall(text))
+            if count:
+                blockers.append(f'GOVERNANCE-PLACEHOLDER {path.relative_to(ROOT)}: {count}')
     rr = ACTIVE_ROOT / 'RELEASE-READINESS.md'
     if rr.exists() and '- [ ]' in rr.read_text(encoding='utf-8'):
         blockers.append('RELEASE-GATES RELEASE-READINESS.md contains open checklist items')
