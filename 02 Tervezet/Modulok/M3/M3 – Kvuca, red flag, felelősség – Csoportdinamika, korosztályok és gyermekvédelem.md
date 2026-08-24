@@ -29,17 +29,17 @@ A modul végére a résztvevő…
 2. **Korosztályi profilok – 4 kvuca, 4 világ**
    * 1–1 mondatos „miniprofilt” tud mondani a 4 kvucáról: **Parparim, Kivsza, Leviatan, Zorea** **(M3.2)**.
    * Meg tud nevezni kvucánként legalább 2 tényezőt: figyelem & energia, tipikus motivációk, tipikus helyzetek.
-1. **Gyermekvédelem & red flag-ek**
+3. **Gyermekvédelem & red flag-ek**
    * Érti, mi a gyermekvédelem lényege: **észrevenni és jelezni**, nem egyedül „megoldani” **(M3.3)**.
    * Felismer tipikus **red flag** helyzeteket: pl. bántalmazásgyanú, önsértésre utaló jelek, online zaklatás, nagyon megváltozott viselkedés, madrich–chanich határátlépések **(M3.3, M3.B)**.
 4. **Határok, ígéretek, első lépések**
    * Tudja, hogy **nem ígérhet 100% titoktartást** egy nehéz helyzetet megosztó chanichnak **(M3.3)**.
    * Tudja, kit kell bevonni (mentor / gyermekvédelmi felelős / vezető), és mi a logikus első lépés **(M3.3, M3.B)**.
 
-> ⚖️ **Jó tudni – a jelzés Magyarországon törvényi kötelezettség.**
-> A gyermek **veszélyeztetettségének jelzése nem csak „jó gyakorlat”, hanem törvényi kötelezettség** (**1997. évi XXXI. tv. – Gyvt., gyermekvédelmi jelzőrendszer**). A gyakorlatban ez **nem a madrich egyéni terhe**: a madrich a **mentornak / gyermekvédelmi felelősnek / vezetőnek** jelez, és **ők gondoskodnak** a külső jelzésről a **gyermekjóléti szolgálat / hatóság** felé (súlyos, bűncselekmény-gyanús esetben a rendőrség felé). A szervezeten belüli szóbeli jelzéssel tehát a felelősség **nem feltétlenül zárul le** – a felelős dolga a továbblépés. Ezért fontos, hogy a madrich mindig **jelezzen**, és **ne maradjon egyedül** a helyzettel.
-> **A tét 2024.09.01 óta nőtt:** a jelzés (kiemelt veszélyeztető oknál a haladéktalan, de **legkésőbb 3 munkanapon belüli** jelzés / feljelentés) **elmulasztása minden jelzőrendszeri tagra büntetőjogi felelősséget vonhat** (Btk. 209/A. § – vétség, **akár 2 év** szabadságvesztés). A someres madrich tipikusan **nem maga a jelzőrendszeri tag-intézmény**, de a téma súlyát és a határidő-logikát ettől még komolyan kell venni – ez is azt erősíti: **mindig jelezz**, időben, a felelősnek.
-> *(Forrás: 1997. évi XXXI. törvény – Nemzeti Jogszabálytár / njt.hu; net.jogtar.hu Gyvt. 99700031.tv.; a 2024.09.01-i módosításhoz Btk. 209/A. §, vö. modszertan.maltai.hu jelzőrendszeri összefoglaló.)*
+> ⚖️ **Jó tudni – a jelzés Magyarországon szabályozott, de a szerepeket pontosan kell szétválasztani.**
+> A Gyvt. 17. § a gyermekvédelmi jelzőrendszer résztvevői között szervezeteket és személyeket is nevesít, és veszélyeztetettség esetén jelzési / kezdeményezési kötelezettséget ír elő. A kiemelt veszélyeztető okokra vonatkozó hatályos szabályoknál a haladéktalan, legkésőbb három munkanapon belüli továbblépésnek büntetőjogi relevanciája is lehet. **Ebből azonban nem következik, hogy egy 15–17 éves önkéntes madrichnak önálló jogi minősítést vagy hatósági eljárást kellene végeznie.**
+> A képzésben alkalmazandó operatív szabály ezért: **észlelj → ne nyomozz → ne ígérj teljes titoktartást → azonnal vond be a kijelölt felelős felnőttet / gyermekvédelmi felelőst → akut veszélynél a szervezeti protokoll szerint sürgősségi segítség.** A pontos helyi láncot, a felelős nevét és azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, a gyermekvédelmi felelősnek és szükség esetén jogi szakértőnek kell jóváhagynia az élesítés előtt.
+> *(Elsődleges jogforrás: 1997. évi XXXI. törvény 17. §, Nemzeti Jogszabálytár; kapcsolódó hatályos büntetőjogi szabály: Btk. 209/A. §. A tananyag nem helyettesíti a szervezet aktuális gyermekvédelmi protokollját.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyermekvédelemre **(M3.4)**.
    * Külön kiemeli, hogy **madrich nem lehet párkapcsolatban chanichhal** – ezt súlyos határátlépésnek, red flag-nek tartja **(M3.4)**.
@@ -249,7 +249,7 @@ A modul végére a résztvevő…
 
 [M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ](./Online%20leckék/M3.2%20–%20Parparim,%20Kivsza,%20Leviatan,%20Zorea%20–%204%20kvuca,%204%20világ.md)
 
-[M3.3 – „Gyermekvédelem 101” – red flag felismerése & első lépések](M3.3%20–%20Gyermekvédelem%20101%20–%20red%20flag%20felismerése%20&%20első%20lépések.md)
+[M3.3 – „Gyermekvédelem 101” – red flag felismerése & első lépések](./Online%20leckék/M3.3%20–%20Gyermekvédelem%20101%20–%20red%20flag%20felismerése%20&%20első%20lépések.md)
 
 [M3.4 – „Do / Don’t madrichként” – határok, red flag-ek és modulproduktum](./Online%20leckék/M3.4%20–%20Do%20és%20Don’t%20madrichként%20–%20határok,%20red%20flag-ek%20és%20modulproduktum.md)
 
@@ -257,6 +257,6 @@ A modul végére a résztvevő…
 
 [M3.B – Red flag vagy nem? – Miniszínház & lépés-térkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Miniszínház%20&%20lépés-térkép.md)
 
-[M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab)](M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyermekvédelem%20(Study%20Lab).md)
+[M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab)](./Peulák/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyermekvédelem%20%28Study%20Lab%29.md)
 
 **[M3 – KAPU – értékelő (item-bank + rubrika)](./M3%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles, gyermekvédelmi kapuja**: a szcenárió-item-bank és a megfigyelhető rubrika (gyermekvédelmi felelős review-jával).

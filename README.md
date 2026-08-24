@@ -1,83 +1,64 @@
-# Módszertani Képzés (Madrih Képzés)
+# Módszertani madrichképzés
 
-## A Projektről
+A Hasomer Hacair magyarországi módszertani madrichképzésének **fejlesztési és implementációs specifikációja**.
 
-Ez a repository a Hasomer Hacair ifjúsági mozgalom megújult, **blended learning** alapú madrichképzésének (ifjúsági vezetőképzés) teljes módszertani és tartalmi anyagát tartalmazza.
+> **Release-státusz:** a repository tartalma jelenleg **nem tekinthető éles, jóváhagyott Moodle-kurzusnak**. A tananyag pedagógiai váza fejlett, de a `02 Tervezet/RELEASE-READINESS.md` dokumentumban felsorolt gyermekvédelmi, adatvédelmi, szervezeti és LMS/H5P kapuk lezárása szükséges az élesítéshez.
 
-A program célja egy adaptív, 21. századi igényekre szabott, adatvezérelt oktatási rendszer létrehozása, amely ötvözi az online mikroleckék rugalmasságát a személyes tréningek közösségi élményével. A képzés moduláris felépítésű (M0-M7 + Zárás), és a "mastery learning" (mesterfokú tanulás) elvére épül, biztosítva, hogy minden végzett vezető magas szintű pedagógiai és vezetői kompetenciákkal rendelkezzen.
+## Repository-térkép
 
-A rendszer **Open Educational Resource (OER)**, azaz nyílt oktatási segédanyag, így szabadon adaptálható más (ifjúsági) szervezetek számára is.
-
-## Kezdő lépések (Linkek)
-
-Ismerkedj meg a projekt alapjaival:
-
-*   📖 **[Program Terv](./02%20Tervezet/Program%20terv.md)** – A képzés részletes pedagógiai és strukturális leírása.
-*   📂 **[Modulok](./02%20Tervezet/Modulok)** – A tananyagok bontása modulonként (M0-M7).
-*   📚 **[Források](./01%20Fejlesztés/00%20Források)** – A képzés kidolgozásához felhasznált szakirodalom és források.
-*   📖 **[Glosszárium](./02%20Tervezet/Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md)** – Someres és pedagógiai fogalmak kánoni szótára.
-*   ♿ **[LMS hozzáférhetőségi sztenderd](./02%20Tervezet/LMS%20–%20hozzáférhetőségi%20sztenderd.md)** – WCAG 2.2 AA követelmények a Moodle/H5P megvalósításhoz.
-*   🎬 **[Média-asset regiszter](./02%20Tervezet/Média-assetek)** – A legyártandó médiaelemek (narráció, videó, illusztráció…) teljes, auditált leltára.
-
-## Repó-struktúra
-
-```
-modszertani-kepzes/
-├── README.md
-├── 01 Fejlesztés/                    # A képzés kidolgozásának nyersanyagai
-│   ├── 00 Források/                  #   felhasznált szakirodalom
-│   ├── 01 Promptok/                  #   AI-promptok
-│   ├── 02 Interjúk/                  #   felvételi interjú-jelentések
-│   └── 03 Beszámolók/                #   összefoglalók
-└── 02 Tervezet/                      # MAGA A TANANYAG
-    ├── Program terv.md               #   a képzés pedagógiai + strukturális gerince
-    ├── GLOSSZÁRIUM – ….md            #   fogalmi kánon
-    ├── LMS – hozzáférhetőségi ….md   #   akadálymentességi sztenderd
-    ├── _EMBERI-JÓVÁHAGYÁS-….md       #   handoff: amit embernek kell kitöltenie/jóváhagynia
-    ├── _MÉDIA-ASSETEK/               #   legyártandó médiaelemek auditált regisztere (xlsx/csv/md) + build-pipeline
-    └── MODULOK/                      #   M0–M7 + Z, modulonként:
-        └── Mx/
-            ├── Mx – ….md             #     modul-hub (áttekintő)
-            ├── Mx – KAPU – ….md      #     mastery-kapu (item-bank + rubrika; ahol van)
-            ├── Mx_ONLINE_LECKE/      #     online mikroleckék (Moodle/H5P)
-            └── Mx_PEULA/             #     élő tréningek (peulák)
+```text
+.
+├── 01 Fejlesztés/
+│   ├── 00 Források/          # kutatási és háttéranyagok
+│   ├── 01 Promptok/          # fejlesztési promptok
+│   ├── 02 Interjúk/          # intake / szükségletfelmérés
+│   ├── 03 Beszámolók/        # összefoglalók
+│   └── 04 Audit/             # auditnaplók, release-audit, rubrika
+├── 02 Tervezet/
+│   ├── Modulok/
+│   │   ├── M0/ … M7/
+│   │   │   ├── Online leckék/
+│   │   │   └── Peulák/
+│   │   └── Z/
+│   ├── Média-assetek/        # média-regiszter és build-eszközök
+│   ├── Program terv.md
+│   ├── Glosszárium – someres és pedagógiai fogalmak.md
+│   ├── Emberi jóváhagyás szükséges.md
+│   ├── LMS – hozzáférhetőségi sztenderd.md
+│   ├── LMS – activity manifest.md
+│   ├── LMS – H5P runtime acceptance.md
+│   ├── Adatvédelem – tanulói adatok és AI.md
+│   ├── Gyermekvédelem – release gate.md
+│   ├── Terepgyakorlat – 2. félév.md
+│   └── RELEASE-READINESS.md
+├── tools/
+│   └── content_integrity.py  # statikus tartalmi integritás-ellenőrzés
+└── .github/workflows/
+    └── content-integrity.yml # CI
 ```
 
-## Közreműködők (Contributors)
+## Kánoni források és sorrend
 
-A projekt a Hasomer Hacair önkénteseinek és szakmai stábjának munkájával jött létre.
+1. `02 Tervezet/Program terv.md` – program-architektúra.
+2. `02 Tervezet/Modulok/` – modul-, lecke-, peula- és kapuspecifikációk.
+3. `02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md` – terminológiai referencia **a nyitott helyi terminológiai döntés figyelembevételével**.
+4. `02 Tervezet/Emberi jóváhagyás szükséges.md` és a release-gate dokumentumok – olyan pontok, amelyeknél emberi/szakértői döntést tilos automatizálással helyettesíteni.
+5. `01 Fejlesztés/04 Audit/` – audit trail, nem tanulói tartalom.
 
-*   **Projekt Vezetés:** [Név/Szervezet]
-Bedő Marci
-*   **Módszertani Fejlesztés:** [Név/Csapat]
-Bedő Laura
-Marton Marcell
-Rácz Eszter
-Weinberger Anna
-*   **Technikai Megvalósítás:** [Név/Csapat]
-Bedő Marci
+## Fejlesztési szabály
 
-*Ha szeretnél hozzájárulni a fejlesztéshez, nyiss egy Issue-t, küldj egy Pull Requestet, vagy keress meg minket a [somer.hu/kapcsolat](https://somer.hu/kapcsolat) oldalon található elérhetőségek egyikén!*
+A tananyagon végzett módosításnál:
 
-## Licensz (License)
+- a pedagógiai célt, értékelést és kapulogikát együtt kell ellenőrizni;
+- gyermekvédelmi, jogi, adatvédelmi vagy helyi mozgalmi döntést nem szabad feltételezni;
+- új vagy módosított H5P-funkció csak a cél Moodle/H5P verzión lefuttatott acceptance test után tekinthető támogatottnak;
+- a tanulói felületen nem maradhat megoldatlan `KITÖLTENDŐ` mező;
+- helyi link, duplikált kánoni fájl, tiltott release-állítás és ismert veszélyes regresszió ellen CI fut.
 
-Ez a képzés a **Creative Commons Nevezd meg! 4.0 Nemzetközi Licenc (CC BY 4.0)** feltételei szerint használható fel.
+## Release-folyamat
 
-Ez azt jelenti, hogy szabadon:
-*   ✅ **Megoszthatod** — másolhatod és terjesztheted a képzést bármely módon vagy formátumban.
-*   ✅ **Átdolgozhatod** — származékos műveket hozhatsz létre, átalakíthatod és építhetsz rá bármilyen célból (akár üzleti célra is).
+A merge önmagában nem jelent élesíthetőséget. A kötelező kapuk és bizonyítékok a [RELEASE-READINESS](./02%20Tervezet/RELEASE-READINESS.md) dokumentumban vannak. A Moodle-implementáció után külön mobil, billentyűzetes, képernyőolvasós és H5P runtime teszt szükséges.
 
-Cserébe csak annyit kérünk, hogy tüntesd fel az eredeti szerzőt (Hasomer Hacair).
+## Licenc
 
-> **A licensz hivatalos szövege:**
-> [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)
-
-## Támogatás
-
-Ha tetszik a munkánk, és egyetértesz a céljainkkal, kérjük, támogasd a Hasomer Hacair működését!
-
-Minden adomány segít abban, hogy folytathassuk a progresszív, humanista nevelőmunkát és innovatív oktatási programok fejlesztését.
-
-👉 **[Támogatom a Hasomer Hacairt](https://somer.hu/tamogatom)** (vagy hivatalos weboldal linkje)
-
-Köszönjük! Házák VeÁmác!
+Eltérő jelzés hiányában a repository saját szöveges tananyaga **Creative Commons Attribution 4.0 International (CC BY 4.0)** alatt használható. Harmadik féltől származó idézetekre, képekre, videókra és egyéb assetekre a saját forrás/licenc feltételei vonatkoznak. Lásd: `LICENSE`.

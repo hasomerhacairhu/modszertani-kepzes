@@ -4,25 +4,25 @@
 
 **Kód:** Z.4
 **Cím (tanulónak):** Záró reflexió + képzés feedback
-**Időtartam (teljes lecke):** **kb. 40–60 perc – tervezz inkább a felsővel (1 óra).** Ez a Z modul leghosszabb online eleme, mert nem csak jegyzetelsz, hanem egy kész, **letölthető záró-ívet** is összeraksz. Bontása:
+**Időtartam (teljes lecke):** **kb. 40–60 perc – tervezz inkább a felsővel (1 óra).** Ez a Z modul leghosszabb online eleme, mert nem csak jegyzetelsz, hanem egy kész, **menthető záró reflexiót** is összeraksz. Bontása:
 
-* H5P **Documentation Tool** – záró reflexiós ív kitöltése (a 3 kérdéshez): **~20–30’**
-* **Az ív letöltése + Moodle Assignment leadás** (a kész ívet adod be, vagy egy 2–3 perces videót veszel fel belőle): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
+* **Moodle Assignment (online text, draft mentéssel)** – záró reflexiós ív kitöltése (a 3 kérdéshez): **~20–30’**
+* **Véglegesítés + Moodle Assignment leadás** (a mentett szöveget adod be, vagy abból egy 2–3 perces videót készítesz): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
 * Anonim képzés-feedback űrlap: **~5–10’**
 
-> **Őszinte terhelés:** a Z modul záró leckéje könnyen **szabad-szöveg-fáradtsággá** válik, ha minden kérdés külön üres mezőként néz rád. Ezért most **egy összefüggő reflexiós ívbe** fűzzük a kérdéseket: végighaladsz rajta, és a végén **egy darabban letöltöd** – ez lesz a záró-dokumentumod. Nem kell egyben megcsinálnod: az ív **menet közben menthető**, így **nyugodtan tarthatsz szünetet**, és külön ülésben fejezheted be / veheted fel a végleges reflexiót.
+> **Őszinte terhelés:** a Z modul záró leckéje könnyen **szabad-szöveg-fáradtsággá** válik, ha minden kérdés külön üres mezőként néz rád. Ezért most **egy összefüggő, Moodle-ben piszkozatként menthető reflexiós ívbe** fűzzük a kérdéseket: végighaladsz rajta, és a végén **véglegesíted és beadod** – ez lesz a záró-dokumentumod. Nem kell egyben megcsinálnod: a Moodle Assignment **draft/piszkozat mentését a célrendszeren acceptance teszttel igazolni kell**; csak igazolt mentés mellett kommunikálható, hogy külön ülésben biztonságosan folytatható.
 
-> **Élő ellensúly:** ez a digitális ív **nem helyettesíti**, hanem előkészíti a **Z.A élő záró-peulát** (*„Mit viszek magammal?” – záró kvuca-peula*). A leírt ív magadnak szól; a közös, élő lezárás a kvucával **megmarad** – a kettő együtt adja a zárást.
+> **Élő ellensúly:** ez a digitális ív **nem helyettesíti** a **Z.A élő záró-peulát**. A kánoni sorrend: **Z.A élő lezárás → Z.4 egyéni záró reflexió és képzés-feedback** (*„Mit viszek magammal?” – záró kvuca-peula*). A leírt ív magadnak szól; a közös, élő lezárás a kvucával **megmarad** – a kettő együtt adja a zárást.
 
 **Eszközök:**
 
-* H5P **Documentation Tool** – „Záró reflexiós ív” (strukturált, lépésenként kitölthető, a végén **letölthető** záró-dokumentum)
+* **Moodle Assignment – Online text** – „Záró reflexiós ív” (strukturált sablonnal, piszkozatmentéssel; a tényleges draft/resume működést acceptance teszt igazolja)
 * **Moodle Assignment** – „Záró reflexió + next step” (a letöltött ív **vagy** abból felvett videó)
 * **Moodle Feedback / Questionnaire** – anonimizált képzés-értékelő *(külön marad)*
 
 **Mikrocél (tanulói nyelven):**
 
-> A lecke végére lesz egy **letölthető, összefüggő záró-íved** (a 3 kérdésre felfűzve),
+> A lecke végére lesz egy **mentett és beadott, összefüggő záró reflexiód** (a 3 kérdésre felfűzve),
 > tudni fogod, **melyik 2–3 pillanatról szeretnél írni/beszélni**,
 > és megfogalmazol **1–2 konkrét célt következő lépésnek a terepre**, plusz kitöltöd a képzés feedbacket.
 
@@ -57,15 +57,15 @@
 
 > **Egy darabban marad:** nem külön üres mezőkbe írsz – egyetlen, lépésenként kitölthető **reflexiós ívet** töltesz, amit a végén egyben mentesz le.
 
-**Gomb:** „Tovább a leckére” → H5P Documentation Tool (Z.4 – „Záró reflexiós ív”)
+**Gomb:** „Tovább a leckére” → Moodle Assignment (Z.4 – „Záró reflexiós ív”, Online text)
 
 ***
 
-## 3. H5P Documentation Tool – „Záró reflexiós ív” (lépésről lépésre)
+## 3. Moodle Assignment – „Záró reflexiós ív” (lépésről lépésre)
 
-> **Miért Documentation Tool?** A záró modulban könnyen halmozódik a sok külön szabad-szöveg mező, és ez **fárasztó**. A Documentation Tool ezeket **egy összefüggő, lépésenként kitölthető ívbe** fűzi, amit a tanuló a végén **egyben letölt** – ez a letölthető záró-dokumentum. A korábbi külön Essay-jegyzetek (pillanatok / szemléletváltás / next step) **ennek az ívnek a lépéseivé** válnak, semmi tartalom nem vész el. **Nonformális keret:** az ív nyelve **someres, élmény-alapú** marad (üzenet magadnak), nem portfólió-formális dokumentum.
+> **Miért Moodle Assignment?** A záró modulban könnyen halmozódik a sok külön szabad-szöveg mező, és ez **fárasztó**. A Moodle Assignment online szöveges sablonja ezeket **egy összefüggő ívbe** fűzi. Így nem támaszkodunk az H5P Documentation Tool nem igazolt session-resume képességére, és a hosszabb szöveg a Moodle saját draft/leadási folyamatában kezelhető. A korábbi külön Essay-jegyzetek (pillanatok / szemléletváltás / next step) **ennek az ívnek a lépéseivé** válnak, semmi tartalom nem vész el. **Nonformális keret:** az ív nyelve **someres, élmény-alapú** marad (üzenet magadnak), nem portfólió-formális dokumentum.
 
-**Megvalósítás (fejlesztői jegyzet):** H5P **Documentation Tool**, az alábbi lépésekkel (Steps). A „Text input” lépések a korábbi külön szövegmezőket váltják ki, a záró „Document export” lépés állítja össze a **letölthető** ívet. A lépés-számozás a korábbi slide-okat tükrözi, hogy a tartalmi megfeleltetés átlátszó maradjon.
+**Megvalósítás (fejlesztői jegyzet):** Moodle **Assignment / Online text** egy előre kitöltött, háromrészes sablonnal. A szakaszcímek az alábbi lépéseket követik; a végén nincs H5P-export, a tanuló a Moodle-ben véglegesíti a beadást. A lépés-számozás a korábbi slide-okat tükrözi, hogy a tartalmi megfeleltetés átlátszó maradjon.
 
 ### LÉPÉS 1 – HOOK (Standard / szöveges lépés): „Ez nem vizsga”
 
@@ -84,7 +84,7 @@
 > Az számít, hogy **őszinte** legyél – magaddal és velünk.
 
 > Az íven **3 kérdésen** mész végig, a végén **letöltöd** egy darabban.
-> Bármikor megállhatsz – az ív **mentve marad**, később folytathatod.
+> Megállhatsz közben, **ha a cél Moodle-környezetben a draftmentést előzetesen leteszteltük**; enélkül a tanulónak ezt nem ígérjük.
 
 **Beágyazott választás – Text input (rövid, egy soros) vagy Single-választás jellegű kérdés a lépésen belül**
 
@@ -125,7 +125,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > A következő lépésekben **végighaladsz** mindhárom kérdésen, egy összefüggő íven.
-> A végén ebből lesz **a letölthető záró-dokumentumod** – a szöveged, vagy a videód vázlata.
+> A végén ebből lesz **a végleges záró reflexióod** – a szöveged, vagy a videód vázlata.
 
 *(Ezen a lépésen nincs beírnivaló, csak Input.)*
 
@@ -150,18 +150,18 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 **Text input mező (a Documentation Tool 1. szövegmezője)**
 
-* Címke: *„2–3 pillanat, ami megmaradt”* – a tanuló ide írja a 3–8 mondatot. Ez a szöveg **bekerül a letölthető ívbe**.
+* Címke: *„2–3 pillanat, ami megmaradt”* – a tanuló ide írja a 3–8 mondatot. Ez a szöveg **a Moodle-beadás része lesz**.
 
 **Kis jelzés:**
 
-> Ez most **élő jegyzet** – az íven belül **visszaléphetsz** és átírhatod, mielőtt letöltöd.
+> Ez most **élő jegyzet** – az íven belül **visszaléphetsz** és átírhatod, mielőtt véglegesíted.
 > Nem kell még „szépnek” lennie, csak legyen benne **2–3 pillanat + miért fontosak**.
 
 ***
 
 ### LÉPÉS 4 – ACTIVITY 2 (Text input lépés/ek): Szemléletváltás + next step
 
-**Cél:** a második és harmadik kérdés előkészítése. Az íven ez **két beviteli mező** (a / b), így a letöltött dokumentumban is tisztán elkülönül a kettő – de marad egy összefüggő ív.
+**Cél:** a második és harmadik kérdés előkészítése. Az íven ez **két beviteli mező** (a / b), így a végleges beadásban is tisztán elkülönül a kettő – de marad egy összefüggő ív.
 
 **Szöveg a lépésen:**
 
@@ -237,7 +237,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 ***
 
-### LÉPÉS 6 – EXPORT (Document export lépés): Letöltöd a záró-dokumentumod
+### LÉPÉS 6 – EXPORT (Assignment véglegesítés lépés): Letöltöd a záró-dokumentumod
 
 **Cél:** a Documentation Tool **összeállítja egy összefüggő ívvé** mindazt, amit a 3 kérdéshez írtál, és **letölthetővé** teszi – ez a záró-dokumentumod.
 
@@ -253,7 +253,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > Nyomd meg a **„Letöltés / Export”** gombot, és mentsd le magadnak az ívet.
 > Ez **üzenet a jövőbeli önmagadnak** – tedd el oda, ahol később megtalálod.
 
-**Document export gomb**
+**Assignment véglegesítés gomb**
 
 * A Documentation Tool natív export-lépése: a kitöltött mezőket egy összefüggő dokumentummá fűzi, amelyet a tanuló **letölt** (a Documentation Tool a kitöltött ívet böngészőből menthető / nyomtatható dokumentumként adja vissza).
 

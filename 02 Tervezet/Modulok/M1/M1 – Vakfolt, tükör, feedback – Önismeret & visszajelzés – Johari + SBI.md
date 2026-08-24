@@ -26,16 +26,16 @@ A modul végére a résztvevő…
    – **Meg tudja nevezni** a Johari-ablak 4 mezőjét, és **saját (akár fiktív) példával illusztrálja, miért természetes, hogy mindenkinek vannak **vakfoltjai** – és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
    – Támogató tartalmak: M1.1, M1.A, M1.F.
 2. **Megfigyelés vs. címkézés**
-   – **Megkülönbözteti** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – **legalább 4/5 tételben helyesen besorolja, és **címkéből megfigyelést ír át**.
+   – **Megkülönbözteti** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – **legalább 4/5 tételben helyesen besorolja**, és **címkéből megfigyelést ír át**.
    – Támogató tartalmak: M1.2, M1.A, M1.B, M1.F.
 3. **SBI-nyelv használata**
    – **Megír egy 2–3 mondatos, egyszerű, de korrekt SBI-visszajelzést, amely tartalmaz S-t (helyzet), B-t (viselkedés) és I-t (hatás)**.
    – Támogató tartalmak: M1.3, M1.4, M1.B, M1.F.
 4. **Visszajelzéshez való viszony** *(nem értékelt, nevelési cél)*
-   – **Megfogalmaz** a záróreflexióban **1 mondatot arról, milyen visszajelzés segített már neki**, és **megnevezi**, mit tesz legközelebb, amikor visszajelzést kapsz – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk; reflexiós produktumként jelenik meg, nem a kapu része.)*
+   – **Megfogalmaz** a záróreflexióban **1 mondatot arról, milyen visszajelzés segített már neki**, és **megnevezi**, mit tesz legközelebb, amikor visszajelzést kap – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk; reflexiós produktumként jelenik meg, nem a kapu része.)*
    – Támogató tartalmak: M1.1–M1.4, M1.A, M1.B, M1.F.
 5. **Modulproduktum előállítása**
-   – **Elkészít** 1–2 db **2–3 mondatos SBI-vázatot** valós vagy fiktív helyzetre, és **feltölti** az Assignmentbe.
+   – **Elkészít** 1–2 db **2–3 mondatos SBI-vázlatot** valós vagy fiktív helyzetre, és **feltölti** az Assignmentbe.
    – Támogató tartalmak: M1.4, M1.B.
 
 ***
@@ -193,7 +193,7 @@ A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 ### Javítási logika
 
 * Ha nem éri el a minimumot, rövid, **SBI-típusú feedbacket** kap, és újrapróbálhatja (mastery learning).
-* Amennyiben eléri a minimumot, ezesetben is kap feedbacket, érdemes hangúlyozni, hogy mik és miért voltak pontosan a jó megoldások, hogy ezeket megerősítsük.
+* Amennyiben eléri a minimumot, ebben az esetben is kap feedbacket; érdemes hangsúlyozni, hogy mik és miért voltak pontosan a jó megoldások, hogy ezeket megerősítsük.
 
 ***
 
@@ -207,7 +207,7 @@ A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 2. **H5P statisztikák**
    – M1.2 Drag & Drop / Mark the Words hibás mondatai: jelzik, hogy a „megfigyelés vs. címke” rész hol szorul erősítésre; erre lehet ráerősíteni M1.A-ban és M1.B-ben.
 3. **Assignment eredmények (M1.4 SBI)**
-   – Rubrika-szintek eloszlása a három fő sorban (S, B, I);
+   – Rubrika-szintek eloszlása mind a négy sorban (S, B, I, hangnem);
    – ha sok 0 pont van a „Viselkedés megfigyelhetősége” sorban → több példa, extra gyakorlás M1.B-ben, illetve plusz AI-videós magyarázat későbbi finomhangoláskor.
 4. **Offline visszajelzés**
    – M1.B végén 1 perces anonim kérdés:
@@ -229,7 +229,7 @@ A kapu **kanonikus, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 
 [M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’)](./Peulák/M1.A%20–%20Önismeret%20&%20Johari%20+%20megfigyelés%20vs.%20címkézés%20%2845’%29.md)
 
-[M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’)](M1.B%20–%20SBI-lab%20–%20Smiley-tól%20a%20használható%20visszajelzésig%20(45’).md)
+[M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’)](./Peulák/M1.B%20–%20SBI-lab%20–%20Smiley-tól%20a%20használható%20visszajelzésig%20%2845’%29.md)
 
 [M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)](./Peulák/M1.F%20–%20Felzárkóztató%20peula%20–%20Johari,%20megfigyelés%20és%20SBI%20egyben%20%2845’%29.md)
 

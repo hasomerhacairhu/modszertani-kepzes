@@ -4,6 +4,9 @@
 >
 > A jelentések mozgalmi/Judaica forrásokkal alátámasztottak (a részletes someres-terminológiai audit a git-history-ban érhető el); a 🧑‍🏫 jelű tételeknél a helyi (magyarországi Somer) ken végső megerősítése ajánlott.
 
+
+> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez kánoninak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. A nyilvános oldalak korosztályi terminológiája sem teljesen egyezik a repo 4-kvucás történeti modelljével. **Ezt nem automatizáljuk tömeges átírással.** A helyi ken/országos mozgalmi felelősnek egyetlen house style-t és a 2026-os korosztály-architektúrát írásban jóvá kell hagynia; utána lintelt, atomi terminológiai migráció szükséges.
+
 ---
 
 ## 1. Héber / someres fogalmak

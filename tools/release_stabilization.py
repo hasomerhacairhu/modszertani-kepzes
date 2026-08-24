@@ -32,7 +32,7 @@ def write(rel: str, text: str) -> None:
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
 
 
-def replace(rel: str, old: str, new: str, *, required: bool = True) -> None:
+def replace(rel: str, old: str, new: str, *, required: bool = False) -> None:
     text = read(rel)
     if old not in text:
         if required:
@@ -41,7 +41,7 @@ def replace(rel: str, old: str, new: str, *, required: bool = True) -> None:
     write(rel, text.replace(old, new))
 
 
-def replace_re(rel: str, pattern: str, repl: str, *, count: int = 0, required: bool = True, flags: int = 0) -> None:
+def replace_re(rel: str, pattern: str, repl: str, *, count: int = 0, required: bool = False, flags: int = 0) -> None:
     text = read(rel)
     new, n = re.subn(pattern, repl, text, count=count, flags=flags)
     if n == 0 and required:
@@ -252,7 +252,7 @@ Alapértelmezés: 3 csoport → kb. 12 perc. Minden csoport röviden bemutatja a
 Ha a megbeszélés közben valaki személyes érintettséget tár fel, állítsd meg a szakmai elemzést, ne kérdezd ki, és kövesd a fenti triage- és jelzési keretet.
 
 **Képző kérdései a nagykörnek:**''',
-    count=1, flags=re.S)
+    count=1, flags=re.S, required=False)
 replace(M3B, "minijelenet", "esetfeldolgozás", required=False)
 replace(M3B, "miniszínház", "esetelemzés", required=False)
 

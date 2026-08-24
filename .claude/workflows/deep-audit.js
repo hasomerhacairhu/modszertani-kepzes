@@ -46,10 +46,10 @@ const MAX_FINDINGS_PER_ROUND = 60      // körönkénti globális finding-plafon
 const BRANCH = 'deep-audit'    // élesben ide commitol (külön a main-től)
 
 const DRY_RUN = MODE !== 'live'
-const ABS = '/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet'
-const REPO = '/Users/heymarcell/DEV/modszertani-kepzes'
-const MOD = ABS + '/MODULOK'
-const RUBRIC = ABS + '/_AUDIT/DEEP-AUDIT-RUBRIC.md'
+const REPO = process.cwd()
+const ABS = REPO + '/02 Tervezet'
+const MOD = ABS + '/Modulok'
+const RUBRIC = REPO + '/01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md'
 const MODULES = ['M0', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'Z']
 const PROGRAM_LENSES = [
   { key: 'curriculum-ív', scope: 'A Program terv + minden modul-áttekintő: kompetencia-ív, prerekvizitek, árva/alátámasztatlan kompetenciák, a produktumok összeállása a záró Peula v2-be.' },

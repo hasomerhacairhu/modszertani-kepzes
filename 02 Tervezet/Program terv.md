@@ -383,3 +383,15 @@ Ez használható **flyerre, szülőknek, vezetőknek**:
 [Z – „Zárás & híd a terepre”](./Modulok/Z/Z%20–%20Zárás%20&%20híd%20a%20terepre.md)
 
 
+
+
+## Release- és terepgyakorlati kiegészítés (2026-08-25)
+
+A program release-governance kánoni pontosítása:
+
+1. **Globális safety/privacy/infrastruktúra kapuk** minden modul learner-facing élesítését blokkolják. Ezeket nem lehet moduláris MVP-re hivatkozva megkerülni.
+2. **Modul-specifikus tartalmi/ideológiai signoff** lezárható modulonként, miután a globális kapuk zártak.
+3. A GitHub `main` állapota nem azonos a Moodle release-státusszal. A go/no-go igazolása a `RELEASE-READINESS.md` szerint történik.
+4. Az online félév után kötelező transzfer-szakasz következik: `Terepgyakorlat – 2. félév.md`, **6 valódi 60–90 perces peulával**, megfigyelés → feedback → reflektálás → javítás ciklusban.
+
+Kánoni operációs dokumentumok: `RELEASE-READINESS.md`, `LMS – activity manifest.md`, `LMS – H5P runtime acceptance.md`, `Gyermekvédelem – release gate.md`, `Adatvédelem – tanulói adatok és AI.md`, `Terepgyakorlat – 2. félév.md`.

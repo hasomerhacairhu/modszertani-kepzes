@@ -47,7 +47,7 @@
 
 - A mobil-first premissza nem feltételezheti, hogy **minden madrichnak van saját okostelefonja + elegendő adatforgalma** (a videós leckék adatigényesek). Ahol az eszköz vagy az adatkeret hiányzik — nincs saját készülék, megosztott a családi telefon, korlátos az adatkeret —, ott **alternatív útnak kell lennie**: az eszköz-hiány **nem zárhat ki a completionből**.
 - **Kötelező minimum a videós/adatigényes leckékhez:**
-  - adj **alacsony adatigényű, offline letölthető leckeváltozatot** (a narráció szöveges leirata + a kulcsképek; a felirat/leirat eleve elvárás — lásd 1. szakasz —, így a videó hang és sávozás nélkül, letöltött szövegből is teljesíthető);
+  - adj **alacsony adatigényű, offline letölthető leckeváltozatot** (a narráció szöveges leirata + a kulcsképek; a felirat **és** hozzáférhető szöveges leirat / alternatíva eleve elvárás — lásd 1. szakasz —, így a videó hang és sávozás nélkül, letöltött szövegből is teljesíthető);
   - a **Study Lab / F-peula** (offline, képző-kísérte tér) egyben **eszközhöz-jutási pont** is: itt a madrich a ken közös eszközén / a helyszín wifijén végezheti el az online elemeket;
   - ahol a kapus/online elem teljesítése eszközhöz kötött, ott **biztosítani kell egy eszköz-független pótlási utat** (a fenti offline/letölthető változat + a ken közös eszköze); ahol az **opcionális** Study Lab elérhető, az is egyenértékű pótlási tér — de a méltányos hozzáférés **nem függhet kizárólag** az opcionális Study Lab meglététől.
 - Tedd explicitté a lecke fejlesztői megjegyzésében, ha egy elem csak online, élő neten teljesíthető — ez akadálymentesítési kockázat, és kell hozzá offline/Study Lab fallback.
@@ -107,3 +107,10 @@
 - H5P Essay: https://h5p.org/essay
 - H5P Interactive Video: https://h5p.org/interactive-video
 - Moodle activity completion: https://moodle.com/news/track-learners-progress-using-activity-completion-moodle/
+
+
+## Pontosítás: előre rögzített videó és hang
+
+- **WCAG 2.2 SC 1.2.2:** előre rögzített, szinkronizált médiában a hangzó tartalomhoz **felirat szükséges** (a WCAG kivételétől eltekintve, amikor maga a média egy már meglévő szöveg alternatívája és így is van jelölve).
+- A teljes szöveges leirat hasznos és erősen ajánlott kiegészítő, de **nem helyettesíti automatikusan a feliratot** szinkronizált videónál.
+- Interaktív tartalomnál a billentyűzet, fókuszsorrend, név/szerep/érték, kontraszt és célméret a tényleges Moodle/H5P renderen tesztelendő, nem csak a Markdown-specifikációban.

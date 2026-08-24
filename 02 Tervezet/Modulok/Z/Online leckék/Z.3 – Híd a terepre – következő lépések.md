@@ -235,7 +235,7 @@ Placeholder:
 
 > 🛟 **Mielőtt élesben kvucát viszel – 1 biztonsági-lépés (nem hagyható ki)**
 
-> A terepen nem csak madrich-módszertanilag lépsz élesbe: **te leszel az a felnőtt**, aki észreveszi, ha valami nagyon nem oké a kvucádban. Ezért **az első éles Zmán Kvucád ELŐTT** intézd el ezt az egyet – pont azt, amit az **M0.A „Kihez fordulhatok?” térképén** és az **M3.3 jelzési láncában** (*észreveszem → komolyan veszem → jelzek*) tanultál, most a saját kenedre / kvucádra húzva:
+> A terepen nem csak módszertanilag lépsz élesbe: **madrichként felelős szereped lesz**, miközben a képzés 15+ célcsoportjában te magad is lehetsz kiskorú. Gyermekvédelmi vagy más biztonsági helyzetben **nem neked kell egyedül „a felnőttnek” lenned**: tudd előre, melyik kijelölt felelős felnőttet / gyermekvédelmi felelőst vonod be, és a helyi protokoll szerint jelezz.
 
 > – **Tudd meg / erősítsd meg**, ki a kened **gyermekvédelmi felelőse** (név + ahogy eléred), és ki a **ken-vezetőd**.
 > – Tudd, **hova / kinek szólsz jelzés esetén** – és hogy **nem maradsz egyedül** vele.
