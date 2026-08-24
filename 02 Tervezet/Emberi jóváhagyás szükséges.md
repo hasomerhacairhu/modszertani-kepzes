@@ -9,15 +9,15 @@
 
 ---
 
-## 1. Gyerekvédelmi felelős + eszkalációs lánc (a legmagasabb prioritás)
+## 1. Gyermekvédelmi felelős + eszkalációs lánc (a legmagasabb prioritás)
 
-A program **több ponton** a nevesített gyerekvédelmi felelősre (DSL) épül. **Egyetlen aláírás-hiány az M3-at és az M7 félévzáró kaput is blokkolja** (lásd Program terv §9). Kitöltendő:
+A program **több ponton** a nevesített gyermekvédelmi felelősre (DSL) épül. **Egyetlen aláírás-hiány az M3-at és az M7 félévzáró kaput is blokkolja** (lásd Program terv §9). Kitöltendő:
 
 | Hol | Mit |
 |---|---|
-| **M3.3** / **M3.B** / **M3 – KAPU** fejléc | gyerekvédelmi felelős **neve**, jóváhagyás + felülvizsgálat **dátuma** |
+| **M3.3** / **M3.B** / **M3 – KAPU** fejléc | gyermekvédelmi felelős **neve**, jóváhagyás + felülvizsgálat **dátuma** |
 | **M3 – KAPU** §3 (külső eszkalációs út) | ha a gyanú épp a felelősre vonatkozik: **alternatív/külső** jelzési út |
-| **M7 – KAPU** (~211. sor) | a ken nevesített **gyerekvédelmi felelőse + helyi jelzési protokoll** (azonnali-veszély / 112 ág) |
+| **M7 – KAPU** (~211. sor) | a ken nevesített **gyermekvédelmi felelőse + helyi jelzési protokoll** (azonnali-veszély / 112 ág) |
 | **M0.2** (~270. sor) | kihez fordulhat a madrich személyesen (**felelős/mentor + elérhetőség**) — **kiterjed** a „ha a tananyag téged is érint" **bizalmas trainee-útra** is (lásd §4), nem csak a tanulási/technikai elakadásra |
 | **M3.4** | a ken **alkohol- és dohányzási magatartási kódexe** (mit/hol/milyen kortól) |
 
@@ -33,7 +33,7 @@ A jóváhagyott M7-átalakítás bevezetett egy **kétkapus, időben elosztott**
 
 A §9 **élesítés-előtti, blokkoló aláírólista** (7 sor). Kitöltendő:
 
-- **Módszertani felelős** + **DSL/gyerekvédelmi felelős** neve (§9 új 6. sor – kétlépcsős AI+safeguarding lektorálás; Program terv ~333/334)
+- **Módszertani felelős** + **DSL/gyermekvédelmi felelős** neve (§9 új 6. sor – kétlépcsős AI+safeguarding lektorálás; Program terv ~333/334)
 - **AI-média provenance-eljárás** (§4 + §9 7. sor): az **ember-olvasható** jelölés szövege és elhelyezése kötelező elem; a gépi provenance-jelölés (pl. C2PA / Content Credentials / vízjel) megőrzése ajánlott jó gyakorlat. Az EU AI Act 50. cikk (2) gépi jelölési kötelezettsége az AI-rendszer **szolgáltatóját** terheli; a deployer-oldali 50. cikk (4) közzétételi esetek (deepfake, közérdekű AI-szöveg) alkalmazhatóságát **jogi review** minősítse.
 - **Support-kontaktok** (§5/§6 `[...]`): adatkezelési felelős + technikai support megnevezett elérhetősége; **M4.1** (~54) technikai support csatorna
 - **Mentor:madrich arány** (§6 stáb-kapacitás realitás-megjegyzés) — a stáb tényleges kapacitása szerint
@@ -41,11 +41,11 @@ A §9 **élesítés-előtti, blokkoló aláírólista** (7 sor). Kitöltendő:
 
 ## 4. Adatvédelem (GDPR / kiskorúak) — jogi döntés
 
-Szakember (gyerekvédelmi + adatvédelmi) döntse el:
+Szakember (gyermekvédelmi + adatvédelmi) döntse el:
 - A reflexiós napló-, Essay- és Assignment-adatok **megőrzési ideje, törlési/anonimizálási folyamata, 16 alatti szülői hozzájárulása** (érintett: M0, M2.4, M4-Essay-k + M4.4 Assignment).
 - **M6.3 fotók** (~48/49/52): kép **forrása/fotós**, **licenc**, és gyerek-képmás esetén **GDPR-hozzájárulás** (kiskorúnál szülői).
 - **Kiskorú (15–17) madrich kettős státusza:** 18 alatti ne felügyeljen egyedül; saját bejelentési útja **nem csak** a transzfer-próba (M7→Z terep-commit) felügyeletéhez kötve, **hanem a teljes félévre** kiterjedően — szervezeti policy.
-- **„Ha a tananyag téged is érint" — program-szintű, trainee-felé néző biztonsági út:** a célcsoport 15+, tehát maga a madrich is gyakran kiskorú, és a tananyag súlyos témákat dolgoztat fel (önsértés, bántalmazás, határátlépés). A program **in-the-moment szinten MÁR kezeli** a madrich saját érintettségét (M3.B triage-blokk: bizalmas zárás + nevesített kontakt/krízisvonalak; M0.2 reflexiós napló: mentor-út + safeguarding-kivétel), de **nincs program-szintű, a teljes félévre kiterjedő, egységesen nevesített bizalmas út és szégyenítés nélküli opt-out**. Kitöltendő szervezeti policyként: **(a)** kihez fordulhat a madrich **bizalmasan** (mentor / DSL / külső kontakt – nevek, elérhetőség); **(b)** **szégyenítés nélküli opt-out** az érzékeny gyakorlatból (M1 önismeret, M3 gyerekvédelem, M2.4 reflexiós napló); **(c)** a triggerelő modulok introjába egy rövid, **a madrichnak címzett** biztonsági sor. *(A program-szintű szövegezés a **Program terv §2/§6**-ba és a triggerelő modulok introjába épül be — az a fájl gazdájának feladata; itt a jogi/policy-döntés és a DSL-sign-off rögzül. Forrás: NYA Safeguarding for Youth Work; Safeguarding Network – supervision: a disclosure-érzékeny tartalom kétirányú, a feldolgozó maga is érintett lehet, ezért supervision/reflektív debrief jár a résztvevő védelmére.)*
+- **„Ha a tananyag téged is érint" — program-szintű, trainee-felé néző biztonsági út:** a célcsoport 15+, tehát maga a madrich is gyakran kiskorú, és a tananyag súlyos témákat dolgoztat fel (önsértés, bántalmazás, határátlépés). A program **in-the-moment szinten MÁR kezeli** a madrich saját érintettségét (M3.B triage-blokk: bizalmas zárás + nevesített kontakt/krízisvonalak; M0.2 reflexiós napló: mentor-út + safeguarding-kivétel), de **nincs program-szintű, a teljes félévre kiterjedő, egységesen nevesített bizalmas út és szégyenítés nélküli opt-out**. Kitöltendő szervezeti policyként: **(a)** kihez fordulhat a madrich **bizalmasan** (mentor / DSL / külső kontakt – nevek, elérhetőség); **(b)** **szégyenítés nélküli opt-out** az érzékeny gyakorlatból (M1 önismeret, M3 gyermekvédelem, M2.4 reflexiós napló); **(c)** a triggerelő modulok introjába egy rövid, **a madrichnak címzett** biztonsági sor. *(A program-szintű szövegezés a **Program terv §2/§6**-ba és a triggerelő modulok introjába épül be — az a fájl gazdájának feladata; itt a jogi/policy-döntés és a DSL-sign-off rögzül. Forrás: NYA Safeguarding for Youth Work; Safeguarding Network – supervision: a disclosure-érzékeny tartalom kétirányú, a feldolgozó maga is érintett lehet, ezért supervision/reflektív debrief jár a résztvevő védelmére.)*
 
 ## 5. Mozgalmi / ken-megerősítés — tartalmi (ÚJ)
 

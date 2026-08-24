@@ -160,7 +160,7 @@ A modul végére a madrich…
 * **Kapcsolódás:** elsősorban **M7.3–M7.4** alkalmazása (Zmán Kvucá-checklist + Peula v2 váz).
 * **Hol áll a kétkapus ívben:** ez a **hét 2** peulája – a **v1 first-draft gate** (hét 1 vége) és a **v2 mastery-kapu** (hét 2 vége) **közti** csiszoló alkalom. A klinikán **a már leadott Peula v1-et** fejleszted tovább; a véglegesített v2-t **nem itt, aznap** adod le, hanem a klinika utáni munkával, a hét 2 végén.
 * **Fő cél:**
-  * 1 már leadott **Peula v1 vázlat** továbbfejlesztése a **v2 felé** Zmán Kvucá-szempontból (idő, tér, létszám, eszköz/B-terv, inkluzivitás, gyerekvédelem).
+  * 1 már leadott **Peula v1 vázlat** továbbfejlesztése a **v2 felé** Zmán Kvucá-szempontból (idő, tér, létszám, eszköz/B-terv, inkluzivitás, gyermekvédelem).
   * Átélni, hogy nem az a jó peula, ami papíron a legkreatívabb, hanem amit **biztonságban meg is tudsz tartani** a saját kvucádnak.
 * **Fókusz-mondat:**
   „Nem az a jó peula, ami papíron nagyon kreatív, hanem amit **biztonságban meg is tudsz tartani**.”
@@ -214,7 +214,7 @@ A modul végére a madrich…
    >
    > * **M1 – SBI** (Situation–Behavior–Impact): az utóreflexió (11. pont) és a bukás-útvonal javító visszajelzése SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni.
    > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd.
-   > * **M3 – gyerekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá-safety és a kvuca-illeszkedés a korábban tanult gyerekvédelmi keretre és a someres kvuca-profilra támaszkodik.
+   > * **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá-safety és a kvuca-illeszkedés a korábban tanult gyermekvédelmi keretre és a someres kvuca-profilra támaszkodik.
    > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch): a Peula 11-pont **élmény- és feldolgozó-blokkja** (5–6. pont) és a **Feedback & finomhangolás** (10. pont) és az élő levezetés erre épül – a feldolgozó kérdéseid és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
    > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a safety- és inkluzivitási mezők itt élnek tovább.

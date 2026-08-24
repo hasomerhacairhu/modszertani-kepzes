@@ -49,7 +49,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 |---|---|---|
 | Korosztály–eszköz illesztés (6–10 / 11–13 / 14–16 / 16+) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
 | Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4, M6.A | 5, 6, 7 |
-| **Biztonsági in-the-moment reflex** (mikor állsz le / kit jelzel) – R4 „Erős” | M6.A 4.3.2/B, M3 gyerekvédelmi átkötés | **P1** *(pool/csere-item)* |
+| **Biztonsági in-the-moment reflex** (mikor állsz le / kit jelzel) – R4 „Erős” | M6.A 4.3.2/B, M3 gyermekvédelmi átkötés | **P1** *(pool/csere-item)* |
 | **Inkluzivitást** növelő variáció azonosítása | M6.3, M6.4 | 8, 9, 10 |
 | **Trigger-érzékenység** (történet/élményjáték) | M6.2, M6.4 (B-ág) | 11, 12 |
 
@@ -347,10 +347,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 **Distraktor-indok:**
 - B – Jó szándékú („törődünk vele”), DE a nyilvános kikérdezés **reflektorba teszi** és fokozza a kirekesztettség-érzést – pont ezt kerüli a 4 lépés.
 - C – A „ne legyen kínos” logika **magára hagyja** a megélővel, és a peula utánra halasztott jelzés túl késő, ha valaki erősen érintett.
-- D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyerekvédelmi becsatornázást (jelzés a felelősnek) mulasztja el.
+- D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyermekvédelmi becsatornázást (jelzés a felelősnek) mulasztja el.
 
 **Feedback:**
-> ✅ In-the-moment safety 4 lépésben: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt jelzel a felelős madrichnak / mentornak** – nem hagyod egyedül a helyzetet, és nem halasztod utánra. (M6.A 4.3.2/B; M3 gyerekvédelmi átkötés)
+> ✅ In-the-moment safety 4 lépésben: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt jelzel a felelős madrichnak / mentornak** – nem hagyod egyedül a helyzetet, és nem halasztod utánra. (M6.A 4.3.2/B; M3 gyermekvédelmi átkötés)
 
 ---
 

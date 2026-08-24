@@ -68,7 +68,7 @@ A modul végére a madrich…
 * **Cél:** tisztázni a **madrich-szerepet** és a határokat (nem terapeuta, nem egyedüli felelős), és bevezetni a dugma ishit fogalmát egyszerű példákkal.
 * **Fő tartalom röviden:**
   * szerepek: mit jelent madrichnak lenni (biztonság, keret, jelzés), és mi az, ami más felelős dolga (szakember, ken-vezető);
-  * „madrich, nem terapeuta” – basic gyerekvédelmi logika jelzés-szinten;
+  * „madrich, nem terapeuta” – basic gyermekvédelmi logika jelzés-szinten;
   * dugma ishit 1 mondatban + 2–3 helyzet, ahol ez látszik.
 * **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-quiz, nyitott reflexió).
 
@@ -86,7 +86,7 @@ A modul végére a madrich…
 * **Cél:** a madrich elgondolkodik, mit jelent **online is dugma ishitként jelen lenni**, és belép a közösségbe egy **bemutatkozó fórumposzttal**.
 * **Fő tartalom röviden:**
   * online helyzetek (chat, insta, messenger, Moodle-komment) – mitől dugma ishit / mitől nem;
-  * 2–3 egyszerű szabály az online térre (pl. gyerekvédelmi jelzés, határok az elérhetőségben, tisztelet a kvucával kapcsolatban);
+  * 2–3 egyszerű szabály az online térre (pl. gyermekvédelmi jelzés, határok az elérhetőségben, tisztelet a kvucával kapcsolatban);
   * átvezetés a „Bemutatkozó fal” fórumra: 5–10 mondatos bemutatkozás + 1 komment valaki más posztjára.
 * **Moodle/H5P mix:** H5P Course Presentation (helyzetek + választós kérdések) + Moodle Forum (bemutatkozó poszt + komment).
 
@@ -132,7 +132,7 @@ A modul végére a madrich…
   * **Moodle Quiz – „M0 belépő-quiz: keret, szerepek, technika”**
     * 6–8 egyszerű kérdés (true/false + feleletválasztás), témák:
       * madrich vs. nem terapeuta,
-      * jelzési út gyerekvédelmi ügyben,
+      * jelzési út gyermekvédelmi ügyben,
       * puha vs. éles kapu,
       * **kapu-következmény** – 1 rövid szcenárió-item: „mi történik, ha a puha/éles kapu nem megy elsőre?” → válaszd ki a **helyes következményt** (jelzés + javítási lehetőség, nem kizárás) – az M0.3 SLIDE 6 „mi történik, ha…?” mintájára,
       * **online hangnem / szabály** – 1 felismerő item: melyik reakció / szabály illik egy **dugma ishit** madrichhoz az online térben (chat, komment) – az M0.4 SLIDE 3–4 helyzeteinek és a „3 egyszerű szabály” logikájára építve,
@@ -143,7 +143,7 @@ A modul végére a madrich…
       | Item-téma | M0-kompetencia (lásd 2. szakasz) |
       | --- | --- |
       | madrich vs. nem terapeuta | 2. Szerepek és elvárások (madrich-határ) |
-      | jelzési út gyerekvédelmi ügyben | 2. Szerepek és elvárások (jelzés) |
+      | jelzési út gyermekvédelmi ügyben | 2. Szerepek és elvárások (jelzés) |
       | puha vs. éles kapu | 4. Kapuk és completion-logika |
       | kapu-következmény (mi történik, ha…?) | 4. Kapuk és completion-logika (helyes következmény) |
       | online hangnem / szabály | 5. Dugma ishit az online térben |

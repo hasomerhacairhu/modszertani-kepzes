@@ -101,7 +101,7 @@ Egy 12 éves chanichod késő este privátban ír: *„Senki nem ért meg. Minde
 - C) Nem válaszolsz neki, mert ez már nem a te dolgod, túl nagy teher, és nem egy madrich felelőssége ezt megoldani.
 - D) Megígéred neki, hogy ez kettőtök titka marad, magad próbálod megoldani, és felnőttet egyáltalán nem vonsz be.
 
-> **Feedback:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható felnőtt”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyerekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. self-check pontjánál.
+> **Feedback:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható felnőtt”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. self-check pontjánál.
 
 ### Item 6 – Mi az „idei vállalás”? (M2 integráció)
 
@@ -134,7 +134,7 @@ M2.4 szerint nem minden témának ugyanott a helye. Egy chanich a peula szünet�
 - C) Röviden megosztod, hogy **veled is előfordult már hasonló, és így emberként kapcsolódsz**. ✅
 - D) Nem reagálsz, és rögtön jelented a mentornak, hogy a chanich a magánéletedről kérdezett rá a szünetben.
 
-> **Feedback:** ✅ **C – „…veled is előfordult már hasonló, és így emberként kapcsolódsz”.** Ez a **„személyes”** szint M2.4-ből: megoszthatsz valamit, hogy emberinek lássanak és kapcsolódni tudjatok, **de nem támaszkodsz érzelmileg a chanichokra**. Az A átcsúszik a **privát/önterhelő** sávba (a saját aktuális krízised nem a chanichra tartozik), a B fölöslegesen elzárkózik egy ártalmatlan kérdéstől, a D pedig egy hétköznapi kérdést kezel gyerekvédelmi jelzésként. A jegyzeted határ-részéhez (R4) ez a három sáv ad keretet.
+> **Feedback:** ✅ **C – „…veled is előfordult már hasonló, és így emberként kapcsolódsz”.** Ez a **„személyes”** szint M2.4-ből: megoszthatsz valamit, hogy emberinek lássanak és kapcsolódni tudjatok, **de nem támaszkodsz érzelmileg a chanichokra**. Az A átcsúszik a **privát/önterhelő** sávba (a saját aktuális krízised nem a chanichra tartozik), a B fölöslegesen elzárkózik egy ártalmatlan kérdéstől, a D pedig egy hétköznapi kérdést kezel gyermekvédelmi jelzésként. A jegyzeted határ-részéhez (R4) ez a három sáv ad keretet.
 
 ### Item 9 – A határtartás mint példamutatás (M2.4)
 

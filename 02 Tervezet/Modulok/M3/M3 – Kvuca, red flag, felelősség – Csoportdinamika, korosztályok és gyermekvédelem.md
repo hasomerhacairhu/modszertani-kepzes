@@ -191,7 +191,7 @@ A modul végére a résztvevő…
 
 * **Cél:**
   Támogatott térben segíteni azoknak, akik lemaradtak az online leckékkel (**M3.1–M3.4**), hogy:
-  * értsék a fő fogalmakat (Tuckman, 4 kvuca-profil, gyerekvédelem, red flag),
+  * értsék a fő fogalmakat (Tuckman, 4 kvuca-profil, gyermekvédelem, red flag),
   * legalább egy leckében érdemben haladjanak,
   * legyen „1 gondolat + 1 kérdés” mindegyik leckéhez.
 * **Kapcsolat az online résszel:**
@@ -203,7 +203,7 @@ A modul végére a résztvevő…
   2. **5–25’ – Csendes online pótlás fülessel:**
      * Mindenki a saját eszközén pótol / újranéz 1–2 leckét.
   3. **25–40’ – Kérdések + fogalom-térkép:**
-     * Közös tábla: Tuckman – 4 kvuca – gyerekvédelem – red flag – madrich szerepe.
+     * Közös tábla: Tuckman – 4 kvuca – gyermekvédelem – red flag – madrich szerepe.
   4. **40–45’ – Átvezetés:**
      * „Mit fogsz még pótolni a héten?” + híd a következő peulákhoz.
 
@@ -212,7 +212,7 @@ A modul végére a résztvevő…
 ## 6. Kapuk
 
 * **Kaputípus:**
-  * **Éles / mastery gate**, mivel a gyerekvédelem & red flag tematika biztonsági kérdés.
+  * **Éles / mastery gate**, mivel a gyermekvédelem & red flag tematika biztonsági kérdés.
 * **Eszközök:**
   * Moodle Quiz vagy H5P Question Set – **szcenárió-alapú kvíz** gyermekvédelem & red flag témában.
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
