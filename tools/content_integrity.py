@@ -33,6 +33,11 @@ FORBIDDEN_ACTIVE = {
     '2–3 perces minijelenetet': 'súlyos safeguarding-helyzetek kötelező eljátszása visszatérne',
 }
 
+CLOSED_REGRESSIONS = {
+    'fotózd le a rajzot, és töltsd fel': 'M2.1 teljes identitástérkép feltöltése visszatérne',
+    '2–3 perces minijelenetet': 'súlyos safeguarding-helyzetek kötelező eljátszása visszatérne',
+}
+
 REQUIRED_FILES = [
     'LICENSE',
     '02 Tervezet/RELEASE-READINESS.md',
@@ -130,6 +135,9 @@ def check_regressions(errors: list[str]) -> None:
     for path in MODULE_ROOT.rglob('*.md'):
         text = path.read_text(encoding='utf-8', errors='replace').lower()
         for phrase, why in FORBIDDEN_ACTIVE.items():
+            if phrase.lower() in text:
+                errors.append(f'REGRESSION {path.relative_to(ROOT)}: {phrase!r} ({why})')
+        for phrase, why in CLOSED_REGRESSIONS.items():
             if phrase.lower() in text:
                 errors.append(f'REGRESSION {path.relative_to(ROOT)}: {phrase!r} ({why})')
     z4 = MODULE_ROOT / 'Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md'

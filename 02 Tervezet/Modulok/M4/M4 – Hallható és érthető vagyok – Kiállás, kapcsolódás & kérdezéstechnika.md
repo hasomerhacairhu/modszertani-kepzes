@@ -28,10 +28,10 @@ A modul végére a résztvevő…
    * Felismeri alapvető nonverbális mintáit (testtartás, tekintet, kézmozdulatok), és tudatosan tud **nyitottabb, jelenlévőbb** kiállást választani peula előtt / alatt.
    * Érti, hogy a kvuca már **a testéből „olvas”**, mielőtt megszólal.
      *(Főleg: M4.1, M4.A)*
-2. **Hanghasználat & érthetőség (tudatosítás szintjén)**
-   * **Észreveszi**, hogy a **hangerő, a beszédtempó és a tagolás** hat az érthetőségére (pl. a túl halk, hadaró vagy monoton beszéd nehezíti a követést) – ezt a fő úton elsősorban **felismeri / tudatosítja**, nem külön gyakorolt készségként.
-   * Képes rövid, **érthető mondatokban** összefoglalni, mit szeretne, és vissza is kérdez: „Követtek?”
-     *(Tudatosítás: az M4.A „mini színpadon” a hangerő/tempó a társak megfigyelési szempontjai közt is megjelenhet. A célzott hangkészség-fejlesztés nem önálló tananyag a modulban.)*
+2. **Hanghasználat & érthetőség (gyakorlati alapszinten)**
+   * **Észreveszi és kipróbálja**, hogyan hat a **hallhatóságra a hangerő, a beszédtempó, a tagolás, a levegő és a térhez fordulás**. Nem a kiabálást gyakorolja, hanem azt, hogyan ér el a hangja a terem végéig erőlködés nélkül.
+   * Képes egy 20–30 mp-es belépőt úgy elmondani, hogy a kijelölt távolságból a társ legalább a kulcsmondatot érthetően hallja; ha a tér/zaj ezt nem teszi lehetővé, **környezeti megoldást választ** (közelebb hívja a csoportot, csökkenti a háttérzajt, szükség esetén mikrofont használ), nem „túlharsogja” a teret.
+     *(Főleg: M4.A „Hang-létra” gyakorlat; a blokk nem hangterápia és nem értékeli a hangszínt.)*
 3. **Aktív hallgatás & visszatükrözés**
    * Felismeri a különbséget a **lezáró / bagatellizáló** és a **támogató, visszatükröző** reakciók között.
    * Tud használni egyszerű **visszatükröző mondatokat** („Azt hallom, hogy…”, „Úgy tűnik, neked az a fontos, hogy…”), és nem ugrik azonnal tanácsadásba.
@@ -84,7 +84,7 @@ A modul végére a résztvevő…
 ### Peula A (M4.A) – „Állj oda!” – Kiállás & jelenlét a térben (45’)
 
 * **Kapcsolódó online leckék:** M4.1, M4.2 (test + figyelem / hallgatás).
-* **Fő fókusz:** „Hogyan állok be, mozgok, nézek végig egy képzős kvucán, hogy **érezhető legyen a jelenlétem**?” – a nonverbális jelek „testbe vitele” és társak általi megfigyelés-alapú visszajelzés.
+* **Fő fókusz:** „Hogyan állok be, mozgok, nézek és **hogyan szólalok meg úgy, hogy hallható és érthető legyek**?” – nonverbális jelenlét + rövid, hangkímélő projekciós „Hang-létra” gyakorlat + megfigyelés-alapú visszajelzés.
 * **Modulbeli szerepe:** az M4.1–M4.2-ben tanult fogalmak élményesítése, saját kiállás kipróbálása és finomítása biztonságos kvuca-térben; személyes fókuszmondat kijelölése („Legközelebb erre figyelek, amikor a kvucám előtt állok”).
 
 ### Peula B (M4.B) – „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása (45’)

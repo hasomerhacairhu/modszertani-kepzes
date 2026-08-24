@@ -36,8 +36,8 @@
 > *„na, most tanultam valamit magamról / a kvucámról / a madrich-szerepről”*
 > – akár pozitív élmény volt, akár nehéz.
 
-> A lecke **csendes, reflektív** – amit írsz, azt csak a képzőid / mentorod látják.
-> Nem fogalmazásverseny, hanem **őszinte gondolkodás**.
+> A lecke **csendes, reflektív**. A beadott válaszokat csak a kurzusban erre jogosult képző/mentor láthatja a jóváhagyott hozzáférési beállítás szerint. **Nem kell intim vagy érzékeny részletet megosztanod.** Használj anonimizált/általánosított helyzetet, ne írj chanich-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat.
+> Nem fogalmazásverseny, hanem **a tanulásod felismerése**.
 
 > A végén 3 szóval fogod összefoglalni, mit jelentett számodra ez a félév.
 
@@ -216,7 +216,7 @@ Opciók:
 > – Mit csinálnál **másképp**, ha újra ilyen helyzetbe kerülnél?
 
 > Nem kell „tökéletes” sztori.
-> Itt egy **valóságos, őszinte** pillanatra van szükség.
+> Itt egy **konkrét tanulási pillanatra** van szükség, de nem személyes kitárulkozásra. Leírhatod anonimizálva, és elég annyi kontextus, amennyi a tanulság megértéséhez kell.
 
 **Beágyazott kérdés – Essay**
 
@@ -224,8 +224,7 @@ Opciók:
 
 **Megnyugtató kis szöveg a mező alatt:**
 
-> Amit ide leírsz, azt csak a képzőid / mentorod látják.
-> Nem az a cél, hogy „jó madrichnak tűnj”, hanem hogy **tudd, mit tanultál**.
+> A beadást csak az arra jogosult képző/mentor láthatja. **Ne adj meg chanich-nevet, egészségügyi/mentális, családi vagy más érzékeny részletet, ha az nem szükséges.** Nem az a cél, hogy „jó madrichnak tűnj”, hanem hogy **tudd, mit tanultál**.
 
 ***
 
@@ -250,7 +249,7 @@ Opciók:
 > 3️⃣ Mit mond ez rólad **most**? (pl. mire vagy érzékeny, miben vagy még bizonytalan)
 > 4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrichként?
 
-> Itt sem kell „szépen” fogalmazni – **az őszinteség többet ér**, mint a szép mondatok.
+> Itt sem kell „szépen” fogalmazni. Ha a „mit mond ez rólad?” kérdés túl személyes lenne, válaszolj inkább így: **„Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”** A teljesítéshez nem kell érzékeny önfeltárás.
 
 **Beágyazott kérdés – Essay**
 
