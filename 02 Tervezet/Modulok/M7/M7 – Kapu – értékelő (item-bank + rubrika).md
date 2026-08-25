@@ -240,7 +240,7 @@
 > A mezőt a madrich **először élőben** fogalmazza meg az M7.B zárókörében, majd a v2 leadásakor rögzíti. Az értékelő **completion-szinten** (leadta / nem) veszi figyelembe, tartalmilag NEM pontozza – ez a madrich saját elköteleződése, nem teljesítmény-mérés.
 
 > 🔎 **AI-használat-megjegyzés (a v2 leadás MELLÉ – transzparencia, NEM rubrika-pont).**
-> A Peula v2 mellé a madrich tesz **1 rövid sort arról, hol és mire használt AI-t** (pl. „ChatGPT-vel ötleteltem feldolgozó kérdéseket, és a kvucámhoz igazítottam” – vagy „nem használtam AI-t”). **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol.** Ugyanaz az átláthatóság, amit a modul a **saját AI-médiáinál** is megkövetel (D1.3 AI-provenance: „AI-generált avatar, narrációt madrich lektorálta”) – itt a tanulói produktumra alkalmazva.
+> A Peula v2 mellé a madrich tesz **1 rövid sort arról, hol és mire használt AI-t** (pl. „a jóváhagyott AI-eszközzel ötleteltem feldolgozó kérdéseket, és a kvucámhoz igazítottam” – vagy „nem használtam AI-t”). **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol.** Ugyanaz az átláthatóság, amit a modul a **saját AI-médiáinál** is megkövetel (D1.3 AI-provenance: „AI-generált avatar, narrációt madrich lektorálta”) – itt a tanulói produktumra alkalmazva.
 > **Miért fontos a hangsúly?** Nem a „saját szavakkal átírás” teszi etikussá az AI-használatot, hanem **(1) a transzparens jelölés** (hol, mire használtad) **és (2) a madrich tényleges szakmai döntése** (mi illik a kvucához, mit hagysz ki). A parafrázis önmagában nem cél; a felelősség és a hozzáadott érték végig a madrichnál marad.
 
 **Szintezés logikája:** minden sor megfigyelhető **szövegjegyhez** kötött (mit kell látnia az értékelőnek a leadott szövegben), nem „jó/rossz” érzéshez.
