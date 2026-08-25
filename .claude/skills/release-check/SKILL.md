@@ -1,6 +1,6 @@
 ---
 name: release-check
-description: Objektív, gépi release-ellenőrzés a tananyagon — content_integrity.py, whitespace, relatív linkek, placeholderek, answer-key és küszöbváltozások a diffen, szemantikus azonosítók, saját diff visszaolvasása. Read-only, semmit nem javít. Futtasd tartalmi módosítás után és release előtt.
+description: Objektív, gépi release-ellenőrzés a tananyagon — content_integrity.py, whitespace, relatív linkek, placeholderek, answer-key és küszöbváltozások a diffen, szemantikus azonosítók, saját diff visszaolvasása. Nem módosít semmit, de ellenőrző parancsokat futtat (Bash). Futtasd tartalmi módosítás után és release előtt.
 argument-hint: [scope, pl. M3 vagy üres = teljes repo]
 disallowed-tools: Edit, Write, NotebookEdit
 allowed-tools:
@@ -13,7 +13,15 @@ allowed-tools:
 
 # Release-ellenőrzés
 
-**Read-only.** Semmit nem javít — a hibákat felsorolja, és megnevezi, melyik skill javítja.
+**Operatív, nem mutáló skill — nem „hard read-only".** Az `Edit`, `Write` és
+`NotebookEdit` el van véve tőle, de **`Bash`-t futtat**: enélkül nem tudná lefuttatni az
+objektív ellenőrzéseket. A parancsai olvasó/ellenőrző jellegűek, és a
+`.claude/hooks/guard-repo-safety.sh` + `permissions.deny` réteg alatt futnak.
+
+> A **hard read-only** kategória ettől külön áll: a `.claude/agents/` alatti reviewerek
+> és a `/course-review` skill — azoknak `Bash`, `Edit` és `Write` eszközük **sincs**.
+
+Semmit nem javít — a hibákat felsorolja, és megnevezi, melyik skill javítja.
 Ez a repository **egyetlen** kánoni objektív checkere: `tools/content_integrity.py`.
 Ne írj mellé második lintert.
 

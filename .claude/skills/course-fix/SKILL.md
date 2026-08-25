@@ -17,6 +17,30 @@ explicit listája, vagy egy konkrét fájl + konkrétan megnevezett probléma.
 Ha a bemenet „nézd át és javítsd, amit találsz" — **ez nem érvényes bemenet.**
 Mondd meg, hogy előbb `/course-review` kell.
 
+### Mikor elég egy puszta finding-ID
+
+Egy ID (pl. `NYELV-3`) **csak akkor** elég, ha a teljes validált finding **még ebben a
+contextben van** — vagyis a `/course-review` ugyanebben a sessionben futott, és a riport
+nem esett ki `/compact` során.
+
+Friss session vagy `/clear` után az ID önmagában semmit nem jelent. Ilyenkor kérd be a
+teljes validált findinget, vagy azzal egyenértékű konkrét információt:
+
+| Mező | Miért kell |
+|---|---|
+| **ID** | hivatkozhatóság a riportban |
+| **fájl** | melyik fájl (teljes útvonal) |
+| **hely** | sor vagy szakaszcím |
+| **probléma** | egy mondat, konkrétan |
+| **bizonyíték** | a szó szerinti idézet, ami miatt ez hiba |
+| **javítási korlát** | mi a validált javítás, és mihez tilos hozzányúlni |
+
+Ha ezek bármelyike hiányzik: **ne találgass és ne rekonstruáld a findinget** — kérd be a
+felhasználótól, vagy futtass egy szűk `/course-review`-t arra az egy fájlra.
+
+Nincs és ne is legyen finding-adatbázis: a validált finding a felhasználónál és a review
+riportjában él. Egy „emlékszem rá" alapon rekonstruált finding nem validált finding.
+
 ## Findingonként, egyesével — soha nem kötegelve
 
 ### 1. Kontextus

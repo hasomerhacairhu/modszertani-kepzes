@@ -23,6 +23,11 @@
 # A coarser second layer lives in .claude/settings.json (permissions.deny). It
 # survives even when hooks are unavailable. Keep the two roughly in sync.
 #
+# One deliberate asymmetry: deny rules cannot carry exceptions, so a blanket
+# "git rebase*" deny would also block `git rebase --abort`. settings.json therefore
+# denies only the named dangerous rebase spellings, and THIS hook is the complete
+# layer — it blocks every rebase form except the bare `--abort` recovery.
+#
 # Self-test:  bash .claude/hooks/guard-repo-safety.sh --selftest
 set -uo pipefail
 
@@ -35,6 +40,31 @@ has_flag() {
 # Echoes a reason and returns 0 when the command must be blocked.
 verdict() {
   local cmd=" ${1} "
+
+  # Recovery invocations RESTORE a previous state instead of destroying one, so they
+  # must stay available — an in-progress rebase or merge is exactly when you need
+  # them. Strip the four exact invocations before the destructive checks run.
+  #
+  # This is NOT a blanket allowance for anything containing "--abort". The pattern
+  # includes the trailing space, and `cmd` is space-padded and whitespace-collapsed
+  # before it gets here, so only a complete invocation is removed:
+  #   "git rebase --abort"    -> stripped, allowed
+  #   "git rebase --aborted"  -> NOT stripped (next char is "e"), still blocked
+  #   "git rebase --abort && git rebase -i HEAD~3" -> only the first is stripped,
+  #                                                  the second still matches, blocked
+  # `--continue`, `--skip` and `--quit` are deliberately NOT recovery: they carry an
+  # in-progress history rewrite forward, or leave it half-applied.
+  #
+  # Shell separators are padded first, so a recovery command written as
+  # `git rebase --abort;` or `...--abort&&x` still ends on a space boundary and is
+  # recognised as complete. This also tightens the path checks further down.
+  cmd="${cmd//;/ ; }"
+  cmd="${cmd//&/ & }"
+  cmd="${cmd//|/ | }"
+  cmd="${cmd//git rebase --abort / }"
+  cmd="${cmd//git merge --abort / }"
+  cmd="${cmd//git cherry-pick --abort / }"
+  cmd="${cmd//git revert --abort / }"
 
   if [[ $cmd =~ [[:space:]]git[[:space:]] ]]; then
     [[ $cmd =~ git\ .*reset ]] && [[ $cmd =~ --(hard|merge) ]] && \
@@ -108,7 +138,9 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "$G restore ." "$G restore 02 Tervezet/x.md" "$G restore --staged --worktree x"
     "$G push --force" "$G push -f origin main" "$G push origin main -f"
     "$G push --force-with-lease origin HEAD" "$G push --mirror" "$G push origin --delete x"
-    "$G rebase -i HEAD~3" "$G rebase main" "$G commit --amend --no-edit"
+    "$G rebase -i HEAD~3" "$G rebase main" "$G rebase --continue" "$G rebase --skip"
+    "$G rebase --onto main HEAD~2" "$G rebase --quit" "$G rebase --aborted"
+    "$G rebase --abort && $G rebase -i HEAD~3" "$G commit --amend --no-edit"
     "$G filter-branch --tree-filter x" "$G filter-repo --path x"
     "$G branch -D audit-fixes-2026-08-25" "$G branch --force main HEAD~2" "$G branch -M main"
     "$G stash clear" "$G stash drop" "$G reflog expire --expire=now --all"
@@ -128,6 +160,10 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "$G push origin main" "$G push -u origin HEAD" "$G restore --staged 02 Tervezet/x.md"
     "$G stash" "$G stash pop" "$G stash list" "$G show HEAD" "$G clean -n" "$G clean -nd"
     "$G worktree list" "$G rev-parse HEAD" "$G reflog" "$G gc"
+    "$G rebase --abort" "$G merge --abort" "$G cherry-pick --abort" "$G revert --abort"
+    "$G status && $G rebase --abort" "$G merge main" "$G revert HEAD" "$G cherry-pick abc123"
+    "$G rebase --abort;" "$G rebase --abort && $G status" "cd /repo && $G rebase --abort"
+    "$G rebase --abort; echo done" "$G merge --abort;" "$G cherry-pick --abort && $G status"
     "python3 tools/content_integrity.py" "python3 tools/content_integrity.py --release-report"
     "grep -rn mintaszo '02 Tervezet'" "ls -la" "ls -lf" "cat CLAUDE.md"
     "$R -rf /private/tmp/claude-501/scratch" "$R /tmp/x.json"
