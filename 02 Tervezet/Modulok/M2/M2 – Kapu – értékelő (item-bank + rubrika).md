@@ -189,7 +189,13 @@ A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha e
 
 ## D. 1 oldalas identitás-jegyzet – sablon (a tanulónak)
 
-> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét és őszinte** legyen. Kb. 1 oldal. Csak a mentorod/képződ látja.
+> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Csak a mentorod/képződ látja.
+>
+> 🔒 **Mit kérünk és mit nem.** Itt **nem az identitásod tartalmát értékeljük**, hanem azt, hogy tudsz-e belőle **megfigyelhető madrich-viselkedést** levezetni. Ezért:
+> – a köröket elég **általánosan** megnevezned (pl. „család”, „zsidó közösség”, „iskola”) – nem kell személyes történet, diagnózis, családi konfliktus vagy más érzékeny részlet;
+> – **3 kör is elég** (a rubrika ennyit kér), és bármelyiket kihagyhatod, ha nem szeretnéd leírni – ez nem pontlevonás;
+> – **más embert ne azonosíts be** (chanich, családtag: név nélkül).
+> A lényeg mindenhol a **jobb oldal**: mit lát ebből a kvucád rajtad.
 
 ```
 MADRICH IDENTITÁS-JEGYZET  ·  M2

@@ -22,7 +22,7 @@ A madrich **megnevezi identitásrétegeit és 3 személyes értékét, mindegyik
 A modul végére a madrich…
 
 1. **Identitás-tudatosság – felrajzolja és megnevezi az identitásrétegeit**
-   * Felrajzolja saját identitás-térképét (ÉN–család–zsidóság–Somer–egyéb közegek).
+   * Felrajzolja **magának** a saját identitás-térképét (ÉN–család–zsidóság–Somer–egyéb közegek); a lap nála marad, nem beadandó.
    * Megnevezi, melyik réteg hogyan befolyásolja a madrich-szerepét.
    * **Támogató elemek:** M2.1 (identitás-körök), M2.A (identitás-megosztás élőben).
 2. **Értékalapú dugma ishit**
@@ -59,8 +59,8 @@ A modul végére a madrich…
 * **Cél:** saját identitás-körök tudatosítása, és annak belátása, hogy ebből mit lát a kvuca; első lépés a személyes példamutatás (dugma ishit) felé.
 * **Fő tartalom röviden:**
   * identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) rajzos feltérképezése;
-  * fotófeltöltés + rövid szöveges reflexió arról, hogyan hatnak ezek a madrich-szerepre.
-* **Moodle/H5P mix:** H5P Course Presentation + Moodle Assignment (identitás-térkép feltöltés).
+  * **a rajz a tanulónál marad** (privát munkalap, nincs fotófeltöltés); a Moodle-be csak egy rövid, nem érzékeny, **viselkedés-szintű** reflexió kerül arról, miben ad személyes példát a kvucájának.
+* **Moodle/H5P mix:** H5P Course Presentation + rövid szövegmező (Short answer / Essay). **File upload nincs** — lásd az M2.1 privacy-by-design jegyzetét.
 
 ### L2 / M2.2 – Értékeim mint iránytű (10–15’)
 
@@ -148,7 +148,7 @@ A modul végére a madrich…
 
 **Követelmény az M2 „complete”-hez:**
 
-1. L1 / M2.1 – identitás-térkép Assignment leadva.
+1. L1 / M2.1 – a viselkedés-szintű reflexió leadva (az identitás-térkép maga nem beadandó).
 2. L2 / M2.2 – H5P értékválasztás + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
 4. L4 / M2.4 – reflektív napló leadva, benne 3 saját határszabály.
@@ -178,7 +178,7 @@ A modul végére a madrich…
   * Melyik pillérnél (cionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
   * Hányan írnak ténylegesen példát dugma ishitre (legalább 1–1 mondat pillérenként).
 * **Assignment adatok:**
-  * Identitás-térkép, reflektív napló és identitás-jegyzet leadási aránya.
+  * A viselkedés-reflexió, a reflektív napló és az identitás-jegyzet leadási aránya (a rajz maga nem kerül be).
   * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrich-szerephez kötött szabály.
 * **Thresholdok / beavatkozási pontok (példák):**
   * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → M2.F Study Lab + extra emlékeztető.
