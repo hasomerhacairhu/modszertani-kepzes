@@ -61,7 +61,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > **Formátum:** minden item = rövid **szcenárió-szár** (korosztály + kvuca + cél / körülmény) + **4 opció** + jelölt **helyes válasz (✅)** + **distraktor-indok** (miért hihető, de miért rossz) + rövid **tanulói feedback**.
 > A distraktorok mind **valós madrich-tévedést** testesítenek meg (nem karikatúrát, nem tölteléket).
 >
-> **Megjegyzés a konvergenciáról:** a 12 item egy része (eszköz-illesztés) szándékosan **egy-helyes-válaszos** – ott valódi biztonsági/illesztési minimum van (pl. 6–10-esnél nem indítunk mély kirekesztés-szerepjátékot). Ez **diagnosztikai** jelzés, nem éles kapuzás. A **nyitott, divergens** mérlegelést a játéklap-rubrika (B) és az M6.4 Branching viszi, ahol nincs „egyetlen jó megoldás”.
+> **Megjegyzés a konvergenciáról:** a 12 item egy része (eszköz-illesztés) szándékosan **egy-helyes-válaszos** – ott valódi biztonsági/illesztési minimum van (pl. résztvevőt nem zárunk ki demonstrációként; a kirekesztést fiktív esetből elemezzük). Ez **diagnosztikai** jelzés, nem éles kapuzás. A **nyitott, divergens** mérlegelést a játéklap-rubrika (B) és az M6.4 Branching viszi, ahol nincs „egyetlen jó megoldás”.
 
 ---
 
@@ -73,13 +73,13 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 **Opciók:**
 - A) Labdás névkör – mindenki sorra kerül, kis tét, mozgás. ✅
 - B) Csukott szemű bizalom-vezetés párokban, hogy gyorsan összekovácsolódjanak.
-- C) Kirekesztés-szerepjáték, utána hosszú feldolgozó kör.
+- C) Olyan kirekesztés-játék, amelyben egy résztvevőt szándékosan kihagynak, utána hosszú feldolgozó körrel.
 - D) Hosszabb beszélgető kör „mi a legnehezebb dolog az életedben” kérdéssel.
 
 **Helyes:** A
 **Distraktor-indok:**
 - B – Hihető, mert a bizalomjáték „összehozó”, DE 6–10-nél a kontakt-/bizalomjáték **kockázatos** (testkép, bizalom még alakul); a lecke szerint inkább a **nagyobbaknak (14–16, 16+)** való, fiatalabbaknál csak nagyon egyszerű, rövid, jól szabályozott verzióban.
-- C – A mély élményjáték friss, fiatal kvucánál **túl sok**; érettebb (14–16, 16+), kis kvucára való.
+- C – Résztvevő tényleges kizárása demonstrációként **nem biztonságos**; a kirekesztést fiktív, nem beazonosítható esettel elemezzük, nem úgy, hogy valakit valóban kívül hagyunk.
 - D – Túl elvont, túl intim egy frissen ismerkedő fiatal kvucának; nem a cél (ismerkedés) szolgálja.
 
 **Feedback:**
@@ -87,24 +87,25 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
-## 2. ITEM – Eszköz-illesztés: életkori plafon a mély élményjátéknál
+## 2. ITEM – Eszköz-illesztés: kirekesztés biztonságos feldolgozása
 
 **Szár:**
-> Egy **kirekesztés-szerepjátékot** terveznél, ahol a résztvevők eljátszanak egy szituációt, valakit kirekesztenek, majd **hosszabb feldolgozó kör** következik a megélésekről. **Melyik kvucának** való ez leginkább?
+> Egy **15 éves, klikkesedő kvucában** szeretnéd tematizálni a kirekesztést úgy, hogy felismerjék, mely döntések és csoportmechanikák tesznek egy helyzetet kirekesztővé. Melyik eszköz a **legbiztonságosabb kiindulópont**?
 
 **Opciók:**
-- A) 6–10 éveseknek, mert nekik fontos korán megtanulni, mi a kirekesztés.
-- B) 14–16 / 16+ kvucának, kisebb létszámmal, erős facilitálással. ✅
-- C) Bármelyik korosztálynak, ha elég jól vezeted.
-- D) 6–10 éveseknek, mert ők játszanak a legszívesebben szerepeket.
+- A) Egy résztvevőt szándékosan kihagytok a játékból, hogy a többiek átérezzék, milyen a kirekesztés.
+- B) **Fiktív, nem beazonosítható esetkártyákat elemeztek harmadik személyben, majd közösen átalakítjátok a helyzetet befogadóbbá.** ✅
+- C) A kvuca legutóbbi valódi konfliktusát eljátsszátok ugyanazokkal a szerepekkel, hogy „életszerű” legyen.
+- D) Megnevezitek, ki szokott a csoportban másokat kizárni, és az ő viselkedését elemzitek.
 
 **Helyes:** B
 **Distraktor-indok:**
-- A / D – Hihető „nevelési” érvvel csomagolva, DE a mély élményjáték 6–10-nél **túl sok** lehet, ha nincs hozzá érettség és feldolgozási kapacitás; a téma érzékeny.
-- C – A „ha elég jól vezeted” a tipikus túlbecslés: az életkori illesztés nem pótolható vezetői ügyességgel.
+- A – Az átélés kedvéért létrehozott valódi kirekesztés **maga is bántó és kirekesztő helyzetet gyárt**; nem pedagógiai shortcut.
+- C – A valós konfliktus és szerepek újrajátszása könnyen megszégyenít és ráéget egy szerepet az érintettekre.
+- D – Valódi személy megnevezése és közös elemzése megszégyenítő; a cél a dinamika megértése, nem valaki kipécézése.
 
 **Feedback:**
-> ✅ A mély, érzelmileg terhelő élményjáték érettebb kvucának (14–16, 16+), kis létszámmal és erős facilitálással való – idővel és térrel a feldolgozásra. (M6.1 SLIDE 6, M6.4 B-ág logika)
+> ✅ A kirekesztést **fiktív, harmadik személyű esetből** dolgozzuk fel: senkit nem hagyunk ki demonstrációként, nem osztunk „kirekesztett” vagy „kirekesztő” szerepet, és nem használunk beazonosítható valós konfliktust. (M6.4 B-ág)
 
 ---
 
@@ -176,25 +177,25 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
-## 6. ITEM – Biztonság: élmény-kirekesztés valós dinamikára
+## 6. ITEM – Biztonság: kirekesztés tematizálása valódi kizárás nélkül
 
 **Szár:**
-> **15 éves** kvucánál, ahol látható, hogy néhányan **a peremen** ülnek, egy madrich olyan élmény-játékot tervez, amelyben **valakit szándékosan kihagynak** a játékból, hogy átérezzék a kirekesztést. Mi a **legfontosabb biztonsági szabály**, amit be kell tartania?
+> Egy **15 éves** kvucában látható, hogy néhányan gyakran a peremen maradnak. A madrich a kirekesztést szeretné feldolgozni. Melyik megoldás tartja meg legjobban a tanulási célt **anélkül, hogy új kirekesztő élményt hozna létre**?
 
 **Opciók:**
-- A) **Ne a valós szerepeket másolja le** – ne abból csináljon „kirekesztettet”, aki amúgy is peremen van; tiszta keret + utólagos biztonságos kör kell. ✅
-- B) Minél hosszabb legyen a kirekesztés, hogy biztosan „betaláljon”.
-- C) A kirekesztett szerepet mindig a legmagabiztosabb chanich kapja, hogy bírja.
-- D) Ne beszéljék meg utána, hogy ne „rágódjanak” rajta.
+- A) **Fiktív, nem beazonosítható esetet elemeznek harmadik személyben, senkit nem osztanak „kirekesztett” szerepbe, majd közösen befogadóbbá alakítják a helyzetet.** ✅
+- B) Valakit szándékosan kihagynak a játékból, de csak rövid időre, hogy legyen „aha-élmény”.
+- C) A peremen lévő résztvevő helyett a legmagabiztosabbat hagyják ki, mert ő várhatóan jobban bírja.
+- D) A csoport egy valódi, friss konfliktusát elemzik nevekkel, hogy mindenki tudja, kiről van szó.
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – A „minél erősebb, annál jobb” logika épp a **bántás** kockázatát növeli; nem cél.
-- C – Hihető „védő” gondolat, DE a valódi szabály a **valós dinamika lemásolásának tiltása**, nem az, hogy ki bírja jobban.
-- D – A feldolgozás **elhagyása** a legveszélyesebb: valaki azzal megy haza, hogy „ma is rajtam gyakoroltak”.
+- B – A rövid idő sem teszi biztonságossá a **szándékosan létrehozott valódi kizárást**.
+- C – A szerepcsere nem oldja meg az alapvető hibát: demonstrációként továbbra is egy résztvevőn gyakoroltatja a kirekesztést.
+- D – A beazonosítható valós konfliktus közös elemzése megszégyenítő lehet és ráégetheti a szerepeket az érintettekre.
 
 **Feedback:**
-> ✅ Ha élmény-kirekesztést használsz: soha ne valós kvuca-szerepeket másolj le, dolgozz tiszta kerettel („ez játékhelyzet”), és adj utána biztonságos kört, ahol mindenki jelölhet határt. (M6.4 5B-J)
+> ✅ A kirekesztés felismerését fiktív, harmadik személyű helyzetből gyakoroljuk. **Nem hagyunk ki résztvevőt demonstrációként**, és nem osztunk rá valódi „kirekesztett” szerepet. (M6.4 5B-J)
 
 ---
 
@@ -380,9 +381,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | # | Kritérium | 1 – Még nem | 2 – Oké (minimum átmenő) | 3 – Erős |
 |---|---|---|---|---|
 | **R1** | **Cél-illeszkedés** (mit tanít / mire való) | Nincs cél, vagy csak az eszköz neve szerepel („névkör”) cél nélkül. | A lapon **1 konkrét, kimondott cél** áll, ami az eszközhöz illik (pl. „biztonságosabban ismerkedjenek”, „észrevegyék a kirekesztést”). | A cél konkrét **és** kapcsolódik egy **someres értékhez** (pl. kvuca, egalitás, társadalmi felelősség), 1 mondatban kimondva, miért ezt tanítja. |
-| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. mély kirekesztés-szerepjáték 6–10-re). | Megadva a **korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör 6–10, esetleírás+vita 16+). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
+| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–10-re). | Megadva a **korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör 6–10, esetleírás+vita 16+). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
 | **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrich **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrich kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
-| **R4** | **BIZTONSÁG** *(hard-gate)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi/consent biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „nem valós szerepet játszunk le”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi/consent** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
+| **R4** | **BIZTONSÁG** *(hard-gate)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi/consent biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi/consent** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
 | **R5** | **INKLUZIVITÁS** *(hard-gate)* | Nincs inkluzivitási szempont, vagy csak deklaráció („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
 
 ### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (peer + staff)
