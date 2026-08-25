@@ -121,7 +121,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 **Célok:**
 
 1. Teret adni személyesebb megosztásnak (öröm, nehézség, félelem).
-2. Segíteni pontosítani a következő lépéseket célokat.
+2. Segíteni pontosítani a következő lépéseket és célokat.
 3. Feltérképezni, **milyen támogatásra van szükség a terepen**.
 
 **Javasolt struktúra (20–30’):**
