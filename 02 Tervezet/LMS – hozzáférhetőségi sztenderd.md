@@ -67,11 +67,12 @@
 >
 > **„Kész = élesíthető" definíció:** az elem akkor élesíthető, ha **mind a 7 pont** ki van pipálva ÉS az a11y-lektor jóváhagyta. Részleges teljesítés nem „majdnem kész" — kapus elemnél a hozzáférhetőségi rés egyenlő azzal, hogy valaki kizáródik a továbbhaladásból.
 
-- [ ] **Target size ≥ 24px** — minden kattintható/koppintható elem (válaszgomb, hotspot, drop-zóna) elég nagy ujj-barát célfelület mobilon.
+- [ ] **Célméret (SC 2.5.8, AA)** — a mutatóeszközös célok mérete **legalább 24×24 CSS pixel**, **kivéve** a szabvány kivételeit: elegendő **térköz** (24 CSS px átmérőjű kör nem metsz másik célt), **egyenértékű** másik vezérlő ugyanazon az oldalon, **szövegbe ágyazott (inline)** cél, **user agent** által meghatározott méret, vagy ha az adott megjelenítés **elengedhetetlen**. Gyakorlati elvárásunk: a válaszgomb, hotspot és drop-zóna ujj-barát legyen mobilon.
 - [ ] **Billentyűzet-teljesíthetőség** — az elem **végigvihető és befejezhető kizárólag billentyűzettel** (Tab-rend logikus, fókusz látható, egér/érintés nélkül is teljesíthető).
 - [ ] **Drag-free egypontos alternatíva** — ha az elem húzásra épül, van **drag nélkül is teljesíthető** út (Matching / Single Choice / koppintásos párosítás), hogy a motoros nehézséggel élő vagy apró kijelzőn dolgozó madrich is átjusson a kapun.
-- [ ] **Alt-szöveg / szöveges ekvivalens** — minden képnek, ikonnak, hotspotnak, screenshotnak van alt-szövege vagy szöveges megfeleltetése; a feladat **nem oldható meg kizárólag vizuális infóból**.
-- [ ] **Kontraszt ≥ 4,5:1** — szöveg és lényeges UI-elem kontrasztja eléri a 4,5:1 küszöböt (apró szövegnél is), gyenge fényben / olcsó kijelzőn is olvasható.
+- [ ] **Alt-szöveg / szöveges ekvivalens** — minden **információt hordozó** képnek, ikonnak, hotspotnak, screenshotnak van érdemi alt-szövege vagy szöveges megfeleltetése; a **pusztán dekoratív** elem üres/rejtett alt-tal megy, hogy a felolvasó átugorja (2. szakasz). A feladat **nem oldható meg kizárólag vizuális infóból**.
+- [ ] **Kontraszt** — **szöveg** (SC 1.4.3, AA): törzsszöveg **≥ 4,5:1**, nagy méretű szöveg **≥ 3:1**. **Nem-szöveges elem** (SC 1.4.11, AA): a UI-komponensek és állapotaik, valamint a jelentést hordozó grafikai elemek szükséges vizuális információja **≥ 3:1** a szomszédos színekhez képest (a szabvány kivételeivel: inaktív komponens, user agent által meghatározott megjelenés, illetve ha az adott grafikai megjelenítés elengedhetetlen).
+  - *(Projekt-cél a WCAG-minimum FELETT, nem normatív követelmény: a kapus elemeknél a lényeges UI-kontrasztot is igyekszünk 4,5:1-re hozni, mert a madrichok jellemzően olcsó kijelzőn, gyenge fényben, mozgás közben használják.)*
 - [ ] **Magyar nyelv + iframe-title** — az elem nyelve magyarra állítva, az iframe-nek **beszédes magyar címe** van (képernyőolvasó felolvassa, melyik aktivitásban jár a madrich).
 - [ ] **Felirat + leirat a videókhoz** — minden beágyazott (AI beszélő fej / Interactive / narrált) videóhoz **magyar felirat ÉS teljes szöveges leirat** (slide-jegyzetben vagy a dián), hang nélkül is teljesíthető.
 
