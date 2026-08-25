@@ -4,3 +4,7 @@
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Personal Claude Code config (the shared config in .claude/ IS committed)
+CLAUDE.local.md
+.claude/settings.local.json

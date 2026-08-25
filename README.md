@@ -50,6 +50,7 @@ A rendszer **Open Educational Resource (OER)**, azaz nyílt oktatási segédanya
 │   └── RELEASE-READINESS.md
 ├── tools/
 │   └── content_integrity.py  # statikus tartalmi integritás-ellenőrzés
+├── .claude/                  # Claude Code munkakörnyezet (rules, skills, agents, hook)
 └── .github/workflows/
     └── content-integrity.yml # CI
 ```
@@ -71,6 +72,28 @@ A tananyagon végzett módosításnál:
 - új vagy módosított H5P-funkció csak a cél Moodle/H5P verzión lefuttatott acceptance test után tekinthető támogatottnak;
 - a tanulói felületen nem maradhat megoldatlan `KITÖLTENDŐ` mező;
 - helyi link, duplikált kánoni fájl, tiltott release-állítás és ismert veszélyes regresszió ellen CI fut (`tools/content_integrity.py`).
+
+## Fejlesztés Claude Code-dal
+
+A repository verziókezelt Claude Code munkakörnyezetet tartalmaz. A munkarendet a
+[`CLAUDE.md`](./CLAUDE.md) írja le; az audit és a javítás szándékosan külön művelet.
+
+| Parancs | Mit csinál |
+|---|---|
+| `/course-review <M3 \| fájl> [--lens …]` | read-only tananyag-review specialistákkal, validált **finding**-listával |
+| `/course-fix <findingok>` | csak **validált** findingot javít, sebészi szerkesztéssel |
+| `/hungarian-edit <fájl>` | szűk hatókörű, jelentésmegőrző magyar nyelvi szerkesztés |
+| `/course-develop <feladat>` | új lecke/peula tervezése és megírása, kötelező review-kapukkal |
+| `/release-check [scope]` | objektív ellenőrzés: `tools/content_integrity.py`, diff, linkek, placeholderek |
+
+A `--lens` értékei: `pedagogy`, `assessment`, `language`, `safety`, `implementation`, `all`.
+Ha nem tudod, melyik parancs kell: **mindig `/course-review` az első.** A „finding" egy
+bizonyítékkal alátámasztott, helyhez kötött megállapítás; a mezőit a
+[`.claude/finding-format.md`](./.claude/finding-format.md) írja le.
+
+Destruktív git-műveleteket (`reset --hard`, `clean -f`, `rebase`, force push, `commit --amend`)
+a `.claude/hooks/guard-repo-safety.sh` hook blokkolja. Önteszt:
+`bash .claude/hooks/guard-repo-safety.sh --selftest`
 
 ## Release-folyamat
 
