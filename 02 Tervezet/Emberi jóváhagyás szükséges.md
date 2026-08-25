@@ -60,6 +60,19 @@ A helyi Somer / ken erősítse meg:
 - **M0 belépő-kvíz:** jelenleg **completion-jelző** (nem küszöbös). Ha éles kapu kell: item-bank + answer key + cél→item tábla.
 - **Gyártási becslések** (pl. M2.3 Branching-embernap ~13. sor; M5.3 Moodle-időzítő eszköz): a tényleges fejlesztési ráfordítás/eszköz behelyettesítése.
 
+## 7. Nyitott értékelési és szerkesztői döntések (2026-08-25 reconciliation)
+
+Egyik sem gépi hiba a `tools/content_integrity.py` értelmében, és egyik lezárása sem
+vezethető le a repóból – mindegyik emberi döntést kíván, ezért a reconciliation
+szándékosan **nem** oldotta meg őket. Ahol a jelenlegi állapot bizonyíthatóan törött
+(M2.A), azt a tétel kimondja.
+
+- **M3.1 kártya-kulcs** (~207. sor): a „Valaki csendesebb, a többiek maguktól bevonják” szcenárió kulcsa **Norming / Performing**; a fájl maga kéri, hogy a fejlesztő döntse el, melyikbe számít pontként. **Értékelési döntés** – a szcenáriót nem írjuk át, kulcsot magunktól nem választunk.
+- **M2.A „Élő könyvtár” opcionális variáció** (~73. sor): a percbontás egy OPCIONÁLIS variációra hivatkozik („lásd 4.4.1.b”), de a fájlban csak `4.4.1.` és `4.4.2.` szakasz van – a hivatkozás célja hiányzik, ez tehát **objektíven törött kereszthivatkozás**. Javítani mégsem gépiesen kell: a `Média-assetek/Média-asset regiszter.md` (~566. sor) egy regisztrált print-assetet (`M2.A-KART-02`) épp erre a szakaszra horgonyoz, és verbatim őrzi a 4 kötött kérdést és a „könyv joga” kikötést. A puszta hivatkozás-törlés így **árván hagyna egy regisztrált assetet**, a szakasz visszaírása pedig kiskorúak identitás-megosztásáról szóló biztonsági szövegírás. **Pedagógiai/biztonsági döntés.**
+- **M7.B AI point-of-use**: az M7.B nem mond ellent a kánoni AI-policynek (nincs chanich-adat promptba; gyermekvédelmi ügyben mentor; a felelősség a madriché), és a jóváhagyott szolgáltatás, a kiskorúak korhatár-/engedélyfeltételei és az **egyenértékű nem-AI út** modul-szinten is ki van mondva (M7.1 ~204. és ~232. sor; M7.2 ~24. sor). Nyitott kérdés, hogy a peula pontján – ahol a csoport ténylegesen eszközhöz nyúl – meg kell-e ezt röviden ismételni: **AI-policy megjelenítési döntés**, nem tartalmi ellentmondás.
+- **M5.B „plenáris” terminológiai jegyzet** (~59. sor): a fájl kiköti, hogy nem használjuk ezt a szót, miközben az M0.A, az M1.A, a Z.A és a Program terv használja. Képzői instrukció, korpuszszintű stílusszabály, vagy törlendő: **szerkesztői döntés**.
+- **M1.3 „közbevágott” vonzata** (~194. és ~205. sor): a részeshatározós vonzat („közbevágott a többieknek”) nem köznyelvi, de több egyenrangúan helyes javítás van. A példa a korpuszban túlnyomórészt **2. személyű** alakban él („közbevágtál”: M1.2, M1.4, M1.A, M1.F, M1 – KAPU), 3. személyben csak az M1.3 és a modulhub (~29., ~68. sor) hozza; az M1.2 ~88. sora ráadásul **answer key-jelölt** item. A kánoni példaalak kiválasztása ezért **magyar szerkesztői döntés**, és értékelt itemet is érint.
+
 ---
 
 ## Dokumentált, elfogadott reziduumok (NEM hiba, tudatos megállás)
