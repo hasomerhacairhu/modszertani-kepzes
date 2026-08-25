@@ -23,7 +23,7 @@ Alap önismereti keret (Johari-ablak) és egy **konkrét, biztonságos visszajel
 A modul végére a résztvevő…
 
 1. **Vakfolt-tudatosság**
-   – **Meg tudja nevezni** a Johari-ablak 4 mezőjét, és **saját (akár fiktív) példával illusztrálja, miért természetes, hogy mindenkinek vannak **vakfoltjai** – és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
+   – **Meg tudja nevezni** a Johari-ablak 4 mezőjét, és **saját (akár fiktív) példával illusztrálja**, miért természetes, hogy mindenkinek vannak **vakfoltjai** – és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
    – Támogató tartalmak: M1.1, M1.A, M1.F.
 2. **Megfigyelés vs. címkézés**
    – **Megkülönbözteti** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – **legalább 4/5 tételben helyesen besorolja**, és **címkéből megfigyelést ír át**.
