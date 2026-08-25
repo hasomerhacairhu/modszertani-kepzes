@@ -186,14 +186,14 @@ A kapu **hivatalos, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 * **Online:** M1.1–M1.4 mikroleckék activity completion (H5P-k végigjátszva).
 * **Produktum:** legalább **1 db SBI** beadása az Assignmentben, ami eléri a [KAPU-fájl](./M1%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) hivatalos küszöbét: **minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS legalább egy sor eléri a „kiváló” szintet (=2 pont)** – pontszámban ez **≥5/8** (4×1 + 1 = 5). (Vigyázz: a rubrikában az „alapszint” a **legalsó, 0 pontos** szint = „még nem tudja”, ezért az átmenethez nem elég – minden sornak legalább „fejlődő” szintűnek kell lennie.)
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt megtanult SBI-nyelv lesz az alapja a Peula v2 **utóreflexiójának (a Peula 11. pontja)** és a produktumra adott **javító visszajelzésnek** – az M7 produktum-leadásánál (Peula v2 + Zmán Kvucá) a javítási útvonal javító visszajelzése **SBI-ben** érkezik (max. 3 pont). Az M7.A/M7.B peulákon a peer-feedback maga a **peula-tervezés szempontjaira** épül (SMART-cél: „hol érzem SMART-nak / mit kérdeznék még?”, illetve a Zmán Kvucá „előtte–utána”), de az itt elsajátított SBI-szemléletet – konkrét helyzet, megfigyelhető viselkedés, érthető hatás – ugyanígy be tudod vinni, amikor egymás peuláira reagáltok.
+> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt megtanult SBI-nyelv lesz az alapja a Peula v2 **utóreflexiójának (a Peula 11. pontja)** és a produktumra adott **javító visszajelzésnek** – az M7 produktum-leadásánál (Peula v2 + Zmán Kvucá) a javítási útvonal visszajelzése **SBI-ben** érkezik (max. 3 pont). Az M7.A/M7.B peulákon a peer-feedback maga a **peula-tervezés szempontjaira** épül (SMART-cél: „hol érzem SMART-nak / mit kérdeznék még?”, illetve a Zmán Kvucá „előtte–utána”), de az itt elsajátított SBI-szemléletet – konkrét helyzet, megfigyelhető viselkedés, érthető hatás – ugyanígy be tudod vinni, amikor egymás peuláira reagáltok.
 >
 > **És nem csak adni: kapni is.** Az SBI-t itt főleg úgy gyakorlod, hogy **te írsz** egyet – de a későbbi kapuk javítási útvonalán (pl. **M4.4** mentori visszajelzés a pitchedre, **M7** javító visszajelzés a Peula v2-re) **te leszel a címzett**: SBI-ben kapod a javítást. Jó, ha tudod: a **rólad szóló SBI** sem a személyedet minősíti, hanem egy **viselkedést, egy feladat kivitelezését és annak hatását** nevezi meg (ahogy az M1.B-ben adni *és* kapni is gyakoroltad) – így a javító visszajelzést ne támadásként éld meg, hanem fogódzóként, amiből látod, mit csinálj máshogy legközelebb.
 
 ### Javítási logika
 
 * Ha nem éri el a minimumot, rövid, **SBI-típusú feedbacket** kap, és újrapróbálhatja (mastery learning).
-* Ha eléri a minimumot, akkor is kap visszajelzést: érdemes kiemelni, pontosan mi és miért volt jó megoldás, hogy ezek meg is erősödjenek benne.
+* Ha eléri a minimumot, akkor is kap visszajelzést: érdemes kiemelni, pontosan mi és miért volt jó megoldás, hogy ez meg is erősödjön benne.
 
 ***
 

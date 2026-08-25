@@ -11,7 +11,7 @@
 
 | Mező | Érték |
 |---|---|
-| **Melyik kapuhoz tartozik** | M1 – „Vakfolt, tükör, feedback” modul **éles / mastery-kapu**-je (az SBI-nyelv produktív használata). |
+| **Melyik kapuhoz tartozik** | M1 – „Vakfolt, tükör, feedback” modul **éles / mastery-kapuja** (az SBI-nyelv produktív használata). |
 | **Mit mér a kapu** | Tud-e a résztvevő **konkrét szituációra (S)**, **megfigyelhető viselkedésre (B)** és **érthető hatásra (I)** épülő, **címkézés-mentes, tisztelettudó**, 2–3 mondatos SBI-visszajelzést **írni**. |
 | **Fő LMS-eszköz (a kapu maga)** | **Moodle Assignment** (M1.4 – online text beadó) + **Rubric** (alábbi 4 soros, szintezett rubrika). Grading method: *Rubric*. |
 | **Kapu-küszöb (hivatalos)** | **Minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS legalább egy sor eléri a „kiváló” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: az „alapszint” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért az átmenethez kevés.) |
