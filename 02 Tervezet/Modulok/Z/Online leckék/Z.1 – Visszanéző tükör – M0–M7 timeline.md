@@ -18,7 +18,7 @@
 
 > „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit haladtál már** az úton madrichként.”
 
-**Flow:** Hook → Input (timeline + modul-egymondatosok) → Activity (saját highlightok) → Check (mini-kvíz + záró mondat)
+**Felépítés:** Hook → Input (timeline + modul-egymondatosok) → Activity (saját fénypontok) → Check (mini-kvíz + záró mondat)
 
 ***
 
@@ -46,7 +46,7 @@ Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb �
 ## 3. H5P Course Presentation – slide-by-slide
 
 Összesen **6–7 slide**.
-Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check → Saját highlight → Záró reflektív kérdés.
+Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
 
 ***
 
@@ -180,7 +180,7 @@ H5P **Multi Choice** (pipálhat többet is – nincs jó/rossz, csak reflexió) 
 
 Feedback:
 
-> „Szuper. Ezekre különösen érdemes figyelned a záró reflexiód írásánál is – valószínűleg ebben érted el a legnagyobb változást.”
+> „Ezekre különösen érdemes figyelned a záró reflexiód írásánál is – valószínűleg ebben érted el a legnagyobb változást.”
 
 ***
 
@@ -236,7 +236,7 @@ Opciók:
 
 ***
 
-### SLIDE 5 – ACTIVITY 2: „Az én félévem highlightjai” – reflektív esszé (3–6 mondat)
+### SLIDE 5 – ACTIVITY 2: „Az én félévem fénypontjai” – reflektív esszé (3–6 mondat)
 
 **Cél:** személyes kiválasztás: a tanuló **saját 2–3 pillanatot megnevez**.
 
@@ -248,7 +248,7 @@ Opciók:
 
 > **Az én félévem fénypontjai**
 
-> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban elmentetted magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2), vedd ezeket most elő (jegyzet, screenshot). Olvasd el – **mi valósult meg belőle?** Ha nincs meg a jegyzeted, a mondataid ott vannak az **M0.1 és M0.2 H5P-válaszaidban a Moodle-ben** – keresd ki most, mert a **Z.4 záró reflexiónál** is szükséged lesz rájuk.
+> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban elmentetted magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2), vedd ezeket most elő (jegyzet, képernyőkép). Olvasd el – **mi valósult meg belőle?** Ha nincs meg a jegyzeted, a mondataid ott vannak az **M0.1 és M0.2 H5P-válaszaidban a Moodle-ben** – keresd ki most, mert a **Z.4 záró reflexiónál** is szükséged lesz rájuk.
 
 > Írj **3–6 mondatot** egy szövegmezőben az alábbi kérdések alapján:
 

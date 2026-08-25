@@ -292,7 +292,7 @@
 - **Elvi megjegyzés (Q12 ↔ R4):** a modul fő tanulástan-üzenete, hogy a három elem **együtt** a legerősebb – a spacing a **visszahívással kombinálva** üt a legnagyobbat („spaced retrieval”), nem önmagában. Egyetlen izolált elem (pl. csak spacing) az Alapszinten átmegy, **de a diagnosztikus visszajelzés mindig a kombináció felé bátorítson**, hogy a transzfer ne álljon meg egyetlen elemnél.
 - **R3 Hiányos:** cél „érték-reflexió a felelősségről”, módszer „energizer, aztán vége” → a módszer nem szolgálja a reflexiós célt → vissza.
 
-**Bukás-útvonal (mastery-logikához):** ha valamelyik sor Hiányos, rövid, fejlesztő (SBI-jellegű) visszajelzés + a táblázat **újraleadása** – nincs kizárás, a cél a megértés. Ha többször elakad, a mentor az **M5.F (Study Lab)** felé irányít, és átnézi, melyik fogalomcsalád gyenge (a kvíz item-szintű analitikájával összevetve).
+**Javítási útvonal (mastery-logikához):** ha valamelyik sor Hiányos, rövid, fejlesztő (SBI-jellegű) visszajelzés + a táblázat **újraleadása** – nincs kizárás, a cél a megértés. Ha többször elakad, a mentor az **M5.F (Study Lab)** felé irányít, és átnézi, melyik fogalomcsalád gyenge (a kvíz item-szintű analitikájával összevetve).
 
 ---
 

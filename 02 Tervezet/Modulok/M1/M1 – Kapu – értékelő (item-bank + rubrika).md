@@ -11,10 +11,10 @@
 
 | Mező | Érték |
 |---|---|
-| **Melyik kapuhoz tartozik** | M1 – „Vakfolt, tükör, feedback” modul **éles / mastery gate**-je (az SBI-nyelv produktív használata). |
+| **Melyik kapuhoz tartozik** | M1 – „Vakfolt, tükör, feedback” modul **éles / mastery-kapu**-je (az SBI-nyelv produktív használata). |
 | **Mit mér a kapu** | Tud-e a résztvevő **konkrét szituációra (S)**, **megfigyelhető viselkedésre (B)** és **érthető hatásra (I)** épülő, **címkézés-mentes, tisztelettudó**, 2–3 mondatos SBI-visszajelzést **írni**. |
 | **Fő LMS-eszköz (a kapu maga)** | **Moodle Assignment** (M1.4 – online text beadó) + **Rubric** (alábbi 4 soros, szintezett rubrika). Grading method: *Rubric*. |
-| **Kapu-küszöb (canonical)** | **Minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS legalább egy sor eléri a „kiváló” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: az „alapszint” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért az átmenethez kevés.) |
+| **Kapu-küszöb (hivatalos)** | **Minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS legalább egy sor eléri a „kiváló” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: az „alapszint” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért az átmenethez kevés.) |
 | **Próbálkozás** | Több próbálkozás engedélyezve (mastery learning). Bukásnál rövid, **SBI-típusú** képzői feedback + új próbálkozás nyitása. |
 | **Kísérő mérés (NEM kapu)** | A 3. szakasz item-bankja (Moodle Quiz / **H5P Question Set**) **formatív / completion** – a felismerő tudást méri, nincs ≥80% küszöbe, nem dönt a kapuról. |
 
@@ -31,7 +31,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 - **fejlődő = 1 pont** – részben teljesíti, elmegy,
 - **kiváló = 2 pont** – tisztán teljesíti a kritériumot.
 
-> ⚠️ **Olvasási megjegyzés a szintek nevéhez.** A feladat háromszintű skálát kér „alapszint / fejlődő / kiváló” néven. Itt az **„alapszint” a legalsó (0 pont) szint** = „még nem tudja”. A *kapu-küszöbnél* (2. szakasz) a „minden sorban legalább alapszint” fordulat a modul-áttekintő régi szóhasználata, ami **valójában a fejlődő (≥1 pont) szintet jelenti** – ezt a 2. szakasz egyértelműsíti. A pontszám (0/1/2) a kanonikus, az LMS-be azt vidd be.
+> ⚠️ **Olvasási megjegyzés a szintek nevéhez.** A feladat háromszintű skálát kér „alapszint / fejlődő / kiváló” néven. Itt az **„alapszint” a legalsó (0 pont) szint** = „még nem tudja”. A *kapu-küszöbnél* (2. szakasz) a „minden sorban legalább alapszint” fordulat a modul-áttekintő régi szóhasználata, ami **valójában a fejlődő (≥1 pont) szintet jelenti** – ezt a 2. szakasz egyértelműsíti. A pontszám (0/1/2) a hivatalos, az LMS-be azt vidd be.
 
 ***
 
@@ -73,9 +73,9 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 
 | Szint | Megfigyelhető szövegjegy | Idézhető példa a beadványból |
 |---|---|---|
-| **alapszint (0)** | **Személyt minősít / támad**: általánosító „mindig/soha”, jellem-címke, gúny, leszólás. | „Te mindig szétszúrod a peulát.” / „Reménytelen vagy.” |
+| **alapszint (0)** | **Személyt minősít / támad**: általánosító „mindig/soha”, jellem-címke, gúny, leszólás. | „Te mindig szétvered a peulát.” / „Reménytelen vagy.” |
 | **fejlődő (1)** | **Alapvetően a viselkedésről** szól, de van benne egy-egy éles/szúrós fordulat vagy enyhe minősítés. | „Megint elkéstél, ami azért elég gáz tőled.” |
-| **kiváló (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címke-mentes és nem általánosít**, a másik **nem-védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de a kiváló szint kritériuma a viselkedés-fókuszú hangnem, nem az „én-üzenet” nyelvtan; a leckékben tanított minta végig 2. személyű „te”-szerkezet.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt összetartani a figyelmet – jó lenne, ha ők is több teret kapnának.” |
+| **kiváló (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címke-mentes és nem általánosít**, a másik **nem-védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de a kiváló szint kritériuma a viselkedés-fókuszú hangnem, nem az „én-üzenet” nyelvtan; a leckékben tanított minta végig 2. személyű „te”-szerkezet.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt megtartani a figyelmet – jó lenne, ha ők is több teret kapnának.” |
 
 ***
 
@@ -83,14 +83,14 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 
 ---
 
-## 2. Az inkonzisztencia feloldása – egyetlen kanonikus küszöb
+## 2. Az inkonzisztencia feloldása – egyetlen hivatalos küszöb
 
 A modulban **két, egymásnak ellentmondó** kapu-leírás élt egymás mellett (a kapu-validitási elemzés alapján):
 
 - **Modul-áttekintő (§6)** – **3 soros** „minimum” rubrika (S konkrét / B megfigyelhető / I érthető), küszöb: *„minden sorban min. alapszint, legalább egy sorban fejlődő”*.
 - **M1.4 (korábbi, mostanra érvénytelen küszöb)** – **4 soros** rubrika (a 4. sor ott „SBI struktúra összhatása”), 0–2 pont/sor, a régi küszöb: *„minden sorban ≥1 ÉS ≥6/8”*. Ezt a 6/8-at az alábbi feloldás váltja ≥5/8-ra (lásd a „Miért 5/8 és nem 6/8?” bekezdést), egyezésben a 0. fejléccel és a Program terv §5 táblájával.
 
-**Ez a fájl a kanonikus rubrika.** A két szabályt **egyetlen, ekvivalens megfogalmazásban** oldjuk fel, a feladatban rögzített minimum-elv mentén:
+**Ez a fájl a hivatalos rubrika.** A két szabályt **egyetlen, ekvivalens megfogalmazásban** oldjuk fel, a feladatban rögzített minimum-elv mentén:
 
 > **A kapu minimuma = minden sorban legalább „fejlődő” (≥1 pont, mert a 0 = „még nem tudja”) ÉS legalább egy sorban „kiváló” (=2 pont).**
 
@@ -99,11 +99,11 @@ Hogy ez **pontszámban** is egyértelmű és LMS-be vihető legyen:
 - **Szabály A (szöveges):** mind a 4 sor eléri legalább a fejlődő szintet (≥1 pont), és legalább 1 sor eléri a kiváló szintet (=2 pont).
 - **Szabály B (numerikus, ezt állítsd be a Moodle „Grade to pass”-ben):** **minden sorban ≥1 pont ÉS összpontszám ≥5/8.**
 
-**Miért 5/8 és nem 6/8?** A minimum-elv szó szerint „minden sorban fejlődő (4×1=4) + legalább egy sorban kiváló (+1) = 5”. Tehát a **kanonikus küszöb 5/8** + a „minden sorban ≥1” kötelező feltétel. Ez **kevésbé szigorú**, mint a régi M1.4-beli 6/8, de **pontosan az ígért „minimum”-ot** kódolja, és megőrzi a kulcsbiztosítékot: a „minden sorban ≥1” miatt **egyik SBI-elem (különösen az I/hatás) sem hiányozhat teljesen** – pusztán a pontösszeg ezt elengedné.
+**Miért 5/8 és nem 6/8?** A minimum-elv szó szerint „minden sorban fejlődő (4×1=4) + legalább egy sorban kiváló (+1) = 5”. Tehát a **hivatalos küszöb 5/8** + a „minden sorban ≥1” kötelező feltétel. Ez **kevésbé szigorú**, mint a régi M1.4-beli 6/8, de **pontosan az ígért „minimum”-ot** kódolja, és megőrzi a kulcsbiztosítékot: a „minden sorban ≥1” miatt **egyik SBI-elem (különösen az I/hatás) sem hiányozhat teljesen** – pusztán a pontösszeg ezt elengedné.
 
 > 💡 **Szervezeti döntés, ha szigorúbb mastery-szintet akartok:** emelhetitek a küszöböt 6/8-ra (minden sorban ≥1 mellett). Akkor a minimum „minden sorban fejlődő + legalább **két** sorban kiváló”. **Dokumentáljátok egy helyen**, és a Moodle „Grade to pass” értéke pontosan ezt tükrözze – ne legyen megint kétféle szám a modulban. **Javaslat: maradjon az 5/8**, mert ez felel meg az áttekintőben ígért „minimum”-nak, és a mastery-jelleget a „minden sorban ≥1” + a több próbálkozás biztosítja.
 
-**A 4. rubrikasor cseréje – indoklás.** A régi M1.4 4. sora („SBI struktúra összhatása”) redundáns volt: az S/B/I meglétét egyszer már pontozza az 1–3. sor, az „összhatás” újra ugyanazt súlyozta. A feladat által kért **„Tisztelettudó, nem támadó hangnem”** sor **független, megfigyelhető dimenziót** mér (megszólítás módja vs. elemek megléte), nincs kettős súlyozás, és pont a modul magját (címke-mentesség, „ne bántsd a másikat”) operacionalizálja. Ezért a 4. sor mostantól a hangnem.
+**A 4. rubrikasor cseréje – indoklás.** A régi M1.4 4. sora („SBI struktúra összhatása”) redundáns volt: az S/B/I meglétét egyszer már pontozza az 1–3. sor, az „összhatás” újra ugyanazt súlyozta. A feladat által kért **„Tisztelettudó, nem támadó hangnem”** sor **független, megfigyelhető dimenziót** mér (megszólítás módja vs. elemek megléte), nincs kettős súlyozás, és pont a modul magját (címke-mentesség, „ne bántsd a másikat”) teszi mérhetővé. Ezért a 4. sor mostantól a hangnem.
 
 ---
 
@@ -139,7 +139,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 ***
 
 ### Item 3 – Melyik az I? (hatás vs. címke, Single Choice)
-**Szituáció:** A madrich-megbeszélésen valaki végig a telefonját nyomkodja.
+**Szituáció:** A madrich-gyűlésen valaki végig a telefonját nyomkodja.
 **Kérdés:** Melyik mondat a **leghitelesebb I (hatás)**?
 
 - A) „Úgy éreztem, nem fontos neked, amit megbeszélünk.” ✅
@@ -173,7 +173,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 ***
 
 ### Item 6 – Teljes mini-SBI írása (alkalmazó item, Essay / hosszú szöveg)
-**Szituáció:** „Peulán fél órát késik valaki, és hangosan röhögve érkezik meg a körbe.”
+**Szituáció:** „A peuláról fél órát késik valaki, és hangosan röhögve érkezik meg a körbe.”
 **Feladat:** Írj rá **1 db, 2–3 mondatos SBI-t**, amiben van S, B és I, és tiszteletteli a hangnem.
 **Önellenőrző feedback (a tanulónak, megoldás után):** Nézz rá a saját mondatodra:
 1. Van benne **konkrét hely és idő** (S)? 2. Van benne **megfigyelhető viselkedés**, címke nélkül (B)? 3. Kiderül, **hogyan hatott** rád / a kvucára (I)? 4. A **viselkedésről** beszélsz-e (nem a személyt minősíted)?
@@ -206,7 +206,7 @@ Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 
 ***
 
 ### Item 9 – „Mindig / soha” – miért gond? (hangnem, Single Choice)
-**Kérdés:** Miért gyengíti a visszajelzést, ha azt mondod: „**Te mindig** szétszúrod a peulát”?
+**Kérdés:** Miért gyengíti a visszajelzést, ha azt mondod: „**Te mindig** szétvered a peulát”?
 
 - A) Mert **általánosít**: egyetlen alkalom helyett az egész személyt minősíti. ✅
 - B) Mert **túl konkrét** egyetlen helyzetre, ezért a másik nem érti az általános problémát.

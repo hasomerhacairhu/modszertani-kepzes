@@ -4,7 +4,7 @@
 
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – **Peula A (M3.A)** az 1. héten, **Peula B (M3.B)** a 2. héten, kb. 45–45’
-* **Online terhelés:** kb. 4×10–20 perc mikrolecke (**M3.1–M3.4**)
+* **Online terhelés:** kb. 4×15–20 perc mikrolecke (**M3.1–M3.4**)
 * **Teljes terhelés:** kb. 2,5–3,5 óra – ebből **online ~1 óra** (M3.1–M3.4) + **2 peula (2×45’ = 90’)** + **modulproduktum & kapu-kvíz ~30–45’** (a helyzetleírás megírása + a mastery-kvíz, ami több próbálkozást is jelenthet). **Tervezz inkább a felső, ~3,5 órás értékkel:** az M3 leadott produktummal (helyzetleírás) és éles rubrika-kapuval (R2/R4 blokkoló) záruló modul, és a Program terv §0 szerint az ilyen modulok a felső érték felé húznak – az alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok, ezért jobb felfelé kerekíteni.
 
 **Modulközponti kérdés**
@@ -52,7 +52,7 @@ A modul végére a résztvevő…
 
 ## 3. Online mikroleckék (L1–L4)
 
-### M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése (10–15’)
+### M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése (15–20’)
 
 * **Cél:**
   A résztvevő megismeri a **Tuckman-modellt**, és kvuca-sztorikhoz tudja párosítani a szakaszokat (forming–storming–norming–performing, valamint a lezáró adjourning).
@@ -70,7 +70,7 @@ A modul végére a résztvevő…
 
 ***
 
-### M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ (10–15’)
+### M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ (15–20’)
 
 * **Cél:**
   A résztvevő **fejben tartja a 4 kvuca alapprofilját**: milyen világban élnek, mire figyelnek, mi motiválja őket.
@@ -152,8 +152,8 @@ A modul végére a résztvevő…
   * Az online leckék (M3.1–M3.2) tartalmának „testbe hozása” kvuca-szinten.
 * **Fókusz:**
   „A kvuca nem statikus – **történet**, amin együtt megyünk végig.”
-* **Rövid percbontás-váz:**
-  1. **0–5’ – Check-in:** 1 szóval: „Milyen volt számodra egy emlékezetes kvuca?”
+* **Rövid percbontás-vázlat:**
+  1. **0–5’ – Ráhangolódás:** 1 szóval: „Milyen volt számodra egy emlékezetes kvuca?”
   2. **5–20’ – Csoportszobrok Tuckmanre:**
      * Kiscsoportok Tuckman-szakaszokra épített „élő szobrokat” készítenek, a többiek tippelnek, melyik szakasz.
   3. **20–35’ – Kvuca-sztori kártyák:**
@@ -172,8 +172,8 @@ A modul végére a résztvevő…
 * **Fókusz:**
   „Nem az a jó madrich, aki mindent egyedül megold, hanem aki tudja, **mikor kér segítséget**.”
 * ⚠️ **Kötelező formátum:** súlyos gyermekvédelmi helyzeteket **nem játszatunk el**. Nincs szereposztás, nincs „érintett gyerek” vagy „elkövető” szerep. A feldolgozás kívülről, esetkártya alapján történik – a részletes indoklás és a biztonsági keret az M3.B peulában van.
-* **Rövid percbontás-váz:**
-  1. **0–10’ – Check-in & alapok:**
+* **Rövid percbontás-vázlat:**
+  1. **0–10’ – Ráhangolódás & alapok:**
      * Gyors A/B sarok: „Red flag vagy nem?” pár egyszerű állításra.
   2. **10–30’ – Esetelemzés:**
      * Kiscsoportok 1–1 **esetkártyát** kapnak (online zaklatás, önsértés-gyanú, madrich–chanich határhelyzet stb.), és négy pont mentén elemzik: mi a red flag → mi az első mondat → mit nem tesz a madrich → kit von be.
@@ -197,8 +197,8 @@ A modul végére a résztvevő…
 * **Kapcsolat az online résszel:**
   * Ideális esetben a résztvevők már elindították az **M3.1–M3.4** leckéket, de ez nem feltétel.
   * A peula során ténylegesen Moodle/H5P-ben dolgoznak: pótlás, újranézés, kérdésgyűjtés.
-* **Rövid percbontás-váz:**
-  1. **0–5’ – Check-in:**
+* **Rövid percbontás-vázlat:**
+  1. **0–5’ – Ráhangolódás:**
      * „Ki hol tart az M3.1–M3.4 leckékben?” – matricák / jelölés a táblán.
   2. **5–25’ – Csendes online pótlás fülessel:**
      * Mindenki a saját eszközén pótol / újranéz 1–2 leckét.
@@ -212,11 +212,11 @@ A modul végére a résztvevő…
 ## 6. Kapuk
 
 * **Kaputípus:**
-  * **Éles / mastery gate**, mivel a gyermekvédelem & red flag tematika biztonsági kérdés.
+  * **Éles / mastery-kapu**, mivel a gyermekvédelem & red flag tematika biztonsági kérdés.
 * **Eszközök:**
   * Moodle Quiz vagy H5P Question Set – **szcenárió-alapú kvíz** gyermekvédelem & red flag témában.
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
-* **Követelmény az M3 „complete”-hez (kétkomponensű éles kapu – a kanonikus küszöb a [M3 – KAPU](./M3%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban):**
+* **Követelmény az M3 „complete”-hez (kétkomponensű éles kapu – a hivatalos küszöb a [M3 – KAPU](./M3%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban):**
   1. **M3.1–M3.4** mikroleckék activity completion — **érdemi kitöltéssel** (a beágyazott H5P-interakciók / kérdések megválaszolva – pl. M3.3 Branching végigvitele döntésekkel, M3.4 Sorting elvégzése), **nem csak a slide-ok végigléptetésével**.
   2. **Komponens B – modulproduktum:** helyzetleírás (red flag + első lépés + kit von be) **Assignmentként leadva**, és eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint (1), az R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) sor blokkoló** (M3.4-hez kapcsolódva).
   3. **Komponens A – szcenárió-kvíz:** **≥80% (≥10/12) ÉS a kötelező kritikus itemek (2., 4., 7., 9.) helyesek** – a kritikus itemek tévesztése a 80% mellett is bukás.
@@ -224,7 +224,7 @@ A modul végére a résztvevő…
   * Több próbálkozás engedélyezett (mastery logika).
   * Ha valaki 2 próbálkozás után sem éri el a küszöböt (≥10/12 + kritikus itemek, ill. a blokkoló rubrikasorok) → mentor értesítése, rövid egyéni beszélgetés (támogatás, nem büntetés).
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyermekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **4 someres kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea) lesz az M7 záró produktumának safety- és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyermekvédelem & safety, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §CAPSTONE).
+> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyermekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **4 someres kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea) lesz az M7 záró produktumának biztonsági és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyermekvédelem & biztonság, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §CAPSTONE).
 
 ***
 
@@ -238,7 +238,7 @@ A modul végére a résztvevő…
   * M3.3–M3.4: mely red flag típusokat **nem ismerik fel** (online zaklatás, önsértés, madrich–chanich határátlépés).
 * **Kapu-kvíz adatok:**
   * Mely kérdésekre hibáznak sokan – ezeknél érdemes a tartalmat vagy a peula-részleteket finomhangolni (pl. madrich–chanich kapcsolat súlyossága, első lépés logikája).
-* **Thresholdok / beavatkozási pontok:**
+* **Küszöbök / beavatkozási pontok:**
   * Ha a résztvevők **>30%-a nem fejezi be az M3.3-at** a 2. hét végéig → extra emlékeztető + javasolt **M3.F** Study Lab.
   * Ha a kapu-kvízen az átlag **<80%** → a következő képzős napon rövid összefoglaló blokk gyermekvédelem & red flag témában (pl. további esetkártyák közös elemzése).
 

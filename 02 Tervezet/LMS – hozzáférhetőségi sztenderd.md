@@ -15,7 +15,7 @@
 - A narráció **soha ne hordozzon kizárólag hangban elérhető információt**. Ha a hang önálló infót vagy hangulati keretet közöl, annak olvashatóan is meg kell jelennie a dián vagy a jegyzetben.
 - Ez az **opcionális** narrációra is vonatkozik: ha a narráció bekapcsolható, a tartalma akkor is legyen szövegesen elérhető.
 - Az **Interactive Video** minden jelenete legyen feliratozva; az interaktív pontok szövege is legyen elérhető képernyőolvasóval.
-- A videó-megnevezésnél írd ki explicit a `felirattal` kitételt (pl. „AI beszélő fej videó, 16:9, **felirattal**"), hogy a feliratozás minden videós leckében konzisztens legyen.
+- A videó-megnevezésnél írd ki explicit a `felirattal` kitételt (pl. „AI beszélő fej videó, 16:9, **felirattal**”), hogy a feliratozás minden videós leckében konzisztens legyen.
 - Mobil-first környezetben a felirat **nem extra, hanem alap** — siket/nagyothalló és néma-lejátszású (tömegközlekedés, mobil) felhasználók miatt.
 
 **Sablon-emlékeztető fejlesztőnek:** *szinkronizált videó = felirat (kötelező) + leirat (ajánlott) + a kulcsüzenet a slide-on is olvasható.*
@@ -34,12 +34,12 @@
 
 > **Phase-0 univerzális a11y-protokoll (minden H5P-re, nem csak a kapusakra):**
 > - **Minden H5P elé heading az aktivitás nevével** — hogy a madrich (és a képernyőolvasó) tudja, melyik feladatba érkezik, mielőtt beletenyerel.
-> - **Rövid task description** közvetlenül a heading alatt: 1–2 mondat arról, mi a dolga és mikor „kész" — ne kelljen a feladatból visszafejtenie, mit várunk tőle.
+> - **Rövid task description** közvetlenül a heading alatt: 1–2 mondat arról, mi a dolga és mikor „kész” — ne kelljen a feladatból visszafejtenie, mit várunk tőle.
 > - **A meglévő AI-videókhoz magyar felirat + leirat kötelező** — visszamenőleg is: ahol már van beágyazott AI beszélő fej / narrált videó, oda magyar feliratot és teljes szöveges leiratot kell pótolni (hang nélkül, tömegközlekedésen is teljesíthető legyen).
 
 ## 4. Mobil-first táblázatok és produktumok
 
-- Több oszlopos táblázatot **ne vízszintes görgetésű táblaként** jeleníts meg mobilon (apró cellák, horizontális scroll → ellentmond a „nincs zsúfolt táblázat" elvnek).
+- Több oszlopos táblázatot **ne vízszintes görgetésű táblaként** jeleníts meg mobilon (apró cellák, horizontális scroll → ellentmond a „nincs zsúfolt táblázat” elvnek).
 - Helyette **kártya / akkordeon nézet**: egy sor = egy blokk, a mezők **egymás alatt** (pl. egy helyzet = egy kártya a 4 mezővel függőlegesen).
 - Produktum-beadásnál (Assignment):
   - adj **letölthető sablont** (doc / sheet), hogy a madrichnak ne kelljen mobilon táblázatot építenie a feltöltéshez;
@@ -57,22 +57,22 @@
 
 ## 6. H5P Essay és önreflexiók
 
-- **Megnevezés (kánoni szabály).** A specifikációban **ne nevezz meg nem létező H5P content type-ot**. A hivatalos H5P listában **nincs „Short Answer”** — szabad szöveges beviteli típusként az **Essay**, illetve kötött kitöltésre a **Fill in the Blanks** létezik. Ezért a tananyagban a pedagógiai igényt írjuk le magyarul: **„rövid szöveges válasz”**, illetve **„hosszabb szöveges reflexió”** — és a konkrét megvalósítást a build dönti el az alábbi szabály szerint.
+- **Megnevezés (hivatalos szabály).** A specifikációban **ne nevezz meg nem létező H5P content type-ot**. A hivatalos H5P listában **nincs „Short Answer”** — szabad szöveges beviteli típusként az **Essay**, illetve kötött kitöltésre a **Fill in the Blanks** létezik. Ezért a tananyagban a pedagógiai igényt írjuk le magyarul: **„rövid szöveges válasz”**, illetve **„hosszabb szöveges reflexió”** — és a konkrét megvalósítást a build dönti el az alábbi szabály szerint.
 - ⚠️ **Szabad szöveg és Course Presentation — igazolt korlát.** A H5P hivatalos válasza szerint az **Essay NEM adható hozzá Course Presentationhöz**; a megnevezett támogatott alternatíva az **Interactive Book**, amely az Essay-t alcontentként kezeli. Ezért **egyetlen lecke sem tekintheti bizonyítottnak**, hogy egy Course Presentation dián belül szabad szöveges mező jelenik meg.
 - **A megvalósítás három megengedett útja** (a választás a cél Moodle/H5P verzión, acceptance-teszttel dől el — lásd `LMS – H5P runtime acceptance.md`):
-  1. **Moodle-oldali szövegmező** a lecke mellett (Assignment online text vagy Quiz esszé-kérdés) — ez a legkevésbé kockázatos, és a hosszabb reflexióknál (pl. Z.4) ez a kánoni út;
+  1. **Moodle-oldali szövegmező** a lecke mellett (Assignment online text vagy Quiz esszé-kérdés) — ez a legkevésbé kockázatos, és a hosszabb reflexióknál (pl. Z.4) ez a hivatalos út;
   2. **H5P Essay** ott, ahol a befoglaló content type ezt igazoltan támogatja (pl. Interactive Book);
   3. **Fill in the Blanks**, ha a válasz ténylegesen kötött (sablonmondat kiegészítése).
 - Önreflexióknál a szöveges mező **completion-alapú** beállítással kerüljön be: **kulcsszó-pontozás kikapcsolva** (H5P Essay esetén a keyword-alapú pontozás nem használandó értékelésre).
-- Így nem keletkezik téves pontszám ott, ahol a cél a „megcsinálta / nem csinálta meg" completion, nem az értékelés.
+- Így nem keletkezik téves pontszám ott, ahol a cél a „megcsinálta / nem csinálta meg” completion, nem az értékelés.
 
 > *(Forrás: h5p.org hivatalos content type lista — „Short Answer” nem szerepel; H5P staff válasza (2025-02-27): „Essay has not been added to Course Presentation… you add Essay in Interactive Book which can function similarly.” A cél Moodle/H5P verzió rögzítése továbbra is release blocker.)*
 
-### KAPUS H5P „pre-flight" checklist
+### KAPUS H5P „pre-flight” checklist
 
-> Ez a blokk **kizárólag a kapus / értékelt (gate-höz, completionhöz vagy mastery-kapuhoz kötött) H5P-elemekre** vonatkozik — ahol a továbblépés a madrich teljesítésén múlik. Itt a hozzáférhetőség nem „jó, ha van", hanem **élesítési feltétel**: ha bármelyik pont kipipálatlan, az elem **nem mehet élesbe**, mert egy chanich vagy madrich emiatt elakadhat a kapuban.
+> Ez a blokk **kizárólag a kapus / értékelt (gate-höz, completionhöz vagy mastery-kapuhoz kötött) H5P-elemekre** vonatkozik — ahol a továbblépés a madrich teljesítésén múlik. Itt a hozzáférhetőség nem „jó, ha van”, hanem **élesítési feltétel**: ha bármelyik pont kipipálatlan, az elem **nem mehet élesbe**, mert egy chanich vagy madrich emiatt elakadhat a kapuban.
 >
-> **„Kész = élesíthető" definíció:** az elem akkor élesíthető, ha **mind a 7 pont** ki van pipálva ÉS az a11y-lektor jóváhagyta. Részleges teljesítés nem „majdnem kész" — kapus elemnél a hozzáférhetőségi rés egyenlő azzal, hogy valaki kizáródik a továbbhaladásból.
+> **„Kész = élesíthető” definíció:** az elem akkor élesíthető, ha **mind a 7 pont** ki van pipálva ÉS az a11y-lektor jóváhagyta. Részleges teljesítés nem „majdnem kész” — kapus elemnél a hozzáférhetőségi rés egyenlő azzal, hogy valaki kizáródik a továbbhaladásból.
 
 - [ ] **Célméret (SC 2.5.8, AA)** — a mutatóeszközös célok mérete **legalább 24×24 CSS pixel**, **kivéve** a szabvány kivételeit: elegendő **térköz** (24 CSS px átmérőjű kör nem metsz másik célt), **egyenértékű** másik vezérlő ugyanazon az oldalon, **szövegbe ágyazott (inline)** cél, **user agent** által meghatározott méret, vagy ha az adott megjelenítés **elengedhetetlen**. Gyakorlati elvárásunk: a válaszgomb, hotspot és drop-zóna ujj-barát legyen mobilon.
 - [ ] **Billentyűzet-teljesíthetőség** — az elem **végigvihető és befejezhető kizárólag billentyűzettel** (Tab-rend logikus, fókusz látható, egér/érintés nélkül is teljesíthető).
@@ -89,7 +89,7 @@
 
 > A hozzáférhetőség nem áll meg az érzékelésnél (felirat, alt-szöveg, kontraszt, billentyűzet) — kiterjed a **megértésre** is. Ez a szakasz a leckeszövegek olvashatóságát és a tanulási nehézséggel élő madrich támogatását rögzíti (a WCAG 2.2 érthetőség-elve és a többszörös reprezentáció — UDL — mentén).
 
-- **Plain-language a leckeszövegre:** a tananyagszöveg **rövid mondatokra, egyszerű, tegező nyelvre** törekszik; a szakszót (someres/pedagógiai fogalom) az **első előforduláskor egy mondatban feloldod**, vagy a glosszáriumra linkelsz. (Ez a leckeszövegre vonatkozik — nem keverendő az adatkezelési „just-in-time" dobozok plain-language elvével.)
+- **Plain-language a leckeszövegre:** a tananyagszöveg **rövid mondatokra, egyszerű, tegező nyelvre** törekszik; a szakszót (someres/pedagógiai fogalom) az **első előforduláskor egy mondatban feloldod**, vagy a glosszáriumra linkelsz. (Ez a leckeszövegre vonatkozik — nem keverendő az adatkezelési „just-in-time” dobozok plain-language elvével.)
 - **Kulcsfogalom mindig szövegben is:** minden lényeges fogalom és lépés **szövegként** is jelen van, nem csak ábrán/ikonon (ez a 2. szakasz alt-szöveg-elvárásával együtt zárja le a szöveg+vizuális redundanciát, ami tanulási nehézségnél kritikus).
 - **Tanulási nehézséggel / diszlexiával / SNI-vel élő madrich támogatása:** ahol az olvasás vagy a megértés akadályba ütközik, a madrich a **mentorától** kap segítséget, és a **Study Lab / F-peula** támogató, egyéni/kiscsoportos pótlási tér is — az online szöveg nem az egyetlen út a tananyaghoz.
 

@@ -60,8 +60,8 @@ A modul végére a résztvevő…
 ### Z.3 – „Híd a terepre” – következő lépések (10–15’)
 
 * **Cél:** jövőre néző, **konkrét lépések** megfogalmazása a terepre.
-* **Eszközök:** Page / Presentation a „small steps” logikáról, H5P Fill in the Blanks vagy rövid szöveges válasz sablon mondatokkal.
-* **Általánosító lépés (a konkrét pillanattól a konkrét lépésig):** mielőtt next stepet írnál, fogalmazz meg a Z.2-ben felidézett pillanatból **1 általános elvet** – pl. „**Megtanultam, hogy amikor …, akkor jobb, ha …**” –, olyan tanulságot, ami **nem csak azon az egy peulán, hanem MÁS kvucáknál is igaz**. A next step ehhez az elvhez kötődjön, hogy a terepi transzfer ne maradjon esemény-specifikus.
+* **Eszközök:** Page / Presentation a kis lépések logikájáról, H5P Fill in the Blanks vagy rövid szöveges válasz sablon mondatokkal.
+* **Általánosító lépés (a konkrét pillanattól a konkrét lépésig):** mielőtt következő lépést írnál, fogalmazz meg a Z.2-ben felidézett pillanatból **1 általános elvet** – pl. „**Megtanultam, hogy amikor …, akkor jobb, ha …**” –, olyan tanulságot, ami **nem csak azon az egy peulán, hanem MÁS kvucáknál is igaz**. A következő lépés ehhez az elvhez kötődjön, hogy a terepi transzfer ne maradjon esemény-specifikus.
 * **Példamondatok:**
   – „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”
   – „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrichként.”
@@ -73,7 +73,7 @@ A modul végére a résztvevő…
 
 * **Cél:** záró reflektív produktum + képzés-értékelés.
 * **Eszközök:**
-  – **Moodle Assignment – „Záró reflexió + next step”** (szöveg vagy videó)
+  – **Moodle Assignment – „Záró reflexió + következő lépés”** (szöveg vagy videó)
   – **Moodle Feedback / Questionnaire** – anonimizált képzés-értékelő.
 * **Ajánlott prompt a reflektív produktumhoz:**
   1. „Nevezz meg 2–3 pillanatot ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
@@ -91,7 +91,7 @@ A modul végére a résztvevő…
 
 **Példa percbontás (60’):**
 
-1. **0–10’ – Check-in: „Félév-emojik”**
+1. **0–10’ – Ráhangolódás: „Félév-emojik”**
    – Körkérdés: „Ha a féléved egy emoji lenne, melyik lenne az és miért?”
 2. **10–25’ – „Időkapszula” – tanulási pillanatok megosztása**
    – Párok/triádok: mindenki elmesél 1 fontos tanulási pillanatot.
@@ -130,7 +130,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 2. 1–2 körkérdés:
    – „Miben érzed a legnagyobb változást magadon?”
    – „Miben vagy most a legbizonytalanabb a tereppel kapcsolatban?”
-3. „Support map”: kitől milyen támogatást kérne (mentor, társ, ken-vezető).
+3. „Támogatás-térkép”: kitől milyen segítséget kérne (mentor, társ, ken-vezető).
 4. Zárókör: „Mi az az 1 mondat, amit elteszel ebből a beszélgetésből?”
 
 **Fontos:**
@@ -148,12 +148,12 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 ### Eszközök
 
-* **Moodle Assignment – „Záró reflexió + next step”**
+* **Moodle Assignment – „Záró reflexió + következő lépés”**
   – Leadás: írás vagy videó.
   – Értékelés: „Teljesítve / Hiányos / Nem teljesítve”.
   – Minimum elvárás:
   * legalább 2 tanulási pillanat megnevezése,
-  * 1–2 konkrét next step cél.
+  * 1–2 konkrét következő lépés.
 * **Moodle Feedback / Questionnaire – „Képzés-értékelés”**
   – Activity completion része, de nem „vizsga”.
 
@@ -163,9 +163,9 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 
 1. Z.1–Z.3 mikroleckék activity completion (ajánlottan a peula előtt).
 2. Z.A záró peula (offline).
-3. Z.4 leadott záró reflexió + benne next step cél(ok) (a peula után).
+3. Z.4 leadott záró reflexió + benne a következő lépés(ek) (a peula után).
 4. **2. félév – terepgyakorlat:** 6 valódi, 60–90 perces peula, megfigyelés → feedback → reflexió → javítás ciklusban (lásd `Terepgyakorlat – 2. félév.md`). A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes.
-4. (Erősen ajánlott) feedback-űrlap kitöltése.
+5. (Erősen ajánlott) feedback-űrlap kitöltése.
 
 ***
 
@@ -174,7 +174,7 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 * **Completion:**
   – Z.1–Z.4 lezárása, Assignment leadási arány, feedback kitöltési arány.
 * **Minőségi jelek:**
-  – Van-e a reflektív produktumban minimum 2 pillanat + 1–2 reális next step.
+  – Van-e a reflektív produktumban minimum 2 pillanat + 1–2 reális következő lépés.
 * **Beavatkozás:**
   – Ha sok a hiányos / üres reflektív produktum → következő évben több modul-közi mini-reflexió beépítése, és/vagy több mentori beszélgetés.
 

@@ -3,7 +3,7 @@
 ## 1. Modul meta
 
 * **Időtartam:** 1 hét (könnyített bevezető modul)
-* **Heti offline:** péntek 2. sáv – **Peula A (M0.A, 45–60’)** – Kickoff & ismerkedés + technikai helpdesk-sarok
+* **Heti offline:** péntek 2. sáv – **Peula A (M0.A, 45–60’)** – Kickoff & ismerkedés + technikai segítségpont
 * **Online terhelés:** kb. **4×15–20’** mikrolecke (M0.1–M0.4) **+ külön bemutatkozó fórum-aktivitás** (poszt + komment), össz. kb. **60–75 perc + fórum**
 * **Teljes terhelés:** kb. **2–2,5 óra** – **tervezz inkább a felső értékkel (≈2,5 óra):** a bemutatkozó fórumposzt + komment és a technikai elsőlépések (Moodle-belépés, H5P) az első héten reálisan a hosszabb sávot viszik. **Jobb felfelé kerekíteni, mint alá-ígérni.**
 
@@ -31,13 +31,13 @@ A modul végére a madrich…
    * **Támogató elemek:** M0.2 (szerepek, „madrich, nem terapeuta”), M0.A (keretek közös kimondása).
 3. **Alap technikai működés biztonságban**
    * Be tud lépni a **Moodle-be**, megtalálja a saját kurzusát és a modulokat.
-   * Elindít és végigvisz egy **H5P-leckét**, kitölt egy mini-quizt.
+   * Elindít és végigvisz egy **H5P-leckét**, kitölt egy mini-kvízt.
    * El tud készíteni és közzé tud tenni egy **bemutatkozó fórumposztot és egy kommentet**.
-   * **Támogató elemek:** M0.3 (Moodle / H5P / gate), M0.4 (bemutatkozó fórum), M0.A utáni technikai helpdesk.
+   * **Támogató elemek:** M0.3 (Moodle / H5P / gate), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
 4. **Kapuk és completion-logika alap megértése**
    * Érti a **puha (soft) és éles (hard) kapuk** közti különbséget.
    * Tudja, hogy a kapuk nem azonnali kiesést jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
-   * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépő-quiz.
+   * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépő-kvíz.
 5. **Dugma ishit az online térben**
    * Tud mondani 1–2 példát arra, **hogyan viselkedik dugma ishitként online** (Moodle, csoportchat, social media).
    * Megfogalmaz **legalább 1 saját online határ-szabályt** (pl. mikor válaszol, mit oszt meg, kinek).
@@ -68,9 +68,9 @@ A modul végére a madrich…
 * **Cél:** tisztázni a **madrich-szerepet** és a határokat (nem terapeuta, nem egyedüli felelős), és bevezetni a dugma ishit fogalmát egyszerű példákkal.
 * **Fő tartalom röviden:**
   * szerepek: mit jelent madrichnak lenni (biztonság, keret, jelzés), és mi az, ami más felelős dolga (szakember, ken-vezető);
-  * „madrich, nem terapeuta” – basic gyermekvédelmi logika jelzés-szinten;
+  * „madrich, nem terapeuta” – alap gyermekvédelmi logika jelzés-szinten;
   * dugma ishit 1 mondatban + 2–3 helyzet, ahol ez látszik.
-* **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-quiz, nyitott reflexió).
+* **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-kvíz, nyitott reflexió).
 
 ### L3 / M0.3 – „Hogyan működik a Moodle / H5P / gate?” (15–20’)
 
@@ -78,8 +78,8 @@ A modul végére a madrich…
 * **Fő tartalom röviden:**
   * kurzus-struktúra: hol találja a modulokat, mikroleckéket, peulákat, kapukat;
   * fogalmak: Moodle, H5P, activity completion, puha/éles kapu;
-  * mini-quiz: „mi történik, ha…?” (nem tölt ki valamit, nem megy elsőre a kapu).
-* **Moodle/H5P mix:** Moodle Page (screenshotok) + H5P Course Presentation (fogalom–definíció párosítás, Single Choice kérdések).
+  * mini-kvíz: „mi történik, ha…?” (nem tölt ki valamit, nem megy elsőre a kapu).
+* **Moodle/H5P mix:** Moodle Page (képernyőképek) + H5P Course Presentation (fogalom–definíció párosítás, Single Choice kérdések).
 
 ### L4 / M0.4 – „Dugma ishit az online térben + bemutatkozó fórum” (15–20’)
 
@@ -104,11 +104,11 @@ A modul végére a madrich…
 * **Modulhoz való szerepe:**
   * ráhangol a teljes programra,
   * élőben kimondja azokat a kereteket, amikről az online leckékben szó volt,
-  * és átvezet egy informális **tech helpdesk** részre (aki lemaradt, segítséget kap).
+  * és átvezet egy informális **technikai segítségpont** részre (aki lemaradt, segítséget kap).
 
 *(Részletes peula kidolgozása külön Peula sablon szerint.)*
 
-### Technikai helpdesk blokk – „Ha elakadsz, nem egyedül vagy” (15–30’, opcionális)
+### Technikai segítségpont – „Ha elakadsz, nem egyedül vagy” (15–30’, opcionális)
 
 * **Kapcsolódó leckék:** M0.3, M0.4
 * **Fő cél:**
@@ -129,7 +129,7 @@ A modul végére a madrich…
       * 1 saját bemutatkozó poszt (5–10 mondat),
       * 1 rövid komment legalább 1 másik résztvevő posztjára.
     * Completion: új téma + legalább 1 válasz (amennyire a Moodle engedi).
-  * **Moodle Quiz – „M0 belépő-quiz: keret, szerepek, technika”**
+  * **Moodle Quiz – „M0 belépő-kvíz: keret, szerepek, technika”**
     * 6–8 egyszerű kérdés (true/false + feleletválasztás), témák:
       * madrich vs. nem terapeuta,
       * jelzési út gyermekvédelmi ügyben,
@@ -138,7 +138,7 @@ A modul végére a madrich…
       * **online hangnem / szabály** – 1 felismerő item: melyik reakció / szabály illik egy **dugma ishit** madrichhoz az online térben (chat, komment) – az M0.4 SLIDE 3–4 helyzeteinek és a „3 egyszerű szabály” logikájára építve,
       * „hol találom a modulokat / leckéket a Moodle-ben?”.
     * Több próbálkozás engedélyezett.
-    * **Quiz-blueprint (item ↔ M0-kompetencia leképezés):** hogy a §6 stáb-jelzés mért alapon álljon, minden item egy konkrét M0-kompetenciához kötődik:
+    * **Kvíz-terv (item ↔ M0-kompetencia leképezés):** hogy a §6 stáb-jelzés mért alapon álljon, minden item egy konkrét M0-kompetenciához kötődik:
 
       | Item-téma | M0-kompetencia (lásd 2. szakasz) |
       | --- | --- |
@@ -150,19 +150,19 @@ A modul végére a madrich…
       | hol találom a modulokat / leckéket | 3. Alap technikai működés (+ 1. éves ív tájékozódás) |
 
       Így a „mely kérdés / témakör megy rosszul → melyik modulban erősítsünk” elemzés (§6) **item-szinten** értelmezhető.
-    * **A „kb. 60%” jelzőszint értelmezése:** ez **nem levezetett pszichometriai cut-score**, hanem durva, gyakorlati stáb-küszöb: a ~6–8 itemes belépő-quizben **átlagosan ≥ kb. fele-kétharmada helyes** azt jelzi, hogy a kvuca a strukturált belépéshez szükséges alapokat (keret, határ, jelzés, kapu) nagyjából átvette. **Item-szinten erősebb a jelzés, mint az átlag:** ha bármelyik **témakör tartósan < 50%-on** teljesít, az önmagában indok a ráerősítésre (lásd §6), függetlenül a globális átlagtól. A jelzőszintet az első kohorsz item-statisztikái után dokumentált stáb-review-ban kell újrakalibrálni; addig ez támogatási jelzés, nem pszichometriai cut-score.
-    * **Funkció (egyértelműsítés): ez a quiz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a quizen elért eredmény nem zár ki és nem blokkol senkit. **A „kb. 60%” tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „bukik meg”. **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** (mintaként lásd az M1/M5/M7 „KAPU – értékelő (item-bank + rubrika)” fájlokat).
+    * **A „kb. 60%” jelzőszint értelmezése:** ez **nem levezetett pszichometriai cut-score**, hanem durva, gyakorlati stáb-küszöb: a ~6–8 itemes belépő-kvízben **átlagosan ≥ kb. fele-kétharmada helyes** azt jelzi, hogy a kvuca a strukturált belépéshez szükséges alapokat (keret, határ, jelzés, kapu) nagyjából átvette. **Item-szinten erősebb a jelzés, mint az átlag:** ha bármelyik **témakör tartósan < 50%-on** teljesít, az önmagában indok a ráerősítésre (lásd §6), függetlenül a globális átlagtól. A jelzőszintet az első kohorsz item-statisztikái után dokumentált stáb-review-ban kell újrakalibrálni; addig ez támogatási jelzés, nem pszichometriai cut-score.
+    * **Funkció (egyértelműsítés): ez a kvíz a puha kapu logikájához illeszkedve _diagnosztikus completion-jelző_, NEM küszöbös (cut-score-os) vizsga.** A completion-hez **a kitöltés** elég (lásd lent); a kvízen elért eredmény nem zár ki és nem blokkol senkit. **A „kb. 60%” tehát nem átmenő-küszöb, hanem _stáb-oldali jelzőszint_:** ez alatt érdemes a stábnak utánamenni / ráerősíteni (lásd 6. Learning analytics), nem a madrich „bukik meg”. **Aki éles, küszöbös kaput akar ebből (authored item-bank + answer key + kritérium-referenciás cut-score), az architektúra-döntés és külön authoring** (mintaként lásd az M1/M5/M7 „KAPU – értékelő (item-bank + rubrika)” fájlokat).
 
 **Követelmény az M0 „complete”-hez:**
 
 1. L1–L4 (M0.1–M0.4) mikroleckék activity completion.
 2. Bemutatkozó fórum: 1 poszt + 1 komment.
-3. M0 belépő-quiz **kitöltve** – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a quiz completion-jelző, nem küszöbös kapu). **A „kb. 60%” nem belépési feltétel, hanem stáb-oldali jelzőszint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrichot zárja ki.
+3. M0 belépő-kvíz **kitöltve** – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a kvíz completion-jelző, nem küszöbös kapu). **A „kb. 60%” nem belépési feltétel, hanem stáb-oldali jelzőszint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrichot zárja ki.
 
 **Javítás / támogatás logika:**
 
-* Ha valakinek **hiányzik a bemutatkozó poszt** vagy a quiz → személyes, támogató emlékeztető (mentor / képző), nem fenyegetés.
-* Ha valaki **technikailag akadt el**, választhat: online segítség (leírás, screenshot) + offline **tech helpdesk**.
+* Ha valakinek **hiányzik a bemutatkozó poszt** vagy a kvíz → személyes, támogató emlékeztető (mentor / képző), nem fenyegetés.
+* Ha valaki **technikailag akadt el**, választhat: online segítség (leírás, képernyőkép) + offline **technikai segítségpont**.
 * Nincs kizárás, csak **jelzés és támogatás**.
 
 ***
@@ -176,19 +176,19 @@ A modul végére a madrich…
    * Ki az, akinek **0 activity-je** van → őket érdemes egyenként elérni (lehet technikai vagy motivációs elakadás).
 2. **Online leckék completion (M0.1–M0.4)**
    * Hányan fejezték be mind a 4 mikroleckét?
-   * Hol törik meg a flow? (pl. elakadnak M0.3-nál, ahol több technikai elem van.)
+   * Hol akad el a folyamat? (pl. elakadnak M0.3-nál, ahol több technikai elem van.)
 3. **Bemutatkozó fórum aktivitása**
    * Ki posztolt / ki kommentelt?
    * Ha sokan csak „formalizáltan” írnak, az még oké, de jelzés lehet, hogy a következő modulban (M1, M2) több **kapcsolódó jellegű** feladat kell.
-4. **M0-quiz eredmények (item-szinten, a quiz-blueprint mentén – lásd 5. Kapuk)**
-   * Mely **témakör** megy nagyon rosszul (≈ tartósan < 50%)? A blueprint megmondja, melyik M0-kompetencia gyenge.
-   * Ha sokan félreértik a „madrich, nem terapeuta” vagy a „kihez jelzek?” itemeket, azt M2/M3-ben **erősebben, többször** kell elővenni; ha a **kapu-következmény** vagy az **online hangnem / szabály** item gyenge, az még M0-on belül (M0.3 / M0.4 újramondás, tech helpdesk) is pótolható.
-5. **Thresholdok / beavatkozási pontok (javaslatok):**
+4. **M0-kvíz eredmények (item-szinten, a kvíz-terv mentén – lásd 5. Kapuk)**
+   * Mely **témakör** megy nagyon rosszul (≈ tartósan < 50%)? A kvíz-terv megmondja, melyik M0-kompetencia gyenge.
+   * Ha sokan félreértik a „madrich, nem terapeuta” vagy a „kihez jelzek?” itemeket, azt M2/M3-ben **erősebben, többször** kell elővenni; ha a **kapu-következmény** vagy az **online hangnem / szabály** item gyenge, az még M0-on belül (M0.3 / M0.4 újramondás, technikai segítségpont) is pótolható.
+5. **Küszöbök / beavatkozási pontok (javaslatok):**
    * Ha az első hét végére a résztvevők **>30%-a nem „complete”** M0-ban:
      * célzott emlékeztető,
-     * extra tech helpdesk szervezése (offline / online),
-     * rövid felmérés: technikai ok vagy motivációs ok áll-e a háttérben.
-   * Ha az M0-quiz átlag tartósan a **kb. 60%-os jelzőszint** alatt van – **ez a stáb felé jelez, NEM a madrich kizárását jelenti** (a quiz completion-jelző, lásd 5. Kapuk):
+     * extra technikai segítségpont szervezése (offline / online),
+     * rövid felmérés: technikai vagy motivációs ok áll-e a háttérben.
+   * Ha az M0-kvíz átlag tartósan a **kb. 60%-os jelzőszint** alatt van – **ez a stáb felé jelez, NEM a madrich kizárását jelenti** (a kvíz completion-jelző, lásd 5. Kapuk):
      * egyszerűsített, vizuális összefoglaló Page készítése („Madrich, nem terapeuta”, „kapuk”),
      * másik modul peulájában 5 perces „keret-újramondás”.
 

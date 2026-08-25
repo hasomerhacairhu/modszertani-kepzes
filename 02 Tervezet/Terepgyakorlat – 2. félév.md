@@ -10,7 +10,7 @@ A második félévben minden résztvevő **6 valódi, 60–90 perces peulát** t
 
 Minden peulánál ugyanaz a ciklus:
 
-1. **Plan:** cél, kvuca, módszer, safety, kellék, realitás-check.
+1. **Plan:** cél, kvuca, módszer, biztonság, kellék, realitás-ellenőrzés.
 2. **Run:** valódi levezetés, a helyi safeguarding szabályokkal.
 3. **Evidence:** rövid, adatminimalizált megfigyelési jegyzet; chanich érzékeny adata nélkül.
 4. **Feedback:** mentor / kijelölt tapasztalt vezető konkrét visszajelzése.
@@ -24,11 +24,11 @@ A hat alkalomból legalább:
 - **2** alkalmat mentor vagy kijelölt tapasztalt madrich **élőben megfigyel**;
 - **2** alkalomnál a résztvevő explicit módon visszahoz egy korábbi feedback-pontot és megmutatja, mi változott;
 - **1** alkalom tartalmaz tudatos inkluzivitási adaptációt;
-- **1** alkalom után dokumentált safety/határ-reflexió készül akkor is, ha nem történt incidens.
+- **1** alkalom után dokumentált biztonsági és határkezelési reflexió készül akkor is, ha nem történt incidens.
 
 ## Field-rubrika
 
-0–2 skálán: cél és alignment; instrukció/keretezés; kvuca-reakciók megfigyelése; facilitálás és kérdezés; idő/tér adaptáció; inkluzivitás; safety/határtartás; feedback felhasználása; reflektív javítás.
+0–2 skálán: cél és alignment; instrukció/keretezés; kvuca-reakciók megfigyelése; facilitálás és kérdezés; idő/tér adaptáció; inkluzivitás; biztonság és határtartás; feedback felhasználása; reflektív javítás.
 
 **Nem pontozzuk** a chanichok „engedelmességét”, a hangulatot önmagában vagy azt, hogy minden terv szerint történt-e. A kompetencia része az adaptáció.
 

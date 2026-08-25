@@ -20,7 +20,7 @@
 
 > „Nem óriási fogadalmak kellenek, hanem **kicsi, konkrét lépések**, amiket tényleg meg tudsz tenni a kvucáddal.”
 
-**Flow:** Hook → Input („small steps”) → példacélok → Activity (saját célok sablonból) → Check (első lépés self-check)
+**Felépítés:** Hook → Input (kis lépések) → példacélok → Activity (saját célok sablonból) → Check (első lépés önellenőrzése)
 
 ***
 
@@ -86,7 +86,7 @@ Opciók:
 
 ### SLIDE 2 – INPUT: Kis lépések – miért kicsiben gondolkodunk?
 
-**Cél:** elmagyarázni, miért jók a kis, konkrét lépések (nem kell SMART elmélet, csak light).
+**Cél:** elmagyarázni, miért jók a kis, konkrét lépések (nem kell SMART elmélet, elég egyszerűen).
 
 **Szöveg a dián:**
 
@@ -213,7 +213,7 @@ Placeholder:
 
 ***
 
-### SLIDE 6 – ACTIVITY 3: „Ki tud ebben segíteni?” – support & elköteleződés a Peula v2-re
+### SLIDE 6 – ACTIVITY 3: „Ki tud ebben segíteni?” – támogatás & elköteleződés a Peula v2-re
 
 **Cél:** ne legyen magányos vállalás – a **Peula v2 lefuttatása** mögé tegyél támaszt, és kösd meg az elköteleződést.
 
@@ -256,11 +256,11 @@ Placeholder:
 
 ### SLIDE 7 – CHECK & OUTRO: „Ha holnap kezdenéd…”
 
-**Cél:** lecke Check része – reflexív önellenőrzés.
+**Cél:** a lecke Check része – reflektív önellenőrzés.
 
 **Szöveg a dián:**
 
-> ✅ **Self-check – Ha holnap kezdenéd…**
+> ✅ **Önellenőrzés – Ha holnap kezdenéd…**
 
 > Nézd meg a 2 célmondatodat (a „A következő 3 Zmán Kvucámon…” és „A következő hónapban…” kezdetűeket).
 
@@ -268,7 +268,7 @@ Placeholder:
 
 > **„Ha holnap kezdeném, tudom, mi lenne az első konkrét lépésem?”**
 
-> – Ha **igen**: szuper, jó irányban vagy.
+> – Ha **igen**: akkor jó irányban vagy.
 > – Ha **nem**, akkor próbáld meg **még 1 kicsit konkrétabbra húzni** az egyik mondatot (pl. „pontosan mikor”, „pontosan mivel”, „pontosan kivel?”).
 
 **Beágyazott kérdés – Single Choice + rövid szöveges válasz (opcionális)**
@@ -286,7 +286,7 @@ Opciók:
 **Feedback (mindháromra, kicsit hangolt):**
 
 * Igen:
-  > „Szuper. Írd fel magadnak valahova a két mondatot, hogy ne csak itt éljenek.”
+  > „Akkor írd fel magadnak valahova a két mondatot, hogy ne csak itt éljenek.”
 * Félig:
   > „Oké – érdemes lehet még 1 szót hozzátenni (pl. mikor, hol, kivel), hogy biztosabb legyen.”
 * Nem:

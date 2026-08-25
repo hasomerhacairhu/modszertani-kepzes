@@ -27,7 +27,7 @@ A GDPR 8. cikkének korhatárszabálya **nem általános „minden adatkezelésh
 
 - AI használata tanulónak opcionális; legyen teljes értékű no-AI út.
 - Csak szervezetileg jóváhagyott szolgáltatás nevezhető meg.
-- 18 év alatti tanuló csak akkor használhat külső szolgáltatást, ha annak aktuális minimum-age / parental-consent feltétele teljesül.
+- 18 év alatti tanuló csak akkor használhat külső szolgáltatást, ha annak aktuális korhatár- és szülői hozzájárulási feltétele teljesül.
 - Nem kerülhet promptba chanich neve, elérhetősége, képe, pontos helye, egészségügyi/mentális állapota, családi háttere, vallási/etnikai/egyéb érzékeny identitása vagy beazonosítható eseménye.
 - Gyermekvédelmi döntést és kríziskezelést nem delegálunk AI-nak.
 - A szolgáltató retention/training/admin controls beállítását a szervezetnek dokumentálnia kell.

@@ -10,7 +10,7 @@ A jelen repo biztonságos alapértelmezése: súlyos helyzeteket **harmadik szem
 
 | Mező | Érték |
 |---|---|
-| Helyi gyermekvédelmi felelős / Memuna vagy az aktuális kánoni szerep | KITÖLTENDŐ |
+| Helyi gyermekvédelmi felelős / Memuna vagy az aktuális hivatalos szerep | KITÖLTENDŐ |
 | Elérhetőség | KITÖLTENDŐ |
 | Helyettes / alternatív eszkaláció összeférhetetlenség esetére | KITÖLTENDŐ |
 | Országos/mozgalmi escalation | KITÖLTENDŐ |
@@ -19,7 +19,7 @@ A jelen repo biztonságos alapértelmezése: súlyos helyzeteket **harmadik szem
 | Jóváhagyó neve | KITÖLTENDŐ |
 | Jóváhagyás dátuma | KITÖLTENDŐ |
 | Következő review | KITÖLTENDŐ |
-| **One-to-one / safer working szabály** – mikor és milyen körülmények között maradhat képző vagy madrich kettesben egy kiskorúval (látótávolság, nyitott ajtó, második felnőtt, dokumentálás) | KITÖLTENDŐ |
+| **Négyszemközti (one-to-one / safer working) helyzetek szabálya** – mikor és milyen körülmények között maradhat képző vagy madrich kettesben egy kiskorúval (látótávolság, nyitott ajtó, második felnőtt, dokumentálás) | KITÖLTENDŐ |
 
 ## Tartalmi acceptance
 
@@ -27,7 +27,7 @@ A jelen repo biztonságos alapértelmezése: súlyos helyzeteket **harmadik szem
 - madrich nem nyomoz és nem konfrontál feltételezett elkövetőt;
 - világos „észlel → jelzi → felelős felnőttet bevon” szerep;
 - 15–17 éves madrichot nem pozicionáljuk egyedüli „felnőttként”;
-- súlyos esetnél nincs kötelező személyes disclosure;
+- súlyos esetnél senkinek nem kötelező a saját érintettségéről beszélnie;
 - telefonszám, hatósági út és jogszabály a review napján frissen ellenőrzött;
 - facilitátor tudja, mit tesz, ha a képzés közben résztvevő saját érintettséget tár fel;
 - a tananyag **nem ír elő általános „négyszemközt” félrevonulást**: a megérintődött résztvevővel diszkrét, de **átlátható** helyzetben lehet beszélni, a helyi one-to-one szabály szerint.

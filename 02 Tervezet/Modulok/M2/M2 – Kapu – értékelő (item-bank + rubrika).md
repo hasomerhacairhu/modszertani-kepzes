@@ -13,17 +13,17 @@
 |---|---|
 | **Kapu típusa** | **Puha kapu (soft gate)** – fejlesztő, NEM vizsgáztató. Jelzés és támogatás, nincs kizárás. |
 | **Mit mér** | Az integráló kimeneti kompetenciát (M2 5. kompetencia): a madrich össze tudja-e kötni az **identitás-köreit + 1 someres értéket + érték→megfigyelhető viselkedés kapcsolatot + 1 konkrét idei dugma ishit-vállalást** egy összefüggő, viselkedés-szintű jegyzetben. |
-| **Hol horgonyozza le a meglévő kaput** | Az M2 modul-áttekintő (6. Kapuk) szerint a „complete” feltétele *„1 oldalas madrich identitás-jegyzet leadva, záró dugma ishit-mondattal”* – de eddig **rubrika és sablon nélkül**. Ez a fájl pótolja a sablont + egy könnyű, fejlesztő rubrikát + tanulói self-checket. |
-| **Küszöb (soft gate)** | **Beadáshoz:** a self-check checklist **önellenőrzés**, nem beadás-blokkoló – ha mind a pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: aki ez alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (Study Lab) ajánlást** kap, és újra beadhat. |
+| **Hol horgonyozza le a meglévő kaput** | Az M2 modul-áttekintő (6. Kapuk) szerint a „complete” feltétele *„1 oldalas madrich identitás-jegyzet leadva, záró dugma ishit-mondattal”* – de eddig **rubrika és sablon nélkül**. Ez a fájl pótolja a sablont + egy könnyű, fejlesztő rubrikát + tanulói önellenőrzést. |
+| **Küszöb (soft gate)** | **Beadáshoz:** az önellenőrző lista **önellenőrzés**, nem beadás-blokkoló – ha mind a 10 pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: aki ez alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (Study Lab) ajánlást** kap, és újra beadhat. |
 | **Mit NEM csinálunk** | Nem pontozzuk numerikusan, nem rangsorolunk, nem osztályozunk. A rubrika „erős/gyenge” helyett **megfigyelhető szövegjegyeket** néz. A jegyzet tartalma privát: csak a mentor/képző látja. |
-| **LMS-eszköz** | **Moodle Assignment + rubrika** (a fő produktum: identitás-jegyzet feltöltés, fájl vagy online szöveg; a 4 soros rubrika a Moodle „Rubric” értékelési módszereként rögzítve, fejlesztő kommenttel). **Opcionálisan: H5P Question Set / Moodle Quiz** a B. szakasz fogalmi self-check itemeivel – ez **formatív, completion-alapú, NEM ponthatáros**, csak segít a tanulónak ellenőrizni, érti-e a kulcsfogalmakat a jegyzet megírása előtt. |
-| **Bukás-útvonal** | Hiányos / nagyon felszínes jegyzet → mentor SBI-jellegű fejlesztő üzenet (max. 3 pont) + M2.F ajánlása + újra beadás. Nincs limit a próbálkozásra. |
+| **LMS-eszköz** | **Moodle Assignment + rubrika** (a fő produktum: identitás-jegyzet feltöltés, fájl vagy online szöveg; a 4 soros rubrika a Moodle „Rubric” értékelési módszereként rögzítve, fejlesztő kommenttel). **Opcionálisan: H5P Question Set / Moodle Quiz** a B. szakasz fogalmi önellenőrző itemeivel – ez **formatív, completion-alapú, NEM ponthatáros**, csak segít a tanulónak ellenőrizni, érti-e a kulcsfogalmakat a jegyzet megírása előtt. |
+| **Javítási útvonal** | Hiányos / nagyon felszínes jegyzet → mentor SBI-jellegű fejlesztő üzenet (max. 3 pont) + M2.F ajánlása + újra beadás. Nincs limit a próbálkozásra. |
 
 > ⚠️ **Construct-validitási megjegyzés:** a régi kapu csak a *leadás tényét* mérte, amit üres/felszínes tartalommal is ki lehetett váltani. Ezért minden rubrikasor **megfigyelhető, viselkedés-szintű kritériumhoz** van kötve (pl. „van konkrét, viselkedés-szintű mondat” vs. „csak absztrakt értékszó”), nem „jó/rossz” minősítéshez. A B. szakasz kvízei szándékosan **nem a kapu** – formatív önellenőrzés.
 
 ***
 
-## A. Tanulói self-check checklist (a jegyzet beadása ELŐTT)
+## A. Tanulói önellenőrző lista (a jegyzet beadása ELŐTT)
 
 > Tedd ki magadnak ezt a listát, mielőtt feltöltöd az identitás-jegyzetedet. Ez **nem vizsga** – arra jó, hogy te magad lásd, tényleg összeállt-e a jegyzeted, vagy maradt benne valami félkész. Ha **mindegyikre tudsz pipát tenni**, biztosan kész vagy. Ez **önellenőrzés, nem beadás-feltétel**: ha 1–2 pontnál elakadsz, **akkor is beadhatod** – az elakadás pont egy jó pont, amin még dolgozhatsz (vagy amit M2.F-ben átnézhetsz), és a mentor fejlesztő kommentet ad, nem buktat.
 
@@ -32,7 +32,7 @@
 - [ ] **3. Érték → viselkedés.** Az értékemhez leírtam **legalább 1 konkrét, megfigyelhető viselkedést**, amit a chanichok **rajtam láthatnak** (pl. „a csendesebbeket is név szerint megszólítom körben”), nem csak azt, hogy „fontos nekem a közösség”.
 - [ ] **4. Külső nézőpont.** Megfogalmaztam, **mit olvasna le rólam egy chanich**, ha csak figyelne egy peulán – tehát kívülről, a viselkedésemből nézem, nem belülről a szándékomból.
 - [ ] **5. Pillér-kapcsolat.** Legalább **1 helyen összekötöttem** az értékemet vagy a viselkedésemet a Somer egyik pillérével (cionizmus / szocializmus / humanista zsidóság) egy konkrét helyzeten keresztül.
-- [ ] **6. Határ / dugma ishit ≠ terapeuta.** Beírtam **legalább 1 saját határszabályt** (pl. „nem csetelek chanichokkal éjfél után”, „súlyos jelzésnél nem maradok egyedül, szólok a mentornak”), és értem, hogy **a határtartás is példamutatás**.
+- [ ] **6. Határ / dugma ishit ≠ terapeuta.** Beírtam **legalább 1 saját határszabályt** (pl. „nem chatelek chanichokkal éjfél után”, „súlyos jelzésnél nem maradok egyedül, szólok a mentornak”), és értem, hogy **a határtartás is példamutatás**.
 - [ ] **7. Idei vállalás.** Van benne **1 konkrét, idei (most kezdődő évre szóló) dugma ishit-vállalásom** – nem általános elv, hanem valami, amit a saját kvucámmal el tudok kezdeni.
 - [ ] **8. Záró dugma ishit-mondat.** Van egy **záró mondatom**, ami így (vagy hasonlóan) kezdődik: *„Idén madrichként abban szeretnék személyes példát mutatni, hogy…”* – és konkrét viselkedéssel folytatódik.
 - [ ] **9. Saját szavak.** A jegyzet **a saját szavaimmal** szól, őszinte – nem a leckék mondatait másoltam be. (Nem kell szép, kell igaz.)
@@ -68,7 +68,7 @@ Egy chanich egy egész peulán át figyel téged. **Miből** fogja leginkább le
 - C) Abból, **amit a viselkedéseden lát**: hogyan döntesz, kit vonsz be, hogyan reagálsz egy konfliktusra. ✅
 - D) Abból, hogy melyik pillérhez érzed magad a legközelebb, és ezt ki is mondod a kvucának.
 
-> **Feedback:** ✅ **C – „amit a viselkedéseden lát”.** Ez a **dugma ishit** lényege: a chanichok nem a magyarázatból, hanem a **látható viselkedésedből** tanulnak. Az A (magyarázat) és a B (önjellemzés) csak a *kimondott* énedet adja át, a D (belső érzés) pedig kívülről nem is látszik – egyik sem az, amit a chanich valóban *megfigyel*. A jegyzeted ezért a 4. self-check pontnál azt kéri: írd le, **mit olvasna le rólad** egy figyelő chanich.
+> **Feedback:** ✅ **C – „amit a viselkedéseden lát”.** Ez a **dugma ishit** lényege: a chanichok nem a magyarázatból, hanem a **látható viselkedésedből** tanulnak. Az A (magyarázat) és a B (önjellemzés) csak a *kimondott* énedet adja át, a D (belső érzés) pedig kívülről nem is látszik – egyik sem az, amit a chanich valóban *megfigyel*. A jegyzeted ezért a 4. önellenőrző pontnál azt kéri: írd le, **mit olvasna le rólad** egy figyelő chanich.
 
 ### Item 3 – Érték → viselkedés lefordítása (M2.2)
 
@@ -101,7 +101,7 @@ Egy 12 éves chanichod késő este privátban ír: *„Senki nem ért meg. Minde
 - C) Nem válaszolsz neki, mert ez már nem a te dolgod, túl nagy teher, és nem egy madrich felelőssége ezt megoldani.
 - D) Megígéred neki, hogy ez kettőtök titka marad, magad próbálod megoldani, és felnőttet egyáltalán nem vonsz be.
 
-> **Feedback:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható madrich”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. self-check pontjánál.
+> **Feedback:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható madrich”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. önellenőrző pontjánál.
 
 ### Item 6 – Mi az „idei vállalás”? (M2 integráció)
 
@@ -202,7 +202,7 @@ MADRICH IDENTITÁS-JEGYZET  ·  M2
 Név (vagy becenév): ______________________   Kvuca / csoport: ______________
 
 1) AZ IDENTITÁS-KÖREIM  (M2.1)
-   3-4 körömet megnevezem, és mindegyikhez 1 mondat: hogyan hat rám MADRICHKÉNT?
+   3–4 körömet megnevezem, és mindegyikhez 1 mondat: hogyan hat rám MADRICHKÉNT?
    • ÉN – ____________________________________________________________
    • Család / közeli kapcsolatok – ___________________________________
    • Zsidóság / zsidó közösség – _____________________________________
@@ -231,7 +231,7 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
 4) HATÁR + IDEI VÁLLALÁS  (M2.4)
    1 saját határszabályom (véd engem ÉS példát mutat – „nem vagyok terapeuta”):
    • __________________________________________________________________
-   (pl. nem csetelek éjfél után; súlyos jelzésnél szólok a mentornak, nem maradok egyedül.)
+   (pl. nem chatelek éjfél után; súlyos jelzésnél szólok a mentornak, nem maradok egyedül.)
 
    ZÁRÓ DUGMA ISHIT-MONDAT (konkrét, idei vállalás):
    „Idén madrichként abban szeretnék személyes példát mutatni, hogy ______
@@ -239,7 +239,7 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
    __________________________________________________________________ .”
 ```
 
-> **Tipp:** mielőtt beadod, futtasd le magadon az **A. self-check checklistet** – ha mind a 10-re pipa, kész vagy. Ha valamiben elakadsz, az pont egy jó beszélgetés a mentoroddal vagy M2.F-en.
+> **Tipp:** mielőtt beadod, futtasd le magadon az **A. önellenőrző listát** – ha mind a 10-re pipa, kész vagy. Ha valamiben elakadsz, az pont egy jó beszélgetés a mentoroddal vagy M2.F-en.
 
 ***
 

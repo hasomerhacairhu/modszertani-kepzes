@@ -20,7 +20,7 @@
 
 > „Nem csak a kvucád tanul a peulákon – **te is tanultál magadról madrichként**. Most ezt tesszük láthatóvá.”
 
-**Flow:** Hook → Input (mi az a „tanulási pillanat”) → 2 példasztori → Activity (saját pillanat + nehéz modul) → Check (3 szó)
+**Felépítés:** Hook → Input (mi az a „tanulási pillanat”) → 2 példasztori → Activity (saját pillanat + nehéz modul) → Check (3 szó)
 
 ***
 
@@ -79,7 +79,7 @@ Opciók:
 
 **Feedback (opciónként kicsit hangolt, de mind normalizál):**
 
-* „Szuper – akkor most ezekből próbálunk **nevet adni párnak**.”
+* „Akkor most ezekből próbálunk **nevet adni párnak**.”
 * „Oké – akkor most ezt az 1–2 pillanatot fogjuk jobban megnézni.”
 * „Teljesen rendben – ez a lecke pont abban segít, hogy **ráismerj** ilyen helyzetekre.”
 

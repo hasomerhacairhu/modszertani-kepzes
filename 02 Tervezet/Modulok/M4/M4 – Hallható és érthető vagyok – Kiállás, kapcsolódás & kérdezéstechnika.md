@@ -6,7 +6,7 @@
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), kb. 45–45’
 * **Online terhelés:** kb. 4×15–20 perc mikrolecke (M4.1–M4.4)
 * **Teljes terhelés:** **a program-szintű kb. 2–3,5 órás modul-sávon belül (lásd Program terv §0) az M4 mint produktum-modul effektíve a felső felében, kb. 2,5–3,5 óra (online + offline) – tervezz inkább a felső, ~3,5 órás értékkel.** A becslés őszintén felfelé kerekített: a két peula (2×45’) önmagában ~1,5 óra, az online leckék ~60–75 perc, **és erre jön a modulproduktum (M4.4 peula-pitch váz) tényleges megírása + finomítása**, amit könnyű alulbecsülni. A pitch-váz az M4.4 online lecke ~15 perce alatt elindul, de a kvucára szabott, leadható verzió kidolgozása (és az M4.B-n a hangos gyakorlás) reálisan **további ~20–30 perc** – ezt a teljes terhelésbe beleszámoltuk.
-* **Terhelés-megjegyzés (peulavezetőnek):** a peula-percbontások feszesek; **minden peulában van „core” (el nem hagyható) és „rövidíthető/elhagyható” rész** – ezeket a peula-fájlok blokkonként jelölik. Ha csúszol, a rövidíthető részekből vegyél vissza, ne a debrief-ből / zárókörből. **Tervezz ~10–15% puffert** (késés, technika, érzelmileg ráhangolódó kör), hogy a zárás ne maradjon ki.
+* **Terhelés-megjegyzés (peulavezetőnek):** a peula-percbontások feszesek; **minden peulában van „mag” (el nem hagyható) és „rövidíthető/elhagyható” rész** – ezeket a peula-fájlok blokkonként jelölik. Ha csúszol, a rövidíthető részekből vegyél vissza, ne a feldolgozásból / zárókörből. **Tervezz ~10–15% puffert** (késés, technika, érzelmileg ráhangolódó kör), hogy a zárás ne maradjon ki.
 * **Tartalmi eredet (provenance):** **ember által írt / AI-asszisztált tananyag** – ahol generatív AI-t használtunk (szöveg, kvíz-item, distraktor, ábra, AI-videó), azt a leckében külön jelöljük.
 * **Szakmai lektorálás:** **lektor: [ ] · dátum: [ ] · verzió: [ ]** (a gyermekvédelmi és érzékeny tartalmat éles indítás előtt embernek kell jóváhagynia – UNESCO AI-etika: emberi felügyelet + átláthatóság).
 
@@ -49,28 +49,28 @@ A modul végére a résztvevő…
 
 ## 3. Online mikroleckék (L1–L4)
 
-### M4.1 – Mit üzen a testem? – Nonverbális kiállás (L1, 10–12’)
+### M4.1 – Mit üzen a testem? – Nonverbális kiállás (L1, 15–20’)
 
 * **Szerepe a modulban:** belépő a „test, mint üzenet” témába; ráhangolás arra, hogy a kvuca már az első másodpercekben olvas a nonverbális jelekből.
 * **Kulcstémák:** testtartás, tekintet, mozdulatok; „zárt” vs. „nyitott” kiállás; 1–2 saját fejlesztési fókusz megfogalmazása.
 * **Formátum:** H5P Course Presentation (6 slide, mobil-first) rövid videókkal + reflektív kérdések.
 * **Completion:** lecke végignézve + 2 reflektív kérdés megválaszolva (Moodle completion).
 
-### M4.2 – Aktív hallgatás & visszatükrözés (L2, 10–15’)
+### M4.2 – Aktív hallgatás & visszatükrözés (L2, 15–20’)
 
 * **Szerepe a modulban:** nyelvet ad az aktív hallgatáshoz; megkülönbözteti a **lezáró** vs. **támogató** reakciókat.
 * **Kulcstémák:** „rá figyelek vs. elütöm”; visszatükröző mondatok alap-sablonjai; mit él meg a másik egy-egy válasz mögött.
 * **Formátum:** H5P Course Presentation (6 slide) dialog cards + egyszerű csoportosító/drag&drop feladat.
 * **Completion:** lecke végignézve + 1 saját visszatükröző mondat megfogalmazása.
 
-### M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések (L3, 10–15’)
+### M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések (L3, 15–20’)
 
 * **Szerepe a modulban:** kérdés-térkép adása; a madrich tudatosan látja, hogy **melyik kérdés mit csinál** a kvucával.
 * **Kulcstémák:** négy kérdéstípus definíciója + példák; „Na, értitek?” mint tipikus rossz kérdés; kérdések besorolása kategóriákba.
-* **Formátum:** H5P Course Presentation; sorting feladat 4 oszloppal + mini-quiz a végén.
+* **Formátum:** H5P Course Presentation; sorting feladat 4 oszloppal + mini-kvíz a végén.
 * **Completion:** lecke végignézve + záró reflektív kérdés (melyik kérdéstípusból szeretne többet/kevesebbet használni).
 
-### M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára (L4, kb. 15’)
+### M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára (L4, 15–20’)
 
 * **Szerepe a modulban:** a modul **produktumának előkészítése** – konkrét pitch-váz egy valós/valószerű kvucára.
 * **Kulcstémák:** 5 kérdéses pitch-sablon (kihez beszélsz, miről szól, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza).
@@ -105,7 +105,7 @@ A modul végére a résztvevő…
   1. Tisztábban lássák, hol tartanak a modulban (test – hang – kérdések – pitch).
   2. Legalább egy leckében érdemben haladjanak (befejezés / újranézés / pitch-váz finomítás).
   3. Le tudjanak írni leckénként 1 gondolatot és 1 kérdést.
-* **Rövid flow:** check-in → csendes pótlás fülessel → közös kérdések + fogalom-térkép („test – hang – kérdések – pitch”) → átvezetés a normál peulákra (egy mondatos személyes fókusz).
+* **Rövid menet:** ráhangolódás → csendes pótlás fülessel → közös kérdések + fogalom-térkép („test – hang – kérdések – pitch”) → átvezetés a normál peulákra (egy mondatos személyes fókusz).
 
 ***
 
@@ -115,8 +115,8 @@ A modul végére a résztvevő…
 
 **Javasolt modul-kapuk:**
 
-1. **Kapu 1 – M4.3 mini-quiz + reflektív kérdés**
-   * **Eszköz:** a M4.3 H5P-ben lévő mini-quiz és záró reflektív kérdés (kérdéstípusok felismerése).
+1. **Kapu 1 – M4.3 mini-kvíz + reflektív kérdés**
+   * **Eszköz:** a M4.3 H5P-ben lévő mini-kvíz és záró reflektív kérdés (kérdéstípusok felismerése).
    * **Funkció:** ellenőrzi, hogy a résztvevő **megérti a kérdéstípusokat**, és tudatosan vállal egy változtatási irányt (melyiket használja többet / kevesebbet).
    * **Következmény:** ha gyenge az eredmény vagy hiányzik a completion, jelzés a mentornak / stábnak; opcionálisan M4.F felzárkóztatás ajánlása.
 2. **Kapu 2 – M4.4 Assignment – „Peula-pitch váz”**
@@ -137,7 +137,7 @@ A modul végére a résztvevő…
 
 *(A kapu továbbra is puha: a hiányos / „még nem éri el” szintű pitch nem zár ki, csak mentori jelzést és finomító kört vált ki – de a »complete« nem áll be üres beküldésre. Egységes az M2 „nem üres beküldés / érdemi kitöltés” standardjával.)*
 
-> **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es pitch-váz** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás” / debrief** és **„Feedback”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
+> **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es pitch-váz** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás”** és **„Feedback”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
 >
 > **→ Ezt is ezzel moderálod (visszafelé):** ugyanez a **kérdezéstechnika** (tisztázó / nyitott kérdés, a „Na, értitek?” helyett) és **aktív hallgatás** a **legfőbb moderálási eszközöd egy heves értékvitában** is – pl. az [M2.3 cionizmus-szituban](../M2/Online%20leckék/M2.3%20–%20Somer%203%20pillére%20–%20mini-kapszula.md), ahol egy friss Izrael-hír miatt feszült lesz a kvuca. Az M2.3 a **mit** (someres pillér, dugma ishit) felől nézi ezt a helyzetet; az M4 adja hozzá a **hogyan**-t: hogy egy kérdéssel teret nyiss és visszatükrözéssel keretet tarts, ahelyett hogy lezárnád vagy az egyik oldal mellé állnál.
 
@@ -153,14 +153,14 @@ A modul végére a résztvevő…
 2. **H5P-aktivitás részletei:**
    * M4.1–M4.2: mely nonverbális jelzéseket vagy reakciókat azonosítják sokan rosszul (zárt testtartás, „támogatónak” gondolt, valójában lezáró válaszok).
    * M4.3: mely kérdéstípusok keverednek leginkább (nyitott vs. irányító, tisztázó vs. zárt).
-3. **Kapu-kvíz / mini-quiz eredmények (M4.3):**
+3. **Kapu-kvíz / mini-kvíz eredmények (M4.3):**
    * kérdés-szintű statisztika: melyik kérdésnél hibáznak sokan → ezekhez az offline peulákon plusz példát / gyakorlást érdemes beépíteni (pl. több élő kérdésjáték M4.B-ben).
 4. **Assignment adatok (M4.4 pitch-váz):**
    * hány résztvevő adott le pitch-et;
    * mely rubrika-elemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni M4.B-n, illetve a mentorok 2–3 mondatos írásos feedbackjében.
-5. **Thresholdok / beavatkozási pontok:**
+5. **Küszöbök / beavatkozási pontok:**
    * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → ajánlott M4.F felzárkóztató Study Lab-et tartani;
-   * ha a mini-quiz átlaga nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” recap blokk (élő példákkal).
+   * ha a mini-kvíz átlaga nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” ismétlő blokk (élő példákkal).
 
 ***
 

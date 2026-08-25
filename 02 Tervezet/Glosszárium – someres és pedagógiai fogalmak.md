@@ -1,41 +1,41 @@
 # Glosszárium – someres és pedagógiai fogalmak
 
-> **Kánoni terminológiai referencia.** Ez a fájl rögzíti a tananyag SZÁNDÉKOS írásmódjait és fogalmi jelentéseit. Ha fejlesztő vagy lektor vagy: ezeket az alakokat **ne „javítsd el”** nemzetközi átírásra vagy **magyaros „helyesbítésre”** – a tananyag egységessége múlik rajtuk.
+> **Hivatalos terminológiai referencia.** Ez a fájl rögzíti a tananyag SZÁNDÉKOS írásmódjait és fogalmi jelentéseit. Ha fejlesztő vagy lektor vagy: ezeket az alakokat **ne „javítsd el”** nemzetközi átírásra vagy **magyaros „helyesbítésre”** – a tananyag egységessége múlik rajtuk.
 >
 > A jelentések mozgalmi/Judaica forrásokkal alátámasztottak (a részletes someres-terminológiai audit a git-history-ban érhető el); a 🧑‍🏫 jelű tételeknél a helyi (magyarországi Somer) ken végső megerősítése ajánlott.
 
 
-> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez kánoninak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. A nyilvános oldalak korosztályi terminológiája sem teljesen egyezik a repo 4-kvucás történeti modelljével. **Ezt nem automatizáljuk tömeges átírással.** A helyi ken/országos mozgalmi felelősnek egyetlen house style-t és a 2026-os korosztály-architektúrát írásban jóvá kell hagynia; utána lintelt, atomi terminológiai migráció szükséges.
+> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez hivatalosnak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. A nyilvános oldalak korosztályi terminológiája sem teljesen egyezik a repo 4-kvucás történeti modelljével. **Ezt nem automatizáljuk tömeges átírással.** A helyi ken/országos mozgalmi felelősnek egyetlen house style-t és a 2026-os korosztály-architektúrát írásban jóvá kell hagynia; utána lintelt, atomi terminológiai migráció szükséges.
 
 ---
 
 ## 1. Héber / someres fogalmak
 
-Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szerinti jelentés · mozgalmi jelentés · megjegyzés.
+Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó szerinti jelentés · mozgalmi jelentés · megjegyzés.
 
 ### bogrim (בוגרים)
 - **Jelentés:** „érettek / idősebbek” – a legidősebb (16+) korosztály mozgalmi **köznévi** megnevezése.
-- **Írásmód (kánoni):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
+- **Írásmód (hivatalos):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
 - **Megjegyzés:** a **Zorea** a 16+ kvuca **tulajdonneve**, a `bogrim` ugyanennek a korosztálynak a köznévi leírása – a kettő nem ellentmondás. (M6, M2.A, M3.2)
 
 ### chanich (חניך)
 - **Jelentés:** növendék, gondozott; mozgalmi értelemben a kvuca tagja, akit a madrich vezet.
-- **Toldalékolás (magyaros, kánoni):** chanichok, chanichoknak, chanichhal, chanichoktól.
+- **Toldalékolás (magyaros, hivatalos):** chanichok, chanichoknak, chanichhal, chanichoktól.
 - **Megjegyzés:** a magyar toldalékolás a domináns és kötelező. Egyetlen helyen szerepel héber többes „chanichim” (M0.2) – ez **szándékos** nyelvi színezés egy idézetben, nem inkonzisztencia, ne írd át.
 
 ### dugma ishit (דוגמא אישית)
 - **Jelentés:** személyes példamutatás; a chanichok abból tanulnak, amit a madrichon **élőben** látnak (nem távoli példakép / role model).
-- **Írásmód (kánoni):** **kisbetűs köznév** – `dugma ishit`. Első előforduláskor *kurzív* + magyar glossza: „személyes példamutatás”.
+- **Írásmód (hivatalos):** **kisbetűs köznév** – `dugma ishit`. Első előforduláskor *kurzív* + magyar glossza: „személyes példamutatás”.
 - **Megjegyzés:** a héber köznév, nem ír nagybetűt. A megszemélyesített „Dugma Ishitnek lenni” formát **kerüld** – helyette: „dugma ishitként viselkedni” / „személyes példát mutatni”. A pozitív magja: az ideáljaim megélése (nem csak a „mit NEM teszek” oldalról).
 
 ### hagshama (הגשמה)
 - **Jelentés:** önmegvalósítás; a mozgalmi eszmék gyakorlati beteljesítése (pl. alija, kibuc, „az értékeimet tettekre váltom”).
-- **Státusz:** **szerepel** a tananyagban (M2.3 – „Somer 3 pillére" outró, a dugma ishit-kapcsolaton át operacionalizálva), és curriculum-szinten az M2-érték→M7 SMART nevelési cél átkötésben teljesedik ki (M7.1 – a SMART cél Releváns eleme a saját someres értékre épül; vö. az M2-ben kiemelt érték + személyes példamutató mondat); Program terv §0/§2. A pontos mozgalmi megfogalmazást érdemes a helyi Somer szakértővel megerősíteni.
+- **Státusz:** **szerepel** a tananyagban (M2.3 – „Somer 3 pillére” outró, a dugma ishit-kapcsolaton át kibontva), és curriculum-szinten az M2-érték→M7 SMART nevelési cél átkötésben teljesedik ki (M7.1 – a SMART cél Releváns eleme a saját someres értékre épül; vö. az M2-ben kiemelt érték + személyes példamutató mondat); Program terv §0/§2. A pontos mozgalmi megfogalmazást érdemes a helyi Somer szakértővel megerősíteni.
 - **Megjegyzés:** írásmód `hagshama` (ne „hagsama”).
 
 ### ken (קן)
 - **Jelentés:** „fészek” – a Hasomer Hacair helyi csoportja és fizikai klubhelyisége egyben.
-- **Összetétel (kánoni):** `ken-vezető`, „ken nagyterme”, „ken szabályai”.
+- **Összetétel (hivatalos):** `ken-vezető`, „ken nagyterme”, „ken szabályai”.
 - **Megjegyzés:** mozgalmi szakszó. Ne keverd a magyar „ken” igével/köznévvel – kontextusból mindig a fészek/helyi csoport jelentés.
 
 ### Kivsza
@@ -43,19 +43,19 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 
 ### kvuca (קבוצה)
 - **Jelentés:** csoport; a someres nevelés alapegysége – a bensőséges kiscsoport, ahonnan az egész nevelési élmény kibomlik.
-- **Írásmód (kánoni):** **magyar-fonetikus átírás `kvuca`** (magyar „c” = /ts/ adja vissza a héber צ *tsade* hangot). **NEM** „kvutza” / „kvutsa” (ez a nemzetközi standard, de itt nem ezt használjuk).
-- **Ékezet-szabály (kánoni):**
+- **Írásmód (hivatalos):** **magyar-fonetikus átírás `kvuca`** (magyar „c” = /ts/ adja vissza a héber צ *tsade* hangot). **NEM** „kvutza” / „kvutsa” (ez a nemzetközi standard, de itt nem ezt használjuk).
+- **Ékezet-szabály (hivatalos):**
   - alapalak / alanyeset: **`kvuca`** (ékezet nélkül).
   - toldalékolt tő: **`kvucá-`** (hosszú á): kvucának, kvucára, kvucában, kvucáról.
   - Ez szabályos magyar tőhangzónyúlás, **nem hiba** – ne „egységesítsd” rövid a-ra.
 
 ### Leviatan
 - Lásd: **kvuca-nevek**. Jelentés: cet/leviatán (14–16 év). 🐋
-- **Írásmód (kánoni):** **`Leviatan` – ékezet nélkül.** **NEM** „Leviatán”. A magyaros ékezet tipikus automatikus magyarosítási hiba; a kánoni alak ékezet nélküli tulajdonnév.
+- **Írásmód (hivatalos):** **`Leviatan` – ékezet nélkül.** **NEM** „Leviatán”. A magyaros ékezet tipikus automatikus magyarosítási hiba; a hivatalos alak ékezet nélküli tulajdonnév.
 
 ### madrich / madricha
 - **Jelentés:** (cső)vezető, nevelő a mozgalomban. `madrich` = hímnem, `madricha` = nőnem.
-- **Többes (kánoni):** **`madrichok / madrichot`** – a `madrichot` a héberhez hű nőnemű többes (héber: hímnem *madrichim*, nőnem *madrichot*).
+- **Többes (hivatalos):** **`madrichok / madrichot`** – a `madrichot` a héberhez hű nőnemű többes (héber: hímnem *madrichim*, nőnem *madrichot*).
 - **Megjegyzés:** a hibrid **`madrichák`** (héber tő + magyar -ák) alak **KERÜLENDŐ**. Egységesen `madrichok / madrichot` a teljes tananyagban (a „Korosztály” fejlécekben is).
 
 ### mazkirut (מזכירות)
@@ -68,18 +68,18 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 
 ### peula (פעולה)
 - **Jelentés:** tevékenység/akció; mozgalmi értelemben **strukturált foglalkozás / program** (egy madrich által vezetett, megtervezett nevelési egység).
-- **Írásmód (kánoni):** alapalak ékezet nélkül **`peula`** / `Peula`.
-- **Ékezet-szabály (kánoni):** toldalékolt tövek hosszú á-val: **`peulát`, `peulán`, `peulára`** – szabályos magyar morfológia, nem hiba.
+- **Írásmód (hivatalos):** alapalak ékezet nélkül **`peula`** / `Peula`.
+- **Ékezet-szabály (hivatalos):** toldalékolt tövek hosszú á-val: **`peulát`, `peulán`, `peulára`** – szabályos magyar morfológia, nem hiba.
 
 ### Somer
 - **Jelentés:** „őr, őrző” – a **Hasomer Hacair / שומר** mozgalom magyar-fonetikus rövidítése (a magyar „s” = /ʃ/).
-- **Írásmód (kánoni):** **tulajdonnév, nagybetűs `Somer`**. **NEM** „shomer” (az a nemzetközi standard átírás, itt nem ezt használjuk).
-- **A teljes mozgalmi név (kánoni):** **`Hasomer Hacair`** (magyar-fonetikus). **NEM** „Hashomer Hatzair” (nemzetközi átírás) – ez egységben van a `Somer`/`someres` magyar-fonetikus alakkal; ne „javítsd” nemzetközire.
-- **Melléknév (kánoni):** **`someres`** (pl. „someres szellem”, „someres értékek”); mondat/fejléc elején `Someres` nagybetűvel – nyelvtanilag helyes.
+- **Írásmód (hivatalos):** **tulajdonnév, nagybetűs `Somer`**. **NEM** „shomer” (az a nemzetközi standard átírás, itt nem ezt használjuk).
+- **A teljes mozgalmi név (hivatalos):** **`Hasomer Hacair`** (magyar-fonetikus). **NEM** „Hashomer Hatzair” (nemzetközi átírás) – ez egységben van a `Somer`/`someres` magyar-fonetikus alakkal; ne „javítsd” nemzetközire.
+- **Melléknév (hivatalos):** **`someres`** (pl. „someres szellem”, „someres értékek”); mondat/fejléc elején `Someres` nagybetűvel – nyelvtanilag helyes.
 
 ### Zmán Kvucá (זמן קבוצה)
 - **Jelentés:** „csoport-idő / kvuca-idő” – a kvucának szentelt, rendszeres közös idő/keret.
-- **Írásmód (kánoni):** **egységesen `Zmán Kvucá`** (mindkét szó nagybetűs kezdettel, a Kvucá hosszú á-val). A teljes tananyagban egységes – ne bontsd meg.
+- **Írásmód (hivatalos):** **egységesen `Zmán Kvucá`** (mindkét szó nagybetűs kezdettel, a Kvucá hosszú á-val). A teljes tananyagban egységes – ne bontsd meg.
 
 ---
 
@@ -87,7 +87,7 @@ Sorrend: alfabetikus. Forma: **kánoni magyar írásmód** · héber + szó szer
 
 Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései. **Mind ékezet nélküli tulajdonnév.** Az emoji a szó szerinti jelentést tükrözi.
 
-| Kánoni alak | Jelentés | Korosztály | Emoji | Profil (helyi konvenció) |
+| Hivatalos alak | Jelentés | Korosztály | Emoji | Profil (helyi konvenció) |
 |---|---|---|---|---|
 | **Parparim** | pillangók/lepkék | 6–10 | 🦋 | legkisebbek |
 | **Kivsza** | bárány/juh | 11–13 | 🐑 | kiskamasz |
@@ -104,9 +104,9 @@ Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései.
 
 A mozgalom **modern (2008/2017 utáni) megfogalmazása**. (Történetileg a harmadik pillér a cserkészet/scoutizmus volt; a zsidóságot a 2008-as ideológiai kongresszuson emelték pillérré.)
 
-1. **cionizmus** – kapcsolat Izraellel, a zsidó önrendelkezés, kritikus és békét kereső gondolkodás, társadalmi igazságosság / pluralizmus keretében. *(Kánoni írásmód: „cionizmus" / „cionista" – **c**-vel; NEM „zionizmus". A magyar standard helyesírás és a magyarországi Somer is c-vel írja.)*
+1. **cionizmus** – kapcsolat Izraellel, a zsidó önrendelkezés, kritikus és békét kereső gondolkodás, társadalmi igazságosság / pluralizmus keretében. *(Hivatalos írásmód: „cionizmus” / „cionista” – **c**-vel; NEM „zionizmus”. A magyar standard helyesírás és a magyarországi Somer is c-vel írja.)*
 2. **szocializmus** – egyenlőség és igazságosság: nemcsak a kvuca mikroszintjén, hanem társadalmi/gazdasági/politikai szinten is.
-3. **humanista zsidóság** – kánoni teljes alak: **„világi (szekuláris) humanista zsidóság”**. Az erkölcs az emberiség iránti felelősségből és tiszteletből fakad, nem vallási tekintélyből. Az első előforduláskor érdemes kiírni a „szekuláris” jelzőt, hogy a világi jelleg explicit legyen.
+3. **humanista zsidóság** – hivatalos teljes alak: **„világi (szekuláris) humanista zsidóság”**. Az erkölcs az emberiség iránti felelősségből és tiszteletből fakad, nem vallási tekintélyből. Az első előforduláskor érdemes kiírni a „szekuláris” jelzőt, hogy a világi jelleg explicit legyen.
 
 ---
 
@@ -119,7 +119,7 @@ A mozgalom **modern (2008/2017 utáni) megfogalmazása**. (Történetileg a harm
 Visszajelzési modell: **Helyzet → Viselkedés → Hatás**. Konkrét helyzetet, megfigyelhető viselkedést és a kiváltott hatást nevezed meg – értelmezés/címkézés helyett. A korrekt, használható visszajelzés váza. (M1)
 
 ### Tuckman 5 szakasz
-Csoportfejlődési modell. Kánoni magyar megfeleltetés a tananyagban:
+Csoportfejlődési modell. Hivatalos magyar megfeleltetés a tananyagban:
 1. **forming** – „alakulás”
 2. **storming** – „balhék” (viták, beszólások, klikkek)
 3. **norming** – „szabályok” (közös szabályok, bizalom)
@@ -164,7 +164,7 @@ Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** k
 
 ## 4. Kapcsolódó dokumentumok (navigáció)
 
-> **Itt vagy: a kánoni terminológiai referencia.** Innen elérsz minden modul-hubra és a két program-szintű sztenderdre. Ha egy lecke vagy peula szövegében ismeretlen someres/pedagógiai fogalomba ütközöl, **innen indulj** – ez a fájl a fogalmak „kezdd itt” pontja. **Ha terminust írsz vagy lektorálsz, előbb a fenti 1–3. szakaszt nézd meg.**
+> **Itt vagy: a hivatalos terminológiai referencia.** Innen elérsz minden modul-hubra és a két program-szintű sztenderdre. Ha egy lecke vagy peula szövegében ismeretlen someres/pedagógiai fogalomba ütközöl, **innen indulj** – ez a fájl a fogalmak „kezdd itt” pontja. **Ha terminust írsz vagy lektorálsz, előbb a fenti 1–3. szakaszt nézd meg.**
 
 **Program-szintű referenciák:**
 

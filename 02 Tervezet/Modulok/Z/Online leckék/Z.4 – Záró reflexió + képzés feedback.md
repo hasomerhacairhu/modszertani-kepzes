@@ -12,7 +12,7 @@
 
 > **Őszinte terhelés:** a Z modul záró leckéje könnyen **szabad-szöveg-fáradtsággá** válik, ha minden kérdés külön üres mezőként néz rád. Ezért most **egy összefüggő, Moodle-ben piszkozatként menthető reflexiós ívbe** fűzzük a kérdéseket: végighaladsz rajta, és a végén **véglegesíted és beadod** – ez lesz a záró-dokumentumod. Nem kell egyben megcsinálnod: a Moodle Assignment **draft/piszkozat mentését a célrendszeren acceptance teszttel igazolni kell**; csak igazolt mentés mellett kommunikálható, hogy külön ülésben biztonságosan folytatható.
 
-> **Élő ellensúly:** ez a digitális ív **nem helyettesíti** a **Z.A élő záró-peulát**. A kánoni sorrend: **Z.A élő lezárás → Z.4 egyéni záró reflexió és képzés-feedback** (*„Mit viszek magammal?” – záró kvuca-peula*). A leírt ív magadnak szól; a közös, élő lezárás a kvucával **megmarad** – a kettő együtt adja a zárást.
+> **Élő ellensúly:** ez a digitális ív **nem helyettesíti** a **Z.A élő záró-peulát**. A hivatalos sorrend: **Z.A élő lezárás → Z.4 egyéni záró reflexió és képzés-feedback** (*„Mit viszek magammal?” – záró kvuca-peula*). A leírt ív magadnak szól; a közös, élő lezárás a kvucával **megmarad** – a kettő együtt adja a zárást.
 
 **Eszközök:**
 
@@ -30,7 +30,7 @@
 
 > „Ez nem vizsga, hanem **üzenet a jövőbeli önmagadnak** – és közben segítség a képzésnek is, hogy tanulni tudjon belőle.”
 
-**Flow:** Hook → Input (mi a reflexiós ív) → Activity (a 3 kérdés végigvezetése egy összefüggő íven) → Check (készen állsz a leadásra?) → Leadás (véglegesíted a záró-dokumentumod) → Assignment + Feedback
+**Felépítés:** Hook → Input (mi a reflexiós ív) → Activity (a 3 kérdés végigvezetése egy összefüggő íven) → Check (készen állsz a leadásra?) → Leadás (véglegesíted a záró-dokumentumod) → Assignment + Feedback
 
 ***
 
@@ -50,8 +50,8 @@
 > Az íven 3 vezető kérdésed lesz:
 
 1. „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
-2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *„Mit várok ettől az évtől madrichként?”* és a *„figyelek rá, hogy…”* mondatot –, és nézd meg, mi valósult meg belőlük.)”
-3. „Írj le **1–2 konkrét next step célt** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
+2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *‘Mit várok ettől az évtől madrichként?’* és a *‘figyelek rá, hogy…’* mondatot –, és nézd meg, mi valósult meg belőlük.)”
+3. „Írj le **1–2 konkrét következő lépést** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > Most **egy összefüggő íven** rendezed a gondolataidat, a végén **beadod**, utána kitöltöd a Feedbacket.
 
@@ -63,7 +63,7 @@
 
 ## 3. Moodle Assignment – „Záró reflexiós ív” (lépésről lépésre)
 
-> **Miért Moodle Assignment?** A záró modulban könnyen halmozódik a sok külön szabad-szöveg mező, és ez **fárasztó**. A Moodle Assignment online szöveges sablonja ezeket **egy összefüggő ívbe** fűzi. Így nem támaszkodunk az H5P Documentation Tool nem igazolt session-resume képességére, és a hosszabb szöveg a Moodle saját draft/leadási folyamatában kezelhető. A korábbi külön Essay-jegyzetek (pillanatok / szemléletváltás / next step) **ennek az ívnek a lépéseivé** válnak, semmi tartalom nem vész el. **Nonformális keret:** az ív nyelve **someres, élmény-alapú** marad (üzenet magadnak), nem portfólió-formális dokumentum.
+> **Miért Moodle Assignment?** A záró modulban könnyen halmozódik a sok külön szabad-szöveg mező, és ez **fárasztó**. A Moodle Assignment online szöveges sablonja ezeket **egy összefüggő ívbe** fűzi. Így nem támaszkodunk az H5P Documentation Tool nem igazolt session-resume képességére, és a hosszabb szöveg a Moodle saját draft/leadási folyamatában kezelhető. A korábbi külön Essay-jegyzetek (pillanatok / szemléletváltás / következő lépés) **ennek az ívnek a lépéseivé** válnak, semmi tartalom nem vész el. **Nonformális keret:** az ív nyelve **someres, élmény-alapú** marad (üzenet magadnak), nem portfólió-formális dokumentum.
 
 **Megvalósítás (fejlesztői jegyzet):** Moodle **Assignment / Online text** egy előre kitöltött, háromrészes sablonnal. A szakaszcímek az alábbi lépéseket követik; a végén nincs H5P-export, a tanuló a Moodle-ben véglegesíti a beadást. A lépés-számozás a korábbi slide-okat tükrözi, hogy a tartalmi megfeleltetés átlátszó maradjon.
 
@@ -126,7 +126,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > A következő lépésekben **végighaladsz** mindhárom kérdésen, egy összefüggő íven.
-> A végén ebből lesz **a végleges záró reflexióod** – a szöveged, vagy a videód vázlata.
+> A végén ebből lesz **a végleges záró reflexiód** – a szöveged, vagy a videód vázlata.
 
 *(Ezen a lépésen nincs beírnivaló, csak Input.)*
 
@@ -134,7 +134,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 ### LÉPÉS 3 – ACTIVITY 1 (Text input lépés): 2–3 pillanat, ami megmaradt
 
-**Cél:** első kérdés kidolgozása, Z.1–Z.2-ből felhozva a highlightokat.
+**Cél:** első kérdés kidolgozása, Z.1–Z.2-ből felhozva a fénypontokat.
 
 **Szöveg a lépésen:**
 
@@ -160,7 +160,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 ***
 
-### LÉPÉS 4 – ACTIVITY 2 (Text input lépés/ek): Szemléletváltás + next step
+### LÉPÉS 4 – ACTIVITY 2 (Text input lépés/ek): Szemléletváltás + következő lépés
 
 **Cél:** a második és harmadik kérdés előkészítése. Az íven ez **két beviteli mező** (a / b), így a végleges beadásban is tisztán elkülönül a kettő – de marad egy összefüggő ív.
 
@@ -170,7 +170,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > a) **Madrich-szemléleted változása**
 
-> Mielőtt írsz, **vedd elő a SAJÁT két mondatodat, amit M0-ban magadnak elmentettél** (jegyzet vagy screenshot):
+> Mielőtt írsz, **vedd elő a SAJÁT két mondatodat, amit M0-ban magadnak elmentettél** (jegyzet vagy képernyőkép):
 > – az M0.1 várakozás-mondatát: *„Mit várok ettől az évtől madrichként?”*,
 > – és az M0.2 ígéret-mondatát: *„Madrichként ebben az évben figyelek rá, hogy…”*.
 > *(Figyelj: itt a **te saját két mondatodról** van szó, nem a programtól kapott 3 ígéretről – azokra majd a végén, a képzés-feedbackben reflektálsz.)*
@@ -183,7 +183,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 **Az ív 2. szakasza (szövegmező, a rész)** – címke: *„Madrich-szemléletem változása”*. A szöveg **a beadás része lesz**.
 
-> b) **Next step + kinek mondod el**
+> b) **Következő lépés + kinek mondod el**
 
 > Mielőtt írsz, **vedd elő a Z.3-ban magadnak elmentett két célmondatodat** (a *„A következő 3 Zmán Kvucámon…”* és a *„A következő hónapban…”* kezdetűeket) – itt most ezeket **finomítod/véglegesíted**, nem nulláról kezded.
 > Ha nincs meg, nem baj – idézd fel emlékezetből, körülbelül mit írtál akkor.
@@ -196,17 +196,17 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > Próbálj **konkrét időtávot és cselekvést** írni (pl. „a következő 3 Zmán Kvucámban…”, „a következő hónapban…”).
 
-**Az ív 3. szakasza (szövegmező, b rész)** – címke: *„Next step + kinek mondom el”*. A szöveg **a beadás része lesz**.
+**Az ív 3. szakasza (szövegmező, b rész)** – címke: *„Következő lépés + kinek mondom el”*. A szöveg **a beadás része lesz**.
 
 ***
 
 ### LÉPÉS 5 – CHECK (Standard / szöveges lépés): Kész vagy a leadásra?
 
-**Cél:** mini self-check, mielőtt véglegesíted és beadod az ívet.
+**Cél:** rövid önellenőrzés, mielőtt véglegesíted és beadod az ívet.
 
 **Szöveg a lépésen:**
 
-> ✅ **Self-check – Készen áll a záró reflexiós íved?**
+> ✅ **Önellenőrzés – Készen áll a záró reflexiós íved?**
 
 > Görgess vissza, amit az előző lépéseken írtál.
 
@@ -230,7 +230,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 **Kis jelzés (a választáshoz):**
 
 * Kész:
-  > „Szuper. Add be az ívet, amíg friss benned minden.”
+  > „Akkor add be az ívet, amíg friss benned minden.”
 * Majdnem kész:
   > „Oké – görgess vissza, szánj rá még 5–10 percet, aztán add be.”
 * Elakadt:
@@ -249,7 +249,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > Egy darabban van benne minden, amit írtál:
 > – a 2–3 pillanat,
 > – a madrich-szemléleted változása,
-> – és a next step céljaid + kinek mondod el.
+> – és a következő lépéseid + kinek mondod el.
 
 > Nyomd meg a **„Beadás / Véglegesítés”** gombot.
 > Ez **üzenet a jövőbeli önmagadnak** is – ha szeretnéd megtartani, **másold ki magadnak a szöveget** (vagy nyomtasd ki a böngészőből), mielőtt beadod.
@@ -271,16 +271,16 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 > ➜ A lecke után:
 
-1. Véglegesítsd és add be a **„Záró reflexió + next step”** ívedet (vagy az abból felvett videót).
+1. Véglegesítsd és add be a **„Záró reflexió + következő lépés”** ívedet (vagy az abból felvett videót).
 2. Utána töltsd ki a **„Képzés feedback – anonim”** kérdőívet.
 
 ***
 
-## 4. A leadás beállításai – „Záró reflexió + next step” Assignment
+## 4. A leadás beállításai – „Záró reflexió + következő lépés” Assignment
 
 > Ez **ugyanaz az Assignment**, amelynek szövegsablonján a 3. szakaszban végigmentél – itt a fejlesztői beállításai és a tanulónak megjelenő leírás szerepel. Nincs második, külön beadandó.
 
-**Név:**`Záró reflexió + next step`
+**Név:**`Záró reflexió + következő lépés`
 **Típus:** Assignment (Online text **és/vagy** File submission – videó)
 
 ### Leírás (tanulónak szóló szöveg)
@@ -320,11 +320,11 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 
 ### Minimum elvárás a „Teljesítve”-hez
 
-Az értékelés nem pontozás, hanem check, de háttérben érdemes tartani:
+Az értékelés nem pontozás, hanem egyszerű ellenőrzés, de háttérben érdemes tartani:
 
 * Van benne **legalább 2 konkrét pillanat** + miért fontosak.
 * Van benne **legalább 2–3 mondat arról**, hogyan változott a madrich-szemlélet.
-* Van benne **1–2 konkrét next step cél** + meg van nevezve, kinek mondja el.
+* Van benne **1–2 konkrét következő lépés** + meg van nevezve, kinek mondja el.
 
 Ha nagyon hiányos / alibi:
 
@@ -342,7 +342,7 @@ Ha nagyon hiányos / alibi:
 1. **Általános elégedettség** – Likert (1–5)
    > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrichként fejlődj?”
 2. **A 3 belépő-ígéret beváltása** – 3×Igen / Részben / Nem rács (vagy 3×Likert 1–5)
-   > „Az **M0.1-diáján a program 3 ígéretet** adott neked a képzéstől. *(Ez most NEM a saját mondataid, amiket a reflexiós íven elővettél – hanem a képzéstől kapott 3 ígéret; arra reflektálsz, beváltak-e.)* Mennyire érezted, hogy ezek **beváltak**?”
+   > „Az **M0.1 leckében a program 3 ígéretet** adott neked a képzéstől. *(Ez most NEM a saját mondataid, amiket a reflexiós íven elővettél – hanem a képzéstől kapott 3 ígéret; arra reflektálsz, beváltak-e.)* Mennyire érezted, hogy ezek **beváltak**?”
    > a) **Nem voltam egyedül** (volt kvuca / stáb / mentor, akire számíthattam).
    > b) **Ez fejlődési út volt, nem vizsga.**
    > c) **Számított a hangom** (a kérdéseim, visszajelzéseim eljutottak valahova).
@@ -363,4 +363,4 @@ Ha nagyon hiányos / alibi:
 
 * **Anonymous responses:** ON
 * **Activity completion:** mark as complete when submitted.
-* Nincs „helyes válasz”, tiszta visszajelzés.
+* Nincs „helyes válasz” – ez tiszta visszajelzés.

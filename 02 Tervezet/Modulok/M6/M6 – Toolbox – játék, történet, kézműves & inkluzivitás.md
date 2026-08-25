@@ -28,7 +28,7 @@ A modul végére a madrich…
    * Felismeri, melyik eszköz melyik **korosztályú kvucának** való (6–10, 11–13, 14–16, 16+), és hol túl nagy a kockázat (bonyolultság, fizikai/érzelmi terhelés).
      *(Főleg: M6.1, M6.4, M6.A)*
 2. **Biztonság & inkluzivitás**
-   * 1 játéklaphoz képes **konkrét biztonsági megjegyzéseket** írni (fizikai biztonság, consent, trigger-veszély, időkeret, felelősségek).
+   * 1 játéklaphoz képes **konkrét biztonsági megjegyzéseket** írni (fizikai biztonság, beleegyezés, felkavaró tartalom kockázata, időkeret, felelősségek).
    * A játéklapon legalább **1 inkluzivitási akadályt** meg tud nevezni (pl. mozgáskorlátozás, introvertált / szorongó résztvevők, nyelvi nehézség, vallási/kulturális érzékenység) **+ 1 konkrét alternatív belépési pontot** ad hozzá (ez az R5 „oké” hard-gate küszöbe); a leckékben és a peulában pedig **több inkluzivitási szempontot** is gyakorol és variációkat javasol.
      *(Főleg: M6.1, M6.3, M6.4, M6.B)*
 3. **Történet mint nevelési eszköz**
@@ -50,7 +50,7 @@ A modul végére a madrich…
 
 ## 3. Online mikroleckék (L1–L4)
 
-### M6.1 – „Játék-kategóriák 4 kvucára” (10–15’)
+### M6.1 – „Játék-kategóriák 4 kvucára” (15–20’)
 
 * **Fő fókusz:** játék-típusok + korosztályok; „nem minden játék jó minden kvucának”.
 * **Eszköz:** H5P Course Presentation (kb. 8 slide, mobil-first).
@@ -62,7 +62,7 @@ A modul végére a madrich…
 
 ***
 
-### M6.2 – „Történet, mint tükör” (10–15’)
+### M6.2 – „Történet, mint tükör” (15–20’)
 
 * **Fő fókusz:** hogyan működik a **történet mint tükör** a kvucának; mit látnak magukból a chanichok.
 * **Eszköz:** H5P Course Presentation (kb. 8 slide; 1 someres sztori beágyazott narrációval + kérdések).
@@ -74,7 +74,7 @@ A modul végére a madrich…
 
 ***
 
-### M6.3 – „Kézműves, ami tanít is” (10–15’)
+### M6.3 – „Kézműves, ami tanít is” (15–20’)
 
 * **Fő fókusz:** a kézműves feladat **nem csak elfoglalás**, hanem tudatos nevelési eszköz.
 * **Eszköz:** H5P Course Presentation (5–7 slide, képekkel).
@@ -106,15 +106,15 @@ A modul végére a madrich…
   * legalább 2 konkrét játék **végigjátszása**,
   * 4 korosztály-szemüveggel (6–10, 11–13, 14–16, 16+) ránézni ugyanarra a játékra,
   * közös nyelv: cél – kvuca – kockázat – inkluzivitás / variációk.
-* **Rövid percbontás-váz:**
-  1. 0–5’ – Check-in: „Mondj egy játékot, amit szeretsz, és 1 okot, miért.”
+* **Rövid percbontás-vázlat:**
+  1. 0–5’ – Ráhangolódás: „Mondj egy játékot, amit szeretsz, és 1 okot, miért.”
   2. 5–20’ – Játék-lab 1: 1–2 játék kipróbálása, gyorsteszt: melyik korosztály, mi a cél, mi a rizikó.
   3. 20–35’ – Játék-lab 2: új játék / variáció, most hangsúlyosan inkluzivitás-szemüveggel.
   4. 35–45’ – Zárókör: „Egy játék-szempont, amire mostantól figyelni akarok.”
 * **Kompetenciakapcsolat:**
   1. Eszköz–kvuca illesztés (korosztály-szemüvegek),
   2. Biztonság & inkluzivitás (kockázat- és variáció-kör),
-  5. Módszerválasztási döntés (játékok tudatos elemzése).
+  3. Módszerválasztási döntés (játékok tudatos elemzése).
 
 ***
 
@@ -125,11 +125,11 @@ A modul végére a madrich…
   * minden résztvevőnek legyen **egy első, használható játéklap-vázlata** (játék / történet / kézműves),
   * tudja kimondani: kinek szól (kvuca), mi a célja, milyen biztonsági és inkluzivitási szempontjai vannak,
   * gyakorolja az **SBI-alapú peer feedbacket**.
-* **Rövid percbontás-váz:**
-  1. 0–10’ – Recap: mi a játéklap minimum tartalma (cél, kvuca, leírás, eszközök, biztonság, inkluzivitás, variációk).
+* **Rövid percbontás-vázlat:**
+  1. 0–10’ – Felidézés: mi a játéklap minimum tartalma (cél, kvuca, leírás, eszközök, biztonság, inkluzivitás, variációk).
   2. 10–30’ – Műhelymunka: párok / kiscsoportok dolgoznak a saját játéklapon.
   3. 30–40’ – Mini-bemutatók: 2–3 játéklap rövid megosztása, SBI feedback-kör.
-  4. 40–45’ – Commit-kör: „Miben szeretném, hogy a saját játékom **biztonság & inkluzivitás szempontból** *dugma ishit* (személyes példamutatás) legyen?”
+  4. 40–45’ – Vállalás-kör: „Miben szeretném, hogy a saját játékom **biztonság & inkluzivitás szempontból** *dugma ishit* (személyes példamutatás) legyen?”
 * **Kompetenciakapcsolat:**
   2. Biztonság & inkluzivitás (konkrét sor a játéklapon),
   3. Történet mint nevelési eszköz (ha történetet választ),
@@ -148,8 +148,8 @@ A modul végére a madrich…
   2. Legalább **egy leckében érdemben halad** (pótlás, újranézés vagy játéklap finomítás).
   3. Le tud írni / mondani **leckénként 1 gondolatot és 1 kérdést**.
   4. Lát egy egyszerű **fogalom-térképet** az M6 modulról (játék – történet – kézműves – inkluzivitás – biztonság – játéklap).
-* **Rövid percbontás-váz:**
-  1. 0–5’ – Check-in: ki melyik leckénél tart, kinek milyen állapotban van a játéklap-váz.
+* **Rövid percbontás-vázlat:**
+  1. 0–5’ – Ráhangolódás: ki melyik leckénél tart, kinek milyen állapotban van a játéklap-váz.
   2. 5–25’ – Csendes pótlás fülessel: hiányzó Moodle / H5P leckék, Branching Scenario, játéklap-váz finomítása, „1 gondolat, 1 kérdés” jegyzeteléssel.
   3. 25–40’ – Kérdések + fogalom-térkép: közös tisztázás a kulcsfogalmakról.
   4. 40–45’ – Híd a normál peulára: mondatbefejezés – „Legközelebb, amikor játékot / történetet / kézművest választok, figyelni szeretnék arra, hogy…”.
@@ -159,7 +159,7 @@ A modul végére a madrich…
 
 ## 6. Kapuk
 
-* **Kaputípus:** éles kapu (mastery gate) – módszerválasztás és játékvezetés közvetlenül érinti a chanichok **biztonságát és inkluzivitás élményét**.
+* **Kaputípus:** éles kapu (mastery-kapu) – módszerválasztás és játékvezetés közvetlenül érinti a chanichok **biztonságát és inkluzivitás élményét**.
 
 > **A kapu súlyozása:** a modul nonformális és produktum-alapú, ezért az **éles, blokkoló kapu a játéklap-rubrika (6.2)** – itt a **Biztonság** és **Inkluzivitás** sor a valódi tét. A **szcenárió-kvíz (6.1) formatív/diagnosztikus** előkészítő: felkészít és jelez, de **nem blokkol**. Ez összhangban van az M6.4 Branching divergens logikájával („nincs egyetlen jó megoldás”). A mérvadó kapu-logika a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) él.
 
@@ -185,12 +185,12 @@ A modul végére a madrich…
   1. **R1 – Cél-illeszkedés** – világos-e, mit tanít / mire való az eszköz; **„erős” szinten 1 mondatban a someres értékhez (kvuca, egalitás, társadalmi felelősség) is kapcsolódik**.
   2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (6–10 / 11–13 / 14–16 / 16+) + létszámot, és életkorilag védhető-e az eszköz**; **„erős” szinten megnevezi a someres kvuca-típust (Parparim / Kivsza / Leviatan / Zorea) + legalább 1, az M3.2-ben tanult korosztály-jellemzőt (figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) előhívva indokol**.
   3. **R3 – Leírás végrehajthatósága** – érthető-e a folyamat, időkeret, lépések, eszközök; **egy másik madrich el tudná-e indítani**.
-  4. **R4 – Biztonság** *(**hard-gate**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / consent biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyermekvédelem & safety keret M6-os, eszközspecifikus rétege [consent / fizikai / trigger]; M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyermekvédelem & safety** (R4) sorba.)*
+  4. **R4 – Biztonság** *(**hard-gate**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyermekvédelem & biztonsági keret M6-os, eszközspecifikus rétege [beleegyezés / fizikai / felkavaró tartalom]; M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyermekvédelem & biztonság** (R4) sorba.)*
   5. **R5 – Inkluzivitás** *(**hard-gate**)* – van-e legalább 1 nevezett akadály **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz.
 * **Követelmény:**
   * rubrikában min. „oké” (2) szint **minden sorban**,
   * **a Biztonság (R4) ÉS az Inkluzivitás (R5) sor egyaránt hard-gate**: ha **bármelyik** nem éri el az „oké” szintet → javítás kötelező (mentorral / staffal egyeztetve), a többi sortól függetlenül.
-* **Ki dönt a hard-gate-en (peer↔mentor felelősség-határ):** ha a kapu **Workshop-módban (peer-pontozással)** fut, a peer-pontozás **fejlesztő és kalibráló**; a **Biztonság (R4)** és **Inkluzivitás (R5)** hard-gate **blokkoló döntését** és a **„javításra megy”** kimenetet **mindig mentor / staff hozza meg** – a peer-pontszám önmagában **nem zár le és nem buktat safety-soron**. (Részletes peer+staff kalibráció a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).)
+* **Ki dönt a hard-gate-en (peer↔mentor felelősség-határ):** ha a kapu **Workshop-módban (peer-pontozással)** fut, a peer-pontozás **fejlesztő és kalibráló**; a **Biztonság (R4)** és **Inkluzivitás (R5)** hard-gate **blokkoló döntését** és a **„javításra megy”** kimenetet **mindig mentor / staff hozza meg** – a peer-pontszám önmagában **nem zár le és nem buktat biztonsági soron**. (Részletes peer+staff kalibráció a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).)
 
 ### Minimális teljesítés (M6 complete)
 
@@ -200,7 +200,7 @@ Az M6 akkor **complete**, ha mindhárom teljesül:
 2. **Leadott játéklap, amely eléri a KAPU-rubrika küszöbét:** minden sor ≥ „oké” (2), és az **R4 Biztonság + R5 Inkluzivitás hard-gate teljesül**. Üres / deklaráció-szintű biztonsági vagy inkluzivitási mező = a sor 1 → **nem „complete”**.
 3. A **szcenárió-kvíz (6.1) formatív** – ajánlott (≥80% önellenőrző cél), **nem feltétel**.
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának. Az M7 Peula v2-ben ez emelhető be az **élmény-blokkba (rubrika R3)**; a játéklap **eszközspecifikus biztonsági megjegyzései** (pl. stop-jelszó, consent, „nem valós szerepet játszunk le”) a Peula v2 **R4 (Gyermekvédelem & safety)** sorának konkrét építőkövei – az M3 általános red-flag-kerete mellé –, az **inkluzivitási variációk** pedig az **R5 (Inkluzivitás)** sorát töltik meg. Mindkettő tovább él a Zmán Kvucá-checklist **hozzáférhetőség & inkluzivitás** és **gyermekvédelem & határok** sorában is. *(A pontos beépülést az [M7 – KAPU](../M7/M7%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) §CAPSTONE M6-sora rögzíti.)*
+> **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának. Az M7 Peula v2-ben ez emelhető be az **élmény-blokkba (rubrika R3)**; a játéklap **eszközspecifikus biztonsági megjegyzései** (pl. stop-jelszó, beleegyezés, „nem valós szerepet játszunk le”) a Peula v2 **R4 (Gyermekvédelem & biztonság)** sorának konkrét építőkövei – az M3 általános red-flag-kerete mellé –, az **inkluzivitási variációk** pedig az **R5 (Inkluzivitás)** sorát töltik meg. Mindkettő tovább él a Zmán Kvucá-checklist **hozzáférhetőség & inkluzivitás** és **gyermekvédelem & határok** sorában is. *(A pontos beépülést az [M7 – KAPU](../M7/M7%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) §CAPSTONE M6-sora rögzíti.)*
 
 ## 7. Learning analytics a modul szintjén – mit nézzen a stáb?
 
@@ -212,11 +212,11 @@ Az M6 akkor **complete**, ha mindhárom teljesül:
   * M6.3: hányan jelölnek be inkluzivitási kockázatot a kézműveseknél.
 * **Szcenárió-kvíz eredmények (formatív/diagnosztikus jelzés):**
   * mely döntési pontoknál hibáznak sokan (pl. túl komplex játék fiatalabb kvucának, inkluzivitás figyelmen kívül hagyása),
-  * ha a résztvevők >30%-a **nem éri el a 80%-ot** pár próbálkozás után → extra online recap + M6.F ajánlás **a játéklap leadása előtt** (felkészítés, nem kapuzás).
+  * ha a résztvevők >30%-a **nem éri el a 80%-ot** pár próbálkozás után → extra online ismétlés + M6.F ajánlás **a játéklap leadása előtt** (felkészítés, nem kapuzás).
 * **Játéklap-rubrika (éles kapu):**
   * hány játéklap ér el minimum „oké” szintet,
   * külön figyelni a „Biztonság & inkluzivitás” sorra – ha sok a gyenge lap, külön workshop „inkluzív játékok & kézművesek” témában.
-* **Thresholdok / beavatkozási pontok:**
+* **Küszöbök / beavatkozási pontok:**
   * ha a résztvevők >30%-a nem éri el a 80%-ot a **formatív** szcenárió-kvízen → célzott támogatás / felzárkóztatás a játéklap előtt,
   * ha a játéklapok >25%-ánál gyenge a „Biztonság & inkluzivitás” sor → extra workshop, illetve egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**.
 
