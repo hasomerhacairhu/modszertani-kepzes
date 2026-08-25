@@ -164,6 +164,7 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 1. Z.1–Z.3 mikroleckék activity completion (ajánlottan a peula előtt).
 2. Z.A záró peula (offline).
 3. Z.4 leadott záró reflexió + benne next step cél(ok) (a peula után).
+4. **2. félév – terepgyakorlat:** 6 valódi, 60–90 perces peula, megfigyelés → feedback → reflexió → javítás ciklusban (lásd `Terepgyakorlat – 2. félév.md`). A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes.
 4. (Erősen ajánlott) feedback-űrlap kitöltése.
 
 ***

@@ -32,6 +32,8 @@ A hat alkalomból legalább:
 
 **Nem pontozzuk** a chanichok „engedelmességét”, a hangulatot önmagában vagy azt, hogy minden terv szerint történt-e. A kompetencia része az adaptáció.
 
+> **Skála-megjegyzés (nyitott szervezeti döntés):** a 0–2 skála a repo többi kapurubrikájával egyezik (M1–M7 mind 3 szintű, 0/1/2). Az intake ugyanakkor programszintű célként **„rubrika átlag ≥ 4/5”**-öt rögzített. A két skála **megfeleltetése szervezeti döntés** — vagy a field-rubrika áll át 5 fokozatúra, vagy a KPI-t kell a 0–2 skálára átszámolva definiálni. Amíg ez nincs eldöntve, a field-rubrika nem használható a KPI riportálására.
+
 ## Programeredmény
 
 - **Online-complete:** M0–M7 + Z és a kapuk teljesültek.

@@ -155,6 +155,10 @@ Opciók:
 
 > **1. saját cél – a Peula v2-d éles bevetése**
 
+> 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál — **terv → levezetés → megfigyelés → feedback → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrich **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán.
+>
+> Vagyis a Peula v2 nem a végállomás, hanem az **első bevetésed alapanyaga**. A pontos naptárt, a mentor-hozzárendelést és a dokumentálás formáját a képződ mondja meg; a keretet a `Terepgyakorlat – 2. félév` dokumentum írja le.
+
 > Emlékszel a **Peula v2-dre**, amit az M7-ben raktál össze? Itt az ideje, hogy a papírról a terepre lépjen.
 
 > 🔁 Az **M7-ben a Peula v2-d mellé már leadtál egy kipróbálási tervet** (mikor / melyik Zmán Kvucán + 1 várható akadály → **ha–akkor** megkerülés). **Vedd most elő** – itt nem nulláról kezded, hanem **a tényleges első Zmán Kvucádra finomítod / aktualizálod** ugyanazt az egy vállalást.
