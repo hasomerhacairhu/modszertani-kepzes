@@ -53,7 +53,9 @@ for (const g of dgroups) dupMembers += Math.max(0, (new Set(g.memberIds || [])).
 stats.unique = stats.total - dupMembers
 stats.duplicates = dupMembers
 
-const today = new Date().toISOString().slice(0, 10)
+// Reproducibility: allow the generation date to be pinned so a rebuild can be
+// byte-compared against the committed artefact (e.g. MEDIA_BUILD_DATE=2026-08-25).
+const today = process.env.MEDIA_BUILD_DATE || new Date().toISOString().slice(0, 10)
 const esc = s => (s == null ? '' : String(s)).replace(/&amp;/g, '&').replace(/\r?\n+/g, ' ').replace(/\|/g, '∕').replace(/\s+/g, ' ').trim()
 const cell = s => esc(s) || '—'
 function provBucket(p) {

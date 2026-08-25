@@ -45,7 +45,13 @@ Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gy
 1. **`format-media.js`** `media-merged.json` → `Média-asset regiszter.md`
 2. **`build-data.py`** `media-merged.json` → `.xlsx` + 3 `.csv` (openpyxl szükséges)
 
-Mindkettő **determinisztikus**: kétszeri futtatásra a `.md` és a három `.csv` bitre azonos. (Az `.xlsx` egyetlen belső mezője, a `docProps/core.xml` időbélyege futásonként eltér — a munkalapok tartalma azonos.)
+Mindkettő **determinisztikus**: kétszeri futtatásra a három `.csv` bitre azonos, és a `.md` is az, ha a generálási dátumot rögzíted:
+
+```bash
+MEDIA_BUILD_DATE=2026-08-25 node "_build/format-media.js" "Média-asset regiszter.md" "_build/media-merged.json"
+```
+
+Enélkül a `.md` fejlécében a „Generálva” dátum a mai napra frissül — ez az egyetlen, szándékos eltérés. Az `.xlsx`-nél a `docProps/core.xml` időbélyege tér el futásonként; a munkalapok tartalma azonos.
 
 > A `.csv`-k a több soros idézett mezőkben szándékosan CRLF-et tartalmaznak, mert a generátor ezt írja. A repo `.gitattributes`-ban `*.csv -text`, hogy ezt semmi ne normalizálja — különben minden regenerálás ál-diffet okoz.
 

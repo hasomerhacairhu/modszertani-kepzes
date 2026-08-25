@@ -1,6 +1,6 @@
 # 🎬 Média-asset regiszter — Hasomer Hacair madrich-képzés
 
-> Generálva: **2026-08-24** · Forrás: `02 Tervezet/` · Módszer: per-fájl kinyerés → **2 független validáló kör** → típus-bucket **dedup** → **5 dimenziós audit**. 
+> Generálva: **2026-08-25** · Forrás: `02 Tervezet/` · Módszer: per-fájl kinyerés → **2 független validáló kör** → típus-bucket **dedup** → **5 dimenziós audit**. 
 >
 > **Mi ez?** A teljes leltár MINDEN legyártandó média-assetről (narráció, AI beszélő-fej videó, animált diagram, illusztráció, ikon, fotó, hang) és a hozzájuk tartozó **szöveges ekvivalensekről** (felirat, leirat, alt-szöveg) + a **print/fizikai** anyagokról. Minden sor **visszautal** a forrásfájlra, slide-ra és sorra — a teljes verbatim szöveg ott él; ez a *legyártandó* leltár.
 >
