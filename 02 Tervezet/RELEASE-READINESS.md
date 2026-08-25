@@ -16,7 +16,7 @@ A tananyag minősége és a release-érettség két külön kérdés. A reposito
 
 ## Modul-specifikus kapuk
 
-Egy modul tartalmi jóváhagyása lehet moduláris **csak akkor**, ha G1–G7 globális kapuk már zártak. Egy modul saját szakmai/ideológiai lektorálása blokkolhatja csak azt a modult, de globális biztonsági/adatvédelmi/infrastrukturális hiányában **semmilyen modul nem élesíthető tanulóknak**.
+Egy modul tartalmi jóváhagyása lehet moduláris **csak akkor**, ha G1–G7 globális kapuk már zártak. Egy modul saját szakmai/ideológiai lektorálása blokkolhatja csak azt a modult, de globális biztonsági, adatvédelmi vagy infrastrukturális feltételek hiányában **semmilyen modul nem élesíthető tanulóknak**.
 
 ## Program-transzfer
 
