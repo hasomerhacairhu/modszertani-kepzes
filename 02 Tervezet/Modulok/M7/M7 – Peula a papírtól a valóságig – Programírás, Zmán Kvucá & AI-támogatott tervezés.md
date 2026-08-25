@@ -118,16 +118,16 @@ A modul végére a madrich…
 
 ***
 
-### M7.4 – „Peula v2 + AI” – modulproduktum váz (15–20’)
+### M7.4 – „Peula v1 + AI” – első modulproduktum-vázlat (15–20’)
 
 * **Cél:**
-  Előkészíteni a modul produktumát: 1 **Peula v2 vázlatot** és a hozzá tartozó **Zmán Kvucá-operáció** alapjait.
+  Előkészíteni a modul produktumát: 1 **Peula v1 vázlatot** és a hozzá tartozó **Zmán Kvucá-operáció** alapjait.
 * **Programírás-fókusz:**
   „A végén legyen egy peula, amit **tényleg meg tudnál tartani** – nem csak papíron néz ki jól.”
 * **Eszközök:** H5P **Column / Course Presentation** + Moodle **Assignment** („Peula v1 – első vázlat” – formatív, még nem kapu).
 * **Tartalom röviden:**
   * Recap: 3 építőkocka összekapcsolása (SMART cél – Peula 11 pontja – Zmán Kvucá-checklist).
-  * Vezetett kérdések a saját Peula v2-hez:
+  * Vezetett kérdések a saját Peula v1-hez:
     * kvuca-típus, korosztály, kvuca-meta,
     * SMART nevelési cél,
     * 3–4 fókuszpont a Peula 11 közül (pl. Élmény-blokk, Feldolgozás, Safety).
