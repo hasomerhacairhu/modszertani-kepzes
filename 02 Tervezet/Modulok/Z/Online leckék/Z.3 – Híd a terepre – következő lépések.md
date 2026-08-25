@@ -8,7 +8,7 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, mobil-first)
-* Beágyazott kérdéstípusok: Single Choice, Fill in the Blanks / Short Answer, esetleg Multi Choice
+* Beágyazott kérdéstípusok: Single Choice, Fill in the Blanks / rövid szöveges válasz, esetleg Multi Choice
 
 **Mikrocél (tanulói nyelven):**
 
@@ -178,9 +178,9 @@ Opciók:
 
 > Fontos: legyen **valóságos**, amit beírsz – olyan terv, amit tényleg el tudsz képzelni magad előtt a kvucáddal.
 
-**Beágyazott kérdés – Short Answer / Fill-in jelleg (KÖTELEZŐ)**
+**Beágyazott kérdés – rövid szöveges válasz / Fill in the Blanks jelleg (KÖTELEZŐ)**
 
-**Short Answer** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály ha–akkor formában).
+**Rövid szöveges válasz** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály ha–akkor formában).
 
 Placeholder:
 `A következő 3 Zmán Kvucámon **a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...**`
@@ -206,7 +206,7 @@ Placeholder:
 
 > Itt is az a cél, hogy **kicsi, de konkrét** lépést írj le.
 
-**Beágyazott kérdés – Short Answer**
+**Beágyazott kérdés – rövid szöveges válasz**
 
 Placeholder:
 `A következő hónapban **minden peula után** ...`
@@ -231,7 +231,7 @@ Placeholder:
 
 > **„Elmondom a Peula v2-tervemet annak a konkrét mentoromnak vagy kijelölt tapasztalt madrichnak, akit név szerint ide beírok, és ha elakadok / közbejön az akadály, tőle kérek segítséget.”**
 
-**Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
+**Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
 1 rövid mező, 1–3 mondat – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **kinek** mondod el, és **ha**–**akkor** miben kéred a támogatását a Peula v2 lefuttatásánál.
 
@@ -248,7 +248,7 @@ Placeholder:
 
 > **„Az első éles Zmán Kvucám előtt a Moodle-kurzusban és a helyi protokollban ellenőrzöm a kijelölt gyermekvédelmi felelős és helyettes **nevét + elérhetőségét**, és felírom magamnak. Ha ez nincs egyértelműen megadva, nem vezetek önállóan éles foglalkozást, hanem jelzem a képzőnek.”**
 
-**Beágyazott kérdés – Short Answer (KÖTELEZŐ)**
+**Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
 1 rövid mező – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **ki** a gyermekvédelmi felelős (vagy kit kérdezel meg róla) és **kinek jelzel** ebben az esetben. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy a terepen megtudd; lásd M0.A → M3.3.)*
 
@@ -271,7 +271,7 @@ Placeholder:
 > – Ha **igen**: szuper, jó irányban vagy.
 > – Ha **nem**, akkor próbáld meg **még 1 kicsit konkrétabbra húzni** az egyik mondatot (pl. „pontosan mikor”, „pontosan mivel”, „pontosan kivel?”).
 
-**Beágyazott kérdés – Single Choice + Short Answer (opcionális)**
+**Beágyazott kérdés – Single Choice + rövid szöveges válasz (opcionális)**
 
 Single Choice:
 
@@ -292,4 +292,4 @@ Opciók:
 * Nem:
   > „Teljesen oké – inkább most derüljön ki. Nyugodtan lépj vissza 1–2 diát, és írd át úgy, hogy **konkrétabb és reálisabb legyen, és tényleg elhidd**, hogy meg tudod csinálni.”
 
-(Opcionálisan alul: mini Short Answer – „Ha szeretnél, 1 szóban írd le, milyen érzés most ezekkel a célokkal a terepre gondolni.” – de ez már extra.)
+(Opcionálisan alul: mini szöveges válasz – „Ha szeretnél, 1 szóban írd le, milyen érzés most ezekkel a célokkal a terepre gondolni.” – de ez már extra.)

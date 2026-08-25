@@ -49,7 +49,7 @@ A modul végére a résztvevő…
 ### Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim (10–15’)
 
 * **Cél:** azonosítani **konkrét tanulási pillanatokat**.
-* **Eszközök:** H5P Column (példasztorik), Likert / multichoice, Essay / Short Answer.
+* **Eszközök:** H5P Column (példasztorik), Likert / multichoice, szöveges válasz.
 * **Kulcskérdések:**
   – „Nevezz meg 1 pillanatot, amikor úgy érezted: *na, most tanultam valamit magamról / a kvucámról*.”
   – „Volt-e modul, amit nehéznek éltél meg? Mit mond ez rólad?”
@@ -60,7 +60,7 @@ A modul végére a résztvevő…
 ### Z.3 – „Híd a terepre” – következő lépések (10–15’)
 
 * **Cél:** jövőre néző, **konkrét lépések** megfogalmazása a terepre.
-* **Eszközök:** Page / Presentation a „small steps” logikáról, H5P Fill in the Blanks / Short Answer sablon mondatokkal.
+* **Eszközök:** Page / Presentation a „small steps” logikáról, H5P Fill in the Blanks vagy rövid szöveges válasz sablon mondatokkal.
 * **Általánosító lépés (a konkrét pillanattól a konkrét lépésig):** mielőtt next stepet írnál, fogalmazz meg a Z.2-ben felidézett pillanatból **1 általános elvet** – pl. „**Megtanultam, hogy amikor …, akkor jobb, ha …**” –, olyan tanulságot, ami **nem csak azon az egy peulán, hanem MÁS kvucáknál is igaz**. A next step ehhez az elvhez kötődjön, hogy a terepi transzfer ne maradjon esemény-specifikus.
 * **Példamondatok:**
   – „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”

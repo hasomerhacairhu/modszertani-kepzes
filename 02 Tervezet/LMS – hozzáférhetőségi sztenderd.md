@@ -57,9 +57,16 @@
 
 ## 6. H5P Essay és önreflexiók
 
-- Önreflexióknál a H5P **Essay** content type (vagy Moodle szöveges mező) **completion-alapú** beállítással kerüljön be: **kulcsszó-pontozás kikapcsolva**.
+- **Megnevezés (kánoni szabály).** A specifikációban **ne nevezz meg nem létező H5P content type-ot**. A hivatalos H5P listában **nincs „Short Answer”** — szabad szöveges beviteli típusként az **Essay**, illetve kötött kitöltésre a **Fill in the Blanks** létezik. Ezért a tananyagban a pedagógiai igényt írjuk le magyarul: **„rövid szöveges válasz”**, illetve **„hosszabb szöveges reflexió”** — és a konkrét megvalósítást a build dönti el az alábbi szabály szerint.
+- ⚠️ **Szabad szöveg és Course Presentation — igazolt korlát.** A H5P hivatalos válasza szerint az **Essay NEM adható hozzá Course Presentationhöz**; a megnevezett támogatott alternatíva az **Interactive Book**, amely az Essay-t alcontentként kezeli. Ezért **egyetlen lecke sem tekintheti bizonyítottnak**, hogy egy Course Presentation dián belül szabad szöveges mező jelenik meg.
+- **A megvalósítás három megengedett útja** (a választás a cél Moodle/H5P verzión, acceptance-teszttel dől el — lásd `LMS – H5P runtime acceptance.md`):
+  1. **Moodle-oldali szövegmező** a lecke mellett (Assignment online text vagy Quiz esszé-kérdés) — ez a legkevésbé kockázatos, és a hosszabb reflexióknál (pl. Z.4) ez a kánoni út;
+  2. **H5P Essay** ott, ahol a befoglaló content type ezt igazoltan támogatja (pl. Interactive Book);
+  3. **Fill in the Blanks**, ha a válasz ténylegesen kötött (sablonmondat kiegészítése).
+- Önreflexióknál a szöveges mező **completion-alapú** beállítással kerüljön be: **kulcsszó-pontozás kikapcsolva** (H5P Essay esetén a keyword-alapú pontozás nem használandó értékelésre).
 - Így nem keletkezik téves pontszám ott, ahol a cél a „megcsinálta / nem csinálta meg" completion, nem az értékelés.
-- Megnevezésnél ne használd a „Short Answer" megfogalmazást önálló H5P típusként — a hivatalos content type neve **Essay**. (A félreérthető „Essay / Short Answer" megnevezés helyett írd egyértelműen, melyik kerül be.)
+
+> *(Forrás: h5p.org hivatalos content type lista — „Short Answer” nem szerepel; H5P staff válasza (2025-02-27): „Essay has not been added to Course Presentation… you add Essay in Interactive Book which can function similarly.” A cél Moodle/H5P verzió rögzítése továbbra is release blocker.)*
 
 ### KAPUS H5P „pre-flight" checklist
 

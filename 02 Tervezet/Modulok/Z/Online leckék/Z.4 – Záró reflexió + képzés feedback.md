@@ -34,7 +34,7 @@
 
 ***
 
-## 2. Moodle-intro (H5P előtt)
+## 2. Moodle-intro (a beadandó előtt)
 
 **Moodle-oldal / Label – a H5P előtt**
 
@@ -347,16 +347,16 @@ Ha nagyon hiányos / alibi:
    > b) **Ez fejlődési út volt, nem vizsga.**
    > c) **Számított a hangom** (a kérdéseim, visszajelzéseim eljutottak valahova).
    >
-   > *(Kísérő Short Answer, opcionális):* „Hol hiányzott ezekből valami?”
+   > *(Kísérő rövid szöveges válasz, opcionális):* „Hol hiányzott ezekből valami?”
 3. **Hasznos modulok** – Multi Choice (több válasz jelölhető)
    > „Melyik modul(oka)t élted meg **a leghasznosabbnak**?” (M0–M7 listázva)
 4. **Terhelés** – Single Choice
    > „Hogyan élted meg a félév összterhelését (online + offline)?” – Túl kevés / pont elég / néha sok / túl sok
-5. **Mi segített a legjobban?** – Short Answer
+5. **Mi segített a legjobban?** – rövid szöveges válasz
    > „Mi volt az az 1–2 dolog (modul, peula, módszer, ember), ami **a legtöbbet segített** neked madrichként?”
-6. **Mi volt nehéz / túl sok?** – Short Answer
+6. **Mi volt nehéz / túl sok?** – rövid szöveges válasz
    > „Mi volt számodra a **legnehezebb** része ennek a félévnek?”
-7. **Javaslat a jövőre** – Short Answer
+7. **Javaslat a jövőre** – rövid szöveges válasz
    > „Ha egy dolgot változtathatnál a képzésen jövőre, **mi lenne az?**”
 
 ### Beállítás-javaslatok

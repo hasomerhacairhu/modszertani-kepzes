@@ -8,7 +8,7 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, mobil-first)
-* Beágyazott kérdéstípusok: Single Choice, Likert-szerű Single Choice, Essay, Short Answer
+* Beágyazott kérdéstípusok: Single Choice, Likert-szerű Single Choice, szöveges válasz
 
 **Mikrocél (tanulói nyelven):**
 
@@ -275,7 +275,7 @@ Opciók:
 
 > Írd le őket egymás után, vesszővel vagy sortöréssel elválasztva.
 
-**Beágyazott kérdés – Short Answer**
+**Beágyazott kérdés – rövid szöveges válasz**
 
 * 1 rövid szövegmező (3–5 szó bőven elfér).
 

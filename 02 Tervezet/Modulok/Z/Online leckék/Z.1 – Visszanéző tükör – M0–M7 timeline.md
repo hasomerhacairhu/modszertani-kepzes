@@ -270,7 +270,7 @@ H5P: **Essay** – minimális karakterszámmal (pl. 200 karakter).
 
 #### Mit látunk?
 
-* Rövid összegző bullet + 1 rövid Short Answer mező.
+* Rövid összegző bullet + 1 rövid szöveges válasz mező.
 
 #### Szöveg a dián:
 
@@ -287,7 +287,7 @@ H5P: **Essay** – minimális karakterszámmal (pl. 200 karakter).
 
 > Ez lehet egy mondat, egy kép, egy érzés vagy egy döntés is, amit magaddal viszel.
 
-H5P: **Short Answer** (vagy Essay, de max. 1 mondatot kérünk).
+**Rövid szöveges válasz** (max. 1 mondatot kérünk).
 
 Opcionális narráció (20–30 mp):
 
