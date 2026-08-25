@@ -329,7 +329,14 @@ Ez használható **flyerre, szülőknek, vezetőknek**:
 
 ## 9. Élesítés előtti compliance gate (kötelező, program-szintű aláírólista)
 
-> **Vezérelv.** **A program tartalma csak akkor élesedhet a tanulók felé, ha az alábbi, egyetlen aláírólista MINDEN sora ki van töltve és aláírva. Ez nem tanulói kapu (vö. §5), hanem program-szintű, élesítés előtti governance-kapu: amíg egyetlen sor is nyitott (`[...]` paraméter, hiányzó név vagy aláírás), addig EGYETLEN modul (M0–M7 + Z) sem kerülhet ki éles felhasználásra. A felelős a stáb / képzésvezető; a lista kitöltése a §4 fejlesztői checklistjeire és a KAPU D-sablonra (D8.4) támaszkodik, nem ismétli meg azokat.**
+> **Vezérelv.** **A program tartalma csak akkor élesedhet a tanulók felé, ha az alábbi aláírólista rá vonatkozó sorai ki vannak töltve és aláírva.** Ez nem tanulói kapu (vö. §5), hanem program-szintű, élesítés előtti governance-kapu. A felelős a stáb / képzésvezető; a lista kitöltése a §4 fejlesztői checklistjeire épül.
+>
+> **Két szint — ezt ne mosd össze (a kánoni Go/No-Go dokumentum a [`RELEASE-READINESS.md`](./RELEASE-READINESS.md)):**
+>
+> 1. **Globális blokkoló:** a gyermekvédelmi, adatvédelmi, accessibility- és LMS/H5P-infrastruktúra kapuk (RELEASE-READINESS G1–G7), valamint az alábbi lista **8. sora** (program-szintű stáb-safeguarding). Amíg ezek bármelyike nyitott, **egyetlen modul sem élesíthető tanulóknak** — erre nem lehet „moduláris MVP”-re hivatkozva kivételt tenni.
+> 2. **Modul-specifikus blokkoló:** az alábbi 1–7. sorok **az adott modulra vonatkozó** része. Ezek csak azt a modult gátolják, amelyikre nyitva vannak; egy modul tartalmi/ideológiai lektorálása tehát blokkolhat egyetlen modult anélkül, hogy a többit is megállítaná — **de csak akkor, ha a globális kapuk már zártak**.
+>
+> A modul-mátrix (lent) ezt a második szintet követi soronként.
 
 | # | Mit kell rögzíteni (élesítés feltétele) | Forrás / hol töltöd ki | Felelős (név) | Aláírás + dátum |
 | --- | --- | --- | --- | --- |
