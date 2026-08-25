@@ -65,7 +65,7 @@ A helyi Somer / ken erősítse meg:
 ## Dokumentált, elfogadott reziduumok (NEM hiba, tudatos megállás)
 
 - **Lecke-beágyazott kvízek hossz-cue:** a 6 KAPU-bank (éles kapuk) + a lecke-kvízek javítva (a helyes válasz már sehol nem a szigorúan leghosszabb); a **kulcsok igazoltan változatlanok**. Ahol az M3-KAPU safeguarding-itemje hosszabb, az **elkerülhetetlen** (a teljes, biztonságos válasz eleve hosszabb) — elfogadható.
-- **Peula módszer-paletta:** a mag érett és változatos; a **nagycsoportos önszervező dialógus** (fishbowl / world café / open space) **tudatosan NEM** került be (45' időkeret + önkéntes-stáb facilitációs teher). A fórum-színház (M3.B) és Living Library (M2.A) **opcionálisként**, facilitátor-kompetencia jegyzettel.
+- **Peula módszer-paletta:** a mag érett és változatos; a **nagycsoportos önszervező dialógus** (fishbowl / world café / open space) **tudatosan NEM** került be (45' időkeret + önkéntes-stáb facilitációs teher). **Frissítve (2026-08-25 follow-up):** a korábban itt „opcionálisként” jelölt **fórum-színház az M3.B-ből kikerült** – a modul kánoni és kötelező formátuma a **harmadik személyű esetelemzés**, szerepjáték nélkül (lásd `Gyermekvédelem – release gate.md`). Az M3.B opcionális „mondat-labor” mikroeleme **nem szerepjáték**: csak a madrich reakciómondatát mondják ki kívülről, és a gyermekvédelmi felelős engedélyéhez kötött.
 - **Sablon-konzisztencia (modalitás):** a #3 modalitás-pilot (M5.3 Dialog Cards, M2.3 Branching, Z.4 Documentation Tool) beépült; a teljes terv a `[[modality-variety-plan]]` memóriában.
 
 ---

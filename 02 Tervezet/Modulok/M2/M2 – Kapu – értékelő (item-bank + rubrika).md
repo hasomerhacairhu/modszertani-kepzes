@@ -101,7 +101,7 @@ Egy 12 éves chanichod késő este privátban ír: *„Senki nem ért meg. Minde
 - C) Nem válaszolsz neki, mert ez már nem a te dolgod, túl nagy teher, és nem egy madrich felelőssége ezt megoldani.
 - D) Megígéred neki, hogy ez kettőtök titka marad, magad próbálod megoldani, és felnőttet egyáltalán nem vonsz be.
 
-> **Feedback:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható felnőtt”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. self-check pontjánál.
+> **Feedback:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható madrich”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. self-check pontjánál.
 
 ### Item 6 – Mi az „idei vállalás”? (M2 integráció)
 

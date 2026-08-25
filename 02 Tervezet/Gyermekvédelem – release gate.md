@@ -19,6 +19,7 @@ A jelen repo biztonságos alapértelmezése: súlyos helyzeteket **harmadik szem
 | Jóváhagyó neve | KITÖLTENDŐ |
 | Jóváhagyás dátuma | KITÖLTENDŐ |
 | Következő review | KITÖLTENDŐ |
+| **One-to-one / safer working szabály** – mikor és milyen körülmények között maradhat képző vagy madrich kettesben egy kiskorúval (látótávolság, nyitott ajtó, második felnőtt, dokumentálás) | KITÖLTENDŐ |
 
 ## Tartalmi acceptance
 
@@ -28,7 +29,8 @@ A jelen repo biztonságos alapértelmezése: súlyos helyzeteket **harmadik szem
 - 15–17 éves madrichot nem pozicionáljuk egyedüli „felnőttként”;
 - súlyos esetnél nincs kötelező személyes disclosure;
 - telefonszám, hatósági út és jogszabály a review napján frissen ellenőrzött;
-- facilitátor tudja, mit tesz, ha a képzés közben résztvevő saját érintettséget tár fel.
+- facilitátor tudja, mit tesz, ha a képzés közben résztvevő saját érintettséget tár fel;
+- a tananyag **nem ír elő általános „négyszemközt” félrevonulást**: a megérintődött résztvevővel diszkrét, de **átlátható** helyzetben lehet beszélni, a helyi one-to-one szabály szerint.
 
 ## Elsődleges magyar források a szakértői review-hoz
 
