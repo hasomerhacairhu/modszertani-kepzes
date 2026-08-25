@@ -114,7 +114,7 @@ A modul végére a madrich…
 * **Kompetenciakapcsolat:**
   1. Eszköz–kvuca illesztés (korosztály-szemüvegek),
   2. Biztonság & inkluzivitás (kockázat- és variáció-kör),
-  3. Módszerválasztási döntés (játékok tudatos elemzése).
+  5. Módszerválasztási döntés (játékok tudatos elemzése).
 
 ***
 
