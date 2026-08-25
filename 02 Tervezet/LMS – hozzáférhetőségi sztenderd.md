@@ -8,14 +8,17 @@
 
 ## 1. Feliratozás és hangzó tartalom
 
-- **Minden narrált videóhoz és hangsávhoz** tartozzon felirat, VAGY a slide-on / slide-jegyzetben elérhető **teljes szöveges átirat**. (A H5P Course Presentation támogat slide-jegyzetet — használd erre.)
+- **Előre rögzített, szinkronizált videóhoz (kép + hang) FELIRAT kell** — a teljes szöveges átirat **nem helyettesíti** (WCAG 2.2 SC 1.2.2, A szint). A leirat emellett **erősen ajánlott** kiegészítés, és a szinkronizált média szöveges alternatívájaként külön szerepet is betölt (SC 1.2.3).
+- **Csak hangot tartalmazó** (video nélküli) előre rögzített tartalomnál elegendő a teljes szöveges átirat (SC 1.2.1).
+- **Hangalámondás / audio description (SC 1.2.5, AA):** ott kell megvizsgálni, ahol a képi sáv olyan információt hordoz, ami a hangban nem hangzik el. Ha a videó minden lényegi információja elhangzik a narrációban, külön hangalámondás nem szükséges — ezt leckénként el kell dönteni és rögzíteni.
+- (A H5P Course Presentation támogat slide-jegyzetet — a leirat oda kerüljön.)
 - A narráció **soha ne hordozzon kizárólag hangban elérhető információt**. Ha a hang önálló infót vagy hangulati keretet közöl, annak olvashatóan is meg kell jelennie a dián vagy a jegyzetben.
 - Ez az **opcionális** narrációra is vonatkozik: ha a narráció bekapcsolható, a tartalma akkor is legyen szövegesen elérhető.
-- Az **Interactive Video** minden jelenete legyen feliratozva.
+- Az **Interactive Video** minden jelenete legyen feliratozva; az interaktív pontok szövege is legyen elérhető képernyőolvasóval.
 - A videó-megnevezésnél írd ki explicit a `felirattal` kitételt (pl. „AI beszélő fej videó, 16:9, **felirattal**"), hogy a feliratozás minden videós leckében konzisztens legyen.
 - Mobil-first környezetben a felirat **nem extra, hanem alap** — siket/nagyothalló és néma-lejátszású (tömegközlekedés, mobil) felhasználók miatt.
 
-**Sablon-emlékeztető fejlesztőnek:** *minden narráció = felirat + a kulcsüzenet a slide-on is olvasható.*
+**Sablon-emlékeztető fejlesztőnek:** *szinkronizált videó = felirat (kötelező) + leirat (ajánlott) + a kulcsüzenet a slide-on is olvasható.*
 
 ## 2. Képek és vizuális elemek
 
@@ -86,7 +89,7 @@
 
 ## Gyors checklist fejlesztőnek
 
-- [ ] Minden narrált videó/hangsáv → felirat VAGY teljes szöveges átirat a slide-on/jegyzetben
+- [ ] Szinkronizált videó → **felirat** (kötelező, SC 1.2.2) + leirat a slide-jegyzetben (ajánlott); csak hangot tartalmazó anyagnál a teljes átirat elegendő (SC 1.2.1); a hangalámondás igénye (SC 1.2.5) leckénként megvizsgálva
 - [ ] Narráció nem hordoz kizárólag hangban elérhető infót
 - [ ] Interactive Video jelenetei feliratozva
 - [ ] Alt-szöveg minden screenshothoz/ikonhoz/grafikához
