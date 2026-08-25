@@ -5,7 +5,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-ROOT = "/Users/heymarcell/DEV/modszertani-kepzes/02 Tervezet/Média-assetek"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # …/02 Tervezet/Média-assetek
 SRCS = sys.argv[1:]
 if not SRCS:
     print("Használat: build-data.py <result1.json> [result2.json ...]"); sys.exit(1)

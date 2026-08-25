@@ -38,18 +38,28 @@ Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gy
 
 ## Reprodukció (`_build/`)
 
-A regiszter újra-generálható. A lánc:
+**A kánoni adat a `_build/media-merged.json`.** Ebből a regiszter minden kimenete bármikor újragenerálható.
 
-1. **`wf-media.js` + `wf-media-supp.js`** — a kinyerő workflow-k (74 fájl × kinyerés + 2 független validáló kör + dedup + 5-dim audit). Újrafuttathatók a `02 Tervezet/` korpusz ellen.
-2. **`merge-patch.py`** — összefésüli a workflow-outputokat, hozzáadja a 13 pótolt szöveges-ekvivalens sort, beírja a 61 diszpozíciót és az R1–R8 konvenciókat → **`media-merged.json`** (a kanonikus adat).
-3. **`format-media.js`** `media-merged.json` → `Média-asset regiszter.md`
-4. **`build-data.py`** `media-merged.json` → `.xlsx` + 3 `.csv` (openpyxl szükséges)
+**Élő, futtatható lépések:**
 
-Gyors újra-render a meglévő `media-merged.json`-ból:
+1. **`format-media.js`** `media-merged.json` → `Média-asset regiszter.md`
+2. **`build-data.py`** `media-merged.json` → `.xlsx` + 3 `.csv` (openpyxl szükséges)
+
+Mindkettő **determinisztikus**: kétszeri futtatásra a `.md` és a három `.csv` bitre azonos. (Az `.xlsx` egyetlen belső mezője, a `docProps/core.xml` időbélyege futásonként eltér — a munkalapok tartalma azonos.)
+
+> A `.csv`-k a több soros idézett mezőkben szándékosan CRLF-et tartalmaznak, mert a generátor ezt írja. A repo `.gitattributes`-ban `*.csv -text`, hogy ezt semmi ne normalizálja — különben minden regenerálás ál-diffet okoz.
+
+**Történeti, már NEM futtatható lépések** (a `media-merged.json` ezek kifagyasztott eredménye; megőrzésük dokumentációs célú):
+
+* **`wf-media.js` + `wf-media-supp.js`** — az eredeti kinyerő workflow-k. A bennük bedrótozott fájllista a **2026-06 előtti** könyvtárszerkezetre hivatkozik (`MODULOK/`, `Mx_ONLINE_LECKE/`), ezért a jelenlegi korpusz ellen nem futnak.
+* **`merge-patch.py`** — a workflow-outputokat fésülte össze; efemer `/tmp` bemenetekből dolgozott, amelyek már nincsenek meg.
+* **`wf-verbatim.js`, `gen-verbatim-wf.py`, `merge-verbatim.py`** — a verbatim-oszlop előállításának egyszeri lánca.
+
+Ha a kinyerést valaha újra kell futtatni, a fájllistát a jelenlegi `02 Tervezet/Modulok/` szerkezetre kell átírni.
+
+Gyors újra-render a meglévő `media-merged.json`-ból (a `Média-assetek/` mappából futtatva):
 
 ```bash
 node "_build/format-media.js" "Média-asset regiszter.md" "_build/media-merged.json"
 python3 "_build/build-data.py" "_build/media-merged.json"
 ```
-
-> Megjegyzés: a `merge-patch.py` a kinyerő workflow-k efemer (/tmp) outputjaiból dolgozik; ha azok már nincsenek meg, a `media-merged.json` a forrás — abból a 3. és 4. lépés bármikor újrafuttatható.
