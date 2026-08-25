@@ -337,37 +337,39 @@ Ez használható **flyerre, szülőknek, vezetőknek**:
 >
 > **Két szint — ezt ne mosd össze (a kánoni Go/No-Go dokumentum a [`RELEASE-READINESS.md`](./RELEASE-READINESS.md)):**
 >
-> 1. **Globális blokkoló:** a gyermekvédelmi, adatvédelmi, accessibility- és LMS/H5P-infrastruktúra kapuk (RELEASE-READINESS G1–G7), valamint az alábbi lista **8. sora** (program-szintű stáb-safeguarding). Amíg ezek bármelyike nyitott, **egyetlen modul sem élesíthető tanulóknak** — erre nem lehet „moduláris MVP”-re hivatkozva kivételt tenni.
-> 2. **Modul-specifikus blokkoló:** az alábbi 1–7. sorok **az adott modulra vonatkozó** része. Ezek csak azt a modult gátolják, amelyikre nyitva vannak; egy modul tartalmi/ideológiai lektorálása tehát blokkolhat egyetlen modult anélkül, hogy a többit is megállítaná — **de csak akkor, ha a globális kapuk már zártak**.
+> 1. **Globális blokkoló:** a `RELEASE-READINESS.md` **G1–G7** kapui, valamint az alábbi lista **`GLOBÁLIS` szintű sorai (1–4. és 8.)**. Amíg ezek bármelyike nyitott, **egyetlen modul sem élesíthető tanulóknak** — erre nem lehet „moduláris MVP”-re hivatkozva kivételt tenni.
+> 2. **Modul-specifikus blokkoló:** az alábbi lista **`modul` szintű sorai (5–7.)**, az adott modulra vonatkozóan. Ezek csak azt a modult gátolják, amelyikre nyitva vannak — **de csak akkor értelmezhetők, ha a globális kapuk már zártak**.
 >
-> A modul-mátrix (lent) ezt a második szintet követi soronként.
+> Ütközés esetén a `RELEASE-READINESS.md` az irányadó; az alábbi lista annak részletező, aláírható munkapéldánya. A modul-mátrix (lent) kizárólag a **második** szintet követi soronként.
 
-| # | Mit kell rögzíteni (élesítés feltétele) | Forrás / hol töltöd ki | Felelős (név) | Aláírás + dátum |
+| # | Szint | Mit kell rögzíteni (élesítés feltétele) | Forrás / hol töltöd ki | Felelős (név) | Aláírás + dátum |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **GLOBÁLIS** | **Nevesített gyermekvédelmi felelős** – a §2 és M3 red flag-protokoll mögött álló, névvel megnevezett személy, akihez a madrich és a stáb jelez. | [gyermekvédelmi felelős neve + kapcsolat] | [...] | [...] |
+| 2 | **GLOBÁLIS** | **Support kontaktok kitöltve** – a §4 technikai ÉS tanulási support-utalások minden `[...]` paramétere (technikai kontakt, Moodle-súgó link, mentor-kapcsolat) él, nincs nyitott placeholder. | §4 support-checklistek (build-readiness) | [...] | [...] |
+| 3 | **GLOBÁLIS** | **Adatmegőrzés és törlés rögzítve** – a §4 és §7 plain-language dobozok `[képzés / félév végéig + megőrzési idő]` és `[töröljük / anonimizáljuk]` paraméterei konkrét értékre cserélve, a törlési/anonimizálási folyamat leírva. | KAPU D-sablon / D8.4, kurzus adatkezelési pont | [...] | [...] |
+| 4 | **GLOBÁLIS** | **Akadálymentesítési lektor jóváhagyása** – a §4 akadálymentesítési fejlesztői checklistek (alt-szöveg & szöveges ekvivalens, H5P interaktív, kontraszt – AA) emberi ellenőrzése megtörtént. | §4 akadálymentesítési checklistek (WCAG 2.2 AA) | [...] | [...] |
+| 5 | modul | **Someres szakmai lektor jóváhagyása** – a gyermekvédelmi, someres és pedagógiai tartalom (kvíz-kulcsok, KAPU-küszöbök, glosszárium-konzisztencia) emberi szakmai lektoráláson átment (human-in-the-loop, vö. §4 AI-provenance). **Beleértve a biztonságkritikus cut-score-ok panel-jóváhagyását (M3, M7 Q13) a §5 standard-setting elve szerint (modified-Angoff: gyermekvédelmi felelős + módszertani lektor).** | §4 AI-provenance / human-in-the-loop, [GLOSSZÁRIUM](./Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md), §5 cut-score-validálás | [...] | [...] |
+| 6 | modul | **Kétlépcsős AI- és safeguarding-lektorálás aláírva** – általános tartalom: módszertani felelős sign-offja; gyermekvédelmi tartalom: + DSL / gyermekvédelmi felelős külön sign-offja. (Két lépcső: minden AI-érintett tartalom átmegy a módszertani felelősön; a gyermekvédelmi tartalom EZEN FELÜL a gyermekvédelmi felelős aláírását is igényli.) | §4 AI-provenance / human-in-the-loop; általános: módszertani felelős ⟬KITÖLTENDŐ⟭; gyermekvédelmi: DSL / gyermekvédelmi felelős ⟬KITÖLTENDŐ⟭ | [...] | [...] |
+| 7 | modul | **AI-jelölés élesítés-kész** – minden AI-generált médián (videó/kép/szintetikus hang) rajta van az **ember-olvasható provenance-sor** (blokkoló). Ahol a generáló eszköz gépi provenance-jelölést ad, azt az export megőrzi (ajánlott jó gyakorlat, nem blokkoló). A deployer-oldali AI Act 50. cikk (4) közzétételi eseteket (deepfake, közérdekű AI-szöveg) a jogi review minősíti. | §4 AI-provenance | [...] | [...] |
+| 8 | **GLOBÁLIS** | **Stáb-safeguarding élesítés-kész (program-szintű)** – minden mentor / képző / felnőtt madrich átesett (a) **felnőtt-alkalmassági ellenőrzésen** (helyi megfelelő: erkölcsi bizonyítvány / barred-list-ekvivalens) ÉS (b) dokumentált **safeguarding-induction-képzésen** a program indulása előtt; a **kiskorú (15–17) madrich nem felügyel egyedül**. *(Program-szintű előfeltétel – egyszer, a teljes programra teljesítendő; nem modul-specifikus, ezért a lenti modul-mátrixban nem szerepel oszlopként.)* | helyi gyermekvédelmi eljárás + safeguarding-induction ⟬KITÖLTENDŐ: helyi eljárás⟭ | [...] | [...] |
+
+**A gate logikája:** **a `Szint` oszlop dönt. A `GLOBÁLIS` sorok (1–4. és 8.) a teljes programra vonatkoznak: amíg bármelyik nyitott, EGYETLEN modul sem élesíthető tanulóknak – erre nincs moduláris kivétel. Az `modul` szintű sorok (5–7.) csak azt a modult gátolják, amelyikre nézve nyitottak, és csak akkor értelmezhetők, ha a globális sorok már zártak. Nincs „részleges” élesítés a globális szinten. A kitöltött és aláírt listát a stáb a félév indítása előtt archiválja; tartalmi változás (új modul, módosított kvíz, új médiaelem) esetén az érintett sorok újra-aláírása kötelező.**
+
+**Modul-szintű „élesíthető?" státusz-mátrix (MVP-skálázás).** **A `modul` szintű sorok (5–7.) modul-oszlopokra vetítve is olvasandók: egy modul akkor élesedhet, ha RÁ nézve ezek zártak — ÉS a globális sorok (1–4., 8.) és a `RELEASE-READINESS.md` G1–G7 kapui már mind zártak. A globális kapuk megkerülésére a mátrix nem ad lehetőséget.** **Ha a globális kapuk zártak, a program MVP-logikával, modulonként skálázható (pl. M0–M1 indul, amíg M6–M7 még lektorálás alatt). A státusz-mátrix élő dokumentum: a stáb modul × sor bontásban vezeti, melyik cella van kész/aláírva (`kész` / `folyamatban` / `nyitott`), és ez a verziónált forrás arra, mi élesíthető éppen.**
+
+> A mátrix **csak a `modul` szintű sorokat** követi. Az 1–4. és a 8. sor **globális**: azok nem modulonként zárulnak, hanem a teljes programra, és amíg nyitottak, a „Modul élesíthető?” oszlop értéke minden sorban **nem**.
+
+| Modul ↓ / Modul-szintű sor → | 5. Someres lektor | 6. AI + safeguarding sign-off | 7. AI-jelölés (ember-olvasható) | Modul élesíthető? |
 | --- | --- | --- | --- | --- |
-| 1 | **Nevesített gyermekvédelmi felelős** – a §2 és M3 red flag-protokoll mögött álló, névvel megnevezett személy, akihez a madrich és a stáb jelez. | [gyermekvédelmi felelős neve + kapcsolat] | [...] | [...] |
-| 2 | **Support kontaktok kitöltve** – a §4 technikai ÉS tanulási support-utalások minden `[...]` paramétere (technikai kontakt, Moodle-súgó link, mentor-kapcsolat) él, nincs nyitott placeholder. | §4 support-checklistek (build-readiness) | [...] | [...] |
-| 3 | **Adatmegőrzés és törlés rögzítve** – a §4 és §7 plain-language dobozok `[képzés / félév végéig + megőrzési idő]` és `[töröljük / anonimizáljuk]` paraméterei konkrét értékre cserélve, a törlési/anonimizálási folyamat leírva. | KAPU D-sablon / D8.4, kurzus adatkezelési pont | [...] | [...] |
-| 4 | **Akadálymentesítési lektor jóváhagyása** – a §4 akadálymentesítési fejlesztői checklistek (alt-szöveg & szöveges ekvivalens, H5P interaktív, kontraszt – AA) emberi ellenőrzése megtörtént. | §4 akadálymentesítési checklistek (WCAG 2.2 AA) | [...] | [...] |
-| 5 | **Someres szakmai lektor jóváhagyása** – a gyermekvédelmi, someres és pedagógiai tartalom (kvíz-kulcsok, KAPU-küszöbök, glosszárium-konzisztencia) emberi szakmai lektoráláson átment (human-in-the-loop, vö. §4 AI-provenance). **Beleértve a biztonságkritikus cut-score-ok panel-jóváhagyását (M3, M7 Q13) a §5 standard-setting elve szerint (modified-Angoff: gyermekvédelmi felelős + módszertani lektor).** | §4 AI-provenance / human-in-the-loop, [GLOSSZÁRIUM](./Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md), §5 cut-score-validálás | [...] | [...] |
-| 6 | **Kétlépcsős AI- és safeguarding-lektorálás aláírva** – általános tartalom: módszertani felelős sign-offja; gyermekvédelmi tartalom: + DSL / gyermekvédelmi felelős külön sign-offja. (Két lépcső: minden AI-érintett tartalom átmegy a módszertani felelősön; a gyermekvédelmi tartalom EZEN FELÜL a gyermekvédelmi felelős aláírását is igényli.) | §4 AI-provenance / human-in-the-loop; általános: módszertani felelős ⟬KITÖLTENDŐ⟭; gyermekvédelmi: DSL / gyermekvédelmi felelős ⟬KITÖLTENDŐ⟭ | [...] | [...] |
-| 7 | **AI-jelölés élesítés-kész** – minden AI-generált médián (videó/kép/szintetikus hang) rajta van az **ember-olvasható provenance-sor** (blokkoló). Ahol a generáló eszköz gépi provenance-jelölést ad, azt az export megőrzi (ajánlott jó gyakorlat, nem blokkoló). A deployer-oldali AI Act 50. cikk (4) közzétételi eseteket (deepfake, közérdekű AI-szöveg) a jogi review minősíti. | §4 AI-provenance | [...] | [...] |
-| 8 | **Stáb-safeguarding élesítés-kész (program-szintű)** – minden mentor / képző / felnőtt madrich átesett (a) **felnőtt-alkalmassági ellenőrzésen** (helyi megfelelő: erkölcsi bizonyítvány / barred-list-ekvivalens) ÉS (b) dokumentált **safeguarding-induction-képzésen** a program indulása előtt; a **kiskorú (15–17) madrich nem felügyel egyedül**. *(Program-szintű előfeltétel – egyszer, a teljes programra teljesítendő; nem modul-specifikus, ezért a lenti modul-mátrixban nem szerepel oszlopként.)* | helyi gyermekvédelmi eljárás + safeguarding-induction ⟬KITÖLTENDŐ: helyi eljárás⟭ | [...] | [...] |
-
-**A gate logikája:** **minden sor blokkoló (AND-kapcsolat): nincs „részleges” élesítés, és egy modul sem indítható, amíg a fenti hét tartalmi sor bármelyike (rá nézve) – vagy a 8., program-szintű stáb-safeguarding sor – nyitott. A kitöltött és aláírt listát a stáb a félév indítása előtt archiválja; tartalmi változás (új modul, módosított kvíz, új médiaelem) esetén az érintett sorok újra-aláírása kötelező.**
-
-**Modul-szintű „élesíthető?" státusz-mátrix (MVP-skálázás).** **A fenti hét blokkoló sor nem csak az egész programra, hanem modul-oszlopokra vetítve is olvasandó: egy modul akkor élesedhet, ha RÁ nézve mind a hét sor kész és aláírva – nem kell az egész program minden modulja kész ahhoz, hogy egy lefedett modul kimenjen a tanulók felé. Így a program MVP-logikával, modulonként skálázható (pl. M0–M1 indul, amíg M6–M7 még lektorálás alatt), miközben egyetlen modul sem élesedhet a saját hét sora nélkül. A státusz-mátrix élő dokumentum: a stáb modul × sor bontásban vezeti, melyik cella van kész/aláírva (`kész` / `folyamatban` / `nyitott`), és ez a mátrix a verziónált forrás arra, mi élesíthető éppen.**
-
-| Modul ↓ / Blokkoló sor → | 1. Gyv. felelős | 2. Support | 3. Adatmegőrzés | 4. Akadálym. lektor | 5. Someres lektor | 6. AI + safeguarding sign-off | 7. AI-jelölés (ember-olvasható) | Modul élesíthető? |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| M0 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| M1 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| M2 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| M3 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| M4 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| M5 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| M6 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| M7 | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| Z | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
+| M0 | [...] | [...] | [...] | [...] |
+| M1 | [...] | [...] | [...] | [...] |
+| M2 | [...] | [...] | [...] | [...] |
+| M3 | [...] | [...] | [...] | [...] |
+| M4 | [...] | [...] | [...] | [...] |
+| M5 | [...] | [...] | [...] | [...] |
+| M6 | [...] | [...] | [...] | [...] |
+| M7 | [...] | [...] | [...] | [...] |
+| Z | [...] | [...] | [...] | [...] |
 
 **Verziónáltság:** **a kitöltött aláírólista és a modul-mátrix verziózott – minden élesítés egy datált, aláírt pillanatképhez kötődik; tartalmi változás (új modul, módosított kvíz, új médiaelem, AI-érintett tartalom módosítása) az érintett modul-sor(ok), a 6. AI+safeguarding sor és a 7. AI-jelölés sor újra-aláírását váltja ki, a régi pillanatkép archiválásával.**
 

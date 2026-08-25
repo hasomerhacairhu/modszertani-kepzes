@@ -63,6 +63,42 @@ FORBIDDEN_ANYWHERE = {
         'az M2.1 teljes identitástérkép-feltöltése adatminimalizálási regresszió',
 }
 
+# ---------------------------------------------------------------------------
+# ACTIVE-SPEC rules (02 Tervezet, excluding the generated media register).
+#
+# These exist because the 2026-08-25 follow-up review found the module files
+# already correct while the PROGRAM-LEVEL documents still specified the old
+# behaviour. Scoping the M3 roleplay rule to Modulok/M3 was the blind spot.
+#
+# Each rule is a (phrase, why) pair plus a set of EXEMPTION markers. A line is
+# only reported when it contains the phrase and none of the exemption markers —
+# so that an explicit "we deliberately do NOT do this" note never trips it.
+# ---------------------------------------------------------------------------
+
+# Deliberate-exclusion markers. Kept narrow on purpose: a bare "nem" is NOT
+# enough, because the original stale sentence also contained "ez nem opció".
+NOT_A_REGRESSION = (
+    'kikerült', 'nem szerepjáték', 'nem játsszuk el', 'nem eljátszani',
+    'tudatosan nem', 'tudatosan NEM', 'ne használd', 'nem használjuk',
+    'NEM Documentation Tool', 'nem támaszkodunk', 'Nem támaszkodunk',
+    'helyett', 'tilos', 'nem helyettesíti', 'már nem',
+    # the canonical rule itself has to be able to name the thing it forbids
+    'nem nevezz meg nem létező', 'nem szerepel', 'nincs „Short Answer”',
+)
+
+ACTIVE_SPEC_RULES = {
+    'miniszínház': 'az M3.B kánoni formátuma harmadik személyű esetelemzés, nem szerepjáték',
+    'mini-színház': 'az M3.B kánoni formátuma harmadik személyű esetelemzés, nem szerepjáték',
+    'fórum-színház': 'az M3.B-ből a fórum-színház kikerült',
+    'minijelenet': 'súlyos gyermekvédelmi helyzet eljátszatása visszatérne',
+    'biztonságos felnőttként': '15+ célcsoportban a madrich maga is lehet kiskorú, nem ő a felelős felnőtt',
+    'megbízható felnőtt': '15+ célcsoportban a madrich maga is lehet kiskorú, nem ő a felelős felnőtt',
+    'kapu teljesítése a jogalap': 'a kurzusteljesítés nem GDPR 6. cikk szerinti jogalap',
+    'felirat VAGY': 'szinkronizált médiánál a felirat kötelező (WCAG 2.2 SC 1.2.2), a leirat nem helyettesíti',
+    'Short Answer': 'a H5P-ben nincs „Short Answer” content type',
+}
+
+
 # M3 teaches disclosure, abuse and self-harm handling. The agreed safe default is
 # third-person case analysis, so *instructions to enact* those situations must not
 # reappear anywhere in M3. Matching is on instruction-level phrases, not on the
@@ -182,6 +218,29 @@ def check_terminology(errors: list[str]) -> None:
                 errors.append(f'TERMINOLOGY {md.relative_to(ROOT)}:{lineno} „gyerekvéd…” — kánoni alak: „gyermekvéd…”')
 
 
+def check_active_spec(errors: list[str]) -> None:
+    """Rules that must hold across the whole active specification, not just Modulok.
+
+    Z.4 must not name the H5P Documentation Tool as its runtime, and the
+    program-level documents must not re-specify behaviour the modules dropped.
+    """
+    for md in markdown_files(ACTIVE_ROOT):
+        if md.is_relative_to(MEDIA_ROOT):
+            continue
+        rel = md.relative_to(ROOT)
+        for lineno, line in enumerate(md.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
+            if any(marker in line for marker in NOT_A_REGRESSION):
+                continue
+            for phrase, why in ACTIVE_SPEC_RULES.items():
+                if phrase in line:
+                    errors.append(f'SPEC-DRIFT {rel}:{lineno} {phrase!r} ({why})')
+            if 'Documentation Tool' in line and 'Z.4' in line:
+                errors.append(
+                    f'SPEC-DRIFT {rel}:{lineno} a Z.4 futtatókörnyezete Moodle Assignment, '
+                    'nem H5P Documentation Tool'
+                )
+
+
 def check_regressions(errors: list[str]) -> None:
     for path in MODULE_ROOT.rglob('*.md'):
         text = path.read_text(encoding='utf-8', errors='replace')
@@ -235,6 +294,7 @@ def main() -> int:
     check_links(errors)
     check_conflict_markers(errors)
     check_terminology(errors)
+    check_active_spec(errors)
     check_regressions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []

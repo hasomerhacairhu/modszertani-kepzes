@@ -2,10 +2,12 @@
 //  DEEP-AUDIT — iteratív kiértékelő → felülvizsgáló → javító → önállóan commitoló
 //  harness a Hasomer Hacair madrichképzés (02 Tervezet) tananyagához.
 //
-//  ⚠️ MÓD-VÁLASZTÁS: a futás módját a lenti MODE LITERÁL vezérli — NEM args-ból,
-//  mert ebben a környezetben az args nem ér át megbízhatóan a scripthez.
-//  Élesben futtatáshoz: állítsd MODE='live'-ra, mentsd, majd indítsd a Workflow-t.
-//  Alapértelmezett SAFE: 'dry' (csak kiértékel + riportál, semmit nem javít/commitol).
+//  🔒 READ-ONLY HARNESS. Ez a workflow SOHA nem módosít tananyag-forrást, nem vált
+//  branch-et, nem commitol és nem pushol. Csak kiértékel, verifikál és RIPORTOL az
+//  audit-mappába. (2026-08-25: a korábbi 'live' mód eltávolítva — a repo elve, hogy
+//  tartalmi javítás emberi/ügynöki review-val történik, nem autonóm automatizmussal.
+//  A régi live mód `git checkout -B deep-audit`-tal felülírhatott egy meglévő branch-et,
+//  és a nem létező `02 Tervezet/_AUDIT/` útvonalra írt volna.)
 //
 //  ÍV (loop-until-dry konvergencia, körönként):
 //    1. ASSESS  — auditor-ügynökök (modulonként + program-szinten), a kutatott
@@ -13,43 +15,35 @@
 //    2. (DEDUP + GLOBÁLIS CAP) — körök közti dedup + max finding/kör.
 //    3. VERIFY  — FÁJLONKÉNT egy szkeptikus ügynök erősíti meg a fájl találatait
 //                 (bounded a fájlszámmal — NINCS találatonkénti robbanás).
-//    4. FIX     — dimenziónként, fájlonként párhuzamos javítás (ütközésmentes).
-//    5. GATE    — integritás-kapu (félkövér-balansz, ⟦?⟧, törött link) commit ELŐTT.
-//    6. COMMIT  — dimenziónként egy önálló commit (stagenként).
-//    + ROUTE    — safety (D7) / ideológiai-mélység (D6) / architekturális találatok
-//                 review-docba; SOHA nem auto-javítjuk.
+//    4. ROUTE   — MINDEN találat review-dokumentumba kerül (safety / ideológiai
+//                 mélység / architektúra / javasolt javítások); SOHA nem auto-javítjuk.
 //  A kör addig ismétel, amíg DRY_STREAK egymást követő kör 0 új találatot ad.
-//  Push SOHA. Élesben külön BRANCH-en commitol.
+//  Írás KIZÁRÓLAG a `01 Fejlesztés/04 Audit/` mappába. Forrásfájl, commit, push SOHA.
 // ============================================================================
 
 export const meta = {
   name: 'deep-audit',
-  description: 'Iteratív deep-audit: kiértékel → verifikál → javít → stagenként önállóan commitol, konvergenciáig (MODE a scriptben)',
+  description: 'Read-only iteratív deep-audit: kiértékel → verifikál → riportál az audit-mappába (nem javít, nem commitol, nem pushol)',
   phases: [
-    { title: 'Setup', detail: 'mód + branch + rubrika + tiszta-fa előfeltétel' },
+    { title: 'Setup', detail: 'rubrika + tiszta-fa előfeltétel (read-only)' },
     { title: 'Assess', detail: 'auditorok modul + program-szinten, capelt findinggel' },
     { title: 'Verify', detail: 'fájlonként egy szkeptikus megerősítés (bounded)' },
-    { title: 'Fix', detail: 'dimenziónként, fájlonként párhuzamos javítás' },
-    { title: 'Commit', detail: 'integritás-kapu + dimenziónkénti önálló commit' },
     { title: 'Konvergencia', detail: 'loop-until-dry + záró riport' },
   ],
 }
 
 // ============================================================================
-//  ⚙️  KONFIG — LITERÁLOK (NEM args). Éleshez: MODE='live'.
+//  ⚙️  KONFIG — LITERÁLOK (NEM args). A harness read-only; nincs 'live' mód.
 // ============================================================================
-const MODE = 'dry'              // 'dry' = csak kiértékel+riportál | 'live' = javít+commitol
-const MAX_ROUNDS = MODE === 'live' ? 2 : 1   // dry: 1 kör (a tananyag nem változik); live: 2
+const MAX_ROUNDS = 1            // a tananyag a futás alatt nem változik, 1 kör elég
 const DRY_STREAK = 1            // ennyi üres kör után konvergens (dry módban 1 elég: 1 kör)
 const MAX_FINDINGS_PER_ASSESSOR = 10   // auditoronkénti finding-plafon
 const MAX_FINDINGS_PER_ROUND = 60      // körönkénti globális finding-plafon (top by severity)
-const BRANCH = 'deep-audit'    // élesben ide commitol (külön a main-től)
-
-const DRY_RUN = MODE !== 'live'
 const REPO = process.cwd()
 const ABS = REPO + '/02 Tervezet'
 const MOD = ABS + '/Modulok'
 const RUBRIC = REPO + '/01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md'
+const AUDIT_DIR = REPO + '/01 Fejlesztés/04 Audit'   // az EGYETLEN hely, ahová a harness ír
 const MODULES = ['M0', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'Z']
 const PROGRAM_LENSES = [
   { key: 'curriculum-ív', scope: 'A Program terv + minden modul-áttekintő: kompetencia-ív, prerekvizitek, árva/alátámasztatlan kompetenciák, a produktumok összeállása a záró Peula v2-be.' },
@@ -97,14 +91,14 @@ const sevRank = { red: 0, yellow: 1 }
 // ============================================================================
 phase('Setup')
 const setup = await agent(
-  `Setup a deep-audit futáshoz (MÓD: ${MODE}). Bash-sel:
+  `Setup a deep-audit futáshoz (READ-ONLY). Bash-sel:
 1. test -f "${RUBRIC}" — a rubrika kötelező; ha nincs, ok:false.
 2. git -C "${REPO}" status --porcelain — ha NEM tiszta a working tree, ok:false (a piszkos fájlokkal).
-${DRY_RUN ? '3. DRY mód: NE válts branch-et, ne commitolj. Maradj a jelenlegi branch-en.' : `3. LIVE mód: git -C "${REPO}" checkout -B ${BRANCH} (külön branch a main-től).`}
+3. NE válts branch-et, NE commitolj, NE pusholj. Maradj a jelenlegi branch-en.
 Add vissza ok + detail (a jelenlegi branch neve).`,
   { schema: OPRESULT, phase: 'Setup', label: 'setup', agentType: 'claude' })
 if (!setup || !setup.ok) { log('⛔ Setup megállt: ' + (setup ? setup.detail : 'nincs válasz')); return { aborted: true, reason: setup && setup.detail } }
-log(`Setup OK [${MODE}] — ${setup.detail}`)
+log(`Setup OK [read-only] — ${setup.detail}`)
 
 // ============================================================================
 //  ITERATÍV KÖRÖK
@@ -112,7 +106,6 @@ log(`Setup OK [${MODE}] — ${setup.detail}`)
 const seen = new Set()
 const allConfirmed = []
 const routed = { 'safeguarding-review': 0, 'ideology-gate-review': 0, 'architecture-review': 0 }
-const commits = []
 let dryStreak = 0, round = 0
 
 while (round < MAX_ROUNDS && dryStreak < DRY_STREAK) {
@@ -162,7 +155,7 @@ NE módosíts fájlt. Légy konkrét (file abszolút útvonal + location). Add v
       const items = toReview.filter((f) => f.routeTo === route)
       if (!items.length) continue
       routed[route] += items.length
-      await agent(`Egészítsd ki (append) a "${ABS}/_AUDIT/${fname}" review-dokumentumot egy "## Deep-audit kör ${round}" szakasszal, az alábbi DÖNTÉST igénylő találatokkal (dimenzió · fájl/hely · probléma · javaslat · forrás). NE módosíts tananyag-forrást, csak ezt a doksit.
+      await agent(`Egészítsd ki (append) a "${AUDIT_DIR}/${fname}" review-dokumentumot egy "## Deep-audit kör ${round}" szakasszal, az alábbi DÖNTÉST igénylő találatokkal (dimenzió · fájl/hely · probléma · javaslat · forrás). NE módosíts tananyag-forrást, csak ezt a doksit.
 TÉTELEK: ${JSON.stringify(items.map((f) => ({ dimension: f.dimension, file: f.file, location: f.location, issue: f.issue, recommendation: f.recommendation, sources: f.sources })))}
 Add vissza ok + detail.`, { schema: OPRESULT, phase: 'Assess', label: `route:${route}`, agentType: 'claude' })
     }
@@ -186,46 +179,27 @@ Add vissza VERIFY (minden idx-re keep + rövid note).`,
   for (let i = 0; i < vThunks.length; i += 8) confirmed.push(...(await parallel(vThunks.slice(i, i + 8))).filter(Boolean).flat())
   log(`Verify: ${toFix.length} jelölt → ${confirmed.length} megerősítve`)
   allConfirmed.push(...confirmed)
-  if (DRY_RUN) { log(`[DRY] Kör ${round}: ${confirmed.length} megerősített javítandó (nem alkalmazva), ${toReview.length} review-be.`); continue }
-  if (!confirmed.length) continue
+  if (!confirmed.length) { log(`Kör ${round}: 0 megerősített javaslat.`); continue }
 
-  // ---- 4) FIX dimenziónként, fájlonként + 5) GATE + 6) COMMIT ----
-  const byDim = {}
-  for (const f of confirmed) (byDim[f.dimension] = byDim[f.dimension] || []).push(f)
-  for (const dim of Object.keys(byDim).sort()) {
-    phase('Fix')
-    const byFile = {}
-    for (const f of byDim[dim]) (byFile[f.file] = byFile[f.file] || []).push(f)
-    const fixThunks = Object.entries(byFile).map(([file, items]) => () =>
-      agent(`Deep-audit JAVÍTÓ vagy (${dim}). Cél: ${file === 'program' ? 'a finding-ekben megnevezett fájl(ok)' : file}. Olvasd be a fájl(oka)t + a rubrikát (${RUBRIC}). Minden találatra PRECÍZ, MINIMÁLIS Edit; a meglévő helyes tartalmat ne töröld; a pótolt/kiemelt részt **félkövérrel**; tegező, someres hangnem; tárgyinál ToolSearch → WebSearch + forrás. Integritás: páros félkövér, nincs ⟦?⟧, nincs törött link, cím↔fájlnév egyezés. Ne nyúlj a finding hatókörén kívülre.
-TALÁLATOK: ${JSON.stringify(items.map((f) => ({ location: f.location, issue: f.issue, recommendation: f.recommendation, sources: f.sources })))}
-Ellenőrizd Read-del. Add vissza FIXREPORT.`,
-        { schema: FIXREPORT, phase: 'Fix', label: `fix:${dim}:${(file.split('/').pop() || file).slice(0, 14)}`, agentType: 'claude' }))
-    const fixRes = []
-    for (let i = 0; i < fixThunks.length; i += 6) fixRes.push(...(await parallel(fixThunks.slice(i, i + 6))).filter(Boolean))
-    if (fixRes.reduce((a, b) => a + (b.applied || 0), 0) === 0) { log(`${dim}: 0 javítás.`); continue }
-
-    phase('Commit')
-    const commit = await agent(`Integritás-kapu + commit a deep-audit ${dim} javításaihoz (kör ${round}).
-1. Integritás a megváltozott fájlokon (git -C "${REPO}" diff --name-only). Node-dal minden .md-re: (a) a *** elválasztó-sorok eldobása + a "***" → "** *" csere UTÁN a ** párok száma PÁROS legyen (páratlan=HIBA); (b) nincs ⟦?⟧; (c) nincs "file:///workspace".
-2. HIBA esetén NE commitolj, ok:false + detail (mely fájl/mi).
-3. OK esetén: git -C "${REPO}" add -u -- "02 Tervezet" (+ új fájlok); commit -F fájlból (magyar karakterek!): "fix(deep-audit ${dim}): <összefoglaló> [kör ${round}]\\n\\n<felsorolás>\\n\\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>". NE pushelj.
-Add vissza ok + detail (commit SHA + fájlszám).`,
-      { schema: OPRESULT, phase: 'Commit', label: `commit:${dim}`, agentType: 'claude' })
-    commits.push({ round, dim, ok: commit && commit.ok })
-    log(`${dim} commit: ${commit && commit.ok ? '✓ ' + commit.detail : '⛔ ' + (commit && commit.detail)}`)
-  }
+  // ---- 4) ROUTE: a megerősített javítási JAVASLATOK is review-doksiba mennek ----
+  // A harness szándékosan NEM javít és NEM commitol: a tartalmi változtatás emberi
+  // vagy ügynöki review-val, külön, átnézett commitban történik.
+  phase('Assess')
+  await agent(`Egészítsd ki (append) a "${AUDIT_DIR}/DEEP-AUDIT-FINDINGS.md" dokumentumot egy "## Deep-audit kör ${round} — megerősített javaslatok" szakasszal. Tábla: dimenzió · fájl · hely · probléma · javasolt javítás · forrás. **NE módosíts tananyag-forrást, NE commitolj, NE pusholj** — csak ezt az egy doksit írod.
+TÉTELEK: ${JSON.stringify(confirmed.map((f) => ({ dimension: f.dimension, severity: f.severity, file: f.file, location: f.location, issue: f.issue, recommendation: f.recommendation, sources: f.sources })))}
+Add vissza ok + detail.`, { schema: OPRESULT, phase: 'Assess', label: 'route:findings', agentType: 'claude' })
+  log(`Kör ${round}: ${confirmed.length} megerősített javaslat a DEEP-AUDIT-FINDINGS.md-be (nem alkalmazva).`)
 }
 
 // ============================================================================
 //  ZÁRÓ RIPORT
 // ============================================================================
 phase('Konvergencia')
-const summary = { mode: MODE, rounds: round, converged: dryStreak >= DRY_STREAK, confirmed: allConfirmed.length, routed, commits: commits.filter((c) => c.ok).length }
-await agent(`Írd meg/frissítsd a "${ABS}/_AUDIT/DEEP-AUDIT-REPORT.md" záró riportot (Write).
+const summary = { mode: 'read-only', rounds: round, converged: dryStreak >= DRY_STREAK, confirmed: allConfirmed.length, routed }
+await agent(`Írd meg/frissítsd a "${AUDIT_DIR}/DEEP-AUDIT-REPORT.md" záró riportot (Write). NE módosíts tananyag-forrást, NE commitolj, NE pusholj.
 ÖSSZEGZÉS: ${JSON.stringify(summary)}
 MEGERŐSÍTETT TALÁLATOK (dimenziónként, fájl+hely+probléma): ${JSON.stringify(allConfirmed.map((f) => ({ dimension: f.dimension, severity: f.severity, file: f.file, location: f.location, issue: f.issue })).slice(0, 120))}
-Szakaszok: (1) Vezetői összefoglaló (mód, körök, konvergált-e, hány javítás/commit, mi ment review-ba); (2) Megerősített találatok dimenziónként; (3) Review-be route-olt döntések (utalás a SAFEGUARDING/IDEOLOGY-GATE/ARCHITECTURE-REVIEW-ra); (4) Következő lépések. Magyar, tegező. Add vissza ok + detail.`,
+Szakaszok: (1) Vezetői összefoglaló (körök, konvergált-e, hány megerősített javaslat, mi ment review-ba — javítás és commit NEM történt); (2) Megerősített találatok dimenziónként; (3) Review-be route-olt döntések (utalás a SAFEGUARDING/IDEOLOGY-GATE/ARCHITECTURE-REVIEW-ra); (4) Következő lépések. Magyar, tegező. Add vissza ok + detail.`,
   { schema: OPRESULT, phase: 'Konvergencia', label: 'záró-riport', agentType: 'claude' })
-log(`\n✅ DEEP-AUDIT [${MODE}] kész: ${round} kör, ${allConfirmed.length} megerősített, ${commits.filter((c) => c.ok).length} commit, ${Object.values(routed).reduce((a, b) => a + b, 0)} review-be.`)
+log(`\n✅ DEEP-AUDIT [read-only] kész: ${round} kör, ${allConfirmed.length} megerősített javaslat, ${Object.values(routed).reduce((a, b) => a + b, 0)} review-be. Forrás nem módosult, commit nem történt.`)
 return summary
