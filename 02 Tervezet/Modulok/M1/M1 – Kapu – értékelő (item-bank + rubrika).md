@@ -163,7 +163,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 
 ***
 
-### Item 5 – Címkéből megfigyelés (alkalmazó item, rövid szöveg / Short answer)
+### Item 5 – Címkéből megfigyelés (alkalmazó item, rövid szabad szöveges válasz)
 **Feladat:** Írd át **megfigyeléssé** ezt a címkét – úgy, hogy egy kamera is felvehetné:
 > „Szétszórt voltál a peulán.”
 

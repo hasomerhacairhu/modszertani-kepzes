@@ -199,7 +199,7 @@ A modul végére a résztvevő…
   * A peula során ténylegesen Moodle/H5P-ben dolgoznak: pótlás, újranézés, kérdésgyűjtés.
 * **Rövid percbontás-vázlat:**
   1. **0–5’ – Ráhangolódás:**
-     * „Ki hol tart az M3.1–M3.4 leckékben?” – matricák / jelölés a táblán.
+     * **Privát** önellenőrzés: mindenki magának nézi meg a Moodle-ben, hol tart az M3.1–M3.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül ki a táblára**; ha a képzőnek kell a kép, azt a Moodle-ben, nem nyilvánosan nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   2. **5–25’ – Csendes online pótlás fülessel:**
      * Mindenki a saját eszközén pótol / újranéz 1–2 leckét.
   3. **25–40’ – Kérdések + fogalom-térkép:**

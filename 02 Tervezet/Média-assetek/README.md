@@ -24,7 +24,9 @@ Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gy
 
 ## Számok
 
-- **747 asset-sor**, ~711 ténylegesen legyártandó (35 dedup-csoport újrahasznosítás)
+- **747 asset-sor**, ebből **733 ténylegesen legyártandó** és **14 újrahasznosítás** (a `Legyártandó?` oszlop besorolása)
+  - a **35 dedup-csoport ≠ 35 nem gyártandó sor**: egy csoport gyakran ugyanarra az EGY assetre mutató több forráshivatkozás, ilyenkor egyetlen sor sem esik ki. Egy sor csak akkor „újrahasznosítás”, ha a csupasz ID-je eltér a csoport csupasz kanonikus ID-jétől, **és** a hivatkozó dedup-tag ugyanarra a fájl-hatókörre mutat, mint a sor (a hub és a lecke ID-tere ütközik: a hub `M1.1-ALT-01`-e más asset, mint az M1.1 lecke `M1.1-ALT-01` sora).
+  - ⚠️ **Nyitott, emberi döntést igénylő maradék:** négy sor (`M3.F-MUNK-01`, `M3.F-MUNK-02`, `Z.A-POSZ-01`, `Z.A-POSZ-02`) olyan dedup-csoportban van, ahol a tag-ID-k **nem hordoznak fájl-hatókört**, a csoport `reason` szövege viszont maga figyelmeztet az ID-ütközésre az áttekintő és a részletes fájl között. Ezek besorolása gépileg nem dönthető el — szerzői döntés kell hozzá.
 - **74 / 74 forrásfájl lefedve** (65 assetekkel + 9 ellenőrzötten médiamentes)
 - **61 audit-megállapítás mind diszpozícionálva** (16 blokkoló, 23 fontos, 22 javasolt)
 - **8 produkciós konvenció (R1–R8):** AI-jelölés · avatar/hang IP · narrátor hang-bible · védjegy-semlegesség · ikon/karakter-batch · szín-szótár · függőségek · GDPR/képmás

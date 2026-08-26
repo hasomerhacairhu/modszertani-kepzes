@@ -60,7 +60,7 @@ A modul végére a madrich…
 * **Fő tartalom röviden:**
   * identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) rajzos feltérképezése;
   * **a rajz a tanulónál marad** (privát munkalap, nincs fotófeltöltés); a Moodle-be csak egy rövid, nem érzékeny, **viselkedés-szintű** reflexió kerül arról, miben ad személyes példát a kvucájának.
-* **Moodle/H5P mix:** H5P Course Presentation + rövid szövegmező (Short answer / Essay). **File upload nincs** — lásd az M2.1 privacy-by-design jegyzetét.
+* **Moodle/H5P mix:** H5P Course Presentation + **rövid szabad szöveges mező** (a konkrét megvalósítást a `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli; a Course Presentation dián belüli szabad szöveges mező nem feltételezhető). **File upload nincs** — lásd az M2.1 privacy-by-design jegyzetét.
 
 ### L2 / M2.2 – Értékeim mint iránytű (15–20’)
 

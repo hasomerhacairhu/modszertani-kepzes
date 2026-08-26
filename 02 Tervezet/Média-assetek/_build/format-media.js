@@ -45,13 +45,46 @@ for (const a of assets) {
   stats.byCat[a.category] = (stats.byCat[a.category] || 0) + 1
   stats.byMod[a.mod] = (stats.byMod[a.mod] || 0) + 1
 }
-// dedup-tagok száma
 const dgroups = []
 for (const d of dedup) for (const g of (d.groups || [])) dgroups.push({ bucket: d.bucket || '—', ...g })
-let dupMembers = 0
-for (const g of dgroups) dupMembers += Math.max(0, (new Set(g.memberIds || [])).size - 1)
-stats.unique = stats.total - dupMembers
-stats.duplicates = dupMembers
+
+// A dedup-csoportok ID-i leíró zárójeles utótagot hordhatnak ("M1.1-DIA-01 (M1 hub)"),
+// a regiszter sorai a csupasz ID-t. A tag- ÉS a kanonikus oldalt UGYANAZZAL a
+// függvénnyel csupaszítjuk, különben a kanonikus sor maga számítana
+// újrahasznosításnak. Ugyanaz az algoritmus, mint a build-data.py asset_base_id-je.
+const PAREN_SUFFIX = /\s*\((.*?)\)\s*$/
+const assetBaseId = v => String(v == null ? '' : v).replace(PAREN_SUFFIX, '').trim()
+// A regiszter ID-tere ÜTKÖZIK a hub- és a lecke-fájlok között: a hub §3/M1.1 blokkjának
+// `M1.1-ALT-01`-e MÁS asset, mint az M1.1 lecke `M1.1-ALT-01` sora. A dedup-tagok ezt a
+// `(hub: …)` / `(al-lecke: …)` utótaggal különböztetik meg — ugyanaz a szabály, mint a
+// build-data.py asset_file_scope-jában.
+const assetFileScope = v => {
+  const m = PAREN_SUFFIX.exec(String(v == null ? '' : v))
+  if (!m) return null
+  const q = m[1].trim().toLowerCase()
+  if (q.startsWith('hub')) return 'hub'
+  if (q.startsWith('al-lecke')) return 'online-lecke'
+  return null
+}
+const rowById = new Map(assets.map(a => [a.assetId, a]))
+const dedupRef = new Map()
+for (const g of dgroups) {
+  const canonical = assetBaseId(g.canonicalId)
+  for (const mid of (g.memberIds || [])) {
+    const base = assetBaseId(mid)
+    if (!base || base === canonical || dedupRef.has(base)) continue
+    const scope = assetFileScope(mid)
+    const row = rowById.get(base)
+    // Más fájl azonos számú assetjére hivatkozó tag nem teszi újrahasznosítássá az
+    // ugyanilyen ID-jű lecke-sort — az külön, legyártandó asset.
+    if (scope && row && row.kind !== scope) continue
+    dedupRef.set(base, canonical)
+  }
+}
+// Minden szám UGYANEBBŐL a besorolásból jön, amit a .xlsx/.csv "Legyártandó?"
+// oszlopa is használ — nincs külön tagszám-képlet, ami eltérő összeget adna.
+stats.duplicates = assets.filter(a => dedupRef.has(a.assetId)).length
+stats.unique = stats.total - stats.duplicates
 
 // Reproducibility: allow the generation date to be pinned so a rebuild can be
 // byte-compared against the committed artefact (e.g. MEDIA_BUILD_DATE=2026-08-25).
@@ -176,7 +209,8 @@ for (const mod of modKeys) {
     P(`|---|---|---|---|---|---|---|---|---|---|---|`)
     for (const a of fr) {
       const hol = [a.location, a.lineRef].filter(Boolean).map(esc).join(' ▸ ')
-      const da = [a.dedup, a.audit].filter(Boolean).map(esc).join(' · ')
+      const reuse = dedupRef.has(a.assetId) ? '🔁 = ' + dedupRef.get(a.assetId) : ''
+      const da = [reuse || a.dedup, a.audit].filter(Boolean).map(esc).join(' · ')
       P(`| \`${cell(a.assetId)}\` | ${cell(a.assetType)} | ${KAT[a.category] || cell(a.category)} | ${cell(hol)} | ${cell(a.contentSpec)} | ${cell(a.verbatim)} | ${cell(a.purpose)} | ${cell(a.techSpec)} | ${cell(a.a11y)} | ${cell(provBucket(a.provenance))} | ${da || '—'} |`)
     }
     P(``)

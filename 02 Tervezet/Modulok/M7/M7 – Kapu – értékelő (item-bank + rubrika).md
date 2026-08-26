@@ -34,7 +34,7 @@
 
 **Beállítások (Moodle Quiz):**
 
-* 14 item, **küszöb ≥80% (≥12 jó válasz)** **ÉS a gyermekvédelmi Q13 kötelezően helyes** (ez az egyetlen, a %-tól függetlenül **kötelezően-helyes blokkoló item** – a blokkoló R4-konstruktum red-flag-alaplépését hordozza). A **Q14** ugyanezt az R4-területet **fedi le** (nem-egyedül-elv, B-terv, jelzési út), de **nem külön blokkoló item**: a pontszámba számít, a kötelezően-helyes minimumot egyedül a Q13 viszi. 2–3 próbálkozás.
+* 14 item, **küszöb ≥80% (≥12 jó válasz)** **ÉS a gyermekvédelmi Q13 kötelezően helyes** (ez az egyetlen, a %-tól függetlenül **kötelezően-helyes blokkoló item** – a blokkoló R4-konstruktum red-flag-alaplépését hordozza). A **Q14** ugyanezt az R4-területet **fedi le** (négyszemközti helyzet kezelése a helyi szabály szerint, B-terv, jelzési út), de **nem külön blokkoló item**: a pontszámba számít, a kötelezően-helyes minimumot egyedül a Q13 viszi. 2–3 próbálkozás.
 * **Kérdés- és válasz-sorrend randomizálva** (a 2–3 próbálkozás miatt ne legyen megjegyezhető a sorrend).
 * Item-típusok: Single Choice (1 jó válasz) és Multi-Select (több jó válasz – jelölve). A Multi-Selectnél **„minden helyes opció + egy hibás sem”** = teljes pont.
 * Minden itemhez egyértelmű helyes válasz, plauzibilis distraktorok (gyakori someres félreértésekre építve), rövid tanulói feedback.
@@ -198,7 +198,9 @@
 
 ### Blokk 5 – Gyermekvédelem & biztonság a peulatervben (Q13–Q14)  🔴 BLOKKOLÓ-LEFEDETTSÉG
 
-> **Miért van külön blokk?** A produktum-rubrika **R4 (Gyermekvédelem & biztonság)** sora a kapu **blokkoló** konstruktuma – e nélkül a kapu a %-tól függetlenül nem nyílik. A fogalmi belépő (kvíz) ezért **nem maradhat item nélkül épp erre**: az alábbi két szcenárió-item igazolja a red-flag-alaplépés és a nem-egyedül-elv tudásalapját, mielőtt a tanuló a Peula v2-be építené. **Fontos a két item státusza:** a **Q13** (red-flag-alaplépés) a **kötelezően-helyes blokkoló item** – ez az, ami a %-tól függetlenül kötelezően jó kell, hogy legyen; a **Q14** ugyanezt az R4-területet (nem-egyedül-elv, B-terv, jelzési út) **bővebben fedi le**, de **nem külön blokkoló küszöb** (a pontszámba számít, de nem kötelezően-helyes). Így a blokkoló minimumot egyértelműen egyetlen item, a Q13 hordozza. A megfogalmazás az M3.3 gyermekvédelmi alapozásra épül (red flag → mit teszel / mit NEM teszel / kit vonsz be), és **nem helyettesíti** a mentor / gyermekvédelmi felelős szerepét.
+> **Miért van külön blokk?** A produktum-rubrika **R4 (Gyermekvédelem & biztonság)** sora a kapu **blokkoló** konstruktuma – e nélkül a kapu a %-tól függetlenül nem nyílik. A fogalmi belépő (kvíz) ezért **nem maradhat item nélkül épp erre**: az alábbi két szcenárió-item igazolja a red-flag-alaplépés és a négyszemközti helyzetek szabálykövető kezelésének tudásalapját, mielőtt a tanuló a Peula v2-be építené. **Fontos a két item státusza:** a **Q13** (red-flag-alaplépés) a **kötelezően-helyes blokkoló item** – ez az, ami a %-tól függetlenül kötelezően jó kell, hogy legyen; a **Q14** ugyanezt az R4-területet (négyszemközti helyzet kezelése a helyi szabály szerint, B-terv, jelzési út) **bővebben fedi le**, de **nem külön blokkoló küszöb** (a pontszámba számít, de nem kötelezően-helyes). Így a blokkoló minimumot egyértelműen egyetlen item, a Q13 hordozza. A megfogalmazás az M3.3 gyermekvédelmi alapozásra épül (red flag → mit teszel / mit NEM teszel / kit vonsz be), és **nem helyettesíti** a mentor / gyermekvédelmi felelős szerepét.
+
+> **🛠 Pontozási megjegyzés (képzőnek).** A Q14 és az R4 **nem** egy általános, mindenhol egyforma „négyszemközt tilos” szabályt kér számon, mert a ken **négyszemközti (one-to-one / safer working) szabálya** még jóváhagyásra vár (lásd `Gyermekvédelem – release gate.md`). Amit a kapu mér, az a **szabálykövetés dokumentáltsága**: a tervből derüljön ki, hogy a benne lévő négyszemközti helyzet **hogyan felel meg a jóváhagyott helyi szabálynak**, és hová szól a jelzés. A helyi szabály tartalmát a tananyag nem dönti el.
 
 #### Q13 — Red flag a peulán: mi az első lépés? (Single Choice)
 
@@ -215,12 +217,12 @@
 
 **Jelöld be az ÖSSZESET, amit a Peula v2 biztonsági része szerint TILOS úgy hagyni a tervben!**
 
-- A) Olyan helyzetet, ahol egy madrich egyedül, becsukott ajtó mögött marad egy chanichhal. ✅
+- A) Olyan helyzetet, ahol a madrich négyszemközt marad egy chanichhal, és a tervből nem derül ki, hogyan felel ez meg a négyszemközti helyzetekre vonatkozó, jóváhagyott helyi szabálynak. ✅
 - B) A kockázatos / kültéri elemnél nincs semmilyen B-terv. ✅
 - C) Sehol nincs leírva, kihez fordul a madrich, ha red flaget észlel. ✅
 - D) A peula elején van egy rövid, közös „kit kérhetsz, ha rosszul érzed magad” kör.
 
-**Feedback:** Az A–B–C mind **kockázatot hagy a tervben**, ezért a rubrika R4-sora ezt 0–1-re értékeli (→ a kapu nem nyílik): a **nem-egyedül-elv** (A), a **B-terv** a kockázatos elemre (B) és a **megnevezett jelzési út** (C) mind kötelező. A D **épp jó gyakorlat** – ez a biztonságos tér része, nem hiba. (M3.3, M7.3) *(A teljes ponthoz A, B, C jelölve, D NEM.)*
+**Feedback:** Az A–B–C mind **kockázatot hagy a tervben**, ezért a rubrika R4-sora ezt 0–1-re értékeli (→ a kapu nem nyílik): a **négyszemközti helyzet helyi szabály szerinti, leírt kezelése** (A), a **B-terv** a kockázatos elemre (B) és a **megnevezett jelzési út** (C) mind kötelező. A D **épp jó gyakorlat** – ez a biztonságos tér része, nem hiba. (M3.3, M7.3) *(A teljes ponthoz A, B, C jelölve, D NEM.)*
 
 ***
 
@@ -287,10 +289,10 @@
 
 | Pont  | Megfigyelhető kritérium                                                                                                                                                                                                                                                                                |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **0** | Nincs biztonsági-rész, **vagy** a terv aktív kockázatot hagy benne (pl. madrich egyedül, becsukott ajtó mögött egy chanichhal; nincs B-terv kockázatos elemnél). **→ Kapu nem nyílik.**                                                                                                                |
+| **0** | Nincs biztonsági-rész, **vagy** a terv aktív kockázatot hagy benne (pl. négyszemközti helyzetet hagy benne úgy, hogy figyelmen kívül hagyja vagy megsérti a jóváhagyott helyi szabályt; nincs B-terv kockázatos elemnél). **→ Kapu nem nyílik.**                                                                                                                |
 | **1** | Van utalás a biztonságra, de **általános** („figyelünk rá”), nincs konkrét red-flag-lépés és nincs megnevezve, kihez fordul. **→ Kapu nem nyílik.**                                                                                                                                                    |
 | **2** | A Zmán Kvucá-checklist alapján **legalább 1 konkrét gyermekvédelmi lépés** szerepel (mit tesz red flag esetén, **kit von be** – mentor / felelős), és látszik a **B-terv** a kockázatos elemnél.                                                                                                       |
-| **3** | Több területre kiterjedő, **konkrét** biztonsági-keret: red-flag-protokoll (arra az esetre, ha egy chanich tár fel valamit, **ÉS** arra is, ha felnőttre esik a gyanú – ilyenkor a „ne konfrontáld, közvetlenül a felelősnek” elv) + nem-egyedül-elv + határhelyzet-mondat („mit nem engedek meg”) + B-terv – mind a saját peulára szabva, nem sablonszöveg. |
+| **3** | Több területre kiterjedő, **konkrét** biztonsági-keret: red-flag-protokoll (arra az esetre, ha egy chanich tár fel valamit, **ÉS** arra is, ha felnőttre esik a gyanú – ilyenkor a „ne konfrontáld, közvetlenül a felelősnek” elv) + a négyszemközti helyzetek kezelése a jóváhagyott helyi szabály szerint, konkrétan leírva + határhelyzet-mondat („mit nem engedek meg”) + B-terv – mind a saját peulára szabva, nem sablonszöveg. |
 
 > ⛔ **Override-szabály:** R4 = 0 vagy 1 → a kapu nem teljesíthető, függetlenül a többi sortól és a %-tól. Visszajelzés + javított leadás kötelező.
 
@@ -363,7 +365,7 @@ A Peula v2 mellé leadott Zmán Kvucá-checklist / operációs tábla gyors, ön
 | 2 | **Létszám & madrich–chanich arány** | Nem derül ki a létszám/arány. | Létszám adott, de az arány vagy a „mi van, ha többen/kevesebben jönnek” hiányzik. | Chanich- és madrich-szám + arány + „mi van eltérő létszámnál” átgondolva. |
 | 3 | **Anyagok, technika & B-terv** | Nincs kellék/eszköz és nincs B-terv. | Kelléklista megvan, de **nincs B-terv** (eső/zaj/helyhiány). | Kelléklista + konkrét **B-terv** a kockázatos elemre. |
 | 4 | **Hozzáférhetőség & inkluzivitás** | Fel sem merül. | Általános utalás, konkrét igény/variáció nélkül. | Konkrét igény(ek) + hozzá rendelt variáció(k). |
-| 5 | **Gyermekvédelem & határok** | Nincs, vagy aktív kockázat marad benne. | Általános „figyelünk rá”, konkrét lépés nélkül. | Red-flag-lépés + nem-egyedül-elv + kihez fordul (mentor/felelős) megnevezve. |
+| 5 | **Gyermekvédelem & határok** | Nincs, vagy aktív kockázat marad benne. | Általános „figyelünk rá”, konkrét lépés nélkül. | Red-flag-lépés + a négyszemközti helyzetek kezelése a helyi szabály szerint + kihez fordul (mentor/felelős) megnevezve. |
 
 **Önellenőrző küszöb (tanulónak):** ha bármelyik sor **0**, azt érdemes javítani leadás előtt – a 4. és 5. sor a kapunál (R4/R5) **kritikus**.
 

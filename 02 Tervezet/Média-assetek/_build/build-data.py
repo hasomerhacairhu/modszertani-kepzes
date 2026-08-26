@@ -80,13 +80,51 @@ def sortkey(a):
             [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", str(a.get("assetId","")))])
 rows.sort(key=sortkey)
 
-# dedup-ref per asset
+# ---- dedup-ref per asset ----
+# A dedup-csoportok ID-i gyakran leíró zárójeles utótagot hordanak
+# ("M1.1-DIA-01 (M1 hub)"), a regiszter sorai viszont a csupasz ID-t. A tag- ÉS a
+# kanonikus oldalt UGYANAZZAL a függvénnyel kell csupaszítani, mielőtt eldöntjük,
+# hogy egy sor újrahasznosítás-e. Amíg csak a tag-oldal normalizálódott, a
+# kanonikus sor maga kapott "újrahasznosítás" jelölést (8 ilyen sor volt: 6 szöveges
+# ekvivalens + 2 animált diagram), vagyis a legyártandó asset tűnt el a listáról.
+PAREN_SUFFIX = re.compile(r"\s*\((.*?)\)\s*$")
+
+def asset_base_id(value):
+    """A csupasz asset-ID (leíró zárójeles utótag nélkül)."""
+    return PAREN_SUFFIX.sub("", "" if value is None else str(value)).strip()
+
+def asset_file_scope(value):
+    """A zárójeles utótagban megnevezett fájl-hatókör, ha a tag megadja.
+
+    A regiszter ID-tere ÜTKÖZIK a hub- és a lecke-fájlok között: a hub §3/M1.1
+    blokkjának `M1.1-ALT-01`-e MÁS asset, mint az M1.1 lecke `M1.1-ALT-01` sora.
+    A dedup-tagok ezt a `(hub: …)` / `(al-lecke: …)` utótaggal különböztetik meg.
+    """
+    m = PAREN_SUFFIX.search("" if value is None else str(value))
+    if not m:
+        return None
+    qualifier = m.group(1).strip().lower()
+    if qualifier.startswith("hub"):
+        return "hub"
+    if qualifier.startswith("al-lecke"):
+        return "online-lecke"
+    return None
+
 dedup_ref = {}
 for g in dedup_groups:
+    canonical = asset_base_id(g["canonicalId"])
     for mid in g["memberIds"]:
-        base = re.sub(r"\s*\(.*?\)\s*$", "", str(mid)).strip()
-        if base != g["canonicalId"]:
-            dedup_ref.setdefault(base, "🔁 = " + g["canonicalId"])
+        base = asset_base_id(mid)
+        if not base or base == canonical:
+            continue
+        scope = asset_file_scope(mid)
+        row = assets.get(base)
+        # Ha a tag kifejezetten MÁS fájl azonos számú assetjére hivatkozik (jellemzően
+        # a hubéra, aminek nincs saját regiszter-sora), akkor az ugyanilyen ID-jű
+        # lecke-sor egy KÜLÖN, legyártandó asset — nem szabad újrahasznosításnak jelölni.
+        if scope and row is not None and row.get("kind") != scope:
+            continue
+        dedup_ref.setdefault(base, "🔁 = " + canonical)
 
 # audit per asset
 SEVRANK = {"blokkoló":0,"fontos":1,"javasolt":2}
@@ -193,7 +231,9 @@ def cnt(key):
     d={}
     for a in rows: d[a.get(key,"")]=d.get(a.get(key,""),0)+1
     return d
-dupc = sum(max(0,len(set(g["memberIds"]))-1) for g in dedup_groups)
+# Minden szám UGYANABBÓL a besorolásból jön, amit a "Legyártandó?" oszlop is
+# használ — nincs külön tagszám-képlet, ami eltérő összeget adna.
+dupc = sum(1 for a in rows if dedup_ref.get(a.get("assetId","")))
 title_f=Font(bold=True,size=13); sub_f=Font(bold=True,size=11,color="1F4E78")
 ws5["A1"]="Média-asset regiszter — összesítő"; ws5["A1"].font=title_f
 def block(start,title,d,order=None):

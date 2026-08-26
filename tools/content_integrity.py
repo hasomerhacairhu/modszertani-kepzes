@@ -98,6 +98,55 @@ ACTIVE_SPEC_RULES = {
     'Short Answer': 'a H5P-ben nincs „Short Answer” content type',
 }
 
+# Matching is case-insensitive on BOTH sides. The same forbidden spec phrase is
+# the same defect however the source capitalises it — a real earlier miss here:
+# 'Short Answer' failed while 'Short answer' / 'short answer' passed. Folding the
+# exemption markers too keeps the canonical documentation that must *name* the
+# forbidden thing ("nincs „Short Answer”") passing.
+#
+# ONE rule stays case-sensitive: in 'felirat VAGY' the capitals ARE the signal.
+# It targets the emphatic stale-spec construction "felirat VAGY leirat" (either
+# one suffices). Folded, it would also match ordinary Hungarian prose such as
+# "a felirat vagy a leirat is elérhető" — and this checker must never fail
+# legitimate Hungarian text (see the module docstring).
+CASE_SENSITIVE_RULES = {'felirat VAGY'}
+
+_EXEMPT_FOLDED = tuple(marker.casefold() for marker in NOT_A_REGRESSION)
+_RULES = tuple(
+    (phrase, why, phrase if phrase in CASE_SENSITIVE_RULES else phrase.casefold(),
+     phrase in CASE_SENSITIVE_RULES)
+    for phrase, why in ACTIVE_SPEC_RULES.items()
+)
+
+
+def is_deliberate_exclusion(line: str) -> bool:
+    """True when the line explicitly says it does NOT do the forbidden thing."""
+    folded = line.casefold()
+    return any(marker in folded for marker in _EXEMPT_FOLDED)
+
+
+def active_spec_hits(line: str) -> list[tuple[str, str]]:
+    """Which ACTIVE_SPEC_RULES a single line violates, exemptions applied."""
+    if is_deliberate_exclusion(line):
+        return []
+    folded = line.casefold()
+    return [(phrase, why) for phrase, why, needle, cased in _RULES
+            if (needle in line if cased else needle in folded)]
+
+
+def z4_runtime_hit(line: str) -> str | None:
+    """The Z.4 runtime rule for a single line, exemptions applied.
+
+    Kept as a function (not inline in the file loop) so that ``--selftest``
+    exercises the deliberate-exclusion guard on the path the checker actually
+    takes — a refactor already dropped that guard here once.
+    """
+    if is_deliberate_exclusion(line):
+        return None
+    if 'Documentation Tool' in line and 'Z.4' in line:
+        return 'a Z.4 futtatókörnyezete Moodle Assignment, nem H5P Documentation Tool'
+    return None
+
 
 # M3 teaches disclosure, abuse and self-harm handling. The agreed safe default is
 # third-person case analysis, so *instructions to enact* those situations must not
@@ -229,16 +278,11 @@ def check_active_spec(errors: list[str]) -> None:
             continue
         rel = md.relative_to(ROOT)
         for lineno, line in enumerate(md.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
-            if any(marker in line for marker in NOT_A_REGRESSION):
-                continue
-            for phrase, why in ACTIVE_SPEC_RULES.items():
-                if phrase in line:
-                    errors.append(f'SPEC-DRIFT {rel}:{lineno} {phrase!r} ({why})')
-            if 'Documentation Tool' in line and 'Z.4' in line:
-                errors.append(
-                    f'SPEC-DRIFT {rel}:{lineno} a Z.4 futtatókörnyezete Moodle Assignment, '
-                    'nem H5P Documentation Tool'
-                )
+            for phrase, why in active_spec_hits(line):
+                errors.append(f'SPEC-DRIFT {rel}:{lineno} {phrase!r} ({why})')
+            z4 = z4_runtime_hit(line)
+            if z4:
+                errors.append(f'SPEC-DRIFT {rel}:{lineno} {z4}')
 
 
 def check_regressions(errors: list[str]) -> None:
@@ -283,11 +327,65 @@ def release_blockers() -> list[str]:
     return blockers
 
 
+# Regression cases for the rule matcher itself. Kept next to the rules so a rule
+# change and its expectation move together; run with ``--selftest``.
+SELFTEST_CASES = [
+    ('Alatta 1 szövegmező (Short Answer) a lezáró mondathoz.', True, 'aktív spec — „Short Answer”'),
+    ('Alatta 1 szövegmező (Short answer) a lezáró mondathoz.', True, 'aktív spec — „Short answer”'),
+    ('Alatta 1 szövegmező (short answer) a lezáró mondathoz.', True, 'aktív spec — „short answer”'),
+    ('A hivatalos H5P listában **nincs „Short Answer”** — helyette Essay van.', False, 'kánoni dokumentáció kivétel'),
+    ('Forrás: h5p.org content type lista — „Short Answer” nem szerepel.', False, 'kánoni dokumentáció kivétel'),
+    ('Alatta 1 rövid szabad szöveges mező a lezáró mondathoz.', False, 'legitim magyar szöveg'),
+    # 'felirat VAGY' is deliberately case-sensitive: the stale-spec construction
+    # must fail, ordinary Hungarian prose must not.
+    ('Elég a felirat VAGY a leirat valamelyike.', True, 'aktív spec — „felirat VAGY”'),
+    ('A videóhoz felirat vagy a leirat is elérhető lesz.', False, 'legitim magyar prózai „vagy”'),
+]
+
+# The deliberate-exclusion guard must cover the Z.4 Documentation Tool rule too,
+# not only ACTIVE_SPEC_RULES — a refactor already dropped that once. These cases
+# run `z4_runtime_hit`, i.e. the function `check_active_spec` itself calls.
+SELFTEST_Z4 = [
+    ('Nem támaszkodunk H5P Documentation Tool session-resume állításra.', False, 'Z.4 — tudatos kizárás'),
+    ('a Z.4 NEM Documentation Toolra épül, hanem Moodle Assignmentre', False, 'Z.4 — tudatos kizárás'),
+    ('A Z.4 hosszú reflexió H5P Documentation Toolban készül.', True, 'Z.4 — valódi spec-drift'),
+    ('A Z.4 Moodle Assignmentben készül.', False, 'Z.4 — helyes futtatókörnyezet'),
+]
+
+
+def selftest() -> int:
+    """Assert the ACTIVE_SPEC matcher behaves on known-tricky lines."""
+    failures = 0
+    for line, should_fail, label in SELFTEST_CASES:
+        hits = active_spec_hits(line)
+        ok = bool(hits) == should_fail
+        if not ok:
+            failures += 1
+        want = 'FAIL' if should_fail else 'PASS'
+        got = 'FAIL' if hits else 'PASS'
+        mark = 'ok  ' if ok else 'HIBA'
+        print(f'{mark} {label}: várt={want} kapott={got}' + (f' {[p for p, _ in hits]}' if hits else ''))
+    for line, should_fail, label in SELFTEST_Z4:
+        got = z4_runtime_hit(line) is not None
+        ok = got == should_fail
+        if not ok:
+            failures += 1
+        want = 'FAIL' if should_fail else 'PASS'
+        print(f'{"ok  " if ok else "HIBA"} {label}: várt={want} kapott={"FAIL" if got else "PASS"}')
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4)
+    print(f'Selftest: {total - failures}/{total} eset rendben.')
+    return 1 if failures else 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--strict-release', action='store_true', help='also fail when release blockers remain')
     parser.add_argument('--release-report', action='store_true', help='print release blockers but do not fail for them')
+    parser.add_argument('--selftest', action='store_true', help='run the rule-matcher regression cases and exit')
     args = parser.parse_args()
+
+    if args.selftest:
+        return selftest()
 
     errors: list[str] = []
     check_structure(errors)

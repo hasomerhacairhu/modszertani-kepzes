@@ -83,10 +83,10 @@ A modul végére a résztvevő…
 * **Fókusz:**
   S (Situation) – B (Behavior) – I (Impact) logika; rövid, konkrét, nem támadó visszajelzések.
 * **Eszközök:**
-  H5P Fill in the Blanks + 1–2 rövid videó / példa.
+  H5P Course Presentation, benne szabad szöveges mezők + 1–2 rövid videó / példa.
 * **Tartalom röviden:**
   Példa-SBI-k szétszedése (hol az S, B, I);
-  Activity 1: hiányos SBI-k kitöltése (egy elem hiányzik);
+  Activity 1: félig kész SBI-mondatok kiegészítése saját szavakkal (S, B, I);
   Activity 2: saját mini-helyzet felvázolása (valós vagy fiktív);
   Check: önellenőrző lista – van-e hely és idő, megfigyelhető viselkedés, érthető hatás.
 
