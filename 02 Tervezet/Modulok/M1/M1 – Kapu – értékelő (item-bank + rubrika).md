@@ -97,7 +97,18 @@ A modulban **két, egymásnak ellentmondó** kapu-leírás élt egymás mellett 
 Hogy ez **pontszámban** is egyértelmű és LMS-be vihető legyen:
 
 - **Szabály A (szöveges):** mind a 4 sor eléri legalább a fejlődő szintet (≥1 pont), és legalább 1 sor eléri a kiváló szintet (=2 pont).
-- **Szabály B (numerikus, ezt állítsd be a Moodle „Grade to pass”-ben):** **minden sorban ≥1 pont ÉS összpontszám ≥5/8.**
+- **Szabály B (numerikus):** **minden sorban ≥1 pont ÉS összpontszám ≥5/8.** A két feltétel **konjunkció** – csak együtt adnak átmenőt. A Moodle „Grade to pass” mezőjébe csak az **összpont-komponens** (≥5) vihető be; a sor-küszöböt („egyik sor sem 0”) az a mező nem látja, ezért a **nyers pontösszeg önmagában nem dönti el a kaput** – lásd 5. szakasz.
+
+**A kapu-eredmény négy tipikus esetben:**
+
+| Rubrika-pontok (S / B / I / hangnem) | Összpont | Minden sor ≥1? | Kapu-eredmény |
+|---|--:|---|---|
+| 2 / 1 / 1 / 1 | 5 | igen | **ÁTMENT** |
+| 2 / 2 / 1 / 0 | 5 | **nem** | **NEM TELJESÍTETT → újrapróbálható** |
+| 2 / 2 / 2 / 0 | 6 | **nem** | **NEM TELJESÍTETT → újrapróbálható** |
+| 2 / 2 / 1 / 1 | 6 | igen | **ÁTMENT** |
+
+A 2. és 3. sor a lényeg: **ha bármelyik rubrikasor 0 maradt, a beadvány akkor sem megy át, ha a pontösszeg elérné vagy meghaladná az 5-öt** – és a következő kapuzott activity sem nyílhat meg tőle.
 
 **Miért 5/8 és nem 6/8?** A minimum-elv szó szerint „minden sorban fejlődő (4×1=4) + legalább egy sorban kiváló (+1) = 5”. Tehát a **hivatalos küszöb 5/8** + a „minden sorban ≥1” kötelező feltétel. Ez **kevésbé szigorú**, mint a régi M1.4-beli 6/8, de **pontosan az ígért „minimum”-ot** kódolja, és megőrzi a kulcsbiztosítékot: a „minden sorban ≥1” miatt **egyik SBI-elem (különösen az I/hatás) sem hiányozhat teljesen** – pusztán a pontösszeg ezt elengedné.
 
@@ -276,7 +287,10 @@ A pontokat **soronként idézett szövegjeggyel** indokoljuk, és a visszajelzé
 
 - **Activity:** Assignment (M1.4) – Online text submission ✅ (File submission opcionális).
 - **Grading method:** Rubric → vidd be a fenti 4 sort, soronként 0/1/2 ponttal és a szintleírásokkal.
-- **Grade to pass:** **5** (a 8-ból), és állítsd be a sor-szintű minimumot kézi ellenőrzéssel: **egyik sor sem maradhat 0**. (A Moodle natívan az összpontot kapuzza; a „minden sorban ≥1” szabályt a képző a pontozáskor érvényesíti – ha bármely sor 0, az „újrapróbálható”, a pontösszegtől függetlenül.)
+- **Grade to pass (csak az összpont-komponens):** **5** (a 8-ból). ⚠️ Ez **önmagában nem a kapu**, csak a küszöb numerikus fele. A Moodle natívan az **összpontot** kapuzza, a „minden sorban ≥1” sor-küszöböt nem látja – egy **0 + 1 + 2 + 2 = 5** pontos beadvány tehát elérheti a nyers 5-ös határt úgy, hogy a **hivatalos kapun megbukik**.
+- **A kapu hivatalos (szemantikus) eredménye:** a rubrika kitöltése után a képző rögzíti, hogy **mindkét feltétel** teljesült-e – (a) minden sor ≥1 **ÉS** (b) összpont ≥5/8. **ÁTMENT csak akkor**, ha mindkettő igaz. Ha bármely sor 0, az eredmény **„nem teljesített / újrapróbálható”**, a pontösszegtől függetlenül.
+- **Továbblépés (unlock):** a következő kapuzott activityt a **megerősített, összetett kapu-eredmény** nyitja, **nem** a nyers ≥5-ös pontszám. Amíg nincs igazolva, hogy a cél-Moodle a sor-küszöböt is kikényszeríti, a downstream feltétel **nem köthető közvetlenül a nyers grade/pass állapotra**.
+- **Runtime acceptance:** hogy a cél-Moodle **mivel** rögzíti és kényszeríti ki ezt az összetett eredményt (kézi „megfelelt” jelölés, külön completion-feltétel, restrict access, vagy sor-szintű feltétel), a build **acceptance-tesztjén** dől el – lásd [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md). Moodle-képességet teszt nélkül **nem feltételezünk**.
 - **Attempts:** reopened = Manually (vagy 3 próbálkozás) – mastery learning.
 - **Minden próbálkozás után:** rövid, SBI-típusú feedback (lásd 4. szakasz sablonjai) + új próbálkozás nyitása.
 - **A 3. szakasz item-bankja** külön Quiz/H5P Question Set, **completion-only**, NEM kötve a kapuhoz.

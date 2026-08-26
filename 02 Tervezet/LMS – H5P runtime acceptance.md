@@ -25,6 +25,10 @@ A Markdown specifikációból **nem bizonyítható**, hogy egy H5P/Moodle intera
 5. **Moodle 5.x / Branching Scenario:** külön regressziós teszt, mert 2026-ban Moodle 5.1.1 környezetben dokumentált Branching Scenario megjelenítési hiba jelent meg a H5P communityben.
 6. **Szabad szöveges mező megvalósítása:** a leckékben „rövid szöveges válasz” / „hosszabb szöveges reflexió” néven leírt mezők **nem** egy adott H5P content type-ot neveznek meg. A cél verzión el kell dönteni és tesztelni, hogy melyik megengedett út valósul meg: Moodle-oldali szövegmező, H5P **Essay** igazoltan támogató befoglalóban (pl. Interactive Book), vagy **Fill in the Blanks** kötött válasznál. **A H5P hivatalos álláspontja szerint az Essay nem adható Course Presentationhöz**, ezért a „Course Presentation dián belüli szabad szöveg” nem feltételezhető.
 7. **Resume / state:** minden olyan learner-facing mondat, hogy „később folytathatod”, csak igazolt state persistence után maradhat.
+8. **Összetett (konjunkciós) kapuk kikényszerítése:** két kapu feltétele **nem** egyetlen skalár pontszám, és skalár küszöbbel **nem is kódolható**:
+   - **M1** – minden rubrikasor ≥1 **ÉS** összpont ≥5/8 (a nyers „Grade to pass = 5” a 0/1/2/2 esetet átengedné);
+   - **M3** – összpont ≥10/12 **ÉS** a 2., 4., 7., 9. item mind helyes (súlyozott pontozás nem ekvivalens: két ellentétes eredményű eset ugyanazt a pontszámot adja).
+   Tesztelni kell, hogy a cél-környezet a konjunkciót ténylegesen kikényszeríti-e. **Ha nem, az nem a feltétel gyengítését jelenti**, hanem azt, hogy a továbblépést a **megerősített kapu-eredményhez** (kézi/mentori ellenőrzés utáni „megfelelt”) kell kötni, nem a nyers grade/pass állapothoz. A választott mechanizmust verzióval és bizonyítékkal rögzíteni kell.
 
 ## Accessibility acceptance
 

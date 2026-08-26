@@ -27,9 +27,9 @@
 
 ## 3. Interakció-típusok (billentyűzet-barátság)
 
-- **Drag & Drop helyett (vagy mellett) adj billentyűzet-barát alternatívát**: H5P **Matching**, **Drag the Words** vagy **Single Choice**.
-- A **Drag & Drop kerülendő** ennél a mobil-first célközönségnél: kis képernyőn és motoros nehézséggel élőknél nehezebben kezelhető, mint a Matching.
-- A párosító/állítás-párosító feladatok alapértelmezésben **Matching** típusúak legyenek (ujj-barát). Ha valahol mégis Drag & Drop kell, azt a lecke fejlesztői megjegyzésében indokolni kell.
+- **Ha egy feladat húzásra épül, legyen mellette egyenértékű út, amely húzás nélkül is teljesíthető**: egyetlen kattintással/koppintással **és** billentyűzettel (WCAG 2.2 SC 2.5.7 – *Dragging Movements*, AA). A követelmény **funkcionális**: „nem kell hozzá húzni” – **nem** egy adott nevű H5P content type. A **Single Choice** tipikusan ilyen út; a **Drag the Words** viszont **nem az**, mert maga is húzásra épül – ezért soha ne szerepeljen húzásmentes alternatívaként.
+- A **Drag & Drop kerülendő** ennél a mobil-first célközönségnél: kis képernyőn és motoros nehézséggel élőknél nehezebben kezelhető. Ahol párosítás kell, **koppintás-/kattintás-alapú** megoldást válassz.
+- A párosító/állítás-párosító feladatok alapértelmezésben **koppintás-alapú párosítást** használjanak (ujj-barát) – a projektben ez a **Matching**. Hogy az adott H5P típus a cél-verzión ténylegesen húzás nélkül is teljesíthető-e, **acceptance-teszten kell igazolni** (`LMS – H5P runtime acceptance.md`); a típus nevéből ezt nem szabad következtetni. Ha valahol mégis Drag & Drop kell, azt a lecke fejlesztői megjegyzésében indokolni kell, és **kötelező** mellé a húzásmentes út.
 - Az interakció-típus legyen **következetes a modulon belül** — ne fordulhasson elő, hogy az egyik slide tudatosan kerüli a Drag & Drop-ot, a másik mégis előírja.
 
 > **Phase-0 univerzális a11y-protokoll (minden H5P-re, nem csak a kapusakra):**
@@ -76,7 +76,7 @@
 
 - [ ] **Célméret (SC 2.5.8, AA)** — a mutatóeszközös célok mérete **legalább 24×24 CSS pixel**, **kivéve** a szabvány kivételeit: elegendő **térköz** (24 CSS px átmérőjű kör nem metsz másik célt), **egyenértékű** másik vezérlő ugyanazon az oldalon, **szövegbe ágyazott (inline)** cél, **user agent** által meghatározott méret, vagy ha az adott megjelenítés **elengedhetetlen**. Gyakorlati elvárásunk: a válaszgomb, hotspot és drop-zóna ujj-barát legyen mobilon.
 - [ ] **Billentyűzet-teljesíthetőség** — az elem **végigvihető és befejezhető kizárólag billentyűzettel** (Tab-rend logikus, fókusz látható, egér/érintés nélkül is teljesíthető).
-- [ ] **Drag-free egypontos alternatíva** — ha az elem húzásra épül, van **drag nélkül is teljesíthető** út (Matching / Single Choice / koppintásos párosítás), hogy a motoros nehézséggel élő vagy apró kijelzőn dolgozó madrich is átjusson a kapun.
+- [ ] **Drag-free egypontos alternatíva (SC 2.5.7, AA)** — ha az elem húzásra épül, van **húzás nélkül, egyetlen kattintással/koppintással is teljesíthető** egyenértékű út, hogy a motoros nehézséggel élő vagy apró kijelzőn dolgozó madrich is átjusson a kapun. A **Single Choice** és a koppintás-alapú párosítás tipikusan ilyen; a **Drag the Words nem** (maga is húzásra épül). Hogy a választott típus a cél-verzión valóban húzásmentes-e, **a tényleges renderen kell ellenőrizni**, nem a típus nevéből következtetni.
 - [ ] **Alt-szöveg / szöveges ekvivalens** — minden **információt hordozó** képnek, ikonnak, hotspotnak, screenshotnak van érdemi alt-szövege vagy szöveges megfeleltetése; a **pusztán dekoratív** elem üres/rejtett alt-tal megy, hogy a felolvasó átugorja (2. szakasz). A feladat **nem oldható meg kizárólag vizuális infóból**.
 - [ ] **Kontraszt** — **szöveg** (SC 1.4.3, AA): törzsszöveg **≥ 4,5:1**, nagy méretű szöveg **≥ 3:1**. **Nem-szöveges elem** (SC 1.4.11, AA): a UI-komponensek és állapotaik, valamint a jelentést hordozó grafikai elemek szükséges vizuális információja **≥ 3:1** a szomszédos színekhez képest (a szabvány kivételeivel: inaktív komponens, user agent által meghatározott megjelenés, illetve ha az adott grafikai megjelenítés elengedhetetlen).
   - *(Projekt-cél a WCAG-minimum FELETT, nem normatív követelmény: a kapus elemeknél a lényeges UI-kontrasztot is igyekszünk 4,5:1-re hozni, mert a madrichok jellemzően olcsó kijelzőn, gyenge fényben, mozgás közben használják.)*
@@ -101,7 +101,7 @@
 - [ ] Narráció nem hordoz kizárólag hangban elérhető infót
 - [ ] Interactive Video jelenetei feliratozva
 - [ ] Alt-szöveg minden screenshothoz/ikonhoz/grafikához
-- [ ] Drag & Drop helyett/mellett billentyűzet-barát alternatíva (Matching / Single Choice)
+- [ ] Húzásra épülő feladat mellett **húzásmentes**, egykattintásos + billentyűzetes egyenértékű út (SC 2.5.7) — a konkrét típus húzásmentességét a renderen igazold
 - [ ] Interakció-típus következetes a modulon belül
 - [ ] Mobil-táblázat = kártya/akkordeon nézet, nem vízszintes scroll
 - [ ] Adatigényes/videós leckéhez offline letölthető, alacsony adatigényű változat + Study Lab mint eszközhöz-jutási pont (eszköz-hiány nem zár ki a completionből)
@@ -118,6 +118,8 @@
 - H5P Essay: https://h5p.org/essay
 - H5P Interactive Video: https://h5p.org/interactive-video
 - Moodle activity completion: https://moodle.com/news/track-learners-progress-using-activity-completion-moodle/
+- WCAG 2.2 SC 2.5.7 – Dragging Movements (Understanding): https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html
+- H5P Drag the Words (a húzás a működés alapja): https://h5p.org/drag-the-words
 
 
 ## Pontosítás: előre rögzített videó és hang

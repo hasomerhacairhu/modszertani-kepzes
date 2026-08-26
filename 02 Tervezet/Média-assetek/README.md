@@ -13,14 +13,22 @@ Ez a mappa a `02 Tervezet/` tananyaghoz **legyártandó média-assetek** teljes 
 | `Média-asset regiszter.md` | Ember-olvasható kísérő (ugyanaz, markdownban) |
 | `_build/` | A reprodukciós pipeline (lásd lent) |
 
-## „Felmondandó / generálandó szöveg" oszlop
+## „Felmondandó / generálandó szöveg" oszlop — ⚠️ kifagyasztott pillanatkép
 
-Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gyártásra kész szöveget** — nem kell a forrásfájlokban keresgélni. A `Felmondandó / generálandó szöveg (verbatim)` oszlopban:
-- **narráció** → a teljes felmondandó/TTS-be tölthető szkript szó szerint;
+Az **Assetek** munkalap (és az `assetek.csv`) `Felmondandó / generálandó szöveg (verbatim)` oszlopa **a kinyerés pillanatában** rögzített, szó szerinti szöveget tartalmaz:
+- **narráció** → a teljes felmondandó/TTS-be tölthető szkript;
 - **felirat / leirat** → ugyanaz a szöveg (a felirat a narrációt szó szerint közli);
-- **alt-szöveg** → a kész alt-szöveg (a dekoratív elemeknél szándékosan üres).
+- **alt-szöveg** → az akkori alt-szöveg (a dekoratív elemeknél szándékosan üres).
 
-462 szöveg-asset kitöltve a forrásból; szűrd az `Asset-típus = narráció` sorokra, ha csak a felmondandó szövegek kellenek.
+**Olvasd el, mielőtt bármit legyártanál:**
+
+1. A `verbatim` (és a `lineRef`) **egy történeti időpont pillanatképe**, nem élő hivatkozás a leckére.
+2. A kinyerő pipeline **nyugdíjazott** (lásd lent), ezért **a naprakészsége nincs garantálva** — minden azóta történt tananyag-szerkesztés elcsúsztathatta.
+3. Ezért **nem használható végleges narráció-, felirat- vagy alt-szöveg-forrásként** anélkül, hogy a **jelenlegi leckefájlhoz visszaellenőriznéd**. A „nem kell a forrásfájlokban keresgélni" **nem érvényes** erre az oszlopra.
+4. **Ütközés esetén a jelenlegi leckefájl az irányadó**, nem a pillanatkép.
+5. **A szöveget hordozó assetek végleges/kötegelt legyártása addig blokkolt**, amíg az érintett pillanatkép-szöveget újra nem származtatták vagy egyenként vissza nem ellenőrizték a jelenlegi forráshoz. Az ismert, visszaellenőrzött driftpéldák lent szerepelnek — **a lista nem teljes**.
+
+462 szöveg-asset kitöltve a kinyeréskori forrásból; szűrd az `Asset-típus = narráció` sorokra, ha a felmondandó szövegek kellenek — de az 1–5. pont ezekre is áll.
 
 ## Számok
 
@@ -40,7 +48,9 @@ Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gy
 
 ## Reprodukció (`_build/`)
 
-**A kánoni adat a `_build/media-merged.json`.** Ebből a regiszter minden kimenete bármikor újragenerálható.
+**A kánoni adat a `_build/media-merged.json`** — az **asset-leltárra** nézve: azonosítók, típus, hatókör, dedup, darabszámok, produkciós könyvelés. Ebből a regiszter minden kimenete bármikor újragenerálható.
+
+**A jelenlegi tananyagszövegre viszont a leckefájl a kánon**, nem ez a JSON: a narráció szó szerinti szövege, az akadálymentesítési és runtime-előírás, valamint a pedagógiai megfogalmazás **mindig a `02 Tervezet/Modulok/` alatti aktuális lecke szerint érvényes** (lásd a „Felmondandó / generálandó szöveg" és az „Ismert kinyerési drift" szakaszt). A leltár érvényessége és a benne lévő szöveg naprakészsége **két külön kérdés** — az előbbi áll, az utóbbi nem garantált.
 
 **Élő, futtatható lépések:**
 
@@ -85,6 +95,8 @@ Jelenleg ellenőrzött példák (2026-08-26) — a lista nem teljes, csak a viss
 | `M2.3-EGY-02.lineRef` | „559–564 (záró **Short-answer** mező)” | az M2.3 záró mezője „1 rövid szabad szöveges mező” |
 | `M1.1-IKO-02`, `M2.4-DIA-02`, `M2.4-ILL-02`, `M4.1-NAR-07`, `M4.2-EGY-05`, `M4.2-ILL-03`, `M4.4-ALT-05`, `M4.4-DIA-05`, `M4.4-NAR-05`, `M6.1-EGY-11`, `Z.1-IKO-01` (leíró mezők) | „H5P Essay” / „Essay mező” | ezek a leckék már **nem** neveznek meg content type-ot: a Course Presentation dián belüli szabad szöveg nem feltételezhető, a megvalósítást a runtime acceptance 6. pontja dönti el |
 | M4.1 feliratsor idézete | „kapcsolható magyar felirat **vagy** a slide-szöveg fedje le szó szerint… WCAG 1.2.2” | az M4.1 elkülöníti a **csak hangot** (WCAG 2.2 SC 1.2.1) a **hangos videótól**, ahol a **felirat kötelező** (SC 1.2.2) — a leirat nem váltja ki |
+| `M5.1-NAR-02`, `M5.1-FEL-02`, `M5.1-LEI-02` (`.verbatim`) | „a nonformális **és** az informális tanulás is **önkéntes**” | az M5.1 SLIDE 3 narrációja javítva: az önkéntesség a **someres részvétel** helyi jellemzője, nem az informális tanulás ismertetőjegye; a választóvonal a **tudatos nevelési cél** (Cedefop) |
+| `M5.1-ALT-02` (`.verbatim`) | „közép – nonformális tanulás / Somer (szervezett, **önkéntes**, nevelési cél…); jobb – informális tanulás / random élet (spontán, nincs tervezett nevelési cél)” | az M5.1 alt-szövege javítva: a nonformálisnál a **nevelési cél** a definiáló jegy (az önkéntesség Somer-specifikus), az informálisnál kiegészült azzal, hogy **sokszor észre sem veszed, hogy tanultál** |
 
 > A `check_active_spec` szándékosan kihagyja a `Média-assetek/` mappát, ezért a checker ezt a driftet
 > nem is jelezheti — a fenti szabály (a tananyagfájl az irányadó) tudatos, dokumentált megállás.

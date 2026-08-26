@@ -76,7 +76,7 @@
 - C) a hangulatból következtet a kategóriára („kötetlen = informális, spontán”) – pont az a tévesztés, amit az M5.1 SLIDE 4 feedbackje cáfol: a tábortűz-reflexiónak van tervezett someres célja.
 - D) a „tanóra-keret hiánya = nincs kategória” tévhit.
 
-**Feedback:** A **hangulat (laza/komoly) nem dönti el** a kategóriát – a **nevelési cél + szervezettség + önkéntesség** dönti el. A tábortűz-reflexió tipikus nonformális helyzet. (**M5.1, SLIDE 4.**)
+**Feedback:** A **hangulat (laza/komoly) nem dönti el** a kategóriát – a **tudatos nevelési cél + szervezettség** dönti el. (A someres önkéntesség a Somer sajátja, de nem ez választja el a nonformálist az informálistól.) A tábortűz-reflexió tipikus nonformális helyzet. (**M5.1, SLIDE 4.**)
 
 ---
 
