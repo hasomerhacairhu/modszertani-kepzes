@@ -1,6 +1,6 @@
 # 🎬 Média-asset regiszter — Hasomer Hacair madrich-képzés
 
-> Generálva: **2026-08-25** · Forrás: `02 Tervezet/` · Módszer: per-fájl kinyerés → **2 független validáló kör** → típus-bucket **dedup** → **5 dimenziós audit**. 
+> Generálva: **2026-08-26** · Forrás: `02 Tervezet/` · Módszer: per-fájl kinyerés → **2 független validáló kör** → típus-bucket **dedup** → **5 dimenziós audit**. 
 >
 > **Mi ez?** A teljes leltár MINDEN legyártandó média-assetről (narráció, AI beszélő-fej videó, animált diagram, illusztráció, ikon, fotó, hang) és a hozzájuk tartozó **szöveges ekvivalensekről** (felirat, leirat, alt-szöveg) + a **print/fizikai** anyagokról. Minden sor **visszautal** a forrásfájlra, slide-ra és sorra — a teljes verbatim szöveg ott él; ez a *legyártandó* leltár.
 >
@@ -10,8 +10,8 @@
 
 | Mutató | Érték |
 |---|--:|
-| Összes azonosított asset-sor | **748** |
-| Egyedi, ténylegesen legyártandó | **725** |
+| Összes azonosított asset-sor | **747** |
+| Egyedi, ténylegesen legyártandó | **724** |
 | Dedup-újrahasznosítás (nem kell újra gyártani) | 23 |
 | Lefedett forrásfájl | 65 |
 
@@ -21,7 +21,7 @@
 |---|--:|
 | szöveges-ekvivalens | 314 |
 | digitális-generálandó | 300 |
-| print-fizikai | 134 |
+| print-fizikai | 133 |
 
 **Típus szerint**
 
@@ -37,7 +37,7 @@
 | ikon-készlet | 42 |
 | animált-diagram | 39 |
 | print-poszter | 39 |
-| print-kártya | 25 |
+| print-kártya | 24 |
 | beszélőfej-videó | 21 |
 | fotó-kép | 5 |
 | interaktív-videó | 2 |
@@ -48,7 +48,7 @@
 |---|--:|
 | M0 | 36 |
 | M1 | 105 |
-| M2 | 97 |
+| M2 | 96 |
 | M3 | 120 |
 | M4 | 100 |
 | M5 | 51 |
@@ -61,7 +61,7 @@
 | Tétel | Db |
 |---|--:|
 | AI-generált | 440 |
-| emberi-felvétel / kész szöveg | 175 |
+| emberi-felvétel / kész szöveg | 174 |
 | vegyes | 124 |
 | stock | 6 |
 | szöveges-ekvivalens (származtatott) | 3 |
@@ -455,7 +455,7 @@
 | `M1.A-KART-01` | print-kártya | print | §4 / Peula A (M1.A) / percbontás 15-30' (sor 123) ▸ sor 123: '„Megfigyelés vagy címkézés?” játék (oldalválasztás / kártyák)' | Kártyaszett a 'Megfigyelés vagy címkézés?' játékhoz: kártyánként egy-egy mondat, amit a résztvevőknek 'megfigyelés' vagy 'címke/értékelés' kategóriába kell sorolniuk (oldalválasztós játék kártyás változata). Pl. 'háromszor közbevágott' vs. 'tiszteletlen voltál' típusú mondatok. | — | Megfigyelés vs. címkézés megkülönböztetésének élő gyakorlása (2. kimeneti kompetencia). | Nyomtatható kártyaszett (kb. 10-20 lap), magyar nyelvű mondatokkal. | Fizikai print; jól olvasható betűméret. | vegyes | 🔁 = M1.A-MUNK-01 (Az áttekintő 'kártyaszett'-ként, a részletes 'munkalap vagy kártyák'-ként hivatkozik rá – a részletes spec maga megengedi a kártyás kivitelt. Ugyanaz a tartalom.) |
 | `M1.F-POSZ-02` | print-poszter | print | §5 / Felzárkóztató peula (M1.F) / percbontás 25-40' (sor 160) ▸ sor 160: 'Közös fogalom-térkép: Johari – megfigyelés vs. címke – SBI' | Fogalom-térkép flipchart/poszter-sablon a három fő fogalom összekötésére: Johari – megfigyelés vs. címke – SBI; közös kitöltésre kérdésekkel-válaszokkal. | — | A modul kulcsfogalmainak integrált, vizuális összekapcsolása a felzárkóztató peulán (M1.F cél 4). | Nyomtatható nagy formátumú fogalom-térkép sablon vagy üres flipchart-váz, magyar címkékkel. | Fizikai print; jól olvasható betűméret. | vegyes | — |
 
-### M2 modul — 97 asset
+### M2 modul — 96 asset
 
 #### M2.1 – Ki vagyok én madrichként – identitás-körök.md  `(online-lecke)`
 
@@ -563,8 +563,7 @@
 | ID | Típus | Kat. | Hol (slide ▸ sor) | Mit kell generálni | Felmondandó / generálandó szöveg (verbatim) | Miért (cél) | Tech-spec | A11y | Eredet | Dedup / Audit |
 |---|---|---|---|---|---|---|---|---|---|---|
 | `M2.A-KART-01` | print-kártya | print | Blokk 2 – „Identitás-vonal” játék (5–15’), 3. lépés „Állítások felolvasása”, sorok 147–159 ▸ 149: „Ezt a 8 állítást a peula előtt írd rá kártyákra (A4/A5, nagy betűkkel) – ez a 2.1-ben jelzett »6–10 állítás-kártya«” + a 8 verbatim állítás (sorok 152–159) | 8 darab nyomtatható állítás-kártya, kártyánként EGY rövid állítás nagy betűkkel. A 8 verbatim állítás a forrásban (sorok 152–159): (1) „A Somer most az egyik legerősebb identitás-köröm.”; (2) „A családom nagyon erősen hat arra, hogyan vagyok madrich.”; (3) „A zsidósághoz, a zsidó közösséghez fűződő viszonyom fontos része annak, ki vagyok.”; (4) „Szívesen beszélek a saját nehézségeimről a kvucámmal.”; (5) „Néha úgy érzem, nagyon különbözöm a saját kvucámtól.”; (6) „Könnyen megmutatom másoknak, mi van bennem.”; (7) „A saját online köreim (Discord, Insta, stb.) erősen hatnak rám madrichként.”; (8) „Általában jól érzem, hol vannak a határaim – meddig megyek el a megosztásban.” FONTOS pontosítás: a 3. (zsidóság) állításhoz tartozó zárójeles magyarázat (sor 154: „A skálán bárhol megállhatsz…”) a FACILITÁTOR FELOLVASANDÓ kerete, nem feltétlenül a kártyára nyomtatandó szöveg – ne zsúfold rá a kártyára, vagy tedd külön facilitátor-jegyzetbe. | — | A facilitátor sorban felolvashatja/felmutathatja a 8 állítást az identitás-vonal játékhoz; kész szett, hogy ne kelljen improvizálni; testi-mozgásos átélés a különböző identitás-körök erősségéről, és gyakorlás, hogy nem minősítjük egymás pozícióját. | 8 db kártya, A4 vagy A5 (forrás sor 36/149), nagy, jól olvasható tipográfia, fekete szöveg világos háttéren, nyomtatható PDF; 1 állítás / kártya | Nagy kontraszt és nagy betűméret kötelező (felolvasásra és teremben felmutatásra); diszlexia-barát font ajánlott. Maga szöveges kártya-artefaktum, külön alt-szöveg nem szükséges. | emberi-felvétel / kész szöveg | — |
-| `M2.A-KART-02` | print-kártya | print | Blokk 4.4.1.b OPCIONÁLIS – Élő könyvtár (Living Library), 3. lépés „Kölcsönzés”, sorok 292–300 ▸ 293: „Csak ezekből a kérdésekből kérdezhetnek (írd ki táblára / adj kártyát)”; a 4 kötött kérdés sorok 294–297; „könyv joga” sorok 299–300 | Kis kártya / kiírható lap a kölcsönzők (olvasók) számára a 4 kötött, nem-tolakodó kérdéssel (verbatim, sorok 294–297): „Mit szeretnél, hogy tudjak erről a címről?”; „Mi az, ami emögött fontos neked?”; „Volt-e olyan, amikor ezt megmutattad – és olyan, amikor inkább rejtetted?”; „Mit szeretnél, hogy a kölcsönzők megértsenek belőled?”. Tartalmazza a „könyv joga” emlékeztetőt is (sor 300): a könyv bármikor mondhatja, hogy „ezt a fejezetet most becsukom”; az olvasó csak a kiírt kérdéseket használja, nem faggat, nem ad tanácsot. Jelezhető, hogy bármelyik kérdés átugorható (sor 293). | — | Biztosítja, hogy az élő könyvtár variációban a kérdezés kötött és nem faggató maradjon (pszichológiai biztonság); az olvasók kézbe kapják a megengedett kérdéseket. | Kis kártya (A6/A5) vagy egyetlen kiírható A4 lap, nagy betűk, nyomtatható PDF; több példány a párhuzamos „könyvekhez” | Nagy kontraszt, olvasható betűméret; szöveges artefaktum, külön alt-szöveg nem szükséges. | emberi-felvétel / kész szöveg | — |
-| `M2.A-KART-03` | print-kártya | print | Blokk 4.4.1 – Kis csoportos feldolgozás (30–40’), 2. lépés „Beszélgetés kérdései”, sorok 254–263 ▸ 256: „Képző a táblára ír 2–3 kérdést, amiből választhatnak.”; a 4 verbatim kérdés sorok 259–262; választási instrukció sor 263 | Kis kártya / kiírható A4 facilitátor-segédlet a kiscsoportos feldolgozás 4 verbatim beszélgetőkérdésével (sorok 259–262): „Milyen közös mintákat láttok az identitás-köreitekben?”; „Miben vagytok nagyon különbözőek?”; „Szerintetek a chanichok melyik körötökből mit látnak most?”; „Mire kell majd szerintetek különösen figyelnetek, ha a saját határaitokról van szó?”. Tartalmazza a választási instrukció rövid emlékeztetőjét (sor 263): a csoport nem köteles mindegyik kérdésre válaszolni, válasszon 1–2-t; mindenki szóhoz juthat, akinek van kedve, de az is oké, ha valaki inkább hallgat. A facilitátor a forrás szerint 2–3 kérdést ír ki a táblára a 4-ből – a kártya/segédlet a teljes kínálatot adja, amiből választhat. | — | Kész, verbatim kérdéskészlet a kiscsoportos feldolgozáshoz, hogy a facilitátornak ne kelljen fejből idéznie/improvizálnia; gyors kiírás táblára vagy kiscsoport-asztalra. Párhuzamos eset a M2.A-KART-02 Living Library kérdés-kártyával (mindkettő verbatim, kiírható/kézbe adható facilitátor-kérdéssor). | Kis kártya (A6/A5) vagy egyetlen A4 facilitátor-segédlet, nagy betűk, fekete szöveg világos háttéren, nyomtatható PDF; elég 1–néhány példány (facilitátornak / kiscsoport-asztalokra) | Nagy kontraszt, olvasható betűméret; ha digitális segédletként is készül, strukturált szöveges lista. Szöveges artefaktum, külön alt-szöveg nem szükséges. | emberi-felvétel / kész szöveg | — |
+| `M2.A-KART-03` | print-kártya | print | Blokk 4.4.1 – Kis csoportos feldolgozás (30–40’), 2. lépés „Beszélgetés kérdései”, sorok 254–263 ▸ 256: „Képző a táblára ír 2–3 kérdést, amiből választhatnak.”; a 4 verbatim kérdés sorok 259–262; választási instrukció sor 263 | Kis kártya / kiírható A4 facilitátor-segédlet a kiscsoportos feldolgozás 4 verbatim beszélgetőkérdésével (sorok 259–262): „Milyen közös mintákat láttok az identitás-köreitekben?”; „Miben vagytok nagyon különbözőek?”; „Szerintetek a chanichok melyik körötökből mit látnak most?”; „Mire kell majd szerintetek különösen figyelnetek, ha a saját határaitokról van szó?”. Tartalmazza a választási instrukció rövid emlékeztetőjét (sor 263): a csoport nem köteles mindegyik kérdésre válaszolni, válasszon 1–2-t; mindenki szóhoz juthat, akinek van kedve, de az is oké, ha valaki inkább hallgat. A facilitátor a forrás szerint 2–3 kérdést ír ki a táblára a 4-ből – a kártya/segédlet a teljes kínálatot adja, amiből választhat. | — | Kész, verbatim kérdéskészlet a kiscsoportos feldolgozáshoz, hogy a facilitátornak ne kelljen fejből idéznie/improvizálnia; gyors kiírás táblára vagy kiscsoport-asztalra. | Kis kártya (A6/A5) vagy egyetlen A4 facilitátor-segédlet, nagy betűk, fekete szöveg világos háttéren, nyomtatható PDF; elég 1–néhány példány (facilitátornak / kiscsoport-asztalokra) | Nagy kontraszt, olvasható betűméret; ha digitális segédletként is készül, strukturált szöveges lista. Szöveges artefaktum, külön alt-szöveg nem szükséges. | emberi-felvétel / kész szöveg | — |
 | `M2.A-MUNK-01` | print-munkalap | print | Blokk 3 – Identitás-térképek frissítése & páros megosztás (15–30’), 1. lépés „Egyéni rajzolás / frissítés”, sorok 198–211 ▸ 205–211: „Középen te vagy – ‘ÉN’. Köré rajzolj 3–4 nagyobb kört… írj 3–5 kulcsszót… húzz alá… karikázz be…”; támpont-feliratok sor 205; aláhúzás/bekarikázás jelölés sor 211 | Egyszerű, félig strukturált A4 munkalap: középen „ÉN” mező, körülötte 3–4 üres nagyobb kör címke-helyekkel. Támpont-feliratok a forrásból (sor 205): „család”, „Somer”, „zsidóság”, „suli / barátok”, „online köreim” – ezek csak támpontok, a tanuló sajátot is írhat. Körönként hely 3–5 kulcsszónak (nevek, helyzetek, érzések). Rövid instrukció a jelöléshez: ALÁHÚZÁS = amit mások is látnak belőlem; BEKARIKÁZÁS = amit alig látnak (sor 211). Hagyjon sok szabad kézi rajzteret a testreszabhatóság miatt. Opcionálisan tartalmazhat egy rövid emlékeztetőt, hogy a „zsidóság” kör tartalma szabad (sor 207). | — | Az M2.1 online identitás-térkép élő frissítése/elkészítése; vizuális keret a páros megosztáshoz (mit mutatok meg / mit rejtek). | A4, álló, fejenként 1–2 példány (sor 37: „fejenként legalább 1, érdemes 2-t”), fekete-fehér nyomtatható PDF, sok üres kézi rajzteret hagyva | Nyomtatott munkalap; ha digitális/kitölthető verzió is készül, biztosíts logikus címke-struktúrát és kitölthető mezőket. Önmaga szöveges/rajzos artefaktum, külön alt-szöveg nem szükséges. | emberi-felvétel / kész szöveg | — |
 | `M2.A-POSZ-01` | print-poszter | print | Blokk 1 – Check-in + megosztási szabályok (0–5’), sorok 97–112; eszköz: sor 39; újrahasznosítás: Blokk 4.4.1, sorok 256–262 ▸ 107–112: „Vár néhány javaslatot, és felírja a táblára. Ha nem jön semmi, ajánlhat kész opciókat” + a 4 javasolt szabály (sorok 109–112); sor 39 „Flipchart / tábla + filc a közös minták összegyűjtéséhez” | Flipchart-/poszter-sablon a közösen kialakított megosztási (biztonsági) szabályoknak: nagy üres jegyzetterület a csoport saját javaslatainak, plusz előre nyomtatható 4 tartalék-szabály opció (verbatim, sorok 109–112): „Amit itt hallunk, az nem kerül ki névvel a teremből.”; „Nem tesszük kötelezővé a megosztást – mindenki döntheti, mennyit mond el.”; „Nem kommentáljuk egymás történetét »jaj, ez semmi« típusú mondatokkal.”; „Kérdezhetünk, de nem faggatjuk egymást.” Lehet előnyomott váz, amit a teremben kézzel kiegészítenek. Ugyanez a flipchart-sablon (üres flipchart-oldal) szolgálhat a 4.4.1 kiscsoportos „közös minták” gyűjtéséhez is (sor 39 eszköz: „Flipchart / tábla + filc a közös minták összegyűjtéséhez”). MEGJEGYZÉS: a 4.4.1 verbatim beszélgetőkérdései külön tétel (M2.A-KART-03), ez a poszter csak az üres gyűjtőfelület. | — | A pszichológiai biztonság kereteinek közös, látható rögzítése; a facilitátornak kész tartalék-opciók, ha a csoporttól nem jön javaslat. Másodlagos funkció: a kiscsoportos közös minták vizuális gyűjtéséhez üres flipchart-felület (sor 39). | Flipchart-méret (kb. A1) nyomtatható sablon VAGY A4 facilitátor-segédlet a felírandó pontokkal; nagy, kézzel kiegészíthető üres mezők, fekete szöveg világos háttéren, nyomtatható PDF | Teremből jól látható betűméret és nagy kontraszt; ha digitális facilitátor-segédletként is készül, biztosíts strukturált szöveges listát. Szöveges/flipchart artefaktum, külön alt-szöveg nem szükséges. | emberi-felvétel / kész szöveg | — |
 
@@ -1337,4 +1336,4 @@
 | `Z.A-POSZ-02` | print-poszter | print | Z hub, 4. szakasz – Z.A peula, 55–60’ blokk: Lezáró rituálé ▸ 107–108: „Mindenki felír 1 szót, amit magával visz, és egy közös »felhőbe« rakják (pl. plakát, kör közepe)” | Nagyméretű plakát/flipchart-sablon központi „felhő” (vagy kör-közép) motívummal, ahová a résztvevők egyenként felírják / cetlin felragasztják az 1 szót, amit magukkal visznek. Cím + a felhő körül üres felület a feliratoknak/post-itoknak. A forrás alternatívaként a „kör közepe” megoldást is megengedi (nem feltétlenül kell nyomtatott grafika), ezért a sablon opcionális. | — | Vizuális keret a záró rituáléhoz, amely a közös élmény közösségi lezárását teszi láthatóvá (lezárás, elismerés, szimbolikus búcsú). | A1/A2 flipchart-méret, központi felhő-grafika + üres írófelület, fekete-fehér nyomtatható, magyar cím | Print anyag; nagy, jól látható központi motívum és cím | AI-generált | 🔁 = Z.A-POSZ-01 (FIGYELEM az ID-ütközésre: a kanonikus Z.A-POSZ-01 a részletes Z.A-fájl szó-felhő posztere; a Z áttekintő-fájl Z.A-POSZ-02-je ugyanaz a 'felhő' plakát. A részletes 'Mit viszek magammal?' címet ad, az áttekintő generikusabb 'felhő'-motívumot – ugyanaz a média.) |
 
 ---
-*Regiszter vége. 748 asset-sor, 725 egyedi, 35 dedup-csoport, 61 audit-megállapítás. A ⟬KITÖLTENDŐ⟭ jellegű emberi/szervezeti tételek a forrásfájlokban és a `_EMBERI-JÓVÁHAGYÁS-SZÜKSÉGES.md`-ben élnek.*
+*Regiszter vége. 747 asset-sor, 724 egyedi, 35 dedup-csoport, 61 audit-megállapítás. A ⟬KITÖLTENDŐ⟭ jellegű emberi/szervezeti tételek a forrásfájlokban és a `_EMBERI-JÓVÁHAGYÁS-SZÜKSÉGES.md`-ben élnek.*

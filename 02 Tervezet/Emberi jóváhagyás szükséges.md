@@ -60,19 +60,6 @@ A helyi Somer / ken erősítse meg:
 - **M0 belépő-kvíz:** jelenleg **completion-jelző** (nem küszöbös). Ha éles kapu kell: item-bank + answer key + cél→item tábla.
 - **Gyártási becslések** (pl. M2.3 Branching-embernap ~13. sor; M5.3 Moodle-időzítő eszköz): a tényleges fejlesztési ráfordítás/eszköz behelyettesítése.
 
-## 7. Nyitott értékelési és szerkesztői döntések (2026-08-25 reconciliation)
-
-Egyik sem gépi hiba a `tools/content_integrity.py` értelmében, és egyik lezárása sem
-vezethető le a repóból – mindegyik emberi döntést kíván, ezért a reconciliation
-szándékosan **nem** oldotta meg őket. Ahol a jelenlegi állapot bizonyíthatóan törött
-(M2.A), azt a tétel kimondja.
-
-- **M3.1 kártya-kulcs** (~207. sor): a „Valaki csendesebb, a többiek maguktól bevonják” szcenárió kulcsa **Norming / Performing**; a fájl maga kéri, hogy a fejlesztő döntse el, melyikbe számít pontként. **Értékelési döntés** – a szcenáriót nem írjuk át, kulcsot magunktól nem választunk.
-- **M2.A „Élő könyvtár” opcionális variáció** (~73. sor): a percbontás egy OPCIONÁLIS variációra hivatkozik („lásd 4.4.1.b”), de a fájlban csak `4.4.1.` és `4.4.2.` szakasz van – a hivatkozás célja hiányzik, ez tehát **objektíven törött kereszthivatkozás**. Javítani mégsem gépiesen kell: a `Média-assetek/Média-asset regiszter.md` (~566. sor) egy regisztrált print-assetet (`M2.A-KART-02`) épp erre a szakaszra horgonyoz, és verbatim őrzi a 4 kötött kérdést és a „könyv joga” kikötést. A puszta hivatkozás-törlés így **árván hagyna egy regisztrált assetet**, a szakasz visszaírása pedig kiskorúak identitás-megosztásáról szóló biztonsági szövegírás. **Pedagógiai/biztonsági döntés.**
-- **M7.B AI point-of-use**: az M7.B nem mond ellent a kánoni AI-policynek (nincs chanich-adat promptba; gyermekvédelmi ügyben mentor; a felelősség a madriché), és a jóváhagyott szolgáltatás, a kiskorúak korhatár-/engedélyfeltételei és az **egyenértékű nem-AI út** modul-szinten is ki van mondva (M7.1 ~204. és ~232. sor; M7.2 ~24. sor). Nyitott kérdés, hogy a peula pontján – ahol a csoport ténylegesen eszközhöz nyúl – meg kell-e ezt röviden ismételni: **AI-policy megjelenítési döntés**, nem tartalmi ellentmondás.
-- **M5.B „plenáris” terminológiai jegyzet** (~59. sor): a fájl kiköti, hogy nem használjuk ezt a szót, miközben az M0.A, az M1.A, a Z.A és a Program terv használja. Képzői instrukció, korpuszszintű stílusszabály, vagy törlendő: **szerkesztői döntés**.
-- **M1.3 „közbevágott” vonzata** (~194. és ~205. sor): a részeshatározós vonzat („közbevágott a többieknek”) nem köznyelvi, de több egyenrangúan helyes javítás van. A példa a korpuszban túlnyomórészt **2. személyű** alakban él („közbevágtál”: M1.2, M1.4, M1.A, M1.F, M1 – KAPU), 3. személyben csak az M1.3 és a modulhub (~29., ~68. sor) hozza; az M1.2 ~88. sora ráadásul **answer key-jelölt** item. A kánoni példaalak kiválasztása ezért **magyar szerkesztői döntés**, és értékelt itemet is érint.
-
 ---
 
 ## Dokumentált, elfogadott reziduumok (NEM hiba, tudatos megállás)
@@ -80,6 +67,7 @@ szándékosan **nem** oldotta meg őket. Ahol a jelenlegi állapot bizonyíthat�
 - **Lecke-beágyazott kvízek hossz-cue:** a 6 KAPU-bank (éles kapuk) + a lecke-kvízek javítva (a helyes válasz már sehol nem a szigorúan leghosszabb); a **kulcsok igazoltan változatlanok**. Ahol az M3-KAPU safeguarding-itemje hosszabb, az **elkerülhetetlen** (a teljes, biztonságos válasz eleve hosszabb) — elfogadható.
 - **Peula módszer-paletta:** a mag érett és változatos; a **nagycsoportos önszervező dialógus** (fishbowl / world café / open space) **tudatosan NEM** került be (45' időkeret + önkéntes-stáb facilitációs teher). **Frissítve (2026-08-25 follow-up):** a korábban itt „opcionálisként” jelölt **fórum-színház az M3.B-ből kikerült** – a modul hivatalos és kötelező formátuma a **harmadik személyű esetelemzés**, szerepjáték nélkül (lásd `Gyermekvédelem – release gate.md`). Az M3.B opcionális „mondat-labor” mikroeleme **nem szerepjáték**: csak a madrich reakciómondatát mondják ki kívülről, és a gyermekvédelmi felelős engedélyéhez kötött.
 - **Sablon-konzisztencia (modalitás):** a #3 modalitás-pilot (M5.3 Dialog Cards, M2.3 Branching) beépült; **a Z.4 NEM Documentation Toolra épül** — a H5P Documentation Tool nem támogatja a content state savinget, ezért a Z.4 hivatalos futtatókörnyezete **Moodle Assignment** (lásd `LMS – H5P runtime acceptance.md`); a teljes terv a `[[modality-variety-plan]]` memóriában.
+- **2026-08-26 – lezárt emberi döntések (a forensic reconciliation nyitott tételei):** az **M2.A** „Élő könyvtár” opcionális variáció **nem áll vissza** – az alapaktivitásban mindenki megoszt **és** hallgat is, majd közösen reflektálnak; ezért a cél nélküli hivatkozás és a hozzá tartozó `M2.A-KART-02` print-asset **kivezetve**. Az **M3.1** 4. Tuckman-kártyájának kulcsa **Norming** (a megfigyelhető viselkedés a támogató norma megjelenése; a Performing tiszta, önálló feladatvégzést kívánna). Az **M1.3** két példamondata „közbevágott a többieknek” → „**félbeszakította a többieket**” (a dia címe és a szomszédos példák 3. személyűek; a kvíz ✅-kulcsa változatlan). Az **M5.B**-ből a „nem használjuk a »plenáris« szót” szerkesztői megjegyzés törölve – a szó az M0.A-ban, M1.A-ban és a Z.A-ban **legitim marad**. Az **M7.B** AI-blokkja rövid, használat-pontos checkpointot kapott (jóváhagyott eszköz · kiskorúak feltételei · nem-AI út), a teljes M7.2-keret megismétlése nélkül.
 
 ---
 

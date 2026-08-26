@@ -7,7 +7,7 @@ Ez a mappa a `02 Tervezet/` tananyaghoz **legyártandó média-assetek** teljes 
 | Fájl | Mire való |
 |---|---|
 | **`Média-asset regiszter.xlsx`** | **Elsődleges, data-driven formátum.** 6 munkalap: Összesítő · Assetek (szűrhető, fagyasztott fejléc) · Dedup-térkép · Audit · Médiamentes fájlok · Produkciós konvenciók |
-| `assetek.csv` | A teljes asset-tábla (748 sor × 21 oszlop), gépi feldolgozáshoz |
+| `assetek.csv` | A teljes asset-tábla (747 sor × 21 oszlop), gépi feldolgozáshoz |
 | `audit.csv` | A 61 audit-megállapítás diszpozícióval |
 | `dedup.csv` | A 35 dedup-csoport (újrahasznosítások) |
 | `Média-asset regiszter.md` | Ember-olvasható kísérő (ugyanaz, markdownban) |
@@ -24,7 +24,7 @@ Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gy
 
 ## Számok
 
-- **748 asset-sor**, ~712 ténylegesen legyártandó (35 dedup-csoport újrahasznosítás)
+- **747 asset-sor**, ~711 ténylegesen legyártandó (35 dedup-csoport újrahasznosítás)
 - **74 / 74 forrásfájl lefedve** (65 assetekkel + 9 ellenőrzötten médiamentes)
 - **61 audit-megállapítás mind diszpozícionálva** (16 blokkoló, 23 fontos, 22 javasolt)
 - **8 produkciós konvenció (R1–R8):** AI-jelölés · avatar/hang IP · narrátor hang-bible · védjegy-semlegesség · ikon/karakter-batch · szín-szótár · függőségek · GDPR/képmás
@@ -48,7 +48,7 @@ Az **Assetek** munkalap (és az `assetek.csv`) tartalmazza a **szó szerinti, gy
 Mindkettő **determinisztikus**: kétszeri futtatásra a három `.csv` bitre azonos, és a `.md` is az, ha a generálási dátumot rögzíted:
 
 ```bash
-MEDIA_BUILD_DATE=2026-08-25 node "_build/format-media.js" "Média-asset regiszter.md" "_build/media-merged.json"
+MEDIA_BUILD_DATE=2026-08-26 node "_build/format-media.js" "Média-asset regiszter.md" "_build/media-merged.json"
 ```
 
 Enélkül a `.md` fejlécében a „Generálva” dátum a mai napra frissül — ez az egyetlen, szándékos eltérés. Az `.xlsx`-nél a `docProps/core.xml` időbélyege tér el futásonként; a munkalapok tartalma azonos.
