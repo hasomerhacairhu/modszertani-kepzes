@@ -126,7 +126,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 
 **Rövid váz:**
 
-* Ráhangolódás: vizuális haladásjelző arról, ki hol tart M5.1–M5.4-ben (matricák / jelölések, opcionális részvétellel).
+* Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben, hol tart az M5.1–M5.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
 * 5–25’: csendes catching-up – mindenki a saját hiányzó leckéivel dolgozik (füles, saját eszköz), jegyzetlappal: **leckénként 1 gondolat + 1 kérdés**.
 * 25–40’: közös kérdés–válasz, fogalom-térkép a táblán:
   * Suli / Somer / Random

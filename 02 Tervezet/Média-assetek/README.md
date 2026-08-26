@@ -65,6 +65,30 @@ Enélkül a `.md` fejlécében a „Generálva” dátum a mai napra frissül �
 
 Ha a kinyerést valaha újra kell futtatni, a fájllistát a jelenlegi `02 Tervezet/Modulok/` szerkezetre kell átírni.
 
+## ⚠️ Ismert kinyerési drift (frozen snapshot)
+
+A `_build/media-merged.json` a **kifagyasztott, kánoni produkciós adathalmaz**, és a renderelt kimenetek
+determinisztikusan ebből állnak elő. A kinyerő pipeline viszont **nyugdíjazott** (lásd fent), ezért a
+sorokban tárolt **forráshely- és idézet-mezők** (`lineRef`, `verbatim`) **elcsúszhatnak**, amikor a
+tananyag prózája változik: ezek a mezők a kinyerés pillanatának pillanatképei, nem élő hivatkozások.
+Minden tananyag-szerkesztés — sorbeszúrás is — növeli ezt a driftet.
+
+**Ütközés esetén a jelenlegi tananyagfájl az irányadó**, nem a pillanatkép — a pedagógiai,
+akadálymentesítési és runtime-szabályokra nézve egyaránt. A drift **nem javítható kézzel**; akkor kell
+újraszármaztatni, amikor a kinyerő pipeline-t újraépítik a jelenlegi `02 Tervezet/Modulok/` szerkezetre.
+
+Jelenleg ellenőrzött példák (2026-08-26) — a lista nem teljes, csak a visszaellenőrzött eseteket sorolja:
+
+| Hol | Pillanatkép | Jelenlegi forrás |
+|---|---|---|
+| `M3.4-IKO-02.lineRef`, `M3.4-EGY-06.lineRef`, `M6.1-EGY-05.lineRef` + `.verbatim`, `M6.1-EGY-08.verbatim` | „H5P Short Answer” / „H5P Essay / Short Answer” | a leckékben már nincs „Short Answer”; a szabad szöveges mezők megvalósítás-semlegesek (`LMS – H5P runtime acceptance.md` 6. pont) |
+| `M2.3-EGY-02.lineRef` | „559–564 (záró **Short-answer** mező)” | az M2.3 záró mezője „1 rövid szabad szöveges mező” |
+| `M1.1-IKO-02`, `M2.4-DIA-02`, `M2.4-ILL-02`, `M4.1-NAR-07`, `M4.2-EGY-05`, `M4.2-ILL-03`, `M4.4-ALT-05`, `M4.4-DIA-05`, `M4.4-NAR-05`, `M6.1-EGY-11`, `Z.1-IKO-01` (leíró mezők) | „H5P Essay” / „Essay mező” | ezek a leckék már **nem** neveznek meg content type-ot: a Course Presentation dián belüli szabad szöveg nem feltételezhető, a megvalósítást a runtime acceptance 6. pontja dönti el |
+| M4.1 feliratsor idézete | „kapcsolható magyar felirat **vagy** a slide-szöveg fedje le szó szerint… WCAG 1.2.2” | az M4.1 elkülöníti a **csak hangot** (WCAG 2.2 SC 1.2.1) a **hangos videótól**, ahol a **felirat kötelező** (SC 1.2.2) — a leirat nem váltja ki |
+
+> A `check_active_spec` szándékosan kihagyja a `Média-assetek/` mappát, ezért a checker ezt a driftet
+> nem is jelezheti — a fenti szabály (a tananyagfájl az irányadó) tudatos, dokumentált megállás.
+
 Gyors újra-render a meglévő `media-merged.json`-ból (a `Média-assetek/` mappából futtatva):
 
 ```bash

@@ -149,7 +149,7 @@ A modul végére a madrich…
   3. Le tud írni / mondani **leckénként 1 gondolatot és 1 kérdést**.
   4. Lát egy egyszerű **fogalom-térképet** az M6 modulról (játék – történet – kézműves – inkluzivitás – biztonság – játéklap).
 * **Rövid percbontás-vázlat:**
-  1. 0–5’ – Ráhangolódás: ki melyik leckénél tart, kinek milyen állapotban van a játéklap-váz.
+  1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg, hol tart az M6.1–M6.4 leckékkel és a játéklap-vázával, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   2. 5–25’ – Csendes pótlás fülessel: hiányzó Moodle / H5P leckék, Branching Scenario, játéklap-váz finomítása, „1 gondolat, 1 kérdés” jegyzeteléssel.
   3. 25–40’ – Kérdések + fogalom-térkép: közös tisztázás a kulcsfogalmakról.
   4. 40–45’ – Híd a normál peulára: mondatbefejezés – „Legközelebb, amikor játékot / történetet / kézművest választok, figyelni szeretnék arra, hogy…”.

@@ -172,7 +172,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 
 ***
 
-### Item 6 – Teljes mini-SBI írása (alkalmazó item, Essay / hosszú szöveg)
+### Item 6 – Teljes mini-SBI írása (alkalmazó item, hosszabb szabad szöveges válasz)
 **Szituáció:** „A peuláról fél órát késik valaki, és hangosan röhögve érkezik meg a körbe.”
 **Feladat:** Írj rá **1 db, 2–3 mondatos SBI-t**, amiben van S, B és I, és tiszteletteli a hangnem.
 **Önellenőrző feedback (a tanulónak, megoldás után):** Nézz rá a saját mondatodra:

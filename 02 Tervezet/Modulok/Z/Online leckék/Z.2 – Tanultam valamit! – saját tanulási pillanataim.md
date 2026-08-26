@@ -47,6 +47,8 @@
 
 ## 3. H5P Course Presentation – SLIDE-BY-SLIDE
 
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) a `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** — ha a teszt nem igazolja, a mező Moodle-oldalra kerül.
+
 ### SLIDE 1 – HOOK: „Volt már ilyen érzésed?”
 
 **Cél:** ráhangolás, érzés-szintű belépés.
@@ -218,7 +220,7 @@ Opciók:
 > Nem kell „tökéletes” sztori.
 > Itt egy **konkrét tanulási pillanatra** van szükség, de nem személyes kitárulkozásra. Leírhatod anonimizálva, és elég annyi kontextus, amennyi a tanulság megértéséhez kell.
 
-**Beágyazott kérdés – Essay**
+**Beágyazott kérdés – szabad szöveges válasz**
 
 * 1 nagy szövegmező, minimális karakterszám (pl. 250).
 
@@ -251,7 +253,7 @@ Opciók:
 
 > Itt sem kell „szépen” fogalmazni. Ha a „mit mond ez rólad?” kérdés túl személyes lenne, válaszolj inkább így: **„Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”** A teljesítéshez nem kell érzékeny önfeltárás.
 
-**Beágyazott kérdés – Essay**
+**Beágyazott kérdés – szabad szöveges válasz**
 
 * 1 szövegmező, 5–8 mondatnyi hely, minimális karakterszám.
 

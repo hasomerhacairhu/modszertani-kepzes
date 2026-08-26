@@ -184,7 +184,7 @@ A modul végére a madrich…
   * egy egyszerű **fogalom-térképet** adni a modulhoz, amihez az M7.A/B peulák kapcsolódnak.
 * **Hangnem:** támogató, nem büntető – „study lab”, nem pótvizsga.
 * **Rövid váz:**
-  * Ráhangolódás: ki meddig jutott az M7.1–M7.4 leckékben (matricák / jelölés a táblán).
+  * Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben, hol tart az M7.1–M7.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   * Csendes online munka fülessel: mindenki a saját tempójában pótol / újranéz 1–2 leckét.
   * Fogalom-térkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2 összekötése közös beszélgetéssel.
   * Zárás: 1 mondat arról, „Mire fogsz leginkább figyelni a következő peulád tervezésekor?”, plusz saját mini pótlási terv (melyik leckét fejezi be / nézi újra).

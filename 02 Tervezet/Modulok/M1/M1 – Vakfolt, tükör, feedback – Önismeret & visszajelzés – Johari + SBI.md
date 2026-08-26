@@ -155,7 +155,7 @@ A modul végére a résztvevő…
 
 **Rövid percbontás-vázlat:**
 
-1. 0–5’ – Ráhangolódás: ki hol tart M1.1–M1.4-ben (vizuális haladásjelző).
+1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben, hol tart az M1.1–M1.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
 2. 5–25’ – Csendes pótlás fülessel (H5P-k, videók); jegyzetlap: „leckénként 1 gondolat, 1 kérdés”.
 3. 25–40’ – Közös fogalom-térkép: Johari – megfigyelés vs. címke – SBI; kérdések–válaszok.
 4. 40–45’ – Zárókör + híd: ki mit fog még pótolni, mire figyel a következő peulán; megerősítés, hogy a felzárkózás **felelősségvállalás, nem ciki**.
