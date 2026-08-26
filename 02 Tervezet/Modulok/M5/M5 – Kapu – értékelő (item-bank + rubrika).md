@@ -49,7 +49,7 @@
 **Melyik állítás írja le legpontosabban a *nonformális* tanulást (pl. a someres peulát)?**
 
 - A) Iskolai tantervhez kötött, kötelező jelenlét, és a végén jegyet vagy osztályzatot kapsz a teljesítményedre.
-- B) ✅ Szervezett és célzott, de önkéntes; van mögötte nevelési cél, ami nem jegyben, hanem közös élményben jelenik meg.
+- B) ✅ Szervezett és célzott; van mögötte nevelési cél, ami nem jegyben, hanem közös élményben jelenik meg. A someres részvétel emellett önkéntes.
 - C) Spontán, hétköznapi helyzet, amihez nincs előre tervezett nevelési cél, mégis ragad meg belőle valami a magadé.
 - D) Olyan tanulás, ami mindig egyedül, otthon, mások bevonása nélkül, magadtól, a saját tempódban történik.
 
@@ -58,7 +58,7 @@
 - C) = az *informális* tanulás leírása. Ez a leggyakoribb tévesztés (nonformális ↔ informális): a „nem suli” érzés alapján informálisnak címkézi a célzott programot.
 - D) = a „magányos” félreértés: az informálist az otthoni/egyedüli helyzetre szűkíti.
 
-**Feedback:** A nonformális kulcsa, hogy **van mögötte nevelési cél, de önkéntes és élmény-alapú** – a cél nem jegyben, hanem **játékban, élményben, kvuca-beszélgetésben** jelenik meg. Ezért nem suli (A) és nem is céltalan random (C). Ha bizonytalan vagy: **M5.1, SLIDE 3.**
+**Feedback:** A nonformális kulcsa a **szervezettség/tervezettség** és a **tudatos nevelési cél** – a cél nem jegyben, hanem **játékban, élményben, kvuca-beszélgetésben** jelenik meg. Ezért nem suli (A) és nem is céltalan random (C). A Somerben ehhez **önkéntes részvétel** is társul, de nem ez választja el a nonformálist az informálistól. Ha bizonytalan vagy: **M5.1, SLIDE 3.**
 
 ---
 
