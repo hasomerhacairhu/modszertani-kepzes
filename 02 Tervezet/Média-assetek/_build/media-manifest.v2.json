@@ -6,18 +6,18 @@
     "files_asset_free": 19,
     "files_declared_asset_free": 9,
     "files_with_sources": 27,
-    "sources": 123,
-    "assets": 418,
-    "deliverables": 906,
-    "source_backed_assets": 127,
+    "sources": 124,
+    "assets": 417,
+    "deliverables": 903,
+    "source_backed_assets": 128,
     "by_mode": {
-      "generate": 404,
+      "generate": 403,
       "reuse": 7,
       "external": 6,
       "human-decision": 1
     },
     "by_kind": {
-      "voiceover": 91,
+      "voiceover": 90,
       "worksheet": 63,
       "illustration": 47,
       "icon-set": 42,
@@ -33,7 +33,7 @@
       "M0": 24,
       "M1": 58,
       "M2": 48,
-      "M3": 66,
+      "M3": 65,
       "M4": 58,
       "M5": 31,
       "M6": 66,
@@ -41,35 +41,34 @@
       "Z": 15
     },
     "by_file_kind": {
-      "online-lecke": 280,
+      "online-lecke": 279,
       "peula": 126,
       "hub": 12
     },
     "by_provenance": {
-      "ai": 280,
+      "ai": 279,
       "human": 73,
       "mixed": 59,
       "stock": 6
     },
     "by_status": {
       "pending-production-rule": 339,
-      "spec-ready": 46,
-      "pending-rights": 29,
-      "blocked": 2,
-      "pending-human-decision": 2
+      "spec-ready": 45,
+      "pending-rights": 30,
+      "pending-human-decision": 3
     },
     "deliverables_by_role": {
-      "primary": 411,
+      "primary": 410,
       "alt-text": 124,
       "print-pdf": 122,
-      "transcript": 114,
-      "captions": 111,
+      "transcript": 113,
+      "captions": 110,
       "voiceover": 21,
       "editable": 3
     },
     "blockers": {
       "R5": 258,
-      "R3": 118,
+      "R3": 117,
       "R2": 28,
       "R8": 2,
       "R7": 1
@@ -269,7 +268,8 @@
         "M1.3-NAR-04-VO",
         "M1.3-NAR-05-VO",
         "M1.3-NAR-06-VO",
-        "M1.3-NAR-07-VO"
+        "M1.3-NAR-07-VO",
+        "M1.3-VID-01-VO"
       ],
       "asset_free_reason": ""
     },
@@ -555,7 +555,6 @@
         "M3.2-EGY-01",
         "M3.2-EGY-02",
         "M3.2-IKO-01",
-        "M3.2-NAR-02",
         "M3.2-NAR-03",
         "M3.2-NAR-04",
         "M3.2-NAR-05",
@@ -1771,10 +1770,10 @@
       "id": "M1.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 344,
+      "line": 357,
       "body_lines": [
-        345,
-        354
+        358,
+        367
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1791,10 +1790,10 @@
       "id": "M1.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 482,
+      "line": 495,
       "body_lines": [
-        483,
-        492
+        496,
+        505
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1811,10 +1810,10 @@
       "id": "M1.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 619,
+      "line": 632,
       "body_lines": [
-        620,
-        627
+        633,
+        640
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1831,10 +1830,10 @@
       "id": "M1.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 730,
+      "line": 743,
       "body_lines": [
-        731,
-        735
+        744,
+        748
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1851,10 +1850,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 818,
+      "line": 831,
       "body_lines": [
-        819,
-        826
+        832,
+        839
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1871,10 +1870,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 964,
+      "line": 977,
       "body_lines": [
-        965,
-        969
+        978,
+        982
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1891,10 +1890,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 988,
+      "line": 1001,
       "body_lines": [
-        989,
-        994
+        1002,
+        1007
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1905,6 +1904,26 @@
       "for": "",
       "used_by": [
         "M1.3-NAR-07:source_ref"
+      ]
+    },
+    {
+      "id": "M1.3-VID-01-VO",
+      "kind": "narration",
+      "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
+      "line": 206,
+      "body_lines": [
+        207,
+        215
+      ],
+      "unit": "M1.3",
+      "module": "M1",
+      "file_kind": "online-lecke",
+      "text": "**1. verzió — címkéző**\n**Madrich A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrich B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió — SBI-szerű**\n**Madrich A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrich B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "hash": "5f32a78c2c7e3019a009b73f56613a3e30caf93f1ee32507b43b700f27e32007",
+      "note": "",
+      "for": "",
+      "used_by": [
+        "M1.3-VID-01:source_ref"
       ]
     },
     {
@@ -2411,10 +2430,10 @@
       "id": "M3.2-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 382,
+      "line": 337,
       "body_lines": [
-        383,
-        389
+        338,
+        344
       ],
       "unit": "M3.2",
       "module": "M3",
@@ -2431,10 +2450,10 @@
       "id": "M3.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 516,
+      "line": 471,
       "body_lines": [
-        517,
-        523
+        472,
+        478
       ],
       "unit": "M3.2",
       "module": "M3",
@@ -2451,10 +2470,10 @@
       "id": "M3.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 881,
+      "line": 836,
       "body_lines": [
-        882,
-        887
+        837,
+        842
       ],
       "unit": "M3.2",
       "module": "M3",
@@ -2571,10 +2590,10 @@
       "id": "M3.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 808,
+      "line": 810,
       "body_lines": [
-        809,
-        813
+        811,
+        815
       ],
       "unit": "M3.4",
       "module": "M3",
@@ -4912,7 +4931,8 @@
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Kézzel írt cetli / telefonos jegyzet (esetleg fél A5 jegyzetsablon: „Induló-szavak – M0.A\" cím + sorok). Digitális/papír archívum a stáb-dossziéban. Magyar nyelv."
+        "note": "Kézzel írt cetli / telefonos jegyzet (esetleg fél A5 jegyzetsablon: „Induló-szavak – M0.A\" cím + sorok). Digitális/papír archívum a stáb-dossziéban. Magyar nyelv.",
+        "production_phase": "trainer-at-runtime"
       },
       "a11y": {
         "note": "Szöveges artefaktum; ha digitálisan archiválják, kereshető szöveges formátum ajánlott."
@@ -4925,7 +4945,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Leválasztva a korábbi M0.A-FOTO-01-ről (ott a location/lineRef tévesen vegyítette a plakátfotót és a szöveges induló-szó-rögzítést). Borderline: maga a felvétel képzői akció, de a tananyag explicit deliverable-ként írja elő, ezért asetként felvéve.",
+      "notes": "Leválasztva a korábbi M0.A-FOTO-01-ről (ott a location/lineRef tévesen vegyítette a plakátfotót és a szöveges induló-szó-rögzítést). Borderline: maga a felvétel képzői akció, de a tananyag explicit deliverable-ként írja elő, ezért asetként felvéve. A `technical.production_phase: trainer-at-runtime` azt rögzíti, hogy ez a tétel a peula KÖZBEN keletkezik: a zárókörben ténylegesen elhangzott szavakat kell rögzíteni, tehát központilag, előre nem gyártható. A követelmény változatlanul kötelező, csak a produkciós tervben nem a „most gyártható” kötegben áll.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -4937,7 +4957,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0568677d15db466bed4a02bc32df39b35685420b2a11bf6b05d8b2d810280829",
+      "spec_hash": "81d8d076a5c3f30fdb3cb4781fa2064ce24c8901e59c0c5df1ee9a557249193b",
       "deliverable_ids": [
         "M0.A-EGY-01"
       ],
@@ -4953,7 +4973,7 @@
       "module": "M0",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md",
-      "line": 255,
+      "line": 256,
       "kind": "photo",
       "subtype": "",
       "mode": "generate",
@@ -4964,7 +4984,8 @@
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Telefonos fotó, plakátonként 1, olvasható felbontásban; digitális archívum / stáb-dosszié. Élő helyszíni felvétel."
+        "note": "Telefonos fotó, plakátonként 1, olvasható felbontásban; digitális archívum / stáb-dosszié. Élő helyszíni felvétel.",
+        "production_phase": "trainer-at-runtime"
       },
       "a11y": {
         "visual": "informative",
@@ -4985,7 +5006,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Képzői feladat, nem előre legyártott; a tananyag mégis kötelező deliverable-ként írja elő. A korábbi listában ide volt összevonva az induló-szavak rögzítése is – ezt M0.A-EGY-01-ként leválasztottam, mert külön artefaktum (szöveges jegyzet, nem fotó).",
+      "notes": "Képzői feladat, nem előre legyártott; a tananyag mégis kötelező deliverable-ként írja elő. A korábbi listában ide volt összevonva az induló-szavak rögzítése is – ezt M0.A-EGY-01-ként leválasztottam, mert külön artefaktum (szöveges jegyzet, nem fotó). A `technical.production_phase: trainer-at-runtime` ugyanazt rögzíti, amit a jegyzet eddig is mondott („Képzői feladat, nem előre legyártott”): a fotók a peula után, a kitöltött plakátokról készülnek, tehát nem központi előgyártás. Az R8 bizonyíték-követelmény változatlanul érvényes rá.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -4997,7 +5018,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e78797541d4410ca057d29c029fc401029bcfe8f27638276d3c690ca3ee3e3ef",
+      "spec_hash": "adbc37c94953e584a8bd3336d4ad90c62401bbb6e99aa85d4b479d5743ce212c",
       "deliverable_ids": [
         "M0.A-FOTO-01",
         "M0.A-FOTO-01::ALTTEXT"
@@ -5134,7 +5155,7 @@
       "module": "M0",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md",
-      "line": 291,
+      "line": 293,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -5194,7 +5215,7 @@
       "module": "M0",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md",
-      "line": 506,
+      "line": 508,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -5254,7 +5275,7 @@
       "module": "M0",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md",
-      "line": 540,
+      "line": 542,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -5314,7 +5335,7 @@
       "module": "M0",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md",
-      "line": 372,
+      "line": 374,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -5374,7 +5395,7 @@
       "module": "M0",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md",
-      "line": 186,
+      "line": 187,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -7170,7 +7191,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 244,
+      "line": 257,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7232,7 +7253,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 382,
+      "line": 395,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7294,7 +7315,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 519,
+      "line": 532,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7475,7 +7496,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 281,
+      "line": 294,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7513,8 +7534,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        345,
-        354
+        358,
+        367
       ],
       "source_text": "„Az **S**, mint *Situation*, azt jelenti, hogy elmondod:\n**mikor** és **milyen helyzetben** történt a dolog.\n\nPéldául: *‘Amikor ma a játék közben…’*,\nvagy *‘a beszélgetőkör elején…’*,\nvagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.\n\nEz segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",
       "source_hash": "56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485",
@@ -7543,7 +7564,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 419,
+      "line": 432,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7581,8 +7602,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        483,
-        492
+        496,
+        505
       ],
       "source_text": "„A **B**, mint *Behavior*, azaz *viselkedés*, arról szól,\nhogy **mit láttál vagy hallottál konkrétan**.\n\nPéldául: *‘háromszor félbeszakította a többieket’*,\nvagy *‘kivonult a teremből’*.\n\nEz a rész az előző leckéhez is kapcsolódik:\nitt **megfigyelést mondasz, nem címkét**.”",
       "source_hash": "9662d095add3cf802f625b06720b06fffda66f76c2dbc3191ebef5858924174e",
@@ -7611,7 +7632,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 556,
+      "line": 569,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7649,8 +7670,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        620,
-        627
+        633,
+        640
       ],
       "source_text": "„Az **I**, mint *Impact*, azt jelenti, hogy elmondod,\n**mi lett a hatása** annak, ami történt – rád vagy a csapatra.\n\nPéldául: *‘nagyon nehéz volt megtartani a figyelmüket’*,\nvagy *‘a kicsik utána már nem szólaltak meg’*,\nvagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",
       "source_hash": "58f57ac59c18b799df3d01a3a734694b0ff505bca6e8b89ba1781afcd1302373",
@@ -7679,7 +7700,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 663,
+      "line": 676,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7717,8 +7738,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        731,
-        735
+        744,
+        748
       ],
       "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
       "source_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
@@ -7747,7 +7768,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 751,
+      "line": 764,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7785,8 +7806,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        819,
-        826
+        832,
+        839
       ],
       "source_text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
@@ -7815,7 +7836,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 849,
+      "line": 862,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7853,8 +7874,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        965,
-        969
+        978,
+        982
       ],
       "source_text": "„Ha mindhárom állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nEzt fogjuk továbbvinni a következő leckében és az Assignmentben is.”",
       "source_hash": "6672c28188276a64cb203b144accdd3e6855ef2199e1ac58e36538ed2ca8d8f1",
@@ -7883,7 +7904,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 890,
+      "line": 903,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7921,8 +7942,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        989,
-        994
+        1002,
+        1007
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben igazi szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "3cf12a70e5ac66b0cf733ad9e68c027d363f7bacf4a2a37e5da5cdeaa4318818",
@@ -7952,7 +7973,7 @@
       "kind": "video",
       "subtype": "interactive",
       "mode": "generate",
-      "status": "blocked",
+      "status": "pending-rights",
       "title": "HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel",
       "purpose": "Hook: a tanuló érezze a különbséget a címkéző és az SBI-szerű visszajelzés között, érzelmi és kognitív kontrasztban; a beépített kérdés azonnal aktiválja a megkülönböztetést.",
       "spec": "16:9 AI-generált jelenet: peula után két madrich (A és B) beszélget folyosón/teremben. Két verzió egymás után ugyanarra a helyzetre. 1) Bénább/címkéző verzió (Madrich A felhúzva: 'mindig szétvered a peulát, komolyan mondom…', Madrich B védekező: 'Mi van?! Csak próbáltam feldobni…'). 2) SBI-s verzió (Madrich A nyugodt: 'amikor ma a játék közben…' / 'háromszor félbeszakítottad…' / 'nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat…' — mondat közben felvillannak az S/B/I ikonok a megfelelő szövegrésznél; Madrich B elgondolkodva: 'erre nem is gondoltam, oké figyelek rá'). Beépített H5P Single Choice kérdés a 2. verzió után (videó megáll), 4 opcióval és opció-specifikus feedbackkel. Kb. 60–70 mp.",
@@ -7985,24 +8006,24 @@
         "R3",
         "R5"
       ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ],
-      "decision": "A HOOK-dialóg felmondható, VÉGLEGES szövege szerzői jóváhagyást igényel. A lecke a négy mondatot kiírja (SLIDE 1 „Mit látunk?”), de a „Mit hallunk?” sor kifejezetten úgy fogalmaz, hogy „Nagyjából a fenti mondatok” (201. sor) — ez implementációs szabadság, nem jóváhagyott szkript. Amíg a szerző nem hagyja jóvá a szó szerinti szöveget és az nem kerül `@source` blokkba, a felirat és a leirat nem gyártható. Javasolt, a lecke mondataiból összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D6.",
-      "notes": "Tartalmazza a dialóg-hangsávot (a videó része). Felvillanó S/B/I ikonok az M1.3-IKO-01-ből. A beépített kérdés szöveg- és feedback-tartalma a sorokban 89–111 (tiszta szöveges H5P-interakció, nem külön média-asset). Az R5 felvéve: az R5 szövege az AI karakter-jeleneteket nevesítve rögzített referencia-karakterhez és seedhez köti, ezért ez a videó nem gyártható a karakter- és stílus-lock előtt. Az R2 felvéve: AI-generált emberi karakter szintetikus hanggal — a generátor neve, a kereskedelmi licenc és a hang-jogosultság igazolása ugyanúgy kell, mint a beszélőfej-videóknál. Ha a jóváhagyó az R2 hatályát a beszélőfejekre szűkíti, ez a sor visszavonható (PRODUCTION-DECISIONS.md D3). A spec két mondattöredéke elcsúszott a lecke látható szövegétől („szétszúrod” / „összetartani a figyelmüket”); a jelenlegi leckeszövegre igazítva, a tananyag mondatai változatlanok.",
+      "readiness_issues": [],
+      "decision": "",
+      "notes": "Tartalmazza a dialóg-hangsávot (a videó része). Felvillanó S/B/I ikonok az M1.3-IKO-01-ből. A beépített kérdés szöveg- és feedback-tartalma a sorokban 89–111 (tiszta szöveges H5P-interakció, nem külön média-asset). Az R5 felvéve: az R5 szövege az AI karakter-jeleneteket nevesítve rögzített referencia-karakterhez és seedhez köti, ezért ez a videó nem gyártható a karakter- és stílus-lock előtt. Az R2 felvéve: AI-generált emberi karakter szintetikus hanggal — a generátor neve, a kereskedelmi licenc és a hang-jogosultság igazolása ugyanúgy kell, mint a beszélőfej-videóknál. Ha a jóváhagyó az R2 hatályát a beszélőfejekre szűkíti, ez a sor visszavonható (PRODUCTION-DECISIONS.md D3). A spec két mondattöredéke elcsúszott a lecke látható szövegétől („szétszúrod” / „összetartani a figyelmüket”); a jelenlegi leckeszövegre igazítva, a tananyag mondatai változatlanok. A HOOK-dialóg szövegét a szerző 2026-08-27-én jóváhagyta; a szó szerinti szöveg azóta `@source` blokkban él a leckében (M1.3-VID-01-VO), és a felirat/leirat onnan generálódik. A korábbi „Nagyjából a fenti mondatok” megfogalmazás helyére a jóváhagyott dialóg került, a felirat-hosszra vonatkozó kikötés megmaradt.",
       "review": "",
-      "source_ref": "",
+      "source_ref": "M1.3-VID-01-VO",
       "composed_of": [],
       "composed_source_ids": [],
-      "source_line": [],
-      "source_text": "",
-      "source_hash": "",
+      "source_line": [
+        207,
+        215
+      ],
+      "source_text": "**1. verzió — címkéző**\n**Madrich A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrich B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió — SBI-szerű**\n**Madrich A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrich B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "source_hash": "5f32a78c2c7e3019a009b73f56613a3e30caf93f1ee32507b43b700f27e32007",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "",
-      "spec_hash": "acdc765df0bfc4148b538c13ccf3d2f4feaeb9f6ca40d8c74a0b50e9f9f17eef",
+      "copy_hash": "5f32a78c2c7e3019a009b73f56613a3e30caf93f1ee32507b43b700f27e32007",
+      "spec_hash": "b5b7ce0074ec26b9aaa77e7af0623bcfed9640f0e4363a5992137e60aba6b73c",
       "deliverable_ids": [
         "M1.3-VID-01",
         "M1.3-VID-01::CAPTIONS",
@@ -10371,7 +10392,7 @@
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "H5P Branching Scenario; mobil-first; billentyűzet- és képernyőolvasó-navigáció (WCAG 2.1.1); a mini-reflexió és a záró mező rövid szabad szöveges beviteli elem (a megvalósítás az LMS – H5P runtime acceptance.md 6. pontja szerint választandó és tesztelendő); gyártási embernap a forrásbannyitott döntés(lineRef 13)"
+        "note": "H5P Branching Scenario; mobil-first; billentyűzet- és képernyőolvasó-navigáció (WCAG 2.1.1); a mini-reflexió és a záró mező rövid szabad szöveges beviteli elem (a megvalósítás az LMS – H5P runtime acceptance.md 6. pontja szerint választandó és tesztelendő); a gyártási ráfordítás becslése a v1 forrásban nyitott döntésként szerepelt (a hivatkozott sorszám a jelenlegi leckében már nem oldható fel)"
       },
       "a11y": {
         "note": "Teljes billentyűzet-navigáció az ágak között; minden ág-szöveg képernyőolvasóval olvasható; az emoji-szín-kódok (🟦/🟥/🟩) mellett szöveges pillér-megnevezés is szerepeljen (ne csak szín hordozza az információt – WCAG 1.4.1)"
@@ -10386,7 +10407,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Magába foglalja a belépő M2.3-VID-01-et és a pillér-választót; a 3 ág szín-kódja az M2.3-IKO-01 ikonokkal koherens;nyitott döntésjelölés a forrásban: béke-/palesztin-dimenzió (235) és gyártási embernap (13)",
+      "notes": "Magába foglalja a belépő M2.3-VID-01-et és a pillér-választót; a 3 ág szín-kódja az M2.3-IKO-01 ikonokkal koherens. A v1 leltár két nyitott-döntés jelölést hordozott ide (béke-/palesztin-dimenzió, gyártási embernap); mindkettő v1-es sorszámra hivatkozott, ami a jelenlegi leckében nem oldható fel — a pillérek szövege ma kiírva áll a leckében",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -10398,7 +10419,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "cdeb167a88f56a7e7abebd30dd6325502193237dac89d82a17e40be64bcb771f",
+      "spec_hash": "19419d5ab1115a29d15be19e17f135f7ffdfdf0385c9a5c80f705fe01aed270d",
       "deliverable_ids": [
         "M2.3-EGY-02"
       ],
@@ -13221,7 +13242,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 261,
+      "line": 216,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -13286,7 +13307,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 396,
+      "line": 351,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -13351,7 +13372,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 530,
+      "line": 485,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -13416,7 +13437,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 570,
+      "line": 525,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -13481,7 +13502,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 659,
+      "line": 614,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -13535,7 +13556,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 688,
+      "line": 643,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -13649,83 +13670,12 @@
       }
     },
     {
-      "id": "M3.2-NAR-02",
-      "unit": "M3.2",
-      "module": "M3",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 179,
-      "kind": "voiceover",
-      "subtype": "narration",
-      "mode": "generate",
-      "status": "blocked",
-      "title": "Input 1 opcionális narráció",
-      "purpose": "Auditív megerősítés a keretező üzenethez.",
-      "spec": "Opcionális narráció arról, miért fontos a kvucákat különböző profilként kezelni; ha minden kvucával ugyanúgy peulázol, vagy ők unatkoznak, vagy te kikészülsz; ezért hasznos 1-1 „fejprofil\". (A diaszöveg alapján, 89-99 – a forrás nem ad verbatim narráció-szöveget, csak jelzi, hogy opcionális.)",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
-      "technical": {
-        "note": "Hangfelvétel/TTS, 30–40 mp, magyar, tegező. Opcionális elem."
-      },
-      "a11y": {
-        "note": "Hanghoz felirat + leirat (M3.2-NAR-02::CAPTIONS, M3.2-NAR-02::TRANSCRIPT)."
-      },
-      "derivatives": [
-        "captions",
-        "transcript"
-      ],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [
-        "R3"
-      ],
-      "production_rules": [
-        "R1",
-        "R3"
-      ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ],
-      "decision": "Nincs jóváhagyott narráció-szöveg. A lecke a SLIDE „Input 1” diaszövegét adja meg (a négy kvuca-profil fókuszszavai, az „ugyanúgy peulázol” következménye és a „fejprofil” zárómondat), de kimondottan csak opcionális narrációt jelez, verbatim szkript nélkül. A szöveg megírása és jóváhagyása szerzői feladat; amíg nem kerül `@source` blokkba, a hang, a felirat és a leirat nem gyártható. Javasolt, kizárólag a jelenlegi diaszövegből összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D7.",
-      "notes": "Csak hangsáv (nincs külön beszélő-fej videó megjelölve). Ha gyártják, kell felirat/leirat is. A forrás nem ad kész narráció-szöveget.",
-      "review": "",
-      "source_ref": "",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [],
-      "source_text": "",
-      "source_hash": "",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "",
-      "spec_hash": "64a63de3c4fa48a8a4d71285aaa5c63fe10abff504251d5c991fbf25f8cbac0f",
-      "deliverable_ids": [
-        "M3.2-NAR-02",
-        "M3.2-NAR-02::CAPTIONS",
-        "M3.2-NAR-02::TRANSCRIPT"
-      ],
-      "legacy": {
-        "asset": [
-          "M3.2-NAR-02"
-        ],
-        "captions": [
-          "M3.2-FEL-02"
-        ],
-        "transcript": [
-          "M3.2-LEI-02"
-        ]
-      }
-    },
-    {
       "id": "M3.2-NAR-03",
       "unit": "M3.2",
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 301,
+      "line": 256,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13763,8 +13713,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        383,
-        389
+        338,
+        344
       ],
       "source_text": "„A Parparim kvuca világa még nagyon a játékról, a mozgásról és a biztonságról szól.\n\nA Kivsza kvucánál már sokkal fontosabb, hogy ki a menő, kihez tartozom, hol van az én helyem a csoportban.\n\nHa ezt érted, könnyebb lesz eldönteni, mikor mivel lépsz közbe egy-egy beszólásba, és mikor érdemes inkább játékon keresztül dolgozni.”",
       "source_hash": "029f171ad29664890698eb1c5041c960ccd9d549e9404da1a7ff77c22150c9b1",
@@ -13796,7 +13746,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 436,
+      "line": 391,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13834,8 +13784,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        517,
-        523
+        472,
+        478
       ],
       "source_text": "„Leviatan kvucánál az identitás és a kapcsolatok körül forog sok minden.\n\nZorea kvucánál már nagyon fontos a vélemény, a vita, a felelősségvállalás.\n\nItt madrichként akkor tudsz működni, ha nem csak ‘tanárként’, hanem tényleg partnerként vagy jelen.”",
       "source_hash": "3ec2a401aca540f4d34f9ef93649ced0aa4338ba317f028dfe18eb284f35b13e",
@@ -13867,7 +13817,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 753,
+      "line": 708,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13905,8 +13855,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        882,
-        887
+        837,
+        842
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza, Leviatan és Zorea kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
       "source_hash": "4f5665d234e3422d2b6cef1f5d0e5c778cfbebd2bc53f5e88d081b13b2689b42",
@@ -14754,10 +14704,10 @@
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
-      "status": "pending-production-rule",
+      "status": "pending-human-decision",
       "title": "Do/Don’t három témablokk – minibox-pár diagram (SLIDE 3)",
       "purpose": "A határok 3 világos területre bontva, hosszú lista helyett áttekinthető DO/DON’T párokban.",
-      "spec": "Vizuális elrendezésű diagram/ábra három témablokkal (3A. Kommunikáció & online, 3B. Kapcsolatok & kedvencek, 3C. Dohány & alkohol – ken vs. magánélet), mindegyiknél egy DO és egy DON’T minibox-pár, rövid bulletekkel. A három blokk DO/DON’T kontrasztja vizuálisan elkülönül (pl. zöld/piros). A 3C dohány-alkohol blokk konkrét szabálya a ken hivatalos magatartási kódexétől függ (nyitott döntésplaceholder, 161. sor).",
+      "spec": "Vizuális elrendezésű diagram/ábra három témablokkal (3A. Kommunikáció & online, 3B. Kapcsolatok & kedvencek, 3C. Dohány & alkohol – ken vs. magánélet), mindegyiknél egy DO és egy DON’T minibox-pár, rövid bulletekkel. A három blokk DO/DON’T kontrasztja vizuálisan elkülönül (pl. zöld/piros). A 3C dohány-alkohol blokk konkrét szabálya a ken hivatalos magatartási kódexétől függ — lásd az asset `decision` mezőjét.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -14781,9 +14731,11 @@
         "R1",
         "R5"
       ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "3C blokk a ken code of conduct kitöltésétől függ (161. sor).",
+      "readiness_issues": [
+        "OPEN_DECISION"
+      ],
+      "decision": "A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős.",
+      "notes": "3C blokk a ken code of conduct kitöltésétől függ (161. sor). Ugyanaz a kódex-függés, mint az M3.4-EGY-03-nál: a diagram 3C blokkja is a szabályzattól függ, ezért ez is emberi döntésre vár, nem csak az R5-re.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -14795,7 +14747,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a570a24a1c0863a901290623676388a5defc7897c51a059b9c6c9e8db063fe19",
+      "spec_hash": "b2ce49978602c41e613cebdc2a4cd10cc55fecca120d7512c92740057d655770",
       "deliverable_ids": [
         "M3.4-DIA-01",
         "M3.4-DIA-01::ALTTEXT"
@@ -14923,11 +14875,11 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 402,
+      "line": 403,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
-      "status": "spec-ready",
+      "status": "pending-human-decision",
       "title": "H5P Sorting / Drag & Drop – „OK / Nem OK madrichként” (SLIDE 4)",
       "purpose": "Do/Don’t aktív gyakorlása életszerű helyzetekkel; ez kapus belépő feltétel (activity completion).",
       "spec": "H5P Sorting / Drag & Drop két kategóriával („OK madrichként” / „Nem OK / red flag-gyanús”). A forrás struktúrája „8–10 kártyát” említ (184. sor), és pontosan 10 felsorolt helyzet-kártyát ad meg (193–212. sor), helyes besorolással. Per-kártya feedback-szövegek az 5., 6., 7., 8., 10. kártyához (214–225. sor) + instrukció (188–189. sor).",
@@ -14947,9 +14899,11 @@
       "production_rules": [
         "R1"
       ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "A kártyák tartalma részben a ken dohány/alkohol kódextől függ (6–8. kártya). A forrás 184. sora „8–10” kártyát ír, a felsorolás konkrétan 10 kártya.",
+      "readiness_issues": [
+        "OPEN_DECISION"
+      ],
+      "decision": "A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős.",
+      "notes": "A kártyák tartalma részben a ken dohány/alkohol kódextől függ (6–8. kártya). A forrás 184. sora „8–10” kártyát ír, a felsorolás konkrétan 10 kártya. A kódex-függés 2026-08-27-én `decision` mezőbe került: a jegyzet korábban leírta, de a készültségi állapot nem tükrözte, így a tétel tévesen a „most gyártható” kötegben állt.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -14961,7 +14915,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a28daaccdce0e08afeace89cfef58481f05633d0d059c6951e9ed86cf1c7c7aa",
+      "spec_hash": "e7ca7e3ae399eafd43614af69679b899cf9095ba51f6a3a98a9b4bd6537f4ae8",
       "deliverable_ids": [
         "M3.4-EGY-03"
       ],
@@ -14977,7 +14931,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 431,
+      "line": 433,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -15031,7 +14985,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 611,
+      "line": 613,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -15085,7 +15039,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 515,
+      "line": 517,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -15139,7 +15093,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 691,
+      "line": 693,
       "kind": "other",
       "subtype": "moodle-activity",
       "mode": "generate",
@@ -15312,7 +15266,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 544,
+      "line": 546,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -15374,7 +15328,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-      "line": 720,
+      "line": 722,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -15412,8 +15366,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        809,
-        813
+        811,
+        815
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy konkrétabb képed arról, mit csinál és mit nem csinál egy megbízható madrich.\nA modulproduktum feladattal ezt fogod kipróbálni egy konkrét helyzeten keresztül.\nNe feledd: nem vagy egyedül – a cél az, hogy **együtt** tartsuk biztonságban a chanichokat.”",
       "source_hash": "08ee1dfba8934398b2f20c46218479d2d59124ae0a89bcee242f7fb4812777ff",
@@ -16741,7 +16695,7 @@
       "status": "pending-production-rule",
       "title": "AI-eredet címke ikon/badge a Hook videóhoz",
       "purpose": "A tanuló tudatában legyen, mikor lát AI-generált tartalmat (etikai átláthatóság).",
-      "spec": "Jól látható, tanulónak szóló badge/ikon a videó sarkában/alatt robot-emoji jelleggel és szöveggel: „🤖 Ez a videó generatív AI-val készült.” (UNESCO AI-etika átláthatóság).",
+      "spec": "Jól látható, tanulónak szóló badge/ikon a videó sarkában/alatt, robot-emoji jelleggel; a felirat a kanonikus R1-szöveg szó szerint: „AI-generált médiaelem · emberi lektorálással.” Az emoji a badge vizuális eleme, nem a szöveg része. (UNESCO AI-etika átláthatóság).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16750,7 +16704,7 @@
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Alt-szöveg kell: „Jelölés: ez a videó generatív AI-val készült.”"
+        "note": "Alt-szöveg kell, a kanonikus címke szövegével: „AI-generált médiaelem · emberi lektorálással.”"
       },
       "derivatives": [
         "alt-text"
@@ -16779,7 +16733,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1c7427b5ffd19a826ef8067c558e921d6bc9be1f159998b78858180905296533",
+      "spec_hash": "d13865bce7162a8a2fe65020160e40675bb4483a39d6a820ffc49b08634abc2d",
       "deliverable_ids": [
         "M4.1-IKO-01",
         "M4.1-IKO-01::ALTTEXT"
@@ -17276,7 +17230,7 @@
       "status": "pending-rights",
       "title": "Hook beszélő-fej videó – „Mit gondolnak rólad az első 5 másodpercben?”",
       "purpose": "Bevonás, ráérezni, hogy a test már a megszólalás előtt üzen; a lecke érzelmi belépője.",
-      "spec": "16:9 AI beszélő-fej videó, kb. 35–40 mp, semleges egyszerű háttérrel. Tartalom: belépés a peulára, minden szem rád néz, a test üzen mielőtt megszólalnál; cél nem a színészkedés, hanem 1-2 tudatos fókusz. A videó sarkára/aljára jól látható tanulói AI-címke égetve/overlayként: „🤖 Ez a videó generatív AI-val készült.”",
+      "spec": "16:9 AI beszélő-fej videó, kb. 35–40 mp, semleges egyszerű háttérrel. Tartalom: belépés a peulára, minden szem rád néz, a test üzen mielőtt megszólalnál; cél nem a színészkedés, hanem 1-2 tudatos fókusz. A videó sarkára/aljára jól látható tanulói AI-címke égetve/overlayként, a kanonikus R1-szöveggel: „AI-generált médiaelem · emberi lektorálással.”",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -17322,7 +17276,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b05b9278b21f46beaea4cead8620da9e0bb11d6aabe58408bd15d12560385024",
-      "spec_hash": "fed1cc535585514b8991afda43f7a40a58bd66f3263d556dd4e4173fb3935d20",
+      "spec_hash": "cc9a9ec8b2e9fd4eea3f34315fcc13f04e03e132c7bbd1a98cc02d372c9dccaa",
       "deliverable_ids": [
         "M4.1-VID-01",
         "M4.1-VID-01::VOICEOVER",
@@ -17967,7 +17921,7 @@
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
-      "status": "pending-human-decision",
+      "status": "pending-production-rule",
       "title": "Hook chat-buborék: ideges peula-mondat",
       "purpose": "Beránt egy ismerős helyzettel, érzelmileg azonnal bekapcsol (hook).",
       "spec": "Chat-szerű üzenetbuborék vagy kis illusztráció, amely megjeleníti a beérkező üzenetet: „Nagyon ideges vagyok, hogy holnap peulát kell tartanom…”. Mobil-first, középre helyezve. Hangulat: ismerős, hétköznapi feszültség.",
@@ -17994,11 +17948,9 @@
         "R1",
         "R5"
       ],
-      "readiness_issues": [
-        "OPEN_DECISION"
-      ],
-      "decision": "⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum. Az M4.1 beszélőfej-videóval nyit, az M4.2/M4.3/M4.4 statikus illusztrációval + narrációval. A korpusz azt mutatja, hogy ez NEM M4-specifikus anomália, hanem a tananyag általános mintája: 17 lecke nyit beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4), 15 pedig statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4, M5.2, M5.3, M6.3, M7.1, Z.1–Z.3) — az M1, M5, M6 és M7 modulon BELÜL is vegyesen. Eldöntendő: (A) a jelenlegi vegyes nyitás megerősítése (nincs új gyártás, ez az asset R5 alá kerül), vagy (B) M4-en belüli egységesítés, ami három új beszélőfej-videót és három új szkriptet jelent (M4.2/M4.3/M4.4). Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D4.",
-      "notes": "A slide 1 narrációjával (M4.2-NAR-01) és a Single Choice interakcióval (M4.2-EGY-01) összetartozik.",
+      "readiness_issues": [],
+      "decision": "",
+      "notes": "A slide 1 narrációjával (M4.2-NAR-01) és a Single Choice interakcióval (M4.2-EGY-01) összetartozik. Az M4 HOOK-formátum szerzői döntése 2026-08-27-én megszületett (PRODUCTION-DECISIONS.md D4, A opció): a jelenlegi vegyes nyitás megerősítve, az M4.2–M4.4 marad statikus illusztráció + narráció, új beszélőfej-videó nem készül. Az asset innentől a szokásos R5 vizuális-rendszer függősége alatt gyártandó.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -18010,7 +17962,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a6071bc23d084c841eee5a04ea319537cf3226953dd904b28600149ae0b3a6c8",
+      "spec_hash": "3669b724690ce8f9747a025b3625d7086319cfd2e3aee099d7c259bada5ccf50",
       "deliverable_ids": [
         "M4.2-ILL-01",
         "M4.2-ILL-01::ALTTEXT"
@@ -20400,9 +20352,9 @@
       "subtype": "ui-text",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Provenance-címke – AI-generált avatar / AI-elemek jelölés",
+      "title": "Provenance-címke – kanonikus AI-jelölés a videók alá",
       "purpose": "Etikus AI-feltüntetés; összhangban a képzés AI-provenance tanításával (D1.3).",
-      "spec": "Tanulónak látható AI-provenance felirat a beszélő fej videók alá (HOOK és OUTRO): \"AI-generált avatar, a szöveget ember írta és lektorálta.\" Etikus AI-használat jelölés (D1.3). A 22. sor szerint az AI-feltüntetés elve a SLIDE 3 ikon-grafikára (IKO-01/DIA-01) is kiterjed.",
+      "spec": "Tanulónak látható AI-provenance felirat a beszélő fej videók alá (HOOK és OUTRO), a kanonikus R1-szöveggel szó szerint: „AI-generált médiaelem · emberi lektorálással.” Etikus AI-használat jelölés (D1.3). A 22. sor szerint az AI-feltüntetés elve a SLIDE 3 ikon-grafikára (IKO-01/DIA-01) is kiterjed.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -20431,7 +20383,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "65845afe6e8d0bb881df6ed13d08ef74216ca265c336336dd6cf3db1557c2f52",
+      "spec_hash": "dcfdc5e1fd4c8a733cba0d6dc0e6aafb5203a76e8f7793e72f56f6ec0f87918b",
       "deliverable_ids": [
         "M5.1-EGY-01"
       ],
@@ -20616,7 +20568,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Összetartozik: M5.1-VID-01::VOICEOVER (narráció), M5.1-VID-01::CAPTIONS (felirat), M5.1-VID-01::TRANSCRIPT (leirat), M5.1-VID-01 (dekoratív/rejtett alt), M5.1-EGY-01 (provenance-címke). A videó alá tanulónak látható provenance-címke kell: \"AI-generált avatar, a szöveget ember írta és lektorálta.\"",
+      "notes": "Összetartozik: M5.1-VID-01::VOICEOVER (narráció), M5.1-VID-01::CAPTIONS (felirat), M5.1-VID-01::TRANSCRIPT (leirat), M5.1-VID-01 (dekoratív/rejtett alt), M5.1-EGY-01 (provenance-címke). A videó alá tanulónak látható provenance-címke kell, a kanonikus R1-szöveggel: „AI-generált médiaelem · emberi lektorálással.”",
       "review": "A v1 spec a HOOK-narráció régi megfogalmazását idézte („random pillanatok”); a jelenlegi lecke „teljesen más pillanatok”-at mond. A spec leíróvá vált, és nem duplikálja a felmondandó szöveget.",
       "source_ref": "M5.1-VID-01-VO",
       "composed_of": [],
@@ -22337,7 +22289,7 @@
       "status": "spec-ready",
       "title": "AI-provenance ember-olvasható sor (lecke alján/dián)",
       "purpose": "EU AI Act 50. cikk / Program terv §3.2 megfelelés: AI-eredet jelzése a tanulónak.",
-      "spec": "Tanuló felé látható, ember-olvasható szövegsor: „A videók egy része AI-eszközzel készült, emberi lektorálással.” Megjelenítendő a lecke alján/dián.",
+      "spec": "Tanuló felé látható, ember-olvasható szövegsor a kanonikus R1-szöveggel szó szerint: „AI-generált médiaelem · emberi lektorálással.” Megjelenítendő a lecke alján/dián.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22354,7 +22306,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A gépi-olvasható provenance-jelölés (C2PA/vízjel/metaadat) magában a videó-exportban van (lásd M6.1-VID-01 techSpec); eszköznyitott döntés(61. sor).",
+      "notes": "A gépi-olvasható provenance-jelölés (C2PA/vízjel/metaadat) magában a videó-exportban van (lásd M6.1-VID-01 techSpec); a generáló eszköz kiválasztása nyitott döntés (R2).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -22366,7 +22318,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6f0ddd150cbb84a838536b3212dd98662a004fcc31186349f2c5ec62255f16ce",
+      "spec_hash": "8937142d97797f7f0c94d7d9410bcbf76183c6b35f726af7a0f5984a01849577",
       "deliverable_ids": [
         "M6.1-EGY-01"
       ],
@@ -23611,7 +23563,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Összekapcsolódik: M6.1-VID-01::VOICEOVER (narráció), M6.1-VID-01::CAPTIONS (felirat), M6.1-VID-01::TRANSCRIPT (leirat), M6.1-EGY-01 (AI-provenance ember-olvasható sor). Gépi-olvasható provenance-jelölés (C2PA/vízjel) kötelező, lásd 61. sor / Program terv §3.2; az eszköznyitott döntés(61. sor).",
+      "notes": "Összekapcsolódik: M6.1-VID-01::VOICEOVER (narráció), M6.1-VID-01::CAPTIONS (felirat), M6.1-VID-01::TRANSCRIPT (leirat), M6.1-EGY-01 (AI-provenance ember-olvasható sor). Gépi-olvasható provenance-jelölés (C2PA/vízjel) kötelező, lásd Program terv §3.2; a generáló eszköz kiválasztása nyitott döntés (R2).",
       "review": "",
       "source_ref": "M6.1-VID-01-VO",
       "composed_of": [],
@@ -27504,7 +27456,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "a videóelem dekoratív: a tartalmat a felirat és a leirat szó szerint lefedi",
-        "note": "Kötelező felirat + teljes szöveges leirat (külön assetek). A videó alá kiírandó: „AI-generált avatar, narrációt madrich lektorálta”."
+        "note": "Kötelező felirat + teljes szöveges leirat (külön assetek). A videó alá kiírandó a kanonikus R1-szöveg: „AI-generált médiaelem · emberi lektorálással.”"
       },
       "derivatives": [
         "voiceover",
@@ -27540,7 +27492,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6e25eb488337bc35d878d82eba93a6ce84bee850488f8638a5ec901e62fd787e",
-      "spec_hash": "4547a02d6e806be1cc6f90b7bb3359fe3bb7c0e30f7202d4742fb778e38c6809",
+      "spec_hash": "39fa1cc0e4592f9048c6c72079c14b05d625ec03252d6b01098342b6fbdb7ecc",
       "deliverable_ids": [
         "M7.2-VID-01",
         "M7.2-VID-01::VOICEOVER",
@@ -28120,7 +28072,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált (avatar + narráció), a tartalmat madrich lektorálta",
       "technical": {
-        "note": "Videó 16:9, 30–40 mp, magyar narráció, felirattal; alá kiírva: „AI-generált avatar, narrációt madrich lektorálta”."
+        "note": "Videó 16:9, 30–40 mp, magyar narráció, felirattal; alá kiírva a kanonikus R1-szöveg: „AI-generált médiaelem · emberi lektorálással.”"
       },
       "a11y": {
         "audio": "spoken",
@@ -28162,7 +28114,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "2a6b5f0207d85cfe17ebeea4779fc50c58621a774e42156c0623ddec8d3c9d4f",
-      "spec_hash": "823066b248a7ab931c35f43ec805bf2215a06ffef551cce22ec16fdee277f22b",
+      "spec_hash": "f6702181c878db86fdfc1824713194695ba4a02fd0a4052eaee2a2a3c76b2780",
       "deliverable_ids": [
         "M7.3-VID-01",
         "M7.3-VID-01::VOICEOVER",
@@ -28461,7 +28413,7 @@
       "purpose": "Bevonás, azonosulás; érzelmi keretezés a „vállalható peula\" üzenet köré a HOOK-ban.",
       "spec": "16:9 AI beszélő-fej videó, 30–40 mp. A narráció szembeállítja a „papíron gyönyörű, de 45 percbe nem férő, B-terv és safety nélküli\" peulát a „nem tökéletes, de világos célú, reális, vállalható\" peulával, és bevezeti, hogy a leckében egy vállalható Peula vázat raknak össze, amit Zmán Kvucában is el lehet képzelni.",
       "provenance": "ai",
-      "provenance_note": "AI-generált (avatar + narráció), madrich lektorálta kiadás előtt – feltüntetendő a videó alatt: „AI-generált avatar, narrációt madrich lektorálta\"",
+      "provenance_note": "AI-generált (avatar + narráció), madrich lektorálta kiadás előtt – a videó alatt a kanonikus R1-szöveg: „AI-generált médiaelem · emberi lektorálással.”",
       "technical": {
         "note": "16:9, 30–40 mp, magyar nyelvű narráció, beégetett/kapcsolható felirat, mobil-first H5P Course Presentation slide-ba ágyazva"
       },
@@ -28505,7 +28457,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "bc4a9cd4b2227730e6f27bcb4f5e2123a7aae8b2e793ed5bca45ccb4f69e9bba",
-      "spec_hash": "3ac64e9b6b83361f59afb8fdc4e11b9dcd2ad1b1cf04c7e661a61813cf766c5f",
+      "spec_hash": "ac6c63a48d6d2e73649c11164690667aa227723363d91df0051f1481ee34e4e7",
       "deliverable_ids": [
         "M7.4-VID-01",
         "M7.4-VID-01::VOICEOVER",
@@ -30283,7 +30235,7 @@
       "module": "Z",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md",
-      "line": 232,
+      "line": 233,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
@@ -30343,7 +30295,7 @@
       "module": "Z",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md",
-      "line": 350,
+      "line": 351,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
@@ -30414,7 +30366,8 @@
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "A4 lapok vagy kártyák, magyar nyelv, nyomtatható; az eredeti M0.A artefaktum hiányában a képző állítja össze; 2–3 db."
+        "note": "A4 lapok vagy kártyák, magyar nyelv, nyomtatható; az eredeti M0.A artefaktum hiányában a képző állítja össze; 2–3 db.",
+        "production_phase": "trainer-at-runtime"
       },
       "a11y": {
         "note": "Fizikai idézet-lap; nagy, olvasható betű; anonimizált tartalom; alt-szöveg nem releváns."
@@ -30434,7 +30387,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Forrás-függő: az M0.A kickoff-plakát beszerzésén alapul; ha nincs, a képző generálja a saját jegyzeteiből (54. sor).",
+      "notes": "Forrás-függő: az M0.A kickoff-plakát beszerzésén alapul; ha nincs, a képző generálja a saját jegyzeteiből (54. sor). A `technical.production_phase: trainer-at-runtime` azt rögzíti, hogy a kártyák tartalma az élő M0.A peulából származik (a kickoff-plakátról, vagy a képző saját jegyzeteiből), ezért központilag, előre nem gyártható.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -30446,7 +30399,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a352593d7cd781d71ca2b54eed8acc7055a042c9099fdcc9fb11ea6f4a7c236c",
+      "spec_hash": "bcf0a1c322d9afa9e351208ff022715e023fe9b713cd1a093ce2af21a715db05",
       "deliverable_ids": [
         "Z.A-KART-04",
         "Z.A-KART-04::PRINTPDF"
@@ -30463,7 +30416,7 @@
       "module": "Z",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md",
-      "line": 267,
+      "line": 268,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -30523,7 +30476,7 @@
       "module": "Z",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md",
-      "line": 478,
+      "line": 479,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -30583,7 +30536,7 @@
       "module": "Z",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md",
-      "line": 419,
+      "line": 420,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -33811,20 +33764,17 @@
       "file_kind": "online-lecke",
       "title": "HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel",
       "mode": "generate",
-      "status": "blocked",
+      "status": "pending-rights",
       "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
+      "source_id": "M1.3-VID-01-VO",
+      "text": "**1. verzió — címkéző**\n**Madrich A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrich B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió — SBI-szerű**\n**Madrich A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrich B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "text_hash": "5f32a78c2c7e3019a009b73f56613a3e30caf93f1ee32507b43b700f27e32007",
       "blockers": [
         "R2",
         "R3",
         "R5"
       ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ]
+      "readiness_issues": []
     },
     {
       "id": "M1.3-VID-01::CAPTIONS",
@@ -33839,20 +33789,17 @@
       "file_kind": "online-lecke",
       "title": "HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — felirat",
       "mode": "generate",
-      "status": "blocked",
+      "status": "pending-rights",
       "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
+      "source_id": "M1.3-VID-01-VO",
+      "text": "**1. verzió — címkéző**\n**Madrich A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrich B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió — SBI-szerű**\n**Madrich A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrich B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "text_hash": "5f32a78c2c7e3019a009b73f56613a3e30caf93f1ee32507b43b700f27e32007",
       "blockers": [
         "R2",
         "R3",
         "R5"
       ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ]
+      "readiness_issues": []
     },
     {
       "id": "M1.3-VID-01::TRANSCRIPT",
@@ -33867,20 +33814,17 @@
       "file_kind": "online-lecke",
       "title": "HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — leirat",
       "mode": "generate",
-      "status": "blocked",
+      "status": "pending-rights",
       "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
+      "source_id": "M1.3-VID-01-VO",
+      "text": "**1. verzió — címkéző**\n**Madrich A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrich B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió — SBI-szerű**\n**Madrich A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrich B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "text_hash": "5f32a78c2c7e3019a009b73f56613a3e30caf93f1ee32507b43b700f27e32007",
       "blockers": [
         "R2",
         "R3",
         "R5"
       ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ]
+      "readiness_issues": []
     },
     {
       "id": "M1.4-DIA-01",
@@ -38411,84 +38355,6 @@
       "readiness_issues": []
     },
     {
-      "id": "M3.2-NAR-02",
-      "asset_id": "M3.2-NAR-02",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M3.2",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "file_kind": "online-lecke",
-      "title": "Input 1 opcionális narráció",
-      "mode": "generate",
-      "status": "blocked",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [
-        "R3"
-      ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ]
-    },
-    {
-      "id": "M3.2-NAR-02::CAPTIONS",
-      "asset_id": "M3.2-NAR-02",
-      "role": "captions",
-      "role_label": "felirat",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M3.2",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "file_kind": "online-lecke",
-      "title": "Input 1 opcionális narráció — felirat",
-      "mode": "generate",
-      "status": "blocked",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [
-        "R3"
-      ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ]
-    },
-    {
-      "id": "M3.2-NAR-02::TRANSCRIPT",
-      "asset_id": "M3.2-NAR-02",
-      "role": "transcript",
-      "role_label": "leirat",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M3.2",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "file_kind": "online-lecke",
-      "title": "Input 1 opcionális narráció — leirat",
-      "mode": "generate",
-      "status": "blocked",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [
-        "R3"
-      ],
-      "readiness_issues": [
-        "MISSING_SPOKEN_SOURCE",
-        "OPEN_DECISION"
-      ]
-    },
-    {
       "id": "M3.2-NAR-03",
       "asset_id": "M3.2-NAR-03",
       "role": "primary",
@@ -39360,7 +39226,7 @@
       "file_kind": "online-lecke",
       "title": "Do/Don’t három témablokk – minibox-pár diagram (SLIDE 3)",
       "mode": "generate",
-      "status": "pending-production-rule",
+      "status": "pending-human-decision",
       "provenance": "ai",
       "source_id": "",
       "text": "",
@@ -39368,7 +39234,9 @@
       "blockers": [
         "R5"
       ],
-      "readiness_issues": []
+      "readiness_issues": [
+        "OPEN_DECISION"
+      ]
     },
     {
       "id": "M3.4-DIA-01::ALTTEXT",
@@ -39383,7 +39251,7 @@
       "file_kind": "online-lecke",
       "title": "Do/Don’t három témablokk – minibox-pár diagram (SLIDE 3) — alt-szöveg",
       "mode": "generate",
-      "status": "pending-production-rule",
+      "status": "pending-human-decision",
       "provenance": "ai",
       "source_id": "",
       "text": "",
@@ -39391,7 +39259,9 @@
       "blockers": [
         "R5"
       ],
-      "readiness_issues": []
+      "readiness_issues": [
+        "OPEN_DECISION"
+      ]
     },
     {
       "id": "M3.4-EGY-01",
@@ -39448,13 +39318,15 @@
       "file_kind": "online-lecke",
       "title": "H5P Sorting / Drag & Drop – „OK / Nem OK madrichként” (SLIDE 4)",
       "mode": "generate",
-      "status": "spec-ready",
+      "status": "pending-human-decision",
       "provenance": "ai",
       "source_id": "",
       "text": "",
       "text_hash": "",
       "blockers": [],
-      "readiness_issues": []
+      "readiness_issues": [
+        "OPEN_DECISION"
+      ]
     },
     {
       "id": "M3.4-EGY-04",
@@ -41585,7 +41457,7 @@
       "file_kind": "online-lecke",
       "title": "Hook chat-buborék: ideges peula-mondat",
       "mode": "generate",
-      "status": "pending-human-decision",
+      "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "",
       "text": "",
@@ -41593,9 +41465,7 @@
       "blockers": [
         "R5"
       ],
-      "readiness_issues": [
-        "OPEN_DECISION"
-      ]
+      "readiness_issues": []
     },
     {
       "id": "M4.2-ILL-01::ALTTEXT",
@@ -41610,7 +41480,7 @@
       "file_kind": "online-lecke",
       "title": "Hook chat-buborék: ideges peula-mondat — alt-szöveg",
       "mode": "generate",
-      "status": "pending-human-decision",
+      "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "",
       "text": "",
@@ -41618,9 +41488,7 @@
       "blockers": [
         "R5"
       ],
-      "readiness_issues": [
-        "OPEN_DECISION"
-      ]
+      "readiness_issues": []
     },
     {
       "id": "M4.2-ILL-02",
@@ -43513,7 +43381,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
       "file_kind": "online-lecke",
-      "title": "Provenance-címke – AI-generált avatar / AI-elemek jelölés",
+      "title": "Provenance-címke – kanonikus AI-jelölés a videók alá",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",

@@ -19,15 +19,15 @@
 | Feldolgozott forrásfájl | **84** |
 | Assetet tartalmazó fájl | 65 |
 | Ellenőrzötten asset nélküli fájl | 19 |
-| Forrásblokk (`@source`) | 123 |
-| Szemantikus asset | **418** |
-| Produkciós deliverable | **906** |
+| Forrásblokk (`@source`) | 124 |
+| Szemantikus asset | **417** |
+| Produkciós deliverable | **903** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 404 |
+| legyártandó | 403 |
 | újrahasznosítás | 7 |
 | külső forrás | 6 |
 | emberi döntés kell | 1 |
@@ -36,7 +36,7 @@
 
 | Típus | Db |
 |---|--:|
-| voiceover | 91 |
+| voiceover | 90 |
 | worksheet | 63 |
 | illustration | 47 |
 | icon-set | 42 |
@@ -52,11 +52,11 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 411 |
+| elsődleges | 410 |
 | alt-szöveg | 124 |
 | nyomtatható PDF | 122 |
-| leirat | 114 |
-| felirat | 111 |
+| leirat | 113 |
+| felirat | 110 |
 | felmondott hang | 21 |
 | szerkeszthető, kitölthető változat | 3 |
 
@@ -67,7 +67,7 @@
 | M0 | 24 |
 | M1 | 58 |
 | M2 | 48 |
-| M3 | 66 |
+| M3 | 65 |
 | M4 | 58 |
 | M5 | 31 |
 | M6 | 66 |
@@ -79,17 +79,16 @@
 | Státusz | Db |
 |---|--:|
 | produkciós szabályra vár | 339 |
-| specifikáció kész | 46 |
-| jogtisztázás alatt | 29 |
-| blokkolt | 2 |
-| emberi döntésre vár | 2 |
+| specifikáció kész | 45 |
+| jogtisztázás alatt | 30 |
+| emberi döntésre vár | 3 |
 
 **Nyitott produkciós blokkolók (hivatkozások szerint)**
 
 | Blokkoló | Érintett asset |
 |---|--:|
 | R5 | 258 |
-| R3 | 118 |
+| R3 | 117 |
 | R2 | 28 |
 | R8 | 2 |
 | R7 | 1 |
@@ -103,7 +102,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | Szabály | Mi hiányzik | Érintett asset |
 |---|---|--:|
 | **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 28 |
-| **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID ⟬KITÖLTENDŐ⟭ | 118 |
+| **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID ⟬KITÖLTENDŐ⟭ | 117 |
 | **R5** — Ikon- és karakter-batch + lock | A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭ | 258 |
 
 ## 🗂 Assetek fájlonként
@@ -232,7 +231,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M1.3-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Activity 2 (saját mini-SBI) narráció (20–30 mp) | `M1.3-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M1.3-NAR-06` | voiceover/narration | legyártandó | produkciós szabályra vár | Self-check narráció (10–15 mp) | `M1.3-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M1.3-NAR-07` | voiceover/narration | legyártandó | produkciós szabályra vár | Zárószöveg narráció (10–15 mp) | `M1.3-NAR-07-VO` | felirat, leirat | AI-generált |
-| `M1.3-VID-01` | video/interactive | legyártandó | blokkolt | HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel | — | felirat, leirat | AI-generált |
+| `M1.3-VID-01` | video/interactive | legyártandó | jogtisztázás alatt | HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel | `M1.3-VID-01-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md
 
@@ -425,7 +424,6 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 4 kvuca-címke) | — | — | AI-generált |
 | `M3.2-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Húzás-mentes Matching alternatíva (Single Choice Set / legördülős) | — | — | AI-generált |
 | `M3.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | 4 kvuca ikon-készlet (🦋 🐑 🐋 🌱) | — | alt-szöveg | AI-generált |
-| `M3.2-NAR-02` | voiceover/narration | legyártandó | blokkolt | Input 1 opcionális narráció | — | felirat, leirat | AI-generált |
 | `M3.2-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Parparim & Kivsza opcionális narráció | `M3.2-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M3.2-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Leviatan & Zorea opcionális narráció | `M3.2-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M3.2-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Outro narráció hangsáv | `M3.2-NAR-05-VO` | felirat, leirat | AI-generált |
@@ -455,10 +453,10 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M3.4-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Do/Don’t három témablokk – minibox-pár diagram (SLIDE 3) | — | alt-szöveg | AI-generált |
+| `M3.4-DIA-01` | diagram | legyártandó | emberi döntésre vár | Do/Don’t három témablokk – minibox-pár diagram (SLIDE 3) | — | alt-szöveg | AI-generált |
 | `M3.4-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice interakció – „Mennyire érzed fontosnak…” (SLIDE 1) | — | — | AI-generált |
 | `M3.4-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Mini True/False interakció – szigorúbb határok (SLIDE 2) | — | — | AI-generált |
-| `M3.4-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Sorting / Drag & Drop – „OK / Nem OK madrichként” (SLIDE 4) | — | — | AI-generált |
+| `M3.4-EGY-03` | other/h5p-interaction | legyártandó | emberi döntésre vár | H5P Sorting / Drag & Drop – „OK / Nem OK madrichként” (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzás-mentes a11y-alternatíva – Single Choice/Matching (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Question Set – mini-kvíz 3 kérdés (SLIDE 6) | — | — | AI-generált |
 | `M3.4-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges reflexiós mező – „Saját Do/Don’t listám” (SLIDE 5) | — | — | AI-generált |
@@ -542,7 +540,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.2-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | H5P mini-quiz – 2 Single Choice kérdés (Check) | — | — | vegyes |
 | `M4.2-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | 2× szabad szöveges mező – reflektív kérdések (visszatükröző mondat + elhagyandó mondat) | — | — | vegyes |
 | `M4.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Fogalom-ikonok: fejhallgató (aktív hallgatás) & körkörös nyíl (visszatükrözés) | — | — | AI-generált |
-| `M4.2-ILL-01` | illustration | legyártandó | emberi döntésre vár | Hook chat-buborék: ideges peula-mondat | — | alt-szöveg | AI-generált |
+| `M4.2-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Hook chat-buborék: ideges peula-mondat | — | alt-szöveg | AI-generált |
 | `M4.2-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Két fogalom-doboz: Aktív hallgatás & Visszatükrözés | — | alt-szöveg | AI-generált |
 | `M4.2-ILL-03` | illustration | legyártandó | produkciós szabályra vár | Outro összegző checklist vizuál | — | alt-szöveg | AI-generált |
 | `M4.2-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 1 narráció – „Mit mondanál elsőre?” | `M4.2-NAR-01-VO` | felirat, leirat | AI-generált |
@@ -629,7 +627,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M5.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Háromoszlopos formális/nonformális/informális grafika | — | alt-szöveg | AI-generált |
-| `M5.1-EGY-01` | other/ui-text | legyártandó | specifikáció kész | Provenance-címke – AI-generált avatar / AI-elemek jelölés | — | — | emberi |
+| `M5.1-EGY-01` | other/ui-text | legyártandó | specifikáció kész | Provenance-címke – kanonikus AI-jelölés a videók alá | — | — | emberi |
 | `M5.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Három tanulástípus ikon-grafika | — | — | AI-generált |
 | `M5.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | INPUT 2 narráció – három fogalom definíciója | `M5.1-NAR-02-VO` | felirat, leirat | vegyes |
 | `M5.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK beszélő fej – suli / somer / random | `M5.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
@@ -1013,19 +1011,17 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Akadály | Státusz |
 |---|---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | nincs felmondható forrásszöveg; nyitott emberi döntés | blokkolt |
 | `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | nyitott emberi döntés | emberi döntésre vár |
-| `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | nincs felmondható forrásszöveg; nyitott emberi döntés | blokkolt |
-| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | nyitott emberi döntés | emberi döntésre vár |
+| `M3.4-DIA-01` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | nyitott emberi döntés | emberi döntésre vár |
+| `M3.4-EGY-03` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | nyitott emberi döntés | emberi döntésre vár |
 
 ## ⚖️ Emberi döntésre váró tételek
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | A HOOK-dialóg felmondható, VÉGLEGES szövege szerzői jóváhagyást igényel. A lecke a négy mondatot kiírja (SLIDE 1 „Mit látunk?”), de a „Mit hallunk?” sor kifejezetten úgy fogalmaz, hogy „Nagyjából a fenti mondatok” (201. sor) — ez implementációs szabadság, nem jóváhagyott szkript. Amíg a szerző nem hagyja jóvá a szó szerinti szöveget és az nem kerül `@source` blokkba, a felirat és a leirat nem gyártható. Javasolt, a lecke mondataiból összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D6. |
 | `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 feedbackjeiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5. |
-| `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | Nincs jóváhagyott narráció-szöveg. A lecke a SLIDE „Input 1” diaszövegét adja meg (a négy kvuca-profil fókuszszavai, az „ugyanúgy peulázol” következménye és a „fejprofil” zárómondat), de kimondottan csak opcionális narrációt jelez, verbatim szkript nélkül. A szöveg megírása és jóváhagyása szerzői feladat; amíg nem kerül `@source` blokkba, a hang, a felirat és a leirat nem gyártható. Javasolt, kizárólag a jelenlegi diaszövegből összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D7. |
-| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | ⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum. Az M4.1 beszélőfej-videóval nyit, az M4.2/M4.3/M4.4 statikus illusztrációval + narrációval. A korpusz azt mutatja, hogy ez NEM M4-specifikus anomália, hanem a tananyag általános mintája: 17 lecke nyit beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4), 15 pedig statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4, M5.2, M5.3, M6.3, M7.1, Z.1–Z.3) — az M1, M5, M6 és M7 modulon BELÜL is vegyesen. Eldöntendő: (A) a jelenlegi vegyes nyitás megerősítése (nincs új gyártás, ez az asset R5 alá kerül), vagy (B) M4-en belüli egységesítés, ami három új beszélőfej-videót és három új szkriptet jelent (M4.2/M4.3/M4.4). Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D4. |
+| `M3.4-DIA-01` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős. |
+| `M3.4-EGY-03` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős. |
 
 ---
 

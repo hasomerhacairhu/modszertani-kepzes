@@ -34,6 +34,37 @@ import media_migrate_v2 as mig  # noqa: E402
 #: against it: everything the migration added must be strippable back to this.
 BASELINE_COMMIT = "a8629732e46eb489644dc90a624e6c8466612eda"
 
+#: The only learner- or trainer-visible edits made since that commit, each with
+#: the approved decision behind it. Anything else must still strip back to the
+#: baseline exactly. Keys are repo-relative paths.
+APPROVED_VISIBLE_EDITS = {
+    # D9 — one canonical human-readable AI provenance label replaces four variants.
+    "02 Tervezet/Program terv.md":
+        "D9 — a kanonikus AI-provenance címke szövege (§4 és §9 7. sor)",
+    "02 Tervezet/Emberi jóváhagyás szükséges.md":
+        "D9 — a címke szövege jóváhagyva; az elhelyezés és a jogi review nyitva marad",
+    "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md":
+        "D9 — címkecsere",
+    "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md":
+        "D9 — címkecsere",
+    "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md":
+        "D9 — címkecsere",
+    "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md":
+        "D9 — címkecsere",
+    "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md":
+        "D9 — címkecsere",
+    "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md":
+        "D9 — címkecsere",
+    "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md":
+        "D9 — címkecsere",
+    # D6 — the approved HOOK dialogue moved into a canonical @source block.
+    "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md":
+        "D6 — a jóváhagyott HOOK-dialóg @source blokkba került a „Nagyjából…” helyére",
+    # D7 — the optional narration is not produced, so the slide stops asking for it.
+    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md":
+        "D7 — az „Opcionális narráció (30–40 mp)” sor törölve; a dia tartalma változatlan",
+}
+
 LESSON_DIR = "02 Tervezet/Modulok/M9/Online leckék"
 LESSON = f"{LESSON_DIR}/M9.1 – Teszt lecke.md"
 
@@ -660,12 +691,6 @@ class TestRepositoryCorpus(unittest.TestCase):
             if mm.MISSING_SPOKEN_SOURCE in deliverable["readiness_issues"]:
                 self.assertEqual("blocked", deliverable["status"], deliverable["id"])
 
-    def test_the_m4_hook_decision_blocks_its_asset(self):
-        asset = next(a for a in self.model["assets"] if a["id"] == "M4.2-ILL-01")
-        self.assertTrue(asset["decision"])
-        self.assertEqual("generate", asset["mode"], "a mód továbbra is legyártandó")
-        self.assertEqual("pending-human-decision", asset["status"])
-
     def test_m51_hidden_spec_no_longer_contradicts_the_live_narration(self):
         """F-04: the drift had moved from `verbatim` into the hidden spec."""
         by_id = {a["id"]: a for a in self.model["assets"]}
@@ -1027,27 +1052,40 @@ class TestContentInvariant(unittest.TestCase):
                                 capture_output=True)
         return result.returncode == 0
 
-    def test_stripping_v2_metadata_restores_the_baseline_byte_for_byte(self):
+    def test_only_approved_edits_changed_learner_visible_text(self):
+        """The migration itself stays metadata-only; approved edits are named.
+
+        Every file must strip back to the baseline byte for byte — except the ones
+        the user explicitly approved on 2026-08-27, which are listed with what
+        changed in them. `TestApprovedDecisions` then checks that each of those
+        files carries exactly the approved change. A file that drifts without an
+        entry here still fails, and a stale entry fails too.
+        """
         if not self._baseline_available():
             self.skipTest(f"a kiindulási commit ({BASELINE_COMMIT[:7]}) nem elérhető "
                           "(sekély klón) — a CI teljes historyval futtatja")
-        differences = []
+        unapproved, unchanged_but_listed = [], []
         touched = 0
         for path in mm.discover_sources():
             rel = path.relative_to(mm.ROOT).as_posix()
             blob = subprocess.run(["git", "-C", str(mm.ROOT), "show",
                                    f"{BASELINE_COMMIT}:{rel}"], capture_output=True)
             if blob.returncode != 0:
-                differences.append(f"{rel}: nincs a kiindulási commitban")
+                unapproved.append(f"{rel}: nincs a kiindulási commitban")
                 continue
             baseline = blob.stdout.decode("utf-8")
             current = path.read_text(encoding="utf-8")
             if current != baseline:
                 touched += 1
-            if mig.strip_metadata(current) != baseline:
-                differences.append(rel)
-        self.assertEqual([], differences,
-                         "a v2 metaadat eltávolítása után is maradt eltérés")
+            visible_changed = mig.strip_metadata(current) != baseline
+            if visible_changed and rel not in APPROVED_VISIBLE_EDITS:
+                unapproved.append(rel)
+            if not visible_changed and rel in APPROVED_VISIBLE_EDITS:
+                unchanged_but_listed.append(rel)
+        self.assertEqual([], unapproved,
+                         "jóvá nem hagyott tanulónak látható szövegváltozás")
+        self.assertEqual([], unchanged_but_listed,
+                         "elavult bejegyzés az APPROVED_VISIBLE_EDITS listában")
         self.assertGreater(touched, 0, "a migrációnak érintenie kellett fájlokat")
 
 
@@ -1256,12 +1294,18 @@ class TestProductionPlan(unittest.TestCase):
     def setUpClass(cls):
         cls.model = mm.compile_manifest()
         cls.plan = mm.plan_model(cls.model)
-        cls.produced = [a for a in cls.model["assets"] if a["mode"] != "reuse"]
+        cls.produced = mm.central_production(cls.model)
 
     def test_every_produced_asset_lands_in_exactly_one_batch(self):
+        """Batches plus the live-session section together cover everything made."""
         placed = [a["id"] for batch in self.plan["batches"] for a in batch["assets"]]
         self.assertEqual(len(placed), len(set(placed)))
-        self.assertEqual({a["id"] for a in self.produced}, set(placed))
+        made = {a["id"] for a in self.model["assets"] if a["mode"] != "reuse"}
+        self.assertEqual(made, set(placed))
+        central = {a["id"] for a in self.produced}
+        live = {a["id"] for a in self.model["assets"] if mm.is_live_deliverable(a)}
+        self.assertEqual(made, central | live)
+        self.assertEqual(set(), central & live)
 
     def test_batch_zero_has_no_open_gate(self):
         batch = next(b for b in self.plan["batches"] if b["key"] == "B0")
@@ -1327,6 +1371,232 @@ class TestProductionPlan(unittest.TestCase):
         by_id = {a["id"]: a for a in self.model["assets"]}
         self.assertEqual("colour", mm.colour_dependency(by_id["M1.3-IKO-01"]))
         self.assertEqual("bw", mm.colour_dependency(by_id["M1.F-MUNK-01"]))
+
+
+# ==========================================================================
+# Approved production decisions — the closure this pass applied
+# ==========================================================================
+
+class TestApprovedDecisions(unittest.TestCase):
+    """Each user-approved decision must be visible in the canonical source.
+
+    A decision that only exists in a decision document has not been applied. These
+    assert the manifest and the lessons actually carry it.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.model = mm.compile_manifest()
+        cls.by_id = {a["id"]: a for a in cls.model["assets"]}
+
+    # --- D9: one canonical learner-visible AI provenance label ---------------
+
+    #: A quoted span reads as a provenance label when it names AI, says the thing
+    #: was generated, and credits the human review. Calibrated against the whole
+    #: active curriculum: it matches every real label and nothing else — not
+    #: "Mit NEM teszel AI-val?", not the learner's own AI-use sentence.
+    _QUOTE = re.compile(r"„([^„”]{0,200})”")
+    _NAMES_AI = re.compile(r"AI", re.IGNORECASE)
+    _WAS_GENERATED = re.compile(r"generált|generatív|AI-eszközzel|AI-val", re.IGNORECASE)
+    _HUMAN_REVIEWED = re.compile(r"lektorál|emberi|ember írta|médiaelem", re.IGNORECASE)
+
+    @classmethod
+    def _label_shaped_quotes(cls):
+        """(file, line, text) for every quote in the active curriculum that reads
+        as an AI provenance label. `Média-assetek/` is excluded: it is the
+        production area, and its decision records legitimately quote retired
+        wordings as history."""
+        for path in sorted(mm.ACTIVE_ROOT.rglob("*.md")):
+            if path.is_relative_to(mm.MEDIA_ROOT):
+                continue
+            for lineno, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+                for match in cls._QUOTE.finditer(line):
+                    quote = match.group(1)
+                    if (cls._NAMES_AI.search(quote) and cls._WAS_GENERATED.search(quote)
+                            and cls._HUMAN_REVIEWED.search(quote)):
+                        yield path.name, lineno, quote
+
+    def test_the_canonical_ai_label_is_recorded_with_its_rule(self):
+        label = mm.human_ai_label()
+        self.assertTrue(label, "az R1-nek hordoznia kell a jóváhagyott címkeszöveget")
+        rule = next(r for r in mm.production_rules() if r["id"] == "R1")
+        self.assertIn(label, rule["text"],
+                      "a szabály szövege és a `human_label` mező nem mondhat mást")
+
+    def test_every_live_ai_provenance_label_uses_the_canonical_wording(self):
+        label = mm.human_ai_label()
+        found = list(self._label_shaped_quotes())
+        self.assertGreater(len(found), 10, "a felderítő nem talált címkéket — romlott a minta")
+        divergent = [f"{name}:{line} → {quote!r}"
+                     for name, line, quote in found if quote != label]
+        self.assertEqual([], divergent,
+                         "eltérő AI-provenance címkeszöveg az aktív tananyagban")
+
+    def test_the_retired_label_variants_are_gone_from_the_curriculum(self):
+        retired = ("🤖 Ez a videó generatív AI-val készült.",
+                   "AI-generált avatar, a szöveget ember írta és lektorálta",
+                   "A videó AI-eszközzel készült, emberi lektorálással.",
+                   "AI-generált avatar, narrációt madrich lektorálta")
+        for path in sorted(mm.ACTIVE_ROOT.rglob("*.md")):
+            if path.is_relative_to(mm.MEDIA_ROOT):
+                continue
+            text = path.read_text(encoding="utf-8")
+            for variant in retired:
+                self.assertNotIn(variant, text, f"{path.name}: visszavont címkeváltozat")
+
+    def test_the_provenance_ui_text_assets_carry_the_canonical_copy(self):
+        label = mm.human_ai_label()
+        for asset_id in ("M5.1-EGY-01", "M6.1-EGY-01"):
+            self.assertIn(label, self.by_id[asset_id]["spec"], asset_id)
+
+    # --- D6: the approved M1.3 dialogue is now a canonical source -------------
+
+    def test_m13_hook_dialogue_is_a_live_source_not_a_pending_draft(self):
+        asset = self.by_id["M1.3-VID-01"]
+        self.assertEqual("M1.3-VID-01-VO", asset["source_ref"])
+        self.assertEqual("", asset["decision"], "a szkript-döntés lezárult")
+        self.assertEqual([], asset["readiness_issues"])
+        self.assertNotIn(mm.MISSING_SPOKEN_SOURCE, asset["readiness_issues"])
+        for phrase in ("Te mindig szétvered a peulát, komolyan mondom",
+                       "Mi van?! Csak próbáltam feldobni a hangulatot",
+                       "háromszor félbeszakítottad a többieket",
+                       "megtartani a figyelmüket és a bevonódásukat",
+                       "Jaa… erre nem is gondoltam. Oké, figyelek rá"):
+            self.assertIn(phrase, asset["source_text"], phrase)
+
+    def test_m13_hook_still_carries_its_real_gates(self):
+        """Approving the script must not make the video producible."""
+        asset = self.by_id["M1.3-VID-01"]
+        self.assertEqual({"R2", "R3", "R5"}, set(asset["blockers"]))
+        self.assertEqual("pending-rights", asset["status"])
+
+    def test_the_lesson_no_longer_hedges_the_approved_dialogue(self):
+        lesson = (mm.ACTIVE_ROOT / "Modulok/M1/Online leckék"
+                  / "M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md")
+        rendered = mig.strip_metadata(lesson.read_text(encoding="utf-8"))
+        self.assertNotIn("Nagyjából a fenti mondatok", rendered)
+
+    # --- D7: the optional M3.2 narration is not produced ----------------------
+
+    def test_m32_optional_narration_is_no_longer_a_current_asset(self):
+        self.assertNotIn("M3.2-NAR-02", self.by_id)
+        deliverables = {d["id"] for d in self.model["deliverables"]}
+        for gone in ("M3.2-NAR-02", "M3.2-NAR-02::CAPTIONS", "M3.2-NAR-02::TRANSCRIPT"):
+            self.assertNotIn(gone, deliverables)
+
+    def test_the_dropped_narration_keeps_an_honest_historical_disposition(self):
+        recon = mm.reconcile(self.model)
+        by_old = {row[0]: row for row in recon["rows"]}
+        for old_id in ("M3.2-NAR-02", "M3.2-FEL-02", "M3.2-LEI-02"):
+            self.assertIn(old_id, by_old)
+            status, reason = by_old[old_id][7], by_old[old_id][8]
+            self.assertEqual("NO_LONGER_REQUIRED", status, old_id)
+            self.assertTrue(reason.strip(), f"{old_id} indoklás nélkül")
+        self.assertEqual(747, recon["legacy_total"])
+        self.assertEqual(0, recon["unmapped"])
+        self.assertEqual([], recon["conflicts"])
+
+    def test_the_m32_slide_keeps_its_visible_content(self):
+        lesson = (mm.ACTIVE_ROOT / "Modulok/M3/Online leckék"
+                  / "M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md")
+        text = lesson.read_text(encoding="utf-8")
+        for kept in ("Miért fontos, hogy máshogy nézz rá a kvucákra?",
+                     "előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen",
+                     "gyors **„fejprofilod”** mind a négy kvucáról"):
+            self.assertIn(kept, text, kept)
+
+    # --- D4: the M4 HOOK format question is answered -------------------------
+
+    def test_the_m4_hook_decision_is_closed_and_the_asset_keeps_r5(self):
+        asset = self.by_id["M4.2-ILL-01"]
+        self.assertEqual("", asset["decision"])
+        self.assertEqual("pending-production-rule", asset["status"])
+        self.assertIn("R5", asset["blockers"])
+        for lesson in ("M4.2 – Aktív hallgatás & visszatükrözés.md",
+                       "M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
+                       "M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md"):
+            unit = lesson.split(" ")[0]
+            videos = [a for a in self.model["assets"]
+                      if a["unit"] == unit and a["kind"] == "video"]
+            self.assertEqual([], videos, f"{unit}: nem készül új beszélőfej-videó")
+
+    # --- D3: R2 scope stays conservative -------------------------------------
+
+    def test_r2_still_covers_the_character_scenes_and_their_stills(self):
+        for asset_id in ("M1.3-VID-01", "M4.1-VID-02", "M4.1-VID-03",
+                         "M4.1-VID-04", "M4.1-VID-05",
+                         "M4.1-FOTO-01", "M4.1-FOTO-02"):
+            self.assertIn("R2", self.by_id[asset_id]["blockers"], asset_id)
+
+
+# ==========================================================================
+# Live-session deliverables — real, required, but not pre-producible
+# ==========================================================================
+
+class TestLiveDeliverables(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        cls.model = mm.compile_manifest()
+        cls.plan = mm.plan_model(cls.model)
+        cls.by_id = {a["id"]: a for a in cls.model["assets"]}
+
+    def test_the_closing_circle_note_is_marked_live(self):
+        asset = self.by_id["M0.A-EGY-01"]
+        self.assertTrue(mm.is_live_deliverable(asset))
+        self.assertEqual("trainer-at-runtime", asset["technical"]["production_phase"])
+
+    def test_a_live_item_is_never_in_the_ready_now_batch(self):
+        batch0 = next(b for b in self.plan["batches"] if b["key"] == "B0")
+        for asset in batch0["assets"]:
+            self.assertFalse(mm.is_live_deliverable(asset), asset["id"])
+        self.assertNotIn("M0.A-EGY-01", [a["id"] for a in batch0["assets"]])
+
+    def test_a_live_item_stays_in_the_manifest_and_in_the_plan(self):
+        """Not counted as ready — but never quietly dropped either."""
+        live = [a for a in self.model["assets"] if mm.is_live_deliverable(a)]
+        self.assertTrue(live)
+        deliverables = {d["asset_id"] for d in self.model["deliverables"]}
+        section = next(b for b in self.plan["batches"] if b["key"] == "BRT")
+        for asset in live:
+            self.assertIn(asset["id"], deliverables, f"{asset['id']} deliverable nélkül")
+            self.assertIn(asset["id"], [a["id"] for a in section["assets"]])
+        plan_md = mm.OUT_PLAN_MD.read_text(encoding="utf-8")
+        for asset in live:
+            self.assertIn(asset["id"], plan_md)
+
+    def test_live_items_are_outside_the_central_production_universe(self):
+        central = {a["id"] for a in mm.central_production(self.model)}
+        for asset in self.model["assets"]:
+            if mm.is_live_deliverable(asset):
+                self.assertNotIn(asset["id"], central, asset["id"])
+
+    def test_a_live_item_is_never_nominated_as_a_pilot(self):
+        for key, info in self.plan["pilots"].items():
+            self.assertFalse(mm.is_live_deliverable(info["asset"]), key)
+
+    def test_an_asset_whose_copy_waits_on_an_org_decision_is_not_ready(self):
+        """A dependency written only in `notes` used to leave the item in batch 0.
+
+        `M3.4-EGY-03`'s answer key partly depends on the ken alcohol and tobacco
+        code, which the canonical approval list keeps open and the lesson calls
+        "nem élesíthető" without. It must not read as producible now.
+        """
+        by_id = {a["id"]: a for a in self.model["assets"]}
+        for asset_id in ("M3.4-EGY-03", "M3.4-DIA-01"):
+            asset = by_id[asset_id]
+            self.assertTrue(asset["decision"], asset_id)
+            self.assertEqual("pending-human-decision", asset["status"], asset_id)
+            self.assertNotEqual("B0", mm.batch_of(asset), asset_id)
+        approvals = (mm.ACTIVE_ROOT / "Emberi jóváhagyás szükséges.md").read_text(encoding="utf-8")
+        self.assertIn("alkohol- és dohányzási magatartási kódexe", approvals)
+
+    def test_plan_totals_still_agree_with_the_manifest(self):
+        rows = mm.plan_csv_rows(self.model)
+        self.assertEqual(len(self.model["deliverables"]), len(rows))
+        placed = [a["id"] for b in self.plan["batches"] for a in b["assets"]]
+        produced = [a["id"] for a in self.model["assets"] if a["mode"] != "reuse"]
+        self.assertEqual(sorted(produced), sorted(placed))
 
 
 if __name__ == "__main__":

@@ -2083,6 +2083,17 @@ def _normalise_zip(data: bytes) -> bytes:
 _PRODUCTION_RULES_CACHE: list[dict] | None = None
 
 
+def human_ai_label() -> str:
+    """The one approved learner-visible AI provenance label (R1).
+
+    Canonical data, not compiler logic: it lives in `produkcios-szabalyok.json`
+    beside the rule that requires it, so approving a different wording is a data
+    edit rather than a code change.
+    """
+    r1 = next((r for r in production_rules() if r["id"] == "R1"), {})
+    return r1.get("human_label", "")
+
+
 def production_rules() -> list[dict]:
     """R1–R8 — organisational conventions, canonical in their own data file.
 
@@ -2533,11 +2544,24 @@ GATE_LABELS = {
     OPEN_DECISION: "nyitott emberi döntés",
 }
 
+#: Some deliverables cannot be pre-produced at all: their content only comes into
+#: existence while the peula is running (words actually spoken in a closing circle,
+#: photographs of the posters the group filled in). They are real, required
+#: deliverables and stay in the manifest — but counting them in the central
+#: "producible now" batch would overstate what a production team can start.
+LIVE_PHASE = "trainer-at-runtime"
+
+
+def is_live_deliverable(asset: dict) -> bool:
+    return asset["technical"].get("production_phase") == LIVE_PHASE
+
+
 #: Batch precedence: the first matching rule wins, so an asset appears exactly
 #: once. The order is the production order — a gate that arrives late in the
 #: project (runtime, rights, decisions) must not pull an asset into an early
 #: batch just because it also waits for the palette.
 BATCH_RULES = (
+    ("BRT", "ÉLŐ / RUNTIME DELIVERABLE — A KÉPZŐ HOZZA LÉTRE A PEULÁN", None),
     ("B6", "BATCH 6 — EMBERI DÖNTÉS / SZKRIPT-ZÁR",
      lambda g: bool(g & {MISSING_SPOKEN_SOURCE, OPEN_DECISION})),
     ("B5", "BATCH 5 — RUNTIME-KÉPERNYŐKÉP", lambda g: "R7" in g),
@@ -2549,6 +2573,7 @@ BATCH_RULES = (
 )
 
 BATCH_DEPENDENCY = {
+    "BRT": "magára a peulára — előre nem gyártható",
     "B0": "nincs nyitott kapu",
     "B1": "R5 — vizuális rendszer lock",
     "B2": "R3 — narrátor-hang lock",
@@ -2613,9 +2638,11 @@ def colour_dependency(asset: dict) -> str:
 
 
 def batch_of(asset: dict) -> str:
+    if is_live_deliverable(asset):
+        return "BRT"
     gates = asset_gates(asset)
     for key, _title, matches in BATCH_RULES:
-        if matches(gates):
+        if matches is not None and matches(gates):
             return key
     return "B0"  # pragma: no cover - the last rule matches everything
 
@@ -2634,7 +2661,8 @@ def pick_pilots(assets: list[dict]) -> dict[str, dict]:
     """
     pilots = {}
     for key, label, matches in PILOT_FAMILIES:
-        family = [a for a in assets if a["mode"] != "reuse" and matches(a)]
+        family = [a for a in assets
+                  if a["mode"] != "reuse" and not is_live_deliverable(a) and matches(a)]
         if not family:
             continue
         fewest = min(len(asset_gates(a)) for a in family)
@@ -2645,6 +2673,12 @@ def pick_pilots(assets: list[dict]) -> dict[str, dict]:
     return pilots
 
 
+def central_production(model: dict) -> list[dict]:
+    """Assets a production team can actually queue up: not reuse, not live-session."""
+    return [a for a in model["assets"]
+            if a["mode"] != "reuse" and not is_live_deliverable(a)]
+
+
 def gate_impact(model: dict) -> list[dict]:
     """Per gate: how many it holds, how many it alone would release.
 
@@ -2652,7 +2686,7 @@ def gate_impact(model: dict) -> list[dict]:
     producible": some of those also wait for R2, R3 or a human answer. Both
     numbers are reported so the highest-leverage decision is visible.
     """
-    assets = [a for a in model["assets"] if a["mode"] != "reuse"]
+    assets = central_production(model)
     per_asset_deliverables = collections.Counter(d["asset_id"] for d in model["deliverables"])
     rows = []
     for gate in ("R5", "R3", "R2", "R8", "R7", OPEN_DECISION, MISSING_SPOKEN_SOURCE):
@@ -2680,7 +2714,7 @@ def unlock_waves(model: dict) -> list[dict]:
     Recomputed after every step, so a gate that only ever appears together with
     another one shows its true (often zero) standalone value.
     """
-    assets = [a for a in model["assets"] if a["mode"] != "reuse"]
+    assets = central_production(model)
     per_asset_deliverables = collections.Counter(d["asset_id"] for d in model["deliverables"])
     remaining = {a["id"]: asset_gates(a) for a in assets}
     closed: set[str] = set()
@@ -2802,7 +2836,8 @@ def render_plan_md(model: dict) -> str:
     stats = compute_stats(model)
     plan = plan_model(model)
     by_asset = plan["by_asset"]
-    produced = [a for a in model["assets"] if a["mode"] != "reuse"]
+    produced = central_production(model)
+    live = [a for a in model["assets"] if is_live_deliverable(a)]
     lines: list[str] = []
     P = lines.append
 
@@ -2824,6 +2859,8 @@ def render_plan_md(model: dict) -> str:
     P("|---|---:|")
     P(f"| Szemantikus asset | **{stats['assets']}** |")
     P(f"| ebből újrahasznosítás (nem gyártandó) | {len(plan['reuse'])} |")
+    P(f"| ebből élő/runtime tétel (a képző hozza létre a peulán) | {len(live)} |")
+    P(f"| Központilag előgyártható asset | **{len(produced)}** |")
     P(f"| Produkciós deliverable | **{stats['deliverables']}** |")
     P("")
     P("### Státusz szerint")
@@ -2846,13 +2883,17 @@ def render_plan_md(model: dict) -> str:
     zero = [a for a in produced if not asset_gates(a)]
     one = [a for a in produced if len(asset_gates(a)) == 1]
     many = [a for a in produced if len(asset_gates(a)) > 1]
-    P("| Kapu-terheltség | Asset | Deliverable |")
+    P("| Kapu-terheltség (központilag előgyártható tételek) | Asset | Deliverable |")
     P("|---|---:|---:|")
     for label, group in (("nincs nyitott kapu", zero),
                          ("pontosan EGY kapu", one),
                          ("TÖBB kapu", many)):
         P(f"| {label} | {len(group)} | "
           f"{sum(len(by_asset[a['id']]) for a in group)} |")
+    P("")
+    P("A kapu-számok és a 2–3. szakasz a **központilag előgyártható** tételekre")
+    P("vonatkoznak. Az élő/runtime tételek nem kerülnek gyártási sorba — a saját")
+    P("szakaszukban állnak, a rájuk vonatkozó kapukkal együtt.")
     P("")
 
     P("## 2. Döntés-hatás — mit szabadít fel egy kapu lezárása?")
@@ -2892,6 +2933,9 @@ def render_plan_md(model: dict) -> str:
     P("a teljes listát mutatja. Például egy R3 + R5 tétel a hang-zár kötegében áll,")
     P("de a vizuális rendszer lezárása nélkül akkor sem gyártható.")
     P("")
+    P("Az utolsó szakasz nem köteg: azokat a tételeket gyűjti, amelyeket a képző a")
+    P("peula alatt hoz létre, tehát előre egyáltalán nem gyárthatók.")
+    P("")
     P("| Köteg | Függőség | Asset | Deliverable |")
     P("|---|---|---:|---:|")
     for batch in plan["batches"]:
@@ -2909,6 +2953,13 @@ def render_plan_md(model: dict) -> str:
             P("_Üres._")
             P("")
             continue
+        if batch["key"] == "B0":
+            P("A másolat és a specifikáció kész. Két dolgot érdemes tudni: a szabad")
+            P("szöveges H5P elemek megvalósítási típusát a `LMS – H5P runtime acceptance.md`")
+            P("6. pontja a cél-verzión eldöntendőnek nevezi, és a teljes environment record")
+            P("is kitöltetlen — ez a köteget nem gátolja, de a végleges beépítés előtt")
+            P("tisztázandó.")
+            P("")
         if batch["key"] == "B1":
             split = collections.defaultdict(list)
             for asset in batch["assets"]:
