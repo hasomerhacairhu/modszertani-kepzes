@@ -50,6 +50,8 @@ Ezek a fájlok **kézzel nem szerkeszthetők**:
 | `Média-asset regiszter.md` | Ember-olvasható áttekintő. |
 | `Média-asset regiszter.xlsx` | Produkciós munkafüzet (9 munkalap, szűrhető): *Összesítő · Assetek · Deliverable-ek · Újrahasznosítás · **Emberi döntések** · **Blokkolt assetek** · Migráció · Produkciós konvenciók · Asset nélküli fájlok*. |
 | `asset-migration-map.csv` | A 747 történeti sor soronkénti diszpozíciója. |
+| `MEDIA-PRODUCTION-PLAN.md` | Produkciós köteg-terv: mi gyártható most, mi mire vár, milyen sorrendben éri meg haladni, és családonként melyik a pilot. |
+| `media-production-plan.csv` | Ugyanaz soronként, deliverable-szinten — ez a produkciós munkalista. |
 | `ASSET-MANIFEST-V2-MIGRATION.md` | A migráció összefoglalója. |
 
 ### Kánoni bemenet, nem generált
@@ -73,6 +75,11 @@ python3 tools/media_manifest.py stats      # jelenlegi darabszámok
 python3 tools/media_manifest.py reconcile  # a 747 történeti sor egyeztetése
 python3 tools/media_manifest.py diff main  # mi változott egy git ref óta
 ```
+
+A `build` a köteg-tervet is előállítja: [`MEDIA-PRODUCTION-PLAN.md`](./MEDIA-PRODUCTION-PLAN.md)
+és `media-production-plan.csv`. A terv **nem második igazság**: minden száma a
+jelenlegi manifesztből származik, a kötegek pedig abból, hogy melyik asseten
+milyen kapu ül.
 
 A build **offline és determinisztikus**: nincs benne hálózat, AI-hívás vagy
 dátum. Ugyanaz a Git-fa mindig bitre azonos kimenetet ad.

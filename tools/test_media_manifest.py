@@ -1246,5 +1246,88 @@ class TestBlockerSemantics(unittest.TestCase):
         self.assertEqual(0, recon["unmapped"])
 
 
+# ==========================================================================
+# Production plan — a derived view, never a second source of truth
+# ==========================================================================
+
+class TestProductionPlan(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        cls.model = mm.compile_manifest()
+        cls.plan = mm.plan_model(cls.model)
+        cls.produced = [a for a in cls.model["assets"] if a["mode"] != "reuse"]
+
+    def test_every_produced_asset_lands_in_exactly_one_batch(self):
+        placed = [a["id"] for batch in self.plan["batches"] for a in batch["assets"]]
+        self.assertEqual(len(placed), len(set(placed)))
+        self.assertEqual({a["id"] for a in self.produced}, set(placed))
+
+    def test_batch_zero_has_no_open_gate(self):
+        batch = next(b for b in self.plan["batches"] if b["key"] == "B0")
+        for asset in batch["assets"]:
+            self.assertEqual(set(), mm.asset_gates(asset), asset["id"])
+            self.assertEqual("spec-ready", asset["status"], asset["id"])
+        self.assertTrue(batch["assets"], "üres BATCH 0 gyanús")
+
+    def test_no_batch_hides_a_later_gate(self):
+        """A batch's own gate may not be the only one listed for its members."""
+        for batch in self.plan["batches"]:
+            for asset in batch["assets"]:
+                self.assertEqual(batch["key"], mm.batch_of(asset), asset["id"])
+
+    def test_plan_csv_covers_every_deliverable(self):
+        rows = mm.plan_csv_rows(self.model)
+        self.assertEqual(len(self.model["deliverables"]), len(rows))
+        self.assertEqual({d["id"] for d in self.model["deliverables"]},
+                         {row[3] for row in rows})
+
+    def test_gate_impact_arithmetic_holds(self):
+        for row in self.plan["impact"]:
+            gate = row["gate"]
+            affected = [a for a in self.produced if gate in mm.asset_gates(a)]
+            alone = [a for a in affected if mm.asset_gates(a) == {gate}]
+            self.assertEqual(len(affected), row["assets"], gate)
+            self.assertEqual(len(alone), row["unblocked_alone"], gate)
+            self.assertEqual(row["assets"], row["unblocked_alone"] + row["still_blocked"],
+                             gate)
+
+    def test_impact_never_claims_more_than_the_reference_count(self):
+        for row in self.plan["impact"]:
+            self.assertLessEqual(row["unblocked_alone"], row["assets"], row["gate"])
+
+    def test_waves_end_with_everything_producible(self):
+        waves = self.plan["waves"]
+        self.assertEqual(sorted(w["cumulative_assets"] for w in waves),
+                         [w["cumulative_assets"] for w in waves])
+        self.assertEqual(len(self.produced), waves[-1]["cumulative_assets"])
+
+    def test_each_pilot_is_a_real_producible_member_of_its_family(self):
+        by_id = {a["id"]: a for a in self.model["assets"]}
+        for key, info in self.plan["pilots"].items():
+            asset = by_id[info["asset"]["id"]]
+            self.assertNotEqual("reuse", asset["mode"], key)
+            matches = next(m for k, _l, m in mm.PILOT_FAMILIES if k == key)
+            self.assertTrue(matches(asset), key)
+            fewest = min(len(mm.asset_gates(a)) for a in self.produced if matches(a))
+            self.assertEqual(fewest, len(mm.asset_gates(asset)),
+                             f"{key}: a pilot nem a legkevésbé blokkolt tétel")
+
+    def test_plan_is_derived_and_deterministic(self):
+        first = mm.render_plan_md(mm.compile_manifest())
+        second = mm.render_plan_md(mm.compile_manifest())
+        self.assertEqual(first, second)
+        self.assertIn(f"| Szemantikus asset | **{len(self.model['assets'])}** |", first)
+
+    def test_plan_does_not_mint_a_new_release_blocker(self):
+        """The open gates are counted once, where their canonical text lives."""
+        self.assertNotIn("KITÖLTENDŐ", mm.OUT_PLAN_MD.read_text(encoding="utf-8"))
+
+    def test_colour_dependency_reads_the_declaration_not_a_guess(self):
+        by_id = {a["id"]: a for a in self.model["assets"]}
+        self.assertEqual("colour", mm.colour_dependency(by_id["M1.3-IKO-01"]))
+        self.assertEqual("bw", mm.colour_dependency(by_id["M1.F-MUNK-01"]))
+
+
 if __name__ == "__main__":
     unittest.main()

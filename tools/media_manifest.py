@@ -49,6 +49,7 @@ CLI
 from __future__ import annotations
 
 import argparse
+import collections
 import csv
 import hashlib
 import io
@@ -223,6 +224,8 @@ OUT_REGISTER_MD = MEDIA_ROOT / "Média-asset regiszter.md"
 OUT_XLSX = MEDIA_ROOT / "Média-asset regiszter.xlsx"
 OUT_MIGRATION_CSV = MEDIA_ROOT / "asset-migration-map.csv"
 OUT_MIGRATION_MD = MEDIA_ROOT / "ASSET-MANIFEST-V2-MIGRATION.md"
+OUT_PLAN_MD = MEDIA_ROOT / "MEDIA-PRODUCTION-PLAN.md"
+OUT_PLAN_CSV = MEDIA_ROOT / "media-production-plan.csv"
 
 LEGACY_JSON = LEGACY_ROOT / "media-merged.json"
 LEGACY_JSON_FALLBACK = BUILD_ROOT / "media-merged.json"
@@ -232,6 +235,7 @@ LEGACY_DISPOSITIONS = LEGACY_ROOT / "legacy-dispositions.json"
 GENERATED_OUTPUTS = (
     OUT_JSON, OUT_ASSETS_CSV, OUT_DELIVERABLES_CSV, OUT_REUSE_CSV,
     OUT_REGISTER_MD, OUT_XLSX, OUT_MIGRATION_CSV, OUT_MIGRATION_MD,
+    OUT_PLAN_MD, OUT_PLAN_CSV,
 )
 
 
@@ -2511,6 +2515,469 @@ def _script_after(lines: list[str], idx: int) -> int | None:
 
 
 # ==========================================================================
+# Production plan — batches, gate impact, pilots
+# ==========================================================================
+
+#: Everything that can hold an asset back, in one vocabulary. The R-rules are
+#: organisational decisions (their canonical text lives in
+#: `produkcios-szabalyok.json`); the two structural issues are facts about the
+#: manifest. The plan never invents a gate — it only groups the ones the
+#: declarations already carry.
+GATE_LABELS = {
+    "R2": "R2 — AI-avatar / AI-hang jogtisztaság",
+    "R3": "R3 — narrátor hang-bible (motor / voice-ID)",
+    "R5": "R5 — vizuális rendszer: stílus-token + hex-paletta",
+    "R7": "R7 — véglegesített Moodle-felület",
+    "R8": "R8 — GDPR / képmás valós fotón és képernyőképen",
+    MISSING_SPOKEN_SOURCE: "nincs jóváhagyott felmondható szkript",
+    OPEN_DECISION: "nyitott emberi döntés",
+}
+
+#: Batch precedence: the first matching rule wins, so an asset appears exactly
+#: once. The order is the production order — a gate that arrives late in the
+#: project (runtime, rights, decisions) must not pull an asset into an early
+#: batch just because it also waits for the palette.
+BATCH_RULES = (
+    ("B6", "BATCH 6 — EMBERI DÖNTÉS / SZKRIPT-ZÁR",
+     lambda g: bool(g & {MISSING_SPOKEN_SOURCE, OPEN_DECISION})),
+    ("B5", "BATCH 5 — RUNTIME-KÉPERNYŐKÉP", lambda g: "R7" in g),
+    ("B4", "BATCH 4 — JOGÉRZÉKENY (valós fotó / képernyőkép)", lambda g: "R8" in g),
+    ("B3", "BATCH 3 — AI-AVATAR ÉS KARAKTERVIDEÓ", lambda g: "R2" in g),
+    ("B2", "BATCH 2 — HANG-ZÁR UTÁN", lambda g: "R3" in g),
+    ("B1", "BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN", lambda g: "R5" in g),
+    ("B0", "BATCH 0 — MOST GYÁRTHATÓ", lambda g: True),
+)
+
+BATCH_DEPENDENCY = {
+    "B0": "nincs nyitott kapu",
+    "B1": "R5 — vizuális rendszer lock",
+    "B2": "R3 — narrátor-hang lock",
+    "B3": "R2 + R3 — avatar-jogtisztaság és hang-lock",
+    "B4": "R8 — képmás- és adatvédelmi bizonyíték",
+    "B5": "R7 (+ R8) — éles Moodle-felület",
+    "B6": "szerzői/szakmai döntés vagy jóváhagyott szkript",
+}
+
+#: Colour dependency is read from what the asset itself declares, not guessed.
+#: A sheet whose own technical note says "fekete-fehér nyomtatható" and names no
+#: hue does not wait for the hex palette — only for the style token. That split
+#: is what makes R5 sequenceable instead of one 248-item wall.
+_CHROMATIC = re.compile(
+    r"\b(kék|zöld|narancs|piros|sárga|lila|barna|rózsaszín|türkiz|bordó|arany|"
+    r"ezüst|színkód\w*|paletta|pasztell)\b", re.IGNORECASE)
+_MONOCHROME = re.compile(
+    r"fekete[-–/ ]?fehér|szürkeárnyalat|monokróm", re.IGNORECASE)
+
+COLOUR_LABELS = {
+    "colour": "színfüggő",
+    "bw": "fekete-fehér is elég",
+    "unspecified": "nincs kimondva",
+}
+
+#: One pilot per production family: approve it before its siblings are made.
+PILOT_FAMILIES = (
+    ("narracio", "Narráció / hang", lambda a: a["kind"] == "voiceover"),
+    ("beszelofej", "AI beszélőfej-videó",
+     lambda a: a["kind"] == "video" and a["subtype"] == "ai-talking-head"),
+    ("karaktervideo", "AI karakter- / jelenetvideó",
+     lambda a: a["kind"] == "video" and a["subtype"] in ("explainer", "interactive")),
+    ("diagram", "Diagram / ábra", lambda a: a["kind"] == "diagram"),
+    ("ikon", "Ikon-készlet", lambda a: a["kind"] == "icon-set"),
+    ("illusztracio", "Illusztráció", lambda a: a["kind"] == "illustration"),
+    ("munkalap", "Munkalap / nyomtatvány", lambda a: a["kind"] == "worksheet"),
+    ("poszter", "Poszter és kártyaszett",
+     lambda a: a["kind"] in ("poster", "card-set")),
+    ("foto", "Fotó / képernyőkép", lambda a: a["kind"] == "photo"),
+    ("h5p", "H5P-interakció / Moodle-elem",
+     lambda a: a["kind"] == "other" and a["subtype"] in ("h5p-interaction",
+                                                         "moodle-activity")),
+    ("beszerzes", "Beszerzendő fizikai eszköz", lambda a: a["kind"] == "print"),
+)
+
+
+def asset_gates(asset: dict) -> set[str]:
+    return set(asset["blockers"]) | set(asset["readiness_issues"])
+
+
+def colour_dependency(asset: dict) -> str:
+    """Whether producing this asset needs the hex palette or only the style token."""
+    blob = " ".join([
+        asset["title"], asset["spec"], asset["purpose"], asset["notes"],
+        _flat(asset["technical"]), _flat(asset["a11y"]),
+    ])
+    if _CHROMATIC.search(blob):
+        return "colour"
+    if _MONOCHROME.search(blob):
+        return "bw"
+    return "unspecified"
+
+
+def batch_of(asset: dict) -> str:
+    gates = asset_gates(asset)
+    for key, _title, matches in BATCH_RULES:
+        if matches(gates):
+            return key
+    return "B0"  # pragma: no cover - the last rule matches everything
+
+
+def _median_index(count: int) -> int:
+    return max(0, (count - 1) // 2)
+
+
+def pick_pilots(assets: list[dict]) -> dict[str, dict]:
+    """One representative asset per family: fewest gates, then median spec size.
+
+    "Representative" has to be reproducible, so it is defined rather than
+    judged: among the family members that are closest to producible, take the one
+    whose specification is of median length — neither the thinnest brief nor the
+    most unusual, most complex one. Ties fall back to the manifest's own order.
+    """
+    pilots = {}
+    for key, label, matches in PILOT_FAMILIES:
+        family = [a for a in assets if a["mode"] != "reuse" and matches(a)]
+        if not family:
+            continue
+        fewest = min(len(asset_gates(a)) for a in family)
+        shortlist = [a for a in family if len(asset_gates(a)) == fewest]
+        shortlist.sort(key=lambda a: (len(a["spec"]), a["id"]))
+        pilots[key] = {"label": label, "asset": shortlist[_median_index(len(shortlist))],
+                       "family_size": len(family)}
+    return pilots
+
+
+def gate_impact(model: dict) -> list[dict]:
+    """Per gate: how many it holds, how many it alone would release.
+
+    "248 asset references R5" is not the same claim as "closing R5 makes 248
+    producible": some of those also wait for R2, R3 or a human answer. Both
+    numbers are reported so the highest-leverage decision is visible.
+    """
+    assets = [a for a in model["assets"] if a["mode"] != "reuse"]
+    per_asset_deliverables = collections.Counter(d["asset_id"] for d in model["deliverables"])
+    rows = []
+    for gate in ("R5", "R3", "R2", "R8", "R7", OPEN_DECISION, MISSING_SPOKEN_SOURCE):
+        affected = [a for a in assets if gate in asset_gates(a)]
+        alone = [a for a in affected if asset_gates(a) == {gate}]
+        blocked_by_more = [a for a in affected if len(asset_gates(a)) > 1]
+        rest = collections.Counter(
+            g for a in blocked_by_more for g in asset_gates(a) - {gate})
+        rows.append({
+            "gate": gate,
+            "label": GATE_LABELS[gate],
+            "assets": len(affected),
+            "deliverables": sum(per_asset_deliverables[a["id"]] for a in affected),
+            "unblocked_alone": len(alone),
+            "unblocked_alone_deliverables": sum(per_asset_deliverables[a["id"]] for a in alone),
+            "still_blocked": len(blocked_by_more),
+            "co_gates": dict(sorted(rest.items())),
+        })
+    return rows
+
+
+def unlock_waves(model: dict) -> list[dict]:
+    """Greedy order: which gate to close next for the largest marginal release.
+
+    Recomputed after every step, so a gate that only ever appears together with
+    another one shows its true (often zero) standalone value.
+    """
+    assets = [a for a in model["assets"] if a["mode"] != "reuse"]
+    per_asset_deliverables = collections.Counter(d["asset_id"] for d in model["deliverables"])
+    remaining = {a["id"]: asset_gates(a) for a in assets}
+    closed: set[str] = set()
+    waves = []
+    candidates = {"R5", "R3", "R2", "R8", "R7", OPEN_DECISION, MISSING_SPOKEN_SOURCE}
+    while candidates - closed:
+        best = None
+        for gate in sorted(candidates - closed):
+            freed = [aid for aid, gates in remaining.items() if gates == {gate}]
+            score = (len(freed), sum(per_asset_deliverables[aid] for aid in freed))
+            if best is None or score > best[1] or (score == best[1] and gate < best[0]):
+                best = (gate, score, freed)
+        gate, (n_assets, n_deliverables), freed = best
+        closed.add(gate)
+        for aid in list(remaining):
+            remaining[aid] = remaining[aid] - {gate}
+            if not remaining[aid]:
+                remaining.pop(aid)
+        waves.append({
+            "step": len(waves) + 1,
+            "gate": gate,
+            "label": GATE_LABELS[gate],
+            "assets": n_assets,
+            "deliverables": n_deliverables,
+            "cumulative_assets": len(assets) - len(remaining),
+        })
+    return waves
+
+
+def plan_model(model: dict) -> dict:
+    """Everything the plan renders, derived from the compiled manifest only."""
+    assets = model["assets"]
+    produced = [a for a in assets if a["mode"] != "reuse"]
+    by_asset = collections.defaultdict(list)
+    for d in model["deliverables"]:
+        by_asset[d["asset_id"]].append(d)
+    batches = []
+    for key, title, _matches in BATCH_RULES:
+        members = [a for a in produced if batch_of(a) == key]
+        members.sort(key=asset_sort_key)
+        batches.append({
+            "key": key,
+            "title": title,
+            "dependency": BATCH_DEPENDENCY[key],
+            "assets": members,
+            "deliverables": sum(len(by_asset[a["id"]]) for a in members),
+        })
+    batches.reverse()  # B0 first: the plan reads in production order
+    return {
+        "batches": batches,
+        "by_asset": by_asset,
+        "pilots": pick_pilots(produced),
+        "impact": gate_impact(model),
+        "waves": unlock_waves(model),
+        "reuse": [a for a in assets if a["mode"] == "reuse"],
+    }
+
+
+PLAN_CSV_HEADER = [
+    "Köteg", "Köteg neve", "Függőség", "Deliverable ID", "Asset ID", "Szerep",
+    "Modul", "Egység", "Típus", "Altípus", "Produkciós mód", "Státusz",
+    "Kapuk", "Szín-függés", "Pilot", "Cím", "Forrásfájl",
+]
+
+
+def plan_csv_rows(model: dict) -> list[list[str]]:
+    plan = plan_model(model)
+    pilot_ids = {info["asset"]["id"]: key for key, info in plan["pilots"].items()}
+    rows = []
+    for batch in plan["batches"]:
+        for asset in batch["assets"]:
+            gates = ", ".join(sorted(asset_gates(asset)))
+            for deliverable in plan["by_asset"][asset["id"]]:
+                rows.append([
+                    batch["key"], batch["title"], batch["dependency"],
+                    deliverable["id"], asset["id"], deliverable["role_label"],
+                    asset["module"], asset["unit"], asset["kind"], asset["subtype"],
+                    MODE_LABELS[asset["mode"]], STATUS_LABELS[asset["status"]],
+                    gates, COLOUR_LABELS[colour_dependency(asset)],
+                    pilot_ids.get(asset["id"], ""), deliverable["title"], asset["file"],
+                ])
+    return rows
+
+
+def _plan_group_table(P, assets, by_asset) -> None:
+    grouped = collections.defaultdict(lambda: [0, 0])
+    for asset in assets:
+        cell = grouped[(asset["module"], asset["kind"])]
+        cell[0] += 1
+        cell[1] += len(by_asset[asset["id"]])
+    P("| Modul | Típus | Asset | Deliverable |")
+    P("|---|---|---:|---:|")
+    for (module, kind), (n_assets, n_deliverables) in sorted(
+            grouped.items(), key=lambda kv: (module_sort_index(kv[0][0]), kv[0][1])):
+        P(f"| {module} | {kind} | {n_assets} | {n_deliverables} |")
+    P("")
+
+
+def _plan_asset_table(P, assets, by_asset) -> None:
+    P("| Asset | Típus | Deliverable | Kapuk | Cím |")
+    P("|---|---|---:|---|---|")
+    for asset in assets:
+        gates = ", ".join(sorted(asset_gates(asset))) or "—"
+        P(f"| `{asset['id']}` | {asset['kind']}"
+          f"{'/' + asset['subtype'] if asset['subtype'] else ''} | "
+          f"{len(by_asset[asset['id']])} | {gates} | {_md_cell(asset['title'])} |")
+    P("")
+
+
+def render_plan_md(model: dict) -> str:
+    """The production batch plan — a view of the manifest, not a second source.
+
+    Everything here is derived: batches from the gates each declaration already
+    carries, impact from set arithmetic over those gates, pilots from a stated
+    rule. Nothing is hand-maintained, so the plan cannot drift away from the
+    lessons. The open decisions themselves live in `PRODUCTION-DECISIONS.md`;
+    the canonical rule texts live in `produkcios-szabalyok.json`.
+    """
+    stats = compute_stats(model)
+    plan = plan_model(model)
+    by_asset = plan["by_asset"]
+    produced = [a for a in model["assets"] if a["mode"] != "reuse"]
+    lines: list[str] = []
+    P = lines.append
+
+    P("# 🎬 Média-produkciós terv")
+    P("")
+    P("**Generált fájl — kézzel ne szerkeszd.** Előállítja:")
+    P("`python3 tools/media_manifest.py build`. A forrása kizárólag a jelenlegi")
+    P("leckékben álló `@asset` deklarációk és a `produkcios-szabalyok.json`.")
+    P("")
+    P("Ez a dokumentum azt mondja meg, **mi gyártható most**, mi mire vár, és")
+    P("milyen sorrendben éri meg haladni. A nyitott döntések szövege nem itt van:")
+    P("azokat [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) tartja")
+    P("karban. A soronkénti munkalista: `media-production-plan.csv`.")
+    P("")
+
+    P("## 1. Készültségi összesítő")
+    P("")
+    P("| | |")
+    P("|---|---:|")
+    P(f"| Szemantikus asset | **{stats['assets']}** |")
+    P(f"| ebből újrahasznosítás (nem gyártandó) | {len(plan['reuse'])} |")
+    P(f"| Produkciós deliverable | **{stats['deliverables']}** |")
+    P("")
+    P("### Státusz szerint")
+    P("")
+    P("| Státusz | Asset | Deliverable |")
+    P("|---|---:|---:|")
+    deliverable_status = collections.Counter(d["status"] for d in model["deliverables"])
+    for status, count in sorted(stats["by_status"].items(), key=lambda kv: -kv[1]):
+        P(f"| {STATUS_LABELS[status]} | {count} | {deliverable_status.get(status, 0)} |")
+    P("")
+
+    gate_counts = collections.Counter(g for a in produced for g in asset_gates(a))
+    P("### Kapuk szerint")
+    P("")
+    P("| Kapu | Érintett asset |")
+    P("|---|---:|")
+    for gate in ("R2", "R3", "R5", "R7", "R8", OPEN_DECISION, MISSING_SPOKEN_SOURCE):
+        P(f"| {GATE_LABELS[gate]} | {gate_counts.get(gate, 0)} |")
+    P("")
+    zero = [a for a in produced if not asset_gates(a)]
+    one = [a for a in produced if len(asset_gates(a)) == 1]
+    many = [a for a in produced if len(asset_gates(a)) > 1]
+    P("| Kapu-terheltség | Asset | Deliverable |")
+    P("|---|---:|---:|")
+    for label, group in (("nincs nyitott kapu", zero),
+                         ("pontosan EGY kapu", one),
+                         ("TÖBB kapu", many)):
+        P(f"| {label} | {len(group)} | "
+          f"{sum(len(by_asset[a['id']]) for a in group)} |")
+    P("")
+
+    P("## 2. Döntés-hatás — mit szabadít fel egy kapu lezárása?")
+    P("")
+    P("Az „érintett” és a „ténylegesen felszabaduló” nem ugyanaz: sok asseten")
+    P("egyszerre több kapu ül. Az utolsó oszlop mutatja, mi marad zárva akkor is,")
+    P("ha az adott kaput önmagában lezárjuk.")
+    P("")
+    P("| Kapu | Érintett asset | Érintett deliverable | Önmagában felszabadul (asset) | "
+      "…deliverable | Más kapu is ül rajta | A többi kapu |")
+    P("|---|---:|---:|---:|---:|---:|---|")
+    for row in plan["impact"]:
+        co = ", ".join(f"{g}×{n}" for g, n in row["co_gates"].items()) or "—"
+        P(f"| {row['label']} | {row['assets']} | {row['deliverables']} | "
+          f"**{row['unblocked_alone']}** | {row['unblocked_alone_deliverables']} | "
+          f"{row['still_blocked']} | {co} |")
+    P("")
+
+    P("## 3. Javasolt sorrend (mohó, újraszámolt marginális haszon)")
+    P("")
+    P("Minden lépés után újraszámolva: melyik kapu lezárása szabadítja fel a")
+    P("legtöbb assetet **abban a pillanatban**. Ez nem határidő, hanem")
+    P("átbocsátóképesség-sorrend.")
+    P("")
+    P("| # | Kapu | Ekkor felszabaduló asset | …deliverable | Halmozott gyártható asset |")
+    P("|---:|---|---:|---:|---:|")
+    for wave in plan["waves"]:
+        P(f"| {wave['step']} | {wave['label']} | {wave['assets']} | "
+          f"{wave['deliverables']} | {wave['cumulative_assets']} |")
+    P("")
+
+    P("## 4. Kötegek")
+    P("")
+    P("Egy asset **pontosan egy** kötegbe kerül: a legkésőbb érkező kapuja")
+    P("dönt. A „Kapuk” oszlop minden nyitott kaput felsorol, így látszik, ha egy")
+    P("tétel több dologra is vár.")
+    P("")
+    P("| Köteg | Függőség | Asset | Deliverable |")
+    P("|---|---|---:|---:|")
+    for batch in plan["batches"]:
+        P(f"| **{batch['title']}** | {batch['dependency']} | "
+          f"{len(batch['assets'])} | {batch['deliverables']} |")
+    P("")
+
+    for batch in plan["batches"]:
+        P(f"### {batch['title']}")
+        P("")
+        P(f"**Függőség:** {batch['dependency']} · "
+          f"**{len(batch['assets'])} asset / {batch['deliverables']} deliverable**")
+        P("")
+        if not batch["assets"]:
+            P("_Üres._")
+            P("")
+            continue
+        if batch["key"] == "B1":
+            split = collections.defaultdict(list)
+            for asset in batch["assets"]:
+                split[colour_dependency(asset)].append(asset)
+            P("Az R5 két külön dolgot tart nyitva: a **stílus-tokent** (tipográfia,")
+            P("elrendezés, margók, jelölés) és a **hex-palettát**. Amelyik tétel a saját")
+            P("technikai jegyzete szerint fekete-fehérben is nyomtatható és nem nevez meg")
+            P("színt, az csak a stílus-tokenre vár — az a paletta-vita előtt is indulhat.")
+            P("")
+            P("| Alköteg | Asset | Deliverable |")
+            P("|---|---:|---:|")
+            for key in ("bw", "unspecified", "colour"):
+                group = split.get(key, [])
+                P(f"| 1{'ABC'[('bw', 'unspecified', 'colour').index(key)]} — "
+                  f"{COLOUR_LABELS[key]} | {len(group)} | "
+                  f"{sum(len(by_asset[a['id']]) for a in group)} |")
+            P("")
+        if len(batch["assets"]) <= 45:
+            _plan_asset_table(P, batch["assets"], by_asset)
+        else:
+            _plan_group_table(P, batch["assets"], by_asset)
+            P(f"A {len(batch['assets'])} tétel soronként a")
+            P("`media-production-plan.csv` fájlban van (`Köteg` oszlop = "
+              f"`{batch['key']}`).")
+            P("")
+
+    P("## 5. Pilot-tételek")
+    P("")
+    P("Minden produkciós családban **egy** tétel készül el először, és azt kell")
+    P("jóváhagyni, mielőtt a testvérei elindulnak. A választás szabálya rögzített:")
+    P("a legkevesebb nyitott kapuval bíró tételek közül a **medián hosszúságú**")
+    P("specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.")
+    P("")
+    P("| Család | Pilot | Köteg | Kapuk | Család mérete | Cím |")
+    P("|---|---|---|---|---:|---|")
+    for key, _label, _matches in PILOT_FAMILIES:
+        info = plan["pilots"].get(key)
+        if not info:
+            continue
+        asset = info["asset"]
+        gates = ", ".join(sorted(asset_gates(asset))) or "—"
+        P(f"| {info['label']} | `{asset['id']}` | {batch_of(asset)} | {gates} | "
+          f"{info['family_size']} | {_md_cell(asset['title'])} |")
+    P("")
+
+    if plan["reuse"]:
+        P("## 6. Újrahasznosítás — nem gyártandó")
+        P("")
+        P("Ezek a tételek nem hoznak létre új deliverable-t: a kanonikus asset")
+        P("legyártásával elkészülnek.")
+        P("")
+        P("| Asset | Kanonikus forrás | Modul |")
+        P("|---|---|---|")
+        for asset in plan["reuse"]:
+            P(f"| `{asset['id']}` | `{asset['reuse_of']}` | {asset['module']} |")
+        P("")
+
+    P("## 7. Mi NEM ebben a fájlban dől el")
+    P("")
+    P("- A kapuk szövege és a hiányzó érték: `produkcios-szabalyok.json`.")
+    P("- A nyitott emberi döntések: [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md).")
+    P("- A narrátor-hang követelményei: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md).")
+    P("- A vizuális rendszer nyitott értékei: "
+      "[`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md).")
+    P("- A jogi bizonyíték-nyilvántartás: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).")
+    P("- A kurzus release-állapota: `02 Tervezet/RELEASE-READINESS.md`.")
+    P("")
+    return "\n".join(lines) + "\n"
+
+
+# ==========================================================================
 # Build / check
 # ==========================================================================
 
@@ -2519,6 +2986,8 @@ def build_outputs(model: dict) -> dict[Path, bytes]:
     model = dict(model)
     model["reconciliation"] = recon
     outputs: dict[Path, bytes] = {
+        OUT_PLAN_MD: render_plan_md(model).encode("utf-8"),
+        OUT_PLAN_CSV: render_csv(PLAN_CSV_HEADER, plan_csv_rows(model)),
         OUT_JSON: render_manifest_json(model).encode("utf-8"),
         OUT_ASSETS_CSV: render_csv(ASSET_CSV_HEADER, asset_csv_rows(model)),
         OUT_DELIVERABLES_CSV: render_csv(DELIVERABLE_CSV_HEADER, deliverable_csv_rows(model)),
