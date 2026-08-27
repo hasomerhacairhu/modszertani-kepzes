@@ -39,20 +39,97 @@ olvasat marad érvényben, hacsak egy későbbi jogi review kifejezetten nem sz�
 
 ### Szükséges bizonyítékok
 
-| # | Bizonyíték | Mire kell | Állapot | Hivatkozás |
+A „Kutatás” oszlop azt mutatja, hogy a **jelöltek** feltételei ismertek-e. Ettől a
+bizonyíték állapota **nem változik**: az R2 a *ténylegesen használt produkciós fiókra*
+kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
+
+| # | Bizonyíték | Mire kell | Állapot | Kutatás |
 |---|---|---|---|---|
-| R2-1 | A képgeneráló eszköz / szolgáltató **neve és verziója** | mind a 28 | **HIÁNYZIK** | — |
-| R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 28 | **HIÁNYZIK** | — |
-| R2-3 | **Avatar- / képmás-jogosultság**: az avatar nem valós, azonosítható személy hasonmása, vagy van rá engedély | 26 videó + 2 állókép | **HIÁNYZIK** | — |
-| R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **HIÁNYZIK** — a D2 dönti el, hogy egyáltalán lesz-e | — |
-| R2-5 | **Voice-talent release** vagy hangklónozási engedély | csak szintetikus hangnál | **HIÁNYZIK** — a D2-től függ | — |
-| R2-6 | Emberi felmondó esetén **felhasználási szerződés** | csak emberi felmondónál | **HIÁNYZIK** — a D2-től függ | — |
+| R2-1 | A képgeneráló eszköz / szolgáltató **neve és verziója** | mind a 28 | **HIÁNYZIK** | KUTATVA — jelöltek és verziók: 1/A.1., 1/A.2. |
+| R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 28 | **HIÁNYZIK** — a fiókhoz és a választott csomaghoz kötött szövegváltozat kell | KUTATVA — a jelöltek nyilvános záradékai idézve: 1/A.1., 1/A.2. |
+| R2-3 | **Avatar- / képmás-jogosultság**: az avatar nem valós, azonosítható személy hasonmása, vagy van rá engedély | 26 videó + 2 állókép | **HIÁNYZIK** | KUTATVA — a jelöltek hozzájárulási feltételei idézve; a **J2 kiskorú-kérdés** nyitva: 1/A.3. |
+| R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **HIÁNYZIK** — a D2 dönti el, hogy egyáltalán lesz-e | KUTATVA — jelöltek: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz |
+| R2-5 | **Voice-talent release** vagy hangklónozási engedély | csak szintetikus hangnál | **HIÁNYZIK** — a D2-től függ | a jelölt stackek **készlet-hangot** használnának, klónozás nélkül; a záradékok a hang-bible 13. szakaszában |
+| R2-6 | Emberi felmondó esetén **felhasználási szerződés** | csak emberi felmondónál | **HIÁNYZIK** — a D2-től függ | KUTATVA — a szerződés-szerkezet kockázata (51-szeres árkülönbség) a hang-bible 13.4. pontjában |
 
 > **Fontos következmény.** Ha a D2 válasza **szintetikus hang**, az R2 „AI-hang” ága
 > nemcsak a 28 videóra, hanem **mind a 90 narráció-assetre** is kiterjed. Ha emberi
 > felmondó lesz, akkor az R2-5 helyére az R2-6 lép, és a narrációk nem kerülnek az R2
 > hatálya alá. **Ez a döntés következménye, nem külön kérdés** — de a bizonyíték-listát
 > a válasz után újra kell futtatni.
+
+---
+
+## 1/A. Szolgáltató-kutatás (2026-08-27) — a bizonyíték-igény konkrétummá tétele
+
+> **A fenti hat sor állapota változatlanul HIÁNYZIK, és a 28 asset R2-blokkolója a
+> helyén marad.** Ez a szakasz csak annyit tesz, hogy a „⟬generátor neve⟭” absztrakt
+> mezőt lecseréli **megnevezett jelöltekre és a hozzájuk tényleg tartozó, idézhető
+> feltételekre** — hogy a jogi jóváhagyó ne nulláról induljon.
+>
+> **A nyilvános szolgáltatási feltétel nem azonos a produkciós fiók bizonyítékával.**
+> Fiókot nem hoztunk létre, próbaidőszakot nem indítottunk, generálást nem futtattunk.
+
+Állapotjelölés ebben a szakaszban:
+
+| | |
+|---|---|
+| `EVIDENCE_FOUND` | a kérdéses feltétel a szolgáltató saját oldalán megtalálható és idézhető |
+| `EVIDENCE_INCOMPLETE` | egy része megvan, más része nem volt lekérdezhető |
+| `USER_ACCOUNT_PROOF_REQUIRED` | csak élő, fizetős fiókból igazolható (pl. tényleges nyelvi minőség, export) |
+| `LEGAL_REVIEW_REQUIRED` | van szövegszerű bizonyíték, de a jelentése jogi minősítést igényel |
+| `NOT_APPLICABLE` | a jelölt kiesett |
+
+**Nem használunk `SAFE` vagy `LEGAL` állapotot.** Ez a lap nem hoz jogi következtetést.
+
+### 1/A.1. Beszélőfej-videó (21 asset)
+
+| Jelölt | Kereskedelmi használat | Kimenet-tulajdon | Képmás / avatar feltétel | Provenance | Állapot |
+|---|---|---|---|---|---|
+| **Synthesia** | fizetős előfizetés | „Customer will own all Customer Data” | egyedi avatarnál: az érintett „over the applicable statutory legal age and has provided free and informed consent” | fizetős szinten EU AI Act 50. cikk szerinti jelölés; az AUP **tiltja** a provenance-jelölés eltávolítását | **EVIDENCE_FOUND** — de a magyar szájszinkron, a felirat-export és a felbontás → `USER_ACCOUNT_PROOF_REQUIRED` |
+| **HeyGen** | fizetős csomagon igen; ingyenesen **nem kereskedelmi** | „you own all rights in your User Input or User Output” | tiltja mások képének feltöltését „without their consent”; avatar-hozzájáruláshoz beszélt nyilatkozat, szemantikusan ellenőrizve | nem ellenőrzött | **EVIDENCE_INCOMPLETE** |
+| **BytePlus OmniHuman 1.5** | igen | „you own the Output generated in response to your Input” | az AUP megköveteli a hozzájárulást, de **technikai korlát nincs** — a felelősség a felhasználóé | **nincs C2PA**, nincs felirat-kimenet | **EVIDENCE_INCOMPLETE** — az általános AUP hatálybalépési dátuma jövőbeli (2026-09-28) |
+
+**Egyedül a Synthesia ad kártalanítást a megrendelő felé** a készlet-avatar képmás- és
+személyiségi jogi igényeire; a HeyGen feltételeiben a felhasználó kártalanítja a
+szolgáltatót.
+
+### 1/A.2. AI karakter-jelenet (5 asset + 1 B-roll) és freeze-frame (2 asset)
+
+| Jelölt | Kereskedelmi használat | Kimenet-tulajdon | Tanítás a bemeneten | Provenance | Állapot |
+|---|---|---|---|---|---|
+| **Google Veo 3.1 GA (Vertex AI)** | fizetős Vertex | „Google does not assert any ownership rights in any new intellectual property created in the Generated Output” | „Google will not use Customer Data to train or fine-tune any AI/ML models without Customer's prior permission” | SynthID + C2PA | **LEGAL_REVIEW_REQUIRED** — lásd az 1/A.3. korhatár-záradékot |
+| **Runway Gen-4.5** | „does not restrict your commercial use of your Outputs”, szintkorlát nélkül | „does not claim ownership of any of your Inputs or Outputs” | **igen** — „Inputs and Outputs may be used by the Company to train and improve its AI models” | C2PA | **EVIDENCE_FOUND** |
+| **Kling 3.0 Omni** | az alap-ToS 4.6 **tiltja** engedély nélkül; csak fizetős tagsági kedvezményként oldódik fel | 4.4 szerint a tiéd | van, e-mailes leiratkozással | a vízjel eltávolítása fizetős kedvezmény | **LEGAL_REVIEW_REQUIRED** |
+| **OpenAI Sora 2** | — | — | — | — | **NOT_APPLICABLE** — az API-ból 2026-09-24-én kivezetik, és emberi hasonmást ábrázoló karakter-feltöltést blokkol |
+
+A karakter rögzítéséhez vizsgált képgenerátor (`gemini-3-pro-image`, „Nano Banana Pro”)
+a dokumentációja szerint karakter-konzisztenciához
+**legfeljebb 5 referenciakép** adható meg („Up to 5 images of characters to maintain
+character consistency”), és kimondja, hogy „All generated images include a SynthID
+watermark”.
+
+### 1/A.3. Két kérdés, amit ez a lap NEM dönt el — emberi kapu
+
+| # | Kérdés | Bizonyíték | Kihez tartozik |
+|---|---|---|---|
+| **J1** | A Google Cloud Service Specific Terms §20(d) szerint az ügyfél nem használhat generatív AI-szolgáltatást olyan online szolgáltatás részeként, amely „directed towards or is likely to be accessed by individuals under the age of 18”. A tananyag célközönsége **15+**, és a madrich maga is lehet kiskorú. Hogy az **offline legyártott, majd Moodle-ön kiszolgált** asset ebbe a mondatba esik-e, jogi olvasat. | idézve fent | **jogi jóváhagyó** — ez a javasolt karakter-jelenet stacket kizárhatja |
+| **J2** | A Synthesia AUP tiltja kiskorúak avatarral való ábrázolását, az egyedi avatar feltétele a nagykorúság, a Veo EU-ban `allow_adult` személy-generálást enged. Ebből az következik, hogy **a beszélőfej és a karakter felnőttnek kell hogy látsszon** — miközben a tananyag szerint a madrich maga is lehet kiskorú, és a jelenetek „madrichot” ábrázolnak. | idézve fent | **gyermekvédelmi felelős + szerzői döntés** — ez tananyagi és gyermekvédelmi kérdés, nem eszközválasztás. A kánoni hely: `Gyermekvédelem – release gate.md` és `Emberi jóváhagyás szükséges.md`. |
+
+> **A J2 nem oldható meg produkciós oldalról.** Ez a lap rögzíti, hogy a kérdés
+> felmerült, és megáll.
+
+### 1/A.4. Ami a kutatásból hiányzik
+
+- **A Synthesia és a HeyGen magyar szájszinkronja és felirat-exportja nem ellenőrzött** —
+  pedig ez pass/fail feltétel. Csak élő fiókkal, illetve a pilot legyártásával dönthető el.
+- D-ID, Colossyan, Elai.io, Creatify, Argil: nem vizsgálva.
+- Adobe Firefly: a jogi és árazási oldalak nem voltak elérhetők. A „commercially safe”
+  marketingszöveg **nem** kártalanítási vállalás.
+- Midjourney: a dokumentáció és a jogi oldal HTTP 403-at adott.
+- MiniMax/Hailuo és Pika jogi feltételei: JS-renderelt oldalak, szöveg nem nyerhető ki.
+- Az Azure és a Google **kimenet-tulajdonlási** záradéka a hang oldalán (R2-4)
+  nem lett lekérdezve.
 
 ### Amit ez a lap NEM állít
 
