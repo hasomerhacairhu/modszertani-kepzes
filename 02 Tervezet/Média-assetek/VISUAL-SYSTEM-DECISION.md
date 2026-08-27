@@ -23,8 +23,22 @@ Három bizonyíték-osztályt tart külön:
 `#RRGGBB` alakú érték **sehol nem fordul elő**. Nincs design-system fájl, nincs arculati
 leírás, nincs logó-specifikáció, nincs betűtípus-megnevezés.
 
-Ez azt jelenti, hogy az R5 hex-palettája **nem „elveszett”, hanem soha nem is létezett a
-repositoryban**. Nem lehet kinyerni; el kell dönteni.
+Ez azt jelenti, hogy az R5 hex-palettája **soha nem létezett a repositoryban**.
+
+> 🔎 **2026-08-27-i kiegészítés: a repositoryn KÍVÜL viszont létezik.** Egy célzott külső
+> keresés megtalálta a mozgalom **saját, nyilvánosan elérhető arculati kézikönyvét** és
+> logócsomagját (`https://somer.hu/arculat/`), deklarált HEX / RGB / CMYK / Pantone
+> értékekkel; a hat alapszín a hivatalos SVG `<style>` blokkjából **byte-azonosan
+> megerősítve**. A palettát tehát **nem kell kitalálni — át lehet venni**, ha a
+> jóváhagyó így dönt.
+>
+> A teljes bizonyíték-lánc, a számított kontrasztok és a két változat:
+> [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md).
+>
+> **Ettől az R5 NEM zárul le.** Egy megtalált first-party dokumentum bizonyíték, nem
+> szervezeti jóváhagyás: a kézikönyv verzió- és dátumbélyeg nélküli, szerkeszthető Google
+> Doc, a `somer.hu` élő oldala pedig még egy **korábbi, eltérő színgenerációt** szállít.
+> Amíg a jóváhagyó nem mondja ki, melyik a hatályos, a 257 asset R5-blokkolója marad.
 
 ## 2. Ami viszont KÖTELEZŐEN megvan
 
@@ -130,20 +144,27 @@ elég a fekete-fehér nyomtatás — ez erős jel arra, hogy a nyomtatott anyagc
 
 ## 4. Ami hiányzik — a D1 döntés tárgya
 
+Új bizonyíték-osztály a 2026-08-27-i külső kutatás után:
+
+| | Jelentés |
+|---|---|
+| 🔎 **KÜLSŐ FORRÁSBÓL MEGVAN** | a mozgalom saját, nyilvános arculati anyaga kimondja; **bizonyíték, nem jóváhagyás** — a jóváhagyónak meg kell erősítenie, hogy ez a hatályos változat |
+
 | Mező | Állapot | Kire hat |
 |---|---|---|
-| Someres alap-hex-paletta (elsődleges, másodlagos, akcent) | ⛔ nincs bizonyíték | a terv 1C alkötegében jelölt színfüggő tételek + minden színes vizuál |
-| Háttér- és szövegszín (világos/sötét) | ⛔ nincs bizonyíték | minden vizuál |
-| Betűtípus — címsor és törzs | ⛔ nincs bizonyíték | mind a 258 R5-tétel |
-| Ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés | ⛔ nincs bizonyíték | 40 ikon-készlet |
+| Someres alap-hex-paletta (elsődleges, másodlagos, akcent) | 🔎 **megvan** — 6 alapszín + 18 árnyalat, HEX/RGB/CMYK/Pantone; jóváhagyásra vár | a terv 1C alkötegében jelölt színfüggő tételek + minden színes vizuál |
+| Háttér- és szövegszín (világos/sötét) | 🔎 **részben** — a hivatalos monokróm változat `#1D1D1B`-t használ; a fehér/sötét mód rendszerszintű leképezése javaslat | minden vizuál |
+| Betűtípus — címsor és törzs | 🔎 **részben** — a kézikönyv Myriad Pro-t nevez meg törzsszövegre, de a **betűméret-skálája minden szinten kitöltetlen** („kifejtésre vár”), és a Myriad Pro beágyazási licence nyitott jogi kérdés | mind a 258 R5-tétel |
+| Ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés | ⛔ a kézikönyv nem rendelkezik róla — javaslat készült | 40 ikon-készlet |
 | Karakter-stílus és rögzített referencia-seed | ⛔ nincs bizonyíték | 6 AI karakter-videó + 2 freeze-frame |
-| Logóhasználat, elhelyezés, biztonsági margó | ⛔ nincs bizonyíték | poszterek, nyomtatványok |
-| Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ⛔ döntés kell | SBI, 3 pillér, kérdéstípusok, Do/Don't |
-| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | ⛔ nincs bizonyíték | 280 AI-eredetű asset |
+| Logóhasználat, elhelyezés, biztonsági margó | 🔎 **részben** — a használati tiltások (nem átszínezni, nem újrarajzolni, nem nyújtani, nem forgatni, effekt és árnyék nélkül) kimondottak; **biztonsági margó és minimális méret viszont sehol nincs** | poszterek, nyomtatványok |
+| Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ⛔ döntés kell — de a kontraszt-mérés leszűkítette: a paletta 15 színpárja közül **egy sem** éri el a 3:1-et, tehát a szín önmagában semmit nem választ el | SBI, 3 pillér, kérdéstípusok, Do/Don't |
+| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | 🔎 **részben** — hogy **LMS-szöveg, nem képbe égetve**, azt a tananyag maga kimondja (`M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás javaslat | 280 AI-eredetű asset |
 
 **Amit ez a lap kifejezetten NEM tesz:** nem talál ki hex-értéket, nem nevez meg
 betűtípust és nem rögzít logóhasználatot. Ezek szervezeti-arculati döntések; egy kitalált
-érték 257 asseten válna szabállyá, mielőtt bárki jóváhagyta volna.
+érték 257 asseten válna szabállyá, mielőtt bárki jóváhagyta volna. A 🔎 sorok sem
+jóváhagyottak — **megtalált bizonyítékok**, amelyekre a jóváhagyónak igent kell mondania.
 
 ## 5. Javasolt zárási sorrend
 
