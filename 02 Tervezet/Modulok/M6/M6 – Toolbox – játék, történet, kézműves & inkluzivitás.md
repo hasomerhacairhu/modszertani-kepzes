@@ -1,5 +1,31 @@
 # M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”
 
+<!-- @asset
+{
+  "id": "M6-HUB-MUNK-01",
+  "kind": "worksheet",
+  "mode": "reuse",
+  "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
+  "purpose": "Ez a modul központi, kapuzott produktuma (éles mastery-gate, §6.2). A sablon vezeti a madrichot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság hard-gate, R5 Inkluzivitás hard-gate, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és peer/mentor által értékelhető legyen, és továbbvihető az M7 capstone-ba.",
+  "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / consent / trigger / időkeret / felelősségek), (6) Inkluzivitás: legalább 1 nevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment/Workshop feltöltéshez, kitölthető PDF vagy Google/Word sablon); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézzel kitöltéshez."
+  },
+  "a11y": {
+    "note": "Akadálymentes nyomtatott/digitális űrlap: logikus olvasási sorrend, valódi szöveg (nem képbe ágyazott), kitölthető PDF-nél címkézett űrlapmezők (tab-sorrend, képernyőolvasó-kompatibilis mezőnevek); elegendő kontraszt; egyszerű, sallangmentes magyar instrukciós szöveg minden rovatnál."
+  },
+  "reuse_of": "M6.B-MUNK-01",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (workshop / modul-produktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (sor 40, 174, 329: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (sor 63: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA, de NEM definiálja a rovatstruktúrát, ezért a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F sor 150/154) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
+  "legacy": {
+    "asset": [
+      "M6-MUNK-01"
+    ]
+  }
+}
+-->
+
 ## 1. Modul meta
 
 * **Időtartam:** 2 hét

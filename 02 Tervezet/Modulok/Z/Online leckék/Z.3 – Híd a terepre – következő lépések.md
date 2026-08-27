@@ -51,6 +51,46 @@
 
 ### SLIDE 1 – HOOK: „Nagyon nagyot, vagy inkább kicsit?”
 
+<!-- @asset
+{
+  "id": "Z.3-IKO-01",
+  "kind": "icon-set",
+  "mode": "generate",
+  "title": "Óriáslépés vs. apró lépések ikonpár",
+  "purpose": "A HOOK üzenetének („nem kell óriási vállalás, elég egy-két kicsi, de konkrét lépés” – 54. sor) vizuális megerősítése; a tanuló azonnal megérti a középút-metaforát, mielőtt a Single Choice kérdéshez ér.",
+  "spec": "Két kontrasztos, egyszerű piktogram-ikon egy készletben: (1) egy figura, aki egyetlen óriási, kockázatos lépést/ugrást próbál megtenni; (2) ugyanaz/hasonló figura, aki több apró, stabil lépést tesz. A két ikon vizuálisan szembeállítható (egymás mellett vagy „vs.”). Semleges, illusztratív piktogram-stílus a Hasomer-anyag vizuális hangulatához illően. A HOOK középút-metaforáját erősíti.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "2 db ikon egy készletben, SVG (vektor) + PNG fallback, átlátszó háttér, magas kontraszt, mobil-first méretezés (kis kijelzőn is olvasható). A dián a cím: „Híd a terepre – de mekkora lépést lépek?” (58. sor) – ez szöveg, nem része az ikon-assetnek."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "note": "Mindkét ikonhoz alt-szöveg szükséges (lásd Z.3-ALT-01); dekoratívnak NEM jelölendő, mert a kontraszt-metaforát hordozza."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Az egyetlen explicit legyártandó vizuális asset a leckében. A SLIDE 1 cím- és szövegblokkjához (58–68. sor) és a Single Choice kérdéshez (70–83. sor) tartozik. A diákon szereplő emoji (1️⃣2️⃣3️⃣🔁🛟✅; valós előfordulás: 121/123/125/160/236/259. sor) inline szöveg-dekoráció a H5P szövegmezőkben, NEM legyártandó ikon-asset. A 238. sorban hivatkozott M0.A „Kihez fordulhatok?” térkép és M3.3 jelzési lánc MÁS leckék assetjei (kereszthivatkozás), nem Z.3-ban gyártandók. A 23. sor „Flow: Hook → Input → …” meta-dokumentáció, nem dián megjelenő ábra.",
+  "legacy": {
+    "alt-text": [
+      "Z.3-ALT-01"
+    ],
+    "asset": [
+      "Z.3-IKO-01"
+    ]
+  }
+}
+-->
+
 **Cél:** ráhangolni, hogy **nem kell óriási vállalás**, elég egy-két kicsi, de konkrét lépés.
 
 **Vizualitás:**

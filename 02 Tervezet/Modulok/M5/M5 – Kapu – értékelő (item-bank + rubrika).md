@@ -1,5 +1,11 @@
 # M5 – KAPU – értékelő (item-bank + rubrika)
 
+<!-- @asset-free
+{
+  "reason": "Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ← Vissza a modul-hubhoz: **[M5 – „Ez most játék vagy tanulás_” – Nonformális nevelés, módszerválasztás & tanulástan](./M5%20–%20Ez%20most%20játék%20vagy%20tanulás%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)**
 
 > **Ez a fájl az M5 mastery-kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva. Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.

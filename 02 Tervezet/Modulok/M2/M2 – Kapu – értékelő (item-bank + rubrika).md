@@ -1,5 +1,11 @@
 # M2 – KAPU – értékelő (item-bank + rubrika)
 
+<!-- @asset-free
+{
+  "reason": "Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ← Vissza a modul-hubhoz: **[M2 – „Ki vagyok madrichként_” – Identitás, Somer-értékek és dugma ishit](./M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)**
 
 > **Mihez tartozik:** M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit.

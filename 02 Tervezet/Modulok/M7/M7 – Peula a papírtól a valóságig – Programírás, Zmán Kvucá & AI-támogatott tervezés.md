@@ -1,5 +1,120 @@
 # M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés
 
+<!-- @asset
+{
+  "id": "M7-HUB-DIA-02",
+  "kind": "diagram",
+  "mode": "generate",
+  "title": "Kétkapus capstone idővonal: v1 first-draft gate → spacing → v2 mastery-kapu",
+  "purpose": "Vizuálisan érthetővé teszi a spacing-alapú, két menetben érő capstone-logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
+  "spec": "Idővonal/folyamatábra a félévzáró capstone két kapujáról, időben szétterítve (spacing): (1) v1 – first-draft gate az M7 hét 1 végén, M7.A után (formatív, alacsony tét, rubrika-előnézet, NEM buktat, újrapróbálható, M7.4 Assignment); (2) ~1 hét spacing-köz, csiszolás az M7.B peula-klinikán és otthon; (3) v2 – mastery-kapu az M7 hét 2 végén, M7.B után (éles kapu: rubrika + kvíz). Jelölje a két nyitott döntés határidő-helyet.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Vektoros, vízszintes idővonal/swimlane, magyar feliratokkal; 16:9 kivetíthető és A4/A3 nyomtatható; két dátum-placeholder mezővel."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "note": "Alt-szöveg kötelező: M7-HUB-ALT-02 (a három állomás sorrendje, tétje és időzítése szövegesen)."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Hub-szintű folyamatábra; a részletes értékelő (item-bank, rubrika) az „M7 – KAPU\" fájlban él, ide csak az idővonal logika kell.",
+  "legacy": {
+    "alt-text": [
+      "M7-HUB-ALT-02"
+    ],
+    "asset": [
+      "M7-HUB-DIA-02"
+    ]
+  }
+}
+-->
+
+<!-- @asset
+{
+  "id": "M7-HUB-DIA-03",
+  "kind": "diagram",
+  "mode": "generate",
+  "title": "Portfólió-átkötés / capstone-konvergencia: M1 SBI … M6 játéklap → 1 Peula v2",
+  "purpose": "Vizuálisan üzeni, hogy a capstone nem nulláról indul, hanem a portfólió korábbi produktumait köti egybe; megerősíti a line 222 üzenetét a madrichnak.",
+  "spec": "Konvergencia-/tölcsérdiagram, amely megmutatja, hogy a hat korábbi modul kész produktuma hogyan táplálja az egyetlen Peula v2-t: M1 SBI-nyelv (utóreflexió, javító feedback), M2 saját érték / dugma ishit (SMART cél kötése), M3 gyermekvédelem + kvuca-profil (Zmán Kvucá-safety), M4 kérdezéstechnika (élmény-/feldolgozó-blokk, visszatükrözés), M5 módszer-logika (cél↔módszer↔kvuca), M6 játéklap (élmény-blokk, safety/inkluzivitás). Hat bemenet → egy vállalható Peula v2.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Vektoros tölcsér/konvergencia-ábra, magyar feliratokkal; 16:9 kivetíthető és A4/A3 nyomtatható."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "note": "Alt-szöveg kötelező: M7-HUB-ALT-03 (a hat bemenet és a Peula v2 célpont szöveges felsorolása)."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "A részletes capstone-átkötés-tábla az „M7 – KAPU\" §CAPSTONE-ban él (line 213, 222); ez a hub-ábra annak vizuális, ezen a fájlon belül is használt összefoglalója.",
+  "legacy": {
+    "alt-text": [
+      "M7-HUB-ALT-03"
+    ],
+    "asset": [
+      "M7-HUB-DIA-03"
+    ]
+  }
+}
+-->
+
+<!-- @asset
+{
+  "id": "M7-HUB-MUNK-01",
+  "kind": "worksheet",
+  "mode": "generate",
+  "title": "1 perces exit-ticket munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés)",
+  "purpose": "Gyors offline visszajelzés-gyűjtés a három peula után a learning analyticshez; méri a Peula v2-hez közeledést és feltárja a maradék bizonytalanságokat (Zmán Kvucá / AI).",
+  "spec": "Egylapos, 1 perc alatt kitölthető exit-ticket sablon két kérdéssel: (1) 1–5 skála „Mennyire érzed, hogy most közelebb kerültél egy valódi Peula v2-höz?\"; (2) nyitott kérdés „Mi az, ami még bizonytalan benned a Zmán Kvucával / AI-használattal kapcsolatban?\". Helyhagyás a peula azonosítására (M7.A / M7.B / M7.F). Készüljön egy QR-kódos digitális kitöltési variáns is (line 272).",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A6/A5 nyomtatható lap, magyar nyelvű; opcionális QR-kódos online űrlap-variáns ugyanazzal a két kérdéssel."
+  },
+  "a11y": {
+    "note": "Olvasható, nagy kontrasztú nyomtatás; a QR-kód mellett szöveges URL feltüntetése azoknak, akik nem tudják beolvasni."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Modul-szintű mérőeszköz; mindhárom offline alkalom (M7.A, M7.B, M7.F) után használható.",
+  "legacy": {
+    "asset": [
+      "M7-MUNK-01"
+    ]
+  }
+}
+-->
+
 ## 1. Modul meta
 
 * **Időtartam:** 2 hét
@@ -176,6 +291,46 @@ A modul végére a madrich…
 ***
 
 ## 5. Felzárkóztató peula (M7.F) – „Study Lab: Peula & Zmán Kvucá” (45’)
+
+<!-- @asset
+{
+  "id": "M7-HUB-DIA-01",
+  "kind": "diagram",
+  "mode": "generate",
+  "title": "Modul-fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2",
+  "purpose": "A lemaradóknak (M7.F) egységes mentális térkép a modul négy fő fogalmáról; vizuálisan rögzíti a cél→tervezés→operáció→produktum ívet, amihez az M7.A/B peulák kapcsolódnak (line 184).",
+  "spec": "A modul négy kulcsfogalmát összekötő fogalomtérkép: SMART nevelési cél → Peula 11 pontja → Zmán Kvucá-checklist → Peula v2 logikai egymásra épülése, irányított nyilakkal (cél táplálja a tervezést, a tervezés az operációt, ezekből áll össze a Peula v2). A legyártandó verzió egy KIINDULÓ/alap-térkép, amelyet az M7.F study labon élőben, közös beszélgetéssel egészítenek ki (line 189), ezért hagyjon helyet a kézi kiegészítésnek.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Vektoros diagram, magyar feliratokkal; nyomtatható A3/flipchart-méretben és kivetíthető 16:9 arányban; üres kiegészítő-mezőkkel a közös munkához."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "note": "Alt-szöveg kötelező: M7-HUB-ALT-01 (négy csomópont + irányított kapcsolatok szöveges leírása)."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Modul- (hub-) szintű asset. A lecke-szintű H5P-vizuálok (Course Presentation slide-ok, Matching) az M7.1–M7.4 fájlokban élnek, nem itt.",
+  "legacy": {
+    "alt-text": [
+      "M7-HUB-ALT-01"
+    ],
+    "asset": [
+      "M7-HUB-DIA-01"
+    ]
+  }
+}
+-->
 
 * **Kapcsolódás:** az egész **M7.1–M7.4** blokk pótlására / rögzítésére szolgál; opcionális, de erősen ajánlott, ha sok a lemaradás.
 * **Fő cél:**

@@ -1,5 +1,31 @@
 # Z – „Zárás & híd a terepre”
 
+<!-- @asset
+{
+  "id": "Z-HUB-POSZ-02",
+  "kind": "poster",
+  "mode": "reuse",
+  "title": "Lezáró rituálé – közös „felhő” plakát-sablon (opcionális)",
+  "purpose": "Vizuális keret a záró rituáléhoz, amely a közös élmény közösségi lezárását teszi láthatóvá (lezárás, elismerés, szimbolikus búcsú).",
+  "spec": "Nagyméretű plakát/flipchart-sablon központi „felhő” (vagy kör-közép) motívummal, ahová a résztvevők egyenként felírják / cetlin felragasztják az 1 szót, amit magukkal visznek. Cím + a felhő körül üres felület a feliratoknak/post-itoknak. A forrás alternatívaként a „kör közepe” megoldást is megengedi (nem feltétlenül kell nyomtatott grafika), ezért a sablon opcionális.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "A1/A2 flipchart-méret, központi felhő-grafika + üres írófelület, fekete-fehér nyomtatható, magyar cím"
+  },
+  "a11y": {
+    "note": "Print anyag; nagy, jól látható központi motívum és cím"
+  },
+  "reuse_of": "Z.A-POSZ-01",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): a Z hub „Lezáró rituálé” blokkja és a Z.A peula ugyanazt az egy közös „felhő” felületet írja le (hub: „egy közös »felhőbe« rakják”; Z.A eszközlista: „1 nagyobb papír / flipchart lap vagy falfelület a »Mit viszek magammal?« felhőnek”) — egy fizikai média. Élő peula záró elem; a forrás szerint plakát VAGY a kör közepe is megvalósítható (hub 108. sor; peula-fájl 4.4.2, 256. sor: „plakát, fal, kör közepe”), így a nyomtatott felhő-sablon opcionális.",
+  "legacy": {
+    "asset": [
+      "Z.A-POSZ-02"
+    ]
+  }
+}
+-->
+
 ## 1. Modul meta
 
 * **Időtartam:** 1 hét (könnyített zárómodul)

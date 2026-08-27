@@ -91,6 +91,41 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 
 ### Peula A – M5.A: „Suli, Somer vagy random?” – Hol tanulunk és hogyan? (45’)
 
+<!-- @asset
+{
+  "id": "M5-HUB-EGY-01",
+  "kind": "print",
+  "mode": "external",
+  "title": "Gallery walk reakció-eszközök (post-it / pötty-matrica)",
+  "subtype": "consumable",
+  "purpose": "Strukturált peer-visszajelzés a gallery walk során, az átdolgozott peula-tervek értékeléséhez.",
+  "spec": "Post-it lapok és pötty-/pont-matricák a poszter-sétához, hogy a résztvevők reakciókat hagyhassanak a csoportposztereken („Mitől lett someresebb? Mi maradt még sulis?”). Beszerzendő/előkészítendő készlet, nem egyedi grafika.",
+  "provenance": "stock",
+  "technical": {
+    "note": "Beszerzett post-it (több szín) + pötty-matrica ívek; mennyiség a csoportlétszámhoz igazítva"
+  },
+  "a11y": {
+    "note": "—"
+  },
+  "external": {
+    "source": "beszerzendő irodaszer (post-it / matrica / filc / marker)",
+    "owner": "képzés-logisztika"
+  },
+  "production_rules": [
+    "R8"
+  ],
+  "blockers": [
+    "R8"
+  ],
+  "notes": "Kiegészítő eszköz az M5.A-POSZ-01 poszter-sablonhoz; nem generálandó grafika, csak beszerzés/előkészítés.",
+  "legacy": {
+    "asset": [
+      "M5.A-EGY-01"
+    ]
+  }
+}
+-->
+
 * **Kapcsolódó leckék:** M5.1, M5.2
 * **Fő fókusz:**
   * A formális–nonformális–informális helyzetek érzékelése és nyelvvé tétele („suli / Somer / random élet”).

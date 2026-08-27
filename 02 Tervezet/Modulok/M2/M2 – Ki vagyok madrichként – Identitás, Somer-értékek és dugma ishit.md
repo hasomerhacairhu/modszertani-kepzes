@@ -120,6 +120,43 @@ A modul végére a madrich…
 
 ## 5. Felzárkóztató peula (M2.F – Study Lab) – ha szükséges (45’)
 
+<!-- @asset
+{
+  "id": "M2-HUB-DIA-01",
+  "kind": "diagram",
+  "mode": "generate",
+  "title": "M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás)",
+  "purpose": "A lemaradóknak (M2.F Study Lab) egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét, hogy senki ne maradjon ki az identitás/érték/pillér/határ logikából, mielőtt továbblép a programban (vö. 133. sor).",
+  "spec": "Egyszerű, áttekintő fogalom-térkép a teljes M2 modulról, amely vizuálisan összeköti a négy fogalmi blokkot: identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) → személyes értékek (3 érték + 1 kiemelt someres érték) → Somer 3 pillére (cionizmus, szocializmus, humanista zsidóság) → határok & személyes példamutatás (dugma ishit). Mutassa, hogyan futnak ezek össze az 1 oldalas madrich identitás-jegyzetben. Modul-szintű áttekintő ábra, NEM lecke-szintű részlettartalom.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Statikus vagy enyhén animált vektoros diagram, magyar feliratokkal; 16:9 (Moodle/H5P beágyazás) és A4 álló (print-barát) változatban; H5P/Moodle-ba beágyazható PNG/SVG."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "note": "Alt-szöveg kötelező (a négy fogalmi blokk és kapcsolataik szöveges leírása); a fogalmak nyomtatható/lineáris szöveges listája is biztosítandó a képernyőolvasót használóknak."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Hub-szintű, elsősorban az M2.F (Study Lab) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve (2. kör): a §6-ban szereplő „identitás-térkép” (25/61/151. sor) a tanuló saját, feltöltött produktuma (M2.1 Assignment), NEM gyártandó asset; a self-check / 4 soros rubrika / 1 oldalas jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él (140/206. sor), így az nem ennek a hubnak az assete – nincs duplikáció.",
+  "legacy": {
+    "asset": [
+      "M2-HUB-DIA-01"
+    ]
+  }
+}
+-->
+
 * **Peula kód:** M2.F
 * **Cím:** Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab)
 * **Kapcsolódó leckék:** M2.1, M2.2, M2.3, M2.4.

@@ -54,15 +54,59 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
 
 ### SLIDE 1 – HOOK: „Ha a féléved egy sorozat lenne…”
 
+<!-- @asset
+{
+  "id": "Z.1-ILL-01",
+  "kind": "illustration",
+  "mode": "generate",
+  "title": "Sorozat-plakát ikon M0–M7 epizódokkal",
+  "purpose": "Játékos érzelmi belépő/hook: a félévet egy 8 részes sorozatként kereteli, ráhangolja a tanulót a visszatekintésre.",
+  "spec": "Egyszerű, „Netflix-szerű” sorozat-plakát stílusú grafika/ikon, amelyen az M0–M7 modulok nyolc kis téglalapként jelennek meg, mint egy nyolcrészes sorozat epizódjai. A modul-kódok és címek NEM lehetnek képbe égetve – azok külön szövegként jelennek meg a dián.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Statikus kép, mobil-first reszponzív H5P Course Presentation diára, álló vagy közel négyzetes arány; magyar nyelvű kontextus, de szöveg nélkül a képben."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_source_ref": "Z.1-ILL-01-ALT#4",
+    "note": "Alt-szöveg kötelező (lásd Z.1-ALT-01); kulcsszöveget nem szabad a képbe égetni."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Ezen a dián narráció nincs; a Single Choice kérdés (opciók + barátságos feedback) szöveges interakció, nem média-asset. Párba állítva: Z.1-ALT-01.",
+  "legacy": {
+    "alt-text": [
+      "Z.1-ALT-01"
+    ],
+    "asset": [
+      "Z.1-ILL-01"
+    ]
+  }
+}
+-->
+
 **Cél:** ráhangolódás, érzelmi belépés, játékos keret.
 
 #### Mit látunk?
+
+<!-- @source {"id": "Z.1-ILL-01-ALT", "kind": "alt-text"} -->
 
 * Cím:
   **„Ha a féléved egy sorozat lenne…”**
 * Középen egy egyszerű grafika: „Netflix-szerű” sorozat-plakát ikon (M0–M7 „epizódokkal” kis téglalapokként).
   **Alt-szöveg (kötelező): „Sorozat-plakát stílusú ikon, rajta az M0–M7 modulok nyolc kis téglalapként, mint egy nyolcrészes sorozat epizódjai.” A kulcsszöveget (modul-kódok, címek) ne égesd a képbe – azoknak szövegként is meg kell jelenniük a dián.**
 * Alul **Single Choice** kérdés.
+
+<!-- @endsource -->
 
 #### Szöveg a dián:
 
@@ -95,6 +139,87 @@ Opciók (legördülő vagy listában):
 
 ### SLIDE 2 – INPUT 1: „Mit csináltunk M0–M7 között?” – rövid timeline
 
+<!-- @asset
+{
+  "id": "Z.1-DIA-01",
+  "kind": "diagram",
+  "mode": "generate",
+  "title": "Vízszintes féléves idővonal M0→M7",
+  "purpose": "Időbeli és logikai keret: láttassa, hogy a modulok ívet alkotnak, nem random egységek.",
+  "spec": "Vízszintes idővonal-ábra nyolc állomással balról jobbra (M0→M7), minden állomásnál a modul kódja és egy max. 1 soros (mobilon is olvasható) kulcsmondat. Az ív az önismeret/visszajelzéstől a kvucán, gyermekvédelmen, módszereken át a saját peuláig vezet. A modul-kódok és kulcsmondatok NEM égethetők a képbe – ugyanezt a tartalmat a dián a felsorolás (109-124. sor) szövegként hordozza.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Reszponzív, mobil-first H5P diára illeszkedő idővonal-grafika; vízszintes elrendezés, 8 csomópont; magyar feliratozású tartalom szövegrétegként, nem rasterben."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_source_ref": "Z.1-DIA-01-ALT#1",
+    "note": "Alt-szöveg kötelező (lásd Z.1-ALT-02); szöveg ne legyen képbe égetve."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Ezen a dián nincs kérdés (tiszta Input, 135. sor). Kapcsolódik: Z.1-ALT-02, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-FEL-01.",
+  "legacy": {
+    "alt-text": [
+      "Z.1-ALT-02"
+    ],
+    "asset": [
+      "Z.1-DIA-01"
+    ]
+  }
+}
+-->
+
+<!-- @asset
+{
+  "id": "Z.1-NAR-01",
+  "kind": "voiceover",
+  "mode": "generate",
+  "title": "Opcionális narráció – idővonal (30–40 mp)",
+  "subtype": "narration",
+  "purpose": "Az idővonal-input megerősítése hangsávval a feldolgozás segítésére.",
+  "spec": "30–40 mp-es, egyszerűen felolvasott narráció az idővonalról 1–2 plusz mondattal: honnan indultunk M0-ban, hova jutottunk M7-re; az önismeret/visszajelzéstől a kvuca, gyermekvédelem, módszerek és végül a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (128. sor).",
+  "source_ref": "Z.1-NAR-01-VO",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Magyar hangfelvétel/TTS, kb. 30–40 mp, semleges felolvasó hang; opcionális elem."
+  },
+  "a11y": {
+    "note": "Felirat + leirat kötelező (lásd Z.1-FEL-01, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
+  },
+  "derivatives": [
+    "captions",
+    "transcript"
+  ],
+  "production_rules": [
+    "R1",
+    "R3"
+  ],
+  "blockers": [
+    "R3"
+  ],
+  "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia) és Z.1-FEL-01 (szöveges ekvivalens, felirat+leirat egyben).",
+  "legacy": {
+    "asset": [
+      "Z.1-NAR-01"
+    ],
+    "captions": [
+      "Z.1-FEL-01"
+    ]
+  }
+}
+-->
+
 **Cél:** időbeli és logikai keret – lássa, hogy egy felépített ív volt, nem csak modulok véletlenszerű sorrendben.
 
 #### Mit látunk?
@@ -102,7 +227,11 @@ Opciók (legördülő vagy listában):
 * Horizontálisan elrendezett **idővonal** (M0 → M7), modul-kódokkal.
 * Mindegyikhez **1 rövid kulcsmondat** (max. 1 sor mobilon).
 
+<!-- @source {"id": "Z.1-DIA-01-ALT", "kind": "alt-text"} -->
+
 **Alt-szöveg (kötelező): „Vízszintes idővonal M0-tól M7-ig: nyolc állomás balról jobbra, mindegyiknél a modul kódja és egy rövid kulcsmondat – az önismerettől és visszajelzéstől a kvucán, gyermekvédelmen és módszereken át a saját peuláig.” A modul-kódok és kulcsmondatok ne legyenek képbe égetve – a lenti felsorolás szövegként hordozza ugyanezt a tartalmat, így az idővonal üzenete kép nélkül is elérhető.**
+
+<!-- @endsource -->
 
 #### Szöveg a dián (tömören):
 
@@ -129,10 +258,14 @@ Opcionális narráció (30–40 mp), egyszerűen felolvasva, 1–2 plusz mondatt
 
 **Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (vagy adj hozzá magyar feliratot), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
 
+<!-- @source {"id": "Z.1-NAR-01-VO", "kind": "narration"} -->
+
 > „Ez itt a féléved idővonala.
 > Látod, honnan indultunk M0-ban, és hova jutottunk el M7-re.
 
 > Közben az önismerettől és visszajelzéstől eljutottunk a kvuca, a gyermekvédelem, a módszerek és végül a **saját peulád** megírásáig.”
+
+<!-- @endsource -->
 
 Nincs kérdés ezen a dián – ez tiszta Input.
 
@@ -240,6 +373,46 @@ Opciók:
 
 ### SLIDE 5 – ACTIVITY 2: „Az én félévem fénypontjai” – reflektív esszé (3–6 mondat)
 
+<!-- @asset
+{
+  "id": "Z.1-IKO-01",
+  "kind": "icon-set",
+  "mode": "generate",
+  "title": "Napló-ikon a highlight-esszéhez",
+  "purpose": "Vizuálisan jelzi a személyes, reflektív/naplóírásos jellegű feladatot.",
+  "spec": "Egyszerű napló/jegyzetfüzet ikon, amely a személyes reflektív esszé (saját félév-highlightok) blokkját vezeti be. Egyetlen ikon, nem teljes készlet (a forrás csak egy napló-ikont kér).",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Kis méretű, mobil-first ikon, H5P diára; egységes vizuális stílus a tananyaggal."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "note": "Az ikon a reflektív, naplóírásos feladatot jelzi (nem pusztán dekoratív), ezért rövid alt-szöveg ajánlott (lásd Z.1-ALT-03). Megjegyzés: a forrás explicit alt-szöveget ehhez az ikonhoz NEM ír elő – ez validátori a11y-kiegészítés."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Az Essay mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-ALT-03.",
+  "legacy": {
+    "alt-text": [
+      "Z.1-ALT-03"
+    ],
+    "asset": [
+      "Z.1-IKO-01"
+    ]
+  }
+}
+-->
+
 **Cél:** személyes kiválasztás: a tanuló **saját 2–3 pillanatot megnevez**.
 
 #### Mit látunk?
@@ -268,6 +441,47 @@ Opciók:
 
 ### SLIDE 6 – CHECK & OUTRO: „1 dolog, amit semmiképp nem szeretnél elfelejteni”
 
+<!-- @asset
+{
+  "id": "Z.1-NAR-02",
+  "kind": "voiceover",
+  "mode": "generate",
+  "title": "Opcionális záró narráció – outro (20–30 mp)",
+  "subtype": "narration",
+  "purpose": "Lezárás és híd a Z.2 leckéhez, a kulcs-mondat megerősítése.",
+  "spec": "20–30 mp-es záró narráció: köszönet a visszanéző tükör végigjárásáért, átvezetés a Z.2 leckére (saját tanulási pillanatok), és hogy a most leírt 1 mondat jó kapaszkodó lesz. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (294. sor).",
+  "source_ref": "Z.1-NAR-02-VO",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Magyar hangfelvétel/TTS, kb. 20–30 mp, semleges felolvasó hang; opcionális elem."
+  },
+  "a11y": {
+    "note": "Felirat + leirat kötelező (lásd Z.1-FEL-02, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
+  },
+  "derivatives": [
+    "captions",
+    "transcript"
+  ],
+  "production_rules": [
+    "R1",
+    "R3"
+  ],
+  "blockers": [
+    "R3"
+  ],
+  "notes": "Opcionális. Kapcsolódik: Z.1-FEL-02 (szöveges ekvivalens, felirat+leirat egyben).",
+  "legacy": {
+    "asset": [
+      "Z.1-NAR-02"
+    ],
+    "captions": [
+      "Z.1-FEL-02"
+    ]
+  }
+}
+-->
+
 **Cél:** lezárás, **1 kulcs-mondat** kikristályosítása → híd a Z.2-höz.
 
 #### Mit látunk?
@@ -295,6 +509,10 @@ Opcionális narráció (20–30 mp):
 
 **Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (vagy adj hozzá magyar feliratot), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
 
+<!-- @source {"id": "Z.1-NAR-02-VO", "kind": "narration"} -->
+
 > „Köszi, hogy végigmentél a visszanéző tükör modulon.
 > A következő leckében (Z.2) már kifejezetten a saját **tanulási pillanataidról** fogunk beszélni –
 > de ez az 1 mondat, amit most leírsz, jó kapaszkodó lesz ahhoz is.”
+
+<!-- @endsource -->

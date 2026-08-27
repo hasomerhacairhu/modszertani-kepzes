@@ -51,6 +51,46 @@
 
 ### SLIDE 1 – HOOK: „Volt már ilyen érzésed?”
 
+<!-- @asset
+{
+  "id": "Z.2-ILL-01",
+  "kind": "illustration",
+  "mode": "generate",
+  "title": "Hook-illusztráció: gondolkodó figura villanykörtével",
+  "purpose": "Érzelmi belépő a leckébe; a „tanulási pillanat”/aha-élmény fogalmát képileg előkészíti, csökkenti a szöveg-dominanciát az első dián.",
+  "spec": "Kis, barátságos illusztráció/ikon-szerű rajz egy gondolkodó figuráról, fölötte/mellette felvillanó villanykörte és egy „aha” felirat. Az érzés-szintű ráhangolást, az „átkattan bennem valami” (aha-pillanat) hangulatot vizualizálja. Mobil-first, egyszerű, derűs stílus.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált",
+  "technical": {
+    "note": "Álló/négyzetes arány, mobil-first H5P Course Presentation diára illesztve; PNG vagy SVG, kis méret; a képen magyar nyelvű „aha” felirat."
+  },
+  "a11y": {
+    "visual": "informative",
+    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "note": "Alt-szöveg kell (lásd Z.2-ALT-01)."
+  },
+  "derivatives": [
+    "alt-text"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Ez az egyetlen legyártandó vizuális elem a leckében – a többi dia tiszta szöveg + beágyazott kérdés. A dia címe („Tanultam valamit?!”) tipográfiailag jelenik meg, nem külön asset. A szövegben szereplő emojik (🔎, 1️⃣–4️⃣, ✅, 💙) inline szöveg-dekorációk, nem önálló assetek. A lecke explicit módon „csendes, reflektív” (39. sor), ezért nincs narráció, háttérzene vagy videó; a Z.2 online lecke, nem peula, ezért print/fizikai asset sem indokolt.",
+  "legacy": {
+    "alt-text": [
+      "Z.2-ALT-01"
+    ],
+    "asset": [
+      "Z.2-ILL-01"
+    ]
+  }
+}
+-->
+
 **Cél:** ráhangolás, érzés-szintű belépés.
 
 **Vizualitás:**

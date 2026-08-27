@@ -1,5 +1,11 @@
 # M6 – KAPU – értékelő (item-bank + rubrika)
 
+<!-- @asset-free
+{
+  "reason": "Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ← Vissza a modul-hubhoz: **[M6 – „Toolbox_ játék, történet, kézműves & inkluzivitás”](./M6%20–%20Toolbox%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
 
 > **Modul:** M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”

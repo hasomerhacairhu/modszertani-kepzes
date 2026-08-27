@@ -42,6 +42,32 @@ A modul végére a résztvevő…
 
 ## 3. Online mikroleckék (M1.1–M1.4)
 
+<!-- @asset
+{
+  "id": "M1-HUB-KART-01",
+  "kind": "card-set",
+  "mode": "reuse",
+  "title": "M1.A 'Megfigyelés vagy címkézés?' kártyaszett",
+  "purpose": "Megfigyelés vs. címkézés megkülönböztetésének élő gyakorlása (2. kimeneti kompetencia).",
+  "spec": "Kártyaszett a 'Megfigyelés vagy címkézés?' játékhoz: kártyánként egy-egy mondat, amit a résztvevőknek 'megfigyelés' vagy 'címke/értékelés' kategóriába kell sorolniuk (oldalválasztós játék kártyás változata). Pl. 'háromszor közbevágott' vs. 'tiszteletlen voltál' típusú mondatok.",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "Nyomtatható kártyaszett (kb. 10-20 lap), magyar nyelvű mondatokkal."
+  },
+  "a11y": {
+    "note": "Fizikai print; jól olvasható betűméret."
+  },
+  "reuse_of": "M1.A-MUNK-01",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): Az áttekintő 'kártyaszett'-ként, a részletes 'munkalap vagy kártyák'-ként hivatkozik rá – a részletes spec maga megengedi a kártyás kivitelt. Ugyanaz a tartalom. A forrás a kártyát opcióként adja meg ('oldalválasztás / kártyák'); tartalmilag az M1.2 online-lecke mondatbankjával rokon. Részletek a M1.A peula-fájlban.",
+  "legacy": {
+    "asset": [
+      "M1.A-KART-01"
+    ]
+  }
+}
+-->
+
 > A leckék itt sorszám szerint (M1.1→M1.4) szerepelnek, de a tanuló **nem egyben** dolgozza fel őket: **M1.1–M1.2** az M1.A peula **előtt**, **M1.3–M1.4** (a kapu-beadóval) az M1.B peula előtt esedékes – a részletes kadencia a §1 Modul meta „Javasolt sorrend” sorában.
 
 ### M1.1 – „Johari-ablak: vakfoltjaim felismerése” (15–20’)
@@ -141,6 +167,41 @@ A modul végére a résztvevő…
 ***
 
 ## 5. Felzárkóztató peula (M1.F) – ha szükséges (45’)
+
+<!-- @asset
+{
+  "id": "M1-HUB-POSZ-02",
+  "kind": "poster",
+  "mode": "generate",
+  "title": "M1.F Közös fogalom-térkép sablon",
+  "purpose": "A modul kulcsfogalmainak integrált, vizuális összekapcsolása a felzárkóztató peulán (M1.F cél 4).",
+  "spec": "Fogalom-térkép flipchart/poszter-sablon a három fő fogalom összekötésére: Johari – megfigyelés vs. címke – SBI; közös kitöltésre kérdésekkel-válaszokkal.",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "Nyomtatható nagy formátumú fogalom-térkép sablon vagy üres flipchart-váz, magyar címkékkel."
+  },
+  "a11y": {
+    "note": "Fizikai print; jól olvasható betűméret."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Részletek a M1.F peula-fájlban.",
+  "legacy": {
+    "asset": [
+      "M1.F-POSZ-02"
+    ]
+  }
+}
+-->
 
 * **Peula kód:** M1.F
 * **Cím (kvucának):** Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)

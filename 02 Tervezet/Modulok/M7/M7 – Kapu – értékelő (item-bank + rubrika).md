@@ -1,5 +1,11 @@
 # M7 – KAPU – értékelő (item-bank + rubrika)
 
+<!-- @asset-free
+{
+  "reason": "Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 > **Mihez tartozik?** M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés.
 > Ez a **félévzáró, éles (hard / mastery) kapu** értékelője. A modul valódi kimenete egy **produktív készség** (Peula v2 megírása + Zmán Kvucá-operáció + etikus AI-használat), ezért a kapu **gerince a Peula v2 rubrika**, a kvíz pedig a fogalmi belépő.
 

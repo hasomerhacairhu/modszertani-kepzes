@@ -165,6 +165,67 @@ A modul végére a résztvevő…
 
 ### Peula B (M3.B) – „Red flag vagy nem?” – Esetelemzés & lépés-térkép (45’)
 
+<!-- @asset
+{
+  "id": "M3-HUB-POSZ-01",
+  "kind": "poster",
+  "mode": "reuse",
+  "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
+  "purpose": "A gyermekvédelmi első-lépés-logika vizuális rögzítése és közös megalkotása; a red flag → jelzés → bevonás folyamat megjegyezhető térképe.",
+  "spec": "Közös fali plakát/poszter a felelős madrich-lépéssorral: észreveszem → jelzek → nem maradok egyedül → kit vonok be. Előnyomott sablon-poszter üres, kitölthető mezőkkel, amit a csoport közösen tölt fel a peula során (lépés-térkép).",
+  "provenance": "mixed",
+  "provenance_note": "vegyes (sablon-grafika AI/ember; tartalmat részben a csoport tölti ki élőben)",
+  "technical": {
+    "note": "Nagyméretű nyomtatott vagy flipchart-poszter (A1/A2), magyar nyelv, nyilakkal tagolt 4 lépéses folyamatábra, kitölthető mezőkkel."
+  },
+  "a11y": {
+    "note": "Magas kontraszt a teremből olvashatósághoz; a 4 lépéses folyamatábráról szöveges alt-szöveg/leirat a digitális kísérőanyagban (a folyamat lineáris szöveges felsorolásként is meglegyen)."
+  },
+  "reuse_of": "M3.B-MUNK-01",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): Az áttekintő 'poszter'-ként, a részletes 'flipchart-sablon/munkalap'-ként hivatkozik – ugyanaz a kitölthető folyamatábra. A lépésszerkezet szövegezése kissé eltér, de ugyanaz a média. Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
+  "legacy": {
+    "asset": [
+      "M3.B-POSZ-01"
+    ]
+  }
+}
+-->
+
+<!-- @asset
+{
+  "id": "M3-HUB-POSZ-02",
+  "kind": "poster",
+  "mode": "generate",
+  "title": "A/B sarok jelölőtáblák („Red flag” / „Nem red flag”)",
+  "purpose": "Gyors, mozgásos belépő-aktivitás a red flag felismeréshez; testbe hozott véleménynyilvánítás a peula nyitásaként.",
+  "spec": "Két nagyméretű terem-jelölő tábla/poszter az A/B-sarok aktivitáshoz: egyik sarokban „RED FLAG” (A), a másikban „NEM RED FLAG” (B). A teremben két ellentétes sarokba kifüggesztve, hogy a résztvevők odaállással szavazzanak az elhangzó állításokra.",
+  "provenance": "ai",
+  "provenance_note": "AI-generált v. egyszerű sablon-grafika",
+  "technical": {
+    "note": "2 db nagyméretű, távolról olvasható falragasz (A3/A2), magyar nyelv, nagy betűk, magas kontraszt; megkülönböztetés ne csak színnel (felirat + szimbólum is)."
+  },
+  "a11y": {
+    "note": "Nagy, magas kontrasztú felirat; ha színkód (pl. piros/zöld) is van, NE csak az legyen a jelentéshordozó – minden táblán egyértelmű szöveges címke a színvak résztvevőkért; rövid alt-szöveg a digitális verzióhoz."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Az állítások szövege az M3.B child fájlban. Itt a két fizikai jelölőtábla a legyártandó asset.",
+  "legacy": {
+    "asset": [
+      "M3.B-POSZ-02"
+    ]
+  }
+}
+-->
+
 * **Kapcsolódó online leckék:** M3.3, M3.4
 * **Célok:**
   * Red flag helyzetek felismerése **fiktív, harmadik személyű esetleírásokban**.

@@ -1,5 +1,11 @@
 # M4 – „Hallható és érthető vagyok?” – Kiállás, kapcsolódás & kérdezéstechnika
 
+<!-- @asset-free
+{
+  "reason": "Modul-áttekintő fájl: a benne említett médiát a modul saját leckéi és peulái deklarálják; itt nincs önálló legyártandó anyag. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ## 1. Modul meta
 
 * **Időtartam:** 2 hét

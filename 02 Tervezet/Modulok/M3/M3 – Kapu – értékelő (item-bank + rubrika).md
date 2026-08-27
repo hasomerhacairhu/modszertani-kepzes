@@ -1,5 +1,11 @@
 # M3 – KAPU – értékelő (item-bank + rubrika)
 
+<!-- @asset-free
+{
+  "reason": "Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ← Vissza a modul-hubhoz: **[M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyermekvédelem](M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyermekvédelem.md)**
 
 > ⚠️ **Gyermekvédelmi felelős review szükséges a véglegesítés előtt.**

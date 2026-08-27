@@ -1,5 +1,11 @@
 # Z.4 – „Záró reflexió + képzés feedback”
 
+<!-- @asset-free
+{
+  "reason": "Moodle Assignment + Feedback lecke: a tartalmat a tanuló állítja elő (reflexiós szöveg vagy videó), a beállítás a `02 Tervezet/LMS – activity manifest.md`-ben él. Nincs legyártandó média-anyag. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ## 1. Lecke meta
 
 **Kód:** Z.4

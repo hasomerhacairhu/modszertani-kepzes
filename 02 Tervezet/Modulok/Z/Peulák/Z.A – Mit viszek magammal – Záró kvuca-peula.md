@@ -116,6 +116,76 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 ### 4.2. Blokk 2 – Élmény / gyakorlat 1 (`10–25’`)
 
+<!-- @asset
+{
+  "id": "Z.A-KART-01",
+  "kind": "card-set",
+  "mode": "generate",
+  "title": "Előhívó kérdések kártya – „üres kézzel” érkezőknek",
+  "purpose": "Beindítja az egyéni felidézést azoknál, akik nem végezték el az online leckéket vagy elsőre elakadnak; megakadás-megelőzés.",
+  "spec": "Kis kártya vagy táblára kitehető lap a 3 előhívó kérdéssel azoknak, akik nem készültek az online leckékkel vagy elsőre elakadnak: 1) „Volt egy pillanat a félévben, amikor azt érezted: ’ezt eddig nem így gondoltam’?”; 2) „Melyik peula vagy gyakorlat ragadt meg benned a legjobban – jó vagy rossz értelemben?”; 3) „Mi az az egy dolog, amit most másképp csinálnál, mint az első héten?”",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A5/A6 kártya vagy A4 táblalap, magyar nyelv, fekete-fehér nyomtatható, 1 db a teremben."
+  },
+  "a11y": {
+    "note": "Fizikai kártya; nagy betűs, kontrasztos szedés; alt-szöveg nem releváns."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "A forrás kifejezetten engedi táblára felírni; nyomtatott kártyaként újrahasznosítható.",
+  "legacy": {
+    "asset": [
+      "Z.A-KART-01"
+    ]
+  }
+}
+-->
+
+<!-- @asset
+{
+  "id": "Z.A-KART-04",
+  "kind": "card-set",
+  "mode": "generate",
+  "title": "M0-tükör anonim idézet-kártyák (M0.A kickoff visszakötés)",
+  "purpose": "Lehetővé teszi a visszakötést az M0.A kickoff-élményhez akkor is, ha az eredeti plakát nincs meg; nem csak emlékezetből történik a reflexió.",
+  "spec": "2–3 anonim idézet-kártya/lap, amelyet a táblára/falra ki lehet tenni, az M0.A kickoff-plakátról (mit várok / mitől félek / mit hozok) vagy – ha az eredeti nem archivált – a képző saját jegyzeteiből készített anonim idézetek. Cél a Z-modul visszakötése az első peulához.",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A4 lapok vagy kártyák, magyar nyelv, nyomtatható; az eredeti M0.A artefaktum hiányában a képző állítja össze; 2–3 db."
+  },
+  "a11y": {
+    "note": "Fizikai idézet-lap; nagy, olvasható betű; anonimizált tartalom; alt-szöveg nem releváns."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Forrás-függő: az M0.A kickoff-plakát beszerzésén alapul; ha nincs, a képző generálja a saját jegyzeteiből (54. sor).",
+  "legacy": {
+    "asset": [
+      "Z.A-KART-04"
+    ]
+  }
+}
+-->
+
 **Cím:** Időkapszula – tanulási pillanatok megosztása
 **Időtartam:** 10–25’
 
@@ -158,6 +228,76 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 ***
 
 ### 4.3. Blokk 3 – Élmény / gyakorlat 2 (`25–40’`)
+
+<!-- @asset
+{
+  "id": "Z.A-KART-02",
+  "kind": "card-set",
+  "mode": "generate",
+  "title": "Poszter seed-példák kártya – ha egy csoport megakad",
+  "purpose": "Mintát ad a képzőnek, hogy egy megakadt kiscsoportot beindítson egy konkrét „így néz ki egy beírás” példával.",
+  "spec": "Facilitátori seed-példa kártya kész beírásokkal. Bal (Mit tanultunk?): „SBI-feedback – nem smiley, hanem konkrét helyzet + viselkedés + hatás”, „Johari-ablak: van vakfoltom”, „Zmán Kvucá tudatos tervezése”, „gyermekvédelmi red flag-ek”. Jobb (Mit csinálunk másképp?): „A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”, „Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.” Záró felszólítás: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?”",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A5 kártya, magyar nyelv, kétoldalas (bal/jobb), fekete-fehér nyomtatható, képzői használatra."
+  },
+  "a11y": {
+    "note": "Fizikai facilitátor-segédlet; alt-szöveg nem releváns."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Csak a képzőnek szól, nem a kvucának; összekapcsolódik Z.A-MUNK-01 poszter-sablonnal.",
+  "legacy": {
+    "asset": [
+      "Z.A-KART-02"
+    ]
+  }
+}
+-->
+
+<!-- @asset
+{
+  "id": "Z.A-MUNK-01",
+  "kind": "worksheet",
+  "mode": "generate",
+  "title": "Híd a terepre – kétoszlopos poszter-sablon",
+  "purpose": "Strukturálja a kiscsoportos közös munkát: a múltbeli tanulás és a jövőbeli terepi lépések vizuális szétválasztása, közös kvuca-nyelv kialakítása.",
+  "spec": "A3/flipchart méretű, kétoszlopos kiscsoportos poszter-sablon nyomtatható kerete középen elválasztóval. Bal oszlop fejléce: „Mit tanultunk?” (M0–M7 kulcsszavak, mondatok, élmények); jobb oszlop fejléce: „Mit csinálunk másképp a terepen?” (3–5 konkrét jövőbeli lépés, pl. „A következő időszakban úgy akarunk működni, hogy…”). Üres rajz-/írásfelület mindkét oldalon. Felirat a sablonon: „Nem művészeti verseny – rajzolhattok, írhattok, használhattok jeleket, ikonokat, ami jól esik.”",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A3 vagy flipchart méret, álló vagy fekvő, fekete-fehér nyomtatható, kézi kitöltésre tervezve; magyar nyelvű fejlécek; 3–5 fős kiscsoportonként 1 db (forrás: min. 1 nagy lap / A3 kiscsoportonként)."
+  },
+  "a11y": {
+    "note": "Nem digitális vizuális; a fejlécek nagy, jól olvasható betűmérettel; alt-szöveg nem releváns (fizikai sablon), de a nyomtatott szöveg legyen kontrasztos."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Eszközlistában szerepel: A4-es lapok (min. 3–4 db kiscsoportonként), flipchart/A3 (32., 174. sor). A 45’-es verzióban poszter-bemutató nélkül, de a sablon ugyanaz (70. sor).",
+  "legacy": {
+    "asset": [
+      "Z.A-MUNK-01"
+    ]
+  }
+}
+-->
 
 **Cím:** „Híd a terepre” – kiscsoportos poszter
 **Időtartam:** 25–40’
@@ -207,6 +347,41 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 #### 4.4.1. Elismerés-kör – párcsere + névhúzás (`40–55’`)
 
+<!-- @asset
+{
+  "id": "Z.A-KART-03",
+  "kind": "card-set",
+  "mode": "generate",
+  "title": "SBI-elismerés mintamondat kártya – párcseréhez",
+  "purpose": "Sablont ad a résztvevőknek a konkrét, pozitív (appreciative) elismerés megfogalmazásához, hogy ne általános dicséret szülessen.",
+  "spec": "Kis segéd-kártya az SBI-elismerés mintamondataival (helyzet + konkrét viselkedés + hatás): „Amikor [helyzet], te [konkrét dolgot csináltál] – és ez nekem / a csoportnak [hatás] volt.” és „Emlékszem, amikor a [modul / peula / nehéz pillanat]-nál [konkrétan ezt tetted], és attól én [így éreztem magam / ezt tanultam tőled].” Megjegyzés a kártyán: csak pozitívat, erősség-/sikerközpontú (appreciative), aki kapja, csak annyit mond: „köszönöm”.",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A6/A5 kártya, magyar nyelv, kiosztható párcsoportonként vagy 1 közös; fekete-fehér nyomtatható."
+  },
+  "a11y": {
+    "note": "Fizikai kártya; kontrasztos, nagy betűs szedés; alt-szöveg nem releváns."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Az SBI-modell az M1-ből épül; a párcsere a 60’ és 45’ verzió közös core eleme (76., 82. sor).",
+  "legacy": {
+    "asset": [
+      "Z.A-KART-03"
+    ]
+  }
+}
+-->
+
 **Cél:**
 
 * A résztvevők megtapasztalják a **konkrét, pozitív visszajelzés** erejét.
@@ -241,6 +416,42 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 #### 4.4.2. Lezáró rituálé – „1 szó, amit magammal viszek” (`55–60’`)
 
+<!-- @asset
+{
+  "id": "Z.A-POSZ-01",
+  "kind": "poster",
+  "mode": "generate",
+  "title": "„Mit viszek magammal?” – szó-felhő fejléc-poszter",
+  "purpose": "A peula és a félév szimbolikus, vizuális lezárása; közös kvuca-emlék, amelyhez mindenki hozzátesz egy szót.",
+  "spec": "Nagy flipchart/fal-poszter fejléc a közös szó-felhőhöz, középcím: „Mit viszek magammal?”. Nagy üres felület, ahova a résztvevők a saját 1-szavas cetlijeiket felragasztják, így vizuális szó-felhő áll össze a félévről. Diszkrét visszakötés az M0.A induló-szavakhoz.",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "Flipchart/nagy papír vagy falfelület-fejléc, A1/A2 nyomtatott címsor vagy kézzel írt; magyar nyelv; cetlik ragasztásához hely."
+  },
+  "a11y": {
+    "note": "Fizikai poszter; nagy, kontrasztos címsor; alt-szöveg nem releváns."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Kiegészítő anyag: post-itok/cetlik (34. sor) és ragasztó/blu-tack (37. sor); kötődik az M0.A induló-szavakhoz (252. sor).",
+  "review": "a v1 dedup-tag a HUB-fájl azonos ID-jű sorára mutatott; ez a sor a peula „Mit viszek magammal?” szó-felhő fejléc-posztere, nem a „Híd a terepre” kétoszlopos plakát (Z.A-MUNK-01) — külön nyomtatandó anyag.",
+  "legacy": {
+    "asset": [
+      "Z.A-POSZ-01"
+    ]
+  }
+}
+-->
+
 **Cél:**
 
 * A peula és a félév **szimbolikus lezárása**, 1 szóban.
@@ -263,6 +474,41 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 ***
 
 ## 5. Képzői ellenőrző lista (1 oldalban)
+
+<!-- @asset
+{
+  "id": "Z.A-MUNK-02",
+  "kind": "worksheet",
+  "mode": "generate",
+  "title": "Képzői checklist – 1 oldalas előkészítő ellenőrzőlista",
+  "purpose": "A képző gyors, egy oldalon átlátható felkészülését támogatja a peula lebonyolítása előtt.",
+  "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a peula előtti előkészülethez 6 ponttal: 1) Meta tiszta? / 2) Eszközök előkészítve? / 3) Tér rendben? / 4) Safety a fejedben? / 5) Időkeret & prioritás (mit rövidítesz – először poszter-bemutató, nagykörös megosztások, névhúzásos rákötés; tartsd meg a párcsere-magot és a záró szót) / 6) Híd az online Z.4-hez / terepre. Kipipálható tételekkel.",
+  "provenance": "mixed",
+  "provenance_note": "vegyes",
+  "technical": {
+    "note": "A4 egy oldal, magyar nyelv, checkbox-os lista, fekete-fehér nyomtatható."
+  },
+  "a11y": {
+    "note": "Fizikai munkalap; világos tagolás, checkbox-ok; alt-szöveg nem releváns."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Csak a képzőnek; a tartalom a forrás 5. szakaszából 1:1 átemelhető nyomtatható formátumba.",
+  "legacy": {
+    "asset": [
+      "Z.A-MUNK-02"
+    ]
+  }
+}
+-->
 
 **A peula előtt:**
 

@@ -1,5 +1,11 @@
 # M0 – „Kickoff, keret, technika”
 
+<!-- @asset-free
+{
+  "reason": "Modul-áttekintő fájl: a benne említett médiát a modul saját leckéi és peulái deklarálják; itt nincs önálló legyártandó anyag. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ## 1. Modul meta
 
 * **Időtartam:** 1 hét (könnyített bevezető modul)

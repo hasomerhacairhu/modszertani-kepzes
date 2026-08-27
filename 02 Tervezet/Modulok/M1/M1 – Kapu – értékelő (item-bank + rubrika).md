@@ -1,5 +1,11 @@
 # M1 – KAPU – értékelő (item-bank + rubrika)
 
+<!-- @asset-free
+{
+  "reason": "Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.)"
+}
+-->
+
 ← Vissza a modul-hubhoz: **[M1 – „Vakfolt, tükör, feedback” – Önismeret & visszajelzés_ Johari + SBI](./M1%20–%20Vakfolt,%20tükör,%20feedback%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)**
 
 > **Mi ez?** Az M1 modul **éles (mastery) kapujának** kész értékelő anyaga: egy szintezett SBI-rubrika a beadott visszajelzés-szöveghez, két mintaértékelés, és egy kísérő (formatív) item-bank a felismerő tudás ellenőrzéséhez.
