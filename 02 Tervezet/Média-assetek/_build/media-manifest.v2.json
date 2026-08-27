@@ -52,8 +52,8 @@
       "stock": 6
     },
     "by_status": {
-      "pending-production-rule": 338,
-      "spec-ready": 47,
+      "pending-production-rule": 339,
+      "spec-ready": 46,
       "pending-rights": 29,
       "blocked": 2,
       "pending-human-decision": 2
@@ -68,7 +68,7 @@
       "editable": 3
     },
     "blockers": {
-      "R5": 257,
+      "R5": 258,
       "R3": 118,
       "R2": 28,
       "R8": 2,
@@ -1771,10 +1771,10 @@
       "id": "M1.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 340,
+      "line": 344,
       "body_lines": [
-        341,
-        350
+        345,
+        354
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1791,10 +1791,10 @@
       "id": "M1.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 478,
+      "line": 482,
       "body_lines": [
-        479,
-        488
+        483,
+        492
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1811,10 +1811,10 @@
       "id": "M1.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 615,
+      "line": 619,
       "body_lines": [
-        616,
-        623
+        620,
+        627
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1831,10 +1831,10 @@
       "id": "M1.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 726,
+      "line": 730,
       "body_lines": [
-        727,
-        731
+        731,
+        735
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1851,10 +1851,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 814,
+      "line": 818,
       "body_lines": [
-        815,
-        822
+        819,
+        826
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1871,10 +1871,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 960,
+      "line": 964,
       "body_lines": [
-        961,
-        965
+        965,
+        969
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1891,10 +1891,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 984,
+      "line": 988,
       "body_lines": [
-        985,
-        990
+        989,
+        994
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -7170,7 +7170,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 240,
+      "line": 244,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7232,7 +7232,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 378,
+      "line": 382,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7294,7 +7294,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 515,
+      "line": 519,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7360,7 +7360,7 @@
       "kind": "other",
       "subtype": "",
       "mode": "generate",
-      "status": "spec-ready",
+      "status": "pending-production-rule",
       "title": "Videó-belső verziócímkék overlay (1. verzió / 2. verzió)",
       "purpose": "A nézőnek jelzi, hogy ugyanaz a helyzet kétféleképpen jelenik meg, és melyik a kívánatos (SBI-szerű) verzió.",
       "spec": "Két rövid, videóra ráégetett/overlay szövegcímke a videóban a verziók elválasztására: '1. verzió – címke' és '2. verzió – SBI-szerű'. Tipográfiai overlay, az S/B/I színkóddal harmonizáló stílus.",
@@ -7376,13 +7376,16 @@
       "reuse_of": "",
       "reuse_resolves_to": "",
       "external": {},
-      "blockers": [],
+      "blockers": [
+        "R5"
+      ],
       "production_rules": [
-        "R1"
+        "R1",
+        "R5"
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Az M1.3-VID-01 videó része; külön asszetként, mert önálló grafikai elem.",
+      "notes": "Az M1.3-VID-01 videó része; külön asszetként, mert önálló grafikai elem. Az R5 felvéve: a saját specifikációja „az S/B/I színkóddal harmonizáló stílus”-t ír elő, az S/B/I színkód konkrét értéke pedig az R5 nyitott paletta-tétele — az overlay nem gyártható a vizuális rendszer lezárása előtt.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -7394,7 +7397,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "972a7dceabf1f0adeb943ab739d72f3bcaf1a1fb85b56cabb4d5813f76d55b6b",
+      "spec_hash": "4a5791365d3d3578c534395eaf6b840f2a44c388ec24d4e70772e3de1375b28f",
       "deliverable_ids": [
         "M1.3-EGY-01"
       ],
@@ -7472,7 +7475,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 277,
+      "line": 281,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7510,8 +7513,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        341,
-        350
+        345,
+        354
       ],
       "source_text": "„Az **S**, mint *Situation*, azt jelenti, hogy elmondod:\n**mikor** és **milyen helyzetben** történt a dolog.\n\nPéldául: *‘Amikor ma a játék közben…’*,\nvagy *‘a beszélgetőkör elején…’*,\nvagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.\n\nEz segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",
       "source_hash": "56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485",
@@ -7540,7 +7543,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 415,
+      "line": 419,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7578,8 +7581,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        479,
-        488
+        483,
+        492
       ],
       "source_text": "„A **B**, mint *Behavior*, azaz *viselkedés*, arról szól,\nhogy **mit láttál vagy hallottál konkrétan**.\n\nPéldául: *‘háromszor félbeszakította a többieket’*,\nvagy *‘kivonult a teremből’*.\n\nEz a rész az előző leckéhez is kapcsolódik:\nitt **megfigyelést mondasz, nem címkét**.”",
       "source_hash": "9662d095add3cf802f625b06720b06fffda66f76c2dbc3191ebef5858924174e",
@@ -7608,7 +7611,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 552,
+      "line": 556,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7646,8 +7649,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        616,
-        623
+        620,
+        627
       ],
       "source_text": "„Az **I**, mint *Impact*, azt jelenti, hogy elmondod,\n**mi lett a hatása** annak, ami történt – rád vagy a csapatra.\n\nPéldául: *‘nagyon nehéz volt megtartani a figyelmüket’*,\nvagy *‘a kicsik utána már nem szólaltak meg’*,\nvagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",
       "source_hash": "58f57ac59c18b799df3d01a3a734694b0ff505bca6e8b89ba1781afcd1302373",
@@ -7676,7 +7679,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 659,
+      "line": 663,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7714,8 +7717,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        727,
-        731
+        731,
+        735
       ],
       "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
       "source_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
@@ -7744,7 +7747,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 747,
+      "line": 751,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7782,8 +7785,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        815,
-        822
+        819,
+        826
       ],
       "source_text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
@@ -7812,7 +7815,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 845,
+      "line": 849,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7850,8 +7853,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        961,
-        965
+        965,
+        969
       ],
       "source_text": "„Ha mindhárom állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nEzt fogjuk továbbvinni a következő leckében és az Assignmentben is.”",
       "source_hash": "6672c28188276a64cb203b144accdd3e6855ef2199e1ac58e36538ed2ca8d8f1",
@@ -7880,7 +7883,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 886,
+      "line": 890,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7918,8 +7921,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        985,
-        990
+        989,
+        994
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben igazi szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "3cf12a70e5ac66b0cf733ad9e68c027d363f7bacf4a2a37e5da5cdeaa4318818",
@@ -7945,7 +7948,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 108,
+      "line": 112,
       "kind": "video",
       "subtype": "interactive",
       "mode": "generate",
@@ -7986,7 +7989,7 @@
         "MISSING_SPOKEN_SOURCE",
         "OPEN_DECISION"
       ],
-      "decision": "A HOOK-dialóg felmondható, VÉGLEGES szövege szerzői jóváhagyást igényel. A lecke a négy mondatot kiírja (SLIDE 1 „Mit látunk?”), de a „Mit hallunk?” sor kifejezetten úgy fogalmaz, hogy „Nagyjából a fenti mondatok” (196. sor) — ez implementációs szabadság, nem jóváhagyott szkript. Amíg a szerző nem hagyja jóvá a szó szerinti szöveget és az nem kerül `@source` blokkba, a felirat és a leirat nem gyártható. Javasolt, a lecke mondataiból összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D6.",
+      "decision": "A HOOK-dialóg felmondható, VÉGLEGES szövege szerzői jóváhagyást igényel. A lecke a négy mondatot kiírja (SLIDE 1 „Mit látunk?”), de a „Mit hallunk?” sor kifejezetten úgy fogalmaz, hogy „Nagyjából a fenti mondatok” (201. sor) — ez implementációs szabadság, nem jóváhagyott szkript. Amíg a szerző nem hagyja jóvá a szó szerinti szöveget és az nem kerül `@source` blokkba, a felirat és a leirat nem gyártható. Javasolt, a lecke mondataiból összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D6.",
       "notes": "Tartalmazza a dialóg-hangsávot (a videó része). Felvillanó S/B/I ikonok az M1.3-IKO-01-ből. A beépített kérdés szöveg- és feedback-tartalma a sorokban 89–111 (tiszta szöveges H5P-interakció, nem külön média-asset). Az R5 felvéve: az R5 szövege az AI karakter-jeleneteket nevesítve rögzített referencia-karakterhez és seedhez köti, ezért ez a videó nem gyártható a karakter- és stílus-lock előtt. Az R2 felvéve: AI-generált emberi karakter szintetikus hanggal — a generátor neve, a kereskedelmi licenc és a hang-jogosultság igazolása ugyanúgy kell, mint a beszélőfej-videóknál. Ha a jóváhagyó az R2 hatályát a beszélőfejekre szűkíti, ez a sor visszavonható (PRODUCTION-DECISIONS.md D3). A spec két mondattöredéke elcsúszott a lecke látható szövegétől („szétszúrod” / „összetartani a figyelmüket”); a jelenlegi leckeszövegre igazítva, a tananyag mondatai változatlanok.",
       "review": "",
       "source_ref": "",
@@ -7999,7 +8002,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0651ceea692d506a6df92fd13bd8031e2470572abdc4d776d0079c35b18b8c2d",
+      "spec_hash": "acdc765df0bfc4148b538c13ccf3d2f4feaeb9f6ca40d8c74a0b50e9f9f17eef",
       "deliverable_ids": [
         "M1.3-VID-01",
         "M1.3-VID-01::CAPTIONS",
@@ -15835,7 +15838,7 @@
       "status": "pending-production-rule",
       "title": "Szituáció-kártyák (4 db red flag eset)",
       "purpose": "blokkjának gerincét.",
-      "spec": "4 db nyomtatott szituáció-kártya, egyenként 1-1 red flag esettel és a hozzá tartozó kiváltó idézettel: (1) Késő esti privát üzenet – chanich 23:30-kor: „Nagyon szar minden, de ezt csak neked mondhatom el, senki más nem tudhatja.”; (2) Online csúfolódás – megalázó mém a csoportchatben egy chanichról, az érintett nem reagál; (3) Önsértésre utaló jelek – vágásnyomok a karon, „viccesen” lesöpri; (4) Madrich–chanich párkapcsolat-gyanú – sok négyszemközti idő, ölelés, titkolózás: „Ezt ne mondjuk el senkinek.” A 4. esetet hordozó kártya csak nagy létszámnál kerül kiosztásra (a 4. csoport csak nagy létszámnál indul, sor 162).",
+      "spec": "4 db nyomtatott szituáció-kártya, egyenként 1-1 red flag esettel, a jelenlegi lecke (4.2.2) szövegével szó szerint: (1) Késő esti privát üzenet – egy chanich azt írja: „Nagyon rosszul vagyok, de ezt csak neked mondhatom el, senki más nem tudhatja.”; (2) Online csúfolódás – a kvuca csoportchatjében megalázó mém készül egy chanichról, az érintett nem reagál; (3) Önsértésre utaló jelek – játék közben vágásnyomokat vesz észre egy madrich, a chanich viccel elüti a kérdést; (4) Madrich–chanich viszony, ami párkapcsolat-gyanús – sok külön töltött idő, ölelkezés, titkolózás: „Ezt ne mondjuk el senkinek.” A 4. esetet hordozó kártya csak nagy létszámnál kerül kiosztásra (alapból 3 csoport).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -15858,7 +15861,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Tartalmilag biztonságkritikus (gyermekvédelmi) – nem élesedik a gyermekvédelmi felelős aláírása nélkül (fejléc, sor 3-10). A 2., 3., 4. kártya eltérő feldolgozási szabály alá esik (eljátszás vs. elemzés, sor 173-179).",
+      "notes": "Tartalmilag biztonságkritikus (gyermekvédelmi) – nem élesedik a gyermekvédelmi felelős aláírása nélkül (fejléc, sor 141–148). A feldolgozási mód MIND A NÉGY kártyánál azonos és kötelező: harmadik személyű esetelemzés, kívülről, szereposztás és eljátszás nélkül (4.2.2 kiemelt doboza). A korábbi jegyzet „eljátszás vs. elemzés” megkülönböztetése a visszavont szerepjátékos formából maradt itt, és a jelenlegi kötelező szabállyal ellentétes volt — törölve. A kártyaszövegek is a jelenlegi leckéhez lettek igazítva (a v1 spec „Nagyon szar minden” / „23:30” megfogalmazása már nincs a forrásban).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -15870,7 +15873,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "64984596b8e1d3873b2a656b52c13d173160a67e9305311f4c2e5046ee619937",
+      "spec_hash": "29f48fae2130ddb457b78ad160e5d53caa1f5ce9adf523c84b761d17074d2b56",
       "deliverable_ids": [
         "M3.B-KART-01",
         "M3.B-KART-01::PRINTPDF"
@@ -15960,7 +15963,7 @@
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Az opcionális stop & swap rész vizuálisan elkülönítve (NEM az alap)."
+        "note": "Egyoldalas, elővehető kártya (A5 vagy A6), kétoldalas nyomtatás megengedett; jól olvasható betűméret, a szó szerint kimondandó mondatok tipográfiailag kiemelve, hogy krízisben egy pillantással megtalálhatók legyenek."
       },
       "a11y": {
         "note": "Kell akadálymentes / lineáris szöveges struktúra, ha digitálisan (PDF) osztják meg; a kész mondatok felolvashatók legyenek."
@@ -15979,7 +15982,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Csak a facilitátornak szól. Biztonságkritikus – a fájl fejléce szerint a peula csak gyermekvédelmi szakmai jóváhagyás után használható élesben (sor 141–148); ez a kártya sem élesedik előtte. A v1 spec a peula korábbi szerepjátékos formájára épült (jelenet-leállítás, „stop & swap”), amit a jelenlegi M3.B már nem tartalmaz — a 4.3.3 kifejezetten „a korábbi szerepjáték helyett” fogalmaz. A funkció viszont változatlanul kötelező a jelenlegi forrásban is (4.2.1 biztonsági keret és a „Ha valakit megérint a téma – képzőnek” blokk), ezért az asset nem szűnik meg: a specifikáció a jelenlegi szövegre lett átírva. Az eredeti v1 megfogalmazás a befagyasztott leltárban változatlanul megvan (M3.B-KART-03).",
+      "notes": "Csak a facilitátornak szól. Biztonságkritikus – a fájl fejléce szerint a peula csak gyermekvédelmi szakmai jóváhagyás után használható élesben (sor 141–148); ez a kártya sem élesedik előtte. A v1 spec a peula korábbi szerepjátékos formájára épült (jelenet-leállítás, „stop & swap”), amit a jelenlegi M3.B már nem tartalmaz — a 4.3.3 kifejezetten „a korábbi szerepjáték helyett” fogalmaz. A funkció viszont változatlanul kötelező a jelenlegi forrásban is (4.2.1 biztonsági keret és a „Ha valakit megérint a téma – képzőnek” blokk), ezért az asset nem szűnik meg: a specifikáció a jelenlegi szövegre lett átírva. Az eredeti v1 megfogalmazás a befagyasztott leltárban változatlanul megvan (M3.B-KART-03). A technikai jegyzet is átírva: a korábbi „opcionális stop & swap rész” kikötése ugyanabból a visszavont szerepjátékos formából származott, mint a v1 spec, és a jelenlegi peulában nincs mire vonatkoznia.",
       "review": "A v2 a spec-mezőt a jelenlegi peula-szövegre írta át (4.2.1 és 4.3.3); a visszavont, szerepjátékra épülő v1 megfogalmazás a befagyasztott leltárban olvasható, a Modulok/ alatt az integritás-ellenőrzés tiltja.",
       "source_ref": "",
       "composed_of": [],
@@ -15991,7 +15994,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5121f830189ed06a9d3780872019c4482a3fdef110228cd41f6f761c736095a4",
+      "spec_hash": "7074d05f96098febab8201251bbed0270b19cea678fd9e74d3ce978bd0ea5f16",
       "deliverable_ids": [
         "M3.B-KART-03",
         "M3.B-KART-03::PRINTPDF"
@@ -17994,7 +17997,7 @@
       "readiness_issues": [
         "OPEN_DECISION"
       ],
-      "decision": "⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum. Az M4.1 beszélőfej-videóval nyit, az M4.2/M4.3/M4.4 statikus illusztrációval + narrációval. A korpusz azt mutatja, hogy ez NEM M4-specifikus anomália, hanem a tananyag általános mintája: 17 lecke nyit beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4), 14 pedig statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4, M5.2, M5.3, M6.3, M7.1, Z.1–Z.3) — az M1, M5, M6 és M7 modulon BELÜL is vegyesen. Eldöntendő: (A) a jelenlegi vegyes nyitás megerősítése (nincs új gyártás, ez az asset R5 alá kerül), vagy (B) M4-en belüli egységesítés, ami három új beszélőfej-videót és három új szkriptet jelent (M4.2/M4.3/M4.4). Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D4.",
+      "decision": "⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum. Az M4.1 beszélőfej-videóval nyit, az M4.2/M4.3/M4.4 statikus illusztrációval + narrációval. A korpusz azt mutatja, hogy ez NEM M4-specifikus anomália, hanem a tananyag általános mintája: 17 lecke nyit beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4), 15 pedig statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4, M5.2, M5.3, M6.3, M7.1, Z.1–Z.3) — az M1, M5, M6 és M7 modulon BELÜL is vegyesen. Eldöntendő: (A) a jelenlegi vegyes nyitás megerősítése (nincs új gyártás, ez az asset R5 alá kerül), vagy (B) M4-en belüli egységesítés, ami három új beszélőfej-videót és három új szkriptet jelent (M4.2/M4.3/M4.4). Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D4.",
       "notes": "A slide 1 narrációjával (M4.2-NAR-01) és a Single Choice interakcióval (M4.2-EGY-01) összetartozik.",
       "review": "",
       "source_ref": "",
@@ -18007,7 +18010,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "037b1773d306b1548d9e9dfc0fd574ac9058de5f69ffcb6ede5f2c807f079005",
+      "spec_hash": "a6071bc23d084c841eee5a04ea319537cf3226953dd904b28600149ae0b3a6c8",
       "deliverable_ids": [
         "M4.2-ILL-01",
         "M4.2-ILL-01::ALTTEXT"
@@ -33256,12 +33259,14 @@
       "file_kind": "online-lecke",
       "title": "Videó-belső verziócímkék overlay (1. verzió / 2. verzió)",
       "mode": "generate",
-      "status": "spec-ready",
+      "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "",
       "text": "",
       "text_hash": "",
-      "blockers": [],
+      "blockers": [
+        "R5"
+      ],
       "readiness_issues": []
     },
     {

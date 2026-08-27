@@ -13,7 +13,7 @@ kisebb vagy egyenlő, mint az „érintett”.
 | | Asset | Deliverable |
 |---|---:|---:|
 | Összesen | 418 | 906 |
-| Ebből most gyártható | **40** | **40** |
+| Ebből most gyártható | **39** | **39** |
 
 ---
 
@@ -22,8 +22,8 @@ kisebb vagy egyenlő, mint az „érintett”.
 **Kérdés:** mi a tananyag kötelező vizuális rendszere — betűtípus, elrendezés, ikon- és
 karakterstílus —, és mik a someres alapszínek pontos hex-értékei?
 
-**Miért ez a legfontosabb:** ez a legnagyobb tétel. Amíg nyitva van, 257 asset nem
-gyártható, és ha rosszul indul, 257 asseten kell újragyártani.
+**Miért ez a legfontosabb:** ez a legnagyobb tétel. Amíg nyitva van, 258 asset nem
+gyártható, és ha rosszul indul, 258 asseten kell újragyártani.
 
 **Jelenlegi bizonyíték:** a repositoryban **nulla hex-érték** van — se design-system
 fájl, se arculati leírás, se logó-specifikáció. Ami van, az szemantikus színhasználat a
@@ -34,17 +34,17 @@ fekete-fehér nyomtatás. Részletek és a teljes lock-lap:
 
 **A) Két lépésben zárjuk (ajánlott).** Először a **stílus-token** (betűtípus, fejléc- és
 margórend, ikon-vonalvastagság, karakterstílus, AI-jelölés helye) — ezzel a 26
-fekete-fehér nyomtatvány azonnal indul; utána a **hex-paletta**, ami a 16 kimondottan
+fekete-fehér nyomtatvány azonnal indul; utána a **hex-paletta**, ami a 17 kimondottan
 színfüggő tételt engedi el.
-**B) Egyben zárjuk.** Egyszerre születik meg a teljes lock-lap; addig a 247 R5-tétel
+**B) Egyben zárjuk.** Egyszerre születik meg a teljes lock-lap; addig a 248 R5-tétel
 egyike sem indul.
 
 **Ajánlás: A.** A fekete-fehér nyomtatványok soha nem hivatkoznak hex-értékre, tehát a
 paletta-vita nem is érinti őket; a korai indulás viszont a legnagyobb kötegnél nyer időt.
 A kockázat kicsi, mert a stílus-token nélkül egyik változat sem indulhat.
 
-**Mit szabadít fel:** R5 lezárása önmagában **247 asset / 490 deliverable**. Az érintett
-257-ből 10 azért marad zárva, mert R2-re, R3-ra vagy emberi döntésre is vár.
+**Mit szabadít fel:** R5 lezárása önmagában **248 asset / 491 deliverable**. Az érintett
+258-ból 10 azért marad zárva, mert R2-re, R3-ra vagy emberi döntésre is vár.
 
 **Ki dönt:** program-/arculatfelelős, a mozgalmi vizuális identitás jóváhagyójával.
 
@@ -73,9 +73,11 @@ levezethető, és készen áll: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md).
 **Jelenlegi bizonyíték:** az R3 szövege maga mondja ki, hogy „modulonként a TTS vs.
 emberi felmondó döntés dokumentálandó”, és hogy a konkrét TTS-motor / voice-ID
 kitöltetlen.
-A leckék technikai jegyzetei mindkét utat nyitva hagyják („TTS vagy emberi narráció”,
-21 helyen). A repositoryban **nincs kiválasztott szolgáltató**, és a specifikáció nem is
-nevez meg egyet sem.
+A leckék technikai jegyzetei közül 21 említi egyáltalán a TTS-t; ebből három mondja ki
+szó szerint, hogy „TTS vagy emberi narráció” (mind az M1.4-ben), és hat az M6.1-ben már
+csak „Hang (TTS)”-t ír. A döntés tehát nem egységesen van nyitva hagyva a leckékben sem.
+A repositoryban **nincs kiválasztott szolgáltató**, és a specifikáció nem nevez meg egyet
+sem.
 
 **A) Egyetlen szintetikus hang** az egész tananyagra.
 **B) Egyetlen emberi felmondó** az egész tananyagra.
@@ -88,8 +90,9 @@ tananyagban”) kizár, hacsak a jóváhagyó ezt felül nem írja. Az **A** vá
 jogi kérdést is élesíti; a **B** nem.
 
 **Mit szabadít fel:** R3 lezárása önmagában **90 asset / 267 deliverable**. További 26
-tétel ekkor is R2-re vár (beszélőfej- és karaktervideók), ezért az R3 + R2 együtt
-**117 asset / 361 deliverable**.
+tétel ekkor is R2-re vár (beszélőfej- és karaktervideók); az R3 + R2 együtt — az R5-öt
+még nyitva hagyva — **111 asset / 351 deliverable**. (Ha az R5 is zárva van, a maradék 7
+karakter-tétel is felszabadul.)
 
 **Ki dönt:** program- és költségvetési felelős; szintetikus hangnál a jogi jóváhagyóval együtt.
 
@@ -126,8 +129,9 @@ freeze-frame-ek is R2 alá tartoznak.
 **Ajánlás: A**, amíg jogi jóváhagyó mást nem mond. A szűkítés visszavonható egy soros
 módosítás; a fordítottja — utólag kiderülő licenchiány 7 legyártott videón — nem.
 
-**Mit szabadít fel:** önmagában **0** (mind a 28 R2-tétel R3-ra is vár). R2 + R3 együtt
-**117 asset / 361 deliverable**.
+**Mit szabadít fel:** önmagában **0**. A 28 R2-tételből 26 R3-ra is vár, a másik kettő
+(`M4.1-FOTO-01/02`, néma állóképek) R5-re. R2 + R3 együtt, R5 nélkül **111 asset /
+351 deliverable**.
 
 **Ki dönt:** jogi jóváhagyó. A bizonyítékok nyilvántartása:
 [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
@@ -148,7 +152,7 @@ vagy az M4.1-hez hasonlóan beszélőfej-videóval?
 
 **Jelenlegi bizonyíték:** a korpuszban **nincs egységes HOOK-konvenció.** 17 lecke nyit
 beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4),
-14 statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4,
+15 statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4,
 M5.2, M5.3, M6.3, M7.1, Z.1–Z.3). A vegyes nyitás **modulon belül** is előfordul az M1,
 M5, M6 és M7 modulokban. Az M4 tehát nem kivétel, hanem a minta.
 

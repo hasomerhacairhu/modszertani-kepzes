@@ -205,7 +205,8 @@ minden fájlban.
 
 **Ez a hang-bible egyetlen valódi hiányzó döntése.** Minden más mező fent ki van töltve
 a jelenlegi tananyagból. Amint a D2 megszületik, a narráció-köteg
-(90 asset / 267 deliverable) indulhat — a pilot jóváhagyása után.
+(90 asset / 267 deliverable) indulhat — a pilot jóváhagyása után. A beszélőfej- és
+karaktervideók ezen felül az R2-re (és részben az R5-re) is várnak.
 
 > Szolgáltatót ez a lap nem javasol és nem nevez meg: erre a repositoryban nincs
 > bizonyíték, a kitalálása pedig jogi és költségvetési kötelezettséget hamisítana.

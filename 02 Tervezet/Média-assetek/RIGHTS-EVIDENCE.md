@@ -120,7 +120,7 @@ egyetlen kanonikus, ember-olvasható AI-címke kell. Ez 280 assetet érint.
 
 | # | Tétel | Állapot |
 |---|---|---|
-| R1-1 | A címke szövege | **MEGVAN** — „🤖 Ez a videó generatív AI-val készült.” (`M4.1-IKO-01`), UI-text assetek: `M5.1-EGY-01`, `M6.1-EGY-01` |
+| R1-1 | A címke **egységes szövege** | **HIÁNYZIK** — az R1 „EGYETLEN kanonikus… egységes szöveg”-et követel, a korpuszban viszont **négy** tanulónak látható változat él: „🤖 Ez a videó generatív AI-val készült.” (M4.1), „AI-generált avatar, a szöveget ember írta és lektorálta.” (M5.1), „A videó AI-eszközzel készült, emberi lektorálással.” (M6.1), „AI-generált avatar, narrációt madrich lektorálta” (M7.2/M7.3/M7.4). A kánoni `Emberi jóváhagyás szükséges.md` §38 is nyitott, kötelező elemként tartja nyilván a jelölés szövegét és elhelyezését. |
 | R1-2 | A címke vizuális formája és elhelyezése | **HIÁNYZIK** → D1 / [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) |
 | R1-3 | Gépi provenance-jelölés (C2PA / Content Credentials / vízjel) megmaradása az exportban | **HIÁNYZIK** — a generátor kiválasztása után ellenőrizendő (R2-1) |
 

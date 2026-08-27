@@ -21,8 +21,8 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 
 | Státusz | Asset | Deliverable |
 |---|---:|---:|
-| produkciós szabályra vár | 338 | 759 |
-| specifikáció kész | 47 | 40 |
+| produkciós szabályra vár | 339 | 760 |
+| specifikáció kész | 46 | 39 |
 | jogtisztázás alatt | 29 | 98 |
 | blokkolt | 2 | 6 |
 | emberi döntésre vár | 2 | 3 |
@@ -33,7 +33,7 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 |---|---:|
 | R2 — AI-avatar / AI-hang jogtisztaság | 28 |
 | R3 — narrátor hang-bible (motor / voice-ID) | 118 |
-| R5 — vizuális rendszer: stílus-token + hex-paletta | 257 |
+| R5 — vizuális rendszer: stílus-token + hex-paletta | 258 |
 | R7 — véglegesített Moodle-felület | 1 |
 | R8 — GDPR / képmás valós fotón és képernyőképen | 2 |
 | nyitott emberi döntés | 4 |
@@ -41,8 +41,8 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 
 | Kapu-terheltség | Asset | Deliverable |
 |---|---:|---:|
-| nincs nyitott kapu | 40 | 40 |
-| pontosan EGY kapu | 338 | 759 |
+| nincs nyitott kapu | 39 | 39 |
+| pontosan EGY kapu | 339 | 760 |
 | TÖBB kapu | 33 | 107 |
 
 ## 2. Döntés-hatás — mit szabadít fel egy kapu lezárása?
@@ -53,7 +53,7 @@ ha az adott kaput önmagában lezárjuk.
 
 | Kapu | Érintett asset | Érintett deliverable | Önmagában felszabadul (asset) | …deliverable | Más kapu is ül rajta | A többi kapu |
 |---|---:|---:|---:|---:|---:|---|
-| R5 — vizuális rendszer: stílus-token + hex-paletta | 257 | 508 | **247** | 490 | 10 | MISSING_SPOKEN_SOURCE×1, OPEN_DECISION×3, R2×7, R3×6 |
+| R5 — vizuális rendszer: stílus-token + hex-paletta | 258 | 509 | **248** | 491 | 10 | MISSING_SPOKEN_SOURCE×1, OPEN_DECISION×3, R2×7, R3×6 |
 | R3 — narrátor hang-bible (motor / voice-ID) | 118 | 365 | **90** | 267 | 28 | MISSING_SPOKEN_SOURCE×2, OPEN_DECISION×2, R2×26, R5×6 |
 | R2 — AI-avatar / AI-hang jogtisztaság | 28 | 97 | **0** | 0 | 28 | MISSING_SPOKEN_SOURCE×1, OPEN_DECISION×1, R3×26, R5×7 |
 | R8 — GDPR / képmás valós fotón és képernyőképen | 2 | 4 | **1** | 2 | 1 | R7×1 |
@@ -69,7 +69,7 @@ legtöbb assetet **abban a pillanatban**. Ez nem határidő, hanem
 
 | # | Kapu | Ekkor felszabaduló asset | …deliverable | Halmozott gyártható asset |
 |---:|---|---:|---:|---:|
-| 1 | R5 — vizuális rendszer: stílus-token + hex-paletta | 247 | 490 | 287 |
+| 1 | R5 — vizuális rendszer: stílus-token + hex-paletta | 248 | 491 | 287 |
 | 2 | R3 — narrátor hang-bible (motor / voice-ID) | 91 | 269 | 378 |
 | 3 | R2 — AI-avatar / AI-hang jogtisztaság | 27 | 94 | 405 |
 | 4 | nyitott emberi döntés | 2 | 3 | 407 |
@@ -87,8 +87,8 @@ de a vizuális rendszer lezárása nélkül akkor sem gyártható.
 
 | Köteg | Függőség | Asset | Deliverable |
 |---|---|---:|---:|
-| **BATCH 0 — MOST GYÁRTHATÓ** | nincs nyitott kapu | 40 | 40 |
-| **BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN** | R5 — vizuális rendszer lock | 247 | 490 |
+| **BATCH 0 — MOST GYÁRTHATÓ** | nincs nyitott kapu | 39 | 39 |
+| **BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN** | R5 — vizuális rendszer lock | 248 | 491 |
 | **BATCH 2 — HANG-ZÁR UTÁN** | R3 — narrátor-hang lock | 91 | 269 |
 | **BATCH 3 — AI-AVATAR ÉS KARAKTERVIDEÓ** | R2 + R3 — avatar-jogtisztaság és hang-lock | 27 | 94 |
 | **BATCH 4 — JOGÉRZÉKENY (valós fotó / képernyőkép)** | R8 — képmás- és adatvédelmi bizonyíték | 1 | 2 |
@@ -97,13 +97,12 @@ de a vizuális rendszer lezárása nélkül akkor sem gyártható.
 
 ### BATCH 0 — MOST GYÁRTHATÓ
 
-**Függőség:** nincs nyitott kapu · **40 asset / 40 deliverable**
+**Függőség:** nincs nyitott kapu · **39 asset / 39 deliverable**
 
 | Asset | Típus | Deliverable | Kapuk | Cím |
 |---|---|---:|---|---|
 | `M0.2-EGY-01` | other/h5p-interaction | 1 | — | Akadálymentes iframe-cím és fókusz-spec a SLIDE 3 interakcióhoz |
 | `M0.A-EGY-01` | other | 1 | — | Zárókör induló-szavainak rögzítése (képzői jegyzet a Z.A-hoz) |
-| `M1.3-EGY-01` | other | 1 | — | Videó-belső verziócímkék overlay (1. verzió / 2. verzió) |
 | `M2.3-EGY-01` | other/h5p-interaction | 1 | — | Hook Single Choice poll – "Melyik pillérhez érzed a legerősebb kapcsolatot?" |
 | `M2.3-EGY-02` | other/h5p-interaction | 1 | — | H5P Branching Scenario – 3 pillér döntés-fa (a lecke magja) |
 | `M2.3-EGY-03` | other/h5p-interaction | 1 | — | SLIDE CHECK mini-kvíz – 2× Single Choice (fogalmi rögzítés) |
@@ -144,7 +143,7 @@ de a vizuális rendszer lezárása nélkül akkor sem gyártható.
 
 ### BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN
 
-**Függőség:** R5 — vizuális rendszer lock · **247 asset / 490 deliverable**
+**Függőség:** R5 — vizuális rendszer lock · **248 asset / 491 deliverable**
 
 Az R5 két külön dolgot tart nyitva: a **stílus-tokent** (tipográfia,
 elrendezés, margók, jelölés) és a **hex-palettát**. Amelyik tétel a saját
@@ -155,7 +154,7 @@ színt, az csak a stílus-tokenre vár — az a paletta-vita előtt is indulhat.
 |---|---:|---:|
 | 1A — fekete-fehér is elég | 26 | 54 |
 | 1B — nincs kimondva | 205 | 404 |
-| 1C — színfüggő | 16 | 32 |
+| 1C — színfüggő | 17 | 33 |
 
 | Modul | Típus | Asset | Deliverable |
 |---|---|---:|---:|
@@ -169,6 +168,7 @@ színt, az csak a stílus-tokenre vár — az a paletta-vita előtt is indulhat.
 | M1 | diagram | 7 | 14 |
 | M1 | icon-set | 6 | 10 |
 | M1 | illustration | 5 | 9 |
+| M1 | other | 1 | 1 |
 | M1 | poster | 5 | 10 |
 | M1 | worksheet | 6 | 12 |
 | M2 | card-set | 4 | 8 |
@@ -214,7 +214,7 @@ színt, az csak a stílus-tokenre vár — az a paletta-vita előtt is indulhat.
 | Z | poster | 1 | 2 |
 | Z | worksheet | 2 | 4 |
 
-A 247 tétel soronként a
+A 248 tétel soronként a
 `media-production-plan.csv` fájlban van (`Köteg` oszlop = `B1`).
 
 ### BATCH 2 — HANG-ZÁR UTÁN
