@@ -35,6 +35,16 @@ kék/sárga/zöld) és 26 olyan tétel, amelynek a saját technikai jegyzete sze
 fekete-fehér nyomtatás. Részletek és a teljes lock-lap:
 [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md).
 
+> 🔎 **2026-08-27: a kérdés lényegesen szűkült.** Egy célzott külső kutatás megtalálta a
+> mozgalom **saját, nyilvánosan elérhető arculati kézikönyvét** és logócsomagját
+> (`somer.hu/arculat/`) — deklarált HEX / RGB / CMYK / Pantone palettával, amelynek mind
+> a hat alapszíne **byte-azonosan megerősíthető a hivatalos logó-SVG-ből**. A D1 kérdése
+> ezért már nem „mi legyen a paletta”, hanem: **átvesszük-e a meglévőt**, melyik
+> színgeneráció a hatályos, és mit teszünk oda, ahol a kézikönyv hallgat (betűméret-skála,
+> ikon-stílus, semleges skála). A teljes bizonyíték-lánc, a **kiszámított** WCAG-kontrasztok
+> és a két jóváhagyható változat: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md).
+> **Ez bizonyíték, nem jóváhagyás — az R5 blokkolók a 257 asseten a helyükön maradnak.**
+
 **Mit szabadít fel:** R5 lezárása önmagában **247 asset / 489 deliverable**. Az érintett
 257-ből 10 azért marad zárva, mert R2-re, R3-ra vagy emberi döntésre is vár.
 
@@ -101,6 +111,22 @@ jelentene, amit az R3 első mondata („EGYETLEN konzisztens narrátor-hang az e
 tananyagban”) kizár, hacsak a jóváhagyó ezt felül nem írja. Az **A** választása a **D3**
 bizonyíték-listát is bővíti; a **B** nem.
 
+> 🔎 **2026-08-27: a szolgáltatói mező kutatva.** A jelöltek, a magyar támogatásuk, a
+> kiejtés-vezérlésük, a licencfeltételeik és az áraik elsődleges, szolgáltatói forrásból:
+> [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz. Röviden: a szintetikus ágon a
+> **költség nem differenciál** (0–22 $ a teljes tananyagra), a kiejtés-kikényszeríthetőség
+> viszont igen — egyetlen jelölt dokumentál magyar IPA fonéma-készletet. A hangot
+> **meghallgatással** kell kiválasztani, ehhez három tananyagbeli tesztszkript készült:
+> [`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md). **Az R3 blokkoló mind a 117
+> tételen a helyén marad.**
+>
+> ⚠️ **Új emberi kapu, amit a kutatás hozott elő (V1).** Az egyik jelölt szolgáltató a
+> saját átláthatósági dokumentumában **megköveteli** a szintetikus hang tényének közlését,
+> és külön kimondja, hogy kiskorúakat érintő felhasználásnál a **szülő/gondviselő** felé is
+> világos tájékoztatás kell. A tananyag R1-címkéje a **tanulónak** szól. Hogy ez önmagában
+> kielégíti-e az elvárást, **gyermekvédelmi és adatvédelmi kérdés** — a gyermekvédelmi
+> felelősé és a DPO-é, nem a médiaprodukcióé. Ez a lap nem dönti el.
+
 **Mit szabadít fel:** R3 lezárása önmagában **90 asset / 267 deliverable**. További 27
 tétel ekkor is R2-re vagy R5-re vár, ezért az R3 + R2 együtt — az R5-öt még nyitva hagyva
 — **111 asset / 351 deliverable**.
@@ -137,6 +163,31 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 351 deliverable**.
 
 **Ki dönt:** jogi jóváhagyó.
+
+> 🔎 **2026-08-27: a jelöltek és a feltételeik kutatva.** Megnevezett jelöltek, idézett
+> kereskedelmi, kimenet-tulajdonlási, képmás- és provenance-záradékokkal, jelöltenkénti
+> bizonyíték-állapottal: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A. szakasz. A
+> javasolt gyártási útvonal és a tartalékok:
+> [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) 4–5. szakasz.
+>
+> **A nyilvános szolgáltatási feltétel nem azonos a produkciós fiók bizonyítékával.**
+> Fiókot nem hoztunk létre, próbaidőszakot nem indítottunk, generálást nem futtattunk. Az
+> R2 mind a hat bizonyíték-sora **HIÁNYZIK** marad, és a 28 asset blokkolója a helyén.
+>
+> ⚠️ **Két új emberi kapu, amit a kutatás hozott elő.**
+>
+> **J1 — jogi.** A javasolt karakter-jelenet szolgáltató feltételei tartalmaznak egy
+> záradékot, amely tiltja a generatív szolgáltatás használatát olyan online szolgáltatás
+> részeként, amely 18 év alattiakhoz szól vagy hozzájuk valószínűleg eljut. A tananyag
+> célközönsége **15+**. Hogy az **offline legyártott, majd Moodle-ön kiszolgált** asset
+> ebbe a mondatba esik-e, **jogi olvasat** — és ha igen, az kizárja a javasolt stacket.
+>
+> **J2 — gyermekvédelmi és szerzői.** A vizsgált szolgáltatók feltételei egybehangzóan
+> **felnőtt** megjelenésű avatart és karaktert engednek (kiskorú ábrázolása avatarral
+> tiltott, egyedi avatarhoz nagykorúság kell, a személy-generálás EU-ban felnőttre
+> korlátozott). A tananyag viszont **madrichot** ábrázol, és a kánoni szabály szerint a
+> madrich maga is lehet kiskorú. Ez **nem eszközválasztási kérdés**: a gyermekvédelmi
+> felelősnek és a szerzőnek kell rendeznie. Ez a lap megáll itt.
 
 **A válasz helye:**
 - generátor / szolgáltató neve és verziója: ⟬KITÖLTENDŐ⟭

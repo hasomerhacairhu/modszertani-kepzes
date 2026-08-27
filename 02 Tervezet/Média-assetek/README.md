@@ -63,6 +63,10 @@ Ezek a fájlok **kézzel nem szerkeszthetők**:
 | [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) | Az R3 végrehajtási lapja: nyelv, regiszter, tempó, kiejtés, felirat-viszony, kimenet. Az egyetlen nyitott mezője a motor/hang választása. |
 | [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) | Az R5 lock-lapja: mi kötelező már most, mi következetes de nem hivatalos, és mi hiányzik. |
 | [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) | R2/R8 bizonyíték-nyilvántartás. Nem hoz jogi következtetést, és személyes adatot nem tartalmaz. |
+| [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) | A D1 előkészítése: a mozgalom **hivatalos arculati kézikönyvéből** kinyert paletta és szabályok, számított WCAG-kontrasztokkal, és két jóváhagyható változat. Ajánlás, nem lezárás. |
+| [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) | A teljes gyártási stack előkészítése: vizuális rendszer, hang, beszélőfej, karakter-jelenet, formátumok, elnevezés, provenance, akadálymentesítés, jogi bizonyíték, nyitott döntések. |
+| [`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md) | A D2 tesztanyaga: három meglévő narráció, amelyen a hangjelöltek összemérhetők. Másolat, nem kánon. |
+| [`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) | Családonként egy pilot-brief: pontos forrás, promptok, elfogadási és bukási feltételek, fájlelnevezés. **Mind a kilencen nyitott kapu ül — egyik sem indítható a saját döntése előtt.** |
 
 ## Parancsok
 
