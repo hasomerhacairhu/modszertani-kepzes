@@ -1,4 +1,20 @@
 #!/usr/bin/env node
+// ==========================================================================
+// NYUGDÍJAZOTT — NE FUTTASD.
+//
+// Ez a fájl a média-asset regiszter v1 (2026-06) pipeline-jának része. A kánoni
+// rendszer 2026-08 óta a `tools/media_manifest.py` fordító, amely a jelenlegi
+// Markdown `@asset` / `@source` deklarációiból építi a regisztert.
+//
+// Miért maradt itt: forenzikus bizonyíték. A `media-merged.json` befagyasztott
+// leltára a 747 történeti sor egyeztetésének bemenete (`media_manifest.py
+// reconcile`), a szkriptek pedig azt dokumentálják, hogyan készült.
+//
+// Amit NEM szabad: lefuttatni. A `build-data.py` és a `format-media.js` a v2
+// generált kimeneteire írna rá a befagyasztott JSON-ból, azaz visszaállítaná a
+// 2026-06-os pillanatképet a jelenlegi tananyagszöveg helyett.
+// ==========================================================================
+
 // Determinisztikus média-asset regiszter formázó — TÖBB bemenetet fésül össze.
 // Használat: node format-media.js <dest.md> <result1.json> [result2.json ...]
 const fs = require('fs')
