@@ -558,14 +558,31 @@ class TestRepositoryCorpus(unittest.TestCase):
         self.assertIn("nem feltételezhető", text)
 
     def test_m41_caption_rule_follows_the_current_lesson(self):
-        """M4.1 separates audio-only from spoken video; captions are not optional."""
+        """M4.1 separates audio-only from spoken video; captions are not optional.
+
+        A spoken video either carries its own caption and transcript, or it is a
+        scene inside a composed Interactive Video whose container carries them —
+        an H5P Interactive Video has one base video and one `textTracks` list, so
+        a scene has nowhere of its own to attach them. The obligation may move up
+        to the container; it may never disappear.
+        """
+        by_id = {a["id"]: a for a in self.model["assets"]}
+        container_of = {cid: a["id"] for a in self.model["assets"]
+                        for cid in a["composed_of"]}
         videos = [a for a in self.model["assets"]
                   if a["unit"] == "M4.1" and a["kind"] == "video"
                   and a["a11y"].get("audio") == "spoken"]
         self.assertTrue(videos)
         for asset in videos:
-            self.assertIn("captions", asset["derivatives"], asset["id"])
-            self.assertIn("transcript", asset["derivatives"], asset["id"])
+            owner = by_id[container_of.get(asset["id"], asset["id"])]
+            self.assertIn("captions", owner["derivatives"],
+                          f"{asset['id']} → {owner['id']}")
+            self.assertIn("transcript", owner["derivatives"],
+                          f"{asset['id']} → {owner['id']}")
+            if owner["id"] != asset["id"]:
+                self.assertNotIn("captions", asset["derivatives"],
+                                 f"{asset['id']} duplikálja a konténer felirat-sávját")
+                self.assertNotIn("transcript", asset["derivatives"], asset["id"])
         source = (mm.ACTIVE_ROOT / "Modulok/M4/Online leckék"
                   / "M4.1 – Mit üzen a testem – Nonverbális kiállás.md")
         self.assertNotIn("felirat VAGY", source.read_text(encoding="utf-8"))
@@ -636,7 +653,7 @@ class TestRepositoryCorpus(unittest.TestCase):
 
     def test_no_spoken_asset_can_become_ready_without_its_script(self):
         for asset in self.model["assets"]:
-            if mm.requires_spoken_source(asset) and not asset["source_ref"]:
+            if mm.requires_spoken_source(asset) and not mm.has_spoken_source(asset):
                 self.assertEqual("blocked", asset["status"], asset["id"])
                 self.assertIn(mm.MISSING_SPOKEN_SOURCE, asset["readiness_issues"])
         for deliverable in self.model["deliverables"]:
@@ -1032,6 +1049,201 @@ class TestContentInvariant(unittest.TestCase):
         self.assertEqual([], differences,
                          "a v2 metaadat eltávolítása után is maradt eltérés")
         self.assertGreater(touched, 0, "a migrációnak érintenie kellett fájlokat")
+
+
+# ==========================================================================
+# Composition — one runtime artefact assembled from several components
+# ==========================================================================
+
+class TestComposition(unittest.TestCase):
+    """`composed_of`: the H5P Interactive Video case, made machine-checkable.
+
+    An Interactive Video takes one base video and one `textTracks` list, so three
+    scene clips become one file with one caption track. The container therefore
+    owns the text tracks and its script is the components' scripts in order —
+    never a fourth copy of the same words.
+    """
+
+    def _corpus(self, container=None, scene_extra=None, scenes=3, scene_source=True):
+        container = container or {}
+        scene_extra = scene_extra or {}
+        parts = []
+        for n in range(1, scenes + 1):
+            fields = dict(id=f"M9.1-VID-0{n + 1}", kind="video", subtype="explainer",
+                          title=f"Jelenet {n}", spec="jelenetvideó",
+                          a11y={"audio": "spoken", "visual": "decorative",
+                                "alt_note": "a felirat lefedi"},
+                          derivatives=[])
+            if scene_source:
+                fields["source_ref"] = f"M9.1-NAR-0{n}-VO"
+            fields.update(scene_extra)
+            parts.append(declaration(**fields))
+            if scene_source:
+                parts.append(source_block(f"M9.1-NAR-0{n}-VO", "narration",
+                                          f"> „{n}. jelenet szövege."))
+        fields = dict(id="M9.1-VID-01", kind="video", subtype="interactive",
+                      title="Interactive Video", spec="konténer",
+                      composed_of=[f"M9.1-VID-0{n + 1}" for n in range(1, scenes + 1)],
+                      a11y={"audio": "spoken", "visual": "decorative",
+                            "alt_note": "a felirat lefedi"},
+                      derivatives=["captions", "transcript"])
+        fields.update(container)
+        return compile_corpus({LESSON: lesson(declaration(**fields), *parts)})
+
+    def test_container_script_is_the_components_in_order(self):
+        model = self._corpus()
+        self.assertEqual([], [str(e) for e in model["errors"]])
+        container = next(a for a in model["assets"] if a["id"] == "M9.1-VID-01")
+        self.assertEqual([], container["readiness_issues"])
+        self.assertEqual("spec-ready", container["status"])
+        self.assertEqual(["M9.1-NAR-01-VO", "M9.1-NAR-02-VO", "M9.1-NAR-03-VO"],
+                         container["composed_source_ids"])
+        self.assertEqual("„1. jelenet szövege.\n\n„2. jelenet szövege."
+                         "\n\n„3. jelenet szövege.", container["source_text"])
+
+    def test_caption_text_follows_the_lesson_through_the_components(self):
+        captions = [d for d in self._corpus()["deliverables"]
+                    if d["id"] == "M9.1-VID-01::CAPTIONS"]
+        self.assertEqual(1, len(captions))
+        self.assertIn("2. jelenet szövege", captions[0]["text"])
+
+    def test_components_produce_no_second_caption_file(self):
+        ids = [d["id"] for d in self._corpus()["deliverables"]]
+        self.assertIn("M9.1-VID-01::CAPTIONS", ids)
+        self.assertNotIn("M9.1-VID-02::CAPTIONS", ids)
+        self.assertNotIn("M9.1-VID-02::TRANSCRIPT", ids)
+
+    def test_a_component_may_not_duplicate_the_runtime_track(self):
+        errors = " ".join(str(e) for e in self._corpus(
+            scene_extra={"derivatives": ["captions", "transcript"]})["errors"])
+        self.assertIn("konténer része", errors)
+
+    def test_a_component_without_a_script_is_rejected(self):
+        errors = " ".join(str(e) for e in
+                          self._corpus(scene_source=False)["errors"])
+        self.assertIn("nincs forrásszövege", errors)
+
+    def test_a_component_without_a_script_never_makes_the_container_ready(self):
+        model = self._corpus(scene_source=False)
+        container = next(a for a in model["assets"] if a["id"] == "M9.1-VID-01")
+        self.assertIn(mm.MISSING_SPOKEN_SOURCE, container["readiness_issues"])
+        self.assertEqual("blocked", container["status"])
+
+    def test_container_may_not_have_two_scripts(self):
+        errors = " ".join(str(e) for e in self._corpus(
+            container={"source_ref": "M9.1-NAR-01-VO"})["errors"])
+        self.assertIn("két igazsága", errors)
+
+    def test_container_must_declare_the_text_tracks(self):
+        errors = " ".join(str(e) for e in
+                          self._corpus(container={"derivatives": []})["errors"])
+        self.assertIn("kompozit konténer", errors)
+
+    def test_dangling_component_rejected(self):
+        errors = " ".join(str(e) for e in self._corpus(
+            container={"composed_of": ["M9.1-VID-99"]})["errors"])
+        self.assertIn("nem létező assetre mutat", errors)
+
+    def test_nested_composition_rejected(self):
+        errors = " ".join(str(e) for e in self._corpus(
+            scene_extra={"composed_of": ["M9.1-VID-02"]})["errors"])
+        self.assertIn("maga is kompozit", errors)
+
+    def test_composition_only_on_a_spoken_video(self):
+        errors = " ".join(str(e) for e in self._corpus(
+            container={"kind": "illustration", "subtype": "",
+                       "a11y": {"visual": "decorative"}, "derivatives": []})["errors"])
+        self.assertIn("nem beszélt videó", errors)
+
+    def test_composition_is_part_of_the_spec_hash(self):
+        one = self._corpus()["assets"]
+        two = self._corpus(container={"composed_of": ["M9.1-VID-03", "M9.1-VID-02",
+                                                      "M9.1-VID-04"]})["assets"]
+        first = next(a for a in one if a["id"] == "M9.1-VID-01")["spec_hash"]
+        second = next(a for a in two if a["id"] == "M9.1-VID-01")["spec_hash"]
+        self.assertNotEqual(first, second, "a sorrend a szkript része")
+
+
+# ==========================================================================
+# Blocker semantics — a gate may not spread beyond what its rule says
+# ==========================================================================
+
+class TestBlockerSemantics(unittest.TestCase):
+    """Each production gate must sit on exactly the assets its own text covers."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.model = mm.compile_manifest()
+        cls.by_id = {a["id"]: a for a in cls.model["assets"]}
+
+    def _with(self, blocker):
+        return [a for a in self.model["assets"] if blocker in a["blockers"]]
+
+    def test_r2_covers_synthetic_human_personas_only(self):
+        """R2 is avatar/voice rights, not a general AI-content gate."""
+        for asset in self._with("R2"):
+            self.assertIn(asset["kind"], ("video", "photo"), asset["id"])
+            self.assertEqual("ai", asset["provenance"], asset["id"])
+        ai_visuals = [a for a in self.model["assets"]
+                      if a["provenance"] == "ai"
+                      and a["kind"] in ("illustration", "icon-set", "diagram",
+                                        "poster", "card-set", "worksheet")]
+        self.assertTrue(ai_visuals)
+        for asset in ai_visuals:
+            self.assertNotIn("R2", asset["blockers"],
+                             f"{asset['id']} hétköznapi AI-vizuál, nem avatar")
+
+    def test_r2_holds_every_talking_head_and_character_scene(self):
+        for asset in self.model["assets"]:
+            if asset["kind"] == "video" and asset["subtype"] == "ai-talking-head":
+                self.assertIn("R2", asset["blockers"], asset["id"])
+        for aid in ("M4.1-VID-03", "M4.1-VID-04", "M4.1-VID-05", "M1.3-VID-01"):
+            self.assertIn("R2", self.by_id[aid]["blockers"], aid)
+
+    def test_r8_covers_real_captures_only(self):
+        """R8's text is scoped to a real photo or screenshot."""
+        for asset in self._with("R8"):
+            self.assertEqual("photo", asset["kind"], asset["id"])
+            self.assertEqual("human", asset["provenance"], asset["id"])
+        for asset in self.model["assets"]:
+            if asset["kind"] == "photo" and asset["provenance"] == "human":
+                self.assertIn("R8", asset["blockers"], asset["id"])
+
+    def test_a_procurement_item_is_not_gated_on_image_rights(self):
+        for asset in self.model["assets"]:
+            if asset["mode"] == "external" and asset["subtype"] == "consumable":
+                self.assertNotIn("R8", asset["blockers"], asset["id"])
+                self.assertEqual("spec-ready", asset["status"], asset["id"])
+
+    def test_r7_only_gates_the_runtime_dependent_screenshot(self):
+        gated = self._with("R7")
+        self.assertEqual(["M0.3-FOTO-01"], [a["id"] for a in gated])
+        self.assertIn("screenshot", gated[0]["title"].lower())
+
+    def test_r5_holds_every_ai_character_scene_its_own_text_names(self):
+        rule = next(r for r in mm.production_rules() if r["id"] == "R5")
+        self.assertIn("M1.3-VID-01", rule["text"])
+        self.assertIn("M4.1-VID-03/04/05", rule["text"])
+        for aid in ("M1.3-VID-01", "M4.1-VID-03", "M4.1-VID-04", "M4.1-VID-05"):
+            self.assertIn("R5", self.by_id[aid]["blockers"], aid)
+
+    def test_resolving_a_rule_never_lifts_a_structural_block(self):
+        for asset in self.model["assets"]:
+            if mm.MISSING_SPOKEN_SOURCE in asset["readiness_issues"]:
+                self.assertEqual("blocked", asset["status"], asset["id"])
+            elif asset["decision"]:
+                self.assertIn(asset["status"], ("blocked", "pending-human-decision"),
+                              asset["id"])
+
+    def test_the_reworked_card_kept_its_historical_row(self):
+        """M3.B-KART-03 was re-specified, not deleted: its v1 row still maps."""
+        asset = self.by_id["M3.B-KART-03"]
+        self.assertEqual(["M3.B-KART-03"], asset["legacy"]["asset"])
+        recon = mm.reconcile(self.model)
+        row = next(r for r in recon["rows"] if r[0] == "M3.B-KART-03")
+        self.assertNotEqual("CURRENTLY_UNMAPPED_ERROR", row[7])
+        self.assertEqual(747, recon["legacy_total"])
+        self.assertEqual(0, recon["unmapped"])
 
 
 if __name__ == "__main__":

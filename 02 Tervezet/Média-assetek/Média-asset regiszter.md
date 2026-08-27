@@ -21,16 +21,16 @@
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 123 |
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **912** |
+| Produkciós deliverable | **906** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 403 |
+| legyártandó | 404 |
 | újrahasznosítás | 7 |
 | külső forrás | 6 |
-| emberi döntés kell | 2 |
+| emberi döntés kell | 1 |
 
 **Asset-típus szerint**
 
@@ -55,8 +55,8 @@
 | elsődleges | 411 |
 | alt-szöveg | 124 |
 | nyomtatható PDF | 122 |
-| leirat | 117 |
-| felirat | 114 |
+| leirat | 114 |
+| felirat | 111 |
 | felmondott hang | 21 |
 | szerkeszthető, kitölthető változat | 3 |
 
@@ -78,20 +78,20 @@
 
 | Státusz | Db |
 |---|--:|
-| produkciós szabályra vár | 339 |
-| specifikáció kész | 41 |
-| jogtisztázás alatt | 32 |
-| blokkolt | 3 |
-| emberi döntésre vár | 3 |
+| produkciós szabályra vár | 338 |
+| specifikáció kész | 47 |
+| jogtisztázás alatt | 29 |
+| blokkolt | 2 |
+| emberi döntésre vár | 2 |
 
 **Nyitott produkciós blokkolók (hivatkozások szerint)**
 
 | Blokkoló | Érintett asset |
 |---|--:|
-| R5 | 248 |
+| R5 | 257 |
 | R3 | 118 |
-| R2 | 21 |
-| R8 | 11 |
+| R2 | 28 |
+| R8 | 2 |
 | R7 | 1 |
 
 ## ⛔ Nyitott produkciós kapuk
@@ -102,9 +102,9 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | Szabály | Mi hiányzik | Érintett asset |
 |---|---|--:|
-| **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 21 |
+| **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 28 |
 | **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID ⟬KITÖLTENDŐ⟭ | 118 |
-| **R5** — Ikon- és karakter-batch + lock | A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭ | 248 |
+| **R5** — Ikon- és karakter-batch + lock | A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭ | 257 |
 
 ## 🗂 Assetek fájlonként
 
@@ -327,7 +327,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M2.3-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Hook Single Choice poll – "Melyik pillérhez érzed a legerősebb kapcsolatot?" | — | — | vegyes |
 | `M2.3-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Branching Scenario – 3 pillér döntés-fa (a lecke magja) | — | — | vegyes |
 | `M2.3-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | SLIDE CHECK mini-kvíz – 2× Single Choice (fogalmi rögzítés) | — | — | vegyes |
-| `M2.3-FOTO-01` | photo | legyártandó | jogtisztázás alatt | Hook háttér – someres/kvuca-vizuál | — | alt-szöveg | AI-generált |
+| `M2.3-FOTO-01` | photo | legyártandó | produkciós szabályra vár | Hook háttér – someres/kvuca-vizuál | — | alt-szöveg | AI-generált |
 | `M2.3-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | 3 pillér ikon-készlet (cionizmus / szocializmus / humanista zsidóság) | — | alt-szöveg | AI-generált |
 | `M2.3-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | KERET narráció – "Ez a három pillér sokkal több, mint három szó" | `M2.3-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M2.3-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook AI beszélő-fej videó – 3 pillér felvezetés | `M2.3-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
@@ -489,7 +489,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M3.B-KART-01` | card-set | legyártandó | produkciós szabályra vár | Szituáció-kártyák (4 db red flag eset) | — | nyomtatható PDF | emberi |
 | `M3.B-KART-02` | card-set | legyártandó | produkciós szabályra vár | Krízis- / segélyvonal referenciakártya (képzőnek) | — | nyomtatható PDF | emberi |
-| `M3.B-KART-03` | card-set | emberi döntés kell | emberi döntésre vár | Képzői safety-gyorskártya | — | nyomtatható PDF | emberi |
+| `M3.B-KART-03` | card-set | legyártandó | produkciós szabályra vár | Képzői safety-gyorskártya | — | nyomtatható PDF | emberi |
 | `M3.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Lépés-térkép flipchart-sablon (5 lépéses folyamatábra) | — | nyomtatható PDF | emberi |
 | `M3.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Helyi gyermekvédelmi útvonal lap (szerep + név + elérhetőség) | — | nyomtatható PDF | emberi |
 | `M3.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Képzői megoldó-jegyzet kártyánként (4 soros referenciatáblázat) | — | nyomtatható PDF | emberi |
@@ -500,8 +500,8 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M3.F-EGY-01` | print/consumable | külső forrás | jogtisztázás alatt | Check-in matrica / post-it készlet | — | — | stock |
-| `M3.F-EGY-02` | print/consumable | külső forrás | jogtisztázás alatt | Filcek a fogalom-térkép-táblához | — | — | stock |
+| `M3.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Check-in matrica / post-it készlet | — | — | stock |
+| `M3.F-EGY-02` | print/consumable | külső forrás | specifikáció kész | Filcek a fogalom-térkép-táblához | — | — | stock |
 | `M3.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 gondolat / 1 kérdés leckénként” | — | nyomtatható PDF | AI-generált |
 | `M3.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – M3.F peula (1 A4) | — | nyomtatható PDF | AI-generált |
 | `M3.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Check-in állapotfelmérő tábla – M3 leckesorok | — | nyomtatható PDF | AI-generált |
@@ -525,10 +525,10 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.1-NAR-06` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 4 közös bevezető narráció – „Mi a különbség?” | `M4.1-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M4.1-NAR-07` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 6 outro narráció – „Mire figyelek legközelebb?” | `M4.1-NAR-07-VO` | felirat, leirat | AI-generált |
 | `M4.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélő-fej videó – „Mit gondolnak rólad az első 5 másodpercben?” | `M4.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
-| `M4.1-VID-02` | video/interactive | legyártandó | blokkolt | Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések | — | felirat, leirat | AI-generált |
-| `M4.1-VID-03` | video/explainer | legyártandó | produkciós szabályra vár | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” | `M4.1-NAR-03-VO` | felirat, leirat | AI-generált |
-| `M4.1-VID-04` | video/explainer | legyártandó | produkciós szabályra vár | Jelenet 2 karaktervideó – „Ideges topogó madrich” | `M4.1-NAR-04-VO` | felirat, leirat | AI-generált |
-| `M4.1-VID-05` | video/explainer | legyártandó | produkciós szabályra vár | Jelenet 3 karaktervideó – „Nyitott, stabil madrich” | `M4.1-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M4.1-VID-02` | video/interactive | legyártandó | jogtisztázás alatt | Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések | kompozit: `M4.1-VID-03` + `M4.1-VID-04` + `M4.1-VID-05` | felirat, leirat | AI-generált |
+| `M4.1-VID-03` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” | `M4.1-NAR-03-VO` | — | AI-generált |
+| `M4.1-VID-04` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 2 karaktervideó – „Ideges topogó madrich” | `M4.1-NAR-04-VO` | — | AI-generált |
+| `M4.1-VID-05` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 3 karaktervideó – „Nyitott, stabil madrich” | `M4.1-NAR-05-VO` | — | AI-generált |
 
 ### 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md
 
@@ -607,8 +607,8 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M4.F-EGY-01` | print/consumable | külső forrás | jogtisztázás alatt | Check-in matricák / post-it készlet (1 db/fő) | — | — | stock |
-| `M4.F-EGY-02` | print/consumable | külső forrás | jogtisztázás alatt | Filc-/marker-készlet a fogalom-térkép táblához | — | — | stock |
+| `M4.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Check-in matricák / post-it készlet (1 db/fő) | — | — | stock |
+| `M4.F-EGY-02` | print/consumable | külső forrás | specifikáció kész | Filc-/marker-készlet a fogalom-térkép táblához | — | — | stock |
 | `M4.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – 1 gondolat / 1 kérdés leckénként (L1–L4) | — | nyomtatható PDF | vegyes |
 | `M4.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | 45 mp-es peula-pitch váz-sablon (eszközmentes pótló feladat) | — | nyomtatható PDF | vegyes |
 | `M4.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Állapotfelmérő tábla-sablon – „Melyik leckénél tartasz?” (M4.1–M4.4 sorok) | — | nyomtatható PDF | vegyes |
@@ -620,7 +620,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M5-HUB-EGY-01` | print/consumable | külső forrás | jogtisztázás alatt | Gallery walk reakció-eszközök (post-it / pötty-matrica) | — | — | stock |
+| `M5-HUB-EGY-01` | print/consumable | külső forrás | specifikáció kész | Gallery walk reakció-eszközök (post-it / pötty-matrica) | — | — | stock |
 
 ### 02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md
 
@@ -815,7 +815,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.F-EGY-01` | print/consumable | külső forrás | jogtisztázás alatt | Check-in matricák / post-it készlet (beszerzendő irodaszer) | — | — | stock |
+| `M6.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Check-in matricák / post-it készlet (beszerzendő irodaszer) | — | — | stock |
 | `M6.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 gondolat / 1 kérdés leckénként + játéklap” | — | nyomtatható PDF | AI-generált |
 | `M6.F-MUNK-02` | worksheet | újrahasznosítás | specifikáció kész | Üres játéklap-sablon (offline B-terv + Study Lab) | — | — | AI-generált |
 | `M6.F-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Lecke-összefoglalók M6.1–M6.4 (offline B-terv, 1–1 oldal) | — | nyomtatható PDF | AI-generált |
@@ -1013,21 +1013,19 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Akadály | Státusz |
 |---|---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | nincs felmondható forrásszöveg | blokkolt |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | nincs felmondható forrásszöveg; nyitott emberi döntés | blokkolt |
 | `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | nyitott emberi döntés | emberi döntésre vár |
-| `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | nincs felmondható forrásszöveg | blokkolt |
-| `M3.B-KART-03` | 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md | nyitott emberi döntés | emberi döntésre vár |
-| `M4.1-VID-02` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | nincs felmondható forrásszöveg; nyitott emberi döntés | blokkolt |
+| `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | nincs felmondható forrásszöveg; nyitott emberi döntés | blokkolt |
 | `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | nyitott emberi döntés | emberi döntésre vár |
 
 ## ⚖️ Emberi döntésre váró tételek
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le (észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem gyártható. |
-| `M3.B-KART-03` | 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md | A v1 leltárban szereplő spec olyan foglalkozásformára épült, amit a jelenlegi tananyag már nem tartalmaz, és a jelenlegi peula-szöveg nem hivatkozik erre a segédanyagra. Emberi döntés kell arról, hogy szükség van-e rá, és ha igen, milyen tartalommal — a témáért felelős szakmai/gyermekvédelmi jóváhagyóval. Az eredeti v1 megfogalmazás a befagyasztott leltárban változatlanul megvan (M3.B-KART-03). |
-| `M4.1-VID-02` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | Az Interactive Video hangsávja a három jelenet narrációjából áll össze (M4.1-NAR-03/04/05), önálló szkriptje nincs; a v1 leltár viszont ehhez a konténerhez rendelte a felirat- és leirat-sort (M4.1-FEL-03 / M4.1-LEI-02), és a jelenetek jegyzete is ide mutat. El kell dönteni, hogy a felirat- és leiratfájlt a konténer kapja-e (a három szkript összefűzésével), vagy jelenetenként készül — addig a konténer felirata nem gyártható. A három szkript szövege a regiszterben megvan. |
-| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | HOOK-formátum inkonzisztencia az M4 modulon belül: az M4.1-VID-01 beszélőfej-videóval indít (mint az M1–M3 és M6–M7 leckék többsége), de az M4.2-ILL-01, M4.3-ILL-01 és M4.4-ILL-01 mind STATIKUS illusztrációval nyitja a HOOK-ot, beszélőfej-videó nélkül. Ez a modulon belüli nyitó-élmény váltakozása; a tanuló az M4.1 után már videós HOOK-ot várna. — [⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum: javaslat — M4.1 marad videó-HOOK (indokolt), M4.2–4.4 egységes statikus illusztráció + narráció. Megerősítendő.] Döntsd el modul-szinten a HOOK-formátumot (beszélőfej-videó vagy statikus illusztráció + narráció), és tartsd egységesen az M4.1–M4.4 leckéken belül, vagy rögzítsd, miért tér el az M4.1. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | A HOOK-dialóg felmondható, VÉGLEGES szövege szerzői jóváhagyást igényel. A lecke a négy mondatot kiírja (SLIDE 1 „Mit látunk?”), de a „Mit hallunk?” sor kifejezetten úgy fogalmaz, hogy „Nagyjából a fenti mondatok” (196. sor) — ez implementációs szabadság, nem jóváhagyott szkript. Amíg a szerző nem hagyja jóvá a szó szerinti szöveget és az nem kerül `@source` blokkba, a felirat és a leirat nem gyártható. Javasolt, a lecke mondataiból összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D6. |
+| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 feedbackjeiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5. |
+| `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | Nincs jóváhagyott narráció-szöveg. A lecke a SLIDE „Input 1” diaszövegét adja meg (a négy kvuca-profil fókuszszavai, az „ugyanúgy peulázol” következménye és a „fejprofil” zárómondat), de kimondottan csak opcionális narrációt jelez, verbatim szkript nélkül. A szöveg megírása és jóváhagyása szerzői feladat; amíg nem kerül `@source` blokkba, a hang, a felirat és a leirat nem gyártható. Javasolt, kizárólag a jelenlegi diaszövegből összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D7. |
+| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | ⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum. Az M4.1 beszélőfej-videóval nyit, az M4.2/M4.3/M4.4 statikus illusztrációval + narrációval. A korpusz azt mutatja, hogy ez NEM M4-specifikus anomália, hanem a tananyag általános mintája: 17 lecke nyit beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4), 14 pedig statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4, M5.2, M5.3, M6.3, M7.1, Z.1–Z.3) — az M1, M5, M6 és M7 modulon BELÜL is vegyesen. Eldöntendő: (A) a jelenlegi vegyes nyitás megerősítése (nincs új gyártás, ez az asset R5 alá kerül), vagy (B) M4-en belüli egységesítés, ami három új beszélőfej-videót és három új szkriptet jelent (M4.2/M4.3/M4.4). Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D4. |
 
 ---
 

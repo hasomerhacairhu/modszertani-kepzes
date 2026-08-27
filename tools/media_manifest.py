@@ -202,8 +202,8 @@ REQUIRED_ASSET_FIELDS = ("id", "kind", "title")
 
 KNOWN_ASSET_FIELDS = {
     "id", "unit", "kind", "subtype", "mode", "title", "purpose", "spec",
-    "source_ref", "provenance", "provenance_note", "technical", "a11y",
-    "derivatives", "reuse_of", "external", "status", "blockers",
+    "source_ref", "composed_of", "provenance", "provenance_note", "technical",
+    "a11y", "derivatives", "reuse_of", "external", "status", "blockers",
     "production_rules", "decision", "notes", "legacy", "review",
 }
 KNOWN_SOURCE_FIELDS = {"id", "kind", "note", "for"}
@@ -836,6 +836,11 @@ def _normalise_asset(raw: dict, where: str, unit: str, module: str, file_kind: s
         "purpose": raw.get("purpose", ""),
         "spec": raw.get("spec", ""),
         "source_ref": raw.get("source_ref", ""),
+        "composed_of": [str(c) for c in _as_list(raw.get("composed_of"),
+                                                 "composed_of", where)],
+        # Set during resolution: True only once every component's script actually
+        # resolved. A declared composition is a promise, not a script.
+        "composed_of_resolved": False,
         "provenance": provenance,
         "provenance_note": raw.get("provenance_note", ""),
         "technical": technical,
@@ -863,6 +868,7 @@ def validate(assets: dict[str, dict], sources: dict[str, dict],
              errors: list[ManifestError]) -> None:
     _validate_references(assets, sources, errors)
     _validate_reuse(assets, errors)
+    _validate_composition(assets, errors)
     _validate_accessibility(assets, errors)
     _validate_modes(assets, errors)
     _validate_sources_used(sources, errors)
@@ -871,6 +877,12 @@ def validate(assets: dict[str, dict], sources: dict[str, dict],
 def _validate_references(assets, sources, errors) -> None:
     for asset in assets.values():
         where = f"{asset['file']}:{asset['line']}"
+        for cid in asset["composed_of"]:
+            component = assets.get(cid)
+            ref = component["source_ref"] if component else ""
+            if ref and split_ref(ref)[0] in sources:
+                sources[split_ref(ref)[0]]["used_by"].append(
+                    f"{asset['id']}:composed_of")
         for field, ref in (("source_ref", asset["source_ref"]),
                            ("a11y.alt_source_ref", asset["a11y"].get("alt_source_ref", ""))):
             if not ref:
@@ -982,6 +994,89 @@ _DEMANDS_ALT = re.compile(
     r"nem dekorat|dekorat\w* NEM")
 
 
+def composed_component_ids(assets) -> set[str]:
+    """Every asset id that is delivered only inside a composed container."""
+    values = assets.values() if isinstance(assets, dict) else assets
+    return {cid for asset in values for cid in asset.get("composed_of", [])}
+
+
+def _validate_composition(assets, errors) -> None:
+    """`composed_of` — one runtime artefact assembled from several components.
+
+    Grounded in the H5P Interactive Video content type itself: its `semantics.json`
+    takes ONE base video (`files` / "Add a video", where the extra entries are
+    alternative encodings of the same video) and ONE `textTracks` list of WebVTT
+    tracks. Three scene clips therefore become one base video with exactly one
+    caption track and one transcript — the components have nowhere to attach
+    their own. So the container owns the text tracks and the components must not
+    also declare them, and the container's script is the ordered concatenation of
+    the components' own source blocks rather than a fourth copy of the same text.
+    """
+    for asset in assets.values():
+        where = f"{asset['file']}:{asset['line']}"
+        components = asset["composed_of"]
+        if not components:
+            continue
+        if asset["kind"] != "video" or asset["a11y"].get("audio") != "spoken":
+            errors.append(ManifestError(
+                where, f"a(z) {asset['id']} `composed_of`-ot deklarál, de nem beszélt videó",
+                "a kompozíció beszélt videó-konténerre való "
+                '("kind": "video", "a11y": {"audio": "spoken"})'))
+        if asset["mode"] != "generate":
+            errors.append(ManifestError(
+                where, f"a(z) {asset['id']} `composed_of`-ot deklarál, de a módja "
+                       f"{asset['mode']}",
+                'a kompozíció "generate" módú konténerre való'))
+        if asset["source_ref"]:
+            errors.append(ManifestError(
+                where, f"a(z) {asset['id']} egyszerre deklarál `source_ref`-et és "
+                       "`composed_of`-ot",
+                "a konténer szkriptje vagy saját forrásblokk, vagy az összetevőké — "
+                "ne legyen két igazsága"))
+        for role in ("captions", "transcript"):
+            if role not in asset["derivatives"]:
+                errors.append(ManifestError(
+                    where, f"a(z) {asset['id']} kompozit konténer `{role}` derivatíva nélkül",
+                    'a konténer viszi a futásidejű szöveges sávokat: '
+                    '"derivatives": ["captions", "transcript"]'))
+        if len(set(components)) != len(components):
+            errors.append(ManifestError(
+                where, f"a(z) {asset['id']} `composed_of` listája ismétlődik",
+                "minden összetevő pontosan egyszer szerepeljen, a lejátszási sorrendben"))
+        for cid in components:
+            component = assets.get(cid)
+            if cid == asset["id"]:
+                errors.append(ManifestError(
+                    where, f"a(z) {asset['id']} önmagát sorolja összetevőnek", ""))
+                continue
+            if component is None:
+                errors.append(ManifestError(
+                    where, f"a(z) {asset['id']} `composed_of` nem létező assetre mutat: {cid}",
+                    "javítsd a hivatkozást, vagy vedd fel az összetevő assetet"))
+                continue
+            if component["file"] != asset["file"]:
+                errors.append(ManifestError(
+                    where, f"a(z) {asset['id']} összetevője másik fájlban él ({cid})",
+                    "a kompozíció egy leckén belüli szerkezet"))
+            if component["composed_of"]:
+                errors.append(ManifestError(
+                    where, f"a(z) {asset['id']} összetevője maga is kompozit ({cid})",
+                    "a beágyazott kompozíció nem támogatott — egy szint mély"))
+            if not component["source_ref"]:
+                errors.append(ManifestError(
+                    where, f"a(z) {cid} összetevőnek nincs forrásszövege, így a(z) "
+                           f"{asset['id']} szkriptje sem áll össze",
+                    "adj `source_ref`-et az összetevőnek"))
+            for role in ("captions", "transcript"):
+                if role in component["derivatives"]:
+                    errors.append(ManifestError(
+                        f"{component['file']}:{component['line']}",
+                        f"a(z) {cid} `{role}` derivatívát deklarál, de a(z) "
+                        f"{asset['id']} konténer része",
+                        "a futásidejű szöveges sáv a konténeré — vedd ki a "
+                        "derivatívát az összetevőből"))
+
+
 def _validate_accessibility(assets, errors) -> None:
     """Objective, machine-checkable accessibility structure only.
 
@@ -994,6 +1089,7 @@ def _validate_accessibility(assets, errors) -> None:
     conforms remains a release acceptance task, not something a compiler can
     assert.
     """
+    components = composed_component_ids(assets)
     for asset in assets.values():
         where = f"{asset['file']}:{asset['line']}"
         kind = asset["kind"]
@@ -1001,6 +1097,11 @@ def _validate_accessibility(assets, errors) -> None:
         derivatives = set(asset["derivatives"])
         if asset["mode"] == "reuse":
             continue
+        # A component is never delivered on its own: it is cut into the container,
+        # which carries the single caption track and transcript for all of them.
+        # `_validate_composition` guarantees that container exists and declares
+        # both, so the obligation is discharged, not dropped.
+        inside_container = asset["id"] in components
 
         if kind in VISUAL_KINDS or (kind == "video" and a11y.get("visual")):
             visual = a11y.get("visual")
@@ -1033,7 +1134,7 @@ def _validate_accessibility(assets, errors) -> None:
                 errors.append(ManifestError(
                     where, f"a(z) {asset['id']} videó, de nincs a11y.audio megjelölve",
                     '"a11y": {"audio": "spoken"} vagy {"audio": "silent"}'))
-            elif audio == "spoken":
+            elif audio == "spoken" and not inside_container:
                 if "captions" not in derivatives:
                     errors.append(ManifestError(
                         where, f"a(z) {asset['id']} beszélt videó felirat-derivatíva nélkül "
@@ -1129,10 +1230,21 @@ def requires_spoken_source(asset: dict) -> bool:
     return False
 
 
+def has_spoken_source(asset: dict) -> bool:
+    """Whether this asset's speech resolves to text that lives in the lesson.
+
+    Either its own `@source` block, or — for a composed container — the ordered
+    concatenation of its components' blocks. `_validate_composition` refuses a
+    component without a source, so a container can never borrow readiness from a
+    component that has no script either.
+    """
+    return bool(asset["source_ref"]) or bool(asset.get("composed_of_resolved"))
+
+
 def readiness_issues(asset: dict) -> list[str]:
     """Structural reasons this asset cannot be produced, whatever the rules say."""
     issues = []
-    if requires_spoken_source(asset) and not asset["source_ref"]:
+    if requires_spoken_source(asset) and not has_spoken_source(asset):
         issues.append(MISSING_SPOKEN_SOURCE)
     if asset["decision"]:
         issues.append(OPEN_DECISION)
@@ -1242,7 +1354,7 @@ def expand_deliverables(asset: dict, resolved: dict) -> list[dict]:
 SPEC_HASH_FIELDS = (
     "kind", "subtype", "mode", "title", "purpose", "spec", "provenance",
     "provenance_note", "technical", "a11y", "derivatives", "reuse_of",
-    "external", "blockers", "production_rules", "decision",
+    "composed_of", "external", "blockers", "production_rules", "decision",
 )
 
 
@@ -1276,8 +1388,16 @@ def compile_manifest(root: Path = ACTIVE_ROOT, strict: bool = True) -> dict:
 
     for asset in ordered_assets:
         where = f"{asset['file']}:{asset['line']}"
-        primary_source, primary_text = (resolve_ref(sources, asset["source_ref"], where)
-                                        if asset["source_ref"] else (None, ""))
+        composed_ids: list[str] = []
+        if asset["composed_of"] and not asset["source_ref"]:
+            primary_source, primary_text, composed_ids = resolve_composition(
+                asset, assets, sources, where)
+            asset["composed_of_resolved"] = (
+                len(composed_ids) == len(asset["composed_of"]))
+        else:
+            primary_source, primary_text = (
+                resolve_ref(sources, asset["source_ref"], where)
+                if asset["source_ref"] else (None, ""))
         alt_source_id = asset["a11y"].get("alt_source_ref", "")
         alt_source, alt_text = (resolve_ref(sources, alt_source_id, where)
                                 if alt_source_id else (None, ""))
@@ -1296,6 +1416,7 @@ def compile_manifest(root: Path = ACTIVE_ROOT, strict: bool = True) -> dict:
         record["source_text"] = primary_text
         record["source_hash"] = sha256_text(primary_text) if primary_text else ""
         record["source_line"] = primary_source["body_lines"] if primary_source else []
+        record["composed_source_ids"] = composed_ids
         record["alt_source_ref"] = alt_source_id
         record["alt_text"] = alt_text
         record["alt_hash"] = sha256_text(alt_text) if alt_text else ""
@@ -1334,6 +1455,31 @@ def compile_manifest(root: Path = ACTIVE_ROOT, strict: bool = True) -> dict:
         "errors": errors,
         "parsed_files": parsed_files,
     }
+
+
+def resolve_composition(asset: dict, assets: dict[str, dict],
+                        sources: dict[str, dict], where: str):
+    """Synthetic source for a composed container: its components, in order.
+
+    The text is never copied into the container's own declaration — it is read
+    live from the components' `@source` blocks, so editing a scene's narration in
+    the lesson moves the container's caption file with it.
+    """
+    parts, ids = [], []
+    for cid in asset["composed_of"]:
+        component = assets.get(cid)
+        if component is None or not component["source_ref"]:
+            continue
+        src, text = resolve_ref(sources, component["source_ref"], where)
+        if src is None:
+            continue
+        ids.append(src["id"])
+        parts.append(text)
+    if not parts:
+        return None, "", []
+    joined = "\n\n".join(parts)
+    return ({"id": " + ".join(ids), "kind": "narration", "body_lines": [],
+             "text": joined, "hash": sha256_text(joined)}, joined, ids)
 
 
 def _resolve_reuse(asset: dict, assets: dict[str, dict]) -> str:
@@ -1427,7 +1573,8 @@ def _json_asset(asset: dict) -> dict:
             "mode", "status", "title", "purpose", "spec", "provenance", "provenance_note",
             "technical", "a11y", "derivatives", "reuse_of", "reuse_resolves_to", "external",
             "blockers", "production_rules", "readiness_issues", "decision", "notes", "review",
-            "source_ref", "source_line", "source_text", "source_hash",
+            "source_ref", "composed_of", "composed_source_ids",
+            "source_line", "source_text", "source_hash",
             "alt_source_ref", "alt_text", "alt_hash", "copy_hash", "spec_hash",
             "deliverable_ids", "legacy")
     return {k: asset.get(k, "") for k in keys}
@@ -1439,8 +1586,8 @@ ASSET_CSV_HEADER = [
     "Forrásblokk", "Felmondandó / generálandó szöveg (élő forrásból)", "Forrás-hash",
     "Alt-forrásblokk", "Alt-szöveg (élő forrásból)", "A11y",
     "Eredet", "Eredet-megjegyzés", "Tech-spec", "Derivatívák", "Deliverable-ek",
-    "Újrahasznosítás célja", "Külső forrás", "Blokkolók", "Produkciós szabályok",
-    "Emberi döntés", "Megjegyzés", "Spec-hash", "Régi ID-k",
+    "Újrahasznosítás célja", "Összetevők (kompozit)", "Külső forrás", "Blokkolók",
+    "Produkciós szabályok", "Emberi döntés", "Megjegyzés", "Spec-hash", "Régi ID-k",
 ]
 
 
@@ -1463,6 +1610,14 @@ def _a11y_cell(asset: dict) -> str:
     return _flat(a11y)
 
 
+def _source_cell(asset: dict) -> str:
+    if asset["source_ref"]:
+        return f"`{asset['source_ref']}`"
+    if asset["composed_of"]:
+        return "kompozit: " + " + ".join(f"`{c}`" for c in asset["composed_of"])
+    return "—"
+
+
 def _legacy_cell(asset: dict) -> str:
     parts = []
     for role in ["asset"] + list(DERIVATIVES):
@@ -1483,7 +1638,8 @@ def asset_csv_rows(model: dict) -> list[list[str]]:
             a["alt_source_ref"], a["alt_text"], _a11y_cell(a),
             PROVENANCE_LABELS[a["provenance"]], a["provenance_note"], _flat(a["technical"]),
             _flat(a["derivatives"]), _flat(a["deliverable_ids"]),
-            a["reuse_of"], _flat(a["external"]), _flat(a["blockers"]),
+            a["reuse_of"], _flat(a["composed_of"]),
+            _flat(a["external"]), _flat(a["blockers"]),
             _flat(a["production_rules"]), a["decision"], a["notes"], a["spec_hash"],
             _legacy_cell(a),
         ])
@@ -1664,7 +1820,7 @@ def render_register_md(model: dict) -> str:
                 id=asset["id"], kind=asset["kind"], sub=subtype,
                 mode=MODE_LABELS[asset["mode"]], status=STATUS_LABELS[asset["status"]],
                 title=_md_cell(asset["title"]),
-                src=f"`{asset['source_ref']}`" if asset["source_ref"] else "—",
+                src=_source_cell(asset),
                 der=_md_cell(", ".join(DERIVATIVE_LABELS[d] for d in asset["derivatives"])),
                 prov=PROVENANCE_LABELS[asset["provenance"]]))
         P("")
@@ -1768,8 +1924,8 @@ def render_xlsx(model: dict) -> bytes:
     ws = wb.active
     ws.title = "Assetek"
     widths = [16, 7, 10, 12, 34, 7, 14, 16, 18, 22, 26, 26, 46, 34, 16, 72, 18,
-              16, 46, 30, 16, 26, 26, 24, 34, 16, 26, 16, 18, 30, 26, 18, 30]
-    wrapcols = {11, 12, 13, 14, 16, 19, 20, 22, 23, 24, 25, 27, 30, 31, 33}
+              16, 46, 30, 16, 26, 26, 24, 34, 16, 30, 26, 16, 18, 30, 26, 18, 30]
+    wrapcols = {11, 12, 13, 14, 16, 19, 20, 22, 23, 24, 25, 26, 28, 31, 32, 34}
     sheet(ws, ASSET_CSV_HEADER, widths, wrapcols)
     rows = asset_csv_rows(model)
     modes = [a["mode"] for a in model["assets"]]
@@ -1781,7 +1937,7 @@ def render_xlsx(model: dict) -> bytes:
         fill = mode_fill.get(modes[r - 2])
         if fill:
             ws.cell(r, 9).fill = fill
-        if rows[r - 2][11]:
+        if rows[r - 2][10]:
             ws.cell(r, 11).fill = mode_fill["human-decision"]
 
     ws2 = wb.create_sheet("Deliverable-ek")
@@ -2150,7 +2306,7 @@ def render_migration_md(model: dict, recon: dict) -> str:
     P("A soronkénti leképezés gépi formában: `asset-migration-map.csv`.")
     P("")
     unsourced = [a for a in model["assets"]
-                 if a["mode"] == "generate" and not a["source_ref"]
+                 if a["mode"] == "generate" and not has_spoken_source(a)
                  and ({"captions", "transcript"} & set(a["derivatives"]))]
     if unsourced:
         P("## 5. Felirat/leirat forrásszöveg nélkül")

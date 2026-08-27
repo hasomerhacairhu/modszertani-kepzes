@@ -224,7 +224,35 @@ nem mehet ki (WCAG 2.2 SC 1.2.1). Zenénél ez rövid leírás is lehet.
 helyre. „Hasonló”, „ugyanaz a stílus”, „ugyanarról szól” — ezek **nem**
 újrahasznosítások. Az újrahasznosított asset nem kap derivatívákat.
 
-### 2.13 Emberi döntésre váró tétel
+### 2.13 Összefűzött videó-konténer (Interactive Video)
+
+```json
+{"id": "M9.5-VID-01", "kind": "video", "subtype": "interactive",
+ "title": "Interactive Video – 3 jelenet beágyazott kérdésekkel",
+ "spec": "H5P Interactive Video, 3 mini-jelenet, mindegyik után kérdés.",
+ "composed_of": ["M9.5-VID-02", "M9.5-VID-03", "M9.5-VID-04"],
+ "a11y": {"audio": "spoken", "visual": "decorative",
+          "alt_note": "a felirat és a leirat szó szerint lefedi"},
+ "derivatives": ["captions", "transcript"]}
+```
+
+Akkor használod, ha **több jelenetből egyetlen futásidejű videó** áll össze. A
+konténer szkriptje a felsorolt assetek `@source` blokkjainak **sorrendi
+összefűzése** — a szöveget nem írod le újra, és ha a leckében megváltozik egy
+jelenet narrációja, a konténer felirata a következő buildnél magától követi.
+
+A **felirat és a leirat a konténeré**, az összetevőké nem: a H5P Interactive
+Video egyetlen alap-videót és egyetlen `textTracks` listát vesz fel, tehát a
+jelenetenkénti felirat-fájlnak futásidőben nincs hova kapcsolódnia. Ezért az
+összetevők `derivatives` listájából a `captions` és a `transcript` **kimarad** —
+a fordító hibát jelez, ha mégis ott van. Az összetevők a saját elsődleges
+fájljukat (a jelenetvideót) továbbra is legyártandóként viszik.
+
+Amit a fordító megkövetel: az összetevők ugyanabban a fájlban éljenek, ne
+legyenek maguk is kompozitok, és **mindegyiküknek legyen `source_ref`-je** — egy
+szkript nélküli összetevő a konténert is `blokkolt` állapotban tartja.
+
+### 2.14 Emberi döntésre váró tétel
 
 ```json
 {"id": "M9.B-KART-03", "kind": "card-set", "mode": "human-decision",
@@ -234,7 +262,7 @@ helyre. „Hasonló”, „ugyanaz a stílus”, „ugyanarról szól” — eze
 
 A `decision` **kötelező**: eldöntetlen tétel nem tűnhet el csendben a leltárból.
 
-### 2.14 Média nélküli fájl
+### 2.15 Média nélküli fájl
 
 ```markdown
 <!-- @asset-free
@@ -260,6 +288,7 @@ Egy fájlban egy ilyen blokk lehet, és akkor nem lehet benne `@asset`.
 | `purpose` | | miért van rá szükség (pedagógiai cél) |
 | `spec` | | mit kell legyártani |
 | `source_ref` | | a felmondandó szöveg forrásblokkja |
+| `composed_of` | | összefűzött videó-konténer összetevői, lejátszási sorrendben; a szkript az ő forrásblokkjaikból áll össze (2.13) |
 | `a11y` | | `visual`, `audio`, `alt_source_ref`, `alt_note`, `note` |
 | `derivatives` | | `voiceover`, `captions`, `transcript`, `alt-text`, `thumbnail`, `audio-only`, `low-bandwidth`, `print-pdf` |
 | `provenance` | | `human`, `ai`, `stock`, `third-party`, `mixed`, `unknown`, `pending` |
@@ -283,7 +312,10 @@ Egy fájlban egy ilyen blokk lehet, és akkor nem lehet benne `@asset`.
 * egyedi asset- és forrás-ID, létező hivatkozások;
 * újrahasznosításnál: létező cél, nem önmaga, nincs kör, kompatibilis típus;
 * `external`/`provided` assetnél forráshivatkozás;
-* `human-decision`-nél `decision`.
+* `human-decision`-nél `decision`;
+* kompozíciónál: beszélt videó-konténer, létező és azonos fájlbeli összetevők,
+  nincs beágyazott kompozíció, minden összetevőnek van forrásszövege, és a
+  felirat/leirat derivatíva a konténeré, nem az összetevőké.
 
 A fordító a **manifeszt szerkezetét** ellenőrzi. Azt, hogy a kész Moodle/H5P
 oldal tényleg akadálymentes-e, továbbra is a release-elfogadás dönti el.

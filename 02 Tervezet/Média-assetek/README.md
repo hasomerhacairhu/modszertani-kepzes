@@ -57,6 +57,10 @@ Ezek a fájlok **kézzel nem szerkeszthetők**:
 | Fájl | Mire való |
 |---|---|
 | `produkcios-szabalyok.json` | Az R1–R8 produkciós konvenciók szövege. **Kézzel karbantartott:** amikor egy szervezeti vagy jogi döntés megszületik, itt kell kivezetni a `⟬KITÖLTENDŐ⟭` jelölést. A fordító ebből dolgozik, nem a befagyasztott v1 pillanatképből. |
+| [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) | A gyártás elindításához hiányzó **emberi döntések** — egy helyen, döntésenként egy kérdéssel, opciókkal és hatásszámmal. Kézzel karbantartott. |
+| [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) | Az R3 végrehajtási lapja: nyelv, regiszter, tempó, kiejtés, felirat-viszony, kimenet. Az egyetlen nyitott mezője a motor/hang választása. |
+| [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) | Az R5 lock-lapja: mi kötelező már most, mi következetes de nem hivatalos, és mi hiányzik. |
+| [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) | R2/R8 bizonyíték-nyilvántartás. Nem hoz jogi következtetést, és személyes adatot nem tartalmaz. |
 
 ## Parancsok
 
@@ -139,11 +143,21 @@ munkafüzet *Produkciós konvenciók* lapján olvasható.
 
 | Kapu | Mi hiányzik | Mit blokkol |
 |---|---|---|
-| **R2** — AI-avatar / AI-hang IP-megfelelőség | a generátor neve, a kereskedelmi licenc és a voice-talent release igazolása | a beszélőfej- és karaktervideók |
+| **R2** — AI-avatar / AI-hang IP-megfelelőség | a generátor neve, a kereskedelmi licenc és a voice-talent release igazolása | a 21 beszélőfej-videó, az 5 AI karakter-jelenet és a belőlük kivett 2 állókép |
 | **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID, vagy az emberi felmondó | minden narráció, hang és videó |
-| **R5** — Ikon- és karakter-batch + lock | a rögzített **someres hex-paletta** (a szabály ezen belül tartja nyitva) | minden tervezett vizuál és nyomtatott anyag |
+| **R5** — Ikon- és karakter-batch + lock | a rögzített **someres hex-paletta** (a szabály ezen belül tartja nyitva) | minden tervezett vizuál és nyomtatott anyag, valamint az AI karakter-jelenetek |
 | **R7** — Produkciós függőségek | a véglegesített Moodle-felület | a kurzusfelületet ábrázoló képernyőkép |
-| **R8** — GDPR / képmás-védelem | valós fotón/képernyőképen minden azonosítható személy és kézírás anonimizálása vagy kikeretezése; **felismerhető kiskorúnál előre dokumentált szülői hozzájárulás**; képernyőképen nincs valós felhasználónév, arc vagy licenc-korlátos harmadik felas elem | a fotó- és stock-assetek, valamint a kurzusfelületet ábrázoló képernyőkép |
+| **R8** — GDPR / képmás-védelem | valós fotón/képernyőképen minden azonosítható személy és kézírás anonimizálása vagy kikeretezése; **felismerhető kiskorúnál előre dokumentált szülői hozzájárulás**; képernyőképen nincs valós felhasználónév, arc vagy licenc-korlátos harmadik felas elem | a tananyag **két** valós felvétele: a Moodle-képernyőkép és a kvuca-plakátok archív fotói |
+
+Az R8 hatálya a szabály saját szövegét követi („valós fotó/screenshot esetén”):
+AI-generált képre és beszerzendő fizikai eszközre nem terjed ki — az indoklás
+tételenként a [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 2. szakaszában áll.
+
+**Mit kell eldönteni ahhoz, hogy induljon a gyártás?** Egy helyen, döntésenként
+egy kérdéssel, opciókkal és hatásszámmal:
+[`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md). Ami már most tudható a
+hangról és a vizuális rendszerről: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md),
+[`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md).
 
 Nem blokkoló, de minden vizuális munkára érvényes konvenció: **R1** (egységes
 AI-jelölés), **R4** (védjegy-semlegesség), **R6** (szín-szótár).
@@ -166,7 +180,8 @@ döntésre váró tételek* szakasz mutatja őket.
 > ⚠️ **Emberi döntés:** az R8 szövegében — az R2/R3/R5-tel ellentétben — nincs
 > `⟬KITÖLTENDŐ⟭` jelölés. Hogy ez betartandó szabály-e (és így nem kapu), vagy
 > önálló jóváhagyást igényel a fotó/képernyőkép-assetek élesítése előtt, a
-> gyermekvédelmi és adatvédelmi felelősnek kell tisztáznia.
+> gyermekvédelmi és adatvédelmi felelősnek kell tisztáznia
+> ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md), D8).
 
 > ⚠️ **Az M4 HOOK-formátum szerzői döntése nyitva van.** A v1 README ezt `J19`
 > néven említette; ilyen azonosító sehol nincs a befagyasztott adathalmazban, a
@@ -174,6 +189,8 @@ döntésre váró tételek* szakasz mutatja őket.
 > `M4.2-ILL-01` assethez van kötve („⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum…
 > Megerősítendő”). A v2 ezt az asset `decision` mezőjében viszi tovább, így a
 > munkafüzet *Emberi döntések* lapján és a migrációs jelentésben is látszik.
+> A döntés kifejtése a korpusz teljes HOOK-mintájával:
+> [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md), D4.
 
 Ezek **szervezeti és jogi döntések**. A fordító csak nyilvántartja őket; nem old
 fel egyet sem.

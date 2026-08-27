@@ -26,11 +26,11 @@
 | Mutató | Érték |
 |---|--:|
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **912** |
-| ebből legyártandó | 403 |
+| Produkciós deliverable | **906** |
+| ebből legyártandó | 404 |
 | ebből újrahasznosítás | 7 |
 | ebből külső forrás | 6 |
-| ebből emberi döntés kell | 2 |
+| ebből emberi döntés kell | 1 |
 | Forrásblokk | 123 |
 | Feldolgozott fájl | 84 |
 | Assetet tartalmazó fájl | 65 |
@@ -45,12 +45,12 @@ számolt *deliverable* keletkezik.
 
 | Diszpozíció | Db | Jelentése |
 |---|--:|---|
-| `PRESERVED` | 405 | azonos azonosítóval megmaradt szemantikus asset |
+| `PRESERVED` | 406 | azonos azonosítóval megmaradt szemantikus asset |
 | `CHANGED` | 4 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
 | `DERIVED_NOW` | 320 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
 | `MERGED_INTO_PARENT` | 6 | a szülő asset deklarációjába olvadt, nincs külön deliverable |
 | `REUSE` | 10 | explicit újrahasznosítás egy kanonikus assetre |
-| `AMBIGUOUS` | 2 | emberi döntés kell a besoroláshoz |
+| `AMBIGUOUS` | 1 | emberi döntés kell a besoroláshoz |
 | `CURRENTLY_UNMAPPED_ERROR` | 0 | **hiba** — egyetlen sor sem maradhat itt |
 
 **Összesen: 747 / 747 sor diszpozícionálva.**
@@ -71,22 +71,21 @@ bekerül a regiszterbe.
 |---|---|---|
 | `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | captions, transcript |
 | `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | captions, transcript |
-| `M4.1-VID-02` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | captions, transcript |
 
 ## 6. Nyitott produkciós döntések
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le (észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem gyártható. |
-| `M3.B-KART-03` | 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md | A v1 leltárban szereplő spec olyan foglalkozásformára épült, amit a jelenlegi tananyag már nem tartalmaz, és a jelenlegi peula-szöveg nem hivatkozik erre a segédanyagra. Emberi döntés kell arról, hogy szükség van-e rá, és ha igen, milyen tartalommal — a témáért felelős szakmai/gyermekvédelmi jóváhagyóval. Az eredeti v1 megfogalmazás a befagyasztott leltárban változatlanul megvan (M3.B-KART-03). |
-| `M4.1-VID-02` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | Az Interactive Video hangsávja a három jelenet narrációjából áll össze (M4.1-NAR-03/04/05), önálló szkriptje nincs; a v1 leltár viszont ehhez a konténerhez rendelte a felirat- és leirat-sort (M4.1-FEL-03 / M4.1-LEI-02), és a jelenetek jegyzete is ide mutat. El kell dönteni, hogy a felirat- és leiratfájlt a konténer kapja-e (a három szkript összefűzésével), vagy jelenetenként készül — addig a konténer felirata nem gyártható. A három szkript szövege a regiszterben megvan. |
-| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | HOOK-formátum inkonzisztencia az M4 modulon belül: az M4.1-VID-01 beszélőfej-videóval indít (mint az M1–M3 és M6–M7 leckék többsége), de az M4.2-ILL-01, M4.3-ILL-01 és M4.4-ILL-01 mind STATIKUS illusztrációval nyitja a HOOK-ot, beszélőfej-videó nélkül. Ez a modulon belüli nyitó-élmény váltakozása; a tanuló az M4.1 után már videós HOOK-ot várna. — [⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum: javaslat — M4.1 marad videó-HOOK (indokolt), M4.2–4.4 egységes statikus illusztráció + narráció. Megerősítendő.] Döntsd el modul-szinten a HOOK-formátumot (beszélőfej-videó vagy statikus illusztráció + narráció), és tartsd egységesen az M4.1–M4.4 leckéken belül, vagy rögzítsd, miért tér el az M4.1. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | A HOOK-dialóg felmondható, VÉGLEGES szövege szerzői jóváhagyást igényel. A lecke a négy mondatot kiírja (SLIDE 1 „Mit látunk?”), de a „Mit hallunk?” sor kifejezetten úgy fogalmaz, hogy „Nagyjából a fenti mondatok” (196. sor) — ez implementációs szabadság, nem jóváhagyott szkript. Amíg a szerző nem hagyja jóvá a szó szerinti szöveget és az nem kerül `@source` blokkba, a felirat és a leirat nem gyártható. Javasolt, a lecke mondataiból összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D6. |
+| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 feedbackjeiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5. |
+| `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | Nincs jóváhagyott narráció-szöveg. A lecke a SLIDE „Input 1” diaszövegét adja meg (a négy kvuca-profil fókuszszavai, az „ugyanúgy peulázol” következménye és a „fejprofil” zárómondat), de kimondottan csak opcionális narrációt jelez, verbatim szkript nélkül. A szöveg megírása és jóváhagyása szerzői feladat; amíg nem kerül `@source` blokkba, a hang, a felirat és a leirat nem gyártható. Javasolt, kizárólag a jelenlegi diaszövegből összeállított szövegváltozat: Média-assetek/PRODUCTION-DECISIONS.md, D7. |
+| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | ⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum. Az M4.1 beszélőfej-videóval nyit, az M4.2/M4.3/M4.4 statikus illusztrációval + narrációval. A korpusz azt mutatja, hogy ez NEM M4-specifikus anomália, hanem a tananyag általános mintája: 17 lecke nyit beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4), 14 pedig statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4, M5.2, M5.3, M6.3, M7.1, Z.1–Z.3) — az M1, M5, M6 és M7 modulon BELÜL is vegyesen. Eldöntendő: (A) a jelenlegi vegyes nyitás megerősítése (nincs új gyártás, ez az asset R5 alá kerül), vagy (B) M4-en belüli egységesítés, ami három új beszélőfej-videót és három új szkriptet jelent (M4.2/M4.3/M4.4). Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D4. |
 
 Hivatkozott produkciós szabályok / blokkolók:
 
-- **R5** — 248 asset
+- **R5** — 257 asset
 - **R3** — 118 asset
-- **R2** — 21 asset
-- **R8** — 11 asset
+- **R2** — 28 asset
+- **R8** — 2 asset
 - **R7** — 1 asset
 

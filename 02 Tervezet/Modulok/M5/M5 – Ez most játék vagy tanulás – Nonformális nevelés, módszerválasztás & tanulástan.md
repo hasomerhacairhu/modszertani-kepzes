@@ -111,13 +111,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
     "source": "beszerzendő irodaszer (post-it / matrica / filc / marker)",
     "owner": "képzés-logisztika"
   },
-  "production_rules": [
-    "R8"
-  ],
-  "blockers": [
-    "R8"
-  ],
-  "notes": "Kiegészítő eszköz az M5.A-POSZ-01 poszter-sablonhoz; nem generálandó grafika, csak beszerzés/előkészítés.",
+  "notes": "Kiegészítő eszköz az M5.A-POSZ-01 poszter-sablonhoz; nem generálandó grafika, csak beszerzés/előkészítés. Az R8 kivezetve: a szabály szövege kifejezetten „valós fotó/screenshot” esetére szól (azonosítható személy, kézírás, felhasználónév a képen). Ez a tétel beszerzendő fizikai irodaszer, nem képi anyag — se fotó, se képernyőkép, se ábrázolt személy —, így az R8-nak nincs alkalmazható kikötése rá. A beszerzési tétel specifikációja kész.",
   "legacy": {
     "asset": [
       "M5.A-EGY-01"

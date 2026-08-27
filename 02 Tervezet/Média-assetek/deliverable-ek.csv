@@ -191,8 +191,8 @@ Vagy hogy *‘túl hangos vagy’*, miközben te csak lelkesnek érezted magad.
 Ez a lecke arról fog szólni, hogy **miért történik ilyen**,
 és hogyan tud segíteni ebben a **visszajelzés**,
 anélkül, hogy csak rosszul esne.”",1e00b2357144d8e02eca7db2afa73a6fcb69d5b631b6f21d6051eec067d0c9e1,"R2, R3"
-M1.1-VID-02,M1.1-VID-02,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,video,explainer,legyártandó,produkciós szabályra vár,,Mini storyboard / B-roll – kvuca-szituk a példákhoz,AI-generált,,,,R3
-M1.1-VID-02::ALTTEXT,M1.1-VID-02,alt-szöveg,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,video,explainer,legyártandó,produkciós szabályra vár,,Mini storyboard / B-roll – kvuca-szituk a példákhoz — alt-szöveg,AI-generált,,,,R3
+M1.1-VID-02,M1.1-VID-02,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,video,explainer,legyártandó,produkciós szabályra vár,,Mini storyboard / B-roll – kvuca-szituk a példákhoz,AI-generált,,,,"R3, R5"
+M1.1-VID-02::ALTTEXT,M1.1-VID-02,alt-szöveg,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,video,explainer,legyártandó,produkciós szabályra vár,,Mini storyboard / B-roll – kvuca-szituk a példákhoz — alt-szöveg,AI-generált,,,,"R3, R5"
 M1.2-DIA-01,M1.2-DIA-01,elsődleges,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,diagram,,legyártandó,produkciós szabályra vár,,Megfigyelés vs. értelmezés – kétoszlopos animált grafika,AI-generált,,,,R5
 M1.2-DIA-01::ALTTEXT,M1.2-DIA-01,alt-szöveg,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,diagram,,legyártandó,produkciós szabályra vár,,Megfigyelés vs. értelmezés – kétoszlopos animált grafika — alt-szöveg,AI-generált,,,,R5
 M1.2-IKO-01,M1.2-IKO-01,elsődleges,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,icon-set,,legyártandó,produkciós szabályra vár,,Ikonok a megfigyelés/értelmezés példákhoz,AI-generált,,,,R5
@@ -450,9 +450,9 @@ M1.3-NAR-07::TRANSCRIPT,M1.3-NAR-07,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online
 Most már tudod, hogyan épül fel egy SBI.
 A következő részben igazi szituációkból fogsz választani,
 és olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",3cf12a70e5ac66b0cf733ad9e68c027d363f7bacf4a2a37e5da5cdeaa4318818,R3
-M1.3-VID-01,M1.3-VID-01,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel,AI-generált,,,,R3
-M1.3-VID-01::CAPTIONS,M1.3-VID-01,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — felirat,AI-generált,,,,R3
-M1.3-VID-01::TRANSCRIPT,M1.3-VID-01,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — leirat,AI-generált,,,,R3
+M1.3-VID-01,M1.3-VID-01,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel,AI-generált,,,,"R2, R3, R5"
+M1.3-VID-01::CAPTIONS,M1.3-VID-01,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — felirat,AI-generált,,,,"R2, R3, R5"
+M1.3-VID-01::TRANSCRIPT,M1.3-VID-01,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — leirat,AI-generált,,,,"R2, R3, R5"
 M1.4-DIA-01,M1.4-DIA-01,elsődleges,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,diagram,,legyártandó,produkciós szabályra vár,,Slide 2 – S/B/I emlékeztető diagram ikonokkal,AI-generált,,,,R5
 M1.4-DIA-01::ALTTEXT,M1.4-DIA-01,alt-szöveg,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,diagram,,legyártandó,produkciós szabályra vár,,Slide 2 – S/B/I emlékeztető diagram ikonokkal — alt-szöveg,AI-generált,,,,R5
 M1.4-ILL-01,M1.4-ILL-01,elsődleges,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,illustration,,legyártandó,produkciós szabályra vár,,Slide 1 – 3 szituáció-kártya vizuál,AI-generált,,,,R5
@@ -755,8 +755,8 @@ A következő leckében megnézzük, hogyan találkoznak ezek a Somer nagyobb pi
 M2.3-EGY-01,M2.3-EGY-01,elsődleges,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,other,h5p-interaction,legyártandó,specifikáció kész,,"Hook Single Choice poll – ""Melyik pillérhez érzed a legerősebb kapcsolatot?""",vegyes,,,,
 M2.3-EGY-02,M2.3-EGY-02,elsődleges,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,other,h5p-interaction,legyártandó,specifikáció kész,,H5P Branching Scenario – 3 pillér döntés-fa (a lecke magja),vegyes,,,,
 M2.3-EGY-03,M2.3-EGY-03,elsődleges,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,other,h5p-interaction,legyártandó,specifikáció kész,,SLIDE CHECK mini-kvíz – 2× Single Choice (fogalmi rögzítés),vegyes,,,,
-M2.3-FOTO-01,M2.3-FOTO-01,elsődleges,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,photo,,legyártandó,jogtisztázás alatt,,Hook háttér – someres/kvuca-vizuál,AI-generált,,,,R8
-M2.3-FOTO-01::ALTTEXT,M2.3-FOTO-01,alt-szöveg,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,photo,,legyártandó,jogtisztázás alatt,,Hook háttér – someres/kvuca-vizuál — alt-szöveg,AI-generált,,,,R8
+M2.3-FOTO-01,M2.3-FOTO-01,elsődleges,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,photo,,legyártandó,produkciós szabályra vár,,Hook háttér – someres/kvuca-vizuál,AI-generált,,,,R5
+M2.3-FOTO-01::ALTTEXT,M2.3-FOTO-01,alt-szöveg,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,photo,,legyártandó,produkciós szabályra vár,,Hook háttér – someres/kvuca-vizuál — alt-szöveg,AI-generált,,,,R5
 M2.3-IKO-01,M2.3-IKO-01,elsődleges,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,icon-set,,legyártandó,produkciós szabályra vár,,3 pillér ikon-készlet (cionizmus / szocializmus / humanista zsidóság),AI-generált,,,,R5
 M2.3-IKO-01::ALTTEXT,M2.3-IKO-01,alt-szöveg,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,icon-set,,legyártandó,produkciós szabályra vár,,3 pillér ikon-készlet (cionizmus / szocializmus / humanista zsidóság) — alt-szöveg,AI-generált,,,,R5
 M2.3-NAR-02,M2.3-NAR-02,elsődleges,M2,M2.3,02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md,voiceover,narration,legyártandó,produkciós szabályra vár,,"KERET narráció – ""Ez a három pillér sokkal több, mint három szó""",AI-generált,M2.3-NAR-02-VO,"„Ez a három pillér sokkal több, mint három szó.
@@ -1268,9 +1268,9 @@ M3.2-EGY-01,M3.2-EGY-01,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leck�
 M3.2-EGY-02,M3.2-EGY-02,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",other,h5p-interaction,legyártandó,specifikáció kész,,Húzás-mentes Matching alternatíva (Single Choice Set / legördülős),AI-generált,,,,
 M3.2-IKO-01,M3.2-IKO-01,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",icon-set,,legyártandó,produkciós szabályra vár,,4 kvuca ikon-készlet (🦋 🐑 🐋 🌱),AI-generált,,,,R5
 M3.2-IKO-01::ALTTEXT,M3.2-IKO-01,alt-szöveg,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",icon-set,,legyártandó,produkciós szabályra vár,,4 kvuca ikon-készlet (🦋 🐑 🐋 🌱) — alt-szöveg,AI-generált,,,,R5
-M3.2-NAR-02,M3.2-NAR-02,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",voiceover,narration,legyártandó,blokkolt,nincs felmondható forrásszöveg,Input 1 opcionális narráció,AI-generált,,,,R3
-M3.2-NAR-02::CAPTIONS,M3.2-NAR-02,felirat,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",voiceover,narration,legyártandó,blokkolt,nincs felmondható forrásszöveg,Input 1 opcionális narráció — felirat,AI-generált,,,,R3
-M3.2-NAR-02::TRANSCRIPT,M3.2-NAR-02,leirat,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",voiceover,narration,legyártandó,blokkolt,nincs felmondható forrásszöveg,Input 1 opcionális narráció — leirat,AI-generált,,,,R3
+M3.2-NAR-02,M3.2-NAR-02,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",voiceover,narration,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,Input 1 opcionális narráció,AI-generált,,,,R3
+M3.2-NAR-02::CAPTIONS,M3.2-NAR-02,felirat,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",voiceover,narration,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,Input 1 opcionális narráció — felirat,AI-generált,,,,R3
+M3.2-NAR-02::TRANSCRIPT,M3.2-NAR-02,leirat,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",voiceover,narration,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,Input 1 opcionális narráció — leirat,AI-generált,,,,R3
 M3.2-NAR-03,M3.2-NAR-03,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",voiceover,narration,legyártandó,produkciós szabályra vár,,Parparim & Kivsza opcionális narráció,AI-generált,M3.2-NAR-03-VO,"„A Parparim kvuca világa még nagyon a játékról, a mozgásról és a biztonságról szól.
 
 A Kivsza kvucánál már sokkal fontosabb, hogy ki a menő, kihez tartozom, hol van az én helyem a csoportban.
@@ -1518,16 +1518,16 @@ M3.B-KART-01,M3.B-KART-01,elsődleges,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.
 M3.B-KART-01::PRINTPDF,M3.B-KART-01,nyomtatható PDF,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,card-set,,legyártandó,produkciós szabályra vár,,Szituáció-kártyák (4 db red flag eset) — nyomtatható PDF,emberi,,,,R5
 M3.B-KART-02,M3.B-KART-02,elsődleges,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,card-set,,legyártandó,produkciós szabályra vár,,Krízis- / segélyvonal referenciakártya (képzőnek),emberi,,,,R5
 M3.B-KART-02::PRINTPDF,M3.B-KART-02,nyomtatható PDF,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,card-set,,legyártandó,produkciós szabályra vár,,Krízis- / segélyvonal referenciakártya (képzőnek) — nyomtatható PDF,emberi,,,,R5
-M3.B-KART-03,M3.B-KART-03,elsődleges,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,card-set,,emberi döntés kell,emberi döntésre vár,nyitott emberi döntés,Képzői safety-gyorskártya,emberi,,,,R5
-M3.B-KART-03::PRINTPDF,M3.B-KART-03,nyomtatható PDF,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,card-set,,emberi döntés kell,emberi döntésre vár,nyitott emberi döntés,Képzői safety-gyorskártya — nyomtatható PDF,emberi,,,,R5
+M3.B-KART-03,M3.B-KART-03,elsődleges,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,card-set,,legyártandó,produkciós szabályra vár,,Képzői safety-gyorskártya,emberi,,,,R5
+M3.B-KART-03::PRINTPDF,M3.B-KART-03,nyomtatható PDF,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,card-set,,legyártandó,produkciós szabályra vár,,Képzői safety-gyorskártya — nyomtatható PDF,emberi,,,,R5
 M3.B-MUNK-01,M3.B-MUNK-01,elsődleges,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,worksheet,,legyártandó,produkciós szabályra vár,,Lépés-térkép flipchart-sablon (5 lépéses folyamatábra),emberi,,,,R5
 M3.B-MUNK-01::PRINTPDF,M3.B-MUNK-01,nyomtatható PDF,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,worksheet,,legyártandó,produkciós szabályra vár,,Lépés-térkép flipchart-sablon (5 lépéses folyamatábra) — nyomtatható PDF,emberi,,,,R5
 M3.B-MUNK-02,M3.B-MUNK-02,elsődleges,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,worksheet,,legyártandó,produkciós szabályra vár,,Helyi gyermekvédelmi útvonal lap (szerep + név + elérhetőség),emberi,,,,R5
 M3.B-MUNK-02::PRINTPDF,M3.B-MUNK-02,nyomtatható PDF,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,worksheet,,legyártandó,produkciós szabályra vár,,Helyi gyermekvédelmi útvonal lap (szerep + név + elérhetőség) — nyomtatható PDF,emberi,,,,R5
 M3.B-MUNK-03,M3.B-MUNK-03,elsődleges,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,worksheet,,legyártandó,produkciós szabályra vár,,Képzői megoldó-jegyzet kártyánként (4 soros referenciatáblázat),emberi,,,,R5
 M3.B-MUNK-03::PRINTPDF,M3.B-MUNK-03,nyomtatható PDF,M3,M3.B,02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md,worksheet,,legyártandó,produkciós szabályra vár,,Képzői megoldó-jegyzet kártyánként (4 soros referenciatáblázat) — nyomtatható PDF,emberi,,,,R5
-M3.F-EGY-01,M3.F-EGY-01,elsődleges,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,print,consumable,külső forrás,jogtisztázás alatt,,Check-in matrica / post-it készlet,stock,,,,R8
-M3.F-EGY-02,M3.F-EGY-02,elsődleges,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,print,consumable,külső forrás,jogtisztázás alatt,,Filcek a fogalom-térkép-táblához,stock,,,,R8
+M3.F-EGY-01,M3.F-EGY-01,elsődleges,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,print,consumable,külső forrás,specifikáció kész,,Check-in matrica / post-it készlet,stock,,,,
+M3.F-EGY-02,M3.F-EGY-02,elsődleges,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,print,consumable,külső forrás,specifikáció kész,,Filcek a fogalom-térkép-táblához,stock,,,,
 M3.F-MUNK-01,M3.F-MUNK-01,elsődleges,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,worksheet,,legyártandó,produkciós szabályra vár,,Jegyzetlap – „1 gondolat / 1 kérdés leckénként”,AI-generált,,,,R5
 M3.F-MUNK-01::PRINTPDF,M3.F-MUNK-01,nyomtatható PDF,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,worksheet,,legyártandó,produkciós szabályra vár,,Jegyzetlap – „1 gondolat / 1 kérdés leckénként” — nyomtatható PDF,AI-generált,,,,R5
 M3.F-MUNK-02,M3.F-MUNK-02,elsődleges,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,worksheet,,legyártandó,produkciós szabályra vár,,Képzői checklist – M3.F peula (1 A4),AI-generált,,,,R5
@@ -1538,10 +1538,10 @@ M3.F-POSZ-02,M3.F-POSZ-02,elsődleges,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.
 M3.F-POSZ-02::PRINTPDF,M3.F-POSZ-02,nyomtatható PDF,M3,M3.F,02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md,poster,,legyártandó,produkciós szabályra vár,,Fogalom-térkép alaplap – 4–5 üres buborék — nyomtatható PDF,AI-generált,,,,R5
 M4.1-DIA-01,M4.1-DIA-01,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,diagram,,legyártandó,produkciós szabályra vár,,3-ikonos „belevillanó” keret-grafika – Testtartás / Tekintet / Térfoglalás,AI-generált,,,,R5
 M4.1-DIA-01::ALTTEXT,M4.1-DIA-01,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,diagram,,legyártandó,produkciós szabályra vár,,3-ikonos „belevillanó” keret-grafika – Testtartás / Tekintet / Térfoglalás — alt-szöveg,AI-generált,,,,R5
-M4.1-FOTO-01,M4.1-FOTO-01,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz,AI-generált,,,,R8
-M4.1-FOTO-01::ALTTEXT,M4.1-FOTO-01,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz — alt-szöveg,AI-generált,,,,R8
-M4.1-FOTO-02,M4.1-FOTO-02,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 2 freeze-frame – földre nézés vs. körre nézés,AI-generált,,,,R8
-M4.1-FOTO-02::ALTTEXT,M4.1-FOTO-02,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 2 freeze-frame – földre nézés vs. körre nézés — alt-szöveg,AI-generált,,,,R8
+M4.1-FOTO-01,M4.1-FOTO-01,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz,AI-generált,,,,"R2, R5"
+M4.1-FOTO-01::ALTTEXT,M4.1-FOTO-01,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz — alt-szöveg,AI-generált,,,,"R2, R5"
+M4.1-FOTO-02,M4.1-FOTO-02,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 2 freeze-frame – földre nézés vs. körre nézés,AI-generált,,,,"R2, R5"
+M4.1-FOTO-02::ALTTEXT,M4.1-FOTO-02,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,,Képpár 2 freeze-frame – földre nézés vs. körre nézés — alt-szöveg,AI-generált,,,,"R2, R5"
 M4.1-IKO-01,M4.1-IKO-01,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,icon-set,,legyártandó,produkciós szabályra vár,,AI-eredet címke ikon/badge a Hook videóhoz,AI-generált,,,,R5
 M4.1-IKO-01::ALTTEXT,M4.1-IKO-01,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,icon-set,,legyártandó,produkciós szabályra vár,,AI-eredet címke ikon/badge a Hook videóhoz — alt-szöveg,AI-generált,,,,R5
 M4.1-IKO-02,M4.1-IKO-02,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,icon-set,,legyártandó,produkciós szabályra vár,,"3 fókusz-ikon: Testtartás, Tekintet, Térfoglalás",AI-generált,,,,R5
@@ -1784,69 +1784,92 @@ hogy a kvucád könnyebben tudjon **kapcsolódni hozzád**.
 Nem az a cél, hogy színész legyél,
 hanem hogy tudd, **mi látszik rajtad**,
 és legyen 1–2 dolog, amire tudatosan figyelsz.”",b05b9278b21f46beaea4cead8620da9e0bb11d6aabe58408bd15d12560385024,"R2, R3"
-M4.1-VID-02,M4.1-VID-02,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések,AI-generált,,,,R3
-M4.1-VID-02::CAPTIONS,M4.1-VID-02,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések — felirat,AI-generált,,,,R3
-M4.1-VID-02::TRANSCRIPT,M4.1-VID-02,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,interactive,legyártandó,blokkolt,nincs felmondható forrásszöveg; nyitott emberi döntés,Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések — leirat,AI-generált,,,,R3
-M4.1-VID-03,M4.1-VID-03,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich”,AI-generált,M4.1-NAR-03-VO,"„Nézd meg ezt a madrichot.
+M4.1-VID-02,M4.1-VID-02,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,interactive,legyártandó,jogtisztázás alatt,,Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések,AI-generált,M4.1-NAR-03-VO + M4.1-NAR-04-VO + M4.1-NAR-05-VO,"„Nézd meg ezt a madrichot.
 A papírra koncentrál, a válla kicsit beesik,
 a tekintete szinte végig lefelé van.
 
 Ha chanich lennél,
 mennyire éreznéd azt, hogy **neked beszél**,
-és mennyire azt, hogy inkább a lapja mögé próbál bújni?”",238cf16a5267908340151ce359db0c67f3cc2e67b8ef8837919d390808992c45,R3
-M4.1-VID-03::CAPTIONS,M4.1-VID-03,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” — felirat,AI-generált,M4.1-NAR-03-VO,"„Nézd meg ezt a madrichot.
+és mennyire azt, hogy inkább a lapja mögé próbál bújni?”
+
+„Most nézd meg ezt a helyzetet.
+A madrich sokat mozog, topog, gyorsan beszél,
+a kezei állandóan járnak.
+
+Lehet, hogy nagyon lelkes,
+de vajon a kvuca mit érez ebből?”
+
+„Most nézd meg a harmadik példát.
+A madrich két lábon stabilan áll,
+a vállai lazák,
+és mielőtt beszél, **végignéz** a csoporton.
+
+Aztán röviden, érthetően mondja:
+‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",822f3958242791561e411fad63ab327806d4552d256ed5c53d4ec2b2a1866332,"R2, R3, R5"
+M4.1-VID-02::CAPTIONS,M4.1-VID-02,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,interactive,legyártandó,jogtisztázás alatt,,Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések — felirat,AI-generált,M4.1-NAR-03-VO + M4.1-NAR-04-VO + M4.1-NAR-05-VO,"„Nézd meg ezt a madrichot.
 A papírra koncentrál, a válla kicsit beesik,
 a tekintete szinte végig lefelé van.
 
 Ha chanich lennél,
 mennyire éreznéd azt, hogy **neked beszél**,
-és mennyire azt, hogy inkább a lapja mögé próbál bújni?”",238cf16a5267908340151ce359db0c67f3cc2e67b8ef8837919d390808992c45,R3
-M4.1-VID-03::TRANSCRIPT,M4.1-VID-03,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” — leirat,AI-generált,M4.1-NAR-03-VO,"„Nézd meg ezt a madrichot.
+és mennyire azt, hogy inkább a lapja mögé próbál bújni?”
+
+„Most nézd meg ezt a helyzetet.
+A madrich sokat mozog, topog, gyorsan beszél,
+a kezei állandóan járnak.
+
+Lehet, hogy nagyon lelkes,
+de vajon a kvuca mit érez ebből?”
+
+„Most nézd meg a harmadik példát.
+A madrich két lábon stabilan áll,
+a vállai lazák,
+és mielőtt beszél, **végignéz** a csoporton.
+
+Aztán röviden, érthetően mondja:
+‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",822f3958242791561e411fad63ab327806d4552d256ed5c53d4ec2b2a1866332,"R2, R3, R5"
+M4.1-VID-02::TRANSCRIPT,M4.1-VID-02,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,interactive,legyártandó,jogtisztázás alatt,,Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések — leirat,AI-generált,M4.1-NAR-03-VO + M4.1-NAR-04-VO + M4.1-NAR-05-VO,"„Nézd meg ezt a madrichot.
 A papírra koncentrál, a válla kicsit beesik,
 a tekintete szinte végig lefelé van.
 
 Ha chanich lennél,
 mennyire éreznéd azt, hogy **neked beszél**,
-és mennyire azt, hogy inkább a lapja mögé próbál bújni?”",238cf16a5267908340151ce359db0c67f3cc2e67b8ef8837919d390808992c45,R3
-M4.1-VID-04,M4.1-VID-04,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,Jelenet 2 karaktervideó – „Ideges topogó madrich”,AI-generált,M4.1-NAR-04-VO,"„Most nézd meg ezt a helyzetet.
+és mennyire azt, hogy inkább a lapja mögé próbál bújni?”
+
+„Most nézd meg ezt a helyzetet.
 A madrich sokat mozog, topog, gyorsan beszél,
 a kezei állandóan járnak.
 
 Lehet, hogy nagyon lelkes,
-de vajon a kvuca mit érez ebből?”",75b533175ae473acf7e5c06694f94e295ed6c5a4253ca974360a9f8dab2e239d,R3
-M4.1-VID-04::CAPTIONS,M4.1-VID-04,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,Jelenet 2 karaktervideó – „Ideges topogó madrich” — felirat,AI-generált,M4.1-NAR-04-VO,"„Most nézd meg ezt a helyzetet.
-A madrich sokat mozog, topog, gyorsan beszél,
-a kezei állandóan járnak.
+de vajon a kvuca mit érez ebből?”
 
-Lehet, hogy nagyon lelkes,
-de vajon a kvuca mit érez ebből?”",75b533175ae473acf7e5c06694f94e295ed6c5a4253ca974360a9f8dab2e239d,R3
-M4.1-VID-04::TRANSCRIPT,M4.1-VID-04,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,Jelenet 2 karaktervideó – „Ideges topogó madrich” — leirat,AI-generált,M4.1-NAR-04-VO,"„Most nézd meg ezt a helyzetet.
-A madrich sokat mozog, topog, gyorsan beszél,
-a kezei állandóan járnak.
-
-Lehet, hogy nagyon lelkes,
-de vajon a kvuca mit érez ebből?”",75b533175ae473acf7e5c06694f94e295ed6c5a4253ca974360a9f8dab2e239d,R3
-M4.1-VID-05,M4.1-VID-05,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,"Jelenet 3 karaktervideó – „Nyitott, stabil madrich”",AI-generált,M4.1-NAR-05-VO,"„Most nézd meg a harmadik példát.
+„Most nézd meg a harmadik példát.
 A madrich két lábon stabilan áll,
 a vállai lazák,
 és mielőtt beszél, **végignéz** a csoporton.
 
 Aztán röviden, érthetően mondja:
-‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",c53816fbeea8d287ededc2a5edfc2cc2b63b2e595e52935c46c714f54444ce3e,R3
-M4.1-VID-05::CAPTIONS,M4.1-VID-05,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,"Jelenet 3 karaktervideó – „Nyitott, stabil madrich” — felirat",AI-generált,M4.1-NAR-05-VO,"„Most nézd meg a harmadik példát.
+‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",822f3958242791561e411fad63ab327806d4552d256ed5c53d4ec2b2a1866332,"R2, R3, R5"
+M4.1-VID-03,M4.1-VID-03,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,jogtisztázás alatt,,Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich”,AI-generált,M4.1-NAR-03-VO,"„Nézd meg ezt a madrichot.
+A papírra koncentrál, a válla kicsit beesik,
+a tekintete szinte végig lefelé van.
+
+Ha chanich lennél,
+mennyire éreznéd azt, hogy **neked beszél**,
+és mennyire azt, hogy inkább a lapja mögé próbál bújni?”",238cf16a5267908340151ce359db0c67f3cc2e67b8ef8837919d390808992c45,"R2, R3, R5"
+M4.1-VID-04,M4.1-VID-04,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,jogtisztázás alatt,,Jelenet 2 karaktervideó – „Ideges topogó madrich”,AI-generált,M4.1-NAR-04-VO,"„Most nézd meg ezt a helyzetet.
+A madrich sokat mozog, topog, gyorsan beszél,
+a kezei állandóan járnak.
+
+Lehet, hogy nagyon lelkes,
+de vajon a kvuca mit érez ebből?”",75b533175ae473acf7e5c06694f94e295ed6c5a4253ca974360a9f8dab2e239d,"R2, R3, R5"
+M4.1-VID-05,M4.1-VID-05,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,jogtisztázás alatt,,"Jelenet 3 karaktervideó – „Nyitott, stabil madrich”",AI-generált,M4.1-NAR-05-VO,"„Most nézd meg a harmadik példát.
 A madrich két lábon stabilan áll,
 a vállai lazák,
 és mielőtt beszél, **végignéz** a csoporton.
 
 Aztán röviden, érthetően mondja:
-‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",c53816fbeea8d287ededc2a5edfc2cc2b63b2e595e52935c46c714f54444ce3e,R3
-M4.1-VID-05::TRANSCRIPT,M4.1-VID-05,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,video,explainer,legyártandó,produkciós szabályra vár,,"Jelenet 3 karaktervideó – „Nyitott, stabil madrich” — leirat",AI-generált,M4.1-NAR-05-VO,"„Most nézd meg a harmadik példát.
-A madrich két lábon stabilan áll,
-a vállai lazák,
-és mielőtt beszél, **végignéz** a csoporton.
-
-Aztán röviden, érthetően mondja:
-‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",c53816fbeea8d287ededc2a5edfc2cc2b63b2e595e52935c46c714f54444ce3e,R3
+‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",c53816fbeea8d287ededc2a5edfc2cc2b63b2e595e52935c46c714f54444ce3e,"R2, R3, R5"
 M4.2-EGY-01,M4.2-EGY-01,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,other,h5p-interaction,legyártandó,specifikáció kész,,H5P Single Choice – „Mi lenne az első reakciód?” (helyzetfelmérés),vegyes,,,,
 M4.2-EGY-02,M4.2-EGY-02,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,other,h5p-interaction,legyártandó,specifikáció kész,,H5P Dialog Cards készlet – „Melyik segít jobban?”,vegyes,,,,
 M4.2-EGY-03,M4.2-EGY-03,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,other,h5p-interaction,legyártandó,specifikáció kész,,H5P Drag&Drop / Sorting – „Lezáró vagy támogató?”,vegyes,,,,
@@ -2365,8 +2388,8 @@ M4.B-MUNK-03,M4.B-MUNK-03,elsődleges,M4,M4.B,02 Tervezet/Modulok/M4/Peulák/M4.
 M4.B-MUNK-03::PRINTPDF,M4.B-MUNK-03,nyomtatható PDF,M4,M4.B,02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md,worksheet,,legyártandó,produkciós szabályra vár,,Képzői checklist (1 A4) — nyomtatható PDF,emberi,,,,R5
 M4.B-POSZ-01,M4.B-POSZ-01,elsődleges,M4,M4.B,02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md,poster,,legyártandó,produkciós szabályra vár,,Kérdéstípusok flipchart-/poszter-sablon (4 típus),vegyes,,,,R5
 M4.B-POSZ-01::PRINTPDF,M4.B-POSZ-01,nyomtatható PDF,M4,M4.B,02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md,poster,,legyártandó,produkciós szabályra vár,,Kérdéstípusok flipchart-/poszter-sablon (4 típus) — nyomtatható PDF,vegyes,,,,R5
-M4.F-EGY-01,M4.F-EGY-01,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",print,consumable,külső forrás,jogtisztázás alatt,,Check-in matricák / post-it készlet (1 db/fő),stock,,,,R8
-M4.F-EGY-02,M4.F-EGY-02,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",print,consumable,külső forrás,jogtisztázás alatt,,Filc-/marker-készlet a fogalom-térkép táblához,stock,,,,R8
+M4.F-EGY-01,M4.F-EGY-01,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",print,consumable,külső forrás,specifikáció kész,,Check-in matricák / post-it készlet (1 db/fő),stock,,,,
+M4.F-EGY-02,M4.F-EGY-02,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",print,consumable,külső forrás,specifikáció kész,,Filc-/marker-készlet a fogalom-térkép táblához,stock,,,,
 M4.F-MUNK-01,M4.F-MUNK-01,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",worksheet,,legyártandó,produkciós szabályra vár,,Jegyzetlap – 1 gondolat / 1 kérdés leckénként (L1–L4),vegyes,,,,R5
 M4.F-MUNK-01::PRINTPDF,M4.F-MUNK-01,nyomtatható PDF,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",worksheet,,legyártandó,produkciós szabályra vár,,Jegyzetlap – 1 gondolat / 1 kérdés leckénként (L1–L4) — nyomtatható PDF,vegyes,,,,R5
 M4.F-MUNK-02,M4.F-MUNK-02,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",worksheet,,legyártandó,produkciós szabályra vár,,45 mp-es peula-pitch váz-sablon (eszközmentes pótló feladat),vegyes,,,,R5
@@ -2375,7 +2398,7 @@ M4.F-POSZ-01,M4.F-POSZ-01,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4
 M4.F-POSZ-01::PRINTPDF,M4.F-POSZ-01,nyomtatható PDF,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",poster,,legyártandó,produkciós szabályra vár,,Állapotfelmérő tábla-sablon – „Melyik leckénél tartasz?” (M4.1–M4.4 sorok) — nyomtatható PDF,vegyes,,,,R5
 M4.F-POSZ-02,M4.F-POSZ-02,elsődleges,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",poster,,legyártandó,produkciós szabályra vár,,Fogalom-térkép sablon – Test / Hang / Kérdések / Pitch (4 buborék),vegyes,,,,R5
 M4.F-POSZ-02::PRINTPDF,M4.F-POSZ-02,nyomtatható PDF,M4,M4.F,"02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",poster,,legyártandó,produkciós szabályra vár,,Fogalom-térkép sablon – Test / Hang / Kérdések / Pitch (4 buborék) — nyomtatható PDF,vegyes,,,,R5
-M5-HUB-EGY-01,M5-HUB-EGY-01,elsődleges,M5,M5-HUB,"02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md",print,consumable,külső forrás,jogtisztázás alatt,,Gallery walk reakció-eszközök (post-it / pötty-matrica),stock,,,,R8
+M5-HUB-EGY-01,M5-HUB-EGY-01,elsődleges,M5,M5-HUB,"02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md",print,consumable,külső forrás,specifikáció kész,,Gallery walk reakció-eszközök (post-it / pötty-matrica),stock,,,,
 M5.1-DIA-01,M5.1-DIA-01,elsődleges,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",diagram,,legyártandó,produkciós szabályra vár,,Háromoszlopos formális/nonformális/informális grafika,AI-generált,,,,R5
 M5.1-DIA-01::ALTTEXT,M5.1-DIA-01,alt-szöveg,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",diagram,,legyártandó,produkciós szabályra vár,,Háromoszlopos formális/nonformális/informális grafika — alt-szöveg,AI-generált,M5.1-DIA-01-ALT,"Három oszlop egymás mellett: bal – formális tanulás / suli (tanterv, jegy, kötelező); közép – nonformális tanulás / Somer (szervezett, van nevelési cél, játék-élmény; a Somerben a részvétel önkéntes); jobb – informális tanulás / random élet (spontán, nincs tervezett nevelési cél, sokszor észre sem veszed, hogy tanultál).",ee81ffe47fde60da8ebe3fd7c804bb18ce37b68db1e17cee8a255205b9ba7c17,R5
 M5.1-EGY-01,M5.1-EGY-01,elsődleges,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",other,ui-text,legyártandó,specifikáció kész,,Provenance-címke – AI-generált avatar / AI-elemek jelölés,emberi,,,,
@@ -3887,7 +3910,7 @@ M6.B-MUNK-06,M6.B-MUNK-06,elsődleges,M6,M6.B,02 Tervezet/Modulok/M6/Peulák/M6.
 M6.B-MUNK-06::PRINTPDF,M6.B-MUNK-06,nyomtatható PDF,M6,M6.B,02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md,worksheet,,legyártandó,produkciós szabályra vár,,Képzői checklist (1 A4 – peula előtt/közben) — nyomtatható PDF,emberi,,,,R5
 M6.B-POSZ-01,M6.B-POSZ-01,elsődleges,M6,M6.B,02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md,poster,,legyártandó,produkciós szabályra vár,,SBI flipchart-sablon (S–B–I emlékeztető + kész minta-mondat),emberi,,,,R5
 M6.B-POSZ-01::PRINTPDF,M6.B-POSZ-01,nyomtatható PDF,M6,M6.B,02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md,poster,,legyártandó,produkciós szabályra vár,,SBI flipchart-sablon (S–B–I emlékeztető + kész minta-mondat) — nyomtatható PDF,emberi,,,,R5
-M6.F-EGY-01,M6.F-EGY-01,elsődleges,M6,M6.F,02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md,print,consumable,külső forrás,jogtisztázás alatt,,Check-in matricák / post-it készlet (beszerzendő irodaszer),stock,,,,R8
+M6.F-EGY-01,M6.F-EGY-01,elsődleges,M6,M6.F,02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md,print,consumable,külső forrás,specifikáció kész,,Check-in matricák / post-it készlet (beszerzendő irodaszer),stock,,,,
 M6.F-MUNK-01,M6.F-MUNK-01,elsődleges,M6,M6.F,02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md,worksheet,,legyártandó,produkciós szabályra vár,,Jegyzetlap – „1 gondolat / 1 kérdés leckénként + játéklap”,AI-generált,,,,R5
 M6.F-MUNK-01::PRINTPDF,M6.F-MUNK-01,nyomtatható PDF,M6,M6.F,02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md,worksheet,,legyártandó,produkciós szabályra vár,,Jegyzetlap – „1 gondolat / 1 kérdés leckénként + játéklap” — nyomtatható PDF,AI-generált,,,,R5
 M6.F-MUNK-03,M6.F-MUNK-03,elsődleges,M6,M6.F,02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md,worksheet,,legyártandó,produkciós szabályra vár,,"Lecke-összefoglalók M6.1–M6.4 (offline B-terv, 1–1 oldal)",AI-generált,,,,R5
