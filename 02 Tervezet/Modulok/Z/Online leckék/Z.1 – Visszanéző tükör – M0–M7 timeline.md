@@ -401,7 +401,8 @@ Opciók:
   "blockers": [
     "R5"
   ],
-  "notes": "Az Essay mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-ALT-03.",
+  "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-ALT-03.",
+  "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-03"

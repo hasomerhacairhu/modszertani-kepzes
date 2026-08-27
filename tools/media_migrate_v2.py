@@ -491,6 +491,69 @@ def replace_placeholders(text: str) -> tuple[str, bool]:
     return cleaned, True
 
 
+#: The v1 specs named a concrete H5P free-text content type. The current lessons
+#: deliberately do NOT: every one of them carries the rule that a free-text field
+#: inside a Course Presentation slide must not be assumed, and that the actual
+#: element is decided and tested per
+#: `02 Tervezet/LMS – H5P runtime acceptance.md` point 6. Carrying the v1 wording
+#: into a lesson file would hand production a runtime decision the curriculum has
+#: not made, so the type name is replaced by the lessons' own term — "szabad
+#: szöveges mező" — with Hungarian morphology preserved case by case. The original
+#: v1 wording stays readable in _legacy/media-merged.json.
+RUNTIME_FIELD_REWRITES: tuple[tuple[str, str], ...] = (
+    ("H5P Essay / Moodle szöveges mező",
+     "Moodle-oldali vagy H5P szabad szöveges mező, a runtime acceptance 6. pontja "
+     "szerint"),
+    ("Két kötelező H5P Essay (szövegmező) interakció",
+     "Két kötelező szabad szöveges mező interakció"),
+    ("2× H5P Essay (Course Presentationön belül)",
+     "2× szabad szöveges mező (a befoglaló elemet a runtime acceptance 6. pontja "
+     "dönti el)"),
+    ("H5P Essay x2", "2× szabad szöveges mező"),
+    ("H5P Essay nyitott kérdés", "Szabad szöveges mező, nyitott kérdés"),
+    ("H5P Essay, nyitott, magyar", "szabad szöveges mező, nyitott, magyar"),
+    ("H5P Essay-vel; az Essay", "szabad szöveges mezővel; a mező"),
+    ("Slide 5 Essay sablon-vizuál", "Slide 5 sablon-vizuál"),
+    ("Essay-sablon vizuálhoz", "sablon-vizuálhoz"),
+    ("Essay prompt verbatim", "a szabad szöveges mező promptja verbatim"),
+    ("Essay promptban", "szabad szöveges mező promptjában"),
+    ("reflektív Essay-hez", "reflektív szabad szöveges mezőhöz"),
+    ("reflektív Essay kérdést", "reflektív szabad szöveges kérdést"),
+    ("Essay reflektív kérdéssel", "szabad szöveges reflektív kérdéssel"),
+    ("Essay reflektív mező", "szabad szöveges reflektív mező"),
+    ("Essay reflexióhoz", "szabad szöveges reflexióhoz"),
+    ("Essay mezőben", "szabad szöveges mezőben"),
+    ("Essay mezők", "szabad szöveges mezők"),
+    ("Essay mező", "szabad szöveges mező"),
+    ("Essay –", "Szabad szöveges mező –"),
+    ("H5P Essay", "szabad szöveges mező"),
+    ("Essay", "szabad szöveges mező"),
+)
+
+RUNTIME_ARTICLE_FIX = ((" az szabad", " a szabad"), ("Az szabad", "A szabad"),
+                       ("az szabad", "a szabad"))
+
+RUNTIME_REVIEW = (
+    "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; "
+    "a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. "
+    "pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad "
+    "szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az "
+    "eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.")
+
+
+def rewrite_runtime_claim(text: str) -> tuple[str, bool]:
+    if not text or "Essay" not in text:
+        return text, False
+    for needle, replacement in RUNTIME_FIELD_REWRITES:
+        text = text.replace(needle, replacement)
+    for needle, replacement in RUNTIME_ARTICLE_FIX:
+        text = text.replace(needle, replacement)
+    # A replacement that lands at the start of a sentence has to keep sentence case.
+    text = re.sub(r"(^|(?<=[.!?])\s+)szabad szöveges",
+                  lambda m: m.group(1) + "Szabad szöveges", text)
+    return text, True
+
+
 def sanitize(text: str) -> tuple[str, bool]:
     """Drop sentences carrying phrases the repository forbids in module files.
 
@@ -820,9 +883,14 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
     provenance = normalise_provenance(row.get("provenance", ""))
     aid = v2_asset_id(doc.unit, row["assetId"])
 
+    runtime_rewritten = False
+
     def clean(field: str) -> tuple[str, bool]:
+        nonlocal runtime_rewritten
         value, trimmed = sanitize(row.get(field, ""))
         value, _replaced = replace_placeholders(value)
+        value, rewritten = rewrite_runtime_claim(value)
+        runtime_rewritten = runtime_rewritten or rewritten
         return value, trimmed
 
     spec, t1 = clean("contentSpec")
@@ -952,8 +1020,13 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
                           f"{combined_notes}").strip()
     if combined_notes:
         declaration["notes"] = combined_notes
+    reviews = []
     if row["assetId"] in NOT_ACTUALLY_REUSE:
-        declaration["review"] = NOT_ACTUALLY_REUSE[row["assetId"]]
+        reviews.append(NOT_ACTUALLY_REUSE[row["assetId"]])
+    if runtime_rewritten:
+        reviews.append(RUNTIME_REVIEW)
+    if reviews:
+        declaration["review"] = " ".join(reviews)
     declaration["legacy"] = {k: sorted(set(v)) for k, v in sorted(legacy.items())}
     return enforce_forbidden(declaration, row)
 

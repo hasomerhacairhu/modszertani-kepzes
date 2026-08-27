@@ -526,7 +526,7 @@
 | `M4.2-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Dialog Cards készlet – „Melyik segít jobban?” | — | — | vegyes |
 | `M4.2-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Drag&Drop / Sorting – „Lezáró vagy támogató?” | — | — | vegyes |
 | `M4.2-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | H5P mini-quiz – 2 Single Choice kérdés (Check) | — | — | vegyes |
-| `M4.2-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Essay x2 – reflektív kérdések (visszatükröző mondat + elhagyandó mondat) | — | — | vegyes |
+| `M4.2-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | 2× szabad szöveges mező – reflektív kérdések (visszatükröző mondat + elhagyandó mondat) | — | — | vegyes |
 | `M4.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Fogalom-ikonok: fejhallgató (aktív hallgatás) & körkörös nyíl (visszatükrözés) | — | alt-szöveg | AI-generált |
 | `M4.2-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Hook chat-buborék: ideges peula-mondat | — | alt-szöveg | AI-generált |
 | `M4.2-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Két fogalom-doboz: Aktív hallgatás & Visszatükrözés | — | alt-szöveg | AI-generált |
@@ -557,7 +557,7 @@
 |---|---|---|---|---|---|---|---|
 | `M4.4-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Slide 2 definíciós bullet-vizuál: „Peula-pitch =" | — | alt-szöveg | AI-generált |
 | `M4.4-DIA-03` | diagram | legyártandó | produkciós szabályra vár | Slide 3 sablon-vizuál: 5 kérdéses pitch-sablon | — | alt-szöveg | AI-generált |
-| `M4.4-DIA-05` | diagram | legyártandó | produkciós szabályra vár | Slide 5 Essay sablon-vizuál + összefoglaló | — | alt-szöveg | AI-generált |
+| `M4.4-DIA-05` | diagram | legyártandó | produkciós szabályra vár | Slide 5 sablon-vizuál + összefoglaló | — | alt-szöveg | AI-generált |
 | `M4.4-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Hook-jelenet: madrich a kvuca előtt, 45 mp nyomás | — | alt-szöveg | AI-generált |
 | `M4.4-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 1 narráció – „45 mp-ed van… Mit mondasz?" | `M4.4-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M4.4-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 2 narráció – „Mi az a peula-pitch?" | `M4.4-NAR-02-VO` | felirat, leirat | AI-generált |
@@ -712,7 +712,7 @@
 | `M6.1-EGY-08` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + safety-keret | — | — | emberi |
 | `M6.1-EGY-09` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – miért hasznos kategóriákban gondolkodni | — | — | emberi |
 | `M6.1-EGY-10` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – mikor ne hozz mély élményjátékot | — | — | emberi |
-| `M6.1-EGY-11` | other/h5p-interaction | legyártandó | specifikáció kész | Essay – záró mini-reflexió (kedvenc játék + kockázat) | — | — | emberi |
+| `M6.1-EGY-11` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat) | — | — | emberi |
 | `M6.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Játék-kategória ikonok – 5 kategória | — | — | AI-generált |
 | `M6.1-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártyák 1 – ismerkedős + energizer (2 kártya) | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés” | — | alt-szöveg | AI-generált |

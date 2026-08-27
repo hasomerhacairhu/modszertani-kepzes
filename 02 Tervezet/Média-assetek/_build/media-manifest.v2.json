@@ -1586,10 +1586,10 @@
       "id": "M1.1-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md",
-      "line": 780,
+      "line": 781,
       "body_lines": [
-        781,
-        785
+        782,
+        786
       ],
       "unit": "M1.1",
       "module": "M1",
@@ -1606,10 +1606,10 @@
       "id": "M1.1-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md",
-      "line": 924,
+      "line": 925,
       "body_lines": [
-        925,
-        929
+        926,
+        930
       ],
       "unit": "M1.1",
       "module": "M1",
@@ -2246,10 +2246,10 @@
       "id": "M2.4-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md",
-      "line": 783,
+      "line": 785,
       "body_lines": [
-        784,
-        794
+        786,
+        796
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2686,10 +2686,10 @@
       "id": "M4.1-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md",
-      "line": 1120,
+      "line": 1121,
       "body_lines": [
-        1121,
-        1135
+        1122,
+        1136
       ],
       "unit": "M4.1",
       "module": "M4",
@@ -2786,10 +2786,10 @@
       "id": "M4.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 869,
+      "line": 872,
       "body_lines": [
-        870,
-        885
+        873,
+        888
       ],
       "unit": "M4.2",
       "module": "M4",
@@ -2846,10 +2846,10 @@
       "id": "M4.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 617,
+      "line": 618,
       "body_lines": [
-        618,
-        632
+        619,
+        633
       ],
       "unit": "M4.3",
       "module": "M4",
@@ -2906,10 +2906,10 @@
       "id": "M4.4-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
-      "line": 465,
+      "line": 466,
       "body_lines": [
-        466,
-        491
+        467,
+        492
       ],
       "unit": "M4.4",
       "module": "M4",
@@ -2926,10 +2926,10 @@
       "id": "M4.4-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
-      "line": 677,
+      "line": 680,
       "body_lines": [
-        678,
-        692
+        681,
+        695
       ],
       "unit": "M4.4",
       "module": "M4",
@@ -3126,10 +3126,10 @@
       "id": "M6.1-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1346,
+      "line": 1347,
       "body_lines": [
-        1347,
-        1357
+        1348,
+        1358
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3866,10 +3866,10 @@
       "id": "Z.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md",
-      "line": 512,
+      "line": 513,
       "body_lines": [
-        513,
-        517
+        514,
+        518
       ],
       "unit": "Z.1",
       "module": "Z",
@@ -5568,8 +5568,8 @@
         "R5"
       ],
       "decision": "",
-      "notes": "A slide-on 3 nyitott kérdés + szövegmező (H5P Essay / Moodle szöveges mező – nem médiagyártandó).",
-      "review": "",
+      "notes": "A slide-on 3 nyitott kérdés + szövegmező (Moodle-oldali vagy H5P szabad szöveges mező, a runtime acceptance 6. pontja szerint – nem médiagyártandó).",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -5920,7 +5920,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md",
-      "line": 711,
+      "line": 712,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -5955,8 +5955,8 @@
       "review": "",
       "source_ref": "M1.1-NAR-05-VO",
       "source_line": [
-        781,
-        785
+        782,
+        786
       ],
       "source_text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz gépelni, az is teljesen oké, ha csak magadban gondolod végig.”",
       "source_hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
@@ -5988,7 +5988,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md",
-      "line": 800,
+      "line": 801,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -6023,8 +6023,8 @@
       "review": "",
       "source_ref": "M1.1-NAR-06-VO",
       "source_line": [
-        925,
-        929
+        926,
+        930
       ],
       "source_text": "„Köszi, hogy végigjöttél ezen a leckén.\nMost már van egy térképed arról, hogy mit látsz magadból, és mit látnak mások belőled.\nA következő részben megnézzük, hogyan lehet **nem bántóan**, hanem **konkrétan és tisztelettel** visszajelzést adni – ez lesz a *megfigyelés vs. címkézés* leckéje.”",
       "source_hash": "ef8a972278a35e4c09c4e60a3ff4030d16a15f65ba0fa175511ffba96c06ab5b",
@@ -10506,7 +10506,7 @@
       "status": "pending-production-rule",
       "title": "3 oszlopos „kinek mit mondok el” tábla-vizuál",
       "purpose": "Strukturált gondolkodás támogatása a témák címzettjeiről.",
-      "spec": "Leegyszerűsített 3 oszlopos táblázat-vizuál a címekkel: 1) „Megosztom a kvucával”, 2) „Csak baráttal / madrich-társsal”, 3) „Csak mentorral / szakemberrel / senkivel”. Üres/példa-cellákkal, hogy a tanuló gondolatban (vagy az Essay mezőben kulcsszavakkal) tudja kitölteni.",
+      "spec": "Leegyszerűsített 3 oszlopos táblázat-vizuál a címekkel: 1) „Megosztom a kvucával”, 2) „Csak baráttal / madrich-társsal”, 3) „Csak mentorral / szakemberrel / senkivel”. Üres/példa-cellákkal, hogy a tanuló gondolatban (vagy a szabad szöveges mezőben kulcsszavakkal) tudja kitölteni.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -10531,8 +10531,8 @@
         "R5"
       ],
       "decision": "",
-      "notes": "Slide 5 fő vizuálja. Essay mező (241) H5P-elem, nem asset.",
-      "review": "",
+      "notes": "Slide 5 fő vizuálja. Szabad szöveges mező (241) H5P-elem, nem asset.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -10541,7 +10541,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a234fb92a1f0652ecb5e74423a72489fd4d4d80b61e758ce76f8dd26b911d8f1",
+      "spec_hash": "1b3a079ad3db3a0c772b5b94c536a5d4b6562801042cd76891f7858166a5a6cd",
       "deliverable_ids": [
         "M2.4-DIA-02",
         "M2.4-DIA-02::ALTTEXT"
@@ -10748,7 +10748,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md",
-      "line": 622,
+      "line": 623,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -10781,8 +10781,8 @@
         "R5"
       ],
       "decision": "",
-      "notes": "Slide 6. Konzisztens stílusban a M2.4-ILL-01 hook-háttérrel. Essay mező nem asset.",
-      "review": "",
+      "notes": "Slide 6. Konzisztens stílusban a M2.4-ILL-01 hook-háttérrel. Szabad szöveges mező nem asset.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -10947,7 +10947,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md",
-      "line": 695,
+      "line": 697,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -10982,8 +10982,8 @@
       "review": "",
       "source_ref": "M2.4-NAR-04-VO",
       "source_line": [
-        784,
-        794
+        786,
+        796
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nA határaid tartása nem önzés, hanem **felelősség** –\nmagaddal és a chanichokkal szemben is.\n\nHa valamelyik rész nehéz volt, érdemes róla beszélni a mentoroddal.\nEzzel is azt mutatod, hogy segítséget kérni rendben van –\nés ez az egyik legfontosabb **személyes példamutatás**.”\n\n💡 A most megfogalmazott határszabályaidat és dugma ishit-mondatodat tedd be az identitás-jegyzetedbe – az **M2.2-ben** kiemelt someres értéked mellé. A félév végén, az **M7-ben** ezt az értéket fordítod majd egy valós peula nevelési céljává (M7.1 – someres értékhez kötött SMART cél).",
       "source_hash": "4b188b6c56f06742fd50d2e224ed495d6f05259e8c0c12f796a7bbef61a46726",
@@ -16509,12 +16509,12 @@
         "R3"
       ],
       "decision": "",
-      "notes": "SLIDE 6; az Essay reflexióhoz vezet át. A 2 Essay mező tiszta szöveges UI, nem média-asset.",
-      "review": "",
+      "notes": "SLIDE 6; a szabad szöveges reflexióhoz vezet át. A 2 szabad szöveges mező tiszta szöveges UI, nem média-asset.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "M4.1-NAR-07-VO",
       "source_line": [
-        1121,
-        1135
+        1122,
+        1136
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat elárul arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le magadnak ezt a két dolgot –\nez lesz a saját mini vállalásod a következő peulára.”",
       "source_hash": "ab6e99fc54ec7ca46e45aef50ae482e2a07c6b42c347934a592297a83146c10d",
@@ -17087,13 +17087,13 @@
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "H5P Essay x2 – reflektív kérdések (visszatükröző mondat + elhagyandó mondat)",
+      "title": "2× szabad szöveges mező – reflektív kérdések (visszatükröző mondat + elhagyandó mondat)",
       "purpose": "A lecke kötelező completion-eleme (lásd 21. és 372. sor): saját visszatükröző és elhagyandó mondat megfogalmazásával rögzíti a mikrocélt és reflexióra késztet.",
-      "spec": "Két kötelező H5P Essay (szövegmező) interakció legyártása slide 6-on: (1) írj 1 visszatükröző mondatot (indító segéd-félmondatok: „Azt hallom, hogy…” / „Úgy tűnik, az nehéz neked, hogy…”), (2) írj 1 elhagyandó mondatot + indoklás; mindkettő 2–4 soros szövegmező (408., 418. sor). A 🔒 biztonságos-megosztás keret (399. sor) a feladat instrukciójához tartozik.",
+      "spec": "Két kötelező szabad szöveges mező interakció legyártása slide 6-on: (1) írj 1 visszatükröző mondatot (indító segéd-félmondatok: „Azt hallom, hogy…” / „Úgy tűnik, az nehéz neked, hogy…”), (2) írj 1 elhagyandó mondatot + indoklás; mindkettő 2–4 soros szövegmező (408., 418. sor). A 🔒 biztonságos-megosztás keret (399. sor) a feladat instrukciójához tartozik.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "2× H5P Essay (Course Presentationön belül), magyar szöveg, 2–4 soros válaszmező; a 🔒 biztonságos-megosztás keret megjelenítésével."
+        "note": "2× szabad szöveges mező (a befoglaló elemet a runtime acceptance 6. pontja dönti el), magyar szöveg, 2–4 soros válaszmező; a 🔒 biztonságos-megosztás keret megjelenítésével."
       },
       "a11y": {
         "note": "Szövegmező billentyűzettel kitölthető, látható fókusz; kérdésszöveg, indító félmondatok és a biztonságos-megosztás keret képernyőolvasóval olvashatók; a karakter-/sor-instrukció szövegesen is jelenjen meg."
@@ -17107,8 +17107,8 @@
         "R1"
       ],
       "decision": "",
-      "notes": "ÚJ asset (validáláskor pótolva): a completion-gating Essay mezők korábban csak más assetek notes-ában szerepeltek, de saját assetként hiányoztak – a többi H5P-interakcióval (EGY-01..04) konzisztensen rögzítve. A slide 6 narrációval (M4.2-NAR-04) és az outro checklisttel (M4.2-ILL-03) összetartozik.",
-      "review": "",
+      "notes": "ÚJ asset (validáláskor pótolva): a completion-gating szabad szöveges mezők korábban csak más assetek notes-ában szerepeltek, de saját assetként hiányoztak – a többi H5P-interakcióval (EGY-01..04) konzisztensen rögzítve. A slide 6 narrációval (M4.2-NAR-04) és az outro checklisttel (M4.2-ILL-03) összetartozik.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -17117,7 +17117,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "120c8e5a5758ad929d7f7ac66dc52e0327526d09d9f0e7dfae1a2d1966eb20db",
+      "spec_hash": "5727f544a6d6a4391605983db1fc0784515f070928d90f0528c46bb0eb1819eb",
       "deliverable_ids": [
         "M4.2-EGY-05"
       ],
@@ -17310,14 +17310,14 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 767,
+      "line": 768,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Outro összegző checklist vizuál",
       "purpose": "Vizuálisan összegzi az elért tanulási pontokat a reflexió előtt.",
-      "spec": "Rövid összegző vizuál a slide tetején: ✅ pipás checklist 3 ponttal (lezáró/támogató reakciók megismerése, visszatükrözés gyakorlása, madrich-szerep átgondolása). Letisztult, mobil-first, a két Essay mező fölött.",
+      "spec": "Rövid összegző vizuál a slide tetején: ✅ pipás checklist 3 ponttal (lezáró/támogató reakciók megismerése, visszatükrözés gyakorlása, madrich-szerep átgondolása). Letisztult, mobil-first, a két szabad szöveges mező fölött.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -17343,7 +17343,7 @@
       ],
       "decision": "",
       "notes": "FELTÉTELES asset: a forrásban a ✅ checklist markdown-szövegként szerepel (376-380. sor). Ha tervezői döntés alapján csak szöveges/HTML checklist készül, nem kell külön kép-asset; ha vizuális grafikaként renderelődik, akkor legyártandó.",
-      "review": "",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -17352,7 +17352,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "af1ff30270083fa21d33b9f2b4778a7f41c348020782dfd43a26a3a106e80e31",
+      "spec_hash": "b598c8e0e398b5b9d6cc9134e62d185a91ec5b5f073f9d6bbdd0835418633551",
       "deliverable_ids": [
         "M4.2-ILL-03",
         "M4.2-ILL-03::ALTTEXT"
@@ -17573,13 +17573,13 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 804,
+      "line": 806,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Slide 6 narráció – Outro „Mit mondok legközelebb?”",
-      "purpose": "Lezárja a leckét és felvezeti a két reflektív Essay kérdést.",
+      "purpose": "Lezárja a leckét és felvezeti a két reflektív szabad szöveges kérdést.",
       "spec": "30–40 mp záró narráció: nem az a cél, hogy soha ne mondj ügyetlen mondatot; legyen legalább egy visszatükröző mondatod, amivel nem tanácsot adsz; és egy mondat, amit tudatosan elengedsz, mert inkább lezár.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -17604,12 +17604,12 @@
         "R3"
       ],
       "decision": "",
-      "notes": "Felirat M4.2-FEL-04, leirat M4.2-LEI-04; a 2 Essay reflektív kérdéssel (M4.2-EGY-05) összetartozik.",
-      "review": "",
+      "notes": "Felirat M4.2-FEL-04, leirat M4.2-LEI-04; a 2 szabad szöveges reflektív kérdéssel (M4.2-EGY-05) összetartozik.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "M4.2-NAR-04-VO",
       "source_line": [
-        870,
-        885
+        873,
+        888
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nNem az a cél, hogy soha többé ne mondj ügyetlen mondatokat –\nilyen mindenkivel előfordul.\n\nA cél az, hogy legyen **legalább egy mondatod**,\namivel legközelebb nem tanácsot adsz,\nhanem **visszatükrözöd**, amit a másik mond.\n\nÉs legyen egy mondat,\namit tudatosan elengedsz,\nmert inkább lezár, mint segít.”\n\n🔒 **Biztonságos megosztás:** ezt a két mondatot **magadnak írod** – a saját reagálási szokásaidról szól. Nem kell konkrét nevet vagy sztorit írnod; elég magát a mondatot megfogalmazni. A mentorod a completion miatt láthatja, hogy kitöltötted; **mással nem osztjuk meg**.",
       "source_hash": "29556d05d6328022649dd382feb28f2307f5fc7b588e9854d35241c739d6644a",
@@ -17617,7 +17617,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "29556d05d6328022649dd382feb28f2307f5fc7b588e9854d35241c739d6644a",
-      "spec_hash": "093186d38d7c72945cb8de3c7b97736c2daf1dcc3e8e2daca5ab9933535e5f4a",
+      "spec_hash": "5b5744bd1d735c66632d103d18cdd2ae5fb87e7a0f2aee146f870da60afd6d3b",
       "deliverable_ids": [
         "M4.2-NAR-04",
         "M4.2-NAR-04::CAPTIONS",
@@ -17966,7 +17966,7 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "SLIDE 6 narráció – Outro/reflexió",
-      "purpose": "Lezárás és átvezetés a kötelező reflektív Essay-hez.",
+      "purpose": "Lezárás és átvezetés a kötelező reflektív szabad szöveges mezőhöz.",
       "spec": "Záró narráció: nem csak az számít, mit mondasz, hanem hogyan kérdezel; nyitott/tisztázó/zárt kérdés helye; felszólítás, hogy a tanuló írja le, melyik típust többet, melyiket kevesebbet akarja használni.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -17991,12 +17991,12 @@
         "R3"
       ],
       "decision": "",
-      "notes": "Az Essay reflektív mező (sor 372-381) nem média-asset; ehhez a narrációhoz kapcsolódik.",
-      "review": "",
+      "notes": "A szabad szöveges reflektív mező (sor 372-381) nem média-asset; ehhez a narrációhoz kapcsolódik.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "M4.3-NAR-03-VO",
       "source_line": [
-        618,
-        632
+        619,
+        633
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nem csak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípust szeretnéd tudatosan többet**,\nés melyikből kevesebbet használni a következő peulákon.”",
       "source_hash": "bf21a023320dbf38b2731be2c67642dd1e54ab97027bc7466b3b6bb220b263b3",
@@ -18004,7 +18004,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "bf21a023320dbf38b2731be2c67642dd1e54ab97027bc7466b3b6bb220b263b3",
-      "spec_hash": "e05268aa033fe3d5537deaef1e1a8e70f5d18a8c82f455bcf99b7acd18472eb2",
+      "spec_hash": "4a7586e837ac7c0ecab273583ec3454570f1b45bc5fd0c25682d88b082ae9c4a",
       "deliverable_ids": [
         "M4.3-NAR-03",
         "M4.3-NAR-03::CAPTIONS",
@@ -18122,8 +18122,8 @@
         "R5"
       ],
       "decision": "",
-      "notes": "Verbatim slide-szöveg a 179-199 sorokban; a sablon később az Essay promptban (351-360) és az Assignmentben (381-385) is visszaköszön.",
-      "review": "",
+      "notes": "Verbatim slide-szöveg a 179-199 sorokban; a sablon később a szabad szöveges mező promptjában (351-360) és az Assignmentben (381-385) is visszaköszön.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -18152,18 +18152,18 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
-      "line": 566,
+      "line": 567,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Slide 5 Essay sablon-vizuál + összefoglaló",
+      "title": "Slide 5 sablon-vizuál + összefoglaló",
       "purpose": "Strukturálja a produktum-megírást és a felcímkézett kitöltési sablont.",
-      "spec": "Vizuális elrendezés: fent ✅ rövid összefoglaló (3 elem: tudod a pitch szerepét / ismered a sablont / láttál példát mi hiányozhat) + Moodle-átvezetés; alul az Essay mező 5 felcímkézett mezővel (kihez / miről / miért nekik / mit csinálunk / mit vigyenek haza), 8–12 sor.",
+      "spec": "Vizuális elrendezés: fent ✅ rövid összefoglaló (3 elem: tudod a pitch szerepét / ismered a sablont / láttál példát mi hiányozhat) + Moodle-átvezetés; alul a szabad szöveges mező 5 felcímkézett mezővel (kihez / miről / miért nekik / mit csinálunk / mit vigyenek haza), 8–12 sor.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Slide-elrendezés H5P Essay-vel; az Essay legyen másolható (fejlesztői megjegyzés, 364. sor)."
+        "note": "Slide-elrendezés szabad szöveges mezővel; a mező legyen másolható (fejlesztői megjegyzés, 364. sor)."
       },
       "a11y": {
         "visual": "informative",
@@ -18184,8 +18184,8 @@
         "R5"
       ],
       "decision": "",
-      "notes": "Essay prompt verbatim a 345-362 sorokban; biztonságos-megosztás keret a 343. soron (SBI-szellemű mentori visszajelzés).",
-      "review": "",
+      "notes": "a szabad szöveges mező promptja verbatim a 345-362 sorokban; biztonságos-megosztás keret a 343. soron (SBI-szellemű mentori visszajelzés).",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -18194,7 +18194,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5a950b5b34171b7d5f9781e7d544aa6a189f967b4f3b60f7d004a48b44050786",
+      "spec_hash": "fc8934382e8e3959761c468772df5c1525e905264dd92f5f687b6272e655b37c",
       "deliverable_ids": [
         "M4.4-DIA-05",
         "M4.4-DIA-05::ALTTEXT"
@@ -18412,7 +18412,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
-      "line": 386,
+      "line": 387,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -18447,8 +18447,8 @@
       "review": "",
       "source_ref": "M4.4-NAR-03-VO",
       "source_line": [
-        466,
-        491
+        467,
+        492
       ],
       "source_text": "„Ahhoz, hogy összeálljon egy pitch,\nelég, ha **5 rövid kérdésre válaszolsz**.\n\nElőször: *kihez beszélsz?*\nNem mindegy, hogy 10 évesekhez, 15 évesekhez\nvagy egy képzős csoporthoz –\negy mondatban próbáld megfogalmazni, kik ők.\n\nMásodik: *miről szól a peula?*\nEgy mondatos, egyszerű téma-megfogalmazás.\n\nHarmadik: *miért fontos ez nekik?*\nItt kapcsolod össze a témát az életükkel.\nMi az a konfliktus, kérdés, helyzet,\nami miatt tényleg releváns nekik?\n\nNegyedik: *mit fogtok csinálni?*\nNem kell a teljes forgatókönyv,\ncsak 1 mondat arról,\nhogy játék, vita, állomás stb.\n\nÖtödik: *mit szeretnél, hogy hazavigyenek?*\nEgy mondat arról az üzenetről vagy élményről,\namit tényleg szeretnél, hogy megmaradjon bennük.”",
       "source_hash": "e307e7ef37607fea5123e16f889ab6de42981aef7a0628b3a8f076102d035dad",
@@ -18480,7 +18480,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
-      "line": 606,
+      "line": 608,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -18511,12 +18511,12 @@
         "R3"
       ],
       "decision": "",
-      "notes": "Slide 5; mellette az Essay mező és a Moodle-átvezetés.",
-      "review": "",
+      "notes": "Slide 5; mellette a szabad szöveges mező és a Moodle-átvezetés.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "M4.4-NAR-05-VO",
       "source_line": [
-        678,
-        692
+        681,
+        695
       ],
       "source_text": "„Most jön a lényeg:\nírd meg az első verzióját a saját pitch-ednek.\n\nVálassz ki egy kvucát – lehet olyan,\nakikkel már dolgozol,\nvagy akikkel dolgozni fogsz.\n\nHasználd az öt kérdést,\nés írj rá **rövid, egyszerű mondatokat**.\n\nNem kell szépnek, csak **érthetőnek és őszintének** lennie.\nA lecke után ezt fogod beadni\naz ‘M4.4 – Peula-pitch váz’ Assignmentben.”",
       "source_hash": "a3d815c2a41d707bf255b492ee27558a9774e070a39f11661d324810e67717ca",
@@ -21844,13 +21844,13 @@
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Essay – záró mini-reflexió (kedvenc játék + kockázat)",
+      "title": "Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat)",
       "purpose": "Záró transzfer-reflexió saját játékra.",
-      "spec": "H5P Essay nyitott kérdés: gondolj egy szeretett játékra, írd le 1 mondatban, melyik korosztálynak használnád legszívesebben és mi az az 1 kockázat, amire figyelnél. 1–2 mondat elég.",
+      "spec": "Szabad szöveges mező, nyitott kérdés: gondolj egy szeretett játékra, írd le 1 mondatban, melyik korosztálynak használnád legszívesebben és mi az az 1 kockázat, amire figyelnél. 1–2 mondat elég.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "H5P Essay, nyitott, magyar"
+        "note": "Szabad szöveges mező, nyitott, magyar"
       },
       "a11y": {
         "note": "Szövegként hozzáférhető (H5P natív)."
@@ -21863,7 +21863,7 @@
       "production_rules": [],
       "decision": "",
       "notes": "—",
-      "review": "",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -21872,7 +21872,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1012c2b8bf0e0a9754ef92b6a1d65d585913156fedade085a03e3fb56e534742",
+      "spec_hash": "5d799479539bccb8a892c48fff6e8335522d409459b60ff65ec0cdf482cc2db0",
       "deliverable_ids": [
         "M6.1-EGY-11"
       ],
@@ -22448,7 +22448,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1285,
+      "line": 1286,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -22483,8 +22483,8 @@
       "review": "",
       "source_ref": "M6.1-NAR-07-VO",
       "source_line": [
-        1347,
-        1357
+        1348,
+        1358
       ],
       "source_text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékod\nmelyik korosztálynak adnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
       "source_hash": "84b3b0af2cf12f8154f916ec8b168797fb8141eb3f2b8cf54dc9181765fbae63",
@@ -28505,8 +28505,8 @@
         "R5"
       ],
       "decision": "",
-      "notes": "Az Essay mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-ALT-03.",
-      "review": "",
+      "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-ALT-03.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "source_line": [],
       "source_text": "",
@@ -28662,7 +28662,7 @@
       "module": "Z",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md",
-      "line": 444,
+      "line": 445,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -28697,8 +28697,8 @@
       "review": "",
       "source_ref": "Z.1-NAR-02-VO",
       "source_line": [
-        513,
-        517
+        514,
+        518
       ],
       "source_text": "„Köszi, hogy végigmentél a visszanéző tükör modulon.\nA következő leckében (Z.2) már kifejezetten a saját **tanulási pillanataidról** fogunk beszélni –\nde ez az 1 mondat, amit most leírsz, jó kapaszkodó lesz ahhoz is.”",
       "source_hash": "301afc9b2f80ba71184a19e4ec30f8a50981a54fdd0c2f713b8974e51cb14d7c",
@@ -39501,7 +39501,7 @@
       "module": "M4",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
       "file_kind": "online-lecke",
-      "title": "H5P Essay x2 – reflektív kérdések (visszatükröző mondat + elhagyandó mondat)",
+      "title": "2× szabad szöveges mező – reflektív kérdések (visszatükröző mondat + elhagyandó mondat)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
@@ -40379,7 +40379,7 @@
       "module": "M4",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Slide 5 Essay sablon-vizuál + összefoglaló",
+      "title": "Slide 5 sablon-vizuál + összefoglaló",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -40401,7 +40401,7 @@
       "module": "M4",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Slide 5 Essay sablon-vizuál + összefoglaló — alt-szöveg",
+      "title": "Slide 5 sablon-vizuál + összefoglaló — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -42959,7 +42959,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Essay – záró mini-reflexió (kedvenc játék + kockázat)",
+      "title": "Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",

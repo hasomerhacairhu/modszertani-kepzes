@@ -507,14 +507,32 @@ class TestRepositoryCorpus(unittest.TestCase):
         self.assertIn("szervezett, van nevelési cél", asset["alt_text"])
         self.assertIn("sokszor észre sem veszed", asset["alt_text"])
 
-    def test_no_generated_field_carries_the_retired_h5p_type(self):
-        """`Short Answer` / `Essay` survived only in the frozen snapshot."""
-        legacy_hits = [r["assetId"] for r in mm.load_legacy()["assets"]
-                       if "Short Answer" in (r["lineRef"] or "") + (r["verbatim"] or "")]
-        self.assertTrue(legacy_hits, "a v1 pillanatkép tartalmazta a visszavont típust")
+    def test_no_generated_field_names_a_free_text_runtime(self):
+        """The lessons leave the free-text element to runtime acceptance §6.
+
+        `Short Answer` does not exist in H5P at all; `Essay` exists but the current
+        lessons refuse to assume it inside a Course Presentation slide. Both
+        survive only in the frozen snapshot.
+        """
+        legacy = mm.load_legacy()["assets"]
+        self.assertTrue([r["assetId"] for r in legacy
+                         if "Short Answer" in (r["lineRef"] or "") + (r["verbatim"] or "")],
+                        "a v1 pillanatkép tartalmazta a nem létező típust")
+        self.assertGreaterEqual(
+            len([r for r in legacy if "Essay" in json.dumps(r, ensure_ascii=False)]), 10,
+            "a v1 pillanatkép sok soron megnevezte a szabad szöveges runtime-ot")
         payload = mm.render_manifest_json(self.model)
-        self.assertNotIn("Short Answer", payload)
-        self.assertNotIn("Short answer", payload)
+        for retired in ("Short Answer", "Short answer", "short answer", "Essay"):
+            self.assertNotIn(retired, payload,
+                             f"a v2 manifeszt megnevezi a visszavont futtatókörnyezetet: {retired}")
+
+    def test_lessons_still_state_the_free_text_runtime_rule(self):
+        """Removing the type name must not remove the rule that replaced it."""
+        lesson = (mm.ACTIVE_ROOT / "Modulok/M1/Online leckék"
+                  / "M1.1 – Johari-ablak – vakfoltjaim felismerése.md")
+        text = lesson.read_text(encoding="utf-8")
+        self.assertIn("H5P runtime acceptance.md", text)
+        self.assertIn("nem feltételezhető", text)
 
     def test_m41_caption_rule_follows_the_current_lesson(self):
         """M4.1 separates audio-only from spoken video; captions are not optional."""
