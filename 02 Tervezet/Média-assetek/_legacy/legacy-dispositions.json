@@ -1,0 +1,26 @@
+{
+  "_comment": "Történeti (v1) leltársorok diszpozíciója, amelyeknek a jelenlegi tananyagban NINCS megfelelőjük. Kézzel karbantartott, és kizárólag a 747 soros egyeztetés bemenete — soha nem aktuális tananyag-követelmény. Minden sorhoz kell indoklás; a fordító a `reconcile` parancsban használja.",
+  "rows": [
+    {
+      "old_id": "M3.2-NAR-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.2 „Input 1” diához tartozó OPCIONÁLIS narráció. A jelenlegi lecke a dia teljes szövegét kiírja (négy kvuca-profil fókuszszavai, az „ugyanúgy peulázol” következménye és a „fejprofil” zárómondat), verbatim narráció-szkriptet viszont soha nem adott — a v1 leltár is csak opcionálisként jelölte. 2026-08-27-i szerzői döntés (PRODUCTION-DECISIONS.md D7, B opció): a narráció nem készül el, a dia szövege változatlanul viszi a tartalmat. A v2-ben ezért nincs szemantikus asset; a dia látható tartalma érintetlen."
+    },
+    {
+      "old_id": "M3.2-FEL-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.2-NAR-02 felirata. A szülő narráció nem készül el (lásd M3.2-NAR-02 diszpozíció), így nincs mit feliratozni. Akadálymentesítési rés nem keletkezik: a dia tartalma eleve olvasható szövegként áll a leckében, hang nélkül is teljes értékűen."
+    },
+    {
+      "old_id": "M3.2-LEI-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.2-NAR-02 leirata/transzkriptje. A szülő narráció nem készül el (lásd M3.2-NAR-02 diszpozíció), így nincs mit leiratozni. A WCAG 2.2 SC 1.2.1 nem sérül: nincs olyan csak-hangzó tartalom, amihez szöveges alternatíva kellene."
+    }
+  ]
+}

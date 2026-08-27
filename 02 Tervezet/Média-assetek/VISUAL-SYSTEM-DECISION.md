@@ -93,13 +93,12 @@ A leckék technikai jegyzeteiből, tételenként:
 - **R4 — védjegy-semlegesség:** tilos a Messenger / WhatsApp / Discord / Insta / Moodle
   vizuális nyelvének másolása. Semleges chat-buborék, sztori-kör, LMS-felület.
 - **R1 — egységes AI-jelölés:** minden `provenance=AI` asseten **egyetlen kanonikus,
-  ember-olvasható AI-címke** kell, azonos szöveggel és megjelenéssel — a *követelmény*
-  megvan, a **szöveg viszont nincs eldöntve**: a korpuszban ma négy különböző, tanulónak
-  látható változat él (M4.1, M5.1, M6.1, M7.2–M7.4), és a kánoni `Emberi jóváhagyás
-  szükséges.md` §38 a jelölés szövegét és elhelyezését nyitott kötelező elemként tartja
-  nyilván. A címkét külön UI-text assetek viszik (`M5.1-EGY-01`, `M6.1-EGY-01`). Ahol a
-  generáló eszköz gépi provenance-jelölést ad (C2PA / Content Credentials / vízjel), az
-  export **ne távolítsa el**.
+  ember-olvasható AI-címke** kell. A **szöveg 2026-08-27-én jóváhagyva**, szó szerint:
+  **„AI-generált médiaelem · emberi lektorálással.”** — rögzítve a `produkcios-szabalyok.json` R1 szabályában, kivezetve a
+  tananyag mind a 21 aktív előfordulására, és regressziós teszt őrzi. A címkét külön
+  UI-text assetek viszik (`M5.1-EGY-01`, `M6.1-EGY-01`). Ahol a generáló eszköz gépi
+  provenance-jelölést ad (C2PA / Content Credentials / vízjel), az export **ne távolítsa
+  el**.
 - **R5 — egyszer gyártás, újrahasznosítás:** a visszatérő ikon-készletek (SBI 3-szín,
   4-kvuca piktogramok, M6.4 9 szekció-ikon) **egyszer** készülnek közös stílus-tokennel,
   és több helyen újra felhasználódnak. A manifeszt ezt már kikényszeríti: 7 asset
@@ -133,14 +132,14 @@ elég a fekete-fehér nyomtatás — ez erős jel arra, hogy a nyomtatott anyagc
 
 | Mező | Állapot | Kire hat |
 |---|---|---|
-| Someres alap-hex-paletta (elsődleges, másodlagos, akcent) | ⛔ nincs bizonyíték | 17 kimondottan színfüggő asset + minden színes vizuál |
+| Someres alap-hex-paletta (elsődleges, másodlagos, akcent) | ⛔ nincs bizonyíték | a terv 1C alkötegében jelölt színfüggő tételek + minden színes vizuál |
 | Háttér- és szövegszín (világos/sötét) | ⛔ nincs bizonyíték | minden vizuál |
 | Betűtípus — címsor és törzs | ⛔ nincs bizonyíték | mind a 258 R5-tétel |
 | Ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés | ⛔ nincs bizonyíték | 40 ikon-készlet |
 | Karakter-stílus és rögzített referencia-seed | ⛔ nincs bizonyíték | 6 AI karakter-videó + 2 freeze-frame |
 | Logóhasználat, elhelyezés, biztonsági margó | ⛔ nincs bizonyíték | poszterek, nyomtatványok |
 | Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ⛔ döntés kell | SBI, 3 pillér, kérdéstípusok, Do/Don't |
-| Az AI-jelölés **szövege és** vizuális formája (ma négy változat él) | ⛔ nincs bizonyíték | 280 AI-eredetű asset |
+| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | ⛔ nincs bizonyíték | 280 AI-eredetű asset |
 
 **Amit ez a lap kifejezetten NEM tesz:** nem talál ki hex-értéket, nem nevez meg
 betűtípust és nem rögzít logóhasználatot. Ezek szervezeti-arculati döntések; egy kitalált
@@ -148,15 +147,16 @@ betűtípust és nem rögzít logóhasználatot. Ezek szervezeti-arculati dönt�
 
 ## 5. Javasolt zárási sorrend
 
-1. **Stílus-token** (betűtípus, fejléc- és margórend, ikon-vonalstílus, AI-jelölés
-   szövege és megjelenése). Ezzel a **26 kizárólag fekete-fehér nyomtatvány** azonnal
-   indulhat.
-2. **Pilot-jóváhagyás** családonként, a
-   `MEDIA-PRODUCTION-PLAN.md` 5. szakaszának pilotjain:
-   `M6.A-MUNK-02` (munkalap), `M7.B-POSZ-01` (poszter), `M0.2-IKO-02` (ikon),
-   `M5.2-DIA-02` (diagram), `M4.2-ILL-03` (illusztráció).
-3. **Hex-paletta + R6 feloldás.** Ezzel indul a 17 színfüggő tétel és minden színes
-   diagram/ikon.
+1. **Stílus-token** (betűtípus, fejléc- és margórend, ikon-vonalstílus, valamint az
+   AI-jelölés **megjelenése** — a szövege már eldőlt). Ezzel a **26 kizárólag
+   fekete-fehér nyomtatvány** gyártása elindulhat; a manifeszt R5-blokkolója viszont
+   csak a teljes R5-zárással kerül le róluk (lásd `PRODUCTION-DECISIONS.md` D1).
+2. **Pilot-jóváhagyás** családonként. A pilotokat a terv generálja, ezért a konkrét
+   ID-ket mindig ott nézd meg: `MEDIA-PRODUCTION-PLAN.md` 5. szakasz (munkalap, poszter,
+   ikon, diagram, illusztráció). Egy döntés lezárása megváltoztathatja, melyik tétel a
+   legkevésbé blokkolt, tehát melyik lesz a pilot.
+3. **Hex-paletta + R6 feloldás.** Ezzel indul a színfüggőként jelölt tételek köre és
+   minden színes diagram/ikon (a pontos darabszám a terv 4. szakaszának 1C alkötegében).
 4. **Karakter-lock** (referencia-karakter és seed). Csak ezután szabad bármelyik
    AI karakter-videót legyártani, különben a jelenetek szereplője leckénként más lesz.
 

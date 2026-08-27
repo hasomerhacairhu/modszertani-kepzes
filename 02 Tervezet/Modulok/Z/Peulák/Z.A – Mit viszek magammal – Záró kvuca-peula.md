@@ -162,7 +162,8 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
-    "note": "A4 lapok vagy kártyák, magyar nyelv, nyomtatható; az eredeti M0.A artefaktum hiányában a képző állítja össze; 2–3 db."
+    "note": "A4 lapok vagy kártyák, magyar nyelv, nyomtatható; az eredeti M0.A artefaktum hiányában a képző állítja össze; 2–3 db.",
+    "production_phase": "trainer-at-runtime"
   },
   "a11y": {
     "note": "Fizikai idézet-lap; nagy, olvasható betű; anonimizált tartalom; alt-szöveg nem releváns."
@@ -177,7 +178,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
   "blockers": [
     "R5"
   ],
-  "notes": "Forrás-függő: az M0.A kickoff-plakát beszerzésén alapul; ha nincs, a képző generálja a saját jegyzeteiből (54. sor).",
+  "notes": "Forrás-függő: az M0.A kickoff-plakát beszerzésén alapul; ha nincs, a képző generálja a saját jegyzeteiből (54. sor). A `technical.production_phase: trainer-at-runtime` azt rögzíti, hogy a kártyák tartalma az élő M0.A peulából származik (a kickoff-plakátról, vagy a képző saját jegyzeteiből), ezért központilag, előre nem gyártható.",
   "legacy": {
     "asset": [
       "Z.A-KART-04"

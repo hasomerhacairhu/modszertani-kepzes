@@ -4,23 +4,26 @@
 azokat a kérdéseket tartalmazza, amelyekre **ember** válaszol, és amelyek nélkül a
 gyártás egy része nem indulhat el. Ha egy döntés megszületik, itt kell kivezetni a
 nyitott-érték jelölést, és elvégezni a „Mit kell utána átírni” pontban felsoroltakat.
+A lezárt döntések a lap alján, egy táblázatban maradnak — nyomon követhetőségért, nem
+kérdésként.
 
-A darabszámok forrása a jelenlegi v2 manifeszt
-(`MEDIA-PRODUCTION-PLAN.md` 2. és 3. szakasz).
-**Egy asset több kapun is ülhet**, ezért az „önmagában felszabadul” szám mindig
+A darabszámok forrása a jelenlegi v2 manifeszt (`MEDIA-PRODUCTION-PLAN.md` 2. és 3.
+szakasz). **Egy asset több kapun is ülhet**, ezért az „önmagában felszabadul” szám mindig
 kisebb vagy egyenlő, mint az „érintett”.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 418 | 906 |
-| Ebből most gyártható | **39** | **39** |
+| Összesen | 417 | 903 |
+| Ebből központilag előgyártható | 407 | 898 |
+| Ebből **most gyártható** | **37** | **37** |
+| Élő/runtime tétel (a képző hozza létre a peulán) | 3 | 5 |
 
 ---
 
 ## D1 — Vizuális rendszer: stílus-token és someres paletta (R5)
 
-**Kérdés:** mi a tananyag kötelező vizuális rendszere — betűtípus, elrendezés, ikon- és
-karakterstílus —, és mik a someres alapszínek pontos hex-értékei?
+**A folyamat eldőlt** (2026-08-27): két lépésben zárjuk — előbb a **stílus-token**, utána
+a **hex-paletta**. Ami hiányzik, az maga a tizenegy érték.
 
 **Miért ez a legfontosabb:** ez a legnagyobb tétel. Amíg nyitva van, 258 asset nem
 gyártható, és ha rosszul indul, 258 asseten kell újragyártani.
@@ -32,38 +35,48 @@ kék/sárga/zöld) és 26 olyan tétel, amelynek a saját technikai jegyzete sze
 fekete-fehér nyomtatás. Részletek és a teljes lock-lap:
 [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md).
 
-**A) Két lépésben zárjuk (ajánlott).** Először a **stílus-token** (betűtípus, fejléc- és
-margórend, ikon-vonalvastagság, karakterstílus, AI-jelölés helye) — ezzel a 26
-fekete-fehér nyomtatvány azonnal indul; utána a **hex-paletta**, ami a 17 kimondottan
-színfüggő tételt engedi el.
-**B) Egyben zárjuk.** Egyszerre születik meg a teljes lock-lap; addig a 248 R5-tétel
-egyike sem indul.
-
-**Ajánlás: A.** A fekete-fehér nyomtatványok soha nem hivatkoznak hex-értékre, tehát a
-paletta-vita nem is érinti őket; a korai indulás viszont a legnagyobb kötegnél nyer időt.
-A kockázat kicsi, mert a stílus-token nélkül egyik változat sem indulhat.
-
-**Mit szabadít fel:** R5 lezárása önmagában **248 asset / 491 deliverable**. Az érintett
-258-ból 10 azért marad zárva, mert R2-re, R3-ra vagy emberi döntésre is vár.
+**Mit szabadít fel:** R5 lezárása önmagában **247 asset / 489 deliverable**. Az érintett
+257-ből 10 azért marad zárva, mert R2-re, R3-ra vagy emberi döntésre is vár.
 
 **Ki dönt:** program-/arculatfelelős, a mozgalmi vizuális identitás jóváhagyójával.
 
-**A válasz helye:**
-- someres alap-hex-paletta: ⟬KITÖLTENDŐ⟭
+### 1. lépcső — stílus-token
+
 - betűtípus (címsor / törzs): ⟬KITÖLTENDŐ⟭
-- ikon-stílus (vonal/kitöltés, vonalvastagság): ⟬KITÖLTENDŐ⟭
-- karakter-stílus és referencia-seed: ⟬KITÖLTENDŐ⟭
+- fejléc-, margó- és rácsrend a nyomtatványokhoz: ⟬KITÖLTENDŐ⟭
+- ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés: ⟬KITÖLTENDŐ⟭
+- az AI-provenance címke **vizuális formája és elhelyezése** (a szövege eldőlt — lásd a
+  lezárt D9-et a lap alján): ⟬KITÖLTENDŐ⟭
 - logóhasználat és biztonsági margó: ⟬KITÖLTENDŐ⟭
 
-**Mit kell utána átírni:** `produkcios-szabalyok.json` R5 (a nyitott-érték jelölés kivezetése),
-[`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) értékei, majd
+### 2. lépcső — paletta és karakter
+
+- someres alap-hex-paletta (elsődleges, másodlagos, akcent): ⟬KITÖLTENDŐ⟭
+- háttér- és szövegszín (világos/sötét): ⟬KITÖLTENDŐ⟭
+- az R6 szín-ütközés feloldása (a kék és a zöld ma több jelentést is visel): ⟬KITÖLTENDŐ⟭
+- karakter-stílus és rögzített referencia-seed: ⟬KITÖLTENDŐ⟭
+
+### Mit jelent a kétlépcsős zárás a manifesztben — pontosan
+
+**A jelenlegi manifeszt egyetlen R5-blokkolót ismer, nem kettőt.** Az első lépcső
+lezárásakor tehát **nem** oldódik fel automatikusan a 26 fekete-fehér nyomtatvány: a terv
+`media-production-plan.csv` `Szín-függés` oszlopa megmutatja, melyik az a 26 tétel
+(`1A — fekete-fehér is elég`), de a státuszuk addig `produkciós szabályra vár`, amíg az R5
+blokkoló rajtuk marad. A gyártás **elindítható** rájuk a stílus-token birtokában — a
+manifeszt viszont csak akkor követi ezt, ha a második lépcsőben az R5 egészében lezárul,
+vagy ha az érintett 26 asset `blockers` mezőjéből külön, tudatos metaadat-művelettel
+kivezetjük az R5-öt. Ez utóbbi önálló feladat; ez a pass nem végezte el, és séma-módosítást
+nem igényel.
+
+**Mit kell utána átírni:** `produkcios-szabalyok.json` R5 (a nyitott-érték jelölés
+kivezetése), [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) értékei, majd
 `python3 tools/media_manifest.py build`.
 
 ---
 
 ## D2 — Narrátor: TTS-motor vagy emberi felmondó, és melyik hang (R3)
 
-**Kérdés:** a 91 narráció és a videók hangja **szintetizált hang** legyen-e (és ha igen,
+**Kérdés:** a 90 narráció és a videók hangja **szintetizált hang** legyen-e (és ha igen,
 melyik motor és melyik voice-ID), vagy **emberi felmondó** (és ki)?
 
 **Miért fontos:** ez az egyetlen igazi nyitott kérdés az R3-ban. Minden más — nyelv,
@@ -72,12 +85,11 @@ levezethető, és készen áll: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md).
 
 **Jelenlegi bizonyíték:** az R3 szövege maga mondja ki, hogy „modulonként a TTS vs.
 emberi felmondó döntés dokumentálandó”, és hogy a konkrét TTS-motor / voice-ID
-kitöltetlen.
-A leckék technikai jegyzetei közül 21 említi egyáltalán a TTS-t; ebből három mondja ki
-szó szerint, hogy „TTS vagy emberi narráció” (mind az M1.4-ben), és hat az M6.1-ben már
-csak „Hang (TTS)”-t ír. A döntés tehát nem egységesen van nyitva hagyva a leckékben sem.
-A repositoryban **nincs kiválasztott szolgáltató**, és a specifikáció nem nevez meg egyet
-sem.
+kitöltetlen. A leckék technikai jegyzetei közül 21 említi egyáltalán a TTS-t; ebből három
+mondja ki szó szerint, hogy „TTS vagy emberi narráció” (mind az M1.4-ben), és hat az
+M6.1-ben már csak „Hang (TTS)”-t ír. A döntés tehát nem egységesen van nyitva hagyva a
+leckékben sem. A repositoryban **nincs kiválasztott szolgáltató**, és a specifikáció nem
+nevez meg egyet sem.
 
 **A) Egyetlen szintetikus hang** az egész tananyagra.
 **B) Egyetlen emberi felmondó** az egész tananyagra.
@@ -87,14 +99,14 @@ sem.
 bizonyítékot; kitalálni nem szabad. Amit érdemes tudni a döntéshez: a **C** két hangot
 jelentene, amit az R3 első mondata („EGYETLEN konzisztens narrátor-hang az egész
 tananyagban”) kizár, hacsak a jóváhagyó ezt felül nem írja. Az **A** választása a **D3**
-jogi kérdést is élesíti; a **B** nem.
+bizonyíték-listát is bővíti; a **B** nem.
 
-**Mit szabadít fel:** R3 lezárása önmagában **90 asset / 267 deliverable**. További 26
-tétel ekkor is R2-re vár (beszélőfej- és karaktervideók); az R3 + R2 együtt — az R5-öt
-még nyitva hagyva — **111 asset / 351 deliverable**. (Ha az R5 is zárva van, a maradék 7
-karakter-tétel is felszabadul.)
+**Mit szabadít fel:** R3 lezárása önmagában **90 asset / 267 deliverable**. További 27
+tétel ekkor is R2-re vagy R5-re vár, ezért az R3 + R2 együtt — az R5-öt még nyitva hagyva
+— **111 asset / 351 deliverable**.
 
-**Ki dönt:** program- és költségvetési felelős; szintetikus hangnál a jogi jóváhagyóval együtt.
+**Ki dönt:** program- és költségvetési felelős; szintetikus hangnál a jogi jóváhagyóval
+együtt.
 
 **A válasz helye:**
 - felmondó típusa (szintetikus / emberi): ⟬KITÖLTENDŐ⟭
@@ -107,74 +119,30 @@ karakter-tétel is felszabadul.)
 
 ---
 
-## D3 — Az R2 hatálya és a szükséges jogi bizonyíték
+## D3 — Az R2 jogi bizonyítékai
 
-**Kérdés:** az R2 („AI-avatar / AI-hang IP-megfelelőség”) csak a 21 beszélőfej-videóra
-vonatkozik, vagy a teljes alakos AI-karakterjelenetekre és a belőlük kivett állóképekre is?
-
-**Miért fontos:** ez a különbség 7 asset (M1.3-VID-01, M4.1-VID-02/03/04/05,
-M4.1-FOTO-01/02) besorolását dönti el, és azt, hogy kell-e rájuk licenc-bizonyíték.
-
-**Jelenlegi bizonyíték:** az R2 szövege „minden AI-avatar és AI-hang assethez” írja elő a
-generátor nevét, a kereskedelmi licencet és a voice-talent release-t. A hét tétel
-AI-generált emberi alakot ábrázol, a videók szintetikus narrációval. Ezért **a jelenlegi
-manifeszt a szigorúbb olvasatot alkalmazza**: mind a hét R2 alá került. A hétköznapi
-AI-illusztrációk, ikonok és diagramok **nem** kaptak R2-t — azokra az R1 (AI-jelölés)
+**A hatály eldőlt** (2026-08-27, A opció): az R2 a beszélőfej-videókra, az AI emberi
+karakterjelenetekre és a belőlük kivett állóképekre egyaránt vonatkozik — összesen **28
+asset** —, hacsak egy későbbi jogi review kifejezetten nem szűkíti. A hétköznapi
+AI-illusztrációk, ikonok és diagramok **nem** tartoznak ide: azokra az R1 (AI-jelölés)
 vonatkozik.
 
-**A) Marad a szigorúbb olvasat** (jelenlegi állapot): a karakterjelenetek és a
-freeze-frame-ek is R2 alá tartoznak.
-**B) Szűkítés a beszélőfejekre**: a karakterjelenetekre csak R1 + R5 vonatkozik.
-
-**Ajánlás: A**, amíg jogi jóváhagyó mást nem mond. A szűkítés visszavonható egy soros
-módosítás; a fordítottja — utólag kiderülő licenchiány 7 legyártott videón — nem.
+**Ami nyitva maradt: maga a bizonyíték.** Az R2 szövege szerint minden ilyen assethez
+dokumentálni kell a generátort, a kereskedelmi/oktatási felhasználást engedő licencet és a
+hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
+[`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz.
 
 **Mit szabadít fel:** önmagában **0**. A 28 R2-tételből 26 R3-ra is vár, a másik kettő
 (`M4.1-FOTO-01/02`, néma állóképek) R5-re. R2 + R3 együtt, R5 nélkül **111 asset /
 351 deliverable**.
 
-**Ki dönt:** jogi jóváhagyó. A bizonyítékok nyilvántartása:
-[`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
+**Ki dönt:** jogi jóváhagyó.
 
 **A válasz helye:**
-- R2 hatálya (csak beszélőfej / karakterjelenet is): ⟬KITÖLTENDŐ⟭
-- generátor / szolgáltató neve: ⟬KITÖLTENDŐ⟭
+- generátor / szolgáltató neve és verziója: ⟬KITÖLTENDŐ⟭
 - kereskedelmi-oktatási felhasználást engedő licenc hivatkozása: ⟬KITÖLTENDŐ⟭
 - avatar-/képmás-jogosultság igazolása: ⟬KITÖLTENDŐ⟭
 - hang-jogosultság (voice-talent release vagy klónozási engedély): ⟬KITÖLTENDŐ⟭
-
----
-
-## D4 — M4 HOOK-formátum (`M4.2-ILL-01`)
-
-**Kérdés:** az M4.2–M4.4 leckék statikus illusztrációval nyissanak (jelenlegi állapot),
-vagy az M4.1-hez hasonlóan beszélőfej-videóval?
-
-**Jelenlegi bizonyíték:** a korpuszban **nincs egységes HOOK-konvenció.** 17 lecke nyit
-beszélőfejjel (M1.1, M1.2, M2.1–M2.4, M3.1–M3.4, M4.1, M5.1, M6.1, M6.2, M7.2–M7.4),
-15 statikus vizuállal vagy interaktív videóval (M0.1, M0.2, M0.4, M1.3, M1.4, M4.2–M4.4,
-M5.2, M5.3, M6.3, M7.1, Z.1–Z.3). A vegyes nyitás **modulon belül** is előfordul az M1,
-M5, M6 és M7 modulokban. Az M4 tehát nem kivétel, hanem a minta.
-
-**A) A jelenlegi vegyes nyitás megerősítése.** Nincs új gyártás; `M4.2-ILL-01` az R5
-kötegbe kerül a többi illusztrációval.
-**B) M4-en belüli egységesítés beszélőfejre.** Három új beszélőfej-videó (M4.2, M4.3,
-M4.4), három új szkript, mindegyik R2 + R3 alatt — tehát a jelenlegi három illusztráció
-helyett a leglassabb kötegbe kerülnek.
-
-**Ajánlás: A.** A „modulon belüli inkonzisztencia” megállapítás a korpusz egészén nem
-áll meg, a **B** pedig három tételt a legkorábbi kötegből a legkésőbbibe mozgatna.
-
-**Mit szabadít fel:** A választása 1 asset / 2 deliverable (R5 alá). B választása 3
-tételt R5-ből R2+R3-ba tol, és 3 új szkriptet igényel.
-
-**Ki dönt:** a tananyag szerzője / program-felelős.
-
-**A válasz helye:** HOOK-formátum M4.2–M4.4: ⟬KITÖLTENDŐ⟭
-
-**Mit kell utána átírni:** az `M4.2 – Aktív hallgatás & visszatükrözés.md` fájlban az
-`M4.2-ILL-01` `decision` mezőjét ki kell üríteni (A választásánál), vagy fel kell venni
-a három új videó-assetet (B), majd build.
 
 ---
 
@@ -197,10 +165,10 @@ igazítani.
 **B) Két külön anyag.** Marad a négylépéses poszter is — ekkor le kell írni, milyen
 gyermekvédelmi tartalommal áll meg a rövidebb változat a titoktartás-lépés nélkül.
 
-**Ajánlás: A**, de **Claude nem dönti el.** A hub látható gyermekvédelmi mondatának
-átírása szakpolitikai döntés; a repository szabálya szerint ide nem nyúlunk jóváhagyás
-nélkül. Az A melletti tárgyi érv: az ötcsomópontos sablon már létezik, teljes, és minden
-kötelező elemet tartalmaz.
+**Ajánlás: A**, de ez **nem** hajtható végre jóváhagyás nélkül: a hub látható
+gyermekvédelmi mondatának átírása szakpolitikai döntés. Az A melletti tárgyi érv: az
+ötcsomópontos sablon már létezik, teljes, és minden kötelező elemet tartalmaz. A „nem
+ígérek 100% titoktartást” követelmény egyik változatban sem gyengülhet.
 
 **Mit szabadít fel:** 1 asset / 1 deliverable. A tét nem a darabszám, hanem hogy ne
 készüljön olyan fali poszter, amiről lemarad egy kötelező gyermekvédelmi lépés.
@@ -213,90 +181,6 @@ gyermekvédelmi felelős.
 
 ---
 
-## D6 — `M1.3-VID-01` HOOK-dialóg: végleges szöveg jóváhagyása
-
-**Kérdés:** a lecke SLIDE 1 „Mit látunk?” blokkjában álló négy mondat a **végleges,
-felmondható** dialóg?
-
-**Jelenlegi bizonyíték:** a lecke kiírja mind a négy mondatot, de a „Mit hallunk? (videó
-dialóg)” sor kifejezetten így fogalmaz: „**Nagyjából** a fenti mondatok, rövid, érthető
-felirattal (max. 1–2 sor).” Ez implementációs szabadság, nem jóváhagyott szkript, ezért
-az asset `blokkolt` marad, és a felirat/leirat nem gyártható.
-
-### Javasolt szövegváltozat (JAVASLAT — NEM jóváhagyott forrás)
-
-> **1. verzió — címkéző**
-> **Madrich A:** „Te mindig szétvered a peulát, komolyan mondom…”
-> **Madrich B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”
->
-> **2. verzió — SBI-szerű**
-> **Madrich A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a
-> többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha
-> ők is több teret kapnának.”
-> **Madrich B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”
-
-Ez a változat **kizárólag a lecke jelenlegi mondataiból** áll; egyetlen új pedagógiai
-tartalom sincs benne. A hangsúlyjelölés (`**…**`) a videóban az S/B/I ikonok
-felvillanásának helye.
-
-**A) Jóváhagyás.** A fenti szöveg a végleges dialóg → `@source` blokkba kerül a leckében,
-`source_ref` az assetre, és a felirat/leirat automatikusan feltöltődik.
-**B) Átírás.** A szerző más szöveget ad; ugyanaz a lépés, más tartalommal.
-
-**Ajánlás: A**, de csak szerzői jóváhagyással. Amíg nincs, marad blokkolt.
-
-**Mit szabadít fel:** 1 asset / 3 deliverable — de az asset R2 + R3 + R5 alatt is áll,
-tehát a szkript jóváhagyása önmagában nem teszi gyárthatóvá.
-
-**Ki dönt:** a lecke szerzője.
-
-**A válasz helye:** végleges dialóg jóváhagyva: ⟬KITÖLTENDŐ⟭
-
----
-
-## D7 — `M3.2-NAR-02` Input 1 narráció: van-e egyáltalán, és mi a szövege?
-
-**Kérdés:** elkészüljön-e az „Input 1” opcionális narráció, és ha igen, mi a szó szerinti
-szövege?
-
-**Jelenlegi bizonyíték:** a lecke a diaszöveget teljes egészében megadja (négy
-kvuca-profil fókuszszavai; „Ha madrichként minden kvucának ugyanúgy próbálsz peulát
-tartani, előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen.”; „Ezért
-segít, ha van 1–1 gyors »fejprofilod« mind a négy kvucáról.”), de a narrációt csak
-**opcionálisként** jelzi, verbatim szöveg nélkül.
-
-### Javasolt szövegváltozat (JAVASLAT — NEM jóváhagyott forrás)
-
-> „Miért fontos, hogy máshogy nézz rá a kvucákra?
-> A Parparimnál a játék, a mozgás és a fantázia visz;
-> a Kivszánál a státusz, a poén és az, hogy ki a menő;
-> a Leviatannál a drámák, a barátságok és az identitás;
-> a Zoreánál a vélemények, a viták és a felelősség.
->
-> Ha minden kvucának ugyanúgy próbálsz peulát tartani,
-> előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen.
-> Ezért segít, ha van egy-egy gyors fejprofilod mind a négy kvucáról.”
-
-30–40 másodperc, tegező, a [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) szerint. A szöveg
-**kizárólag a jelenlegi diaszövegből** áll: nincs benne új tény, nincs új korosztályi
-állítás, és a profilokat ugyanazokkal a szavakkal írja le, mint a dia.
-
-**A) Jóváhagyás** — `@source` blokkba kerül, `source_ref` az assetre.
-**B) Elhagyás** — a narráció opcionális; ha nem készül el, az assetet törölni kell a
-leckéből (a v1 sor a történeti egyeztetésben marad).
-
-**Ajánlás: A.** A dia szövege hangban is elhangzik, ami a mobil-first és a
-képernyőolvasós használatnak is jót tesz; az elhagyás viszont legitim, mert a forrás maga
-opcionálisnak jelöli.
-
-**Mit szabadít fel:** 1 asset / 3 deliverable, utána már csak R3-ra vár.
-
-**Ki dönt:** a lecke szerzője.
-
-**A válasz helye:** Input 1 narráció sorsa és szövege: ⟬KITÖLTENDŐ⟭
-
----
-
 ## D8 — Az R8 státusza: betartandó szabály vagy önálló jóváhagyási kapu?
 
 **Kérdés:** a két valós felvétel (`M0.3-FOTO-01` Moodle-képernyőkép, `M0.A-FOTO-01`
@@ -304,22 +188,23 @@ kvuca-plakát fotók) legyártható-e az R8 **betartásával**, vagy külön ada
 gyermekvédelmi **jóváhagyás** kell hozzá?
 
 **Jelenlegi bizonyíték:** az R8 szövegében — az R2/R3/R5-tel ellentétben — **nincs**
-kitöltetlen érték: kész, betartható előírás (anonimizálás vagy kikeretezés,
-kiskorúnál előzetes dokumentált szülői hozzájárulás, képernyőképen nincs valós
-felhasználónév/arc). A `README.md` viszont kimondja, hogy ennek a státusza nyitott.
-Az `M0.A-FOTO-01` kézírásos plakátokról készül, és **képzői feladat gyártáskor, nem
-előre legyártott anyag** — ez a különbség a döntésben számít.
+kitöltetlen érték: kész, betartható előírás (anonimizálás vagy kikeretezés, kiskorúnál
+előzetes dokumentált szülői hozzájárulás, képernyőképen nincs valós felhasználónév/arc).
+A `README.md` viszont kimondja, hogy ennek a státusza nyitott. Az `M0.A-FOTO-01`
+kézírásos plakátokról készül, és a képző hozza létre a peula után — a produkciós tervben
+ezért az élő/runtime szakaszban áll, nem gyártási kötegben.
 
 **A) Betartandó szabály.** Az R8 nem kapu: a két tétel a szabály betartásával gyártható,
 a bizonyítékot a [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) rögzíti.
 **B) Önálló jóváhagyási kapu.** A két tétel csak a gyermekvédelmi és adatvédelmi felelős
 írásos jóváhagyása után élesíthető.
 
-**Ajánlás: nincs.** Adatvédelmi és gyermekvédelmi hatáskör; a repository nem tartalmaz
-olyan bizonyítékot, amiből ez levezethető lenne.
+**Reviewer-ajánlás: A** — asset-szintű kötelező produkciós szabály, előírt bizonyítékkal
+és átalakítással, nem külön általános jóváhagyás. **Ez nem jogi lezárás:** a jelenlegi R8
+blokkolók emiatt nem kerültek ki egyik assetről sem.
 
-**Mit szabadít fel:** R8 önmagában 1 asset / 2 deliverable (`M0.A-FOTO-01`).
-Az `M0.3-FOTO-01` az R7-re (éles Moodle-felület) is vár, tehát utolsóként készül.
+**Mit szabadít fel:** R8 önmagában **0 asset** a központi gyártásból — az egyetlen érintett
+tétel (`M0.3-FOTO-01`) az R7-re is vár. Az `M0.A-FOTO-01` élő/runtime tétel.
 
 **Ki dönt:** gyermekvédelmi felelős + adatvédelmi (DPO) felelős.
 
@@ -327,12 +212,49 @@ Az `M0.3-FOTO-01` az R7-re (éles Moodle-felület) is vár, tehát utolsóként 
 
 ---
 
+## D10 — A ken alkohol- és dohányzási magatartási kódexe (M3.4)
+
+**Kérdés:** mi a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és
+dohányzási szabályzata (mit, hol, milyen kortól)?
+
+**Miért van itt:** ez nem új döntés — a kánoni `Emberi jóváhagyás szükséges.md` már
+nyitott szervezeti tételként tartja nyilván. Az viszont csak most látszik, hogy **két
+média-assetet is gátol**: az `M3.4-EGY-03` sorting-feladat 6–8. kártyája és az
+`M3.4-DIA-01` diagram 3C blokkja a kódex tartalmától függ. A lecke maga mondja ki:
+„Ennek hiányában ez a tartalmi rész nem élesíthető.” Korábban egyik asset készültségi
+állapota sem tükrözte ezt — az `M3.4-EGY-03` emiatt tévesen a „most gyártható” kötegben
+állt.
+
+**Mit szabadít fel:** 2 asset / 3 deliverable. Az `M3.4-DIA-01` ezen felül az R5-re is vár.
+
+**Ki dönt:** a ken vezetése / a képzésért felelős; a válasz helye a kánoni
+`Emberi jóváhagyás szükséges.md`, nem ez a lap.
+
+**Megjegyzés:** a 3A és 3B témablokk tartalma kész; csak a 3C függ a kódextől.
+
+---
+
 ## Ami NEM döntés, csak függőség
 
 **R7 — véglegesített Moodle-felület.** Egyetlen assetet érint (`M0.3-FOTO-01`), és nem
 kérdés, hanem sorrend: a kurzus-főoldal képernyőképe csak az éles felület után
-készíthető. Nem indokolja egyetlen más köteg csúszását sem — ez az utolsó tétel.
-A vonatkozó runtime-elfogadás a `LMS – H5P runtime acceptance.md` dokumentumban lakik.
+készíthető. Nem indokolja egyetlen más köteg csúszását sem — ez az utolsó tétel. A
+vonatkozó runtime-elfogadás a `LMS – H5P runtime acceptance.md` dokumentumban lakik.
 
 **A kurzus release-kapui.** A `RELEASE-READINESS.md`, a gyermekvédelmi és az adatvédelmi
 gate NEM ennek a dokumentumnak a hatásköre, és nem is zárható le média-oldalról.
+
+---
+
+## Lezárt döntések (2026-08-27)
+
+Nyomon követhetőségért; ezek már nem kérdések.
+
+| ID | Döntés | Mi történt a kánoni forrásban |
+|---|---|---|
+| **D3 (hatály)** | Az R2 a beszélőfej-videókra, az AI karakterjelenetekre és a freeze-frame-ekre is vonatkozik (A opció). | A 28 asset `blockers` mezője változatlanul viszi az R2-t. A bizonyíték-kérdés fent, D3 alatt marad nyitva. |
+| **D4** | Az M4 HOOK-formátum marad vegyes: az M4.2–M4.4 statikus illusztrációval nyit, új beszélőfej-videó nem készül (A opció). | Az `M4.2-ILL-01` `decision` mezője kiürült; az asset a szokásos R5 alatt gyártandó. |
+| **D6** | Az `M1.3-VID-01` HOOK-dialógjának szövege jóváhagyva (A opció). | A szó szerinti szöveg `@source` blokkba került az M1.3 leckében (`M1.3-VID-01-VO`), az asset `source_ref`-fel hivatkozik rá, a felirat és a leirat onnan generálódik. Az asset továbbra is R2 + R3 + R5 alatt áll. |
+| **D7** | Az `M3.2-NAR-02` opcionális narráció **nem készül el** (B opció). | A szemantikus asset és a három deliverable megszűnt; a dia látható tartalma változatlan, csak az „Opcionális narráció (30–40 mp)” sor került ki. A három történeti v1 sor `NO_LONGER_REQUIRED` diszpozícióval, indoklással egyeztetve (`_legacy/legacy-dispositions.json`). |
+| **D9** | A kanonikus, tanulónak látható AI-provenance címke szövege: **„AI-generált médiaelem · emberi lektorálással.”** | Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve mind a 21 aktív előfordulásra a tananyagban. A címke **vizuális megjelenése és elhelyezése** továbbra is a D1 első lépcsőjétől függ. |
+| **F-02** | Az élő/runtime tételek nem számítanak a központi „most gyártható” kötegbe. | `technical.production_phase: trainer-at-runtime` három asseten (`M0.A-EGY-01`, `M0.A-FOTO-01`, `Z.A-KART-04`); a produkciós terv külön szakaszban mutatja őket, a rájuk vonatkozó kapukkal együtt. A követelményük és a deliverable-jük megmarad. |

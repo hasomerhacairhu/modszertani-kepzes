@@ -5,8 +5,8 @@ objektíven levezethető** a felmondásról. Ami nyitva maradt, azt a lap kimond
 [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D2 pontjára mutat — ott van
 egyetlen helyen az összes megválaszolandó érték.
 
-**Hatókör:** 91 narráció-asset, 21 beszélőfej-videó, 6 karakter- és jelenetvideó — összesen
-118 tétel, 111 forrásblokkban álló szó szerinti szkripttel.
+**Hatókör:** 90 narráció-asset, 21 beszélőfej-videó, 6 karakter- és jelenetvideó — összesen
+117 tétel, mind szó szerinti forrásblokkal. Nincs többé szkript nélküli beszélt asset.
 
 > **Ez a lap nem választ szolgáltatót.** A motor, a voice-ID és a felmondó személye
 > szervezeti és jogi döntés (D2, D3). A többi mező viszont **most is érvényes**, és a
@@ -16,8 +16,8 @@ egyetlen helyen az összes megválaszolandó érték.
 
 ## 1. Nyelv
 
-Magyar, minden tételnél. A 91 narráció technikai jegyzetéből 73 kiírja a „magyar”
-kikötést, a többinél a forrásszöveg maga magyar. Nincs idegen nyelvű narráció a
+Magyar, minden tételnél. A narrációk technikai jegyzeteinek túlnyomó része kiírja a
+„magyar” kikötést, a többinél a forrásszöveg maga magyar. Nincs idegen nyelvű narráció a
 tananyagban.
 
 Idegen szó a szövegben csak héber/someres szakszóként és néhány pedagógiai
@@ -27,9 +27,9 @@ toldalékolással kell mondani, nem angolosan.
 ## 2. Regiszter
 
 **Tegező, barátságos, egyenrangú.** Az R3 szövege ezt kötelezővé teszi, és a korpusz
-egyöntetűen ezt követi: a 111 narráció-forrásból **egyben sincs** magázó alak („Ön”),
-77-ben pedig kifejezett egyes szám második személyű megszólítás van („neked”, „nézd meg”,
-„képzeld el”, „mennyire éreznéd”).
+egyöntetűen ezt követi: a narráció-forrásokban **egyetlen** magázó alak („Ön”) sincs,
+és a többségükben kifejezett egyes szám második személyű megszólítás áll („neked”,
+„nézd meg”, „képzeld el”, „mennyire éreznéd”).
 
 A hallgató **madrich, jellemzően 15+**, aki maga is kiskorú lehet. Ebből következik:
 
@@ -136,7 +136,8 @@ A tananyagban **két** dialógusos jelenet van, és ezek nem a narrátor hangjai
 
 - `M1.3-VID-01` — két madrich (A és B) beszélget, ugyanaz a helyzet kétféle
   visszajelzéssel. **Két megkülönböztethető hang kell**, hogy a felirat nélkül is
-  követhető legyen, ki beszél. A szkript jóváhagyása még nyitott (D6).
+  követhető legyen, ki beszél. A szkriptet a szerző 2026-08-27-én jóváhagyta; a szó
+  szerinti dialóg a leckében, `M1.3-VID-01-VO` forrásblokkban él.
 - `M4.1-VID-03/04/05` — a karakter **nem beszél**, a narrátor beszél róla harmadik
   személyben („Nézd meg ezt a madrichot…”). Egyetlen kivétel a 3. jelenet, ahol a
   karakter egy mondatot mond: „Sziasztok, ma arról fogunk beszélni, hogy…”. Ez a mondat

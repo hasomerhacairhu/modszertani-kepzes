@@ -167,7 +167,8 @@ hangról és a vizuális rendszerről: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md),
 [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md).
 
 Nem blokkoló, de minden vizuális munkára érvényes konvenció: **R1** (egységes
-AI-jelölés), **R4** (védjegy-semlegesség), **R6** (szín-szótár).
+AI-jelölés — a tanulónak látható címke jóváhagyott szövege: „AI-generált médiaelem · emberi lektorálással.”), **R4**
+(védjegy-semlegesség), **R6** (szín-szótár).
 
 **Nyitott emberi döntés.** Egy nem üres `decision` mező önálló készültségi kapu:
 amíg ott áll, az asset státusza `emberi döntésre vár`, a produkciós szabályokból
@@ -190,14 +191,13 @@ döntésre váró tételek* szakasz mutatja őket.
 > gyermekvédelmi és adatvédelmi felelősnek kell tisztáznia
 > ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md), D8).
 
-> ⚠️ **Az M4 HOOK-formátum szerzői döntése nyitva van.** A v1 README ezt `J19`
-> néven említette; ilyen azonosító sehol nincs a befagyasztott adathalmazban, a
-> **döntés maga viszont igen**: a stílus-konzisztencia audit megállapítása az
-> `M4.2-ILL-01` assethez van kötve („⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum…
-> Megerősítendő”). A v2 ezt az asset `decision` mezőjében viszi tovább, így a
-> munkafüzet *Emberi döntések* lapján és a migrációs jelentésben is látszik.
-> A döntés kifejtése a korpusz teljes HOOK-mintájával:
-> [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md), D4.
+> ✅ **Az M4 HOOK-formátum szerzői döntése 2026-08-27-én megszületett.** A v1 README ezt
+> `J19` néven említette; ilyen azonosító sehol nincs a befagyasztott adathalmazban, a
+> döntés viszont az `M4.2-ILL-01` assethez volt kötve. A válasz: a korpuszban a vegyes
+> HOOK-formátum az általános minta, ezért az M4.2–M4.4 marad statikus illusztráció +
+> narráció, új beszélőfej-videó nem készül. Az asset `decision` mezője kiürült, és a
+> szokásos R5 alatt gyártandó. Részletek:
+> [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md), lezárt döntések.
 
 Ezek **szervezeti és jogi döntések**. A fordító csak nyilvántartja őket; nem old
 fel egyet sem.

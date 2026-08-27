@@ -103,6 +103,11 @@ javítás félkész maradt a fájlokban. Ezért:
 
 ## Ebben a repositoryban NE
 
-- ne írj governance- vagy folyamatdokumentumot a `02 Tervezet/` alá (az tananyag)
+- ne írj governance- vagy folyamatdokumentumot a `02 Tervezet/` alá (az tananyag).
+  **Egyetlen, szűk kivétel:** a `02 Tervezet/Média-assetek/` mappa a média-produkció
+  saját területe — ide tartoznak az asset-specifikációk, a produkciós szabályok, a
+  döntési nyilvántartások és a generált produkciós nézetek, mert közvetlenül az aktív
+  tananyagot valósítják meg. Ez **nem** ad engedélyt általános projekt-governance vagy
+  folyamatdokumentum írására a `02 Tervezet/` bármely más pontján
 - ne építs második linter-rendszert a `tools/content_integrity.py` mellé
 - ne szerkeszd kézzel a `02 Tervezet/Média-assetek/` generált CSV/XLSX kimeneteit

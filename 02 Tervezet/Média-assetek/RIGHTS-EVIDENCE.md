@@ -25,9 +25,10 @@ a fájl és nem a fordító.
 assethez dokumentálandó: a használt generátor neve, a kereskedelmi/oktatási felhasználást
 engedő licenc, és a voice-talent release.”
 
-**Jelenlegi hatálya a manifesztben: 28 asset.** A hatály pontos határa nyitott döntés
-([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D3); a manifeszt addig a
-szigorúbb olvasatot alkalmazza.
+**Jelenlegi hatálya a manifesztben: 28 asset.** A hatály 2026-08-27-én eldőlt (A opció,
+[`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) lezárt döntések): a szigorúbb
+olvasat marad érvényben, hacsak egy későbbi jogi review kifejezetten nem szűkíti.
+**Ami nyitva maradt, az maga a bizonyíték** — az alábbi hat sor.
 
 | Osztály | Assetek | Miért tartozik ide |
 |---|---:|---|
@@ -48,7 +49,7 @@ szigorúbb olvasatot alkalmazza.
 | R2-6 | Emberi felmondó esetén **felhasználási szerződés** | csak emberi felmondónál | **HIÁNYZIK** — a D2-től függ | — |
 
 > **Fontos következmény.** Ha a D2 válasza **szintetikus hang**, az R2 „AI-hang” ága
-> nemcsak a 28 videóra, hanem **mind a 91 narráció-assetre** is kiterjed. Ha emberi
+> nemcsak a 28 videóra, hanem **mind a 90 narráció-assetre** is kiterjed. Ha emberi
 > felmondó lesz, akkor az R2-5 helyére az R2-6 lép, és a narrációk nem kerülnek az R2
 > hatálya alá. **Ez a döntés következménye, nem külön kérdés** — de a bizonyíték-listát
 > a válasz után újra kell futtatni.
@@ -77,7 +78,7 @@ felhasználónév/arc és nincs licenc-korlátos 3rd-party elem.”
 | Asset | Mi ez | Miért R8 | Osztály |
 |---|---|---|---|
 | `M0.3-FOTO-01` | Moodle kurzus-főoldal képernyőkép | valós képernyőkép: felhasználónév, arc, harmadik felas elem kerülhet rá | **ADATVÉDELMI ÁTALAKÍTÁS KELL** |
-| `M0.A-FOTO-01` | a képző által készített fotók a kitöltött kvuca-plakátokról | valós felvétel **kézírásról**, kiskorúak által írt tartalommal | **EMBERI POLICY-DÖNTÉS KELL** |
+| `M0.A-FOTO-01` | a képző által készített fotók a kitöltött kvuca-plakátokról | valós felvétel **kézírásról**, kiskorúak által írt tartalommal | **EMBERI POLICY-DÖNTÉS KELL** — egyben élő/runtime tétel: a képző a peula után készíti, nem központi előgyártás |
 
 ### Szükséges bizonyítékok és teendők
 
@@ -107,7 +108,7 @@ A kivezetés indoka minden esetben az asset saját deklarációjából következ
 
 Az M6.3 leckében a projekt korábban **fotóról illusztrációra** váltott, kimondottan a
 GDPR-kockázat elkerüléséért („DÖNTÉS: illusztráció (GDPR-kockázat elkerülése),
-FOTO→ILL”). Ennek eredménye, hogy a 418 assetből ma **kettő** épül valós felvételre.
+FOTO→ILL”). Ennek eredménye, hogy a 417 assetből ma **kettő** épül valós felvételre.
 Ez a lap ezt a döntést rögzíti, nem bírálja felül — és nem is használható arra, hogy egy
 **kötelezően valós** felvételt (a Moodle-képernyőképet) illusztrációra cseréljünk.
 
@@ -120,8 +121,8 @@ egyetlen kanonikus, ember-olvasható AI-címke kell. Ez 280 assetet érint.
 
 | # | Tétel | Állapot |
 |---|---|---|
-| R1-1 | A címke **egységes szövege** | **HIÁNYZIK** — az R1 „EGYETLEN kanonikus… egységes szöveg”-et követel, a korpuszban viszont **négy** tanulónak látható változat él: „🤖 Ez a videó generatív AI-val készült.” (M4.1), „AI-generált avatar, a szöveget ember írta és lektorálta.” (M5.1), „A videó AI-eszközzel készült, emberi lektorálással.” (M6.1), „AI-generált avatar, narrációt madrich lektorálta” (M7.2/M7.3/M7.4). A kánoni `Emberi jóváhagyás szükséges.md` §38 is nyitott, kötelező elemként tartja nyilván a jelölés szövegét és elhelyezését. |
-| R1-2 | A címke vizuális formája és elhelyezése | **HIÁNYZIK** → D1 / [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) |
+| R1-1 | A címke **egységes szövege** | **MEGVAN** — 2026-08-27-én jóváhagyva, szó szerint: **AI-generált médiaelem · emberi lektorálással.** Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve a tananyag mind a 21 aktív előfordulására; a korábbi négy változat megszűnt. Regressziós teszt őrzi (`TestApprovedDecisions`). |
+| R1-2 | A címke vizuális formája és elhelyezése | **HIÁNYZIK** → D1 első lépcső / [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md). A szöveg eldőlt, a megjelenés nem. |
 | R1-3 | Gépi provenance-jelölés (C2PA / Content Credentials / vízjel) megmaradása az exportban | **HIÁNYZIK** — a generátor kiválasztása után ellenőrizendő (R2-1) |
 
 ---
