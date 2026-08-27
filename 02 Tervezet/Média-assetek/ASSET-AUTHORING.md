@@ -123,8 +123,22 @@ felirat. Ha bizonytalan vagy, `"spoken"` a helyes választás.
 <!-- @endsource -->
 ```
 
-A `#1` a blokk **első** `„…”` idézetét választja ki. Ha a blokk két képhez ad
-altot, a második asset `#2`-vel hivatkozik ugyanarra a blokkra.
+A `#1` a blokkban álló `„…”` idézetet választja ki — a blokk szövegéből csak az
+alt-ot, a körülötte lévő előírás-mondat nélkül.
+
+**A szabály:** minden forráshoz kötött alt kapja meg a **saját `@source`
+blokkját**, és abban **pontosan egy** `„…”` idézet legyen; a hivatkozás mindig
+`#1`. Ha a blokkba egy második idézet is belekerül, a fordító **hibát jelez** —
+nem választ helyetted. Ez szándékos: egy pozíciós szelektor némán átcsúszna egy
+másik idézetre, ha valaki később beszúr egyet elé, és a CI ettől még zöld
+maradna.
+
+**Ha nem fér bele:** ne told a jelölőt egy bekezdés közepébe. Ha az alt pontos
+körbezárása megváltoztatná a renderelt Markdown szerkezetét — például egy
+idézetblokkon belül két alt áll egy bekezdésben, és a közéjük tett jelölő
+kettévágná azt a bekezdést —, akkor hagyd forrás nélkül: `a11y.alt_note`-tal
+tartsd meg az alt-követelményt, és írd le a mezőben, hogy a szöveg a leckében
+van megírva, de erre az egy altra nem terjed ki az élő ellenőrzés.
 
 ### 2.5 Dekoratív kép
 
@@ -253,7 +267,7 @@ Egy fájlban egy ilyen blokk lehet, és akkor nem lehet benne `@asset`.
 | `external` | | `source`, `url`, `path`, `owner`, `licence`, `evidence`, `replace` |
 | `production_rules` | | R1–R8 hivatkozás |
 | `blockers` | | nyitott kapuk (R2, R3, R5, R8) — ezek adják a státuszt |
-| `decision` | `human-decision`-nél ✅ | mit kell eldönteni és kinek |
+| `decision` | `human-decision`-nél ✅ | mit kell eldönteni és kinek. **Bármelyik módnál megadható**, és amíg nem üres, a státusz `emberi döntésre vár` — a produkciós szabályok előtt |
 | `reuse_of` | `reuse`-nál ✅ | a kanonikus asset ID-je |
 | `notes`, `review` | | megjegyzés, illetve migrációs/szerkesztői észrevétel |
 | `legacy` | | a v1 sorok leképezése (`{"asset": [...], "captions": [...]}`) |

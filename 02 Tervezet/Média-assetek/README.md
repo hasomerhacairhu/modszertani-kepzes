@@ -16,9 +16,26 @@ tartalmazza, rejtett HTML-kommentekben:
   anyag”, indoklással.
 
 Ezek a deklarációk **nem látszanak** a renderelt Markdownban, viszont a leckével
-együtt mozognak, és a fordító minden buildnél **élőben** olvassa ki belőlük a
-szöveget. Ha egy narráció megváltozik a leckében, a következő build automatikusan
-az új szöveget viszi a regiszterbe — nincs többé kifagyasztott pillanatkép.
+együtt mozognak. Amit `@source` blokk köt — a felmondandó narráció és a
+forráshoz kötött alt-szöveg —, azt a fordító **minden buildnél élőben** olvassa
+ki a leckéből: ha a szöveg megváltozik, a következő build automatikusan az újat
+viszi a regiszterbe, és a `check` megbukik, amíg nem építed újra. Nincs többé
+kifagyasztott pillanatkép.
+
+Két dokumentált kivétel-osztály marad:
+
+* **Nincs még szkript.** Ha egy beszélt asset nem old fel `source_ref`-et, a
+  státusza `blokkolt` (`MISSING_SPOKEN_SOURCE`), és a felirat/leirat
+  deliverable-je is az — ezt egyetlen produkciós szabály feloldása és kézzel
+  beírt `status` sem írja felül.
+* **Nem fogható forrásblokkba.** Ha az alt pontos körbezárása megváltoztatná a
+  renderelt Markdown szerkezetét (például kettévágna egy bekezdést), az asset
+  `a11y.alt_note`-tal tartja meg az alt-követelményt. Ilyenkor az alt **továbbra
+  is kötelező deliverable**, de a szövege nem esik az élő elcsúszás-ellenőrzés
+  alá — a mező kimondja, hogy melyik altról van szó és miért.
+
+Ezek kivételek, nem a szabály: az architektúra alapja továbbra is az, hogy a
+szöveg egy helyen, a leckében él.
 
 ## Mi generált?
 
@@ -69,8 +86,12 @@ kell hozzányúlni: a felirat, a leirat és a hang deliverable ugyanabból a
 forrásból jön.
 
 **Alt-szöveget adok vagy módosítok** → a leckében írod meg, `@source` blokkban
-(`"kind": "alt-text"`), és `a11y.alt_source_ref`-fel hivatkozol rá. Ha egy
-blokkban több alt van, a hivatkozás `#1`, `#2`… sorszámmal választ közülük.
+(`"kind": "alt-text"`), és `a11y.alt_source_ref`-fel hivatkozol rá. Minden alt
+kapja meg a **saját blokkját**, abban **pontosan egy** `„…”` idézettel; a
+hivatkozás mindig `#1`. Két idézet egy blokkban validációs hiba — a fordító nem
+választ helyetted. Ha az alt nem zárható körbe a renderelt szerkezet
+megváltoztatása nélkül, `a11y.alt_note`-ot használsz; a részleteket lásd az
+[`ASSET-AUTHORING.md`](./ASSET-AUTHORING.md) 2.4 pontjában.
 
 **Újrahasznosítok egy assetet** → `"mode": "reuse"` és `"reuse_of": "<másik ID>"`.
 Az újrahasznosított asset **nem gyárt új deliverable-t**.
@@ -113,7 +134,7 @@ Megőrizzük, mert a 747 történeti sor egyeztetése ebből dolgozik.
 
 A regiszter naprakész — a **gyártás** viszont nem indulhat, amíg ezek nyitva
 vannak. Az érintett assetek a `blockers` mezőben hivatkoznak rájuk, és a
-munkafüzet *Nyitott döntések* lapján is megjelennek. A szabályok teljes szövege a
+munkafüzet *Blokkolt assetek* lapján is megjelennek. A szabályok teljes szövege a
 munkafüzet *Produkciós konvenciók* lapján olvasható.
 
 | Kapu | Mi hiányzik | Mit blokkol |
@@ -127,9 +148,20 @@ munkafüzet *Produkciós konvenciók* lapján olvasható.
 Nem blokkoló, de minden vizuális munkára érvényes konvenció: **R1** (egységes
 AI-jelölés), **R4** (védjegy-semlegesség), **R6** (szín-szótár).
 
-Egy asset **emberi döntésre vár** (`mode: human-decision`) — lásd a *Nyitott
-döntések* munkalapot és az [`ASSET-MANIFEST-V2-MIGRATION.md`](./ASSET-MANIFEST-V2-MIGRATION.md)
-5. szakaszát.
+**Nyitott emberi döntés.** Egy nem üres `decision` mező önálló készültségi kapu:
+amíg ott áll, az asset státusza `emberi döntésre vár`, a produkciós szabályokból
+levezetett státusz és a kézzel beírt `status` előtt. Ehhez **nem kell**
+`mode: human-decision` — egy egyébként `legyártandó` asset is hordozhat nyitott
+döntést (a mód azt mondja meg, *hogyan* készül, a státusz azt, hogy
+*elkészíthető-e már*). Ha ugyanazon az asseten strukturális akadály is van
+(például `MISSING_SPOKEN_SOURCE`), a státusz `blokkolt` marad — a nyitott döntés
+attól még külön látszik a `readiness_issues` mezőben és a *Blokkolt assetek*
+lapon.
+
+A nyitott döntések teljes listája a munkafüzet *Emberi döntések* lapján és az
+[`ASSET-MANIFEST-V2-MIGRATION.md`](./ASSET-MANIFEST-V2-MIGRATION.md) 6.
+szakaszában van; a regiszterben az *⛔ Készültségi akadályok* és az *⚖️ Emberi
+döntésre váró tételek* szakasz mutatja őket.
 
 > ⚠️ **Emberi döntés:** az R8 szövegében — az R2/R3/R5-tel ellentétben — nincs
 > `⟬KITÖLTENDŐ⟭` jelölés. Hogy ez betartandó szabály-e (és így nem kapu), vagy

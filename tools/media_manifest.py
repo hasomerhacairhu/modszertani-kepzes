@@ -292,10 +292,18 @@ def normalise_source_text(text: str) -> str:
 
 
 #: A source block is a verbatim region of the lesson. Where an asset needs only
-#: one quoted span of it — a prescribed alt written as `**Javasolt alt:** „…”`
-#: inside a longer accessibility instruction, or one of two alts in a shared
-#: prescription — the REFERENCE carries the selector: `"M6.3-ALT#2"` takes the
-#: second „…” span. Selection only; the compiler never rewrites the words.
+#: the quotation inside it — a prescribed alt written as `**Javasolt alt:** „…”`
+#: within a longer accessibility instruction — the REFERENCE carries the
+#: selector: `"M1.1-DIA-01-ALT#1"` takes that quotation. Selection only; the
+#: compiler never rewrites the words.
+#:
+#: The selector is deliberately NOT positional. An alt source addressed with `#n`
+#: must hold exactly ONE „…” quotation and the selector must be `#1`; a second
+#: quotation is a validation error rather than a silent choice. Positional
+#: selection had a failure mode with no symptom: inserting an unrelated quotation
+#: earlier in the block rebinds the alt to the wrong text while CI stays green.
+#: Where the alt cannot be wrapped that tightly without splitting a rendered
+#: paragraph, the asset carries `a11y.alt_note` instead and is not live-bound.
 QUOTED_SPAN = re.compile(r"„(?P<text>[^„”]*)”", re.S)
 
 
