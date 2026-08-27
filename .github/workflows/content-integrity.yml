@@ -22,3 +22,39 @@ jobs:
       - name: Release blocker report
         if: always()
         run: python tools/content_integrity.py --release-report
+
+  media-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      # Full history: the content-invariant test compares the current curriculum
+      # against the commit the asset migration started from. A shallow clone
+      # would silently skip that test instead of running it.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install workbook dependency
+        run: python -m pip install --quiet openpyxl
+      - name: Baseline commit must be present
+        run: |
+          git cat-file -e a8629732e46eb489644dc90a624e6c8466612eda^{commit} || {
+            echo "A kiindulási commit hiányzik — a tartalom-invariáns teszt nem futna le."
+            exit 1
+          }
+      - name: Compiler selftest
+        run: python tools/media_manifest.py --selftest
+      - name: Manifest validation
+        run: python tools/media_manifest.py validate
+      - name: Generated registry is up to date
+        run: python tools/media_manifest.py check
+      - name: Historical row reconciliation
+        run: python tools/media_manifest.py reconcile
+      - name: Undeclared asset lint
+        run: python tools/media_manifest.py lint --high-only
+      - name: Media manifest tests
+        run: python -m unittest tools.test_media_manifest
+      - name: Current counts
+        if: always()
+        run: python tools/media_manifest.py stats
