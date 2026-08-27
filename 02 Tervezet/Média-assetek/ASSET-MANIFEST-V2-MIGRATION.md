@@ -26,11 +26,11 @@
 | Mutató | Érték |
 |---|--:|
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **909** |
+| Produkciós deliverable | **913** |
 | ebből legyártandó | 403 |
-| ebből újrahasznosítás | 8 |
+| ebből újrahasznosítás | 7 |
 | ebből külső forrás | 6 |
-| ebből emberi döntés kell | 1 |
+| ebből emberi döntés kell | 2 |
 | Forrásblokk | 121 |
 | Feldolgozott fájl | 84 |
 | Assetet tartalmazó fájl | 65 |
@@ -49,8 +49,8 @@ számolt *deliverable* keletkezik.
 | `CHANGED` | 4 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
 | `DERIVED_NOW` | 320 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
 | `MERGED_INTO_PARENT` | 6 | a szülő asset deklarációjába olvadt, nincs külön deliverable |
-| `REUSE` | 11 | explicit újrahasznosítás egy kanonikus assetre |
-| `AMBIGUOUS` | 1 | emberi döntés kell a besoroláshoz |
+| `REUSE` | 10 | explicit újrahasznosítás egy kanonikus assetre |
+| `AMBIGUOUS` | 2 | emberi döntés kell a besoroláshoz |
 | `CURRENTLY_UNMAPPED_ERROR` | 0 | **hiba** — egyetlen sor sem maradhat itt |
 
 **Összesen: 747 / 747 sor diszpozícionálva.**
@@ -83,11 +83,13 @@ bekerül a regiszterbe.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
+| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le (észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem gyártható. |
 | `M3.B-KART-03` | 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md | A v1 leltárban szereplő spec olyan foglalkozásformára épült, amit a jelenlegi tananyag már nem tartalmaz, és a jelenlegi peula-szöveg nem hivatkozik erre a segédanyagra. Emberi döntés kell arról, hogy szükség van-e rá, és ha igen, milyen tartalommal — a témáért felelős szakmai/gyermekvédelmi jóváhagyóval. Az eredeti v1 megfogalmazás a befagyasztott leltárban változatlanul megvan (M3.B-KART-03). |
+| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | HOOK-formátum inkonzisztencia az M4 modulon belül: az M4.1-VID-01 beszélőfej-videóval indít (mint az M1–M3 és M6–M7 leckék többsége), de az M4.2-ILL-01, M4.3-ILL-01 és M4.4-ILL-01 mind STATIKUS illusztrációval nyitja a HOOK-ot, beszélőfej-videó nélkül. Ez a modulon belüli nyitó-élmény váltakozása; a tanuló az M4.1 után már videós HOOK-ot várna. — [⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum: javaslat — M4.1 marad videó-HOOK (indokolt), M4.2–4.4 egységes statikus illusztráció + narráció. Megerősítendő.] Döntsd el modul-szinten a HOOK-formátumot (beszélőfej-videó vagy statikus illusztráció + narráció), és tartsd egységesen az M4.1–M4.4 leckéken belül, vagy rögzítsd, miért tér el az M4.1. |
 
 Hivatkozott produkciós szabályok / blokkolók:
 
-- **R5** — 247 asset
+- **R5** — 248 asset
 - **R3** — 118 asset
 - **R2** — 21 asset
 - **R8** — 11 asset

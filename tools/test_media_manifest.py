@@ -17,6 +17,7 @@ Run:  python3 -m unittest tools.test_media_manifest -v
 from __future__ import annotations
 
 import json
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -589,6 +590,34 @@ class TestRepositoryCorpus(unittest.TestCase):
         high = [f for f in mm.lint(self.model) if f["confidence"] == "HIGH"]
         self.assertEqual([], high, "feloldatlan HIGH jelzés a felderítő lintben")
 
+    def test_open_production_gates_stay_machine_detectable(self):
+        """A regenerated register may not quietly drop a release blocker.
+
+        `content_integrity --release-report` counts ⟬KITÖLTENDŐ⟭ occurrences. The
+        v1 register carried them; if the v2 renderer omits them, an organisational
+        gate stops being machine-visible without anyone deciding to close it.
+        """
+        open_rules = [r for r in mm.production_rules() if "KITÖLTENDŐ" in r["text"]]
+        self.assertTrue(open_rules, "R2/R3/R5 még nyitott — kell lennie jelölőnek")
+        register = mm.OUT_REGISTER_MD.read_text(encoding="utf-8")
+        self.assertIn("KITÖLTENDŐ", register)
+        for rule in open_rules:
+            self.assertIn(rule["id"], register, f"{rule['id']} kapu nem látszik a regiszterben")
+
+    def test_production_rules_are_not_read_from_the_retired_snapshot(self):
+        self.assertTrue(mm.PRODUCTION_RULES_FILE.exists())
+        self.assertNotIn("_legacy", mm.PRODUCTION_RULES_FILE.as_posix().rsplit("/", 1)[0])
+        self.assertEqual(8, len(mm.production_rules()))
+
+    def test_every_open_decision_surfaces_in_the_register(self):
+        register = mm.OUT_REGISTER_MD.read_text(encoding="utf-8")
+        decided = [a for a in self.model["assets"]
+                   if a["mode"] == "human-decision" or a["decision"]]
+        self.assertTrue(decided)
+        for asset in decided:
+            self.assertIn(asset["id"], register,
+                          f"{asset['id']} nyitott döntése nem látszik a regiszterben")
+
     def test_asset_free_files_state_a_reason(self):
         for file_rec in self.model["files"]:
             if file_rec["assets"] or not file_rec["file"].startswith("02 Tervezet/Modulok"):
@@ -602,55 +631,90 @@ class TestRepositoryCorpus(unittest.TestCase):
 # ==========================================================================
 
 class TestDriftDetection(unittest.TestCase):
+    """Drift detection, exercised on a throwaway copy of the repository.
+
+    These tests must mutate a lesson file and a generated CSV to prove the check
+    fires. They do that in a temp copy and drive the copied CLI, never the live
+    working tree: this repository carries unpushed hand-edited curriculum, and an
+    interrupted run that left a lesson stripped of its metadata is exactly the
+    failure class its history warns about.
+    """
+
+    @contextmanager
+    def sandbox(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "repo"
+            (root / "tools").mkdir(parents=True)
+            for name in ("media_manifest.py", "media_migrate_v2.py"):
+                shutil.copy2(mm.ROOT / "tools" / name, root / "tools" / name)
+            shutil.copytree(mm.ACTIVE_ROOT, root / "02 Tervezet")
+            yield root
+
+    @staticmethod
+    def run_cli(root: Path, *args) -> subprocess.CompletedProcess:
+        return subprocess.run([sys.executable, str(root / "tools" / "media_manifest.py"),
+                               *args], capture_output=True, text=True, cwd=str(root))
+
+    def test_sandbox_starts_green(self):
+        with self.sandbox() as root:
+            result = self.run_cli(root, "check")
+            self.assertEqual(0, result.returncode, result.stdout + result.stderr)
 
     def test_editing_narration_without_rebuilding_makes_check_fail(self):
         """The exact CI scenario: a VO wording change with a stale registry."""
-        model = mm.compile_manifest()
-        outputs = mm.build_outputs(model)
-        self.assertEqual([], mm.compare_outputs(outputs))
-
-        target = next(s for s in model["sources"] if s["kind"] == "narration")
-        path = mm.ROOT / target["file"]
-        original = path.read_text(encoding="utf-8")
-        first, last = target["body_lines"]
-        lines = original.split("\n")
-        lines[first - 1] = lines[first - 1] + " EGY-ÚJ-SZÓ"
-        try:
+        with self.sandbox() as root:
+            with mm._rel_root(root):
+                model = mm.compile_manifest(root / "02 Tervezet", strict=False)
+            target = next(s for s in model["sources"] if s["kind"] == "narration")
+            path = root / target["file"]
+            lines = path.read_text(encoding="utf-8").split("\n")
+            first = target["body_lines"][0]
+            lines[first - 1] += " EGY-ÚJ-SZÓ"
             path.write_text("\n".join(lines), encoding="utf-8")
-            edited = mm.build_outputs(mm.compile_manifest())
-            stale = mm.compare_outputs(edited)
-            self.assertTrue(stale, "a narráció megváltozott, mégsem lett elcsúszás")
-            self.assertTrue(any("assetek.csv" in entry for entry in stale))
-        finally:
-            path.write_text(original, encoding="utf-8")
-        self.assertEqual([], mm.compare_outputs(mm.build_outputs(mm.compile_manifest())))
+
+            result = self.run_cli(root, "check")
+            self.assertEqual(1, result.returncode, "a narráció megváltozott, mégsem bukott")
+            self.assertIn("ELCSÚSZOTT", result.stderr)
+            self.assertIn("assetek.csv", result.stderr)
+
+            self.assertEqual(0, self.run_cli(root, "build").returncode)
+            self.assertEqual(0, self.run_cli(root, "check").returncode)
 
     def test_hand_edited_generated_csv_makes_check_fail(self):
-        path = mm.OUT_ASSETS_CSV
-        original = path.read_bytes()
-        try:
-            path.write_bytes(original + "kézi,sor\r\n".encode("utf-8"))
-            stale = mm.compare_outputs(mm.build_outputs(mm.compile_manifest()))
-            self.assertTrue(any("assetek.csv" in entry for entry in stale))
-        finally:
-            path.write_bytes(original)
+        with self.sandbox() as root:
+            csv_path = root / mm.OUT_ASSETS_CSV.relative_to(mm.ROOT)
+            csv_path.write_bytes(csv_path.read_bytes() + "kézi,sor\n".encode("utf-8"))
+            result = self.run_cli(root, "check")
+            self.assertEqual(1, result.returncode)
+            self.assertIn("assetek.csv", result.stderr)
 
     def test_removing_a_declaration_makes_the_lint_speak_up(self):
         """The safety net has to be able to fire, not just stay silent."""
-        model = mm.compile_manifest()
-        self.assertEqual([], [f for f in mm.lint(model) if f["confidence"] == "HIGH"])
-        target = next(s for s in model["sources"] if s["kind"] == "narration")
-        path = mm.ROOT / target["file"]
-        original = path.read_text(encoding="utf-8")
-        stripped = mig.strip_metadata(original)
-        try:
-            path.write_text(stripped, encoding="utf-8")
-            findings = mm.lint(mm.compile_manifest(strict=False))
-            high = [f for f in findings if f["confidence"] == "HIGH"
-                    and f["file"] == target["file"]]
-            self.assertTrue(high, "a lint nem jelezte a deklaráció eltűnését")
-        finally:
-            path.write_text(original, encoding="utf-8")
+        with self.sandbox() as root:
+            self.assertEqual(0, self.run_cli(root, "lint", "--high-only").returncode)
+            with mm._rel_root(root):
+                model = mm.compile_manifest(root / "02 Tervezet", strict=False)
+            target = next(s for s in model["sources"] if s["kind"] == "narration")
+            path = root / target["file"]
+            path.write_text(mig.strip_metadata(path.read_text(encoding="utf-8")),
+                            encoding="utf-8")
+            result = self.run_cli(root, "lint", "--high-only")
+            self.assertEqual(1, result.returncode, "a lint nem jelezte a hiányt")
+            self.assertIn(Path(target["file"]).name, result.stdout)
+
+    def test_a_new_lesson_with_an_undeclared_video_fails_the_lint(self):
+        """An undeclared video drags mandatory captions with it — never MEDIUM."""
+        with self.sandbox() as root:
+            lesson = (root / "02 Tervezet/Modulok/M2/Online leckék"
+                      / "M2.9 – Vadonatúj lecke.md")
+            lesson.write_text(
+                "# M2.9 – Vadonatúj lecke\n\n## SLIDE 1 – HOOK\n\n"
+                "* Középen **AI beszélő fej videó** (16:9, felirattal).\n",
+                encoding="utf-8")
+            result = self.run_cli(root, "lint", "--high-only")
+            self.assertEqual(1, result.returncode,
+                             "deklarálatlan videó nem bukatta el a lintet")
+            self.assertIn("M2.9", result.stdout)
 
 
 class TestContentInvariant(unittest.TestCase):

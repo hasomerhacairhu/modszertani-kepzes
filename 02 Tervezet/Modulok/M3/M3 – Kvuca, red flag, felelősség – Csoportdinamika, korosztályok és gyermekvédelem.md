@@ -169,7 +169,7 @@ A modul végére a résztvevő…
 {
   "id": "M3-HUB-POSZ-01",
   "kind": "poster",
-  "mode": "reuse",
+  "mode": "human-decision",
   "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
   "purpose": "A gyermekvédelmi első-lépés-logika vizuális rögzítése és közös megalkotása; a red flag → jelzés → bevonás folyamat megjegyezhető térképe.",
   "spec": "Közös fali plakát/poszter a felelős madrich-lépéssorral: észreveszem → jelzek → nem maradok egyedül → kit vonok be. Előnyomott sablon-poszter üres, kitölthető mezőkkel, amit a csoport közösen tölt fel a peula során (lépés-térkép).",
@@ -181,8 +181,15 @@ A modul végére a résztvevő…
   "a11y": {
     "note": "Magas kontraszt a teremből olvashatósághoz; a 4 lépéses folyamatábráról szöveges alt-szöveg/leirat a digitális kísérőanyagban (a folyamat lineáris szöveges felsorolásként is meglegyen)."
   },
-  "reuse_of": "M3.B-MUNK-01",
-  "notes": "Újrahasznosítás indoklása (v1 dedup): Az áttekintő 'poszter'-ként, a részletes 'flipchart-sablon/munkalap'-ként hivatkozik – ugyanaz a kitölthető folyamatábra. A lépésszerkezet szövegezése kissé eltér, de ugyanaz a média. Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
+  "decision": "A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le (észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem gyártható.",
+  "production_rules": [
+    "R1",
+    "R5"
+  ],
+  "blockers": [
+    "R5"
+  ],
+  "notes": "Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
   "legacy": {
     "asset": [
       "M3.B-POSZ-01"

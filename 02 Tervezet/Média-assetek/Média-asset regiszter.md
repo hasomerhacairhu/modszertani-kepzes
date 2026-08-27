@@ -21,16 +21,16 @@
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 121 |
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **909** |
+| Produkciós deliverable | **913** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
 | legyártandó | 403 |
-| újrahasznosítás | 8 |
+| újrahasznosítás | 7 |
 | külső forrás | 6 |
-| emberi döntés kell | 1 |
+| emberi döntés kell | 2 |
 
 **Asset-típus szerint**
 
@@ -52,12 +52,13 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 410 |
+| elsődleges | 411 |
 | alt-szöveg | 123 |
 | nyomtatható PDF | 122 |
 | leirat | 118 |
 | felirat | 115 |
 | felmondott hang | 21 |
+| szerkeszthető, kitölthető változat | 3 |
 
 **Modul szerint**
 
@@ -78,19 +79,31 @@
 | Státusz | Db |
 |---|--:|
 | produkciós szabályra vár | 343 |
-| specifikáció kész | 42 |
+| specifikáció kész | 41 |
 | jogtisztázás alatt | 32 |
-| emberi döntésre vár | 1 |
+| emberi döntésre vár | 2 |
 
 **Nyitott produkciós blokkolók (hivatkozások szerint)**
 
 | Blokkoló | Érintett asset |
 |---|--:|
-| R5 | 247 |
+| R5 | 248 |
 | R3 | 118 |
 | R2 | 21 |
 | R8 | 11 |
 | R7 | 1 |
+
+## ⛔ Nyitott produkciós kapuk
+
+Ezek **szervezeti és jogi döntések**. Amíg nyitva vannak, a jelölt
+assetek kötegelt gyártása nem indulhat. A jelölés gépileg is
+detektálható, ezért a `content_integrity.py --release-report` számolja.
+
+| Szabály | Mi hiányzik | Érintett asset |
+|---|---|--:|
+| **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 21 |
+| **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID ⟬KITÖLTENDŐ⟭ | 118 |
+| **R5** — Ikon- és karakter-batch + lock | A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭ | 248 |
 
 ## 🗂 Assetek fájlonként
 
@@ -344,7 +357,7 @@
 |---|---|---|---|---|---|---|---|
 | `M2.A-KART-01` | card-set | legyártandó | produkciós szabályra vár | Identitás-vonal állítás-kártyák (8 db szett) | — | nyomtatható PDF | emberi |
 | `M2.A-KART-03` | card-set | legyártandó | produkciós szabályra vár | Kiscsoportos feldolgozás – beszélgetőkérdés-kártya / facilitátor-segédlet (4 kérdés) | — | nyomtatható PDF | emberi |
-| `M2.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Identitás-térkép munkalap (ÉN + körök) | — | nyomtatható PDF | emberi |
+| `M2.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Identitás-térkép munkalap (ÉN + körök) | — | nyomtatható PDF, szerkeszthető, kitölthető változat | emberi |
 | `M2.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Megosztási szabályok flipchart-sablon (kettős funkció: közös minták gyűjtéséhez is) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md
@@ -377,7 +390,7 @@
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M3-HUB-POSZ-01` | poster | újrahasznosítás | specifikáció kész | Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás) | — | — | vegyes |
+| `M3-HUB-POSZ-01` | poster | emberi döntés kell | emberi döntésre vár | Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás) | — | — | vegyes |
 | `M3-HUB-POSZ-02` | poster | legyártandó | produkciós szabályra vár | A/B sarok jelölőtáblák („Red flag” / „Nem red flag”) | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md
@@ -787,7 +800,7 @@
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Játéklap-sablon (üres kitölthető munkalap) | — | nyomtatható PDF | emberi |
+| `M6.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Játéklap-sablon (üres kitölthető munkalap) | — | nyomtatható PDF, szerkeszthető, kitölthető változat | emberi |
 | `M6.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Rubrika / minimum-checklista (értékelő lap) | — | nyomtatható PDF | emberi |
 | `M6.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Kész minta-játéklap – JÁTÉK példa (képzői mintalap) | — | nyomtatható PDF | emberi |
 | `M6.B-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Kész minta-játéklap – TÖRTÉNET példa (képzői mintalap) | — | nyomtatható PDF | emberi |
@@ -912,7 +925,7 @@
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M7.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – '1 gondolat / 1 kérdés leckénként' (L1–L4) + opcionális pótlási terv | — | nyomtatható PDF | emberi |
+| `M7.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – '1 gondolat / 1 kérdés leckénként' (L1–L4) + opcionális pótlási terv | — | nyomtatható PDF, szerkeszthető, kitölthető változat | emberi |
 | `M7.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4) – peula előtt/közben/után | — | nyomtatható PDF | emberi |
 | `M7.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Állapotfelmérő tábla – M7 leckesorok + 'Kész' sor | — | nyomtatható PDF | emberi |
 | `M7.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – 4 buborék (SMART, 11 pont, Zmán Kvucá, Peula v2 & AI) | — | nyomtatható PDF | emberi |
@@ -995,7 +1008,9 @@
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
+| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le (észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem gyártható. |
 | `M3.B-KART-03` | 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md | A v1 leltárban szereplő spec olyan foglalkozásformára épült, amit a jelenlegi tananyag már nem tartalmaz, és a jelenlegi peula-szöveg nem hivatkozik erre a segédanyagra. Emberi döntés kell arról, hogy szükség van-e rá, és ha igen, milyen tartalommal — a témáért felelős szakmai/gyermekvédelmi jóváhagyóval. Az eredeti v1 megfogalmazás a befagyasztott leltárban változatlanul megvan (M3.B-KART-03). |
+| `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | HOOK-formátum inkonzisztencia az M4 modulon belül: az M4.1-VID-01 beszélőfej-videóval indít (mint az M1–M3 és M6–M7 leckék többsége), de az M4.2-ILL-01, M4.3-ILL-01 és M4.4-ILL-01 mind STATIKUS illusztrációval nyitja a HOOK-ot, beszélőfej-videó nélkül. Ez a modulon belüli nyitó-élmény váltakozása; a tanuló az M4.1 után már videós HOOK-ot várna. — [⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum: javaslat — M4.1 marad videó-HOOK (indokolt), M4.2–4.4 egységes statikus illusztráció + narráció. Megerősítendő.] Döntsd el modul-szinten a HOOK-formátumot (beszélőfej-videó vagy statikus illusztráció + narráció), és tartsd egységesen az M4.1–M4.4 leckéken belül, vagy rögzítsd, miért tér el az M4.1. |
 
 ---
 

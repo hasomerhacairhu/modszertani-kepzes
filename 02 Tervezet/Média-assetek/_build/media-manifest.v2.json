@@ -8,13 +8,13 @@
     "files_with_sources": 26,
     "sources": 121,
     "assets": 418,
-    "deliverables": 909,
+    "deliverables": 913,
     "source_backed_assets": 121,
     "by_mode": {
       "generate": 403,
-      "reuse": 8,
+      "reuse": 7,
       "external": 6,
-      "human-decision": 1
+      "human-decision": 2
     },
     "by_kind": {
       "voiceover": 91,
@@ -53,20 +53,21 @@
     },
     "by_status": {
       "pending-production-rule": 343,
-      "spec-ready": 42,
+      "spec-ready": 41,
       "pending-rights": 32,
-      "pending-human-decision": 1
+      "pending-human-decision": 2
     },
     "deliverables_by_role": {
-      "primary": 410,
+      "primary": 411,
       "alt-text": 123,
       "print-pdf": 122,
       "transcript": 118,
       "captions": 115,
-      "voiceover": 21
+      "voiceover": 21,
+      "editable": 3
     },
     "blockers": {
-      "R5": 247,
+      "R5": 248,
       "R3": 118,
       "R2": 21,
       "R8": 11,
@@ -2726,10 +2727,10 @@
       "id": "M4.2-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 196,
+      "line": 197,
       "body_lines": [
-        197,
-        210
+        198,
+        211
       ],
       "unit": "M4.2",
       "module": "M4",
@@ -2746,10 +2747,10 @@
       "id": "M4.2-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 386,
+      "line": 387,
       "body_lines": [
-        387,
-        405
+        388,
+        406
       ],
       "unit": "M4.2",
       "module": "M4",
@@ -2766,10 +2767,10 @@
       "id": "M4.2-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 508,
+      "line": 509,
       "body_lines": [
-        509,
-        519
+        510,
+        520
       ],
       "unit": "M4.2",
       "module": "M4",
@@ -2786,10 +2787,10 @@
       "id": "M4.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 869,
+      "line": 870,
       "body_lines": [
-        870,
-        885
+        871,
+        886
       ],
       "unit": "M4.2",
       "module": "M4",
@@ -11236,7 +11237,8 @@
         "note": "Nyomtatott munkalap; ha digitális/kitölthető verzió is készül, biztosíts logikus címke-struktúrát és kitölthető mezőket. Önmaga szöveges/rajzos artefaktum, külön alt-szöveg nem szükséges."
       },
       "derivatives": [
-        "print-pdf"
+        "print-pdf",
+        "editable"
       ],
       "reuse_of": "",
       "reuse_resolves_to": "",
@@ -11258,10 +11260,11 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c8cc1c381483317da06a426a99baa7c5d61041db2bdafe27194cd27d39f90ecb",
+      "spec_hash": "3b31d53100aa8132977b062336f637321b1db02dddf277249929a83afa7c8520",
       "deliverable_ids": [
         "M2.A-MUNK-01",
-        "M2.A-MUNK-01::PRINTPDF"
+        "M2.A-MUNK-01::PRINTPDF",
+        "M2.A-MUNK-01::EDITABLE"
       ],
       "legacy": {
         "asset": [
@@ -11900,8 +11903,8 @@
       "line": 168,
       "kind": "poster",
       "subtype": "",
-      "mode": "reuse",
-      "status": "spec-ready",
+      "mode": "human-decision",
+      "status": "pending-human-decision",
       "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
       "purpose": "A gyermekvédelmi első-lépés-logika vizuális rögzítése és közös megalkotása; a red flag → jelzés → bevonás folyamat megjegyezhető térképe.",
       "spec": "Közös fali plakát/poszter a felelős madrich-lépéssorral: észreveszem → jelzek → nem maradok egyedül → kit vonok be. Előnyomott sablon-poszter üres, kitölthető mezőkkel, amit a csoport közösen tölt fel a peula során (lépés-térkép).",
@@ -11914,13 +11917,18 @@
         "note": "Magas kontraszt a teremből olvashatósághoz; a 4 lépéses folyamatábráról szöveges alt-szöveg/leirat a digitális kísérőanyagban (a folyamat lineáris szöveges felsorolásként is meglegyen)."
       },
       "derivatives": [],
-      "reuse_of": "M3.B-MUNK-01",
-      "reuse_resolves_to": "M3.B-MUNK-01",
+      "reuse_of": "",
+      "reuse_resolves_to": "",
       "external": {},
-      "blockers": [],
-      "production_rules": [],
-      "decision": "",
-      "notes": "Újrahasznosítás indoklása (v1 dedup): Az áttekintő 'poszter'-ként, a részletes 'flipchart-sablon/munkalap'-ként hivatkozik – ugyanaz a kitölthető folyamatábra. A lépésszerkezet szövegezése kissé eltér, de ugyanaz a média. Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
+      "blockers": [
+        "R5"
+      ],
+      "production_rules": [
+        "R1",
+        "R5"
+      ],
+      "decision": "A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le (észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem gyártható.",
+      "notes": "Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
       "review": "",
       "source_ref": "",
       "source_line": [],
@@ -11930,8 +11938,10 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5ed98a510fd9a9c8e8f91b4481610999cb414c7d471725377ab1e33ac4ef848f",
-      "deliverable_ids": [],
+      "spec_hash": "a591da0634a2224489be8298fd04817fa36d6d4b7b12aa78c1c06e950ba2793b",
+      "deliverable_ids": [
+        "M3-HUB-POSZ-01"
+      ],
       "legacy": {
         "asset": [
           "M3.B-POSZ-01"
@@ -11944,7 +11954,7 @@
       "module": "M3",
       "file_kind": "hub",
       "file": "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md",
-      "line": 194,
+      "line": 201,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -16960,7 +16970,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 412,
+      "line": 413,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -17011,7 +17021,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 576,
+      "line": 577,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -17062,7 +17072,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 663,
+      "line": 664,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -17113,7 +17123,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 735,
+      "line": 736,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -17164,7 +17174,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 239,
+      "line": 240,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -17251,7 +17261,7 @@
         "R1",
         "R5"
       ],
-      "decision": "",
+      "decision": "HOOK-formátum inkonzisztencia az M4 modulon belül: az M4.1-VID-01 beszélőfej-videóval indít (mint az M1–M3 és M6–M7 leckék többsége), de az M4.2-ILL-01, M4.3-ILL-01 és M4.4-ILL-01 mind STATIKUS illusztrációval nyitja a HOOK-ot, beszélőfej-videó nélkül. Ez a modulon belüli nyitó-élmény váltakozása; a tanuló az M4.1 után már videós HOOK-ot várna. — [⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum: javaslat — M4.1 marad videó-HOOK (indokolt), M4.2–4.4 egységes statikus illusztráció + narráció. Megerősítendő.] Döntsd el modul-szinten a HOOK-formátumot (beszélőfej-videó vagy statikus illusztráció + narráció), és tartsd egységesen az M4.1–M4.4 leckéken belül, vagy rögzítsd, miért tér el az M4.1.",
       "notes": "A slide 1 narrációjával (M4.2-NAR-01) és a Single Choice interakcióval (M4.2-EGY-01) összetartozik.",
       "review": "",
       "source_ref": "",
@@ -17262,7 +17272,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b2ac19bd3c998caa44640fd333ab783b55cc13287a73324ccb9653e68ca6abf9",
+      "spec_hash": "1be83696e32a943b6d07d63e4b7cb14560cff5e04e22af99ad0704c8a13f15d9",
       "deliverable_ids": [
         "M4.2-ILL-01",
         "M4.2-ILL-01::ALTTEXT"
@@ -17279,7 +17289,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 273,
+      "line": 274,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -17338,7 +17348,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 765,
+      "line": 766,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -17397,7 +17407,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 139,
+      "line": 140,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -17432,8 +17442,8 @@
       "review": "",
       "source_ref": "M4.2-NAR-01-VO",
       "source_line": [
-        197,
-        210
+        198,
+        211
       ],
       "source_text": "„Képzeld el, hogy egy képzős társad azt írja vagy mondja neked:\n*‘Nagyon ideges vagyok, hogy holnap peulát kell tartanom…’*\n\nNincs sok időd, rögtön válaszolsz valamit.\n\nAz első reakciód nagyon sokat számít abban,\nhogy ő mit érez:\n**tényleg rá figyelsz**,\nvagy inkább gyorsan el akarod ütni a feszültségét.\n\nNézzük meg, mi lenne a legelső mondat,\nami eszedbe jutna.”",
       "source_hash": "bd1f419e01f32f1b60d9dd443b2e5ce4f575003abba9354ce46fe0bf559881cd",
@@ -17465,7 +17475,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 310,
+      "line": 311,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -17500,8 +17510,8 @@
       "review": "",
       "source_ref": "M4.2-NAR-02-VO",
       "source_line": [
-        387,
-        405
+        388,
+        406
       ],
       "source_text": "„Az aktív hallgatás azt jelenti,\nhogy tényleg a másikra figyelsz –\nnem arra, hogy te mit fogsz mondani utána,\nés nem csak egy kész tanácsot akarsz bedobni.\n\nA visszatükrözés pedig az,\nhogy a saját szavaiddal elmondod neki,\nmit értettél abból, amit mondott vagy mutatott.\n\nPéldául: *‘Azt hallom, hogy nagyon félsz attól,\nhogy ciki lesz a peulád.’*\n\nNem kell megoldanod az életét,\nés nem vagy terapeuta.\n\nDe azzal nagyon sokat tudsz adni,\nha azt érzi: **jelen vagy, figyelsz, érted**.”",
       "source_hash": "b1c0b0237e3e64fcc036484eac8db99654889473796c9a5d444cc96235dceae0",
@@ -17533,7 +17543,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 441,
+      "line": 442,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -17568,8 +17578,8 @@
       "review": "",
       "source_ref": "M4.2-NAR-03-VO",
       "source_line": [
-        509,
-        519
+        510,
+        520
       ],
       "source_text": "„Most néhány tipikus mondatot nézünk meg,\namit egy képzős társad vagy később egy chanich mondhat neked.\n\nA kártyák hátoldalán kétféle válasz lesz.\n\nGondold végig:\n**melyik az, ami inkább lezár**,\nés melyik az, ami segít abban,\nhogy a másik érezze: figyelsz rá és érted.”",
       "source_hash": "cc5e9efdc46c9251fdfa46220e7a705445b46ec79b08f5379442ee79728a3463",
@@ -17601,7 +17611,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 803,
+      "line": 804,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -17636,8 +17646,8 @@
       "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "M4.2-NAR-04-VO",
       "source_line": [
-        870,
-        885
+        871,
+        886
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nNem az a cél, hogy soha többé ne mondj ügyetlen mondatokat –\nilyen mindenkivel előfordul.\n\nA cél az, hogy legyen **legalább egy mondatod**,\namivel legközelebb nem tanácsot adsz,\nhanem **visszatükrözöd**, amit a másik mond.\n\nÉs legyen egy mondat,\namit tudatosan elengedsz,\nmert inkább lezár, mint segít.”\n\n🔒 **Biztonságos megosztás:** ezt a két mondatot **magadnak írod** – a saját reagálási szokásaidról szól. Nem kell konkrét nevet vagy sztorit írnod; elég magát a mondatot megfogalmazni. A mentorod a completion miatt láthatja, hogy kitöltötted; **mással nem osztjuk meg**.",
       "source_hash": "29556d05d6328022649dd382feb28f2307f5fc7b588e9854d35241c739d6644a",
@@ -24455,7 +24465,8 @@
         "note": "Nyomtatott kézi kitöltésre. Digitális/akadálymentes változatban a mezők kitölthető form-fieldként és képernyőolvasóval olvashatóan készüljenek el; minden mező feliratozva."
       },
       "derivatives": [
-        "print-pdf"
+        "print-pdf",
+        "editable"
       ],
       "reuse_of": "",
       "reuse_resolves_to": "",
@@ -24477,10 +24488,11 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "32a073b9d91192a08afcb4704faa8ca0216daaf94e34f0d98eb89400498212ec",
+      "spec_hash": "cefb6c60d65e9dc6bd9345a7d3a8fd0ad619e27287a6cab0da628b46e739b5b1",
       "deliverable_ids": [
         "M6.B-MUNK-01",
-        "M6.B-MUNK-01::PRINTPDF"
+        "M6.B-MUNK-01::PRINTPDF",
+        "M6.B-MUNK-01::EDITABLE"
       ],
       "legacy": {
         "asset": [
@@ -24606,7 +24618,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
-      "line": 266,
+      "line": 267,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -24662,7 +24674,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
-      "line": 300,
+      "line": 301,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -24718,7 +24730,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
-      "line": 528,
+      "line": 529,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -24774,7 +24786,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
-      "line": 382,
+      "line": 383,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -28211,7 +28223,8 @@
         "note": "Nyomtatott betűméret legyen elég nagy a kézi kitöltéshez; digitális/kitölthető verzió biztosítása ajánlott azoknak, akik eszközön jegyzetelnek (a peula amúgy is saját eszközön zajlik)."
       },
       "derivatives": [
-        "print-pdf"
+        "print-pdf",
+        "editable"
       ],
       "reuse_of": "",
       "reuse_resolves_to": "",
@@ -28233,10 +28246,11 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3d7d5d0a16f831cfeb5151f45d664aa112c373279827e5d33e70b88a2d048f2f",
+      "spec_hash": "8af0c961b5b58b46fc2db3475af96ea43719bbbaa2eef66878cf755493fff627",
       "deliverable_ids": [
         "M7.F-MUNK-01",
-        "M7.F-MUNK-01::PRINTPDF"
+        "M7.F-MUNK-01::PRINTPDF",
+        "M7.F-MUNK-01::EDITABLE"
       ],
       "legacy": {
         "asset": [
@@ -28250,7 +28264,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
-      "line": 347,
+      "line": 348,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -28362,7 +28376,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
-      "line": 227,
+      "line": 228,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -35285,6 +35299,28 @@
       ]
     },
     {
+      "id": "M2.A-MUNK-01::EDITABLE",
+      "asset_id": "M2.A-MUNK-01",
+      "role": "editable",
+      "role_label": "szerkeszthető, kitölthető változat",
+      "kind": "worksheet",
+      "subtype": "",
+      "unit": "M2.A",
+      "module": "M2",
+      "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
+      "file_kind": "peula",
+      "title": "Identitás-térkép munkalap (ÉN + körök) — szerkeszthető, kitölthető változat",
+      "mode": "generate",
+      "status": "pending-production-rule",
+      "provenance": "human",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [
+        "R5"
+      ]
+    },
+    {
       "id": "M2.A-POSZ-01",
       "asset_id": "M2.A-POSZ-01",
       "role": "primary",
@@ -35761,6 +35797,28 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "human",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [
+        "R5"
+      ]
+    },
+    {
+      "id": "M3-HUB-POSZ-01",
+      "asset_id": "M3-HUB-POSZ-01",
+      "role": "primary",
+      "role_label": "elsődleges",
+      "kind": "poster",
+      "subtype": "",
+      "unit": "M3-HUB",
+      "module": "M3",
+      "file": "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md",
+      "file_kind": "hub",
+      "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
+      "mode": "human-decision",
+      "status": "pending-human-decision",
+      "provenance": "mixed",
       "source_id": "",
       "text": "",
       "text_hash": "",
@@ -45499,6 +45557,28 @@
       ]
     },
     {
+      "id": "M6.B-MUNK-01::EDITABLE",
+      "asset_id": "M6.B-MUNK-01",
+      "role": "editable",
+      "role_label": "szerkeszthető, kitölthető változat",
+      "kind": "worksheet",
+      "subtype": "",
+      "unit": "M6.B",
+      "module": "M6",
+      "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
+      "file_kind": "peula",
+      "title": "Játéklap-sablon (üres kitölthető munkalap) — szerkeszthető, kitölthető változat",
+      "mode": "generate",
+      "status": "pending-production-rule",
+      "provenance": "human",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [
+        "R5"
+      ]
+    },
+    {
       "id": "M6.B-MUNK-02",
       "asset_id": "M6.B-MUNK-02",
       "role": "primary",
@@ -48514,6 +48594,28 @@
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
       "file_kind": "peula",
       "title": "Jegyzetlap – '1 gondolat / 1 kérdés leckénként' (L1–L4) + opcionális pótlási terv — nyomtatható PDF",
+      "mode": "generate",
+      "status": "pending-production-rule",
+      "provenance": "human",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [
+        "R5"
+      ]
+    },
+    {
+      "id": "M7.F-MUNK-01::EDITABLE",
+      "asset_id": "M7.F-MUNK-01",
+      "role": "editable",
+      "role_label": "szerkeszthető, kitölthető változat",
+      "kind": "worksheet",
+      "subtype": "",
+      "unit": "M7.F",
+      "module": "M7",
+      "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
+      "file_kind": "peula",
+      "title": "Jegyzetlap – '1 gondolat / 1 kérdés leckénként' (L1–L4) + opcionális pótlási terv — szerkeszthető, kitölthető változat",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "human",

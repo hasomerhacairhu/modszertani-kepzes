@@ -31,9 +31,15 @@ Ezek a fájlok **kézzel nem szerkeszthetők**:
 | `deliverable-ek.csv` | Produkciós deliverable-ek — amit ténylegesen le kell gyártani. |
 | `ujrahasznositas.csv` | Explicit újrahasznosítások (`mode: reuse`). |
 | `Média-asset regiszter.md` | Ember-olvasható áttekintő. |
-| `Média-asset regiszter.xlsx` | Produkciós munkafüzet (7 munkalap, szűrhető). |
+| `Média-asset regiszter.xlsx` | Produkciós munkafüzet (9 munkalap, szűrhető): *Összesítő · Assetek · Deliverable-ek · Újrahasznosítás · **Emberi döntések** · **Blokkolt assetek** · Migráció · Produkciós konvenciók · Asset nélküli fájlok*. |
 | `asset-migration-map.csv` | A 747 történeti sor soronkénti diszpozíciója. |
 | `ASSET-MANIFEST-V2-MIGRATION.md` | A migráció összefoglalója. |
+
+### Kánoni bemenet, nem generált
+
+| Fájl | Mire való |
+|---|---|
+| `produkcios-szabalyok.json` | Az R1–R8 produkciós konvenciók szövege. **Kézzel karbantartott:** amikor egy szervezeti vagy jogi döntés megszületik, itt kell kivezetni a `⟬KITÖLTENDŐ⟭` jelölést. A fordító ebből dolgozik, nem a befagyasztott v1 pillanatképből. |
 
 ## Parancsok
 
@@ -130,11 +136,12 @@ döntések* munkalapot és az [`ASSET-MANIFEST-V2-MIGRATION.md`](./ASSET-MANIFES
 > önálló jóváhagyást igényel a fotó/képernyőkép-assetek élesítése előtt, a
 > gyermekvédelmi és adatvédelmi felelősnek kell tisztáznia.
 
-> ⚠️ **Tisztázandó a v1 README-ből:** az korábbi olvasat egy `J19` hivatkozást is
-> nyitott kapuként sorolt fel („az M4 HOOK-formátum szerzői megerősítése”).
-> Ilyen azonosító **nincs** a befagyasztott adathalmazban (sem a 8 produkciós
-> szabály, sem a 61 audit-megállapítás között), ezért a v2 nem hivatkozik rá.
-> Ha a kapu valós, szerzői megerősítés kell hozzá — ez nem gépi kérdés.
+> ⚠️ **Az M4 HOOK-formátum szerzői döntése nyitva van.** A v1 README ezt `J19`
+> néven említette; ilyen azonosító sehol nincs a befagyasztott adathalmazban, a
+> **döntés maga viszont igen**: a stílus-konzisztencia audit megállapítása az
+> `M4.2-ILL-01` assethez van kötve („⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum…
+> Megerősítendő”). A v2 ezt az asset `decision` mezőjében viszi tovább, így a
+> munkafüzet *Emberi döntések* lapján és a migrációs jelentésben is látszik.
 
 Ezek **szervezeti és jogi döntések**. A fordító csak nyilvántartja őket; nem old
 fel egyet sem.

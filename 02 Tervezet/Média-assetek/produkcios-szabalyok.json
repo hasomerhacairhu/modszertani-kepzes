@@ -1,0 +1,45 @@
+{
+  "_comment": "A produkciós konvenciók KÁNONI adata (R1–R8). Kézzel karbantartott: amikor egy szervezeti vagy jogi döntés megszületik, itt kell kivezetni a ⟬KITÖLTENDŐ⟭ jelölést. A szöveg a v1 leltárból származik szó szerint (_legacy/media-merged.json), de a fordító MÁR EBBŐL dolgozik — a befagyasztott JSON csak a történeti egyeztetés bemenete.",
+  "rules": [
+    {
+      "id": "R1",
+      "title": "Egységes AI-jelölés",
+      "text": "KÖTELEZŐ PROJEKTSZABÁLY: minden provenance=AI asseten EGYETLEN kanonikus, ember-olvasható AI-címke (egységes szöveg + megjelenés). Kiterjed az M0–M3 beszélőfej-videókra is, ahol eddig hiányzott. AJÁNLOTT JÓ GYAKORLAT: ahol a generáló eszköz ad gépi provenance-jelölést (C2PA / Content Credentials / vízjel), azt az export ne távolítsa el, és élesítés előtt ellenőrizzük, hogy a végső fájlban megmaradt. Ez NEM levezetett deployer-kötelezettség: az EU AI Act 50. cikk (2) szerinti gépi jelölési kötelezettség a szintetikus tartalmat előállító AI-rendszer SZOLGÁLTATÓJÁT (provider) terheli, nem azt a szervezetet, amely az eszközzel oktatási médiát készít. A deployer-oldali 50. cikk (4) közzétételi esetek (deepfake, közérdekű AI-szöveg) alkalmazhatóságát JOGI REVIEW minősítse. (Program terv §4 AI-provenance + §9 7. sor.)"
+    },
+    {
+      "id": "R2",
+      "title": "AI-avatar / AI-hang IP-megfelelőség",
+      "text": "Minden AI-avatar és AI-hang assethez dokumentálandó: a használt generátor neve, a kereskedelmi/oktatási felhasználást engedő licenc, és a voice-talent release. A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi)."
+    },
+    {
+      "id": "R3",
+      "title": "Narrátor hang-bible",
+      "text": "EGYETLEN konzisztens narrátor-hang az egész tananyagban, tegező + barátságos regiszterben — a Z-záró és az M4 modulokat is beleértve. Modulonként a TTS vs. emberi felmondó döntés dokumentálandó; a konkrét TTS-motor / voice-ID ⟬KITÖLTENDŐ⟭."
+    },
+    {
+      "id": "R4",
+      "title": "Védjegy-semlegesség",
+      "text": "Tilos a védjegyzett platformok (Messenger / WhatsApp / Discord / Insta / Moodle) vizuális nyelvének másolása; semleges, nem-védjegyzett stílus kötelező (semleges chat-buborék, sztori-kör, LMS-felület)."
+    },
+    {
+      "id": "R5",
+      "title": "Ikon- és karakter-batch + lock",
+      "text": "A visszatérő ikon-készletek (SBI 3-szín; 4-kvuca piktogramok; M6.4 9 szekció-ikon) EGYSZER gyártandók közös stílus-tokennel és rögzített palettával, több helyen újrahasznosítva. Az AI karakter-jelenetek (M1.3-VID-01; M4.1-VID-03/04/05) rögzített referencia-karakterrel/seeddel készülnek, a freeze-frame-ek a videó-gyártás részeként. A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭."
+    },
+    {
+      "id": "R6",
+      "title": "Szín-szótár",
+      "text": "Tananyag-szintű szín-szótár: ugyanazon alapszín eltérő szemantikai újrahasznosítását (pl. kék = SBI-S vs. kék = Cionizmus) kerülni vagy explicit jelölni kell."
+    },
+    {
+      "id": "R7",
+      "title": "Produkciós függőségek",
+      "text": "A véglegesített Moodle-felülettől függő assetek (pl. M0.3-FOTO-01 screenshot) csak a kurzus-véglegesítés UTÁN gyárthatók — gate-elt függőség, célzott felbontás/arány előre rögzítve."
+    },
+    {
+      "id": "R8",
+      "title": "GDPR / képmás-védelem",
+      "text": "Valós fotó/screenshot esetén minden azonosítható személyt/kézírást anonimizálni vagy kikeretezni kell; felismerhető kiskorúnál dokumentált szülői hozzájárulás ELŐRE kötelező. Screenshotnál nincs valós felhasználónév/arc és nincs licenc-korlátos 3rd-party elem. (Megerősíti az M6.3 illusztráció-döntést.)"
+    }
+  ]
+}

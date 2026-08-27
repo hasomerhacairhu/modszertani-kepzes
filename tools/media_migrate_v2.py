@@ -93,6 +93,13 @@ RULE_FOR_TRADEMARK = ("R4",)
 TRADEMARK_RE = re.compile(r"Messenger|WhatsApp|Discord|Insta|chat-buborék|"
                           r"sztori-kör|LMS-felület", re.I)
 
+#: A printed template that the corpus also asks for as a fillable digital form is
+#: TWO produced files, not one. Losing the second one lost its accessibility
+#: requirement (labelled form fields, tab order) from the production list.
+EDITABLE_RE = re.compile(
+    r"szerkeszthető verzió|szerkeszthető változat|kitölthető PDF|digitálisan is kitölthető|"
+    r"form-?field|űrlapmező|Google/Word sablon|doc/sheet|digitális.{0,24}kitölthető", re.I)
+
 #: Physical items that are bought, not produced: the register has to keep them
 #: (a peula cannot run without them) but they carry no production spec.
 CONSUMABLE_RE = re.compile(
@@ -174,6 +181,24 @@ NOT_ACTUALLY_REUSE: dict[str, str] = {
 
 #: Reuse the v1 dedup analysis recorded and the current sources confirm, but
 #: which only becomes expressible once the hub has its own namespace.
+#: Reuse the v1 dedup asserted but the two specs contradict on a safeguarding
+#: point: the hub's poster draws a FOUR-step disclosure path, the canonical
+#: worksheet a FIVE-node one whose missing node carries the non-negotiable
+#: instruction not to promise confidentiality. Which one is canonical is a
+#: child-protection question, not a compiler question.
+#: Keyed by the v1 identifier, like every other migration table here.
+SAFEGUARDING_DECISIONS: dict[str, str] = {
+    "M3.B-POSZ-01": (
+        "A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le "
+        "(észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus "
+        "sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható "
+        "instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% "
+        "titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. "
+        "Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, "
+        "és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem "
+        "gyártható."),
+}
+
 EXTRA_REUSE: dict[str, tuple[str, str]] = {
     "Z.A-POSZ-02": ("Z.A-POSZ-01",
                     "a Z hub „Lezáró rituálé” blokkja és a Z.A peula ugyanazt az egy "
@@ -481,6 +506,30 @@ def find_alt_blocks(doc: Doc) -> list[dict]:
 # --------------------------------------------------------------------------
 
 ID_RE = re.compile(r"\b((?:M[0-7]|Z)(?:[.\-][0-9A-ZÁÉÍÓÖŐÚÜŰ]+)*-[A-ZÁÉÍÓÖŐÚÜŰ]{3,4}-\d{2})\b")
+
+
+_AUDIT_DECISIONS: dict[str, str] | None = None
+
+
+def open_decision_for(old_id: str) -> str:
+    """An unresolved authoring decision the v1 audit recorded against this row.
+
+    The audit marked them with ⟬SZERZŐI DÖNTÉS⟭ / ⟬KITÖLTENDŐ⟭. They are open
+    questions about the curriculum, not defects the migration may close, so they
+    move into the asset's `decision` field and surface in the register.
+    """
+    global _AUDIT_DECISIONS
+    if _AUDIT_DECISIONS is None:
+        _AUDIT_DECISIONS = {}
+        legacy = mm.load_legacy() or {}
+        for dimension in legacy.get("audit", []):
+            for finding in dimension.get("findings", []):
+                fix = finding.get("fix", "") or ""
+                asset_id = finding.get("assetId", "")
+                if asset_id and "⟬" in fix and "PÓTOLVA" not in fix:
+                    _AUDIT_DECISIONS[asset_id] = (
+                        f"{finding.get('issue', '').strip()} — {fix.strip()}")
+    return _AUDIT_DECISIONS.get(old_id, "")
 
 
 def normalise_provenance(raw: str) -> str:
@@ -1058,6 +1107,8 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
 
     if kind in mm.PRINT_KINDS or kind in mm.DOC_KINDS:
         derivatives.append("print-pdf")
+        if EDITABLE_RE.search(f"{spec} {tech_note} {a11y_note}"):
+            derivatives.append("editable")
 
     if alt_source_ref and a11y.get("visual") == "informative":
         a11y["alt_source_ref"] = alt_source_ref
@@ -1070,8 +1121,13 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
     mode = "generate"
     reuse_of = ""
     reuse_reason = ""
+    decision = ""
     external: dict[str, str] = {}
-    if row["assetId"] in reuse_map:
+    if row["assetId"] in SAFEGUARDING_DECISIONS:
+        mode = "human-decision"
+        decision = SAFEGUARDING_DECISIONS[row["assetId"]]
+        derivatives = []
+    elif row["assetId"] in reuse_map:
         canonical_old, reuse_reason = reuse_map[row["assetId"]]
         reuse_of = v2_id_of_legacy(canonical_old)
         mode = "reuse"
@@ -1113,6 +1169,8 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
         declaration["a11y"] = a11y
     if unique:
         declaration["derivatives"] = unique
+    if decision:
+        declaration["decision"] = decision
     if reuse_of:
         declaration["reuse_of"] = reuse_of
     if external:
@@ -1135,6 +1193,9 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
         reviews.append(RUNTIME_REVIEW)
     if reviews:
         declaration["review"] = " ".join(reviews)
+    audit_decision = open_decision_for(row["assetId"])
+    if audit_decision and not declaration.get("decision"):
+        declaration["decision"], _ = replace_placeholders(audit_decision)
     declaration["legacy"] = {k: sorted(set(v)) for k, v in sorted(legacy.items())}
     return enforce_forbidden(declaration, row)
 
@@ -1301,7 +1362,7 @@ def plan_file(doc: Doc, rows: list[dict], report: dict,
         kind, _subtype = kind_for(row)
         aid = v2_asset_id(doc.unit, row["assetId"])
 
-        if row["assetId"] in reuse_map:
+        if row["assetId"] in reuse_map and row["assetId"] not in SAFEGUARDING_DECISIONS:
             # A reuse row produces nothing new, so it gets no source block and no
             # derivatives: it points at the canonical asset's deliverables.
             declaration = build_declaration(row, doc, roles, rows_by_id, "", "",

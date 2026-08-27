@@ -147,7 +147,7 @@ PROVENANCE_LABELS = {
 
 DERIVATIVES = (
     "voiceover", "captions", "transcript", "alt-text",
-    "thumbnail", "audio-only", "low-bandwidth", "print-pdf",
+    "thumbnail", "audio-only", "low-bandwidth", "print-pdf", "editable",
 )
 DERIVATIVE_LABELS = {
     "voiceover": "felmondott hang",
@@ -158,6 +158,7 @@ DERIVATIVE_LABELS = {
     "audio-only": "csak hang változat",
     "low-bandwidth": "alacsony sávszélességű változat",
     "print-pdf": "nyomtatható PDF",
+    "editable": "szerkeszthető, kitölthető változat",
 }
 #: Derivative role -> deliverable ID suffix after ``::``.
 DERIVATIVE_SUFFIX = {d: d.upper().replace("-", "") for d in DERIVATIVES}
@@ -181,10 +182,12 @@ REUSE_COMPATIBLE: dict[str, tuple[str, ...]] = {
     "icon-set": ("icon-set", "image", "illustration"),
     "photo": ("photo", "image"),
     "screenshot": ("screenshot", "image"),
+    # A poster and a worksheet are not interchangeable produced files: a wall
+    # poster reuse of a fill-in worksheet hid a safeguarding step-map mismatch.
     "print": PRINT_KINDS,
-    "worksheet": PRINT_KINDS + ("document", "template", "download"),
-    "card-set": PRINT_KINDS,
-    "poster": PRINT_KINDS,
+    "worksheet": ("worksheet", "card-set", "print", "document", "template", "download"),
+    "card-set": ("card-set", "worksheet", "print"),
+    "poster": ("poster", "print"),
     "document": DOC_KINDS + ("worksheet",),
     "template": DOC_KINDS + ("worksheet",),
     "download": DOC_KINDS + ("worksheet",),
@@ -370,10 +373,17 @@ class _rel_root:
 
 
 def _rel(path: Path) -> str:
+    """Repository-relative POSIX path, NFC-normalised.
+
+    macOS hands out decomposed (NFD) filenames, so an archive unpacked there
+    would not match the NFC strings the exclusion list and the unit rules are
+    written in — the build would fail with a cascade of unrelated errors.
+    """
     try:
-        return path.relative_to(_REL_ROOT).as_posix()
+        rel = path.relative_to(_REL_ROOT).as_posix()
     except ValueError:
-        return path.as_posix()
+        rel = path.as_posix()
+    return unicodedata.normalize("NFC", rel)
 
 
 def discover_sources(root: Path = ACTIVE_ROOT) -> list[Path]:
@@ -1529,6 +1539,23 @@ def render_register_md(model: dict) -> str:
             P(f"| {blocker} | {count} |")
         P("")
 
+    open_rules = [r for r in production_rules() if "KITÖLTENDŐ" in r["text"]]
+    if open_rules:
+        P("## ⛔ Nyitott produkciós kapuk")
+        P("")
+        P("Ezek **szervezeti és jogi döntések**. Amíg nyitva vannak, a jelölt")
+        P("assetek kötegelt gyártása nem indulhat. A jelölés gépileg is")
+        P("detektálható, ezért a `content_integrity.py --release-report` számolja.")
+        P("")
+        P("| Szabály | Mi hiányzik | Érintett asset |")
+        P("|---|---|--:|")
+        for rule in open_rules:
+            missing = re.search(r"([^.;]*⟬\s*KITÖLTENDŐ\s*⟭[^.;]*)", rule["text"])
+            text = _md_cell(missing.group(1).strip() if missing else "⟬KITÖLTENDŐ⟭")
+            P(f"| **{rule['id']}** — {_md_cell(rule['title'])} | {text} "
+              f"| {stats['blockers'].get(rule['id'], 0)} |")
+        P("")
+
     P("## 🗂 Assetek fájlonként")
     P("")
     by_file: dict[str, list[dict]] = {}
@@ -1565,7 +1592,8 @@ def render_register_md(model: dict) -> str:
               f"| {_md_cell(file_rec.get('asset_free_reason', ''))} |")
         P("")
 
-    human = [a for a in model["assets"] if a["mode"] == "human-decision"]
+    human = [a for a in model["assets"]
+             if a["mode"] == "human-decision" or a["decision"]]
     if human:
         P("## ⚖️ Emberi döntésre váró tételek")
         P("")
@@ -1661,13 +1689,22 @@ def render_xlsx(model: dict) -> bytes:
     sheet(ws3, REUSE_CSV_HEADER, [18, 7, 34, 14, 18, 34, 14, 70], {3, 6, 8})
     fill_rows(ws3, reuse_csv_rows(model), {3, 6, 8})
 
-    ws4 = wb.create_sheet("Nyitott döntések")
-    sheet(ws4, ["ID", "Modul", "Fájl", "Típus", "Mit kell eldönteni", "Blokkolók"],
-          [18, 7, 34, 14, 80, 24], {3, 5, 6})
-    fill_rows(ws4, [[a["id"], a["module"], a["file"], a["kind"], a["decision"],
-                     _flat(a["blockers"])]
+    # Two different questions, two sheets. Mixing them buried the single asset
+    # that genuinely needs a human answer under several hundred rule-blocked rows.
+    ws4 = wb.create_sheet("Emberi döntések")
+    sheet(ws4, ["ID", "Modul", "Fájl", "Típus", "Mód", "Mit kell eldönteni"],
+          [18, 7, 34, 14, 20, 100], {3, 6})
+    fill_rows(ws4, [[a["id"], a["module"], a["file"], a["kind"],
+                     MODE_LABELS[a["mode"]], a["decision"]]
                     for a in model["assets"]
-                    if a["mode"] == "human-decision" or a["blockers"]], {3, 5, 6})
+                    if a["mode"] == "human-decision" or a["decision"]], {3, 6})
+
+    ws4b = wb.create_sheet("Blokkolt assetek")
+    sheet(ws4b, ["ID", "Modul", "Fájl", "Típus", "Státusz", "Blokkolók"],
+          [18, 7, 34, 14, 24, 24], {3, 6})
+    fill_rows(ws4b, [[a["id"], a["module"], a["file"], a["kind"],
+                      STATUS_LABELS[a["status"]], _flat(a["blockers"])]
+                     for a in model["assets"] if a["blockers"]], {3, 6})
 
     ws5 = wb.create_sheet("Migráció")
     recon = model.get("reconciliation")
@@ -1742,6 +1779,8 @@ def render_xlsx(model: dict) -> bytes:
 
 import datetime as _dt  # noqa: E402  (kept next to its single use)
 
+PRODUCTION_RULES_FILE = MEDIA_ROOT / "produkcios-szabalyok.json"
+
 #: Fixed timestamp for workbook metadata and zip entries. Not a build date — a
 #: constant, so two builds of the same tree are byte-identical.
 FIXED_TIMESTAMP = _dt.datetime(2020, 1, 1, 0, 0, 0)
@@ -1780,16 +1819,23 @@ _PRODUCTION_RULES_CACHE: list[dict] | None = None
 
 
 def production_rules() -> list[dict]:
-    """R1–R8 as recorded in the frozen legacy dataset.
+    """R1–R8 — organisational conventions, canonical in their own data file.
 
-    They are organisational conventions, not compiler logic; v2 references them
-    by ID from `blockers` / `production_rules` instead of copying their text onto
-    hundreds of rows.
+    They are not compiler logic: v2 references them by ID from `blockers` /
+    `production_rules` instead of copying their text onto hundreds of rows. The
+    text lives in `produkcios-szabalyok.json` rather than in the retired v1
+    snapshot, so resolving R2/R3/R5 does not mean editing frozen forensic data.
+    A missing file is a hard error — a silently empty conventions sheet would be
+    worse than a failed build.
     """
     global _PRODUCTION_RULES_CACHE
     if _PRODUCTION_RULES_CACHE is None:
-        legacy = load_legacy()
-        _PRODUCTION_RULES_CACHE = legacy.get("productionRules", []) if legacy else []
+        if not PRODUCTION_RULES_FILE.exists():
+            raise ManifestError(
+                _rel(PRODUCTION_RULES_FILE), "hiányzik a produkciós konvenciók adatfájlja",
+                "állítsd vissza a fájlt — a fordító nem a befagyasztott v1 JSON-ból dolgozik")
+        data = json.loads(PRODUCTION_RULES_FILE.read_text(encoding="utf-8"))
+        _PRODUCTION_RULES_CACHE = data["rules"]
     return _PRODUCTION_RULES_CACHE
 
 
@@ -2023,7 +2069,7 @@ def render_migration_md(model: dict, recon: dict) -> str:
     P("| ID | Fájl | Mit kell eldönteni |")
     P("|---|---|---|")
     for asset in model["assets"]:
-        if asset["mode"] == "human-decision":
+        if asset["mode"] == "human-decision" or asset["decision"]:
             P(f"| `{asset['id']}` | {asset['file']} | {_md_cell(asset['decision'])} |")
     P("")
     if stats["blockers"]:
@@ -2045,7 +2091,10 @@ LINT_SIGNALS: tuple[tuple[str, str, str], ...] = (
     (r"\bNarráció\b|\bMit hallunk\b|\bvoice-?over\b|\bfelmondandó\b",
      "narráció / felmondandó szöveg", "HIGH"),
     (r"\bAI beszélő fej\b|\bbeszélő fej\b|\bavatar\b", "beszélőfej-videó", "HIGH"),
-    (r"\bvideó\b|\bvideo\b|\bInteractive Video\b", "videó", "MEDIUM"),
+    # A video or an audio clip always drags a mandatory text equivalent with it,
+    # so an undeclared one is never a low-stakes omission.
+    (r"\bvideó\b|\bvideo\b|\bInteractive Video\b", "videó", "HIGH"),
+    (r"\bhang(?:sáv|felvétel|alámondás)\b|\bpodcast\b", "hang", "HIGH"),
     (r"\banimáció\b|\banimált\b", "animáció", "MEDIUM"),
     (r"\billusztráció\b|\bgrafika\b", "illusztráció / grafika", "MEDIUM"),
     (r"\bdiagram\b|\bábra\b", "diagram / ábra", "MEDIUM"),
