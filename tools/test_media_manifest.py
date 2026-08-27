@@ -482,6 +482,27 @@ class TestRepositoryCorpus(unittest.TestCase):
             self.assertIsNotNone(target, f"{asset['id']} nem oldódik fel")
             self.assertNotEqual("reuse", target["mode"])
 
+    def test_no_reuse_rests_on_the_v1_identifier_collision(self):
+        """The v1 register's hub↔lesson ID clash must not survive as fake reuse.
+
+        Several v1 dedup tags meant "the module overview's row equals this one",
+        but the merge had already dropped the overview's row, so the tag landed on
+        the detailed file's own, unrelated asset. Signature: both sides live in
+        the same non-hub file while the justification explains the match by
+        pointing at the overview.
+        """
+        by_id = {a["id"]: a for a in self.model["assets"]}
+        for asset in self.model["assets"]:
+            if asset["mode"] != "reuse":
+                continue
+            target = by_id[asset["reuse_of"]]
+            if asset["file"] != target["file"] or asset["file_kind"] == "hub":
+                continue
+            self.assertNotRegex(
+                asset["notes"], r"áttekintő|\bhub\b",
+                f"{asset['id']} ugyanabban a fájlban lévő assetre hivatkozik, "
+                "és az indoklás a modul-áttekintőre mutat — ez a v1 ID-ütközés")
+
     def test_deliverable_ids_are_unique_and_never_collide_with_asset_ids(self):
         asset_ids = {a["id"] for a in self.model["assets"]}
         deliverable_ids = [d["id"] for d in self.model["deliverables"]]

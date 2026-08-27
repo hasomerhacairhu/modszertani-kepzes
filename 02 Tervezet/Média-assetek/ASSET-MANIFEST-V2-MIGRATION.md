@@ -26,9 +26,9 @@
 | Mutató | Érték |
 |---|--:|
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **890** |
-| ebből legyártandó | 400 |
-| ebből újrahasznosítás | 11 |
+| Produkciós deliverable | **896** |
+| ebből legyártandó | 403 |
+| ebből újrahasznosítás | 8 |
 | ebből külső forrás | 6 |
 | ebből emberi döntés kell | 1 |
 | Forrásblokk | 121 |
@@ -45,11 +45,11 @@ számolt *deliverable* keletkezik.
 
 | Diszpozíció | Db | Jelentése |
 |---|--:|---|
-| `PRESERVED` | 402 | azonos azonosítóval megmaradt szemantikus asset |
+| `PRESERVED` | 405 | azonos azonosítóval megmaradt szemantikus asset |
 | `CHANGED` | 4 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
 | `DERIVED_NOW` | 315 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
 | `MERGED_INTO_PARENT` | 11 | a szülő asset deklarációjába olvadt, nincs külön deliverable |
-| `REUSE` | 14 | explicit újrahasznosítás egy kanonikus assetre |
+| `REUSE` | 11 | explicit újrahasznosítás egy kanonikus assetre |
 | `AMBIGUOUS` | 1 | emberi döntés kell a besoroláshoz |
 | `CURRENTLY_UNMAPPED_ERROR` | 0 | **hiba** — egyetlen sor sem maradhat itt |
 
@@ -66,7 +66,7 @@ A soronkénti leképezés gépi formában: `asset-migration-map.csv`.
 
 Hivatkozott produkciós szabályok / blokkolók:
 
-- **R5** — 244 asset
+- **R5** — 247 asset
 - **R3** — 118 asset
 - **R2** — 21 asset
 - **R8** — 11 asset

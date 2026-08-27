@@ -21,14 +21,14 @@
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 121 |
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **890** |
+| Produkciós deliverable | **896** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 400 |
-| újrahasznosítás | 11 |
+| legyártandó | 403 |
+| újrahasznosítás | 8 |
 | külső forrás | 6 |
 | emberi döntés kell | 1 |
 
@@ -52,9 +52,9 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 407 |
+| elsődleges | 410 |
 | alt-szöveg | 125 |
-| nyomtatható PDF | 119 |
+| nyomtatható PDF | 122 |
 | leirat | 118 |
 | felirat | 100 |
 | felmondott hang | 21 |
@@ -77,8 +77,8 @@
 
 | Státusz | Db |
 |---|--:|
-| produkciós szabályra vár | 340 |
-| specifikáció kész | 45 |
+| produkciós szabályra vár | 343 |
+| specifikáció kész | 42 |
 | jogtisztázás alatt | 32 |
 | emberi döntésre vár | 1 |
 
@@ -86,7 +86,7 @@
 
 | Blokkoló | Érintett asset |
 |---|--:|
-| R5 | 244 |
+| R5 | 247 |
 | R3 | 118 |
 | R2 | 21 |
 | R8 | 11 |
@@ -262,7 +262,7 @@
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M1.F-MUNK-01` | worksheet | újrahasznosítás | specifikáció kész | Offline B-terv – 1 oldalas M1.1–M1.4 összefoglaló kártya | — | — | AI-generált |
+| `M1.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Offline B-terv – 1 oldalas M1.1–M1.4 összefoglaló kártya | — | nyomtatható PDF | AI-generált |
 | `M1.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 mondat + 1 kérdés” | — | nyomtatható PDF | AI-generált |
 | `M1.F-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Peula előtt / közben / után” (1 A4) | — | nyomtatható PDF | AI-generált |
 | `M1.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Flipchart-sablon – „Melyik leckénél tartasz?” 5 soros állapot-tábla | — | nyomtatható PDF | vegyes |
@@ -462,7 +462,7 @@
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M3.A-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Tuckman-szakasz ikonok (4 db) | — | alt-szöveg | AI-generált |
-| `M3.A-KART-01` | card-set | újrahasznosítás | specifikáció kész | Tuckman-szakasz kártyaszett (4 db) | — | — | vegyes |
+| `M3.A-KART-01` | card-set | legyártandó | produkciós szabályra vár | Tuckman-szakasz kártyaszett (4 db) | — | nyomtatható PDF | vegyes |
 | `M3.A-KART-02` | card-set | legyártandó | produkciós szabályra vár | Kvuca-sztori kártyaszett – fix 8 db nyomtatható szett | — | nyomtatható PDF | vegyes |
 | `M3.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Megoldókulcs a képzőnek (kártya-hátlapok) | — | nyomtatható PDF | vegyes |
 | `M3.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tuckman-idővonal flipchart-sablon ikonokkal | — | nyomtatható PDF | vegyes |
@@ -663,7 +663,7 @@
 | `M5.A-KART-01` | card-set | legyártandó | produkciós szabályra vár | 12 helyzetkártya – kétoldalas szett (front: sztori, hátlap: címke) | — | nyomtatható PDF | vegyes |
 | `M5.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Poszter-sablon: 4 mezős „átöltöztetés” mini-táblázat | — | nyomtatható PDF | vegyes |
 | `M5.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Flipchart-sablon: „Feladat / Cél → Kvuca → Módszer” lánc | — | nyomtatható PDF | vegyes |
-| `M5.A-POSZ-01` | poster | újrahasznosítás | specifikáció kész | 3 sarok-felirat: SULI / SOMER / RANDOM élet | — | — | vegyes |
+| `M5.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 3 sarok-felirat: SULI / SOMER / RANDOM élet | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md
 

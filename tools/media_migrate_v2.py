@@ -140,12 +140,22 @@ ASSET_FREE_FILES: dict[str, str] = {
 # Explicit reuse, carried over from the v1 dedup analysis
 # --------------------------------------------------------------------------
 
-#: Rows the v1 register classified as reuse whose tag actually pointed at a
-#: HUB-namespace row with a colliding identifier. v2 gives hubs their own unit
-#: namespace, so the collision disappears and these are the peula file's own,
-#: separately produced artefacts. The evidence is in each file: the titles and
-#: specs describe different objects, and the v1 dedup group's own `reason`
-#: opens with a warning about the identifier clash.
+#: The v1 register's ID space collided between a module overview (hub) file and
+#: the lesson/peula it summarised: the same identifier named two different rows.
+#: The merge kept only one of them, so several dedup tags that meant "the hub's
+#: row equals this one" ended up pointing at the DETAILED file's own, unrelated
+#: asset. The signature is mechanical: member and canonical live in the SAME
+#: non-hub file, while the group's reason explains the match by referring to the
+#: overview file. v2's unit namespace (`M1-HUB-` vs `M1.A-`) removes the
+#: collision, so those rows are separately produced assets, not reuse.
+OVERVIEW_HINT = re.compile(r"áttekintő|\bhub\b", re.I)
+
+COLLISION_NOTE = (
+    "a v1 dedup-tag a modul-áttekintő fájl azonos azonosítójú sorára mutatott, "
+    "nem erre az assetre; a v2 egység-névtér elválasztja a kettőt. A jelenlegi "
+    "fájlban ez a sor önálló, külön legyártandó anyag.")
+
+#: Hand-written evidence for the rows the v1 README itself flagged as unresolved.
 NOT_ACTUALLY_REUSE: dict[str, str] = {
     "M3.F-MUNK-01": (
         "a v1 dedup-tag a HUB-fájl azonos ID-jű sorára mutatott; a v2 egység-névtér "
@@ -213,6 +223,13 @@ def build_reuse_map(legacy: dict) -> dict[str, tuple[str, str]]:
                 if scope and row is not None and row.get("kind") != scope:
                     continue
                 if base in NOT_ACTUALLY_REUSE or canonical not in rows:
+                    continue
+                canonical_row = rows.get(canonical)
+                if (row is not None and canonical_row is not None
+                        and row["file"] == canonical_row["file"]
+                        and row.get("kind") != "hub"
+                        and OVERVIEW_HINT.search(reason)):
+                    NOT_ACTUALLY_REUSE.setdefault(base, COLLISION_NOTE)
                     continue
                 out[base] = (canonical, reason)
     for old_id, (canonical, reason) in EXTRA_REUSE.items():
