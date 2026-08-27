@@ -454,8 +454,12 @@ def file_kind_index(kind: str) -> int:
 # Declaration parser
 # ==========================================================================
 
-_OPEN_RE = re.compile(r"^\s*<!--\s*@(?P<tag>[a-z][a-z0-9_-]*)\b(?P<rest>.*)$")
-_ENDSOURCE_RE = re.compile(r"^\s*<!--\s*@endsource\s*-->\s*$")
+#: A marker may carry a prefix so it can sit INSIDE the block it wraps: spaces
+#: to stay within a list item, `>` to stay within a blockquote. Without that, a
+#: marker between two list items ends the list and a marker between two quoted
+#: lines splits the quote box — both visible to the reader.
+_OPEN_RE = re.compile(r"^(?P<prefix>[ \t>]*)<!--\s*@(?P<tag>[a-z][a-z0-9_-]*)\b(?P<rest>.*)$")
+_ENDSOURCE_RE = re.compile(r"^[ \t>]*<!--\s*@endsource\s*-->\s*$")
 #: A declaration payload may not run longer than this many lines. Guards against
 #: an unclosed comment swallowing the rest of a lesson.
 MAX_DECL_LINES = 400
@@ -883,6 +887,22 @@ def _validate_references(assets, sources, errors) -> None:
                         where, f"a(z) {asset['id']} beszélt assethez nem beszéd-forrás "
                                f"tartozik ({ref}: {src['kind']})",
                         'a hang/videó forrása "narration" típusú legyen'))
+            if field == "a11y.alt_source_ref":
+                _, index = split_ref(ref)
+                quotes = QUOTED_SPAN.findall(src["text"])
+                if index is not None:
+                    if len(quotes) != 1:
+                        errors.append(ManifestError(
+                            where, f"a(z) {asset['id']} alt-forrása {len(quotes)} „…” "
+                                   f"idézetet tartalmaz ({ref}) — a pozíciós "
+                                   "kiválasztás így elcsúszhat",
+                            "szűkítsd a @source blokkot pontosan egy idézetre; "
+                            "a szelektor csak #1 lehet"))
+                    elif index != 1:
+                        errors.append(ManifestError(
+                            where, f"a(z) {asset['id']} alt-hivatkozása pozíciós "
+                                   f"szelektort használ ({ref})",
+                            "egy idézetes forrásnál a szelektor #1"))
             if field == "a11y.alt_source_ref" and src["kind"] != "alt-text":
                 errors.append(ManifestError(
                     where, f"a(z) {asset['id']} alt-forrása nem alt-text típusú "
@@ -1063,17 +1083,68 @@ def _validate_sources_used(sources, errors) -> None:
 #: voice licence (R2) and image rights / likeness consent (R8). Both are recorded
 #: as ⟬KITÖLTENDŐ⟭ organisational decisions; the compiler only reports which
 #: assets they hold up, it never resolves them.
+#: Structural readiness issues. Unlike R1–R8 these are not organisational
+#: decisions waiting to be made — they are facts about the manifest itself, so
+#: they outrank every production rule AND an authored `status`. Resolving R3
+#: must never turn an asset whose speech has no script into "spec-ready".
+MISSING_SPOKEN_SOURCE = "MISSING_SPOKEN_SOURCE"
+OPEN_DECISION = "OPEN_DECISION"
+
+READINESS_LABELS = {
+    MISSING_SPOKEN_SOURCE: "nincs felmondható forrásszöveg",
+    OPEN_DECISION: "nyitott emberi döntés",
+}
+
+#: `audio` covers music and sound effects too; only these subtypes are speech.
+SPOKEN_AUDIO_SUBTYPES = ("narration", "dialogue")
+
 RIGHTS_BLOCKERS = frozenset({"R2", "R8"})
 #: R7 gates on the finalised Moodle course, i.e. on the runtime, not on a rule.
 RUNTIME_BLOCKERS = frozenset({"R7"})
 
 
+def requires_spoken_source(asset: dict) -> bool:
+    """Whether producing this asset needs a script that must exist somewhere.
+
+    A voiceover is speech by definition. A video counts when it declares spoken
+    audio. An `audio` asset counts only for narration/dialogue — music and SFX
+    carry no script, and treating them as missing one would be noise.
+    """
+    if asset["mode"] != "generate":
+        return False
+    if asset["kind"] == "voiceover":
+        return True
+    if asset["kind"] == "audio":
+        return asset["subtype"] in SPOKEN_AUDIO_SUBTYPES
+    if asset["kind"] == "video":
+        return asset["a11y"].get("audio") == "spoken"
+    return False
+
+
+def readiness_issues(asset: dict) -> list[str]:
+    """Structural reasons this asset cannot be produced, whatever the rules say."""
+    issues = []
+    if requires_spoken_source(asset) and not asset["source_ref"]:
+        issues.append(MISSING_SPOKEN_SOURCE)
+    if asset["decision"]:
+        issues.append(OPEN_DECISION)
+    return issues
+
+
 def derive_status(asset: dict) -> str:
-    """Status, either as authored or derived from documented, objective inputs."""
+    """Status from structural facts first, then authored value, then rules.
+
+    Order matters and is deliberate: a missing script or an unresolved human
+    decision is a fact about this asset, so neither an authored `spec-ready` nor
+    the resolution of R2/R3/R5/R7/R8 may hide it.
+    """
+    issues = readiness_issues(asset)
+    if MISSING_SPOKEN_SOURCE in issues:
+        return "blocked"
+    if OPEN_DECISION in issues or asset["mode"] == "human-decision":
+        return "pending-human-decision"
     if asset["status"]:
         return asset["status"]
-    if asset["mode"] == "human-decision":
-        return "pending-human-decision"
     blockers = set(asset["blockers"])
     if blockers & RIGHTS_BLOCKERS:
         return "pending-rights"
@@ -1103,6 +1174,7 @@ def expand_deliverables(asset: dict, resolved: dict) -> list[dict]:
         return []
 
     status = derive_status(asset)
+    issues = readiness_issues(asset)
     primary_source = resolved.get("primary")
     alt_source = resolved.get("alt")
 
@@ -1125,6 +1197,7 @@ def expand_deliverables(asset: dict, resolved: dict) -> list[dict]:
         "text": primary_source["text"] if primary_source else "",
         "text_hash": primary_source["hash"] if primary_source else "",
         "blockers": list(asset["blockers"]),
+        "readiness_issues": list(issues),
     }]
 
     for role in asset["derivatives"]:
@@ -1153,6 +1226,7 @@ def expand_deliverables(asset: dict, resolved: dict) -> list[dict]:
             "text": src["text"] if src else "",
             "text_hash": src["hash"] if src else "",
             "blockers": list(asset["blockers"]),
+            "readiness_issues": list(issues),
         })
     return out
 
@@ -1210,6 +1284,7 @@ def compile_manifest(root: Path = ACTIVE_ROOT, strict: bool = True) -> dict:
         copy_parts = [t for t in (primary_text, alt_text) if t]
         record = dict(asset)
         record["status"] = derive_status(asset)
+        record["readiness_issues"] = readiness_issues(asset)
         record["source_text"] = primary_text
         record["source_hash"] = sha256_text(primary_text) if primary_text else ""
         record["source_line"] = primary_source["body_lines"] if primary_source else []
@@ -1343,7 +1418,7 @@ def _json_asset(asset: dict) -> dict:
     keys = ("id", "unit", "module", "file_kind", "file", "line", "kind", "subtype",
             "mode", "status", "title", "purpose", "spec", "provenance", "provenance_note",
             "technical", "a11y", "derivatives", "reuse_of", "reuse_resolves_to", "external",
-            "blockers", "production_rules", "decision", "notes", "review",
+            "blockers", "production_rules", "readiness_issues", "decision", "notes", "review",
             "source_ref", "source_line", "source_text", "source_hash",
             "alt_source_ref", "alt_text", "alt_hash", "copy_hash", "spec_hash",
             "deliverable_ids", "legacy")
@@ -1352,7 +1427,7 @@ def _json_asset(asset: dict) -> dict:
 
 ASSET_CSV_HEADER = [
     "ID", "Modul", "Egység", "Fájltípus", "Forrásfájl", "Sor", "Típus", "Altípus",
-    "Produkciós mód", "Státusz", "Cím", "Mit kell gyártani", "Miért (cél)",
+    "Produkciós mód", "Státusz", "Készültségi akadály", "Cím", "Mit kell gyártani", "Miért (cél)",
     "Forrásblokk", "Felmondandó / generálandó szöveg (élő forrásból)", "Forrás-hash",
     "Alt-forrásblokk", "Alt-szöveg (élő forrásból)", "A11y",
     "Eredet", "Eredet-megjegyzés", "Tech-spec", "Derivatívák", "Deliverable-ek",
@@ -1367,6 +1442,11 @@ def _flat(value) -> str:
     if isinstance(value, list):
         return ", ".join(str(v) for v in value)
     return "" if value is None else str(value)
+
+
+def _readiness_cell(record: dict) -> str:
+    return "; ".join(READINESS_LABELS.get(issue, issue)
+                     for issue in record.get("readiness_issues", []))
 
 
 def _a11y_cell(asset: dict) -> str:
@@ -1390,7 +1470,7 @@ def asset_csv_rows(model: dict) -> list[list[str]]:
         rows.append([
             a["id"], a["module"], a["unit"], a["file_kind"], a["file"], str(a["line"]),
             a["kind"], a["subtype"], MODE_LABELS[a["mode"]], STATUS_LABELS[a["status"]],
-            a["title"], a["spec"], a["purpose"],
+            _readiness_cell(a), a["title"], a["spec"], a["purpose"],
             a["source_ref"], a["source_text"], a["source_hash"],
             a["alt_source_ref"], a["alt_text"], _a11y_cell(a),
             PROVENANCE_LABELS[a["provenance"]], a["provenance_note"], _flat(a["technical"]),
@@ -1404,8 +1484,8 @@ def asset_csv_rows(model: dict) -> list[list[str]]:
 
 DELIVERABLE_CSV_HEADER = [
     "Deliverable ID", "Asset ID", "Szerep", "Modul", "Egység", "Forrásfájl",
-    "Típus", "Altípus", "Produkciós mód", "Státusz", "Cím", "Eredet",
-    "Forrásblokk", "Szöveg (élő forrásból)", "Szöveg-hash", "Blokkolók",
+    "Típus", "Altípus", "Produkciós mód", "Státusz", "Készültségi akadály", "Cím",
+    "Eredet", "Forrásblokk", "Szöveg (élő forrásból)", "Szöveg-hash", "Blokkolók",
 ]
 
 
@@ -1413,8 +1493,8 @@ def deliverable_csv_rows(model: dict) -> list[list[str]]:
     return [[
         d["id"], d["asset_id"], d["role_label"], d["module"], d["unit"], d["file"],
         d["kind"], d["subtype"], MODE_LABELS[d["mode"]], STATUS_LABELS[d["status"]],
-        d["title"], PROVENANCE_LABELS[d["provenance"]], d["source_id"], d["text"],
-        d["text_hash"], _flat(d["blockers"]),
+        _readiness_cell(d), d["title"], PROVENANCE_LABELS[d["provenance"]],
+        d["source_id"], d["text"], d["text_hash"], _flat(d["blockers"]),
     ] for d in model["deliverables"]]
 
 
@@ -1592,6 +1672,21 @@ def render_register_md(model: dict) -> str:
               f"| {_md_cell(file_rec.get('asset_free_reason', ''))} |")
         P("")
 
+    blocked = [a for a in model["assets"] if a["readiness_issues"]]
+    if blocked:
+        P("## ⛔ Készültségi akadályok")
+        P("")
+        P("Ezek **nem** produkciós szabályra várnak: hiányzik valami, ami nélkül az")
+        P("asset egyáltalán nem gyártható. Egy R2/R3/R5 feloldása sem teszi őket")
+        P("készre, és kézzel beírt `status` sem írja felül.")
+        P("")
+        P("| ID | Fájl | Akadály | Státusz |")
+        P("|---|---|---|---|")
+        for asset in blocked:
+            P(f"| `{asset['id']}` | {asset['file']} | {_readiness_cell(asset)} "
+              f"| {STATUS_LABELS[asset['status']]} |")
+        P("")
+
     human = [a for a in model["assets"]
              if a["mode"] == "human-decision" or a["decision"]]
     if human:
@@ -1664,9 +1759,9 @@ def render_xlsx(model: dict) -> bytes:
 
     ws = wb.active
     ws.title = "Assetek"
-    widths = [16, 7, 10, 12, 34, 7, 14, 16, 18, 22, 26, 46, 34, 16, 72, 18,
+    widths = [16, 7, 10, 12, 34, 7, 14, 16, 18, 22, 26, 26, 46, 34, 16, 72, 18,
               16, 46, 30, 16, 26, 26, 24, 34, 16, 26, 16, 18, 30, 26, 18, 30]
-    wrapcols = {11, 12, 13, 15, 18, 19, 21, 22, 23, 24, 26, 29, 30, 32}
+    wrapcols = {11, 12, 13, 14, 16, 19, 20, 22, 23, 24, 25, 27, 30, 31, 33}
     sheet(ws, ASSET_CSV_HEADER, widths, wrapcols)
     rows = asset_csv_rows(model)
     modes = [a["mode"] for a in model["assets"]]
@@ -1678,12 +1773,14 @@ def render_xlsx(model: dict) -> bytes:
         fill = mode_fill.get(modes[r - 2])
         if fill:
             ws.cell(r, 9).fill = fill
+        if rows[r - 2][11]:
+            ws.cell(r, 11).fill = mode_fill["human-decision"]
 
     ws2 = wb.create_sheet("Deliverable-ek")
     sheet(ws2, DELIVERABLE_CSV_HEADER,
-          [24, 16, 20, 7, 10, 34, 14, 16, 18, 22, 34, 16, 16, 72, 18, 20],
-          {11, 14, 16})
-    fill_rows(ws2, deliverable_csv_rows(model), {11, 14, 16})
+          [24, 16, 20, 7, 10, 34, 14, 16, 18, 22, 26, 34, 16, 16, 72, 18, 20],
+          {11, 12, 15, 17})
+    fill_rows(ws2, deliverable_csv_rows(model), {11, 12, 15, 17})
 
     ws3 = wb.create_sheet("Újrahasznosítás")
     sheet(ws3, REUSE_CSV_HEADER, [18, 7, 34, 14, 18, 34, 14, 70], {3, 6, 8})

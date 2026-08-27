@@ -186,6 +186,123 @@ NOT_ACTUALLY_REUSE: dict[str, str] = {
 #: worksheet a FIVE-node one whose missing node carries the non-negotiable
 #: instruction not to promise confidentiality. Which one is canonical is a
 #: child-protection question, not a compiler question.
+#: Two v1 spec fields still asserted wording the current M5.1 lesson replaced.
+#: The live narration was already correct — `source_ref` reads it — but the hidden
+#: production spec contradicted it, which is the same drift class in a new place.
+#: Both replacements are summaries built from the CURRENT narration's own words,
+#: and neither repeats the script: that text lives in the source block.
+STALE_SPEC_REWRITES: dict[str, tuple[str, str]] = {
+    "M5.1-VID-01": (
+        "AI beszélő fej videó, 16:9 arányban, max. 40 mp. Személyes ráhangolással "
+        "bevezeti a három tanulási kategóriát (suli / Somer / random élet), és "
+        "felveti, mi számít formális, nonformális és informális tanulásnak, "
+        "illetve hol van ebben a Somer. A felmondandó szöveg a hivatkozott "
+        "forrásblokkban él, itt nem ismételjük.",
+        "A v1 spec a HOOK-narráció régi megfogalmazását idézte („random "
+        "pillanatok”); a jelenlegi lecke „teljesen más pillanatok”-at mond. A spec "
+        "leíróvá vált, és nem duplikálja a felmondandó szöveget."),
+    "M5.1-NAR-02": (
+        "Kb. 60 mp hangnarráció a három tanulási forma definíciójával: formális "
+        "(suli – tanterv és intézményi keret, jeggyel/bizonyítvánnyal hitelesítve, "
+        "jellemzően kötelező jelenléttel, tanár–diák szerepben), nonformális "
+        "(Somer – a suli rendszerén kívüli, szervezett, megtervezett program, "
+        "amelynek van nevelési célja, csak nem dolgozatban, hanem játékban, "
+        "beszélgetésben és közös élményekben jelenik meg; a Somerbe ráadásul "
+        "önként jössz), és informális (random élet – spontán, előre tervezett "
+        "nevelési cél nélkül). A választóvonal a tudatos nevelési cél, nem az "
+        "önkéntesség. A felmondandó szöveg a hivatkozott forrásblokkban él.",
+        "A v1 spec azt állította, hogy a nonformális ÉS az informális tanulás is "
+        "önkéntes, és ez választja el a formálistól. A jelenlegi M5.1 narráció ezt "
+        "kifejezetten cáfolja: a választóvonal a tudatos nevelési cél, az "
+        "önkéntesség pedig a Somer sajátja."),
+}
+
+#: Narrations whose script is the slide's own text, because the lesson says so in
+#: as many words. The region is addressed by its first and last LINE TEXT, not by
+#: a line number — the v1 notes still carry line references that drifted, which is
+#: exactly what v2 exists to stop relying on.
+SLIDE_TEXT_NARRATIONS: dict[str, tuple[str, str, str]] = {
+    "M5.3-NAR-01": (
+        "**1. Gyakorlás**",
+        "> hanem három külön napon, rövidebb időkre osztva.",
+        "a lecke a három fogalom-blokk után kimondja: „(Opcionális 20–30 mp-es "
+        "narráció ugyanezzel a szöveggel.)” — a felmondandó szöveg tehát a dia "
+        "három blokkja, nem külön szkript"),
+    "M7.1-NAR-02": (
+        "> Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis "
+        "tervezel a kvucáddal).",
+        "> – „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",
+        "a lecke a dia-szöveg után kimondja: „(Opcionális narráció, 15–20 mp-ben "
+        "ugyanez hangban.)” — a felmondandó szöveg tehát a dia szövege"),
+}
+
+#: The Interactive Video container has no script of its own: its sound is the
+#: three scene narrations played in sequence, and the manifest has no way to say
+#: "composed of". Who owns the caption file is a production decision, not a
+#: compiler one, so it is recorded rather than guessed.
+CONTAINER_DECISIONS: dict[str, str] = {
+    "M4.1-VID-02": (
+        "Az Interactive Video hangsávja a három jelenet narrációjából áll össze "
+        "(M4.1-NAR-03/04/05), önálló szkriptje nincs; a v1 leltár viszont ehhez a "
+        "konténerhez rendelte a felirat- és leirat-sort (M4.1-FEL-03 / M4.1-LEI-02), "
+        "és a jelenetek jegyzete is ide mutat. El kell dönteni, hogy a felirat- és "
+        "leiratfájlt a konténer kapja-e (a három szkript összefűzésével), vagy "
+        "jelenetenként készül — addig a konténer felirata nem gyártható. A három "
+        "szkript szövege a regiszterben megvan."),
+}
+
+#: An alt the lesson DOES state, but which cannot be wrapped in a source block:
+#: the prescription puts two alts in one blockquote paragraph, and a marker
+#: between them would split that paragraph visibly. Production reads the text
+#: from the lesson; the compiler cannot verify it stays in sync.
+UNWRAPPABLE_ALT_NOTES: dict[str, str] = {
+    "M6.3-FOTO-01": (
+        "az alt-szöveg meg van írva a leckében („Bal kép alt: …”), de nem fogható "
+        "@source blokkba: a prescription egyetlen bekezdésben ad meg két alt-ot, "
+        "és a köztük elhelyezett jelölő kettévágná a bekezdést. A szöveget a "
+        "leckéből kell átvenni — az élő ellenőrzés erre az egy altra nem terjed ki."),
+}
+
+#: Spoken assets whose script already exists in the current lesson, under a
+#: different asset. Linking the SAME source block keeps one copy of the text and
+#: stops the video from looking producible without a script. Keyed by v1 ID.
+SPOKEN_SOURCE_LINKS: dict[str, tuple[str, str]] = {
+    "M4.1-VID-03": ("M4.1-NAR-03-VO",
+                    "az M4.1 SLIDE 3 „Jelenet 1” blokkja alatt a „Narráció "
+                    "(15–20 mp, a kép közben)” idézett szkript ennek a jelenetnek "
+                    "a hangja"),
+    "M4.1-VID-04": ("M4.1-NAR-04-VO",
+                    "az M4.1 „Jelenet 2” narrációja; a v1 spec maga is "
+                    "„Narrációval (M4.1-NAR-04)”-ként hivatkozik rá"),
+    "M4.1-VID-05": ("M4.1-NAR-05-VO",
+                    "az M4.1 „Jelenet 3” narrációja, a jelenet képe alatt futó "
+                    "idézett szkript"),
+}
+
+#: Videos the current lesson describes as picture-only material. Declaring this
+#: removes no requirement: the narration they run under is its own asset and
+#: carries the captions and the transcript.
+#: Once a video is resolved as silent, its own note may not stay conditional: the
+#: alt it calls "recommended" is now a required deliverable.
+SILENT_VIDEO_A11Y_NOTES: dict[str, str] = {
+    "M1.1-VID-02": ("Némán fut a narráció alatt, ezért a felirat és a leirat "
+                    "kötelezettsége azé a narrációé, amely alatt megy "
+                    "(M1.1-NAR-04). A képi tartalomhoz viszont alt-szöveg "
+                    "kötelező: a jeleneteket rövid leírás írja le."),
+}
+
+SILENT_VIDEOS: dict[str, str] = {
+    "M1.1-VID-02": (
+        "A saját akadálymentesítési jegyzete mondja ki: „Ha némán fut a narráció "
+        "alatt, a kapcsolódó NAR feliratai fedik”. A lecke kizárólag képi anyagként "
+        "írja le („1× mini storyboard / B-roll (példákhoz)”, illetve „Storyboard: "
+        "kvuca-szitu (körben ülő fiatalok, madrich jelenlét)”), párbeszéd és saját "
+        "narráció nélkül, a v1 spec szerint a narrációk ALÁ vágott anyagként. A v1 "
+        "leltár sem rendelt hozzá felirat- vagy leirat-sort. A feliratot és a "
+        "leiratot az a narráció adja, amely alatt fut; a képi tartalomhoz viszont "
+        "alt-szöveg jár."),
+}
+
 #: Keyed by the v1 identifier, like every other migration table here.
 SAFEGUARDING_DECISIONS: dict[str, str] = {
     "M3.B-POSZ-01": (
@@ -460,45 +577,103 @@ ALT_QUOTE_RE = re.compile(
     re.I | re.M)
 
 
-def block_bounds(doc: Doc, start: int, end: int) -> tuple[int, int]:
-    """Widen a line range outward to the nearest blank lines.
+LIST_MARKER = re.compile(r"^(\s*)([-*+]|\d+[.)])(\s+)")
+QUOTE_PREFIX = re.compile(r"^(\s*(?:>\s?)+)")
 
-    A source block must not begin or end in the middle of a list or a blockquote:
-    an HTML comment there ends the list (or splits the quote box) and changes what
-    the reader sees. Widening to blank-line boundaries keeps the wrapper outside
-    the block it describes, and the `#n` selector still picks the alt itself.
+
+def content_indent(line: str) -> str:
+    """The column a continuation of ``line`` has to start at to stay inside it."""
+    match = LIST_MARKER.match(line)
+    if match:
+        return " " * (len(match.group(1)) + len(match.group(2)) + len(match.group(3)))
+    return line[:len(line) - len(line.lstrip())]
+
+
+ALT_LABEL_RE = re.compile(r"javasolt\s+alt|alt-?\s?sz[öo]veg|(?:^|[\s*_>])alt\s*:", re.I)
+
+
+#: A line that begins its own block: another list item, a heading, a thematic
+#: break — optionally inside a blockquote.
+BLOCK_START_RE = re.compile(r"^\s*(?:>\s?)*(?:[-*+]\s|\d+[.)]\s|#{1,6}\s|\*\*\*|---)")
+
+
+def starts_block(line: str) -> bool:
+    return not line.strip() or bool(BLOCK_START_RE.match(line))
+
+
+def _marker_prefix(neighbour: str, own: str, closing: bool = False) -> str:
+    """What a marker must carry to stay inside the block it borders.
+
+    Empty at a blank-line boundary: there the plain contract is correct and any
+    indentation would change list tightness. Otherwise the surrounding
+    blockquote's `>` prefix, or the indentation that keeps the marker inside the
+    list item it is written into.
     """
-    while start > 1 and doc.lines[start - 2].strip():
-        start -= 1
-    while end < len(doc.lines) and doc.lines[end].strip():
-        end += 1
-    return start, end
+    if not neighbour.strip():
+        return ""
+    quote = QUOTE_PREFIX.match(own if closing else neighbour)
+    if quote and QUOTE_PREFIX.match(neighbour):
+        return quote.group(1)
+    if LIST_MARKER.match(neighbour) or neighbour[:1] in (" ", "\t"):
+        return content_indent(own if closing else neighbour)
+    return ""
 
 
 def find_alt_blocks(doc: Doc) -> list[dict]:
-    """Blocks that state a current alt text, with the quote index of each alt."""
-    found: dict[tuple[int, int], dict] = {}
-    for idx, line in enumerate(doc.lines, 1):
-        if doc.fences[idx - 1] or not line.strip():
+    """The minimal region around each stated alt text, with safe marker prefixes.
+
+    A source block that also swallows an unrelated „…” quotation forces the
+    reference to select positionally, and a later edit can silently rebind it to
+    the wrong quote. So the block is narrowed to the line (or lines) that carry
+    the alt itself, and the markers get whatever prefix keeps them inside the
+    surrounding list item or blockquote — an unprefixed marker between two list
+    items ends the list, and between two quoted lines splits the quote box.
+    """
+    out: list[dict] = []
+    idx = 1
+    while idx <= len(doc.lines):
+        line = doc.lines[idx - 1]
+        # The window has to START on the label line, or a later window could
+        # sweep two unrelated bullets in and wrap the wrong region.
+        if doc.fences[idx - 1] or not ALT_LABEL_RE.search(line):
+            idx += 1
             continue
-        if not any(strip_accents(m) in strip_accents(line) for m in ALT_MARKERS):
+        # A marker may only land on a block boundary. Dropped between two lines of
+        # the SAME paragraph — two sentences of one quote box, say — it splits that
+        # paragraph in two and the reader sees the gap. So the window grows until
+        # BOTH ends sit on a boundary while still holding exactly one quotation; if
+        # no such window exists the alt keeps its prescription in the lesson but
+        # gets no live source.
+        before = doc.lines[idx - 2] if idx >= 2 else ""
+        if not (starts_block(before) or starts_block(line)):
+            idx += 1
             continue
-        start, end = block_bounds(doc, idx, idx)
-        key = (start, end)
-        if key in found:
+        end = None
+        for window in range(1, 6):
+            last = idx + window - 1
+            if last > len(doc.lines):
+                break
+            text = mm.normalise_source_text("\n".join(doc.lines[idx - 1:last]))
+            quotes = len(QUOTED_RE.findall(text))
+            if quotes > 1:
+                break
+            after = doc.lines[last] if last < len(doc.lines) else ""
+            if (ALT_QUOTE_RE.search(text) and quotes == 1
+                    and (starts_block(after) or last >= len(doc.lines))):
+                end = last
+                break
+        if end is None:
+            idx += 1
             continue
-        body = mm.normalise_source_text("\n".join(doc.lines[start - 1:end]))
-        quotes = [m.start() for m in QUOTED_RE.finditer(body)]
-        alt_indices = []
-        for match in ALT_QUOTE_RE.finditer(body):
-            quoted = body.find("„", match.start())
-            if quoted in quotes:
-                alt_indices.append(quotes.index(quoted) + 1)
-        if not alt_indices:
-            continue
-        found[key] = {"start": start, "end": end, "alt_indices": alt_indices,
-                      "used": 0, "emitted": False, "section": doc.section_at(start)}
-    return sorted(found.values(), key=lambda b: b["start"])
+        after = doc.lines[end] if end < len(doc.lines) else ""
+        last_line = doc.lines[end - 1]
+        prefix_open = _marker_prefix(before, line)
+        prefix_close = _marker_prefix(after, last_line, closing=True)
+        out.append({"start": idx, "end": end, "used": False, "emitted": False,
+                    "prefix_open": prefix_open, "prefix_close": prefix_close,
+                    "section": doc.section_at(idx)})
+        idx = end + 1
+    return out
 
 
 # --------------------------------------------------------------------------
@@ -1044,6 +1219,8 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
         return rewrite_legacy_refs(value), trimmed
 
     spec, t1 = clean("contentSpec")
+    if row["assetId"] in STALE_SPEC_REWRITES:
+        spec = STALE_SPEC_REWRITES[row["assetId"]][0]
     purpose, t2 = clean("purpose")
     notes, t3 = clean("notes")
     a11y_note, t4 = clean("a11y")
@@ -1068,26 +1245,44 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
         # A video is "silent" only when nothing in the record points at speech:
         # no narration source, no caption/transcript/voiceover row, no mention of
         # sound in its own spec. Defaulting the other way would quietly delete a
-        # caption requirement, so silence has to be provable.
+        # caption requirement, so silence has to be provable — which is why the
+        # one picture-only case is an explicit, evidence-carrying entry.
         speech_signals = any(role in legacy for role in ("captions", "transcript", "voiceover"))
         mentions_sound = bool(re.search(r"felirat|narrác|hang|beszél|dialóg|szinkron",
                                         f"{spec} {a11y_note} {row.get('title', '')}", re.I))
         spoken = bool(source_ref) or speech_signals or mentions_sound
+        if row["assetId"] in SILENT_VIDEOS:
+            spoken = False
         a11y["audio"] = "spoken" if spoken else "silent"
         stated = visual_role(f"{row.get('title', '')} {a11y_note} {notes}")
-        a11y["visual"] = ("informative" if stated == "informative"
-                          else "decorative" if (alt_decorative or not alt_rows or
-                                                stated == "decorative")
-                          else "informative")
+        if stated is not None:
+            a11y["visual"] = stated
+        elif not spoken:
+            # A silent video cannot be "decorative because the captions cover it":
+            # it has none. Absent an explicit statement, treat its picture as
+            # carrying information — the direction that never drops a requirement.
+            a11y["visual"] = "informative"
+        else:
+            a11y["visual"] = "decorative" if (alt_decorative or not alt_rows) else "informative"
         if spoken:
             derivatives.extend(["captions", "transcript"])
-            if source_ref or "voiceover" in legacy:
+            # A borrowed source belongs to a narration asset that already produces
+            # the recording; only an asset that OWNS its script also owns the voice.
+            owns_script = row["assetId"] not in SPOKEN_SOURCE_LINKS
+            if owns_script and (source_ref or "voiceover" in legacy):
                 derivatives.insert(0, "voiceover")
         if a11y["visual"] == "decorative":
-            a11y.setdefault("alt_note", "a videóelem dekoratív: a tartalmat a felirat "
-                                        "és a leirat szó szerint lefedi")
+            a11y.setdefault("alt_note",
+                            "a videóelem dekoratív: a tartalmat a felirat és a leirat "
+                            "szó szerint lefedi" if spoken else
+                            "a lecke dekoratívként jelöli, önálló szöveges tartalmat "
+                            "nem hordoz")
         else:
             derivatives.append("alt-text")
+            if not alt_source_ref:
+                a11y.setdefault("alt_note", UNWRAPPABLE_ALT_NOTES.get(
+                    row["assetId"], "a lecke előírja az alt-szöveget, de a végleges "
+                                    "szöveget a legyártott vizuál alapján kell megírni"))
 
     elif kind in mm.AUDIO_KINDS:
         derivatives.append("transcript")
@@ -1104,6 +1299,10 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
         else:
             a11y["visual"] = "informative"
             derivatives.append("alt-text")
+            if not alt_source_ref:
+                a11y.setdefault("alt_note", UNWRAPPABLE_ALT_NOTES.get(
+                    row["assetId"], "a lecke előírja az alt-szöveget, de a végleges "
+                                    "szöveget a legyártott vizuál alapján kell megírni"))
 
     if kind in mm.PRINT_KINDS or kind in mm.DOC_KINDS:
         derivatives.append("print-pdf")
@@ -1115,7 +1314,9 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
     elif a11y.get("visual") == "informative":
         a11y.setdefault("alt_note", "a lecke előírja az alt-szöveget, de a végleges "
                                     "szöveget a legyártott vizuál alapján kell megírni")
-    if a11y_note:
+    if row["assetId"] in SILENT_VIDEO_A11Y_NOTES:
+        a11y["note"] = SILENT_VIDEO_A11Y_NOTES[row["assetId"]]
+    elif a11y_note:
         a11y["note"] = a11y_note
 
     mode = "generate"
@@ -1123,6 +1324,8 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
     reuse_reason = ""
     decision = ""
     external: dict[str, str] = {}
+    if row["assetId"] in CONTAINER_DECISIONS:
+        decision = CONTAINER_DECISIONS[row["assetId"]]
     if row["assetId"] in SAFEGUARDING_DECISIONS:
         mode = "human-decision"
         decision = SAFEGUARDING_DECISIONS[row["assetId"]]
@@ -1187,6 +1390,16 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
     if combined_notes:
         declaration["notes"] = combined_notes
     reviews = []
+    if row["assetId"] in SLIDE_TEXT_NARRATIONS:
+        reviews.append("A felmondandó szöveg forrása a dia saját szövege: "
+                       + SLIDE_TEXT_NARRATIONS[row["assetId"]][2] + ".")
+    if row["assetId"] in STALE_SPEC_REWRITES:
+        reviews.append(STALE_SPEC_REWRITES[row["assetId"]][1])
+    if row["assetId"] in SPOKEN_SOURCE_LINKS:
+        reviews.append("A felmondandó szöveg forrása a leckében már megvan: "
+                       + SPOKEN_SOURCE_LINKS[row["assetId"]][1] + ".")
+    if row["assetId"] in SILENT_VIDEOS:
+        reviews.append(SILENT_VIDEOS[row["assetId"]])
     if row["assetId"] in NOT_ACTUALLY_REUSE:
         reviews.append(NOT_ACTUALLY_REUSE[row["assetId"]])
     if runtime_rewritten:
@@ -1331,17 +1544,16 @@ def plan_file(doc: Doc, rows: list[dict], report: dict,
         return chosen
 
     def take_alt_quote(blocks, section):
-        """Next unused alt quote inside ``section`` — (block, quote index) or None."""
-        pool = [b for b in blocks if b["used"] < len(b["alt_indices"])]
+        """Next unused alt block inside ``section`` (or None)."""
+        pool = [b for b in blocks if not b["used"]]
         if section:
             pool = [b for b in pool if section["start"] <= b["start"] <= section["end"]]
         if not pool:
             return None
         pool.sort(key=lambda b: b["start"])
         chosen = pool[0]
-        index = chosen["alt_indices"][chosen["used"]]
-        chosen["used"] += 1
-        return chosen, index
+        chosen["used"] = True
+        return chosen
 
     def close_line(end: int) -> int:
         """First non-blank line after ``end`` — keeps the marker off a quote line."""
@@ -1378,7 +1590,25 @@ def plan_file(doc: Doc, rows: list[dict], report: dict,
             continue
 
         source_ref = ""
-        if kind in ("video", "voiceover", "audio"):
+        if row["assetId"] in SLIDE_TEXT_NARRATIONS:
+            first_text, last_text, _why = SLIDE_TEXT_NARRATIONS[row["assetId"]]
+            span = _text_region(doc, first_text, last_text)
+            if span:
+                start, stop = span
+                source_id = f"{aid}-VO"
+                insertions.append({"line": start, "kind": "source-open",
+                                   "block": render_source_open(source_id, "narration"),
+                                   "indent": "", "order": 0, "id": source_id})
+                insertions.append({"line": stop + 1, "kind": "source-close",
+                                   "block": list(SOURCE_CLOSE), "indent": "",
+                                   "order": 0, "id": source_id})
+                source_ref = source_id
+            else:
+                report["narration_without_source"].append(
+                    {"file": doc.rel, "old_id": row["assetId"], "v2_id": aid})
+        elif row["assetId"] in SPOKEN_SOURCE_LINKS:
+            source_ref = SPOKEN_SOURCE_LINKS[row["assetId"]][0]
+        elif kind in ("video", "voiceover", "audio") and row["assetId"] not in SILENT_VIDEOS:
             block = take_block(narration_blocks, used_narration, section)
             if block:
                 source_id = f"{aid}-VO"
@@ -1393,6 +1623,8 @@ def plan_file(doc: Doc, rows: list[dict], report: dict,
             else:
                 report["narration_without_source"].append(
                     {"file": doc.rel, "old_id": row["assetId"], "v2_id": aid})
+        elif row["assetId"] in SILENT_VIDEOS:
+            report["silent_videos"].append({"file": doc.rel, "old_id": row["assetId"]})
 
         alt_source_ref = ""
         alt_ids = [old_id for role, old_id in roles if role == "alt-text"]
@@ -1401,24 +1633,18 @@ def plan_file(doc: Doc, rows: list[dict], report: dict,
                                  f"{rows_by_id[i].get('contentSpec', '')}")
             for i in alt_ids if i in rows_by_id)
         if alt_informative and kind in mm.VISUAL_KINDS:
-            picked = take_alt_quote(alt_blocks, section)
-            if picked:
-                block, quote_index = picked
-                # One prescription block can hold two alts (a left and a right
-                # image). The block is wrapped once; each asset selects its own
-                # quoted span at the reference site with `#n`.
-                if not block["emitted"]:
-                    source_id = f"{aid}-ALT"
-                    block["source_id"] = source_id
-                    indent = leading_space(doc.lines[block["start"] - 1])
-                    insertions.append({"line": block["start"], "kind": "source-open",
-                                       "block": render_source_open(source_id, "alt-text"),
-                                       "indent": indent, "order": 0, "id": source_id})
-                    insertions.append({"line": close_line(block["end"]), "kind": "source-close",
-                                       "block": list(SOURCE_CLOSE), "indent": indent,
-                                       "order": 0, "id": source_id})
-                    block["emitted"] = True
-                alt_source_ref = f"{block['source_id']}#{quote_index}"
+            block = take_alt_quote(alt_blocks, section)
+            if block:
+                source_id = f"{aid}-ALT"
+                insertions.append({"line": block["start"], "kind": "source-open",
+                                   "block": render_source_open(source_id, "alt-text"),
+                                   "indent": block["prefix_open"], "order": 0,
+                                   "id": source_id})
+                insertions.append({"line": block["end"] + 1, "kind": "source-close",
+                                   "block": list(SOURCE_CLOSE),
+                                   "indent": block["prefix_close"], "order": 0,
+                                   "id": source_id})
+                alt_source_ref = f"{source_id}#1"
             else:
                 report["alt_without_source"].append(
                     {"file": doc.rel, "old_id": row["assetId"], "v2_id": aid})
@@ -1482,6 +1708,21 @@ def _drop_source_ref(insertion: dict, dropped: set[str]) -> None:
         insertion["block"] = render_asset_block(payload)
 
 
+def _text_region(doc: Doc, first_text: str, last_text: str) -> tuple[int, int] | None:
+    """Line range between two exact anchor lines, if both ends sit on a boundary."""
+    try:
+        start = next(i for i, line in enumerate(doc.lines, 1) if line.strip() == first_text)
+        stop = next(i for i, line in enumerate(doc.lines, 1)
+                    if i > start and line.strip() == last_text)
+    except StopIteration:
+        return None
+    before = doc.lines[start - 2] if start >= 2 else ""
+    after = doc.lines[stop] if stop < len(doc.lines) else ""
+    if before.strip() or after.strip():
+        return None
+    return start, stop
+
+
 def leading_space(line: str) -> str:
     return line[:len(line) - len(line.lstrip())]
 
@@ -1513,17 +1754,27 @@ def apply_insertions(doc: Doc, insertions: list[dict]) -> tuple[str, list[str]]:
                 problems.append(f"{doc.rel}:{idx} táblázatba eső beszúrás ({ids})")
             if idx <= len(doc.lines) and doc.fences[idx - 1]:
                 problems.append(f"{doc.rel}:{idx} kódblokkba eső beszúrás ({ids})")
-            # An unindented comment between two quoted lines splits one quote box
-            # into two, and between two list items it ends the list. Both change
-            # what the reader sees, so neither may be written.
-            if previous.lstrip().startswith(">") and following.lstrip().startswith(">"):
+            # An UNPREFIXED comment between two quoted lines splits one quote box
+            # into two, and between two list items it ends the list. A marker that
+            # carries the surrounding block's own prefix stays inside it and
+            # changes nothing the reader sees.
+            prefixes = {i.get("indent", "") for i in grouped[idx]}
+            quoted_marker = all(pfx.lstrip().startswith(">") for pfx in prefixes)
+            indented_marker = all(pfx and pfx.strip() == "" for pfx in prefixes)
+            if (previous.lstrip().startswith(">") and following.lstrip().startswith(">")
+                    and not quoted_marker):
                 problems.append(f"{doc.rel}:{idx} idézetblokkot kettévágó beszúrás ({ids})")
-            if LIST_ITEM.match(previous) and LIST_ITEM.match(following):
+            if (LIST_ITEM.match(previous) and LIST_ITEM.match(following)
+                    and not indented_marker and not quoted_marker):
                 problems.append(f"{doc.rel}:{idx} listát kettévágó beszúrás ({ids})")
             for insertion in sorted(grouped[idx], key=lambda i: (i["order"], i["id"])):
                 indent = insertion.get("indent", "")
                 out.extend(indent + line if line else line for line in insertion["block"])
-                out.append("")
+                # A prefixed marker lives inside a list item or a blockquote; a
+                # blank line after it would end that block and change the layout.
+                # Only column-0 markers get the separating blank line.
+                if not indent:
+                    out.append("")
         if idx <= len(doc.lines):
             out.append(doc.lines[idx - 1])
     return "\n".join(out), problems
@@ -1542,11 +1793,15 @@ def strip_metadata(text: str) -> str:
         match = mm._OPEN_RE.match(lines[idx])
         if match and match.group("tag") in ("asset", "asset-free",
                                             "source", "endsource"):
+            start_line = idx
             end = idx
             while end < len(lines) and not lines[end].rstrip().endswith("-->"):
                 end += 1
+            prefixed = not lines[start_line].startswith("<!--")
             idx = end + 1
-            if idx < len(lines) and not lines[idx].strip():
+            # Mirror of the insertion contract: only an unprefixed marker was
+            # written with a separating blank line, so only that one takes it back.
+            if not prefixed and idx < len(lines) and not lines[idx].strip():
                 idx += 1
             continue
         out.append(lines[idx])
@@ -1592,7 +1847,8 @@ def make_plan() -> dict:
         grouped.setdefault(rel, [])
     report = {"assets": [], "weak_anchors": [], "unlinked_derivatives": [],
               "narration_without_source": [], "alt_without_source": [],
-              "trimmed_specs": [], "insert_problems": [], "dropped_overlapping_source": [], "reuse": [], "files": []}
+              "trimmed_specs": [], "insert_problems": [], "dropped_overlapping_source": [], "reuse": [], "silent_videos": [],
+              "files": []}
     plan: dict[str, list[dict]] = {}
     # First pass discovers which deliverables exist, so the second pass can
     # rewrite v1 identifiers to something that actually resolves.
@@ -1622,10 +1878,7 @@ def make_plan() -> dict:
 def _collect_deliverables(grouped, reuse_map) -> set[str]:
     """Deliverable IDs a dry planning pass produces (no files are written)."""
     out: set[str] = set()
-    throwaway = {key: [] for key in
-                 ("assets", "weak_anchors", "unlinked_derivatives",
-                  "narration_without_source", "alt_without_source", "trimmed_specs",
-                  "dropped_overlapping_source", "reuse", "insert_problems", "files")}
+    throwaway = defaultdict(list)
     for legacy_path, rows in sorted(grouped.items()):
         path = ACTIVE_ROOT / legacy_path
         if not path.exists():
@@ -1652,7 +1905,7 @@ def cmd_plan(args) -> int:
     print(f"fájl: {len(result['plan'])}  asset: {len(report['assets'])}")
     for key in ("weak_anchors", "unlinked_derivatives", "narration_without_source",
                 "alt_without_source", "trimmed_specs", "dropped_overlapping_source",
-                "reuse", "insert_problems"):
+                "reuse", "silent_videos", "insert_problems"):
         print(f"  {key:26s} {len(report[key])}")
     print(f"terv: {out}")
     return 0

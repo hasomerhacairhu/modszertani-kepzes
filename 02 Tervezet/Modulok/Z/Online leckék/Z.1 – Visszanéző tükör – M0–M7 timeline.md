@@ -69,7 +69,7 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
   },
   "a11y": {
     "visual": "informative",
-    "alt_source_ref": "Z.1-ILL-01-ALT#4",
+    "alt_source_ref": "Z.1-ILL-01-ALT#1",
     "note": "Alt-szöveg kötelező (lásd Z.1-ILL-01::ALTTEXT); kulcsszöveget nem szabad a képbe égetni."
   },
   "derivatives": [
@@ -98,15 +98,13 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
 
 #### Mit látunk?
 
-<!-- @source {"id": "Z.1-ILL-01-ALT", "kind": "alt-text"} -->
-
 * Cím:
   **„Ha a féléved egy sorozat lenne…”**
 * Középen egy egyszerű grafika: „Netflix-szerű” sorozat-plakát ikon (M0–M7 „epizódokkal” kis téglalapokként).
+  <!-- @source {"id": "Z.1-ILL-01-ALT", "kind": "alt-text"} -->
   **Alt-szöveg (kötelező): „Sorozat-plakát stílusú ikon, rajta az M0–M7 modulok nyolc kis téglalapként, mint egy nyolcrészes sorozat epizódjai.” A kulcsszöveget (modul-kódok, címek) ne égesd a képbe – azoknak szövegként is meg kell jelenniük a dián.**
+  <!-- @endsource -->
 * Alul **Single Choice** kérdés.
-
-<!-- @endsource -->
 
 #### Szöveg a dián:
 
@@ -230,8 +228,8 @@ Opciók (legördülő vagy listában):
 <!-- @source {"id": "Z.1-DIA-01-ALT", "kind": "alt-text"} -->
 
 **Alt-szöveg (kötelező): „Vízszintes idővonal M0-tól M7-ig: nyolc állomás balról jobbra, mindegyiknél a modul kódja és egy rövid kulcsmondat – az önismerettől és visszajelzéstől a kvucán, gyermekvédelmen és módszereken át a saját peuláig.” A modul-kódok és kulcsmondatok ne legyenek képbe égetve – a lenti felsorolás szövegként hordozza ugyanezt a tartalmat, így az idővonal üzenete kép nélkül is elérhető.**
-
 <!-- @endsource -->
+
 
 #### Szöveg a dián (tömören):
 

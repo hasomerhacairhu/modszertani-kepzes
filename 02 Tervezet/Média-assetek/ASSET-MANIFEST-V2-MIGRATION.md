@@ -26,12 +26,12 @@
 | Mutató | Érték |
 |---|--:|
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **913** |
+| Produkciós deliverable | **912** |
 | ebből legyártandó | 403 |
 | ebből újrahasznosítás | 7 |
 | ebből külső forrás | 6 |
 | ebből emberi döntés kell | 2 |
-| Forrásblokk | 121 |
+| Forrásblokk | 123 |
 | Feldolgozott fájl | 84 |
 | Assetet tartalmazó fájl | 65 |
 
@@ -69,15 +69,9 @@ bekerül a regiszterbe.
 
 | ID | Fájl | Derivatívák |
 |---|---|---|
-| `M1.1-VID-02` | 02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md | captions, transcript |
 | `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | captions, transcript |
 | `M3.2-NAR-02` | 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md | captions, transcript |
 | `M4.1-VID-02` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | captions, transcript |
-| `M4.1-VID-03` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | captions, transcript |
-| `M4.1-VID-04` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | captions, transcript |
-| `M4.1-VID-05` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | captions, transcript |
-| `M5.3-NAR-01` | 02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, visszahívás, spacing.md | captions, transcript |
-| `M7.1-NAR-02` | 02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md | captions, transcript |
 
 ## 6. Nyitott produkciós döntések
 
@@ -85,6 +79,7 @@ bekerül a regiszterbe.
 |---|---|---|
 | `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le (észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem gyártható. |
 | `M3.B-KART-03` | 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md | A v1 leltárban szereplő spec olyan foglalkozásformára épült, amit a jelenlegi tananyag már nem tartalmaz, és a jelenlegi peula-szöveg nem hivatkozik erre a segédanyagra. Emberi döntés kell arról, hogy szükség van-e rá, és ha igen, milyen tartalommal — a témáért felelős szakmai/gyermekvédelmi jóváhagyóval. Az eredeti v1 megfogalmazás a befagyasztott leltárban változatlanul megvan (M3.B-KART-03). |
+| `M4.1-VID-02` | 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md | Az Interactive Video hangsávja a három jelenet narrációjából áll össze (M4.1-NAR-03/04/05), önálló szkriptje nincs; a v1 leltár viszont ehhez a konténerhez rendelte a felirat- és leirat-sort (M4.1-FEL-03 / M4.1-LEI-02), és a jelenetek jegyzete is ide mutat. El kell dönteni, hogy a felirat- és leiratfájlt a konténer kapja-e (a három szkript összefűzésével), vagy jelenetenként készül — addig a konténer felirata nem gyártható. A három szkript szövege a regiszterben megvan. |
 | `M4.2-ILL-01` | 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md | HOOK-formátum inkonzisztencia az M4 modulon belül: az M4.1-VID-01 beszélőfej-videóval indít (mint az M1–M3 és M6–M7 leckék többsége), de az M4.2-ILL-01, M4.3-ILL-01 és M4.4-ILL-01 mind STATIKUS illusztrációval nyitja a HOOK-ot, beszélőfej-videó nélkül. Ez a modulon belüli nyitó-élmény váltakozása; a tanuló az M4.1 után már videós HOOK-ot várna. — [⟬SZERZŐI DÖNTÉS⟭ M4 HOOK-formátum: javaslat — M4.1 marad videó-HOOK (indokolt), M4.2–4.4 egységes statikus illusztráció + narráció. Megerősítendő.] Döntsd el modul-szinten a HOOK-formátumot (beszélőfej-videó vagy statikus illusztráció + narráció), és tartsd egységesen az M4.1–M4.4 leckéken belül, vagy rögzítsd, miért tér el az M4.1. |
 
 Hivatkozott produkciós szabályok / blokkolók:

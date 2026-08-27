@@ -17,6 +17,7 @@ Run:  python3 -m unittest tools.test_media_manifest -v
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -618,12 +619,294 @@ class TestRepositoryCorpus(unittest.TestCase):
             self.assertIn(asset["id"], register,
                           f"{asset['id']} nyitott döntése nem látszik a regiszterben")
 
+    def test_no_alt_reference_depends_on_quote_position(self):
+        sources = {s["id"]: s for s in self.model["sources"]}
+        checked = 0
+        for asset in self.model["assets"]:
+            ref = asset["a11y"].get("alt_source_ref", "")
+            if not ref:
+                continue
+            checked += 1
+            source_id, index = mm.split_ref(ref)
+            quotes = mm.QUOTED_SPAN.findall(sources[source_id]["text"])
+            self.assertEqual(1, len(quotes),
+                             f"{asset['id']} alt-forrása több idézetet tartalmaz")
+            self.assertEqual(1, index, f"{asset['id']} pozíciós szelektort használ")
+        self.assertGreater(checked, 5)
+
+    def test_no_spoken_asset_can_become_ready_without_its_script(self):
+        for asset in self.model["assets"]:
+            if mm.requires_spoken_source(asset) and not asset["source_ref"]:
+                self.assertEqual("blocked", asset["status"], asset["id"])
+                self.assertIn(mm.MISSING_SPOKEN_SOURCE, asset["readiness_issues"])
+        for deliverable in self.model["deliverables"]:
+            if mm.MISSING_SPOKEN_SOURCE in deliverable["readiness_issues"]:
+                self.assertEqual("blocked", deliverable["status"], deliverable["id"])
+
+    def test_the_m4_hook_decision_blocks_its_asset(self):
+        asset = next(a for a in self.model["assets"] if a["id"] == "M4.2-ILL-01")
+        self.assertTrue(asset["decision"])
+        self.assertEqual("generate", asset["mode"], "a mód továbbra is legyártandó")
+        self.assertEqual("pending-human-decision", asset["status"])
+
+    def test_m51_hidden_spec_no_longer_contradicts_the_live_narration(self):
+        """F-04: the drift had moved from `verbatim` into the hidden spec."""
+        by_id = {a["id"]: a for a in self.model["assets"]}
+        video = by_id["M5.1-VID-01"]
+        self.assertNotIn("random pillanat", video["spec"])
+        self.assertIn("teljesen **más pillanatok**", video["source_text"])
+        narration = by_id["M5.1-NAR-02"]
+        self.assertNotRegex(narration["spec"],
+                            r"nonformális\s*(és|ÉS)\s*(az\s*)?informális[^.]{0,90}önkéntes")
+        self.assertIn("tudatos nevelési cél", narration["spec"])
+
+    def test_no_spec_field_carries_a_documented_stale_claim(self):
+        """`review` may quote the retired wording; a spec may not assert it."""
+        stale = ("random pillanat", "Short Answer", "Essay", "felirat VAGY")
+        for asset in self.model["assets"]:
+            texts = [asset[f] for f in ("title", "purpose", "spec", "notes")]
+            texts += [v for v in asset["technical"].values() if isinstance(v, str)]
+            texts += [v for v in asset["a11y"].values() if isinstance(v, str)]
+            for text in texts:
+                for phrase in stale:
+                    self.assertNotIn(phrase, text or "",
+                                     f"{asset['id']} spec-mezője elavult állítást tartalmaz")
+
+    def test_markers_never_break_a_list_or_a_quote_box(self):
+        """Narrowing the alt blocks put markers inside lists and blockquotes.
+
+        Three ways that goes wrong and the reader sees it: an unprefixed marker
+        between two list items ends the list, one between two quoted lines splits
+        the quote box, and an indented marker after a blank line turns a tight
+        list loose.
+        """
+        opener = re.compile(r"^(?P<prefix>[ \t>]*)<!--\s*@(asset|source|asset-free|endsource)\b")
+        item = re.compile(r"^\s*([-*+]|\d+[.)])\s")
+        problems = []
+        for path in mm.discover_sources():
+            lines = path.read_text(encoding="utf-8").split("\n")
+            fence = False
+            for i, line in enumerate(lines):
+                if line.lstrip().startswith("```"):
+                    fence = not fence
+                    continue
+                match = opener.match(line)
+                if not match:
+                    continue
+                prefix = match.group("prefix")
+                previous = lines[i - 1] if i else ""
+                following = lines[i + 1] if i + 1 < len(lines) else ""
+                quoted = prefix.lstrip().startswith(">")
+                indented = bool(prefix) and not prefix.strip()
+                where = f"{path.name}:{i + 1}"
+                if fence:
+                    problems.append(f"{where} kódblokkban")
+                if previous.lstrip().startswith("|") or following.lstrip().startswith("|"):
+                    problems.append(f"{where} táblázatban")
+                if (previous.lstrip().startswith(">") and following.lstrip().startswith(">")
+                        and not quoted):
+                    problems.append(f"{where} idézetblokkot vág ketté")
+                if (item.match(previous) and item.match(following)
+                        and not indented and not quoted):
+                    problems.append(f"{where} listát vág ketté")
+                if indented and not previous.strip():
+                    problems.append(f"{where} üres sor után behúzva (laza listát okoz)")
+                block_start = re.compile(
+                    r"^\s*(?:>\s?)*(?:[-*+]\s|\d+[.)]\s|#{1,6}\s|\*\*\*|---)")
+                between_paragraph_lines = (
+                    previous.strip() and following.strip()
+                    and not block_start.match(previous) and not block_start.match(following))
+                if between_paragraph_lines and (indented or quoted):
+                    problems.append(f"{where} bekezdést vág ketté")
+        self.assertEqual([], problems)
+
+    def test_hidden_metadata_renders_to_the_same_html(self):
+        """The strongest available proof that the reader sees nothing new.
+
+        Every migrated file is rendered twice with pandoc's GFM reader — GitHub's
+        dialect — once as committed and once with the metadata stripped. Comments
+        and whitespace aside, the DOM has to be identical: no split list, no split
+        quote box, no loose list, no split paragraph. Skipped where pandoc is
+        absent; `test_markers_never_break_a_list_or_a_quote_box` is the
+        dependency-free guard that always runs.
+        """
+        if shutil.which("pandoc") is None:
+            self.skipTest("pandoc nincs telepítve")
+        comment = re.compile(r"<!--.*?-->", re.S)
+        whitespace = re.compile(r"\s+")
+        around_tag = re.compile(r"\s*(<[^>]+>)\s*")
+
+        def render(markdown: str) -> str:
+            result = subprocess.run(["pandoc", "-f", "gfm", "-t", "html"],
+                                    input=markdown.encode("utf-8"), capture_output=True)
+            html = result.stdout.decode("utf-8")
+            return around_tag.sub(r"\1", whitespace.sub(" ", comment.sub("", html))).strip()
+
+        differing = []
+        for path in mm.discover_sources():
+            current = path.read_text(encoding="utf-8")
+            stripped = mig.strip_metadata(current)
+            if current == stripped:
+                continue
+            if render(stripped) != render(current):
+                differing.append(path.name)
+        self.assertEqual([], differing)
+
+    def test_slide_text_narrations_are_source_backed(self):
+        """Where the lesson says the narration is the slide text, it must be linked."""
+        by_id = {a["id"]: a for a in self.model["assets"]}
+        for asset_id in ("M5.3-NAR-01", "M7.1-NAR-02"):
+            asset = by_id[asset_id]
+            self.assertTrue(asset["source_ref"], f"{asset_id} forrás nélkül maradt")
+            self.assertTrue(asset["source_text"].strip())
+            self.assertEqual([], asset["readiness_issues"], asset_id)
+
     def test_asset_free_files_state_a_reason(self):
         for file_rec in self.model["files"]:
             if file_rec["assets"] or not file_rec["file"].startswith("02 Tervezet/Modulok"):
                 continue
             self.assertTrue(file_rec["asset_free_reason"],
                             f"{file_rec['file']}: nincs @asset-free indoklás")
+
+
+# ==========================================================================
+# Structural readiness (F-01, F-02)
+# ==========================================================================
+
+class TestStructuralReadiness(unittest.TestCase):
+    """A missing script or an open decision outranks every production rule."""
+
+    def _asset(self, **fields):
+        base = dict(id="M9.1-VID-01", kind="video", subtype="explainer",
+                    title="Teszt videó", spec="rövid magyarázó videó",
+                    a11y={"audio": "spoken", "visual": "decorative",
+                          "alt_note": "a felirat lefedi"},
+                    derivatives=["captions", "transcript"])
+        base.update(fields)
+        return compile_corpus({LESSON: lesson(declaration(**base))})
+
+    def test_spoken_video_without_source_is_inventory_valid_but_blocked(self):
+        model = self._asset()
+        self.assertEqual([], [str(e) for e in model["errors"]],
+                         "a hiányzó szkript nem érvényteleníti a manifesztet")
+        asset = model["assets"][0]
+        self.assertEqual("blocked", asset["status"])
+        self.assertIn(mm.MISSING_SPOKEN_SOURCE, asset["readiness_issues"])
+
+    def test_the_caption_and_transcript_deliverables_are_blocked_too(self):
+        model = self._asset()
+        derived = [d for d in model["deliverables"] if d["role"] in ("captions", "transcript")]
+        self.assertEqual(2, len(derived))
+        for deliverable in derived:
+            self.assertEqual("blocked", deliverable["status"], deliverable["id"])
+            self.assertIn(mm.MISSING_SPOKEN_SOURCE, deliverable["readiness_issues"])
+
+    def test_generated_voiceover_without_source_is_blocked(self):
+        model = compile_corpus({LESSON: lesson(declaration(
+            id="M9.1-NAR-01", kind="voiceover", title="Narráció",
+            spec="felmondandó szöveg megírandó", derivatives=["transcript"]))})
+        self.assertEqual("blocked", model["assets"][0]["status"])
+
+    def test_a_valid_source_ref_lifts_the_structural_block(self):
+        files = {LESSON: lesson(
+            declaration(id="M9.1-VID-01", kind="video", subtype="explainer",
+                        title="Teszt videó", source_ref="M9.1-VO",
+                        a11y={"audio": "spoken", "visual": "decorative",
+                              "alt_note": "x"},
+                        derivatives=["captions", "transcript"],
+                        blockers=["R5"]),
+            source_block("M9.1-VO", "narration", "> „Szia!"))}
+        asset = compile_corpus(files)["assets"][0]
+        self.assertEqual([], asset["readiness_issues"])
+        self.assertEqual("pending-production-rule", asset["status"],
+                         "a strukturális gát megszűnt, a szabály-blokkoló veszi át")
+
+    def test_authored_spec_ready_cannot_mask_a_missing_script(self):
+        asset = self._asset(status="spec-ready")["assets"][0]
+        self.assertEqual("blocked", asset["status"])
+
+    def test_silent_video_is_not_blocked_for_a_missing_script(self):
+        model = compile_corpus({LESSON: lesson(declaration(
+            id="M9.1-VID-01", kind="video", subtype="screen-recording",
+            title="Néma felvétel", spec="képernyőfelvétel",
+            a11y={"audio": "silent", "visual": "decorative", "alt_note": "x"}))})
+        asset = model["assets"][0]
+        self.assertEqual([], asset["readiness_issues"])
+        self.assertEqual("spec-ready", asset["status"])
+
+    def test_music_without_a_script_is_not_treated_as_missing_narration(self):
+        model = compile_corpus({LESSON: lesson(declaration(
+            id="M9.1-HANG-01", kind="audio", subtype="music",
+            title="Aláfestő zene", spec="licencelt zenei alap",
+            derivatives=["transcript"]))})
+        asset = model["assets"][0]
+        self.assertEqual([], asset["readiness_issues"])
+        self.assertNotEqual("blocked", asset["status"])
+
+    def test_an_open_decision_outranks_a_production_rule(self):
+        asset = compile_corpus({LESSON: lesson(declaration(
+            id="M9.1-ILL-01", kind="illustration", title="Illusztráció",
+            a11y={"visual": "decorative"}, blockers=["R5"],
+            decision="Nyitott szerzői kérdés — a modul felelősével."))}) ["assets"][0]
+        self.assertEqual("pending-human-decision", asset["status"])
+        self.assertIn(mm.OPEN_DECISION, asset["readiness_issues"])
+
+    def test_authored_spec_ready_cannot_hide_an_open_decision(self):
+        asset = compile_corpus({LESSON: lesson(declaration(
+            id="M9.1-ILL-01", kind="illustration", title="Illusztráció",
+            a11y={"visual": "decorative"}, status="spec-ready",
+            decision="Nyitott kérdés."))}) ["assets"][0]
+        self.assertEqual("pending-human-decision", asset["status"])
+
+    def test_clearing_the_decision_returns_the_rule_derived_status(self):
+        asset = compile_corpus({LESSON: lesson(declaration(
+            id="M9.1-ILL-01", kind="illustration", title="Illusztráció",
+            a11y={"visual": "decorative"}, blockers=["R5"]))}) ["assets"][0]
+        self.assertEqual([], asset["readiness_issues"])
+        self.assertEqual("pending-production-rule", asset["status"])
+
+
+# ==========================================================================
+# Alt selectors cannot rebind (F-03)
+# ==========================================================================
+
+class TestAltSelectorSafety(unittest.TestCase):
+
+    @staticmethod
+    def _files(prescription: str, ref: str = "M9.1-DIA-01-ALT#1"):
+        return {LESSON: lesson(
+            declaration(id="M9.1-DIA-01", kind="diagram", title="Ábra",
+                        a11y={"visual": "informative", "alt_source_ref": ref},
+                        derivatives=["alt-text"]),
+            source_block("M9.1-DIA-01-ALT", "alt-text", prescription))}
+
+    def test_single_quote_source_resolves(self):
+        model = compile_corpus(self._files('> **Alt-szöveg:** „Két oszlop.”'))
+        self.assertEqual([], [str(e) for e in model["errors"]])
+        self.assertEqual("Két oszlop.", model["assets"][0]["alt_text"])
+
+    def test_an_unrelated_second_quote_makes_it_ambiguous(self):
+        """The mutation that used to pass silently: one extra quotation."""
+        problems = errors_of(self._files(
+            '> A mezők „villannak fel”.\n> **Alt-szöveg:** „Két oszlop.”'))
+        self.assertTrue(any("idézetet tartalmaz" in e for e in problems), problems)
+
+    def test_a_positional_selector_is_rejected(self):
+        """`#2` was how the Johari alt used to bind — never valid again."""
+        problems = errors_of(self._files(
+            '> A mezők „villannak fel”.\n> **Alt-szöveg:** „Két oszlop.”',
+            ref="M9.1-DIA-01-ALT#2"))
+        self.assertTrue(any("idézetet tartalmaz" in e for e in problems), problems)
+
+    def test_an_out_of_range_selector_on_a_valid_source_is_a_hard_error(self):
+        with self.assertRaises(mm.ManifestError):
+            compile_corpus(self._files('> **Alt-szöveg:** „Két oszlop.”',
+                                       ref="M9.1-DIA-01-ALT#2"))
+
+    def test_out_of_range_selector_still_rejected(self):
+        with self.assertRaises(mm.ManifestError):
+            compile_corpus(self._files('> **Alt-szöveg:** „Egy.”',
+                                       ref="M9.1-DIA-01-ALT#3"))
 
 
 # ==========================================================================
