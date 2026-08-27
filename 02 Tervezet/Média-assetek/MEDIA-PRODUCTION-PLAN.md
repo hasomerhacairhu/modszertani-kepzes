@@ -79,9 +79,11 @@ legtöbb assetet **abban a pillanatban**. Ez nem határidő, hanem
 
 ## 4. Kötegek
 
-Egy asset **pontosan egy** kötegbe kerül: a legkésőbb érkező kapuja
-dönt. A „Kapuk” oszlop minden nyitott kaput felsorol, így látszik, ha egy
-tétel több dologra is vár.
+Egy asset **pontosan egy** kötegbe kerül, és a köteg neve azt mondja meg,
+melyik az **utolsó** kapuja — nem azt, hogy csak arra vár. Ha egy tételen
+több kapu ül, mindegyiknek le kell zárulnia; a „Kapuk” oszlop ezért mindig
+a teljes listát mutatja. Például egy R3 + R5 tétel a hang-zár kötegében áll,
+de a vizuális rendszer lezárása nélkül akkor sem gyártható.
 
 | Köteg | Függőség | Asset | Deliverable |
 |---|---|---:|---:|
