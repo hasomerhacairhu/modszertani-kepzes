@@ -936,6 +936,14 @@ def _validate_reuse(assets, errors) -> None:
             current = assets.get(current["reuse_of"])
 
 
+#: Wording that unambiguously demands a text equivalent. A visual may not be
+#: declared decorative while its own note says an alt is required — that is the
+#: one direction of this mistake that silently removes an access requirement.
+_DEMANDS_ALT = re.compile(
+    r"alt-?\s?sz[öo]veg (kell|jár|kötelező|szükséges)|érdemi alt|"
+    r"nem dekorat|dekorat\w* NEM")
+
+
 def _validate_accessibility(assets, errors) -> None:
     """Objective, machine-checkable accessibility structure only.
 
@@ -963,7 +971,14 @@ def _validate_accessibility(assets, errors) -> None:
                     where, f"a(z) {asset['id']} vizuális asset, de nincs a11y.visual megjelölve",
                     '"a11y": {"visual": "informative"} vagy {"visual": "decorative"} — '
                     "a dekoratív jelölés is explicit döntés"))
-            elif visual == "informative":
+            note_text = " ".join(str(v) for v in a11y.values() if isinstance(v, str))
+            if visual == "decorative" and _DEMANDS_ALT.search(f"{asset['title']} {note_text}"):
+                errors.append(ManifestError(
+                    where, f"a(z) {asset['id']} dekoratívként van jelölve, de a saját "
+                           "akadálymentesítési jegyzete alt-szöveget ír elő",
+                    'vagy állítsd "informative"-ra és vedd fel az alt-text '
+                    "derivatívát, vagy javítsd a jegyzetet"))
+            if visual == "informative":
                 if "alt-text" not in derivatives:
                     errors.append(ManifestError(
                         where, f"a(z) {asset['id']} tartalmi vizuális, de nincs alt-text derivatívája",
@@ -1983,7 +1998,27 @@ def render_migration_md(model: dict, recon: dict) -> str:
         P("")
     P("A soronkénti leképezés gépi formában: `asset-migration-map.csv`.")
     P("")
-    P("## 5. Nyitott produkciós döntések")
+    unsourced = [a for a in model["assets"]
+                 if a["mode"] == "generate" and not a["source_ref"]
+                 and ({"captions", "transcript"} & set(a["derivatives"]))]
+    if unsourced:
+        P("## 5. Felirat/leirat forrásszöveg nélkül")
+        P("")
+        P("Ezeknél a beszélt asseteknél a jelenlegi lecke nem tartalmaz olyan")
+        P("összefüggő, idézett szkriptet, amit `@source` blokkba lehetett volna fogni,")
+        P("ezért a felirat- és leirat-deliverable **szöveg nélkül** áll. A produkció")
+        P("nem indulhat el rajtuk, amíg a szkript be nem kerül a leckébe — utána a")
+        P("`@source` blokk és a `source_ref` felvételével a szöveg automatikusan")
+        P("bekerül a regiszterbe.")
+        P("")
+        P("| ID | Fájl | Derivatívák |")
+        P("|---|---|---|")
+        for asset in unsourced:
+            P(f"| `{asset['id']}` | {asset['file']} | "
+              f"{', '.join(asset['derivatives'])} |")
+        P("")
+
+    P("## 6. Nyitott produkciós döntések")
     P("")
     P("| ID | Fájl | Mit kell eldönteni |")
     P("|---|---|---|")

@@ -67,7 +67,7 @@
   "a11y": {
     "visual": "informative",
     "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-    "note": "Mindkét ikonhoz alt-szöveg szükséges (lásd Z.3-ALT-01); dekoratívnak NEM jelölendő, mert a kontraszt-metaforát hordozza."
+    "note": "Mindkét ikonhoz alt-szöveg szükséges (lásd Z.3-IKO-01::ALTTEXT); dekoratívnak NEM jelölendő, mert a kontraszt-metaforát hordozza."
   },
   "derivatives": [
     "alt-text"

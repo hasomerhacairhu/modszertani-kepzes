@@ -821,6 +821,56 @@ def v2_id_of_legacy(old_id: str) -> str:
     return _V2_ID_CACHE.get(old_id, old_id)
 
 
+#: old asset ID -> (v2 asset ID, role). Built by replaying the same
+#: classification/linking the plan uses, so a human-readable reference to a v1
+#: identifier can be rewritten to the v2 asset or deliverable it became. Without
+#: this the production workbook would print identifiers that resolve to nothing.
+_ROLE_MAP: dict[str, tuple[str, str]] | None = None
+#: Deliverable IDs the first planning pass actually produced.
+_DELIVERABLES: set[str] = set()
+_REWRITE_REFS = False
+
+LEGACY_REF_RE = re.compile(
+    r"\b((?:M[0-7]|Z)[.\-][0-9A-ZÁÉÍÓÖŐÚÜŰ]*-[A-ZÁÉÍÓÖŐÚÜŰ]{3,4}-\d{2})\b")
+
+
+def legacy_role_map() -> dict[str, tuple[str, str]]:
+    global _ROLE_MAP
+    if _ROLE_MAP is None:
+        _ROLE_MAP = {}
+        for _path, rows in legacy_rows_by_file().items():
+            split = classify(rows)
+            claims, _ = link_derivatives(split["primaries"], split["derivatives"])
+            folded, _ = fold_narration(split["primaries"], claims)
+            for asset_id, items in claims.items():
+                target = v2_id_of_legacy(asset_id)
+                for role, old_id in items:
+                    _ROLE_MAP[old_id] = (target, role)
+            for row in split["primaries"]:
+                if row["assetId"] not in folded:
+                    _ROLE_MAP[row["assetId"]] = (v2_id_of_legacy(row["assetId"]), "asset")
+    return _ROLE_MAP
+
+
+def rewrite_legacy_refs(text: str) -> str:
+    """Point a human-readable reference at what the v1 row actually became."""
+    if not _REWRITE_REFS or not text:
+        return text
+
+    def replace(match):
+        old_id = match.group(1)
+        entry = legacy_role_map().get(old_id)
+        if entry is None:
+            return old_id
+        target, role = entry
+        if role == "asset":
+            return target
+        deliverable = f"{target}::{mm.DERIVATIVE_SUFFIX[role]}"
+        return deliverable if deliverable in _DELIVERABLES else target
+
+    return LEGACY_REF_RE.sub(replace, text)
+
+
 def kind_for(row: dict) -> tuple[str, str]:
     mapped = TYPE_TO_KIND.get(row["assetType"])
     if mapped:
@@ -890,6 +940,40 @@ def production_rules_for(kind: str, subtype: str, provenance: str, row: dict) ->
 
 DECORATIVE_RE = re.compile(r"üres\s*/?\s*rejtett|rejtett\s*/?\s*üres|dekorat", re.I)
 
+#: Whether a visual carries information is stated by the lesson itself, in the
+#: accessibility note the v1 row copied from it. Reading only the linked ALT rows
+#: got it wrong in both directions: a freeze-frame whose note says "érdemi
+#: alt-szöveg kell" was marked decorative, and icon sets whose note says
+#: "tisztán DEKORATÍVAK" produced pointless alt deliverables.
+NEEDS_ALT_RE = re.compile(
+    r"alt-?\s?sz[öo]veg (kell|jár|kötelező|szükséges)|kell alt|kötelező alt|"
+    r"érdemi alt|rövid alt|tartalmi (kép|ábra|ikon|vizuál|illusztrác)|"
+    r"tartalmat hordoz|információt hordoz|jelentést hordoz|"
+    r"nem dekorat|dekorat\w* NEM|szöveges ekvivalens kötelező", re.I)
+IS_DECORATIVE_RE = re.compile(
+    r"dekorat|üres alt|alt=\"\"|rejtett a felolvasó|nem kell (külön )?alt", re.I)
+
+
+def visual_role(text: str) -> str | None:
+    """"informative" / "decorative" / None, from the lesson's own wording.
+
+    Conflicting or conditional wording ("dekoratív kísérő; ha tartalmi, akkor
+    rövid alt") resolves to *informative*: adding an alt requirement that turns
+    out unnecessary costs a line of copy, dropping one that was needed makes the
+    slide unusable with a screen reader.
+    """
+    if NEEDS_ALT_RE.search(text):
+        return "informative"
+    if IS_DECORATIVE_RE.search(text):
+        return "decorative"
+    return None
+
+
+#: The project rule is that every video carries captions; a narration over a
+#: slide needs only a transcript (SC 1.2.1). When the lesson's own note demands
+#: captions for an audio asset, that is the lesson speaking, and it wins.
+NEEDS_CAPTIONS_RE = re.compile(r"felirat", re.I)
+
 
 def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
                       rows_by_id: dict[str, dict], source_ref: str,
@@ -908,7 +992,7 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
         value, _replaced = replace_placeholders(value)
         value, rewritten = rewrite_runtime_claim(value)
         runtime_rewritten = runtime_rewritten or rewritten
-        return value, trimmed
+        return rewrite_legacy_refs(value), trimmed
 
     spec, t1 = clean("contentSpec")
     purpose, t2 = clean("purpose")
@@ -941,7 +1025,11 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
                                         f"{spec} {a11y_note} {row.get('title', '')}", re.I))
         spoken = bool(source_ref) or speech_signals or mentions_sound
         a11y["audio"] = "spoken" if spoken else "silent"
-        a11y["visual"] = "decorative" if (alt_decorative or not alt_rows) else "informative"
+        stated = visual_role(f"{row.get('title', '')} {a11y_note} {notes}")
+        a11y["visual"] = ("informative" if stated == "informative"
+                          else "decorative" if (alt_decorative or not alt_rows or
+                                                stated == "decorative")
+                          else "informative")
         if spoken:
             derivatives.extend(["captions", "transcript"])
             if source_ref or "voiceover" in legacy:
@@ -954,13 +1042,16 @@ def build_declaration(row: dict, doc: Doc, roles: list[tuple[str, str]],
 
     elif kind in mm.AUDIO_KINDS:
         derivatives.append("transcript")
-        if "captions" in legacy:
+        if "captions" in legacy or NEEDS_CAPTIONS_RE.search(a11y_note):
             derivatives.insert(0, "captions")
 
     elif kind in mm.VISUAL_KINDS:
-        if alt_decorative:
+        stated = visual_role(f"{row.get('title', '')} {a11y_note} {notes}")
+        decorative = stated == "decorative" if stated is not None else alt_decorative
+        if decorative:
             a11y["visual"] = "decorative"
-            a11y["alt_note"] = "a forrás dekoratívként jelöli (üres / rejtett alt)"
+            a11y["alt_note"] = ("a lecke akadálymentesítési jegyzete dekoratívként "
+                                "jelöli (üres / rejtett alt)")
         else:
             a11y["visual"] = "informative"
             derivatives.append("alt-text")
@@ -1442,6 +1533,13 @@ def make_plan() -> dict:
               "narration_without_source": [], "alt_without_source": [],
               "trimmed_specs": [], "insert_problems": [], "dropped_overlapping_source": [], "reuse": [], "files": []}
     plan: dict[str, list[dict]] = {}
+    # First pass discovers which deliverables exist, so the second pass can
+    # rewrite v1 identifiers to something that actually resolves.
+    global _REWRITE_REFS, _DELIVERABLES
+    if not _REWRITE_REFS:
+        _REWRITE_REFS = False
+        _DELIVERABLES = _collect_deliverables(grouped, reuse_map)
+        _REWRITE_REFS = True
     for legacy_path, rows in sorted(grouped.items()):
         path = ACTIVE_ROOT / legacy_path
         if not path.exists():
@@ -1458,6 +1556,30 @@ def make_plan() -> dict:
         report["files"].append({"file": doc.rel, "unit": doc.unit,
                                 "rows": len(rows), "insertions": len(insertions)})
     return {"plan": plan, "report": report}
+
+
+def _collect_deliverables(grouped, reuse_map) -> set[str]:
+    """Deliverable IDs a dry planning pass produces (no files are written)."""
+    out: set[str] = set()
+    throwaway = {key: [] for key in
+                 ("assets", "weak_anchors", "unlinked_derivatives",
+                  "narration_without_source", "alt_without_source", "trimmed_specs",
+                  "dropped_overlapping_source", "reuse", "insert_problems", "files")}
+    for legacy_path, rows in sorted(grouped.items()):
+        path = ACTIVE_ROOT / legacy_path
+        if not path.exists():
+            continue
+        doc = Doc(path)
+        if legacy_path in ASSET_FREE_FILES:
+            continue
+        for insertion in plan_file(doc, rows, throwaway, reuse_map):
+            if insertion["kind"] != "asset":
+                continue
+            payload = json.loads("\n".join(insertion["block"][1:-1]))
+            out.add(payload["id"])
+            for role in payload.get("derivatives", []):
+                out.add(f"{payload['id']}::{mm.DERIVATIVE_SUFFIX[role]}")
+    return out
 
 
 def cmd_plan(args) -> int:

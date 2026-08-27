@@ -16,7 +16,7 @@
   "a11y": {
     "visual": "informative",
     "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-    "note": "Alt-szöveg kötelező: M7-HUB-ALT-02 (a három állomás sorrendje, tétje és időzítése szövegesen)."
+    "note": "Alt-szöveg kötelező: M7-HUB-DIA-02::ALTTEXT (a három állomás sorrendje, tétje és időzítése szövegesen)."
   },
   "derivatives": [
     "alt-text"
@@ -56,7 +56,7 @@
   "a11y": {
     "visual": "informative",
     "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-    "note": "Alt-szöveg kötelező: M7-HUB-ALT-03 (a hat bemenet és a Peula v2 célpont szöveges felsorolása)."
+    "note": "Alt-szöveg kötelező: M7-HUB-DIA-03::ALTTEXT (a hat bemenet és a Peula v2 célpont szöveges felsorolása)."
   },
   "derivatives": [
     "alt-text"
@@ -308,7 +308,7 @@ A modul végére a madrich…
   "a11y": {
     "visual": "informative",
     "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-    "note": "Alt-szöveg kötelező: M7-HUB-ALT-01 (négy csomópont + irányított kapcsolatok szöveges leírása)."
+    "note": "Alt-szöveg kötelező: M7-HUB-DIA-01::ALTTEXT (négy csomópont + irányított kapcsolatok szöveges leírása)."
   },
   "derivatives": [
     "alt-text"

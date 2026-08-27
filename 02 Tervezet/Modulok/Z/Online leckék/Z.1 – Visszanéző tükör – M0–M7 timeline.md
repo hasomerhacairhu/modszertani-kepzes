@@ -70,7 +70,7 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
   "a11y": {
     "visual": "informative",
     "alt_source_ref": "Z.1-ILL-01-ALT#4",
-    "note": "Alt-szöveg kötelező (lásd Z.1-ALT-01); kulcsszöveget nem szabad a képbe égetni."
+    "note": "Alt-szöveg kötelező (lásd Z.1-ILL-01::ALTTEXT); kulcsszöveget nem szabad a képbe égetni."
   },
   "derivatives": [
     "alt-text"
@@ -82,7 +82,7 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
   "blockers": [
     "R5"
   ],
-  "notes": "Ezen a dián narráció nincs; a Single Choice kérdés (opciók + barátságos feedback) szöveges interakció, nem média-asset. Párba állítva: Z.1-ALT-01.",
+  "notes": "Ezen a dián narráció nincs; a Single Choice kérdés (opciók + barátságos feedback) szöveges interakció, nem média-asset. Párba állítva: Z.1-ILL-01::ALTTEXT.",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-01"
@@ -155,7 +155,7 @@ Opciók (legördülő vagy listában):
   "a11y": {
     "visual": "informative",
     "alt_source_ref": "Z.1-DIA-01-ALT#1",
-    "note": "Alt-szöveg kötelező (lásd Z.1-ALT-02); szöveg ne legyen képbe égetve."
+    "note": "Alt-szöveg kötelező (lásd Z.1-DIA-01::ALTTEXT); szöveg ne legyen képbe égetve."
   },
   "derivatives": [
     "alt-text"
@@ -167,7 +167,7 @@ Opciók (legördülő vagy listában):
   "blockers": [
     "R5"
   ],
-  "notes": "Ezen a dián nincs kérdés (tiszta Input, 135. sor). Kapcsolódik: Z.1-ALT-02, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-FEL-01.",
+  "notes": "Ezen a dián nincs kérdés (tiszta Input, 135. sor). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-NAR-01::CAPTIONS.",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-02"
@@ -195,7 +195,7 @@ Opciók (legördülő vagy listában):
     "note": "Magyar hangfelvétel/TTS, kb. 30–40 mp, semleges felolvasó hang; opcionális elem."
   },
   "a11y": {
-    "note": "Felirat + leirat kötelező (lásd Z.1-FEL-01, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
+    "note": "Felirat + leirat kötelező (lásd Z.1-NAR-01::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
   },
   "derivatives": [
     "captions",
@@ -208,7 +208,7 @@ Opciók (legördülő vagy listában):
   "blockers": [
     "R3"
   ],
-  "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia) és Z.1-FEL-01 (szöveges ekvivalens, felirat+leirat egyben).",
+  "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia) és Z.1-NAR-01::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
   "legacy": {
     "asset": [
       "Z.1-NAR-01"
@@ -389,7 +389,7 @@ Opciók:
   "a11y": {
     "visual": "informative",
     "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-    "note": "Az ikon a reflektív, naplóírásos feladatot jelzi (nem pusztán dekoratív), ezért rövid alt-szöveg ajánlott (lásd Z.1-ALT-03). Megjegyzés: a forrás explicit alt-szöveget ehhez az ikonhoz NEM ír elő – ez validátori a11y-kiegészítés."
+    "note": "Az ikon a reflektív, naplóírásos feladatot jelzi (nem pusztán dekoratív), ezért rövid alt-szöveg ajánlott (lásd Z.1-IKO-01::ALTTEXT). Megjegyzés: a forrás explicit alt-szöveget ehhez az ikonhoz NEM ír elő – ez validátori a11y-kiegészítés."
   },
   "derivatives": [
     "alt-text"
@@ -401,7 +401,7 @@ Opciók:
   "blockers": [
     "R5"
   ],
-  "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-ALT-03.",
+  "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-IKO-01::ALTTEXT.",
   "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
   "legacy": {
     "alt-text": [
@@ -458,7 +458,7 @@ Opciók:
     "note": "Magyar hangfelvétel/TTS, kb. 20–30 mp, semleges felolvasó hang; opcionális elem."
   },
   "a11y": {
-    "note": "Felirat + leirat kötelező (lásd Z.1-FEL-02, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
+    "note": "Felirat + leirat kötelező (lásd Z.1-NAR-02::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
   },
   "derivatives": [
     "captions",
@@ -471,7 +471,7 @@ Opciók:
   "blockers": [
     "R3"
   ],
-  "notes": "Opcionális. Kapcsolódik: Z.1-FEL-02 (szöveges ekvivalens, felirat+leirat egyben).",
+  "notes": "Opcionális. Kapcsolódik: Z.1-NAR-02::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
   "legacy": {
     "asset": [
       "Z.1-NAR-02"

@@ -50,13 +50,11 @@ M1-HUB-POSZ-02::PRINTPDF,M1-HUB-POSZ-02,nyomtatható PDF,M1,M1-HUB,"02 Tervezet/
 M1.1-DIA-01,M1.1-DIA-01,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,diagram,,legyártandó,produkciós szabályra vár,Animált Johari-ablak diagram (4 mező felvillan),AI-generált,,,,R5
 M1.1-DIA-01::ALTTEXT,M1.1-DIA-01,alt-szöveg,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,diagram,,legyártandó,produkciós szabályra vár,Animált Johari-ablak diagram (4 mező felvillan) — alt-szöveg,AI-generált,M1.1-DIA-01-ALT,"A Johari-ablak 2×2-es diagramja. Oszlopok: én ismerem / én nem ismerem; sorok: mások ismerik / mások nem ismerik. A négy mező: bal felül Nyitott terület (te is és mások is látják), jobb felül Vakfolt (mások látják, te nem), bal alul Rejtett terület (te látod, mások nem), jobb alul Ismeretlen terület (sem te, sem mások nem látják).",3834ed0dcdc369af37698c6d3495cca9aef44571ede4230ce4166bac788a6016,R5
 M1.1-IKO-01,M1.1-IKO-01,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,icon-set,,legyártandó,produkciós szabályra vár,4 mező-ikon a példa-gridhez (dekoratív),AI-generált,,,,R5
-M1.1-IKO-01::ALTTEXT,M1.1-IKO-01,alt-szöveg,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,icon-set,,legyártandó,produkciós szabályra vár,4 mező-ikon a példa-gridhez (dekoratív) — alt-szöveg,AI-generált,,,,R5
 M1.1-IKO-02,M1.1-IKO-02,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,icon-set,,legyártandó,produkciós szabályra vár,Önreflexió-ikon (gondolkodó figura / napló),AI-generált,,,,R5
 M1.1-IKO-02::ALTTEXT,M1.1-IKO-02,alt-szöveg,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,icon-set,,legyártandó,produkciós szabályra vár,Önreflexió-ikon (gondolkodó figura / napló) — alt-szöveg,AI-generált,,,,R5
 M1.1-ILL-01,M1.1-ILL-01,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,illustration,,legyártandó,produkciós szabályra vár,Üres 4 ablakos Johari-váz grafika (címke nélkül),AI-generált,,,,R5
 M1.1-ILL-01::ALTTEXT,M1.1-ILL-01,alt-szöveg,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,illustration,,legyártandó,produkciós szabályra vár,Üres 4 ablakos Johari-váz grafika (címke nélkül) — alt-szöveg,AI-generált,M1.1-ILL-01-ALT,"Egy 2×2-es rács négy üres mezővel, a Johari-ablak vázát idézi, a mezők még címke nélkül.",da0c46e98f0f283de3eff2663122fdcee52c55c21b6cfb05bb3dfd03b310cf4f,R5
 M1.1-ILL-02,M1.1-ILL-02,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,illustration,,legyártandó,produkciós szabályra vár,Példa-grid (4 mező) ikonokkal – 4 hétköznapi példa,AI-generált,,,,R5
-M1.1-ILL-02::ALTTEXT,M1.1-ILL-02,alt-szöveg,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,illustration,,legyártandó,produkciós szabályra vár,Példa-grid (4 mező) ikonokkal – 4 hétköznapi példa — alt-szöveg,AI-generált,,,,R5
 M1.1-NAR-02,M1.1-NAR-02,elsődleges,M1,M1.1,02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – Safety / érzelmi check-in,AI-generált,M1.1-NAR-02-VO,"„Mielőtt belemennénk, fontos:
 az, hogy **nem látsz mindent magadból**, nem azt jelenti, hogy baj van veled.
 Minden embernek vannak részei, amiket csak ő lát,
@@ -203,7 +201,6 @@ M1.2-IKO-01::ALTTEXT,M1.2-IKO-01,alt-szöveg,M1,M1.2,02 Tervezet/Modulok/M1/Onli
 M1.2-IKO-02,M1.2-IKO-02,elsődleges,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,icon-set,,legyártandó,produkciós szabályra vár,Helyzet-piktogramok – iskola / ken / család,AI-generált,,,,R5
 M1.2-IKO-02::ALTTEXT,M1.2-IKO-02,alt-szöveg,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,icon-set,,legyártandó,produkciós szabályra vár,Helyzet-piktogramok – iskola / ken / család — alt-szöveg,AI-generált,,,,R5
 M1.2-IKO-03,M1.2-IKO-03,elsődleges,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,icon-set,,legyártandó,produkciós szabályra vár,Drop-zóna ikonok – szem (megfigyelés) / maszk (értelmezés),AI-generált,,,,R5
-M1.2-IKO-03::ALTTEXT,M1.2-IKO-03,alt-szöveg,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,icon-set,,legyártandó,produkciós szabályra vár,Drop-zóna ikonok – szem (megfigyelés) / maszk (értelmezés) — alt-szöveg,AI-generált,,,,R5
 M1.2-ILL-01,M1.2-ILL-01,elsődleges,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,illustration,,legyártandó,produkciós szabályra vár,"Két chat-buborék – ""Bunkó voltál"" / ""Háromszor közbevágott""",AI-generált,,,,R5
 M1.2-ILL-01::ALTTEXT,M1.2-ILL-01,alt-szöveg,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,illustration,,legyártandó,produkciós szabályra vár,"Két chat-buborék – ""Bunkó voltál"" / ""Háromszor közbevágott"" — alt-szöveg",AI-generált,,,,R5
 M1.2-ILL-02,M1.2-ILL-02,elsődleges,M1,M1.2,02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md,illustration,,legyártandó,produkciós szabályra vár,Storyboard – 3 kontextus kártya (iskola / ken / család),AI-generált,,,,R5
@@ -348,6 +345,14 @@ vagy *‘a beszélgetőkör elején…’*,
 vagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.
 
 Ez segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485,R3
+M1.3-NAR-01::CAPTIONS,M1.3-NAR-01,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,S = Situation narráció (20–30 mp) — felirat,AI-generált,M1.3-NAR-01-VO,"„Az **S**, mint *Situation*, azt jelenti, hogy elmondod:
+**mikor** és **milyen helyzetben** történt a dolog.
+
+Például: *‘Amikor ma a játék közben…’*,
+vagy *‘a beszélgetőkör elején…’*,
+vagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.
+
+Ez segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485,R3
 M1.3-NAR-01::TRANSCRIPT,M1.3-NAR-01,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,S = Situation narráció (20–30 mp) — leirat,AI-generált,M1.3-NAR-01-VO,"„Az **S**, mint *Situation*, azt jelenti, hogy elmondod:
 **mikor** és **milyen helyzetben** történt a dolog.
 
@@ -357,6 +362,14 @@ vagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.
 
 Ez segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485,R3
 M1.3-NAR-02,M1.3-NAR-02,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,B = Behavior narráció (20–30 mp),AI-generált,M1.3-NAR-02-VO,"„A **B**, mint *Behavior*, azaz *viselkedés*, arról szól,
+hogy **mit láttál vagy hallottál konkrétan**.
+
+Például: *‘háromszor félbeszakította a többieket’*,
+vagy *‘kivonult a teremből’*.
+
+Ez a rész az előző leckéhez is kapcsolódik:
+itt **megfigyelést mondasz, nem címkét**.”",9662d095add3cf802f625b06720b06fffda66f76c2dbc3191ebef5858924174e,R3
+M1.3-NAR-02::CAPTIONS,M1.3-NAR-02,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,B = Behavior narráció (20–30 mp) — felirat,AI-generált,M1.3-NAR-02-VO,"„A **B**, mint *Behavior*, azaz *viselkedés*, arról szól,
 hogy **mit láttál vagy hallottál konkrétan**.
 
 Például: *‘háromszor félbeszakította a többieket’*,
@@ -378,6 +391,12 @@ M1.3-NAR-03,M1.3-NAR-03,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online lecké
 Például: *‘nagyon nehéz volt megtartani a figyelmüket’*,
 vagy *‘a kicsik utána már nem szólaltak meg’*,
 vagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",58f57ac59c18b799df3d01a3a734694b0ff505bca6e8b89ba1781afcd1302373,R3
+M1.3-NAR-03::CAPTIONS,M1.3-NAR-03,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,I = Impact narráció (20–30 mp) — felirat,AI-generált,M1.3-NAR-03-VO,"„Az **I**, mint *Impact*, azt jelenti, hogy elmondod,
+**mi lett a hatása** annak, ami történt – rád vagy a csapatra.
+
+Például: *‘nagyon nehéz volt megtartani a figyelmüket’*,
+vagy *‘a kicsik utána már nem szólaltak meg’*,
+vagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",58f57ac59c18b799df3d01a3a734694b0ff505bca6e8b89ba1781afcd1302373,R3
 M1.3-NAR-03::TRANSCRIPT,M1.3-NAR-03,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,I = Impact narráció (20–30 mp) — leirat,AI-generált,M1.3-NAR-03-VO,"„Az **I**, mint *Impact*, azt jelenti, hogy elmondod,
 **mi lett a hatása** annak, ami történt – rád vagy a csapatra.
 
@@ -387,10 +406,19 @@ vagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",58f57ac59c18b79
 M1.3-NAR-04,M1.3-NAR-04,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Activity 1 (vezetett SBI) narráció (15–20 mp),AI-generált,M1.3-NAR-04-VO,"„Most egy félig kész SBI-mondatot egészítesz ki.
 Képzelj el egy egyszerű helyzetet, és próbáld meg beírni,
 **mikor történt, mit csinált a másik, és mi lett a hatása**.”",417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401,R3
+M1.3-NAR-04::CAPTIONS,M1.3-NAR-04,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Activity 1 (vezetett SBI) narráció (15–20 mp) — felirat,AI-generált,M1.3-NAR-04-VO,"„Most egy félig kész SBI-mondatot egészítesz ki.
+Képzelj el egy egyszerű helyzetet, és próbáld meg beírni,
+**mikor történt, mit csinált a másik, és mi lett a hatása**.”",417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401,R3
 M1.3-NAR-04::TRANSCRIPT,M1.3-NAR-04,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Activity 1 (vezetett SBI) narráció (15–20 mp) — leirat,AI-generált,M1.3-NAR-04-VO,"„Most egy félig kész SBI-mondatot egészítesz ki.
 Képzelj el egy egyszerű helyzetet, és próbáld meg beírni,
 **mikor történt, mit csinált a másik, és mi lett a hatása**.”",417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401,R3
 M1.3-NAR-05,M1.3-NAR-05,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Activity 2 (saját mini-SBI) narráció (20–30 mp),AI-generált,M1.3-NAR-05-VO,"„Ez most **a te mondatod**.
+Gondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.
+A lényeg, hogy legyen benne:
+*mikor történt* (S),
+*mit csinált a másik* (B),
+és *mit okozott benned vagy a csapatban* (I).”",5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877,R3
+M1.3-NAR-05::CAPTIONS,M1.3-NAR-05,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Activity 2 (saját mini-SBI) narráció (20–30 mp) — felirat,AI-generált,M1.3-NAR-05-VO,"„Ez most **a te mondatod**.
 Gondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.
 A lényeg, hogy legyen benne:
 *mikor történt* (S),
@@ -405,10 +433,17 @@ A lényeg, hogy legyen benne:
 M1.3-NAR-06,M1.3-NAR-06,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Self-check narráció (10–15 mp),AI-generált,M1.3-NAR-06-VO,"„Ha mindhárom állításra azt mondod, hogy ‘igen’,
 akkor **már van egy használható SBI-vázad**.
 Ezt fogjuk továbbvinni a következő leckében és az Assignmentben is.”",6672c28188276a64cb203b144accdd3e6855ef2199e1ac58e36538ed2ca8d8f1,R3
+M1.3-NAR-06::CAPTIONS,M1.3-NAR-06,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Self-check narráció (10–15 mp) — felirat,AI-generált,M1.3-NAR-06-VO,"„Ha mindhárom állításra azt mondod, hogy ‘igen’,
+akkor **már van egy használható SBI-vázad**.
+Ezt fogjuk továbbvinni a következő leckében és az Assignmentben is.”",6672c28188276a64cb203b144accdd3e6855ef2199e1ac58e36538ed2ca8d8f1,R3
 M1.3-NAR-06::TRANSCRIPT,M1.3-NAR-06,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Self-check narráció (10–15 mp) — leirat,AI-generált,M1.3-NAR-06-VO,"„Ha mindhárom állításra azt mondod, hogy ‘igen’,
 akkor **már van egy használható SBI-vázad**.
 Ezt fogjuk továbbvinni a következő leckében és az Assignmentben is.”",6672c28188276a64cb203b144accdd3e6855ef2199e1ac58e36538ed2ca8d8f1,R3
 M1.3-NAR-07,M1.3-NAR-07,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Zárószöveg narráció (10–15 mp),AI-generált,M1.3-NAR-07-VO,"„Köszi, hogy végigmentél ezen a leckén.
+Most már tudod, hogyan épül fel egy SBI.
+A következő részben igazi szituációkból fogsz választani,
+és olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",3cf12a70e5ac66b0cf733ad9e68c027d363f7bacf4a2a37e5da5cdeaa4318818,R3
+M1.3-NAR-07::CAPTIONS,M1.3-NAR-07,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,produkciós szabályra vár,Zárószöveg narráció (10–15 mp) — felirat,AI-generált,M1.3-NAR-07-VO,"„Köszi, hogy végigmentél ezen a leckén.
 Most már tudod, hogyan épül fel egy SBI.
 A következő részben igazi szituációkból fogsz választani,
 és olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",3cf12a70e5ac66b0cf733ad9e68c027d363f7bacf4a2a37e5da5cdeaa4318818,R3
@@ -613,7 +648,6 @@ Ebben a leckében azt próbáljuk összerakni, **ki vagy te madrichként**,
 A Somer nyelvén azt keressük, hogyan tudsz **személyes példamutatást** adni,
 héberül: *dugma ishit*.”",9f29fb069c80ec8a0170b8dbabbcd50b0113f05540a31c6a95273b7ded0bb27a,"R2, R3"
 M2.2-IKO-01,M2.2-IKO-01,elsődleges,M2,M2.2,02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md,icon-set,,legyártandó,produkciós szabályra vár,"Ikon-készlet – „Mi az, hogy érték?” bulletpontokhoz",AI-generált,,,,R5
-M2.2-IKO-01::ALTTEXT,M2.2-IKO-01,alt-szöveg,M2,M2.2,02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md,icon-set,,legyártandó,produkciós szabályra vár,"Ikon-készlet – „Mi az, hogy érték?” bulletpontokhoz — alt-szöveg",AI-generált,,,,R5
 M2.2-ILL-01,M2.2-ILL-01,elsődleges,M2,M2.2,02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md,illustration,,legyártandó,produkciós szabályra vár,"Statikus illusztráció (videó-alternatíva) – késő, szétesett kvuca",AI-generált,,,,R5
 M2.2-ILL-01::ALTTEXT,M2.2-ILL-01,alt-szöveg,M2,M2.2,02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md,illustration,,legyártandó,produkciós szabályra vár,"Statikus illusztráció (videó-alternatíva) – késő, szétesett kvuca — alt-szöveg",AI-generált,,,,R5
 M2.2-ILL-02,M2.2-ILL-02,elsődleges,M2,M2.2,02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md,illustration,,legyártandó,produkciós szabályra vár,Érték-szófelhő (14 értékkel),AI-generált,,,,R5
@@ -1504,6 +1538,7 @@ M3.F-POSZ-02::PRINTPDF,M3.F-POSZ-02,nyomtatható PDF,M3,M3.F,02 Tervezet/Modulok
 M4.1-DIA-01,M4.1-DIA-01,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,diagram,,legyártandó,produkciós szabályra vár,3-ikonos „belevillanó” keret-grafika – Testtartás / Tekintet / Térfoglalás,AI-generált,,,,R5
 M4.1-DIA-01::ALTTEXT,M4.1-DIA-01,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,diagram,,legyártandó,produkciós szabályra vár,3-ikonos „belevillanó” keret-grafika – Testtartás / Tekintet / Térfoglalás — alt-szöveg,AI-generált,,,,R5
 M4.1-FOTO-01,M4.1-FOTO-01,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz,AI-generált,,,,R8
+M4.1-FOTO-01::ALTTEXT,M4.1-FOTO-01,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz — alt-szöveg,AI-generált,,,,R8
 M4.1-FOTO-02,M4.1-FOTO-02,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,Képpár 2 freeze-frame – földre nézés vs. körre nézés,AI-generált,,,,R8
 M4.1-FOTO-02::ALTTEXT,M4.1-FOTO-02,alt-szöveg,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,photo,,legyártandó,jogtisztázás alatt,Képpár 2 freeze-frame – földre nézés vs. körre nézés — alt-szöveg,AI-generált,,,,R8
 M4.1-IKO-01,M4.1-IKO-01,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,icon-set,,legyártandó,produkciós szabályra vár,AI-eredet címke ikon/badge a Hook videóhoz,AI-generált,,,,R5
@@ -1571,6 +1606,13 @@ a tekintete szinte végig lefelé van.
 Ha chanich lennél,
 mennyire éreznéd azt, hogy **neked beszél**,
 és mennyire azt, hogy inkább a lapja mögé próbál bújni?”",238cf16a5267908340151ce359db0c67f3cc2e67b8ef8837919d390808992c45,R3
+M4.1-NAR-03::CAPTIONS,M4.1-NAR-03,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,produkciós szabályra vár,Jelenet 1 narráció – „Jegyzetbe bújó madrich” — felirat,AI-generált,M4.1-NAR-03-VO,"„Nézd meg ezt a madrichot.
+A papírra koncentrál, a válla kicsit beesik,
+a tekintete szinte végig lefelé van.
+
+Ha chanich lennél,
+mennyire éreznéd azt, hogy **neked beszél**,
+és mennyire azt, hogy inkább a lapja mögé próbál bújni?”",238cf16a5267908340151ce359db0c67f3cc2e67b8ef8837919d390808992c45,R3
 M4.1-NAR-03::TRANSCRIPT,M4.1-NAR-03,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,produkciós szabályra vár,Jelenet 1 narráció – „Jegyzetbe bújó madrich” — leirat,AI-generált,M4.1-NAR-03-VO,"„Nézd meg ezt a madrichot.
 A papírra koncentrál, a válla kicsit beesik,
 a tekintete szinte végig lefelé van.
@@ -1584,6 +1626,12 @@ a kezei állandóan járnak.
 
 Lehet, hogy nagyon lelkes,
 de vajon a kvuca mit érez ebből?”",75b533175ae473acf7e5c06694f94e295ed6c5a4253ca974360a9f8dab2e239d,R3
+M4.1-NAR-04::CAPTIONS,M4.1-NAR-04,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,produkciós szabályra vár,Jelenet 2 narráció – „Ideges topogó madrich” — felirat,AI-generált,M4.1-NAR-04-VO,"„Most nézd meg ezt a helyzetet.
+A madrich sokat mozog, topog, gyorsan beszél,
+a kezei állandóan járnak.
+
+Lehet, hogy nagyon lelkes,
+de vajon a kvuca mit érez ebből?”",75b533175ae473acf7e5c06694f94e295ed6c5a4253ca974360a9f8dab2e239d,R3
 M4.1-NAR-04::TRANSCRIPT,M4.1-NAR-04,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,produkciós szabályra vár,Jelenet 2 narráció – „Ideges topogó madrich” — leirat,AI-generált,M4.1-NAR-04-VO,"„Most nézd meg ezt a helyzetet.
 A madrich sokat mozog, topog, gyorsan beszél,
 a kezei állandóan járnak.
@@ -1591,6 +1639,13 @@ a kezei állandóan járnak.
 Lehet, hogy nagyon lelkes,
 de vajon a kvuca mit érez ebből?”",75b533175ae473acf7e5c06694f94e295ed6c5a4253ca974360a9f8dab2e239d,R3
 M4.1-NAR-05,M4.1-NAR-05,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,produkciós szabályra vár,"Jelenet 3 narráció – „Nyitott, stabil madrich”",AI-generált,M4.1-NAR-05-VO,"„Most nézd meg a harmadik példát.
+A madrich két lábon stabilan áll,
+a vállai lazák,
+és mielőtt beszél, **végignéz** a csoporton.
+
+Aztán röviden, érthetően mondja:
+‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",c53816fbeea8d287ededc2a5edfc2cc2b63b2e595e52935c46c714f54444ce3e,R3
+M4.1-NAR-05::CAPTIONS,M4.1-NAR-05,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,produkciós szabályra vár,"Jelenet 3 narráció – „Nyitott, stabil madrich” — felirat",AI-generált,M4.1-NAR-05-VO,"„Most nézd meg a harmadik példát.
 A madrich két lábon stabilan áll,
 a vállai lazák,
 és mielőtt beszél, **végignéz** a csoporton.
@@ -1746,7 +1801,6 @@ M4.2-EGY-03,M4.2-EGY-03,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online lecké
 M4.2-EGY-04,M4.2-EGY-04,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,other,h5p-interaction,legyártandó,specifikáció kész,H5P mini-quiz – 2 Single Choice kérdés (Check),vegyes,,,,
 M4.2-EGY-05,M4.2-EGY-05,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,other,h5p-interaction,legyártandó,specifikáció kész,2× szabad szöveges mező – reflektív kérdések (visszatükröző mondat + elhagyandó mondat),vegyes,,,,
 M4.2-IKO-01,M4.2-IKO-01,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,icon-set,,legyártandó,produkciós szabályra vár,Fogalom-ikonok: fejhallgató (aktív hallgatás) & körkörös nyíl (visszatükrözés),AI-generált,,,,R5
-M4.2-IKO-01::ALTTEXT,M4.2-IKO-01,alt-szöveg,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,icon-set,,legyártandó,produkciós szabályra vár,Fogalom-ikonok: fejhallgató (aktív hallgatás) & körkörös nyíl (visszatükrözés) — alt-szöveg,AI-generált,,,,R5
 M4.2-ILL-01,M4.2-ILL-01,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,illustration,,legyártandó,produkciós szabályra vár,Hook chat-buborék: ideges peula-mondat,AI-generált,,,,R5
 M4.2-ILL-01::ALTTEXT,M4.2-ILL-01,alt-szöveg,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,illustration,,legyártandó,produkciós szabályra vár,Hook chat-buborék: ideges peula-mondat — alt-szöveg,AI-generált,,,,R5
 M4.2-ILL-02,M4.2-ILL-02,elsődleges,M4,M4.2,02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md,illustration,,legyártandó,produkciós szabályra vár,Két fogalom-doboz: Aktív hallgatás & Visszatükrözés,AI-generált,,,,R5
@@ -2274,7 +2328,6 @@ M5.1-DIA-01,M5.1-DIA-01,elsődleges,M5,M5.1,"02 Tervezet/Modulok/M5/Online leck�
 M5.1-DIA-01::ALTTEXT,M5.1-DIA-01,alt-szöveg,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",diagram,,legyártandó,produkciós szabályra vár,Háromoszlopos formális/nonformális/informális grafika — alt-szöveg,AI-generált,M5.1-DIA-01-ALT,"Három oszlop egymás mellett: bal – formális tanulás / suli (tanterv, jegy, kötelező); közép – nonformális tanulás / Somer (szervezett, van nevelési cél, játék-élmény; a Somerben a részvétel önkéntes); jobb – informális tanulás / random élet (spontán, nincs tervezett nevelési cél, sokszor észre sem veszed, hogy tanultál).",ee81ffe47fde60da8ebe3fd7c804bb18ce37b68db1e17cee8a255205b9ba7c17,R5
 M5.1-EGY-01,M5.1-EGY-01,elsődleges,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",other,ui-text,legyártandó,specifikáció kész,Provenance-címke – AI-generált avatar / AI-elemek jelölés,emberi,,,,
 M5.1-IKO-01,M5.1-IKO-01,elsődleges,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",icon-set,,legyártandó,produkciós szabályra vár,Három tanulástípus ikon-grafika,AI-generált,,,,R5
-M5.1-IKO-01::ALTTEXT,M5.1-IKO-01,alt-szöveg,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",icon-set,,legyártandó,produkciós szabályra vár,Három tanulástípus ikon-grafika — alt-szöveg,AI-generált,,,,R5
 M5.1-NAR-02,M5.1-NAR-02,elsődleges,M5,M5.1,"02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",voiceover,narration,legyártandó,produkciós szabályra vár,INPUT 2 narráció – három fogalom definíciója,vegyes,M5.1-NAR-02-VO,"„Háromféle tanulási helyzetről beszélünk.
 
 A **formális tanulás** az, amikor suliban vagy:
@@ -2444,6 +2497,7 @@ M5.F-POSZ-01::PRINTPDF,M5.F-POSZ-01,nyomtatható PDF,M5,M5.F,"02 Tervezet/Modulo
 M5.F-POSZ-02,M5.F-POSZ-02,elsődleges,M5,M5.F,"02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md",poster,,legyártandó,produkciós szabályra vár,Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak,emberi,,,,R5
 M5.F-POSZ-02::PRINTPDF,M5.F-POSZ-02,nyomtatható PDF,M5,M5.F,"02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md",poster,,legyártandó,produkciós szabályra vár,Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak — nyomtatható PDF,emberi,,,,R5
 M6.1-DIA-01,M6.1-DIA-01,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,diagram,,legyártandó,produkciós szabályra vár,Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra),AI-generált,,,,R5
+M6.1-DIA-01::ALTTEXT,M6.1-DIA-01,alt-szöveg,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,diagram,,legyártandó,produkciós szabályra vár,Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra) — alt-szöveg,AI-generált,,,,R5
 M6.1-EGY-01,M6.1-EGY-01,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,other,ui-text,legyártandó,specifikáció kész,AI-provenance ember-olvasható sor (lecke alján/dián),emberi,,,,
 M6.1-EGY-02,M6.1-EGY-02,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,Single Choice – önreflexió: „mi alapján döntesz?”,emberi,,,,
 M6.1-EGY-03,M6.1-EGY-03,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,Single Choice – „Névkör labdával” korosztály,emberi,,,,
@@ -2456,6 +2510,7 @@ M6.1-EGY-09,M6.1-EGY-09,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online lecké
 M6.1-EGY-10,M6.1-EGY-10,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,Single Choice – mikor ne hozz mély élményjátékot,emberi,,,,
 M6.1-EGY-11,M6.1-EGY-11,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat),emberi,,,,
 M6.1-IKO-01,M6.1-IKO-01,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,icon-set,,legyártandó,produkciós szabályra vár,Játék-kategória ikonok – 5 kategória,AI-generált,,,,R5
+M6.1-IKO-01::ALTTEXT,M6.1-IKO-01,alt-szöveg,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,icon-set,,legyártandó,produkciós szabályra vár,Játék-kategória ikonok – 5 kategória — alt-szöveg,AI-generált,,,,R5
 M6.1-ILL-01,M6.1-ILL-01,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,illustration,,legyártandó,produkciós szabályra vár,Kategória-kártyák 1 – ismerkedős + energizer (2 kártya),AI-generált,,,,R5
 M6.1-ILL-01::ALTTEXT,M6.1-ILL-01,alt-szöveg,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,illustration,,legyártandó,produkciós szabályra vár,Kategória-kártyák 1 – ismerkedős + energizer (2 kártya) — alt-szöveg,AI-generált,,,,R5
 M6.1-ILL-02,M6.1-ILL-02,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,illustration,,legyártandó,produkciós szabályra vár,Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés”,AI-generált,,,,R5
@@ -2463,6 +2518,19 @@ M6.1-ILL-02::ALTTEXT,M6.1-ILL-02,alt-szöveg,M6,M6.1,02 Tervezet/Modulok/M6/Onli
 M6.1-ILL-03,M6.1-ILL-03,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,illustration,,legyártandó,produkciós szabályra vár,Kategória-kártya 3 – reflexiós vs. mély élmény (2 minisztori),AI-generált,,,,R5
 M6.1-ILL-03::ALTTEXT,M6.1-ILL-03,alt-szöveg,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,illustration,,legyártandó,produkciós szabályra vár,Kategória-kártya 3 – reflexiós vs. mély élmény (2 minisztori) — alt-szöveg,AI-generált,,,,R5
 M6.1-NAR-02,M6.1-NAR-02,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 2: 4 korosztály bemutatása,AI-generált,M6.1-NAR-02-VO,"„Ebben a modulban négy kvuca-korosztállyal dolgozunk.
+
+**6–10 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.
+
+**11–13 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.
+
+**14–16 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet. Ne indulj abból, hogy a koruk miatt „drámásak” vagy érzelmileg kiszámíthatatlanok.
+
+**16+ kvucáknál** gyakran több tér adható vitának, önálló döntésnek és reflexiónak, de a magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.
+
+Ugyanaz a játék mást jelent ezeknél a korosztályoknál.
+Ezért fontos, hogy **ne csak játékban**,
+hanem **játék + kvuca párosban** gondolkodj.”",9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6,R3
+M6.1-NAR-02::CAPTIONS,M6.1-NAR-02,felirat,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 2: 4 korosztály bemutatása — felirat,AI-generált,M6.1-NAR-02-VO,"„Ebben a modulban négy kvuca-korosztállyal dolgozunk.
 
 **6–10 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.
 
@@ -2489,6 +2557,29 @@ Ugyanaz a játék mást jelent ezeknél a korosztályoknál.
 Ezért fontos, hogy **ne csak játékban**,
 hanem **játék + kvuca párosban** gondolkodj.”",9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6,R3
 M6.1-NAR-03,M6.1-NAR-03,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 3: 5 játék-kategória,AI-generált,M6.1-NAR-03-VO,"„A ‘játék’ szó nagyon sok mindent takar.
+
+Vannak **ismerkedős, névtanulós játékok**.
+Ezeknél az a cél, hogy *mindenki sorra kerüljön*,
+biztonságosan, kis tét mellett.
+
+Vannak **energizer, mozgásos játékok**.
+Ezek felrázzák a fáradt kvucát,
+levezetik a feszültséget,
+adnak egy kis közös nevetést.
+
+A **bizalom- vagy kontakt-játékok** már több kockázatot hoznak.
+Testközel, érintés,
+‘rábízom-e magam a többiekre’ élmény.
+
+A **reflexiós, beszélgetős játékok**
+könnyebb kérdésekkel nyitnak témákat,
+segítik, hogy a kvuca megossza, amit gondol.
+
+A **mélyebb élmény-játékok**
+erős, emlékezetes helyzetet teremtenek,
+és utána komolyabb feldolgozást igényelnek.
+Ezeket inkább nagyobbaknál, kisebb kvucával érdemes használni.”",2e68a358139ab9d8237b1a63977189d968ca65c17f22d0208082628629806cba,R3
+M6.1-NAR-03::CAPTIONS,M6.1-NAR-03,felirat,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 3: 5 játék-kategória — felirat,AI-generált,M6.1-NAR-03-VO,"„A ‘játék’ szó nagyon sok mindent takar.
 
 Vannak **ismerkedős, névtanulós játékok**.
 Ezeknél az a cél, hogy *mindenki sorra kerüljön*,
@@ -2552,6 +2643,24 @@ Ezek a játékok általában nagyon jól működnek
 egy 6–10 éves kvucánál, illetve többnyire megfelelőek egy 11–13 éves kvucának is.
 Nagyobbaknál már érdemes csavart, humort vinni bele,
 hogy ne legyen ‘túl gyerekes’ érzésük.”",56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386,R3
+M6.1-NAR-04::CAPTIONS,M6.1-NAR-04,felirat,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 4: ismerkedős + energizer — felirat,AI-generált,M6.1-NAR-04-VO,"„Kezdjük két ‘alap’ kategóriával.
+
+Az **ismerkedős, névtanulós játékok**
+akkor jók, amikor friss a kvuca,
+és még senki nem tudja pontosan, ki kicsoda.
+
+A ‘Névkör labdával’ egyszerű, átlátható,
+mindenki sorra kerül,
+és nincs nagy tétje annak, mit mond.
+
+Az **energizer játékok**
+inkább a pörgésről és a nevetésről szólnak.
+Segítenek, ha a kvuca fáradt, vagy túl feszült.
+
+Ezek a játékok általában nagyon jól működnek
+egy 6–10 éves kvucánál, illetve többnyire megfelelőek egy 11–13 éves kvucának is.
+Nagyobbaknál már érdemes csavart, humort vinni bele,
+hogy ne legyen ‘túl gyerekes’ érzésük.”",56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386,R3
 M6.1-NAR-04::TRANSCRIPT,M6.1-NAR-04,leirat,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 4: ismerkedős + energizer — leirat,AI-generált,M6.1-NAR-04-VO,"„Kezdjük két ‘alap’ kategóriával.
 
 Az **ismerkedős, névtanulós játékok**
@@ -2588,6 +2697,24 @@ Nagyobb kvucáknál is csak akkor használd,
 ha a konkrét csoport és a helyzet ezt indokolja.
 Fiatalabbaknál pedig különösen egyszerű, rövid,
 jól szabályozott változatban gondolkodj.”",4ff3229bdaedacf7a4c5ac7962e2ec67ef6c0dea541a6b800fcc24462934b6bb,R3
+M6.1-NAR-05::CAPTIONS,M6.1-NAR-05,felirat,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat — felirat,AI-generált,M6.1-NAR-05-VO,"„A **bizalom- és kontakt-játékok** már egy másik szint.
+
+A ‘Csukott szemű vezetésnél’
+valakinek szó szerint rá kell bíznia magát a társára.
+Nem látja, merre megy.
+A másik felel a biztonságáért.
+
+Ez nagyon erős élmény lehet.
+És közben nagy a **fizikai és érzelmi kockázat** is.
+
+Ilyen játékoknál mindig nézd:
+hány évesek, mennyire ismerik egymást,
+mennyire tudják jelezni, ha **valami sok** nekik.
+
+Nagyobb kvucáknál is csak akkor használd,
+ha a konkrét csoport és a helyzet ezt indokolja.
+Fiatalabbaknál pedig különösen egyszerű, rövid,
+jól szabályozott változatban gondolkodj.”",4ff3229bdaedacf7a4c5ac7962e2ec67ef6c0dea541a6b800fcc24462934b6bb,R3
 M6.1-NAR-05::TRANSCRIPT,M6.1-NAR-05,leirat,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat — leirat,AI-generált,M6.1-NAR-05-VO,"„A **bizalom- és kontakt-játékok** már egy másik szint.
 
 A ‘Csukott szemű vezetésnél’
@@ -2607,6 +2734,23 @@ ha a konkrét csoport és a helyzet ezt indokolja.
 Fiatalabbaknál pedig különösen egyszerű, rövid,
 jól szabályozott változatban gondolkodj.”",4ff3229bdaedacf7a4c5ac7962e2ec67ef6c0dea541a6b800fcc24462934b6bb,R3
 M6.1-NAR-06,M6.1-NAR-06,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 6: reflexiós vs. mély élmény,AI-generált,M6.1-NAR-06-VO,"„A **reflexiós játékok**
+és az **érzékenyebb témák feldolgozása** között is van különbség.
+
+Egy beszélgető kártyás játék
+könnyebben emészthető.
+Egyszerű kérdések, rövid válaszok,
+mindenki maga dönti el, mennyire megy mélyre.
+
+A kirekesztésről is lehet komolyan gondolkodni,
+de ehhez nem kell senkit ténylegesen kirekeszteni.
+Használjatok fiktív, nem beazonosítható esetet,
+és kívülről nézzétek meg a szereplők döntéseit.
+
+Ilyen érzékeny témánál fontos,
+hogy legyen rá idő, tér és utólagos megbeszélés,
+és hogy a kérdések illeszkedjenek a konkrét kvucához.
+Nem az életkor önmagában dönti el, mi fér bele.”",be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd,R3
+M6.1-NAR-06::CAPTIONS,M6.1-NAR-06,felirat,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md,voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 6: reflexiós vs. mély élmény — felirat,AI-generált,M6.1-NAR-06-VO,"„A **reflexiós játékok**
 és az **érzékenyebb témák feldolgozása** között is van különbség.
 
 Egy beszélgető kártyás játék
@@ -2736,7 +2880,9 @@ hogyan gondolkodhatsz **játék-kategóriákban**
 és **négy alap korosztályban**,
 hogy tudatosabban válassz a kvucádnak.”",72d6afee87cd47b481835a7da1c050f38aa949cc570422d6dff7812594afbd80,"R2, R3"
 M6.2-DIA-01,M6.2-DIA-01,elsődleges,M6,M6.2,"02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",diagram,,legyártandó,produkciós szabályra vár,Kétoszlopos „Oké / Figyelj rá” táblázat-ábra,AI-generált,,,,R5
+M6.2-DIA-01::ALTTEXT,M6.2-DIA-01,alt-szöveg,M6,M6.2,"02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",diagram,,legyártandó,produkciós szabályra vár,Kétoszlopos „Oké / Figyelj rá” táblázat-ábra — alt-szöveg,AI-generált,,,,R5
 M6.2-IKO-01,M6.2-IKO-01,elsődleges,M6,M6.2,"02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",icon-set,,legyártandó,produkciós szabályra vár,"Tartalmi ikonok – „Miért mesélünk?” (szív, tükör, kérdőjel)",AI-generált,,,,R5
+M6.2-IKO-01::ALTTEXT,M6.2-IKO-01,alt-szöveg,M6,M6.2,"02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",icon-set,,legyártandó,produkciós szabályra vár,"Tartalmi ikonok – „Miért mesélünk?” (szív, tükör, kérdőjel) — alt-szöveg",AI-generált,,,,R5
 M6.2-NAR-02,M6.2-NAR-02,elsődleges,M6,M6.2,"02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 2 „Miért mesélünk történeteket?” (40–50 mp),AI-generált,M6.2-NAR-02-VO,"„Peulán nem csak azért mesélünk történetet,
 mert ‘jól hangzik’, hanem mert **eszköz**.
 
@@ -3167,7 +3313,6 @@ M6.3-FOTO-04::ALTTEXT,M6.3-FOTO-04,alt-szöveg,M6,M6.3,"02 Tervezet/Modulok/M6/O
 M6.3-FOTO-05,M6.3-FOTO-05,elsődleges,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",illustration,,legyártandó,produkciós szabályra vár,Kvuca-zászló – közös festés,AI-generált,,,,R5
 M6.3-FOTO-05::ALTTEXT,M6.3-FOTO-05,alt-szöveg,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",illustration,,legyártandó,produkciós szabályra vár,Kvuca-zászló – közös festés — alt-szöveg,AI-generált,M6.3-FOTO-05-ALT,"Egy kvuca közösen fest egy zászlót, rajta a csoportot jelképező közös színekkel, jelekkel és szavakkal.",702e1d6990882601840cc7aeba3b15984c32208dbff7c2e4b8a7ebfeff1bbc20,R5
 M6.3-IKO-01,M6.3-IKO-01,elsődleges,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",icon-set,,legyártandó,produkciós szabályra vár,Ikon-készlet – Cél / Inkluzivitás / Variációk,AI-generált,,,,R5
-M6.3-IKO-01::ALTTEXT,M6.3-IKO-01,alt-szöveg,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",icon-set,,legyártandó,produkciós szabályra vár,Ikon-készlet – Cél / Inkluzivitás / Variációk — alt-szöveg,AI-generált,,,,R5
 M6.3-NAR-01,M6.3-NAR-01,elsődleges,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",voiceover,narration,legyártandó,produkciós szabályra vár,Narráció – SLIDE 1 HOOK (35–45 mp),AI-generált,M6.3-NAR-01-VO,"„Szia!
 A peulákban sokszor van **kézműves** rész is.
 

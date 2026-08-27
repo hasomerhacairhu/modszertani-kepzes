@@ -7,6 +7,10 @@ Ez a gyakorlati kézikönyv ahhoz, hogyan írj asset-igényt egy leckébe. A ren
 tartod — a leckében. A regiszter, a felirat, a leirat és a hang mind onnan
 származik.
 
+> Az itteni példák **kitalált `M9` modulra** hivatkoznak, hogy másolás után
+> biztosan ne írj felül egy valódi assetet. Élő példákért nézd meg a
+> [`Média-asset regiszter.md`](./Média-asset%20regiszter.md) megfelelő fájlszakaszát.
+
 ---
 
 ## 1. A két blokk
@@ -16,11 +20,11 @@ származik.
 ```markdown
 <!-- @asset
 {
-  "id": "M5.1-VID-01",
+  "id": "M9.1-VID-01",
   "kind": "video",
   "subtype": "ai-talking-head",
   "title": "HOOK beszélő fej – suli / somer / random",
-  "source_ref": "M5.1-VID-01-VO",
+  "source_ref": "M9.1-VID-01-VO",
   "a11y": {"audio": "spoken", "visual": "decorative"},
   "derivatives": ["voiceover", "captions", "transcript"],
   "provenance": "ai",
@@ -35,7 +39,7 @@ kerülhet a nyitó sorra is, ha rövid a tartalom.
 ### `@source` — a szó szerinti szöveg
 
 ```markdown
-<!-- @source {"id": "M5.1-VID-01-VO", "kind": "narration"} -->
+<!-- @source {"id": "M9.1-VID-01-VO", "kind": "narration"} -->
 
 > „Szia!
 > Gondolj vissza az elmúlt hetekre.
@@ -62,11 +66,11 @@ kép — az a `spec` mezőbe való, nem forrásblokkba.
 ```markdown
 <!-- @asset
 {
-  "id": "M1.1-NAR-03",
+  "id": "M9.1-NAR-03",
   "kind": "voiceover",
   "subtype": "narration",
   "title": "SLIDE 3 narráció – a négy mező",
-  "source_ref": "M1.1-NAR-03-VO",
+  "source_ref": "M9.1-NAR-03-VO",
   "derivatives": ["captions", "transcript"],
   "provenance": "mixed",
   "technical": {"note": "kb. 40–60 mp, tegező, rövid mondatok"}
@@ -82,7 +86,7 @@ Lásd az 1. pont példáját. A `voiceover` derivatíva a felvett hang, a `capti
 ### 2.3 Néma videó (képernyőfelvétel, B-roll)
 
 ```json
-{"id": "M0.3-VID-02", "kind": "video", "subtype": "screen-recording",
+{"id": "M9.3-VID-02", "kind": "video", "subtype": "screen-recording",
  "title": "Moodle-navigáció képernyőfelvétel",
  "a11y": {"audio": "silent", "visual": "decorative",
           "alt_note": "a lépéseket a dia szövege is leírja"},
@@ -97,10 +101,10 @@ felirat. Ha bizonytalan vagy, `"spoken"` a helyes választás.
 ```markdown
 <!-- @asset
 {
-  "id": "M1.1-DIA-01",
+  "id": "M9.1-DIA-01",
   "kind": "diagram",
   "title": "Johari-ablak 2×2 diagram",
-  "a11y": {"visual": "informative", "alt_source_ref": "M1.1-DIA-01-ALT#1"},
+  "a11y": {"visual": "informative", "alt_source_ref": "M9.1-DIA-01-ALT#1"},
   "derivatives": ["alt-text"],
   "provenance": "ai",
   "production_rules": ["R1", "R5"]
@@ -111,7 +115,7 @@ felirat. Ha bizonytalan vagy, `"spoken"` a helyes választás.
 és a leckében, ahol az alt-szöveg áll:
 
 ```markdown
-<!-- @source {"id": "M1.1-DIA-01-ALT", "kind": "alt-text"} -->
+<!-- @source {"id": "M9.1-DIA-01-ALT", "kind": "alt-text"} -->
 
 * **Alt-szöveg / szöveges ekvivalens (kötelező):** „A Johari-ablak 2×2-es
   diagramja. Oszlopok: én ismerem / én nem ismerem…”
@@ -125,7 +129,7 @@ altot, a második asset `#2`-vel hivatkozik ugyanarra a blokkra.
 ### 2.5 Dekoratív kép
 
 ```json
-{"id": "M0.1-IKO-01", "kind": "icon-set", "title": "Hook-ikon: útiterv",
+{"id": "M9.1-IKO-01", "kind": "icon-set", "title": "Hook-ikon: útiterv",
  "a11y": {"visual": "decorative",
           "alt_note": "a jelentést a cím és a bullet-szöveg hordozza"},
  "provenance": "ai"}
@@ -137,18 +141,18 @@ olyan információt, ami máshol ne lenne meg szövegként.
 ### 2.6 Stock vagy külső fotó
 
 ```json
-{"id": "M6.3-FOTO-01", "kind": "photo", "mode": "external",
+{"id": "M9.3-FOTO-01", "kind": "photo", "mode": "external",
  "title": "Kvuca közös plakáton dolgozik",
  "external": {"source": "stock-kép beszerzés",
               "licence": "nyitott: licenc, attribúció és jogcím igazolása (R8)"},
- "a11y": {"visual": "informative", "alt_source_ref": "M6.3-FOTO-01-ALT#1"},
+ "a11y": {"visual": "informative", "alt_source_ref": "M9.3-FOTO-01-ALT#1"},
  "derivatives": ["alt-text"], "provenance": "stock", "blockers": ["R8"]}
 ```
 
 ### 2.7 Nyomtatható munkalap
 
 ```json
-{"id": "M1.A-MUNK-01", "kind": "worksheet",
+{"id": "M9.A-MUNK-01", "kind": "worksheet",
  "title": "Megfigyelés vagy címkézés? – képzői segédlet",
  "spec": "8 példamondat, mindegyik mellett megfigyelés / címke jelöléssel.",
  "derivatives": ["print-pdf"], "provenance": "human",
@@ -158,7 +162,7 @@ olyan információt, ami máshol ne lenne meg szövegként.
 ### 2.8 Kártyaszett
 
 ```json
-{"id": "M3.A-KART-02", "kind": "card-set", "title": "Kvuca-sztori kártyák",
+{"id": "M9.A-KART-02", "kind": "card-set", "title": "Kvuca-sztori kártyák",
  "spec": "8 nyomtatható kártya, kvucánként egy rövid sztorival.",
  "derivatives": ["print-pdf"], "provenance": "human"}
 ```
@@ -166,7 +170,7 @@ olyan információt, ami máshol ne lenne meg szövegként.
 ### 2.9 Letölthető sablon / dokumentum
 
 ```json
-{"id": "M5.4-MUNK-01", "kind": "template", "subtype": "spreadsheet",
+{"id": "M9.4-MUNK-01", "kind": "template", "subtype": "spreadsheet",
  "title": "Feladat–kvuca–módszer kitölthető tábla",
  "spec": "4 oszlopos sablon, kitöltött mintasorral.",
  "derivatives": ["print-pdf"], "provenance": "human"}
@@ -175,7 +179,7 @@ olyan információt, ami máshol ne lenne meg szövegként.
 ### 2.10 Beszerzendő eszköz (nem gyártjuk)
 
 ```json
-{"id": "M3.F-EGY-01", "kind": "print", "subtype": "consumable", "mode": "external",
+{"id": "M9.F-EGY-01", "kind": "print", "subtype": "consumable", "mode": "external",
  "title": "Check-in matrica / post-it készlet",
  "external": {"source": "beszerzendő irodaszer", "owner": "képzés-logisztika"}}
 ```
@@ -183,7 +187,7 @@ olyan információt, ami máshol ne lenne meg szövegként.
 ### 2.11 Zene vagy SFX
 
 ```json
-{"id": "M6.A-HANG-01", "kind": "audio", "subtype": "music",
+{"id": "M9.A-HANG-01", "kind": "audio", "subtype": "music",
  "title": "Aláfestő zene a gallery walkhoz",
  "derivatives": ["transcript"],
  "provenance": "third-party",
@@ -196,9 +200,9 @@ nem mehet ki (WCAG 2.2 SC 1.2.1). Zenénél ez rövid leírás is lehet.
 ### 2.12 Explicit újrahasznosítás
 
 ```json
-{"id": "M7.4-IKO-01", "kind": "icon-set", "mode": "reuse",
- "reuse_of": "M3.2-IKO-01",
- "title": "Négy kvuca-ikon (az M3.2-ből)",
+{"id": "M9.4-IKO-01", "kind": "icon-set", "mode": "reuse",
+ "reuse_of": "M9.2-IKO-01",
+ "title": "Négy kvuca-ikon (az M9.2-ből)",
  "notes": "Ugyanaz a négy piktogram, csak más elrendezésben."}
 ```
 
@@ -209,7 +213,7 @@ helyre. „Hasonló”, „ugyanaz a stílus”, „ugyanarról szól” — eze
 ### 2.13 Emberi döntésre váró tétel
 
 ```json
-{"id": "M3.B-KART-03", "kind": "card-set", "mode": "human-decision",
+{"id": "M9.B-KART-03", "kind": "card-set", "mode": "human-decision",
  "title": "Képzői safety-gyorskártya",
  "decision": "Kell-e ez a segédanyag, és ha igen, milyen tartalommal — a képzés gyermekvédelmi felelősével."}
 ```

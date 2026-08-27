@@ -116,7 +116,7 @@ munkafüzet *Produkciós konvenciók* lapján olvasható.
 | **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID, vagy az emberi felmondó | minden narráció, hang és videó |
 | **R5** — Ikon- és karakter-batch + lock | a rögzített **someres hex-paletta** (a szabály ezen belül tartja nyitva) | minden tervezett vizuál és nyomtatott anyag |
 | **R7** — Produkciós függőségek | a véglegesített Moodle-felület | a kurzusfelületet ábrázoló képernyőkép |
-| **R8** — GDPR / képmás-védelem | felhasználási jogcím, attribúció, anonimizálás | a fotó- és stock-assetek |
+| **R8** — GDPR / képmás-védelem | valós fotón/képernyőképen minden azonosítható személy és kézírás anonimizálása vagy kikeretezése; **felismerhető kiskorúnál előre dokumentált szülői hozzájárulás**; képernyőképen nincs valós felhasználónév, arc vagy licenc-korlátos harmadik felas elem | a fotó- és stock-assetek, valamint a kurzusfelületet ábrázoló képernyőkép |
 
 Nem blokkoló, de minden vizuális munkára érvényes konvenció: **R1** (egységes
 AI-jelölés), **R4** (védjegy-semlegesség), **R6** (szín-szótár).
@@ -124,6 +124,11 @@ AI-jelölés), **R4** (védjegy-semlegesség), **R6** (szín-szótár).
 Egy asset **emberi döntésre vár** (`mode: human-decision`) — lásd a *Nyitott
 döntések* munkalapot és az [`ASSET-MANIFEST-V2-MIGRATION.md`](./ASSET-MANIFEST-V2-MIGRATION.md)
 5. szakaszát.
+
+> ⚠️ **Emberi döntés:** az R8 szövegében — az R2/R3/R5-tel ellentétben — nincs
+> `⟬KITÖLTENDŐ⟭` jelölés. Hogy ez betartandó szabály-e (és így nem kapu), vagy
+> önálló jóváhagyást igényel a fotó/képernyőkép-assetek élesítése előtt, a
+> gyermekvédelmi és adatvédelmi felelősnek kell tisztáznia.
 
 > ⚠️ **Tisztázandó a v1 README-ből:** az korábbi olvasat egy `J19` hivatkozást is
 > nyitott kapuként sorolt fel („az M4 HOOK-formátum szerzői megerősítése”).

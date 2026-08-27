@@ -21,7 +21,7 @@
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 121 |
 | Szemantikus asset | **418** |
-| Produkciós deliverable | **896** |
+| Produkciós deliverable | **909** |
 
 **Produkciós mód szerint**
 
@@ -53,10 +53,10 @@
 | Szerep | Db |
 |---|--:|
 | elsődleges | 410 |
-| alt-szöveg | 125 |
+| alt-szöveg | 123 |
 | nyomtatható PDF | 122 |
 | leirat | 118 |
-| felirat | 100 |
+| felirat | 115 |
 | felmondott hang | 21 |
 
 **Modul szerint**
@@ -169,10 +169,10 @@
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M1.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Animált Johari-ablak diagram (4 mező felvillan) | — | alt-szöveg | AI-generált |
-| `M1.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | 4 mező-ikon a példa-gridhez (dekoratív) | — | alt-szöveg | AI-generált |
+| `M1.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | 4 mező-ikon a példa-gridhez (dekoratív) | — | — | AI-generált |
 | `M1.1-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | Önreflexió-ikon (gondolkodó figura / napló) | — | alt-szöveg | AI-generált |
 | `M1.1-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Üres 4 ablakos Johari-váz grafika (címke nélkül) | — | alt-szöveg | AI-generált |
-| `M1.1-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Példa-grid (4 mező) ikonokkal – 4 hétköznapi példa | — | alt-szöveg | AI-generált |
+| `M1.1-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Példa-grid (4 mező) ikonokkal – 4 hétköznapi példa | — | — | AI-generált |
 | `M1.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – Safety / érzelmi check-in | `M1.1-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M1.1-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – „Mi az a Johari-ablak?” (4 mező) | `M1.1-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M1.1-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – Példák a 4 mezőre | `M1.1-NAR-04-VO` | felirat, leirat | AI-generált |
@@ -190,7 +190,7 @@
 | `M1.2-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Megfigyelés vs. értelmezés – kétoszlopos animált grafika | — | alt-szöveg | AI-generált |
 | `M1.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Ikonok a megfigyelés/értelmezés példákhoz | — | alt-szöveg | AI-generált |
 | `M1.2-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | Helyzet-piktogramok – iskola / ken / család | — | alt-szöveg | AI-generált |
-| `M1.2-IKO-03` | icon-set | legyártandó | produkciós szabályra vár | Drop-zóna ikonok – szem (megfigyelés) / maszk (értelmezés) | — | alt-szöveg | AI-generált |
+| `M1.2-IKO-03` | icon-set | legyártandó | produkciós szabályra vár | Drop-zóna ikonok – szem (megfigyelés) / maszk (értelmezés) | — | — | AI-generált |
 | `M1.2-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Két chat-buborék – "Bunkó voltál" / "Háromszor közbevágott" | — | alt-szöveg | AI-generált |
 | `M1.2-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Storyboard – 3 kontextus kártya (iskola / ken / család) | — | alt-szöveg | AI-generált |
 | `M1.2-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | INPUT narráció – definíciók (kamera-teszt) | `M1.2-NAR-02-VO` | felirat, leirat | AI-generált |
@@ -211,13 +211,13 @@
 | `M1.3-DIA-03` | diagram | legyártandó | produkciós szabályra vár | I = Impact magyarázó grafika (+ pozitív SBI keret) | — | alt-szöveg | AI-generált |
 | `M1.3-EGY-01` | other | legyártandó | specifikáció kész | Videó-belső verziócímkék overlay (1. verzió / 2. verzió) | — | — | AI-generált |
 | `M1.3-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | SBI vizuális kód ikon-készlet (S/B/I) | — | alt-szöveg | AI-generált |
-| `M1.3-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | S = Situation narráció (20–30 mp) | `M1.3-NAR-01-VO` | leirat | AI-generált |
-| `M1.3-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | B = Behavior narráció (20–30 mp) | `M1.3-NAR-02-VO` | leirat | AI-generált |
-| `M1.3-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | I = Impact narráció (20–30 mp) | `M1.3-NAR-03-VO` | leirat | AI-generált |
-| `M1.3-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Activity 1 (vezetett SBI) narráció (15–20 mp) | `M1.3-NAR-04-VO` | leirat | AI-generált |
-| `M1.3-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Activity 2 (saját mini-SBI) narráció (20–30 mp) | `M1.3-NAR-05-VO` | leirat | AI-generált |
-| `M1.3-NAR-06` | voiceover/narration | legyártandó | produkciós szabályra vár | Self-check narráció (10–15 mp) | `M1.3-NAR-06-VO` | leirat | AI-generált |
-| `M1.3-NAR-07` | voiceover/narration | legyártandó | produkciós szabályra vár | Zárószöveg narráció (10–15 mp) | `M1.3-NAR-07-VO` | leirat | AI-generált |
+| `M1.3-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | S = Situation narráció (20–30 mp) | `M1.3-NAR-01-VO` | felirat, leirat | AI-generált |
+| `M1.3-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | B = Behavior narráció (20–30 mp) | `M1.3-NAR-02-VO` | felirat, leirat | AI-generált |
+| `M1.3-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | I = Impact narráció (20–30 mp) | `M1.3-NAR-03-VO` | felirat, leirat | AI-generált |
+| `M1.3-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Activity 1 (vezetett SBI) narráció (15–20 mp) | `M1.3-NAR-04-VO` | felirat, leirat | AI-generált |
+| `M1.3-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Activity 2 (saját mini-SBI) narráció (20–30 mp) | `M1.3-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M1.3-NAR-06` | voiceover/narration | legyártandó | produkciós szabályra vár | Self-check narráció (10–15 mp) | `M1.3-NAR-06-VO` | felirat, leirat | AI-generált |
+| `M1.3-NAR-07` | voiceover/narration | legyártandó | produkciós szabályra vár | Zárószöveg narráció (10–15 mp) | `M1.3-NAR-07-VO` | felirat, leirat | AI-generált |
 | `M1.3-VID-01` | video/interactive | legyártandó | produkciós szabályra vár | HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel | — | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md
@@ -295,7 +295,7 @@
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M2.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Ikon-készlet – „Mi az, hogy érték?” bulletpontokhoz | — | alt-szöveg | AI-generált |
+| `M2.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Ikon-készlet – „Mi az, hogy érték?” bulletpontokhoz | — | — | AI-generált |
 | `M2.2-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Statikus illusztráció (videó-alternatíva) – késő, szétesett kvuca | — | alt-szöveg | AI-generált |
 | `M2.2-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Érték-szófelhő (14 értékkel) | — | alt-szöveg | AI-generált |
 | `M2.2-ILL-03` | illustration | legyártandó | produkciós szabályra vár | Köszönőkártya (outro, videó-alternatíva) | — | alt-szöveg | AI-generált |
@@ -500,14 +500,14 @@
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M4.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | 3-ikonos „belevillanó” keret-grafika – Testtartás / Tekintet / Térfoglalás | — | alt-szöveg | AI-generált |
-| `M4.1-FOTO-01` | photo | legyártandó | jogtisztázás alatt | Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz | — | — | AI-generált |
+| `M4.1-FOTO-01` | photo | legyártandó | jogtisztázás alatt | Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz | — | alt-szöveg | AI-generált |
 | `M4.1-FOTO-02` | photo | legyártandó | jogtisztázás alatt | Képpár 2 freeze-frame – földre nézés vs. körre nézés | — | alt-szöveg | AI-generált |
 | `M4.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | AI-eredet címke ikon/badge a Hook videóhoz | — | alt-szöveg | AI-generált |
 | `M4.1-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | 3 fókusz-ikon: Testtartás, Tekintet, Térfoglalás | — | alt-szöveg | AI-generált |
 | `M4.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 2 narráció – „3 dolog, ami azonnal látszik rajtad” | `M4.1-NAR-02-VO` | felirat, leirat | AI-generált |
-| `M4.1-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Jelenet 1 narráció – „Jegyzetbe bújó madrich” | `M4.1-NAR-03-VO` | leirat | AI-generált |
-| `M4.1-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Jelenet 2 narráció – „Ideges topogó madrich” | `M4.1-NAR-04-VO` | leirat | AI-generált |
-| `M4.1-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Jelenet 3 narráció – „Nyitott, stabil madrich” | `M4.1-NAR-05-VO` | leirat | AI-generált |
+| `M4.1-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Jelenet 1 narráció – „Jegyzetbe bújó madrich” | `M4.1-NAR-03-VO` | felirat, leirat | AI-generált |
+| `M4.1-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Jelenet 2 narráció – „Ideges topogó madrich” | `M4.1-NAR-04-VO` | felirat, leirat | AI-generált |
+| `M4.1-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Jelenet 3 narráció – „Nyitott, stabil madrich” | `M4.1-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M4.1-NAR-06` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 4 közös bevezető narráció – „Mi a különbség?” | `M4.1-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M4.1-NAR-07` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 6 outro narráció – „Mire figyelek legközelebb?” | `M4.1-NAR-07-VO` | felirat, leirat | AI-generált |
 | `M4.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélő-fej videó – „Mit gondolnak rólad az első 5 másodpercben?” | `M4.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
@@ -527,7 +527,7 @@
 | `M4.2-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Drag&Drop / Sorting – „Lezáró vagy támogató?” | — | — | vegyes |
 | `M4.2-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | H5P mini-quiz – 2 Single Choice kérdés (Check) | — | — | vegyes |
 | `M4.2-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | 2× szabad szöveges mező – reflektív kérdések (visszatükröző mondat + elhagyandó mondat) | — | — | vegyes |
-| `M4.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Fogalom-ikonok: fejhallgató (aktív hallgatás) & körkörös nyíl (visszatükrözés) | — | alt-szöveg | AI-generált |
+| `M4.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Fogalom-ikonok: fejhallgató (aktív hallgatás) & körkörös nyíl (visszatükrözés) | — | — | AI-generált |
 | `M4.2-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Hook chat-buborék: ideges peula-mondat | — | alt-szöveg | AI-generált |
 | `M4.2-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Két fogalom-doboz: Aktív hallgatás & Visszatükrözés | — | alt-szöveg | AI-generált |
 | `M4.2-ILL-03` | illustration | legyártandó | produkciós szabályra vár | Outro összegző checklist vizuál | — | alt-szöveg | AI-generált |
@@ -616,7 +616,7 @@
 |---|---|---|---|---|---|---|---|
 | `M5.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Háromoszlopos formális/nonformális/informális grafika | — | alt-szöveg | AI-generált |
 | `M5.1-EGY-01` | other/ui-text | legyártandó | specifikáció kész | Provenance-címke – AI-generált avatar / AI-elemek jelölés | — | — | emberi |
-| `M5.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Három tanulástípus ikon-grafika | — | alt-szöveg | AI-generált |
+| `M5.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Három tanulástípus ikon-grafika | — | — | AI-generált |
 | `M5.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | INPUT 2 narráció – három fogalom definíciója | `M5.1-NAR-02-VO` | felirat, leirat | vegyes |
 | `M5.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK beszélő fej – suli / somer / random | `M5.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 | `M5.1-VID-02` | video/ai-talking-head | legyártandó | jogtisztázás alatt | OUTRO beszélő fej thumbnail (opcionális) | `M5.1-VID-02-VO` | felmondott hang, felirat, leirat | AI-generált |
@@ -701,7 +701,7 @@
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra) | — | — | AI-generált |
+| `M6.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra) | — | alt-szöveg | AI-generált |
 | `M6.1-EGY-01` | other/ui-text | legyártandó | specifikáció kész | AI-provenance ember-olvasható sor (lecke alján/dián) | — | — | emberi |
 | `M6.1-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – önreflexió: „mi alapján döntesz?” | — | — | emberi |
 | `M6.1-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – „Névkör labdával” korosztály | — | — | emberi |
@@ -713,15 +713,15 @@
 | `M6.1-EGY-09` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – miért hasznos kategóriákban gondolkodni | — | — | emberi |
 | `M6.1-EGY-10` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – mikor ne hozz mély élményjátékot | — | — | emberi |
 | `M6.1-EGY-11` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat) | — | — | emberi |
-| `M6.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Játék-kategória ikonok – 5 kategória | — | — | AI-generált |
+| `M6.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Játék-kategória ikonok – 5 kategória | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártyák 1 – ismerkedős + energizer (2 kártya) | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés” | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-03` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártya 3 – reflexiós vs. mély élmény (2 minisztori) | — | alt-szöveg | AI-generált |
-| `M6.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 2: 4 korosztály bemutatása | `M6.1-NAR-02-VO` | leirat | AI-generált |
-| `M6.1-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 3: 5 játék-kategória | `M6.1-NAR-03-VO` | leirat | AI-generált |
-| `M6.1-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 4: ismerkedős + energizer | `M6.1-NAR-04-VO` | leirat | AI-generált |
-| `M6.1-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat | `M6.1-NAR-05-VO` | leirat | AI-generált |
-| `M6.1-NAR-06` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 6: reflexiós vs. mély élmény | `M6.1-NAR-06-VO` | leirat | AI-generált |
+| `M6.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 2: 4 korosztály bemutatása | `M6.1-NAR-02-VO` | felirat, leirat | AI-generált |
+| `M6.1-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 3: 5 játék-kategória | `M6.1-NAR-03-VO` | felirat, leirat | AI-generált |
+| `M6.1-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 4: ismerkedős + energizer | `M6.1-NAR-04-VO` | felirat, leirat | AI-generált |
+| `M6.1-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat | `M6.1-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M6.1-NAR-06` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 6: reflexiós vs. mély élmény | `M6.1-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-07` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 8 outro (opcionális rövid videóhoz) | `M6.1-NAR-07-VO` | felirat, leirat | AI-generált |
 | `M6.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélőfej-videó – „Volt már olyan, hogy nem ült a játék?” | `M6.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
@@ -731,8 +731,8 @@
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.2-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Kétoszlopos „Oké / Figyelj rá” táblázat-ábra | — | — | AI-generált |
-| `M6.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Tartalmi ikonok – „Miért mesélünk?” (szív, tükör, kérdőjel) | — | — | AI-generált |
+| `M6.2-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Kétoszlopos „Oké / Figyelj rá” táblázat-ábra | — | alt-szöveg | AI-generált |
+| `M6.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Tartalmi ikonok – „Miért mesélünk?” (szív, tükör, kérdőjel) | — | alt-szöveg | AI-generált |
 | `M6.2-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 2 „Miért mesélünk történeteket?” (40–50 mp) | `M6.2-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M6.2-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 4 történet 2. rész (40–50 mp) | `M6.2-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M6.2-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 5 „Történet, mint tükör – kérdések” (45–60 mp) | `M6.2-NAR-05-VO` | felirat, leirat | AI-generált |
@@ -753,7 +753,7 @@
 | `M6.3-FOTO-03` | illustration | legyártandó | produkciós szabályra vár | Közös kvuca-plakát – sok kéz dolgozik rajta | — | alt-szöveg | AI-generált |
 | `M6.3-FOTO-04` | illustration | legyártandó | produkciós szabályra vár | Személyes szimbólum-karkötő – gyöngyfűzés | — | alt-szöveg | AI-generált |
 | `M6.3-FOTO-05` | illustration | legyártandó | produkciós szabályra vár | Kvuca-zászló – közös festés | — | alt-szöveg | AI-generált |
-| `M6.3-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Ikon-készlet – Cél / Inkluzivitás / Variációk | — | alt-szöveg | AI-generált |
+| `M6.3-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Ikon-készlet – Cél / Inkluzivitás / Variációk | — | — | AI-generált |
 | `M6.3-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 1 HOOK (35–45 mp) | `M6.3-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M6.3-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 2 INPUT 1 (45–55 mp) | `M6.3-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M6.3-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 3 PÉLDA 1 Közös plakát (45–60 mp) | `M6.3-NAR-03-VO` | felirat, leirat | AI-generált |

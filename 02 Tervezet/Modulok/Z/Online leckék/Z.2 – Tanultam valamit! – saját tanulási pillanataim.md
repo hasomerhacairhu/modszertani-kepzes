@@ -67,7 +67,7 @@
   "a11y": {
     "visual": "informative",
     "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-    "note": "Alt-szöveg kell (lásd Z.2-ALT-01)."
+    "note": "Alt-szöveg kell (lásd Z.2-ILL-01::ALTTEXT)."
   },
   "derivatives": [
     "alt-text"
