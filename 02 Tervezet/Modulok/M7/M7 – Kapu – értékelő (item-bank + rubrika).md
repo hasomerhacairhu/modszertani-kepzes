@@ -32,7 +32,7 @@
   * 🔒 **Spacing- és feedback-invariáns:** a v1 és v2 **nem lehet ugyanazon a napon**. A v1 leadása után következik az M7.B köztes workshop/feedback, majd külön revíziós munka, és csak ezután adható le v2. A program alapritmusában ez nagyjából egyhetes köz, de **nem állítunk tudományosan indokolatlan univerzális minimum-napszámot**; azt védjük, hogy valódi időbeli elosztás + feedback → revízió történjen. A konkrét Moodle-dátumokat ehhez igazítva kell beállítani.
 * **v2 – mastery-kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: a Moodle-ben előre beállított és kommunikált v2-határidő)
 
-**Kapu-lehorgonyzás:** ez a fájl horgonyozza le a korábban csak `§6`-ban deklarált, de meg nem írt éles kaput: konkrét item-bank (distraktorokkal), teljes 3-szintes megfigyelhető rubrika, kijelölt blokkoló biztonsági sor, és ponthoz kötött ≥70%.
+**Mit rögzít ez a fájl?** A korábban csak a `§6`-ban ígért, de meg nem írt éles kapu itt válik kézzelfoghatóvá: konkrét item-bank (distraktorokkal), teljes, 3 szintes, megfigyelhető rubrika, kijelölt blokkoló biztonsági sor, és ponthoz kötött ≥70%.
 
 ***
 

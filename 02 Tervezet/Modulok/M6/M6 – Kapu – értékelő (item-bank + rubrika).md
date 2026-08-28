@@ -35,7 +35,7 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 >
 > A **(A) szcenárió-kvíz formatív**: erősen ajánlott a játéklap előtt megcsinálni (ez készít fel a biztonsági+inkluzív szempontokra), de **nem blokkoló feltétel** – egy gyenge játéklapot egy jó kvíz nem ír felül, és fordítva sem. A kvíz **diagnózisa** azonban kötelezően becsatornázódik: ha valaki a kvízen következetesen a **biztonsági vagy inkluzivitási** itemeknél hibázik, a játéklap leadása előtt **célzott ismétlés + mentori egyeztetés** ajánlott (lásd (D) Stáb-jelzések).
 >
-> **Hard-gate:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/staffal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
+> **Hard-gate:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/stábbal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
 >
 > **Terhelés-őszinteség:** ez az átsúlyozás **nem növeli** a tanuló terhét – a kvíz ugyanaz az item-bank marad, csak **alacsonyabb a tét** (önellenőrzés, korlátlan próbálkozás, nem buktat). A blokkoló bizonyíték egyetlen produktumra (a játéklapra) koncentrálódik, így kevesebb a párhuzamos „éles” megmérettetés.
 
@@ -380,9 +380,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > **Szintezés:** 3 szint – **1 = Még nem (hiányos)**, **2 = Oké (átadható)**, **3 = Erős (mintaértékű)**.
 > **Átmenő küszöb:** minden sor **≥ 2 (Oké)**. A **Biztonság** és az **Inkluzivitás** sor **hard-gate**: ha bármelyik = 1, a játéklap **javításra megy**, függetlenül a többi sortól.
 >
-> **Staff-záró a hard-gate sorokon (kötelező):** Workshop esetén a két hard-gate sor (**R4 Biztonság** és **R5 Inkluzivitás**) **végső pontját a képző/mentor adja** (Workshop „assessment by teacher” fázis / override grade), és a completion ehhez kötött; a peer-pontozás ezeken a sorokon **fejlesztő, de nem kapuz** – tiszta peer-grade önmagában **nem nyithatja meg a kaput**. (Aki egyszerűbb utat akar a biztonsági hard-gate-hez, válassza inkább az **Assignment + staff-rubrika** utat, a Workshopot pedig a feedback-gyakorlásra.)
+> **Stáb-záró a hard-gate sorokon (kötelező):** Workshop esetén a két hard-gate sor (**R4 Biztonság** és **R5 Inkluzivitás**) **végső pontját a képző/mentor adja** (Workshop „assessment by teacher” fázis / override grade), és a completion ehhez kötött; a peer-pontozás ezeken a sorokon **fejlesztő, de nem kapuz** – tiszta peer-grade önmagában **nem nyithatja meg a kaput**. (Aki egyszerűbb utat akar a biztonsági hard-gate-hez, válassza inkább az **Assignment + stáb-rubrika** utat, a Workshopot pedig a feedback-gyakorlásra.)
 >
-> A szintek **megfigyelhető szövegjegyekre** épülnek (mit lehet konkrétan elolvasni a lapon), nem „jó/rossz” érzésre – hogy a **peer és a staff** kalibráltan, ugyanoda sorolja a határeseteket.
+> A szintek **megfigyelhető szövegjegyekre** épülnek (mit lehet konkrétan elolvasni a lapon), nem „jó/rossz” érzésre – hogy a **peer és a stáb** kalibráltan, ugyanoda sorolja a határeseteket.
 
 | # | Kritérium | 1 – Még nem | 2 – Oké (minimum átmenő) | 3 – Erős |
 |---|---|---|---|---|
@@ -390,9 +390,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–10-re). | Megadva a **korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör 6–10, esetleírás+vita 16+). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
 | **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrich **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrich kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
 | **R4** | **BIZTONSÁG** *(hard-gate)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
-| **R5** | **INKLUZIVITÁS** *(hard-gate)* | Nincs inkluzivitási szempont, vagy csak deklaráció („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
+| **R5** | **INKLUZIVITÁS** *(hard-gate)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
 
-### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (peer + staff)
+### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (peer + stáb)
 
 A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
@@ -402,7 +402,7 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 - [ ] **R4** *(hard-gate)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
 - [ ] **R5** *(hard-gate)* – legalább **1** nevezett akadály **+ 1** konkrét alternatív belépési pont.
 
-> **Döntési szabály:** Ha bármelyik **hard-gate sor (R4 vagy R5)** üres / csak deklaráció → **a sor = 1**, a játéklap **javításra megy** (mentorral/staffal). Ha **minden sor ≥ 2** (és a két hard-gate sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Workshop esetén a hard-gate sorok (R4/R5) végső pontját a képző/mentor adja (teacher assessment / override), a completion ehhez kötött; tiszta peer-grade önmagában nem nyithatja a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz biztonsági/inkluzivitási diagnózisát a játéklap előtt érdemes orvosolni (lásd Kapu-logika és (D) Stáb-jelzések).
+> **Döntési szabály:** Ha bármelyik **hard-gate sor (R4 vagy R5)** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két hard-gate sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Workshop esetén a hard-gate sorok (R4/R5) végső pontját a képző/mentor adja (teacher assessment / override), a completion ehhez kötött; tiszta peer-grade önmagában nem nyithatja a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz biztonsági/inkluzivitási diagnózisát a játéklap előtt érdemes orvosolni (lásd Kapu-logika és (D) Stáb-jelzések).
 
 ---
 

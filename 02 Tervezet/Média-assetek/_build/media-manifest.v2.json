@@ -9108,7 +9108,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – „Peula előtt / közben / után” (1 A4)",
       "purpose": "A képző peula előtti/közbeni/utáni gyors önellenőrzése; biztosítja az eszköz-, tér-, safety- és időkeret-feltételek teljesülését, és hogy a záró híd ne maradjon el.",
-      "spec": "Egyoldalas, kinyomtatható képzői ellenőrzőlista 6 csoportosított ponttal: (1) Meta tiszta? (felzárkóztató, nem büntetés; cél: M1.1–M1.4 állapotfelmérés + haladás + kulcsfogalmak); (2) Eszközök rendben? (wifi, Moodle/H5P belépés, eszköz + füles, tartalék, matrica/post-it, tábla, filcek, jegyzetlapok); (3) Tér működik? (csendes online sarok, nagykör, nyugis sarok); (4) Safety keret a fejemben?; (5) Időkeret realisztikus? (20’ csendes pótolás szent idő; csúszásnál Q&A-ből venni vissza); (6) Híd kimondása? (normál M1 peulák A/B felé). Pipálható checkbox-okkal.",
+      "spec": "Egyoldalas, kinyomtatható képzői ellenőrzőlista 6 csoportosított ponttal: (1) Meta tiszta? (felzárkóztató, nem büntetés; cél: M1.1–M1.4 állapotfelmérés + haladás + kulcsfogalmak); (2) Eszközök rendben? (wifi, Moodle/H5P belépés, eszköz + füles, tartalék, matrica/post-it, tábla, filcek, jegyzetlapok); (3) Tér működik? (csendes online sarok, nagykör, nyugis sarok); (4) Biztonsági keret a fejemben?; (5) Időkeret realisztikus? (20’ csendes pótolás szent idő; csúszásnál Q&A-ből venni vissza); (6) Híd kimondása? (normál M1 peulák A/B felé). Pipálható checkbox-okkal.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -9144,7 +9144,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "80bf31da34373b8b284ed5e8bd5f3349de6affb1f573b03ccdbadadad84bba81",
+      "spec_hash": "0c5478d8ac0f8562b8b6879a928adffaf02dbb6302e2ad47824803f8d8cfda13",
       "deliverable_ids": [
         "M1.F-MUNK-03",
         "M1.F-MUNK-03::PRINTPDF"
@@ -11962,7 +11962,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – 1 A4 sablon",
       "purpose": "A képző gyorsan, egy lapon átfutható felkészülési és lebonyolítási ellenőrzőlistát kapjon, ami biztosítja az eszközök, tér, safety és időkeret rendben-létét, valamint az online híd kiosztását.",
-      "spec": "Egy A4-es, képző-felé néző ellenőrző sablon, amely a peula 6 felkészülési pontját foglalja össze pipálható formában: 1) Meta tiszta? (fókusz: someres értékek → döntések → személyes példamutatás; M2.2–M2.3 kapcsolat), 2) Eszközök előkészítve? (4 érték-sziget karton, 3 pillér-poszter, 3 nagy lap + filcek, kis lapok + tollak), 3) Tér rendben? (4 sarok, 3 asztal, körben ülés), 4) Safety keret a fejemben?, 5) Időkeret reális? (0–5'/5–20'/20–35'/35–45'), 6) Híd az online/további munkához (peula utáni beadandó: TELJES 1 oldalas identitás-jegyzet, M2 – KAPU D. sablon). A forrás explicit „1 A4-re” formátumkövetelményt ad.",
+      "spec": "Egy A4-es, képző-felé néző ellenőrző sablon, amely a peula 6 felkészülési pontját foglalja össze pipálható formában: 1) Meta tiszta? (fókusz: someres értékek → döntések → személyes példamutatás; M2.2–M2.3 kapcsolat), 2) Eszközök előkészítve? (4 érték-sziget karton, 3 pillér-poszter, 3 nagy lap + filcek, kis lapok + tollak), 3) Tér rendben? (4 sarok, 3 asztal, körben ülés), 4) Biztonsági keret a fejemben?, 5) Időkeret reális? (0–5'/5–20'/20–35'/35–45'), 6) Híd az online/további munkához (peula utáni beadandó: TELJES 1 oldalas identitás-jegyzet, M2 – KAPU D. sablon). A forrás explicit „1 A4-re” formátumkövetelményt ad.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -11998,7 +11998,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "00e441f97d3c80d0d95000aecc66b69cda3f95d1c4467b9604241e5bb8583e67",
+      "spec_hash": "e4ac4dd0bfcd84cd4eb1fb229939a91a1806cf14d061edba70cbbe2bcd26ca7e",
       "deliverable_ids": [
         "M2.B-MUNK-02",
         "M2.B-MUNK-02::PRINTPDF"
@@ -12201,7 +12201,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – Felzárkóztató peula (1 A4)",
       "purpose": "A képző önállóan le tudja ellenőrizni az előkészítést, a safety-keretet és az időkezelést; biztosítja, hogy a 20 perces csendes pótolás „szent idő” maradjon, és hogy a záró üzenet + a híd (M2.A/M2.B) ne maradjon el.",
-      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 6 pontja szerint (1. Meta tiszta? / 2. Eszközök rendben? / 3. Tér működik? / 4. Safety keret a fejemben? / 5. Időkeret reális? / 6. Híd kimondása?), checkbox-jelölőkkel az alpontoknál és a kulcs safety-mondatokkal idézetformában (pl. „Teljesen oké, hogy most itt tartasz; az a fontos, hogy lépj egyet előre.”, line 265). A peula előtt/közben/után gyorsan átfutható elrendezés.",
+      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 6 pontja szerint (1. Meta tiszta? / 2. Eszközök rendben? / 3. Tér működik? / 4. Biztonsági keret a fejemben? / 5. Időkeret reális? / 6. Híd kimondása?), checkbox-jelölőkkel az alpontoknál és a kulcs biztonsági mondatokkal idézetformában (pl. „Teljesen oké, hogy most itt tartasz; az a fontos, hogy lépj egyet előre.”, line 265). A peula előtt/közben/után gyorsan átfutható elrendezés.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -12236,7 +12236,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "eeca94ff45237722a2ecc684547b9e2164ffe854064664e64cf968ca680d6aec",
+      "spec_hash": "236d1f8f1ce0b21d40cc47cabc0f397729a74caf27a67f4054d04cfe214bb756",
       "deliverable_ids": [
         "M2.F-MUNK-02",
         "M2.F-MUNK-02::PRINTPDF"
@@ -16322,7 +16322,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – M3.F peula (1 A4)",
       "purpose": "A képző egy lapon, gyorsan átfutva ellenőrizni tudja, hogy a felzárkóztató peula meta-, eszköz-, tér-, safety-, idő- és híd-feltételei rendben vannak.",
-      "spec": "Egy A4-es, képzőnek szóló, kipipálható ellenőrző-lap a peula előtt/közben/után. Hat blokk a forrás szerint: 1) Meta tiszta? (felzárkóztató, nem büntetés; cél M3.1–M3.4 állapotfelmérés + haladás + fogalom-összekapcsolás); 2) Eszközök rendben? (Wifi/Moodle/H5P, eszköz+füles+tartalék, matricák/post-it/tábla/filcek, jegyzetlapok, fogalom-térkép flipchart); 3) Tér működik? (csendes online sarok, nagykör, nyugis egyéni sarok); 4) Safety keret a fejemben? (nem szégyenlista, frusztráció-reagálás, kihez fordul); 5) Időkeret reális? (20' csendes pótlás „szent idő”, fogalom-térkép rövidíthető, záró üzenet marad); 6) Híd kimondása? (M3.A/M3.B és terep). A forrás verbatim szövege a lineRef-en.",
+      "spec": "Egy A4-es, képzőnek szóló, kipipálható ellenőrző-lap a peula előtt/közben/után. Hat blokk a forrás szerint: 1) Meta tiszta? (felzárkóztató, nem büntetés; cél M3.1–M3.4 állapotfelmérés + haladás + fogalom-összekapcsolás); 2) Eszközök rendben? (Wifi/Moodle/H5P, eszköz+füles+tartalék, matricák/post-it/tábla/filcek, jegyzetlapok, fogalom-térkép flipchart); 3) Tér működik? (csendes online sarok, nagykör, nyugis egyéni sarok); 4) Biztonsági keret a fejemben? (nem szégyenlista, frusztráció-reagálás, kihez fordul); 5) Időkeret reális? (20' csendes pótlás „szent idő”, fogalom-térkép rövidíthető, záró üzenet marad); 6) Híd kimondása? (M3.A/M3.B és terep). A forrás verbatim szövege a lineRef-en.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16358,7 +16358,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "86a09c7805c8b14b4990b97630e9a6a86084e810897aa5f85e57f0255af69c12",
+      "spec_hash": "2a6e9977f0c78450805a43690dd2026a9d6b158c4b1a5ad9a86c8cf6289112ab",
       "deliverable_ids": [
         "M3.F-MUNK-02",
         "M3.F-MUNK-02::PRINTPDF"
@@ -19463,7 +19463,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – „Állj oda!” (1 A4)",
       "purpose": "A képző peula előtt/után gyorsan végigfuttatható ellenőrzőlistája az időkeret, eszközök, safety és online-híd biztosítására.",
-      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 5 pontja alapján: 1) Meta tiszta? (M4.1–M4.2 testbe vitele, saját kiállás kipróbálása, 1 fókuszmondat); 2) Eszközök előkészítve? (székek körben + szabad „színpad”, tábla/flip + filc, papírok/post-itek + tollak, telefon(ok) töltve); 3) Safety keret a fejedben? (nem kötelező beállni, „most inkább figyelek”; erős szorongásnál a peula után diszkrét, átlátható megkeresés a négyszemközti helyzetekre vonatkozó helyi szabály szerint); 4) Időkeret reális? (45 perc, mit rövidítesz – pl. kevesebb szobor, csak 1 kör triádokban); 5) Híd az online/következő lépéshez (M4.3–M4.4, pitch). Bepipálható checkbox-okkal.",
+      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 5 pontja alapján: 1) Meta tiszta? (M4.1–M4.2 testbe vitele, saját kiállás kipróbálása, 1 fókuszmondat); 2) Eszközök előkészítve? (székek körben + szabad „színpad”, tábla/flip + filc, papírok/post-itek + tollak, telefon(ok) töltve); 3) Biztonsági keret a fejedben? (nem kötelező beállni, „most inkább figyelek”; erős szorongásnál a peula után diszkrét, átlátható megkeresés a négyszemközti helyzetekre vonatkozó helyi szabály szerint); 4) Időkeret reális? (45 perc, mit rövidítesz – pl. kevesebb szobor, csak 1 kör triádokban); 5) Híd az online/következő lépéshez (M4.3–M4.4, pitch). Bepipálható checkbox-okkal.",
       "provenance": "mixed",
       "provenance_note": "vegyes (ember-írt tartalom a forrásból, AI-asszisztált tördelés)",
       "technical": {
@@ -19499,7 +19499,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "78e03e7d453fffe865f0a6cffb86241fee7928685b5e31011a7514eeea86f22d",
+      "spec_hash": "059e1308c68f07e3636a93d8c3ef96e8a37211c38ee694227f3cda788d01f7e8",
       "deliverable_ids": [
         "M4.A-MUNK-02",
         "M4.A-MUNK-02::PRINTPDF"
@@ -19761,7 +19761,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist (1 A4)",
       "purpose": "A képző gyors, peula előtti/utáni önellenőrzése; biztosítja a core elemek és az alapból, mindenkinek felkínálandó választható részvételi mód meglétét.",
-      "spec": "Egyoldalas (1 A4) nyomtatható képzői ellenőrzőlista 5 fő ponttal a forrás szerint: Meta tiszta? / Eszközök előkészítve? / Safety keret a fejedben? / Időkeret reális? / Híd világos? – mindegyikhez a forrásban megadott alpontokkal (pl. a 4.3 pitch-kör választható részvételi módjának felkínálása, 253. sor), pipálható formátumban.",
+      "spec": "Egyoldalas (1 A4) nyomtatható képzői ellenőrzőlista 5 fő ponttal a forrás szerint: Meta tiszta? / Eszközök előkészítve? / Biztonsági keret a fejedben? / Időkeret reális? / Híd világos? – mindegyikhez a forrásban megadott alpontokkal (pl. a 4.3 pitch-kör választható részvételi módjának felkínálása, 253. sor), pipálható formátumban.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -19796,7 +19796,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5f14b328fb3351e04fd6c24079589b4e8e59de3ddcf8c047275096bc3682830b",
+      "spec_hash": "d8f0a7e1b572bb0be6d3bdf4c66006a8b7099a0fc86d023ad853cd8ecc2942d6",
       "deliverable_ids": [
         "M4.B-MUNK-03",
         "M4.B-MUNK-03::PRINTPDF"
@@ -22651,9 +22651,9 @@
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + safety-keret",
-      "purpose": "Kockázat-felismerés + safety-keret tanítása.",
-      "spec": "Rövid szabad szöveges kérdés: mi lehet kockázatos egy futkosós energizerben (3 falhoz tartozó jel, jelre különböző falakhoz futás teljes erőből) 10–12 évesekkel (tér, balesetveszély, kizáródás), 1–2 dolog. Válaszadás után megjelenő Safety-keret szöveg (tempó: gyors séta/kocogás; tér: akadálymentes; ütközés-kerülés; kizáródás tompítása).",
+      "title": "Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret",
+      "purpose": "Kockázat-felismerés + biztonsági keret tanítása.",
+      "spec": "Rövid szabad szöveges kérdés: mi lehet kockázatos egy futkosós energizerben (3 falhoz tartozó jel, jelre különböző falakhoz futás teljes erőből) 10–12 évesekkel (tér, balesetveszély, kizáródás), 1–2 dolog. Válaszadás után megjelenő Biztonsági keret szöveg (tempó: gyors séta/kocogás; tér: akadálymentes; ütközés-kerülés; kizáródás tompítása).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22682,7 +22682,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "8cd0e4012adde40f4886c0adba173929adff24dd5690b91cb17a2cf4f7c1c912",
+      "spec_hash": "96419c22adf539c7a2e8d239ab17f24f2f2e5a0361a889599f743f0acaeef3e3",
       "deliverable_ids": [
         "M6.1-EGY-08"
       ],
@@ -25248,9 +25248,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas cheat-sheet)",
+      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet)",
       "purpose": "A képzőnek egy nyomtatható, kéznél tartható egylapos összefoglalót ad, amellyel a peula előtt minden kulcselemet (meta, játékválasztás, eszközök/tér, safety, híd) végigellenőrizhet; a forrás explicit „1 oldalra” megjelölése szerint kifejezetten egy oldalas kézikártyának szánt anyag.",
-      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a peula levezetéséhez, a forrás 5. szekciójának 5 pontjával: 1) Meta tiszta (fő kérdés + M6.1/M6.4 kapcsolat), 2) Játékok kiválasztva (2 játék + cél/korosztály/rizikó fejből), 3) Eszközök & tér (4 kvuca-sarok, CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ tábla, hely), 4) Safety keret a fejben (nem kötelező vállalni; mondat nehéz élményre), 5) Híd az M6.B játéklaphoz. Pipálható checklist-formátum.",
+      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a peula levezetéséhez, a forrás 5. szekciójának 5 pontjával: 1) Meta tiszta (fő kérdés + M6.1/M6.4 kapcsolat), 2) Játékok kiválasztva (2 játék + cél/korosztály/rizikó fejből), 3) Eszközök & tér (4 kvuca-sarok, CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ tábla, hely), 4) Biztonsági keret a fejben (nem kötelező vállalni; mondat nehéz élményre), 5) Híd az M6.B játéklaphoz. Pipálható checklist-formátum.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -25286,7 +25286,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "acb47fedc702b8df499e7eb655f4948d09d310a6e25b21aea25f3ce580c347f2",
+      "spec_hash": "424671d8a2c7a4d1fe186c20684ae7cbbdb7fd402a3bbc2b924430e7cb604330",
       "deliverable_ids": [
         "M6.A-MUNK-02",
         "M6.A-MUNK-02::PRINTPDF"
@@ -25787,7 +25787,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist (1 A4 – peula előtt/közben)",
       "purpose": "A képző felkészülését és a levezetés minőségbiztosítását segítő, kinyomtatható egyoldalas segédlet.",
-      "spec": "Egyoldalas (1 A4) képzői ellenőrzőlista a peula levezetéséhez, 6 blokkal: 1) Tiszták a célok?; 2) Megvan minden eszköz? (sablonok, rubrika, tollak/post-it/papír, timer, tábla/flipchart); 3) Van saját mintajátéklapod? (1 rövid példa, belekódolva cél/kvuca/biztonság/inkluzivitás/variációk); 4) Safety a fejben (kész mondatok, pl. „Nem kell tökéletesnek lennie, ez egy első verzió…”); 5) Időkezelés (honnan veszel el időt, commit-körre min. 3 perc); 6) Híd Moodle felé. Pipálható tételekkel.",
+      "spec": "Egyoldalas (1 A4) képzői ellenőrzőlista a peula levezetéséhez, 6 blokkal: 1) Tiszták a célok?; 2) Megvan minden eszköz? (sablonok, rubrika, tollak/post-it/papír, időmérő, tábla/flipchart); 3) Van saját mintajátéklapod? (1 rövid példa, belekódolva cél/kvuca/biztonság/inkluzivitás/variációk); 4) Biztonsági keret a fejben (kész mondatok, pl. „Nem kell tökéletesnek lennie, ez egy első verzió…”); 5) Időkezelés (honnan veszel el időt, vállalás-körre min. 3 perc); 6) Híd Moodle felé. Pipálható tételekkel.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -25822,7 +25822,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3b0a646de9c755b3e25c4f181a151e9505d4e6c17cde799effe76d82fce6c984",
+      "spec_hash": "50fa287e5972a00949b056280742d30207ff2023bfb3f5c8b66d8b74c230967e",
       "deliverable_ids": [
         "M6.B-MUNK-06",
         "M6.B-MUNK-06::PRINTPDF"
@@ -26130,7 +26130,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – 1 A4 (peula előtt/közben/után)",
       "purpose": "A képzőnek nyomtatott, egyoldalas önellenőrző segédlet, ami biztosítja a felzárkóztató keret, az eszközök, a tér, a safety és az időkeret/híd konzisztens betartását.",
-      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (felzárkóztató Study Lab, nem számonkérés; cél: állapotfelmérés + haladás + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, eszköz+füles+tartalék, matricák/post-it, tábla, filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugis sarok); 4) Safety keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótolás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (M6.A/M6.B + Moodle-játéklap).",
+      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (felzárkóztató Study Lab, nem számonkérés; cél: állapotfelmérés + haladás + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, eszköz+füles+tartalék, matricák/post-it, tábla, filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugis sarok); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótolás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (M6.A/M6.B + Moodle-játéklap).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26166,7 +26166,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f0ac52425a05fa490ac72925f6896bc318b475b8aa7d65364513768ecee4fd06",
+      "spec_hash": "60dd924f68f6672e29a5a65c8c6054eeef7429aff391951ff99aea077830c890",
       "deliverable_ids": [
         "M6.F-MUNK-04",
         "M6.F-MUNK-04::PRINTPDF"
@@ -28607,7 +28607,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist (1 A4) – peula előtti átfutó",
       "purpose": "A képző gyors, nyomtatható felkészülési segédlete a peula előtt.",
-      "spec": "Egyoldalas képzői ellenőrzőlista a peula előtti átfutáshoz, 5 fő blokkal a forrás szerint: 1) Meta tiszta (két fő fókusz: SMART someres nyelven + 11 pontból 3–4 kulcspont; M7.1–M7.2 kapcsolat); 2) Eszközök előkészítve (szétfolyó-cél kártyák 10–12 db; papír / post-it + toll mindenkinek; 11 pont jól láthatóan kint; hely a sarok-játékhoz és kiscsoport-munkához); 3) Safety keret (nem kell érzékeny példa, lehet kitalált/light; kit szólít meg – mentor/képzésfelelős); 4) Időkeret (hol rövidít, ha csúszik: kevesebb mondat / 2 önkéntes / 3 pont a 4 helyett); 5) Híd (M7.3 Zmán Kvucá-checklist / M7.4 Peula v2 felé).",
+      "spec": "Egyoldalas képzői ellenőrzőlista a peula előtti átfutáshoz, 5 fő blokkal a forrás szerint: 1) Meta tiszta (két fő fókusz: SMART someres nyelven + 11 pontból 3–4 kulcspont; M7.1–M7.2 kapcsolat); 2) Eszközök előkészítve (szétfolyó-cél kártyák 10–12 db; papír / post-it + toll mindenkinek; 11 pont jól láthatóan kint; hely a sarok-játékhoz és kiscsoport-munkához); 3) Biztonsági keret (nem kell érzékeny példa, lehet kitalált/light; kit szólít meg – mentor/képzésfelelős); 4) Időkeret (hol rövidít, ha csúszik: kevesebb mondat / 2 önkéntes / 3 pont a 4 helyett); 5) Híd (M7.3 Zmán Kvucá-checklist / M7.4 Peula v2 felé).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -28642,7 +28642,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "967051ea3e6bbca5686c796bbae0a48d834c289e233cff8f0b3e14b040a7ef97",
+      "spec_hash": "d2dc5b4f53c6ccbf03335d475ca69a2591b99e9a49030fce31f64c5b501e0e1a",
       "deliverable_ids": [
         "M7.A-MUNK-01",
         "M7.A-MUNK-01::PRINTPDF"
@@ -29256,7 +29256,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist (1 A4 – gyors átfutásra)",
       "purpose": "A képző gyors önellenőrzése a peula előtt/alatt; minden kritikus elem egy lapon.",
-      "spec": "Egyoldalas (A4) nyomtatható képzői felkészülési checklist 5 blokkal (forrás 321–354): 1) Meta tiszta? (3 fő cél + kapcsolódás M7.3/M7.4-hez + hét 2 helye az ívben), 2) Eszközök előkészítve? (v1 vázlat, mini-checklist, tábla, papír/toll, AI-eszköz), 3) Safety keret a fejemben? (chanich-sztori-mondat, gyermekvédelem→mentor, kit szólítok), 4) Időkeret (csúszás esetén rövidítések), 5) Híd (záró üzenet a v2-höz). Pipálható lista formátum.",
+      "spec": "Egyoldalas (A4) nyomtatható képzői felkészülési checklist 5 blokkal (forrás 321–354): 1) Meta tiszta? (3 fő cél + kapcsolódás M7.3/M7.4-hez + hét 2 helye az ívben), 2) Eszközök előkészítve? (v1 vázlat, mini-checklist, tábla, papír/toll, AI-eszköz), 3) Biztonsági keret a fejemben? (chanich-sztori-mondat, gyermekvédelem→mentor, kit szólítok), 4) Időkeret (csúszás esetén rövidítések), 5) Híd (záró üzenet a v2-höz). Pipálható lista formátum.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29291,7 +29291,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0f1b359fff56af1fac40a498956196faae29b79a80761509b9e088f7a1558e35",
+      "spec_hash": "930109534ae5268d4cedde6227da6eda9df268f4d601052dd4f9166cce5c91b0",
       "deliverable_ids": [
         "M7.B-MUNK-06",
         "M7.B-MUNK-06::PRINTPDF"
@@ -29494,7 +29494,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist (1 A4) – peula előtt/közben/után",
       "purpose": "Gyors, nyomtatható segédlet a képzőnek a peula konzisztens, safety-tudatos levezetéséhez.",
-      "spec": "Egyoldalas, A4-es nyomtatható képzői checklist a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (felzárkóztató, nem bünti; cél: M7.1–M7.4 állapotfelmérés + haladás + 4 fogalom összekapcsolása); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1-2 tartalék, matricák/post-it, tábla, filcek, jegyzetlapok, fogalom-térkép-flipchart); (3) Tér működik? (csendes online munka, nagykör, nyugis sarok); (4) Safety keret a fejemben? (nem szégyenlista; frusztráció-reagálás; kihez fordul gyermekvédelmi/AI-téma esetén); (5) Időkeret reális? (20' csendes pótolás szent idő; csúszáskor Q&A/fogalom-térkép rövidítése, de záró üzenet marad); (6) Híd kimondása? (M7.A/M7.B + Peula v2 + checklist modulkapu).",
+      "spec": "Egyoldalas, A4-es nyomtatható képzői checklist a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (felzárkóztató, nem bünti; cél: M7.1–M7.4 állapotfelmérés + haladás + 4 fogalom összekapcsolása); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1-2 tartalék, matricák/post-it, tábla, filcek, jegyzetlapok, fogalom-térkép-flipchart); (3) Tér működik? (csendes online munka, nagykör, nyugis sarok); (4) Biztonsági keret a fejemben? (nem szégyenlista; frusztráció-reagálás; kihez fordul gyermekvédelmi/AI-téma esetén); (5) Időkeret reális? (20' csendes pótolás szent idő; csúszáskor Q&A/fogalom-térkép rövidítése, de záró üzenet marad); (6) Híd kimondása? (M7.A/M7.B + Peula v2 + checklist modulkapu).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29529,7 +29529,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e189f45b776ef79095100bb98c9f6d14df17465840ee81e37ffdab713908aa04",
+      "spec_hash": "d771d09c190b904bd43c34d7aedec869d07e326e81bdc57dae78a70a62815c9d",
       "deliverable_ids": [
         "M7.F-MUNK-02",
         "M7.F-MUNK-02::PRINTPDF"
@@ -44981,7 +44981,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + safety-keret",
+      "title": "Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -47147,7 +47147,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
       "file_kind": "peula",
-      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas cheat-sheet)",
+      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet)",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -47170,7 +47170,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
       "file_kind": "peula",
-      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas cheat-sheet) — nyomtatható PDF",
+      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) — nyomtatható PDF",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",

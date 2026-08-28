@@ -215,15 +215,15 @@ A modul végére a madrich…
   5. **R5 – Inkluzivitás** *(**hard-gate**)* – van-e legalább 1 nevezett akadály **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz.
 * **Követelmény:**
   * rubrikában min. „oké” (2) szint **minden sorban**,
-  * **a Biztonság (R4) ÉS az Inkluzivitás (R5) sor egyaránt hard-gate**: ha **bármelyik** nem éri el az „oké” szintet → javítás kötelező (mentorral / staffal egyeztetve), a többi sortól függetlenül.
-* **Ki dönt a hard-gate-en (peer↔mentor felelősség-határ):** ha a kapu **Workshop-módban (peer-pontozással)** fut, a peer-pontozás **fejlesztő és kalibráló**; a **Biztonság (R4)** és **Inkluzivitás (R5)** hard-gate **blokkoló döntését** és a **„javításra megy”** kimenetet **mindig mentor / staff hozza meg** – a peer-pontszám önmagában **nem zár le és nem buktat biztonsági soron**. (Részletes peer+staff kalibráció a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).)
+  * **a Biztonság (R4) ÉS az Inkluzivitás (R5) sor egyaránt hard-gate**: ha **bármelyik** nem éri el az „oké” szintet → javítás kötelező (mentorral / stábbal egyeztetve), a többi sortól függetlenül.
+* **Ki dönt a hard-gate-en (peer↔mentor felelősség-határ):** ha a kapu **Workshop-módban (peer-pontozással)** fut, a peer-pontozás **fejlesztő és kalibráló**; a **Biztonság (R4)** és **Inkluzivitás (R5)** hard-gate **blokkoló döntését** és a **„javításra megy”** kimenetet **mindig mentor / stáb hozza meg** – a peer-pontszám önmagában **nem zár le és nem buktat biztonsági soron**. (Részletes peer–stáb kalibráció a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).)
 
 ### Minimális teljesítés (M6 complete)
 
 Az M6 akkor **complete**, ha mindhárom teljesül:
 
 1. **M6.1–M6.4 mikroleckék activity completion** – **érdemi kitöltéssel, nem végiglapozással** (kiemelten az **M6.4 Branching Scenario végigjátszva**, nem félbehagyva).
-2. **Leadott játéklap, amely eléri a KAPU-rubrika küszöbét:** minden sor ≥ „oké” (2), és az **R4 Biztonság + R5 Inkluzivitás hard-gate teljesül**. Üres / deklaráció-szintű biztonsági vagy inkluzivitási mező = a sor 1 → **nem „complete”**.
+2. **Leadott játéklap, amely eléri a KAPU-rubrika küszöbét:** minden sor ≥ „oké” (2), és az **R4 Biztonság + R5 Inkluzivitás hard-gate teljesül**. Üres vagy csak általános kijelentést tartalmazó biztonsági vagy inkluzivitási mező = a sor 1 → **nem „complete”**.
 3. A **szcenárió-kvíz (6.1) formatív** – ajánlott (≥80% önellenőrző cél), **nem feltétel**.
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának. Az M7 Peula v2-ben ez emelhető be az **élmény-blokkba (rubrika R3)**; a játéklap **eszközspecifikus biztonsági megjegyzései** (pl. stop-jelszó, beleegyezés, „nem valós szerepet játszunk le”) a Peula v2 **R4 (Gyermekvédelem & biztonság)** sorának konkrét építőkövei – az M3 általános red-flag-kerete mellé –, az **inkluzivitási variációk** pedig az **R5 (Inkluzivitás)** sorát töltik meg. Mindkettő tovább él a Zmán Kvucá-checklist **hozzáférhetőség & inkluzivitás** és **gyermekvédelem & határok** sorában is. *(A pontos beépülést az [M7 – KAPU](../M7/M7%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) §CAPSTONE M6-sora rögzíti.)*

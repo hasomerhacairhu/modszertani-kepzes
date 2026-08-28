@@ -721,7 +721,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.1-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges kérdés – kockázat bizalomjátékban | — | — | emberi |
 | `M6.1-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – 6–10 reflexiós vs. mély | — | — | emberi |
 | `M6.1-EGY-07` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – Szitu 1 korosztály-választás | — | — | emberi |
-| `M6.1-EGY-08` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + safety-keret | — | — | emberi |
+| `M6.1-EGY-08` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret | — | — | emberi |
 | `M6.1-EGY-09` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – miért hasznos kategóriákban gondolkodni | — | — | emberi |
 | `M6.1-EGY-10` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – mikor ne hozz mély élményjátékot | — | — | emberi |
 | `M6.1-EGY-11` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat) | — | — | emberi |
@@ -788,7 +788,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M6.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Exit ticket – „1 játék, amiről játéklapot készítenél” | — | nyomtatható PDF | AI-generált |
-| `M6.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas cheat-sheet) | — | nyomtatható PDF | AI-generált |
+| `M6.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 4 kvuca-sarok korosztály-lapok (szett) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-02` | poster | legyártandó | produkciós szabályra vár | CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ mátrix flipchart-sablon | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-03` | poster | legyártandó | produkciós szabályra vár | Inkluzivitás-elemző tábla-sablon (4 oszlop) | — | nyomtatható PDF | AI-generált |

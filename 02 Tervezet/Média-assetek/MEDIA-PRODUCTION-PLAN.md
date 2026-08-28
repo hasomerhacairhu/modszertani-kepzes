@@ -148,7 +148,7 @@ tisztázandó.
 | `M6.1-EGY-05` | other/h5p-interaction | 1 | — | Szabad szöveges kérdés – kockázat bizalomjátékban |
 | `M6.1-EGY-06` | other/h5p-interaction | 1 | — | Single Choice – 6–10 reflexiós vs. mély |
 | `M6.1-EGY-07` | other/h5p-interaction | 1 | — | Single Choice – Szitu 1 korosztály-választás |
-| `M6.1-EGY-08` | other/h5p-interaction | 1 | — | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + safety-keret |
+| `M6.1-EGY-08` | other/h5p-interaction | 1 | — | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret |
 | `M6.1-EGY-09` | other/h5p-interaction | 1 | — | Single Choice – miért hasznos kategóriákban gondolkodni |
 | `M6.1-EGY-10` | other/h5p-interaction | 1 | — | Single Choice – mikor ne hozz mély élményjátékot |
 | `M6.1-EGY-11` | other/h5p-interaction | 1 | — | Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat) |
@@ -333,7 +333,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Diagram / ábra | `M0.2-DIA-01` | B1 | R5 | 39 | SLIDE 4 jelzési folyamatábra: észreveszem → nem maradok egyedül → jelzek → támogatást kapunk |
 | Ikon-készlet | `M0.1-IKO-01` | B1 | R5 | 40 | Hook-ikon: útiterv / térkép / lépcső |
 | Illusztráció | `M4.2-ILL-01` | B1 | R5 | 46 | Hook chat-buborék: ideges peula-mondat |
-| Munkalap / nyomtatvány | `M6.A-MUNK-02` | B1 | R5 | 61 | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas cheat-sheet) |
+| Munkalap / nyomtatvány | `M6.A-MUNK-02` | B1 | R5 | 61 | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) |
 | Poszter és kártyaszett | `Z.A-KART-03` | B1 | R5 | 61 | SBI-elismerés mintamondat kártya – párcseréhez |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B1 | R5 | 4 | Hook háttér – someres/kvuca-vizuál |
 | H5P-interakció / Moodle-elem | `M4.2-EGY-02` | B0 | — | 29 | H5P Dialog Cards készlet – „Melyik segít jobban?” |
