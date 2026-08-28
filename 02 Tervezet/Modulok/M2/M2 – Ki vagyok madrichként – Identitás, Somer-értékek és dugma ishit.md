@@ -5,7 +5,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (M2.A, 1. hét) és Peula B (M2.B, 2. hét), kb. **45–45’**
 * **Online terhelés:** kb. 4×15–20 perc mikrolecke (M2.1–M2.4, össz. 60–80 perc)
-* **Teljes terhelés:** kb. 2,5–3,5 óra (online leckék + 2×45’ peula + az 1 oldalas identitás-jegyzet megírása – alap-út; az esetleges újra-beadás ideje nélkül). Ez a Program terv §0 modulonkénti 2–3,5 órás sávjának felső fele: az M2 produktummal záruló modul, ezért tervezz a felső értékkel.
+* **Teljes terhelés:** kb. 2,5–3,5 óra (online leckék + 2×45’ peula + az 1 oldalas identitás-jegyzet megírása – ez az alapeset, az esetleges újrabeadás ideje nélkül). Ez a Program terv §0 modulonkénti 2–3,5 órás sávjának felső fele: az M2 produktummal záruló modul, ezért tervezz a felső értékkel.
 
 **Modulközponti kérdés**
 

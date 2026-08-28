@@ -96,6 +96,21 @@ APPROVED_VISIBLE_EDITS = {
         "szerkesztői — artefaktum→vázlat (blokkcím + percbontás együtt)",
     "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md":
         "R-16 — az M7.4-hivatkozás a tényleges v1→klinika→v2 folyamatot mondja",
+    # NYELV-9 — one term for the anonymous topic-request slips across the Study Labs
+    # (the visible guard sentence already said "név nélküli"; the equipment and
+    # closing checklist lines now say the same instead of "anonim/névtelen").
+    "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md":
+        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+    "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md":
+        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+    "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md":
+        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+    "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md":
+        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+    "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md":
+        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+    "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md":
+        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md":
         "F-07 — nincs Moodle-visszakeresési ígéret; saját mentés + emlékezet-fallback",
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md":
@@ -1187,7 +1202,7 @@ class TestForensicRemediationInvariants(unittest.TestCase):
     # --- F-09: a narration's transcript pointer names its own deliverable ----
 
     _TRANSCRIPT_REF = re.compile(
-        r"Felirat/leirat szükséges \(([^)]+)::TRANSCRIPT\)")
+        r"Felirat/leirat szükséges \(([A-Za-z0-9.\-]+)::TRANSCRIPT")
 
     def test_narration_transcript_notes_reference_their_own_asset(self):
         wrong = []

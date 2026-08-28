@@ -334,9 +334,9 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Ikon-készlet | `M0.1-IKO-01` | B1 | R5 | 40 | Hook-ikon: útiterv / térkép / lépcső |
 | Illusztráció | `M4.2-ILL-01` | B1 | R5 | 46 | Hook chat-buborék: ideges peula-mondat |
 | Munkalap / nyomtatvány | `M6.A-MUNK-02` | B1 | R5 | 61 | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) |
-| Poszter és kártyaszett | `Z.A-KART-03` | B1 | R5 | 61 | SBI-elismerés mintamondat kártya – párcseréhez |
+| Poszter és kártyaszett | `M4.F-POSZ-01` | B1 | R5 | 61 | Tájékozódó tábla – M4 leckelista + név nélküli témakérések |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B1 | R5 | 4 | Hook háttér – someres/kvuca-vizuál |
-| H5P-interakció / Moodle-elem | `M4.2-EGY-02` | B0 | — | 29 | H5P Dialog Cards készlet – „Melyik segít jobban?” |
+| H5P-interakció / Moodle-elem | `M6.1-EGY-07` | B0 | — | 29 | Single Choice – Szitu 1 korosztály-választás |
 | Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Gallery walk reakció-eszközök (post-it / pötty-matrica) |
 
 ## 6. Újrahasznosítás — nem gyártandó

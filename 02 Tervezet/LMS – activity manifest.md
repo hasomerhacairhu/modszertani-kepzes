@@ -23,7 +23,7 @@ Ez a Moodle-build hivatalos kontrolltáblája. A modulok Markdown-specifikáció
 | M7 | final gate | igen | Peula v2 + Zmán Kvucá | kapurubrika | Z | KITÖLTENDŐ | safeguarding contact filled |
 | Z | Z.1–Z.3 | igen | M7 complete | activity completion | Z.A | KITÖLTENDŐ | |
 | Z | Z.A live close | igen | Z.1–Z.3 | jelenlét / facilitator record | Z.4 | KITÖLTENDŐ | hivatalos sorrendben Z.4 előtt |
-| Z | Z.4 Assignment + Feedback | igen | Z.A | Assignment submitted + név nélkül megjelenő feedback (nem GDPR-értelemben anonim; anonimitás-szint: emberi döntés – Z.4 §5) | online félév complete | KITÖLTENDŐ | Moodle draft/resume tested |
+| Z | Z.4 Assignment + Feedback | igen | Z.A | Assignment submitted + feedback kitöltve (a válaszok név nélkül jelennek meg; nem GDPR-értelemben anonim, anonimitás-szint: emberi döntés – Z.4 §5) | online félév complete | KITÖLTENDŐ | Moodle draft/resume tested |
 | Terep | 6 valódi peula | igen a teljes programkompetenciához | online félév complete | megfigyelés + feedback + revision ciklus | program field-complete | 2. félév | lásd Terepgyakorlat |
 
 ## Build acceptance

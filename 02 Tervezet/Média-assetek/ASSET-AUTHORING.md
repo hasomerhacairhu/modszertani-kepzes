@@ -194,7 +194,7 @@ olyan információt, ami máshol ne lenne meg szövegként.
 
 ```json
 {"id": "M9.F-EGY-01", "kind": "print", "subtype": "consumable", "mode": "external",
- "title": "Check-in matrica / post-it készlet",
+ "title": "Névtelen témakérő post-it / cetli készlet",
  "external": {"source": "beszerzendő irodaszer", "owner": "képzés-logisztika"}}
 ```
 

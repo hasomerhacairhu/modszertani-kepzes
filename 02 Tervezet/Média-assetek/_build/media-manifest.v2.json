@@ -3576,10 +3576,10 @@
       "id": "M7.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
-      "line": 550,
+      "line": 551,
       "body_lines": [
-        551,
-        562
+        552,
+        563
       ],
       "unit": "M7.1",
       "module": "M7",
@@ -4980,7 +4980,7 @@
       "status": "pending-rights",
       "title": "Kvuca-plakátok archív fotói (Z.A modulhoz)",
       "purpose": "Megőrzi a kvuca induló várakozásait/félelmeit a Z-modul visszacsatolásához („mi valósult meg\"); a tananyag-ívhez kötött dokumentációs deliverable.",
-      "spec": "A peula után a képző által készített dokumentáló fotók minden kitöltött kvuca-plakátról (Mit várok / Mitől félek / Mit hozok), archiválásra a stáb-dossziéba / digitálisan, a Z.A záró peulához. Nem AI-generált, hanem helyszíni emberi felvétel. Fotózás előtt kötelező adat-ellenőrzés a peula-leírás 6. lépése szerint: név, elérhetőség vagy érzékeny személyes tartalom nem kerülhet a képre; tárolás a helyi fotó-/adatkezelési szabály szerint (stáb-dosszié / kijelölt tárhely, nem privát galéria), a megőrzés/törlés szervezeti adatvédelmi döntés.",
+      "spec": "A peula után a képző által készített dokumentáló fotók minden kitöltött kvuca-plakátról (Mit várok / Mitől félek / Mit hozok), archiválásra a stáb-dossziéba / digitálisan, a Z.A záró peulához. Nem AI-generált, hanem helyszíni emberi felvétel. Fotózás előtt kötelező adatellenőrzés a peula-leírás 6. lépése szerint: név, elérhetőség vagy érzékeny személyes tartalom nem kerülhet a képre; tárolás a helyi fotó-/adatkezelési szabály szerint (stáb-dosszié / kijelölt tárhely, nem privát galéria), a megőrzés/törlés szervezeti adatvédelmi döntés; a kézírás-anonimizálás elégségessége nyitott döntés (D8 / RIGHTS-EVIDENCE R8-2).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -5018,7 +5018,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c3018cbf55600411f1ed0f200252a747907f8c882c29201e8b7516cc7da54de4",
+      "spec_hash": "91528730fd61f03d0e526a1b74933bb09745a10440aed3766ca18fa91e290191",
       "deliverable_ids": [
         "M0.A-FOTO-01",
         "M0.A-FOTO-01::ALTTEXT"
@@ -9108,7 +9108,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – „Peula előtt / közben / után” (1 A4)",
       "purpose": "A képző peula előtti/közbeni/utáni gyors önellenőrzése; biztosítja az eszköz-, tér-, safety- és időkeret-feltételek teljesülését, és hogy a záró híd ne maradjon el.",
-      "spec": "Egyoldalas, kinyomtatható képzői ellenőrzőlista 6 csoportosított ponttal: (1) Meta tiszta? (felzárkóztató, nem büntetés; cél: M1.1–M1.4 állapotfelmérés + haladás + kulcsfogalmak); (2) Eszközök rendben? (wifi, Moodle/H5P belépés, eszköz + füles, tartalék, matrica/post-it, tábla, filcek, jegyzetlapok); (3) Tér működik? (csendes online sarok, nagykör, nyugis sarok); (4) Biztonsági keret a fejemben?; (5) Időkeret realisztikus? (20’ csendes pótolás szent idő; csúszásnál Q&A-ből venni vissza); (6) Híd kimondása? (normál M1 peulák A/B felé). Pipálható checkbox-okkal.",
+      "spec": "Egyoldalas, kinyomtatható képzői ellenőrzőlista 6 csoportosított ponttal: (1) Meta tiszta? (felzárkóztató, nem büntetés; cél: M1.1–M1.4 állapotfelmérés + haladás + kulcsfogalmak); (2) Eszközök rendben? (wifi, Moodle/H5P belépés, eszköz + füles, tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok); (3) Tér működik? (csendes online sarok, nagykör, nyugis sarok); (4) Biztonsági keret a fejemben?; (5) Időkeret realisztikus? (20’ csendes pótolás szent idő; csúszásnál Q&A-ből venni vissza); (6) Híd kimondása? (normál M1 peulák A/B felé). Pipálható checkbox-okkal.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -9144,7 +9144,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0c5478d8ac0f8562b8b6879a928adffaf02dbb6302e2ad47824803f8d8cfda13",
+      "spec_hash": "0d4995efc5cd22ec7b5c3a163965d3f3d11349ca8abaad1a1fb85c57dbce3645",
       "deliverable_ids": [
         "M1.F-MUNK-03",
         "M1.F-MUNK-03::PRINTPDF"
@@ -9167,8 +9167,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M1 leckelista + név nélküli témakérések",
-      "purpose": "A Blokk 1 privát állapotfelmérés közös, nem személyre szóló támasza: a modul leckéinek áttekintő térképe (a képző a sorokat hangosan is felolvassa) és hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Flipchart-/tábla-sablon az M1 leckelistával, 4 sorban: L1 – Johari (M1.1), L2 – Megfigyelés ≠ címke (M1.2), L3 – SBI-alap (M1.3), L4 – Miniszituációk, SBI-gyakorlás (M1.4); mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M1” állapotsor – a saját haladását mindenki magának, a Moodle-ben nézi meg.",
+      "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
+      "spec": "Flipchart-/tábla-sablon az M1 leckelistával, 4 sorban: L1 – Johari (M1.1), L2 – Megfigyelés ≠ címke (M1.2), L3 – SBI-alap (M1.3), L4 – Miniszituációk, SBI-gyakorlás (M1.4); mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M1” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -9204,7 +9204,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "fa6cc77cbddc6ec8a4dd2f54a4721d1697beb76b24166464e9bf3bd77ae25889",
+      "spec_hash": "98554dee4b2af24906bbd6d73e2faa0383308885e1e86973164a85ed40d2ce93",
       "deliverable_ids": [
         "M1.F-POSZ-01",
         "M1.F-POSZ-01::PRINTPDF"
@@ -12259,8 +12259,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M2 leckelista + név nélküli témakérések",
-      "purpose": "A Blokk 1 privát állapotfelmérés közös, nem személyre szóló támasza: a modul leckéinek áttekintő térképe (a képző a sorokat hangosan is felolvassa) és hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Nyomtatható/előrerajzolható flipchart- vagy poszter-sablon az M2 leckelistával, 4 sorban: L1 – Identitás-körök (ki vagyok madrichként?), L2 – Értékeim mint iránytű, L3 – Somer 3 pillére, L4 – Határok & személyes példamutatás; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M2” állapotsor – a saját haladását mindenki magának, a Moodle-ben nézi meg.",
+      "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
+      "spec": "Nyomtatható/előrerajzolható flipchart- vagy poszter-sablon az M2 leckelistával, 4 sorban: L1 – Identitás-körök (ki vagyok madrichként?), L2 – Értékeim mint iránytű, L3 – Somer 3 pillére, L4 – Határok & személyes példamutatás; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M2” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -12295,7 +12295,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "cda11959b308749b49778af2d486ddd3542962ff243673ef7f83cbc7526ec56c",
+      "spec_hash": "fbff6e35a1e7e5a625b662c195e0315c78dcc2c6db4964a95077b7443e3db388",
       "deliverable_ids": [
         "M2.F-POSZ-01",
         "M2.F-POSZ-01::PRINTPDF"
@@ -16152,11 +16152,11 @@
       "status": "spec-ready",
       "title": "Cetli / post-it készlet a név nélküli témakérésekhez",
       "purpose": "Név nélküli témakérés: aki szeretne, felír egy kérdést vagy témát (nem státuszt és nem nevet), amiben aznap segítséget kér.",
-      "spec": "Résztvevőnként 1–2 kis post-it/cetli az opcionális, név nélküli témakéréshez, a tájékozódó tábla (M3.F-POSZ-01) kijelölt sávjára. Egyszerű, semleges; nem igényel egyedi grafikát, de beszerzendő/előkészítendő fizikai anyag. Személyes haladási státusz jelölésére nem használjuk.",
+      "spec": "Résztvevőnként 1–2 kis post-it/cetli az opcionális, név nélküli témakéréshez – a tájékozódó tábla (M3.F-POSZ-01) kijelölt sávjára vagy a közös témakérő flipchartra. Egyszerű, semleges; nem igényel egyedi grafikát, de beszerzendő/előkészítendő fizikai anyag. Személyes haladási státusz jelölésére nem használjuk.",
       "provenance": "stock",
       "provenance_note": "",
       "technical": {
-        "note": "Fizikai matrica/post-it, résztvevőnként min. 1 db (6–20 fő), tartalék is."
+        "note": "Kis, írható post-it/cetli, résztvevőnként 1–2 db (6–20 fő), tartalék is."
       },
       "a11y": {
         "note": "—"
@@ -16184,7 +16184,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "92f66a8553447fb21b671056b803166f12155981502ade6a68ed173bc81738df",
+      "spec_hash": "a6b5501d031c6bd8bccb30f1bbb3734350f96c9ccf7698d375754d1aa9442c04",
       "deliverable_ids": [
         "M3.F-EGY-01"
       ],
@@ -16322,7 +16322,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – M3.F peula (1 A4)",
       "purpose": "A képző egy lapon, gyorsan átfutva ellenőrizni tudja, hogy a felzárkóztató peula meta-, eszköz-, tér-, safety-, idő- és híd-feltételei rendben vannak.",
-      "spec": "Egy A4-es, képzőnek szóló, kipipálható ellenőrző-lap a peula előtt/közben/után. Hat blokk a forrás szerint: 1) Meta tiszta? (felzárkóztató, nem büntetés; cél M3.1–M3.4 állapotfelmérés + haladás + fogalom-összekapcsolás); 2) Eszközök rendben? (Wifi/Moodle/H5P, eszköz+füles+tartalék, matricák/post-it/tábla/filcek, jegyzetlapok, fogalom-térkép flipchart); 3) Tér működik? (csendes online sarok, nagykör, nyugis egyéni sarok); 4) Biztonsági keret a fejemben? (nem szégyenlista, frusztráció-reagálás, kihez fordul); 5) Időkeret reális? (20' csendes pótlás „szent idő”, fogalom-térkép rövidíthető, záró üzenet marad); 6) Híd kimondása? (M3.A/M3.B és terep). A forrás verbatim szövege a lineRef-en.",
+      "spec": "Egy A4-es, képzőnek szóló, kipipálható ellenőrző-lap a peula előtt/közben/után. Hat blokk a forrás szerint: 1) Meta tiszta? (felzárkóztató, nem büntetés; cél M3.1–M3.4 állapotfelmérés + haladás + fogalom-összekapcsolás); 2) Eszközök rendben? (Wifi/Moodle/H5P, eszköz+füles+tartalék, témakérő post-it/cetlik, tábla/filcek, jegyzetlapok, fogalom-térkép flipchart); 3) Tér működik? (csendes online sarok, nagykör, nyugis egyéni sarok); 4) Biztonsági keret a fejemben? (nem szégyenlista, frusztráció-reagálás, kihez fordul); 5) Időkeret reális? (20' csendes pótlás „szent idő”, fogalom-térkép rövidíthető, záró üzenet marad); 6) Híd kimondása? (M3.A/M3.B és terep). A forrás verbatim szövege a lineRef-en.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16358,7 +16358,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2a6e9977f0c78450805a43690dd2026a9d6b158c4b1a5ad9a86c8cf6289112ab",
+      "spec_hash": "5b477a86a9fe03138b71d96ed059111f302879d2b674b4598552730643f46dba",
       "deliverable_ids": [
         "M3.F-MUNK-02",
         "M3.F-MUNK-02::PRINTPDF"
@@ -16381,8 +16381,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M3 leckelista + név nélküli témakérések",
-      "purpose": "A Blokk 1 privát állapotfelmérés közös, nem személyre szóló támasza: a modul leckéinek áttekintő térképe (a képző a sorokat hangosan is felolvassa) és hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Flipchart-/poszter-sablon az M3 leckelistával, 4 sorban: L1 – Tuckman – csoportélet szakaszai; L2 – 4 kvuca-profil (Parparim, Kivsza, Leviatan, Zorea); L3 – Gyermekvédelem 101 – red flag & első lépés; L4 – Do / Don't madrichként – határok & felelősség; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M3” állapotsor – a saját haladását mindenki magának, a Moodle-ben nézi meg.",
+      "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
+      "spec": "Flipchart-/poszter-sablon az M3 leckelistával, 4 sorban: L1 – Tuckman – csoportélet szakaszai; L2 – 4 kvuca-profil (Parparim, Kivsza, Leviatan, Zorea); L3 – Gyermekvédelem 101 – red flag & első lépés; L4 – Do / Don't madrichként – határok & felelősség; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M3” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16418,7 +16418,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "242543eb7819eff08e33e6d6d0869f4accf1a4d78b914273bdf8869e200b8292",
+      "spec_hash": "bea37718dda83a5f4edcd5a9f9816774289348a1b88f93860eec5175a48f05aa",
       "deliverable_ids": [
         "M3.F-POSZ-01",
         "M3.F-POSZ-01::PRINTPDF"
@@ -19463,7 +19463,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – „Állj oda!” (1 A4)",
       "purpose": "A képző peula előtt/után gyorsan végigfuttatható ellenőrzőlistája az időkeret, eszközök, safety és online-híd biztosítására.",
-      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 5 pontja alapján: 1) Meta tiszta? (M4.1–M4.2 testbe vitele, saját kiállás kipróbálása, 1 fókuszmondat); 2) Eszközök előkészítve? (székek körben + szabad „színpad”, tábla/flip + filc, papírok/post-itek + tollak, telefon(ok) töltve); 3) Biztonsági keret a fejedben? (nem kötelező beállni, „most inkább figyelek”; erős szorongásnál a peula után diszkrét, átlátható megkeresés a négyszemközti helyzetekre vonatkozó helyi szabály szerint); 4) Időkeret reális? (45 perc, mit rövidítesz – pl. kevesebb szobor, csak 1 kör triádokban); 5) Híd az online/következő lépéshez (M4.3–M4.4, pitch). Bepipálható checkbox-okkal.",
+      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 5 pontja alapján: 1) Meta tiszta? (M4.1–M4.2 testbe vitele, saját kiállás kipróbálása, 1 fókuszmondat); 2) Eszközök előkészítve? (székek körben + szabad „színpad”, tábla/flip + filc, papírok/post-itek + tollak, telefon(ok) töltve); 3) Biztonsági keret a fejedben? (nem kötelező beállni, „most inkább figyelek”; erős szorongásnál a peula után diszkrét, átlátható megkeresés a négyszemközti helyzetekre vonatkozó helyi szabály szerint, szabály híján másik képző bevonásával); 4) Időkeret reális? (45 perc, mit rövidítesz – pl. kevesebb szobor, csak 1 kör triádokban); 5) Híd az online/következő lépéshez (M4.3–M4.4, pitch). Bepipálható checkbox-okkal.",
       "provenance": "mixed",
       "provenance_note": "vegyes (ember-írt tartalom a forrásból, AI-asszisztált tördelés)",
       "technical": {
@@ -19499,7 +19499,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "059e1308c68f07e3636a93d8c3ef96e8a37211c38ee694227f3cda788d01f7e8",
+      "spec_hash": "736b243621ec5af41a0e355a2ad50360d34b315dc9816a35d98dc7176c0fc961",
       "deliverable_ids": [
         "M4.A-MUNK-02",
         "M4.A-MUNK-02::PRINTPDF"
@@ -19883,11 +19883,11 @@
       "status": "spec-ready",
       "title": "Cetli / post-it készlet a név nélküli témakérésekhez",
       "purpose": "Név nélküli témakérés: aki szeretne, felír egy kérdést vagy témát (nem státuszt és nem nevet), amiben aznap segítséget kér.",
-      "spec": "Fizikai post-it/cetli-készlet, résztvevőnként 1–2 db, az opcionális, név nélküli témakéréshez a tájékozódó tábla (M4.F-POSZ-01) kijelölt sávjára. Egyszínű/semleges, nem igényel nyomtatott tartalmat. Személyes haladási státusz jelölésére nem használjuk.",
+      "spec": "Fizikai post-it/cetli-készlet, résztvevőnként 1–2 db, az opcionális, név nélküli témakéréshez – a tájékozódó tábla (M4.F-POSZ-01) kijelölt sávjára vagy a közös témakérő flipchartra. Egyszínű/semleges, nem igényel nyomtatott tartalmat. Személyes haladási státusz jelölésére nem használjuk.",
       "provenance": "stock",
       "provenance_note": "stock / beszerzett fizikai eszköz (nem generálandó tartalom)",
       "technical": {
-        "note": "Öntapadós matrica vagy kis post-it, kb. 6–20 db (létszám szerint)"
+        "note": "Kis, írható post-it/cetli, résztvevőnként 1–2 db (létszám szerint, tartalékkal)"
       },
       "a11y": {
         "note": "Fizikai eszköz; a témakérés-cetli opcionális, szóban is lehet kérdezni – nincs szöveges ekvivalens igény"
@@ -19915,7 +19915,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "8f1d1b9a0ccaf7650909f54ee0b69f6516ab68ecb715df1360e7cf5d85970fee",
+      "spec_hash": "0e1e58b58d40511d96d988a81acccffb2f8a12fb36c59f2be799aa4e2aa83a32",
       "deliverable_ids": [
         "M4.F-EGY-01"
       ],
@@ -20112,8 +20112,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M4 leckelista + név nélküli témakérések",
-      "purpose": "A Blokk 1 privát állapotfelmérés közös, nem személyre szóló támasza: a modul leckéinek áttekintő térképe (a képző a sorokat hangosan is felolvassa) és hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Flipchart/poszter-sablon az M4 leckelistával, 4 sorban: L1 – Test (kiállás, tekintet); L2 – Aktív hallgatás & visszatükrözés; L3 – Kérdezési minták (nyitott, zárt, tisztázó, irányító); L4 – 45 mp-es peula-pitch; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M4” állapotsor – a saját haladását mindenki magának, a Moodle-ben nézi meg.",
+      "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
+      "spec": "Flipchart/poszter-sablon az M4 leckelistával, 4 sorban: L1 – Test (kiállás, tekintet); L2 – Aktív hallgatás & visszatükrözés; L3 – Kérdezési minták (nyitott, zárt, tisztázó, irányító); L4 – 45 mp-es peula-pitch; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M4” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "mixed",
       "provenance_note": "AI-asszisztált (szöveg-sablon), nyomtatható/flipchartra írható print; a forrás szerint a képző kézzel is felírhatja a táblára (line 82)",
       "technical": {
@@ -20149,7 +20149,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f7f541cfa743b97eca92030594325b9655ae4e82790b8ca826470fa4fdeb8921",
+      "spec_hash": "e17e50c1b10759f7122afcb5d4b8c06dd081a9d750d106522bd89c561325c0a6",
       "deliverable_ids": [
         "M4.F-POSZ-01",
         "M4.F-POSZ-01::PRINTPDF"
@@ -22055,8 +22055,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M5 leckelista + név nélküli témakérések",
-      "purpose": "A Blokk 1 privát állapotfelmérés közös, nem személyre szóló támasza: a modul leckéinek áttekintő térképe (a képző a sorokat hangosan is felolvassa) és hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Előkészített flipchart/poszter-sablon az M5 leckelistával, 4 sorban: L1 – Suli / Somer / Random (formális–nonformális–informális); L2 – Feladat → cél → kvuca → módszer; L3 – Hogyan tanulunk tényleg? – gyakorlás, visszahívás, spacing; L4 – Cél–kvuca–módszer mini-táblázat; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M5” állapotsor – a saját haladását mindenki magának, a Moodle-ben nézi meg. Cím a tetején: „Az M5 négy leckéje”.",
+      "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
+      "spec": "Előkészített flipchart/poszter-sablon az M5 leckelistával, 4 sorban: L1 – Suli / Somer / Random (formális–nonformális–informális); L2 – Feladat → cél → kvuca → módszer; L3 – Hogyan tanulunk tényleg? – gyakorlás, visszahívás, spacing; L4 – Cél–kvuca–módszer mini-táblázat; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M5” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben. Cím a tetején: „Az M5 négy leckéje”.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22091,7 +22091,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1d1c9464d901012bd6476e1539563a976bb97c3f391aa2390d4ef930b030eed8",
+      "spec_hash": "166c226d35b6ca3c81b7d07c243cd5f0999dd89e0281b8049b456836724952ef",
       "deliverable_ids": [
         "M5.F-POSZ-01",
         "M5.F-POSZ-01::PRINTPDF"
@@ -22757,7 +22757,7 @@
       "status": "spec-ready",
       "title": "Single Choice – mikor ne hozz mély élményjátékot",
       "purpose": "Fő üzenet rögzítése: mély játék korlátai fiatalabbaknál.",
-      "spec": "H5P Single Choice 4 opcióval (»6–10 éves, friss kvuca, alig ismerik egymást« a helyes); jó válaszra rövid feedback: a korosztály + a csoport frissessége együtt indokol óvatosságot, a profil tervezési kiindulópont, nem merev szabály.",
+      "spec": "H5P Single Choice 4 opcióval (»6–10 éves, friss kvuca, alig ismerik egymást« a helyes); jó válaszra rövid feedback (a korosztály + a csoport frissessége együtt indokol óvatosságot; a profil kiindulópont, de az óvatosság iránya nem alku tárgya – bizonytalanságnál a szelídebb változat), és külön korrekciós feedback a »mindig jó hozni« distraktorra (az erős élmény önmagában nem tanít).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22786,7 +22786,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1a837f3b1ac4eaf8f2f1804f14ece14863bb06b93080c7a4e0c73f70413c697a",
+      "spec_hash": "75e91f605052e046cedf63189645ea28f8ba32692852b649c2e5c1a67d2a2f47",
       "deliverable_ids": [
         "M6.1-EGY-10"
       ],
@@ -25905,11 +25905,11 @@
       "status": "spec-ready",
       "title": "Cetli / post-it készlet a név nélküli témakérésekhez (beszerzendő irodaszer)",
       "purpose": "Név nélküli témakérés: aki szeretne, felír egy kérdést vagy témát (nem státuszt és nem nevet), amiben aznap segítséget kér.",
-      "spec": "Résztvevőnként 1–2 kis post-it/cetli az opcionális, név nélküli témakéréshez, a tájékozódó tábla (POSZ-01) kijelölt sávjára. Egyszerű, egységes – nem igényel egyedi nyomatot, beszerezhető standard post-it. Személyes haladási státusz jelölésére nem használjuk.",
+      "spec": "Résztvevőnként 1–2 kis post-it/cetli az opcionális, név nélküli témakéréshez – a tájékozódó tábla (POSZ-01) kijelölt sávjára vagy a közös témakérő flipchartra. Egyszerű, egységes – nem igényel egyedi nyomatot, beszerezhető standard post-it. Személyes haladási státusz jelölésére nem használjuk.",
       "provenance": "stock",
       "provenance_note": "",
       "technical": {
-        "note": "Kis kör- vagy négyzet-matrica / mini post-it, fejenként 1 db, tetszőleges szín; standard irodaszer, nem nyomtatott egyedi termék"
+        "note": "Kis, írható post-it/cetli, fejenként 1–2 db, tetszőleges szín; standard irodaszer, nem nyomtatott egyedi termék"
       },
       "a11y": {
         "note": "—"
@@ -25937,7 +25937,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "756fac3f1c10e392fe6376a08d1ebda7d7bdb36f659c410479c3a95eb6fa15ad",
+      "spec_hash": "d73aef948b6720ead301d4108a1c5ae76719b6cefaad42b4241be581f27a5ee1",
       "deliverable_ids": [
         "M6.F-EGY-01"
       ],
@@ -26130,7 +26130,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – 1 A4 (peula előtt/közben/után)",
       "purpose": "A képzőnek nyomtatott, egyoldalas önellenőrző segédlet, ami biztosítja a felzárkóztató keret, az eszközök, a tér, a safety és az időkeret/híd konzisztens betartását.",
-      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (felzárkóztató Study Lab, nem számonkérés; cél: állapotfelmérés + haladás + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, eszköz+füles+tartalék, matricák/post-it, tábla, filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugis sarok); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótolás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (M6.A/M6.B + Moodle-játéklap).",
+      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (felzárkóztató Study Lab, nem számonkérés; cél: állapotfelmérés + haladás + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, eszköz+füles+tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugis sarok); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótolás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (M6.A/M6.B + Moodle-játéklap).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26166,7 +26166,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "60dd924f68f6672e29a5a65c8c6054eeef7429aff391951ff99aea077830c890",
+      "spec_hash": "c5497b73cc36c7c4a1c44119a5494cc31c70601d393c371281216fcbdfd88c90",
       "deliverable_ids": [
         "M6.F-MUNK-04",
         "M6.F-MUNK-04::PRINTPDF"
@@ -26189,8 +26189,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M6 leckelista + játéklap + név nélküli témakérések",
-      "purpose": "A Blokk 1 privát állapotfelmérés közös, nem személyre szóló támasza: a modul leckéinek és a játéklap-váznak az áttekintő térképe (a képző a sorokat hangosan is felolvassa) és hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Nagyméretű flipchart/poszter-sablon az M6 tartalmi listájával, 5 sorban: L1 – Játék-kategóriák 4 kvucára; L2 – Történet, mint tükör; L3 – Kézműves, ami tanít is; L4 – Döntési szcenáriók: mit választanál?; Játéklap – saját eszköz leírása; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M6” állapotsor – a saját haladását mindenki magának, a Moodle-ben nézi meg.",
+      "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről és a játéklap-vázról (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
+      "spec": "Nagyméretű flipchart/poszter-sablon az M6 tartalmi listájával, 5 sorban: L1 – Játék-kategóriák 4 kvucára; L2 – Történet, mint tükör; L3 – Kézműves, ami tanít is; L4 – Döntési szcenáriók: mit választanál?; Játéklap – saját eszköz leírása; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M6” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26226,7 +26226,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c9b85db2a4a28cce9c440a6d7b0bab1a876482f7523a633c258231542a874ece",
+      "spec_hash": "62a07bed9afc6afedffb1a9481fa8598be466f0bbcebac16366e9478c15226c3",
       "deliverable_ids": [
         "M6.F-POSZ-01",
         "M6.F-POSZ-01::PRINTPDF"
@@ -26889,7 +26889,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
-      "line": 496,
+      "line": 497,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -26927,8 +26927,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        551,
-        562
+        552,
+        563
       ],
       "source_text": "Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).\n\n✏️ Írd le:\n\n1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).\n2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).\n\n💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:\n– „A peula végére …”\n– „Legalább X chanich …”\n– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",
       "source_hash": "276939017567a18682f747616acb4b11064e2421900457adffd51f744f537e2a",
@@ -29494,7 +29494,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist (1 A4) – peula előtt/közben/után",
       "purpose": "Gyors, nyomtatható segédlet a képzőnek a peula konzisztens, safety-tudatos levezetéséhez.",
-      "spec": "Egyoldalas, A4-es nyomtatható képzői checklist a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (felzárkóztató, nem bünti; cél: M7.1–M7.4 állapotfelmérés + haladás + 4 fogalom összekapcsolása); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1-2 tartalék, matricák/post-it, tábla, filcek, jegyzetlapok, fogalom-térkép-flipchart); (3) Tér működik? (csendes online munka, nagykör, nyugis sarok); (4) Biztonsági keret a fejemben? (nem szégyenlista; frusztráció-reagálás; kihez fordul gyermekvédelmi/AI-téma esetén); (5) Időkeret reális? (20' csendes pótolás szent idő; csúszáskor Q&A/fogalom-térkép rövidítése, de záró üzenet marad); (6) Híd kimondása? (M7.A/M7.B + Peula v2 + checklist modulkapu).",
+      "spec": "Egyoldalas, A4-es nyomtatható képzői checklist a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (felzárkóztató, nem bünti; cél: M7.1–M7.4 állapotfelmérés + haladás + 4 fogalom összekapcsolása); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1-2 tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalom-térkép-flipchart); (3) Tér működik? (csendes online munka, nagykör, nyugis sarok); (4) Biztonsági keret a fejemben? (nem szégyenlista; frusztráció-reagálás; kihez fordul gyermekvédelmi/AI-téma esetén); (5) Időkeret reális? (20' csendes pótolás szent idő; csúszáskor Q&A/fogalom-térkép rövidítése, de záró üzenet marad); (6) Híd kimondása? (M7.A/M7.B + Peula v2 + checklist modulkapu).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29529,7 +29529,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d771d09c190b904bd43c34d7aedec869d07e326e81bdc57dae78a70a62815c9d",
+      "spec_hash": "475335dd46bab07833f8fee78fcc2f48cafa1086997747aec4311e4d53a3181e",
       "deliverable_ids": [
         "M7.F-MUNK-02",
         "M7.F-MUNK-02::PRINTPDF"
@@ -29552,8 +29552,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M7 leckelista + név nélküli témakérések",
-      "purpose": "A Blokk 1 privát állapotfelmérés közös, nem személyre szóló támasza: a modul leckéinek áttekintő térképe (a képző a sorokat hangosan is felolvassa) és hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Flipchart/tábla-sablon (előre felírt vagy nyomtatott poszter) az M7 leckelistával, 4 sorban: L1 – SMART cél someres módra (vágy vs cél); L2 – Peula 11 pontja & AI mint eszköz; L3 – Zmán Kvucá-checklist (idő, tér, felelősség, biztonság); L4 – Peula v1 + AI – első modulproduktum-vázlat (SMART + 11 pont + Zmán Kvucá); mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M7” állapotsor – a saját haladását mindenki magának, a Moodle-ben nézi meg.",
+      "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
+      "spec": "Flipchart/tábla-sablon (előre felírt vagy nyomtatott poszter) az M7 leckelistával, 4 sorban: L1 – SMART cél someres módra (vágy vs cél); L2 – Peula 11 pontja & AI mint eszköz; L3 – Zmán Kvucá-checklist (idő, tér, felelősség, biztonság); L4 – Peula v1 + AI – első modulproduktum-vázlat (SMART + 11 pont + Zmán Kvucá); mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M7” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29588,7 +29588,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0ad5b8e2b54ca7c3a8e0a5d3f764b2b9dc4e377095cba289817f3809f58650ff",
+      "spec_hash": "002b66067dd9b62329fea7a91fb5963d036cdbaaff1fe8b24b9a23c628816923",
       "deliverable_ids": [
         "M7.F-POSZ-01",
         "M7.F-POSZ-01::PRINTPDF"

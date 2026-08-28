@@ -100,7 +100,7 @@ A modul végére a résztvevő…
 * **Cél:** záró reflektív produktum + képzés-értékelés.
 * **Eszközök:**
   – **Moodle Assignment – „Záró reflexió + következő lépés”** (szöveg vagy videó)
-  – **Moodle Feedback / Questionnaire** – név nélkül megjelenő képzés-értékelő.
+  – **Moodle Feedback / Questionnaire** – képzés-értékelő (a válaszok név nélkül jelennek meg).
 * **Ajánlott prompt a reflektív produktumhoz:**
   1. „Nevezz meg 2–3 pillanatot ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
   2. „Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest?”
