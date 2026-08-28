@@ -422,7 +422,7 @@ Opciók:
 
 > **Az én félévem fénypontjai**
 
-> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban elmentetted magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2), vedd ezeket most elő (jegyzet, képernyőkép). Olvasd el – **mi valósult meg belőle?** Ha nincs meg a jegyzeted, a mondataid ott vannak az **M0.1 és M0.2 H5P-válaszaidban a Moodle-ben** – keresd ki most, mert a **Z.4 záró reflexiónál** is szükséged lesz rájuk.
+> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban megfogalmaztad magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2). Ha elmentetted őket (jegyzet, képernyőkép), vedd elő – **mi valósult meg belőlük?** Ha nincs meg a mentésed, ne akadj el: idézd fel emlékezetből, mit vártál a félév elején, és írd le most 1 mondatban. A **Z.4 záró reflexiónál** is ez a két mondat lesz a kiindulópontod – amilyen formában megvan.
 
 > Írj **3–6 mondatot** egy szövegmezőben az alábbi kérdések alapján:
 

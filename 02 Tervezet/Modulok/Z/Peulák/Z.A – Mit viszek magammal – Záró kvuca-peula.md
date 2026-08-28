@@ -21,7 +21,7 @@
 **Kapcsolat az online résszel:**
 
 * **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 timeline, tanulási pillanatok, következő lépések).
-* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzés feedback” Assignment + anonimizált kérdőív kitöltése (a peulán megfogalmazott gondolatokból dolgozik).
+* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzés feedback” Assignment + a név nélkül megjelenő kérdőív kitöltése (a peulán megfogalmazott gondolatokból dolgozik).
 
 ***
 
@@ -50,7 +50,7 @@
 * Végiggondol **1–2 saját példát** a félévéről, amit meg tud osztani (egy tanulási pillanat + egy „mit viszek magammal” szó).
 * Előre átgondol 1–2 **biztonsági mondatot**, pl.:
   > „Nem kötelező mély vagy fájdalmas dolgot megosztani, annyit mondasz, amennyi neked most oké.”
-* Tudja, **kihez fordul** (mentor / felelős), ha a peula alatt valakin látszik, hogy nagyon megüti magát egy helyzet (utána külön odamegy hozzá).
+* Tudja, **kihez fordul** (mentor / felelős), ha a peula alatt valakin látszik, hogy nagyon megüti magát egy helyzet – utána diszkréten, de átlátható helyzetben lép oda hozzá, a négyszemközti helyzetekre vonatkozó helyi szabály szerint.
 * **Még a peula előtt szerezd be az M0 produktumokat** (ezekre épül a 4.2 „M0-tükör” és a 4.4.2 záró rituálé): kérd el a ken-vezetőtől / stábtól az **M0.A kickoff-plakátot** (*mit várok / mitől félek / mit hozok*), és – ha rögzítették – az **M0.A induló-szavak** listáját. Ha nincs archiválva, készíts a saját jegyzeteidből **2–3 anonim idézetet**, amit a táblára kitehetsz, hogy a visszakötés ne csak emlékezetből menjen.
 
 ***
@@ -222,7 +222,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 **Facilitátori tippek:**
 
-* Ha valakiről látod, hogy nagyon megérintődött, **jegyezd meg magadnak**, és peula után finoman odamehetsz hozzá egy rövid „minden oké?” kérdéssel.
+* Ha valakiről látod, hogy nagyon megérintődött, **jegyezd meg magadnak**, és a peula után finoman odamehetsz hozzá egy rövid „minden oké?” kérdéssel – nyíltan, a többiek közelében. Ha hosszabb beszélgetés kellene, azt a négyszemközti helyzetekre vonatkozó helyi szabály szerint szervezd.
 * Ha valaki túl részletes, emlékeztesd az időkeretre:
   > „Köszi, hogy elmondtad – figyeljünk, hogy mindenkinek legyen ideje, max. még 1 mondat.”
 

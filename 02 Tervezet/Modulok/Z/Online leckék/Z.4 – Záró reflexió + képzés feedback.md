@@ -24,7 +24,7 @@
 
 * **Moodle Assignment – Online text** – „Záró reflexiós ív” (strukturált sablonnal, piszkozatmentéssel; a tényleges draft/resume működést acceptance teszt igazolja)
 * Ugyanez az Assignment a **leadás helye is**: online szöveg **vagy** abból felvett 2–3 perces videó
-* **Moodle Feedback / Questionnaire** – anonimizált képzés-értékelő *(külön marad)*
+* **Moodle Feedback / Questionnaire** – név nélkül megjelenő képzés-értékelő *(külön marad)*
 
 **Mikrocél (tanulói nyelven):**
 
@@ -51,7 +51,7 @@
 > Két dolgot csinálunk:
 
 1. Végigmész egy **összefüggő záró reflexiós íven** – ez egy Moodle Assignment strukturált szövegsablonja –, és a végén **beadod** egy darabban (szöveg vagy belőle felvett videó).
-2. Kitöltesz egy **anonim képzés-értékelő űrlapot**, hogy mi, képzők is tanulni tudjunk ebből a félévből.
+2. Kitöltesz egy **név nélkül megjelenő képzés-értékelő űrlapot**, hogy mi, képzők is tanulni tudjunk ebből a félévből. (A válaszaid mellett nem jelenik meg a neved; azt, hogy kitöltötted-e, a Moodle a haladásodnál rögzíti.)
 
 > Az íven 3 vezető kérdésed lesz:
 
@@ -278,7 +278,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > ➜ A lecke után:
 
 1. Véglegesítsd és add be a **„Záró reflexió + következő lépés”** ívedet (vagy az abból felvett videót).
-2. Utána töltsd ki a **„Képzés feedback – anonim”** kérdőívet.
+2. Utána töltsd ki a **„Képzés feedback – név nélkül”** kérdőívet.
 
 ***
 
@@ -338,10 +338,10 @@ Ha nagyon hiányos / alibi:
 
 ***
 
-## 5. Moodle Feedback / Questionnaire – „Képzés feedback – anonim”
+## 5. Moodle Feedback / Questionnaire – „Képzés feedback – név nélkül”
 
-**Név:**`Képzés feedback – anonim`
-**Típus:** Feedback vagy Questionnaire (névtelen)
+**Név:**`Képzés feedback – név nélkül`
+**Típus:** Feedback vagy Questionnaire (név nélküli megjelenítés)
 
 ### Javasolt kérdésstruktúra (rövid, hogy tényleg kitöltsék)
 
@@ -368,5 +368,7 @@ Ha nagyon hiányos / alibi:
 ### Beállítás-javaslatok
 
 * **Anonymous responses:** ON
-* **Activity completion:** mark as complete when submitted.
+* **Amit ez a beállítás ad – és amit nem:** a válaszok az értékelést olvasók számára **név nélkül jelennek meg**. A hivatalos Moodle-dokumentáció szerint azonban ez **nem GDPR-értelemben vett anonimitás** („anonymous feedback is not anonymous in the sense that GDPR describes it” – docs.moodle.org, Feedback settings): a rendszernaplók és a completion-állapot továbbra is fiókhoz kötődnek. A tanulónak ezért **„név nélkül megjelenő”** visszajelzést ígérünk, nem teljes anonimitást.
+* **EMBERI DÖNTÉS (adatvédelem):** ha a szervezetnek technikai értelemben is anonim visszajelzés kell, azt külön eszköz-/konfigurációdöntés adja meg (lásd `Emberi jóváhagyás szükséges.md` §4 és `Adatvédelem – tanulói adatok és AI.md`). E döntés előtt a tanulói szöveg nem ígérhet „teljesen anonim”-at.
+* **Activity completion:** mark as complete when submitted. *(A completion személyhez kötött: azt, hogy ki töltötte ki, a kurzus rögzíti – a válasz tartalma jelenik meg név nélkül.)*
 * Nincs „helyes válasz” – ez tiszta visszajelzés.

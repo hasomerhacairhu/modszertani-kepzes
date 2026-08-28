@@ -89,7 +89,7 @@ A modul végére a résztvevő…
 ### M1.2 – „Megfigyelés ≠ értelmezés” (15–20’)
 
 * **Cél:**
-  **Besorol 4/5 mondatot helyesen** „megfigyelés” vagy „címke” kategóriába, és **átír legalább 3 címkét megfigyeléssé** – így megmutatva, hogy **nem mindegy, megfigyelést vagy címkét mondunk-e**, és hogy a jó visszajelzés megfigyelésre épül.
+  **Besorol 4/5 mondatot helyesen** „megfigyelés” vagy „címke” kategóriába – így megmutatva, hogy **nem mindegy, megfigyelést vagy címkét mondunk-e**, és hogy a jó visszajelzés megfigyelésre épül. (A címkék megfigyeléssé átírását élőben, az M1.A peulán gyakoroljátok, és az SBI-írásban – M1.3–M1.4 – használod élesben.)
 * **Fókusz:**
   „Bunkó voltál” vs. „háromszor közbevágott, amíg más beszélt” típusú különbségek; „kamera” (tényszerű leírás) vs. „kommentár a fejemben”.
 * **Eszközök:**
