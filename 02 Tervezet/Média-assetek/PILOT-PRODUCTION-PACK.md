@@ -62,7 +62,7 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 | Pilot | Mire vár | Ki oldja fel |
 |---|---|---|
 | P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) | arculati/program-felelős |
-| P-NAR | **D2** — de már csak a **kanonikus hang** kiválasztása (a szolgáltató eldőlt: ElevenLabs). Előtte: voice-ID és hangtípus lekérdezése a fiókból | program-felelős, meghallgatás alapján |
+| P-NAR | **D2** — de már csak a **kanonikus hang** kiválasztása (a szolgáltató eldőlt: ElevenLabs). Előtte: V2 hozzájárulás-bizonyíték → a két hang létrehozása a forrás-beszélők felvételeiből (a módszer nyitott) → azonosítás (voice-ID + hangtípus rögzítése) | program-felelős, meghallgatás alapján |
 | P-VID | a **kész ElevenLabs hangmester** (tehát P-NAR) → **D3/R2** (a fiók jogi bizonyítéka) — és a **J2/J3** emberi kapuk | + jogi jóváhagyó |
 | P-KAR | **D1** (karakter-lock) + **D3/R2** — és a **J1/J2** emberi kapuk. A **D2** csak az utómunkához kell, a képi generáláshoz nem (lásd 2.1.) | + jogi és gyermekvédelmi jóváhagyó |
 

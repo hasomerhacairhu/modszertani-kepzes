@@ -93,7 +93,7 @@ végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 | **Modell** | 🔎 javaslat: **`eleven_flash_v2_5`**, `language_code: "hu"` |
 | **Tempó** | `speed` paraméter (0,7–1,2) a 100–120 szó/perc célsávra |
 | **Kiejtés** | alias-szabályok szótárban — **csak a ténylegesen hibás szavakra**, a teszt után |
-| **Voice-ID / hangtípus** | ⛔ **NEM ELLENŐRZÖTT — fióklekérdezés szükséges** |
+| **Voice-ID / hangtípus** | ⛔ **NINCS — a hangok még nem jöttek létre** (V2 bizonyíték → létrehozás → azonosítás; lásd ELEVENLABS-VOICE-TEST 1.0–1.1) |
 | **Költség** | teljes tananyag 3× nyers: **7,50 – 11,25 $** |
 
 **A modellválasztás egyetlen meglepetése:** a szolgáltató leghosszabb formára
