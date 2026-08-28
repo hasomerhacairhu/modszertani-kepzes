@@ -9,9 +9,10 @@ egyetlen helyen az összes megválaszolandó érték.
 117 tétel, mind szó szerinti forrásblokkal. Nincs többé szkript nélküli beszélt asset.
 
 > **A szolgáltató 2026-08-28-án eldőlt: a felmondás szintetikus, a motor az ElevenLabs.**
-> Ami még nyitva van, az a **kanonikus hang** — a felhasználó két meglévő egyedi hangja,
-> a **Dombi Miksa** és a **Budai Enn** közül —, valamint a hozzá tartozó voice-ID, modell,
-> beállítás és jogosultsági bizonyíték. Részletek a 12–13. szakaszban; a hangválasztás
+> Ami még nyitva van, az a **kanonikus hang** — a két forrás-beszélő, **Dombi Miksa** és
+> **Budai Enn** felvételeiből **létrehozandó** két egyedi hang közül; **a hangok még nem
+> készültek el** —, valamint a hozzá tartozó voice-ID, modell, beállítás és jogosultsági
+> bizonyíték. Részletek a 12–13. szakaszban; a hangválasztás
 > végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 >
 > Az 1–11. szakasz mindezektől függetlenül érvényes: ezek a tananyagból következnek, nem
@@ -212,10 +213,11 @@ minden fájlban.
 | Szintetikus vagy emberi felmondó | ✅ **SZINTETIKUS** — eldőlt |
 | Motor / szolgáltató | ✅ **ElevenLabs** — eldőlt |
 | Modell | 🔎 **javaslat: `eleven_flash_v2_5`**, `language_code: "hu"` — a meghallgatás erősíti meg (13.2.) |
-| Hangjelöltek | ✅ a felhasználó **két meglévő egyedi hangja**: **Dombi Miksa** és **Budai Enn** |
+| Hangjelöltek | ✅ **Dombi Miksa** és **Budai Enn** — **forrás-beszélők**; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
+| Hang-létrehozás (módszer: IVC / PVC / egyéb) | ⛔ **NYITOTT** — jog- és hozzájárulás-helyzet + fiók-/csomagkeret dönti el; V2 bizonyíték a feltöltés előtt kötelező |
 | Kanonikus narrátor | ⛔ **NYITOTT — meghallgatásos döntés** (13.3., [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)) |
-| Voice-ID | ⛔ **NEM ELLENŐRZÖTT — fióklekérdezés szükséges** (13.4.) |
-| Hangtípus (klón / tervezett / stb.) | ⛔ **NEM ELLENŐRZÖTT — fióklekérdezés szükséges** (13.4.) |
+| Voice-ID | ⛔ **NINCS — a hang még nem jött létre** (létrehozás után rögzítendő: 13.4.) |
+| Hangtípus (klón / tervezett / stb.) | ⛔ **NINCS — a létrehozás módja is nyitott** (létrehozás után rögzítendő: 13.4.) |
 | Hangbeállítások és seed | ⛔ nyitott — a pilot rögzíti (13.6.) |
 | Kiejtési szótár | ⛔ nyitott — a meghallgatás mondja meg, mire kell (13.5.) |
 | Hang-jogosultság igazolása | ⛔ nyitott → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
@@ -293,7 +295,7 @@ olvasatra vált.
 
 ### 13.3. A hangválasztás — dokumentációból nem eldönthető
 
-A két jelölt a felhasználó két meglévő egyedi hangja:
+A két jelölt a két forrás-beszélő felvételeiből létrehozandó egyedi hang (a hangok még nem készültek el):
 
 | | |
 |---|---|
@@ -309,11 +311,13 @@ csak hallgatással dönthető el. A hatpárosos összehasonlítás végrehajthat
 sorsa (tartalék, dialógus- vagy karakterhang) **külön, későbbi döntés** — ez a lap nem
 osztja ki neki egyik szerepet sem.
 
-### 13.4. A két hang azonosítása — fióklekérdezés szükséges
+### 13.4. A két hang azonosítása — a létrehozás után
 
-> ⛔ **Ebben a környezetben nincs ElevenLabs hitelesítő adat** — sem környezeti változó,
+> ⛔ **A hangok még nem léteznek** — előbb létre kell hozni őket a forrás-beszélők
+> felvételeiből ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
+> környezetben ráadásul **nincs ElevenLabs hitelesítő adat** — sem környezeti változó,
 > sem konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. A voice-ID-t és a
-> hangtípust ezért **nem tudtuk lekérdezni, és nem is találjuk ki.**
+> hangtípust ezért **nem rögzítettük, és nem is találjuk ki.**
 
 **Amit a felhasználónak ki kell nyernie — webes út (a leggyorsabb):**
 

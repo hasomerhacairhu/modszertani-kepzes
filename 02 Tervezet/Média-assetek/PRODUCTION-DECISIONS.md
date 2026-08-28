@@ -90,8 +90,11 @@ kivezetése), [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) érték
 > **szintetikus**, a motor az **ElevenLabs**. A „szintetikus vagy emberi” és a „melyik
 > szolgáltató” kérdés **többé nem nyitott**, és nem is kerül újra elő.
 
-**A megmaradt kérdés egyetlen mondat:** a felhasználó **két meglévő egyedi ElevenLabs
-hangja** közül melyik legyen a tananyag **kanonikus narrátora**?
+**A megmaradt kérdés egyetlen mondat:** a két forrás-beszélő — **Dombi Miksa** és
+**Budai Enn** — felvételeiből **létrehozandó** két ElevenLabs egyedi hang közül melyik
+legyen a tananyag **kanonikus narrátora**? **A hangok még nem készültek el**, ezért a
+meghallgatás még nem futtatható: előbb hozzájárulás-bizonyíték (V2), majd a két hang
+létrehozása (azonos módszerrel) szükséges.
 
 **A) Dombi Miksa**
 **B) Budai Enn**
@@ -115,17 +118,20 @@ későbbi döntés** — ez a lap nem osztja ki neki.
 | Felmondó típusa | ✅ **szintetikus** |
 | Motor / szolgáltató | ✅ **ElevenLabs** |
 | **Kanonikus hang** | ⛔ **A vagy B — meghallgatásos döntés** |
-| Voice-ID | ⛔ **NEM ELLENŐRZÖTT — fióklekérdezés szükséges** |
-| Hangtípus (PVC / IVC / Voice Design) | ⛔ **NEM ELLENŐRZÖTT — fióklekérdezés szükséges** |
+| Hang-objektumok létrehozása | ⛔ **még nem történt meg** — forrás-beszélői felvétel + V2 hozzájárulás-bizonyíték kell előbb; a módszer (IVC / PVC / egyéb) is nyitott |
+| Voice-ID | ⛔ **NINCS — a hang még nem jött létre** |
+| Hangtípus (PVC / IVC / Voice Design) | ⛔ **NINCS — a létrehozás módjával együtt dől el** |
 | Modell | 🔎 javaslat: `eleven_flash_v2_5`, `language_code: "hu"` — a hangtípus és a meghallgatás erősíti meg |
 | Hangbeállítások és seed | ⛔ a teszt rögzíti |
 | Kiejtési szótár | ⛔ a teszt *eredménye*, nem a bemenete |
 | Hang-jogosultság igazolása | ⛔ → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
 
-> ⛔ **Ebben a környezetben nincs ElevenLabs hitelesítő adat** — sem környezeti változó,
-> sem konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. A voice-ID-ket és a
-> hangtípust ezért **nem kérdeztük le, és nem találtuk ki.** A kinyerés pontos menete
-> (webes út és csak olvasó API-hívások): [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
+> ⛔ **A hangok még nem léteznek** — az első lépés a létrehozásuk a forrás-beszélők
+> felvételeiből ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
+> környezetben **nincs ElevenLabs hitelesítő adat** — sem környezeti változó, sem
+> konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. Voice-ID-t és
+> hangtípust ezért **nem rögzítettünk, és nem is találtunk ki.** A létrehozás utáni
+> azonosítás menete: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
 
 **Miért nem elég a szolgáltató kiválasztása az R3 lezárásához:** amíg nincs kanonikus
 hang, ellenőrzött voice-ID, rögzített modell és beállítás-készlet, a felvétel **nem
@@ -150,7 +156,7 @@ hang-jogosultságról a jogi jóváhagyó és a hang jogosultja.
 **A válasz helye:**
 - felmondó típusa: **szintetikus** ✅
 - motor: **ElevenLabs** ✅
-- kanonikus hang (Dombi Miksa / Budai Enn): ⟬KITÖLTENDŐ⟭
+- kanonikus hang (a Dombi Miksa / Budai Enn forrás-beszélőből készült hangok közül): ⟬KITÖLTENDŐ⟭
 - voice-ID, modell, beállítások, seed, kiejtési szótár verziója: ⟬KITÖLTENDŐ⟭
 
 **Mit kell utána átírni:** `produkcios-szabalyok.json` R3,

@@ -129,14 +129,14 @@ tisztázandó.
 | `M3.4-EGY-06` | other/h5p-interaction | 1 | — | Szabad szöveges reflexiós mező – „Saját Do/Don’t listám” (SLIDE 5) |
 | `M3.4-EGY-07` | other/moodle-activity | 1 | — | Moodle Assignment-sablon – „Helyzetleírás red flag-ekkel” (SLIDE 7 / modulproduktum) |
 | `M3.4-EGY-08` | other | 1 | — | Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret) |
-| `M3.F-EGY-01` | print/consumable | 1 | — | Check-in matrica / post-it készlet |
+| `M3.F-EGY-01` | print/consumable | 1 | — | Cetli / post-it készlet a név nélküli témakérésekhez |
 | `M3.F-EGY-02` | print/consumable | 1 | — | Filcek a fogalom-térkép-táblához |
 | `M4.2-EGY-01` | other/h5p-interaction | 1 | — | H5P Single Choice – „Mi lenne az első reakciód?” (helyzetfelmérés) |
 | `M4.2-EGY-02` | other/h5p-interaction | 1 | — | H5P Dialog Cards készlet – „Melyik segít jobban?” |
 | `M4.2-EGY-03` | other/h5p-interaction | 1 | — | H5P Drag&Drop / Sorting – „Lezáró vagy támogató?” |
 | `M4.2-EGY-04` | other/h5p-interaction | 1 | — | H5P mini-quiz – 2 Single Choice kérdés (Check) |
 | `M4.2-EGY-05` | other/h5p-interaction | 1 | — | 2× szabad szöveges mező – reflektív kérdések (visszatükröző mondat + elhagyandó mondat) |
-| `M4.F-EGY-01` | print/consumable | 1 | — | Check-in matricák / post-it készlet (1 db/fő) |
+| `M4.F-EGY-01` | print/consumable | 1 | — | Cetli / post-it készlet a név nélküli témakérésekhez |
 | `M4.F-EGY-02` | print/consumable | 1 | — | Filc-/marker-készlet a fogalom-térkép táblához |
 | `M5-HUB-EGY-01` | print/consumable | 1 | — | Gallery walk reakció-eszközök (post-it / pötty-matrica) |
 | `M5.1-EGY-01` | other/ui-text | 1 | — | Provenance-címke – kanonikus AI-jelölés a videók alá |
@@ -152,7 +152,7 @@ tisztázandó.
 | `M6.1-EGY-09` | other/h5p-interaction | 1 | — | Single Choice – miért hasznos kategóriákban gondolkodni |
 | `M6.1-EGY-10` | other/h5p-interaction | 1 | — | Single Choice – mikor ne hozz mély élményjátékot |
 | `M6.1-EGY-11` | other/h5p-interaction | 1 | — | Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat) |
-| `M6.F-EGY-01` | print/consumable | 1 | — | Check-in matricák / post-it készlet (beszerzendő irodaszer) |
+| `M6.F-EGY-01` | print/consumable | 1 | — | Cetli / post-it készlet a név nélküli témakérésekhez (beszerzendő irodaszer) |
 
 ### BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN
 
@@ -334,10 +334,10 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Ikon-készlet | `M0.1-IKO-01` | B1 | R5 | 40 | Hook-ikon: útiterv / térkép / lépcső |
 | Illusztráció | `M4.2-ILL-01` | B1 | R5 | 46 | Hook chat-buborék: ideges peula-mondat |
 | Munkalap / nyomtatvány | `M6.A-MUNK-02` | B1 | R5 | 61 | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas cheat-sheet) |
-| Poszter és kártyaszett | `M7.B-POSZ-01` | B1 | R5 | 61 | Flipchart-poszter: "Zmán Kvucá = …" definíció + "AI-határok" |
+| Poszter és kártyaszett | `Z.A-KART-03` | B1 | R5 | 61 | SBI-elismerés mintamondat kártya – párcseréhez |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B1 | R5 | 4 | Hook háttér – someres/kvuca-vizuál |
-| H5P-interakció / Moodle-elem | `M4.2-EGY-04` | B0 | — | 29 | H5P mini-quiz – 2 Single Choice kérdés (Check) |
-| Beszerzendő fizikai eszköz | `M3.F-EGY-01` | B0 | — | 6 | Check-in matrica / post-it készlet |
+| H5P-interakció / Moodle-elem | `M4.2-EGY-02` | B0 | — | 29 | H5P Dialog Cards készlet – „Melyik segít jobban?” |
+| Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Gallery walk reakció-eszközök (post-it / pötty-matrica) |
 
 ## 6. Újrahasznosítás — nem gyártandó
 

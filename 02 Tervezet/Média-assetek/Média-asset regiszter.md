@@ -278,7 +278,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M1.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Offline B-terv – 1 oldalas M1.1–M1.4 összefoglaló kártya | — | nyomtatható PDF | AI-generált |
 | `M1.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 mondat + 1 kérdés” | — | nyomtatható PDF | AI-generált |
 | `M1.F-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Peula előtt / közben / után” (1 A4) | — | nyomtatható PDF | AI-generált |
-| `M1.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Flipchart-sablon – „Melyik leckénél tartasz?” 5 soros állapot-tábla | — | nyomtatható PDF | vegyes |
+| `M1.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M1 leckelista + név nélküli témakérések | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md
 
@@ -381,7 +381,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M2.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Study Lab jegyzetlap – „1 gondolat / 1 kérdés leckénként” | — | nyomtatható PDF | emberi |
 | `M2.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – Felzárkóztató peula (1 A4) | — | nyomtatható PDF | emberi |
-| `M2.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Állapotfelmérő tábla / flipchart-sablon – „Melyik leckénél tartasz?” | — | nyomtatható PDF | emberi |
+| `M2.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M2 leckelista + név nélküli témakérések | — | nyomtatható PDF | emberi |
 | `M2.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md
@@ -498,11 +498,11 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M3.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Check-in matrica / post-it készlet | — | — | stock |
+| `M3.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Cetli / post-it készlet a név nélküli témakérésekhez | — | — | stock |
 | `M3.F-EGY-02` | print/consumable | külső forrás | specifikáció kész | Filcek a fogalom-térkép-táblához | — | — | stock |
 | `M3.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 gondolat / 1 kérdés leckénként” | — | nyomtatható PDF | AI-generált |
 | `M3.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – M3.F peula (1 A4) | — | nyomtatható PDF | AI-generált |
-| `M3.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Check-in állapotfelmérő tábla – M3 leckesorok | — | nyomtatható PDF | AI-generált |
+| `M3.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M3 leckelista + név nélküli témakérések | — | nyomtatható PDF | AI-generált |
 | `M3.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép alaplap – 4–5 üres buborék | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md
@@ -605,11 +605,11 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M4.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Check-in matricák / post-it készlet (1 db/fő) | — | — | stock |
+| `M4.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Cetli / post-it készlet a név nélküli témakérésekhez | — | — | stock |
 | `M4.F-EGY-02` | print/consumable | külső forrás | specifikáció kész | Filc-/marker-készlet a fogalom-térkép táblához | — | — | stock |
 | `M4.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – 1 gondolat / 1 kérdés leckénként (L1–L4) | — | nyomtatható PDF | vegyes |
 | `M4.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | 45 mp-es peula-pitch váz-sablon (eszközmentes pótló feladat) | — | nyomtatható PDF | vegyes |
-| `M4.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Állapotfelmérő tábla-sablon – „Melyik leckénél tartasz?” (M4.1–M4.4 sorok) | — | nyomtatható PDF | vegyes |
+| `M4.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M4 leckelista + név nélküli témakérések | — | nyomtatható PDF | vegyes |
 | `M4.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – Test / Hang / Kérdések / Pitch (4 buborék) | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md
@@ -696,7 +696,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M5.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 gondolat / 1 kérdés leckénként” (L1–L4) | — | nyomtatható PDF | emberi |
-| `M5.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Hőmérő-flipchart – „Melyik M5-leckéig jutottam?” | — | nyomtatható PDF | emberi |
+| `M5.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M5 leckelista + név nélküli témakérések | — | nyomtatható PDF | emberi |
 | `M5.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md
@@ -813,12 +813,12 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Check-in matricák / post-it készlet (beszerzendő irodaszer) | — | — | stock |
+| `M6.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Cetli / post-it készlet a név nélküli témakérésekhez (beszerzendő irodaszer) | — | — | stock |
 | `M6.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 gondolat / 1 kérdés leckénként + játéklap” | — | nyomtatható PDF | AI-generált |
 | `M6.F-MUNK-02` | worksheet | újrahasznosítás | specifikáció kész | Üres játéklap-sablon (offline B-terv + Study Lab) | — | — | AI-generált |
 | `M6.F-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Lecke-összefoglalók M6.1–M6.4 (offline B-terv, 1–1 oldal) | — | nyomtatható PDF | AI-generált |
 | `M6.F-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – 1 A4 (peula előtt/közben/után) | — | nyomtatható PDF | AI-generált |
-| `M6.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Állapotfelmérő tábla – M6 leckesorok + játéklap | — | nyomtatható PDF | AI-generált |
+| `M6.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M6 leckelista + játéklap + név nélküli témakérések | — | nyomtatható PDF | AI-generált |
 | `M6.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – 5–6 buborék (Toolbox nagy képe) | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md
@@ -926,8 +926,8 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M7.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – '1 gondolat / 1 kérdés leckénként' (L1–L4) + opcionális pótlási terv | — | nyomtatható PDF, szerkeszthető, kitölthető változat | emberi |
 | `M7.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4) – peula előtt/közben/után | — | nyomtatható PDF | emberi |
-| `M7.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Állapotfelmérő tábla – M7 leckesorok + 'Kész' sor | — | nyomtatható PDF | emberi |
-| `M7.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – 4 buborék (SMART, 11 pont, Zmán Kvucá, Peula v2 & AI) | — | nyomtatható PDF | emberi |
+| `M7.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M7 leckelista + név nélküli témakérések | — | nyomtatható PDF | emberi |
+| `M7.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – 4 buborék (SMART, 11 pont, Zmán Kvucá, Peula v1/v2 & AI) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md
 

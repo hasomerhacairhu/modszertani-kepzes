@@ -160,8 +160,9 @@ tiszta instrukciós regiszter, egyetlen félkövér kiemelés nélkül, mozgalmi
 - **Motor:** `eleven_flash_v2_5`, `language_code: "hu"` — a magyar olvasat kikényszerítése
   kötelező, enélkül a someres szavak angol vagy héber fonetikát kaphatnak.
 - **Hang:** a [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) meghallgatásán
-  **kiválasztott kanonikus hang** — Dombi Miksa vagy Budai Enn. A P-NAR **nem indulhat**,
-  amíg ez nincs eldöntve.
+  **kiválasztott kanonikus hang** — a Dombi Miksa vagy a Budai Enn forrás-beszélőből
+  készült hangok közül. A P-NAR **nem indulhat**, amíg a két hang létre nem jött és a
+  választás nincs eldöntve.
 - **Bemenet:** a `@source` blokk szövege **tisztítva** — a `„ ”` határoló idézőjel nélkül,
   a `**…**` jelölés eltávolítva, emoji nélkül, szögletes zárójel nélkül.
 - **Tempó:** a `speed` paraméterrel (0,7–1,2) a 110 szó/perc közelébe. Sortörés = rövid

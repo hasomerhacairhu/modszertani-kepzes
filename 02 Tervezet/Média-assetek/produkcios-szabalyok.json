@@ -15,7 +15,7 @@
     {
       "id": "R3",
       "title": "Narrátor hang-bible",
-      "text": "EGYETLEN konzisztens narrátor-hang az egész tananyagban, tegező + barátságos regiszterben — a Z-záró és az M4 modulokat is beleértve. A felmondás SZINTETIKUS, a szolgáltató ELEVENLABS — felhasználói döntés, 2026-08-28; a TTS vs. emberi felmondó kérdés ezzel lezárult, modulonkénti eltérés nincs. A kanonikus narrátor a felhasználó két meglévő egyedi ElevenLabs hangja közül kerül ki: „Dombi Miksa” vagy „Budai Enn”; a választás meghallgatásos teszttel történik (ELEVENLABS-VOICE-TEST.md). A konkrét voice-ID, a modell-azonosító, a hangbeállítások és a kiejtési szótár ⟬KITÖLTENDŐ⟭ — ezek nélkül a felvétel nem reprodukálható, ezért az R3 nyitva marad."
+      "text": "EGYETLEN konzisztens narrátor-hang az egész tananyagban, tegező + barátságos regiszterben — a Z-záró és az M4 modulokat is beleértve. A felmondás SZINTETIKUS, a szolgáltató ELEVENLABS — felhasználói döntés, 2026-08-28; a TTS vs. emberi felmondó kérdés ezzel lezárult, modulonkénti eltérés nincs. A kanonikus narrátor a két forrás-beszélő — „Dombi Miksa” és „Budai Enn” — felvételeiből létrehozandó ElevenLabs egyedi hangok közül kerül ki; a hangok még nem készültek el (a létrehozás módja és a hozzájárulás-bizonyíték nyitott, lásd RIGHTS-EVIDENCE.md V2), a választás a létrehozásuk után meghallgatásos teszttel történik (ELEVENLABS-VOICE-TEST.md). A konkrét voice-ID, a modell-azonosító, a hangbeállítások és a kiejtési szótár ⟬KITÖLTENDŐ⟭ — ezek nélkül a felvétel nem reprodukálható, ezért az R3 nyitva marad."
     },
     {
       "id": "R4",

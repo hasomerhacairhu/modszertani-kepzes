@@ -92,16 +92,20 @@ szakasz a *bizonyíték jellegét*).
 
 ### 1/A.0. ElevenLabs egyedi hangok — a kanonikus narrátor jelöltjei
 
-A szolgáltató **eldőlt** (felhasználói döntés, 2026-08-28). A hang **nem**: két meglévő
-egyedi hang közül kell választani, meghallgatással
+A szolgáltató **eldőlt** (felhasználói döntés, 2026-08-28). A hang **nem**: a két
+forrás-beszélő — Dombi Miksa és Budai Enn — felvételeiből előbb **létre kell hozni** a
+két egyedi hangot (a módszer nyitott, V2 hozzájárulás-bizonyíték a feltöltés előtt
+kötelező), és utána lehet választani, meghallgatással
 ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)).
 
-> ⛔ **Ebben a környezetben nincs ElevenLabs hitelesítő adat**, ezért a voice-ID-t és a
-> hangtípust **nem kérdeztük le, és nem találtuk ki.** A kinyerés menete:
+> ⛔ **A hangok még nem léteznek** — voice-ID és hangtípus a létrehozás után rögzíthető.
+> Ebben a környezetben ráadásul **nincs ElevenLabs hitelesítő adat**, ezért semmit **nem
+> kérdeztünk le, és nem találtunk ki.** A létrehozás utáni azonosítás menete:
 > [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
 
 | Mező | Dombi Miksa | Budai Enn |
 |---|---|---|
+| Hang (voice-objektum) létezik? | `MÉG NEM — LÉTREHOZANDÓ` | `MÉG NEM — LÉTREHOZANDÓ` |
 | `voice_id` | `ACCOUNT_EVIDENCE_REQUIRED` | `ACCOUNT_EVIDENCE_REQUIRED` |
 | `voice_type` (`category`) | `ACCOUNT_EVIDENCE_REQUIRED` | `ACCOUNT_EVIDENCE_REQUIRED` |
 | Fióktulajdon / kontextus | `ACCOUNT_EVIDENCE_REQUIRED` | `ACCOUNT_EVIDENCE_REQUIRED` |

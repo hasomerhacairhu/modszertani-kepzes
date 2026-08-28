@@ -6,12 +6,12 @@ tananyag **kanonikus narrátora**.
 | | |
 |---|---|
 | **Szolgáltató** | **ElevenLabs** — felhasználói döntés, 2026-08-28, lezárva |
-| **Jelöltek** | **Dombi Miksa** · **Budai Enn** (a felhasználó meglévő egyedi hangjai) |
+| **Jelöltek** | **Dombi Miksa** · **Budai Enn** — **forrás-beszélők**: az ő felvételeikből készül majd a két ElevenLabs egyedi hang, amelyek **még nem jöttek létre** |
 | **Eldöntendő** | melyik a kanonikus narrátor |
 | **Minta** | **6 db** — 2 hang × 3 meglévő tananyag-szkript |
 | **Mért méret** | **3 066 karakter** összesen |
 | **Becsült költség** | **0,15 – 0,61 $** (`eleven_flash_v2_5`) — a szolgáltató két árazási felülete eltérő szorzót ad; mindkét olvasatban **egy dollár alatt** |
-| **Állapot** | ⛔ **még nem futott — hang nem készült** |
+| **Állapot** | ⛔ **nem futtatható — a két ElevenLabs hang még nincs létrehozva** (előbb: hozzájárulás-bizonyíték → hang-létrehozás → azonosítás) |
 
 Kapcsolódó: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12–13. szakasz (a kutatás és a
 modell-javaslat) · [`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md) (a három szkript
@@ -20,21 +20,39 @@ D2.
 
 ---
 
-## 1. Amit a teszt előtt tudni KELL — két blokkoló lépés
+## 1. Amit a teszt előtt tudni KELL — három blokkoló lépés
 
-A hat mintát **nem szabad** legenerálni, amíg ez a kettő nem történt meg.
+A hat mintát **nem szabad** legenerálni, amíg ez a három nem történt meg.
 
-### 1.1. A hangok azonosítása — `NEM ELLENŐRZÖTT — FIÓKLEKÉRDEZÉS SZÜKSÉGES`
+### 1.0. A hangok létrehozása — `A HANGOK MÉG NEM LÉTEZNEK`
 
-Ebben a környezetben **nincs ElevenLabs hitelesítő adat**, ezért a voice-ID-ket és a
-hangtípust nem tudtuk lekérdezni. **Nem is találtuk ki őket.**
+**Dombi Miksa** és **Budai Enn** jelenleg **forrás-beszélők**: tőlük származnak (illetve
+készülnek) azok a felvételek, amelyekből a két ElevenLabs egyedi hangot létre kell hozni.
+A hang-objektumok **még nem léteznek**, ezért voice-ID sincs.
+
+- **A létrehozás módja nyitott** (Instant Voice Clone / Professional Voice Clone / egyéb):
+  a jog- és hozzájárulás-helyzet, valamint a fiók-/csomagkeret dönti el —
+  a következményeket típusra bontva a [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) rögzíti.
+  Ez a lap **nem dönti el**.
+- **Hozzájárulás-bizonyíték (V2) a feltöltés ELŐTT:** valós személy hangfelvétele csak
+  dokumentált hozzájárulással tölthető fel; a bizonyíték-nyilvántartás helye a
+  [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
+- **Összevethetőség:** a tesztnek csak akkor van értelme, ha a két hang **azonos módszerrel**
+  és feltételekkel készül el — különben a különbség nem a hangot, hanem a létrehozási
+  módot mérné.
+
+### 1.1. A hangok azonosítása a létrehozás UTÁN — `LÉTREHOZÁS UTÁN RÖGZÍTENDŐ`
+
+Ebben a környezetben **nincs ElevenLabs hitelesítő adat**, és a hangok még nem is léteznek,
+ezért voice-ID-t és hangtípust rögzíteni még nem lehet. **Nem is találtuk ki őket.**
+Amint a két hang elkészült, ezt a táblát kell kitölteni:
 
 | Hang | Voice ID | Hangtípus | Magyar nyelvre igazolt? | Modell-kompatibilitás |
 |---|---|---|---|---|
-| **Dombi Miksa** | `NEM ELLENŐRZÖTT — FIÓKLEKÉRDEZÉS SZÜKSÉGES` | `NEM ELLENŐRZÖTT` | `NEM ELLENŐRZÖTT` | `NEM ELLENŐRZÖTT` |
-| **Budai Enn** | `NEM ELLENŐRZÖTT — FIÓKLEKÉRDEZÉS SZÜKSÉGES` | `NEM ELLENŐRZÖTT` | `NEM ELLENŐRZÖTT` | `NEM ELLENŐRZÖTT` |
+| **Dombi Miksa** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
+| **Budai Enn** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
 
-**A kinyerés menete — a webes út elég:**
+**A kinyerés menete a létrehozás után — a webes út elég:**
 
 1. **My Voices** (`elevenlabs.io/app/voice-lab`).
 2. A név melletti **típusikon** adja a hangtípust:
@@ -56,8 +74,9 @@ A rögzítendő mezők listája: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
 ### 1.2. A tanítási kimaradás bekapcsolása
 
 A szolgáltató feltételei szerint a tanítási kimaradás **csak előremutató**: „does not
-affect any uses… prior to that date”. Ezért a fiók *Data use* beállításában **a hat minta
-legyártása előtt** kell kikapcsolni a tanítási felhasználást, nem utána.
+affect any uses… prior to that date”. Ezért a fiók *Data use* beállításában **már a
+forrásfelvételek feltöltése — tehát a hangok létrehozása — előtt** ki kell kapcsolni a
+tanítási felhasználást, nem utólag.
 
 ---
 
@@ -204,7 +223,7 @@ minta együtthallgatásakor lehet olcsón rögzíteni:
 
 > Miért itt: az `M1.3-VID-01` kétszereplős jelenete a hang-bible 8. szakasza szerint
 > **két megkülönböztethető hangot** igényel, „hogy a felirat nélkül is követhető legyen,
-> ki beszél”. A felhasználónak pontosan két egyedi hangja van. Ez az egyetlen tervezett
+> ki beszél”. A tervben pontosan két hang szerepel (a két forrás-beszélőből készülő). Ez az egyetlen tervezett
 > alkalom, amikor a kettő egymás mellett szól — **ez a sor nem dönt a második hang
 > szerepéről**, csak rögzíti az adatot, amíg ingyen van.
 
@@ -232,8 +251,11 @@ kibírja-e 117 tételen — nem az, hogy melyik szebb egyetlen mintán.
 ## 6. A döntés menete
 
 ```
+0.  hozzájárulás-bizonyíték (V2)      → RIGHTS-EVIDENCE.md; feltöltés előtt kötelező
+0b. a két hang létrehozása (1.0.)     → azonos módszerrel; a módszer (IVC/PVC/egyéb)
+                                        jog + csomag függvénye — még nyitott
 1.  hangok azonosítása (1.1.)         → voice ID + típus rögzítve
-2.  tanítási kimaradás bekapcsolva    → (1.2.)
+2.  tanítási kimaradás bekapcsolva    → (1.2.) — a feltöltés ELŐTT
 3.  ha bármelyik hang PVC             → a modell flash_v2_5, a v3 kiesik
 4.  hat minta legyártása              → 0,15–0,61 $
 5.  meghallgatás + pontozás           → magyar anyanyelvű, someres szóhasználatot

@@ -88,7 +88,7 @@ végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 | | Állapot |
 |---|---|
 | **Szolgáltató** | ✅ **ElevenLabs** — lezárva |
-| **Hangjelöltek** | ✅ **Dombi Miksa** · **Budai Enn** (a felhasználó meglévő egyedi hangjai) |
+| **Hangjelöltek** | ✅ **Dombi Miksa** · **Budai Enn** — forrás-beszélők; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
 | **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 066 karakter, ≈ 0,15 $ |
 | **Modell** | 🔎 javaslat: **`eleven_flash_v2_5`**, `language_code: "hu"` |
 | **Tempó** | `speed` paraméter (0,7–1,2) a 100–120 szó/perc célsávra |
@@ -102,7 +102,7 @@ legstabilabbnak jelölt modellje, az `eleven_multilingual_v2`, **nem támogatja 
 maradék két jelölt közül az `eleven_v3`-on **nincs tempó-vezérlés** — a tananyag viszont
 kötött 100–120 szó/perc célsávot ír elő —, ezért a javaslat a `flash_v2_5`.
 
-> **A hang nem választható ki dokumentációból.** A két meglévő hang közti választás
+> **A hang nem választható ki dokumentációból.** A két — még létrehozandó — hang közti választás
 > meghallgatásos emberi döntés; a modell-javaslatot is a hangtípus erősíti meg (ha
 > bármelyik hang PVC, a `v3` kiesik).
 
@@ -518,7 +518,7 @@ Egyik sem zárul le ezzel a lappal. A teljes kérdésszöveg és hatásszám:
 | # | Döntés | Mit szabadít fel | Ajánlás |
 |---|---|---|---|
 | **D1** | vizuális rendszer: átvesszük-e a hivatalos palettát, és A vagy B változat | 247 asset / 489 deliverable | átvenni; **B változat** |
-| **D2** | **melyik ElevenLabs egyedi hang** a kanonikus narrátor: Dombi Miksa vagy Budai Enn | 90 asset / 267 deliverable | **nincs ajánlás — meghallgatás szükséges**; a szolgáltató és a modell javaslata megvan |
+| **D2** | **melyik ElevenLabs egyedi hang** a kanonikus narrátor: a Dombi Miksa vagy a Budai Enn forrás-beszélőből készülő | 90 asset / 267 deliverable | **nincs ajánlás — előbb a két hang létrehozása (V2 bizonyítékkal), majd meghallgatás**; a szolgáltató és a modell javaslata megvan |
 | **D3** | a videó-stack **jogi bizonyítéka** | önmagában 0; R2 + R3 együtt 111 asset / 351 deliverable | a beszélőfej-szolgáltató **eldőlt (HeyGen)**; karakter-jelenet: Veo 3.1 GA — **jogi review után** |
 | **D5** | M3 gyermekvédelmi lépés-térkép poszter | 1 asset | **NYITVA — nem ennek a passznak a hatásköre** |
 | **D8** | az R8 státusza: szabály vagy önálló kapu | 0 | **NYITVA — nem ennek a passznak a hatásköre** |
@@ -541,7 +541,7 @@ Minden ágnak van kifutása, hogy egyetlen elutasított döntés se állítsa me
 |---|---|
 | A Myriad Pro beágyazási licence nem igazolható | a **B változat** eleve nyílt licencű betűtípust használ — ez a tartalék maga |
 | A hivatalos paletta nem hagyható jóvá | a 26 kizárólag fekete-fehér nyomtatvány a stílus-token birtokában is indulhat (a manifeszt R5-blokkolója viszont csak a teljes R5-zárással kerül le róluk) |
-| Mindkét meglévő hang megbukik a meghallgatáson | a szolgáltatón belül marad a megoldás: új egyedi hang készítése vagy tervezett (szintetikus) hang — **a szolgáltatóváltás nincs napirenden** |
+| Ha a két elkészült hang egyike sem felel meg a meghallgatáson | a szolgáltatón belül marad a megoldás: új egyedi hang készítése vagy tervezett (szintetikus) hang — **a szolgáltatóváltás nincs napirenden** |
 | A javasolt modell kiejtése alias-szabállyal sem javítható | `eleven_v3` — cserébe elveszik a tempó-vezérlés, a similarity- és speaker-boost-rögzítés, és duplázódik a költség |
 | A hang-jogosultság nem dokumentálható | a **tervezett (szintetikus) hang** út: nincs valós személyhez kötött jogosultsági kérdés |
 | A beszélőfej magyar szájszinkronja gyenge | a szolgáltató másik avatar-osztálya vagy motorja — **a szolgáltató a felhasználó döntése, és marad** |
