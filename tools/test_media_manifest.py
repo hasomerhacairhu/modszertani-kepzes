@@ -63,6 +63,47 @@ APPROVED_VISIBLE_EDITS = {
     # D7 — the optional narration is not produced, so the slide stops asking for it.
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md":
         "D7 — az „Opcionális narráció (30–40 mp)” sor törölve; a dia tartalma változatlan",
+    # Forensic remediation, 2026-08-28 — user-mandated fixes of the independent
+    # forensic audit's verified findings (F-01…F-15, R-16, P3) plus the Hungarian
+    # editorial pass. One entry per file, tagged with the finding it carries.
+    "02 Tervezet/LMS – activity manifest.md":
+        "F-02 — a Z.4 feedback-sor pontosított („név nélkül megjelenő”, anonimitás-szint emberi döntés)",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md":
+        "F-14 — a késő esti szcenárió ✅-válasza átlátható bevonást tanít, nem engedélykérést",
+    "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md":
+        "F-15 — just-in-time adatvédelmi ellenőrzés a plakátfotó előtt",
+    "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés – Johari + SBI.md":
+        "P3-01 — az M1.2 leckeleírás nem ígér átírás-feladatot, ami a leckében nincs",
+    "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md":
+        "F-08 — a helyi rubrika 4. sora a KAPU-konstruktumot méri, nem „én-üzenet” nyelvtant",
+    "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md":
+        "F-12 — őszinte terhelés-becslés (2,5–3,5 óra, alap-út)",
+    "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md":
+        "F-05 — a külön beszélgetés a négyszemközti helyi szabályhoz kötve",
+    "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md":
+        "F-13 — az M3.3 őszinte időtartama (20–25’) átvezetve a hubba",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md":
+        "F-13 — a jogszabályi részletek képzői jegyzetbe kerültek, a tanulói szabály megmaradt; időtartam 20–25’",
+    "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md":
+        "F-04 — a szorongó résztvevő megkeresése a négyszemközti helyi szabályhoz kötve",
+    "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md":
+        "szerkesztői — staff→stáb, deklaráció→általános kijelentés (rubrika-logika változatlan)",
+    "02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md":
+        "szerkesztői — staff→stáb, deklaráció-szintű→kijelentés-szintű",
+    "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md":
+        "F-03 — a lecke tanítja a kapun számon kért minimumot (1 soros AI-jelölés + szakmai döntés)",
+    "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md":
+        "szerkesztői — artefaktum→vázlat (blokkcím + percbontás együtt)",
+    "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md":
+        "R-16 — az M7.4-hivatkozás a tényleges v1→klinika→v2 folyamatot mondja",
+    "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md":
+        "F-07 — nincs Moodle-visszakeresési ígéret; saját mentés + emlékezet-fallback",
+    "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md":
+        "F-02 — „név nélkül megjelenő” visszajelzés, Moodle-doksi idézettel; anonimitás-szint emberi döntés",
+    "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md":
+        "F-05 + F-02 — átlátható odalépés a helyi szabály szerint; a kérdőív-megnevezés pontosítva",
+    "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md":
+        "F-02 — a feedback-eszköz megnevezése pontosítva („név nélkül megjelenő”)",
 }
 
 LESSON_DIR = "02 Tervezet/Modulok/M9/Online leckék"
@@ -1087,6 +1128,85 @@ class TestContentInvariant(unittest.TestCase):
         self.assertEqual([], unchanged_but_listed,
                          "elavult bejegyzés az APPROVED_VISIBLE_EDITS listában")
         self.assertGreater(touched, 0, "a migrációnak érintenie kellett fájlokat")
+
+
+class TestForensicRemediationInvariants(unittest.TestCase):
+    """Guards for the regressions fixed in the 2026-08-28 forensic remediation.
+
+    These check instruction classes, not single sentences: the hidden media
+    layer must not quietly reintroduce what the visible curriculum removed.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.model = mm.compile_manifest()
+        cls.assets = cls.model["assets"]
+        cls.by_id = {a["id"]: a for a in cls.assets}
+
+    @staticmethod
+    def _asset_text(asset) -> str:
+        parts = [str(asset.get(k, "")) for k in
+                 ("title", "purpose", "spec", "notes", "review")]
+        a11y = asset.get("a11y") or {}
+        tech = asset.get("technical") or {}
+        parts += [str(v) for v in a11y.values()] + [str(v) for v in tech.values()]
+        return " ".join(parts)
+
+    # --- F-01: Study Lab hidden specs stay non-identifying -------------------
+
+    #: Phrases that prescribe a public, per-person progress marking. Negated
+    #: mentions ("nincs … állapotsor") deliberately do not match.
+    _PUBLIC_STATUS = (
+        "állapotfelmérő tábl", "állapot-tábla", "haladás-követő",
+        "ki hol tart", "hol tartanak az", "állapotánál lévő",
+        "matricával jelölik", "leckesorhoz ragaszt", "lecke-sorhoz ragaszt",
+        "sor: „kész az m",
+    )
+
+    def test_study_lab_specs_do_not_encode_public_per_person_progress(self):
+        violations = []
+        for asset in self.assets:
+            if not asset.get("unit", "").endswith(".F"):
+                continue
+            text = self._asset_text(asset).lower()
+            for phrase in self._PUBLIC_STATUS:
+                if phrase in text:
+                    violations.append(f"{asset['id']}: {phrase!r}")
+        self.assertEqual([], violations,
+                         "Study Lab rejtett spec újra nyilvános, személyhez "
+                         "köthető haladás-jelölést ír elő")
+
+    def test_every_study_lab_orientation_board_exists_and_is_anonymous(self):
+        for unit in ("M1.F", "M2.F", "M3.F", "M4.F", "M5.F", "M6.F", "M7.F"):
+            asset = self.by_id.get(f"{unit}-POSZ-01")
+            self.assertIsNotNone(asset, f"{unit}-POSZ-01 hiányzik")
+            self.assertIn("név nélküli témakérés", self._asset_text(asset),
+                          f"{unit}-POSZ-01: a tájékozódó tábla anonim "
+                          "témakérés-funkciója eltűnt")
+
+    # --- F-09: a narration's transcript pointer names its own deliverable ----
+
+    _TRANSCRIPT_REF = re.compile(
+        r"Felirat/leirat szükséges \(([^)]+)::TRANSCRIPT\)")
+
+    def test_narration_transcript_notes_reference_their_own_asset(self):
+        wrong = []
+        for asset in self.assets:
+            note = str((asset.get("a11y") or {}).get("note", ""))
+            for ref in self._TRANSCRIPT_REF.findall(note):
+                if ref != asset["id"]:
+                    wrong.append(f"{asset['id']} → {ref}::TRANSCRIPT")
+        self.assertEqual([], wrong,
+                         "narráció a szomszéd asset leiratára hivatkozik")
+
+    # --- R-16: M7.F media wording tracks the real v1 product of M7.4 ---------
+
+    def test_m7f_media_specs_do_not_call_the_m74_product_v2(self):
+        for asset in self.assets:
+            if asset.get("unit") != "M7.F":
+                continue
+            self.assertNotIn("L4 – Peula v2", self._asset_text(asset),
+                             f"{asset['id']}: az M7.4 terméke Peula v1, nem v2")
 
 
 # ==========================================================================
