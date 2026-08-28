@@ -14,8 +14,14 @@ egyetlen jóváhagyott felvételen kell rögzíteni, és a többi tétel ehhez i
 90 narráció-assetre és 27 videó hangsávjára hat; egy rossz választás 117 tételen kerül
 vissza.
 
-**Mit NEM dönt el ez a lap:** a szolgáltatót, a hangot és a szintetikus/emberi kérdést.
-Azok a [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D2 pontjában nyitottak.
+**Mit NEM dönt el ez a lap:** magát a hangot. Ez a lap a **tesztanyagot** jelöli ki; a
+végrehajtható összehasonlítás — beállítások, kiejtési figyelőlista, pontozólap —
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
+
+> ✅ **2026-08-28: a szolgáltatói kérdés lezárult.** A felmondás **szintetikus**, a motor
+> az **ElevenLabs**, és a jelöltek a felhasználó két meglévő egyedi hangja: **Dombi
+> Miksa** és **Budai Enn**. Az itt kijelölt három szkript ezért már nem „motorválasztási”
+> tesztanyag, hanem a **két hang összehasonlításának** anyaga — hatmintás mátrixban.
 
 ---
 
@@ -238,22 +244,22 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
 
 ## 5. Hogyan kell a pilotot futtatni
 
-1. **Egy jelölt = mind a három szkript.** Egy szkripten nem lehet hangot választani: P1
-   a tempót, P2 az érzelmi sávot, P3 a kiejtést méri, és egy hang lehet az egyikben jó,
-   a másikban rossz.
-2. **A szintézis bemenete tisztított szöveg**, nem a nyers Markdown:
-   - a `**…**` jelölés a hangsúly *forrása*, de a jelölés maga nem hangzik el — vagy a
-     motor hangsúly-jelölésére (SSML `<emphasis>` vagy megfelelője) fordítandó, vagy
-     eltávolítandó;
-   - a `👉` és minden más emoji **eltávolítandó**;
-   - a nyitó/záró `„ ”` idézőjel a forrásblokk határa, nem felmondandó;
-   - a sortörés rövid levegő, az üres sor bekezdés-szünet.
-3. **Ugyanaz a tisztított szöveg megy minden jelölthöz**, karakterre azonosan — különben
-   nem hangot hasonlítasz össze, hanem szövegváltozatokat.
-4. **A kiejtési táblát (hang-bible 6.) minden jelöltnél végig kell hallgatni.** Ha a
-   motor kiejtési szótárat vagy fonéma-jelölést támogat, a pilotnak azzal **és** anélkül
-   is le kell futnia — a különbség maga a döntési információ: azt mutatja meg, mennyi
-   kézi kiejtés-karbantartással jár az adott motor 117 tételen.
+1. **Egy hang = mind a három szkript**, tehát a két jelölttel összesen **hat minta**. Egy
+   szkripten nem lehet hangot választani: P1 a tempót, P2 az érzelmi sávot, P3 a kiejtést
+   méri, és egy hang lehet az egyikben jó, a másikban rossz. A mátrixot és a beállításokat
+   a [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) tartalmazza.
+2. **A szintézis bemenete tisztított szöveg**, nem a nyers Markdown. A pontos szabályokat
+   a tesztlap 2.1. szakasza rögzíti — röviden: a `**…**` jelölés **eltávolítandó** (nem
+   fordítandó hangsúly-jelölésre), az emoji a mögötte álló szóközzel együtt törlendő, a
+   nyitó/záró `„ ”` a forrásblokk határa, a sortörés és az üres sor viszont marad.
+3. **Ugyanaz a tisztított szöveg megy mindkét hanghoz**, bájtra azonosan — különben nem
+   hangot hasonlítasz össze, hanem szövegváltozatokat.
+4. **A kiejtési táblát (hang-bible 6.) mindkét hangnál végig kell hallgatni** — a teszt
+   **szótár nélkül, egyetlen körben** fut. A kiejtési szótár a teszt **eredménye**, nem a
+   bemenete: előbb ki kell derülnie, melyik szó romlik el ténylegesen, és csak azokra
+   készül alias-szabály. *(A „szótárral és anélkül is lefuttatni" kétkörös eljárás a
+   motorválasztás idejéből maradt itt; a motor azóta eldőlt, és a kétkörös futtatás
+   megkétszerezné a hat mintát.)*
 5. **A jóváhagyó magyar anyanyelvű, someres szóhasználatot ismerő ember.** A
    `Leviatan` / `kvuca` / `chanich` alak helyességét nem lehet leírt átiratból eldönteni.
 

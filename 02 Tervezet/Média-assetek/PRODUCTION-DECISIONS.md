@@ -84,63 +84,78 @@ kivezetése), [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) érték
 
 ---
 
-## D2 — Narrátor: TTS-motor vagy emberi felmondó, és melyik hang (R3)
+## D2 — Melyik ElevenLabs egyedi hang legyen a kanonikus narrátor? (R3)
 
-**Kérdés:** a 90 narráció és a videók hangja **szintetizált hang** legyen-e (és ha igen,
-melyik motor és melyik voice-ID), vagy **emberi felmondó** (és ki)?
+> ✅ **A szolgáltatói kérdés lezárult (felhasználói döntés, 2026-08-28).** A felmondás
+> **szintetikus**, a motor az **ElevenLabs**. A „szintetikus vagy emberi” és a „melyik
+> szolgáltató” kérdés **többé nem nyitott**, és nem is kerül újra elő.
 
-**Miért fontos:** ez az egyetlen igazi nyitott kérdés az R3-ban. Minden más — nyelv,
-tegező regiszter, tempó, hangulat, kiejtés, felirat-viszony — a tananyagból objektíven
-levezethető, és készen áll: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md).
+**A megmaradt kérdés egyetlen mondat:** a felhasználó **két meglévő egyedi ElevenLabs
+hangja** közül melyik legyen a tananyag **kanonikus narrátora**?
 
-**Jelenlegi bizonyíték:** az R3 szövege maga mondja ki, hogy „modulonként a TTS vs.
-emberi felmondó döntés dokumentálandó”, és hogy a konkrét TTS-motor / voice-ID
-kitöltetlen. A leckék technikai jegyzetei közül 21 említi egyáltalán a TTS-t; ebből három
-mondja ki szó szerint, hogy „TTS vagy emberi narráció” (mind az M1.4-ben), és hat az
-M6.1-ben már csak „Hang (TTS)”-t ír. A döntés tehát nem egységesen van nyitva hagyva a
-leckékben sem. A repositoryban **nincs kiválasztott szolgáltató**, és a specifikáció nem
-nevez meg egyet sem.
+**A) Dombi Miksa**
+**B) Budai Enn**
 
-**A) Egyetlen szintetikus hang** az egész tananyagra.
-**B) Egyetlen emberi felmondó** az egész tananyagra.
-**C) Vegyes** — a beszélőfej-videók szintetikusak, a sima narráció emberi (vagy fordítva).
+**Ajánlás: nincs — MEGHALLGATÁS SZÜKSÉGES.** Két hang közül dokumentáció alapján nem lehet
+választani: a magyar természetesség, a melegség és a someres szavak kiejtése csak
+hallgatással dönthető el. A hatpárosos összehasonlítás kész, végrehajtható terve —
+beállításokkal, kiejtési figyelőlistával és pontozólappal —
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 066 karakter,
+becsült költsége 0,15–0,61 $** — a szolgáltató két árazási felülete eltérő szorzót ad,
+de mindkét olvasatban egy dollár alatt marad.
 
-**Ajánlás: nincs.** Ez szolgáltató- és költségdöntés, amihez a repository nem tartalmaz
-bizonyítékot; kitalálni nem szabad. Amit érdemes tudni a döntéshez: a **C** két hangot
-jelentene, amit az R3 első mondata („EGYETLEN konzisztens narrátor-hang az egész
-tananyagban”) kizár, hacsak a jóváhagyó ezt felül nem írja. Az **A** választása a **D3**
-bizonyíték-listát is bővíti; a **B** nem.
+**Egy hang lesz a narrátor.** Az R3 első mondata egyetlen konzisztens narrátor-hangot ír
+elő. A másik hang esetleges szerepe (tartalék, dialógus- vagy karakterhang) **külön,
+későbbi döntés** — ez a lap nem osztja ki neki.
 
-> 🔎 **2026-08-27: a szolgáltatói mező kutatva.** A jelöltek, a magyar támogatásuk, a
-> kiejtés-vezérlésük, a licencfeltételeik és az áraik elsődleges, szolgáltatói forrásból:
-> [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz. Röviden: a szintetikus ágon a
-> **költség nem differenciál** (0–22 $ a teljes tananyagra), a kiejtés-kikényszeríthetőség
-> viszont igen — egyetlen jelölt dokumentál magyar IPA fonéma-készletet. A hangot
-> **meghallgatással** kell kiválasztani, ehhez három tananyagbeli tesztszkript készült:
-> [`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md). **Az R3 blokkoló mind a 117
-> tételen a helyén marad.**
->
-> ⚠️ **Új emberi kapu, amit a kutatás hozott elő (V1).** Az egyik jelölt szolgáltató a
-> saját átláthatósági dokumentumában **megköveteli** a szintetikus hang tényének közlését,
-> és külön kimondja, hogy kiskorúakat érintő felhasználásnál a **szülő/gondviselő** felé is
-> világos tájékoztatás kell. A tananyag R1-címkéje a **tanulónak** szól. Hogy ez önmagában
-> kielégíti-e az elvárást, **gyermekvédelmi és adatvédelmi kérdés** — a gyermekvédelmi
-> felelősé és a DPO-é, nem a médiaprodukcióé. Ez a lap nem dönti el.
+### Ami a szolgáltatói döntés után is nyitva maradt
+
+| Mező | Állapot |
+|---|---|
+| Felmondó típusa | ✅ **szintetikus** |
+| Motor / szolgáltató | ✅ **ElevenLabs** |
+| **Kanonikus hang** | ⛔ **A vagy B — meghallgatásos döntés** |
+| Voice-ID | ⛔ **NEM ELLENŐRZÖTT — fióklekérdezés szükséges** |
+| Hangtípus (PVC / IVC / Voice Design) | ⛔ **NEM ELLENŐRZÖTT — fióklekérdezés szükséges** |
+| Modell | 🔎 javaslat: `eleven_flash_v2_5`, `language_code: "hu"` — a hangtípus és a meghallgatás erősíti meg |
+| Hangbeállítások és seed | ⛔ a teszt rögzíti |
+| Kiejtési szótár | ⛔ a teszt *eredménye*, nem a bemenete |
+| Hang-jogosultság igazolása | ⛔ → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
+
+> ⛔ **Ebben a környezetben nincs ElevenLabs hitelesítő adat** — sem környezeti változó,
+> sem konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. A voice-ID-ket és a
+> hangtípust ezért **nem kérdeztük le, és nem találtuk ki.** A kinyerés pontos menete
+> (webes út és csak olvasó API-hívások): [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
+
+**Miért nem elég a szolgáltató kiválasztása az R3 lezárásához:** amíg nincs kanonikus
+hang, ellenőrzött voice-ID, rögzített modell és beállítás-készlet, a felvétel **nem
+reprodukálható** — és a szolgáltató maga mondja ki, hogy modelljei nem determinisztikusak.
+Az R3 blokkoló ezért mind a **117 tételen** a helyén marad.
+
+**Miért fontos:** a kutatás egy nem várt eredményt hozott. A szolgáltató **leghosszabb
+formára legstabilabbnak jelölt modellje (`eleven_multilingual_v2`) nem támogatja a
+magyart** — a dokumentált 29 nyelve közt a `hu` nincs ott. A magyar tehát leszorít a
+stabilitási zászlóshajóról, és a választás a `eleven_flash_v2_5` és az `eleven_v3` között
+marad. A javaslat a `flash_v2_5`, mert az `eleven_v3`-on **nincs tempó-vezérlés**
+(„Speed is not available for the Eleven v3 model”), a tananyag pedig kötött 100–120
+szó/perc célsávot ír elő. Részletek: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.1–13.2.
 
 **Mit szabadít fel:** R3 lezárása önmagában **90 asset / 267 deliverable**. További 27
 tétel ekkor is R2-re vagy R5-re vár, ezért az R3 + R2 együtt — az R5-öt még nyitva hagyva
 — **111 asset / 351 deliverable**.
 
-**Ki dönt:** program- és költségvetési felelős; szintetikus hangnál a jogi jóváhagyóval
-együtt.
+**Ki dönt:** a kanonikus hangról a program-felelős, meghallgatás alapján; a
+hang-jogosultságról a jogi jóváhagyó és a hang jogosultja.
 
 **A válasz helye:**
-- felmondó típusa (szintetikus / emberi): ⟬KITÖLTENDŐ⟭
-- motor vagy felmondó személy: ⟬KITÖLTENDŐ⟭
-- voice-ID / hangminta hivatkozás: ⟬KITÖLTENDŐ⟭
+- felmondó típusa: **szintetikus** ✅
+- motor: **ElevenLabs** ✅
+- kanonikus hang (Dombi Miksa / Budai Enn): ⟬KITÖLTENDŐ⟭
+- voice-ID, modell, beállítások, seed, kiejtési szótár verziója: ⟬KITÖLTENDŐ⟭
 
 **Mit kell utána átírni:** `produkcios-szabalyok.json` R3,
-[`VOICE-BIBLE.md`](./VOICE-BIBLE.md) „Motor és hang” szakasza,
+[`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12. szakasz,
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) eredmény-mezői,
 [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) hang-sorai, majd build.
 
 ---

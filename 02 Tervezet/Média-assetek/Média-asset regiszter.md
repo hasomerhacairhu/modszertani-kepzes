@@ -102,7 +102,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | Szabály | Mi hiányzik | Érintett asset |
 |---|---|--:|
 | **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 28 |
-| **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID ⟬KITÖLTENDŐ⟭ | 117 |
+| **R3** — Narrátor hang-bible | A konkrét voice-ID, a modell-azonosító, a hangbeállítások és a kiejtési szótár ⟬KITÖLTENDŐ⟭ — ezek nélkül a felvétel nem reprodukálható, ezért az R3 nyitva marad | 117 |
 | **R5** — Ikon- és karakter-batch + lock | A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭ | 258 |
 
 ## 🗂 Assetek fájlonként
