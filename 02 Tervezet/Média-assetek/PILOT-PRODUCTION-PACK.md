@@ -62,9 +62,13 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 | Pilot | Mire vár | Ki oldja fel |
 |---|---|---|
 | P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) | arculati/program-felelős |
-| P-NAR | **D2** (motor és hang) | program- és költségvetési felelős |
-| P-VID | **D2** *(a hangot fel kell tölteni)* → **D3/R2** (avatar-jogtisztaság) | + jogi jóváhagyó |
+| P-NAR | **D2** — de már csak a **kanonikus hang** kiválasztása (a szolgáltató eldőlt: ElevenLabs). Előtte: voice-ID és hangtípus lekérdezése a fiókból | program-felelős, meghallgatás alapján |
+| P-VID | a **kész ElevenLabs hangmester** (tehát P-NAR) → **D3/R2** (a fiók jogi bizonyítéka) — és a **J2/J3** emberi kapuk | + jogi jóváhagyó |
 | P-KAR | **D1** (karakter-lock) + **D3/R2** — és a **J1/J2** emberi kapuk. A **D2** csak az utómunkához kell, a képi generáláshoz nem (lásd 2.1.) | + jogi és gyermekvédelmi jóváhagyó |
+
+> **A szolgáltatói kérdések lezárultak.** Hang: **ElevenLabs**. Beszélőfej: **HeyGen**.
+> Ami maradt, az a **kanonikus hang** kiválasztása és a jogi bizonyíték — nem
+> szolgáltatóválasztás.
 
 ### 2.1. Sorrendi kényszer, ami eddig nem látszott
 
@@ -151,14 +155,28 @@ tiszta instrukciós regiszter, egyetlen félkövér kiemelés nélkül, mozgalmi
 > érzelmi felületet mérnek. Sorrend: **hangválasztás a három szkripten → a P-NAR az első
 > éles felvétel az elfogadott hanggal.**
 
-### Gyártási brief
+### Gyártási brief — **ElevenLabs** (felhasználói döntés, 2026-08-28)
 
-- Bemenet: a `@source` blokk szövege **tisztítva** — a `„ ”` határoló idézőjel nélkül, a
-  `**…**` jelölés hangsúlyra fordítva vagy eltávolítva, emoji nélkül.
-- Tempó `<prosody rate>`-tel a 110 szó/perc közelébe; sortörés = rövid levegő, üres sor =
-  0,6–1 mp.
-- Kiejtés: `chanich` — szóvégi torokhang. PLS-szótárból, ne soronkénti fonéma-címkével.
-- Export: WAV 48 kHz / 16 bit / mono mester → MP3 derivatíva.
+- **Motor:** `eleven_flash_v2_5`, `language_code: "hu"` — a magyar olvasat kikényszerítése
+  kötelező, enélkül a someres szavak angol vagy héber fonetikát kaphatnak.
+- **Hang:** a [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) meghallgatásán
+  **kiválasztott kanonikus hang** — Dombi Miksa vagy Budai Enn. A P-NAR **nem indulhat**,
+  amíg ez nincs eldöntve.
+- **Bemenet:** a `@source` blokk szövege **tisztítva** — a `„ ”` határoló idézőjel nélkül,
+  a `**…**` jelölés eltávolítva, emoji nélkül, szögletes zárójel nélkül.
+- **Tempó:** a `speed` paraméterrel (0,7–1,2) a 110 szó/perc közelébe. Sortörés = rövid
+  levegő, üres sor = 0,6–1 mp.
+- **Beállítások:** minden kérésben **explicit** a teljes készlet (`stability` ~0,70,
+  `similarity_boost` 0,75, `style` 0, `use_speaker_boost` true, `speed`), plusz rögzített
+  `seed`. A tárolt beállításra hagyatkozni tilos.
+- **Kiejtés:** `chanich` — szóeleji és szóvégi torokhang. **Alias-szabállyal**, ha a
+  meghallgatás hibát mutat; a választott modell a fonéma-szabályokat kihagyja. A magyar
+  toldalékolás miatt minden előforduló alakot fel kell venni.
+- **Export:** a csomag által engedett legjobb mester (`wav_44100` Pro-n, egyébként
+  `mp3_44100_192`) → `mp3_44100_128` derivatíva a Moodle/H5P-hez.
+- **Felirat-időzítés:** érdemes a szolgáltató **karakterszintű időbélyeget** adó
+  végpontját kipróbálni. A felirat **szövege így is a lecke marad** — a végpont csak az
+  időzítést adja.
 
 ### Elfogadási feltétel
 
@@ -196,17 +214,38 @@ Bármely szóeltérés a forrástól · a 25 mp túllépése hadarással kompenz
 A 21 beszélőfej **modális esete**: HOOK-videó, közepes hossz, egy szereplő, kamerába
 beszél. A generált terv választása, és megáll.
 
-### Gyártási brief — javasolt stack (Synthesia; tartalék: HeyGen API)
+### Gyártási brief — **HeyGen** (felhasználói döntés, 2026-08-28)
+
+A hang **nem itt készül**: a kanonikus hangmestert az ElevenLabs állítja elő a lecke
+`@source` szövegéből, a HeyGen csak a képi/szájszinkron fázist végzi.
 
 | | |
 |---|---|
-| **Avatar** | **egyetlen készlet-avatar**, amely mind a 21 videóban visszatér. Nem egyedi avatar: így nincs valós személyhez kötött képmás-hozzájárulási lánc. |
-| **Megjelenés** | felnőttnek olvasható, semleges, hétköznapi öltözet; nem tanáros, nem céges, nem korporatív háttér |
-| **Hang** | **feltöltött hangsáv** a P-NAR-ban elfogadott hanggal — a szolgáltató TTS-e nincs használatban |
+| **Szolgáltató** | **HeyGen** — a választás lezárva, nem tárgya ennek a briefnek |
+| **Hang** | **feltöltött ElevenLabs hangmester.** A HeyGen saját TTS-e **nincs használatban** — a séma ezt kikényszeríti: a `script` és az `audio_url` / `audio_asset_id` mező **kölcsönösen kizárja egymást** |
+| **Avatar** | **egyetlen nyilvános készlet-avatar** (`studio_avatar`, `ownership=public`), amely mind a 21 videóban visszatér. Készlet-avatarhoz **nem kell hozzájárulási lánc**; egyedi „digital twin” avatarhoz igen, és annak API-s létrehozása enterprise-szintű |
+| **Megjelenés** | **egyértelműen felnőtt** — ez nem stílus, hanem szabály: a szolgáltató moderációs politikája tiltja a 18 év alattinak látszó avatart (lásd a J2 kaput). Semleges, hétköznapi öltözet; nem tanáros, nem céges |
 | **Keretezés** | mellkép, tekintet a kamerába; a fej a felső harmadban, a cím-biztonságos zónán belül |
 | **Háttér** | egyszínű felület a palettából, vagy semleges világos háttér. **Védjegy-semlegesség (R4):** nem utánozhatja a Messenger / WhatsApp / Discord / Insta / Moodle vizuális nyelvét |
-| **Felirat** | **nem égetett** — külön `.vtt`; az alsó 15% grafikamentes marad |
-| **Export** | MP4 / H.264, 1920 × 1080, 16:9 |
+| **Felirat** | **nem égetett.** A `.vtt` felirat a lecke `@source` szövegéből készül, **nem** a szolgáltatóétól. A videógenerálás felirat-beállítása amúgy is **csak SRT-t** ad (a formátum-felsorolásban egyetlen érték szerepel), és beszédfelismerésből származik — a szolgáltatói felirat legfeljebb keresztellenőrzés. *(A szolgáltató máshol, a videó-fordítás funkciójában ad VTT-t is; az viszont nem ez az útvonal.)* |
+| **Export** | MP4, **16:9**, 1080p. Az arányt **explicit** kell megadni, mert az `auto` az avatar forrásképéből vezeti le |
+
+#### A gyártási lánc — három lépés
+
+```
+1.  hangmester feltöltése         → asset-azonosító (MP3 vagy WAV, ≤ 32 MB)
+2.  videó létrehozása             → az avatar-azonosító + a feltöltött hang azonosítója
+                                    (a szöveges szkript-mező üresen marad!)
+                                    arány = 16:9, felbontás = 1080p, motor explicit
+3.  állapot lekérdezése           → kész videó letöltése és ARCHIVÁLÁSA
+```
+
+A letöltési link **ideiglenes** — a kész MP4-et azonnal a saját tárolóba kell menteni.
+A szolgáltató nem archívum.
+
+> ⚠️ **Nem dokumentált, ezért a pilotnak kell eldöntenie:** hogy a kimeneti MP4 a
+> feltöltött hangot **változatlanul** viszi-e tovább, vagy újrakódolja. A szolgáltatói
+> dokumentáció erről hallgat. A pilot elfogadásának ez mérhető feltétele (lásd lent).
 
 ### Negatív megkötések
 
@@ -216,20 +255,47 @@ szereplő · nincs kameramozgás vagy zoom-effekt.
 
 ### Elfogadási feltétel
 
-- [ ] a **magyar szájszinkron** a feltöltött hangra hihető — *ez a pilot elsődleges, még nem ellenőrzött kérdése*;
-- [ ] a hang a P-NAR-ban elfogadott hang, változatlanul;
-- [ ] 16:9, ≤ 40 mp, 1080p;
-- [ ] a `.vtt` felirat exportálható és időzítése pontos;
+Az első hét pont **a pilot négy nem dokumentált kérdését méri** — ezekre a szolgáltatói
+dokumentáció nem ad választ, csak egy tényleges renderelés.
+
+- [ ] a **magyar szájszinkron** a feltöltött hangra hihető — a szolgáltató a
+      szájszinkront a hanghullámból vezeti, nyelvi listája ehhez nincs; *ez a pilot
+      elsődleges kérdése*;
+- [ ] **a kimeneti hang a feltöltött ElevenLabs mester** — mérve, nem feltételezve:
+      a kimenetből kinyert hangsáv kodekje és mintavétele rögzítve, és a mesterrel
+      null-teszttel összevetve. Ha újrakódolás történik, azt **dokumentálni kell**, és el
+      kell dönteni, elfogadható-e;
+- [ ] **gépi provenance:** a kész MP4-et meg kell vizsgálni, van-e benne
+      C2PA / Content Credentials jelölés. A szolgáltató dokumentációja **sehol nem állítja,
+      hogy beágyaz ilyet** — csak egy szabványügyi kezdeményezésben való tagságot említ.
+      Ha nincs jelölés, az R1 gépi ága itt tárgytalan; ha van, az exportnak meg kell
+      tartania. **Feltételezni egyiket sem szabad;**
+- [ ] **nincs vízjel** a fizetős renderen — a dokumentáció a vízjelmentességet a fizetős
+      csomaghoz köti, de kifejezetten nem mondja ki; ellenőrizendő;
+- [ ] 16:9 és 1080p, ≤ 40 mp, 25 fps;
+- [ ] az avatar újrahasználható a további 20 videóhoz **ugyanazzal az azonosítóval**;
+- [ ] a moderáció **átengedi** a tananyag hangvételét — a szolgáltató automatikus
+      moderációt futtat, és a politikai tartalom tiltott kategória; egy mozgalmi-ideológiai
+      keretezésű HOOK elakadhat rajta. Ezt is a pilot deríti ki;
+- [ ] a `.vtt` felirat **a lecke `@source` szövegéből** készült, nem a szolgáltató
+      SRT-kimenetéből;
 - [ ] az alsó 15%-ban nincs grafika;
-- [ ] a gépi provenance-jelölés az exportban megmaradt;
-- [ ] az R1-címke az LMS-ben, szövegként jelenik meg (`M5.1-EGY-01`);
-- [ ] az avatar újrahasználható a további 20 videóhoz **ugyanazzal az azonosítóval**.
+- [ ] az R1-címke az LMS-ben, szövegként jelenik meg (`M5.1-EGY-01`).
 
 ### Bukási feltétel
 
 Rossz vagy „idegen nyelvű” szájmozgás · a szolgáltató saját TTS-e szólal meg a feltöltött
-hang helyett · égetett felirat vagy címke · watermarkos kimenet · a felirat nem
-exportálható · az avatar nem rögzíthető újrafelhasználásra.
+hang helyett · a hangmester felismerhetően romlik az újrakódolástól · égetett felirat vagy
+címke · watermarkos kimenet · az avatar nem rögzíthető újrafelhasználásra · a moderáció
+elutasítja a tartalmat.
+
+> ⚠️ **Reprodukálhatósági kockázat, amit a pilot nem old meg.** A szolgáltató
+> avatar-leíró rekordjában **nincs verzió-mező**: az avatar megjelenése nem rögzíthető
+> egy adott változatra, és a szolgáltató a motorok viselkedését menet közben változtatja.
+> Ebből következő produkciós szabály: **a 21 beszélőfej-videót egyetlen szűk időablakban
+> kell legyártani**, nem hónapokra elosztva, és minden kész MP4-et archiválni kell.
+> Egy év múlva egyetlen klip újragyártására nincs garancia, hogy ugyanaz az arc jön
+> vissza.
 
 ---
 
