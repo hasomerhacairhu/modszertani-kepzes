@@ -131,6 +131,7 @@ AUDIT_2026_09_26_VISIBLE_EDITS = {
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md",
     "02 Tervezet/RELEASE-READINESS.md",
     "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md",
+    "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md",
     "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md",
     "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
     "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md",
