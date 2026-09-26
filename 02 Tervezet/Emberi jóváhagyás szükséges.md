@@ -183,7 +183,7 @@ A választott HeyGen-folyamathoz szükséges személy-, hang-, képmás- és szo
 ## 7. Dokumentált, elfogadott reziduumok
 
 - A súlyos M3-es eseteket harmadik személyű esetelemzéssel dolgozzuk fel; traumatikus szerepjáték nincs.
-- A Z.4 hivatalos reflektív produktuma Moodle Assignment, nem H5P Documentation Tool.
+- A Z.4 hivatalos reflektív produktuma **Moodle Assignment**.
 - Az M0-kvíz completion-alapú diagnosztikus jelző.
 - Az M7 kétlépcsős produktumfolyam invariánsa: **v1 → köztes feedback/revízió → v2**.
 - A pedagógiai alapelv: **kevesebb gépezet, több mozgalom**.
