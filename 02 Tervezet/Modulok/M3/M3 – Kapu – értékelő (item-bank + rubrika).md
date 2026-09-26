@@ -347,12 +347,12 @@ A mentor a learning analytics alapján nézze át, **mely red flag típust** nem
 - Gyvt. – Hatályos Jogszabályok Gyűjteménye (net.jogtar.hu) — https://net.jogtar.hu/jogszabaly?docid=99700031.tv
 - 2024.09.01-i módosítás / büntetőjogi felelősség (Btk. 209/A. §) – jelzőrendszeri összefoglaló — https://modszertan.maltai.hu/
 
-**Akut önveszély / krízis – hívószámok** (112 segélyhívó; 116-111 Kék Vonal gyermek- és ifjúsági lelkisegély, ingyenes 0–24; 116-123 ingyenes, 0–24 Lelki Elsősegély; **116-000 Kék Vonal – a gyerek miatt aggódó felnőtteknek / szakembereknek**, ingyenes):
-> **A három szám szétválasztása (stáb/mentor):** a **gyerek** krízisére **116-111** (Kék Vonal), **felnőtt** lelki krízisre **116-123** (Lelki Elsősegély), és amikor a **madrich / mentor maga aggódik egy chanichért** (nem saját krízis, hanem egy gyerek miatti bizonytalanság: kihez forduljon, mi a következő lépés), a **116-000** Kék Vonal-segélyvonal a felnőtteknek/szakembereknek szóló út. Közvetlen életveszélynél mindig **112**.
+**Akut önveszély / krízis – hívószámok** (112 segélyhívó; 116-111 Kék Vonal Lelkisegély-vonal gyerekeknek és fiataloknak, valamint gyerek érdekében telefonáló felnőtteknek; 116-123 Lelki Elsősegély felnőtteknek; **116-000 Kék Vonal – eltűnt és bántalmazott gyerekek segélyvonala**):
+> **A számok szétválasztása (stáb/mentor):** a **116-111** Kék Vonal Lelkisegély-vonalat gyerekek és fiatalok, valamint **gyerek érdekében telefonáló felnőttek** is hívhatják. A **116-000** nem általános szakember-vonal: az eltűnt és bántalmazott gyerekek segélyvonala. **Felnőtt saját lelki krízisében** a 116-123 Lelki Elsősegély érhető el. **Közvetlen életveszélynél 112.** A helyi gyermekvédelmi jelzési láncot egyik segélyvonal sem helyettesíti.
 - A Rendőrség hivatalos honlapja – *Tájékoztató a Lelki Elsősegély Telefonszolgálatokról* — https://www.police.hu/hu/hirek-es-informaciok/bunmegelozes/aktualis/tajekoztato-a-lelki-elsosegely-telefonszolgalatokrol
 - Magyar Lelki Elsősegély Telefonszolgálatok Szövetsége (LESZ) – 116-123 (ingyenes, 0–24, mindenkinek) — https://sos116-123.hu/
 - Kék Vonal Gyermekkrízis Alapítvány – 116-111 (gyermek- és ifjúsági lelkisegély, ingyenes, 0–24, 24 év alatt) — https://kek-vonal.hu/
-- Kék Vonal Gyermekkrízis Alapítvány – 116-000 (a gyerek miatt aggódó felnőtteknek / szakembereknek, ingyenes) — https://kek-vonal.hu/tudastar/116-000-segelyvonal-a-bantalmazott-es-eltunt-gyerekekert-szakembereknek-is
+- Kék Vonal Gyermekkrízis Alapítvány – 116-111 Lelkisegély-vonal; 116-000 Segélyvonal az eltűnt és bántalmazott gyerekekért — https://interaktiv.kek-vonal.hu/index.php/hu/component/content/category/15-szakmai-szolgaltatasok
 - Egészségvonal (NNGYK) – *Lelkisegély-szolgálatok és kríziskezelés* (112 közvetlen veszélynél) — https://egeszsegvonal.gov.hu/maradj-egeszseges/lelki-egeszseg/lelkisegely/lelkisegely-szolgalatok.html
 
 > A hívószámok és a helyi gyermekvédelmi protokoll pontosítása a **gyermekvédelmi felelős** feladata a véglegesítés előtt.
