@@ -55,18 +55,19 @@
   - ahol a kapus/online elem teljesítése eszközhöz kötött, ott **biztosítani kell egy eszköz-független pótlási utat** (a fenti offline/letölthető változat + a ken közös eszköze); ahol az **opcionális** Study Lab elérhető, az is egyenértékű pótlási tér — de a méltányos hozzáférés **nem függhet kizárólag** az opcionális Study Lab meglététől.
 - Tedd explicitté a lecke fejlesztői megjegyzésében, ha egy elem csak online, élő neten teljesíthető — ez akadálymentesítési kockázat, és kell hozzá offline/Study Lab fallback.
 
-## 6. H5P Essay és önreflexiók
+## 6. Szabad szöveg és önreflexiók
 
-- **Megnevezés (hivatalos szabály).** A specifikációban **ne nevezz meg nem létező H5P content type-ot**. A hivatalos H5P listában **nincs „Short Answer”** — szabad szöveges beviteli típusként az **Essay**, illetve kötött kitöltésre a **Fill in the Blanks** létezik. Ezért a tananyagban a pedagógiai igényt írjuk le magyarul: **„rövid szöveges válasz”**, illetve **„hosszabb szöveges reflexió”** — és a konkrét megvalósítást a build dönti el az alábbi szabály szerint.
+- **Megnevezés (hivatalos szabály).** A specifikációban ne használj kitalált vagy bizonyítatlan H5P-típusnevet. A H5P jelenlegi kínálatában **létezik Free Text Question** a pontozás nélküli szabad szöveges válaszhoz, mellette **Essay** és kötött válasznál **Fill in the Blanks** is használható. A tananyagban továbbra is a pedagógiai igényt írjuk le magyarul: **„rövid szöveges válasz”**, illetve **„hosszabb szöveges reflexió”**. A konkrét megvalósítást a cél Moodle/H5P telepítés és a befoglaló tényleges támogatása dönti el.
 - ⚠️ **Szabad szöveg és Course Presentation — igazolt korlát.** A H5P hivatalos válasza szerint az **Essay NEM adható hozzá Course Presentationhöz**; a megnevezett támogatott alternatíva az **Interactive Book**, amely az Essay-t alcontentként kezeli. Ezért **egyetlen lecke sem tekintheti bizonyítottnak**, hogy egy Course Presentation dián belül szabad szöveges mező jelenik meg.
-- **A megvalósítás három megengedett útja** (a választás a cél Moodle/H5P verzión, acceptance-teszttel dől el — lásd `LMS – H5P runtime acceptance.md`):
-  1. **Moodle-oldali szövegmező** a lecke mellett (Assignment online text vagy Quiz esszé-kérdés) — ez a legkevésbé kockázatos, és a hosszabb reflexióknál (pl. Z.4) ez a hivatalos út;
-  2. **H5P Essay** ott, ahol a befoglaló content type ezt igazoltan támogatja (pl. Interactive Book);
-  3. **Fill in the Blanks**, ha a válasz ténylegesen kötött (sablonmondat kiegészítése).
-- Önreflexióknál a szöveges mező **completion-alapú** beállítással kerüljön be: **kulcsszó-pontozás kikapcsolva** (H5P Essay esetén a keyword-alapú pontozás nem használandó értékelésre).
+- **A megvalósítás négy megengedett útja** (a választás a cél Moodle/H5P verzión, acceptance-teszttel dől el — lásd `LMS – H5P runtime acceptance.md`):
+  1. **Moodle-oldali szövegmező** a lecke mellett (Assignment online text vagy Quiz esszé-kérdés) — hosszabb, megőrzendő reflexiónál ez az alapértelmezett, könnyebben auditálható út;
+  2. **H5P Free Text Question** pontozás nélküli rövid válaszhoz, **csak** ha a célhoston engedélyezett, a szükséges xAPI/LRS-viselkedés rendelkezésre áll, és a választott befoglalóban ténylegesen működik;
+  3. **H5P Essay** ott, ahol a befoglaló content type ezt igazoltan támogatja (pl. Interactive Book);
+  4. **Fill in the Blanks**, ha a válasz ténylegesen kötött (sablonmondat kiegészítése).
+- Önreflexióknál a szöveges mező **completion-alapú** legyen. H5P Essay esetén a kulcsszó-alapú automatikus pontozás nem használható a személyes reflexió értékelésére; Free Text Question esetén pedig a szabad szöveget nem tekintjük automatikusan pontozható teljesítménynek.
 - Így nem keletkezik téves pontszám ott, ahol a cél a „megcsinálta / nem csinálta meg” completion, nem az értékelés.
 
-> *(Forrás: h5p.org hivatalos content type lista — „Short Answer” nem szerepel; H5P staff válasza (2025-02-27): „Essay has not been added to Course Presentation… you add Essay in Interactive Book which can function similarly.” A cél Moodle/H5P verzió rögzítése továbbra is release blocker.)*
+> *(Forrás: H5P 2026-02 frissítés és Release Overview: Free Text Question jelenlegi content type; H5P staff dokumentált korlátja: Essay nem adható Course Presentationhöz. A cél Moodle/H5P verzió és a konkrét befoglaló működése továbbra is futtatási tesztet igényel.)*
 
 ### KAPUS H5P „pre-flight” checklist
 
@@ -106,7 +107,7 @@
 - [ ] Mobil-táblázat = kártya/akkordeon nézet, nem vízszintes scroll
 - [ ] Adatigényes/videós leckéhez offline letölthető, alacsony adatigényű változat + Study Lab mint eszközhöz-jutási pont (eszköz-hiány nem zár ki a completionből)
 - [ ] Produktumhoz letölthető sablon + online-text beadás engedélyezve
-- [ ] H5P Essay completion-alapú, kulcsszó-pontozás kikapcsolva
+- [ ] Szabad szöveges önreflexió completion-alapú; Essaynél nincs kulcsszó-alapú automatikus értékelés, Free Text Question csak igazolt host/befoglaló-támogatással
 - [ ] Leckeszöveg plain-language: rövid mondatok, szakszó első előforduláskor feloldva; kulcsfogalom szövegben is (nem csak ábrán)
 
 ---
