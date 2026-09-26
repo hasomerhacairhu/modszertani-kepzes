@@ -43,7 +43,7 @@
 
 A madrich eszközkészlete **bővül konkrét játékokkal, történetekkel és kézműves ötletekkel**, és érti, hogy **melyik eszköz melyik kvucának**, milyen céllal és **milyen biztonsági / inkluzivitási szempontokkal** való. A modul végére elkészít **1 használható játéklapot** választott játékhoz / történethez / kézműveshez, benne: cél, kvuca, leírás, biztonság, inkluzivitás, variációk.
 
-> 🔁 **Vissza M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / visszahívás / spacing) **változatlanul érvényes** – az M6 toolbox ennek a láncnak az eszköz-szintű folytatása. **Új dimenzió itt:** a **biztonság és az inkluzivitás** mint kapuzott mérce **az M6-ban indul** (nem korábbi M5-visszahívás) – itt kapcsoljuk rá a már ismert lánc minden lépésére.
+> 🔁 **Vissza M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / aktív felidézés / időben elosztott gyakorlás) **változatlanul érvényes** – az M6 toolbox ennek a láncnak az eszköz-szintű folytatása. **Új dimenzió itt:** a **biztonság és az inkluzivitás** mint kapuzott mérce **az M6-ban indul** (nem korábbi M5-ismétlés) – itt kapcsoljuk rá a már ismert lánc minden lépésére.
 
 ## 2. Kimeneti kompetenciák
 
@@ -260,6 +260,6 @@ Az M6 akkor **complete**, ha mindhárom teljesül:
 
 [M6.B – Peula: „Játéklap-műhely – saját eszköz tervezése” (45’)](./Peulák/M6.B%20–%20Peula%20–%20Játéklap%20workshop%20–%20saját%20eszköz%20tervezése%20%2845’%29.md)
 
-[M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab)](./Peulák/M6.F%20–%20Felzárkóztató%20peula%20–%20Toolbox%20&%20játéklap%20%28Study%20Lab%29.md)
+[M6.F – Felzárkóztató peula – Toolbox & játéklap](./Peulák/M6.F%20–%20Felzárkóztató%20peula%20–%20Toolbox%20&%20játéklap%20%28Study%20Lab%29.md)
 
 **[M6 – KAPU – értékelő (item-bank + rubrika)](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles teljesítési kapuja**: a szcenárió-kvíz item-bankja és a játéklap megfigyelhető rubrikája.
