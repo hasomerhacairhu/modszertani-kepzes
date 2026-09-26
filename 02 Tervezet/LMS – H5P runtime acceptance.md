@@ -6,15 +6,16 @@ A Markdown specifikációból **nem bizonyítható**, hogy egy H5P/Moodle intera
 
 | Komponens | Verzió / build | Dátum | Felelős |
 |---|---|---|---|
-| Moodle | KITÖLTENDŐ | KITÖLTENDŐ | KITÖLTENDŐ |
-| H5P core / plugin | KITÖLTENDŐ | KITÖLTENDŐ | KITÖLTENDŐ |
-| Course Presentation | KITÖLTENDŐ | | |
-| Branching Scenario | KITÖLTENDŐ | | |
-| Dialog Cards | KITÖLTENDŐ | | |
-| Column | KITÖLTENDŐ | | |
-| Question Set | KITÖLTENDŐ | | |
-| Interactive Video | KITÖLTENDŐ | | |
-| Browser/device matrix | KITÖLTENDŐ | | |
+| Moodle | `RUNTIME_OUTPUT` | `RUN_DATE` | `TEST_OWNER` |
+| H5P core / plugin | `RUNTIME_OUTPUT` | `RUN_DATE` | `TEST_OWNER` |
+| Course Presentation | `RUNTIME_OUTPUT` | | |
+| Branching Scenario | `RUNTIME_OUTPUT` | | |
+| Dialog Cards | `RUNTIME_OUTPUT` | | |
+| Column | `RUNTIME_OUTPUT` | | |
+| Question Set | `RUNTIME_OUTPUT` | | |
+| Free Text Question | `RUNTIME_OUTPUT` | | |
+| Interactive Video | `RUNTIME_OUTPUT` | | |
+| Browser/device matrix | `RUNTIME_OUTPUT` | | |
 
 ## P0 runtime tesztek
 
