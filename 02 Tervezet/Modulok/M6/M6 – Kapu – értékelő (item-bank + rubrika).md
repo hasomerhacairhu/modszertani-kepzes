@@ -9,7 +9,7 @@
 ← Vissza a modul-hubhoz: **[M6 – „Toolbox_ játék, történet, kézműves & inkluzivitás”](./M6%20–%20Toolbox%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
 
 > **Modul:** M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”
-> **Kaputípus:** **ÉLES kapu (mastery-kapu)** – mert a módszerválasztás és a játékvezetés közvetlenül érinti a chanichok **fizikai és érzelmi biztonságát** és **inkluzív élményét**.
+> **Kaputípus:** **ÉLES teljesítési kapu** – mert a módszerválasztás és a játékvezetés közvetlenül érinti a chanichok **fizikai és érzelmi biztonságát** és **inkluzív élményét**.
 
 ---
 
@@ -402,7 +402,7 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 - [ ] **R4** *(blokkoló)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
 - [ ] **R5** *(blokkoló)* – legalább **1** nevezett akadály **+ 1** konkrét alternatív belépési pont.
 
-> **Döntési szabály:** Ha bármelyik **blokkoló sor (R4 vagy R5)** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két hard-gate sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő társas visszajelzés önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz biztonsági/inkluzivitási diagnózisát a játéklap előtt érdemes orvosolni (lásd Kapu-logika és (D) Stáb-jelzések).
+> **Döntési szabály:** Ha bármelyik **blokkoló sor (R4 vagy R5)** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két blokkoló sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő társas visszajelzés önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz biztonsági/inkluzivitási diagnózisát a játéklap előtt érdemes orvosolni (lásd Kapu-logika és (D) Stáb-jelzések).
 
 ---
 
