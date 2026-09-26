@@ -60,6 +60,7 @@ Ezek a fájlok **kézzel nem szerkeszthetők**:
 |---|---|
 | `produkcios-szabalyok.json` | Az R1–R8 produkciós konvenciók szövege. **Kézzel karbantartott:** amikor egy szervezeti vagy jogi döntés megszületik, itt kell kivezetni a `⟬KITÖLTENDŐ⟭` jelölést. A fordító ebből dolgozik, nem a befagyasztott v1 pillanatképből. |
 | [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) | A gyártás elindításához hiányzó **emberi döntések** — egy helyen, döntésenként egy kérdéssel, opciókkal és hatásszámmal. Kézzel karbantartott. |
+| [`RELEASE-MEDIA-STATUS.md`](./RELEASE-MEDIA-STATUS.md) | A release-szükségesség és a gyártási blokkoltság külön kezelése; az M0+M1 staging média-fallbackjei. |
 | [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) | Az R3 végrehajtási lapja: nyelv, regiszter, tempó, kiejtés, felirat-viszony, kimenet. Az egyetlen nyitott mezője a motor/hang választása. |
 | [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) | Az R5 lock-lapja: mi kötelező már most, mi következetes de nem hivatalos, és mi hiányzik. |
 | [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) | R2/R8 bizonyíték-nyilvántartás. Nem hoz jogi következtetést, és személyes adatot nem tartalmaz. |
