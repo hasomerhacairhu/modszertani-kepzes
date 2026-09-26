@@ -118,16 +118,19 @@ későbbi döntés** — ez a lap nem osztja ki neki.
 | Felmondó típusa | ✅ **szintetikus** |
 | Motor / szolgáltató | ✅ **ElevenLabs** |
 | **Kanonikus hang** | ⛔ **A vagy B — meghallgatásos döntés** |
-| Hang-objektumok létrehozása | ⛔ **még nem történt meg** — forrás-beszélői felvétel + V2 hozzájárulás-bizonyíték kell előbb; a módszer (IVC / PVC / egyéb) is nyitott |
+| Hang-objektumok létrehozása | ⛔ **még nem történt meg** — előbb dokumentált hangjogosultság kell. **PVC esetén a forrásbeszélőnek a saját hangját saját maga kell létrehoznia és hitelesítenie; a projektfiók más személy PVC-jét még hozzájárulással sem hozhatja létre.** A kész PVC privát megosztással adható át. IVC csak akkor választható, ha a jogosultság, a fiók/workspace és az aktuális feltételek ezt lehetővé teszik. |
 | Voice-ID | ⛔ **NINCS — a hang még nem jött létre** |
-| Hangtípus (PVC / IVC / Voice Design) | ⛔ **NINCS — a létrehozás módjával együtt dől el** |
+| Hangtípus | ⛔ **NINCS — a jogosulttal és az aktuális szolgáltatói feltételekkel összhangban kell kiválasztani** |
 | Modell | 🔎 javaslat: `eleven_flash_v2_5`, `language_code: "hu"` — a hangtípus és a meghallgatás erősíti meg |
 | Hangbeállítások és seed | ⛔ a teszt rögzíti |
 | Kiejtési szótár | ⛔ a teszt *eredménye*, nem a bemenete |
 | Hang-jogosultság igazolása | ⛔ → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
 
-> ⛔ **A hangok még nem léteznek** — az első lépés a létrehozásuk a forrás-beszélők
-> felvételeiből ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
+> ⛔ **A hangok még nem léteznek.** PVC esetén nem a projektfiók tölti fel és hitelesíti
+> más személy hangját: a forrásbeszélő a saját fiókjában hozza létre és hitelesíti a PVC-t,
+> majd privát megosztással adhat hozzáférést. IVC esetén külön kell igazolni a használati
+> jogosultságot és az aktuális fiók-/workspace-feltételeket. A meghallgatási folyamat csak
+> ezután indulhat ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
 > környezetben **nincs ElevenLabs hitelesítő adat** — sem környezeti változó, sem
 > konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. Voice-ID-t és
 > hangtípust ezért **nem rögzítettünk, és nem is találtunk ki.** A létrehozás utáni
