@@ -45,7 +45,7 @@ Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb �
 
 ## 3. H5P Course Presentation – slide-by-slide
 
-> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) a `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** — ha a teszt nem igazolja, a mező Moodle-oldalra kerül.
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) a `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** — ha a teszt nem igazolja, a mező Moodle-oldalra kerül.
 
 Összesen **6–7 slide**.
 Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
