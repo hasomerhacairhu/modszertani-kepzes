@@ -11,7 +11,7 @@ A két állapotot nem szabad összemosni. A staging célja éppen az, hogy a Moo
 
 | Gate | Követelmény | Állapot típusa | Bizonyíték |
 |---|---|---|---|
-| **G1 Gyermekvédelem** | HUM-SAFE-01–04 lezárva; M3 és kapcsolódó biztonsági tartalmak szakértői jóváhagyása | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Gyermekvédelem – release gate.md` |
+| **G1 Gyermekvédelem** | HUM-SAFE-01–05 lezárva; M3 és kapcsolódó biztonsági tartalmak szakértői jóváhagyása | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Gyermekvédelem – release gate.md` |
 | **G2 Adatvédelem és kiskorúak** | HUM-PRIV-01–04 lezárva, activity-szintű adatleltár, notice, hozzáférés, retention/törlés | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Adatvédelem – tanulói adatok és AI.md` |
 | **G3 Moodle/H5P célkörnyezet** | pontos verziók + kritikus runtime tesztek | `IMPLEMENTATION_REQUIRED` | `LMS – H5P runtime acceptance.md` |
 | **G4 Learner-facing nyitott mező = 0** | nincs `KITÖLTENDŐ`, ismeretlen kontakt, bizonytalan határidő vagy törött link a madrich által látható felületen | `IMPLEMENTATION_REQUIRED` | staging visszaaudit |
@@ -44,13 +44,14 @@ Miért ez a minimum:
 - M0 bizonyítja a kurzusnavigációt, H5P completiont, fórumot és a puha completion-logikát;
 - M1 hozzáadja az Assignmentet, rubrikát, javítás/újrabeadás folyamatot és az összetett mastery-feltételt;
 - együtt már tesztelhető a modulok közötti unlock, a mobil/a11y viselkedés és a `moodle-ai-mcp` build-visszaolvasás;
-- M3 safeguarding-kockázata és az M7 capstone összetettsége nélkül ad valódi technikai szeletet.
+- M3 gyermekvédelmi kockázata és az M7 összegző feladat összetettsége nélkül ad valódi technikai szeletet;
+- az első staging **nem vár narrációra, AI-videóra vagy arculati grafikára**; a média-fallbackeket a `Média-assetek/RELEASE-MEDIA-STATUS.md` rögzíti.
 
 **A pilot nem learner release.** A tesztelők szerkesztői/QA tesztfiókok.
 
 ## Program-transzfer
 
-- [ ] A félév végi `Peula v2` után működik a `Terepgyakorlat – 2. félév.md` szerinti hat valós, 60–90 perces peula + mentorfeedback ciklus.
+- [ ] A félév végi `Peula v2` után működik a `Terepgyakorlat – 2. félév.md` szerinti hat valós, 60–90 perces peula + mentori visszajelzési ciklus.
 - [ ] Learner pilot megtörtént kis csoporttal, a findingek javítva és újratesztelve.
 - [ ] A médiaregiszter a tartalmi freeze után újragenerálva és auditálva.
 
