@@ -59,7 +59,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Rövid menet:**
   * Hook: „Mi a feladatod madrichként?” – választható kiinduló célok (ismerkedés, érték-reflexió, készségfejlesztés, infóátadás).
   * Input: cél-áganként rövid magyarázat, hogyan néz ki a tanulás az adott célnál.
-  * Activity: kvuca-jellemzők és módszer-opciók közötti választás, azonnali visszajelzéskel a választás és a cél összhangjáról.
+  * Activity: kvuca-jellemzők és módszer-opciók közötti választás, azonnali visszajelzéssel a választás és a cél összhangjáról.
   * Check: összegző kérdések a helyes sorrendről és egy rövid mondatbefejezés („Ha a feladatom az, hogy…, akkor olyan módszert választok, ami…”).
 
 ### M5.3 – „Hogyan tanulunk tényleg?” – Gyakorlás, aktív felidézés, időben elosztott gyakorlás (15–20’)
@@ -98,7 +98,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   "mode": "external",
   "title": "Gallery walk reakció-eszközök (post-it / pötty-matrica)",
   "subtype": "consumable",
-  "purpose": "Strukturált peer-visszajelzés a gallery walk során, az átdolgozott peula-tervek értékeléséhez.",
+  "purpose": "Strukturált társas visszajelzés a galériaséta során, az átdolgozott peula-tervek értékeléséhez.",
   "spec": "Post-it lapok és pötty-/pont-matricák a poszter-sétához, hogy a résztvevők reakciókat hagyhassanak a csoportposztereken („Mitől lett someresebb? Mi maradt még sulis?”). Beszerzendő/előkészítendő készlet, nem egyedi grafika.",
   "provenance": "stock",
   "technical": {
@@ -129,7 +129,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * 0–5’ – Ráhangolódás: 1 „sulis” és 1 „someres” helyzet megosztása körben.
   * 5–10’ – 3 sarok játék: a tér három sarka – Suli / Somer / Random élet; helyzetkártyák besorolása, rövid indoklásokkal.
   * 10–30’ – Fő gyakorlat: kiscsoportos munka helyzetkártyákkal; besorolás után áttervezik, hogyan csinálnák meg nonformális someres peulának, poszteren **Feladat / Cél / Kvuca / Módszer** bontásban.
-  * 30–40’ – Megosztás **gallery walkkal (poszter-séta)**: minden csoport posztere egyszerre kikerül a „galériába”, a kvuca körbejár és post-it / pötty-reakciókat hagy, majd közös tanulságok: „Mitől lett someresebb? Mi maradt még sulis?”
+  * 30–40’ – Megosztás **galériasétakal (poszter-séta)**: minden csoport posztere egyszerre kikerül a „galériába”, a kvuca körbejár és post-it / pötty-reakciókat hagy, majd közös tanulságok: „Mitől lett someresebb? Mi maradt még sulis?”
   * 40–45’ – Zárókör: mondatbefejezés – „A következő peulán figyelni fogok arra, hogy…”.
 
 ### Peula B – M5.B: „Tervezek egy nonformális peula-részletet” – hogy tényleg tanuljunk is (45’)
@@ -167,7 +167,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 ## 6. Kapu – az M5.4 produktum az éles kapu, a kvíz diagnosztikus
 
-> **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktum-alapú értékelés. **Az éles (mastery) kapu az M5.4 táblázat rubrikás értékelése** (mint M1/M7), a **kvíz pedig formatív/diagnosztikus**.
+> **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktum-alapú értékelés. **Az éles teljesítési kapu az M5.4 táblázat rubrikás értékelése** (mint M1/M7), a **kvíz pedig formatív/diagnosztikus**.
 
 * **Éles kapu – M5.4 produktum (rubrika):**
   * Eszköz: **Moodle Assignment + rubrika**.
@@ -226,4 +226,4 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 [M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (felzárkóztató műhely)](./Peulák/M5.F%20–%20Felzárkóztató%20peula%20–%20Suli,%20Somer%20&%20tanulástan%20%28Study%20Lab%29.md)
 
-**[M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul mastery-értékelője: a **diagnosztikus** 12 itemes item-bank és az **éles kaput adó**, 4 soros megfigyelhető produktum-rubrika (R1–R4).
+**[M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul teljesítési értékelője: a **diagnosztikus** 12 itemes item-bank és az **éles kaput adó**, 4 soros megfigyelhető produktum-rubrika (R1–R4).
