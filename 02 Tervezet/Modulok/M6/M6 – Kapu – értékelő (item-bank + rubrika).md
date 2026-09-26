@@ -19,7 +19,7 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 
 | Komponens | LMS-eszköz | Szerep | Küszöb |
 |---|---|---|---|
-| **(B) Játéklap** *(ELSŐDLEGES ÉLES KAPU)* | **Moodle Assignment + rubrika**; a peer-feedback az M6.B élő workshop része | **éles, blokkoló** | **minden rubrika-sor legalább „Oké” (2) szint** + **hard-gate a Biztonság és az Inkluzivitás soron** |
+| **(B) Játéklap** *(ELSŐDLEGES ÉLES KAPU)* | **Moodle Assignment + rubrika**; a társas visszajelzés az M6.B élő műhely része | **éles, blokkoló** | **minden rubrika-sor legalább „Oké” (2) szint** + **blokkoló feltétel a Biztonság és az Inkluzivitás soron** |
 | **(A) Szcenárió-kvíz** | **Moodle Quiz** vagy **H5P Question Set** | **formatív / diagnosztikus** (nem blokkol) | **ajánlott ≥ 80%** (12 itemből legfeljebb 2 hiba) önellenőrzésként, korlátlan próbálkozással, randomizált item-sorrenddel |
 
 ### Kapu-filozófia – miért a játéklap az elsődleges kapu?
@@ -31,11 +31,11 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 ### Kapu-logika (kötelező)
 
 > A modul **akkor teljesített**, ha:
-> **(B) a játéklap MINDEN rubrika-sora eléri legalább az „Oké” (2) szintet**, és a **Biztonság** és **Inkluzivitás** sor a hard-gate-et teljesíti.
+> **(B) a játéklap MINDEN rubrika-sora eléri legalább az „Oké” (2) szintet**, és a **Biztonság** és **Inkluzivitás** sor blokkoló feltétele teljesül.
 >
 > A **(A) szcenárió-kvíz formatív**: erősen ajánlott a játéklap előtt megcsinálni (ez készít fel a biztonsági+inkluzív szempontokra), de **nem blokkoló feltétel** – egy gyenge játéklapot egy jó kvíz nem ír felül, és fordítva sem. A kvíz **diagnózisa** azonban kötelezően becsatornázódik: ha valaki a kvízen következetesen a **biztonsági vagy inkluzivitási** itemeknél hibázik, a játéklap leadása előtt **célzott ismétlés + mentori egyeztetés** ajánlott (lásd (D) Stáb-jelzések).
 >
-> **Hard-gate:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/stábbal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
+> **Blokkoló feltétel:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/stábbal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
 >
 > **Terhelés-őszinteség:** ez az átsúlyozás **nem növeli** a tanuló terhét – a kvíz ugyanaz az item-bank marad, csak **alacsonyabb a tét** (önellenőrzés, korlátlan próbálkozás, nem buktat). A blokkoló bizonyíték egyetlen produktumra (a játéklapra) koncentrálódik, így kevesebb a párhuzamos „éles” megmérettetés.
 
@@ -43,7 +43,7 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 
 A kapu-validitási szempont szerint: ha az itemszám alacsony (5–6), akkor 80% = 1 hiba mozgástere, ami véletlen-érzékeny. 12 itemnél a 80% küszöb = **max. 2 hiba (10/12)**, ami stabilabb visszajelzést ad arról, hol állsz. A **korlátlan próbálkozás** + **randomizált sorrend / kicserélhető item-pool** ajánlott, hogy a kvíz ne magolásra, hanem megértésre ösztönözzön.
 
-> **A 12-item-érv hatóköre (őszinte korlát):** a „max. 2 hiba stabil” állítás a **globális** összpontszámra igaz – a témánkénti (korosztály / biztonság / inkluzivitás / felkavaró tartalom) bontás itemszáma kicsi (3 / 3 / 3 / 2), ezért a **témánkénti jelzés irányadó, nem statisztikai bizonyíték**. A felkavaró tartalom pl. csak 2 itemen mér – egy elrontott item önmagában még nem „diagnózis”. Ezért az altéma-szintű hibázás a stábnak **figyelmeztető jel a beszélgetéshez**, nem ítélet; az **éles döntés** mindig a játéklap **R4/R5 hard-gate-jén** dől el, nem 2 kvíz-itemen.
+> **A 12-item-érv hatóköre (őszinte korlát):** a „max. 2 hiba stabil” állítás a **globális** összpontszámra igaz – a témánkénti (korosztály / biztonság / inkluzivitás / felkavaró tartalom) bontás itemszáma kicsi (3 / 3 / 3 / 2), ezért a **témánkénti jelzés irányadó, nem statisztikai bizonyíték**. A felkavaró tartalom pl. csak 2 itemen mér – egy elrontott item önmagában még nem „diagnózis”. Ezért az altéma-szintű hibázás a stábnak **figyelmeztető jel a beszélgetéshez**, nem ítélet; az **éles döntés** mindig a játéklap **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
 
 > **Megjegyzés a tétről:** mivel a kvíz itt **formatív/diagnosztikus** (nem blokkol), a ≥80% **önellenőrző cél**, nem buktató küszöb. A 80% szerepe így nem a kapuzás, hanem hogy **jelzést adjon** neked és a stábnak: ha rendre a biztonsági/inkluzivitási itemeknél hibázol, azt a játéklap előtt érdemes átnézni. Az **éles, blokkoló** mérés a játéklap-rubrika (B).
 
@@ -365,7 +365,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 > **Ha elérted a 80%-ot:** Szép munka! Látszik, hogy a **kvuca + cél + biztonság + inkluzivitás** szempontokat együtt látod. **Ez az önellenőrzés most jó alap** – jöhet a modul éles kapuja, a **játéklap**, ahol ezt egy saját eszközön kell megmutatnod.
 >
-> **Ha most kevesebb lett (nyugodtan újrapróbálható, nem buktat):** Semmi gond, **ez nem éles kapu, hanem felkészítő önellenőrzés**. Nézd vissza a témát, amelyikben többször hibáztál – főleg ha **biztonsági vagy inkluzivitási** itemnél, mert ezek a játéklap **hard-gate** sorai is:
+> **Ha most kevesebb lett (nyugodtan újrapróbálható, nem buktat):** Semmi gond, **ez nem éles kapu, hanem felkészítő önellenőrzés**. Nézd vissza a témát, amelyikben többször hibáztál – főleg ha **biztonsági vagy inkluzivitási** itemnél, mert ezek a játéklap **blokkoló** sorai is:
 > - korosztály-illesztés → **M6.1** és **M6.4**,
 > - biztonsági minimum → **M6.1** (bizalomjáték), **M6.4** és **M6.A**,
 > - inkluzív variáció → **M6.3** és **M6.4**,
@@ -373,24 +373,24 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
-# (B) RUBRIKA – Játéklap (Assignment + élő peer feedback)
+# (B) RUBRIKA – Játéklap (Assignment + élő társas visszajelzés)
 
-> **LMS-eszköz:** **Moodle Assignment + rubrika**. A társas visszajelzés az M6.B élő workshopon történik; a Moodle-ban a kapu eredményét a képző/mentor rögzíti.
+> **LMS-eszköz:** **Moodle Assignment + rubrika**. A társas visszajelzés az M6.B élő műhelyén történik; a Moodle-ban a kapu eredményét a képző/mentor rögzíti.
 > **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
 > **Szintezés:** 3 szint – **1 = Még nem (hiányos)**, **2 = Oké (átadható)**, **3 = Erős (mintaértékű)**.
-> **Átmenő küszöb:** minden sor **≥ 2 (Oké)**. A **Biztonság** és az **Inkluzivitás** sor **hard-gate**: ha bármelyik = 1, a játéklap **javításra megy**, függetlenül a többi sortól.
+> **Átmenő küszöb:** minden sor **≥ 2 (Oké)**. A **Biztonság** és az **Inkluzivitás** sor **blokkoló feltétel**: ha bármelyik = 1, a játéklap **javításra megy**, függetlenül a többi sortól.
 >
-> **Stáb-záró a hard-gate sorokon (kötelező):** a két hard-gate sor (**R4 Biztonság** és **R5 Inkluzivitás**) végső pontját **mindig a képző/mentor adja**, és a completion ehhez kötött. Az M6.B társas visszajelzése fejlesztő és kalibráló, de önmagában nem nyithatja meg a kaput.
+> **Stáb-záró a blokkoló sorokon (kötelező):** a két blokkoló sor (**R4 Biztonság** és **R5 Inkluzivitás**) végső pontját **mindig a képző/mentor adja**, és a completion ehhez kötött. Az M6.B társas visszajelzése fejlesztő és kalibráló, de önmagában nem nyithatja meg a kaput.
 >
-> A szintek **megfigyelhető szövegjegyekre** épülnek (mit lehet konkrétan elolvasni a lapon), nem „jó/rossz” érzésre – hogy a **peer és a stáb** kalibráltan, ugyanoda sorolja a határeseteket.
+> A szintek **megfigyelhető szövegjegyekre** épülnek (mit lehet konkrétan elolvasni a lapon), nem „jó/rossz” érzésre – hogy a **társak és a stáb** kalibráltan, ugyanoda sorolja a határeseteket.
 
 | # | Kritérium | 1 – Még nem | 2 – Oké (minimum átmenő) | 3 – Erős |
 |---|---|---|---|---|
 | **R1** | **Cél-illeszkedés** (mit tanít / mire való) | Nincs cél, vagy csak az eszköz neve szerepel („névkör”) cél nélkül. | A lapon **1 konkrét, kimondott cél** áll, ami az eszközhöz illik (pl. „biztonságosabban ismerkedjenek”, „észrevegyék a kirekesztést”). | A cél konkrét **és** kapcsolódik egy **someres értékhez** (pl. kvuca, egalitás, társadalmi felelősség), 1 mondatban kimondva, miért ezt tanítja. |
 | **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–10-re). | Megadva a **korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör 6–10, esetleírás+vita 16+). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
 | **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrich **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrich kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
-| **R4** | **BIZTONSÁG** *(hard-gate)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
-| **R5** | **INKLUZIVITÁS** *(hard-gate)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
+| **R4** | **BIZTONSÁG** *(blokkoló)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
+| **R5** | **INKLUZIVITÁS** *(blokkoló)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
 
 ### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (peer + stáb)
 
@@ -399,16 +399,16 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 - [ ] **R1** – pontosan **1** kimondott, az eszközhöz illő cél.
 - [ ] **R2** – korosztály-sáv (6–10 / 11–13 / 14–16 / 16+) **+** létszám, és az eszköz–kor páros nem ütközik a tanultakkal.
 - [ ] **R3** – legalább **3 lépés** menet **+** időkeret **+** eszközlista.
-- [ ] **R4** *(hard-gate)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
-- [ ] **R5** *(hard-gate)* – legalább **1** nevezett akadály **+ 1** konkrét alternatív belépési pont.
+- [ ] **R4** *(blokkoló)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
+- [ ] **R5** *(blokkoló)* – legalább **1** nevezett akadály **+ 1** konkrét alternatív belépési pont.
 
-> **Döntési szabály:** Ha bármelyik **hard-gate sor (R4 vagy R5)** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két hard-gate sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő peer-feedback önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz biztonsági/inkluzivitási diagnózisát a játéklap előtt érdemes orvosolni (lásd Kapu-logika és (D) Stáb-jelzések).
+> **Döntési szabály:** Ha bármelyik **blokkoló sor (R4 vagy R5)** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két hard-gate sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő társas visszajelzés önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz biztonsági/inkluzivitási diagnózisát a játéklap előtt érdemes orvosolni (lásd Kapu-logika és (D) Stáb-jelzések).
 
 ---
 
-## (C) Peer feedback keret (M6.B élő workshop, SBI-nyelven)
+## (C) Társas visszajelzési keret (M6.B élő műhely, SBI-nyelven)
 
-> A peula (M6.B) az **SBI-feedbacket** gyakoroltatja a játéklapra mint produktumra. Az élő peer-értékelésnél a társ **a rubrika mellé** adjon **1 SBI-megjegyzést**:
+> A peula (M6.B) az **SBI-visszajelzést** gyakoroltatja a játéklapra mint produktumra. Az élő társas értékelésnél a társ **a rubrika mellé** adjon **1 SBI-megjegyzést**:
 >
 > - **S (helyzet):** a lap **melyik részénél / melyik elemnél** nézted, amire reagálsz (a megfigyelés horgonya – ahogy az **M1**-ben: *mikor, hol, milyen helyzetben*; itt: a lapon hol),
 > - **B (konkrét elem):** melyik **konkrét** elemet emeled ki (pl. „külön sor az inkluzivitásnak”),
@@ -416,11 +416,11 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 >
 > **Példa:** *„Amikor a lapodon külön sort adtál annak, kinek lehet nehéz a feladat (S), és oda írtál egy konkrét alternatívát (B), attól egy másik madrich is bátrabban nyúl majd ehhez az eszközhöz (I).”*
 >
-> A peer feedback **fejlesztő, nem minősítő**: ha kritika merül fel, „mit lenne jó még hozzáadni” formában fogalmazzuk meg.
+> A társas visszajelzés **fejlesztő, nem minősítő**: ha kritika merül fel, „mit lenne jó még hozzáadni” formában fogalmazzuk meg.
 
 ---
 
 ## (D) Stáb-jelzések (learning analytics, a modul-leírás 7. szakasza alapján)
 
-- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online ismétlés + **M6.F** (felzárkóztató) ajánlása **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 3 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: az érdemi mastery-bizonyíték és a blokkoló döntés a játéklap **R4/R5 hard-gate-jén** dől el, nem 2 kvíz-itemen.
-- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → külön workshop „inkluzív játékok & kézművesek” témában + egyéni mentoros munka a kritikus esetekkel.
+- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online ismétlés + **M6.F** (felzárkóztató) ajánlása **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 3 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: az érdemi teljesítési bizonyíték és a blokkoló döntés a játéklap **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
+- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → külön műhely „inkluzív játékok és kézművesek” témában + egyéni mentoros munka a kritikus esetekkel.
