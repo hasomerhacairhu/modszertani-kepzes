@@ -51,6 +51,18 @@
 
 A konkrét helyi szabályt nem a tananyag találja ki. **Jóváhagyó:** szervezeti vezetés + gyermekvédelmi felelős. **Blokkol:** csak azokat a learner-facing példákat, amelyek konkrét helyi tiltást vagy korhatárt állítanak. **Implementáció:** a jóváhagyott policy-re hivatkozás, nem a szabály teljes lemásolása az M3.4-be.
 
+### HUM-SAFE-05 — Stáb-alkalmasság és safeguarding-induction
+
+| Mező | Tartalom |
+|---|---|
+| **Kérdés** | Milyen alkalmassági/vetting ellenőrzés és milyen dokumentált gyermekvédelmi felkészítés kell a programban dolgozó felnőtt képzőknek, mentoroknak és madrichoknak? |
+| **Miért szükséges** | A program kiskorúakkal dolgozik, de a repository nem nevezhet meg automatikusan egy konkrét hatósági ellenőrzést vagy dokumentumtípust minden szerepre. |
+| **Szakmai minimum** | a stáb ismeri a jóváhagyott gyermekvédelmi láncot, az összeférhetetlenségi utat, a disclosure-kezelést és a safer-working szabályt; a kiskorú madrich nem kap egyedüli felnőtt felelősséget. |
+| **Mit kell eldönteni** | szerepkörönként szükséges alkalmassági ellenőrzés; induction tartalma; nyilvántartás; megújítás/felülvizsgálat |
+| **Jóváhagyó** | szervezeti vezetés + gyermekvédelmi felelős, jogszabályi alkalmassági kérdésnél jogi szakértő |
+| **Blokkol** | valódi résztvevőkkel futó program indítása, nem a zárt Moodle-staging |
+| **Implementáció** | stáb-checklist, jóváhagyási bizonyíték és induction-nyilvántartás; a tananyag csak a jóváhagyott eljárásra hivatkozik. |
+
 ---
 
 ## 2. Adatvédelem
