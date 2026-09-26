@@ -275,7 +275,7 @@ A kapu **hivatalos, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
    * „Mennyire érzed, hogy tudnál SBI-t használni a való életben? (1–5)”
    * „Mi az, ami még zavaros?”
 5. **Program-szintű mutatók (M1-re fókuszálva)**
-   – M1 mastery arány (hányan teljesítik az Assignment-kaput első / második próbálkozásra);
+   – M1 teljesítési arány (hányan teljesítik az Assignment-kaput első / második próbálkozásra);
    – M1-nél jelentkező „kiesési pontok”: ahol sok a félbehagyott lecke vagy hiányzó Assignment – ezekre a következő évben extra támogatást (pl. több példa, rövidebb videók, gyakorló peula-elemek) érdemes tervezni.
 
 ***
@@ -294,4 +294,4 @@ A kapu **hivatalos, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 
 [M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)](./Peulák/M1.F%20–%20Felzárkóztató%20peula%20–%20Johari,%20megfigyelés%20és%20SBI%20egyben%20%2845’%29.md)
 
-**[M1 – KAPU – értékelő (item-bank + rubrika)](./M1%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles (mastery) kapuja**: a hivatalos 4 soros SBI-rubrika, a küszöb és a kísérő item-bank.
+**[M1 – KAPU – értékelő (item-bank + rubrika)](./M1%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles teljesítési kapuja**: a hivatalos 4 soros SBI-rubrika, a küszöb és a kísérő item-bank.
