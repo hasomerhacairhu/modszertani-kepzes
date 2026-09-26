@@ -22,7 +22,7 @@
 
 **Súlyozás:** a kapu konstruktumának gerince a **Peula v2 rubrika** (domináns súly). A kvíz „fogalmi belépő” – a tudásalap meglétét igazolja, de önmagában nem méri a produktív készséget.
 
-**Javítási útvonal (mindkét részre):** rövid, konkrét **SBI-visszajelzés** (max. 3 pont) → javított Peula v2 / kvíz-újrapróba → tartós nehézségnél **mentoros peula-klinika** (M7.B-mintára). A hangnem támogató, nem büntető.
+**Javítási útvonal (mindkét részre):** rövid, konkrét **konkrét fejlesztő visszajelzés** (max. 3 pont) → javított Peula v2 / kvíz-újrapróba → tartós nehézségnél **mentoros peula-klinika** (M7.B-mintára). A hangnem támogató, nem büntető.
 
 **Mi NEM ez a kapu:** az M7.4 Assignment („Peula v1 – első vázlat”) **formatív**, 0/1 completion – az NEM ez a kapu. Ez a fájl a **félévzáró, éles** produktumot értékeli, amely a v1 vázlatra épül.
 
@@ -89,18 +89,18 @@
 
 ### Blokk 2 – Peula 11 pontja (Q4–Q6)
 
-> Referencia (master-lista): **Előkészítés** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél / SMART) · **Megírás** (5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista) · **Utómunka & biztonság** (9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió – Peula v2).
+> Referencia (master-lista): **Előkészítés** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél / SMART) · **Megírás** (5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista) · **Biztonság & továbbfejlesztés** (9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió & továbbfejlesztés).
 
 #### Q4 — A 11 pont három fázisa (Single Choice)
 
 **A Peula 11 pontja három fázisra bomlik. Melyik a helyes sorrend?**
 
-- A) Megírás → Előkészítés → Utómunka & biztonság
-- B) Előkészítés → Megírás → Utómunka & biztonság ✅
-- C) Előkészítés → Utómunka & biztonság → Megírás
+- A) Megírás → Előkészítés → Biztonság & továbbfejlesztés
+- B) Előkészítés → Megírás → Biztonság & továbbfejlesztés ✅
+- C) Előkészítés → Biztonság & továbbfejlesztés → Megírás
 - D) Élmény-blokk → Feldolgozás → Zárás
 
-**Visszajelzés:** Először **előkészítesz** (téma, háttér, kvuca/idő/hely, SMART cél), aztán **megírod** (módszerek, felépítés, realitás-check, kellék), végül jön az **utómunka & biztonság** (gyermekvédelem, feedback, utóreflexió → Peula v2). A D egy peula belső felépítése (6. pont), nem a 11 pont fázisai. (M7.2)
+**Visszajelzés:** Először **előkészítesz** (téma, háttér, kvuca/idő/hely, SMART cél), aztán **megírod** (módszerek, felépítés, realitás-check, kellék), végül jön a **biztonság & továbbfejlesztés**: gyermekvédelem, visszajelzés és finomhangolás, majd a megtartás utáni utóreflexió és továbbfejlesztés. A D egy peula belső felépítése (6. pont), nem a 11 pont fázisai. (M7.2)
 
 #### Q5 — Melyik pont hiányzik a vázból? (Single Choice)
 
@@ -115,14 +115,14 @@
 
 #### Q6 — Pont → fázis hozzárendelés (Single Choice)
 
-**Melyik pont tartozik az „Utómunka & biztonság” fázisba?**
+**Melyik pont tartozik a „Biztonság & továbbfejlesztés” fázisba?**
 
 - A) Realitás-check (idő, korosztály, létszám)
 - B) Módszerek & élmény-blokk
-- C) Utóreflexió – Peula v2 ✅
+- C) Utóreflexió & továbbfejlesztés ✅
 - D) Kvuca + idő + helyszín
 
-**Visszajelzés:** Az **Utóreflexió – Peula v2** (11. pont) a peula UTÁN történik: leírod, mi működött, mi nem – ebből lesz a javított verzió. A Realitás-check és a Módszerek a Megírás fázisé, a Kvuca/idő/hely az Előkészítésé. (M7.2)
+**Visszajelzés:** Az **Utóreflexió & továbbfejlesztés** (11. pont) a peula **megtartása után** történik: leírod, mi működött, mi nem, és mit változtatnál legközelebb. Ez nem a félévzáró `Peula v2` neve: a v2 már a megtartás előtti, véglegesített terv. A Realitás-check és a Módszerek a Megírás fázisé, a Kvuca/idő/hely az Előkészítésé. (M7.2)
 
 ***
 
@@ -286,8 +286,8 @@
 | --- | --- |
 | **0** | A leadás lényegében csak egy játékötlet; a 11 pont fázisai nem azonosíthatók. |
 | **1** | 1–2 fázis felismerhető (pl. csak az Élmény-blokk), de **hiányzik a feldolgozás vagy a zárás**, az ív töredékes. |
-| **2** | A 3 fázis (Előkészítés / Megírás / Utómunka) **felismerhetően jelen van**, és a 3–4 részletezett pont között ott a **bevezetés–élmény–feldolgozás–zárás** ív. |
-| **3** | A 3–4 kidolgozott pont **koherensen egymásra épül** (cél → módszer → feldolgozás → zárás → utóreflexió), és látszik a tudatos **realitás-check** (idő-arányok kiosztva). Az **utóreflexió (11. pont) SBI-szerkezetben** fogalmaz (konkrét **helyzet → viselkedés → hatás** – mi történt, mit tettem/tettünk, mi lett a hatása), nem általános „jól sikerült” összegzés. |
+| **2** | A 3 fázis (Előkészítés / Megírás / Biztonság & továbbfejlesztés) **felismerhetően jelen van**, és a 3–4 részletezett pont között ott a **bevezetés–élmény–feldolgozás–zárás** ív. |
+| **3** | A 3–4 kidolgozott pont **koherensen egymásra épül** (cél → módszer → feldolgozás → zárás), és látszik a tudatos **realitás-check** (időarányok kiosztva). A **11. pontnál előre megírt utóreflexiós terv** szerepel: mit fog a madrich a megtartás után konkrétan megfigyelni, miből látja majd a hatást, és milyen szempont alapján dönt a következő változtatásról. Nem ír kitalált múlt idejű reflexiót egy még meg nem tartott peuláról. |
 
 ***
 
@@ -355,7 +355,7 @@
 * **Max pont:** 24. **Küszöb (zárt ÉS-logika):** **Megfelelt = (összpont ≥17 pont, ≈70%) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló).** A kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**.
 * **Blokkoló:** R4 < 2 → **bukás**, függetlenül mindentől (a pontszámtól és a többi sortól is).
 * **Bukás akkor is**, ha bármely kritikus sor (R1, R5, R6) < 2 – **akkor is, ha az összpont ≥17**.
-* **Bukás:** SBI-visszajelzés (max 3 pont, a leggyengébb sorokra) → javított Peula v2 → szükség esetén mentoros peula-klinika.
+* **Bukás:** rövid, konkrét fejlesztő visszajelzés (max. 3 pontban a leggyengébb sorokról) → javított Peula v2 → szükség esetén mentoros peula-műhely.
 
 ***
 
@@ -383,14 +383,14 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 
 | Korábbi produktum | Hol jelenik meg a Peula v2-ben | Melyik rubrikasor jutalmazza |
 | --- | --- | --- |
-| **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A produktum **utóreflexiója (11. pont)** és a **javítási útvonal visszajelzése** SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő társas visszajelzés maga a peula-tervezés szempontjaira épül (SMART-cél: „hol érzem SMART-nak / mit kérdeznék még?”, illetve a Zmán Kvucá „előtte–utána”), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni. | **R3 (utóreflexió)** – a „3” szint az utóreflexió **SBI-szerkezetét** (helyzet–viselkedés–hatás) konkrét, megfigyelhető jegyként pontozza; + a képzői javító visszajelzés protokolljának SBI-formátuma |
+| **M1 – megfigyelés, értelmezés, konkrét fejlesztő visszajelzés** | Az M7.A/M7.B műhelyben a társas visszajelzés konkrétumokra épül, nem címkékre. A 11. pont utóreflexiós terve ugyanezt a fegyelmet viszi tovább: a megtartás után előbb azt rögzíted, **mi történt és mit figyeltél meg**, csak utána értelmezed a hatását és döntesz a változtatásról. | **R3 – Peula 11 pont struktúra**: a „3” szint konkrét, előre megírt utóreflexiós tervet kér; a javítási folyamat visszajelzése is konkrét, megfigyelhető elemekre épül. |
 | **M2 – identitás / érték** (identitás-jegyzet, dugma ishit; a kiemelt someres érték) | A SMART nevelési cél a madrich saját someres értékéhez / dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd (R – Releváns). | **R1 – SMART cél** („someres értékhez kötött” jegy), R2 (kvuca-illeszkedés indoklása) |
 | **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá biztonsági része a korábban tanult gyermekvédelmi keretre támaszkodik: ha egy chanich tár fel valamit, az red flag → meghallgatod (nem ígérsz titoktartást, nem nyomozol) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály) – **értékelt, de NEM kritikus küszöb-sor** (a kapu kritikus sorai: R1, R4, R5, R6); a korosztály-illeszkedés a pontszámba számít, de önmagában nem blokkol · **R4 – Gyermekvédelem & biztonság** (kritikus + blokkoló) |
-| **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch) | A peula **feldolgozó kérdései** és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek; az élő társas visszajelzés megfogalmazása is erre épül. | R3 (élmény-/feldolgozó-blokk), feedback-megfogalmazás |
+| **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, rövid peulabemutató) | A peula **feldolgozó kérdései** és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek; az élő társas visszajelzés megfogalmazása is erre épül. | R3 (élmény-/feldolgozó-blokk), visszajelzés megfogalmazása |
 | **M5 – módszer-logika** („Feladat–kvuca–módszer + tanulástan” táblázat) | A cél ↔ módszer ↔ kvuca illesztés tudatos indoklása. | **R6 – Módszer-illeszkedés** (a „3” szinten explicit M5-hivatkozás) |
 | **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) | A peula konkrét élmény-blokkja egy M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők továbbélnek. | R3 (élmény-blokk), **R5 (inkluzivitás)**, **R4 (gyermekvédelem & biztonság)** |
 
-> **Üzenet a tanulónak (a feladat-briefbe is beilleszthető):** „A Peula v2-d nem nulláról indul. Hozd be az M1-ből az SBI-nyelvet a visszajelzéshez, az M2-ből a saját someres értékedet (ez lesz a SMART cél R – Releváns eleme), az M3-ból a kvuca-profilt és a biztonsági-keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot – itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani.”
+> **Üzenet a tanulónak (a feladat-briefbe is beilleszthető):** „A Peula v2-d nem nulláról indul. Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját someres értékedet (ez lesz a SMART cél R – Releváns eleme), az M3-ból a kvuca-profilt és a biztonsági-keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot – itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani.”
 
 ***
 
