@@ -129,7 +129,7 @@ A modul végére a résztvevő…
 * **Tartalom röviden:**
   3 rövid szituáció (peula, kvuca, madrich-gyűlés) közül választ;
   instrukció: írjon 1 (max. 2) SBI-t (S – mikor/hol; B – mit csinált a másik; I – hogyan hatott rá / a csoportra);
-  beadás: legalább 1 SBI kötelező, ez lesz az éles (mastery) kapu alapja.
+  beadás: legalább 1 SBI kötelező, ez lesz az éles teljesítési kapu alapja.
 
 ***
 
