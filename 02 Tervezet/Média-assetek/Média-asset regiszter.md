@@ -828,8 +828,8 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M7-HUB-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Modul-fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2 | — | alt-szöveg | AI-generált |
-| `M7-HUB-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Kétkapus capstone idővonal: v1 first-draft gate → spacing → v2 mastery-kapu | — | alt-szöveg | AI-generált |
-| `M7-HUB-DIA-03` | diagram | legyártandó | produkciós szabályra vár | Portfólió-átkötés / capstone-konvergencia: M1 SBI … M6 játéklap → 1 Peula v2 | — | alt-szöveg | AI-generált |
+| `M7-HUB-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu | — | alt-szöveg | AI-generált |
+| `M7-HUB-DIA-03` | diagram | legyártandó | produkciós szabályra vár | Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2 | — | alt-szöveg | AI-generált |
 | `M7-HUB-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | 1 perces exit-ticket munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés) | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md
@@ -900,7 +900,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői felolvasó-kulcs a sarok-játékhoz (besorolás + indok) | — | nyomtatható PDF | emberi |
 | `M7.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | „Peula 11 pontja” flipchart / poszter – kanonikus pont-lista | — | nyomtatható PDF | emberi |
 | `M7.A-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Tábla / flipchart-sablon – kulcsszavak és SMART irányító-kérdések | — | nyomtatható PDF | emberi |
-| `M7.A-POSZ-03` | poster | legyártandó | produkciós szabályra vár | Peer feedback – két mondatkezdő tábla / flipchart-sablon | — | nyomtatható PDF | emberi |
+| `M7.A-POSZ-03` | poster | legyártandó | produkciós szabályra vár | Társas visszajelzés – két mondatkezdő tábla / flipchart-sablon | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md
 

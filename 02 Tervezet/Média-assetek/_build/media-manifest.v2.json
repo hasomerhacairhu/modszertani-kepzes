@@ -22173,12 +22173,12 @@
       "mode": "reuse",
       "status": "spec-ready",
       "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
-      "purpose": "Ez a modul központi, kapuzott produktuma (éles mastery-gate, §6.2). A sablon vezeti a madrichot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság hard-gate, R5 Inkluzivitás hard-gate, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és peer/mentor által értékelhető legyen, és továbbvihető az M7 capstone-ba.",
+      "purpose": "Ez a modul központi, kapuzott produktuma (éles mastery-gate, §6.2). A sablon vezeti a madrichot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és peer/mentor által értékelhető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
       "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / consent / trigger / időkeret / felelősségek), (6) Inkluzivitás: legalább 1 nevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment/Workshop feltöltéshez, kitölthető PDF vagy Google/Word sablon); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézzel kitöltéshez."
+        "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment-feltöltéshez, kitölthető PDF vagy Google/Word sablon); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézzel kitöltéshez."
       },
       "a11y": {
         "note": "Akadálymentes nyomtatott/digitális űrlap: logikus olvasási sorrend, valódi szöveg (nem képbe ágyazott), kitölthető PDF-nél címkézett űrlapmezők (tab-sorrend, képernyőolvasó-kompatibilis mezőnevek); elegendő kontraszt; egyszerű, sallangmentes magyar instrukciós szöveg minden rovatnál."
@@ -22203,7 +22203,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6a7ca02464923ddcbc28fe026945dafa7708cf120ca1dded75fc468fdf1665e9",
+      "spec_hash": "661b4fb331fd6b5a31503b895f03fdd59991f10ad0daf65f7a6235fae1ea6681",
       "deliverable_ids": [],
       "legacy": {
         "asset": [
@@ -25489,7 +25489,7 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Játéklap-sablon (üres kitölthető munkalap)",
-      "purpose": "A peula fő kimenete: minden résztvevő ezen készíti el az első használható játéklap-vázlatát, ami később Moodle-be feltölthető (M6 Assignment / Workshop).",
+      "purpose": "A peula fő kimenete: minden résztvevő ezen készíti el az első használható játéklap-vázlatát, ami később Moodle-be feltölthető (M6 Assignment).",
       "spec": "Egyoldalas, kézzel kitölthető A4 munkalap a résztvevők saját eszközének megtervezéséhez. Kötelező mezők, mindegyikhez elég írásterület: Cím; Eszköz típusa (játék / történet / kézműves, bekarikázható); Cél (mit tanít / mire használom?); Kvuca(k) (korosztály, létszám, hangulat); Időkeret, tér, eszközök; Menet / leírás röviden; Biztonsági szempontok; Inkluzivitás (kire kell külön figyelni, variációk); Variációk (könnyített / nehezített / alternatív használat). Fejenként 1–2 példányban nyomtatva, tartalékkal.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -25526,7 +25526,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3f85851b7141ffb4450d884c80ad368953d7934586c82194cb816c232b97912c",
+      "spec_hash": "31e3b5af8753ef9f57570f1953d23087faf4f4ea4d7f4899f1f17e5f37777528",
       "deliverable_ids": [
         "M6.B-MUNK-01",
         "M6.B-MUNK-01::PRINTPDF",
@@ -25550,8 +25550,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Rubrika / minimum-checklista (értékelő lap)",
-      "purpose": "Közös minőségi nyelvet ad: tisztázza, mi a „minimum oké” egy játéklapnál, és előkészíti a Moodle Workshop rubrika-alapú peer-értékelést.",
-      "spec": "Egyszerű, 4–6 soros értékelő rubrika kinyomtatva (vagy flipchartra felírható sablonként). Sorok: Cél – Kvuca – Leírás – Biztonság – Inkluzivitás – Variációk; minden ponthoz 2–3 bullet a „minimum oké” szint leírásával. A 4.2 Lépés 2 háromfokú skálát ad (alap / oké / erős): Cél egyértelmű; Kvuca leírása (csak kor / hangulat+létszám is); Biztonság & inkluzivitás (semmi / pár jelzés / konkrét szabályok+variációk); Variációk (nincs / 1 ötlet / több jól átgondolt variáció). Ugyanez a rubrika köszön vissza a Moodle Workshop peer-értékelésnél.",
+      "purpose": "Közös minőségi nyelvet ad: tisztázza, mi a „minimum oké” egy játéklapnál, és előkészíti a M6.B élő, rubrika-alapú társas értékelését.",
+      "spec": "Egyszerű, 4–6 soros értékelő rubrika kinyomtatva (vagy flipchartra felírható sablonként). Sorok: Cél – Kvuca – Leírás – Biztonság – Inkluzivitás – Variációk; minden ponthoz 2–3 bullet a „minimum oké” szint leírásával. A 4.2 Lépés 2 háromfokú skálát ad (alap / oké / erős): Cél egyértelmű; Kvuca leírása (csak kor / hangulat+létszám is); Biztonság & inkluzivitás (semmi / pár jelzés / konkrét szabályok+variációk); Variációk (nincs / 1 ötlet / több jól átgondolt variáció). Ugyanez a rubrika köszön vissza a M6.B társas értékelésénél.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -25586,7 +25586,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6a1aee8e88b7204be24972a1717730e611ca0c41c58a90848d8bf86513f81f85",
+      "spec_hash": "712809831d365b411f4c8b3a1ef5d0ec02504464c09d70e4b7ca49465523344d",
       "deliverable_ids": [
         "M6.B-MUNK-02",
         "M6.B-MUNK-02::PRINTPDF"
@@ -25845,7 +25845,7 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "SBI flipchart-sablon (S–B–I emlékeztető + kész minta-mondat)",
-      "purpose": "Vizuális keret a peer feedback gyakorlásához; konkrét igazodási pont, hogy a résztvevők SBI-nyelven és csak a megerősítő ágon adjanak visszajelzést a játéklapokra.",
+      "purpose": "Vizuális keret a társas visszajelzés gyakorlásához; konkrét igazodási pont, hogy a résztvevők SBI-nyelven és csak a megerősítő ágon adjanak visszajelzést a játéklapokra.",
       "spec": "Flipchartra/táblára felírható vagy A3/A4-en kinyomtatható SBI-emlékeztető poszter: S (Situation) – helyzet; B (Behavior) – itt a játéklap egy konkrét eleme; I (Impact) – hatás. Tartalmazza a kész, kitöltött SBI-mintamondatot egy játéklapra (S: „Amikor elképzeltem, hogy egy 6–10-es kvucával ezt a játékot vinném…”; B: „…feltűnt, hogy a biztonság sorba külön odaírtad: ‘nem kötelező felállni, ülve maradni is rendben van’.”; I: „…ettől úgy érzem, egy szorongósabb gyereknek is lenne benne biztonságos opciója…”). Jelzi, hogy ez analógia (a B itt produktum-elem, nem viselkedés).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -25881,7 +25881,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "183301aedcccfdfe5e876c5a5a8dce4f31e3eda86fa3465cdee21f5ab8acd5cc",
+      "spec_hash": "def25aaaa61805378e2fa2c4f6d1e511b32bca4af1750c802fd7a5d3f93f7703",
       "deliverable_ids": [
         "M6.B-POSZ-01",
         "M6.B-POSZ-01::PRINTPDF"
@@ -26037,7 +26037,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (workshop / modul-produktum / offline B-terv) eltér, de a média egy darab. A Moodle-ben befejezett játéklap (Assignment/Workshop, line 51, 306) papír-megfelelője. A „kinek lehet nehéz” sor a Blokk 3 összekötésekből ered (line 277).",
+      "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (élő workshop / modulproduktum / offline B-terv) eltér, de a média egy darab. A Moodle-ben befejezett játéklap (Assignment, line 51, 306) papír-megfelelője. A „kinek lehet nehéz” sor a Blokk 3 összekötésekből ered (line 277).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -26373,9 +26373,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Kétkapus capstone idővonal: v1 first-draft gate → spacing → v2 mastery-kapu",
-      "purpose": "Vizuálisan érthetővé teszi a spacing-alapú, két menetben érő capstone-logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
-      "spec": "Idővonal/folyamatábra a félévzáró capstone két kapujáról, időben szétterítve (spacing): (1) v1 – first-draft gate az M7 hét 1 végén, M7.A után (formatív, alacsony tét, rubrika-előnézet, NEM buktat, újrapróbálható, M7.4 Assignment); (2) ~1 hét spacing-köz, csiszolás az M7.B peula-klinikán és otthon; (3) v2 – mastery-kapu az M7 hét 2 végén, M7.B után (éles kapu: rubrika + kvíz). Jelölje a két nyitott döntés határidő-helyet.",
+      "title": "Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu",
+      "purpose": "Vizuálisan érthetővé teszi a időben elosztott, két menetben érő félévzáró logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
+      "spec": "Idővonal/folyamatábra a félévzáró feladat két lépcsőjéről, időben szétterítve: (1) v1 – elsővázlat-ellenőrzési pont az M7 hét 1 végén, M7.A után (formatív, alacsony tét, rubrika-előnézet, NEM buktat, újrapróbálható, M7.4 Assignment); (2) ~1 hét köztes fejlesztési idő, csiszolás az M7.B peula-klinikán és otthon; (3) v2 – teljesítési kapu az M7 hét 2 végén, M7.B után (éles kapu: rubrika + kvíz). Jelölje a két nyitott döntés határidő-helyet.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26413,7 +26413,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a70b992f21849f055524e11b647a751efe34cffb42010e35b3686e9466a31e36",
+      "spec_hash": "f4368223becad67f8b93ac8caa226f117bb01d6aa6100260006b89df6494a992",
       "deliverable_ids": [
         "M7-HUB-DIA-02",
         "M7-HUB-DIA-02::ALTTEXT"
@@ -26438,9 +26438,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Portfólió-átkötés / capstone-konvergencia: M1 SBI … M6 játéklap → 1 Peula v2",
-      "purpose": "Vizuálisan üzeni, hogy a capstone nem nulláról indul, hanem a portfólió korábbi produktumait köti egybe; megerősíti a line 222 üzenetét a madrichnak.",
-      "spec": "Konvergencia-/tölcsérdiagram, amely megmutatja, hogy a hat korábbi modul kész produktuma hogyan táplálja az egyetlen Peula v2-t: M1 SBI-nyelv (utóreflexió, javító feedback), M2 saját érték / dugma ishit (SMART cél kötése), M3 gyermekvédelem + kvuca-profil (Zmán Kvucá-safety), M4 kérdezéstechnika (élmény-/feldolgozó-blokk, visszatükrözés), M5 módszer-logika (cél↔módszer↔kvuca), M6 játéklap (élmény-blokk, safety/inkluzivitás). Hat bemenet → egy vállalható Peula v2.",
+      "title": "Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2",
+      "purpose": "Vizuálisan üzeni, hogy a félévzáró feladat nem nulláról indul, hanem a portfólió korábbi produktumait köti egybe; megerősíti a line 222 üzenetét a madrichnak.",
+      "spec": "Konvergencia-/tölcsérdiagram, amely megmutatja, hogy a hat korábbi modul kész produktuma hogyan táplálja az egyetlen Peula v2-t: M1 SBI-nyelv (utóreflexió, javító visszajelzés), M2 saját érték / dugma ishit (SMART cél kötése), M3 gyermekvédelem + kvuca-profil (Zmán Kvucá-biztonság), M4 kérdezéstechnika (élmény-/feldolgozó-blokk, visszatükrözés), M5 módszer-logika (cél↔módszer↔kvuca), M6 játéklap (élmény-blokk, biztonság/inkluzivitás). Hat bemenet → egy vállalható Peula v2.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26466,7 +26466,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A részletes capstone-átkötés-tábla az „M7 – KAPU\" §CAPSTONE-ban él (line 213, 222); ez a hub-ábra annak vizuális, ezen a fájlon belül is használt összefoglalója.",
+      "notes": "A részletes capstone-átkötés-tábla az „M7 – KAPU\" §PORTFÓLIÓ-ÁTKÖTÉS-ban él (line 213, 222); ez a hub-ábra annak vizuális, ezen a fájlon belül is használt összefoglalója.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -26478,7 +26478,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3430f350076c54ccd876d93f30e2f88a8a109efcd01c29615687db36e3cd7f38",
+      "spec_hash": "0e948fba7c8de248be7ab65846b0eb6e026011b1bd776c87f210ff0ca7f9eea7",
       "deliverable_ids": [
         "M7-HUB-DIA-03",
         "M7-HUB-DIA-03::ALTTEXT"
@@ -28841,9 +28841,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Peer feedback – két mondatkezdő tábla / flipchart-sablon",
-      "purpose": "Strukturált, támogató peer feedback kerete – hogy a visszajelzés ne csússzon át peula-szétszedésbe.",
-      "spec": "Táblára / flipchartra kiírt két ítélkezés-mentes mondatkezdő, amelyre minden visszajelzés épül: „Hol érzem SMART-nak?” és „Mit kérdeznék még (biztos), ami kimaradt?”. Ugyanezt a két mondatkezdőt használják a mini-prezentációk peer feedbackjénél (217–221) és a galéria-séta post-it-reagálásánál (234–238).",
+      "title": "Társas visszajelzés – két mondatkezdő tábla / flipchart-sablon",
+      "purpose": "Strukturált, támogató társas visszajelzés kerete – hogy a visszajelzés ne csússzon át peula-szétszedésbe.",
+      "spec": "Táblára / flipchartra kiírt két ítélkezés-mentes mondatkezdő, amelyre minden visszajelzés épül: „Hol érzem SMART-nak?” és „Mit kérdeznék még (biztos), ami kimaradt?”. Ugyanezt a két mondatkezdőt használják a mini-prezentációk társas visszajelzésjénél (217–221) és a galéria-séta post-it-reagálásánál (234–238).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -28866,7 +28866,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Mindkét blokk-4 formátum (mini-prezentáció és galéria-séta) ugyanezt a két mondatkezdőt használja – egyetlen sablon szolgálja ki mindkettőt. A galéria-séta a Greenaway-féle 4F (Facts–Feelings–Findings–Future) reflexiós ívére épül (245. sor); a 4F nem külön nyomtatott asset, hanem ennek a feedback-keretnek a háttér-rationáléja.",
+      "notes": "Mindkét blokk-4 formátum (mini-prezentáció és galéria-séta) ugyanezt a két mondatkezdőt használja – egyetlen sablon szolgálja ki mindkettőt. A galéria-séta a Greenaway-féle 4F (Facts–Feelings–Findings–Future) reflexiós ívére épül (245. sor); a 4F nem külön nyomtatott asset, hanem ennek a visszajelzési keretnek a háttér-rationáléja.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -28878,7 +28878,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f86aba4aba5e5bcc9af78dd098c213c6a3ebce5a123dd3fb3dcad4ee92c20f09",
+      "spec_hash": "988495f67a6d16e85dc24b1bde57f55c84e203f960f7fb2adf6b52149340727f",
       "deliverable_ids": [
         "M7.A-POSZ-03",
         "M7.A-POSZ-03::PRINTPDF"
@@ -47973,7 +47973,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
       "file_kind": "hub",
-      "title": "Kétkapus capstone idővonal: v1 first-draft gate → spacing → v2 mastery-kapu",
+      "title": "Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -47996,7 +47996,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
       "file_kind": "hub",
-      "title": "Kétkapus capstone idővonal: v1 first-draft gate → spacing → v2 mastery-kapu — alt-szöveg",
+      "title": "Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -48019,7 +48019,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
       "file_kind": "hub",
-      "title": "Portfólió-átkötés / capstone-konvergencia: M1 SBI … M6 játéklap → 1 Peula v2",
+      "title": "Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -48042,7 +48042,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
       "file_kind": "hub",
-      "title": "Portfólió-átkötés / capstone-konvergencia: M1 SBI … M6 játéklap → 1 Peula v2 — alt-szöveg",
+      "title": "Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2 — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -50055,7 +50055,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "Peer feedback – két mondatkezdő tábla / flipchart-sablon",
+      "title": "Társas visszajelzés – két mondatkezdő tábla / flipchart-sablon",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "human",
@@ -50078,7 +50078,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "Peer feedback – két mondatkezdő tábla / flipchart-sablon — nyomtatható PDF",
+      "title": "Társas visszajelzés – két mondatkezdő tábla / flipchart-sablon — nyomtatható PDF",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "human",
