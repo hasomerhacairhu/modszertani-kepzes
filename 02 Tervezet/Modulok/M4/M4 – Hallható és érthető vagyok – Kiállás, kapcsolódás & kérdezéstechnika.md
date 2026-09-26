@@ -97,7 +97,7 @@ A modul végére a résztvevő…
 
 * **Kapcsolódó online leckék:** M4.2, M4.3, M4.4 (hallgatás – kérdések – pitch).
 * **Fő fókusz:** a különböző kérdéstípusok **élő kipróbálása** (nyitott, zárt, tisztázó, irányító) és a saját 45 mp-es peula-pitch hangos gyakorlása kiscsoportban.
-* **Modulbeli szerepe:** az M4.3–M4.4 tartalmak alkalmazása kvuca-helyzetben: kérdések hatásának megtapasztalása, pitch gyakorlása + rövid peer feedback; a modul végére 2 mondatos személyes fókusz megfogalmazása (melyik kérdéstípust használja tudatosan többet, melyik mondatot tartja meg a pitchből).
+* **Modulbeli szerepe:** az M4.3–M4.4 tartalmak alkalmazása kvuca-helyzetben: kérdések hatásának megtapasztalása, pitch gyakorlása + rövid társas visszajelzés; a modul végére 2 mondatos személyes fókusz megfogalmazása (melyik kérdéstípust használja tudatosan többet, melyik mondatot tartja meg a pitchből).
 
 ***
 
@@ -117,7 +117,7 @@ A modul végére a résztvevő…
 
 ## 6. Kapuk
 
-**Kaputípus:** puha kapu (soft gate) – az önreflexió és a készségek tudatosítása a fő cél, nem „kizárás”. **Az M4 a puha kapuk sablonját követi (formáló jelzés a mentornak / stábnak, nem kizárás), összhangban a Program terv §3.1 mátrixával és §5-ével, ahol az M4 a puha kapuk közé sorolódik.**
+**Kaputípus:** puha kapu – az önreflexió és a készségek tudatosítása a fő cél, nem „kizárás”. **Az M4 a puha kapuk sablonját követi (formáló jelzés a mentornak / stábnak, nem kizárás), összhangban a Program terv §3.1 mátrixával és §5-ével, ahol az M4 a puha kapuk közé sorolódik.**
 
 **Javasolt modul-kapuk:**
 
@@ -133,7 +133,7 @@ A modul végére a résztvevő…
      * **Alapszint / rendben (= küszöb):** **mind az 5 elem megnevezve és értelmezhető, de általánosabb, nincs kifejezetten erre a kvucára szabva.**
      * **Még nem éri el:** **legalább egy elem hiányzik vagy nem értelmezhető (pl. nincs megnevezve a kvuca, vagy nincs „mit vigyenek haza”).**
    * **Küszöb (cut-score) indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritérium-referenciás, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett pitch-váz) akkor teljesül érdemben, ha a pitch hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kinek” vagy „miért fontos nekik”) esetén a pitch nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
-   * **Ajánlott folyamat (a két feedback-forrás sorrendje):** az **M4.B élő PEER-feedback** (érthetőség/emlékezetesség + lehetséges nyitó kérdés) a pitch **formáló finomítását** szolgálja → ezután adja le a résztvevő a **véglegesített pitch-vázat** az M4.4 Assignmentbe → erre érkezik a strukturált, SBI-szellemű **MENTORI** visszajelzés (és szükség esetén újra-beadás). Így a peer (leadás előtti, formáló) és a mentor (leadás utáni, strukturált) ág nem mosódik össze.
+   * **Ajánlott folyamat (a két visszajelzési forrás sorrendje):** az **M4.B élő társas visszajelzés** (érthetőség/emlékezetesség + lehetséges nyitó kérdés) a pitch **formáló finomítását** szolgálja → ezután adja le a résztvevő a **véglegesített pitch-vázat** az M4.4 Assignmentbe → erre érkezik a strukturált, SBI-szellemű **MENTORI** visszajelzés (és szükség esetén újra-beadás). Így a társak (leadás előtti, formáló) és a mentor (leadás utáni, strukturált) ág nem mosódik össze.
    * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** SBI-szellemű, M1-ben tanult visszajelzése a beadott pitchre) + újra-beadás lehetősége (mastery logika). *(Megjegyzés: az M4.B peulán a társas visszajelzés két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, és a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott pitch-vázra a strukturált, SBI-szellemű mentori visszajelzést itt a mentor adja.)*
 
 **Minimális teljesítés (M4 complete):**
@@ -143,7 +143,7 @@ A modul végére a résztvevő…
 
 *(A kapu továbbra is puha: a hiányos / „még nem éri el” szintű pitch nem zár ki, csak mentori jelzést és finomító kört vált ki – de a »complete« nem áll be üres beküldésre. Egységes az M2 „nem üres beküldés / érdemi kitöltés” standardjával.)*
 
-> **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es pitch-váz** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás”** és **„Feedback”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
+> **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es pitch-váz** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás”** és **„Visszajelzés”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
 >
 > **→ Ezt is ezzel moderálod (visszafelé):** ugyanez a **kérdezéstechnika** (tisztázó / nyitott kérdés, a „Na, értitek?” helyett) és **aktív hallgatás** a **legfőbb moderálási eszközöd egy heves értékvitában** is – pl. az [M2.3 cionizmus-szituban](../M2/Online%20leckék/M2.3%20–%20Somer%203%20pillére%20–%20mini-kapszula.md), ahol egy friss Izrael-hír miatt feszült lesz a kvuca. Az M2.3 a **mit** (someres pillér, dugma ishit) felől nézi ezt a helyzetet; az M4 adja hozzá a **hogyan**-t: hogy egy kérdéssel teret nyiss és visszatükrözéssel keretet tarts, ahelyett hogy lezárnád vagy az egyik oldal mellé állnál.
 
@@ -163,7 +163,7 @@ A modul végére a résztvevő…
    * kérdés-szintű statisztika: melyik kérdésnél hibáznak sokan → ezekhez az offline peulákon plusz példát / gyakorlást érdemes beépíteni (pl. több élő kérdésjáték M4.B-ben).
 4. **Assignment adatok (M4.4 pitch-váz):**
    * hány résztvevő adott le pitch-et;
-   * mely rubrika-elemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni M4.B-n, illetve a mentorok 2–3 mondatos írásos feedbackjében.
+   * mely rubrika-elemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni M4.B-n, illetve a mentorok 2–3 mondatos írásos visszajelzésében.
 5. **Küszöbök / beavatkozási pontok:**
    * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → ajánlott M4.F felzárkóztató Study Lab-et tartani;
    * ha a mini-kvíz átlaga nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” ismétlő blokk (élő példákkal).
