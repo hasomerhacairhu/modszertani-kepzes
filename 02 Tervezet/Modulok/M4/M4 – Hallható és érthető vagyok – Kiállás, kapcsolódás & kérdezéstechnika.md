@@ -96,14 +96,14 @@ A modul végére a résztvevő…
 ### Peula B (M4.B) – „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása (45’)
 
 * **Kapcsolódó online leckék:** M4.2, M4.3, M4.4 (hallgatás – kérdések – pitch).
-* **Fő fókusz:** a különböző kérdéstípusok **élő kipróbálása** (nyitott, zárt, tisztázó, irányító) és a saját 45 mp-es peula-pitch hangos gyakorlása kiscsoportban.
+* **Fő fókusz:** a különböző kérdéstípusok **élő kipróbálása** (nyitott, zárt, tisztázó, irányító) és a saját 45 mp-es peulabemutató hangos gyakorlása kiscsoportban.
 * **Modulbeli szerepe:** az M4.3–M4.4 tartalmak alkalmazása kvuca-helyzetben: kérdések hatásának megtapasztalása, pitch gyakorlása + rövid társas visszajelzés; a modul végére 2 mondatos személyes fókusz megfogalmazása (melyik kérdéstípust használja tudatosan többet, melyik mondatot tartja meg a pitchből).
 
 ***
 
 ## 5. Felzárkóztató peula (ha szükséges) – 45’
 
-* **Kapcsolódó peula:** M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).
+* **Kapcsolódó peula:** M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató.
 * **Mikor használjuk?**
   * Ha a Moodle completion alapján több résztvevő **nem fejezte be** valamelyik leckét (M4.1–M4.4).
   * Ha sok a „le vagyok maradva / nem értem a kérdéstípusokat / nincs kész a pitch-em” jelzés.
@@ -125,7 +125,7 @@ A modul végére a résztvevő…
    * **Eszköz:** a M4.3 H5P-ben lévő mini-kvíz és záró reflektív kérdés (kérdéstípusok felismerése).
    * **Funkció:** ellenőrzi, hogy a résztvevő **megérti a kérdéstípusokat**, és tudatosan vállal egy változtatási irányt (melyiket használja többet / kevesebbet).
    * **Következmény:** ha gyenge az eredmény vagy hiányzik a completion, jelzés a mentornak / stábnak; opcionálisan M4.F felzárkóztatás ajánlása.
-2. **Kapu 2 – M4.4 Assignment – „Peula-pitch váz”**
+2. **Kapu 2 – M4.4 beadandó – „Peulabemutató-vázlat”**
    * **Eszköz:** Moodle Assignment, online szöveges beadás; a M4.4 H5P-ből átvett / finomított pitch-váz.
    * **Követelmény (soft szint):** a pitch minden kérdésre válaszoljon (kvuca, téma, miért fontos, mit csinálunk, mit vigyenek haza); nincs fix pontszám, de a mentor a lenti, megfigyelhető viselkedést leíró rubrika alapján minimum „alapszint / rendben” szintre néz rá.
    * **Megfigyelhető rubrika (5 sablon-elem mentén):** a pitch sablon öt eleme = **(1) kvuca (kihez beszélsz), (2) téma (miről szól), (3) miért fontos nekik, (4) mit fogtok csinálni, (5) mit vigyenek haza.** A mentor minden pitchet az alábbi, egymást kizáró szinteken helyez el – a besorolás külső megfigyelő által, értelmezés nélkül eldönthető (megvan-e az adott elem, és kvuca-specifikus-e):
@@ -134,7 +134,7 @@ A modul végére a résztvevő…
      * **Még nem éri el:** **legalább egy elem hiányzik vagy nem értelmezhető (pl. nincs megnevezve a kvuca, vagy nincs „mit vigyenek haza”).**
    * **Küszöb (cut-score) indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritérium-referenciás, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett pitch-váz) akkor teljesül érdemben, ha a pitch hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kinek” vagy „miért fontos nekik”) esetén a pitch nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
    * **Ajánlott folyamat (a két visszajelzési forrás sorrendje):** az **M4.B élő társas visszajelzés** (érthetőség/emlékezetesség + lehetséges nyitó kérdés) a pitch **formáló finomítását** szolgálja → ezután adja le a résztvevő a **véglegesített pitch-vázat** az M4.4 Assignmentbe → erre érkezik a strukturált, SBI-szellemű **MENTORI** visszajelzés (és szükség esetén újra-beadás). Így a társak (leadás előtti, formáló) és a mentor (leadás utáni, strukturált) ág nem mosódik össze.
-   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** SBI-szellemű, M1-ben tanult visszajelzése a beadott pitchre) + újra-beadás lehetősége (mastery logika). *(Megjegyzés: az M4.B peulán a társas visszajelzés két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, és a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott pitch-vázra a strukturált, SBI-szellemű mentori visszajelzést itt a mentor adja.)*
+   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** SBI-szellemű, M1-ben tanult visszajelzése a beadott peulabemutatóra) + újra-beadás lehetősége (elsajátításig tartó tanulás). *(Megjegyzés: az M4.B peulán a társas visszajelzés két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, és a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott pitch-vázra a strukturált, SBI-szellemű mentori visszajelzést itt a mentor adja.)*
 
 **Minimális teljesítés (M4 complete):**
 
@@ -165,7 +165,7 @@ A modul végére a résztvevő…
    * hány résztvevő adott le pitch-et;
    * mely rubrika-elemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni M4.B-n, illetve a mentorok 2–3 mondatos írásos visszajelzésében.
 5. **Küszöbök / beavatkozási pontok:**
-   * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → ajánlott M4.F felzárkóztató Study Lab-et tartani;
+   * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → ajánlott M4.F felzárkóztató műhelyt tartani;
    * ha a mini-kvíz átlaga nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” ismétlő blokk (élő példákkal).
 
 ***
@@ -178,10 +178,10 @@ A modul végére a résztvevő…
 
 [M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések](./Online%20leckék/M4.3%20–%20Kérdezési%20minták%20–%20nyitott,%20zárt,%20tisztázó,%20irányító%20kérdések.md)
 
-[M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára](./Online%20leckék/M4.4%20–%2045%20mp-es%20peula-pitch%20–%20vázlat%20egy%20konkrét%20kvucára.md)
+[M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára](./Online%20leckék/M4.4%20–%2045%20mp-es%20peula-pitch%20–%20vázlat%20egy%20konkrét%20kvucára.md)
 
 [M4.A – „Állj oda!” – Kiállás & jelenlét a térben](./Peulák/M4.A%20–%20Állj%20oda!%20–%20Kiállás%20&%20jelenlét%20a%20térben.md)
 
 [M4.B – „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása](./Peulák/M4.B%20–%20Mit%20és%20hogyan%20kérdezek%20–%20Kérdezés%20&%20pitch%20gyakorlása.md)
 
-[M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab)](./Peulák/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20pitch%20%28Study%20Lab%29.md)
+[M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató](./Peulák/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20pitch%20%28Study%20Lab%29.md)
