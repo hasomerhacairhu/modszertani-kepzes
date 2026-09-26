@@ -7,7 +7,7 @@
 -->
 
 > **Mihez tartozik?** M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés.
-> Ez a **félévzáró, éles (hard / mastery) kapu** értékelője. A modul valódi kimenete egy **produktív készség** (Peula v2 megírása + Zmán Kvucá-operáció + etikus AI-használat), ezért a kapu **gerince a Peula v2 rubrika**, a kvíz pedig a fogalmi belépő.
+> Ez a **félévzáró, éles teljesítési kapu** értékelője. A modul valódi kimenete egy **produktív készség** (Peula v2 megírása + Zmán Kvucá-operáció + etikus AI-használat), ezért a kapu **gerince a Peula v2 rubrika**, a kvíz pedig a fogalmi belépő.
 
 ***
 
@@ -22,7 +22,7 @@
 
 **Súlyozás:** a kapu konstruktumának gerince a **Peula v2 rubrika** (domináns súly). A kvíz „fogalmi belépő” – a tudásalap meglétét igazolja, de önmagában nem méri a produktív készséget.
 
-**Javítási útvonal (mindkét részre):** rövid, konkrét **konkrét fejlesztő visszajelzés** (max. 3 pont) → javított Peula v2 / kvíz-újrapróba → tartós nehézségnél **mentoros peula-klinika** (M7.B-mintára). A hangnem támogató, nem büntető.
+**Javítási útvonal (mindkét részre):** rövid, konkrét **fejlesztő visszajelzés** (max. 3 pont) → javított Peula v2 / kvíz-újrapróba → tartós nehézségnél **mentoros peula-műhely** (M7.B-mintára). A hangnem támogató, nem büntető.
 
 **Mi NEM ez a kapu:** az M7.4 Assignment („Peula v1 – első vázlat”) **formatív**, 0/1 completion – az NEM ez a kapu. Ez a fájl a **félévzáró, éles** produktumot értékeli, amely a v1 vázlatra épül.
 
@@ -46,7 +46,7 @@
 * Minden itemhez egyértelmű helyes válasz, plauzibilis distraktorok (gyakori someres félreértésekre építve), rövid tanulói visszajelzés.
 * Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12), **gyermekvédelem & biztonság (Q13–Q14 – a blokkoló R4-sor tudásalapját fedik le; a kötelezően-helyes blokkoló item ezen belül egyedül a Q13, a Q14 lefedettségi item)** → így a kvíz az M7.4 etikus-AI, idő-feladat-felelős logikáját **és a kapu blokkoló gyermekvédelmi konstruktumát** is méri, nem csak M7.1–M7.3 felismerést.
 
-> **Cél → item lefedettségi tábla (construct-validitás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyermekvédelem & biztonság (rubrika R4, BLOKKOLÓ) → Q13–Q14** (a kötelezően-helyes **blokkoló** item ezen belül **csak a Q13**; a Q14 a területet bővebben fedi le, de nem külön blokkoló küszöb). Így **minden mastery-kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alul-reprezentálva azt, amit a produktum-rubrika kapuz.
+> **Cél → item lefedettségi tábla (construct-validitás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyermekvédelem & biztonság (rubrika R4, BLOKKOLÓ) → Q13–Q14** (a kötelezően-helyes **blokkoló** item ezen belül **csak a Q13**; a Q14 a területet bővebben fedi le, de nem külön blokkoló küszöb). Így **minden teljesítési kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alul-reprezentálva azt, amit a produktum-rubrika kapuz.
 
 ***
 
@@ -89,7 +89,7 @@
 
 ### Blokk 2 – Peula 11 pontja (Q4–Q6)
 
-> Referencia (master-lista): **Előkészítés** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél / SMART) · **Megírás** (5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista) · **Biztonság & továbbfejlesztés** (9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió & továbbfejlesztés).
+> Referencia (kanonikus lista): **Előkészítés** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél / SMART) · **Megírás** (5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista) · **Biztonság & továbbfejlesztés** (9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió & továbbfejlesztés).
 
 #### Q4 — A 11 pont három fázisa (Single Choice)
 
@@ -196,7 +196,7 @@
 - A) 4. Nevelési cél (SMART)
 - B) 7. Realitás-check (idő, korosztály, létszám) – a Zmán Kvucá-checklisttel együtt ✅
 - C) 2. Háttér & altémák
-- D) 11. Utóreflexió – Peula v2
+- D) 11. Utóreflexió & továbbfejlesztés
 
 **Visszajelzés:** Az idő–feladat–felelős tábla a **7. pont (Realitás-check)** gyakorlati lebontása, a Zmán Kvucá-checklisttel összekötve: tényleg belefér-e 45 percbe, ki felel melyik blokkért. Nem új 12. pont, hanem a 7. pont kézzelfogható formája. (M7.4)
 
@@ -241,7 +241,7 @@
 **Mit ad le a tanuló (a kapu produktuma):** kitöltött **Peula v2** (kvuca-meta + SMART cél + Peula 11 pont struktúra felismerhetően) + **Zmán Kvucá-operációs táblázat** (idő–feladat–felelős, lásd (C) pontozó váz).
 
 > 🎯 **Kipróbálási kötelezettségvállalás (a v2 leadás MELLÉ – rögzített szándék, NEM rubrika-pont).**
-> A véglegesített Peula v2 mellé a madrich leadja a saját **kipróbálási szándékát** is. **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol** – a célja, hogy a peula a fiókból a **terepre** kerüljön (implementation-intention). Formátum (someres nyelven, 3 sor):
+> A véglegesített Peula v2 mellé a madrich leadja a saját **kipróbálási szándékát** is. **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol** – a célja, hogy a peula a fiókból a **terepre** kerüljön . Formátum (someres nyelven, 3 sor):
 > – **MIKOR / MELYIK Zmán Kvucán** vinné be? (kb. alkalom vagy dátum)
 > – **1 várható akadály** (pl. kevés idő, nincs B-terem, kevés madrich);
 > – **HA** ez az akadály jön, **AKKOR** mit tesz? (1 konkrét if–then megkerülés).
@@ -407,4 +407,4 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 * [ ] **Kétkapus időzítés rögzítve:** v1 elsővázlat-ellenőrzési pont (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét köztes fejlesztési idő (M7.B) → v2 teljesítési kapu (hét 2 vége); a konkrét Moodle-dátumok kitöltve élesítés előtt **ÉS az időbeli elosztás invariánsa betartva: (v2-leadás − v1-leadás) ≥ az M7.B köztes visszajelzési és külön revíziós szakasza, nem aznapi** (a §0 időbeli elosztási invariáns szerint). Ez a két dátum kitöltésével együtt **élesítési feltétel** (vö. Program terv §9 release-kapu M7-sora).
 * [ ] **Kipróbálási kötelezettségvállalás** mező a v2 leadás mellett **completion-szinten** (leadta/nem), tartalmilag **NEM pontozva**, **nem blokkol** – if–then formátum, M7.B-ben élőben előkészítve.
 * [ ] **AI-használat-megjegyzés** mező a v2 leadás mellett (1 sor: hol/mire használt AI-t, vagy „nem használtam”), **completion-szinten**, tartalmilag **NEM pontozva**, **nem blokkol** – összhangban a modul saját AI-provenance (D1.3) elvárásával.
-* [ ] Javítási útvonal: SBI max 3 pont + újraleadás + mentoros klinika dokumentálva.
+* [ ] Javítási útvonal: max. 3 pontos, konkrét fejlesztő visszajelzés + újraleadás + szükség esetén mentoros peula-műhely dokumentálva.
