@@ -6,7 +6,7 @@
   "kind": "worksheet",
   "mode": "reuse",
   "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
-  "purpose": "Ez a modul központi, kapuzott produktuma (éles mastery-gate, §6.2). A sablon vezeti a madrichot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és peer/mentor által értékelhető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
+  "purpose": "Ez a modul központi, kapuzott produktuma (éles teljesítési kapu, §6.2). A sablon vezeti a madrichot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és társak és mentor által áttekinthető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
   "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / consent / trigger / időkeret / felelősségek), (6) Inkluzivitás: legalább 1 nevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
   "provenance": "mixed",
   "provenance_note": "vegyes",
@@ -17,7 +17,7 @@
     "note": "Akadálymentes nyomtatott/digitális űrlap: logikus olvasási sorrend, valódi szöveg (nem képbe ágyazott), kitölthető PDF-nél címkézett űrlapmezők (tab-sorrend, képernyőolvasó-kompatibilis mezőnevek); elegendő kontraszt; egyszerű, sallangmentes magyar instrukciós szöveg minden rovatnál."
   },
   "reuse_of": "M6.B-MUNK-01",
-  "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (workshop / modul-produktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (sor 40, 174, 329: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (sor 63: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA, de NEM definiálja a rovatstruktúrát, ezért a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F sor 150/154) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (műhely / modulproduktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (sor 40, 174, 329: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (sor 63: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA, de NEM definiálja a rovatstruktúrát, ezért a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F sor 150/154) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
   "legacy": {
     "asset": [
       "M6-MUNK-01"
@@ -144,17 +144,17 @@ A modul végére a madrich…
 
 ***
 
-### Peula B (M6.B) – „Játéklap workshop – saját eszköz tervezése” (45’)
+### Peula B (M6.B) – „Játéklap-műhely – saját eszköz tervezése” (45’)
 
 * **Kapcsolódó online leckék:** M6.1, M6.2, M6.3, M6.4
 * **Fő cél:**
   * minden résztvevőnek legyen **egy első, használható játéklap-vázlata** (játék / történet / kézműves),
   * tudja kimondani: kinek szól (kvuca), mi a célja, milyen biztonsági és inkluzivitási szempontjai vannak,
-  * gyakorolja az **SBI-alapú társas visszajelzést**.
+  * gyakorolja a **konkrét, megfigyelhető elemre épülő társas visszajelzést**.
 * **Rövid percbontás-vázlat:**
   1. 0–10’ – Felidézés: mi a játéklap minimum tartalma (cél, kvuca, leírás, eszközök, biztonság, inkluzivitás, variációk).
   2. 10–30’ – Műhelymunka: párok / kiscsoportok dolgoznak a saját játéklapon.
-  3. 30–40’ – Mini-bemutatók: 2–3 játéklap rövid megosztása, SBI-visszajelzési kör.
+  3. 30–40’ – Mini-bemutatók: 2–3 játéklap rövid megosztása, konkrét visszajelzési kör.
   4. 40–45’ – Vállalás-kör: „Miben szeretném, hogy a saját játékom **biztonság & inkluzivitás szempontból** *dugma ishit* (személyes példamutatás) legyen?”
 * **Kompetenciakapcsolat:**
   2. Biztonság & inkluzivitás (konkrét sor a játéklapon),
@@ -166,7 +166,7 @@ A modul végére a madrich…
 
 ## 5. Felzárkóztató peula (ha szükséges) – 45’
 
-### M6.F – „Felzárkóztató peula – Toolbox & játéklap (Study Lab)” (45’)
+### M6.F – „Felzárkóztató peula – Toolbox & játéklap” (45’)
 
 * **Kapcsolódó online leckék:** M6.1–M6.4
 * **Fő célok tanulói nyelven:**
@@ -258,8 +258,8 @@ Az M6 akkor **complete**, ha mindhárom teljesül:
 
 [M6.A – Peula: „Játék-labor 4 kvucára” (45’)](./Peulák/M6.A%20–%20Peula%20–%20Játék-labor%204%20kvucára%20%2845’%29.md)
 
-[M6.B – Peula: „Játéklap workshop – saját eszköz tervezése” (45’)](./Peulák/M6.B%20–%20Peula%20–%20Játéklap%20workshop%20–%20saját%20eszköz%20tervezése%20%2845’%29.md)
+[M6.B – Peula: „Játéklap-műhely – saját eszköz tervezése” (45’)](./Peulák/M6.B%20–%20Peula%20–%20Játéklap%20workshop%20–%20saját%20eszköz%20tervezése%20%2845’%29.md)
 
 [M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab)](./Peulák/M6.F%20–%20Felzárkóztató%20peula%20–%20Toolbox%20&%20játéklap%20%28Study%20Lab%29.md)
 
-**[M6 – KAPU – értékelő (item-bank + rubrika)](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles (mastery) kapuja**: a szcenárió-kvíz item-bankja és a játéklap megfigyelhető rubrikája.
+**[M6 – KAPU – értékelő (item-bank + rubrika)](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles teljesítési kapuja**: a szcenárió-kvíz item-bankja és a játéklap megfigyelhető rubrikája.
