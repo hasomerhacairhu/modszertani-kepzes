@@ -26,14 +26,14 @@
 | Mező                           | Érték                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Modul**                      | M3 – „Kvuca, red flag, felelősség” – Csoportdinamika, korosztályok és gyermekvédelem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Kapu típusa**                | **Éles / mastery-kapu** (biztonságkritikus, gyermekvédelmi)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Kapu típusa**                | **Éles teljesítési kapu** (biztonságkritikus, gyermekvédelmi)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Komponens A – tudásmérés**   | Szcenárió-alapú kvíz – **Moodle Quiz** (Gradebook-súly; a „Grade to pass” **csak az összpont-komponens**). A kapu feltétele **konjunkció**: **≥10/12 ÉS a 2., 4., 7., 9. item mind helyes** – ezt **item-szintű/összetett feltétellel automatikusan csak akkor** szabad kikényszeríteni, ha a cél-környezet ezt **runtime acceptance-teszten igazoltan tudja**; egyébként a négy kritikus item helyességét **kézzel kell ellenőrizni**, mielőtt a kapu „megfelelt”-re kerül és a továbblépés megnyílik (lásd 1.2). **H5P Question Set csak akkor**, ha a Moodle-beli completionje **grade-alapú** (≥80% completionre állítva, **nem** attempt-/megtekintés-alapú) ÉS a kritikus itemek külön, **igazoltan** kikényszerítve – különben a kaput Moodle Quiz adja (vö. M7 KAPU minta).                                            |
 | **Komponens B – produktum**    | **Moodle Assignment + rubrika** (modulproduktum: helyzetleírás)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Küszöb (A)**                 | **≥ 80%** → 12 itemből **legalább 10 helyes** (lásd 1.2 pontozás)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Kötelező (kritikus) itemek** | **2., 4., 7., 9.** item **helyes válasza kötelező** a 80% mellett is (lásd 1.2)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Küszöb (B)**                 | Rubrika 1–4. sora mind legalább **„Alapszint (1)”**, az **R2 (titoktartás)** és **R4 (nem nyomoz / nem konfrontál)** sor **blokkoló**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Próbálkozások**              | Több próbálkozás engedett (mastery-logika); 2 sikertelen próba után **mentor-bevonás (támogatás, nem büntetés)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Belépő feltétel**            | M3.1–M3.4 activity completion. Az M3.B peula **nem formális előfeltétele** a leadásnak (a hub §6 belépő feltétele is csak az L1–L4 completion + Komponens B), de a modulproduktum (Komponens B) minőségi alapjához **erősen ajánlott az M3.B peulán való részvétel** (élő red-flag-felismerés + első-lépés / lépés-térkép gyakorlás). Ajánlott sorrend: **L1–L4 → M3.A/B → produktum-leadás → kapu-kvíz**. **Aki kihagyta az M3.B-t, annál a mentori review kötelezően ellenőrzi az R3/R4 sort** a rubrika blokkoló-logikája szerint: az R4 (nem nyomoz / nem konfrontál) **blokkoló**, tehát itt is ugyanúgy buktat, ha 0; az R3-nál (kit von be) a leírásnak **legalább egy konkrét felelős felnőttet/szerepet** kell néven neveznie. Ez nem enyhébb mérce a kihagyóknál – csak az élő gyakorlás hiányát pótolja review-val. |
+| **Próbálkozások**              | Több próbálkozás engedett (elsajátításig tartó tanulás); 2 sikertelen próba után **mentor-bevonás (támogatás, nem büntetés)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Belépő feltétel**            | M3.1–M3.4 activity completion. Az M3.B peula **nem formális előfeltétele** a leadásnak (a hub §6 belépő feltétele is csak az L1–L4 completion + Komponens B), de a modulproduktum (Komponens B) minőségi alapjához **erősen ajánlott az M3.B peulán való részvétel** (élő red-flag-felismerés + első-lépés / lépés-térkép gyakorlás). Ajánlott sorrend: **L1–L4 → M3.A/B → produktum-leadás → kapu-kvíz**. **Aki kihagyta az M3.B-t, annál a mentori review kötelezően ellenőrzi az R3/R4 sort** a rubrika blokkoló-logikája szerint: az R4 (nem nyomoz / nem konfrontál) **blokkoló**, tehát itt is ugyanúgy buktat, ha 0; az R3-nál (kit von be) a leírásnak a **HUM-SAFE-01 alapján jóváhagyott helyi jelzési út kijelölt szerepét vagy útvonalát** kell megneveznie. Ez nem enyhébb mérce a kihagyóknál – csak az élő gyakorlás hiányát pótolja review-val. |
 | **Item-randomizálás**          | Ajánlott: kérdés- és opció-sorrend keverése, próbálkozásonként cserélt item-pool (a leckebeli mini-kvízektől eltérő itemek – ezek itt új, dedikált kapu-itemek)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 **Miért éles és nem puha ez a kapu?** A gyermekvédelem és a red flag-felismerés **biztonsági kérdés** – itt nem elég a részvétel, mérhető megértés kell. Ezért: produktív Assignment + valódi ≥80% küszöb + kötelező kritikus itemek.
@@ -47,7 +47,7 @@ A kapu-validitási szempont fontos itt: az 5–8 itemes kvíznél a 80% durva, �
 
 ## 1. KOMPONENS A – Szcenárió-alapú item-bank (12 item)
 
-> **Hangnem:** tegező, someres-barát. **Forma:** rövid szituáció + 4 opció + jelölt helyes válasz (✅) + miért jó/rossz minden opció + tanulói feedback.
+> **Hangnem:** tegező, someres-barát. **Forma:** rövid szituáció + 4 opció + jelölt helyes válasz (✅) + miért jó/rossz minden opció + tanulói visszajelzés.
 > A helyes válasz pozícióját az éles kvízben **keverd meg** – itt a könnyebb szerkesztés miatt nem mindig az utolsó.
 
 ### 1.1 Lefedettség (construct-validitás)
@@ -62,7 +62,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 | Meghallgatás ≠ nyomozás (M3.3 SLIDE 5 ✅ doboz) | **9** |
 | Felnőtt/madrich-gyanú: ne konfrontáld, közvetlenül a felelősnek (M3.3 SLIDE 5 ⚠️ doboz) | **7** |
 | Bizonytalanság esetén is jelezz; a red flag ritkán 100%-ig egyértelmű (M3.3 SLIDE 1 T/F2, SLIDE 3) | 12 |
-| Jelzési út: mentor / felelős / vezető, NEM egyedül, NEM csoportchat (M3.3 SLIDE 2, 4) | 3, 5 |
+| Jelzési út: a **HUM-SAFE-01 szerint jóváhagyott helyi jelzési út**, NEM egyedül, NEM csoportchat (M3.3 SLIDE 2, 4) | 3, 5 |
 | Madrich–chanich párkapcsolat = súlyos red flag (M3.3 SLIDE 5; M3.4 SLIDE 3–4) | 10 |
 | Online határ / kedvenc chanich / Do-Don’t (M3.4 SLIDE 3–4) | 6 |
 
@@ -92,7 +92,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - C — Egy belső poén önmagában csoportélet, nem red flag (akkor lenne az, ha valakit megaláznának vele).
 - D — Eltérő preferencia (introverzió) nem red flag; a sokszínűség normális.
 
-**Tanulói feedback:** „A red flag nem a furcsa vagy csendes viselkedés, hanem a **biztonságot fenyegető** jel: bántalmazás, önsértés, zaklatás, határátlépés. A vágásnyom + lekicsinylés pont ilyen.”
+**Tanulói visszajelzés:** „A red flag nem a furcsa vagy csendes viselkedés, hanem a **biztonságot fenyegető** jel: bántalmazás, önsértés, zaklatás, határátlépés. A vágásnyom + lekicsinylés pont ilyen.”
 
 ---
 
@@ -110,7 +110,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - C — Elhárítás: a chanich épp segítséget keres, ne riaszd el.
 - D — A feltétel kimondása előre („csak ha nem nagy dolog”) gyakorlatilag ígéret, és a chanich így nem fog beszélni a nagy dologról – pont a lényeg veszik el.
 
-**Tanulói feedback:** „Soha ne ígérj 100% titoktartást. Amit ígérhetsz: komolyan veszem, elmondom **kinek és miért** szólok, és **nem hagylak egyedül**.”
+**Tanulói visszajelzés:** „Soha ne ígérj 100% titoktartást. Amit ígérhetsz: komolyan veszem, elmondom **kinek és miért** szólok, és **nem hagylak egyedül**.”
 
 ---
 
@@ -118,17 +118,17 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 **Szituáció:** Biztos vagy benne, hogy egy chanichhal kapcsolatban red flag helyzet áll fenn, és jelezni akarsz. **Kihez** fordulsz elsőként a someres keretben?
 
 - A) A kvuca csoportchatjébe írom ki, hogy mindenki figyeljen oda.
-- B) A **mentoromhoz / a gyermekvédelmi felelőshöz / a vezetőhöz** fordulok, és velük együtt lépünk tovább. ✅
+- B) A kurzusban megadott, **HUM-SAFE-01 szerint jóváhagyott gyermekvédelmi jelzési út kijelölt felelőséhez / útvonalához** fordulok, és a jóváhagyott rend szerint lépünk tovább. ✅
 - C) Megírom a chanich szüleinek privátban, és rájuk bízom.
 - D) Megvárom, hátha magától megoldódik, és csak akkor szólok, ha biztosan baj lesz.
 
 **Miért ez a jó / miért rossz a többi:**
-- ✅ **B** — A jelzés a someres struktúrán belül felfelé megy: mentor / gyermekvédelmi felelős / vezető. Ők döntenek a külső jelzésről. Te egy láncszem vagy, nem maradsz egyedül.
+- ✅ **B** — Nem neked kell rögtönözni, hogy „kinek szólj”. A kurzusban megadott, **jóváhagyott helyi gyermekvédelmi jelzési utat** követed. A HUM-SAFE-01 rögzíti a kijelölt felelőst, a helyettes/külső utat és az akut eszkalációt. Te nem maradsz egyedül a helyzettel.
 - A — A csoportchat súlyos adatvédelmi és bizalmi határsértés, megalázhatja az érintettet.
 - C — A szülő bevonása nem a madrich önálló döntése; lehet, hogy épp otthon a baj. Ez a felelős és a szakemberek mérlegelése.
 - D — A „majd megoldódik” halogatás biztonságkritikus helyzetben veszélyes.
 
-**Tanulói feedback:** „A jelzés a **felelős felnőtt felé** megy (mentor / gyermekvédelmi felelős / vezető), nem a kvucának, nem közvetlenül a szülőnek. Nem te nyomozol és nem te döntesz egyedül.”
+**Tanulói visszajelzés:** „A jelzés a **kurzusban megadott, jóváhagyott helyi gyermekvédelmi út szerint** megy, nem a kvucának és nem saját döntésből közvetlenül a szülőnek. Nem te nyomozol, és nem te találod ki egyedül a következő lépést.”
 
 ---
 
@@ -136,17 +136,17 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 **Szituáció:** Este 23:15. Egy chanich privát üzenetben azt írja, hogy **most, ma este úgy érzi, kárt tenne magában**, és egyedül van otthon. Mi a felelős reakció?
 
 - A) Megírom, hogy beszéljük meg holnap a peulán, addig próbáljon aludni, és felírom magamnak, hogy reggel rákérdezek, hogy van.
-- B) **Nem hagyom egyedül**, **azonnal** felnőttet jelzek, és súlyos esetben a **112-t**, lelki krízisben a **116-111**/**116-123**-at hívom. ✅
+- B) **Nem hagyom egyedül**, **azonnal** bevonom a HUM-SAFE-01 akut útján kijelölt felelőst; **közvetlen életveszélynél 112**. Gyerek/fiatal lelki krízisében a **116-111 Kék Vonal** kiegészítő támogatás lehet. ✅
 - C) Megnyugtatom, hogy ez biztosan csak egy nehéz este, átbeszéljük chaten a problémáit, és megígérem neki, hogy ez kettőnk titka marad.
 - D) Megkérem a hozzá legközelebb lakó, vele jóban lévő chanichot, hogy menjen át és maradjon vele éjszakára, és reggel jelzek egy felnőttnek.
 
 **Miért ez a jó / miért rossz a többi:**
-- ✅ **B** — Az **akut, aznapi** önveszély **sürgős** – nem ugyanaz, mint egy „lassú” red flag. Itt a gyorsaság életet menthet: ne maradjon egyedül, azonnali felnőtt-jelzés, súlyos esetben 112, lelki krízisben 116-111 Kék Vonal (gyermek/ifjúsági) vagy 116-123 Lelki Elsősegély (mindkettő ingyenes, 0–24).
+- ✅ **B** — Az **akut, aznapi** önveszély **sürgős**. Ne maradjon egyedül, azonnal kövesd a HUM-SAFE-01 akut eszkalációját; **közvetlen életveszélynél 112**. A **116-111 Kék Vonal** gyerekek és fiatalok számára kiegészítő lelki támogatás lehet, de nem helyettesíti a sürgősségi vagy szervezeti utat.
 - A — A halasztás („majd holnap”) közvetlen veszélynél elfogadhatatlan.
 - C — A „biztosan elmúlik” bagatellizál, a titoktartás-ígéret pedig itt különösen veszélyes.
 - D — Jó szándékú, de veszélyes: egy akut önveszélyes helyzet felelőssége **nem hárítható egy másik gyerekre**, és a felnőtt-jelzés **nem várhat reggelig**. A kortárs nem tud (és nem is szabad neki) egy krízist kezelni; ettől a chanich is és a „kirendelt” társa is magára marad.
 
-**Tanulói feedback:** „Akut önveszélynél a kulcs: **ne maradjon egyedül + azonnali felnőtt + súlyos esetben 112**, lelki krízisben **116-111** Kék Vonal (gyermek/ifjúsági) vagy **116-123** Lelki Elsősegély. Ez nem várhat másnapig.”
+**Tanulói visszajelzés:** „Akut önveszélynél a kulcs: **ne maradjon egyedül + azonnali, jóváhagyott akut eszkaláció + közvetlen életveszélynél 112**. Gyerek/fiatal lelki krízisében a **116-111 Kék Vonal** kiegészítő támogatás lehet. Ez nem várhat másnapig.”
 
 ---
 
@@ -154,7 +154,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 **Szituáció:** Egy chanich nehéz dolgot oszt meg veled, és nagyon bízik benned. Azt érzed, „nem akarom elárulni a bizalmát”. Mit teszel?
 
 - A) Megtartom magamnak, és igyekszem egyedül, chaten átsegíteni rajta, mert megbízott bennem.
-- B) Komolyan veszem, és **bevonok egy felelős felnőttet** – elmagyarázva neki, hogy ez nem árulás, hanem azért van, hogy **igazi segítséget** kapjon. ✅
+- B) Komolyan veszem, és **követem a jóváhagyott gyermekvédelmi jelzési utat**, bevonva az ott kijelölt felelőst – elmagyarázva, hogy ez nem árulás, hanem azért van, hogy **igazi segítséget** kapjon. ✅
 - C) Megmondom neki, hogy ez túl nagy dolog nekem, és inkább ne meséljen ilyet.
 - D) Várok pár hetet, és csak ha újra előjön, akkor szólok valakinek.
 
@@ -164,7 +164,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - C — Elutasítás: a chanich így megtanulja, hogy nincs kihez fordulnia.
 - D — A halogatás kockázatot növel.
 
-**Tanulói feedback:** „Nem az a jó madrich, aki mindent egyedül megold, hanem aki tudja, **mikor kér segítséget**. A bevonás a chanich védelme, nem árulás.”
+**Tanulói visszajelzés:** „Nem az a jó madrich, aki mindent egyedül megold, hanem aki tudja, **mikor kér segítséget**. A bevonás a chanich védelme, nem árulás.”
 
 ---
 
@@ -182,7 +182,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - B — Kép kérése egy chanichtól súlyos határsértés, soha nem OK.
 - D — Az éjszakai privát közeledés tipikus „grooming”-jellegű határátlépés.
 
-**Tanulói feedback:** „Online a jó keret: **közös szabály + csoportos csatorna**. A rendszeres privát éjszakai üzengetés és a képkérés nem fér bele.”
+**Tanulói visszajelzés:** „Online a jó keret: **közös szabály + csoportos csatorna**. A rendszeres privát éjszakai üzengetés és a képkérés nem fér bele.”
 
 ---
 
@@ -190,17 +190,17 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 **Szituáció:** Észreveszed, hogy **egy másik madrich** feltűnően sokat van négyszemközt egy chanichhal, sok az ölelés, és „ezt ne mondjuk el senkinek” mondatok mennek. Mit teszel **először**?
 
 - A) Odamegyek a másik madrichhoz, négyszemközt szóvá teszem, amit látok, és megkérem, hogy hagyja abba.
-- B) **Közvetlenül a gyermekvédelmi felelősnek / vezetőnek jelzek**, a gyanúsított madrichot pedig nem figyelmeztetem. ✅
+- B) **Közvetlenül a HUM-SAFE-01-ben kijelölt, nem érintett gyermekvédelmi felelőshöz / helyettes vagy külső útvonalhoz jelzek**, a gyanúsított madrichot pedig nem figyelmeztetem. ✅
 - C) Diszkréten kikérdezem a chanichot a részletekről, hogy legyen elég konkrétumom, mielőtt bárkit bevádolok.
 - D) Várok és diszkréten tovább figyelem őket néhány napig, hátha csak félreértem a helyzetet, és csak akkor szólok, ha egészen biztosat tudok.
 
 **Miért ez a jó / miért rossz a többi:**
-- ✅ **B** — Felnőtt/kolléga elleni gyanúnál **külön eljárás** van: **ne konfrontáld** a gyanúsítottat (akaratlanul figyelmeztetnéd, veszélyeztetnéd a chanichot és a későbbi kivizsgálást), hanem **közvetlenül a felelősnek/vezetőnek** jelezz.
+- ✅ **B** — Felnőtt/kolléga elleni gyanúnál **ne konfrontáld** a gyanúsítottat, mert ezzel figyelmeztetheted és veszélyeztetheted a későbbi kivizsgálást. **Közvetlenül a jóváhagyott HUM-SAFE-01 út nem érintett felelőséhez, helyetteséhez vagy külső útjához** jelezz.
 - A — A gyanúsított konfrontálása a legveszélyesebb hiba: riasztod, és tönkreteheted a kivizsgálást.
 - C — A chanich kikérdezése = nyomozás, ami nem a te dolgod (meghallgatni szabad, kihallgatni nem).
 - D — A halogatás itt is kockázatos; a jelzés akkor is helyes, ha utóbb félreértés.
 
-**Tanulói feedback:** „Ha a gyanú **egy felnőttre/kollégára** vonatkozik: **ne beszéld meg vele, ne konfrontáld** – közvetlenül a gyermekvédelmi felelősnek / vezetőnek jelezz. Ha épp a felelős a gyanúsított, egy másik, nem érintett vezetőnek.”
+**Tanulói visszajelzés:** „Ha a gyanú **egy felnőttre/kollégára** vonatkozik: **ne beszéld meg vele, ne konfrontáld**. A HUM-SAFE-01 jóváhagyott útján a kijelölt **nem érintett** felelőshöz, helyetteshez vagy külső útvonalhoz jelezz.”
 
 ---
 
@@ -218,7 +218,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - B — A megoldás megígérése irreális és nem a te szereped (nem vagy terapeuta).
 - D — A „mindenkinek szólok” a másik véglet: a jelzés **csak azoknak** megy, akik segíthetnek (felelős), nem fűnek-fának – ez bizalom- és adatvédelmi sértés.
 
-**Tanulói feedback:** „A jó mondat **nem** ígér titkot és **nem** ígér megoldást, de ígéri: komolyan veszem, **kinek-miért** szólok, és **nem maradsz egyedül**. A jelzés célzott (a felelősnek), nem szétkürtölés.”
+**Tanulói visszajelzés:** „A jó mondat **nem** ígér titkot és **nem** ígér megoldást, de ígéri: komolyan veszem, **kinek-miért** szólok, és **nem maradsz egyedül**. A jelzés célzott (a felelősnek), nem szétkürtölés.”
 
 ---
 
@@ -236,7 +236,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - C — A kétségbe vonás („biztosan igaz-e”) eltántorítja a gyereket; nem a te dolgod eldönteni, igazat mond-e.
 - D — A bagatellizálás és témaváltás elnémítja; pont az ellenkezője a komolyan vételnek.
 
-**Tanulói feedback:** „**Meghallgatni szabad – nyomozni nem.** Nyugodtan, ítélkezés nélkül, a gyerek saját szavaival; a részletek a felelős és a hatóság dolga. Amit hallasz, a **gyerek szavaival** add tovább.”
+**Tanulói visszajelzés:** „**Meghallgatni szabad – nyomozni nem.** Nyugodtan, ítélkezés nélkül, a gyerek saját szavaival; a részletek a felelős és a hatóság dolga. Amit hallasz, a **gyerek szavaival** add tovább.”
 
 ---
 
@@ -254,7 +254,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - B — A „ne ütközz a tapasztaltabbal” a hallgatás csapdája; a védelem fontosabb a kínos érzésnél.
 - D — A puszta „ez gáz” megjegyzés **nem** jelzés; a felelőshöz kell vinni (és a gyanúsítottat nem a te dolgod konfrontálni).
 
-**Tanulói feedback:** „Madrich–chanich párkapcsolat = **súlyos red flag, mindig jelzés a felelősnek**. Nem magánügy, és nem oldódik meg egy odavetett ‘ez gáz’-zal.”
+**Tanulói visszajelzés:** „Madrich–chanich párkapcsolat = **súlyos red flag, mindig jelzés a felelősnek**. Nem magánügy, és nem oldódik meg egy odavetett ‘ez gáz’-zal.”
 
 ---
 
@@ -272,7 +272,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - B — Csábító „elintéztem”-érzés, de fél megoldás: a privát törlés-kérés **nem áll ki nyilvánosan a keretért** (a kvuca azt látja, hogy ez következmény nélkül maradt), és **kihagyja a jelzést** a felelősnek. Az érintett chanich így továbbra is támogatás nélkül marad – a „ne legyen nagy ügy” pont a hallgatás csapdája.
 - D — Az érintett egyedüli „ne foglalkozz vele” lerázása nem védi meg, és nem szünteti meg a zaklatást.
 
-**Tanulói feedback:** „Online zaklatásnál **a helyszínen is kiállsz** (ezt nálunk nem küldünk) **és jelzel** a felelősnek. A ‘csak poén’ és a továbbküldés nem opció.”
+**Tanulói visszajelzés:** „Online zaklatásnál **a helyszínen is kiállsz** (ezt nálunk nem küldünk) **és jelzel** a felelősnek. A ‘csak poén’ és a továbbküldés nem opció.”
 
 ---
 
@@ -290,7 +290,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - C — Az egyedüli „bizonyítékgyűjtés” = nyomozás, ami nem a te dolgod, és időt veszít.
 - D — A kvuca bevonása pletykát szül és sérti az érintettet; a jelzés a felelőshöz megy.
 
-**Tanulói feedback:** „A red flag ritkán teljesen biztos. **Bizonytalanságban is jelezz** a felelősnek – ha kiderül, hogy semmi, az sem baj. Nem te nyomozol és nem a kvucától kérsz tanácsot.”
+**Tanulói visszajelzés:** „A red flag ritkán teljesen biztos. **Bizonytalanságban is jelezz** a felelősnek – ha kiderül, hogy semmi, az sem baj. Nem te nyomozol és nem a kvucától kérsz tanácsot.”
 
 ---
 
@@ -303,7 +303,7 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 - A rubrika **4 sorból** áll, mindegyik **3 szintes**: **Nem megfelelő (0) / Alapszint (1) / Magabiztos (2)**.
 - A szintek **megfigyelhető szövegjegyre** épülnek (mi olvasható a beadványban), nem általános „jó/rossz” benyomásra.
 - **Átmenő (pass):** mind a 4 sor legalább **Alapszint (1)**, **ÉS** az **R2 (titoktartás)** és **R4 (nem nyomoz / nem konfrontál)** sor **blokkoló** → ha bármelyik 0, a beadvány **nem mehet át** a többi sortól függetlenül (gyermekvédelmi tét).
-- **Bukásnál:** rövid, SBI-jellegű fejlesztő feedback (mi hiányzik, melyik leckéhez térjen vissza) + újraleadás (mastery-logika). Nincs kizárás.
+- **Bukásnál:** rövid, SBI-jellegű fejlesztő visszajelzés (mi hiányzik, melyik leckéhez térjen vissza) + újraleadás (elsajátításig tartó tanulás). Nincs kizárás.
 
 ### 2.2 A rubrika (4 sor × 3 szint)
 
@@ -311,18 +311,18 @@ Az itemek pontosan az M3.3–M3.4-ben **ténylegesen tanított** elemeket mérik
 |---|---|---|---|
 | **R1 – Red flag megnevezése** *(megfigyelhető: a szövegben néven nevezi a biztonsági jelet)* | Nem nevez meg valódi red flaget, vagy ártalmatlan dolgot címkéz red flagnek (pl. „csendes a chanich”). | **Legalább 1 valódi** red flaget pontosan megnevez (pl. önsértés-gyanú, online zaklatás, madrich–chanich határátlépés, bántalmazás-gyanú) és röviden indokolja, miért az. | Több releváns red flaget azonosít vagy egyet mélyebben elemez (mire kell figyelni, miért nem egyértelmű), és megkülönbözteti a „lassú” red flaget az **akut** veszélytől. |
 | **R2 – Titoktartás kezelése** *(BLOKKOLÓ)* *(megfigyelhető: mit ígér / nem ígér a leírt madrich)* | A leírt első lépésben **titoktartást ígér** (pl. „megígérem, hogy nem szólok senkinek”), vagy a kérdést meg sem említi. | Kimondja, hogy **nem ígér 100% titoktartást**, és jelzi, hogy bevonhat mást. | Pontosan megfogalmazza a felelős mondatot: komolyan veszem + elmondom **kinek és miért** szólok + **nem hagylak egyedül**; a megosztást a **segíteni tudó** felelősre korlátozza (nem „mindenkinek”). |
-| **R3 – Felelős első lépés + kit von be** *(megfigyelhető: megnevez konkrét felnőttet/szerepet)* | Nincs konkrét lépés, vagy egyedül „megoldja”, vagy a kvucának / csoportchatnek / közvetlenül a szülőnek „jelez”. | Megnevez **legalább egy konkrét felelős felnőttet/szerepet** (mentor / gyermekvédelmi felelős / vezető), akihez fordul. | A bevonás illeszkedik a helyzet **súlyosságához és típusához**: akut önveszélynél azonnaliság/112/116-111/116-123; felnőtt-gyanúnál közvetlenül a felelős; és van utánkövetés-elem („nem tűnik el a levegőben”). |
+| **R3 – Felelős első lépés + kit von be** *(megfigyelhető: megnevezi a jóváhagyott helyi jelzési út szerepét/útvonalát)* | Nincs konkrét lépés, vagy egyedül „megoldja”, vagy a kvucának / csoportchatnek / közvetlenül a szülőnek „jelez”. | Azonosítja a **HUM-SAFE-01 alapján jóváhagyott helyi jelzési út megfelelő szerepét vagy útvonalát**, amelyhez az adott helyzetben fordul. | A bevonás illeszkedik a helyzet **súlyosságához és típusához**: akut önveszélynél azonnali HUM-SAFE-01 eszkaláció / közvetlen életveszélynél 112 / kiegészítő támogatásként 116-111; felnőtt-gyanúnál közvetlenül a felelős; és van utánkövetés-elem („nem tűnik el a levegőben”). |
 | **R4 – Nem nyomoz / nem konfrontál + realisztikus helyzet** *(BLOKKOLÓ)* *(megfigyelhető: a leírt viselkedés)* | A leírt madrich **nyomoz / kikérdez** (ki, mikor, hányszor), **vagy konfrontálja** a gyanúsított felnőttet, **vagy** a helyzet nem életszerű / nem értelmezhető. | A leírt madrich **meghallgat, de nem nyomoz**, és felnőtt-gyanú esetén **nem konfrontálja** a gyanúsítottat; a helyzet életszerű, konkrét (hely + kvuca + esemény). | Tudatosan jelzi a „meghallgatni szabad, nyomozni nem” elvet (pl. nyílt, nem terelő kérdés, saját szavak feljegyzése), felnőtt-gyanúnál a diszkrét, közvetlen jelzést; a helyzet konkrét és reflektált. |
 
 ### 2.3 Pontozás-összegzés (stábnak)
 - **Maximum:** 8 pont (4 sor × 2).
 - **Pass-feltétel:** minden sor ≥ 1 **ÉS** R2 ≥ 1 **ÉS** R4 ≥ 1 (a két blokkoló sor 0-ja önmagában bukás).
-- **Pass-sáv:** 4–8 pont, **feltéve, hogy mind a 4 sor ≥ 1** (tehát minden sor legalább Alapszint). Ha **bármely sor 0** (köztük a blokkoló R2 vagy R4) → fejlesztő feedback + újraleadás. (A 4/8 csak akkor átmenő, ha tényleg minden sor ≥ 1; egyetlen 0-s sor – akár nem blokkoló – is bukás, mert az „minden sor ≥ 1” feltétel sérül.)
+- **Pass-sáv:** 4–8 pont, **feltéve, hogy mind a 4 sor ≥ 1** (tehát minden sor legalább Alapszint). Ha **bármely sor 0** (köztük a blokkoló R2 vagy R4) → fejlesztő visszajelzés + újraleadás. (A 4/8 csak akkor átmenő, ha tényleg minden sor ≥ 1; egyetlen 0-s sor – akár nem blokkoló – is bukás, mert az „minden sor ≥ 1” feltétel sérül.)
 - A pontszám **másodlagos** a két blokkoló kritériumhoz képest: ez biztonsági, nem „pontvadász” értékelés.
 
-### 2.4 Kész feedback-sablonok (a stáb gyorsításához)
+### 2.4 Kész visszajelzés-sablonok (a stáb gyorsításához)
 - **R2 hiány (titoktartást ígért):** „Itt a leírt madrich megígérte a titoktartást – ez a leggyakoribb csapda. Írd át úgy, hogy *nem* ígér teljes titkot, de elmondja, kinek-miért szól, és hogy nem hagyja egyedül. (Vissza: M3.3 SLIDE 1 és 4.)”
-- **R3 hiány (nincs konkrét felnőtt):** „A red flaget jól látod, de a leírásból hiányzik, **kit** vonna be a madrich. Nevezd meg konkrétan: mentor / gyermekvédelmi felelős / vezető. (Vissza: M3.3 SLIDE 2.)”
+- **R3 hiány (nincs jóváhagyott jelzési út):** „A red flaget jól látod, de a leírásból hiányzik, **melyik jóváhagyott helyi jelzési szerepet / útvonalat** követné a madrich. A kurzusban megadott HUM-SAFE-01 alapján nevezd meg. (Vissza: M3.3 SLIDE 2.)”
 - **R4 hiány (nyomoz / konfrontál):** „A leírt madrich kikérdez / szembesít – ez már nyomozás. Cseréld le: meghallgat, de nem faggat, és felnőtt-gyanúnál közvetlenül a felelősnek jelez, nem a gyanúsítottnak. (Vissza: M3.3 SLIDE 5.)”
 
 ---
