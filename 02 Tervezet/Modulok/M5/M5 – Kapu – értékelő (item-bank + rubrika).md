@@ -8,9 +8,9 @@
 
 ← Vissza a modul-hubhoz: **[M5 – „Ez most játék vagy tanulás_” – Nonformális nevelés, módszerválasztás & tanulástan](./M5%20–%20Ez%20most%20játék%20vagy%20tanulás%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)**
 
-> **Ez a fájl az M5 mastery-kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva. Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
+> **Ez a fájl az M5 teljesítési kapu értékelője.** Eddig a modul csak megnevezte a kaput („Moodle Quiz, kb. 10–12 item, ≥80%”), de a konkrét itemek, distraktorok és kulcs nem voltak kidolgozva. Ez a dokumentum pótolja: teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
 >
-> **Kapu-filozófia (lásd Program terv §5):** mivel az M5 nonformális nevelést tanít, **az éles (mastery) kapu az M5.4 produktum rubrikás értékelése** (4. szakasz) – nem a fogalom-kvíz. A **kvíz formatív/diagnosztikus**: megmutatja, melyik fogalomcsalád szorul felzárkózásra, de nem konvergens kvíz-kapuként szűr. Így a kapu a someres elvet (produktum + reflexió a sulis fogalom-kvíz helyett) követi, megőrizve a minőségbiztosítást.
+> **Kapu-filozófia (lásd Program terv §5):** mivel az M5 nonformális nevelést tanít, **az éles teljesítési kapu az M5.4 produktum rubrikás értékelése** (4. szakasz) – nem a fogalom-kvíz. A **kvíz formatív/diagnosztikus**: megmutatja, melyik fogalomcsalád szorul felzárkózásra, de nem konvergens kvíz-kapuként szűr. Így a kapu a someres elvet (produktum + reflexió a sulis fogalom-kvíz helyett) követi, megőrizve a minőségbiztosítást.
 
 ---
 
@@ -18,11 +18,11 @@
 
 | | |
 |---|---|
-| **Melyik kapuhoz tartozik?** | **M5 – „Ez most játék vagy tanulás?”** éles (mastery) kapu. |
+| **Melyik kapuhoz tartozik?** | **M5 – „Ez most játék vagy tanulás?”** éles teljesítési kapu. |
 | **Mit mér?** | A modul három tanított fogalomcsaládját: (1) formális / nonformális / informális tanulás megkülönböztetése; (2) a **négytagú** *feladat → cél → kvuca → módszer* döntési lánc; (3) tanulástan – gyakorlás, aktív felidézés, időben elosztott gyakorlás. |
 | **Kvíz – LMS-eszköz** | **Moodle Quiz** (vagy ekvivalens **H5P Question Set**), **12 item**, randomizált item- és válaszsorrend. |
 | **A kvíz szerepe** | **Formatív / diagnosztikus belépő** – nem ez az éles kapu. A kvíz azt mutatja meg a madrichnak ÉS a stábnak, melyik fogalomcsalád ül már és melyik szorul még felzárkózásra (M5.1–M5.4 / M5.F). **2–3 próbálkozás** engedélyezve; minden próbálkozás után **kérdés-szintű magyarázó visszajelzés + visszairányítás** a hibás itemekhez. Ajánlott diagnosztikus jelzőküszöb **≥ 80%** (12-ből ≥10 jó): alatta **nem-blokkoló** mentori jelzés és felzárkóztató műhely-ajánlás – **nem kizárás**. |
-| **Produktum – LMS-eszköz (ÉLES KAPU)** | **Moodle Assignment + rubrika** (lent, 4. szakasz) az M5.4 „Feladat–kvuca–módszer + tanulástan” táblázathoz. **Ez a modul elsődleges, éles (mastery) kapuja** – mint az M1/M7 modulokban a produktum-rubrika. |
+| **Produktum – LMS-eszköz (ÉLES KAPU)** | **Moodle Assignment + rubrika** (lent, 4. szakasz) az M5.4 „Feladat–kvuca–módszer + tanulástan” táblázathoz. **Ez a modul elsődleges, éles teljesítési kapuja** – mint az M1/M7 modulokban a produktum-rubrika. |
 | **Modul-szintű pass-szabály** | **A produktum-rubrika az elsődleges éles kapu** (kapu-filozófia, lásd Program terv §5): a modul akkor teljesített, ha a **leadott M5.4 táblázat minden rubrika-soron eléri legalább az „Alapszint”-et** (a kritikus **R4** soron is). A **kvíz formatív/diagnosztikus**: a ≥80% diagnosztikus jelző, nem kizáró feltétel – aki alatta van, **felzárkóztató hurokba** kerül (M5.F + a kvíz item-szintű analitikája alapján célzott visszairányítás), nem bukik. Így a 4. kimeneti (produkciós) kompetencia van élesen kapuzva, a fogalmi tudást pedig a kvíz **diagnosztizálja és fejleszti**, nem konvergens kvíz-kapuként szűri. *(Ez feloldja a korábbi kapu-elemzés „construct-rés” szempontját és a kapu-politika ütközést: egyetlen, kimondott kapu-logika él, nem két egymást kizáró opció.)* |
 
 **Miért 12 item / fogalomcsaládonként 4?** 12 itemnél a 80% azt jelenti, hogy legföljebb 2 hiba fér bele. Ha mindhárom fogalomcsaládra **4–4 item** jut, egyetlen gyengén értett terület (pl. nonformális vs. informális határeset) nem tud automatikusan „átengedni” vagy „megbuktatni”. Ezért az item-bank **fogalomcsaládonként 4 itemet** tartalmaz, **felismerő ÉS alkalmazás-szintű** keverékben.
@@ -64,7 +64,7 @@
 - C) = az *informális* tanulás leírása. Ez a leggyakoribb tévesztés (nonformális ↔ informális): a „nem suli” érzés alapján informálisnak címkézi a célzott programot.
 - D) = a „magányos” félreértés: az informálist az otthoni/egyedüli helyzetre szűkíti.
 
-**Visszajelzés:** A nonformális kulcsa a **szervezettség/tervezettség** és a **tudatos nevelési cél** – a cél nem jegyben, hanem **játékban, élményben, kvuca-beszélgetésben** jelenik meg. Ezért nem suli (A) és nem is céltalan random (C). A Somerben ehhez **önkéntes részvétel** is társul, de nem ez választja el a nonformálist az informálistól. Ha bizonytalan vagy: **M5.1, SLIDE 3.**
+**Visszajelzés:** A nonformális kulcsa a **szervezettség/tervezettség** és a **tudatos nevelési cél** – a cél nem jegyben, hanem **játékban, élményben, kvuca-beszélgetésben** jelenik meg. Ezért nem suli (A) és nem is tervezetlen, hétköznapi (C). A Somerben ehhez **önkéntes részvétel** is társul, de nem ez választja el a nonformálist az informálistól. Ha bizonytalan vagy: **M5.1, SLIDE 3.**
 
 ---
 
@@ -214,11 +214,11 @@
 - D) Amikor több külön napon, rövid blokkokban gyakorolsz, nem pedig egyszerre, egyben.
 
 **Distraktor-indokok:**
-- A) az **újraolvasás/újrahallgatás** – ezt sokan aktív felidézésnak hiszik, pedig passzív (ez a leggyakoribb tévesztés).
-- C) a madrich idéz fel, nem a chanich – a aktív felidézés épp az, hogy **ők** erőlködnek emlékezetből.
+- A) az **újraolvasás/újrahallgatás** – ezt sokan aktív felidézésnek hiszik, pedig passzív (ez a leggyakoribb tévesztés).
+- C) a madrich idéz fel, nem a chanich – az aktív felidézés épp az, hogy **ők** erőlködnek emlékezetből.
 - D) ez a **időben elosztott gyakorlás** definíciója – a két tanulástan-fogalom összekeverése.
 
-**Visszajelzés:** A aktív felidézés aktív: **ők** próbálják fejből előhívni az emléket. Az újraolvasás (A) és a madrich ismétlése (C) passzív; a D pedig a időben elosztott gyakorlás. (**M5.3, SLIDE 2 + Question Set Q2.**)
+**Visszajelzés:** Az aktív felidézés aktív: **ők** próbálják fejből előhívni az emléket. Az újraolvasás (A) és a madrich ismétlése (C) passzív; a D pedig az időben elosztott gyakorlás. (**M5.3, SLIDE 2 + Question Set Q2.**)
 
 ---
 
@@ -245,16 +245,16 @@
 **Egy madrich a tervébe odaírja: „időben elosztott gyakorlás”, és így indokolja: „egy alkalommal, jó alaposan, sokáig átveszem a kvucával a témát.” Mi a baj ezzel?**
 
 - A) Semmi, ez tényleg időben elosztott gyakorlás: a lényeg, hogy egyszerre, jó alaposan átvegyük a témát.
-- B) ✅ Amit leír, az **az ellenkezője** a időben elosztott gyakorlásnak: egy hosszú blokk, nem több elosztott alkalom.
+- B) ✅ Amit leír, az **az ellenkezője** az időben elosztott gyakorlásnak: egy hosszú blokk, nem több elosztott alkalom.
 - C) Az indoklása rendben, csak a téma nincs felírva a táblára; ettől eltekintve ez valóban időben elosztott gyakorlás.
 - D) A módszer jó, de előbb meg kellett volna kérdeznie a kvucát, akarják-e ezt a témát.
 
 **Distraktor-indokok:**
 - A) elfogadja a „időben elosztott gyakorlás = egyben magolás” tévedést – pont ez a dokumentumban jelzett #2 leggyakoribb félreértés.
 - C) felszíni operatív megjegyzés (tábla), ráadásul tévesen helyben hagyja a fogalmi hibát.
-- D) elirányít a fogalom lényegéről (a részvétel kérdése nem a időben elosztott gyakorlás definíciója).
+- D) elirányít a fogalom lényegéről (a részvétel kérdése nem az időben elosztott gyakorlás definíciója).
 
-**Visszajelzés:** A időben elosztott gyakorlás épp az **elosztott** gyakorlás: **több külön alkalommal, rövidebben** kerül elő ugyanaz (pl. 4×10 perc több héten át), nem 1× hosszan. Az „egyben magolás” a időben elosztott gyakorlás ellentéte. (**M5.3, SLIDE 3 True/False + Question Set Q3; M5.B élő kvíz 1. állítás.**)
+**Visszajelzés:** Az időben elosztott gyakorlás épp az **elosztott** gyakorlás: **több külön alkalommal, rövidebben** kerül elő ugyanaz (pl. 4×10 perc több héten át), nem 1× hosszan. Az „egyben magolás” az időben elosztott gyakorlás ellentéte. (**M5.3, SLIDE 3 True/False + Question Set Q3; M5.B élő kvíz 1. állítás.**)
 
 ---
 
@@ -270,7 +270,7 @@
 **Distraktor-indokok:**
 - A) csak tömött gyakorlás, **nincs időben elosztott gyakorlás** (egy blokk) és nincs aktív felidézés → gyorsan elhalványul.
 - B) a madrich aktív, a kvuca passzív – **nincs gyakorlás, nincs aktív felidézés**.
-- D) felolvasás = passzív újraolvasás; a heti ismétlés ugyan időben elosztott gyakorlás-szerű, de **hiányzik a aktív felidézés** (nem fejből idézik fel).
+- D) felolvasás = passzív újraolvasás; a heti ismétlés ugyan időben elosztott gyakorlás-szerű, de **hiányzik az aktív felidézés** (nem fejből idézik fel).
 
 **Visszajelzés:** A három együtt működik: a kvuca **csinál** (gyakorlás), **fejből idéz fel** (aktív felidézés), és **elosztva, többször találkozik** vele (időben elosztott gyakorlás). Csak az egyik (pl. sok gyakorlás egyben) kevés. (**M5.3, SLIDE 6 + Question Set Q5; M5.3 OUTRO.**)
 
@@ -279,7 +279,7 @@
 ## 4. Rubrika – M5.4 modulproduktum („Feladat–kvuca–módszer + tanulástan” táblázat)
 
 > **Eszköz:** Moodle **Assignment + rubrika** (a leadott táblázathoz, online-szövegként vagy fájlként). A táblázat minimum **3–4 sor**.
-> **Ez a modul ÉLES (mastery) kapuja** – a kvíz formatív/diagnosztikus, a tényleges továbblépést **ez a produktum-rubrika** dönti el (mint M1/M7). A rubrika **megfigyelhető sorai** a kapu-filozófiai elv (Program terv §5) szerinti négy láncot mérik: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4).**
+> **Ez a modul ÉLES teljesítési kapuja** – a kvíz formatív/diagnosztikus, a tényleges továbblépést **ez a produktum-rubrika** dönti el (mint M1/M7). A rubrika **megfigyelhető sorai** a kapu-filozófiai elv (Program terv §5) szerinti négy láncot mérik: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4).**
 > **Cél:** a kapu-validitási rés megszüntetése – a „minden sorban van-e cél + kvuca + módszer + tanulástan” bináris jelenlét-ellenőrzés helyett **megfigyelhető, szintezett** kritériumok (illik-e a módszer a célhoz; valódi tanulástan-elem vs. ráírt címke).
 > **Átmenő szabály (a kapu):** minden sorban legalább **„Alapszint”** mind a 4 kritériumon. A 4. sor (tanulástan-elem valódisága) **kritikus**: itt a „Hiányos” szint javításra visszaküldést jelent, mert ez a modul fő tanulástan-üzenete.
 
@@ -290,15 +290,15 @@
 | **R1** | **Feladat / cél konkrétsága** – a cél viselkedés/élmény szintű, nem csak címke | A cél címke vagy a műfaj neve: „peula”, „játék”, „beszélgetés”. Nem derül ki, mit tanuljon/éljen át a kvuca. | A cél megnevezi, **mit** szeretnél, hogy a kvuca tegyen/átéljen: pl. „megtanulják egymás nevét”, „a saját példáikat hozzák a szolidaritásról”. | A cél **megfigyelhető eredményt** ír le, amin látszana a siker: „a peula végén mindenki ki tud mondani 1 másik chanich nevét + 1 dolgot róla”. |
 | **R2** | **Kvuca megnevezése** – kor **ÉS** hangulat/jelleg szinten | Csak általánosság („gyerekek”, „a kvucám”) vagy semmi; kor és hangulat sem szerepel. | Megvan a **korosztály ÉS** legalább 1 hangulat-/jelleg-jegy: „13–14, energikus, sokat beszélnek”. | Kor + hangulat + a módszerválasztást **érdemben befolyásoló** részlet: „11–12, péntek délután fáradtak, néhányan visszahúzódók” – és ez később a módszerben vissza is köszön. |
 | **R3** | **Módszer–cél illeszkedés** – a módszer logikailag elvezet a megnevezett célhoz a megnevezett kvucánál | A módszer **nem illik** a célhoz: érték-reflexió célhoz puszta energizer; készség-célhoz frontális magyarázat; vagy a módszer hiányzik. | A módszer **megfelel** a célnak és a kvucának: ismerkedéshez játékos névjáték; együttműködés-gyakorláshoz közös feladat; szabály-megértéshez aktív, feldolgozós forma. | Az illeszkedés **indokolt is**: 1 mondatban kiderül, *miért* ez a módszer ehhez a célhoz és ehhez a kvucához a jó (pl. „mert a versengő kvucánál a közös szerep együttműködésre kényszerít”). |
-| **R4** | **Tanulástan-elem valódisága** (kritikus sor) – a 4. mező konkrét cselekvést ír le, nem csak a fogalom nevét ismétli | Csak a **címke** szerepel: „időben elosztott gyakorlás”, „aktív felidézés”, „gyakorlás” – cselekvés nélkül; vagy a megnevezett elem **nincs összhangban** a módszerrel (pl. „időben elosztott gyakorlás”, de a peula egyszeri és nem tér vissza). | A tanulástan-mező **konkrét cselekvést** ír le, ami valóban az adott fogalom: „következő pénteken rákérdezek, mire emlékeznek” = aktív felidézés; „a játék 3 héten át rövid blokkokban visszatér” = időben elosztott gyakorlás. *(Egyetlen, jól megírt elem már átmegy – de a visszajelzésben mondd ki: a időben elosztott gyakorlás akkor a legerősebb, ha **aktív felidézéssal párosul** („elosztva újra előhívják”, nem csak „újra látják”), és tedd fel a továbblépő kérdést: ezt a tervben hogyan kötnéd össze a másik kettővel?)* | Legalább 2 sorban megjelenik **2 különböző** tanulástan-elem, mindegyik konkrét cselekvéssel; és/vagy egy soron belül **több elem tudatos kombinációja** (pl. gyakorlás + aktív felidézés + időben elosztott gyakorlás egy tervben), helyesen használva – ahogy a Q12 helyes válasza is mutatja. |
+| **R4** | **Tanulástan-elem valódisága** (kritikus sor) – a 4. mező konkrét cselekvést ír le, nem csak a fogalom nevét ismétli | Csak a **címke** szerepel: „időben elosztott gyakorlás”, „aktív felidézés”, „gyakorlás” – cselekvés nélkül; vagy a megnevezett elem **nincs összhangban** a módszerrel (pl. „időben elosztott gyakorlás”, de a peula egyszeri és nem tér vissza). | A tanulástan-mező **konkrét cselekvést** ír le, ami valóban az adott fogalom: „következő pénteken rákérdezek, mire emlékeznek” = aktív felidézés; „a játék 3 héten át rövid blokkokban visszatér” = időben elosztott gyakorlás. *(Egyetlen, jól megírt elem már átmegy – de a visszajelzésben mondd ki: az időben elosztott gyakorlás akkor a legerősebb, ha **aktív felidézéssel párosul** („elosztva újra előhívják”, nem csak „újra látják”), és tedd fel a továbblépő kérdést: ezt a tervben hogyan kötnéd össze a másik kettővel?)* | Legalább 2 sorban megjelenik **2 különböző** tanulástan-elem, mindegyik konkrét cselekvéssel; és/vagy egy soron belül **több elem tudatos kombinációja** (pl. gyakorlás + aktív felidézés + időben elosztott gyakorlás egy tervben), helyesen használva – ahogy a Q12 helyes válasza is mutatja. |
 
 **Mintamondatok az értékelőnek (kalibrációhoz):**
 - **R4 Hiányos:** „Tanulástan: időben elosztott gyakorlás.” → csak címke, nincs cselekvés → vissza.
 - **R4 Alapszint:** „Tanulástan: a következő két pénteken 5 percre újra elővesszük ugyanezt a játékot.” → konkrét, valódi időben elosztott gyakorlás → átmegy. *(De a visszajelzésben told tovább: ha azokon a péntekeken nem újra megmutatod, hanem **fejből idéztetik fel** a kvucával, máris időben elosztott gyakorlás + aktív felidézés együtt – ettől ég be igazán. Ez a Q12-höz vezető lépés.)*
-- **Elvi megjegyzés (Q12 ↔ R4):** a modul fő tanulástan-üzenete, hogy a három elem **együtt** a legerősebb – a időben elosztott gyakorlás a **aktív felidézéssal kombinálva** üt a legnagyobbat („spaced aktív felidézés”), nem önmagában. Egyetlen izolált elem (pl. csak időben elosztott gyakorlás) az Alapszinten átmegy, **de a diagnosztikus visszajelzés mindig a kombináció felé bátorítson**, hogy a transzfer ne álljon meg egyetlen elemnél.
+- **Elvi megjegyzés (Q12 ↔ R4):** a modul fő tanulástan-üzenete, hogy a három elem **együtt** a legerősebb – az időben elosztott gyakorlás a **aktív felidézéssel kombinálva** üt a legnagyobbat („időben elosztott felidézés”), nem önmagában. Egyetlen izolált elem (pl. csak időben elosztott gyakorlás) az Alapszinten átmegy, **de a diagnosztikus visszajelzés mindig a kombináció felé bátorítson**, hogy a transzfer ne álljon meg egyetlen elemnél.
 - **R3 Hiányos:** cél „érték-reflexió a felelősségről”, módszer „energizer, aztán vége” → a módszer nem szolgálja a reflexiós célt → vissza.
 
-**Javítási útvonal (mastery-logikához):** ha valamelyik sor Hiányos, rövid, fejlesztő (SBI-jellegű) visszajelzés + a táblázat **újraleadása** – nincs kizárás, a cél a megértés. Ha többször elakad, a mentor az **M5.F (felzárkóztató műhely)** felé irányít, és átnézi, melyik fogalomcsalád gyenge (a kvíz item-szintű analitikájával összevetve).
+**Javítási útvonal (teljesítési logikához):** ha valamelyik sor Hiányos, rövid, fejlesztő (SBI-jellegű) visszajelzés + a táblázat **újraleadása** – nincs kizárás, a cél a megértés. Ha többször elakad, a mentor az **M5.F (felzárkóztató műhely)** felé irányít, és átnézi, melyik fogalomcsalád gyenge (a kvíz item-szintű analitikájával összevetve).
 
 ---
 
