@@ -79,7 +79,7 @@
 
 **Distraktor-indokok:**
 - A) „madrich = tanár” túláltalánosítás: a vezetett, kérdező helyzetet automatikusan formálisnak veszi.
-- C) a hangulatból következtet a kategóriára („kötetlen = informális, spontán”) – pont az a tévesztés, amit az M5.1 SLIDE 4 visszajelzésje cáfol: a tábortűz-reflexiónak van tervezett someres célja.
+- C) a hangulatból következtet a kategóriára („kötetlen = informális, spontán”) – pont az a tévesztés, amit az M5.1 SLIDE 4 visszajelzése cáfol: a tábortűz-reflexiónak van tervezett someres célja.
 - D) a „tanóra-keret hiánya = nincs kategória” tévhit.
 
 **Visszajelzés:** A **hangulat (laza/komoly) nem dönti el** a kategóriát – a **tudatos nevelési cél + szervezettség** dönti el. (A someres önkéntesség a Somer sajátja, de nem ez választja el a nonformálist az informálistól.) A tábortűz-reflexió tipikus nonformális helyzet. (**M5.1, SLIDE 4.**)
@@ -108,7 +108,7 @@
 
 ### Q4 – Felismerő (megkülönböztető jegy)
 
-**Mi az a *legbiztosabb* jegy, ami megkülönbözteti a nonformális someres peulát az informális „random élettől”?**
+**Mi az a *legbiztosabb* jegy, ami megkülönbözteti a nonformális someres peulát az informális, hétköznapi-spontán tanulástól?**
 
 - A) Hogy fiatalok vannak jelen, jó a hangulat, és mindenki jól érzi magát együtt.
 - B) Hogy van benne játék, mozgás és közös szórakozás, nem csak ülünk és beszélgetünk.
@@ -116,8 +116,8 @@
 - D) Hogy a madrich végig beszél, magyaráz, és ő irányítja, mi történjen a peulán.
 
 **Distraktor-indokok:**
-- A) a résztvevők/hangulat nem megkülönböztető jegy – random helyzetben is fiatalok és jó hangulat van.
-- B) a játék önmagában nem dönt: random este is játszotok (pl. FIFA), mégis informális.
+- A) a résztvevők/hangulat nem megkülönböztető jegy – hétköznapi, spontán helyzetben is fiatalok és jó hangulat van.
+- B) a játék önmagában nem dönt: spontán estén is játszotok (pl. FIFA), mégis informális.
 - D) ez nem megkülönböztető jegy: a sok madrich-beszéd akár formális helyzetben is jelen lehet, és önmagában nem teszi nonformálissá a peulát – a kategóriát a nevelési cél, nem a beszéd mennyisége dönti el.
 
 **Visszajelzés:** A nonformális megkülönböztető jegye a **tudatos nevelési cél**, nem a hangulat, nem a játék megléte. (**M5.1, SLIDE 3; M5.A zárás.**)
@@ -306,5 +306,5 @@
 
 - **Kérdés-szintű elemzés (M5 §7):** ha sokan elvétik **Q3-at vagy Q11-et**, az a tipikus félreértés (nonformális↔informális, időben elosztott gyakorlás↔magolás) – a következő évfolyamnak több határeset-példa kell M5.1 / M5.3 köré.
 - **Ha a Q5–Q8 (lánc) megy rosszul:** a sorrend-üzenet (M5.2 „cél az első”) erősítendő; tipikusan a Q6/Q7 (alkalmazás) bukik, ha csak a Q5 sorrend-tényt magolták.
-- **Magolás-védelem:** a kvíz itemei **eltérnek** a leckékbe ágyazott formatív kérdésektől (más szituációk, más megfogalmazás), és 2–3 próbálkozásnál a Moodle **randomizálja** az item- és válaszsorrendet, hogy a próbálkozások közt ne a pozíciót jegyezzék meg.
+- **Magolás-védelem:** a kvíz itemei **eltérnek** a leckékbe ágyazott formatív kérdésektől (más szituációk, más megfogalmazás), és 2–3 próbálkozásnál a Moodle **véletlenszerűsíti** az item- és válaszsorrendet, hogy a próbálkozások közt ne a pozíciót jegyezzék meg.
 - **Küszöb-érzékenység:** 12 itemnél a 80% = max 2 hiba. Ha egy évfolyamnál a bukás tömegesen 1 fogalomcsaládon múlik, érdemes az adott családban **+1–2 itemmel** bővíteni és a többszöri próbálkozáshoz cserélhető item-poolt tartani.
