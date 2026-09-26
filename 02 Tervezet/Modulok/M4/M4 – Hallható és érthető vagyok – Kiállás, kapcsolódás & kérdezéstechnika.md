@@ -11,7 +11,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), kb. 45–45’
 * **Online terhelés:** kb. 4×15–20 perc mikrolecke (M4.1–M4.4)
-* **Teljes terhelés:** **a program-szintű kb. 2–3,5 órás modul-sávon belül (lásd Program terv §0) az M4 mint produktum-modul effektíve a felső felében, kb. 2,5–3,5 óra (online + offline) – tervezz inkább a felső, ~3,5 órás értékkel.** A becslés őszintén felfelé kerekített: a két peula (2×45’) önmagában ~1,5 óra, az online leckék ~60–75 perc, **és erre jön a modulproduktum (M4.4 peula-pitch váz) tényleges megírása + finomítása**, amit könnyű alulbecsülni. A pitch-váz az M4.4 online lecke ~15 perce alatt elindul, de a kvucára szabott, leadható verzió kidolgozása (és az M4.B-n a hangos gyakorlás) reálisan **további ~20–30 perc** – ezt a teljes terhelésbe beleszámoltuk.
+* **Teljes terhelés:** **a program-szintű kb. 2–3,5 órás modul-sávon belül (lásd Program terv §0) az M4 mint produktum-modul effektíve a felső felében, kb. 2,5–3,5 óra (online + offline) – tervezz inkább a felső, ~3,5 órás értékkel.** A becslés őszintén felfelé kerekített: a két peula (2×45’) önmagában ~1,5 óra, az online leckék ~60–75 perc, **és erre jön a modulproduktum (M4.4 peulabemutató-vázlat) tényleges megírása + finomítása**, amit könnyű alulbecsülni. A peulabemutató-vázlat az M4.4 online lecke ~15 perce alatt elindul, de a kvucára szabott, leadható verzió kidolgozása (és az M4.B-n a hangos gyakorlás) reálisan **további ~20–30 perc** – ezt a teljes terhelésbe beleszámoltuk.
 * **Terhelés-megjegyzés (peulavezetőnek):** a peula-percbontások feszesek; **minden peulában van „mag” (el nem hagyható) és „rövidíthető/elhagyható” rész** – ezeket a peula-fájlok blokkonként jelölik. Ha csúszol, a rövidíthető részekből vegyél vissza, ne a feldolgozásból / zárókörből. **Tervezz ~10–15% puffert** (késés, technika, érzelmileg ráhangolódó kör), hogy a zárás ne maradjon ki.
 * **Tartalmi eredet (provenance):** **ember által írt / AI-asszisztált tananyag** – ahol generatív AI-t használtunk (szöveg, kvíz-item, distraktor, ábra, AI-videó), azt a leckében külön jelöljük.
 * **Szakmai lektorálás:** **lektor: [ ] · dátum: [ ] · verzió: [ ]** (a gyermekvédelmi és érzékeny tartalmat éles indítás előtt embernek kell jóváhagynia – UNESCO AI-etika: emberi felügyelet + átláthatóság).
@@ -22,7 +22,7 @@
 > **mennyire értik, mit akarok, és mennyire érzik, hogy rájuk figyelek?**”
 
 **Modulcél röviden:**
-A résztvevő tudatosabban használja a **testét**, **tudatosul benne, hogy a hangja (hangerő, tempó) is hat az érthetőségére**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es peula-pitchre**, amit egy konkrét kvucának címez.
+A résztvevő tudatosabban használja a **testét**, **tudatosul benne, hogy a hangja (hangerő, tempó) is hat az érthetőségére**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es rövid peulabemutatóra**, amit egy konkrét kvucának címez.
 
 ***
 
@@ -46,9 +46,9 @@ A modul végére a résztvevő…
    * Különbséget tud tenni **nyitott, zárt, tisztázó, irányító** kérdések között, és példát tud mondani mindegyikre.
    * Tudatosan választ kérdéstípust a peula különböző szakaszaiban (megnyitás, tisztázás, lezárás).
      *(Főleg: M4.3, M4.B)*
-5. **45 mp-es peula-pitch**
-   * Elkészít egy **max. 45 mp-es pitch-vázat** egy konkrét kvucára (lehetőleg arra, akikkel tényleg dolgozni fog).
-   * A pitchben megjelenik, hogy **tudja, kikhez beszél**, miről szól a peula, miért fontos nekik, mit fognak csinálni, és mit szeretne, hogy hazavigyenek.
+5. **45 mp-es peulabemutató**
+   * Elkészít egy **max. 45 mp-es peulabemutató-vázlatot** egy konkrét kvucára (lehetőleg arra, akikkel tényleg dolgozni fog).
+   * A bemutatóban megjelenik, hogy **tudja, kikhez beszél**, miről szól a peula, miért fontos nekik, mit fognak csinálni, és mit szeretne, hogy hazavigyenek.
      *(Főleg: M4.4, M4.B)*
 
 ***
@@ -76,11 +76,11 @@ A modul végére a résztvevő…
 * **Formátum:** H5P Course Presentation; sorting feladat 4 oszloppal + mini-kvíz a végén.
 * **Completion:** lecke végignézve + záró reflektív kérdés (melyik kérdéstípusból szeretne többet/kevesebbet használni).
 
-### M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára (L4, 15–20’)
+### M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára (L4, 15–20’)
 
-* **Szerepe a modulban:** a modul **produktumának előkészítése** – konkrét pitch-váz egy valós/valószerű kvucára.
-* **Kulcstémák:** 5 kérdéses pitch-sablon (kihez beszélsz, miről szól, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza).
-* **Formátum:** H5P Course Presentation + külön Moodle Assignment („M4.4 – Peula-pitch váz”) – ez lesz a modul kimeneti produktuma.
+* **Szerepe a modulban:** a modul **produktumának előkészítése** – konkrét peulabemutató-vázlat egy valós/valószerű kvucára.
+* **Kulcstémák:** 5 kérdéses peulabemutató-sablon (kihez beszélsz, miről szól, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza).
+* **Formátum:** H5P Course Presentation + külön Moodle Assignment („M4.4 – Peulabemutató-vázlat”) – ez lesz a modul kimeneti produktuma.
 * **Completion (modul-szinten kulcs):** H5P lecke végignézve + **M4.4 Assignment leadva** – **nem üres beküldés**: az 5 sablon-elem (kvuca, téma, miért fontos nekik, mit csináltok, mit vigyenek haza) azonosíthatóan jelen van (a §6 Kapu 2 „még nem éri el” szintje nem számít leadott produktumnak).
 
 ***
