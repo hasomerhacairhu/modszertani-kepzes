@@ -11,7 +11,7 @@
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
-    "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment/Workshop feltöltéshez, kitölthető PDF vagy Google/Word sablon); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézzel kitöltéshez."
+    "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment-feltöltéshez, kitölthető PDF vagy Google/Word sablon); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézzel kitöltéshez."
   },
   "a11y": {
     "note": "Akadálymentes nyomtatott/digitális űrlap: logikus olvasási sorrend, valódi szöveg (nem képbe ágyazott), kitölthető PDF-nél címkézett űrlapmezők (tab-sorrend, képernyőolvasó-kompatibilis mezőnevek); elegendő kontraszt; egyszerű, sallangmentes magyar instrukciós szöveg minden rovatnál."
@@ -72,7 +72,7 @@ A modul végére a madrich…
      * lépésről lépésre leírást és szükséges eszközöket,
      * biztonsági megjegyzéseket,
      * inkluzív variációkat („ha valakinek ez nehéz, akkor…”).
-       *(Főleg: M6.4, M6.B, M6 játéklap Assignment / Workshop)*
+       *(Főleg: M6.4, M6.B, M6 játéklap Assignment)*
 
 ## 3. Online mikroleckék (L1–L4)
 
@@ -203,9 +203,9 @@ A modul végére a madrich…
   * **≥80% eredmény (12 itemből legfeljebb 2 hiba, vagyis 10/12) önellenőrző célként**, **korlátlan próbálkozással**, **randomizált item-sorrenddel / kicserélhető item-poolból** (hogy a megértésen legyen a hangsúly, ne a magoláson),
   * ha kevesebb sikerül: rövid feedback, mely leckét érdemes visszanézni (pl. M6.1: kvucák, M6.3: inkluzivitás) **a játéklap leadása előtt** – főleg ha biztonsági/inkluzivitási itemnél hibáztál.
 
-### 6.2. Játéklap – Workshop + rubrika *(ELSŐDLEGES ÉLES KAPU)*
+### 6.2. Játéklap – Assignment + rubrika *(ELSŐDLEGES ÉLES KAPU)*
 
-* **Eszköz:** Moodle Workshop vagy Assignment + peer feedback (M6 játéklap feladat).
+* **Eszköz:** Moodle Assignment + rubrika (M6 játéklap feladat). A peer-feedback az M6.B élő workshop része.
 * **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
 * **Rubrika fő sorai** (a mérvadó **5 soros (R1–R5)** rubrika a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) él – itt csak az áttekintés):
   1. **R1 – Cél-illeszkedés** – világos-e, mit tanít / mire való az eszköz; **„erős” szinten 1 mondatban a someres értékhez (kvuca, egalitás, társadalmi felelősség) is kapcsolódik**.
@@ -216,7 +216,7 @@ A modul végére a madrich…
 * **Követelmény:**
   * rubrikában min. „oké” (2) szint **minden sorban**,
   * **a Biztonság (R4) ÉS az Inkluzivitás (R5) sor egyaránt hard-gate**: ha **bármelyik** nem éri el az „oké” szintet → javítás kötelező (mentorral / stábbal egyeztetve), a többi sortól függetlenül.
-* **Ki dönt a hard-gate-en (peer↔mentor felelősség-határ):** ha a kapu **Workshop-módban (peer-pontozással)** fut, a peer-pontozás **fejlesztő és kalibráló**; a **Biztonság (R4)** és **Inkluzivitás (R5)** hard-gate **blokkoló döntését** és a **„javításra megy”** kimenetet **mindig mentor / stáb hozza meg** – a peer-pontszám önmagában **nem zár le és nem buktat biztonsági soron**. (Részletes peer–stáb kalibráció a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).)
+* **Ki dönt a hard-gate-en (peer↔mentor felelősség-határ):** az M6.B társas visszajelzése **fejlesztő és kalibráló**; a **Biztonság (R4)** és **Inkluzivitás (R5)** hard-gate **blokkoló döntését** és a **„javításra megy”** kimenetet **mindig mentor / stáb hozza meg** – a peer-pontszám önmagában **nem zár le és nem buktat biztonsági soron**. (Részletes peer–stáb kalibráció a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).)
 
 ### Minimális teljesítés (M6 complete)
 
