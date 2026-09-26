@@ -7,7 +7,7 @@
   "mode": "generate",
   "title": "Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu",
   "purpose": "Vizuálisan érthetővé teszi a időben elosztott, két menetben érő félévzáró logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
-  "spec": "Idővonal/folyamatábra a félévzáró feladat két lépcsőjéről, időben szétterítve: (1) v1 – elsővázlat-ellenőrzési pont az M7 hét 1 végén, M7.A után (formatív, alacsony tét, rubrika-előnézet, NEM buktat, újrapróbálható, M7.4 Assignment); (2) ~1 hét köztes fejlesztési idő, csiszolás az M7.B peula-klinikán és otthon; (3) v2 – teljesítési kapu az M7 hét 2 végén, M7.B után (éles kapu: rubrika + kvíz). Jelölje a két nyitott döntés határidő-helyet.",
+  "spec": "Idővonal/folyamatábra a félévzáró feladat két lépcsőjéről, időben szétterítve: (1) v1 – elsővázlat-ellenőrzési pont az M7 hét 1 végén, M7.A után (formatív, alacsony tét, rubrika-előnézet, NEM buktat, újrapróbálható, M7.4 Assignment); (2) ~1 hét köztes fejlesztési idő, csiszolás az M7.B peula-műhelyben és otthon; (3) v2 – teljesítési kapu az M7 hét 2 végén, M7.B után (éles kapu: rubrika + kvíz). Jelölje a két nyitott döntés határidő-helyet.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
@@ -68,7 +68,7 @@
   "blockers": [
     "R5"
   ],
-  "notes": "A részletes capstone-átkötés-tábla az „M7 – KAPU\" §PORTFÓLIÓ-ÁTKÖTÉS-ban él (line 213, 222); ez a hub-ábra annak vizuális, ezen a fájlon belül is használt összefoglalója.",
+  "notes": "A részletes félévzáró szintézis-átkötés-tábla az „M7 – KAPU\" §PORTFÓLIÓ-ÁTKÖTÉS-ban él (line 213, 222); ez a hub-ábra annak vizuális, ezen a fájlon belül is használt összefoglalója.",
   "legacy": {
     "alt-text": [
       "M7-HUB-ALT-03"
@@ -124,7 +124,7 @@
   * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
   * **v1 → v2 véglegesítés** (az M7.B peula-klinika visszajelzései után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **biztonsági rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, etikus AI-átírás, és a **portfólió-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 biztonsági keret/kvuca-profil · M5 módszer · M6 játéklap).
   * **Mastery-kvíz** (14 item, esetleg 2–3 próbálkozás): **~15–25 perc**.
-  * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 1,5–2,5 óra**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrichoknak (alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok), és adj hozzá **védett munkaidőt** (pl. M7.B-klinika + M7.F study lab).
+  * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 1,5–2,5 óra**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrichoknak (alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok), és adj hozzá **védett munkaidőt** (pl. M7.B-klinika + M7.F felzárkóztató műhely).
 * **Teljes terhelés:** kb. **2,5–3 óra kontaktidő (online mikroleckék + 2 peula)** **+ kb. 1,5–2,5 óra önálló szintézis-produktum-munka (Peula v2 véglegesítés + kvíz)** → reálisan **össz. ~4–5,5 óra** a félévzáró kapuig.
 
 **Modulközponti kérdés**
@@ -147,7 +147,7 @@ A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucá
 > A félévzáró feladat **két lépcsőben** érik be – szándékosan **időben szétterítve** , hogy a peuládat ne egy lélegzetre, hanem két menetben csiszold:
 >
 > * **v1 – elsővázlat-ellenőrzési pont (M7 hét 1 vége, az M7.A után):** leadod a **Peula v1 első vázlatot** (M7.4 Assignment). Ez **alacsony tét**: rubrika-**előnézet**, NEM buktat, **újrapróbálható** – a célja, hogy lásd, hova tartasz, és hol kérsz segítséget. (Dátum: a Moodle-ben előre beállított és kommunikált v1-határidő)
-> * **~1 hét köztes fejlesztési idő:** a v1 visszajelzései után, **az M7.B peula-klinikán és otthon** csiszolod a vázlatot – nem aznap, hanem a két hét közti időben érik be a gondolat.
+> * **~1 hét köztes fejlesztési idő:** a v1 visszajelzései után, **az M7.B peula-műhelyben és otthon** csiszolod a vázlatot – nem aznap, hanem a két hét közti időben érik be a gondolat.
 > * **v2 – teljesítési kapu (M7 hét 2 vége, az M7.B után):** leadod a **véglegesített Peula v2 + Zmán Kvucá-operációt** – ez a tényleges, éles teljesítési kapu (rubrika + kvíz, lásd „M7 – KAPU”). (Dátum: a Moodle-ben előre beállított és kommunikált v2-határidő)
 >
 > A v1 és a v2 **ugyanaz a peula**, két érettségi fokon: a v1 a próba, a v2 a vállalható, megtartható verzió. A portfólió-átkötés (M1 SBI … M6 játéklap → v2) ezt táplálja – részletesen a §6 PORTFÓLIÓ-BEMENET és az „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS.
@@ -162,7 +162,7 @@ A modul végére a madrich…
    * 2–3 „szétfolyó” célt át tud írni **SMART nevelési céllá** egy adott kvucára (M7.1, M7.A).
    * Érti, hogyan kapcsolódik a cél Somer-értékhez / kvuca-állapothoz (M7.1, M7.4).
 2. **„Peula 11 pontja” – modern, AI-támogatott verzió**
-   * **Azonosítja a Peula 11 pontjának fázisait egy adott peulavázban** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél/SMART, 5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista, 9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió – Peula v2) (M7.2).
+   * **Azonosítja a Peula 11 pontjának fázisait egy adott peulavázban** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél/SMART, 5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista, 9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió & továbbfejlesztés) (M7.2).
    * Képes ezek mentén **Peula v2-t írni**, és AI-t használni ötleteléshez, nyelvi finomításhoz – anélkül, hogy lemásolná az AI-szöveget (M7.2, M7.4, M7.A).
 3. **Zmán Kvucá & operáció**
    * Érti, mit jelent a **Zmán Kvucá** mint időkeret, felelősség és gyermekvédelmi kontextus (M7.3).
@@ -290,7 +290,7 @@ A modul végére a madrich…
 
 ***
 
-## 5. Felzárkóztató peula (M7.F) – „Study Lab: Peula & Zmán Kvucá” (45’)
+## 5. Felzárkóztató peula (M7.F) – „felzárkóztató műhely: Peula & Zmán Kvucá” (45’)
 
 <!-- @asset
 {
@@ -299,7 +299,7 @@ A modul végére a madrich…
   "mode": "generate",
   "title": "Modul-fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2",
   "purpose": "A lemaradóknak (M7.F) egységes mentális térkép a modul négy fő fogalmáról; vizuálisan rögzíti a cél→tervezés→operáció→produktum ívet, amihez az M7.A/B peulák kapcsolódnak (line 184).",
-  "spec": "A modul négy kulcsfogalmát összekötő fogalomtérkép: SMART nevelési cél → Peula 11 pontja → Zmán Kvucá-checklist → Peula v2 logikai egymásra épülése, irányított nyilakkal (cél táplálja a tervezést, a tervezés az operációt, ezekből áll össze a Peula v2). A legyártandó verzió egy KIINDULÓ/alap-térkép, amelyet az M7.F study labon élőben, közös beszélgetéssel egészítenek ki (line 189), ezért hagyjon helyet a kézi kiegészítésnek.",
+  "spec": "A modul négy kulcsfogalmát összekötő fogalomtérkép: SMART nevelési cél → Peula 11 pontja → Zmán Kvucá-checklist → Peula v2 logikai egymásra épülése, irányított nyilakkal (cél táplálja a tervezést, a tervezés az operációt, ezekből áll össze a Peula v2). A legyártandó verzió egy KIINDULÓ/alap-térkép, amelyet az M7.F felzárkóztató műhelyon élőben, közös beszélgetéssel egészítenek ki (line 189), ezért hagyjon helyet a kézi kiegészítésnek.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
@@ -337,7 +337,7 @@ A modul végére a madrich…
   * Segíteni azoknak, akik lemaradtak az M7.1–M7.4 leckékkel, hogy **értsék a fő fogalmakat** (SMART, Peula 11 pont, Zmán Kvucá-checklist, Peula v2 + AI),
   * valódi, védett időt adni a pótlásra,
   * egy egyszerű **fogalom-térképet** adni a modulhoz, amihez az M7.A/B peulák kapcsolódnak.
-* **Hangnem:** támogató, nem büntető – „study lab”, nem pótvizsga.
+* **Hangnem:** támogató, nem büntető – „felzárkóztató műhely”, nem pótvizsga.
 * **Rövid váz:**
   * Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben, hol tart az M7.1–M7.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   * Csendes online munka fülessel: mindenki a saját tempójában pótol / újranéz 1–2 leckét.
@@ -349,15 +349,15 @@ A modul végére a madrich…
 ## 6. Kapuk
 
 * **Kaputípus:**
-  **Éles (hard/mastery) kapu**, mert peula- és gyermekbiztonság-fókuszú modulról van szó – itt nem elég a „kb. értem”.
+  **Éles teljesítési kapu**, mert peula- és gyermekbiztonság-fókuszú modulról van szó – itt nem elég a „kb. értem”.
 
-> **Hol történik a tényleges Peula v2 mastery-leadás? (kétkapus, időben szétterítve)**
+> **Hol történik a tényleges Peula v2 teljesítési leadása? (kétkapus, időben szétterítve)**
 > A félévzáró feladat **két lépcsőben** érik be:
 > – **v1 – elsővázlat-ellenőrzési pont (hét 1 vége, M7.A után):** az M7.4 Assignment („Peula v1 – első vázlat”) **fejlesztő** (0/1 completion), **alacsony tét, rubrika-előnézettel, újrapróbálható, NEM buktat** – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu. (Határidő: a Moodle-ben előre beállított és kommunikált v1-határidő)
-> – **~1 hét köztes fejlesztési idő:** a v1 visszajelzései után a finomítás az **M7.B peula-klinikán és otthon** történik, nem aznapi v1→v2, hanem külön fejlesztési szakaszban.
+> – **~1 hét köztes fejlesztési idő:** a v1 visszajelzései után a finomítás az **M7.B peula-műhelyben és otthon** történik, nem aznapi v1→v2, hanem külön fejlesztési szakaszban.
 > – **v2 – teljesítési kapu (hét 2 vége, M7.B után):** a **véglegesített Peula v2 + Zmán Kvucá** leadása az **éles kapu**. (Határidő: a Moodle-ben előre beállított és kommunikált v2-határidő)
 > A részletes értékelőt (item-bank, 8 soros rubrika, blokkoló biztonsági sor, ponthoz kötött ≥70%) az **[M7 – KAPU – értékelő (item-bank + rubrika)](./M7%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** fájl tartalmazza.
-> **Horgonyzás:** a végleges Peula v2-t a **félév végén, mentor / képző** zárja le ezen az éles kapun – ez NEM csúszik a modulon kívülre, és a Z modul completion-alapú reflexiója **nem helyettesíti** ezt a mastery-értékelést.
+> **Horgonyzás:** a végleges Peula v2-t a **félév végén, mentor / képző** zárja le ezen az éles kapun – ez NEM csúszik a modulon kívülre, és a Z modul completion-alapú reflexiója **nem helyettesíti** ezt a teljesítési-értékelést.
 
 1. **Moodle Assignment – „Peula v2 + Zmán Kvucá” (modulproduktum)**
    * **Beadás:**
@@ -367,14 +367,14 @@ A modul végére a madrich…
    > **PORTFÓLIÓ-BEMENET – a Peula v2 nem nulláról indul.**
    > A félév szintézis-produktuma a korábbi modulok kész produktumaira épít (tükrözve az „M7 – KAPU” portfólió-átkötési tábláját):
    >
-   > * **M1 – SBI** (Situation–Behavior–Impact): az utóreflexió (11. pont) és a javítási útvonal visszajelzése SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő társas visszajelzés a peula-tervezés szempontjaira épül (SMART / Zmán Kvucá), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni.
+   > * **M1 – megfigyelés, értelmezés, SBI-visszajelzés:** az M7.A/M7.B műhelyben a társas visszajelzés konkrétumokra épül, nem címkékre. A 11. pontban ugyanez a fegyelem tér vissza: a megtartás után előbb azt rögzíted, mi történt és mit figyeltél meg, csak utána értelmezed a hatást és döntesz a változtatásról.
    > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd.
    > * **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá biztonsági része és a kvuca-illeszkedés a korábban tanult gyermekvédelmi keretre és a someres kvuca-profilra támaszkodik.
-   > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch): a Peula 11-pont **élmény- és feldolgozó-blokkja** (5–6. pont) és a **Visszajelzés és finomhangolás** (10. pont) és az élő levezetés erre épül – a feldolgozó kérdéseid és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
+   > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, rövid peulabemutató): a Peula 11-pont **élmény- és feldolgozó-blokkja** (5–6. pont) és a **Visszajelzés és finomhangolás** (10. pont) és az élő levezetés erre épül – a feldolgozó kérdéseid és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
    > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők itt élnek tovább.
    >
-   > Üzenet a madrichnak: „Hozd be az M1 SBI-nyelvet, az M2 saját értékedet, az M3 biztonsági keretet, az M4 kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5 módszer-logikádat és egy M6 játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS.)
+   > Üzenet a madrichnak: „Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2 saját értékedet, az M3 biztonsági keretet, az M4 kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5 módszer-logikádat és egy M6 játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS.)
 
    * **Rubrika-minimum (példa):**
      1. SMART cél – egyértelmű, someres értékhez kötött.
@@ -447,4 +447,4 @@ A modul végére a madrich…
 
 [M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal](./Peulák/M7.B%20–%20Peula%20v2%20&%20Zmán%20Kvucá%20–%20amikor%20a%20papír%20találkozik%20a%20valósággal.md)
 
-[M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab)](./Peulák/M7.F%20–%20Felzárkóztató%20peula%20–%20Peula%20&%20Zmán%20Kvucá%20%28Study%20Lab%29.md)
+[M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (felzárkóztató műhely)](./Peulák/M7.F%20–%20Felzárkóztató%20peula%20–%20Peula%20&%20Zmán%20Kvucá%20%28Study%20Lab%29.md)
