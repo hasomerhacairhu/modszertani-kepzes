@@ -55,7 +55,7 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M4-02 | BUILD_OUTPUT | M4 | M4.2 – Aktív hallgatás | H5P-C | igen | M4/Online leckék/M4.2 | LMS-M4-01 | forrás szerinti saját mondattal | nincs | M4_L2 | |
 | LMS-M4-03 | BUILD_OUTPUT | M4 | M4.3 – Kérdezési minták | H5P-C | igen | M4/Online leckék/M4.3 | **M4.A után** | mini-kvíz + reflexió | diagnosztikus | M4_L3 | |
 | LMS-M4-04 | BUILD_OUTPUT | M4 | M4.4 – 45 mp-es peula-pitch | H5P-C | igen | M4/Online leckék/M4.4 | LMS-M4-03 | H5P befejezve | nincs | M4_L4 | |
-| LMS-M4-05 | BUILD_OUTPUT | M4 | M4.4 – Peula-pitch váz | ASSIGN-S | igen | M4.4 + M4 hub §6 | **M4.B után** | 5 sablonelem azonosítható | puha kapu; hiányosnál mentor + újrabeadás | M4_ASSIGN | peer feedback leadás előtt |
+| LMS-M4-05 | BUILD_OUTPUT | M4 | M4.4 – Peula-pitch váz | ASSIGN-S | igen | M4.4 + M4 hub §6 | **M4.B után** | 5 sablonelem azonosítható | puha kapu; hiányosnál mentor + újrabeadás | M4_ASSIGN | társas visszajelzés a leadás előtt |
 | LMS-M5-01 | BUILD_OUTPUT | M5 | M5.1 – Mi a nonformális nevelés? | H5P-C | igen | M5/Online leckék/M5.1 | **M4 complete** | profil | nincs | M5_L1 | |
 | LMS-M5-02 | BUILD_OUTPUT | M5 | M5.2 – Feladat → cél → kvuca → módszer | H5P-C | igen | M5/Online leckék/M5.2 | LMS-M5-01 | profil | nincs | M5_L2 | |
 | LMS-M5-03 | BUILD_OUTPUT | M5 | M5.3 – Hogyan tanulunk tényleg? | H5P-C | igen | M5/Online leckék/M5.3 | **M5.A után** | profil | nincs | M5_L3 | Dialog Cards runtime teszt |
@@ -66,7 +66,7 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M6-02 | BUILD_OUTPUT | M6 | M6.2 – Történet mint tükör | H5P-C | igen | M6/Online leckék/M6.2 | LMS-M6-01 | profil | nincs | M6_L2 | |
 | LMS-M6-03 | BUILD_OUTPUT | M6 | M6.3 – Kézműves, ami tanít is | H5P-C | igen | M6/Online leckék/M6.3 | **M6.A után** | profil | nincs | M6_L3 | fotó csak HUM-PRIV-02 szerint |
 | LMS-M6-04 | BUILD_OUTPUT | M6 | M6.4 – Döntési szcenáriók | H5P-C | igen | M6/Online leckék/M6.4 | LMS-M6-03 | **legalább 3 külön eset tényleges teljesítése** | nincs | M6_L4 | runtime bizonyítandó |
-| LMS-M6-05 | BUILD_OUTPUT | M6 | M6 – Játéklap | ASSIGN-M | igen | M6.B + M6 KAPU | **M6.B után** | leadva + mentor által megerősített rubrika | minden sor ≥2; **R4 és R5 hard gate** | M6_ASSIGN | peer-feedback élőben, nem Moodle Workshop |
+| LMS-M6-05 | BUILD_OUTPUT | M6 | M6 – Játéklap | ASSIGN-M | igen | M6.B + M6 KAPU | **M6.B után** | leadva + mentor által megerősített rubrika | minden sor ≥2; **R4 és R5 blokkoló feltétel** | M6_ASSIGN | társas visszajelzés élőben, nem Moodle Workshop |
 | LMS-M6-06 | BUILD_OUTPUT | M6 | M6 – Szcenárió-önellenőrzés | QUIZ-D | igen | M6 KAPU | LMS-M6-04 | kitöltve | ≥10/12 csak diagnosztikus jelző | M6_QUIZ | korlátlan újrapróbálás |
 | LMS-M7-01 | BUILD_OUTPUT | M7 | M7.1 – SMART nevelési cél | H5P-C | igen | M7/Online leckék/M7.1 | **M6 complete** | profil | nincs | M7_L1 | |
 | LMS-M7-02 | BUILD_OUTPUT | M7 | M7.2 – Peula 11 pont + AI | H5P-C | igen | M7/Online leckék/M7.2 | LMS-M7-01 | profil | nincs | M7_L2 | AI opcionális, no-AI út kötelező |
@@ -133,7 +133,7 @@ Az implementáció alapja a `neongodio/moodle-ai-mcp` **Core 1.0** állapota, a 
 | böngészőszintű vizuális/a11y QA, screen reader, mobil, zoom, billentyűzet | **RUNTIME ACCEPTANCE**, nem MCP |
 | learner grade vagy per-user completion írása | **NEM TÁMOGATOTT**, nem kerül workarounddal automatizálásra |
 
-**M6 első kiadás:** nincs Moodle Workshop-függőség. A peer-feedback az M6.B élő peulán történik, a játéklap Moodle **Assignment**, a hard-gate végső értékelője mentor/képző.
+**M6 első kiadás:** nincs Moodle Workshop-függőség. A társas visszajelzés az M6.B élő peulán történik, a játéklap Moodle **Assignment**, a blokkoló feltétel végső értékelője mentor/képző.
 
 ## 6. Build és visszaaudit protokoll
 
