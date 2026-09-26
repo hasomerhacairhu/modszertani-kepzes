@@ -11,13 +11,13 @@
 
 **Modulközponti kérdés**
 
-> Ha valaki ránéz egy someres peulára, honnan látszik rajta, hogy ez **nem suli, nem is random lógás**, hanem **nonformális nevelés**?
+> Ha valaki ránéz egy someres peulára, honnan látszik rajta, hogy ez **nem suli, és nem is pusztán spontán lógás**, hanem **nonformális nevelés**?
 
 **Modulcél röviden**
 
 A modul végére **megnevezed**, mitől nonformális a someres nevelés, **alkalmazod** a tudatos **feladat → cél → kvuca → módszer** logikát, és saját szavaiddal **elmagyarázod**, hogyan tanulnak tényleg a chanichok (**gyakorlás, aktív felidézés, időben elosztott gyakorlás**).
 
-> 🔁 **Honnan jössz:** Az M4-ben megírtad az első, kvucára szabott **peula-pitchedet** (téma + kvuca). Itt ezt visszük tovább: ugyanaz a kvuca és témakör lehet az **M5.4 „Feladat–kvuca–módszer” táblázatod** egyik kiinduló sora – most a tudatos **módszer-** és **tanulástan-szempontot** tesszük hozzá.
+> 🔁 **Honnan jössz:** Az M4-ben megírtad az első, kvucára szabott **peulabemutató-vázlatodat** (téma + kvuca). Itt ezt visszük tovább: ugyanaz a kvuca és témakör lehet az **M5.4 „Feladat–kvuca–módszer” táblázatod** egyik kiinduló sora – most a tudatos **módszer-** és **tanulástan-szempontot** tesszük hozzá.
 
 **Célcsoport:** képzős madrichok / madrichot (kb. 15+)
 
@@ -26,7 +26,7 @@ A modul végére **megnevezed**, mitől nonformális a someres nevelés, **alkal
 A modul végére a madrich / madricha…
 
 1. **Megkülönbözteti a formális, nonformális és informális tanulási helyzeteket.**
-   * Legalább 6–8 konkrét példát be tud sorolni „inkább suli / Somer / random élet” kategóriákba (M5.1, M5.A).
+   * Legalább 6–8 konkrét példát be tud sorolni „inkább suli / Somer / hétköznapi, spontán helyzet” kategóriákba (M5.1, M5.A).
 2. **Tudatosan használja a feladat → cél → kvuca → módszer gondolkodást.**
    * Végig tud menni a soron: *„Mi a feladatom? → Mi a nevelési célom? → Milyen kvucával dolgozom? → Milyen módszer illik ide?”* (M5.2, M5.A, M5.4).
 3. **Elmagyarázza az alap tanulástan-fogalmakat és alkalmazza őket a saját peuláira.**
@@ -188,7 +188,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 > A 12-itemes item-bank, a distraktor-logika és a 4-soros, megfigyelhető rubrika (R1–R4) a hivatalos KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, aktív felidézés, időben elosztott gyakorlás) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem random játékot raksz be, hanem a SMART nevelési célhoz és a kvucához illő módszert.
+> **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, aktív felidézés, időben elosztott gyakorlás) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem egy véletlenszerű játékból indulsz, hanem a SMART nevelési célhoz és a kvucához illő módszert.
 
 ## 7. Learning analytics – mit figyeljen a stáb az M5-nél?
 
