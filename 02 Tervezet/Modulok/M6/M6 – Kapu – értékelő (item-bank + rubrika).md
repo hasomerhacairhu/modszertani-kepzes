@@ -26,7 +26,7 @@ Ez az M6 kapu **két komponensének** kész értékelő-anyaga. A kettő **nem e
 
 > A modul nonformális, élmény- és produktum-alapú. Az **M6.4 Branching** szándékosan **divergens** („nem az volt a lényeg, hogy »eltaláld a jó választ«”): ott a tudatos mérlegelés a tét, nem az egyetlen helyes opció. Egy ezután következő, **konvergens, egy-helyes-válaszos ≥80%-os kvíz** ezzel **ellentmondana** – a „sulis” logikát hozná vissza épp ott, ahol a tananyag azt tanítja, hogy a Somer **nem suli**.
 >
-> Ezért a **valódi tét a játéklap**: egy **saját, kézbe vehető produktum**, amin a **Biztonság és az Inkluzivitás** sor megléte a mastery igazi, transzferálható bizonyítéka. A kvíz ehhez **felkészít és diagnosztizál** (megmutatja, melyik témát kell még átnézned), de **önmagában nem enged át és nem buktat**.
+> Ezért a **valódi tét a játéklap**: egy **saját, kézbe vehető produktum**, amin a **Biztonság és az Inkluzivitás** sor megléte a teljesítési szint valódi, átvihető bizonyítéka. A kvíz ehhez **felkészít és diagnosztizál** (megmutatja, melyik témát kell még átnézned), de **önmagában nem enged át és nem buktat**.
 
 ### Kapu-logika (kötelező)
 
@@ -64,7 +64,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 # (A) ITEM-BANK – Szcenárió-kvíz (12 item) *(formatív / diagnosztikus)*
 
 > **Szerep:** ez a kvíz **felkészít a játéklapra és diagnosztizál** – nem ez az éles kapu (lásd Kapu-filozófia). A tét alacsony: korlátlan próbálkozás, nem buktat. A célja, hogy **a játéklap megírása előtt** ráérezz a biztonsági + inkluzív szempontokra.
-> **Formátum:** minden item = rövid **szcenárió-szár** (korosztály + kvuca + cél / körülmény) + **4 opció** + jelölt **helyes válasz (✅)** + **distraktor-indok** (miért hihető, de miért rossz) + rövid **tanulói feedback**.
+> **Formátum:** minden item = rövid **szcenárió-szár** (korosztály + kvuca + cél / körülmény) + **4 opció** + jelölt **helyes válasz (✅)** + **distraktor-indok** (miért hihető, de miért rossz) + rövid **tanulói visszajelzés**.
 > A distraktorok mind **valós madrich-tévedést** testesítenek meg (nem karikatúrát, nem tölteléket).
 >
 > **Megjegyzés a konvergenciáról:** a 12 item egy része (eszköz-illesztés) szándékosan **egy-helyes-válaszos** – ott valódi biztonsági/illesztési minimum van (pl. résztvevőt nem zárunk ki demonstrációként; a kirekesztést fiktív esetből elemezzük). Ez **diagnosztikai** jelzés, nem éles kapuzás. A **nyitott, divergens** mérlegelést a játéklap-rubrika (B) és az M6.4 Branching viszi, ahol nincs „egyetlen jó megoldás”.
@@ -88,7 +88,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – Résztvevő tényleges kizárása demonstrációként **nem biztonságos**; a kirekesztést fiktív, nem beazonosítható esettel elemezzük, nem úgy, hogy valakit valóban kívül hagyunk.
 - D – Túl elvont, túl intim egy frissen ismerkedő fiatal kvucának; nem a cél (ismerkedés) szolgálja.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ Friss, fiatal kvucánál az ismerkedős/névtanulós játék a természetes belépő: egyszerű szabály, mindenki sorra kerül, kicsi a szégyen. (M6.1)
 
 ---
@@ -110,7 +110,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – A valós konfliktus és szerepek újrajátszása könnyen megszégyenít és ráéget egy szerepet az érintettekre.
 - D – Valódi személy megnevezése és közös elemzése megszégyenítő; a cél a dinamika megértése, nem valaki kipécézése.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ A kirekesztést **fiktív, harmadik személyű esetből** dolgozzuk fel: senkit nem hagyunk ki demonstrációként, nem osztunk „kirekesztett” vagy „kirekesztő” szerepet, és nem használunk beazonosítható valós konfliktust. (M6.4 B-ág)
 
 ---
@@ -132,7 +132,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – Túl hosszú és túl nehéz fáradt kvucának, nem fér az időkeretbe.
 - D – Fáradtan **elvész a fonal** egy bonyolult, hosszú történetnél.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ Fáradt napzáráshoz rövid, low-impact, mindenki által teljesíthető lezáró élmény illik, ami egyszerre ad „pontot a mondat végére” és kis játékosságot. (M6.4 C-ág)
 
 ---
@@ -154,7 +154,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – A plakát beszélgetés nélkül „rajzolgatás” marad, nem indít gondolkodást.
 - D – Az energizer nem szolgálja a célt (komoly téma elindítása); legfeljebb hangulatra jó.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ 16+-nál a felelősség-téma jó belépője az esetleírás/történet több nézőponttal: kívülről ránéznek, nem kell rögtön magukat kiteregetni, és marad tér az árnyalatokra. (M6.4 D-ág)
 
 ---
@@ -178,7 +178,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – Kényelmi szempont lehet, de a biztonságot nem a magasság, hanem a tér, a „stop” és a tempó adja; irreleváns a kockázatra.
 - D – Hihető, hogy a zene oldottabbá tesz, DE **eltereli** a figyelmet és elnyomja a vezető hangos jelzéseit – épp **rontja** a biztonságot.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ Bizalom-/kontaktjátéknál a fizikai biztonsági minimum: akadálymentes tér, közös „stop” jelszó, a vezető folyamatos hangos jelzése, lassú (séta) tempó. (M6.1 fizikai biztonsági minimum)
 
 ---
@@ -200,7 +200,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – A szerepcsere nem oldja meg az alapvető hibát: demonstrációként továbbra is egy résztvevőn gyakoroltatja a kirekesztést.
 - D – A beazonosítható valós konfliktus közös elemzése megszégyenítő lehet és ráégetheti a szerepeket az érintettekre.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ A kirekesztés felismerését fiktív, harmadik személyű helyzetből gyakoroljuk. **Nem hagyunk ki résztvevőt demonstrációként**, és nem osztunk rá valódi „kirekesztett” szerepet. (M6.4 5B-J)
 
 ---
@@ -222,7 +222,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – A „kiesés” kirekesztő élményt gyárt, ráadásul a felállásra **kényszerít** (a beleegyezés ellenében) – nem ettől lesz biztonságos.
 - D – Jó szándékú kontroll, DE a részvétel elvétele nem véd: a tiltott zóna **közös kimondása** és az önkéntesség a kulcs, nem a madrich egyszemélyi szűrője.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ A biztonságos keret: tiltott zóna (identitás, test, család, pénz, szexualitás) közös kimondása, és hogy a felállás/megszólalás nem kötelező – aki ülve marad, az is rendben van. (M6.A 4.3)
 
 ---
@@ -244,7 +244,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – A drága alapanyag **státusz-versenyt** és anyagi kirekesztést gyárt – épp ellentétes az inkluzivitással.
 - D – Jó szándékú segítség, DE elveszi tőle az **önkifejezést**; nem ad valódi alternatívát, csak kész terméket.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ Inkluzív megoldás = másik belépési pont ugyanahhoz a témához (nagyobb gyöngy/vastagabb zsinór + szimbólum-kártya rajzolva), nem a feladat alóli felmentés vagy a dísz-szerep. (M6.3 PÉLDA 2)
 
 ---
@@ -266,7 +266,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – Valós kockázat, DE nem a tempót kell szabályozni: a versenyhelyzetet kell kivenni (matrica/forma/szó), különben a szépség és a gyorsaság marad a tét.
 - D – Valós inkluzivitási hiányosság, DE a „próbáljon mindenki rajzolni” biztatás nem nyit alternatív belépést – a kulcs, hogy kimondod, nem művészi verseny, és más eszközt is adsz.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ A közös plakát akkor inkluzív, ha nem művészeti verseny: legyen alternatív eszköz (matrica, szó, forma), és az üzenet az legyen, hogy „mindenki hozzátesz valamit”. (M6.3 PÉLDA 1)
 
 ---
@@ -288,7 +288,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – A „hadd pihenjenek” gondoskodásnak tűnik, DE a játékból való kiállítás valójában **nyílt kirekesztés**.
 - D – A „majd felébreszti” jó szándékú, DE a fáradtakat **tovább löki kívülre**, nem von be – épp a kapcsolódást veszti el.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ Inkluzív energizer = low-impact forma + felkínált low-energy mód + utólagos mini-kör, hogy a fáradtak is benne legyenek a lezárásban. (M6.4 5C-J)
 
 ---
@@ -310,7 +310,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – Pont fordítva: fiatalabbaknál a traumatikus téma **különösen** kockázatos.
 - D – A gyors témaváltás nem oldja fel a felkavarodást – sőt, magára hagyja azt, akit érintett.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ A történet attól lesz nevelési eszköz, hogy biztonságos térben, nyitott és nem szégyenítő kérdésekkel dolgozod fel – nem a sokk erejétől. (M6.2 SLIDE 6)
 
 ---
@@ -332,7 +332,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – Álkérdés/irányító: egyetlen „helyes” válaszra kényszerít, nem nyit reflexiót.
 - D – Az „áldozat hibáztatása” irányba tol; bagatellizál.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ A nyitott, nem szégyenítő kérdés megengedi a saját élményt, de nem mutat rá konkrét emberre, és nem kényszerít egyetlen válaszra – ez teszi a történetet tükörré. (M6.2 SLIDE 5)
 
 ---
@@ -356,7 +356,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - C – A „ne legyen kínos” logika **magára hagyja** a megélővel, és a peula utánra halasztott jelzés túl késő, ha valaki erősen érintett.
 - D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyermekvédelmi becsatornázást (jelzés a felelősnek) mulasztja el.
 
-**Feedback:**
+**Visszajelzés:**
 > ✅ Azonnali biztonsági lépések 4 lépésben: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt jelzel a felelős madrichnak / mentornak** – nem hagyod egyedül a helyzetet, és nem halasztod utánra. (M6.A 4.3.2/B; M3 gyermekvédelmi átkötés)
 
 ---
@@ -392,7 +392,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | **R4** | **BIZTONSÁG** *(blokkoló)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
 | **R5** | **INKLUZIVITÁS** *(blokkoló)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
 
-### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (peer + stáb)
+### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (társak + stáb)
 
 A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
@@ -406,15 +406,16 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 ---
 
-## (C) Társas visszajelzési keret (M6.B élő műhely, SBI-nyelven)
+## (C) Társas visszajelzési keret (M6.B élő műhely)
 
-> A peula (M6.B) az **SBI-visszajelzést** gyakoroltatja a játéklapra mint produktumra. Az élő társas értékelésnél a társ **a rubrika mellé** adjon **1 SBI-megjegyzést**:
+> Az M6.B-ben a társ **a rubrika mellé** adjon **1 rövid, konkrét produktum-visszajelzést**:
 >
-> - **S (helyzet):** a lap **melyik részénél / melyik elemnél** nézted, amire reagálsz (a megfigyelés horgonya – ahogy az **M1**-ben: *mikor, hol, milyen helyzetben*; itt: a lapon hol),
-> - **B (konkrét elem):** melyik **konkrét** elemet emeled ki (pl. „külön sor az inkluzivitásnak”),
-> - **I (hatás):** mit tesz hozzá a **biztonsághoz / inkluzivitáshoz / érthetőséghez**.
+> - nevezze meg, **melyik konkrét elemre** figyelt fel a játéklapon;
+> - mondja el, **milyen várható hatása** lehet ennek a kvucára, a biztonságra, az inkluzivitásra vagy arra, hogy egy másik madrich mennyire tudja használni a lapot.
 >
-> **Példa:** *„Amikor a lapodon külön sort adtál annak, kinek lehet nehéz a feladat (S), és oda írtál egy konkrét alternatívát (B), attól egy másik madrich is bátrabban nyúl majd ehhez az eszközhöz (I).”*
+> **Példa:** *„Feltűnt, hogy külön leírtad, kinek lehet nehéz a feladat, és adtál hozzá ülve végezhető alternatívát. Ettől több chanich tud ugyanabba a célba bekapcsolódni, és egy másik madrichnak is könnyebb lesz biztonságosan megtartani.”*
+>
+> Ez az M1-ben tanult szemléletre épül, **konkrétumról beszélünk, nem címkézünk**, de az SBI fogalmát nem írjuk át. Emberre adott SBI-ben a B továbbra is megfigyelhető viselkedés.
 >
 > A társas visszajelzés **fejlesztő, nem minősítő**: ha kritika merül fel, „mit lenne jó még hozzáadni” formában fogalmazzuk meg.
 
