@@ -84,7 +84,7 @@
 - [ ] **Magyar nyelv + iframe-title** — az elem nyelve magyarra állítva, az iframe-nek **beszédes magyar címe** van (képernyőolvasó felolvassa, melyik aktivitásban jár a madrich).
 - [ ] **Felirat + leirat a videókhoz** — minden beágyazott (AI beszélő fej / Interactive / narrált) videóhoz **magyar felirat ÉS teljes szöveges leirat** (slide-jegyzetben vagy a dián), hang nélkül is teljesíthető.
 
-⟬KITÖLTENDŐ: a11y-lektor — ki a felelős a kapus elemek pre-flight jóváhagyásáért (név / szerep)⟭
+**Jóváhagyó szerepkör:** `HUM-A11Y-01`. A specifikáció nem talál ki személynevet; a learner release előtt a döntési csomagban kell lezárni.
 
 ## 7. Kognitív és olvasási hozzáférhetőség
 
