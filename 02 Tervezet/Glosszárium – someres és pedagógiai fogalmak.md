@@ -134,13 +134,25 @@ Cél-megfogalmazási keret: **S**pecifikus, **M**érhető, **A**chievable (elér
 ### nonformális nevelés
 Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és kapcsolat-alapú, a kvuca valóságához kötve. A someres pedagógia alapállása – „a Somer NEM suli”. A peula a tipikus nonformális egység.
 
-### mastery-kapu
-Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** köti (pl. ≥80%, több próbálkozással), nem egyszeri vizsgához. Cél a tényleges elsajátítás, nem a rangsorolás. A tananyagban kvíz- vagy rubrika-alapú formában jelenik meg.
+### teljesítési kapu
+Olyan kapu, amely a továbblépést egy **előre rögzített teljesítési minimumhoz** köti, nem egyszeri „megbuktató vizsgához”. Lehet rubrika- vagy kvízalapú; a cél, hogy a szükséges tudás vagy készség ténylegesen meglegyen, és javítás után újra lehessen próbálni. A régebbi fejlesztői jegyzetekben előfordulhat a `mastery-kapu` angol-magyar keverék, de **tanulói nyelven a `teljesítési kapu` a kanonikus alak**.
 
-### gyakorlás / spacing / retrieval (tanulástan)
-- **gyakorlás (aktív cselekvés):** a chanich nem csak hallgat, hanem maga **csinál** valamit (játszik, mondja, írja, mutatja); az aktív feldolgozás jobban rögzít, mint a passzív befogadás. (M5.3)
-- **spacing (elosztott gyakorlás):** a tananyag időben **szétterítve**, ismételt visszatérésekkel rögzül jobban, mint egyszeri tömbben.
-- **retrieval (előhívásos gyakorlás):** a tudás **aktív felidézése** (kvíz, kérdés, „mondd el SBI-ben”) erősebben rögzít, mint az újraolvasás.
+### gyakorlás / aktív felidézés / időben elosztott gyakorlás (tanulástan)
+- **gyakorlás (aktív cselekvés):** a chanich nem csak hallgat, hanem maga **csinál** valamit (játszik, mondja, írja, mutatja). (M5.3)
+- **aktív felidézés:** a tanuló **fejből próbál előhívni** valamit, mielőtt újra megnézné vagy meghallgatná. Az angol szakirodalomban gyakran *retrieval practice* / *active recall*. A tanulói szövegben a **`aktív felidézés`** a kanonikus alak.
+- **időben elosztott gyakorlás:** ugyanaz a tudás vagy készség **külön tanulási alkalmakon** tér vissza, nem egyetlen hosszú blokkban. Az angol szakirodalomban *spacing* / *distributed practice*. A tanulói szövegben az **`időben elosztott gyakorlás`** a kanonikus alak.
+- **Fontos:** a tananyag nem állít univerzális „optimális 1 napos” közöket; a visszatérés konkrét időzítését a programritmushoz kell igazítani.
+
+### Peula v1 / Peula v2
+- **Peula v1:** az M7-ben elkészülő **első teljes vázlat**. Fejlesztő visszajelzést kap, javítható, önmagában nem a félévzáró teljesítési kapu.
+- **Peula v2:** ugyanennek a peulának az M7.B műhely és a visszajelzések után **véglegesített, terepre vihető terve**. Ez a félévzáró M7 produktuma, még a tényleges terepi megtartás **előtt**.
+- A `v2` ezért **nem** jelentheti a megtartás után készült új verziót. A megtartás utáni lépés neve: **Utóreflexió & továbbfejlesztés**.
+
+### Utóreflexió & továbbfejlesztés
+A **Peula 11 pontjának 11. eleme**. A peula **tényleges megtartása után** történik: a madrich konkrétan rögzíti, mi történt, mi működött, mi nem, milyen hatást látott, és min változtatna legközelebb. Az M7 félévzáró, terep előtti leadásban ennek **terve** szerepel, nem kitalált múlt idejű reflexió.
+
+### rövid peulabemutató
+Az M4-ben használt, legfeljebb kb. 45 másodperces bevezető: kinek szól a peula, miről szól, miért fontos nekik, mit fognak csinálni, és mit szeretnél, hogy hazavigyenek belőle. A korábbi fejlesztői anyagokban előfordulhat a `peula-pitch` szó, de **tanulói nyelven a `rövid peulabemutató` / `peulabemutató-vázlat` a kanonikus alak**.
 
 ---
 
