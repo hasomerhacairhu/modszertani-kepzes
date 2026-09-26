@@ -1,4 +1,4 @@
-# Z.4 – „Záró reflexió + képzés feedback”
+# Z.4 – „Záró reflexió + képzési visszajelzés”
 
 <!-- @asset-free
 {
@@ -9,16 +9,16 @@
 ## 1. Lecke meta
 
 **Kód:** Z.4
-**Cím (tanulónak):** Záró reflexió + képzés feedback
+**Cím (tanulónak):** Záró reflexió + képzési visszajelzés
 **Időtartam (teljes lecke):** **kb. 40–60 perc – tervezz inkább a felsővel (1 óra).** Ez a Z modul leghosszabb online eleme, mert nem csak jegyzetelsz, hanem egy kész, **menthető záró reflexiót** is összeraksz. Bontása:
 
 * **Moodle Assignment (online text, draft mentéssel)** – záró reflexiós ív kitöltése (a 3 kérdéshez): **~20–30’**
 * **Véglegesítés + Moodle Assignment leadás** (a mentett szöveget adod be, vagy abból egy 2–3 perces videót készítesz): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
-* Képzés-feedback űrlap (a válaszok név nélkül jelennek meg): **~5–10’**
+* Képzési visszajelző űrlap (a válaszok név nélkül jelennek meg): **~5–10’**
 
 > **Őszinte terhelés:** a Z modul záró leckéje könnyen **szabad-szöveg-fáradtsággá** válik, ha minden kérdés külön üres mezőként néz rád. Ezért most **egy összefüggő, Moodle-ben piszkozatként menthető reflexiós ívbe** fűzzük a kérdéseket: végighaladsz rajta, és a végén **véglegesíted és beadod** – ez lesz a záró-dokumentumod. Nem kell egyben megcsinálnod: a Moodle Assignment **draft/piszkozat mentését a célrendszeren acceptance teszttel igazolni kell**; csak igazolt mentés mellett kommunikálható, hogy külön ülésben biztonságosan folytatható.
 
-> **Élő ellensúly:** ez a digitális ív **nem helyettesíti** a **Z.A élő záró-peulát**. A hivatalos sorrend: **Z.A élő lezárás → Z.4 egyéni záró reflexió és képzés-feedback** (*„Mit viszek magammal?” – záró kvuca-peula*). A leírt ív magadnak szól; a közös, élő lezárás a kvucával **megmarad** – a kettő együtt adja a zárást.
+> **Élő ellensúly:** ez a digitális ív **nem helyettesíti** a **Z.A élő záró-peulát**. A hivatalos sorrend: **Z.A élő lezárás → Z.4 egyéni záró reflexió és képzési visszajelzés** (*„Mit viszek magammal?” – záró kvuca-peula*). A leírt ív magadnak szól; a közös, élő lezárás a kvucával **megmarad** – a kettő együtt adja a zárást.
 
 **Eszközök:**
 
@@ -30,7 +30,7 @@
 
 > A lecke végére lesz egy **mentett és beadott, összefüggő záró reflexiód** (a 3 kérdésre felfűzve),
 > tudni fogod, **melyik 2–3 pillanatról szeretnél írni/beszélni**,
-> és megfogalmazol **1–2 konkrét célt következő lépésnek a terepre**, plusz kitöltöd a képzés feedbacket.
+> és megfogalmazol **1–2 konkrét célt következő lépésnek a terepre**, plusz kitöltöd a képzési visszajelzést.
 
 **Központi mondat:**
 
@@ -44,7 +44,7 @@
 
 **Moodle-oldal / Label – a H5P előtt**
 
-### Z.4 – Záró reflexió + képzés feedback
+### Z.4 – Záró reflexió + képzési visszajelzés
 
 > Ez a lecke az **online félév lezárása**.
 
@@ -59,7 +59,7 @@
 2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *‘Mit várok ettől az évtől madrichként?’* és a *‘figyelek rá, hogy…’* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét következő lépést** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
-> Most **egy összefüggő íven** rendezed a gondolataidat, a végén **beadod**, utána kitöltöd a Feedbacket.
+> Most **egy összefüggő íven** rendezed a gondolataidat, a végén **beadod**, utána kitöltöd a visszajelző űrlapot.
 
 > **Egy darabban marad:** nem külön üres mezőkbe írsz – egyetlen, szakaszokra bontott **reflexiós ívet** töltesz ki ugyanabban a beadásban.
 
@@ -179,7 +179,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > Mielőtt írsz, **vedd elő a SAJÁT két mondatodat, amit M0-ban magadnak elmentettél** (jegyzet vagy képernyőkép):
 > – az M0.1 várakozás-mondatát: *„Mit várok ettől az évtől madrichként?”*,
 > – és az M0.2 ígéret-mondatát: *„Madrichként ebben az évben figyelek rá, hogy…”*.
-> *(Figyelj: itt a **te saját két mondatodról** van szó, nem a programtól kapott 3 ígéretről – azokra majd a végén, a képzés-feedbackben reflektálsz.)*
+> *(Figyelj: itt a **te saját két mondatodról** van szó, nem a programtól kapott 3 ígéretről – azokra majd a végén, a képzési visszajelzésben reflektálsz.)*
 > Ha nincs meg, nem baj – idézd fel emlékezetből, körülbelül mit írtál akkor.
 
 > Írj **3–5 mondatot**:
@@ -278,7 +278,7 @@ Lehetőségek (a tanuló beírja / kiválasztja):
 > ➜ A lecke után:
 
 1. Véglegesítsd és add be a **„Záró reflexió + következő lépés”** ívedet (vagy az abból felvett videót).
-2. Utána töltsd ki a **„Képzés feedback – név nélkül”** kérdőívet.
+2. Utána töltsd ki a **„Képzési visszajelzés – név nélkül”** kérdőívet.
 
 ***
 
@@ -338,9 +338,9 @@ Ha nagyon hiányos / alibi:
 
 ***
 
-## 5. Moodle Feedback / Questionnaire – „Képzés feedback – név nélkül”
+## 5. Moodle Feedback / Questionnaire – „Képzési visszajelzés – név nélkül”
 
-**Név:**`Képzés feedback – név nélkül`
+**Név:**`Képzési visszajelzés – név nélkül`
 **Típus:** Feedback (core) – az alábbi beállítás-blokk erre igazolt. Questionnaire (külső plugin) csak akkor választható, ha a név nélküli megjelenítés beállítását és bizonyítékát külön rögzítitek a runtime acceptance-ben.
 
 ### Javasolt kérdésstruktúra (rövid, hogy tényleg kitöltsék)
