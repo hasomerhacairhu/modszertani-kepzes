@@ -2,6 +2,8 @@ name: Content integrity
 
 on:
   push:
+    branches:
+      - main
   pull_request:
 
 permissions:
