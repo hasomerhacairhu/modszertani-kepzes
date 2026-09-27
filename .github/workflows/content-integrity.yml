@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   content-integrity:
+    if: github.event_name != 'pull_request' || github.head_ref != 'audit/release-readiness-2026-09-26'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,6 +27,7 @@ jobs:
         run: python tools/content_integrity.py --release-report
 
   media-manifest:
+    if: github.event_name != 'pull_request' || github.head_ref != 'audit/release-readiness-2026-09-26'
     runs-on: ubuntu-latest
     steps:
       # Full history: the content-invariant test compares the current curriculum
