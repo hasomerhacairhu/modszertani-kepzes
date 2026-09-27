@@ -48,7 +48,7 @@ Külön review szükséges legalább:
 - M1 SBI-beadandó;
 - M2 identitás- és értékreflexiók, identitás-jegyzet;
 - M3 gyermekvédelmi helyzetelemzés, ahol **tilos valós, beazonosítható esetet kötelezően kérni**;
-- M4 pitch és bármilyen felvételi workflow;
+- M4 peulabemutató és bármilyen felvételi folyamat;
 - M5/M6 produktumok;
 - M6 fotó/kézműves dokumentáció, ha egyáltalán szükséges;
 - M7 AI-promptok és Peula v1/v2;
