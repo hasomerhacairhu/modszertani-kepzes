@@ -20,6 +20,22 @@ A két állapotot nem szabad összemosni. A staging célja éppen az, hogy a Moo
 | **G7 Regresszió** | repository tesztek, content integrity, média-manifeszt, helyi linkek és diff ellenőrzése zöld | `IMPLEMENTATION_REQUIRED` | CI / release-check |
 | **G8 Ütemezés és support** | HUM-OPS-01–02 + HUM-A11Y-01 lezárva | `HUMAN_DECISION_REQUIRED` | központi schedule + „Segítség és kapcsolatok” blokk |
 
+## GitHub release-tracker
+
+A repository-specifikáció és a tényleges lezárási munka külön réteg. A nyitott kapukat ezek az issue-k követik:
+
+| Kapu / döntés | Tracker |
+|---|---|
+| **G1 / HUM-SAFE-01–05** | [#1 – Gyermekvédelmi release gate és szakértői jóváhagyás](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/1) |
+| **G2 / HUM-PRIV-01–04** | [#2 – Adatvédelem, kiskorúak, reflexiók, felvétel és külső AI](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/2) |
+| **G3 + G5** | [#3 – Moodle/H5P célverziók és runtime acceptance](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/3) |
+| **G4 + G8 / HUM-OPS-01–02 + HUM-A11Y-01** | [#4 – Moodle build, dátumok, kontaktok és előfeltételek](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/4) |
+| **G6 / HUM-SOMER-01–03** | [#6 – Mozgalmi tartalom jóváhagyása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/6) |
+| **G7** | GitHub Actions + release-check az élesítendő commiton |
+| **HUM-GOV-01** *(nem P0 release-gate)* | [#7 – Terepgyakorlat rubrika és KPI skálájának összehangolása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/7) |
+
+Az issue-k **nem helyettesítik a jóváhagyási bizonyítékot**. Lezáráskor az issue-ba a tényleges döntést, dátumot, jóváhagyót és bizonyítékot kell linkelni/rögzíteni; csak ezután tekinthető az adott gate zártnak.
+
 ## Staging-szabály
 
 A staging buildben:
