@@ -17,7 +17,7 @@
 
 | | |
 |---|---|
-| **Kapu típusa** | **Puha kapu (puha kapu)** – fejlesztő, NEM vizsgáztató. Jelzés és támogatás, nincs kizárás. |
+| **Kapu típusa** | **Puha kapu** – fejlesztő, NEM vizsgáztató. Jelzés és támogatás, nincs kizárás. |
 | **Mit mér** | Az integráló kimeneti kompetenciát (M2 5. kompetencia): a madrich össze tudja-e kötni az **identitás-köreit + 1 someres értéket + érték→megfigyelhető viselkedés kapcsolatot + 1 konkrét idei dugma ishit-vállalást** egy összefüggő, viselkedés-szintű jegyzetben. |
 | **Hol horgonyozza le a meglévő kaput** | Az M2 modul-áttekintő (6. Kapuk) szerint a „complete” feltétele *„1 oldalas madrich identitás-jegyzet leadva, záró dugma ishit-mondattal”* – de eddig **rubrika és sablon nélkül**. Ez a fájl pótolja a sablont + egy könnyű, fejlesztő rubrikát + tanulói önellenőrzést. |
 | **Küszöb (puha kapu)** | **Beadáshoz:** az önellenőrző lista **önellenőrzés**, nem beadás-blokkoló – ha mind a 10 pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: aki ez alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (felzárkóztató műhely) ajánlást** kap, és újra beadhat. |
