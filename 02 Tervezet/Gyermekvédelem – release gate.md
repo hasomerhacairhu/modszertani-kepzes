@@ -65,20 +65,23 @@ A konkrét értékeket az **Emberi jóváhagyás szükséges.md** tartja nyilvá
 - **HUM-SAFE-01:** helyi gyermekvédelmi felelős, elérhetőség, helyettes/külső út, akut-eszkaláció, dokumentálás;
 - **HUM-SAFE-02:** négyszemközti / safer-working szabály;
 - **HUM-SAFE-03:** a madrich saját érintettsége, passz/alternatíva, kiskorú madrich felügyelete;
-- **HUM-SAFE-04:** alkohol- és dohányzási policy.
+- **HUM-SAFE-04:** alkohol- és dohányzási policy;
+- **HUM-SAFE-05:** a programban dolgozó felnőttek szerepkörönkénti alkalmassági ellenőrzése, dokumentált safeguarding-felkészítése és felülvizsgálata.
 
 ## 6. Tartalmi acceptance
 
 Learner-facing release előtt mindegyik legyen igazolt:
 
 - [ ] M3.3, M3.B, M3-kapu és M7 gyermekvédelmi kapuelemek szakértő által átnézve;
-- [ ] HUM-SAFE-01–03 lezárva;
+- [ ] HUM-SAFE-01–05 lezárva;
 - [ ] a learner-facing kontakt ténylegesen látható a Moodle-ben;
 - [ ] nincs 100%-os titoktartási ígéret;
 - [ ] nincs nyomozásra, konfrontációra vagy otthoni „lerendezésre” utasítás;
 - [ ] akut veszély útja és a segélyvonalak a review napján ellenőrizve;
 - [ ] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út;
 - [ ] a négyszemközti helyzetek tananyaga a jóváhagyott helyi szabállyal egyezik;
+- [ ] az alkohol- és dohányzási példák csak a HUM-SAFE-04 szerint jóváhagyott helyi policy-t állítják;
+- [ ] a valódi résztvevőkkel dolgozó stáb alkalmassági ellenőrzése és safeguarding-felkészítése HUM-SAFE-05 szerint dokumentált;
 - [ ] a jogszabályi állításoknál külön látszik, mi jogi kötelezettség, mi safeguarding-jógyakorlat, és mi helyi policy;
 - [ ] jóváhagyás dátuma és következő felülvizsgálat dátuma rögzítve.
 
