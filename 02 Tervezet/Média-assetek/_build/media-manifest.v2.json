@@ -13582,7 +13582,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Az M3.2-EGY-01 párosító feladat a11y-ekvivalens változata; ugyanazokat a jeleneteket/visszajelzéset használja.",
+      "notes": "Az M3.2-EGY-01 párosító feladat a11y-ekvivalens változata; ugyanazokat a jeleneteket és visszajelzéseket használja.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -14832,7 +14832,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
-        "note": "H5P True/False, magyar, visszajelzés-kel"
+        "note": "H5P True/False, magyar, visszajelzéssel"
       },
       "a11y": {
         "note": "Billentyűzettel kezelhető H5P elem, szöveges"
@@ -14859,7 +14859,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1576da2dae00a23f4ab6b40de1c05f887f25b78b7fc9f99e81ea8c59ea1bf872",
+      "spec_hash": "00c9425234c889860ffe8154627068a457ff0509914b89f8fde7ba0b93231ec9",
       "deliverable_ids": [
         "M3.4-EGY-02"
       ],
@@ -14886,7 +14886,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
-        "note": "H5P Sorting/Drag & Drop, 2 kategória, 10 kártya, magyar, visszajelzés-kel; célfelületek ≥24px"
+        "note": "H5P Sorting/Drag & Drop, 2 kategória, 10 kártya, magyar, visszajelzéssel; célfelületek ≥24px"
       },
       "a11y": {
         "note": "Kötelező húzás-mentes alternatíva (lásd M3.4-EGY-04); billentyűzetes elérés"
@@ -14915,7 +14915,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "9fd4817d7d40766e954d38c076609608b94bc2290240955c4d720a07aee255fa",
+      "spec_hash": "09ebff0db108c1d15939a64e4c928277f82b0aa5eeed76cd6a8e9038f27d2bc9",
       "deliverable_ids": [
         "M3.4-EGY-03"
       ],
@@ -14996,7 +14996,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
-        "note": "H5P Question Set, 3 kérdés, magyar, visszajelzés-kel"
+        "note": "H5P Question Set, 3 kérdés, magyar, visszajelzéssel"
       },
       "a11y": {
         "note": "Billentyűzettel kezelhető, szöveges kérdések/opciók"
@@ -15023,7 +15023,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "13e39759a7189b9bb90ddd2d39dd327c6bd718381b468c3069e80fcda0756009",
+      "spec_hash": "268c294068827ec8708a81adca5a9a590e14dd66995ece0781b360de3699cc33",
       "deliverable_ids": [
         "M3.4-EGY-05"
       ],
@@ -21761,7 +21761,7 @@
       "status": "pending-production-rule",
       "title": "Élő kvíz – képzői állítás-kártyák (5 db igaz/hamis + súgó)",
       "purpose": "A nyitóblokk (0–10') hordozója: a képző folyékonyan, sorrendben tudja felolvasni az 5 állítást és a hozzá tartozó helyes választ + magyarázatot, hogy a tanulástan három kulcsfogalmát (gyakorlás, aktív felidézés, időben elosztott gyakorlás) élőben aktiválja. A checklist kötelező előkészített eleme.",
-      "spec": "5 db előre megírt, nyomtatott állítás-kártya az induló élő (igaz/hamis, állj-egyik-oldalra) kvízhez. A forrás (100-121. sor) MIND az 5 állítást szó szerint megadja, mindegyikhez a helyes választ és a képző által felolvasandó rövid magyarázatot: (1) időben elosztott gyakorlás=elosztott gyakorlás (Hamis); (2) kérdezés→aktív felidézés (Igaz); (3) madrich sokat beszél (Hamis); (4) gyakorlás=csinál valamit (Igaz); (5) többszöri visszatérés=időben elosztott gyakorlás (Igaz). Kártyánként: állítás szövege + HELYES válasz jelölése + 1-2 mondatos képzői súgó. Legyártandó: ezek tördelt, felolvasható elrendezése (képzői súgó-kártya / lap).",
+      "spec": "5 db előre megírt, nyomtatott állítás-kártya az induló élő (igaz/hamis, állj-egyik-oldalra) kvízhez. A forrás (100-121. sor) MIND az 5 állítást szó szerint megadja, mindegyikhez a helyes választ és a képző által felolvasandó rövid magyarázatot: (1) időben elosztott gyakorlás = egyetlen hosszú blokk (Hamis); (2) kérdezés→aktív felidézés (Igaz); (3) madrich sokat beszél (Hamis); (4) gyakorlás=csinál valamit (Igaz); (5) többszöri visszatérés=időben elosztott gyakorlás (Igaz). Kártyánként: állítás szövege + HELYES válasz jelölése + 1-2 mondatos képzői súgó. Legyártandó: ezek tördelt, felolvasható elrendezése (képzői súgó-kártya / lap).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -21796,7 +21796,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f1d0da3862d0029402bb591e9f2dafc216ecfbd729548aaac53be34d6916158c",
+      "spec_hash": "1e28e84998b40f2abdfa6e1f779343f87ee78dda4ff3a3102aacc98266885075",
       "deliverable_ids": [
         "M5.B-KART-02",
         "M5.B-KART-02::PRINTPDF"
@@ -26130,7 +26130,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – 1 A4 (peula előtt/közben/után)",
       "purpose": "A képzőnek nyomtatott, egyoldalas önellenőrző segédlet, ami biztosítja a felzárkóztató keret, az eszközök, a tér, a safety és az időkeret/híd konzisztens betartását.",
-      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (felzárkóztató felzárkóztató műhely, nem számonkérés; cél: állapotfelmérés + haladás + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, eszköz+füles+tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugis sarok); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótolás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (M6.A/M6.B + Moodle-játéklap).",
+      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (felzárkóztató műhely, nem számonkérés; cél: állapotfelmérés + haladás + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, eszköz+füles+tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugis sarok); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótolás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (M6.A/M6.B + Moodle-játéklap).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26166,7 +26166,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "aac3c1abd0aa0614ef7a153d305106f08af0bfe15be578ea08f3ca3eca269cd1",
+      "spec_hash": "dcbc99ad2a2f8e0ca89a18f9a44e853108ddb222806bec63b851025dc6faf62c",
       "deliverable_ids": [
         "M6.F-MUNK-04",
         "M6.F-MUNK-04::PRINTPDF"
@@ -26374,7 +26374,7 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu",
-      "purpose": "Vizuálisan érthetővé teszi a időben elosztott, két menetben érő félévzáró logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
+      "purpose": "Vizuálisan érthetővé teszi az időben elosztott, két menetben érő félévzáró logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
       "spec": "Idővonal/folyamatábra a félévzáró feladat két lépcsőjéről, időben szétterítve: (1) v1 – elsővázlat-ellenőrzési pont az M7 hét 1 végén, M7.A után (formatív, alacsony tét, rubrika-előnézet, NEM buktat, újrapróbálható, M7.4 Assignment); (2) ~1 hét köztes fejlesztési idő, csiszolás az M7.B peula-műhelyben és otthon; (3) v2 – teljesítési kapu az M7 hét 2 végén, M7.B után (éles kapu: rubrika + kvíz). Jelölje a két nyitott döntés határidő-helyet.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -26413,7 +26413,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "ebf1271e778b5d3e3ed59e6228c466e11414dcdde9dce6ddb3376c768cbe563c",
+      "spec_hash": "07302d48fc6d787d70857b44ad9c0247f28328e1484e38c994f5b16264665424",
       "deliverable_ids": [
         "M7-HUB-DIA-02",
         "M7-HUB-DIA-02::ALTTEXT"
@@ -28268,7 +28268,7 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél)",
-      "purpose": "Hangos vezetés és bátorítás az GYAKORLAT 1 kitöltéséhez.",
+      "purpose": "Hangos vezetés és bátorítás a GYAKORLAT 1 kitöltéséhez.",
       "spec": "Opcionális hang-narráció (20–30 mp), amely végigvezeti a tanulót az GYAKORLAT 1 lépésein: kvuca-típus választás, kvuca-meta és SMART cél megírása, hangsúlyozva, hogy nem dolgozat, elég ha a tanuló érti a kvucát és a tervezett változást.",
       "provenance": "ai",
       "provenance_note": "AI-generált (TTS) vagy emberi-felvétel narráció, madrich-lektorált",
@@ -28309,7 +28309,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "26b8ac3e53b88fad5128835e145b3a58ece5d72b0b2d48e6a6e537e0c516a7f4",
-      "spec_hash": "6579b5bed9d2b2688f1e7975120fbdeb060b63429abde1315775e82ba25d345b",
+      "spec_hash": "cdaf02804693ef7fa44ccc4bf7f3c438acf7d76c8e20ff57a8a577a37d9ef4f9",
       "deliverable_ids": [
         "M7.4-NAR-01",
         "M7.4-NAR-01::CAPTIONS",
@@ -29138,7 +29138,7 @@
       "status": "pending-production-rule",
       "title": "Exit ticket – mini visszajelző cetli",
       "purpose": "Rövid névtelen visszajelzés a képzőnek a peula zárásában; lezárja a tanulási ívet.",
-      "spec": "Kis papírcetli/sablon a névtelen kilépőkártyahez egy kérdéssel (forrás 312. sor): \"Mi az az egy dolog a Zmán Kvucáról, ami ma a leginkább átment / kattant nálad — és mi az, ami még kérdéses maradt?\". Két rövid íróhely (átment / kérdéses), név nélkül.",
+      "spec": "Kis papírcetli/sablon a névtelen kilépőkártyához egy kérdéssel (forrás 312. sor): \"Mi az az egy dolog a Zmán Kvucáról, ami ma a leginkább átment / kattant nálad — és mi az, ami még kérdéses maradt?\". Két rövid íróhely (átment / kérdéses), név nélkül.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29173,7 +29173,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4d1ca9339d9d35139d7d3079946ff17bea15799c3a93138521eba70ab9cdb3be",
+      "spec_hash": "47d4eda8c080d4c56cb98c45ba137c6f576a1652ab7a7055c8ce644d94709982",
       "deliverable_ids": [
         "M7.B-MUNK-04",
         "M7.B-MUNK-04::PRINTPDF"
