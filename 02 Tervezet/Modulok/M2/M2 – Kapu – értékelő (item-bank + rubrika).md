@@ -168,7 +168,7 @@ Közös hanuka-programon valaki odaszól: *„Ez az egész zsidó dolog tök cik
 
 ## C. Fejlesztő rubrika az 1 oldalas identitás-jegyzethez (a mentornak)
 
-> **Ez NEM vizsgáztató rubrika.** 3 szintes, **fejlesztő** visszajelző skála, megfigyelhető szövegjegyekkel. A cél nem osztályozás, hanem hogy a mentor **konzisztensen** lássa, mi van már meg, és **min érdemes még dolgozni**. Minden sornál a mentor a megfelelő szintet jelöli, és **1 rövid, építő mondatot** ír (lásd a sablon-visszajelzéset alább).
+> **Ez NEM vizsgáztató rubrika.** 3 szintes, **fejlesztő** visszajelző skála, megfigyelhető szövegjegyekkel. A cél nem osztályozás, hanem hogy a mentor **konzisztensen** lássa, mi van már meg, és **min érdemes még dolgozni**. Minden sornál a mentor a megfelelő szintet jelöli, és **1 rövid, építő mondatot** ír (lásd a sablon-visszajelzést alább).
 >
 > **LMS:** Moodle Assignment → értékelési módszer: **Rubric** (4 sor, soronként 3 szint). A szintekhez a Moodle-ben rendelhető 0/1/2 „pont”, de ezt **ne mutasd osztályzatként** – a tanuló a **szöveges szintleírást és a kommentet** látja, nem rangsort.
 >
