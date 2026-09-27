@@ -299,7 +299,7 @@ A modul végére a madrich…
   "mode": "generate",
   "title": "Modul-fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2",
   "purpose": "A lemaradóknak (M7.F) egységes mentális térkép a modul négy fő fogalmáról; vizuálisan rögzíti a cél→tervezés→operáció→produktum ívet, amihez az M7.A/B peulák kapcsolódnak (line 184).",
-  "spec": "A modul négy kulcsfogalmát összekötő fogalomtérkép: SMART nevelési cél → Peula 11 pontja → Zmán Kvucá-checklist → Peula v2 logikai egymásra épülése, irányított nyilakkal (cél táplálja a tervezést, a tervezés az operációt, ezekből áll össze a Peula v2). A legyártandó verzió egy KIINDULÓ/alap-térkép, amelyet az M7.F felzárkóztató műhelyon élőben, közös beszélgetéssel egészítenek ki (line 189), ezért hagyjon helyet a kézi kiegészítésnek.",
+  "spec": "A modul négy kulcsfogalmát összekötő fogalomtérkép: SMART nevelési cél → Peula 11 pontja → Zmán Kvucá-checklist → Peula v2 logikai egymásra épülése, irányított nyilakkal (cél táplálja a tervezést, a tervezés az operációt, ezekből áll össze a Peula v2). A legyártandó verzió egy KIINDULÓ/alap-térkép, amelyet az M7.F felzárkóztató műhelyen élőben, közös beszélgetéssel egészítenek ki (line 189), ezért hagyjon helyet a kézi kiegészítésnek.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
