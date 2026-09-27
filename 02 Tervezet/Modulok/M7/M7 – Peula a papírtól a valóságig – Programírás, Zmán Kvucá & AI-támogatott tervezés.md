@@ -6,7 +6,7 @@
   "kind": "diagram",
   "mode": "generate",
   "title": "Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu",
-  "purpose": "Vizuálisan érthetővé teszi a időben elosztott, két menetben érő félévzáró logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
+  "purpose": "Vizuálisan érthetővé teszi az időben elosztott, két menetben érő félévzáró logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
   "spec": "Idővonal/folyamatábra a félévzáró feladat két lépcsőjéről, időben szétterítve: (1) v1 – elsővázlat-ellenőrzési pont az M7 hét 1 végén, M7.A után (formatív, alacsony tét, rubrika-előnézet, NEM buktat, újrapróbálható, M7.4 Assignment); (2) ~1 hét köztes fejlesztési idő, csiszolás az M7.B peula-műhelyben és otthon; (3) v2 – teljesítési kapu az M7 hét 2 végén, M7.B után (éles kapu: rubrika + kvíz). Jelölje a két nyitott döntés határidő-helyet.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
