@@ -333,7 +333,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Diagram / ábra | `M0.2-DIA-01` | B1 | R5 | 39 | SLIDE 4 jelzési folyamatábra: észreveszem → nem maradok egyedül → jelzek → támogatást kapunk |
 | Ikon-készlet | `M0.1-IKO-01` | B1 | R5 | 40 | Hook-ikon: útiterv / térkép / lépcső |
 | Illusztráció | `M4.2-ILL-01` | B1 | R5 | 46 | Hook chat-buborék: ideges peula-mondat |
-| Munkalap / nyomtatvány | `M6.A-MUNK-02` | B1 | R5 | 61 | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) |
+| Munkalap / nyomtatvány | `M7.B-MUNK-02` | B1 | R5 | 61 | "Előtte–utána"-lap (galériaséta artefaktum-sablon) |
 | Poszter és kártyaszett | `Z.A-KART-03` | B1 | R5 | 61 | SBI-elismerés mintamondat kártya – párcseréhez |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B1 | R5 | 4 | Hook háttér – someres/kvuca-vizuál |
 | H5P-interakció / Moodle-elem | `M6.1-EGY-07` | B0 | — | 29 | Single Choice – Szitu 1 korosztály-választás |
