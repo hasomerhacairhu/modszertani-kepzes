@@ -379,7 +379,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M2.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Study Lab jegyzetlap – „1 gondolat / 1 kérdés leckénként” | — | nyomtatható PDF | emberi |
+| `M2.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | felzárkóztató műhely jegyzetlap – „1 gondolat / 1 kérdés leckénként” | — | nyomtatható PDF | emberi |
 | `M2.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – Felzárkóztató peula (1 A4) | — | nyomtatható PDF | emberi |
 | `M2.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M2 leckelista + név nélküli témakérések | — | nyomtatható PDF | emberi |
 | `M2.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok) | — | nyomtatható PDF | emberi |
@@ -453,17 +453,17 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M3.4-DIA-01` | diagram | legyártandó | emberi döntésre vár | Do/Don’t három témablokk – minibox-pár diagram (SLIDE 3) | — | alt-szöveg | AI-generált |
+| `M3.4-DIA-01` | diagram | legyártandó | emberi döntésre vár | mit tegyél / mit ne tegyél három témablokk – minibox-pár diagram (SLIDE 3) | — | alt-szöveg | AI-generált |
 | `M3.4-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice interakció – „Mennyire érzed fontosnak…” (SLIDE 1) | — | — | AI-generált |
 | `M3.4-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Mini True/False interakció – szigorúbb határok (SLIDE 2) | — | — | AI-generált |
 | `M3.4-EGY-03` | other/h5p-interaction | legyártandó | emberi döntésre vár | H5P Sorting / Drag & Drop – „OK / Nem OK madrichként” (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzás-mentes a11y-alternatíva – Single Choice/Matching (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Question Set – mini-kvíz 3 kérdés (SLIDE 6) | — | — | AI-generált |
-| `M3.4-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges reflexiós mező – „Saját Do/Don’t listám” (SLIDE 5) | — | — | AI-generált |
-| `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „Helyzetleírás red flag-ekkel” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
+| `M3.4-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges reflexiós mező – „Saját mit tegyél / mit ne tegyél listám” (SLIDE 5) | — | — | AI-generált |
+| `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
 | `M3.4-EGY-08` | other | legyártandó | specifikáció kész | Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret) | — | — | AI-generált |
 | `M3.4-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Ikon: madrich + kvuca stilizált „határvonallal” (SLIDE 2) | — | alt-szöveg | AI-generált |
-| `M3.4-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | Lista-ikon – Saját Do/Don’t lista reflexió (SLIDE 5) | — | alt-szöveg | AI-generált |
+| `M3.4-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | Lista-ikon – Saját mit tegyél / mit ne tegyél lista reflexió (SLIDE 5) | — | alt-szöveg | AI-generált |
 | `M3.4-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Outro narráció (opcionális) – SLIDE 7 | `M3.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M3.4-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélő fej – „Meddig mehetek el madrichként?” | `M3.4-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
@@ -567,14 +567,14 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M4.4-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Slide 2 definíciós bullet-vizuál: „Peula-pitch =" | — | alt-szöveg | AI-generált |
-| `M4.4-DIA-03` | diagram | legyártandó | produkciós szabályra vár | Slide 3 sablon-vizuál: 5 kérdéses pitch-sablon | — | alt-szöveg | AI-generált |
+| `M4.4-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Slide 2 definíciós bullet-vizuál: „Peulabemutató =" | — | alt-szöveg | AI-generált |
+| `M4.4-DIA-03` | diagram | legyártandó | produkciós szabályra vár | Slide 3 sablon-vizuál: 5 kérdéses peulabemutató-sablon | — | alt-szöveg | AI-generált |
 | `M4.4-DIA-05` | diagram | legyártandó | produkciós szabályra vár | Slide 5 sablon-vizuál + összefoglaló | — | alt-szöveg | AI-generált |
 | `M4.4-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Hook-jelenet: madrich a kvuca előtt, 45 mp nyomás | — | alt-szöveg | AI-generált |
 | `M4.4-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 1 narráció – „45 mp-ed van… Mit mondasz?" | `M4.4-NAR-01-VO` | felirat, leirat | AI-generált |
-| `M4.4-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 2 narráció – „Mi az a peula-pitch?" | `M4.4-NAR-02-VO` | felirat, leirat | AI-generált |
-| `M4.4-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 3 narráció – Az 5 kérdéses pitch-sablon | `M4.4-NAR-03-VO` | felirat, leirat | AI-generált |
-| `M4.4-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 5 narráció – „Írd meg a saját 45 mp-es pitch-vázad" | `M4.4-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M4.4-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 2 narráció – „Mi az a rövid peulabemutató?" | `M4.4-NAR-02-VO` | felirat, leirat | AI-generált |
+| `M4.4-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 3 narráció – Az 5 kérdéses peulabemutató-sablon | `M4.4-NAR-03-VO` | felirat, leirat | AI-generált |
+| `M4.4-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Slide 5 narráció – „Írd meg a saját 45 mp-es peulabemutató-vázlatod" | `M4.4-NAR-05-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md
 
@@ -595,7 +595,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M4.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Exit-ticket kártya / post-it sablon (2 kérdés) | — | nyomtatható PDF | emberi |
-| `M4.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Gyors pitch-váz mini-sablon (B-terv munkalap) | — | nyomtatható PDF | emberi |
+| `M4.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Gyors peulabemutató-vázlat mini-sablon (B-terv munkalap) | — | nyomtatható PDF | emberi |
 | `M4.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4) | — | nyomtatható PDF | emberi |
 | `M4.B-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Kérdéstípusok flipchart-/poszter-sablon (4 típus) | — | nyomtatható PDF | vegyes |
 
@@ -608,7 +608,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Cetli / post-it készlet a név nélküli témakérésekhez | — | — | stock |
 | `M4.F-EGY-02` | print/consumable | külső forrás | specifikáció kész | Filc-/marker-készlet a fogalom-térkép táblához | — | — | stock |
 | `M4.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – 1 gondolat / 1 kérdés leckénként (L1–L4) | — | nyomtatható PDF | vegyes |
-| `M4.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | 45 mp-es peula-pitch váz-sablon (eszközmentes pótló feladat) | — | nyomtatható PDF | vegyes |
+| `M4.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | 45 mp-es peulabemutató-vázlat sablon (eszközmentes pótló feladat) | — | nyomtatható PDF | vegyes |
 | `M4.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M4 leckelista + név nélküli témakérések | — | nyomtatható PDF | vegyes |
 | `M4.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – Test / Hang / Kérdések / Pitch (4 buborék) | — | nyomtatható PDF | vegyes |
 
@@ -630,7 +630,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M5.1-EGY-01` | other/ui-text | legyártandó | specifikáció kész | Provenance-címke – kanonikus AI-jelölés a videók alá | — | — | emberi |
 | `M5.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Három tanulástípus ikon-grafika | — | — | AI-generált |
 | `M5.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | INPUT 2 narráció – három fogalom definíciója | `M5.1-NAR-02-VO` | felirat, leirat | vegyes |
-| `M5.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK beszélő fej – suli / somer / random | `M5.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
+| `M5.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | nyitó beszélő fej – suli / Somer / hétköznapok | `M5.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 | `M5.1-VID-02` | video/ai-talking-head | legyártandó | jogtisztázás alatt | OUTRO beszélő fej thumbnail (opcionális) | `M5.1-VID-02-VO` | felmondott hang, felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md
@@ -652,7 +652,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M5.3-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Dialog Cards Leitner-pakli (Repetition mód) – akadálymentes interaktív elem | — | — | emberi |
-| `M5.3-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Három kulcsfogalom ikon-trió (gyakorlás, visszahívás, spacing) | — | alt-szöveg | AI-generált |
+| `M5.3-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Három kulcsfogalom ikon-trió (gyakorlás, aktív felidézés, időben elosztott gyakorlás) | — | alt-szöveg | AI-generált |
 | `M5.3-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Két tanulási történet – A vs. B szembeállítás (Hook) | — | alt-szöveg | AI-generált |
 | `M5.3-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Somer-példák a három fogalomra – három mini-jelenet | — | alt-szöveg | AI-generált |
 | `M5.3-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Opcionális narráció – három kulcsfogalom (20-30 mp) | `M5.3-NAR-01-VO` | felirat, leirat | AI-generált |
@@ -675,7 +675,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M5.A-KART-01` | card-set | legyártandó | produkciós szabályra vár | 12 helyzetkártya – kétoldalas szett (front: sztori, hátlap: címke) | — | nyomtatható PDF | vegyes |
 | `M5.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Poszter-sablon: 4 mezős „átöltöztetés” mini-táblázat | — | nyomtatható PDF | vegyes |
 | `M5.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Flipchart-sablon: „Feladat / Cél → Kvuca → Módszer” lánc | — | nyomtatható PDF | vegyes |
-| `M5.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 3 sarok-felirat: SULI / SOMER / RANDOM élet | — | nyomtatható PDF | vegyes |
+| `M5.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 3 sarok-felirat: SULI / SOMER / HÉTKÖZNAPOK | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md
 
@@ -805,7 +805,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.B-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Kész minta-játéklap – TÖRTÉNET példa (képzői mintalap) | — | nyomtatható PDF | emberi |
 | `M6.B-MUNK-05` | worksheet | legyártandó | produkciós szabályra vár | Kész minta-játéklap – KÉZMŰVES példa (képzői mintalap) | — | nyomtatható PDF | emberi |
 | `M6.B-MUNK-06` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4 – peula előtt/közben) | — | nyomtatható PDF | emberi |
-| `M6.B-POSZ-01` | poster | legyártandó | produkciós szabályra vár | SBI flipchart-sablon (S–B–I emlékeztető + kész minta-mondat) | — | nyomtatható PDF | emberi |
+| `M6.B-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Produktum-visszajelzés flipchart-sablon (konkrét elem + várható hatás) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md
 
@@ -815,7 +815,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M6.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Cetli / post-it készlet a név nélküli témakérésekhez (beszerzendő irodaszer) | — | — | stock |
 | `M6.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – „1 gondolat / 1 kérdés leckénként + játéklap” | — | nyomtatható PDF | AI-generált |
-| `M6.F-MUNK-02` | worksheet | újrahasznosítás | specifikáció kész | Üres játéklap-sablon (offline B-terv + Study Lab) | — | — | AI-generált |
+| `M6.F-MUNK-02` | worksheet | újrahasznosítás | specifikáció kész | Üres játéklap-sablon (offline B-terv + felzárkóztató műhely) | — | — | AI-generált |
 | `M6.F-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Lecke-összefoglalók M6.1–M6.4 (offline B-terv, 1–1 oldal) | — | nyomtatható PDF | AI-generált |
 | `M6.F-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – 1 A4 (peula előtt/közben/után) | — | nyomtatható PDF | AI-generált |
 | `M6.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M6 leckelista + játéklap + név nélküli témakérések | — | nyomtatható PDF | AI-generált |
@@ -857,7 +857,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.2-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 2 narráció – „A Peula 11 pontjának térképe” | `M7.2-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.2-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 3 narráció – Előkészítés (4 pont) | `M7.2-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M7.2-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 4 narráció – Megírás (4 pont) + 4 fázis | `M7.2-NAR-04-VO` | felirat, leirat | AI-generált |
-| `M7.2-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 5 narráció – Utómunka & safety (3 pont) | `M7.2-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M7.2-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 5 narráció – Biztonság & továbbfejlesztés (3 pont) | `M7.2-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M7.2-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK – AI beszélő fej: „Csak játék maradt a peula?” | `M7.2-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md
@@ -884,8 +884,8 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M7.4-DIA-01` | diagram | legyártandó | produkciós szabályra vár | 3 építőkocka diagram – SMART cél / Peula 11 pontja / Zmán Kvucá | — | alt-szöveg | AI-generált |
 | `M7.4-IKO-01` | icon-set | újrahasznosítás | specifikáció kész | Kvuca-típus piktogramok – Parparim / Kivsza / Leviatan / Zorea | — | — | AI-generált |
-| `M7.4-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Opcionális narráció – ACTIVITY 1 (kvuca-típus + meta + SMART cél) | `M7.4-NAR-01-VO` | felirat, leirat | AI-generált |
-| `M7.4-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Opcionális narráció – OUTRO (gratuláció + next step) | `M7.4-NAR-02-VO` | felirat, leirat | AI-generált |
+| `M7.4-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél) | `M7.4-NAR-01-VO` | felirat, leirat | AI-generált |
+| `M7.4-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Opcionális narráció – zárás (gratuláció + következő lépés) | `M7.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.4-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK – AI beszélő fej: papíron szép vs. vállalható peula | `M7.4-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md
@@ -910,7 +910,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M7.B-EGY-01` | card-set | legyártandó | produkciós szabályra vár | A/B sarok-kvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Zmán Kvucá-mini-checklist (kiscsoportos munkalap) | — | nyomtatható PDF | emberi |
-| `M7.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | "Előtte–utána"-lap (gallery walk artefaktum-sablon) | — | nyomtatható PDF | emberi |
+| `M7.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | "Előtte–utána"-lap (galériaséta artefaktum-sablon) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Minta-Peula v1 (B-terv tartalék vázlat) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Exit ticket – mini visszajelző cetli | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-05` | worksheet | legyártandó | produkciós szabályra vár | Kipróbálási kötelezettségvállalás – if–then mini sablon (3 sor) | — | nyomtatható PDF | emberi |
@@ -1019,7 +1019,7 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 feedbackjeiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5. |
+| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 visszajelzéseiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5. |
 | `M3.4-DIA-01` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős. |
 | `M3.4-EGY-03` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős. |
 

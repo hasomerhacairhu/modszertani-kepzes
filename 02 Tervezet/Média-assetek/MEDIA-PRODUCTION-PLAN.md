@@ -126,8 +126,8 @@ tisztázandó.
 | `M3.4-EGY-02` | other/h5p-interaction | 1 | — | Mini True/False interakció – szigorúbb határok (SLIDE 2) |
 | `M3.4-EGY-04` | other/h5p-interaction | 1 | — | Húzás-mentes a11y-alternatíva – Single Choice/Matching (SLIDE 4) |
 | `M3.4-EGY-05` | other/h5p-interaction | 1 | — | H5P Question Set – mini-kvíz 3 kérdés (SLIDE 6) |
-| `M3.4-EGY-06` | other/h5p-interaction | 1 | — | Szabad szöveges reflexiós mező – „Saját Do/Don’t listám” (SLIDE 5) |
-| `M3.4-EGY-07` | other/moodle-activity | 1 | — | Moodle Assignment-sablon – „Helyzetleírás red flag-ekkel” (SLIDE 7 / modulproduktum) |
+| `M3.4-EGY-06` | other/h5p-interaction | 1 | — | Szabad szöveges reflexiós mező – „Saját mit tegyél / mit ne tegyél listám” (SLIDE 5) |
+| `M3.4-EGY-07` | other/moodle-activity | 1 | — | Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum) |
 | `M3.4-EGY-08` | other | 1 | — | Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret) |
 | `M3.F-EGY-01` | print/consumable | 1 | — | Cetli / post-it készlet a név nélküli témakérésekhez |
 | `M3.F-EGY-02` | print/consumable | 1 | — | Filcek a fogalom-térkép-táblához |
@@ -275,7 +275,7 @@ A 91 tétel soronként a
 | `M4.1-VID-03` | video/explainer | 1 | R2, R3, R5 | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” |
 | `M4.1-VID-04` | video/explainer | 1 | R2, R3, R5 | Jelenet 2 karaktervideó – „Ideges topogó madrich” |
 | `M4.1-VID-05` | video/explainer | 1 | R2, R3, R5 | Jelenet 3 karaktervideó – „Nyitott, stabil madrich” |
-| `M5.1-VID-01` | video/ai-talking-head | 4 | R2, R3 | HOOK beszélő fej – suli / somer / random |
+| `M5.1-VID-01` | video/ai-talking-head | 4 | R2, R3 | nyitó beszélő fej – suli / Somer / hétköznapok |
 | `M5.1-VID-02` | video/ai-talking-head | 4 | R2, R3 | OUTRO beszélő fej thumbnail (opcionális) |
 | `M6.1-VID-01` | video/ai-talking-head | 4 | R2, R3 | Hook beszélőfej-videó – „Volt már olyan, hogy nem ült a játék?” |
 | `M6.2-VID-01` | video/ai-talking-head | 4 | R2, R3 | Hook – AI beszélő fej: „fagyott csend lett a sztoritól?” |
@@ -305,7 +305,7 @@ _Üres._
 | Asset | Típus | Deliverable | Kapuk | Cím |
 |---|---|---:|---|---|
 | `M3-HUB-POSZ-01` | poster | 1 | OPEN_DECISION, R5 | Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás) |
-| `M3.4-DIA-01` | diagram | 2 | OPEN_DECISION, R5 | Do/Don’t három témablokk – minibox-pár diagram (SLIDE 3) |
+| `M3.4-DIA-01` | diagram | 2 | OPEN_DECISION, R5 | mit tegyél / mit ne tegyél három témablokk – minibox-pár diagram (SLIDE 3) |
 | `M3.4-EGY-03` | other/h5p-interaction | 1 | OPEN_DECISION | H5P Sorting / Drag & Drop – „OK / Nem OK madrichként” (SLIDE 4) |
 
 ### ÉLŐ / RUNTIME DELIVERABLE — A KÉPZŐ HOZZA LÉTRE A PEULÁN
@@ -327,14 +327,14 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 
 | Család | Pilot | Köteg | Kapuk | Család mérete | Cím |
 |---|---|---|---|---:|---|
-| Narráció / hang | `M4.2-NAR-03` | B2 | R3 | 90 | Slide 3 narráció – Dialog Cards felvezetés |
-| AI beszélőfej-videó | `M5.1-VID-01` | B3 | R2, R3 | 21 | HOOK beszélő fej – suli / somer / random |
+| Narráció / hang | `M6.1-NAR-03` | B2 | R3 | 90 | Narráció – SLIDE 3: 5 játék-kategória |
+| AI beszélőfej-videó | `M7.2-VID-01` | B3 | R2, R3 | 21 | HOOK – AI beszélő fej: „Csak játék maradt a peula?” |
 | AI karakter- / jelenetvideó | `M1.1-VID-02` | B2 | R3, R5 | 6 | Mini storyboard / B-roll – kvuca-szituk a példákhoz |
 | Diagram / ábra | `M0.2-DIA-01` | B1 | R5 | 39 | SLIDE 4 jelzési folyamatábra: észreveszem → nem maradok egyedül → jelzek → támogatást kapunk |
 | Ikon-készlet | `M0.1-IKO-01` | B1 | R5 | 40 | Hook-ikon: útiterv / térkép / lépcső |
 | Illusztráció | `M4.2-ILL-01` | B1 | R5 | 46 | Hook chat-buborék: ideges peula-mondat |
 | Munkalap / nyomtatvány | `M6.A-MUNK-02` | B1 | R5 | 61 | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) |
-| Poszter és kártyaszett | `M4.F-POSZ-01` | B1 | R5 | 61 | Tájékozódó tábla – M4 leckelista + név nélküli témakérések |
+| Poszter és kártyaszett | `Z.A-KART-03` | B1 | R5 | 61 | SBI-elismerés mintamondat kártya – párcseréhez |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B1 | R5 | 4 | Hook háttér – someres/kvuca-vizuál |
 | H5P-interakció / Moodle-elem | `M6.1-EGY-07` | B0 | — | 29 | Single Choice – Szitu 1 korosztály-választás |
 | Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Gallery walk reakció-eszközök (post-it / pötty-matrica) |
