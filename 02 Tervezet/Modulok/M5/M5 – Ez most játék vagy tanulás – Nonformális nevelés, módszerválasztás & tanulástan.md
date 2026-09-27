@@ -216,7 +216,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 [M5.2 – Feladat → módszer döntési fa – Mit választok először?](./Online%20leckék/M5.2%20–%20Feladat%20→%20módszer%20döntési%20fa%20–%20Mit%20választok%20először.md)
 
-[M5.3 – Hogyan tanulunk tényleg? – Gyakorlás, aktív felidézés, időben elosztott gyakorlás](./Online%20leckék/M5.3%20–%20Hogyan%20tanulunk%20tényleg%20–%20Gyakorlás,%20aktív felidézés,%20időben elosztott gyakorlás.md)
+[M5.3 – Hogyan tanulunk tényleg? – Gyakorlás, aktív felidézés, időben elosztott gyakorlás](./Online%20leckék/M5.3%20–%20Hogyan%20tanulunk%20tényleg%20–%20Gyakorlás,%20visszahívás,%20spacing.md)
 
 [M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként](./Online%20leckék/M5.4%20–%20Cél–kvuca–módszer%20mini-táblázat%20–%20saját%20adatbázisod%20madrichként.md)
 
