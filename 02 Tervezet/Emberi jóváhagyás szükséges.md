@@ -89,7 +89,7 @@ A szervezet dönti el a felvétel célját, jogalapját, hozzáférését, tárh
 A core Moodle Feedback `Record user names = No` beállítása **név nélkül jeleníti meg a válaszokat**, de a Moodle saját dokumentációja szerint ez nem GDPR-értelemben vett teljes anonimitás; az activity completion is felhasználói fiókhoz kötődhet.  
 **Döntés:** ez az álnévtelen/név nélküli működés megfelel-e a szervezeti célnak, vagy külön technikai anonimitás kell.  
 **Javasolt alapértelmezés:** learner-facing szövegben csak „név nélkül jelenik meg” állítás maradjon, amíg erősebb anonimitás nincs bizonyítva.  
-**Jóváhagyó:** privacy/DPO + programvezető. **Implementáció:** Z.4 Feedback-beállítás és privacy notice.
+**Jóváhagyó:** adatvédelmi/DPO felelős + programvezető. **Implementáció:** Z.4 Moodle Feedback-beállítás és adatvédelmi tájékoztató.
 
 ### HUM-PRIV-04 — Külső generatív AI tanulói használata
 
@@ -109,7 +109,7 @@ Kötelező döntések:
 - program kezdete és a modulhetek tényleges dátumai;
 - az offline peulák időpontjai;
 - Assignment/Quiz határidők;
-- **M7 v1 → M7.B feedback/revízió → v2** konkrét dátumai úgy, hogy v1 és v2 ne essen ugyanarra a napra, és a kettő között tényleges köztes feedback + külön revíziós szakasz legyen;
+- **M7 v1 → M7.B visszajelzés/átdolgozás → v2** konkrét dátumai úgy, hogy v1 és v2 ne essen ugyanarra a napra, és a kettő között tényleges köztes visszajelzés + külön átdolgozási szakasz legyen;
 - Z sorrend: Z.1–Z.3 → Z.A → Z.4.
 
 **Jóváhagyó:** programvezető.  
@@ -185,5 +185,5 @@ A választott HeyGen-folyamathoz szükséges személy-, hang-, képmás- és szo
 - A súlyos M3-es eseteket harmadik személyű esetelemzéssel dolgozzuk fel; traumatikus szerepjáték nincs.
 - A Z.4 hivatalos reflektív produktuma **Moodle Assignment**.
 - Az M0-kvíz completion-alapú diagnosztikus jelző.
-- Az M7 kétlépcsős produktumfolyam invariánsa: **v1 → köztes feedback/revízió → v2**.
+- Az M7 kétlépcsős produktumfolyam invariánsa: **v1 → köztes visszajelzés/átdolgozás → v2**.
 - A pedagógiai alapelv: **kevesebb gépezet, több mozgalom**.
