@@ -119,7 +119,7 @@ Opciók:
 * Volt 1–2 ilyen pillanat, de nem sok.
 * Nem nagyon jut eszembe ilyen.
 
-**Feedback (opciónként kicsit hangolt, de mind normalizál):**
+**Visszajelzés (opciónként kicsit hangolt, de mind normalizál):**
 
 * „Akkor most ezekből próbálunk **nevet adni párnak**.”
 * „Oké – akkor most ezt az 1–2 pillanatot fogjuk jobban megnézni.”
@@ -183,7 +183,7 @@ Opciók:
 * Közepesen – értem, de nem pont így éltem meg.
 * Nem nagyon – nálam máshogy jelenik meg a tanulás.
 
-**Feedback:**
+**Visszajelzés:**
 
 > „Oké. A tanulási pillanatok **nem néznek ki ugyanúgy** mindenkinél.
 > A lényeg, hogy legyen bennük valami *‘aha, legközelebb máshogy csinálom’* érzés.”
@@ -226,7 +226,7 @@ Opciók:
 * Talán – még gondolkodom rajta.
 * Nem igazán – vagy nem szeretnék most erre gondolni.
 
-**Feedback:**
+**Visszajelzés:**
 
 > „Teljesen rendben van.
 > Nem az a cél, hogy minden nehézséget ‘pozitív tanulsággá’ sminkeljünk,
@@ -286,7 +286,7 @@ Opciók:
 
 > Írj róla **5–8 mondatot**:
 
-> 1️⃣ Melyik modul / téma volt ez? (pl. M1 – feedback, M3 – gyermekvédelem, M5 – tanulástan…)
+> 1️⃣ Melyik modul / téma volt ez? (pl. M1 – visszajelzés, M3 – gyermekvédelem, M5 – tanulástan…)
 > 2️⃣ Pontosan **mi volt benne nehéz** vagy taszító?
 > 3️⃣ Mit mond ez rólad **most**? (pl. mire vagy érzékeny, miben vagy még bizonytalan)
 > 4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrichként?
