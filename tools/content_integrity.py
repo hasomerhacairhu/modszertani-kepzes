@@ -79,6 +79,22 @@ FILE_FORBIDDEN_PHRASES = {
         'rugalmasan szervezhető (1:1 vagy 3–4 fős kiscsoport)':
             'a kiskorú résztvevővel végzett 1:1 beszélgetést HUM-SAFE-02-höz kell kötni',
     },
+    '02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md': {
+        'észreveszem → jelzek → nem maradok egyedül → kit vonok be':
+            'az M3 learner-facing safeguarding folyamat egységesen az M3.B ötlépéses térképe',
+        '4 someres kvuca':
+            'a 2025/26-os Hasomer Hacair Magyarország oktatási terv három aktuális kvucát rögzít',
+        '4 kvuca-profil':
+            'az M3 aktuális korosztálymodellje Parparim 6–9, Kivsza 10–12, Leviatan 13–17',
+    },
+    '02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md': {
+        '6–10 / 11–13 / 14–16 / 16+':
+            'az M6 korosztály-illesztése a 2025/26-os három aktuális Somer-csoportot használja',
+    },
+    '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md': {
+        'Parparim / Kivsza / Leviatan / Zorea':
+            'az M7 kvuca-választója a 2025/26-os három aktuális csoportot használja',
+    },
 }
 
 # ---------------------------------------------------------------------------
