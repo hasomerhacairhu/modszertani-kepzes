@@ -211,8 +211,7 @@ ráadás, hanem **teherhordó**.
    azonos világosság. Ha a család mégis színnel is akar elválni, a „zárt”-hoz a
    `sötét kék #08A0CA` javasolt (`#08A0CA`/`#F2BC00` = 1,74:1). Ez a lecke szövegét
    **nem érinti**: a leckék hue-nevet írnak („kék”), nem hex-et.
-4. **A négy kvuca-piktogram maradjon szín-semleges** (forma + emoji-metafora), mert
-   négy, egymástól luminanciában is elváló márkaszín nincs.
+4. **A három aktuális kvuca-piktogram maradjon szín-semleges** (forma + emoji-metafora), hogy a korosztály-jelölés ne függjön kizárólag színtől.
 
 ---
 
