@@ -247,7 +247,7 @@ A modul végére a résztvevő…
      * Kiscsoportok 1–1 **esetkártyát** kapnak (online zaklatás, önsértés-gyanú, madrich–chanich határhelyzet stb.), és négy pont mentén elemzik: mi a red flag → mi az első mondat → mit nem tesz a madrich → kit von be.
      * A csoportok az **elemzésüket** hozzák vissza, nem jelenetet mutatnak be.
   3. **30–40’ – Lépés-térkép:**
-     * Közös plakáton: észreveszem → jelzek → nem maradok egyedül → kit vonok be.
+     * Közös plakáton az **M3.B kanonikus ötlépéses térképe**: **1) észreveszem / gyanús → 2) röviden, biztonságosan meghallgatom (nem ígérek teljes titoktartást) → 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti helyi jelzési utat → 4) a felelős felnőttel együtt döntünk a további lépésről → 5) utánkövetés**.
   4. **40–45’ – Zárókör:**
      * 1 mondat: „Mit viszel haza a red flag-ekkel kapcsolatban?”
 
