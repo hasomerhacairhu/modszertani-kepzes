@@ -63,3 +63,42 @@ jobs:
 
 
 
+
+
+  regenerate-media-on-audit:
+    if: github.event_name == 'pull_request' && github.head_ref == 'audit/release-readiness-2026-09-26'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install workbook dependency
+        run: python -m pip install --quiet openpyxl
+      - name: Rebuild all generated media outputs
+        run: python tools/media_manifest.py build
+      - name: Commit generated outputs if changed
+        run: |
+          git add "02 Tervezet/Média-assetek/_build/media-manifest.v2.json" \
+                  "02 Tervezet/Média-assetek/assetek.csv" \
+                  "02 Tervezet/Média-assetek/deliverable-ek.csv" \
+                  "02 Tervezet/Média-assetek/ujrahasznositas.csv" \
+                  "02 Tervezet/Média-assetek/Média-asset regiszter.md" \
+                  "02 Tervezet/Média-assetek/Média-asset regiszter.xlsx" \
+                  "02 Tervezet/Média-assetek/asset-migration-map.csv" \
+                  "02 Tervezet/Média-assetek/ASSET-MANIFEST-V2-MIGRATION.md" \
+                  "02 Tervezet/Média-assetek/MEDIA-PRODUCTION-PLAN.md" \
+                  "02 Tervezet/Média-assetek/media-production-plan.csv"
+          if git diff --cached --quiet; then
+            echo "Generated media outputs already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(media): rebuild all generated outputs after group migration"
+          git push origin HEAD:"${{ github.head_ref }}"
