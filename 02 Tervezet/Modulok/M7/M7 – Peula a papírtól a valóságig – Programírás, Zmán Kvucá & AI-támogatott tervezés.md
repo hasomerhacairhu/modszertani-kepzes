@@ -11,7 +11,7 @@
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
-    "note": "Vektoros, vízszintes idővonal/swimlane, magyar feliratokkal; 16:9 kivetíthető és A4/A3 nyomtatható; két dátum-placeholder mezővel."
+    "note": "Vektoros, vízszintes idővonal/sávos időrend, magyar feliratokkal; 16:9 kivetíthető és A4/A3 nyomtatható; két dátummezővel, amelyeket rendereléskor a HUM-OPS-01 központi ütemezésből kell kitölteni. Üres dátummezővel nem publikálható."
   },
   "a11y": {
     "visual": "informative",
