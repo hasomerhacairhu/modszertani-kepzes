@@ -107,10 +107,9 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 | `dugma ishit` | „dugma isit” | köznév, kisbetű; a „Dugma Ishit” személynévi alak kerülendő |
 | `ken` | „ken” | rövid e, nem „kén” |
 | `Zmán Kvucá` | „zmán kvucá” — mindkét ékezet hosszú | a `c` itt is /ts/ |
-| `Parparim` | „parparim” | pillangók, 6–10 |
-| `Kivsza` | „kivsza” | bárány, 11–13 |
-| `Leviatan` | „leviatan” — **ékezet nélkül** | a glosszárium kifejezetten tiltja a „Leviatán” alakot; toldalékoltan a tő miatt lehet ékezet |
-| `Zorea` | „zorea” | magvető, 16+; toldalékolva „Zoreánál” |
+| `Parparim` | „parparim” | pillangók, 6–9 |
+| `Kivsza` | „kivsza” | bárány, 10–12 |
+| `Leviatan` | „leviatan” — **ékezet nélkül** | 13–17; a glosszárium jelenlegi house style-ja tiltja a „Leviatán” alakot; toldalékoltan a tő miatt lehet ékezet |
 | `hagshama`, `bogrim`, `mazkirut` | magyar olvasat | ritkábban fordulnak elő |
 
 > ⚠️ **Nyitott terminológiai kapu.** A glosszárium 2026-08-25-i figyelmeztetése szerint a
@@ -123,9 +122,7 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 
 ## 7. Számok, betűszók, rövidítések
 
-- **Korosztályok:** a szövegek `6–10`, `11–13`, `14–16`, `16+` alakban írják; felmondva
-  „hat–tíz éves”, „tizenegy–tizenhárom éves”, „tizenhat plusz” helyett „tizenhat év
-  felett”.
+- **Korosztályok:** a 2025/26-os kánon `Parparim 6–9`, `Kivsza 10–12`, `Leviatan 13–17`; felmondva „hat–kilenc éves”, „tíz–tizenkét éves”, „tizenhárom–tizenhét éves”.
 - **SBI:** betűzve, „es-bé-í”, és a modell elemei magyarul: Situation–Behavior–Impact →
   a leckék „S”, „B”, „I” betűjelet használnak, ezeket betűként kell mondani.
 - **Johari, Tuckman:** magyaros olvasat („johari”, „takmen” helyett „tuckman” magyar
