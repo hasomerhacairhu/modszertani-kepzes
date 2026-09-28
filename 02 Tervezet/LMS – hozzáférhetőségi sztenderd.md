@@ -51,9 +51,9 @@
 - A mobil-first premissza nem feltételezheti, hogy **minden madrichnak van saját okostelefonja + elegendő adatforgalma** (a videós leckék adatigényesek). Ahol az eszköz vagy az adatkeret hiányzik — nincs saját készülék, megosztott a családi telefon, korlátos az adatkeret —, ott **alternatív útnak kell lennie**: az eszköz-hiány **nem zárhat ki a completionből**.
 - **Kötelező minimum a videós/adatigényes leckékhez:**
   - adj **alacsony adatigényű, offline letölthető leckeváltozatot** (a narráció szöveges leirata + a kulcsképek; a felirat **és** hozzáférhető szöveges leirat / alternatíva eleve elvárás — lásd 1. szakasz —, így a videó hang és sávozás nélkül, letöltött szövegből is teljesíthető);
-  - a **Study Lab / F-peula** (offline, képző-kísérte tér) egyben **eszközhöz-jutási pont** is: itt a madrich a ken közös eszközén / a helyszín wifijén végezheti el az online elemeket;
-  - ahol a kapus/online elem teljesítése eszközhöz kötött, ott **biztosítani kell egy eszköz-független pótlási utat** (a fenti offline/letölthető változat + a ken közös eszköze); ahol az **opcionális** Study Lab elérhető, az is egyenértékű pótlási tér — de a méltányos hozzáférés **nem függhet kizárólag** az opcionális Study Lab meglététől.
-- Tedd explicitté a lecke fejlesztői megjegyzésében, ha egy elem csak online, élő neten teljesíthető — ez akadálymentesítési kockázat, és kell hozzá offline/Study Lab fallback.
+  - a **felzárkóztató műhely / F-peula** (offline, képző-kísérte tér) egyben **eszközhöz-jutási pont** is: itt a madrich a ken közös eszközén / a helyszín wifijén végezheti el az online elemeket;
+  - ahol a kapus/online elem teljesítése eszközhöz kötött, ott **biztosítani kell egy eszköz-független pótlási utat** (a fenti offline/letölthető változat + a ken közös eszköze); ahol az **opcionális** felzárkóztató műhely elérhető, az is egyenértékű pótlási tér — de a méltányos hozzáférés **nem függhet kizárólag** az opcionális Study Lab meglététől.
+- Tedd explicitté a lecke fejlesztői megjegyzésében, ha egy elem csak online, élő neten teljesíthető — ez akadálymentesítési kockázat, és kell hozzá offline / felzárkóztató műhelyi tartalékút.
 
 ## 6. Szabad szöveg és önreflexiók
 
@@ -71,7 +71,7 @@
 
 ### KAPUS H5P „pre-flight” checklist
 
-> Ez a blokk **kizárólag a kapus / értékelt (gate-höz, completionhöz vagy mastery-kapuhoz kötött) H5P-elemekre** vonatkozik — ahol a továbblépés a madrich teljesítésén múlik. Itt a hozzáférhetőség nem „jó, ha van”, hanem **élesítési feltétel**: ha bármelyik pont kipipálatlan, az elem **nem mehet élesbe**, mert egy chanich vagy madrich emiatt elakadhat a kapuban.
+> Ez a blokk **kizárólag a kapus / értékelt (kapuhoz, completionhöz vagy teljesítési kapuhoz kötött) H5P-elemekre** vonatkozik — ahol a továbblépés a madrich teljesítésén múlik. Itt a hozzáférhetőség nem „jó, ha van”, hanem **élesítési feltétel**: ha bármelyik pont kipipálatlan, az elem **nem mehet élesbe**, mert egy chanich vagy madrich emiatt elakadhat a kapuban.
 >
 > **„Kész = élesíthető” definíció:** az elem akkor élesíthető, ha **mind a 7 pont** ki van pipálva ÉS az a11y-lektor jóváhagyta. Részleges teljesítés nem „majdnem kész” — kapus elemnél a hozzáférhetőségi rés egyenlő azzal, hogy valaki kizáródik a továbbhaladásból.
 
@@ -92,7 +92,7 @@
 
 - **Plain-language a leckeszövegre:** a tananyagszöveg **rövid mondatokra, egyszerű, tegező nyelvre** törekszik; a szakszót (someres/pedagógiai fogalom) az **első előforduláskor egy mondatban feloldod**, vagy a glosszáriumra linkelsz. (Ez a leckeszövegre vonatkozik — nem keverendő az adatkezelési „just-in-time” dobozok plain-language elvével.)
 - **Kulcsfogalom mindig szövegben is:** minden lényeges fogalom és lépés **szövegként** is jelen van, nem csak ábrán/ikonon (ez a 2. szakasz alt-szöveg-elvárásával együtt zárja le a szöveg+vizuális redundanciát, ami tanulási nehézségnél kritikus).
-- **Tanulási nehézséggel / diszlexiával / SNI-vel élő madrich támogatása:** ahol az olvasás vagy a megértés akadályba ütközik, a madrich a **mentorától** kap segítséget, és a **Study Lab / F-peula** támogató, egyéni/kiscsoportos pótlási tér is — az online szöveg nem az egyetlen út a tananyaghoz.
+- **Tanulási nehézséggel / diszlexiával / SNI-vel élő madrich támogatása:** ahol az olvasás vagy a megértés akadályba ütközik, a madrich a **mentorától** kap segítséget, és a **felzárkóztató műhely / F-peula** támogató, egyéni/kiscsoportos pótlási tér is — az online szöveg nem az egyetlen út a tananyaghoz.
 
 ---
 
@@ -105,7 +105,7 @@
 - [ ] Húzásra épülő feladat mellett **húzásmentes**, egykattintásos + billentyűzetes egyenértékű út (SC 2.5.7) — a konkrét típus húzásmentességét a renderen igazold
 - [ ] Interakció-típus következetes a modulon belül
 - [ ] Mobil-táblázat = kártya/akkordeon nézet, nem vízszintes scroll
-- [ ] Adatigényes/videós leckéhez offline letölthető, alacsony adatigényű változat + Study Lab mint eszközhöz-jutási pont (eszköz-hiány nem zár ki a completionből)
+- [ ] Adatigényes/videós leckéhez offline letölthető, alacsony adatigényű változat + felzárkóztató műhely mint eszközhöz-jutási pont (eszköz-hiány nem zár ki a completionből)
 - [ ] Produktumhoz letölthető sablon + online-text beadás engedélyezve
 - [ ] Szabad szöveges önreflexió completion-alapú; Essaynél nincs kulcsszó-alapú automatikus értékelés, Free Text Question csak igazolt host/befoglaló-támogatással
 - [ ] Leckeszöveg plain-language: rövid mondatok, szakszó első előforduláskor feloldva; kulcsfogalom szövegben is (nem csak ábrán)
