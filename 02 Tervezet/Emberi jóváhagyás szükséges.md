@@ -127,11 +127,17 @@ Kötelező döntések:
 A szervezet nevezze meg, ki írja alá a kapus elemek pre-flight ellenőrzését. A specifikációban addig **szerepkör**, nem kitalált személynév szerepel.  
 **Jóváhagyó:** programvezető. **Blokkol:** learner-facing release, nem a staging.
 
-### HUM-GOV-01 — Terepgyakorlat rubrika ↔ KPI megfeleltetés
+### HUM-GOV-01 — Terepgyakorlat rubrika ↔ KPI megfeleltetés — LEZÁRVA
 
-A `Terepgyakorlat – 2. félév.md` 0–2 skálája és az intake „rubrikaátlag ≥4/5” célja nem azonos skála.  
-**Döntés:** vagy 5 fokozatúra változik a terepi rubrika, vagy a KPI-t definiálja újra a szervezet a 0–2 skálán.  
-**Jóváhagyó:** programvezető + módszertani felelős. **Blokkol:** KPI-riport, nem a Moodle-staging.
+**Lezárva:** 2026-09-28.
+
+A field-rubrika **0–2-es skálán marad**. Az intake `≥4/5` célját skálafüggetlen normalizált százalékként riportoljuk:
+
+`normalizált eredmény = (rubrikaátlag / 2) × 100`
+
+Így **4/5 = 80% = 1,6/2**. A kanonikus field-KPI tehát **≥80%**, illetve az aktuális 0–2-es rubrikán **átlag ≥1,6/2**. A döntés nem módosítja a rubrika szintleírásait, és nem kényszeríti egységes skálára az M1–M7 modulrubrikákat.
+
+**Implementáció:** `Terepgyakorlat – 2. félév.md` ezt az egyetlen képletet használja a KPI-riporthoz.
 
 ---
 
