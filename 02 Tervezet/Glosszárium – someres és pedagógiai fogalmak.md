@@ -5,7 +5,7 @@
 > A jelentések mozgalmi/Judaica forrásokkal alátámasztottak (a részletes someres-terminológiai audit a git-history-ban érhető el); a 🧑‍🏫 jelű tételeknél a helyi (magyarországi Somer) ken végső megerősítése ajánlott.
 
 
-> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez hivatalosnak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. A nyilvános oldalak korosztályi terminológiája sem teljesen egyezik a repo 4-kvucás történeti modelljével. **Ezt nem automatizáljuk tömeges átírással.** A helyi ken/országos mozgalmi felelősnek egyetlen house style-t és a 2026-os korosztály-architektúrát írásban jóvá kell hagynia; utána lintelt, atomi terminológiai migráció szükséges.
+> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez hivatalosnak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. **Ezt a house-style kérdést nem automatizáljuk tömeges átírással.** A korosztály-architektúra viszont **lezárt, forrásolt adat**: a „Oktatási terv 25/26 Hasomer Hacair” három aktuális csoportot rögzít: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
 
 ---
 
@@ -14,9 +14,9 @@
 Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó szerinti jelentés · mozgalmi jelentés · megjegyzés.
 
 ### bogrim (בוגרים)
-- **Jelentés:** „érettek / idősebbek” – a legidősebb (16+) korosztály mozgalmi **köznévi** megnevezése.
+- **Jelentés:** „érettek / idősebbek”. **A 2025/26-os magyarországi oktatási tervben nem külön kvuca-korosztály neve**; a jelen tananyag aktuális korosztály-struktúrájában nem használjuk önálló 16+ csoportcímkeként.
 - **Írásmód (hivatalos):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
-- **Megjegyzés:** a **Zorea** a 16+ kvuca **tulajdonneve**, a `bogrim` ugyanennek a korosztálynak a köznévi leírása – a kettő nem ellentmondás. (M6, M2.A, M3.2)
+- **Megjegyzés:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért aktuális learner-facing korosztálycímkeként nem használjuk.
 
 ### chanich (חניך)
 - **Jelentés:** növendék, gondozott; mozgalmi értelemben a kvuca tagja, akit a madrich vezet.
@@ -39,7 +39,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 - **Megjegyzés:** mozgalmi szakszó. Ne keverd a magyar „ken” igével/köznévvel – kontextusból mindig a fészek/helyi csoport jelentés.
 
 ### Kivsza
-- Lásd: **kvuca-nevek** (4. korosztály). Jelentés: bárány/juh (11–13 év). 🐑
+- Lásd: **kvuca-nevek**. Jelentés: bárány/juh (**10–12 év**). 🐑
 
 ### kvuca (קבוצה)
 - **Jelentés:** csoport; a someres nevelés alapegysége – a bensőséges kiscsoport, ahonnan az egész nevelési élmény kibomlik.
@@ -50,7 +50,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
   - Ez szabályos magyar tőhangzónyúlás, **nem hiba** – ne „egységesítsd” rövid a-ra.
 
 ### Leviatan
-- Lásd: **kvuca-nevek**. Jelentés: cet/leviatán (14–16 év). 🐋
+- Lásd: **kvuca-nevek**. Jelentés: cet/leviatán (**13–17 év**). 🐋
 - **Írásmód (hivatalos):** **`Leviatan` – ékezet nélkül.** **NEM** „Leviatán”. A magyaros ékezet tipikus automatikus magyarosítási hiba; a hivatalos alak ékezet nélküli tulajdonnév.
 
 ### madrich / madricha
@@ -64,7 +64,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 - **Megjegyzés:** írásmód `mazkirut` (ne „maskirut”).
 
 ### Parparim
-- Lásd: **kvuca-nevek**. Jelentés: pillangók/lepkék (6–10 év). 🦋
+- Lásd: **kvuca-nevek**. Jelentés: pillangók/lepkék (**6–9 év**). 🦋
 
 ### peula (פעולה)
 - **Jelentés:** tevékenység/akció; mozgalmi értelemben **strukturált foglalkozás / program** (egy madrich által vezetett, megtervezett nevelési egység).
@@ -83,20 +83,18 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 
 ---
 
-### kvuca-nevek (4 korosztályos shichva-név)
+### kvuca-nevek (2025/26: 3 korosztályos shichva-név)
 
 Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései. **Mind ékezet nélküli tulajdonnév.** Az emoji a szó szerinti jelentést tükrözi.
 
 | Hivatalos alak | Jelentés | Korosztály | Emoji | Profil (helyi konvenció) |
 |---|---|---|---|---|
-| **Parparim** | pillangók/lepkék | 6–10 | 🦋 | legkisebbek |
-| **Kivsza** | bárány/juh | 11–13 | 🐑 | kiskamasz |
-| **Leviatan** | cet/leviatán | 14–16 | 🐋 | tinédzser / identitás |
-| **Zorea** | magvető / vető | 16+ | 🌱 | legidősebb / felelősség |
+| **Parparim** | pillangók/lepkék | **6–9** | 🦋 | legkisebbek |
+| **Kivsza** | bárány/juh | **10–12** | 🐑 | kiskamasz |
+| **Leviatan** | cet/leviatán | **13–17** | 🐋 | tinédzser / idősebb chanichok |
 
-- **Figyelem:** `Leviatan` ékezet nélkül (NEM „Leviatán”). A toldalékos alakoknál (Parparimnál, Zoreánál) a tő miatti ékezet rendben van.
-- **Nyelvi pontosítás:** a `Zorea` (זורע) az aktív részesülő = **„magvető / aki vet”** (ágens), NEM „csíra”. A csíra/mag külön szó: **zera** (זרע). A 🌱 emoji a vetés/növekedés képét idézi, de a tulajdonnév jelentése a *vető*, nem a mag.
-- 🧑‍🏫 A pontos korosztály-besorolás és profil mozgalom-belső konvenció – a helyi ken-vezetővel megerősítendő, nem ellenőrizhető általános forrásból.
+- **Figyelem:** `Leviatan` ékezet nélkül (NEM „Leviatán”).
+- **Forrás és státusz:** a korosztály-besorolás a kapcsolt **„Oktatási terv 25/26 Hasomer Hacair”** dokumentum alapján **lezárt a 2025/26-os programhoz**. A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
 
 ---
 
@@ -162,7 +160,7 @@ Az M4-ben használt, legfeljebb kb. 45 másodperces bevezető: kinek szól a peu
 
 2. **A héber köznevek kisbetűsek.** `dugma ishit`, `chanich`, `madrich`, `kvuca`, `peula`, `ken` köznév → kisbetű (kivéve mondat/fejléc eleje). A megszemélyesített nagybetűs `Dugma Ishit` kerülendő.
 
-3. **A tulajdonnevek nagybetűsek, a kvuca-nevek ékezet nélküliek.** `Somer`, `Hasomer Hacair`, `Zmán Kvucá` és a 4 kvuca-név (`Parparim`, `Kivsza`, `Leviatan`, `Zorea`) tulajdonnév. A kvuca-nevek **ékezet nélkül** – kiemelten: `Leviatan`, NEM „Leviatán”.
+3. **A tulajdonnevek nagybetűsek, a kvuca-nevek ékezet nélküliek.** `Somer`, `Hasomer Hacair`, `Zmán Kvucá` és a 2025/26-os három kvuca-név (`Parparim`, `Kivsza`, `Leviatan`) tulajdonnév. A kvuca-nevek **ékezet nélkül** – kiemelten: `Leviatan`, NEM „Leviatán”.
 
 4. **Az á-s toldalékolás szabályos.** `kvucá-` (kvucának, kvucára), `peulát/peulán/peulára`, `Zmán Kvucá` – a hosszú á magyar tőhangzónyúlás, nem elírás.
 
