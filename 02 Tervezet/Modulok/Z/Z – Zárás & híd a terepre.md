@@ -161,7 +161,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 **Fontos:**
 – Nem kötelező és **nem része a formalizált modul-kapunak**.
-– Inkább a **mentori rendszer** eszköze, rugalmasan szervezhető (1:1 vagy 3–4 fős kiscsoport).
+– Inkább a **mentori rendszer** eszköze. **1:1 beszélgetés csak a HUM-SAFE-02 szerint jóváhagyott helyi négyszemközti / safer-working szabály betartásával szervezhető**; amíg ez nincs lezárva, használjatok 3–4 fős kiscsoportot, vagy vonjatok be egy másik képzőt átlátható módon.
 – A Program terv §6 „félév-végi **reflektív »exit interview«** (akár rövid írás, akár beszélgetés)” pontja erre a beszélgetésre **és** a Z.4 záró reflektív produktumra (a „rövid írás” ág, ami mindenkinek kötelező) utal. Ez **reflektív, NEM értékelő** aktus: a summatív kaput az M7 már lezárta, a Z mentori beszélgetése nem értékel újra.
 
 ***
