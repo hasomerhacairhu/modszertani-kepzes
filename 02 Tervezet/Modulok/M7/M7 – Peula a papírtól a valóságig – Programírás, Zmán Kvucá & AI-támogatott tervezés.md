@@ -134,13 +134,13 @@
 **Kulcsfogalmak (első említés)**
 
 * **SMART nevelési cél:** olyan cél, ami **Specifikus, Mérhető, Achievable (elérhető), Releváns és Time-bound (időhöz kötött)** – someres nyelven: pontosan megfogalmazott, látszik, hogy megtörtént-e, reális, Somer-értékhez kapcsolódik, és tudjuk, *mikorra* szeretnénk, hogy megvalósuljon. (M7.1, M7.A, M7.4)
-* **Peula 11 pontja (modernizált):** a peula „csontváza” a céltól a feldolgozáson át a biztonságig, AI-t mint eszközt használva. (M7.2, M7.A, M7.4)
+* **Peula 11 pontja (modernizált):** a peula „csontváza” a céltól a feldolgozáson át a biztonságig; ahol a résztvevő választja és a szervezeti feltételek engedik, AI opcionális támogató eszköz lehet. (M7.2, M7.A, M7.4)
 * **Zmán Kvucá:** a kvuca **fix, rendszeres foglalkozás-idősávja** (pl. heti kvuca-idő a kenben), ahol peula, beszélgetés, játék történik – **nevelési céllal**, tervezetten, biztonságos keretben. (M7.3, M7.B, M7.F)
-* **AI mint eszköz:** ötletelésre, fogalmazásra, kérdés-generálásra használjuk, **chanich-adatok nélkül**, a döntés és a felelősség pedig a madrichnál marad. (M7.1–M7.4, M7.B)
+* **AI mint opcionális eszköz:** ötletelésre, fogalmazásra, kérdésgenerálásra használható **chanich-adatok nélkül**; a használata nem teljesítési feltétel, és a döntés/felelősség minden esetben a madrichnál marad. (M7.1–M7.4, M7.B)
 
 **Modulcél röviden**
 
-A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucára (pl. Parparim/Kivsza), amelyet a **modernizált Peula 11 pont** szerint írt meg; érti és használja a **Zmán Kvucá-checklistet**, és tudatosan, etikusan von be **szervezetileg jóváhagyott generatív AI-eszközt** a tervezésbe – úgy, hogy a döntések a végén az ő kezében maradnak. (M7.1–M7.4, M7.A, M7.B)
+A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucára (pl. Parparim/Kivsza), amelyet a **modernizált Peula 11 pont** szerint írt meg; érti és használja a **Zmán Kvucá-checklistet**, és képes megítélni, hogyan vonható be **opcionálisan, etikusan egy szervezetileg jóváhagyott generatív AI-eszköz** a tervezésbe. A no-AI út teljes értékű; a döntések minden esetben a madrich kezében maradnak. (M7.1–M7.4, M7.A, M7.B)
 
 **Kétlépcsős félévzáró – a Peula v2 nem egy ülésben készül el**
 
@@ -163,7 +163,7 @@ A modul végére a madrich…
    * Érti, hogyan kapcsolódik a cél Somer-értékhez / kvuca-állapothoz (M7.1, M7.4).
 2. **„Peula 11 pontja” – modern, AI-támogatott verzió**
    * **Azonosítja a Peula 11 pontjának fázisait egy adott peulavázban** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél/SMART, 5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista, 9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió & továbbfejlesztés) (M7.2).
-   * Képes ezek mentén **Peula v2-t írni**, és AI-t használni ötleteléshez, nyelvi finomításhoz – anélkül, hogy lemásolná az AI-szöveget (M7.2, M7.4, M7.A).
+   * Képes ezek mentén **Peula v2-t írni**, és ha az AI utat választja, AI-t használni ötleteléshez vagy nyelvi finomításhoz anélkül, hogy átadná neki a szerzői/szakmai döntést (M7.2, M7.4, M7.A).
 3. **Zmán Kvucá & operáció**
    * Érti, mit jelent a **Zmán Kvucá** mint időkeret, felelősség és gyermekvédelmi kontextus (M7.3).
    * Tud használni egy **Zmán Kvucá-checklistet** (helyszín, létszám, anyagok, B-terv, hozzáférhetőség, gyermekvédelem, szerepek) saját peulájára (M7.3, M7.4, M7.B).
@@ -284,7 +284,7 @@ A modul végére a madrich…
   * Peula-klinika kiscsoportban:
     * 1 kiválasztott Peula v2-re végigpörgetik a checklistet,
     * beírják a hiányzó biztonsági / operatív elemeket,
-    * kipróbálnak 1–2 AI-promptot (pl. alternatív helyszín-ötlet, B-terv, feldolgozó kérdések).
+    * opcionálisan kipróbálnak 1–2 AI-promptot (pl. alternatív helyszín-ötlet, B-terv, feldolgozó kérdések); aki nem használ AI-t, ugyanazt saját ötleteléssel, mentorral vagy nyomtatott promptkártyával végzi.
   * Bemutatás: 1–2 peula „előtte–utána” (mi lett biztonságosabb, valóságközelibb).
   * Zárókör: „A következő Zmán Kvucá tervezésénél mire fogsz külön figyelni?”
 
