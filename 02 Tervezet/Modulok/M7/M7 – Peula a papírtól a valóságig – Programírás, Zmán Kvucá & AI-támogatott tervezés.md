@@ -123,7 +123,7 @@
 * **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrich-óra, otthoni / védett munkaidő):**
   * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
   * **v1 → v2 véglegesítés** (az M7.B peula-klinika visszajelzései után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **biztonsági rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, etikus AI-átírás, és a **portfólió-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 biztonsági keret/kvuca-profil · M5 módszer · M6 játéklap).
-  * **Mastery-kvíz** (14 item, esetleg 2–3 próbálkozás): **~15–25 perc**.
+  * **Teljesítési kvíz** (14 item, esetleg 2–3 próbálkozás): **~15–25 perc**.
   * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 1,5–2,5 óra**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrichoknak (alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok), és adj hozzá **védett munkaidőt** (pl. M7.B-klinika + M7.F felzárkóztató műhely).
 * **Teljes terhelés:** kb. **2,5–3 óra kontaktidő (online mikroleckék + 2 peula)** **+ kb. 1,5–2,5 óra önálló szintézis-produktum-munka (Peula v2 véglegesítés + kvíz)** → reálisan **össz. ~4–5,5 óra** a félévzáró kapuig.
 
