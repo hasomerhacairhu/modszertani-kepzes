@@ -460,9 +460,13 @@ AI-eredetű asseten, és a projektszabály attól él, hogy mi írjuk elő, nem 
 szolgáltató technikailag támogatja.
 
 > **Tárgyi tény, nem jogi következtetés:** az EU AI Act 50. cikkének átláthatósági
-> rendelkezései a hivatalos uniós tájékoztatás szerint **2026. augusztus 2-tól**
-> alkalmazandók. Hogy ebből a szervezetre mint deployerre pontosan mi hárul, azt az R1
-> szövege szerint **jogi review** minősíti — ez a lap nem értelmezi tovább.
+> rendelkezései főszabály szerint **2026. augusztus 2-tól** alkalmazandók. A
+> **2026/1744 rendelettel beiktatott 111. cikk (4)** ugyanakkor a 2026. augusztus 2.
+> előtt forgalomba hozott, szintetikus audio-/kép-/videó-/szövegtartalmat generáló
+> rendszerek szolgáltatóinak az 50. cikk (2) szerinti megfelelésre **2026. december
+> 2-ig** átmeneti időt ad. Hogy az 50. cikkből a szervezetre mint deployerre pontosan
+> mi hárul, azt az R1 szövege szerint **jogi review** minősíti — ez a lap nem
+> értelmezi tovább.
 
 ---
 
