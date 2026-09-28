@@ -7,7 +7,7 @@
 -->
 
 > **Mihez tartozik?** M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés.
-> Ez a **félévzáró, éles teljesítési kapu** értékelője. A modul valódi kimenete egy **produktív készség** (Peula v2 megírása + Zmán Kvucá-operáció + etikus AI-használat), ezért a kapu **gerince a Peula v2 rubrika**, a kvíz pedig a fogalmi belépő.
+> Ez a **félévzáró, éles teljesítési kapu** értékelője. A modul valódi kimenete egy **produktív készség** (Peula v2 megírása + Zmán Kvucá-operáció + etikus AI-döntés, beleértve a no-AI választást), ezért a kapu **gerince a Peula v2 rubrika**, a kvíz pedig a fogalmi belépő.
 
 ***
 
@@ -346,7 +346,7 @@
 | **0** | A szöveg „robotnyelvű”, sablonos, AI-másolat hatású, **és/vagy** beazonosítható chanich-adat (név, konkrét sztori) szerepel benne. **(Adat-szivárgás esetén jelzés a mentornak.)** |
 | **1** | Vegyes: helyenként emberi, de vannak nyersen bemásolt, a kvucára nem szabott AI-blokkok; nincs jele a saját döntésnek. |
 | **2** | A szöveg **emberi, érthető, a saját szavakkal írt**; ha volt AI-támogatás, az ötlet-szinten maradt; **nincs** beazonosítható chanich-adat. |
-| **3** | Egyértelműen **saját, someres hangú** munka; ahol AI-t használt, ott látszik a **kritikus átdolgozás** (mi illik a kvucához, mit hagyott ki) **és a transzparens jelölés** (a mellékelt AI-használat-megjegyzésből kiderül, hol / mire használt AI-t) – nem a parafrázis önmagában, hanem a **feltüntetés + a madrich tényleges szakmai döntése** teszi etikussá; a felelősség végig a madrichnál marad. |
+| **3** | Egyértelműen **saját, someres hangú** munka, amelyből látszik a madrich tényleges szakmai döntése. **No-AI út:** önállóan/mentorral dolgozott, ezt a mellékelt megjegyzésben jelzi (`nem használtam AI-t`), és a produktum végig saját, kvucára szabott. **AI-támogatott út:** látszik a kritikus átdolgozás (mi illik a kvucához, mit hagyott ki) és a transzparens jelölés (hol/mire használt AI-t). A két út értékben egyenértékű; a felelősség végig a madrichnál marad. |
 
 ***
 
