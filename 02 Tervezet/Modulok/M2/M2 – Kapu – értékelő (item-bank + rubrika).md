@@ -195,7 +195,7 @@ A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha e
 
 ## D. 1 oldalas identitás-jegyzet – sablon (a tanulónak)
 
-> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Csak a mentorod/képződ látja.
+> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. A beadást a kijelölt mentor/képző értékeli a jóváhagyott kurzus-hozzáférések szerint. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz; gyermekvédelmi feltárás esetén a jóváhagyott safeguarding-eljárás lép életbe.
 >
 > 🔒 **Mit kérünk és mit nem.** Itt **nem az identitásod tartalmát értékeljük**, hanem azt, hogy tudsz-e belőle **megfigyelhető madrich-viselkedést** levezetni. Ezért:
 > – a köröket elég **általánosan** megnevezned (pl. „család”, „zsidó közösség”, „iskola”) – nem kell személyes történet, diagnózis, családi konfliktus vagy más érzékeny részlet;
