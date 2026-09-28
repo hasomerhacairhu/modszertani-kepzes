@@ -160,6 +160,7 @@ AUDIT_2026_09_26_VISIBLE_EDITS = {
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md",
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
+    "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md",
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md",
     "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md",
     "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md",
@@ -1689,7 +1690,7 @@ class TestApprovedDecisions(unittest.TestCase):
         text = lesson.read_text(encoding="utf-8")
         for kept in ("Miért fontos, hogy máshogy nézz rá a kvucákra?",
                      "előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen",
-                     "gyors **„fejprofilod”** mind a négy kvucáról"):
+                     "gyors **„fejprofilod”** mind a három aktuális kvucáról"):
             self.assertIn(kept, text, kept)
 
     # --- D4: the M4 HOOK format question is answered -------------------------
