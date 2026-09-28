@@ -19,7 +19,7 @@ A Markdown specifikációból **nem bizonyítható**, hogy egy H5P/Moodle intera
 
 ## P0 runtime tesztek
 
-1. **Completion semantikája:** megnyitás/attempt nem számíthat mastery teljesítésnek; grade/pass feltétel ténylegesen blokkol.
+1. **Teljesítési semantika:** a megnyitás vagy egy próbálkozás önmagában nem számíthat a teljesítési kapu teljesítésének; a jóváhagyott `grade/pass` feltételnek ténylegesen blokkolnia kell.
 2. **M6.4 Branching Scenario:** legalább három külön ág teljesítése ténylegesen mérhető vagy Moodle-checkpointtal helyettesített.
 3. **Z.4 hosszú reflexió:** Moodle Assignment draft mentés, újranyitás, visszatérés és véglegesítés ténylegesen működik. Nem támaszkodunk H5P Documentation Tool session-resume állításra.
 4. **M5 Dialog Cards:** a cél verzión a kártyák mobilon, billentyűzettel és nagyított nézetben használhatók; esetleges „repetition” funkciót nem kommunikálunk bizonyított, többnapos spaced-repetition rendszerként külön teszt nélkül.
@@ -41,9 +41,9 @@ Minden kritikus content type legalább:
 - 200–400% zoom/reflow;
 - mobil portrait;
 - feliratos prerecorded videó;
-- nem csak színre támaszkodó feedback;
+- nem csak színre támaszkodó visszajelzés;
 - megfelelő kontraszt és célméret;
-- hibás válasz után értelmes, nem csak „rossz” feedback.
+- hibás válasz után értelmes, nem csak „rossz” visszajelzés.
 
 ## Release evidence
 
