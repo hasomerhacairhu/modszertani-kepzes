@@ -32,7 +32,7 @@ A hat alkalomból legalább:
 
 **Nem pontozzuk** a chanichok „engedelmességét”, a hangulatot önmagában vagy azt, hogy minden terv szerint történt-e. A kompetencia része az adaptáció.
 
-> **Skála-megjegyzés (nyitott szervezeti döntés):** a 0–2 skála a repo többi kapurubrikájával egyezik (M1–M7 mind 3 szintű, 0/1/2). Az intake ugyanakkor programszintű célként **„rubrika átlag ≥ 4/5”**-öt rögzített. A két skála **megfeleltetése szervezeti döntés** — vagy a field-rubrika áll át 5 fokozatúra, vagy a KPI-t kell a 0–2 skálára átszámolva definiálni. Amíg ez nincs eldöntve, a field-rubrika nem használható a KPI riportálására.
+> **Skála és KPI (lezárva 2026-09-28):** a field-rubrika **0–2-es, háromszintű skálán marad**. Az intake **„rubrikaátlag ≥ 4/5”** célját a riportban **normalizált százalékként** kezeljük: `normalizált eredmény = (rubrikaátlag / 2) × 100`. Mivel **4/5 = 80%**, a field-KPI **≥80%**, ami ezen a skálán **rubrikaátlag ≥1,6/2**. Ez kizárólag skála-megfeleltetés: nem változtatja meg a rubrikasorok 0/1/2 jelentését, és nem állítja, hogy az M1–M7 modulrubrikák mind azonos skálájúak.
 
 ## Programeredmény
 
