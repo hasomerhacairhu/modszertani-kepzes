@@ -2398,8 +2398,8 @@
       "unit": "M3.1",
       "module": "M3",
       "file_kind": "online-lecke",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a négy someres kvucába:\nParparim, Kivsza, Leviatan és Zorea –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
-      "hash": "22f975437c89e97f8c77dfc7466a3fd4e1463e31d8e98b7218c264cec6206906",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a három aktuális someres kvucába:\nParparim, Kivsza és Leviatan –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
+      "hash": "1e11927c2c353b9d4063d9968887a71187104f33a1a7fe012311721e3a4fd675",
       "note": "",
       "for": "",
       "used_by": [
@@ -2430,10 +2430,10 @@
       "id": "M3.2-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 337,
+      "line": 334,
       "body_lines": [
-        338,
-        344
+        335,
+        341
       ],
       "unit": "M3.2",
       "module": "M3",
@@ -2450,16 +2450,16 @@
       "id": "M3.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 471,
+      "line": 456,
       "body_lines": [
-        472,
-        478
+        457,
+        463
       ],
       "unit": "M3.2",
       "module": "M3",
       "file_kind": "online-lecke",
-      "text": "„Leviatan korában gyakrabban kerülhet elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nZoreánál nagyobb teret kaphat a saját vélemény, a vita és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és ne csak ‘tanárként’, hanem partnerként legyél jelen.”",
-      "hash": "928f1ef0273a67be4d6b7475b63bdc2d87ac66463c33ce269b6a390c76401305",
+      "text": "„Leviatan korban gyakran kerül elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nAz idősebbeknél nagyobb teret kaphat a saját vélemény, a vita, az autonómia és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és partnerként legyél jelen.”",
+      "hash": "586d6e8ee41ad955b9bc3096c9a63b23f310ced08ae857b9059b78ae020b7575",
       "note": "",
       "for": "",
       "used_by": [
@@ -2470,16 +2470,16 @@
       "id": "M3.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 836,
+      "line": 815,
       "body_lines": [
-        837,
-        842
+        816,
+        821
       ],
       "unit": "M3.2",
       "module": "M3",
       "file_kind": "online-lecke",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza, Leviatan és Zorea kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
-      "hash": "4f5665d234e3422d2b6cef1f5d0e5c778cfbebd2bc53f5e88d081b13b2689b42",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza és Leviatan kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
+      "hash": "2c07c08d68d45f98ff8855a054f6246625a1cbe503d4834c5df10d6af5ef3fee",
       "note": "",
       "for": "",
       "used_by": [
@@ -2493,13 +2493,13 @@
       "line": 106,
       "body_lines": [
         107,
-        117
+        116
       ],
       "unit": "M3.2",
       "module": "M3",
       "file_kind": "online-lecke",
-      "text": "„Szia! Képzeld el, hogy négy különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül.\nA negyedikben már hosszabban is lehet vitázni Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a négy kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza, a Leviatan és a Zorea kvuca.”",
-      "hash": "b2cadfb2ed7bd5c63dd3f752695355cff9bb3c50245a422cf8fe2a28209b9c99",
+      "text": "„Szia! Képzeld el, hogy három különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül; az idősebbeknél már hosszabb vita is működhet Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a három kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza és a Leviatan kvuca.”",
+      "hash": "08834d4bc3daf0704e109cd967bd43bc7936aaa7b894b5f7400a06ea7b1d8ae5",
       "note": "",
       "for": "",
       "used_by": [
@@ -3096,16 +3096,16 @@
       "id": "M6.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 335,
+      "line": 334,
       "body_lines": [
-        336,
-        350
+        335,
+        347
       ],
       "unit": "M6.1",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„Ebben a modulban négy kvuca-korosztállyal dolgozunk.\n\n**6–10 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**11–13 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**14–16 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet. Ne indulj abból, hogy a koruk miatt „drámásak” vagy érzelmileg kiszámíthatatlanok.\n\n**16+ kvucáknál** gyakran több tér adható vitának, önálló döntésnek és reflexiónak, de a magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
-      "hash": "9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6",
+      "text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatannál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
+      "hash": "7e84e8680fb4e82d73fcd20a5318fbf96bece673b3b5dd4cbf91185639fae725",
       "note": "",
       "for": "",
       "used_by": [
@@ -3116,10 +3116,10 @@
       "id": "M6.1-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 466,
+      "line": 463,
       "body_lines": [
-        467,
-        491
+        464,
+        488
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3136,16 +3136,16 @@
       "id": "M6.1-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 640,
+      "line": 637,
       "body_lines": [
-        641,
-        660
+        638,
+        657
       ],
       "unit": "M6.1",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–10 éves kvucánál, illetve többnyire megfelelőek egy 11–13 éves kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
-      "hash": "56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386",
+      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
+      "hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
       "note": "",
       "for": "",
       "used_by": [
@@ -3156,10 +3156,10 @@
       "id": "M6.1-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 845,
+      "line": 841,
       "body_lines": [
-        846,
-        865
+        842,
+        861
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3176,10 +3176,10 @@
       "id": "M6.1-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1064,
+      "line": 1060,
       "body_lines": [
-        1065,
-        1083
+        1061,
+        1079
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3196,10 +3196,10 @@
       "id": "M6.1-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1368,
+      "line": 1363,
       "body_lines": [
-        1369,
-        1379
+        1364,
+        1374
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3304,8 +3304,8 @@
       "unit": "M6.2",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (6–10, 11–13)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
-      "hash": "d10f1c9fde3a017d3cfb40a18d0a517bcf0e2600d3a2b1349588fd0d8125f4e0",
+      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (Parparim 6–9, Kivsza 10–12)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
+      "hash": "abcc0c82e6434491a844a0bbf6a5452883590e48b6fdcbcf92e52e028659afd5",
       "note": "",
       "for": "",
       "used_by": [
@@ -3744,8 +3744,8 @@
       "unit": "M7.3",
       "module": "M7",
       "file_kind": "online-lecke",
-      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 11–13 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
-      "hash": "d292a87cd3fc4524047e955666cc9c20b5ac7486e68c6b1877f884f21139fa48",
+      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 10–12 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
+      "hash": "a37ff033cc81598f4727212d75dfb70c6cb1c39be43b33655bf3a33960a4d739",
       "note": "",
       "for": "",
       "used_by": [
@@ -3816,10 +3816,10 @@
       "id": "M7.4-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 469,
+      "line": 468,
       "body_lines": [
-        470,
-        475
+        469,
+        474
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3836,10 +3836,10 @@
       "id": "M7.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 680,
+      "line": 679,
       "body_lines": [
-        681,
-        685
+        680,
+        684
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -13097,7 +13097,7 @@
       "status": "pending-production-rule",
       "title": "Outro narráció – átvezetés M3.2-re",
       "purpose": "Lezárás és motiváló átvezetés a következő leckére.",
-      "spec": "15–20 mp-es záró narráció: összegzi a kvuca-fejlődés térképét és átvezet a M3.2 leckére (4 someres kvuca: Parparim, Kivsza, Leviatan, Zorea).",
+      "spec": "15–20 mp-es záró narráció: összegzi a kvuca-fejlődés térképét és átvezet a M3.2 leckére (3 aktuális someres kvuca: Parparim, Kivsza, Leviatan).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -13131,13 +13131,13 @@
         809,
         815
       ],
-      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a négy someres kvucába:\nParparim, Kivsza, Leviatan és Zorea –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
-      "source_hash": "22f975437c89e97f8c77dfc7466a3fd4e1463e31d8e98b7218c264cec6206906",
+      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a három aktuális someres kvucába:\nParparim, Kivsza és Leviatan –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
+      "source_hash": "1e11927c2c353b9d4063d9968887a71187104f33a1a7fe012311721e3a4fd675",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "22f975437c89e97f8c77dfc7466a3fd4e1463e31d8e98b7218c264cec6206906",
-      "spec_hash": "ea3bf46d66386eaa4ccad024893a54554d8d3998bd28ea597a359a0cf7ad0009",
+      "copy_hash": "1e11927c2c353b9d4063d9968887a71187104f33a1a7fe012311721e3a4fd675",
+      "spec_hash": "766232770a1ff8e5dccfe7e5baa816da3bd43ccad36fac512712cc3d45539ba4",
       "deliverable_ids": [
         "M3.1-NAR-05",
         "M3.1-NAR-05::CAPTIONS",
@@ -13242,7 +13242,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 216,
+      "line": 213,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -13307,18 +13307,18 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 351,
+      "line": 348,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Leviatan & Zorea – kétoszlopos profilkártya",
-      "purpose": "Két idősebb kvuca-profil tömör, összehasonlító vizuális rögzítése.",
-      "spec": "Kétoszlopos vizuális elrendezés: bal oldalt 🐋 Leviatan, jobb oldalt 🌱 Zorea, mindkettő bullettel (Világ, Figyelem & energia, Motiváció, Fejlődési jellemzők) + 1 tipikus jelenet idézettel. Mobil-first, ikonokkal.",
+      "title": "Leviatan – profilkártya",
+      "purpose": "A 13–17 éves aktuális Leviatan-kvuca tömör vizuális profilja, az életkori sávon belüli különbségekkel.",
+      "spec": "Egyoszlopos profilkártya 🐋 Leviatan fejléccel, 4 rövid blokkal (Világ, Figyelem & energia, Motiváció, Fejlődési jellemzők) + 2 mini tipikus jelenettel: egy fiatalabb és egy idősebb Leviatan-példa. Mobil-first.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "On-slide layout / animált info-panel, 2 oszlop, mobil-first reszponzív."
+        "note": "On-slide layout / animált info-panel, mobil-first reszponzív."
       },
       "a11y": {
         "visual": "informative",
@@ -13340,7 +13340,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Szöveg verbatim a forrásban (173-197). Ikonokat az M3.2-IKO-01-ből veszi.",
+      "notes": "A korábbi külön Zorea-profil tartalma az idősebb Leviatan (16–17) példáiba olvad; külön Zorea-korosztály nincs a 2025/26-os oktatási tervben.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -13352,7 +13352,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "55311024d54f94ba8dca2e546c1021f3db15db6122713e427048e4ce301b2c7a",
+      "spec_hash": "da8277b2fec54d664baf517ea36f72dbb6aeccaf1cff2ef8c87fc14f54786e94",
       "deliverable_ids": [
         "M3.2-DIA-02",
         "M3.2-DIA-02::ALTTEXT"
@@ -13372,18 +13372,18 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 485,
+      "line": 470,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "4 kulcsszó-kártya (2×2 rács)",
-      "purpose": "A 4 kulcsszó tömör, memorizálható vizuális összefoglalója egy slide-on.",
-      "spec": "4 kis kártya / box egymás mellett vagy 2×2 rácsban, mindegyik egy kvuca ikonjával és kulcsszavával: Parparim = JÁTÉK & BIZTONSÁG, Kivsza = STÁTUSZ & POÉN, Leviatan = DRÁMÁK & IDENTITÁS, Zorea = VÉLEMÉNY & FELELŐSSÉG.",
+      "title": "3 kulcsszó-kártya",
+      "purpose": "A 3 aktuális kvuca kulcsszavainak tömör, memorizálható vizuális összefoglalója egy slide-on.",
+      "spec": "3 kis kártya / box, mindegyik egy kvuca ikonjával és kulcsszavaival: Parparim = JÁTÉK & BIZTONSÁG, Kivsza = STÁTUSZ & POÉN, Leviatan = IDENTITÁS & FELELŐSSÉG.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "On-slide kártyák / 2×2 rács, ikonokkal, mobil-first."
+        "note": "On-slide kártyák, ikonokkal, mobil-first."
       },
       "a11y": {
         "visual": "informative",
@@ -13417,7 +13417,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "af99da1c47948835d7eaa0c62f2318318b9e3b5194833c0d835494213f1fcd4d",
+      "spec_hash": "3febaae5f73d55a6ef59514c0e042c90ed9b1738cf036d2f000e93c5adc237d0",
       "deliverable_ids": [
         "M3.2-DIA-03",
         "M3.2-DIA-03::ALTTEXT"
@@ -13437,18 +13437,18 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 525,
+      "line": 510,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Korosztály-térkép mini-táblázat (4 sor)",
+      "title": "Korosztály-térkép mini-táblázat (3 sor)",
       "purpose": "Egy lapon kéznél tartható „korosztály-térkép\", amely összeköti a kvucát az életkori sávval, fejlődési jellemzőkkel és madrich-implikációval; M6-ra előremutató referencia.",
-      "spec": "4 soros mini-táblázat 3 oszloppal: Kvuca (kor) | 2–3 fejlődési jellemző | 1 madrich-implikáció. Sorok: Parparim (6–10), Kivsza (11–13), Leviatan (14–16), Zorea (16+), a forrásbeli tartalommal. Mobilon görgethető / kártyás formában is megjeleníthető.",
+      "spec": "3 soros mini-táblázat 3 oszloppal: Kvuca (kor) | 2–3 fejlődési jellemző | 1 madrich-implikáció. Sorok: Parparim (6–9), Kivsza (10–12), Leviatan (13–17), a lecke aktuális tartalmával. Mobilon görgethető / kártyás formában is megjeleníthető.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Táblázat / reszponzív kártyás táblázat, 4 sor × 3 oszlop, ikonokkal, mobil-first (görgethető)."
+        "note": "Táblázat / reszponzív kártyás táblázat, 3 sor × 3 oszlop, ikonokkal, mobil-first (görgethető)."
       },
       "a11y": {
         "visual": "informative",
@@ -13482,7 +13482,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d311a2807d0c4aeea8434b04781de0829351b1845048249d6865a41169cbcdac",
+      "spec_hash": "cf05f6c808261b3690035637592b9a9f10617efedc38fccaa9dcf944ffa8d7ea",
       "deliverable_ids": [
         "M3.2-DIA-04",
         "M3.2-DIA-04::ALTTEXT"
@@ -13502,18 +13502,18 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 614,
+      "line": 597,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 4 kvuca-címke)",
-      "purpose": "Az aktivitás tartalmi magja: jelenetek kvucához rendelése, a 4 profil alkalmazása; kapu-belépő feltétel (activity completion).",
-      "spec": "Interaktív párosító feladat H5P-ben: 6–8 (forrásban 7) rövid jelenet-kártya szövege + 4 kvuca-címke (Parparim, Kivsza, Leviatan, Zorea), a forrás megoldókulcsával és visszajelzés-szövegeivel. Alapból ujj-barát H5P Matching, mellette Drag & Drop. NINCS print/offline kártyaszett a forrásban – kizárólag digitális H5P interakció.",
+      "title": "Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 3 kvuca-címke)",
+      "purpose": "Az aktivitás tartalmi magja: jelenetek kvucához rendelése, a 3 aktuális profil alkalmazása; kapu-belépő feltétel (activity completion).",
+      "spec": "Interaktív párosító feladat H5P-ben: 7 rövid jelenet-kártya szövege + 3 kvuca-címke (Parparim, Kivsza, Leviatan), az aktualizált megoldókulccsal és visszajelzés-szövegekkel. Alapból ujj-barát H5P Matching, mellette Drag & Drop. NINCS print/offline kártyaszett – kizárólag digitális H5P interakció.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "H5P Matching / Drag & Drop, 7 szöveges item + 4 címke, célfelületek ≥24px, mobil-first, ujj-barát. Szöveges itemekhez alt nem szükséges."
+        "note": "H5P Matching / Drag & Drop, 7 szöveges item + 3 címke, célfelületek ≥24px, mobil-first, ujj-barát. Szöveges itemekhez alt nem szükséges."
       },
       "a11y": {
         "note": "Húzás-mentes alternatíva kötelező (lásd M3.2-EGY-02); billentyűzettel (Tab+Enter) bejárható; szöveges kártyák, alt nem szükséges."
@@ -13540,7 +13540,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "cc4dcd30709e77d9251ab27eb02bbfd946828171012431e4c813020126cb3bc4",
+      "spec_hash": "ae4a8845bdebf32abb273f59f96300e33f9c75e46156d50cdb56e4b3668d5941",
       "deliverable_ids": [
         "M3.2-EGY-01"
       ],
@@ -13556,14 +13556,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 643,
+      "line": 626,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Húzás-mentes Matching alternatíva (Single Choice Set / legördülős)",
       "purpose": "Kapu-belépő feltétel (activity completion) miatt kötelező a11y-egyenértékű út a Drag&Drop helyett.",
-      "spec": "Húzás nélkül teljesíthető párosító változat: minden jelenethez legördülő / rádiógombos kvuca-választás (Parparim/Kivsza/Leviatan/Zorea) – H5P Single Choice Set vagy legördülős kitöltés. Csak billentyűzettel (Tab+Enter) végigvihető, célfelületek ≥24px, a visszajelzés megegyezik a húzós verzióéval, azonos completiont ad.",
+      "spec": "Húzás nélkül teljesíthető párosító változat: minden jelenethez legördülő / rádiógombos kvuca-választás (Parparim/Kivsza/Leviatan) – H5P Single Choice Set vagy legördülős kitöltés. Csak billentyűzettel (Tab+Enter) végigvihető, célfelületek ≥24px, a visszajelzés megegyezik a húzós verzióéval, azonos completiont ad.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -13594,7 +13594,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "956634a93b07bcdedc253f65c374184442dd6f09ac14b8fef4abc056614550b9",
+      "spec_hash": "9d08be19078ae039560af130c38ffbbdd2cc46039bad6bcf0bf17c7d4f1e4a32",
       "deliverable_ids": [
         "M3.2-EGY-02"
       ],
@@ -13610,18 +13610,18 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 139,
+      "line": 137,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "4 kvuca ikon-készlet (🦋 🐑 🐋 🌱)",
-      "purpose": "Vizuális azonosítók, amelyek a 4 kvuca-profilt konzisztensen kódolják a teljes leckén át; memóriahorgony.",
-      "spec": "Négy kvuca-ikon egységes stílusban: Parparim (pillangó 🦋), Kivsza (bárány 🐑), Leviatan (bálna 🐋), Zorea (csíra/növény 🌱). Egymás mellé, illetve kártyákon/oszlopfejekben/táblázatban ismételten használva.",
+      "title": "3 kvuca ikon-készlet (🦋 🐑 🐋)",
+      "purpose": "Vizuális azonosítók, amelyek a 3 aktuális kvuca-profilt konzisztensen kódolják a teljes leckén át; memóriahorgony.",
+      "spec": "Három kvuca-ikon egységes stílusban: Parparim (pillangó 🦋), Kivsza (bárány 🐑), Leviatan (bálna 🐋). Egymás mellé, illetve kártyákon/oszlopfejekben/táblázatban ismételten használva.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Vektor/PNG ikonkészlet, 4 darab, egységes színkód, mobil-first, kis méretben is olvasható."
+        "note": "Vektor/PNG ikonkészlet, 3 darab, egységes színkód, mobil-first, kis méretben is olvasható."
       },
       "a11y": {
         "visual": "informative",
@@ -13655,7 +13655,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e85006a6842eb8a1163dc71a4576516d19fb3f029ebaf541816b45cb65be4a04",
+      "spec_hash": "0c8b98f037ad08a8abcbfb9ff85d4364c5b77fedfda899f3bf027de8f40c8e07",
       "deliverable_ids": [
         "M3.2-IKO-01",
         "M3.2-IKO-01::ALTTEXT"
@@ -13675,7 +13675,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 256,
+      "line": 253,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13713,8 +13713,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        338,
-        344
+        335,
+        341
       ],
       "source_text": "„Parparimnál gyakran a játék, a mozgás és a kiszámítható, biztonságos keret segít a legtöbbet.\n\nKivszánál gyakrabban kerül előtérbe, hogy kihez tartozom, hol a helyem a csoportban, és mit gondolnak rólam a többiek.\n\nEzek irányok, nem címkék: nincs két egyforma kvuca. Ha figyeled a saját csoportodat, könnyebb lesz eldönteni, mikor kell közbelépni, és mikor érdemes inkább játékon vagy közös élményen keresztül dolgozni.”",
       "source_hash": "a7ce6315c3c3cef38f6bba287238d0a288f74269cbbbeca17d56646ccb51f6c0",
@@ -13746,14 +13746,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 391,
+      "line": 388,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Leviatan & Zorea opcionális narráció",
-      "purpose": "Auditív kísérő a két idősebb kvuca profiljához.",
-      "spec": "Opcionális narráció: Leviatannál az identitás és kapcsolatok körül forog sok minden; Zoreánál fontos a vélemény, vita, felelősségvállalás; itt a madrich akkor működik, ha partnerként és nem tanárként van jelen. Verbatim szöveg a forrásban (201-205).",
+      "title": "Leviatan opcionális narráció",
+      "purpose": "Auditív kísérő a 13–17 éves Leviatan-profilhoz.",
+      "spec": "Opcionális narráció: Leviatannál az identitás, kapcsolatok és bizalom mellett az idősebbeknél egyre nagyobb teret kaphat a vélemény, a vita, az autonómia és a felelősségvállalás. Hangsúly: a 13–17 éves sávon belül is a konkrét kvucát figyeld.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -13784,16 +13784,16 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        472,
-        478
+        457,
+        463
       ],
-      "source_text": "„Leviatan korában gyakrabban kerülhet elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nZoreánál nagyobb teret kaphat a saját vélemény, a vita és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és ne csak ‘tanárként’, hanem partnerként legyél jelen.”",
-      "source_hash": "928f1ef0273a67be4d6b7475b63bdc2d87ac66463c33ce269b6a390c76401305",
+      "source_text": "„Leviatan korban gyakran kerül elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nAz idősebbeknél nagyobb teret kaphat a saját vélemény, a vita, az autonómia és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és partnerként legyél jelen.”",
+      "source_hash": "586d6e8ee41ad955b9bc3096c9a63b23f310ced08ae857b9059b78ae020b7575",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "928f1ef0273a67be4d6b7475b63bdc2d87ac66463c33ce269b6a390c76401305",
-      "spec_hash": "68e2ffe5f552171bfbfc7eda5f0412bcfbacba0214840ed1ca1005e19a5702c3",
+      "copy_hash": "586d6e8ee41ad955b9bc3096c9a63b23f310ced08ae857b9059b78ae020b7575",
+      "spec_hash": "de92bb7c8c6645e20f450af5d75f9e7578814701b60553a235467a16f56e0c6b",
       "deliverable_ids": [
         "M3.2-NAR-04",
         "M3.2-NAR-04::CAPTIONS",
@@ -13817,14 +13817,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
-      "line": 708,
+      "line": 691,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Outro narráció hangsáv",
       "purpose": "Lezárás, megerősítés és átvezetés a következő leckéhez.",
-      "spec": "Rövid lezáró narráció: köszönet a végigjárásért; a Parparim/Kivsza/Leviatan/Zorea kvucák különböző világban élnek; átvezetés az M3.3 leckére (red flag helyzetek + első felelős lépés). Verbatim szöveg a forrásban (380-384).",
+      "spec": "Rövid lezáró narráció: köszönet a végigjárásért; a Parparim/Kivsza/Leviatan kvucák különböző világban élnek; átvezetés az M3.3 leckére (red flag helyzetek + első felelős lépés).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -13855,16 +13855,16 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        837,
-        842
+        816,
+        821
       ],
-      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza, Leviatan és Zorea kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
-      "source_hash": "4f5665d234e3422d2b6cef1f5d0e5c778cfbebd2bc53f5e88d081b13b2689b42",
+      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza és Leviatan kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
+      "source_hash": "2c07c08d68d45f98ff8855a054f6246625a1cbe503d4834c5df10d6af5ef3fee",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "4f5665d234e3422d2b6cef1f5d0e5c778cfbebd2bc53f5e88d081b13b2689b42",
-      "spec_hash": "02c4e88db895c5e3fd6736fba167404ddba4fb0409cc993586f980a40cc2ffbd",
+      "copy_hash": "2c07c08d68d45f98ff8855a054f6246625a1cbe503d4834c5df10d6af5ef3fee",
+      "spec_hash": "ca136fe63c0c7369b71d4da6a43a03a532c23665476dec3a010fd6fd9e78885d",
       "deliverable_ids": [
         "M3.2-NAR-05",
         "M3.2-NAR-05::CAPTIONS",
@@ -13893,9 +13893,9 @@
       "subtype": "ai-talking-head",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Hook beszélő fej – 4 kvuca, 4 hangulat",
-      "purpose": "Bevonás, azonosulás; érzelmi belépő, ami felvezeti a 4 kvuca-profilt.",
-      "spec": "AI beszélő fej videó (16:9, felirattal), 30–40 mp, tegező hang. A narrátor bemutatja, hogy négy különböző kvucába ugorva más-más hangulat fogadja (pörgés/játék, ki a menő, drámák/barátságok, Somer-értékekről vitatkozás), és hogy ugyanaz a madrich nem ugyanúgy működik mind a négyben. Felvezeti, milyen világban él a Parparim, Kivsza, Leviatan és Zorea kvuca.",
+      "title": "Hook beszélő fej – 3 kvuca, 3 hangulat",
+      "purpose": "Bevonás, azonosulás; érzelmi belépő, ami felvezeti a 3 aktuális kvuca-profilt.",
+      "spec": "AI beszélő fej videó (16:9, felirattal), 30–40 mp, tegező hang. A narrátor bemutatja, hogy három különböző kvucába ugorva más-más hangulat fogadja (pörgés/játék, kortárs státusz és humor, identitás/barátságok/vélemények és felelősség), és hogy ugyanaz a madrich nem ugyanúgy működik mind a háromban. Felvezeti, milyen világban él a Parparim, Kivsza és Leviatan kvuca.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -13933,15 +13933,15 @@
       "composed_source_ids": [],
       "source_line": [
         107,
-        117
+        116
       ],
-      "source_text": "„Szia! Képzeld el, hogy négy különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül.\nA negyedikben már hosszabban is lehet vitázni Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a négy kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza, a Leviatan és a Zorea kvuca.”",
-      "source_hash": "b2cadfb2ed7bd5c63dd3f752695355cff9bb3c50245a422cf8fe2a28209b9c99",
+      "source_text": "„Szia! Képzeld el, hogy három különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül; az idősebbeknél már hosszabb vita is működhet Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a három kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza és a Leviatan kvuca.”",
+      "source_hash": "08834d4bc3daf0704e109cd967bd43bc7936aaa7b894b5f7400a06ea7b1d8ae5",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "b2cadfb2ed7bd5c63dd3f752695355cff9bb3c50245a422cf8fe2a28209b9c99",
-      "spec_hash": "b1ab188165e04f559b4ac42d6b6185122e99e92c0ddf68bcec263cf6859b8e0f",
+      "copy_hash": "08834d4bc3daf0704e109cd967bd43bc7936aaa7b894b5f7400a06ea7b1d8ae5",
+      "spec_hash": "ba3597387386beb62bf38cffd56214ea857e4fc13b489833e32ba80b3d271afc",
       "deliverable_ids": [
         "M3.2-VID-01",
         "M3.2-VID-01::VOICEOVER",
@@ -15100,7 +15100,7 @@
       "status": "spec-ready",
       "title": "Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum)",
       "purpose": "Modulproduktum-feladat egyértelmű, kitölthető sablonja; a mit tegyél / mit ne tegyél és red flag tanultak alkalmazása valós helyzeten.",
-      "spec": "Moodle Assignment feladatszöveg/sablon konfigurálása: max. 8–10 mondatos helyzetleírás 5 vezetett kérdéssel (1. hol játszódik; 2. kvuca-típus – Parparim/Kivsza/Leviatan/Zorea/vegyes; 3. mi történik; 4. red flagek/határproblémák; 5. felelős madrich első lépése), plusz a 334. sori sorrend-tipp és a 354. sori bátorítás. A modulproduktum leadási felülete.",
+      "spec": "Moodle Assignment feladatszöveg/sablon konfigurálása: max. 8–10 mondatos helyzetleírás 5 vezetett kérdéssel (1. hol játszódik; 2. kvuca-típus – Parparim/Kivsza/Leviatan/vegyes; 3. mi történik; 4. red flagek/határproblémák; 5. felelős madrich első lépése), plusz a 334. sori sorrend-tipp és a 354. sori bátorítás. A modulproduktum leadási felülete.",
       "provenance": "ai",
       "provenance_note": "AI-generált (Moodle Assignment konfiguráció)",
       "technical": {
@@ -15131,7 +15131,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "731972deb4fbc94afdb2f9628cdd0d205ed5a6682e3ca2404effa0a2c7070412",
+      "spec_hash": "7e61a3dcfca798ed6e2f48fff3b5cf40f11e2197112b0676d51d1192eb1ddb66",
       "deliverable_ids": [
         "M3.4-EGY-07"
       ],
@@ -15612,7 +15612,7 @@
       "status": "pending-production-rule",
       "title": "Kvuca-sztori kártyaszett – fix 8 db nyomtatható szett",
       "purpose": "A kiscsoportok minden kártyánál kettőt tippelnek (kvuca-típus + Tuckman-szakasz); ez köti össze a kvuca-profilokat a fejlődési szakaszokkal.",
-      "spec": "8 db rövid (max. 4–5 soros) kvuca-történet kártya, mindegyiken egy konkrét helyzet leírása. A fix szett: 1) Parparim – tábor 2. napja, 2) Kivsza – kenben pár hét után, 3) Leviatan – év eleji stáb, 4) Zorea – projekt tervezése, 5) Parparim – harmadik peula (sírás/lökdösődés), 6) Kivsza – félév közepe (telefonos doboz), 7) Leviatan – első találkozás, 8) Zorea – „ki vigye a projektet?” (ráadás-kártya; történet-szövege a forrásban a 265. sorban megvan, de a nyomtatott kártya előlapjára kézzel kell ráírni). A kártyák előlapján csak a történet; a kvuca-típus és Tuckman-szakasz a megoldás, nem látszik az előlapon.",
+      "spec": "8 db rövid (max. 4–5 soros) kvuca-történet kártya, mindegyiken egy konkrét helyzet leírása. A fix szett: 1) Parparim – tábor 2. napja, 2) Kivsza – kenben pár hét után, 3) Leviatan – év eleji stáb, 4) idősebb Leviatan – projekt tervezése, 5) Parparim – harmadik peula (sírás/lökdösődés), 6) Kivsza – félév közepe (telefonos doboz), 7) Leviatan – első találkozás, 8) idősebb Leviatan – „ki vigye a projektet?” (ráadás-kártya; történet-szövege a forrásban a 265. sorban megvan, de a nyomtatott kártya előlapjára kézzel kell ráírni). A kártyák előlapján csak a történet; a kvuca-típus és Tuckman-szakasz a megoldás, nem látszik az előlapon.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -15648,7 +15648,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f9ed2bda67843e34baa71197b8dae96b46aad580fe24272a542318da6975fe83",
+      "spec_hash": "c6210e72c9426640512dbe716b59ea57888c07cefd7bad717773f5227acbe7be",
       "deliverable_ids": [
         "M3.A-KART-02",
         "M3.A-KART-02::PRINTPDF"
@@ -16382,7 +16382,7 @@
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M3 leckelista + név nélküli témakérések",
       "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Flipchart-/poszter-sablon az M3 leckelistával, 4 sorban: L1 – Tuckman – csoportélet szakaszai; L2 – 4 kvuca-profil (Parparim, Kivsza, Leviatan, Zorea); L3 – Gyermekvédelem 101 – red flag & első lépés; L4 – Do / Don't madrichként – határok & felelősség; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M3” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
+      "spec": "Flipchart-/poszter-sablon az M3 leckelistával, 4 sorban: L1 – Tuckman – csoportélet szakaszai; L2 – 3 kvuca-profil (Parparim, Kivsza, Leviatan); L3 – Gyermekvédelem 101 – red flag & első lépés; L4 – Do / Don't madrichként – határok & felelősség; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M3” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16418,7 +16418,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "bea37718dda83a5f4edcd5a9f9816774289348a1b88f93860eec5175a48f05aa",
+      "spec_hash": "3d41aa9c35604a9b348822eec98483887deca402c50c2ab2d4cca86e1c59410d",
       "deliverable_ids": [
         "M3.F-POSZ-01",
         "M3.F-POSZ-01::PRINTPDF"
@@ -16442,7 +16442,7 @@
       "status": "pending-production-rule",
       "title": "Fogalom-térkép alaplap – 4–5 üres buborék",
       "purpose": "Közös, egyszerű fogalom-térkép váza, amire a csoport felírja a kulcsszavakat és nyilakkal összeköti az M3 fő fogalmait.",
-      "spec": "Flipchart-/poszter-sablon a közös fogalom-térképhez: 4–5 nagy, üres kör/buborék felirattal, hely a kulcsszavak és nyilak közös kézi rajzolásához. Buborékok: Tuckman-szakaszok; 4 kvuca-profil (Parparim / Kivsza / Leviatan / Zorea); Gyermekvédelem; Red flag; Madrich szerepe / „nem maradok egyedül”. A belső tér üres marad (élőben töltik ki filccel).",
+      "spec": "Flipchart-/poszter-sablon a közös fogalom-térképhez: 4–5 nagy, üres kör/buborék felirattal, hely a kulcsszavak és nyilak közös kézi rajzolásához. Buborékok: Tuckman-szakaszok; 3 aktuális kvuca-profil (Parparim / Kivsza / Leviatan); Gyermekvédelem; Red flag; Madrich szerepe / „nem maradok egyedül”. A belső tér üres marad (élőben töltik ki filccel).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16478,7 +16478,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "71682a95e250babd7cf2a29b2480309e314326bf88c4428b66a6140032839ab5",
+      "spec_hash": "25b606fced060abee1e3466b4e7ee12ced0b70b954d35efc53caab857f7b9994",
       "deliverable_ids": [
         "M3.F-POSZ-02",
         "M3.F-POSZ-02::PRINTPDF"
@@ -22174,7 +22174,7 @@
       "status": "spec-ready",
       "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
       "purpose": "Ez a modul központi, kapuzott produktuma (éles teljesítési kapu, §6.2). A sablon vezeti a madrichot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és társak és mentor által áttekinthető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
-      "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / consent / trigger / időkeret / felelősségek), (6) Inkluzivitás: legalább 1 nevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
+      "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / consent / trigger / időkeret / felelősségek), (6) Inkluzivitás: legalább 1 nevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -22203,7 +22203,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5f1d306184b5523e49e8a687cbe504b5f13dd4fe5e0dda2b14d171e17b1ba5f3",
+      "spec_hash": "1eb833f8b55bf39ac949fef50e2dd64e7c2d0c73d21b7c24f6618c663d6dcbfd",
       "deliverable_ids": [],
       "legacy": {
         "asset": [
@@ -22222,13 +22222,13 @@
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra)",
-      "purpose": "Közös nyelv a 4 korosztályról, amire a modul későbbi leckéi (M3-ból átvett korosztály-térkép) hivatkoznak.",
-      "spec": "Négysoros korosztály-táblázat / ikon-sor: 6–10 (sok mozgás, konkrét szabályok); 11–13 (státusz, »ki a menő«); 14–16 (identitás, intenzív érzelmek); 16+/bogrim (vélemények, viták, reflexió, felelősség). Fejlécsoros táblázat vagy élő szöveg + kísérő ikonok; a kulcstartalom nem ég kizárólag képbe. Alul 1–2 bullet a fő üzenettel.",
+      "title": "Korosztály-táblázat – 3 aktuális kvuca-korosztály (tartalmi ábra)",
+      "purpose": "Közös nyelv a 3 aktuális korosztályról, amire a modul későbbi leckéi (M3-ból átvett korosztály-térkép) hivatkoznak.",
+      "spec": "Háromsoros korosztály-táblázat / ikon-sor: Parparim 6–9 (sok mozgás, konkrét szabályok); Kivsza 10–12 (státusz, »ki a menő«); Leviatan 13–17 (identitás, kapcsolatok, az idősebbeknél több vita/reflexió és felelősség). Fejlécsoros táblázat vagy élő szöveg + kísérő ikonok; a kulcstartalom nem ég kizárólag képbe. Alul 1–2 bullet a fő üzenettel.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Táblázat/ikon-sor grafika, mobil-first, 4 sor, magyar"
+        "note": "Táblázat/ikon-sor grafika, mobil-first, 3 sor, magyar"
       },
       "a11y": {
         "visual": "informative",
@@ -22262,7 +22262,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4441b78990ce0b9a1891dffb2f5f1c0839820b50669999677778e22e3eb2cd68",
+      "spec_hash": "74209834338cf8b80658942721e7d8adcb7abe4cde94928e237f8b9a40d8cc77",
       "deliverable_ids": [
         "M6.1-DIA-01",
         "M6.1-DIA-01::ALTTEXT"
@@ -22386,14 +22386,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 498,
+      "line": 495,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Single Choice – „Névkör labdával” korosztály",
       "purpose": "Első korosztály-választás gyakorlása.",
-      "spec": "H5P Single Choice 4 opcióval (6–10 a helyes), jó válaszra szóló visszajelzés-szöveggel a fiatalabb kvuca természetes formájáról (egyszerű szabály, mindenki sorra kerül; 11–13-nál humor/csavar kell).",
+      "spec": "H5P Single Choice 4 opcióval (6–9 a helyes), jó válaszra szóló visszajelzés-szöveggel a fiatalabb kvuca természetes formájáról (egyszerű szabály, mindenki sorra kerül; 10–12-nál humor/csavar kell).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22422,7 +22422,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a77051ee2ae9f2ad69e4d53efe74140e48d9643a1e59b3eece122cfd8a6e9de1",
+      "spec_hash": "0ecf616387f4d510892493b204133cf86d28542a14ede06413a7ebb46c544772",
       "deliverable_ids": [
         "M6.1-EGY-03"
       ],
@@ -22438,14 +22438,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 691,
+      "line": 687,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Single Choice – 11–13 bizalomjáték forma",
-      "purpose": "Biztonságos formaválasztás gyakorlása 11–13-nál.",
-      "spec": "H5P Single Choice 3 opcióval (2. a helyes: egyszerűbb, kevésbé kockázatos feladat, kis térben), jó válaszra szóló visszajelzés a 11–13-as testkép/csoportbizalom alakulásáról (biztonság, consent, egyszerű szabályok).",
+      "title": "Single Choice – Kivsza (10–12) bizalomjáték forma",
+      "purpose": "Biztonságos formaválasztás gyakorlása Kivszánál (10–12).",
+      "spec": "H5P Single Choice 3 opcióval (2. a helyes: egyszerűbb, kevésbé kockázatos feladat, kis térben), jó válaszra szóló visszajelzés a Kivsza-korú (10–12) résztvevők testkép/csoportbizalmáról (biztonság, consent, egyszerű szabályok).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22474,7 +22474,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e7cea0ccd4d4d14278b1baca6820f89d47c366f96619c046461343d97353b31e",
+      "spec_hash": "dbf7e4f67a00ffe52b9e2004e1a4dec859c8143e2c90edc3ff6eee0c445702dd",
       "deliverable_ids": [
         "M6.1-EGY-04"
       ],
@@ -22490,7 +22490,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 717,
+      "line": 713,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22542,14 +22542,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 924,
+      "line": 920,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Single Choice – 6–10 reflexiós vs. mély",
-      "purpose": "Biztonságos forma választása 6–10-nél.",
-      "spec": "H5P Single Choice 2 opcióval (könnyebb beszélgető kártyák a helyes), jó válaszra szóló visszajelzés arról, hogy a mély élményjáték 6–10-nél túl sok lehet, ha nincs elég megértés/feldolgozás.",
+      "title": "Single Choice – Parparim 6–9 reflexiós vs. mély",
+      "purpose": "Biztonságos forma választása Parparimnál (6–9).",
+      "spec": "H5P Single Choice 2 opcióval (könnyebb beszélgető kártyák a helyes), jó válaszra szóló visszajelzés arról, hogy a mély élményjáték Parparimnál (6–9) túl sok lehet, ha nincs elég megértés/feldolgozás.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22578,7 +22578,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a4cf71e4392c9ad182a6918c33249194a572b92fce5d089a2a5024d9f8165cfa",
+      "spec_hash": "c7d24185c055678438ddd9e22e1dd282c28fdaf364f8998aff3ecac97a657756",
       "deliverable_ids": [
         "M6.1-EGY-06"
       ],
@@ -22594,18 +22594,18 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1110,
+      "line": 1106,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Single Choice – Szitu 1 korosztály-választás",
       "purpose": "Korosztály-választás gyakorlása szcenárióban.",
-      "spec": "H5P Single Choice 4 opcióval (6–10 a helyes) a névtanulós játék (körben név+mozdulat, nincs kieső) első peulájához; jó és téves válaszra is rövid visszajelzés, amely kimondja, hogy a korosztály-profil tervezési kiindulópont, nem szabály (egyéni eltérés, saját kvuca).",
+      "spec": "H5P Single Choice 3 opcióval (Parparim 6–9 a helyes) a névtanulós játék (körben név+mozdulat, nincs kieső) első peulájához; jó és téves válaszra is rövid visszajelzés, amely kimondja, hogy a korosztály-profil tervezési kiindulópont, nem szabály (egyéni eltérés, saját kvuca).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "H5P Single Choice, 4 opció, magyar"
+        "note": "H5P Single Choice, 3 opció, magyar"
       },
       "a11y": {
         "note": "Szövegként hozzáférhető (H5P natív)."
@@ -22630,7 +22630,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "84a20fede45b6f096a25415d428efad1ccaa74055e5a8132d03746849f8cfc36",
+      "spec_hash": "f8dd84868b73e40914b452875c65bde5dff17858a35ba5cc1fdf4bc00a822e2b",
       "deliverable_ids": [
         "M6.1-EGY-07"
       ],
@@ -22646,7 +22646,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1136,
+      "line": 1132,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22698,7 +22698,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1228,
+      "line": 1223,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22750,14 +22750,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1254,
+      "line": 1249,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Single Choice – mikor ne hozz mély élményjátékot",
       "purpose": "Fő üzenet rögzítése: mély játék korlátai fiatalabbaknál.",
-      "spec": "H5P Single Choice 4 opcióval (»6–10 éves, friss kvuca, alig ismerik egymást« a helyes); jó válaszra rövid visszajelzés (a korosztály + a csoport frissessége együtt indokol óvatosságot; a profil kiindulópont, de az óvatosság iránya nem alku tárgya – bizonytalanságnál a szelídebb változat), és külön korrekciós visszajelzés a »mindig jó hozni« distraktorra (az erős élmény önmagában nem tanít).",
+      "spec": "H5P Single Choice 4 opcióval (»6–9 éves Parparim, friss kvuca, alig ismerik egymást« a helyes); jó válaszra rövid visszajelzés (a korosztály + a csoport frissessége együtt indokol óvatosságot; a profil kiindulópont, de az óvatosság iránya nem alku tárgya – bizonytalanságnál a szelídebb változat), és külön korrekciós visszajelzés a »mindig jó hozni« distraktorra (az erős élmény önmagában nem tanít).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22786,7 +22786,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "7e4d4903f445a374b774910bd95795210109ad66c76259e5a17b1e82882c6d2d",
+      "spec_hash": "dc409815729587fd68b9507fba6f0a5b7c9a425c3ed60e32e3a89d233417ecb0",
       "deliverable_ids": [
         "M6.1-EGY-10"
       ],
@@ -22802,7 +22802,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1280,
+      "line": 1275,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22854,7 +22854,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 357,
+      "line": 354,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -22919,14 +22919,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 524,
+      "line": 521,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Kategória-kártyák 1 – ismerkedős + energizer (2 kártya)",
       "purpose": "Két „alap” kategória kipéldázása konkrét játékkal.",
-      "spec": "Két egymás alatti kártya-illusztráció: A) Ismerkedős/névtanulós – „Névkör labdával” (kör, labdadobás, név+mozdulat, többiek ismétlik); B) Energizer/mozgásos – „Szobor-játék” (zenére mozgás, megdermedés). Korosztály-címkék (6–10, 11–13) és az A kártyához inkluzív variáció (labda helyett körbeadott tárgy / labda nélkül / ülve is) a kártyán.",
+      "spec": "Két egymás alatti kártya-illusztráció: A) Ismerkedős/névtanulós – „Névkör labdával” (kör, labdadobás, név+mozdulat, többiek ismétlik); B) Energizer/mozgásos – „Szobor-játék” (zenére mozgás, megdermedés). Korosztály-címkék (6–9, 10–12) és az A kártyához inkluzív variáció (labda helyett körbeadott tárgy / labda nélkül / ülve is) a kártyán.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -22964,7 +22964,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "9cab294406201b7179665445824211095952be975080d88e10636b466920b9aa",
+      "spec_hash": "764a4b2aa11b5b780e70b55641c8ceb8cc175765a1d0f08e5155b73a0b1ac14e",
       "deliverable_ids": [
         "M6.1-ILL-01",
         "M6.1-ILL-01::ALTTEXT"
@@ -22984,14 +22984,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 743,
+      "line": 739,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés”",
       "purpose": "Rámutatni, hogy bizalom-/kontakt-játék = magasabb kockázat.",
-      "spec": "Egy kártya-illusztráció: bizalom-/kontakt-játék „Csukott szemű vezetés” – párokban, egyik csukott szemmel sétál, másik vezeti/irányítja/figyel. Korosztály-címke (inkább 14–16, 16+; fiatalabbaknál csak óvatosan).",
+      "spec": "Egy kártya-illusztráció: bizalom-/kontakt-játék „Csukott szemű vezetés” – párokban, egyik csukott szemmel sétál, másik vezeti/irányítja/figyel. Korosztály-címke (inkább 13–17; fiatalabbaknál csak óvatosan).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23029,7 +23029,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "18d03b5ea9db02eea94f5e8debf007368c140c64021c1ac959e9292eb0d5fb83",
+      "spec_hash": "44d13b82f1807595dc3d8fd42d9094b6dbafc82b4ceb65be160d211b8355d052",
       "deliverable_ids": [
         "M6.1-ILL-02",
         "M6.1-ILL-02::ALTTEXT"
@@ -23049,14 +23049,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 950,
+      "line": 946,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Kategória-kártya 3 – reflexiós vs. mély élmény (2 minisztori)",
       "purpose": "Különbség könnyebb reflexiós játék és mély élmény között.",
-      "spec": "Két egymás alatti minisztori-illusztráció: A) Reflexiós „Beszélgető kártyák” (mindenki húz egy egyszerű kérdést, körben válaszol, nincs kötelező nagy megosztás); B) Mély élmény „Kirekesztés-szerepjáték” (szerepek, eljátszott kirekesztés, hosszabb feldolgozó kör). Korosztály-címkékkel (A: 11–13/14–16/16+; B: 14–16/16+).",
+      "spec": "Két egymás alatti minisztori-illusztráció: A) Reflexiós „Beszélgető kártyák” (mindenki húz egy egyszerű kérdést, körben válaszol, nincs kötelező nagy megosztás); B) Érzékenyebb „fiktív eset kirekesztésről” (kívülről elemzett eset, nincs szerepjáték vagy demonstratív kizárás, hosszabb feldolgozó kör). Korosztály-címkékkel: A Kivsza/Leviatan (10–17); B inkább Leviatan (13–17), megfelelő biztonsági kerettel.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23094,7 +23094,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "fb8c0e595090788b8acb2f017dbeea12ec113209e54b5ee36ae5738e7685d747",
+      "spec_hash": "110fd81b947f4ff8c7c77074e7f7fc2b423bc5d3c4990a2df69f5d8cbd748a65",
       "deliverable_ids": [
         "M6.1-ILL-03",
         "M6.1-ILL-03::ALTTEXT"
@@ -23119,9 +23119,9 @@
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Narráció – SLIDE 2: 4 korosztály bemutatása",
+      "title": "Narráció – SLIDE 2: 3 aktuális korosztály bemutatása",
       "purpose": "A korosztály-keret hangos megerősítése.",
-      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a 4 kvuca-korosztály jellemzői (6–10, 11–13, 14–16, 16+), zárás: ne csak játékban, hanem játék + kvuca párosban gondolkodj.",
+      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a 3 aktuális kvuca-korosztály jellemzői (Parparim 6–9, Kivsza 10–12, Leviatan 13–17), zárás: ne csak játékban, hanem játék + kvuca párosban gondolkodj.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23152,16 +23152,16 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        336,
-        350
+        335,
+        347
       ],
-      "source_text": "„Ebben a modulban négy kvuca-korosztállyal dolgozunk.\n\n**6–10 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**11–13 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**14–16 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet. Ne indulj abból, hogy a koruk miatt „drámásak” vagy érzelmileg kiszámíthatatlanok.\n\n**16+ kvucáknál** gyakran több tér adható vitának, önálló döntésnek és reflexiónak, de a magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
-      "source_hash": "9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6",
+      "source_text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatannál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
+      "source_hash": "7e84e8680fb4e82d73fcd20a5318fbf96bece673b3b5dd4cbf91185639fae725",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6",
-      "spec_hash": "a00e14a909d65f348c6d600e1a3f538e6ee283932e336f12e0c00909e64fff8c",
+      "copy_hash": "7e84e8680fb4e82d73fcd20a5318fbf96bece673b3b5dd4cbf91185639fae725",
+      "spec_hash": "f9b0a9043bcfb1df3fb4e9244015206cf281b8e335598551d32911909564e0f5",
       "deliverable_ids": [
         "M6.1-NAR-02",
         "M6.1-NAR-02::CAPTIONS",
@@ -23182,7 +23182,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 397,
+      "line": 394,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23220,8 +23220,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        467,
-        491
+        464,
+        488
       ],
       "source_text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontakt-játékok** már több kockázatot hoznak.\nTestközel, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élmény-játékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kisebb kvucával érdemes használni.”",
       "source_hash": "2e68a358139ab9d8237b1a63977189d968ca65c17f22d0208082628629806cba",
@@ -23250,14 +23250,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 563,
+      "line": 560,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Narráció – SLIDE 4: ismerkedős + energizer",
       "purpose": "A két alap kategória és korosztály-illesztés hangos kifejtése.",
-      "spec": "Szintetikus magyar narráció (kb. 35–45 mp): mikor jók az ismerkedős és energizer játékok, miért 6–10 és 11–13, és hogy nagyobbaknál csavar/humor kell, ne legyen „ovis” érzés.",
+      "spec": "Szintetikus magyar narráció (kb. 35–45 mp): mikor jók az ismerkedős és energizer játékok, miért 6–9 és 10–12, és hogy nagyobbaknál csavar/humor kell, ne legyen „ovis” érzés.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23288,16 +23288,16 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        641,
-        660
+        638,
+        657
       ],
-      "source_text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–10 éves kvucánál, illetve többnyire megfelelőek egy 11–13 éves kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
-      "source_hash": "56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386",
+      "source_text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
+      "source_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386",
-      "spec_hash": "fa9d89464e2f6eede01b2e8c527a297cff5c185eaa3d40ad088a3433a2553da7",
+      "copy_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
+      "spec_hash": "bb53dd84d8d275b5d6feee7fad071bd31be9d0dc1c83de8c602392068bb60eb2",
       "deliverable_ids": [
         "M6.1-NAR-04",
         "M6.1-NAR-04::CAPTIONS",
@@ -23318,14 +23318,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 782,
+      "line": 778,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat",
       "purpose": "A bizalomjáték kockázatának hangos kifejtése.",
-      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a „Csukott szemű vezetés” mint erős élmény és fizikai/érzelmi kockázat; mit nézz (kor, ismeretség, jelzés-képesség); inkább 14–16, 16+, fiatalabbaknál csak egyszerű, rövid, jól szabályozott verzió.",
+      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a „Csukott szemű vezetés” mint erős élmény és fizikai/érzelmi kockázat; mit nézz (kor, ismeretség, jelzés-képesség); inkább 13–17, fiatalabbaknál csak egyszerű, rövid, jól szabályozott verzió.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23356,8 +23356,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        846,
-        865
+        842,
+        861
       ],
       "source_text": "„A **bizalom- és kontakt-játékok** már egy másik szint.\n\nA ‘Csukott szemű vezetésnél’\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nNagyobb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
       "source_hash": "4ff3229bdaedacf7a4c5ac7962e2ec67ef6c0dea541a6b800fcc24462934b6bb",
@@ -23365,7 +23365,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "4ff3229bdaedacf7a4c5ac7962e2ec67ef6c0dea541a6b800fcc24462934b6bb",
-      "spec_hash": "d20360d4cf45f4fb2fd2ec4ac0cd18838ed9801932ae0198a5c0264bd98afc69",
+      "spec_hash": "51f4b2728411c3565f68b82a9b90f01bc42d584c30b3a71232d801e4b9523fd7",
       "deliverable_ids": [
         "M6.1-NAR-05",
         "M6.1-NAR-05::CAPTIONS",
@@ -23386,14 +23386,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 989,
+      "line": 985,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Narráció – SLIDE 6: reflexiós vs. mély élmény",
       "purpose": "A reflexiós–mély különbség hangos kifejtése.",
-      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a beszélgető kártyás reflexió könnyebben emészthető, a kirekesztés-szerepjáték erős élmény (idő/tér/utólagos megbeszélés kell); a mély játék inkább 14–16, 16+; 6–10-nél könnyebb, biztonságosabb reflexiós forma.",
+      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a beszélgető kártyás reflexió könnyebben emészthető; érzékenyebb kirekesztés-témánál fiktív esetet elemzünk kívülről, nem játszatunk el kirekesztést; ez inkább Leviatan-korban (13–17) való megfelelő biztonsági kerettel, Parparimnál (6–9) könnyebb, biztonságosabb reflexiós forma.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23424,8 +23424,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1065,
-        1083
+        1061,
+        1079
       ],
       "source_text": "„A **reflexiós játékok**\nés az **érzékenyebb témák feldolgozása** között is van különbség.\n\nEgy beszélgető kártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználjatok fiktív, nem beazonosítható esetet,\nés kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
       "source_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
@@ -23433,7 +23433,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
-      "spec_hash": "c81a35df88f0e320129efbb91a95ed3ad3b3d30df2cedf03a5fc75e782ee1b6b",
+      "spec_hash": "29ee13bfec3f09028cf09c370f17e65eb88d9f61d942afdbdd54a952e8e76864",
       "deliverable_ids": [
         "M6.1-NAR-06",
         "M6.1-NAR-06::CAPTIONS",
@@ -23454,7 +23454,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
-      "line": 1307,
+      "line": 1302,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23492,8 +23492,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1369,
-        1379
+        1364,
+        1374
       ],
       "source_text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékod\nmelyik korosztálynak adnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
       "source_hash": "84b3b0af2cf12f8154f916ec8b168797fb8141eb3f2b8cf54dc9181765fbae63",
@@ -23532,7 +23532,7 @@
       "status": "pending-rights",
       "title": "Hook beszélőfej-videó – „Volt már olyan, hogy nem ült a játék?”",
       "purpose": "Bevonás; ráérezni, hogy egy „jó játék” is lehet rossz döntés rossz kvucánál.",
-      "spec": "16:9 AI beszélő fej videó, kb. 35–45 mp, a SLIDE 1 narrációs szöveget mondja el (tegező, max 10–12 szavas mondatok). Bevonó hangvétel: a tanuló saját rossz játékélményére rezonál, bevezeti a játék-kategóriák + 4 korosztály keretet.",
+      "spec": "16:9 AI beszélő fej videó, kb. 35–45 mp, a SLIDE 1 narrációs szöveget mondja el (tegező, max 10–12 szavas mondatok). Bevonó hangvétel: a tanuló saját rossz játékélményére rezonál, bevezeti a játék-kategóriák + 3 aktuális korosztály keretet.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23578,7 +23578,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "72d6afee87cd47b481835a7da1c050f38aa949cc570422d6dff7812594afbd80",
-      "spec_hash": "f65604d746b8cdbabe3ae681af0dcced144d2c73d58498bf8a83329514b0ed3f",
+      "spec_hash": "0c388d3602fc755b496575c1b3d55e1ded220bbd0057e2be7f635b5673fb0c27",
       "deliverable_ids": [
         "M6.1-VID-01",
         "M6.1-VID-01::VOICEOVER",
@@ -23990,12 +23990,12 @@
         770,
         793
       ],
-      "source_text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (6–10, 11–13)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
-      "source_hash": "d10f1c9fde3a017d3cfb40a18d0a517bcf0e2600d3a2b1349588fd0d8125f4e0",
+      "source_text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (Parparim 6–9, Kivsza 10–12)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
+      "source_hash": "abcc0c82e6434491a844a0bbf6a5452883590e48b6fdcbcf92e52e028659afd5",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "d10f1c9fde3a017d3cfb40a18d0a517bcf0e2600d3a2b1349588fd0d8125f4e0",
+      "copy_hash": "abcc0c82e6434491a844a0bbf6a5452883590e48b6fdcbcf92e52e028659afd5",
       "spec_hash": "17651ad267bc1b1c761300836d1fa3e50597d80e5005835354f8e03ef06f8bb9",
       "deliverable_ids": [
         "M6.2-NAR-06",
@@ -24329,7 +24329,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált (illusztráció)",
       "technical": {
-        "note": "Álló/fekvő fotó vagy illusztráció, mobil-first slide bal felére; magyar kontextus, 11–13 éves korosztály."
+        "note": "Álló/fekvő fotó vagy illusztráció, mobil-first slide bal felére; magyar kontextus, Kivsza, 10–12 éves korosztály."
       },
       "a11y": {
         "visual": "informative",
@@ -24363,7 +24363,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "119e3aa05d3c0c03f26acfe01465536ef7c26fc61f63438b4902bd06397e91a0",
+      "spec_hash": "b727c74297c242705daa980a4adc251866ab193173ac43f91231ab7ba563e802",
       "deliverable_ids": [
         "M6.3-FOTO-01",
         "M6.3-FOTO-01::ALTTEXT"
@@ -24394,7 +24394,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált (illusztráció)",
       "technical": {
-        "note": "Álló/fekvő fotó vagy illusztráció, mobil-first slide jobb felére; magyar kontextus, 11–13 éves korosztály."
+        "note": "Álló/fekvő fotó vagy illusztráció, mobil-first slide jobb felére; magyar kontextus, Kivsza, 10–12 éves korosztály."
       },
       "a11y": {
         "visual": "informative",
@@ -24421,7 +24421,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c8c4d3cd834c7d8afdaa536d951e53de01a3c6453c28ed9d537e1f527440d65c",
+      "spec_hash": "e0047b929ccdd0d8b566517267c1f4ceeb96a6285f62dc65f268edf34dfff0f0",
       "deliverable_ids": [],
       "legacy": {
         "alt-text": [
@@ -25183,7 +25183,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
-      "line": 248,
+      "line": 247,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -25250,7 +25250,7 @@
       "status": "pending-production-rule",
       "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet)",
       "purpose": "A képzőnek egy nyomtatható, kéznél tartható egylapos összefoglalót ad, amellyel a peula előtt minden kulcselemet (meta, játékválasztás, eszközök/tér, safety, híd) végigellenőrizhet; a forrás explicit „1 oldalra” megjelölése szerint kifejezetten egy oldalas kézikártyának szánt anyag.",
-      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a peula levezetéséhez, a forrás 5. szekciójának 5 pontjával: 1) Meta tiszta (fő kérdés + M6.1/M6.4 kapcsolat), 2) Játékok kiválasztva (2 játék + cél/korosztály/rizikó fejből), 3) Eszközök & tér (4 kvuca-sarok, CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ tábla, hely), 4) Biztonsági keret a fejben (nem kötelező vállalni; mondat nehéz élményre), 5) Híd az M6.B játéklaphoz. Pipálható checklist-formátum.",
+      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a peula levezetéséhez, a forrás 5. szekciójának 5 pontjával: 1) Meta tiszta (fő kérdés + M6.1/M6.4 kapcsolat), 2) Játékok kiválasztva (2 játék + cél/korosztály/rizikó fejből), 3) Eszközök & tér (3 kvuca-sarok, CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ tábla, hely), 4) Biztonsági keret a fejben (nem kötelező vállalni; mondat nehéz élményre), 5) Híd az M6.B játéklaphoz. Pipálható checklist-formátum.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -25286,7 +25286,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "424671d8a2c7a4d1fe186c20684ae7cbbdb7fd402a3bbc2b924430e7cb604330",
+      "spec_hash": "6e927854e2ae2bd7edc1941d33ac573ba3a9101a018f3f2dcedad70881a731ab",
       "deliverable_ids": [
         "M6.A-MUNK-02",
         "M6.A-MUNK-02::PRINTPDF"
@@ -25303,14 +25303,14 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
-      "line": 125,
+      "line": 124,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "4 kvuca-sarok korosztály-lapok (szett)",
-      "purpose": "A korosztály-sarok gyakorlat (térbeli szavazás) fizikai keretét adja; a peula központi „4 kvuca-szemüveg” módszerét teszi a térben láthatóvá és használhatóvá. A 4.2.3 (sarok-szavazás) és a 4.3.4 (inkluzivitás-sarok) lépéseknél is ez a lap-szett a referencia.",
-      "spec": "4 db A3-as, nagy betűs korosztály-felirat lap egy szettben, egy-egy korosztály per lap: „6–10”, „11–13”, „14–16”, „16+”. A teremben 4 sarokba/falra kihelyezve, a résztvevők ide állnak korosztály-szavazáskor (4.2.3 és 4.3.4). Tiszta, nagyméretű, távolról olvasható tipográfia.",
+      "title": "3 kvuca-sarok korosztály-lapok (szett)",
+      "purpose": "A korosztály-sarok gyakorlat (térbeli szavazás) fizikai keretét adja; a peula központi „3 aktuális kvuca-szemüveg” módszerét teszi a térben láthatóvá és használhatóvá. A 4.2.3 (sarok-szavazás) és a 4.3.4 (inkluzivitás-sarok) lépéseknél is ez a lap-szett a referencia.",
+      "spec": "3 db A3-as, nagy betűs korosztály-felirat lap egy szettben: „Parparim 6–9”, „Kivsza 10–12”, „Leviatan 13–17”. A teremben 3 sarokba/falra kihelyezve, a résztvevők ide állnak korosztály-szavazáskor (4.2.3 és 4.3.4). Tiszta, nagyméretű, távolról olvasható tipográfia.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -25346,7 +25346,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1cbe8745eb74b655e0c5e40301a335894e6aba58398a5ee942fc826a7b4e0bce",
+      "spec_hash": "215f43a116ef7ae79cee08441a9aced68963226bf34d440624f6c1b99b598d72",
       "deliverable_ids": [
         "M6.A-POSZ-01",
         "M6.A-POSZ-01::PRINTPDF"
@@ -25423,7 +25423,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
-      "line": 283,
+      "line": 282,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -25846,7 +25846,7 @@
       "status": "pending-production-rule",
       "title": "Produktum-visszajelzés flipchart-sablon (konkrét elem + várható hatás)",
       "purpose": "Vizuális keret a társas visszajelzés gyakorlásához; segít, hogy a résztvevők általános dicséret helyett a játéklap egy konkrét elemére és annak várható hatására reagáljanak.",
-      "spec": "Flipchartra/táblára felírható vagy A3/A4-en kinyomtatható produktum-visszajelzési poszter két kérdéssel: (1) Melyik konkrét elemet látod a lapon? (2) Milyen várható hatása lehet ennek a kvucára vagy a következő madrich munkájára? Tartalmazza a kész mintamondatot: „Amikor elképzeltem, hogy egy 6–10-es kvucával ezt a játékot vinném, feltűnt, hogy a biztonság sorban külön odaírtad: ‘nem kötelező felállni, ülve maradni is rendben van’. Ettől egy szorongóbb chanichnak is lenne benne biztonságos opciója.” A lap alján rövid horgony: „M1 emlékeztető: emberre adott SBI-nél a B továbbra is megfigyelhető viselkedés.”",
+      "spec": "Flipchartra/táblára felírható vagy A3/A4-en kinyomtatható produktum-visszajelzési poszter két kérdéssel: (1) Melyik konkrét elemet látod a lapon? (2) Milyen várható hatása lehet ennek a kvucára vagy a következő madrich munkájára? Tartalmazza a kész mintamondatot: „Amikor elképzeltem, hogy egy 6–9 éves Parparim-kvucával ezt a játékot vinném, feltűnt, hogy a biztonság sorban külön odaírtad: ‘nem kötelező felállni, ülve maradni is rendben van’. Ettől egy szorongóbb chanichnak is lenne benne biztonságos opciója.” A lap alján rövid horgony: „M1 emlékeztető: emberre adott SBI-nél a B továbbra is megfigyelhető viselkedés.”",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -25881,7 +25881,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2007b999cb73ef11939d3cbb38fa1357367fc5ef18e4496a511c3abd74e25f01",
+      "spec_hash": "e8aa63dae67815e1eb4cf71bba3a851aeeffb9d452dcc9e54e1d2db3cacdf8a2",
       "deliverable_ids": [
         "M6.B-POSZ-01",
         "M6.B-POSZ-01::PRINTPDF"
@@ -26760,7 +26760,7 @@
       "status": "pending-production-rule",
       "title": "Példa prompt-kártya (AI-blokk)",
       "purpose": "Megmutatja, hogyan kérhető etikusan AI-segítség a cél megfogalmazásához.",
-      "spec": "Egy „prompt-kártya” vizuál, amely egy konkrét példapromptot mutat: „Írd át ezt a mondatot SMART nevelési céllá 11–13 éves kvucára, someres peulához: ’Tanuljanak a felelősségről’.” Stílus: chat/prompt-buborék jellegű keret. Cím: „Ha elakadsz, kérj segítséget – de maradjon a te célod”.",
+      "spec": "Egy „prompt-kártya” vizuál, amely egy konkrét példapromptot mutat: „Írd át ezt a mondatot SMART nevelési céllá 10–12 éves Kivsza-kvucára, someres peulához: ’Tanuljanak a felelősségről’.” Stílus: chat/prompt-buborék jellegű keret. Cím: „Ha elakadsz, kérj segítséget – de maradjon a te célod”.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26798,7 +26798,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e8ecb053b270f16f49174dff4c6e7d5b817e082428faf6885d4fdb0bc644528f",
+      "spec_hash": "4687cac59c08d510d6df5ec7afa451c89b482956048ac37eb8c843686714f8fb",
       "deliverable_ids": [
         "M7.1-ILL-03",
         "M7.1-ILL-03::ALTTEXT"
@@ -27719,7 +27719,7 @@
       "status": "pending-production-rule",
       "title": "Illusztrált mintaprogram-kártya: „Péntek esti Zmán Kvucá a kenben”",
       "purpose": "Közös konkrét mintaprogram, amin a checklistet alkalmazzák.",
-      "spec": "Illusztrált, kártyaszerű mintaprogram-grafika címsorral és 6 blokkal: Idő (péntek 18:00–19:00, ősz, sötétben mennek haza), Helyszín (ken nagyterme + 2 szoba), Kvuca (Kivsza 11–13 év, 12 chanich, 2 madrich), Cél (ismerkedés + someres hangulat az év elején), Programváz (10’ névtanulós játék + 25’ kiscsoportos beszélgetés + 15’ közös kör/zárás), Körülmények (másik kvuca a folyosó másik végén, nincs B-terv).",
+      "spec": "Illusztrált, kártyaszerű mintaprogram-grafika címsorral és 6 blokkal: Idő (péntek 18:00–19:00, ősz, sötétben mennek haza), Helyszín (ken nagyterme + 2 szoba), Kvuca (Kivsza 10–12 év, 12 chanich, 2 madrich), Cél (ismerkedés + someres hangulat az év elején), Programváz (10’ névtanulós játék + 25’ kiscsoportos beszélgetés + 15’ közös kör/zárás), Körülmények (másik kvuca a folyosó másik végén, nincs B-terv).",
       "provenance": "ai",
       "provenance_note": "AI-generált illusztráció, a tartalmat madrich lektorálta",
       "technical": {
@@ -27757,7 +27757,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "99a33a29feb8d361d2b6ec7a370d137cde56cb57772ccf7f1704739dc4001c6e",
+      "spec_hash": "ff61cb41d22740b9b76aae42c32b3dccb63fe4f404396540013507f5b004476b",
       "deliverable_ids": [
         "M7.3-ILL-02",
         "M7.3-ILL-02::ALTTEXT"
@@ -27889,12 +27889,12 @@
         435,
         449
       ],
-      "source_text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 11–13 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
-      "source_hash": "d292a87cd3fc4524047e955666cc9c20b5ac7486e68c6b1877f884f21139fa48",
+      "source_text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 10–12 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
+      "source_hash": "a37ff033cc81598f4727212d75dfb70c6cb1c39be43b33655bf3a33960a4d739",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "d292a87cd3fc4524047e955666cc9c20b5ac7486e68c6b1877f884f21139fa48",
+      "copy_hash": "a37ff033cc81598f4727212d75dfb70c6cb1c39be43b33655bf3a33960a4d739",
       "spec_hash": "1b6ca3182bcf1a7451223e1db606461a729b13e220eb382291265b5bd23c1efd",
       "deliverable_ids": [
         "M7.3-NAR-03",
@@ -28212,9 +28212,9 @@
       "subtype": "",
       "mode": "reuse",
       "status": "spec-ready",
-      "title": "Kvuca-típus piktogramok – Parparim / Kivsza / Leviatan / Zorea",
+      "title": "Kvuca-típus piktogramok – Parparim / Kivsza / Leviatan",
       "purpose": "Vizuális támogatás a kvuca-típus választáshoz, korosztály-felismerés segítése a GYAKORLAT 1 döntésnél.",
-      "spec": "Négy piktogram/ikon a kvuca-típus választóhoz: Parparim (pillangó, 6–10 év), Kivsza (bárány, 11–13 év), Leviatan (bálna, 14–16 év), Zorea (csíra/növény, 16+). Egységes ikon-/piktogram-stílusban, a Single Choice opciókhoz illesztve.",
+      "spec": "Három piktogram/ikon a kvuca-típus választóhoz: Parparim (pillangó, 6–9 év), Kivsza (bárány, 10–12 év), Leviatan (bálna, 13–17 év). Egységes ikon-/piktogram-stílusban, a Single Choice opciókhoz illesztve.",
       "provenance": "ai",
       "provenance_note": "AI-generált (piktogramok), madrich lektorálta",
       "technical": {
@@ -28233,7 +28233,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Újrahasznosítás indoklása (v1 dedup): Azonos négy ikon. Eltérés csak a felhasználásban: M3.2-ben kártyákon/oszlopfejekben/táblázatban ismétlődve, M7.4-ben Single Choice opciókhoz illesztett piktogramként (korosztály-címkével: 6–10 / 11–13 / 14–16 / 16+). A vizuális asset ugyanaz. A forrás (38. sor) „illusztráció\"-ként hivatkozik rájuk, de tartalmilag piktogram-/ikon-készlet (4 egységes elem) → assetType ikon-készlet, ezért az ID-rövidítés is IKO (nem ILL, hogy az ID-séma típushoz illeszkedjen). Meta §1 szerint AI-generált; provenance-jelölés D1.3 szerint. Az emoji-jelölések (🦋🐑🐋🌱) a forrásban orientálnak a vizuál tartalmára.",
+      "notes": "Újrahasznosítás indoklása (v1 dedup): Azonos három ikon. Eltérés csak a felhasználásban: M3.2-ben kártyákon/oszlopfejekben/táblázatban ismétlődve, M7.4-ben Single Choice opciókhoz illesztett piktogramként (korosztály-címkével: 6–9 / 10–12 / 13–17). A vizuális asset ugyanaz. A forrás (38. sor) „illusztráció\"-ként hivatkozik rájuk, de tartalmilag piktogram-/ikon-készlet (3 egységes elem) → assetType ikon-készlet, ezért az ID-rövidítés is IKO (nem ILL, hogy az ID-séma típushoz illeszkedjen). Meta §1 szerint AI-generált; provenance-jelölés D1.3 szerint. Az emoji-jelölések (🦋🐑🐋) a forrásban orientálnak a vizuál tartalmára.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -28245,7 +28245,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "23b745dd6770a91231269a9b29b6aaf0993d97de52cd0e87166ae6f8be9802e8",
+      "spec_hash": "935ac708db2c0063706de3a4198d9dacecd3cad1fae80e363620221643396f8c",
       "deliverable_ids": [],
       "legacy": {
         "alt-text": [
@@ -28300,8 +28300,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        470,
-        475
+        469,
+        474
       ],
       "source_text": "„Most kiválasztasz egy kvucát,\nmegírod hozzá a kvuca infókat és a SMART célt.\nNem dolgozatot kérünk – a lényeg, hogy **érthető legyen**,\nmilyen kvucára és milyen változást tervezel.”",
       "source_hash": "26b8ac3e53b88fad5128835e145b3a58ece5d72b0b2d48e6a6e537e0c516a7f4",
@@ -28333,7 +28333,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 603,
+      "line": 602,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -28371,8 +28371,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        681,
-        685
+        680,
+        684
       ],
       "source_text": "„Gratulálok, megvan a Peula v1-ed első teljes vázlata.\nMost rögzítsd a Moodle-beadandóban.\nAz M7.B műhelyben visszajelzések alapján tovább dolgozol rajta, és ebből készül a végleges, terepre vihető Peula v2.”",
       "source_hash": "b6d0771d07aee87623130f1764437633617f2e4144fbe61d62a788cfe702aa47",
@@ -28489,7 +28489,7 @@
       "status": "pending-production-rule",
       "title": "„Szétfolyó cél” kártyaszett a sarok-játékhoz",
       "purpose": "A blokk 2 mozgásos sarok-játékának fizikai eszköze: a madrichok élményben (A/B sarokba állással) különböztetik meg a szétfolyó vágyat a SMART-közeli céltól.",
-      "spec": "10–12 db nyomtatott kártya, mindegyiken egy célnak látszó mondat someres szituációkra: egy részük SZÉTFOLYÓ vágy, egy részük SMART-KÖZELI. A forrás 5 konkrét mintamondatot ad (ezeket be kell emelni): „Jó hangulat legyen Purimon.”; „A kvuca értse meg a Szolidaritás fogalmát.”; „Beszéljünk a háborúról.” (mindhárom szétfolyó); valamint „A Kivsza kvuca (kb. 11–13 év) a következő hónap végére legalább 2 új játékot tud, amit ők maguk magyaráznak el egymásnak.” és „A Parparim kvuca (kb. 6–10 év, ~9–10 évesekre lőve) a 45 perces peula alatt legalább 1-szer, kb. 1 perces körben végighallgatja a többieket.” (mindkettő SMART-közeli). FIGYELEM – tartalmi hiány: a forrás csak 5 mondatot ad, de 10–12 kártyás szettet kér; a fennmaradó 5–7 kártyához ÚJ, a mintázathoz illeszkedő someres mondatokat kell írni (jellemzően több szétfolyó + 1–2 további SMART-közeli). A kártyán CSAK a mondat látszik – a besorolás-kulcs NEM kerül a kártyára (az a M7.A-MUNK-02 képzői kulcsban van). A játék során a 10–12-ből csak 4–6 kerül felolvasásra (117. sor).",
+      "spec": "10–12 db nyomtatott kártya, mindegyiken egy célnak látszó mondat someres szituációkra: egy részük SZÉTFOLYÓ vágy, egy részük SMART-KÖZELI. A forrás 5 konkrét mintamondatot ad (ezeket be kell emelni): „Jó hangulat legyen Purimon.”; „A kvuca értse meg a Szolidaritás fogalmát.”; „Beszéljünk a háborúról.” (mindhárom szétfolyó); valamint „A Kivsza kvuca (kb. 10–12 év) a következő hónap végére legalább 2 új játékot tud, amit ők maguk magyaráznak el egymásnak.” és „A Parparim kvuca (kb. 6–9 év, ~8–9 évesekre lőve) a 45 perces peula alatt legalább 1-szer, kb. 1 perces körben végighallgatja a többieket.” (mindkettő SMART-közeli). FIGYELEM – tartalmi hiány: a forrás csak 5 mondatot ad, de 10–12 kártyás szettet kér; a fennmaradó 5–7 kártyához ÚJ, a mintázathoz illeszkedő someres mondatokat kell írni (jellemzően több szétfolyó + 1–2 további SMART-közeli). A kártyán CSAK a mondat látszik – a besorolás-kulcs NEM kerül a kártyára (az a M7.A-MUNK-02 képzői kulcsban van). A játék során a 10–12-ből csak 4–6 kerül felolvasásra (117. sor).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -28524,7 +28524,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "91372d531d320b6560080aa1d02185792ade6e96ef347d0ee91bae227c88502b",
+      "spec_hash": "a5b97c56fb9310ef0f82f2d03e467880803af5895207dadba4590fcd81b9e8ca",
       "deliverable_ids": [
         "M7.A-KART-01",
         "M7.A-KART-01::PRINTPDF"
@@ -28548,7 +28548,7 @@
       "status": "pending-production-rule",
       "title": "Minta-peula-ötlet kártyák (tartalék, ha valaki elakad)",
       "purpose": "Hogy senki ne maradjon ötlet nélkül a mini műhelyban – aki elakad, azonnal választhat egy konkrét kvuca-névvel ellátott ötletet.",
-      "spec": "3–4 db nyomtatott minta-peula-ötlet kártya, mindegyiken egy ötlet + a hozzá tartozó kvuca-név és korosztály, hogy az elakadó azonnal tudjon „kire” gondolni. A forrás 4 mintát ad: (1) Hanuka-peula a Parparim kvucának (6–10 év) – fény/sötétség témán át „mitől félek / mi ad biztonságot”; (2) Első kvuca-alkalom a Kivsza kvucának (kb. 11–13 év) – ismerkedés + közös kvuca-szabályok; (3) Konfliktuskezelő peula a Leviatan kvucának (kb. 14–16 év) – tipikus kvucán belüli súrlódás megbeszélése; (4) Élménybeszámoló-peula machané után – „mit viszek haza a táborból”, kapcsolódás és lezárás.",
+      "spec": "3–4 db nyomtatott minta-peula-ötlet kártya, mindegyiken egy ötlet + a hozzá tartozó kvuca-név és korosztály, hogy az elakadó azonnal tudjon „kire” gondolni. A forrás 4 mintát ad: (1) Hanuka-peula a Parparim kvucának (6–9 év) – fény/sötétség témán át „mitől félek / mi ad biztonságot”; (2) Első kvuca-alkalom a Kivsza kvucának (kb. 10–12 év) – ismerkedés + közös kvuca-szabályok; (3) Konfliktuskezelő peula a Leviatan kvucának (kb. 13–17 év) – tipikus kvucán belüli súrlódás megbeszélése; (4) Élménybeszámoló-peula machané után – „mit viszek haza a táborból”, kapcsolódás és lezárás.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -28583,7 +28583,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d26a4fca56d46e0a3890bf2fb9e4d7a90d2da080b9bd7e375cc6e5cd0591c395",
+      "spec_hash": "230f22abc5ac75189e424c447970f506ec93e21816bebe5cd1b057f7a69a629f",
       "deliverable_ids": [
         "M7.A-KART-02",
         "M7.A-KART-02::PRINTPDF"
@@ -37933,8 +37933,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.1-NAR-05-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a négy someres kvucába:\nParparim, Kivsza, Leviatan és Zorea –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
-      "text_hash": "22f975437c89e97f8c77dfc7466a3fd4e1463e31d8e98b7218c264cec6206906",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a három aktuális someres kvucába:\nParparim, Kivsza és Leviatan –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
+      "text_hash": "1e11927c2c353b9d4063d9968887a71187104f33a1a7fe012311721e3a4fd675",
       "blockers": [
         "R3"
       ],
@@ -37956,8 +37956,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.1-NAR-05-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a négy someres kvucába:\nParparim, Kivsza, Leviatan és Zorea –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
-      "text_hash": "22f975437c89e97f8c77dfc7466a3fd4e1463e31d8e98b7218c264cec6206906",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a három aktuális someres kvucába:\nParparim, Kivsza és Leviatan –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
+      "text_hash": "1e11927c2c353b9d4063d9968887a71187104f33a1a7fe012311721e3a4fd675",
       "blockers": [
         "R3"
       ],
@@ -37979,8 +37979,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.1-NAR-05-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a négy someres kvucába:\nParparim, Kivsza, Leviatan és Zorea –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
-      "text_hash": "22f975437c89e97f8c77dfc7466a3fd4e1463e31d8e98b7218c264cec6206906",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a három aktuális someres kvucába:\nParparim, Kivsza és Leviatan –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
+      "text_hash": "1e11927c2c353b9d4063d9968887a71187104f33a1a7fe012311721e3a4fd675",
       "blockers": [
         "R3"
       ],
@@ -38139,7 +38139,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Leviatan & Zorea – kétoszlopos profilkártya",
+      "title": "Leviatan – profilkártya",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38162,7 +38162,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Leviatan & Zorea – kétoszlopos profilkártya — alt-szöveg",
+      "title": "Leviatan – profilkártya — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38185,7 +38185,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "4 kulcsszó-kártya (2×2 rács)",
+      "title": "3 kulcsszó-kártya",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38208,7 +38208,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "4 kulcsszó-kártya (2×2 rács) — alt-szöveg",
+      "title": "3 kulcsszó-kártya — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38231,7 +38231,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Korosztály-térkép mini-táblázat (4 sor)",
+      "title": "Korosztály-térkép mini-táblázat (3 sor)",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38254,7 +38254,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Korosztály-térkép mini-táblázat (4 sor) — alt-szöveg",
+      "title": "Korosztály-térkép mini-táblázat (3 sor) — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38277,7 +38277,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 4 kvuca-címke)",
+      "title": "Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 3 kvuca-címke)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -38319,7 +38319,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "4 kvuca ikon-készlet (🦋 🐑 🐋 🌱)",
+      "title": "3 kvuca ikon-készlet (🦋 🐑 🐋)",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38342,7 +38342,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "4 kvuca ikon-készlet (🦋 🐑 🐋 🌱) — alt-szöveg",
+      "title": "3 kvuca ikon-készlet (🦋 🐑 🐋) — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -38434,13 +38434,13 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Leviatan & Zorea opcionális narráció",
+      "title": "Leviatan opcionális narráció",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.2-NAR-04-VO",
-      "text": "„Leviatan korában gyakrabban kerülhet elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nZoreánál nagyobb teret kaphat a saját vélemény, a vita és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és ne csak ‘tanárként’, hanem partnerként legyél jelen.”",
-      "text_hash": "928f1ef0273a67be4d6b7475b63bdc2d87ac66463c33ce269b6a390c76401305",
+      "text": "„Leviatan korban gyakran kerül elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nAz idősebbeknél nagyobb teret kaphat a saját vélemény, a vita, az autonómia és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és partnerként legyél jelen.”",
+      "text_hash": "586d6e8ee41ad955b9bc3096c9a63b23f310ced08ae857b9059b78ae020b7575",
       "blockers": [
         "R3"
       ],
@@ -38457,13 +38457,13 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Leviatan & Zorea opcionális narráció — felirat",
+      "title": "Leviatan opcionális narráció — felirat",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.2-NAR-04-VO",
-      "text": "„Leviatan korában gyakrabban kerülhet elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nZoreánál nagyobb teret kaphat a saját vélemény, a vita és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és ne csak ‘tanárként’, hanem partnerként legyél jelen.”",
-      "text_hash": "928f1ef0273a67be4d6b7475b63bdc2d87ac66463c33ce269b6a390c76401305",
+      "text": "„Leviatan korban gyakran kerül elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nAz idősebbeknél nagyobb teret kaphat a saját vélemény, a vita, az autonómia és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és partnerként legyél jelen.”",
+      "text_hash": "586d6e8ee41ad955b9bc3096c9a63b23f310ced08ae857b9059b78ae020b7575",
       "blockers": [
         "R3"
       ],
@@ -38480,13 +38480,13 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Leviatan & Zorea opcionális narráció — leirat",
+      "title": "Leviatan opcionális narráció — leirat",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.2-NAR-04-VO",
-      "text": "„Leviatan korában gyakrabban kerülhet elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nZoreánál nagyobb teret kaphat a saját vélemény, a vita és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és ne csak ‘tanárként’, hanem partnerként legyél jelen.”",
-      "text_hash": "928f1ef0273a67be4d6b7475b63bdc2d87ac66463c33ce269b6a390c76401305",
+      "text": "„Leviatan korban gyakran kerül elő az identitás, a kapcsolatok és a bizalom kérdése.\n\nAz idősebbeknél nagyobb teret kaphat a saját vélemény, a vita, az autonómia és a felelősségvállalás.\n\nEzek sem kész receptek. Madrichként a saját kvucád jelzéseiből indulj ki, és partnerként legyél jelen.”",
+      "text_hash": "586d6e8ee41ad955b9bc3096c9a63b23f310ced08ae857b9059b78ae020b7575",
       "blockers": [
         "R3"
       ],
@@ -38508,8 +38508,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.2-NAR-05-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza, Leviatan és Zorea kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
-      "text_hash": "4f5665d234e3422d2b6cef1f5d0e5c778cfbebd2bc53f5e88d081b13b2689b42",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza és Leviatan kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
+      "text_hash": "2c07c08d68d45f98ff8855a054f6246625a1cbe503d4834c5df10d6af5ef3fee",
       "blockers": [
         "R3"
       ],
@@ -38531,8 +38531,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.2-NAR-05-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza, Leviatan és Zorea kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
-      "text_hash": "4f5665d234e3422d2b6cef1f5d0e5c778cfbebd2bc53f5e88d081b13b2689b42",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza és Leviatan kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
+      "text_hash": "2c07c08d68d45f98ff8855a054f6246625a1cbe503d4834c5df10d6af5ef3fee",
       "blockers": [
         "R3"
       ],
@@ -38554,8 +38554,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M3.2-NAR-05-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza, Leviatan és Zorea kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
-      "text_hash": "4f5665d234e3422d2b6cef1f5d0e5c778cfbebd2bc53f5e88d081b13b2689b42",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza és Leviatan kvucák\nmennyire különböző világban élnek.\nA következő részben azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
+      "text_hash": "2c07c08d68d45f98ff8855a054f6246625a1cbe503d4834c5df10d6af5ef3fee",
       "blockers": [
         "R3"
       ],
@@ -38572,13 +38572,13 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Hook beszélő fej – 4 kvuca, 4 hangulat",
+      "title": "Hook beszélő fej – 3 kvuca, 3 hangulat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M3.2-VID-01-VO",
-      "text": "„Szia! Képzeld el, hogy négy különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül.\nA negyedikben már hosszabban is lehet vitázni Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a négy kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza, a Leviatan és a Zorea kvuca.”",
-      "text_hash": "b2cadfb2ed7bd5c63dd3f752695355cff9bb3c50245a422cf8fe2a28209b9c99",
+      "text": "„Szia! Képzeld el, hogy három különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül; az idősebbeknél már hosszabb vita is működhet Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a három kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza és a Leviatan kvuca.”",
+      "text_hash": "08834d4bc3daf0704e109cd967bd43bc7936aaa7b894b5f7400a06ea7b1d8ae5",
       "blockers": [
         "R2",
         "R3"
@@ -38596,13 +38596,13 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Hook beszélő fej – 4 kvuca, 4 hangulat — felmondott hang",
+      "title": "Hook beszélő fej – 3 kvuca, 3 hangulat — felmondott hang",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M3.2-VID-01-VO",
-      "text": "„Szia! Képzeld el, hogy négy különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül.\nA negyedikben már hosszabban is lehet vitázni Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a négy kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza, a Leviatan és a Zorea kvuca.”",
-      "text_hash": "b2cadfb2ed7bd5c63dd3f752695355cff9bb3c50245a422cf8fe2a28209b9c99",
+      "text": "„Szia! Képzeld el, hogy három különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül; az idősebbeknél már hosszabb vita is működhet Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a három kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza és a Leviatan kvuca.”",
+      "text_hash": "08834d4bc3daf0704e109cd967bd43bc7936aaa7b894b5f7400a06ea7b1d8ae5",
       "blockers": [
         "R2",
         "R3"
@@ -38620,13 +38620,13 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Hook beszélő fej – 4 kvuca, 4 hangulat — felirat",
+      "title": "Hook beszélő fej – 3 kvuca, 3 hangulat — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M3.2-VID-01-VO",
-      "text": "„Szia! Képzeld el, hogy négy különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül.\nA negyedikben már hosszabban is lehet vitázni Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a négy kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza, a Leviatan és a Zorea kvuca.”",
-      "text_hash": "b2cadfb2ed7bd5c63dd3f752695355cff9bb3c50245a422cf8fe2a28209b9c99",
+      "text": "„Szia! Képzeld el, hogy három különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül; az idősebbeknél már hosszabb vita is működhet Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a három kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza és a Leviatan kvuca.”",
+      "text_hash": "08834d4bc3daf0704e109cd967bd43bc7936aaa7b894b5f7400a06ea7b1d8ae5",
       "blockers": [
         "R2",
         "R3"
@@ -38644,13 +38644,13 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
       "file_kind": "online-lecke",
-      "title": "Hook beszélő fej – 4 kvuca, 4 hangulat — leirat",
+      "title": "Hook beszélő fej – 3 kvuca, 3 hangulat — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M3.2-VID-01-VO",
-      "text": "„Szia! Képzeld el, hogy négy különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül.\nA negyedikben már hosszabban is lehet vitázni Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a négy kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza, a Leviatan és a Zorea kvuca.”",
-      "text_hash": "b2cadfb2ed7bd5c63dd3f752695355cff9bb3c50245a422cf8fe2a28209b9c99",
+      "text": "„Szia! Képzeld el, hogy három különböző kvucába ugrasz be egymás után.\n\nAz egyikben mindenki pörög, és most inkább játszana, mint beszélgetne.\nA másikban erősen számít, kihez tartozom, kinek a véleménye fontos, és ki mer megszólalni.\nA harmadikban sok minden forog a barátságok, a bizalom és az identitás körül; az idősebbeknél már hosszabb vita is működhet Somer-értékekről, világnézetről és társadalmi kérdésekről.\n\nUgyanaz a madrich **nem ugyanúgy tud működni** mind a három kvucában.\nEbben a leckében megnézzük, milyen világban él a Parparim, a Kivsza és a Leviatan kvuca.”",
+      "text_hash": "08834d4bc3daf0704e109cd967bd43bc7936aaa7b894b5f7400a06ea7b1d8ae5",
       "blockers": [
         "R2",
         "R3"
@@ -44788,7 +44788,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra)",
+      "title": "Korosztály-táblázat – 3 aktuális kvuca-korosztály (tartalmi ábra)",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -44811,7 +44811,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra) — alt-szöveg",
+      "title": "Korosztály-táblázat – 3 aktuális kvuca-korosztály (tartalmi ábra) — alt-szöveg",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -44897,7 +44897,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Single Choice – 11–13 bizalomjáték forma",
+      "title": "Single Choice – Kivsza (10–12) bizalomjáték forma",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -44939,7 +44939,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Single Choice – 6–10 reflexiós vs. mély",
+      "title": "Single Choice – Parparim 6–9 reflexiós vs. mély",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -45249,13 +45249,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 2: 4 korosztály bemutatása",
+      "title": "Narráció – SLIDE 2: 3 aktuális korosztály bemutatása",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.1-NAR-02-VO",
-      "text": "„Ebben a modulban négy kvuca-korosztállyal dolgozunk.\n\n**6–10 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**11–13 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**14–16 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet. Ne indulj abból, hogy a koruk miatt „drámásak” vagy érzelmileg kiszámíthatatlanok.\n\n**16+ kvucáknál** gyakran több tér adható vitának, önálló döntésnek és reflexiónak, de a magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
-      "text_hash": "9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6",
+      "text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatannál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
+      "text_hash": "7e84e8680fb4e82d73fcd20a5318fbf96bece673b3b5dd4cbf91185639fae725",
       "blockers": [
         "R3"
       ],
@@ -45272,13 +45272,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 2: 4 korosztály bemutatása — felirat",
+      "title": "Narráció – SLIDE 2: 3 aktuális korosztály bemutatása — felirat",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.1-NAR-02-VO",
-      "text": "„Ebben a modulban négy kvuca-korosztállyal dolgozunk.\n\n**6–10 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**11–13 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**14–16 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet. Ne indulj abból, hogy a koruk miatt „drámásak” vagy érzelmileg kiszámíthatatlanok.\n\n**16+ kvucáknál** gyakran több tér adható vitának, önálló döntésnek és reflexiónak, de a magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
-      "text_hash": "9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6",
+      "text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatannál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
+      "text_hash": "7e84e8680fb4e82d73fcd20a5318fbf96bece673b3b5dd4cbf91185639fae725",
       "blockers": [
         "R3"
       ],
@@ -45295,13 +45295,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 2: 4 korosztály bemutatása — leirat",
+      "title": "Narráció – SLIDE 2: 3 aktuális korosztály bemutatása — leirat",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.1-NAR-02-VO",
-      "text": "„Ebben a modulban négy kvuca-korosztállyal dolgozunk.\n\n**6–10 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**11–13 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**14–16 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet. Ne indulj abból, hogy a koruk miatt „drámásak” vagy érzelmileg kiszámíthatatlanok.\n\n**16+ kvucáknál** gyakran több tér adható vitának, önálló döntésnek és reflexiónak, de a magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
-      "text_hash": "9219bb62ca77e8ca6e37d7ca72836e8358b6ba7efc06e36b7d941d71c9f7dec6",
+      "text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatannál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **játék + kvuca párosban** gondolkodj.”",
+      "text_hash": "7e84e8680fb4e82d73fcd20a5318fbf96bece673b3b5dd4cbf91185639fae725",
       "blockers": [
         "R3"
       ],
@@ -45392,8 +45392,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.1-NAR-04-VO",
-      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–10 éves kvucánál, illetve többnyire megfelelőek egy 11–13 éves kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
-      "text_hash": "56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386",
+      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
+      "text_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
       "blockers": [
         "R3"
       ],
@@ -45415,8 +45415,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.1-NAR-04-VO",
-      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–10 éves kvucánál, illetve többnyire megfelelőek egy 11–13 éves kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
-      "text_hash": "56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386",
+      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
+      "text_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
       "blockers": [
         "R3"
       ],
@@ -45438,8 +45438,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.1-NAR-04-VO",
-      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–10 éves kvucánál, illetve többnyire megfelelőek egy 11–13 éves kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
-      "text_hash": "56d9d8768d9688193663f3a1fc57ca9f4d844195dfb018fed50d6ab3b4455386",
+      "text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
+      "text_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
       "blockers": [
         "R3"
       ],
@@ -46063,8 +46063,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.2-NAR-06-VO",
-      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (6–10, 11–13)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
-      "text_hash": "d10f1c9fde3a017d3cfb40a18d0a517bcf0e2600d3a2b1349588fd0d8125f4e0",
+      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (Parparim 6–9, Kivsza 10–12)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
+      "text_hash": "abcc0c82e6434491a844a0bbf6a5452883590e48b6fdcbcf92e52e028659afd5",
       "blockers": [
         "R3"
       ],
@@ -46086,8 +46086,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.2-NAR-06-VO",
-      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (6–10, 11–13)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
-      "text_hash": "d10f1c9fde3a017d3cfb40a18d0a517bcf0e2600d3a2b1349588fd0d8125f4e0",
+      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (Parparim 6–9, Kivsza 10–12)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
+      "text_hash": "abcc0c82e6434491a844a0bbf6a5452883590e48b6fdcbcf92e52e028659afd5",
       "blockers": [
         "R3"
       ],
@@ -46109,8 +46109,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M6.2-NAR-06-VO",
-      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (6–10, 11–13)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
-      "text_hash": "d10f1c9fde3a017d3cfb40a18d0a517bcf0e2600d3a2b1349588fd0d8125f4e0",
+      "text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (Parparim 6–9, Kivsza 10–12)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a chanichokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
+      "text_hash": "abcc0c82e6434491a844a0bbf6a5452883590e48b6fdcbcf92e52e028659afd5",
       "blockers": [
         "R3"
       ],
@@ -47193,7 +47193,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
       "file_kind": "peula",
-      "title": "4 kvuca-sarok korosztály-lapok (szett)",
+      "title": "3 kvuca-sarok korosztály-lapok (szett)",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -47216,7 +47216,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
       "file_kind": "peula",
-      "title": "4 kvuca-sarok korosztály-lapok (szett) — nyomtatható PDF",
+      "title": "3 kvuca-sarok korosztály-lapok (szett) — nyomtatható PDF",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -49201,8 +49201,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M7.3-NAR-03-VO",
-      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 11–13 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
-      "text_hash": "d292a87cd3fc4524047e955666cc9c20b5ac7486e68c6b1877f884f21139fa48",
+      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 10–12 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
+      "text_hash": "a37ff033cc81598f4727212d75dfb70c6cb1c39be43b33655bf3a33960a4d739",
       "blockers": [
         "R3"
       ],
@@ -49224,8 +49224,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M7.3-NAR-03-VO",
-      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 11–13 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
-      "text_hash": "d292a87cd3fc4524047e955666cc9c20b5ac7486e68c6b1877f884f21139fa48",
+      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 10–12 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
+      "text_hash": "a37ff033cc81598f4727212d75dfb70c6cb1c39be43b33655bf3a33960a4d739",
       "blockers": [
         "R3"
       ],
@@ -49247,8 +49247,8 @@
       "status": "pending-production-rule",
       "provenance": "ai",
       "source_id": "M7.3-NAR-03-VO",
-      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 11–13 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
-      "text_hash": "d292a87cd3fc4524047e955666cc9c20b5ac7486e68c6b1877f884f21139fa48",
+      "text": "„Nézzünk egy konkrét példát.\n\nPéntek este, 18-tól 19 óráig Zmán Kvucát tartunk a kenben.\nA kvuca: Kivsza, 10–12 évesek, 12 chanich, 2 madrich.\nA cél: ismerkedés és someres hangulat az év elején.\n\nA programváz: névtanulós játék, kiscsoportos beszélgetés,\nmajd közös kör és zárás.\nKözben a folyosó másik végén egy másik kvuca is tart Zmán Kvucát.\n\nElső ránézésre ez akár jól is hangozhat –\nde nézzük meg a checklist segítségével,\nhol vannak benne kérdőjelek.”",
+      "text_hash": "a37ff033cc81598f4727212d75dfb70c6cb1c39be43b33655bf3a33960a4d739",
       "blockers": [
         "R3"
       ],

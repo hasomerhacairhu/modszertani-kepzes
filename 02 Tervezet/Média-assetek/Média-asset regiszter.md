@@ -418,16 +418,16 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M3.2-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Parparim & Kivsza – kétoszlopos profilkártya | — | alt-szöveg | AI-generált |
-| `M3.2-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Leviatan & Zorea – kétoszlopos profilkártya | — | alt-szöveg | AI-generált |
-| `M3.2-DIA-03` | diagram | legyártandó | produkciós szabályra vár | 4 kulcsszó-kártya (2×2 rács) | — | alt-szöveg | AI-generált |
-| `M3.2-DIA-04` | diagram | legyártandó | produkciós szabályra vár | Korosztály-térkép mini-táblázat (4 sor) | — | alt-szöveg | AI-generált |
-| `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 4 kvuca-címke) | — | — | AI-generált |
+| `M3.2-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Leviatan – profilkártya | — | alt-szöveg | AI-generált |
+| `M3.2-DIA-03` | diagram | legyártandó | produkciós szabályra vár | 3 kulcsszó-kártya | — | alt-szöveg | AI-generált |
+| `M3.2-DIA-04` | diagram | legyártandó | produkciós szabályra vár | Korosztály-térkép mini-táblázat (3 sor) | — | alt-szöveg | AI-generált |
+| `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 3 kvuca-címke) | — | — | AI-generált |
 | `M3.2-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Húzás-mentes Matching alternatíva (Single Choice Set / legördülős) | — | — | AI-generált |
-| `M3.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | 4 kvuca ikon-készlet (🦋 🐑 🐋 🌱) | — | alt-szöveg | AI-generált |
+| `M3.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | 3 kvuca ikon-készlet (🦋 🐑 🐋) | — | alt-szöveg | AI-generált |
 | `M3.2-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Parparim & Kivsza opcionális narráció | `M3.2-NAR-03-VO` | felirat, leirat | AI-generált |
-| `M3.2-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Leviatan & Zorea opcionális narráció | `M3.2-NAR-04-VO` | felirat, leirat | AI-generált |
+| `M3.2-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Leviatan opcionális narráció | `M3.2-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M3.2-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Outro narráció hangsáv | `M3.2-NAR-05-VO` | felirat, leirat | AI-generált |
-| `M3.2-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélő fej – 4 kvuca, 4 hangulat | `M3.2-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
+| `M3.2-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélő fej – 3 kvuca, 3 hangulat | `M3.2-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md
 
@@ -713,13 +713,13 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Korosztály-táblázat – 4 kvuca-korosztály (tartalmi ábra) | — | alt-szöveg | AI-generált |
+| `M6.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Korosztály-táblázat – 3 aktuális kvuca-korosztály (tartalmi ábra) | — | alt-szöveg | AI-generált |
 | `M6.1-EGY-01` | other/ui-text | legyártandó | specifikáció kész | AI-provenance ember-olvasható sor (lecke alján/dián) | — | — | emberi |
 | `M6.1-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – önreflexió: „mi alapján döntesz?” | — | — | emberi |
 | `M6.1-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – „Névkör labdával” korosztály | — | — | emberi |
-| `M6.1-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – 11–13 bizalomjáték forma | — | — | emberi |
+| `M6.1-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – Kivsza (10–12) bizalomjáték forma | — | — | emberi |
 | `M6.1-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges kérdés – kockázat bizalomjátékban | — | — | emberi |
-| `M6.1-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – 6–10 reflexiós vs. mély | — | — | emberi |
+| `M6.1-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – Parparim 6–9 reflexiós vs. mély | — | — | emberi |
 | `M6.1-EGY-07` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – Szitu 1 korosztály-választás | — | — | emberi |
 | `M6.1-EGY-08` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret | — | — | emberi |
 | `M6.1-EGY-09` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – miért hasznos kategóriákban gondolkodni | — | — | emberi |
@@ -729,7 +729,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.1-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártyák 1 – ismerkedős + energizer (2 kártya) | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés” | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-03` | illustration | legyártandó | produkciós szabályra vár | Kategória-kártya 3 – reflexiós vs. mély élmény (2 minisztori) | — | alt-szöveg | AI-generált |
-| `M6.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 2: 4 korosztály bemutatása | `M6.1-NAR-02-VO` | felirat, leirat | AI-generált |
+| `M6.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 2: 3 aktuális korosztály bemutatása | `M6.1-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 3: 5 játék-kategória | `M6.1-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 4: ismerkedős + energizer | `M6.1-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat | `M6.1-NAR-05-VO` | felirat, leirat | AI-generált |
@@ -789,7 +789,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M6.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Exit ticket – „1 játék, amiről játéklapot készítenél” | — | nyomtatható PDF | AI-generált |
 | `M6.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) | — | nyomtatható PDF | AI-generált |
-| `M6.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 4 kvuca-sarok korosztály-lapok (szett) | — | nyomtatható PDF | AI-generált |
+| `M6.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 3 kvuca-sarok korosztály-lapok (szett) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-02` | poster | legyártandó | produkciós szabályra vár | CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ mátrix flipchart-sablon | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-03` | poster | legyártandó | produkciós szabályra vár | Inkluzivitás-elemző tábla-sablon (4 oszlop) | — | nyomtatható PDF | AI-generált |
 
@@ -883,7 +883,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M7.4-DIA-01` | diagram | legyártandó | produkciós szabályra vár | 3 építőkocka diagram – SMART cél / Peula 11 pontja / Zmán Kvucá | — | alt-szöveg | AI-generált |
-| `M7.4-IKO-01` | icon-set | újrahasznosítás | specifikáció kész | Kvuca-típus piktogramok – Parparim / Kivsza / Leviatan / Zorea | — | — | AI-generált |
+| `M7.4-IKO-01` | icon-set | újrahasznosítás | specifikáció kész | Kvuca-típus piktogramok – Parparim / Kivsza / Leviatan | — | — | AI-generált |
 | `M7.4-NAR-01` | voiceover/narration | legyártandó | produkciós szabályra vár | Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél) | `M7.4-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M7.4-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Opcionális narráció – zárás (gratuláció + következő lépés) | `M7.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.4-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK – AI beszélő fej: papíron szép vs. vállalható peula | `M7.4-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
