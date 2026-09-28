@@ -148,10 +148,13 @@ A field-rubrika **0–2-es skálán marad**. Az intake `≥4/5` célját skálaf
 A repository nem alkot mozgalmi állásfoglalást. A helyi Somer/ken erősítse meg az M2-ben használt pontos megfogalmazást.  
 **Jóváhagyó:** helyi mozgalmi/ideológiai felelős. **Blokkol:** az érintett M2-rész learner-facing véglegesítése.
 
-### HUM-SOMER-02 — Kvuca-korosztályok
+### HUM-SOMER-02 — Kvuca-korosztályok — LEZÁRVA
 
-A jelenlegi munkaverzió: Parparim 6–10, Kivsza 11–13, Leviatan 14–16, Zorea 16+. Ezt helyi mozgalmi konvencióként kell megerősíteni.  
-**Jóváhagyó:** ken-vezető / mozgalmi felelős. **Blokkol:** a korosztályprofilok hivatalosként való kommunikálása.
+**Lezárva:** 2026-09-28.  
+**Kanonikus 2025/26-os felosztás:** **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.  
+**Forrás:** a kapcsolt „Oktatási terv 25/26 Hasomer Hacair” dokumentum, amely kifejezetten ezt a három korcsoportot nevezi meg. A korábbi `Zorea 16+` külön csoport a repo történeti maradványa, az aktuális learner-facing tananyagból kivezetendő.
+
+**Implementáció:** a glosszárium, M3 korosztálymodul, az ezekre épülő M6/M7 hivatkozások és a kapcsolódó média-specifikációk ezt a háromcsoportos modellt használják.
 
 ### HUM-SOMER-03 — Hagshama helyi megfogalmazása
 
