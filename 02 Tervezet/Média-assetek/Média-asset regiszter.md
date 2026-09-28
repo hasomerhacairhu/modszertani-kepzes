@@ -610,7 +610,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.F-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Jegyzetlap – 1 gondolat / 1 kérdés leckénként (L1–L4) | — | nyomtatható PDF | vegyes |
 | `M4.F-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | 45 mp-es peulabemutató-vázlat sablon (eszközmentes pótló feladat) | — | nyomtatható PDF | vegyes |
 | `M4.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M4 leckelista + név nélküli témakérések | — | nyomtatható PDF | vegyes |
-| `M4.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – Test / Hang / Kérdések / Pitch (4 buborék) | — | nyomtatható PDF | vegyes |
+| `M4.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – Test / Hang / Kérdések / Peulabemutató (4 buborék) | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md
 
@@ -779,7 +779,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.4-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Szcenárió- és feedback-szekció ikonkészlet (9 szemantikus jelölő) | — | alt-szöveg | AI-generált |
+| `M6.4-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Szcenárió- és visszajelzés-szekció ikonkészlet (9 szemantikus jelölő) | — | alt-szöveg | AI-generált |
 
 ### 02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md
 
@@ -819,7 +819,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.F-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Lecke-összefoglalók M6.1–M6.4 (offline B-terv, 1–1 oldal) | — | nyomtatható PDF | AI-generált |
 | `M6.F-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – 1 A4 (peula előtt/közben/után) | — | nyomtatható PDF | AI-generált |
 | `M6.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M6 leckelista + játéklap + név nélküli témakérések | — | nyomtatható PDF | AI-generált |
-| `M6.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – 5–6 buborék (Toolbox nagy képe) | — | nyomtatható PDF | AI-generált |
+| `M6.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép sablon – 5–6 buborék (az eszköztár nagy képe) | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md
 
