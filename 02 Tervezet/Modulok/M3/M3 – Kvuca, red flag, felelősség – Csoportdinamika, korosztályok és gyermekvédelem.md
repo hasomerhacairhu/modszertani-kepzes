@@ -13,7 +13,7 @@
 
 **Modulcél röviden**
 
-A résztvevő érti a csoportfejlődés (Tuckman) alaplogikáját, fejben tartja a 4 someres kvuca (Parparim, Kivsza, Leviatan, Zorea) fő jellemzőit, és rendelkezik **alap gyermekvédelmi szemlélettel**: felismer **red flag** helyzeteket, tudja, mit ígérhet / mit nem, és tudja, kihez fordul segítségért madrichként.
+A résztvevő érti a csoportfejlődés (Tuckman) alaplogikáját, fejben tartja a 3 aktuális someres kvuca (Parparim 6–9, Kivsza 10–12, Leviatan 13–17) fő jellemzőit, és rendelkezik **alap gyermekvédelmi szemlélettel**: felismer **red flag** helyzeteket, tudja, mit ígérhet / mit nem, és tudja, kihez fordul segítségért madrichként.
 
 > **Hol tartunk? (fázis-híd)** Eddig (M1–M2) magadra néztél: önismeret, visszajelzés, identitás és **dugma ishit**. Innentől (M3–M4) a **kvucára és a kapcsolatra** fordulunk – kikkel és hogyan dolgozol. Az M2-ben tisztázott **határaid** és a „**madrich, nem terapeuta**” szerep most a gyermekvédelmi keretben élesedik ki: a biztonságos felnőtt jelenlét ennek a folytatása.
 
@@ -26,8 +26,8 @@ A modul végére a résztvevő…
 1. **Csoportdinamika-alapozó (Tuckman)**
    * Rövid kvuca-sztorik alapján be tudja azonosítani a Tuckman-szakaszt (forming–storming–norming–performing, + a lezáró **adjourning**) **(M3.1, M3.A)**.
    * Megérti, hogy a **storming nem „hiba”**, hanem a fejlődés része.
-2. **Korosztályi profilok – 4 kvuca, 4 világ**
-   * 1–1 mondatos „miniprofilt” tud mondani a 4 kvucáról: **Parparim, Kivsza, Leviatan, Zorea** **(M3.2)**.
+2. **Korosztályi profilok – 3 kvuca, 3 világ**
+   * 1–1 mondatos „miniprofilt” tud mondani a 3 aktuális kvucáról: **Parparim, Kivsza, Leviatan** **(M3.2)**.
    * Meg tud nevezni kvucánként legalább 2 tényezőt: figyelem & energia, tipikus motivációk, tipikus helyzetek.
 3. **Gyermekvédelem & red flag-ek**
    * Érti, mi a gyermekvédelem lényege: **észrevenni és jelezni**, nem egyedül „megoldani” **(M3.3)**.
@@ -70,15 +70,15 @@ A modul végére a résztvevő…
 
 ***
 
-### M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ (15–20’)
+### M3.2 – „Parparim, Kivsza, Leviatan” – 3 kvuca, 3 világ (15–20’)
 
 * **Cél:**
-  A résztvevő **fejben tartja a 4 kvuca alapprofilját**: milyen világban élnek, mire figyelnek, mi motiválja őket.
+  A résztvevő **fejben tartja a 3 aktuális kvuca alapprofilját**: milyen világban élnek, mire figyelnek, mi motiválja őket.
 * **Fókusz:**
   „Nem ugyanúgy működik minden kvuca – és nekem ehhez kell alkalmazkodnom.”
 * **Eszközök:**
   * H5P Course Presentation (profilok)
-  * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatan, Zorea)
+  * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatan)
   * H5P Matching / Drag & Drop – helyzetek → kvucák
 * **Tartalom röviden:**
   * Kvucánként mini leírás:
@@ -157,7 +157,7 @@ A modul végére a résztvevő…
   2. **5–20’ – Csoportszobrok Tuckmanre:**
      * Kiscsoportok Tuckman-szakaszokra épített „élő szobrokat” készítenek, a többiek tippelnek, melyik szakasz.
   3. **20–35’ – Kvuca-sztori kártyák:**
-     * Kiscsoportok kvuca-sztori kártyákat kapnak (Parparim–Zorea), és párosítják: kvuca-típus + Tuckman-szakasz.
+     * Kiscsoportok kvuca-sztori kártyákat kapnak (Parparim–Leviatan), és párosítják: kvuca-típus + Tuckman-szakasz.
   4. **35–45’ – Megosztás & zárás:**
      * Rövid kör: „Mi az 1 jel, amiből legközelebb felismered, hol tart a kvucád?”
 
@@ -259,7 +259,7 @@ A modul végére a résztvevő…
 
 * **Cél:**
   Támogatott térben segíteni azoknak, akik lemaradtak az online leckékkel (**M3.1–M3.4**), hogy:
-  * értsék a fő fogalmakat (Tuckman, 4 kvuca-profil, gyermekvédelem, red flag),
+  * értsék a fő fogalmakat (Tuckman, 3 aktuális kvuca-profil, gyermekvédelem, red flag),
   * legalább egy leckében érdemben haladjanak,
   * legyen „1 gondolat + 1 kérdés” mindegyik leckéhez.
 * **Kapcsolat az online résszel:**
@@ -271,7 +271,7 @@ A modul végére a résztvevő…
   2. **5–25’ – Csendes online pótlás fülessel:**
      * Mindenki a saját eszközén pótol / újranéz 1–2 leckét.
   3. **25–40’ – Kérdések + fogalom-térkép:**
-     * Közös tábla: Tuckman – 4 kvuca – gyermekvédelem – red flag – madrich szerepe.
+     * Közös tábla: Tuckman – 3 kvuca – gyermekvédelem – red flag – madrich szerepe.
   4. **40–45’ – Átvezetés:**
      * „Mit fogsz még pótolni a héten?” + híd a következő peulákhoz.
 
@@ -292,7 +292,7 @@ A modul végére a résztvevő…
   * Több próbálkozás engedélyezett (elsajátításig tartó tanulás).
   * Ha valaki 2 próbálkozás után sem éri el a küszöböt (≥10/12 + kritikus itemek, ill. a blokkoló rubrikasorok) → mentor értesítése, rövid egyéni beszélgetés (támogatás, nem büntetés).
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyermekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **4 someres kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea) lesz az M7 záró produktumának biztonsági és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyermekvédelem & biztonság, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS).
+> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyermekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **3 aktuális someres kvuca-profil** (Parparim/Kivsza/Leviatan) lesz az M7 záró produktumának biztonsági és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyermekvédelem & biztonság, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS).
 
 ***
 
@@ -316,7 +316,7 @@ A modul végére a résztvevő…
 
 [M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése](./Online%20leckék/M3.1%20–%20Történetek%20egy%20kvucáról%20–%20Tuckman-szakaszok%20felismerése.md)
 
-[M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ](./Online%20leckék/M3.2%20–%20Parparim,%20Kivsza,%20Leviatan,%20Zorea%20–%204%20kvuca,%204%20világ.md)
+[M3.2 – „Parparim, Kivsza, Leviatan” – 3 kvuca, 3 világ](./Online%20leckék/M3.2%20–%20Parparim,%20Kivsza,%20Leviatan,%20Zorea%20–%204%20kvuca,%204%20világ.md)
 
 [M3.3 – „Gyermekvédelem 101” – red flag felismerése & első lépések](./Online%20leckék/M3.3%20–%20Gyermekvédelem%20101%20–%20red%20flag%20felismerése%20&%20első%20lépések.md)
 
