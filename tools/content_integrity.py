@@ -63,6 +63,24 @@ FORBIDDEN_ANYWHERE = {
         'az M2.1 teljes identitástérkép-feltöltése adatminimalizálási regresszió',
 }
 
+# File-scoped regressions found by the 2026-09 release-readiness follow-up.
+# These phrases are narrow on purpose: each one is the exact stale wording that
+# previously contradicted the canonical rule elsewhere in the same curriculum.
+FILE_FORBIDDEN_PHRASES = {
+    '02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md': {
+        'Szervezett, de önkéntes;':
+            'az önkéntesség a Somer sajátja, nem a nonformális tanulás általános definíciós jegye',
+    },
+    '02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md': {
+        'Csoportonként legalább **1 AI-eszköz**.':
+            'az M7 no-AI útja teljes értékű; AI-fiók vagy AI-eszköz nem lehet teljesítési feltétel',
+    },
+    '02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md': {
+        'rugalmasan szervezhető (1:1 vagy 3–4 fős kiscsoport)':
+            'a kiskorú résztvevővel végzett 1:1 beszélgetést HUM-SAFE-02-höz kell kötni',
+    },
+}
+
 # ---------------------------------------------------------------------------
 # ACTIVE-SPEC rules (02 Tervezet, excluding the generated media register).
 #
@@ -285,6 +303,18 @@ def check_active_spec(errors: list[str]) -> None:
                 errors.append(f'SPEC-DRIFT {rel}:{lineno} {z4}')
 
 
+def check_file_scoped_regressions(errors: list[str]) -> None:
+    """Exact stale wordings that are only invalid in their canonical file."""
+    for rel, phrases in FILE_FORBIDDEN_PHRASES.items():
+        path = ROOT / rel
+        if not path.exists():
+            continue
+        text = path.read_text(encoding='utf-8', errors='replace')
+        for phrase, why in phrases.items():
+            if phrase in text:
+                errors.append(f'REGRESSION {rel}: {phrase!r} ({why})')
+
+
 def check_regressions(errors: list[str]) -> None:
     for path in MODULE_ROOT.rglob('*.md'):
         text = path.read_text(encoding='utf-8', errors='replace')
@@ -393,6 +423,7 @@ def main() -> int:
     check_conflict_markers(errors)
     check_terminology(errors)
     check_active_spec(errors)
+    check_file_scoped_regressions(errors)
     check_regressions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []
