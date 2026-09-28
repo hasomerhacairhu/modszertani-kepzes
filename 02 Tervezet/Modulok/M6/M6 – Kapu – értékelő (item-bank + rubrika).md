@@ -53,7 +53,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 | Téma | Honnan (lecke/peula) | Itemek |
 |---|---|---|
-| Korosztály–eszköz illesztés (6–10 / 11–13 / 14–16 / 16+) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
+| Korosztály–eszköz illesztés (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
 | Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4, M6.A | 5, 6, 7 |
 | **Biztonsági in-the-moment reflex** (mikor állsz le / kit jelzel) – R4 „Erős” | M6.A 4.3.2/B, M3 gyermekvédelmi átkötés | **P1** *(pool/csere-item)* |
 | **Inkluzivitást** növelő variáció azonosítása | M6.3, M6.4 | 8, 9, 10 |
@@ -74,7 +74,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 ## 1. ITEM – Eszköz-illesztés: friss, fiatal kvuca
 
 **Szár:**
-> Egy **6–10 éves**, frissen összeállt kvucát kapsz, akik még alig ismerik egymást. A peula eleji célod: **neveket tanuljanak és oldódjon a feszültség**, kb. 20 perced van. Mit választasz **első eszközként**?
+> Egy **6–9 éves Parparim**, frissen összeállt kvucát kapsz, akik még alig ismerik egymást. A peula eleji célod: **neveket tanuljanak és oldódjon a feszültség**, kb. 20 perced van. Mit választasz **első eszközként**?
 
 **Opciók:**
 - A) Labdás névkör – mindenki sorra kerül, kis tét, mozgás. ✅
@@ -84,7 +84,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 **Helyes:** A
 **Distraktor-indok:**
-- B – Hihető, mert a bizalomjáték „összehozó”, DE 6–10-nél a kontakt-/bizalomjáték **kockázatos** (testkép, bizalom még alakul); a lecke szerint inkább a **nagyobbaknak (14–16, 16+)** való, fiatalabbaknál csak nagyon egyszerű, rövid, jól szabályozott verzióban.
+- B – Hihető, mert a bizalomjáték „összehozó”, DE 6–9-nél a kontakt-/bizalomjáték **kockázatos** (testkép, bizalom még alakul); a lecke szerint inkább a **Leviatan-korosztálynak (13–17)** való, fiatalabbaknál csak nagyon egyszerű, rövid, jól szabályozott verzióban.
 - C – Résztvevő tényleges kizárása demonstrációként **nem biztonságos**; a kirekesztést fiktív, nem beazonosítható esettel elemezzük, nem úgy, hogy valakit valóban kívül hagyunk.
 - D – Túl elvont, túl intim egy frissen ismerkedő fiatal kvucának; nem a cél (ismerkedés) szolgálja.
 
@@ -137,10 +137,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
-## 4. ITEM – Eszköz-illesztés: 16+ komolyabb téma, cinizmus-veszély
+## 4. ITEM – Eszköz-illesztés: idősebb Leviatan, komolyabb téma, cinizmus-veszély
 
 **Szár:**
-> **16+ bogrim** kvuca, akik szeretnek vitázni társadalmi témákról, de a beszélgetés gyakran **szarkazmusba/cinizmusba** csúszik. Célod: **gondolkodás elindítása** felelősségről, árnyalatokkal. Mivel indítanál **első lépésként**?
+> **16–17 éves, idősebb Leviatan** kvuca, akik szeretnek vitázni társadalmi témákról, de a beszélgetés gyakran **szarkazmusba/cinizmusba** csúszik. Célod: **gondolkodás elindítása** felelősségről, árnyalatokkal. Mivel indítanál **első lépésként**?
 
 **Opciók:**
 - A) Rögtön egy nagyon mély, konfliktusos szerepjátékkal, hogy „beinduljon az érzelem”.
@@ -150,12 +150,12 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 **Helyes:** B
 **Distraktor-indok:**
-- A – Hihető („erős élmény”), DE rögtön mély, konfliktusos helyzet 16+-nál **védekezést és cinizmust** vált ki; ehhez előbb biztonságos belépő kell.
+- A – Hihető („erős élmény”), DE rögtön mély, konfliktusos helyzet egy idősebb Leviatan-kvucánál **védekezést és cinizmust** vált ki; ehhez előbb biztonságos belépő kell.
 - C – A plakát beszélgetés nélkül „rajzolgatás” marad, nem indít gondolkodást.
 - D – Az energizer nem szolgálja a célt (komoly téma elindítása); legfeljebb hangulatra jó.
 
 **Visszajelzés:**
-> ✅ 16+-nál a felelősség-téma jó belépője az esetleírás/történet több nézőponttal: kívülről ránéznek, nem kell rögtön magukat kiteregetni, és marad tér az árnyalatokra. (M6.4 D-ág)
+> ✅ Az idősebb Leviatanoknál a felelősség-téma jó belépője az esetleírás/történet több nézőponttal: kívülről ránéznek, nem kell rögtön magukat kiteregetni, és marad tér az árnyalatokra. (M6.4 D-ág)
 
 ---
 
@@ -301,7 +301,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 **Opciók:**
 - A) **Téves**, a túl erős, felkavaró történet könnyen lezár, befagyaszt vagy magára hagy valakit; a cél a **biztonságos tér**, nem a „bármi áron mély”. ✅
 - B) Igaz, mert az erős érzelem mindig erős tanulást hoz.
-- C) Igaz, de csak 6–10 éveseknél működik.
+- C) Igaz, de csak 6–9 éveseknél működik.
 - D) Téves, de ha a madrich utána gyorsan témát vált, akkor még menthető a helyzet.
 
 **Helyes:** A
@@ -387,7 +387,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | # | Kritérium | 1 – Még nem | 2 – Oké (minimum átmenő) | 3 – Erős |
 |---|---|---|---|---|
 | **R1** | **Cél-illeszkedés** (mit tanít / mire való) | Nincs cél, vagy csak az eszköz neve szerepel („névkör”) cél nélkül. | A lapon **1 konkrét, kimondott cél** áll, ami az eszközhöz illik (pl. „biztonságosabban ismerkedjenek”, „észrevegyék a kirekesztést”). | A cél konkrét **és** kapcsolódik egy **someres értékhez** (pl. kvuca, egalitás, társadalmi felelősség), 1 mondatban kimondva, miért ezt tanítja. |
-| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–10-re). | Megadva a **korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör 6–10, esetleírás+vita 16+). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
+| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–9-re). | Megadva a **korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör Parparimnál, esetleírás+vita idősebb Leviatannál). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
 | **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrich **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrich kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
 | **R4** | **BIZTONSÁG** *(blokkoló)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop-jelszó”, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
 | **R5** | **INKLUZIVITÁS** *(blokkoló)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 nevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** nevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
@@ -397,7 +397,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 - [ ] **R1** – pontosan **1** kimondott, az eszközhöz illő cél.
-- [ ] **R2** – korosztály-sáv (6–10 / 11–13 / 14–16 / 16+) **+** létszám, és az eszköz–kor páros nem ütközik a tanultakkal.
+- [ ] **R2** – korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) **+** létszám, és az eszköz–kor páros nem ütközik a tanultakkal.
 - [ ] **R3** – legalább **3 lépés** menet **+** időkeret **+** eszközlista.
 - [ ] **R4** *(blokkoló)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
 - [ ] **R5** *(blokkoló)* – legalább **1** nevezett akadály **+ 1** konkrét alternatív belépési pont.
