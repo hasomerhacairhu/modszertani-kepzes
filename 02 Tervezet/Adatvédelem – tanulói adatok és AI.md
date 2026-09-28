@@ -53,7 +53,7 @@ Külön review szükséges legalább:
 - M6 fotó/kézműves dokumentáció, ha egyáltalán szükséges;
 - M7 AI-promptok és Peula v1/v2;
 - Z.2/Z.4 személyes reflexiók és mentor-hozzáférés;
-- Z.4 Feedback.
+- Z.4 Moodle Feedback.
 
 ## 4. Kiskorúak és hozzájárulás
 
