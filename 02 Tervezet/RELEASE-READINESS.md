@@ -50,7 +50,7 @@ A staging buildben:
 
 Egy modul szakmai jóváhagyása lehet moduláris, de a hozzá tartozó globális kapukat nem lehet megkerülni. Például az M1 stagingben teljesen felépíthető, miközben HUM-PRIV-01 még nyitott; valódi madrichnak viszont az M1 Assignment csak a jóváhagyott adatkezeléssel nyitható meg.
 
-A safeguarding-tartalomra külön szabály vonatkozik: M3.3, M3.B és az M3/M7 gyermekvédelmi kapuelemek **éles használatához** HUM-SAFE-01/02 és szakértői jóváhagyás kötelező.
+A safeguarding-tartalomra külön szabály vonatkozik: M3.3, M3.B és az M3/M7 gyermekvédelmi kapuelemek **éles használatához** az adott tartalomhoz közvetlenül szükséges **HUM-SAFE-01/02** döntések és szakértői jóváhagyás kötelező, **de ez nem szűkíti a globális G1-et**: learner-facing release csak akkor lehet, ha a teljes **HUM-SAFE-01–05** csomag lezárt.
 
 ## Legkisebb értelmes staging pilot
 
