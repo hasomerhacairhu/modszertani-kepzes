@@ -369,7 +369,7 @@ A modul végére a madrich…
    >
    > * **M1 – megfigyelés, értelmezés, SBI-visszajelzés:** az M7.A/M7.B műhelyben a társas visszajelzés konkrétumokra épül, nem címkékre. A 11. pontban ugyanez a fegyelem tér vissza: a megtartás után előbb azt rögzíted, mi történt és mit figyeltél meg, csak utána értelmezed a hatást és döntesz a változtatásról.
    > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd.
-   > * **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc): a Zmán Kvucá biztonsági része és a kvuca-illeszkedés a korábban tanult gyermekvédelmi keretre és a someres kvuca-profilra támaszkodik.
+   > * **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan + jelzési lánc): a Zmán Kvucá biztonsági része és a kvuca-illeszkedés a korábban tanult gyermekvédelmi keretre és a someres kvuca-profilra támaszkodik.
    > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, rövid peulabemutató): a Peula 11-pont **élmény- és feldolgozó-blokkja** (5–6. pont) és a **Visszajelzés és finomhangolás** (10. pont) és az élő levezetés erre épül – a feldolgozó kérdéseid és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
    > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők itt élnek tovább.
