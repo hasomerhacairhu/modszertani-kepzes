@@ -195,7 +195,7 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 
 * **Online:** rövid reflektív mikrolecke + visszajelző űrlap a képzésről; opcionálisan videós reflexió.
 * **Offline:** záró peula, megosztások, köszönet, „mit viszek magammal?” kör.
-* **Produktum & kapu:** reflektív írás/videó + „következő lépés”; nincs éles kapu, completion alapú lezárás.
+* **Produktum & kapu:** reflektív írás/videó + „következő lépés” + képzési visszajelző űrlap; nincs éles kapu, a lezárás completion-alapú. A visszajelző űrlapnál nincs helyes válasz és a tartalom nem pontozott, de a kitöltés ténye a Z completion része.
 
 ***
 
