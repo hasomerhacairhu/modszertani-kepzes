@@ -191,7 +191,7 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 2. Z.A záró peula (offline).
 3. Z.4 leadott záró reflexió + benne a következő lépés(ek) (a peula után).
 4. **2. félév – terepgyakorlat:** 6 valódi, 60–90 perces peula, megfigyelés → visszajelzés → reflexió → javítás ciklusban (lásd `Terepgyakorlat – 2. félév.md`). A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes.
-5. (Erősen ajánlott) visszajelző űrlap kitöltése.
+5. Képzési visszajelző űrlap kitöltve. Ez a Z completion része, de **nem vizsga**: nincs helyes válasz és a válasz tartalma nem pontozott; csak a kitöltés ténye számít teljesítésnek.
 
 ***
 
