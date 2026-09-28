@@ -132,9 +132,9 @@ a forrás-hivatkozás és a kiválasztás indoklása:
 |---|---|---|---:|---:|---|---|
 | **P1** | `M3.1-NAR-02` | `0ec386081b2a7fab` | **827** | 125 | 60–75 mp | hosszú magyarázó ív, hangsúly, angol szakszavak, évszám |
 | **P2** | `M6.2-NAR-04` | `72d4bb4dbb80803a` | **438** | 71 | 40–50 mp | visszafogott érzelmi sáv, idézet, `madrich`/`chanich`/`peula` |
-| **P3** | `M3.1-NAR-05` | `22f975437c89e97f` | **268** | 40 | 15–20 mp | mind a négy kvuca-tulajdonnév |
-| | | **hangonként** | **1 533** | 236 | ≈ 2 perc | |
-| | | **hat minta** | **3 066** | 472 | ≈ 4 perc | |
+| **P3** | `M3.1-NAR-05` | `1e11927c2c353b9d` | **271** | 40 | 15–20 mp | mind a három aktuális kvuca-tulajdonnév |
+| | | **hangonként** | **1 536** | 236 | ≈ 2 perc | |
+| | | **hat minta** | **3 072** | 472 | ≈ 4 perc | |
 
 **A mátrix:**
 
@@ -176,7 +176,6 @@ nyúl hozzá.
 | `Parparim` | „parparim” | P3 | idegen hangsúly |
 | `Kivsza` | „kivsza” | P3 | — |
 | `Leviatan` | „leviatan” — **ékezet nélkül** | P3 | **magas** — a „Leviatán” alak tiltott, a modell hajlamos megnyújtani |
-| `Zorea` | „zorea” | P3 | — |
 | `Tuckman` | a pilot rögzíti; utána következetesen | P1 | nincs kánoni előírás |
 | `1977-ben` | „ezerkilencszázhetvenhét-ben”, nem számjegyenként | P1 | számnormalizálás |
 | `forming` / `storming` / `norming` / `performing` / `adjourning`-ot | angol olvasat magyar mondatban, az utolsó magyar toldalékkal | P1 | kódváltás |
