@@ -7,7 +7,7 @@
   "mode": "reuse",
   "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
   "purpose": "Ez a modul központi, kapuzott produktuma (éles teljesítési kapu, §6.2). A sablon vezeti a madrichot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és társak és mentor által áttekinthető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
-  "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (6–10 / 11–13 / 14–16 / 16+) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / consent / trigger / időkeret / felelősségek), (6) Inkluzivitás: legalább 1 nevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
+  "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / consent / trigger / időkeret / felelősségek), (6) Inkluzivitás: legalább 1 nevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
@@ -51,7 +51,7 @@ A modul végére a madrich…
 
 1. **Eszköz–kvuca illesztés**
    * Különbséget tud tenni a főbb **játéktípusok**, történet- és kézműves-eszközök között.
-   * Felismeri, melyik eszköz melyik **korosztályú kvucának** való (6–10, 11–13, 14–16, 16+), és hol túl nagy a kockázat (bonyolultság, fizikai/érzelmi terhelés).
+   * Felismeri, melyik eszköz melyik **korosztályú kvucának** való (Parparim 6–9, Kivsza 10–12, Leviatan 13–17), és hol túl nagy a kockázat (bonyolultság, fizikai/érzelmi terhelés).
      *(Főleg: M6.1, M6.4, M6.A)*
 2. **Biztonság & inkluzivitás**
    * 1 játéklaphoz képes **konkrét biztonsági megjegyzéseket** írni (fizikai biztonság, beleegyezés, felkavaró tartalom kockázata, időkeret, felelősségek).
@@ -82,7 +82,7 @@ A modul végére a madrich…
 * **Eszköz:** H5P Course Presentation (kb. 8 slide, mobil-first).
 * **Mit tanul a madrich?**
   * 3–5 alap játék-kategória (névtanulós, energizer, bizalom- / kontakt-, reflexiós, mélyebb élményjátékok),
-  * melyik kategória **melyik korosztálynak** való (6–10, 11–13, 14–16, 16+),
+  * melyik kategória **melyik korosztálynak** való (6–9, 10–12, 13–17),
   * tipikus kockázatok felismerése (túl hosszú, bonyolult, balesetveszély, kirekesztés).
 * **Kompetenciakapcsolat:** 1. Eszköz–kvuca illesztés, 2. Biztonság & inkluzivitás.
 
@@ -130,7 +130,7 @@ A modul végére a madrich…
 * **Kapcsolódó online leckék:** M6.1, M6.4
 * **Fő cél:**
   * legalább 2 konkrét játék **végigjátszása**,
-  * 4 korosztály-szemüveggel (6–10, 11–13, 14–16, 16+) ránézni ugyanarra a játékra,
+  * 3 aktuális korosztály-szemüveggel (Parparim 6–9, Kivsza 10–12, Leviatan 13–17) ránézni ugyanarra a játékra,
   * közös nyelv: cél – kvuca – kockázat – inkluzivitás / variációk.
 * **Rövid percbontás-vázlat:**
   1. 0–5’ – Ráhangolódás: „Mondj egy játékot, amit szeretsz, és 1 okot, miért.”
@@ -209,7 +209,7 @@ A modul végére a madrich…
 * **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
 * **Rubrika fő sorai** (a mérvadó **5 soros (R1–R5)** rubrika a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) él – itt csak az áttekintés):
   1. **R1 – Cél-illeszkedés** – világos-e, mit tanít / mire való az eszköz; **„erős” szinten 1 mondatban a someres értékhez (kvuca, egalitás, társadalmi felelősség) is kapcsolódik**.
-  2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (6–10 / 11–13 / 14–16 / 16+) + létszámot, és életkorilag védhető-e az eszköz**; **„erős” szinten megnevezi a someres kvuca-típust (Parparim / Kivsza / Leviatan / Zorea) + legalább 1, az M3.2-ben tanult korosztály-jellemzőt (figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) előhívva indokol**.
+  2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) + létszámot, és életkorilag védhető-e az eszköz**; **„erős” szinten megnevezi a someres kvuca-típust (Parparim / Kivsza / Leviatan) + legalább 1, az M3.2-ben tanult korosztály-jellemzőt (figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) előhívva indokol**.
   3. **R3 – Leírás végrehajthatósága** – érthető-e a folyamat, időkeret, lépések, eszközök; **egy másik madrich el tudná-e indítani**.
   4. **R4 – Biztonság** *(**blokkoló feltétel**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyermekvédelem & biztonsági keret M6-os, eszközspecifikus rétege [beleegyezés / fizikai / felkavaró tartalom]; M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyermekvédelem & biztonság** (R4) sorba.)*
   5. **R5 – Inkluzivitás** *(**blokkoló feltétel**)* – van-e legalább 1 nevezett akadály **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz.
