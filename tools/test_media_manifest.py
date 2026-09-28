@@ -150,6 +150,7 @@ AUDIT_2026_09_26_VISIBLE_EDITS = {
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
     "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md",
+    "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md",
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md",
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
     "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a gate.md",
