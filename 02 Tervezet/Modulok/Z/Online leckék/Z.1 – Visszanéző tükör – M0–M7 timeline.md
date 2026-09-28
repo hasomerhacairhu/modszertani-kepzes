@@ -82,7 +82,7 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
   "blockers": [
     "R5"
   ],
-  "notes": "Ezen a dián narráció nincs; a Single Choice kérdés (opciók + barátságos feedback) szöveges interakció, nem média-asset. Párba állítva: Z.1-ILL-01::ALTTEXT.",
+  "notes": "Ezen a dián narráció nincs; a Single Choice kérdés (opciók + barátságos visszajelzés) szöveges interakció, nem média-asset. Párba állítva: Z.1-ILL-01::ALTTEXT.",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-01"
@@ -120,15 +120,15 @@ Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check
 Opciók (legördülő vagy listában):
 
 * M0 – Kickoff, keret, technika
-* M1 – „Vakfolt, tükör, feedback”
+* M1 – „Vakfolt, tükör, visszajelzés”
 * M2 – „Ki vagyok madrichként?”
 * M3 – „Kvuca, red flag, felelősség”
 * M4 – „Hallható és érthető vagyok?”
 * M5 – „Ez most játék vagy tanulás?”
-* M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”
+* M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”
 * M7 – „Peula a papírtól a valóságig”
 
-**Feedback (bármelyikre azonos, barátságos):**
+**Visszajelzés (bármelyikre azonos, barátságos):**
 
 > „Oké 🙂 Ezt jegyezd meg magadnak, mert később visszajövünk hozzá.
 > Nem az a lényeg, mit választottál, hanem az, **hogy már van egy epizód, ami kiemelkedik a többi közü**.”
@@ -237,7 +237,7 @@ Opciók (legördülő vagy listában):
 
 * **M0 – Kickoff, keret, technika**
   → belépés a képzésbe, szabályok, Moodle-belakás
-* **M1 – „Vakfolt, tükör, feedback”**
+* **M1 – „Vakfolt, tükör, visszajelzés”**
   → Johari + SBI, visszajelzés mint tanulási eszköz
 * **M2 – „Ki vagyok madrichként?”**
   → identitás-körök, someres értékek, dugma ishit
@@ -247,7 +247,7 @@ Opciók (legördülő vagy listában):
   → kiállás, metakommunikáció, kérdezéstechnika
 * **M5 – „Ez most játék vagy tanulás?”**
   → nonformális nevelés, tanulástan, cél–kvuca–módszer
-* **M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”**
+* **M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”**
   → konkrét eszköztár, biztonság & inkluzió
 * **M7 – „Peula a papírtól a valóságig”**
   → Peula 11 pont, Zmán Kvucá, AI-támogatás
@@ -284,8 +284,8 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 > **M0 – Kickoff**
 > *„Értem, mi ez a képzés, és be tudok lépni a rendszerbe.”*
 
-> **M1 – Vakfolt & feedback**
-> *„A feedback nem bántás, hanem tükör, és tudok SBI-ben visszajelzést írni.”*
+> **M1 – Vakfolt & visszajelzés**
+> *„A visszajelzés nem bántás, hanem tükör, és tudok SBI-ben visszajelzést írni.”*
 
 > **M2 – Madrich-identitás**
 > *„El tudom mondani, ki vagyok madrichként, és milyen értékeket akarok közvetíteni.”*
@@ -299,7 +299,7 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 > **M5 – Nonformális & tanulástan**
 > *„Tudok cél–kvuca–módszer logikával gondolkodni, és értem, mitől tanul a kvucám.”*
 
-> **M6 – Toolbox & inkluzivitás**
+> **M6 – Eszköztár & inkluzivitás**
 > *„Van pár konkrét játékom / történetem, amit biztonságosan és inkluzívan tudok használni.”*
 
 > **M7 – Peula & Zmán Kvucá**
@@ -311,7 +311,7 @@ Alul 1 gyors Check-kérdés:
 
 H5P **Multi Choice** (pipálhat többet is – nincs jó/rossz, csak reflexió) – „Válaszd ki 1–3 modult a listából”.
 
-Feedback:
+Visszajelzés:
 
 > „Ezekre különösen érdemes figyelned a záró reflexiód írásánál is – valószínűleg ebben érted el a legnagyobb változást.”
 
@@ -334,7 +334,7 @@ Feedback:
 
 Opciók:
 
-* M1 – „Vakfolt, tükör, feedback” ✅
+* M1 – „Vakfolt, tükör, visszajelzés” ✅
 * M3 – „Kvuca, red flag, felelősség”
 * M5 – „Ez most játék vagy tanulás?”
 
@@ -350,7 +350,7 @@ Opciók:
 
 > „Hol foglalkoztunk a **nonformális neveléssel és tanulástannal**?”
 
-* M1 – „Vakfolt, tükör, feedback”
+* M1 – „Vakfolt, tükör, visszajelzés”
 * M5 – „Ez most játék vagy tanulás?” ✅
 * M7 – „Peula a papírtól a valóságig”
 
@@ -358,11 +358,11 @@ Opciók:
 
 > „Melyik modulban írtál **Peula v2-t Zmán Kvucával**?”
 
-* M6 – „Toolbox: játék, történet, kézműves & inkluzivitás”
+* M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”
 * M7 – „Peula a papírtól a valóságig” ✅
 * M0 – Kickoff, keret, technika
 
-**Feedback szövegek:**
+**Visszajelző szövegek:**
 
 * Jónál: „Pontosan 🙂 – ez volt az a modul.”
 * Tévesnél: „Majdnem 🙂 – ebben a modulban inkább \[rövid helyes leírás], a keresett modul a(z) \[helyes válasz].”
