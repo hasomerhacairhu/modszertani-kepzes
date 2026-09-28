@@ -88,7 +88,7 @@ A modul végére a madrich…
   * privát/személyes/szakmai információk szétválasztása;
   * naplókérdések arról, mit oszt meg kivel (kvuca, barát, mentor/szakember);
   * 3 konkrét „határszabály” megfogalmazása, mint példaadás a chanichoknak.
-* **Moodle/H5P mix:** H5P Course Presentation + Moodle Assignment (csak mentor látja a naplót).
+* **Moodle/H5P mix:** H5P Course Presentation + rövid, nem érzékeny szöveges válaszok a `LMS – H5P runtime acceptance.md` 6. pontja szerint. A háromoszlopos személyes naplórész **privát munkalap, nem kerül beadásra**; külön M2.4 Moodle Assignment nincs. A Moodle-be csak viselkedés-/szabályszintű válasz kerül, valódi név vagy érzékeny történet nélkül.
 
 ***
 
@@ -181,14 +181,14 @@ A modul végére a madrich…
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
-> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a slide-ok végigléptetését – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve** (nem üres beküldés); **M2.3 = legalább 1 pillér-ág (döntés-fa) végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.1 / M2.4 = a feltöltött Assignmentben van érdemi szöveg** (identitás-térkép reflexióval, ill. napló a 3 határszabállyal), nem üres fájl.
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diák végigléptetését – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve**; **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórész **nem kerül beadásra és nem tárolódik tanulói produktumként**.
 
 **Követelmény az M2 „complete”-hez:**
 
-1. L1 / M2.1 – a viselkedés-szintű reflexió leadva (az identitás-térkép maga nem beadandó).
+1. L1 / M2.1 – a viselkedésszintű, nem érzékeny reflexió rögzítve (az identitástérkép maga nem beadandó).
 2. L2 / M2.2 – H5P értékválasztás + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
-4. L4 / M2.4 – reflektív napló leadva, benne 3 saját határszabály.
+4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza + 3 saját határszabály; a privát naplórész nem beadandó.
 5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal **– az értékelő-fájl D. szakasz sablonja szerint, a tanuló előbb lefuttatja magán az A. szakasz 10 pontos önellenőrzését.**
 
 **Soft-gate küszöb (az értékelő-fájlból átvéve):**
@@ -215,7 +215,7 @@ A modul végére a madrich…
   * Melyik pillérnél (cionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
   * Hányan írnak ténylegesen példát dugma ishitre (legalább 1–1 mondat pillérenként).
 * **Assignment adatok:**
-  * A viselkedés-reflexió, a reflektív napló és az identitás-jegyzet leadási aránya (a rajz maga nem kerül be).
+  * A nem érzékeny M2.1/M2.4 feladatválaszok teljesítési aránya és az identitás-jegyzet leadási aránya; a személyes identitástérkép és a privát naplórész nem kerül be.
   * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrich-szerephez kötött szabály.
 * **Küszöbök / beavatkozási pontok (példák):**
   * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → M2.F felzárkóztató műhely + extra emlékeztető.
