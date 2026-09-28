@@ -120,7 +120,7 @@ tisztázandó.
 | `M2.3-EGY-01` | other/h5p-interaction | 1 | — | Hook Single Choice poll – "Melyik pillérhez érzed a legerősebb kapcsolatot?" |
 | `M2.3-EGY-02` | other/h5p-interaction | 1 | — | H5P Branching Scenario – 3 pillér döntés-fa (a lecke magja) |
 | `M2.3-EGY-03` | other/h5p-interaction | 1 | — | SLIDE CHECK mini-kvíz – 2× Single Choice (fogalmi rögzítés) |
-| `M3.2-EGY-01` | other/h5p-interaction | 1 | — | Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 4 kvuca-címke) |
+| `M3.2-EGY-01` | other/h5p-interaction | 1 | — | Matching jelenet-feladat (H5P Matching/Drag&Drop, 7 jelenet + 3 kvuca-címke) |
 | `M3.2-EGY-02` | other/h5p-interaction | 1 | — | Húzás-mentes Matching alternatíva (Single Choice Set / legördülős) |
 | `M3.4-EGY-01` | other/h5p-interaction | 1 | — | Single Choice interakció – „Mennyire érzed fontosnak…” (SLIDE 1) |
 | `M3.4-EGY-02` | other/h5p-interaction | 1 | — | Mini True/False interakció – szigorúbb határok (SLIDE 2) |
@@ -144,9 +144,9 @@ tisztázandó.
 | `M6.1-EGY-01` | other/ui-text | 1 | — | AI-provenance ember-olvasható sor (lecke alján/dián) |
 | `M6.1-EGY-02` | other/h5p-interaction | 1 | — | Single Choice – önreflexió: „mi alapján döntesz?” |
 | `M6.1-EGY-03` | other/h5p-interaction | 1 | — | Single Choice – „Névkör labdával” korosztály |
-| `M6.1-EGY-04` | other/h5p-interaction | 1 | — | Single Choice – 11–13 bizalomjáték forma |
+| `M6.1-EGY-04` | other/h5p-interaction | 1 | — | Single Choice – Kivsza (10–12) bizalomjáték forma |
 | `M6.1-EGY-05` | other/h5p-interaction | 1 | — | Szabad szöveges kérdés – kockázat bizalomjátékban |
-| `M6.1-EGY-06` | other/h5p-interaction | 1 | — | Single Choice – 6–10 reflexiós vs. mély |
+| `M6.1-EGY-06` | other/h5p-interaction | 1 | — | Single Choice – Parparim 6–9 reflexiós vs. mély |
 | `M6.1-EGY-07` | other/h5p-interaction | 1 | — | Single Choice – Szitu 1 korosztály-választás |
 | `M6.1-EGY-08` | other/h5p-interaction | 1 | — | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret |
 | `M6.1-EGY-09` | other/h5p-interaction | 1 | — | Single Choice – miért hasznos kategóriákban gondolkodni |
@@ -265,7 +265,7 @@ A 91 tétel soronként a
 | `M2.3-VID-02` | video/ai-talking-head | 4 | R2, R3 | Outro AI beszélő-fej videó (opcionális, INFERÁLT forma) – záró keret + híd M2.4-re |
 | `M2.4-VID-01` | video/ai-talking-head | 4 | R2, R3 | Hook – késő esti krízis-üzenet beszélő fej |
 | `M3.1-VID-01` | video/ai-talking-head | 4 | R2, R3 | HOOK beszélő fej – három kvuca-sztori |
-| `M3.2-VID-01` | video/ai-talking-head | 4 | R2, R3 | Hook beszélő fej – 4 kvuca, 4 hangulat |
+| `M3.2-VID-01` | video/ai-talking-head | 4 | R2, R3 | Hook beszélő fej – 3 kvuca, 3 hangulat |
 | `M3.3-VID-01` | video/ai-talking-head | 4 | R2, R3 | Hook beszélő fej – „Mit ígérhetek egy chanichnak?” |
 | `M3.4-VID-01` | video/ai-talking-head | 4 | R2, R3 | Hook beszélő fej – „Meddig mehetek el madrichként?” |
 | `M4.1-FOTO-01` | photo | 2 | R2, R5 | Képpár 1 freeze-frame – karba tett kéz vs. nyitott kéz |
