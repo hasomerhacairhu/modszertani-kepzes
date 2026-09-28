@@ -169,19 +169,19 @@ A modul végére a résztvevő…
 {
   "id": "M3-HUB-POSZ-01",
   "kind": "poster",
-  "mode": "human-decision",
-  "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
-  "purpose": "A gyermekvédelmi első-lépés-logika vizuális rögzítése és közös megalkotása; a red flag → jelzés → bevonás folyamat megjegyezhető térképe.",
-  "spec": "Közös fali plakát/poszter a felelős madrich-lépéssorral: észreveszem → jelzek → nem maradok egyedül → kit vonok be. Előnyomott sablon-poszter üres, kitölthető mezőkkel, amit a csoport közösen tölt fel a peula során (lépés-térkép).",
+  "mode": "reuse",
+  "reuse_of": "M3.B-MUNK-01",
+  "title": "Gyermekvédelmi ötlépéses lépés-térkép poszter",
+  "purpose": "Az M3.B kanonikus ötlépéses safeguarding-folyamatának megjelenítése a modulhubon, külön párhuzamos folyamat létrehozása nélkül.",
+  "spec": "Az M3.B-MUNK-01 ötlépéses sablonjának újrahasznosítása: 1) észreveszem / gyanús; 2) röviden, biztonságosan meghallgatom, nem ígérek teljes titoktartást; 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti jóváhagyott jelzési utat; 4) a felelős felnőttel együtt döntünk a további lépésről; 5) utánkövetés.",
   "provenance": "mixed",
-  "provenance_note": "vegyes (sablon-grafika AI/ember; tartalmat részben a csoport tölti ki élőben)",
+  "provenance_note": "Az M3.B-MUNK-01 kanonikus sablonjának újrahasznosítása; nincs külön hub-poszter-tartalom.",
   "technical": {
-    "note": "Nagyméretű nyomtatott vagy flipchart-poszter (A1/A2), magyar nyelv, nyilakkal tagolt 4 lépéses folyamatábra, kitölthető mezőkkel."
+    "note": "Az M3.B-MUNK-01 meglévő A1/A2 vagy flipchart-megjelenését használd; ne gyárts külön négylépéses változatot."
   },
   "a11y": {
-    "note": "Magas kontraszt a teremből olvashatósághoz; a 4 lépéses folyamatábráról szöveges alt-szöveg/leirat a digitális kísérőanyagban (a folyamat lineáris szöveges felsorolásként is meglegyen)."
+    "note": "A kanonikus ötlépéses folyamat lineáris szöveges felsorolásként is jelenjen meg a digitális kísérőanyagban."
   },
-  "decision": "GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 visszajelzéseiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5.",
   "production_rules": [
     "R1",
     "R5"
@@ -189,13 +189,12 @@ A modul végére a résztvevő…
   "blockers": [
     "R5"
   ],
-  "notes": "Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
+  "notes": "A korábbi négylépéses hub-változatot a 2026-09-28-i audit megszüntette; az egyetlen kanonikus vizuális folyamat az M3.B-MUNK-01.",
   "legacy": {
     "asset": [
       "M3.B-POSZ-01"
     ]
   }
-}
 -->
 
 <!-- @asset
