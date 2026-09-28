@@ -223,36 +223,21 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 
 ## D5 — M3 gyermekvédelmi lépés-térkép poszter (`M3-HUB-POSZ-01`)
 
-**Kérdés:** a modul-áttekintőben leírt poszter ugyanaz az anyag-e, mint a peula ötlépéses
-lépés-térkép sablonja (`M3.B-MUNK-01`)?
+**Állapot: LEZÁRVA — 2026-09-28.**
 
-**Miért biztonságkritikus:** a peula sablonjának **2. csomópontja** a nem alkudható
-instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”.
-A hub összefoglalója négy lépést sorol (észreveszem → jelzek → nem maradok egyedül → kit
-vonok be), amiből ez a lépés és az utánkövetés hiányzik. A titoktartás-tilalom a
-tananyagban **blokkoló** követelmény: szerepel a modul kompetenciasorában (§2), a hub
-operatív szabályában, az M3.3 és M3.4 visszajelzéseiben, a peula négy pontján, és a
-KAPU-rubrika **blokkoló R2 (titoktartás)** sorában.
+A modul-áttekintő és az M3.B **ugyanazt az egyetlen, ötlépéses safeguarding-folyamatot** használja. A hub-poszter nem külön négylépéses anyag, hanem a már meglévő `M3.B-MUNK-01` megjelenése:
 
-**A) Egy anyag.** A hub posztere a peula ötcsomópontos sablonjának megjelenése →
-`mode: reuse`, `reuse_of: M3.B-MUNK-01`, és a hub összefoglaló mondatát hozzá kell
-igazítani.
-**B) Két külön anyag.** Marad a négylépéses poszter is — ekkor le kell írni, milyen
-gyermekvédelmi tartalommal áll meg a rövidebb változat a titoktartás-lépés nélkül.
+- `mode: reuse`
+- `reuse_of: M3.B-MUNK-01`
 
-**Ajánlás: A**, de ez **nem** hajtható végre jóváhagyás nélkül: a hub látható
-gyermekvédelmi mondatának átírása szakpolitikai döntés. Az A melletti tárgyi érv: az
-ötcsomópontos sablon már létezik, teljes, és minden kötelező elemet tartalmaz. A „nem
-ígérek 100% titoktartást” követelmény egyik változatban sem gyengülhet.
+**Kanonikus öt csomópont:**
+1. Észreveszem / gyanús.
+2. Meghallgatom röviden, biztonságosan, és nem ígérek teljes titoktartást.
+3. Nem maradok egyedül, követem a `HUM-SAFE-01` szerint jóváhagyott helyi jelzési utat.
+4. A felelős felnőttel együtt döntünk a további lépésekről.
+5. Utánkövetés.
 
-**Mit szabadít fel:** 1 asset / 1 deliverable. A tét nem a darabszám, hanem hogy ne
-készüljön olyan fali poszter, amiről lemarad egy kötelező gyermekvédelmi lépés.
-
-**Ki dönt:** a `Gyermekvédelem – release gate.md` dokumentumban névvel jóváhagyott
-gyermekvédelmi felelős.
-
-**A válasz helye:** kanonikus lépés-térkép csomópontszáma és a hub mondatának sorsa:
-⟬KITÖLTENDŐ⟭
+Ez megszünteti azt a korábbi hibát, hogy a négylépéses hub-összefoglalóból kimaradt a titoktartás határa és az utánkövetés. Nem keletkezik második safeguarding-poszter vagy párhuzamos folyamat.
 
 ---
 
