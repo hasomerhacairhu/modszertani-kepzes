@@ -21,27 +21,26 @@
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 124 |
 | Szemantikus asset | **417** |
-| Produkciós deliverable | **903** |
+| Produkciós deliverable | **902** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
 | legyártandó | 403 |
-| újrahasznosítás | 7 |
+| újrahasznosítás | 8 |
 | külső forrás | 6 |
-| emberi döntés kell | 1 |
 
 **Asset-típus szerint**
 
 | Típus | Db |
 |---|--:|
 | voiceover | 90 |
-| worksheet | 63 |
+| worksheet | 64 |
 | illustration | 47 |
 | icon-set | 42 |
 | diagram | 39 |
-| poster | 39 |
+| poster | 38 |
 | other | 34 |
 | video | 27 |
 | card-set | 25 |
@@ -52,7 +51,7 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 410 |
+| elsődleges | 409 |
 | alt-szöveg | 124 |
 | nyomtatható PDF | 122 |
 | leirat | 113 |
@@ -78,10 +77,10 @@
 
 | Státusz | Db |
 |---|--:|
-| produkciós szabályra vár | 339 |
+| produkciós szabályra vár | 340 |
 | specifikáció kész | 45 |
 | jogtisztázás alatt | 30 |
-| emberi döntésre vár | 3 |
+| emberi döntésre vár | 2 |
 
 **Nyitott produkciós blokkolók (hivatkozások szerint)**
 
@@ -390,7 +389,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M3-HUB-POSZ-01` | poster | emberi döntés kell | emberi döntésre vár | Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás) | — | — | vegyes |
+| `M3-HUB-POSZ-01` | worksheet | újrahasznosítás | produkciós szabályra vár | Gyermekvédelmi ötlépéses lépés-térkép sablon – hub reuse | — | — | vegyes |
 | `M3-HUB-POSZ-02` | poster | legyártandó | produkciós szabályra vár | A/B sarok jelölőtáblák („Red flag” / „Nem red flag”) | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md
@@ -1011,7 +1010,6 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Akadály | Státusz |
 |---|---|---|---|
-| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | nyitott emberi döntés | emberi döntésre vár |
 | `M3.4-DIA-01` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | nyitott emberi döntés | emberi döntésre vár |
 | `M3.4-EGY-03` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | nyitott emberi döntés | emberi döntésre vár |
 
@@ -1019,7 +1017,6 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M3-HUB-POSZ-01` | 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md | GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 visszajelzéseiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5. |
 | `M3.4-DIA-01` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős. |
 | `M3.4-EGY-03` | 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md | A 3C („Dohány & alkohol – ken vs. magánélet”) tartalom a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és dohányzási szabályzatától függ. A lecke maga mondja ki: „Ennek hiányában ez a tartalmi rész nem élesíthető.” A kódex a kánoni `Emberi jóváhagyás szükséges.md` szerint nyitott szervezeti tétel. Amíg nincs meg, ez az asset nem véglegesíthető — a többi témablokk (3A, 3B) tartalma kész. Dönt: a ken vezetése / a képzésért felelős. |
 

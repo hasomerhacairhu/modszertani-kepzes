@@ -8,21 +8,20 @@
     "files_with_sources": 27,
     "sources": 124,
     "assets": 417,
-    "deliverables": 903,
+    "deliverables": 902,
     "source_backed_assets": 128,
     "by_mode": {
       "generate": 403,
-      "reuse": 7,
-      "external": 6,
-      "human-decision": 1
+      "reuse": 8,
+      "external": 6
     },
     "by_kind": {
       "voiceover": 90,
-      "worksheet": 63,
+      "worksheet": 64,
       "illustration": 47,
       "icon-set": 42,
       "diagram": 39,
-      "poster": 39,
+      "poster": 38,
       "other": 34,
       "video": 27,
       "card-set": 25,
@@ -52,13 +51,13 @@
       "stock": 6
     },
     "by_status": {
-      "pending-production-rule": 339,
+      "pending-production-rule": 340,
       "spec-ready": 45,
       "pending-rights": 30,
-      "pending-human-decision": 3
+      "pending-human-decision": 2
     },
     "deliverables_by_role": {
-      "primary": 410,
+      "primary": 409,
       "alt-text": 124,
       "print-pdf": 122,
       "transcript": 113,
@@ -12372,24 +12371,24 @@
       "file_kind": "hub",
       "file": "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md",
       "line": 168,
-      "kind": "poster",
+      "kind": "worksheet",
       "subtype": "",
-      "mode": "human-decision",
-      "status": "pending-human-decision",
-      "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
-      "purpose": "A gyermekvédelmi első-lépés-logika vizuális rögzítése és közös megalkotása; a red flag → jelzés → bevonás folyamat megjegyezhető térképe.",
-      "spec": "Közös fali plakát/poszter a felelős madrich-lépéssorral: észreveszem → jelzek → nem maradok egyedül → kit vonok be. Előnyomott sablon-poszter üres, kitölthető mezőkkel, amit a csoport közösen tölt fel a peula során (lépés-térkép).",
+      "mode": "reuse",
+      "status": "pending-production-rule",
+      "title": "Gyermekvédelmi ötlépéses lépés-térkép sablon – hub reuse",
+      "purpose": "Az M3.B kanonikus ötlépéses safeguarding-folyamatának megjelenítése a modulhubon, külön párhuzamos folyamat létrehozása nélkül.",
+      "spec": "Az M3.B-MUNK-01 ötlépéses sablonjának újrahasznosítása: 1) észreveszem / gyanús; 2) röviden, biztonságosan meghallgatom, nem ígérek teljes titoktartást; 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti jóváhagyott jelzési utat; 4) a felelős felnőttel együtt döntünk a további lépésről; 5) utánkövetés.",
       "provenance": "mixed",
-      "provenance_note": "vegyes (sablon-grafika AI/ember; tartalmat részben a csoport tölti ki élőben)",
+      "provenance_note": "Az M3.B-MUNK-01 kanonikus sablonjának újrahasznosítása; nincs külön hub-poszter-tartalom.",
       "technical": {
-        "note": "Nagyméretű nyomtatott vagy flipchart-poszter (A1/A2), magyar nyelv, nyilakkal tagolt 4 lépéses folyamatábra, kitölthető mezőkkel."
+        "note": "Az M3.B-MUNK-01 meglévő A1/A4-mester / flipchart-megjelenését használd a hubban is; ne gyárts külön hub-verziót."
       },
       "a11y": {
-        "note": "Magas kontraszt a teremből olvashatósághoz; a 4 lépéses folyamatábráról szöveges alt-szöveg/leirat a digitális kísérőanyagban (a folyamat lineáris szöveges felsorolásként is meglegyen)."
+        "note": "A kanonikus ötlépéses folyamat lineáris szöveges felsorolásként is jelenjen meg a digitális kísérőanyagban."
       },
       "derivatives": [],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
+      "reuse_of": "M3.B-MUNK-01",
+      "reuse_resolves_to": "M3.B-MUNK-01",
       "external": {},
       "blockers": [
         "R5"
@@ -12398,11 +12397,9 @@
         "R1",
         "R5"
       ],
-      "readiness_issues": [
-        "OPEN_DECISION"
-      ],
-      "decision": "GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 visszajelzéseiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5.",
-      "notes": "Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
+      "readiness_issues": [],
+      "decision": "",
+      "notes": "A korábbi négylépéses hub-változatot a 2026-09-28-i audit megszüntette; az egyetlen kanonikus vizuális folyamat az M3.B-MUNK-01.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -12414,10 +12411,8 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "833f579fde338d2690b5ecb0fbdbd8b119350a7d3663f49b11bdcb0d8f8213b1",
-      "deliverable_ids": [
-        "M3-HUB-POSZ-01"
-      ],
+      "spec_hash": "76b3fbdb39084f11fde077a370a499d4f811a6e1b8a9d1949b2645afaabf4b2b",
+      "deliverable_ids": [],
       "legacy": {
         "asset": [
           "M3.B-POSZ-01"
@@ -37362,31 +37357,6 @@
         "R5"
       ],
       "readiness_issues": []
-    },
-    {
-      "id": "M3-HUB-POSZ-01",
-      "asset_id": "M3-HUB-POSZ-01",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "poster",
-      "subtype": "",
-      "unit": "M3-HUB",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md",
-      "file_kind": "hub",
-      "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
-      "mode": "human-decision",
-      "status": "pending-human-decision",
-      "provenance": "mixed",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [
-        "R5"
-      ],
-      "readiness_issues": [
-        "OPEN_DECISION"
-      ]
     },
     {
       "id": "M3-HUB-POSZ-02",
