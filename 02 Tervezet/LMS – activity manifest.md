@@ -54,8 +54,8 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M4-01 | BUILD_OUTPUT | M4 | M4.1 – Mit üzen a testem? | H5P-C | igen | M4/Online leckék/M4.1 | **M3 complete** | forrás szerinti 2 reflexióval | nincs | M4_L1 | |
 | LMS-M4-02 | BUILD_OUTPUT | M4 | M4.2 – Aktív hallgatás | H5P-C | igen | M4/Online leckék/M4.2 | LMS-M4-01 | forrás szerinti saját mondattal | nincs | M4_L2 | |
 | LMS-M4-03 | BUILD_OUTPUT | M4 | M4.3 – Kérdezési minták | H5P-C | igen | M4/Online leckék/M4.3 | **M4.A után** | mini-kvíz + reflexió | diagnosztikus | M4_L3 | |
-| LMS-M4-04 | BUILD_OUTPUT | M4 | M4.4 – 45 mp-es peula-pitch | H5P-C | igen | M4/Online leckék/M4.4 | LMS-M4-03 | H5P befejezve | nincs | M4_L4 | |
-| LMS-M4-05 | BUILD_OUTPUT | M4 | M4.4 – Peula-pitch váz | ASSIGN-S | igen | M4.4 + M4 hub §6 | **M4.B után** | 5 sablonelem azonosítható | puha kapu; hiányosnál mentor + újrabeadás | M4_ASSIGN | társas visszajelzés a leadás előtt |
+| LMS-M4-04 | BUILD_OUTPUT | M4 | M4.4 – 45 mp-es peulabemutató | H5P-C | igen | M4/Online leckék/M4.4 | LMS-M4-03 | H5P befejezve | nincs | M4_L4 | |
+| LMS-M4-05 | BUILD_OUTPUT | M4 | M4.4 – Peulabemutató-vázlat | ASSIGN-S | igen | M4.4 + M4 hub §6 | **M4.B után** | 5 sablonelem azonosítható | puha kapu; hiányosnál mentor + újrabeadás | M4_ASSIGN | társas visszajelzés a leadás előtt |
 | LMS-M5-01 | BUILD_OUTPUT | M5 | M5.1 – Mi a nonformális nevelés? | H5P-C | igen | M5/Online leckék/M5.1 | **M4 complete** | profil | nincs | M5_L1 | |
 | LMS-M5-02 | BUILD_OUTPUT | M5 | M5.2 – Feladat → cél → kvuca → módszer | H5P-C | igen | M5/Online leckék/M5.2 | LMS-M5-01 | profil | nincs | M5_L2 | |
 | LMS-M5-03 | BUILD_OUTPUT | M5 | M5.3 – Hogyan tanulunk tényleg? | H5P-C | igen | M5/Online leckék/M5.3 | **M5.A után** | profil | nincs | M5_L3 | Dialog Cards runtime teszt |
@@ -74,7 +74,7 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M7-04 | BUILD_OUTPUT | M7 | M7.4 – Peula v1 + AI | H5P-C | igen | M7/Online leckék/M7.4 | **M7.A után** | profil | nincs | M7_L4 | |
 | LMS-M7-05 | BUILD_OUTPUT | M7 | Peula v1 – első vázlat | ASSIGN-S | igen | M7.4 | LMS-M7-04 | érdemi v1 leadva | formatív, nem buktat | **M7_V1_DUE** | v2-vel nem lehet azonos napon |
 | LMS-M7-06 | BUILD_OUTPUT | M7 | Peula v2 + Zmán Kvucá | ASSIGN-M | igen | M7 KAPU | **LMS-M7-05 → M7.B → külön revíziós szakasz** | leadva + megerősített rubrika | **≥17/24 ÉS R1/R5/R6 ≥2 ÉS R4 ≥2** | **M7_V2_DUE** | 1 sor AI-használat vagy „nem használtam”; nem pontozott |
-| LMS-M7-07 | BUILD_OUTPUT | M7 | M7 – Záró mastery-kvíz | QUIZ-M | igen | M7 KAPU | LMS-M7-06 | attempt + megerősített eredmény | **≥12/14 ÉS Q13 helyes** | M7_QUIZ | 2–3 próbálkozás |
+| LMS-M7-07 | BUILD_OUTPUT | M7 | M7 – Záró teljesítési kvíz | QUIZ-M | igen | M7 KAPU | LMS-M7-06 | attempt + megerősített eredmény | **≥12/14 ÉS Q13 helyes** | M7_QUIZ | 2–3 próbálkozás |
 | LMS-Z-01 | BUILD_OUTPUT | Z | Z.1 – Visszanéző tükör | H5P-C | igen | Z/Online leckék/Z.1 | **M7 complete** | profil | nincs | Z_L1 | |
 | LMS-Z-02 | BUILD_OUTPUT | Z | Z.2 – Saját tanulási pillanataim | H5P-C | igen | Z/Online leckék/Z.2 | LMS-Z-01 | profil | nincs | Z_L2 | személyes részlet nem kötelező |
 | LMS-Z-03 | BUILD_OUTPUT | Z | Z.3 – Híd a terepre | H5P-C | igen | Z/Online leckék/Z.3 | LMS-Z-02 | profil | nincs | Z_L3 | |
@@ -91,11 +91,11 @@ Az offline esemény **nem Moodle-activity**, ezért nem kap fiktív `cmid`-t. A 
 | **M1.A / M1.B** | M1.1–M1.2 → **M1.A** → M1.3–M1.4 + beadó → **M1.B** |
 | **M2.A / M2.B** | M2.1–M2.2 → **M2.A** → M2.4 → M2.3 → **M2.B** → identitás-jegyzet |
 | **M3.A / M3.B** | M3.1–M3.2 → **M3.A** → M3.3–M3.4 → **M3.B** → produktum + kapukvíz |
-| **M4.A / M4.B** | M4.1–M4.2 → **M4.A** → M4.3–M4.4 → **M4.B** → végleges pitch-beadó |
+| **M4.A / M4.B** | M4.1–M4.2 → **M4.A** → M4.3–M4.4 → **M4.B** → végleges peulabemutató-beadó |
 | **M5.A / M5.B** | M5.1–M5.2 → **M5.A** → M5.3–M5.4 → **M5.B** → produktum + diagnosztikus kvíz |
 | **M6.A / M6.B** | M6.1–M6.2 → **M6.A** → M6.3–M6.4 → **M6.B** → játéklap + diagnosztikus kvíz |
-| **M7.A / M7.B** | M7.1–M7.4 → **M7.A** → **v1** → **M7.B** → külön revízió → **v2** → mastery-kvíz |
-| **Z.A** | Z.1–Z.3 → **Z.A** → Z.4 reflexió + Feedback |
+| **M7.A / M7.B** | M7.1–M7.4 → **M7.A** → **v1** → **M7.B** → külön revízió → **v2** → teljesítési kvíz |
+| **Z.A** | Z.1–Z.3 → **Z.A** → Z.4 reflexió + Moodle Feedback |
 
 A `.F` Study Labek támogatási utak. Nem kapuznak és nem lehetnek az egyetlen hozzáférési fallbackek.
 
@@ -107,11 +107,11 @@ A `.F` Study Labek támogatási utak. Nem kapuznak és nem lehetnek az egyetlen 
 | M1 | H5P-k + LMS-M1-05 mastery | M2 nyitható |
 | M2 | H5P-k + érdemi identitás-jegyzet | M3 nyitható |
 | M3 | H5P-k + LMS-M3-05 mastery + LMS-M3-06 mastery | M4 nyitható |
-| M4 | H5P-k + érdemi pitch | M5 nyitható |
+| M4 | H5P-k + érdemi peulabemutató | M5 nyitható |
 | M5 | H5P-k + LMS-M5-05 mastery + diagnosztikus kvíz kitöltve | M6 nyitható |
 | M6 | H5P-k + LMS-M6-05 mastery + diagnosztikus kvíz kitöltve | M7 nyitható |
 | M7 | H5P-k + v1 folyamat + LMS-M7-06 mastery + LMS-M7-07 mastery | Z nyitható |
-| Z | Z.1–Z.4 + Feedback | online félév complete; terepgyakorlat külön folytatás |
+| Z | Z.1–Z.4 + Moodle Feedback | online félév teljesítve; terepgyakorlat külön folytatás |
 
 **Fontos:** M1, M3, M6 és M7 összetett kapuinál a nyers pontszám önmagában nem nyithat downstream tartalmat. Ha Moodle-ban az összetett feltétel nem kódolható bizonyítottan, egy `GATE_CONFIRMED_<module>` kézi/stáb-checkpointot kell létrehozni és a downstream restrict access ehhez kötni.
 
