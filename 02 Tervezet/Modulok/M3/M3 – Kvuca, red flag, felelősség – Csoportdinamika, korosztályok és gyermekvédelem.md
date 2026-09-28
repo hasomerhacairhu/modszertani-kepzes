@@ -168,16 +168,16 @@ A modul végére a résztvevő…
 <!-- @asset
 {
   "id": "M3-HUB-POSZ-01",
-  "kind": "poster",
+  "kind": "worksheet",
   "mode": "reuse",
   "reuse_of": "M3.B-MUNK-01",
-  "title": "Gyermekvédelmi ötlépéses lépés-térkép poszter",
+  "title": "Gyermekvédelmi ötlépéses lépés-térkép sablon – hub reuse",
   "purpose": "Az M3.B kanonikus ötlépéses safeguarding-folyamatának megjelenítése a modulhubon, külön párhuzamos folyamat létrehozása nélkül.",
   "spec": "Az M3.B-MUNK-01 ötlépéses sablonjának újrahasznosítása: 1) észreveszem / gyanús; 2) röviden, biztonságosan meghallgatom, nem ígérek teljes titoktartást; 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti jóváhagyott jelzési utat; 4) a felelős felnőttel együtt döntünk a további lépésről; 5) utánkövetés.",
   "provenance": "mixed",
   "provenance_note": "Az M3.B-MUNK-01 kanonikus sablonjának újrahasznosítása; nincs külön hub-poszter-tartalom.",
   "technical": {
-    "note": "Az M3.B-MUNK-01 meglévő A1/A2 vagy flipchart-megjelenését használd; ne gyárts külön négylépéses változatot."
+    "note": "Az M3.B-MUNK-01 meglévő A1/A4-mester / flipchart-megjelenését használd a hubban is; ne gyárts külön hub-verziót."
   },
   "a11y": {
     "note": "A kanonikus ötlépéses folyamat lineáris szöveges felsorolásként is jelenjen meg a digitális kísérőanyagban."
