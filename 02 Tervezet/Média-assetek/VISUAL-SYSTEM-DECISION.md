@@ -78,7 +78,7 @@ A tananyag **mit** jelöl színnel, az rögzített. Az, hogy **melyik hex**, nem
 | **Kérdéstípusok** | nyitott / zárt / tisztázó / irányító | zöld / kék / sárga / piros | `M4.3-IKO-01`, `M4.3-DIA-01` |
 | **Do / Don't** | helyes / kerülendő | zöld / piros | `M3.4-DIA-01`, `M3-HUB-POSZ-02` |
 | **M6.4 szekció-ikonok** | 9 szemantikus jelölő | egységes lapos stílus, transzparens, min. 64×64 px | `M6.4-IKO-01` |
-| **4 kvuca piktogram** | Parparim / Kivsza / Leviatan / Zorea | 🦋 🐑 🐋 🌱 | `M7.4-IKO-01`, `M3.2-IKO-01` |
+| **3 kvuca piktogram** | Parparim / Kivsza / Leviatan | 🦋 🐑 🐋 | `M7.4-IKO-01`, `M3.2-IKO-01` |
 
 > ⚠️ **Az R6 ütközése itt él.** A „kék” egyszerre SBI-S, cionizmus-pillér és „zárt
 > kérdés”; a „zöld” egyszerre SBI-B, humanista zsidóság, „nyitott kérdés” és „DO”. Az R6
