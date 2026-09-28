@@ -32,7 +32,7 @@ végrehajtható összehasonlítás — beállítások, kiejtési figyelőlista, 
 |---|---|---|---:|---|---|
 | **P1** | `M3.1-NAR-02` | `M3.1-NAR-02-VO` | 125 | 60–75 mp | hosszú magyarázó ív, hangsúlykezelés, angol szakszavak magyar mondatban |
 | **P2** | `M6.2-NAR-04` | `M6.2-NAR-04-VO` | 71 | 40–50 mp | visszafogott érzelmi sáv, párbeszéd-idézet, mozgalmi köznevek |
-| **P3** | `M3.1-NAR-05` | `M3.1-NAR-05-VO` | 40 | 15–20 mp | kiejtés — mind a négy kvuca-tulajdonnév egyetlen mondatban |
+| **P3** | `M3.1-NAR-05` | `M3.1-NAR-05-VO` | 40 | 15–20 mp | kiejtés — mind a három aktuális kvuca-tulajdonnév egyetlen mondatban |
 
 Együtt kb. **236 szó ≈ 2 perc** kész hang. Ennyi elég a döntéshez, és nem terheli meg a
 próba-keretet.
@@ -46,14 +46,14 @@ próba-keretet.
 | `madrich`, `madrichhoz` (szóvégi torokhang) | P2 |
 | `chanich` (szóeleji **és** szóvégi torokhang) | P2 |
 | `peula` | P2 |
-| `Parparim`, `Kivsza`, `Leviatan`, `Zorea` | P3 |
+| `Parparim`, `Kivsza`, `Leviatan` | P3 |
 | `Tuckman` (szerzőnév, kiejtés rögzítendő) | P1 |
 | évszám felmondása (`1977`) | P1 |
 
 **Amit a három szkript NEM fed le** — ezeket a köteg-jóváhagyáskor külön kell
 ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma ishit`, `hagshama`, `bogrim`,
 `mazkirut`, `Hasomer Hacair`, `Johari`, `SBI` betűzés, korosztály-tartományok
-(`6–10`, `16+`), időtartamok (`45’`, `45 mp`).
+(`6–9`, `13–17`), időtartamok (`45’`, `45 mp`).
 
 ---
 
@@ -191,7 +191,7 @@ regiszter enyhén vált, a hangszín nem.
 
 - **Asset:** `M3.1-NAR-05` — *Outro narráció – átvezetés M3.2-re*
 - **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-05-VO` (deklaráció: 808. sor, törzs: 809–815. sor)
-- **Forrás-hash:** `22f975437c89e97f`
+- **Forrás-hash:** `1e11927c2c353b9d`
 - **Lecke-időkeret:** 15–20 mp · **40 szó** → 120–160 szó/perc
 
 > ⚠️ **Mért eltérés, nem hiba a szkriptben.** A céltempón (110 szó/perc) ez a szöveg
@@ -204,8 +204,7 @@ regiszter enyhén vált, a hangszín nem.
 
 ### Miért ez a reprezentatív kiejtési szkript
 
-- A tananyag **legsűrűbb someres kiejtési tesztje**: 40 szóban **hét** különböző
-  kockázatos elem, köztük **mind a négy kvuca-tulajdonnév egyetlen felsorolásban**.
+- A tananyag **legsűrűbb someres kiejtési tesztje**: 40 szóban több kiejtés-érzékeny elem, köztük **mind a három aktuális kvuca-tulajdonnév egyetlen felsorolásban**.
 - A `Leviatan` a legmagasabb kockázatú szó a teljes korpuszban: a glosszárium
   **kifejezetten tiltja** a „Leviatán” alakot, egy magyar TTS pedig automatikusan
   ékezetesíti. Ha egy hang ezt elrontja, az minden `Leviatan`-előfordulásnál látszani
@@ -218,11 +217,11 @@ regiszter enyhén vált, a hangszín nem.
 
 > „Köszi, hogy végigmentél ezen a leckén.
 > Most már van egy térképed arról, hogyan fejlődik egy kvuca.
-> A következő részben belenagyítunk a négy someres kvucába:
-> Parparim, Kivsza, Leviatan és Zorea –
+> A következő részben belenagyítunk a három aktuális someres kvucába:
+> Parparim, Kivsza és Leviatan –
 > hogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”
 
-*A kánoni példány a leckében áll; ez a másolat a `22f975437c89e97f` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
+*A kánoni példány a leckében áll; ez a másolat az `1e11927c2c353b9d` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
 
 ### Kiejtés-érzékeny elemek
 
@@ -231,7 +230,6 @@ regiszter enyhén vált, a hangszín nem.
 | `Parparim` | „parparim” | glosszárium |
 | `Kivsza` | „kivsza” | glosszárium |
 | `Leviatan` | „leviatan” — **ékezet nélkül**, a „Leviatán” alak tiltott | glosszárium (kifejezett tiltás) |
-| `Zorea` | „zorea” | glosszárium |
 | `kvuca`, `kvucába` | c = /ts/; a toldalékolt tőben hosszú á | glosszárium |
 | `someres` | s = /ʃ/ | glosszárium |
 | `és` a felsorolás végén, `–` gondolatjel | a gondolatjel szünet, nem felmondandó | hang-bible 5. |
@@ -270,7 +268,7 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
 - [ ] P1 tempója 100–125 szó/perc között marad, és a kilenc kiemelés hallható;
 - [ ] P1-ben egyetlen emoji sem hangzik el;
 - [ ] P2 nem játssza túl az érzelmi tartalmat, és az idézet nem külön karakterhang;
-- [ ] P3-ban mind a négy kvuca-név helyes, és a `Leviatan` **nem** „Leviatán”;
+- [ ] P3-ban mind a három aktuális kvuca-név helyes, és a `Leviatan` **nem** „Leviatán”;
 - [ ] a `madrich` / `chanich` szóvégi és szóeleji `ch` torokhang, nem /cs/ és nem /k/;
 - [ ] a `kvuca` c-je /ts/, a `Somer` s-e /ʃ/;
 - [ ] a hang tegező, egyenrangú, nem gyerekhang és nem hivatalos;
@@ -284,14 +282,8 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
 > meghallgatni. Ha a house style később változik, ezek a szavak érintettek — a
 > pilot-felvételen ez olcsón látszik, 91 kész fájlon nem.
 >
-> ⚠️ **A kapu 2026-08-27-én friss bizonyítékot kapott, és ettől szélesebb lett.** A
-> mozgalom saját, nyilvános 2025/2026-os oktatási terve a `hánih` alakot használja, a
-> kvuca-nevet **`Leviatán` alakban, ékezettel** írja — amit a glosszárium kifejezetten
-> tilt —, és **három** korosztályt sorol eltérő korhatárokkal (Parparim 6–9, Kivsza 10–12,
-> Leviatán 13–17), szemben a tananyag négy kvucájával. Ez **közvetlenül érinti a P3-at**,
-> mert annak egyetlen feladata a négy név helyes kiejtése.
->
-> **Ez nem produkciós kérdés, és ez a lap nem dönti el.** A tananyag jelenlegi kánoni
-> alakja változatlan (`Leviatan`, ékezet nélkül), a felvétel eszerint készül. A house
-> style és a korosztály-architektúra egyeztetése a helyi ken/országos mozgalmi felelősé —
-> a kánoni hely a glosszárium és az `Emberi jóváhagyás szükséges.md`, nem ez a lap.
+> **Korosztály-architektúra frissítve 2026-09-28:** a 2025/26-os oktatási terv szerinti
+> három aktuális csoport a kánon: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
+> A P3 ezért már csak ezt a három tulajdonnevet teszteli. A külön house-style kérdés
+> (`madrich`/`madrih`, `chanich`/`hánih`, illetve `Leviatan` írásmód) továbbra is
+> a glosszárium terminológiai kapujához tartozik; ez a lap nem nyit hozzá új döntést.
