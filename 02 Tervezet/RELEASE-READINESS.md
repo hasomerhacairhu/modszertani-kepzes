@@ -58,7 +58,7 @@ A safeguarding-tartalomra külön szabály vonatkozik: M3.3, M3.B és az M3/M7 g
 
 Miért ez a minimum:
 - M0 bizonyítja a kurzusnavigációt, H5P completiont, fórumot és a puha completion-logikát;
-- M1 hozzáadja az Assignmentet, rubrikát, javítás/újrabeadás folyamatot és az összetett mastery-feltételt;
+- M1 hozzáadja az Assignmentet, rubrikát, javítás/újrabeadás folyamatot és az összetett teljesítési feltételt;
 - együtt már tesztelhető a modulok közötti unlock, a mobil/a11y viselkedés és a `moodle-ai-mcp` build-visszaolvasás;
 - M3 gyermekvédelmi kockázata és az M7 összegző feladat összetettsége nélkül ad valódi technikai szeletet;
 - az első staging **nem vár narrációra, AI-videóra vagy arculati grafikára**; a média-fallbackeket a `Média-assetek/RELEASE-MEDIA-STATUS.md` rögzíti.
