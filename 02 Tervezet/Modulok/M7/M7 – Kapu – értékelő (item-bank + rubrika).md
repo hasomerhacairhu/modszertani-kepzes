@@ -104,7 +104,7 @@
 
 #### Q5 — Melyik pont hiányzik a vázból? (Single Choice)
 
-**Egy peula-váz (Leviatan-kvuca, 14–16 év / 60’ / udvar) ezt tartalmazza: a „közösségi felelősség” modulhoz tartozik, röviden összeszedi a téma altémáit, listázza a kellékeket (kötél, kártyák, flipchart), és a végén ott a „mit kérdezzek vissza másik madrichtól” pont. Egyetlen dolog nincs sehol leírva: hogy mit szeretne a madrich, hogy a chanichokban a peula végére más legyen. A Peula 11 pontjából melyik pont hiányzik a vázból?**
+**Egy peula-váz (Leviatan-kvuca, 13–17 év / 60’ / udvar) ezt tartalmazza: a „közösségi felelősség” modulhoz tartozik, röviden összeszedi a téma altémáit, listázza a kellékeket (kötél, kártyák, flipchart), és a végén ott a „mit kérdezzek vissza másik madrichtól” pont. Egyetlen dolog nincs sehol leírva: hogy mit szeretne a madrich, hogy a chanichokban a peula végére más legyen. A Peula 11 pontjából melyik pont hiányzik a vázból?**
 
 - A) Kelléklista (8. pont)
 - B) Háttér & altémák (2. pont)
@@ -154,7 +154,7 @@
 
 #### Q9 — A leggyakrabban kifelejtett terület (Single Choice)
 
-**Egy madrich így ír le egy tervet: „Vasárnap 16–17 óra, Zorea-kvuca (16+), 8 chanich + 2 madrich, a ken előtti parkban filmes ügyességi versenyt tartunk projektorral, mindenki igénye átgondolva. Felelős madrichok kijelölve.” Melyik checklist-elem hiányzik a leginkább?**
+**Egy madrich így ír le egy tervet: „Vasárnap 16–17 óra, idősebb Leviatan-kvuca (16–17), 8 chanich + 2 madrich, a ken előtti parkban filmes ügyességi versenyt tartunk projektorral, mindenki igénye átgondolva. Felelős madrichok kijelölve.” Melyik checklist-elem hiányzik a leginkább?**
 
 - A) Idő & helyszín (kezdés–zárás adott)
 - B) Anyagok, technika & **B-terv** (eső / áramhiány / túl világos esetére) ✅
@@ -174,7 +174,7 @@
 - A) Mind a hármat változtatás nélkül beemelem, hisz az AI biztos jobban tudja.
 - B) Kiválasztom azt, ami illik, a másik kettőt a kvucámhoz igazítva átfogalmazom, és eldöntöm, mi marad. ✅
 - C) Az egészet eldobom, és inkább semmilyen feldolgozó kérdést nem teszek be, mert az AI-anyag csalásnak számít.
-- D) Visszaírom az AI-nak, hogy döntse el helyettem, melyik kérdés a legjobb a 11–13 éveseknek.
+- D) Visszaírom az AI-nak, hogy döntse el helyettem, melyik kérdés a legjobb a 10–12 éves Kivsza-korúaknak.
 
 **Visszajelzés:** Az AI **ötlettár**, nem szerző. A döntés és a felelősség nálad marad: kiválasztod, ami illik, a többit a **saját kvucádhoz igazítod**, és te mondod ki, mi marad. Az AI-anyag felhasználása önmagában nem csalás (C téves – a feldolgozó kérdés a peula lényegi része, nem hagyod ki), de a döntést sem adod át neki (D téves). (M7.1, M7.2, M7.4)
 
@@ -182,7 +182,7 @@
 
 **Jelöld be az ÖSSZESET, ami a someres AI-etikett szerint MEGENGEDETT peula-tervezéskor!**
 
-- A) Általános leírással („11–13 éves kvuca, szolidaritás téma”) kérek játékötleteket. ✅
+- A) Általános leírással („10–12 éves Kivsza-kvuca, szolidaritás téma”) kérek játékötleteket. ✅
 - B) Megkérem, magyarázzon el egy fogalmat 12 éves szinten, hogy aztán a saját szavaimmal írjam meg. ✅
 - C) Beírom egy konkrét chanich valódi nevét és otthoni sztoriját, hogy „személyre szabott” tanácsot kapjak.
 - D) Megkérek egy nyers AI-vázlatot, amit utána átolvasok, kiválasztok belőle, és a kvucámhoz igazítok. ✅
@@ -274,7 +274,7 @@
 | Pont | Megfigyelhető kritérium |
 | --- | --- |
 | **0** | Nincs kvuca-meta, vagy nem derül ki, kinek szól a peula. |
-| **1** | Van kvuca-típus / életkor megnevezve, de a program ezt **figyelmen kívül hagyja** (pl. 6–10 éveseknek hosszú frontális beszélgetés). |
+| **1** | Van kvuca-típus / életkor megnevezve, de a program ezt **figyelmen kívül hagyja** (pl. 6–9 éves Parparimnak hosszú frontális beszélgetés). |
 | **2** | A kvuca-meta tartalmazza a **típust, korosztályt, kb. létszámot és kiinduló hangulatot**, és a program ehhez **láthatóan igazodik** (energiaszint, figyelem-időtartam). |
 | **3** | A meta + a választott módszerek **konkrétan reflektálnak a kvuca állapotára** (pl. „szétesett régi someresek” → keret-erősítő blokk), és az **életkori / korosztályi sajátosság** (az M3-ban tanult kvuca-profil mentén) megjelenik a tervben. |
 
@@ -385,7 +385,7 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 | --- | --- | --- |
 | **M1 – megfigyelés, értelmezés, konkrét fejlesztő visszajelzés** | Az M7.A/M7.B műhelyben a társas visszajelzés konkrétumokra épül, nem címkékre. A 11. pont utóreflexiós terve ugyanezt a fegyelmet viszi tovább: a megtartás után előbb azt rögzíted, **mi történt és mit figyeltél meg**, csak utána értelmezed a hatását és döntesz a változtatásról. | **R3 – Peula 11 pont struktúra**: a „3” szint konkrét, előre megírt utóreflexiós tervet kér; a javítási folyamat visszajelzése is konkrét, megfigyelhető elemekre épül. |
 | **M2 – identitás / érték** (identitás-jegyzet, dugma ishit; a kiemelt someres érték) | A SMART nevelési cél a madrich saját someres értékéhez / dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd (R – Releváns). | **R1 – SMART cél** („someres értékhez kötött” jegy), R2 (kvuca-illeszkedés indoklása) |
-| **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá biztonsági része a korábban tanult gyermekvédelmi keretre támaszkodik: ha egy chanich tár fel valamit, az red flag → meghallgatod (nem ígérsz titoktartást, nem nyomozol) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály) – **értékelt, de NEM kritikus küszöb-sor** (a kapu kritikus sorai: R1, R4, R5, R6); a korosztály-illeszkedés a pontszámba számít, de önmagában nem blokkol · **R4 – Gyermekvédelem & biztonság** (kritikus + blokkoló) |
+| **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá biztonsági része a korábban tanult gyermekvédelmi keretre támaszkodik: ha egy chanich tár fel valamit, az red flag → meghallgatod (nem ígérsz titoktartást, nem nyomozol) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály) – **értékelt, de NEM kritikus küszöb-sor** (a kapu kritikus sorai: R1, R4, R5, R6); a korosztály-illeszkedés a pontszámba számít, de önmagában nem blokkol · **R4 – Gyermekvédelem & biztonság** (kritikus + blokkoló) |
 | **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, rövid peulabemutató) | A peula **feldolgozó kérdései** és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek; az élő társas visszajelzés megfogalmazása is erre épül. | R3 (élmény-/feldolgozó-blokk), visszajelzés megfogalmazása |
 | **M5 – módszer-logika** („Feladat–kvuca–módszer + tanulástan” táblázat) | A cél ↔ módszer ↔ kvuca illesztés tudatos indoklása. | **R6 – Módszer-illeszkedés** (a „3” szinten explicit M5-hivatkozás) |
 | **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) | A peula konkrét élmény-blokkja egy M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők továbbélnek. | R3 (élmény-blokk), **R5 (inkluzivitás)**, **R4 (gyermekvédelem & biztonság)** |
