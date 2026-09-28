@@ -16,7 +16,7 @@
 | **Kérdés** | Ki a kijelölt gyermekvédelmi felelős, mi az elérhetősége, ki a helyettes/alternatív út összeférhetetlenség esetén, és mi a helyi akut-veszély eszkaláció? |
 | **Miért szükséges** | M0, M3 és M7 több helyen konkrét felelőshöz küldi a madrichot. Ezt név és jóváhagyott helyi folyamat nélkül nem szabad élesben ígérni. |
 | **Mi bizonyítható a repóból** | A madrich nem nyomoz, nem konfrontál feltételezett elkövetőt, nem ígér teljes titoktartást, és felelős felnőttet von be. Közvetlen életveszélynél a 112 sürgősségi út. |
-| **Mit kell eldönteni** | felelős neve/szerepe és elérhetősége; helyettes/külső út; mozgalmi/országos eszkaláció; akut veszély helyi protokollja; dokumentálás helye és jogosultsága; jóváhagyás és következő felülvizsgálat dátuma |
+| **Mit kell eldönteni** | felelős neve/szerepe és elérhetősége; helyettes/külső út; mozgalmi/országos eszkaláció; akut veszély helyi protokollja; dokumentálás helye és jogosultsága; **az M3 kanonikus lépéstérképe (a hub négylépéses összefoglalója vagy az M3.B ötlépéses sablonja, egységes szakértői döntéssel)**; jóváhagyás és következő felülvizsgálat dátuma |
 | **Javasolt alapértelmezés** | Nincs szervezetfüggetlen alapértelmezés. A kurzus addig csak szerepnevet használhat belső stagingben, learner-facing kiadásban nem maradhat névtelen kontakt. |
 | **Jóváhagyó** | gyermekvédelmi felelős + szervezeti vezetés; a jogi minősítésnél szükség szerint jogi szakértő |
 | **Blokkol** | éles M0 safety-kontakt, M3.3, M3.B, M3-kapu, M7 gyermekvédelmi részei és M7-kapu |
