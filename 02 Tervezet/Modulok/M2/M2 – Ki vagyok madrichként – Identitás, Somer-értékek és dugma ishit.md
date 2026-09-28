@@ -148,7 +148,7 @@ A modul végére a madrich…
   "blockers": [
     "R5"
   ],
-  "notes": "Hub-szintű, elsősorban az M2.F (felzárkóztató műhely) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve (2. kör): a §6-ban szereplő „identitás-térkép” (25/61/151. sor) a tanuló saját, feltöltött produktuma (M2.1 Assignment), NEM gyártandó asset; a self-check / 4 soros rubrika / 1 oldalas jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él (140/206. sor), így az nem ennek a hubnak az assete – nincs duplikáció.",
+  "notes": "Hub-szintű, elsősorban az M2.F (felzárkóztató műhely) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él, így az nem ennek a hubnak az assete – nincs duplikáció.",
   "legacy": {
     "asset": [
       "M2-HUB-DIA-01"
