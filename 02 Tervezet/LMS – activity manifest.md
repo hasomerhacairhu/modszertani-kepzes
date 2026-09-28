@@ -46,7 +46,7 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M2-04 | BUILD_OUTPUT | M2 | M2.3 – Somer 3 pillére | H5P-C | igen | M2/Online leckék/M2.3 | LMS-M2-03 | profil | nincs | M2_L3 | HUM-SOMER-01/03 érintett |
 | LMS-M2-05 | BUILD_OUTPUT | M2 | M2 – Identitás-jegyzet | ASSIGN-S | igen | M2 KAPU | **M2.B után** | érdemi, 1 oldalas jegyzet leadva | puha kapu, fejlesztő rubrika; hiányosnál javítás | M2_ASSIGN | érzékeny történet nem kötelező |
 | LMS-M3-01 | BUILD_OUTPUT | M3 | M3.1 – Történetek egy kvucáról | H5P-C | igen | M3/Online leckék/M3.1 | **M2 complete** | profil | nincs | M3_L1 | |
-| LMS-M3-02 | BUILD_OUTPUT | M3 | M3.2 – Négy kvuca, négy világ | H5P-C | igen | M3/Online leckék/M3.2 | LMS-M3-01 | profil | nincs | M3_L2 | HUM-SOMER-02 |
+| LMS-M3-02 | BUILD_OUTPUT | M3 | M3.2 – Három kvuca, három világ | H5P-C | igen | M3/Online leckék/M3.2 | LMS-M3-01 | profil | nincs | M3_L2 | HUM-SOMER-02 |
 | LMS-M3-03 | BUILD_OUTPUT | M3 | M3.3 – Gyermekvédelem 101 | H5P-C | igen | M3/Online leckék/M3.3 | HUM-SAFE-01/02 **élesben**; stagingben belső QA | profil | nincs | M3_L3 | szakértői signoff learner release előtt |
 | LMS-M3-04 | BUILD_OUTPUT | M3 | M3.4 – Do / Don’t madrichként | H5P-C | igen | M3/Online leckék/M3.4 | LMS-M3-03 | profil | nincs | M3_L4 | |
 | LMS-M3-05 | BUILD_OUTPUT | M3 | M3 – Helyzetelemzés | ASSIGN-M | igen | M3.4 + M3 KAPU | LMS-M3-04; M3.B erősen ajánlott | leadva + rubrika | minden sor ≥1; **R2 és R4 blokkoló** | M3_ASSIGN | mentor review |
