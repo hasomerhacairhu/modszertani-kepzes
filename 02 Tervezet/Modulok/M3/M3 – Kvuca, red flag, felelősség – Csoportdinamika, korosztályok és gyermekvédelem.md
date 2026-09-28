@@ -195,6 +195,7 @@ A modul végére a résztvevő…
       "M3.B-POSZ-01"
     ]
   }
+}
 -->
 
 <!-- @asset
