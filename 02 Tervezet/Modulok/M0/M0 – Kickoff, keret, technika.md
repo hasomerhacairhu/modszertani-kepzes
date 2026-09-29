@@ -19,7 +19,7 @@
 
 **Modulcél röviden**
 
-A madrich **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alap elvárásokat és határokat („madrich, nem terapeuta”), megismeri az alap technikai eszközöket (Moodle, H5P, gate/kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma ishitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
+A madrich **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alap elvárásokat és határokat („madrich, nem terapeuta”), megismeri az alap technikai eszközöket (Moodle, H5P, kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma ishitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
 
 ***
 
@@ -41,7 +41,7 @@ A modul végére a madrich…
    * El tud készíteni és közzé tud tenni egy **bemutatkozó fórumposztot és egy kommentet**.
    * **Támogató elemek:** M0.3 (Moodle / H5P / kapu), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
 4. **Kapuk és completion-logika alap megértése**
-   * Érti a **puha (soft) és éles (hard) kapuk** közti különbséget.
+   * Érti a **puha és éles kapuk** közti különbséget.
    * Tudja, hogy a kapuk nem azonnali kiesést jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
    * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépő-kvíz.
 5. **Dugma ishit az online térben**
@@ -128,7 +128,7 @@ A modul végére a madrich…
 
 ## 5. Kapuk
 
-* **Kaputípus:** puha kapu (soft gate) – **belépő jellegű**, nem vizsga; jelzést ad a stábnak, hogy ki mennyire tudott belépni a rendszerbe.
+* **Kaputípus:** puha kapu – **belépő jellegű**, nem vizsga; jelzést ad a stábnak, hogy ki mennyire tudott belépni a rendszerbe.
 * **Eszközök:**
   * **Moodle Forum – „Bemutatkozó fal”**
     * Követelmény:
