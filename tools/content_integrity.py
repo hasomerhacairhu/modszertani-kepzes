@@ -249,6 +249,8 @@ ARTICLE_REGRESSIONS = (
     (re.compile(r'(?<!\w)a\s+[„"\']aktív\b', re.I), 'hibás névelő: az aktív'),
     (re.compile(r'(?<!\w)a\s+\*{0,2}időben\b', re.I), 'hibás névelő: az időben'),
     (re.compile(r'(?<!\w)a\s+[„"\']időben\b', re.I), 'hibás névelő: az időben'),
+    (re.compile(r'(?<!\w)a\s+\*{0,2}[„"`]?M[0-7](?=[.\-–\sA-Z])', re.I),
+     'hibás névelő modulazonosító előtt: az M…'),
 )
 
 
@@ -574,6 +576,10 @@ ARTICLE_SELFTEST = [
     ('akkor a legerősebb, ha **aktív felidézéssel** párosul', True, '„ha aktív” nem false positive'),
     ('Mi az „időben elosztott gyakorlás”?', True, 'helyes névelő időben'),
     ('Mi a „időben elosztott gyakorlás”?', False, 'hibás névelő időben'),
+    ('az M7.3 után folytatjuk', True, 'helyes névelő modulazonosító előtt'),
+    ('a M7.3 után folytatjuk', False, 'hibás névelő modulazonosító előtt'),
+    ('az `M1.2 – Megfigyelés ≠ értelmezés` leckével mész tovább', True, 'helyes névelő kódolt modulazonosító előtt'),
+    ('a `M1.2 – Megfigyelés ≠ értelmezés` leckével mész tovább', False, 'hibás névelő kódolt modulazonosító előtt'),
 ]
 
 # The deliberate-exclusion guard must cover the Z.4 Documentation Tool rule too,
