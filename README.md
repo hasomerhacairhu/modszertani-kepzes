@@ -49,7 +49,10 @@ A rendszer **Open Educational Resource (OER)**, azaz nyílt oktatási segédanya
 │   ├── Terepgyakorlat – 2. félév.md
 │   └── RELEASE-READINESS.md
 ├── tools/
-│   └── content_integrity.py  # statikus tartalmi integritás-ellenőrzés
+│   ├── content_integrity.py  # statikus tartalmi/repo-integritás
+│   ├── media_manifest.py     # determinisztikus média-manifest build/validate/check
+│   ├── test_media_manifest.py # média-regressziós tesztek
+│   └── media_migrate_v2.py   # v2 migrációs/karbantartási segéd
 ├── .claude/                  # Claude Code munkakörnyezet (rules, skills, agents, hook)
 └── .github/workflows/
     └── content-integrity.yml # CI
@@ -71,7 +74,10 @@ A tananyagon végzett módosításnál:
 - gyermekvédelmi, jogi, adatvédelmi vagy helyi mozgalmi döntést nem szabad feltételezni;
 - új vagy módosított H5P-funkció csak a cél Moodle/H5P verzión lefuttatott acceptance test után tekinthető támogatottnak;
 - a tanulói felületen nem maradhat megoldatlan `KITÖLTENDŐ` mező;
-- helyi link, duplikált kánoni fájl, tiltott release-állítás és ismert veszélyes regresszió ellen CI fut (`tools/content_integrity.py`).
+- a CI két objektív réteget futtat: a helyi linkekre, duplikált kánoni fájlokra,
+  tiltott release-állításokra és ismert regressziókra `tools/content_integrity.py`;
+  a médiaforrásokra, generált outputokra és történeti egyeztetésre
+  `tools/media_manifest.py` + `tools/test_media_manifest.py`.
 
 ## Fejlesztés Claude Code-dal
 

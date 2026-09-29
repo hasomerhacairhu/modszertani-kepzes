@@ -9,7 +9,9 @@ mastery learning alapon, Moodle/H5P célplatformra.
 - `02 Tervezet/` — **ez az aktív tananyag.** Minden más ezt szolgálja.
 - `01 Fejlesztés/04 Audit/` — **audit trail, nem tanulói tartalom, nem aktuális kánon.**
   Az auditnaplók a múltat rögzítik; egy ottani mondat nem specifikáció.
-- `tools/content_integrity.py` — az egyetlen objektív, determinisztikus ellenőrző.
+- `tools/content_integrity.py` — központi statikus tartalmi integritás-ellenőrző.
+- `tools/media_manifest.py` + `tools/test_media_manifest.py` — a média-manifest
+  fordító/validátor és regressziós tesztréteg; a CI ezt külön, teljes historyval futtatja.
 - A korpusz **AFFiNE-ból exportált**: a természetellenes magyar mondatok jelentős része
   export- és gépifordítás-maradvány, nem szándékos szerzői stílus.
 
@@ -83,12 +85,16 @@ saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
 ## Kötelező ellenőrzések tartalmi módosítás után
 
 ```bash
-python3 tools/content_integrity.py    # 0 ERROR kötelező
-git diff --check                      # whitespace-hibák
-git diff                              # olvasd vissza a saját változtatásodat
+python3 tools/content_integrity.py               # 0 ERROR kötelező
+python3 tools/media_manifest.py check            # generált media-output naprakész
+python3 tools/media_manifest.py reconcile        # történeti sorok egyeztetve
+python3 -m unittest tools.test_media_manifest    # média-regressziós tesztek
+git diff --check                                 # whitespace-hibák
+git diff                                         # olvasd vissza a saját változtatásodat
 ```
 
-Ezt a hármat a `/release-check` skill futtatja végig, a célzott ellenőrzésekkel együtt.
+A `/release-check` ezeket a teljes objektív ellenőrzési réteggel együtt futtatja;
+a media-teszteknél a történeti baseline commit elérhetőségét is külön ellenőrzi.
 
 ## Nincs hamis készjelentés
 
