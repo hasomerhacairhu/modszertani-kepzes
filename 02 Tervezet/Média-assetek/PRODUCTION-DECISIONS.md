@@ -13,8 +13,8 @@ kisebb vagy egyenlő, mint az „érintett”.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 417 | 903 |
-| Ebből központilag előgyártható | 407 | 898 |
+| Összesen | 417 | 902 |
+| Ebből központilag előgyártható | 406 | 897 |
 | Ebből **most gyártható** | **37** | **37** |
 | Élő/runtime tétel (a képző hozza létre a peulán) | 3 | 5 |
 
@@ -43,10 +43,9 @@ fekete-fehér nyomtatás. Részletek és a teljes lock-lap:
 > színgeneráció a hatályos, és mit teszünk oda, ahol a kézikönyv hallgat (betűméret-skála,
 > ikon-stílus, semleges skála). A teljes bizonyíték-lánc, a **kiszámított** WCAG-kontrasztok
 > és a két jóváhagyható változat: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md).
-> **Ez bizonyíték, nem jóváhagyás — az R5 blokkolók a 257 asseten a helyükön maradnak.**
+> **Ez bizonyíték, nem jóváhagyás — az R5 blokkoló mind a 258 érintett szemantikus asseten a helyén marad.**
 
-**Mit szabadít fel:** R5 lezárása önmagában **247 asset / 489 deliverable**. Az érintett
-257-ből 10 azért marad zárva, mert R2-re, R3-ra vagy emberi döntésre is vár.
+**Mit szabadít fel:** R5 lezárása önmagában **247 központilag előgyártható asset / 489 deliverable**. A teljes R5-hatókör **258 szemantikus asset**: ebből 1 `reuse` hely nem gyárt saját deliverable-t, 1 élő/runtime tétel, 1 további emberi döntésre is vár, 8 pedig R2/R3 blokkolót is visz. Így a ténylegesen csak R5-re váró központi gyártási köteg 247 asset.
 
 **Ki dönt:** program-/arculatfelelős, a mozgalmi vizuális identitás jóváhagyójával.
 
@@ -103,7 +102,7 @@ létrehozása (azonos módszerrel) szükséges.
 választani: a magyar természetesség, a melegség és a someres szavak kiejtése csak
 hallgatással dönthető el. A hatpárosos összehasonlítás kész, végrehajtható terve —
 beállításokkal, kiejtési figyelőlistával és pontozólappal —
-[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 066 karakter,
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 072 karakter,
 becsült költsége 0,15–0,61 $** — a szolgáltató két árazási felülete eltérő szorzót ad,
 de mindkét olvasatban egy dollár alatt marad.
 
