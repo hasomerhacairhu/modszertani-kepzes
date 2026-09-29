@@ -71,6 +71,8 @@ FORBIDDEN_ANYWHERE = {
         'hibás névelő: az idővonal',
     'idővonal-t':
         'hibás tárgyrag: idővonalat',
+    'visszajelzés-tapasztalat':
+        'természetellenes főnévtorlódás: visszajelzéssel kapcsolatos tapasztalat',
 }
 
 # File-scoped regressions found by the 2026-09 release-readiness follow-up.
