@@ -20,7 +20,7 @@
 
 **Kapcsolat az online résszel:**
 
-* **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 timeline, tanulási pillanatok, következő lépések).
+* **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 idővonal, tanulási pillanatok, következő lépések).
 * **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzési visszajelzés” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg; a peulán megfogalmazott gondolatokból dolgozik).
 
 ***
