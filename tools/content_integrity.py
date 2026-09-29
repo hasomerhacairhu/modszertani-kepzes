@@ -407,6 +407,8 @@ def check_regressions(errors: list[str]) -> None:
 HUMAN_DECISION_HEADING = re.compile(r'^###\s+(HUM-[A-Z0-9-]+)\b(.*)$')
 UNCHECKED_BOX = re.compile(r'^\s*-\s*\[\s\]\s*(.+)$')
 MODULE_PLACEHOLDER = re.compile(r'⟬KITÖLTENDŐ(?:[:][^⟭]*)?⟭')
+RUNTIME_OUTPUT_ROW = re.compile(r'^\|\s*[^|]+\|\s*`RUNTIME_OUTPUT`\s*\|')
+BUILD_OUTPUT_ROW = re.compile(r'^\|\s*LMS-[^|]+\|\s*BUILD_OUTPUT\s*\|')
 
 
 def open_human_decision_ids(text: str) -> list[str]:
@@ -423,6 +425,11 @@ def unchecked_items(text: str) -> list[str]:
     """Return the text of unchecked Markdown checklist items."""
     return [m.group(1).strip() for line in text.splitlines()
             if (m := UNCHECKED_BOX.match(line))]
+
+
+def unresolved_output_rows(text: str, pattern: re.Pattern[str]) -> int:
+    """Count only unresolved table rows, never explanatory prose mentions."""
+    return sum(1 for line in text.splitlines() if pattern.match(line))
 
 
 def release_blockers() -> list[str]:
@@ -470,8 +477,10 @@ def release_blockers() -> list[str]:
     # decisions. They stay blocking until the staging system writes real values.
     runtime_file = ACTIVE_ROOT / 'LMS – H5P runtime acceptance.md'
     if runtime_file.exists():
-        runtime_count = runtime_file.read_text(
-            encoding='utf-8', errors='replace').count('RUNTIME_OUTPUT')
+        runtime_count = unresolved_output_rows(
+            runtime_file.read_text(encoding='utf-8', errors='replace'),
+            RUNTIME_OUTPUT_ROW,
+        )
         if runtime_count:
             blockers.append(
                 f'RUNTIME-ACCEPTANCE {runtime_count} unresolved RUNTIME_OUTPUT values'
@@ -479,8 +488,10 @@ def release_blockers() -> list[str]:
 
     manifest_file = ACTIVE_ROOT / 'LMS – activity manifest.md'
     if manifest_file.exists():
-        build_count = manifest_file.read_text(
-            encoding='utf-8', errors='replace').count('BUILD_OUTPUT')
+        build_count = unresolved_output_rows(
+            manifest_file.read_text(encoding='utf-8', errors='replace'),
+            BUILD_OUTPUT_ROW,
+        )
         if build_count:
             blockers.append(
                 f'LMS-BUILD {build_count} unresolved BUILD_OUTPUT values'
@@ -630,7 +641,20 @@ def selftest() -> int:
         failures += 1
     print(f'{"ok  " if checklist_ok else "HIBA"} release-parser — checklist')
 
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 3
+    output_fixture = (
+        '> `cmid`: **BUILD_OUTPUT**, magyarázó definíció.\n'
+        '| LMS-X-01 | BUILD_OUTPUT | M0 | valódi sor |\n'
+        '| Moodle | `RUNTIME_OUTPUT` | RUN_DATE | TEST_OWNER |\n'
+    )
+    output_ok = (
+        unresolved_output_rows(output_fixture, BUILD_OUTPUT_ROW) == 1
+        and unresolved_output_rows(output_fixture, RUNTIME_OUTPUT_ROW) == 1
+    )
+    if not output_ok:
+        failures += 1
+    print(f'{"ok  " if output_ok else "HIBA"} release-parser — output táblázatsorok')
+
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 4
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 
