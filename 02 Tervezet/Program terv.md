@@ -376,7 +376,7 @@ Minden learner-facing élesítéshez dátumozott, archivált release-jegyzőkön
 
 [M0 – „Kickoff, keret, technika”](./Modulok/M0/M0%20–%20Kickoff,%20keret,%20technika.md)
 
-[M1 – „Vakfolt, tükör, visszajelzés” – Önismeret & visszajelzés: Johari + SBI](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20feedback%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)
+[M1 – „Vakfolt, tükör, visszajelzés” – Önismeret & visszajelzés: Johari + SBI](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20visszajelzés%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)
 
 [M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit](./Modulok/M2/M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)
 

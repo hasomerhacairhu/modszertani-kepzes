@@ -61,7 +61,7 @@ APPROVED_VISIBLE_EDITS = {
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md":
         "D6 — a jóváhagyott HOOK-dialóg @source blokkba került a „Nagyjából…” helyére",
     # D7 — the optional narration is not produced, so the slide stops asking for it.
-    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md":
+    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md":
         "D7 — az „Opcionális narráció (30–40 mp)” sor törölve; a dia tartalma változatlan",
     # Forensic remediation, 2026-08-28 — user-mandated fixes of the independent
     # forensic audit's verified findings (F-01…F-15, R-16, P3) plus the Hungarian
@@ -72,7 +72,7 @@ APPROVED_VISIBLE_EDITS = {
         "F-14 — a késő esti szcenárió ✅-válasza átlátható bevonást tanít, nem engedélykérést",
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md":
         "F-15 — just-in-time adatvédelmi ellenőrzés a plakátfotó előtt",
-    "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés – Johari + SBI.md":
+    "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md":
         "P3-01 — az M1.2 leckeleírás nem ígér átírás-feladatot, ami a leckében nincs",
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md":
         "F-08 — a helyi rubrika 4. sora a KAPU-konstruktumot méri, nem „én-üzenet” nyelvtant",
@@ -153,7 +153,7 @@ AUDIT_2026_09_26_VISIBLE_EDITS = {
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md",
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md",
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-    "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a gate.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md",
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md",
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
     "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md",

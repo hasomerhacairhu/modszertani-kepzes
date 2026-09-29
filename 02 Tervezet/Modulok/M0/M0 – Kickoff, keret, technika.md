@@ -39,7 +39,7 @@ A modul végére a madrich…
    * Be tud lépni a **Moodle-be**, megtalálja a saját kurzusát és a modulokat.
    * Elindít és végigvisz egy **H5P-leckét**, kitölt egy mini-kvízt.
    * El tud készíteni és közzé tud tenni egy **bemutatkozó fórumposztot és egy kommentet**.
-   * **Támogató elemek:** M0.3 (Moodle / H5P / gate), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
+   * **Támogató elemek:** M0.3 (Moodle / H5P / kapu), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
 4. **Kapuk és completion-logika alap megértése**
    * Érti a **puha (soft) és éles (hard) kapuk** közti különbséget.
    * Tudja, hogy a kapuk nem azonnali kiesést jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
@@ -57,7 +57,7 @@ A modul végére a madrich…
 
 * **L1 = M0.1** – Üdv a képzésben! – Éves útiterv & mi köze hozzám
 * **L2 = M0.2** – Madrich, nem terapeuta – szerepek, elvárások, dugma ishit alapok
-* **L3 = M0.3** – Hogyan működik a Moodle / H5P / gate?
+* **L3 = M0.3** – Hogyan működik a Moodle / H5P / kapu?
 * **L4 = M0.4** – Dugma ishit az online térben + bemutatkozó fórum
 
 ### L1 / M0.1 – „Üdv a képzésben!” – Éves útiterv & mi köze hozzám (15–20’)
@@ -78,7 +78,7 @@ A modul végére a madrich…
   * dugma ishit 1 mondatban + 2–3 helyzet, ahol ez látszik.
 * **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-kvíz, nyitott reflexió).
 
-### L3 / M0.3 – „Hogyan működik a Moodle / H5P / gate?” (15–20’)
+### L3 / M0.3 – „Hogyan működik a Moodle / H5P / kapu?” (15–20’)
 
 * **Cél:** biztonságos, gyakorlati beléptetés a technikai környezetbe; a madrich **megtanulja kezelni** a Moodle felületet, alap H5P-t, és érti a kapuk logikáját.
 * **Fő tartalom röviden:**
@@ -202,7 +202,7 @@ A modul végére a madrich…
 
 [M0.2 – „Madrich, nem terapeuta” – szerepek és elvárások](./Online%20leckék/M0.2%20–%20Madrich,%20nem%20terapeuta%20–%20szerepek%20és%20elvárások.md)
 
-[M0.3 – „Hogyan működik a Moodle / H5P / gate?”](./Online%20leckék/M0.3%20–%20Hogyan%20működik%20a%20Moodle,%20H5P%20és%20a%20gate.md)
+[M0.3 – „Hogyan működik a Moodle / H5P / kapu?”](./Online%20leckék/M0.3%20–%20Hogyan%20működik%20a%20Moodle,%20H5P%20és%20a%20kapu.md)
 
 [M0.4 – „Dugma ishit az online térben + bemutatkozó fórum”](./Online%20leckék/M0.4%20–%20Dugma%20ishit%20az%20online%20térben%20+%20bemutatkozó%20fórum.md)
 
