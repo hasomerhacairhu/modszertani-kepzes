@@ -28542,7 +28542,7 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Minta-peula-ötlet kártyák (tartalék, ha valaki elakad)",
-      "purpose": "Hogy senki ne maradjon ötlet nélkül a mini műhelyban – aki elakad, azonnal választhat egy konkrét kvuca-névvel ellátott ötletet.",
+      "purpose": "Hogy senki ne maradjon ötlet nélkül a mini-műhelyben – aki elakad, azonnal választhat egy konkrét kvuca-névvel ellátott ötletet.",
       "spec": "3–4 db nyomtatott minta-peula-ötlet kártya, mindegyiken egy ötlet + a hozzá tartozó kvuca-név és korosztály, hogy az elakadó azonnal tudjon „kire” gondolni. A forrás 4 mintát ad: (1) Hanuka-peula a Parparim kvucának (6–9 év) – fény/sötétség témán át „mitől félek / mi ad biztonságot”; (2) Első kvuca-alkalom a Kivsza kvucának (kb. 10–12 év) – ismerkedés + közös kvuca-szabályok; (3) Konfliktuskezelő peula a Leviatan kvucának (kb. 13–17 év) – tipikus kvucán belüli súrlódás megbeszélése; (4) Élménybeszámoló-peula machané után – „mit viszek haza a táborból”, kapcsolódás és lezárás.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -28578,7 +28578,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "230f22abc5ac75189e424c447970f506ec93e21816bebe5cd1b057f7a69a629f",
+      "spec_hash": "0820197bda2a2c0ed8962c0fb15409153acbb7454c2ae670f65f05e9f7a8da7d",
       "deliverable_ids": [
         "M7.A-KART-02",
         "M7.A-KART-02::PRINTPDF"
