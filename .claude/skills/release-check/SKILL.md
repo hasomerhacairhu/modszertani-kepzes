@@ -41,10 +41,15 @@ python3 tools/content_integrity.py --release-report
 ```
 
 - `Objective integrity errors: 0` **kötelező**. Bármely `ERROR:` sor blokkoló.
-- A `BLOCKER:` sorok szemantikus release-kapuk: nyitott `HUM-*` döntések,
-  produkciós szabályok, LMS `BUILD_OUTPUT`, runtime `RUNTIME_OUTPUT` és kanonikus
-  checklistek. A puszta dokumentációs `KITÖLTENDŐ` szóelőfordulás nem blocker.
-  A valódi nyitott értékeket **nem töltjük ki találgatásból**, jelentendők.
+- A `BLOCKER:` sorok szemantikus **learner-release** kapuk: a G1–G8-hoz
+  tartozó nyitott emberi döntések, LMS `BUILD_OUTPUT`, runtime `RUNTIME_OUTPUT`
+  és kanonikus checklistek. A puszta dokumentációs `KITÖLTENDŐ` szóelőfordulás
+  nem blocker.
+- A `PRODUCTION:` sorok külön média-produkciós akadályok. Ezek önmagukban nem
+  teszik sikertelenné a `--strict-release` futást, mert a
+  `RELEASE-MEDIA-STATUS.md` szerint egyenértékű fallback mellett nem automatikus
+  learner-release gate-ek.
+- A valódi nyitott értékeket **nem töltjük ki találgatásból**, jelentendők.
 
 ## 2. Média-manifest és generált output
 

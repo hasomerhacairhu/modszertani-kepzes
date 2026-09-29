@@ -8,8 +8,11 @@ Read-only and deterministic. Two separate concerns:
   markers, terminology drift, and a small set of *known* content regressions that
   have actually happened here before and are dangerous to reintroduce.
 * **Release blockers** (reported, not failing unless ``--strict-release``) —
-  canonical human decisions, unresolved LMS/runtime outputs and open release
+  learner-release human decisions, unresolved LMS/runtime outputs and open release
   checklists. These are never guessed or auto-filled.
+* **Production-only blockers** — media decisions that can block asset production
+  without automatically blocking the learner release when an equivalent fallback
+  exists. These are reported separately and do not make ``--strict-release`` fail.
 
 Every rule below exists because the corresponding defect occurred in this
 repository. Do not add speculative prose linting: legitimate Hungarian text must
@@ -450,24 +453,17 @@ def release_blockers() -> list[str]:
     if human_file.exists():
         human_open = open_human_decision_ids(
             human_file.read_text(encoding='utf-8', errors='replace'))
-        if human_open:
-            blockers.append(
-                f'HUMAN-DECISIONS {len(human_open)} open: ' + ', '.join(human_open)
-            )
-
-    # Canonical media production rules carry their unresolved machine values in
-    # JSON. This is a production-layer view of the human decisions, not a scan of
-    # the generated register.
-    rules_file = MEDIA_ROOT / 'produkcios-szabalyok.json'
-    if rules_file.exists():
-        payload = json.loads(rules_file.read_text(encoding='utf-8'))
-        open_rules = [
-            rule['id'] for rule in payload.get('rules', [])
-            if '⟬KITÖLTENDŐ⟭' in rule.get('text', '')
+        release_prefixes = (
+            'HUM-SAFE-', 'HUM-PRIV-', 'HUM-OPS-', 'HUM-A11Y-', 'HUM-SOMER-',
+        )
+        release_open = [
+            decision_id for decision_id in human_open
+            if decision_id.startswith(release_prefixes)
         ]
-        if open_rules:
+        if release_open:
             blockers.append(
-                f'PRODUCTION-RULES {len(open_rules)} open: ' + ', '.join(open_rules)
+                f'HUMAN-DECISIONS {len(release_open)} open: '
+                + ', '.join(release_open)
             )
 
     # Concrete LMS build/runtime outputs are implementation facts, not human
@@ -504,6 +500,45 @@ def release_blockers() -> list[str]:
         items = unchecked_items(path.read_text(encoding='utf-8', errors='replace'))
         if items:
             blockers.append(f'{label} {len(items)} open checklist items')
+
+    return blockers
+
+
+def production_blockers() -> list[str]:
+    """Report unresolved media-production decisions without redefining release.
+
+    RELEASE-MEDIA-STATUS.md explicitly permits equivalent fallbacks and states
+    that R2/R3/R5 do not block the internal M0+M1 staging pilot. Therefore these
+    are operational production blockers, not automatic learner-release gates.
+    """
+    blockers: list[str] = []
+
+    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
+    if human_file.exists():
+        human_open = open_human_decision_ids(
+            human_file.read_text(encoding='utf-8', errors='replace'))
+        media_open = [
+            decision_id for decision_id in human_open
+            if decision_id.startswith('HUM-MEDIA-')
+        ]
+        if media_open:
+            blockers.append(
+                f'MEDIA-HUMAN-DECISIONS {len(media_open)} open: '
+                + ', '.join(media_open)
+            )
+
+    rules_file = MEDIA_ROOT / 'produkcios-szabalyok.json'
+    if rules_file.exists():
+        payload = json.loads(rules_file.read_text(encoding='utf-8'))
+        open_rules = [
+            rule['id'] for rule in payload.get('rules', [])
+            if '⟬KITÖLTENDŐ⟭' in rule.get('text', '')
+        ]
+        if open_rules:
+            blockers.append(
+                f'PRODUCTION-RULES {len(open_rules)} open: '
+                + ', '.join(open_rules)
+            )
 
     return blockers
 
@@ -567,13 +602,27 @@ def selftest() -> int:
             failures += 1
         print(f'{"ok  " if ok else "HIBA"} {label}: várt={"PASS" if should_pass else "FAIL"} kapott={"FAIL" if got else "PASS"}')
     decision_fixture = (
-        '### HUM-X-01 — nyitott\n'
-        '### HUM-X-02 — lezárt — LEZÁRVA\n'
+        '### HUM-SAFE-01 — nyitott\n'
+        '### HUM-MEDIA-01 — produkciós\n'
+        '### HUM-GOV-01 — lezárt — LEZÁRVA\n'
     )
-    decision_ok = open_human_decision_ids(decision_fixture) == ['HUM-X-01']
+    decision_ok = open_human_decision_ids(decision_fixture) == [
+        'HUM-SAFE-01', 'HUM-MEDIA-01'
+    ]
     if not decision_ok:
         failures += 1
     print(f'{"ok  " if decision_ok else "HIBA"} release-parser — HUM döntés státusz')
+
+    release_ids = [
+        decision_id for decision_id in open_human_decision_ids(decision_fixture)
+        if decision_id.startswith(
+            ('HUM-SAFE-', 'HUM-PRIV-', 'HUM-OPS-', 'HUM-A11Y-', 'HUM-SOMER-')
+        )
+    ]
+    separation_ok = release_ids == ['HUM-SAFE-01']
+    if not separation_ok:
+        failures += 1
+    print(f'{"ok  " if separation_ok else "HIBA"} release-parser — release/media szétválasztás')
 
     checklist_fixture = '- [ ] nyitott\n- [x] kész\n'
     checklist_ok = unchecked_items(checklist_fixture) == ['nyitott']
@@ -581,7 +630,7 @@ def selftest() -> int:
         failures += 1
     print(f'{"ok  " if checklist_ok else "HIBA"} release-parser — checklist')
 
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 2
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 3
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 
@@ -606,6 +655,7 @@ def main() -> int:
     check_regressions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []
+    production = production_blockers() if args.release_report else []
 
     print(f'Objective integrity errors: {len(errors)}')
     for item in errors:
@@ -614,6 +664,10 @@ def main() -> int:
         print(f'Release blockers: {len(blockers)}')
         for item in blockers:
             print(f'BLOCKER: {item}')
+    if production:
+        print(f'Production-only blockers: {len(production)}')
+        for item in production:
+            print(f'PRODUCTION: {item}')
 
     if errors:
         return 1
