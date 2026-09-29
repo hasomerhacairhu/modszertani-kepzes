@@ -61,6 +61,16 @@ FORBIDDEN_ANYWHERE = {
         'túlzottan leegyszerűsítő, nem védhető fejlődéslélektani metafora',
     'fotózd le a rajzot, és töltsd fel':
         'az M2.1 teljes identitástérkép-feltöltése adatminimalizálási regresszió',
+    'műhelyban':
+        'hibás magyar toldalékolás: műhelyben',
+    'műhelyhoz':
+        'hibás magyar toldalékolás: műhelyhez',
+    'műhelyon':
+        'hibás magyar toldalékolás: műhelyen',
+    'a idővonal':
+        'hibás névelő: az idővonal',
+    'idővonal-t':
+        'hibás tárgyrag: idővonalat',
 }
 
 # File-scoped regressions found by the 2026-09 release-readiness follow-up.
