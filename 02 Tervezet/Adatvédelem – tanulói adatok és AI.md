@@ -119,9 +119,9 @@ Ezért:
 - [ ] mentor/képző hozzáférések tesztfiókkal ellenőrizve;
 - [ ] retention/törlés folyamata és felelőse dokumentálva és tesztelve;
 - [ ] no-AI út ténylegesen végigvihető;
-- [ ] érzékeny saját történet nem kötelező teljesítési elem;
+- [x] érzékeny saját történet nem kötelező teljesítési elem; **repo-audit: 2026-09-29** – az érintett reflektív/safety feladatok fiktív vagy általánosított alternatívát engednek;
 - [ ] fotó/videó/hang folyamat HUM-PRIV-02 szerint lezárva;
-- [ ] Z.4 nem ígér bizonyítatlan anonimitást;
+- [x] Z.4 nem ígér bizonyítatlan anonimitást; **repo-audit: 2026-09-29** – a learner-facing ígéret „név nélkül jelenik meg”, a dokumentum explicit kizárja a GDPR-értelemben vett teljes anonimitás ígéretét;
 - [ ] privacy/DPO/jogi signoff bizonyítéka rögzítve.
 
 ## 10. Elsődleges források
