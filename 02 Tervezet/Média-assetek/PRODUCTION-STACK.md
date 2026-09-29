@@ -1,12 +1,12 @@
 # 🏭 Produkciós stack — döntés-előkészítés
 
-Ez a lap egy helyen írja le, **mivel és hogyan** készülne el a 903 deliverable, ha a
+Ez a lap egy helyen írja le, **mivel és hogyan** készülne el a 902 deliverable, ha a
 nyitott döntések megszületnek. **Nem lezárás, nem jóváhagyás, és nem indít gyártást.**
 
 | | |
 |---|---|
 | **Státusz** | NYITOTT — FELHASZNÁLÓI DÖNTÉS SZÜKSÉGES |
-| **Mit változtat a manifeszten** | semmit. A 417 asset, a 903 deliverable és minden R2/R3/R5/R7/R8 blokkoló változatlan. |
+| **Mit változtat a manifeszten** | semmit. A 417 asset, a 902 deliverable és minden R2/R3/R5/R7/R8 blokkoló változatlan. |
 | **Mit fizettünk** | semmit. Fizetős API-t nem hívtunk, fiókot nem hoztunk létre, próbaidőszakot nem indítottunk, médiát nem generáltunk. |
 | **Kutatás dátuma** | 2026-08-27 (minden külső forrás ekkor lekérdezve) |
 
@@ -41,8 +41,8 @@ igazság.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 417 | 903 |
-| Központilag előgyártható | 407 | 898 |
+| Összesen | 417 | 902 |
+| Központilag előgyártható | 406 | 897 |
 | **Most gyártható (nincs nyitott kapu)** | **37** | **37** |
 | Élő/runtime (a képző hozza létre a peulán) | 3 | 5 |
 
@@ -89,7 +89,7 @@ végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 |---|---|
 | **Szolgáltató** | ✅ **ElevenLabs** — lezárva |
 | **Hangjelöltek** | ✅ **Dombi Miksa** · **Budai Enn** — forrás-beszélők; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
-| **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 066 karakter, ≈ 0,15 $ |
+| **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 072 karakter, ≈ 0,15 $ |
 | **Modell** | 🔎 javaslat: **`eleven_flash_v2_5`**, `language_code: "hu"` |
 | **Tempó** | `speed` paraméter (0,7–1,2) a 100–120 szó/perc célsávra |
 | **Kiejtés** | alias-szabályok szótárban — **csak a ténylegesen hibás szavakra**, a teszt után |
@@ -249,7 +249,7 @@ lényegesen több — a generatív videónál 3–5 próbálkozásból lesz egy 
 
 | Köteg | Feltételezés | Alsó | Felső |
 |---|---|---:|---:|
-| **Hangválasztási teszt** — 6 minta, 2 hang × 3 szkript | **3 066 karakter, mérve** | **≈ 0,15 $** | **≈ 0,61 $** |
+| **Hangválasztási teszt** — 6 minta, 2 hang × 3 szkript | **3 072 karakter, mérve** | **≈ 0,15 $** | **≈ 0,61 $** |
 | **Hang** — ElevenLabs `flash_v2_5`, teljes tananyag 3× nyers | 150 000–225 000 karakter | **7,50 $** | **45,00 $** |
 | **Hang** — ElevenLabs `v3` (tartalék modell) | ugyanaz | 15,00 $ | 90,00 $ |
 | **Beszélőfej** — HeyGen, **nyilvános készlet-avatar** | 21 × 30 mp + 100% újragyártás ≈ 1 260 mp | **≈ 21 $** | **≈ 21 $** |
