@@ -69,7 +69,7 @@ Miért ez a minimum:
 
 - [ ] A félév végi `Peula v2` után működik a `Terepgyakorlat – 2. félév.md` szerinti hat valós, 60–90 perces peula + mentori visszajelzési ciklus.
 - [ ] Learner pilot megtörtént kis csoporttal, a findingek javítva és újratesztelve.
-- [x] A médiaregiszter a tartalmi freeze után újragenerálva és auditálva. **Bizonyíték:** `media_manifest.py build/check/reconcile` + teljes media CI a `36a3c3be2a128b50d9477e3d1889cc2429e3ad67` előtti zárt tartalmi állapotból, majd a jelen commit újragenerálása.
+- [x] A médiaregiszter a tartalmi freeze után újragenerálva és auditálva. **Bizonyíték:** determinisztikus `media_manifest.py build/check/reconcile` + sikeres teljes media CI (`36605020566`, 417 asset / 902 deliverable / 143 teszt).
 
 ## Merge ≠ staging ≠ release
 
