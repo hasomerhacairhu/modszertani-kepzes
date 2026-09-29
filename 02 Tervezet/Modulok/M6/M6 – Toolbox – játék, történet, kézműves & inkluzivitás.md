@@ -76,7 +76,7 @@ A modul végére a madrich…
 
 ## 3. Online mikroleckék (L1–L4)
 
-### M6.1 – „Játék-kategóriák 4 kvucára” (15–20’)
+### M6.1 – „Játék-kategóriák 3 aktuális kvucára” (15–20’)
 
 * **Fő fókusz:** játék-típusok + korosztályok; „nem minden játék jó minden kvucának”.
 * **Eszköz:** H5P Course Presentation (kb. 8 slide, mobil-first).
@@ -125,7 +125,7 @@ A modul végére a madrich…
 
 ## 4. Offline peulák
 
-### Peula A (M6.A) – „Játék-labor 4 kvucára” (45’)
+### Peula A (M6.A) – „Játék-labor 3 aktuális kvucára” (45’)
 
 * **Kapcsolódó online leckék:** M6.1, M6.4
 * **Fő cél:**
@@ -248,7 +248,7 @@ Az M6 akkor **complete**, ha mindhárom teljesül:
 
 ***
 
-[M6.1 – „Játék-kategóriák 4 kvucára”](./Online%20leckék/M6.1%20–%20Játék-kategóriák%204%20kvucára.md)
+[M6.1 – „Játék-kategóriák 3 aktuális kvucára”](./Online%20leckék/M6.1%20–%20Játék-kategóriák%203%20aktuális%20kvucára.md)
 
 [M6.2 – „Történet, mint tükör”](./Online%20leckék/M6.2%20–%20Történet,%20mint%20tükör.md)
 
@@ -256,7 +256,7 @@ Az M6 akkor **complete**, ha mindhárom teljesül:
 
 [M6.4 – „Döntési szcenáriók: mit választanál?”](./Online%20leckék/M6.4%20–%20Döntési%20szcenáriók%20–%20mit%20választanál.md)
 
-[M6.A – Peula: „Játék-labor 4 kvucára” (45’)](./Peulák/M6.A%20–%20Peula%20–%20Játék-labor%204%20kvucára%20%2845’%29.md)
+[M6.A – Peula: „Játék-labor 3 aktuális kvucára” (45’)](./Peulák/M6.A%20–%20Peula%20–%20Játék-labor%203%20aktuális%20kvucára%20%2845’%29.md)
 
 [M6.B – Peula: „Játéklap-műhely – saját eszköz tervezése” (45’)](./Peulák/M6.B%20–%20Peula%20–%20Játéklap%20workshop%20–%20saját%20eszköz%20tervezése%20%2845’%29.md)
 

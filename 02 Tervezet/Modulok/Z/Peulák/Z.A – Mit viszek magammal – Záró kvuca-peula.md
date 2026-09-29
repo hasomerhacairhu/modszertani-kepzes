@@ -4,7 +4,7 @@
 
 **Peula kód:**`Z.A`
 **Cím (kvucának):** Mit viszek magammal? – Záró kvuca-peula
-**Kapcsolódó online leckék:**`Z.1 – Visszanéző tükör`, `Z.2 – Tanultam valamit?!`, `Z.3 – Híd a terepre`, `Z.4 – Záró reflexió + feedback`
+**Kapcsolódó online leckék:**`Z.1 – Visszanéző tükör`, `Z.2 – Tanultam valamit?!`, `Z.3 – Híd a terepre`, `Z.4 – Záró reflexió + képzési visszajelzés`
 **Modul:**`Z – Zárás & híd a terepre`
 **Időtartam:**`45’–60’ (ideális: 60’, szűkített verzió: 45’)`
 
@@ -21,7 +21,7 @@
 **Kapcsolat az online résszel:**
 
 * **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 timeline, tanulási pillanatok, következő lépések).
-* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzés feedback” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg; a peulán megfogalmazott gondolatokból dolgozik).
+* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzési visszajelzés” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg; a peulán megfogalmazott gondolatokból dolgozik).
 
 ***
 

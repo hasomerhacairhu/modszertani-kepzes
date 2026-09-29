@@ -216,6 +216,6 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 
 [Z.3 – „Híd a terepre” – következő lépések](./Online%20leckék/Z.3%20–%20Híd%20a%20terepre%20–%20következő%20lépések.md)
 
-[Z.4 – „Záró reflexió + képzési visszajelzés”](./Online%20leckék/Z.4%20–%20Záró%20reflexió%20+%20képzés%20feedback.md)
+[Z.4 – „Záró reflexió + képzési visszajelzés”](./Online%20leckék/Z.4%20–%20Záró%20reflexió%20+%20képzési%20visszajelzés.md)
 
 [Z.A – „Mit viszek magammal?” – Záró kvuca-peula](./Peulák/Z.A%20–%20Mit%20viszek%20magammal%20–%20Záró%20kvuca-peula.md)

@@ -122,9 +122,9 @@
 * **Online terhelés:** kb. **4 db mikrolecke** H5P-magja: M7.1–M7.4 egyenként **15–20’** (össz. ~**60–75’**); ehhez jön **M7.3 Moodle Checklist (5–10’)** és **M7.4 Moodle Assignment-kitöltés (5–10’)** külön lépésként → online összterhelés **~70–95 perc**.
 * **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrich-óra, otthoni / védett munkaidő):**
   * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
-  * **v1 → v2 véglegesítés** (az M7.B peula-klinika visszajelzései után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **biztonsági rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, etikus AI-átírás, és a **portfólió-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 biztonsági keret/kvuca-profil · M5 módszer · M6 játéklap).
+  * **v1 → v2 véglegesítés** (az M7.B peula-műhely visszajelzései után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **biztonsági rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, etikus AI-átírás, és a **portfólió-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 biztonsági keret/kvuca-profil · M5 módszer · M6 játéklap).
   * **Teljesítési kvíz** (14 item, esetleg 2–3 próbálkozás): **~15–25 perc**.
-  * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 1,5–2,5 óra**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrichoknak (alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok), és adj hozzá **védett munkaidőt** (pl. M7.B-klinika + M7.F felzárkóztató műhely).
+  * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 1,5–2,5 óra**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrichoknak (alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok), és adj hozzá **védett munkaidőt** (pl. M7.B-műhely + M7.F felzárkóztató műhely).
 * **Teljes terhelés:** kb. **2,5–3 óra kontaktidő (online mikroleckék + 2 peula)** **+ kb. 1,5–2,5 óra önálló szintézis-produktum-munka (Peula v2 véglegesítés + kvíz)** → reálisan **össz. ~4–5,5 óra** a félévzáró kapuig.
 
 **Modulközponti kérdés**
@@ -273,7 +273,7 @@ A modul végére a madrich…
 ### Peula B (M7.B) – „Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal” (45’)
 
 * **Kapcsolódás:** elsősorban **M7.3–M7.4** alkalmazása (Zmán Kvucá-checklist + Peula v2 váz).
-* **Hol áll a kétkapus ívben:** ez a **hét 2** peulája – a **v1 elsővázlat-ellenőrzési pont** (hét 1 vége) és a **v2 teljesítési kapu** (hét 2 vége) **közti** csiszoló alkalom. A klinikán **a már leadott Peula v1-et** fejleszted tovább; a véglegesített v2-t **nem itt, aznap** adod le, hanem a klinika utáni munkával, a hét 2 végén.
+* **Hol áll a kétkapus ívben:** ez a **hét 2** peulája – a **v1 elsővázlat-ellenőrzési pont** (hét 1 vége) és a **v2 teljesítési kapu** (hét 2 vége) **közti** csiszoló alkalom. A műhelyben **a már leadott Peula v1-et** fejleszted tovább; a véglegesített v2-t **nem itt, aznap** adod le, hanem a műhely utáni munkával, a hét 2 végén.
 * **Fő cél:**
   * 1 már leadott **Peula v1 vázlat** továbbfejlesztése a **v2 felé** Zmán Kvucá-szempontból (idő, tér, létszám, eszköz/B-terv, inkluzivitás, gyermekvédelem).
   * Átélni, hogy nem az a jó peula, ami papíron a legkreatívabb, hanem amit **biztonságban meg is tudsz tartani** a saját kvucádnak.
@@ -281,7 +281,7 @@ A modul végére a madrich…
   „Nem az a jó peula, ami papíron nagyon kreatív, hanem amit **biztonságban meg is tudsz tartani**.”
 * **Rövid váz:**
   * Ráhangolódás: „Mi volt a legnagyobb tanulságod a Zmán Kvucá-checklistből?”
-  * Peula-klinika kiscsoportban:
+  * Peula-műhely kiscsoportban:
     * 1 kiválasztott Peula v2-re végigpörgetik a checklistet,
     * beírják a hiányzó biztonsági / operatív elemeket,
     * opcionálisan kipróbálnak 1–2 AI-promptot (pl. alternatív helyszín-ötlet, B-terv, feldolgozó kérdések); aki nem használ AI-t, ugyanazt saját ötleteléssel, mentorral vagy nyomtatott promptkártyával végzi.
@@ -392,7 +392,7 @@ A modul végére a madrich…
   * ha valaki nem éri el a küszöböt:
     * rövid, konkrét **SBI-visszajelzés** (max. 3 pontban),
     * lehetőség javított Peula v2 leadására,
-    * ha többszöri próbálkozás után is nehéz, **peula-klinika** mentorral / képzővel (egyéni támogatás).
+    * ha többszöri próbálkozás után is nehéz, **peula-műhely** mentorral / képzővel (egyéni támogatás).
 
 ***
 
@@ -413,7 +413,7 @@ A modul végére a madrich…
 **Assignment-rubrika adatok (Peula v2 + Zmán Kvucá)**
 
 * A rubrika-sorok átlagpontszáma:
-  * ha a „Biztonság & gyermekvédelem” vagy a „Kvuca-illeszkedés” pont gyenge sokaknál, az jelzi, hogy több **Zmán Kvucá- és biztonság-fókuszú** támogatás kell (pl. extra M7.B-szerű peula-klinika).
+  * ha a „Biztonság & gyermekvédelem” vagy a „Kvuca-illeszkedés” pont gyenge sokaknál, az jelzi, hogy több **Zmán Kvucá- és biztonság-fókuszú** támogatás kell (pl. extra M7.B-szerű peula-műhely).
   * ha az „AI-etikusság” sor gyenge, érdemes külön mini-anyagot csinálni AI & gyermekvédelem témában.
 
 **Quiz-eredmények (SMART & Zmán Kvucá)**
@@ -431,7 +431,7 @@ A modul végére a madrich…
 **Küszöbök / beavatkozási pontok**
 
 * ha a résztvevők **>30%-a nem fejezi be** az M7.2-t vagy M7.3-at → ajánlott **M7.F felzárkóztató peula** beiktatása.
-* ha a Peula v2 rubrika szerint a csoport kevesebb mint **60%-a** éri el a 70%-os küszöböt → modul utáni közös **peula-klinika**, sablon-finomhangolás, plusz támogatás cél- és biztonsági szinten.
+* ha a Peula v2 rubrika szerint a csoport kevesebb mint **60%-a** éri el a 70%-os küszöböt → modul utáni közös **peula-műhely**, sablon-finomhangolás, plusz támogatás cél- és biztonsági szinten.
 
 
 

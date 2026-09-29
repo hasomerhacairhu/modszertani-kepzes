@@ -47,7 +47,7 @@ APPROVED_VISIBLE_EDITS = {
         "D9 — címkecsere",
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md":
         "D9 — címkecsere",
-    "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md":
+    "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md":
         "D9 — címkecsere",
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md":
         "D9 — címkecsere",
@@ -113,7 +113,7 @@ APPROVED_VISIBLE_EDITS = {
         "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md":
         "F-07 — nincs Moodle-visszakeresési ígéret; saját mentés + emlékezet-fallback",
-    "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md":
+    "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md":
         "F-02 — „név nélkül megjelenő” visszajelzés, Moodle-doksi idézettel; anonimitás-szint emberi döntés",
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md":
         "F-05 + F-02 — átlátható odalépés a helyi szabály szerint; a kérdőív-megnevezés pontosítva",
@@ -145,7 +145,7 @@ AUDIT_2026_09_26_VISIBLE_EDITS = {
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md",
     "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md",
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-    "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
+    "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
     "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
     "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
