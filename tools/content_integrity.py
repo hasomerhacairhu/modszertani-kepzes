@@ -87,7 +87,7 @@ FILE_FORBIDDEN_PHRASES = {
         '4 kvuca-profil':
             'az M3 aktuális korosztálymodellje Parparim 6–9, Kivsza 10–12, Leviatan 13–17',
     },
-    '02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md': {
+    '02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md': {
         '6–10 / 11–13 / 14–16 / 16+':
             'az M6 korosztály-illesztése a 2025/26-os három aktuális Somer-csoportot használja',
         'Játék-kategóriák 4 kvucára':
