@@ -60,3 +60,4 @@ jobs:
       - name: Current counts
         if: always()
         run: python tools/media_manifest.py stats
+
