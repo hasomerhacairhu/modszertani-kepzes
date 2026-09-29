@@ -41,8 +41,10 @@ python3 tools/content_integrity.py --release-report
 ```
 
 - `Objective integrity errors: 0` **kötelező**. Bármely `ERROR:` sor blokkoló.
-- A `BLOCKER:` sorok release-kapuk (`KITÖLTENDŐ`, nyitott checklist) — ezeket
-  **nem töltjük ki találgatásból**, jelentendők.
+- A `BLOCKER:` sorok szemantikus release-kapuk: nyitott `HUM-*` döntések,
+  produkciós szabályok, LMS `BUILD_OUTPUT`, runtime `RUNTIME_OUTPUT` és kanonikus
+  checklistek. A puszta dokumentációs `KITÖLTENDŐ` szóelőfordulás nem blocker.
+  A valódi nyitott értékeket **nem töltjük ki találgatásból**, jelentendők.
 
 ## 2. Média-manifest és generált output
 

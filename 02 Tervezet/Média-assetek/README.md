@@ -61,7 +61,7 @@ Ezek a fájlok **kézzel nem szerkeszthetők**:
 | `produkcios-szabalyok.json` | Az R1–R8 produkciós konvenciók szövege. **Kézzel karbantartott:** amikor egy szervezeti vagy jogi döntés megszületik, itt kell kivezetni a `⟬KITÖLTENDŐ⟭` jelölést. A fordító ebből dolgozik, nem a befagyasztott v1 pillanatképből. |
 | [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) | A gyártás elindításához hiányzó **emberi döntések** — egy helyen, döntésenként egy kérdéssel, opciókkal és hatásszámmal. Kézzel karbantartott. |
 | [`RELEASE-MEDIA-STATUS.md`](./RELEASE-MEDIA-STATUS.md) | A release-szükségesség és a gyártási blokkoltság külön kezelése; az M0+M1 staging média-fallbackjei. |
-| [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) | Az R3 végrehajtási lapja: nyelv, regiszter, tempó, kiejtés, felirat-viszony, kimenet. Az egyetlen nyitott mezője a motor/hang választása. |
+| [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) | Az R3 végrehajtási lapja: nyelv, regiszter, tempó, kiejtés, felirat-viszony, kimenet. A szintetikus út és az ElevenLabs már eldőlt; a konkrét voice-ID, modell, reprodukciós beállítások és kiejtési szótár maradt nyitva. |
 | [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) | Az R5 lock-lapja: mi kötelező már most, mi következetes de nem hivatalos, és mi hiányzik. |
 | [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) | R2/R8 bizonyíték-nyilvántartás. Nem hoz jogi következtetést, és személyes adatot nem tartalmaz. |
 | [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) | A D1 előkészítése: a mozgalom **hivatalos arculati kézikönyvéből** kinyert paletta és szabályok, számított WCAG-kontrasztokkal, és két jóváhagyható változat. Ajánlás, nem lezárás. |
@@ -147,7 +147,7 @@ A nyugdíjazott v1 pipeline és a befagyasztott `media-merged.json`. **Nem káno
 és nem futtatható** — a részletek: [`_legacy/README.md`](./_legacy/README.md).
 Megőrizzük, mert a 747 történeti sor egyeztetése ebből dolgozik.
 
-## Mi blokkolja még a produkciót? (⟬KITÖLTENDŐ⟭)
+## Mi blokkolja még a produkciót?
 
 A regiszter naprakész — a **gyártás** viszont nem indulhat, amíg ezek nyitva
 vannak. Az érintett assetek a `blockers` mezőben hivatkoznak rájuk, és a
@@ -157,7 +157,7 @@ munkafüzet *Produkciós konvenciók* lapján olvasható.
 | Kapu | Mi hiányzik | Mit blokkol |
 |---|---|---|
 | **R2** — AI-avatar / AI-hang IP-megfelelőség | a generátor neve, a kereskedelmi licenc és a voice-talent release igazolása | a 21 beszélőfej-videó, az 5 AI karakter-jelenet és a belőlük kivett 2 állókép |
-| **R3** — Narrátor hang-bible | a konkrét TTS-motor / voice-ID, vagy az emberi felmondó | minden narráció, hang és videó |
+| **R3** — Narrátor hang-bible | a konkrét ElevenLabs voice-ID, modell-azonosító, reprodukciós beállítások és kiejtési szótár | minden narráció, hang és videó |
 | **R5** — Ikon- és karakter-batch + lock | a rögzített **someres hex-paletta** (a szabály ezen belül tartja nyitva) | minden tervezett vizuál és nyomtatott anyag, valamint az AI karakter-jelenetek |
 | **R7** — Produkciós függőségek | a véglegesített Moodle-felület | a kurzusfelületet ábrázoló képernyőkép |
 | **R8** — GDPR / képmás-védelem | valós fotón/képernyőképen minden azonosítható személy és kézírás anonimizálása vagy kikeretezése; **felismerhető kiskorúnál előre dokumentált szülői hozzájárulás**; képernyőképen nincs valós felhasználónév, arc vagy licenc-korlátos harmadik felas elem | a tananyag **két** valós felvétele: a Moodle-képernyőkép és a kvuca-plakátok archív fotói |
