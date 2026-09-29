@@ -173,7 +173,7 @@ A modul végére a madrich…
 
 ## 6. Kapuk
 
-* **Kaputípus:** puha kapu (soft gate) – az önreflexió a lényeg, nem vizsga; jelzés és támogatás, nem kizárás.
+* **Kaputípus:** puha kapu – az önreflexió a lényeg, nem vizsga; jelzés és támogatás, nem kizárás.
 * **A kapu értékelő sablonja:** az önellenőrző lista, az 1 oldalas jegyzet-sablon és a fejlesztő rubrika **nem itt, hanem a hivatalos [M2 – KAPU – értékelő (item-bank + rubrika)](./M2%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban él** – ez a §6 hivatkozási forrása. **Az ottani A. szakasz adja a 10 pontos tanulói önellenőrzést, a C. szakasz a 4 soros (R1–R4) fejlesztő rubrikát, a D. szakasz pedig az 1 oldalas jegyzet-sablont.**
 * **Eszközök:**
   * Activity completion (H5P + Assignment) az M2.1–M2.4 leckékre **– ahol a „completion” nem a végiglapozást jelenti, hanem érdemi kitöltést** (lásd lentebb a „Mit jelent a complete?” pontot);
@@ -191,7 +191,7 @@ A modul végére a madrich…
 4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza + 3 saját határszabály; a privát naplórész nem beadandó.
 5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal **– az értékelő-fájl D. szakasz sablonja szerint, a tanuló előbb lefuttatja magán az A. szakasz 10 pontos önellenőrzését.**
 
-**Soft-gate küszöb (az értékelő-fájlból átvéve):**
+**Puha kapu küszöbe (az értékelő-fájlból átvéve):**
 
 > A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (felzárkóztató műhely) ajánlást kap, és újra beadhat** – nincs kizárás, nincs limit a próbálkozásra.
 

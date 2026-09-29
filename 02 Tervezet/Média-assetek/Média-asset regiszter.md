@@ -112,7 +112,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M0.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Éves útiterv timeline (M0→M7→Z) | — | alt-szöveg | AI-generált |
+| `M0.1-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Éves útiterv idővonal (M0→M7→Z) | — | alt-szöveg | AI-generált |
 | `M0.1-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Hook-ikon: útiterv / térkép / lépcső | — | alt-szöveg | AI-generált |
 | `M0.1-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | 3 ígéret-ikon (kézfogás, létra, pajzs) | — | alt-szöveg | AI-generált |
 
@@ -128,7 +128,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M0.2-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | SLIDE 1 hook-ikonok: barát / tanár / szuperhős | — | alt-szöveg | AI-generált |
 | `M0.2-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | SLIDE 5 dugma ishit ikonok: kör / chat / kulissza | — | alt-szöveg | AI-generált |
 
-### 02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a gate.md
+### 02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md
 
 *Egység:* `M0.3` · *típus:* online-lecke
 
@@ -160,12 +160,12 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M0.A-KART-01` | card-set | legyártandó | produkciós szabályra vár | Red-flag mini-protokoll kártya a képzőnek | — | nyomtatható PDF | vegyes |
 | `M0.A-KART-02` | card-set | legyártandó | produkciós szabályra vár | Képzői safety-mondatok kártya | — | nyomtatható PDF | vegyes |
 | `M0.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Kvuca-plakát 3 rubrikás sablon (Mit várok / Mitől félek / Mit hozok) | — | nyomtatható PDF | vegyes |
-| `M0.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Exit ticket cetli – 2 kérdéses sablon | — | nyomtatható PDF | vegyes |
+| `M0.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Kilépőkártya – 2 kérdéses sablon | — | nyomtatható PDF | vegyes |
 | `M0.A-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Moodle-belépési segédlet (papír helpdesk-kézirat) | — | nyomtatható PDF | vegyes |
 | `M0.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | „KÖZÖS KERET" 2 oszlopos flipchart-sablon | — | nyomtatható PDF | vegyes |
 | `M0.A-POSZ-02` | poster | legyártandó | produkciós szabályra vár | „Kihez fordulhatok?" támasz-térkép sablon (buborékábra) | — | nyomtatható PDF | vegyes |
 
-### 02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés – Johari + SBI.md
+### 02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md
 
 *Egység:* `M1-HUB` · *típus:* hub
 
@@ -185,7 +185,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M1.1-IKO-02` | icon-set | legyártandó | produkciós szabályra vár | Önreflexió-ikon (gondolkodó figura / napló) | — | alt-szöveg | AI-generált |
 | `M1.1-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Üres 4 ablakos Johari-váz grafika (címke nélkül) | — | alt-szöveg | AI-generált |
 | `M1.1-ILL-02` | illustration | legyártandó | produkciós szabályra vár | Példa-grid (4 mező) ikonokkal – 4 hétköznapi példa | — | — | AI-generált |
-| `M1.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – Safety / érzelmi check-in | `M1.1-NAR-02-VO` | felirat, leirat | AI-generált |
+| `M1.1-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – Biztonság / érzelmi ráhangolódás | `M1.1-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M1.1-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – „Mi az a Johari-ablak?” (4 mező) | `M1.1-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M1.1-NAR-04` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – Példák a 4 mezőre | `M1.1-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M1.1-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Narráció – Önreflexió bevezető (opcionális) | `M1.1-NAR-05-VO` | felirat, leirat | AI-generált |
@@ -410,7 +410,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.1-NAR-05` | voiceover/narration | legyártandó | produkciós szabályra vár | Outro narráció – átvezetés M3.2-re | `M3.1-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M3.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK beszélő fej – három kvuca-sztori | `M3.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
-### 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md
+### 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md
 
 *Egység:* `M3.2` · *típus:* online-lecke
 
@@ -560,7 +560,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.3-NAR-02` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 2 narráció – Négy kérdéstípus | `M4.3-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M4.3-NAR-03` | voiceover/narration | legyártandó | produkciós szabályra vár | SLIDE 6 narráció – Outro/reflexió | `M4.3-NAR-03-VO` | felirat, leirat | AI-generált |
 
-### 02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md
+### 02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md
 
 *Egység:* `M4.4` · *típus:* online-lecke
 
@@ -587,18 +587,18 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.A-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Flipchart-előkészítő sablon – kulcsmondatok & megfigyelés-kulcsszavak (opcionális) | — | nyomtatható PDF | vegyes |
 | `M4.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | „M4 – kiállás” gyűjtő-boríték / fal-címke | — | nyomtatható PDF | vegyes |
 
-### 02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md
+### 02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md
 
 *Egység:* `M4.B` · *típus:* peula
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M4.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Exit-ticket kártya / post-it sablon (2 kérdés) | — | nyomtatható PDF | emberi |
+| `M4.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Kilépőkártya / öntapadós jegyzet sablon (2 kérdés) | — | nyomtatható PDF | emberi |
 | `M4.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Gyors peulabemutató-vázlat mini-sablon (B-terv munkalap) | — | nyomtatható PDF | emberi |
 | `M4.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4) | — | nyomtatható PDF | emberi |
 | `M4.B-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Kérdéstípusok flipchart-/poszter-sablon (4 típus) | — | nyomtatható PDF | vegyes |
 
-### 02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md
+### 02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md
 
 *Egység:* `M4.F` · *típus:* peula
 
@@ -644,7 +644,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M5.2-ILL-01` | illustration | legyártandó | produkciós szabályra vár | Bevezető jelenet-illusztráció: madrich a péntek esti felkérés előtt | — | alt-szöveg | AI-generált |
 | `M5.2-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Feladat–cél–kvuca–módszer mondatbefejező munkalap | — | nyomtatható PDF | AI-generált |
 
-### 02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, visszahívás, spacing.md
+### 02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md
 
 *Egység:* `M5.3` · *típus:* online-lecke
 
@@ -698,7 +698,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M5.F-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tájékozódó tábla – M5 leckelista + név nélküli témakérések | — | nyomtatható PDF | emberi |
 | `M5.F-POSZ-02` | poster | legyártandó | produkciós szabályra vár | Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak | — | nyomtatható PDF | emberi |
 
-### 02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md
+### 02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md
 
 *Egység:* `M6-HUB` · *típus:* hub
 
@@ -706,7 +706,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M6-HUB-MUNK-01` | worksheet | újrahasznosítás | specifikáció kész | Játéklap-sablon (üres, kitölthető) – M6 modul-produktum | — | — | vegyes |
 
-### 02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md
+### 02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md
 
 *Egység:* `M6.1` · *típus:* online-lecke
 
@@ -780,19 +780,19 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M6.4-IKO-01` | icon-set | legyártandó | produkciós szabályra vár | Szcenárió- és visszajelzés-szekció ikonkészlet (9 szemantikus jelölő) | — | alt-szöveg | AI-generált |
 
-### 02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md
+### 02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md
 
 *Egység:* `M6.A` · *típus:* peula
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Exit ticket – „1 játék, amiről játéklapot készítenél” | — | nyomtatható PDF | AI-generált |
+| `M6.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Kilépőkártya – „1 játék, amiről játéklapot készítenél” | — | nyomtatható PDF | AI-generált |
 | `M6.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 3 kvuca-sarok korosztály-lapok (szett) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-02` | poster | legyártandó | produkciós szabályra vár | CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ mátrix flipchart-sablon | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-03` | poster | legyártandó | produkciós szabályra vár | Inkluzivitás-elemző tábla-sablon (4 oszlop) | — | nyomtatható PDF | AI-generált |
 
-### 02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md
+### 02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md
 
 *Egység:* `M6.B` · *típus:* peula
 
@@ -806,7 +806,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.B-MUNK-06` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4 – peula előtt/közben) | — | nyomtatható PDF | emberi |
 | `M6.B-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Produktum-visszajelzés flipchart-sablon (konkrét elem + várható hatás) | — | nyomtatható PDF | emberi |
 
-### 02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md
+### 02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md
 
 *Egység:* `M6.F` · *típus:* peula
 
@@ -829,7 +829,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7-HUB-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Modul-fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2 | — | alt-szöveg | AI-generált |
 | `M7-HUB-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu | — | alt-szöveg | AI-generált |
 | `M7-HUB-DIA-03` | diagram | legyártandó | produkciós szabályra vár | Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2 | — | alt-szöveg | AI-generált |
-| `M7-HUB-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | 1 perces exit-ticket munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés) | — | nyomtatható PDF | vegyes |
+| `M7-HUB-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | 1 perces kilépőkártya-munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés) | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md
 
@@ -911,7 +911,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Zmán Kvucá-mini-checklist (kiscsoportos munkalap) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | "Előtte–utána"-lap (galériaséta artefaktum-sablon) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Minta-Peula v1 (B-terv tartalék vázlat) | — | nyomtatható PDF | emberi |
-| `M7.B-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Exit ticket – mini visszajelző cetli | — | nyomtatható PDF | emberi |
+| `M7.B-MUNK-04` | worksheet | legyártandó | produkciós szabályra vár | Kilépőkártya – mini visszajelző cetli | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-05` | worksheet | legyártandó | produkciós szabályra vár | Kipróbálási kötelezettségvállalás – if–then mini sablon (3 sor) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-06` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4 – gyors átfutásra) | — | nyomtatható PDF | emberi |
 | `M7.B-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Flipchart-poszter: "Zmán Kvucá = …" definíció + "AI-határok" | — | nyomtatható PDF | emberi |
@@ -936,7 +936,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `Z-HUB-POSZ-02` | poster | újrahasznosítás | specifikáció kész | Lezáró rituálé – közös „felhő” plakát-sablon (opcionális) | — | — | AI-generált |
 
-### 02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md
+### 02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md
 
 *Egység:* `Z.1` · *típus:* online-lecke
 
@@ -990,7 +990,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | 02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md | `M5-KAPU` | kapu | Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.) |
 | 02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md | `M6-KAPU` | kapu | Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.) |
 | 02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md | `M7-KAPU` | kapu | Kapu-fájl: item-bank és rubrika. A benne szereplő plakát-, kártya- és videóemlítések kvíz-szituációk vagy tanulói beadványok, nem legyártandó anyagok; a külső PDF-hivatkozások szakirodalmi források. A kapu Moodle-beállítása a `02 Tervezet/LMS – activity manifest.md` kontrolltáblájában él, nem média-deliverable. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.) |
-| 02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md | `Z.4` | online-lecke | Moodle Assignment + Feedback lecke: a tartalmat a tanuló állítja elő (reflexiós szöveg vagy videó), a beállítás a `02 Tervezet/LMS – activity manifest.md`-ben él. Nincs legyártandó média-anyag. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.) |
+| 02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md | `Z.4` | online-lecke | Moodle Assignment + Feedback lecke: a tartalmat a tanuló állítja elő (reflexiós szöveg vagy videó), a beállítás a `02 Tervezet/LMS – activity manifest.md`-ben él. Nincs legyártandó média-anyag. (A v1 leltár is ellenőrzötten média nélkülinek sorolta.) |
 | 02 Tervezet/Adatvédelem – tanulói adatok és AI.md | `ADATVEDELEM` | program-doc | — |
 | 02 Tervezet/Emberi jóváhagyás szükséges.md | `EMBERIJOVAHAGYASSZUKSEGES` | program-doc | — |
 | 02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md | `GLOSSZARIUM` | program-doc | — |

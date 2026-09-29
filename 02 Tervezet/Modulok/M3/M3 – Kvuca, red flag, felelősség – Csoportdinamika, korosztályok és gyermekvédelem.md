@@ -316,7 +316,7 @@ A modul végére a résztvevő…
 
 [M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése](./Online%20leckék/M3.1%20–%20Történetek%20egy%20kvucáról%20–%20Tuckman-szakaszok%20felismerése.md)
 
-[M3.2 – „Parparim, Kivsza, Leviatan” – 3 kvuca, 3 világ](./Online%20leckék/M3.2%20–%20Parparim,%20Kivsza,%20Leviatan,%20Zorea%20–%204%20kvuca,%204%20világ.md)
+[M3.2 – „Parparim, Kivsza, Leviatan” – 3 kvuca, 3 világ](./Online%20leckék/M3.2%20–%20Parparim,%20Kivsza,%20Leviatan%20–%203%20kvuca,%203%20világ.md)
 
 [M3.3 – „Gyermekvédelem 101” – red flag felismerése & első lépések](./Online%20leckék/M3.3%20–%20Gyermekvédelem%20101%20–%20red%20flag%20felismerése%20&%20első%20lépések.md)
 

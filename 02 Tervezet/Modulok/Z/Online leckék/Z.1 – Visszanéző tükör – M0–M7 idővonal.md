@@ -1,9 +1,9 @@
-# Z.1 – „Visszanéző tükör” – M0–M7 timeline
+# Z.1 – „Visszanéző tükör” – M0–M7 idővonal
 
 ## 1. Lecke meta
 
 **Kód:** Z.1
-**Cím (tanulónak):** Visszanéző tükör – M0–M7 timeline
+**Cím (tanulónak):** Visszanéző tükör – M0–M7 idővonal
 **Időtartam:** 10–15 perc
 **Eszközök:**
 
@@ -18,7 +18,7 @@
 
 > „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit haladtál már** az úton madrichként.”
 
-**Felépítés:** Hook → Input (timeline + modul-egymondatosok) → Activity (saját fénypontok) → Check (mini-kvíz + záró mondat)
+**Felépítés:** Hook → Input (idővonal + modul-egymondatosok) → Activity (saját fénypontok) → Check (mini-kvíz + záró mondat)
 
 ***
 
@@ -26,7 +26,7 @@
 
 **Moodle-oldal / Label – a H5P előtt jelenjen meg**
 
-### Z.1 – Visszanéző tükör – M0–M7 timeline
+### Z.1 – Visszanéző tükör – M0–M7 idővonal
 
 > Ebben a **10–15 perces** leckében visszanézünk az egész félévre:
 > **M0–M7** – honnan indultunk, és hova jutottál el madrichként.
@@ -48,7 +48,7 @@ Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb �
 > **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) a `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** — ha a teszt nem igazolja, a mező Moodle-oldalra kerül.
 
 Összesen **6–7 slide**.
-Struktúra: Intro/Hook → Timeline Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
+Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
 
 ***
 
@@ -135,7 +135,7 @@ Opciók (legördülő vagy listában):
 
 ***
 
-### SLIDE 2 – INPUT 1: „Mit csináltunk M0–M7 között?” – rövid timeline
+### SLIDE 2 – INPUT 1: „Mit csináltunk M0–M7 között?” – rövid idővonal
 
 <!-- @asset
 {

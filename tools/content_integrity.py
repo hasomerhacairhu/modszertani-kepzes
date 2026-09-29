@@ -87,9 +87,27 @@ FILE_FORBIDDEN_PHRASES = {
         '4 kvuca-profil':
             'az M3 aktuális korosztálymodellje Parparim 6–9, Kivsza 10–12, Leviatan 13–17',
     },
-    '02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md': {
+    '02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md': {
         '6–10 / 11–13 / 14–16 / 16+':
             'az M6 korosztály-illesztése a 2025/26-os három aktuális Somer-csoportot használja',
+        'Játék-kategóriák 4 kvucára':
+            'az M6.1 címe és tartalma a három aktuális kvucát használja',
+        'Játék-labor 4 kvucára':
+            'az M6.A címe és tartalma a három aktuális kvucát használja',
+    },
+    '02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md': {
+        'négy alap korosztályban':
+            'az M6.1 learner-facing narrációja a három aktuális korosztályt használja',
+        '4 kvucára':
+            'az M6.1-ben a régi négycsoportos címke nem térhet vissza',
+    },
+    '02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md': {
+        '4 kvucára':
+            'az M6.A-ban a régi négycsoportos címke nem térhet vissza',
+    },
+    '02 Tervezet/LMS – activity manifest.md': {
+        'M6.1 – Játék-kategóriák 4 kvucára':
+            'az LMS manifestnek ugyanazt a háromcsoportos M6.1 címet kell használnia',
     },
     '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md': {
         'Parparim / Kivsza / Leviatan / Zorea':

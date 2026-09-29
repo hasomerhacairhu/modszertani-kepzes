@@ -184,11 +184,11 @@ Az M4-ben használt, legfeljebb kb. 45 másodperces bevezető: kinek szól a peu
 **Modul-hubok:**
 
 - **[M0 – „Kickoff, keret, technika”](./Modulok/M0/M0%20–%20Kickoff,%20keret,%20technika.md)**
-- **[M1 – „Vakfolt, tükör, visszajelzés”](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20feedback%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)** – Johari-ablak, SBI.
+- **[M1 – „Vakfolt, tükör, visszajelzés”](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20visszajelzés%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)** – Johari-ablak, SBI.
 - **[M2 – „Ki vagyok madrichként_”](./Modulok/M2/M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)** – identitás, Somer-értékek, dugma ishit.
 - **[M3 – „Kvuca, red flag, felelősség”](./Modulok/M3/M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyermekvédelem.md)** – csoportdinamika, korosztályok, gyermekvédelem.
 - **[M4 – „Hallható és érthető vagyok_”](./Modulok/M4/M4%20–%20Hallható%20és%20érthető%20vagyok%20–%20Kiállás,%20kapcsolódás%20&%20kérdezéstechnika.md)**
 - **[M5 – „Ez most játék vagy tanulás_”](./Modulok/M5/M5%20–%20Ez%20most%20játék%20vagy%20tanulás%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)** – nonformális nevelés, tanulástan.
-- **[M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”](./Modulok/M6/M6%20–%20Toolbox%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
+- **[M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”](./Modulok/M6/M6%20–%20Eszköztár%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
 - **[M7 – „Peula a papírtól a valóságig”](./Modulok/M7/M7%20–%20Peula%20a%20papírtól%20a%20valóságig%20–%20Programírás,%20Zmán%20Kvucá%20&%20AI-támogatott%20tervezés.md)** – programírás, Zmán Kvucá.
 - **[Z – „Zárás & híd a terepre”](./Modulok/Z/Z%20–%20Zárás%20&%20híd%20a%20terepre.md)**

@@ -64,11 +64,11 @@ A modul végére a résztvevő…
 
 ## 3. Online mikroleckék (Z.1–Z.3) + záró produktum (Z.4)
 
-### Z.1 – „Visszanéző tükör” – M0–M7 timeline (10–15’)
+### Z.1 – „Visszanéző tükör” – M0–M7 idővonal (10–15’)
 
 * **Cél:** rátekinteni az egész félévre **egyben**.
-* **Eszközök:** Moodle Page (vizuális timeline), H5P Presentation / Interactive Book + 3–5 könnyű emlékeztető kérdés.
-* **Kulcs:** modul-timeline, modulonként 1 mondat; végén nyitott kérdés: „Írj le 1 dolgot, amit semmiképp nem szeretnél elfelejteni ebből a félévből.”
+* **Eszközök:** Moodle Page (vizuális idővonal), H5P Presentation / Interactive Book + 3–5 könnyű emlékeztető kérdés.
+* **Kulcs:** modul-idővonal, modulonként 1 mondat; végén nyitott kérdés: „Írj le 1 dolgot, amit semmiképp nem szeretnél elfelejteni ebből a félévből.”
 
 ***
 
@@ -170,7 +170,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 ### Kaputípus
 
-* **Puha / completion gate** – a Z modul **nem vizsga**, cél, hogy mindenkinek legyen valamilyen záró reflexiója.
+* **Puha, teljesítettség-alapú kapu** – a Z modul **nem vizsga**, cél, hogy mindenkinek legyen valamilyen záró reflexiója.
 
 ### Eszközök
 
@@ -210,12 +210,12 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 
 
 
-[Z.1 – „Visszanéző tükör” – M0–M7 timeline](./Online%20leckék/Z.1%20–%20Visszanéző%20tükör%20–%20M0–M7%20timeline.md)
+[Z.1 – „Visszanéző tükör” – M0–M7 idővonal](./Online%20leckék/Z.1%20–%20Visszanéző%20tükör%20–%20M0–M7%20idővonal.md)
 
 [Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim](./Online%20leckék/Z.2%20–%20Tanultam%20valamit!%20–%20saját%20tanulási%20pillanataim.md)
 
 [Z.3 – „Híd a terepre” – következő lépések](./Online%20leckék/Z.3%20–%20Híd%20a%20terepre%20–%20következő%20lépések.md)
 
-[Z.4 – „Záró reflexió + képzési visszajelzés”](./Online%20leckék/Z.4%20–%20Záró%20reflexió%20+%20képzés%20feedback.md)
+[Z.4 – „Záró reflexió + képzési visszajelzés”](./Online%20leckék/Z.4%20–%20Záró%20reflexió%20+%20képzési%20visszajelzés.md)
 
 [Z.A – „Mit viszek magammal?” – Záró kvuca-peula](./Peulák/Z.A%20–%20Mit%20viszek%20magammal%20–%20Záró%20kvuca-peula.md)

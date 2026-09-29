@@ -172,7 +172,7 @@ Közös hanuka-programon valaki odaszól: *„Ez az egész zsidó dolog tök cik
 >
 > **LMS:** Moodle Assignment → értékelési módszer: **Rubric** (4 sor, soronként 3 szint). A szintekhez a Moodle-ben rendelhető 0/1/2 „pont”, de ezt **ne mutasd osztályzatként** – a tanuló a **szöveges szintleírást és a kommentet** látja, nem rangsort.
 >
-> **Soft-gate küszöb:** beadás elfogadva, ha **minden sor ≥ „1 – elindult”** ÉS **legalább 1 sor „2 – kész”**. Ez alatt → fejlesztő komment + M2.F ajánlás + újra beadás (nincs bukás, nincs limit).
+> **Puha kapu küszöbe:** beadás elfogadva, ha **minden sor ≥ „1 – elindult”** ÉS **legalább 1 sor „2 – kész”**. Ez alatt → fejlesztő komment + M2.F ajánlás + újra beadás (nincs bukás, nincs limit).
 
 | # | Mit nézünk (megfigyelhető) | 0 – még nincs meg | 1 – elindult | 2 – kész (látható, konkrét) |
 |---|---|---|---|---|

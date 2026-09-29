@@ -62,7 +62,7 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M5-04 | BUILD_OUTPUT | M5 | M5.4 – Cél–kvuca–módszer mini-táblázat | H5P-C | igen | M5/Online leckék/M5.4 | LMS-M5-03 | profil | nincs | M5_L4 | |
 | LMS-M5-05 | BUILD_OUTPUT | M5 | M5.4 – Modulproduktum | ASSIGN-M | igen | M5.4 + M5 KAPU | **M5.B után** | leadva + rubrika | minden sor ≥ Alapszint; **R4 Hiányos = javítás** | M5_ASSIGN | |
 | LMS-M5-06 | BUILD_OUTPUT | M5 | M5 – Fogalmi önellenőrzés | QUIZ-D | igen | M5 KAPU | LMS-M5-04 | kitöltve | ≥10/12 csak diagnosztikus jelző | M5_QUIZ | 2–3 próbálkozás |
-| LMS-M6-01 | BUILD_OUTPUT | M6 | M6.1 – Játék-kategóriák 4 kvucára | H5P-C | igen | M6/Online leckék/M6.1 | **M5 complete** | profil | nincs | M6_L1 | |
+| LMS-M6-01 | BUILD_OUTPUT | M6 | M6.1 – Játék-kategóriák 3 aktuális kvucára | H5P-C | igen | M6/Online leckék/M6.1 | **M5 complete** | profil | nincs | M6_L1 | |
 | LMS-M6-02 | BUILD_OUTPUT | M6 | M6.2 – Történet mint tükör | H5P-C | igen | M6/Online leckék/M6.2 | LMS-M6-01 | profil | nincs | M6_L2 | |
 | LMS-M6-03 | BUILD_OUTPUT | M6 | M6.3 – Kézműves, ami tanít is | H5P-C | igen | M6/Online leckék/M6.3 | **M6.A után** | profil | nincs | M6_L3 | fotó csak HUM-PRIV-02 szerint |
 | LMS-M6-04 | BUILD_OUTPUT | M6 | M6.4 – Döntési szcenáriók | H5P-C | igen | M6/Online leckék/M6.4 | LMS-M6-03 | **legalább 3 külön eset tényleges teljesítése** | nincs | M6_L4 | runtime bizonyítandó |

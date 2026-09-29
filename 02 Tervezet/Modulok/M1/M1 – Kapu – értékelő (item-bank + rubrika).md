@@ -6,7 +6,7 @@
 }
 -->
 
-← Vissza a modul-hubhoz: **[M1 – „Vakfolt, tükör, visszajelzés” – Önismeret & visszajelzés_ Johari + SBI](./M1%20–%20Vakfolt,%20tükör,%20feedback%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)**
+← Vissza a modul-hubhoz: **[M1 – „Vakfolt, tükör, visszajelzés” – Önismeret & visszajelzés_ Johari + SBI](./M1%20–%20Vakfolt,%20tükör,%20visszajelzés%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)**
 
 > **Mi ez?** Az M1 modul **éles teljesítési kapujának** kész értékelő anyaga: egy szintezett SBI-rubrika a beadott visszajelzés-szöveghez, két mintaértékelés, és egy kísérő (formatív) item-bank a felismerő tudás ellenőrzéséhez.
 > **Kinek szól?** Neked, aki képzőként/mentorként pontozod az M1.4 beadványt és visszajelzést írsz a tanulónak. Tegezős, someres-barát, de szakmailag pontos.

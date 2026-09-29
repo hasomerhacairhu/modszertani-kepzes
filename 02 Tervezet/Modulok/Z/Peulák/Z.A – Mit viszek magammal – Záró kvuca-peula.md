@@ -4,7 +4,7 @@
 
 **Peula kód:**`Z.A`
 **Cím (kvucának):** Mit viszek magammal? – Záró kvuca-peula
-**Kapcsolódó online leckék:**`Z.1 – Visszanéző tükör`, `Z.2 – Tanultam valamit?!`, `Z.3 – Híd a terepre`, `Z.4 – Záró reflexió + feedback`
+**Kapcsolódó online leckék:**`Z.1 – Visszanéző tükör`, `Z.2 – Tanultam valamit?!`, `Z.3 – Híd a terepre`, `Z.4 – Záró reflexió + képzési visszajelzés`
 **Modul:**`Z – Zárás & híd a terepre`
 **Időtartam:**`45’–60’ (ideális: 60’, szűkített verzió: 45’)`
 
@@ -20,8 +20,8 @@
 
 **Kapcsolat az online résszel:**
 
-* **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 timeline, tanulási pillanatok, következő lépések).
-* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzés feedback” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg; a peulán megfogalmazott gondolatokból dolgozik).
+* **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 idővonal, tanulási pillanatok, következő lépések).
+* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzési visszajelzés” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg; a peulán megfogalmazott gondolatokból dolgozik).
 
 ***
 
@@ -237,7 +237,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
   "mode": "generate",
   "title": "Poszter seed-példák kártya – ha egy csoport megakad",
   "purpose": "Mintát ad a képzőnek, hogy egy megakadt kiscsoportot beindítson egy konkrét „így néz ki egy beírás” példával.",
-  "spec": "Facilitátori seed-példa kártya kész beírásokkal. Bal (Mit tanultunk?): „SBI-feedback – nem smiley, hanem konkrét helyzet + viselkedés + hatás”, „Johari-ablak: van vakfoltom”, „Zmán Kvucá tudatos tervezése”, „gyermekvédelmi red flag-ek”. Jobb (Mit csinálunk másképp?): „A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”, „Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.” Záró felszólítás: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?”",
+  "spec": "Facilitátori seed-példa kártya kész beírásokkal. Bal (Mit tanultunk?): „SBI-visszajelzés – nem smiley, hanem konkrét helyzet + viselkedés + hatás”, „Johari-ablak: van vakfoltom”, „Zmán Kvucá tudatos tervezése”, „gyermekvédelmi red flag-ek”. Jobb (Mit csinálunk másképp?): „A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”, „Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.” Záró felszólítás: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?”",
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
@@ -319,14 +319,14 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 3. **Kiscsoportos munka (10–12 perc)**
    Képző körbejár, kérdezhet:
    * Bal oldalra gyűljenek:
-     – modulnevek / témák (önismeret, feedback, kvuca, gyermekvédelem, nonformális stb.),
+     – modulnevek / témák (önismeret, visszajelzés, kvuca, gyermekvédelem, nonformális stb.),
      – 1–1 szó vagy mondat arról, mit visznek ebből.
    * Jobb oldalra:
      – 3–5 konkrét mondat: „A következő időszakban **úgy akarunk működni**, hogy…”,
      pl. több kérdés a peulán, tudatosabb Zmán Kvucá, gyermekvédelmi jelek, jelzések figyelése stb.
    > „Mi az, ami titeket leginkább megfogott a félévből?” „Melyik mondatot szeretnétek majd viszontlátni a valós peulákban is?”
    * **Ha egy csoport megakad / üres a plakát / senki nem szólal meg:** ne várj rá, hogy maguktól beinduljanak – ülj le közéjük 1 percre, és indítsd be egy **kész példával**, hogy „így néz ki egy beírás”:
-     – bal oldalra (Mit tanultunk?): **„SBI-feedback – nem smiley, hanem konkrét helyzet + viselkedés + hatás”**, **„Johari-ablak: van vakfoltom”**, **„Zmán Kvucá tudatos tervezése”**, **„gyermekvédelmi red flag-ek”**.
+     – bal oldalra (Mit tanultunk?): **„SBI-visszajelzés – nem smiley, hanem konkrét helyzet + viselkedés + hatás”**, **„Johari-ablak: van vakfoltom”**, **„Zmán Kvucá tudatos tervezése”**, **„gyermekvédelmi red flag-ek”**.
      – jobb oldalra (Mit csinálunk másképp?): **„A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”**, **„Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.”**
      Aztán kérdezz vissza: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?” – általában ettől beindul a csoport.
 4. **Rövid poszter-bemutatás nagykörben (5–6 perc)**
@@ -537,5 +537,5 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
      – az elismerés-kör **párcsere-magját** (4.4.1 / 2. lépés – az Időkapszula-párok oda-vissza SBI-elismerése) **és a záró szót** viszont próbáld meg megtartani.
 6. **Híd az online Z.4-hez / terepre**
    * Tudod, mit fogsz mondani a peula végén arról, hogy:
-     – **hol folytatódik** ez a folyamat online (Z.4 Assignment + feedback),
+     – **hol folytatódik** ez a folyamat online (Z.4 Assignment + visszajelzés),
      – és mit jelent ez a terepre lépő madrich-szerep szempontjából?

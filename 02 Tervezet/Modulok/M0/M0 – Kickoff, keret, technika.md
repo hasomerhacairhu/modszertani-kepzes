@@ -19,7 +19,7 @@
 
 **Modulcél röviden**
 
-A madrich **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alap elvárásokat és határokat („madrich, nem terapeuta”), megismeri az alap technikai eszközöket (Moodle, H5P, gate/kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma ishitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
+A madrich **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alap elvárásokat és határokat („madrich, nem terapeuta”), megismeri az alap technikai eszközöket (Moodle, H5P, kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma ishitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
 
 ***
 
@@ -39,9 +39,9 @@ A modul végére a madrich…
    * Be tud lépni a **Moodle-be**, megtalálja a saját kurzusát és a modulokat.
    * Elindít és végigvisz egy **H5P-leckét**, kitölt egy mini-kvízt.
    * El tud készíteni és közzé tud tenni egy **bemutatkozó fórumposztot és egy kommentet**.
-   * **Támogató elemek:** M0.3 (Moodle / H5P / gate), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
+   * **Támogató elemek:** M0.3 (Moodle / H5P / kapu), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
 4. **Kapuk és completion-logika alap megértése**
-   * Érti a **puha (soft) és éles (hard) kapuk** közti különbséget.
+   * Érti a **puha és éles kapuk** közti különbséget.
    * Tudja, hogy a kapuk nem azonnali kiesést jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
    * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépő-kvíz.
 5. **Dugma ishit az online térben**
@@ -57,17 +57,17 @@ A modul végére a madrich…
 
 * **L1 = M0.1** – Üdv a képzésben! – Éves útiterv & mi köze hozzám
 * **L2 = M0.2** – Madrich, nem terapeuta – szerepek, elvárások, dugma ishit alapok
-* **L3 = M0.3** – Hogyan működik a Moodle / H5P / gate?
+* **L3 = M0.3** – Hogyan működik a Moodle / H5P / kapu?
 * **L4 = M0.4** – Dugma ishit az online térben + bemutatkozó fórum
 
 ### L1 / M0.1 – „Üdv a képzésben!” – Éves útiterv & mi köze hozzám (15–20’)
 
 * **Cél:** a résztvevő belép a képzés világába, **egyben látja az éves ívet**, és megfogalmazza, mit remél ettől az évtől madrichként.
 * **Fő tartalom röviden:**
-  * M0–M7 + Z timeline (modulcímek 1 mondattal);
+  * M0–M7 + Z idővonal (modulcímek 1 mondattal);
   * mit ígér a program (nem vagy egyedül, támogatás, kapuk, fejlődés);
   * első reflektív kérdés: „Mit várok ettől az évtől madrichként?”
-* **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (timeline + mini-kérdések, 1 nyitott kérdés).
+* **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (idővonal + mini-kérdések, 1 nyitott kérdés).
 
 ### L2 / M0.2 – Madrich, nem terapeuta – szerepek és elvárások (15–20’)
 
@@ -78,7 +78,7 @@ A modul végére a madrich…
   * dugma ishit 1 mondatban + 2–3 helyzet, ahol ez látszik.
 * **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-kvíz, nyitott reflexió).
 
-### L3 / M0.3 – „Hogyan működik a Moodle / H5P / gate?” (15–20’)
+### L3 / M0.3 – „Hogyan működik a Moodle / H5P / kapu?” (15–20’)
 
 * **Cél:** biztonságos, gyakorlati beléptetés a technikai környezetbe; a madrich **megtanulja kezelni** a Moodle felületet, alap H5P-t, és érti a kapuk logikáját.
 * **Fő tartalom röviden:**
@@ -128,7 +128,7 @@ A modul végére a madrich…
 
 ## 5. Kapuk
 
-* **Kaputípus:** puha kapu (soft gate) – **belépő jellegű**, nem vizsga; jelzést ad a stábnak, hogy ki mennyire tudott belépni a rendszerbe.
+* **Kaputípus:** puha kapu – **belépő jellegű**, nem vizsga; jelzést ad a stábnak, hogy ki mennyire tudott belépni a rendszerbe.
 * **Eszközök:**
   * **Moodle Forum – „Bemutatkozó fal”**
     * Követelmény:
@@ -202,7 +202,7 @@ A modul végére a madrich…
 
 [M0.2 – „Madrich, nem terapeuta” – szerepek és elvárások](./Online%20leckék/M0.2%20–%20Madrich,%20nem%20terapeuta%20–%20szerepek%20és%20elvárások.md)
 
-[M0.3 – „Hogyan működik a Moodle / H5P / gate?”](./Online%20leckék/M0.3%20–%20Hogyan%20működik%20a%20Moodle,%20H5P%20és%20a%20gate.md)
+[M0.3 – „Hogyan működik a Moodle / H5P / kapu?”](./Online%20leckék/M0.3%20–%20Hogyan%20működik%20a%20Moodle,%20H5P%20és%20a%20kapu.md)
 
 [M0.4 – „Dugma ishit az online térben + bemutatkozó fórum”](./Online%20leckék/M0.4%20–%20Dugma%20ishit%20az%20online%20térben%20+%20bemutatkozó%20fórum.md)
 
