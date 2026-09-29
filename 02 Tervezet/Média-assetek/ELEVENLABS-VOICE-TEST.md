@@ -9,7 +9,7 @@ tananyag **kanonikus narrátora**.
 | **Jelöltek** | **Dombi Miksa** · **Budai Enn** — **forrás-beszélők**: az ő felvételeikből készül majd a két ElevenLabs egyedi hang, amelyek **még nem jöttek létre** |
 | **Eldöntendő** | melyik a kanonikus narrátor |
 | **Minta** | **6 db** — 2 hang × 3 meglévő tananyag-szkript |
-| **Mért méret** | **3 066 karakter** összesen |
+| **Mért méret** | **3 072 karakter** összesen |
 | **Becsült költség** | **0,15 – 0,61 $** (`eleven_flash_v2_5`) — a szolgáltató két árazási felülete eltérő szorzót ad; mindkét olvasatban **egy dollár alatt** |
 | **Állapot** | ⛔ **nem futtatható — a két ElevenLabs hang még nincs létrehozva** (előbb: hozzájárulás-bizonyíték → hang-létrehozás → azonosítás) |
 
