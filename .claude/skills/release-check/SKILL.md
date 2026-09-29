@@ -7,8 +7,10 @@ allowed-tools:
   - Bash(python3 tools/content_integrity.py*)
   - Bash(python3 tools/media_manifest.py*)
   - Bash(python3 -m unittest tools.test_media_manifest*)
+  - Bash(python3 -m py_compile*)
   - Bash(python3 -c *)
   - Bash(bash -n .claude/hooks/*)
+  - Bash(bash .claude/hooks/*)
   - Bash(git cat-file*)
   - Bash(git diff*)
   - Bash(git status*)
@@ -60,12 +62,15 @@ python3 -m unittest tools.test_media_manifest
 - A baseline commit hiánya **hiba**, nem elfogadható skip.
 - A `check` szerint minden generált CSV/JSON/XLSX/Markdown kimenetnek naprakésznek kell lennie.
 - A `reconcile` eredménye nem rejthet el unmapped/conflict sort.
-- A unittestben skip csak opcionális külső render-parity függőségre elfogadható; a
-  dependency-free strukturális guardnak mindig futnia kell.
+- A GitHub CI telepíti a Pandocot, ezért ott a render-parity tesztnek is futnia kell:
+  a végső CI-ben **0 skip** az elvárt állapot. Lokális futásnál Pandoc hiányában az egyetlen
+  opcionális render-parity skip elfogadható, de ezt a jelentésben explicit jelezni kell;
+  a dependency-free strukturális guardnak mindig futnia kell.
 
 ## 3. Git-higiénia
 
 ```bash
+python3 -m py_compile tools/*.py
 git diff --check      # whitespace-hibák, sorvégi szóköz
 git status --short
 git diff --stat
@@ -94,6 +99,7 @@ Ha van módosítás, **olvasd vissza a teljes saját diffedet** (`git diff`), é
 ```bash
 python3 -c "import json,sys; json.load(open('.claude/settings.json')); print('settings.json OK')"
 bash -n .claude/hooks/guard-repo-safety.sh && echo "hook szintaxis OK"
+bash .claude/hooks/guard-repo-safety.sh --selftest
 ```
 
 ## 6. Jelentés

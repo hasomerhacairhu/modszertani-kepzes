@@ -85,6 +85,7 @@ saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
 ## Kötelező ellenőrzések tartalmi módosítás után
 
 ```bash
+python3 -m py_compile tools/*.py                # minden Python tool szintaktikailag érvényes
 python3 tools/content_integrity.py               # 0 ERROR kötelező
 python3 tools/media_manifest.py check            # generált media-output naprakész
 python3 tools/media_manifest.py reconcile        # történeti sorok egyeztetve
@@ -95,6 +96,8 @@ git diff                                         # olvasd vissza a saját válto
 
 A `/release-check` ezeket a teljes objektív ellenőrzési réteggel együtt futtatja;
 a media-teszteknél a történeti baseline commit elérhetőségét is külön ellenőrzi.
+A GitHub CI ezen felül Pandocot telepít, ezért a rejtett asset-meta render-parity teszt
+sem maradhat skipelt.
 
 ## Nincs hamis készjelentés
 
