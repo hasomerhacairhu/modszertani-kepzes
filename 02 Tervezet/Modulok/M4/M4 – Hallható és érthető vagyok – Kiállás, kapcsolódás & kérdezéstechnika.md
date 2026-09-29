@@ -178,10 +178,10 @@ A modul végére a résztvevő…
 
 [M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések](./Online%20leckék/M4.3%20–%20Kérdezési%20minták%20–%20nyitott,%20zárt,%20tisztázó,%20irányító%20kérdések.md)
 
-[M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára](./Online%20leckék/M4.4%20–%2045%20mp-es%20peula-pitch%20–%20vázlat%20egy%20konkrét%20kvucára.md)
+[M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára](./Online%20leckék/M4.4%20–%2045%20mp-es%20peulabemutató%20–%20vázlat%20egy%20konkrét%20kvucára.md)
 
 [M4.A – „Állj oda!” – Kiállás & jelenlét a térben](./Peulák/M4.A%20–%20Állj%20oda!%20–%20Kiállás%20&%20jelenlét%20a%20térben.md)
 
-[M4.B – „Mit és hogyan kérdezek?” – Kérdezés & peulabemutató gyakorlása](./Peulák/M4.B%20–%20Mit%20és%20hogyan%20kérdezek%20–%20Kérdezés%20&%20pitch%20gyakorlása.md)
+[M4.B – „Mit és hogyan kérdezek?” – Kérdezés & peulabemutató gyakorlása](./Peulák/M4.B%20–%20Mit%20és%20hogyan%20kérdezek%20–%20Kérdezés%20&%20peulabemutató%20gyakorlása.md)
 
-[M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató](./Peulák/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20pitch%20%28Study%20Lab%29.md)
+[M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató](./Peulák/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20peulabemutató%20%28Study%20Lab%29.md)
