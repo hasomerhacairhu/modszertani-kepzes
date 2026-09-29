@@ -1759,7 +1759,7 @@ class TestApprovedDecisions(unittest.TestCase):
         self.assertIn("R5", asset["blockers"])
         for lesson in ("M4.2 – Aktív hallgatás & visszatükrözés.md",
                        "M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-                       "M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md"):
+                       "M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md"):
             unit = lesson.split(" ")[0]
             videos = [a for a in self.model["assets"]
                       if a["unit"] == unit and a["kind"] == "video"]
