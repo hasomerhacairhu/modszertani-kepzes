@@ -787,7 +787,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M6.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Exit ticket – „1 játék, amiről játéklapot készítenél” | — | nyomtatható PDF | AI-generált |
-| `M6.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) | — | nyomtatható PDF | AI-generált |
+| `M6.A-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | 3 kvuca-sarok korosztály-lapok (szett) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-02` | poster | legyártandó | produkciós szabályra vár | CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ mátrix flipchart-sablon | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-03` | poster | legyártandó | produkciós szabályra vár | Inkluzivitás-elemző tábla-sablon (4 oszlop) | — | nyomtatható PDF | AI-generált |

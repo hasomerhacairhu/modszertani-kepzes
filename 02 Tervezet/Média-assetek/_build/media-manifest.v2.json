@@ -21456,7 +21456,7 @@
       "status": "pending-production-rule",
       "title": "12 helyzetkártya – kétoldalas szett (front: sztori, hátlap: címke)",
       "purpose": "A sarokjáték és a kiscsoportos „átöltöztetés” gyakorlat alapanyaga; konkrét élethelyzeteken keresztül gyakoroltatja a besorolást (Suli/Somer/Hétköznapok) és a feladat→cél→kvuca→módszer gondolkodást; több kártya szándékosan határeset a vitához.",
-      "spec": "12 db nyomtatható/kivágható helyzetkártya, a verbatim szöveg a 6. mellékletben (402-518). Frontoldal: 1–3 mondatos szituáció-leírás (dolgozat jeggyel; péntek délutáni kvuca-kör; buszos TikTok; matek-szakkör versenyre; kenben felelősség-poszter; FIFA-maraton; tábortűz-történet a Somerről; iskolai szavalóverseny zsűrivel; családi vacsora; ken új játék + megbeszélés szolidaritásról; frontális 20 perces tanóra; Insta/TikTok görgetés). Hátoldal/sarok: képzői címke [SULI]/[SOMER]/[RANDOM] a fogalommal (formális/nonformális/informális). Felosztás: 6–8 db a 3 sarok játékhoz (kevert típus), csoportonként 2–3 db keverve a fő gyakorlathoz.",
+      "spec": "12 db nyomtatható/kivágható helyzetkártya; a verbatim szöveg kánoni helye a „## 6. Melléklet – 12 helyzetkártya – szövegek” szakasz. Frontoldal: 1–3 mondatos szituáció-leírás (dolgozat jeggyel; péntek délutáni kvuca-kör; buszos TikTok; matek-szakkör versenyre; kenben felelősség-poszter; FIFA-maraton; tábortűz-történet a Somerről; iskolai szavalóverseny zsűrivel; családi vacsora; ken új játék + megbeszélés szolidaritásról; frontális 20 perces tanóra; Insta/TikTok görgetés). Hátoldal/sarok: képzői címke [SULI]/[SOMER]/[RANDOM] a fogalommal (formális/nonformális/informális). Felosztás: 6–8 db a 3 sarok játékhoz (kevert típus), csoportonként 2–3 db keverve a fő gyakorlathoz.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -21481,7 +21481,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A 2.1 Eszközök 8 példa-szituációja (43-50) és a 4.2 6 sarokjáték-sztorija (145-150) a 6. melléklet 12 kártyájának részhalmaza/parafrázisa. A front/hátlap szétválasztás a „Javaslat nyomtatáshoz” szerint (522-527).",
+      "notes": "A „2.1 Eszközök” 8 példa-szituációja és a 4.2 sarokjáték 6 sztorija a 6. melléklet 12 kártyájának részhalmaza/parafrázisa. A front/hátlap szétválasztás kánoni helye a „Javaslat nyomtatáshoz” szakasz.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -21493,7 +21493,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "350c6e40a83bb7959ca24b25c952cee954620f11c99f867490e66797585345b6",
+      "spec_hash": "9a5d0d4f7e7a14ac77c27ac092112764e99c13b814c2ee9855a2e70165e991d4",
       "deliverable_ids": [
         "M5.A-KART-01",
         "M5.A-KART-01::PRINTPDF"
@@ -22388,11 +22388,11 @@
       "status": "spec-ready",
       "title": "Single Choice – „Névkör labdával” korosztály",
       "purpose": "Első korosztály-választás gyakorlása.",
-      "spec": "H5P Single Choice 4 opcióval (6–9 a helyes), jó válaszra szóló visszajelzés-szöveggel a fiatalabb kvuca természetes formájáról (egyszerű szabály, mindenki sorra kerül; 10–12-nál humor/csavar kell).",
+      "spec": "H5P Single Choice 3 opcióval (Parparim 6–9 a helyes), jó válaszra szóló visszajelzés-szöveggel a fiatalabb kvuca természetes formájáról (egyszerű szabály, mindenki sorra kerül; Kivszánál, 10–12 évesen humor/csavar kell).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "H5P Single Choice, 4 opció, magyar, kulcs+visszajelzés"
+        "note": "H5P Single Choice, 3 opció, magyar, kulcs+visszajelzés"
       },
       "a11y": {
         "note": "Szövegként hozzáférhető (H5P natív)."
@@ -22417,7 +22417,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0ecf616387f4d510892493b204133cf86d28542a14ede06413a7ebb46c544772",
+      "spec_hash": "8402bd94848ac802e1df829af83662c0f4675e90e9c73b3df29459dda12c3382",
       "deliverable_ids": [
         "M6.1-EGY-03"
       ],
@@ -24394,7 +24394,7 @@
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Kötelező alt-szöveg (M6.3-FOTO-02) – NEM dekoratív (forrás 73. sor)."
+        "note": "NEM dekoratív. Az alt-szöveget a reuse cél, az M6.3-FOTO-03::ALTTEXT biztosítja; az M6.3-FOTO-02 nem gyárt külön deriváltat."
       },
       "derivatives": [],
       "reuse_of": "M6.3-FOTO-03",
@@ -24416,7 +24416,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e0047b929ccdd0d8b566517267c1f4ceeb96a6285f62dc65f268edf34dfff0f0",
+      "spec_hash": "62a62677847971240bbbb98f076838c533134c0f52ffb588aa1ec1dcb4564db0",
       "deliverable_ids": [],
       "legacy": {
         "alt-text": [
@@ -25243,7 +25243,7 @@
       "subtype": "",
       "mode": "generate",
       "status": "pending-production-rule",
-      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet)",
+      "title": "Képzői checklist – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet)",
       "purpose": "A képzőnek egy nyomtatható, kéznél tartható egylapos összefoglalót ad, amellyel a peula előtt minden kulcselemet (meta, játékválasztás, eszközök/tér, safety, híd) végigellenőrizhet; a forrás explicit „1 oldalra” megjelölése szerint kifejezetten egy oldalas kézikártyának szánt anyag.",
       "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a peula levezetéséhez, a forrás 5. szekciójának 5 pontjával: 1) Meta tiszta (fő kérdés + M6.1/M6.4 kapcsolat), 2) Játékok kiválasztva (2 játék + cél/korosztály/rizikó fejből), 3) Eszközök & tér (3 kvuca-sarok, CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ tábla, hely), 4) Biztonsági keret a fejben (nem kötelező vállalni; mondat nehéz élményre), 5) Híd az M6.B játéklaphoz. Pipálható checklist-formátum.",
       "provenance": "ai",
@@ -25281,7 +25281,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6e927854e2ae2bd7edc1941d33ac573ba3a9101a018f3f2dcedad70881a731ab",
+      "spec_hash": "8a2f019563e1436477424d1917b6ac1c24a6bfb669dcb1df21e7eec8cdf17fdb",
       "deliverable_ids": [
         "M6.A-MUNK-02",
         "M6.A-MUNK-02::PRINTPDF"
@@ -25309,7 +25309,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "4 lap, A3 álló, magyar nyelv; nagy kontrasztú, vastag felirat; nyomtatható PDF-szett"
+        "note": "3 lap, A3 álló, magyar nyelv; nagy kontrasztú, vastag felirat; nyomtatható PDF-szett"
       },
       "a11y": {
         "note": "Magas kontraszt és nagy betűméret kötelező (távolról olvasható); maga a felirat a teljes tartalom, külön alt-szöveg nem szükséges. Önmaga a szöveges ekvivalens."
@@ -25329,7 +25329,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Helyettesíthető flipchart-lapra kézzel írva is (sor 36); a 4 lap egy összetartozó szettet alkot. A 2.2 Tér (sor 56) írja le a 4 sarokba/falra helyezést; a checklist 3. pontja (sor 541) is ezt a szettet kéri számon. (Javítva: az eredeti location tévesen hivatkozott a 4.2.1-re, amely csak verbálisan ismétli a 4 kvucát, lapot nem említ.)",
+      "notes": "Helyettesíthető flipchart-lapra kézzel írva is. A 3 lap egy összetartozó szettet alkot; a 2.2 Tér, a 4.2.3 és 4.3.4 sarokgyakorlat, valamint a képzői checklist 3. pontja ugyanazt a háromlapos szettet használja.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -25341,7 +25341,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "215f43a116ef7ae79cee08441a9aced68963226bf34d440624f6c1b99b598d72",
+      "spec_hash": "f0d5e6b2bd473aab5875f9c1f6b4181946c8048fbb9fb56988622b67e75ee50e",
       "deliverable_ids": [
         "M6.A-POSZ-01",
         "M6.A-POSZ-01::PRINTPDF"
@@ -26185,7 +26185,7 @@
       "status": "pending-production-rule",
       "title": "Tájékozódó tábla – M6 leckelista + játéklap + név nélküli témakérések",
       "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről és a játéklap-vázról (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Nagyméretű flipchart/poszter-sablon az M6 tartalmi listájával, 5 sorban: L1 – Játék-kategóriák 4 kvucára; L2 – Történet, mint tükör; L3 – Kézműves, ami tanít is; L4 – Döntési szcenáriók: mit választanál?; Játéklap – saját eszköz leírása; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M6” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
+      "spec": "Nagyméretű flipchart/poszter-sablon az M6 tartalmi listájával, 5 sorban: L1 – Játék-kategóriák 3 aktuális kvucára; L2 – Történet, mint tükör; L3 – Kézműves, ami tanít is; L4 – Döntési szcenáriók: mit választanál?; Játéklap – saját eszköz leírása; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M6” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26221,7 +26221,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "62a07bed9afc6afedffb1a9481fa8598be466f0bbcebac16366e9478c15226c3",
+      "spec_hash": "637a381c92b5a376cbbe8bc450ac3d30128dfaa7099f5967757988f3c88fe6f5",
       "deliverable_ids": [
         "M6.F-POSZ-01",
         "M6.F-POSZ-01::PRINTPDF"
@@ -28218,7 +28218,7 @@
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Kell alt-szöveg mind a 4 piktogramhoz (lásd M7.4-IKO-01)"
+        "note": "A három piktogram alt-szövegét a reuse cél, az M3.2-IKO-01::ALTTEXT biztosítja; az M7.4-IKO-01 nem gyárt külön deriváltat."
       },
       "derivatives": [],
       "reuse_of": "M3.2-IKO-01",
@@ -28240,7 +28240,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "935ac708db2c0063706de3a4198d9dacecd3cad1fae80e363620221643396f8c",
+      "spec_hash": "8157f6457503367398d1a7d25f32bb07cc9325801add88ded8129c7e3d8508a4",
       "deliverable_ids": [],
       "legacy": {
         "alt-text": [
@@ -47117,7 +47117,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
       "file_kind": "peula",
-      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet)",
+      "title": "Képzői checklist – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet)",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
@@ -47140,7 +47140,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
       "file_kind": "peula",
-      "title": "Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas gyorssegédlet) — nyomtatható PDF",
+      "title": "Képzői checklist – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet) — nyomtatható PDF",
       "mode": "generate",
       "status": "pending-production-rule",
       "provenance": "ai",
