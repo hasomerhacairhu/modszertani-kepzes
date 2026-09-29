@@ -7,13 +7,13 @@
 -->
 
 > **Mihez tartozik?** M7 – „Peula a papírtól a valóságig” – Programírás, Zmán Kvucá & AI-támogatott tervezés.
-> Ez a **félévzáró, éles (hard / mastery) kapu** értékelője. A modul valódi kimenete egy **produktív készség** (Peula v2 megírása + Zmán Kvucá-operáció + etikus AI-használat), ezért a kapu **gerince a Peula v2 rubrika**, a kvíz pedig a fogalmi belépő.
+> Ez a **félévzáró, éles teljesítési kapu** értékelője. A modul valódi kimenete egy **produktív készség** (Peula v2 megírása + Zmán Kvucá-operáció + etikus AI-döntés, beleértve a no-AI választást), ezért a kapu **gerince a Peula v2 rubrika**, a kvíz pedig a fogalmi belépő.
 
 ***
 
 ## 0. Kapu-fejléc (fejlesztőnek + képzőnek)
 
-**Kaputípus:** éles, kétrészes mastery-kapu (mindkét részt teljesíteni kell).
+**Kaputípus:** éles, kétrészes teljesítési kapu (mindkét részt teljesíteni kell).
 
 | Rész | Mit mér | LMS-eszköz | Küszöb |
 | --- | --- | --- | --- |
@@ -22,15 +22,15 @@
 
 **Súlyozás:** a kapu konstruktumának gerince a **Peula v2 rubrika** (domináns súly). A kvíz „fogalmi belépő” – a tudásalap meglétét igazolja, de önmagában nem méri a produktív készséget.
 
-**Javítási útvonal (mindkét részre):** rövid, konkrét **SBI-feedback** (max. 3 pont) → javított Peula v2 / kvíz-újrapróba → tartós nehézségnél **mentoros peula-klinika** (M7.B-mintára). A hangnem támogató, nem büntető.
+**Javítási útvonal (mindkét részre):** rövid, konkrét **fejlesztő visszajelzés** (max. 3 pont) → javított Peula v2 / kvíz-újrapróba → tartós nehézségnél **mentoros peula-műhely** (M7.B-mintára). A hangnem támogató, nem büntető.
 
 **Mi NEM ez a kapu:** az M7.4 Assignment („Peula v1 – első vázlat”) **formatív**, 0/1 completion – az NEM ez a kapu. Ez a fájl a **félévzáró, éles** produktumot értékeli, amely a v1 vázlatra épül.
 
-**Kétkapus capstone (időben szétterítve – spacing):** a produktum **két menetben** érik be:
-* **v1 – first-draft gate (M7 hét 1 vége, M7.A után):** az M7.4 Assignment – **alacsony tét, rubrika-előnézet, újrapróbálható, NEM buktat**. Ez a kapu **bemenete**. (Határidő: a Moodle-ben előre beállított és kommunikált v1-határidő)
-* **~1 hét spacing-köz:** csiszolás az **M7.B peula-klinikán + otthon** (nem aznapi v1→v2).
-  * 🔒 **Spacing- és feedback-invariáns:** a v1 és v2 **nem lehet ugyanazon a napon**. A v1 leadása után következik az M7.B köztes workshop/feedback, majd külön revíziós munka, és csak ezután adható le v2. A program alapritmusában ez nagyjából egyhetes köz, de **nem állítunk tudományosan indokolatlan univerzális minimum-napszámot**; azt védjük, hogy valódi időbeli elosztás + feedback → revízió történjen. A konkrét Moodle-dátumokat ehhez igazítva kell beállítani.
-* **v2 – mastery-kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: a Moodle-ben előre beállított és kommunikált v2-határidő)
+**Kétlépcsős félévzáró feladat (időben szétterítve):** a produktum **két menetben** érik be:
+* **v1 – elsővázlat-ellenőrzési pont (M7 hét 1 vége, M7.A után):** az M7.4 Assignment – **alacsony tét, rubrika-előnézet, újrapróbálható, NEM buktat**. Ez a kapu **bemenete**. (Határidő: a Moodle-ben előre beállított és kommunikált v1-határidő)
+* **~1 hét köztes fejlesztési idő:** csiszolás az **M7.B peula-klinikán + otthon** (nem aznapi v1→v2).
+  * 🔒 **Időbeli elosztási és visszajelzési invariáns:** a v1 és v2 **nem lehet ugyanazon a napon**. A v1 leadása után következik az M7.B köztes műhely és visszajelzés, majd külön revíziós munka, és csak ezután adható le v2. A program alapritmusában ez nagyjából egyhetes köz, de **nem állítunk tudományosan indokolatlan univerzális minimum-napszámot**; azt védjük, hogy valódi időbeli elosztás + visszajelzés → revízió történjen. A konkrét Moodle-dátumokat ehhez igazítva kell beállítani.
+* **v2 – teljesítési kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: a Moodle-ben előre beállított és kommunikált v2-határidő)
 
 **Mit rögzít ez a fájl?** A korábban csak a `§6`-ban ígért, de meg nem írt éles kapu itt válik kézzelfoghatóvá: konkrét item-bank (distraktorokkal), teljes, 3 szintes, megfigyelhető rubrika, kijelölt blokkoló biztonsági sor, és ponthoz kötött ≥70%.
 
@@ -43,10 +43,10 @@
 * 14 item, **küszöb ≥80% (≥12 jó válasz)** **ÉS a gyermekvédelmi Q13 kötelezően helyes** (ez az egyetlen, a %-tól függetlenül **kötelezően-helyes blokkoló item** – a blokkoló R4-konstruktum red-flag-alaplépését hordozza). A **Q14** ugyanezt az R4-területet **fedi le** (négyszemközti helyzet kezelése a helyi szabály szerint, B-terv, jelzési út), de **nem külön blokkoló item**: a pontszámba számít, a kötelezően-helyes minimumot egyedül a Q13 viszi. 2–3 próbálkozás.
 * **Kérdés- és válasz-sorrend randomizálva** (a 2–3 próbálkozás miatt ne legyen megjegyezhető a sorrend).
 * Item-típusok: Single Choice (1 jó válasz) és Multi-Select (több jó válasz – jelölve). A Multi-Selectnél **„minden helyes opció + egy hibás sem”** = teljes pont.
-* Minden itemhez egyértelmű helyes válasz, plauzibilis distraktorok (gyakori someres félreértésekre építve), rövid tanulói feedback.
+* Minden itemhez egyértelmű helyes válasz, plauzibilis distraktorok (gyakori someres félreértésekre építve), rövid tanulói visszajelzés.
 * Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12), **gyermekvédelem & biztonság (Q13–Q14 – a blokkoló R4-sor tudásalapját fedik le; a kötelezően-helyes blokkoló item ezen belül egyedül a Q13, a Q14 lefedettségi item)** → így a kvíz az M7.4 etikus-AI, idő-feladat-felelős logikáját **és a kapu blokkoló gyermekvédelmi konstruktumát** is méri, nem csak M7.1–M7.3 felismerést.
 
-> **Cél → item lefedettségi tábla (construct-validitás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyermekvédelem & biztonság (rubrika R4, BLOKKOLÓ) → Q13–Q14** (a kötelezően-helyes **blokkoló** item ezen belül **csak a Q13**; a Q14 a területet bővebben fedi le, de nem külön blokkoló küszöb). Így **minden mastery-kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alul-reprezentálva azt, amit a produktum-rubrika kapuz.
+> **Cél → item lefedettségi tábla (construct-validitás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyermekvédelem & biztonság (rubrika R4, BLOKKOLÓ) → Q13–Q14** (a kötelezően-helyes **blokkoló** item ezen belül **csak a Q13**; a Q14 a területet bővebben fedi le, de nem külön blokkoló küszöb). Így **minden teljesítési kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alul-reprezentálva azt, amit a produktum-rubrika kapuz.
 
 ***
 
@@ -61,7 +61,7 @@
 - C) Strukturált (logikus-e a felépítés), Mérhető (miből látod), Alapos (mindenre kiterjed-e), Rugalmas (alakítható-e menet közben), Tervezett (előre átgondolt-e)
 - D) Specifikus (pontosan miről szól), Mérhető (miből látod), Aktivizáló (bevon-e mindenkit), Releváns (someres értékhez köt), Tartalmas (van-e mélysége)
 
-**Feedback:** A SMART nem someres szlogen, hanem egy emlékeztető: **Specifikus – Mérhető – Achievable (elérhető) – Releváns – Time-bound (időhöz kötött)**. A többi sor egy-egy hihető, de **téves** betűt csempész be: a B-ben az „Aktív” és „Tematikus” nem SMART-elem, a C-ben az egész sor más fogalmakból áll, a D-ben az „Aktivizáló” és „Tartalmas” cseréli ki az Achievable-t és a Time-boundot – pont az a két elem hiányzik belőle, ami az ellenőrizhetőséget adja. A lényeg, hogy a peula végén tudd: tényleg megtörtént-e, amit szerettél volna. (M7.1)
+**Visszajelzés:** A SMART nem someres szlogen, hanem egy emlékeztető: **Specifikus – Mérhető – Achievable (elérhető) – Releváns – Time-bound (időhöz kötött)**. A többi sor egy-egy hihető, de **téves** betűt csempész be: a B-ben az „Aktív” és „Tematikus” nem SMART-elem, a C-ben az egész sor más fogalmakból áll, a D-ben az „Aktivizáló” és „Tartalmas” cseréli ki az Achievable-t és a Time-boundot – pont az a két elem hiányzik belőle, ami az ellenőrizhetőséget adja. A lényeg, hogy a peula végén tudd: tényleg megtörtént-e, amit szerettél volna. (M7.1)
 
 #### Q2 — Vágy vs. SMART cél (Single Choice)
 
@@ -72,7 +72,7 @@
 - C) „A peula végére a Kivsza-kvuca 80%-a meg tud nevezni 2 dolgot, amitől biztonságban érzi magát a Zmán Kvucán.” ✅
 - D) „Legyen egy emlékezetes, jó energiájú közös élmény, amire még sokáig emlékeznek a chanichok.”
 
-**Feedback:** A C konkrét **kvucát**, **mérhető jelet** (80%, „2 dolog”) és **megfigyelhető viselkedést** („meg tud nevezni”) tartalmaz, és **a peula végéhez köti** az időpontot – így a végén tényleg ellenőrizhető. A többi szép, és látszólag bővebb is, de attól még **vágy** marad: az A-ból és D-ből hiányzik a mérhető jel, a B-ből pedig az látszik leginkább, hogy „sok” és „haza viszi” nem ellenőrizhető a peula végén. Nem a hosszú mondat teszi SMART-tá a célt, hanem a mérhetőség és az időkeret. (M7.1)
+**Visszajelzés:** A C konkrét **kvucát**, **mérhető jelet** (80%, „2 dolog”) és **megfigyelhető viselkedést** („meg tud nevezni”) tartalmaz, és **a peula végéhez köti** az időpontot – így a végén tényleg ellenőrizhető. A többi szép, és látszólag bővebb is, de attól még **vágy** marad: az A-ból és D-ből hiányzik a mérhető jel, a B-ből pedig az látszik leginkább, hogy „sok” és „haza viszi” nem ellenőrizhető a peula végén. Nem a hosszú mondat teszi SMART-tá a célt, hanem a mérhetőség és az időkeret. (M7.1)
 
 #### Q3 — Melyik két elem teszi ellenőrizhetővé a célt? (Single Choice)
 
@@ -83,46 +83,46 @@
 - C) Achievable (elérhető) és Specifikus
 - D) Releváns és Achievable (elérhető)
 
-**Feedback:** A téma (S) és az értékkapcsolat (R) megmondja, **miről** szól a cél, de attól még nem tudod a végén ellenőrizni. A **Mérhető** adja meg, *miből látod, hogy megtörtént*, a **Time-bound** pedig, *mikorra* – e kettő nélkül a cél ellenőrizhetetlen vágy marad, akkor is, ha specifikus és releváns. (Az M7.1 hangsúlyozza: nincs „nehézségi rangsor”, de a mérhetőség és az időkeret az, ami az ellenőrizhetőséget adja.) (M7.1)
+**Visszajelzés:** A téma (S) és az értékkapcsolat (R) megmondja, **miről** szól a cél, de attól még nem tudod a végén ellenőrizni. A **Mérhető** adja meg, *miből látod, hogy megtörtént*, a **Time-bound** pedig, *mikorra* – e kettő nélkül a cél ellenőrizhetetlen vágy marad, akkor is, ha specifikus és releváns. (Az M7.1 hangsúlyozza: nincs „nehézségi rangsor”, de a mérhetőség és az időkeret az, ami az ellenőrizhetőséget adja.) (M7.1)
 
 ***
 
 ### Blokk 2 – Peula 11 pontja (Q4–Q6)
 
-> Referencia (master-lista): **Előkészítés** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél / SMART) · **Megírás** (5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista) · **Utómunka & biztonság** (9. Biztonság & gyermekvédelem, 10. Feedback & finomhangolás, 11. Utóreflexió – Peula v2).
+> Referencia (kanonikus lista): **Előkészítés** (1. Téma & modul, 2. Háttér & altémák, 3. Kvuca + idő + helyszín, 4. Nevelési cél / SMART) · **Megírás** (5. Módszerek & élmény-blokk, 6. Felépítés, 7. Realitás-check, 8. Kelléklista) · **Biztonság & továbbfejlesztés** (9. Biztonság & gyermekvédelem, 10. Visszajelzés és finomhangolás, 11. Utóreflexió & továbbfejlesztés).
 
 #### Q4 — A 11 pont három fázisa (Single Choice)
 
 **A Peula 11 pontja három fázisra bomlik. Melyik a helyes sorrend?**
 
-- A) Megírás → Előkészítés → Utómunka & biztonság
-- B) Előkészítés → Megírás → Utómunka & biztonság ✅
-- C) Előkészítés → Utómunka & biztonság → Megírás
+- A) Megírás → Előkészítés → Biztonság & továbbfejlesztés
+- B) Előkészítés → Megírás → Biztonság & továbbfejlesztés ✅
+- C) Előkészítés → Biztonság & továbbfejlesztés → Megírás
 - D) Élmény-blokk → Feldolgozás → Zárás
 
-**Feedback:** Először **előkészítesz** (téma, háttér, kvuca/idő/hely, SMART cél), aztán **megírod** (módszerek, felépítés, realitás-check, kellék), végül jön az **utómunka & biztonság** (gyermekvédelem, feedback, utóreflexió → Peula v2). A D egy peula belső felépítése (6. pont), nem a 11 pont fázisai. (M7.2)
+**Visszajelzés:** Először **előkészítesz** (téma, háttér, kvuca/idő/hely, SMART cél), aztán **megírod** (módszerek, felépítés, realitás-check, kellék), végül jön a **biztonság & továbbfejlesztés**: gyermekvédelem, visszajelzés és finomhangolás, majd a megtartás utáni utóreflexió és továbbfejlesztés. A D egy peula belső felépítése (6. pont), nem a 11 pont fázisai. (M7.2)
 
 #### Q5 — Melyik pont hiányzik a vázból? (Single Choice)
 
-**Egy peula-váz (Leviatan-kvuca, 14–16 év / 60’ / udvar) ezt tartalmazza: a „közösségi felelősség” modulhoz tartozik, röviden összeszedi a téma altémáit, listázza a kellékeket (kötél, kártyák, flipchart), és a végén ott a „mit kérdezzek vissza másik madrichtól” pont. Egyetlen dolog nincs sehol leírva: hogy mit szeretne a madrich, hogy a chanichokban a peula végére más legyen. A Peula 11 pontjából melyik pont hiányzik a vázból?**
+**Egy peula-váz (Leviatan-kvuca, 13–17 év / 60’ / udvar) ezt tartalmazza: a „közösségi felelősség” modulhoz tartozik, röviden összeszedi a téma altémáit, listázza a kellékeket (kötél, kártyák, flipchart), és a végén ott a „mit kérdezzek vissza másik madrichtól” pont. Egyetlen dolog nincs sehol leírva: hogy mit szeretne a madrich, hogy a chanichokban a peula végére más legyen. A Peula 11 pontjából melyik pont hiányzik a vázból?**
 
 - A) Kelléklista (8. pont)
 - B) Háttér & altémák (2. pont)
 - C) Nevelési cél / SMART (4. pont) ✅
-- D) Feedback & finomhangolás (10. pont)
+- D) Visszajelzés és finomhangolás (10. pont)
 
-**Feedback:** A modulhoz kötés (1.), az altémák (2.), a kelléklista (8.) és a visszajelzés-kérés (10.) **mind ott van** a vázban – egyedül a **nevelési cél / SMART** (4.) hiányzik. E nélkül nem tudod megmondani, mit szeretnél elérni; a cél ad keretet az összes többi pontnak, és belőle dől el, hogy a kész peula tényleg peula-e, vagy csak egymásra fűzött tevékenységek sora. (M7.2)
+**Visszajelzés:** A modulhoz kötés (1.), az altémák (2.), a kelléklista (8.) és a visszajelzés-kérés (10.) **mind ott van** a vázban – egyedül a **nevelési cél / SMART** (4.) hiányzik. E nélkül nem tudod megmondani, mit szeretnél elérni; a cél ad keretet az összes többi pontnak, és belőle dől el, hogy a kész peula tényleg peula-e, vagy csak egymásra fűzött tevékenységek sora. (M7.2)
 
 #### Q6 — Pont → fázis hozzárendelés (Single Choice)
 
-**Melyik pont tartozik az „Utómunka & biztonság” fázisba?**
+**Melyik pont tartozik a „Biztonság & továbbfejlesztés” fázisba?**
 
 - A) Realitás-check (idő, korosztály, létszám)
 - B) Módszerek & élmény-blokk
-- C) Utóreflexió – Peula v2 ✅
+- C) Utóreflexió & továbbfejlesztés ✅
 - D) Kvuca + idő + helyszín
 
-**Feedback:** Az **Utóreflexió – Peula v2** (11. pont) a peula UTÁN történik: leírod, mi működött, mi nem – ebből lesz a javított verzió. A Realitás-check és a Módszerek a Megírás fázisé, a Kvuca/idő/hely az Előkészítésé. (M7.2)
+**Visszajelzés:** Az **Utóreflexió & továbbfejlesztés** (11. pont) a peula **megtartása után** történik: leírod, mi működött, mi nem, és mit változtatnál legközelebb. Ez nem a félévzáró `Peula v2` neve: a v2 már a megtartás előtti, véglegesített terv. A Realitás-check és a Módszerek a Megírás fázisé, a Kvuca/idő/hely az Előkészítésé. (M7.2)
 
 ***
 
@@ -139,7 +139,7 @@
 - C) A péntek esti közös ünnepi vacsora és éneklés a kenben, az egész korosztállyal együtt.
 - D) Az online leckék és a kötelező H5P-feladatok otthoni kitöltésére fenntartott egyéni idő.
 
-**Feedback:** A Zmán Kvucá **nem** random programidő (A), nem közösségi vacsora (C) és nem online tanulóidő (D), hanem tudatos keret egy konkrét kvucára: tudod, **mikor, hol, kikkel, miért, és ki mire figyel** (biztonság, felelős madrichok). Pont ettől több, mint „van egy jó játékom”. (M7.3)
+**Visszajelzés:** A Zmán Kvucá **nem** random programidő (A), nem közösségi vacsora (C) és nem online tanulóidő (D), hanem tudatos keret egy konkrét kvucára: tudod, **mikor, hol, kikkel, miért, és ki mire figyel** (biztonság, felelős madrichok). Pont ettől több, mint „van egy jó játékom”. (M7.3)
 
 #### Q8 — Szituáció → checklist-terület (Single Choice)
 
@@ -150,18 +150,18 @@
 - C) Hozzáférhetőség & inkluzivitás ✅
 - D) Gyermekvédelem & határok
 
-**Feedback:** Ez **hozzáférhetőség & inkluzivitás**: a kérdés az, hogy a feladat formája (sok olvasás/írás) miatt nem marad-e ki valaki – itt nyelvi és tanulási akadály miatt. A megoldás nem külön terem, hanem a feladat alternatív formája (pl. szóbeli / képes verzió). Nem a létszám (B) és nem önmagában a gyermekvédelem (D) a tét. (M7.3)
+**Visszajelzés:** Ez **hozzáférhetőség & inkluzivitás**: a kérdés az, hogy a feladat formája (sok olvasás/írás) miatt nem marad-e ki valaki – itt nyelvi és tanulási akadály miatt. A megoldás nem külön terem, hanem a feladat alternatív formája (pl. szóbeli / képes verzió). Nem a létszám (B) és nem önmagában a gyermekvédelem (D) a tét. (M7.3)
 
 #### Q9 — A leggyakrabban kifelejtett terület (Single Choice)
 
-**Egy madrich így ír le egy tervet: „Vasárnap 16–17 óra, Zorea-kvuca (16+), 8 chanich + 2 madrich, a ken előtti parkban filmes ügyességi versenyt tartunk projektorral, mindenki igénye átgondolva. Felelős madrichok kijelölve.” Melyik checklist-elem hiányzik a leginkább?**
+**Egy madrich így ír le egy tervet: „Vasárnap 16–17 óra, idősebb Leviatan-kvuca (16–17), 8 chanich + 2 madrich, a ken előtti parkban filmes ügyességi versenyt tartunk projektorral, mindenki igénye átgondolva. Felelős madrichok kijelölve.” Melyik checklist-elem hiányzik a leginkább?**
 
 - A) Idő & helyszín (kezdés–zárás adott)
 - B) Anyagok, technika & **B-terv** (eső / áramhiány / túl világos esetére) ✅
 - C) Létszám & madrich–chanich arány
 - D) Gyermekvédelem & határok
 
-**Feedback:** Idő/hely, létszám/arány és a felelősök rendben, az inkluzivitásra is utal – de **B-terv** nincs: egy szabadtéri, projektoros programnál pont az kell, „mi lesz, ha esik, ha nincs áram, vagy ha túl világos a kép?”. A technika és az időjárás a leggyakrabban kifelejtett kockázat. (M7.3)
+**Visszajelzés:** Idő/hely, létszám/arány és a felelősök rendben, az inkluzivitásra is utal – de **B-terv** nincs: egy szabadtéri, projektoros programnál pont az kell, „mi lesz, ha esik, ha nincs áram, vagy ha túl világos a kép?”. A technika és az időjárás a leggyakrabban kifelejtett kockázat. (M7.3)
 
 ***
 
@@ -174,20 +174,20 @@
 - A) Mind a hármat változtatás nélkül beemelem, hisz az AI biztos jobban tudja.
 - B) Kiválasztom azt, ami illik, a másik kettőt a kvucámhoz igazítva átfogalmazom, és eldöntöm, mi marad. ✅
 - C) Az egészet eldobom, és inkább semmilyen feldolgozó kérdést nem teszek be, mert az AI-anyag csalásnak számít.
-- D) Visszaírom az AI-nak, hogy döntse el helyettem, melyik kérdés a legjobb a 11–13 éveseknek.
+- D) Visszaírom az AI-nak, hogy döntse el helyettem, melyik kérdés a legjobb a 10–12 éves Kivsza-korúaknak.
 
-**Feedback:** Az AI **ötlettár**, nem szerző. A döntés és a felelősség nálad marad: kiválasztod, ami illik, a többit a **saját kvucádhoz igazítod**, és te mondod ki, mi marad. Az AI-anyag felhasználása önmagában nem csalás (C téves – a feldolgozó kérdés a peula lényegi része, nem hagyod ki), de a döntést sem adod át neki (D téves). (M7.1, M7.2, M7.4)
+**Visszajelzés:** Az AI **ötlettár**, nem szerző. A döntés és a felelősség nálad marad: kiválasztod, ami illik, a többit a **saját kvucádhoz igazítod**, és te mondod ki, mi marad. Az AI-anyag felhasználása önmagában nem csalás (C téves – a feldolgozó kérdés a peula lényegi része, nem hagyod ki), de a döntést sem adod át neki (D téves). (M7.1, M7.2, M7.4)
 
 #### Q11 — Mit teHETsz AI-val? (Multi-Select – több jó válasz)
 
 **Jelöld be az ÖSSZESET, ami a someres AI-etikett szerint MEGENGEDETT peula-tervezéskor!**
 
-- A) Általános leírással („11–13 éves kvuca, szolidaritás téma”) kérek játékötleteket. ✅
+- A) Általános leírással („10–12 éves Kivsza-kvuca, szolidaritás téma”) kérek játékötleteket. ✅
 - B) Megkérem, magyarázzon el egy fogalmat 12 éves szinten, hogy aztán a saját szavaimmal írjam meg. ✅
 - C) Beírom egy konkrét chanich valódi nevét és otthoni sztoriját, hogy „személyre szabott” tanácsot kapjak.
 - D) Megkérek egy nyers AI-vázlatot, amit utána átolvasok, kiválasztok belőle, és a kvucámhoz igazítok. ✅
 
-**Feedback:** Az A, B és D **megengedett**: általánosítva, adat nélkül ötletelni, fogalmat magyaráztatni, vagy nyersanyagot kérni és **kritikusan átdolgozni** teljesen rendben van – a döntés végig nálad marad. Fontos árnyalat: nem maga a „saját szavakkal átírás” teszi etikussá az AI-használatot, hanem **(1) a transzparens jelölés** (a v2 leadásnál 1 sorban: hol/mire használtál AI-t) **és (2) a te tényleges szakmai döntésed** – a parafrázis önmagában nem „mossa tisztára” az AI-anyagot. A **C tilos**: valódi név és beazonosítható chanich-sztori soha nem mehet a chatbe (adatvédelem + gyermekvédelem). Figyelj: itt a **kakukktojás a tiltott elem**, nem a megengedett – nem mindig az utolsó opció a kivétel. (M7.2, M7.4) *(A teljes ponthoz A, B, D jelölve, C NEM.)*
+**Visszajelzés:** Az A, B és D **megengedett**: általánosítva, adat nélkül ötletelni, fogalmat magyaráztatni, vagy nyersanyagot kérni és **kritikusan átdolgozni** teljesen rendben van – a döntés végig nálad marad. Fontos árnyalat: nem maga a „saját szavakkal átírás” teszi etikussá az AI-használatot, hanem **(1) a transzparens jelölés** (a v2 leadásnál 1 sorban: hol/mire használtál AI-t) **és (2) a te tényleges szakmai döntésed** – a parafrázis önmagában nem „mossa tisztára” az AI-anyagot. A **C tilos**: valódi név és beazonosítható chanich-sztori soha nem mehet a chatbe (adatvédelem + gyermekvédelem). Figyelj: itt a **kakukktojás a tiltott elem**, nem a megengedett – nem mindig az utolsó opció a kivétel. (M7.2, M7.4) *(A teljes ponthoz A, B, D jelölve, C NEM.)*
 
 #### Q12 — Operáció: idő–feladat–felelős (Single Choice)
 
@@ -196,9 +196,9 @@
 - A) 4. Nevelési cél (SMART)
 - B) 7. Realitás-check (idő, korosztály, létszám) – a Zmán Kvucá-checklisttel együtt ✅
 - C) 2. Háttér & altémák
-- D) 11. Utóreflexió – Peula v2
+- D) 11. Utóreflexió & továbbfejlesztés
 
-**Feedback:** Az idő–feladat–felelős tábla a **7. pont (Realitás-check)** gyakorlati lebontása, a Zmán Kvucá-checklisttel összekötve: tényleg belefér-e 45 percbe, ki felel melyik blokkért. Nem új 12. pont, hanem a 7. pont kézzelfogható formája. (M7.4)
+**Visszajelzés:** Az idő–feladat–felelős tábla a **7. pont (Realitás-check)** gyakorlati lebontása, a Zmán Kvucá-checklisttel összekötve: tényleg belefér-e 45 percbe, ki felel melyik blokkért. Nem új 12. pont, hanem a 7. pont kézzelfogható formája. (M7.4)
 
 ***
 
@@ -217,7 +217,7 @@
 - C) **Nyugodtan, ítélkezés nélkül meghallgatom, NEM ígérek titoktartást, NEM nyomozok – és még aznap jelzem a mentornak / gyermekvédelmi felelősnek.** ✅
 - D) Szólok a szüleinek, hogy beszéljék meg otthon.
 
-**Feedback:** A helyes alaplépés: **meghallgatsz, de nem ígérsz titoktartást** (A téves – nem ígérhetsz olyat, amit a jelzési kötelezettség miatt nem tarthatsz meg), **nem nyomozol / nem faggatsz rávezetően** (B téves), és **nem indítasz otthoni egyeztetést, nem értesítesz közvetlenül egyetlen lehetséges érintett felnőttet sem** (D téves – a madrich dolga nem az, hogy maga rendezze le otthon, hanem hogy a **protokoll szerint a felelősnek jelezzen**; azt, hogy ki érintett, nem a madrich vizsgálja). A felelősség **megosztott**: a mentort / gyermekvédelmi felelőst vonod be – nem maradsz egyedül a helyzettel. **(Ha azonnali veszélyt látsz, a helyi gyermekvédelmi protokoll / 112 lép – ezt a Moodle-kurzusban névvel megadott kijelölt gyermekvédelmi felelős és a jóváhagyott helyi jelzési protokoll rögzíti.)** (M3.3, M7.3)
+**Visszajelzés:** A helyes alaplépés: **meghallgatsz, de nem ígérsz titoktartást** (A téves – nem ígérhetsz teljes titoktartást olyan helyzetben, ahol a biztonság érdekében felelős felnőttet kell bevonni), **nem nyomozol / nem faggatsz rávezetően** (B téves), és **nem indítasz otthoni egyeztetést, nem értesítesz közvetlenül egyetlen lehetséges érintett felnőttet sem** (D téves – a madrich dolga nem az, hogy maga rendezze le otthon, hanem hogy a **protokoll szerint a felelősnek jelezzen**; azt, hogy ki érintett, nem a madrich vizsgálja). A felelősség **megosztott**: a mentort / gyermekvédelmi felelőst vonod be – nem maradsz egyedül a helyzettel. **(Ha azonnali veszélyt látsz, a helyi gyermekvédelmi protokoll / 112 lép – ezt a Moodle-kurzusban névvel megadott kijelölt gyermekvédelmi felelős és a jóváhagyott helyi jelzési protokoll rögzíti.)** (M3.3, M7.3)
 
 #### Q14 — Mit NEM hagysz a peulatervben? (Multi-Select – több jó válasz)
 
@@ -228,7 +228,7 @@
 - C) Sehol nincs leírva, kihez fordul a madrich, ha red flaget észlel. ✅
 - D) A peula elején van egy rövid, közös „kit kérhetsz, ha rosszul érzed magad” kör.
 
-**Feedback:** Az A–B–C mind **kockázatot hagy a tervben**, ezért a rubrika R4-sora ezt 0–1-re értékeli (→ a kapu nem nyílik): a **négyszemközti helyzet helyi szabály szerinti, leírt kezelése** (A), a **B-terv** a kockázatos elemre (B) és a **megnevezett jelzési út** (C) mind kötelező. A D **épp jó gyakorlat** – ez a biztonságos tér része, nem hiba. (M3.3, M7.3) *(A teljes ponthoz A, B, C jelölve, D NEM.)*
+**Visszajelzés:** Az A–B–C mind **kockázatot hagy a tervben**, ezért a rubrika R4-sora ezt 0–1-re értékeli (→ a kapu nem nyílik): a **négyszemközti helyzet helyi szabály szerinti, leírt kezelése** (A), a **B-terv** a kockázatos elemre (B) és a **megnevezett jelzési út** (C) mind kötelező. A D **épp jó gyakorlat** – ez a biztonságos tér része, nem hiba. (M3.3, M7.3) *(A teljes ponthoz A, B, C jelölve, D NEM.)*
 
 ***
 
@@ -241,7 +241,7 @@
 **Mit ad le a tanuló (a kapu produktuma):** kitöltött **Peula v2** (kvuca-meta + SMART cél + Peula 11 pont struktúra felismerhetően) + **Zmán Kvucá-operációs táblázat** (idő–feladat–felelős, lásd (C) pontozó váz).
 
 > 🎯 **Kipróbálási kötelezettségvállalás (a v2 leadás MELLÉ – rögzített szándék, NEM rubrika-pont).**
-> A véglegesített Peula v2 mellé a madrich leadja a saját **kipróbálási szándékát** is. **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol** – a célja, hogy a peula a fiókból a **terepre** kerüljön (implementation-intention). Formátum (someres nyelven, 3 sor):
+> A véglegesített Peula v2 mellé a madrich leadja a saját **kipróbálási szándékát** is. **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol** – a célja, hogy a peula a fiókból a **terepre** kerüljön . Formátum (someres nyelven, 3 sor):
 > – **MIKOR / MELYIK Zmán Kvucán** vinné be? (kb. alkalom vagy dátum)
 > – **1 várható akadály** (pl. kevés idő, nincs B-terem, kevés madrich);
 > – **HA** ez az akadály jön, **AKKOR** mit tesz? (1 konkrét if–then megkerülés).
@@ -274,7 +274,7 @@
 | Pont | Megfigyelhető kritérium |
 | --- | --- |
 | **0** | Nincs kvuca-meta, vagy nem derül ki, kinek szól a peula. |
-| **1** | Van kvuca-típus / életkor megnevezve, de a program ezt **figyelmen kívül hagyja** (pl. 6–10 éveseknek hosszú frontális beszélgetés). |
+| **1** | Van kvuca-típus / életkor megnevezve, de a program ezt **figyelmen kívül hagyja** (pl. 6–9 éves Parparimnak hosszú frontális beszélgetés). |
 | **2** | A kvuca-meta tartalmazza a **típust, korosztályt, kb. létszámot és kiinduló hangulatot**, és a program ehhez **láthatóan igazodik** (energiaszint, figyelem-időtartam). |
 | **3** | A meta + a választott módszerek **konkrétan reflektálnak a kvuca állapotára** (pl. „szétesett régi someresek” → keret-erősítő blokk), és az **életkori / korosztályi sajátosság** (az M3-ban tanult kvuca-profil mentén) megjelenik a tervben. |
 
@@ -286,8 +286,8 @@
 | --- | --- |
 | **0** | A leadás lényegében csak egy játékötlet; a 11 pont fázisai nem azonosíthatók. |
 | **1** | 1–2 fázis felismerhető (pl. csak az Élmény-blokk), de **hiányzik a feldolgozás vagy a zárás**, az ív töredékes. |
-| **2** | A 3 fázis (Előkészítés / Megírás / Utómunka) **felismerhetően jelen van**, és a 3–4 részletezett pont között ott a **bevezetés–élmény–feldolgozás–zárás** ív. |
-| **3** | A 3–4 kidolgozott pont **koherensen egymásra épül** (cél → módszer → feldolgozás → zárás → utóreflexió), és látszik a tudatos **realitás-check** (idő-arányok kiosztva). Az **utóreflexió (11. pont) SBI-szerkezetben** fogalmaz (konkrét **helyzet → viselkedés → hatás** – mi történt, mit tettem/tettünk, mi lett a hatása), nem általános „jól sikerült” összegzés. |
+| **2** | A 3 fázis (Előkészítés / Megírás / Biztonság & továbbfejlesztés) **felismerhetően jelen van**, és a 3–4 részletezett pont között ott a **bevezetés–élmény–feldolgozás–zárás** ív. |
+| **3** | A 3–4 kidolgozott pont **koherensen egymásra épül** (cél → módszer → feldolgozás → zárás), és látszik a tudatos **realitás-check** (időarányok kiosztva). A **11. pontnál előre megírt utóreflexiós terv** szerepel: mit fog a madrich a megtartás után konkrétan megfigyelni, miből látja majd a hatást, és milyen szempont alapján dönt a következő változtatásról. Nem ír kitalált múlt idejű reflexiót egy még meg nem tartott peuláról. |
 
 ***
 
@@ -346,7 +346,7 @@
 | **0** | A szöveg „robotnyelvű”, sablonos, AI-másolat hatású, **és/vagy** beazonosítható chanich-adat (név, konkrét sztori) szerepel benne. **(Adat-szivárgás esetén jelzés a mentornak.)** |
 | **1** | Vegyes: helyenként emberi, de vannak nyersen bemásolt, a kvucára nem szabott AI-blokkok; nincs jele a saját döntésnek. |
 | **2** | A szöveg **emberi, érthető, a saját szavakkal írt**; ha volt AI-támogatás, az ötlet-szinten maradt; **nincs** beazonosítható chanich-adat. |
-| **3** | Egyértelműen **saját, someres hangú** munka; ahol AI-t használt, ott látszik a **kritikus átdolgozás** (mi illik a kvucához, mit hagyott ki) **és a transzparens jelölés** (a mellékelt AI-használat-megjegyzésből kiderül, hol / mire használt AI-t) – nem a parafrázis önmagában, hanem a **feltüntetés + a madrich tényleges szakmai döntése** teszi etikussá; a felelősség végig a madrichnál marad. |
+| **3** | Egyértelműen **saját, someres hangú** munka, amelyből látszik a madrich tényleges szakmai döntése. **No-AI út:** önállóan/mentorral dolgozott, ezt a mellékelt megjegyzésben jelzi (`nem használtam AI-t`), és a produktum végig saját, kvucára szabott. **AI-támogatott út:** látszik a kritikus átdolgozás (mi illik a kvucához, mit hagyott ki) és a transzparens jelölés (hol/mire használt AI-t). A két út értékben egyenértékű; a felelősség végig a madrichnál marad. |
 
 ***
 
@@ -355,7 +355,7 @@
 * **Max pont:** 24. **Küszöb (zárt ÉS-logika):** **Megfelelt = (összpont ≥17 pont, ≈70%) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló).** A kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**.
 * **Blokkoló:** R4 < 2 → **bukás**, függetlenül mindentől (a pontszámtól és a többi sortól is).
 * **Bukás akkor is**, ha bármely kritikus sor (R1, R5, R6) < 2 – **akkor is, ha az összpont ≥17**.
-* **Bukás:** SBI-feedback (max 3 pont, a leggyengébb sorokra) → javított Peula v2 → szükség esetén mentoros peula-klinika.
+* **Bukás:** rövid, konkrét fejlesztő visszajelzés (max. 3 pontban a leggyengébb sorokról) → javított Peula v2 → szükség esetén mentoros peula-műhely.
 
 ***
 
@@ -377,20 +377,20 @@ A Peula v2 mellé leadott Zmán Kvucá-checklist / operációs tábla gyors, ön
 
 ***
 
-## CAPSTONE – mire épít a Peula v2
+## PORTFÓLIÓ-ÁTKÖTÉS – mire épít a Peula v2
 
 A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produktumait egyetlen, vállalható peulában fogja össze. A rubrika ezeket explicit beemeli:
 
 | Korábbi produktum | Hol jelenik meg a Peula v2-ben | Melyik rubrikasor jutalmazza |
 | --- | --- | --- |
-| **M1 – SBI** (Situation–Behavior–Impact visszajelzés-keret) | A produktum **utóreflexiója (11. pont)** és a **javítási útvonal visszajelzése** SBI-nyelven íródik; a peulákon (M7.A/M7.B) zajló élő peer-feedback maga a peula-tervezés szempontjaira épül (SMART-cél: „hol érzem SMART-nak / mit kérdeznék még?”, illetve a Zmán Kvucá „előtte–utána”), de az SBI-szemléletet (konkrét helyzet–viselkedés–hatás) ott is be tudod vinni. | **R3 (utóreflexió)** – a „3” szint az utóreflexió **SBI-szerkezetét** (helyzet–viselkedés–hatás) konkrét, megfigyelhető jegyként pontozza; + a képzői javító visszajelzés protokolljának SBI-formátuma |
+| **M1 – megfigyelés, értelmezés, konkrét fejlesztő visszajelzés** | Az M7.A/M7.B műhelyben a társas visszajelzés konkrétumokra épül, nem címkékre. A 11. pont utóreflexiós terve ugyanezt a fegyelmet viszi tovább: a megtartás után előbb azt rögzíted, **mi történt és mit figyeltél meg**, csak utána értelmezed a hatását és döntesz a változtatásról. | **R3 – Peula 11 pont struktúra**: a „3” szint konkrét, előre megírt utóreflexiós tervet kér; a javítási folyamat visszajelzése is konkrét, megfigyelhető elemekre épül. |
 | **M2 – identitás / érték** (identitás-jegyzet, dugma ishit; a kiemelt someres érték) | A SMART nevelési cél a madrich saját someres értékéhez / dugma ishitjéhez kötődik – nem „bárki” peulája, hanem a tiéd (R – Releváns). | **R1 – SMART cél** („someres értékhez kötött” jegy), R2 (kvuca-illeszkedés indoklása) |
-| **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá biztonsági része a korábban tanult gyermekvédelmi keretre támaszkodik: ha egy chanich tár fel valamit, az red flag → meghallgatod (nem ígérsz titoktartást, nem nyomozol) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály) – **értékelt, de NEM kritikus küszöb-sor** (a kapu kritikus sorai: R1, R4, R5, R6); a korosztály-illeszkedés a pontszámba számít, de önmagában nem blokkol · **R4 – Gyermekvédelem & biztonság** (kritikus + blokkoló) |
-| **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, peula-pitch) | A peula **feldolgozó kérdései** és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek; az élő peer-feedback megfogalmazása is erre épül. | R3 (élmény-/feldolgozó-blokk), feedback-megfogalmazás |
+| **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan + jelzési lánc) | A korosztály-illeszkedés a someres kvuca-profilra, a Zmán Kvucá biztonsági része a korábban tanult gyermekvédelmi keretre támaszkodik: ha egy chanich tár fel valamit, az red flag → meghallgatod (nem ígérsz titoktartást, nem nyomozol) → jelzés felfelé; felnőtt-/madrich-gyanú esetén a „ne konfrontáld, közvetlenül a felelősnek” külön eljárás. | **R2 – kvuca-illeszkedés** (korosztály) – **értékelt, de NEM kritikus küszöb-sor** (a kapu kritikus sorai: R1, R4, R5, R6); a korosztály-illeszkedés a pontszámba számít, de önmagában nem blokkol · **R4 – Gyermekvédelem & biztonság** (kritikus + blokkoló) |
+| **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, rövid peulabemutató) | A peula **feldolgozó kérdései** és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek; az élő társas visszajelzés megfogalmazása is erre épül. | R3 (élmény-/feldolgozó-blokk), visszajelzés megfogalmazása |
 | **M5 – módszer-logika** („Feladat–kvuca–módszer + tanulástan” táblázat) | A cél ↔ módszer ↔ kvuca illesztés tudatos indoklása. | **R6 – Módszer-illeszkedés** (a „3” szinten explicit M5-hivatkozás) |
 | **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) | A peula konkrét élmény-blokkja egy M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők továbbélnek. | R3 (élmény-blokk), **R5 (inkluzivitás)**, **R4 (gyermekvédelem & biztonság)** |
 
-> **Üzenet a tanulónak (a feladat-briefbe is beilleszthető):** „A Peula v2-d nem nulláról indul. Hozd be az M1-ből az SBI-nyelvet a feedbackhez, az M2-ből a saját someres értékedet (ez lesz a SMART cél R – Releváns eleme), az M3-ból a kvuca-profilt és a biztonsági-keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot – itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani.”
+> **Üzenet a tanulónak (a feladat-briefbe is beilleszthető):** „A Peula v2-d nem nulláról indul. Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját someres értékedet (ez lesz a SMART cél R – Releváns eleme), az M3-ból a kvuca-profilt és a biztonsági-keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot – itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani.”
 
 ***
 
@@ -403,8 +403,8 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 * [ ] **R4 blokkoló** szabály a Moodle-leírásban is rögzítve (nem csak a rubrikában).
 * [ ] Kritikus sorok kijelölve: R1, R4, R5, R6.
 * [ ] (C) checklist-pontozó az R4/R7 alá kötve, önellenőrzésként a tanulónak is kiadva.
-* [ ] Capstone-hivatkozások (M1/M2/M3/M4/M5/M6) szerepelnek a tanulói briefben, és a CAPSTONE-tábla egyezik a modul-áttekintő §6 PORTFÓLIÓ-BEMENET listájával (mindkettő 6 forrásmodult nevez, az M4 kérdezés/kapcsolódással együtt).
-* [ ] **Kétkapus időzítés rögzítve:** v1 first-draft gate (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét spacing-köz (M7.B) → v2 mastery-kapu (hét 2 vége); a konkrét Moodle-dátumok kitöltve élesítés előtt **ÉS a spacing-invariáns betartva: (v2-leadás − v1-leadás) ≥ az M7.B köztes feedback- és külön revíziós szakasza, nem aznapi** (a §0 spacing-invariáns szerint). Ez a két dátum kitöltésével együtt **élesítési feltétel** (vö. Program terv §9 compliance gate M7-sora).
+* [ ] Portfólió-átkötések (M1/M2/M3/M4/M5/M6) szerepelnek a tanulói briefben, és a PORTFÓLIÓ-ÁTKÖTÉS tábla egyezik a modul-áttekintő §6 PORTFÓLIÓ-BEMENET listájával (mindkettő 6 forrásmodult nevez, az M4 kérdezés/kapcsolódással együtt).
+* [ ] **Kétkapus időzítés rögzítve:** v1 elsővázlat-ellenőrzési pont (hét 1 vége, alacsony tét, újrapróbálható) → ~1 hét köztes fejlesztési idő (M7.B) → v2 teljesítési kapu (hét 2 vége); a konkrét Moodle-dátumok kitöltve élesítés előtt **ÉS az időbeli elosztás invariánsa betartva: (v2-leadás − v1-leadás) ≥ az M7.B köztes visszajelzési és külön revíziós szakasza, nem aznapi** (a §0 időbeli elosztási invariáns szerint). Ez a két dátum kitöltésével együtt **élesítési feltétel** (vö. Program terv §9 release-kapu M7-sora).
 * [ ] **Kipróbálási kötelezettségvállalás** mező a v2 leadás mellett **completion-szinten** (leadta/nem), tartalmilag **NEM pontozva**, **nem blokkol** – if–then formátum, M7.B-ben élőben előkészítve.
 * [ ] **AI-használat-megjegyzés** mező a v2 leadás mellett (1 sor: hol/mire használt AI-t, vagy „nem használtam”), **completion-szinten**, tartalmilag **NEM pontozva**, **nem blokkol** – összhangban a modul saját AI-provenance (D1.3) elvárásával.
-* [ ] Javítási útvonal: SBI max 3 pont + újraleadás + mentoros klinika dokumentálva.
+* [ ] Javítási útvonal: max. 3 pontos, konkrét fejlesztő visszajelzés + újraleadás + szükség esetén mentoros peula-műhely dokumentálva.

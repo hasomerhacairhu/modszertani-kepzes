@@ -31,7 +31,7 @@
 * **Időtartam:** 1 hét (könnyített zárómodul)
 * **Heti offline:** péntek 2. sáv – **Z.A záró peula** (45–60’)
 * **Opcionális kísérő elem:** mentori / kiscsoportos záró beszélgetés (nem peula, 20–30’) azoknak, akiknek szükségük van rá
-* **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (Moodle Assignment reflexiós ív ~20–30’ + véglegesítés/leadás ~15–25’ + feedback-űrlap ~5–10’ = **Z.4 önmagában kb. 40–60’**, a modul leghosszabb online eleme)
+* **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (Moodle Assignment reflexiós ív ~20–30’ + véglegesítés/leadás ~15–25’ + visszajelző űrlap ~5–10’ = **Z.4 önmagában kb. 40–60’**, a modul leghosszabb online eleme)
 * **Az ív sorrendje:** a **Z.1–Z.3** mikroleckék **a Z.A peula ELŐTT** ajánlottak (ráhangolódás), a **Z.4** záró reflexió pedig **a Z.A peula UTÁNRA** esik – a peulán megfogalmazott gondolatokból dolgozik. A peula tehát a Z.3 és a Z.4 közé ékelődik.
 * **Teljes terhelés:** kb. 2,5–3 óra – **tervezz inkább a felső értékkel (3 óra)**, mert a Z.4 produktum-leadás könnyen csúszik felfelé (kivált videós úton). A Z.4-et nyugodtan **két ülésre is bonthatod** (jegyzetelő külön, végleges reflexió külön).
 
@@ -41,7 +41,7 @@
 
 **Modulcél röviden**
 
-A Z modul a félév **lezárását és értelmezését** támogatja. A madrich visszatekint az M0–M7 ívére, kiemel 2–3 számára meghatározó pillanatot, és megfogalmaz 1–2 konkrét következő lépést a terepre (pl. „a következő 3 Zmán Kvucámon kipróbálok egy új feedback-formát”). A modul nem vizsga, hanem **reflektív tükör és híd a gyakorlat felé**, a kapu completion-alapú.
+A Z modul a félév **lezárását és értelmezését** támogatja. A madrich visszatekint az M0–M7 ívére, kiemel 2–3 számára meghatározó pillanatot, és megfogalmaz 1–2 konkrét következő lépést a terepre (pl. „a következő 3 Zmán Kvucámon kipróbálok egy új visszajelzési formát”). A modul nem vizsga, hanem **reflektív tükör és híd a gyakorlat felé**, a kapu completion-alapú.
 
 ***
 
@@ -58,7 +58,7 @@ A modul végére a résztvevő…
 4. **Felsorolja, kihez fordulhat (mentor / képzők / ken-vezető / társ) elakadás esetén**
    – Tudja, **kihez fordulhat** (mentor, képzők, ken-vezetők, társak), ha a következő időszakban elakad.
 5. **Képzés-szintű visszajelzés adása**
-   – Részt vesz a képzés **értékelésében** (feedback-űrlap), és tud legalább 1–2 konstruktív javaslatot megfogalmazni.
+   – Részt vesz a képzés **értékelésében** (visszajelző űrlap), és tud legalább 1–2 konstruktív javaslatot megfogalmazni.
 
 ***
 
@@ -95,7 +95,7 @@ A modul végére a résztvevő…
 
 ***
 
-### Z.4 – „Záró reflexió + képzés feedback” (Moodle Assignment reflexiós ív ~20–30’ + leadás ~15–25’ + feedback ~5–10’)
+### Z.4 – „Záró reflexió + képzési visszajelzés” (Moodle Assignment reflexiós ív ~20–30’ + leadás ~15–25’ + visszajelzés ~5–10’)
 
 * **Cél:** záró reflektív produktum + képzés-értékelés.
 * **Eszközök:**
@@ -161,7 +161,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 **Fontos:**
 – Nem kötelező és **nem része a formalizált modul-kapunak**.
-– Inkább a **mentori rendszer** eszköze, rugalmasan szervezhető (1:1 vagy 3–4 fős kiscsoport).
+– Inkább a **mentori rendszer** eszköze. **1:1 beszélgetés csak a HUM-SAFE-02 szerint jóváhagyott helyi négyszemközti / safer-working szabály betartásával szervezhető**; amíg ez nincs lezárva, használjatok 3–4 fős kiscsoportot, vagy vonjatok be egy másik képzőt átlátható módon.
 – A Program terv §6 „félév-végi **reflektív »exit interview«** (akár rövid írás, akár beszélgetés)” pontja erre a beszélgetésre **és** a Z.4 záró reflektív produktumra (a „rövid írás” ág, ami mindenkinek kötelező) utal. Ez **reflektív, NEM értékelő** aktus: a summatív kaput az M7 már lezárta, a Z mentori beszélgetése nem értékel újra.
 
 ***
@@ -185,20 +185,20 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 ### Minimális teljesítés (Z „complete”)
 
-A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 online a Z.A peula ELŐTT → 2) Z.A záró peula → 3) Z.4 záró reflexió + feedback a peula UTÁN, abból dolgozva.** Moodle-szinten érdemes a **Z.4-et `restrict access`-szel a Z.A dátuma mögé tenni**, hogy a tanuló ne tudja a peula előtt megírni a záró reflexiót.
+A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 online a Z.A peula ELŐTT → 2) Z.A záró peula → 3) Z.4 záró reflexió + visszajelzés a peula UTÁN, abból dolgozva.** Moodle-szinten érdemes a **Z.4-et `restrict access`-szel a Z.A dátuma mögé tenni**, hogy a tanuló ne tudja a peula előtt megírni a záró reflexiót.
 
 1. Z.1–Z.3 mikroleckék activity completion (ajánlottan a peula előtt).
 2. Z.A záró peula (offline).
 3. Z.4 leadott záró reflexió + benne a következő lépés(ek) (a peula után).
-4. **2. félév – terepgyakorlat:** 6 valódi, 60–90 perces peula, megfigyelés → feedback → reflexió → javítás ciklusban (lásd `Terepgyakorlat – 2. félév.md`). A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes.
-5. (Erősen ajánlott) feedback-űrlap kitöltése.
+4. **2. félév – terepgyakorlat:** 6 valódi, 60–90 perces peula, megfigyelés → visszajelzés → reflexió → javítás ciklusban (lásd `Terepgyakorlat – 2. félév.md`). A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes.
+5. Képzési visszajelző űrlap kitöltve. Ez a Z completion része, de **nem vizsga**: nincs helyes válasz és a válasz tartalma nem pontozott; csak a kitöltés ténye számít teljesítésnek.
 
 ***
 
 ## 6. Learning analytics – mit néz a stáb?
 
 * **Completion:**
-  – Z.1–Z.4 lezárása, Assignment leadási arány, feedback kitöltési arány.
+  – Z.1–Z.4 lezárása, Assignment leadási arány, visszajelző űrlap kitöltési aránya.
 * **Minőségi jelek:**
   – Van-e a reflektív produktumban minimum 2 pillanat + 1–2 reális következő lépés.
 * **Beavatkozás:**
@@ -216,6 +216,6 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 
 [Z.3 – „Híd a terepre” – következő lépések](./Online%20leckék/Z.3%20–%20Híd%20a%20terepre%20–%20következő%20lépések.md)
 
-[Z.4 – „Záró reflexió + képzés feedback”](./Online%20leckék/Z.4%20–%20Záró%20reflexió%20+%20képzés%20feedback.md)
+[Z.4 – „Záró reflexió + képzési visszajelzés”](./Online%20leckék/Z.4%20–%20Záró%20reflexió%20+%20képzés%20feedback.md)
 
 [Z.A – „Mit viszek magammal?” – Záró kvuca-peula](./Peulák/Z.A%20–%20Mit%20viszek%20magammal%20–%20Záró%20kvuca-peula.md)

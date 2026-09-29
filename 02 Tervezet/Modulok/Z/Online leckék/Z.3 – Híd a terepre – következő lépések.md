@@ -222,7 +222,7 @@ Opciók:
 
 **Rövid szöveges válasz** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály ha–akkor formában).
 
-Placeholder:
+Mezőben megjelenő mintaszöveg:
 `A következő 3 Zmán Kvucámon **a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...**`
 
 ***
@@ -248,7 +248,7 @@ Placeholder:
 
 **Beágyazott kérdés – rövid szöveges válasz**
 
-Placeholder:
+Mezőben megjelenő mintaszöveg:
 `A következő hónapban **minden peula után** ...`
 
 ***

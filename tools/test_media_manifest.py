@@ -121,6 +121,59 @@ APPROVED_VISIBLE_EDITS = {
         "F-02 — a feedback-eszköz megnevezése pontosítva („név nélkül megjelenő”)",
 }
 
+# 2026-09-26 release-readiness audit — intentional visible curriculum edits.
+# Keep this list explicit: the historical migration guard remains useful, while
+# later audited content changes do not masquerade as migration drift.
+AUDIT_2026_09_26_VISIBLE_EDITS = {
+    "02 Tervezet/Adatvédelem – tanulói adatok és AI.md",
+    "02 Tervezet/Gyermekvédelem – release gate.md",
+    "02 Tervezet/LMS – H5P runtime acceptance.md",
+    "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md",
+    "02 Tervezet/RELEASE-READINESS.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md",
+    "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md",
+    "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
+    "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md",
+    "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md",
+    "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
+    "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
+    "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
+    "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md",
+    "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md",
+    "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
+    "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
+    "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
+    "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
+    "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
+    "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md",
+    "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md",
+    "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a gate.md",
+    "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md",
+    "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
+    "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md",
+    "02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’).md",
+    "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
+    "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md",
+    "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md",
+    "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md",
+    "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md",
+    "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
+    "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, visszahívás, spacing.md",
+    "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
+    "02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md",
+    "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
+    "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md",
+    "02 Tervezet/Terepgyakorlat – 2. félév.md",
+}
+
 LESSON_DIR = "02 Tervezet/Modulok/M9/Online leckék"
 LESSON = f"{LESSON_DIR}/M9.1 – Teszt lecke.md"
 
@@ -1134,9 +1187,10 @@ class TestContentInvariant(unittest.TestCase):
             if current != baseline:
                 touched += 1
             visible_changed = mig.strip_metadata(current) != baseline
-            if visible_changed and rel not in APPROVED_VISIBLE_EDITS:
+            approved_visible = set(APPROVED_VISIBLE_EDITS) | AUDIT_2026_09_26_VISIBLE_EDITS
+            if visible_changed and rel not in approved_visible:
                 unapproved.append(rel)
-            if not visible_changed and rel in APPROVED_VISIBLE_EDITS:
+            if not visible_changed and rel in approved_visible:
                 unchanged_but_listed.append(rel)
         self.assertEqual([], unapproved,
                          "jóvá nem hagyott tanulónak látható szövegváltozás")
@@ -1637,7 +1691,7 @@ class TestApprovedDecisions(unittest.TestCase):
         text = lesson.read_text(encoding="utf-8")
         for kept in ("Miért fontos, hogy máshogy nézz rá a kvucákra?",
                      "előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen",
-                     "gyors **„fejprofilod”** mind a négy kvucáról"):
+                     "gyors **„fejprofilod”** mind a három aktuális kvucáról"):
             self.assertIn(kept, text, kept)
 
     # --- D4: the M4 HOOK format question is answered -------------------------
@@ -1724,7 +1778,7 @@ class TestLiveDeliverables(unittest.TestCase):
             self.assertEqual("pending-human-decision", asset["status"], asset_id)
             self.assertNotEqual("B0", mm.batch_of(asset), asset_id)
         approvals = (mm.ACTIVE_ROOT / "Emberi jóváhagyás szükséges.md").read_text(encoding="utf-8")
-        self.assertIn("alkohol- és dohányzási magatartási kódexe", approvals)
+        self.assertIn("HUM-SAFE-04 — Alkohol- és dohányzási szabály", approvals)
 
     def test_plan_totals_still_agree_with_the_manifest(self):
         rows = mm.plan_csv_rows(self.model)

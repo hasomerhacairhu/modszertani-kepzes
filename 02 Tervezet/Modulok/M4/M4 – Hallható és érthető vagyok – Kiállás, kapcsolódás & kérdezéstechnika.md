@@ -11,7 +11,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (hét 1) és Peula B (hét 2), kb. 45–45’
 * **Online terhelés:** kb. 4×15–20 perc mikrolecke (M4.1–M4.4)
-* **Teljes terhelés:** **a program-szintű kb. 2–3,5 órás modul-sávon belül (lásd Program terv §0) az M4 mint produktum-modul effektíve a felső felében, kb. 2,5–3,5 óra (online + offline) – tervezz inkább a felső, ~3,5 órás értékkel.** A becslés őszintén felfelé kerekített: a két peula (2×45’) önmagában ~1,5 óra, az online leckék ~60–75 perc, **és erre jön a modulproduktum (M4.4 peula-pitch váz) tényleges megírása + finomítása**, amit könnyű alulbecsülni. A pitch-váz az M4.4 online lecke ~15 perce alatt elindul, de a kvucára szabott, leadható verzió kidolgozása (és az M4.B-n a hangos gyakorlás) reálisan **további ~20–30 perc** – ezt a teljes terhelésbe beleszámoltuk.
+* **Teljes terhelés:** **a program-szintű kb. 2–3,5 órás modul-sávon belül (lásd Program terv §0) az M4 mint produktum-modul effektíve a felső felében, kb. 2,5–3,5 óra (online + offline) – tervezz inkább a felső, ~3,5 órás értékkel.** A becslés őszintén felfelé kerekített: a két peula (2×45’) önmagában ~1,5 óra, az online leckék ~60–75 perc, **és erre jön a modulproduktum (M4.4 peulabemutató-vázlat) tényleges megírása + finomítása**, amit könnyű alulbecsülni. A peulabemutató-vázlat az M4.4 online lecke ~15 perce alatt elindul, de a kvucára szabott, leadható verzió kidolgozása (és az M4.B-n a hangos gyakorlás) reálisan **további ~20–30 perc** – ezt a teljes terhelésbe beleszámoltuk.
 * **Terhelés-megjegyzés (peulavezetőnek):** a peula-percbontások feszesek; **minden peulában van „mag” (el nem hagyható) és „rövidíthető/elhagyható” rész** – ezeket a peula-fájlok blokkonként jelölik. Ha csúszol, a rövidíthető részekből vegyél vissza, ne a feldolgozásból / zárókörből. **Tervezz ~10–15% puffert** (késés, technika, érzelmileg ráhangolódó kör), hogy a zárás ne maradjon ki.
 * **Tartalmi eredet (provenance):** **ember által írt / AI-asszisztált tananyag** – ahol generatív AI-t használtunk (szöveg, kvíz-item, distraktor, ábra, AI-videó), azt a leckében külön jelöljük.
 * **Szakmai lektorálás:** **lektor: [ ] · dátum: [ ] · verzió: [ ]** (a gyermekvédelmi és érzékeny tartalmat éles indítás előtt embernek kell jóváhagynia – UNESCO AI-etika: emberi felügyelet + átláthatóság).
@@ -22,7 +22,7 @@
 > **mennyire értik, mit akarok, és mennyire érzik, hogy rájuk figyelek?**”
 
 **Modulcél röviden:**
-A résztvevő tudatosabban használja a **testét**, **tudatosul benne, hogy a hangja (hangerő, tempó) is hat az érthetőségére**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es peula-pitchre**, amit egy konkrét kvucának címez.
+A résztvevő tudatosabban használja a **testét**, **tudatosul benne, hogy a hangja (hangerő, tempó) is hat az érthetőségére**, érti az **aktív hallgatás** alapjait, meg tud különböztetni különböző **kérdéstípusokat**, és képes egy **max. 45 mp-es rövid peulabemutatóra**, amit egy konkrét kvucának címez.
 
 ***
 
@@ -46,9 +46,9 @@ A modul végére a résztvevő…
    * Különbséget tud tenni **nyitott, zárt, tisztázó, irányító** kérdések között, és példát tud mondani mindegyikre.
    * Tudatosan választ kérdéstípust a peula különböző szakaszaiban (megnyitás, tisztázás, lezárás).
      *(Főleg: M4.3, M4.B)*
-5. **45 mp-es peula-pitch**
-   * Elkészít egy **max. 45 mp-es pitch-vázat** egy konkrét kvucára (lehetőleg arra, akikkel tényleg dolgozni fog).
-   * A pitchben megjelenik, hogy **tudja, kikhez beszél**, miről szól a peula, miért fontos nekik, mit fognak csinálni, és mit szeretne, hogy hazavigyenek.
+5. **45 mp-es peulabemutató**
+   * Elkészít egy **max. 45 mp-es peulabemutató-vázlatot** egy konkrét kvucára (lehetőleg arra, akikkel tényleg dolgozni fog).
+   * A bemutatóban megjelenik, hogy **tudja, kikhez beszél**, miről szól a peula, miért fontos nekik, mit fognak csinálni, és mit szeretne, hogy hazavigyenek.
      *(Főleg: M4.4, M4.B)*
 
 ***
@@ -76,11 +76,11 @@ A modul végére a résztvevő…
 * **Formátum:** H5P Course Presentation; sorting feladat 4 oszloppal + mini-kvíz a végén.
 * **Completion:** lecke végignézve + záró reflektív kérdés (melyik kérdéstípusból szeretne többet/kevesebbet használni).
 
-### M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára (L4, 15–20’)
+### M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára (L4, 15–20’)
 
-* **Szerepe a modulban:** a modul **produktumának előkészítése** – konkrét pitch-váz egy valós/valószerű kvucára.
-* **Kulcstémák:** 5 kérdéses pitch-sablon (kihez beszélsz, miről szól, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza).
-* **Formátum:** H5P Course Presentation + külön Moodle Assignment („M4.4 – Peula-pitch váz”) – ez lesz a modul kimeneti produktuma.
+* **Szerepe a modulban:** a modul **produktumának előkészítése** – konkrét peulabemutató-vázlat egy valós/valószerű kvucára.
+* **Kulcstémák:** 5 kérdéses peulabemutató-sablon (kihez beszélsz, miről szól, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza).
+* **Formátum:** H5P Course Presentation + külön Moodle Assignment („M4.4 – Peulabemutató-vázlat”) – ez lesz a modul kimeneti produktuma.
 * **Completion (modul-szinten kulcs):** H5P lecke végignézve + **M4.4 Assignment leadva** – **nem üres beküldés**: az 5 sablon-elem (kvuca, téma, miért fontos nekik, mit csináltok, mit vigyenek haza) azonosíthatóan jelen van (a §6 Kapu 2 „még nem éri el” szintje nem számít leadott produktumnak).
 
 ***
@@ -93,31 +93,31 @@ A modul végére a résztvevő…
 * **Fő fókusz:** „Hogyan állok be, mozgok, nézek és **hogyan szólalok meg úgy, hogy hallható és érthető legyek**?” – nonverbális jelenlét + rövid, hangkímélő projekciós „Hang-létra” gyakorlat + megfigyelés-alapú visszajelzés.
 * **Modulbeli szerepe:** az M4.1–M4.2-ben tanult fogalmak élményesítése, saját kiállás kipróbálása és finomítása biztonságos kvuca-térben; személyes fókuszmondat kijelölése („Legközelebb erre figyelek, amikor a kvucám előtt állok”).
 
-### Peula B (M4.B) – „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása (45’)
+### Peula B (M4.B) – „Mit és hogyan kérdezek?” – Kérdezés & peulabemutató gyakorlása (45’)
 
-* **Kapcsolódó online leckék:** M4.2, M4.3, M4.4 (hallgatás – kérdések – pitch).
-* **Fő fókusz:** a különböző kérdéstípusok **élő kipróbálása** (nyitott, zárt, tisztázó, irányító) és a saját 45 mp-es peula-pitch hangos gyakorlása kiscsoportban.
-* **Modulbeli szerepe:** az M4.3–M4.4 tartalmak alkalmazása kvuca-helyzetben: kérdések hatásának megtapasztalása, pitch gyakorlása + rövid peer feedback; a modul végére 2 mondatos személyes fókusz megfogalmazása (melyik kérdéstípust használja tudatosan többet, melyik mondatot tartja meg a pitchből).
+* **Kapcsolódó online leckék:** M4.2, M4.3, M4.4 (hallgatás – kérdések – peulabemutató).
+* **Fő fókusz:** a különböző kérdéstípusok **élő kipróbálása** (nyitott, zárt, tisztázó, irányító) és a saját 45 mp-es peulabemutató hangos gyakorlása kiscsoportban.
+* **Modulbeli szerepe:** az M4.3–M4.4 tartalmak alkalmazása kvuca-helyzetben: kérdések hatásának megtapasztalása, peulabemutató gyakorlása + rövid társas visszajelzés; a modul végére 2 mondatos személyes fókusz megfogalmazása (melyik kérdéstípust használja tudatosan többet, melyik mondatot tartja meg a peulabemutatóból).
 
 ***
 
 ## 5. Felzárkóztató peula (ha szükséges) – 45’
 
-* **Kapcsolódó peula:** M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).
+* **Kapcsolódó peula:** M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató.
 * **Mikor használjuk?**
   * Ha a Moodle completion alapján több résztvevő **nem fejezte be** valamelyik leckét (M4.1–M4.4).
-  * Ha sok a „le vagyok maradva / nem értem a kérdéstípusokat / nincs kész a pitch-em” jelzés.
+  * Ha sok a „le vagyok maradva / nem értem a kérdéstípusokat / nincs kész a peulabemutatóm” jelzés.
 * **Fő célok:**
-  1. Tisztábban lássák, hol tartanak a modulban (test – hang – kérdések – pitch).
-  2. Legalább egy leckében érdemben haladjanak (befejezés / újranézés / pitch-váz finomítás).
+  1. Tisztábban lássák, hol tartanak a modulban (test – hang – kérdések – peulabemutató).
+  2. Legalább egy leckében érdemben haladjanak (befejezés / újranézés / peulabemutató-vázlat finomítása).
   3. Le tudjanak írni leckénként 1 gondolatot és 1 kérdést.
-* **Rövid menet:** ráhangolódás → csendes pótlás fülessel → közös kérdések + fogalom-térkép („test – hang – kérdések – pitch”) → átvezetés a normál peulákra (egy mondatos személyes fókusz).
+* **Rövid menet:** ráhangolódás → csendes pótlás fülessel → közös kérdések + fogalom-térkép („test – hang – kérdések – peulabemutató”) → átvezetés a normál peulákra (egy mondatos személyes fókusz).
 
 ***
 
 ## 6. Kapuk
 
-**Kaputípus:** puha kapu (soft gate) – az önreflexió és a készségek tudatosítása a fő cél, nem „kizárás”. **Az M4 a puha kapuk sablonját követi (formáló jelzés a mentornak / stábnak, nem kizárás), összhangban a Program terv §3.1 mátrixával és §5-ével, ahol az M4 a puha kapuk közé sorolódik.**
+**Kaputípus:** puha kapu – az önreflexió és a készségek tudatosítása a fő cél, nem „kizárás”. **Az M4 a puha kapuk sablonját követi (formáló jelzés a mentornak / stábnak, nem kizárás), összhangban a Program terv §3.1 mátrixával és §5-ével, ahol az M4 a puha kapuk közé sorolódik.**
 
 **Javasolt modul-kapuk:**
 
@@ -125,25 +125,25 @@ A modul végére a résztvevő…
    * **Eszköz:** a M4.3 H5P-ben lévő mini-kvíz és záró reflektív kérdés (kérdéstípusok felismerése).
    * **Funkció:** ellenőrzi, hogy a résztvevő **megérti a kérdéstípusokat**, és tudatosan vállal egy változtatási irányt (melyiket használja többet / kevesebbet).
    * **Következmény:** ha gyenge az eredmény vagy hiányzik a completion, jelzés a mentornak / stábnak; opcionálisan M4.F felzárkóztatás ajánlása.
-2. **Kapu 2 – M4.4 Assignment – „Peula-pitch váz”**
-   * **Eszköz:** Moodle Assignment, online szöveges beadás; a M4.4 H5P-ből átvett / finomított pitch-váz.
-   * **Követelmény (soft szint):** a pitch minden kérdésre válaszoljon (kvuca, téma, miért fontos, mit csinálunk, mit vigyenek haza); nincs fix pontszám, de a mentor a lenti, megfigyelhető viselkedést leíró rubrika alapján minimum „alapszint / rendben” szintre néz rá.
-   * **Megfigyelhető rubrika (5 sablon-elem mentén):** a pitch sablon öt eleme = **(1) kvuca (kihez beszélsz), (2) téma (miről szól), (3) miért fontos nekik, (4) mit fogtok csinálni, (5) mit vigyenek haza.** A mentor minden pitchet az alábbi, egymást kizáró szinteken helyez el – a besorolás külső megfigyelő által, értelmezés nélkül eldönthető (megvan-e az adott elem, és kvuca-specifikus-e):
+2. **Kapu 2 – M4.4 beadandó – „Peulabemutató-vázlat”**
+   * **Eszköz:** Moodle Assignment, online szöveges beadás; a M4.4 H5P-ből átvett / finomított peulabemutató-vázlat.
+   * **Követelmény (puha kapu):** a peulabemutató minden kérdésre válaszoljon (kvuca, téma, miért fontos, mit csinálunk, mit vigyenek haza); nincs fix pontszám, de a mentor a lenti, megfigyelhető viselkedést leíró rubrika alapján minimum „alapszint / rendben” szintre néz rá.
+   * **Megfigyelhető rubrika (5 sablon-elem mentén):** a peulabemutató sablon öt eleme = **(1) kvuca (kihez beszélsz), (2) téma (miről szól), (3) miért fontos nekik, (4) mit fogtok csinálni, (5) mit vigyenek haza.** A mentor minden peulabemutatót az alábbi, egymást kizáró szinteken helyez el – a besorolás külső megfigyelő által, értelmezés nélkül eldönthető (megvan-e az adott elem, és kvuca-specifikus-e):
      * **Fejlettebb (kvucára szabott):** **mind az 5 elem megnevezve, és legalább a kvuca + a „miért fontos nekik” rész konkrét, az adott kvucára szabott (nem általános) – pl. nevesített korosztály/élethelyzet, rájuk illő indok.**
      * **Alapszint / rendben (= küszöb):** **mind az 5 elem megnevezve és értelmezhető, de általánosabb, nincs kifejezetten erre a kvucára szabva.**
      * **Még nem éri el:** **legalább egy elem hiányzik vagy nem értelmezhető (pl. nincs megnevezve a kvuca, vagy nincs „mit vigyenek haza”).**
-   * **Küszöb (cut-score) indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritérium-referenciás, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett pitch-váz) akkor teljesül érdemben, ha a pitch hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kinek” vagy „miért fontos nekik”) esetén a pitch nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
-   * **Ajánlott folyamat (a két feedback-forrás sorrendje):** az **M4.B élő PEER-feedback** (érthetőség/emlékezetesség + lehetséges nyitó kérdés) a pitch **formáló finomítását** szolgálja → ezután adja le a résztvevő a **véglegesített pitch-vázat** az M4.4 Assignmentbe → erre érkezik a strukturált, SBI-szellemű **MENTORI** visszajelzés (és szükség esetén újra-beadás). Így a peer (leadás előtti, formáló) és a mentor (leadás utáni, strukturált) ág nem mosódik össze.
-   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** SBI-szellemű, M1-ben tanult visszajelzése a beadott pitchre) + újra-beadás lehetősége (mastery logika). *(Megjegyzés: az M4.B peulán a társas visszajelzés két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, és a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott pitch-vázra a strukturált, SBI-szellemű mentori visszajelzést itt a mentor adja.)*
+   * **Küszöbérték indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritérium-referenciás, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett peulabemutató-vázlat) akkor teljesül érdemben, ha a peulabemutató hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kinek” vagy „miért fontos nekik”) esetén a peulabemutató nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
+   * **Ajánlott folyamat (a két visszajelzési forrás sorrendje):** az **M4.B élő társas visszajelzés** (érthetőség/emlékezetesség + lehetséges nyitó kérdés) a peulabemutató **formáló finomítását** szolgálja → ezután adja le a résztvevő a **véglegesített peulabemutató-vázlatot** az M4.4 Assignmentbe → erre érkezik a strukturált, SBI-szellemű **MENTORI** visszajelzés (és szükség esetén újra-beadás). Így a társak (leadás előtti, formáló) és a mentor (leadás utáni, strukturált) ág nem mosódik össze.
+   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** SBI-szellemű, M1-ben tanult visszajelzése a beadott peulabemutatóra) + újra-beadás lehetősége (elsajátításig tartó tanulás). *(Megjegyzés: az M4.B peulán a társas visszajelzés két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, és a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott peulabemutató-vázlatra a strukturált, SBI-szellemű mentori visszajelzést itt a mentor adja.)*
 
 **Minimális teljesítés (M4 complete):**
 
 * **M4.1–M4.4 completion** érdemi kitöltéssel (nem csak a slide-ok végigléptetése; M4.1/M4.2/M4.3 reflektív kérdései megválaszolva).
-* **M4.4 pitch-váz leadva érdemi tartalommal** – nem üres beküldés: az 5 sablon-elem azonosíthatóan jelen van (a §6 Kapu 2 „még nem éri el” szintje nem számít leadott produktumnak).
+* **M4.4 peulabemutató-vázlat leadva érdemi tartalommal** – nem üres beküldés: az 5 sablon-elem azonosíthatóan jelen van (a §6 Kapu 2 „még nem éri el” szintje nem számít leadott produktumnak).
 
-*(A kapu továbbra is puha: a hiányos / „még nem éri el” szintű pitch nem zár ki, csak mentori jelzést és finomító kört vált ki – de a »complete« nem áll be üres beküldésre. Egységes az M2 „nem üres beküldés / érdemi kitöltés” standardjával.)*
+*(A kapu továbbra is puha: a hiányos / „még nem éri el” szintű peulabemutató nem zár ki, csak mentori jelzést és finomító kört vált ki – de a »complete« nem áll be üres beküldésre. Egységes az M2 „nem üres beküldés / érdemi kitöltés” standardjával.)*
 
-> **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es pitch-váz** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás”** és **„Feedback”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
+> **→ Ezt viszed tovább:** a kvucára szabott **45 mp-es peulabemutató-vázlat** lesz az **M5.4 „Feladat–kvuca–módszer” táblázat** egyik kiinduló sora (az M5.2/M5.4 leckék már erre építenek, amikor a feladat → cél → kvuca → módszer logikát gyakoroltatják). Az itt megalapozott **kérdezéstechnika** (nyitott / tisztázó kérdés) és **aktív hallgatás** pedig az **M7 Peula-vezetés** alapja: az M7 11-pontos peula-keret **„Feldolgozás”** és **„Visszajelzés”** fázisa pontosan ezekre a készségekre épül, amikor élőben vezetsz peulát.
 >
 > **→ Ezt is ezzel moderálod (visszafelé):** ugyanez a **kérdezéstechnika** (tisztázó / nyitott kérdés, a „Na, értitek?” helyett) és **aktív hallgatás** a **legfőbb moderálási eszközöd egy heves értékvitában** is – pl. az [M2.3 cionizmus-szituban](../M2/Online%20leckék/M2.3%20–%20Somer%203%20pillére%20–%20mini-kapszula.md), ahol egy friss Izrael-hír miatt feszült lesz a kvuca. Az M2.3 a **mit** (someres pillér, dugma ishit) felől nézi ezt a helyzetet; az M4 adja hozzá a **hogyan**-t: hogy egy kérdéssel teret nyiss és visszatükrözéssel keretet tarts, ahelyett hogy lezárnád vagy az egyik oldal mellé állnál.
 
@@ -161,11 +161,11 @@ A modul végére a résztvevő…
    * M4.3: mely kérdéstípusok keverednek leginkább (nyitott vs. irányító, tisztázó vs. zárt).
 3. **Kapu-kvíz / mini-kvíz eredmények (M4.3):**
    * kérdés-szintű statisztika: melyik kérdésnél hibáznak sokan → ezekhez az offline peulákon plusz példát / gyakorlást érdemes beépíteni (pl. több élő kérdésjáték M4.B-ben).
-4. **Assignment adatok (M4.4 pitch-váz):**
-   * hány résztvevő adott le pitch-et;
-   * mely rubrika-elemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni M4.B-n, illetve a mentorok 2–3 mondatos írásos feedbackjében.
+4. **Assignment-adatok (M4.4 peulabemutató-vázlat):**
+   * hány résztvevő adott le peulabemutatót;
+   * mely rubrika-elemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni M4.B-n, illetve a mentorok 2–3 mondatos írásos visszajelzésében.
 5. **Küszöbök / beavatkozási pontok:**
-   * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → ajánlott M4.F felzárkóztató Study Lab-et tartani;
+   * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → ajánlott M4.F felzárkóztató műhelyt tartani;
    * ha a mini-kvíz átlaga nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” ismétlő blokk (élő példákkal).
 
 ***
@@ -178,10 +178,10 @@ A modul végére a résztvevő…
 
 [M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések](./Online%20leckék/M4.3%20–%20Kérdezési%20minták%20–%20nyitott,%20zárt,%20tisztázó,%20irányító%20kérdések.md)
 
-[M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára](./Online%20leckék/M4.4%20–%2045%20mp-es%20peula-pitch%20–%20vázlat%20egy%20konkrét%20kvucára.md)
+[M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára](./Online%20leckék/M4.4%20–%2045%20mp-es%20peula-pitch%20–%20vázlat%20egy%20konkrét%20kvucára.md)
 
 [M4.A – „Állj oda!” – Kiállás & jelenlét a térben](./Peulák/M4.A%20–%20Állj%20oda!%20–%20Kiállás%20&%20jelenlét%20a%20térben.md)
 
-[M4.B – „Mit és hogyan kérdezek?” – Kérdezés & pitch gyakorlása](./Peulák/M4.B%20–%20Mit%20és%20hogyan%20kérdezek%20–%20Kérdezés%20&%20pitch%20gyakorlása.md)
+[M4.B – „Mit és hogyan kérdezek?” – Kérdezés & peulabemutató gyakorlása](./Peulák/M4.B%20–%20Mit%20és%20hogyan%20kérdezek%20–%20Kérdezés%20&%20pitch%20gyakorlása.md)
 
-[M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab)](./Peulák/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20pitch%20%28Study%20Lab%29.md)
+[M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató](./Peulák/M4.F%20–%20Felzárkóztató%20peula%20–%20Test,%20hang,%20kérdések%20&%20pitch%20%28Study%20Lab%29.md)

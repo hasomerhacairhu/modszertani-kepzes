@@ -5,7 +5,7 @@
 > A jelentések mozgalmi/Judaica forrásokkal alátámasztottak (a részletes someres-terminológiai audit a git-history-ban érhető el); a 🧑‍🏫 jelű tételeknél a helyi (magyarországi Somer) ken végső megerősítése ajánlott.
 
 
-> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez hivatalosnak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. A nyilvános oldalak korosztályi terminológiája sem teljesen egyezik a repo 4-kvucás történeti modelljével. **Ezt nem automatizáljuk tömeges átírással.** A helyi ken/országos mozgalmi felelősnek egyetlen house style-t és a 2026-os korosztály-architektúrát írásban jóvá kell hagynia; utána lintelt, atomi terminológiai migráció szükséges.
+> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez hivatalosnak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. **Ezt a house-style kérdést nem automatizáljuk tömeges átírással.** A korosztály-architektúra viszont **lezárt, forrásolt adat**: a „Oktatási terv 25/26 Hasomer Hacair” három aktuális csoportot rögzít: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
 
 ---
 
@@ -14,9 +14,9 @@
 Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó szerinti jelentés · mozgalmi jelentés · megjegyzés.
 
 ### bogrim (בוגרים)
-- **Jelentés:** „érettek / idősebbek” – a legidősebb (16+) korosztály mozgalmi **köznévi** megnevezése.
+- **Jelentés:** „érettek / idősebbek”. **A 2025/26-os magyarországi oktatási tervben nem külön kvuca-korosztály neve**; a jelen tananyag aktuális korosztály-struktúrájában nem használjuk önálló 16+ csoportcímkeként.
 - **Írásmód (hivatalos):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
-- **Megjegyzés:** a **Zorea** a 16+ kvuca **tulajdonneve**, a `bogrim` ugyanennek a korosztálynak a köznévi leírása – a kettő nem ellentmondás. (M6, M2.A, M3.2)
+- **Megjegyzés:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért aktuális learner-facing korosztálycímkeként nem használjuk.
 
 ### chanich (חניך)
 - **Jelentés:** növendék, gondozott; mozgalmi értelemben a kvuca tagja, akit a madrich vezet.
@@ -39,7 +39,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 - **Megjegyzés:** mozgalmi szakszó. Ne keverd a magyar „ken” igével/köznévvel – kontextusból mindig a fészek/helyi csoport jelentés.
 
 ### Kivsza
-- Lásd: **kvuca-nevek** (4. korosztály). Jelentés: bárány/juh (11–13 év). 🐑
+- Lásd: **kvuca-nevek**. Jelentés: bárány/juh (**10–12 év**). 🐑
 
 ### kvuca (קבוצה)
 - **Jelentés:** csoport; a someres nevelés alapegysége – a bensőséges kiscsoport, ahonnan az egész nevelési élmény kibomlik.
@@ -50,7 +50,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
   - Ez szabályos magyar tőhangzónyúlás, **nem hiba** – ne „egységesítsd” rövid a-ra.
 
 ### Leviatan
-- Lásd: **kvuca-nevek**. Jelentés: cet/leviatán (14–16 év). 🐋
+- Lásd: **kvuca-nevek**. Jelentés: cet/leviatán (**13–17 év**). 🐋
 - **Írásmód (hivatalos):** **`Leviatan` – ékezet nélkül.** **NEM** „Leviatán”. A magyaros ékezet tipikus automatikus magyarosítási hiba; a hivatalos alak ékezet nélküli tulajdonnév.
 
 ### madrich / madricha
@@ -64,7 +64,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 - **Megjegyzés:** írásmód `mazkirut` (ne „maskirut”).
 
 ### Parparim
-- Lásd: **kvuca-nevek**. Jelentés: pillangók/lepkék (6–10 év). 🦋
+- Lásd: **kvuca-nevek**. Jelentés: pillangók/lepkék (**6–9 év**). 🦋
 
 ### peula (פעולה)
 - **Jelentés:** tevékenység/akció; mozgalmi értelemben **strukturált foglalkozás / program** (egy madrich által vezetett, megtervezett nevelési egység).
@@ -83,20 +83,18 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 
 ---
 
-### kvuca-nevek (4 korosztályos shichva-név)
+### kvuca-nevek (2025/26: 3 korosztályos shichva-név)
 
 Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései. **Mind ékezet nélküli tulajdonnév.** Az emoji a szó szerinti jelentést tükrözi.
 
 | Hivatalos alak | Jelentés | Korosztály | Emoji | Profil (helyi konvenció) |
 |---|---|---|---|---|
-| **Parparim** | pillangók/lepkék | 6–10 | 🦋 | legkisebbek |
-| **Kivsza** | bárány/juh | 11–13 | 🐑 | kiskamasz |
-| **Leviatan** | cet/leviatán | 14–16 | 🐋 | tinédzser / identitás |
-| **Zorea** | magvető / vető | 16+ | 🌱 | legidősebb / felelősség |
+| **Parparim** | pillangók/lepkék | **6–9** | 🦋 | legkisebbek |
+| **Kivsza** | bárány/juh | **10–12** | 🐑 | kiskamasz |
+| **Leviatan** | cet/leviatán | **13–17** | 🐋 | tinédzser / idősebb chanichok |
 
-- **Figyelem:** `Leviatan` ékezet nélkül (NEM „Leviatán”). A toldalékos alakoknál (Parparimnál, Zoreánál) a tő miatti ékezet rendben van.
-- **Nyelvi pontosítás:** a `Zorea` (זורע) az aktív részesülő = **„magvető / aki vet”** (ágens), NEM „csíra”. A csíra/mag külön szó: **zera** (זרע). A 🌱 emoji a vetés/növekedés képét idézi, de a tulajdonnév jelentése a *vető*, nem a mag.
-- 🧑‍🏫 A pontos korosztály-besorolás és profil mozgalom-belső konvenció – a helyi ken-vezetővel megerősítendő, nem ellenőrizhető általános forrásból.
+- **Figyelem:** `Leviatan` ékezet nélkül (NEM „Leviatán”).
+- **Forrás és státusz:** a korosztály-besorolás a kapcsolt **„Oktatási terv 25/26 Hasomer Hacair”** dokumentum alapján **lezárt a 2025/26-os programhoz**. A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
 
 ---
 
@@ -134,13 +132,25 @@ Cél-megfogalmazási keret: **S**pecifikus, **M**érhető, **A**chievable (elér
 ### nonformális nevelés
 Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és kapcsolat-alapú, a kvuca valóságához kötve. A someres pedagógia alapállása – „a Somer NEM suli”. A peula a tipikus nonformális egység.
 
-### mastery-kapu
-Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** köti (pl. ≥80%, több próbálkozással), nem egyszeri vizsgához. Cél a tényleges elsajátítás, nem a rangsorolás. A tananyagban kvíz- vagy rubrika-alapú formában jelenik meg.
+### teljesítési kapu
+Olyan kapu, amely a továbblépést egy **előre rögzített teljesítési minimumhoz** köti, nem egyszeri „megbuktató vizsgához”. Lehet rubrika- vagy kvízalapú; a cél, hogy a szükséges tudás vagy készség ténylegesen meglegyen, és javítás után újra lehessen próbálni. A régebbi fejlesztői jegyzetekben előfordulhat a `mastery-kapu` angol-magyar keverék, de **tanulói nyelven a `teljesítési kapu` a kanonikus alak**.
 
-### gyakorlás / spacing / retrieval (tanulástan)
-- **gyakorlás (aktív cselekvés):** a chanich nem csak hallgat, hanem maga **csinál** valamit (játszik, mondja, írja, mutatja); az aktív feldolgozás jobban rögzít, mint a passzív befogadás. (M5.3)
-- **spacing (elosztott gyakorlás):** a tananyag időben **szétterítve**, ismételt visszatérésekkel rögzül jobban, mint egyszeri tömbben.
-- **retrieval (előhívásos gyakorlás):** a tudás **aktív felidézése** (kvíz, kérdés, „mondd el SBI-ben”) erősebben rögzít, mint az újraolvasás.
+### gyakorlás / aktív felidézés / időben elosztott gyakorlás (tanulástan)
+- **gyakorlás (aktív cselekvés):** a chanich nem csak hallgat, hanem maga **csinál** valamit (játszik, mondja, írja, mutatja). (M5.3)
+- **aktív felidézés:** a tanuló **fejből próbál előhívni** valamit, mielőtt újra megnézné vagy meghallgatná. Az angol szakirodalomban gyakran *retrieval practice* / *active recall*. A tanulói szövegben a **`aktív felidézés`** a kanonikus alak.
+- **időben elosztott gyakorlás:** ugyanaz a tudás vagy készség **külön tanulási alkalmakon** tér vissza, nem egyetlen hosszú blokkban. Az angol szakirodalomban *spacing* / *distributed practice*. A tanulói szövegben az **`időben elosztott gyakorlás`** a kanonikus alak.
+- **Fontos:** a tananyag nem állít univerzális „optimális 1 napos” közöket; a visszatérés konkrét időzítését a programritmushoz kell igazítani.
+
+### Peula v1 / Peula v2
+- **Peula v1:** az M7-ben elkészülő **első teljes vázlat**. Fejlesztő visszajelzést kap, javítható, önmagában nem a félévzáró teljesítési kapu.
+- **Peula v2:** ugyanennek a peulának az M7.B műhely és a visszajelzések után **véglegesített, terepre vihető terve**. Ez a félévzáró M7 produktuma, még a tényleges terepi megtartás **előtt**.
+- A `v2` ezért **nem** jelentheti a megtartás után készült új verziót. A megtartás utáni lépés neve: **Utóreflexió & továbbfejlesztés**.
+
+### Utóreflexió & továbbfejlesztés
+A **Peula 11 pontjának 11. eleme**. A peula **tényleges megtartása után** történik: a madrich konkrétan rögzíti, mi történt, mi működött, mi nem, milyen hatást látott, és min változtatna legközelebb. Az M7 félévzáró, terep előtti leadásban ennek **terve** szerepel, nem kitalált múlt idejű reflexió.
+
+### rövid peulabemutató
+Az M4-ben használt, legfeljebb kb. 45 másodperces bevezető: kinek szól a peula, miről szól, miért fontos nekik, mit fognak csinálni, és mit szeretnél, hogy hazavigyenek belőle. A korábbi fejlesztői anyagokban előfordulhat a `peula-pitch` szó, de **tanulói nyelven a `rövid peulabemutató` / `peulabemutató-vázlat` a kanonikus alak**.
 
 ---
 
@@ -150,7 +160,7 @@ Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** k
 
 2. **A héber köznevek kisbetűsek.** `dugma ishit`, `chanich`, `madrich`, `kvuca`, `peula`, `ken` köznév → kisbetű (kivéve mondat/fejléc eleje). A megszemélyesített nagybetűs `Dugma Ishit` kerülendő.
 
-3. **A tulajdonnevek nagybetűsek, a kvuca-nevek ékezet nélküliek.** `Somer`, `Hasomer Hacair`, `Zmán Kvucá` és a 4 kvuca-név (`Parparim`, `Kivsza`, `Leviatan`, `Zorea`) tulajdonnév. A kvuca-nevek **ékezet nélkül** – kiemelten: `Leviatan`, NEM „Leviatán”.
+3. **A tulajdonnevek nagybetűsek, a kvuca-nevek ékezet nélküliek.** `Somer`, `Hasomer Hacair`, `Zmán Kvucá` és a 2025/26-os három kvuca-név (`Parparim`, `Kivsza`, `Leviatan`) tulajdonnév. A kvuca-nevek **ékezet nélkül** – kiemelten: `Leviatan`, NEM „Leviatán”.
 
 4. **Az á-s toldalékolás szabályos.** `kvucá-` (kvucának, kvucára), `peulát/peulán/peulára`, `Zmán Kvucá` – a hosszú á magyar tőhangzónyúlás, nem elírás.
 
@@ -174,11 +184,11 @@ Teljesítési kapu, amely a továbblépést egy **küszöb teljesítéséhez** k
 **Modul-hubok:**
 
 - **[M0 – „Kickoff, keret, technika”](./Modulok/M0/M0%20–%20Kickoff,%20keret,%20technika.md)**
-- **[M1 – „Vakfolt, tükör, feedback”](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20feedback%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)** – Johari-ablak, SBI.
+- **[M1 – „Vakfolt, tükör, visszajelzés”](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20feedback%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)** – Johari-ablak, SBI.
 - **[M2 – „Ki vagyok madrichként_”](./Modulok/M2/M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)** – identitás, Somer-értékek, dugma ishit.
 - **[M3 – „Kvuca, red flag, felelősség”](./Modulok/M3/M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyermekvédelem.md)** – csoportdinamika, korosztályok, gyermekvédelem.
 - **[M4 – „Hallható és érthető vagyok_”](./Modulok/M4/M4%20–%20Hallható%20és%20érthető%20vagyok%20–%20Kiállás,%20kapcsolódás%20&%20kérdezéstechnika.md)**
 - **[M5 – „Ez most játék vagy tanulás_”](./Modulok/M5/M5%20–%20Ez%20most%20játék%20vagy%20tanulás%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)** – nonformális nevelés, tanulástan.
-- **[M6 – „Toolbox_ játék, történet, kézműves & inkluzivitás”](./Modulok/M6/M6%20–%20Toolbox%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
+- **[M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”](./Modulok/M6/M6%20–%20Toolbox%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
 - **[M7 – „Peula a papírtól a valóságig”](./Modulok/M7/M7%20–%20Peula%20a%20papírtól%20a%20valóságig%20–%20Programírás,%20Zmán%20Kvucá%20&%20AI-támogatott%20tervezés.md)** – programírás, Zmán Kvucá.
 - **[Z – „Zárás & híd a terepre”](./Modulok/Z/Z%20–%20Zárás%20&%20híd%20a%20terepre.md)**

@@ -107,10 +107,9 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 | `dugma ishit` | „dugma isit” | köznév, kisbetű; a „Dugma Ishit” személynévi alak kerülendő |
 | `ken` | „ken” | rövid e, nem „kén” |
 | `Zmán Kvucá` | „zmán kvucá” — mindkét ékezet hosszú | a `c` itt is /ts/ |
-| `Parparim` | „parparim” | pillangók, 6–10 |
-| `Kivsza` | „kivsza” | bárány, 11–13 |
-| `Leviatan` | „leviatan” — **ékezet nélkül** | a glosszárium kifejezetten tiltja a „Leviatán” alakot; toldalékoltan a tő miatt lehet ékezet |
-| `Zorea` | „zorea” | magvető, 16+; toldalékolva „Zoreánál” |
+| `Parparim` | „parparim” | pillangók, 6–9 |
+| `Kivsza` | „kivsza” | bárány, 10–12 |
+| `Leviatan` | „leviatan” — **ékezet nélkül** | 13–17; a glosszárium jelenlegi house style-ja tiltja a „Leviatán” alakot; toldalékoltan a tő miatt lehet ékezet |
 | `hagshama`, `bogrim`, `mazkirut` | magyar olvasat | ritkábban fordulnak elő |
 
 > ⚠️ **Nyitott terminológiai kapu.** A glosszárium 2026-08-25-i figyelmeztetése szerint a
@@ -118,14 +117,12 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 > `hánih` szerepel; a house style-t a helyi ken-/országos felelősnek kell jóváhagynia.
 > **A hangfelvételt ez érinti**, mert a szóvégi hang eltér. Amíg nincs döntés, a
 > felvétel a glosszárium jelenlegi kánoni alakját követi — de a pilot-hangmintát ezekkel
-> a szavakkal kell jóváhagyatni, hogy egy későbbi terminológiai migráció ne 91 fájlt
-> mondasson újra.
+> a szavakkal kell jóváhagyatni, hogy egy későbbi terminológiai migráció ne a teljes érintett hangkorpuszt
+> mondassa újra.
 
 ## 7. Számok, betűszók, rövidítések
 
-- **Korosztályok:** a szövegek `6–10`, `11–13`, `14–16`, `16+` alakban írják; felmondva
-  „hat–tíz éves”, „tizenegy–tizenhárom éves”, „tizenhat plusz” helyett „tizenhat év
-  felett”.
+- **Korosztályok:** a 2025/26-os kánon `Parparim 6–9`, `Kivsza 10–12`, `Leviatan 13–17`; felmondva „hat–kilenc éves”, „tíz–tizenkét éves”, „tizenhárom–tizenhét éves”.
 - **SBI:** betűzve, „es-bé-í”, és a modell elemei magyarul: Situation–Behavior–Impact →
   a leckék „S”, „B”, „I” betűjelet használnak, ezeket betűként kell mondani.
 - **Johari, Tuckman:** magyaros olvasat („johari”, „takmen” helyett „tuckman” magyar
@@ -198,7 +195,7 @@ minden fájlban.
 2. **A pilot dönt.** A `M4.2-NAR-03` a kijelölt narráció-pilot
    (`MEDIA-PRODUCTION-PLAN.md` 5. szakasz): a tempót,
    a hangszínt, a szünetkezelést és a someres szavak kiejtését ezen kell jóváhagyni,
-   és a többi 90 tétel ehhez igazodik.
+   és minden további R3-tétel ehhez igazodik.
 3. **A kiejtési táblát (6. szakasz) minden felvételnél újra kell futtatni** — ez a
    leggyakoribb elcsúszási pont egy több hónapos gyártásban.
 4. **Nincs verziószám a hangban.** Ha a lecke szövege változik, a fájl újra készül; a
@@ -498,7 +495,7 @@ Magyar szervezetnek az **EGT-s** feltételszöveg az irányadó (lekérdezve 202
 
 | Tétel | Karakter | Alsó becslés (API-oldal) | Felső becslés (kredit-olvasat) |
 |---|---:|---|---|
-| **Hatmintás meghallgatás** (mérve) | 3 066 | **≈ 0,15 $** | **≈ 0,61 $** |
+| **Hatmintás meghallgatás** (mérve) | 3 072 | **≈ 0,15 $** | **≈ 0,61 $** |
 | Teljes tananyag, kész hang | 50–82 ezer | 2,50 – 4,10 $ | 10 – 16 $ |
 | Teljes tananyag, **3× nyers** | 150–225 ezer | **7,50 – 11,25 $** | **30 – 45 $** |
 

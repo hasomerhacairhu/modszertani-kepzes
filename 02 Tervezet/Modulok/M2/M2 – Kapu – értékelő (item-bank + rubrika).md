@@ -17,10 +17,10 @@
 
 | | |
 |---|---|
-| **Kapu típusa** | **Puha kapu (soft gate)** – fejlesztő, NEM vizsgáztató. Jelzés és támogatás, nincs kizárás. |
+| **Kapu típusa** | **Puha kapu** – fejlesztő, NEM vizsgáztató. Jelzés és támogatás, nincs kizárás. |
 | **Mit mér** | Az integráló kimeneti kompetenciát (M2 5. kompetencia): a madrich össze tudja-e kötni az **identitás-köreit + 1 someres értéket + érték→megfigyelhető viselkedés kapcsolatot + 1 konkrét idei dugma ishit-vállalást** egy összefüggő, viselkedés-szintű jegyzetben. |
 | **Hol horgonyozza le a meglévő kaput** | Az M2 modul-áttekintő (6. Kapuk) szerint a „complete” feltétele *„1 oldalas madrich identitás-jegyzet leadva, záró dugma ishit-mondattal”* – de eddig **rubrika és sablon nélkül**. Ez a fájl pótolja a sablont + egy könnyű, fejlesztő rubrikát + tanulói önellenőrzést. |
-| **Küszöb (soft gate)** | **Beadáshoz:** az önellenőrző lista **önellenőrzés**, nem beadás-blokkoló – ha mind a 10 pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: aki ez alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (Study Lab) ajánlást** kap, és újra beadhat. |
+| **Küszöb (puha kapu)** | **Beadáshoz:** az önellenőrző lista **önellenőrzés**, nem beadás-blokkoló – ha mind a 10 pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: aki ez alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (felzárkóztató műhely) ajánlást** kap, és újra beadhat. |
 | **Mit NEM csinálunk** | Nem pontozzuk numerikusan, nem rangsorolunk, nem osztályozunk. A rubrika „erős/gyenge” helyett **megfigyelhető szövegjegyeket** néz. A jegyzet tartalma privát: csak a mentor/képző látja. |
 | **LMS-eszköz** | **Moodle Assignment + rubrika** (a fő produktum: identitás-jegyzet feltöltés, fájl vagy online szöveg; a 4 soros rubrika a Moodle „Rubric” értékelési módszereként rögzítve, fejlesztő kommenttel). **Opcionálisan: H5P Question Set / Moodle Quiz** a B. szakasz fogalmi önellenőrző itemeivel – ez **formatív, completion-alapú, NEM ponthatáros**, csak segít a tanulónak ellenőrizni, érti-e a kulcsfogalmakat a jegyzet megírása előtt. |
 | **Javítási útvonal** | Hiányos / nagyon felszínes jegyzet → mentor SBI-jellegű fejlesztő üzenet (max. 3 pont) + M2.F ajánlása + újra beadás. Nincs limit a próbálkozásra. |
@@ -44,7 +44,7 @@
 - [ ] **9. Saját szavak.** A jegyzet **a saját szavaimmal** szól, őszinte – nem a leckék mondatait másoltam be. (Nem kell szép, kell igaz.)
 - [ ] **10. Egy oldal.** Belefér **kb. 1 oldalba** – inkább tömör és konkrét, mint hosszú és általános.
 
-> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak, vagy hozd el M2.F-re (Study Lab), és ott közösen átnézzük. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
+> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak, vagy hozd el M2.F-re (felzárkóztató műhely), és ott közösen átnézzük. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
 
 ***
 
@@ -52,7 +52,7 @@
 
 > Ezek a kérdések **nem pontoznak és nem buktatnak**. Arra valók, hogy a jegyzet megírása előtt ellenőrizd: tényleg érted-e az M2 kulcsfogalmait – érték vs. hangulat (M2.2), dugma ishit = a viselkedésen látszik (M2.1–2.3), identitás-körök hatása (M2.1), pillérek a gyakorlatban (M2.3), valamint a privát/személyes/szakmai határ és „nem terapeuta” logika (M2.4). A **10 item** lefedi mind a négy lecke tanított tartalmát. Minden kérdésnél ✅ jelöli a helyes választ, és van rövid visszajelzés.
 > **LMS:** H5P Question Set vagy Moodle Quiz, „kitöltve = complete” (eredménytől függetlenül). Több próbálkozás engedélyezve.
-> **Fejlesztői beállítás (kötelező – válaszsorrend):** a fenti A–D betűk csak a szerkesztői hivatkozást rögzítik, **NEM** a megjelenítési sorrendet. A feedback **a helyes válasz SZÖVEGÉHEZ van horgonyozva** (nem a betűhöz), így a keverés után sem csúszik el. A H5P-ben/Moodle-ban kapcsold be a **válaszopciók keverését** (H5P Question Set / Single Choice Set: „Randomize answers”; Moodle Quiz: „Shuffle within questions”), hogy a helyes válasz pozíciója próbálkozásonként váltakozzon. A jelenlegi forrásban a kulcs aránytalanul a „C” opcióra esik – emiatt a keverés **kötelező** (nem opció), de mivel a feedback a szöveghez kötött, a randomizálás akkor sem teszi érvénytelenné a „✅” hivatkozásokat, ha valaki elfelejtené beidőzíteni; a betű-jelölés csak emlékeztető a szöveg mellett.
+> **Fejlesztői beállítás (kötelező – válaszsorrend):** a fenti A–D betűk csak a szerkesztői hivatkozást rögzítik, **NEM** a megjelenítési sorrendet. A visszajelzés **a helyes válasz SZÖVEGÉHEZ van horgonyozva** (nem a betűhöz), így a keverés után sem csúszik el. A H5P-ben/Moodle-ban kapcsold be a **válaszopciók keverését** (H5P Question Set / Single Choice Set: „Válaszok véletlenszerűsítése”; Moodle Quiz: „Shuffle within questions”), hogy a helyes válasz pozíciója próbálkozásonként váltakozzon. A jelenlegi forrásban a kulcs aránytalanul a „C” opcióra esik – emiatt a keverés **kötelező** (nem opció), de mivel a visszajelzés a szöveghez kötött, a véletlenszerűsítés akkor sem teszi érvénytelenné a „✅” hivatkozásokat, ha valaki elfelejtené beidőzíteni; a betű-jelölés csak emlékeztető a szöveg mellett.
 
 ### Item 1 – Érték vs. hangulat (M2.2)
 
@@ -63,7 +63,7 @@ A jegyzetbe „1 someres értéket” kell írnod. Az alábbiak közül melyik *
 - C) „Igyekszem mindig jó hangulatot csinálni a peulán, hogy senki ne unatkozzon.”
 - D) „Az a fontos, hogy a chanichok jól érezzék magukat velem, és szívesen jöjjenek.”
 
-> **Feedback:** ✅ **B – „Egyenlőség: a csendesebbeket is bevonom…”** Az érték olyan iránytű, ami **konkrét döntésekben és viselkedésben** megjelenik (kit szólítasz meg, hogyan osztod a szót). Az A, C, D inkább **hangulat vagy népszerűség** – kedves célok, de nem mutatnak meg egy értéket, és nem fordíthatók egyértelmű, megfigyelhető viselkedésre. A jegyzetedben olyan értéket válassz, amihez tudsz **konkrét viselkedést** írni.
+> **Visszajelzés:** ✅ **B – „Egyenlőség: a csendesebbeket is bevonom…”** Az érték olyan iránytű, ami **konkrét döntésekben és viselkedésben** megjelenik (kit szólítasz meg, hogyan osztod a szót). Az A, C, D inkább **hangulat vagy népszerűség** – kedves célok, de nem mutatnak meg egy értéket, és nem fordíthatók egyértelmű, megfigyelhető viselkedésre. A jegyzetedben olyan értéket válassz, amihez tudsz **konkrét viselkedést** írni.
 
 ### Item 2 – Mit olvas le rólad a chanich? (M2.1, M2.2, M2.3)
 
@@ -74,7 +74,7 @@ Egy chanich egy egész peulán át figyel téged. **Miből** fogja leginkább le
 - C) Abból, **amit a viselkedéseden lát**: hogyan döntesz, kit vonsz be, hogyan reagálsz egy konfliktusra. ✅
 - D) Abból, hogy melyik pillérhez érzed magad a legközelebb, és ezt ki is mondod a kvucának.
 
-> **Feedback:** ✅ **C – „amit a viselkedéseden lát”.** Ez a **dugma ishit** lényege: a chanichok nem a magyarázatból, hanem a **látható viselkedésedből** tanulnak. Az A (magyarázat) és a B (önjellemzés) csak a *kimondott* énedet adja át, a D (belső érzés) pedig kívülről nem is látszik – egyik sem az, amit a chanich valóban *megfigyel*. A jegyzeted ezért a 4. önellenőrző pontnál azt kéri: írd le, **mit olvasna le rólad** egy figyelő chanich.
+> **Visszajelzés:** ✅ **C – „amit a viselkedéseden lát”.** Ez a **dugma ishit** lényege: a chanichok nem a magyarázatból, hanem a **látható viselkedésedből** tanulnak. Az A (magyarázat) és a B (önjellemzés) csak a *kimondott* énedet adja át, a D (belső érzés) pedig kívülről nem is látszik – egyik sem az, amit a chanich valóban *megfigyel*. A jegyzeted ezért a 4. önellenőrző pontnál azt kéri: írd le, **mit olvasna le rólad** egy figyelő chanich.
 
 ### Item 3 – Érték → viselkedés lefordítása (M2.2)
 
@@ -85,7 +85,7 @@ A jegyzetedbe lehet, hogy a „felelősség” értéket írtad. Melyik megfogal
 - C) „A felelősség az egyik vezető someres értékem, amit komolyan képviselek.”
 - D) „Ha elvállalok egy programrészt, időben felkészülök, és ha mégsem megy, **előre szólok**.” ✅
 
-> **Feedback:** ✅ **D – „…időben felkészülök, és ha mégsem megy, előre szólok”.** Ez **megfigyelhető**: egy kívülálló meg tudná mondani, megtörtént-e (felkészültél? előre szóltál?). Az A, B, C csak **kimondja az értéket vagy a szándékot**, de nem mutat konkrét, látható cselekvést. A rubrika 2. sora pontosan ezt nézi a jegyzetedben.
+> **Visszajelzés:** ✅ **D – „…időben felkészülök, és ha mégsem megy, előre szólok”.** Ez **megfigyelhető**: egy kívülálló meg tudná mondani, megtörtént-e (felkészültél? előre szóltál?). Az A, B, C csak **kimondja az értéket vagy a szándékot**, de nem mutat konkrét, látható cselekvést. A rubrika 2. sora pontosan ezt nézi a jegyzetedben.
 
 ### Item 4 – Pillér a gyakorlatban (M2.3)
 
@@ -96,7 +96,7 @@ Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mut
 - C) **Teret adsz mindkét nézőpontnak, kérdezel, keretet tartasz**, és vigyázol az emberi méltóságra. ✅
 - D) Megvárod, míg maguktól abbahagyják, nem szólsz bele, és a feszültséget keret nélkül hagyod kifutni a körben.
 
-> **Feedback:** ✅ **C – „Teret adsz mindkét nézőpontnak, kérdezel, keretet tartasz”.** A Somerben a cionizmus **kapcsolat + kritikus gondolkodás + emberi méltóság/béke** – ez a vitavezetés *módjában* látszik. Az A elkerülés, a B a saját igazság ráerőltetése, a D pedig keret nélkül hagyja a feszültséget – egyik sem mutat tudatos, someres példát. A jegyzeted 5. pontjához érdemes egy ilyen konkrét helyzetet kötni.
+> **Visszajelzés:** ✅ **C – „Teret adsz mindkét nézőpontnak, kérdezel, keretet tartasz”.** A Somerben a cionizmus **kapcsolat + kritikus gondolkodás + emberi méltóság/béke** – ez a vitavezetés *módjában* látszik. Az A elkerülés, a B a saját igazság ráerőltetése, a D pedig keret nélkül hagyja a feszültséget – egyik sem mutat tudatos, someres példát. A jegyzeted 5. pontjához érdemes egy ilyen konkrét helyzetet kötni.
 
 ### Item 5 – Dugma ishit ≠ terapeuta / határ (M2.4)
 
@@ -107,7 +107,7 @@ Egy 12 éves chanichod késő este privátban ír: *„Senki nem ért meg. Minde
 - C) Nem válaszolsz neki, mert ez már nem a te dolgod, túl nagy teher, és nem egy madrich felelőssége ezt megoldani.
 - D) Megígéred neki, hogy ez kettőtök titka marad, magad próbálod megoldani, és felnőttet egyáltalán nem vonsz be.
 
-> **Feedback:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható madrich”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. önellenőrző pontjánál.
+> **Visszajelzés:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható madrich”* logika: **észreveszem → komolyan veszem → nem egyedül → jelzek** (ugyanaz, amit M3.3 is tanít). Az A összemossa a határokat és függőséget építhet; a C magára hagyja a gyereket; a D titoktartás-ígérete gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 6. önellenőrző pontjánál.
 
 ### Item 6 – Mi az „idei vállalás”? (M2 integráció)
 
@@ -118,7 +118,7 @@ A záró dugma ishit-mondatod akkor jó, ha **konkrét idei vállalás**. Az al�
 - C) „Idén minden peula körében **név szerint megszólítom a két-három legcsendesebb chanichot is**.” ✅
 - D) „A közösség és az egyenlőség nagyon fontos someres értékek, ezekre szeretnék építeni.”
 
-> **Feedback:** ✅ **C – „…név szerint megszólítom a két-három legcsendesebb chanichot is”.** Konkrét (mit), megfigyelhető (megtörtént-e), és **idei / a saját kvucádban elkezdhető**. Az A és B túl általános („jó”, „mindig tisztelni”), a D pedig egy fogalom kimondása, nem vállalás. A jegyzeted záró mondata legyen ennyire konkrét.
+> **Visszajelzés:** ✅ **C – „…név szerint megszólítom a két-három legcsendesebb chanichot is”.** Konkrét (mit), megfigyelhető (megtörtént-e), és **idei / a saját kvucádban elkezdhető**. Az A és B túl általános („jó”, „mindig tisztelni”), a D pedig egy fogalom kimondása, nem vállalás. A jegyzeted záró mondata legyen ennyire konkrét.
 
 ### Item 7 – Identitás-körök madrich-szerepben (M2.1)
 
@@ -129,7 +129,7 @@ Az identitás-jegyzeted 1. blokkjába az identitás-köreidet írod. Melyik megf
 - C) „A someres körömből hozom, hogy **vitában a csendesebbeket is név szerint behívom**.” ✅
 - D) „Több identitás-köröm van, ezek mind a részeim, és egyformán fontosak nekem.”
 
-> **Feedback:** ✅ **C – „A someres körömből hozom, hogy vitában a csendesebbeket is név szerint behívom”.** Itt nem csak megnevezel egy kört, hanem **összekötöd egy konkrét madrich-viselkedéssel** – pont ezt mutatja M2.1: a köreidet „magaddal viszed a kvucába”, és a chanichok a viselkedésedből olvassák le őket. Az A, B, D csak **felsorol vagy címkéz** (kör neve, „fontos”, „a részeim”), de nem derül ki, mi *látszik* belőle a kvucádon. A jegyzeted R1 sorához mindegyik körhöz írj egy ilyen „hogyan hat rám” mondatot.
+> **Visszajelzés:** ✅ **C – „A someres körömből hozom, hogy vitában a csendesebbeket is név szerint behívom”.** Itt nem csak megnevezel egy kört, hanem **összekötöd egy konkrét madrich-viselkedéssel** – pont ezt mutatja M2.1: a köreidet „magaddal viszed a kvucába”, és a chanichok a viselkedésedből olvassák le őket. Az A, B, D csak **felsorol vagy címkéz** (kör neve, „fontos”, „a részeim”), de nem derül ki, mi *látszik* belőle a kvucádon. A jegyzeted R1 sorához mindegyik körhöz írj egy ilyen „hogyan hat rám” mondatot.
 
 ### Item 8 – Privát – személyes – szakmai (M2.4)
 
@@ -140,7 +140,7 @@ M2.4 szerint nem minden témának ugyanott a helye. Egy chanich a peula szünet�
 - C) Röviden megosztod, hogy **veled is előfordult már hasonló, és így emberként kapcsolódsz**. ✅
 - D) Nem reagálsz, és rögtön jelented a mentornak, hogy a chanich a magánéletedről kérdezett rá a szünetben.
 
-> **Feedback:** ✅ **C – „…veled is előfordult már hasonló, és így emberként kapcsolódsz”.** Ez a **„személyes”** szint M2.4-ből: megoszthatsz valamit, hogy emberinek lássanak és kapcsolódni tudjatok, **de nem támaszkodsz érzelmileg a chanichokra**. Az A átcsúszik a **privát/önterhelő** sávba (a saját aktuális krízised nem a chanichra tartozik), a B fölöslegesen elzárkózik egy ártalmatlan kérdéstől, a D pedig egy hétköznapi kérdést kezel gyermekvédelmi jelzésként. A jegyzeted határ-részéhez (R4) ez a három sáv ad keretet.
+> **Visszajelzés:** ✅ **C – „…veled is előfordult már hasonló, és így emberként kapcsolódsz”.** Ez a **„személyes”** szint M2.4-ből: megoszthatsz valamit, hogy emberinek lássanak és kapcsolódni tudjatok, **de nem támaszkodsz érzelmileg a chanichokra**. Az A átcsúszik a **privát/önterhelő** sávba (a saját aktuális krízised nem a chanichra tartozik), a B fölöslegesen elzárkózik egy ártalmatlan kérdéstől, a D pedig egy hétköznapi kérdést kezel gyermekvédelmi jelzésként. A jegyzeted határ-részéhez (R4) ez a három sáv ad keretet.
 
 ### Item 9 – A határtartás mint példamutatás (M2.4)
 
@@ -151,7 +151,7 @@ M2.4 központi gondolata, hogy a határtartás maga is **dugma ishit**. Miért *
 - C) Mert a szabályok pontos betartása a fő cél, a chanichokkal való személyes kapcsolat csak másodlagos.
 - D) Mert ha jól tartod a határaidat, akkor soha többé nem kell felnőttet bevonnod egy nehéz helyzetbe.
 
-> **Feedback:** ✅ **B – „…modellezed, hogy magunkra vigyázni és segítséget kérni rendben van”.** M2.4 szerint „azzal is **személyes példát mutatsz**, hogy időben segítséget kérsz, és vigyázol a saját határaidra” – a chanichok ebből tanulják meg, hogyan vigyázzanak ők is magukra. Az A félreérti (a határtartás nem gyengeség, hanem felelősség), a C szembeállítja a keretet a kapcsolattal (pedig a kettő együtt jár), a D pedig épp az ellenkezőjét állítja annak, amit M2.4 tanít: a felnőtt bevonása sokszor **kötelező** első lépés.
+> **Visszajelzés:** ✅ **B – „…modellezed, hogy magunkra vigyázni és segítséget kérni rendben van”.** M2.4 szerint „azzal is **személyes példát mutatsz**, hogy időben segítséget kérsz, és vigyázol a saját határaidra” – a chanichok ebből tanulják meg, hogyan vigyázzanak ők is magukra. Az A félreérti (a határtartás nem gyengeség, hanem felelősség), a C szembeállítja a keretet a kapcsolattal (pedig a kettő együtt jár), a D pedig épp az ellenkezőjét állítja annak, amit M2.4 tanít: a felnőtt bevonása sokszor **kötelező** első lépés.
 
 ### Item 10 – Humanista zsidóság helyzetben (M2.3)
 
@@ -162,13 +162,13 @@ Közös hanuka-programon valaki odaszól: *„Ez az egész zsidó dolog tök cik
 - C) **Teret adsz többféle zsidó élménynek, kérdezel, és úgy keretezed, hogy a hagyomány a nyitottsággal is összefér.** ✅
 - D) Igazat adsz a beszólónak, hogy tényleg fölösleges az egész, csak legyen béke, és a vallásos chanich érzését figyelmen kívül hagyod.
 
-> **Feedback:** ✅ **C – „Teret adsz többféle zsidó élménynek, kérdezel, és úgy keretezed, hogy a hagyomány a nyitottsággal is összefér”.** M2.3 a humanista zsidóságot így tanítja: nem azt méri, ki mennyire vallásos, hanem **emberi méltóság, nyitottság**, és hogy többféle zsidó élménynek legyen tere. A C pontosan ezt a keretezést mutatja. Az A az egyik oldal igazságát erőlteti rá a csoportra, a D a másik szélsőséget hagyja jóvá, a B pedig keret nélkül elkerüli a helyzetet – egyik sem mutat nyitott, méltóság-központú példát. A jegyzeted R3 sorához köthetsz egy ilyen konkrét ünnep-helyzetet.
+> **Visszajelzés:** ✅ **C – „Teret adsz többféle zsidó élménynek, kérdezel, és úgy keretezed, hogy a hagyomány a nyitottsággal is összefér”.** M2.3 a humanista zsidóságot így tanítja: nem azt méri, ki mennyire vallásos, hanem **emberi méltóság, nyitottság**, és hogy többféle zsidó élménynek legyen tere. A C pontosan ezt a keretezést mutatja. Az A az egyik oldal igazságát erőlteti rá a csoportra, a D a másik szélsőséget hagyja jóvá, a B pedig keret nélkül elkerüli a helyzetet – egyik sem mutat nyitott, méltóság-központú példát. A jegyzeted R3 sorához köthetsz egy ilyen konkrét ünnep-helyzetet.
 
 ***
 
 ## C. Fejlesztő rubrika az 1 oldalas identitás-jegyzethez (a mentornak)
 
-> **Ez NEM vizsgáztató rubrika.** 3 szintes, **fejlesztő** visszajelző skála, megfigyelhető szövegjegyekkel. A cél nem osztályozás, hanem hogy a mentor **konzisztensen** lássa, mi van már meg, és **min érdemes még dolgozni**. Minden sornál a mentor a megfelelő szintet jelöli, és **1 rövid, építő mondatot** ír (lásd a sablon-feedbacket alább).
+> **Ez NEM vizsgáztató rubrika.** 3 szintes, **fejlesztő** visszajelző skála, megfigyelhető szövegjegyekkel. A cél nem osztályozás, hanem hogy a mentor **konzisztensen** lássa, mi van már meg, és **min érdemes még dolgozni**. Minden sornál a mentor a megfelelő szintet jelöli, és **1 rövid, építő mondatot** ír (lásd a sablon-visszajelzést alább).
 >
 > **LMS:** Moodle Assignment → értékelési módszer: **Rubric** (4 sor, soronként 3 szint). A szintekhez a Moodle-ben rendelhető 0/1/2 „pont”, de ezt **ne mutasd osztályzatként** – a tanuló a **szöveges szintleírást és a kommentet** látja, nem rangsort.
 >
@@ -181,7 +181,7 @@ Közös hanuka-programon valaki odaszól: *„Ez az egész zsidó dolog tök cik
 | **R3** | **Pillér- / dugma ishit-kapcsolat helyzetben** (M2.3) | Nincs pillér-kapcsolat, vagy csak a pillér neve szerepel definíció-szinten, helyzet nélkül. | Megnevez egy pillért (cionizmus / szocializmus / humanista zsidóság) és kapcsol hozzá értéket, de **általánosságban**, konkrét kvuca-helyzet nélkül. | **Legalább 1 pillér konkrét kvuca-helyzethez kötve** (vita / döntés / ünnep), és látszik, **milyen viselkedéssel** mutatna ott példát (nem a definíció, hanem a tett). |
 | **R4** | **Határ + konkrét idei vállalás + záró mondat** (M2.4 + integráció) | Nincs határszabály vagy idei vállalás; a záró mondat hiányzik vagy üres általánosság („jó madrich leszek”). | Van záró dugma ishit-mondat és/vagy határszabály, de **általános**, nem idei vagy nem viselkedés-szintű („tisztelni fogom a határokat”). | **Van legalább 1 konkrét, viselkedés-szintű határszabály** ÉS **1 konkrét, idei dugma ishit-vállalás** a záró mondatban (mit, hol, hogyan – a saját kvucájában elkezdhető). |
 
-### Sablon-feedback a mentornak (gyors, konzisztens, SBI-szellemű)
+### Sablon-visszajelzés a mentornak (gyors, konzisztens, SBI-szellemű)
 
 A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha egy sor még „1 – elindult”:
 
@@ -189,13 +189,13 @@ A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha e
 - **R3-hoz:** *„Jó a szocializmus-kapcsolat. Hogy igazán dugma ishit legyen, kösd egy konkrét kvuca-helyzethez: pl. amikor a feladatokat osztod – kit vonsz be, hogyan?”*
 - **R4-hez:** *„A záró mondatod még általános. Tedd idei és konkrét vállalássá: mit fogsz CSINÁLNI a saját kvucáddal, amin látszik majd ez az érték?”*
 
-> A feedback mindig **megnevez 1 erősséget + 1 konkrét következő lépést** – soha nem minősít („gyenge / jó”). Aki a küszöb alatt van, ugyanezt a hangnemet kapja + M2.F ajánlást.
+> A visszajelzés mindig **megnevez 1 erősséget + 1 konkrét következő lépést** – soha nem minősít („gyenge / jó”). Aki a küszöb alatt van, ugyanezt a hangnemet kapja + M2.F ajánlást.
 
 ***
 
 ## D. 1 oldalas identitás-jegyzet – sablon (a tanulónak)
 
-> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Csak a mentorod/képződ látja.
+> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. A beadást a kijelölt mentor/képző értékeli a jóváhagyott kurzus-hozzáférések szerint. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz; gyermekvédelmi feltárás esetén a jóváhagyott safeguarding-eljárás lép életbe.
 >
 > 🔒 **Mit kérünk és mit nem.** Itt **nem az identitásod tartalmát értékeljük**, hanem azt, hogy tudsz-e belőle **megfigyelhető madrich-viselkedést** levezetni. Ezért:
 > – a köröket elég **általánosan** megnevezned (pl. „család”, „zsidó közösség”, „iskola”) – nem kell személyes történet, diagnózis, családi konfliktus vagy más érzékeny részlet;

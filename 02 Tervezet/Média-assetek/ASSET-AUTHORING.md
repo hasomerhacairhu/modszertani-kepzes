@@ -216,8 +216,8 @@ nem mehet ki (WCAG 2.2 SC 1.2.1). Zenénél ez rövid leírás is lehet.
 ```json
 {"id": "M9.4-IKO-01", "kind": "icon-set", "mode": "reuse",
  "reuse_of": "M9.2-IKO-01",
- "title": "Négy kvuca-ikon (az M9.2-ből)",
- "notes": "Ugyanaz a négy piktogram, csak más elrendezésben."}
+ "title": "Három kvuca-ikon (az M9.2-ből)",
+ "notes": "Ugyanaz a három piktogram, csak más elrendezésben."}
 ```
 
 **Csak akkor újrahasznosítás**, ha *ugyanaz a legyártott fájl* kerül be mindkét

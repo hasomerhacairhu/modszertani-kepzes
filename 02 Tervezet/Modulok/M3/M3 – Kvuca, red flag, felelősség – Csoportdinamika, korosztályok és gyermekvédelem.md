@@ -5,7 +5,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – **Peula A (M3.A)** az 1. héten, **Peula B (M3.B)** a 2. héten, kb. 45–45’
 * **Online terhelés:** kb. 3×15–20 perc + 1×20–25 perc mikrolecke (**M3.1–M3.4**; a gyermekvédelmi M3.3 szándékosan hosszabb)
-* **Teljes terhelés:** kb. 2,5–3,5 óra – ebből **online ~1–1,5 óra** (M3.1–M3.4) + **2 peula (2×45’ = 90’)** + **modulproduktum & kapu-kvíz ~30–45’** (a helyzetleírás megírása + a mastery-kvíz, ami több próbálkozást is jelenthet). **Tervezz inkább a felső, ~3,5 órás értékkel:** az M3 leadott produktummal (helyzetleírás) és éles rubrika-kapuval (R2/R4 blokkoló) záruló modul, és a Program terv §0 szerint az ilyen modulok a felső érték felé húznak – az alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok, ezért jobb felfelé kerekíteni.
+* **Teljes terhelés:** kb. 2,5–3,5 óra – ebből **online ~1–1,5 óra** (M3.1–M3.4) + **2 peula (2×45’ = 90’)** + **modulproduktum & kapu-kvíz ~30–45’** (a helyzetleírás megírása + a záró gyermekvédelmi kvíz, ami több próbálkozást is jelenthet). **Tervezz inkább a felső, ~3,5 órás értékkel:** az M3 leadott produktummal (helyzetleírás) és éles rubrika-kapuval (R2/R4 blokkoló) záruló modul, és a Program terv §0 szerint az ilyen modulok a felső érték felé húznak – az alá-ígért, majd nagyobbnak bizonyuló terhelés dokumentált lemorzsolódási ok, ezért jobb felfelé kerekíteni.
 
 **Modulközponti kérdés**
 
@@ -13,7 +13,7 @@
 
 **Modulcél röviden**
 
-A résztvevő érti a csoportfejlődés (Tuckman) alaplogikáját, fejben tartja a 4 someres kvuca (Parparim, Kivsza, Leviatan, Zorea) fő jellemzőit, és rendelkezik **alap gyermekvédelmi szemlélettel**: felismer **red flag** helyzeteket, tudja, mit ígérhet / mit nem, és tudja, kihez fordul segítségért madrichként.
+A résztvevő érti a csoportfejlődés (Tuckman) alaplogikáját, fejben tartja a 3 aktuális someres kvuca (Parparim 6–9, Kivsza 10–12, Leviatan 13–17) fő jellemzőit, és rendelkezik **alap gyermekvédelmi szemlélettel**: felismer **red flag** helyzeteket, tudja, mit ígérhet / mit nem, és tudja, kihez fordul segítségért madrichként.
 
 > **Hol tartunk? (fázis-híd)** Eddig (M1–M2) magadra néztél: önismeret, visszajelzés, identitás és **dugma ishit**. Innentől (M3–M4) a **kvucára és a kapcsolatra** fordulunk – kikkel és hogyan dolgozol. Az M2-ben tisztázott **határaid** és a „**madrich, nem terapeuta**” szerep most a gyermekvédelmi keretben élesedik ki: a biztonságos felnőtt jelenlét ennek a folytatása.
 
@@ -26,19 +26,19 @@ A modul végére a résztvevő…
 1. **Csoportdinamika-alapozó (Tuckman)**
    * Rövid kvuca-sztorik alapján be tudja azonosítani a Tuckman-szakaszt (forming–storming–norming–performing, + a lezáró **adjourning**) **(M3.1, M3.A)**.
    * Megérti, hogy a **storming nem „hiba”**, hanem a fejlődés része.
-2. **Korosztályi profilok – 4 kvuca, 4 világ**
-   * 1–1 mondatos „miniprofilt” tud mondani a 4 kvucáról: **Parparim, Kivsza, Leviatan, Zorea** **(M3.2)**.
+2. **Korosztályi profilok – 3 kvuca, 3 világ**
+   * 1–1 mondatos „miniprofilt” tud mondani a 3 aktuális kvucáról: **Parparim, Kivsza, Leviatan** **(M3.2)**.
    * Meg tud nevezni kvucánként legalább 2 tényezőt: figyelem & energia, tipikus motivációk, tipikus helyzetek.
 3. **Gyermekvédelem & red flag-ek**
    * Érti, mi a gyermekvédelem lényege: **észrevenni és jelezni**, nem egyedül „megoldani” **(M3.3)**.
    * Felismer tipikus **red flag** helyzeteket: pl. bántalmazásgyanú, önsértésre utaló jelek, online zaklatás, nagyon megváltozott viselkedés, madrich–chanich határátlépések **(M3.3, M3.B)**.
 4. **Határok, ígéretek, első lépések**
    * Tudja, hogy **nem ígérhet 100% titoktartást** egy nehéz helyzetet megosztó chanichnak **(M3.3)**.
-   * Tudja, kit kell bevonni (mentor / gyermekvédelmi felelős / vezető), és mi a logikus első lépés **(M3.3, M3.B)**.
+   * Tudja, hogy gyermekvédelmi helyzetben a **HUM-SAFE-01 szerint jóváhagyott helyi jelzési utat** kell követnie, és mi a felelős első lépés **(M3.3, M3.B)**.
 
 > ⚖️ **Jó tudni – a jelzés Magyarországon szabályozott, de a szerepeket pontosan kell szétválasztani.**
 > A Gyvt. 17. § a gyermekvédelmi jelzőrendszer résztvevői között szervezeteket és személyeket is nevesít, és veszélyeztetettség esetén jelzési / kezdeményezési kötelezettséget ír elő. A kiemelt veszélyeztető okokra vonatkozó hatályos szabályoknál a haladéktalan, legkésőbb három munkanapon belüli továbblépésnek büntetőjogi relevanciája is lehet. **Ebből azonban nem következik, hogy egy 15–17 éves önkéntes madrichnak önálló jogi minősítést vagy hatósági eljárást kellene végeznie.**
-> A képzésben alkalmazandó operatív szabály ezért: **észlelj → ne nyomozz → ne ígérj teljes titoktartást → azonnal vond be a kijelölt felelős felnőttet / gyermekvédelmi felelőst → akut veszélynél a szervezeti protokoll szerint sürgősségi segítség.** A pontos helyi láncot, a felelős nevét és azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, a gyermekvédelmi felelősnek és szükség esetén jogi szakértőnek kell jóváhagynia az élesítés előtt.
+> A képzésben alkalmazandó operatív szabály ezért: **észlelj → ne nyomozz → ne ígérj teljes titoktartást → kövesd a HUM-SAFE-01 szerint jóváhagyott helyi jelzési utat → akut veszélynél az ott rögzített eszkalációt, közvetlen életveszélynél a 112-t.** A pontos helyi láncot, a felelős nevét és azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, a gyermekvédelmi felelősnek és szükség esetén jogi szakértőnek kell jóváhagynia az élesítés előtt.
 > *(Elsődleges jogforrás: 1997. évi XXXI. törvény 17. §, Nemzeti Jogszabálytár; kapcsolódó hatályos büntetőjogi szabály: Btk. 209/A. §. A tananyag nem helyettesíti a szervezet aktuális gyermekvédelmi protokollját.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyermekvédelemre **(M3.4)**.
@@ -70,15 +70,15 @@ A modul végére a résztvevő…
 
 ***
 
-### M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ (15–20’)
+### M3.2 – „Parparim, Kivsza, Leviatan” – 3 kvuca, 3 világ (15–20’)
 
 * **Cél:**
-  A résztvevő **fejben tartja a 4 kvuca alapprofilját**: milyen világban élnek, mire figyelnek, mi motiválja őket.
+  A résztvevő **fejben tartja a 3 aktuális kvuca alapprofilját**: milyen világban élnek, mire figyelnek, mi motiválja őket.
 * **Fókusz:**
   „Nem ugyanúgy működik minden kvuca – és nekem ehhez kell alkalmazkodnom.”
 * **Eszközök:**
   * H5P Course Presentation (profilok)
-  * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatan, Zorea)
+  * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatan)
   * H5P Matching / Drag & Drop – helyzetek → kvucák
 * **Tartalom röviden:**
   * Kvucánként mini leírás:
@@ -109,7 +109,7 @@ A modul végére a résztvevő…
   * Rövid magyarázat:
     * gyermekvédelem = észrevenni & jelezni, **nem egyedül megoldani**,
     * **red flag** példák: bántalmazásgyanú, önsértés, online zaklatás, nagyon megváltozott viselkedés, madrich–chanich határátlépések, párkapcsolat-gyanú,
-    * nincs 100% titoktartás; kit vonok be: mentor / gyermekvédelmi felelős / vezető.
+    * nincs 100% titoktartás; gyermekvédelmi helyzetben a HUM-SAFE-01 szerint jóváhagyott jelzési út követendő.
   * Branching szcenáriók:
     * késő esti privát üzenet („nagyon rosszul vagyok, csak neked mondhatom el”),
     * sértő mém egy chanichról a csoportchatben,
@@ -157,7 +157,7 @@ A modul végére a résztvevő…
   2. **5–20’ – Csoportszobrok Tuckmanre:**
      * Kiscsoportok Tuckman-szakaszokra épített „élő szobrokat” készítenek, a többiek tippelnek, melyik szakasz.
   3. **20–35’ – Kvuca-sztori kártyák:**
-     * Kiscsoportok kvuca-sztori kártyákat kapnak (Parparim–Zorea), és párosítják: kvuca-típus + Tuckman-szakasz.
+     * Kiscsoportok kvuca-sztori kártyákat kapnak (Parparim–Leviatan), és párosítják: kvuca-típus + Tuckman-szakasz.
   4. **35–45’ – Megosztás & zárás:**
      * Rövid kör: „Mi az 1 jel, amiből legközelebb felismered, hol tart a kvucád?”
 
@@ -168,20 +168,20 @@ A modul végére a résztvevő…
 <!-- @asset
 {
   "id": "M3-HUB-POSZ-01",
-  "kind": "poster",
-  "mode": "human-decision",
-  "title": "Gyermekvédelmi lépés-térkép poszter (észreveszem → jelzek → nem maradok egyedül → bevonás)",
-  "purpose": "A gyermekvédelmi első-lépés-logika vizuális rögzítése és közös megalkotása; a red flag → jelzés → bevonás folyamat megjegyezhető térképe.",
-  "spec": "Közös fali plakát/poszter a felelős madrich-lépéssorral: észreveszem → jelzek → nem maradok egyedül → kit vonok be. Előnyomott sablon-poszter üres, kitölthető mezőkkel, amit a csoport közösen tölt fel a peula során (lépés-térkép).",
+  "kind": "worksheet",
+  "mode": "reuse",
+  "reuse_of": "M3.B-MUNK-01",
+  "title": "Gyermekvédelmi ötlépéses lépés-térkép sablon – hub reuse",
+  "purpose": "Az M3.B kanonikus ötlépéses safeguarding-folyamatának megjelenítése a modulhubon, külön párhuzamos folyamat létrehozása nélkül.",
+  "spec": "Az M3.B-MUNK-01 ötlépéses sablonjának újrahasznosítása: 1) észreveszem / gyanús; 2) röviden, biztonságosan meghallgatom, nem ígérek teljes titoktartást; 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti jóváhagyott jelzési utat; 4) a felelős felnőttel együtt döntünk a további lépésről; 5) utánkövetés.",
   "provenance": "mixed",
-  "provenance_note": "vegyes (sablon-grafika AI/ember; tartalmat részben a csoport tölti ki élőben)",
+  "provenance_note": "Az M3.B-MUNK-01 kanonikus sablonjának újrahasznosítása; nincs külön hub-poszter-tartalom.",
   "technical": {
-    "note": "Nagyméretű nyomtatott vagy flipchart-poszter (A1/A2), magyar nyelv, nyilakkal tagolt 4 lépéses folyamatábra, kitölthető mezőkkel."
+    "note": "Az M3.B-MUNK-01 meglévő A1/A4-mester / flipchart-megjelenését használd a hubban is; ne gyárts külön hub-verziót."
   },
   "a11y": {
-    "note": "Magas kontraszt a teremből olvashatósághoz; a 4 lépéses folyamatábráról szöveges alt-szöveg/leirat a digitális kísérőanyagban (a folyamat lineáris szöveges felsorolásként is meglegyen)."
+    "note": "A kanonikus ötlépéses folyamat lineáris szöveges felsorolásként is jelenjen meg a digitális kísérőanyagban."
   },
-  "decision": "GYERMEKVÉDELMI FELELŐS DÖNTÉSE. A kérdés nem az, hány lépés „szebb”, hanem hogy ez a poszter ugyanaz az anyag-e, mint a peula kanonikus sablonja. A peulában a lépés-térkép ÖT csomópontos, és a 2. csomópont a nem alkudható instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)” (M3.B-MUNK-01 spec; M3.B 4.3.2). Ugyanez a tiltás a modul kompetenciasorában (§2, 36. sor), a hub operatív szabályában (41. sor), az M3.3 és M3.4 feedbackjeiben, és a KAPU-rubrika BLOKKOLÓ R2 (titoktartás) sorában is szerepel. A hub itt viszont NÉGY lépést ír le (észreveszem → jelzek → nem maradok egyedül → kit vonok be, 250. sor), amiből a titoktartás-lépés és az utánkövetés hiányzik. Eldöntendő: (A) ez a poszter a peula ÖT csomópontos sablonjának a megjelenése, tehát `reuse_of: M3.B-MUNK-01`, és a hub 250. sorának összefoglaló mondatát ehhez kell igazítani; vagy (B) valóban két külön anyag kell, és akkor le kell írni, milyen gyermekvédelmi tartalommal áll a négylépéses változat. Claude nem dönt helyette: a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés. Részletek: Média-assetek/PRODUCTION-DECISIONS.md, D5.",
   "production_rules": [
     "R1",
     "R5"
@@ -189,7 +189,7 @@ A modul végére a résztvevő…
   "blockers": [
     "R5"
   ],
-  "notes": "Kapcsolódik az M3.3 és M3.4 online leckékhez, valamint a §2 kompetencia 4. ponthoz. A részletes folyamat a child fájlban; itt a poszter-sablon a legyártandó asset.",
+  "notes": "A korábbi négylépéses hub-változatot a 2026-09-28-i audit megszüntette; az egyetlen kanonikus vizuális folyamat az M3.B-MUNK-01.",
   "legacy": {
     "asset": [
       "M3.B-POSZ-01"
@@ -247,7 +247,7 @@ A modul végére a résztvevő…
      * Kiscsoportok 1–1 **esetkártyát** kapnak (online zaklatás, önsértés-gyanú, madrich–chanich határhelyzet stb.), és négy pont mentén elemzik: mi a red flag → mi az első mondat → mit nem tesz a madrich → kit von be.
      * A csoportok az **elemzésüket** hozzák vissza, nem jelenetet mutatnak be.
   3. **30–40’ – Lépés-térkép:**
-     * Közös plakáton: észreveszem → jelzek → nem maradok egyedül → kit vonok be.
+     * Közös plakáton az **M3.B kanonikus ötlépéses térképe**: **1) észreveszem / gyanús → 2) röviden, biztonságosan meghallgatom (nem ígérek teljes titoktartást) → 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti helyi jelzési utat → 4) a felelős felnőttel együtt döntünk a további lépésről → 5) utánkövetés**.
   4. **40–45’ – Zárókör:**
      * 1 mondat: „Mit viszel haza a red flag-ekkel kapcsolatban?”
 
@@ -255,11 +255,11 @@ A modul végére a résztvevő…
 
 ## 5. Felzárkóztató peula (ha szükséges) – 45’
 
-**M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab)**
+**M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem**
 
 * **Cél:**
   Támogatott térben segíteni azoknak, akik lemaradtak az online leckékkel (**M3.1–M3.4**), hogy:
-  * értsék a fő fogalmakat (Tuckman, 4 kvuca-profil, gyermekvédelem, red flag),
+  * értsék a fő fogalmakat (Tuckman, 3 aktuális kvuca-profil, gyermekvédelem, red flag),
   * legalább egy leckében érdemben haladjanak,
   * legyen „1 gondolat + 1 kérdés” mindegyik leckéhez.
 * **Kapcsolat az online résszel:**
@@ -271,7 +271,7 @@ A modul végére a résztvevő…
   2. **5–25’ – Csendes online pótlás fülessel:**
      * Mindenki a saját eszközén pótol / újranéz 1–2 leckét.
   3. **25–40’ – Kérdések + fogalom-térkép:**
-     * Közös tábla: Tuckman – 4 kvuca – gyermekvédelem – red flag – madrich szerepe.
+     * Közös tábla: Tuckman – 3 kvuca – gyermekvédelem – red flag – madrich szerepe.
   4. **40–45’ – Átvezetés:**
      * „Mit fogsz még pótolni a héten?” + híd a következő peulákhoz.
 
@@ -280,7 +280,7 @@ A modul végére a résztvevő…
 ## 6. Kapuk
 
 * **Kaputípus:**
-  * **Éles / mastery-kapu**, mivel a gyermekvédelem & red flag tematika biztonsági kérdés.
+  * **Éles teljesítési kapu**, mivel a gyermekvédelem & red flag tematika biztonsági kérdés.
 * **Eszközök:**
   * Moodle Quiz vagy H5P Question Set – **szcenárió-alapú kvíz** gyermekvédelem & red flag témában.
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
@@ -289,10 +289,10 @@ A modul végére a résztvevő…
   2. **Komponens B – modulproduktum:** helyzetleírás (red flag + első lépés + kit von be) **Assignmentként leadva**, és eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint (1), az R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) sor blokkoló** (M3.4-hez kapcsolódva).
   3. **Komponens A – szcenárió-kvíz:** **≥80% (≥10/12) ÉS a kötelező kritikus itemek (2., 4., 7., 9.) helyesek** – a kritikus itemek tévesztése a 80% mellett is bukás.
 * **Kapu-jelzés & támogatás:**
-  * Több próbálkozás engedélyezett (mastery logika).
+  * Több próbálkozás engedélyezett (elsajátításig tartó tanulás).
   * Ha valaki 2 próbálkozás után sem éri el a küszöböt (≥10/12 + kritikus itemek, ill. a blokkoló rubrikasorok) → mentor értesítése, rövid egyéni beszélgetés (támogatás, nem büntetés).
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyermekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **4 someres kvuca-profil** (Parparim/Kivsza/Leviatan/Zorea) lesz az M7 záró produktumának biztonsági és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyermekvédelem & biztonság, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §CAPSTONE).
+> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyermekvédelmi keret** (red flag → első lépés → jelzés, „nem ígérek titoktartást”, nem nyomozok / nem konfrontálok) és a **3 aktuális someres kvuca-profil** (Parparim/Kivsza/Leviatan) lesz az M7 záró produktumának biztonsági és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyermekvédelem & biztonság, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS).
 
 ***
 
@@ -307,7 +307,7 @@ A modul végére a résztvevő…
 * **Kapu-kvíz adatok:**
   * Mely kérdésekre hibáznak sokan – ezeknél érdemes a tartalmat vagy a peula-részleteket finomhangolni (pl. madrich–chanich kapcsolat súlyossága, első lépés logikája).
 * **Küszöbök / beavatkozási pontok:**
-  * Ha a résztvevők **>30%-a nem fejezi be az M3.3-at** a 2. hét végéig → extra emlékeztető + javasolt **M3.F** Study Lab.
+  * Ha a résztvevők **>30%-a nem fejezi be az M3.3-at** a 2. hét végéig → extra emlékeztető + javasolt **M3.F** felzárkóztató műhely.
   * Ha a kapu-kvízen az átlag **<80%** → a következő képzős napon rövid összefoglaló blokk gyermekvédelem & red flag témában (pl. további esetkártyák közös elemzése).
 
 
@@ -316,7 +316,7 @@ A modul végére a résztvevő…
 
 [M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése](./Online%20leckék/M3.1%20–%20Történetek%20egy%20kvucáról%20–%20Tuckman-szakaszok%20felismerése.md)
 
-[M3.2 – „Parparim, Kivsza, Leviatan, Zorea” – 4 kvuca, 4 világ](./Online%20leckék/M3.2%20–%20Parparim,%20Kivsza,%20Leviatan,%20Zorea%20–%204%20kvuca,%204%20világ.md)
+[M3.2 – „Parparim, Kivsza, Leviatan” – 3 kvuca, 3 világ](./Online%20leckék/M3.2%20–%20Parparim,%20Kivsza,%20Leviatan,%20Zorea%20–%204%20kvuca,%204%20világ.md)
 
 [M3.3 – „Gyermekvédelem 101” – red flag felismerése & első lépések](./Online%20leckék/M3.3%20–%20Gyermekvédelem%20101%20–%20red%20flag%20felismerése%20&%20első%20lépések.md)
 
@@ -326,6 +326,6 @@ A modul végére a résztvevő…
 
 [M3.B – Red flag vagy nem? – Esetelemzés & lépés-térkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md)
 
-[M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab)](./Peulák/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyermekvédelem%20%28Study%20Lab%29.md)
+[M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem ](./Peulák/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyermekvédelem%20%28Study%20Lab%29.md)
 
 **[M3 – KAPU – értékelő (item-bank + rubrika)](./M3%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles, gyermekvédelmi kapuja**: a szcenárió-item-bank és a megfigyelhető rubrika (gyermekvédelmi felelős review-jával).

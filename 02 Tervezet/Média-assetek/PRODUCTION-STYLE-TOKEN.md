@@ -5,7 +5,7 @@ amennyi az első kötegek legyártásához kell, és nem többet. Nem arculati k
 mozgalomnak **van sajátja**, és ez a lap arra épül.
 
 **Státusz: NYITOTT — FELHASZNÁLÓI DÖNTÉS SZÜKSÉGES.** Ez a lap **javaslatot** tesz, nem
-zár le kaput. Az R5 blokkolók a 257 asseten változatlanul állnak, amíg a jóváhagyó nem
+zár le kaput. Az R5 blokkolók mind a 258 érintett szemantikus asseten változatlanul állnak, amíg a jóváhagyó nem
 válaszol a 9. szakasz kérdéseire.
 
 Kapcsolódó lapok: [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) (mi
@@ -211,8 +211,7 @@ ráadás, hanem **teherhordó**.
    azonos világosság. Ha a család mégis színnel is akar elválni, a „zárt”-hoz a
    `sötét kék #08A0CA` javasolt (`#08A0CA`/`#F2BC00` = 1,74:1). Ez a lecke szövegét
    **nem érinti**: a leckék hue-nevet írnak („kék”), nem hex-et.
-4. **A négy kvuca-piktogram maradjon szín-semleges** (forma + emoji-metafora), mert
-   négy, egymástól luminanciában is elváló márkaszín nincs.
+4. **A három aktuális kvuca-piktogram maradjon szín-semleges** (forma + emoji-metafora), hogy a korosztály-jelölés ne függjön kizárólag színtől.
 
 ---
 

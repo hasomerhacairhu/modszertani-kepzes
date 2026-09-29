@@ -1,4 +1,4 @@
-# M1 – „Vakfolt, tükör, feedback” – Önismeret & visszajelzés: Johari + SBI
+# M1 – „Vakfolt, tükör, visszajelzés” – Önismeret & visszajelzés: Johari + SBI
 
 ## 1. Modul meta
 
@@ -129,7 +129,7 @@ A modul végére a résztvevő…
 * **Tartalom röviden:**
   3 rövid szituáció (peula, kvuca, madrich-gyűlés) közül választ;
   instrukció: írjon 1 (max. 2) SBI-t (S – mikor/hol; B – mit csinált a másik; I – hogyan hatott rá / a csoportra);
-  beadás: legalább 1 SBI kötelező, ez lesz az éles (mastery) kapu alapja.
+  beadás: legalább 1 SBI kötelező, ez lesz az éles teljesítési kapu alapja.
 
 ***
 
@@ -227,7 +227,7 @@ A modul végére a résztvevő…
 
 ### Kaputípus
 
-* **Éles / mastery-kapu** – mivel az SBI-nyelv **alapeszköz** lesz a további modulokban és terepen: a tanuló az itt tanult SBI-jét később **maga is produkálja** – az **M6.B** játéklap peer-feedbacknél (ahol az M6 expliciten vissza is horgonyozza M1-re) és az **M7 Peula v2** utóreflexiójánál + javító visszajelzésénél. (Megjegyzés: az M3-ban az SBI-keretet nem a tanuló produktuma, hanem a **képzői/mentori** javító visszajelzés használja.)
+* **Éles teljesítési kapu** – mert az M1-ben tanult készség később is kell: a madrich tudjon **konkrét megfigyelést elválasztani az értelmezéstől**, és emberi viselkedésre helyzet–viselkedés–hatás szerkezetben visszajelzést adni. Az M6.B produktum-visszajelzése erre a konkrétságra épül, de **nem nevezzük SBI-nek**, mert ott nem emberi viselkedés a B. Az M7-ben ugyanez a megfigyelési fegyelem jelenik meg a társas visszajelzésben és a későbbi utóreflexióban.
 
 ### Eszköz
 
@@ -247,13 +247,13 @@ A kapu **hivatalos, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 * **Online:** M1.1–M1.4 mikroleckék activity completion (H5P-k végigjátszva).
 * **Produktum:** legalább **1 db SBI** beadása az Assignmentben, ami eléri a [KAPU-fájl](./M1%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) hivatalos küszöbét: **minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS legalább egy sor eléri a „kiváló” szintet (=2 pont)** – pontszámban ez **≥5/8** (4×1 + 1 = 5). (Vigyázz: a rubrikában az „alapszint” a **legalsó, 0 pontos** szint = „még nem tudja”, ezért az átmenethez nem elég – minden sornak legalább „fejlődő” szintűnek kell lennie.)
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** az itt megtanult SBI-nyelv lesz az alapja a Peula v2 **utóreflexiójának (a Peula 11. pontja)** és a produktumra adott **javító visszajelzésnek** – az M7 produktum-leadásánál (Peula v2 + Zmán Kvucá) a javítási útvonal visszajelzése **SBI-ben** érkezik (max. 3 pont). Az M7.A/M7.B peulákon a peer-feedback maga a **peula-tervezés szempontjaira** épül (SMART-cél: „hol érzem SMART-nak / mit kérdeznék még?”, illetve a Zmán Kvucá „előtte–utána”), de az itt elsajátított SBI-szemléletet – konkrét helyzet, megfigyelhető viselkedés, érthető hatás – ugyanígy be tudod vinni, amikor egymás peuláira reagáltok.
+> **→ Ezt viszed tovább az M7-be:** az itt megtanult különbségtételt, **mi megfigyelés és mi értelmezés**, használod, amikor egymás peulaterveire reagáltok, és amikor a saját peuládat a megtartás után visszanézed. A produktumra adott fejlesztő visszajelzés konkrét elemeket nevez meg és következő lépést ad, de nem címkézzük automatikusan SBI-nek.
 >
-> **És nem csak adni: kapni is.** Az SBI-t itt főleg úgy gyakorlod, hogy **te írsz** egyet – de a későbbi kapuk javítási útvonalán (pl. **M4.4** mentori visszajelzés a pitchedre, **M7** javító visszajelzés a Peula v2-re) **te leszel a címzett**: SBI-ben kapod a javítást. Jó, ha tudod: a **rólad szóló SBI** sem a személyedet minősíti, hanem egy **viselkedést, egy feladat kivitelezését és annak hatását** nevezi meg (ahogy az M1.B-ben adni *és* kapni is gyakoroltad) – így a javító visszajelzést ne támadásként éld meg, hanem fogódzóként, amiből látod, mit csinálj máshogy legközelebb.
+> **És nem csak adni: kapni is.** Az SBI-t itt főleg úgy gyakorlod, hogy **te írsz** egyet – de a későbbi kapuk javítási útvonalán (pl. **M4.4** mentori visszajelzés a peulabemutatódra, **M7** javító visszajelzés a Peula v2-re) **te leszel a címzett**: konkrét, fejlesztő visszajelzést kapsz arról, min érdemes változtatni. Jó, ha tudod: a **rólad szóló SBI** sem a személyedet minősíti, hanem egy **viselkedést, egy feladat kivitelezését és annak hatását** nevezi meg (ahogy az M1.B-ben adni *és* kapni is gyakoroltad) – így a javító visszajelzést ne támadásként éld meg, hanem fogódzóként, amiből látod, mit csinálj máshogy legközelebb.
 
 ### Javítási logika
 
-* Ha nem éri el a minimumot, rövid, **SBI-típusú feedbacket** kap, és újrapróbálhatja (mastery learning).
+* Ha nem éri el a minimumot, rövid, **konkrét fejlesztő visszajelzést** kap, és újrapróbálhatja (elsajátításig tartó tanulás).
 * Ha eléri a minimumot, akkor is kap visszajelzést: érdemes kiemelni, pontosan mi és miért volt jó megoldás, hogy ez meg is erősödjön benne.
 
 ***
@@ -275,7 +275,7 @@ A kapu **hivatalos, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
    * „Mennyire érzed, hogy tudnál SBI-t használni a való életben? (1–5)”
    * „Mi az, ami még zavaros?”
 5. **Program-szintű mutatók (M1-re fókuszálva)**
-   – M1 mastery arány (hányan teljesítik az Assignment-kaput első / második próbálkozásra);
+   – M1 teljesítési arány (hányan teljesítik az Assignment-kaput első / második próbálkozásra);
    – M1-nél jelentkező „kiesési pontok”: ahol sok a félbehagyott lecke vagy hiányzó Assignment – ezekre a következő évben extra támogatást (pl. több példa, rövidebb videók, gyakorló peula-elemek) érdemes tervezni.
 
 ***
@@ -294,4 +294,4 @@ A kapu **hivatalos, 4 soros rubrikáját** a [M1 – KAPU – értékelő (item-
 
 [M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)](./Peulák/M1.F%20–%20Felzárkóztató%20peula%20–%20Johari,%20megfigyelés%20és%20SBI%20egyben%20%2845’%29.md)
 
-**[M1 – KAPU – értékelő (item-bank + rubrika)](./M1%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles (mastery) kapuja**: a hivatalos 4 soros SBI-rubrika, a küszöb és a kísérő item-bank.
+**[M1 – KAPU – értékelő (item-bank + rubrika)](./M1%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles teljesítési kapuja**: a hivatalos 4 soros SBI-rubrika, a küszöb és a kísérő item-bank.

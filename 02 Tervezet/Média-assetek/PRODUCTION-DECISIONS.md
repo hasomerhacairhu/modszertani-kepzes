@@ -13,8 +13,8 @@ kisebb vagy egyenlő, mint az „érintett”.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 417 | 903 |
-| Ebből központilag előgyártható | 407 | 898 |
+| Összesen | 417 | 902 |
+| Ebből központilag előgyártható | 406 | 897 |
 | Ebből **most gyártható** | **37** | **37** |
 | Élő/runtime tétel (a képző hozza létre a peulán) | 3 | 5 |
 
@@ -43,10 +43,9 @@ fekete-fehér nyomtatás. Részletek és a teljes lock-lap:
 > színgeneráció a hatályos, és mit teszünk oda, ahol a kézikönyv hallgat (betűméret-skála,
 > ikon-stílus, semleges skála). A teljes bizonyíték-lánc, a **kiszámított** WCAG-kontrasztok
 > és a két jóváhagyható változat: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md).
-> **Ez bizonyíték, nem jóváhagyás — az R5 blokkolók a 257 asseten a helyükön maradnak.**
+> **Ez bizonyíték, nem jóváhagyás — az R5 blokkoló mind a 258 érintett szemantikus asseten a helyén marad.**
 
-**Mit szabadít fel:** R5 lezárása önmagában **247 asset / 489 deliverable**. Az érintett
-257-ből 10 azért marad zárva, mert R2-re, R3-ra vagy emberi döntésre is vár.
+**Mit szabadít fel:** R5 lezárása önmagában **247 központilag előgyártható asset / 489 deliverable**. A teljes R5-hatókör **258 szemantikus asset**: ebből 1 `reuse` hely nem gyárt saját deliverable-t, 1 élő/runtime tétel, 1 további emberi döntésre is vár, 8 pedig R2/R3 blokkolót is visz. Így a ténylegesen csak R5-re váró központi gyártási köteg 247 asset.
 
 **Ki dönt:** program-/arculatfelelős, a mozgalmi vizuális identitás jóváhagyójával.
 
@@ -103,7 +102,7 @@ létrehozása (azonos módszerrel) szükséges.
 választani: a magyar természetesség, a melegség és a someres szavak kiejtése csak
 hallgatással dönthető el. A hatpárosos összehasonlítás kész, végrehajtható terve —
 beállításokkal, kiejtési figyelőlistával és pontozólappal —
-[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 066 karakter,
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 072 karakter,
 becsült költsége 0,15–0,61 $** — a szolgáltató két árazási felülete eltérő szorzót ad,
 de mindkét olvasatban egy dollár alatt marad.
 
@@ -118,16 +117,19 @@ későbbi döntés** — ez a lap nem osztja ki neki.
 | Felmondó típusa | ✅ **szintetikus** |
 | Motor / szolgáltató | ✅ **ElevenLabs** |
 | **Kanonikus hang** | ⛔ **A vagy B — meghallgatásos döntés** |
-| Hang-objektumok létrehozása | ⛔ **még nem történt meg** — forrás-beszélői felvétel + V2 hozzájárulás-bizonyíték kell előbb; a módszer (IVC / PVC / egyéb) is nyitott |
+| Hang-objektumok létrehozása | ⛔ **még nem történt meg** — előbb dokumentált hangjogosultság kell. **PVC esetén a forrásbeszélőnek a saját hangját saját maga kell létrehoznia és hitelesítenie; a projektfiók más személy PVC-jét még hozzájárulással sem hozhatja létre.** A kész PVC privát megosztással adható át. IVC csak akkor választható, ha a jogosultság, a fiók/workspace és az aktuális feltételek ezt lehetővé teszik. |
 | Voice-ID | ⛔ **NINCS — a hang még nem jött létre** |
-| Hangtípus (PVC / IVC / Voice Design) | ⛔ **NINCS — a létrehozás módjával együtt dől el** |
+| Hangtípus | ⛔ **NINCS — a jogosulttal és az aktuális szolgáltatói feltételekkel összhangban kell kiválasztani** |
 | Modell | 🔎 javaslat: `eleven_flash_v2_5`, `language_code: "hu"` — a hangtípus és a meghallgatás erősíti meg |
 | Hangbeállítások és seed | ⛔ a teszt rögzíti |
 | Kiejtési szótár | ⛔ a teszt *eredménye*, nem a bemenete |
 | Hang-jogosultság igazolása | ⛔ → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
 
-> ⛔ **A hangok még nem léteznek** — az első lépés a létrehozásuk a forrás-beszélők
-> felvételeiből ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
+> ⛔ **A hangok még nem léteznek.** PVC esetén nem a projektfiók tölti fel és hitelesíti
+> más személy hangját: a forrásbeszélő a saját fiókjában hozza létre és hitelesíti a PVC-t,
+> majd privát megosztással adhat hozzáférést. IVC esetén külön kell igazolni a használati
+> jogosultságot és az aktuális fiók-/workspace-feltételeket. A meghallgatási folyamat csak
+> ezután indulhat ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
 > környezetben **nincs ElevenLabs hitelesítő adat** — sem környezeti változó, sem
 > konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. Voice-ID-t és
 > hangtípust ezért **nem rögzítettünk, és nem is találtunk ki.** A létrehozás utáni
@@ -220,36 +222,21 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 
 ## D5 — M3 gyermekvédelmi lépés-térkép poszter (`M3-HUB-POSZ-01`)
 
-**Kérdés:** a modul-áttekintőben leírt poszter ugyanaz az anyag-e, mint a peula ötlépéses
-lépés-térkép sablonja (`M3.B-MUNK-01`)?
+**Állapot: LEZÁRVA — 2026-09-28.**
 
-**Miért biztonságkritikus:** a peula sablonjának **2. csomópontja** a nem alkudható
-instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% titoktartást)”.
-A hub összefoglalója négy lépést sorol (észreveszem → jelzek → nem maradok egyedül → kit
-vonok be), amiből ez a lépés és az utánkövetés hiányzik. A titoktartás-tilalom a
-tananyagban **blokkoló** követelmény: szerepel a modul kompetenciasorában (§2), a hub
-operatív szabályában, az M3.3 és M3.4 visszajelzéseiben, a peula négy pontján, és a
-KAPU-rubrika **blokkoló R2 (titoktartás)** sorában.
+A modul-áttekintő és az M3.B **ugyanazt az egyetlen, ötlépéses safeguarding-folyamatot** használja. A hub-poszter nem külön négylépéses anyag, hanem a már meglévő `M3.B-MUNK-01` megjelenése:
 
-**A) Egy anyag.** A hub posztere a peula ötcsomópontos sablonjának megjelenése →
-`mode: reuse`, `reuse_of: M3.B-MUNK-01`, és a hub összefoglaló mondatát hozzá kell
-igazítani.
-**B) Két külön anyag.** Marad a négylépéses poszter is — ekkor le kell írni, milyen
-gyermekvédelmi tartalommal áll meg a rövidebb változat a titoktartás-lépés nélkül.
+- `mode: reuse`
+- `reuse_of: M3.B-MUNK-01`
 
-**Ajánlás: A**, de ez **nem** hajtható végre jóváhagyás nélkül: a hub látható
-gyermekvédelmi mondatának átírása szakpolitikai döntés. Az A melletti tárgyi érv: az
-ötcsomópontos sablon már létezik, teljes, és minden kötelező elemet tartalmaz. A „nem
-ígérek 100% titoktartást” követelmény egyik változatban sem gyengülhet.
+**Kanonikus öt csomópont:**
+1. Észreveszem / gyanús.
+2. Meghallgatom röviden, biztonságosan, és nem ígérek teljes titoktartást.
+3. Nem maradok egyedül, követem a `HUM-SAFE-01` szerint jóváhagyott helyi jelzési utat.
+4. A felelős felnőttel együtt döntünk a további lépésekről.
+5. Utánkövetés.
 
-**Mit szabadít fel:** 1 asset / 1 deliverable. A tét nem a darabszám, hanem hogy ne
-készüljön olyan fali poszter, amiről lemarad egy kötelező gyermekvédelmi lépés.
-
-**Ki dönt:** a `Gyermekvédelem – release gate.md` dokumentumban névvel jóváhagyott
-gyermekvédelmi felelős.
-
-**A válasz helye:** kanonikus lépés-térkép csomópontszáma és a hub mondatának sorsa:
-⟬KITÖLTENDŐ⟭
+Ez megszünteti azt a korábbi hibát, hogy a négylépéses hub-összefoglalóból kimaradt a titoktartás határa és az utánkövetés. Nem keletkezik második safeguarding-poszter vagy párhuzamos folyamat.
 
 ---
 

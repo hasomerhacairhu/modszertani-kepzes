@@ -1,79 +1,198 @@
-# Emberi jóváhagyás / kitöltés szükséges
+# Emberi döntési csomag
 
-> Ez az egyetlen, rövid átadó-jegyzék. A teljes audit- és javítás-folyamat a **git-history-ban**
-> él (`git log`); az abból származó **szakmailag eldönthető** döntéseket **beépítettük**. Ami
-> **szervezet-specifikus tény, jog, vagy mozgalmi/szakértői aláírás**, az itt és a szövegben
-> **`⟬KITÖLTENDŐ: …⟭`** jelöléssel vár emberi kézre.
+> **Cél:** egyetlen helyen legyen minden olyan nyitott tétel, amelyet a repository nem dönthet el a szervezet helyett.
+> A szakmailag vagy dokumentációból eldönthető kérdések nem kerülnek ide.
 >
-> **Az összes inline jelölő egy paranccsal:** `grep -rn "⟬KITÖLTENDŐ" "02 Tervezet"`  (jelenleg ~30 db)
+> **Szabály:** minden érintett fájl az alábbi döntésazonosítóra hivatkozik. Ugyanazt a döntést nem tartjuk fenn több, egymástól független `KITÖLTENDŐ` mezőben.
+>
+> **Staging ≠ élesítés:** ezek a döntések nem akadályozzák a zárt, szerkesztői Moodle-staging felépítését tesztadatokkal. Ahol a táblázat „éles kurzust” blokkol, ott valódi madrich nem kaphat hozzáférést a döntés lezárásáig.
 
----
+## 1. Gyermekvédelem
 
-## 1. Gyermekvédelmi felelős + eszkalációs lánc (a legmagasabb prioritás)
+### HUM-SAFE-01 — Helyi gyermekvédelmi jelzési lánc
 
-A program **több ponton** a nevesített gyermekvédelmi felelősre (DSL) épül. **Egyetlen aláírás-hiány az M3-at és az M7 félévzáró kaput is blokkolja** (lásd Program terv §9). Kitöltendő:
-
-| Hol | Mit |
+| Mező | Tartalom |
 |---|---|
-| **M3.3** / **M3.B** / **M3 – KAPU** fejléc | gyermekvédelmi felelős **neve**, jóváhagyás + felülvizsgálat **dátuma** |
-| **M3 – KAPU** §3 (külső eszkalációs út) | ha a gyanú épp a felelősre vonatkozik: **alternatív/külső** jelzési út |
-| **M7 – KAPU** (~211. sor) | a ken nevesített **gyermekvédelmi felelőse + helyi jelzési protokoll** (azonnali-veszély / 112 ág) |
-| **M7 – KAPU** Q14 + rubrika **R4** (blokkoló) | a **négyszemközti (one-to-one / safer working) helyzetek helyi szabálya** — a kapu ehhez a szabályhoz méri a tervet, ezért a szabály kitöltése (`Gyermekvédelem – release gate.md`) az M7-kapu élesítésének **előfeltétele**. A tananyag a szabály tartalmát nem dönti el. |
-| **M0.2** (~270. sor) | kihez fordulhat a madrich személyesen (**felelős/mentor + elérhetőség**) — **kiterjed** a „ha a tananyag téged is érint” **bizalmas trainee-útra** is (lásd §4), nem csak a tanulási/technikai elakadásra |
-| **M3.4** | a ken **alkohol- és dohányzási magatartási kódexe** (mit/hol/milyen kortól) |
+| **Kérdés** | Ki a kijelölt gyermekvédelmi felelős, mi az elérhetősége, ki a helyettes/alternatív út összeférhetetlenség esetén, és mi a helyi akut-veszély eszkaláció? |
+| **Miért szükséges** | M0, M3 és M7 több helyen konkrét felelőshöz küldi a madrichot. Ezt név és jóváhagyott helyi folyamat nélkül nem szabad élesben ígérni. |
+| **Mi bizonyítható a repóból** | A madrich nem nyomoz, nem konfrontál feltételezett elkövetőt, nem ígér teljes titoktartást, és felelős felnőttet von be. Közvetlen életveszélynél a 112 sürgősségi út. |
+| **Mit kell eldönteni** | felelős neve/szerepe és elérhetősége; helyettes/külső út; mozgalmi/országos eszkaláció; akut veszély helyi protokollja; dokumentálás helye és jogosultsága; jóváhagyás és következő felülvizsgálat dátuma. **Az M3 lépéstérkép szerkezete már lezárt: az M3.B ötlépéses sablonja az egyetlen kanonikus learner-facing folyamat.** |
+| **Javasolt alapértelmezés** | Nincs szervezetfüggetlen alapértelmezés. A kurzus addig csak szerepnevet használhat belső stagingben, learner-facing kiadásban nem maradhat névtelen kontakt. |
+| **Jóváhagyó** | gyermekvédelmi felelős + szervezeti vezetés; a jogi minősítésnél szükség szerint jogi szakértő |
+| **Blokkol** | éles M0 safety-kontakt, M3.3, M3.B, M3-kapu, M7 gyermekvédelmi részei és M7-kapu |
+| **Érintett források** | `Gyermekvédelem – release gate.md`, M0.2, M0.A, M3.3, M3.B, M3-kapu, M7.3, M7-kapu |
+| **Implementáció a döntés után** | egyetlen jóváhagyott kontaktblokk kerül a Moodle-be; minden tananyag-hivatkozás ezt használja. |
 
-## 2. Kapu-dátumok — M7 kétkapus capstone (ÚJ)
+### HUM-SAFE-02 — Négyszemközti / safer-working szabály
 
-A jóváhagyott M7-átalakítás bevezetett egy **kétkapus, időben elosztott** capstone-ütemtervet (Peula v1 first-draft gate → ~1 hét spacing-köz → v2 mastery-kapu). A **pontos naptári dátumok** kitöltendők:
+| Mező | Tartalom |
+|---|---|
+| **Kérdés** | Milyen feltételekkel beszélhet képző vagy madrich kettesben kiskorúval? |
+| **Miért szükséges** | A tananyag több helyen felkavaró témát dolgoz fel, és M7-ben a peulatervnek is kezelnie kell a négyszemközti helyzeteket. |
+| **Biztonságos jelenlegi minimum** | A tananyag nem ír elő automatikus félrevonulást. A beszélgetés diszkrét, de átlátható; ha nincs jóváhagyott helyi szabály, kérj be egy másik képzőt/felnőttet. |
+| **Valódi alternatívák** | pl. látótávolság/nyitott ajtó; második felnőtt jelenléte; második felnőtt tudtával végzett beszélgetés. A szervezet dönti el, melyik és milyen dokumentálással elfogadható. |
+| **Jóváhagyó** | gyermekvédelmi felelős |
+| **Blokkol** | learner-facing safety instrukciók véglegesítése és M7 R4/Q14 helyi megfelelése |
+| **Implementáció a döntés után** | a `Gyermekvédelem – release gate.md` egyetlen szabálymezője frissül; a tananyag nem másolja szét, csak erre hivatkozik. |
 
-- **M7 hub** (~34/36/201/203), **M7 – KAPU** (~24/26), **M7.B** (~14): v1-leadás + v2 mastery-leadás határideje
-- **Program terv** §3.1 / §3.2 / §5 (~97/186/249): ugyanezek a kapu-dátumok
-- *Döntés:* a v1-kapu Moodle-ben „külön határidős, de nem buktató” aktivitás-e, vagy mentor-jelölt mérföldkő.
+### HUM-SAFE-03 — A madrich saját érintettsége és kiskorú madrich státusza
 
-## 3. Governance & megfelelőség — Program terv §9 compliance gate (ÚJ)
+| Mező | Tartalom |
+|---|---|
+| **Kérdés** | Kihez fordulhat bizalmasan a 15–17 éves madrich, hogyan maradhat ki érzékeny gyakorlatból, és milyen felnőtt felügyelet kötelező számára terepen? |
+| **Miért szükséges** | A tananyag bántalmazást, önsértést, identitást és határhelyzeteket érint. A résztvevő maga is lehet érintett és kiskorú. |
+| **Javasolt szakmai minimum** | szégyenítés nélküli `passz`/alternatív feladat; érzékeny feltárásnál nem marad egyedül; a 18 év alatti madrich nem kap egyedüli felnőtt felelősséget. |
+| **Mit nem döntünk el** | konkrét bizalmas kontakt, szülő/gondviselő bevonásának helyi folyamata, felnőtt:madrich felügyeleti arány |
+| **Jóváhagyó** | gyermekvédelmi felelős + programvezető |
+| **Blokkol** | éles learner-facing safety tájékoztató és terepgyakorlat |
+| **Implementáció a döntés után** | rövid, azonos szövegű „ha téged is érint” blokk a releváns modulokban és a kurzus elején. |
 
-A §9 **élesítés-előtti, blokkoló aláírólista** (7 sor). Kitöltendő:
+### HUM-SAFE-04 — Alkohol- és dohányzási szabály
 
-- **Módszertani felelős** + **DSL/gyermekvédelmi felelős** neve (§9 új 6. sor – kétlépcsős AI+safeguarding lektorálás; Program terv ~333/334)
-- **AI-média provenance-eljárás** (§4 + §9 7. sor): az **ember-olvasható** jelölés **szövege 2026-08-27-én jóváhagyva** — kanonikus alak szó szerint: **„AI-generált médiaelem · emberi lektorálással.”** (a teljes szabály: `Média-assetek/produkcios-szabalyok.json` R1). **Továbbra is nyitott:** a címke vizuális megjelenése és elhelyezése, ami a vizuális rendszer lezárásától függ (`Média-assetek/PRODUCTION-DECISIONS.md` D1). A gépi provenance-jelölés (pl. C2PA / Content Credentials / vízjel) megőrzése ajánlott jó gyakorlat. Az EU AI Act 50. cikk (2) gépi jelölési kötelezettsége az AI-rendszer **szolgáltatóját** terheli; a deployer-oldali 50. cikk (4) közzétételi esetek (deepfake, közérdekű AI-szöveg) alkalmazhatóságát **jogi review** minősítse — ez a jogi minősítés a szöveg jóváhagyásától függetlenül nyitott.
-- **Támogatási elérhetőségek** (§5/§6 `[...]`): adatkezelési felelős + a technikai segítség megnevezett elérhetősége; **M4.1** (~54) technikai segítségkérési csatorna
-- **Mentor:madrich arány** (§6 stáb-kapacitás realitás-megjegyzés) — a stáb tényleges kapacitása szerint
-- **Terep-rubrika ↔ intake-KPI megfeleltetés** (`Terepgyakorlat – 2. félév.md`, „Skála-megjegyzés”): a 0–2 fokozatú field-rubrika és az intake „rubrika átlag ≥ 4/5” KPI **megfeleltetése szervezeti döntés** — amíg nincs eldöntve, a field-rubrika **nem használható a KPI riportálására**. A szabály szövege egy helyen, a Terepgyakorlat-fájlban él; ez a sor csak oda mutat.
-- **Akadálymentesítési lektor** neve (LMS-sztenderd KAPUS pre-flight)
+A konkrét helyi szabályt nem a tananyag találja ki. **Jóváhagyó:** szervezeti vezetés + gyermekvédelmi felelős. **Blokkol:** csak azokat a learner-facing példákat, amelyek konkrét helyi tiltást vagy korhatárt állítanak. **Implementáció:** a jóváhagyott policy-re hivatkozás, nem a szabály teljes lemásolása az M3.4-be.
 
-## 4. Adatvédelem (GDPR / kiskorúak) — jogi döntés
+### HUM-SAFE-05 — Stáb-alkalmasság és safeguarding-induction
 
-Szakember (gyermekvédelmi + adatvédelmi) döntse el:
-- A reflexiós napló-, szabad szöveges és Assignment-adatok **megőrzési ideje, törlési/anonimizálási folyamata, valamint célonként a GDPR 6. cikk szerinti jogalapja** (és ahol a jogalap a hozzájárulás, ott az is, hogy a 8. cikk egyáltalán alkalmazandó-e, illetve kell-e szülői/gondviselői engedélyezés) (érintett: M0, M2.4, M4 szöveges reflexiók + M4.4 Assignment, **M5.4** szövegmezők + Assignment).
-- **M6.3 fotók** (~48/49/52): kép **forrása/fotós**, **licenc**, és felismerhető kiskorú képmása esetén a **jogalap + dokumentáció** meghatározása (GDPR 6. cikk, szükség esetén 9. cikk; a magyar polgári jog szerinti képmáshoz fűződő jog; szülői/gondviselői engedélyezés **ott, ahol az alkalmazandó jogalap vagy a szervezeti policy ezt kéri**). **Nem vezetünk le univerzális „minden gyerekfotóhoz mindig írásos szülői hozzájárulás” szabályt** – lásd `Adatvédelem – tanulói adatok és AI.md`.
-- **Z.4 képzés-feedback – anonimitás szintje:** a tananyag jelenleg **„név nélkül megjelenő”** visszajelzést ígér (core Moodle Feedback, Anonymous responses ON) – a hivatalos Moodle-dokumentáció a Feedback-anonimitásról kimondja, hogy az **nem** GDPR-értelemben vett anonimitás (docs.moodle.org, Feedback settings; a mondat a site-szintű „Allow full anonymous” szakaszban áll), és a rendszernaplók + completion fiókhoz kötöttek. Döntés: elegendő-e ez, vagy technikai anonimitás kell (és ha igen, melyik eszköz/beállítás adja meg). E döntés előtt a tanulói szöveg nem ígérhet „teljesen anonim”-at.
-- **Kiskorú (15–17) madrich kettős státusza:** 18 alatti ne felügyeljen egyedül; saját bejelentési útja **nem csak** a transzfer-próba (M7→Z terepi vállalás) felügyeletéhez kötve, **hanem a teljes félévre** kiterjedően — szervezeti policy.
-- **„Ha a tananyag téged is érint” — program-szintű, trainee-felé néző biztonsági út:** a célcsoport 15+, tehát maga a madrich is gyakran kiskorú, és a tananyag súlyos témákat dolgoztat fel (önsértés, bántalmazás, határátlépés). A program **in-the-moment szinten MÁR kezeli** a madrich saját érintettségét (M3.B azonnali kezelés blokkja: bizalmas zárás + nevesített kontakt/krízisvonalak; M0.2 reflexiós napló: mentor-út + safeguarding-kivétel), de **nincs program-szintű, a teljes félévre kiterjedő, egységesen nevesített bizalmas út és szégyenítés nélküli kimaradási lehetőség**. Kitöltendő szervezeti policyként: **(a)** kihez fordulhat a madrich **bizalmasan** (mentor / DSL / külső kontakt – nevek, elérhetőség); **(b)** **szégyenítés nélküli kimaradási lehetőség** az érzékeny gyakorlatból (M1 önismeret, M3 gyermekvédelem, M2.4 reflexiós napló); **(c)** a felkavaró témát érintő modulok introjába egy rövid, **a madrichnak címzett** biztonsági sor. *(A program-szintű szövegezés a **Program terv §2/§6**-ba és a felkavaró témát érintő modulok introjába épül be — az a fájl gazdájának feladata; itt a jogi/policy-döntés és a DSL-sign-off rögzül. Forrás: NYA Safeguarding for Youth Work; Safeguarding Network – supervision: a feltárásokat érintő tartalom kétirányú, a feldolgozó maga is érintett lehet, ezért szupervízió / reflektív feldolgozó kör jár a résztvevő védelmére.)*
-
-## 5. Mozgalmi / ken-megerősítés — tartalmi (ÚJ)
-
-A helyi Somer / ken erősítse meg:
-- **Izrael/cionizmus — palesztin-/béke-dimenzió** (M2.3 ~227. sor + M2.B emlékeztető): a kánon-hű kiegészítés **pontos mozgalmi szövegezése** (`⟬KITÖLTENDŐ: ken-megerősítés⟭`). Politikailag érzékeny — a mozgalmi vezetés hatásköre.
-- **Kvuca-korosztályok és profilok** (Parparim 6–10 / Kivsza 11–13 / Leviatan 14–16 / Zorea 16+): mozgalom-belső konvenció, a helyi ken-vezetővel megerősítendő (glosszárium 🧑‍🏫 jelölés).
-- **Hagshama** pontos mozgalmi megfogalmazása (glosszárium).
-
-## 6. Opcionális szerzői / stiláris döntés
-
-- **„Dugma ishit” leckecím (M0.4) — fájlnév:** a látható szövegekben már kisbetűsítve; a **fájlnév** (+ ~7 link-URL) maradt nagybetűs (a fájl-átnevezés a linkeket is érinti). Döntés: marad-e a fájlnév, vagy átnevezés + link-frissítés.
-- **M0 belépő-kvíz:** jelenleg **completion-jelző** (nem küszöbös). Ha éles kapu kell: item-bank + answer key + cél→item tábla.
-- **Gyártási becslések** (pl. M2.3 Branching-embernap ~13. sor; M5.3 Moodle-időzítő eszköz): a tényleges fejlesztési ráfordítás/eszköz behelyettesítése.
-
----
-
-## Dokumentált, elfogadott reziduumok (NEM hiba, tudatos megállás)
-
-- **Lecke-beágyazott kvízek hossz-cue:** a 6 KAPU-bank (éles kapuk) + a lecke-kvízek javítva (a helyes válasz már sehol nem a szigorúan leghosszabb); a **kulcsok igazoltan változatlanok**. Ahol az M3-KAPU safeguarding-itemje hosszabb, az **elkerülhetetlen** (a teljes, biztonságos válasz eleve hosszabb) — elfogadható.
-- **Peula módszer-paletta:** a mag érett és változatos; a **nagycsoportos önszervező dialógus** (fishbowl / world café / open space) **tudatosan NEM** került be (45' időkeret + önkéntes-stáb facilitációs teher). **Frissítve (2026-08-25 follow-up):** a korábban itt „opcionálisként” jelölt **fórum-színház az M3.B-ből kikerült** – a modul hivatalos és kötelező formátuma a **harmadik személyű esetelemzés**, szerepjáték nélkül (lásd `Gyermekvédelem – release gate.md`). Az M3.B opcionális „mondat-labor” mikroeleme **nem szerepjáték**: csak a madrich reakciómondatát mondják ki kívülről, és a gyermekvédelmi felelős engedélyéhez kötött.
-- **Sablon-konzisztencia (modalitás):** a #3 modalitás-pilot (M5.3 Dialog Cards, M2.3 Branching) beépült; **a Z.4 NEM Documentation Toolra épül** — a H5P Documentation Tool nem támogatja a content state savinget, ezért a Z.4 hivatalos futtatókörnyezete **Moodle Assignment** (lásd `LMS – H5P runtime acceptance.md`); a teljes terv a `[[modality-variety-plan]]` memóriában.
-- **2026-08-26 – lezárt emberi döntések (a forensic reconciliation nyitott tételei):** az **M2.A** „Élő könyvtár” opcionális variáció **nem áll vissza** – az alapaktivitásban mindenki megoszt **és** hallgat is, majd közösen reflektálnak; ezért a cél nélküli hivatkozás és a hozzá tartozó `M2.A-KART-02` print-asset **kivezetve**. Az **M3.1** 4. Tuckman-kártyájának kulcsa **Norming** (a megfigyelhető viselkedés a támogató norma megjelenése; a Performing tiszta, önálló feladatvégzést kívánna). Az **M1.3** két példamondata „közbevágott a többieknek” → „**félbeszakította a többieket**” (a dia címe és a szomszédos példák 3. személyűek; a kvíz ✅-kulcsa változatlan). Az **M5.B**-ből a „nem használjuk a »plenáris« szót” szerkesztői megjegyzés törölve – a szó az M0.A-ban, M1.A-ban és a Z.A-ban **legitim marad**. Az **M7.B** AI-blokkja rövid, használat-pontos checkpointot kapott (jóváhagyott eszköz · kiskorúak feltételei · nem-AI út), a teljes M7.2-keret megismétlése nélkül.
+| Mező | Tartalom |
+|---|---|
+| **Kérdés** | Milyen alkalmassági/vetting ellenőrzés és milyen dokumentált gyermekvédelmi felkészítés kell a programban dolgozó felnőtt képzőknek, mentoroknak és madrichoknak? |
+| **Miért szükséges** | A program kiskorúakkal dolgozik, de a repository nem nevezhet meg automatikusan egy konkrét hatósági ellenőrzést vagy dokumentumtípust minden szerepre. |
+| **Szakmai minimum** | a stáb ismeri a jóváhagyott gyermekvédelmi láncot, az összeférhetetlenségi utat, a disclosure-kezelést és a safer-working szabályt; a kiskorú madrich nem kap egyedüli felnőtt felelősséget. |
+| **Mit kell eldönteni** | szerepkörönként szükséges alkalmassági ellenőrzés; induction tartalma; nyilvántartás; megújítás/felülvizsgálat |
+| **Jóváhagyó** | szervezeti vezetés + gyermekvédelmi felelős, jogszabályi alkalmassági kérdésnél jogi szakértő |
+| **Blokkol** | valódi résztvevőkkel futó program indítása, nem a zárt Moodle-staging |
+| **Implementáció** | stáb-checklist, jóváhagyási bizonyíték és induction-nyilvántartás; a tananyag csak a jóváhagyott eljárásra hivatkozik. |
 
 ---
 
-*Vezérelv a továbblépéshez: **„kevesebb gépezet, több mozgalom”** — a meglévő nonformális
-erősségekre építeni, reális önkéntes-kapacitással, MVP-logikával (5 → 4 → 3 modul/kapu
-élesben → mérés → bővítés). A teljes audit-history: `git log`.*
+## 2. Adatvédelem
+
+### HUM-PRIV-01 — Moodle-adatkezelési mátrix
+
+| Mező | Tartalom |
+|---|---|
+| **Kérdés** | Activitynként mi a cél, jogalap, hozzáférés, megőrzés, törlés/export és harmadik fél? |
+| **Miért szükséges** | A kurzus reflexiókat, Assignmenteket, kvízeredményt és részben identitáshoz kötődő szöveget kezel. |
+| **Jogi keret** | A GDPR 8. cikk nem általános „minden kiskorú adatához szülői hozzájárulás” szabály. A jogalapot adatkezelési célonként kell meghatározni. |
+| **Javasolt alapértelmezés** | adatminimalizálás; személyes/érzékeny történet ne legyen kötelező; mentor csak azt lássa, amihez pedagógiai vagy biztonsági feladata van. A konkrét jogalap és retention nem található ki. |
+| **Jóváhagyó** | adatkezelő privacy/DPO/jogi felelőse |
+| **Blokkol** | éles learner release minden személyes adatot tároló activitynél |
+| **Implementáció a döntés után** | az activity manifest `privacy_class` soraihoz beállítás + learner-facing privacy notice + törlési folyamat. |
+
+### HUM-PRIV-02 — Fotó, videó, hang és kézírás
+
+A szervezet dönti el a felvétel célját, jogalapját, hozzáférését, tárhelyét, retentionjét és törlését, továbbá azt, hogy az **M0.A kézírásos plakát fotózásánál** a beazonosítható tartalom eltávolítása önmagában elegendő-e az adott célhoz. A tananyag alapértelmezése: **ne gyűjts felvételt, ha ugyanaz a pedagógiai cél elérhető nélküle; személyes telefon/felhő nem alapfolyamat.**  
+**Jóváhagyó:** privacy/DPO/jogi felelős. **Implementáció:** központi média-/felvételi szabály, amelyre M0/M4/M6 hivatkozik.
+
+### HUM-PRIV-03 — Z.4 visszajelzés anonimitási szintje
+
+A core Moodle Feedback `Record user names = No` beállítása **név nélkül jeleníti meg a válaszokat**, de a Moodle saját dokumentációja szerint ez nem GDPR-értelemben vett teljes anonimitás; az activity completion is felhasználói fiókhoz kötődhet.  
+**Döntés:** ez az álnévtelen/név nélküli működés megfelel-e a szervezeti célnak, vagy külön technikai anonimitás kell.  
+**Javasolt alapértelmezés:** learner-facing szövegben csak „név nélkül jelenik meg” állítás maradjon, amíg erősebb anonimitás nincs bizonyítva.  
+**Jóváhagyó:** adatvédelmi/DPO felelős + programvezető. **Implementáció:** Z.4 Moodle Feedback-beállítás és adatvédelmi tájékoztató.
+
+### HUM-PRIV-04 — Külső generatív AI tanulói használata
+
+**Döntés:** mely szolgáltató használható a madrichoknak, milyen életkori/guardian feltételekkel, milyen fiókkal és adatvédelmi beállítással.  
+**Nem alku tárgya a tananyagban:** no-AI út; nincs beazonosítható chanich-adat promptban; safeguarding-döntést nem adunk át AI-nak.  
+**Jóváhagyó:** privacy/DPO/jogi felelős + programvezető. **Implementáció:** a Moodle csak jóváhagyott szolgáltatót nevez meg; ellenkező esetben általános „jóváhagyott AI-eszköz” megfogalmazás és teljes no-AI alternatíva.
+
+---
+
+## 3. Programüzemeltetés
+
+### HUM-OPS-01 — Központi ütemezés
+
+A repository **nem talál ki naptári dátumot**. Egyetlen program-szintű ütemezésből kell származtatni minden Moodle availability/due date értéket.
+
+Kötelező döntések:
+- program kezdete és a modulhetek tényleges dátumai;
+- az offline peulák időpontjai;
+- Assignment/Quiz határidők;
+- **M7 v1 → M7.B visszajelzés/átdolgozás → v2** konkrét dátumai úgy, hogy v1 és v2 ne essen ugyanarra a napra, és a kettő között tényleges köztes visszajelzés + külön átdolgozási szakasz legyen;
+- Z sorrend: Z.1–Z.3 → Z.A → Z.4.
+
+**Jóváhagyó:** programvezető.  
+**Implementáció:** az LMS-agent egy központi schedule-táblából tölti ki a dátumokat, nem egyes fájlok `KITÖLTENDŐ` mezőiből.
+
+### HUM-OPS-02 — Támogatási kontaktok és mentori kapacitás
+
+**Döntés:** technikai support csatorna, tanulási/mentor kontakt, valamint a tényleges mentor:madrich kapacitás.  
+**Jóváhagyó:** programvezető.  
+**Blokkol:** learner-facing support szöveg véglegesítése, nem a belső staging build.  
+**Implementáció:** egy központi kurzusoldal „Segítség és kapcsolatok” blokkjából hivatkozik minden modul.
+
+### HUM-A11Y-01 — Hozzáférhetőségi jóváhagyó szerepkör
+
+A szervezet nevezze meg, ki írja alá a kapus elemek pre-flight ellenőrzését. A specifikációban addig **szerepkör**, nem kitalált személynév szerepel.  
+**Jóváhagyó:** programvezető. **Blokkol:** learner-facing release, nem a staging.
+
+### HUM-GOV-01 — Terepgyakorlat rubrika ↔ KPI megfeleltetés — LEZÁRVA
+
+**Lezárva:** 2026-09-28.
+
+A field-rubrika **0–2-es skálán marad**. Az intake `≥4/5` célját skálafüggetlen normalizált százalékként riportoljuk:
+
+`normalizált eredmény = (rubrikaátlag / 2) × 100`
+
+Így **4/5 = 80% = 1,6/2**. A kanonikus field-KPI tehát **≥80%**, illetve az aktuális 0–2-es rubrikán **átlag ≥1,6/2**. A döntés nem módosítja a rubrika szintleírásait, és nem kényszeríti egységes skálára az M1–M7 modulrubrikákat.
+
+**Implementáció:** `Terepgyakorlat – 2. félév.md` ezt az egyetlen képletet használja a KPI-riporthoz.
+
+---
+
+## 4. Mozgalmi tartalom
+
+### HUM-SOMER-01 — Izrael/cionizmus és béke/palesztin dimenzió helyi megfogalmazása
+
+A repository nem alkot mozgalmi állásfoglalást. A helyi Somer/ken erősítse meg az M2-ben használt pontos megfogalmazást.  
+**Jóváhagyó:** helyi mozgalmi/ideológiai felelős. **Blokkol:** az érintett M2-rész learner-facing véglegesítése.
+
+### HUM-SOMER-02 — Kvuca-korosztályok — LEZÁRVA
+
+**Lezárva:** 2026-09-28.  
+**Kanonikus 2025/26-os felosztás:** **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.  
+**Forrás:** a kapcsolt „Oktatási terv 25/26 Hasomer Hacair” dokumentum, amely kifejezetten ezt a három korcsoportot nevezi meg. A korábbi `Zorea 16+` külön csoport a repo történeti maradványa, az aktuális learner-facing tananyagból kivezetendő.
+
+**Implementáció:** a glosszárium, M3 korosztálymodul, az ezekre épülő M6/M7 hivatkozások és a kapcsolódó média-specifikációk ezt a háromcsoportos modellt használják.
+
+### HUM-SOMER-03 — Hagshama helyi megfogalmazása
+
+A pontos helyi jelentés és tananyagbeli megfogalmazás mozgalmi döntés. **Jóváhagyó:** mozgalmi/ideológiai felelős.
+
+---
+
+## 5. Média és szolgáltatók
+
+A részletes gyártási alternatívák a `Média-assetek/PRODUCTION-DECISIONS.md` fájlban vannak. Ez a döntési csomag csak azokat a pontokat tartja nyilván, amelyek emberi jóváhagyás nélkül nem zárhatók.
+
+### HUM-MEDIA-01 — Vizuális rendszer
+A márka/stílus végleges választása a `PRODUCTION-DECISIONS.md` **D1** döntése. **Jóváhagyó:** projekt kreatív/márkafelelős.
+
+### HUM-MEDIA-02 — Hangjogosultság és ElevenLabs-hang létrehozása
+A két forrásbeszélő hangjához dokumentált jogosultság kell. A konkrét klónozási módot csak az aktuális ElevenLabs-feltételek szerint szabad választani. **Professional Voice Clone esetén a szolgáltató jelenlegi szabálya szerint a beszélő a saját hangját maga hozza létre és hitelesíti, majd privát módon oszthatja meg; más személy PVC-jét a projektfiók nem hozhatja létre helyette.**  
+**Jóváhagyó:** jogi/privacy felelős + a hang tulajdonosa. **Implementáció:** a `VOICE-BIBLE.md` csak a ténylegesen létrehozott, jogosult voice ID-t kapja meg.
+
+### HUM-MEDIA-03 — HeyGen/avatar és média-jogok
+A választott HeyGen-folyamathoz szükséges személy-, hang-, képmás- és szolgáltatói jogosultságokat a `RIGHTS-EVIDENCE.md` szerint kell lezárni. **Jóváhagyó:** jogi/privacy felelős + érintett jogosult(ak).
+
+---
+
+## 6. Nem emberi döntés, ezért nem marad itt nyitott kapuként
+
+- M0 belépő-kvíz: a jelenlegi kánon szerint diagnosztikus completion-jelző, nem éles kapu.
+- H5P szabad szöveg: technikai megvalósítási/acceptance-kérdés, nem szervezeti döntés.
+- Moodle activity-ID-k: build-kimenetek; a staging build után automatikusan rögzítendők.
+- Moodle/H5P verziók: célkörnyezetből kiolvasható tények.
+- Gyártási becslések: projekttervezési adat, nem learner-facing release-kapu.
+- Fájlnév-stílusok: szerkesztői karbantartás, nem release-gate.
+
+---
+
+## 7. Dokumentált, elfogadott reziduumok
+
+- A súlyos M3-es eseteket harmadik személyű esetelemzéssel dolgozzuk fel; traumatikus szerepjáték nincs.
+- A Z.4 hivatalos reflektív produktuma **Moodle Assignment**.
+- Az M0-kvíz completion-alapú diagnosztikus jelző.
+- Az M7 kétlépcsős produktumfolyam invariánsa: **v1 → köztes visszajelzés/átdolgozás → v2**.
+- A pedagógiai alapelv: **kevesebb gépezet, több mozgalom**.
