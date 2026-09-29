@@ -64,10 +64,10 @@ A modul végére a madrich…
 
 * **Cél:** a résztvevő belép a képzés világába, **egyben látja az éves ívet**, és megfogalmazza, mit remél ettől az évtől madrichként.
 * **Fő tartalom röviden:**
-  * M0–M7 + Z timeline (modulcímek 1 mondattal);
+  * M0–M7 + Z idővonal (modulcímek 1 mondattal);
   * mit ígér a program (nem vagy egyedül, támogatás, kapuk, fejlődés);
   * első reflektív kérdés: „Mit várok ettől az évtől madrichként?”
-* **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (timeline + mini-kérdések, 1 nyitott kérdés).
+* **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (idővonal + mini-kérdések, 1 nyitott kérdés).
 
 ### L2 / M0.2 – Madrich, nem terapeuta – szerepek és elvárások (15–20’)
 
