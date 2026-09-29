@@ -593,7 +593,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M4.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Exit-ticket kártya / post-it sablon (2 kérdés) | — | nyomtatható PDF | emberi |
+| `M4.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Kilépőkártya / öntapadós jegyzet sablon (2 kérdés) | — | nyomtatható PDF | emberi |
 | `M4.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Gyors peulabemutató-vázlat mini-sablon (B-terv munkalap) | — | nyomtatható PDF | emberi |
 | `M4.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Képzői checklist (1 A4) | — | nyomtatható PDF | emberi |
 | `M4.B-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Kérdéstípusok flipchart-/poszter-sablon (4 típus) | — | nyomtatható PDF | vegyes |
@@ -829,7 +829,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7-HUB-DIA-01` | diagram | legyártandó | produkciós szabályra vár | Modul-fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2 | — | alt-szöveg | AI-generált |
 | `M7-HUB-DIA-02` | diagram | legyártandó | produkciós szabályra vár | Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu | — | alt-szöveg | AI-generált |
 | `M7-HUB-DIA-03` | diagram | legyártandó | produkciós szabályra vár | Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2 | — | alt-szöveg | AI-generált |
-| `M7-HUB-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | 1 perces exit-ticket munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés) | — | nyomtatható PDF | vegyes |
+| `M7-HUB-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | 1 perces kilépőkártya-munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés) | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md
 
