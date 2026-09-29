@@ -38,7 +38,7 @@ Ez azt jelenti, hogy az R5 hex-palettája **soha nem létezett a repositoryban**
 > **Ettől az R5 NEM zárul le.** Egy megtalált first-party dokumentum bizonyíték, nem
 > szervezeti jóváhagyás: a kézikönyv verzió- és dátumbélyeg nélküli, szerkeszthető Google
 > Doc, a `somer.hu` élő oldala pedig még egy **korábbi, eltérő színgenerációt** szállít.
-> Amíg a jóváhagyó nem mondja ki, melyik a hatályos, a 257 asset R5-blokkolója marad.
+> Amíg a jóváhagyó nem mondja ki, melyik a hatályos, mind a 258 érintett szemantikus asset R5-blokkolója marad.
 
 ## 2. Ami viszont KÖTELEZŐEN megvan
 
@@ -114,8 +114,8 @@ A leckék technikai jegyzeteiből, tételenként:
   provenance-jelölést ad (C2PA / Content Credentials / vízjel), az export **ne távolítsa
   el**.
 - **R5 — egyszer gyártás, újrahasznosítás:** a visszatérő ikon-készletek (SBI 3-szín,
-  4-kvuca piktogramok, M6.4 9 szekció-ikon) **egyszer** készülnek közös stílus-tokennel,
-  és több helyen újra felhasználódnak. A manifeszt ezt már kikényszeríti: 7 asset
+  3-kvuca piktogramok, M6.4 9 szekció-ikon) **egyszer** készülnek közös stílus-tokennel,
+  és több helyen újra felhasználódnak. A manifeszt ezt már kikényszeríti: 8 asset
   `mode: reuse`, saját deliverable nélkül.
 - **AI karakter-jelenetek:** rögzített referencia-karakterrel és seeddel készülnek
   (`M1.1-VID-02`, `M1.3-VID-01`, `M4.1-VID-03/04/05`), a freeze-frame-ek
@@ -159,11 +159,11 @@ elég a fekete-fehér nyomtatás — ez erős jel arra, hogy a nyomtatott anyagc
 | Karakter-stílus és rögzített referencia-seed | ⛔ nincs bizonyíték | 6 AI karakter-videó + 2 freeze-frame |
 | Logóhasználat, elhelyezés, biztonsági margó | 🔎 **részben** — a használati tiltások (nem átszínezni, nem újrarajzolni, nem nyújtani, nem forgatni, effekt és árnyék nélkül) kimondottak; **biztonsági margó és minimális méret viszont sehol nincs** | poszterek, nyomtatványok |
 | Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ⛔ döntés kell — de a kontraszt-mérés leszűkítette: a paletta 15 színpárja közül **egy sem** éri el a 3:1-et, tehát a szín önmagában semmit nem választ el | SBI, 3 pillér, kérdéstípusok, Do/Don't |
-| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | 🔎 **részben** — hogy **LMS-szöveg, nem képbe égetve**, azt a tananyag maga kimondja (`M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás javaslat | 280 AI-eredetű asset |
+| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | 🔎 **részben** — hogy **LMS-szöveg, nem képbe égetve**, azt a tananyag maga kimondja (`M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás javaslat | **331 R1-hatályú asset** (274 `ai` + 57 `mixed`) |
 
 **Amit ez a lap kifejezetten NEM tesz:** nem talál ki hex-értéket, nem nevez meg
 betűtípust és nem rögzít logóhasználatot. Ezek szervezeti-arculati döntések; egy kitalált
-érték 257 asseten válna szabállyá, mielőtt bárki jóváhagyta volna. A 🔎 sorok sem
+érték 258 érintett szemantikus asseten válna szabállyá, mielőtt bárki jóváhagyta volna. A 🔎 sorok sem
 jóváhagyottak — **megtalált bizonyítékok**, amelyekre a jóváhagyónak igent kell mondania.
 
 ## 5. Javasolt zárási sorrend
