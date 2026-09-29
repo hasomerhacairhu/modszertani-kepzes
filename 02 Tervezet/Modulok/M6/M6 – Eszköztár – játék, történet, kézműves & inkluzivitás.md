@@ -260,6 +260,6 @@ Az M6 akkor **complete**, ha mindhárom teljesül:
 
 [M6.B – Peula: „Játéklap-műhely – saját eszköz tervezése” (45’)](./Peulák/M6.B%20–%20Peula%20–%20Játéklap-műhely%20–%20saját%20eszköz%20tervezése%20%2845’%29.md)
 
-[M6.F – Felzárkóztató peula – Eszköztár & játéklap](./Peulák/M6.F%20–%20Felzárkóztató%20peula%20–%20Toolbox%20&%20játéklap%20%28Study%20Lab%29.md)
+[M6.F – Felzárkóztató peula – Eszköztár & játéklap](./Peulák/M6.F%20–%20Felzárkóztató%20peula%20–%20Eszköztár%20&%20játéklap%20%28Study%20Lab%29.md)
 
 **[M6 – KAPU – értékelő (item-bank + rubrika)](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul **éles teljesítési kapuja**: a szcenárió-kvíz item-bankja és a játéklap megfigyelhető rubrikája.
