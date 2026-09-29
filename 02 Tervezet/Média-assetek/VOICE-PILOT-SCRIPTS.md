@@ -280,7 +280,7 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
 > A terminológiai kapu miatt (`madrich`/`madrih`, `chanich`/`hánih` — glosszárium,
 > 2026-08-25) a P2 és P3 hangmintáját **a terminológiai jóváhagyóval együtt** érdemes
 > meghallgatni. Ha a house style később változik, ezek a szavak érintettek — a
-> pilot-felvételen ez olcsón látszik, 91 kész fájlon nem.
+> pilot-felvételen ez olcsón látszik, a teljes érintett hangkorpuszon nem.
 >
 > **Korosztály-architektúra frissítve 2026-09-28:** a 2025/26-os oktatási terv szerinti
 > három aktuális csoport a kánon: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
