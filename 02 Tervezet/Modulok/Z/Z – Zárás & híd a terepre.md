@@ -170,7 +170,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 ### Kaputípus
 
-* **Puha / completion gate** – a Z modul **nem vizsga**, cél, hogy mindenkinek legyen valamilyen záró reflexiója.
+* **Puha, teljesítettség-alapú kapu** – a Z modul **nem vizsga**, cél, hogy mindenkinek legyen valamilyen záró reflexiója.
 
 ### Eszközök
 
