@@ -580,7 +580,7 @@ arc · a szöveg beleégetve a generált rétegbe.
 
 | | |
 |---|---|
-| **Cím** | Képzői checklist – „Játék-labor 4 kvucára” (1 oldalas cheat-sheet) |
+| **Cím** | Képzői checklist – „Játék-labor 3 aktuális kvucára” (1 oldalas cheat-sheet) |
 | **Státusz · kapuk** | `produkciós szabályra vár` · **R5** |
 | **Formátum** | **A4 álló, pontosan 1 oldal**, pipálható checklist |
 | **Deriváltak** | `::PRINTPDF` |
@@ -602,7 +602,7 @@ játéklaphoz.
 | **Tipográfia** | cím 17–20 pt félkövér; szekciócím 11–13 pt; törzs 10,5 pt / 1,38; jegyzet 8,5 pt; élőláb 7 pt |
 | **Jelölőnégyzet** | 4 × 4 mm, 1 pt `#1D1D1B` keret, 0,7 mm sarok |
 | **Kézírásos mező** | sorköz ≥ 8 mm, alávonás `--rule` 0,6 pt |
-| **Élőláb** | `M6.A-MUNK-02 · v… · Játék-labor 4 kvucára` balra, oldalszám jobbra |
+| **Élőláb** | `M6.A-MUNK-02 · v… · Játék-labor 3 aktuális kvucára` balra, oldalszám jobbra |
 | **Szín** | nem szükséges. A lap **fekete-fehérben teljes értékű** |
 | **Determinizmus** | a build rögzített időbélyeggel fut, hogy két futtatás azonos PDF-et adjon |
 
@@ -698,7 +698,7 @@ pilot nem méri.
 
 | | |
 |---|---|
-| **Előlap** | 1–3 mondatos szituáció-leírás; a szó szerinti szöveg a lecke **6. mellékletében, az 540. sortól** („## 6. Melléklet – 12 helyzetkártya – szövegek”; a tizenkét kártya kb. az 542–661. sorban). **Megjegyzés:** az asset `spec` mezője még a régi `402-518` tartományt írja — ez elavult hivatkozás a manifesztben, külön, tudatos adatjavítást igényel, és ez a lap nem végzi el. |
+| **Előlap** | 1–3 mondatos szituáció-leírás; a szó szerinti szöveg kánoni helye a lecke **„## 6. Melléklet – 12 helyzetkártya – szövegek”** szakasza. Az asset `spec` ugyanerre a stabil szakaszcímre hivatkozik. |
 | **Hátlap** | képzői címke `[SULI]` / `[SOMER]` / `[RANDOM]` a fogalommal (formális / nonformális / informális) |
 | **Kiosztás** | 4 kártya / A4, szaggatott vágóvonal `--rule` színnel |
 | **Duplex** | a hátoldal **oszlopsorrendje tükrözött**, hogy a hosszú élű duplex illeszkedjen |
@@ -710,7 +710,7 @@ pilot nem méri.
 
 ### Elfogadási feltétel
 
-- [ ] mind a 12 kártya szövege szó szerint a 6. mellékletből (540. sortól);
+- [ ] mind a 12 kártya szövege szó szerint a **„## 6. Melléklet – 12 helyzetkártya – szövegek”** szakaszból;
 - [ ] kétoldalas nyomtatás után az előlap és a hátlap **ugyanazon a kártyán** van;
 - [ ] a vágóvonal mentén levágva a szöveg nem sérül (≥ 3 mm belső biztonsági margó);
 - [ ] a hátlapcímke szín nélkül is megkülönböztethető;
