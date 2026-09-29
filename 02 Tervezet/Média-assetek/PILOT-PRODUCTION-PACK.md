@@ -636,7 +636,7 @@ raszterizált szöveg · szín nélkül értelmezhetetlen elem.
 ### Miért ez a pilot
 
 A terv választása, és megáll: ez méri a **nagy formátumú, teremből olvasható**
-tipográfiát, ami a **37 gyártandó poszter** (39 összesen) közös kényszere.
+tipográfiát, ami a **37 gyártandó poszter** (38 összesen; 1 `reuse`) közös kényszere.
 
 **Amit viszont NEM mér:** az AI-címke elhelyezését (mert `human` eredetű), a kétoldalas
 nyomtatást és a vágóívet. Ezért van külön kártyaszett-pilot (P-KRT), és ezért az AI-címke
