@@ -567,15 +567,15 @@ def selftest() -> int:
             failures += 1
         print(f'{"ok  " if ok else "HIBA"} {label}: várt={"PASS" if should_pass else "FAIL"} kapott={"FAIL" if got else "PASS"}')
     decision_fixture = (
-        '### HUM-X-01 — nyitott\\n'
-        '### HUM-X-02 — lezárt — LEZÁRVA\\n'
+        '### HUM-X-01 — nyitott\n'
+        '### HUM-X-02 — lezárt — LEZÁRVA\n'
     )
     decision_ok = open_human_decision_ids(decision_fixture) == ['HUM-X-01']
     if not decision_ok:
         failures += 1
     print(f'{"ok  " if decision_ok else "HIBA"} release-parser — HUM döntés státusz')
 
-    checklist_fixture = '- [ ] nyitott\\n- [x] kész\\n'
+    checklist_fixture = '- [ ] nyitott\n- [x] kész\n'
     checklist_ok = unchecked_items(checklist_fixture) == ['nyitott']
     if not checklist_ok:
         failures += 1
