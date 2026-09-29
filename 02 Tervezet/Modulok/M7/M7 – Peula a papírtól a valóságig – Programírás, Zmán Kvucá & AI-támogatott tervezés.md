@@ -85,9 +85,9 @@
   "id": "M7-HUB-MUNK-01",
   "kind": "worksheet",
   "mode": "generate",
-  "title": "1 perces exit-ticket munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés)",
+  "title": "1 perces kilépőkártya-munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés)",
   "purpose": "Gyors offline visszajelzés-gyűjtés a három peula után a learning analyticshez; méri a Peula v2-hez közeledést és feltárja a maradék bizonytalanságokat (Zmán Kvucá / AI).",
-  "spec": "Egylapos, 1 perc alatt kitölthető exit-ticket sablon két kérdéssel: (1) 1–5 skála „Mennyire érzed, hogy most közelebb kerültél egy valódi Peula v2-höz?\"; (2) nyitott kérdés „Mi az, ami még bizonytalan benned a Zmán Kvucával / AI-használattal kapcsolatban?\". Helyhagyás a peula azonosítására (M7.A / M7.B / M7.F). Készüljön egy QR-kódos digitális kitöltési variáns is (line 272).",
+  "spec": "Egylapos, 1 perc alatt kitölthető kilépőkártya-sablon két kérdéssel: (1) 1–5 skála „Mennyire érzed, hogy most közelebb kerültél egy valódi Peula v2-höz?\"; (2) nyitott kérdés „Mi az, ami még bizonytalan benned a Zmán Kvucával / AI-használattal kapcsolatban?\". Helyhagyás a peula azonosítására (M7.A / M7.B / M7.F). Készüljön egy QR-kódos digitális kitöltési variáns is (line 272).",
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
