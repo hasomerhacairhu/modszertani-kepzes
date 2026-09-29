@@ -13,8 +13,8 @@ jobs:
   content-integrity:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Checker selftest
@@ -31,10 +31,10 @@ jobs:
       # Full history: the content-invariant test compares the current curriculum
       # against the commit the asset migration started from. A shallow clone
       # would silently skip that test instead of running it.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Install workbook dependency
