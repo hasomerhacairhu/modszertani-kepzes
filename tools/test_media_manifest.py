@@ -174,6 +174,46 @@ AUDIT_2026_09_26_VISIBLE_EDITS = {
     "02 Tervezet/Terepgyakorlat – 2. félév.md",
 }
 
+
+# 2026-09-29 final cleanup — intentional terminology-only visible edit.
+FINAL_CLEANUP_2026_09_29_VISIBLE_EDITS = {
+    "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md",
+}
+
+# Approved filename migrations in the 2026-09-29 cleanup. The content-invariant
+# guard still compares each current file to its historical baseline content; this
+# map only tells git which pre-rename path carried that baseline.
+FINAL_CLEANUP_2026_09_29_RENAMES = {
+    "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md":
+        "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a gate.md",
+    "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md":
+        "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés – Johari + SBI.md",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md":
+        "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
+    "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md":
+        "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md",
+    "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md":
+        "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md",
+    "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md":
+        "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md",
+    "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md":
+        "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, visszahívás, spacing.md",
+    "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md":
+        "02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md",
+    "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md":
+        "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md",
+    "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md":
+        "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md",
+    "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md":
+        "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md",
+    "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md":
+        "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md",
+    "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md":
+        "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md",
+    "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md":
+        "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md",
+}
+
 LESSON_DIR = "02 Tervezet/Modulok/M9/Online leckék"
 LESSON = f"{LESSON_DIR}/M9.1 – Teszt lecke.md"
 
@@ -1177,8 +1217,9 @@ class TestContentInvariant(unittest.TestCase):
         touched = 0
         for path in mm.discover_sources():
             rel = path.relative_to(mm.ROOT).as_posix()
+            baseline_rel = FINAL_CLEANUP_2026_09_29_RENAMES.get(rel, rel)
             blob = subprocess.run(["git", "-C", str(mm.ROOT), "show",
-                                   f"{BASELINE_COMMIT}:{rel}"], capture_output=True)
+                                   f"{BASELINE_COMMIT}:{baseline_rel}"], capture_output=True)
             if blob.returncode != 0:
                 unapproved.append(f"{rel}: nincs a kiindulási commitban")
                 continue
@@ -1187,7 +1228,9 @@ class TestContentInvariant(unittest.TestCase):
             if current != baseline:
                 touched += 1
             visible_changed = mig.strip_metadata(current) != baseline
-            approved_visible = set(APPROVED_VISIBLE_EDITS) | AUDIT_2026_09_26_VISIBLE_EDITS
+            approved_visible = (set(APPROVED_VISIBLE_EDITS)
+                                | AUDIT_2026_09_26_VISIBLE_EDITS
+                                | FINAL_CLEANUP_2026_09_29_VISIBLE_EDITS)
             if visible_changed and rel not in approved_visible:
                 unapproved.append(rel)
             if not visible_changed and rel in approved_visible:
@@ -1665,6 +1708,19 @@ class TestApprovedDecisions(unittest.TestCase):
         rendered = mig.strip_metadata(lesson.read_text(encoding="utf-8"))
         self.assertNotIn("Nagyjából a fenti mondatok", rendered)
 
+    # --- D5: one canonical M3 safeguarding map, reused by the hub ------------
+
+    def test_m3_hub_safeguarding_map_reuses_the_canonical_five_step_asset(self):
+        hub = self.by_id["M3-HUB-POSZ-01"]
+        self.assertEqual("reuse", hub["mode"])
+        self.assertEqual("M3.B-MUNK-01", hub["reuse_of"])
+        self.assertEqual("M3.B-MUNK-01", hub["reuse_resolves_to"])
+        self.assertEqual([], hub["deliverable_ids"],
+                         "a hub reuse nem gyárthat külön 903. deliverable-t")
+        deliverables = {d["id"] for d in self.model["deliverables"]}
+        self.assertIn("M3.B-MUNK-01", deliverables)
+        self.assertNotIn("M3-HUB-POSZ-01", deliverables)
+
     # --- D7: the optional M3.2 narration is not produced ----------------------
 
     def test_m32_optional_narration_is_no_longer_a_current_asset(self):
@@ -1687,7 +1743,7 @@ class TestApprovedDecisions(unittest.TestCase):
 
     def test_the_m32_slide_keeps_its_visible_content(self):
         lesson = (mm.ACTIVE_ROOT / "Modulok/M3/Online leckék"
-                  / "M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md")
+                  / "M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md")
         text = lesson.read_text(encoding="utf-8")
         for kept in ("Miért fontos, hogy máshogy nézz rá a kvucákra?",
                      "előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen",
