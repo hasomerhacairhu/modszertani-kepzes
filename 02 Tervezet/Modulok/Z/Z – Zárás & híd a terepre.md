@@ -64,11 +64,11 @@ A modul végére a résztvevő…
 
 ## 3. Online mikroleckék (Z.1–Z.3) + záró produktum (Z.4)
 
-### Z.1 – „Visszanéző tükör” – M0–M7 timeline (10–15’)
+### Z.1 – „Visszanéző tükör” – M0–M7 idővonal (10–15’)
 
 * **Cél:** rátekinteni az egész félévre **egyben**.
-* **Eszközök:** Moodle Page (vizuális timeline), H5P Presentation / Interactive Book + 3–5 könnyű emlékeztető kérdés.
-* **Kulcs:** modul-timeline, modulonként 1 mondat; végén nyitott kérdés: „Írj le 1 dolgot, amit semmiképp nem szeretnél elfelejteni ebből a félévből.”
+* **Eszközök:** Moodle Page (vizuális idővonal), H5P Presentation / Interactive Book + 3–5 könnyű emlékeztető kérdés.
+* **Kulcs:** modul-idővonal, modulonként 1 mondat; végén nyitott kérdés: „Írj le 1 dolgot, amit semmiképp nem szeretnél elfelejteni ebből a félévből.”
 
 ***
 
@@ -210,7 +210,7 @@ A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 on
 
 
 
-[Z.1 – „Visszanéző tükör” – M0–M7 timeline](./Online%20leckék/Z.1%20–%20Visszanéző%20tükör%20–%20M0–M7%20timeline.md)
+[Z.1 – „Visszanéző tükör” – M0–M7 idővonal](./Online%20leckék/Z.1%20–%20Visszanéző%20tükör%20–%20M0–M7%20idővonal.md)
 
 [Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim](./Online%20leckék/Z.2%20–%20Tanultam%20valamit!%20–%20saját%20tanulási%20pillanataim.md)
 
