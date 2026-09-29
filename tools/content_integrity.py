@@ -401,7 +401,112 @@ def check_regressions(errors: list[str]) -> None:
                 errors.append(f'REGRESSION {rel}:{lineno} H5P Documentation Tool resume-ígéret')
 
 
-HUMAN_DECISION_HEADING = re.compile(r'^###\\s+(HUM-[A-Z0-9-]+)\\b(.*)
+HUMAN_DECISION_HEADING = re.compile(r'^###\s+(HUM-[A-Z0-9-]+)\b(.*)$')
+UNCHECKED_BOX = re.compile(r'^\s*-\s*\[\s\]\s*(.+)$')
+MODULE_PLACEHOLDER = re.compile(r'⟬KITÖLTENDŐ(?:[:][^⟭]*)?⟭')
+
+
+def open_human_decision_ids(text: str) -> list[str]:
+    """Return canonical HUM-* decisions whose heading is not explicitly closed."""
+    open_ids: list[str] = []
+    for line in text.splitlines():
+        match = HUMAN_DECISION_HEADING.match(line)
+        if match and 'LEZÁRVA' not in match.group(2):
+            open_ids.append(match.group(1))
+    return open_ids
+
+
+def unchecked_items(text: str) -> list[str]:
+    """Return the text of unchecked Markdown checklist items."""
+    return [m.group(1).strip() for line in text.splitlines()
+            if (m := UNCHECKED_BOX.match(line))]
+
+
+def release_blockers() -> list[str]:
+    """Report canonical unresolved release state without double-counting prose.
+
+    Human decisions live in one source-of-truth document. Generated media
+    registers and explanatory mentions of the word KITÖLTENDŐ are deliberately
+    not counted as separate blockers.
+    """
+    blockers: list[str] = []
+
+    # Learner-facing/module source may never carry a real unresolved placeholder.
+    module_placeholders: list[str] = []
+    for path in MODULE_ROOT.rglob('*.md'):
+        for lineno, line in enumerate(
+                path.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
+            if MODULE_PLACEHOLDER.search(line):
+                module_placeholders.append(f'{path.relative_to(ROOT)}:{lineno}')
+    if module_placeholders:
+        blockers.append(
+            f'MODULE-PLACEHOLDERS {len(module_placeholders)} open: '
+            + ', '.join(module_placeholders)
+        )
+
+    # Canonical organisational decisions. A decision is closed only when its
+    # HUM-* heading itself says LEZÁRVA; prose mentioning KITÖLTENDŐ is irrelevant.
+    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
+    if human_file.exists():
+        human_open = open_human_decision_ids(
+            human_file.read_text(encoding='utf-8', errors='replace'))
+        if human_open:
+            blockers.append(
+                f'HUMAN-DECISIONS {len(human_open)} open: ' + ', '.join(human_open)
+            )
+
+    # Canonical media production rules carry their unresolved machine values in
+    # JSON. This is a production-layer view of the human decisions, not a scan of
+    # the generated register.
+    rules_file = MEDIA_ROOT / 'produkcios-szabalyok.json'
+    if rules_file.exists():
+        payload = json.loads(rules_file.read_text(encoding='utf-8'))
+        open_rules = [
+            rule['id'] for rule in payload.get('rules', [])
+            if '⟬KITÖLTENDŐ⟭' in rule.get('text', '')
+        ]
+        if open_rules:
+            blockers.append(
+                f'PRODUCTION-RULES {len(open_rules)} open: ' + ', '.join(open_rules)
+            )
+
+    # Concrete LMS build/runtime outputs are implementation facts, not human
+    # decisions. They stay blocking until the staging system writes real values.
+    runtime_file = ACTIVE_ROOT / 'LMS – H5P runtime acceptance.md'
+    if runtime_file.exists():
+        runtime_count = runtime_file.read_text(
+            encoding='utf-8', errors='replace').count('RUNTIME_OUTPUT')
+        if runtime_count:
+            blockers.append(
+                f'RUNTIME-ACCEPTANCE {runtime_count} unresolved RUNTIME_OUTPUT values'
+            )
+
+    manifest_file = ACTIVE_ROOT / 'LMS – activity manifest.md'
+    if manifest_file.exists():
+        build_count = manifest_file.read_text(
+            encoding='utf-8', errors='replace').count('BUILD_OUTPUT')
+        if build_count:
+            blockers.append(
+                f'LMS-BUILD {build_count} unresolved BUILD_OUTPUT values'
+            )
+
+    # Release/sign-off checklists are separate evidence layers. Report each once,
+    # rather than turning every explanatory placeholder mention into a blocker.
+    checklist_files = (
+        ('SAFEGUARDING-CHECKLIST', ACTIVE_ROOT / 'Gyermekvédelem – release gate.md'),
+        ('PRIVACY-CHECKLIST', ACTIVE_ROOT / 'Adatvédelem – tanulói adatok és AI.md'),
+        ('A11Y-CHECKLIST', ACTIVE_ROOT / 'LMS – hozzáférhetőségi sztenderd.md'),
+        ('PROGRAM-TRANSFER', ACTIVE_ROOT / 'RELEASE-READINESS.md'),
+    )
+    for label, path in checklist_files:
+        if not path.exists():
+            continue
+        items = unchecked_items(path.read_text(encoding='utf-8', errors='replace'))
+        if items:
+            blockers.append(f'{label} {len(items)} open checklist items')
+
+    return blockers
+
 
 # Regression cases for the rule matcher itself. Kept next to the rules so a rule
 # change and its expectation move together; run with ``--selftest``.
