@@ -28,7 +28,7 @@
 
 **Kétlépcsős félévzáró feladat (időben szétterítve):** a produktum **két menetben** érik be:
 * **v1 – elsővázlat-ellenőrzési pont (M7 hét 1 vége, M7.A után):** az M7.4 Assignment – **alacsony tét, rubrika-előnézet, újrapróbálható, NEM buktat**. Ez a kapu **bemenete**. (Határidő: a Moodle-ben előre beállított és kommunikált v1-határidő)
-* **~1 hét köztes fejlesztési idő:** csiszolás az **M7.B peula-klinikán + otthon** (nem aznapi v1→v2).
+* **~1 hét köztes fejlesztési idő:** csiszolás az **M7.B peula-műhelyen + otthon** (nem aznapi v1→v2).
   * 🔒 **Időbeli elosztási és visszajelzési invariáns:** a v1 és v2 **nem lehet ugyanazon a napon**. A v1 leadása után következik az M7.B köztes műhely és visszajelzés, majd külön revíziós munka, és csak ezután adható le v2. A program alapritmusában ez nagyjából egyhetes köz, de **nem állítunk tudományosan indokolatlan univerzális minimum-napszámot**; azt védjük, hogy valódi időbeli elosztás + visszajelzés → revízió történjen. A konkrét Moodle-dátumokat ehhez igazítva kell beállítani.
 * **v2 – teljesítési kapu (M7 hét 2 vége, M7.B után):** az **itt értékelt**, véglegesített Peula v2 + Zmán Kvucá leadása. (Határidő: a Moodle-ben előre beállított és kommunikált v2-határidő)
 
