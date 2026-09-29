@@ -73,6 +73,22 @@ FORBIDDEN_ANYWHERE = {
         'hibás tárgyrag: idővonalat',
     'visszajelzés-tapasztalat':
         'természetellenes főnévtorlódás: visszajelzéssel kapcsolatos tapasztalat',
+    'lektor: [ ]':
+        'forrásszintű szakmai-lektor placeholder: a jóváhagyás a release-jegyzőkönyvbe tartozik',
+    'dátum: [ ]':
+        'forrásszintű jóváhagyási dátum-placeholder: a release-jegyzőkönyvbe tartozik',
+    'verzió: [ ]':
+        'forrásszintű jóváhagyási verzió-placeholder: a release-jegyzőkönyvbe tartozik',
+    'a **aktív':
+        'hibás névelő: az aktív',
+    'a *aktív':
+        'hibás névelő: az aktív',
+    'a „aktív':
+        'hibás névelő: az aktív',
+    'a **időben':
+        'hibás névelő: az időben',
+    'a „időben':
+        'hibás névelő: az időben',
 }
 
 # File-scoped regressions found by the 2026-09 release-readiness follow-up.
