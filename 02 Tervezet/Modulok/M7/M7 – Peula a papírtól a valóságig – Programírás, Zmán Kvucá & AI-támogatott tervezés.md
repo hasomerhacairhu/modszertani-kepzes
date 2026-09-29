@@ -264,7 +264,7 @@ A modul végére a madrich…
 * **Rövid váz:**
   * Ráhangolódás: „Mitől jó egy Zmán Kvucá chanich-szemmel?”
   * Játék: SMART vs. wishful thinking célok – sarokválasztás, rövid megbeszélés.
-  * Mini-workshop: 1 ötlet → SMART cél + 3–4 kijelölt peula-pont (Peula 11-ből).
+  * Mini-műhely: 1 ötlet → SMART cél + 3–4 kijelölt peula-pont (Peula 11-ből).
   * Megosztás és társas visszajelzés: kvuca-meta, SMART cél, 2 kidolgozott pont rövid bemutatása.
   * Zárókör: „Peula-tervezésnél legközelebb mire fogsz leginkább figyelni?”
 
