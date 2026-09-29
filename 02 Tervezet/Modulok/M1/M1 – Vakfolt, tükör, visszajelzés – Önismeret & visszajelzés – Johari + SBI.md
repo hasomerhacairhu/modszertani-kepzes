@@ -59,7 +59,7 @@ A modul végére a résztvevő…
     "note": "Fizikai print; jól olvasható betűméret."
   },
   "reuse_of": "M1.A-MUNK-01",
-  "notes": "Újrahasznosítás indoklása (v1 dedup): Az áttekintő 'kártyaszett'-ként, a részletes 'munkalap vagy kártyák'-ként hivatkozik rá – a részletes spec maga megengedi a kártyás kivitelt. Ugyanaz a tartalom. A forrás a kártyát opcióként adja meg ('oldalválasztás / kártyák'); tartalmilag az M1.2 online-lecke mondatbankjával rokon. Részletek a M1.A peula-fájlban.",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): Az áttekintő 'kártyaszett'-ként, a részletes 'munkalap vagy kártyák'-ként hivatkozik rá – a részletes spec maga megengedi a kártyás kivitelt. Ugyanaz a tartalom. A forrás a kártyát opcióként adja meg ('oldalválasztás / kártyák'); tartalmilag az M1.2 online-lecke mondatbankjával rokon. Részletek az M1.A peula-fájlban.",
   "legacy": {
     "asset": [
       "M1.A-KART-01"
@@ -194,7 +194,7 @@ A modul végére a résztvevő…
   "blockers": [
     "R5"
   ],
-  "notes": "Részletek a M1.F peula-fájlban.",
+  "notes": "Részletek az M1.F peula-fájlban.",
   "legacy": {
     "asset": [
       "M1.F-POSZ-02"

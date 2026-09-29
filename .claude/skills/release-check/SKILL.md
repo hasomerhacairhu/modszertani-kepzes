@@ -1,12 +1,17 @@
 ---
 name: release-check
-description: Objektív, gépi release-ellenőrzés a tananyagon — content_integrity.py, whitespace, relatív linkek, placeholderek, answer-key és küszöbváltozások a diffen, szemantikus azonosítók, saját diff visszaolvasása. Nem módosít semmit, de ellenőrző parancsokat futtat (Bash). Futtasd tartalmi módosítás után és release előtt.
+description: Objektív, gépi release-ellenőrzés a tananyagon — content_integrity, media-manifest validáció és regressziós tesztek, whitespace, relatív linkek, placeholderek, answer-key és küszöbváltozások a diffen, szemantikus azonosítók, saját diff visszaolvasása. Nem módosít semmit, de ellenőrző parancsokat futtat (Bash). Futtasd tartalmi módosítás után és release előtt.
 argument-hint: [scope, pl. M3 vagy üres = teljes repo]
 disallowed-tools: Edit, Write, NotebookEdit
 allowed-tools:
   - Bash(python3 tools/content_integrity.py*)
+  - Bash(python3 tools/media_manifest.py*)
+  - Bash(python3 -m unittest tools.test_media_manifest*)
+  - Bash(python3 -m py_compile*)
   - Bash(python3 -c *)
   - Bash(bash -n .claude/hooks/*)
+  - Bash(bash .claude/hooks/*)
+  - Bash(git cat-file*)
   - Bash(git diff*)
   - Bash(git status*)
 ---
@@ -22,8 +27,10 @@ objektív ellenőrzéseket. A parancsai olvasó/ellenőrző jellegűek, és a
 > és a `/course-review` skill — azoknak `Bash`, `Edit` és `Write` eszközük **sincs**.
 
 Semmit nem javít — a hibákat felsorolja, és megnevezi, melyik skill javítja.
-Ez a repository **egyetlen** kánoni objektív checkere: `tools/content_integrity.py`.
-Ne írj mellé második lintert.
+A repository két kánoni objektív ellenőrzési réteget tart fenn:
+`tools/content_integrity.py` a statikus tartalmi/repo-integritásra, míg
+`tools/media_manifest.py` + `tools/test_media_manifest.py` a média-manifest
+determinista fordítására és regresszióira. Ne írj ezek mellé harmadik, párhuzamos lintert.
 
 Scope: `$ARGUMENTS` (üres = teljes repository)
 
@@ -34,18 +41,49 @@ python3 tools/content_integrity.py --release-report
 ```
 
 - `Objective integrity errors: 0` **kötelező**. Bármely `ERROR:` sor blokkoló.
-- A `BLOCKER:` sorok release-kapuk (`KITÖLTENDŐ`, nyitott checklist) — ezeket
-  **nem töltjük ki találgatásból**, jelentendők.
+- A `BLOCKER:` sorok szemantikus **learner-release** kapuk: a G1–G8-hoz
+  tartozó nyitott emberi döntések, LMS `BUILD_OUTPUT`, runtime `RUNTIME_OUTPUT`
+  és kanonikus checklistek. A puszta dokumentációs `KITÖLTENDŐ` szóelőfordulás
+  nem blocker.
+- A `PRODUCTION:` sorok külön média-produkciós akadályok. Ezek önmagukban nem
+  teszik sikertelenné a `--strict-release` futást, mert a
+  `RELEASE-MEDIA-STATUS.md` szerint egyenértékű fallback mellett nem automatikus
+  learner-release gate-ek.
+- A valódi nyitott értékeket **nem töltjük ki találgatásból**, jelentendők.
 
-## 2. Git-higiénia
+## 2. Média-manifest és generált output
+
+A release-check ugyanazt a média-invariáns réteget futtatja, mint a GitHub CI.
+A történeti baseline teszt **nem maradhat csendben skipelt** sekély klón miatt:
 
 ```bash
+git cat-file -e a8629732e46eb489644dc90a624e6c8466612eda^{commit}
+python3 tools/media_manifest.py --selftest
+python3 tools/media_manifest.py validate
+python3 tools/media_manifest.py check
+python3 tools/media_manifest.py reconcile
+python3 tools/media_manifest.py lint --high-only
+python3 -m unittest tools.test_media_manifest
+```
+
+- A baseline commit hiánya **hiba**, nem elfogadható skip.
+- A `check` szerint minden generált CSV/JSON/XLSX/Markdown kimenetnek naprakésznek kell lennie.
+- A `reconcile` eredménye nem rejthet el unmapped/conflict sort.
+- A GitHub CI telepíti a Pandocot, ezért ott a render-parity tesztnek is futnia kell:
+  a végső CI-ben **0 skip** az elvárt állapot. Lokális futásnál Pandoc hiányában az egyetlen
+  opcionális render-parity skip elfogadható, de ezt a jelentésben explicit jelezni kell;
+  a dependency-free strukturális guardnak mindig futnia kell.
+
+## 3. Git-higiénia
+
+```bash
+python3 -m py_compile tools/*.py
 git diff --check      # whitespace-hibák, sorvégi szóköz
 git status --short
 git diff --stat
 ```
 
-## 3. Célzott ellenőrzések a diffen
+## 4. Célzott ellenőrzések a diffen
 
 Ha van módosítás, **olvasd vissza a teljes saját diffedet** (`git diff`), és külön nézd meg:
 
@@ -57,18 +95,21 @@ Ha van módosítás, **olvasd vissza a teljes saját diffedet** (`git diff`), é
   duplikált bekezdés, elárvult címsor
 - **tartalomvesztés**: `git diff --stat` szerint hol csökkent jelentősen a méret,
   és ott tényleg szándékos volt-e
-- **ismert regressziók**: a checker `ACTIVE_SPEC_RULES` és `M3_ROLEPLAY_PHRASES`
-  listái a `tools/content_integrity.py`-ban — ha új invariáns kell, azt ott bővítsd,
-  de **csak objektív invariánst**. „Ez rossz magyar" soha nem lehet regex-szabály.
+- **ismert regressziók**: a checker `ACTIVE_SPEC_RULES`, `FORBIDDEN_ANYWHERE`
+  és `M3_ROLEPLAY_PHRASES` listái a `tools/content_integrity.py`-ban — új guard csak
+  **bizonyított, már ténylegesen előfordult regresszióra** kerülhet be. Generikus
+  „rossz magyar" lint tilos; egy konkrét, dokumentált mass-replace hiba (például
+  `műhelyban` → `műhelyben`) viszont szűk exact guardként védhető.
 
-## 4. Ecosystem-konfiguráció (ha `.claude/**` változott)
+## 5. Ecosystem-konfiguráció (ha `.claude/**` változott)
 
 ```bash
 python3 -c "import json,sys; json.load(open('.claude/settings.json')); print('settings.json OK')"
 bash -n .claude/hooks/guard-repo-safety.sh && echo "hook szintaxis OK"
+bash .claude/hooks/guard-repo-safety.sh --selftest
 ```
 
-## 5. Jelentés
+## 6. Jelentés
 
 Add meg: mi futott, mi az eredménye **szó szerint**, mi blokkoló, mi emberi döntés,
 és mi a következő lépés. Ha valami nem futott le, **mondd ki.**

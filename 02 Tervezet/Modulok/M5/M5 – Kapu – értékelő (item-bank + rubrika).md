@@ -206,7 +206,7 @@
 
 ### Q9 – Felismerő (fogalom)
 
-**Mit jelent a *aktív felidézés* a tanulásban?**
+**Mit jelent az *aktív felidézés* a tanulásban?**
 
 - A) Amikor újra és újra elolvasod vagy meghallgatod ugyanazt, amíg végül meg nem ragad.
 - B) ✅ Amikor **fejből próbálsz felidézni** valamit, anélkül hogy belenéznél a jegyzetbe.
@@ -216,7 +216,7 @@
 **Distraktor-indokok:**
 - A) az **újraolvasás/újrahallgatás** – ezt sokan aktív felidézésnek hiszik, pedig passzív (ez a leggyakoribb tévesztés).
 - C) a madrich idéz fel, nem a chanich – az aktív felidézés épp az, hogy **ők** erőlködnek emlékezetből.
-- D) ez a **időben elosztott gyakorlás** definíciója – a két tanulástan-fogalom összekeverése.
+- D) ez az **időben elosztott gyakorlás** definíciója – a két tanulástan-fogalom összekeverése.
 
 **Visszajelzés:** Az aktív felidézés aktív: **ők** próbálják fejből előhívni az emléket. Az újraolvasás (A) és a madrich ismétlése (C) passzív; a D pedig az időben elosztott gyakorlás. (**M5.3, SLIDE 2 + Question Set Q2.**)
 
@@ -236,7 +236,7 @@
 - C) felolvasás = újraolvasás, szintén passzív befogadás.
 - D) a „majd megmarad magától” tévhit – tudatos felidézés nélkül halványul az emlék.
 
-**Visszajelzés:** Amikor **ők** erőlködnek, hogy fejből előhívják az emléket (B), az a **aktív felidézés**, és sokkal jobban beég, mint ha újra hallják/olvassák. (**M5.3, SLIDE 5 + Question Set Q4.**)
+**Visszajelzés:** Amikor **ők** erőlködnek, hogy fejből előhívják az emléket (B), az **aktív felidézés**, és sokkal jobban beég, mint ha újra hallják/olvassák. (**M5.3, SLIDE 5 + Question Set Q4.**)
 
 ---
 
@@ -250,7 +250,7 @@
 - D) A módszer jó, de előbb meg kellett volna kérdeznie a kvucát, akarják-e ezt a témát.
 
 **Distraktor-indokok:**
-- A) elfogadja a „időben elosztott gyakorlás = egyben magolás” tévedést – pont ez a dokumentumban jelzett #2 leggyakoribb félreértés.
+- A) elfogadja az „időben elosztott gyakorlás = egyben magolás” tévedést – pont ez a dokumentumban jelzett #2 leggyakoribb félreértés.
 - C) felszíni operatív megjegyzés (tábla), ráadásul tévesen helyben hagyja a fogalmi hibát.
 - D) elirányít a fogalom lényegéről (a részvétel kérdése nem az időben elosztott gyakorlás definíciója).
 
@@ -295,7 +295,7 @@
 **Mintamondatok az értékelőnek (kalibrációhoz):**
 - **R4 Hiányos:** „Tanulástan: időben elosztott gyakorlás.” → csak címke, nincs cselekvés → vissza.
 - **R4 Alapszint:** „Tanulástan: a következő két pénteken 5 percre újra elővesszük ugyanezt a játékot.” → konkrét, valódi időben elosztott gyakorlás → átmegy. *(De a visszajelzésben told tovább: ha azokon a péntekeken nem újra megmutatod, hanem **fejből idéztetik fel** a kvucával, máris időben elosztott gyakorlás + aktív felidézés együtt – ettől ég be igazán. Ez a Q12-höz vezető lépés.)*
-- **Elvi megjegyzés (Q12 ↔ R4):** a modul fő tanulástan-üzenete, hogy a három elem **együtt** a legerősebb – az időben elosztott gyakorlás a **aktív felidézéssel kombinálva** üt a legnagyobbat („időben elosztott felidézés”), nem önmagában. Egyetlen izolált elem (pl. csak időben elosztott gyakorlás) az Alapszinten átmegy, **de a diagnosztikus visszajelzés mindig a kombináció felé bátorítson**, hogy a transzfer ne álljon meg egyetlen elemnél.
+- **Elvi megjegyzés (Q12 ↔ R4):** a modul fő tanulástan-üzenete, hogy a három elem **együtt** a legerősebb – az időben elosztott gyakorlás az **aktív felidézéssel kombinálva** üt a legnagyobbat („időben elosztott felidézés”), nem önmagában. Egyetlen izolált elem (pl. csak időben elosztott gyakorlás) az Alapszinten átmegy, **de a diagnosztikus visszajelzés mindig a kombináció felé bátorítson**, hogy a transzfer ne álljon meg egyetlen elemnél.
 - **R3 Hiányos:** cél „érték-reflexió a felelősségről”, módszer „energizer, aztán vége” → a módszer nem szolgálja a reflexiós célt → vissza.
 
 **Javítási útvonal (teljesítési logikához):** ha valamelyik sor Hiányos, rövid, fejlesztő (SBI-jellegű) visszajelzés + a táblázat **újraleadása** – nincs kizárás, a cél a megértés. Ha többször elakad, a mentor az **M5.F (felzárkóztató műhely)** felé irányít, és átnézi, melyik fogalomcsalád gyenge (a kvíz item-szintű analitikájával összevetve).

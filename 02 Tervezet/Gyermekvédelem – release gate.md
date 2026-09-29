@@ -75,10 +75,10 @@ Learner-facing release előtt mindegyik legyen igazolt:
 - [ ] M3.3, M3.B, M3-kapu és M7 gyermekvédelmi kapuelemek szakértő által átnézve;
 - [ ] HUM-SAFE-01–05 lezárva;
 - [ ] a learner-facing kontakt ténylegesen látható a Moodle-ben;
-- [ ] nincs 100%-os titoktartási ígéret;
-- [ ] nincs nyomozásra, konfrontációra vagy otthoni „lerendezésre” utasítás;
+- [x] nincs 100%-os titoktartási ígéret; **repo-audit: 2026-09-29** – M3.3, M3.B és az M3/M7 kapuelemek következetesen a titoktartás határát tanítják;
+- [x] nincs nyomozásra, konfrontációra vagy otthoni „lerendezésre” utasítás; **repo-audit: 2026-09-29** – a learner-facing helyes utak tiltják a nyomozást, konfrontációt és közvetlen otthoni egyeztetést;
 - [ ] akut veszély útja és a segélyvonalak a review napján ellenőrizve;
-- [ ] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út;
+- [x] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út; **repo-audit: 2026-09-29** – passz, másik eset/szünet és támogatási/jelzési út explicit az M3.B-ben és kapcsolódó érzékeny feladatokban;
 - [ ] a négyszemközti helyzetek tananyaga a jóváhagyott helyi szabállyal egyezik;
 - [ ] az alkohol- és dohányzási példák csak a HUM-SAFE-04 szerint jóváhagyott helyi policy-t állítják;
 - [ ] a valódi résztvevőkkel dolgozó stáb alkalmassági ellenőrzése és safeguarding-felkészítése HUM-SAFE-05 szerint dokumentált;

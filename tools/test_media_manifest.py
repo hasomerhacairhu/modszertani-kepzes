@@ -791,9 +791,9 @@ class TestRepositoryCorpus(unittest.TestCase):
     def test_open_production_gates_stay_machine_detectable(self):
         """A regenerated register may not quietly drop a release blocker.
 
-        `content_integrity --release-report` counts ⟬KITÖLTENDŐ⟭ occurrences. The
-        v1 register carried them; if the v2 renderer omits them, an organisational
-        gate stops being machine-visible without anyone deciding to close it.
+        The canonical production rules carry the open values; the generated register
+        must still surface those gates for production operators. A renderer change
+        may not make an unresolved rule disappear from the human-facing register.
         """
         open_rules = [r for r in mm.production_rules() if "KITÖLTENDŐ" in r["text"]]
         self.assertTrue(open_rules, "R2/R3/R5 még nyitott — kell lennie jelölőnek")
@@ -806,6 +806,11 @@ class TestRepositoryCorpus(unittest.TestCase):
         self.assertTrue(mm.PRODUCTION_RULES_FILE.exists())
         self.assertNotIn("_legacy", mm.PRODUCTION_RULES_FILE.as_posix().rsplit("/", 1)[0])
         self.assertEqual(8, len(mm.production_rules()))
+
+    def test_r5_uses_the_current_three_group_canon(self):
+        rules = {r["id"]: r for r in mm.production_rules()}
+        self.assertNotIn("4-kvuca", rules["R5"]["text"])
+        self.assertIn("három aktuális kvuca", rules["R5"]["text"])
 
     def test_every_open_decision_surfaces_in_the_register(self):
         register = mm.OUT_REGISTER_MD.read_text(encoding="utf-8")
@@ -1759,7 +1764,7 @@ class TestApprovedDecisions(unittest.TestCase):
         self.assertIn("R5", asset["blockers"])
         for lesson in ("M4.2 – Aktív hallgatás & visszatükrözés.md",
                        "M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-                       "M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md"):
+                       "M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md"):
             unit = lesson.split(" ")[0]
             videos = [a for a in self.model["assets"]
                       if a["unit"] == unit and a["kind"] == "video"]

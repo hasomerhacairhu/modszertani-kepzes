@@ -8,8 +8,11 @@ Read-only and deterministic. Two separate concerns:
   markers, terminology drift, and a small set of *known* content regressions that
   have actually happened here before and are dangerous to reintroduce.
 * **Release blockers** (reported, not failing unless ``--strict-release``) —
-  organisation-specific `KITÖLTENDŐ` fields and open release gates. These are
-  never guessed or auto-filled.
+  learner-release human decisions, unresolved LMS/runtime outputs and open release
+  checklists. These are never guessed or auto-filled.
+* **Production-only blockers** — media decisions that can block asset production
+  without automatically blocking the learner release when an equivalent fallback
+  exists. These are reported separately and do not make ``--strict-release`` fail.
 
 Every rule below exists because the corresponding defect occurred in this
 repository. Do not add speculative prose linting: legitimate Hungarian text must
@@ -18,6 +21,7 @@ never fail this check.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
@@ -61,6 +65,24 @@ FORBIDDEN_ANYWHERE = {
         'túlzottan leegyszerűsítő, nem védhető fejlődéslélektani metafora',
     'fotózd le a rajzot, és töltsd fel':
         'az M2.1 teljes identitástérkép-feltöltése adatminimalizálási regresszió',
+    'műhelyban':
+        'hibás magyar toldalékolás: műhelyben',
+    'műhelyhoz':
+        'hibás magyar toldalékolás: műhelyhez',
+    'műhelyon':
+        'hibás magyar toldalékolás: műhelyen',
+    'a idővonal':
+        'hibás névelő: az idővonal',
+    'idővonal-t':
+        'hibás tárgyrag: idővonalat',
+    'visszajelzés-tapasztalat':
+        'természetellenes főnévtorlódás: visszajelzéssel kapcsolatos tapasztalat',
+    'lektor: [ ]':
+        'forrásszintű szakmai-lektor placeholder: a jóváhagyás a release-jegyzőkönyvbe tartozik',
+    'dátum: [ ]':
+        'forrásszintű jóváhagyási dátum-placeholder: a release-jegyzőkönyvbe tartozik',
+    'verzió: [ ]':
+        'forrásszintű jóváhagyási verzió-placeholder: a release-jegyzőkönyvbe tartozik',
 }
 
 # File-scoped regressions found by the 2026-09 release-readiness follow-up.
@@ -112,6 +134,10 @@ FILE_FORBIDDEN_PHRASES = {
     '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md': {
         'Parparim / Kivsza / Leviatan / Zorea':
             'az M7 kvuca-választója a 2025/26-os három aktuális csoportot használja',
+    },
+    '02 Tervezet/Média-assetek/produkcios-szabalyok.json': {
+        '4-kvuca piktogramok':
+            'az R5 produkciós szabály is a három aktuális kvuca kánonját használja',
     },
 }
 
@@ -218,6 +244,14 @@ M3_ROLEPLAY_PHRASES = {
 CONFLICT_MARKERS = re.compile(r'^(?:<{7}|={7}|>{7})(?:\s|$)', re.M)
 RESUME_PROMISE = re.compile(r'(mentve marad|később folytathatod|folytathatod később)')
 STALE_TERM = re.compile(r'[Gg]yerekvéd')
+ARTICLE_REGRESSIONS = (
+    (re.compile(r'(?<!\w)a\s+\*{0,2}aktív\b', re.I), 'hibás névelő: az aktív'),
+    (re.compile(r'(?<!\w)a\s+[„"\']aktív\b', re.I), 'hibás névelő: az aktív'),
+    (re.compile(r'(?<!\w)a\s+\*{0,2}időben\b', re.I), 'hibás névelő: az időben'),
+    (re.compile(r'(?<!\w)a\s+[„"\']időben\b', re.I), 'hibás névelő: az időben'),
+    (re.compile(r'(?<!\w)a\s+\*{0,2}[„"`]?M[0-7](?=[.\-–\sA-Z])', re.I),
+     'hibás névelő modulazonosító előtt: az M…'),
+)
 
 
 def markdown_files(base: Path = ROOT):
@@ -349,6 +383,18 @@ def check_file_scoped_regressions(errors: list[str]) -> None:
                 errors.append(f'REGRESSION {rel}: {phrase!r} ({why})')
 
 
+def check_nonmodule_article_regressions(errors: list[str]) -> None:
+    """Apply deterministic Hungarian article guards to active non-module docs too."""
+    for path in markdown_files(ACTIVE_ROOT):
+        if path.is_relative_to(MODULE_ROOT):
+            continue
+        text = path.read_text(encoding='utf-8', errors='replace')
+        rel = path.relative_to(ROOT)
+        for pattern, why in ARTICLE_REGRESSIONS:
+            for match in pattern.finditer(text):
+                errors.append(f'REGRESSION {rel}: {match.group(0)!r} ({why})')
+
+
 def check_regressions(errors: list[str]) -> None:
     for path in MODULE_ROOT.rglob('*.md'):
         text = path.read_text(encoding='utf-8', errors='replace')
@@ -357,6 +403,9 @@ def check_regressions(errors: list[str]) -> None:
         for phrase, why in FORBIDDEN_ANYWHERE.items():
             if phrase.lower() in low:
                 errors.append(f'REGRESSION {rel}: {phrase!r} ({why})')
+        for pattern, why in ARTICLE_REGRESSIONS:
+            for match in pattern.finditer(text):
+                errors.append(f'REGRESSION {rel}: {match.group(0)!r} ({why})')
         if path.parts[-3] == 'M3' or '/M3/' in path.as_posix():
             for phrase, why in M3_ROLEPLAY_PHRASES.items():
                 if phrase in low:
@@ -369,25 +418,153 @@ def check_regressions(errors: list[str]) -> None:
                 errors.append(f'REGRESSION {rel}:{lineno} H5P Documentation Tool resume-ígéret')
 
 
+HUMAN_DECISION_HEADING = re.compile(r'^###\s+(HUM-[A-Z0-9-]+)\b(.*)$')
+UNCHECKED_BOX = re.compile(r'^\s*-\s*\[\s\]\s*(.+)$')
+MODULE_PLACEHOLDER = re.compile(r'⟬KITÖLTENDŐ(?:[:][^⟭]*)?⟭')
+RUNTIME_OUTPUT_ROW = re.compile(r'^\|\s*[^|]+\|\s*`RUNTIME_OUTPUT`\s*\|')
+BUILD_OUTPUT_ROW = re.compile(r'^\|\s*LMS-[^|]+\|\s*BUILD_OUTPUT\s*\|')
+
+
+def open_human_decision_ids(text: str) -> list[str]:
+    """Return canonical HUM-* decisions whose heading is not explicitly closed."""
+    open_ids: list[str] = []
+    for line in text.splitlines():
+        match = HUMAN_DECISION_HEADING.match(line)
+        if match and 'LEZÁRVA' not in match.group(2):
+            open_ids.append(match.group(1))
+    return open_ids
+
+
+def unchecked_items(text: str) -> list[str]:
+    """Return the text of unchecked Markdown checklist items."""
+    return [m.group(1).strip() for line in text.splitlines()
+            if (m := UNCHECKED_BOX.match(line))]
+
+
+def unresolved_output_rows(text: str, pattern: re.Pattern[str]) -> int:
+    """Count only unresolved table rows, never explanatory prose mentions."""
+    return sum(1 for line in text.splitlines() if pattern.match(line))
+
+
 def release_blockers() -> list[str]:
+    """Report canonical unresolved release state without double-counting prose.
+
+    Human decisions live in one source-of-truth document. Generated media
+    registers and explanatory mentions of the word KITÖLTENDŐ are deliberately
+    not counted as separate blockers.
+    """
     blockers: list[str] = []
-    placeholder_re = re.compile(r'KITÖLTENDŐ')
-    for path in ACTIVE_ROOT.rglob('*.md'):
-        text = path.read_text(encoding='utf-8', errors='replace')
-        if path.is_relative_to(MODULE_ROOT):
-            for lineno, line in enumerate(text.splitlines(), 1):
-                if placeholder_re.search(line):
-                    excerpt = ' '.join(line.strip().split())
-                    if len(excerpt) > 240:
-                        excerpt = excerpt[:237] + '...'
-                    blockers.append(f'MODULE-PLACEHOLDER {path.relative_to(ROOT)}:{lineno}: {excerpt}')
-        else:
-            count = len(placeholder_re.findall(text))
-            if count:
-                blockers.append(f'GOVERNANCE-PLACEHOLDER {path.relative_to(ROOT)}: {count}')
-    rr = ACTIVE_ROOT / 'RELEASE-READINESS.md'
-    if rr.exists() and '- [ ]' in rr.read_text(encoding='utf-8'):
-        blockers.append('RELEASE-GATES RELEASE-READINESS.md contains open checklist items')
+
+    # Learner-facing/module source may never carry a real unresolved placeholder.
+    module_placeholders: list[str] = []
+    for path in MODULE_ROOT.rglob('*.md'):
+        for lineno, line in enumerate(
+                path.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
+            if MODULE_PLACEHOLDER.search(line):
+                module_placeholders.append(f'{path.relative_to(ROOT)}:{lineno}')
+    if module_placeholders:
+        blockers.append(
+            f'MODULE-PLACEHOLDERS {len(module_placeholders)} open: '
+            + ', '.join(module_placeholders)
+        )
+
+    # Canonical organisational decisions. A decision is closed only when its
+    # HUM-* heading itself says LEZÁRVA; prose mentioning KITÖLTENDŐ is irrelevant.
+    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
+    if human_file.exists():
+        human_open = open_human_decision_ids(
+            human_file.read_text(encoding='utf-8', errors='replace'))
+        release_prefixes = (
+            'HUM-SAFE-', 'HUM-PRIV-', 'HUM-OPS-', 'HUM-A11Y-', 'HUM-SOMER-',
+        )
+        release_open = [
+            decision_id for decision_id in human_open
+            if decision_id.startswith(release_prefixes)
+        ]
+        if release_open:
+            blockers.append(
+                f'HUMAN-DECISIONS {len(release_open)} open: '
+                + ', '.join(release_open)
+            )
+
+    # Concrete LMS build/runtime outputs are implementation facts, not human
+    # decisions. They stay blocking until the staging system writes real values.
+    runtime_file = ACTIVE_ROOT / 'LMS – H5P runtime acceptance.md'
+    if runtime_file.exists():
+        runtime_count = unresolved_output_rows(
+            runtime_file.read_text(encoding='utf-8', errors='replace'),
+            RUNTIME_OUTPUT_ROW,
+        )
+        if runtime_count:
+            blockers.append(
+                f'RUNTIME-ACCEPTANCE {runtime_count} unresolved RUNTIME_OUTPUT values'
+            )
+
+    manifest_file = ACTIVE_ROOT / 'LMS – activity manifest.md'
+    if manifest_file.exists():
+        build_count = unresolved_output_rows(
+            manifest_file.read_text(encoding='utf-8', errors='replace'),
+            BUILD_OUTPUT_ROW,
+        )
+        if build_count:
+            blockers.append(
+                f'LMS-BUILD {build_count} unresolved BUILD_OUTPUT values'
+            )
+
+    # Release/sign-off checklists are separate evidence layers. Report each once,
+    # rather than turning every explanatory placeholder mention into a blocker.
+    checklist_files = (
+        ('SAFEGUARDING-CHECKLIST', ACTIVE_ROOT / 'Gyermekvédelem – release gate.md'),
+        ('PRIVACY-CHECKLIST', ACTIVE_ROOT / 'Adatvédelem – tanulói adatok és AI.md'),
+        ('A11Y-CHECKLIST', ACTIVE_ROOT / 'LMS – hozzáférhetőségi sztenderd.md'),
+        ('PROGRAM-TRANSFER', ACTIVE_ROOT / 'RELEASE-READINESS.md'),
+    )
+    for label, path in checklist_files:
+        if not path.exists():
+            continue
+        items = unchecked_items(path.read_text(encoding='utf-8', errors='replace'))
+        if items:
+            blockers.append(f'{label} {len(items)} open checklist items')
+
+    return blockers
+
+
+def production_blockers() -> list[str]:
+    """Report unresolved media-production decisions without redefining release.
+
+    RELEASE-MEDIA-STATUS.md explicitly permits equivalent fallbacks and states
+    that R2/R3/R5 do not block the internal M0+M1 staging pilot. Therefore these
+    are operational production blockers, not automatic learner-release gates.
+    """
+    blockers: list[str] = []
+
+    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
+    if human_file.exists():
+        human_open = open_human_decision_ids(
+            human_file.read_text(encoding='utf-8', errors='replace'))
+        media_open = [
+            decision_id for decision_id in human_open
+            if decision_id.startswith('HUM-MEDIA-')
+        ]
+        if media_open:
+            blockers.append(
+                f'MEDIA-HUMAN-DECISIONS {len(media_open)} open: '
+                + ', '.join(media_open)
+            )
+
+    rules_file = MEDIA_ROOT / 'produkcios-szabalyok.json'
+    if rules_file.exists():
+        payload = json.loads(rules_file.read_text(encoding='utf-8'))
+        open_rules = [
+            rule['id'] for rule in payload.get('rules', [])
+            if '⟬KITÖLTENDŐ⟭' in rule.get('text', '')
+        ]
+        if open_rules:
+            blockers.append(
+                f'PRODUCTION-RULES {len(open_rules)} open: '
+                + ', '.join(open_rules)
+            )
+
     return blockers
 
 
@@ -404,6 +581,17 @@ SELFTEST_CASES = [
     # must fail, ordinary Hungarian prose must not.
     ('Elég a felirat VAGY a leirat valamelyike.', True, 'aktív spec — „felirat VAGY”'),
     ('A videóhoz felirat vagy a leirat is elérhető lesz.', False, 'legitim magyar prózai „vagy”'),
+]
+ARTICLE_SELFTEST = [
+    ('az **aktív felidézés** segít', True, 'helyes névelő'),
+    ('a **aktív felidézés** segít', False, 'hibás névelő'),
+    ('akkor a legerősebb, ha **aktív felidézéssel** párosul', True, '„ha aktív” nem false positive'),
+    ('Mi az „időben elosztott gyakorlás”?', True, 'helyes névelő időben'),
+    ('Mi a „időben elosztott gyakorlás”?', False, 'hibás névelő időben'),
+    ('az M7.3 után folytatjuk', True, 'helyes névelő modulazonosító előtt'),
+    ('a M7.3 után folytatjuk', False, 'hibás névelő modulazonosító előtt'),
+    ('az `M1.2 – Megfigyelés ≠ értelmezés` leckével mész tovább', True, 'helyes névelő kódolt modulazonosító előtt'),
+    ('a `M1.2 – Megfigyelés ≠ értelmezés` leckével mész tovább', False, 'hibás névelő kódolt modulazonosító előtt'),
 ]
 
 # The deliberate-exclusion guard must cover the Z.4 Documentation Tool rule too,
@@ -436,7 +624,55 @@ def selftest() -> int:
             failures += 1
         want = 'FAIL' if should_fail else 'PASS'
         print(f'{"ok  " if ok else "HIBA"} {label}: várt={want} kapott={"FAIL" if got else "PASS"}')
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4)
+    for line, should_pass, label in ARTICLE_SELFTEST:
+        got = any(pattern.search(line) for pattern, _ in ARTICLE_REGRESSIONS)
+        ok = (not got) == should_pass
+        if not ok:
+            failures += 1
+        print(f'{"ok  " if ok else "HIBA"} {label}: várt={"PASS" if should_pass else "FAIL"} kapott={"FAIL" if got else "PASS"}')
+    decision_fixture = (
+        '### HUM-SAFE-01 — nyitott\n'
+        '### HUM-MEDIA-01 — produkciós\n'
+        '### HUM-GOV-01 — lezárt — LEZÁRVA\n'
+    )
+    decision_ok = open_human_decision_ids(decision_fixture) == [
+        'HUM-SAFE-01', 'HUM-MEDIA-01'
+    ]
+    if not decision_ok:
+        failures += 1
+    print(f'{"ok  " if decision_ok else "HIBA"} release-parser — HUM döntés státusz')
+
+    release_ids = [
+        decision_id for decision_id in open_human_decision_ids(decision_fixture)
+        if decision_id.startswith(
+            ('HUM-SAFE-', 'HUM-PRIV-', 'HUM-OPS-', 'HUM-A11Y-', 'HUM-SOMER-')
+        )
+    ]
+    separation_ok = release_ids == ['HUM-SAFE-01']
+    if not separation_ok:
+        failures += 1
+    print(f'{"ok  " if separation_ok else "HIBA"} release-parser — release/media szétválasztás')
+
+    checklist_fixture = '- [ ] nyitott\n- [x] kész\n'
+    checklist_ok = unchecked_items(checklist_fixture) == ['nyitott']
+    if not checklist_ok:
+        failures += 1
+    print(f'{"ok  " if checklist_ok else "HIBA"} release-parser — checklist')
+
+    output_fixture = (
+        '> `cmid`: **BUILD_OUTPUT**, magyarázó definíció.\n'
+        '| LMS-X-01 | BUILD_OUTPUT | M0 | valódi sor |\n'
+        '| Moodle | `RUNTIME_OUTPUT` | RUN_DATE | TEST_OWNER |\n'
+    )
+    output_ok = (
+        unresolved_output_rows(output_fixture, BUILD_OUTPUT_ROW) == 1
+        and unresolved_output_rows(output_fixture, RUNTIME_OUTPUT_ROW) == 1
+    )
+    if not output_ok:
+        failures += 1
+    print(f'{"ok  " if output_ok else "HIBA"} release-parser — output táblázatsorok')
+
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 4
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 
@@ -458,9 +694,11 @@ def main() -> int:
     check_terminology(errors)
     check_active_spec(errors)
     check_file_scoped_regressions(errors)
+    check_nonmodule_article_regressions(errors)
     check_regressions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []
+    production = production_blockers() if args.release_report else []
 
     print(f'Objective integrity errors: {len(errors)}')
     for item in errors:
@@ -469,6 +707,10 @@ def main() -> int:
         print(f'Release blockers: {len(blockers)}')
         for item in blockers:
             print(f'BLOCKER: {item}')
+    if production:
+        print(f'Production-only blockers: {len(production)}')
+        for item in production:
+            print(f'PRODUCTION: {item}')
 
     if errors:
         return 1

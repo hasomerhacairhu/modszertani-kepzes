@@ -25,7 +25,7 @@
     {
       "id": "R5",
       "title": "Ikon- és karakter-batch + lock",
-      "text": "A visszatérő ikon-készletek (SBI 3-szín; 4-kvuca piktogramok; M6.4 9 szekció-ikon) EGYSZER gyártandók közös stílus-tokennel és rögzített palettával, több helyen újrahasznosítva. Az AI karakter-jelenetek (M1.3-VID-01; M4.1-VID-03/04/05) rögzített referencia-karakterrel/seeddel készülnek, a freeze-frame-ek a videó-gyártás részeként. A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭."
+      "text": "A visszatérő ikon-készletek (SBI 3-szín; a három aktuális kvuca piktogramjai; M6.4 9 szekció-ikon) EGYSZER gyártandók közös stílus-tokennel és rögzített palettával, több helyen újrahasznosítva. Az AI karakter-jelenetek (M1.3-VID-01; M4.1-VID-03/04/05) rögzített referencia-karakterrel/seeddel készülnek, a freeze-frame-ek a videó-gyártás részeként. A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭."
     },
     {
       "id": "R6",

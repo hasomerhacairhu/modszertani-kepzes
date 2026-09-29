@@ -14,7 +14,7 @@
 * **Teljes terhelés:** **a program-szintű kb. 2–3,5 órás modul-sávon belül (lásd Program terv §0) az M4 mint produktum-modul effektíve a felső felében, kb. 2,5–3,5 óra (online + offline) – tervezz inkább a felső, ~3,5 órás értékkel.** A becslés őszintén felfelé kerekített: a két peula (2×45’) önmagában ~1,5 óra, az online leckék ~60–75 perc, **és erre jön a modulproduktum (M4.4 peulabemutató-vázlat) tényleges megírása + finomítása**, amit könnyű alulbecsülni. A peulabemutató-vázlat az M4.4 online lecke ~15 perce alatt elindul, de a kvucára szabott, leadható verzió kidolgozása (és az M4.B-n a hangos gyakorlás) reálisan **további ~20–30 perc** – ezt a teljes terhelésbe beleszámoltuk.
 * **Terhelés-megjegyzés (peulavezetőnek):** a peula-percbontások feszesek; **minden peulában van „mag” (el nem hagyható) és „rövidíthető/elhagyható” rész** – ezeket a peula-fájlok blokkonként jelölik. Ha csúszol, a rövidíthető részekből vegyél vissza, ne a feldolgozásból / zárókörből. **Tervezz ~10–15% puffert** (késés, technika, érzelmileg ráhangolódó kör), hogy a zárás ne maradjon ki.
 * **Tartalmi eredet (provenance):** **ember által írt / AI-asszisztált tananyag** – ahol generatív AI-t használtunk (szöveg, kvíz-item, distraktor, ábra, AI-videó), azt a leckében külön jelöljük.
-* **Szakmai lektorálás:** **lektor: [ ] · dátum: [ ] · verzió: [ ]** (a gyermekvédelmi és érzékeny tartalmat éles indítás előtt embernek kell jóváhagynia – UNESCO AI-etika: emberi felügyelet + átláthatóság).
+* **Szakmai lektorálás:** élesítés előtt emberi szakmai jóváhagyás szükséges, a gyermekvédelmi és érzékeny tartalom külön felülvizsgálatával. A jóváhagyó nevét/szerepét, a dátumot és a jóváhagyott verziót a release-jegyzőkönyvben kell rögzíteni.
 
 **Modulközponti kérdés:**
 
@@ -122,11 +122,11 @@ A modul végére a résztvevő…
 **Javasolt modul-kapuk:**
 
 1. **Kapu 1 – M4.3 mini-kvíz + reflektív kérdés**
-   * **Eszköz:** a M4.3 H5P-ben lévő mini-kvíz és záró reflektív kérdés (kérdéstípusok felismerése).
+   * **Eszköz:** az M4.3 H5P-ben lévő mini-kvíz és záró reflektív kérdés (kérdéstípusok felismerése).
    * **Funkció:** ellenőrzi, hogy a résztvevő **megérti a kérdéstípusokat**, és tudatosan vállal egy változtatási irányt (melyiket használja többet / kevesebbet).
    * **Következmény:** ha gyenge az eredmény vagy hiányzik a completion, jelzés a mentornak / stábnak; opcionálisan M4.F felzárkóztatás ajánlása.
 2. **Kapu 2 – M4.4 beadandó – „Peulabemutató-vázlat”**
-   * **Eszköz:** Moodle Assignment, online szöveges beadás; a M4.4 H5P-ből átvett / finomított peulabemutató-vázlat.
+   * **Eszköz:** Moodle Assignment, online szöveges beadás; az M4.4 H5P-ből átvett / finomított peulabemutató-vázlat.
    * **Követelmény (puha kapu):** a peulabemutató minden kérdésre válaszoljon (kvuca, téma, miért fontos, mit csinálunk, mit vigyenek haza); nincs fix pontszám, de a mentor a lenti, megfigyelhető viselkedést leíró rubrika alapján minimum „alapszint / rendben” szintre néz rá.
    * **Megfigyelhető rubrika (5 sablon-elem mentén):** a peulabemutató sablon öt eleme = **(1) kvuca (kihez beszélsz), (2) téma (miről szól), (3) miért fontos nekik, (4) mit fogtok csinálni, (5) mit vigyenek haza.** A mentor minden peulabemutatót az alábbi, egymást kizáró szinteken helyez el – a besorolás külső megfigyelő által, értelmezés nélkül eldönthető (megvan-e az adott elem, és kvuca-specifikus-e):
      * **Fejlettebb (kvucára szabott):** **mind az 5 elem megnevezve, és legalább a kvuca + a „miért fontos nekik” rész konkrét, az adott kvucára szabott (nem általános) – pl. nevesített korosztály/élethelyzet, rájuk illő indok.**

@@ -32,7 +32,8 @@ A repository-specifikáció és a tényleges lezárási munka külön réteg. A 
 | **G4 + G8 / HUM-OPS-01–02 + HUM-A11Y-01** | [#4 – Moodle build, dátumok, kontaktok és előfeltételek](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/4) |
 | **G6 / HUM-SOMER-01–03** | [#6 – Mozgalmi tartalom jóváhagyása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/6) |
 | **G7** | GitHub Actions + release-check az élesítendő commiton |
-| **HUM-GOV-01** *(nem P0 release-gate)* | [#7 – Terepgyakorlat rubrika és KPI skálájának összehangolása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/7) |
+| **Program-transzfer** | [#9 – Terepgyakorlat és learner pilot](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/9) |
+| **HUM-GOV-01** *(nem P0 release-gate, lezárva 2026-09-28)* | [#7 – Terepgyakorlat rubrika és KPI skálájának összehangolása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/7) |
 
 Az issue-k **nem helyettesítik a jóváhagyási bizonyítékot**. Lezáráskor az issue-ba a tényleges döntést, dátumot, jóváhagyót és bizonyítékot kell linkelni/rögzíteni; csak ezután tekinthető az adott gate zártnak.
 
@@ -69,7 +70,7 @@ Miért ez a minimum:
 
 - [ ] A félév végi `Peula v2` után működik a `Terepgyakorlat – 2. félév.md` szerinti hat valós, 60–90 perces peula + mentori visszajelzési ciklus.
 - [ ] Learner pilot megtörtént kis csoporttal, a findingek javítva és újratesztelve.
-- [ ] A médiaregiszter a tartalmi freeze után újragenerálva és auditálva.
+- [x] A médiaregiszter a tartalmi freeze után újragenerálva és auditálva. **Bizonyíték:** determinisztikus `media_manifest.py build/check/reconcile` + sikeres teljes media CI (`36605020566`, 417 asset / 902 deliverable / 143 teszt).
 
 ## Merge ≠ staging ≠ release
 

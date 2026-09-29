@@ -50,7 +50,7 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 |---|---|---|---|
 | **P-KAR** | `M1.1-VID-02` (B-roll klipek) | **`M4.1-VID-03`** | Az `M1.1-VID-02` néma B-roll **szkript nélkül** (`source_ref` üres) és visszatérő karakter nélkül — a család legnehezebb problémáját, a **karakter-azonosságot**, egyáltalán nem méri. Az `M4.1-VID-03` viszont szó szerinti jóváhagyott narrációhoz kötött (`M4.1-NAR-03-VO`), és a háromjelenetes sorozat első darabja, amelyből az `M4.1-FOTO-01` freeze-frame-je készül — annak specifikációja szó szerint **„ugyanaz a madrich”**. Ez teszi a karakter-azonosságot bizonyítható elfogadási feltétellé. **Ára: egy kapuval több (R2 is ül rajta).** |
 | **P-IKO** | `M0.1-IKO-01` (egyetlen ikon) | **`M1.3-IKO-01`** (SBI 3-elemű készlet) | Az `M0.1-IKO-01` **egy darab** ikon; a család neve viszont *ikon-készlet*, és a stílus-token igazi kérdései (készlet-konzisztencia, vonalvastagság, szemantikus szín + forma-redundancia, az R6 ütközés) egy magányos ikonon nem jelennek meg. Az `M1.3-IKO-01` mindhármat egyszerre méri, ráadásul **visszatérő asset**: az `M1.4-IKO-01` `reuse_of`-fal rá mutat, és az `M1.3-DIA-01/02/03` is használja. Azonos kapuszám (R5). Az `M0.1-IKO-01` **kísérő-tételként** ugyanabban a körben legyártható, közel nulla többletköltséggel. |
-| **P-KRT** | *(a terv a posztert és a kártyaszettet egy családként kezeli)* | **`M5.A-KART-01`** *(kiegészítés, nem csere)* | A `M7.B-POSZ-01` flipchart-sablon: se kétoldalas nyomtatást, se vágóívet, se az AI-címkét nem teszteli (a `provenance` mezője `human`). A kártyaszett-alcsalád **24 asset**, és a saját produkciós nehézsége — 12 kártya, A4-enként 2–4 db, kétoldalas illesztés — sehol máshol nem jelenik meg. |
+| **P-KRT** | *(a terv a posztert és a kártyaszettet egy családként kezeli)* | **`M5.A-KART-01`** *(kiegészítés, nem csere)* | Az `M7.B-POSZ-01` flipchart-sablon: se kétoldalas nyomtatást, se vágóívet, se az AI-címkét nem teszteli (a `provenance` mezője `human`). A kártyaszett-alcsalád **24 asset**, és a saját produkciós nehézsége — 12 kártya, A4-enként 2–4 db, kétoldalas illesztés — sehol máshol nem jelenik meg. |
 
 ---
 
@@ -107,7 +107,7 @@ Minden pilotra érvényes, a családspecifikus feltételeken **felül**.
 - [ ] beszélt assetnél a hang **szó szerint** a `@source` blokk szövege, és a `source_hash` fel van jegyezve;
 - [ ] a kötelező derivatívák elkészültek (`derivatives` mező: felirat / leirat / alt-szöveg / nyomtatható PDF);
 - [ ] az akadálymentesítési feltételek teljesülnek (9. szakasz a [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md)-ben);
-- [ ] ahol az asset `production_rules` mezőjében szerepel az **R1**, ott a tanulónak látható AI-címke **az LMS-ben, szövegként** jelenik meg — nem a képbe égetve. *(A kilenc pilotból nyolcra vonatkozik; a `M7.B-POSZ-01` `provenance` mezője `human`, a szabálylistája nem tartalmazza az R1-et — oda **nem** kerül címke.)*
+- [ ] ahol az asset `production_rules` mezőjében szerepel az **R1**, ott a tanulónak látható AI-címke **az LMS-ben, szövegként** jelenik meg — nem a képbe égetve. *(A kilenc pilotból nyolcra vonatkozik; az `M7.B-POSZ-01` `provenance` mezője `human`, a szabálylistája nem tartalmazza az R1-et — oda **nem** kerül címke.)*
 - [ ] ahol a generátor gépi provenance-jelölést ad, az az exportban **megmaradt** (ellenőrizve, nem feltételezve);
 - [ ] a fájlnév a 7. szakasz konvencióját követi;
 - [ ] a fekete-fehér nyomtatás olvasható marad (minden nyomtatványra és minden szemantikus vizuálra).
