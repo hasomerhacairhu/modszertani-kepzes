@@ -5221,7 +5221,7 @@
       "status": "pending-production-rule",
       "title": "Kilépőkártya – 2 kérdéses sablon",
       "purpose": "Anonim visszajelzést gyűjt a stábnak a résztvevők érkezéséről és nyitott kérdéseiről; bemenetet ad a további segítségnyújtáshoz.",
-      "spec": "Kis méretű (kb. fél A5 / sticky note méretű) névtelen exit-ticket cetli két kérdéssel: 1) „1 dolog, amitől most jól érzed magad az első peula után\"; 2) „1 dolog, amivel kapcsolatban még mindig kérdés / bizonytalanság van benned\". Kitölthető üres sorokkal; létszámnyi + tartalék példányban.",
+      "spec": "Kis méretű (kb. fél A5 / öntapadós jegyzet méretű) névtelen kilépőkártya két kérdéssel: 1) „1 dolog, amitől most jól érzed magad az első peula után\"; 2) „1 dolog, amivel kapcsolatban még mindig kérdés / bizonytalanság van benned\". Kitölthető üres sorokkal; létszámnyi + tartalék példányban.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -5257,7 +5257,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b438229a36f1c06b8521720b3ab22753d866c6d89446df9ccee643af73cec7c0",
+      "spec_hash": "52b993cd37b39b5fc3d1de9ba9d20162f4052e9cd0d0e961ccb601a63deb53ce",
       "deliverable_ids": [
         "M0.A-MUNK-02",
         "M0.A-MUNK-02::PRINTPDF"
@@ -25184,8 +25184,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "Kilépőkártya – „1 játék, amiről játéklapot készítenél”",
-      "purpose": "Zárás és átvezetés: rögzíti az egyéni választást, ami az M6.B játéklap-műhely vázlatának kiindulópontja lesz; tanulói elköteleződést teremt.",
-      "spec": "Kisméretű, kiosztható kilépőkártya: 1 kitöltendő mező a játék nevének („1 játék, amiről játéklapot készítenél”) és 1 rövid mező az indoklásnak („1 szó, miért azt választottad”). Híd az M6.B játéklap-műhelyhoz.",
+      "purpose": "Zárás és átvezetés: rögzíti az egyéni választást, ami az M6.B játéklap-műhelyben készülő játéklap-vázlat kiindulópontja lesz; tanulói elköteleződést teremt.",
+      "spec": "Kisméretű, kiosztható kilépőkártya: 1 kitöltendő mező a játék nevének („1 játék, amiről játéklapot készítenél”) és 1 rövid mező az indoklásnak („1 szó, miért azt választottad”). Híd az M6.B játéklap-műhelyhez.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -25221,7 +25221,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3894a0307f19eca3c461229e8633420de564c67b697fb4c834a9c700932e9af4",
+      "spec_hash": "aa4ae904f1b2b8f7ebffabc1f81fde6f19b0f2517ab6f394b557746edf20ae9b",
       "deliverable_ids": [
         "M6.A-MUNK-01",
         "M6.A-MUNK-01::PRINTPDF"
