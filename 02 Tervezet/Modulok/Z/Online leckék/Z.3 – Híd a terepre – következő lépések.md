@@ -117,7 +117,7 @@ Opciók:
 * „Tele vagyok ötletekkel, de nehéz 1–2 dolgot kiválasztani.”
 * „Kicsit mindkettő – lelkes is vagyok, de bizonytalan is.”
 
-**Feedback (mindháromra hasonló, támogató):**
+**Visszajelzés (mindháromra hasonló, támogató):**
 
 > „Oké, érthető.
 > Ebben a leckében pont abban segítünk, hogy **1–2 kis, konkrét lépést** találj, amit most reálisan be tudsz vállalni.”
@@ -180,7 +180,7 @@ Opciók:
 * C: Tudatosabb beszélgetés a madrich-társammal.
 * D: Nekem teljesen más jut eszembe.
 
-**Feedback:**
+**Visszajelzés:**
 
 > „Jó kiindulópont, amit választottál.
 > A következő slide-okon **a saját mondatodat** fogod megfogalmazni hasonló szerkezetben.”
@@ -195,7 +195,7 @@ Opciók:
 
 > **1. saját cél – a Peula v2-d éles bevetése**
 
-> 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál — **terv → levezetés → megfigyelés → feedback → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrich **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán.
+> 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál — **terv → levezetés → megfigyelés → visszajelzés → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrich **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán.
 >
 > Vagyis a Peula v2 nem a végállomás, hanem az **első bevetésed alapanyaga**. A pontos naptárt, a mentor-hozzárendelést és a dokumentálás formáját a képződ mondja meg; a keretet a `Terepgyakorlat – 2. félév` dokumentum írja le.
 
@@ -323,7 +323,7 @@ Opciók:
 * Félig-meddig – még kicsit homályos.
 * Nem igazán – újra kéne fogalmaznom.
 
-**Feedback (mindháromra, kicsit hangolt):**
+**Visszajelzés (mindháromra, kicsit hangolt):**
 
 * Igen:
   > „Akkor írd fel magadnak valahova a két mondatot, hogy ne csak itt éljenek.”
