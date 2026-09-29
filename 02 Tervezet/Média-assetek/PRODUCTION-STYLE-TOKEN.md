@@ -5,7 +5,7 @@ amennyi az első kötegek legyártásához kell, és nem többet. Nem arculati k
 mozgalomnak **van sajátja**, és ez a lap arra épül.
 
 **Státusz: NYITOTT — FELHASZNÁLÓI DÖNTÉS SZÜKSÉGES.** Ez a lap **javaslatot** tesz, nem
-zár le kaput. Az R5 blokkolók a 257 asseten változatlanul állnak, amíg a jóváhagyó nem
+zár le kaput. Az R5 blokkolók mind a 258 érintett szemantikus asseten változatlanul állnak, amíg a jóváhagyó nem
 válaszol a 9. szakasz kérdéseire.
 
 Kapcsolódó lapok: [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) (mi
