@@ -79,16 +79,6 @@ FORBIDDEN_ANYWHERE = {
         'forrásszintű jóváhagyási dátum-placeholder: a release-jegyzőkönyvbe tartozik',
     'verzió: [ ]':
         'forrásszintű jóváhagyási verzió-placeholder: a release-jegyzőkönyvbe tartozik',
-    'a **aktív':
-        'hibás névelő: az aktív',
-    'a *aktív':
-        'hibás névelő: az aktív',
-    'a „aktív':
-        'hibás névelő: az aktív',
-    'a **időben':
-        'hibás névelő: az időben',
-    'a „időben':
-        'hibás névelő: az időben',
 }
 
 # File-scoped regressions found by the 2026-09 release-readiness follow-up.
@@ -246,6 +236,12 @@ M3_ROLEPLAY_PHRASES = {
 CONFLICT_MARKERS = re.compile(r'^(?:<{7}|={7}|>{7})(?:\s|$)', re.M)
 RESUME_PROMISE = re.compile(r'(mentve marad|később folytathatod|folytathatod később)')
 STALE_TERM = re.compile(r'[Gg]yerekvéd')
+ARTICLE_REGRESSIONS = (
+    (re.compile(r'(?<!\w)a\s+\*{0,2}aktív\b', re.I), 'hibás névelő: az aktív'),
+    (re.compile(r'(?<!\w)a\s+[„"\']aktív\b', re.I), 'hibás névelő: az aktív'),
+    (re.compile(r'(?<!\w)a\s+\*{0,2}időben\b', re.I), 'hibás névelő: az időben'),
+    (re.compile(r'(?<!\w)a\s+[„"\']időben\b', re.I), 'hibás névelő: az időben'),
+)
 
 
 def markdown_files(base: Path = ROOT):
@@ -385,6 +381,9 @@ def check_regressions(errors: list[str]) -> None:
         for phrase, why in FORBIDDEN_ANYWHERE.items():
             if phrase.lower() in low:
                 errors.append(f'REGRESSION {rel}: {phrase!r} ({why})')
+        for pattern, why in ARTICLE_REGRESSIONS:
+            for match in pattern.finditer(text):
+                errors.append(f'REGRESSION {rel}: {match.group(0)!r} ({why})')
         if path.parts[-3] == 'M3' or '/M3/' in path.as_posix():
             for phrase, why in M3_ROLEPLAY_PHRASES.items():
                 if phrase in low:
@@ -433,6 +432,13 @@ SELFTEST_CASES = [
     ('Elég a felirat VAGY a leirat valamelyike.', True, 'aktív spec — „felirat VAGY”'),
     ('A videóhoz felirat vagy a leirat is elérhető lesz.', False, 'legitim magyar prózai „vagy”'),
 ]
+ARTICLE_SELFTEST = [
+    ('az **aktív felidézés** segít', True, 'helyes névelő'),
+    ('a **aktív felidézés** segít', False, 'hibás névelő'),
+    ('akkor a legerősebb, ha **aktív felidézéssel** párosul', True, '„ha aktív” nem false positive'),
+    ('Mi az „időben elosztott gyakorlás”?', True, 'helyes névelő időben'),
+    ('Mi a „időben elosztott gyakorlás”?', False, 'hibás névelő időben'),
+]
 
 # The deliberate-exclusion guard must cover the Z.4 Documentation Tool rule too,
 # not only ACTIVE_SPEC_RULES — a refactor already dropped that once. These cases
@@ -464,7 +470,13 @@ def selftest() -> int:
             failures += 1
         want = 'FAIL' if should_fail else 'PASS'
         print(f'{"ok  " if ok else "HIBA"} {label}: várt={want} kapott={"FAIL" if got else "PASS"}')
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4)
+    for line, should_pass, label in ARTICLE_SELFTEST:
+        got = any(pattern.search(line) for pattern, _ in ARTICLE_REGRESSIONS)
+        ok = (not got) == should_pass
+        if not ok:
+            failures += 1
+        print(f'{"ok  " if ok else "HIBA"} {label}: várt={"PASS" if should_pass else "FAIL"} kapott={"FAIL" if got else "PASS"}')
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST)
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 
