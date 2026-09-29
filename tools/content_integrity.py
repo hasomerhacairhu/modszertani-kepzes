@@ -383,6 +383,18 @@ def check_file_scoped_regressions(errors: list[str]) -> None:
                 errors.append(f'REGRESSION {rel}: {phrase!r} ({why})')
 
 
+def check_nonmodule_article_regressions(errors: list[str]) -> None:
+    """Apply deterministic Hungarian article guards to active non-module docs too."""
+    for path in markdown_files(ACTIVE_ROOT):
+        if path.is_relative_to(MODULE_ROOT):
+            continue
+        text = path.read_text(encoding='utf-8', errors='replace')
+        rel = path.relative_to(ROOT)
+        for pattern, why in ARTICLE_REGRESSIONS:
+            for match in pattern.finditer(text):
+                errors.append(f'REGRESSION {rel}: {match.group(0)!r} ({why})')
+
+
 def check_regressions(errors: list[str]) -> None:
     for path in MODULE_ROOT.rglob('*.md'):
         text = path.read_text(encoding='utf-8', errors='replace')
@@ -682,6 +694,7 @@ def main() -> int:
     check_terminology(errors)
     check_active_spec(errors)
     check_file_scoped_regressions(errors)
+    check_nonmodule_article_regressions(errors)
     check_regressions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []
