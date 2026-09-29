@@ -117,8 +117,8 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 > `hánih` szerepel; a house style-t a helyi ken-/országos felelősnek kell jóváhagynia.
 > **A hangfelvételt ez érinti**, mert a szóvégi hang eltér. Amíg nincs döntés, a
 > felvétel a glosszárium jelenlegi kánoni alakját követi — de a pilot-hangmintát ezekkel
-> a szavakkal kell jóváhagyatni, hogy egy későbbi terminológiai migráció ne 91 fájlt
-> mondasson újra.
+> a szavakkal kell jóváhagyatni, hogy egy későbbi terminológiai migráció ne a teljes érintett hangkorpuszt
+> mondassa újra.
 
 ## 7. Számok, betűszók, rövidítések
 
@@ -195,7 +195,7 @@ minden fájlban.
 2. **A pilot dönt.** A `M4.2-NAR-03` a kijelölt narráció-pilot
    (`MEDIA-PRODUCTION-PLAN.md` 5. szakasz): a tempót,
    a hangszínt, a szünetkezelést és a someres szavak kiejtését ezen kell jóváhagyni,
-   és a többi 90 tétel ehhez igazodik.
+   és minden további R3-tétel ehhez igazodik.
 3. **A kiejtési táblát (6. szakasz) minden felvételnél újra kell futtatni** — ez a
    leggyakoribb elcsúszási pont egy több hónapos gyártásban.
 4. **Nincs verziószám a hangban.** Ha a lecke szövege változik, a fájl újra készül; a
@@ -495,7 +495,7 @@ Magyar szervezetnek az **EGT-s** feltételszöveg az irányadó (lekérdezve 202
 
 | Tétel | Karakter | Alsó becslés (API-oldal) | Felső becslés (kredit-olvasat) |
 |---|---:|---|---|
-| **Hatmintás meghallgatás** (mérve) | 3 066 | **≈ 0,15 $** | **≈ 0,61 $** |
+| **Hatmintás meghallgatás** (mérve) | 3 072 | **≈ 0,15 $** | **≈ 0,61 $** |
 | Teljes tananyag, kész hang | 50–82 ezer | 2,50 – 4,10 $ | 10 – 16 $ |
 | Teljes tananyag, **3× nyers** | 150–225 ezer | **7,50 – 11,25 $** | **30 – 45 $** |
 
