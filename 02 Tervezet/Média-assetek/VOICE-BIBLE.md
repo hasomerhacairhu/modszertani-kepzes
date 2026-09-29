@@ -192,7 +192,7 @@ minden fájlban.
 ## 11. Konzisztencia-szabályok
 
 1. **Egy hang mindenre** (a 8. szakasz két dialógusos kivételével).
-2. **A pilot dönt.** A `M4.2-NAR-03` a kijelölt narráció-pilot
+2. **A pilot dönt.** Az `M4.2-NAR-03` a kijelölt narráció-pilot
    (`MEDIA-PRODUCTION-PLAN.md` 5. szakasz): a tempót,
    a hangszínt, a szünetkezelést és a someres szavak kiejtését ezen kell jóváhagyni,
    és minden további R3-tétel ehhez igazodik.
