@@ -249,6 +249,9 @@ ARTICLE_REGRESSIONS = (
     (re.compile(r'(?<!\w)a\s+[„"\']aktív\b', re.I), 'hibás névelő: az aktív'),
     (re.compile(r'(?<!\w)a\s+\*{0,2}időben\b', re.I), 'hibás névelő: az időben'),
     (re.compile(r'(?<!\w)a\s+[„"\']időben\b', re.I), 'hibás névelő: az időben'),
+    (re.compile(r'(?<!\w)a\s+\*{0,2}eredetet\b', re.I), 'hibás névelő: az eredetet'),
+    (re.compile(r'(?<!\w)a\s+\*{0,2}idősebb\b', re.I), 'hibás névelő: az idősebb'),
+    (re.compile(r'(?<!\w)az\s+\*{0,2}SMART(?=[\s-])', re.I), 'hibás névelő: a SMART…'),
     (re.compile(r'(?<!\w)a\s+\*{0,2}[„"`]?M[0-7](?=[.\-–\sA-Z])', re.I),
      'hibás névelő modulazonosító előtt: az M…'),
 )
@@ -592,6 +595,14 @@ ARTICLE_SELFTEST = [
     ('a M7.3 után folytatjuk', False, 'hibás névelő modulazonosító előtt'),
     ('az `M1.2 – Megfigyelés ≠ értelmezés` leckével mész tovább', True, 'helyes névelő kódolt modulazonosító előtt'),
     ('a `M1.2 – Megfigyelés ≠ értelmezés` leckével mész tovább', False, 'hibás névelő kódolt modulazonosító előtt'),
+    ('jelöld meg az eredetet', True, 'helyes névelő eredetet előtt'),
+    ('jelöld meg a eredetet', False, 'hibás névelő eredetet előtt'),
+    ('ehhez az idősebb Leviatan-kvucához', True, 'helyes névelő idősebb előtt'),
+    ('ehhez a idősebb Leviatan-kvucához', False, 'hibás névelő idősebb előtt'),
+    ('a SMART 5 eleme', True, 'helyes névelő SMART előtt'),
+    ('az SMART 5 eleme', False, 'hibás névelő SMART előtt'),
+    ('a SMART-elemekhez', True, 'helyes névelő SMART-összetétel előtt'),
+    ('az SMART-elemekhez', False, 'hibás névelő SMART-összetétel előtt'),
 ]
 
 # The deliberate-exclusion guard must cover the Z.4 Documentation Tool rule too,
