@@ -47,7 +47,7 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M2-05 | BUILD_OUTPUT | M2 | M2 – Identitás-jegyzet | ASSIGN-S | igen | M2 KAPU | **M2.B után** | érdemi, 1 oldalas jegyzet leadva | puha kapu, fejlesztő rubrika; hiányosnál javítás | M2_ASSIGN | érzékeny történet nem kötelező |
 | LMS-M3-01 | BUILD_OUTPUT | M3 | M3.1 – Történetek egy kvucáról | H5P-C | igen | M3/Online leckék/M3.1 | **M2 complete** | profil | nincs | M3_L1 | |
 | LMS-M3-02 | BUILD_OUTPUT | M3 | M3.2 – Három kvuca, három világ | H5P-C | igen | M3/Online leckék/M3.2 | LMS-M3-01 | profil | nincs | M3_L2 | HUM-SOMER-02 |
-| LMS-M3-03 | BUILD_OUTPUT | M3 | M3.3 – Gyermekvédelem 101 | H5P-C | igen | M3/Online leckék/M3.3 | HUM-SAFE-01/02 **élesben**; stagingben belső QA | profil | nincs | M3_L3 | szakértői signoff learner release előtt |
+| LMS-M3-03 | BUILD_OUTPUT | M3 | M3.3 – Gyermekvédelem 101 | H5P-C | igen | M3/Online leckék/M3.3 | **M3.A után nyílik**; HUM-SAFE-01/02 **élesben**; stagingben belső QA | profil | nincs | M3_L3 | szakértői signoff learner release előtt |
 | LMS-M3-04 | BUILD_OUTPUT | M3 | M3.4 – Do / Don’t madrichként | H5P-C | igen | M3/Online leckék/M3.4 | LMS-M3-03 | profil | nincs | M3_L4 | |
 | LMS-M3-05 | BUILD_OUTPUT | M3 | M3 – Helyzetelemzés | ASSIGN-M | igen | M3.4 + M3 KAPU | LMS-M3-04; M3.B erősen ajánlott | leadva + rubrika | minden sor ≥1; **R2 és R4 blokkoló** | M3_ASSIGN | mentor review |
 | LMS-M3-06 | BUILD_OUTPUT | M3 | M3 – Gyermekvédelmi kapukvíz | QUIZ-M | igen | M3 KAPU | LMS-M3-05 | attempt + megerősített eredmény | **≥10/12 ÉS Q2/Q4/Q7/Q9 mind helyes** | M3_QUIZ | összetett feltétel manual/runtime fallback |
@@ -70,8 +70,8 @@ A `schedule_key` értékeit a HUM-OPS-01 zárása után a központi ütemezés t
 | LMS-M6-06 | BUILD_OUTPUT | M6 | M6 – Szcenárió-önellenőrzés | QUIZ-D | igen | M6 KAPU | LMS-M6-04 | kitöltve | ≥10/12 csak diagnosztikus jelző | M6_QUIZ | korlátlan újrapróbálás |
 | LMS-M7-01 | BUILD_OUTPUT | M7 | M7.1 – SMART nevelési cél | H5P-C | igen | M7/Online leckék/M7.1 | **M6 complete** | profil | nincs | M7_L1 | |
 | LMS-M7-02 | BUILD_OUTPUT | M7 | M7.2 – Peula 11 pont + AI | H5P-C | igen | M7/Online leckék/M7.2 | LMS-M7-01 | profil | nincs | M7_L2 | AI opcionális, no-AI út kötelező |
-| LMS-M7-03 | BUILD_OUTPUT | M7 | M7.3 – Zmán Kvucá-checklist | H5P-C | igen | M7/Online leckék/M7.3 | LMS-M7-02 | profil | nincs | M7_L3 | |
-| LMS-M7-04 | BUILD_OUTPUT | M7 | M7.4 – Peula v1 + AI | H5P-C | igen | M7/Online leckék/M7.4 | **M7.A után** | profil | nincs | M7_L4 | |
+| LMS-M7-03 | BUILD_OUTPUT | M7 | M7.3 – Zmán Kvucá-checklist | H5P-C | igen | M7/Online leckék/M7.3 | **M7.A után nyílik** | profil | nincs | M7_L3 | |
+| LMS-M7-04 | BUILD_OUTPUT | M7 | M7.4 – Peula v1 + AI | H5P-C | igen | M7/Online leckék/M7.4 | LMS-M7-03 | profil | nincs | M7_L4 | |
 | LMS-M7-05 | BUILD_OUTPUT | M7 | Peula v1 – első vázlat | ASSIGN-S | igen | M7.4 | LMS-M7-04 | érdemi v1 leadva | formatív, nem buktat | **M7_V1_DUE** | v2-vel nem lehet azonos napon |
 | LMS-M7-06 | BUILD_OUTPUT | M7 | Peula v2 + Zmán Kvucá | ASSIGN-M | igen | M7 KAPU | **LMS-M7-05 → M7.B → külön revíziós szakasz** | leadva + megerősített rubrika | **≥17/24 ÉS R1/R5/R6 ≥2 ÉS R4 ≥2** | **M7_V2_DUE** | 1 sor AI-használat vagy „nem használtam”; nem pontozott |
 | LMS-M7-07 | BUILD_OUTPUT | M7 | M7 – Záró teljesítési kvíz | QUIZ-M | igen | M7 KAPU | LMS-M7-06 | attempt + megerősített eredmény | **≥12/14 ÉS Q13 helyes** | M7_QUIZ | 2–3 próbálkozás |
@@ -94,7 +94,7 @@ Az offline esemény **nem Moodle-activity**, ezért nem kap fiktív `cmid`-t. A 
 | **M4.A / M4.B** | M4.1–M4.2 → **M4.A** → M4.3–M4.4 → **M4.B** → végleges peulabemutató-beadó |
 | **M5.A / M5.B** | M5.1–M5.2 → **M5.A** → M5.3–M5.4 → **M5.B** → produktum + diagnosztikus kvíz |
 | **M6.A / M6.B** | M6.1–M6.2 → **M6.A** → M6.3–M6.4 → **M6.B** → játéklap + diagnosztikus kvíz |
-| **M7.A / M7.B** | M7.1–M7.4 → **M7.A** → **v1** → **M7.B** → külön revízió → **v2** → teljesítési kvíz |
+| **M7.A / M7.B** | M7.1–M7.2 → **M7.A** → M7.3–M7.4 → **v1** → **M7.B** → külön revízió → **v2** → teljesítési kvíz |
 | **Z.A** | Z.1–Z.3 → **Z.A** → Z.4 reflexió + Moodle Feedback |
 
 A `.F` Study Labek támogatási utak. Nem kapuznak és nem lehetnek az egyetlen hozzáférési fallbackek.
