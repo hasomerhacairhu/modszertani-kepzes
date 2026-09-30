@@ -26559,8 +26559,8 @@
       "mode": "generate",
       "status": "pending-production-rule",
       "title": "SMART 5 elem ikon-készlet (S-M-A-R-T)",
-      "purpose": "Vizuálisan tagolja és megjegyezhetővé teszi az SMART 5 elemét madrich-nyelven.",
-      "spec": "5 különálló, koherens stílusú ikon az SMART-elemekhez: S–Specifikus („pontosan miről szól?”), M–Mérhető („miből látod, hogy megtörtént?”), A–Achievable/elérhető („reális ebben a kvucában, ebben az időben?”), R–Releváns („kapcsolódik Somer-értékhez / kvucahelyzethez?”), T–Time-bound/időhöz kötött („meddigre szeretnéd?”). Mindegyik mellé a betű + magyar címke + a forrásból vett rövid kérdés.",
+      "purpose": "Vizuálisan tagolja és megjegyezhetővé teszi a SMART 5 elemét madrich-nyelven.",
+      "spec": "5 különálló, koherens stílusú ikon a SMART-elemekhez: S–Specifikus („pontosan miről szól?”), M–Mérhető („miből látod, hogy megtörtént?”), A–Achievable/elérhető („reális ebben a kvucában, ebben az időben?”), R–Releváns („kapcsolódik Somer-értékhez / kvucahelyzethez?”), T–Time-bound/időhöz kötött („meddigre szeretnéd?”). Mindegyik mellé a betű + magyar címke + a forrásból vett rövid kérdés.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26598,7 +26598,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "63dd5ce15bbaafe570e952e2e84c4eb8f45471f7e0c90df9d7803e9ab0293267",
+      "spec_hash": "6385e153c0ec1be7a3d88b6de31088696961af5e7c1c8990a11eee3a664d2184",
       "deliverable_ids": [
         "M7.1-IKO-01",
         "M7.1-IKO-01::ALTTEXT"
@@ -26820,7 +26820,7 @@
       "status": "pending-production-rule",
       "title": "Narráció – SMART madrich-nyelven (opcionális)",
       "purpose": "Auditív megerősítés a vizuális SMART-magyarázathoz; multimodalitás.",
-      "spec": "30-40 mp narráció, amely végigveszi az SMART 5 elemét beszélt nyelven: Specifikus, Mérhető, Elérhető, Releváns, Időhöz kötött – mindegyikhez egy rövid kérdés (pontosan miről szól / miből látod / reális-e / van-e köze someres értékhez / meddigre). Barátságos, madrich-hang.",
+      "spec": "30-40 mp narráció, amely végigveszi a SMART 5 elemét beszélt nyelven: Specifikus, Mérhető, Elérhető, Releváns, Időhöz kötött – mindegyikhez egy rövid kérdés (pontosan miről szól / miből látod / reális-e / van-e köze someres értékhez / meddigre). Barátságos, madrich-hang.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26860,7 +26860,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "ef495f92066556f7210dad7f6a7ed45eef9e876d6c8dc7f2aded235afc0bcd34",
-      "spec_hash": "39315b7a33bceaaf9b8f1c864bf56faefbd5ae1698fb88088b7944e0d8fc6772",
+      "spec_hash": "fd9eb9a6aac3377f7abad03dac3a65b6d43e92783fc5c2a72889c066ba343529",
       "deliverable_ids": [
         "M7.1-NAR-01",
         "M7.1-NAR-01::CAPTIONS",
