@@ -16,6 +16,7 @@ Run:  python3 -m unittest tools.test_media_manifest -v
 
 from __future__ import annotations
 
+import io
 import json
 import re
 import shutil
@@ -597,6 +598,18 @@ class TestHashesAndDeterminism(unittest.TestCase):
         self.assertNotEqual(compile_corpus(base)["assets"][0]["spec_hash"],
                             compile_corpus(changed)["assets"][0]["spec_hash"])
 
+    def test_xlsx_zip_normalisation_canonicalises_equivalent_xml(self):
+        def make_zip(xml: bytes) -> bytes:
+            buf = io.BytesIO()
+            with mm.zipfile.ZipFile(buf, "w", mm.zipfile.ZIP_DEFLATED) as zf:
+                zf.writestr("xl/test.xml", xml)
+            return buf.getvalue()
+
+        first = make_zip(b'<root xmlns="urn:test"><item b="2" a="1"></item></root>')
+        second = make_zip(b'<root xmlns="urn:test"><item a="1" b="2"/></root>')
+        self.assertNotEqual(first, second)
+        self.assertEqual(mm._normalise_zip(first), mm._normalise_zip(second))
+
     def test_ordering_is_deterministic_and_module_first(self):
         files = {
             "02 Tervezet/Modulok/M9/Online leckék/M9.2 – B.md":
@@ -632,6 +645,17 @@ class TestRepositoryCorpus(unittest.TestCase):
         self.assertEqual([], mm.compare_outputs(outputs),
                          "a generált regiszter elcsúszott — futtasd: "
                          "python3 tools/media_manifest.py build")
+
+    def test_rendered_xlsx_roundtrips_through_openpyxl(self):
+        from openpyxl import load_workbook
+
+        wb = load_workbook(io.BytesIO(mm.render_xlsx(self.model)), read_only=True)
+        try:
+            self.assertIn("Összesítő", wb.sheetnames)
+            self.assertIn("Assetek", wb.sheetnames)
+            self.assertIn("Deliverable-ek", wb.sheetnames)
+        finally:
+            wb.close()
 
     def test_build_is_deterministic(self):
         first = mm.build_outputs(mm.compile_manifest())
