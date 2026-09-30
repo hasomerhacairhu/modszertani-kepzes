@@ -61,6 +61,7 @@ import sys
 import unicodedata
 import zipfile
 from pathlib import Path
+from xml.etree import ElementTree as ET
 
 SCHEMA_VERSION = "2.0"
 
@@ -2059,7 +2060,14 @@ FIXED_ISO = b"2020-01-01T00:00:00Z"
 
 
 def _normalise_zip(data: bytes) -> bytes:
-    """Rewrite an xlsx with sorted entries, constant timestamps and no clock."""
+    """Rewrite an xlsx into a byte-stable OOXML zip.
+
+    Besides entry order, timestamps and openpyxl's modified clock, canonicalise
+    every XML part. openpyxl can serialise semantically identical OOXML with
+    different namespace placement, empty-element syntax and attribute order on
+    different supported Python versions. XML C14N removes that serializer-only
+    drift without changing workbook content.
+    """
     out = io.BytesIO()
     with zipfile.ZipFile(io.BytesIO(data)) as src:
         names = sorted(src.namelist())
@@ -2068,6 +2076,8 @@ def _normalise_zip(data: bytes) -> bytes:
                 payload = src.read(name)
                 if name == "docProps/core.xml":
                     payload = _MODIFIED_RE.sub(rb"\g<1>" + FIXED_ISO + rb"\g<2>", payload)
+                if name.endswith((".xml", ".rels")):
+                    payload = ET.canonicalize(payload.decode("utf-8")).encode("utf-8")
                 info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 info.external_attr = 0o600 << 16
