@@ -9,7 +9,7 @@
 ← Vissza a modul-hubhoz: **[M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”](./M6%20–%20Eszköztár%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
 
 > **Modul:** M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”
-> **Kaputípus:** **ÉLES teljesítési kapu** – mert a módszerválasztás és a játékvezetés közvetlenül érinti a chanichok **fizikai és érzelmi biztonságát** és **inkluzív élményét**.
+> **Kaputípus:** **ÉLES teljesítési kapu** – mert a módszerválasztás és a játékvezetés közvetlenül érinti a hanihok **fizikai és érzelmi biztonságát** és **inkluzív élményét**.
 
 ---
 
@@ -22,7 +22,7 @@ Ez az M6 kapu **két komponensének** kész értékelőanyaga. A kettő **nem eg
 | **(B) Játéklap** *(ELSŐDLEGES ÉLES KAPU)* | **Moodle Assignment + rubrika**; a társas visszajelzés az M6.B élő műhely része | **éles, blokkoló** | **minden rubrika-sor legalább „Oké” (2) szint** + **blokkoló feltétel a Biztonság és az Inkluzivitás soron** |
 | **(A) Szcenárió-kvíz** | **Moodle Quiz** vagy **H5P Question Set** | **formatív / diagnosztikus** (nem blokkol) | **ajánlott ≥ 80%** (12 itemből legfeljebb 2 hiba) önellenőrzésként, korlátlan próbálkozással, randomizált item- és opciósorrenddel |
 
-> **Adatvédelmi tájékoztató:** mindkét komponens (kvíz és Assignment) indítópontján a Program terv §7 tájékoztató sablonja áll; a megőrzésről, a címzettekről és a kapcsolattartásról szóló részt a HUM-PRIV-01 szerint jóváhagyott tartalom tölti ki.
+> **Adatvédelmi tájékoztató:** mindkét komponens (kvíz és Assignment) indítópontján a Program terv §7 tájékoztató sablonja áll; a megőrzésről, a címzettekről és a kapcsolattartásról szóló részt a HUM-PRIV-01 projektgazdai döntése (2026-10-02) szerinti adatkezelési mátrix (`Adatvédelem – tanulói adatok és AI.md` §3) tölti ki.
 
 ### Kapu-filozófia – miért a játéklap az elsődleges kapu?
 
@@ -39,7 +39,7 @@ Ez az M6 kapu **két komponensének** kész értékelőanyaga. A kettő **nem eg
 >
 > **Blokkoló feltétel:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/stábbal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
 >
-> **Újraértékelés:** a madrich kérheti, hogy az eredeti értékelőtől eltérő második képző nézze át a játéklapot és a kapudöntést, még a következő modul (M7) feloldása előtt (Program terv §5, „Újraértékelés a kizáró kapukon”).
+> **Újraértékelés:** a madrih kérheti, hogy az eredeti értékelőtől eltérő második képző nézze át a játéklapot és a kapudöntést, még a következő modul (M7) feloldása előtt (Program terv §5, „Újraértékelés a kizáró kapukon”).
 >
 > **A kvíz terhe:** a kvíz **alacsony tétű** (önellenőrzés, korlátlan próbálkozás, nem buktat), ezért **nem növeli** a tanuló terhét. A blokkoló bizonyíték egyetlen produktumra (a játéklapra) koncentrálódik, így kevesebb a párhuzamos „éles” megmérettetés.
 
@@ -57,9 +57,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 | Téma | Honnan (lecke/peula) | Itemek |
 |---|---|---|
-| Korosztály–eszköz illesztés (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
+| Korosztály–eszköz illesztés (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
 | Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4, M6.A | 5, 6, 7 |
-| **Azonnali biztonsági reflex** (mikor állsz le / kinek jelzel) – R4 „Erős” | M6.A 4.3.2/B, M3 gyermekvédelmi átkötés | **P1** *(pool/csere-item)* |
+| **Azonnali biztonsági reflex** (mikor állsz le / kinek jelzel) – R4 „Erős” | M6.A 4.3.2/B, ötlépéses jelzési út (M3.B lépéstérkép) | **P1** *(pool/csere-item)* |
 | **Inkluzivitást** növelő variáció azonosítása | M6.3, M6.4 | 8, 9, 10 |
 | **Érzékenység a felkavaró tartalmakra** (történet/élményjáték) | M6.2, M6.4 (B-ág) | 11, 12 |
 
@@ -69,7 +69,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 > **Szerep:** ez a kvíz **felkészít a játéklapra és diagnosztizál** – nem ez az éles kapu (lásd Kapu-filozófia). A tét alacsony: korlátlan próbálkozás, nem buktat. A célja, hogy a tanuló **a játéklap megírása előtt** ráérezzen a biztonsági + inkluzív szempontokra.
 > **Formátum:** minden item = rövid **szcenárió-szár** (korosztály + kvuca + cél / körülmény) + **4 opció** + jelölt **helyes válasz (✅)** + **disztraktor-indok** (miért hihető, de miért rossz) + rövid **tanulói visszajelzés**. A kvízben a disztraktor-indok az adott opció visszajelzése: hibás válasz után a tanuló ezt látja (tegező formára igazítva, új állítás nélkül), nem csak annyit, hogy „rossz”.
-> A disztraktorok mind **valós madrich-tévedést** testesítenek meg (nem karikatúrát, nem tölteléket).
+> A disztraktorok mind **valós madrih-tévedést** testesítenek meg (nem karikatúrát, nem tölteléket).
 >
 > **Megjegyzés a konvergenciáról:** a 12 item egy része (eszköz-illesztés) szándékosan **egy-helyes-válaszos** – ott valódi biztonsági/illesztési minimum van (pl. résztvevőt nem zárunk ki demonstrációként; a kirekesztést fiktív esetből elemezzük). Ez **diagnosztikai** jelzés, nem éles kapuzás. A **nyitott, divergens** mérlegelést a játéklap-rubrika (B) és az M6.4 Branching Scenario viszi, ahol nincs „egyetlen jó megoldás”.
 
@@ -88,7 +88,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 **Helyes:** A
 **Disztraktor-indok:**
-- B – Hihető, mert a bizalomjáték „összehozó”, DE 6–9-nél a kontakt-/bizalomjáték **kockázatos** (bizalom még alakul); a lecke szerint inkább a **Leviatan-korosztálynak (13–17)** való, fiatalabbaknál csak nagyon egyszerű, rövid, jól szabályozott verzióban.
+- B – Hihető, mert a bizalomjáték „összehozó”, DE 6–9-nél a kontakt-/bizalomjáték **kockázatos** (bizalom még alakul); a lecke szerint inkább a **Leviatán-korosztálynak (13–17)** való, fiatalabbaknál csak nagyon egyszerű, rövid, jól szabályozott verzióban.
 - C – Résztvevő tényleges kizárása demonstrációként **nem biztonságos**; a kirekesztést fiktív, nem beazonosítható esettel elemezzük, nem úgy, hogy valakit valóban kívül hagyunk.
 - D – Túl elvont, túl intim egy frissen ismerkedő fiatal kvucának; nem a célt (az ismerkedést) szolgálja.
 
@@ -141,10 +141,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
-## 4. ITEM – Eszköz-illesztés: idősebb Leviatan, komolyabb téma, cinizmus-veszély
+## 4. ITEM – Eszköz-illesztés: idősebb Leviatán, komolyabb téma, cinizmus-veszély
 
 **Szár:**
-> **16–17 éves, idősebb Leviatan** kvuca, akik szeretnek vitázni társadalmi témákról, de a beszélgetés gyakran **szarkazmusba/cinizmusba** csúszik. Célod: **gondolkodás elindítása** felelősségről, árnyalatokkal. Mivel indítanál **első lépésként**?
+> **16–17 éves, idősebb Leviatán** kvuca, akik szeretnek vitázni társadalmi témákról, de a beszélgetés gyakran **szarkazmusba/cinizmusba** csúszik. Célod: **gondolkodás elindítása** felelősségről, árnyalatokkal. Mivel indítanál **első lépésként**?
 
 **Opciók:**
 - A) Rögtön egy nagyon mély, konfliktusos szerepjátékkal, hogy „beinduljon az érzelem”.
@@ -154,19 +154,19 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 **Helyes:** B
 **Disztraktor-indok:**
-- A – Hihető („erős élmény”), DE rögtön mély, konfliktusos helyzet egy idősebb Leviatan-kvucánál könnyen **védekezést vagy cinizmust** vált ki; ehhez előbb biztonságos belépő kell.
+- A – Hihető („erős élmény”), DE rögtön mély, konfliktusos helyzet egy idősebb Leviatán-kvucánál könnyen **védekezést vagy cinizmust** vált ki; ehhez előbb biztonságos belépő kell.
 - C – A plakát beszélgetés nélkül „rajzolgatás” marad, nem indít gondolkodást.
 - D – Az energizer nem szolgálja a célt (komoly téma elindítása); legfeljebb hangulatra jó.
 
 **Visszajelzés:**
-> ✅ Az idősebb Leviatanoknál a felelősség-téma jó belépője az esetleírás/történet több nézőponttal: kívülről ránéznek, nem kell rögtön magukat kiteregetni, és marad tér az árnyalatokra. (M6.4, D. szcenárió)
+> ✅ Az idősebb Leviatánoknál a felelősség-téma jó belépője az esetleírás/történet több nézőponttal: kívülről ránéznek, nem kell rögtön magukat kiteregetni, és marad tér az árnyalatokra. (M6.4, D. szcenárió)
 
 ---
 
 ## 5. ITEM – Hiányzó biztonsági megjegyzés: bizalomjáték
 
 **Szár:**
-> Egy madrich „Csukott szemű vezetés” bizalomjátékot tervez (egyik társ csukott szemmel sétál, a másik vezeti). A játéklapján ez szerepel:
+> Egy madrih „Csukott szemű vezetés” bizalomjátékot tervez (egyik társ csukott szemmel sétál, a másik vezeti). A játéklapján ez szerepel:
 > *„Párokban dolgoznak. Az egyik becsukja a szemét, a másik irányítja. 10 perc.”*
 > **Melyik biztonsági elem hiányzik leginkább** ahhoz, hogy ez biztonságosan vezethető legyen?
 
@@ -190,7 +190,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 ## 6. ITEM – Biztonság: kirekesztés tematizálása valódi kizárás nélkül
 
 **Szár:**
-> Egy **15 éves** kvucában látható, hogy néhányan gyakran a peremen maradnak. A madrich a kirekesztést szeretné feldolgozni. Melyik megoldás tartja meg legjobban a tanulási célt **anélkül, hogy új kirekesztő élményt hozna létre**?
+> Egy **15 éves** kvucában látható, hogy néhányan gyakran a peremen maradnak. A madrih a kirekesztést szeretné feldolgozni. Melyik megoldás tartja meg legjobban a tanulási célt **anélkül, hogy új kirekesztő élményt hozna létre**?
 
 **Opciók:**
 - A) Fiktív, nem beazonosítható esetet elemeznek harmadik személyben, senkit nem osztanak „kirekesztett” szerepbe, majd közösen befogadóbbá alakítják a helyzetet. ✅
@@ -218,13 +218,13 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - A) Közös tiltott zóna az érzékeny témákra, és hogy nem kötelező felállni – aki ülve marad, az is rendben van. ✅
 - B) A legszemélyesebb, identitást súroló állításokat válasszuk, mert azok a leghatásosabbak és gyorsan összehoznak.
 - C) Aki nem áll fel időben, kiesik a játékból, hogy legyen tétje és pörögjön a tempó.
-- D) A madrich előre kitalálja az összes állítást, a kvuca ne szólhasson bele, hogy biztosan ártalmatlan maradjon.
+- D) A madrih előre kitalálja az összes állítást, a kvuca ne szólhasson bele, hogy biztosan ártalmatlan maradjon.
 
 **Helyes:** A
 **Disztraktor-indok:**
 - B – Hihető („hatásos, összehoz”), DE a személyes/identitás-állítások **megszégyenítők** lehetnek – pont ez a tiltott zóna.
 - C – A „kiesés” kirekesztő élményt gyárt, ráadásul a felállásra **kényszerít** (beleegyezés nélkül) – nem ettől lesz biztonságos.
-- D – Jó szándékú kontroll, DE a részvétel elvétele nem véd: a tiltott zóna **közös kimondása** és az önkéntesség a kulcs, nem a madrich egyszemélyi szűrője.
+- D – Jó szándékú kontroll, DE a részvétel elvétele nem véd: a tiltott zóna **közös kimondása** és az önkéntesség a kulcs, nem a madrih egyszemélyi szűrője.
 
 **Visszajelzés:**
 > ✅ A biztonságos keret: tiltott zóna (identitás, test, család, pénz, szexualitás) közös kimondása, és hogy a felállás/megszólalás nem kötelező – aki ülve marad, az is rendben van. (M6.A peula)
@@ -240,7 +240,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - A) Nagyobb gyöngy / vastagabb zsinór, és aki így sem tud/akar fűzni, ugyanarról csinálhat rajzos szimbólum-kártyát. ✅
 - B) Aki nem tudja megfűzni, üljön a többiek mellé és nézze meg, hogyan csinálják, hogy legközelebb menjen neki.
 - C) Kérjünk mindenkitől szebb, drágább, egyedi gyöngyöket otthonról, hogy igényesebb és személyesebb legyen a karkötő.
-- D) A madrich fűzze meg helyette a karkötőt a kész minta szerint, hogy „neki is legyen kész darabja” a kör végére.
+- D) A madrih fűzze meg helyette a karkötőt a kész minta szerint, hogy „neki is legyen kész darabja” a kör végére.
 
 **Helyes:** A
 **Disztraktor-indok:**
@@ -300,13 +300,13 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 ## 11. ITEM – Érzékenység a felkavaró tartalmakra: „minél traumatikusabb, annál mélyebb”?
 
 **Szár:**
-> Egy madrich így gondolkodik: *„Minél traumatikusabb történetet hozok, annál mélyebb beszélgetést lehet belőle csinálni.”* **Mi a helyes szakmai álláspont** erről?
+> Egy madrih így gondolkodik: *„Minél traumatikusabb történetet hozok, annál mélyebb beszélgetést lehet belőle csinálni.”* **Mi a helyes szakmai álláspont** erről?
 
 **Opciók:**
 - A) Téves, a túl erős, felkavaró történet után valaki könnyen bezárkózik, lefagy vagy magára marad; a cél a biztonságos tér, nem a „bármi áron mély”. ✅
 - B) Igaz, mert az erős érzelem mindig erős tanulást hoz.
 - C) Igaz, de csak 6–9 éveseknél működik.
-- D) Téves, de ha a madrich utána gyorsan témát vált, akkor még menthető a helyzet.
+- D) Téves, de ha a madrih utána gyorsan témát vált, akkor még menthető a helyzet.
 
 **Helyes:** A
 **Disztraktor-indok:**
@@ -343,13 +343,13 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ## P1. POOL-ITEM (csere-item) – Biztonság: azonnali leállítás + jelzés
 
-> **Pool-item:** ez a 13. blokk a **kicserélhető item-pool** része (lásd „Miért 12 item”). A Moodle-ben futó kvíz alapesetben **12 itemes**; ez az item **becserélhető** valamelyik biztonsági item (5/6/7) helyére, vagy 13.-ként betehető, ha a stáb épp az **R4-hez tartozó azonnali reflexet** (mikor állok le / kihez fordulok) akarja diagnosztizálni. Az R4 „Erős” szint ezt a reflexet várja (jelzés, mikor kell leállítani / kit hív a madrich), és a peulák (M6.A 4.3.2/B) is ezt tanítják – ez az item ezt méri, anélkül hogy a kvíz tétjét emelné.
+> **Pool-item:** ez a 13. blokk a **kicserélhető item-pool** része (lásd „Miért 12 item”). A Moodle-ben futó kvíz alapesetben **12 itemes**; ez az item **becserélhető** valamelyik biztonsági item (5/6/7) helyére, vagy 13.-ként betehető, ha a stáb épp az **R4-hez tartozó azonnali reflexet** (mikor állok le / kihez fordulok) akarja diagnosztizálni. Az R4 „Erős” szint ezt a reflexet várja (jelzés, mikor kell leállítani / kit hív a madrih), és a peulák (M6.A 4.3.2/B) is ezt tanítják – ez az item ezt méri, anélkül hogy a kvíz tétjét emelné.
 
 **Szár:**
-> Egy **15 éves** kvucában „Szél fújja azt, aki…” közben az egyik chanich **láthatóan rosszul lesz** egy identitást súroló állítás után: elhúzódik, könnybe lábad a szeme. A játék még tart. **Mit teszel ELSŐ lépésként?**
+> Egy **15 éves** kvucában „Szél fújja azt, aki…” közben az egyik hanih **láthatóan rosszul lesz** egy identitást súroló állítás után: elhúzódik, könnybe lábad a szeme. A játék még tart. **Mit teszel ELSŐ lépésként?**
 
 **Opciók:**
-- A) Leállítom a kört egy semleges mondattal („Álljunk meg egy pillanatra, csináljunk egy kis levegőt”), felkínálom mindenkinek a kiülést, nem reflektorozom rá az érintettet – és még a peula alatt jelzem a felelős madrichnak / mentornak. ✅
+- A) Leállítom a kört egy semleges mondattal („Álljunk meg egy pillanatra, csináljunk egy kis levegőt”), felkínálom mindenkinek a kiülést, nem reflektorozom rá az érintettet – és még a peula alatt bevonom a kijelölt Memunát (a Somer gyermekvédelmi felelősét). ✅
 - B) Nyilvánosan megkérdezem tőle a kör előtt, hogy „mi a baj?”, hogy a kvuca lássa, törődünk vele.
 - C) Gyorsan továbbpörgetem a játékot, hogy ne legyen kínos, és a peula után négyszemközt rákérdezek.
 - D) Kiállítom a játékból, hogy pihenjen, és nem szólok róla senkinek, mert nem akarom „nagy ügyet” csinálni belőle.
@@ -358,10 +358,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 **Disztraktor-indok:**
 - B – Jó szándékú („törődünk vele”), DE a nyilvános kikérdezés **reflektorba teszi** és fokozza a kirekesztettség-érzést – pont ezt kerüli a 4 lépés.
 - C – A „ne legyen kínos” logika **magára hagyja** az érintettet, és a peula utánra halasztott jelzés túl késő, ha valaki erősen érintett.
-- D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyermekvédelmi becsatornázást (jelzés a felelősnek) mulasztja el.
+- D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyermekvédelmi becsatornázást (a Memuna bevonását) mulasztja el.
 
 **Visszajelzés:**
-> ✅ Az azonnali teendő négy lépése: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt jelzel a felelős madrichnak / mentornak** – nem maradsz egyedül a helyzettel, és nem halasztod utánra. (M6.A peula; vö. M3: gyermekvédelem)
+> ✅ Az azonnali teendő négy lépése: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt bevonod a Memunát** – nem maradsz egyedül a helyzettel, és nem halasztod utánra. (M6.A peula; vö. az ötlépéses jelzési út, M3.B lépéstérkép)
 
 ---
 
@@ -379,7 +379,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 # (B) RUBRIKA – Játéklap (Assignment + élő társas visszajelzés)
 
-> **LMS-eszköz:** **Moodle Assignment + rubrika**. A társas visszajelzés az M6.B élő műhelyén történik; a Moodle-ban a kapu eredményét a képző/mentor rögzíti.
+> **LMS-eszköz:** **Moodle Assignment + rubrika**. A társas visszajelzés az M6.B élő műhelyén történik; a Moodle-ben a kapu eredményét a képző/mentor rögzíti.
 > **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
 > **Szintezés:** 3 szint – **1 = Még nem (hiányos)**, **2 = Oké (átadható)**, **3 = Erős (mintaértékű)**.
 > **Átmenő küszöb:** minden sor **≥ 2 (Oké)**. A **Biztonság** és az **Inkluzivitás** sor **blokkoló feltétel**: ha bármelyik = 1, a játéklap **javításra megy**, függetlenül a többi sortól.
@@ -391,9 +391,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | # | Kritérium | 1 – Még nem | 2 – Oké (minimum átmenő) | 3 – Erős |
 |---|---|---|---|---|
 | **R1** | **Cél-illeszkedés** (mit tanít / mire való) | Nincs cél, vagy csak az eszköz neve szerepel („névkör”) cél nélkül. | A lapon **1 konkrét, kimondott cél** áll, ami az eszközhöz illik (pl. „biztonságosabban ismerkedjenek”, „észrevegyék a kirekesztést”). | A cél konkrét **és** kapcsolódik egy **someres értékhez** (pl. kvuca, egalitás, társadalmi felelősség), 1 mondatban kimondva, miért ezt tanítja. |
-| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–9-re). | Megadva a **korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör Parparimnál, esetleírás+vita idősebb Leviatannál). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
-| **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrich **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrich kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
-| **R4** | **BIZTONSÁG** *(blokkoló)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop” jelszó, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrich, ha valakinek sok. |
+| **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–9-re). | Megadva a **korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör Parparimnál, esetleírás+vita idősebb Leviatánnál). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. **M3.2-felidézés bónusz:** ha emlékszel, nevezd meg a someres kvuca-típust is (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) – ezt az **M3.2-ben** tanultad (vedd elő a **korosztály-térképedet**), az M6 a korosztály-sávokkal dolgozik, így a típus-megnevezés ráadás, nem feltétel. |
+| **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrih **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrih kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
+| **R4** | **BIZTONSÁG** *(blokkoló)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop” jelszó, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrih, ha valakinek sok. |
 | **R5** | **INKLUZIVITÁS** *(blokkoló)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 megnevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** megnevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
 
 ### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (társak + stáb)
@@ -401,27 +401,32 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 - [ ] **R1** – pontosan **1** kimondott, az eszközhöz illő cél.
-- [ ] **R2** – korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) **+** létszám, és az eszköz–kor páros nem ütközik a tanultakkal.
+- [ ] **R2** – korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) **+** létszám, és az eszköz–kor páros nem ütközik a tanultakkal.
 - [ ] **R3** – legalább **3 lépésből** álló menet **+** időkeret **+** eszközlista.
 - [ ] **R4** *(blokkoló)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
 - [ ] **R5** *(blokkoló)* – legalább **1** megnevezett akadály **+ 1** konkrét alternatív belépési pont.
 
 > **Döntési szabály:** Ha a játéklap **Biztonság (R4) vagy Inkluzivitás (R5) rovata** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két blokkoló sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő társas visszajelzés önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz által jelzett biztonsági vagy inkluzivitási hiányokat a játéklap előtt érdemes pótolni (lásd Kapu-logika és (D) Stáb-jelzések).
 >
-> **Újraleadás javítás után:** a mentor kézzel újranyitja az Assignmentet, és a tanuló ugyanott adja le a javított játéklapot.
+> **Visszajelzés a javításhoz:** ha a játéklap javításra megy, a képző/mentor a lapra **Megfigyelés → Hatás → Következő lépés** szerkezetű visszajelzést ad (az SBI viselkedésre való, a játéklap pedig produktum).
+>
+> **Próbálkozások és újraleadás:** 1 normál + 1 javító leadás jár; a javító leadás nem automatikus, hanem a kötelező F-peula (M6.F) után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele); további próbálkozást csak a képző nyithat, kézzel. A javított játéklapot a tanuló ugyanabban az Assignmentben adja le. A completionhöz a **legjobb megerősített eredmény** számít: egy már megszerzett teljesítés nem romlik vissza egy önkéntes, gyakorló újraleadástól, a legfrissebb leadás pedig visszajelzésként megmarad.
+>
+> **A kapueredmény megerősítése:** a kapu eredményét legkésőbb 24 órával a következő fix alkalom, a pénteki M7.A előtt meg kell erősíteni: beadás szerda 18:00-ig, első értékelés csütörtök délután, megerősítés legkésőbb csütörtök 18:00-ig (a V1 központi naptár szerint: beadás 2027-02-17 18:00, megerősítés 2027-02-18 18:00, M7.A 2027-02-19). A függőben lévő, még nem megerősített eredmény nem bukás. Ha a kapu nem teljesül, az F-peula (M6.F) **kötelező**: facilitált javítási alkalom a kapueredmény megerősítése után és a javító leadás előtt; az időpontját a képző jelöli ki a központi naptár szerint: 2027-02-22 (hétfő), 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hétre, 2027-03-08-ra (hétfő) teheti.
 
 ---
 
 ## (C) Társas visszajelzési keret (M6.B élő műhely)
 
-> Az M6.B-ben a társ **a rubrika mellé** adjon **1 rövid, konkrét produktum-visszajelzést**:
+> Az M6.B-ben a társ **a rubrika mellé** adjon **1 rövid, konkrét produktum-visszajelzést** a **Megfigyelés → Hatás → Következő lépés** modell szerint:
 >
-> - nevezze meg, **melyik konkrét elemre** figyelt fel a játéklapon;
-> - mondja el, **milyen várható hatása** lehet ennek a kvucára, a biztonságra, az inkluzivitásra vagy arra, hogy egy másik madrich mennyire tudja használni a lapot.
+> - **Megfigyelés:** nevezze meg, **melyik konkrét elemre** figyelt fel a játéklapon;
+> - **Hatás:** mondja el, **milyen várható hatása** lehet ennek a kvucára, a biztonságra, az inkluzivitásra vagy arra, hogy egy másik madrih mennyire tudja használni a lapot;
+> - **Következő lépés:** javasolja, mit lenne jó még hozzáadni vagy pontosítani.
 >
-> **Példa:** *„Feltűnt, hogy külön leírtad, kinek lehet nehéz a feladat, és adtál hozzá ülve végezhető alternatívát. Ettől több chanich tud ugyanazzal a céllal bekapcsolódni, és egy másik madrichnak is könnyebb lesz biztonságosan megtartani.”*
+> **Példa:** *„Feltűnt, hogy külön leírtad, kinek lehet nehéz a feladat, és adtál hozzá ülve végezhető alternatívát. Ettől több hanih tud ugyanazzal a céllal bekapcsolódni, és egy másik madrihnak is könnyebb lesz biztonságosan megtartani. Következő lépésként érdemes lehet még egy variációt írni egy másik korosztályra is.”*
 >
-> Ez az M1-ben tanult szemléletre épül, **konkrétumról beszélünk, nem címkézünk**, de az SBI fogalma ettől nem változik: emberre adott SBI-ben a B megfigyelhető viselkedés.
+> Ez az M1-ben tanult szemléletre épül: **konkrétumról beszélünk, nem címkézünk**. Az SBI viselkedésre való – emberre adott SBI-ben a B megfigyelhető viselkedés. Produktumra, így a játéklapra is, a Megfigyelés → Hatás → Következő lépés modellt használjuk.
 >
 > A társas visszajelzés **fejlesztő, nem minősítő**: ha kritika merül fel, „mit lenne jó még hozzáadni” formában fogalmazzuk meg.
 
@@ -429,5 +434,5 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 ## (D) Stáb-jelzések (tanulási analitika, a modul-hub 7. szakasza alapján)
 
-- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online ismétlés + az **M6.F** felzárkóztató peula ajánlása **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 4 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: az érdemi teljesítési bizonyíték és a blokkoló döntés a játéklap **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
-- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → külön műhely „inkluzív játékok és kézművesek” témában + egyéni mentoros munka a kritikus esetekkel.
+- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online ismétlés **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Az **M6.F** (F-peula) nem ide tartozik: az a nem teljesült kapu utáni javítási alkalom. Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 4 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: az érdemi teljesítési bizonyíték és a blokkoló döntés a játéklap **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
+- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → F-peula (M6.F) „inkluzív játékok és kézművesek” fókusszal + egyéni mentoros munka a kritikus esetekkel.

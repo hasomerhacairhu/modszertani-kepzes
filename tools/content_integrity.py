@@ -10,9 +10,12 @@ Read-only and deterministic. Two separate concerns:
 * **Release blockers** (reported, not failing unless ``--strict-release``) —
   learner-release human decisions, unresolved LMS/runtime outputs and open release
   checklists. These are never guessed or auto-filled.
-* **Production-only blockers** — media decisions that can block asset production
-  without automatically blocking the learner release when an equivalent fallback
-  exists. These are reported separately and do not make ``--strict-release`` fail.
+* **Production-only blockers** — media decisions that block asset production.
+  They are reported separately. Under the owner's decision proposal of 2026-10-02
+  (`Emberi jóváhagyás szükséges.md` §5) an open legal or safeguarding media gate
+  still keeps the full learner release from READY: the verdict is then
+  ``CONTENT_READY / MEDIA_PENDING``, and ``--strict-release`` fails until every
+  release-scope media gate is closed or the affected asset is removed/replaced.
 
 Every rule below exists because the corresponding defect occurred in this
 repository. Do not add speculative prose linting: legitimate Hungarian text must
@@ -59,6 +62,18 @@ LEGACY_PATHS = [
     '02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md',
     '02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md',
     '02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md',
+    # 2026-10-02 projektgazdai döntés: „lépéstérkép” és „Nemcsak” (egyszeri, atomikus átnevezés).
+    '02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md',
+    '02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md',
+    # 2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód (madrih, dugma isit, Leviatán).
+    '02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md',
+    '02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md',
+    '02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md',
+    '02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md',
+    '02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md',
+    '02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md',
+    '02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md',
+    '02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md',
 ]
 
 REQUIRED_FILES = [
@@ -148,6 +163,8 @@ FILE_FORBIDDEN_PHRASES = {
     },
     '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md': {
         'Parparim / Kivsza / Leviatan / Zorea':
+            'az M7 kvuca-választója a három aktuális kvucát használja (HUM-SOMER-02)',
+        'Parparim / Kivsza / Leviatán / Zorea':
             'az M7 kvuca-választója a három aktuális kvucát használja (HUM-SOMER-02)',
     },
     '02 Tervezet/Média-assetek/produkcios-szabalyok.json': {
@@ -709,6 +726,15 @@ def production_blockers() -> list[str]:
     return blockers
 
 
+def release_verdict(blockers: list[str], production: list[str]) -> str:
+    """Overall learner-release verdict: content blockers first, then media gates."""
+    if blockers:
+        return 'NO-GO'
+    if production:
+        return 'CONTENT_READY / MEDIA_PENDING'
+    return 'READY'
+
+
 def governance_items() -> list[str]:
     """Open governance decisions: reported, but not a learner-release gate.
 
@@ -911,7 +937,16 @@ def selftest() -> int:
         failures += 1
     print(f'{"ok  " if output_ok else "HIBA"} release-parser — output táblázatsorok')
 
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 6
+    verdict_ok = (
+        release_verdict(['X'], ['Y']) == 'NO-GO'
+        and release_verdict([], ['Y']) == 'CONTENT_READY / MEDIA_PENDING'
+        and release_verdict([], []) == 'READY'
+    )
+    if not verdict_ok:
+        failures += 1
+    print(f'{"ok  " if verdict_ok else "HIBA"} release-verdict — nyitott médiakapu mellett nincs READY')
+
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 7
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 
@@ -938,7 +973,7 @@ def main() -> int:
     check_closed_decisions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []
-    production = production_blockers() if args.release_report else []
+    production = production_blockers() if (args.strict_release or args.release_report) else []
     governance = governance_items() if args.release_report else []
 
     print(f'Objective integrity errors: {len(errors)}')
@@ -957,9 +992,13 @@ def main() -> int:
         for item in governance:
             print(f'GOVERNANCE: {item}')
 
+    verdict = release_verdict(blockers, production)
+    if args.strict_release or args.release_report:
+        print(f'RELEASE-VERDICT: {verdict}')
+
     if errors:
         return 1
-    if args.strict_release and blockers:
+    if args.strict_release and verdict != 'READY':
         return 2
     print('Objective content integrity checks passed.')
     return 0

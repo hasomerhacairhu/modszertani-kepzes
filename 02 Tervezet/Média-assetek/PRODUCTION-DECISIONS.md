@@ -20,23 +20,34 @@ kisebb vagy egyenlő, mint az „érintett”.
 
 ---
 
-## D1 — Vizuális rendszer: stílus-token és someres paletta (R5)
+## D1 — Vizuális rendszer: stílus-token és someres paletta (R5) — LEZÁRVA
+
+> ✅ **Projektgazdai döntés (2026-10-02, `HUM-MEDIA-01`): a D1 lezárva.** D1-a igen: a
+> hivatalos Somer-paletta. D1-b igen: a 2022-es arculati kézikönyv és a hivatalos SVG
+> színgenerációja a kánon. D1-c: a **B változat** (Source Sans 3 + produkciós semleges
+> skála). D1-d igen: a szín szemantikája modulhatókörű, az elsődleges jel a forma és a
+> felirat. D1-e: a `#2B2523` csak a logón belül. Az alábbi két lépcső értékei ennek
+> alapján kitöltve, és a `produkcios-szabalyok.json` R5 szabályából kikerült a nyitott
+> érték. Az asset-szintű R5-blokkolók kivezetése a leckék deklarációiból külön
+> manifeszt-művelet; az aktuális állapotot és a darabszámokat a generált terv
+> ([`MEDIA-PRODUCTION-PLAN.md`](./MEDIA-PRODUCTION-PLAN.md)) mutatja. Utólagos ellenőrzés
+> (vétó/QA): a kreatív/márkafelelős.
 
 **A folyamat eldőlt** (2026-08-27): két lépésben zárjuk — előbb a **stílus-token**, utána
-a **hex-paletta**. Ami hiányzik, az maga a tizenegy érték.
+a **hex-paletta**. A 2026-10-02-i döntés mindkét lépcsőt egyszerre zárta le.
 
-**Miért ez a legfontosabb:** ez a legnagyobb tétel. Amíg nyitva van, 258 asset nem
-gyártható, és ha rosszul indul, 258 asseten kell újragyártani.
+**Miért ez volt a legfontosabb:** ez a legnagyobb tétel. Amíg nyitva volt, 258 asset nem
+volt gyártható, és ha rosszul indult volna, 258 asseten kellett volna újragyártani.
 
-**Jelenlegi bizonyíték:** a tananyagban (leckék, kánoni szabályok) **nincs hex-érték**, és
-nincs jóváhagyott design-system fájl, arculati leírás vagy logó-specifikáció. Ami van, az
-szemantikus színhasználat a
+**A döntés előtti bizonyíték:** a tananyagban (leckék, kánoni szabályok) **nem volt
+hex-érték**, és nem volt jóváhagyott design-system fájl, arculati leírás vagy
+logó-specifikáció. Ami volt, az szemantikus színhasználat a
 leckékben (SBI: kék/zöld/narancs; 3 pillér: kék/piros/zöld; red flag: piros/zöld; M6.4:
 kék/sárga/zöld) és 26 olyan tétel, amelynek a saját technikai jegyzete szerint elég a
 fekete-fehér nyomtatás. Részletek és a teljes lock-lap:
-[`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md). A repository első, még **jóvá
-nem hagyott** hex-forrása a lent hivatkozott
-[`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) javaslata.
+[`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md). A repository első hex-forrása a
+lent hivatkozott [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) javaslata volt;
+annak B változatát fogadta el a döntés.
 
 > 🔎 **2026-08-27: a kérdés lényegesen szűkült.** Egy célzott külső kutatás megtalálta a
 > mozgalom **saját, nyilvánosan elérhető arculati kézikönyvét** és logócsomagját
@@ -46,29 +57,58 @@ nem hagyott** hex-forrása a lent hivatkozott
 > színgeneráció a hatályos, és mit teszünk oda, ahol a kézikönyv hallgat (betűméret-skála,
 > ikon-stílus, semleges skála). A teljes bizonyíték-lánc, a **kiszámított** WCAG-kontrasztok
 > és a két jóváhagyható változat: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md).
-> **Ez bizonyíték, nem jóváhagyás — az R5 blokkoló mind a 258 érintett szemantikus asseten a helyén marad.**
+> **Ez bizonyíték volt, nem jóváhagyás; a jóváhagyást a 2026-10-02-i projektgazdai döntés
+> adta meg (lásd fent).**
 
 **Mit szabadít fel:** R5 lezárása önmagában **245 központilag előgyártható asset / 484 deliverable**. A teljes R5-hatókör **258 szemantikus asset**: ebből 1 `reuse` hely nem gyárt saját deliverable-t, 1 élő/runtime tétel, 3 további emberi döntésre is vár, 8 pedig R2/R3 blokkolót is visz (közülük az `M1.3-VID-01` emberi döntésre is, D11). Így a ténylegesen csak R5-re váró központi gyártási köteg 245 asset.
 
-**Ki dönt:** program-/arculatfelelős, a mozgalmi vizuális identitás jóváhagyójával.
+**Ki döntött:** a projektgazda (2026-10-02). Utólagos ellenőrzés (vétó/QA): a
+kreatív/márkafelelős.
 
 ### 1. lépcső — stílus-token
 
-- betűtípus (címsor / törzs): ⟬KITÖLTENDŐ⟭
-- fejléc-, margó- és rácsrend a nyomtatványokhoz: ⟬KITÖLTENDŐ⟭
-- ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés: ⟬KITÖLTENDŐ⟭
+- betűtípus (címsor / törzs): **Source Sans 3** mindkettőre (címsor félkövér, törzs
+  normál; SIL OFL 1.1); a betűméret-skála a
+  [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 3.4. pontja szerint. A Myriad
+  Pro ott marad, ahol a szervezet maga készít anyagot.
+- fejléc-, margó- és rácsrend a nyomtatványokhoz: a
+  [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 4. szakaszának produkciós
+  ajánlása szerint (A4 álló, 190 mm-es szedéstükör, 12 oszlopos rács, címhely kickerrel és
+  vastag vonallal)
+- ikon-stílus: **körvonalas (outline)**, 24×24-es tervezőrács, **2/24** vonalvastagság,
+  kerek vonalvég és -illesztés; a sarok-lekerekítés sugara a vonalvastagsággal egyezik
+  ([`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 5. szakasz)
 - az AI-provenance címke **vizuális formája és elhelyezése** (a szövege eldőlt — lásd a
-  lezárt D9-et a lap alján): ⟬KITÖLTENDŐ⟭
-- logóhasználat és biztonsági margó: ⟬KITÖLTENDŐ⟭
+  lezárt D9-et a lap alján): mindig **élő LMS-szöveg**, nem képbe égetve; a megjelenése és
+  az elhelyezése a [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 7.3. pontja
+  szerint
+- logóhasználat és biztonsági margó: a **2022-es arculati kézikönyv** szerint — csak a
+  hivatalos csomagból, nem újrarajzolva, nem átszínezve, nem nyújtva, nem forgatva,
+  színátmenet és effekt nélkül; a `#2B2523` csak a logón belül. Külön biztonsági margót és
+  minimális méretet a kézikönyv nem ad meg.
 
 ### 2. lépcső — paletta és karakter
 
-- someres alap-hex-paletta (elsődleges, másodlagos, akcent): ⟬KITÖLTENDŐ⟭
-- háttér- és szövegszín (világos/sötét): ⟬KITÖLTENDŐ⟭
-- az R6 szín-ütközés feloldása (a kék és a zöld ma több jelentést is visel): ⟬KITÖLTENDŐ⟭
-- karakter-stílus és rögzített referencia-seed: ⟬KITÖLTENDŐ⟭
+- someres alap-hex-paletta: `#D84C15` piros, `#F2BC00` sárga, `#87B027` zöld, `#369D37`
+  sötétzöld, `#08A0CA` sötétkék, `#82CDE9` kék (a kézikönyv árnyalatai:
+  [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 1.2.)
+- háttér- és szövegszín: szöveg `#1D1D1B`, halvány szöveg `#5C5C5B`, szerkezeti vonal
+  `#8E8E8D`, dekoratív vonal `#CDCDCD`, felület `#F1F1F1` (a B változat semleges skálája);
+  sötét módot a döntés nem ír elő
+- az R6 szín-ütközés feloldása: a szín szemantikája **modulhatókörű**; az elsődleges jel a
+  forma és a felirat (betűjel). A szín soha nem önálló jelentéshordozó, ezért ugyanaz a
+  szín más modulban újrahasznosítható.
+- karakter-stílus és rögzített referencia-seed: **lapos vektoros illusztráció**, nem
+  fotorealisztikus 3D; generált képben nincs szöveg. A referencia-karakter és a seed
+  rögzítése a karakter-gyártás első lépése
+  ([`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md), P-KAR, 1. lépés).
 
 ### Mit jelent a kétlépcsős zárás a manifesztben — pontosan
+
+> **2026-10-02:** a két lépcső egyszerre zárult, ezért a 26 fekete-fehér nyomtatvány külön
+> kivezetésére már nincs szükség: az R5-blokkoló kivezetése egyetlen, tudatos
+> metaadat-művelet az összes érintett asseten. Az alábbi bekezdés a döntés előtti helyzetet
+> rögzíti.
 
 **A jelenlegi manifeszt egyetlen R5-blokkolót ismer, nem kettőt.** Az első lépcső
 lezárásakor tehát **nem** oldódik fel automatikusan a 26 fekete-fehér nyomtatvány: a terv
@@ -80,8 +120,11 @@ vagy ha az érintett 26 asset `blockers` mezőjéből külön, tudatos metaadat-
 kivezetjük az R5-öt. Ez utóbbi önálló feladat; ez a pass nem végezte el, és séma-módosítást
 nem igényel.
 
-**Mit kell utána átírni:** `produkcios-szabalyok.json` R5 (a nyitott-érték jelölés
-kivezetése), [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) értékei, majd
+**Mit kellett utána átírni:** `produkcios-szabalyok.json` R5 (a paletta kitöltve, a
+nyitott-érték jelölés kivezetve) és R6 (a modulhatókörű feloldás),
+[`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) értékei és a
+[`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) státusza — ezek 2026-10-02-án
+átírva. Ezután: az asset-szintű R5-blokkolók kivezetése, majd
 `python3 tools/media_manifest.py build`.
 
 ---
@@ -92,21 +135,21 @@ kivezetése), [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) érték
 > **szintetikus**, a motor az **ElevenLabs**. A „szintetikus vagy emberi” és a „melyik
 > szolgáltató” kérdés **többé nem nyitott**, és nem is kerül újra elő.
 
-**A megmaradt kérdés egyetlen mondat:** a két forrás-beszélő — **Dombi Miksa** és
-**Budai Enn** — felvételeiből **létrehozandó** két ElevenLabs egyedi hang közül melyik
+**A megmaradt kérdés egyetlen mondat:** a két forrás-beszélő — **VOICE-SRC-01** és
+**VOICE-SRC-02** — felvételeiből **létrehozandó** két ElevenLabs egyedi hang közül melyik
 legyen a tananyag **kanonikus narrátora**? **A hangok még nem készültek el**, ezért a
 meghallgatás még nem futtatható: előbb hozzájárulás-bizonyíték (V2), majd a tanítási
 kimaradás bekapcsolása, és csak utána a két hang létrehozása (azonos módszerrel).
 
-**A) Dombi Miksa**
-**B) Budai Enn**
+**A) VOICE-SRC-01**
+**B) VOICE-SRC-02**
 
 **Ajánlás: nincs — MEGHALLGATÁS SZÜKSÉGES.** Két hang közül dokumentáció alapján nem lehet
 választani: a magyar természetesség, a melegség és a someres szavak kiejtése csak
 hallgatással dönthető el. A hatpárosos összehasonlítás kész, végrehajtható terve —
 beállításokkal, kiejtési figyelőlistával és pontozólappal —
-[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 072 karakter,
-becsült költsége 0,15–0,61 $** — a szolgáltató két árazási felülete eltérő szorzót ad,
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 208 karakter,
+becsült költsége 0,16–0,64 $** — a szolgáltató két árazási felülete eltérő szorzót ad,
 de mindkét olvasatban egy dollár alatt marad.
 
 **Egy hang lesz a narrátor.** Az R3 első mondata egyetlen konzisztens narrátor-hangot ír
@@ -162,7 +205,7 @@ hang-jogosultságról a jogi jóváhagyó és a hang jogosultja.
 **A válasz helye:**
 - felmondó típusa: **szintetikus** ✅
 - motor: **ElevenLabs** ✅
-- kanonikus hang (a Dombi Miksa / Budai Enn forrás-beszélőből készült hangok közül): ⟬KITÖLTENDŐ⟭
+- kanonikus hang (a VOICE-SRC-01 / VOICE-SRC-02 forrás-beszélőből készült hangok közül): ⟬KITÖLTENDŐ⟭
 - voice-ID, modell, beállítások, seed, kiejtési szótár verziója: ⟬KITÖLTENDŐ⟭
 
 **Mit kell utána átírni:** `produkcios-szabalyok.json` R3,
@@ -208,7 +251,7 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 > **J1 — jogi.** A javasolt karakter-jelenet szolgáltató feltételei tartalmaznak egy
 > záradékot, amely tiltja a generatív szolgáltatás használatát olyan online szolgáltatás
 > részeként, amely 18 év alattiakhoz szól vagy hozzájuk valószínűleg eljut. A tananyag
-> célközönsége **15+**. Hogy az **offline legyártott, majd Moodle-ön kiszolgált** asset
+> célközönsége **15+**. Hogy az **offline legyártott, majd Moodle-ben kiszolgált** asset
 > ebbe a mondatba esik-e, **jogi olvasat** — és ha igen, az kizárja a javasolt stacket.
 > A kérdés a karakter-lock képgenerátorát (`gemini-3-pro-image`) is érinti, mert az is
 > ugyanennek a szolgáltatónak a generatív szolgáltatása; a dokumentált tartalék (Runway)
@@ -218,9 +261,23 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 > **J2 — gyermekvédelmi és szerzői.** A vizsgált szolgáltatók feltételei egybehangzóan
 > **felnőtt** megjelenésű avatart és karaktert engednek (kiskorú ábrázolása avatarral
 > tiltott, egyedi avatarhoz nagykorúság kell, a személy-generálás EU-ban felnőttre
-> korlátozott). A tananyag viszont **madrichot** ábrázol, és a kánoni szabály szerint a
-> madrich maga is lehet kiskorú. Ez **nem eszközválasztási kérdés**: a gyermekvédelmi
-> felelősnek és a szerzőnek kell rendeznie. Ez a lap megáll itt.
+> korlátozott). A tananyag viszont **madrihot** ábrázol, és a kánoni szabály szerint a
+> madrih maga is lehet kiskorú. Ez **nem eszközválasztási kérdés**: a Memunának
+> (gyermekvédelmi felelős) és a szerzőnek kell rendeznie. Ez a lap megáll itt.
+>
+> A J1 és a J2 a `HUM-MEDIA-02` alkapuja (projektgazdai döntés, 2026-10-02); felelős és
+> bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. Az alkapuk bizonyítéka
+> ettől még hiányzik.
+
+> **Projektgazdai döntés (2026-10-02, `HUM-MEDIA-03`):** gyermekvédelmi vagy
+> krízis-HOOK-ban nem használunk készlet-AI-beszélőfejet.
+> Az `M2.4-VID-01`, az `M3.3-VID-01` és az `M3.4-VID-01` hangalámondás + tipográfia/grafika;
+> a szintetikus hang miatt az R2 rajtuk marad. Ha mégis beszélőfej kell, csak egyedi,
+> nagykorú avatar jöhet szóba, kifejezett hozzájárulással, jogi/adatvédelmi és
+> gyermekvédelmi felülvizsgálattal. A többi HOOK készlet-avatarjának képmás-licencét a
+> szolgáltató feltételei szerint dokumentálni kell
+> ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) H-3). Utólagos ellenőrzés (vétó/QA): a
+> jogi/adatvédelmi felelős, az érintett jogosultak és a Memuna.
 
 **A válasz helye:**
 - generátor / szolgáltató neve és verziója: ⟬KITÖLTENDŐ⟭
@@ -230,27 +287,30 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 
 ---
 
-## D5 — M3 gyermekvédelmi lépés-térkép poszter (`M3-HUB-POSZ-01`)
+## D5 — M3 gyermekvédelmi lépéstérkép poszter (`M3-HUB-POSZ-01`) — LEZÁRVA
 
-**Állapot:** ideiglenesen végrehajtva, jóváhagyásra vár. **Ajánlás: A** – ez a tananyagban és a manifestben már alkalmazva van, de a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés, ezért jóváhagyás nélkül nem tekinthető lezártnak.
+**Állapot:** végrehajtva és lezárva: az **A** változat, amely a tananyagban és a manifestben már alkalmazva van. A hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés volt; ezt a 2026-10-02-i projektgazdai döntés (`HUM-SAFE-01`) fedi.
+
+> **Projektgazdai döntés (2026-10-02, `HUM-SAFE-01`):** a kánon az ötlépéses jelzési út;
+> minden négylépéses vagy versengő változat ehhez igazodik. Ezzel a D5 lezárult.
 
 A modul-áttekintő és az M3.B **ugyanazt az egyetlen, ötlépéses safeguarding-folyamatot** használja. A hub-poszter nem külön négylépéses anyag, hanem a már meglévő `M3.B-MUNK-01` megjelenése:
 
 - `mode: reuse`
 - `reuse_of: M3.B-MUNK-01`
 
-**Kanonikus öt csomópont** *(szinkronpont: az `M3.B` lépés-térképének — 4.3.2. szakasz,
+**Kanonikus öt csomópont** *(szinkronpont: az `M3.B` lépéstérképének — 4.3.2. szakasz,
 illetve az `M3.B-MUNK-01` `spec` mezője — másolata; a kánoni szöveg ott van, és ha az
 változik, ezt is igazítani kell)*:
-1. Észreveszem / gyanús.
-2. Meghallgatom röviden, biztonságosan, és nem ígérek teljes titoktartást.
-3. Nem maradok egyedül, követem a `HUM-SAFE-01` szerint jóváhagyott helyi jelzési utat.
-4. A felelős felnőttel együtt döntünk a további lépésekről.
-5. Utánkövetés.
+1. Észreveszem, és komolyan veszem.
+2. Meghallgatom, és nem ígérek teljes titoktartást.
+3. Nem nyomozok, nem konfrontálok, és nem próbálom egyedül megoldani.
+4. Azonnal bevonom a kijelölt Memunát (összeférhetetlenség esetén a név szerint kijelölt helyettesét).
+5. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.
 
-Ez megszünteti azt a korábbi hibát, hogy a négylépéses hub-összefoglalóból kimaradt a titoktartás határa és az utánkövetés. Nem keletkezik második safeguarding-poszter vagy párhuzamos folyamat.
+Ez megszünteti azt a korábbi hibát, hogy a négylépéses hub-összefoglaló versengő folyamatot adott, és kimaradt belőle a titoktartás határa. Nem keletkezik második safeguarding-poszter vagy párhuzamos folyamat.
 
-**Ki dönt:** a `Gyermekvédelem – release gate.md` dokumentumban névvel jóváhagyott gyermekvédelmi felelős (HUM-SAFE-01).
+**Ki döntött:** a projektgazda (2026-10-02, `HUM-SAFE-01`). A jóváhagyói rend — szintén projektgazdai döntés —: a Memuna (a Somer mindenkori, a `somer.hu/kapcsolat` oldalon publikált gyermekvédelmi felelőse) mint egyetlen felelős jóváhagyó; a programvezető operatív társdöntő. Utólagos ellenőrzés (vétó/QA): a Memuna és a helyettese, a Ros Hinuh (`Gyermekvédelem – release gate.md`, `Emberi jóváhagyás szükséges.md`).
 
 ---
 
@@ -262,7 +322,7 @@ gyermekvédelmi **jóváhagyás** kell hozzá?
 
 **Jelenlegi bizonyíték:** az R8 szövegében — az R2/R3/R5-tel ellentétben — **nincs**
 kitöltetlen érték: kész, betartható előírás (anonimizálás vagy kikeretezés, kiskorúnál
-előzetes dokumentált szülői hozzájárulás, képernyőképen nincs valós felhasználónév/arc).
+előzetes, dokumentált hozzájárulás — 18 év alatt a résztvevő és a gondviselő együtt —, képernyőképen nincs valós felhasználónév/arc).
 A `README.md` viszont kimondja, hogy ennek a státusza nyitott. Az `M0.A-FOTO-01`
 kézírásos plakátokról készül, és a képző hozza létre a peula után — a produkciós tervben
 ezért az élő/runtime szakaszban áll, nem gyártási kötegben.
@@ -276,33 +336,63 @@ a bizonyítékot a [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) rögzíti.
 és átalakítással, nem külön általános jóváhagyás. **Ez nem jogi lezárás:** a jelenlegi R8
 blokkolók emiatt nem kerültek ki egyik assetről sem.
 
+> **Projektgazdai döntés (2026-10-02, `HUM-PRIV-02`):** alapértelmezésben nincs fotó,
+> videó vagy hangfelvétel, csak indokolt célból; minden médiaaktivitásnál rögzíteni kell a
+> célt, a jogalapot, a hozzáférést, a megőrzést és a törlést. A kézírásos plakátot
+> lehetőleg fizikailag őrizzük meg. Ha fotó kell: előbb a nevek és azonosítók eltávolítása,
+> a háttérben ne legyen gyerek, feltöltés ellenőrzött tárhelyre, majd törlés a saját
+> eszközről. **Jogalap és megőrzés** (szintén projektgazdai döntés): fotó, videó és hang
+> csak külön, önkéntes hozzájárulással, a cél teljesüléséig, legfeljebb 90 napig, hacsak
+> nincs külön archiválási hozzájárulás (`Adatvédelem – tanulói adatok és AI.md` 3.
+> szakasz). **A hozzájárulás adója** (projektgazdai döntés, 2026-10-02; utólagos
+> ellenőrzés (vétó/QA): a DPO): 18 év alatt a résztvevő és a gondviselő együtt, 18 év
+> felett a résztvevő (`Adatvédelem – tanulói adatok és AI.md` 4. szakasz). A hozzájárulás
+> bizonyítéka ettől még hiányzik ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R8-2,
+> R8-3). Az `M0.A-FOTO-01` adatkezelési kérdéseinek egyetlen helye a kánoni
+> `HUM-PRIV-02`; ez a lap nem tart rájuk külön mezőt. Az R8 státuszáról (A vagy B) a döntés
+> kifejezetten nem szól. Utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős.
+
 **Mit szabadít fel:** R8 önmagában **0 asset** a központi gyártásból — az egyetlen érintett
 tétel (`M0.3-FOTO-01`) az R7-re is vár. Az `M0.A-FOTO-01` élő/runtime tétel.
 
-**Ki dönt:** gyermekvédelmi felelős + adatvédelmi (DPO) felelős.
+**Ki dönt:** a Memuna (gyermekvédelmi felelős) + adatvédelmi (DPO) felelős; a felvételek
+adatkezeléséről projektgazdai döntés van (`HUM-PRIV-02`, 2026-10-02).
 
 **A válasz helye:** R8 státusza (szabály / kapu): ⟬KITÖLTENDŐ⟭
 
 ---
 
-## D10 — A ken alkohol- és dohányzási magatartási kódexe (M3.4)
+## D10 — A ken alkohol- és dohányzási magatartási kódexe (M3.4) — LEZÁRVA
 
 **Kérdés:** mi a szervezet élesítéskor hatályos, írásban jóváhagyott alkohol- és
 dohányzási szabályzata (mit, hol, milyen kortól)?
 
-**Miért van itt:** ez nem új döntés — a kánoni `Emberi jóváhagyás szükséges.md` már
-nyitott szervezeti tételként tartja nyilván. Az viszont csak most látszik, hogy **két
-média-assetet is gátol**: az `M3.4-EGY-03` sorting-feladat 6–8. kártyája és az
-`M3.4-DIA-01` diagram 3C blokkja a kódex tartalmától függ. A lecke maga mondja ki:
-„Ennek hiányában ez a tartalmi rész nem élesíthető.” Korábban egyik asset készültségi
+> **Projektgazdai döntés (2026-10-02, `HUM-SAFE-04`):** kiskorúaknak szóló programon nulla alkohol, dohány, e-cigaretta (vape) és
+> nikotintermék; 18 év alatt ezek egyike sem. Felelős felnőtt szolgálat alatt nem fogyaszt
+> alkoholt, és nem lehet befolyásolt állapotban. Dohányozni csak szolgálaton kívül, kijelölt
+> helyen, a gyerekektől elkülönítve lehet. A törvény minimumként tiltja az alkohol és a
+> dohány kiszolgálását 18 év alatt; a szervezet ennél szigorúbb szabályt alkalmaz. A 3C blokk
+> tartalma ezt követi. Amíg a leckében álló `decision` mező nem üres, a manifeszt a két
+> assetet `emberi döntésre vár` állapotban tartja; a mező kivezetése a lecke és a
+> következő build dolga.
+
+**Miért van itt:** ez nem új döntés — a kánoni `Emberi jóváhagyás szükséges.md`
+szervezeti tételként tartja nyilván (`HUM-SAFE-04`, 2026-10-02 óta projektgazdai döntéssel
+lezárva). A döntés előtt az is látszott, hogy **két média-assetet is gátol**: az
+`M3.4-EGY-03` sorting-feladat 6–8. kártyája és az `M3.4-DIA-01` diagram 3C blokkja a kódex
+tartalmától függ. A lecke korábban ki is mondta: „Ennek hiányában ez a tartalmi rész nem
+élesíthető.” Korábban egyik asset készültségi
 állapota sem tükrözte ezt — az `M3.4-EGY-03` emiatt tévesen a „most gyártható” kötegben
 állt.
 
 **Mit szabadít fel:** 2 asset / 3 deliverable. Az `M3.4-DIA-01` ezen felül az R5-re is vár.
 
-**Ki dönt:** a kánoni `Emberi jóváhagyás szükséges.md` `HUM-SAFE-04` tételének
-jóváhagyói; ez a lap nem nevez meg saját jóváhagyót. A válasz helye is a kánoni
-`Emberi jóváhagyás szükséges.md`, nem ez a lap.
+**Ki döntött:** projektgazdai döntés (2026-10-02, `HUM-SAFE-04`); utólagos ellenőrzés
+(vétó/QA): a kánoni `Emberi jóváhagyás szükséges.md` `HUM-SAFE-04` tételében megnevezett
+szerepek — köztük a Memuna (gyermekvédelmi felelős), aki a projektgazda által rögzített
+jóváhagyói rend szerint gyermekvédelmi ügyben az egyetlen felelős jóváhagyó. Ez a lap nem
+nevez meg saját jóváhagyót. A válasz helye is a kánoni `Emberi jóváhagyás szükséges.md`,
+nem ez a lap.
 
 **Megjegyzés:** a 3A és 3B témablokk tartalma kész; csak a 3C függ a kódextől.
 
@@ -311,13 +401,13 @@ jóváhagyói; ez a lap nem nevez meg saját jóváhagyót. A válasz helye is a
 ## D11 — Az `M1.3-VID-01` párbeszéde: dialógushangok és gyártási út
 
 **Kérdés:** milyen hangokkal és milyen gyártási úton készüljön az `M1.3-VID-01` két
-madrich képernyőn zajló párbeszéde? A
+madrih képernyőn zajló párbeszéde? A
 [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 8. szakasza ehhez **két megkülönböztethető hangot** ír
 elő, a stack néma generálása ([`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) 5. szakasz)
 viszont erre a jelenetre nem alkalmazható: utólag aláillesztett hangnál nincs szájszinkron.
 Nyitott:
 
-- melyik hang(ok) szólaltatják meg a két madrichot — a második hang szerepe a D2 szerint
+- melyik hang(ok) szólaltatják meg a két madrihot — a második hang szerepe a D2 szerint
   külön, későbbi döntés;
 - a dialógushang(ok) jogosultsága (R2, V2);
 - a kétszereplős, szájszinkronos gyártási út.
@@ -329,6 +419,12 @@ készül.
 **Miért van itt:** az asset `decision` mezője erre a tételre mutat, ezért a manifeszt
 kapuzza: az `M1.3-VID-01` `emberi döntésre vár` állapotú, és a BATCH 6-ban áll, tehát az
 R2, R3 és R5 lezárása önmagában nem teszi gyárthatóvá.
+
+> **Projektgazdai döntés (2026-10-02, `HUM-MEDIA-02`):** a D11 a hangjogosultsági
+> bizonyítékig blokkolt, és hallgatólagosan nem tekintjük elfogadottnak. A bizonyíték a
+> korlátozott hozzáférésű hangjogosultsági nyilvántartásba (`VOICE-RIGHTS-REGISTER`)
+> kerül, nem a repositoryba ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md)). Utólagos
+> ellenőrzés (vétó/QA): a jogi/adatvédelmi felelős és a hang tulajdonosai.
 
 **Ki dönt:** a hang-jogosultságról a `HUM-MEDIA-02` jóváhagyói (jogi/privacy felelős + a
 hang tulajdonosa); a hangkiosztásról és a gyártási útról: ⟬KITÖLTENDŐ⟭.
@@ -353,13 +449,21 @@ készíthető. Nem indokolja egyetlen más köteg csúszását sem — ez az uto
 vonatkozó runtime-elfogadás az `LMS – H5P runtime acceptance.md` dokumentumban lakik.
 
 **A kurzus release-kapui.** A `RELEASE-READINESS.md`, a gyermekvédelmi és az adatvédelmi
-gate NEM ennek a dokumentumnak a hatásköre, és nem is zárható le média-oldalról.
+gate NEM ennek a dokumentumnak a hatásköre, és nem is zárható le média-oldalról. A
+médiakapuk release-hatásáról viszont projektgazdai döntés van (2026-10-02;
+`Emberi jóváhagyás szükséges.md` 5. szakasz; utólagos ellenőrzés (vétó/QA): a release
+owner és a jogi/adatvédelmi felelős): a jogi és
+a gyermekvédelmi médiakapuk blokkolják az általuk érintett tanulói asset release-ét, és a
+teljes release csak akkor `READY`, ha minden release-hatókörű médiakapu zárt, vagy az
+érintett assetet eltávolították vagy helyettesítették. A leképezés:
+[`RELEASE-MEDIA-STATUS.md`](./RELEASE-MEDIA-STATUS.md) 4. szakasz.
 
 ---
 
-## Lezárt döntések (2026-08-27)
+## Lezárt döntések (2026-08-27, 2026-10-02)
 
-Nyomon követhetőségért; ezek már nem kérdések.
+Nyomon követhetőségért; ezek már nem kérdések. A 2026-10-02-án lezárt D1, D5 és D10 a
+fenti saját szakaszában maradt, mert ott állnak a kitöltött értékei.
 
 | ID | Döntés | Mi történt a kánoni forrásban |
 |---|---|---|
@@ -367,5 +471,5 @@ Nyomon követhetőségért; ezek már nem kérdések.
 | **D4** | Az M4 HOOK-formátum marad vegyes: az M4.2–M4.4 statikus illusztrációval nyit, új beszélőfej-videó nem készül (A opció). | Az `M4.2-ILL-01` `decision` mezője kiürült; az asset a szokásos R5 alatt gyártandó. |
 | **D6** | Az `M1.3-VID-01` HOOK-dialógjának szövege jóváhagyva (A opció). | A szó szerinti szöveg `@source` blokkba került az M1.3 leckében (`M1.3-VID-01-VO`), az asset `source_ref`-fel hivatkozik rá, a felirat és a leirat onnan generálódik. Az asset továbbra is R2 + R3 + R5 alatt áll. |
 | **D7** | Az `M3.2-NAR-02` opcionális narráció **nem készül el** (B opció). | A szemantikus asset és a három deliverable megszűnt; a dia látható tartalma változatlan, csak az „Opcionális narráció (30–40 mp)” sor került ki. A három történeti v1 sor `NO_LONGER_REQUIRED` diszpozícióval, indoklással egyeztetve (`_legacy/legacy-dispositions.json`). |
-| **D9** | A kanonikus, tanulónak látható AI-provenance címke szövege: **„AI-generált médiaelem · emberi lektorálással.”** | Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve mind a 21 aktív előfordulásra a tananyagban. A címke **vizuális megjelenése és elhelyezése** továbbra is a D1 első lépcsőjétől függ. |
+| **D9** | A kanonikus, tanulónak látható AI-provenance címke szövege: **„AI-generált médiaelem · emberi lektorálással.”** | Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve mind a 21 aktív előfordulásra a tananyagban. A címke **vizuális megjelenése és elhelyezése** a D1 első lépcsőjéből következik (2026-10-02: élő LMS-szöveg, a `PRODUCTION-STYLE-TOKEN.md` 7.3. pontja szerint). |
 | **F-02** | Az élő/runtime tételek nem számítanak a központi „most gyártható” kötegbe. | `technical.production_phase: trainer-at-runtime` három asseten (`M0.A-EGY-01`, `M0.A-FOTO-01`, `Z.A-KART-04`); a produkciós terv külön szakaszban mutatja őket, a rájuk vonatkozó kapukkal együtt. A követelményük és a deliverable-jük megmarad. |

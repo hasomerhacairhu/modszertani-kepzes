@@ -73,6 +73,34 @@ FINAL_CLEANUP_2026_09_29_RENAMES = {
         "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md",
 }
 
+# The 2026-10-02 owner decisions renamed files atomically: "lépéstérkép" and
+# "Nemcsak", then the local Somer spelling (madrih, dugma isit, Leviatán). Same
+# purpose as above: the pre-rename path that carried the baseline. M3.2 was
+# renamed twice, so it maps straight to its baseline path.
+DECISIONS_2026_10_02_RENAMES = {
+    "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md":
+        "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md",
+    "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md":
+        "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md":
+        "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md":
+        "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md",
+    "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md":
+        "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md":
+        "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md":
+        "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md":
+        "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md":
+        "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
+    "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md":
+        "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md",
+}
+BASELINE_RENAMES = {**FINAL_CLEANUP_2026_09_29_RENAMES, **DECISIONS_2026_10_02_RENAMES}
+
 #: Approved learner- and trainer-visible text. Every authoring file whose visible
 #: text (metadata blocks stripped) differs from the baseline above is pinned here
 #: by sha256, with the reason it was approved. Re-pin only with a reason:
@@ -87,7 +115,7 @@ def visible_fingerprint(text: str) -> str:
 
 def baseline_text(rel: str) -> str | None:
     """The file's text at the baseline commit, or None when it did not exist."""
-    baseline_rel = FINAL_CLEANUP_2026_09_29_RENAMES.get(rel, rel)
+    baseline_rel = BASELINE_RENAMES.get(rel, rel)
     blob = subprocess.run(["git", "-C", str(mm.ROOT), "show",
                            f"{BASELINE_COMMIT}:{baseline_rel}"], capture_output=True)
     return blob.stdout.decode("utf-8") if blob.returncode == 0 else None
@@ -1458,12 +1486,20 @@ class TestBlockerSemantics(unittest.TestCase):
         self.assertEqual(["M0.3-FOTO-01"], [a["id"] for a in gated])
         self.assertIn("screenshot", gated[0]["title"].lower())
 
-    def test_r5_holds_every_ai_character_scene_its_own_text_names(self):
+    def test_r5_is_a_closed_convention_that_blocks_no_asset(self):
+        """D1 closed on 2026-10-02 (HUM-MEDIA-01): the palette and style token are fixed.
+
+        R5 stays a production rule (one icon batch, a locked reference character for
+        the AI character scenes), but it has no open value left, so it may not hold
+        any asset. The character scenes stay blocked by their rights gates.
+        """
         rule = next(r for r in mm.production_rules() if r["id"] == "R5")
+        self.assertNotIn("KITÖLTENDŐ", rule["text"])
         self.assertIn("M1.3-VID-01", rule["text"])
         self.assertIn("M4.1-VID-03/04/05", rule["text"])
+        self.assertEqual([], self._with("R5"))
         for aid in ("M1.3-VID-01", "M4.1-VID-03", "M4.1-VID-04", "M4.1-VID-05"):
-            self.assertIn("R5", self.by_id[aid]["blockers"], aid)
+            self.assertIn("R2", self.by_id[aid]["blockers"], aid)
 
     def test_resolving_a_rule_never_lifts_a_structural_block(self):
         for asset in self.model["assets"]:
@@ -1668,9 +1704,13 @@ class TestApprovedDecisions(unittest.TestCase):
             self.assertIn(phrase, asset["source_text"], phrase)
 
     def test_m13_hook_still_carries_its_real_gates(self):
-        """Approving the script must not make the video producible."""
+        """Approving the script must not make the video producible.
+
+        D1 (the visual system) closed on 2026-10-02, so R5 no longer holds it;
+        the rights gates (R2, R3) and the D11 voice decision still do.
+        """
         asset = self.by_id["M1.3-VID-01"]
-        self.assertEqual({"R2", "R3", "R5"}, set(asset["blockers"]))
+        self.assertEqual({"R2", "R3"}, set(asset["blockers"]))
         self.assertEqual("pending-human-decision", asset["status"])
 
     def test_the_lesson_no_longer_hedges_the_approved_dialogue(self):
@@ -1714,7 +1754,7 @@ class TestApprovedDecisions(unittest.TestCase):
 
     def test_the_m32_slide_keeps_its_visible_content(self):
         lesson = (mm.ACTIVE_ROOT / "Modulok/M3/Online leckék"
-                  / "M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md")
+                  / "M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md")
         text = lesson.read_text(encoding="utf-8")
         for kept in ("Miért fontos, hogy máshogy nézz rá a kvucákra?",
                      "előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen",
@@ -1723,11 +1763,11 @@ class TestApprovedDecisions(unittest.TestCase):
 
     # --- D4: the M4 HOOK format question is answered -------------------------
 
-    def test_the_m4_hook_decision_is_closed_and_the_asset_keeps_r5(self):
+    def test_the_m4_hook_decision_is_closed_and_the_closed_d1_released_the_asset(self):
         asset = self.by_id["M4.2-ILL-01"]
         self.assertEqual("", asset["decision"])
-        self.assertEqual("pending-production-rule", asset["status"])
-        self.assertIn("R5", asset["blockers"])
+        self.assertEqual("spec-ready", asset["status"])
+        self.assertNotIn("R5", asset["blockers"])
         for lesson in ("M4.2 – Aktív hallgatás & visszatükrözés.md",
                        "M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
                        "M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md"):
@@ -1791,21 +1831,21 @@ class TestLiveDeliverables(unittest.TestCase):
         for key, info in self.plan["pilots"].items():
             self.assertFalse(mm.is_live_deliverable(info["asset"]), key)
 
-    def test_an_asset_whose_copy_waits_on_an_org_decision_is_not_ready(self):
-        """A dependency written only in `notes` used to leave the item in batch 0.
+    def test_an_org_decision_closed_in_the_register_releases_its_assets(self):
+        """`M3.4-EGY-03` and `M3.4-DIA-01` waited on HUM-SAFE-04 (the ken alcohol and tobacco code).
 
-        `M3.4-EGY-03`'s answer key partly depends on the ken alcohol and tobacco
-        code, which the canonical approval list keeps open and the lesson calls
-        "nem élesíthető" without. It must not read as producible now.
+        The approval register closed HUM-SAFE-04 on 2026-10-02, so neither asset may
+        still carry a `decision` or read as pending-human-decision. If a veto reopens
+        the item, the `decision` field goes back on both assets and this test flips
+        back with the register heading.
         """
+        approvals = (mm.ACTIVE_ROOT / "Emberi jóváhagyás szükséges.md").read_text(encoding="utf-8")
+        self.assertIn("HUM-SAFE-04 — Alkohol- és dohányzási szabály — LEZÁRVA", approvals)
         by_id = {a["id"]: a for a in self.model["assets"]}
         for asset_id in ("M3.4-EGY-03", "M3.4-DIA-01"):
             asset = by_id[asset_id]
-            self.assertTrue(asset["decision"], asset_id)
-            self.assertEqual("pending-human-decision", asset["status"], asset_id)
-            self.assertNotEqual("B0", mm.batch_of(asset), asset_id)
-        approvals = (mm.ACTIVE_ROOT / "Emberi jóváhagyás szükséges.md").read_text(encoding="utf-8")
-        self.assertIn("HUM-SAFE-04 — Alkohol- és dohányzási szabály", approvals)
+            self.assertFalse(asset.get("decision"), asset_id)
+            self.assertNotEqual("pending-human-decision", asset["status"], asset_id)
 
     def test_plan_totals_still_agree_with_the_manifest(self):
         rows = mm.plan_csv_rows(self.model)

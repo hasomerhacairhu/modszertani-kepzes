@@ -19,8 +19,8 @@ végrehajtható összehasonlítás — beállítások, kiejtési figyelőlista, 
 [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 
 > ✅ **2026-08-28: a szolgáltatói kérdés lezárult.** A felmondás **szintetikus**, a motor
-> az **ElevenLabs**, és a jelöltek a két forrás-beszélő — **Dombi Miksa** és **Budai
-> Enn** — felvételeiből **létrehozandó** egyedi hangok; **a hangok még nem készültek el**.
+> az **ElevenLabs**, és a jelöltek a két forrás-beszélő — **VOICE-SRC-01** és
+> **VOICE-SRC-02** — felvételeiből **létrehozandó** egyedi hangok; **a hangok még nem készültek el**.
 > Az itt kijelölt három szkript ezért már nem „motorválasztási” tesztanyag, hanem a
 > **két hang összehasonlításának** anyaga — hatmintás mátrixban, a hangok létrehozása után.
 
@@ -30,11 +30,11 @@ végrehajtható összehasonlítás — beállítások, kiejtési figyelőlista, 
 
 | # | Asset | Forrásblokk | Szó | Lecke-időkeret | Mit tesztel elsősorban |
 |---|---|---|---:|---|---|
-| **P1** | `M3.1-NAR-02` | `M3.1-NAR-02-VO` | 125 | 60–75 mp | hosszú magyarázó ív, hangsúlykezelés, angol szakszavak magyar mondatban |
+| **P1** | `M3.1-NAR-02` | `M3.1-NAR-02-VO` | 136 | 60–75 mp | hosszú magyarázó ív, hangsúlykezelés, angol szakszavak magyar mondatban |
 | **P2** | `M6.2-NAR-04` | `M6.2-NAR-04-VO` | 71 | 40–50 mp | visszafogott érzelmi sáv, párbeszéd-idézet, mozgalmi köznevek |
 | **P3** | `M3.1-NAR-05` | `M3.1-NAR-05-VO` | 40 | 15–20 mp | kiejtés — mind a három aktuális kvuca-tulajdonnév egyetlen mondatban |
 
-Együtt kb. **236 szó ≈ 2 perc** kész hang. Ennyi elég a döntéshez, és nem terheli meg a
+Együtt kb. **247 szó ≈ 2 perc** kész hang. Ennyi elég a döntéshez, és nem terheli meg a
 próba-keretet.
 
 ### Mit fed le a három szkript a hang-bible 6. szakaszának kiejtési táblájából
@@ -43,15 +43,15 @@ próba-keretet.
 |---|---|
 | `kvuca` / `kvucá-` (c = /ts/) | P1, P2, P3 |
 | `Somer` / `someres` (s = /ʃ/) | P1, P3 |
-| `madrich`, `madrichhoz` (szóvégi torokhang) | P2 |
-| `chanich` (szóeleji **és** szóvégi torokhang) | P2 |
+| `madrih`, `madrihhoz` (szóvégi torokhang) | P2 |
+| `hanih` (szóeleji **és** szóvégi torokhang) | P2 |
 | `peula` | P2 |
-| `Parparim`, `Kivsza`, `Leviatan` | P3 |
+| `Parparim`, `Kivsza`, `Leviatán` | P3 |
 | `Tuckman` (szerzőnév, kiejtés rögzítendő) | P1 |
 | évszám felmondása (`1977`) | P1 |
 
 **Amit a három szkript NEM fed le** — ezeket a köteg-jóváhagyáskor külön kell
-ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma ishit`, `hagshama`, `bogrim`,
+ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma isit`, `hágsámá`, `bogrim`,
 `mazkirut`, `Hasomer Hacair`, `Johari`, `SBI` betűzés, korosztály-tartományok
 (`6–9`, `13–17`), időtartamok (`45’`, `45 mp`).
 
@@ -60,10 +60,10 @@ ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma ishit`, `hagshama`, `
 ## 2. P1 — Nyugodt magyarázó narráció
 
 - **Asset:** `M3.1-NAR-02` — *INPUT 1 narráció – Tuckman 4+1 szakasz*
-- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-02-VO` (deklaráció: 255. sor, törzs: 256–275. sor)
-- **Forrás-hash:** `0ec386081b2a7fab`
-- **Lecke-időkeret:** kb. 60–75 mp · **125 szó** → 100–125 szó/perc
-- **Céltempó szerint:** 110 szó/percen **68 mp** — a keretben marad.
+- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-02-VO` (deklaráció: 254. sor, törzs: 255–275. sor)
+- **Forrás-hash:** `92d86f7be3c403a5`
+- **Lecke-időkeret:** kb. 60–75 mp · **136 szó** → 109–136 szó/perc
+- **Céltempó szerint:** 110 szó/percen **74 mp** — a keretben marad.
 
 ### Miért ez a reprezentatív magyarázó szkript
 
@@ -91,6 +91,7 @@ ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma ishit`, `hagshama`, `
 >
 > 👉 A második a **storming**, amikor jönnek a viták, beszólások, klikkek.
 > Ez fárasztó lehet, de **nem hiba**, hanem a fejlődés része.
+> Figyelj: a storming kölcsönös vita – a célzott bántás már nem storming.
 >
 > 👉 A harmadik a **norming**, amikor megszületnek a közös szabályok.
 > Már jobban figyelnek egymásra, és elkezd kialakulni a bizalom.
@@ -101,7 +102,7 @@ ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma ishit`, `hagshama`, `
 > 👉 Tuckman 1977-ben, Mary Ann Jensennel közösen tett hozzá egy ötödiket, az **adjourning**-ot, vagyis a **lezárást**.
 > Ez a kvuca búcsúja: amikor egy someres ciklus véget ér, és szépen elköszöntök egymástól.”
 
-*A kánoni példány a leckében áll; ez a másolat a `0ec386081b2a7fab` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
+*A kánoni példány a leckében áll; ez a másolat a `92d86f7be3c403a5` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
 
 ### Kiejtés-érzékeny elemek
 
@@ -125,8 +126,8 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 ## 3. P2 — Érzelmileg telítettebb, reflektív narráció
 
 - **Asset:** `M6.2-NAR-04` — *Narráció – SLIDE 4 történet 2. rész*
-- **Forrás:** `02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md`, `@source` blokk `M6.2-NAR-04-VO` (deklaráció: 494. sor, törzs: 495–514. sor)
-- **Forrás-hash:** `72d4bb4dbb80803a`
+- **Forrás:** `02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md`, `@source` blokk `M6.2-NAR-04-VO` (deklaráció: 492. sor, törzs: 493–512. sor)
+- **Forrás-hash:** `f78f0c8b737f2434`
 - **Lecke-időkeret:** kb. 40–50 mp · **71 szó** → 85–106 szó/perc
 - **Céltempó szerint:** 110 szó/percen **39 mp** — a keret alsó szélén, tehát **van hely a szüneteknek**. Ez itt szándékos.
 
@@ -140,8 +141,8 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
   (`‘Figyi, szerintünk ez nem volt oké. / Lehetett volna valamit csinálni?’`), ráadásul
   két sorra tördelve. A hangnak jeleznie kell, hogy idézet — de a 8. szakasz szerint
   **nem külön karakterhanggal**: ez narrátori idézés, nem dialógus-asset.
-- Hordozza a három leggyakoribb mozgalmi köznevet (`madrich`, `chanich`, `peula`) és a
-  toldalékolt `madrichhoz` / `kvucának` alakot.
+- Hordozza a három leggyakoribb mozgalmi köznevet (`madrih`, `hanih`, `peula`) és a
+  toldalékolt `madrihhoz` / `kvucának` alakot.
 - Egyetlen félkövér kiemelés zárja (`a történet tükröt tarthat a kvucának`) — a
   hangsúly a lezáró mondaton ül, nem szórva.
 
@@ -151,7 +152,7 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 > „A beszólás után Lili elhallgat.
 > Lehajtja a fejét, hátradől.
 >
-> A madrich hallja, mi történt.
+> A madrih hallja, mi történt.
 > Látszik rajta, hogy gondolkodik,
 > de végül csak megköszöni Lilinek a megosztást,
 > és megy tovább a kör.
@@ -159,7 +160,7 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 > A peula véget ér.
 > Lili szinte végig csendben marad.
 >
-> A végén két chanich odamegy a madrichhoz,
+> A végén két hanih odamegy a madrihhoz,
 > és azt mondják:
 > ‘Figyi, szerintünk ez nem volt oké.
 > Lehetett volna valamit csinálni?’
@@ -167,14 +168,14 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 > Most jön az a rész,
 > ahol **a történet tükröt tarthat a kvucának**.”
 
-*A kánoni példány a leckében áll; ez a másolat a `72d4bb4dbb80803a` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
+*A kánoni példány a leckében áll; ez a másolat a `f78f0c8b737f2434` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
 
 ### Kiejtés-érzékeny elemek
 
 | Elem | Elvárás | Forrás |
 |---|---|---|
-| `madrich`, `madrichhoz` | szóvégi **ch** torokhang — nem /cs/, nem /k/; a toldalékolt alakban is | glosszárium, hang-bible 6. |
-| `chanich` | a **ch** ugyanaz a torokhang **szó elején is** | glosszárium, hang-bible 6. |
+| `madrih`, `madrihhoz` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/, nem /k/; a toldalékolt alakban is | hang-bible 6. |
+| `hanih` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | hang-bible 6. |
 | `peula` | „peula”, kisbetűs köznév | glosszárium |
 | `kvucának` | hosszú á a toldalékolt tőben | glosszárium |
 | `Lili`, `Lilinek` | magyar keresztnév | — |
@@ -190,8 +191,8 @@ regiszter enyhén vált, a hangszín nem.
 ## 4. P3 — Kiejtés-sűrű narráció
 
 - **Asset:** `M3.1-NAR-05` — *Outro narráció – átvezetés M3.2-re*
-- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-05-VO` (deklaráció: 816. sor, törzs: 817–823. sor)
-- **Forrás-hash:** `1e11927c2c353b9d`
+- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-05-VO` (deklaráció: 811. sor, törzs: 812–818. sor)
+- **Forrás-hash:** `17184b1a6e2cf25c`
 - **Lecke-időkeret:** 15–20 mp · **40 szó** → 120–160 szó/perc
 
 > ⚠️ **Mért eltérés, nem hiba a szkriptben.** A céltempón (110 szó/perc) ez a szöveg
@@ -205,10 +206,9 @@ regiszter enyhén vált, a hangszín nem.
 ### Miért ez a reprezentatív kiejtési szkript
 
 - A tananyag **legsűrűbb someres kiejtési tesztje**: 40 szóban több kiejtés-érzékeny elem, köztük **mind a három aktuális kvuca-tulajdonnév egyetlen felsorolásban**.
-- A `Leviatan` a legmagasabb kockázatú szó a teljes korpuszban: a glosszárium
-  **kifejezetten tiltja** a „Leviatán” alakot, egy magyar TTS pedig automatikusan
-  ékezetesíti. Ha egy hang ezt elrontja, az minden `Leviatan`-előfordulásnál látszani
-  fog.
+- A `Leviatán` hangzóhossza: a projektgazdai döntés (2026-10-02) szerint a first-party
+  „Leviatán” alak a kánon, hosszú á-val; a tananyag írott alakja gépi migrációval vált át.
+  Ha egy hang ezt elrontja, az minden előfordulásnál látszani fog.
 - Rövid: egy jelölt kiejtési profilja 20 másodperc alatt eldönthető, mielőtt a hosszabb
   szkriptekre költenél.
 
@@ -218,10 +218,10 @@ regiszter enyhén vált, a hangszín nem.
 > „Köszi, hogy végigmentél ezen a leckén.
 > Most már van egy térképed arról, hogyan fejlődik egy kvuca.
 > A következő részben belenagyítunk a három aktuális someres kvucába:
-> Parparim, Kivsza és Leviatan –
+> Parparim, Kivsza és Leviatán –
 > hogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”
 
-*A kánoni példány a leckében áll; ez a másolat az `1e11927c2c353b9d` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
+*A kánoni példány a leckében áll; ez a másolat az `17184b1a6e2cf25c` hash-hez tartozik. Ha a lecke szövege változik, a hash változik, és ezt a másolatot frissíteni kell — a felvétel akkor is a leckéből készül.*
 
 ### Kiejtés-érzékeny elemek
 
@@ -229,7 +229,7 @@ regiszter enyhén vált, a hangszín nem.
 |---|---|---|
 | `Parparim` | „parparim” | glosszárium |
 | `Kivsza` | „kivsza” | glosszárium |
-| `Leviatan` | „leviatan” — **ékezet nélkül**, a „Leviatán” alak tiltott | glosszárium (kifejezett tiltás) |
+| `Leviatán` | „leviatán” — hosszú **á**, a first-party „Leviatán” alak szerint | projektgazdai döntés (2026-10-02); hang-bible 6. |
 | `kvuca`, `kvucába` | c = /ts/; a toldalékolt tőben hosszú á | glosszárium |
 | `someres` | s = /ʃ/ | glosszárium |
 | `és` a felsorolás végén, `–` gondolatjel | a gondolatjel szünet, nem felmondandó | hang-bible 5. |
@@ -260,7 +260,7 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
    motorválasztás idejéből maradt itt; a motor azóta eldőlt, és a kétkörös futtatás
    megkétszerezné a hat mintát.)*
 5. **A jóváhagyó magyar anyanyelvű, someres szóhasználatot ismerő ember.** A
-   `Leviatan` / `kvuca` / `chanich` alak helyességét nem lehet leírt átiratból eldönteni.
+   `Leviatán` / `kvuca` / `hanih` alak helyességét nem lehet leírt átiratból eldönteni.
 
 ## 6. Elfogadási feltétel a hang-pilotra
 
@@ -268,8 +268,10 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
 - [ ] P1 tempója 100–125 szó/perc között marad, és a kilenc kiemelés hallható;
 - [ ] P1-ben egyetlen emoji sem hangzik el;
 - [ ] P2 nem játssza túl az érzelmi tartalmat, és az idézet nem külön karakterhang;
-- [ ] P3-ban mind a három aktuális kvuca-név helyes, és a `Leviatan` **nem** „Leviatán”;
-- [ ] a `madrich` / `chanich` szóvégi és szóeleji `ch` torokhang, nem /cs/ és nem /k/;
+- [ ] P3-ban mind a három aktuális kvuca-név helyes, és a `Leviatán` hosszú á-val,
+      „leviatán”-ként szól;
+- [ ] a `madrih` / `hanih` szóvégi és szóeleji hangja a hang-bible 6. szakasza szerint
+      hallható torokhang, nem /cs/ és nem /k/;
 - [ ] a `kvuca` c-je /ts/, a `Somer` s-e /ʃ/;
 - [ ] a hang tegező, egyenrangú, nem gyerekhang és nem hivatalos;
 - [ ] a felvétel szó szerint fedi a forrásszöveget (a felirat ebből generálódik);
@@ -277,13 +279,14 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
       mastering-értékei (mintavétel, bitmélység, csatorna, normalizálás) ekkor
       rögzíthetők.
 
-> A terminológiai kapu miatt (`madrich`/`madrih`, `chanich`/`hánih` — glosszárium,
-> 2026-08-25) a P2 és P3 hangmintáját **a terminológiai jóváhagyóval együtt** érdemes
-> meghallgatni. Ha a house style később változik, ezek a szavak érintettek — a
-> pilot-felvételen ez olcsón látszik, a teljes érintett hangkorpuszon nem.
+> **Írásmód — projektgazdai döntés (2026-10-02):** a magyar Somer first-party alakjai a
+> kánon (madrih, hanih, hágsámá, dugma isit, Leviatán), és a tanulói korpusz egyszeri gépi
+> migrációt kapott (2026-10-02). Ezzel a P2 és a P3 forrásszövege is változott: a fenti
+> másolatok és a hash-ek a migrált szöveget követik, a karakterszám az
+> `ELEVENLABS-VOICE-TEST.md`-ben frissítve, a szószám nem változott. A P2 és P3 hangmintáját a migrált szöveggel, **a terminológiai
+> ellenőrzővel együtt** érdemes meghallgatni (utólagos ellenőrzés (vétó/QA): a ken-vezető /
+> mozgalmi felelős).
 >
 > **Korosztály-architektúra frissítve 2026-09-28:** a tananyag a 2025/26-os oktatási tervre
-> hivatkozó három csoportot használja: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17** (HUM-SOMER-02, jóváhagyásra vár).
-> A P3 ezért már csak ezt a három tulajdonnevet teszteli. A külön house-style kérdés
-> (`madrich`/`madrih`, `chanich`/`hánih`, illetve `Leviatan` írásmód) továbbra is
-> a glosszárium terminológiai kapujához tartozik; ez a lap nem nyit hozzá új döntést.
+> hivatkozó három csoportot használja: **Parparim 6–9, Kivsza 10–12, Leviatán 13–17** (HUM-SOMER-02; projektgazdai döntés, 2026-10-02).
+> A P3 ezért már csak ezt a három tulajdonnevet teszteli.

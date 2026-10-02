@@ -31,7 +31,7 @@ Ha nem tudod eldönteni, melyik osztály: az **EMBERI JÓVÁHAGYÁS KELL**.
 - **AI**: harmadik fél szolgáltatása, szolgáltatási feltételek, kiskorúak hozzáférése,
   AI Act szerepbesorolás (provider ≠ deployer), és a **kötelező nem-AI alternatíva**
 - **helyi someres döntés**: ideológiai keret, mozgalmi konvenció, terminológia
-  (nyitott: `madrich`/`madrih`, `chanich`/`hánih` — globális migráció tilos megerősítésig)
+  (az írásmód 2026-10-02 óta eldöntött, HUM-SOMER-02: `madrih`, `hanih`, `hágsámá`, `dugma isit`, `Leviatán` — a migráció megtörtént, új szöveg ezeket használja)
 - **release**: bármely állítás arról, hogy valami éles, jóváhagyott vagy kész
 
 A kánoni gate-dokumentumok: `02 Tervezet/Emberi jóváhagyás szükséges.md`,

@@ -16,7 +16,7 @@
 
 **Központi mondat:**
 
-> „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit haladtál már** az úton madrichként.”
+> „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit haladtál már** az úton madrihként.”
 
 **Felépítés:** Hook → Input (idővonal + modul-egymondatosok) → Activity (saját fénypontok) → Check (mini-kvíz + záró mondat)
 
@@ -29,13 +29,13 @@
 ### Z.1 – Visszanéző tükör – M0–M7 idővonal
 
 > Ebben a **10–15 perces** leckében visszanézünk az egész félévre:
-> **M0–M7** – honnan indultunk, és hova jutottál el madrichként.
+> **M0–M7** – honnan indultunk, és hova jutottál el madrihként.
 
 > Nem teszt vagy vizsga lesz, hanem **egy vizuális idővonal** és pár rövid kérdés,
 > hogy lásd, miben fejlődtél, és melyik modul/pillanat volt neked a legfontosabb.
 
 > A központi kérdés:
-> *„Ha egy barátodnak 3 mondatban kéne elmesélned, mit csináltál ezen a féléves madrichképzésen – mit mondanál?”*
+> *„Ha egy barátodnak 3 mondatban kéne elmesélned, mit csináltál ezen a féléves madrihképzésen – mit mondanál?”*
 
 > A lecke végén megfogalmazol **1 dolgot, amit semmiképp nem szeretnél elfelejteni** ebből a félévből.
 
@@ -54,7 +54,7 @@ Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb �
 
 > **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 3. dia „Single Choice” / „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
-> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; amíg a megőrzés nincs lezárva, az adatot gyűjtő aktivitás nem nyitható meg valódi madrichnak (Program terv 4. szakasz).
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
 
 Összesen **6–7 slide**.
 Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
@@ -88,9 +88,7 @@ Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-chec
     "R1",
     "R5"
   ],
-  "blockers": [
-    "R5"
-  ],
+  "blockers": [],
   "notes": "Ezen a dián narráció nincs; a Single Choice kérdés (opciók + barátságos visszajelzés) szöveges interakció, nem média-asset. Párba állítva: Z.1-ILL-01::ALTTEXT.",
   "legacy": {
     "alt-text": [
@@ -130,7 +128,7 @@ Opciók:
 
 * M0 – „Kickoff, keret, technika”
 * M1 – „Vakfolt, tükör, visszajelzés”
-* M2 – „Ki vagyok madrichként?”
+* M2 – „Ki vagyok madrihként?”
 * M3 – „Kvuca, red flag, felelősség”
 * M4 – „Hallható és érthető vagyok?”
 * M5 – „Ez most játék vagy tanulás?”
@@ -171,9 +169,7 @@ Opciók:
     "R1",
     "R5"
   ],
-  "blockers": [
-    "R5"
-  ],
+  "blockers": [],
   "notes": "Ezen a dián nincs kérdés (tiszta Input, lásd a dia záró sorát). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-NAR-01::CAPTIONS.",
   "legacy": {
     "alt-text": [
@@ -250,8 +246,8 @@ Opciók:
   → belépés a képzésbe, szabályok, Moodle-belakás
 * **M1 – „Vakfolt, tükör, visszajelzés”**
   → Johari + SBI, visszajelzés mint tanulási eszköz
-* **M2 – „Ki vagyok madrichként?”**
-  → identitás-körök, someres értékek, dugma ishit
+* **M2 – „Ki vagyok madrihként?”**
+  → identitás-körök, someres értékek, dugma isit (személyes példamutatás)
 * **M3 – „Kvuca, red flag, felelősség”**
   → csoportdinamika, korosztályok, gyermekvédelem
 * **M4 – „Hallható és érthető vagyok?”**
@@ -261,7 +257,7 @@ Opciók:
 * **M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”**
   → konkrét eszköztár, biztonság & inkluzió
 * **M7 – „Peula a papírtól a valóságig”**
-  → Peula 11 pont, Zmán Kvucá, AI-támogatás
+  → Peula 11 pont, Zmán Kvucá, opcionális AI-támogatás
 
 Opcionális narráció (30–40 mp), egyszerűen felolvasva, 1–2 plusz mondattal:
 
@@ -298,8 +294,8 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 > **M1 – Vakfolt & visszajelzés**
 > *„A visszajelzés nem bántás, hanem tükör, és tudok SBI-ben visszajelzést írni.”*
 
-> **M2 – Madrich-identitás**
-> *„El tudom mondani, ki vagyok madrichként, és milyen értékeket akarok közvetíteni.”*
+> **M2 – Madrih-identitás**
+> *„El tudom mondani, ki vagyok madrihként, és milyen értékeket akarok közvetíteni.”*
 
 > **M3 – Kvuca & red flag**
 > *„Felismerek alap csoportszakaszokat és gyermekvédelmi jelzéseket, és tudom, kinek jelzek.”*
@@ -353,7 +349,7 @@ Opciók:
 
 > „Melyik modul szól inkább **a kvuca fejlődéséről és a gyermekvédelemről**?”
 
-* M2 – „Ki vagyok madrichként?”
+* M2 – „Ki vagyok madrihként?”
 * M3 – „Kvuca, red flag, felelősség” ✅
 * M4 – „Hallható és érthető vagyok?”
 
@@ -412,9 +408,7 @@ Opciók:
     "R1",
     "R5"
   ],
-  "blockers": [
-    "R5"
-  ],
+  "blockers": [],
   "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-IKO-01::ALTTEXT.",
   "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
   "legacy": {
@@ -428,7 +422,7 @@ Opciók:
 }
 -->
 
-**Cél:** személyes kiválasztás: a tanuló **saját 2–3 pillanatot megnevez**.
+**Cél:** személyes kiválasztás: a tanuló **legalább 3 saját pillanatot megnevez**.
 
 #### Mit látunk?
 
@@ -438,23 +432,23 @@ Opciók:
 
 > **Az én félévem fénypontjai**
 
-> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban megfogalmaztad magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2). Ha elmentetted őket (jegyzet, képernyőkép), vedd elő – **mi valósult meg belőlük?** Ha nincs meg a mentésed, ne akadj el: idézd fel emlékezetből, mit vártál a félév elején, és mire ígérted, hogy figyelni fogsz – írd le mindkettőt 1–1 mondatban most. A **Z.4 záró reflexiónál** is ez a két mondat lesz a kiindulópontod – amilyen formában megvan.
+> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban megfogalmaztad magadnak a *„Mit várok ettől az évtől madrihként?”* mondatot (M0.1) és a *„Madrihként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2). Ha elmentetted őket (jegyzet, képernyőkép), vedd elő – **mi valósult meg belőlük?** Ha nincs meg a mentésed, ne akadj el: idézd fel emlékezetből, mit vártál a félév elején, és mire ígérted, hogy figyelni fogsz – írd le mindkettőt 1–1 mondatban most. A **Z.4 záró reflexiónál** is ez a két mondat lesz a kiindulópontod – amilyen formában megvan.
 
 > Írj **3–6 mondatot** egy szövegmezőben az alábbi kérdések alapján:
 
-> 1️⃣ Nevezz meg **2–3 pillanatot vagy modult**, ami különösen **megmaradt** benned ebből a félévből.
+> 1️⃣ Nevezz meg **legalább 3 pillanatot vagy modult**, ami különösen **megmaradt** benned ebből a félévből.
 > (Lehet modul, konkrét peula, egy mondat, egy beszélgetés…)
 
-> 2️⃣ Röviden írd le, **miért pont ezek** – mit tanultál belőlük magadról, a kvucáról vagy a madrich-szerepről?
+> 2️⃣ Röviden írd le, **miért pont ezek** – mit tanultál belőlük magadról, a kvucáról vagy a madrih-szerepről?
 
-> **Nem kell intim vagy érzékeny részletet megosztanod.** Használj általánosított helyzetet, és ne írj chanich-nevet vagy beazonosítható történetet.
+> **Nem kell intim vagy érzékeny részletet megosztanod.** Használj általánosított helyzetet, és ne írj hanih-nevet vagy beazonosítható történetet.
 
 > Nem fogalmazásverseny – elég őszintének lenni.
-> Ezt a választ csak a kurzusban erre jogosult képző/mentor láthatja a jóváhagyott hozzáférési beállítás szerint.
+> Ezt a választ csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van.
 
-> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, az aktivitást felügyelő, jóváhagyott szerepkörnek a helyi protokoll szerint tovább kell lépnie – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe a mezőbe írd: használd a **kurzusban megadott, jóváhagyott helyi jelzési utat**. Közvetlen életveszélynél **112**.
+> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a választ látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe a mezőbe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
 
-*(Fejlesztői feltétel, nem tanulói szöveg: a fenti kivétel továbblépésről szóló mondata csak olyan megvalósításnál igaz, ahol egy kijelölt szerepkör ténylegesen látja a mező tartalmát – LMS a11y-sztenderd, 6. szakasz, 1. út: Moodle-oldali mező; lásd az `LMS – H5P runtime acceptance.md` 6. és 15. pontját. A tényleges hozzáférésről a HUM-PRIV-01 dönt.)*
+*(Fejlesztői feltétel, nem tanulói szöveg: a fenti kivétel továbblépésről szóló mondata csak olyan megvalósításnál igaz, ahol egy kijelölt szerepkör ténylegesen látja a mező tartalmát – LMS a11y-sztenderd, 6. szakasz, 1. út: Moodle-oldali mező; lásd az `LMS – H5P runtime acceptance.md` 6. és 15. pontját. A tényleges hozzáférést a HUM-PRIV-01 döntése rögzíti.)*
 
 **Szabad szöveges mező** – minimális karakterszámmal (pl. 200 karakter).
 
@@ -517,8 +511,8 @@ Opciók:
 
 * láttad az egész **M0–M7 idővonalat** egyben,
 * felidéztél néhány kulcsmodult,
-* kiválasztottál **2–3 saját fénypontot**,
-* elkezdtél gondolkodni azon, **mit tanultál madrichként**.
+* kiválasztottál **legalább 3 saját fénypontot**,
+* elkezdtél gondolkodni azon, **mit tanultál madrihként**.
 
 > Zárásként írj le **1 mondatot**:
 

@@ -1716,7 +1716,7 @@ def render_register_md(model: dict) -> str:
     out: list[str] = []
     P = out.append
 
-    P("# 🎬 Média-asset regiszter — Hasomer Hacair madrichképzés")
+    P("# 🎬 Média-asset regiszter — Hasomer Hacair madrihképzés")
     P("")
     P("> **Ez a fájl generált.** Forrás: a `02 Tervezet/` alatti leckefájlok rejtett")
     P("> `@asset` deklarációi és `@source` blokkjai. Ne szerkeszd kézzel —")

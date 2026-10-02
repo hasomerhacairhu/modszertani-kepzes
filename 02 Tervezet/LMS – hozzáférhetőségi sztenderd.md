@@ -1,7 +1,7 @@
 # LMS – hozzáférhetőségi sztenderd
 
 > Fejlesztői sztenderd a Moodle/H5P online leckékhez és peulákhoz.
-> Mobil-first célközönség (madrichok, telefonon, gyakran tömegközlekedésen, gyenge neten, hang nélkül tanulnak).
+> Mobil-first célközönség (madrihok, telefonon, gyakran tömegközlekedésen, gyenge neten, hang nélkül tanulnak).
 > Ez a fájl az audit F-szekciójának (Hozzáférhetőség / LMS) findingjaiból összegzett, kötelező minimum. Ha eltérsz tőle, indokold a lecke fejlesztői megjegyzésében.
 
 ---
@@ -10,7 +10,7 @@
 
 - **Előre rögzített, szinkronizált videóhoz (kép + hang) FELIRAT kell** — a teljes szöveges leirat **nem helyettesíti** (WCAG 2.2 SC 1.2.2, A szint). A leirat emellett **erősen ajánlott** kiegészítés, és a szinkronizált média szöveges alternatívájaként külön szerepet is betölt (SC 1.2.3).
 - **Csak hangot tartalmazó** (videó nélküli) előre rögzített tartalomnál elegendő a teljes szöveges leirat (SC 1.2.1).
-- **Hangalámondás / audio description (SC 1.2.5, AA):** ott kell megvizsgálni, ahol a képi sáv olyan információt hordoz, ami a hangban nem hangzik el. Ha a videó minden lényegi információja elhangzik a narrációban, külön hangalámondás nem szükséges — ezt leckénként el kell dönteni és rögzíteni.
+- **Hangalámondás / audio description (SC 1.2.5, AA):** ott kell megvizsgálni, ahol a képi sáv olyan információt hordoz, ami a hangban nem hangzik el. Ha a videó minden lényegi információja elhangzik a narrációban, külön hangalámondás nem szükséges. A videókat **egyenként** kell besorolni, és a besorolást videónként rögzíteni; nem a teljes videót nevezzük dekoratívnak. A **beszélő fej képi sávja** lehet dekoratív, ha minden információ benne van a hangban és a leiratban. **Jelenetvideónál**, ahol arckifejezés, gesztus vagy képi történés hordoz jelentést, **hangalámondásos képleírás kell (SC 1.2.5, AA)**, mellette **szöveges alternatíva** is (SC 1.2.3).
 - **A leirat helye:** a H5P Course Presentation diáinak nincs külön jegyzetmezője (a `h5p-course-presentation` hivatalos `semantics.json`-ja szerint egy dia mezői: `elements`, `keywords`, `slideBackgroundSelector`), ezért a leirat ne „slide-jegyzetbe” kerüljön, hanem a dián látható szövegként, a médiaelem mellől megnyitható szövegként vagy linkelt leirat-oldalként jelenjen meg. Hogy a választott megoldás a célverzión billentyűzettel és képernyőolvasóval elérhető-e, az `LMS – H5P runtime acceptance.md` szerinti teszten kell igazolni.
 - A narráció **soha ne hordozzon kizárólag hangban elérhető információt**. Ha a hang önálló infót vagy hangulati keretet közöl, annak olvashatóan is meg kell jelennie a dián vagy a leiratban.
 - Ez az **opcionális** narrációra is vonatkozik: ha a narráció bekapcsolható, a tartalma akkor is legyen szövegesen elérhető.
@@ -33,7 +33,7 @@
 - Az interakció-típus legyen **következetes a modulon belül** — ne fordulhasson elő, hogy az egyik slide tudatosan kerüli a Drag & Drop-ot, a másik mégis előírja.
 
 > **Phase-0 univerzális a11y-protokoll (minden H5P-re, nem csak a kapusakra):**
-> - **Minden H5P elé heading az aktivitás nevével** — hogy a madrich (és a képernyőolvasó) tudja, melyik feladatba érkezik, mielőtt beletenyerel.
+> - **Minden H5P elé heading az aktivitás nevével** — hogy a madrih (és a képernyőolvasó) tudja, melyik feladatba érkezik, mielőtt beletenyerel.
 > - **Rövid task description** közvetlenül a heading alatt: 1–2 mondat arról, mi a dolga és mikor „kész” — ne kelljen a feladatból visszafejtenie, mit várunk tőle.
 > - **A meglévő AI-videókhoz magyar felirat + leirat kötelező** — visszamenőleg is: ahol már van beágyazott AI beszélő fej / narrált videó, oda magyar feliratot és teljes szöveges leiratot kell pótolni (hang nélkül, tömegközlekedésen is teljesíthető legyen).
 
@@ -42,18 +42,19 @@
 - Többoszlopos táblázatot **ne vízszintes görgetésű táblaként** jeleníts meg mobilon (apró cellák, horizontális scroll → ellentmond a „nincs zsúfolt táblázat” elvnek).
 - Helyette **kártya / akkordeon nézet**: egy sor = egy blokk, a mezők **egymás alatt** (pl. egy helyzet = egy kártya a 4 mezővel függőlegesen).
 - Produktum-beadásnál (Assignment):
-  - adj **letölthető sablont** (doc / sheet), hogy a madrichnak ne kelljen mobilon táblázatot építenie a feltöltéshez;
+  - adj **letölthető sablont** (doc / sheet; Google-sablont csak szervezeti fiókból, korlátozott megosztással, HUM-PRIV-01), hogy a madrihnak ne kelljen mobilon táblázatot építenie a feltöltéshez;
   - **engedélyezd az online-text beadást** is (Online text ON) a fájlfeltöltés mellett.
 - Cél: csökkenteni a többlépcsős, súrlódásos beadási folyamatot, ami a leadási arányt (LA-metrika) rontja.
 
 ## 5. Eszköz- és adat-méltányosság (equity-fallback)
 
-- A mobil-first premissza nem feltételezheti, hogy **minden madrichnak van saját okostelefonja + elegendő adatforgalma** (a videós leckék adatigényesek). Ahol az eszköz vagy az adatkeret hiányzik — nincs saját készülék, megosztott a családi telefon, korlátos az adatkeret —, ott **alternatív útnak kell lennie**: az eszközhiány **nem zárhat ki a completionből**.
+- A mobil-first premissza nem feltételezheti, hogy **minden madrihnak van saját okostelefonja + elegendő adatforgalma** (a videós leckék adatigényesek). Ahol az eszköz vagy az adatkeret hiányzik — nincs saját készülék, megosztott a családi telefon, korlátos az adatkeret —, ott **alternatív útnak kell lennie**: az eszközhiány **nem zárhat ki a completionből**.
 - **Kötelező minimum a videós/adatigényes leckékhez:**
   - adj **alacsony adatigényű, offline letölthető leckeváltozatot** (a narráció szöveges leirata + a kulcsképek; a felirat **és** hozzáférhető szöveges leirat / alternatíva eleve elvárás — lásd 1. szakasz —, így a videó hang és sávozás nélkül, letöltött szövegből is teljesíthető);
-  - a **felzárkóztató műhely / F-peula** (offline, képző-kísérte tér) egyben **eszközhöz-jutási pont** is: itt a madrich a ken közös eszközén / a helyszín wifijén végezheti el az online elemeket;
-  - ahol a kapus/online elem teljesítése eszközhöz kötött, ott **biztosítani kell egy eszközfüggetlen pótlási utat** (a fenti offline/letölthető változat + a ken közös eszköze); ahol az **opcionális** felzárkóztató műhely elérhető, az is egyenértékű pótlási tér — de a méltányos hozzáférés **nem függhet kizárólag** az opcionális felzárkóztató műhely meglététől.
-- Tedd explicitté a lecke fejlesztői megjegyzésében, ha egy elem csak online, élő neten teljesíthető — ez akadálymentesítési kockázat, és kell hozzá offline / felzárkóztató műhelyi tartalékút.
+  - az **F-peula** (a nem teljesült kapu utáni, offline, képző-kísérte javítási alkalom) egyben **eszközhöz-jutási pont** is: itt – és az F-peula idején belüli Csendes pótlás blokkban, ahol van ilyen – a madrih a ken közös eszközén / a helyszín wifijén végezheti el az online elemeket;
+  - ahol a kapus/online elem teljesítése eszközhöz kötött, ott **biztosítani kell egy eszközfüggetlen pótlási utat** (a fenti offline/letölthető változat + a ken közös eszköze); ez a Csendes pótlásra (önálló elmaradás-pótlás) is vonatkozik. Ahol F-peula elérhető (éles kapu sikertelensége után kötelező, puha kapunál ajánlott), az is egyenértékű tér — de a méltányos hozzáférés **nem függhet kizárólag** az F-peula meglététől, mert F-peula csak nem teljesült kapu után jár;
+  - a közös eszközön mindenki a saját fiókjával dolgozik, és a munka végén kijelentkezik, hogy a szabad szöveges válaszait más ne lássa (levezetve a HUM-PRIV-01 projektgazdai döntés „legszűkebb szükséges hozzáférés” elvéből).
+- Tedd explicitté a lecke fejlesztői megjegyzésében, ha egy elem csak online, élő neten teljesíthető — ez akadálymentesítési kockázat, és kell hozzá offline tartalékút (a letölthető változat, a ken közös eszköze, illetve az F-peula).
 
 ## 6. Szabad szöveg és önreflexiók
 
@@ -71,42 +72,43 @@
 
 ### KAPUS H5P „pre-flight” checklist
 
-> Ez a blokk **kizárólag a kapus / értékelt (kapuhoz, completionhöz vagy teljesítési kapuhoz kötött) H5P-elemekre** vonatkozik — ahol a továbblépés a madrich teljesítésén múlik. Itt a hozzáférhetőség nem „jó, ha van”, hanem **élesítési feltétel**: ha bármelyik pont kipipálatlan, az elem **nem mehet élesbe**, mert egy chanich vagy madrich emiatt elakadhat a kapuban.
+> Ez a blokk **kizárólag a kapus / értékelt (kapuhoz, completionhöz vagy teljesítési kapuhoz kötött) H5P-elemekre** vonatkozik — ahol a továbblépés a madrih teljesítésén múlik. Itt a hozzáférhetőség nem „jó, ha van”, hanem **élesítési feltétel**: ha bármelyik pont kipipálatlan, az elem **nem mehet élesbe**, mert egy hanih vagy madrih emiatt elakadhat a kapuban.
 >
-> **„Kész = élesíthető” definíció:** az elem akkor élesíthető, ha **mind a 8 pont** ki van pipálva ÉS a hozzáférhetőségi jóváhagyó (`HUM-A11Y-01`) aláírta. Részleges teljesítés nem „majdnem kész” — kapus elemnél a hozzáférhetőségi rés egyenlő azzal, hogy valaki kizáródik a továbbhaladásból.
+> **„Kész = élesíthető” definíció:** az elem akkor élesíthető, ha **mind a 8 pont** ki van pipálva, a pre-flightot nem az elem szerzője végezte, a független második ellenőrzés megtörtént, ÉS a hozzáférhetőségi felelős aláírta (a szerepeket lásd lent, `HUM-A11Y-01`). Részleges teljesítés nem „majdnem kész” — kapus elemnél a hozzáférhetőségi rés egyenlő azzal, hogy valaki kizáródik a továbbhaladásból.
 
 - [ ] **Célméret (SC 2.5.8, AA)** — a mutatóeszközös célok mérete **legalább 24×24 CSS pixel**, **kivéve** a szabvány kivételeit: elegendő **térköz** (24 CSS px átmérőjű kör nem metsz másik célt), **egyenértékű** másik vezérlő ugyanazon az oldalon, **szövegbe ágyazott (inline)** cél, **user agent** által meghatározott méret, vagy ha az adott megjelenítés **elengedhetetlen**. Gyakorlati elvárásunk: a válaszgomb, hotspot és drop-zóna ujj-barát legyen mobilon.
 - [ ] **Billentyűzet-teljesíthetőség** — az elem **végigvihető és befejezhető kizárólag billentyűzettel** (Tab-rend logikus, fókusz látható, egér/érintés nélkül is teljesíthető).
-- [ ] **Drag-free egypontos alternatíva (SC 2.5.7, AA)** — ha az elem húzásra épül, van **húzás nélkül, egyetlen kattintással/koppintással is teljesíthető** egyenértékű út, hogy a motoros nehézséggel élő vagy apró kijelzőn dolgozó madrich is átjusson a kapun. A **Single Choice Set** (kikapcsolt „Auto continue” beállítással), az egyválaszos módú **Multiple Choice** és a koppintás-alapú párosítás tipikusan ilyen; a **Drag the Words nem** (maga is húzásra épül). Hogy a választott típus a célverzión valóban húzásmentes-e, **a tényleges renderen kell ellenőrizni**, nem a típus nevéből következtetni.
-- [ ] **Időzítés (SC 2.2.1, A)** — az elem nem lép tovább magától, és a visszajelzés nem tűnik el időzítve, mielőtt a madrich elolvashatná; a Single Choice Set „Auto continue” beállítása ki van kapcsolva (a H5P saját leírása szerint képernyőolvasós használathoz ez szükséges).
+- [ ] **Drag-free egypontos alternatíva (SC 2.5.7, AA)** — ha az elem húzásra épül, van **húzás nélkül, egyetlen kattintással/koppintással is teljesíthető** egyenértékű út, hogy a motoros nehézséggel élő vagy apró kijelzőn dolgozó madrih is átjusson a kapun. A **Single Choice Set** (kikapcsolt „Auto continue” beállítással), az egyválaszos módú **Multiple Choice** és a koppintás-alapú párosítás tipikusan ilyen; a **Drag the Words nem** (maga is húzásra épül). Hogy a választott típus a célverzión valóban húzásmentes-e, **a tényleges renderen kell ellenőrizni**, nem a típus nevéből következtetni.
+- [ ] **Időzítés (SC 2.2.1, A)** — az elem nem lép tovább magától, és a visszajelzés nem tűnik el időzítve, mielőtt a madrih elolvashatná; a Single Choice Set „Auto continue” beállítása ki van kapcsolva (a H5P saját leírása szerint képernyőolvasós használathoz ez szükséges).
 - [ ] **Alt-szöveg / szöveges ekvivalens** — minden **információt hordozó** képnek, ikonnak, hotspotnak, képernyőképnek van érdemi alt-szövege vagy szöveges megfeleltetése; a **pusztán dekoratív** elem üres/rejtett alt-tal megy, hogy a képernyőolvasó átugorja (2. szakasz). A feladat **nem oldható meg kizárólag vizuális infóból**.
 - [ ] **Kontraszt** — **szöveg** (SC 1.4.3, AA): törzsszöveg **≥ 4,5:1**, nagy méretű szöveg **≥ 3:1**. **Nem-szöveges elem** (SC 1.4.11, AA): a UI-komponensek és állapotaik, valamint a jelentést hordozó grafikai elemek szükséges vizuális információja **≥ 3:1** a szomszédos színekhez képest (a szabvány kivételeivel: inaktív komponens, user agent által meghatározott megjelenés, illetve ha az adott grafikai megjelenítés elengedhetetlen).
-  - *(Projekt-cél a WCAG-minimum FELETT, nem normatív követelmény: a kapus elemeknél a lényeges UI-kontrasztot is igyekszünk 4,5:1-re hozni, mert a madrichok jellemzően olcsó kijelzőn, gyenge fényben, mozgás közben használják.)*
-- [ ] **Magyar nyelv + iframe-title** — az elem nyelve magyarra állítva, az iframe-nek **beszédes magyar címe** van (képernyőolvasó felolvassa, melyik aktivitásban jár a madrich).
-- [ ] **Felirat + leirat a videókhoz** — minden beágyazott (AI beszélő fej / Interactive / narrált) videóhoz **magyar felirat ÉS teljes szöveges leirat** (a dián vagy a médiaelem mellől elérhető szövegként, lásd 1. szakasz), hang nélkül is teljesíthető.
+  - *(Projekt-cél a WCAG-minimum FELETT, nem normatív követelmény: a kapus elemeknél a lényeges UI-kontrasztot is igyekszünk 4,5:1-re hozni, mert a madrihok jellemzően olcsó kijelzőn, gyenge fényben, mozgás közben használják.)*
+  - *(D1 vizuális rendszer – HUM-MEDIA-01, projektgazdai döntés, 2026-10-02: a szín soha nem önálló jelentéshordozó, a jelentést mindig felirat, forma vagy betűjel is hordozza (WCAG 2.2 SC 1.4.1). A szín szemantikája modulhatókörű, ezért ugyanaz a szín más modulban más jelentést hordozhat. A kanonikus paletta és a produkciós semleges skála: `Média-assetek/PRODUCTION-DECISIONS.md` D1.)*
+- [ ] **Magyar nyelv + iframe-title** — az elem nyelve magyarra állítva, az iframe-nek **beszédes magyar címe** van (képernyőolvasó felolvassa, melyik aktivitásban jár a madrih).
+- [ ] **Felirat + leirat a videókhoz** — minden beágyazott (AI beszélő fej / Interactive / narrált) videóhoz **magyar felirat ÉS teljes szöveges leirat** (a dián vagy a médiaelem mellől elérhető szövegként, lásd 1. szakasz), hang nélkül is teljesíthető; a videó egyenként be van sorolva, és ha jelenetvideó, amelyben arckifejezés, gesztus vagy képi történés hordoz jelentést, hangalámondásos képleírás (SC 1.2.5) és mellette szöveges alternatíva (SC 1.2.3) is tartozik hozzá.
 
-**Jóváhagyó szerepkör:** `HUM-A11Y-01`. A specifikáció nem talál ki személynevet; a learner release előtt a döntési csomagban kell lezárni.
+**Jóváhagyó szerepkör (`HUM-A11Y-01`):** a hozzáférhetőségi felelős (accessibility reviewer). Projektgazdai döntés (2026-10-02): a felelős (accountable) hozzáférhetőségi gazda a **Ros Hinuh** (jelenleg Lili); a független, élesítés előtti második ellenőrző **Marci**. A szerző nem hagyja jóvá a saját anyagát: a pre-flightot nem az elem szerzője, hanem egy másik, a WCAG- és H5P-követelményeket ismerő személy végzi. Utólagos ellenőrzés (vétó/QA): a programvezető.
 
 ## 7. Kognitív és olvasási hozzáférhetőség
 
-> A hozzáférhetőség nem áll meg az érzékelésnél (felirat, alt-szöveg, kontraszt, billentyűzet) — kiterjed a **megértésre** is. Ez a szakasz a leckeszövegek olvashatóságát és a tanulási nehézséggel élő madrich támogatását rögzíti (a WCAG 2.2 érthetőség-elve és a többszörös reprezentáció — UDL — mentén).
+> A hozzáférhetőség nem áll meg az érzékelésnél (felirat, alt-szöveg, kontraszt, billentyűzet) — kiterjed a **megértésre** is. Ez a szakasz a leckeszövegek olvashatóságát és a tanulási nehézséggel élő madrih támogatását rögzíti (a WCAG 2.2 érthetőség-elve és a többszörös reprezentáció — UDL — mentén).
 
 - **Plain-language a leckeszövegre:** a tananyagszöveg **rövid mondatokra, egyszerű, tegező nyelvre** törekszik; a szakszót (someres/pedagógiai fogalom) az **első előforduláskor egy mondatban feloldod**, vagy a glosszáriumra linkelsz. (Ez a leckeszövegre vonatkozik — nem keverendő az adatkezelési „just-in-time” dobozok plain-language elvével.)
 - **Kulcsfogalom mindig szövegben is:** minden lényeges fogalom és lépés **szövegként** is jelen van, nem csak ábrán/ikonon (ez a 2. szakasz alt-szöveg-elvárásával együtt biztosítja, hogy a lényeges tartalom szövegként és vizuálisan is megjelenjen, ami tanulási nehézségnél kritikus).
-- **Tanulási nehézséggel / diszlexiával / SNI-vel élő madrich támogatása:** ahol az olvasás vagy a megértés akadályba ütközik, a madrich a **mentorától** kap segítséget, és a **felzárkóztató műhely / F-peula** támogató, egyéni/kiscsoportos pótlási tér is — az online szöveg nem az egyetlen út a tananyaghoz.
+- **Tanulási nehézséggel / diszlexiával / SNI-vel élő madrih támogatása:** ahol az olvasás vagy a megértés akadályba ütközik, a madrih a **mentorától** kap segítséget. Ha egy kapu nem teljesült, az **F-peula** egyéni/kiscsoportos támogató tér; ha a madrih csak lemaradt, **Csendes pótlással** pótol (az F-peula idején belüli Csendes pótlás blokkban is, ahol van ilyen) — az online szöveg nem az egyetlen út a tananyaghoz.
 
 ---
 
 ## Gyors checklist fejlesztőnek
 
-- [ ] Szinkronizált videó → **felirat** (kötelező, SC 1.2.2) + leirat a dián vagy a médiaelem mellől elérhető szövegként (ajánlott); csak hangot tartalmazó anyagnál a teljes leirat elegendő (SC 1.2.1); a hangalámondás igénye (SC 1.2.5) leckénként megvizsgálva
+- [ ] Szinkronizált videó → **felirat** (kötelező, SC 1.2.2) + leirat a dián vagy a médiaelem mellől elérhető szövegként (ajánlott); csak hangot tartalmazó anyagnál a teljes leirat elegendő (SC 1.2.1); a hangalámondás igénye (SC 1.2.5) videónként megvizsgálva: a beszélő fej képi sávja lehet dekoratív, a jelentést hordozó jelenetvideóhoz hangalámondásos képleírás (SC 1.2.5) és mellette szöveges alternatíva (SC 1.2.3) kell
 - [ ] Narráció nem hordoz kizárólag hangban elérhető infót
 - [ ] Interactive Video jelenetei feliratozva
 - [ ] Alt-szöveg minden képernyőképhez/ikonhoz/grafikához
 - [ ] Húzásra épülő feladat mellett **húzásmentes**, egykattintásos + billentyűzetes egyenértékű út (SC 2.5.7) — a konkrét típus húzásmentességét a renderen igazold
 - [ ] Interakció-típus következetes a modulon belül
 - [ ] Mobil-táblázat = kártya/akkordeon nézet, nem vízszintes scroll
-- [ ] Adatigényes/videós leckéhez offline letölthető, alacsony adatigényű változat + felzárkóztató műhely mint eszközhöz-jutási pont (eszközhiány nem zár ki a completionből)
+- [ ] Adatigényes/videós leckéhez offline letölthető, alacsony adatigényű változat + eszközhöz-jutási pont (a ken közös eszköze, illetve az F-peula); eszközhiány nem zár ki a completionből
 - [ ] Produktumhoz letölthető sablon + online-text beadás engedélyezve
 - [ ] Szabad szöveges önreflexió completion-alapú; Essaynél nincs kulcsszó-alapú automatikus értékelés, Free Text Question csak igazolt host/befoglaló-támogatással
 - [ ] Leckeszöveg plain-language: rövid mondatok, szakszó első előforduláskor feloldva; kulcsfogalom szövegben is (nem csak ábrán)

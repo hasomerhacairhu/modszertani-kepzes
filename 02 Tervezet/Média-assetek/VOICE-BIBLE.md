@@ -9,11 +9,22 @@ egyetlen helyen az összes megválaszolandó érték.
 117 tétel, mind szó szerinti forrásblokkal. Nincs többé szkript nélküli beszélt asset.
 
 > **A szolgáltató 2026-08-28-án eldőlt: a felmondás szintetikus, a motor az ElevenLabs.**
-> Ami még nyitva van, az a **kanonikus hang** — a két forrás-beszélő, **Dombi Miksa** és
-> **Budai Enn** felvételeiből **létrehozandó** két egyedi hang közül; **a hangok még nem
+> Ami még nyitva van, az a **kanonikus hang** — a két forrás-beszélő, **VOICE-SRC-01** és
+> **VOICE-SRC-02** felvételeiből **létrehozandó** két egyedi hang közül; **a hangok még nem
 > készültek el** —, valamint a hozzá tartozó voice-ID, modell, beállítás és jogosultsági
 > bizonyíték. Részletek a 12–13. szakaszban; a hangválasztás
 > végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
+>
+> A két forrás-beszélő álnéven szerepel: a valódi név, a szerződés vagy hozzájárulás, a
+> hatókör és a dátum a korlátozott hozzáférésű jogosultsági nyilvántartásba tartozik, nem a
+> repositoryba (projektgazdai döntés, 2026-10-02, `HUM-MEDIA-02`). A nyilvántartás: Google
+> Workspace Shared Drive → `Restricted / Rights / Voice`, fájl: `VOICE-RIGHTS-REGISTER`; a
+> projektgazda által név szerint kijelölt két személy szerkesztheti (`Emberi jóváhagyás
+> szükséges.md`, `HUM-MEDIA-02`), a producer csak az álneveket látja. Kötelező mezők:
+> álnév, valódi név, hozzájárulás vagy szerződés hivatkozása, engedélyezett felhasználás,
+> modell/szolgáltató, terület, időtartam, visszavonás, aláírás dátuma, a bizonyíték helye
+> vagy hash-e. A git-előzmények kezelése: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
+> Utólagos ellenőrzés (vétó/QA): a jogi/adatvédelmi felelős és a hang tulajdonosai.
 >
 > Az 1–11. szakasz mindezektől függetlenül érvényes: ezek a tananyagból következnek, nem
 > a szolgáltatóból.
@@ -37,7 +48,7 @@ egyöntetűen ezt követi: a narráció-forrásokban **egyetlen** magázó alak 
 és a többségükben kifejezett egyes szám második személyű megszólítás áll („neked”,
 „nézd meg”, „képzeld el”, „mennyire éreznéd”).
 
-A hallgató **madrich, jellemzően 15+**, aki maga is kiskorú lehet. Ebből következik:
+A hallgató **madrih, jellemzően 15+**, aki maga is kiskorú lehet. Ebből következik:
 
 - **nem gyerekhang és nem gyereknek szóló hangsúlyozás** — a hallgató vezetői szerepre
   készül;
@@ -106,27 +117,29 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 | `Somer`, `someres` | „somer” — az **s** = /ʃ/ | tulajdonnév, nagybetűs; **nem** „shomer” |
 | `Hasomer Hacair` | „hasomer hacair” | magyar-fonetikus; **nem** „Hashomer Hatzair” |
 | `peula`, `peulák` | „peula” | köznév, kisbetű |
-| `madrich`, `madrichok`, `madrichot` | a szóvégi **ch** torokhang, nem /cs/ és nem /k/ | a hibrid „madrichák” alak a tananyagban tiltott |
-| `chanich`, `chanichok` | a **ch** ugyanaz a torokhang, szó elején is | egy helyen (M0.2) szándékosan héber többes: „chanichim” |
-| `dugma ishit` | „dugma isit” | köznév, kisbetű; a „Dugma Ishit” személynévi alak kerülendő |
+| `madrih`, `madrihok`, `madrihot` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/ és nem /k/ | a hibrid „madrihák” alak a tananyagban tiltott |
+| `hanih`, `hanihok` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | egy helyen (M0.2) szándékosan héber többes: „hanihim” |
+| `dugma isit` | „dugma isit” | köznév, kisbetű; a „Dugma Isit” személynévi alak kerülendő |
 | `ken` | „ken” | rövid e, nem „kén” |
 | `Zmán Kvucá` | „zmán kvucá” — mindkét ékezet hosszú | a `c` itt is /ts/ |
 | `Parparim` | „parparim” | pillangók, 6–9 |
 | `Kivsza` | „kivsza” | bárány, 10–12 |
-| `Leviatan` | „leviatan” — **ékezet nélkül** | 13–17; a glosszárium jelenlegi house style-ja tiltja a „Leviatán” alakot; toldalékoltan a tő miatt lehet ékezet |
-| `hagshama`, `bogrim`, `mazkirut` | magyar olvasat | ritkábban fordulnak elő |
+| `Leviatán` | „leviatán” — hosszú **á** | 13–17; a first-party „Leviatán” alak a kánon (projektgazdai döntés, 2026-10-02) |
+| `hágsámá`, `bogrim`, `mazkirut` | magyar olvasat | ritkábban fordulnak elő |
 
-> ⚠️ **Nyitott terminológiai kapu.** A glosszárium 2026-08-25-i figyelmeztetése szerint a
-> `madrich` / `chanich` alakok mellett a mozgalom nyilvános felületein `madrih` és
-> `hánih` szerepel; a house style-t a helyi ken-/országos felelősnek kell jóváhagynia.
-> **A hangfelvételt ez érinti**, mert a szóvégi hang eltér. Amíg nincs döntés, a
-> felvétel a glosszárium jelenlegi kánoni alakját követi — de a pilot-hangmintát ezekkel
-> a szavakkal kell jóváhagyatni, hogy egy későbbi terminológiai migráció ne a teljes érintett hangkorpuszt
-> mondassa újra.
+> ✅ **Írásmód — projektgazdai döntés (2026-10-02).** A magyar Somer first-party alakjai a
+> kánon: madrih, hanih, hágsámá, dugma isit, Leviatán. A tanulói korpusz — és vele a fenti
+> tábla „Írott alak” oszlopa — egyszeri gépi migrációt kap; a belső azonosítók nem
+> változnak. **A hangfelvételt ez érinti**, mert a felmondás a forrásszöveg írott alakját
+> olvassa, magyarul (a szakasz eleje): a „Kiejtés” oszlop ezért már a döntés szerinti alakot
+> adja meg. A hangok még nem készültek el, így a korábbi alakkal felvett hanganyag nincs; a
+> pilot-hangmintát a migrált szöveggel kell jóváhagyni, a someres szavakat a
+> pilot-felvételen ellenőrizve. Utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi
+> felelős.
 
 ## 7. Számok, betűszók, rövidítések
 
-- **Korosztályok:** a 2025/26-os kánon `Parparim 6–9`, `Kivsza 10–12`, `Leviatan 13–17`; felmondva „hat–kilenc éves”, „tíz–tizenkét éves”, „tizenhárom–tizenhét éves”.
+- **Korosztályok:** a 2025/2026-os Oktatási terv szerinti felosztás (`HUM-SOMER-02`; projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi felelős): `Parparim 6–9`, `Kivsza 10–12`, `Leviatán 13–17`; felmondva „hat–kilenc éves”, „tíz–tizenkét éves”, „tizenhárom–tizenhét éves”.
 - **SBI:** betűzve, „es-bé-í”, és a modell elemei magyarul: Situation–Behavior–Impact →
   a leckék „S”, „B”, „I” betűjelet használnak, ezeket betűként kell mondani.
 - **Johari, Tuckman:** magyaros olvasat („johari”, „takmen” helyett „tuckman” magyar
@@ -141,14 +154,15 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 
 A tananyagban **két** dialógusos jelenet van, és ezek nem a narrátor hangjai:
 
-- `M1.3-VID-01` — két madrich (A és B) beszélget, ugyanaz a helyzet kétféle
+- `M1.3-VID-01` — két madrih (A és B) beszélget, ugyanaz a helyzet kétféle
   visszajelzéssel. **Két megkülönböztethető hang kell**, hogy a felirat nélkül is
   követhető legyen, ki beszél. A szkriptet a szerző 2026-08-27-én jóváhagyta; a szó
   szerinti dialóg a leckében, `M1.3-VID-01-VO` forrásblokkban él. A dialógushangok, a
-  jogosultságuk és a szájszinkronos gyártási út nyitott döntés
-  ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11).
+  jogosultságuk és a szájszinkronos gyártási út nyitott döntés, és a hangjogosultsági
+  bizonyítékig blokkolt ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11;
+  `HUM-MEDIA-02`).
 - `M4.1-VID-03/04/05` — a karakter **nem beszél**, a narrátor beszél róla harmadik
-  személyben („Nézd meg ezt a madrichot…”). Egyetlen kivétel a 3. jelenet, ahol a
+  személyben („Nézd meg ezt a madrihot…”). Egyetlen kivétel a 3. jelenet, ahol a
   karakter egy mondatot mond: „Sziasztok, ma arról fogunk beszélni, hogy…”. Ez a mondat
   a jelenetben hangzik el, nem a narrátor sávján. *(A 2. jelenet specifikációja szerint a
   szereplő ott is „gyorsan beszél”, a 3. jelenet mondatát pedig az `M4.1-NAR-05-VO`
@@ -220,7 +234,7 @@ minden fájlban.
 | Szintetikus vagy emberi felmondó | ✅ **SZINTETIKUS** — eldőlt |
 | Motor / szolgáltató | ✅ **ElevenLabs** — eldőlt |
 | Modell | 🔎 **javaslat: `eleven_flash_v2_5`**, `language_code: "hu"` — a meghallgatás erősíti meg (13.2.) |
-| Hangjelöltek | ✅ **Dombi Miksa** és **Budai Enn** — **forrás-beszélők**; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
+| Hangjelöltek | ✅ **VOICE-SRC-01** és **VOICE-SRC-02** — **forrás-beszélők**; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
 | Hang-létrehozás (módszer: IVC / PVC / egyéb) | ⛔ **NYITOTT** — jog- és hozzájárulás-helyzet + fiók-/csomagkeret dönti el; V2 bizonyíték a feltöltés előtt kötelező |
 | Kanonikus narrátor | ⛔ **NYITOTT — meghallgatásos döntés** (13.3., [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)) |
 | Voice-ID | ⛔ **NINCS — a hang még nem jött létre** (létrehozás után rögzítendő: 13.4.) |
@@ -306,8 +320,8 @@ A két jelölt a két forrás-beszélő felvételeiből létrehozandó egyedi ha
 
 | | |
 |---|---|
-| **A) Dombi Miksa** | jelölt a kanonikus narrátor szerepre |
-| **B) Budai Enn** | jelölt a kanonikus narrátor szerepre |
+| **A) VOICE-SRC-01** | jelölt a kanonikus narrátor szerepre |
+| **B) VOICE-SRC-02** | jelölt a kanonikus narrátor szerepre |
 
 **Ajánlás: nincs — MEGHALLGATÁS SZÜKSÉGES.** Két hang közül dokumentáció alapján
 választani nem lehet; a magyar természetesség, a melegség és a someres szavak kiejtése
@@ -339,8 +353,8 @@ osztja ki neki egyik szerepet sem. Az `M1.3-VID-01` dialógushangjainak kérdés
 **Hitelesített, csak olvasó API-út** (generálás és költés nélkül):
 
 ```
-GET /v2/voices?search=Dombi%20Miksa&voice_type=personal
-GET /v2/voices?search=Budai%20Enn&voice_type=personal
+GET /v2/voices?search=VOICE-SRC-01&voice_type=personal
+GET /v2/voices?search=VOICE-SRC-02&voice_type=personal
 GET /v1/voices/{voice_id}
 GET /v1/voices/{voice_id}/settings
 GET /v1/models
@@ -391,11 +405,12 @@ pronunciation. For other models, **use alias tags instead**.”
 
 1. `language_code: "hu"`, **szótár nélkül** legyártani a hat mintát.
 2. **Meghallgatással** megállapítani, melyik szó romlik el ténylegesen. A várható
-   töréspont a `madrich` és a `chanich` (a `ch` = /x/ digráf nem magyar helyesírási elem),
-   valamint a `Leviatan` (megnyúló *á* kockázata).
-3. **Csak a tényleges hibákat** javítani alias-szabállyal — például `madrich → madrih`,
-   mert a magyarban nincs fonemikus /x/, és a /h/ a természetes realizáció.
-   **Minden aliast meghallgatással kell megerősíteni.**
+   töréspont a `madrih` és a `hanih` torokhangja, valamint a `Leviatán` hangzóhossza
+   (a 6. szakasz „Kiejtés” oszlopa szerint).
+3. **Csak a tényleges hibákat** javítani alias-szabállyal: az alias olyan írott alakra
+   cseréli a hibásan olvasott szót, amelyből a modell a 6. szakasz „Kiejtés” oszlopa
+   szerinti hangzást adja (a magyarban nincs fonemikus /x/, a /h/ a természetes
+   realizáció). **Minden aliast meghallgatással kell megerősíteni.**
 4. Az IPA marad tartaléknak; ez az egyetlen ok, ami a v3-ra váltást indokolná.
 
 > ⚠️ **Magyar toldalékolási csapda — ez a szakasz legfontosabb gyakorlati tudnivalója.**
@@ -403,7 +418,7 @@ pronunciation. For other models, **use alias tags instead**.”
 > **alapértelmezetten igaz**. Szóhatárral egy `Somer` szabály **nem fog illeszkedni** a
 > `someres`, `Somert`, `Somerek` alakokra. A magyar toldalékolás miatt tehát **a ténylegesen
 > előforduló összes alakot fel kell sorolni** (`kvuca / kvucát / kvucában / kvucák`,
-> `peula / peulát / peulák`, `madrich / madrichok / madrichhoz` …), vagy tudatosan ki kell
+> `peula / peulát / peulák`, `madrih / madrihok / madrihhoz` …), vagy tudatosan ki kell
 > kapcsolni a szóhatárt és vállalni a részszó-illeszkedést. **A szabálylistát a tényleges
 > szkriptekből kell építeni, nem szótári alapalakokból.**
 
@@ -506,7 +521,7 @@ Magyar szervezetnek az **EGT-s** feltételszöveg az irányadó (lekérdezve 202
 
 | Tétel | Karakter | Alsó becslés (API-oldal) | Felső becslés (kredit-olvasat) |
 |---|---:|---|---|
-| **Hatmintás meghallgatás** (mérve) | 3 072 | **≈ 0,15 $** | **≈ 0,61 $** |
+| **Hatmintás meghallgatás** (mérve) | 3 208 | **≈ 0,16 $** | **≈ 0,64 $** |
 | Teljes tananyag, kész hang | 50–82 ezer | 2,50 – 4,10 $ | 10 – 16 $ |
 | Teljes tananyag, **3× nyers** | 150–225 ezer | **7,50 – 11,25 $** | **30 – 45 $** |
 
@@ -522,9 +537,9 @@ kell. **A tényleges elszámolást a fiókban kell ellenőrizni** az első köte
 
 | # | Kérdés | Kihez tartozik |
 |---|---|---|
-| **V1** | *(korábbi, Microsoft-specifikus tétel — **tárgytalan**, mert nem az a szolgáltató lett kiválasztva.)* Helyette: a választott szolgáltató **nem ír elő** közlési kötelezettséget előre renderelt narrációra. A tananyag R1-címkéje tehát **saját projektdöntés**, és az is marad. Hogy kiskorú tanulók esetén a **szülő/gondviselő** felé kell-e külön tájékoztatás, továbbra is nyitott — de ez a **tananyag** kérdése, nem a szolgáltatóé. | gyermekvédelmi felelős + DPO; a kánoni hely a `Gyermekvédelem – release gate.md` és az `Adatvédelem – tanulói adatok és AI.md` |
+| **V1** | *(korábbi, Microsoft-specifikus tétel — **tárgytalan**, mert nem az a szolgáltató lett kiválasztva.)* Helyette: a választott szolgáltató **nem ír elő** közlési kötelezettséget előre renderelt narrációra. A tananyag R1-címkéje tehát **saját projektdöntés**, és az is marad. Hogy kiskorú tanulók esetén a **szülő/gondviselő** felé kell-e külön tájékoztatás, továbbra is nyitott — de ez a **tananyag** kérdése, nem a szolgáltatóé. | Memuna (gyermekvédelmi felelős) + DPO; a `HUM-MEDIA-02` alkapuja — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 | **V2** | A hang **jogosultsági bizonyítéka**. Ha a kiválasztott hang valós személy klónja, a szolgáltató önbevalláson túl **semmilyen bizonyíték-formát nem ír elő** — a szervezetnek magának kell eldöntenie, milyen hozzájárulást tart, milyen formában és meddig. | jogi jóváhagyó + a hang jogosultja → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
-| **V3** | A szolgáltató feltételei szerint 18 év alatti nem használhatja a szolgáltatást, és kiskorú hangadata nem tölthető fel; a tiltólista viszont 13–18 közötti használatot szülői hozzájárulással elképzelhetőnek tart. **A saját dokumentumaik nem mondanak ugyanazt.** A tananyagban a madrich maga is lehet kiskorú. Kiskorú hangjának klónozása egyértelműen tiltott; hogy kiskorú kezelheti-e a fiókot, nyitott. | gyermekvédelmi felelős |
+| **V3** | A szolgáltató feltételei szerint 18 év alatti nem használhatja a szolgáltatást, és kiskorú hangadata nem tölthető fel; a tiltólista viszont 13–18 közötti használatot szülői hozzájárulással elképzelhetőnek tart. **A saját dokumentumaik nem mondanak ugyanazt.** A tananyagban a madrih maga is lehet kiskorú. Kiskorú hangjának klónozása egyértelműen tiltott; hogy kiskorú kezelheti-e a fiókot, nyitott. | Memuna (gyermekvédelmi felelős); az E-8 jogi kérdésében a jogi jóváhagyó — az E-8 jogi felülvizsgálata külön lezárási feltétel; a `HUM-MEDIA-02` alkapuja — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 | **V4** | A **tanítási kimaradást** be kell kapcsolni, **mielőtt** bármit feltöltünk — visszamenőleg nem hat, és csak a kérés feldolgozása után lép életbe. Minden fiókban kell, ahová felvétel kerül. Ez üzemeltetési lépés, de felelőst kíván. | a fiók gazdája — PVC-nél a forrás-beszélő is, mert a hang az ő fiókjában jön létre (`HUM-MEDIA-02`) |
 
 > A kutatás **szűkíti** a döntést, nem helyettesíti. A kanonikus hang kiválasztása

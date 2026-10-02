@@ -296,7 +296,7 @@ SILENT_VIDEOS: dict[str, str] = {
         "A saját akadálymentesítési jegyzete mondja ki: „Ha némán fut a narráció "
         "alatt, a kapcsolódó NAR feliratai fedik”. A lecke kizárólag képi anyagként "
         "írja le („1× mini storyboard / B-roll (példákhoz)”, illetve „Storyboard: "
-        "kvuca-szitu (körben ülő fiatalok, madrich jelenlét)”), párbeszéd és saját "
+        "kvuca-szitu (körben ülő fiatalok, madrih jelenlét)”), párbeszéd és saját "
         "narráció nélkül, a v1 spec szerint a narrációk ALÁ vágott anyagként. A v1 "
         "leltár sem rendelt hozzá felirat- vagy leirat-sort. A feliratot és a "
         "leiratot az a narráció adja, amely alatt fut; a képi tartalomhoz viszont "
@@ -306,12 +306,12 @@ SILENT_VIDEOS: dict[str, str] = {
 #: Keyed by the v1 identifier, like every other migration table here.
 SAFEGUARDING_DECISIONS: dict[str, str] = {
     "M3.B-POSZ-01": (
-        "A modul-áttekintő NÉGY lépéses gyermekvédelmi lépés-térkép posztert ír le "
+        "A modul-áttekintő NÉGY lépéses gyermekvédelmi lépéstérkép posztert ír le "
         "(észreveszem → jelzek → nem maradok egyedül → bevonás), a peula kanonikus "
         "sablonja viszont ÖT csomópontosat, amelynek 2. eleme a nem alkudható "
         "instrukció: „Meghallgatom röviden, biztonságosan (nem ígérek 100% "
         "titoktartást)”. A v1 leltár a kettőt ugyanannak a médiának vette. "
-        "Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépés-térkép, "
+        "Gyermekvédelmi felelős döntse el, hány lépéses a kanonikus lépéstérkép, "
         "és igazítsa hozzá a hub összefoglaló mondatát — addig ez a poszter nem "
         "gyártható."),
 }
