@@ -256,6 +256,61 @@ M3_ROLEPLAY_PHRASES = {
     'gyermekvédelmi szerepjáték': 'a modul nem szerepjátékkal dolgozza fel a red flageket',
 }
 
+# The separate Zorea age group is gone (three-group model, HUM-SOMER-02: applied,
+# awaiting approval). A per-file phrase list missed the inflected "Zoreánál" in
+# M3.A, so the stem is checked in every module file: in the visible text and in
+# the media metadata that specifies what gets produced (title, purpose, spec …).
+# Only the historical record of an asset (notes, legacy, review) may still say
+# where the old profile went.
+RETIRED_AGE_GROUP = re.compile(r'zore', re.I)
+METADATA_OPEN = re.compile(r'^\s*<!--\s*@(?:asset-free|asset|source)\b')
+HISTORICAL_FIELDS = frozenset({'notes', 'legacy', 'review'})
+
+
+def _names_retired_group(value, top_level: bool = True) -> bool:
+    if isinstance(value, str):
+        return bool(RETIRED_AGE_GROUP.search(value))
+    if isinstance(value, dict):
+        return any(_names_retired_group(v, False) for k, v in value.items()
+                   if not (top_level and k in HISTORICAL_FIELDS))
+    if isinstance(value, list):
+        return any(_names_retired_group(v, False) for v in value)
+    return False
+
+
+def retired_age_group_hits(text: str) -> list[int]:
+    """Line numbers where module text or a production spec names the retired Zorea group.
+
+    A metadata block is reported at its opening line. A block whose JSON cannot be
+    read is checked line by line, so a broken block never hides a hit.
+    """
+    hits: list[int] = []
+    lines = text.splitlines()
+    idx = 0
+    while idx < len(lines):
+        line = lines[idx]
+        if METADATA_OPEN.match(line):
+            end = idx
+            while '-->' not in lines[end] and end + 1 < len(lines):
+                end += 1
+            block = '\n'.join(lines[idx:end + 1])
+            start, stop = block.find('{'), block.rfind('}')
+            try:
+                payload = json.loads(block[start:stop + 1]) if 0 <= start < stop else {}
+            except ValueError:
+                payload = None
+            if payload is None:
+                hits.extend(n + 1 for n in range(idx, end + 1) if RETIRED_AGE_GROUP.search(lines[n]))
+            elif _names_retired_group(payload):
+                hits.append(idx + 1)
+            idx = end + 1
+            continue
+        if RETIRED_AGE_GROUP.search(line):
+            hits.append(idx + 1)
+        idx += 1
+    return hits
+
+
 CONFLICT_MARKERS = re.compile(r'^(?:<{7}|={7}|>{7})(?:\s|$)', re.M)
 RESUME_PROMISE = re.compile(r'(mentve marad|később folytathatod|folytathatod később)')
 STALE_TERM = re.compile(r'[Gg]yerekvéd')
@@ -267,8 +322,12 @@ ARTICLE_REGRESSIONS = (
     (re.compile(r'(?<!\w)a\s+\*{0,2}eredetet\b', re.I), 'hibás névelő: az eredetet'),
     (re.compile(r'(?<!\w)a\s+\*{0,2}idősebb\b', re.I), 'hibás névelő: az idősebb'),
     (re.compile(r'(?<!\w)az\s+\*{0,2}SMART(?=[\s-])', re.I), 'hibás névelő: a SMART…'),
-    (re.compile(r'(?<!\w)a\s+\*{0,2}[„"`]?M[0-7](?=[.\-–\sA-Z])', re.I),
+    (re.compile(r'(?<!\w)a\s+\*{0,2}\[?[„"`]?M[0-7](?=[.\-–\sA-Z])', re.I),
      'hibás névelő modulazonosító előtt: az M…'),
+    (re.compile(r'(?<!\w)[Aa]\s+[*„"`\[]{0,3}LMS\b'), 'hibás névelő: az LMS'),
+    (re.compile(r'(?<!\w)[Aa]z\s+[*„"`\[]{0,3}H5P\b'), 'hibás névelő: a H5P'),
+    (re.compile(r'(?<!\w)[Aa]\s+[*„"`]{0,3}S–B'), 'hibás névelő: az S–B…'),
+    (re.compile(r'(?<!\w)[Aa]\s+[*„"`]{0,3}NIDCD\b'), 'hibás névelő: az NIDCD'),
 )
 
 
@@ -424,6 +483,9 @@ def check_regressions(errors: list[str]) -> None:
         for pattern, why in ARTICLE_REGRESSIONS:
             for match in pattern.finditer(text):
                 errors.append(f'REGRESSION {rel}: {match.group(0)!r} ({why})')
+        for lineno in retired_age_group_hits(text):
+            errors.append(f'REGRESSION {rel}:{lineno} Zorea (a tananyag a háromcsoportos '
+                          'korosztálymodellt használja; HUM-SOMER-02: javasolt, jóváhagyásra vár)')
         if path.parts[-3] == 'M3' or '/M3/' in path.as_posix():
             for phrase, why in M3_ROLEPLAY_PHRASES.items():
                 if phrase in low:
@@ -452,10 +514,13 @@ GOVERNANCE_DECISION_PREFIXES = ('HUM-GOV-',)
 # A LEZÁRVA heading alone once closed two decisions whose approver line had been
 # deleted. RELEASE-READINESS.md: a gate is closed only with the decision, its
 # date, its approver and its evidence recorded.
+# A field's value is read on its own line and ends at the next bold label, a
+# table pipe or the line end: an empty field must not borrow the next field's text.
+_FIELD_VALUE = r'[ \t]*(?:\|[ \t]*)?((?:(?!\*\*[^*\n|]{1,40}:\*\*|\*\*[^*\n|]{1,40}\*\*:)[^|\n])*)'
 CLOSURE_FIELDS = (
-    ('dátum', re.compile(r'\*\*Lezárva:?\*\*:?\s*(?:\|\s*)?(\d{4}-\d{2}-\d{2})\b')),
-    ('jóváhagyó', re.compile(r'\*\*Jóváhagyta:?\*\*:?\s*(?:\|\s*)?([^|\n]*)')),
-    ('bizonyíték', re.compile(r'\*\*Bizonyíték:?\*\*:?\s*(?:\|\s*)?([^|\n]*)')),
+    ('dátum', re.compile(r'\*\*Lezárva:?\*\*:?[ \t]*(?:\|[ \t]*)?(\d{4}-\d{2}-\d{2})\b')),
+    ('jóváhagyó', re.compile(r'\*\*Jóváhagyta:?\*\*:?' + _FIELD_VALUE)),
+    ('bizonyíték', re.compile(r'\*\*Bizonyíték:?\*\*:?' + _FIELD_VALUE)),
 )
 PLACEHOLDER_VALUE = re.compile(r'KITÖLTENDŐ|⟬|\[\s*\]|\bTBD\b|^[\s.…—–-]*$')
 
@@ -705,6 +770,19 @@ ARTICLE_SELFTEST = [
     ('ehhez az idősebb Leviatan-kvucához', True, 'helyes névelő idősebb előtt'),
     ('ehhez a idősebb Leviatan-kvucához', False, 'hibás névelő idősebb előtt'),
     ('a SMART 5 eleme', True, 'helyes névelő SMART előtt'),
+    ('az [M1 – KAPU – értékelő](./M1.md) szerint', True, 'helyes névelő linkelt modulazonosító előtt'),
+    ('a [M1 – KAPU – értékelő](./M1.md) szerint', False, 'hibás névelő linkelt modulazonosító előtt'),
+    ('az `LMS – activity manifest.md` szerint', True, 'helyes névelő kódolt LMS előtt'),
+    ('a `LMS – activity manifest.md` szerint', False, 'hibás névelő kódolt LMS előtt'),
+    ('A LMS-ben nincs ilyen mező', False, 'hibás névelő LMS előtt (mondatkezdő)'),
+    ('a H5P Course Presentation', True, 'helyes névelő H5P előtt'),
+    ('az H5P beépített kvíz-UI', False, 'hibás névelő H5P előtt'),
+    ('a SLIDE 3 kérdése', True, '„a SLIDE” nem false positive'),
+    ('az S–B–I modell', True, 'helyes névelő S–B–I előtt'),
+    ('a S–B–I modell', False, 'hibás névelő S–B–I előtt'),
+    ('az amerikai NIDCD szerint', True, 'helyes névelő NIDCD előtt (jelzővel)'),
+    ('a NIDCD szerint', False, 'hibás névelő NIDCD előtt'),
+    ('A SBI-mondata', True, 'szerepbetű, nem névelő: nem false positive'),
     ('az SMART 5 eleme', False, 'hibás névelő SMART előtt'),
     ('a SMART-elemekhez', True, 'helyes névelő SMART-összetétel előtt'),
     ('az SMART-elemekhez', False, 'hibás névelő SMART-összetétel előtt'),
@@ -781,14 +859,38 @@ def selftest() -> int:
         '**Lezárva:** 2026-09-28. **Jóváhagyta:** ⟬KITÖLTENDŐ⟭ **Bizonyíték:** —\n'
         '### HUM-SAFE-09 — nyitott, mezők nélkül\n'
         '**Jóváhagyó:** gyermekvédelmi felelős.\n'
+        '### HUM-GOV-07 — üres jóváhagyó, a következő mező új sorban — LEZÁRVA\n'
+        '**Lezárva:** 2026-09-28.\n**Jóváhagyta:**\n**Bizonyíték:** jegyzőkönyv.\n'
+        '### HUM-GOV-06 — üres jóváhagyó egy sorban — LEZÁRVA\n'
+        '**Lezárva:** 2026-09-28. **Jóváhagyta:** — **Bizonyíték:** jegyzőkönyv.\n'
     )
     closure_ok = unevidenced_closures(closure_fixture) == [
         'HUM-GOV-08: hiányzó lezárási mező: jóváhagyó',
         'HUM-SOMER-09: hiányzó lezárási mező: jóváhagyó, bizonyíték',
+        'HUM-GOV-07: hiányzó lezárási mező: jóváhagyó',
+        'HUM-GOV-06: hiányzó lezárási mező: jóváhagyó',
     ]
     if not closure_ok:
         failures += 1
     print(f'{"ok  " if closure_ok else "HIBA"} release-parser — LEZÁRVA csak dátummal, jóváhagyóval és bizonyítékkal')
+
+    zorea_fixture = (
+        '<!-- @asset\n'
+        '{"id": "X-ILL-01", "notes": "A korábbi Zorea-profil az idősebb Leviatanba olvad.",\n'
+        ' "legacy": {"spec": "Zorea-kártya"}}\n'
+        '-->\n'
+        '<!-- @source {"id": "X-NAR-01"} -->\n'
+        'Ezt másképp mondod egy Parparimnál, és mást Zoreánál.\n'
+        '<!-- @endsource -->\n'
+        'egy idősebb Leviatan-kvucánál\n'
+        '<!-- @asset\n'
+        '{"id": "X-ILL-02", "spec": "profilkártya Zorea fejléccel"}\n'
+        '-->\n'
+    )
+    zorea_ok = retired_age_group_hits(zorea_fixture) == [6, 9]
+    if not zorea_ok:
+        failures += 1
+    print(f'{"ok  " if zorea_ok else "HIBA"} korosztály-őr — Zorea a látható szövegben, metaadat kivétel')
 
     checklist_fixture = '- [ ] nyitott\n- [x] kész\n'
     checklist_ok = unchecked_items(checklist_fixture) == ['nyitott']
@@ -809,7 +911,7 @@ def selftest() -> int:
         failures += 1
     print(f'{"ok  " if output_ok else "HIBA"} release-parser — output táblázatsorok')
 
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 5
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 6
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 

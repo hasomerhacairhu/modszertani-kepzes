@@ -1,0 +1,341 @@
+{
+  "files": {
+    "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "b91c39437979e9a8296be70cdcf2611df4c767f6a526eafd7c71bc44bbc2084d"
+    },
+    "02 Tervezet/Emberi jóváhagyás szükséges.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — a címke szövege jóváhagyva; az elhelyezés és a jogi review nyitva marad",
+      "sha256": "005a89ca88a7943309b3702e2e3640adc4e67557628eb7435073927a8c492402"
+    },
+    "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "55caecc4b206f1c5381657cd986f3ff25e8526bc038c8cbaa5d6f43b69840423"
+    },
+    "02 Tervezet/Gyermekvédelem – release gate.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "f76ca6aed9c18fae03fcd72c71848ef2e000e1db36a4b63fbf2a7a289241db80"
+    },
+    "02 Tervezet/LMS – H5P runtime acceptance.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "595662a4a11b16ad1fc72681b30938557d9e21634f0fbbf7855e434187dcd804"
+    },
+    "02 Tervezet/LMS – activity manifest.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-02 — a Z.4 feedback-sor pontosított („név nélkül megjelenő”, anonimitás-szint emberi döntés)",
+      "sha256": "952ae91ffefa6d46d5051d6c865026d66aa965e70aaec5f011523a594b440331"
+    },
+    "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "603cb8ed268191ad6a976f92875f2a4582b898641ea7f94489ff467134c4dc0e"
+    },
+    "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-29 végső takarítás: terminológiai szerkesztés",
+      "sha256": "dc68da95b7a5224eab0197599030f98068573256ea8da1986e34db749562a155"
+    },
+    "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "5070febad8ceb8b6d37084cf77f0764720f679cc4dfea9a1de39a2df55877aad"
+    },
+    "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "6b06008b263cf67638b067551881c528d5aa2ffa724c8fd20d89d1ad8eb2115d"
+    },
+    "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "190f2deb953464be36b0209233b6e673709bebd9c23c7dee663d0c1fcb4afca7"
+    },
+    "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-14 — a késő esti szcenárió ✅-válasza átlátható bevonást tanít, nem engedélykérést",
+      "sha256": "5f6a3974a08c9f2bb663b4a24375631f87505ba7a9811e0f7ee5d7718fb02d78"
+    },
+    "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-15 — just-in-time adatvédelmi ellenőrzés a plakátfotó előtt",
+      "sha256": "34391d921c91ca88e568e3b52ce70adfb2801f113fd728a296974ea6f35ddabb"
+    },
+    "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "86c1d53c4e1d45668cb59fbe0c509f932c9f5bb255aaac1947f53cb305e211dd"
+    },
+    "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: P3-01 — az M1.2 leckeleírás nem ígér átírás-feladatot, ami a leckében nincs",
+      "sha256": "9001b9193fff3b5b86a5eb683a1f412b97ea33d8fab98713b70813f4d9568252"
+    },
+    "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "2dcf7224e585493198631f5dd5ba00a97d6393fa795c7cbd1cc3ef3330c68efa"
+    },
+    "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "5baf6e0c8cf6212ca097013b3e5be2896aa9c6b11ff8fafcc639b6c22b24eb8b"
+    },
+    "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D6 — a jóváhagyott HOOK-dialóg @source blokkba került a „Nagyjából…” helyére",
+      "sha256": "8c84122cfd8954c2e295eff156cf13f57b1460d2dae88d2d51a99f89d1eaca64"
+    },
+    "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-08 — a helyi rubrika 4. sora a KAPU-konstruktumot méri, nem „én-üzenet” nyelvtant",
+      "sha256": "7059c5dc5ece60674e0b4c48fe0cd78c8857fce22388a045d63176989aba70a5"
+    },
+    "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "efeab8b922483469d93ec4f5b7db92392e635920adf7b2b99170feae24850b81"
+    },
+    "02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "59a83a8f3f1ff801df5b0f6070fd0211a9b499251ee1d1e7a56434d7cd18a69f"
+    },
+    "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+      "sha256": "b8be137c423fd014d6b8d3ee28824caa4857ed5f58b847e9575490a05134de8c"
+    },
+    "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "dac9571c31d1b45e05df1e44407d1d532ccb53b368ecbc9f203b5312c54ba088"
+    },
+    "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-12 — őszinte terhelés-becslés (2,5–3,5 óra, alap-út)",
+      "sha256": "ce347ffa33d42aecaf7703831317ad2ec4b75a1c07491f1a08cf18830b5ec19c"
+    },
+    "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "bd49f36fb2c1883b32d890081088c9645123c2cfcf7142a8f99d4b07f3cea236"
+    },
+    "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "9f86fa3d449b762d159007902ec6b053955854cae07675906e499da4d5d752e5"
+    },
+    "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "fbf21f45f7f7c01b48e57cac87a3d505214d4b234c5d465ab391f2cf574b3d84"
+    },
+    "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "7271c33afaaf80b4c61dca2ea08022d2dbf0b9b858f41844b6063907681228c8"
+    },
+    "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "72694ac1b0b86aba820b5ac3f5f058ca605349670617dd75781939c75e1fed7c"
+    },
+    "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-05 — a külön beszélgetés a négyszemközti helyi szabályhoz kötve",
+      "sha256": "ab510d2cdd5858267965bd70fcf93f2ab984db20e6445cb8a4c53398ede12837"
+    },
+    "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+      "sha256": "a7d28b085c679e77e5866d7cc689530a576ccfc98cd00c7d8d417b9e9ffc4e91"
+    },
+    "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "6d6d5f3457efd1193d6cf13961df33f3fcc39a6b916bc30b4ed2f05ac35b45da"
+    },
+    "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-13 — az M3.3 őszinte időtartama (20–25’) átvezetve a hubba",
+      "sha256": "bda46893576df281cffaeaa8957fe66596aa025bb9da120377cd571398687da9"
+    },
+    "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "aba0245a5e79445824c7a418fa8a9933129e370f85540603ed3d435700df5ed3"
+    },
+    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D7 — az „Opcionális narráció (30–40 mp)” sor törölve; a dia tartalma változatlan",
+      "sha256": "87f6b6092abcb1cc26dc1b234af64546e38de445a82d0f200e9ac85d06eafb8d"
+    },
+    "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-13 — a jogszabályi részletek képzői jegyzetbe kerültek, a tanulói szabály megmaradt; időtartam 20–25’",
+      "sha256": "c38264a02ece188ad152d014835516eb880626c3d98f3cfe55de18d454f74068"
+    },
+    "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "e5050c6ba4aaf12e78a835325ec3305a7866ed045a66bde60edf1ad70a76169b"
+    },
+    "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "0b7922beba9233e9d71b3d2b0386b5cf26377440815ceaafe297848cf9161185"
+    },
+    "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "4bfdcab9e5c4abe81a08a2075cb65971b9163d5f339eac39b5f61db58d0929be"
+    },
+    "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+      "sha256": "4585193b6eafb1cd261545e60a6d41d66b53d3c78ff296b5cfa080656934b736"
+    },
+    "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "dc01065754b8b8ed7fa399ede6b81b90abeb40444dda2918e054e2c564fdf06c"
+    },
+    "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
+      "sha256": "d10c3f72b9a840c38524efb962fd44b7ba558c66f2c84b1412476ec31cafa632"
+    },
+    "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "b973d9a17d969857f01d15f5f23c25bdbed4a4a1ea1677dc002b0b1f46797832"
+    },
+    "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "1f2fc8990f97da397089552e2941950a15d33f1b2275a1d5e464f9d3228520df"
+    },
+    "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "1f8c5dd96004a57d7efcec924852bede9a132aa917e46e80095a73cdabd63b44"
+    },
+    "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-04 — a szorongó résztvevő megkeresése a négyszemközti helyi szabályhoz kötve",
+      "sha256": "e62d3b11e8080509087b5c7dbf51ba24a952eff6fa34cbaf37dbc292c66a6cba"
+    },
+    "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "05ceecf821f986b763ffde058dad85c15903efec646c0e40656464c7544a1a6d"
+    },
+    "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+      "sha256": "fb7ccd8ac14b657057923b8752a6cab2b58b0a789cfbb96cc2c66b569f28a742"
+    },
+    "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "62ecd2774d8efbe8fe537dccef1c9cefdfc28b91ec016c7ecb868d63c2ad0fd6"
+    },
+    "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "1922f8b06fa0b16b6b1f7c8e058ed97119fa1703db2a6f383e623757abcb22e7"
+    },
+    "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
+      "sha256": "f7a066686bf98a24eaaa9503dfbd9d7babb035f34e68fa839d915b43f4797b7c"
+    },
+    "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "a5d4ff61a577704955890de02fc36967257f98d7254a08656f6e8e7376f7b608"
+    },
+    "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "f254710b162ad125f369900d8c0f5df6eaa9b657ff3bdb68b7a0b7e8c6928b9f"
+    },
+    "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "2c1d32f63bb745d99b5b68db1914fdb2349cefff8accd69f79816844cb52a3bd"
+    },
+    "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "4287d5225bbaf5876fddd7d81dd612889a5a6fdd4f798bdb1e66283203c6eada"
+    },
+    "02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "559e17996de4ab827dfc5420ad35772551d1629accf9821b98fabb099ed4fbad"
+    },
+    "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+      "sha256": "0a19e5413fdada4ffd35a2620f55ef295c5a2c23fd8a51f2d2a2c3151242d0bf"
+    },
+    "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: szerkesztői — staff→stáb, deklaráció-szintű→kijelentés-szintű",
+      "sha256": "c45be910313883c799ac888de3449198006d1fcbbca7d159b5f87519d863f18f"
+    },
+    "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: szerkesztői — staff→stáb, deklaráció→általános kijelentés (rubrika-logika változatlan)",
+      "sha256": "cf0b6654f29acd922eea7e37ff842311cdb19f841b7e4c635486087da491882f"
+    },
+    "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
+      "sha256": "5ffa863fe9b0b57d7e309fa877bb9fe3b8b85b6124fe46ca6062aae226f6fe2a"
+    },
+    "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "d6f1b144a59aae2ba904bf7af6729fd69c5f6692b4f2dc67e72515522ccce74f"
+    },
+    "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "7101d7de063b6fe98d617d7b6779a718008d6fc28913c431c5bf4a3ece381ec8"
+    },
+    "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "453d497b31e606c429eb85c2cdc9b8d01e4bbee32e9224857449e1bb10ef61fe"
+    },
+    "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "11dd7b48b086f9fcd15c8a6f573bef1ad789619edb45d5ee96019c13ef3e2e3b"
+    },
+    "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "13059673c1e561c8ea0baf3724089706717069f44b7055801f041e82a7492f49"
+    },
+    "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
+      "sha256": "f8cd94a009ee091d6f5e8a917181259315fe5dcbe1262e0aa753da202781c5c6"
+    },
+    "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
+      "sha256": "4ccb74fb30812bae08b2356c4ee2799c9b024fc9f41879c922f950093e634933"
+    },
+    "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "15f61413b39e5fe0512c5b6f37d6c7c6a8fc53abd300271bc0fd5e39de22069a"
+    },
+    "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-03 — a lecke tanítja a kapun számon kért minimumot (1 soros AI-jelölés + szakmai döntés)",
+      "sha256": "5050506010a8d96c75b3e4b079b048fe4e6aab6cd17cfe0b40237310ea038959"
+    },
+    "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
+      "sha256": "8b13c78cb0d8d57180880c4561b821e02cf1cf5fa4e0faf53de5e9690245f9c3"
+    },
+    "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
+      "sha256": "964f0f564bfdeaebaf62c368e10c7f0c5d98a91bcddfc524bccd1aba5c41ac28"
+    },
+    "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
+      "sha256": "b2472eb620879e2a5087d662b46cb320c180e29a8b709ed58ead5c7e0938ffd6"
+    },
+    "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "7b5baca9fa944e3f76fb73e7e697400725fcd328afaecdfe867ff778834cd747"
+    },
+    "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: szerkesztői — artefaktum→vázlat (blokkcím + percbontás együtt)",
+      "sha256": "7ec7529f82b5b45b4093250e1604ee95614f6db80484f16337ac97bbea7043cd"
+    },
+    "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: R-16 — az M7.4-hivatkozás a tényleges v1→klinika→v2 folyamatot mondja",
+      "sha256": "6d1d8b878cb39ff54e1a0ccbe6a97ff4e27d248c2b77894ccc112d27e39d94b6"
+    },
+    "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-07 — nincs Moodle-visszakeresési ígéret; saját mentés + emlékezet-fallback",
+      "sha256": "0fd3942175e852611d4a9d7962b5f00b3f71f9319156b0833c111121f9f75c3b"
+    },
+    "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "3056907e33baf5781c93c896135a588a94ce5ba538db65aac36e1662e2203fb0"
+    },
+    "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "966fae8b1a8cfa340627af30edb4442fc27e8393a741fbdbab420747b9beb358"
+    },
+    "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-02 — „név nélkül megjelenő” visszajelzés, Moodle-doksi idézettel; anonimitás-szint emberi döntés",
+      "sha256": "6e93fcb7bbb68eea2355d47a9a39a78eaeadbe7f19ffeb011ccc039f12384a38"
+    },
+    "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-05 + F-02 — átlátható odalépés a helyi szabály szerint; a kérdőív-megnevezés pontosítva",
+      "sha256": "23c51864ce3b340489684d83d434c325e2c6cb4cf8d524ca8852b8171c82ed6d"
+    },
+    "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-02 — a feedback-eszköz megnevezése pontosítva („név nélkül megjelenő”)",
+      "sha256": "2611b19626da201ea68e8eb1e88278e5de909d6ddb69fddce3ea0f3c8c51655b"
+    },
+    "02 Tervezet/Program terv.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — a kanonikus AI-provenance címke szövege (§4 és §9 7. sor)",
+      "sha256": "3e967effc5ece4ce251a58429578d9bbcc64f18c5030dc8a789b94549fbbb68b"
+    },
+    "02 Tervezet/RELEASE-READINESS.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "6cedde21b5c84f5bbd0eb1f3b235c8140ceb030179a45254e12b84d8dc3e983f"
+    },
+    "02 Tervezet/Terepgyakorlat – 2. félév.md": {
+      "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
+      "sha256": "ed3e7fa0b9cbbb53025c1f8f5adaf86cd1af2cd0316a78083c68ccb47a6111dd"
+    }
+  },
+  "schema": 1
+}
