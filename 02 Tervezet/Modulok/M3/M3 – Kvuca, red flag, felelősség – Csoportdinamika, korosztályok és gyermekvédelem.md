@@ -38,7 +38,7 @@ A modul végére a résztvevő…
 
 > ⚖️ **Jó tudni – a jelzés Magyarországon szabályozott, de a szerepeket pontosan kell szétválasztani.**
 > A Gyvt. 17. § a gyermekvédelmi jelzőrendszer résztvevői között szervezeteket és személyeket is nevesít, és veszélyeztetettség esetén jelzési / kezdeményezési kötelezettséget ír elő. A kiemelt veszélyeztető okokra vonatkozó hatályos szabályoknál a haladéktalan, legkésőbb három munkanapon belüli továbblépésnek büntetőjogi relevanciája is lehet. **Ebből azonban nem következik, hogy egy 15–17 éves önkéntes madrichnak önálló jogi minősítést vagy hatósági eljárást kellene végeznie.**
-> A képzésben ezért ezt a szabályt követjük: **észlelj, ne nyomozz, ne ígérj teljes titoktartást, és kövesd a kurzusban megadott, jóváhagyott helyi jelzési utat; akut veszélynél kövesd az ott rögzített eszkalációt, közvetlen életveszélynél hívd a 112-t.** A lépéseket részletesen az M3.B lépés-térképe mutatja. A pontos helyi láncot, a felelős nevét és azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, a gyermekvédelmi felelősnek és szükség esetén jogi szakértőnek kell jóváhagynia az éles használat előtt.
+> A képzésben ezért ezt a szabályt követjük: **észlelj, ne nyomozz, ne ígérj teljes titoktartást, és kövesd a kurzusban megadott, jóváhagyott helyi jelzési utat; akut veszélynél kövesd az ott rögzített eszkalációt, közvetlen életveszélynél hívd a 112-t.** A lépéseket részletesen az M3.B lépéstérképe mutatja. A pontos helyi láncot, a felelős nevét és azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, a gyermekvédelmi felelősnek és szükség esetén jogi szakértőnek kell jóváhagynia az éles használat előtt.
 > *(Elsődleges jogforrás: 1997. évi XXXI. törvény 17. §, Nemzeti Jogszabálytár; kapcsolódó hatályos büntetőjogi szabály: Btk. 209/A. §. A tananyag nem helyettesíti a szervezet aktuális gyermekvédelmi protokollját.)*
 5. **Etikai Do/Don’t – beleértve a madrich–chanich kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyermekvédelemre **(M3.4)**.
@@ -163,7 +163,7 @@ A modul végére a résztvevő…
 
 ***
 
-### Peula B (M3.B) – „Red flag vagy nem?” – Esetelemzés & lépés-térkép (45’)
+### Peula B (M3.B) – „Red flag vagy nem?” – Esetelemzés & lépéstérkép (45’)
 
 <!-- @asset
 {
@@ -171,7 +171,7 @@ A modul végére a résztvevő…
   "kind": "worksheet",
   "mode": "reuse",
   "reuse_of": "M3.B-MUNK-01",
-  "title": "Gyermekvédelmi ötlépéses lépés-térkép-sablon – hub reuse",
+  "title": "Gyermekvédelmi ötlépéses lépéstérkép-sablon – hub reuse",
   "purpose": "Az M3.B kanonikus ötlépéses safeguarding-folyamatának megjelenítése a modulhubon, külön párhuzamos folyamat létrehozása nélkül.",
   "spec": "Az M3.B-MUNK-01 ötlépéses sablonjának újrahasznosítása: 1) észreveszem / gyanús; 2) röviden, biztonságosan meghallgatom, nem ígérek teljes titoktartást; 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti jóváhagyott jelzési utat; 4) a felelős felnőttel együtt döntünk a további lépésről; 5) utánkövetés.",
   "provenance": "mixed",
@@ -248,7 +248,7 @@ A modul végére a résztvevő…
      * Kiscsoportok 1-1 **esetkártyát** kapnak (online zaklatás, önsértésgyanú, madrich–chanich határhelyzet stb.), és négy pont mentén elemzik: mi a red flag → mi az első mondat → mit nem tesz a madrich → kit von be.
      * A csoportok az **elemzésüket** hozzák vissza, nem jelenetet mutatnak be.
   3. **25–40’ – Lépéstérkép:**
-     * Közös plakáton az **M3.B ötlépéses lépés-térképe**: **1) észreveszem / gyanús → 2) röviden, biztonságosan meghallgatom (nem ígérek teljes titoktartást) → 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti helyi jelzési utat → 4) a felelős felnőttel együtt döntünk a további lépésről → 5) utánkövetés**.
+     * Közös plakáton az **M3.B ötlépéses lépéstérképe**: **1) észreveszem / gyanús → 2) röviden, biztonságosan meghallgatom (nem ígérek teljes titoktartást) → 3) nem maradok egyedül, követem a HUM-SAFE-01 szerinti helyi jelzési utat → 4) a felelős felnőttel együtt döntünk a további lépésről → 5) utánkövetés**.
   4. **40–45’ – Zárókör:**
      * Mondatbefejezés: „Ha madrich leszek, red flag helyzetben nem maradok egyedül, hanem…”
 
@@ -325,7 +325,7 @@ A modul végére a résztvevő…
 
 [M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át](./Peulák/M3.A%20–%20Találd%20ki,%20hol%20tart%20a%20kvuca!%20–%20Történetek%20Tuckman%20szemüvegén%20át.md)
 
-[M3.B – Red flag vagy nem? – Esetelemzés & lépés-térkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépés-térkép.md)
+[M3.B – Red flag vagy nem? – Esetelemzés & lépéstérkép](./Peulák/M3.B%20–%20Red%20flag%20vagy%20nem%20–%20Esetelemzés%20&%20lépéstérkép.md)
 
 [M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem](./Peulák/M3.F%20–%20Felzárkóztató%20peula%20–%20Kvucadinamika%20&%20gyermekvédelem%20%28Study%20Lab%29.md)
 

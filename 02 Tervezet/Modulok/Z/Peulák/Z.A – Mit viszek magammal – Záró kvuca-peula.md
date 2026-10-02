@@ -51,7 +51,7 @@
 * Előre átgondol 1–2 **biztonsági mondatot**, pl.:
   > „Nem kötelező mély vagy fájdalmas dolgot megosztani, annyit mondasz, amennyi neked most oké.”
 * Tudja, **kihez fordul** (mentor / felelős), ha a peula alatt valakit láthatóan nagyon megérint egy téma – utána diszkréten, de átlátható helyzetben lép oda hozzá, a négyszemközti helyzetekre vonatkozó helyi szabály szerint; ha ilyen szabály még nincs rögzítve, kér mellé egy másik képzőt.
-* Tudja, hogy ha a peula alatt – akár egy párban – feltárás történik vagy gyermekvédelmi aggály merül fel, nem dolgozza fel a csoport előtt, hanem az M3.B lépés-térképe szerint jár el, és ezzel a helyzettel nem marad egyedül.
+* Tudja, hogy ha a peula alatt – akár egy párban – feltárás történik vagy gyermekvédelmi aggály merül fel, nem dolgozza fel a csoport előtt, hanem az M3.B lépéstérképe szerint jár el, és ezzel a helyzettel nem marad egyedül.
 * **Még a peula előtt beszerzi az M0 produktumokat** (ezekre épül a 4.2 „M0-tükör” és a 4.4.2 záró rituálé): elkéri a ken-vezetőtől / stábtól az **M0.A kickoff-plakátot** (*mit várok / mitől félek / mit hozok*), és – ha rögzítették – az **M0.A induló-szavak** listáját. Ha nincs archiválva, a saját jegyzeteiből készít **2–3 név nélküli idézetet**, amit a táblára kitehet, hogy a visszakötés ne csak emlékezetből menjen. A plakátot és az idézeteket kihelyezés előtt ugyanúgy átnézi, mint az M0.A-ban: ne legyen rajtuk név, elérhetőség vagy más beazonosítható, érzékeny személyes tartalom; ha ilyen mégis rákerült, kitakarja vagy leveszi.
 
 ***

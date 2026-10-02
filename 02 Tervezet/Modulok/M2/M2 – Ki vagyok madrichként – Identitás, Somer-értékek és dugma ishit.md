@@ -131,7 +131,7 @@ A modul végére a madrich…
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
-    "note": "Statikus vagy enyhén animált vektoros diagram, magyar feliratokkal; 16:9 (Moodle/H5P beágyazás) és A4 álló (print-barát) változatban; H5P/Moodle-ba beágyazható PNG/SVG."
+    "note": "Statikus vagy enyhén animált vektoros diagram, magyar feliratokkal; 16:9 (Moodle/H5P beágyazás) és A4 álló (print-barát) változatban; H5P/Moodle-be beágyazható PNG/SVG."
   },
   "a11y": {
     "visual": "informative",

@@ -97,7 +97,7 @@ szakasz a *bizonyíték jellegét*).
 ### 1/A.0. ElevenLabs egyedi hangok — a kanonikus narrátor jelöltjei
 
 A szolgáltató **eldőlt** (felhasználói döntés, 2026-08-28). A hang **nem**: a két
-forrás-beszélő — Dombi Miksa és Budai Enn — felvételeiből előbb **létre kell hozni** a
+forrás-beszélő — VOICE-SRC-01 és VOICE-SRC-02 — felvételeiből előbb **létre kell hozni** a
 két egyedi hangot (a módszer nyitott, V2 hozzájárulás-bizonyíték a feltöltés előtt
 kötelező), és utána lehet választani, meghallgatással
 ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)).
@@ -107,7 +107,7 @@ kötelező), és utána lehet választani, meghallgatással
 > kérdeztünk le, és nem találtunk ki.** A létrehozás utáni azonosítás menete:
 > [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
 
-| Mező | Dombi Miksa | Budai Enn |
+| Mező | VOICE-SRC-01 | VOICE-SRC-02 |
 |---|---|---|
 | Hang (voice-objektum) létezik? | `MÉG NEM — LÉTREHOZANDÓ` | `MÉG NEM — LÉTREHOZANDÓ` |
 | `voice_id` | `ACCOUNT_EVIDENCE_REQUIRED` | `ACCOUNT_EVIDENCE_REQUIRED` |
@@ -118,7 +118,7 @@ kötelező), és utána lehet választani, meghallgatással
 | **Hozzájárulás / felhasználási jog** | `CONSENT_EVIDENCE_REQUIRED` | `CONSENT_EVIDENCE_REQUIRED` |
 | Kereskedelmi / oktatási használat | `EVIDENCE_FOUND` — fizetős csomag esetén | `EVIDENCE_FOUND` — fizetős csomag esetén |
 
-**A név nem bizonyíték.** Az, hogy egy hangot „Dombi Miksa”-nak vagy „Budai Enn”-nek
+**A név nem bizonyíték.** Az, hogy egy hangot „VOICE-SRC-01”-nek vagy „VOICE-SRC-02”-nek
 hívnak, **önmagában semmit nem igazol** arról, hogy van-e jog egy valós személy hangját
 használni. A hangtípus dönti el, mit kell igazolni:
 
@@ -204,7 +204,7 @@ alkalmazandó rá, a jogi jóváhagyó dönti el.
 
 | # | Kérdés | Bizonyíték | Kihez tartozik |
 |---|---|---|---|
-| **J1** | A Google Cloud Service Specific Terms §20(d) szerint az ügyfél nem használhat generatív AI-szolgáltatást olyan online szolgáltatás részeként, amely „directed towards or is likely to be accessed by individuals under the age of 18”. A tananyag célközönsége **15+**, és a madrich maga is lehet kiskorú. Hogy az **offline legyártott, majd Moodle-ön kiszolgált** asset ebbe a mondatba esik-e, jogi olvasat. A kérdés a karakter-jelenet **videómodelljét** (Veo) és a karakter-lock **képgenerátorát** (`gemini-3-pro-image`) egyaránt érinti: mindkettő a Google generatív szolgáltatása. | idézve fent | **jogi jóváhagyó** — ez a javasolt karakter-jelenet stacket — a videót és a képi lépést is — kizárhatja |
+| **J1** | A Google Cloud Service Specific Terms §20(d) szerint az ügyfél nem használhat generatív AI-szolgáltatást olyan online szolgáltatás részeként, amely „directed towards or is likely to be accessed by individuals under the age of 18”. A tananyag célközönsége **15+**, és a madrich maga is lehet kiskorú. Hogy az **offline legyártott, majd Moodle-ben kiszolgált** asset ebbe a mondatba esik-e, jogi olvasat. A kérdés a karakter-jelenet **videómodelljét** (Veo) és a karakter-lock **képgenerátorát** (`gemini-3-pro-image`) egyaránt érinti: mindkettő a Google generatív szolgáltatása. | idézve fent | **jogi jóváhagyó** — ez a javasolt karakter-jelenet stacket — a videót és a képi lépést is — kizárhatja |
 | **J2** | A **választott beszélőfej-szolgáltató** moderációs politikája tiltja az olyan avatart, amely „Represent or appear in the sole discretion of HeyGen to represent **individuals under the age of 18**”; a karakter-jelenet szolgáltatója pedig EU-ban felnőttre korlátozott személy-generálást enged. Ebből az következik, hogy **a beszélőfej és a karakter felnőttnek kell hogy látsszon** — miközben a tananyag szerint a madrich maga is lehet kiskorú, és a jelenetek „madrichot” ábrázolnak. | idézve a H-7 sorban | **gyermekvédelmi felelős + szerzői döntés** — ez tananyagi és gyermekvédelmi kérdés, nem eszközválasztás. A kánoni hely: `Gyermekvédelem – release gate.md` és `Emberi jóváhagyás szükséges.md`. |
 | **J3** | A beszélőfej-szolgáltató a **feltöltött tartalomra** visszavonhatatlan, továbbadható licencet kér, amely kiterjed a **modelljei tanítására** is (H-5). A gyártási lánc szerint épp a **klónozott egyedi hang** hangmesterét töltenénk fel. Ha a hang valós személy hangjának klónja, ez az érintett személy döntése is. Nyitva marad az is, hogy a záradék az API-s útvonalra egyáltalán vonatkozik-e. | idézve a H-5 sorban | **jogi jóváhagyó + a hang jogosultja** — a szervezet nem adhat egyoldalúan tanítási jogot más hangjára |
 

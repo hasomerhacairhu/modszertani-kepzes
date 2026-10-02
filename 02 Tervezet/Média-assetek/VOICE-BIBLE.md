@@ -9,8 +9,8 @@ egyetlen helyen az összes megválaszolandó érték.
 117 tétel, mind szó szerinti forrásblokkal. Nincs többé szkript nélküli beszélt asset.
 
 > **A szolgáltató 2026-08-28-án eldőlt: a felmondás szintetikus, a motor az ElevenLabs.**
-> Ami még nyitva van, az a **kanonikus hang** — a két forrás-beszélő, **Dombi Miksa** és
-> **Budai Enn** felvételeiből **létrehozandó** két egyedi hang közül; **a hangok még nem
+> Ami még nyitva van, az a **kanonikus hang** — a két forrás-beszélő, **VOICE-SRC-01** és
+> **VOICE-SRC-02** felvételeiből **létrehozandó** két egyedi hang közül; **a hangok még nem
 > készültek el** —, valamint a hozzá tartozó voice-ID, modell, beállítás és jogosultsági
 > bizonyíték. Részletek a 12–13. szakaszban; a hangválasztás
 > végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
@@ -220,7 +220,7 @@ minden fájlban.
 | Szintetikus vagy emberi felmondó | ✅ **SZINTETIKUS** — eldőlt |
 | Motor / szolgáltató | ✅ **ElevenLabs** — eldőlt |
 | Modell | 🔎 **javaslat: `eleven_flash_v2_5`**, `language_code: "hu"` — a meghallgatás erősíti meg (13.2.) |
-| Hangjelöltek | ✅ **Dombi Miksa** és **Budai Enn** — **forrás-beszélők**; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
+| Hangjelöltek | ✅ **VOICE-SRC-01** és **VOICE-SRC-02** — **forrás-beszélők**; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
 | Hang-létrehozás (módszer: IVC / PVC / egyéb) | ⛔ **NYITOTT** — jog- és hozzájárulás-helyzet + fiók-/csomagkeret dönti el; V2 bizonyíték a feltöltés előtt kötelező |
 | Kanonikus narrátor | ⛔ **NYITOTT — meghallgatásos döntés** (13.3., [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)) |
 | Voice-ID | ⛔ **NINCS — a hang még nem jött létre** (létrehozás után rögzítendő: 13.4.) |
@@ -306,8 +306,8 @@ A két jelölt a két forrás-beszélő felvételeiből létrehozandó egyedi ha
 
 | | |
 |---|---|
-| **A) Dombi Miksa** | jelölt a kanonikus narrátor szerepre |
-| **B) Budai Enn** | jelölt a kanonikus narrátor szerepre |
+| **A) VOICE-SRC-01** | jelölt a kanonikus narrátor szerepre |
+| **B) VOICE-SRC-02** | jelölt a kanonikus narrátor szerepre |
 
 **Ajánlás: nincs — MEGHALLGATÁS SZÜKSÉGES.** Két hang közül dokumentáció alapján
 választani nem lehet; a magyar természetesség, a melegség és a someres szavak kiejtése
@@ -339,8 +339,8 @@ osztja ki neki egyik szerepet sem. Az `M1.3-VID-01` dialógushangjainak kérdés
 **Hitelesített, csak olvasó API-út** (generálás és költés nélkül):
 
 ```
-GET /v2/voices?search=Dombi%20Miksa&voice_type=personal
-GET /v2/voices?search=Budai%20Enn&voice_type=personal
+GET /v2/voices?search=VOICE-SRC-01&voice_type=personal
+GET /v2/voices?search=VOICE-SRC-02&voice_type=personal
 GET /v1/voices/{voice_id}
 GET /v1/voices/{voice_id}/settings
 GET /v1/models

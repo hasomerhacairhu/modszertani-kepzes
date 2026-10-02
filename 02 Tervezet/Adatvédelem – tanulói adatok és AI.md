@@ -16,7 +16,7 @@ A repository **nem választ jogalapot, megőrzési időt vagy szülői folyamato
 Minden learner inputnál ebben a sorrendben kérdezzük:
 
 1. szükséges-e egyáltalán begyűjteni;
-2. szükséges-e Moodle-ban tárolni;
+2. szükséges-e Moodle-ben tárolni;
 3. szükséges-e, hogy mentor/képző lássa;
 4. elég-e, ha csak a madrich saját jegyzetében marad;
 5. elérhető-e ugyanaz a pedagógiai cél kevesebb személyes adattal;

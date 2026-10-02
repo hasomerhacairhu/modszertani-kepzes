@@ -379,7 +379,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 # (B) RUBRIKA – Játéklap (Assignment + élő társas visszajelzés)
 
-> **LMS-eszköz:** **Moodle Assignment + rubrika**. A társas visszajelzés az M6.B élő műhelyén történik; a Moodle-ban a kapu eredményét a képző/mentor rögzíti.
+> **LMS-eszköz:** **Moodle Assignment + rubrika**. A társas visszajelzés az M6.B élő műhelyén történik; a Moodle-ben a kapu eredményét a képző/mentor rögzíti.
 > **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
 > **Szintezés:** 3 szint – **1 = Még nem (hiányos)**, **2 = Oké (átadható)**, **3 = Erős (mintaértékű)**.
 > **Átmenő küszöb:** minden sor **≥ 2 (Oké)**. A **Biztonság** és az **Inkluzivitás** sor **blokkoló feltétel**: ha bármelyik = 1, a játéklap **javításra megy**, függetlenül a többi sortól.

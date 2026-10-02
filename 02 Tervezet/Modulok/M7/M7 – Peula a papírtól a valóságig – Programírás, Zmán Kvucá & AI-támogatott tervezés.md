@@ -195,7 +195,7 @@ A modul végére a madrich…
 
 ***
 
-### M7.2 – „Nem csak játék, hanem peula” – 11 tervezési pont & AI-támogatás (15–20’)
+### M7.2 – „Nemcsak játék, hanem peula” – 11 tervezési pont & AI-támogatás (15–20’)
 
 * **Cél:**
   Megismerni a modernizált **Peula 11 pontját**, és látni egy-egy AI-használati példát (ötletelés, kérdésgenerálás, nyelvi egyszerűsítés).
@@ -434,7 +434,7 @@ A modul végére a madrich…
 
 [M7.1 – „Ez még csak vágy, nem cél” – SMART nevelési cél someres módra](./Online%20leckék/M7.1%20–%20Ez%20még%20csak%20vágy,%20nem%20cél%20–%20SMART%20nevelési%20cél%20someres%20módra.md)
 
-[M7.2 – „Nem csak játék, hanem peula” – 11 tervezési pont & AI-támogatás](./Online%20leckék/M7.2%20–%20Nem%20csak%20játék,%20hanem%20peula%20–%2011%20tervezési%20pont%20&%20AI-támogatás.md)
+[M7.2 – „Nemcsak játék, hanem peula” – 11 tervezési pont & AI-támogatás](./Online%20leckék/M7.2%20–%20Nemcsak%20játék,%20hanem%20peula%20–%2011%20tervezési%20pont%20&%20AI-támogatás.md)
 
 [M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség](./Online%20leckék/M7.3%20–%20Zmán%20Kvucá-checklist%20–%20idő,%20tér,%20felelősség.md)
 

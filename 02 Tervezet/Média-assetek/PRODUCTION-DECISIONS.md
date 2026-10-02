@@ -92,14 +92,14 @@ kivezetése), [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) érték
 > **szintetikus**, a motor az **ElevenLabs**. A „szintetikus vagy emberi” és a „melyik
 > szolgáltató” kérdés **többé nem nyitott**, és nem is kerül újra elő.
 
-**A megmaradt kérdés egyetlen mondat:** a két forrás-beszélő — **Dombi Miksa** és
-**Budai Enn** — felvételeiből **létrehozandó** két ElevenLabs egyedi hang közül melyik
+**A megmaradt kérdés egyetlen mondat:** a két forrás-beszélő — **VOICE-SRC-01** és
+**VOICE-SRC-02** — felvételeiből **létrehozandó** két ElevenLabs egyedi hang közül melyik
 legyen a tananyag **kanonikus narrátora**? **A hangok még nem készültek el**, ezért a
 meghallgatás még nem futtatható: előbb hozzájárulás-bizonyíték (V2), majd a tanítási
 kimaradás bekapcsolása, és csak utána a két hang létrehozása (azonos módszerrel).
 
-**A) Dombi Miksa**
-**B) Budai Enn**
+**A) VOICE-SRC-01**
+**B) VOICE-SRC-02**
 
 **Ajánlás: nincs — MEGHALLGATÁS SZÜKSÉGES.** Két hang közül dokumentáció alapján nem lehet
 választani: a magyar természetesség, a melegség és a someres szavak kiejtése csak
@@ -162,7 +162,7 @@ hang-jogosultságról a jogi jóváhagyó és a hang jogosultja.
 **A válasz helye:**
 - felmondó típusa: **szintetikus** ✅
 - motor: **ElevenLabs** ✅
-- kanonikus hang (a Dombi Miksa / Budai Enn forrás-beszélőből készült hangok közül): ⟬KITÖLTENDŐ⟭
+- kanonikus hang (a VOICE-SRC-01 / VOICE-SRC-02 forrás-beszélőből készült hangok közül): ⟬KITÖLTENDŐ⟭
 - voice-ID, modell, beállítások, seed, kiejtési szótár verziója: ⟬KITÖLTENDŐ⟭
 
 **Mit kell utána átírni:** `produkcios-szabalyok.json` R3,
@@ -208,7 +208,7 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 > **J1 — jogi.** A javasolt karakter-jelenet szolgáltató feltételei tartalmaznak egy
 > záradékot, amely tiltja a generatív szolgáltatás használatát olyan online szolgáltatás
 > részeként, amely 18 év alattiakhoz szól vagy hozzájuk valószínűleg eljut. A tananyag
-> célközönsége **15+**. Hogy az **offline legyártott, majd Moodle-ön kiszolgált** asset
+> célközönsége **15+**. Hogy az **offline legyártott, majd Moodle-ben kiszolgált** asset
 > ebbe a mondatba esik-e, **jogi olvasat** — és ha igen, az kizárja a javasolt stacket.
 > A kérdés a karakter-lock képgenerátorát (`gemini-3-pro-image`) is érinti, mert az is
 > ugyanennek a szolgáltatónak a generatív szolgáltatása; a dokumentált tartalék (Runway)
@@ -230,7 +230,7 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 
 ---
 
-## D5 — M3 gyermekvédelmi lépés-térkép poszter (`M3-HUB-POSZ-01`)
+## D5 — M3 gyermekvédelmi lépéstérkép poszter (`M3-HUB-POSZ-01`)
 
 **Állapot:** ideiglenesen végrehajtva, jóváhagyásra vár. **Ajánlás: A** – ez a tananyagban és a manifestben már alkalmazva van, de a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés, ezért jóváhagyás nélkül nem tekinthető lezártnak.
 
@@ -239,7 +239,7 @@ A modul-áttekintő és az M3.B **ugyanazt az egyetlen, ötlépéses safeguardin
 - `mode: reuse`
 - `reuse_of: M3.B-MUNK-01`
 
-**Kanonikus öt csomópont** *(szinkronpont: az `M3.B` lépés-térképének — 4.3.2. szakasz,
+**Kanonikus öt csomópont** *(szinkronpont: az `M3.B` lépéstérképének — 4.3.2. szakasz,
 illetve az `M3.B-MUNK-01` `spec` mezője — másolata; a kánoni szöveg ott van, és ha az
 változik, ezt is igazítani kell)*:
 1. Észreveszem / gyanús.

@@ -19,8 +19,8 @@ végrehajtható összehasonlítás — beállítások, kiejtési figyelőlista, 
 [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 
 > ✅ **2026-08-28: a szolgáltatói kérdés lezárult.** A felmondás **szintetikus**, a motor
-> az **ElevenLabs**, és a jelöltek a két forrás-beszélő — **Dombi Miksa** és **Budai
-> Enn** — felvételeiből **létrehozandó** egyedi hangok; **a hangok még nem készültek el**.
+> az **ElevenLabs**, és a jelöltek a két forrás-beszélő — **VOICE-SRC-01** és
+> **VOICE-SRC-02** — felvételeiből **létrehozandó** egyedi hangok; **a hangok még nem készültek el**.
 > Az itt kijelölt három szkript ezért már nem „motorválasztási” tesztanyag, hanem a
 > **két hang összehasonlításának** anyaga — hatmintás mátrixban, a hangok létrehozása után.
 

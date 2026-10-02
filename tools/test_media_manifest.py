@@ -73,6 +73,16 @@ FINAL_CLEANUP_2026_09_29_RENAMES = {
         "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md",
 }
 
+# The 2026-10-02 owner decisions renamed two files atomically ("lépéstérkép",
+# "Nemcsak"). Same purpose as above: the pre-rename path that carried the baseline.
+DECISIONS_2026_10_02_RENAMES = {
+    "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md":
+        "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md",
+    "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md":
+        "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
+}
+BASELINE_RENAMES = {**FINAL_CLEANUP_2026_09_29_RENAMES, **DECISIONS_2026_10_02_RENAMES}
+
 #: Approved learner- and trainer-visible text. Every authoring file whose visible
 #: text (metadata blocks stripped) differs from the baseline above is pinned here
 #: by sha256, with the reason it was approved. Re-pin only with a reason:
@@ -87,7 +97,7 @@ def visible_fingerprint(text: str) -> str:
 
 def baseline_text(rel: str) -> str | None:
     """The file's text at the baseline commit, or None when it did not exist."""
-    baseline_rel = FINAL_CLEANUP_2026_09_29_RENAMES.get(rel, rel)
+    baseline_rel = BASELINE_RENAMES.get(rel, rel)
     blob = subprocess.run(["git", "-C", str(mm.ROOT), "show",
                            f"{BASELINE_COMMIT}:{baseline_rel}"], capture_output=True)
     return blob.stdout.decode("utf-8") if blob.returncode == 0 else None

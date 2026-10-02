@@ -88,7 +88,7 @@ végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 | | Állapot |
 |---|---|
 | **Szolgáltató** | ✅ **ElevenLabs** — lezárva |
-| **Hangjelöltek** | ✅ **Dombi Miksa** · **Budai Enn** — forrás-beszélők; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
+| **Hangjelöltek** | ✅ **VOICE-SRC-01** · **VOICE-SRC-02** — forrás-beszélők; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
 | **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 072 karakter, ≈ 0,15–0,61 $ |
 | **Modell** | 🔎 javaslat: **`eleven_flash_v2_5`**, `language_code: "hu"` |
 | **Tempó** | `speed` paraméter (0,7–1,2) a 100–120 szó/perc célsávra |
@@ -546,9 +546,9 @@ Egyik sem zárul le ezzel a lappal. A teljes kérdésszöveg és hatásszám:
 | # | Döntés | Mit szabadít fel | Ajánlás |
 |---|---|---|---|
 | **D1** | vizuális rendszer: átvesszük-e a hivatalos palettát, és A vagy B változat | 245 asset / 484 deliverable | átvenni; **B változat** |
-| **D2** | **melyik ElevenLabs egyedi hang** a kanonikus narrátor: a Dombi Miksa vagy a Budai Enn forrás-beszélőből készülő | önmagában 0 — mind a 117 R3-tételen az R2 is ül | **nincs ajánlás — előbb a két hang létrehozása (V2 bizonyítékkal, bekapcsolt tanítási kimaradással), majd meghallgatás**; a szolgáltató és a modell javaslata megvan |
+| **D2** | **melyik ElevenLabs egyedi hang** a kanonikus narrátor: a VOICE-SRC-01 vagy a VOICE-SRC-02 forrás-beszélőből készülő | önmagában 0 — mind a 117 R3-tételen az R2 is ül | **nincs ajánlás — előbb a két hang létrehozása (V2 bizonyítékkal, bekapcsolt tanítási kimaradással), majd meghallgatás**; a szolgáltató és a modell javaslata megvan |
 | **D3** | a videó-stack **jogi bizonyítéka** | önmagában 0; R2 + R3 együtt 109 asset / 344 deliverable | a beszélőfej-szolgáltató **eldőlt (HeyGen)**; karakter-jelenet: Veo 3.1 GA — **jogi review után** |
-| **D5** | M3 gyermekvédelmi lépés-térkép poszter | 1 asset | **NYITVA — nem ennek a passznak a hatásköre** |
+| **D5** | M3 gyermekvédelmi lépéstérkép poszter | 1 asset | **NYITVA — nem ennek a passznak a hatásköre** |
 | **D8** | az R8 státusza: szabály vagy önálló kapu | 0 | **NYITVA — nem ennek a passznak a hatásköre** |
 | **D10** | ken alkohol- és dohányzási kódex | 2 asset | **NYITVA — nem ennek a passznak a hatásköre** |
 | **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2, R3 és R5 is ül rajta | **NYITVA** — a néma generálás erre nem alkalmazható (5. szakasz) |

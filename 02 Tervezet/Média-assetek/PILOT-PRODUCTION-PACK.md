@@ -168,7 +168,7 @@ szakszóval (`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 - **Motor:** `eleven_flash_v2_5`, `language_code: "hu"` — a magyar olvasat kikényszerítése
   kötelező, enélkül a someres szavak angol vagy héber fonetikát kaphatnak.
 - **Hang:** a [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) meghallgatásán
-  **kiválasztott kanonikus hang** — a Dombi Miksa vagy a Budai Enn forrás-beszélőből
+  **kiválasztott kanonikus hang** — a VOICE-SRC-01 vagy a VOICE-SRC-02 forrás-beszélőből
   készült hangok közül. A P-NAR **nem indulhat**, amíg a két hang létre nem jött és a
   választás nincs eldöntve.
 - **Bemenet:** a `@source` blokk szövege **tisztítva** — a `„ ”` határoló idézőjel nélkül,

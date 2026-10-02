@@ -389,7 +389,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M3-HUB-POSZ-01` | worksheet | újrahasznosítás | produkciós szabályra vár | Gyermekvédelmi ötlépéses lépés-térkép-sablon – hub reuse | — | — | vegyes |
+| `M3-HUB-POSZ-01` | worksheet | újrahasznosítás | produkciós szabályra vár | Gyermekvédelmi ötlépéses lépéstérkép-sablon – hub reuse | — | — | vegyes |
 | `M3-HUB-POSZ-02` | poster | legyártandó | emberi döntésre vár | A/B sarok jelölőtáblák („Red flag” / „Nem red flag”) | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md
@@ -478,7 +478,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.A-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Megoldókulcs a képzőnek (kártya-hátlapok) | — | nyomtatható PDF | vegyes |
 | `M3.A-POSZ-01` | poster | legyártandó | produkciós szabályra vár | Tuckman-idővonal flipchart-sablon ikonokkal | — | nyomtatható PDF | vegyes |
 
-### 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md
+### 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md
 
 *Egység:* `M3.B` · *típus:* peula
 
@@ -487,7 +487,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.B-KART-01` | card-set | legyártandó | produkciós szabályra vár | Esetkártyák (4 db red flag eset) | — | nyomtatható PDF | emberi |
 | `M3.B-KART-02` | card-set | legyártandó | produkciós szabályra vár | Krízis- / segélyvonal referenciakártya (képzőnek) | — | nyomtatható PDF | emberi |
 | `M3.B-KART-03` | card-set | legyártandó | produkciós szabályra vár | Képzői biztonsági gyorskártya | — | nyomtatható PDF | emberi |
-| `M3.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Lépés-térkép flipchart-sablon (5 lépéses folyamatábra) | — | nyomtatható PDF | emberi |
+| `M3.B-MUNK-01` | worksheet | legyártandó | produkciós szabályra vár | Lépéstérkép flipchart-sablon (5 lépéses folyamatábra) | — | nyomtatható PDF | emberi |
 | `M3.B-MUNK-02` | worksheet | legyártandó | produkciós szabályra vár | Helyi gyermekvédelmi útvonal lap (szerep + név + elérhetőség) | — | nyomtatható PDF | emberi |
 | `M3.B-MUNK-03` | worksheet | legyártandó | produkciós szabályra vár | Képzői megoldójegyzet kártyánként (4 soros referenciatáblázat) | — | nyomtatható PDF | emberi |
 
@@ -844,7 +844,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SMART madrich-nyelven (opcionális) | `M7.1-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M7.1-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – záró feladat instrukció (opcionális) | `M7.1-NAR-02-VO` | felirat, leirat | AI-generált |
 
-### 02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md
+### 02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md
 
 *Egység:* `M7.2` · *típus:* online-lecke
 

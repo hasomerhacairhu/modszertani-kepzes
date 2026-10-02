@@ -1,12 +1,12 @@
 # 🎧 ElevenLabs hangválasztás — végrehajtható meghallgatási teszt
 
-Egyetlen célja van: eldönteni, hogy a **Dombi Miksa** vagy a **Budai Enn** legyen a
+Egyetlen célja van: eldönteni, hogy a **VOICE-SRC-01** vagy a **VOICE-SRC-02** legyen a
 tananyag **kanonikus narrátora**.
 
 | | |
 |---|---|
 | **Szolgáltató** | **ElevenLabs** — felhasználói döntés, 2026-08-28, lezárva |
-| **Jelöltek** | **Dombi Miksa** · **Budai Enn** — **forrás-beszélők**: az ő felvételeikből készül majd a két ElevenLabs egyedi hang, amelyek **még nem jöttek létre** |
+| **Jelöltek** | **VOICE-SRC-01** · **VOICE-SRC-02** — **forrás-beszélők**: az ő felvételeikből készül majd a két ElevenLabs egyedi hang, amelyek **még nem jöttek létre** |
 | **Eldöntendő** | melyik a kanonikus narrátor |
 | **Minta** | **6 db** — 2 hang × 3 meglévő tananyag-szkript |
 | **Mért méret** | **3 072 karakter** összesen |
@@ -30,7 +30,7 @@ A hat mintát **nem szabad** legenerálni, amíg ez a három nem történt meg.
 
 ### 1.0. A hangok létrehozása — `A HANGOK MÉG NEM LÉTEZNEK`
 
-**Dombi Miksa** és **Budai Enn** jelenleg **forrás-beszélők**: tőlük származnak (illetve
+**VOICE-SRC-01** és **VOICE-SRC-02** jelenleg **forrás-beszélők**: tőlük származnak (illetve
 készülnek) azok a felvételek, amelyekből a két ElevenLabs egyedi hangot létre kell hozni.
 A hang-objektumok **még nem léteznek**, ezért voice-ID sincs.
 
@@ -58,8 +58,8 @@ Amint a két hang elkészült, ezt a táblát kell kitölteni:
 
 | Hang | Voice ID | Hangtípus | Magyar nyelvre igazolt? | Modell-kompatibilitás |
 |---|---|---|---|---|
-| **Dombi Miksa** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
-| **Budai Enn** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
+| **VOICE-SRC-01** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
+| **VOICE-SRC-02** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
 
 **A kinyerés menete a létrehozás után — a webes út elég:**
 
@@ -160,8 +160,8 @@ a forrás-hivatkozás és a kiválasztás indoklása:
 
 | | P1 | P2 | P3 |
 |---|---|---|---|
-| **Dombi Miksa** | ☐ | ☐ | ☐ |
-| **Budai Enn** | ☐ | ☐ | ☐ |
+| **VOICE-SRC-01** | ☐ | ☐ | ☐ |
+| **VOICE-SRC-02** | ☐ | ☐ | ☐ |
 
 **Fájlnév a teszthez** (ideiglenes, nem produkciós asset):
 
@@ -216,7 +216,7 @@ nyúl hozzá.
 
 Mind a hat mintára külön. **1–5** skála, ahol **3 = elfogadható**, **5 = kiváló**.
 
-| # | Szempont | Dombi P1 | Dombi P2 | Dombi P3 | Enn P1 | Enn P2 | Enn P3 |
+| # | Szempont | SRC-01 P1 | SRC-01 P2 | SRC-01 P3 | SRC-02 P1 | SRC-02 P2 | SRC-02 P3 |
 |---|---|---|---|---|---|---|---|
 | 1 | Magyar természetesség | | | | | | |
 | 2 | Kiejtés általában | | | | | | |

@@ -152,7 +152,7 @@
       "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
       "sha256": "0b7922beba9233e9d71b3d2b0386b5cf26377440815ceaafe297848cf9161185"
     },
-    "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md": {
+    "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md": {
       "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-09-26 release-readiness audit: szándékos látható szerkesztés",
       "sha256": "4bfdcab9e5c4abe81a08a2075cb65971b9163d5f339eac39b5f61db58d0929be"
     },
@@ -276,7 +276,7 @@
       "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: F-03 — a lecke tanítja a kapun számon kért minimumot (1 soros AI-jelölés + szakmai döntés)",
       "sha256": "5050506010a8d96c75b3e4b079b048fe4e6aab6cd17cfe0b40237310ea038959"
     },
-    "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
+    "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
       "reason": "2026-10-02 végső audit: verifikált, adverzális utóellenőrzéssel átnézett javítások (nem release-jóváhagyás; a felhasználó vétójoga mellett) · korábbi, rögzített indoklás: 2026-08-27 jóváhagyott szerkesztés: D9 — címkecsere",
       "sha256": "8b13c78cb0d8d57180880c4561b821e02cf1cf5fa4e0faf53de5e9690245f9c3"
     },

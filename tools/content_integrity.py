@@ -59,6 +59,9 @@ LEGACY_PATHS = [
     '02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md',
     '02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md',
     '02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md',
+    # 2026-10-02 projektgazdai döntés: „lépéstérkép” és „Nemcsak” (egyszeri, atomikus átnevezés).
+    '02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md',
+    '02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md',
 ]
 
 REQUIRED_FILES = [

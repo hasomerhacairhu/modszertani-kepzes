@@ -88,7 +88,7 @@ Ha egy leckében előírt szabad szöveges mező az `LMS – H5P runtime accepta
 
 ## 3. Offline események és ajánlott útvonal
 
-Az offline esemény **nem Moodle-activity**, ezért nem kap fiktív `cmid`-t. A Moodle-ban a hozzájuk kötött online tartalmat a HUM-OPS-01 szerinti dátummal vagy, ha később tényleges jelenléti checkpoint készül, annak igazolt completionjével nyitjuk.
+Az offline esemény **nem Moodle-activity**, ezért nem kap fiktív `cmid`-t. A Moodle-ben a hozzájuk kötött online tartalmat a HUM-OPS-01 szerinti dátummal vagy, ha később tényleges jelenléti checkpoint készül, annak igazolt completionjével nyitjuk.
 
 | Esemény | Helye az útvonalban |
 |---|---|
@@ -120,7 +120,7 @@ A felzárkóztató peulák (`.F`) támogatási utak: nem kapuznak, és nem lehet
 | M7 | H5P-k + v1 folyamat + LMS-M7-06 mastery + LMS-M7-07 mastery | Z nyitható |
 | Z | Z.1–Z.4 + Moodle Feedback | online félév teljesítve; terepgyakorlat külön folytatás |
 
-**Fontos:** M1, M3, M5, M6 és M7 összetett kapuinál a nyers pontszám önmagában nem nyithat downstream tartalmat. Ha Moodle-ban az összetett feltétel nem kódolható bizonyítottan, egy `GATE_CONFIRMED_<module>` kézi/stáb-checkpointot kell létrehozni és a downstream restrict access ehhez kötni; a választott mechanizmust az `LMS – H5P runtime acceptance.md` 8. pontja szerint verzióval és bizonyítékkal kell rögzíteni. Az M4 puha kapujánál (LMS-M4-05) a puszta leadás nem completion: a mentor „Alapszint / rendben” besorolása kell (M4 hub §6), és ha ez grade/pass-feltételként nem kódolható bizonyítottan, ugyanez a checkpoint-út érvényes.
+**Fontos:** M1, M3, M5, M6 és M7 összetett kapuinál a nyers pontszám önmagában nem nyithat downstream tartalmat. Ha Moodle-ben az összetett feltétel nem kódolható bizonyítottan, egy `GATE_CONFIRMED_<module>` kézi/stáb-checkpointot kell létrehozni és a downstream restrict access ehhez kötni; a választott mechanizmust az `LMS – H5P runtime acceptance.md` 8. pontja szerint verzióval és bizonyítékkal kell rögzíteni. Az M4 puha kapujánál (LMS-M4-05) a puszta leadás nem completion: a mentor „Alapszint / rendben” besorolása kell (M4 hub §6), és ha ez grade/pass-feltételként nem kódolható bizonyítottan, ugyanez a checkpoint-út érvényes.
 
 **Kétszemes döntés (Program terv §5):** az M3 (R2, R4) és az M7 (R1, R4, R5, R6) blokkoló sorainál a „javításra megy / blokkol” kimenet kétszemes: mentor + második képző, az M3-nál a gyermekvédelmi felelős is. E két kapunál a kapu-szezon előtt az értékelők közösen átbeszélik a rubrikát, és 1–2 referenciamintát együtt pontoznak.
 
