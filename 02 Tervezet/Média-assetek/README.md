@@ -156,7 +156,7 @@ munkafüzet *Produkciós konvenciók* lapján olvasható.
 
 | Kapu | Mi hiányzik | Mit blokkol |
 |---|---|---|
-| **R2** — AI-avatar / AI-hang IP-megfelelőség | a generátor neve, a kereskedelmi licenc és a voice-talent release igazolása | a 21 beszélőfej-videó, az 5 AI karakter-jelenet és a belőlük kivett 2 állókép |
+| **R2** — AI-avatar / AI-hang IP-megfelelőség | a generátor neve, a kereskedelmi licenc és a voice-talent release igazolása | a 21 beszélőfej-videó, az 5 AI karakter-jelenet és a belőlük kivett 2 állókép, az AI karakter-B-roll (`M1.1-VID-02`), valamint — mivel a felmondás szintetikus — mind a 90 narráció; összesen 119 asset (29 vizuális + 90 narráció) |
 | **R3** — Narrátor hang-bible | a konkrét ElevenLabs voice-ID, modell-azonosító, reprodukciós beállítások és kiejtési szótár | minden narráció, hang és videó |
 | **R5** — Ikon- és karakter-batch + lock | a rögzített **someres hex-paletta** (a szabály ezen belül tartja nyitva) | minden tervezett vizuál és nyomtatott anyag, valamint az AI karakter-jelenetek |
 | **R7** — Produkciós függőségek | a véglegesített Moodle-felület | a kurzusfelületet ábrázoló képernyőkép |

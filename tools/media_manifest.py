@@ -2576,7 +2576,7 @@ BATCH_RULES = (
      lambda g: bool(g & {MISSING_SPOKEN_SOURCE, OPEN_DECISION})),
     ("B5", "BATCH 5 — RUNTIME-KÉPERNYŐKÉP", lambda g: "R7" in g),
     ("B4", "BATCH 4 — JOGÉRZÉKENY (valós fotó / képernyőkép)", lambda g: "R8" in g),
-    ("B3", "BATCH 3 — AI-AVATAR ÉS KARAKTERVIDEÓ", lambda g: "R2" in g),
+    ("B3", "BATCH 3 — AI-AVATAR, KARAKTERVIDEÓ ÉS SZINTETIKUS HANG", lambda g: "R2" in g),
     ("B2", "BATCH 2 — HANG-ZÁR UTÁN", lambda g: "R3" in g),
     ("B1", "BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN", lambda g: "R5" in g),
     ("B0", "BATCH 0 — MOST GYÁRTHATÓ", lambda g: True),
@@ -2587,7 +2587,7 @@ BATCH_DEPENDENCY = {
     "B0": "nincs nyitott kapu",
     "B1": "R5 — vizuális rendszer lock",
     "B2": "R3 — narrátor-hang lock",
-    "B3": "R2 + R3 — avatar-jogtisztaság és hang-lock",
+    "B3": "R2 + R3 — avatar- és hang-jogtisztaság, hang-lock",
     "B4": "R8 — képmás- és adatvédelmi bizonyíték",
     "B5": "R7 (+ R8) — éles Moodle-felület",
     "B6": "szerzői/szakmai döntés vagy jóváhagyott szkript",
@@ -2965,8 +2965,8 @@ def render_plan_md(model: dict) -> str:
             continue
         if batch["key"] == "B0":
             P("A másolat és a specifikáció kész. Két dolgot érdemes tudni: a szabad")
-            P("szöveges H5P elemek megvalósítási típusát a `LMS – H5P runtime acceptance.md`")
-            P("6. pontja a cél-verzión eldöntendőnek nevezi, és a teljes environment record")
+            P("szöveges H5P elemek megvalósítási típusát az `LMS – H5P runtime acceptance.md`")
+            P("6. pontja a célverzión eldöntendőnek nevezi, és a teljes environment record")
             P("is kitöltetlen — ez a köteget nem gátolja, de a végleges beépítés előtt")
             P("tisztázandó.")
             P("")

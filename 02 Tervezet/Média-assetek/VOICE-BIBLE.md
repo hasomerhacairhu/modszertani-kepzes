@@ -80,6 +80,10 @@ Ahol a mért érték kilóg (leggyorsabb: `M7.1-NAR-02` ≈ 271 szó/perc, `M2.4
 felvételnél a hosszt kell tágítani, nem a szöveget hadarni. Ellenkező irányban
 (`M3.2-NAR-04` ≈ 43 szó/perc) bőven van hely a szüneteknek.
 
+*(A mérés a 2026-08-27-i állapotot rögzíti. Azóta több narráció szövege vagy időkerete
+változott — például az `M7.1-NAR-02` 80 helyett 95 szó —, ezért a fenti számok elavultak;
+a szabály, hogy szűk keretnél a hosszt kell tágítani, változatlan.)*
+
 ## 5. Szünet és hangsúly
 
 - **Sortörés a forrásban = rövid levegő.** A szkriptek szándékosan soronként tördeltek.
@@ -140,11 +144,16 @@ A tananyagban **két** dialógusos jelenet van, és ezek nem a narrátor hangjai
 - `M1.3-VID-01` — két madrich (A és B) beszélget, ugyanaz a helyzet kétféle
   visszajelzéssel. **Két megkülönböztethető hang kell**, hogy a felirat nélkül is
   követhető legyen, ki beszél. A szkriptet a szerző 2026-08-27-én jóváhagyta; a szó
-  szerinti dialóg a leckében, `M1.3-VID-01-VO` forrásblokkban él.
+  szerinti dialóg a leckében, `M1.3-VID-01-VO` forrásblokkban él. A dialógushangok, a
+  jogosultságuk és a szájszinkronos gyártási út nyitott döntés
+  ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11).
 - `M4.1-VID-03/04/05` — a karakter **nem beszél**, a narrátor beszél róla harmadik
   személyben („Nézd meg ezt a madrichot…”). Egyetlen kivétel a 3. jelenet, ahol a
   karakter egy mondatot mond: „Sziasztok, ma arról fogunk beszélni, hogy…”. Ez a mondat
-  a jelenetben hangzik el, nem a narrátor sávján.
+  a jelenetben hangzik el, nem a narrátor sávján. *(A 2. jelenet specifikációja szerint a
+  szereplő ott is „gyorsan beszél”, a 3. jelenet mondatát pedig az `M4.1-NAR-05-VO`
+  forrásblokk a narrátor szövegében idézi; hogy a szereplőnek lesz-e saját, hallható
+  hangsávja, nyitott — [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11.)*
 
 Minden más narráció **egyetlen, azonos narrátorhang** — ezt az R3 első mondata írja elő
 („EGYETLEN konzisztens narrátor-hang az egész tananyagban, tegező + barátságos
@@ -193,7 +202,8 @@ minden fájlban.
 
 1. **Egy hang mindenre** (a 8. szakasz két dialógusos kivételével).
 2. **A pilot dönt.** Az `M4.2-NAR-03` a kijelölt narráció-pilot
-   (`MEDIA-PRODUCTION-PLAN.md` 5. szakasz): a tempót,
+   ([`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) P-NAR; a generált terv
+   aktuális pilotja a `MEDIA-PRODUCTION-PLAN.md` 5. szakaszában áll, és eltérhet tőle): a tempót,
    a hangszínt, a szünetkezelést és a someres szavak kiejtését ezen kell jóváhagyni,
    és minden további R3-tétel ehhez igazodik.
 3. **A kiejtési táblát (6. szakasz) minden felvételnél újra kell futtatni** — ez a
@@ -306,7 +316,8 @@ csak hallgatással dönthető el. A hatpárosos összehasonlítás végrehajthat
 
 **Egy hang lesz a kanonikus narrátor**, ahogy az R3 első mondata előírja. A másik hang
 sorsa (tartalék, dialógus- vagy karakterhang) **külön, későbbi döntés** — ez a lap nem
-osztja ki neki egyik szerepet sem.
+osztja ki neki egyik szerepet sem. Az `M1.3-VID-01` dialógushangjainak kérdése:
+[`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11.
 
 ### 13.4. A két hang azonosítása — a létrehozás után
 
@@ -356,7 +367,7 @@ A `GET /v1/models` válaszából modellenként érdemes: `model_id`, `languages`
 |---|---|
 | **PVC** (`professional` / `high_quality`) | a legstabilabb választás 117 tételre; **csak saját hang klónozható** — „Even with their consent, you cannot clone someone else's voice”; a szolgáltató szerint a PVC automatikusan a Flash v2.5 / Turbo v2.5 / Multilingual v2 modellekre tanul — **a v3 nincs ebben a listában**; Creator-csomag vagy feljebb kell hozzá |
 | **IVC** (`cloned`) | a v3 nyitva marad; kevésbé stabil; a hangsúly a forrásfelvételtől függ — ellenőrizendő, hogy **magyar** anyagra tanult, mert „if you use a voice that is not native to the language, it might retain its native accent” |
-| **Voice Design** (`generated`) | teljesen szintetikus: **nincs valós személyhez kötött jogosultsági kérdés** — ez a legegyszerűbb jogi helyzet |
+| **Voice Design** (`generated`) | teljesen szintetikus: nincs azonosított természetes személy, akinek a hangját klónoznánk — de ebből **nem következik, hogy nincs jogi kérdés**: a bizonyíték-nyilvántartás `LEGAL_REVIEW_REQUIRED` állapotban tartja, a minősítés a jogi jóváhagyóé ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.0.) |
 
 > ⚠️ **PVC-nél egy külön kapcsolót is rögzíteni kell.** A kérés `use_pvc_as_ivc` mezője
 > (alapérték `false`) eldönti, hogy a PVC- vagy az IVC-változat szólal-e meg — ugyanahhoz
@@ -434,7 +445,7 @@ above**.”
 
 | Szerep | Formátum | Csomag |
 |---|---|---|
-| **Archív mester (ideális)** | `wav_48000` — **48 kHz** / 16 bit, veszteségmentes. A formátum-listában létezik (ellenőrizve); a 10. szakasz és a produkciós stack 6. szakasza is 48 kHz-et ír elő, tehát **nincs leminősítés** | a 44,1 kHz-re a szolgáltató kimondottan **Pro**-t követel; a **48 kHz csomag-kapuját a dokumentáció nem mondja ki** — a fiókban ellenőrizendő |
+| **Archív mester (ideális)** | `wav_48000` — **48 kHz** / 16 bit, veszteségmentes. A formátum-listában létezik (ellenőrizve). A 10. szakasz a mintavételt **nyitottnak** hagyja, a produkciós stack 6. szakasza pedig csak **ajánlja** a 48 kHz-et (▫️ produkciós ajánlás); a hangteszt és a P-NAR a csomag legjobb formátumával számol (`wav_44100` / `mp3_44100_192`). Az egységes mesterformátum a nyitott csomagdöntéssel együtt rögzítendő | a 44,1 kHz-re a szolgáltató kimondottan **Pro**-t követel; a **48 kHz csomag-kapuját a dokumentáció nem mondja ki** — a fiókban ellenőrizendő |
 | **Archív mester (Creator-on ez a maximum)** | `mp3_44100_192` | **Creator** |
 | **Videó-vágás bemenete** | a fenti mester, egyszer importálva | — |
 | **Moodle/H5P lejátszás** | `mp3_44100_128` | bármely |
@@ -456,8 +467,8 @@ Magyar szervezetnek az **EGT-s** feltételszöveg az irányadó (lekérdezve 202
 |---|---|---|
 | **Kereskedelmi használat** | ingyenes szinten „only use the Services for non-commercial purposes”; fizetős előfizetéssel „may use the Services for commercial purposes” | **fizetős csomag kötelező** |
 | **Kimenet-tulajdon** | „you retain all rights in and to your Output” | rendben |
-| **Licenc a feltöltött tartalomra** | „perpetual and irrevocable… nonexclusive… royalty-free… worldwide and sub-licensable” licenc a szolgáltatás fejlesztésére | lásd a tanítási kimaradást |
-| **Tanítás a bemeneten — kimaradás** | „you may opt out of our use of your Content for training at any time… **does not affect any uses… prior to that date**” | **a kimaradást ELŐRE kell bekapcsolni**, nem utólag |
+| **Licenc a feltöltött tartalomra** | „perpetual and irrevocable… nonexclusive… royalty-free… worldwide and sub-licensable” licenc a szolgáltatás nyújtására és javítására, valamint „to develop new services and products” *(4(d), lekérdezve 2026-10-02)* | **nem a kimaradás oldja meg:** a kimaradás a tanítási felhasználásra szól, a licencet pedig a szolgáltató visszavonhatatlannak írja le → `LEGAL_REVIEW_REQUIRED` ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) E-9; V2) |
+| **Tanítás a bemeneten — kimaradás** | „you may opt out of our use of your Content for training at any time…”; csak „once the request has been processed by our team” hat *(4(i), lekérdezve 2026-10-02)*, és „**does not affect any uses… prior to that date**” | **a kimaradást ELŐRE kell bekapcsolni**, nem utólag — minden fiókban, ahová felvétel kerül; a feltöltés csak a kérés feldolgozása után jöhet |
 | **Klónozás** | PVC: „Even with their consent, you cannot clone someone else's voice”; IVC: önbevalló jelölőnégyzet | a szolgáltató **nem ír elő bizonyíték-formát** — ez a mi oldalunkon emberi döntés |
 | **Megőrzés** | a hangról generált adatot „not… longer than 3 years after your last interaction” | rögzítendő |
 | **Közlési kötelezettség** | a kifejezett kötelezettség **AI-ügynökökre** szól („must clearly and prominently disclose… they are interacting with AI rather than a human”), nem előre renderelt narrációra | **a narrációra nincs szolgáltatói közlési előírás** |
@@ -514,7 +525,7 @@ kell. **A tényleges elszámolást a fiókban kell ellenőrizni** az első köte
 | **V1** | *(korábbi, Microsoft-specifikus tétel — **tárgytalan**, mert nem az a szolgáltató lett kiválasztva.)* Helyette: a választott szolgáltató **nem ír elő** közlési kötelezettséget előre renderelt narrációra. A tananyag R1-címkéje tehát **saját projektdöntés**, és az is marad. Hogy kiskorú tanulók esetén a **szülő/gondviselő** felé kell-e külön tájékoztatás, továbbra is nyitott — de ez a **tananyag** kérdése, nem a szolgáltatóé. | gyermekvédelmi felelős + DPO; a kánoni hely a `Gyermekvédelem – release gate.md` és az `Adatvédelem – tanulói adatok és AI.md` |
 | **V2** | A hang **jogosultsági bizonyítéka**. Ha a kiválasztott hang valós személy klónja, a szolgáltató önbevalláson túl **semmilyen bizonyíték-formát nem ír elő** — a szervezetnek magának kell eldöntenie, milyen hozzájárulást tart, milyen formában és meddig. | jogi jóváhagyó + a hang jogosultja → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
 | **V3** | A szolgáltató feltételei szerint 18 év alatti nem használhatja a szolgáltatást, és kiskorú hangadata nem tölthető fel; a tiltólista viszont 13–18 közötti használatot szülői hozzájárulással elképzelhetőnek tart. **A saját dokumentumaik nem mondanak ugyanazt.** A tananyagban a madrich maga is lehet kiskorú. Kiskorú hangjának klónozása egyértelműen tiltott; hogy kiskorú kezelheti-e a fiókot, nyitott. | gyermekvédelmi felelős |
-| **V4** | A **tanítási kimaradást** be kell kapcsolni, **mielőtt** bármit feltöltünk — visszamenőleg nem hat. Ez üzemeltetési lépés, de felelőst kíván. | a fiók gazdája |
+| **V4** | A **tanítási kimaradást** be kell kapcsolni, **mielőtt** bármit feltöltünk — visszamenőleg nem hat, és csak a kérés feldolgozása után lép életbe. Minden fiókban kell, ahová felvétel kerül. Ez üzemeltetési lépés, de felelőst kíván. | a fiók gazdája — PVC-nél a forrás-beszélő is, mert a hang az ő fiókjában jön létre (`HUM-MEDIA-02`) |
 
 > A kutatás **szűkíti** a döntést, nem helyettesíti. A kanonikus hang kiválasztása
 > meghallgatásos emberi döntés marad.

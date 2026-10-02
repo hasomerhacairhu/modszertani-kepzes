@@ -5,7 +5,7 @@
 > A jelentések mozgalmi/Judaica forrásokkal alátámasztottak (a részletes someres-terminológiai audit a git-history-ban érhető el); a 🧑‍🏫 jelű tételeknél a helyi (magyarországi Somer) ken végső megerősítése ajánlott.
 
 
-> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez hivatalosnak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. **Ezt a house-style kérdést nem automatizáljuk tömeges átírással.** A korosztály-architektúra viszont **lezárt, forrásolt adat**: a „Oktatási terv 25/26 Hasomer Hacair” három aktuális csoportot rögzít: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
+> ⚠️ **Nyitott helyi terminológiai gate (2026-08-25):** a jelen glosszárium több helyen `madrich` / `chanich` alakot nevez hivatalosnak, miközben a Hasomer Hacair Hungary aktuális nyilvános felületei és a Somer–Magyar szótár jellemzően `madrih` és `hánih` / `hanih` alakot használnak. **Ezt az alakválasztási kérdést nem automatizáljuk tömeges átírással.** A korosztály-architektúra viszont **a tananyagban alkalmazott, jóváhagyásra váró javaslat (HUM-SOMER-02)**: az „Oktatási terv 25/26 Hasomer Hacair” három aktuális csoportot rögzít: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
 
 ---
 
@@ -16,7 +16,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 ### bogrim (בוגרים)
 - **Jelentés:** „érettek / idősebbek”. **A 2025/26-os magyarországi oktatási tervben nem külön kvuca-korosztály neve**; a jelen tananyag aktuális korosztály-struktúrájában nem használjuk önálló 16+ csoportcímkeként.
 - **Írásmód (hivatalos):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
-- **Megjegyzés:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért aktuális learner-facing korosztálycímkeként nem használjuk.
+- **Megjegyzés:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért a tanulói szövegben aktuális korosztálycímkeként nem használjuk.
 
 ### chanich (חניך)
 - **Jelentés:** növendék, gondozott; mozgalmi értelemben a kvuca tagja, akit a madrich vezet.
@@ -26,7 +26,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 ### dugma ishit (דוגמא אישית)
 - **Jelentés:** személyes példamutatás; a chanichok abból tanulnak, amit a madrichon **élőben** látnak (nem távoli példakép / role model).
 - **Írásmód (hivatalos):** **kisbetűs köznév** – `dugma ishit`. Első előforduláskor *kurzív* + magyar glossza: „személyes példamutatás”.
-- **Megjegyzés:** a héber köznév, nem ír nagybetűt. A megszemélyesített „Dugma Ishitnek lenni” formát **kerüld** – helyette: „dugma ishitként viselkedni” / „személyes példát mutatni”. A pozitív magja: az ideáljaim megélése (nem csak a „mit NEM teszek” oldalról).
+- **Megjegyzés:** héber köznév, ezért kisbetűvel írjuk. A megszemélyesített „Dugma Ishitnek lenni” formát **kerüld** – helyette: „dugma ishitként viselkedni” / „személyes példát mutatni”. A pozitív magja: az ideáljaim megélése (nem csak a „mit NEM teszek” oldalról).
 
 ### hagshama (הגשמה)
 - **Jelentés:** önmegvalósítás; a mozgalmi eszmék gyakorlati beteljesítése (pl. alija, kibuc, „az értékeimet tettekre váltom”).
@@ -94,7 +94,7 @@ Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései.
 | **Leviatan** | cet/leviatán | **13–17** | 🐋 | tinédzser / idősebb chanichok |
 
 - **Figyelem:** `Leviatan` ékezet nélkül (NEM „Leviatán”).
-- **Forrás és státusz:** a korosztály-besorolás a kapcsolt **„Oktatási terv 25/26 Hasomer Hacair”** dokumentum alapján **lezárt a 2025/26-os programhoz**. A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
+- **Forrás és státusz:** a korosztály-besorolás az **„Oktatási terv 25/26 Hasomer Hacair”** dokumentumra hivatkozik; a tananyag ezt alkalmazza, a jóváhagyás és a forrás bizonyítéka nyitott (**HUM-SOMER-02**). A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
 
 ---
 
@@ -136,8 +136,8 @@ Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és 
 Olyan kapu, amely a továbblépést egy **előre rögzített teljesítési minimumhoz** köti, nem egyszeri „megbuktató vizsgához”. Lehet rubrika- vagy kvízalapú; a cél, hogy a szükséges tudás vagy készség ténylegesen meglegyen, és javítás után újra lehessen próbálni. A régebbi fejlesztői jegyzetekben előfordulhat a `mastery-kapu` angol-magyar keverék, de **tanulói nyelven a `teljesítési kapu` a kanonikus alak**.
 
 ### gyakorlás / aktív felidézés / időben elosztott gyakorlás (tanulástan)
-- **gyakorlás (aktív cselekvés):** a chanich nem csak hallgat, hanem maga **csinál** valamit (játszik, mondja, írja, mutatja). (M5.3)
-- **aktív felidézés:** a tanuló **fejből próbál előhívni** valamit, mielőtt újra megnézné vagy meghallgatná. Az angol szakirodalomban gyakran *retrieval practice* / *active recall*. A tanulói szövegben a **`aktív felidézés`** a kanonikus alak.
+- **gyakorlás (aktív cselekvés):** a chanich nemcsak hallgat, hanem maga **csinál** valamit (játszik, mondja, írja, mutatja). (M5.3)
+- **aktív felidézés:** a tanuló **fejből próbál előhívni** valamit, mielőtt újra megnézné vagy meghallgatná. Az angol szakirodalomban gyakran *retrieval practice* / *active recall*. A tanulói szövegben az **`aktív felidézés`** a kanonikus alak.
 - **időben elosztott gyakorlás:** ugyanaz a tudás vagy készség **külön tanulási alkalmakon** tér vissza, nem egyetlen hosszú blokkban. Az angol szakirodalomban *spacing* / *distributed practice*. A tanulói szövegben az **`időben elosztott gyakorlás`** a kanonikus alak.
 - **Fontos:** a tananyag nem állít univerzális „optimális 1 napos” közöket; a visszatérés konkrét időzítését a programritmushoz kell igazítani.
 
@@ -166,7 +166,7 @@ Az M4-ben használt, legfeljebb kb. 45 másodperces bevezető: kinek szól a peu
 
 5. **Nőnemű többes: `madrichot`, nem `madrichák`.** Egységesen `madrichok / madrichot` mindenhol.
 
-6. **Glosszázás első előforduláskor.** Héber kifejezés első bevezetése: *kurzív* + magyar glossza zárójelben (pl. *dugma ishit* – „személyes példamutatás”).
+6. **Glosszázás első előforduláskor.** Héber kifejezés első bevezetése: *kurzív* + magyar glossza zárójelben, pl. *dugma ishit* („személyes példamutatás”).
 
 7. **A pillér írásmódja „cionizmus” (c-vel).** A magyar standard helyesírás és a magyarországi Somer alak `cionizmus` / `cionista`; a `zionizmus` / `zionista` (z-vel) **kerülendő**. Egységesen a teljes tananyagban.
 
@@ -185,10 +185,10 @@ Az M4-ben használt, legfeljebb kb. 45 másodperces bevezető: kinek szól a peu
 
 - **[M0 – „Kickoff, keret, technika”](./Modulok/M0/M0%20–%20Kickoff,%20keret,%20technika.md)**
 - **[M1 – „Vakfolt, tükör, visszajelzés”](./Modulok/M1/M1%20–%20Vakfolt,%20tükör,%20visszajelzés%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)** – Johari-ablak, SBI.
-- **[M2 – „Ki vagyok madrichként_”](./Modulok/M2/M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)** – identitás, Somer-értékek, dugma ishit.
+- **[M2 – „Ki vagyok madrichként?”](./Modulok/M2/M2%20–%20Ki%20vagyok%20madrichként%20–%20Identitás,%20Somer-értékek%20és%20dugma%20ishit.md)** – identitás, Somer-értékek, dugma ishit.
 - **[M3 – „Kvuca, red flag, felelősség”](./Modulok/M3/M3%20–%20Kvuca,%20red%20flag,%20felelősség%20–%20Csoportdinamika,%20korosztályok%20és%20gyermekvédelem.md)** – csoportdinamika, korosztályok, gyermekvédelem.
-- **[M4 – „Hallható és érthető vagyok_”](./Modulok/M4/M4%20–%20Hallható%20és%20érthető%20vagyok%20–%20Kiállás,%20kapcsolódás%20&%20kérdezéstechnika.md)**
-- **[M5 – „Ez most játék vagy tanulás_”](./Modulok/M5/M5%20–%20Ez%20most%20játék%20vagy%20tanulás%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)** – nonformális nevelés, tanulástan.
+- **[M4 – „Hallható és érthető vagyok?”](./Modulok/M4/M4%20–%20Hallható%20és%20érthető%20vagyok%20–%20Kiállás,%20kapcsolódás%20&%20kérdezéstechnika.md)**
+- **[M5 – „Ez most játék vagy tanulás?”](./Modulok/M5/M5%20–%20Ez%20most%20játék%20vagy%20tanulás%20–%20Nonformális%20nevelés,%20módszerválasztás%20&%20tanulástan.md)** – nonformális nevelés, tanulástan.
 - **[M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”](./Modulok/M6/M6%20–%20Eszköztár%20–%20játék,%20történet,%20kézműves%20&%20inkluzivitás.md)**
 - **[M7 – „Peula a papírtól a valóságig”](./Modulok/M7/M7%20–%20Peula%20a%20papírtól%20a%20valóságig%20–%20Programírás,%20Zmán%20Kvucá%20&%20AI-támogatott%20tervezés.md)** – programírás, Zmán Kvucá.
 - **[Z – „Zárás & híd a terepre”](./Modulok/Z/Z%20–%20Zárás%20&%20híd%20a%20terepre.md)**

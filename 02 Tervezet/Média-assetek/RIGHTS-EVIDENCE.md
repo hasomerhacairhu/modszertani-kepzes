@@ -25,7 +25,8 @@ a fájl és nem a fordító.
 assethez dokumentálandó: a használt generátor neve, a kereskedelmi/oktatási felhasználást
 engedő licenc, és a voice-talent release.”
 
-**Jelenlegi hatálya a manifesztben: 28 asset.** A hatály 2026-08-27-én eldőlt (A opció,
+**Jelenlegi hatálya a manifesztben: 119 asset** — 29 vizuális asset és 90 narráció (lásd
+a „Fontos következmény” bekezdést). A hatály 2026-08-27-én eldőlt (A opció,
 [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) lezárt döntések): a szigorúbb
 olvasat marad érvényben, hacsak egy későbbi jogi review kifejezetten nem szűkíti.
 **Ami nyitva maradt, az maga a bizonyíték** — az alábbi hat sor.
@@ -34,7 +35,9 @@ olvasat marad érvényben, hacsak egy későbbi jogi review kifejezetten nem sz�
 |---|---:|---|
 | **AI beszélőfej-videó** | 21 | szintetikus emberi persona, aki a tananyag nevében beszél |
 | **AI karakter-jelenet (teljes alakos)** | 5 | `M1.3-VID-01`, `M4.1-VID-02/03/04/05` — AI-generált emberi alak, szintetikus narrációval |
+| **AI karakter-B-roll** | 1 | `M1.1-VID-02` — AI-generált kvuca-jelenetek emberi alakokkal; a saját jegyzete szerint AI karakter-anyag |
 | **Karakter-freeze-frame** | 2 | `M4.1-FOTO-01/02` — a fenti videókból kivett állókép |
+| **Szintetikus narráció** | 90 | a felmondás 2026-08-28 óta szintetikus (ElevenLabs) — az R2 „AI-hang” ága, lásd a „Fontos következmény” bekezdést |
 | **Hétköznapi AI-illusztráció, ikon, diagram** | 0 | **NEM tartozik ide:** az R2 avatar- és hangjog, nem általános AI-tartalom kapu. Ezekre az R1 (AI-jelölés) vonatkozik. |
 
 ### Szükséges bizonyítékok
@@ -45,24 +48,25 @@ kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
 
 | # | Bizonyíték | Mire kell | Állapot | Kutatás |
 |---|---|---|---|---|
-| R2-1 | A képgeneráló eszköz / szolgáltató **neve és verziója** | mind a 28 | **HIÁNYZIK** | KUTATVA — jelöltek és verziók: 1/A.1., 1/A.2. |
-| R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 28 | **HIÁNYZIK** — a fiókhoz és a választott csomaghoz kötött szövegváltozat kell | KUTATVA — a jelöltek nyilvános záradékai idézve: 1/A.1., 1/A.2. |
-| R2-3 | **Avatar- / képmás-jogosultság**: az avatar nem valós, azonosítható személy hasonmása, vagy van rá engedély | 26 videó + 2 állókép | **HIÁNYZIK** | KUTATVA — a jelöltek hozzájárulási feltételei idézve; a **J2 kiskorú-kérdés** nyitva: 1/A.3. |
+| R2-1 | A képgeneráló eszköz / szolgáltató **neve és verziója** | mind a 29 vizuális asset | **HIÁNYZIK** | KUTATVA — jelöltek és verziók: 1/A.1., 1/A.2. |
+| R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 119 | **HIÁNYZIK** — a fiókhoz és a választott csomaghoz kötött szövegváltozat kell | KUTATVA — a jelöltek nyilvános záradékai idézve: 1/A.1., 1/A.2. |
+| R2-3 | **Avatar- / képmás-jogosultság**: az avatar nem valós, azonosítható személy hasonmása, vagy van rá engedély | 27 videó + 2 állókép | **HIÁNYZIK** | KUTATVA — a jelöltek hozzájárulási feltételei idézve; a **J2 kiskorú-kérdés** nyitva: 1/A.3. |
 | R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **RÉSZBEN MEGVAN** — a szolgáltató **ElevenLabs** (felhasználói döntés, 2026-08-28); a **modell-azonosító és a voice-ID még hiányzik** | a szolgáltató és a modell-javaslat: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz |
 | R2-5 | **Hang-jogosultság**: a felhasznált egyedi hang használatának joga | a kiválasztott kanonikus hangra | **HIÁNYZIK** | KUTATVA — a szolgáltató feltételei és a hangtípusonkénti következmény: 1/A.0. |
 | R2-6 | Emberi felmondó esetén felhasználási szerződés | — | **NEM ALKALMAZHATÓ** — a felmondás 2026-08-28 óta szintetikus | — |
 
-> **Fontos következmény.** Ha a D2 válasza **szintetikus hang**, az R2 „AI-hang” ága
-> nemcsak a 28 videóra, hanem **mind a 90 narráció-assetre** is kiterjed. Ha emberi
-> felmondó lesz, akkor az R2-5 helyére az R2-6 lép, és a narrációk nem kerülnek az R2
-> hatálya alá. **Ez a döntés következménye, nem külön kérdés** — de a bizonyíték-listát
-> a válasz után újra kell futtatni.
+> **Fontos következmény.** A D2 válasza (2026-08-28): **szintetikus hang**. Ezért az R2
+> „AI-hang” ága nemcsak a vizuális R2-assetekre, hanem **mind a 90 narráció-assetre** is
+> kiterjed: a manifesztben mind a 90 narráció `blockers` mezője viszi az R2-t, az R2-6
+> (emberi felmondó) pedig nem alkalmazható. **Ez a döntés következménye, nem külön
+> kérdés.**
 
 ---
 
 ## 1/A. Szolgáltató-kutatás (2026-08-27, kiegészítve 2026-08-28) — a bizonyíték-igény konkrétummá tétele
 
-> **A 28 asset R2-blokkolója változatlanul a helyén marad.** A fenti hat sorból négy
+> **A 28 asset R2-blokkolója változatlanul a helyén marad.** *(Azóta: 119 asset — lásd
+> az 1. szakaszt.)* A fenti hat sorból négy
 > továbbra is **HIÁNYZIK**; az R2-4 a szolgáltatói döntés után **RÉSZBEN MEGVAN**, az
 > R2-6 pedig **NEM ALKALMAZHATÓ** lett (a felmondás szintetikus). **Egyik sem jelent
 > feloldást:** a hiányzó rész — voice-ID, modell, licenc-igazolás, hang-jogosultság —
@@ -131,11 +135,12 @@ használni. A hangtípus dönti el, mit kell igazolni:
 | E-1 | Kereskedelmi használat | ingyenes szinten „only use the Services for non-commercial purposes”; fizetős előfizetéssel „may use the Services for commercial purposes” | `EVIDENCE_FOUND` — **fizetős csomag kötelező** |
 | E-2 | Kimenet-tulajdon | „you retain all rights in and to your Output” | `EVIDENCE_FOUND` |
 | E-3 | Klónozási feltétel | „your voice or a voice you are authorized to share with us”; tiltott más hangjának replikálása „without consent or legal right” | `CONSENT_EVIDENCE_REQUIRED` — **bizonyíték-formát a szolgáltató nem ír elő** |
-| E-4 | Tanítás a bemeneten | a kimaradás bármikor bekapcsolható, de „**does not affect any uses… prior to that date**” | `EVIDENCE_FOUND` — **a kimaradást ELŐRE kell bekapcsolni** |
+| E-4 | Tanítás a bemeneten | a kimaradás bármikor bekapcsolható, de csak „once the request has been processed by our team” hat *(4(i), lekérdezve 2026-10-02)*, és „**does not affect any uses… prior to that date**” | `EVIDENCE_FOUND` — **a kimaradást ELŐRE kell bekapcsolni**, minden fiókban, ahová felvétel kerül; a feltöltés csak a kérés feldolgozása után jöhet |
 | E-5 | Megőrzés | a hangról generált adatot „not… longer than 3 years after your last interaction” | `EVIDENCE_FOUND` |
 | E-6 | Gépi provenance | hallhatatlan hangvízjel; **a beszéd-kimeneten nincs C2PA**; robusztussági leírás nincs; a lefedettséget nem nyilvánították befejezettnek | `EVIDENCE_INCOMPLETE` — az R1 gépi ága a hangon **nem értelmezhető** |
 | E-7 | Közlési kötelezettség | a kifejezett előírás **AI-ügynökökre** szól, nem előre renderelt narrációra | `NOT_APPLICABLE` — az R1-címke **projektszabály**, és az is marad |
 | E-8 | Kiskorúak | a feltételek szerint 18 alatti nem használhatja a szolgáltatást és kiskorú hangadata nem tölthető fel; a tiltólista viszont 13–18 közötti használatot szülői hozzájárulással elképzelhetőnek tart — **a saját dokumentumaik nem mondanak ugyanazt** | `LEGAL_REVIEW_REQUIRED` — lásd V3 |
+| E-9 | Licenc a feltöltött felvételekre | a feltöltött hangfelvétel a 4(b) szerint a 4(d) alá esik: a tartalomra — a hangra is — szóló licenc „to provide the Services…, to improve the Services, and to develop new services and products”, és „perpetual and irrevocable (which means this license cannot be withdrawn)”, „sub-licensable, through multiple tiers”; a hangot engedély nélkül önállóan nem kommercializálja („will not commercialize your voice on a standalone basis without your permission”). A 4(g) szerint csak az tölthet fel, akinek megvan „all the rights necessary to grant us the license described above”. *(EGT-s feltételek, lekérdezve 2026-10-02)* | **`LEGAL_REVIEW_REQUIRED`** — a H-5 mintájára. A kimaradás (E-4) a tanítási felhasználásra szól; hogy a licenc többi célját érinti-e, és mit kell ehhez a V2 hozzájárulásnak lefednie, jogi kérdés |
 
 ### 1/A.1. Beszélőfej-videó (21 asset) — a szolgáltató **HeyGen** (felhasználói döntés, 2026-08-28)
 
@@ -164,7 +169,7 @@ Minden idézet a szolgáltató saját feltételeiből, lekérdezve 2026-08-28.
 > **A H-5 a legfontosabb új tétel.** A gyártási lánc szerint a **klónozott egyedi hang
 > hangmesterét** töltjük fel a szolgáltatóhoz. A fenti záradék szerint ezzel a
 > szolgáltató visszavonhatatlan, továbbadható licencet kap arra, hogy ezen a hangon
-> **modelljeit tanítsa**. Ha a hang valós személy hangjának klónja, ez **nem csak a
+> **modelljeit tanítsa**. Ha a hang valós személy hangjának klónja, ez **nemcsak a
 > szervezet döntése, hanem az érintett személyé is**.
 >
 > Két pontosítás, hogy ez ne legyen túlállítva:
@@ -191,13 +196,15 @@ A karakter rögzítéséhez vizsgált képgenerátor (`gemini-3-pro-image`, „N
 a dokumentációja szerint karakter-konzisztenciához
 **legfeljebb 5 referenciakép** adható meg („Up to 5 images of characters to maintain
 character consistency”), és kimondja, hogy „All generated images include a SynthID
-watermark”.
+watermark”. Ez is a Google generatív szolgáltatása, ezért a **J1** kérdése (1/A.3.) erre a
+lépésre is kiterjed — `LEGAL_REVIEW_REQUIRED`; hogy melyik feltételszöveg és záradék
+alkalmazandó rá, a jogi jóváhagyó dönti el.
 
 ### 1/A.3. Három kérdés, amit ez a lap NEM dönt el — emberi kapu
 
 | # | Kérdés | Bizonyíték | Kihez tartozik |
 |---|---|---|---|
-| **J1** | A Google Cloud Service Specific Terms §20(d) szerint az ügyfél nem használhat generatív AI-szolgáltatást olyan online szolgáltatás részeként, amely „directed towards or is likely to be accessed by individuals under the age of 18”. A tananyag célközönsége **15+**, és a madrich maga is lehet kiskorú. Hogy az **offline legyártott, majd Moodle-ön kiszolgált** asset ebbe a mondatba esik-e, jogi olvasat. | idézve fent | **jogi jóváhagyó** — ez a javasolt karakter-jelenet stacket kizárhatja |
+| **J1** | A Google Cloud Service Specific Terms §20(d) szerint az ügyfél nem használhat generatív AI-szolgáltatást olyan online szolgáltatás részeként, amely „directed towards or is likely to be accessed by individuals under the age of 18”. A tananyag célközönsége **15+**, és a madrich maga is lehet kiskorú. Hogy az **offline legyártott, majd Moodle-ön kiszolgált** asset ebbe a mondatba esik-e, jogi olvasat. A kérdés a karakter-jelenet **videómodelljét** (Veo) és a karakter-lock **képgenerátorát** (`gemini-3-pro-image`) egyaránt érinti: mindkettő a Google generatív szolgáltatása. | idézve fent | **jogi jóváhagyó** — ez a javasolt karakter-jelenet stacket — a videót és a képi lépést is — kizárhatja |
 | **J2** | A **választott beszélőfej-szolgáltató** moderációs politikája tiltja az olyan avatart, amely „Represent or appear in the sole discretion of HeyGen to represent **individuals under the age of 18**”; a karakter-jelenet szolgáltatója pedig EU-ban felnőttre korlátozott személy-generálást enged. Ebből az következik, hogy **a beszélőfej és a karakter felnőttnek kell hogy látsszon** — miközben a tananyag szerint a madrich maga is lehet kiskorú, és a jelenetek „madrichot” ábrázolnak. | idézve a H-7 sorban | **gyermekvédelmi felelős + szerzői döntés** — ez tananyagi és gyermekvédelmi kérdés, nem eszközválasztás. A kánoni hely: `Gyermekvédelem – release gate.md` és `Emberi jóváhagyás szükséges.md`. |
 | **J3** | A beszélőfej-szolgáltató a **feltöltött tartalomra** visszavonhatatlan, továbbadható licencet kér, amely kiterjed a **modelljei tanítására** is (H-5). A gyártási lánc szerint épp a **klónozott egyedi hang** hangmesterét töltenénk fel. Ha a hang valós személy hangjának klónja, ez az érintett személy döntése is. Nyitva marad az is, hogy a záradék az API-s útvonalra egyáltalán vonatkozik-e. | idézve a H-5 sorban | **jogi jóváhagyó + a hang jogosultja** — a szervezet nem adhat egyoldalúan tanítási jogot más hangjára |
 

@@ -3,11 +3,11 @@
 ## 1. Modul meta
 
 * **Időtartam:** 2 hét
-* **Heti offline:** péntek 2. sáv – M5.A (hét 1) és M5.B (hét 2), **45–45’**
-* **Online terhelés:** kb. **4×15–20 perc** (M5.1–M5.4) — az M5.4 produktum-készítés (saját táblázat + Assignment-feltöltés) akár **20–30 perc** is lehet.
+* **Heti offline:** péntek 2. sáv – M5.A (1. hét) és M5.B (2. hét), **45’ + 45’**
+* **Online terhelés:** kb. **4×15–20 perc** (M5.1–M5.4) – az M5.4 produktum-készítés (saját táblázat + Assignment-feltöltés) akár **20–30 perc** is lehet.
 * **Teljes terhelés:** kb. **2,5–3,5 óra** (online + offline együtt)
 
-> **Terhelés-őszinteség:** a fenti sávok a *reális felső* értéket is tartalmazzák — **tervezz inkább a felső értékkel** (≈ **3,5 óra**, az M5.4-nél a **30 perc** produktum-idővel). Az M5.4 az M5 **éles kapuja** (produktum-rubrika), ezért **ez a leginkább alulbecsülhető rész** — a táblázat összeállítása + önellenőrzés + Assignment-feltöltés könnyen átlépi a 20 percet, ezért szánj rá tudatosan többet. A felzárkóztató M5.F (felzárkóztató műhely) ezen felül +45 perc, ha élsz vele.
+> **Reális terhelés:** a fenti sávok a *reális felső* értéket is tartalmazzák – **tervezz inkább a felső értékkel** (≈ **3,5 óra**, az M5.4-nél a **30 perc** produktum-idővel). Az M5.4 az M5 **éles kapuja** (produktum-rubrika), ezért **ez a leginkább alulbecsülhető rész** – a táblázat összeállítása + önellenőrzés + Assignment-feltöltés könnyen átlépi a 20 percet, ezért szánj rá tudatosan többet. A felzárkóztató M5.F ezen felül +45 perc, ha élsz vele.
 
 **Modulközponti kérdés**
 
@@ -43,7 +43,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Cél:**
   A formális–nonformális–informális tanulási helyzetek megkülönböztetése, és a someres nonformális nevelés fő jellemzőinek beazonosítása (kvuca, önkéntesség, élmény, beszélgetés).
 * **Eszközök:**
-  * H5P **Course Presentation** (5–7 slide) beépített Single Choice / True–False kérdésekkel.
+  * H5P **Course Presentation** (5–7 slide) beépített egyválaszos Multiple Choice / True–False kérdésekkel.
 * **Rövid menet:**
   * Hook: rövid mini-sztorik – „suli / Somer / random” helyzetek kattintható besorolással.
   * Input: egyszerű, ikonokkal támogatott definíciók a három tanulásformára.
@@ -53,25 +53,25 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 ### M5.2 – Feladat → módszer döntési fa – „Mit választok először?” (15–20’)
 
 * **Cél:**
-  Ráerősíteni arra, hogy **először célt választunk, aztán kvucát nézünk, és csak ezután módszert / játékot**, nem fordítva.
+  Ráerősíteni arra, hogy **először a feladatból célt fogalmazunk, aztán kvucát nézünk, és csak ezután választunk módszert / játékot**, nem fordítva.
 * **Eszközök:**
   * H5P **Branching Scenario** – célágak, kvuca- és módszerválasztó lépések.
 * **Rövid menet:**
-  * Hook: „Mi a feladatod madrichként?” – választható kiinduló célok (ismerkedés, érték-reflexió, készségfejlesztés, infóátadás).
+  * Hook: „Mi a feladatod madrichként?” – választható kiinduló feladatok (ismerkedés, érték-reflexió, készségfejlesztés, infóátadás).
   * Input: cél-áganként rövid magyarázat, hogyan néz ki a tanulás az adott célnál.
   * Activity: kvuca-jellemzők és módszer-opciók közötti választás, azonnali visszajelzéssel a választás és a cél összhangjáról.
-  * Check: összegző kérdések a helyes sorrendről és egy rövid mondatbefejezés („Ha a feladatom az, hogy…, akkor olyan módszert választok, ami…”).
+  * Check: összegző kérdések a helyes sorrendről és egy rövid mondatbefejezés („Ha a feladatom az, hogy…, akkor a célom az, hogy… A kvucám… (kor, hangulat), ezért olyan módszert választok, ami…”).
 
 ### M5.3 – „Hogyan tanulunk tényleg?” – Gyakorlás, aktív felidézés, időben elosztott gyakorlás (15–20’)
 
 * **Cél:**
-  Megérteni, hogy a kvuca akkor tanul, ha **csinál, felidéz és többször találkozik a tartalommal**, nem attól, hogy a madrich sokat beszél.
+  Megérteni, hogy attól, hogy a madrich sokat beszél, még nem biztos, hogy a kvuca tanul: a tanulást az segíti, ha **csinál, felidéz és többször találkozik a tartalommal**.
 * **Eszközök:**
-  * H5P **Course Presentation** (6–8 slide) + **Question Set** (4–5 kérdés, a Course Presentation végébe ágyazva): példák párokban („egyszer, hosszú elmondás” vs. „többször, röviden ismételni”; „én mondom meg” vs. „ők próbálják felidézni”).
+  * H5P **Course Presentation** (6–8 slide) + **Question Set** (4–5 kérdés, a Course Presentation után; a lecke H5P-elemei egyetlen H5P **Column** activityben): példák párokban („egyszer, hosszan elmondani” vs. „többször, röviden ismételni”; „én mondom meg” vs. „ők próbálják felidézni”).
 * **Rövid menet:**
-  * Hook: hétköznapi tanulás-helyzetek (dolgozat, szabálymagyarázás, énekpróba) – „melyiktől emlékszel jobban?”.
+  * Hook: hétköznapi tanulási helyzetek (dolgozat, szabálymagyarázás, énekpróba) – „melyiktől emlékszel jobban?”.
   * Input: három kulcsfogalom rövid, someres példákkal (peula, tábor, ken).
-  * Activity: döntések arról, melyik megoldás segíti jobban a hosszú távú tanulást (drag & drop / jelölés).
+  * Activity: döntések arról, melyik megoldás segíti jobban a hosszú távú tanulást (párok közötti választás).
   * Check: 3 kérdés fogalomfelismerésre + 1–2 szituációs kérdés „mit csinálsz, ha azt akarod, hogy jövő héten is emlékezzenek?”.
 
 ### M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként (15–20’)
@@ -79,12 +79,12 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Cél:**
   Elkészíteni a modul produktumának vázát: egy **3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázatot**, amihez madrichként később is vissza tud térni.
 * **Eszközök:**
-  * H5P **Column** – rövid felidézés + minta-táblázat + checklist.
+  * H5P **Column** – rövid felidézés + minta-táblázat + ellenőrző lista.
   * **Moodle Assignment** – a kész táblázat leadására.
 * **Rövid menet:**
   * Hook: „3–4 helyzet, ahol nagyon nem mindegy, mit csinálsz” – tipikus madrich-helyzetek felsorolása.
   * Input: minta-táblázat (Feladat / cél – Kvuca – Módszer – Tanulástan-szemlélet) rövid magyarázattal.
-  * Activity: saját 3–4 sor megírása, majd önellenőrzés checklista alapján (feladat, kvuca, módszer, tanulástan mind megjelenik).
+  * Activity: saját 3–4 sor megírása, majd önellenőrzés ellenőrző lista alapján (feladat, kvuca, módszer, tanulástan mind megjelenik).
   * Check: emlékeztető a táblázat Assignmentként való feltöltésére (modulproduktum).
 
 ## 4. Offline peulák
@@ -96,7 +96,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   "id": "M5-HUB-EGY-01",
   "kind": "print",
   "mode": "external",
-  "title": "Gallery walk reakció-eszközök (post-it / pötty-matrica)",
+  "title": "Galériaséta reakció-eszközök (post-it / pötty-matrica)",
   "subtype": "consumable",
   "purpose": "Strukturált társas visszajelzés a galériaséta során, az átdolgozott peula-tervek értékeléséhez.",
   "spec": "Post-it lapok és pötty-/pont-matricák a poszter-sétához, hogy a résztvevők reakciókat hagyhassanak a csoportposztereken („Mitől lett someresebb? Mi maradt még sulis?”). Beszerzendő/előkészítendő készlet, nem egyedi grafika.",
@@ -129,7 +129,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * 0–5’ – Ráhangolódás: 1 „sulis” és 1 „someres” helyzet megosztása körben.
   * 5–10’ – 3 sarok játék: a tér három sarka – Suli / Somer / Random élet; helyzetkártyák besorolása, rövid indoklásokkal.
   * 10–30’ – Fő gyakorlat: kiscsoportos munka helyzetkártyákkal; besorolás után áttervezik, hogyan csinálnák meg nonformális someres peulának, poszteren **Feladat / Cél / Kvuca / Módszer** bontásban.
-  * 30–40’ – Megosztás **galériasétakal (poszter-séta)**: minden csoport posztere egyszerre kikerül a „galériába”, a kvuca körbejár és post-it / pötty-reakciókat hagy, majd közös tanulságok: „Mitől lett someresebb? Mi maradt még sulis?”
+  * 30–40’ – Megosztás **galériasétával (poszter-séta)**: minden csoport posztere egyszerre kikerül a „galériába”, a kvuca körbejár és post-it / pötty-reakciókat hagy, majd közös tanulságok: „Mitől lett someresebb? Mi maradt még sulis?”
   * 40–45’ – Zárókör: mondatbefejezés – „A következő peulán figyelni fogok arra, hogy…”.
 
 ### Peula B – M5.B: „Tervezek egy nonformális peula-részletet” – hogy tényleg tanuljunk is (45’)
@@ -144,19 +144,19 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * 10–30’ – Mini-projekt kiscsoportban:
     * választanak egy sort a saját (vagy mintaként adott) táblázatukból,
     * kidolgoznak belőle egy 10–15 perces peula-részletet: cél, kvuca-jellemzők, konkrét gyakorlat, hol jelenik meg benne gyakorlás / aktív felidézés / időben elosztott gyakorlás.
-  * 30–40’ – Bemutatás és társas visszajelzés: 2–3 csoport megoszt, többiek 1–1 mondattal reagálnak („Hol volt erős nonformális elem?” „Hol láttam benne tanulást?”).
+  * 30–40’ – Bemutatás és társas visszajelzés: 2–3 csoport bemutatja a munkáját, a többiek 1-1 mondattal reagálnak („Hol volt erős nonformális elem?” „Hol láttam benne tanulást?”).
   * 40–45’ – Zárókör: mondatbefejezés – „Ha legközelebb peulát tervezek, először arra fogok figyelni, hogy…”.
 
-> **Kapcsolat az online produktummal:** a megtervezett peula-részlet visszakerülhet az M5.4-ben készülő táblázatba, finomítva a modulproduktumot.
+> **Kapcsolat az online produktummal:** a megtervezett peula-részlet visszakerülhet az M5.4-ben készülő táblázatba, és így finomodik a modulproduktum.
 
-## 5. Felzárkóztató peula – M5.F (felzárkóztató műhely, 45’)
+## 5. Felzárkóztató peula – M5.F (45’)
 
 **Cél:** támogatni azokat, akik lemaradtak az online leckékkel (M5.1–M5.4), hogy értsék a kulcsfogalmakat (formális–nonformális–informális, feladat→cél→kvuca→módszer, gyakorlás–aktív felidézés–időben elosztott gyakorlás), és ténylegesen haladjanak legalább egy leckében.
 
 **Rövid váz:**
 
 * Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben, hol tart az M5.1–M5.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
-* 5–25’: csendes catching-up – mindenki a saját hiányzó leckéivel dolgozik (füles, saját eszköz), jegyzetlappal: **leckénként 1 gondolat + 1 kérdés**.
+* 5–25’: csendes pótlás – mindenki a saját hiányzó leckéivel dolgozik (füles, saját eszköz), jegyzetlappal: **leckénként 1 gondolat + 1 kérdés**.
 * 25–40’: közös kérdés–válasz, fogalom-térkép a táblán:
   * Suli / Somer / Random
   * Feladat → cél → kvuca → módszer
@@ -167,16 +167,16 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 ## 6. Kapu – az M5.4 produktum az éles kapu, a kvíz diagnosztikus
 
-> **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktum-alapú értékelés. **Az éles teljesítési kapu az M5.4 táblázat rubrikás értékelése** (mint M1/M7), a **kvíz pedig formatív/diagnosztikus**.
+> **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktum-alapú értékelés. **Az éles teljesítési kapu az M5.4 táblázat rubrikás értékelése** (mint az M1-ben és az M7-ben), a **kvíz pedig formatív/diagnosztikus**.
 
 * **Éles kapu – M5.4 produktum (rubrika):**
   * Eszköz: **Moodle Assignment + rubrika**.
-  * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrika-soron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor a kimeneti kompetenciák láncait méri: **feladat→cél lánc (R1), kvuca-illeszkedés (R2), módszer-indoklás (R3), tanulástan-szemlélet (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
+  * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrika-soron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor: **feladat / cél konkrétsága (R1), kvuca megnevezése (R2), módszer–cél illeszkedés (R3), tanulástan-elem valódisága (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
   * **Javítási útvonal:** ha egy sor „Hiányos”, rövid fejlesztő (SBI-jellegű) visszajelzés + **újraleadás** – nincs kizárás, a cél a megértés.
 * **Diagnosztikus kvíz – fogalmi felzárkózás (NEM éles kapu):**
   * Eszköz: Moodle **Quiz**, **12 kérdés** (formális–nonformális–informális; feladat→cél→kvuca→módszer; gyakorlás/aktív felidézés/időben elosztott gyakorlás).
   * **2–3 próbálkozás** engedélyezve; hibánál rövid magyarázó visszajelzés: merre menjen vissza (M5.1–M5.4) javítani a megértést.
-  * Ajánlott **diagnosztikus jelzőküszöb ≥ 80% (≥10/12)** – ez **nem kizáró feltétel**: aki alatta van, **nem bukik**, hanem felzárkóztató hurokba kerül (**M5.F felzárkóztató műhely** + a kvíz item-szintű analitikája alapján célzott visszairányítás). A kvíz célja, hogy a fogalmi tudás **mérve és fejlesztve** legyen, mire a madrich a produktumot beadja.
+  * Ajánlott **diagnosztikus jelzőküszöb ≥ 80% (≥10/12)** – ez **nem kizáró feltétel**: aki alatta van, **nem bukik**, hanem felzárkóztató hurokba kerül (**M5.F felzárkóztató műhely** + a kvíz item-szintű analitikája alapján célzott visszairányítás). A kvíz célja, hogy a fogalmi tudást **felmérjük és fejlesszük**, mire a madrich a produktumot beadja.
 
 **Minimális teljesítés (M5 „complete”):**
 
@@ -186,25 +186,25 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 > **Megjegyzés:** üres / csak címke-szintű táblázat **nem „complete”** – a KAPU R4 „csak címke” = Hiányos, ami javításra visszaküldést jelent.
 
-> A 12-itemes item-bank, a distraktor-logika és a 4-soros, megfigyelhető rubrika (R1–R4) a hivatalos KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
+> A 12 itemes item-bank, a disztraktor-logika és a 4 soros, megfigyelhető rubrika (R1–R4) a hivatalos KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
 
-> **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, aktív felidézés, időben elosztott gyakorlás) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem egy véletlenszerű játékból indulsz, hanem a SMART nevelési célhoz és a kvucához illő módszert.
+> **→ Ezt viszed tovább az M7 Peula v2-be:** a **feladat → cél → kvuca → módszer** logika és az alap tanulástan (gyakorlás, aktív felidézés, időben elosztott gyakorlás) lesz az, amivel az M7 záró produktumában (Peula v2 + Zmán Kvucá) **tudatosan választasz módszert** – nem egy véletlenszerű játékból indulsz, hanem a SMART nevelési célhoz és a kvucához illő módszert választod.
 
-## 7. Learning analytics – mit figyeljen a stáb az M5-nél?
+## 7. Tanulási analitika – mit figyeljen a stáb az M5-nél?
 
 1. **Completion adatok (Moodle):**
    * Hányan fejezték be az M5.1–M5.4 leckéket.
-   * Ha a csoport >30%-a nem jut el M5.2-ig vagy M5.3-ig a 2. hét végére, érdemes M5.F jellegű felzárkóztató műhely-et erősíteni / újra megnyitni.
+   * Ha a csoport >30%-a nem jut el az M5.2-ig vagy az M5.3-ig a 2. hét végére, érdemes M5.F jellegű felzárkóztató műhelyt erősíteni / újra megnyitni.
 2. **H5P analitika:**
    * M5.1: mely helyzeteket sorolják gyakran félre (nonformális vs. informális).
    * M5.3: mely tanulástan-fogalmaknál van sok rossz válasz (gyakorlás vs. „hallgatás”, időben elosztott gyakorlás vs. „egyben magolás”).
 3. **Diagnosztikus kvíz (Quiz) eredmények – felzárkózás-jelző, nem kapu:**
-   * kérdés-szintű elemzés: ha sokan félreértik az időben elosztott gyakorlást → több példa a következő évfolyamnak, és **M5.F-be irányítás** az érintett madrichoknak;
+   * kérdésszintű elemzés: ha sokan félreértik az időben elosztott gyakorlást → több példa a következő évfolyamnak, és **M5.F-be irányítás** az érintett madrichoknak;
    * ha sokan előbb választanak módszert, mint célt → erősíteni az M5.2 üzenetét („cél az első”);
    * a ≥80% jelzőküszöb alattiak **nem buknak**, hanem célzott felzárkóztatást kapnak a produktum beadása előtt.
 4. **Modulproduktum (Assignment – M5.4) – az éles kapu:**
    * leadási arány: hányan adták le a táblázatot;
-   * **minőség-ellenőrzés a hivatalos KAPU-fájl 4-soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-check, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. **Ez a sor dönti el a továbblépést** (a kvíz csak diagnosztizál). A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
+   * **minőségellenőrzés a hivatalos KAPU-fájl 4 soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-ellenőrzés, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. **Ez a sor dönti el a továbblépést** (a kvíz csak diagnosztizál). A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
 5. **Offline zárókör-jelzés (M5.B végén):**
    * Az M5.B záró mondatbefejező köréből (**„Ha legközelebb peulát tervezek, először arra fogok figyelni, hogy…”**) a stáb élőben hallja, mire fókuszálnak a madrichok: a cél elsődlegessége, az aktív chanich, vagy a tanulástan (gyakorlás / aktív felidézés / időben elosztott gyakorlás). Ha sokan általánosságban maradnak, érdemes a következő évfolyamnál erősíteni a tanulástan-elem konkretizálását (M5.3–M5.4).
 
@@ -224,6 +224,6 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 [M5.B – „Tervezek egy nonformális peula-részletet” – hogy tényleg tanuljunk is](./Peulák/M5.B%20–%20Tervezek%20egy%20nonformális%20peula-részletet%20–%20hogy%20tényleg%20tanuljunk%20is.md)
 
-[M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (felzárkóztató műhely)](./Peulák/M5.F%20–%20Felzárkóztató%20peula%20–%20Suli,%20Somer%20&%20tanulástan%20%28Study%20Lab%29.md)
+[M5.F – Felzárkóztató peula – Suli, Somer & tanulástan](./Peulák/M5.F%20–%20Felzárkóztató%20peula%20–%20Suli,%20Somer%20&%20tanulástan%20%28Study%20Lab%29.md)
 
 **[M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** – a modul teljesítési értékelője: a **diagnosztikus** 12 itemes item-bank és az **éles kaput adó**, 4 soros megfigyelhető produktum-rubrika (R1–R4).

@@ -12,7 +12,7 @@ A három réteget nem nevezzük egymás helyett „törvényi kötelezettségnek
 
 ## 2. Release-szabály
 
-M3.3, M3.B, az M3-kapu, valamint minden olyan tananyagelem, amely bántalmazásra, önsértésre, groomingra, szexuális/romantikus határátlépésre, súlyos veszélyeztetettségre vagy külső jelzésre tanít, **nem nyitható meg valódi madrichoknak gyermekvédelmi szakértő írásos jóváhagyása nélkül**.
+M3.3, M3.B, az M3-kapu, valamint minden olyan tananyagelem, amely bántalmazásról, önsértésről, groomingról, szexuális/romantikus határátlépésről, súlyos veszélyeztetettségről vagy külső jelzésről tanít, **nem nyitható meg valódi madrichoknak gyermekvédelmi szakértő írásos jóváhagyása nélkül**.
 
 Zárt Moodle-stagingben, szintetikus tesztadatokkal és csak szerkesztői/QA hozzáféréssel ezek az elemek felépíthetők és technikailag tesztelhetők.
 
@@ -48,7 +48,7 @@ A telefonszámokat learner release előtt újra ellenőrizni kell.
 Ezek a szabályok a tananyagban akkor is maradnak, ha a konkrét szervezeti/jogi minősítés még nyitott:
 
 - nincs 100%-os titoktartási ígéret;
-- a madrich meghallgat, de **nem nyomoz**, nem tesz rávezető kérdésekkel „kihallgatást”;
+- a madrich meghallgat, de **nem nyomoz**, nem folytat rávezető kérdésekkel „kihallgatást”;
 - a madrich nem konfrontál feltételezett elkövetőt;
 - a madrich nem vállal egyedüli felelősséget gyermekvédelmi ügyben;
 - a 15–17 éves madrichot nem pozicionáljuk egyedüli „felnőttként”;
@@ -65,8 +65,8 @@ A konkrét értékeket az **Emberi jóváhagyás szükséges.md** tartja nyilvá
 - **HUM-SAFE-01:** helyi gyermekvédelmi felelős, elérhetőség, helyettes/külső út, akut-eszkaláció, dokumentálás;
 - **HUM-SAFE-02:** négyszemközti / safer-working szabály;
 - **HUM-SAFE-03:** a madrich saját érintettsége, passz/alternatíva, kiskorú madrich felügyelete;
-- **HUM-SAFE-04:** alkohol- és dohányzási policy;
-- **HUM-SAFE-05:** a programban dolgozó felnőttek szerepkörönkénti alkalmassági ellenőrzése, dokumentált safeguarding-felkészítése és felülvizsgálata.
+- **HUM-SAFE-04:** alkohol- és dohányzási szabály;
+- **HUM-SAFE-05:** a programban dolgozó felnőttek szerepkörönkénti alkalmassági ellenőrzése, dokumentált gyermekvédelmi felkészítése és felülvizsgálata.
 
 ## 6. Tartalmi acceptance
 
@@ -75,14 +75,14 @@ Learner-facing release előtt mindegyik legyen igazolt:
 - [ ] M3.3, M3.B, M3-kapu és M7 gyermekvédelmi kapuelemek szakértő által átnézve;
 - [ ] HUM-SAFE-01–05 lezárva;
 - [ ] a learner-facing kontakt ténylegesen látható a Moodle-ben;
-- [x] nincs 100%-os titoktartási ígéret; **repo-audit: 2026-09-29** – M3.3, M3.B és az M3/M7 kapuelemek következetesen a titoktartás határát tanítják;
-- [x] nincs nyomozásra, konfrontációra vagy otthoni „lerendezésre” utasítás; **repo-audit: 2026-09-29** – a learner-facing helyes utak tiltják a nyomozást, konfrontációt és közvetlen otthoni egyeztetést;
+- [ ] nincs 100%-os titoktartási ígéret;
+- [ ] nincs nyomozásra, konfrontációra vagy otthoni „lerendezésre” utasítás;
 - [ ] akut veszély útja és a segélyvonalak a review napján ellenőrizve;
-- [x] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út; **repo-audit: 2026-09-29** – passz, másik eset/szünet és támogatási/jelzési út explicit az M3.B-ben és kapcsolódó érzékeny feladatokban;
+- [ ] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út;
 - [ ] a négyszemközti helyzetek tananyaga a jóváhagyott helyi szabállyal egyezik;
-- [ ] az alkohol- és dohányzási példák csak a HUM-SAFE-04 szerint jóváhagyott helyi policy-t állítják;
-- [ ] a valódi résztvevőkkel dolgozó stáb alkalmassági ellenőrzése és safeguarding-felkészítése HUM-SAFE-05 szerint dokumentált;
-- [ ] a jogszabályi állításoknál külön látszik, mi jogi kötelezettség, mi safeguarding-jógyakorlat, és mi helyi policy;
+- [ ] az alkohol- és dohányzási példák csak a HUM-SAFE-04 szerint jóváhagyott helyi szabályt állítják;
+- [ ] a valódi résztvevőkkel dolgozó stáb alkalmassági ellenőrzése és gyermekvédelmi felkészítése HUM-SAFE-05 szerint dokumentált;
+- [ ] a jogszabályi állításoknál külön látszik, mi jogi kötelezettség, mi safeguarding szakmai minimum, és mi szervezeti policy;
 - [ ] jóváhagyás dátuma és következő felülvizsgálat dátuma rögzítve.
 
 ## 7. Elsődleges források a szakértői review-hoz

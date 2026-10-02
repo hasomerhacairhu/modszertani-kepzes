@@ -776,7 +776,7 @@ RUNTIME_ARTICLE_FIX = ((" az szabad", " a szabad"), ("Az szabad", "A szabad"),
 
 RUNTIME_REVIEW = (
     "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; "
-    "a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. "
+    "a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. "
     "pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad "
     "szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az "
     "eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.")

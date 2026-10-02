@@ -8,7 +8,7 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, mobil-first)
-* Beágyazott kérdéstípusok: Single Choice, Fill in the Blanks / rövid szöveges válasz, esetleg Multi Choice
+* Beágyazott kérdéstípusok: Single Choice, rövid szöveges válasz, esetleg Multi Choice
 
 **Mikrocél (tanulói nyelven):**
 
@@ -33,21 +33,32 @@
 > Az előző leckékben **visszanéztél** a félévre (M0–M7, tanulási pillanataid).
 > Most előre nézünk: **mit szeretnél a terepen kipróbálni vagy másképp csinálni?**
 
-> Nem óriási, életreszóló fogadalmakat keresünk, hanem **kis, konkrét lépéseket**:
+> Nem óriási, életre szóló fogadalmakat keresünk, hanem **kis, konkrét lépéseket**:
 > olyan dolgokat, amiket **tényleg meg tudsz csinálni** a következő 1–3 hónapban.
 
 > Ebben a leckében:
-> – kapsz pár **példamondatot ezekhez a célokhoz**,
+> – kapsz pár **példamondatot** ilyen kis lépésekhez,
 > – és megfogalmazol **legalább 1–2 saját célt** a terepre.
 
 > A végén lesz egy rövid **önellenőrzés**:
 > *„Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”*
+
+> **Ha elakadsz, nem vagy egyedül:**
+>
+> * **Ha technikailag akadsz el** (például nem tölt be a H5P): nyisd meg a kurzus **„Segítség és kapcsolatok”** blokkját, és használd az ott megadott technikai segítségkérési csatornát.
+> * **Ha tartalmilag akadsz el** (nem érted a feladatot, elbizonytalanodtál egy fogalomban): nézd meg a [Glosszáriumot](../../../Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md), és ha továbbra is kérdésed van, írj a kurzus „Segítség és kapcsolatok” blokkjában megadott mentorodnak – nem „vizsgázol”, a kérdés is fejlődés.
 
 **Gomb:** „Tovább a leckére” → H5P Course Presentation (Z.3)
 
 ***
 
 ## 3. H5P Course Presentation – SLIDE-BY-SLIDE
+
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** – ha a teszt nem igazolja, a mező Moodle-oldalra kerül. A **kötelező** mezőknél (4. és 6. dia, valamint a biztonsági lépés) azt, hogy a választott megvalósítás a továbblépést ténylegesen a kitöltéshez köti-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli; ha nem köti, a lépések kötelező, nem kihagyható státusza ettől nem gyengül.
+
+> **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 7. dia „Single Choice”, valamint a 3. dia „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
+
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; amíg a megőrzés nincs lezárva, az adatot gyűjtő aktivitás nem nyitható meg valódi madrichnak (Program terv 4. szakasz).
 
 ### SLIDE 1 – HOOK: „Nagyon nagyot, vagy inkább kicsit?”
 
@@ -57,12 +68,12 @@
   "kind": "icon-set",
   "mode": "generate",
   "title": "Óriáslépés vs. apró lépések ikonpár",
-  "purpose": "A HOOK üzenetének („nem kell óriási vállalás, elég egy-két kicsi, de konkrét lépés” – 54. sor) vizuális megerősítése; a tanuló azonnal megérti a középút-metaforát, mielőtt a Single Choice kérdéshez ér.",
+  "purpose": "A HOOK üzenetének („nem kell óriási vállalás, elég egy-két kicsi, de konkrét lépés” – a dia „Cél” sora) vizuális megerősítése; a tanuló azonnal megérti a középút-metaforát, mielőtt a Single Choice kérdéshez ér.",
   "spec": "Két kontrasztos, egyszerű piktogram-ikon egy készletben: (1) egy figura, aki egyetlen óriási, kockázatos lépést/ugrást próbál megtenni; (2) ugyanaz/hasonló figura, aki több apró, stabil lépést tesz. A két ikon vizuálisan szembeállítható (egymás mellett vagy „vs.”). Semleges, illusztratív piktogram-stílus a Hasomer-anyag vizuális hangulatához illően. A HOOK középút-metaforáját erősíti.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
-    "note": "2 db ikon egy készletben, SVG (vektor) + PNG fallback, átlátszó háttér, magas kontraszt, mobil-first méretezés (kis kijelzőn is olvasható). A dián a cím: „Híd a terepre – de mekkora lépést lépek?” (58. sor) – ez szöveg, nem része az ikon-assetnek."
+    "note": "2 db ikon egy készletben, SVG (vektor) + PNG fallback, átlátszó háttér, magas kontraszt, mobil-first méretezés (kis kijelzőn is olvasható). A dián a cím: „Híd a terepre – de mekkora lépést lépek?” (a dia „Vizualitás” blokkja) – ez szöveg, nem része az ikon-assetnek."
   },
   "a11y": {
     "visual": "informative",
@@ -79,7 +90,7 @@
   "blockers": [
     "R5"
   ],
-  "notes": "Az egyetlen explicit legyártandó vizuális asset a leckében. A SLIDE 1 cím- és szövegblokkjához (58–68. sor) és a Single Choice kérdéshez (70–83. sor) tartozik. A diákon szereplő emoji (1️⃣2️⃣3️⃣🔁🛟✅; valós előfordulás: 121/123/125/160/236/259. sor) inline szöveg-dekoráció a H5P szövegmezőkben, NEM legyártandó ikon-asset. A 238. sorban hivatkozott M0.A „Kihez fordulhatok?” térkép és M3.3 jelzési lánc MÁS leckék assetjei (kereszthivatkozás), nem Z.3-ban gyártandók. A 23. sor „Flow: Hook → Input → …” meta-dokumentáció, nem dián megjelenő ábra.",
+  "notes": "Az egyetlen explicit legyártandó vizuális asset a leckében. A SLIDE 1 cím- és szövegblokkjához és a dia Single Choice kérdéséhez tartozik. A diákon szereplő emoji (1️⃣2️⃣3️⃣🎯🔁🛟✅; valós előfordulás: a 3., a 4. és a 7. dia szövegében és a biztonsági lépésben) inline szöveg-dekoráció a H5P szövegmezőkben, NEM legyártandó ikon-asset. A biztonsági lépésben hivatkozott M0.A „Kihez fordulhatok?” térkép és M3.3 jelzési lánc MÁS leckék assetjei (kereszthivatkozás), nem Z.3-ban gyártandók. A lecke meta „Felépítés: Hook → Input → …” sora meta-dokumentáció, nem dián megjelenő ábra.",
   "legacy": {
     "alt-text": [
       "Z.3-ALT-01"
@@ -132,13 +143,13 @@ Opciók:
 
 > **Miért kis lépések?**
 
-> Ha túl nagyot vállalsz, könnyen jön a:
+> Ha túl nagyot vállalsz, könnyen jön a gondolat:
 > – *„Úgysem sikerülne, akkor inkább nem is próbálkozom.”*
 
 > Ha túl kicsit, túl általánosat:
 > – *„Jobb madrich leszek.”* – ez szép, de **nem tudod, mikor teljesült.**
 
-> A jó cél a következő lépés felé:
+> Milyen a jó „következő lépés” cél?
 > – **konkrét** (tudod, mit kell csinálni),
 > – **időben behatárolt** (pl. „a következő 3 Zmán Kvucámon…”),
 > – **hozzád mérten reális**, de kicsit kihívó is.
@@ -150,13 +161,13 @@ Opciók:
 
 ***
 
-### SLIDE 3 – INPUT + MINI-AKTIVITY: Példa mondatok a megvalósítható célokhoz
+### SLIDE 3 – INPUT + MINI-AKTIVITY: Példamondatok a megvalósítható célokhoz
 
 **Cél:** példákon keresztül megmutatni, milyen formátumot szeretnénk.
 
 **Szöveg a dián:**
 
-> **Példamondatok – célokra a következő lépés felé**
+> **Példamondatok – „következő lépés” célok**
 
 > 1️⃣ *„A következő 3 Zmán Kvucámon figyelek rá, hogy **legalább 1 új kérdezéstechnikát kipróbáljak**.”*
 
@@ -177,33 +188,33 @@ Opciók:
 
 * A: Új kérdezéstechnikát kipróbálni.
 * B: Minden peula után 1 mondatot írni a saját tanulásomról.
-* C: Tudatosabb beszélgetés a madrich-társammal.
+* C: Tudatosabban beszélgetni a madrich-társammal.
 * D: Nekem teljesen más jut eszembe.
 
 **Visszajelzés:**
 
 > „Jó kiindulópont, amit választottál.
-> A következő slide-okon **a saját mondatodat** fogod megfogalmazni hasonló szerkezetben.”
+> A következő diákon **a saját mondatodat** fogod megfogalmazni hasonló szerkezetben.”
 
 ***
 
 ### SLIDE 4 – ACTIVITY 1: „A következő 3 Zmán Kvucámon…” – a Peula v2-d a terepen
 
-**Cél:** az M7-ben elkészített **saját Peula v2** konkrét, terepi lefuttatási tervének megírása (mikor / melyik kvuca / 1 megnevezett akadály → ha–akkor megkerülés).
+**Cél:** az M7-ben elkészített **saját Peula v2** konkrét, terepi kipróbálási szándékának megírása (mikor / melyik kvuca / 1 megnevezett akadály → ha–akkor megkerülés).
 
 **Szöveg a dián:**
 
 > **1. saját cél – a Peula v2-d éles bevetése**
 
-> 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál — **terv → levezetés → megfigyelés → visszajelzés → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrich **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán.
+> 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál – **terv → levezetés → megfigyelés → visszajelzés → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrich **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán. Legalább **1 alkalom** tudatos inkluzivitási adaptációt tartalmaz, és legalább **1 alkalom** után dokumentált biztonsági és határkezelési reflexiót készítesz akkor is, ha nem történt incidens. A megfigyelési jegyzeted rövid és adatminimalizált legyen: chanich érzékeny adata nélkül.
 >
-> Vagyis a Peula v2 nem a végállomás, hanem az **első bevetésed alapanyaga**. A pontos naptárt, a mentor-hozzárendelést és a dokumentálás formáját a képződ mondja meg; a keretet a `Terepgyakorlat – 2. félév` dokumentum írja le.
+> Vagyis a Peula v2 nem a végállomás, hanem az **első bevetésed alapanyaga**. A pontos naptárt, a mentor-hozzárendelést és a dokumentálás formáját a képződ mondja meg.
 
 > Emlékszel a **Peula v2-dre**, amit az M7-ben raktál össze? Itt az ideje, hogy a papírról a terepre lépjen.
 
-> 🔁 Az **M7-ben a Peula v2-d mellé már leadtál egy kipróbálási tervet** (mikor / melyik Zmán Kvucán + 1 várható akadály → **ha–akkor** megkerülés). **Vedd most elő** – itt nem nulláról kezded, hanem **a tényleges első Zmán Kvucádra finomítod / aktualizálod** ugyanazt az egy vállalást.
+> 🔁 Az **M7-ben a Peula v2-d mellé már leadtál egy kipróbálási szándékot** (mikor / melyik Zmán Kvucán + 1 várható akadály → **ha–akkor** megkerülés). **Vedd most elő** – itt nem nulláról kezded, hanem **a tényleges első Zmán Kvucádra finomítod / aktualizálod** ugyanazt az egy vállalást.
 
-> Írd át / pontosítsd a **lefuttatási tervedet** a Peula v2-dre az alábbi kezdéssel:
+> Írd át / pontosítsd a **kipróbálási szándékodat** a Peula v2-dre az alábbi kezdéssel:
 
 > **„A következő 3 Zmán Kvucámon…”**
 
@@ -218,12 +229,12 @@ Opciók:
 
 > Fontos: legyen **valóságos**, amit beírsz – olyan terv, amit tényleg el tudsz képzelni magad előtt a kvucáddal.
 
-**Beágyazott kérdés – rövid szöveges válasz / Fill in the Blanks jelleg (KÖTELEZŐ)**
+**Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
 **Rövid szöveges válasz** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály ha–akkor formában).
 
 Mezőben megjelenő mintaszöveg:
-`A következő 3 Zmán Kvucámon **a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...**`
+`A következő 3 Zmán Kvucámon a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...`
 
 ***
 
@@ -233,7 +244,7 @@ Mezőben megjelenő mintaszöveg:
 
 **Szöveg a dián:**
 
-> **2. saját cél – én, mint madrich**
+> **2. saját cél – én mint madrich**
 
 > Írj még 1 mondatot az alábbi kezdéssel:
 
@@ -249,7 +260,7 @@ Mezőben megjelenő mintaszöveg:
 **Beágyazott kérdés – rövid szöveges válasz**
 
 Mezőben megjelenő mintaszöveg:
-`A következő hónapban **minden peula után** ...`
+`A következő hónapban minden peula után ...`
 
 ***
 
@@ -261,28 +272,28 @@ Mezőben megjelenő mintaszöveg:
 
 > **3. lépés – A Peula v2-det nem egyedül viszed terepre**
 
-> A SLIDE 4-en leírt **Peula v2-lefuttatásod** (mikor / melyik kvuca / ha–akkor akadály) **könnyebben megvalósul**, ha **van melletted egy ember**, akinek elmondod.
+> A 4. dián leírt **Peula v2-lefuttatásod** (mikor / melyik kvuca / ha–akkor akadály) **könnyebben megvalósul**, ha **van melletted egy ember**, akinek elmondod.
 
 > Gondold végig:
 > – Kinek mondod el, hogy **lefuttatod a Peula v2-det** ezeken a Zmán Kvucákon?
 > – Ki tud ebben neked **támasz** lenni? (mentor, madrich-társ, ken-vezető…)
 
-> Írj le 1 rövid **elköteleződő** mondatot – ha–akkor kötéssel:
+> Írj le 1 rövid **elköteleződő** mondatot ha–akkor formában:
 
-> **„Elmondom a Peula v2-tervemet annak a konkrét mentoromnak vagy kijelölt tapasztalt madrichnak, akit név szerint ide beírok, és ha elakadok / közbejön az akadály, tőle kérek segítséget.”**
+> **„Elmondom a Peula v2-tervemet ………-nak/-nek (a mentorom vagy egy kijelölt tapasztalt madrich neve), és ha elakadok, vagy közbejön az akadály, tőle kérek segítséget.”**
 
 **Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
-1 rövid mező, 1–3 mondat – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **kinek** mondod el, és **ha**–**akkor** miben kéred a támogatását a Peula v2 lefuttatásánál.
+1 rövid mező, 1–3 mondat – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **kinek** mondod el, és ha–akkor formában azt, hogy miben kéred a támogatását a Peula v2 lefuttatásánál.
 
 ***
 
-> 🛟 **Mielőtt élesben kvucát viszel – 1 biztonsági-lépés (nem hagyható ki)**
+> 🛟 **Mielőtt élesben kvucát viszel – 1 biztonsági lépés (nem hagyható ki)**
 
-> A terepen nem csak módszertanilag lépsz élesbe: **madrichként felelős szereped lesz**, miközben a képzés 15+ célcsoportjában te magad is lehetsz kiskorú. Gyermekvédelmi vagy más biztonsági helyzetben **nem neked kell egyedül „a felnőttnek” lenned**: tudd előre, melyik kijelölt felelős felnőttet / gyermekvédelmi felelőst vonod be, és a helyi protokoll szerint jelezz.
+> A terepen nem csak módszertanilag lépsz élesbe: **madrichként felelős szereped lesz**, miközben te magad is lehetsz még kiskorú, hiszen a képzés 15 éves kortól szól. Gyermekvédelmi vagy más biztonsági helyzetben **nem neked kell egyedül „a felnőttnek” lenned**: tudd előre, melyik kijelölt felelős felnőttet / gyermekvédelmi felelőst vonod be, és a helyi protokoll szerint jelezz.
 
-> – **Tudd meg / erősítsd meg**, ki a kened **gyermekvédelmi felelőse** (név + ahogy eléred), és ki a **ken-vezetőd**.
-> – Tudd, **hova / kinek szólsz jelzés esetén** – és hogy **nem maradsz egyedül** vele.
+> – **Tudd meg / erősítsd meg**, ki a kened **gyermekvédelmi felelőse** (a nevét és az elérhetőségét), és ki a **ken-vezetőd**.
+> – Tudd, **hova / kinek szólsz jelzés esetén** – és azt, hogy a helyzettel **nem maradsz egyedül**.
 
 > Írd le 1 mondatban (ha még nincs meg a név, írd be, kit kérdezel meg róla):
 
@@ -302,14 +313,16 @@ Mezőben megjelenő mintaszöveg:
 
 > ✅ **Önellenőrzés – Ha holnap kezdenéd…**
 
-> Nézd meg a 2 célmondatodat (a „A következő 3 Zmán Kvucámon…” és „A következő hónapban…” kezdetűeket).
+> Nézd meg a 2 célmondatodat (az „A következő 3 Zmán Kvucámon…” és az „A következő hónapban…” kezdetűeket).
 
 > Tegyél fel magadnak 1 kérdést:
 
 > **„Ha holnap kezdeném, tudom, mi lenne az első konkrét lépésem?”**
 
-> – Ha **igen**: akkor jó irányban vagy.
-> – Ha **nem**, akkor próbáld meg **még 1 kicsit konkrétabbra húzni** az egyik mondatot (pl. „pontosan mikor”, „pontosan mivel”, „pontosan kivel?”).
+> – Ha **igen**, akkor jó irányban vagy.
+> – Ha **nem**, akkor próbáld meg **még egy kicsit konkrétabbra húzni** az egyik mondatot (pl. „pontosan mikor”, „pontosan mivel”, „pontosan kivel?”).
+
+> Mielőtt továbblépsz, írd fel magadnak valahova a két célmondatodat (jegyzet vagy képernyőkép): a Z.4 záró reflexiójában ezeket fogod finomítani és véglegesíteni.
 
 **Beágyazott kérdés – Single Choice + rövid szöveges válasz (opcionális)**
 
@@ -332,4 +345,4 @@ Opciók:
 * Nem:
   > „Teljesen oké – inkább most derüljön ki. Nyugodtan lépj vissza 1–2 diát, és írd át úgy, hogy **konkrétabb és reálisabb legyen, és tényleg elhidd**, hogy meg tudod csinálni.”
 
-(Opcionálisan alul: mini szöveges válasz – „Ha szeretnél, 1 szóban írd le, milyen érzés most ezekkel a célokkal a terepre gondolni.” – de ez már extra.)
+(Opcionálisan alul: mini szöveges válasz – „Ha szeretnéd, 1 szóban írd le, milyen érzés most ezekkel a célokkal a terepre gondolni.” – de ez már extra.)

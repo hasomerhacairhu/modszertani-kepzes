@@ -17,9 +17,9 @@ kérdésszöveg), [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) (a teljes gyár
 ## 0. A kutatás egyetlen legfontosabb eredménye
 
 **Létezik hivatalos arculati kézikönyv, és nyilvánosan elérhető.** A
-`VISUAL-SYSTEM-DECISION.md` 1. szakasza azt állapította meg, hogy „a repositoryban nulla
-hexadecimális színérték van” — ez továbbra is igaz, de **nem azt jelenti, hogy a
-paletta nem létezik**: a repositoryn kívül, a mozgalom saját felületén létezik, deklarált
+`VISUAL-SYSTEM-DECISION.md` 1. szakasza azt állapította meg, hogy a tananyagban nincs
+hexadecimális színérték — ez ma is igaz (a repository első, még jóvá nem hagyott
+hex-forrása ez a lap), de **nem azt jelenti, hogy a paletta nem létezik**: a repositoryn kívül, a mozgalom saját felületén létezik, deklarált
 HEX / RGB / CMYK / Pantone értékekkel.
 
 Ezért a D1 kérdése megváltozik:
@@ -238,12 +238,12 @@ ezért **PRODUKCIÓS AJÁNLÁS** minden változatban.
 
 | # | Kockázat | Miért számít |
 |---|---|---|
-| T1 | **A Myriad Pro Adobe kereskedelmi betűtípus.** A `somer.hu` nyers `.otf`-ként szolgálja ki. Hogy a szervezet licence kiterjed-e Moodle/H5P webes beágyazásra és PDF-embedelésre, **jogi kérdés**, és a repositoryból nem eldönthető. | 247 R5-asset PDF-je és SVG-je ettől függ. Ha az embedelés nem fedett, minden nyomtatvány újraszedendő. |
+| T1 | **A Myriad Pro Adobe kereskedelmi betűtípus.** A `somer.hu` nyers `.otf`-ként szolgálja ki. Hogy a szervezet licence kiterjed-e Moodle/H5P webes beágyazásra és PDF-embedelésre, **jogi kérdés**, és a repositoryból nem eldönthető. | 245 R5-asset PDF-je és SVG-je ettől függ. Ha az embedelés nem fedett, minden nyomtatvány újraszedendő. |
 | T2 | **A Dock11 fájl nem található a nyilvános asset-mappában.** A kézikönyv „Font mappát” említ; a hivatkozott Drive-mappában nincs ilyen. SMR-feliratos grafika sem található. | Az SMR szóvédjegyet nem tudjuk reprodukálni. A tananyagnak viszont nincs is szüksége rá — a szemel vektorban áll, a betűi görbék. |
 
 ### 3.4. Betűméret-skála — PRODUKCIÓS AJÁNLÁS
 
-Nem márkaérték. A `LMS – hozzáférhetőségi sztenderd.md` premisszájából vezetve („olcsó
+Nem márkaérték. Az `LMS – hozzáférhetőségi sztenderd.md` premisszájából vezetve („olcsó
 kijelző, gyenge fény, mozgás közben”) és az A4-es próbanyomatból visszamérve:
 
 | Szerep | A4 nyomtatvány | A6/A5 kártya | A3–A1 poszter |
@@ -414,9 +414,9 @@ két helyen van: a **betűtípus** és a **semleges (szürke) skála**.
 | **Semleges skála** | nincs; a hierarchiát tipográfia és márkaszín-felület adja |
 | **Ikon / illusztráció / nyomtatvány / videó / AI-jelölés** | az 5–7. szakasz szerint — **de** a 7.1. `--rule` és `--ink-muted` tokenjei helyett `#1D1D1B` gyengített vonalvastagsággal |
 | **Előny** | nulla kitalált érték; minden hex visszavezethető a kézikönyvre; a legkisebb jóváhagyási súrlódás |
-| **Kockázat** | **T1** (Myriad Pro embedelési licenc, lásd 3.3.) — ha nem fedett, mind a 247 R5-asset újraszedendő. **T2** (Dock11 fájl nem elérhető). Táblázatvonalhoz és másodlagos szöveghez nincs szürke: marad a `#1D1D1B` gyengített vonalvastagsággal vagy egy márkaszín — mindkettő rosszabb. |
+| **Kockázat** | **T1** (Myriad Pro embedelési licenc, lásd 3.3.) — ha nem fedett, mind a 245 R5-asset újraszedendő. **T2** (Dock11 fájl nem elérhető). Táblázatvonalhoz és másodlagos szöveghez nincs szürke: marad a `#1D1D1B` gyengített vonalvastagsággal vagy egy márkaszín — mindkettő rosszabb. |
 | **Újragyártási kockázat** | **MAGAS**, és nem tőlünk függ (jogi válasz) |
-| **Hány asset építhet rá az R5 lezárása után** | 247 (a teljes B1 köteg) — de csak akkor, ha a betűtípus-licenc kérdése addigra megválaszolt. Amíg nincs válasz: **0**. |
+| **Hány asset építhet rá az R5 lezárása után** | 245 (a teljes B1 köteg) — de csak akkor, ha a betűtípus-licenc kérdése addigra megválaszolt. Amíg nincs válasz: **0**. |
 
 ### B változat — MÁRKAHŰ + PRODUKCIÓS RÉTEG *(ajánlott)*
 
@@ -429,7 +429,7 @@ két helyen van: a **betűtípus** és a **semleges (szürke) skála**.
 | **Előny** | nincs licencfüggés: a Source Sans 3 PDF-be és H5P-be szabadon beágyazható. Mérve: mind a **18** magyar ékezetes glif megvan, a `·`, `„`, `”`, `–`, `—`, `✓`, `☐` is (B6). A szürke skála megoldja a táblázat-, elválasztó- és másodlagosszöveg-problémát. A márkaszínek és a logó **érintetlenek**. |
 | **Kockázat** | a tananyag betűképe eltér a szervezet egyéb anyagaitól. A Source Sans 3 az Adobe saját, humanista talpatlan nyílt betűtípusa, tehát a Myriad Pro-hoz karakterében közel áll — de **nem azonos**, és ezt a márkatulajdonosnak jóvá kell hagynia. |
 | **Újragyártási kockázat** | **ALACSONY** |
-| **Hány asset építhet rá az R5 lezárása után** | 247 (a teljes B1 köteg), jogi válaszra várás nélkül |
+| **Hány asset építhet rá az R5 lezárása után** | 245 (a teljes B1 köteg), jogi válaszra várás nélkül |
 
 #### A B változat semleges skálája — PRODUKCIÓS AJÁNLÁS
 
@@ -465,7 +465,7 @@ két helyen van: a **betűtípus** és a **semleges (szürke) skála**.
 ### Ajánlás
 
 **B változat.** Egyetlen érdemi indoka van, és az nem esztétikai: az **A változat egy
-meg nem válaszolt jogi kérdéstől teszi függővé 247 asset gyártásának indulását**, miközben
+meg nem válaszolt jogi kérdéstől teszi függővé 245 asset gyártásának indulását**, miközben
 a B ugyanazt a márkaszín- és logórendszert viszi, csak a szedésben tér el — ott, ahol a
 kézikönyvnek amúgy sincs előírása, mert a betűméret-skálája kitöltetlen.
 

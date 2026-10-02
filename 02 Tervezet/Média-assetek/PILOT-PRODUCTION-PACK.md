@@ -20,37 +20,45 @@ köteg-terv és pilot-táblázat) · [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-
 
 | # | Család | Pilot | Család mérete | Köteg | Kapuk | Eredet |
 |---|---|---|---:|---|---|---|
-| P-NAR | narráció / hang | `M4.2-NAR-03` | 90 | B2 | R3 | a terv javaslata |
-| P-VID | AI beszélőfej | `M5.1-VID-01` | 21 | B3 | R2, R3 | a terv javaslata |
+| P-NAR | narráció / hang | `M4.2-NAR-03` | 90 | B3 | R2, R3 | a terv 2026-08-28-i javaslata |
+| P-VID | AI beszélőfej | `M5.1-VID-01` | 21 | B3 | R2, R3 | a terv 2026-08-28-i javaslata |
 | P-KAR | AI karakter-jelenet | `M4.1-VID-03` | 6 | B3 | R2, R3, R5 | **eltérés** — indoklás lent |
-| P-DIA | diagram | `M0.2-DIA-01` | 39 | B1 | R5 | a terv javaslata |
+| P-DIA | diagram | `M0.2-DIA-01` | 39 | B1 | R5 | a terv 2026-08-28-i javaslata |
 | P-IKO | ikon-készlet | `M1.3-IKO-01` | 40 | B1 | R5 | **eltérés** — indoklás lent |
-| P-ILL | illusztráció | `M4.2-ILL-01` | 46 | B1 | R5 | a terv javaslata |
-| P-MUN | munkalap / nyomtatvány | `M6.A-MUNK-02` | 61 | B1 | R5 | a terv javaslata |
-| P-POS | poszter | `M7.B-POSZ-01` | 37 | B1 | R5 | a terv javaslata |
-| P-KRT | kártyaszett | `M5.A-KART-01` | 24 | B1 | R5 | **kiegészítés** — indoklás lent |
+| P-ILL | illusztráció | `M4.2-ILL-01` | 46 | B1 | R5 | a terv 2026-08-28-i javaslata |
+| P-MUN | munkalap / nyomtatvány | `M6.A-MUNK-02` | 61 | B1 | R5 | a terv 2026-08-28-i javaslata |
+| P-POS | poszter | `M7.B-POSZ-01` | 37 | B1 | R5 | a terv 2026-08-28-i javaslata |
+| P-KRT | kártyaszett | `M5.A-KART-01` | 23 | B1 | R5 | **kiegészítés** — indoklás lent |
 
-A „család mérete” a terv számolásmódját követi: **`mode: generate`** assetek, az
-újrahasznosítottak nélkül. A terv a posztert és a kártyaszettet **egyetlen, 61 tételes
-családként** kezeli (37 + 24) — itt azért bontjuk ketté, mert a produkciós módszerük
-eltér (lásd 1.1.). A 24 kártyaszettből egy (`Z.A-KART-04`) élő/runtime tétel, tehát
-központilag 23 gyártható elő.
+Az „Eredet” oszlop a csomag írásakori (2026-08-28) állapotot rögzíti. A generált terv a
+pilotot minden buildnél a saját szabálya szerint újraszámolja, ezért a mostani
+terv-pilot ettől eltérhet — az aktuális ID-k a
+[`MEDIA-PRODUCTION-PLAN.md`](./MEDIA-PRODUCTION-PLAN.md) 5. szakaszában vannak. Ez a lap a
+briefjeit a fenti ID-kre írta.
 
-A generált terv további két pilotot jelöl, amelyek **már ma gyárthatók**, és nincs
-szükségük külön briefre: `M4.2-EGY-04` (H5P mini-kvíz) és `M3.F-EGY-01` (beszerzendő
-irodaszer). Ezek a BATCH 0-ban állnak.
+A „család mérete” a terv számolásmódját követi: az újrahasznosított (`reuse`) és az
+élő/runtime tételek nélkül. A terv a posztert és a kártyaszettet **egyetlen, 60 tételes
+családként** kezeli (37 + 23) — itt azért bontjuk ketté, mert a produkciós módszerük
+eltér (lásd 1.1.). A kártyaszettek közül a `Z.A-KART-04` élő/runtime tétel — azt a képző
+hozza létre a peulán —, ezért nincs benne a 23-ban.
 
-### 1.1. Miért tér el három tétel a generált tervtől
+A generált terv ezeken felül még három családra jelöl pilotot: a **H5P-interakció /
+Moodle-elem** és a **beszerzendő fizikai eszköz** családra — ezek a BATCH 0-ban állnak,
+**már ma gyárthatók**, és nincs szükségük külön briefre —, valamint a **fotó /
+képernyőkép** családra. Az aktuális ID-k a terv 5. szakaszában vannak; a
+fotó/képernyőkép-családhoz ez a lap nem ad briefet.
+
+### 1.1. Miért tért el három tétel a terv 2026-08-28-i javaslatától
 
 A terv szabálya — „a legkevesebb nyitott kapuval bíró tételek közül a medián hosszúságú
 specifikációjú” — **kapu-optimalizál**. Egy pilotnak viszont a **legnehezebb** dolgot kell
 bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvérekről.
 
-| Eltérés | A terv választása | Amit ez a lap választ | Miért |
+| Eltérés | A terv akkori választása | Amit ez a lap választ | Miért |
 |---|---|---|---|
-| **P-KAR** | `M1.1-VID-02` (B-roll klipek) | **`M4.1-VID-03`** | Az `M1.1-VID-02` néma B-roll **szkript nélkül** (`source_ref` üres) és visszatérő karakter nélkül — a család legnehezebb problémáját, a **karakter-azonosságot**, egyáltalán nem méri. Az `M4.1-VID-03` viszont szó szerinti jóváhagyott narrációhoz kötött (`M4.1-NAR-03-VO`), és a háromjelenetes sorozat első darabja, amelyből az `M4.1-FOTO-01` freeze-frame-je készül — annak specifikációja szó szerint **„ugyanaz a madrich”**. Ez teszi a karakter-azonosságot bizonyítható elfogadási feltétellé. **Ára: egy kapuval több (R2 is ül rajta).** |
+| **P-KAR** | `M1.1-VID-02` (B-roll klipek) | **`M4.1-VID-03`** | Az `M1.1-VID-02` néma B-roll **szkript nélkül** (`source_ref` üres) és visszatérő karakter nélkül — a család legnehezebb problémáját, a **karakter-azonosságot**, egyáltalán nem méri. Az `M4.1-VID-03` viszont szó szerinti jóváhagyott narrációhoz kötött (`M4.1-NAR-03-VO`), és a háromjelenetes sorozat első darabja, amelyből az `M4.1-FOTO-01` freeze-frame-je készül — annak specifikációja szó szerint **„ugyanaz a madrich”**. Ez teszi a karakter-azonosságot bizonyítható elfogadási feltétellé. **Ára: egy kapuval több (R2 is ül rajta).** *(Azóta az `M1.1-VID-02` is R2 alatt áll, így a kapuszám azonos.)* |
 | **P-IKO** | `M0.1-IKO-01` (egyetlen ikon) | **`M1.3-IKO-01`** (SBI 3-elemű készlet) | Az `M0.1-IKO-01` **egy darab** ikon; a család neve viszont *ikon-készlet*, és a stílus-token igazi kérdései (készlet-konzisztencia, vonalvastagság, szemantikus szín + forma-redundancia, az R6 ütközés) egy magányos ikonon nem jelennek meg. Az `M1.3-IKO-01` mindhármat egyszerre méri, ráadásul **visszatérő asset**: az `M1.4-IKO-01` `reuse_of`-fal rá mutat, és az `M1.3-DIA-01/02/03` is használja. Azonos kapuszám (R5). Az `M0.1-IKO-01` **kísérő-tételként** ugyanabban a körben legyártható, közel nulla többletköltséggel. |
-| **P-KRT** | *(a terv a posztert és a kártyaszettet egy családként kezeli)* | **`M5.A-KART-01`** *(kiegészítés, nem csere)* | Az `M7.B-POSZ-01` flipchart-sablon: se kétoldalas nyomtatást, se vágóívet, se az AI-címkét nem teszteli (a `provenance` mezője `human`). A kártyaszett-alcsalád **24 asset**, és a saját produkciós nehézsége — 12 kártya, A4-enként 2–4 db, kétoldalas illesztés — sehol máshol nem jelenik meg. |
+| **P-KRT** | *(a terv a posztert és a kártyaszettet egy családként kezeli)* | **`M5.A-KART-01`** *(kiegészítés, nem csere)* | Az `M7.B-POSZ-01` flipchart-sablon: se kétoldalas nyomtatást, se vágóívet, se az AI-címkét nem teszteli (a `provenance` mezője `human`). A kártyaszett-alcsalád **23 asset**, és a saját produkciós nehézsége — 12 kártya, A4-enként 2–4 db, kétoldalas illesztés — sehol máshol nem jelenik meg. |
 
 ---
 
@@ -62,7 +70,7 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 | Pilot | Mire vár | Ki oldja fel |
 |---|---|---|
 | P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) | arculati/program-felelős |
-| P-NAR | **D2** — de már csak a **kanonikus hang** kiválasztása (a szolgáltató eldőlt: ElevenLabs). Előtte: V2 hozzájárulás-bizonyíték → a két hang létrehozása a forrás-beszélők felvételeiből (a módszer nyitott) → azonosítás (voice-ID + hangtípus rögzítése) | program-felelős, meghallgatás alapján |
+| P-NAR | **D2** — de már csak a **kanonikus hang** kiválasztása (a szolgáltató eldőlt: ElevenLabs). Előtte: V2 hozzájárulás-bizonyíték → tanítási kimaradás → a két hang létrehozása a forrás-beszélők felvételeiből (a módszer nyitott) → azonosítás (voice-ID + hangtípus rögzítése). Mellette **D3/R2**: a szintetikus felmondás miatt az R2 a narrációt is kapuzza (R2-4/R2-5) | program-felelős, meghallgatás alapján; a hang-jogosultságról a jogi jóváhagyó és a hang jogosultja |
 | P-VID | a **kész ElevenLabs hangmester** (tehát P-NAR) → **D3/R2** (a fiók jogi bizonyítéka) — és a **J2/J3** emberi kapuk | + jogi jóváhagyó |
 | P-KAR | **D1** (karakter-lock) + **D3/R2** — és a **J1/J2** emberi kapuk. A **D2** csak az utómunkához kell, a képi generáláshoz nem (lásd 2.1.) | + jogi és gyermekvédelmi jóváhagyó |
 
@@ -133,21 +141,21 @@ Bármelyik teljesülése esetén a pilot **elutasítva**, és a testvér-köteg 
 |---|---|
 | **Cím** | Slide 3 narráció – Dialog Cards felvezetés |
 | **Modul / egység** | M4 / M4.2 |
-| **Státusz · kapuk** | `produkciós szabályra vár` · **R3** |
-| **Forrás** | `M4.2-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md` (deklaráció: 509. sor) · hash `cc5e9efdc46c9251` |
+| **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3** |
+| **Forrás** | `M4.2-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md` (deklaráció: 519. sor) · hash `cc5e9efdc46c9251` |
 | **Cél** | bevezeti és keretezi a Dialog Cards aktivitást |
 | **Közönség** | madrich, jellemzően 15+ |
 | **Hossz** | 20–25 mp · **43 szó** → 103–129 szó/perc; 110 szó/percen **23,5 mp** — a keretben |
 | **Deriváltak** | `::CAPTIONS` (felirat), `::TRANSCRIPT` (leirat) |
 | **Stílusfüggés** | nincs |
 | **Hangfüggés** | **maga a döntés tárgya** |
-| **Jogi függés** | R2-4/R2-5, ha a D2 szintetikus hangot választ |
+| **Jogi függés** | **R2** (R2-4/R2-5) — a felmondás 2026-08-28 óta szintetikus, ezért az R2 a narrációra is kiterjed ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz) |
 
 ### Miért ez a pilot
 
-A generált terv választása, és megáll: a narráció-család **medián esete** — közepes hossz,
-tiszta instrukciós regiszter, egyetlen félkövér kiemelés nélkül, mozgalmi szakszóval
-(`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
+A generált terv 2026-08-28-i választása: az akkori narráció-család **medián esete** —
+közepes hossz, tiszta instrukciós regiszter, egyetlen félkövér kiemeléssel, mozgalmi
+szakszóval (`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 
 > **Fontos:** a P-NAR a **családi** pilot. A **hangválasztás** viszont nem ezen dől el,
 > hanem a három tesztszkripten
@@ -187,7 +195,10 @@ tiszta instrukciós regiszter, egyetlen félkövér kiemelés nélkül, mozgalmi
 - [ ] tegező, egyenrangú, nem tanáros;
 - [ ] tiszta beszéd, háttérzaj nélkül;
 - [ ] a `.vtt` felirat időzítése a hanghoz igazítva, szövege a forrással azonos;
-- [ ] a leirat a H5P slide-jegyzetbe illeszthető.
+- [ ] a leirat a dián látható szövegként, a médiaelem mellől megnyitható szövegként vagy
+      linkelt leirat-oldalként illeszthető be (a Course Presentation diáinak nincs
+      jegyzetmezője — `LMS – hozzáférhetőségi sztenderd.md`); a billentyűzetes és
+      képernyőolvasós elérhetőséget az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja.
 
 ### Bukási feltétel
 
@@ -200,20 +211,20 @@ Bármely szóeltérés a forrástól · a 25 mp túllépése hadarással kompenz
 
 | | |
 |---|---|
-| **Cím** | HOOK beszélő fej – suli / somer / random |
+| **Cím** | nyitó beszélő fej – suli / Somer / hétköznapok |
 | **Modul / egység** | M5 / M5.1 |
 | **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3** |
-| **Forrás** | `M5.1-VID-01-VO`, `02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md` (deklaráció: 143. sor) · hash `ea1f6213d7c26f07` |
+| **Forrás** | `M5.1-VID-01-VO`, `02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md` (deklaráció: 151. sor) · hash `28a7ff4914895cb2` |
 | **Cél** | azonnali érzelmi bevonás; a három tanulási kategória ráhangoló bevezetése |
-| **Arány / hossz** | **16:9**, max. 40 mp · **67 szó** → 110 szó/percen 36,5 mp |
+| **Arány / hossz** | **16:9**, max. 40 mp · **63 szó** → 110 szó/percen 34,4 mp |
 | **Deriváltak** | `::VOICEOVER`, `::CAPTIONS`, `::TRANSCRIPT` |
-| **Alt-szöveg** | a videóelem **dekoratív** — a tartalmat a felirat és a leirat szó szerint lefedi |
+| **Alt-szöveg** | csak a **képi sáv** (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a narrációt a felirat és a leirat szó szerint lefedi; a videóelemet a dián látható, leíró videócímke azonosítja (SC 1.1.1), a lejátszó nem rejtett a segédtechnológia elől |
 | **Kísérő asset** | `M5.1-EGY-01` — a tanulónak látható R1-címke, **LMS-szövegként** |
 
 ### Miért ez a pilot
 
 A 21 beszélőfej **modális esete**: HOOK-videó, közepes hossz, egy szereplő, kamerába
-beszél. A generált terv választása, és megáll.
+beszél. A generált terv 2026-08-28-i választása.
 
 ### Gyártási brief — **HeyGen** (felhasználói döntés, 2026-08-28)
 
@@ -307,7 +318,7 @@ elutasítja a tartalmat.
 | **Cím** | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” |
 | **Modul / egység** | M4 / M4.1 |
 | **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3, R5** |
-| **Forrás** | `M4.1-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md` (deklaráció: 734. sor) · hash `238cf16a52679083` |
+| **Forrás** | `M4.1-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md` (deklaráció: 751. sor) · hash `238cf16a52679083` |
 | **Hossz** | 20–25 mp, teljes alakos jelenet |
 | **Konténer** | beágyazva az `M4.1-VID-02` H5P Interactive Videóba (`composed_of`) — a felirat és a leirat **a konténeré**, nem ezé |
 | **Származék máshol** | az `M4.1-FOTO-01` freeze-frame-je ebből és az `M4.1-VID-05`-ből készül |
@@ -405,6 +416,13 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 > ⚠️ **A P-KAR nem indítható a `J1` és a `J2` emberi kapu megválaszolása előtt** —
 > [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.3.
 
+> ⚠️ **A P-KAR elfogadása két testvérre nem vihető át.** Az `M1.3-VID-01` kétszereplős,
+> képernyőn zajló párbeszéd: a „videó néma” feltétel és a néma generálás rá nem
+> alkalmazható, a hangja és gyártási útja nyitott döntés
+> ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11). Az `M1.1-VID-02` B-roll
+> („körben ülő fiatalok”) a 3.1. „kiskorúnak látszó szereplő” bukási feltételébe ütközhet;
+> az ábrázolás módja a `J2` emberi döntése.
+
 ---
 
 ## 7. P-DIA — diagram · `M0.2-DIA-01`
@@ -418,7 +436,7 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 
 ### Miért ez a pilot
 
-A terv választása, és megáll: a 39 diagram **modális szerkezete** (lineáris, számozott
+A terv 2026-08-28-i választása: a 39 diagram **modális szerkezete** (lineáris, számozott
 lépéssor), és ráadásul gyermekvédelmi tartalmú — a legláthatóbb hely, ahol az olvashatóság
 számít.
 
@@ -440,7 +458,7 @@ kapunk.
 
 ### Elfogadási feltétel
 
-- [ ] a négy csomópont szövege szó szerint a lecke **330. és 336–346. sorának** lépéseivel egyezik;
+- [ ] a négy csomópont szövege szó szerint a lecke SLIDE 4 szakaszának lépéseivel (a **„Vizualitás”** folyamatábra és a **„Szöveg a dián”** 1–4. pontja) egyezik;
 - [ ] a sorrend a számozásból is kiolvasható, nem csak a nyilakból;
 - [ ] 320 px széles nézetben olvasható;
 - [ ] fekete-fehérben nyomtatva minden információ megmarad;
@@ -461,7 +479,7 @@ nyilak irányából olvasható · a mobil változat vízszintes görgetést kív
 |---|---|
 | **Cím** | SBI vizuális kód ikon-készlet (S / B / I) |
 | **Státusz · kapuk** | `produkciós szabályra vár` · **R5** |
-| **Kísérő-tétel ugyanebben a körben** | `M0.1-IKO-01` (a terv pilotja) — egyetlen ikon, közel nulla többletköltség |
+| **Kísérő-tétel ugyanebben a körben** | `M0.1-IKO-01` (a terv 2026-08-28-i pilotja) — egyetlen ikon, közel nulla többletköltség |
 | **Deriváltak** | `::ALTTEXT` |
 
 ### Miért ez a pilot
@@ -525,7 +543,7 @@ Az ikonok csak színben térnek el · eltérő vonalvastagság a készleten bel�
 
 ### Miért ez a pilot
 
-A terv választása, és megáll — de van egy külön érdeme: **ez az egyetlen illusztráció-pilot,
+A terv 2026-08-28-i választása — de van egy külön érdeme: **ez az egyetlen illusztráció-pilot,
 amelynek a tartalma egy magyar mondat**. Ezért ez méri a leggyakoribb generatív hibát
 (elrontott ékezet) **és** a javasolt megoldást egyszerre.
 
@@ -580,20 +598,20 @@ arc · a szöveg beleégetve a generált rétegbe.
 
 | | |
 |---|---|
-| **Cím** | Képzői checklist – „Játék-labor 3 aktuális kvucára” (1 oldalas cheat-sheet) |
+| **Cím** | Képzői ellenőrző lista – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet) |
 | **Státusz · kapuk** | `produkciós szabályra vár` · **R5** |
 | **Formátum** | **A4 álló, pontosan 1 oldal**, pipálható checklist |
 | **Deriváltak** | `::PRINTPDF` |
 
 ### Miért ez a pilot
 
-A terv választása, és megáll: a 61 nyomtatványos tétel **legszigorúbb formai kényszerével**
+A terv 2026-08-28-i választása: a 61 nyomtatványos tétel **legszigorúbb formai kényszerével**
 („1 oldalra”), ami a tipográfiai skálát azonnal próbára teszi.
 
 ### Gyártási brief — determinisztikus HTML/CSS → PDF
 
 Tartalom: a forrás 5. szekciójának öt pontja — **1)** Meta tiszta · **2)** Játékok
-kiválasztva · **3)** Eszközök & tér · **4)** Safety keret a fejben · **5)** Híd az M6.B
+kiválasztva · **3)** Eszközök & tér · **4)** Biztonsági keret a fejben · **5)** Híd az M6.B
 játéklaphoz.
 
 | | |
@@ -635,7 +653,7 @@ raszterizált szöveg · szín nélkül értelmezhetetlen elem.
 
 ### Miért ez a pilot
 
-A terv választása, és megáll: ez méri a **nagy formátumú, teremből olvasható**
+A terv 2026-08-28-i választása: ez méri a **nagy formátumú, teremből olvasható**
 tipográfiát, ami a **37 gyártandó poszter** (38 összesen; 1 `reuse`) közös kényszere.
 
 **Amit viszont NEM mér:** az AI-címke elhelyezését (mert `human` eredetű), a kétoldalas
@@ -648,7 +666,7 @@ Két mező egy lapon vagy két lapon:
 
 1. **„Zmán Kvucá = …”** — konkrét idősáv + kvuca + tér + felelősség; **nem** aznap
    kitalált random program.
-2. **„AI-határok”** — **mind a három** ponttal (a lecke 111. és 228. sora): nincs konkrét chanich-név vagy sztori;
+2. **„AI-határok”** — **mind a három** ponttal (a lecke 4.1. és 4.2. blokkja — az asset `spec` mezője is ezekre hivatkozik): nincs konkrét chanich-név vagy sztori;
    gyermekvédelmi ügyben mentorhoz, nem AI-hoz; az AI csak ötletel, a felelősség a
    madriché.
 
@@ -690,7 +708,7 @@ AI-címke a lapon.
 
 ### Miért ez a pilot
 
-Kiegészítés a poszter mellé: a kártyaszett-alcsalád **24 asset**, és a saját produkciós
+Kiegészítés a poszter mellé: a kártyaszett-alcsalád **23 asset**, és a saját produkciós
 nehézségét — kétoldalas illesztés, vágóív, kézbe vehető olvashatóság — semmilyen más
 pilot nem méri.
 
@@ -753,7 +771,7 @@ A teljes konvenció: [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) 7. szakasz.
 | Pilot | Mester | Derivatíva |
 |---|---|---|
 | P-NAR | `M4.2-NAR-03__master.wav` | `…__master.mp3` · `…__captions.hu.vtt` · `…__transcript.hu.md` |
-| P-VID | `M5.1-VID-01__master.mp4` | `…__captions.hu.vtt` · `…__transcript.hu.md` |
+| P-VID | `M5.1-VID-01__master.mp4` | `…__voiceover.wav` · `…__captions.hu.vtt` · `…__transcript.hu.md` |
 | P-KAR | `M4.1-VID-03__master.mp4` *(néma + alámuxolt narráció)* | felirat/leirat a konténerhez: `M4.1-VID-02__captions.hu.vtt` |
 | P-DIA | `M0.2-DIA-01__master-wide.svg` · `…__master-tall.svg` | `…__master.png` · `…__alt.txt` |
 | P-IKO | `M1.3-IKO-01__master.svg` | `…__master.png` · `…__alt.txt` |

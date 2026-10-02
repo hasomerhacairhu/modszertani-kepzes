@@ -16,6 +16,7 @@ Run:  python3 -m unittest tools.test_media_manifest -v
 
 from __future__ import annotations
 
+import hashlib
 import io
 import json
 import re
@@ -35,151 +36,8 @@ import media_migrate_v2 as mig  # noqa: E402
 #: against it: everything the migration added must be strippable back to this.
 BASELINE_COMMIT = "a8629732e46eb489644dc90a624e6c8466612eda"
 
-#: The only learner- or trainer-visible edits made since that commit, each with
-#: the approved decision behind it. Anything else must still strip back to the
-#: baseline exactly. Keys are repo-relative paths.
-APPROVED_VISIBLE_EDITS = {
-    # D9 — one canonical human-readable AI provenance label replaces four variants.
-    "02 Tervezet/Program terv.md":
-        "D9 — a kanonikus AI-provenance címke szövege (§4 és §9 7. sor)",
-    "02 Tervezet/Emberi jóváhagyás szükséges.md":
-        "D9 — a címke szövege jóváhagyva; az elhelyezés és a jogi review nyitva marad",
-    "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md":
-        "D9 — címkecsere",
-    "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md":
-        "D9 — címkecsere",
-    "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md":
-        "D9 — címkecsere",
-    "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md":
-        "D9 — címkecsere",
-    "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md":
-        "D9 — címkecsere",
-    "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md":
-        "D9 — címkecsere",
-    "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md":
-        "D9 — címkecsere",
-    # D6 — the approved HOOK dialogue moved into a canonical @source block.
-    "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md":
-        "D6 — a jóváhagyott HOOK-dialóg @source blokkba került a „Nagyjából…” helyére",
-    # D7 — the optional narration is not produced, so the slide stops asking for it.
-    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md":
-        "D7 — az „Opcionális narráció (30–40 mp)” sor törölve; a dia tartalma változatlan",
-    # Forensic remediation, 2026-08-28 — user-mandated fixes of the independent
-    # forensic audit's verified findings (F-01…F-15, R-16, P3) plus the Hungarian
-    # editorial pass. One entry per file, tagged with the finding it carries.
-    "02 Tervezet/LMS – activity manifest.md":
-        "F-02 — a Z.4 feedback-sor pontosított („név nélkül megjelenő”, anonimitás-szint emberi döntés)",
-    "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md":
-        "F-14 — a késő esti szcenárió ✅-válasza átlátható bevonást tanít, nem engedélykérést",
-    "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md":
-        "F-15 — just-in-time adatvédelmi ellenőrzés a plakátfotó előtt",
-    "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md":
-        "P3-01 — az M1.2 leckeleírás nem ígér átírás-feladatot, ami a leckében nincs",
-    "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md":
-        "F-08 — a helyi rubrika 4. sora a KAPU-konstruktumot méri, nem „én-üzenet” nyelvtant",
-    "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md":
-        "F-12 — őszinte terhelés-becslés (2,5–3,5 óra, alap-út)",
-    "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md":
-        "F-05 — a külön beszélgetés a négyszemközti helyi szabályhoz kötve",
-    "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md":
-        "F-13 — az M3.3 őszinte időtartama (20–25’) átvezetve a hubba",
-    "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md":
-        "F-13 — a jogszabályi részletek képzői jegyzetbe kerültek, a tanulói szabály megmaradt; időtartam 20–25’",
-    "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md":
-        "F-04 — a szorongó résztvevő megkeresése a négyszemközti helyi szabályhoz kötve",
-    "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md":
-        "szerkesztői — staff→stáb, deklaráció→általános kijelentés (rubrika-logika változatlan)",
-    "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md":
-        "szerkesztői — staff→stáb, deklaráció-szintű→kijelentés-szintű",
-    "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md":
-        "F-03 — a lecke tanítja a kapun számon kért minimumot (1 soros AI-jelölés + szakmai döntés)",
-    "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md":
-        "szerkesztői — artefaktum→vázlat (blokkcím + percbontás együtt)",
-    "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md":
-        "R-16 — az M7.4-hivatkozás a tényleges v1→klinika→v2 folyamatot mondja",
-    # NYELV-9 — one term for the anonymous topic-request slips across the Study Labs
-    # (the visible guard sentence already said "név nélküli"; the equipment and
-    # closing checklist lines now say the same instead of "anonim/névtelen").
-    "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md":
-        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
-    "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md":
-        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
-    "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md":
-        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
-    "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md":
-        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
-    "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md":
-        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
-    "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md":
-        "NYELV-9 — „név nélküli témakérések” egységesítés a felszerelés- és záró-checklist sorokban",
-    "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md":
-        "F-07 — nincs Moodle-visszakeresési ígéret; saját mentés + emlékezet-fallback",
-    "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md":
-        "F-02 — „név nélkül megjelenő” visszajelzés, Moodle-doksi idézettel; anonimitás-szint emberi döntés",
-    "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md":
-        "F-05 + F-02 — átlátható odalépés a helyi szabály szerint; a kérdőív-megnevezés pontosítva",
-    "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md":
-        "F-02 — a feedback-eszköz megnevezése pontosítva („név nélkül megjelenő”)",
-}
-
-# 2026-09-26 release-readiness audit — intentional visible curriculum edits.
-# Keep this list explicit: the historical migration guard remains useful, while
-# later audited content changes do not masquerade as migration drift.
-AUDIT_2026_09_26_VISIBLE_EDITS = {
-    "02 Tervezet/Adatvédelem – tanulói adatok és AI.md",
-    "02 Tervezet/Gyermekvédelem – release gate.md",
-    "02 Tervezet/LMS – H5P runtime acceptance.md",
-    "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md",
-    "02 Tervezet/RELEASE-READINESS.md",
-    "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md",
-    "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md",
-    "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md",
-    "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-    "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md",
-    "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md",
-    "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-    "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md",
-    "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md",
-    "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-    "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-    "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md",
-    "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md",
-    "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md",
-    "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-    "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
-    "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-    "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
-    "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
-    "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md",
-    "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md",
-    "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md",
-    "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-    "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md",
-    "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md",
-    "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-    "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md",
-    "02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’).md",
-    "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md",
-    "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-    "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
-    "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md",
-    "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md",
-    "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md",
-    "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md",
-    "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-    "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-    "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
-    "02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md",
-    "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-    "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md",
-    "02 Tervezet/Terepgyakorlat – 2. félév.md",
-}
 
 
-# 2026-09-29 final cleanup — intentional terminology-only visible edit.
-FINAL_CLEANUP_2026_09_29_VISIBLE_EDITS = {
-    "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md",
-}
 
 # Approved filename migrations in the 2026-09-29 cleanup. The content-invariant
 # guard still compares each current file to its historical baseline content; this
@@ -214,6 +72,77 @@ FINAL_CLEANUP_2026_09_29_RENAMES = {
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md":
         "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md",
 }
+
+#: Approved learner- and trainer-visible text. Every authoring file whose visible
+#: text (metadata blocks stripped) differs from the baseline above is pinned here
+#: by sha256, with the reason it was approved. Re-pin only with a reason:
+#:   python3 tools/test_media_manifest.py --pin-visible "<indoklás>"
+VISIBLE_PINS = Path(__file__).resolve().parent / "approved-visible-text.json"
+
+
+def visible_fingerprint(text: str) -> str:
+    """sha256 of the learner/trainer-visible text (metadata blocks stripped)."""
+    return hashlib.sha256(mig.strip_metadata(text).encode("utf-8")).hexdigest()
+
+
+def baseline_text(rel: str) -> str | None:
+    """The file's text at the baseline commit, or None when it did not exist."""
+    baseline_rel = FINAL_CLEANUP_2026_09_29_RENAMES.get(rel, rel)
+    blob = subprocess.run(["git", "-C", str(mm.ROOT), "show",
+                           f"{BASELINE_COMMIT}:{baseline_rel}"], capture_output=True)
+    return blob.stdout.decode("utf-8") if blob.returncode == 0 else None
+
+
+def visible_texts_needing_pins() -> dict[str, str]:
+    """Fingerprints of every authoring file whose visible text left the baseline."""
+    needing = {}
+    for path in mm.discover_sources():
+        rel = path.relative_to(mm.ROOT).as_posix()
+        current = path.read_text(encoding="utf-8")
+        baseline = baseline_text(rel)
+        if baseline is not None and mig.strip_metadata(current) == baseline:
+            continue
+        needing[rel] = visible_fingerprint(current)
+    return needing
+
+
+def pin_mismatches(pins: dict, needing: dict[str, str]) -> dict[str, list[str]]:
+    """Changed, unpinned and stale files — empty lists when everything matches."""
+    return {
+        "changed": sorted(rel for rel, digest in needing.items()
+                          if rel in pins and pins[rel]["sha256"] != digest),
+        "unpinned": sorted(set(needing) - set(pins)),
+        "stale": sorted(set(pins) - set(needing)),
+    }
+
+
+def pin_visible_text(reason: str) -> int:
+    """Re-pin changed or new files with ``reason``; drop pins no longer needed."""
+    reason = reason.strip()
+    if not reason:
+        print('Indoklás kötelező: --pin-visible "<miért változott a látható szöveg>"')
+        return 2
+    check = subprocess.run(["git", "-C", str(mm.ROOT), "cat-file", "-e",
+                            f"{BASELINE_COMMIT}^{{commit}}"], capture_output=True)
+    if check.returncode != 0:
+        print(f"A kiindulási commit ({BASELINE_COMMIT[:7]}) nem elérhető — teljes history kell.")
+        return 2
+    data = (json.loads(VISIBLE_PINS.read_text(encoding="utf-8"))
+            if VISIBLE_PINS.exists() else {"schema": 1, "files": {}})
+    pins = data["files"]
+    needing = visible_texts_needing_pins()
+    repinned = 0
+    for rel, digest in needing.items():
+        if pins.get(rel, {}).get("sha256") != digest:
+            pins[rel] = {"sha256": digest, "reason": reason}
+            repinned += 1
+    for rel in set(pins) - set(needing):
+        del pins[rel]
+    VISIBLE_PINS.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True)
+                            + "\n", encoding="utf-8")
+    print(f"{repinned} fájl látható szövege újrapinnelve: {reason}")
+    return 0
+
 
 LESSON_DIR = "02 Tervezet/Modulok/M9/Online leckék"
 LESSON = f"{LESSON_DIR}/M9.1 – Teszt lecke.md"
@@ -1221,7 +1150,7 @@ class TestDriftDetection(unittest.TestCase):
 
 
 class TestContentInvariant(unittest.TestCase):
-    """No learner- or trainer-visible text may hide inside the migration."""
+    """No learner- or trainer-visible text may change without a recorded reason."""
 
     @staticmethod
     def _baseline_available() -> bool:
@@ -1231,44 +1160,45 @@ class TestContentInvariant(unittest.TestCase):
         return result.returncode == 0
 
     def test_only_approved_edits_changed_learner_visible_text(self):
-        """The migration itself stays metadata-only; approved edits are named.
+        """Visible text may leave the baseline only as an approved, pinned version.
 
-        Every file must strip back to the baseline byte for byte — except the ones
-        the user explicitly approved on 2026-08-27, which are listed with what
-        changed in them. `TestApprovedDecisions` then checks that each of those
-        files carries exactly the approved change. A file that drifts without an
-        entry here still fails, and a stale entry fails too.
+        The earlier allow-list had grown to name every authoring file, so it no
+        longer caught anything. A file whose visible text differs from the
+        baseline must now match its fingerprint in ``VISIBLE_PINS``; a visible
+        edit fails here until it is re-pinned with a reason, and a pin that is no
+        longer needed fails too. Metadata-only edits keep the fingerprint.
         """
         if not self._baseline_available():
             self.skipTest(f"a kiindulási commit ({BASELINE_COMMIT[:7]}) nem elérhető "
                           "(sekély klón) — a CI teljes historyval futtatja")
-        unapproved, unchanged_but_listed = [], []
-        touched = 0
-        for path in mm.discover_sources():
-            rel = path.relative_to(mm.ROOT).as_posix()
-            baseline_rel = FINAL_CLEANUP_2026_09_29_RENAMES.get(rel, rel)
-            blob = subprocess.run(["git", "-C", str(mm.ROOT), "show",
-                                   f"{BASELINE_COMMIT}:{baseline_rel}"], capture_output=True)
-            if blob.returncode != 0:
-                unapproved.append(f"{rel}: nincs a kiindulási commitban")
-                continue
-            baseline = blob.stdout.decode("utf-8")
-            current = path.read_text(encoding="utf-8")
-            if current != baseline:
-                touched += 1
-            visible_changed = mig.strip_metadata(current) != baseline
-            approved_visible = (set(APPROVED_VISIBLE_EDITS)
-                                | AUDIT_2026_09_26_VISIBLE_EDITS
-                                | FINAL_CLEANUP_2026_09_29_VISIBLE_EDITS)
-            if visible_changed and rel not in approved_visible:
-                unapproved.append(rel)
-            if not visible_changed and rel in approved_visible:
-                unchanged_but_listed.append(rel)
-        self.assertEqual([], unapproved,
-                         "jóvá nem hagyott tanulónak látható szövegváltozás")
-        self.assertEqual([], unchanged_but_listed,
-                         "elavult bejegyzés az APPROVED_VISIBLE_EDITS listában")
-        self.assertGreater(touched, 0, "a migrációnak érintenie kellett fájlokat")
+        pins = json.loads(VISIBLE_PINS.read_text(encoding="utf-8"))["files"]
+        mismatches = pin_mismatches(pins, visible_texts_needing_pins())
+        self.assertEqual([], mismatches["changed"],
+                         "látható szöveg változott újrapinnelés (indoklás) nélkül")
+        self.assertEqual([], mismatches["unpinned"],
+                         "a kiindulástól eltérő látható szöveg pin nélkül")
+        self.assertEqual([], mismatches["stale"], "elavult pin")
+
+    def test_every_pin_records_its_reason(self):
+        pins = json.loads(VISIBLE_PINS.read_text(encoding="utf-8"))["files"]
+        self.assertTrue(pins, "a pin-fájl nem lehet üres")
+        self.assertEqual([], sorted(rel for rel, pin in pins.items()
+                                    if not str(pin.get("reason", "")).strip()))
+
+    def test_a_visible_edit_is_reported_and_a_metadata_edit_is_not(self):
+        body = lesson("Látható mondat a tanulónak.")
+        pinned = {LESSON: {"sha256": visible_fingerprint(body), "reason": "teszt"}}
+        with_metadata = lesson(MINIMAL, "Látható mondat a tanulónak.")
+        self.assertEqual(visible_fingerprint(body), visible_fingerprint(with_metadata))
+        self.assertEqual({"changed": [], "unpinned": [], "stale": []},
+                         pin_mismatches(pinned, {LESSON: visible_fingerprint(with_metadata)}))
+        edited = lesson("Látható mondat a tanulónak, átírva.")
+        self.assertEqual([LESSON],
+                         pin_mismatches(pinned, {LESSON: visible_fingerprint(edited)})["changed"])
+        self.assertEqual(["új.md"],
+                         pin_mismatches(pinned, {LESSON: pinned[LESSON]["sha256"],
+                                                 "új.md": "x"})["unpinned"])
+        self.assertEqual([LESSON], pin_mismatches(pinned, {})["stale"])
 
 
 class TestForensicRemediationInvariants(unittest.TestCase):
@@ -1481,7 +1411,7 @@ class TestBlockerSemantics(unittest.TestCase):
     def test_r2_covers_synthetic_human_personas_only(self):
         """R2 is avatar/voice rights, not a general AI-content gate."""
         for asset in self._with("R2"):
-            self.assertIn(asset["kind"], ("video", "photo"), asset["id"])
+            self.assertIn(asset["kind"], ("video", "photo", "voiceover"), asset["id"])
             self.assertEqual("ai", asset["provenance"], asset["id"])
         ai_visuals = [a for a in self.model["assets"]
                       if a["provenance"] == "ai"
@@ -1491,6 +1421,15 @@ class TestBlockerSemantics(unittest.TestCase):
         for asset in ai_visuals:
             self.assertNotIn("R2", asset["blockers"],
                              f"{asset['id']} hétköznapi AI-vizuál, nem avatar")
+
+    def test_r2_holds_every_synthetic_narration(self):
+        """With D2 = synthetic voice, R2 covers every narration
+        (RIGHTS-EVIDENCE.md, "Fontos következmény" under the R2 table)."""
+        narrations = [a for a in self.model["assets"]
+                      if a["kind"] == "voiceover" and a["provenance"] == "ai"]
+        self.assertTrue(narrations)
+        for asset in narrations:
+            self.assertIn("R2", asset["blockers"], asset["id"])
 
     def test_r2_holds_every_talking_head_and_character_scene(self):
         for asset in self.model["assets"]:
@@ -1715,8 +1654,11 @@ class TestApprovedDecisions(unittest.TestCase):
     def test_m13_hook_dialogue_is_a_live_source_not_a_pending_draft(self):
         asset = self.by_id["M1.3-VID-01"]
         self.assertEqual("M1.3-VID-01-VO", asset["source_ref"])
-        self.assertEqual("", asset["decision"], "a szkript-döntés lezárult")
-        self.assertEqual([], asset["readiness_issues"])
+        # D6 closed the script; the open D11 (dialogue voices, lip-sync production)
+        # is a separate decision and must not reopen it.
+        self.assertIn("D11", asset["decision"])
+        self.assertNotIn("szkript-döntés", asset["decision"])
+        self.assertEqual([mm.OPEN_DECISION], asset["readiness_issues"])
         self.assertNotIn(mm.MISSING_SPOKEN_SOURCE, asset["readiness_issues"])
         for phrase in ("Te mindig szétvered a peulát, komolyan mondom",
                        "Mi van?! Csak próbáltam feldobni a hangulatot",
@@ -1729,7 +1671,7 @@ class TestApprovedDecisions(unittest.TestCase):
         """Approving the script must not make the video producible."""
         asset = self.by_id["M1.3-VID-01"]
         self.assertEqual({"R2", "R3", "R5"}, set(asset["blockers"]))
-        self.assertEqual("pending-rights", asset["status"])
+        self.assertEqual("pending-human-decision", asset["status"])
 
     def test_the_lesson_no_longer_hedges_the_approved_dialogue(self):
         lesson = (mm.ACTIVE_ROOT / "Modulok/M1/Online leckék"
@@ -1874,4 +1816,6 @@ class TestLiveDeliverables(unittest.TestCase):
 
 
 if __name__ == "__main__":
+    if len(sys.argv) >= 2 and sys.argv[1] == "--pin-visible":
+        sys.exit(pin_visible_text(" ".join(sys.argv[2:])))
     unittest.main()
