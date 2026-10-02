@@ -322,7 +322,7 @@ gyermekvédelmi **jóváhagyás** kell hozzá?
 
 **Jelenlegi bizonyíték:** az R8 szövegében — az R2/R3/R5-tel ellentétben — **nincs**
 kitöltetlen érték: kész, betartható előírás (anonimizálás vagy kikeretezés, kiskorúnál
-előzetes dokumentált szülői hozzájárulás, képernyőképen nincs valós felhasználónév/arc).
+előzetes, dokumentált hozzájárulás — 18 év alatt a résztvevő és a gondviselő együtt —, képernyőképen nincs valós felhasználónév/arc).
 A `README.md` viszont kimondja, hogy ennek a státusza nyitott. Az `M0.A-FOTO-01`
 kézírásos plakátokról készül, és a képző hozza létre a peula után — a produkciós tervben
 ezért az élő/runtime szakaszban áll, nem gyártási kötegben.
@@ -344,7 +344,11 @@ blokkolók emiatt nem kerültek ki egyik assetről sem.
 > eszközről. **Jogalap és megőrzés** (szintén projektgazdai döntés): fotó, videó és hang
 > csak külön, önkéntes hozzájárulással, a cél teljesüléséig, legfeljebb 90 napig, hacsak
 > nincs külön archiválási hozzájárulás (`Adatvédelem – tanulói adatok és AI.md` 3.
-> szakasz). Az `M0.A-FOTO-01` adatkezelési kérdéseinek egyetlen helye a kánoni
+> szakasz). **A hozzájárulás adója** (projektgazdai döntés, 2026-10-02; utólagos
+> ellenőrzés (vétó/QA): a DPO): 18 év alatt a résztvevő és a gondviselő együtt, 18 év
+> felett a résztvevő (`Adatvédelem – tanulói adatok és AI.md` 4. szakasz). A hozzájárulás
+> bizonyítéka ettől még hiányzik ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R8-2,
+> R8-3). Az `M0.A-FOTO-01` adatkezelési kérdéseinek egyetlen helye a kánoni
 > `HUM-PRIV-02`; ez a lap nem tart rájuk külön mezőt. Az R8 státuszáról (A vagy B) a döntés
 > kifejezetten nem szól. Utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős.
 

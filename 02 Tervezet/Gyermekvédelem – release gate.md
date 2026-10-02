@@ -14,7 +14,9 @@ A **Gyermekvédelmi működési standard v1.0 (Child Protection Operating Standa
 
 ## 2. Release-szabály
 
-M3.3, M3.B, az M3-kapu, valamint minden olyan tananyagelem, amely bántalmazásról, önsértésről, groomingról, szexuális/romantikus határátlépésről, súlyos veszélyeztetettségről vagy külső jelzésről tanít, **nem nyitható meg valódi madrihoknak írásos gyermekvédelmi jóváhagyás nélkül**. A jóváhagyó a §5 jóváhagyói rendje (projektgazdai döntés, 2026-10-02) szerint a Memuna; jogi kérdésben a jogi szakértő.
+M3.3, M3.B, az M3-kapu, az M7 gyermekvédelmi részei, valamint minden olyan tananyagelem, amely bántalmazásról, önsértésről, groomingról, szexuális/romantikus határátlépésről, súlyos veszélyeztetettségről vagy külső jelzésről tanít, **nem nyitható meg valódi madrihoknak a Memuna írásos átnézése nélkül**. Az átnézést a §5 jóváhagyói rendje (projektgazdai döntés, 2026-10-02) szerint a Memuna végzi; jogi kérdésben a jogi szakértő illetékes.
+
+**Az átnézés élesítés előtti minőségellenőrzési (QA) lépés.** **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a Memuna. A Memuna egyszer, írásban rögzíti a release-jegyzőkönyvben (`Program terv.md` §9.3), hogy a kész anyagot átnézte („átnéztem”). Ez nem a gyermekvédelmi policy újradöntése, hanem a kész anyag ellenőrzése; a policy-szintű szerepellenőrzés továbbra is utólagos vétó/QA (§5).
 
 Zárt Moodle-stagingben, szintetikus tesztadatokkal és csak szerkesztői/QA hozzáféréssel ezek az elemek felépíthetők és technikailag tesztelhetők.
 
@@ -140,7 +142,7 @@ Mind az öt tételben **projektgazdai döntés (2026-10-02)** született; a tart
 
 Learner-facing release előtt mindegyik legyen igazolt:
 
-- [ ] M3.3, M3.B, M3-kapu és M7 gyermekvédelmi kapuelemek a gyermekvédelmi jóváhagyó (a §5 szerint a Memuna) által átnézve;
+- [ ] M3.3, M3.B, M3-kapu és az M7 gyermekvédelmi részei a Memuna által átnézve: egyszeri, írásos „átnéztem” a release-jegyzőkönyvben (élesítés előtti QA-lépés, nem a policy újradöntése; §2);
 - [x] HUM-SAFE-01–05 lezárva; **projektgazdai döntés: 2026-10-02** – az `Emberi jóváhagyás szükséges.md` mind az öt tételt dátummal, jóváhagyóval és bizonyítékkal zárta; a későbbi ellenőrzés vétó/QA (§5);
 - [ ] a learner-facing gyermekvédelmi kontakt – a Memuna és összeférhetetlenség esetére a név szerint kijelölt helyettese – a „Segítség és kapcsolatok” blokkban, a többi kontakttól külön, ténylegesen látható a Moodle-ben;
 - [ ] nincs 100%-os titoktartási ígéret;

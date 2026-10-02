@@ -151,13 +151,13 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 
 ## 5. Felzárkóztató peula – M5.F (50–55’)
 
-**Státusz és időpont:** **kötelező, ha az M5 éles kapuja nem teljesült.** A kapueredmény megerősítése után, a javító újraleadás előtt kerül sorra; az időpontot a képző jelöli ki a központi naptár szerint.
+**Státusz és időpont:** **kötelező, ha az M5 éles kapuja nem teljesült.** A kapueredmény megerősítése után, a javító újraleadás előtt kerül sorra; az időpontot a képző jelöli ki a központi naptár szerint: 2027-02-08 (hétfő), 18:00-tól.
 
 **Cél:** facilitált, strukturált javítási alkalom azoknak, akiknek az M5 kapuja (az M5.4 táblázat rubrikás értékelése) nem teljesült: a kapun kapott visszajelzésre (Megfigyelés → Hatás → Következő lépés) építve dolgoznak a Hiányosnak jelölt szempontokon (R1–R4), tisztázzák a modul kulcsfogalmait (formális–nonformális–informális, feladat→cél→kvuca→módszer, gyakorlás–aktív felidézés–időben elosztott gyakorlás), szükség esetén pótolják a hiányzó leckéket, és előkészítik a táblázat javító újraleadását. Aki csak lemaradt az online leckékkel (M5.1–M5.4), csendes pótlással pótol; erre az alkalom 5–25. perce is helyet ad.
 
 **Rövid váz:**
 
-* Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzést és azt, hol tart az M5.1–M5.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz vagy kapueredmény nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg – a mentorjegyzetben csak a fejlődéstámogatáshoz szükséges minimális adat szerepelhet. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
+* Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzést és azt, hol tart az M5.1–M5.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz vagy kapueredmény nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg – a mentorjegyzetben csak a fejlődéstámogatáshoz szükséges minimális adat szerepelhet (megőrzése: `Adatvédelem – tanulói adatok és AI.md` §3, „Mentori 1:1 meta-napló” sor). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
 * 5–25’: csendes pótlás – mindenki a saját hiányzó leckéivel vagy a táblázata Hiányosnak jelölt szempontjaival dolgozik (füles, saját eszköz), jegyzetlappal: **leckénként 1 gondolat + 1 kérdés**, alul a javítási tervvel.
 * 25–50’ (20–25 perc): közös kérdés–válasz, fogalom-térkép a táblán, a visszajelzésekben jelzett hiányokra fókuszálva:
   * Suli / Somer / Hétköznapok
@@ -174,7 +174,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 * **Éles kapu – M5.4 produktum (rubrika):**
   * Eszköz: **Moodle Assignment + rubrika**.
   * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrika-soron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor: **feladat / cél konkrétsága (R1), kvuca megnevezése (R2), módszer–cél illeszkedés (R3), tanulástan-elem valódisága (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
-  * **Javítási útvonal:** ha egy sor „Hiányos”, rövid fejlesztő visszajelzés (Megfigyelés → Hatás → Következő lépés) + a kapueredmény megerősítése után a kötelező **M5.F (F-peula)** + **egy javító újraleadás** (további leadást a képző nyithat) – nincs kizárás, a cél a megértés. A teljesítéshez a legjobb megerősített eredmény számít.
+  * **Javítási útvonal:** ha egy sor „Hiányos”, rövid fejlesztő visszajelzés (Megfigyelés → Hatás → Következő lépés) + a kapueredmény megerősítése után a kötelező **M5.F (F-peula)** + **egy javító újraleadás**, amely az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; további leadást a képző nyithat) – nincs kizárás, a cél a megértés. A teljesítéshez a legjobb megerősített eredmény számít.
 * **Diagnosztikus kvíz – fogalmi felzárkózás (NEM éles kapu):**
   * Eszköz: Moodle **Quiz**, **12 kérdés** (formális–nonformális–informális; feladat→cél→kvuca→módszer; gyakorlás/aktív felidézés/időben elosztott gyakorlás).
   * **2–3 próbálkozás** engedélyezve; hibánál rövid magyarázó visszajelzés: merre menjen vissza (M5.1–M5.4) javítani a megértést.

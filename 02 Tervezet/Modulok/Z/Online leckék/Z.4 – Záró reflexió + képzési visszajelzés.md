@@ -114,7 +114,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 **Kis jelzés:**
 
-> „Alapesetben a kitöltött ívet adod be szövegként; a videó választható lehetőség, nem kötelező. Bármelyik jó – válassz olyat, ami **könnyebben megy vagy önazonosabb**.
+> „Alapesetben a kitöltött ívet adod be szövegként; a videó választható lehetőség, nem kötelező, és külön, önkéntes hozzájárulás kell hozzá (ha még nem vagy 18 éves, a gondviselőddel együtt adjátok meg). Bármelyik jó – válassz olyat, ami **könnyebben megy vagy önazonosabb**.
 > Ugyanazt a 3 kérdést használod vázlatnak mindkét úthoz – ezért van egy íven.”
 
 ***
@@ -304,10 +304,10 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 ### Leírás (tanulónak szóló szöveg)
 
-*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet: a HUM-PRIV-01 projektgazdai döntése szerint a beadást csak a kijelölt mentor/értékelő látja, a videós útnál pedig a célt, a jogalapot, a hozzáférést, a megőrzést és a törlést is rögzíteni kell (HUM-PRIV-02); a videó jogalapja külön, önkéntes hozzájárulás, megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás. A megőrzési időket az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02); az adatot gyűjtő aktivitás csak az ezeket közlő tájékoztatóval nyitható meg valódi madrihnak.)*
+*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet: a HUM-PRIV-01 projektgazdai döntése szerint a beadást csak a kijelölt mentor/értékelő látja, a videós útnál pedig a célt, a jogalapot, a hozzáférést, a megőrzést és a törlést is rögzíteni kell (HUM-PRIV-02); a videó jogalapja külön, önkéntes hozzájárulás (18 év alatt a résztvevő és a gondviselője együtt adja meg, 18 év felett a résztvevő), megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás. A beadandó szövegének megőrzésére a mátrix „Szabad szöveges reflexió” sora vonatkozik. A megőrzési időket az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02); az adatot gyűjtő aktivitás csak az ezeket közlő tájékoztatóval nyitható meg valódi madrihnak.)*
 
 > **Feladatod:**
-> Töltsd ki és add be a **háromrészes záró reflexiós ívet**. Ha inkább beszélnél, helyette felvehetsz belőle egy **2–3 perces videót**, és azt adhatod be – ez választható lehetőség, nem kötelező.
+> Töltsd ki és add be a **háromrészes záró reflexiós ívet**. Ha inkább beszélnél, helyette felvehetsz belőle egy **2–3 perces videót**, és azt adhatod be – ez választható lehetőség, nem kötelező. A videóhoz külön, önkéntes hozzájárulás kell: ha még nem vagy 18 éves, ezt a gondviselőddel együtt adjátok meg.
 
 > Az ív már a Z.1–Z.3-ban átgondolt dolgokra és a 3 kérdésre épül – itt most **leadod**, és ha szeretnéd, a beadás előtt még csiszolsz rajta.
 

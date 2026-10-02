@@ -11,7 +11,7 @@ A két állapotot nem szabad összemosni. A staging célja éppen az, hogy a Moo
 
 | Gate | Követelmény | Állapot típusa | Bizonyíték |
 |---|---|---|---|
-| **G1 Gyermekvédelem** | HUM-SAFE-01–05 lezárva; M3 és kapcsolódó biztonsági tartalmak írásos gyermekvédelmi jóváhagyása (jóváhagyó: a Memuna – lásd a táblázat alatt) | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Gyermekvédelem – release gate.md` |
+| **G1 Gyermekvédelem** | HUM-SAFE-01–05 lezárva; az M3 és a kapcsolódó biztonsági tartalmak (köztük M3.3, M3.B, M3-kapu, az M7 gyermekvédelmi részei) élesítés előtti átnézése: a Memuna egyszeri, írásos „átnéztem” bejegyzése a release-jegyzőkönyvben (lásd a táblázat alatt) | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Gyermekvédelem – release gate.md` |
 | **G2 Adatvédelem és kiskorúak** | HUM-PRIV-01–04 lezárva, activity-szintű adatleltár, adatvédelmi tájékoztató, hozzáférés, megőrzés/törlés | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Adatvédelem – tanulói adatok és AI.md` |
 | **G3 Moodle/H5P célkörnyezet** | pontos verziók + kritikus runtime tesztek | `IMPLEMENTATION_REQUIRED` | `LMS – H5P runtime acceptance.md` |
 | **G4 Learner-facing nyitott mező = 0** | nincs `KITÖLTENDŐ`, ismeretlen kontakt, bizonytalan határidő vagy törött link a madrih által látható felületen | `IMPLEMENTATION_REQUIRED` | staging visszaaudit |
@@ -23,8 +23,9 @@ A két állapotot nem szabad összemosni. A staging célja éppen az, hogy a Moo
 **Projektgazdai döntések a kapukhoz (2026-10-02).** A G1, G2, G6 és G8 HUM-feltétele (a „… lezárva” rész) teljesült: a tételek lezártak (`Emberi jóváhagyás szükséges.md`), a megnevezett szerepek későbbi ellenőrzése vétó / minőségellenőrzés (QA), nem új döntési kapu. A kapuk ettől még nem zártak: mindegyik csak a táblázat „Bizonyíték” oszlopa szerinti bizonyítékkal és a tracker-issue-ban rögzített lezárással zárul (lásd: GitHub release-tracker).
 
 - **G1 – jóváhagyói rend:** a gyermekvédelmi jóváhagyás egyetlen felelős jóváhagyója a **Memuna** (a Somer gyermekvédelmi felelőse); a programvezető operatív társdöntő, jogi szakértő csak jogi kérdésben dönt. A képzés elsődleges normatív gyermekvédelmi dokumentuma a **Gyermekvédelmi működési standard v1.0** (a HUM-SAFE-01…05 együtt; `Gyermekvédelem – release gate.md` §5.1).
+- **G1 – a Memuna átnézése élesítés előtt:** **projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a Memuna. Élesítés előtti minőségellenőrzési (QA) lépés a gyermekvédelmi tartalmakra (M3.3, M3.B, M3-kapu, az M7 gyermekvédelmi részei): a Memuna egyszer, írásban rögzíti a release-jegyzőkönyvben (`Program terv.md` §9.3), hogy a kész anyagot átnézte („átnéztem”). Ez nem a policy újradöntése, hanem a kész anyag ellenőrzése (`Gyermekvédelem – release gate.md` §2). A G1 nyitott marad, amíg ez az átnézés meg nem történt.
 - **G5/G8 – hozzáférhetőségi felelős (HUM-A11Y-01):** külön szerep; a szerző nem hagyja jóvá a saját anyagát. A felelős (accountable) hozzáférhetőségi gazda a **Ros Hinuh** (jelenleg Lili); az élesítés előtti, független második ellenőrző (pre-flight) **Marci**. A pre-flight ellenőrzőnek ismernie kell a WCAG- és H5P-követelményeket, és nem lehet az ellenőrzött anyag szerzője. Utólagos ellenőrzés (vétó/QA): a programvezető.
-- **G8 – ütemezés és support (HUM-OPS-01–02):** a program 2026-11-06-án (péntek) indul, és 2027-03-05-én (péntek) zárul; a teljes központi naptár (péntekek, kapu-beadások, megerősítések, téli szünet) az `LMS – activity manifest.md` §7-ében (Központi ütemezés) él. A „Segítség és kapcsolatok” blokk négy, szerep szerinti kontaktot ad (technikai segítség, tanulási/programkontakt, a kijelölt mentor, és ettől külön a Memuna); a mentori kapacitás kemény plafonja 1:8. Utólagos ellenőrzés (vétó/QA): a programvezető.
+- **G8 – ütemezés és support (HUM-OPS-01–02):** a program 2026-11-06-án (péntek) indul, és 2027-03-05-én (péntek) zárul. Az online félév teljesítése bevárja az M6/M7 javítási útját, ezért a teljesítést legkésőbb 2027-03-11 18:00-ig erősítik meg (projektgazdai döntés, 2026-10-02). A teljes központi naptár (péntekek, kapu-beadások, megerősítések, téli szünet) az `LMS – activity manifest.md` §7-ében (Központi ütemezés) él. A „Segítség és kapcsolatok” blokk négy, szerep szerinti kontaktot ad (technikai segítség, tanulási/programkontakt, a kijelölt mentor, és ettől külön a Memuna); a mentori kapacitás kemény plafonja 1:8. Utólagos ellenőrzés (vétó/QA): a programvezető.
 
 ### Médiakapuk
 
@@ -65,7 +66,7 @@ A staging buildben:
 
 Egy modul szakmai jóváhagyása lehet moduláris, de a hozzá tartozó globális kapukat nem lehet megkerülni. Például az M1 stagingben akkor is teljesen felépíthető, ha egy rá vonatkozó adatkezelési döntés (pl. a HUM-PRIV-01) még nyitott; valódi madrihnak viszont az M1 Assignment csak a jóváhagyott adatkezeléssel nyitható meg.
 
-A safeguarding-tartalomra külön szabály vonatkozik: M3.3, M3.B és az M3/M7 gyermekvédelmi kapuelemek **éles használatához** az adott tartalomhoz közvetlenül szükséges **HUM-SAFE-01/02** döntések és az írásos gyermekvédelmi jóváhagyás (jóváhagyó: a Memuna, lásd G1) kötelező, **de ez nem szűkíti a globális G1-et**: learner-facing release csak akkor lehet, ha a teljes **HUM-SAFE-01–05** csomag lezárt.
+A safeguarding-tartalomra külön szabály vonatkozik: M3.3, M3.B és az M3/M7 gyermekvédelmi kapuelemek **éles használatához** az adott tartalomhoz közvetlenül szükséges **HUM-SAFE-01/02** döntések és a Memuna élesítés előtti, írásos átnézése (QA-lépés a release-jegyzőkönyvben, lásd G1) kötelező, **de ez nem szűkíti a globális G1-et**: learner-facing release csak akkor lehet, ha a teljes **HUM-SAFE-01–05** csomag lezárt.
 
 ## Legkisebb értelmes staging pilot
 

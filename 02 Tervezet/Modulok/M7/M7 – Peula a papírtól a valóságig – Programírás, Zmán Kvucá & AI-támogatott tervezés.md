@@ -323,14 +323,14 @@ A modul végére a madrih…
 }
 -->
 
-* **Kapcsolódás:** **F-peula** – facilitált, strukturált javítási alkalom azoknak, akiknek az M7 kapuja nem teljesült (meghatározása: Program terv, Glosszárium): a kapun kapott visszajelzésre (Megfigyelés → Hatás → Következő lépés) építve a nem teljesült kapuelemek javítását készíti elő, és ehhez rögzíti az **M7.1–M7.4** blokk fogalmait; **kötelező, ha az M7 éles kapuja nem teljesült**. Időpontja a kapueredmény megerősítése után, a javító próbálkozás előtt van; a képző jelöli ki a központi naptár szerint. Aki csak lemaradt a leckékkel, csendes pótlással pótol.
+* **Kapcsolódás:** **F-peula** – facilitált, strukturált javítási alkalom azoknak, akiknek az M7 kapuja nem teljesült (meghatározása: Program terv, Glosszárium): a kapun kapott visszajelzésre (Megfigyelés → Hatás → Következő lépés) építve a nem teljesült kapuelemek javítását készíti elő, és ehhez rögzíti az **M7.1–M7.4** blokk fogalmait; **kötelező, ha az M7 éles kapuja nem teljesült**. Időpontja a kapueredmény megerősítése után, a javító próbálkozás előtt van; a képző jelöli ki a központi naptár szerint: 2027-03-08 (hétfő), 18:00-tól, a Z utáni héten. A javító próbálkozás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele). Aki csak lemaradt a leckékkel, csendes pótlással pótol.
 * **Fő cél:**
   * Segíteni azoknak, akiknek az M7 kapuja nem teljesült, hogy a kapun kapott visszajelzés alapján **előkészítsék a nem teljesült kapuelemek javítását** (a kvíz, a Peula v2 + Zmán Kvucá vagy mindkettő), és ehhez **értsék a fő fogalmakat** (SMART, Peula 11 pont, Zmán Kvucá-checklist, Peula v2 + AI),
   * valódi, védett időt adni a javító próbálkozás előkészítésére és a hiányzó leckék pótlására,
   * egy egyszerű **fogalomtérképet** adni a modulhoz, amelyre a javító próbálkozás épülhet.
 * **Hangnem:** támogató, nem büntető – F-peula, nem pótvizsga.
 * **Rövid váz:**
-  * Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzést és azt, hol tart az M7.1–M7.4 leckékkel, és kiválasztja, melyik nem teljesült kapuelemmel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebben csak minimális, a fejlődéstámogatáshoz szükséges adat lehet, „árnyékdosszié” nélkül). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
+  * Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzést és azt, hol tart az M7.1–M7.4 leckékkel, és kiválasztja, melyik nem teljesült kapuelemmel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebben csak minimális, a fejlődéstámogatáshoz szükséges adat lehet, „árnyékdosszié” nélkül; megőrzése: `Adatvédelem – tanulói adatok és AI.md` §3, „Mentori 1:1 meta-napló” sor). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   * Csendes online munka fülessel: mindenki a saját tempójában újranézi azt az 1–2 leckét, amelyhez a visszajelzésben jelzett hiány kapcsolódik; aki leckét hagyott ki, itt pótolja a javító próbálkozás előtt.
   * Fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2 összekötése közös beszélgetéssel, a név nélkül összegyűjtött kérdésekre és a visszajelzésekben jelzett hiányokra fókuszálva.
   * Zárás – híd a javító próbálkozás felé: 1 mondat arról, mire figyel majd leginkább a javító próbálkozásban (a kvízben, a Peula v2-ben vagy mindkettőben), plusz saját mini javítási terv (melyik visszajelzési pontot veszi elő, melyik leckét nézi újra).
@@ -376,16 +376,16 @@ A modul végére a madrih…
      4. Biztonság & gyermekvédelem – átgondolt biztonsági rész a Zmán Kvucá-checklist alapján.
      5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható hanih-sztorik.
    * **Követelmény:**
-     * **Megfelelt = (összpont ≥70% = ≥17/24) ÉS (R1, R5, R6 mindegyike ≥2 = „Megfelelő”) ÉS (R4 – Gyermekvédelem & biztonság ≥2, blokkoló)** – zárt **ÉS**-logika; a kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**, a blokkoló biztonsági sor (R4) pedig, ha 2 pont alatt marad, a %-tól függetlenül buktat (a pontos szabály: „M7 – KAPU” §B).
+     * **„Teljesítve” = (összpont ≥70% = ≥17/24) ÉS (R1, R5, R6 mindegyike ≥2 = „Megfelelő”) ÉS (R4 – Gyermekvédelem & biztonság ≥2, blokkoló)** – zárt **ÉS**-logika; a kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**, a blokkoló biztonsági sor (R4) pedig, ha 2 pont alatt marad, a %-tól függetlenül buktat (a pontos szabály: „M7 – KAPU” §B).
 2. **Moodle Quiz – „SMART & Zmán Kvucá kvíz (felkészültségi)”** **(kötelező 2. rész a kétrészes teljesítési kapuban – ≥80%; fogalmi belépő, vagyis felkészültségi kapu: a v1 leadása után nyílik, ajánlott még az M7.B előtt teljesíteni, a Peula v2 leadása előtt kötelező; a teljesítése is feltétel, mindkét részt teljesíteni kell)**
    * **14 item**: definíciók, szituációk, checklist-elemek felismerése (M7.1–M7.4 tartalma) **+ gyermekvédelem: az ötlépéses jelzési út és az 1:1 helyzetek szabálya (Q13–Q14, az M3.3, az M3.B és az M7.3 alapján – a blokkoló R4-sor tudásalapja)** (a részletes item-bank: „M7 – KAPU” §A).
-   * **Követelmény:** **≥80% (14 itemből ≥12 jó)** **és a gyermekvédelmi Q13 helyes** (a blokkoló konstruktum külön kötelező), **1 normál + 1 javító próbálkozás** (további próbálkozást a képző nyit; a legjobb megerősített eredmény számít), kérdés- és válasz-randomizálással.
+   * **Követelmény:** **≥80% (14 itemből ≥12 jó)** **és a gyermekvédelmi Q13 helyes** (a blokkoló konstruktum külön kötelező), **1 normál + 1 javító próbálkozás** (a javító a kötelező F-peula után nyílik: a képző nyitja meg felhasználói felülbírálással, vagy az F-peula jelenléti completionje a feltétele; további próbálkozást a képző nyit; a legjobb megerősített eredmény számít), kérdés- és válasz-randomizálással.
 
 * **Javítás / támogatás:**
   * ha valaki nem éri el a küszöböt:
     * rövid, konkrét **fejlesztő visszajelzés** Megfigyelés → Hatás → Következő lépés szerkezetben (legfeljebb három konkrét javaslatban),
-    * **kötelező felzárkóztató peula (F-peula)** mentorral / képzővel (egyéni támogatás; kettesben csak a safer-working szabály szerint: indokolt esetben, átlátható módon, egy másik felelős tudtával – online is) a kapueredmény megerősítése után, a javító próbálkozás előtt; az időpontot a képző jelöli ki a központi naptár szerint,
-    * utána lehetőség javított Peula v2 leadására (egy javító leadás automatikusan jár, továbbit a képző nyit).
+    * **kötelező felzárkóztató peula (F-peula)** mentorral / képzővel (egyéni támogatás; kettesben csak a safer-working szabály szerint: indokolt esetben, átlátható módon, egy másik felelős tudtával – online is) a kapueredmény megerősítése után, a javító próbálkozás előtt; az időpontot a képző jelöli ki a központi naptár szerint: 2027-03-08 (hétfő), 18:00-tól, a Z utáni héten,
+    * utána lehetőség javított Peula v2 leadására (egy javító leadás jár, amely az F-peula után nyílik meg: a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; továbbit a képző nyit).
 
 ***
 
@@ -424,7 +424,7 @@ A modul végére a madrih…
 **Küszöbök / beavatkozási pontok**
 
 * ha a résztvevők **>30%-a nem fejezi be** az M7.2-t vagy M7.3-at → a lemaradóknak **csendes pótlás** (önálló elmaradás-pótlás) ajánlott; az **M7.F F-peula** a nem teljesült kapu utáni, kötelező javítási alkalom, nem általános pótlás.
-* ha a Peula v2 rubrika szerint a csoport kevesebb mint **60%-a** kap „Megfelelt” eredményt (az „M7 – KAPU” §B zárt ÉS-szabálya szerint) → sablon-finomhangolás, plusz támogatás cél- és biztonsági szinten (a kaput nem teljesítőknek a modul utáni **F-peula** ettől függetlenül is kötelező).
+* ha a Peula v2 rubrika szerint a csoport kevesebb mint **60%-a** kap „Teljesítve” eredményt (az „M7 – KAPU” §B zárt ÉS-szabálya szerint) → sablon-finomhangolás, plusz támogatás cél- és biztonsági szinten (a kaput nem teljesítőknek a modul utáni **F-peula** ettől függetlenül is kötelező).
 
 
 

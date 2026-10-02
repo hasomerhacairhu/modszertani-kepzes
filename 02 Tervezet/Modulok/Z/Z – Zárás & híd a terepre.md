@@ -30,7 +30,7 @@
 
 * **Időtartam:** 1 hét (könnyített zárómodul)
 * **Heti offline:** péntek 2. sáv – **Z.A záró peula** (45–75’)
-* **Naptár (V1, központi ütemezés: `LMS – activity manifest.md`):** a Z.A záró peula 2027-03-05 (péntek); a Z completion határideje 2027-03-10 18:00; a megerősítés 2027-03-11.
+* **Naptár (V1, központi ütemezés: `LMS – activity manifest.md`):** a Z.A záró peula 2027-03-05 (péntek); a Z completion határideje 2027-03-10 18:00; a megerősítés 2027-03-11. Akinek az M6 vagy az M7 kapuja javításra megy, annak az online félév teljesítése (és így a programteljesítés) bevárja a javítást: a Z utáni héten futó javítási út megerősítése legkésőbb 2027-03-11 18:00. Mivel a Z az M7 megerősített teljesítése után nyílik, náluk a Z határidejét a képző egyénileg ütemezi (`LMS – activity manifest.md` §7, kiegészítő naptár).
 * **Opcionális kísérő elem:** mentori / kiscsoportos záró beszélgetés (nem peula, 20–30’) azoknak, akiknek szükségük van rá
 * **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (Moodle Assignment reflexiós ív ~20–30’ + véglegesítés/leadás ~15–25’ + visszajelző űrlap ~5–10’ = **Z.4 önmagában kb. 40–65’**, a modul leghosszabb online eleme)
 * **Az ív sorrendje:** a **Z.1–Z.3** mikroleckék **a Z.A peula ELŐTT** ajánlottak (ráhangolódás), a **Z.4** záró reflexió pedig **a Z.A peula UTÁNRA** esik – a peulán megfogalmazott gondolatokból dolgozik. A peula tehát a Z.3 és a Z.4 közé ékelődik.
@@ -180,7 +180,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 ### Eszközök
 
 * **Moodle Assignment – „Záró reflexió + következő lépés”**
-  – Leadás: írás (alapértelmezés) vagy opcionálisan videó.
+  – Leadás: írás (alapértelmezés) vagy opcionálisan videó. A videós úthoz külön, önkéntes hozzájárulás kell: 18 év alatt a résztvevő és a gondviselője együtt adja meg, 18 év felett a résztvevő (`Adatvédelem – tanulói adatok és AI.md` §3 és §6).
   – Értékelés: „Teljesítve / Még nem teljesítve”.
   – Minimum elvárás:
   * legalább 3 konkrét tanulási pillanat, mindegyiknél az, hogy miért fontos,
@@ -202,7 +202,7 @@ A kívánt ív (a Moodle-lista fentről lefelé haladó sorrendje ezt ne írja f
 
 * 6 valódi, 60–90 perces peula, megfigyelés → visszajelzés → reflexió → javítás ciklusban.
 * A hat alkalomból legalább: **2** alkalmat mentor vagy kijelölt tapasztalt madrih **élőben megfigyel**; **2** alkalomnál a résztvevő explicit módon visszahoz egy korábbi visszajelzési pontot és megmutatja, mi változott; **1** alkalom tartalmaz tudatos inkluzivitási adaptációt; **1** alkalom után dokumentált biztonsági és határkezelési reflexió készül akkor is, ha nem történt incidens.
-* A megfigyelési jegyzet rövid és adatminimalizált, hanih érzékeny adata nélkül. Valós gyermekvédelmi eset azonosítható részletei sem a jegyzetbe, sem a reflexióba nem kerülnek: az ügy dokumentációja nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01).
+* A megfigyelési jegyzet rövid és adatminimalizált, hanih érzékeny adata nélkül; megőrzése az `Adatvédelem – tanulói adatok és AI.md` §3 szerint a mentori jegyzet sorát („Mentori 1:1 meta-napló”) követi. Valós gyermekvédelmi eset azonosítható részletei sem a jegyzetbe, sem a reflexióba nem kerülnek: az ügy dokumentációja nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01).
 * A 15–17 éves madrih vezethet peulát, de soha nem ő az egyetlen felelős felnőtt: minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé (HUM-SAFE-03; `Gyermekvédelem – release gate.md` 4. szakasz).
 * A fenti felügyeleti szabály a HUM-SAFE-03 projektgazdai döntése (2026-10-02; utólagos ellenőrzés (vétó/QA): a Memuna és a programvezető): a terepgyakorlat élesben csak ennek betartásával indítható (lásd `Emberi jóváhagyás szükséges.md`, HUM-SAFE-03).
 

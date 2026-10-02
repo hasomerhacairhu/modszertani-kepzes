@@ -13,9 +13,9 @@ a fájl és nem a fordító.
 | **MEGVAN** | a bizonyíték létezik, hivatkozással; a jóváhagyó minősítette |
 | **NEM ALKALMAZHATÓ** | a szabály szövege nem terjed ki erre az osztályra — az indoklással együtt |
 
-> **Személyes adat ebbe a fájlba nem kerül.** Név, e-mail, telefonszám, szülői
-> hozzájáruló nyilatkozat vagy annak másolata **nem** a repositoryban él. Ide csak a
-> *létezés* ténye és egy nem-személyes hivatkozás (ügyszám, dosszié-azonosító) kerülhet.
+> **Személyes adat ebbe a fájlba nem kerül.** Név, e-mail, telefonszám, a résztvevő vagy
+> a gondviselő hozzájáruló nyilatkozata vagy annak másolata **nem** a repositoryban él.
+> Ide csak a *létezés* ténye és egy nem-személyes hivatkozás (ügyszám, dosszié-azonosító) kerülhet.
 >
 > A két forrás-beszélő ezért álnéven szerepel (`VOICE-SRC-01`, `VOICE-SRC-02`): a valódi
 > név, a szerződés vagy hozzájárulás, a hatókör és a dátum a korlátozott hozzáférésű
@@ -308,8 +308,9 @@ alkalmazandó rá, a jogi jóváhagyó dönti el.
 
 **A szabály szövege:** „Valós fotó/screenshot esetén minden azonosítható
 személyt/kézírást anonimizálni vagy kikeretezni kell; felismerhető kiskorúnál
-dokumentált szülői hozzájárulás ELŐRE kötelező. Screenshotnál nincs valós
-felhasználónév/arc és nincs licenc-korlátos 3rd-party elem.”
+a résztvevő és a gondviselő együttes, dokumentált hozzájárulása ELŐRE kötelező
+(projektgazdai döntés, 2026-10-02). Screenshotnál nincs valós felhasználónév/arc
+és nincs licenc-korlátos 3rd-party elem.”
 
 **Jelenlegi hatálya: 2 asset.** Mindkettő valós felvétel; a tananyagban több nincs.
 
@@ -323,8 +324,8 @@ felhasználónév/arc és nincs licenc-korlátos 3rd-party elem.”
 | # | Tétel | Mit kell tenni / igazolni | Állapot |
 |---|---|---|---|
 | R8-1 | `M0.3-FOTO-01` | a képernyőkép **teszt-fiókkal** készüljön: nincs valós felhasználónév, nincs arc, nincs licenc-korlátos harmadik felas elem | **HIÁNYZIK** (a felület sem áll még — R7) |
-| R8-2 | `M0.A-FOTO-01` | a plakátfotó **kézírást** rögzít: előbb a nevek és azonosítók eltávolítása; a fotó jogalapja külön, önkéntes hozzájárulás (`HUM-PRIV-02`, lásd lent) | **HIÁNYZIK** — a szabály eldőlt, a hozzájárulás bizonyítéka még nincs; az R8 státusza: D8 |
-| R8-3 | `M0.A-FOTO-01` | ha felismerhető kiskorú kerülhet a képre: **előzetes, dokumentált szülői hozzájárulás** (a projektgazdai döntés szerint a háttérben nem lehet gyerek) | **HIÁNYZIK** → `HUM-PRIV-02`, D8; a nyilatkozatok NEM ebben a repositoryban élnek |
+| R8-2 | `M0.A-FOTO-01` | a plakátfotó **kézírást** rögzít: előbb a nevek és azonosítók eltávolítása; a fotó jogalapja külön, önkéntes hozzájárulás, amelyet 18 év alatt a résztvevő és a gondviselő együtt ad, 18 év felett a résztvevő (`HUM-PRIV-02`, lásd lent) | **HIÁNYZIK** — a szabály eldőlt, a hozzájárulás bizonyítéka még nincs; az R8 státusza: D8 |
+| R8-3 | `M0.A-FOTO-01` | ha felismerhető kiskorú kerülhet a képre: **előzetes, dokumentált hozzájárulás, amelyet a résztvevő és a gondviselő együtt ad** (a projektgazdai döntés szerint a háttérben nem lehet gyerek) | **HIÁNYZIK** → `HUM-PRIV-02`, D8; a nyilatkozatok NEM ebben a repositoryban élnek |
 | R8-4 | `M0.A-FOTO-01` | megőrzési idő és hozzáférési kör az archívumra (a fotó a Z.A peuláig áll) | **RÉSZBEN MEGVAN** — a megőrzés projektgazdai döntés: a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás; a hozzáférés a legszűkebb szükséges kör (`Adatvédelem – tanulói adatok és AI.md` 3. szakasz). A központi naptár szerint az M0.A (2026-11-06) és a Z.A (2027-03-05) között 119 nap telik el, ezért a fotó a Z.A-ig csak külön archiválási hozzájárulással őrizhető meg — ennek bizonyítéka hiányzik |
 
 > **Projektgazdai döntés (2026-10-02, `HUM-PRIV-02`):** alapértelmezésben nincs fotó,
@@ -335,8 +336,11 @@ felhasználónév/arc és nincs licenc-korlátos 3rd-party elem.”
 > eszközről. **Jogalap és megőrzés** (szintén projektgazdai döntés): fotó, videó és hang
 > csak külön, önkéntes hozzájárulással, a cél teljesüléséig, legfeljebb 90 napig, hacsak
 > nincs külön archiválási hozzájárulás (`Adatvédelem – tanulói adatok és AI.md` 3.
-> szakasz). Az R8-2 és az R8-3 bizonyítéka (a hozzájárulások) ettől még hiányzik; az R8-4
-> szabálya eldőlt. Utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős.
+> szakasz). **A hozzájárulás adója** (projektgazdai döntés, 2026-10-02; utólagos
+> ellenőrzés (vétó/QA): a DPO): 18 év alatt a résztvevő és a gondviselő együtt, 18 év
+> felett a résztvevő (`Adatvédelem – tanulói adatok és AI.md` 4. szakasz); a fenti
+> szabályszöveg ezt már így írja. Az R8-2 és az R8-3 bizonyítéka (a hozzájárulások) ettől még
+> hiányzik; az R8-4 szabálya eldőlt. Utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős.
 
 ### Ahol az R8 NEM alkalmazható — és miért
 

@@ -11,7 +11,7 @@ A repository **nem választ jogalapot, megőrzési időt vagy szülői folyamato
 - **HUM-PRIV-03:** Z.4 visszajelzés anonimitási szintje;
 - **HUM-PRIV-04:** külső generatív AI tanulói használata.
 
-Mind a négy tételben **projektgazdai döntés (2026-10-02)** született, a jogalapról és a megőrzési időről is; a tartalmukat a §3, a §5, a §6, a §7 és a §8 rögzíti. A tételek az `Emberi jóváhagyás szükséges.md`-ben lezártak. A DPO/jogi felelős (a HUM-PRIV-03-nál és a HUM-PRIV-04-nél a programvezető is) későbbi ellenőrzése **utólagos ellenőrzés (vétó/QA)**, nem új döntési kapu. A release-szabály és a §9 átvételi listájának nyitott sorai változatlanul érvényesek.
+Mind a négy tételben **projektgazdai döntés (2026-10-02)** született, a jogalapról és a megőrzési időről is; a tartalmukat a §3, a §4, a §5, a §6, a §7 és a §8 rögzíti. A tételek az `Emberi jóváhagyás szükséges.md`-ben lezártak. A DPO/jogi felelős (a HUM-PRIV-03-nál és a HUM-PRIV-04-nél a programvezető is) későbbi ellenőrzése **utólagos ellenőrzés (vétó/QA)**, nem új döntési kapu. A release-szabály és a §9 átvételi listájának nyitott sorai változatlanul érvényesek.
 
 A tananyag AI-generált médiájának jogi, adatvédelmi és gyermekvédelmi kapuit (a HUM-MEDIA-02 J1, J2, V1 és V3 alkapuját, valamint a HUM-MEDIA-03-at) az `Emberi jóváhagyás szükséges.md` 5. szakasza tartja nyilván. **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a release owner és a jogi/adatvédelmi felelős. A jogi és gyermekvédelmi médiakapuk blokkolják az általuk érintett tanulói asset release-ét. A hangjogosultsági bizonyítékok helye a korlátozott hozzáférésű `VOICE-RIGHTS-REGISTER` nyilvántartás (Google Workspace Shared Drive → `Restricted / Rights / Voice`); valódi név nem kerül a Gitbe (részletek: az `Emberi jóváhagyás szükséges.md` HUM-MEDIA-02 tétele és a `Média-assetek/RIGHTS-EVIDENCE.md`).
 
@@ -62,20 +62,23 @@ Az `LMS – activity manifest.md` minden tényleges activityhez privacy-osztály
 | Moodle-fiók, részvétel, végső completion | jogos érdek, a képzés működtetése | a képzés vége + 24 hónap |
 | Nyers kvízpróbálkozások | jogos érdek, értékelés/diagnosztika | a végső megerősítés + 90 nap |
 | Végső pontszám / kapueredmény | jogos érdek, a teljesítés igazolása | 24 hónap |
-| Szabad szöveges reflexió | jogos érdek, kizárólag ha szükséges | a képzés vége + 90 nap |
+| Szabad szöveges reflexió (a Z.4 beadandó is) | jogos érdek, kizárólag ha szükséges | a képzés vége + 90 nap |
 | Assignment / peulatervek | jogos érdek | a képzés vége + 12 hónap |
+| Név nélkül begyűjtött papír munkalap | név nélkül, papíron begyűjtve | a peula után összesítés, majd 30 napon belül megsemmisítés |
 | Mentori 1:1 meta-napló | jogos érdek, gyermekvédelmi elszámoltathatóság | az utolsó mentorálás + 6 hónap |
+| Mentori fejlesztési jegyzet (akkor is, ha nem Moodle-ben készül; a terepi megfigyelési jegyzet is) | a mentori 1:1 meta-napló sora szerint (jogos érdek); csak a fejlődéstámogatáshoz szükséges minimális adat (§5) | az utolsó mentorálás + 6 hónap |
 | Z visszajelzés nyers válaszai | jogos érdek | 90 nap, utána csak összesítve |
-| Fotó/videó/hang | külön, önkéntes hozzájárulás | a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás |
+| Hanih-visszajelzés, Moodle-on kívül | név nélkül, papíron vagy szervezeti űrlapon | 90 nap |
+| Fotó/videó/hang (a tanuló saját videója is) | külön, önkéntes hozzájárulás: 18 év alatt a résztvevő és a gondviselő együtt adja, 18 év felett a résztvevő (§4) | a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás |
 | Gyermekvédelmi incidens | külön, korlátozott hozzáférésű rendszer | az érintett 25. születésnapjáig vagy a lezárás + 7 évig (amelyik később jár le); jogi visszatartás esetén tovább |
 
-Politikai, vallási, egészségügyi vagy más különleges adat **normál tanulási activityben nem gyűjthető**. Ha feltáráskor mégis megjelenik, kikerül a Moodle-ből, és az incidensfolyamatba kerül (`Gyermekvédelem – release gate.md` §4.1). A mentori 1:1 meta-naplóba csak dátum, résztvevők, időtartam, célkategória és utánkövetés kerül, a beszélgetés tartalma nem (`Gyermekvédelem – release gate.md` §4.2).
+Politikai, vallási, egészségügyi vagy más különleges adat **normál tanulási activityben nem gyűjthető**. Ha feltáráskor mégis megjelenik, kikerül a Moodle-ből, és az incidensfolyamatba kerül (`Gyermekvédelem – release gate.md` §4.1). Programmutatóként a gyermekvédelmi incidensekről csak összesített darabszám szerepelhet, azonosító nélkül. A mentori 1:1 meta-naplóba csak dátum, résztvevők, időtartam, célkategória és utánkövetés kerül, a beszélgetés tartalma nem (`Gyermekvédelem – release gate.md` §4.2).
 
 Külön review szükséges legalább:
 
 - M0 „Bemutatkozó fal”: kurzuson belül más résztvevőknek látható;
 - M1 SBI-beadandó;
-- M2 identitás- és értékreflexiók, identitás-jegyzet, valamint az M2.3 pillér-kérdése (nem lehet fiókhoz kötött szavazás);
+- M2 identitás- és értékreflexiók, identitás-jegyzet, az M2.1 identitás-kör kérdése (a válasz nem kerül tárolásra: önellenőrző, nem rögzített elem – H5P-activityként kikapcsolt „Enable attempt tracking” beállítással, vagy tartalombankból oldalba ágyazva; a completion nem erre a válaszra épül), valamint az M2.3 pillér-kérdése (nem lehet fiókhoz kötött szavazás);
 - M3 gyermekvédelmi helyzetelemzés: a kapuproduktumba **csak kitalált, életszerű eset** kerülhet, valós eset névtelenítve sem, mert kis közösségben könnyen visszaazonosítható; valós gyermekvédelmi eset soha nem pedagógiai feladat;
 - M4 peulabemutató és bármilyen felvételi folyamat;
 - M5/M6 produktumok;
@@ -93,7 +96,9 @@ A GDPR 8. cikke csak akkor alkalmazandó a saját korhatárszabályával, ha **a
 
 Ez **nem** jelenti azt, hogy „minden 18 év alatti Moodle-adatkezeléshez szülői hozzájárulás kell”. A képzés minden adatkezelési céljának jogalapját külön kell meghatározni, és azt is külön kell vizsgálni, hogy a GDPR 8. cikke egyáltalán alkalmazandó-e.
 
-A szülői/gondviselői tájékoztatás vagy engedélyezés helyi folyamata ezért **emberi és jogi döntés (HUM-PRIV-01, HUM-SAFE-03)**, nem a tananyag által kitalálható szabály. A jogalapot adattípusonként a §3 mátrixa rögzíti (projektgazdai döntés, 2026-10-02); a gyermekvédelmi helyzetben alkalmazandó gondviselői szabály a `Gyermekvédelem – release gate.md` §4.3-ban áll.
+A szülői/gondviselői tájékoztatás vagy engedélyezés helyi folyamata ezért **emberi és jogi döntés (HUM-PRIV-01, HUM-PRIV-02, HUM-SAFE-03)**, nem a tananyag által kitalálható szabály. A jogalapot adattípusonként a §3 mátrixa rögzíti (projektgazdai döntés, 2026-10-02); a gyermekvédelmi helyzetben alkalmazandó gondviselői szabály a `Gyermekvédelem – release gate.md` §4.3-ban áll.
+
+**A hozzájárulás adója kiskorúnál (projektgazdai döntés, 2026-10-02; HUM-PRIV-02)** – utólagos ellenőrzés (vétó/QA): a DPO. Ahol a jogalap külön, önkéntes hozzájárulás (fotó, videó, hang, a tanuló saját videója is; §3, §6), ott **18 év alatt a résztvevő és a gondviselő együtt** adja a hozzájárulást, 18 év felett a résztvevő.
 
 ## 5. Mentor- és képzői hozzáférés
 
@@ -103,7 +108,7 @@ A „mentor láthatja, mert hasznos lehet” nem elég indok. Az alábbi alapsza
 - **P2 privacy-osztályú beadandó, szabad szöveg, reflexió:** csak a kijelölt értékelő/mentor, csak ha ténylegesen szükséges, és csak a szükséges ideig (a megőrzési idő: §3).
 - **kurzusfórum:** a résztvevő előre tudja, hogy a csoport látja.
 - **saját önreflexió:** ne legyen mentor-látható, ha nincs rá konkrét pedagógiai szükség.
-- **mentori jegyzet** (akkor is, ha nem Moodle-ben készül): csak minimális, a fejlődéstámogatáshoz szükséges adat; „árnyékdosszié” nincs.
+- **mentori jegyzet** (akkor is, ha nem Moodle-ben készül): csak minimális, a fejlődéstámogatáshoz szükséges adat; „árnyékdosszié” nincs. Megőrzése a §3 mátrixának „Mentori fejlesztési jegyzet” sora szerint; ide tartozik a terepi megfigyelési jegyzet is.
 - **mentori 1:1 meta-napló:** csak dátum, résztvevők, időtartam, célkategória és utánkövetés, a beszélgetés tartalma nem (`Gyermekvédelem – release gate.md` §4.2); megőrzése a §3 mátrixa szerint.
 - **gyermekvédelmi feltárás:** nem normál tanulási rekord, és nem kezeljük egyszerű „tanulói beadandóként”: a `Gyermekvédelem – release gate.md` §4.1 szerinti ötlépéses jelzési út lép életbe, a dokumentáció pedig nem Moodle-be, hanem külön, hozzáférés-korlátozott gyermekvédelmi incidensnyilvántartásba kerül. A nyilvántartás helye: Google Workspace Shared Drive → `Restricted / Safeguarding / Incidents`; hozzáférés csak a Memunának, a helyettesnek és a szervezeti vezetőnek, nem Moodle, nem GitHub (HUM-SAFE-01). Ha a feltárásban különleges adat jelenik meg, az kikerül a Moodle-ből, és az incidensfolyamatba kerül (§3).
 
@@ -123,7 +128,7 @@ Minimum:
 - legyen felvétel nélküli alternatíva, ha a felvétel nem nélkülözhetetlen;
 - a learner-facing instrukció mondja meg, **mit készítünk, ki látja, és mi történik vele utána**, amikor felvétel valóban része a feladatnak.
 
-A jogalap külön, önkéntes hozzájárulás; a megőrzés a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás (§3; **HUM-PRIV-02**). Az esetleges szülői/gondviselői folyamat is a **HUM-PRIV-02**-höz tartozik.
+A jogalap külön, önkéntes hozzájárulás; a megőrzés a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás (§3; **HUM-PRIV-02**). A hozzájárulást 18 év alatt a résztvevő és a gondviselő együtt adja, 18 év felett a résztvevő; ez a tanuló saját videójára is vonatkozik (projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a DPO; §4). A gondviselői hozzájárulás folyamata is a **HUM-PRIV-02**-höz tartozik.
 
 ## 7. Külső generatív AI
 
@@ -133,7 +138,7 @@ A szolgáltatót és a megvalósítást a **HUM-PRIV-04** projektgazdai döntés
 
 - **Megvalósítás (V1):** `Moodle → a Somer szerveroldali végpontja → OpenAI Responses API`. A madrih **nem** regisztrál szolgáltatói fiókot; a promptot a képző vagy a szervezeti backend küldi. `/v1/responses`, `store=false`, nincs Conversations API, nincs tartós fájlfeltöltés; nincs személyes adat, nincs valódi hanih-eset, nincs gyermekvédelmi történet. Ha a szervezet számára elérhető, a **ZDR (zero data retention)** be van kapcsolva. A szolgáltató jelenlegi dokumentációja szerint az API-adatokat alapból nem használja modelltanításra.
 - **AI Act:** a kurzus **alkalmazó (deployer)** szerepben jár el: külső rendszert használ, nem fejleszt és nem hoz forgalomba saját modellt. A kezelők (képzők) AI-jártassági felkészítést kapnak (AI Act 4. cikk).
-- **AI-jártassági blokk:** az M7-ben, az M7.2 elején (ahol az AI először megjelenik), kb. **15 perc**: mi az AI, mire jó és mire nem; hallucináció; adatvédelem; emberi ellenőrzés; a promptba nem írható adatok (a lenti lista). A no-AI út teljes értékű marad; az AI továbbra is opcionális.
+- **AI-jártassági blokk:** az M7-ben, az M7.2 elején, kb. **15 perc** (az AI már az M7.1 mini AI-blokkjában is megjelenik; az elé kerülő háromsoros „Mielőtt használod” doboz erre a blokkra mutat – projektgazdai döntés, 2026-10-02): mi az AI, mire jó és mire nem; hallucináció; adatvédelem; emberi ellenőrzés; a promptba nem írható adatok (a lenti lista). A no-AI út teljes értékű marad; az AI továbbra is opcionális.
 
 Nem alku tárgya:
 - AI használata a madrihnak **opcionális**;

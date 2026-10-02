@@ -450,7 +450,7 @@ Ezek szerzői, értékelési és szerkesztési döntések. A tananyag ezeket alk
 
 | Téma | Projektgazdai döntés | Utólagos ellenőrzés (vétó/QA) |
 |---|---|---|
-| Próbálkozások, melyik eredmény számít | 1 normál + 1 javító próbálkozás automatikusan, további a képző által; a legjobb megerősített eredmény számít, a teljesítés nem romolhat vissza | programvezető + értékelési felelős |
+| Próbálkozások, melyik eredmény számít | 1 normál + 1 javító próbálkozás; éles kapunál a javító próbálkozás a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele, 3. kör), puha kapunál automatikus; további a képző által; a legjobb megerősített eredmény számít, a teljesítés nem romolhat vissza | programvezető + értékelési felelős |
 | Puha és éles kapu | puha kapu: formatív, nem blokkol; éles kapu: a minimumfeltétel és a szükséges emberi megerősítés nélkül nincs következő kapuzott tartalom (`Program terv.md` §5) | programvezető + értékelési felelős |
 | Üres sablon | completion csak tényleges, minimálisan értelmezhető tartalommal; a fájlfeltöltés önmagában nem completion | értékelési felelős |
 | Az M7 kvíz helye | a Peula v2 előtt, felkészültségi kapuként; a v2 az alkalmazás bizonyítéka | programvezető + értékelési felelős |
@@ -459,7 +459,7 @@ Ezek szerzői, értékelési és szerkesztési döntések. A tananyag ezeket alk
 | A Peula v2 kvucája | valós kvucára csak nem azonosító, csoportszintű információval; különben kitalált profil | DPO + programvezető |
 | Esetalapú kapuproduktum | csak kitalált, életszerű eset; valós eset névtelenítve sem | Memuna + DPO |
 | Kritikus követelmények, A/B sarok | a kritikus követelményeket megnevezzük, a kvíz kulcsát nem; az M3 A/B sarka törölve (nincs saját pedagógiai funkciója) | értékelési felelős + Memuna |
-| Program-teljesítés, eredménycímkék | Online félév teljesítve ÉS Terepgyakorlat teljesítve; „Teljesítve” / „Még nem teljesítve” | programvezető + módszertani felelős |
+| Program-teljesítés, eredménycímkék | Online félév teljesítve ÉS Terepgyakorlat teljesítve; „Teljesítve” / „Még nem teljesítve” – minden kapukimenet ugyanezt a címkepárt használja (3. kör) | programvezető + módszertani felelős |
 | Időkeretek | bottom-up sávok (lásd HUM-OPS-01) | programvezető |
 | Az M2 sorrendje | a manifest a sorrendforrás; az M2.F szövege igazodik | modulgazda |
 | Csendes pótlás és F-peula | két külön fogalom; a „felzárkóztató műhely” nem kanonikus név | programvezető |
@@ -469,3 +469,22 @@ Ezek szerzői, értékelési és szerkesztési döntések. A tananyag ezeket alk
 | Segélyvonalak | 116-111, 116-000 és 112 leírása a `Gyermekvédelem – release gate.md` §3.3 szerint | Memuna |
 | dugma isit, HÉTKÖZNAPOK | egy forma a Glosszárium szerint (az írásmódot a HUM-SOMER-02 projektgazdai döntése rögzíti); az M5 harmadik kategóriájának címkéje HÉTKÖZNAPOK | tananyagfelelős |
 | Új kvíztételek | M3: a helyes választ eláruló „jóváhagyott” szó nélkül, valódi tévképzetre épülő disztraktorokkal; M5: transzfer- és szcenárió-tételek; az M0 belépőkvíz hét tétele (köztük a biztonsági tételek) a projektgazda szövegével megírva | értékelési felelős; az M3-nál a Memuna is |
+
+## 9. Projektgazdai döntések – harmadik kör (2026-10-02)
+
+A „Második jóváhagyói kör” oldal 12 maradék kérdésére a projektgazda mind a 12 esetben ezt válaszolta: „Ajánlás szerint.” A döntés tartalma tehát a közzétett ajánlás (szó szerint: `01 Fejlesztés/04 Audit/2026-10-02 Projektgazdai döntések.md`, 3. válasz). A tételek a kapcsolódó HUM-tételek részei, ezért azok lezárt állapota nem változik; a jobb oldali szerep utólagos ellenőrzése vétó / minőségellenőrzés (QA).
+
+| Kérdés | Projektgazdai döntés (2026-10-02) | Kapcsolódó tétel | Utólagos ellenőrzés (vétó/QA) |
+|---|---|---|---|
+| A Memuna átnézése élesítés előtt | élesítés előtti QA-lépés marad a gyermekvédelmi tartalmakra (M3.3, M3.B, M3-kapu, az M7 gyermekvédelmi részei): egyszeri, írásos „átnéztem” a release-jegyzőkönyvben; ez a kész anyag ellenőrzése, nem a policy újradöntése | HUM-SAFE-01; RELEASE-READINESS G1 | a Memuna |
+| Kötelező F-peula és a javító próbálkozás | éles kapunál (M1, M3, M5, M6, M7) a javító próbálkozás az F-peula után nyílik: a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; puha kapunál és a Z-nél automatikus marad | HUM-OPS-01 | programvezető + értékelési felelős |
+| Hiányzó naptári pontok | kurzus-hozzáférés 2026-11-02; F-peula a megerősítés utáni hétfőn 18:00-tól, javító határidő a rákövetkező szerda 18:00; az M3 helyzetleírás határideje 2027-01-04 18:00; az M6/M7 javítás a Z utáni hétre csúszhat, a programteljesítés bevárja (activity manifest §7) | HUM-OPS-01 | programvezető |
+| Kiskorú fotó/videó/hang hozzájárulása | 18 év alatt a résztvevő és a gondviselő együtt adja | HUM-PRIV-02 | DPO |
+| Három megőrzési sor | mentori fejlesztési jegyzet = a mentori 1:1 meta-napló sora (utolsó mentorálás + 6 hónap); név nélküli papír munkalap: összesítés, majd 30 napon belül megsemmisítés; a Z.4 beadandó = szabad szöveges reflexió (képzés vége + 90 nap) | HUM-PRIV-01 | DPO |
+| Moodle-on kívüli adatfolyamok | hanih-visszajelzés név nélkül, papíron vagy szervezeti űrlapon, 90 nap; terepi megfigyelési jegyzet = a mentori jegyzet sora; incidens programmutatóként csak összesített darabszám, azonosító nélkül | HUM-PRIV-01 | DPO |
+| Az M2.1 identitás-kör kérdése | a válasz nem kerül tárolásra: önellenőrző, nem rögzített elem (H5P-próbálkozás rögzítése kikapcsolva) | HUM-PRIV-01 | DPO |
+| Az AI az M7.1-ben | az M7.1 mini AI-blokkja elé háromsoros „Mielőtt használod” doboz, mutatóval az M7.2 AI-jártassági blokkjára | HUM-PRIV-04 | DPO/jogi felelős + programvezető |
+| Kipróbálási vállalás kitalált kvucánál | kitalált profilnál a vállalás a terepgyakorlat első alkalmára szól | – | modulgazda |
+| Kapueredmény-címkék | egy címkepár mindenhol: „Teljesítve” / „Még nem teljesítve” | – | értékelési felelős |
+| Terepgyakorlati rubrika | mind a hat alkalom számít; a KPI programmutató; egyéni feltétel a biztonságkritikus sorok ≥ 1-e; biztonságkritikus: a „biztonság és határtartás” sor; a soronkénti szintleírásokat a módszertani felelős írja meg | HUM-GOV-01 | módszertani felelős |
+| Az M3.A 4.3 blokk | a közös átbeszélés 3–4 helyett 3 kártyával fut | – | modulgazda |

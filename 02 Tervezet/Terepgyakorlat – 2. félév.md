@@ -39,7 +39,7 @@ A hat alkalomból legalább:
 
 ## Terepgyakorlati rubrika
 
-0–2 skálán: cél és alignment; instrukció/keretezés; kvuca-reakciók megfigyelése; facilitálás és kérdezés; idő/tér adaptáció; inkluzivitás; biztonság és határtartás; visszajelzés felhasználása; reflektív javítás.
+0–2 skálán: cél és alignment; instrukció/keretezés; kvuca-reakciók megfigyelése; facilitálás és kérdezés; idő/tér adaptáció; inkluzivitás; biztonság és határtartás (biztonságkritikus sor); visszajelzés felhasználása; reflektív javítás.
 
 **Nem pontozzuk** a hanihok „engedelmességét”, a hangulatot önmagában vagy azt, hogy minden terv szerint történt-e. A kompetencia része az adaptáció.
 
@@ -48,16 +48,19 @@ A hat alkalomból legalább:
 > - **Szintek:** 0 = **Még nem**, 1 = **Rendben** (a minimum teljesül), 2 = **Erős**.
 > - **Pontozó:** a **kijelölt mentor**; a minták egy részét **második értékelő** kalibrálja.
 > - **Kalibráció:** második értékelő is pontozza a minták **20%-át, de kohorszonként legalább 3 terepi értékelést**, valamint **minden biztonságkritikus bukó vagy határesetet (100%)**. Ha a második és az első értékelő között bármely soron **1 pontnál nagyobb** az eltérés, vagy a minősítés eltér, az adott kohorsz mintája **40%-ra emelkedik**, újrakalibrálással.
-> - **KPI:** **rubrikaátlag ≥ 1,6**, és **minden biztonságkritikus soron legalább 1** (ilyen a „biztonság és határtartás” sor); a biztonsági sorok egymást nem kompenzálják.
+> - **Mely alkalmak számítanak:** a rubrikaátlagba **mind a hat** terepi alkalom beszámít.
+> - **KPI (programmutató, nem egyéni feltétel):** **rubrikaátlag ≥ 1,6**.
+> - **Egyéni teljesítési feltétel a rubrikából:** csak az, hogy a **biztonságkritikus soron legalább 1** legyen. Biztonságkritikus sor: a **„biztonság és határtartás”**; ezt a sort a többi sor pontja nem kompenzálja.
+> - **Soronkénti szintleírások – nyitott feladat:** a rubrikasorok 0/1/2 szintleírását a **módszertani felelős** írja meg.
 >
 > Az intake **„rubrikaátlag ≥ 4/5”** célját a riportban **normalizált százalékként** kezeljük: `normalizált eredmény = (rubrikaátlag / 2) × 100`. Mivel **4/5 = 80%**, a terepgyakorlati KPI átlagfeltétele **≥80%**, ami ezen a skálán **rubrikaátlag ≥1,6/2**. Ez kizárólag skála-megfeleltetés: nem változtatja meg a rubrikasorok 0/1/2 jelentését, és nem állítja, hogy az M1–M7 modulrubrikák mind azonos skálájúak.
 
 ## Programeredmény
 
 - **Online félév teljesítve:** M0–M7 + Z és a kapuk teljesültek (a puha és az éles kapu definíciója: `Program terv.md` §5).
-- **Terepgyakorlat teljesítve:** 6 peula + kötelező megfigyelések + visszajelzés és átdolgozás bizonyítéka.
+- **Terepgyakorlat teljesítve:** 6 peula + kötelező megfigyelések + visszajelzés és átdolgozás bizonyítéka; a rubrikából egyéni feltétel csak a biztonságkritikus sor („biztonság és határtartás”) legalább 1 pontja (a rubrikaátlag programmutató).
 - **Program teljesítve = Online félév teljesítve ÉS Terepgyakorlat teljesítve.**
 
 Az eredménycímke egységesen **„Teljesítve”** / **„Még nem teljesítve”**.
 
-A terepgyakorlat pontos naptára és a mentor-hozzárendelés élesítés előtt a központi ütemezésben (`LMS – activity manifest.md` §7) rögzítendő: a HUM-OPS-01 projektgazdai döntése (2026-10-02) az online félév naptárát adja (indulás 2026-11-06, zárás 2027-03-05), a terepi alkalmak dátumát nem. A mentori kapacitás kemény plafonja 1:8: egy mentor legfeljebb 8 aktív madrihot visz (HUM-OPS-02). Az adatmegőrzés az activity-szintű adatkezelési mátrix jogalap- és megőrzési szabályai szerint történik (`Adatvédelem – tanulói adatok és AI.md` §3; HUM-PRIV-01); a terepi adatfolyamokat (megfigyelési és mentori jegyzet, biztonsági és határkezelési reflexió, rubrikapontszám) ott kell besorolni.
+A terepgyakorlat pontos naptára és a mentor-hozzárendelés élesítés előtt a központi ütemezésben (`LMS – activity manifest.md` §7) rögzítendő: a HUM-OPS-01 projektgazdai döntése (2026-10-02) az online félév naptárát adja (indulás 2026-11-06, zárás 2027-03-05), a terepi alkalmak dátumát nem. Az online félév teljesítése bevárja az M6/M7 javítási útját, ezért a teljesítést legkésőbb 2027-03-11 18:00-ig erősítik meg (projektgazdai döntés, 2026-10-02). A mentori kapacitás kemény plafonja 1:8: egy mentor legfeljebb 8 aktív madrihot visz (HUM-OPS-02). Az adatmegőrzés az activity-szintű adatkezelési mátrix jogalap- és megőrzési szabályai szerint történik (`Adatvédelem – tanulói adatok és AI.md` §3; HUM-PRIV-01). A terepi adatfolyamok közül a megfigyelési és a mentori jegyzet a mátrix „Mentori fejlesztési jegyzet” sorába tartozik, a hanihoktól gyűjtött visszajelzés név nélkül, a „Hanih-visszajelzés” sor szerint kezelendő, a gyermekvédelmi incidens pedig programmutatóként csak összesített darabszámként, azonosító nélkül jelenhet meg (projektgazdai döntés, 2026-10-02). A biztonsági és határkezelési reflexiót és a rubrikapontszámot ugyanott kell besorolni.

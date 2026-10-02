@@ -160,7 +160,7 @@ munkafüzet *Produkciós konvenciók* lapján olvasható.
 | **R3** — Narrátor hang-bible | a konkrét ElevenLabs voice-ID, modell-azonosító, reprodukciós beállítások és kiejtési szótár | minden narráció, hang és videó |
 | **R5** — Ikon- és karakter-batch + lock | **nincs — a D1 2026-10-02-án lezárult** (projektgazdai döntés: a hivatalos someres hex-paletta és a B változat, [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D1); az asset-szintű R5-blokkolók kivezetése a manifesztben külön lépés | a kivezetésig: minden tervezett vizuál és nyomtatott anyag, valamint az AI karakter-jelenetek |
 | **R7** — Produkciós függőségek | a véglegesített Moodle-felület | a kurzusfelületet ábrázoló képernyőkép |
-| **R8** — GDPR / képmás-védelem | valós fotón/képernyőképen minden azonosítható személy és kézírás anonimizálása vagy kikeretezése; **felismerhető kiskorúnál előre dokumentált szülői hozzájárulás**; képernyőképen nincs valós felhasználónév, arc vagy licenc-korlátos harmadik felas elem | a tananyag **két** valós felvétele: a Moodle-képernyőkép és a kvuca-plakátok archív fotói |
+| **R8** — GDPR / képmás-védelem | valós fotón/képernyőképen minden azonosítható személy és kézírás anonimizálása vagy kikeretezése; **felismerhető kiskorúnál előre dokumentált hozzájárulás, a résztvevő és a gondviselő együtt**; képernyőképen nincs valós felhasználónév, arc vagy licenc-korlátos harmadik felas elem | a tananyag **két** valós felvétele: a Moodle-képernyőkép és a kvuca-plakátok archív fotói |
 
 Az R8 hatálya a szabály saját szövegét követi („valós fotó/screenshot esetén”):
 AI-generált képre és beszerzendő fizikai eszközre nem terjed ki — az indoklás

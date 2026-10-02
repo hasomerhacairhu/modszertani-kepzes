@@ -167,14 +167,14 @@ A modul végére a madrih…
 
 * **Kapcsolódó online leckék:** M6.1–M6.4
 * **Kinek szól:** annak, akinek az M6 kapuja – a játéklap – nem teljesült; mivel a kapu éles, számára a peula **kötelező**. A felzárkóztató peula (F-peula) facilitált, strukturált javítási alkalom, nem általános pótlás. Aki csak lemaradt egy leckével vagy peulával, csendes pótlással pótol; erre a peula csendes pótlási blokkja (5–25’) is helyet ad.
-* **Időpont:** a kapueredmény megerősítése után, a javító leadás előtt; a képző jelöli ki a központi naptár szerint.
+* **Időpont:** a kapueredmény megerősítése után, a javító leadás előtt; a képző jelöli ki a központi naptár szerint: 2027-02-22 (hétfő), 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hétre, 2027-03-08-ra (hétfő) teheti. A javító leadás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele).
 * **Fő célok tanulói nyelven:**
   1. **Tisztábban látja, hol tart** a játéklapjával: a kapun kapott visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján tudja, melyik rubrikasort kell javítania – különösen a Biztonság (R4) és az Inkluzivitás (R5) sort –, és mi hiányzik még az M6.1–M6.4 leckékből.
   2. **Érdemben javít** a játéklapján, legalább a visszajelzésben jelzett sorokon (ha kell, egy leckerész pótlásával vagy újranézésével), és így felkészül a javító leadásra.
   3. Leckénként le tud írni vagy el tud mondani **1 gondolatot és 1 kérdést**.
   4. Lát egy egyszerű **fogalom-térképet** az M6 modulról (játék – történet – kézműves – inkluzivitás – biztonság – játéklap), és el tudja helyezni rajta, amit a visszajelzés hiányként jelzett.
 * **Rövid percbontás-vázlat:**
-  1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a játéklapjára kapott visszajelzést és azt, hol tart az M6.1–M6.4 leckékkel, majd kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
+  1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a játéklapjára kapott visszajelzést és azt, hol tart az M6.1–M6.4 leckékkel, majd kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül; megőrzése: `Adatvédelem – tanulói adatok és AI.md` §3, „Mentori 1:1 meta-napló” sor). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   2. 5–25’ – Csendes pótlás fülessel: a játéklap javítása a visszajelzés alapján, hiányzó Moodle / H5P leckék, Branching Scenario, „1 gondolat, 1 kérdés” jegyzeteléssel.
   3. 25–40’ – Kérdések + fogalom-térkép: közös tisztázás a kulcsfogalmakról, elsősorban a visszajelzésekben jelzett hiányok mentén.
   4. 40–45’ – Híd a javító leadáshoz: mondatbefejezés – „Legközelebb, amikor játékot / történetet / kézművest választok, figyelni szeretnék arra, hogy…”.
@@ -222,7 +222,7 @@ A modul végére a madrih…
 Az M6 akkor **teljesített**, ha mindhárom teljesül:
 
 1. **Az M6.1–M6.4 mikroleckék teljesítése (Moodle: activity completion)** – **érdemi kitöltéssel, nem végiglapozással** (kiemelten az **M6.4 Branching Scenarióban legalább 3 különböző ág igazolt teljesítése**, nem félbehagyva; a 4. ág opcionális).
-2. **Leadott játéklap, amely eléri a KAPU-rubrika küszöbét:** minden sor ≥ „Oké” (2), és **mindkét blokkoló feltétel (R4 Biztonság, R5 Inkluzivitás) teljesül**. Üres vagy csak általános kijelentést tartalmazó biztonsági vagy inkluzivitási rovat = a sor 1 → **nem teljesített**.
+2. **Leadott játéklap, amely eléri a KAPU-rubrika küszöbét:** minden sor ≥ „Oké” (2), és **mindkét blokkoló feltétel (R4 Biztonság, R5 Inkluzivitás) teljesül**. Üres vagy csak általános kijelentést tartalmazó biztonsági vagy inkluzivitási rovat = a sor 1 → a kapueredmény **„Még nem teljesítve”**.
 3. A **szcenárió-kvíz (6.1) formatív** – ajánlott (≥80% önellenőrző cél), **nem feltétel**.
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** a kész **játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) lesz az egyik kész **élmény- / módszer-építőköve** az M7 záró produktumának. Az M7 Peula v2-ben ez emelhető be az **élmény-blokkba (rubrika R3)**; a játéklap **eszközspecifikus biztonsági megjegyzései** (pl. „stop” jelszó, beleegyezés, „nem valós szerepet játszunk le”) a Peula v2 **R4 (Gyermekvédelem & biztonság)** sorának konkrét építőkövei – az M3 általános red-flag-kerete mellé –, az **inkluzivitási variációk** pedig az **R5 (Inkluzivitás)** sorát töltik meg. Mindkettő tovább él a Zmán Kvucá-checklist **hozzáférhetőség & inkluzivitás** és **gyermekvédelem & határok** sorában is.

@@ -206,7 +206,7 @@ A modul végére a résztvevő…
 * **Cím (kvucának):** Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)
 * **Kapcsolódó online leckék:** M1.1 – Johari-ablak – vakfoltjaim felismerése; M1.2 – Megfigyelés ≠ értelmezés; M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést?; M1.4 – Miniszituációk: „Mondd el SBI-ben”.
 * **Kinek szól:** annak, akinek az M1 éles kapuja (az M1.4 SBI-beadandó) nem teljesült – neki az F-peula **kötelező**: facilitált, strukturált javítási alkalom, nem általános pótlás. Aki csak egy leckéről vagy peuláról maradt le, csendes pótlással, önállóan pótol; erre az M1.F „Csendes pótlás” blokkja is helyet ad.
-* **Időpont:** a kapueredmény megerősítése után, a javító próbálkozás előtt; a képző jelöli ki a központi naptár szerint.
+* **Időpont:** a kapueredmény megerősítése után, a javító próbálkozás előtt; a képző jelöli ki a központi naptár szerint (2026-11-30, hétfő 18:00-tól).
 
 **Cél:**
 
@@ -217,7 +217,7 @@ A modul végére a résztvevő…
 
 **Rövid percbontás-vázlat:**
 
-1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzését és azt, hol tart az M1.1–M1.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg – ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül, „árnyékdosszié” nem készül. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
+1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzését és azt, hol tart az M1.1–M1.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg – ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül, „árnyékdosszié” nem készül. Megőrzésére az `Adatvédelem – tanulói adatok és AI.md` §3 mátrixának a mentori 1:1 meta-naplóra vonatkozó sora érvényes. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
 2. 5–25’ – Csendes pótlás és javítás fülessel (H5P-k, videók, a javított SBI vázlata); jegyzetlap: „leckénként 1 gondolat, 1 kérdés”.
 3. 25–40’ – Közös fogalom-térkép: Johari – megfigyelés vs. címke – SBI; kérdések–válaszok, a kapun kapott visszajelzésekben jelzett hiányokra fókuszálva.
 4. 40–45’ – Zárókör + híd a javító próbálkozás felé: ki mit fog még pótolni, és mire figyel a javított SBI-ben; megerősítés, hogy a felzárkózás **felelősségvállalás, nem ciki**.
@@ -254,8 +254,8 @@ A kapu **hivatalos, 4 soros rubrikáját** az [M1 – KAPU – értékelő (item
 
 ### Javítási logika
 
-* Ha nem éri el a minimumot, rövid, **konkrét fejlesztő visszajelzést** kap a beadott szövegre (Megfigyelés → Hatás → Következő lépés), és újrapróbálhatja (elsajátításig tartó tanulás): **1 normál + 1 javító próbálkozás** jár automatikusan, további próbálkozást a képző nyithat, kézzel. A teljesítéshez a legjobb megerősített eredmény számít.
-* Ha az éles kapu nem teljesült, a [Program terv](../../Program%20terv.md) §5 szerint az **M1.F felzárkóztató peula (F-peula)** kötelező: facilitált, strukturált javítási alkalom (egyéni vagy kiscsoportos támogatás) a kapueredmény megerősítése után, a javító próbálkozás előtt; időpontját a képző jelöli ki a központi naptár szerint. Kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4.2 safer-working szabálya érvényes: 1:1 csak indokolt esetben, átlátható módon és egy másik felelős tudtával (HUM-SAFE-02).
+* Ha nem éri el a minimumot, rövid, **konkrét fejlesztő visszajelzést** kap a beadott szövegre (Megfigyelés → Hatás → Következő lépés), és újrapróbálhatja (elsajátításig tartó tanulás): **1 normál + 1 javító próbálkozás**; éles kapunál a javító próbálkozás a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele); további próbálkozást a képző nyithat, kézzel. A teljesítéshez a legjobb megerősített eredmény számít.
+* Ha az éles kapu nem teljesült, a [Program terv](../../Program%20terv.md) §5 szerint az **M1.F felzárkóztató peula (F-peula)** kötelező: facilitált, strukturált javítási alkalom (egyéni vagy kiscsoportos támogatás) a kapueredmény megerősítése után, a javító próbálkozás előtt; időpontját a képző jelöli ki a központi naptár szerint (2026-11-30, hétfő 18:00-tól). Kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4.2 safer-working szabálya érvényes: 1:1 csak indokolt esetben, átlátható módon és egy másik felelős tudtával (HUM-SAFE-02).
 * Ha eléri a minimumot, akkor is kap visszajelzést: érdemes kiemelni, pontosan mi és miért volt jó megoldás, hogy ez meg is erősödjön benne.
 
 ***

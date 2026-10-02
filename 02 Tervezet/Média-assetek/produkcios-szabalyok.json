@@ -40,7 +40,7 @@
     {
       "id": "R8",
       "title": "GDPR / képmás-védelem",
-      "text": "Valós fotó/screenshot esetén minden azonosítható személyt/kézírást anonimizálni vagy kikeretezni kell; felismerhető kiskorúnál dokumentált szülői hozzájárulás ELŐRE kötelező. Screenshotnál nincs valós felhasználónév/arc és nincs licenc-korlátos 3rd-party elem. (Megerősíti az M6.3 illusztráció-döntést.)"
+      "text": "Valós fotó/screenshot esetén minden azonosítható személyt/kézírást anonimizálni vagy kikeretezni kell; felismerhető kiskorúnál a résztvevő és a gondviselő együttes, dokumentált hozzájárulása ELŐRE kötelező (projektgazdai döntés, 2026-10-02). Screenshotnál nincs valós felhasználónév/arc és nincs licenc-korlátos 3rd-party elem. (Megerősíti az M6.3 illusztráció-döntést.)"
     }
   ]
 }

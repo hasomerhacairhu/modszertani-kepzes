@@ -1,6 +1,6 @@
 # 2026-10-02 – Projektgazdai döntések
 
-> **Audit trail, nem tanulói tartalom.** Ez a fájl a projektgazda 2026-10-02-i két döntési válaszát rögzíti
+> **Audit trail, nem tanulói tartalom.** Ez a fájl a projektgazda 2026-10-02-i három döntési válaszát rögzíti
 > szó szerint, ahogy beérkeztek. Ez a `02 Tervezet/Emberi jóváhagyás szükséges.md` lezárt HUM-tételeinek
 > bizonyítéka. A kánon a `02 Tervezet/` dokumentumaiban él; ha egy itteni mondat eltér tőlük, a kánon érvényes,
 > és az eltérés finding.
@@ -10,6 +10,9 @@
 > - **2. válasz:** a „Második jóváhagyói kör” 21 maradék kérdésére. Ugyanez a válasz a javasolt döntéseket
 >   **elfogadott projektgazdai döntéssé** teszi; a Memuna, a DPO, a programvezető stb. későbbi ellenőrzése
 >   vétó / minőségellenőrzés, nem új döntési kapu.
+>
+> - **3. válasz:** a „Második jóváhagyói kör” oldal 2. verziójának 12 még nyitott kérdésére: mind a 12 esetben
+>   „Ajánlás szerint”. A döntés tartalma ezért az oldalon közzétett ajánlás; mindkettőt szó szerint rögzítjük lent.
 
 ---
 
@@ -268,3 +271,26 @@ Minden hibás válaszra egy mondatos feedback: **miért nem jó + hol találja a
 ---
 
 **Ezzel a második fülnek 0 tételesnek kell lennie.** A fájlban szereplő 21 „adat vagy felhatalmazás kell” elem közül egyik sem marad tartalmi döntésként nyitva. A következő repo-állapotban a `Javasolt döntés` címkéket `Projektgazdai döntés` címkére kell cserélni, a formális review pedig csak ellenőrzési bizonyíték, nem új döntési gate.
+
+---
+
+## 3. válasz (2026-10-02, este)
+
+A projektgazda válasza szó szerint (a kérdések sorrendjében, mind a 12 tételre ugyanez):
+
+> **„Ajánlás szerint.”**
+
+Az ajánlások, amelyekre a válasz vonatkozik — szó szerint, ahogy a „Második jóváhagyói kör” oldal 2. verzióján álltak:
+
+1. **A Memuna átnézése élesítés előtt: QA-kapu vagy utólagos vétó?** — Ajánlás: Maradjon élesítés előtti QA-lépés a gyermekvédelmi tartalmakra: egyszeri, írásos „átnéztem” a release-jegyzőkönyvben. Ez nem a policy újradöntése, hanem a kész anyag ellenőrzése.
+2. **Kötelező F-peula és az automatikus javító próbálkozás** — Ajánlás: Éles kapunál a javító próbálkozás az F-peula után nyíljon: a képző nyitja meg, vagy az F-peula jelenléti pipája a feltétele.
+3. **Hiányzó naptári pontok** — Ajánlás: Egy rövid kiegészítő tábla a manifest §7-be: hozzáférés 2026-11-02; F-peula a megerősítés utáni hétfő este; javító határidő a rákövetkező szerda 18:00; az M3 helyzetleírás határideje hétfő 18:00; az M6/M7 javítás a Z utáni hétre csúszhat, a programteljesítés bevárja.
+4. **Kiskorú fotó/videó/hang hozzájárulása: ki adja?** — Ajánlás: 18 év alatt a résztvevő és a gondviselő együtt (a konzervatív út); a DPO vétózhat.
+5. **Három megőrzési sor hozzárendelése** — Ajánlás: (1) = a mentori 1:1 meta-napló sora (utolsó mentorálás + 6 hónap); (2) a peula után összesítés, majd 30 napon belül megsemmisítés; (3) a Z.4 = szabad szöveges reflexió (+90 nap).
+6. **Moodle-on kívüli adatfolyamok** — Ajánlás: Hanih-visszajelzés név nélkül, papíron vagy szervezeti űrlapon, 90 nap; terepi megfigyelési jegyzet = a mentori jegyzet sora; incidens programmutatóként csak összesített darabszám, azonosító nélkül.
+7. **Az M2.1 identitás-kör kérdése** — Ajánlás: A válasz ne kerüljön tárolásra: önellenőrző, nem rögzített elem legyen (vagy szabad, nem beadott reflexió).
+8. **Az AI már az M7.1-ben megjelenik** — Ajánlás: Az M7.1 mini AI-blokkja elé egy háromsoros „mielőtt használod” doboz kerüljön (mit nem írhatsz a promptba), mutatóval az M7.2 blokkjára.
+9. **Kipróbálási vállalás kitalált kvucánál** — Ajánlás: Kitalált profilnál a vállalás a terepgyakorlat első alkalmára szól.
+10. **Kapueredmény-címkék** — Ajánlás: Egy címkepár mindenhol: „Teljesítve” / „Még nem teljesítve”.
+11. **Terepgyakorlati rubrika: a nyitott részek** — Ajánlás: Mind a hat alkalom számít; a KPI programmutató, egyéni feltétel csak a biztonságkritikus sorok ≥ 1-e; biztonságkritikus: a „biztonság és határtartás” sor. A szintleírásokat a módszertani felelős írja meg.
+12. **Az M3.A 4.3 blokk időkerete** — Ajánlás: A közös átbeszélés 3–4 helyett 3 kártyával fusson.
