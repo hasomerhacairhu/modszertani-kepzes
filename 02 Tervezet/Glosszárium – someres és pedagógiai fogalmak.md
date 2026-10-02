@@ -94,7 +94,7 @@ Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései.
 | **Leviatan** | cet/leviatán | **13–17** | 🐋 | tinédzser / idősebb chanichok |
 
 - **Figyelem:** `Leviatan` ékezet nélkül (NEM „Leviatán”).
-- **Forrás és státusz:** a korosztály-besorolás a kapcsolt **„Oktatási terv 25/26 Hasomer Hacair”** dokumentum alapján **lezárt a 2025/26-os programhoz**. A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
+- **Forrás és státusz:** a korosztály-besorolás az **„Oktatási terv 25/26 Hasomer Hacair”** dokumentumra hivatkozik; a tananyag ezt alkalmazza, a jóváhagyás és a forrás bizonyítéka nyitott (**HUM-SOMER-02**). A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
 
 ---
 

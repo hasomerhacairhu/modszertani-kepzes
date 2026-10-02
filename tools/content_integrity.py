@@ -35,7 +35,8 @@ MODULE_ROOT = ACTIVE_ROOT / 'Modulok'
 MEDIA_ROOT = ACTIVE_ROOT / 'Média-assetek'
 AUDIT_ROOT = ROOT / '01 Fejlesztés' / '04 Audit'
 
-# Files whose duplicates were deleted during the 2026-08 canonicalisation. If one
+# Files whose duplicates were deleted during the 2026-08 canonicalisation, and the
+# old names of the files renamed by the 2026-09 consolidation (PR #8). If one
 # reappears, two "canonical" versions of the same lesson exist again.
 LEGACY_PATHS = [
     '02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-től a használható visszajelzésig (45’).md',
@@ -44,6 +45,20 @@ LEGACY_PATHS = [
     '02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyerekvédelem (Study Lab).md',
     '02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Miniszínház & lépés-térkép.md',
     '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v2 + AI – modulproduktum váz.md',
+    '02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a gate.md',
+    '02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, feedback – Önismeret & visszajelzés – Johari + SBI.md',
+    '02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md',
+    '02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peula-pitch – vázlat egy konkrét kvucára.md',
+    '02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & pitch gyakorlása.md',
+    '02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & pitch (Study Lab).md',
+    '02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, visszahívás, spacing.md',
+    '02 Tervezet/Modulok/M6/M6 – Toolbox – játék, történet, kézműves & inkluzivitás.md',
+    '02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 4 kvucára.md',
+    '02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 4 kvucára (45’).md',
+    '02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap workshop – saját eszköz tervezése (45’).md',
+    '02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Toolbox & játéklap (Study Lab).md',
+    '02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 timeline.md',
+    '02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md',
 ]
 
 REQUIRED_FILES = [
@@ -105,13 +120,13 @@ FILE_FORBIDDEN_PHRASES = {
         'észreveszem → jelzek → nem maradok egyedül → kit vonok be':
             'az M3 learner-facing safeguarding folyamat egységesen az M3.B ötlépéses térképe',
         '4 someres kvuca':
-            'a 2025/26-os Hasomer Hacair Magyarország oktatási terv három aktuális kvucát rögzít',
+            'a tananyag a háromcsoportos korosztálymodellt használja (HUM-SOMER-02: javasolt, jóváhagyásra vár)',
         '4 kvuca-profil':
             'az M3 aktuális korosztálymodellje Parparim 6–9, Kivsza 10–12, Leviatan 13–17',
     },
     '02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md': {
         '6–10 / 11–13 / 14–16 / 16+':
-            'az M6 korosztály-illesztése a 2025/26-os három aktuális Somer-csoportot használja',
+            'az M6 korosztály-illesztése a három aktuális kvucát használja (HUM-SOMER-02)',
         'Játék-kategóriák 4 kvucára':
             'az M6.1 címe és tartalma a három aktuális kvucát használja',
         'Játék-labor 4 kvucára':
@@ -133,11 +148,11 @@ FILE_FORBIDDEN_PHRASES = {
     },
     '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md': {
         'Parparim / Kivsza / Leviatan / Zorea':
-            'az M7 kvuca-választója a 2025/26-os három aktuális csoportot használja',
+            'az M7 kvuca-választója a három aktuális kvucát használja (HUM-SOMER-02)',
     },
     '02 Tervezet/Média-assetek/produkcios-szabalyok.json': {
         '4-kvuca piktogramok':
-            'az R5 produkciós szabály is a három aktuális kvuca kánonját használja',
+            'az R5 produkciós szabály is a három aktuális kvucát használja (HUM-SOMER-02)',
     },
 }
 
@@ -428,6 +443,67 @@ RUNTIME_OUTPUT_ROW = re.compile(r'^\|\s*[^|]+\|\s*`RUNTIME_OUTPUT`\s*\|')
 BUILD_OUTPUT_ROW = re.compile(r'^\|\s*LMS-[^|]+\|\s*BUILD_OUTPUT\s*\|')
 
 
+# Which report an open HUM-* decision belongs to. A prefix not listed here falls
+# back to 'release' on purpose: before 2026-10 an open HUM-GOV decision was
+# printed by neither report, so a new or unknown prefix must fail safe.
+PRODUCTION_DECISION_PREFIXES = ('HUM-MEDIA-',)
+GOVERNANCE_DECISION_PREFIXES = ('HUM-GOV-',)
+
+# A LEZÁRVA heading alone once closed two decisions whose approver line had been
+# deleted. RELEASE-READINESS.md: a gate is closed only with the decision, its
+# date, its approver and its evidence recorded.
+CLOSURE_FIELDS = (
+    ('dátum', re.compile(r'\*\*Lezárva:?\*\*:?\s*(?:\|\s*)?(\d{4}-\d{2}-\d{2})\b')),
+    ('jóváhagyó', re.compile(r'\*\*Jóváhagyta:?\*\*:?\s*(?:\|\s*)?([^|\n]*)')),
+    ('bizonyíték', re.compile(r'\*\*Bizonyíték:?\*\*:?\s*(?:\|\s*)?([^|\n]*)')),
+)
+PLACEHOLDER_VALUE = re.compile(r'KITÖLTENDŐ|⟬|\[\s*\]|\bTBD\b|^[\s.…—–-]*$')
+
+
+def decision_register(decision_id: str) -> str:
+    """'production', 'governance' or — the fail-safe default — 'release'."""
+    if decision_id.startswith(PRODUCTION_DECISION_PREFIXES):
+        return 'production'
+    if decision_id.startswith(GOVERNANCE_DECISION_PREFIXES):
+        return 'governance'
+    return 'release'
+
+
+def closed_decision_sections(text: str) -> list[tuple[str, str]]:
+    """(id, body) of every HUM-* decision whose heading says LEZÁRVA."""
+    sections: list[tuple[str, str]] = []
+    current: str | None = None
+    body: list[str] = []
+    for line in text.splitlines():
+        heading = HUMAN_DECISION_HEADING.match(line)
+        if heading or line.startswith(('# ', '## ', '---')):
+            if current is not None:
+                sections.append((current, '\n'.join(body)))
+            current = (heading.group(1)
+                       if heading and 'LEZÁRVA' in heading.group(2) else None)
+            body = []
+        elif current is not None:
+            body.append(line)
+    if current is not None:
+        sections.append((current, '\n'.join(body)))
+    return sections
+
+
+def unevidenced_closures(text: str) -> list[str]:
+    """Closed decisions that lack a closing date, the approver or the evidence."""
+    defects: list[str] = []
+    for decision_id, body in closed_decision_sections(text):
+        missing = []
+        for label, pattern in CLOSURE_FIELDS:
+            match = pattern.search(body)
+            value = match.group(1).strip(' *') if match else ''
+            if not value or PLACEHOLDER_VALUE.search(value):
+                missing.append(label)
+        if missing:
+            defects.append(f'{decision_id}: hiányzó lezárási mező: {", ".join(missing)}')
+    return defects
+
+
 def open_human_decision_ids(text: str) -> list[str]:
     """Return canonical HUM-* decisions whose heading is not explicitly closed."""
     open_ids: list[str] = []
@@ -477,12 +553,9 @@ def release_blockers() -> list[str]:
     if human_file.exists():
         human_open = open_human_decision_ids(
             human_file.read_text(encoding='utf-8', errors='replace'))
-        release_prefixes = (
-            'HUM-SAFE-', 'HUM-PRIV-', 'HUM-OPS-', 'HUM-A11Y-', 'HUM-SOMER-',
-        )
         release_open = [
             decision_id for decision_id in human_open
-            if decision_id.startswith(release_prefixes)
+            if decision_register(decision_id) == 'release'
         ]
         if release_open:
             blockers.append(
@@ -547,7 +620,7 @@ def production_blockers() -> list[str]:
             human_file.read_text(encoding='utf-8', errors='replace'))
         media_open = [
             decision_id for decision_id in human_open
-            if decision_id.startswith('HUM-MEDIA-')
+            if decision_register(decision_id) == 'production'
         ]
         if media_open:
             blockers.append(
@@ -569,6 +642,38 @@ def production_blockers() -> list[str]:
             )
 
     return blockers
+
+
+def governance_items() -> list[str]:
+    """Open governance decisions: reported, but not a learner-release gate.
+
+    A HUM-GOV-* entry blocks an organisational report (e.g. the field KPI), not
+    the Moodle release, so it gets its own line instead of disappearing.
+    """
+    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
+    if not human_file.exists():
+        return []
+    human_open = open_human_decision_ids(
+        human_file.read_text(encoding='utf-8', errors='replace'))
+    governance_open = [
+        decision_id for decision_id in human_open
+        if decision_register(decision_id) == 'governance'
+    ]
+    if not governance_open:
+        return []
+    return [f'GOVERNANCE-DECISIONS {len(governance_open)} open: '
+            + ', '.join(governance_open)]
+
+
+def check_closed_decisions(errors: list[str]) -> None:
+    """A HUM-* decision may be LEZÁRVA only with date, approver and evidence."""
+    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
+    if not human_file.exists():
+        return
+    rel = human_file.relative_to(ROOT)
+    text = human_file.read_text(encoding='utf-8', errors='replace')
+    for defect in unevidenced_closures(text):
+        errors.append(f'UNEVIDENCED-CLOSURE {rel} {defect}')
 
 
 # Regression cases for the rule matcher itself. Kept next to the rules so a rule
@@ -653,16 +758,37 @@ def selftest() -> int:
         failures += 1
     print(f'{"ok  " if decision_ok else "HIBA"} release-parser — HUM döntés státusz')
 
-    release_ids = [
-        decision_id for decision_id in open_human_decision_ids(decision_fixture)
-        if decision_id.startswith(
-            ('HUM-SAFE-', 'HUM-PRIV-', 'HUM-OPS-', 'HUM-A11Y-', 'HUM-SOMER-')
-        )
-    ]
-    separation_ok = release_ids == ['HUM-SAFE-01']
+    register_fixture = {
+        'HUM-SAFE-01': 'release', 'HUM-PRIV-01': 'release', 'HUM-OPS-01': 'release',
+        'HUM-A11Y-01': 'release', 'HUM-SOMER-01': 'release', 'HUM-PED-01': 'release',
+        'HUM-UJ-01': 'release',
+        'HUM-MEDIA-01': 'production', 'HUM-GOV-01': 'governance',
+    }
+    separation_ok = all(decision_register(decision_id) == register
+                        for decision_id, register in register_fixture.items())
     if not separation_ok:
         failures += 1
-    print(f'{"ok  " if separation_ok else "HIBA"} release-parser — release/media szétválasztás')
+    print(f'{"ok  " if separation_ok else "HIBA"} release-parser — release/media/governance szétválasztás, ismeretlen előtag = release')
+
+    closure_fixture = (
+        '### HUM-GOV-09 — teljes — LEZÁRVA\n'
+        '**Lezárva:** 2026-09-28. **Jóváhagyta:** programvezető. '
+        '**Bizonyíték:** jegyzőkönyv, 2026-09-28.\n'
+        '### HUM-GOV-08 — jóváhagyó nélkül — LEZÁRVA\n'
+        '**Lezárva:** 2026-09-28.\n'
+        '**Bizonyíték:** CI zöld.\n'
+        '### HUM-SOMER-09 — helykitöltő — LEZÁRVA\n'
+        '**Lezárva:** 2026-09-28. **Jóváhagyta:** ⟬KITÖLTENDŐ⟭ **Bizonyíték:** —\n'
+        '### HUM-SAFE-09 — nyitott, mezők nélkül\n'
+        '**Jóváhagyó:** gyermekvédelmi felelős.\n'
+    )
+    closure_ok = unevidenced_closures(closure_fixture) == [
+        'HUM-GOV-08: hiányzó lezárási mező: jóváhagyó',
+        'HUM-SOMER-09: hiányzó lezárási mező: jóváhagyó, bizonyíték',
+    ]
+    if not closure_ok:
+        failures += 1
+    print(f'{"ok  " if closure_ok else "HIBA"} release-parser — LEZÁRVA csak dátummal, jóváhagyóval és bizonyítékkal')
 
     checklist_fixture = '- [ ] nyitott\n- [x] kész\n'
     checklist_ok = unchecked_items(checklist_fixture) == ['nyitott']
@@ -683,7 +809,7 @@ def selftest() -> int:
         failures += 1
     print(f'{"ok  " if output_ok else "HIBA"} release-parser — output táblázatsorok')
 
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 4
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 5
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 
@@ -707,9 +833,11 @@ def main() -> int:
     check_file_scoped_regressions(errors)
     check_nonmodule_article_regressions(errors)
     check_regressions(errors)
+    check_closed_decisions(errors)
 
     blockers = release_blockers() if (args.strict_release or args.release_report) else []
     production = production_blockers() if args.release_report else []
+    governance = governance_items() if args.release_report else []
 
     print(f'Objective integrity errors: {len(errors)}')
     for item in errors:
@@ -722,6 +850,10 @@ def main() -> int:
         print(f'Production-only blockers: {len(production)}')
         for item in production:
             print(f'PRODUCTION: {item}')
+    if governance:
+        print(f'Governance-only items (not a release gate): {len(governance)}')
+        for item in governance:
+            print(f'GOVERNANCE: {item}')
 
     if errors:
         return 1

@@ -33,7 +33,7 @@ A repository-specifikáció és a tényleges lezárási munka külön réteg. A 
 | **G6 / HUM-SOMER-01–03** | [#6 – Mozgalmi tartalom jóváhagyása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/6) |
 | **G7** | GitHub Actions + release-check az élesítendő commiton |
 | **Program-transzfer** | [#9 – Terepgyakorlat és learner pilot](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/9) |
-| **HUM-GOV-01** *(nem P0 release-gate, lezárva 2026-09-28)* | [#7 – Terepgyakorlat rubrika és KPI skálájának összehangolása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/7) |
+| **HUM-GOV-01** *(nem P0 release-gate; nyitott, jóváhagyásra vár)* | [#7 – Terepgyakorlat rubrika és KPI skálájának összehangolása](https://github.com/hasomerhacairhu/modszertani-kepzes/issues/7) |
 
 Az issue-k **nem helyettesítik a jóváhagyási bizonyítékot**. Lezáráskor az issue-ba a tényleges döntést, dátumot, jóváhagyót és bizonyítékot kell linkelni/rögzíteni; csak ezután tekinthető az adott gate zártnak.
 

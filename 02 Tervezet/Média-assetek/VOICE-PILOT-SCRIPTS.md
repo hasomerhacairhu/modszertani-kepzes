@@ -282,8 +282,8 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
 > meghallgatni. Ha a house style később változik, ezek a szavak érintettek — a
 > pilot-felvételen ez olcsón látszik, a teljes érintett hangkorpuszon nem.
 >
-> **Korosztály-architektúra frissítve 2026-09-28:** a 2025/26-os oktatási terv szerinti
-> három aktuális csoport a kánon: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
+> **Korosztály-architektúra frissítve 2026-09-28:** a tananyag a 2025/26-os oktatási tervre
+> hivatkozó három csoportot használja: **Parparim 6–9, Kivsza 10–12, Leviatan 13–17** (HUM-SOMER-02, jóváhagyásra vár).
 > A P3 ezért már csak ezt a három tulajdonnevet teszteli. A külön house-style kérdés
 > (`madrich`/`madrih`, `chanich`/`hánih`, illetve `Leviatan` írásmód) továbbra is
 > a glosszárium terminológiai kapujához tartozik; ez a lap nem nyit hozzá új döntést.

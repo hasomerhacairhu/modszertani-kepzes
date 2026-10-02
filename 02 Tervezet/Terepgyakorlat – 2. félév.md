@@ -32,7 +32,7 @@ A hat alkalomból legalább:
 
 **Nem pontozzuk** a chanichok „engedelmességét”, a hangulatot önmagában vagy azt, hogy minden terv szerint történt-e. A kompetencia része az adaptáció.
 
-> **Skála és KPI (lezárva 2026-09-28):** a field-rubrika **0–2-es, háromszintű skálán marad**. Az intake **„rubrikaátlag ≥ 4/5”** célját a riportban **normalizált százalékként** kezeljük: `normalizált eredmény = (rubrikaátlag / 2) × 100`. Mivel **4/5 = 80%**, a field-KPI **≥80%**, ami ezen a skálán **rubrikaátlag ≥1,6/2**. Ez kizárólag skála-megfeleltetés: nem változtatja meg a rubrikasorok 0/1/2 jelentését, és nem állítja, hogy az M1–M7 modulrubrikák mind azonos skálájúak.
+> **Skála és KPI (javasolt, a HUM-GOV-01 jóváhagyására vár):** a field-rubrika **0–2-es, háromszintű skálán marad**. Az intake **„rubrikaátlag ≥ 4/5”** célját a riportban **normalizált százalékként** kezeljük: `normalizált eredmény = (rubrikaátlag / 2) × 100`. Mivel **4/5 = 80%**, a field-KPI **≥80%**, ami ezen a skálán **rubrikaátlag ≥1,6/2**. Ez kizárólag skála-megfeleltetés: nem változtatja meg a rubrikasorok 0/1/2 jelentését, és nem állítja, hogy az M1–M7 modulrubrikák mind azonos skálájúak.
 
 ## Programeredmény
 

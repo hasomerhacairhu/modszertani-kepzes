@@ -222,7 +222,7 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 
 ## D5 — M3 gyermekvédelmi lépés-térkép poszter (`M3-HUB-POSZ-01`)
 
-**Állapot: LEZÁRVA — 2026-09-28.**
+**Állapot:** ideiglenesen végrehajtva, jóváhagyásra vár. **Ajánlás: A** – ez a tananyagban és a manifestben már alkalmazva van, de a hub látható gyermekvédelmi mondatának átírása szakpolitikai döntés, ezért jóváhagyás nélkül nem tekinthető lezártnak.
 
 A modul-áttekintő és az M3.B **ugyanazt az egyetlen, ötlépéses safeguarding-folyamatot** használja. A hub-poszter nem külön négylépéses anyag, hanem a már meglévő `M3.B-MUNK-01` megjelenése:
 
@@ -237,6 +237,8 @@ A modul-áttekintő és az M3.B **ugyanazt az egyetlen, ötlépéses safeguardin
 5. Utánkövetés.
 
 Ez megszünteti azt a korábbi hibát, hogy a négylépéses hub-összefoglalóból kimaradt a titoktartás határa és az utánkövetés. Nem keletkezik második safeguarding-poszter vagy párhuzamos folyamat.
+
+**Ki dönt:** a `Gyermekvédelem – release gate.md` dokumentumban névvel jóváhagyott gyermekvédelmi felelős (HUM-SAFE-01).
 
 ---
 
