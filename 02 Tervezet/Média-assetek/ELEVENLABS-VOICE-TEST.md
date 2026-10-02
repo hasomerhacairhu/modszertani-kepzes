@@ -11,7 +11,7 @@ tananyag **kanonikus narrátora**.
 | **Minta** | **6 db** — 2 hang × 3 meglévő tananyag-szkript |
 | **Mért méret** | **3 072 karakter** összesen |
 | **Becsült költség** | **0,15 – 0,61 $** (`eleven_flash_v2_5`) — a szolgáltató két árazási felülete eltérő szorzót ad; mindkét olvasatban **egy dollár alatt** |
-| **Állapot** | ⛔ **nem futtatható — a két ElevenLabs hang még nincs létrehozva** (előbb: hozzájárulás-bizonyíték → hang-létrehozás → azonosítás) |
+| **Állapot** | ⛔ **nem futtatható — a két ElevenLabs hang még nincs létrehozva** (előbb: hozzájárulás-bizonyíték → tanítási kimaradás → hang-létrehozás → azonosítás) |
 
 Kapcsolódó: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12–13. szakasz (a kutatás és a
 modell-javaslat) · [`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md) (a három szkript
@@ -23,6 +23,10 @@ D2.
 ## 1. Amit a teszt előtt tudni KELL — három blokkoló lépés
 
 A hat mintát **nem szabad** legenerálni, amíg ez a három nem történt meg.
+
+**Sorrend a feltöltés körül:** hozzájárulás-bizonyíték és a forrás-beszélő nagykorúsága
+(1.0.) → tanítási kimaradás (1.2.) → a hangok létrehozása (1.0.) → azonosítás (1.1.). Az
+1.2. tehát a számozása ellenére **a létrehozás előtt** jön (6. szakasz).
 
 ### 1.0. A hangok létrehozása — `A HANGOK MÉG NEM LÉTEZNEK`
 
@@ -37,6 +41,11 @@ A hang-objektumok **még nem léteznek**, ezért voice-ID sincs.
 - **Hozzájárulás-bizonyíték (V2) a feltöltés ELŐTT:** valós személy hangfelvétele csak
   dokumentált hozzájárulással tölthető fel; a bizonyíték-nyilvántartás helye a
   [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
+- **Kiskorú hangja nem tölthető fel:** a feltöltés előtt ellenőrizni kell, hogy a
+  forrás-beszélő nagykorú. A szolgáltató feltételei szerint 18 év alatt a szolgáltatás nem
+  használható, és kiskorú hangjának klónozása tiltott ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md)
+  13.10., V3; [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) E-8). Hogy mi igazolja a
+  nagykorúságot, és ez a V2 hozzájárulás része-e, emberi döntés (`HUM-MEDIA-02`).
 - **Összevethetőség:** a tesztnek csak akkor van értelme, ha a két hang **azonos módszerrel**
   és feltételekkel készül el — különben a különbség nem a hangot, hanem a létrehozási
   módot mérné.
@@ -67,7 +76,7 @@ Amint a két hang elkészült, ezt a táblát kell kitölteni:
 `GET /v1/voices/{voice_id}/settings` → `GET /v1/models`.
 A rögzítendő mezők listája: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
 
-> **Miért blokkoló:** ha bármelyik hang **PVC**, a `eleven_v3` gyakorlatilag kiesik (a PVC
+> **Miért blokkoló:** ha bármelyik hang **PVC**, az `eleven_v3` gyakorlatilag kiesik (a PVC
 > a szolgáltató szerint nem arra tanul, és „not fully optimized for Eleven v3”), és a
 > modellkérdés magától eldől. A típus ismerete nélkül a teszt rossz modellen futna.
 
@@ -77,6 +86,17 @@ A szolgáltató feltételei szerint a tanítási kimaradás **csak előremutató
 affect any uses… prior to that date”. Ezért a fiók *Data use* beállításában **már a
 forrásfelvételek feltöltése — tehát a hangok létrehozása — előtt** ki kell kapcsolni a
 tanítási felhasználást, nem utólag.
+
+A kimaradás fiókhoz kötött: **minden fiókban** be kell kapcsolni, ahová forrásfelvétel
+kerül — PVC-nél a forrás-beszélő saját fiókjában is, mert a hangot ott ő hozza létre
+(`HUM-MEDIA-02`). A szolgáltató szerint a kimaradás csak **a kérés feldolgozása után** hat
+(„once the request has been processed by our team” — EGT-s feltételek 4(i), lekérdezve
+2026-10-02), ezért a feltöltés csak ezután jöhet; hogy a feldolgozás a fiókban hogyan
+ellenőrizhető, élő fiókból derül ki.
+
+A feltöltött felvételekre adott licencet a szolgáltató „perpetual and irrevocable”
+licencként írja le; hogy ebből mit érint a kimaradás, jogi kérdés —
+[`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) E-9.
 
 ---
 
@@ -224,7 +244,8 @@ minta együtthallgatásakor lehet olcsón rögzíteni:
 > **két megkülönböztethető hangot** igényel, „hogy a felirat nélkül is követhető legyen,
 > ki beszél”. A tervben pontosan két hang szerepel (a két forrás-beszélőből készülő). Ez az egyetlen tervezett
 > alkalom, amikor a kettő egymás mellett szól — **ez a sor nem dönt a második hang
-> szerepéről**, csak rögzíti az adatot, amíg ingyen van.
+> szerepéről**, csak rögzíti az adatot, amíg ingyen van. A dialógushangok kérdése és a
+> jelenet gyártási útja nyitott döntés: [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11.
 
 **Súlyozás, ha a két hang közel van:** a 3. (someres szavak), a 9. („nem reklámhang”) és
 a 10. (fárasztóság) sor **kétszeres súlyt** kap. Ez a három dönti el, hogy egy hang
@@ -250,22 +271,25 @@ kibírja-e 117 tételen — nem az, hogy melyik szebb egyetlen mintán.
 ## 6. A döntés menete
 
 ```
-0.  hozzájárulás-bizonyíték (V2)      → RIGHTS-EVIDENCE.md; feltöltés előtt kötelező
+0.  hozzájárulás-bizonyíték (V2)      → RIGHTS-EVIDENCE.md; feltöltés előtt kötelező;
+                                        a forrás-beszélő nagykorú (1.0.)
+0a. tanítási kimaradás bekapcsolva    → (1.2.) — a feltöltés ELŐTT, minden fiókban,
+                                        ahová felvétel kerül (PVC-nél a beszélőében
+                                        is), és a kérést a szolgáltató feldolgozta
 0b. a két hang létrehozása (1.0.)     → azonos módszerrel; a módszer (IVC/PVC/egyéb)
                                         jog + csomag függvénye — még nyitott
 1.  hangok azonosítása (1.1.)         → voice ID + típus rögzítve
-2.  tanítási kimaradás bekapcsolva    → (1.2.) — a feltöltés ELŐTT
-3.  ha bármelyik hang PVC             → a modell flash_v2_5, a v3 kiesik
-4.  hat minta legyártása              → 0,15–0,61 $
-5.  meghallgatás + pontozás           → magyar anyanyelvű, someres szóhasználatot
+2.  ha bármelyik hang PVC             → a modell flash_v2_5, a v3 kiesik
+3.  hat minta legyártása              → 0,15–0,61 $
+4.  meghallgatás + pontozás           → magyar anyanyelvű, someres szóhasználatot
                                         ismerő jóváhagyóval
-6.  a nyertes P2-jének újragyártása   → B2 stabilitási próba
-7.  hibás szavak listája              → alias-szabályok, majd újrahallgatás
-8.  KANONIKUS HANG kiválasztva        → D2 lezárul
-9.  a reprodukciós metaadat rögzítve  → az R3 lezárható
+5.  a nyertes P2-jének újragyártása   → B2 stabilitási próba
+6.  hibás szavak listája              → alias-szabályok, majd újrahallgatás
+7.  KANONIKUS HANG kiválasztva        → D2 lezárul
+8.  a reprodukciós metaadat rögzítve  → az R3 lezárható
 ```
 
-**A 8. lépés a felhasználó döntése.** Ez a lap előkészíti, nem helyettesíti.
+**A 7. lépés a felhasználó döntése.** Ez a lap előkészíti, nem helyettesíti.
 
 ### 6.1. Mit kell rögzíteni, amikor a döntés megszületik
 

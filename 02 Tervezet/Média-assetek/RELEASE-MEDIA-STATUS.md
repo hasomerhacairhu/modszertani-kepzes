@@ -36,7 +36,7 @@ A jelenlegi média-manifeszt státuszai így fordulnak át:
 | `technical.production_phase = trainer-at-runtime` | `RUNTIME_ONLY` |
 | R7, vagy a végleges Moodle-felületből készülő screenshot | `RUNTIME_ONLY` |
 | `mode = human-decision` vagy `decision` mező | `BLOCKED_BY_HUMAN_DECISION` |
-| R2 vagy R8 jog-/képmás-/hangjog-bizonyíték | `BLOCKED_BY_CONSENT` |
+| R2 vagy R8 jog-/képmás-/hangjog-bizonyíték (az R2 a szintetikus narrációkon is ül) | `BLOCKED_BY_CONSENT` |
 | R3 vagy R5 nyitott produkciós döntés | `BLOCKED_BY_HUMAN_DECISION` |
 | bizonyított technikai korlát, amelyhez nincs egyenértékű fallback | `BLOCKED_BY_TECHNICAL_LIMIT` |
 | nincs nyitott kapu és a specifikáció kész | `READY_TO_PRODUCE` |

@@ -205,7 +205,8 @@ olyan információt, ami máshol ne lenne meg szövegként.
  "title": "Aláfestő zene a gallery walkhoz",
  "derivatives": ["transcript"],
  "provenance": "third-party",
- "external": {"source": "licencelt zenei könyvtár"}, "blockers": ["R8"]}
+ "external": {"source": "licencelt zenei könyvtár",
+              "licence": "nyitott: licenc, attribúció és jogcím igazolása"}}
 ```
 
 A `transcript` hangnál is kötelező: hangzó tartalom szöveges ekvivalens nélkül
@@ -290,12 +291,12 @@ Egy fájlban egy ilyen blokk lehet, és akkor nem lehet benne `@asset`.
 | `source_ref` | | a felmondandó szöveg forrásblokkja |
 | `composed_of` | | összefűzött videó-konténer összetevői, lejátszási sorrendben; a szkript az ő forrásblokkjaikból áll össze (2.13) |
 | `a11y` | | `visual`, `audio`, `alt_source_ref`, `alt_note`, `note` |
-| `derivatives` | | `voiceover`, `captions`, `transcript`, `alt-text`, `thumbnail`, `audio-only`, `low-bandwidth`, `print-pdf` |
+| `derivatives` | | `voiceover`, `captions`, `transcript`, `alt-text`, `thumbnail`, `audio-only`, `low-bandwidth`, `print-pdf`, `editable` |
 | `provenance` | | `human`, `ai`, `stock`, `third-party`, `mixed`, `unknown`, `pending` |
 | `technical` | | szabad kulcs-érték (arány, hossz, méret, formátum) |
 | `external` | | `source`, `url`, `path`, `owner`, `licence`, `evidence`, `replace` |
 | `production_rules` | | R1–R8 hivatkozás |
-| `blockers` | | nyitott kapuk (R2, R3, R5, R8) — ezek adják a státuszt |
+| `blockers` | | nyitott kapuk (R2, R3, R5, R7, R8) — ezek adják a státuszt |
 | `decision` | `human-decision`-nél ✅ | mit kell eldönteni és kinek. **Bármelyik módnál megadható**, és amíg nem üres, a státusz `emberi döntésre vár` — a produkciós szabályok előtt |
 | `reuse_of` | `reuse`-nál ✅ | a kanonikus asset ID-je |
 | `notes`, `review` | | megjegyzés, illetve migrációs/szerkesztői észrevétel |

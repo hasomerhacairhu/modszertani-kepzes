@@ -60,7 +60,7 @@ ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma ishit`, `hagshama`, `
 ## 2. P1 — Nyugodt magyarázó narráció
 
 - **Asset:** `M3.1-NAR-02` — *INPUT 1 narráció – Tuckman 4+1 szakasz*
-- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-02-VO` (deklaráció: 253. sor, törzs: 254–273. sor)
+- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-02-VO` (deklaráció: 255. sor, törzs: 256–275. sor)
 - **Forrás-hash:** `0ec386081b2a7fab`
 - **Lecke-időkeret:** kb. 60–75 mp · **125 szó** → 100–125 szó/perc
 - **Céltempó szerint:** 110 szó/percen **68 mp** — a keretben marad.
@@ -125,7 +125,7 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 ## 3. P2 — Érzelmileg telítettebb, reflektív narráció
 
 - **Asset:** `M6.2-NAR-04` — *Narráció – SLIDE 4 történet 2. rész*
-- **Forrás:** `02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md`, `@source` blokk `M6.2-NAR-04-VO` (deklaráció: 488. sor, törzs: 489–508. sor)
+- **Forrás:** `02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md`, `@source` blokk `M6.2-NAR-04-VO` (deklaráció: 494. sor, törzs: 495–514. sor)
 - **Forrás-hash:** `72d4bb4dbb80803a`
 - **Lecke-időkeret:** kb. 40–50 mp · **71 szó** → 85–106 szó/perc
 - **Céltempó szerint:** 110 szó/percen **39 mp** — a keret alsó szélén, tehát **van hely a szüneteknek**. Ez itt szándékos.
@@ -190,7 +190,7 @@ regiszter enyhén vált, a hangszín nem.
 ## 4. P3 — Kiejtés-sűrű narráció
 
 - **Asset:** `M3.1-NAR-05` — *Outro narráció – átvezetés M3.2-re*
-- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-05-VO` (deklaráció: 808. sor, törzs: 809–815. sor)
+- **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-05-VO` (deklaráció: 816. sor, törzs: 817–823. sor)
 - **Forrás-hash:** `1e11927c2c353b9d`
 - **Lecke-időkeret:** 15–20 mp · **40 szó** → 120–160 szó/perc
 

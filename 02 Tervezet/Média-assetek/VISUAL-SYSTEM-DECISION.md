@@ -18,12 +18,17 @@ Három bizonyíték-osztályt tart külön:
 
 ## 1. A kereséssel megállapított tény
 
-**A repositoryban nulla hexadecimális színérték van.** A teljes fa átvizsgálva
-(Markdown, JSON, Python, YAML; a `_legacy` és a generált kimenetek kivételével):
-`#RRGGBB` alakú érték **sehol nem fordul elő**. Nincs design-system fájl, nincs arculati
-leírás, nincs logó-specifikáció, nincs betűtípus-megnevezés.
+**A tananyagban nincs hexadecimális színérték.** A teljes fa átvizsgálva (Markdown, JSON,
+Python, YAML; a `_legacy` és a generált kimenetek kivételével) `#RRGGBB` alakú érték a
+leckékben, a kánoni szabályokban és a kódban **sehol nem fordul elő**; csak ennek a
+mappának négy produkciós dokumentumában áll — a még jóvá nem hagyott
+[`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) javaslatban, valamint a rá
+épülő `PILOT-PRODUCTION-PACK.md`-ben, `PRODUCTION-STACK.md`-ben és ebben a lapban. Jóváhagyott
+design-system fájl, arculati leírás és logó-specifikáció nincs; betűtípus-név is csak
+ezekben a produkciós dokumentumokban szerepel.
 
-Ez azt jelenti, hogy az R5 hex-palettája **soha nem létezett a repositoryban**.
+Ez azt jelenti, hogy az R5 hex-palettája **jóváhagyott formában ma sincs a
+repositoryban**.
 
 > 🔎 **2026-08-27-i kiegészítés: a repositoryn KÍVÜL viszont létezik.** Egy célzott külső
 > keresés megtalálta a mozgalom **saját, nyilvánosan elérhető arculati kézikönyvét** és
@@ -159,7 +164,7 @@ elég a fekete-fehér nyomtatás — ez erős jel arra, hogy a nyomtatott anyagc
 | Karakter-stílus és rögzített referencia-seed | ⛔ nincs bizonyíték | 6 AI karakter-videó + 2 freeze-frame |
 | Logóhasználat, elhelyezés, biztonsági margó | 🔎 **részben** — a használati tiltások (nem átszínezni, nem újrarajzolni, nem nyújtani, nem forgatni, effekt és árnyék nélkül) kimondottak; **biztonsági margó és minimális méret viszont sehol nincs** | poszterek, nyomtatványok |
 | Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ⛔ döntés kell — de a kontraszt-mérés leszűkítette: a paletta 15 színpárja közül **egy sem** éri el a 3:1-et, tehát a szín önmagában semmit nem választ el | SBI, 3 pillér, kérdéstípusok, Do/Don't |
-| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | 🔎 **részben** — hogy **LMS-szöveg, nem képbe égetve**, azt a tananyag maga kimondja (`M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás javaslat | **331 R1-hatályú asset** (274 `ai` + 57 `mixed`) |
+| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | 🔎 **részben** — hogy **LMS-szöveg, nem képbe égetve**, azt a tananyag maga kimondja (`M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás javaslat | **331 R1-hatályú asset** (275 `ai` + 56 `mixed`) |
 
 **Amit ez a lap kifejezetten NEM tesz:** nem talál ki hex-értéket, nem nevez meg
 betűtípust és nem rögzít logóhasználatot. Ezek szervezeti-arculati döntések; egy kitalált
@@ -175,7 +180,9 @@ jóváhagyottak — **megtalált bizonyítékok**, amelyekre a jóváhagyónak i
 2. **Pilot-jóváhagyás** családonként. A pilotokat a terv generálja, ezért a konkrét
    ID-ket mindig ott nézd meg: `MEDIA-PRODUCTION-PLAN.md` 5. szakasz (munkalap, poszter,
    ikon, diagram, illusztráció). Egy döntés lezárása megváltoztathatja, melyik tétel a
-   legkevésbé blokkolt, tehát melyik lesz a pilot.
+   legkevésbé blokkolt, tehát melyik lesz a pilot. A
+   [`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) briefjei rögzített ID-kre
+   készültek, ezért eltérhetnek a terv aktuális pilotjától (a csomag 1. szakasza jelzi).
 3. **Hex-paletta + R6 feloldás.** Ezzel indul a színfüggőként jelölt tételek köre és
    minden színes diagram/ikon (a pontos darabszám a terv 4. szakaszának 1C alkötegében).
 4. **Karakter-lock** (referencia-karakter és seed). Csak ezután szabad bármelyik
