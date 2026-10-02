@@ -1,4 +1,4 @@
-# 🎬 Média-asset regiszter — Hasomer Hacair madrichképzés
+# 🎬 Média-asset regiszter — Hasomer Hacair madrihképzés
 
 > **Ez a fájl generált.** Forrás: a `02 Tervezet/` alatti leckefájlok rejtett
 > `@asset` deklarációi és `@source` blokkjai. Ne szerkeszd kézzel —
@@ -113,17 +113,17 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M0.1-IKO-01` | icon-set | legyártandó | specifikáció kész | Hook-ikon: útiterv / térkép / lépcső | — | alt-szöveg | AI-generált |
 | `M0.1-IKO-02` | icon-set | legyártandó | specifikáció kész | 3 ígéret-ikon (kézfogás, létra, pajzs) | — | alt-szöveg | AI-generált |
 
-### 02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md
+### 02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md
 
 *Egység:* `M0.2` · *típus:* online-lecke
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M0.2-DIA-01` | diagram | legyártandó | specifikáció kész | SLIDE 4 jelzési folyamatábra: az ötlépéses jelzési út (észreveszem → meghallgatom → nem nyomozok → bevonom a Memunát → közvetlen veszélynél 112) | — | alt-szöveg | AI-generált |
-| `M0.2-DIA-02` | diagram | legyártandó | specifikáció kész | SLIDE 2 kétoszlopos összevetés: „Madrichként csinálom” vs. „Nem (csak) az én feladatom” | — | alt-szöveg | AI-generált |
+| `M0.2-DIA-02` | diagram | legyártandó | specifikáció kész | SLIDE 2 kétoszlopos összevetés: „Madrihként csinálom” vs. „Nem (csak) az én feladatom” | — | alt-szöveg | AI-generált |
 | `M0.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Akadálymentes iframe-cím és fókusz-spec a SLIDE 3 interakcióhoz | — | — | emberi |
 | `M0.2-IKO-01` | icon-set | legyártandó | specifikáció kész | SLIDE 1 hook-ikonok: barát / tanár / szuperhős | — | alt-szöveg | AI-generált |
-| `M0.2-IKO-02` | icon-set | legyártandó | specifikáció kész | SLIDE 5 dugma ishit ikonok: kör / chat / kulissza | — | alt-szöveg | AI-generált |
+| `M0.2-IKO-02` | icon-set | legyártandó | specifikáció kész | SLIDE 5 dugma isit ikonok: kör / chat / kulissza | — | alt-szöveg | AI-generált |
 
 ### 02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md
 
@@ -133,7 +133,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M0.3-FOTO-01` | photo | legyártandó | jogtisztázás alatt | Moodle-kurzus főoldal screenshot (modul-lista) | — | alt-szöveg | emberi |
 
-### 02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md
+### 02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md
 
 *Egység:* `M0.4` · *típus:* online-lecke
 
@@ -143,7 +143,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M0.4-IKO-01` | icon-set | legyártandó | specifikáció kész | Online-felület ikonkészlet (chat / insta / messenger / Moodle-komment) | — | alt-szöveg | AI-generált |
 | `M0.4-ILL-01` | illustration | legyártandó | specifikáció kész | Hook-vizuál: a kvuca online terei a telefonon | — | alt-szöveg | AI-generált |
 | `M0.4-ILL-02` | illustration | legyártandó | specifikáció kész | Online szituációk – 4 problémahelyzet jelenetképe | — | alt-szöveg | AI-generált |
-| `M0.4-ILL-03` | illustration | legyártandó | specifikáció kész | „Dugma ishit vagy sem?” – 3 döntéshelyzet vizuál | — | alt-szöveg | AI-generált |
+| `M0.4-ILL-03` | illustration | legyártandó | specifikáció kész | „Dugma isit vagy sem?” – 3 döntéshelyzet vizuál | — | alt-szöveg | AI-generált |
 | `M0.4-POSZ-01` | poster | legyártandó | specifikáció kész | „3 egyszerű szabály online” – nyomtatható poszter/kártya | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md
@@ -276,7 +276,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M1.F-MUNK-03` | worksheet | legyártandó | specifikáció kész | Képzői ellenőrző lista – „Peula előtt / közben / után” (1 A4) | — | nyomtatható PDF | AI-generált |
 | `M1.F-POSZ-01` | poster | legyártandó | specifikáció kész | Tájékozódó tábla – M1 leckelista + név nélküli témakérések | — | nyomtatható PDF | vegyes |
 
-### 02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md
+### 02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md
 
 *Egység:* `M2-HUB` · *típus:* hub
 
@@ -284,7 +284,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M2-HUB-DIA-01` | diagram | legyártandó | specifikáció kész | M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás) | — | alt-szöveg | AI-generált |
 
-### 02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md
+### 02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md
 
 *Egység:* `M2.1` · *típus:* online-lecke
 
@@ -328,7 +328,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M2.3-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook AI beszélő-fej videó – 3 pillér felvezetés | `M2.3-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 | `M2.3-VID-02` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Outro AI beszélő-fej videó (opcionális, INFERÁLT forma) – záró keret + híd az M2.B-re | `M2.3-VID-02-VO` | felmondott hang, felirat, leirat | AI-generált |
 
-### 02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md
+### 02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md
 
 *Egység:* `M2.4` · *típus:* online-lecke
 
@@ -336,7 +336,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M2.4-DIA-01` | diagram | legyártandó | specifikáció kész | Privát – Személyes – Szakmai 3 oszlopos vizuál | — | alt-szöveg | AI-generált |
 | `M2.4-DIA-02` | diagram | legyártandó | specifikáció kész | 3 oszlopos „kinek mit mondok el” tábla-vizuál | — | alt-szöveg | AI-generált |
-| `M2.4-IKO-01` | icon-set | legyártandó | specifikáció kész | Madrich + felnőtt/szervezet támogató ikon | — | alt-szöveg | AI-generált |
+| `M2.4-IKO-01` | icon-set | legyártandó | specifikáció kész | Madrih + felnőtt/szervezet támogató ikon | — | alt-szöveg | AI-generált |
 | `M2.4-IKO-02` | icon-set | legyártandó | specifikáció kész | Napló ikon (Activity 1) | — | alt-szöveg | AI-generált |
 | `M2.4-ILL-01` | illustration | legyártandó | specifikáció kész | Chat-buborékok háttér (hook) | — | alt-szöveg | AI-generált |
 | `M2.4-ILL-02` | illustration | legyártandó | specifikáció kész | Chat-buborék illusztráció (Activity 2 – vissza az üzenethez) | — | alt-szöveg | AI-generált |
@@ -406,21 +406,21 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.1-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Outro narráció – átvezetés M3.2-re | `M3.1-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M3.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK beszélő fej – három kvuca-sztori | `M3.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
-### 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md
+### 02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md
 
 *Egység:* `M3.2` · *típus:* online-lecke
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M3.2-DIA-01` | diagram | legyártandó | specifikáció kész | Parparim & Kivsza – kétoszlopos profilkártya | — | alt-szöveg | AI-generált |
-| `M3.2-DIA-02` | diagram | legyártandó | specifikáció kész | Leviatan – profilkártya | — | alt-szöveg | AI-generált |
+| `M3.2-DIA-02` | diagram | legyártandó | specifikáció kész | Leviatán – profilkártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-03` | diagram | legyártandó | specifikáció kész | 3 kulcsszó-kártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-04` | diagram | legyártandó | specifikáció kész | Korosztály-térkép mini-táblázat (3 sor) | — | alt-szöveg | AI-generált |
 | `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke) | — | — | AI-generált |
 | `M3.2-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes párosító alternatíva (Single Choice Set) | — | — | AI-generált |
 | `M3.2-IKO-01` | icon-set | legyártandó | specifikáció kész | 3 kvuca ikon-készlet (🦋 🐑 🐋) | — | alt-szöveg | AI-generált |
 | `M3.2-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Parparim & Kivsza opcionális narráció | `M3.2-NAR-03-VO` | felirat, leirat | AI-generált |
-| `M3.2-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Leviatan opcionális narráció | `M3.2-NAR-04-VO` | felirat, leirat | AI-generált |
+| `M3.2-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Leviatán opcionális narráció | `M3.2-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M3.2-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Outro narráció hangsáv | `M3.2-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M3.2-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélő fej – 3 kvuca, 3 hangulat | `M3.2-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
@@ -436,13 +436,13 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.3-ILL-01` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 1: késő esti privát üzenet | — | alt-szöveg | AI-generált |
 | `M3.3-ILL-02` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 2: sértő mém a csoportchatben | — | alt-szöveg | AI-generált |
 | `M3.3-ILL-03` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 3: vágásnyomok táborban | — | alt-szöveg | AI-generált |
-| `M3.3-ILL-04` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 4: madrich–chanich kapcsolat gyanú | — | alt-szöveg | AI-generált |
+| `M3.3-ILL-04` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 4: madrih–hanih kapcsolat gyanú | — | alt-szöveg | AI-generált |
 | `M3.3-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – „Mi az a gyermekvédelem?” (öt lépés) | `M3.3-NAR-01-VO` | leirat | AI-generált |
 | `M3.3-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – Reflexió bevezető (opcionális) | `M3.3-NAR-02-VO` | leirat | AI-generált |
 | `M3.3-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – Outro / lecke lezárás | `M3.3-NAR-03-VO` | leirat | AI-generált |
-| `M3.3-VID-01` | video/explainer | legyártandó | jogtisztázás alatt | Hook magyarázó videó (hangalámondás + kinetikus tipográfia) – „Mit ígérhetek egy chanichnak?” | `M3.3-VID-01-VO` | felmondott hang, felirat, leirat, alt-szöveg | AI-generált |
+| `M3.3-VID-01` | video/explainer | legyártandó | jogtisztázás alatt | Hook magyarázó videó (hangalámondás + kinetikus tipográfia) – „Mit ígérhetek egy hanihnak?” | `M3.3-VID-01-VO` | felmondott hang, felirat, leirat, alt-szöveg | AI-generált |
 
-### 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md
+### 02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md
 
 *Egység:* `M3.4` · *típus:* online-lecke
 
@@ -451,16 +451,16 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.4-DIA-01` | diagram | legyártandó | specifikáció kész | „Mit tegyél / mit ne tegyél” – három témablokk, minibox-pár diagram (SLIDE 3) | — | alt-szöveg | AI-generált |
 | `M3.4-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice interakció – „Mennyire érzed fontosnak…” (SLIDE 1) | — | — | AI-generált |
 | `M3.4-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Mini True/False interakció – szigorúbb határok (SLIDE 2) | — | — | AI-generált |
-| `M3.4-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrichként” (SLIDE 4) | — | — | AI-generált |
+| `M3.4-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes a11y-alternatíva – Single Choice Set (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Mini-kvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6) | — | — | AI-generált |
 | `M3.4-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges reflexiós mező – „Saját listám arról, mit teszek és mit nem” (SLIDE 5) | — | — | AI-generált |
 | `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
 | `M3.4-EGY-08` | other | legyártandó | specifikáció kész | Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret) | — | — | AI-generált |
-| `M3.4-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikon: madrich + kvuca stilizált „határvonallal” (SLIDE 2) | — | alt-szöveg | AI-generált |
+| `M3.4-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikon: madrih + kvuca stilizált „határvonallal” (SLIDE 2) | — | alt-szöveg | AI-generált |
 | `M3.4-IKO-02` | icon-set | legyártandó | specifikáció kész | Lista-ikon – a saját lista (mit teszek és mit nem) reflexiója (SLIDE 5) | — | alt-szöveg | AI-generált |
 | `M3.4-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Outro narráció (opcionális) – SLIDE 7 | `M3.4-NAR-02-VO` | felirat, leirat | AI-generált |
-| `M3.4-VID-01` | video/explainer | legyártandó | jogtisztázás alatt | Hook magyarázó videó (hangalámondás + kinetikus tipográfia) – „Meddig mehetek el madrichként?” | `M3.4-VID-01-VO` | felmondott hang, felirat, leirat, alt-szöveg | AI-generált |
+| `M3.4-VID-01` | video/explainer | legyártandó | jogtisztázás alatt | Hook magyarázó videó (hangalámondás + kinetikus tipográfia) – „Meddig mehetek el madrihként?” | `M3.4-VID-01-VO` | felmondott hang, felirat, leirat, alt-szöveg | AI-generált |
 
 ### 02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md
 
@@ -512,16 +512,16 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.1-IKO-01` | icon-set | legyártandó | specifikáció kész | AI-eredet címke ikon/badge a Hook videóhoz | — | alt-szöveg | AI-generált |
 | `M4.1-IKO-02` | icon-set | legyártandó | specifikáció kész | 3 fókusz-ikon: Testtartás, Tekintet, Térfoglalás | — | alt-szöveg | AI-generált |
 | `M4.1-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | SLIDE 2 narráció – „3 dolog, ami azonnal látszik rajtad” | `M4.1-NAR-02-VO` | felirat, leirat | AI-generált |
-| `M4.1-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Jelenet 1 narráció – „Jegyzetbe bújó madrich” | `M4.1-NAR-03-VO` | felirat, leirat | AI-generált |
-| `M4.1-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Jelenet 2 narráció – „Ideges topogó madrich” | `M4.1-NAR-04-VO` | felirat, leirat | AI-generált |
-| `M4.1-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Jelenet 3 narráció – „Nyitott, stabil madrich” | `M4.1-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M4.1-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Jelenet 1 narráció – „Jegyzetbe bújó madrih” | `M4.1-NAR-03-VO` | felirat, leirat | AI-generált |
+| `M4.1-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Jelenet 2 narráció – „Ideges topogó madrih” | `M4.1-NAR-04-VO` | felirat, leirat | AI-generált |
+| `M4.1-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Jelenet 3 narráció – „Nyitott, stabil madrih” | `M4.1-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M4.1-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | SLIDE 4 közös bevezető narráció – „Mi a különbség?” | `M4.1-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M4.1-NAR-07` | voiceover/narration | legyártandó | jogtisztázás alatt | SLIDE 6 outro narráció – „Mire figyelek legközelebb?” | `M4.1-NAR-07-VO` | felirat, leirat | AI-generált |
 | `M4.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélőfej-videó – „Mit gondolnak rólad az első 5 másodpercben?” | `M4.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
-| `M4.1-VID-02` | video/interactive | legyártandó | jogtisztázás alatt | Interactive Video – 3 madrich-kiállás mini-jelenettel + beágyazott kérdések | kompozit: `M4.1-VID-03` + `M4.1-VID-04` + `M4.1-VID-05` | felirat, leirat, alt-szöveg | AI-generált |
-| `M4.1-VID-03` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” | `M4.1-NAR-03-VO` | alt-szöveg | AI-generált |
-| `M4.1-VID-04` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 2 karaktervideó – „Ideges topogó madrich” | `M4.1-NAR-04-VO` | alt-szöveg | AI-generált |
-| `M4.1-VID-05` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 3 karaktervideó – „Nyitott, stabil madrich” | `M4.1-NAR-05-VO` | alt-szöveg | AI-generált |
+| `M4.1-VID-02` | video/interactive | legyártandó | jogtisztázás alatt | Interactive Video – 3 madrih-kiállás mini-jelenettel + beágyazott kérdések | kompozit: `M4.1-VID-03` + `M4.1-VID-04` + `M4.1-VID-05` | felirat, leirat, alt-szöveg | AI-generált |
+| `M4.1-VID-03` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrih” | `M4.1-NAR-03-VO` | alt-szöveg | AI-generált |
+| `M4.1-VID-04` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 2 karaktervideó – „Ideges topogó madrih” | `M4.1-NAR-04-VO` | alt-szöveg | AI-generált |
+| `M4.1-VID-05` | video/explainer | legyártandó | jogtisztázás alatt | Jelenet 3 karaktervideó – „Nyitott, stabil madrih” | `M4.1-NAR-05-VO` | alt-szöveg | AI-generált |
 
 ### 02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md
 
@@ -565,7 +565,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.4-DIA-02` | diagram | legyártandó | specifikáció kész | Slide 2 definíciós bullet-vizuál: „Peulabemutató =" | — | alt-szöveg | AI-generált |
 | `M4.4-DIA-03` | diagram | legyártandó | specifikáció kész | Slide 3 sablon-vizuál: 5 kérdéses peulabemutató-sablon | — | alt-szöveg | AI-generált |
 | `M4.4-DIA-05` | diagram | legyártandó | specifikáció kész | Slide 5 sablon-vizuál + összefoglaló | — | alt-szöveg | AI-generált |
-| `M4.4-ILL-01` | illustration | legyártandó | specifikáció kész | Hook-jelenet: madrich a kvuca előtt, 45 mp nyomás | — | alt-szöveg | AI-generált |
+| `M4.4-ILL-01` | illustration | legyártandó | specifikáció kész | Hook-jelenet: madrih a kvuca előtt, 45 mp nyomás | — | alt-szöveg | AI-generált |
 | `M4.4-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Slide 1 narráció – „45 mp-ed van… Mit mondasz?" | `M4.4-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M4.4-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Slide 2 narráció – „Mi az a rövid peulabemutató?" | `M4.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M4.4-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Slide 3 narráció – Az 5 kérdéses peulabemutató-sablon | `M4.4-NAR-03-VO` | felirat, leirat | AI-generált |
@@ -637,7 +637,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M5.2-DIA-01` | diagram | legyártandó | specifikáció kész | Központi sorrend-folyamatábra: feladat → cél → kvuca → módszer | — | alt-szöveg | AI-generált |
 | `M5.2-DIA-02` | diagram | legyártandó | specifikáció kész | Döntési fa térkép – 4 ág + közös visszacsatlakozás | — | alt-szöveg | AI-generált |
 | `M5.2-IKO-01` | icon-set | legyártandó | specifikáció kész | Ág-azonosító ikonkészlet (4 ikon) | — | alt-szöveg | AI-generált |
-| `M5.2-ILL-01` | illustration | legyártandó | specifikáció kész | Bevezető jelenet-illusztráció: madrich a péntek esti felkérés előtt | — | alt-szöveg | AI-generált |
+| `M5.2-ILL-01` | illustration | legyártandó | specifikáció kész | Bevezető jelenet-illusztráció: madrih a péntek esti felkérés előtt | — | alt-szöveg | AI-generált |
 | `M5.2-MUNK-01` | worksheet | legyártandó | specifikáció kész | Feladat–cél–kvuca–módszer mondatbefejező munkalap | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md
@@ -652,7 +652,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M5.3-ILL-02` | illustration | legyártandó | specifikáció kész | Somer-példák a három fogalomra – három mini-jelenet | — | alt-szöveg | AI-generált |
 | `M5.3-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – három kulcsfogalom (20-30 mp) | `M5.3-NAR-01-VO` | felirat, leirat | AI-generált |
 
-### 02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md
+### 02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md
 
 *Egység:* `M5.4` · *típus:* online-lecke
 
@@ -837,7 +837,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.1-ILL-01` | illustration | legyártandó | specifikáció kész | Hook – 3 vágy-mondat kártya | — | alt-szöveg | AI-generált |
 | `M7.1-ILL-02` | illustration | legyártandó | specifikáció kész | Someres SMART példa – 2 kártya (szolidaritás / biztonság) | — | alt-szöveg | AI-generált |
 | `M7.1-ILL-03` | illustration | legyártandó | specifikáció kész | Példa prompt-kártya (AI-blokk) | — | alt-szöveg | AI-generált |
-| `M7.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SMART madrich-nyelven (opcionális) | `M7.1-NAR-01-VO` | felirat, leirat | AI-generált |
+| `M7.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SMART madrih-nyelven (opcionális) | `M7.1-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M7.1-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – záró feladat instrukció (opcionális) | `M7.1-NAR-02-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md
@@ -848,7 +848,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M7.2-DIA-01` | diagram | legyártandó | specifikáció kész | Peula 11 pontja – 3 fázisú térkép diagram | — | alt-szöveg | AI-generált |
 | `M7.2-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikon-készlet – Megírás 4 pontja (játék, idővonal, óra, doboz) | — | alt-szöveg | AI-generált |
-| `M7.2-ILL-01` | illustration | legyártandó | specifikáció kész | Illusztráció – madrich tervez (laptopnál/jegyzetfüzettel) | — | alt-szöveg | AI-generált |
+| `M7.2-ILL-01` | illustration | legyártandó | specifikáció kész | Illusztráció – madrih tervez (laptopnál/jegyzetfüzettel) | — | alt-szöveg | AI-generált |
 | `M7.2-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | SLIDE 2 narráció – „A Peula 11 pontjának térképe” | `M7.2-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.2-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | SLIDE 3 narráció – Előkészítés (4 pont) | `M7.2-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M7.2-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | SLIDE 4 narráció – Megírás (4 pont) + 4 fázis | `M7.2-NAR-04-VO` | felirat, leirat | AI-generált |
@@ -878,7 +878,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M7.4-DIA-01` | diagram | legyártandó | specifikáció kész | 3 építőkocka diagram – SMART cél / Peula 11 pontja / Zmán Kvucá | — | alt-szöveg | AI-generált |
-| `M7.4-IKO-01` | icon-set | újrahasznosítás | specifikáció kész | Kvuca-típus piktogramok – Parparim / Kivsza / Leviatan | — | — | AI-generált |
+| `M7.4-IKO-01` | icon-set | újrahasznosítás | specifikáció kész | Kvuca-típus piktogramok – Parparim / Kivsza / Leviatán | — | — | AI-generált |
 | `M7.4-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél) | `M7.4-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M7.4-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – zárás (gratuláció + következő lépés) | `M7.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.4-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK – AI beszélő fej: papíron szép vs. vállalható peula | `M7.4-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
@@ -1012,7 +1012,7 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a két madrich dialógushangja, a hangok jogosultsága (R2, V2) és a kétszereplős, szájszinkronos gyártási út. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a két madrih dialógushangja, a hangok jogosultsága (R2, V2) és a kétszereplős, szájszinkronos gyártási út. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
 
 ---
 

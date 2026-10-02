@@ -65,6 +65,15 @@ LEGACY_PATHS = [
     # 2026-10-02 projektgazdai döntés: „lépéstérkép” és „Nemcsak” (egyszeri, atomikus átnevezés).
     '02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md',
     '02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md',
+    # 2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód (madrih, dugma isit, Leviatán).
+    '02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md',
+    '02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md',
+    '02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md',
+    '02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md',
+    '02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md',
+    '02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md',
+    '02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md',
+    '02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md',
 ]
 
 REQUIRED_FILES = [
@@ -154,6 +163,8 @@ FILE_FORBIDDEN_PHRASES = {
     },
     '02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md': {
         'Parparim / Kivsza / Leviatan / Zorea':
+            'az M7 kvuca-választója a három aktuális kvucát használja (HUM-SOMER-02)',
+        'Parparim / Kivsza / Leviatán / Zorea':
             'az M7 kvuca-választója a három aktuális kvucát használja (HUM-SOMER-02)',
     },
     '02 Tervezet/Média-assetek/produkcios-szabalyok.json': {

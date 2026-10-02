@@ -93,7 +93,7 @@ végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 |---|---|
 | **Szolgáltató** | ✅ **ElevenLabs** — lezárva |
 | **Hangjelöltek** | ✅ **VOICE-SRC-01** · **VOICE-SRC-02** — forrás-beszélők; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
-| **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 216 karakter, ≈ 0,16–0,64 $ |
+| **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 208 karakter, ≈ 0,16–0,64 $ |
 | **Modell** | 🔎 javaslat: **`eleven_flash_v2_5`**, `language_code: "hu"` |
 | **Tempó** | `speed` paraméter (0,7–1,2) a 100–120 szó/perc célsávra |
 | **Kiejtés** | alias-szabályok szótárban — **csak a ténylegesen hibás szavakra**, a teszt után |
@@ -225,7 +225,7 @@ egyetlen klip újragyártására nincs garancia, hogy ugyanaz az arc jön vissza
 Hatókör: **5 jelenet + 1 B-roll**, és a belőlük kivett **2 freeze-frame**.
 
 A nehézség nem a videó, hanem a **karakter-azonosság**: az `M4.1-FOTO-01` specifikációja
-szó szerint „ugyanaz a madrich karba tett kézzel vs. nyitott kézzel” — tehát a három
+szó szerint „ugyanaz a madrih karba tett kézzel vs. nyitott kézzel” — tehát a három
 jelenetben ugyanannak az embernek kell látszania.
 
 | | Javaslat | Tartalék |
@@ -242,7 +242,7 @@ jelenetben ugyanannak az embernek kell látszania.
 helyett kitalált nyelvet mondjon, és **nyitva tartja a D2-t** — a hang bármikor
 lecserélhető a videó újragenerálása nélkül.
 
-**Ahol a néma generálás nem elég:** az `M1.3-VID-01` két madrich képernyőn zajló
+**Ahol a néma generálás nem elég:** az `M1.3-VID-01` két madrih képernyőn zajló
 párbeszéde — utólag aláillesztett hangnál nincs szájszinkron, és a
 [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 8. szakasza két megkülönböztethető hangot ír elő —,
 valamint az `M4.1-VID-04/05` szereplőjének saját megszólalása (a 2. jelenetben „gyorsan
@@ -270,7 +270,7 @@ lényegesen több — a generatív videónál 3–5 próbálkozásból lesz egy 
 
 | Köteg | Feltételezés | Alsó | Felső |
 |---|---|---:|---:|
-| **Hangválasztási teszt** — 6 minta, 2 hang × 3 szkript | **3 216 karakter, mérve** | **≈ 0,16 $** | **≈ 0,64 $** |
+| **Hangválasztási teszt** — 6 minta, 2 hang × 3 szkript | **3 208 karakter, mérve** | **≈ 0,16 $** | **≈ 0,64 $** |
 | **Hang** — ElevenLabs `flash_v2_5`, teljes tananyag 3× nyers | 150 000–225 000 karakter | **7,50 $** | **45,00 $** |
 | **Hang** — ElevenLabs `v3` (tartalék modell) | ugyanaz | 15,00 $ | 90,00 $ |
 | **Beszélőfej** — HeyGen, **nyilvános készlet-avatar** | 21 × 30 mp + 100% újragyártás ≈ 1 260 mp | **≈ 21 $** | **≈ 21 $** |
@@ -538,7 +538,7 @@ a produkciós fiók bizonyítékával. Ami a kutatás után is hiányzik:
   önbevalláson túl semmilyen bizonyíték-formát nem ír elő — a szervezetnek kell
   eldöntenie, mit tart és milyen formában;
 - **két emberi kapu**: a Google 18 év alatti hozzáférési záradékának olvasata (J1), és
-  az, hogy a beszélőfej/karakter felnőttnek kell hogy látsszon, miközben a madrich maga
+  az, hogy a beszélőfej/karakter felnőttnek kell hogy látsszon, miközben a madrih maga
   is lehet kiskorú (J2).
 
 A J2 **nem produkciós kérdés**, és ez a lap nem dönti el. A J1 és a J2 — a hangoldali V1-gyel
@@ -563,7 +563,7 @@ projektgazdai döntéssel lezárult; a sorukat nyomon követhetőségért hagytu
 | **D10** | ken alkohol- és dohányzási kódex | 2 asset | **LEZÁRVA** — projektgazdai döntés (2026-10-02): a `HUM-SAFE-04` szabálya (kiskorúaknak szóló programon nulla alkohol, dohány, vape és nikotin); utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna. A két asset állapota a lecke `decision` mezőjét követi |
 | **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2, R3 és R5 is ül rajta | **NYITVA** — a néma generálás erre nem alkalmazható (5. szakasz); a projektgazdai döntés (2026-10-02) szerint a hangjogosultsági bizonyítékig (`HUM-MEDIA-02`) blokkolt |
 | **J1** | a karakter-jelenet szolgáltatójának 18 év alatti hozzáférési záradéka | a karakter-jelenet stack sorsa | **jogi jóváhagyó** — a `HUM-MEDIA-02` alkapuja; felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
-| **J2** | a beszélőfej/karakter **felnőtt megjelenése** ↔ a madrich maga is lehet kiskorú | a beszélőfej- és karakter-brief | **Memuna (gyermekvédelmi felelős) + szerző** — a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
+| **J2** | a beszélőfej/karakter **felnőtt megjelenése** ↔ a madrih maga is lehet kiskorú | a beszélőfej- és karakter-brief | **Memuna (gyermekvédelmi felelős) + szerző** — a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
 | **J3** | *(új, 2026-08-28)* a beszélőfej-szolgáltató **visszavonhatatlan, továbbadható tanítási licencet** kér a feltöltött tartalomra — és épp a **klónozott hang** mesterét töltenénk fel | a beszélőfej-lánc élesítése | **jogi jóváhagyó + a hang jogosultja** |
 | **V1** | *(átkeretezve)* a választott hang-szolgáltató **nem ír elő** közlési kötelezettséget előre renderelt narrációra. Az R1-címke ettől **projektszabály marad**. Ami nyitva van: kell-e kiskorú tanulóknál külön **szülői** tájékoztatás — ez a tananyag kérdése, nem a szolgáltatóé | a hang-stack élesítése | **Memuna (gyermekvédelmi felelős) + DPO** — a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
 | **V2** | *(új)* a **hang-jogosultság bizonyítéka**: a szolgáltató önbevalláson túl semmilyen formát nem ír elő | a kanonikus hang használhatósága | **jogi jóváhagyó + a hang jogosultja** |

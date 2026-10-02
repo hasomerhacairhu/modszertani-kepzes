@@ -9,7 +9,7 @@ tananyag **kanonikus narrátora**.
 | **Jelöltek** | **VOICE-SRC-01** · **VOICE-SRC-02** — **forrás-beszélők**: az ő felvételeikből készül majd a két ElevenLabs egyedi hang, amelyek **még nem jöttek létre** |
 | **Eldöntendő** | melyik a kanonikus narrátor |
 | **Minta** | **6 db** — 2 hang × 3 meglévő tananyag-szkript |
-| **Mért méret** | **3 216 karakter** összesen |
+| **Mért méret** | **3 208 karakter** összesen |
 | **Becsült költség** | **0,16 – 0,64 $** (`eleven_flash_v2_5`) — a szolgáltató két árazási felülete eltérő szorzót ad; mindkét olvasatban **egy dollár alatt** |
 | **Állapot** | ⛔ **nem futtatható — a két ElevenLabs hang még nincs létrehozva** (előbb: hozzájárulás-bizonyíték → tanítási kimaradás → hang-létrehozás → azonosítás) |
 
@@ -156,10 +156,10 @@ a forrás-hivatkozás és a kiválasztás indoklása:
 | Szkript | Asset | Forrás-hash | Karakter | Szó | Lecke-időkeret | Mit mér |
 |---|---|---|---:|---:|---|---|
 | **P1** | `M3.1-NAR-02` | `92d86f7be3c403a5` | **899** | 136 | 60–75 mp | hosszú magyarázó ív, hangsúly, angol szakszavak, évszám |
-| **P2** | `M6.2-NAR-04` | `72d4bb4dbb80803a` | **438** | 71 | 40–50 mp | visszafogott érzelmi sáv, idézet, `madrich`/`chanich`/`peula` |
-| **P3** | `M3.1-NAR-05` | `1e11927c2c353b9d` | **271** | 40 | 15–20 mp | mind a három aktuális kvuca-tulajdonnév |
-| | | **hangonként** | **1 608** | 247 | ≈ 2 perc | |
-| | | **hat minta** | **3 216** | 494 | ≈ 4 perc | |
+| **P2** | `M6.2-NAR-04` | `f78f0c8b737f2434` | **434** | 71 | 40–50 mp | visszafogott érzelmi sáv, idézet, `madrih`/`hanih`/`peula` |
+| **P3** | `M3.1-NAR-05` | `17184b1a6e2cf25c` | **271** | 40 | 15–20 mp | mind a három aktuális kvuca-tulajdonnév |
+| | | **hangonként** | **1 604** | 247 | ≈ 2 perc | |
+| | | **hat minta** | **3 208** | 494 | ≈ 4 perc | |
 
 **A mátrix:**
 
@@ -197,19 +197,19 @@ kiejtés” oszlop már a döntés szerinti alakot adja meg.
 |---|---|---|---|
 | `kvuca`, `kvucába`, `kvucának` | „kvuca” — a **c** = /ts/ | P1, P2, P3 | angol /k/ vagy /kw/ olvasat |
 | `someres` | **s** = /ʃ/ | P1, P3 | angol /s/ |
-| `madrich`, `madrichhoz` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/, nem /k/ | P2 | **magas** — héber eredetű szóvégi hang |
-| `chanich` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | P2 | **magas** |
+| `madrih`, `madrihhoz` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/, nem /k/ | P2 | **magas** — héber eredetű szóvégi hang |
+| `hanih` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | P2 | **magas** |
 | `peula` | „peula” | P2 | ékezet vagy hangsúly elcsúszása |
 | `Parparim` | „parparim” | P3 | idegen hangsúly |
 | `Kivsza` | „kivsza” | P3 | — |
-| `Leviatan` | „leviatán” — hosszú **á**, a first-party alak szerint | P3 | a hangzóhossz és a hangsúly |
+| `Leviatán` | „leviatán” — hosszú **á**, a first-party alak szerint | P3 | a hangzóhossz és a hangsúly |
 | `Tuckman` | a pilot rögzíti; utána következetesen | P1 | nincs kánoni előírás |
 | `1977-ben` | „ezerkilencszázhetvenhét-ben”, nem számjegyenként | P1 | számnormalizálás |
 | `forming` / `storming` / `norming` / `performing` / `adjourning`-ot | angol olvasat magyar mondatban, az utolsó magyar toldalékkal | P1 | kódváltás |
 | `👉` (5×) | **nem hangzik el** | P1 | ha a tisztítás kimaradt, felolvassa |
 
 **Amit a három szkript nem fed le**, és a köteg-jóváhagyáskor külön kell ellenőrizni:
-`ken`, `Zmán Kvucá`, `dugma ishit`, `hagshama`, `bogrim`, `mazkirut`, `Hasomer Hacair`,
+`ken`, `Zmán Kvucá`, `dugma isit`, `hágsámá`, `bogrim`, `mazkirut`, `Hasomer Hacair`,
 `Johari`, az `SBI` betűzés, a korosztály-tartományok és az időtartamok.
 
 > **Ha egy szó elromlik:** a `flash_v2_5` **alias**-szabályt fogad el (fonéma-szabályt
@@ -261,7 +261,7 @@ kibírja-e 117 tételen — nem az, hogy melyik szebb egyetlen mintán.
 ### 5.1. Azonnali bukás — bármelyik önmagában kizár egy hangot
 
 - [ ] **B1 — Javíthatatlan kiejtés.** Egy kánoni someres szó rosszul szól, és
-      alias-szabállyal sem hozható helyre. *(Ilyen lehet például a `Leviatan`
+      alias-szabállyal sem hozható helyre. *(Ilyen lehet például a `Leviatán`
       hangzóhossza, ha alias-szabállyal sem hozható a 4. szakasz szerinti „leviatán”
       alakra.)*
 - [ ] **B2 — Instabilitás generálások között.** Ugyanaz a szöveg, ugyanaz a seed és

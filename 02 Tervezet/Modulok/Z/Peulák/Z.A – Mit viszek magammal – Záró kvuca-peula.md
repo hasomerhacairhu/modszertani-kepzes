@@ -8,7 +8,7 @@
 **Modul:** `Z – Zárás & híd a terepre`
 **Időtartam:** `45’–75’ (ideális: 75’, szűkített verzió: 45’)`
 
-**Korosztály:** képzős madrichok (15+)
+**Korosztály:** képzős madrihok (15+)
 **Létszám:** kb. 8–20 fő
 
 **Fő célok (tanulói nyelven):**
@@ -21,7 +21,7 @@
 **Kapcsolat az online résszel:**
 
 * **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 idővonal, tanulási pillanatok, következő lépések).
-* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzési visszajelzés” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg a feldolgozásban). A Z.4-ben a madrich a peulán megfogalmazott gondolataiból dolgozik.
+* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzési visszajelzés” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg a feldolgozásban). A Z.4-ben a madrih a peulán megfogalmazott gondolataiból dolgozik.
 
 ***
 
@@ -200,10 +200,10 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    >
    > **Ha ez a téma téged is érint:** nem kell személyes részletet megosztanod. Mondhatsz passzt, kérhetsz szünetet, vagy beszélhetsz külön a mentoroddal vagy a Somer gyermekvédelmi kontaktjával. Ha te vagy valaki más veszélyben van, ezzel ne maradj egyedül: használd a „Segítség és kapcsolatok” blokkban megadott gyermekvédelmi utat. Közvetlen veszélyben hívd a 112-t. Ha 18 év alatti vagy, a gondviselődet bevonhatjuk, amikor ez a biztonságodat szolgálja. Ha a gondviselő bevonása növelhetné a veszélyt, vagy ő maga érintett a helyzetben, a Memuna más biztonságos felnőttet vagy hivatalos segítséget von be.
    >
-   > „Ne mondj chanich-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat. Figyeljetek arra, hogy amit a másik mond, azt **nem visszük tovább pletykaként vagy engedély nélkül**. Egy fontos kivétel van: ha valaki veszélyben lehet, vagy gyermekvédelmi aggály merül fel, **nem ígérünk teljes titoktartást**, hanem a lehető legszűkebb körben azonnal bevonjuk a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét). Ha valós gyermekvédelmi aggályod van, azt ne itt, a körben mondd el, hanem azonnal vond be a Memunát.”
+   > „Ne mondj hanih-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat. Figyeljetek arra, hogy amit a másik mond, azt **nem visszük tovább pletykaként vagy engedély nélkül**. Egy fontos kivétel van: ha valaki veszélyben lehet, vagy gyermekvédelmi aggály merül fel, **nem ígérünk teljes titoktartást**, hanem a lehető legszűkebb körben azonnal bevonjuk a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét). Ha valós gyermekvédelmi aggályod van, azt ne itt, a körben mondd el, hanem azonnal vond be a Memunát.”
    * **M0-tükör (kb. 1 perc – kösd vissza az első peulához):** Az első, kickoff-peulán (M0.A) a kvuca egy plakátra felírta, hogy **mit vár, mitől fél, mit hoz** a képzésbe – akkor azt ígértük, hogy a Z-modulnál visszanézünk rá. Ha az eredeti plakát fizikailag megvan, **hozd be és függeszd ki** most (a 2.3 szerint előre átnézve); ha nincs meg, emlékezetből idéztesd fel. Indító mondat:
      > „Az első alkalmon felírtátok egy plakátra, mit vártok ettől a képzéstől, mitől féltek, és mit hoztok bele. Most, mielőtt párba álltok, gondolj vissza: **amitől akkor féltél, az hogy alakult? Amit vártál, megvalósult-e?** Lehet, hogy épp ez lesz az egyik tanulási pillanatod, amit meg tudsz osztani mindjárt.”
-     > Aki az **M0.1–M0.2 online leckében** elmentette magának a *„Mit várok ettől az évtől madrichként?”* és a *„Madrichként ebben az évben figyelek rá, hogy…”* mondatát, most idézze fel (jegyzetből vagy emlékezetből) – ez is lehet az egyik tanulási pillanatod, amit mindjárt megosztasz a párodnak. Ha nincs meg, semmi gond, idézd fel körülbelül.
+     > Aki az **M0.1–M0.2 online leckében** elmentette magának a *„Mit várok ettől az évtől madrihként?”* és a *„Madrihként ebben az évben figyelek rá, hogy…”* mondatát, most idézze fel (jegyzetből vagy emlékezetből) – ez is lehet az egyik tanulási pillanatod, amit mindjárt megosztasz a párodnak. Ha nincs meg, semmi gond, idézd fel körülbelül.
 2. **Párok / hármasok kialakítása (1–2 perc)**
    * Kérd meg őket, hogy alakítsanak **párokat vagy hármasokat** (létszámtól függ).
    * Ha valaki egyedül maradna, a képző csatlakozik hozzá.
@@ -331,7 +331,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Minden kiscsoportból 1–2 ember **max. 1-1 percben** bemutatja:
      – 1 dolgot a bal oldalról („Mit tanultunk?”),
      – 1 dolgot a jobb oldalról („Mit csinálunk másképp a terepen?”).
-   > „Ha csak ezeket a mondatokat nézem, már most látszik, hogy mennyi minden történt ebben a félévben, és hogy nagyon konkrét ötleteitek vannak arra, hogyan legyetek madrichok a terepen.”
+   > „Ha csak ezeket a mondatokat nézem, már most látszik, hogy mennyi minden történt ebben a félévben, és hogy nagyon konkrét ötleteitek vannak arra, hogyan legyetek madrihok a terepen.”
 
 ***
 
@@ -531,4 +531,4 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 6. **Híd az online Z.4-hez / terepre**
    * Tudod, mit fogsz mondani a peula végén arról, hogy:
      – **hol folytatódik** ez a folyamat online (Z.4 Assignment + visszajelzés),
-     – és mit jelent ez a terepre lépő madrich-szerep szempontjából?
+     – és mit jelent ez a terepre lépő madrih-szerep szempontjából?

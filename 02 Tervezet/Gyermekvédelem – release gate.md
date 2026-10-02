@@ -14,7 +14,7 @@ A **Gyermekvédelmi működési standard v1.0 (Child Protection Operating Standa
 
 ## 2. Release-szabály
 
-M3.3, M3.B, az M3-kapu, valamint minden olyan tananyagelem, amely bántalmazásról, önsértésről, groomingról, szexuális/romantikus határátlépésről, súlyos veszélyeztetettségről vagy külső jelzésről tanít, **nem nyitható meg valódi madrichoknak írásos gyermekvédelmi jóváhagyás nélkül**. A jóváhagyó a §5 jóváhagyói rendje (projektgazdai döntés, 2026-10-02) szerint a Memuna; jogi kérdésben a jogi szakértő.
+M3.3, M3.B, az M3-kapu, valamint minden olyan tananyagelem, amely bántalmazásról, önsértésről, groomingról, szexuális/romantikus határátlépésről, súlyos veszélyeztetettségről vagy külső jelzésről tanít, **nem nyitható meg valódi madrihoknak írásos gyermekvédelmi jóváhagyás nélkül**. A jóváhagyó a §5 jóváhagyói rendje (projektgazdai döntés, 2026-10-02) szerint a Memuna; jogi kérdésben a jogi szakértő.
 
 Zárt Moodle-stagingben, szintetikus tesztadatokkal és csak szerkesztői/QA hozzáféréssel ezek az elemek felépíthetők és technikailag tesztelhetők.
 
@@ -28,7 +28,7 @@ A jelen repo biztonságos szakmai alapértelmezése: súlyos helyzeteket **harma
 
 A hatályos 1997. évi XXXI. törvény 17. § (1) a gyermekvédelmi jelzőrendszer résztvevői között **egyesületeket, alapítványokat és egyházi jogi személyeket is nevesít**. A 17. § (2) a felsorolt intézmények és személyek számára veszélyeztetettség esetére jelzést, súlyos esetekben hatósági eljárás kezdeményezését írja elő.
 
-**Nyitott jogi alkalmazási kérdés:** a képzést ténylegesen működtető szervezeti jogalany, a madrichok és az egyes önkéntes szerepkörök pontosan hogyan esnek a törvényi kötelezettségek alá. Ezt a repository nem minősíti önállóan.
+**Nyitott jogi alkalmazási kérdés:** a képzést ténylegesen működtető szervezeti jogalany, a madrihok és az egyes önkéntes szerepkörök pontosan hogyan esnek a törvényi kötelezettségek alá. Ezt a repository nem minősíti önállóan.
 
 ### 3.2. Btk. 209/A. §
 
@@ -52,10 +52,10 @@ A telefonszámokat learner release előtt újra ellenőrizni kell.
 Ezek a szabályok a tananyagban akkor is maradnak, ha a konkrét szervezeti/jogi minősítés még nyitott:
 
 - nincs 100%-os titoktartási ígéret;
-- a madrich meghallgat, de **nem nyomoz**, nem folytat rávezető kérdésekkel „kihallgatást”;
-- a madrich nem konfrontál feltételezett elkövetőt;
-- a madrich nem vállal egyedüli felelősséget gyermekvédelmi ügyben;
-- a 15–17 éves madrich **vezethet peulát, de soha nem ő az egyetlen felelős felnőtt**: minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és **a gyermekvédelmi felelősség az övé**; a madrich a saját szerepében figyel és jelez;
+- a madrih meghallgat, de **nem nyomoz**, nem folytat rávezető kérdésekkel „kihallgatást”;
+- a madrih nem konfrontál feltételezett elkövetőt;
+- a madrih nem vállal egyedüli felelősséget gyermekvédelmi ügyben;
+- a 15–17 éves madrih **vezethet peulát, de soha nem ő az egyetlen felelős felnőtt**: minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és **a gyermekvédelmi felelősség az övé**; a madrih a saját szerepében figyel és jelez;
 - érzékeny, súlyos vagy személyesen érintő gyakorlatból bárki **indoklás nélkül passzolhat**, szünetet vagy egyenértékű alternatívát kérhet;
 - a résztvevőnek nem kell saját traumát vagy érzékeny történetet megosztania;
 - ha a képzés közben saját érintettség kerül elő, a facilitátor nem folytat nyilvános feldolgozást, hanem biztonságos támogatási útra terel (a tanulói „ha téged is érint” blokk: §4.3);
@@ -63,7 +63,7 @@ Ezek a szabályok a tananyagban akkor is maradnak, ha a konkrét szervezeti/jogi
 - a tananyag nem ír elő automatikus négyszemközti félrevonulást;
 - diszkrét beszélgetés csak **átlátható helyzetben**, a §4.2 safer-working szabálya szerint.
 
-A kiskorú madrichra, a passzra és a felkavart kiskorúra vonatkozó pontok, valamint a §4.1–4.3 szervezeti szabályként a HUM-SAFE-01–03 **projektgazdai döntéseit (2026-10-02)** rögzítik; utólagos ellenőrzés (vétó/QA): a Memuna és a §5-ben tételenként megnevezett további szerepek.
+A kiskorú madrihra, a passzra és a felkavart kiskorúra vonatkozó pontok, valamint a §4.1–4.3 szervezeti szabályként a HUM-SAFE-01–03 **projektgazdai döntéseit (2026-10-02)** rögzítik; utólagos ellenőrzés (vétó/QA): a Memuna és a §5-ben tételenként megnevezett további szerepek.
 
 ### 4.1. Az ötlépéses jelzési út (HUM-SAFE-01)
 
@@ -78,8 +78,8 @@ A kiskorú madrichra, a passzra és a felkavart kiskorúra vonatkozó pontok, va
 - **Memuna:** a Somer gyermekvédelmi felelőse. A Somer–Magyar szótár szerint ő felel azért, hogy a sértéssel, bántalmazással, zaklatással kapcsolatos ügyekben felelősen, gyorsan és biztonságosan járjon el. Tanulói fájlban az első előforduláskor: „a kijelölt **Memuna** (a Somer gyermekvédelmi felelőse)”, utána „a Memuna”.
 - A jelzés címzettje gyermekvédelmi ügyben mindig a Memuna (összeférhetetlenségnél a név szerint kijelölt helyettese), nem a mentor, nem a ken-vezető, nem „egy felnőtt” és nem a szülő. Ahol a mentor nem gyermekvédelmi ügyben, hanem tanulástámogatóként szerepel, ott a mentor marad.
 - Első személyű változat (pl. az M3.B közös flipchartján) megengedett, ha tartalmilag pontosan ez az öt lépés, ugyanebben a sorrendben. Ahol a teljes felsorolás nem a hely feladata, elég az utalás: „az ötlépéses jelzési út szerint (M3.B lépéstérkép)” vagy „azonnal vond be a Memunát”. Négylépéses, csonka vagy versengő változat nem maradhat a tananyagban.
-- A régi szövegek védő elemei maradnak: a titoktartás határáról szóló minta-mondat, a „nem faggatom”, a „ne találj ki helyi útvonalat, ha nincs” utasítás, és az, hogy a további lépésekről (szülő, szakember bevonása) innentől nem a madrich dönt egyedül (a 3–4. lépés magyarázataként).
-- **Dokumentálás:** a gyermekvédelmi ügy dokumentációja nem Moodle-ben készül, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban. A madrich nem ír Moodle-be, csoportchatbe, kvízválaszba vagy beadandóba az esetről azonosítható részletet.
+- A régi szövegek védő elemei maradnak: a titoktartás határáról szóló minta-mondat, a „nem faggatom”, a „ne találj ki helyi útvonalat, ha nincs” utasítás, és az, hogy a további lépésekről (szülő, szakember bevonása) innentől nem a madrih dönt egyedül (a 3–4. lépés magyarázataként).
+- **Dokumentálás:** a gyermekvédelmi ügy dokumentációja nem Moodle-ben készül, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban. A madrih nem ír Moodle-be, csoportchatbe, kvízválaszba vagy beadandóba az esetről azonosítható részletet.
 - **Incidensnyilvántartás (projektgazdai döntés, 2026-10-02):** Google Workspace Shared Drive → `Restricted / Safeguarding / Incidents`; hozzáférés csak a Memunának, a helyettesnek és a szervezeti vezetőnek. Nem Moodle, nem GitHub.
 - **Kontakt és helyettes (projektgazdai döntés, 2026-10-02):** a tanulói elsődleges gyermekvédelmi kontakt a Somer mindenkori, a `somer.hu/kapcsolat` oldalon publikált **Memunája** (2026-10-02-án: Marci). **Helyettes:** a **Ros Hinuh** (oktatási vezető; 2026-10-02-án: Lili). Ha bármelyikük érintett, a másikhoz kell fordulni. Ha mindkettő érintett vagy nem elérhető: Kék Vonal **116-111**, bántalmazott vagy eltűnt gyermek ügyében **116-000**, közvetlen veszélyben **112** (§3.3).
 - **Telefon:** a Somer központi száma, **+36 70 42 76 637** (+36-70-HA-SO-MER), a kapcsolati oldal szerint hétköznap 10–18 óra között. Ez nem ügyeleti vonal: munkaidőn kívül és közvetlen veszélyben a 112, illetve a Kék Vonal az út.
@@ -111,15 +111,15 @@ Mind az öt tételben **projektgazdai döntés (2026-10-02)** született; a tart
 
 - **HUM-SAFE-01:** helyi gyermekvédelmi felelős, elérhetőség, helyettes/külső út, akut-eszkaláció, dokumentálás. *Projektgazdai döntés:* az ötlépéses jelzési út az egyetlen kánon (§4.1); a jelzés címzettje a Memuna, helyettese a Ros Hinuh; közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés; a dokumentáció külön, hozzáférés-korlátozott incidensnyilvántartásban készül, nem Moodle-ben. A kontaktot, a külső utat és a nyilvántartás helyét a §4.1 rögzíti. Utólagos ellenőrzés (vétó/QA): a Memuna és a helyettese.
 - **HUM-SAFE-02:** négyszemközti / safer-working szabály. *Projektgazdai döntés:* a szabály minden fizikai és digitális 1:1 helyzetre kiterjed; az előre meghatározott kivételek: előre egyeztetett mentorbeszélgetés, biztonsági vagy feltárási beszélgetés, rövid technikai segítség, legfeljebb 30 percig (§4.2). Utólagos ellenőrzés (vétó/QA): a Memuna.
-- **HUM-SAFE-03:** a madrich saját érintettsége, passz/alternatíva, kiskorú madrich felügyelete. *Projektgazdai döntés:* a 15–17 éves madrich vezethet peulát, de soha nem ő az egyetlen felelős felnőtt; minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt, akié a gyermekvédelmi felelősség; érzékeny gyakorlatból bárki indoklás nélkül passzolhat; felkavart kiskorút nem küldünk ki egyedül (§4). A „ha téged is érint” blokk és a gondviselői szabály: §4.3. Utólagos ellenőrzés (vétó/QA): a Memuna és a programvezető.
+- **HUM-SAFE-03:** a madrih saját érintettsége, passz/alternatíva, kiskorú madrih felügyelete. *Projektgazdai döntés:* a 15–17 éves madrih vezethet peulát, de soha nem ő az egyetlen felelős felnőtt; minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt, akié a gyermekvédelmi felelősség; érzékeny gyakorlatból bárki indoklás nélkül passzolhat; felkavart kiskorút nem küldünk ki egyedül (§4). A „ha téged is érint” blokk és a gondviselői szabály: §4.3. Utólagos ellenőrzés (vétó/QA): a Memuna és a programvezető.
 - **HUM-SAFE-04:** alkohol- és dohányzási szabály. *Projektgazdai döntés:* kiskorúaknak szóló programon **nulla alkohol, dohány, e-cigaretta (vape) és nikotintermék**; 18 év alatt ezek egyike sem. Felelős felnőtt szolgálat alatt nem fogyaszt alkoholt, és nem lehet befolyásolt állapotban. Dohányozni csak szolgálaton kívül, kijelölt helyen, a gyerekektől elkülönítve lehet. A törvény minimumként tiltja az alkohol és a dohány kiszolgálását 18 év alatt; a szervezet ennél **szigorúbb** szabályt alkalmaz. Utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna.
-- **HUM-SAFE-05:** a programban dolgozó 18 év feletti stáb és a 15–17 éves madrichok szerepkörönkénti alkalmassági ellenőrzése, dokumentált gyermekvédelmi felkészítése és felülvizsgálata. *Projektgazdai döntés:* szerepkör-alapú alkalmassági rend. 18 év feletti képző, mentor és rendszeresen gyerekekkel dolgozó önkéntes: személyazonosság-ellenőrzés, a szerephez szükséges erkölcsi bizonyítvány, a Child Protection Policy – a képzésben a Gyermekvédelmi működési standard v1.0 (§5.1) – elfogadása, gyermekvédelmi + safer-working + adatvédelmi képzés; évente rövid megújító képzés és nyilatkozat; új szerepkörnél új ellenőrzés. 15–17 éves madrich: képzés + magatartási kódex + felnőtt felügyelet. *Erkölcsi bizonyítvány (projektgazdai döntés, 2026-10-02):* 18 év feletti képző, mentor és rendszeresen, közvetlenül gyermekekkel dolgozó önkéntes: **hatósági erkölcsi bizonyítvány**, amely igazolja, hogy (a) büntetlen előéletű, és (b) nem áll foglalkozástól vagy tevékenységtől eltiltás hatálya alatt. Belépéskor legfeljebb 90 napos dokumentum, majd **kétévente új**, közben éves önnyilatkozat (jogszabályi háttér: a bűnügyi nyilvántartási rendszerről szóló 2009. évi XLVII. törvény). Utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna; jogi kérdésben jogi szakértő.
+- **HUM-SAFE-05:** a programban dolgozó 18 év feletti stáb és a 15–17 éves madrihok szerepkörönkénti alkalmassági ellenőrzése, dokumentált gyermekvédelmi felkészítése és felülvizsgálata. *Projektgazdai döntés:* szerepkör-alapú alkalmassági rend. 18 év feletti képző, mentor és rendszeresen gyerekekkel dolgozó önkéntes: személyazonosság-ellenőrzés, a szerephez szükséges erkölcsi bizonyítvány, a Child Protection Policy – a képzésben a Gyermekvédelmi működési standard v1.0 (§5.1) – elfogadása, gyermekvédelmi + safer-working + adatvédelmi képzés; évente rövid megújító képzés és nyilatkozat; új szerepkörnél új ellenőrzés. 15–17 éves madrih: képzés + magatartási kódex + felnőtt felügyelet. *Erkölcsi bizonyítvány (projektgazdai döntés, 2026-10-02):* 18 év feletti képző, mentor és rendszeresen, közvetlenül gyermekekkel dolgozó önkéntes: **hatósági erkölcsi bizonyítvány**, amely igazolja, hogy (a) büntetlen előéletű, és (b) nem áll foglalkozástól vagy tevékenységtől eltiltás hatálya alatt. Belépéskor legfeljebb 90 napos dokumentum, majd **kétévente új**, közben éves önnyilatkozat (jogszabályi háttér: a bűnügyi nyilvántartási rendszerről szóló 2009. évi XLVII. törvény). Utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna; jogi kérdésben jogi szakértő.
 
 **Gyermekvédelmi jóváhagyó.** **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a Memuna és a helyettese (HUM-SAFE-01). A gyermekvédelmi jóváhagyás egyetlen felelőse a **Memuna** (a Somer gyermekvédelmi felelőse); a programvezető operatív társdöntő; jogi szakértő csak a jogi minősítésnél.
 
 ### 5.1. Gyermekvédelmi működési standard v1.0 (Child Protection Operating Standard v1.0)
 
-**Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a Memuna, tételenként a fenti szerepekkel. A madrichképzés kanonikus minimum-gyermekvédelmi szabályrendszere a HUM-SAFE-01…05 együtt, **Gyermekvédelmi működési standard v1.0 (Child Protection Operating Standard v1.0)** néven. A képzésben ez az elsődleges normatív dokumentum, nem a régi, elérhetetlen Child Protection Policy PDF. Ahol a tananyag Child Protection Policyra hivatkozik, ezt a standardot érti rajta. A standard nem külön fájl: elemei ennek a dokumentumnak (és az adatvédelmi elemnél az `Adatvédelem – tanulói adatok és AI.md`-nek) az alábbi pontjaiban élnek.
+**Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a Memuna, tételenként a fenti szerepekkel. A madrihképzés kanonikus minimum-gyermekvédelmi szabályrendszere a HUM-SAFE-01…05 együtt, **Gyermekvédelmi működési standard v1.0 (Child Protection Operating Standard v1.0)** néven. A képzésben ez az elsődleges normatív dokumentum, nem a régi, elérhetetlen Child Protection Policy PDF. Ahol a tananyag Child Protection Policyra hivatkozik, ezt a standardot érti rajta. A standard nem külön fájl: elemei ennek a dokumentumnak (és az adatvédelmi elemnél az `Adatvédelem – tanulói adatok és AI.md`-nek) az alábbi pontjaiban élnek.
 
 | # | Elem | Helye |
 |---|---|---|
@@ -128,7 +128,7 @@ Mind az öt tételben **projektgazdai döntés (2026-10-02)** született; a tart
 | 3 | a nyomozás és a konfrontáció tilalma | §4; §4.1, 3. lépés |
 | 4 | 1:1 safer-working | §4.2 |
 | 5 | digitális kommunikációs szabály | §4.2 |
-| 6 | a kiskorú madrich felnőtt felügyelete | §4; §5, HUM-SAFE-03 |
+| 6 | a kiskorú madrih felnőtt felügyelete | §4; §5, HUM-SAFE-03 |
 | 7 | zéró alkohol és nikotin a programokon | §5, HUM-SAFE-04 |
 | 8 | fotó- és adatminimalizálás | `Adatvédelem – tanulói adatok és AI.md` §2, §3 és §6 |
 | 9 | képzett és ellenőrzött stáb | §5, HUM-SAFE-05 |
@@ -149,7 +149,7 @@ Learner-facing release előtt mindegyik legyen igazolt:
 - [ ] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út (egységes szövege: §4.3);
 - [ ] a négyszemközti (1:1) helyzetek tananyaga és kvízkulcsai a HUM-SAFE-02 szerinti safer-working szabállyal és kivételeivel egyeznek (szövege: §4.2);
 - [ ] az alkohol-, dohány- és nikotinpéldák csak a HUM-SAFE-04 szerinti szervezeti szabályt állítják (tartalma: §5);
-- [ ] a 18 év feletti stáb alkalmassági ellenőrzése és gyermekvédelmi felkészítése, valamint a 15–17 éves madrich képzése, magatartási kódexe és felnőtt felügyelete HUM-SAFE-05 szerint dokumentált;
+- [ ] a 18 év feletti stáb alkalmassági ellenőrzése és gyermekvédelmi felkészítése, valamint a 15–17 éves madrih képzése, magatartási kódexe és felnőtt felügyelete HUM-SAFE-05 szerint dokumentált;
 - [ ] a jogszabályi állításoknál külön látszik, mi jogi kötelezettség, mi safeguarding szakmai minimum, és mi szervezeti policy;
 - [ ] jóváhagyás dátuma és következő felülvizsgálat dátuma rögzítve.
 

@@ -148,7 +148,7 @@ kimaradás bekapcsolása, és csak utána a két hang létrehozása (azonos mód
 választani: a magyar természetesség, a melegség és a someres szavak kiejtése csak
 hallgatással dönthető el. A hatpárosos összehasonlítás kész, végrehajtható terve —
 beállításokkal, kiejtési figyelőlistával és pontozólappal —
-[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 216 karakter,
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md). **Mérete 3 208 karakter,
 becsült költsége 0,16–0,64 $** — a szolgáltató két árazási felülete eltérő szorzót ad,
 de mindkét olvasatban egy dollár alatt marad.
 
@@ -261,8 +261,8 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 > **J2 — gyermekvédelmi és szerzői.** A vizsgált szolgáltatók feltételei egybehangzóan
 > **felnőtt** megjelenésű avatart és karaktert engednek (kiskorú ábrázolása avatarral
 > tiltott, egyedi avatarhoz nagykorúság kell, a személy-generálás EU-ban felnőttre
-> korlátozott). A tananyag viszont **madrichot** ábrázol, és a kánoni szabály szerint a
-> madrich maga is lehet kiskorú. Ez **nem eszközválasztási kérdés**: a Memunának
+> korlátozott). A tananyag viszont **madrihot** ábrázol, és a kánoni szabály szerint a
+> madrih maga is lehet kiskorú. Ez **nem eszközválasztási kérdés**: a Memunának
 > (gyermekvédelmi felelős) és a szerzőnek kell rendeznie. Ez a lap megáll itt.
 >
 > A J1 és a J2 a `HUM-MEDIA-02` alkapuja (projektgazdai döntés, 2026-10-02); felelős és
@@ -397,13 +397,13 @@ nem ez a lap.
 ## D11 — Az `M1.3-VID-01` párbeszéde: dialógushangok és gyártási út
 
 **Kérdés:** milyen hangokkal és milyen gyártási úton készüljön az `M1.3-VID-01` két
-madrich képernyőn zajló párbeszéde? A
+madrih képernyőn zajló párbeszéde? A
 [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 8. szakasza ehhez **két megkülönböztethető hangot** ír
 elő, a stack néma generálása ([`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) 5. szakasz)
 viszont erre a jelenetre nem alkalmazható: utólag aláillesztett hangnál nincs szájszinkron.
 Nyitott:
 
-- melyik hang(ok) szólaltatják meg a két madrichot — a második hang szerepe a D2 szerint
+- melyik hang(ok) szólaltatják meg a két madrihot — a második hang szerepe a D2 szerint
   külön, későbbi döntés;
 - a dialógushang(ok) jogosultsága (R2, V2);
 - a kétszereplős, szájszinkronos gyártási út.

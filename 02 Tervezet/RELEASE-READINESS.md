@@ -2,7 +2,7 @@
 
 ## Jelenlegi állapot
 
-- **Moodle staging:** **READY WITH NAMED HUMAN GATES** – a tananyag szerkesztői stagingben felépíthető és tesztelhető. A tartalmi specifikáció **nem tekinthető zártnak**, amíg kötelező tanulói médiaasset nyitott jogi vagy gyermekvédelmi médiakapun áll (lásd: **Médiakapuk**). A staginghez tesztfiókot és tesztadatot használunk; valódi madrich nem kap hozzáférést.
+- **Moodle staging:** **READY WITH NAMED HUMAN GATES** – a tananyag szerkesztői stagingben felépíthető és tesztelhető. A tartalmi specifikáció **nem tekinthető zártnak**, amíg kötelező tanulói médiaasset nyitott jogi vagy gyermekvédelmi médiakapun áll (lásd: **Médiakapuk**). A staginghez tesztfiókot és tesztadatot használunk; valódi madrih nem kap hozzáférést.
 - **Learner-facing release:** **NO-GO** – az alábbi kapuk bizonyíték nélkül nem zárhatók le. A HUM-tételek 2026-10-02 óta lezártak (projektgazdai döntések, `Emberi jóváhagyás szükséges.md`), ezért a NO-GO a futtatási és build-ellenőrzéseken (runtime acceptance, Moodle build), valamint a gyermekvédelmi, adatvédelmi és hozzáférhetőségi átvételi listák és a program-transzfer még nyitott pontjain áll. **READY** csak akkor lehet, ha a G1–G8 zárt, és minden release-hatókörű médiakapu is zárt, vagy az érintett assetet eltávolították, illetve helyettesítették. Ha már csak médiakapu nyitott, az állapot **CONTENT_READY / MEDIA_PENDING**.
 
 A két állapotot nem szabad összemosni. A staging célja éppen az, hogy a Moodle/H5P megvalósítást, a completiont, a kapukat és a hozzáférhetőséget bizonyítsuk. A szervezeti döntések 2026-10-02 óta lezártak, de a futtatási és átvételi bizonyítékok hiánya ettől még változatlanul blokkolja az éles megnyitást.
@@ -14,7 +14,7 @@ A két állapotot nem szabad összemosni. A staging célja éppen az, hogy a Moo
 | **G1 Gyermekvédelem** | HUM-SAFE-01–05 lezárva; M3 és kapcsolódó biztonsági tartalmak írásos gyermekvédelmi jóváhagyása (jóváhagyó: a Memuna – lásd a táblázat alatt) | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Gyermekvédelem – release gate.md` |
 | **G2 Adatvédelem és kiskorúak** | HUM-PRIV-01–04 lezárva, activity-szintű adatleltár, adatvédelmi tájékoztató, hozzáférés, megőrzés/törlés | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Adatvédelem – tanulói adatok és AI.md` |
 | **G3 Moodle/H5P célkörnyezet** | pontos verziók + kritikus runtime tesztek | `IMPLEMENTATION_REQUIRED` | `LMS – H5P runtime acceptance.md` |
-| **G4 Learner-facing nyitott mező = 0** | nincs `KITÖLTENDŐ`, ismeretlen kontakt, bizonytalan határidő vagy törött link a madrich által látható felületen | `IMPLEMENTATION_REQUIRED` | staging visszaaudit |
+| **G4 Learner-facing nyitott mező = 0** | nincs `KITÖLTENDŐ`, ismeretlen kontakt, bizonytalan határidő vagy törött link a madrih által látható felületen | `IMPLEMENTATION_REQUIRED` | staging visszaaudit |
 | **G5 Hozzáférhetőség** | mobil, billentyűzet, képernyőolvasó, zoom/reflow, felirat/leirat a tényleges renderen | `IMPLEMENTATION_REQUIRED` + `RUNTIME_VERIFIED` | a11y tesztjegyzőkönyv |
 | **G6 Mozgalmi tartalom** | HUM-SOMER-01–03 lezárva az érintett részekhez | `HUMAN_DECISION_REQUIRED` | `Emberi jóváhagyás szükséges.md` |
 | **G7 Regresszió** | repository tesztek, content integrity, média-manifeszt, helyi linkek és diff ellenőrzése zöld | `IMPLEMENTATION_REQUIRED` | CI / release-check |
@@ -63,7 +63,7 @@ A staging buildben:
 
 ## Modul-specifikus élesítés
 
-Egy modul szakmai jóváhagyása lehet moduláris, de a hozzá tartozó globális kapukat nem lehet megkerülni. Például az M1 stagingben akkor is teljesen felépíthető, ha egy rá vonatkozó adatkezelési döntés (pl. a HUM-PRIV-01) még nyitott; valódi madrichnak viszont az M1 Assignment csak a jóváhagyott adatkezeléssel nyitható meg.
+Egy modul szakmai jóváhagyása lehet moduláris, de a hozzá tartozó globális kapukat nem lehet megkerülni. Például az M1 stagingben akkor is teljesen felépíthető, ha egy rá vonatkozó adatkezelési döntés (pl. a HUM-PRIV-01) még nyitott; valódi madrihnak viszont az M1 Assignment csak a jóváhagyott adatkezeléssel nyitható meg.
 
 A safeguarding-tartalomra külön szabály vonatkozik: M3.3, M3.B és az M3/M7 gyermekvédelmi kapuelemek **éles használatához** az adott tartalomhoz közvetlenül szükséges **HUM-SAFE-01/02** döntések és az írásos gyermekvédelmi jóváhagyás (jóváhagyó: a Memuna, lásd G1) kötelező, **de ez nem szűkíti a globális G1-et**: learner-facing release csak akkor lehet, ha a teljes **HUM-SAFE-01–05** csomag lezárt.
 

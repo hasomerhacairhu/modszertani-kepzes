@@ -70,7 +70,7 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 
 | Eltérés | A terv akkori választása | Amit ez a lap választ | Miért |
 |---|---|---|---|
-| **P-KAR** | `M1.1-VID-02` (B-roll klipek) | **`M4.1-VID-03`** | Az `M1.1-VID-02` néma B-roll **szkript nélkül** (`source_ref` üres) és visszatérő karakter nélkül — a család legnehezebb problémáját, a **karakter-azonosságot**, egyáltalán nem méri. Az `M4.1-VID-03` viszont szó szerinti jóváhagyott narrációhoz kötött (`M4.1-NAR-03-VO`), és a háromjelenetes sorozat első darabja, amelyből az `M4.1-FOTO-01` freeze-frame-je készül — annak specifikációja szó szerint **„ugyanaz a madrich”**. Ez teszi a karakter-azonosságot bizonyítható elfogadási feltétellé. **Ára: egy kapuval több (R2 is ül rajta).** *(Azóta az `M1.1-VID-02` is R2 alatt áll, így a kapuszám azonos.)* |
+| **P-KAR** | `M1.1-VID-02` (B-roll klipek) | **`M4.1-VID-03`** | Az `M1.1-VID-02` néma B-roll **szkript nélkül** (`source_ref` üres) és visszatérő karakter nélkül — a család legnehezebb problémáját, a **karakter-azonosságot**, egyáltalán nem méri. Az `M4.1-VID-03` viszont szó szerinti jóváhagyott narrációhoz kötött (`M4.1-NAR-03-VO`), és a háromjelenetes sorozat első darabja, amelyből az `M4.1-FOTO-01` freeze-frame-je készül — annak specifikációja szó szerint **„ugyanaz a madrih”**. Ez teszi a karakter-azonosságot bizonyítható elfogadási feltétellé. **Ára: egy kapuval több (R2 is ül rajta).** *(Azóta az `M1.1-VID-02` is R2 alatt áll, így a kapuszám azonos.)* |
 | **P-IKO** | `M0.1-IKO-01` (egyetlen ikon) | **`M1.3-IKO-01`** (SBI 3-elemű készlet) | Az `M0.1-IKO-01` **egy darab** ikon; a család neve viszont *ikon-készlet*, és a stílus-token igazi kérdései (készlet-konzisztencia, vonalvastagság, szemantikus szín + forma-redundancia, az R6 ütközés) egy magányos ikonon nem jelennek meg. Az `M1.3-IKO-01` mindhármat egyszerre méri, ráadásul **visszatérő asset**: az `M1.4-IKO-01` `reuse_of`-fal rá mutat, és az `M1.3-DIA-01/02/03` is használja. Azonos kapuszám (R5). Az `M0.1-IKO-01` **kísérő-tételként** ugyanabban a körben legyártható, közel nulla többletköltséggel. |
 | **P-KRT** | *(a terv a posztert és a kártyaszettet egy családként kezeli)* | **`M5.A-KART-01`** *(kiegészítés, nem csere)* | Az `M7.B-POSZ-01` flipchart-sablon: se kétoldalas nyomtatást, se vágóívet, se az AI-címkét nem teszteli (a `provenance` mezője `human`). A kártyaszett-alcsalád **23 asset**, és a saját produkciós nehézsége — 12 kártya, A4-enként 2–4 db, kétoldalas illesztés — sehol máshol nem jelenik meg. |
 
@@ -156,9 +156,9 @@ Bármelyik teljesülése esetén a pilot **elutasítva**, és a testvér-köteg 
 | **Cím** | Slide 3 narráció – Dialog Cards felvezetés |
 | **Modul / egység** | M4 / M4.2 |
 | **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3** |
-| **Forrás** | `M4.2-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md` (deklaráció: 513. sor) · hash `cc5e9efdc46c9251` |
+| **Forrás** | `M4.2-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md` (deklaráció: 513. sor) · hash `ce6604de9226b73d` |
 | **Cél** | bevezeti és keretezi a Dialog Cards aktivitást |
-| **Közönség** | madrich, jellemzően 15+ |
+| **Közönség** | madrih, jellemzően 15+ |
 | **Hossz** | 20–25 mp · **43 szó** → 103–129 szó/perc; 110 szó/percen **23,5 mp** — a keretben |
 | **Deriváltak** | `::CAPTIONS` (felirat), `::TRANSCRIPT` (leirat) |
 | **Stílusfüggés** | nincs |
@@ -169,7 +169,7 @@ Bármelyik teljesülése esetén a pilot **elutasítva**, és a testvér-köteg 
 
 A generált terv 2026-08-28-i választása: az akkori narráció-család **medián esete** —
 közepes hossz, tiszta instrukciós regiszter, egyetlen félkövér kiemeléssel, mozgalmi
-szakszóval (`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
+szakszóval (`hanih`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 
 > **Fontos:** a P-NAR a **családi** pilot. A **hangválasztás** viszont nem ezen dől el,
 > hanem a három tesztszkripten
@@ -192,7 +192,7 @@ szakszóval (`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 - **Beállítások:** minden kérésben **explicit** a teljes készlet (`stability` ~0,70,
   `similarity_boost` 0,75, `style` 0, `use_speaker_boost` true, `speed`), plusz rögzített
   `seed`. A tárolt beállításra hagyatkozni tilos.
-- **Kiejtés:** `chanich` — „hanih”: a szó eleji és a szóvégi *h* is hallható torokhang
+- **Kiejtés:** `hanih` — „hanih”: a szó eleji és a szóvégi *h* is hallható torokhang
   ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6.). **Alias-szabállyal**, ha a
   meghallgatás hibát mutat; a választott modell a fonéma-szabályokat kihagyja. A magyar
   toldalékolás miatt minden előforduló alakot fel kell venni.
@@ -206,7 +206,7 @@ szakszóval (`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 
 - [ ] a felmondás szó szerint a forrásszöveg;
 - [ ] hossz 20–25 mp között, hadarás nélkül;
-- [ ] `chanich` helyesen;
+- [ ] `hanih` helyesen;
 - [ ] tegező, egyenrangú, nem tanáros;
 - [ ] tiszta beszéd, háttérzaj nélkül;
 - [ ] a `.vtt` felirat időzítése a hanghoz igazítva, szövege a forrással azonos;
@@ -218,7 +218,7 @@ szakszóval (`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 ### Bukási feltétel
 
 Bármely szóeltérés a forrástól · a 25 mp túllépése hadarással kompenzálva · anglicizált
-`chanich` · magázó vagy gyerekhangú felmondás · hallható zaj, szuszogás, vágásnyom.
+`hanih` · magázó vagy gyerekhangú felmondás · hallható zaj, szuszogás, vágásnyom.
 
 ---
 
@@ -229,7 +229,7 @@ Bármely szóeltérés a forrástól · a 25 mp túllépése hadarással kompenz
 | **Cím** | nyitó beszélő fej – suli / Somer / hétköznapok |
 | **Modul / egység** | M5 / M5.1 |
 | **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3** |
-| **Forrás** | `M5.1-VID-01-VO`, `02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md` (deklaráció: 151. sor) · hash `28a7ff4914895cb2` |
+| **Forrás** | `M5.1-VID-01-VO`, `02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md` (deklaráció: 151. sor) · hash `a461ce6828fbc62c` |
 | **Cél** | azonnali érzelmi bevonás; a három tanulási kategória ráhangoló bevezetése |
 | **Arány / hossz** | **16:9**, max. 40 mp · **63 szó** → 110 szó/percen 34,4 mp |
 | **Deriváltak** | `::VOICEOVER`, `::CAPTIONS`, `::TRANSCRIPT` |
@@ -332,10 +332,10 @@ elutasítja a tartalmat.
 
 | | |
 |---|---|
-| **Cím** | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” |
+| **Cím** | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrih” |
 | **Modul / egység** | M4 / M4.1 |
 | **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3, R5** |
-| **Forrás** | `M4.1-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md` (deklaráció: 748. sor) · hash `238cf16a52679083` |
+| **Forrás** | `M4.1-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md` (deklaráció: 748. sor) · hash `a251aced0d05df02` |
 | **Hossz** | 20–25 mp, teljes alakos jelenet |
 | **Konténer** | beágyazva az `M4.1-VID-02` H5P Interactive Videóba (`composed_of`) — a felirat és a leirat **a konténeré**, nem ezé |
 | **Származék máshol** | az `M4.1-FOTO-01` freeze-frame-je ebből és az `M4.1-VID-05`-ből készül |
@@ -343,11 +343,11 @@ elutasítja a tartalmat.
 
 ### A szó szerinti narráció (másolat, nem kánon)
 
-> „Nézd meg ezt a madrichot.
+> „Nézd meg ezt a madrihot.
 > A papírra koncentrál, a válla kicsit beesik,
 > a tekintete szinte végig lefelé van.
 >
-> Ha chanich lennél,
+> Ha hanih lennél,
 > mennyire éreznéd azt, hogy **neked beszél**,
 > és mennyire azt, hogy inkább a lapja mögé próbál bújni?”
 
@@ -358,7 +358,7 @@ teljes hangfeladata.
 
 Mert ez a család **egyetlen valódi nehézsége**: a három jelenetben ugyanannak az embernek
 kell látszania, és az `M4.1-FOTO-01` specifikációja ezt szó szerint kimondja
-(„ugyanaz a madrich karba tett kézzel vs. nyitott kézzel”). Egy pilot, amely nem méri a
+(„ugyanaz a madrih karba tett kézzel vs. nyitott kézzel”). Egy pilot, amely nem méri a
 karakter-azonosságot, nem mond semmit a testvéreiről.
 
 ### Gyártási brief — javasolt stack
@@ -423,7 +423,7 @@ beszélő szájmozgást ad · nem reprodukálható a seed/referencia rögzítés
 személyre hasonlítás · a testtartás nem olvasható ki a képből.
 
 > ⚠️ **EMBERI DÖNTÉS — nyitott szerzői hiány, amit ez a brief nem tölt ki.** Az
-> `M4.1-FOTO-01` specifikációja **karba tett kezet** kér („ugyanaz a madrich karba tett
+> `M4.1-FOTO-01` specifikációja **karba tett kezet** kér („ugyanaz a madrih karba tett
 > kézzel vs. nyitott kézzel/felsőtesttel”), de ezt a testtartást **egyik
 > jelenet-specifikáció sem tartalmazza**: az `M4.1-VID-03` „előreeső vállak, papírba
 > mélyed”, az `M4.1-VID-04` „lábról lábra billeg”, az `M4.1-VID-05` „laza vállak”. A
@@ -450,7 +450,7 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 |---|---|
 | **Cím** | SLIDE 4 jelzési folyamatábra: az ötlépéses jelzési út (észreveszem → meghallgatom → nem nyomozok → bevonom a Memunát → közvetlen veszélynél 112) |
 | **Státusz · kapuk** | `produkciós szabályra vár` · **R5** |
-| **Cél** | a „madrich, nem terapeuta” logika egyetlen lineáris jelzési útvonalként; megerősíti, hogy a madrich nem egyedül old meg, hanem jelez |
+| **Cél** | a „madrih, nem terapeuta” logika egyetlen lineáris jelzési útvonalként; megerősíti, hogy a madrih nem egyedül old meg, hanem jelez |
 | **Deriváltak** | `::ALTTEXT` |
 
 ### Miért ez a pilot
@@ -689,9 +689,9 @@ Két mező egy lapon vagy két lapon:
 
 1. **„Zmán Kvucá = …”** — konkrét idősáv + kvuca + tér + felelősség; **nem** aznap
    kitalált spontán, cél nélküli program.
-2. **„AI-határok”** — **mind a három** ponttal (a lecke 4.1. és 4.2. blokkja — az asset `spec` mezője is ezekre hivatkozik): nincs konkrét chanich-név vagy sztori;
+2. **„AI-határok”** — **mind a három** ponttal (a lecke 4.1. és 4.2. blokkja — az asset `spec` mezője is ezekre hivatkozik): nincs konkrét hanih-név vagy sztori;
    gyermekvédelmi ügyben a Memunához (a Somer gyermekvédelmi felelőséhez), nem AI-hoz; az
-   AI csak ötletel, a felelősség a madriché.
+   AI csak ötletel, a felelősség a madrihé.
 
 | | |
 |---|---|
@@ -715,7 +715,7 @@ Két mező egy lapon vagy két lapon:
 
 Az AI-határok bármelyik kikötése lágyul vagy kimarad · a „gyermekvédelmi ügyben a
 Memunához, nem AI-hoz” mondat elveszti az élét · a „felelősség” elem úgy olvasható, hogy a
-kvuca biztonságáért a madrich egyedül felel (a gyermekvédelmi felelősség a jelen lévő,
+kvuca biztonságáért a madrih egyedül felel (a gyermekvédelmi felelősség a jelen lévő,
 18 év feletti felnőtté — a lecke 4.1. blokkja) · nem olvasható teremtávolságból · téves
 AI-címke a lapon.
 

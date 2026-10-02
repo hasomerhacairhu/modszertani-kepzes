@@ -73,13 +73,31 @@ FINAL_CLEANUP_2026_09_29_RENAMES = {
         "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzés feedback.md",
 }
 
-# The 2026-10-02 owner decisions renamed two files atomically ("lépéstérkép",
-# "Nemcsak"). Same purpose as above: the pre-rename path that carried the baseline.
+# The 2026-10-02 owner decisions renamed files atomically: "lépéstérkép" and
+# "Nemcsak", then the local Somer spelling (madrih, dugma isit, Leviatán). Same
+# purpose as above: the pre-rename path that carried the baseline. M3.2 was
+# renamed twice, so it maps straight to its baseline path.
 DECISIONS_2026_10_02_RENAMES = {
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md":
         "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépés-térkép.md",
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md":
         "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nem csak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md":
+        "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md",
+    "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md":
+        "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md",
+    "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md":
+        "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md":
+        "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md",
+    "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md":
+        "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md":
+        "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan, Zorea – 4 kvuca, 4 világ.md",
+    "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md":
+        "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md",
+    "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md":
+        "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md",
 }
 BASELINE_RENAMES = {**FINAL_CLEANUP_2026_09_29_RENAMES, **DECISIONS_2026_10_02_RENAMES}
 
@@ -1736,7 +1754,7 @@ class TestApprovedDecisions(unittest.TestCase):
 
     def test_the_m32_slide_keeps_its_visible_content(self):
         lesson = (mm.ACTIVE_ROOT / "Modulok/M3/Online leckék"
-                  / "M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md")
+                  / "M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md")
         text = lesson.read_text(encoding="utf-8")
         for kept in ("Miért fontos, hogy máshogy nézz rá a kvucákra?",
                      "előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen",

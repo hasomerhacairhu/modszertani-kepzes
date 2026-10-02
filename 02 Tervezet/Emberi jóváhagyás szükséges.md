@@ -7,7 +7,7 @@
 >
 > **2026-10-02 – projektgazdai döntések:** a projektgazda minden tételben döntött, és a tananyag ezeket alkalmazza. A tételek lezártak (dátum, jóváhagyó és bizonyíték a `tools/content_integrity.py` lezárási szabálya szerint). A megnevezett szerepek (Memuna, DPO, programvezető stb.) későbbi ellenőrzése **vétó / minőségellenőrzés (QA)**, nem új döntési kapu: ha valamelyikük vétóz, a tétel újranyílik, és a tananyag ahhoz igazodik.
 >
-> **Staging ≠ élesítés:** ezek a döntések nem akadályozzák a zárt, szerkesztői Moodle-staging felépítését tesztadatokkal. Ahol a táblázat „éles kurzust” blokkol, ott valódi madrich nem kaphat hozzáférést a döntés lezárásáig.
+> **Staging ≠ élesítés:** ezek a döntések nem akadályozzák a zárt, szerkesztői Moodle-staging felépítését tesztadatokkal. Ahol a táblázat „éles kurzust” blokkol, ott valódi madrih nem kaphat hozzáférést a döntés lezárásáig.
 
 ## 1. Gyermekvédelem
 
@@ -22,8 +22,8 @@
 | Mező | Tartalom |
 |---|---|
 | **Kérdés** | Ki a kijelölt gyermekvédelmi felelős, mi az elérhetősége, ki a helyettes/alternatív út összeférhetetlenség esetén, és mi a helyi akut-veszély eszkaláció? |
-| **Miért szükséges** | M0, M3 és M7 több helyen konkrét felelőshöz küldi a madrichot. Ezt név és jóváhagyott helyi folyamat nélkül nem szabad élesben ígérni. |
-| **Mi bizonyítható a repóból** | A madrich nem nyomoz, nem konfrontál feltételezett elkövetőt, nem ígér teljes titoktartást, és felelős felnőttet von be. Közvetlen életveszélynél a 112 sürgősségi út. |
+| **Miért szükséges** | M0, M3 és M7 több helyen konkrét felelőshöz küldi a madrihot. Ezt név és jóváhagyott helyi folyamat nélkül nem szabad élesben ígérni. |
+| **Mi bizonyítható a repóból** | A madrih nem nyomoz, nem konfrontál feltételezett elkövetőt, nem ígér teljes titoktartást, és felelős felnőttet von be. Közvetlen életveszélynél a 112 sürgősségi út. |
 | **Mit kell eldönteni** | felelős neve/szerepe és elérhetősége; helyettes/külső út; mozgalmi/országos eszkaláció; akut veszély helyi protokollja; dokumentálás helye és jogosultsága; **az M3 kanonikus lépéstérképe (eldöntve: az M3.B ötlépéses útja – lásd lent)**; jóváhagyás és következő felülvizsgálat dátuma |
 | **Javasolt alapértelmezés** | Nincs szervezetfüggetlen alapértelmezés. A kurzus addig csak szerepnevet használhat belső stagingben, learner-facing kiadásban nem maradhat névtelen kontakt. |
 | **Projektgazdai döntés (2026-10-02)** | Az **M3.B ötlépéses jelzési útja az egyetlen kánon**: 1. Észleld, és vedd komolyan. 2. Hallgasd meg, és ne ígérj teljes titoktartást. 3. Ne nyomozz, ne konfrontálj, és ne próbáld egyedül megoldani. 4. Azonnal vond be a kijelölt **Memunát** – összeférhetetlenség esetén a név szerint kijelölt helyettesét. 5. Közvetlen veszélynél előbb a biztonság és a **112**, utána a belső jelzés. A gyermekvédelmi ügy dokumentációja nem Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül. Indoklás: a Somer–Magyar szótár a Memunát nevezi meg a sértéssel, bántalmazással, zaklatással kapcsolatos ügyek felelőseként; a Gyvt. 17. § (1) a jelzőrendszer résztvevői között egyesületeket is nevesít (`Gyermekvédelem – release gate.md` §3.1). |
@@ -44,7 +44,7 @@
 
 | Mező | Tartalom |
 |---|---|
-| **Kérdés** | Milyen feltételekkel beszélhet képző vagy madrich kettesben kiskorúval? |
+| **Kérdés** | Milyen feltételekkel beszélhet képző vagy madrih kettesben kiskorúval? |
 | **Miért szükséges** | A tananyag több helyen felkavaró témát dolgoz fel, és M7-ben a peulatervnek is kezelnie kell a négyszemközti helyzeteket. |
 | **Biztonságos jelenlegi minimum** | A tananyag nem ír elő automatikus félrevonulást. A beszélgetés diszkrét, de átlátható. *(A korábbi „kérj be egy másik képzőt/felnőttet” tartalékszabályt a lenti projektgazdai döntés váltotta fel; a szabály szövege a `Gyermekvédelem – release gate.md` §4.2-ben él.)* |
 | **Valódi alternatívák** | pl. látótávolság/nyitott ajtó; második felnőtt jelenléte; második felnőtt tudtával végzett beszélgetés. A szervezet dönti el, melyik és milyen dokumentálással elfogadható. |
@@ -55,7 +55,7 @@
 | **Blokkol** | learner-facing safety instrukciók véglegesítése és M7 R4/Q14 helyi megfelelése |
 | **Implementáció a döntés után** | a `Gyermekvédelem – release gate.md` egyetlen szabálymezője frissül; a tananyag nem másolja szét, csak erre hivatkozik. |
 
-### HUM-SAFE-03 — A madrich saját érintettsége és kiskorú madrich státusza — LEZÁRVA
+### HUM-SAFE-03 — A madrih saját érintettsége és kiskorú madrih státusza — LEZÁRVA
 
 **Lezárva:** 2026-10-02
 
@@ -65,11 +65,11 @@
 
 | Mező | Tartalom |
 |---|---|
-| **Kérdés** | Kihez fordulhat bizalmasan a 15–17 éves madrich, hogyan maradhat ki érzékeny gyakorlatból, és milyen felnőtt felügyelet kötelező számára terepen? |
+| **Kérdés** | Kihez fordulhat bizalmasan a 15–17 éves madrih, hogyan maradhat ki érzékeny gyakorlatból, és milyen felnőtt felügyelet kötelező számára terepen? |
 | **Miért szükséges** | A tananyag bántalmazást, önsértést, identitást és határhelyzeteket érint. A résztvevő maga is lehet érintett és kiskorú. |
-| **Javasolt szakmai minimum** | szégyenítés nélküli `passz`/alternatív feladat; érzékeny feltárásnál nem marad egyedül; a 18 év alatti madrich nem kap egyedüli felnőtt felelősséget. |
-| **Mit kell még eldönteni** | konkrét bizalmas kontakt, szülő/gondviselő bevonásának helyi folyamata, felnőtt:madrich felügyeleti arány |
-| **Projektgazdai döntés (2026-10-02)** | A 15–17 éves madrich vezethet peulát, de soha nem ő az egyetlen felelős felnőtt. Minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé. Érzékeny gyakorlatból bárki indoklás nélkül passzolhat. Felkavart kiskorút nem küldünk ki egyedül: kijelölt biztonságos hely és egy felnőtt van vele. |
+| **Javasolt szakmai minimum** | szégyenítés nélküli `passz`/alternatív feladat; érzékeny feltárásnál nem marad egyedül; a 18 év alatti madrih nem kap egyedüli felnőtt felelősséget. |
+| **Mit kell még eldönteni** | konkrét bizalmas kontakt, szülő/gondviselő bevonásának helyi folyamata, felnőtt:madrih felügyeleti arány |
+| **Projektgazdai döntés (2026-10-02)** | A 15–17 éves madrih vezethet peulát, de soha nem ő az egyetlen felelős felnőtt. Minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé. Érzékeny gyakorlatból bárki indoklás nélkül passzolhat. Felkavart kiskorút nem küldünk ki egyedül: kijelölt biztonságos hely és egy felnőtt van vele. |
 | **A nyitott pontok döntése (projektgazdai döntés, 2026-10-02)** | Bizalmas kontakt: a mentor vagy a Somer gyermekvédelmi kontaktja (a Memuna), a „ha téged is érint” blokk szerint. Gondviselő: kiskorúnál bevonjuk, kivéve, ha ez növelheti a veszélyt, vagy maga a gondviselő érintett a feltételezett problémában; ilyenkor a Memuna a biztonságos külső utat választja. Felügyelet: minden éles terepi alkalmon legalább egy jelen lévő (vagy a helyszínen azonnal elérhető), felkészített, 18 év feletti felnőtt. Az egységes „ha téged is érint” blokk szövege a `Gyermekvédelem – release gate.md` §4.3-ban él, és a tananyag szó szerint ezt használja. Érintett források: M0.1, M0.2, M1.1–M1.4, M2.A, M2.4, M3.3, M3.4, M3.B, M4.1, M4.2, Z.2, Z.3, Z.A, a Z hub 5. szakasza, `Terepgyakorlat – 2. félév.md`, LMS-Z-03, M4.A, M6.A, M7.B (a blokk szó szerint: M0.1, M0.2, M1.1–M1.4, M2.A, M2.4, M3.3, M3.4, M3.B, M4.1, M4.2, Z.2, Z.A). |
 | **Utólagos ellenőrzés (vétó/QA)** | a Memuna és a programvezető. |
 | **Jóváhagyó** | Memuna (gyermekvédelmi felelős) + programvezető |
@@ -100,11 +100,11 @@ A konkrét helyi szabályt nem a tananyag találja ki. **Jóváhagyó:** szervez
 
 | Mező | Tartalom |
 |---|---|
-| **Kérdés** | Milyen alkalmassági/vetting ellenőrzés és milyen dokumentált gyermekvédelmi felkészítés kell a programban dolgozó 18 év feletti képzőknek, mentoroknak és önkénteseknek, illetve a 15–17 éves madrichoknak? |
+| **Kérdés** | Milyen alkalmassági/vetting ellenőrzés és milyen dokumentált gyermekvédelmi felkészítés kell a programban dolgozó 18 év feletti képzőknek, mentoroknak és önkénteseknek, illetve a 15–17 éves madrihoknak? |
 | **Miért szükséges** | A program kiskorúakkal dolgozik, de a repository nem nevezhet meg automatikusan egy konkrét hatósági ellenőrzést vagy dokumentumtípust minden szerepre. |
-| **Szakmai minimum** | a stáb ismeri a jóváhagyott gyermekvédelmi láncot, az összeférhetetlenségi utat, a feltárás kezelését és a safer-working szabályt; a kiskorú madrich nem kap egyedüli felnőtt felelősséget. |
+| **Szakmai minimum** | a stáb ismeri a jóváhagyott gyermekvédelmi láncot, az összeférhetetlenségi utat, a feltárás kezelését és a safer-working szabályt; a kiskorú madrih nem kap egyedüli felnőtt felelősséget. |
 | **Mit kell eldönteni** | szerepkörönként szükséges alkalmassági ellenőrzés; felkészítés tartalma; nyilvántartás; megújítás/felülvizsgálat |
-| **Projektgazdai döntés (2026-10-02)** | Szerepkör-alapú alkalmassági rend. 18 év feletti képző, mentor és rendszeresen gyerekekkel dolgozó önkéntes: személyazonosság-ellenőrzés, a szerephez szükséges erkölcsi bizonyítvány, a Gyermekvédelmi működési standard v1.0 (`Gyermekvédelem – release gate.md` §5.1) elfogadása, gyermekvédelmi + safer-working + adatvédelmi képzés; évente rövid megújító képzés és nyilatkozat; új szerepkörnél új ellenőrzés. 15–17 éves madrich: képzés + magatartási kódex + felnőtt felügyelet. |
+| **Projektgazdai döntés (2026-10-02)** | Szerepkör-alapú alkalmassági rend. 18 év feletti képző, mentor és rendszeresen gyerekekkel dolgozó önkéntes: személyazonosság-ellenőrzés, a szerephez szükséges erkölcsi bizonyítvány, a Gyermekvédelmi működési standard v1.0 (`Gyermekvédelem – release gate.md` §5.1) elfogadása, gyermekvédelmi + safer-working + adatvédelmi képzés; évente rövid megújító képzés és nyilatkozat; új szerepkörnél új ellenőrzés. 15–17 éves madrih: képzés + magatartási kódex + felnőtt felügyelet. |
 | **Erkölcsi bizonyítvány (projektgazdai döntés, 2026-10-02)** | 18 év feletti képző, mentor és rendszeresen, közvetlenül gyermekekkel dolgozó önkéntes: hatósági erkölcsi bizonyítvány, amely igazolja, hogy (a) büntetlen előéletű, és (b) nem áll foglalkozástól vagy tevékenységtől eltiltás hatálya alatt. Belépéskor legfeljebb 90 napos dokumentum, majd kétévente új, közben éves önnyilatkozat (háttér: a bűnügyi nyilvántartási rendszerről szóló 2009. évi XLVII. törvény). A régi, elérhetetlen Child Protection Policy helyett a Gyermekvédelmi működési standard v1.0 az irányadó (HUM-SAFE-01). |
 | **Utólagos ellenőrzés (vétó/QA)** | a szervezeti vezetés és a Memuna; jogi kérdésben jogi szakértő. |
 | **Jóváhagyó** | szervezeti vezetés + Memuna (gyermekvédelmi felelős), jogszabályi alkalmassági kérdésnél jogi szakértő |
@@ -181,14 +181,14 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása **név n�
 
 **Bizonyíték:** `01 Fejlesztés/04 Audit/2026-10-02 Projektgazdai döntések.md` (a projektgazda 1. és 2. válasza, szó szerint)
 
-**Döntés:** mely szolgáltató használható a madrichoknak, milyen életkori/guardian feltételekkel, milyen fiókkal és adatvédelmi beállítással.  
+**Döntés:** mely szolgáltató használható a madrihoknak, milyen életkori/guardian feltételekkel, milyen fiókkal és adatvédelmi beállítással.\
 **Nem alku tárgya a tananyagban:** az `Adatvédelem – tanulói adatok és AI.md` §7 listája. Ez az egyetlen kanonikus promptkizárási lista; ez a dokumentum csak hivatkozik rá, nem másolja.
 
-**Jóváhagyó:** privacy/DPO/jogi felelős + programvezető. **Implementáció:** a lenti megvalósítás (szervezeti végpont, nincs madrich-fiók); a tananyag a szolgáltatót nem reklámozza, az általános „jóváhagyott AI-eszköz” megfogalmazás maradhat, és minden AI-feladat mellett teljes értékű no-AI alternatíva áll.
+**Jóváhagyó:** privacy/DPO/jogi felelős + programvezető. **Implementáció:** a lenti megvalósítás (szervezeti végpont, nincs madrih-fiók); a tananyag a szolgáltatót nem reklámozza, az általános „jóváhagyott AI-eszköz” megfogalmazás maradhat, és minden AI-feladat mellett teljes értékű no-AI alternatíva áll.
 
-**Projektgazdai döntés (2026-10-02)**: az AI használata mindig opcionális, a feladat nélküle is teljesíthető. A kurzus kiskorútól nem kér saját külső AI-fiókot: a használatot a szervezet közvetíti, a madrich nem regisztrál szolgáltatói fiókot (a megvalósítást lásd lent). A tanulói szöveg: „Saját AI-fiókra nincs szükség: a kurzus AI-segédjét a Somer szervere közvetíti, szervezeti hozzáféréssel. Személyes adatot ide se írj.”
+**Projektgazdai döntés (2026-10-02)**: az AI használata mindig opcionális, a feladat nélküle is teljesíthető. A kurzus kiskorútól nem kér saját külső AI-fiókot: a használatot a szervezet közvetíti, a madrih nem regisztrál szolgáltatói fiókot (a megvalósítást lásd lent). A tanulói szöveg: „Saját AI-fiókra nincs szükség: a kurzus AI-segédjét a Somer szervere közvetíti, szervezeti hozzáféréssel. Személyes adatot ide se írj.”
 
-Megvalósítás (projektgazdai döntés, 2026-10-02): `Moodle → a Somer szerveroldali végpontja → OpenAI Responses API`. A madrich nem regisztrál szolgáltatói fiókot; a promptot a képző vagy a szervezeti backend küldi (`/v1/responses`, `store=false`, nincs Conversations API, nincs tartós fájlfeltöltés; nincs személyes adat, nincs valódi chanich-eset, nincs gyermekvédelmi történet). Ha a szervezet számára elérhető, a ZDR (zero data retention) be van kapcsolva. A kurzus alkalmazó (deployer) szerepben jár el; a kezelők AI-jártassági felkészítést kapnak (AI Act 4. cikk), és az M7.2 elején 15 perces AI-jártassági blokk áll.
+Megvalósítás (projektgazdai döntés, 2026-10-02): `Moodle → a Somer szerveroldali végpontja → OpenAI Responses API`. A madrih nem regisztrál szolgáltatói fiókot; a promptot a képző vagy a szervezeti backend küldi (`/v1/responses`, `store=false`, nincs Conversations API, nincs tartós fájlfeltöltés; nincs személyes adat, nincs valódi hanih-eset, nincs gyermekvédelmi történet). Ha a szervezet számára elérhető, a ZDR (zero data retention) be van kapcsolva. A kurzus alkalmazó (deployer) szerepben jár el; a kezelők AI-jártassági felkészítést kapnak (AI Act 4. cikk), és az M7.2 elején 15 perces AI-jártassági blokk áll.
 
 **Utólagos ellenőrzés (vétó/QA)**: a DPO/jogi felelős és a programvezető.
 
@@ -235,14 +235,14 @@ Naptár és időkeretek (projektgazdai döntés, 2026-10-02): indulás 2026-11-0
 
 **Bizonyíték:** `01 Fejlesztés/04 Audit/2026-10-02 Projektgazdai döntések.md` (a projektgazda 1. és 2. válasza, szó szerint)
 
-**Döntés:** technikai support csatorna, tanulási/mentor kontakt, valamint a tényleges mentor:madrich kapacitás.  
+**Döntés:** technikai support csatorna, tanulási/mentor kontakt, valamint a tényleges mentor:madrih kapacitás.\
 **Jóváhagyó:** programvezető.  
 **Blokkol:** learner-facing support szöveg véglegesítése, nem a belső staging build.  
 **Implementáció:** egy központi kurzusoldal „Segítség és kapcsolatok” blokkjából hivatkozik minden modul.
 
-**Projektgazdai döntés (2026-10-02)**: a „Segítség és kapcsolatok” blokk négy, szerep szerinti kontaktot ad: technikai segítség, tanulási/programkontakt, a kijelölt mentor, és ettől külön a Memuna (gyermekvédelem). Nincs „mentor / felelős / vezető” típusú lánc. Mentor:madrich kapacitás: javasolt kiinduló plafon 1:8, legfeljebb 1:10.
+**Projektgazdai döntés (2026-10-02)**: a „Segítség és kapcsolatok” blokk négy, szerep szerinti kontaktot ad: technikai segítség, tanulási/programkontakt, a kijelölt mentor, és ettől külön a Memuna (gyermekvédelem). Nincs „mentor / felelős / vezető” típusú lánc. Mentor:madrih kapacitás: javasolt kiinduló plafon 1:8, legfeljebb 1:10.
 
-Kapacitás (projektgazdai döntés, 2026-10-02): **kemény plafon 1:8** — egy mentor legfeljebb 8 aktív madrichot visz; az 1:10 tartalék kikerült (például 17 résztvevőhöz legalább 3 mentor kell). A gyermekvédelmi kontakt: lásd HUM-SAFE-01.
+Kapacitás (projektgazdai döntés, 2026-10-02): **kemény plafon 1:8** — egy mentor legfeljebb 8 aktív madrihot visz; az 1:10 tartalék kikerült (például 17 résztvevőhöz legalább 3 mentor kell). A gyermekvédelmi kontakt: lásd HUM-SAFE-01.
 
 **Utólagos ellenőrzés (vétó/QA)**: a programvezető.
 
@@ -273,7 +273,7 @@ A szerep betöltése (projektgazdai döntés, 2026-10-02): a felelős (accountab
 
 Az M4 hub, az M4.1–M4.4 leckék és az M4.A–M4.B peulák élesítés előtt emberi szakmai lektorálást írnak elő: a kvízitemek és disztraktorok, a sablonok, valamint az önfeltárást, kiállást kérő érzékeny gyakorlatok átnézését, a gyermekvédelmi és érzékeny tartalom külön felülvizsgálatával. A tananyag nem nevez meg lektort, és nem rögzít dátumot vagy verziót; ezek a `Program terv.md` 9.3. pontja szerinti release-jegyzőkönyvbe tartoznak.
 
-**Jóváhagyó:** a szervezet által kijelölt szakmai lektor (kvíz, rubrika, sablonok); az önfeltáró és érzékeny gyakorlatoknál a Memuna (gyermekvédelmi felelős). **Blokkol:** az M4 élesítése valódi madrichoknak, nem a staging.
+**Jóváhagyó:** a szervezet által kijelölt szakmai lektor (kvíz, rubrika, sablonok); az önfeltáró és érzékeny gyakorlatoknál a Memuna (gyermekvédelmi felelős). **Blokkol:** az M4 élesítése valódi madrihoknak, nem a staging.
 
 **Projektgazdai döntés (2026-10-02)**: az M4 éles release csak szakmai és gyermekvédelmi felülvizsgálat után történhet: a szakmai lektor felel a kvízért, a rubrikáért és a sablonokért, a Memuna az önfeltáró és érzékeny gyakorlatokért.
 
@@ -324,7 +324,7 @@ A repository nem alkot mozgalmi állásfoglalást. A helyi Somer/ken erősítse 
 
 **Projektgazdai döntés (2026-10-02)**: nem alkotunk új ideológiát: a helyi Ideológiai Kézikönyv a kánon (a könyv szerint a cionizmushoz hasonló eszméknél „a someres álláspontot” írja le). Az Izrael/palesztin dimenzió tanulói szövege a béke, az emberi jogok, az aktív felelősségvállalás és a vitán alapuló párbeszéd értékeiből épül (a projektgazda szerint a jelenlegi stratégia ezeket nevezi meg), és nem tesz úgy, mintha a tananyag önállóan politikai állásfoglalást hozna.
 
-A végleges tanulói szöveg (projektgazdai döntés, 2026-10-02): „A Hasomer Hacair cionista mozgalom. Saját ideológiai kézikönyve szerint Izraelt a zsidó önmeghatározás kifejeződésének tekinti. A magyar Somer oktatásában ugyanakkor a béke, az emberi jogok, az egyenlőség, az aktív felelősségvállalás és a vitán alapuló párbeszéd alapértékek. A képzés nem várja el, hogy a résztvevők ugyanazt az aktuálpolitikai véleményt képviseljék. Izraelről, a palesztinokról és a konfliktusról ellenőrizhető tényekből, több nézőpont megismerésével és minden érintett emberi méltóságának tiszteletével beszélünk. Antiszemita, arab- vagy palesztinellenes általánosítás nem elfogadható. A madrich feladata nem egy politikai válasz megtanítása, hanem olyan beszélgetés vezetése, amelyben lehet kérdezni, vitatkozni, forrásokat vizsgálni és árnyalt álláspontot kialakítani.” Ez a Somer saját, dokumentált keretének összefoglalása, nem új politikai állásfoglalás; helye az M2 érintett része.
+A végleges tanulói szöveg (projektgazdai döntés, 2026-10-02): „A Hasomer Hacair cionista mozgalom. Saját ideológiai kézikönyve szerint Izraelt a zsidó önmeghatározás kifejeződésének tekinti. A magyar Somer oktatásában ugyanakkor a béke, az emberi jogok, az egyenlőség, az aktív felelősségvállalás és a vitán alapuló párbeszéd alapértékek. A képzés nem várja el, hogy a résztvevők ugyanazt az aktuálpolitikai véleményt képviseljék. Izraelről, a palesztinokról és a konfliktusról ellenőrizhető tényekből, több nézőpont megismerésével és minden érintett emberi méltóságának tiszteletével beszélünk. Antiszemita, arab- vagy palesztinellenes általánosítás nem elfogadható. A madrih feladata nem egy politikai válasz megtanítása, hanem olyan beszélgetés vezetése, amelyben lehet kérdezni, vitatkozni, forrásokat vizsgálni és árnyalt álláspontot kialakítani.” Ez a Somer saját, dokumentált keretének összefoglalása, nem új politikai állásfoglalás; helye az M2 érintett része.
 
 **Utólagos ellenőrzés (vétó/QA)**: a helyi ideológiai felelős.
 
@@ -338,11 +338,11 @@ A végleges tanulói szöveg (projektgazdai döntés, 2026-10-02): „A Hasomer 
 
 **Állapot:** lezárva (projektgazdai döntés, 2026-10-02): a háromcsoportos felosztás marad, a lenti verziózott forrással.
 
-**Javasolt 2025/26-os felosztás:** **Parparim 6–9, Kivsza 10–12, Leviatan 13–17**.
+**Javasolt 2025/26-os felosztás:** **Parparim 6–9, Kivsza 10–12, Leviatán 13–17**.
 
 **Forrás (verziózott hivatkozás):** „Oktatási terv 2025/2026 – Hasomer Hacair Magyarország” (Google Docs; a Somer „A Hasomer Hacair Ideológiai Kézikönyve” oldaláról „25/26 Oktatási terv” néven linkelve: https://docs.google.com/document/d/1L1zJJv0EcQxsOF9eaxwARrmS5Qh3XbUA1wla0A08hZE ; megtekintve 2026-10-02). A bevezető szerint: „Parparim (6-9)”, „Kivsza (10-12)”, „Leviatán (13-17)”. A repó csak hivatkozik rá, másolatot nem tárol. A korábbi `Zorea 16+` külön csoport a repo történeti maradványa; a tananyag a háromcsoportos modellt használja.
 
-**Projektgazdai döntés (2026-10-02)**: a háromcsoportos modell marad (Parparim 6–9, Kivsza 10–12, Leviatan 13–17), a fenti verziózott forrással.
+**Projektgazdai döntés (2026-10-02)**: a háromcsoportos modell marad (Parparim 6–9, Kivsza 10–12, Leviatán 13–17), a fenti verziózott forrással.
 
 Írásmód (projektgazdai döntés, 2026-10-02): a magyar Somer first-party alakjai a kánon — **Leviatán**, továbbá madrih, hanih, hágsámá, dugma isit; a teljes tanulói korpusz egyszeri, gépi migrációt kap, a belső azonosítók nem változnak.
 
@@ -352,7 +352,7 @@ A végleges tanulói szöveg (projektgazdai döntés, 2026-10-02): „A Hasomer 
 
 **Implementáció:** a glosszárium, M3 korosztálymodul, az ezekre épülő M6/M7 hivatkozások és a kapcsolódó média-specifikációk ezt a háromcsoportos modellt használják.
 
-### HUM-SOMER-03 — Hagshama helyi megfogalmazása — LEZÁRVA
+### HUM-SOMER-03 — Hágsámá helyi megfogalmazása — LEZÁRVA
 
 **Lezárva:** 2026-10-02
 
@@ -362,7 +362,7 @@ A végleges tanulói szöveg (projektgazdai döntés, 2026-10-02): „A Hasomer 
 
 A pontos helyi jelentés és tananyagbeli megfogalmazás mozgalmi döntés. **Jóváhagyó:** mozgalmi/ideológiai felelős.
 
-**Projektgazdai döntés (2026-10-02)**: a Somer–Magyar szótár szerint: „Hágsámá – Jelentése: a someres önmegvalósítás. Az a folyamat, ami során elérjük a somer által kitűzött célokat, megvalósítjuk a számunkra ideális világképet.” A tanulói mondat: „A *hagshama* a someres értékek gyakorlati megvalósítása: nemcsak beszélünk arról, milyen világot szeretnénk, hanem személyesen és közösségként teszünk is érte.”
+**Projektgazdai döntés (2026-10-02)**: a Somer–Magyar szótár szerint: „Hágsámá – Jelentése: a someres önmegvalósítás. Az a folyamat, ami során elérjük a somer által kitűzött célokat, megvalósítjuk a számunkra ideális világképet.” A tanulói mondat: „A *hágsámá* a someres értékek gyakorlati megvalósítása: nemcsak beszélünk arról, milyen világot szeretnénk, hanem személyesen és közösségként teszünk is érte.”
 
 Írásmód (projektgazdai döntés, 2026-10-02): **hágsámá** (a Somer–Magyar szótár alakja), lásd HUM-SOMER-02.
 
@@ -467,5 +467,5 @@ Ezek szerzői, értékelési és szerkesztési döntések. A tananyag ezeket alk
 | Írásmód | „Nemcsak játék, hanem peula”, „egyválaszos”, „Moodle-ben”, „lépéstérkép” (végrehajtva, a fájlnevekkel együtt) | tananyagfelelős |
 | Storming és kortárs bántalmazás | külön tanítjuk; veszélyben lévő gyereknél nincs „normális storming” | Memuna + modulgazda |
 | Segélyvonalak | 116-111, 116-000 és 112 leírása a `Gyermekvédelem – release gate.md` §3.3 szerint | Memuna |
-| dugma ishit, HÉTKÖZNAPOK | egy forma a Glosszárium szerint (az írásmódot a HUM-SOMER-02 projektgazdai döntése rögzíti); az M5 harmadik kategóriájának címkéje HÉTKÖZNAPOK | tananyagfelelős |
+| dugma isit, HÉTKÖZNAPOK | egy forma a Glosszárium szerint (az írásmódot a HUM-SOMER-02 projektgazdai döntése rögzíti); az M5 harmadik kategóriájának címkéje HÉTKÖZNAPOK | tananyagfelelős |
 | Új kvíztételek | M3: a helyes választ eláruló „jóváhagyott” szó nélkül, valódi tévképzetre épülő disztraktorokkal; M5: transzfer- és szcenárió-tételek; az M0 belépőkvíz hét tétele (köztük a biztonsági tételek) a projektgazda szövegével megírva | értékelési felelős; az M3-nál a Memuna is |

@@ -120,7 +120,7 @@ A követelmények forrása: `LMS – hozzáférhetőségi sztenderd.md`, a **„
 »pre-flight« checklist”** kontraszt-sora — szöveg **≥ 4,5:1** (nagy szöveg 3:1),
 jelentéshordozó nem-szöveges elem **≥ 3:1**. Ugyanott áll egy **nem normatív
 projekt-cél a minimum felett**: „a kapus elemeknél a lényeges UI-kontrasztot is
-igyekszünk 4,5:1-re hozni, mert a madrichok jellemzően olcsó kijelzőn, gyenge fényben,
+igyekszünk 4,5:1-re hozni, mert a madrihok jellemzően olcsó kijelzőn, gyenge fényben,
 mozgás közben használják.” A 2.4. pont szerint önmagában megálló három márkaszín
 (`#D84C15` 4,23 · `#369D37` 3,48 · `#08A0CA` 3,05) a **szabványt teljesíti, ezt a
 projekt-célt nem** — kapus elem ikonjánál ezért a `#1D1D1B` körvonalas változatot kell

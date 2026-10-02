@@ -35,9 +35,9 @@ Ha egy leckében előírt szabad szöveges mező az `LMS – H5P runtime accepta
 | build_id | cmid | Szakasz | Név | Profil | Kötelező | Forrás | Unlock / előfeltétel | Completion | Mastery / pass | schedule_key | Megjegyzés |
 |---|---|---|---|---|---:|---|---|---|---|---|---|
 | LMS-M0-01 | BUILD_OUTPUT | M0 | M0.1 – Üdv a képzésben! | H5P-C | igen | M0/Online leckék/M0.1 | kurzushozzáférés | profil | nincs | M0_L1 | |
-| LMS-M0-02 | BUILD_OUTPUT | M0 | M0.2 – Madrich, nem terapeuta | H5P-C | igen | M0/Online leckék/M0.2 | LMS-M0-01 | profil | nincs | M0_L2 | HUM-SAFE-01: a lecke szerepet nevez (a Memuna), nevet és telefonszámot nem, a kontakt a kurzusszintű „Segítség és kapcsolatok” blokkban van; HUM-SAFE-03: a „ha téged is érint” blokk a kurzusszintű elemek szerint (a táblázat alatt) |
+| LMS-M0-02 | BUILD_OUTPUT | M0 | M0.2 – Madrih, nem terapeuta | H5P-C | igen | M0/Online leckék/M0.2 | LMS-M0-01 | profil | nincs | M0_L2 | HUM-SAFE-01: a lecke szerepet nevez (a Memuna), nevet és telefonszámot nem, a kontakt a kurzusszintű „Segítség és kapcsolatok” blokkban van; HUM-SAFE-03: a „ha téged is érint” blokk a kurzusszintű elemek szerint (a táblázat alatt) |
 | LMS-M0-03 | BUILD_OUTPUT | M0 | M0.3 – Moodle, H5P és kapuk | H5P-C | igen | M0/Online leckék/M0.3 | **M0.A után nyílik dátummal**, nem jelenléti találgatással | profil | nincs | M0_L3 | |
-| LMS-M0-04 | BUILD_OUTPUT | M0 | M0.4 – Dugma ishit online | H5P-C | igen | M0/Online leckék/M0.4 | LMS-M0-03 | profil | nincs | M0_L4 | |
+| LMS-M0-04 | BUILD_OUTPUT | M0 | M0.4 – Dugma isit online | H5P-C | igen | M0/Online leckék/M0.4 | LMS-M0-03 | profil | nincs | M0_L4 | |
 | LMS-M0-05 | BUILD_OUTPUT | M0 | Bemutatkozó fal | FORUM-C | igen | M0.4 | LMS-M0-04 | **1 új téma + 1 válasz** | nincs | M0_FORUM | module-specific forum completion kézi beállítás; a Moodle a saját témára adott választ is beszámítja, ezért a „másik résztvevő posztjára” feltételt a completion nem ellenőrzi |
 | LMS-M0-06 | BUILD_OUTPUT | M0 | M0 belépőkvíz | QUIZ-D | igen | M0 hub §5–6 + M0.1/M0.2/M0.3/M0.4 | LMS-M0-04 | kitöltve: mind a 7 item megválaszolva | **nincs cut-score**; ~60% csak stáb-jelző | M0_QUIZ | 7 item, több próbálkozás; az első próbálkozás diagnosztikus adat, a stáb-jelzést ennek item-statisztikájából kell számolni; az itemek, a kulcs és a visszajelzés megírva (M0 hub §5, 7 item; projektgazdai döntés, 2026-10-02): minden hibás válaszhoz egymondatos visszajelzés tartozik (miért nem jó, és hol találja a helyes szabályt); a 2. (jelzési út) item kulcsa a HUM-SAFE-01 ötlépéses útjához igazodik |
 | LMS-M1-01 | BUILD_OUTPUT | M1 | M1.1 – Johari-ablak | H5P-C | igen | M1/Online leckék/M1.1 | **M0 complete** | profil | nincs | M1_L1 | a SLIDE 5 személyes reflexiója opcionális, nem completion-feltétel; lehetőleg learner-local |
@@ -45,7 +45,7 @@ Ha egy leckében előírt szabad szöveges mező az `LMS – H5P runtime accepta
 | LMS-M1-03 | BUILD_OUTPUT | M1 | M1.3 – SBI-modell | H5P-C | igen | M1/Online leckék/M1.3 | **M1.A után nyílik** | profil | nincs | M1_L3 | |
 | LMS-M1-04 | BUILD_OUTPUT | M1 | M1.4 – Mondd el SBI-ben | H5P-C | igen | M1/Online leckék/M1.4 | LMS-M1-03 | profil | nincs | M1_L4 | a beadandó külön activity |
 | LMS-M1-05 | BUILD_OUTPUT | M1 | M1.4 – SBI-beadandó | ASSIGN-M | igen | M1.4 + M1 KAPU | LMS-M1-04 | leadva + megerősített kapueredmény | **minden rubrikasor ≥1 ÉS összesen ≥5/8** | M1_ASSIGN | rubric manual fallback, lásd §5; Grade type: Point, Maximum grade = 8 |
-| LMS-M2-01 | BUILD_OUTPUT | M2 | M2.1 – Ki vagyok madrichként? | H5P-C | igen | M2/Online leckék/M2.1 | **M1 complete** | profil | nincs | M2_L1 | személyes reflexió lehetőleg learner-local: az identitástérkép helyben marad, nem beadandó; a nem érzékeny, viselkedésszintű reflexió viszont rögzítve (M2 hub §6) |
+| LMS-M2-01 | BUILD_OUTPUT | M2 | M2.1 – Ki vagyok madrihként? | H5P-C | igen | M2/Online leckék/M2.1 | **M1 complete** | profil | nincs | M2_L1 | személyes reflexió lehetőleg learner-local: az identitástérkép helyben marad, nem beadandó; a nem érzékeny, viselkedésszintű reflexió viszont rögzítve (M2 hub §6) |
 | LMS-M2-02 | BUILD_OUTPUT | M2 | M2.2 – Értékeim mint iránytű | H5P-C | igen | M2/Online leckék/M2.2 | LMS-M2-01 | profil | nincs | M2_L2 | |
 | LMS-M2-03 | BUILD_OUTPUT | M2 | M2.4 – Reflektív napló és határok | H5P-C | igen | M2/Online leckék/M2.4 | **M2.A után nyílik** | profil | nincs | M2_L4 | **szándékosan M2.3 előtt** |
 | LMS-M2-04 | BUILD_OUTPUT | M2 | M2.3 – Somer 3 pillére | H5P-C | igen | M2/Online leckék/M2.3 | LMS-M2-03 | profil | nincs | M2_L3 | HUM-SOMER-01/03 érintett; a nyitó pillér-kérdés rögzítés nélküli önreflexió, nem fiókhoz kötött szavazás (HUM-PRIV-01), és a completion nem kötődik hozzá |
@@ -53,7 +53,7 @@ Ha egy leckében előírt szabad szöveges mező az `LMS – H5P runtime accepta
 | LMS-M3-01 | BUILD_OUTPUT | M3 | M3.1 – Történetek egy kvucáról | H5P-C | igen | M3/Online leckék/M3.1 | **M2 complete** | profil | nincs | M3_L1 | |
 | LMS-M3-02 | BUILD_OUTPUT | M3 | M3.2 – Három kvuca, három világ | H5P-C | igen | M3/Online leckék/M3.2 | LMS-M3-01 | profil | nincs | M3_L2 | HUM-SOMER-02 |
 | LMS-M3-03 | BUILD_OUTPUT | M3 | M3.3 – Gyermekvédelem 101 | H5P-C | igen | M3/Online leckék/M3.3 | **M3.A után nyílik**; HUM-SAFE-01/02 **élesben**; stagingben belső QA | profil | nincs | M3_L3 | learner release előtt a Memuna gyermekvédelmi átnézése (`Gyermekvédelem – release gate.md` §2, §6) |
-| LMS-M3-04 | BUILD_OUTPUT | M3 | M3.4 – Do / Don’t madrichként | H5P-C | igen | M3/Online leckék/M3.4 | LMS-M3-03 | profil | nincs | M3_L4 | |
+| LMS-M3-04 | BUILD_OUTPUT | M3 | M3.4 – Do / Don’t madrihként | H5P-C | igen | M3/Online leckék/M3.4 | LMS-M3-03 | profil | nincs | M3_L4 | |
 | LMS-M3-05 | BUILD_OUTPUT | M3 | M3 – Helyzetelemzés | ASSIGN-M | igen | M3.4 + M3 KAPU | LMS-M3-04; M3.B erősen ajánlott | leadva + megerősített rubrika | minden sor ≥1; **R2 és R4 blokkoló** | M3_ASSIGN | csak kitalált, életszerű eset (valós eset névtelenítve sem); mentor review; R2/R4 blokkoló kimenetnél kétszemes döntés (§4); összetett feltétel manual/runtime fallback; Grade type: Point, Maximum grade = 8; HUM-SAFE-01 élesben |
 | LMS-M3-06 | BUILD_OUTPUT | M3 | M3 – Gyermekvédelmi kapukvíz | QUIZ-M | igen | M3 KAPU | LMS-M3-05 | attempt + megerősített eredmény | **≥10/12 ÉS Q2/Q4/Q7/Q9 mind helyes** | M3_QUIZ | összetett feltétel manual/runtime fallback; HUM-SAFE-01 élesben |
 | LMS-M4-01 | BUILD_OUTPUT | M4 | M4.1 – Mit üzen a testem? | H5P-C | igen | M4/Online leckék/M4.1 | **M3 complete** | forrás szerinti 2 reflexióval | nincs | M4_L1 | HUM-PED-01 élesben |
@@ -136,7 +136,7 @@ A felzárkóztató peulák (F-peulák, `.F`) a nem teljesült kapu utáni javít
 
 **Kétszemes döntés (Program terv §5):** az M3 (R2, R4) és az M7 (R1, R4, R5, R6) blokkoló sorainál a „javításra megy / blokkol” kimenet kétszemes: mentor + második képző, az M3-nál a Memuna is. E két kapunál a kapu-szezon előtt az értékelők közösen átbeszélik a rubrikát, és 1–2 referenciamintát együtt pontoznak.
 
-**Újraértékelés (Program terv §5):** M1, M3, M5, M6 és M7 esetén a madrich kérheti, hogy az eredeti értékelőtől eltérő második képző a downstream feloldás előtt átnézze a beadást és a kapudöntést; a megerősített kapueredmény ennek nyomán módosulhat. M3/M7 biztonságkritikus vitánál a Memunát is be kell vonni.
+**Újraértékelés (Program terv §5):** M1, M3, M5, M6 és M7 esetén a madrih kérheti, hogy az eredeti értékelőtől eltérő második képző a downstream feloldás előtt átnézze a beadást és a kapudöntést; a megerősített kapueredmény ennek nyomán módosulhat. M3/M7 biztonságkritikus vitánál a Memunát is be kell vonni.
 
 ## 5. `moodle-ai-mcp` Core 1.0 képességmátrix
 
@@ -169,7 +169,7 @@ Az implementáció alapja a `neongodio/moodle-ai-mcp` **Core 1.0** állapota, a 
 6. `moodle_course_inspect` + `moodle_activity_inspect`: név, típus, sorrend, completion, grade visszaolvasása.
 7. Manuális screenshot/tesztjegyzőkönyv a rubrikáról és restrict-access szabályról.
 8. Tesztfiókokkal az `LMS – H5P runtime acceptance.md` végrehajtása.
-9. Csak sikeres runtime teszt és G1–G8 release-gate után nyitható meg valódi madrichnak. A release-hatókörű jogi és gyermekvédelmi médiakapuknak is zárva kell lenniük, vagy az érintett assetet el kell távolítani, illetve helyettesíteni (`Emberi jóváhagyás szükséges.md` §5: projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a release owner és a jogi/adatvédelmi felelős).
+9. Csak sikeres runtime teszt és G1–G8 release-gate után nyitható meg valódi madrihnak. A release-hatókörű jogi és gyermekvédelmi médiakapuknak is zárva kell lenniük, vagy az érintett assetet el kell távolítani, illetve helyettesíteni (`Emberi jóváhagyás szükséges.md` §5: projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a release owner és a jogi/adatvédelmi felelős).
 
 ## 7. Központi ütemezés (V1, HUM-OPS-01)
 

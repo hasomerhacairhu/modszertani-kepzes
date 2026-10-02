@@ -1,340 +1,340 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "d3706fc257bc656883a536c8c656ce235a7c72659b98a5c0f5abc6febe3ea647"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "0c5b18d5c04e0b7af36b445a4a79293edabc167c662cf644701155953b1e2017"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "6a72165d9cca3d9bcae5a54f82f3ef1f6d6ab77e8b13181ecb656c8ca8237915"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "753c615e9830b5f5dc5d5350412e4dffc8b0a38a950e5c8278cfa2ae5720d1ca"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "8f4e2c1ffc9995f907f7a0ffbf1c12783c9faa5942322321d1c8131f63795f5c"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "5fef66d83b5d54985fe990d6fb608c96cade83511e49f314c58033f76ef10769"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "542981deeaa2766dc8cc5b996f2d3a78a7e0e832b39b436dc07d8c4098cb490a"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "bb9ab825d58abbef8da9ec48dafcac80e02911b6b5c111bb23e94395da064d19"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
       "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
       "sha256": "f932ed121aee22562520da38cc6125de69fe5990c9994b70be605872f232eb64"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "2411c5a002b46d63be61de6145f04399496f25d50cdf7a59972a5831d4348a9a"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "7897f8e0ab0450a89c0e2c4dcf5cd65af6bbbf56badb713a9f4724372561a587"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "56e80572994523cb9df78aa6d46852d83a955eab1429ca04e2d31ae81ad2bbda"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "9c48a9d496fe7f5191a25a2a4cc9bc85a85e1576a068a6ee5f2914baac68e60a"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "d7a09d87538eaae9d650f821eb5dd03197ae72a2f0f3120aaf97d025abc3e4c9"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "2aeba11d00f5c9fa4ec6ec05b766898d44407275c46acec3a27d1578ae125477"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "66d21b2bf8144b47a12bf830edd751c01618442c1bd1c5c7c52b2806557b1285"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "4cea523dcdce8a0fc05125f8c07fa26d54c9363475e2cfff3232941834ee17ec"
     },
-    "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrich, nem terapeuta – szerepek és elvárások.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "1b94ae033495e2ad87b92027296d45c21371787c18ff3928cf0508baf6f1c51d"
+    "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "184459a497eda77038514e5d64b4c23c948bba9aadedca2d54fe2c42a875e428"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "38ce5aea038c6799417adb4514a55cf0f73d67e5a55b2ba41477aa20cb4beed4"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "a1383c96da1d2c0f3502c4331a7dda0d04fa84eefae024fa334cdc581eb658e3"
     },
-    "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma ishit az online térben + bemutatkozó fórum.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "602fb387e0fbb68e4b65423eb683e896d0f9c7f6d645689d4f7244fc1dc5f22d"
+    "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "3b58e78ce9dcfe341a6961c156e782f48e4ebb4a4cbed1f2e82104bf2e07f346"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "6f53d7cf99074ac499b131b1406cb66a84b3dcc782925112795cd2d1970461c9"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "5de22550e254acf285dfbb8d8b8b080006080fb7a1735c411484b8282c688391"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "ff3226024c65a668d52de0e4789df95b9b178aed24a18331698fdf97c913c5b6"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "2cd5713371b28c2bb2eb3f7774a2ee5384cb4f7698df4503847032b5875bc845"
     },
     "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "c3bb635bde1cf07fdd8f10a8815a3beccd2006395ca40dbca01287ca802c799a"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "65c1ed28887d17e9f60e3a2c9a936471262ce505bf9a6e059d0bb0b7b4a2b8d3"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "672776802158837ed633b20ad5ac71c2cfa7732fce7e935b906b88e4c6938c4b"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "bee2edaa7ecf9a120fc0fbbaf513430dea1090865ee4ae59d54cdbce42f58740"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
       "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
       "sha256": "02f6dd06fa8961d8ad7f049db8612cf4897c5beb571a960c1d59d63e7a143060"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "f94eee9ff14d246b59671bb81d9745215cf88408e0cd8ebb79beaafebe74bc2e"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "2ae2d4a4599f8291d27fc3f4a4d28573d1e967fbe61a3a11c4230393d59ce948"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "75445e6a5bddbd8e099c55f4fdc97c2a3eeda37cf91d1c87f3199e211cdfcc3e"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "2625a1b16a49ea7562cbd6014c1edd37505ab8a0ca51ce972c9e78f3da08533f"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "e7d08cde89676ca167a2164838155f51dc8bd75cf8ddb75f8a86441c7e9734f5"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "30adf4d1ac923b45b8eb4920ed70da3982ac77798b515a3065ac3d89b9415a84"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "4c5f4ea3d11650423d095eaefd5d34aa964cbc358823d7dc2888828f7733981f"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "a3d4fdf64dcc37f73e198f93e221f8ae71c50f1fa82fa0380690645d518d8304"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "821ee5e46de7a911616bf0688ec367381d74a490397d52303a2f89a852d8d001"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "d371cdaaa83eb628533b71e6d25a11f45d791ea8d051f01d89baa1b8f7874902"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "733dfa7b7aad11135975c78862645e8b8b9278f14e470d8be7c93e26aa61afc0"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "baf47ca292fb07683052f6acc54585ae2324d997e8d40194528196b7c834c9d9"
     },
-    "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrichként – Identitás, Somer-értékek és dugma ishit.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "3d4ec01cc90fe296eb66fdcfe4f12454e83de205df0b99653608d1117f28bbae"
+    "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "89369e9b3ac97c6ca690389992ff15bcebe2c2643668ec18e99d62edb44eca60"
     },
-    "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrichként – identitás-körök.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "b67151b510926938191ae303d7622bdf81c222e4e6b853352113339e205ff845"
+    "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "fcdafbd06341c75da9b3469b2c03d12d47cc448bebef0bbe5fb401921ddd0c15"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "cb965230be1f2f664885a191d9e8eeaa5a3cdb7462aa1a3d632f540394a20621"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "c514a73c6ed94dad68b5993536013637d3b10b782fa8af070c578508a48e3639"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "1fda90e1c686d49171a74fd9632ecd284d1a192789e2b9bc0a4ba921b81a8933"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "aadcc1737e48f7d05332bb35d9a1560f7960931cab3c7ffac002cfe05800e859"
     },
-    "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma ishit nem terapeuta.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "93f701fd5a06c5824687eabafeecec043a4ddde4c61431a0a44fb56bea737fe0"
+    "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "f3520f882a445cc2d61b55bfb486ed997404fd3728551fa171e02360aed566a1"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "45d6a53ba7c84caf2e145442a982528278d9fc6a9c6f8ff988a93444e3e43161"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "0e219d6983b257ba9eb2d56b1ca902fcdab2772eee24aa3aaeb3acf5b76e7672"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "cc9ab57ca060c26226c805ee5dcde66fe966c198a7de1cf4da1eda7fda609277"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "1e497c66b14b8ee6ccdeeb3ba7a96604d7687170bcee1408bd985bdf5631315e"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "400b0648c90e2e9084d0d14c78fa4f062216b433ccd6ca24bc7083176b984189"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "a9368eca127c402befa9a7277c193e5862f9b2825436ad81df586666fd9776ff"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "8a837402dbe2ff4d4f97c88daa0d39464f8b6ca0227f05aa1917418f51c81575"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "f4da8ffa0a620be4ef62ff6aa91e9b944dbf1894bd091e2d6c47fec70ea3f4fb"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "1e65e0d6de866518c29df02ab51dde2a938056aeb5075c975e9e5c0e43252d8a"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "6557bb71e8a24ffe55b96963b03de6974291c39738905c9a06b200a8037994b2"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "4c5d7189c38c7b37f21114804a0af8db2b93d992dedcd4920909ac70f82a0456"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "543109d13827a2ec99356f56c7317f9270ebfed0a022ba4fc3032cfe948a9f48"
     },
-    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatan – 3 kvuca, 3 világ.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "34070299eba6c6afe9d8c70f34346c1e4e93facb5b7b05423bc56f41b75504ec"
+    "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "8a2b9f490d24724844da298d0375da481853c6bbcb09aec990c059763a903556"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "e96ac2d7d42c3be4a7003e36f4e58b1eadeb29550c46158760e2938efc493355"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "c9e5dc7f1d7f78efc7c5a18f36befe246060c5cb8196306e899170303250caf0"
     },
-    "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrichként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "ef47cf503544bebe97d89f57c757736e3d2d1c4604510746a063cec6a64e8694"
+    "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "8ade977382d27afdef892c55e9bfb25d62889e73d6987166098967ce534b8b4b"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "3aa4f97315ab7ae5fcd22b4bfa4c9d8dea922e393d5aa49d4be1ae1647294faa"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "c424365f0366ddd0621053cfedf94193c9e3bf654a786632284704373dd151f3"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "c4ba03c431ad42ddf43a7eda62317b2794c371e1970c5a0d12aa799f7f6a4484"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "f39524c6b51bd9cfb2a90692a9ae7468e86635c974247e3b4b26582a25acc9f5"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "1da4ca05f50ff69d3bfc3841098d62fb6d9e255825903b3824cf5183017155bf"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "e2782437238ade9b8cacb1bb515389766742c4e76e2d5b197ba05ef824b9199e"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "94a8678d1662b1f06f8814f906bd2c06a7b8641ba85277b0d33fb782b25afad0"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "35e5483a999f3dd6198b09478646390244b4bbf8e38aa94bf612135eb21fd60a"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "cd08b7bfef747afd6e4e61b99aced443b8b4f26c5c40386ce3d78d33b487857f"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "e11406fecdf962cdc670222a64a18bef9a3243d77ed8119cf701e863723d26f2"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "a39f1028a0f5ef3028700bb8a7c1fef2c0570d1fd9f2f2677b3a88357a1ab96c"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "9eb2692052ef3e84fa3ef7316005f633e5fe0803ec41ae8a37763a2d69964377"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "784944e1f2d9eafdfda9a8c34b7c382a50b054aa5383dbddb0c5d15109914efb"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "fb3c072e9805fc6f37697c9ac6f5ed246c790264d8af26f0377f930647ff492e"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "a4ab0d8a8ad6bf81a5b3e4d9cbad9cc808ccbb029fd416e01c217273bbe2f5fa"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "8e8e70e954992bc816cdcfe92dc48562c0c974bcf998c1bc4c83e0935eb51869"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "91ef81fce03d8584faba02874e1683947ac415fe2de9a0883f281556cde0d4ec"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "a98222d67603f122c3561c2e7dfb87bcffd7225ad64a0fc2bf634e733299b30b"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "8b009fcfab6749317ea5dddda5e0a8b79438882d6b4d896f76164aa3f0a60614"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "42564a15493569d6293db201b3c743a146810b8f16dc5c8dcf40b69a8b49cb2e"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "9ad5787dfd107ce98bfa8d995cc1ec0eabd17aec7401c113e5d9e9fc6ead3966"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "85d86d0f913b413e9f8018db798788af0681ee5944a0839b054f6a33426c1756"
     },
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "a96af50831f5bf444709bb771a569ea886840e4a53d684eb7ebae6004a183467"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "4fb37e13efe4c3957f67f6c2a3e78f78eec439991e418e4c1ce14d560e9ea5e8"
     },
     "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "315edb153ce28a15fb94042173376d0b710963f16225deeb1c98854ce97824d2"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "bb9942744d4dcd59289b4d18764209b28da6b145d89ee7b9ee007e20d9c25026"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "181477e4103584ad8f65adeb754d23df3141ebb7079f1993ecbcc893273d9cac"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "362b4bf83c4958018681201092e921ec25514c1d85d664d338199a6c6a515f42"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "3d0d0dfe1674325a971b01b4c81fe489b1b42f4cdb7d56c998b70283510c9698"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "b8a66295182154bdd9834a41de73a2a24525bba6433907d1933d1b0a23c5d2de"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "22aae508456c1fbb359cd3bc6f67b71a685fe1ac4b44721e84d0bc7bf23392cd"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "c6dac907617fd14352fdac148a8b9c050947c4381e61e9ca86ec91849281691c"
     },
-    "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrichként.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "ad81d60d238df4450648863375f73c95c3c70cd112172d9528b0fa73d662f69c"
+    "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md": {
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "e464b288b1c0655a94e14d4e01211d9595e0b9a6a8b13b72276bd34ec9e11f3b"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "1a58c9dc5efc28744d82230690a69cdabe4a8ae67a046a576dd3ec0d561457d0"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "3a963abf2cf54674be9fe9c5dd7c2104dd3decf9443922a7ef02e8308df175d7"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "358da6307ab883771e7892f6f83242d7a3c295a3c40458b2f172a83e7cef6e6f"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "3bacb7c550156582de687e35eee13139201214d203dedd19ee63de699871dbf6"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "a5d523589daaa44fab2744cac1952e97c0da275aa37a99c52ba2d1dd05c4b99d"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "5bcf7d517032f8e38a9dfa63d6a6ee9c3d1f718d5e4d229829a97c2f71532d94"
     },
     "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "0f48a3b07e28008168ad279cfa0f1776e4797aee8ba6a6bd63d99cde19598d4b"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "17fa2801154e77a0c07ff33ada27c7e2822a0f3142d9209aab67dd6f6979aa78"
     },
     "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "17d724ca330e99bba1129ce7170fa9c9ca30201c7be3d27caa9ee02e9c2f0ce0"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "f5cffe4ca6e0d5c584d4537e912768ed7018c06600396b124634f73ac28eed73"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "a814952de84e50a01019b88eeeaafc77b020d448af6322aed446f38eba89e960"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "f952bf970c98fa99d33f8240c9d461c2db42be24fb35e3fc7c1aba14f4342097"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "b1ab814a4c1ca5b75640ed795a96d9ca0c26586a7d6ba006d49cfc12fbe65a45"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "cf6c2f1239688d78625e939e394736d0f95e14535c174ff521daad3e41d2894c"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "ac839975dfd6ad3289da2103bb48b83add3a61f40f71885d2b04344d7b156442"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "a6b65e00dfe910fccd44e665d5041160a291369955f470eb07acdbf624b9935f"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "7efbbff3161c9e744b357783b665976590198b839a9d212ca387fbee87d34a87"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "d401fbf145d987ee98386be5e2af0e944b7a54217504befb35b681ecdf6aa73c"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "b55710f1ff74a47bd19eb01d1d8cf0a77b38ea605de7a66db26990f8dab4c343"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "40c992e2f782b1d7de3abd93cbb23058ebb8ae04f1c062ca15a07001cd525e87"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "4a741e74b9fa19f5f1979ae4a7d9a0721c973b655984e8e753b00296a9ff0727"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "a34950199fc10f6ce341f4f5005835eab20a3093c66771e9d32d4e90d96fa7a2"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "537923f54b6ebbde92aba1cd0e6b82775e9b89e1868591473210a58a41cb3c1d"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "59cb4e30138720d28d8f1d8dd2c1cb74e5636de622b51f54bbe51fcc8536f151"
     },
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "401fb14b2cbf660d68fd534170923349b7cbbc5662214084b6757b620b8ad407"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "2317192889b74d9e8e2904bff668b5b30648b445305d62366b00b99a4f214ffa"
     },
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "4bfe10b74a0cb873c421a0c63b42e1f0e6e7f3c64c0b79bb93ea397d2ae16cd0"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "e94113a653098069be8bed427188db72d7a2f943cdfa4dc4b02bd2df593f5e37"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "98e301b3ed25933256b69eaa586f73984c5ecbef82ad555e40ab7c9e599b2253"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "8fd18b22da9d45d6e48ae84b44c6a898121a26bf89c59f030c7c6957ce997f8b"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "85dc1c9661f7a2742d063e770322215c750def3beadc0186d246b5474b168717"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "74d655b7f1fd7fbd70395cd55e3858564200185bfb6a2a304653214571099489"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "c3da91a8be9a49bfa9e01c71cc7e02b144f8f3546077e573887df25e712bb653"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "fe9f9a2663dd00d750621bdda8d1ff8979230d2b711ed4b5befe11403052c25d"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "4808e5bdbdc93fe89f0b67d8934e7e64628f8236392f0f340ae3cc8c4a1db3e0"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "0d441a7b04257c0afe78437c98fc60cffb1799d97120033efcf33c8483f8a116"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "5ed283c663ab71aa56736e5e2c06eb5adbe0ffbf6f6578f31daf01fc96649d9a"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "cdceedffd97ee46932f816e1ed748de71ef8078167f34312e471308e7bd80ff6"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "6b62d875ac4ee83014a03de6a2cc35bbb1cc392c0d7c78449fdc221e401b305d"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "7b9343f6d80fab2861cd94a48c3033ef29c2463f28cadef7cae949d32be8c2f3"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "ce27cefcaa3727972988fcb953be4008a16dc6733e21bf9b35807a782d0baefe"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "f5dc7afdc423e2f198bb549ec5d1e8016f8e5e2adee2c3ef6618bb09827dfcd9"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "2bbef18ba8023c973f135852442542b3f962066673a5e4e9b3c6306deec998f9"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "10c24e6c492ab3155117800d15ea1863ba21d8121a95cfd79d21e9ba7188e46f"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "24cb360ee3cbd4919728524631e5f209fa159f543c460da117a8487c14ff1330"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "ec66986f06cbaf83cf2a063dd1f503fdc0ef92fafbd5be3822c0f85ab3e9c28f"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "123b46efe897a05f04d4954958ec5d37e8b1d02998c9091592e8d570c1b44f45"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "05209d2ffe2eb101be0d6f5a81660770148c93b419180c62764827be0465dba3"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "37d13898bea4104285dbf8de2c9468501cbe87537b7cce37efe4bdae6d5b3ebe"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "73fb94122aa35cc89ee6e88fe2b170f5c996ca7de8521ef0537266dea3d08ee3"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "a6d3595de8c8185d0653795ad606ba4e8edfc4a2b23c8089d3d654144f4f8420"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "69b960ea2c9006158f2c03e0a196d1269f3d3db40d1a93fcbc39c24e79923872"
     },
     "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "a151f9bbe172db372d5b09eaf7e96fac7abd31367e36075dc379517b92af78db"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "e7dd2b85e93347060f71feee038db9d420b08f2fc4d937a6e71962e02d0c2b5d"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "948aa7a9aff5cbb09c7fa79573865ca15c1896b39c688a076273dfdf95e92cc5"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "cca2e6ca03dac8e5c906487536e8a6649da9a3c20143f32944ec3f21f772ee28"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "df7232d023f7de7cc77519b8d83dc75dc2d14981ba1a045c9833e6bf9d7809a4"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "f08273354c9d65e4e70f70205b125bed8b5ae12a216725ac751fb625f20a76f5"
     },
     "02 Tervezet/Terepgyakorlat – 2. félév.md": {
-      "reason": "2026-10-02 projektgazdai döntések (1. és 2. csomag) beépítése: a HUM-tételek lezárása, a D01–D37 és F00–F21 döntések, az 1. kör adverzális utóellenőrzésének javításai, a D1 lezárása miatti R5-kivezetés; a 2. kört a csoportok saját visszaolvasása és gépi szó szerinti egyezésvizsgálat ellenőrizte, külön adverzális review nélkül",
-      "sha256": "fbc1edda0a0b53c61b7e71ea6830c772790b1caefb7b0b08010c877e8d3308fd"
+      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
+      "sha256": "d9bd44e678ab1d665976008c4da8d97a9b841aebaa4d75c2b833815748517ca4"
     }
   },
   "schema": 1

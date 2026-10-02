@@ -38,11 +38,11 @@
 
 **Modulközponti kérdés**
 
-> „Mit tanultam ebben a félévben madrichként, és mi az az 1–2 konkrét következő lépés, amit a terepen tényleg meg fogok lépni?”
+> „Mit tanultam ebben a félévben madrihként, és mi az az 1–2 konkrét következő lépés, amit a terepen tényleg meg fogok lépni?”
 
 **Modulcél röviden**
 
-A Z modul a félév **lezárását és értelmezését** támogatja. A madrich visszatekint az M0–M7 ívére, kiemel legalább 3 számára meghatározó pillanatot, és megfogalmaz 1–2 konkrét következő lépést a terepre (pl. „a következő 3 Zmán Kvucámon kipróbálok egy új visszajelzési formát”). A modul nem vizsga, hanem **reflektív tükör és híd a gyakorlat felé**, a kapu completion-alapú.
+A Z modul a félév **lezárását és értelmezését** támogatja. A madrih visszatekint az M0–M7 ívére, kiemel legalább 3 számára meghatározó pillanatot, és megfogalmaz 1–2 konkrét következő lépést a terepre (pl. „a következő 3 Zmán Kvucámon kipróbálok egy új visszajelzési formát”). A modul nem vizsga, hanem **reflektív tükör és híd a gyakorlat felé**, a kapu completion-alapú.
 
 ***
 
@@ -53,9 +53,9 @@ A modul végére a résztvevő…
 1. **Tanulási pillanatok az M0–M7 ívéből**
    – Vissza tud tekinteni az **M0–M7** modulokra mint összefüggő tanulási folyamatra, és meg tud nevezni legalább **3 fontos tanulási pillanatot**.
 2. **Reflektív önértékelés**
-   – Képes rövid, őszinte **önreflexiót írni vagy videóban megfogalmazni** arról, miben változott madrichként.
+   – Képes rövid, őszinte **önreflexiót írni vagy videóban megfogalmazni** arról, miben változott madrihként.
 3. **Konkrét következő lépések a terepre**
-   – Megfogalmaz legalább **1–2 konkrét, időben behatárolt „következő lépés” célt**, ami a terepi madrich-gyakorlatára vonatkozik.
+   – Megfogalmaz legalább **1–2 konkrét, időben behatárolt „következő lépés” célt**, ami a terepi madrih-gyakorlatára vonatkozik.
 4. **Támogatás elakadás esetén**
    – Tudja, **kihez fordulhat** (mentor, képzők, ken-vezetők, társak), ha a következő időszakban elakad.
 5. **Képzésszintű visszajelzés adása**
@@ -91,8 +91,8 @@ A modul végére a résztvevő…
 * **Általánosító lépés (a konkrét pillanattól a konkrét lépésig):** mielőtt következő lépést írnál, fogalmazz meg a Z.2-ben felidézett pillanatból **1 általános elvet** – pl. „**Megtanultam, hogy amikor …, akkor jobb, ha …**” –, olyan tanulságot, ami **nemcsak azon az egy peulán, hanem MÁS kvucáknál is igaz**. A következő lépés ehhez az elvhez kötődjön, hogy a terepi transzfer ne maradjon esemény-specifikus.
 * **Példamondatok:**
   – „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”
-  – „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrichként.”
-* **Peula v2 a terepen:** a tanuló az M7-ben elkészített Peula v2-jéhez konkrét terepi tervet ír (mikor, melyik kvucával, 1 előre látott akadály ha–akkor megkerüléssel), és megnevezi azt a mentort vagy kijelölt tapasztalt madrichot, akinek elmondja a tervét, és akitől segítséget kér, ha elakad.
+  – „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrihként.”
+* **Peula v2 a terepen:** a tanuló az M7-ben elkészített Peula v2-jéhez konkrét terepi tervet ír (mikor, melyik kvucával, 1 előre látott akadály ha–akkor megkerüléssel), és megnevezi azt a mentort vagy kijelölt tapasztalt madrihot, akinek elmondja a tervét, és akitől segítséget kér, ha elakad.
 * **Önellenőrzés:** „Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”
 
 ***
@@ -105,7 +105,7 @@ A modul végére a résztvevő…
   – **Moodle Feedback** – képzésértékelő (a válaszok név nélkül jelennek meg a feldolgozásban).
 * **Ajánlott kérdések a reflektív produktumhoz:**
   1. „Nevezz meg legalább 3 pillanatot ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
-  2. „Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest?”
+  2. „Miben érzed úgy, hogy változott a madrih-szemléleted M0-hoz képest?”
   3. „Írj le 1–2 konkrét következő lépést, célt a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 ***
@@ -122,7 +122,7 @@ A modul végére a résztvevő…
 1. **0–10’ – Ráhangolódás: „Félév-emojik”**
    – Körkérdés: „Ha a féléved egy emoji lenne, melyik lenne az és miért?”
 2. **10–30’ – „Időkapszula” – tanulási pillanatok megosztása**
-   – Biztonsági keret a „Ha ez a téma téged is érint” blokkal: mindenki annyit oszt meg, amennyi neki most oké, és **passzolni is lehet**. Chanich-nevet vagy beazonosítható történetet nem mondunk; valós gyermekvédelmi aggályt nem itt mesélünk el, hanem azonnal bevonjuk a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét).
+   – Biztonsági keret a „Ha ez a téma téged is érint” blokkal: mindenki annyit oszt meg, amennyi neki most oké, és **passzolni is lehet**. Hanih-nevet vagy beazonosítható történetet nem mondunk; valós gyermekvédelmi aggályt nem itt mesélünk el, hanem azonnal bevonjuk a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét).
    – M0-tükör: a kvuca visszanéz az M0.A kickoff-plakátra (mit várt, mitől félt, mit hozott); ebből is lehet tanulási pillanat.
    – Párok/hármasok: mindenki elmesél 1 fontos tanulási pillanatot.
    – A hallgató 1 mondatban visszamondja: „Amit tőled hallottam, az az, hogy…”
@@ -184,7 +184,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
   – Értékelés: „Teljesítve / Még nem teljesítve”.
   – Minimum elvárás:
   * legalább 3 konkrét tanulási pillanat, mindegyiknél az, hogy miért fontos,
-  * 2–3 mondat a madrich-szemlélet változásáról,
+  * 2–3 mondat a madrih-szemlélet változásáról,
   * 1–2 következő lépés – legalább az egyik konkrét és határidős –, és annak megnevezése, kinek mondja el.
 * **Moodle Feedback – „Képzés-értékelés”**
   – Activity completion része, de nem „vizsga”.
@@ -201,9 +201,9 @@ A kívánt ív (a Moodle-lista fentről lefelé haladó sorrendje ezt ne írja f
 **Programszintű megjegyzés – 2. félév, terepgyakorlat:** a Z teljesítése az online félév lezárása. A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes: **Program teljesítve = Online félév teljesítve ÉS Terepgyakorlat teljesítve** (lásd `Terepgyakorlat – 2. félév.md`).
 
 * 6 valódi, 60–90 perces peula, megfigyelés → visszajelzés → reflexió → javítás ciklusban.
-* A hat alkalomból legalább: **2** alkalmat mentor vagy kijelölt tapasztalt madrich **élőben megfigyel**; **2** alkalomnál a résztvevő explicit módon visszahoz egy korábbi visszajelzési pontot és megmutatja, mi változott; **1** alkalom tartalmaz tudatos inkluzivitási adaptációt; **1** alkalom után dokumentált biztonsági és határkezelési reflexió készül akkor is, ha nem történt incidens.
-* A megfigyelési jegyzet rövid és adatminimalizált, chanich érzékeny adata nélkül. Valós gyermekvédelmi eset azonosítható részletei sem a jegyzetbe, sem a reflexióba nem kerülnek: az ügy dokumentációja nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01).
-* A 15–17 éves madrich vezethet peulát, de soha nem ő az egyetlen felelős felnőtt: minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé (HUM-SAFE-03; `Gyermekvédelem – release gate.md` 4. szakasz).
+* A hat alkalomból legalább: **2** alkalmat mentor vagy kijelölt tapasztalt madrih **élőben megfigyel**; **2** alkalomnál a résztvevő explicit módon visszahoz egy korábbi visszajelzési pontot és megmutatja, mi változott; **1** alkalom tartalmaz tudatos inkluzivitási adaptációt; **1** alkalom után dokumentált biztonsági és határkezelési reflexió készül akkor is, ha nem történt incidens.
+* A megfigyelési jegyzet rövid és adatminimalizált, hanih érzékeny adata nélkül. Valós gyermekvédelmi eset azonosítható részletei sem a jegyzetbe, sem a reflexióba nem kerülnek: az ügy dokumentációja nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01).
+* A 15–17 éves madrih vezethet peulát, de soha nem ő az egyetlen felelős felnőtt: minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé (HUM-SAFE-03; `Gyermekvédelem – release gate.md` 4. szakasz).
 * A fenti felügyeleti szabály a HUM-SAFE-03 projektgazdai döntése (2026-10-02; utólagos ellenőrzés (vétó/QA): a Memuna és a programvezető): a terepgyakorlat élesben csak ennek betartásával indítható (lásd `Emberi jóváhagyás szükséges.md`, HUM-SAFE-03).
 
 ***

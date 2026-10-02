@@ -14,11 +14,11 @@
 
 > A lecke végére **fel fogsz tudni idézni legalább 1 konkrét tanulási pillanatot** ebből a félévből,
 > meg tudod nevezni, **volt-e olyan modul, amit nehéznek éltél meg és mit mond ez rólad**,
-> és **3 szóban össze tudod foglalni** a féléves madrichképzős élményeidet.
+> és **3 szóban össze tudod foglalni** a féléves madrihképzős élményeidet.
 
 **Központi mondat:**
 
-> „Nem csak a kvucád tanul a peulákon – **te is tanultál magadról madrichként**. Most ezt tesszük láthatóvá.”
+> „Nem csak a kvucád tanul a peulákon – **te is tanultál magadról madrihként**. Most ezt tesszük láthatóvá.”
 
 **Felépítés:** Hook → Input (mi az a „tanulási pillanat”) → 2 példasztori → Activity (saját pillanat + nehéz modul) → Check (3 szó)
 
@@ -30,13 +30,13 @@
 
 ### Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim
 
-> Ebben a **10–15 perces** leckében arra nézünk rá, hogy **TE mit tanultál** ebben a félévben – nem a kvucád, hanem *te mint madrich*.
+> Ebben a **10–15 perces** leckében arra nézünk rá, hogy **TE mit tanultál** ebben a félévben – nem a kvucád, hanem *te mint madrih*.
 
 > Olyan **konkrét pillanatokat** keresünk, amikor azt érezted:
-> *„na, most tanultam valamit magamról / a kvucámról / a madrich-szerepről”*
+> *„na, most tanultam valamit magamról / a kvucámról / a madrih-szerepről”*
 > – akár pozitív élmény volt, akár nehéz.
 
-> A lecke **csendes, reflektív**. A beadott válaszaidat csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van. **Nem kell intim vagy érzékeny részletet megosztanod.** Használj anonimizált/általánosított helyzetet, ne írj chanich-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat.
+> A lecke **csendes, reflektív**. A beadott válaszaidat csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van. **Nem kell intim vagy érzékeny részletet megosztanod.** Használj anonimizált/általánosított helyzetet, ne írj hanih-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat.
 > Nem fogalmazásverseny, hanem **a tanulásod felismerése**.
 
 > **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit a lecke mezőibe írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a válaszokat látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak a lecke mezőibe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
@@ -60,7 +60,7 @@
 
 > **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1., a 3. és a 4. dia „Single Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és az opciónkénti visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
-> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrichnak (Program terv 4. szakasz).
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
 
 ### SLIDE 1 – HOOK: „Volt már ilyen érzésed?”
 
@@ -213,7 +213,7 @@ Opciók:
 > Ketten összevesznek, valaki kiszalad a teremből,
 > te pedig úgy érzed: *„teljes kudarc volt az egész”*.
 
-> Később a képződdel / madrich-társaddal átbeszélitek, mi történt.
+> Később a képződdel / madrih-társaddal átbeszélitek, mi történt.
 > Rájössz, hogy:
 > – nem volt elég időd a ráhangolódásra,
 > – túl sok mindent akartál belesűríteni,
@@ -260,7 +260,7 @@ Opciók:
 > 🔎 **A Z.1-ben felsoroltad a fénypontjaidat** (legalább 3 modul/pillanat, ami megmaradt benned). Most **ne listázz újra** – **válassz ki közülük EGYET**, és menj bele mélyebben. Ha új pillanat jut eszedbe, az is jó – a lényeg, hogy itt **egyetlen** helyzetet dolgozz ki alaposan.
 
 > Írj **5–8 mondatot** erről az **egy** helyzetről, amikor azt érezted:
-> *„Na, most tanultam valamit magamról / a kvucámról / a madrich-szerepről.”*
+> *„Na, most tanultam valamit magamról / a kvucámról / a madrih-szerepről.”*
 
 > Segítő kérdések:
 > – Mi történt pontosan? (röviden)
@@ -277,7 +277,7 @@ Opciók:
 
 **Megnyugtató kis szöveg a mező alatt:**
 
-> A beadást csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van – a lecke elején leírt kivétellel: ha veszélyről van szó, azt ne csak ebbe a mezőbe írd, hanem azonnal vond be a Memunát. **Ne írj chanich-nevet. Egészségügyi, mentális, családi vagy más érzékeny részletet se adj meg, ha nem szükséges.** Nem az a cél, hogy „jó madrichnak tűnj”, hanem hogy **tudd, mit tanultál**.
+> A beadást csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van – a lecke elején leírt kivétellel: ha veszélyről van szó, azt ne csak ebbe a mezőbe írd, hanem azonnal vond be a Memunát. **Ne írj hanih-nevet. Egészségügyi, mentális, családi vagy más érzékeny részletet se adj meg, ha nem szükséges.** Nem az a cél, hogy „jó madrihnak tűnj”, hanem hogy **tudd, mit tanultál**.
 
 ***
 
@@ -300,7 +300,7 @@ Opciók:
 > 1️⃣ Melyik modul / téma volt ez? (pl. M1 – visszajelzés, M3 – gyermekvédelem, M5 – tanulástan…)
 > 2️⃣ Pontosan **mi volt benne nehéz** vagy taszító?
 > 3️⃣ Mit mond ez rólad **most**? (pl. mire vagy érzékeny, miben vagy még bizonytalan)
-> 4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrichként?
+> 4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrihként?
 
 > Itt sem kell „szépen” fogalmazni. Ha a „mit mond ez rólad?” kérdés túl személyes lenne, válaszolj inkább erre a kérdésre: **„Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”** A teljesítéshez nem kell érzékeny önfeltárás, és ha veszélyről van szó, azt ne csak ebbe a mezőbe írd.
 
@@ -320,7 +320,7 @@ Opciók:
 
 > ✅ **Önellenőrzés – 3 szó a félévedről**
 
-> Ha most ránézel erre az egész félévre **madrichként**,
+> Ha most ránézel erre az egész félévre **madrihként**,
 > melyik **3 szó** jut eszedbe róla leginkább?
 
 > Lehetnek érzések, kulcsszavak, helyzetek, értékek – bármi, ami neked most igaz.

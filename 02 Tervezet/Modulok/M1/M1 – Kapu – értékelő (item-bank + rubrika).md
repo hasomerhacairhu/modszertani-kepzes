@@ -22,7 +22,7 @@
 | **Fő LMS-eszköz (a kapu maga)** | **Moodle Assignment** (M1.4 – online text beadó) + **Rubric** (alábbi 4 soros, szintezett rubrika). Grading method: *Rubric*. |
 | **Kapu-küszöb (hivatalos)** | **Minden rubrikasor eléri legalább a „Rendben” szintet (≥1 pont) ÉS legalább egy sor eléri az „Erős” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: a „Még nem” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért az átmenethez kevés.) |
 | **Próbálkozás** | **1 normál + 1 javító próbálkozás** jár automatikusan; további próbálkozást a képző nyithat, kézzel. A teljesítéshez **a legjobb megerősített eredmény** számít: egy már megerősített teljesítés önkéntes, gyakorló újrabeadástól nem romlik vissza, a legfrissebb próbálkozás visszajelzésként megmaradhat. Nem teljesített eredménynél rövid képzői visszajelzés a beadott szövegre, **Megfigyelés → Hatás → Következő lépés** szerkezetben (ez produktum-visszajelzés, ezért nem SBI: az SBI viselkedésre való) + a javító próbálkozás megnyitása. Ha a kapu nem teljesült, a [Program terv](../../Program%20terv.md) §5 szerint az **M1.F felzárkóztató peula (F-peula)** kötelező: facilitált, strukturált javítási alkalom (egyéni vagy kiscsoportos támogatás) a kapueredmény megerősítése után, a javító próbálkozás előtt; időpontját a képző jelöli ki a központi naptár szerint. Kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4.2 safer-working szabálya érvényes: 1:1 csak indokolt esetben, átlátható módon és egy másik felelős tudtával (HUM-SAFE-02). |
-| **Újraértékelés** | A madrich kérheti, hogy **az eredeti értékelőtől eltérő második képző** nézze át a beadást és a kapudöntést, **még az M2 feloldása előtt** ([Program terv](../../Program%20terv.md) §5, „Újraértékelés a kizáró kapukon”). |
+| **Újraértékelés** | A madrih kérheti, hogy **az eredeti értékelőtől eltérő második képző** nézze át a beadást és a kapudöntést, **még az M2 feloldása előtt** ([Program terv](../../Program%20terv.md) §5, „Újraértékelés a kizáró kapukon”). |
 | **Megerősítési határidő** | A kapueredményt legkésőbb **24 órával a következő fix alkalom (az M2.A peula) előtt** meg kell erősíteni. Pénteki M2.A esetén: beadás szerda 18:00-ig, első értékelés csütörtök délután, megerősítés legkésőbb csütörtök 18:00-ig. **A függőben lévő (még nem megerősített) eredmény nem bukás.** |
 | **Gyermekvédelmi feltárás a beadványban** | Nem kezeljük egyszerű „tanulói beadandóként”, és nem normál tanulási rekord: a gyermekvédelmi protokoll lép életbe ([Adatvédelem – tanulói adatok és AI](../../Adatvédelem%20–%20tanulói%20adatok%20és%20AI.md) §5) – azonnal bevonod a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét; összeférhetetlenség esetén a név szerint kijelölt helyettesét). Az ügy dokumentációja nem Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül; a rubrikába és a Moodle-visszajelzésbe nem írsz róla azonosítható részletet. A spontán megjelenő különleges vagy gyermekvédelmi adatot a **HUM-PRIV-01** és a **HUM-SAFE-01** szerint kell kezelni ([LMS – activity manifest](../../LMS%20–%20activity%20manifest.md) §1). |
 | **Kísérő mérés (NEM kapu)** | A 3. szakasz item-bankja (Moodle Quiz / **H5P Question Set**) **formatív / completion** – a felismerő tudást méri, nincs ≥80% küszöbe, nem dönt a kapuról. |
@@ -129,12 +129,12 @@ A táblázat 2. és 3. esete a lényeg: **ha bármelyik rubrikasor 0 maradt, a b
 
 ## 3. Kísérő item-bank (formatív / completion – NEM a kapu)
 
-Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **LMS-eszköz: Moodle Quiz vagy H5P Question Set, completion-alapú, küszöb nélkül.** A disztraktorok **plauzibilisek**: mindegyik egy valós madrich-tévedést testesít meg (címke, általánosítás, érzés-helyett-hatás), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli. Az opciók félkövér kiemelése és dőlt, zárójeles típusmegjegyzése szerzői jelölés: a kvízbe egyik sem kerül át.
+Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **LMS-eszköz: Moodle Quiz vagy H5P Question Set, completion-alapú, küszöb nélkül.** A disztraktorok **plauzibilisek**: mindegyik egy valós madrih-tévedést testesít meg (címke, általánosítás, érzés-helyett-hatás), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli. Az opciók félkövér kiemelése és dőlt, zárójeles típusmegjegyzése szerzői jelölés: a kvízbe egyik sem kerül át.
 
 > Megjegyzés a construct-validitásról: a leckékben több disztraktor túl könnyű volt (pl. az egyetlen időhatározós opció felületi mintázatból megfejthető). Az alábbi itemeknél ezért **minden disztraktor egy-egy konkrét SBI-hibatípus**, és van **alkalmazó (író) item** is, nem csak besorolás.
 
 ### Item 1 – Mi az S? (felismerés, Single Choice)
-**Szituáció:** A beszélgetőkörben az egyik chanich minden megszólalót kinevet.
+**Szituáció:** A beszélgetőkörben az egyik hanih minden megszólalót kinevet.
 **Kérdés:** Melyik mondat jelöli ki ehhez **csak a helyzetet (S)**, semmi mást?
 
 - A) „Az előző körben, amikor a kérdést jártuk körbe…” ✅
@@ -159,7 +159,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 ***
 
 ### Item 3 – Melyik az I? (hatás vs. címke, Single Choice)
-**Szituáció:** A madrich-gyűlésen valaki végig a telefonját nyomkodja.
+**Szituáció:** A madrih-gyűlésen valaki végig a telefonját nyomkodja.
 **Kérdés:** Melyik mondat a **leghitelesebb I (hatás)**?
 
 - A) „Úgy éreztem, nem fontos neked, amit megbeszélünk.” ✅

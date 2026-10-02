@@ -1,4 +1,4 @@
-# M2 – „Ki vagyok madrichként?” – Identitás, Somer-értékek és dugma ishit
+# M2 – „Ki vagyok madrihként?” – Identitás, Somer-értékek és dugma isit
 
 ## 1. Modul meta
 
@@ -9,24 +9,24 @@
 
 **Modulközponti kérdés**
 
-> „Ha egy chanich egy egész napon át figyelne engem, **milyen értékeket tanulna tőlem** anélkül, hogy bármit magyaráznék?”
+> „Ha egy hanih egy egész napon át figyelne engem, **milyen értékeket tanulna tőlem** anélkül, hogy bármit magyaráznék?”
 
 **Modulcél röviden**
 
-A madrich **megnevezi identitás-köreit és 3 személyes értékét, mindegyikhez 1 megfigyelhető madrich-viselkedést rendel**, és megfogalmazza, **milyen személyes példát szeretne mutatni** – konkrét viselkedésben, nem csak szavakban.
+A madrih **megnevezi identitás-köreit és 3 személyes értékét, mindegyikhez 1 megfigyelhető madrih-viselkedést rendel**, és megfogalmazza, **milyen személyes példát szeretne mutatni** – konkrét viselkedésben, nem csak szavakban.
 
 ***
 
 ## 2. Kimeneti kompetenciák
 
-A modul végére a madrich…
+A modul végére a madrih…
 
 1. **Identitás-tudatosság – felrajzolja és megnevezi az identitás-köreit**
    * Felrajzolja **magának** a saját identitástérképét (ÉN–család–zsidóság–Somer–egyéb közegek); a lap nála marad, nem beadandó.
-   * Megnevezi, melyik kör hogyan befolyásolja a madrich-szerepét.
+   * Megnevezi, melyik kör hogyan befolyásolja a madrih-szerepét.
    * **Támogató elemek:** M2.1 (identitás-körök), M2.A (identitás-megosztás élőben).
-2. **Értékalapú dugma ishit**
-   * Kiválaszt **3 személyes értéket**, és mindegyikhez 1 konkrét viselkedést fogalmaz meg, amelyet a chanichok rajta láthatnak.
+2. **Értékalapú dugma isit**
+   * Kiválaszt **3 személyes értéket**, és mindegyikhez 1 konkrét viselkedést fogalmaz meg, amelyet a hanihok rajta láthatnak.
    * **Ezek közül 1 someres értéket emel ki, amelyben idén tudatosan személyes példát szeretne mutatni – ez a kiemelt érték az, amit a kapu (az önellenőrző lista 2. pontja és a fejlesztő rubrika R2 sora) rögzít. A másik kettő a feltáró munkát gazdagítja, de a kapu produktuma a kiemelt értékre fókuszál.**
    * **Támogató elemek:** M2.2 (Értékeim mint iránytű), M2.B (Somer-értékek a gyakorlatban).
 3. **Ideológiai tudatosság mint példaadás**
@@ -35,10 +35,10 @@ A modul végére a madrich…
    * **Támogató elemek:** M2.3 (Somer 3 pillére – mini-kapszula), M2.B (értékek konkrét helyzetekben).
 4. **Határok és felelősség**
    * 2–3 saját **határszabályt** megfogalmaz (online/offline).
-   * **Megfogalmazza, hogyan ad** ezekkel **példát** a chanichoknak a saját határaik védéséről.
+   * **Megfogalmazza, hogyan ad** ezekkel **példát** a hanihoknak a saját határaik védéséről.
    * **Támogató elemek:** M2.4 (privát–személyes–szakmai határok), M2.A (megosztási határok gyakorlása), M2.F (F-peula: javítás, ha a kapu nem teljesült; fogalom-térkép).
 5. **Összegző írás**
-   * Elkészít egy 1 oldalas **madrich identitás-jegyzetet**, amely összekapcsolja az identitás-köröket, az értékeket, a Somer-pilléreket és a dugma ishit-célt.
+   * Elkészít egy 1 oldalas **madrih identitás-jegyzetet**, amely összekapcsolja az identitás-köröket, az értékeket, a Somer-pilléreket és a dugma isit-célt.
    * **Támogató elemek:** M2.1–M2.4 összesített reflexiói + Peula B utáni feladat.
 
 ***
@@ -47,16 +47,16 @@ A modul végére a madrich…
 
 > **Megfeleltetés:**
 
-* **L1 = M2.1** – Ki vagyok én madrichként? – identitás-körök
+* **L1 = M2.1** – Ki vagyok én madrihként? – identitás-körök
 * **L2 = M2.2** – Értékeim mint iránytű
 * **L3 = M2.3** – Somer 3 pillére – mini-kapszula
-* **L4 = M2.4** – Reflektív napló & határok: „A dugma ishit nem terapeuta”
+* **L4 = M2.4** – Reflektív napló & határok: „A dugma isit nem terapeuta”
 
 > **Ajánlott ütem (peula-vezérelt, NEM szigorúan sorszám szerint):** a fenti L1–L4 a leckék katalógusa, nem a végrehajtás kötelező sorrendje. A peulák elő/utó-bekötése miatt a tényleges ajánlott út: **1. hét** – M2.1 + M2.2 → **Peula A (M2.A)** → **M2.4** (a határlecke a Peula A élménye után erősebb, ezért M2.4 itt M2.3 elé kerül); **2. hét** – M2.3 → **Peula B (M2.B)** → az 1 oldalas identitás-jegyzet. Vagyis a sorszám (L4) és a haladási sorrend (M2.4 már az 1. héten) szándékosan eltér.
 
-### L1 / M2.1 – „Ki vagyok én madrichként?” – identitás-körök (15–20’)
+### L1 / M2.1 – „Ki vagyok én madrihként?” – identitás-körök (15–20’)
 
-* **Cél:** saját identitás-körök tudatosítása, és annak belátása, hogy ebből mit lát a kvuca; első lépés a személyes példamutatás (dugma ishit) felé.
+* **Cél:** saját identitás-körök tudatosítása, és annak belátása, hogy ebből mit lát a kvuca; első lépés a személyes példamutatás (dugma isit) felé.
 * **Fő tartalom röviden:**
   * identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) rajzos feltérképezése;
   * **a rajz a tanulónál marad** (privát munkalap, nincs fotófeltöltés); a Moodle-be csak egy rövid, nem érzékeny, **viselkedésszintű** reflexió kerül arról, miben ad személyes példát a kvucájának.
@@ -64,7 +64,7 @@ A modul végére a madrich…
 
 ### L2 / M2.2 – Értékeim mint iránytű (15–20’)
 
-* **Cél:** 3 vezető személyes érték azonosítása és „lefordítása” látható viselkedéssé, amit a chanich le tud olvasni a madrichról.
+* **Cél:** 3 vezető személyes érték azonosítása és „lefordítása” látható viselkedéssé, amit a hanih le tud olvasni a madrihról.
 * **Fő tartalom röviden:**
   * érték fogalma és példák (igazságosság, közösség, szolidaritás, someres értékek);
   * 10–15 érték közül top 3 kiválasztása;
@@ -73,21 +73,21 @@ A modul végére a madrich…
 
 ### L3 / M2.3 – Somer 3 pillére – mini-kapszula (15–20’)
 
-* **Cél:** a Somer 3 ideológiai pillérének (cionizmus, szocializmus, humanista zsidóság) összekötése a mindennapi madrich-példamutatással.
+* **Cél:** a Somer 3 ideológiai pillérének (cionizmus, szocializmus, humanista zsidóság) összekötése a mindennapi madrih-példamutatással.
 * **Fő tartalom röviden:**
   * pillérválasztó: mindhárom pillérhez 1 hétköznapi kvuca-szituáció (vita, döntés, ünnep), mindegyik külön ág;
   * ágonként döntés („mit teszel a feszültségben?”), visszajelzés arról, mit látnak rajtad, és 1 mondatos mini-reflexió;
   * legalább 1 ág végigjátszása, majd 1 záró „így mutatok példát” mondat.
 * **Moodle/H5P mix:** H5P Branching Scenario (döntési fa). Az egy végigjátszott ághoz és a záró mondathoz kötött completion csak akkor számít teljesítésnek, ha a cél Moodle/H5P környezetben bizonyítottan mérhető; ha nem, külön activityként vagy Moodle-checkpointtal kell megvalósítani (vö. M6.4). A szabad szöveges mezők megvalósítását az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli.
 
-### L4 / M2.4 – Reflektív napló & határok: „A dugma ishit nem terapeuta” (15–20’)
+### L4 / M2.4 – Reflektív napló & határok: „A dugma isit nem terapeuta” (15–20’)
 
-* **Cél:** privát–személyes–szakmai határok tisztázása, és annak megértése, hogy a határtartás is **dugma ishit**.
+* **Cél:** privát–személyes–szakmai határok tisztázása, és annak megértése, hogy a határtartás is **dugma isit**.
 * **Fő tartalom röviden:**
   * késő esti „krízisüzenet” szituáció;
   * privát/személyes/szakmai információk szétválasztása;
   * naplókérdések arról, mit oszt meg kivel (kvuca, barát, mentor/szakember);
-  * 3 konkrét „határszabály” megfogalmazása, mint példaadás a chanichoknak.
+  * 3 konkrét „határszabály” megfogalmazása, mint példaadás a hanihoknak.
 * **Moodle/H5P mix:** H5P Course Presentation + rövid, nem érzékeny szöveges válaszok az `LMS – H5P runtime acceptance.md` 6. pontja szerint. A háromoszlopos személyes naplórész **privát munkalap, nem kell beadni**; külön M2.4 Moodle Assignment nincs. A Moodle-be csak viselkedés-/szabályszintű válasz kerül, valódi név vagy érzékeny történet nélkül.
 
 ***
@@ -103,15 +103,15 @@ A modul végére a madrich…
   * kérdezés, tükrözés, egymás történeteinek megtartása.
 * **Modulhoz való szerepe:**
   * mélyíti az identitás-tudatosságot;
-  * konkrét élményt ad a határok tiszteletéről és arról, hogyan néz ki a gyakorlatban a biztonságos dugma ishit.
+  * konkrét élményt ad a határok tiszteletéről és arról, hogyan néz ki a gyakorlatban a biztonságos dugma isit.
 
 ### Peula B (M2.B) – „Somer-értékek a gyakorlatban – döntések, amelyek tanítanak” (45’)
 
 * **Kapcsolódó leckék:** M2.2, M2.3.
 * **Fő cél:**
   * someres értékek (pillérek + gyakorlati értékek) felismerése konkrét helyzetekben (suli, tábor, kvuca);
-  * annak megértése, hogy egy leendő madrich **minden döntése tanít**;
-  * helyzetek elemzése: „Milyen érték látszik ezen a viselkedésen?” és hogyan lehet ezt tudatosabb dugma ishitté formálni.
+  * annak megértése, hogy egy leendő madrih **minden döntése tanít**;
+  * helyzetek elemzése: „Milyen érték látszik ezen a viselkedésen?” és hogyan lehet ezt tudatosabb dugma isitté formálni.
 * **Modulhoz való szerepe:**
   * összeköti a személyes értékeket (M2.2) és az ideológiai pilléreket (M2.3) a terepen hozott döntésekkel;
   * előkészíti az 1 oldalas identitás-jegyzet értékrészét.
@@ -127,7 +127,7 @@ A modul végére a madrich…
   "mode": "generate",
   "title": "M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás)",
   "purpose": "Az M2.F (F-peula) résztvevőinek – akiknek a modul kapuja nem teljesült – egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét, hogy senki ne maradjon ki az identitás/érték/pillér/határ logikából, mielőtt újra beadja az identitás-jegyzetét (vö. az 5. szakasz „Modulhoz való szerepe” pontjával).",
-  "spec": "Egyszerű, áttekintő fogalom-térkép a teljes M2 modulról, amely vizuálisan összeköti a négy fogalmi blokkot: identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) → személyes értékek (3 érték + 1 kiemelt someres érték) → Somer 3 pillére (cionizmus, szocializmus, humanista zsidóság) → határok & személyes példamutatás (dugma ishit). Mutassa, hogyan futnak ezek össze az 1 oldalas madrich identitás-jegyzetben. Modul-szintű áttekintő ábra, NEM lecke-szintű részlettartalom.",
+  "spec": "Egyszerű, áttekintő fogalom-térkép a teljes M2 modulról, amely vizuálisan összeköti a négy fogalmi blokkot: identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) → személyes értékek (3 érték + 1 kiemelt someres érték) → Somer 3 pillére (cionizmus, szocializmus, humanista zsidóság) → határok & személyes példamutatás (dugma isit). Mutassa, hogyan futnak ezek össze az 1 oldalas madrih identitás-jegyzetben. Modul-szintű áttekintő ábra, NEM lecke-szintű részlettartalom.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
@@ -188,13 +188,13 @@ A modul végére a madrich…
 2. L2 / M2.2 – H5P értékválasztás + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
 4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza + 3 saját határszabály; a privát naplórész nem beadandó.
-5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal **– az értékelő-fájl D. szakaszának sablonja szerint, a tanuló előbb végignézi az A. szakasz 10 pontos önellenőrzését. Completion csak akkor jár, ha az előírt blokkokban tényleges, minimálisan értelmezhető tartalom van: üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem completion.**
+5. 1 oldalas **madrih identitás-jegyzet** leadva, záró dugma isit-mondattal **– az értékelő-fájl D. szakaszának sablonja szerint, a tanuló előbb végignézi az A. szakasz 10 pontos önellenőrzését. Completion csak akkor jár, ha az előírt blokkokban tényleges, minimálisan értelmezhető tartalom van: üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem completion.**
 
 **Puha kapu küszöbe (az értékelő-fájlból átvéve):**
 
 > A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (F-peula) ajánlást kap, és újra beadhat** – nincs kizárás; 1 normál + 1 javító beadás automatikusan, további beadást a képző nyithat kézzel.
 
-> **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzeted, a választott someres értéked és a dugma ishit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika R1 (**SMART nevelési cél**) sora pedig pontozza a *„someres értékhez kötött”* jegyet (lásd „M7 – KAPU” §B, R1 sor). Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
+> **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzeted, a választott someres értéked és a dugma isit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika R1 (**SMART nevelési cél**) sora pedig pontozza a *„someres értékhez kötött”* jegyet (lásd „M7 – KAPU” §B, R1 sor). Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
 
 **Javítás / támogatás logika:**
 
@@ -212,27 +212,27 @@ A modul végére a madrich…
   * külön figyelni, hol esnek ki (különösen L3–L4 körül).
 * **H5P analitika:**
   * Melyik pillérnél (cionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
-  * Hányan írnak ténylegesen példát dugma ishitre (legalább 1–1 mondat a végigjátszott pillér-ágakban).
+  * Hányan írnak ténylegesen példát dugma isitre (legalább 1–1 mondat a végigjátszott pillér-ágakban).
   * Mindkét M2.3-mutató csak akkor használható, ha az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja, hogy a Moodle rögzíti a Branching Scenario választásait és szöveges válaszait.
 * **Szöveges feladatválaszok és Assignment-adatok:**
   * A nem érzékeny M2.1/M2.4 feladatválaszok teljesítési aránya és az identitás-jegyzet leadási aránya; a személyes identitástérkép és a privát naplórész nem kerül be.
-  * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrich-szerephez kötött szabály.
+  * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrih-szerephez kötött szabály.
 * **Küszöbök / beavatkozási pontok (példák):**
   * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → csendes pótlás + extra emlékeztető.
-  * Ha az identitás-jegyzetek >30%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma ishitről.
+  * Ha az identitás-jegyzetek >30%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma isitről.
 * **Program-szintű használat:**
   * az M2 completion-adatai jelzik, mennyire sikerül a résztvevőket bevonni a saját identitásuk és értékeik tudatosításába;
   * a száraz completion mellé érdemes rövid offline „kilépőkártyát” is kérni Peula A/B után (pl. 1 mondat: „Miben szeretnék idén személyes példát mutatni?”).
 
 ***
 
-[M2.1 – Ki vagyok én madrichként? – identitás-körök](./Online%20leckék/M2.1%20–%20Ki%20vagyok%20én%20madrichként%20–%20identitás-körök.md)
+[M2.1 – Ki vagyok én madrihként? – identitás-körök](./Online%20leckék/M2.1%20–%20Ki%20vagyok%20én%20madrihként%20–%20identitás-körök.md)
 
 [M2.2 – Értékeim mint iránytű](./Online%20leckék/M2.2%20–%20Értékeim%20mint%20iránytű.md)
 
 [M2.3 – Somer 3 pillére – mini-kapszula](./Online%20leckék/M2.3%20–%20Somer%203%20pillére%20–%20mini-kapszula.md)
 
-[M2.4 – Reflektív napló & határok: „A dugma ishit nem terapeuta”](./Online%20leckék/M2.4%20–%20Reflektív%20napló%20&%20határok%20–%20A%20dugma%20ishit%20nem%20terapeuta.md)
+[M2.4 – Reflektív napló & határok: „A dugma isit nem terapeuta”](./Online%20leckék/M2.4%20–%20Reflektív%20napló%20&%20határok%20–%20A%20dugma%20isit%20nem%20terapeuta.md)
 
 [M2.A – Identitás-körök élőben – mit mutatok magamból? (45’)](./Peulák/M2.A%20–%20Identitás-körök%20élőben%20–%20mit%20mutatok%20magamból%20%2845’%29.md)
 

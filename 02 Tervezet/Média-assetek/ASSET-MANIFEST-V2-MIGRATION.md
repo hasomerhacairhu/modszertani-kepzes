@@ -61,7 +61,7 @@ A soronkénti leképezés gépi formában: `asset-migration-map.csv`.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a két madrich dialógushangja, a hangok jogosultsága (R2, V2) és a kétszereplős, szájszinkronos gyártási út. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a két madrih dialógushangja, a hangok jogosultsága (R2, V2) és a kétszereplős, szájszinkronos gyártási út. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
 
 Hivatkozott produkciós szabályok / blokkolók:
 

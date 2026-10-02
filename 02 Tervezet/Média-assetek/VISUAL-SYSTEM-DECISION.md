@@ -70,7 +70,7 @@ mérhető követelmények, és **bármelyik paletta csak akkor fogadható el, ha
 - **Nem-szöveges kontraszt** (SC 1.4.11, AA): a jelentést hordozó grafikai elemek és a
   UI-komponensek szükséges vizuális információja **≥ 3:1** a szomszédos színekhez képest.
 - **Projekt-cél a minimum felett** (nem normatív): a kapus elemeknél a lényeges
-  UI-kontraszt is 4,5:1 felé, mert „a madrichok jellemzően olcsó kijelzőn, gyenge
+  UI-kontraszt is 4,5:1 felé, mert „a madrihok jellemzően olcsó kijelzőn, gyenge
   fényben, mozgás közben használják”.
 - **A szín soha nem egyedüli információhordozó.** Ezt a leckék asset-jegyzetei
   tucatnyi helyen külön kikötik — például: „ne csak színkódolás különböztesse meg, a betű
@@ -98,7 +98,7 @@ rögzíti (például a [`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) 
 | **Kérdéstípusok** | nyitott / zárt / tisztázó / irányító | zöld / kék / sárga / piros | `M4.3-IKO-01`, `M4.3-DIA-01` |
 | **Do / Don't** | helyes / kerülendő | zöld / piros | `M3.4-DIA-01`, `M3-HUB-POSZ-02` |
 | **M6.4 szekció-ikonok** | 9 szemantikus jelölő | egységes lapos stílus, transzparens, min. 64×64 px | `M6.4-IKO-01` |
-| **3 kvuca piktogram** | Parparim / Kivsza / Leviatan | 🦋 🐑 🐋 | `M7.4-IKO-01`, `M3.2-IKO-01` |
+| **3 kvuca piktogram** | Parparim / Kivsza / Leviatán | 🦋 🐑 🐋 | `M7.4-IKO-01`, `M3.2-IKO-01` |
 
 > ⚠️ **Az R6 ütközése itt él.** A „kék” egyszerre SBI-S, cionizmus-pillér és „zárt
 > kérdés”; a „zöld” egyszerre SBI-B, humanista zsidóság, „nyitott kérdés” és „DO”. Az R6

@@ -296,7 +296,7 @@ SILENT_VIDEOS: dict[str, str] = {
         "A saját akadálymentesítési jegyzete mondja ki: „Ha némán fut a narráció "
         "alatt, a kapcsolódó NAR feliratai fedik”. A lecke kizárólag képi anyagként "
         "írja le („1× mini storyboard / B-roll (példákhoz)”, illetve „Storyboard: "
-        "kvuca-szitu (körben ülő fiatalok, madrich jelenlét)”), párbeszéd és saját "
+        "kvuca-szitu (körben ülő fiatalok, madrih jelenlét)”), párbeszéd és saját "
         "narráció nélkül, a v1 spec szerint a narrációk ALÁ vágott anyagként. A v1 "
         "leltár sem rendelt hozzá felirat- vagy leirat-sort. A feliratot és a "
         "leiratot az a narráció adja, amely alatt fut; a képi tartalomhoz viszont "

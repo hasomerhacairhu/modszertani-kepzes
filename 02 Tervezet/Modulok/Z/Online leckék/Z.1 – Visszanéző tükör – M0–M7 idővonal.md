@@ -16,7 +16,7 @@
 
 **Központi mondat:**
 
-> „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit haladtál már** az úton madrichként.”
+> „Ez a lecke egy **visszanéző tükör** – nem vizsga, hanem segítség, hogy lásd: **mennyit haladtál már** az úton madrihként.”
 
 **Felépítés:** Hook → Input (idővonal + modul-egymondatosok) → Activity (saját fénypontok) → Check (mini-kvíz + záró mondat)
 
@@ -29,13 +29,13 @@
 ### Z.1 – Visszanéző tükör – M0–M7 idővonal
 
 > Ebben a **10–15 perces** leckében visszanézünk az egész félévre:
-> **M0–M7** – honnan indultunk, és hova jutottál el madrichként.
+> **M0–M7** – honnan indultunk, és hova jutottál el madrihként.
 
 > Nem teszt vagy vizsga lesz, hanem **egy vizuális idővonal** és pár rövid kérdés,
 > hogy lásd, miben fejlődtél, és melyik modul/pillanat volt neked a legfontosabb.
 
 > A központi kérdés:
-> *„Ha egy barátodnak 3 mondatban kéne elmesélned, mit csináltál ezen a féléves madrichképzésen – mit mondanál?”*
+> *„Ha egy barátodnak 3 mondatban kéne elmesélned, mit csináltál ezen a féléves madrihképzésen – mit mondanál?”*
 
 > A lecke végén megfogalmazol **1 dolgot, amit semmiképp nem szeretnél elfelejteni** ebből a félévből.
 
@@ -54,7 +54,7 @@ Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb �
 
 > **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 3. dia „Single Choice” / „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
-> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrichnak (Program terv 4. szakasz).
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
 
 Összesen **6–7 slide**.
 Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
@@ -128,7 +128,7 @@ Opciók:
 
 * M0 – „Kickoff, keret, technika”
 * M1 – „Vakfolt, tükör, visszajelzés”
-* M2 – „Ki vagyok madrichként?”
+* M2 – „Ki vagyok madrihként?”
 * M3 – „Kvuca, red flag, felelősség”
 * M4 – „Hallható és érthető vagyok?”
 * M5 – „Ez most játék vagy tanulás?”
@@ -246,8 +246,8 @@ Opciók:
   → belépés a képzésbe, szabályok, Moodle-belakás
 * **M1 – „Vakfolt, tükör, visszajelzés”**
   → Johari + SBI, visszajelzés mint tanulási eszköz
-* **M2 – „Ki vagyok madrichként?”**
-  → identitás-körök, someres értékek, dugma ishit (személyes példamutatás)
+* **M2 – „Ki vagyok madrihként?”**
+  → identitás-körök, someres értékek, dugma isit (személyes példamutatás)
 * **M3 – „Kvuca, red flag, felelősség”**
   → csoportdinamika, korosztályok, gyermekvédelem
 * **M4 – „Hallható és érthető vagyok?”**
@@ -294,8 +294,8 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 > **M1 – Vakfolt & visszajelzés**
 > *„A visszajelzés nem bántás, hanem tükör, és tudok SBI-ben visszajelzést írni.”*
 
-> **M2 – Madrich-identitás**
-> *„El tudom mondani, ki vagyok madrichként, és milyen értékeket akarok közvetíteni.”*
+> **M2 – Madrih-identitás**
+> *„El tudom mondani, ki vagyok madrihként, és milyen értékeket akarok közvetíteni.”*
 
 > **M3 – Kvuca & red flag**
 > *„Felismerek alap csoportszakaszokat és gyermekvédelmi jelzéseket, és tudom, kinek jelzek.”*
@@ -349,7 +349,7 @@ Opciók:
 
 > „Melyik modul szól inkább **a kvuca fejlődéséről és a gyermekvédelemről**?”
 
-* M2 – „Ki vagyok madrichként?”
+* M2 – „Ki vagyok madrihként?”
 * M3 – „Kvuca, red flag, felelősség” ✅
 * M4 – „Hallható és érthető vagyok?”
 
@@ -432,16 +432,16 @@ Opciók:
 
 > **Az én félévem fénypontjai**
 
-> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban megfogalmaztad magadnak a *„Mit várok ettől az évtől madrichként?”* mondatot (M0.1) és a *„Madrichként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2). Ha elmentetted őket (jegyzet, képernyőkép), vedd elő – **mi valósult meg belőlük?** Ha nincs meg a mentésed, ne akadj el: idézd fel emlékezetből, mit vártál a félév elején, és mire ígérted, hogy figyelni fogsz – írd le mindkettőt 1–1 mondatban most. A **Z.4 záró reflexiónál** is ez a két mondat lesz a kiindulópontod – amilyen formában megvan.
+> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban megfogalmaztad magadnak a *„Mit várok ettől az évtől madrihként?”* mondatot (M0.1) és a *„Madrihként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2). Ha elmentetted őket (jegyzet, képernyőkép), vedd elő – **mi valósult meg belőlük?** Ha nincs meg a mentésed, ne akadj el: idézd fel emlékezetből, mit vártál a félév elején, és mire ígérted, hogy figyelni fogsz – írd le mindkettőt 1–1 mondatban most. A **Z.4 záró reflexiónál** is ez a két mondat lesz a kiindulópontod – amilyen formában megvan.
 
 > Írj **3–6 mondatot** egy szövegmezőben az alábbi kérdések alapján:
 
 > 1️⃣ Nevezz meg **legalább 3 pillanatot vagy modult**, ami különösen **megmaradt** benned ebből a félévből.
 > (Lehet modul, konkrét peula, egy mondat, egy beszélgetés…)
 
-> 2️⃣ Röviden írd le, **miért pont ezek** – mit tanultál belőlük magadról, a kvucáról vagy a madrich-szerepről?
+> 2️⃣ Röviden írd le, **miért pont ezek** – mit tanultál belőlük magadról, a kvucáról vagy a madrih-szerepről?
 
-> **Nem kell intim vagy érzékeny részletet megosztanod.** Használj általánosított helyzetet, és ne írj chanich-nevet vagy beazonosítható történetet.
+> **Nem kell intim vagy érzékeny részletet megosztanod.** Használj általánosított helyzetet, és ne írj hanih-nevet vagy beazonosítható történetet.
 
 > Nem fogalmazásverseny – elég őszintének lenni.
 > Ezt a választ csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van.
@@ -512,7 +512,7 @@ Opciók:
 * láttad az egész **M0–M7 idővonalat** egyben,
 * felidéztél néhány kulcsmodult,
 * kiválasztottál **legalább 3 saját fénypontot**,
-* elkezdtél gondolkodni azon, **mit tanultál madrichként**.
+* elkezdtél gondolkodni azon, **mit tanultál madrihként**.
 
 > Zárásként írj le **1 mondatot**:
 

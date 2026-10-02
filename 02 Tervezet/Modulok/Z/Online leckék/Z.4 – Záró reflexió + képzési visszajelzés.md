@@ -58,7 +58,7 @@
 > Az íven 3 vezető kérdésed lesz:
 
 1. „Nevezz meg **legalább 3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
-2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *‘Mit várok ettől az évtől madrichként?’* és a *‘figyelek rá, hogy…’* mondatot –, és nézd meg, mi valósult meg belőlük.)”
+2. „Miben érzed úgy, hogy **változott a madrih-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *‘Mit várok ettől az évtől madrihként?’* és a *‘figyelek rá, hogy…’* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > Most **egy összefüggő íven** rendezed a gondolataidat, a végén **beadod**, utána kitöltöd a visszajelző űrlapot.
@@ -134,7 +134,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Miért pont ezek?”
 
 > 2️⃣ **Szemléletváltozás**
-> „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
+> „Miben érzed úgy, hogy **változott a madrih-szemléleted** M0-hoz képest?”
 
 > 3️⃣ **Következő lépések és megosztás**
 > „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre.
@@ -164,7 +164,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 2. Írd le röviden, **mi történt**.
 3. Írd le **mindegyiknél**, **miért fontos** neked (mit tanultál belőle, mit mutatott meg rólad / a kvucáról).
 
-> **Az egész ívre igaz:** nem kell intim vagy érzékeny részletet megosztanod. Használj általánosított helyzetet, és ne írj chanich-nevet vagy beazonosítható történetet.
+> **Az egész ívre igaz:** nem kell intim vagy érzékeny részletet megosztanod. Használj általánosított helyzetet, és ne írj hanih-nevet vagy beazonosítható történetet.
 
 **Az ív 1. szakasza (szakaszcím a sablonban)**
 
@@ -185,22 +185,22 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 > **2. blokk – Szemléletváltozás és következő lépések**
 
-> a) **Madrich-szemléleted változása**
+> a) **Madrih-szemléleted változása**
 
 > Mielőtt írsz, **vedd elő a SAJÁT két mondatodat, amit M0-ban magadnak elmentettél** (jegyzet vagy képernyőkép):
-> – az M0.1 várakozás-mondatát: *„Mit várok ettől az évtől madrichként?”*,
-> – és az M0.2 ígéret-mondatát: *„Madrichként ebben az évben figyelek rá, hogy…”*.
+> – az M0.1 várakozás-mondatát: *„Mit várok ettől az évtől madrihként?”*,
+> – és az M0.2 ígéret-mondatát: *„Madrihként ebben az évben figyelek rá, hogy…”*.
 > *(Figyelj: itt a **te saját két mondatodról** van szó, nem a programtól kapott 3 ígéretről – azokra majd a végén, a képzési visszajelzésben reflektálsz.)*
 > Ha nincs meg, nem baj – idézd fel emlékezetből, körülbelül mit írtál akkor.
 
 > Írj **3–5 mondatot**:
 
-> – *„Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
+> – *„Miben érzed úgy, hogy változott a madrih-szemléleted M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
 > (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyermekvédelemre, a saját határaidra, a visszajelzésre…)
 
 > **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a beadást látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe az ívbe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
 
-**Az ív 2. szakasza (szakaszcím a sablonban, a rész)** – szakaszcím: *„Madrich-szemléletem változása”*. A szöveg **a beadás része lesz**.
+**Az ív 2. szakasza (szakaszcím a sablonban, a rész)** – szakaszcím: *„Madrih-szemléletem változása”*. A szöveg **a beadás része lesz**.
 
 > b) **Következő lépések és megosztás**
 
@@ -211,7 +211,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 > – *„Írj le 1–2 konkrét célt a következő lépésekhez a terepre.”*
 > – *„Kinek fogod elmondani, hogy ezeket vállalod?”*
-> (mentor, madrich-társ, ken-vezető, más)
+> (mentor, madrih-társ, ken-vezető, más)
 
 > Legalább az egyik célodnál adj meg **konkrét cselekvést és határidőt** (pl. „a következő 3 Zmán Kvucámon…”, „a következő hónapban…”).
 
@@ -230,7 +230,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Görgess vissza, és nézd át, amit az előző lépéseken írtál.
 
 > ✔ Van benne **legalább 3 konkrét pillanat**, röviden leírva, és mindegyiknél az, hogy **miért fontos**?
-> ✔ Leírtad, **miben változott a madrich-szemléleted** M0-hoz képest?
+> ✔ Leírtad, **miben változott a madrih-szemléleted** M0-hoz képest?
 > ✔ Van **1–2 konkrét célod a következő lépésekhez** (legalább az egyik határidős), és megvan, hogy **kinek mondod el**?
 
 > Ha a fenti 3 kérdésre **igen** a válaszod, mehetsz a **leadásra** – a következő lépésben
@@ -267,7 +267,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 > Egy darabban van benne minden, amit írtál:
 > – a legalább 3 pillanatod,
-> – a madrich-szemléleted változása,
+> – a madrih-szemléleted változása,
 > – és a következő lépéseid, valamint az, hogy kinek mondod el.
 
 > Az íved **üzenet a jövőbeli önmagadnak** is – ha szeretnéd megtartani, **másold ki magadnak a szöveget** (vagy nyomtasd ki a böngészőből), mielőtt beadod.
@@ -304,7 +304,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 ### Leírás (tanulónak szóló szöveg)
 
-*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet: a HUM-PRIV-01 projektgazdai döntése szerint a beadást csak a kijelölt mentor/értékelő látja, a videós útnál pedig a célt, a jogalapot, a hozzáférést, a megőrzést és a törlést is rögzíteni kell (HUM-PRIV-02); a videó jogalapja külön, önkéntes hozzájárulás, megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás. A megőrzési időket az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02); az adatot gyűjtő aktivitás csak az ezeket közlő tájékoztatóval nyitható meg valódi madrichnak.)*
+*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet: a HUM-PRIV-01 projektgazdai döntése szerint a beadást csak a kijelölt mentor/értékelő látja, a videós útnál pedig a célt, a jogalapot, a hozzáférést, a megőrzést és a törlést is rögzíteni kell (HUM-PRIV-02); a videó jogalapja külön, önkéntes hozzájárulás, megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás. A megőrzési időket az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02); az adatot gyűjtő aktivitás csak az ezeket közlő tájékoztatóval nyitható meg valódi madrihnak.)*
 
 > **Feladatod:**
 > Töltsd ki és add be a **háromrészes záró reflexiós ívet**. Ha inkább beszélnél, helyette felvehetsz belőle egy **2–3 perces videót**, és azt adhatod be – ez választható lehetőség, nem kötelező.
@@ -317,7 +317,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
    „Nevezz meg **legalább 3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
    Miért pont ezek?”
 2. **Szemléletváltozás**
-   „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
+   „Miben érzed úgy, hogy **változott a madrih-szemléleted** M0-hoz képest?”
 3. **Következő lépések és megosztás**
    „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre.
    Kinek fogod elmondani, hogy ezeket vállalod?”
@@ -347,7 +347,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 Az értékelés nem pontozás, hanem egyszerű ellenőrzés, de ezeket érdemes szem előtt tartani:
 
 * Van benne **legalább 3 konkrét tanulási pillanat**, és mindegyiknél az, hogy miért fontos.
-* Van benne **2–3 mondat arról**, hogyan változott a madrich-szemlélet.
+* Van benne **2–3 mondat arról**, hogyan változott a madrih-szemlélet.
 * Van benne **1–2 következő lépés**, közülük legalább egy **konkrét és határidős**, és meg van nevezve, kinek mondja el.
 
 Ha nagyon hiányos / alibi:
@@ -372,7 +372,7 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 ### Javasolt kérdésstruktúra (rövid, hogy tényleg kitöltsék)
 
 1. **Általános elégedettség** – Likert (1–5)
-   > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrichként fejlődj?”
+   > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrihként fejlődj?”
 2. **A 3 belépő-ígéret beváltása** – 3 külön Multiple choice kérdés (Igen / Részben / Nem), vagy 3 külön Multiple choice (Rated) kérdés 1–5-ös skálával (a Feedbackben nincs rács-kérdéstípus)
    > „Az **M0.1 leckében a program 3 ígéretet** adott neked. *(Most NEM a saját mondataidról van szó, amiket a reflexiós íven elővettél, hanem a képzéstől kapott 3 ígéretről; arra reflektálsz, beváltak-e.)* Mennyire érezted, hogy ezek **beváltak**?”
    > a) **Nem voltam egyedül** (volt kvuca / stáb / mentor, akire számíthattam).
@@ -385,7 +385,7 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 4. **Terhelés** – Single Choice
    > „Hogyan élted meg a félév összterhelését (online és offline)?” – Túl kevés / pont elég / néha sok / túl sok
 5. **Mi segített a legjobban?** – rövid szöveges válasz
-   > „Mi volt az az 1–2 dolog (modul, peula, módszer, ember), ami **a legtöbbet segített** neked madrichként?”
+   > „Mi volt az az 1–2 dolog (modul, peula, módszer, ember), ami **a legtöbbet segített** neked madrihként?”
 6. **Mi volt nehéz / túl sok?** – rövid szöveges válasz
    > „Mi volt számodra a **legnehezebb** része ennek a félévnek?”
 7. **Javaslat a jövőre** – rövid szöveges válasz

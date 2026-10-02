@@ -11,11 +11,11 @@
 
 **Modulközponti kérdés**
 
-> „Hogyan látnak engem mások madrichként, és hogyan tudok úgy visszajelzést adni és kapni, hogy abból tanulás legyen – ne bántás?”
+> „Hogyan látnak engem mások madrihként, és hogyan tudok úgy visszajelzést adni és kapni, hogy abból tanulás legyen – ne bántás?”
 
 **Modulcél röviden**
 
-Alap önismereti keret (Johari-ablak) és egy **konkrét, biztonságos visszajelző nyelv** (SBI) elsajátítása, amit a madrich később terepen – a kvucában, a madrich-gyűlésen – tud használni. Ha egy visszajelző beszélgetés kettesben (1:1) zajlana, arra a safer-working szabály vonatkozik: csak indokolt esetben, átlátható módon és egy másik felelős tudtával.
+Alap önismereti keret (Johari-ablak) és egy **konkrét, biztonságos visszajelző nyelv** (SBI) elsajátítása, amit a madrih később terepen – a kvucában, a madrih-gyűlésen – tud használni. Ha egy visszajelző beszélgetés kettesben (1:1) zajlana, arra a safer-working szabály vonatkozik: csak indokolt esetben, átlátható módon és egy másik felelős tudtával.
 
 ***
 
@@ -128,7 +128,7 @@ A modul végére a résztvevő…
 * **Eszközök:**
   H5P Column felidéző + **Moodle Assignment** – szöveges beadó (online mező).
 * **Tartalom röviden:**
-  3 rövid szituáció (peula, kvuca, madrich-gyűlés) közül választ;
+  3 rövid szituáció (peula, kvuca, madrih-gyűlés) közül választ;
   instrukció: írjon 1 (max. 2) SBI-t (S – mikor/hol; B – mit csinált a másik; I – hogyan hatott rá / a csoportra);
   beadás: legalább 1 SBI kötelező, ez lesz az éles teljesítési kapu alapja.
 
@@ -156,7 +156,7 @@ A modul végére a résztvevő…
 
 * **Kapcsolódó leckék:** M1.3, M1.4
 * **Cél (rövid):**
-  Átélni a különbséget a **smiley-s** („jó volt / béna volt”) és a konkrét **SBI-visszajelzés** között – adni és kapni is; megfogalmazni legalább 1–2 használható SBI-mondatot tipikus madrich-helyzetre; megérteni, hogy nem kell „tökéletesnek” lenni, van egy egyszerű nyelv, amihez vissza lehet nyúlni.
+  Átélni a különbséget a **smiley-s** („jó volt / béna volt”) és a konkrét **SBI-visszajelzés** között – adni és kapni is; megfogalmazni legalább 1–2 használható SBI-mondatot tipikus madrih-helyzetre; megérteni, hogy nem kell „tökéletesnek” lenni, van egy egyszerű nyelv, amihez vissza lehet nyúlni.
 * **Fókusz:**
   Gyakorlás triókban, élő helyzetkártyákkal (M1.4 példáiból), megfigyelői ellenőrző listával.
 * **Rövid percbontás-vázlat:**
@@ -228,7 +228,7 @@ A modul végére a résztvevő…
 
 ### Kaputípus
 
-* **Éles teljesítési kapu** – mert az M1-ben tanult készség később is kell: a madrich tudjon **konkrét megfigyelést elválasztani az értelmezéstől**, és emberi viselkedésre helyzet–viselkedés–hatás szerkezetben visszajelzést adni. Az M6.B produktum-visszajelzése erre a konkrétságra épül, de **nem nevezzük SBI-nek**, mert ott nem emberi viselkedés a B: produktumra a **Megfigyelés → Hatás → Következő lépés** modellt használjuk. Az M7-ben ugyanez a megfigyelési fegyelem jelenik meg a társas visszajelzésben és a későbbi utóreflexióban.
+* **Éles teljesítési kapu** – mert az M1-ben tanult készség később is kell: a madrih tudjon **konkrét megfigyelést elválasztani az értelmezéstől**, és emberi viselkedésre helyzet–viselkedés–hatás szerkezetben visszajelzést adni. Az M6.B produktum-visszajelzése erre a konkrétságra épül, de **nem nevezzük SBI-nek**, mert ott nem emberi viselkedés a B: produktumra a **Megfigyelés → Hatás → Következő lépés** modellt használjuk. Az M7-ben ugyanez a megfigyelési fegyelem jelenik meg a társas visszajelzésben és a későbbi utóreflexióban.
 
 ### Eszköz
 

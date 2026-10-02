@@ -44,8 +44,8 @@
   "kind": "diagram",
   "mode": "generate",
   "title": "Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2",
-  "purpose": "Vizuálisan üzeni, hogy a félévzáró feladat nem nulláról indul, hanem a portfólió korábbi produktumait köti egybe; megerősíti a §6 PORTFÓLIÓ-BEMENET végén álló „Üzenet a madrichnak” mondatot.",
-  "spec": "Konvergencia-/tölcsérdiagram, amely megmutatja, hogy a hat korábbi modul kész produktuma hogyan táplálja az egyetlen Peula v2-t: M1 megfigyelés és konkrét visszajelzés (utóreflexió, javító visszajelzés), M2 saját érték / dugma ishit (SMART cél kötése), M3 gyermekvédelem + kvuca-profil (Zmán Kvucá-biztonság), M4 kérdezéstechnika (élmény-/feldolgozó-blokk, visszatükrözés), M5 módszer-logika (cél↔módszer↔kvuca), M6 játéklap (élmény-blokk, biztonság/inkluzivitás). Hat bemenet → egy vállalható Peula v2.",
+  "purpose": "Vizuálisan üzeni, hogy a félévzáró feladat nem nulláról indul, hanem a portfólió korábbi produktumait köti egybe; megerősíti a §6 PORTFÓLIÓ-BEMENET végén álló „Üzenet a madrihnak” mondatot.",
+  "spec": "Konvergencia-/tölcsérdiagram, amely megmutatja, hogy a hat korábbi modul kész produktuma hogyan táplálja az egyetlen Peula v2-t: M1 megfigyelés és konkrét visszajelzés (utóreflexió, javító visszajelzés), M2 saját érték / dugma isit (SMART cél kötése), M3 gyermekvédelem + kvuca-profil (Zmán Kvucá-biztonság), M4 kérdezéstechnika (élmény-/feldolgozó-blokk, visszatükrözés), M5 módszer-logika (cél↔módszer↔kvuca), M6 játéklap (élmény-blokk, biztonság/inkluzivitás). Hat bemenet → egy vállalható Peula v2.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
@@ -114,11 +114,11 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (1. hét; a V1 központi naptár szerint 2027-02-19) és Peula B (2. hét; 2027-02-26), **45’ + 45’**
 * **Online terhelés:** kb. **4 db mikrolecke** H5P-magja: az M7.1, az M7.3 és az M7.4 egyenként **15–20’**, az M7.2 **30–35’**, mert az elején kb. 15 perces **AI-jártassági blokk** van (össz. ~**75–95’**; V1 tervezési értékek: a későbbi pilot finomíthatja őket, de nem élesítési feltétel); ehhez jön **M7.3 Moodle Checklist (5–10’)** és **M7.4 Moodle Assignment-kitöltés (5–10’)** külön lépésként → online összterhelés **~85–115 perc**.
-* **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrich-óra, otthoni / védett munkaidő):**
+* **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrih-óra, otthoni / védett munkaidő):**
   * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
   * **Felkészültségi kvíz a v1 leadása után** (ajánlott még az M7.B előtt, a v2 leadása előtt kötelező; 14 item, esetleg egy javító próbálkozással): **~15–25 perc**.
   * **v1 → v2 véglegesítés** (a kijelölt mentor rubrikára épülő v1-visszajelzése és az M7.B peula-műhely után, önállóan): **~60–90 perc** – SMART-cél csiszolása, 3–4 Peula-pont kidolgozása, **biztonsági rész** (R4 blokkoló), **inkluzivitás** (R5), Zmán Kvucá-operációs tábla pufferrel, az AI-javaslatok kritikus átdolgozása (ha használt AI-t), és a **portfólió-átkötések tényleges behozása** (M1 SBI · M2 érték · M3 biztonsági keret/kvuca-profil · M4 kérdezéstechnika · M5 módszer · M6 játéklap).
-  * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 105–160 perc (kb. 1,75–2,7 óra; a fenti három tétel összege)**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrichoknak (a ténylegesnél kisebbnek ígért, majd nagyobbnak bizonyuló terhelés lemorzsolódási kockázat), és adj hozzá **védett munkaidőt** (pl. az M7.B-műhely). Ha a kapu nem teljesül, a kötelező M7.F **felzárkóztató peula (F-peula)** ad facilitált, strukturált javítási alkalmat a javító próbálkozás előtt – nem általános pótlásra szolgál.
+  * → **A szintézis-produktum önálló írás-/véglegesítő terhelése reálisan kb. 105–160 perc (kb. 1,75–2,7 óra; a fenti három tétel összege)**, az online leckéken és a peulákon **felül**. Ezt **előre kommunikáld** a madrihoknak (a ténylegesnél kisebbnek ígért, majd nagyobbnak bizonyuló terhelés lemorzsolódási kockázat), és adj hozzá **védett munkaidőt** (pl. az M7.B-műhely). Ha a kapu nem teljesül, a kötelező M7.F **felzárkóztató peula (F-peula)** ad facilitált, strukturált javítási alkalmat a javító próbálkozás előtt – nem általános pótlásra szolgál.
 * **Teljes terhelés (V1 tervezési érték): 4–5,5 óra** a félévzáró kapuig – kontaktidő kb. **175–205 perc (2,9–3,4 óra; online mikroleckék ~85–115 perc + 2 × 45’ peula)** + kb. **105–160 perc önálló szintézis-produktum-munka: Peula v1, kvíz, Peula v2 véglegesítés** (a részidők összege ~280–365 perc, kb. 4,7–6,1 óra; a V1 tervezési érték a projektgazdai döntés szerint 4–5,5 óra).
 
 **Modulközponti kérdés**
@@ -130,15 +130,15 @@
 * **SMART nevelési cél:** olyan cél, ami **Specifikus, Mérhető, Achievable (elérhető), Releváns és Time-bound (időhöz kötött)** – someres nyelven: pontosan megfogalmazott, látszik, hogy megtörtént-e, reális, Somer-értékhez kapcsolódik, és tudjuk, *mikorra* szeretnénk, hogy megvalósuljon. (M7.1, M7.A, M7.4)
 * **Peula 11 pontja (modernizált):** a peula „csontváza” a céltól a feldolgozáson át a biztonságig; ahol a résztvevő választja és a szervezeti feltételek engedik, AI opcionális támogató eszköz lehet. (M7.2, M7.A, M7.4)
 * **Zmán Kvucá:** a kvuca **fix, rendszeres foglalkozás-idősávja** (pl. heti kvuca-idő a kenben), ahol peula, beszélgetés, játék történik – **nevelési céllal**, tervezetten, biztonságos keretben. (M7.3, M7.B, M7.F)
-* **AI mint opcionális eszköz:** ötletelésre, fogalmazásra, kérdésgenerálásra használható **chanich-adatok nélkül**; a használata nem teljesítési feltétel, és a döntés/felelősség minden esetben a madrichnál marad. Saját AI-fiókra nincs szükség: a kurzus AI-segédjét a Somer szervere közvetíti, szervezeti hozzáféréssel. Személyes adatot ide se írj. (M7.1–M7.4, M7.B)
+* **AI mint opcionális eszköz:** ötletelésre, fogalmazásra, kérdésgenerálásra használható **hanih-adatok nélkül**; a használata nem teljesítési feltétel, és a döntés/felelősség minden esetben a madrihnál marad. Saját AI-fiókra nincs szükség: a kurzus AI-segédjét a Somer szervere közvetíti, szervezeti hozzáféréssel. Személyes adatot ide se írj. (M7.1–M7.4, M7.B)
 
 **Modulcél röviden**
 
-A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucára (pl. Parparim/Kivsza), amelyet a **modernizált Peula 11 pont** szerint írt meg; érti és használja a **Zmán Kvucá-checklistet**, és képes megítélni, hogyan vonható be **opcionálisan, etikusan egy szervezetileg jóváhagyott generatív AI-eszköz** a tervezésbe. A no-AI út teljes értékű; a döntések minden esetben a madrich kezében maradnak. (M7.1–M7.4, M7.A, M7.B)
+A madrih a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucára (pl. Parparim/Kivsza), amelyet a **modernizált Peula 11 pont** szerint írt meg; érti és használja a **Zmán Kvucá-checklistet**, és képes megítélni, hogyan vonható be **opcionálisan, etikusan egy szervezetileg jóváhagyott generatív AI-eszköz** a tervezésbe. A no-AI út teljes értékű; a döntések minden esetben a madrih kezében maradnak. (M7.1–M7.4, M7.A, M7.B)
 
 **Kétlépcsős félévzáró – a Peula v2 nem egy ülésben készül el**
 
-> **Üzenet a madrichnak:** a félévzáró feladat **két lépcsőben** érik be – szándékosan **időben szétterítve**, hogy a peuládat ne egy lélegzetre, hanem két menetben csiszold:
+> **Üzenet a madrihnak:** a félévzáró feladat **két lépcsőben** érik be – szándékosan **időben szétterítve**, hogy a peuládat ne egy lélegzetre, hanem két menetben csiszold:
 >
 > * **v1 – elsővázlat-ellenőrzési pont (az M7 1. hetének vége, az M7.A után):** leadod a **Peula v1 első vázlatot** (M7.4 Assignment). Ez **alacsony tét**: NEM buktat, **újrapróbálható**, és a v2 előtt a **kijelölt mentorod** a v2-rubrika alapján visszajelzést ad rá – a célja, hogy lásd, hova tartasz, és hol kérsz segítséget. (A pontos dátumot a Moodle-ben látod.)
 > * **kvíz – felkészültségi kapu (a v1 után, a v2 előtt):** a „SMART & Zmán Kvucá kvíz (felkészültségi)” a v1 leadása után nyílik. Érdemes még az M7.B előtt kitöltened: így már a v2 csiszolása előtt kiderül, megvan-e a tudásalap (a gyermekvédelmi lépésekkel együtt). A v2-t csak a sikeres kvíz után adhatod le.
@@ -151,7 +151,7 @@ A madrich a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucá
 
 ## 2. Kimeneti kompetenciák
 
-A modul végére a madrich…
+A modul végére a madrih…
 
 1. **SMART nevelési cél írása (someres kontextusban)**
    * 2–3 „szétfolyó” célt át tud írni **SMART nevelési céllá** egy adott kvucára (M7.1, M7.A).
@@ -163,7 +163,7 @@ A modul végére a madrich…
    * Érti, mit jelent a **Zmán Kvucá** mint időkeret, felelősség és gyermekvédelmi kontextus (M7.3).
    * Tud használni egy **Zmán Kvucá-checklistet** (helyszín, létszám, anyagok, B-terv, hozzáférhetőség, gyermekvédelem, szerepek) saját peulájára (M7.3, M7.4, M7.B).
 4. **AI-etikusság & adatbiztonság**
-   * Tudja, hogy a chanich neve, képe, elérhetősége, pontos helye, egészségügyi/mentális állapota, családi háttere, vallási/etnikai vagy más érzékeny identitása és beazonosítható eseménye **nem kerülhet promptba** (a lista forrása: `Adatvédelem – tanulói adatok és AI.md` §7), és gyermekvédelmi ügyben mindig a kijelölt Memuna (a Somer gyermekvédelmi felelőse) a kontakt (M7.2–M7.4).
+   * Tudja, hogy a hanih neve, képe, elérhetősége, pontos helye, egészségügyi/mentális állapota, családi háttere, vallási/etnikai vagy más érzékeny identitása és beazonosítható eseménye **nem kerülhet promptba** (a lista forrása: `Adatvédelem – tanulói adatok és AI.md` §7), és gyermekvédelmi ügyben mindig a kijelölt Memuna (a Somer gyermekvédelmi felelőse) a kontakt (M7.2–M7.4).
    * Különbséget tesz „AI segít ötletelni / fogalmazni” és „AI megírja helyettem az egész peulát” között; az utóbbit nem használja (M7.2, M7.4, M7.B).
 5. **Peula v2 + Zmán Kvucá produktum**
    * Elkészíti és leadja a modul produktumát:
@@ -183,9 +183,9 @@ A modul végére a madrich…
 * **Eszközök:** H5P **Course Presentation** (**7 slide**) + beépített **Single Choice Set** + **Fill in the Blanks** + **rövid szöveges válasz** (a záró SLIDE 7 saját SMART cél megírására).
 * **Tartalom röviden:**
   * „Szétfolyó vágyak” vs. mérhető célok (kvuca-szituációkra írva).
-  * SMART definíció **madrich-nyelven** + 2 someres minta (pl. szolidaritás / biztonság).
+  * SMART definíció **madrih-nyelven** + 2 someres minta (pl. szolidaritás / biztonság).
   * Gyakorló feladat: hiányzó SMART-elemek beírása 2 célmondatba.
-  * Mini AI-blokk: hogyan kérsz segítséget AI-tól egy meglévő cél átírásához – **chanich-adat nélkül**.
+  * Mini AI-blokk: hogyan kérsz segítséget AI-tól egy meglévő cél átírásához – **hanih-adat nélkül**.
   * Zárás: 1 saját peula-ötlethez SMART cél megírása (alap egy későbbi Peula v2-hez).
 
 ***
@@ -211,13 +211,13 @@ A modul végére a madrich…
 * **Cél:**
   Érteni, mitől lesz egy Zmán Kvucá **vállalható és biztonságos**, és használni a hozzá tartozó **checklistet** saját programokra.
 * **Programírás-fókusz:**
-  „A Zmán Kvucá nemcsak egy játékidő – hanem *idő + helyszín + kvuca + cél + felelősség* tudatos kerete.” A madrich a saját szerepében figyel és jelez, a gyermekvédelmi felelősség pedig a jelen lévő, 18 év feletti felnőtté.
+  „A Zmán Kvucá nemcsak egy játékidő – hanem *idő + helyszín + kvuca + cél + felelősség* tudatos kerete.” A madrih a saját szerepében figyel és jelez, a gyermekvédelmi felelősség pedig a jelen lévő, 18 év feletti felnőtté.
 * **Eszközök:** H5P **Course Presentation** (kb. 6 slide) + **Moodle Checklist** külön aktivitásként.
 * **Tartalom röviden:**
-  * Mini-sztori(k) széteső Zmán Kvucáról (nincs B-terv, kevés madrich, bizonytalan terek).
+  * Mini-sztori(k) széteső Zmán Kvucáról (nincs B-terv, kevés madrih, bizonytalan terek).
   * A Zmán Kvucá 5 fő területe:
     * Idő & helyszín,
-    * Létszám & madrich–chanich arány,
+    * Létszám & madrih–hanih arány,
     * Anyagok, technika & B-terv,
     * Hozzáférhetőség & inkluzivitás,
     * Gyermekvédelem & határok.
@@ -239,7 +239,7 @@ A modul végére a madrich…
     * kvuca-típus, korosztály, kvuca-meta,
     * SMART nevelési cél,
     * 3–4 fókuszpont a Peula 11 pontja közül (pl. Módszerek & élmény-blokk, Felépítés, Biztonság & gyermekvédelem).
-  * Mini AI-blokk: hogyan kérj AI-tól ötleteket feldolgozó kérdésekre úgy, hogy nem viszel be chanich-adatokat, és **te döntöd el**, mi illik a kvucádhoz.
+  * Mini AI-blokk: hogyan kérj AI-tól ötleteket feldolgozó kérdésekre úgy, hogy nem viszel be hanih-adatokat, és **te döntöd el**, mi illik a kvucádhoz.
   * Moodle Assignment: „Peula v1 – első vázlat” beadása minimum elvárásokkal (kitöltött meta, 3–4 peula-pont részletezve, mini Zmán Kvucá-táblázat).
 
 ***
@@ -255,7 +255,7 @@ A modul végére a madrich…
 * **Fókusz-mondat:**
   „Ha jól megfogalmazom a célt, a peula fele már kész.”
 * **Rövid váz:**
-  * Ráhangolódás: „Mitől jó egy Zmán Kvucá chanich-szemmel?”
+  * Ráhangolódás: „Mitől jó egy Zmán Kvucá hanih-szemmel?”
   * Játék: vágy kontra SMART cél – sarokválasztás, rövid megbeszélés.
   * Mini-műhely: 1 ötlet → SMART cél + 3–4 kijelölt peula-pont (a Peula 11 pontjából).
   * Megosztás és társas visszajelzés: kvuca-meta, SMART cél, 2 kidolgozott pont rövid bemutatása.
@@ -269,7 +269,7 @@ A modul végére a madrich…
 * **Hol áll a kétlépcsős ívben:** ez a **2. hét** peulája – a **v1 elsővázlat-ellenőrzési pont** (1. hét vége) és a **v2 teljesítési kapu** (2. hét vége) **közti** csiszoló alkalom. A műhelyben a résztvevők **a már leadott Peula v1-et** fejlesztik tovább; a véglegesített v2-t **nem itt, aznap** adják le, hanem a műhely utáni munkával, a 2. hét végén.
 * **Fő cél:**
   * 1 már leadott **Peula v1 vázlat** továbbfejlesztése a **v2 felé** Zmán Kvucá-szempontból (idő, tér, létszám, eszköz/B-terv, inkluzivitás, gyermekvédelem).
-  * Átélni, hogy nem az a jó peula, ami papíron a legkreatívabb, hanem amit a madrich **biztonságban meg is tud tartani** a saját kvucájának.
+  * Átélni, hogy nem az a jó peula, ami papíron a legkreatívabb, hanem amit a madrih **biztonságban meg is tud tartani** a saját kvucájának.
 * **Fókusz-mondat:**
   „Nem az a jó peula, ami papíron nagyon kreatív, hanem amit **biztonságban meg is tudsz tartani**.”
 * **Rövid váz:**
@@ -360,21 +360,21 @@ A modul végére a madrich…
    > **PORTFÓLIÓ-BEMENET – a Peula v2 nem nulláról indul.**
    > A félév szintézis-produktuma a korábbi modulok kész produktumaira épít (tükrözve az „M7 – KAPU” portfólió-átkötési tábláját):
    >
-   > * **M1 – megfigyelés, értelmezés, konkrét fejlesztő visszajelzés:** az M7.A/M7.B műhelyben a társas visszajelzés konkrétumokra épül, nem címkékre. A 11. pontban ugyanez a fegyelem tér vissza: a megtartás után a madrich előbb azt rögzíti, mi történt és mit figyelt meg, csak utána értelmezi a hatást, és dönt a változtatásról.
-   > * **M2 – identitás / érték** (identitás-jegyzet, dugma ishit – személyes példamutatás): a SMART nevelési cél / kvuca-illeszkedés a madrich saját someres értékéhez, dugma ishitjéhez kötődik – nem „bárki” peulája, hanem az övé.
-   > * **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatan + jelzési lánc): a Zmán Kvucá biztonsági része és a kvuca-illeszkedés a korábban tanult gyermekvédelmi keretre és a someres kvuca-profilra támaszkodik.
+   > * **M1 – megfigyelés, értelmezés, konkrét fejlesztő visszajelzés:** az M7.A/M7.B műhelyben a társas visszajelzés konkrétumokra épül, nem címkékre. A 11. pontban ugyanez a fegyelem tér vissza: a megtartás után a madrih előbb azt rögzíti, mi történt és mit figyelt meg, csak utána értelmezi a hatást, és dönt a változtatásról.
+   > * **M2 – identitás / érték** (identitás-jegyzet, dugma isit – személyes példamutatás): a SMART nevelési cél / kvuca-illeszkedés a madrih saját someres értékéhez, dugma isitjéhez kötődik – nem „bárki” peulája, hanem az övé.
+   > * **M3 – gyermekvédelem + kvuca-profil** (Parparim/Kivsza/Leviatán + jelzési lánc): a Zmán Kvucá biztonsági része és a kvuca-illeszkedés a korábban tanult gyermekvédelmi keretre és a someres kvuca-profilra támaszkodik.
    > * **M4 – kérdezés & kapcsolódás** (aktív hallgatás, nyitott/tisztázó kérdés, rövid peulabemutató): a Peula 11 pontjának **élmény- és feldolgozó-blokkja** (5–6. pont) és a **Visszajelzés és finomhangolás** (10. pont) és az élő levezetés erre épül – a feldolgozó kérdések és a visszatükrözés az M4-ben tanult kérdezéstechnikából jönnek.
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
    > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők itt élnek tovább.
    >
-   > Üzenet a madrichnak: „Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját értékedet, az M3-ból a biztonsági keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat és az M6-ból egy játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS.)
+   > Üzenet a madrihnak: „Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját értékedet, az M3-ból a biztonsági keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat és az M6-ból egy játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS.)
 
    * **Rubrika-minimum (példa):**
      1. SMART cél – egyértelmű, someres értékhez kötött.
      2. Kvuca-illeszkedés – korosztály, energiaszint, **életkori / korosztályi sajátosságok**.
      3. Struktúra – a Peula 11 pontja felismerhetően jelen van.
      4. Biztonság & gyermekvédelem – átgondolt biztonsági rész a Zmán Kvucá-checklist alapján.
-     5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható chanich-sztorik.
+     5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható hanih-sztorik.
    * **Követelmény:**
      * **Megfelelt = (összpont ≥70% = ≥17/24) ÉS (R1, R5, R6 mindegyike ≥2 = „Megfelelő”) ÉS (R4 – Gyermekvédelem & biztonság ≥2, blokkoló)** – zárt **ÉS**-logika; a kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**, a blokkoló biztonsági sor (R4) pedig, ha 2 pont alatt marad, a %-tól függetlenül buktat (a pontos szabály: „M7 – KAPU” §B).
 2. **Moodle Quiz – „SMART & Zmán Kvucá kvíz (felkészültségi)”** **(kötelező 2. rész a kétrészes teljesítési kapuban – ≥80%; fogalmi belépő, vagyis felkészültségi kapu: a v1 leadása után nyílik, ajánlott még az M7.B előtt teljesíteni, a Peula v2 leadása előtt kötelező; a teljesítése is feltétel, mindkét részt teljesíteni kell)**

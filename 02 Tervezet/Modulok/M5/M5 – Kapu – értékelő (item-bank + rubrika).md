@@ -21,15 +21,15 @@
 | **Melyik kapuhoz tartozik?** | **M5 – „Ez most játék vagy tanulás?”** éles teljesítési kapu. |
 | **Mit mér?** | **Kvíz:** a modul három tanított fogalomcsaládját: (1) formális / nonformális / informális tanulás megkülönböztetése; (2) a **négytagú** *feladat → cél → kvuca → módszer* döntési lánc; (3) tanulástan – gyakorlás, aktív felidézés, időben elosztott gyakorlás. **Produktum-rubrika (éles kapu):** a 4. kimeneti (produkciós) kompetenciát – a saját „Feladat–kvuca–módszer + tanulástan” táblázat elkészítését (M5.4; rubrika: 4. szakasz). |
 | **Kvíz – LMS-eszköz** | **Moodle Quiz**, **12 item**, randomizált item- és válaszsorrend. |
-| **A kvíz szerepe** | **Formatív / diagnosztikus belépő** – nem ez az éles kapu. A kvíz azt mutatja meg a madrichnak ÉS a stábnak, melyik fogalomcsalád ül már és melyik szorul még felzárkózásra (M5.1–M5.4). **2–3 próbálkozás** engedélyezve; minden próbálkozás után **kérdésszintű magyarázó visszajelzés + visszairányítás** a hibás itemekhez. Ajánlott diagnosztikus jelzőküszöb **≥ 80%** (12-ből ≥10 jó): alatta **nem blokkoló** mentori jelzés – **nem kizárás**. |
+| **A kvíz szerepe** | **Formatív / diagnosztikus belépő** – nem ez az éles kapu. A kvíz azt mutatja meg a madrihnak ÉS a stábnak, melyik fogalomcsalád ül már és melyik szorul még felzárkózásra (M5.1–M5.4). **2–3 próbálkozás** engedélyezve; minden próbálkozás után **kérdésszintű magyarázó visszajelzés + visszairányítás** a hibás itemekhez. Ajánlott diagnosztikus jelzőküszöb **≥ 80%** (12-ből ≥10 jó): alatta **nem blokkoló** mentori jelzés – **nem kizárás**. |
 | **Produktum – LMS-eszköz (ÉLES KAPU)** | **Moodle Assignment + rubrika** (lent, 4. szakasz) az M5.4 „Feladat–kvuca–módszer + tanulástan” táblázathoz. **Ez a modul elsődleges, éles teljesítési kapuja** – mint az M1/M7 modulokban a produktum-rubrika. |
 | **Modulszintű teljesítési szabály** | **A produktum-rubrika az elsődleges éles kapu** (kapu-filozófia, lásd Program terv §5): a modul akkor teljesített, ha a **leadott M5.4 táblázat minden rubrika-soron eléri legalább az „Alapszint”-et** (a kritikus **R4** soron is). A **kvíz formatív/diagnosztikus**: a ≥80% diagnosztikus jelző, nem kizáró feltétel – aki alatta van, **felzárkóztató hurokba** kerül (a kvíz item-szintű analitikája alapján célzott visszairányítás), nem bukik. Így a 4. kimeneti (produkciós) kompetencia van élesen kapuzva, a fogalmi tudást pedig a kvíz **diagnosztizálja és fejleszti**, nem egy-helyes-válaszos kvízkapuként szűri. |
-| **Újraértékelés** | A Program terv §5 szerint a támogató javítás és újraleadás mellett a madrich kérheti, hogy **az eredeti értékelőtől eltérő második képző** nézze át a beadást és a kapudöntést, még a következő modul (M6) feloldása előtt. |
+| **Újraértékelés** | A Program terv §5 szerint a támogató javítás és újraleadás mellett a madrih kérheti, hogy **az eredeti értékelőtől eltérő második képző** nézze át a beadást és a kapudöntést, még a következő modul (M6) feloldása előtt. |
 | **Adatkezelési tájékoztató** | A kvíz és az Assignment indítópontján, a feladat előtt a Program terv §4 szerinti, közérthető „just-in-time” tájékoztató doboz áll (mit rögzítünk, mire, meddig, ki látja, kihez lehet fordulni). A címzetteket, a jogalapot és a megőrzést a **HUM-PRIV-01** projektgazdai döntése (2026-10-02) rögzíti az `Adatvédelem – tanulói adatok és AI.md` §3 mátrixában (utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős); a kapcsolattartót a kurzushoz kiadott adatkezelési tájékoztató nevezi meg, ez a fájl nem találja ki. |
 
 **Miért 12 item / fogalomcsaládonként 4?** 12 itemnél a 80% azt jelenti, hogy legföljebb 2 hiba fér bele. Az item-bank **fogalomcsaládonként 4 itemet** tartalmaz, **felismerő ÉS alkalmazás-szintű** keverékben. Az összesített jelzőküszöb azonban egy fogalomcsaládon belüli gyenge eredményt is elfedhet: **4-4 item** mellett az egyik családban elért 2/4 és a másik kettőben elért 4/4 együtt is 10/12, vagyis küszöb feletti eredmény.
 
-**Disztraktor-elv.** Nincs „minden fenti”, nincs karikatúra-rossz töltelék (pl. „Semmi köze a tanuláshoz”). Minden disztraktor egy **valós madrich-tévedést vagy gyakori félreértést** testesít meg – főleg a két jellemzően gyenge pont köré építve: **nonformális ↔ informális** összekeverése, és **időben elosztott gyakorlás ↔ „egyben magolás”** összekeverése.
+**Disztraktor-elv.** Nincs „minden fenti”, nincs karikatúra-rossz töltelék (pl. „Semmi köze a tanuláshoz”). Minden disztraktor egy **valós madrih-tévedést vagy gyakori félreértést** testesít meg – főleg a két jellemzően gyenge pont köré építve: **nonformális ↔ informális** összekeverése, és **időben elosztott gyakorlás ↔ „egyben magolás”** összekeverése.
 
 **Item-térkép (tartalmi lefedettség + szint):**
 
@@ -54,7 +54,7 @@
 
 ### Q1 – Felismerő (fogalmi szár)
 
-**Egy új chanich szülője a ken után megkérdezi tőled: „Ez itt olyan, mint egy iskolai óra, vagy csak együtt vannak a gyerekek?” Melyik válaszod írja le legpontosabban, hogy a someres peula *nonformális* tanulás?**
+**Egy új hanih szülője a ken után megkérdezi tőled: „Ez itt olyan, mint egy iskolai óra, vagy csak együtt vannak a gyerekek?” Melyik válaszod írja le legpontosabban, hogy a someres peula *nonformális* tanulás?**
 
 - A) „Olyan, mint egy iskolai óra: előre megadott tananyagon haladunk, kötelező jönni, és a végén értékeljük, ki mit teljesített.”
 - B) ✅ „Szervezett program, mögötte tudatos nevelési céllal, ami nem jegyben, hanem közös játékban, élményben, beszélgetésben jelenik meg. A részvétel emellett önkéntes.”
@@ -72,27 +72,27 @@
 
 ### Q2 – Alkalmazás (besorolás)
 
-**Hétvégi kiránduláson a kvuca megáll egy forrásnál. A madrich – ahogy előre megtervezte – röviden elmondja, miért fontos vigyázni a természetre, majd megkérdezi a chanichokat, nekik mit jelent felelősséget vállalni a közös dolgainkért. A beszélgetés séta közben, kötetlenül folytatódik. Ez melyik tanulásforma?**
+**Hétvégi kiránduláson a kvuca megáll egy forrásnál. A madrih – ahogy előre megtervezte – röviden elmondja, miért fontos vigyázni a természetre, majd megkérdezi a hanihokat, nekik mit jelent felelősséget vállalni a közös dolgainkért. A beszélgetés séta közben, kötetlenül folytatódik. Ez melyik tanulásforma?**
 
-- A) Formális – a madrich úgy magyaráz és kérdez, mintha tanórát tartana, csak épp a szabadban.
-- B) ✅ Nonformális – szervezett, someres céllal és madrich vezetésével, de önkéntes és élményalapú.
+- A) Formális – a madrih úgy magyaráz és kérdez, mintha tanórát tartana, csak épp a szabadban.
+- B) ✅ Nonformális – szervezett, someres céllal és madrih vezetésével, de önkéntes és élményalapú.
 - C) Informális – séta közben, kötetlen hangulatban zajlik, így ez inkább spontán, tervezett cél nélküli helyzet.
 - D) Egyik sem – kirándulás, nem foglalkozás, ezért egyik kategóriába sem sorolható be.
 
 **Disztraktor-indokok:**
-- A) „madrich = tanár” túláltalánosítás: a vezetett, kérdező helyzetet automatikusan formálisnak veszi.
+- A) „madrih = tanár” túláltalánosítás: a vezetett, kérdező helyzetet automatikusan formálisnak veszi.
 - C) a hangulatból és a helyszínből következtet a kategóriára („kötetlen = informális, spontán”) – pont az a tévesztés, amit az M5.1 SLIDE 4 visszajelzése is cáfol: a beszélgetésnek tervezett someres célja van.
 - D) a „nincs foglalkozás-keret = nincs kategória” tévhit.
 
-**Visszajelzés:** Sem a **hangulat (laza/komoly)**, sem a **helyszín** nem dönti el a kategóriát – a **tudatos nevelési cél + szervezettség** dönti el. (A someres önkéntesség a Somer sajátja, de nem ez választja el a nonformálist az informálistól.) A madrich vezette, előre megtervezett értékbeszélgetés kirándulás közben is tipikus nonformális helyzet. (**M5.1 lecke, 4. dia.**)
+**Visszajelzés:** Sem a **hangulat (laza/komoly)**, sem a **helyszín** nem dönti el a kategóriát – a **tudatos nevelési cél + szervezettség** dönti el. (A someres önkéntesség a Somer sajátja, de nem ez választja el a nonformálist az informálistól.) A madrih vezette, előre megtervezett értékbeszélgetés kirándulás közben is tipikus nonformális helyzet. (**M5.1 lecke, 4. dia.**)
 
 ---
 
 ### Q3 – Alkalmazás (határeset: nonformális vs. informális)
 
 **Két helyzetet látsz. Melyik a *nonformális*?**
-> **I.** Egy chanich a hétvégén a nagymamájának segít főzni, és közben, szinte észrevétlenül, elles tőle egy régi családi receptet.
-> **II.** A kenben a madrichok előre megterveznek egy közös főzést: a chanichok kiscsoportokban elkészítenek egy ételt, majd körben megbeszélik, hogyan osztották el a feladatokat, és mit tanultak az együttműködésről.
+> **I.** Egy hanih a hétvégén a nagymamájának segít főzni, és közben, szinte észrevétlenül, elles tőle egy régi családi receptet.
+> **II.** A kenben a madrihok előre megterveznek egy közös főzést: a hanihok kiscsoportokban elkészítenek egy ételt, majd körben megbeszélik, hogyan osztották el a feladatokat, és mit tanultak az együttműködésről.
 
 - A) Mindkettő nonformális, mert mindkét helyzetben főznek, és mindkettőben tanulnak valami újat.
 - B) ✅ A **II.** nonformális (tervezett cél + kvuca + reflexió); az **I.** informális (spontán, nincs tervezett nevelési cél).
@@ -115,12 +115,12 @@
 - A) Hogy fiatalok vannak jelen, jó a hangulat, és mindenki jól érzi magát együtt.
 - B) Hogy van benne játék, mozgás és közös szórakozás, nem csak ülünk és beszélgetünk.
 - C) ✅ Hogy van mögötte **előre megfogalmazott nevelési cél**, amiért a kvucával dolgozol.
-- D) Hogy a madrich végig beszél, magyaráz, és ő irányítja, mi történjen a peulán.
+- D) Hogy a madrih végig beszél, magyaráz, és ő irányítja, mi történjen a peulán.
 
 **Disztraktor-indokok:**
 - A) a résztvevők/hangulat nem megkülönböztető jegy – hétköznapi, spontán helyzetben is fiatalok és jó hangulat van.
 - B) a játék önmagában nem dönt: spontán estén is játszotok (pl. FIFA), mégis informális.
-- D) ez nem megkülönböztető jegy: a sok madrich-beszéd akár formális helyzetben is jelen lehet, és önmagában nem teszi nonformálissá a peulát – a kategóriát a nevelési cél, nem a beszéd mennyisége dönti el.
+- D) ez nem megkülönböztető jegy: a sok madrih-beszéd akár formális helyzetben is jelen lehet, és önmagában nem teszi nonformálissá a peulát – a kategóriát a nevelési cél, nem a beszéd mennyisége dönti el.
 
 **Visszajelzés:** A nonformális megkülönböztető jegye a **tudatos nevelési cél**, nem a hangulat, nem a játék megléte. (**M5.1 lecke, 3. dia.**)
 
@@ -132,7 +132,7 @@
 
 ### Q5 – Felismerő (sorrend)
 
-**Azt a feladatot kapod, hogy a jövő pénteki peulán hangoljátok rá a kvucát a nyári táborra. A társmadrichoddal azon vitatkoztok, hogyan fogjatok hozzá. Melyik sorrendben érdemes haladnotok?**
+**Azt a feladatot kapod, hogy a jövő pénteki peulán hangoljátok rá a kvucát a nyári táborra. A társmadrihoddal azon vitatkoztok, hogyan fogjatok hozzá. Melyik sorrendben érdemes haladnotok?**
 
 - A) Előbb kiválasztjátok a kedvenc játékotokat, aztán megnézitek a feladatot, kitaláltok hozzá egy célt, végül a kvucához igazítjátok.
 - B) Megnézitek a feladatot, felméritek a kvucát, kiválasztotok egy játékot, és a végén megfogalmazzátok, mi volt a cél.
@@ -150,7 +150,7 @@
 
 ### Q6 – Alkalmazás (hibakeresés a láncban)
 
-**Egy madrich így tervez: „Imádom ezt a játékot, ezt fogjuk játszani a kvucával, a többi majd menet közben kialakul.” Mi a fő probléma a tervezésével?**
+**Egy madrih így tervez: „Imádom ezt a játékot, ezt fogjuk játszani a kvucával, a többi majd menet közben kialakul.” Mi a fő probléma a tervezésével?**
 
 - A) Igazából semmi: ha a játék jó, a kvuca élvezi, a tanulság úgyis kijön belőle magától.
 - B) ✅ Egy konkrét formával indít, mielőtt tisztázná, mit szeretne elérni vele és kinek szól.
@@ -162,13 +162,13 @@
 - C) valós, fontos szempont (biztonság), de itt **nem ez a fő hiba**: ettől függetlenül a sorrend csúszik el.
 - D) a „szavaztassuk meg, mit akar játszani a kvuca” összemossa a kvuca-jellemzők figyelembevételét a módszer demokratikus kiválasztásával; ettől még a fő hiba a sorrend.
 
-**Visszajelzés:** A fő hiba a **sorrend**: a madrich a módszerrel (kedvenc játék) indít, és a célt utólag húzza rá. A négytagú láncban (feladat → cél → kvuca → módszer) a módszer az **utolsó** lépés. (**M5.2 lecke: a nyitó „Mi a feladatod?” dia és a döntési fa végén a „Mi illik legjobban a Somerhez?” kérdés.**)
+**Visszajelzés:** A fő hiba a **sorrend**: a madrih a módszerrel (kedvenc játék) indít, és a célt utólag húzza rá. A négytagú láncban (feladat → cél → kvuca → módszer) a módszer az **utolsó** lépés. (**M5.2 lecke: a nyitó „Mi a feladatod?” dia és a döntési fa végén a „Mi illik legjobban a Somerhez?” kérdés.**)
 
 ---
 
 ### Q7 – Alkalmazás (következő lépés a láncban)
 
-**Megfogalmaztad a feladatot („tartsak egy peulát a felelősségről”) és a célt („a chanichok a saját példáikat hozzák, ne csak én magyarázzak”). A négytagú lánc szerint mi a **következő** lépésed, *mielőtt* módszert választanál?**
+**Megfogalmaztad a feladatot („tartsak egy peulát a felelősségről”) és a célt („a hanihok a saját példáikat hozzák, ne csak én magyarázzak”). A négytagú lánc szerint mi a **következő** lépésed, *mielőtt* módszert választanál?**
 
 - A) Rögtön kiválasztom a kedvenc kiscsoportos beszélgetős formámat, ami eddig is jól bevált nálam.
 - B) ✅ Megnézem a **kvucát**: hány évesek, mennyire beszédesek, milyen a hangulatuk – ettől függ a módszer.
@@ -212,15 +212,15 @@
 
 - A) Amikor újra és újra elolvasod vagy meghallgatod ugyanazt, amíg végül meg nem ragad.
 - B) ✅ Amikor **fejből próbálsz felidézni** valamit, anélkül hogy belenéznél a jegyzetbe.
-- C) Amikor a madrich szó szerint újra elmondja az üzenetet, hogy biztosan jól rögzüljön.
+- C) Amikor a madrih szó szerint újra elmondja az üzenetet, hogy biztosan jól rögzüljön.
 - D) Amikor több külön napon, rövid blokkokban gyakorolsz, nem pedig egyszerre, egyben.
 
 **Disztraktor-indokok:**
 - A) az **újraolvasás/újrahallgatás** – ezt sokan aktív felidézésnek hiszik, pedig passzív (ez a leggyakoribb tévesztés).
-- C) a madrich idéz fel, nem a chanich – az aktív felidézés épp az, hogy **ők** erőlködnek emlékezetből.
+- C) a madrih idéz fel, nem a hanih – az aktív felidézés épp az, hogy **ők** erőlködnek emlékezetből.
 - D) ez az **időben elosztott gyakorlás** definíciója – a két tanulástan-fogalom összekeverése.
 
-**Visszajelzés:** Aktív felidézésnél a tanuló **maga** próbálja fejből előhívni, amit tanult. Az újraolvasás (A) és a madrich ismétlése (C) passzív; a D pedig az időben elosztott gyakorlás. (**M5.3 lecke, 2. dia + a lecke végi mini-kvíz 2. kérdése.**)
+**Visszajelzés:** Aktív felidézésnél a tanuló **maga** próbálja fejből előhívni, amit tanult. Az újraolvasás (A) és a madrih ismétlése (C) passzív; a D pedig az időben elosztott gyakorlás. (**M5.3 lecke, 2. dia + a lecke végi mini-kvíz 2. kérdése.**)
 
 ---
 
@@ -244,7 +244,7 @@
 
 ### Q11 – Alkalmazás (határeset: időben elosztott gyakorlás vs. „egyben magolás”)
 
-**Egy madrich a tervébe odaírja: „időben elosztott gyakorlás”, és így indokolja: „egy alkalommal, jó alaposan, sokáig átveszem a kvucával a témát.” Mi a baj ezzel?**
+**Egy madrih a tervébe odaírja: „időben elosztott gyakorlás”, és így indokolja: „egy alkalommal, jó alaposan, sokáig átveszem a kvucával a témát.” Mi a baj ezzel?**
 
 - A) Semmi, ez tényleg időben elosztott gyakorlás: a lényeg, hogy egyszerre, jó alaposan átvegyük a témát.
 - B) ✅ Amit leír, az **az ellenkezője** az időben elosztott gyakorlásnak: egy hosszú blokk, nem több elosztott alkalom.
@@ -271,7 +271,7 @@
 
 **Disztraktor-indokok:**
 - A) csak egyben magolás, **nincs időben elosztott gyakorlás** (egy blokk) és nincs aktív felidézés → gyorsan elhalványul.
-- B) a madrich aktív, a kvuca passzív – **nincs gyakorlás, nincs aktív felidézés**.
+- B) a madrih aktív, a kvuca passzív – **nincs gyakorlás, nincs aktív felidézés**.
 - D) felolvasás = passzív újraolvasás; a heti ismétlés ugyan hasonlít az időben elosztott gyakorlásra, de **hiányzik az aktív felidézés** (nem fejből idézik fel).
 
 **Visszajelzés:** A három együtt működik: a kvuca **csinál** (gyakorlás), **fejből idéz fel** (aktív felidézés), és **elosztva, többször találkozik** vele (időben elosztott gyakorlás). Csak az egyik (pl. sok gyakorlás egyben) kevés. (**M5.3 lecke, 6. dia + a lecke végi mini-kvíz 5. kérdése; a lecke zárása: „Mit viszel magaddal?”**)
@@ -289,7 +289,7 @@
 
 | # | Kritérium (mit nézünk) | Hiányos (vissza javításra) | Alapszint (átmegy) | Erős (kiváló) |
 |---|---|---|---|---|
-| **R1** | **Feladat / cél konkrétsága** – a cél viselkedés/élmény szintű, nem csak címke | A cél címke vagy a műfaj neve: „peula”, „játék”, „beszélgetés”. Nem derül ki, mit tanuljon/éljen át a kvuca. | A cél megnevezi, **mit** szeretne a madrich, hogy a kvuca tegyen/átéljen: pl. „megtanulják egymás nevét”, „a saját példáikat hozzák a szolidaritásról”. | A cél **megfigyelhető eredményt** ír le, amin látszana a siker: „a peula végén mindenki ki tud mondani 1 másik chanich nevét + 1 dolgot róla”. |
+| **R1** | **Feladat / cél konkrétsága** – a cél viselkedés/élmény szintű, nem csak címke | A cél címke vagy a műfaj neve: „peula”, „játék”, „beszélgetés”. Nem derül ki, mit tanuljon/éljen át a kvuca. | A cél megnevezi, **mit** szeretne a madrih, hogy a kvuca tegyen/átéljen: pl. „megtanulják egymás nevét”, „a saját példáikat hozzák a szolidaritásról”. | A cél **megfigyelhető eredményt** ír le, amin látszana a siker: „a peula végén mindenki ki tud mondani 1 másik hanih nevét + 1 dolgot róla”. |
 | **R2** | **Kvuca megnevezése** – kor **ÉS** hangulat/jelleg szinten | Csak általánosság („gyerekek”, „a kvucám”) vagy semmi; kor és hangulat sem szerepel. | Megvan a **korosztály ÉS** legalább 1 hangulat-/jelleg-jegy: „13–14, energikus, sokat beszélnek”. | Kor + hangulat + a módszerválasztást **érdemben befolyásoló** részlet: „11–12, péntek délután fáradtak, néhányan visszahúzódók” – és ez később a módszerben vissza is köszön. |
 | **R3** | **Módszer–cél illeszkedés** – a módszer logikailag elvezet a megnevezett célhoz a megnevezett kvucánál | A módszer **nem illik** a célhoz: érték-reflexió célhoz puszta energizer; készség-célhoz frontális magyarázat; vagy a módszer hiányzik. | A módszer **megfelel** a célnak és a kvucának: ismerkedéshez játékos névjáték; együttműködés-gyakorláshoz közös feladat; szabály-megértéshez aktív, feldolgozós forma. | Az illeszkedés **indokolt is**: 1 mondatban kiderül, *miért* ez a módszer ehhez a célhoz és ehhez a kvucához a jó (pl. „mert a versengő kvucánál a közös szerep együttműködésre kényszerít”). |
 | **R4** | **Tanulástan-elem valódisága** (kritikus sor) – a 4. mező konkrét cselekvést ír le, nem csak a fogalom nevét ismétli | Csak a **címke** szerepel: „időben elosztott gyakorlás”, „aktív felidézés”, „gyakorlás” – cselekvés nélkül; vagy a megnevezett elem **nincs összhangban** a módszerrel (pl. „időben elosztott gyakorlás”, de a peula egyszeri és nem tér vissza). | A tanulástan-mező **konkrét cselekvést** ír le, ami valóban az adott fogalom: „következő pénteken rákérdezek, mire emlékeznek” = aktív felidézés; „a játék 3 héten át rövid blokkokban visszatér” = időben elosztott gyakorlás. *(Egyetlen, jól megírt elem már átmegy – de a visszajelzésben mondd ki: az időben elosztott gyakorlás akkor a legerősebb, ha **aktív felidézéssel párosul** („elosztva újra előhívják”, nem csak „újra látják”), és tedd fel a továbblépő kérdést: ezt a tervben hogyan kötnéd össze a másik kettővel?)* | Legalább 2 sorban megjelenik **2 különböző** tanulástan-elem, mindegyik konkrét cselekvéssel; és/vagy egy soron belül **több elem tudatos kombinációja** (pl. gyakorlás + aktív felidézés + időben elosztott gyakorlás egy tervben), helyesen használva – ahogy a Q12 helyes válasza is mutatja. |

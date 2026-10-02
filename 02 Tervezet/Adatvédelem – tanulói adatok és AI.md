@@ -22,11 +22,11 @@ Minden learner inputnál ebben a sorrendben kérdezzük:
 1. szükséges-e egyáltalán begyűjteni;
 2. szükséges-e Moodle-ben tárolni;
 3. szükséges-e, hogy mentor/képző lássa;
-4. elég-e, ha csak a madrich saját jegyzetében marad;
+4. elég-e, ha csak a madrih saját jegyzetében marad;
 5. elérhető-e ugyanaz a pedagógiai cél kevesebb személyes adattal;
 6. kérünk-e érzékeny vagy más személyre vonatkozó adatot valódi indok nélkül.
 
-**Alapértelmezés:** ami csak önreflexióhoz kell, maradjon a madrichnál, hacsak a tanulási cél nem igényel beadandó produktumot. Érzékeny identitás-, családi-, egészségügyi/mentális vagy gyermekvédelmi történet **nem lehet kötelező tanulási artefaktum**. Mindig elfogadható legyen fiktív, általánosított vagy csak a tanulónál maradó alternatíva, ha a személyes adat nem a mérés tárgya.
+**Alapértelmezés:** ami csak önreflexióhoz kell, maradjon a madrihnál, hacsak a tanulási cél nem igényel beadandó produktumot. Érzékeny identitás-, családi-, egészségügyi/mentális vagy gyermekvédelmi történet **nem lehet kötelező tanulási artefaktum**. Mindig elfogadható legyen fiktív, általánosított vagy csak a tanulónál maradó alternatíva, ha a személyes adat nem a mérés tárgya.
 
 ## 3. Activity-szintű adatleltár
 
@@ -131,14 +131,14 @@ A szolgáltatót és a megvalósítást a **HUM-PRIV-04** projektgazdai döntés
 
 **Projektgazdai döntés (2026-10-02), HUM-PRIV-04** – utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős és a programvezető. Az AI használata **mindig opcionális**, a feladat nélküle is teljesíthető. A kurzus kiskorútól **nem kér saját külső AI-fiókot**.
 
-- **Megvalósítás (V1):** `Moodle → a Somer szerveroldali végpontja → OpenAI Responses API`. A madrich **nem** regisztrál szolgáltatói fiókot; a promptot a képző vagy a szervezeti backend küldi. `/v1/responses`, `store=false`, nincs Conversations API, nincs tartós fájlfeltöltés; nincs személyes adat, nincs valódi chanich-eset, nincs gyermekvédelmi történet. Ha a szervezet számára elérhető, a **ZDR (zero data retention)** be van kapcsolva. A szolgáltató jelenlegi dokumentációja szerint az API-adatokat alapból nem használja modelltanításra.
+- **Megvalósítás (V1):** `Moodle → a Somer szerveroldali végpontja → OpenAI Responses API`. A madrih **nem** regisztrál szolgáltatói fiókot; a promptot a képző vagy a szervezeti backend küldi. `/v1/responses`, `store=false`, nincs Conversations API, nincs tartós fájlfeltöltés; nincs személyes adat, nincs valódi hanih-eset, nincs gyermekvédelmi történet. Ha a szervezet számára elérhető, a **ZDR (zero data retention)** be van kapcsolva. A szolgáltató jelenlegi dokumentációja szerint az API-adatokat alapból nem használja modelltanításra.
 - **AI Act:** a kurzus **alkalmazó (deployer)** szerepben jár el: külső rendszert használ, nem fejleszt és nem hoz forgalomba saját modellt. A kezelők (képzők) AI-jártassági felkészítést kapnak (AI Act 4. cikk).
 - **AI-jártassági blokk:** az M7-ben, az M7.2 elején (ahol az AI először megjelenik), kb. **15 perc**: mi az AI, mire jó és mire nem; hallucináció; adatvédelem; emberi ellenőrzés; a promptba nem írható adatok (a lenti lista). A no-AI út teljes értékű marad; az AI továbbra is opcionális.
 
 Nem alku tárgya:
-- AI használata a madrichnak **opcionális**;
+- AI használata a madrihnak **opcionális**;
 - legyen teljes értékű no-AI út;
-- chanich neve, képe, elérhetősége, pontos helye, egészségügyi/mentális állapota, családi háttere, vallási/etnikai vagy más érzékeny identitása és beazonosítható eseménye **nem kerülhet promptba**;
+- hanih neve, képe, elérhetősége, pontos helye, egészségügyi/mentális állapota, családi háttere, vallási/etnikai vagy más érzékeny identitása és beazonosítható eseménye **nem kerülhet promptba**;
 - valós gyermekvédelmi döntést, veszélyértékelést vagy kríziskezelést nem delegálunk AI-nak;
 - a szervezet dokumentálja a szolgáltató aktuális korhatárát, guardian-feltételeit, adatkezelési/training beállításait, admin kontrolljait, szerződéses/adatfeldolgozói helyzetét és a jóváhagyás dátumát.
 

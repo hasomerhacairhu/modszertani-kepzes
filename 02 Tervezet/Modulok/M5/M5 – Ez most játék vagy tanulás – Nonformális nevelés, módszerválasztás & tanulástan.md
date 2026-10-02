@@ -15,15 +15,15 @@
 
 **Modulcél röviden**
 
-A modul végére **megnevezed**, mitől nonformális a someres nevelés, **alkalmazod** a tudatos **feladat → cél → kvuca → módszer** logikát, és saját szavaiddal **elmagyarázod**, hogyan tanulnak tényleg a chanichok (**gyakorlás, aktív felidézés, időben elosztott gyakorlás**).
+A modul végére **megnevezed**, mitől nonformális a someres nevelés, **alkalmazod** a tudatos **feladat → cél → kvuca → módszer** logikát, és saját szavaiddal **elmagyarázod**, hogyan tanulnak tényleg a hanihok (**gyakorlás, aktív felidézés, időben elosztott gyakorlás**).
 
 > 🔁 **Honnan jössz:** Az M4-ben megírtad az első, kvucára szabott **peulabemutató-vázlatodat** (téma + kvuca). Itt ezt visszük tovább: ugyanaz a kvuca és témakör lehet az **M5.4 „Feladat–kvuca–módszer” táblázatod** egyik kiinduló sora – most a tudatos **módszer-** és **tanulástan-szempontot** tesszük hozzá.
 
-**Célcsoport:** képzős madrichok / madrichot (kb. 15+)
+**Célcsoport:** képzős madrihok / madrihot (kb. 15+)
 
 ## 2. Kimeneti kompetenciák
 
-A modul végére a madrich / madricha…
+A modul végére a madrih / madriha…
 
 1. **Megkülönbözteti a formális, nonformális és informális tanulási helyzeteket.**
    * Legalább 6–8 konkrét példát be tud sorolni „inkább suli / Somer / hétköznapi, spontán helyzet” kategóriákba (M5.1, M5.A).
@@ -57,7 +57,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Eszközök:**
   * H5P **Branching Scenario** – célágak, kvuca- és módszerválasztó lépések.
 * **Rövid menet:**
-  * Hook: „Mi a feladatod madrichként?” – választható kiinduló feladatok (ismerkedés, érték-reflexió, készségfejlesztés, infóátadás).
+  * Hook: „Mi a feladatod madrihként?” – választható kiinduló feladatok (ismerkedés, érték-reflexió, készségfejlesztés, infóátadás).
   * Input: cél-áganként rövid magyarázat, hogyan néz ki a tanulás az adott célnál.
   * Activity: kvuca-jellemzők és módszer-opciók közötti választás, azonnali visszajelzéssel a választás és a cél összhangjáról.
   * Check: összegző kérdések a helyes sorrendről és egy rövid mondatbefejezés („Ha a feladatom az, hogy…, akkor a célom az, hogy… A kvucám… (kor, hangulat), ezért olyan módszert választok, ami…”).
@@ -65,7 +65,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 ### M5.3 – „Hogyan tanulunk tényleg?” – Gyakorlás, aktív felidézés, időben elosztott gyakorlás (15–20’)
 
 * **Cél:**
-  Megérteni, hogy attól, hogy a madrich sokat beszél, még nem biztos, hogy a kvuca tanul: a tanulást az segíti, ha **csinál, felidéz és többször találkozik a tartalommal**.
+  Megérteni, hogy attól, hogy a madrih sokat beszél, még nem biztos, hogy a kvuca tanul: a tanulást az segíti, ha **csinál, felidéz és többször találkozik a tartalommal**.
 * **Eszközök:**
   * H5P **Course Presentation** (6–8 slide) + **Question Set** (4–5 kérdés, a Course Presentation után; a lecke H5P-elemei egyetlen H5P **Column** activityben): példák párokban („egyszer, hosszan elmondani” vs. „többször, röviden ismételni”; „én mondom meg” vs. „ők próbálják felidézni”).
 * **Rövid menet:**
@@ -74,15 +74,15 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * Activity: döntések arról, melyik megoldás segíti jobban a hosszú távú tanulást (párok közötti választás).
   * Check: 3 kérdés fogalomfelismerésre + 1–2 szituációs kérdés „mit csinálsz, ha azt akarod, hogy jövő héten is emlékezzenek?”.
 
-### M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként (15–20’)
+### M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrihként (15–20’)
 
 * **Cél:**
-  Elkészíteni a modul produktumának vázát: egy **3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázatot**, amihez madrichként később is vissza tud térni.
+  Elkészíteni a modul produktumának vázát: egy **3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázatot**, amihez madrihként később is vissza tud térni.
 * **Eszközök:**
   * H5P **Column** – rövid felidézés + minta-táblázat + ellenőrző lista.
   * **Moodle Assignment** – a kész táblázat leadására.
 * **Rövid menet:**
-  * Hook: „3–4 helyzet, ahol nagyon nem mindegy, mit csinálsz” – tipikus madrich-helyzetek felsorolása.
+  * Hook: „3–4 helyzet, ahol nagyon nem mindegy, mit csinálsz” – tipikus madrih-helyzetek felsorolása.
   * Input: minta-táblázat (Feladat / cél – Kvuca – Módszer – Tanulástan-szemlélet) rövid magyarázattal.
   * Activity: saját 3–4 sor megírása, majd önellenőrzés ellenőrző lista alapján (feladat, kvuca, módszer, tanulástan mind megjelenik).
   * Check: emlékeztető a táblázat Assignmentként való feltöltésére (modulproduktum).
@@ -138,7 +138,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Fő fókusz:**
   * A tanulástan-fogalmak (**gyakorlás, aktív felidézés, időben elosztott gyakorlás**) felidézése és alkalmazása.
   * Egy konkrét sor a saját „Cél–kvuca–módszer” táblázatból 10–15 perces, használható **peula-részletté** alakítva.
-  * Közös nyelv arra, hogy a madrich hol lát tényleges tanulást a peuláiban.
+  * Közös nyelv arra, hogy a madrih hol lát tényleges tanulást a peuláiban.
 * **Rövid percbontás (drótváz):**
   * 0–10’ – Gyors felidézés / élő kvíz: 5 állítás igaz/hamis formában a tanulástanról, rövid megbeszéléssel.
   * 10–30’ – Mini-projekt kiscsoportban:
@@ -165,7 +165,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * Gyakorlás – aktív felidézés – időben elosztott gyakorlás
 * 50–55’: átvezetés a javító újraleadáshoz, rövid kör: „Amikor legközelebb a táblázatomon dolgozom, először arra fogok figyelni, hogy…”.
 
-Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, mennyit oszt meg, a tempót a saját hiányaihoz igazítja.
+Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, mennyit oszt meg, a tempót a saját hiányaihoz igazítja.
 
 ## 6. Kapu – az M5.4 produktum az éles kapu, a kvíz diagnosztikus
 
@@ -178,7 +178,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 * **Diagnosztikus kvíz – fogalmi felzárkózás (NEM éles kapu):**
   * Eszköz: Moodle **Quiz**, **12 kérdés** (formális–nonformális–informális; feladat→cél→kvuca→módszer; gyakorlás/aktív felidézés/időben elosztott gyakorlás).
   * **2–3 próbálkozás** engedélyezve; hibánál rövid magyarázó visszajelzés: merre menjen vissza (M5.1–M5.4) javítani a megértést.
-  * Ajánlott **diagnosztikus jelzőküszöb ≥ 80% (≥10/12)** – ez **nem kizáró feltétel**: aki alatta van, **nem bukik**, hanem felzárkóztató hurokba kerül (a kvíz item-szintű analitikája alapján célzott visszairányítás). A kvíz célja, hogy a fogalmi tudást **felmérjük és fejlesszük**, mire a madrich a produktumot beadja.
+  * Ajánlott **diagnosztikus jelzőküszöb ≥ 80% (≥10/12)** – ez **nem kizáró feltétel**: aki alatta van, **nem bukik**, hanem felzárkóztató hurokba kerül (a kvíz item-szintű analitikája alapján célzott visszairányítás). A kvíz célja, hogy a fogalmi tudást **felmérjük és fejlesszük**, mire a madrih a produktumot beadja.
 
 **Minimális teljesítés (M5 „complete”):**
 
@@ -203,14 +203,14 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
    * M5.1: mely helyzeteket sorolják gyakran félre (nonformális vs. informális).
    * M5.3: mely tanulástan-fogalmaknál van sok rossz válasz (gyakorlás vs. „hallgatás”, időben elosztott gyakorlás vs. „egyben magolás”).
 3. **Diagnosztikus kvíz (Quiz) eredmények – felzárkózás-jelző, nem kapu:**
-   * kérdésszintű elemzés: ha sokan félreértik az időben elosztott gyakorlást → több példa a következő évfolyamnak, és **célzott visszairányítás** az érintett madrichoknak;
+   * kérdésszintű elemzés: ha sokan félreértik az időben elosztott gyakorlást → több példa a következő évfolyamnak, és **célzott visszairányítás** az érintett madrihoknak;
    * ha sokan előbb választanak módszert, mint célt → erősíteni az M5.2 üzenetét („cél az első”);
    * a ≥80% jelzőküszöb alattiak **nem buknak**, hanem célzott felzárkóztatást kapnak a produktum beadása előtt.
 4. **Modulproduktum (Assignment – M5.4) – az éles kapu:**
    * leadási arány: hányan adták le a táblázatot;
    * **minőségellenőrzés a hivatalos KAPU-fájl 4 soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-ellenőrzés, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. **Ez a sor dönti el a továbblépést** (a kvíz csak diagnosztizál). A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
 5. **Offline zárókör-jelzés (M5.B végén):**
-   * Az M5.B záró mondatbefejező köréből (**„Ha legközelebb peulát tervezek, először arra fogok figyelni, hogy…”**) a stáb élőben hallja, mire fókuszálnak a madrichok: a cél elsődlegessége, az aktív chanich, vagy a tanulástan (gyakorlás / aktív felidézés / időben elosztott gyakorlás). Ha sokan általánosságban maradnak, érdemes a következő évfolyamnál erősíteni a tanulástan-elem konkretizálását (M5.3–M5.4).
+   * Az M5.B záró mondatbefejező köréből (**„Ha legközelebb peulát tervezek, először arra fogok figyelni, hogy…”**) a stáb élőben hallja, mire fókuszálnak a madrihok: a cél elsődlegessége, az aktív hanih, vagy a tanulástan (gyakorlás / aktív felidézés / időben elosztott gyakorlás). Ha sokan általánosságban maradnak, érdemes a következő évfolyamnál erősíteni a tanulástan-elem konkretizálását (M5.3–M5.4).
 
 ***
 
@@ -222,7 +222,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrich maga dönt, me
 
 [M5.3 – Hogyan tanulunk tényleg? – Gyakorlás, aktív felidézés, időben elosztott gyakorlás](./Online%20leckék/M5.3%20–%20Hogyan%20tanulunk%20tényleg%20–%20Gyakorlás,%20aktív%20felidézés,%20időben%20elosztott%20gyakorlás.md)
 
-[M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrichként](./Online%20leckék/M5.4%20–%20Cél–kvuca–módszer%20mini-táblázat%20–%20saját%20adatbázisod%20madrichként.md)
+[M5.4 – „Cél–kvuca–módszer mini-táblázat” – saját adatbázisod madrihként](./Online%20leckék/M5.4%20–%20Cél–kvuca–módszer%20mini-táblázat%20–%20saját%20adatbázisod%20madrihként.md)
 
 [M5.A – „Suli, Somer vagy random?” – Hol tanulunk és hogyan?](./Peulák/M5.A%20–%20Suli,%20Somer%20vagy%20random%20–%20Hol%20tanulunk%20és%20hogyan.md)
 
