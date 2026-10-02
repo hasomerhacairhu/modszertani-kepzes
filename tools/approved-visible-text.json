@@ -153,8 +153,8 @@
       "sha256": "c424365f0366ddd0621053cfedf94193c9e3bf654a786632284704373dd151f3"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "f39524c6b51bd9cfb2a90692a9ae7468e86635c974247e3b4b26582a25acc9f5"
+      "reason": "Két sorvégi szóközös markdown-sortörés (M3.B fejléc és percbontás) backslash-sortörésre cserélve, hogy a PR teljes tartományán a git diff --check tiszta legyen; a megjelenített szöveg nem változik",
+      "sha256": "be0cda03c19ab7c06899ec6b2be0f6e6bd00e8bf0a4090c0ff095078f8d2b6cc"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
