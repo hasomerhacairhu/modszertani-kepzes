@@ -30,7 +30,7 @@
 
 ### Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim
 
-> Ebben a **10–15 perces** leckében arra nézünk rá, hogy **TE mit tanultál** ebben a félévből – nem a kvucád, hanem *te, mint madrich*.
+> Ebben a **10–15 perces** leckében arra nézünk rá, hogy **TE mit tanultál** ebben a félévben – nem a kvucád, hanem *te mint madrich*.
 
 > Olyan **konkrét pillanatokat** keresünk, amikor azt érezted:
 > *„na, most tanultam valamit magamról / a kvucámról / a madrich-szerepről”*
@@ -39,7 +39,16 @@
 > A lecke **csendes, reflektív**. A beadott válaszokat csak a kurzusban erre jogosult képző/mentor láthatja a jóváhagyott hozzáférési beállítás szerint. **Nem kell intim vagy érzékeny részletet megosztanod.** Használj anonimizált/általánosított helyzetet, ne írj chanich-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat.
 > Nem fogalmazásverseny, hanem **a tanulásod felismerése**.
 
+> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit a lecke mezőibe írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, az aktivitást felügyelő, jóváhagyott szerepkörnek a helyi protokoll szerint tovább kell lépnie – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak a lecke mezőibe írd: használd a **kurzusban megadott, jóváhagyott helyi jelzési utat**. Közvetlen életveszélynél **112**.
+
+*(Fejlesztői feltétel, nem tanulói szöveg: a fenti kivétel továbblépésről szóló mondata csak olyan megvalósításnál igaz, ahol egy kijelölt szerepkör ténylegesen látja a mező tartalmát – LMS a11y-sztenderd, 6. szakasz, 1. út: Moodle-oldali mező; lásd az `LMS – H5P runtime acceptance.md` 6. és 15. pontját. A tényleges hozzáférésről a HUM-PRIV-01 dönt.)*
+
 > A végén 3 szóval fogod összefoglalni, mit jelentett számodra ez a félév.
+
+> **Ha elakadsz, nem vagy egyedül:**
+>
+> * **Ha technikailag akadsz el** (például nem tölt be a H5P): nyisd meg a kurzus **„Segítség és kapcsolatok”** blokkját, és használd az ott megadott technikai segítségkérési csatornát.
+> * **Ha tartalmilag akadsz el** (nem érted a feladatot, elbizonytalanodtál egy fogalomban): nézd meg a [Glosszáriumot](../../../Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md), és ha továbbra is kérdésed van, írj a kurzus „Segítség és kapcsolatok” blokkjában megadott mentorodnak – nem „vizsgázol”, a kérdés is fejlődés.
 
 **Gomb:** „Tovább a leckére” → H5P Course Presentation (Z.2)
 
@@ -47,7 +56,11 @@
 
 ## 3. H5P Course Presentation – SLIDE-BY-SLIDE
 
-> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) a `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** — ha a teszt nem igazolja, a mező Moodle-oldalra kerül.
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** – ha a teszt nem igazolja, a mező Moodle-oldalra kerül. A minimális karakterszámot kérő mezőknél azt, hogy a választott megvalósítás ezt ténylegesen kikényszeríti-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli.
+
+> **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1., a 3. és a 4. dia „Single Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és az opciónkénti visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
+
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; amíg a megőrzés nincs lezárva, az adatot gyűjtő aktivitás nem nyitható meg valódi madrichnak (Program terv 4. szakasz).
 
 ### SLIDE 1 – HOOK: „Volt már ilyen érzésed?”
 
@@ -110,8 +123,8 @@
 
 **Beágyazott kérdés – Single Choice**
 
-> „Mennyire ismerős neked az a mondat, hogy:
-> *‘Na, most tanultam valamit magamról / a kvucámról.’*?”
+> „Mennyire ismerős neked ez a mondat:
+> *‘Na, most tanultam valamit magamról / a kvucámról’*?”
 
 Opciók:
 
@@ -121,7 +134,7 @@ Opciók:
 
 **Visszajelzés (opciónként kicsit hangolt, de mind normalizál):**
 
-* „Akkor most ezekből próbálunk **nevet adni párnak**.”
+* „Akkor most próbáljunk meg **néhányat megnevezni** közülük.”
 * „Oké – akkor most ezt az 1–2 pillanatot fogjuk jobban megnézni.”
 * „Teljesen rendben – ez a lecke pont abban segít, hogy **ráismerj** ilyen helyzetekre.”
 
@@ -135,7 +148,7 @@ Opciók:
 
 > **Mi az a „tanulási pillanat”?**
 
-> Nem csak az, amikor **új infót** tanulsz (dátum, fogalom),
+> Nemcsak az, amikor **új infót** tanulsz (dátum, fogalom),
 > hanem amikor **valami átkattan benned**:
 
 > – észreveszed, hogy egy vicced valakit rosszul érintett, és legközelebb másképp csinálod;
@@ -266,7 +279,7 @@ Opciók:
 
 **Megnyugtató kis szöveg a mező alatt:**
 
-> A beadást csak az arra jogosult képző/mentor láthatja. **Ne adj meg chanich-nevet, egészségügyi/mentális, családi vagy más érzékeny részletet, ha az nem szükséges.** Nem az a cél, hogy „jó madrichnak tűnj”, hanem hogy **tudd, mit tanultál**.
+> A beadást csak az arra jogosult képző/mentor láthatja – a lecke elején leírt kivétellel: ha veszélyről van szó, azt ne csak ebbe a mezőbe írd, hanem használd a kurzusban megadott, jóváhagyott helyi jelzési utat. **Ne írj chanich-nevet. Egészségügyi, mentális, családi vagy más érzékeny részletet se adj meg, ha nem szükséges.** Nem az a cél, hogy „jó madrichnak tűnj”, hanem hogy **tudd, mit tanultál**.
 
 ***
 
@@ -291,7 +304,7 @@ Opciók:
 > 3️⃣ Mit mond ez rólad **most**? (pl. mire vagy érzékeny, miben vagy még bizonytalan)
 > 4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrichként?
 
-> Itt sem kell „szépen” fogalmazni. Ha a „mit mond ez rólad?” kérdés túl személyes lenne, válaszolj inkább így: **„Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”** A teljesítéshez nem kell érzékeny önfeltárás.
+> Itt sem kell „szépen” fogalmazni. Ha a „mit mond ez rólad?” kérdés túl személyes lenne, válaszolj inkább erre a kérdésre: **„Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”** A teljesítéshez nem kell érzékeny önfeltárás. Ha veszélyről van szó, azt ne csak ebbe a mezőbe írd: használd a kurzusban megadott, jóváhagyott helyi jelzési utat.
 
 **Beágyazott kérdés – szabad szöveges válasz**
 
@@ -305,12 +318,12 @@ Opciók:
 
 **Szöveg a dián:**
 
-> ✅ **Check – 3 szó a félévedről**
+> ✅ **Önellenőrzés – 3 szó a félévedről**
 
 > Ha most ránézel erre az egész félévre **madrichként**,
 > melyik **3 szó** jut eszedbe róla leginkább?
 
-> Lehetnek érzések, kulcsszavak, helyzetek, értékek – bármi, ami Neked most igaz.
+> Lehetnek érzések, kulcsszavak, helyzetek, értékek – bármi, ami neked most igaz.
 
 > **Kérdés:**
 > *„Ha a félévedet 3 szóval kéne leírni, mik lennének ezek?”*

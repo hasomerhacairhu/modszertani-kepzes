@@ -57,18 +57,18 @@ Külön review szükséges legalább:
 
 ## 4. Kiskorúak és hozzájárulás
 
-A GDPR 8. cikke csak akkor alkalmazandó a saját korhatárszabályával, ha **az adatkezelés a 6. cikk (1) a) szerinti hozzájáruláson alapul, és információs társadalmi szolgáltatást kínálnak közvetlenül gyermeknek**. Az uniós alapszabály 16 éves korhatárt mond, és lehetővé teszi, hogy a tagállam ezt 13 éves korig csökkentse.
+A GDPR 8. cikke csak akkor alkalmazandó a saját korhatárszabályával, ha **az adatkezelés a 6. cikk (1) a) szerinti hozzájáruláson alapul, és információs társadalmi szolgáltatást kínálnak közvetlenül gyermeknek**. A GDPR alapesetben 16 éves korhatárt ír elő, és lehetővé teszi, hogy a tagállam ezt 13 éves korig csökkentse.
 
 Ez **nem** jelenti azt, hogy „minden 18 év alatti Moodle-adatkezeléshez szülői hozzájárulás kell”. A képzés minden adatkezelési céljának jogalapját külön kell meghatározni, és azt is külön kell vizsgálni, hogy a GDPR 8. cikke egyáltalán alkalmazandó-e.
 
-A szülői/gondviselői tájékoztatás vagy engedélyezés helyi folyamata ezért **HUM-PRIV-01/HUM-SAFE-03 emberi-jogi döntés**, nem a tananyag által kitalálható szabály.
+A szülői/gondviselői tájékoztatás vagy engedélyezés helyi folyamata ezért **emberi és jogi döntés (HUM-PRIV-01, HUM-SAFE-03)**, nem a tananyag által kitalálható szabály.
 
 ## 5. Mentor- és képzői hozzáférés
 
 A „mentor láthatja, mert hasznos lehet” nem elég indok.
 
-- **P0/P1:** csak az a szerepkör lássa, amelynek a completion/értékelés üzemeltetéséhez szüksége van rá.
-- **P2 beadandó:** a kijelölt értékelő/mentor, és csak a szükséges ideig.
+- **P0–P1 privacy-osztály** (az `LMS – activity manifest.md` 1. szakasza szerint): csak az a szerepkör lássa, amelynek a completion/értékelés üzemeltetéséhez szüksége van rá.
+- **P2 privacy-osztályú beadandó:** a kijelölt értékelő/mentor, és csak a szükséges ideig.
 - **kurzusfórum:** a résztvevő előre tudja, hogy a csoport látja.
 - **saját önreflexió:** ne legyen mentor-látható, ha nincs rá konkrét pedagógiai szükség.
 - **gyermekvédelmi feltárás:** nem kezeljük egyszerű „tanulói beadandóként”; a safeguarding-protokoll lép életbe.
@@ -104,7 +104,7 @@ A tananyagban addig az általános **„jóváhagyott AI-eszköz”** megfogalma
 
 ## 8. Z.4 visszajelzés
 
-A core Moodle Feedback `Record user names = No` beállítása esetén a válaszok név nélkül jelenhetnek meg, de a Moodle dokumentációja külön figyelmeztet arra, hogy ez **nem azonos a GDPR-értelemben vett teljes anonimitással**. A completion és a rendszer működése továbbra is kapcsolódhat felhasználói fiókhoz.
+A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a válaszok név nélkül jelenhetnek meg, de a Moodle dokumentációja külön figyelmeztet arra, hogy ez **nem azonos a GDPR-értelemben vett teljes anonimitással**. A completion és a rendszer működése továbbra is kapcsolódhat felhasználói fiókhoz.
 
 Ezért:
 - learner-facing szövegben nem ígérünk „teljes anonimitást”;
@@ -115,9 +115,9 @@ Ezért:
 
 - [ ] HUM-PRIV-01–04 lezárva;
 - [ ] teljes activity-szintű adatleltár elkészült;
-- [ ] learner-facing privacy notice rövid, magyar és érthető;
+- [ ] learner-facing adatvédelmi tájékoztató rövid, magyar és érthető;
 - [ ] mentor/képző hozzáférések tesztfiókkal ellenőrizve;
-- [ ] retention/törlés folyamata és felelőse dokumentálva és tesztelve;
+- [ ] megőrzés/törlés folyamata és felelőse dokumentálva és tesztelve;
 - [ ] no-AI út ténylegesen végigvihető;
 - [x] érzékeny saját történet nem kötelező teljesítési elem; **repo-audit: 2026-09-29** – az érintett reflektív/safety feladatok fiktív vagy általánosított alternatívát engednek;
 - [ ] fotó/videó/hang folyamat HUM-PRIV-02 szerint lezárva;

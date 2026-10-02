@@ -17,7 +17,7 @@
     "note": "Print anyag; nagy, jól látható központi motívum és cím"
   },
   "reuse_of": "Z.A-POSZ-01",
-  "notes": "Újrahasznosítás indoklása (v1 dedup): a Z hub „Lezáró rituálé” blokkja és a Z.A peula ugyanazt az egy közös „felhő” felületet írja le (hub: „egy közös »felhőbe« rakják”; Z.A eszközlista: „1 nagyobb papír / flipchart lap vagy falfelület a »Mit viszek magammal?« felhőnek”) — egy fizikai média. Élő peula záró elem; a forrás szerint plakát VAGY a kör közepe is megvalósítható (hub 108. sor; peula-fájl 4.4.2, 256. sor: „plakát, fal, kör közepe”), így a nyomtatott felhő-sablon opcionális.",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): a Z hub „Lezáró rituálé” blokkja és a Z.A peula ugyanazt az egy közös „felhő” felületet írja le (hub: „egy közös »felhőbe« rakja”; Z.A eszközlista: „1 nagyobb papír / flipchart lap vagy falfelület a »Mit viszek magammal?« felhőnek”) — egy fizikai média. Élő peula záró elem; a forrás szerint plakát VAGY a kör közepe is megvalósítható (hub, 4. szakasz, „Lezáró rituálé” blokk; peula-fájl 4.4.2: „plakát, fal, kör közepe”), így a nyomtatott felhő-sablon opcionális.",
   "legacy": {
     "asset": [
       "Z.A-POSZ-02"
@@ -31,9 +31,9 @@
 * **Időtartam:** 1 hét (könnyített zárómodul)
 * **Heti offline:** péntek 2. sáv – **Z.A záró peula** (45–60’)
 * **Opcionális kísérő elem:** mentori / kiscsoportos záró beszélgetés (nem peula, 20–30’) azoknak, akiknek szükségük van rá
-* **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (Moodle Assignment reflexiós ív ~20–30’ + véglegesítés/leadás ~15–25’ + visszajelző űrlap ~5–10’ = **Z.4 önmagában kb. 40–60’**, a modul leghosszabb online eleme)
+* **Online terhelés:** kb. 3×10–15 perc mikrolecke (**Z.1–Z.3**) + **Z.4** záró reflektív produktum (Moodle Assignment reflexiós ív ~20–30’ + véglegesítés/leadás ~15–25’ + visszajelző űrlap ~5–10’ = **Z.4 önmagában kb. 40–65’**, a modul leghosszabb online eleme)
 * **Az ív sorrendje:** a **Z.1–Z.3** mikroleckék **a Z.A peula ELŐTT** ajánlottak (ráhangolódás), a **Z.4** záró reflexió pedig **a Z.A peula UTÁNRA** esik – a peulán megfogalmazott gondolatokból dolgozik. A peula tehát a Z.3 és a Z.4 közé ékelődik.
-* **Teljes terhelés:** kb. 2,5–3 óra – **tervezz inkább a felső értékkel (3 óra)**, mert a Z.4 produktum-leadás könnyen csúszik felfelé (kivált videós úton). A Z.4-et nyugodtan **két ülésre is bonthatod** (jegyzetelő külön, végleges reflexió külön).
+* **Teljes terhelés:** kb. 2,5–3 óra – **tervezz inkább a felső értékkel (3 óra)**, mert a Z.4 produktum-leadás könnyen csúszik felfelé (kivált videós úton). A Z.4 **két ülésre bontása** csak akkor kommunikálható, ha a Moodle Assignment piszkozatmentését a célrendszeren acceptance-teszt igazolta (`LMS – H5P runtime acceptance.md`, 3. pont); addig a Z.4 egy ülésben elvégzendő, és érdemes a szöveget külön is lementeni.
 
 **Modulközponti kérdés**
 
@@ -49,16 +49,16 @@ A Z modul a félév **lezárását és értelmezését** támogatja. A madrich v
 
 A modul végére a résztvevő…
 
-1. **Megnevez legalább 3 fontos tanulási pillanatot az M0–M7 ívről**
+1. **Tanulási pillanatok az M0–M7 ívéből**
    – Vissza tud tekinteni az **M0–M7** modulokra mint összefüggő tanulási folyamatra, és meg tud nevezni legalább **3 fontos tanulási pillanatot**.
 2. **Reflektív önértékelés**
    – Képes rövid, őszinte **önreflexiót írni vagy videóban megfogalmazni** arról, miben változott madrichként.
 3. **Konkrét következő lépések a terepre**
    – Megfogalmaz legalább **1–2 konkrét, időben behatárolt „következő lépés” célt**, ami a terepi madrich-gyakorlatára vonatkozik.
-4. **Felsorolja, kihez fordulhat (mentor / képzők / ken-vezető / társ) elakadás esetén**
+4. **Támogatás elakadás esetén**
    – Tudja, **kihez fordulhat** (mentor, képzők, ken-vezetők, társak), ha a következő időszakban elakad.
-5. **Képzés-szintű visszajelzés adása**
-   – Részt vesz a képzés **értékelésében** (visszajelző űrlap), és tud legalább 1–2 konstruktív javaslatot megfogalmazni.
+5. **Képzésszintű visszajelzés adása**
+   – Részt vesz a képzés **értékelésében**: kitölti a visszajelző űrlapot, és ebben 1–2 konstruktív javaslatot is megfogalmazhat. Ez részvételi cél: a válaszok tartalmát szándékosan nem mérjük, csak a kitöltés ténye számít (lásd 5. szakasz).
 
 ***
 
@@ -67,7 +67,7 @@ A modul végére a résztvevő…
 ### Z.1 – „Visszanéző tükör” – M0–M7 idővonal (10–15’)
 
 * **Cél:** rátekinteni az egész félévre **egyben**.
-* **Eszközök:** Moodle Page (vizuális idővonal), H5P Presentation / Interactive Book + 3–5 könnyű emlékeztető kérdés.
+* **Eszközök:** H5P Course Presentation (vizuális idővonal) + 3–5 könnyű emlékeztető kérdés.
 * **Kulcs:** modul-idővonal, modulonként 1 mondat; végén nyitott kérdés: „Írj le 1 dolgot, amit semmiképp nem szeretnél elfelejteni ebből a félévből.”
 
 ***
@@ -75,33 +75,34 @@ A modul végére a résztvevő…
 ### Z.2 – „Tanultam valamit?!” – saját tanulási pillanataim (10–15’)
 
 * **Cél:** azonosítani **konkrét tanulási pillanatokat**.
-* **Eszközök:** H5P Column (példasztorik), Likert / multichoice, szöveges válasz.
+* **Eszközök:** H5P Course Presentation (példasztorik), Likert / multichoice, szöveges válasz.
 * **Kulcskérdések:**
   – „Nevezz meg 1 pillanatot, amikor úgy érezted: *na, most tanultam valamit magamról / a kvucámról*.”
-  – „Volt-e modul, amit nehéznek éltél meg? Mit mond ez rólad?”
-* **Check:** „Ha a félévedet 3 szóval kéne leírni, mik lennének ezek?”
+  – „Volt-e modul, amit nehéznek éltél meg? Mit mond ez rólad?” (Ha a „Mit mond ez rólad?” kérdés túl személyes, a lecke alternatív kérdése: „Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”)
+* **Önellenőrzés:** „Ha a félévedet 3 szóval kéne leírni, mik lennének ezek?”
 
 ***
 
 ### Z.3 – „Híd a terepre” – következő lépések (10–15’)
 
 * **Cél:** jövőre néző, **konkrét lépések** megfogalmazása a terepre.
-* **Eszközök:** Page / Presentation a kis lépések logikájáról, H5P Fill in the Blanks vagy rövid szöveges válasz sablon mondatokkal.
-* **Általánosító lépés (a konkrét pillanattól a konkrét lépésig):** mielőtt következő lépést írnál, fogalmazz meg a Z.2-ben felidézett pillanatból **1 általános elvet** – pl. „**Megtanultam, hogy amikor …, akkor jobb, ha …**” –, olyan tanulságot, ami **nem csak azon az egy peulán, hanem MÁS kvucáknál is igaz**. A következő lépés ehhez az elvhez kötődjön, hogy a terepi transzfer ne maradjon esemény-specifikus.
+* **Eszközök:** H5P Course Presentation a kis lépések logikájáról, rövid szöveges válasz sablon mondatokkal.
+* **Általánosító lépés (a konkrét pillanattól a konkrét lépésig):** mielőtt következő lépést írnál, fogalmazz meg a Z.2-ben felidézett pillanatból **1 általános elvet** – pl. „**Megtanultam, hogy amikor …, akkor jobb, ha …**” –, olyan tanulságot, ami **nemcsak azon az egy peulán, hanem MÁS kvucáknál is igaz**. A következő lépés ehhez az elvhez kötődjön, hogy a terepi transzfer ne maradjon esemény-specifikus.
 * **Példamondatok:**
   – „A következő 3 Zmán Kvucámon figyelek rá, hogy legalább 1 új kérdezéstechnikát kipróbáljak.”
   – „A következő hónapban minden peula után 1 mondatban leírom, mit tanultam én madrichként.”
-* **Check:** önellenőrzés: „Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”
+* **Peula v2 a terepen:** a tanuló az M7-ben elkészített Peula v2-jéhez konkrét terepi tervet ír (mikor, melyik kvucával, 1 előre látott akadály ha–akkor megkerüléssel), és megnevezi azt a mentort vagy kijelölt tapasztalt madrichot, akinek elmondja a tervét, és akitől segítséget kér, ha elakad.
+* **Önellenőrzés:** „Ha holnap kezdenéd, tudod, mi lenne az első konkrét lépésed?”
 
 ***
 
 ### Z.4 – „Záró reflexió + képzési visszajelzés” (Moodle Assignment reflexiós ív ~20–30’ + leadás ~15–25’ + visszajelzés ~5–10’)
 
-* **Cél:** záró reflektív produktum + képzés-értékelés.
+* **Cél:** záró reflektív produktum + képzésértékelés.
 * **Eszközök:**
   – **Moodle Assignment – „Záró reflexió + következő lépés”** (szöveg vagy videó)
-  – **Moodle Feedback / Questionnaire** – képzés-értékelő (a válaszok név nélkül jelennek meg).
-* **Ajánlott prompt a reflektív produktumhoz:**
+  – **Moodle Feedback** – képzésértékelő (a válaszok név nélkül jelennek meg).
+* **Ajánlott kérdések a reflektív produktumhoz:**
   1. „Nevezz meg 2–3 pillanatot ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
   2. „Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest?”
   3. „Írj le 1–2 konkrét következő lépést, célt a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
@@ -113,27 +114,30 @@ A modul végére a résztvevő…
 ### Z.A – Záró kvuca-peula: „Mit viszek magammal?” (45–60’)
 
 * **Cél:** közös, kvuca-szintű **lezárás, megosztás és elismerés**.
-* **Fókusz:** „Nem csak egy kurzust zárunk, hanem egy közös utat.”
+* **Fókusz:** „Nemcsak egy kurzust zárunk, hanem egy közös utat.”
 
 **Példa percbontás (60’):**
 
 1. **0–10’ – Ráhangolódás: „Félév-emojik”**
    – Körkérdés: „Ha a féléved egy emoji lenne, melyik lenne az és miért?”
 2. **10–25’ – „Időkapszula” – tanulási pillanatok megosztása**
-   – Párok/triádok: mindenki elmesél 1 fontos tanulási pillanatot.
+   – Biztonsági keret: mindenki annyit oszt meg, amennyi neki most oké, és **passzolni is lehet**. Chanich-nevet vagy beazonosítható történetet nem mondunk; valós gyermekvédelmi aggályt nem itt mesélünk el, hanem a kurzusban megadott, jóváhagyott helyi jelzési úton jelzünk.
+   – M0-tükör: a kvuca visszanéz az M0.A kickoff-plakátra (mit várt, mitől félt, mit hozott); ebből is lehet tanulási pillanat.
+   – Párok/hármasok: mindenki elmesél 1 fontos tanulási pillanatot.
    – A hallgató 1 mondatban visszamondja: „Amit tőled hallottam, az az, hogy…”
 3. **25–40’ – „Híd a terepre” poszter**
    – Kiscsoportos plakát:
    – bal oldal: „Mit tanultunk?” (kulcsszavak M0–M7-ből),
    – jobb oldal: „Mit csinálunk másképp a terepen?” (konkrét célok).
    – Rövid bemutatás nagykörben.
-4. **40–55’ – Elismerés & köszönés kör**
-   – Mindenki húz egy nevet, és **1 konkrét, pozitív visszajelzést** mond róla (mini-SBI).
+4. **40–55’ – Elismerés & köszönéskör**
+   – Párcsere (a kör magja): az Időkapszula-párok oda-vissza mondanak egymásnak **1 konkrét, pozitív visszajelzést** (mini-SBI), így mindenki ad és kap is.
+   – Névhúzásos rákötés, ha marad rá idő: mindenki húz egy nevet, és a kihúzott társnak is mond egy elismerő mondatot (időhiánynál ez marad ki elsőként).
    – Képzői/ken-vezetői zárómondatok: mit látnak a csoportban, hogyan megy tovább ez a folyamat.
 5. **55–60’ – Lezáró rituálé**
-   – Mindenki felír 1 szót, amit magával visz, és egy közös „felhőbe” rakják (pl. plakát, kör közepe).
+   – Mindenki felír 1 szót, amit magával visz, és egy közös „felhőbe” rakja (pl. plakát, kör közepe).
 
-*(45 perces verziónál a 2–4. blokkok rövidíthetők.)*
+*(A 45 perces verzióban minden blokk rövidül; a részletes percbontás a Z.A-ban van.)*
 
 ***
 
@@ -161,7 +165,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 **Fontos:**
 – Nem kötelező és **nem része a formalizált modul-kapunak**.
-– Inkább a **mentori rendszer** eszköze. **1:1 beszélgetés csak a HUM-SAFE-02 szerint jóváhagyott helyi négyszemközti / safer-working szabály betartásával szervezhető**; amíg ez nincs lezárva, használjatok 3–4 fős kiscsoportot, vagy vonjatok be egy másik képzőt átlátható módon.
+– Inkább a **mentori rendszer** eszköze. **1:1 beszélgetés csak a HUM-SAFE-02 szerint jóváhagyott helyi, négyszemközti helyzetekre vonatkozó szabály betartásával szervezhető**; amíg ez nincs lezárva, használjatok 3–4 fős kiscsoportot, vagy vonjatok be egy másik képzőt átlátható módon.
 – A Program terv §6 „félév-végi **reflektív »exit interview«** (akár rövid írás, akár beszélgetés)” pontja erre a beszélgetésre **és** a Z.4 záró reflektív produktumra (a „rövid írás” ág, ami mindenkinek kötelező) utal. Ez **reflektív, NEM értékelő** aktus: a summatív kaput az M7 már lezárta, a Z mentori beszélgetése nem értékel újra.
 
 ***
@@ -180,29 +184,35 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
   – Minimum elvárás:
   * legalább 2 tanulási pillanat megnevezése,
   * 1–2 konkrét következő lépés.
-* **Moodle Feedback / Questionnaire – „Képzés-értékelés”**
+* **Moodle Feedback – „Képzés-értékelés”**
   – Activity completion része, de nem „vizsga”.
 
-### Minimális teljesítés (Z „complete”)
+### Minimális teljesítés (a Z modul teljesítése)
 
-A kívánt ív (a Moodle-listát fentről le ne írja felül): **1) Z.1–Z.3 online a Z.A peula ELŐTT → 2) Z.A záró peula → 3) Z.4 záró reflexió + visszajelzés a peula UTÁN, abból dolgozva.** Moodle-szinten érdemes a **Z.4-et `restrict access`-szel a Z.A dátuma mögé tenni**, hogy a tanuló ne tudja a peula előtt megírni a záró reflexiót.
+A kívánt ív (a Moodle-lista fentről lefelé haladó sorrendje ezt ne írja felül): **1) Z.1–Z.3 online a Z.A peula ELŐTT → 2) Z.A záró peula → 3) Z.4 záró reflexió + visszajelzés a peula UTÁN, abból dolgozva.** Moodle-szinten érdemes a **Z.4-et `restrict access`-szel a Z.A dátuma mögé tenni**, hogy a tanuló ne tudja a peula előtt megírni a záró reflexiót.
 
 1. Z.1–Z.3 mikroleckék activity completion (ajánlottan a peula előtt).
 2. Z.A záró peula (offline).
 3. Z.4 leadott záró reflexió + benne a következő lépés(ek) (a peula után).
-4. **2. félév – terepgyakorlat:** 6 valódi, 60–90 perces peula, megfigyelés → visszajelzés → reflexió → javítás ciklusban (lásd `Terepgyakorlat – 2. félév.md`). A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes.
-5. Képzési visszajelző űrlap kitöltve. Ez a Z completion része, de **nem vizsga**: nincs helyes válasz és a válasz tartalma nem pontozott; csak a kitöltés ténye számít teljesítésnek.
+4. Képzési visszajelző űrlap kitöltve. Ez a Z completion része, de **nem vizsga**: nincs helyes válasz, és a válasz tartalma nem pontozott; csak a kitöltés ténye számít teljesítésnek.
+
+**Programszintű megjegyzés – 2. félév, terepgyakorlat:** a Z teljesítése az online félév lezárása. A program **csak az online félév ÉS a terepgyakorlat együttesével** teljes: **Program teljesítve = Online félév teljesítve + Terepgyakorlat teljesítve** (lásd `Terepgyakorlat – 2. félév.md`).
+
+* 6 valódi, 60–90 perces peula, megfigyelés → visszajelzés → reflexió → javítás ciklusban.
+* A hat alkalomból legalább: **2** alkalmat mentor vagy kijelölt tapasztalt madrich **élőben megfigyel**; **2** alkalomnál a résztvevő explicit módon visszahoz egy korábbi visszajelzési pontot és megmutatja, mi változott; **1** alkalom tartalmaz tudatos inkluzivitási adaptációt; **1** alkalom után dokumentált biztonsági és határkezelési reflexió készül akkor is, ha nem történt incidens.
+* A megfigyelési jegyzet rövid és adatminimalizált, chanich érzékeny adata nélkül.
+* A HUM-SAFE-03 lezárásáig a terepgyakorlat élesben nem indítható (lásd `Emberi jóváhagyás szükséges.md`, „Blokkol” sor).
 
 ***
 
-## 6. Learning analytics – mit néz a stáb?
+## 6. Tanulási analitika – mit néz a stáb?
 
 * **Completion:**
   – Z.1–Z.4 lezárása, Assignment leadási arány, visszajelző űrlap kitöltési aránya.
 * **Minőségi jelek:**
   – Van-e a reflektív produktumban minimum 2 pillanat + 1–2 reális következő lépés.
 * **Beavatkozás:**
-  – Ha sok a hiányos / üres reflektív produktum → következő évben több modul-közi mini-reflexió beépítése, és/vagy több mentori beszélgetés.
+  – Ha sok a hiányos / üres reflektív produktum → következő évben több modulközi mini-reflexió beépítése, és/vagy több mentori beszélgetés.
 
 
 

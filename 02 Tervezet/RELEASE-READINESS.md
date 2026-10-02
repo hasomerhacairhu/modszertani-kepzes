@@ -12,7 +12,7 @@ A két állapotot nem szabad összemosni. A staging célja éppen az, hogy a Moo
 | Gate | Követelmény | Állapot típusa | Bizonyíték |
 |---|---|---|---|
 | **G1 Gyermekvédelem** | HUM-SAFE-01–05 lezárva; M3 és kapcsolódó biztonsági tartalmak szakértői jóváhagyása | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Gyermekvédelem – release gate.md` |
-| **G2 Adatvédelem és kiskorúak** | HUM-PRIV-01–04 lezárva, activity-szintű adatleltár, notice, hozzáférés, retention/törlés | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Adatvédelem – tanulói adatok és AI.md` |
+| **G2 Adatvédelem és kiskorúak** | HUM-PRIV-01–04 lezárva, activity-szintű adatleltár, adatvédelmi tájékoztató, hozzáférés, megőrzés/törlés | `HUMAN_DECISION_REQUIRED` + `EXPERT_SIGNOFF_REQUIRED` | `Adatvédelem – tanulói adatok és AI.md` |
 | **G3 Moodle/H5P célkörnyezet** | pontos verziók + kritikus runtime tesztek | `IMPLEMENTATION_REQUIRED` | `LMS – H5P runtime acceptance.md` |
 | **G4 Learner-facing nyitott mező = 0** | nincs `KITÖLTENDŐ`, ismeretlen kontakt, bizonytalan határidő vagy törött link a madrich által látható felületen | `IMPLEMENTATION_REQUIRED` | staging visszaaudit |
 | **G5 Hozzáférhetőség** | mobil, billentyűzet, képernyőolvasó, zoom/reflow, felirat/leirat a tényleges renderen | `IMPLEMENTATION_REQUIRED` + `RUNTIME_VERIFIED` | a11y tesztjegyzőkönyv |

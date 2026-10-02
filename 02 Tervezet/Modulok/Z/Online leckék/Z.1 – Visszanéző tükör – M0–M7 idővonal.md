@@ -39,13 +39,22 @@
 
 > A lecke végén megfogalmazol **1 dolgot, amit semmiképp nem szeretnél elfelejteni** ebből a félévből.
 
+> **Ha elakadsz, nem vagy egyedül:**
+>
+> * **Ha technikailag akadsz el** (például nem tölt be a H5P): nyisd meg a kurzus **„Segítség és kapcsolatok”** blokkját, és használd az ott megadott technikai segítségkérési csatornát.
+> * **Ha tartalmilag akadsz el** (nem érted a feladatot, elbizonytalanodtál egy fogalomban): nézd meg a [Glosszáriumot](../../../Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md), és ha továbbra is kérdésed van, írj a kurzus „Segítség és kapcsolatok” blokkjában megadott mentorodnak – nem „vizsgázol”, a kérdés is fejlődés.
+
 Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb → H5P Course Presentation.
 
 ***
 
 ## 3. H5P Course Presentation – slide-by-slide
 
-> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) a `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** — ha a teszt nem igazolja, a mező Moodle-oldalra kerül.
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** – ha a teszt nem igazolja, a mező Moodle-oldalra kerül. A minimális karakterszámot kérő mezőnél azt, hogy a választott megvalósítás ezt ténylegesen kikényszeríti-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli.
+
+> **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 3. dia „Single Choice” / „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
+
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; amíg a megőrzés nincs lezárva, az adatot gyűjtő aktivitás nem nyitható meg valódi madrichnak (Program terv 4. szakasz).
 
 Összesen **6–7 slide**.
 Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
@@ -59,9 +68,9 @@ Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-chec
   "id": "Z.1-ILL-01",
   "kind": "illustration",
   "mode": "generate",
-  "title": "Sorozat-plakát ikon M0–M7 epizódokkal",
+  "title": "Sorozatplakát-ikon M0–M7 epizódokkal",
   "purpose": "Játékos érzelmi belépő/hook: a félévet egy 8 részes sorozatként kereteli, ráhangolja a tanulót a visszatekintésre.",
-  "spec": "Egyszerű, „Netflix-szerű” sorozat-plakát stílusú grafika/ikon, amelyen az M0–M7 modulok nyolc kis téglalapként jelennek meg, mint egy nyolcrészes sorozat epizódjai. A modul-kódok és címek NEM lehetnek képbe égetve – azok külön szövegként jelennek meg a dián.",
+  "spec": "Egyszerű, „Netflix-szerű” sorozatplakát stílusú grafika/ikon, amelyen az M0–M7 modulok nyolc kis téglalapként jelennek meg, mint egy nyolcrészes sorozat epizódjai. A modulkódok és címek NEM lehetnek képbe égetve – azok külön szövegként jelennek meg a dián.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
@@ -100,9 +109,9 @@ Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-chec
 
 * Cím:
   **„Ha a féléved egy sorozat lenne…”**
-* Középen egy egyszerű grafika: „Netflix-szerű” sorozat-plakát ikon (M0–M7 „epizódokkal” kis téglalapokként).
+* Középen egy egyszerű grafika: „Netflix-szerű” sorozatplakát-ikon (M0–M7 „epizódokkal” kis téglalapokként).
   <!-- @source {"id": "Z.1-ILL-01-ALT", "kind": "alt-text"} -->
-  **Alt-szöveg (kötelező): „Sorozat-plakát stílusú ikon, rajta az M0–M7 modulok nyolc kis téglalapként, mint egy nyolcrészes sorozat epizódjai.” A kulcsszöveget (modul-kódok, címek) ne égesd a képbe – azoknak szövegként is meg kell jelenniük a dián.**
+  **Alt-szöveg (kötelező): „Sorozatplakát stílusú ikon, rajta az M0–M7 modulok nyolc kis téglalapként, mint egy nyolcrészes sorozat epizódjai.” A kulcsszöveget (modulkódok, címek) ne égesd a képbe – azoknak szövegként is meg kell jelenniük a dián.**
   <!-- @endsource -->
 * Alul **Single Choice** kérdés.
 
@@ -117,9 +126,9 @@ Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-chec
 
 > „Melyik modul ugrik be **elsőként**, ha erre a félévre gondolsz?”
 
-Opciók (legördülő vagy listában):
+Opciók:
 
-* M0 – Kickoff, keret, technika
+* M0 – „Kickoff, keret, technika”
 * M1 – „Vakfolt, tükör, visszajelzés”
 * M2 – „Ki vagyok madrichként?”
 * M3 – „Kvuca, red flag, felelősség”
@@ -130,8 +139,8 @@ Opciók (legördülő vagy listában):
 
 **Visszajelzés (bármelyikre azonos, barátságos):**
 
-> „Oké 🙂 Ezt jegyezd meg magadnak, mert később visszajövünk hozzá.
-> Nem az a lényeg, mit választottál, hanem az, **hogy már van egy epizód, ami kiemelkedik a többi közü**.”
+> „Oké 🙂
+> Nem az a lényeg, mit választottál, hanem az, **hogy már van egy epizód, ami kiemelkedik a többi közül**.”
 
 ***
 
@@ -144,7 +153,7 @@ Opciók (legördülő vagy listában):
   "mode": "generate",
   "title": "Vízszintes féléves idővonal M0→M7",
   "purpose": "Időbeli és logikai keret: láttassa, hogy a modulok ívet alkotnak, nem random egységek.",
-  "spec": "Vízszintes idővonal-ábra nyolc állomással balról jobbra (M0→M7), minden állomásnál a modul kódja és egy max. 1 soros (mobilon is olvasható) kulcsmondat. Az ív az önismeret/visszajelzéstől a kvucán, gyermekvédelmen, módszereken át a saját peuláig vezet. A modul-kódok és kulcsmondatok NEM égethetők a képbe – ugyanezt a tartalmat a dián a felsorolás (109-124. sor) szövegként hordozza.",
+  "spec": "Vízszintes idővonal-ábra nyolc állomással balról jobbra (M0→M7), minden állomásnál a modul kódja és egy max. 1 soros (mobilon is olvasható) kulcsmondat. Az ív az önismeret/visszajelzéstől a kvucán, gyermekvédelmen, módszereken át a saját peuláig vezet. A modulkódok és kulcsmondatok NEM égethetők a képbe – ugyanezt a tartalmat a dián a „Szöveg a dián (tömören)” felsorolás szövegként hordozza.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
@@ -165,7 +174,7 @@ Opciók (legördülő vagy listában):
   "blockers": [
     "R5"
   ],
-  "notes": "Ezen a dián nincs kérdés (tiszta Input, 135. sor). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-NAR-01::CAPTIONS.",
+  "notes": "Ezen a dián nincs kérdés (tiszta Input, lásd a dia záró sorát). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-NAR-01::CAPTIONS.",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-02"
@@ -185,7 +194,7 @@ Opciók (legördülő vagy listában):
   "title": "Opcionális narráció – idővonal (30–40 mp)",
   "subtype": "narration",
   "purpose": "Az idővonal-input megerősítése hangsávval a feldolgozás segítésére.",
-  "spec": "30–40 mp-es, egyszerűen felolvasott narráció az idővonalról 1–2 plusz mondattal: honnan indultunk M0-ban, hova jutottunk M7-re; az önismeret/visszajelzéstől a kvuca, gyermekvédelem, módszerek és végül a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (128. sor).",
+  "spec": "30–40 mp-es, egyszerűen felolvasott narráció az idővonalról 1–2 plusz mondattal: honnan indultunk M0-ban, hova jutottunk M7-re; az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
   "source_ref": "Z.1-NAR-01-VO",
   "provenance": "ai",
   "provenance_note": "AI-generált",
@@ -201,9 +210,11 @@ Opciók (legördülő vagy listában):
   ],
   "production_rules": [
     "R1",
+    "R2",
     "R3"
   ],
   "blockers": [
+    "R2",
     "R3"
   ],
   "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia) és Z.1-NAR-01::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
@@ -222,12 +233,12 @@ Opciók (legördülő vagy listában):
 
 #### Mit látunk?
 
-* Horizontálisan elrendezett **idővonal** (M0 → M7), modul-kódokkal.
+* Horizontálisan elrendezett **idővonal** (M0 → M7), modulkódokkal.
 * Mindegyikhez **1 rövid kulcsmondat** (max. 1 sor mobilon).
 
 <!-- @source {"id": "Z.1-DIA-01-ALT", "kind": "alt-text"} -->
 
-**Alt-szöveg (kötelező): „Vízszintes idővonal M0-tól M7-ig: nyolc állomás balról jobbra, mindegyiknél a modul kódja és egy rövid kulcsmondat – az önismerettől és visszajelzéstől a kvucán, gyermekvédelmen és módszereken át a saját peuláig.” A modul-kódok és kulcsmondatok ne legyenek képbe égetve – a lenti felsorolás szövegként hordozza ugyanezt a tartalmat, így az idővonal üzenete kép nélkül is elérhető.**
+**Alt-szöveg (kötelező): „Vízszintes idővonal M0-tól M7-ig: nyolc állomás balról jobbra, mindegyiknél a modul kódja és egy rövid kulcsmondat – az önismerettől és visszajelzéstől a kvucán, gyermekvédelmen és módszereken át a saját peuláig.” A modulkódok és kulcsmondatok ne legyenek képbe égetve – a lenti felsorolás szövegként hordozza ugyanezt a tartalmat, így az idővonal üzenete kép nélkül is elérhető.**
 <!-- @endsource -->
 
 
@@ -235,7 +246,7 @@ Opciók (legördülő vagy listában):
 
 > **Féléves idővonal – M0–M7**
 
-* **M0 – Kickoff, keret, technika**
+* **M0 – „Kickoff, keret, technika”**
   → belépés a képzésbe, szabályok, Moodle-belakás
 * **M1 – „Vakfolt, tükör, visszajelzés”**
   → Johari + SBI, visszajelzés mint tanulási eszköz
@@ -261,7 +272,7 @@ Opcionális narráció (30–40 mp), egyszerűen felolvasva, 1–2 plusz mondatt
 > „Ez itt a féléved idővonala.
 > Látod, honnan indultunk M0-ban, és hova jutottunk el M7-re.
 
-> Közben az önismerettől és visszajelzéstől eljutottunk a kvuca, a gyermekvédelem, a módszerek és végül a **saját peulád** megírásáig.”
+> Közben az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át eljutottunk a **saját peulád** megírásáig.”
 
 <!-- @endsource -->
 
@@ -269,14 +280,14 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 
 ***
 
-### SLIDE 3 – INPUT 2: Modul-egymondatosok – „Mit tanultam, ha csak 1 mondatomban van?”
+### SLIDE 3 – INPUT 2: Modul-egymondatosok – „Mit tanultam – egyetlen mondatban?”
 
 **Cél:** modulonként 1 rövid „headline” – segíti a felidézést.
 
 #### Mit látunk?
 
 * 2 oszlopos layout:
-  * bal oldalt modul-kód + cím rövidítve,
+  * bal oldalt modulkód + cím rövidítve,
   * jobb oldalt 1 mondatos „amit elviszek belőle”.
 
 #### Szöveg a dián (példa-„headline”-ok):
@@ -294,37 +305,37 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 > *„Felismerek alap csoportszakaszokat és gyermekvédelmi jelzéseket, és tudom, kinek jelzek.”*
 
 > **M4 – Kiállás & kérdések**
-> *„Nem csak beszélek, hanem kapcsolódom, és tudok kérdésekkel dolgozni.”*
+> *„Nemcsak beszélek, hanem kapcsolódom, és tudok kérdésekkel dolgozni.”*
 
-> **M5 – Nonformális & tanulástan**
+> **M5 – Nonformális nevelés & tanulástan**
 > *„Tudok cél–kvuca–módszer logikával gondolkodni, és értem, mitől tanul a kvucám.”*
 
 > **M6 – Eszköztár & inkluzivitás**
 > *„Van pár konkrét játékom / történetem, amit biztonságosan és inkluzívan tudok használni.”*
 
 > **M7 – Peula & Zmán Kvucá**
-> *„Meg tudok írni egy Peula v2-t Zmán Kvucára, etikusan használva az AI-t.”*
+> *„Meg tudok írni egy Peula v2-t Zmán Kvucára AI-val vagy anélkül, és ha AI-t használok, azt etikusan teszem.”*
 
 Alul 1 gyors Check-kérdés:
 
-> „Melyik modulnál érzed azt a mondatot, hogy **‘ez rólam szól’** vagy **'ez igaz rám'**?”
+> „Melyik modulnál érzed úgy, hogy **‘ez rólam szól’** vagy **‘ez igaz rám’**?”
 
 H5P **Multi Choice** (pipálhat többet is – nincs jó/rossz, csak reflexió) – „Válaszd ki 1–3 modult a listából”.
 
 Visszajelzés:
 
-> „Ezekre különösen érdemes figyelned a záró reflexiód írásánál is – valószínűleg ebben érted el a legnagyobb változást.”
+> „Ezekre különösen érdemes figyelned a záró reflexiód írásánál is – valószínűleg ezekben érted el a legnagyobb változást.”
 
 ***
 
-### SLIDE 4 – ACTIVITY 1: „Modul – miről szólt?” – mini matching (3–5 kérdés)
+### SLIDE 4 – ACTIVITY 1: „Modul – miről szólt?” – rövid feleletválasztós sor (3–5 kérdés)
 
 **Cél:** könnyű, játékos **emlékeztető check** – de még nem „vizsga”.
 
 #### Mit látunk?
 
 * Egyszerű **Single Choice Set** (3–5 kérdés, egymás után).
-* Minden kérdés: modulnév → melyik 3 opció közül az „igazi” leírása.
+* Minden kérdésben egy rövid leírás áll, és a tanuló három modul közül választja ki, melyikhez tartozik.
 
 #### Példák:
 
@@ -360,12 +371,17 @@ Opciók:
 
 * M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”
 * M7 – „Peula a papírtól a valóságig” ✅
-* M0 – Kickoff, keret, technika
+* M0 – „Kickoff, keret, technika”
 
 **Visszajelző szövegek:**
 
 * Jónál: „Pontosan 🙂 – ez volt az a modul.”
-* Tévesnél: „Majdnem 🙂 – ebben a modulban inkább \[rövid helyes leírás], a keresett modul a(z) \[helyes válasz].”
+* Tévesnél, kérdésenként:
+  * 1. kérdés: „Majdnem 🙂 – a Johari-ablak és az SBI az M1-ben volt: ott tanultad, hogy a visszajelzés nem bántás, hanem tükör.”
+  * 2. kérdés: „Majdnem 🙂 – a kvuca fejlődése és a gyermekvédelem az M3-ban volt: ott tanultál a csoportszakaszokról, a gyermekvédelmi jelzésekről, és arról, hogy kinek jelzel.”
+  * 3. kérdés: „Majdnem 🙂 – a nonformális nevelés és a tanulástan az M5-ben volt: ott gondolkodtál cél–kvuca–módszer logikával.”
+  * 4. kérdés: „Majdnem 🙂 – a Peula v2-t Zmán Kvucára az M7-ben írtad meg.”
+* A Single Choice Setben nincs kérdésenkénti visszajelző mező (csak pontsávos összesítő visszajelzés); hogy a kérdésenkénti szöveg a választott megvalósításban megjelenik-e, az `LMS – H5P runtime acceptance.md` 14. pontja teszteli.
 
 ***
 
@@ -386,7 +402,7 @@ Opciók:
   },
   "a11y": {
     "visual": "informative",
-    "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
+    "alt_note": "a lecke ehhez az ikonhoz nem ír elő alt-szöveget; a rövid alt-szöveget (validátori a11y-kiegészítés) a legyártott vizuál alapján kell megírni",
     "note": "Az ikon a reflektív, naplóírásos feladatot jelzi (nem pusztán dekoratív), ezért rövid alt-szöveg ajánlott (lásd Z.1-IKO-01::ALTTEXT). Megjegyzés: a forrás explicit alt-szöveget ehhez az ikonhoz NEM ír elő – ez validátori a11y-kiegészítés."
   },
   "derivatives": [
@@ -400,7 +416,7 @@ Opciók:
     "R5"
   ],
   "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-IKO-01::ALTTEXT.",
-  "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten a `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
+  "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-03"
@@ -431,8 +447,14 @@ Opciók:
 
 > 2️⃣ Röviden írd le, **miért pont ezek** – mit tanultál belőlük magadról, a kvucáról vagy a madrich-szerepről?
 
+> **Nem kell intim vagy érzékeny részletet megosztanod.** Használj általánosított helyzetet, és ne írj chanich-nevet vagy beazonosítható történetet.
+
 > Nem fogalmazásverseny – elég őszintének lenni.
-> Ezt a választ csak a képzőid / mentorod látják.
+> Ezt a választ csak a kurzusban erre jogosult képző/mentor láthatja a jóváhagyott hozzáférési beállítás szerint.
+
+> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, az aktivitást felügyelő, jóváhagyott szerepkörnek a helyi protokoll szerint tovább kell lépnie – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe a mezőbe írd: használd a **kurzusban megadott, jóváhagyott helyi jelzési utat**. Közvetlen életveszélynél **112**.
+
+*(Fejlesztői feltétel, nem tanulói szöveg: a fenti kivétel továbblépésről szóló mondata csak olyan megvalósításnál igaz, ahol egy kijelölt szerepkör ténylegesen látja a mező tartalmát – LMS a11y-sztenderd, 6. szakasz, 1. út: Moodle-oldali mező; lásd az `LMS – H5P runtime acceptance.md` 6. és 15. pontját. A tényleges hozzáférésről a HUM-PRIV-01 dönt.)*
 
 **Szabad szöveges mező** – minimális karakterszámmal (pl. 200 karakter).
 
@@ -447,8 +469,8 @@ Opciók:
   "mode": "generate",
   "title": "Opcionális záró narráció – outro (20–30 mp)",
   "subtype": "narration",
-  "purpose": "Lezárás és híd a Z.2 leckéhez, a kulcs-mondat megerősítése.",
-  "spec": "20–30 mp-es záró narráció: köszönet a visszanéző tükör végigjárásáért, átvezetés a Z.2 leckére (saját tanulási pillanatok), és hogy a most leírt 1 mondat jó kapaszkodó lesz. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (294. sor).",
+  "purpose": "Lezárás és híd a Z.2 leckéhez, a kulcsmondat megerősítése.",
+  "spec": "20–30 mp-es záró narráció: köszönet a visszanéző tükör végigjárásáért, átvezetés a Z.2 leckére (saját tanulási pillanatok), és hogy a most leírt 1 mondat jó kapaszkodó lesz. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
   "source_ref": "Z.1-NAR-02-VO",
   "provenance": "ai",
   "provenance_note": "AI-generált",
@@ -464,9 +486,11 @@ Opciók:
   ],
   "production_rules": [
     "R1",
+    "R2",
     "R3"
   ],
   "blockers": [
+    "R2",
     "R3"
   ],
   "notes": "Opcionális. Kapcsolódik: Z.1-NAR-02::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
@@ -481,7 +505,7 @@ Opciók:
 }
 -->
 
-**Cél:** lezárás, **1 kulcs-mondat** kikristályosítása → híd a Z.2-höz.
+**Cél:** lezárás, **1 kulcsmondat** kikristályosítása → híd a Z.2-höz.
 
 #### Mit látunk?
 
@@ -510,7 +534,7 @@ Opcionális narráció (20–30 mp):
 
 <!-- @source {"id": "Z.1-NAR-02-VO", "kind": "narration"} -->
 
-> „Köszi, hogy végigmentél a visszanéző tükör modulon.
+> „Köszi, hogy végigmentél a visszanéző tükör leckén.
 > A következő leckében (Z.2) már kifejezetten a saját **tanulási pillanataidról** fogunk beszélni –
 > de ez az 1 mondat, amit most leírsz, jó kapaszkodó lesz ahhoz is.”
 

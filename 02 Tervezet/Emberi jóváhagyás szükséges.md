@@ -49,19 +49,19 @@
 
 ### HUM-SAFE-04 — Alkohol- és dohányzási szabály
 
-A konkrét helyi szabályt nem a tananyag találja ki. **Jóváhagyó:** szervezeti vezetés + gyermekvédelmi felelős. **Blokkol:** csak azokat a learner-facing példákat, amelyek konkrét helyi tiltást vagy korhatárt állítanak. **Implementáció:** a jóváhagyott policy-re hivatkozás, nem a szabály teljes lemásolása az M3.4-be.
+A konkrét helyi szabályt nem a tananyag találja ki. **Jóváhagyó:** szervezeti vezetés + gyermekvédelmi felelős. **Blokkol:** csak azokat a learner-facing példákat, amelyek konkrét helyi tiltást vagy korhatárt állítanak. **Implementáció:** a jóváhagyott szabályra hivatkozás, nem a szabály teljes lemásolása az M3.4-be.
 
-### HUM-SAFE-05 — Stáb-alkalmasság és safeguarding-induction
+### HUM-SAFE-05 — Stáb-alkalmasság és gyermekvédelmi felkészítés
 
 | Mező | Tartalom |
 |---|---|
 | **Kérdés** | Milyen alkalmassági/vetting ellenőrzés és milyen dokumentált gyermekvédelmi felkészítés kell a programban dolgozó felnőtt képzőknek, mentoroknak és madrichoknak? |
 | **Miért szükséges** | A program kiskorúakkal dolgozik, de a repository nem nevezhet meg automatikusan egy konkrét hatósági ellenőrzést vagy dokumentumtípust minden szerepre. |
-| **Szakmai minimum** | a stáb ismeri a jóváhagyott gyermekvédelmi láncot, az összeférhetetlenségi utat, a disclosure-kezelést és a safer-working szabályt; a kiskorú madrich nem kap egyedüli felnőtt felelősséget. |
-| **Mit kell eldönteni** | szerepkörönként szükséges alkalmassági ellenőrzés; induction tartalma; nyilvántartás; megújítás/felülvizsgálat |
+| **Szakmai minimum** | a stáb ismeri a jóváhagyott gyermekvédelmi láncot, az összeférhetetlenségi utat, a feltárás kezelését és a safer-working szabályt; a kiskorú madrich nem kap egyedüli felnőtt felelősséget. |
+| **Mit kell eldönteni** | szerepkörönként szükséges alkalmassági ellenőrzés; felkészítés tartalma; nyilvántartás; megújítás/felülvizsgálat |
 | **Jóváhagyó** | szervezeti vezetés + gyermekvédelmi felelős, jogszabályi alkalmassági kérdésnél jogi szakértő |
 | **Blokkol** | valódi résztvevőkkel futó program indítása, nem a zárt Moodle-staging |
-| **Implementáció** | stáb-checklist, jóváhagyási bizonyíték és induction-nyilvántartás; a tananyag csak a jóváhagyott eljárásra hivatkozik. |
+| **Implementáció** | stáb-checklist, jóváhagyási bizonyíték és felkészítési nyilvántartás; a tananyag csak a jóváhagyott eljárásra hivatkozik. |
 
 ---
 
@@ -74,20 +74,23 @@ A konkrét helyi szabályt nem a tananyag találja ki. **Jóváhagyó:** szervez
 | **Kérdés** | Activitynként mi a cél, jogalap, hozzáférés, megőrzés, törlés/export és harmadik fél? |
 | **Miért szükséges** | A kurzus reflexiókat, Assignmenteket, kvízeredményt és részben identitáshoz kötődő szöveget kezel. |
 | **Jogi keret** | A GDPR 8. cikk nem általános „minden kiskorú adatához szülői hozzájárulás” szabály. A jogalapot adatkezelési célonként kell meghatározni. |
-| **Javasolt alapértelmezés** | adatminimalizálás; személyes/érzékeny történet ne legyen kötelező; mentor csak azt lássa, amihez pedagógiai vagy biztonsági feladata van. A konkrét jogalap és retention nem található ki. |
+| **Javasolt alapértelmezés** | adatminimalizálás; személyes/érzékeny történet ne legyen kötelező; mentor csak azt lássa, amihez pedagógiai vagy biztonsági feladata van. A konkrét jogalap és megőrzés nem található ki. |
 | **Jóváhagyó** | adatkezelő privacy/DPO/jogi felelőse |
 | **Blokkol** | éles learner release minden személyes adatot tároló activitynél |
-| **Implementáció a döntés után** | az activity manifest `privacy_class` soraihoz beállítás + learner-facing privacy notice + törlési folyamat. |
+| **Implementáció a döntés után** | az activity manifest privacy-osztályai szerinti beállítás + learner-facing adatvédelmi tájékoztató + törlési folyamat. |
 
 ### HUM-PRIV-02 — Fotó, videó, hang és kézírás
 
-A szervezet dönti el a felvétel célját, jogalapját, hozzáférését, tárhelyét, retentionjét és törlését, továbbá azt, hogy az **M0.A kézírásos plakát fotózásánál** a beazonosítható tartalom eltávolítása önmagában elegendő-e az adott célhoz. A tananyag alapértelmezése: **ne gyűjts felvételt, ha ugyanaz a pedagógiai cél elérhető nélküle; személyes telefon/felhő nem alapfolyamat.**  
+A szervezet dönti el a felvétel célját, jogalapját, hozzáférését, tárhelyét, megőrzését és törlését, továbbá azt, hogy az **M0.A kézírásos plakát fotózásánál** a beazonosítható tartalom eltávolítása önmagában elegendő-e az adott célhoz. A tananyag alapértelmezése: **ne gyűjts felvételt, ha ugyanaz a pedagógiai cél elérhető nélküle; személyes telefon/felhő nem alapfolyamat.**
+
 **Jóváhagyó:** privacy/DPO/jogi felelős. **Implementáció:** központi média-/felvételi szabály, amelyre M0/M4/M6 hivatkozik.
 
 ### HUM-PRIV-03 — Z.4 visszajelzés anonimitási szintje
 
-A core Moodle Feedback `Record user names = No` beállítása **név nélkül jeleníti meg a válaszokat**, de a Moodle saját dokumentációja szerint ez nem GDPR-értelemben vett teljes anonimitás; az activity completion is felhasználói fiókhoz kötődhet.  
-**Döntés:** ez az álnévtelen/név nélküli működés megfelel-e a szervezeti célnak, vagy külön technikai anonimitás kell.  
+A core Moodle Feedback `Record user names` = `Anonymous` beállítása **név nélkül jeleníti meg a válaszokat**, de a Moodle saját dokumentációja szerint ez nem GDPR-értelemben vett teljes anonimitás; az activity completion is felhasználói fiókhoz kötődhet.
+
+**Döntés:** ez a név nélküli működés megfelel-e a szervezeti célnak, vagy külön technikai anonimitás kell.
+
 **Javasolt alapértelmezés:** learner-facing szövegben csak „név nélkül jelenik meg” állítás maradjon, amíg erősebb anonimitás nincs bizonyítva.  
 **Jóváhagyó:** adatvédelmi/DPO felelős + programvezető. **Implementáció:** Z.4 Moodle Feedback-beállítás és adatvédelmi tájékoztató.
 
@@ -137,13 +140,13 @@ Az M4 hub, az M4.1–M4.4 leckék és az M4.A–M4.B peulák élesítés előtt 
 
 **Állapot:** nyitott. A javasolt megoldás a dokumentumokban már alkalmazva van, de a lezáráshoz szükséges jóváhagyó és bizonyíték nincs rögzítve.
 
-**Javasolt (bevezetett) megoldás:** a field-rubrika **0–2-es skálán marad**. Az intake `≥4/5` célját skálafüggetlen normalizált százalékként riportoljuk:
+**Javasolt (bevezetett) megoldás:** a terepgyakorlati rubrika **0–2-es skálán marad**. Az intake `≥4/5` célját skálafüggetlen normalizált százalékként riportoljuk:
 
 `normalizált eredmény = (rubrikaátlag / 2) × 100`
 
-Így **4/5 = 80% = 1,6/2**. A javasolt field-KPI tehát **≥80%**, illetve az aktuális 0–2-es rubrikán **átlag ≥1,6/2**. A megoldás nem módosítja a rubrika szintleírásait, és nem kényszeríti egységes skálára az M1–M7 modulrubrikákat.
+Így **4/5 = 80% = 1,6/2**. A javasolt terepgyakorlati KPI tehát **≥80%**, illetve az aktuális 0–2-es rubrikán **átlag ≥1,6/2**. A megoldás nem módosítja a rubrika szintleírásait, és nem kényszeríti egységes skálára az M1–M7 modulrubrikákat.
 
-**Döntés:** vagy 5 fokozatúra változik a terepi rubrika, vagy a KPI-t definiálja újra a szervezet a 0–2 skálán. **Jóváhagyó:** programvezető + módszertani felelős. **Blokkol:** KPI-riport, nem a Moodle-staging.
+**Döntés:** vagy 5 fokozatúra változik a terepgyakorlati rubrika, vagy a KPI-t definiálja újra a szervezet a 0–2 skálán. **Jóváhagyó:** programvezető + módszertani felelős. **Blokkol:** KPI-riport, nem a Moodle-staging.
 
 **Implementáció:** `Terepgyakorlat – 2. félév.md` ezt az egyetlen képletet használja a KPI-riporthoz.
 
@@ -192,7 +195,7 @@ A választott HeyGen-folyamathoz szükséges személy-, hang-, képmás- és szo
 
 ## 6. Nem emberi döntés, ezért nem marad itt nyitott kapuként
 
-- M0 belépő-kvíz: a jelenlegi kánon szerint diagnosztikus completion-jelző, nem éles kapu.
+- M0 belépőkvíz: a jelenlegi kánon szerint diagnosztikus completion-jelző, nem éles kapu.
 - H5P szabad szöveg: technikai megvalósítási/acceptance-kérdés, nem szervezeti döntés.
 - Moodle activity-ID-k: build-kimenetek; a staging build után automatikusan rögzítendők.
 - Moodle/H5P verziók: célkörnyezetből kiolvasható tények.

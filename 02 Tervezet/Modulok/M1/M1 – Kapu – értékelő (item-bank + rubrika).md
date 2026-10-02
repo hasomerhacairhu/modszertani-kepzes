@@ -6,10 +6,10 @@
 }
 -->
 
-← Vissza a modul-hubhoz: **[M1 – „Vakfolt, tükör, visszajelzés” – Önismeret & visszajelzés_ Johari + SBI](./M1%20–%20Vakfolt,%20tükör,%20visszajelzés%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)**
+← Vissza a modul-hubhoz: **[M1 – „Vakfolt, tükör, visszajelzés” – Önismeret & visszajelzés: Johari + SBI](./M1%20–%20Vakfolt,%20tükör,%20visszajelzés%20–%20Önismeret%20&%20visszajelzés%20–%20Johari%20+%20SBI.md)**
 
-> **Mi ez?** Az M1 modul **éles teljesítési kapujának** kész értékelő anyaga: egy szintezett SBI-rubrika a beadott visszajelzés-szöveghez, két mintaértékelés, és egy kísérő (formatív) item-bank a felismerő tudás ellenőrzéséhez.
-> **Kinek szól?** Neked, aki képzőként/mentorként pontozod az M1.4 beadványt és visszajelzést írsz a tanulónak. Tegezős, someres-barát, de szakmailag pontos.
+> **Mi ez?** Az M1 modul **éles teljesítési kapujának** kész értékelő anyaga: egy szintezett SBI-rubrika a beadott visszajelzés-szöveghez, két mintaértékelés és egy kísérő (formatív) item-bank a felismerő tudás ellenőrzéséhez.
+> **Kinek szól?** Neked, aki képzőként/mentorként pontozod az M1.4 beadványt és visszajelzést írsz a tanulónak.
 
 ---
 
@@ -18,13 +18,15 @@
 | Mező | Érték |
 |---|---|
 | **Melyik kapuhoz tartozik** | M1 – „Vakfolt, tükör, visszajelzés” modul **éles teljesítési kapuja** (az SBI-nyelv produktív használata). |
-| **Mit mér a kapu** | Tud-e a résztvevő **konkrét szituációra (S)**, **megfigyelhető viselkedésre (B)** és **érthető hatásra (I)** épülő, **címkézés-mentes, tisztelettudó**, 2–3 mondatos SBI-visszajelzést **írni**. |
+| **Mit mér a kapu** | Tud-e a résztvevő **konkrét szituációra (S)**, **megfigyelhető viselkedésre (B)** és **érthető hatásra (I)** épülő, **címkézésmentes, tisztelettudó**, 2–3 mondatos SBI-visszajelzést **írni**. |
 | **Fő LMS-eszköz (a kapu maga)** | **Moodle Assignment** (M1.4 – online text beadó) + **Rubric** (alábbi 4 soros, szintezett rubrika). Grading method: *Rubric*. |
-| **Kapu-küszöb (hivatalos)** | **Minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS legalább egy sor eléri a „kiváló” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: az „alapszint” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért az átmenethez kevés.) |
-| **Próbálkozás** | Több próbálkozás engedélyezve (elsajátításig tartó tanulás). Bukásnál rövid, **SBI-szerkezetű** képzői visszajelzés + új próbálkozás nyitása. |
+| **Kapu-küszöb (hivatalos)** | **Minden rubrikasor eléri legalább a „fejlődő” szintet (≥1 pont) ÉS legalább egy sor eléri a „kiváló” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: a „még nem” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért az átmenethez kevés.) |
+| **Próbálkozás** | Több próbálkozás engedélyezve (elsajátításig tartó tanulás). Bukásnál rövid, **SBI-szerkezetű** képzői visszajelzés + új próbálkozás nyitása. Többszöri sikertelen próbálkozásnál a [Program terv](../../Program%20terv.md) §5 szerint **peula-műhely / felzárkóztató műhely** jár (egyéni vagy kiscsoportos támogatás; kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4 minimuma szerint kell eljárni – HUM-SAFE-02). |
+| **Újraértékelés** | A madrich kérheti, hogy **az eredeti értékelőtől eltérő második képző** nézze át a beadást és a kapudöntést, **még az M2 feloldása előtt** ([Program terv](../../Program%20terv.md) §5, „Újraértékelés a kizáró kapukon”). |
+| **Gyermekvédelmi feltárás a beadványban** | Nem kezeljük egyszerű „tanulói beadandóként”: a gyermekvédelmi protokoll lép életbe ([Adatvédelem – tanulói adatok és AI](../../Adatvédelem%20–%20tanulói%20adatok%20és%20AI.md) §5). A spontán megjelenő különleges vagy gyermekvédelmi adatot a **HUM-PRIV-01** és a **HUM-SAFE-01** szerint kell kezelni ([LMS – activity manifest](../../LMS%20–%20activity%20manifest.md) §1). |
 | **Kísérő mérés (NEM kapu)** | A 3. szakasz item-bankja (Moodle Quiz / **H5P Question Set**) **formatív / completion** – a felismerő tudást méri, nincs ≥80% küszöbe, nem dönt a kapuról. |
 
-> **Fontos elhatárolás.** A kapu maga a **produktív** beadvány (SBI írása) – ez méri a tényleges kimeneti kompetenciát. A kvíz-itemek (S/B/I azonosítás, megfigyelés vs. címke) **felismerést** mérnek, és csak gyakorlásra/önellenőrzésre valók. Ne keverd a kettőt: a kvíz **nem** „ment meg” senkit, ha a beadott SBI nem éri el a rubrika-küszöböt, és fordítva.
+> **Fontos elhatárolás.** A kapu maga a **produktív** beadvány (SBI írása) – ez méri a tényleges kimeneti kompetenciát. A kvíz-itemek (S/B/I azonosítás, megfigyelés vs. címke) **felismerést** mérnek, és csak gyakorlásra/önellenőrzésre valók. Ne keverd a kettőt: a kvíz **nem** „ment meg” senkit, ha a beadott SBI nem éri el a rubrika-küszöböt – a kvíz eredménye a kapudöntést egyik irányban sem befolyásolja.
 
 ---
 
@@ -33,21 +35,21 @@
 A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbenyomást. Minden sorhoz **idézhető mintamondat** tartozik, hogy két képző ugyanazt a beadványt ugyanoda sorolja (kalibráció).
 
 **Szintek és pontok minden sorban:**
-- **alapszint = 0 pont** – még nem teljesíti a kritériumot,
+- **még nem = 0 pont** – még nem teljesíti a kritériumot,
 - **fejlődő = 1 pont** – részben teljesíti, elmegy,
 - **kiváló = 2 pont** – tisztán teljesíti a kritériumot.
 
-> ⚠️ **Olvasási megjegyzés a szintek nevéhez.** A feladat háromszintű skálát kér „alapszint / fejlődő / kiváló” néven. Itt az **„alapszint” a legalsó (0 pont) szint** = „még nem tudja”. A *kapu-küszöbnél* (2. szakasz) a „minden sorban legalább alapszint” fordulat a modul-áttekintő régi szóhasználata, ami **valójában a fejlődő (≥1 pont) szintet jelenti** – ezt a 2. szakasz egyértelműsíti. A pontszám (0/1/2) a hivatalos, az LMS-be azt vidd be.
+> ⚠️ **Olvasási megjegyzés a szintek nevéhez.** A *kapu-küszöbnél* (2. szakasz) a „minden sorban legalább alapszint” fordulat a modul-áttekintő régi szóhasználata, ami **valójában a fejlődő (≥1 pont) szintet jelenti** – ezt a 2. szakasz egyértelműsíti. A pontszám (0/1/2) a hivatalos, az LMS-be azt vidd be.
 
 ***
 
 ### 1. sor – Szituáció (S) konkrétsága
 
-*Kérdés, amit a szövegre teszel:* „Pontosan tudom-e a szövegből, **mikor / hol / milyen helyzetben** történt?”
+*Kérdés a szöveghez:* „Pontosan tudom-e a szövegből, **mikor / hol / milyen helyzetben** történt?”
 
 | Szint | Megfigyelhető szövegjegy | Idézhető példa a beadványból |
 |---|---|---|
-| **alapszint (0)** | Nincs időpont és nincs kontextus; a helyzet azonosíthatatlan, vagy csak a viselkedésre/érzésre utal. | „Amikor így viselkedsz, rossz nekem.” / „Mindig ezt csinálod.” |
+| **még nem (0)** | Nincs időpont és nincs kontextus; a helyzet azonosíthatatlan, vagy csak a viselkedésre/érzésre utal. | „Amikor így viselkedsz, rossz nekem.” / „Mindig ezt csinálod.” |
 | **fejlődő (1)** | Van valamilyen helyzet-megjelölés, de **tág / általános**, nem köthető konkrét alkalomhoz. | „Amikor a peulán ilyen voltál…” / „A kenben szoktál…” |
 | **kiváló (2)** | Érthető a **konkrét alkalom**: idő ÉS/VAGY hely ÉS a helyzet szakasza azonosítható. | „Amikor ma a játék közben, a kör második felében…” |
 
@@ -57,31 +59,31 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 
 | Szint | Megfigyelhető szövegjegy | Idézhető példa a beadványból |
 |---|---|---|
-| **alapszint (0)** | Túlnyomóan **címke / minősítés**, nincs konkrét cselekvés. | „Bunkó voltál.” / „Tiszteletlen vagy.” / „Igénytelen voltál.” |
+| **még nem (0)** | Túlnyomóan **címke / minősítés**, nincs konkrét cselekvés. | „Bunkó voltál.” / „Tiszteletlen vagy.” / „Igénytelen voltál.” |
 | **fejlődő (1)** | Van konkrét cselekvés, **de becsúszik** egy ítélkező szó / címke is. | „Késve jöttél, és ez tök ciki volt.” / „Folyton telefonoztál, ami gáz.” |
 | **kiváló (2)** | **Tiszta megfigyelés**: konkrét cselekvés, szám, idézet, mozdulat vagy időpont; minősítő jelző nélkül. | „A kör alatt háromszor félbeszakítottad a többieket, amikor ők beszéltek.” |
 
 ### 3. sor – Hatás (I) hitelessége / érthetősége
 
-*Kérdés:* „Kiderül-e, **mit okozott** a viselkedés – benned vagy a kvucában –, és hihető-e a S–B-hez képest?”
+*Kérdés:* „Kiderül-e, **mit okozott** a viselkedés – a beadvány írójában vagy a kvucában –, és hihető-e az S–B-hez képest?”
 
 | Szint | Megfigyelhető szövegjegy | Idézhető példa a beadványból |
 |---|---|---|
-| **alapszint (0)** | Nincs hatás, vagy csak nagyon általános minősítés hatás helyett. | „Rossz volt nekem.” / (a mondat hatás nélkül ér véget) |
-| **fejlődő (1)** | Van utalás érzésre/következményre, de **nem konkrét**, nem derül ki pontosan mi történt. | „Rossz érzés volt.” / „Kicsit zavart.” |
-| **kiváló (2)** | **Konkrét és hiteles** hatás: érthető, mi történt veled / a kvucával, és logikusan következik a B-ből. | „Utána a kisebbek fele már nem merte elmondani, amit gondol.” / „Úgy éreztem, nem fontos neked, amit megbeszélünk.” |
+| **még nem (0)** | Nincs hatás, vagy csak nagyon általános minősítés hatás helyett. | „Rossz volt nekem.” / (a mondat hatás nélkül ér véget) |
+| **fejlődő (1)** | Van utalás érzésre/következményre, de **nem konkrét**, nem derül ki pontosan, mi történt. | „Rossz érzés volt.” / „Kicsit zavart.” |
+| **kiváló (2)** | **Konkrét és hiteles** hatás: érthető, mi történt a beadvány írójával / a kvucával, és logikusan következik a B-ből. | „Utána a kisebbek fele már nem merte elmondani, amit gondol.” / „Úgy éreztem, nem fontos neked, amit megbeszélünk.” |
 
 ### 4. sor – Tisztelettudó, nem támadó hangnem
 
 *Kérdés:* „A szöveg a **viselkedésről** beszél-e (megtartható kapcsolatban), vagy a **személyt támadja / minősíti**?”
 
-> Ez a sor **nem az S/B/I meglétét** méri (azt az 1–3. sor lefedi), hanem a **megszólítás módját**: a hangnemet, a címke-mentességet és azt, hogy a másik tudna-e rá nem-védekezve reagálni. Ez a modul saját tanítása: az SBI attól működik, hogy „nem egy nagy címkét akasztasz a másikra” (M1.2), és „nehezebb rá azt mondani, hogy igazságtalan vagy túloz” (M1.3).
+> Ez a sor **nem az S/B/I meglétét** méri (azt az 1–3. sor lefedi), hanem a **megszólítás módját**: a hangnemet, a címkementességet és azt, hogy a másik tudna-e rá nem védekezve reagálni. Ez a modul saját tanítása: az SBI attól működik, hogy „nem egy nagy címkét akasztasz a másikra” (M1.2), és „nehezebb rá azt mondani, hogy igazságtalan vagy túloz” (M1.3).
 
 | Szint | Megfigyelhető szövegjegy | Idézhető példa a beadványból |
 |---|---|---|
-| **alapszint (0)** | **Személyt minősít / támad**: általánosító „mindig/soha”, jellem-címke, gúny, leszólás. | „Te mindig szétvered a peulát.” / „Reménytelen vagy.” |
+| **még nem (0)** | **Személyt minősít / támad**: általánosító „mindig/soha”, jellem-címke, gúny, leszólás. | „Te mindig szétvered a peulát.” / „Reménytelen vagy.” |
 | **fejlődő (1)** | **Alapvetően a viselkedésről** szól, de van benne egy-egy éles/szúrós fordulat vagy enyhe minősítés. | „Megint elkéstél, ami azért elég gáz tőled.” |
-| **kiváló (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címke-mentes és nem általánosít**, a másik **nem-védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de a kiváló szint kritériuma a viselkedés-fókuszú hangnem, nem az „én-üzenet” nyelvtan; a leckékben tanított minta végig 2. személyű „te”-szerkezet.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt megtartani a figyelmet – jó lenne, ha ők is több teret kapnának.” |
+| **kiváló (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címkementes és nem általánosít**, a másik **nem védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de a kiváló szint kritériuma a viselkedés-fókuszú hangnem, nem az „én-üzenet” nyelvtan; a leckékben tanított sablonban a B „te”-, az I „én / a kvuca” alakú.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt megtartani a figyelmet – jó lenne, ha ők is több teret kapnának.” |
 
 ***
 
@@ -96,14 +98,14 @@ A modulban **két, egymásnak ellentmondó** kapu-leírás élt egymás mellett 
 - **Modul-áttekintő (§6)** – **3 soros** „minimum” rubrika (S konkrét / B megfigyelhető / I érthető), küszöb: *„minden sorban min. alapszint, legalább egy sorban fejlődő”*.
 - **M1.4 (korábbi, mostanra érvénytelen küszöb)** – **4 soros** rubrika (a 4. sor ott „SBI struktúra összhatása”), 0–2 pont/sor, a régi küszöb: *„minden sorban ≥1 ÉS ≥6/8”*. Ezt a 6/8-at az alábbi feloldás váltja ≥5/8-ra (lásd a „Miért 5/8 és nem 6/8?” bekezdést), egyezésben a 0. fejléccel és a Program terv §5 táblájával.
 
-**Ez a fájl a hivatalos rubrika.** A két szabályt **egyetlen, ekvivalens megfogalmazásban** oldjuk fel, a feladatban rögzített minimum-elv mentén:
+**Ez a fájl a hivatalos rubrika.** A két szabályt **egyetlen, ekvivalens megfogalmazásban** oldjuk fel, a minimum-elv mentén:
 
 > **A kapu minimuma = minden sorban legalább „fejlődő” (≥1 pont, mert a 0 = „még nem tudja”) ÉS legalább egy sorban „kiváló” (=2 pont).**
 
 Hogy ez **pontszámban** is egyértelmű és LMS-be vihető legyen:
 
 - **Szabály A (szöveges):** mind a 4 sor eléri legalább a fejlődő szintet (≥1 pont), és legalább 1 sor eléri a kiváló szintet (=2 pont).
-- **Szabály B (numerikus):** **minden sorban ≥1 pont ÉS összpontszám ≥5/8.** A két feltétel **konjunkció** – csak együtt adnak átmenőt. A Moodle „Grade to pass” mezőjébe csak az **összpont-komponens** (≥5) vihető be; a sor-küszöböt („egyik sor sem 0”) az a mező nem látja, ezért a **nyers pontösszeg önmagában nem dönti el a kaput** – lásd 5. szakasz.
+- **Szabály B (numerikus):** **minden sorban ≥1 pont ÉS összpontszám ≥5/8.** A két feltétel **konjunkció** – csak együtt adnak átmenőt. A Moodle „Grade to pass” mezőjébe csak az **összpont-komponens** (≥5) vihető be; a sorküszöböt („egyik sor sem 0”) az a mező nem látja, ezért a **nyers pontösszeg önmagában nem dönti el a kaput** – lásd 5. szakasz.
 
 **A kapu-eredmény négy tipikus esetben:**
 
@@ -114,32 +116,32 @@ Hogy ez **pontszámban** is egyértelmű és LMS-be vihető legyen:
 | 2 / 2 / 2 / 0 | 6 | **nem** | **NEM TELJESÍTETT → újrapróbálható** |
 | 2 / 2 / 1 / 1 | 6 | igen | **ÁTMENT** |
 
-A 2. és 3. sor a lényeg: **ha bármelyik rubrikasor 0 maradt, a beadvány akkor sem megy át, ha a pontösszeg elérné vagy meghaladná az 5-öt** – és a következő kapuzott activity sem nyílhat meg tőle.
+A táblázat 2. és 3. esete a lényeg: **ha bármelyik rubrikasor 0 maradt, a beadvány akkor sem megy át, ha a pontösszeg elérné vagy meghaladná az 5-öt** – és a következő kapuzott activity sem nyílhat meg tőle.
 
 **Miért 5/8 és nem 6/8?** A minimum-elv szó szerint „minden sorban fejlődő (4×1=4) + legalább egy sorban kiváló (+1) = 5”. Tehát a **hivatalos küszöb 5/8** + a „minden sorban ≥1” kötelező feltétel. Ez **kevésbé szigorú**, mint a régi M1.4-beli 6/8, de **pontosan az ígért „minimum”-ot** kódolja, és megőrzi a kulcsbiztosítékot: a „minden sorban ≥1” miatt **egyik SBI-elem (különösen az I/hatás) sem hiányozhat teljesen** – pusztán a pontösszeg ezt elengedné.
 
-> **Kanonikus release-szabály:** a küszöb **nem választható implementációs opció**. A jelen verzióban minden felület és Moodle-beállítás ugyanazt a szabályt használja: **minden sor ≥1 ÉS összpont ≥5/8**. Ennek későbbi módosítása külön, verziózott szakmai döntés és teljes kereszt-dokumentum frissítés nélkül nem megengedett.
+> **A küszöb nem választható megvalósítási lehetőség.** A jelen verzióban minden felület és Moodle-beállítás ugyanazt a szabályt használja: **minden sor ≥1 ÉS összpont ≥5/8**. Később csak külön, verziózott szakmai döntéssel és az összes érintett dokumentum egyidejű frissítésével módosítható.
 
-**A 4. rubrikasor cseréje – indoklás.** A régi M1.4 4. sora („SBI struktúra összhatása”) redundáns volt: az S/B/I meglétét egyszer már pontozza az 1–3. sor, az „összhatás” újra ugyanazt súlyozta. A feladat által kért **„Tisztelettudó, nem támadó hangnem”** sor **független, megfigyelhető dimenziót** mér (megszólítás módja vs. elemek megléte), nincs kettős súlyozás, és pont a modul magját (címke-mentesség, „ne bántsd a másikat”) teszi mérhetővé. Ezért a 4. sor mostantól a hangnem.
+**A 4. rubrikasor cseréje – indoklás.** A régi M1.4 4. sora („SBI struktúra összhatása”) redundáns volt: az S/B/I meglétét egyszer már pontozza az 1–3. sor, az „összhatás” újra ugyanazt súlyozta. A **„Tisztelettudó, nem támadó hangnem”** sor **független, megfigyelhető dimenziót** mér (megszólítás módja vs. elemek megléte), nincs kettős súlyozás, és pont a modul magját (címkementesség, bántás nélküli visszajelzés) teszi mérhetővé. Ezért a 4. sor mostantól a hangnem.
 
 ---
 
 ## 3. Kísérő item-bank (formatív / completion – NEM a kapu)
 
-Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **LMS-eszköz: Moodle Quiz vagy H5P Question Set, completion-alapú, küszöb nélkül.** A distraktorok **plauzibilisek**: mindegyik egy valós madrich-tévedést testesít meg (címke, általánosítás, érzés-helyett-hatás), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli.
+Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **LMS-eszköz: Moodle Quiz vagy H5P Question Set, completion-alapú, küszöb nélkül.** A disztraktorok **plauzibilisek**: mindegyik egy valós madrich-tévedést testesít meg (címke, általánosítás, érzés-helyett-hatás), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli. Az opciók félkövér kiemelése és dőlt, zárójeles típusmegjegyzése szerzői jelölés: a kvízbe egyik sem kerül át.
 
-> Megjegyzés a construct-validitásról: a leckékben több distraktor túl könnyű volt (pl. az egyetlen időhatározós opció felületi mintázatból megfejthető). Az alábbi itemeknél ezért **minden distraktor egy-egy konkrét SBI-hibatípus**, és van **alkalmazó (író) item** is, nem csak besorolás.
+> Megjegyzés a construct-validitásról: a leckékben több disztraktor túl könnyű volt (pl. az egyetlen időhatározós opció felületi mintázatból megfejthető). Az alábbi itemeknél ezért **minden disztraktor egy-egy konkrét SBI-hibatípus**, és van **alkalmazó (író) item** is, nem csak besorolás.
 
 ### Item 1 – Mi az S? (felismerés, Single Choice)
 **Szituáció:** A beszélgetőkörben az egyik chanich minden megszólalót kinevet.
-**Kérdés:** Melyik mondat a **legjobb S (szituáció)** ehhez?
+**Kérdés:** Melyik mondat jelöli ki ehhez **csak a helyzetet (S)**, semmi mást?
 
 - A) „Az előző körben, amikor a kérdést jártuk körbe…” ✅
 - B) „Ma a kör elején háromszor hangosan felnevettél, amikor más beszélt.” *(ez B – viselkedés, hiába van benne időjelölés)*
 - C) „A mai peula után a többiek elbátortalanodtak tőle.” *(ez I – hatás, hiába van benne időjelölés)*
 - D) „A péntek esti körben elég bántó tudsz lenni.” *(ez címke, hiába van benne időjelölés)*
 
-**Visszajelzés:** Az S a **mikor/hol/melyik helyzet** – csak a helyzetet jelöli ki, semmi mást. Időhatározó több opcióban is van, ezért nem elég ránézni rá: a B (mit csinált konkrétan), az I (mi lett a hatása) és a címke akkor is más-más építőkocka marad, ha időt is raksz elé. Csak az A mond *kizárólag* helyzetet.
+**Visszajelzés:** Az S a **mikor/hol/melyik helyzet** – csak a helyzetet jelöli ki, semmi mást. Időhatározó több opcióban is van, ezért nem elég ránézni rá: a viselkedés (B – mit csinált konkrétan) és a hatás (I – mi lett belőle) akkor is más-más építőkocka marad, ha időt is raksz elé, a címke pedig akkor is címke. Csak „Az előző körben, amikor a kérdést jártuk körbe…” mond *kizárólag* helyzetet.
 
 ***
 
@@ -151,7 +153,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 - C) „A kör elején látszott, hogy szét akarod verni az egészet.”
 - D) „A délutáni programon végig éretlenül viselkedtél.”
 
-**Visszajelzés:** Csak a B az, amit egy **kamera is felvenne** (szám + konkrét cselekvés). Mindegyik opcióban van időjelölés, tehát nem az árulja el a jót: az A és D így is **minősít**, a C pedig **szándékot tulajdonít** – egyik sem megfigyelés, hiába konkrét a helyszín.
+**Visszajelzés:** Csak a „kétszer kivonultál a teremből” az, amit egy **kamera is felvenne** (szám + konkrét cselekvés). Mindegyik opcióban van időjelölés, tehát nem az árulja el a jót: a „tök fárasztó voltál” és az „éretlenül viselkedtél” így is **minősít**, a „látszott, hogy szét akarod verni” pedig **szándékot tulajdonít** – egyik sem megfigyelés, hiába konkrét a helyszín.
 
 ***
 
@@ -164,19 +166,19 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 - C) „Mindig a telefonodat nyomkodod.” *(általánosított viselkedés, ráadásul „mindig”)*
 - D) „A megbeszélésen, a vége felé…” *(ez S – szituáció)*
 
-**Visszajelzés:** Az I azt mondja el, **mit okozott benned / a csapatban**. A B minősít, a C általánosít („mindig”), a D pedig a helyzetet jelöli – nem a hatást.
+**Visszajelzés:** Az I azt mondja el, **mit okozott benned / a csapatban**. Az „Idegesítő vagy” minősít, a „Mindig a telefonodat nyomkodod” általánosít („mindig”), „A megbeszélésen, a vége felé…” pedig a helyzetet jelöli – nem a hatást.
 
 ***
 
 ### Item 4 – Hol csúszik be a címke? (Single Choice, hangnem)
-**Kérdés:** Melyik SBI-mondatba **csúszott be címke** (vagyis hol sérül a tiszteletteli hangnem)?
+**Kérdés:** Melyik SBI-mondatba **csúszott be címke** (vagyis hol sérül a tisztelettudó hangnem)?
 
 - A) „Amikor ma a kör elején kétszer közbevágtál, nehéz volt visszaterelni a figyelmet.”
-- B) „Amikor ma elkéstél 20 percet, és **felelőtlen** módon szó nélkül jöttél be, fennakadt a kezdés.” ✅
+- B) „Amikor ma elkéstél 20 percet, és felelőtlen módon szó nélkül jöttél be, fennakadt a kezdés.” ✅
 - C) „Amikor a játék alatt elvetted a labdát Danitól, ő abbahagyta a játékot.”
 - D) „Amikor a megbeszélésen a telefonodat nézted, nem tudtuk lezárni a feladatkiosztást.”
 
-**Visszajelzés:** A B-ben a „felelőtlen módon” egy **minősítés a személyről** – ez címke, nem megfigyelés. Vedd ki, és maradjon a tény: „elkéstél 20 percet, és szó nélkül jöttél be”.
+**Visszajelzés:** A késésről szóló mondatban a „felelőtlen módon” egy **minősítés a személyről** – ez címke, nem megfigyelés. Vedd ki, és maradjon a tény: „elkéstél 20 percet, és szó nélkül jöttél be”.
 
 ***
 
@@ -191,10 +193,10 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 
 ### Item 6 – Teljes mini-SBI írása (alkalmazó item, hosszabb szabad szöveges válasz)
 **Szituáció:** „A peuláról fél órát késik valaki, és hangosan röhögve érkezik meg a körbe.”
-**Feladat:** Írj rá **1 db, 2–3 mondatos SBI-t**, amiben van S, B és I, és tiszteletteli a hangnem.
+**Feladat:** Írj rá **1 db, 2–3 mondatos SBI-t**, amiben van S, B és I, és tisztelettudó a hangnem.
 **Önellenőrző visszajelzés (a tanulónak, megoldás után):** Nézz rá a saját mondatodra:
 1. Van benne **konkrét hely és idő** (S)? 2. Van benne **megfigyelhető viselkedés**, címke nélkül (B)? 3. Kiderül, **hogyan hatott** rád / a kvucára (I)? 4. A **viselkedésről** beszélsz-e (nem a személyt minősíted)?
-Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 Assignmentbe.
+Ha mind a 4-re „igen”, akkor kapu-érett az SBI-vázad – ezt add be az M1.4 Assignmentbe.
 
 ***
 
@@ -206,7 +208,7 @@ Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 
 - C) A címke **a jellemet írja le**, így objektívebb és pontosabb, mint a megfigyelés.
 - D) A címkét **csak négyszemközt** szabad mondani, csoport előtt sosem.
 
-**Visszajelzés:** A címkéből **nem derül ki a konkrét viselkedés**, így a másiknak nincs mihez kezdenie (A). A B-ben nem a tömörség a baj, hanem hogy nincs benne tény; a C tévhit – a jellem-címke épp **nem** objektív, hanem értelmezés; a D pedig nem a fő gond (a hely külön kérdés). A megfigyelés (pl. „nem adtad le a házit”) megfogható, abból lehet tanulni.
+**Visszajelzés:** A címkéből **nem derül ki a konkrét viselkedés**, így a másiknak nincs mihez kezdenie. A „rövidebb és tömörebb” válasz téves: nem a tömörség a baj, hanem hogy a címkében nincs tény; az „objektívebb és pontosabb” tévhit – a jellem-címke épp **nem** objektív, hanem értelmezés; a „csak négyszemközt” pedig nem a fő gond (a hely külön kérdés). A megfigyelés (pl. „nem adtad le a házit”) megfogható, abból lehet tanulni.
 
 ***
 
@@ -218,7 +220,7 @@ Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 
 - C) Az SBI hosszabb és választékosabb szavakat használ.
 - D) Az SBI-t csak 1:1-ben szabad használni, csoport előtt tilos.
 
-**Visszajelzés:** Az SBI attól működik, hogy **konkrét helyzetet, viselkedést és hatást** mondasz el. Nehéz dolgot is kimondhatsz vele (B téves), és nem a stílus a lényeg (C), hanem a felépítés.
+**Visszajelzés:** Az SBI attól működik, hogy **konkrét helyzetet, viselkedést és hatást** mondasz el. Nehéz dolgot is kimondhatsz vele (a „mindig pozitív” válasz téves), és nem a stílus a lényeg (a „hosszabb és választékosabb” válasz), hanem a felépítés. Az sem a különbség, hol mondod el (a „csak 1:1-ben” válasz): a hely külön kérdés.
 
 ***
 
@@ -230,7 +232,7 @@ Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 
 - C) Mert a „mindig” **felnagyítja a hatást**, így a másik komolyabban veszi a kritikát.
 - D) Mert **panaszkodás**, és a visszajelzésben csak megoldást szabad javasolni.
 
-**Visszajelzés:** Az A a jó: a „mindig/soha” a **személyt** minősíti egyetlen helyzet helyett (M1.3 hook), ezért nehéz rá nem-védekezve reagálni, és nincs konkrét viselkedés, amin változtatni lehetne. A B fordítva van – épp a konkrét egy alkalom a jó, nem a baj; a C tévhit, mert a felnagyítás nem segít, hanem védekezést szül; a D pedig nem ettől gyenge a mondat. Egy alkalomra szűkítve, megfigyeléssel jobban működik: „a mai játék közben háromszor közbevágtál…”.
+**Visszajelzés:** Az „általánosít” válasz a jó: a „mindig/soha” a **személyt** minősíti egyetlen helyzet helyett, ezért nehéz rá nem védekezve reagálni, és nincs konkrét viselkedés, amin változtatni lehetne. A „túl konkrét” válasz fordítva van – épp az egy konkrét alkalom a jó, nem a baj; a „felnagyítja a hatást” tévhit, mert a felnagyítás nem segít, hanem védekezést szül; a „panaszkodás” pedig téves: nem ettől gyenge a mondat. Egy alkalomra szűkítve, megfigyeléssel jobban működik: „a mai játék közben háromszor közbevágtál…”.
 
 ***
 
@@ -243,7 +245,7 @@ Ha mind a 4-re „igen”, akkor kapu-érett a vázlatod – ezt add be az M1.4 
 - C) S = „ő abbahagyta a játékot” · B = „Amikor ma a kör végén” · I = „kétszer elvetted a labdát”.
 - D) A mondatban nincs külön I, csak S és B.
 
-**Visszajelzés:** Az **S** a helyzet (mikor/hol: „ma a kör végén”), a **B** a megfigyelhető viselkedés („kétszer elvetted a labdát Danitól”), az **I** pedig a hatás/következmény („ő abbahagyta a játékot”). A D azért téves, mert a következmény (Dani abbahagyta) éppen a hatás.
+**Visszajelzés:** Az **S** a helyzet (mikor/hol: „ma a kör végén”), a **B** a megfigyelhető viselkedés („kétszer elvetted a labdát Danitól”), az **I** pedig a hatás/következmény („ő abbahagyta a játékot”). A „nincs külön I” válasz azért téves, mert a következmény (Dani abbahagyta) éppen a hatás.
 
 ---
 
@@ -261,12 +263,12 @@ A pontokat **soronként idézett szövegjeggyel** indokoljuk, és a visszajelzé
 | S – konkrétság | fejlődő | **1** | „Amikor a peulán…” – van helyzet, de **tág**: nem derül ki, melyik peula, a peula melyik szakasza. Ezért nem kiváló. |
 | B – megfigyelhetőség | fejlődő | **1** | „sokat beszéltél bele” – van konkrét irány (közbeszólás), de **nincs szám/idő** és kissé minősítő-általános. Tiszta megfigyeléshez: „háromszor közbevágtál”. |
 | I – hitelesség | fejlődő | **1** | „kicsit zavart, mert nem tudtam haladni” – van hatás és okság, de **általános** („kicsit zavart”). Konkrétabb: „nem tudtam befejezni a játék magyarázatát”. |
-| Hangnem | kiváló | **2** | Végig a **viselkedésről** szól, nincs címke, nincs „mindig/soha”, a másik nem-védekezve reagálhatna. |
+| Hangnem | kiváló | **2** | Végig a **viselkedésről** szól, nincs címke, nincs „mindig/soha”, a másik nem védekezve reagálhatna. |
 
 **Összpontszám: 5/8. Minden sorban ≥1, és van egy kiváló sor → ÁTMEGY (épp eléri a minimumot).**
 
 **Képzői visszajelzés a tanulónak (SBI-modellben, copy-paste barát):**
-> „Megvan mind a négy építőkocka, és a hangnemed kifejezetten jó – ezért átment a beadvány. 🎯 Két helyen tudnál még élesíteni: az **S-nél** írd oda, *melyik* peulán és annak melyik szakaszában történt (pl. ‘a múlt pénteki peula első játéka alatt’), a **B-nél** pedig adj egy számot ahelyett, hogy ‘sokat’ (pl. ‘háromszor közbevágtál’). Ettől a másik még pontosabban érti, mire gondolsz. Ha van kedved, próbáld újra ezzel a két finomítással.”
+> „Megvan mind a három építőkocka, és a hangnemed kifejezetten jó – ezért átment a beadvány. 🎯 Két helyen tudnál még élesíteni: az **S-nél** írd oda, *melyik* peulán és annak melyik szakaszában történt (pl. ‘a múlt pénteki peula első játéka alatt’), a **B-nél** pedig adj egy számot ahelyett, hogy ‘sokat’ (pl. ‘háromszor közbevágtál’). Ettől a másik még pontosabban érti, mire gondolsz. Ha van kedved, próbáld újra ezzel a két finomítással.”
 
 ***
 
@@ -293,9 +295,11 @@ A pontokat **soronként idézett szövegjeggyel** indokoljuk, és a visszajelzé
 
 - **Activity:** Assignment (M1.4) – Online text submission ✅ (File submission opcionális).
 - **Grading method:** Rubric → vidd be a fenti 4 sort, soronként 0/1/2 ponttal és a szintleírásokkal.
-- **Grade to pass (csak az összpont-komponens):** **5** (a 8-ból). ⚠️ Ez **önmagában nem a kapu**, csak a küszöb numerikus fele. A Moodle natívan az **összpontot** kapuzza, a „minden sorban ≥1” sor-küszöböt nem látja – egy **0 + 1 + 2 + 2 = 5** pontos beadvány tehát elérheti a nyers 5-ös határt úgy, hogy a **hivatalos kapun megbukik**.
+- **Grade:** Type = Point, **Maximum grade = 8** (4 sor × 2 pont). A Moodle a rubrika pontösszegét arányosan átszámítja a maximális jegyre, ezért a lenti „Grade to pass = 5” csak így jelent 5/8-ot.
+- **Két beadott SBI esetén:** a rubrikát SBI-nként alkalmazd. A hub §6 szerint a kapu teljesül, ha legalább az egyik SBI eléri a küszöböt; ilyenkor ennek az SBI-nek a pontjait rögzítsd.
+- **Grade to pass (csak az összpont-komponens):** **5** (a 8-ból). ⚠️ Ez **önmagában nem a kapu**, csak a küszöb numerikus fele. A Moodle natívan az **összpontot** kapuzza, a „minden sorban ≥1” sorküszöböt nem látja – egy **0 + 1 + 2 + 2 = 5** pontos beadvány tehát elérheti a nyers 5-ös határt úgy, hogy a **hivatalos kapun megbukik**.
 - **A kapu hivatalos (szemantikus) eredménye:** a rubrika kitöltése után a képző rögzíti, hogy **mindkét feltétel** teljesült-e – (a) minden sor ≥1 **ÉS** (b) összpont ≥5/8. **ÁTMENT csak akkor**, ha mindkettő igaz. Ha bármely sor 0, az eredmény **„nem teljesített / újrapróbálható”**, a pontösszegtől függetlenül.
-- **Továbblépés (unlock):** a következő kapuzott activityt a **megerősített, összetett kapu-eredmény** nyitja, **nem** a nyers ≥5-ös pontszám. Amíg nincs igazolva, hogy a cél-Moodle a sor-küszöböt is kikényszeríti, a downstream feltétel **nem köthető közvetlenül a nyers grade/pass állapotra**.
+- **Továbblépés (unlock):** a következő kapuzott activityt a **megerősített, összetett kapu-eredmény** nyitja, **nem** a nyers ≥5-ös pontszám. Amíg nincs igazolva, hogy a cél-Moodle a sorküszöböt is kikényszeríti, a downstream feltétel **nem köthető közvetlenül a nyers grade/pass állapothoz**.
 - **Runtime acceptance:** hogy a cél-Moodle **mivel** rögzíti és kényszeríti ki ezt az összetett eredményt (kézi „megfelelt” jelölés, külön completion-feltétel, restrict access, vagy sor-szintű feltétel), a build **acceptance-tesztjén** dől el – lásd [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md). Moodle-képességet teszt nélkül **nem feltételezünk**.
 - **Attempts:** reopened = Manually (vagy 3 próbálkozás) – elsajátításig tartó tanulás.
 - **Minden próbálkozás után:** rövid, SBI-szerkezetű visszajelzés (lásd 4. szakasz sablonjai) + új próbálkozás nyitása.
