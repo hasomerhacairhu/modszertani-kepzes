@@ -21,6 +21,13 @@
       "v2_asset_id": "",
       "v2_deliverable_id": "",
       "reason": "Az M3.2-NAR-02 leirata/transzkriptje. A szülő narráció nem készül el (lásd M3.2-NAR-02 diszpozíció), így nincs mit leiratozni. A WCAG 2.2 SC 1.2.1 nem sérül: nincs olyan csak-hangzó tartalom, amihez szöveges alternatíva kellene."
+    },
+    {
+      "old_id": "M3.B-POSZ-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3 hub A/B sarok-aktivitásának két jelölőtáblája („Red flag” / „Nem red flag”, v2-ben M3-HUB-POSZ-02). A projektgazda 2026-10-02-i javasolt döntése (felmerült #10) szerint az A/B sarok csak akkor marad, ha saját pedagógiai funkciója van. A gyakorlat nem része a kanonikus M3.B peulának, a red flag-felismerést az M3.B harmadik személyű esetelemzése már elvégzi, ezért az aktivitás és az asset kikerült a tananyagból. Akadálymentesítési vagy gyermekvédelmi rés nem keletkezik: a felismerés gyakorlása az M3.B-ben megmarad."
     }
   ]
 }

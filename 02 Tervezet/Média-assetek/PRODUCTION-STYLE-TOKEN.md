@@ -4,9 +4,13 @@ Ez a lap az R5 vizuális rendszer **legkisebb végrehajtható lockja**: annyit r
 amennyi az első kötegek legyártásához kell, és nem többet. Nem arculati kézikönyv — a
 mozgalomnak **van sajátja**, és ez a lap arra épül.
 
-**Státusz: NYITOTT — FELHASZNÁLÓI DÖNTÉS SZÜKSÉGES.** Ez a lap **javaslatot** tesz, nem
-zár le kaput. Az R5 blokkolók mind a 258 érintett szemantikus asseten változatlanul állnak, amíg a jóváhagyó nem
-válaszol a 9. szakasz kérdéseire.
+**Státusz: LEZÁRVA — projektgazdai döntés (2026-10-02, `HUM-MEDIA-01`).** A 9. szakasz
+kérdéseire a válasz: D1-a igen, D1-b igen, D1-c **B változat**, D1-d igen, D1-e: a
+`#2B2523` csak a logón belül. A lap B változata — a mindkét változatban közös produkciós
+ajánlásokkal (3.4–7. szakasz) és a 8. szakasz semleges skálájával — ezzel a
+tananyag-produkció stílus-tokenje. Az R5 nyitott értéke a `produkcios-szabalyok.json`-ban
+kitöltve; az asset-szintű R5-blokkolók kivezetése a manifesztben külön lépés. Utólagos
+ellenőrzés (vétó/QA): a kreatív/márkafelelős.
 
 Kapcsolódó lapok: [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) (mi
 következik a tananyagból), [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) (D1
@@ -18,8 +22,9 @@ kérdésszöveg), [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) (a teljes gyár
 
 **Létezik hivatalos arculati kézikönyv, és nyilvánosan elérhető.** A
 `VISUAL-SYSTEM-DECISION.md` 1. szakasza azt állapította meg, hogy a tananyagban nincs
-hexadecimális színérték — ez ma is igaz (a repository első, még jóvá nem hagyott
-hex-forrása ez a lap), de **nem azt jelenti, hogy a paletta nem létezik**: a repositoryn kívül, a mozgalom saját felületén létezik, deklarált
+hexadecimális színérték — ez a leckékre ma is igaz (a repository első hex-forrása ez a lap
+volt; 2026-10-02 óta a kánoni R5 szabály is rögzíti a palettát), de **nem azt jelentette,
+hogy a paletta nem létezik**: a repositoryn kívül, a mozgalom saját felületén létezik, deklarált
 HEX / RGB / CMYK / Pantone értékekkel.
 
 Ezért a D1 kérdése megváltozik:
@@ -55,6 +60,9 @@ Ez lényegesen kisebb és olcsóbb döntés.
 > **2. A kézikönyv szerkeszthető Google Doc, verzió-, dátum- és jóváhagyás-bélyeg
 > nélkül.** First-party, de nem datált. Hogy ez a hatályos változat-e, **szervezeti
 > megerősítés kérdése**, nem levezethető.
+>
+> **2026-10-02:** mindkét figyelmeztetésre a projektgazda válaszolt (D1-b): a 2022-es
+> kézikönyv és a hivatalos SVG színgenerációja a hatályos.
 
 ---
 
@@ -197,7 +205,8 @@ színtévesztőnek, sem fekete-fehér nyomtatásban. A tananyag már ma is elő�
 szín soha nem egyedüli információhordozó”; a mérés azt mutatja, hogy ez a szabály nem
 ráadás, hanem **teherhordó**.
 
-**Javaslat az R6-ra (nem döntés):**
+**Javaslat az R6-ra** — az 1–2. pontot a D1-d (projektgazdai döntés, 2026-10-02)
+elfogadta; a 3–4. pont produkciós ajánlás:
 
 1. **Az elsődleges megkülönböztető mindig a forma és a betűjel/felirat.** Ez már ma is
    kötelező (S/B/I betűk, ikonalak, „szín + forma” kikötések).
@@ -232,7 +241,8 @@ A kézikönyv „címsorok” szakasza minden szinten szó szerint ezt írja:
 
 **Betűméret-skála tehát nincs — sem a szervezetnél, sem a repositoryban.** Ezt a
 tananyagnak akkor is meg kell alkotnia, ha a Myriad Pro marad. A 3.4. pont javaslata
-ezért **PRODUKCIÓS AJÁNLÁS** minden változatban.
+ezért **PRODUKCIÓS AJÁNLÁS** minden változatban. **2026-10-02:** a D1 lezárásával ez a
+skála a tananyag-produkció mérvadó skálája.
 
 ### 3.3. Két nyitott kockázat a betűtípus körül
 
@@ -240,6 +250,9 @@ ezért **PRODUKCIÓS AJÁNLÁS** minden változatban.
 |---|---|---|
 | T1 | **A Myriad Pro Adobe kereskedelmi betűtípus.** A `somer.hu` nyers `.otf`-ként szolgálja ki. Hogy a szervezet licence kiterjed-e Moodle/H5P webes beágyazásra és PDF-embedelésre, **jogi kérdés**, és a repositoryból nem eldönthető. | 245 R5-asset PDF-je és SVG-je ettől függ. Ha az embedelés nem fedett, minden nyomtatvány újraszedendő. |
 | T2 | **A Dock11 fájl nem található a nyilvános asset-mappában.** A kézikönyv „Font mappát” említ; a hivatkozott Drive-mappában nincs ilyen. SMR-feliratos grafika sem található. | Az SMR szóvédjegyet nem tudjuk reprodukálni. A tananyagnak viszont nincs is szüksége rá — a szemel vektorban áll, a betűi görbék. |
+
+> **2026-10-02:** a B változat választásával (D1-c) a T1 a tananyag-produkciót nem érinti:
+> a tananyag Source Sans 3-mal készül, a Myriad Pro a szervezet saját anyagaiban marad.
 
 ### 3.4. Betűméret-skála — PRODUKCIÓS AJÁNLÁS
 
@@ -385,10 +398,11 @@ A megjelenítésből **egy dolog objektíven eldőlt**, a többi nem:
 | Kérdés | Válasz | Bizonyíték |
 |---|---|---|
 | Beleégetve vagy az LMS jeleníti meg? | **az LMS/H5P jeleníti meg, valódi szövegként** | `M5.1-EGY-01` a11y: „Valódi kijelölhető szöveg legyen, ne képbe égetve.”; `M6.1-EGY-01` a11y: „Olvasható szövegként jelenik meg (nem képbe égetve).” |
-| Hol? | **NYITOTT — a D1 dönti el.** A két meglévő hordozó nem egyezik: `M5.1-EGY-01` „a beszélő fej videók alá”, `M6.1-EGY-01` „a lecke alján/dián”. A kánoni R1 szabály maga is kimondja, hogy „a címke vizuális megjelenése **és elhelyezése** a vizuális rendszer (R5 stílus-token) hatásköre”. | `produkcios-szabalyok.json` R1; a két asset spec-mezője |
+| Hol? | **A D1 (B változat, projektgazdai döntés, 2026-10-02) szerint:** a médiaelem bal széléhez igazítva, egy sorban; nyomtatható, AI-eredetű anyagon az élőlábban — lásd lent. A kánoni R1 szabály maga is kimondja, hogy „a címke vizuális megjelenése **és elhelyezése** a vizuális rendszer (R5 stílus-token) hatásköre”. *(A két meglévő hordozó saját helymegjelölése: `M5.1-EGY-01` „a beszélő fej videók alá”, `M6.1-EGY-01` „a lecke alján/dián”.)* | `produkcios-szabalyok.json` R1 és R5; a két asset spec-mezője |
 | A gépi jelölés hol van? | magában az exportált fájlban (C2PA / Content Credentials / vízjel), és az export **nem távolíthatja el** | R1 szabályszöveg; `M6.1-VID-01` jegyzet |
 
-**PRODUKCIÓS AJÁNLÁS a megjelenésre** (ezt a részt kell jóváhagyni):
+**A megjelenés** — PRODUKCIÓS AJÁNLÁS, a B változattal elfogadva (projektgazdai döntés,
+2026-10-02):
 
 - szín `--ink-muted` `#5C5C5B` a lap háttérszínén — **6,69:1**, tehát kis méretben is AA;
 - méret a törzsszöveg **0,875-szöröse**, de képernyőn soha nem kevesebb 12 px effektív
@@ -418,7 +432,7 @@ két helyen van: a **betűtípus** és a **semleges (szürke) skála**.
 | **Újragyártási kockázat** | **MAGAS**, és nem tőlünk függ (jogi válasz) |
 | **Hány asset építhet rá az R5 lezárása után** | 245 (a teljes B1 köteg) — de csak akkor, ha a betűtípus-licenc kérdése addigra megválaszolt. Amíg nincs válasz: **0**. |
 
-### B változat — MÁRKAHŰ + PRODUKCIÓS RÉTEG *(ajánlott)*
+### B változat — MÁRKAHŰ + PRODUKCIÓS RÉTEG *(ajánlott; 2026-10-02 óta elfogadva — D1-c)*
 
 | | |
 |---|---|
@@ -469,19 +483,20 @@ meg nem válaszolt jogi kérdéstől teszi függővé 245 asset gyártásának i
 a B ugyanazt a márkaszín- és logórendszert viszi, csak a szedésben tér el — ott, ahol a
 kézikönyvnek amúgy sincs előírása, mert a betűméret-skálája kitöltetlen.
 
-> **Ez ajánlás, nem jóváhagyott szervezeti döntés.** Az R5 blokkolók a helyükön maradnak.
+> **2026-10-02: a projektgazda a B változatot választotta (D1-c).** Az R5 nyitott értéke
+> kitöltve; az asset-szintű R5-blokkolók kivezetése a manifesztben külön lépés.
 
 ---
 
-## 9. Amit a jóváhagyónak el kell döntenie
+## 9. Amit a jóváhagyónak el kellett döntenie — és a döntés
 
-| # | Kérdés | Ajánlás |
-|---|---|---|
-| **D1-a** | Átvesszük-e a hivatalos arculati kézikönyv palettáját a tananyagra? | **Igen** — first-party, deklarált, a hivatalos vektorral megerősített |
-| **D1-b** | A **2022-es** (kézikönyv + logócsomag) színgeneráció a hatályos, nem a `somer.hu`-n még élő 2021-es? | **Igen** — de ezt a szervezetnek meg kell erősítenie |
-| **D1-c** | **A** vagy **B** változat (betűtípus + semleges skála)? | **B** |
-| **D1-d** | Elfogadható-e, hogy a szín-szótár **modul-hatókörű**, és az elsődleges megkülönböztető mindig a forma/betűjel? | **Igen** — a 2.5. mérés szerint más nem is működne |
-| **D1-e** | A `#2B2523` deklarálatlan részletszín használható-e, vagy maradjon a logón belül? | **Maradjon a logón belül**; a tananyag `#1D1D1B`-t használ |
+| # | Kérdés | Ajánlás | Projektgazdai döntés (2026-10-02) |
+|---|---|---|---|
+| **D1-a** | Átvesszük-e a hivatalos arculati kézikönyv palettáját a tananyagra? | **Igen** — first-party, deklarált, a hivatalos vektorral megerősített | **Igen** |
+| **D1-b** | A **2022-es** (kézikönyv + logócsomag) színgeneráció a hatályos, nem a `somer.hu`-n még élő 2021-es? | **Igen** — de ezt a szervezetnek meg kell erősítenie | **Igen** |
+| **D1-c** | **A** vagy **B** változat (betűtípus + semleges skála)? | **B** | **B** |
+| **D1-d** | Elfogadható-e, hogy a szín-szótár **modul-hatókörű**, és az elsődleges megkülönböztető mindig a forma/betűjel? | **Igen** — a 2.5. mérés szerint más nem is működne | **Igen** |
+| **D1-e** | A `#2B2523` deklarálatlan részletszín használható-e, vagy maradjon a logón belül? | **Maradjon a logón belül**; a tananyag `#1D1D1B`-t használ | **Csak a logón belül** |
 
 Amit **nem** kérdezünk, mert a repository már eldöntötte: az AI-címke szövegét (R1, D9)
 és azt, hogy a címke LMS-szöveg, nem képbe égetett elem (7.3.).
@@ -490,9 +505,9 @@ Amit **nem** kérdezünk, mert a repository már eldöntötte: az AI-címke szö
 
 A stílus-token akkor zárható, ha:
 
-- [ ] D1-a … D1-e megválaszolva;
-- [ ] a `produkcios-szabalyok.json` R5 szövegéből kivezethető a nyitott érték;
-- [ ] a [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) 4. szakaszának mezői
+- [x] D1-a … D1-e megválaszolva; *(projektgazdai döntés, 2026-10-02)*
+- [x] a `produkcios-szabalyok.json` R5 szövegéből kivezethető a nyitott érték; *(kivezetve, 2026-10-02)*
+- [x] a [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) 4. szakaszának mezői
       kitöltve;
 - [ ] a családonkénti pilotok
       ([`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md)) elfogadva;

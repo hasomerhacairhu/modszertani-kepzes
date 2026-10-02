@@ -9,8 +9,8 @@ tananyag **kanonikus narrátora**.
 | **Jelöltek** | **VOICE-SRC-01** · **VOICE-SRC-02** — **forrás-beszélők**: az ő felvételeikből készül majd a két ElevenLabs egyedi hang, amelyek **még nem jöttek létre** |
 | **Eldöntendő** | melyik a kanonikus narrátor |
 | **Minta** | **6 db** — 2 hang × 3 meglévő tananyag-szkript |
-| **Mért méret** | **3 072 karakter** összesen |
-| **Becsült költség** | **0,15 – 0,61 $** (`eleven_flash_v2_5`) — a szolgáltató két árazási felülete eltérő szorzót ad; mindkét olvasatban **egy dollár alatt** |
+| **Mért méret** | **3 216 karakter** összesen |
+| **Becsült költség** | **0,16 – 0,64 $** (`eleven_flash_v2_5`) — a szolgáltató két árazási felülete eltérő szorzót ad; mindkét olvasatban **egy dollár alatt** |
 | **Állapot** | ⛔ **nem futtatható — a két ElevenLabs hang még nincs létrehozva** (előbb: hozzájárulás-bizonyíték → tanítási kimaradás → hang-létrehozás → azonosítás) |
 
 Kapcsolódó: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12–13. szakasz (a kutatás és a
@@ -39,13 +39,18 @@ A hang-objektumok **még nem léteznek**, ezért voice-ID sincs.
   a következményeket típusra bontva a [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) rögzíti.
   Ez a lap **nem dönti el**.
 - **Hozzájárulás-bizonyíték (V2) a feltöltés ELŐTT:** valós személy hangfelvétele csak
-  dokumentált hozzájárulással tölthető fel; a bizonyíték-nyilvántartás helye a
-  [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
+  dokumentált hozzájárulással tölthető fel. A hozzájárulás maga a korlátozott hozzáférésű
+  jogosultsági nyilvántartásba tartozik, nem a repositoryba; a
+  [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) csak a létezését és egy nem személyes
+  hivatkozást rögzít (projektgazdai döntés, `HUM-MEDIA-02`, 2026-10-02: a nyilvántartás a
+  `VOICE-RIGHTS-REGISTER`, a kötelező mezőkkel együtt a
+  [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) elején leírva).
 - **Kiskorú hangja nem tölthető fel:** a feltöltés előtt ellenőrizni kell, hogy a
   forrás-beszélő nagykorú. A szolgáltató feltételei szerint 18 év alatt a szolgáltatás nem
   használható, és kiskorú hangjának klónozása tiltott ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md)
   13.10., V3; [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) E-8). Hogy mi igazolja a
-  nagykorúságot, és ez a V2 hozzájárulás része-e, emberi döntés (`HUM-MEDIA-02`).
+  nagykorúságot, és ez a V2 hozzájárulás része-e, nyitott: a `HUM-MEDIA-02` projektgazdai
+  döntésének kötelező mezői között nem szerepel.
 - **Összevethetőség:** a tesztnek csak akkor van értelme, ha a két hang **azonos módszerrel**
   és feltételekkel készül el — különben a különbség nem a hangot, hanem a létrehozási
   módot mérné.
@@ -131,7 +136,7 @@ A `@source` blokk szövege, de:
 - a **nyitó és záró `„ ”`** idézőjel nélkül (az a forrásblokk határa, nem felmondandó);
 - a `**…**` félkövér-jelölés **eltávolítva** (a hangsúly forrása, de maga nem hangzik el);
 - **minden emoji eltávolítva, a közvetlenül utána álló szóközzel együtt** — a P1-ben öt
-  `👉 ` áll sorkezdeten, és a szóköz elhagyása nélkül a karakterszám 832 lenne, nem 827;
+  `👉 ` áll sorkezdeten, és a szóköz elhagyása nélkül a karakterszám 904 lenne, nem 899;
 - a sortörések és az üres sorok **megmaradnak** (rövid levegő, illetve bekezdés-szünet);
 - **szögletes zárójel nem kerülhet a szövegbe.** Ez **saját produkciós óvatosság, nem
   idézett szolgáltatói előírás**: a szögletes zárójel a szolgáltatónál az *audio tag*
@@ -150,11 +155,11 @@ a forrás-hivatkozás és a kiválasztás indoklása:
 
 | Szkript | Asset | Forrás-hash | Karakter | Szó | Lecke-időkeret | Mit mér |
 |---|---|---|---:|---:|---|---|
-| **P1** | `M3.1-NAR-02` | `0ec386081b2a7fab` | **827** | 125 | 60–75 mp | hosszú magyarázó ív, hangsúly, angol szakszavak, évszám |
+| **P1** | `M3.1-NAR-02` | `92d86f7be3c403a5` | **899** | 136 | 60–75 mp | hosszú magyarázó ív, hangsúly, angol szakszavak, évszám |
 | **P2** | `M6.2-NAR-04` | `72d4bb4dbb80803a` | **438** | 71 | 40–50 mp | visszafogott érzelmi sáv, idézet, `madrich`/`chanich`/`peula` |
 | **P3** | `M3.1-NAR-05` | `1e11927c2c353b9d` | **271** | 40 | 15–20 mp | mind a három aktuális kvuca-tulajdonnév |
-| | | **hangonként** | **1 536** | 236 | ≈ 2 perc | |
-| | | **hat minta** | **3 072** | 472 | ≈ 4 perc | |
+| | | **hangonként** | **1 608** | 247 | ≈ 2 perc | |
+| | | **hat minta** | **3 216** | 494 | ≈ 4 perc | |
 
 **A mátrix:**
 
@@ -167,7 +172,7 @@ a forrás-hivatkozás és a kiválasztás indoklása:
 
 ```
 teszt__<hang>__<szkript>__<modell>__seed<n>.<kiterjesztés>
-pl.  teszt__dombi-miksa__P1__flash-v2-5__seed4242.wav
+pl.  teszt__voice-src-01__P1__flash-v2-5__seed4242.wav
 ```
 
 Ezek **nem** kerülnek a `masters/` alá és nem asset-deliverable-ök — a hangválasztás
@@ -182,20 +187,22 @@ utána a szükséges alias-szabályok listája — csak azokra a szavakra, amely
 elromlanak.
 
 A kánoni alakok forrása a `Glosszárium – someres és pedagógiai fogalmak.md` és a
-[`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6. szakasza. **A jelenlegi írásmódot teszteljük** — a
-`madrich`/`madrih` és `chanich`/`hánih` house-style kérdés nyitva van, és ez a lap nem
-nyúl hozzá.
+[`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6. szakasza. **Az írásmód eldőlt** (projektgazdai
+döntés, 2026-10-02): a magyar Somer first-party alakjai a kánon (madrih, hanih, hágsámá,
+dugma isit, Leviatán), és a tanulói korpusz egyszeri gépi migrációt kap. A teszt a
+szkriptek mindenkori forrásszövegét használja, tehát a migrált alakokat méri; az „Elvárt
+kiejtés” oszlop már a döntés szerinti alakot adja meg.
 
 | Szó | Elvárt kiejtés | Hol | Kockázat |
 |---|---|---|---|
 | `kvuca`, `kvucába`, `kvucának` | „kvuca” — a **c** = /ts/ | P1, P2, P3 | angol /k/ vagy /kw/ olvasat |
 | `someres` | **s** = /ʃ/ | P1, P3 | angol /s/ |
-| `madrich`, `madrichhoz` | szóvégi **ch** torokhang, nem /cs/, nem /k/ | P2 | **magas** — a `ch` digráf nem magyar elem |
-| `chanich` | a **ch** ugyanaz, **szó elején is** | P2 | **magas** |
+| `madrich`, `madrichhoz` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/, nem /k/ | P2 | **magas** — héber eredetű szóvégi hang |
+| `chanich` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | P2 | **magas** |
 | `peula` | „peula” | P2 | ékezet vagy hangsúly elcsúszása |
 | `Parparim` | „parparim” | P3 | idegen hangsúly |
 | `Kivsza` | „kivsza” | P3 | — |
-| `Leviatan` | „leviatan” — **ékezet nélkül** | P3 | **magas** — a „Leviatán” alak tiltott, a modell hajlamos megnyújtani |
+| `Leviatan` | „leviatán” — hosszú **á**, a first-party alak szerint | P3 | a hangzóhossz és a hangsúly |
 | `Tuckman` | a pilot rögzíti; utána következetesen | P1 | nincs kánoni előírás |
 | `1977-ben` | „ezerkilencszázhetvenhét-ben”, nem számjegyenként | P1 | számnormalizálás |
 | `forming` / `storming` / `norming` / `performing` / `adjourning`-ot | angol olvasat magyar mondatban, az utolsó magyar toldalékkal | P1 | kódváltás |
@@ -254,8 +261,9 @@ kibírja-e 117 tételen — nem az, hogy melyik szebb egyetlen mintán.
 ### 5.1. Azonnali bukás — bármelyik önmagában kizár egy hangot
 
 - [ ] **B1 — Javíthatatlan kiejtés.** Egy kánoni someres szó rosszul szól, és
-      alias-szabállyal sem hozható helyre. *(A `Leviatan` → „Leviatán” önmagában ilyen: a
-      glosszárium kifejezetten tiltja.)*
+      alias-szabállyal sem hozható helyre. *(Ilyen lehet például a `Leviatan`
+      hangzóhossza, ha alias-szabállyal sem hozható a 4. szakasz szerinti „leviatán”
+      alakra.)*
 - [ ] **B2 — Instabilitás generálások között.** Ugyanaz a szöveg, ugyanaz a seed és
       beállítás **hallhatóan más** hangot ad. Ellenőrzés: a nyertes jelölt P2-jét
       **kétszer** kell legyártani és összevetni.
@@ -280,7 +288,7 @@ kibírja-e 117 tételen — nem az, hogy melyik szebb egyetlen mintán.
                                         jog + csomag függvénye — még nyitott
 1.  hangok azonosítása (1.1.)         → voice ID + típus rögzítve
 2.  ha bármelyik hang PVC             → a modell flash_v2_5, a v3 kiesik
-3.  hat minta legyártása              → 0,15–0,61 $
+3.  hat minta legyártása              → 0,16–0,64 $
 4.  meghallgatás + pontozás           → magyar anyanyelvű, someres szóhasználatot
                                         ismerő jóváhagyóval
 5.  a nyertes P2-jének újragyártása   → B2 stabilitási próba
@@ -311,5 +319,7 @@ Ezek nélkül az R3 **nem** zárható le, mert a felvétel nem reprodukálható:
   szerepe (tartalék, dialógus- vagy karakterhang) **külön, későbbi döntés**.
 - **A csomagot.** A kimeneti formátum és a hangtípus dönti el, nem a karakterár —
   [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.7. és 13.9.
-- **A hang-jogosultságot.** → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md), V2/V3 kapuk.
+- **A hang-jogosultságot.** → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) (R2-5; a V3
+  alkapu felelőse és bizonyítéka: 1/A.5.); a V2 és a V3 kérdése:
+  [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.10.
 - **A kiejtési szótár végleges tartalmát.** Az a teszt *eredménye*, nem a bemenete.

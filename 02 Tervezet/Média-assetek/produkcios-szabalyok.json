@@ -25,12 +25,12 @@
     {
       "id": "R5",
       "title": "Ikon- és karakter-batch + lock",
-      "text": "A visszatérő ikon-készletek (SBI 3-szín; a három aktuális kvuca piktogramjai; M6.4 9 szekció-ikon) EGYSZER gyártandók közös stílus-tokennel és rögzített palettával, több helyen újrahasznosítva. Az AI karakter-jelenetek (M1.3-VID-01; M4.1-VID-03/04/05) rögzített referencia-karakterrel/seeddel készülnek, a freeze-frame-ek a videó-gyártás részeként. A konkrét someres hex-paletta ⟬KITÖLTENDŐ⟭."
+      "text": "A visszatérő ikon-készletek (SBI 3-szín; a három aktuális kvuca piktogramjai; M6.4 9 szekció-ikon) EGYSZER gyártandók közös stílus-tokennel és rögzített palettával, több helyen újrahasznosítva. Az AI karakter-jelenetek (M1.3-VID-01; M4.1-VID-03/04/05) rögzített referencia-karakterrel/seeddel készülnek, a freeze-frame-ek a videó-gyártás részeként. A someres hex-paletta (projektgazdai döntés, 2026-10-02; a 2022-es arculati kézikönyv és a hivatalos logó-SVG színgenerációja): #D84C15 piros, #F2BC00 sárga, #87B027 zöld, #369D37 sötétzöld, #08A0CA sötétkék, #82CDE9 kék; a #2B2523 csak a logón belül használható. A stílus-token a PRODUCTION-STYLE-TOKEN.md B változata: Source Sans 3; szövegszín #1D1D1B, halvány #5C5C5B, szerkezeti vonal #8E8E8D, dekoratív vonal #CDCDCD, felület #F1F1F1; körvonalas ikonok 24×24-es rácson, 2/24 vonalvastagsággal, kerek vonalvéggel és -illesztéssel; lapos vektoros illusztráció, nem fotorealisztikus 3D; generált képben nincs szöveg. Az R1 AI-címkéje mindig élő LMS-szöveg, nem képbe égetve; megjelenése a PRODUCTION-STYLE-TOKEN.md 7.3. pontja szerint. A szín soha nem önálló jelentéshordozó: a szín-szemantika modulhatókörű, a jelentést mindig felirat, forma vagy betűjel hordozza (R6)."
     },
     {
       "id": "R6",
       "title": "Szín-szótár",
-      "text": "Tananyag-szintű szín-szótár: ugyanazon alapszín eltérő szemantikai újrahasznosítását (pl. kék = SBI-S vs. kék = Cionizmus) kerülni vagy explicit jelölni kell."
+      "text": "Tananyag-szintű szín-szótár: ugyanazon alapszín eltérő szemantikai újrahasznosítását (pl. kék = SBI-S vs. kék = Cionizmus) kerülni vagy explicit jelölni kell. A feloldás (projektgazdai döntés, 2026-10-02): a szín-szótár modulhatókörű — ugyanaz a szín más modulban más szerepet vihet, mert a jelentést mindig felirat, forma vagy betűjel hordozza, és a szín soha nem önálló jelentéshordozó."
     },
     {
       "id": "R7",

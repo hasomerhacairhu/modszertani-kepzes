@@ -6,6 +6,13 @@ egységesen. Ami már objektíven megvan a tananyagban, azt kimondja; ami hiány
 nyitottként jelöli, és a [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D1
 pontjára mutat.
 
+> ✅ **A D1 2026-10-02-án lezárult** (projektgazdai döntés, `HUM-MEDIA-01`): a hivatalos
+> Somer-paletta; a 2022-es arculati kézikönyv és a hivatalos SVG színgenerációja a kánon; a
+> [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) **B változata** (Source Sans 3 +
+> produkciós semleges skála); a szín szemantikája modulhatókörű; a `#2B2523` csak a logón
+> belül. A 4. szakasz mezői ennek alapján kitöltve. Utólagos ellenőrzés (vétó/QA): a
+> kreatív/márkafelelős.
+
 Három bizonyíték-osztályt tart külön:
 
 | | Jelentés |
@@ -18,17 +25,19 @@ Három bizonyíték-osztályt tart külön:
 
 ## 1. A kereséssel megállapított tény
 
-**A tananyagban nincs hexadecimális színérték.** A teljes fa átvizsgálva (Markdown, JSON,
-Python, YAML; a `_legacy` és a generált kimenetek kivételével) `#RRGGBB` alakú érték a
-leckékben, a kánoni szabályokban és a kódban **sehol nem fordul elő**; csak ennek a
-mappának négy produkciós dokumentumában áll — a még jóvá nem hagyott
+**A döntés előtt a tananyagban nem volt hexadecimális színérték.** A teljes fa átvizsgálva
+(Markdown, JSON, Python, YAML; a `_legacy` és a generált kimenetek kivételével) `#RRGGBB`
+alakú érték a leckékben, a kánoni szabályokban és a kódban **sehol nem fordult elő**; csak
+ennek a mappának négy produkciós dokumentumában állt — az akkor még jóvá nem hagyott
 [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) javaslatban, valamint a rá
 épülő `PILOT-PRODUCTION-PACK.md`-ben, `PRODUCTION-STACK.md`-ben és ebben a lapban. Jóváhagyott
-design-system fájl, arculati leírás és logó-specifikáció nincs; betűtípus-név is csak
-ezekben a produkciós dokumentumokban szerepel.
+design-system fájl, arculati leírás és logó-specifikáció nem volt; betűtípus-név is csak
+ezekben a produkciós dokumentumokban szerepelt.
 
-Ez azt jelenti, hogy az R5 hex-palettája **jóváhagyott formában ma sincs a
-repositoryban**.
+Ez azt jelentette, hogy az R5 hex-palettája jóváhagyott formában nem volt a
+repositoryban. **2026-10-02 óta** a hivatalos palettát és a stílus-tokent a kánoni R5
+szabály (`produkcios-szabalyok.json`) rögzíti, projektgazdai döntés alapján (lásd fent). A
+leckékben továbbra sincs hex-érték: azok szín-szerepet írnak, nem árnyalatot.
 
 > 🔎 **2026-08-27-i kiegészítés: a repositoryn KÍVÜL viszont létezik.** Egy célzott külső
 > keresés megtalálta a mozgalom **saját, nyilvánosan elérhető arculati kézikönyvét** és
@@ -44,6 +53,10 @@ repositoryban**.
 > szervezeti jóváhagyás: a kézikönyv verzió- és dátumbélyeg nélküli, szerkeszthető Google
 > Doc, a `somer.hu` élő oldala pedig még egy **korábbi, eltérő színgenerációt** szállít.
 > Amíg a jóváhagyó nem mondja ki, melyik a hatályos, mind a 258 érintett szemantikus asset R5-blokkolója marad.
+>
+> **2026-10-02:** a projektgazda kimondta (D1-b): a 2022-es kézikönyv és a hivatalos SVG
+> színgenerációja a hatályos. Az R5 nyitott értéke ezzel kitöltve; az asset-szintű
+> R5-blokkolók kivezetése a manifesztben külön lépés.
 
 ## 2. Ami viszont KÖTELEZŐEN megvan
 
@@ -68,9 +81,11 @@ mérhető követelmények, és **bármelyik paletta csak akkor fogadható el, ha
 kell, és a paletta minden párosításának át kell mennie a kontraszt-ellenőrzésen — nem
 utólag, hanem a lock-lap elfogadásakor.
 
-### 2.2. Szemantikus szín-szerepek — ✅ KÖTELEZŐ, MEGVAN (a szerep; ⛔ a hex)
+### 2.2. Szemantikus szín-szerepek — ✅ KÖTELEZŐ, MEGVAN (a szerep; a szerepenkénti márkaszín a pilotban)
 
-A tananyag **mit** jelöl színnel, az rögzített. Az, hogy **melyik hex**, nem.
+A tananyag **mit** jelöl színnel, az rögzített. Az, hogy **melyik hex**, a leckékben nem: a
+paletta 2026-10-02 óta kánon (D1), a szerepenkénti márkaszínt a családonkénti pilot
+rögzíti (például a [`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) P-IKO briefje).
 
 | Család | Szerep | Jelenlegi megnevezés | Assetek |
 |---|---|---|---|
@@ -91,6 +106,11 @@ A tananyag **mit** jelöl színnel, az rögzített. Az, hogy **melyik hex**, nem
 > újrahasznosítását kerülni vagy explicit jelölni kell”. **A paletta-döntésnek erre
 > választ kell adnia** — vagy külön árnyalatokkal, vagy azzal a kimondott döntéssel, hogy
 > a kontextus elválasztja őket (moduláris színszótár).
+>
+> **Feloldva (D1-d, projektgazdai döntés, 2026-10-02):** a szín szemantikája
+> modulhatókörű; az elsődleges jel a forma és a felirat (betűjel). A szín soha nem önálló
+> jelentéshordozó, ezért ugyanaz a szín más modulban újrahasznosítható. A kánoni helye az R6
+> szabály (`produkcios-szabalyok.json`).
 
 ### 2.3. Formátum és méret — ✅ KÖTELEZŐ, MEGVAN
 
@@ -125,6 +145,11 @@ A leckék technikai jegyzeteiből, tételenként:
 - **AI karakter-jelenetek:** rögzített referencia-karakterrel és seeddel készülnek
   (`M1.1-VID-02`, `M1.3-VID-01`, `M4.1-VID-03/04/05`), a freeze-frame-ek
   (`M4.1-FOTO-01/02`) a videó-gyártás részeként.
+- **Gyermekvédelmi és krízis-HOOK:** a projektgazdai döntés szerint (`HUM-MEDIA-03`,
+  2026-10-02) az `M2.4-VID-01`, az `M3.3-VID-01` és az `M3.4-VID-01` nem AI-beszélőfej,
+  hanem hangalámondás + kinetikus tipográfia/grafika. Ezért az R5 (stílus-token)
+  produkciós szabály rájuk is vonatkozik. Utólagos ellenőrzés (vétó/QA): a
+  jogi/adatvédelmi felelős, az érintett jogosultak és a Memuna.
 - **Fotó helyett illusztráció, ahol a képmás-kockázat elkerülhető:** ez már **megtörtént
   projektdöntés** az M6.3-ban („DÖNTÉS: illusztráció (GDPR-kockázat elkerülése),
   FOTO→ILL”). A tananyagban ma **két** valós felvétel van összesen
@@ -142,10 +167,15 @@ De **egyetlen kánoni dokumentum sem nyilvánítja őket hivatalos someres szín
 szín-szerepeket kell elsőként újragondolni, mert 6 asset-család épül rájuk. Ha viszont
 megmaradnak, akkor a döntésnek csak a konkrét árnyalatot kell hozzájuk rendelnie — a
 szerep, az ikon-metafora és az alt-szöveg-megfogalmazás már kész.
+→ **2026-10-02:** a hivatalos paletta kánon (D1); a leckék szín-szavaihoz a konkrét
+márkaszínt a családonkénti pilot rendeli.
 
 🟡 **A fekete-fehér nyomtatvány mint alapértelmezés.** 29 tétel jegyzete kimondja, hogy
 elég a fekete-fehér nyomtatás — ez erős jel arra, hogy a nyomtatott anyagcsalád
 **tipográfiára épül, nem színre**. Nincs viszont olyan döntés, ami ezt szabállyá tenné.
+→ **2026-10-02 óta szabály:** a D1-ben elfogadott B változat
+([`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 7.1.) szerint a fekete-fehér
+kompatibilitás minden nyomtatványon kötelező.
 
 ## 4. Ami hiányzik — a D1 döntés tárgya
 
@@ -155,23 +185,31 @@ elég a fekete-fehér nyomtatás — ez erős jel arra, hogy a nyomtatott anyagc
 |---|---|
 | 🔎 **KÜLSŐ FORRÁSBÓL MEGVAN** | a mozgalom saját, nyilvános arculati anyaga kimondja; **bizonyíték, nem jóváhagyás** — a jóváhagyónak meg kell erősítenie, hogy ez a hatályos változat |
 
+**2026-10-02 óta minden mező kitöltve** — a D1 projektgazdai döntése alapján (✅). A
+korábbi bizonyíték-állapot (🔎 / ⛔) zárójelben marad, nyomon követhetőségért.
+
 | Mező | Állapot | Kire hat |
 |---|---|---|
-| Someres alap-hex-paletta (elsődleges, másodlagos, akcent) | 🔎 **megvan** — 6 alapszín + 18 árnyalat, HEX/RGB/CMYK/Pantone; jóváhagyásra vár | a terv 1C alkötegében jelölt színfüggő tételek + minden színes vizuál |
-| Háttér- és szövegszín (világos/sötét) | 🔎 **részben** — a hivatalos monokróm változat `#1D1D1B`-t használ; a fehér/sötét mód rendszerszintű leképezése javaslat | minden vizuál |
-| Betűtípus — címsor és törzs | 🔎 **részben** — a kézikönyv Myriad Pro-t nevez meg törzsszövegre, de a **betűméret-skálája minden szinten kitöltetlen** („kifejtésre vár”), és a Myriad Pro beágyazási licence nyitott jogi kérdés | mind a 258 R5-tétel |
-| Ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés | ⛔ a kézikönyv nem rendelkezik róla — javaslat készült | 40 ikon-készlet |
-| Karakter-stílus és rögzített referencia-seed | ⛔ nincs bizonyíték | 6 AI karakter-videó + 2 freeze-frame |
-| Logóhasználat, elhelyezés, biztonsági margó | 🔎 **részben** — a használati tiltások (nem átszínezni, nem újrarajzolni, nem nyújtani, nem forgatni, effekt és árnyék nélkül) kimondottak; **biztonsági margó és minimális méret viszont sehol nincs** | poszterek, nyomtatványok |
-| Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ⛔ döntés kell — de a kontraszt-mérés leszűkítette: a paletta 15 színpárja közül **egy sem** éri el a 3:1-et, tehát a szín önmagában semmit nem választ el | SBI, 3 pillér, kérdéstípusok, Do/Don't |
-| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | 🔎 **részben** — hogy **LMS-szöveg, nem képbe égetve**, azt a tananyag maga kimondja (`M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás javaslat | **331 R1-hatályú asset** (275 `ai` + 56 `mixed`) |
+| Someres alap-hex-paletta (elsődleges, másodlagos, akcent) | ✅ **eldőlt** (D1-a, D1-b): `#D84C15` piros, `#F2BC00` sárga, `#87B027` zöld, `#369D37` sötétzöld, `#08A0CA` sötétkék, `#82CDE9` kék; az árnyalatok: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 1.2. *(korábban: 🔎 megvan — 6 alapszín + 18 árnyalat, HEX/RGB/CMYK/Pantone; jóváhagyásra várt)* | a terv 1C alkötegében jelölt színfüggő tételek + minden színes vizuál |
+| Háttér- és szövegszín (világos/sötét) | ✅ **eldőlt** (D1-c, B változat): szöveg `#1D1D1B`, halvány `#5C5C5B`, szerkezeti vonal `#8E8E8D`, dekoratív vonal `#CDCDCD`, felület `#F1F1F1`; sötét módot a döntés nem ír elő *(korábban: 🔎 részben)* | minden vizuál |
+| Betűtípus — címsor és törzs | ✅ **eldőlt** (D1-c): **Source Sans 3** (SIL OFL 1.1) a tananyag-produkcióhoz; a betűméret-skála: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 3.4. A Myriad Pro beágyazási licence így a tananyagot nem érinti *(korábban: 🔎 részben — a kézikönyv betűméret-skálája kitöltetlen)* | mind a 258 R5-tétel |
+| Ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés | ✅ **eldőlt**: körvonalas, 24×24-es rács, 2/24 vonalvastagság, kerek vonalvég és -illesztés ([`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 5.) *(korábban: ⛔ a kézikönyv nem rendelkezik róla)* | 40 ikon-készlet |
+| Karakter-stílus és rögzített referencia-seed | ✅ **a stílus eldőlt**: lapos vektoros illusztráció, nem fotorealisztikus 3D, generált képben nincs szöveg; a referencia-karakter és a seed rögzítése a karakter-gyártás első lépése ([`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md), P-KAR) *(korábban: ⛔ nincs bizonyíték)* | 6 AI karakter-videó + 2 freeze-frame |
+| Logóhasználat, elhelyezés, biztonsági margó | ✅ **eldőlt**: a 2022-es kézikönyv használati tiltásai szerint (nem átszínezni, nem újrarajzolni, nem nyújtani, nem forgatni, effekt és árnyék nélkül); a `#2B2523` csak a logón belül (D1-e). Biztonsági margót és minimális méretet a kézikönyv nem ad meg | poszterek, nyomtatványok |
+| Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ✅ **eldőlt** (D1-d): a szín szemantikája modulhatókörű, az elsődleges jel a forma és a felirat; a szín soha nem önálló jelentéshordozó *(a kontraszt-mérés szerint a paletta 15 színpárja közül egy sem éri el a 3:1-et, tehát más feloldás nem is működne)* | SBI, 3 pillér, kérdéstípusok, Do/Don't |
+| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | ✅ **eldőlt**: mindig élő LMS-szöveg, nem képbe égetve (ezt a tananyag is kimondja: `M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás a [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 7.3. pontja szerint | **331 R1-hatályú asset** (275 `ai` + 56 `mixed`) |
 
 **Amit ez a lap kifejezetten NEM tesz:** nem talál ki hex-értéket, nem nevez meg
 betűtípust és nem rögzít logóhasználatot. Ezek szervezeti-arculati döntések; egy kitalált
-érték 258 érintett szemantikus asseten válna szabállyá, mielőtt bárki jóváhagyta volna. A 🔎 sorok sem
-jóváhagyottak — **megtalált bizonyítékok**, amelyekre a jóváhagyónak igent kell mondania.
+érték 258 érintett szemantikus asseten válna szabállyá, mielőtt bárki jóváhagyta volna. A
+fenti értékeket sem ez a lap találta ki: a megtalált bizonyítékokra és a
+[`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) B változatára a projektgazda
+2026-10-02-i döntése mondott igent.
 
 ## 5. Javasolt zárási sorrend
+
+> **2026-10-02:** a D1 lezárásával az 1. és a 3. lépés egyszerre teljesült; a 2.
+> (pilot-jóváhagyás) és a 4. (karakter-lock) lépés a gyártás része maradt.
 
 1. **Stílus-token** (betűtípus, fejléc- és margórend, ikon-vonalstílus, valamint az
    AI-jelölés **megjelenése** — a szövege már eldőlt). Ezzel a **26 kizárólag
@@ -192,10 +230,10 @@ jóváhagyottak — **megtalált bizonyítékok**, amelyekre a jóváhagyónak i
 
 A lock-lap akkor kész, ha:
 
-- [ ] minden 4. szakaszbeli mező ki van töltve;
+- [x] minden 4. szakaszbeli mező ki van töltve; *(2026-10-02, D1)*
 - [ ] a paletta minden szöveg–háttér párosítása teljesíti a 4,5:1 (nagy szövegnél 3:1)
       arányt, és minden jelentéshordozó grafikai elem a 3:1 arányt;
 - [ ] minden szemantikus színhez tartozik **forma vagy betűjel** is;
-- [ ] az R6 szín-ütközésre van kimondott válasz;
-- [ ] a `produkcios-szabalyok.json` R5 szövegéből kivezethető a nyitott-érték jelölés;
+- [x] az R6 szín-ütközésre van kimondott válasz; *(D1-d)*
+- [x] a `produkcios-szabalyok.json` R5 szövegéből kivezethető a nyitott-érték jelölés; *(kivezetve, 2026-10-02)*
 - [ ] `python3 tools/media_manifest.py build` lefutott, és a köteg-terv frissült.

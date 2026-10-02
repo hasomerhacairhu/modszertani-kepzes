@@ -58,7 +58,7 @@
 
 > **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 7. dia „Single Choice”, valamint a 3. dia „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
-> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; amíg a megőrzés nincs lezárva, az adatot gyűjtő aktivitás nem nyitható meg valódi madrichnak (Program terv 4. szakasz).
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrichnak (Program terv 4. szakasz).
 
 ### SLIDE 1 – HOOK: „Nagyon nagyot, vagy inkább kicsit?”
 
@@ -87,9 +87,7 @@
     "R1",
     "R5"
   ],
-  "blockers": [
-    "R5"
-  ],
+  "blockers": [],
   "notes": "Az egyetlen explicit legyártandó vizuális asset a leckében. A SLIDE 1 cím- és szövegblokkjához és a dia Single Choice kérdéséhez tartozik. A diákon szereplő emoji (1️⃣2️⃣3️⃣🎯🔁🛟✅; valós előfordulás: a 3., a 4. és a 7. dia szövegében és a biztonsági lépésben) inline szöveg-dekoráció a H5P szövegmezőkben, NEM legyártandó ikon-asset. A biztonsági lépésben hivatkozott M0.A „Kihez fordulhatok?” térkép és M3.3 jelzési lánc MÁS leckék assetjei (kereszthivatkozás), nem Z.3-ban gyártandók. A lecke meta „Felépítés: Hook → Input → …” sora meta-dokumentáció, nem dián megjelenő ábra.",
   "legacy": {
     "alt-text": [
@@ -209,6 +207,8 @@ Opciók:
 > 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál – **terv → levezetés → megfigyelés → visszajelzés → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrich **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán. Legalább **1 alkalom** tudatos inkluzivitási adaptációt tartalmaz, és legalább **1 alkalom** után dokumentált biztonsági és határkezelési reflexiót készítesz akkor is, ha nem történt incidens. A megfigyelési jegyzeted rövid és adatminimalizált legyen: chanich érzékeny adata nélkül.
 >
 > Vagyis a Peula v2 nem a végállomás, hanem az **első bevetésed alapanyaga**. A pontos naptárt, a mentor-hozzárendelést és a dokumentálás formáját a képződ mondja meg.
+>
+> A 15–17 éves madrich vezethet peulát, de soha nem ő az egyetlen felelős felnőtt: minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé. Ha valós gyermekvédelmi eset történik, annak azonosítható részleteit a biztonsági reflexióba se írd: ilyenkor azonnal bevonod a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét), az eset dokumentációja pedig nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül.
 
 > Emlékszel a **Peula v2-dre**, amit az M7-ben raktál össze? Itt az ideje, hogy a papírról a terepre lépjen.
 
@@ -220,7 +220,7 @@ Opciók:
 
 > Töltsd ki mind a hármat (ez nem fogadalom, hanem terv):
 > – **MIKOR** futtatod le? (pl. „a következő 3 Zmán Kvucám közül a másodikon”)
-> – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed.
+> – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed. Csak csoportszintű információt írj: chanich-nevet, egyéni érzékeny történetet vagy diagnózist ne.
 > – **1 ELŐRE LÁTOTT AKADÁLY → ha–akkor megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
 
 > Segítő példa (ha–akkor):
@@ -290,18 +290,18 @@ Mezőben megjelenő mintaszöveg:
 
 > 🛟 **Mielőtt élesben kvucát viszel – 1 biztonsági lépés (nem hagyható ki)**
 
-> A terepen nem csak módszertanilag lépsz élesbe: **madrichként felelős szereped lesz**, miközben te magad is lehetsz még kiskorú, hiszen a képzés 15 éves kortól szól. Gyermekvédelmi vagy más biztonsági helyzetben **nem neked kell egyedül „a felnőttnek” lenned**: tudd előre, melyik kijelölt felelős felnőttet / gyermekvédelmi felelőst vonod be, és a helyi protokoll szerint jelezz.
+> A terepen nemcsak módszertanilag lépsz élesbe: **madrichként felelős szereped lesz**, miközben te magad is lehetsz még kiskorú, hiszen a képzés 15 éves kortól szól. **Nem neked kell egyedül „a felnőttnek” lenned:** minden éles alkalmon jelen van (vagy a helyszínen azonnal elérhető) a felkészített, 18 év feletti felelős felnőtt, akié a gyermekvédelmi felelősség; ha pedig gyermekvédelmi aggályod van, azonnal bevonod a kijelölt Memunát.
 
-> – **Tudd meg / erősítsd meg**, ki a kened **gyermekvédelmi felelőse** (a nevét és az elérhetőségét), és ki a **ken-vezetőd**.
+> – **Tudd meg / erősítsd meg**, ki a kijelölt **Memuna** és a név szerint kijelölt helyettese (a nevüket és az elérhetőségüket), és ki lesz az éles alkalmaidon jelen lévő **18 év feletti felelős felnőtt**.
 > – Tudd, **hova / kinek szólsz jelzés esetén** – és azt, hogy a helyzettel **nem maradsz egyedül**.
 
 > Írd le 1 mondatban (ha még nincs meg a név, írd be, kit kérdezel meg róla):
 
-> **„Az első éles Zmán Kvucám előtt a Moodle-kurzusban és a helyi protokollban ellenőrzöm a kijelölt gyermekvédelmi felelős és helyettes **nevét + elérhetőségét**, és felírom magamnak. Ha ez nincs egyértelműen megadva, nem vezetek önállóan éles foglalkozást, hanem jelzem a képzőnek.”**
+> **„Az első éles Zmán Kvucám előtt a Moodle-kurzus »Segítség és kapcsolatok« blokkjában ellenőrzöm a kijelölt Memuna és a helyettese nevét és elérhetőségét, és felírom magamnak. Ha ez nincs egyértelműen megadva, vagy egy éles alkalmon a felkészített, 18 év feletti felelős felnőtt nincs jelen, és a helyszínen sem érhető el azonnal, nem vezetek éles foglalkozást, hanem jelzem a képzőnek.”**
 
 **Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
-1 rövid mező – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **ki** a gyermekvédelmi felelős (vagy kit kérdezel meg róla) és **kinek jelzel** ebben az esetben. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy a terepen megtudd; lásd M0.A → M3.3.)*
+1 rövid mező – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **ki** a Memuna (vagy kit kérdezel meg róla) és **kinek jelzel** ebben az esetben. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy az első éles Zmán Kvucád előtt megtudd; lásd M0.A → M3.3.)*
 
 ***
 

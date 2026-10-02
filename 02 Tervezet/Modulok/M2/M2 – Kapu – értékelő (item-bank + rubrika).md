@@ -19,11 +19,12 @@
 |---|---|
 | **Kapu típusa** | **Puha kapu** – fejlesztő, NEM vizsgáztató. Jelzés és támogatás, nincs kizárás. |
 | **Mit mér** | Az integráló kimeneti kompetenciát (M2 5. kompetencia): a madrich össze tudja-e kötni az **identitás-köreit + 1 someres értéket + érték→megfigyelhető viselkedés kapcsolatot + 1 konkrét idei dugma ishit-vállalást** egy összefüggő, viselkedésszintű jegyzetben. |
-| **Hogyan egészíti ki a modul kapuját** | Az M2 modul-áttekintő (6. Kapuk) szerint a „complete” feltétele *„1 oldalas madrich identitás-jegyzet leadva, záró dugma ishit-mondattal”*. Ez a fájl adja hozzá a sablont, egy könnyű, fejlesztő rubrikát és a tanulói önellenőrzést. |
-| **Küszöb (puha kapu)** | **Beadáshoz:** az önellenőrző lista **önellenőrzés**, nem beadás-blokkoló – ha mind a 10 pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: aki ez alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (felzárkóztató műhely) ajánlást** kap, és újra beadhat. |
-| **Mit NEM csinálunk** | Nem pontozzuk numerikusan, nem rangsorolunk, nem osztályozunk. A rubrika „erős/gyenge” helyett **megfigyelhető szövegjegyeket** néz. A jegyzet tartalma privát: csak a mentor/képző látja. |
+| **Hogyan egészíti ki a modul kapuját** | Az M2 modul-áttekintő (6. Kapuk) szerint a „complete” feltétele *„1 oldalas madrich identitás-jegyzet leadva, záró dugma ishit-mondattal”* – de csak akkor, ha a D. sablon előírt blokkjaiban **tényleges, minimálisan értelmezhető tartalom** van: üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem completion. Ez a fájl adja hozzá a sablont, egy könnyű, fejlesztő rubrikát és a tanulói önellenőrzést. |
+| **Küszöb (puha kapu)** | **Beadáshoz:** az önellenőrző lista **önellenőrzés**, nem beadás-blokkoló – ha mind a 10 pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: a puha kapu formatív, nem blokkol (definíciója: Program terv §5). Aki a küszöb alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (F-peula) ajánlást** kap, és újra beadhat. |
+| **Megerősítés** | A mentor a kapueredményt legkésőbb 24 órával a következő fix alkalom előtt megerősíti. A még meg nem erősített, függőben lévő eredmény nem bukás. |
+| **Mit NEM csinálunk** | Nem pontozzuk numerikusan, nem rangsorolunk, nem osztályozunk. A rubrika „erős/gyenge” helyett **megfigyelhető szövegjegyeket** néz. A jegyzet tartalma privát: csak a kijelölt mentor/értékelő látja, és csak annyiban, amennyiben az értékeléshez ténylegesen szükséges. |
 | **LMS-eszköz** | **Moodle Assignment + rubrika** (a fő produktum: az identitás-jegyzet feltöltése, fájl vagy online szöveg; a 4 soros rubrika a Moodle „Rubric” értékelési módszereként rögzítve, fejlesztő kommenttel). **Opcionálisan: H5P Question Set / Moodle Quiz** a B. szakasz fogalmi önellenőrző itemeivel – ez **formatív, completion-alapú, NEM ponthatáros**, csak segít a tanulónak ellenőrizni, érti-e a kulcsfogalmakat a jegyzet megírása előtt. |
-| **Javítási útvonal** | Hiányos / nagyon felszínes jegyzet → mentor SBI-jellegű fejlesztő üzenet (max. 3 pont) + M2.F ajánlása + újra beadás. Nincs limit a próbálkozásra. |
+| **Javítási útvonal** | Hiányos / nagyon felszínes jegyzet → a mentor fejlesztő üzenete a produktum-visszajelzés modellje szerint (Megfigyelés → Hatás → Következő lépés; max. 3 pont) + M2.F ajánlása + újra beadás. Próbálkozások: 1 normál + 1 javító beadás automatikusan, további beadást a képző nyithat kézzel. A legjobb megerősített eredmény számít; egy már elfogadott jegyzet nem romlik vissza egy önkéntes újrabeadástól. |
 
 > ⚠️ **Mit mér valójában a kapu?** Ha csak a *leadás tényét* mérnénk, azt üres vagy felszínes tartalommal is ki lehetne váltani. Ezért minden rubrikasor **megfigyelhető, viselkedésszintű kritériumhoz** van kötve (pl. „van konkrét, viselkedésszintű mondat” vs. „csak absztrakt értékszó”), nem „jó/rossz” minősítéshez. A B. szakasz kvízei szándékosan **nem a kapu** – formatív önellenőrzés.
 
@@ -31,20 +32,20 @@
 
 ## A. Tanulói önellenőrző lista (a jegyzet beadása ELŐTT)
 
-> Nézd végig ezt a listát, mielőtt feltöltöd az identitás-jegyzetedet. Ez **nem vizsga** – arra jó, hogy te magad lásd, tényleg összeállt-e a jegyzeted, vagy maradt benne valami félkész. Ha **mindegyikre tudsz pipát tenni**, biztosan kész vagy. Ez **önellenőrzés, nem beadás-feltétel**: ha 1–2 pontnál elakadsz, **akkor is beadhatod** – az elakadás pont egy jó pont, amin még dolgozhatsz (vagy amit M2.F-ben átnézhetsz), és a mentor fejlesztő kommentet ad, nem buktat.
+> Nézd végig ezt a listát, mielőtt feltöltöd az identitás-jegyzetedet. Ez **nem vizsga** – arra jó, hogy te magad lásd, tényleg összeállt-e a jegyzeted, vagy maradt benne valami félkész. Ha **mindegyikre tudsz pipát tenni**, biztosan kész vagy. Ez **önellenőrzés, nem beadás-feltétel**: ha 1–2 pontnál elakadsz, **akkor is beadhatod** – az elakadás pont egy jó pont, amin még dolgozhatsz (vagy amit a mentoroddal átbeszélhetsz), és a mentor fejlesztő kommentet ad, nem buktat.
 
 - [ ] **1. Identitás-körök.** Megneveztem **legalább 3 identitás-körömet** (pl. ÉN–család–zsidóság–Somer–egyéb közegek), nemcsak felsoroltam, hanem egy mondatban azt is leírtam, **melyik kör hogyan hat rám madrichként**.
 - [ ] **2. 1 someres érték.** Kiválasztottam **1 konkrét someres értéket** (pl. egyenlőség, közösség, társadalmi felelősség, szolidaritás, igazságosság), amiben idén tudatosan példát szeretnék mutatni – és ez **érték, nem hangulat** (nem „jó fej leszek”, hanem pl. „egyenlőség”).
 - [ ] **3. Érték → viselkedés.** Az értékemhez leírtam **legalább 1 konkrét, megfigyelhető viselkedést**, amit a chanichok **rajtam láthatnak** (pl. „a csendesebbeket is név szerint megszólítom körben”), nem csak azt, hogy „fontos nekem a közösség”.
 - [ ] **4. Külső nézőpont.** Megfogalmaztam, **mit olvasna le rólam egy chanich**, ha csak figyelne egy peulán – tehát kívülről, a viselkedésemből nézem, nem belülről a szándékomból.
 - [ ] **5. Pillér-kapcsolat.** Legalább **1 helyen összekötöttem** az értékemet vagy a viselkedésemet a Somer egyik pillérével (cionizmus / szocializmus / humanista zsidóság) egy konkrét helyzeten keresztül.
-- [ ] **6. Határ / dugma ishit ≠ terapeuta.** Beírtam **legalább 1 saját határszabályt** (pl. „nem nyitok éjszakai privát 1:1 chatet chanichokkal, hanem csoportos / hivatalos csatornára terelem a beszélgetést”, „súlyos jelzésnél nem maradok egyedül, szólok a mentornak”), és értem, hogy **a határtartás is példamutatás**.
+- [ ] **6. Határ / dugma ishit ≠ terapeuta.** Beírtam **legalább 1 saját határszabályt** (pl. „nem nyitok privát 1:1 chatet chanichokkal, hanem csoportos / hivatalos csatornára terelem a beszélgetést”, „gyermekvédelmi jelzésnél nem maradok egyedül, azonnal bevonom a kijelölt Memunát (a Somer gyermekvédelmi felelősét)”), és értem, hogy **a határtartás is példamutatás**.
 - [ ] **7. Idei vállalás.** Van benne **1 konkrét, idei (most kezdődő évre szóló) dugma ishit-vállalásom** – nem általános elv, hanem valami, amit a saját kvucámmal el tudok kezdeni.
 - [ ] **8. Záró dugma ishit-mondat.** Van egy **záró mondatom**, ami így (vagy hasonlóan) kezdődik: *„Idén madrichként abban szeretnék személyes példát mutatni, hogy…”* – és konkrét viselkedéssel folytatódik.
 - [ ] **9. Saját szavak.** A jegyzet **a saját szavaimmal** szól, őszinte – nem a leckék mondatait másoltam be. (Nem kell szép, kell igaz.)
 - [ ] **10. Egy oldal.** Belefér **kb. 1 oldalba** – inkább tömör és konkrét, mint hosszú és általános.
 
-> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak, vagy hozd el M2.F-re (felzárkóztató műhely), és ott tovább dolgozhatsz rajta. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
+> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak; ha a kapu ezután nem teljesül, az M2.F-en (F-peula) tovább dolgozhatsz rajta. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
 
 ***
 
@@ -98,18 +99,18 @@ Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mut
 - C) Teret adsz mindkét nézőpontnak, kérdezel, keretet tartasz, és vigyázol az emberi méltóságra. ✅
 - D) Megvárod, míg maguktól abbahagyják, és nem szólsz bele.
 
-> **Visszajelzés:** ✅ **C – „Teret adsz mindkét nézőpontnak, kérdezel, keretet tartasz”.** A Somerben a cionizmus **kapcsolat, kritikus gondolkodás, emberi méltóság és béke** – ez a vitavezetés *módjában* látszik. A téma gyors lezárása elkerülés, a „helyes” vélemény kimondása a saját igazság ráerőltetése, a kivárás pedig keret nélkül hagyja a feszültséget – egyik sem mutat tudatos, someres példát. A jegyzeted 3. blokkjához (Pillér a gyakorlatban) érdemes egy ilyen konkrét helyzetet kötni.
+> **Visszajelzés:** ✅ **C – „Teret adsz mindkét nézőpontnak, kérdezel, keretet tartasz”.** A Somerben a cionizmus **kapcsolat, kritikus gondolkodás, emberi méltóság és béke** – ez a vitavezetés *módjában* látszik. A téma gyors lezárása elkerülés, a „helyes” vélemény kimondása a saját igazság ráerőltetése, a kivárás pedig keret nélkül hagyja a feszültséget – egyik sem mutat tudatos, someres példát. A jegyzeted 3. blokkjához (Pillér a gyakorlatban) érdemes egy ilyen konkrét helyzetet kötni. <!-- HUM-SOMER-01: projektgazdai döntés (2026-10-02): a helyi Ideológiai Kézikönyv a kánon; az Izrael/palesztin dimenzió végleges tanulói szövege (`Emberi jóváhagyás szükséges.md`, HUM-SOMER-01) az M2.3 C1-oldalán áll. Utólagos ellenőrzés (vétó/QA): a helyi ideológiai felelős. -->
 
 ### Item 5 – Dugma ishit ≠ terapeuta / határ (M2.4)
 
 Egy 12 éves chanichod késő este privátban ír: *„Senki nem ért meg. Minden rossz. Te vagy az egyetlen, aki normális.”* Melyik a **felelős, határtartó** első lépés, amit a jegyzeted határ-részében is megfogalmazol?
 
 - A) Egész éjjel chatelsz vele privátban, amíg jobban nem lesz, és senki másnak nem szólsz, mert úgy érzed, nem hagyhatod magára.
-- B) Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek – nem maradsz egyedül vele. ✅
+- B) Röviden jelzed a szervezeti csatornán, hogy láttad és segítséget hívsz, privátban nem folytatod, és azonnal bevonod a Memunát. ✅
 - C) Nem válaszolsz neki, mert ez már nem a te dolgod, túl nagy teher, és nem egy madrich felelőssége ezt megoldani.
 - D) Megígéred neki, hogy ez kettőtök titka marad, és magad próbálod megoldani.
 
-> **Visszajelzés:** ✅ **B – „Rövid, empatikus választ adsz, hivatalos csatornára tereled, és jelzel a felelősnek”.** Ez a *„nem terapeuta, de megbízható madrich”* alapelv: **észreveszed, komolyan veszed, nem maradsz egyedül a helyzettel, és jelzel** – a teljes gyermekvédelmi lépéstérképet az M3.B peulán rakjuk össze. Az egész éjszakás privát chatelés összemossa a határokat, és függőséget építhet; a válasz elmaradása magára hagyja a gyereket; a titoktartás ígérete pedig gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 4. blokkjában.
+> **Visszajelzés:** ✅ **B – „Röviden jelzed a szervezeti csatornán, hogy láttad és segítséget hívsz, … és azonnal bevonod a Memunát”.** Ez a *„nem terapeuta, de megbízható madrich”* alapelv: **nem maradsz egyedül a helyzettel, és azonnal bevonod a Memunát** (a Somer gyermekvédelmi felelősét) – a teljes, ötlépéses jelzési utat az M3.B peulán rakjuk össze (lépéstérkép). A rövid üzenet csak nyugtázás, nem a helyzet megoldása: a beszélgetést nem viszed tovább privátban, hanem hivatalos csatornára tereled. Kiskorúval a személyes közösségimédia-fiókodról nem kommunikálsz, a szervezeti csatorna viszont használható. Az egész éjszakás privát chatelés összemossa a határokat, és függőséget építhet; a válasz elmaradása magára hagyja a gyereket; a titoktartás ígérete pedig gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 4. blokkjában.
 
 ### Item 6 – Mi az „idei vállalás”? (M2 integráció)
 
@@ -140,9 +141,9 @@ M2.4 szerint nem minden témának ugyanott a helye. Egy chanich a peula szünet�
 - A) Részletesen elmeséled a saját, most is zajló szorongásodat, és tőle kérsz megerősítést, hogy jól kezeled.
 - B) „Ez nem tartozik rád” – elzárkózol a kérdés elől, témát váltasz, és inkább nem osztasz meg semmit.
 - C) Röviden megosztod, hogy veled is előfordult már hasonló, és így emberként kapcsolódsz. ✅
-- D) Nem reagálsz, és rögtön jelented a mentornak, hogy a chanich a magánéletedre kérdezett rá a szünetben.
+- D) Nem reagálsz, és rögtön jelzed a Memunának, hogy a chanich a magánéletedre kérdezett rá a szünetben.
 
-> **Visszajelzés:** ✅ **C – „…veled is előfordult már hasonló, és így emberként kapcsolódsz”.** Ez a **„személyes”** szint M2.4-ből: megoszthatsz valamit, hogy emberinek lássanak és kapcsolódni tudjatok, **de nem támaszkodsz érzelmileg a chanichokra**. A most is zajló szorongásod részletes elmesélése átcsúszik a **privát** sávba (a saját aktuális krízised nem a chanichra tartozik), az „Ez nem tartozik rád” válasz fölöslegesen elzárkózik egy ártalmatlan kérdéstől, a mentornak tett azonnali jelentés pedig egy hétköznapi kérdést kezel gyermekvédelmi jelzésként. A jegyzeted 4. blokkjához (határ) ez a három sáv ad keretet.
+> **Visszajelzés:** ✅ **C – „…veled is előfordult már hasonló, és így emberként kapcsolódsz”.** Ez a **„személyes”** szint M2.4-ből: megoszthatsz valamit, hogy emberinek lássanak és kapcsolódni tudjatok, **de nem támaszkodsz érzelmileg a chanichokra**. A most is zajló szorongásod részletes elmesélése átcsúszik a **privát** sávba (a saját aktuális krízised nem a chanichra tartozik), az „Ez nem tartozik rád” válasz fölöslegesen elzárkózik egy ártalmatlan kérdéstől, a Memunának tett azonnali jelzés pedig egy hétköznapi kérdést kezel gyermekvédelmi ügyként. A jegyzeted 4. blokkjához (határ) ez a három sáv ad keretet.
 
 ### Item 9 – A határtartás mint példamutatás (M2.4)
 
@@ -174,7 +175,7 @@ Közös hanukai programon valaki odaszól: *„Ez az egész zsidó dolog tök ci
 >
 > **LMS:** Moodle Assignment → értékelési módszer: **Rubric** (4 sor, soronként 3 szint). A szintekhez a Moodle-ben rendelhető 0/1/2 „pont”, de ezt **ne mutasd osztályzatként** – a tanuló a **szöveges szintleírást és a kommentet** látja, nem rangsort.
 >
-> **Puha kapu küszöbe:** beadás elfogadva, ha **minden sor ≥ „1 – elindult”** ÉS **legalább 1 sor „2 – kész”**. Ez alatt → fejlesztő komment + M2.F ajánlás + újra beadás (nincs bukás, nincs limit).
+> **Puha kapu küszöbe:** beadás elfogadva, ha **minden sor ≥ „1 – elindult”** ÉS **legalább 1 sor „2 – kész”**. Ez alatt → fejlesztő komment + M2.F ajánlás + újra beadás (nincs bukás; 1 normál + 1 javító beadás automatikusan, további a képző kézi nyitásával).
 
 | # | Mit nézünk (megfigyelhető) | 0 – még nincs meg | 1 – elindult | 2 – kész (látható, konkrét) |
 |---|---|---|---|---|
@@ -183,7 +184,7 @@ Közös hanukai programon valaki odaszól: *„Ez az egész zsidó dolog tök ci
 | **R3** | **Pillér- / dugma ishit-kapcsolat helyzetben** (M2.3) | Nincs pillér-kapcsolat, vagy csak a pillér neve szerepel definíció-szinten, helyzet nélkül. | Megnevez egy pillért (cionizmus / szocializmus / humanista zsidóság) és kapcsol hozzá értéket, de **általánosságban**, konkrét kvuca-helyzet nélkül. | **Legalább 1 pillér konkrét kvuca-helyzethez kötve** (vita / döntés / ünnep), és látszik, **milyen viselkedéssel** mutatna ott példát (nem a definíció, hanem a tett). |
 | **R4** | **Határ + konkrét idei vállalás + záró mondat** (M2.4 + integráció) | Nincs határszabály vagy idei vállalás; a záró mondat hiányzik vagy üres általánosság („jó madrich leszek”). | Van záró dugma ishit-mondat és/vagy határszabály, de **általános**, nem idei vagy nem viselkedésszintű („tisztelni fogom a határokat”). | **Van legalább 1 konkrét, viselkedésszintű határszabály** ÉS **1 konkrét, idei dugma ishit-vállalás** a záró mondatban (mit, hol, hogyan – a saját kvucájában elkezdhető). |
 
-### Sablon-visszajelzés a mentornak (gyors, konzisztens, SBI-szellemű)
+### Sablon-visszajelzés a mentornak (gyors, konzisztens: Megfigyelés → Hatás → Következő lépés)
 
 A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha egy sor még „1 – elindult”:
 
@@ -197,7 +198,7 @@ A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha e
 
 ## D. 1 oldalas identitás-jegyzet – sablon (a tanulónak)
 
-> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. A beadást a kijelölt mentor/képző értékeli a jóváhagyott kurzus-hozzáférések szerint. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz; gyermekvédelmi feltárás esetén a jóváhagyott safeguarding-eljárás lép életbe.
+> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Üres vagy kitöltetlen sablon feltöltése nem teljesítés: a blokkokba tényleges, saját tartalom kell. A beadásodat csak a kijelölt mentorod vagy értékelőd látja és értékeli. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz. Ha a jegyzetből az derül ki, hogy valaki – akár te magad – veszélyben van, azt nem a feladat részeként kezeljük: a mentorod azonnal bevonja a Memunát.
 >
 > 🔒 **Mit kérünk és mit nem.** Itt **nem az identitásod tartalmát értékeljük**, hanem azt, hogy tudsz-e belőle **megfigyelhető madrich-viselkedést** levezetni. Ezért:
 > – a köröket elég **általánosan** megnevezned (pl. „család”, „zsidó közösség”, „iskola”) – nem kell személyes történet, diagnózis, családi konfliktus vagy más érzékeny részlet;
@@ -239,9 +240,9 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
 4) HATÁR + IDEI VÁLLALÁS  (M2.4)
    1 saját határszabályom (véd engem ÉS példát mutat – „nem vagyok terapeuta”):
    • __________________________________________________________________
-   (pl. nem nyitok éjszakai privát 1:1 chatet, hanem csoportos / hivatalos
-   csatornára terelem a beszélgetést; súlyos jelzésnél szólok a mentornak,
-   nem maradok egyedül.)
+   (pl. nem nyitok privát 1:1 chatet chanichokkal, hanem csoportos /
+   hivatalos csatornára terelem a beszélgetést; gyermekvédelmi jelzésnél
+   azonnal bevonom a Memunát, nem maradok egyedül.)
 
    ZÁRÓ DUGMA ISHIT-MONDAT (konkrét, idei vállalás):
    „Idén madrichként abban szeretnék személyes példát mutatni, hogy ______
@@ -249,7 +250,7 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
    __________________________________________________________________ .”
 ```
 
-> **Tipp:** mielőtt beadod, nézd végig az **A. önellenőrző listát** – ha mind a 10-re pipa, kész vagy. Ha valamiben elakadsz, az pont egy jó beszélgetés a mentoroddal vagy M2.F-en.
+> **Tipp:** mielőtt beadod, nézd végig az **A. önellenőrző listát** – ha mind a 10-re pipa, kész vagy. Ha valamiben elakadsz, az pont egy jó beszélgetés a mentoroddal; ha pedig a kapu nem teljesül, az M2.F-en (F-peula) javíthatsz rajta.
 
 ***
 
@@ -259,8 +260,8 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
 2. **Van megnevezett someres érték, legalább általános szándékkal** (R2 ≥ 1), nem csak absztrakt szó vagy hangulat? A konkrét, megfigyelhető viselkedés: R2 = 2.
 3. **Van megnevezett pillér, és kapcsolódik hozzá érték** (R3 ≥ 1), nem csak a pillér neve vagy definíciója? A konkrét kvuca-helyzethez kötés: R3 = 2.
 4. **Van záró dugma ishit-mondat és/vagy határszabály**, ha még általános is (R4 ≥ 1)? A konkrét határszabály és a záró mondatban az idei, konkrét vállalás: R4 = 2.
-5. **Küszöb:** minden sor ≥ 1 ÉS legalább 1 sor = 2 → **elfogadva**. Ha nem → fejlesztő komment (1 erősség + 1 következő lépés) + **M2.F ajánlás** + újra beadás. **Nincs kizárás, nincs limit.**
+5. **Küszöb:** minden sor ≥ 1 ÉS legalább 1 sor = 2 → **elfogadva**. Ha nem → fejlesztő komment (1 erősség + 1 következő lépés) + **M2.F ajánlás** + újra beadás. **Nincs kizárás**; 1 normál + 1 javító beadás automatikusan, további a képző kézi nyitásával.
 
-> ⚠️ **Gyermekvédelmi feltárás:** ha a jegyzetből az derül ki, hogy a szerzője vagy valaki más veszélyben van (pl. bántás, önveszélyeztetés), azt nem kezeled egyszerű tanulói beadandóként: a jóváhagyott safeguarding-eljárás lép életbe (`Adatvédelem – tanulói adatok és AI.md`, 5. pont; `Gyermekvédelem – release gate.md`, 4. pont). Nem ígérsz titoktartást, nem nyomozol, nem maradsz egyedül a helyzettel, és a HUM-SAFE-01 szerint jóváhagyott helyi jelzési utat követed.
+> ⚠️ **Gyermekvédelmi feltárás:** ha a jegyzetből az derül ki, hogy a szerzője vagy valaki más veszélyben van (pl. bántás, önveszélyeztetés), azt nem kezeled egyszerű tanulói beadandóként, hanem az ötlépéses jelzési út szerint jársz el (`Adatvédelem – tanulói adatok és AI.md`, 5. pont; `Gyermekvédelem – release gate.md`, 4. pont): nem ígérsz teljes titoktartást, nem nyomozol, nem konfrontálsz, nem próbálod egyedül megoldani, és azonnal bevonod a kijelölt Memunát (összeférhetetlenség esetén a név szerint kijelölt helyettesét); közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés. Az esetről a Moodle-ben (értékelésben, kommentben) nem írsz azonosítható részletet: a dokumentáció a külön, hozzáférés-korlátozott incidensnyilvántartásba kerül.
 
 > Tanulási analitikai szempontból érdemes naplózni (nem blokkolóként): hány jegyzetben marad R2 vagy R4 „0–1” szinten – ez jelzi, hol kell a következő évfolyamnak több érték→viselkedés gyakorlás vagy konkrétabb vállalás-segítés (összhangban az M2 7. szakaszával).

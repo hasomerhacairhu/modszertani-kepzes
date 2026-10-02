@@ -22,7 +22,7 @@ Ez az M6 kapu **két komponensének** kész értékelőanyaga. A kettő **nem eg
 | **(B) Játéklap** *(ELSŐDLEGES ÉLES KAPU)* | **Moodle Assignment + rubrika**; a társas visszajelzés az M6.B élő műhely része | **éles, blokkoló** | **minden rubrika-sor legalább „Oké” (2) szint** + **blokkoló feltétel a Biztonság és az Inkluzivitás soron** |
 | **(A) Szcenárió-kvíz** | **Moodle Quiz** vagy **H5P Question Set** | **formatív / diagnosztikus** (nem blokkol) | **ajánlott ≥ 80%** (12 itemből legfeljebb 2 hiba) önellenőrzésként, korlátlan próbálkozással, randomizált item- és opciósorrenddel |
 
-> **Adatvédelmi tájékoztató:** mindkét komponens (kvíz és Assignment) indítópontján a Program terv §7 tájékoztató sablonja áll; a megőrzésről, a címzettekről és a kapcsolattartásról szóló részt a HUM-PRIV-01 szerint jóváhagyott tartalom tölti ki.
+> **Adatvédelmi tájékoztató:** mindkét komponens (kvíz és Assignment) indítópontján a Program terv §7 tájékoztató sablonja áll; a megőrzésről, a címzettekről és a kapcsolattartásról szóló részt a HUM-PRIV-01 projektgazdai döntése (2026-10-02) szerinti adatkezelési mátrix (`Adatvédelem – tanulói adatok és AI.md` §3) tölti ki.
 
 ### Kapu-filozófia – miért a játéklap az elsődleges kapu?
 
@@ -59,7 +59,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 |---|---|---|
 | Korosztály–eszköz illesztés (Parparim 6–9 / Kivsza 10–12 / Leviatan 13–17) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
 | Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4, M6.A | 5, 6, 7 |
-| **Azonnali biztonsági reflex** (mikor állsz le / kinek jelzel) – R4 „Erős” | M6.A 4.3.2/B, M3 gyermekvédelmi átkötés | **P1** *(pool/csere-item)* |
+| **Azonnali biztonsági reflex** (mikor állsz le / kinek jelzel) – R4 „Erős” | M6.A 4.3.2/B, ötlépéses jelzési út (M3.B lépéstérkép) | **P1** *(pool/csere-item)* |
 | **Inkluzivitást** növelő variáció azonosítása | M6.3, M6.4 | 8, 9, 10 |
 | **Érzékenység a felkavaró tartalmakra** (történet/élményjáték) | M6.2, M6.4 (B-ág) | 11, 12 |
 
@@ -349,7 +349,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > Egy **15 éves** kvucában „Szél fújja azt, aki…” közben az egyik chanich **láthatóan rosszul lesz** egy identitást súroló állítás után: elhúzódik, könnybe lábad a szeme. A játék még tart. **Mit teszel ELSŐ lépésként?**
 
 **Opciók:**
-- A) Leállítom a kört egy semleges mondattal („Álljunk meg egy pillanatra, csináljunk egy kis levegőt”), felkínálom mindenkinek a kiülést, nem reflektorozom rá az érintettet – és még a peula alatt jelzem a felelős madrichnak / mentornak. ✅
+- A) Leállítom a kört egy semleges mondattal („Álljunk meg egy pillanatra, csináljunk egy kis levegőt”), felkínálom mindenkinek a kiülést, nem reflektorozom rá az érintettet – és még a peula alatt bevonom a kijelölt Memunát (a Somer gyermekvédelmi felelősét). ✅
 - B) Nyilvánosan megkérdezem tőle a kör előtt, hogy „mi a baj?”, hogy a kvuca lássa, törődünk vele.
 - C) Gyorsan továbbpörgetem a játékot, hogy ne legyen kínos, és a peula után négyszemközt rákérdezek.
 - D) Kiállítom a játékból, hogy pihenjen, és nem szólok róla senkinek, mert nem akarom „nagy ügyet” csinálni belőle.
@@ -358,10 +358,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 **Disztraktor-indok:**
 - B – Jó szándékú („törődünk vele”), DE a nyilvános kikérdezés **reflektorba teszi** és fokozza a kirekesztettség-érzést – pont ezt kerüli a 4 lépés.
 - C – A „ne legyen kínos” logika **magára hagyja** az érintettet, és a peula utánra halasztott jelzés túl késő, ha valaki erősen érintett.
-- D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyermekvédelmi becsatornázást (jelzés a felelősnek) mulasztja el.
+- D – A kiállítás **nyílt kirekesztés**, a „nem szólok senkinek” pedig épp a gyermekvédelmi becsatornázást (a Memuna bevonását) mulasztja el.
 
 **Visszajelzés:**
-> ✅ Az azonnali teendő négy lépése: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt jelzel a felelős madrichnak / mentornak** – nem maradsz egyedül a helyzettel, és nem halasztod utánra. (M6.A peula; vö. M3: gyermekvédelem)
+> ✅ Az azonnali teendő négy lépése: (1) semleges mondattal leállítasz, (2) mindenkinek felkínálod a kiülést, (3) nem reflektorozod rá az érintettet, (4) **még a peula alatt bevonod a Memunát** – nem maradsz egyedül a helyzettel, és nem halasztod utánra. (M6.A peula; vö. az ötlépéses jelzési út, M3.B lépéstérkép)
 
 ---
 
@@ -408,20 +408,25 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 > **Döntési szabály:** Ha a játéklap **Biztonság (R4) vagy Inkluzivitás (R5) rovata** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két blokkoló sor teljesül) → **modul teljesítve** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő társas visszajelzés önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz által jelzett biztonsági vagy inkluzivitási hiányokat a játéklap előtt érdemes pótolni (lásd Kapu-logika és (D) Stáb-jelzések).
 >
-> **Újraleadás javítás után:** a mentor kézzel újranyitja az Assignmentet, és a tanuló ugyanott adja le a javított játéklapot.
+> **Visszajelzés a javításhoz:** ha a játéklap javításra megy, a képző/mentor a lapra **Megfigyelés → Hatás → Következő lépés** szerkezetű visszajelzést ad (az SBI viselkedésre való, a játéklap pedig produktum).
+>
+> **Próbálkozások és újraleadás:** 1 normál és 1 javító leadás automatikusan jár; további próbálkozást csak a képző nyithat, kézzel. A javított játéklapot a tanuló ugyanabban az Assignmentben adja le. A completionhöz a **legjobb megerősített eredmény** számít: egy már megszerzett teljesítés nem romlik vissza egy önkéntes, gyakorló újraleadástól, a legfrissebb leadás pedig visszajelzésként megmarad.
+>
+> **A kapueredmény megerősítése:** a kapu eredményét legkésőbb 24 órával a következő fix alkalom, a pénteki M7.A előtt meg kell erősíteni: beadás szerda 18:00-ig, első értékelés csütörtök délután, megerősítés legkésőbb csütörtök 18:00-ig (a V1 központi naptár szerint: beadás 2027-02-17 18:00, megerősítés 2027-02-18 18:00, M7.A 2027-02-19). A függőben lévő, még nem megerősített eredmény nem bukás. Ha a kapu nem teljesül, az F-peula (M6.F) **kötelező**: facilitált javítási alkalom a kapueredmény megerősítése után és a javító leadás előtt; az időpontját a képző jelöli ki a központi naptár szerint.
 
 ---
 
 ## (C) Társas visszajelzési keret (M6.B élő műhely)
 
-> Az M6.B-ben a társ **a rubrika mellé** adjon **1 rövid, konkrét produktum-visszajelzést**:
+> Az M6.B-ben a társ **a rubrika mellé** adjon **1 rövid, konkrét produktum-visszajelzést** a **Megfigyelés → Hatás → Következő lépés** modell szerint:
 >
-> - nevezze meg, **melyik konkrét elemre** figyelt fel a játéklapon;
-> - mondja el, **milyen várható hatása** lehet ennek a kvucára, a biztonságra, az inkluzivitásra vagy arra, hogy egy másik madrich mennyire tudja használni a lapot.
+> - **Megfigyelés:** nevezze meg, **melyik konkrét elemre** figyelt fel a játéklapon;
+> - **Hatás:** mondja el, **milyen várható hatása** lehet ennek a kvucára, a biztonságra, az inkluzivitásra vagy arra, hogy egy másik madrich mennyire tudja használni a lapot;
+> - **Következő lépés:** javasolja, mit lenne jó még hozzáadni vagy pontosítani.
 >
-> **Példa:** *„Feltűnt, hogy külön leírtad, kinek lehet nehéz a feladat, és adtál hozzá ülve végezhető alternatívát. Ettől több chanich tud ugyanazzal a céllal bekapcsolódni, és egy másik madrichnak is könnyebb lesz biztonságosan megtartani.”*
+> **Példa:** *„Feltűnt, hogy külön leírtad, kinek lehet nehéz a feladat, és adtál hozzá ülve végezhető alternatívát. Ettől több chanich tud ugyanazzal a céllal bekapcsolódni, és egy másik madrichnak is könnyebb lesz biztonságosan megtartani. Következő lépésként érdemes lehet még egy variációt írni egy másik korosztályra is.”*
 >
-> Ez az M1-ben tanult szemléletre épül, **konkrétumról beszélünk, nem címkézünk**, de az SBI fogalma ettől nem változik: emberre adott SBI-ben a B megfigyelhető viselkedés.
+> Ez az M1-ben tanult szemléletre épül: **konkrétumról beszélünk, nem címkézünk**. Az SBI viselkedésre való – emberre adott SBI-ben a B megfigyelhető viselkedés. Produktumra, így a játéklapra is, a Megfigyelés → Hatás → Következő lépés modellt használjuk.
 >
 > A társas visszajelzés **fejlesztő, nem minősítő**: ha kritika merül fel, „mit lenne jó még hozzáadni” formában fogalmazzuk meg.
 
@@ -429,5 +434,5 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 ## (D) Stáb-jelzések (tanulási analitika, a modul-hub 7. szakasza alapján)
 
-- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online ismétlés + az **M6.F** felzárkóztató peula ajánlása **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 4 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: az érdemi teljesítési bizonyíték és a blokkoló döntés a játéklap **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
-- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → külön műhely „inkluzív játékok és kézművesek” témában + egyéni mentoros munka a kritikus esetekkel.
+- **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online ismétlés **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Az **M6.F** (F-peula) nem ide tartozik: az a nem teljesült kapu utáni javítási alkalom. Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 4 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: az érdemi teljesítési bizonyíték és a blokkoló döntés a játéklap **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
+- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → F-peula (M6.F) „inkluzív játékok és kézművesek” fókusszal + egyéni mentoros munka a kritikus esetekkel.

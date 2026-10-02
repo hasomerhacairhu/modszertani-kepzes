@@ -13,8 +13,8 @@
 **Időtartam (teljes lecke):** **kb. 40–65 perc – tervezz inkább a felsővel (kb. 65 perc).** Ez a Z modul leghosszabb online eleme, mert nemcsak jegyzetelsz, hanem egy kész, **menthető záró reflexiót** is összeraksz. Bontása:
 
 * **Moodle Assignment (online text, draft mentéssel)** – záró reflexiós ív kitöltése (a 3 kérdéshez): **~20–30’**
-* **Véglegesítés + Moodle Assignment leadás** (a mentett szöveget adod be, vagy abból egy 2–3 perces videót készítesz): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
-* Képzési visszajelző űrlap (a válaszok név nélkül jelennek meg): **~5–10’**
+* **Véglegesítés + Moodle Assignment leadás** (alapesetben a mentett szöveget adod be; ha szeretnéd, helyette abból egy 2–3 perces videót készíthetsz): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
+* Képzési visszajelző űrlap (a válaszok név nélkül jelennek meg a feldolgozásban): **~5–10’**
 
 > **Reális terhelés:** a Z modul záró leckéje könnyen **kifárasztó**, ha minden kérdés külön üres mezőként néz rád. Ezért most **egy összefüggő reflexiós ívbe** fűzzük a kérdéseket: végighaladsz rajta, és a végén **véglegesíted és beadod** – ez lesz a záró dokumentumod. Tervezd úgy, hogy egy ülésben végigmész rajta, és közben a szövegedet külön is mentsd le.
 
@@ -25,13 +25,13 @@
 **Eszközök:**
 
 * **Moodle Assignment – Online text** – „Záró reflexiós ív” (strukturált sablonnal, piszkozatmentéssel; a tényleges draft/resume működést acceptance teszt igazolja)
-* Ugyanez az Assignment a **leadás helye is**: online szöveg **vagy** abból felvett 2–3 perces videó
-* **Moodle Feedback** (core; Questionnaire csak az 5. szakasz feltételével) – képzésértékelő, a válaszok név nélkül jelennek meg *(külön marad)*
+* Ugyanez az Assignment a **leadás helye is**: online szöveg (alapértelmezés) **vagy** – ha a tanuló választja – abból felvett 2–3 perces videó
+* **Moodle Feedback** (core; Questionnaire csak az 5. szakasz feltételével) – képzésértékelő, a válaszok név nélkül jelennek meg a feldolgozásban *(külön marad)*
 
 **Mikrocél (tanulói nyelven):**
 
 > A lecke végére lesz egy **mentett és beadott, összefüggő záró reflexiód** (a 3 kérdésre felfűzve),
-> tudni fogod, **melyik 2–3 pillanatról szeretnél írni/beszélni**,
+> tudni fogod, **mely pillanatokról (legalább 3-ról) szeretnél írni/beszélni**,
 > és megfogalmazol **1–2 konkrét célt következő lépésnek a terepre**, plusz kitöltöd a képzési visszajelzést.
 
 **Központi mondat:**
@@ -52,12 +52,12 @@
 
 > Két dolgot csinálunk:
 
-1. Végigmész egy **összefüggő záró reflexiós íven** – ez egy Moodle Assignment strukturált szövegsablonja –, és a végén **beadod** egy darabban (szöveg vagy belőle felvett videó).
-2. Kitöltesz egy **képzésértékelő űrlapot** – **a válaszaid név nélkül jelennek meg** –, hogy mi, képzők is tanulni tudjunk ebből a félévből. (Azt, hogy kitöltötted-e, a Moodle a haladásodnál rögzíti.)
+1. Végigmész egy **összefüggő záró reflexiós íven** – ez egy Moodle Assignment strukturált szövegsablonja –, és a végén **beadod** egy darabban (alapesetben szövegként; ha szeretnéd, helyette belőle felvett videóként).
+2. Kitöltesz egy **képzésértékelő űrlapot** – **a válaszok név nélkül jelennek meg a feldolgozásban** –, hogy mi, képzők is tanulni tudjunk ebből a félévből. (Azt, hogy kitöltötted-e, a Moodle a haladásodnál rögzíti.)
 
 > Az íven 3 vezető kérdésed lesz:
 
-1. „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
+1. „Nevezz meg **legalább 3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
 2. „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *‘Mit várok ettől az évtől madrichként?’* és a *‘figyelek rá, hogy…’* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
@@ -95,7 +95,7 @@
 
 > A képzésről szóló visszajelzésedet nem ide írod, hanem a végén a külön, név nélküli **képzési visszajelző űrlapba**.
 
-> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Hiányos” visszajelzést kap, és ha „Hiányos”, azt is megtudod, mivel egészítsd ki.
+> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Még nem teljesítve” visszajelzést kap, és ha „Még nem teljesítve”, azt is megtudod, mivel egészítsd ki. A beadásodat csak a kijelölt mentorod vagy értékelőd látja, aki a visszajelzést adja.
 > Az számít, hogy **őszinte** legyél – magaddal és velünk.
 
 > Az íven **3 kérdésen** mész végig, a végén **beadod** egy darabban.
@@ -114,7 +114,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 **Kis jelzés:**
 
-> „Bármelyik jó – válassz olyat, ami **könnyebben megy vagy önazonosabb**.
+> „Alapesetben a kitöltött ívet adod be szövegként; a videó választható lehetőség, nem kötelező. Bármelyik jó – válassz olyat, ami **könnyebben megy vagy önazonosabb**.
 > Ugyanazt a 3 kérdést használod vázlatnak mindkét úthoz – ezért van egy íven.”
 
 ***
@@ -130,7 +130,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > 3 kérdés köré építjük – **mindhárom egy-egy szakasz ezen az íven**:
 
 > 1️⃣ **Pillanatok**
-> „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
+> „Nevezz meg **legalább 3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
 > Miért pont ezek?”
 
 > 2️⃣ **Szemléletváltozás**
@@ -147,33 +147,33 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 ***
 
-### LÉPÉS 3 – ACTIVITY 1: 2–3 pillanat, ami megmaradt
+### LÉPÉS 3 – ACTIVITY 1: Legalább 3 pillanat, ami megmaradt
 
 **Cél:** első kérdés kidolgozása, Z.1–Z.2-ből felhozva a fénypontokat.
 
 **Szöveg a lépésen:**
 
-> **1. blokk – 2–3 pillanat ebből a félévből**
+> **1. blokk – legalább 3 pillanat ebből a félévből**
 
 > Gondolj vissza arra, amit a Z.1–Z.2-ben már elkezdtél:
 > – mely modulok, peulák, helyzetek maradtak meg benned?
 
 > Írj **3–8 mondatot** az ív 1. szakaszába az alábbiak alapján:
 
-1. Nevezz meg **2–3 konkrét pillanatot vagy helyzetet** (modul, peula, beszélgetés, aha-élmény…).
+1. Nevezz meg **legalább 3 konkrét pillanatot vagy helyzetet** (modul, peula, beszélgetés, aha-élmény…).
 2. Írd le röviden, **mi történt**.
-3. Írd le, **miért pont ezek** fontosak neked (mit tanultál, mit mutattak meg rólad / a kvucáról).
+3. Írd le **mindegyiknél**, **miért fontos** neked (mit tanultál belőle, mit mutatott meg rólad / a kvucáról).
 
 > **Az egész ívre igaz:** nem kell intim vagy érzékeny részletet megosztanod. Használj általánosított helyzetet, és ne írj chanich-nevet vagy beazonosítható történetet.
 
 **Az ív 1. szakasza (szakaszcím a sablonban)**
 
-* Szakaszcím: *„2–3 pillanat, ami megmaradt”* – a tanuló ez alá írja a 3–8 mondatot. Ez a szöveg **a Moodle-beadás része lesz**.
+* Szakaszcím: *„Legalább 3 pillanat, ami megmaradt”* – a tanuló ez alá írja a 3–8 mondatot. Ez a szöveg **a Moodle-beadás része lesz**.
 
 **Kis jelzés:**
 
 > Ez most **élő jegyzet** – az íven belül **visszaléphetsz** és átírhatod, mielőtt véglegesíted.
-> Nem kell még „szépnek” lennie, csak legyen benne **2–3 pillanat, és hogy miért fontosak**.
+> Nem kell még „szépnek” lennie, csak legyen benne **legalább 3 pillanat, és mindegyiknél az, hogy miért fontos**.
 
 ***
 
@@ -198,7 +198,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > – *„Miben érzed úgy, hogy változott a madrich-szemléleted M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
 > (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyermekvédelemre, a saját határaidra, a visszajelzésre…)
 
-> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, az aktivitást felügyelő, jóváhagyott szerepkörnek a helyi protokoll szerint tovább kell lépnie – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe az ívbe írd: használd a **kurzusban megadott, jóváhagyott helyi jelzési utat**. Közvetlen életveszélynél **112**.
+> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a beadást látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe az ívbe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
 
 **Az ív 2. szakasza (szakaszcím a sablonban, a rész)** – szakaszcím: *„Madrich-szemléletem változása”*. A szöveg **a beadás része lesz**.
 
@@ -213,7 +213,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > – *„Kinek fogod elmondani, hogy ezeket vállalod?”*
 > (mentor, madrich-társ, ken-vezető, más)
 
-> Próbálj **konkrét időtávot és cselekvést** írni (pl. „a következő 3 Zmán Kvucámon…”, „a következő hónapban…”).
+> Legalább az egyik célodnál adj meg **konkrét cselekvést és határidőt** (pl. „a következő 3 Zmán Kvucámon…”, „a következő hónapban…”).
 
 **Az ív 3. szakasza (szakaszcím a sablonban, b rész)** – szakaszcím: *„Következő lépések és megosztás”*. A szöveg **a beadás része lesz**.
 
@@ -229,9 +229,9 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 > Görgess vissza, és nézd át, amit az előző lépéseken írtál.
 
-> ✔ Van benne **2–3 konkrét pillanat**, röviden leírva?
+> ✔ Van benne **legalább 3 konkrét pillanat**, röviden leírva, és mindegyiknél az, hogy **miért fontos**?
 > ✔ Leírtad, **miben változott a madrich-szemléleted** M0-hoz képest?
-> ✔ Van **1–2 konkrét célod a következő lépésekhez**, és megvan, hogy **kinek mondod el**?
+> ✔ Van **1–2 konkrét célod a következő lépésekhez** (legalább az egyik határidős), és megvan, hogy **kinek mondod el**?
 
 > Ha a fenti 3 kérdésre **igen** a válaszod, mehetsz a **leadásra** – a következő lépésben
 > véglegesíted és beadod a záró íved.
@@ -266,7 +266,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > 🪶 **Kész a záró íved.**
 
 > Egy darabban van benne minden, amit írtál:
-> – a 2–3 pillanat,
+> – a legalább 3 pillanatod,
 > – a madrich-szemléleted változása,
 > – és a következő lépéseid, valamint az, hogy kinek mondod el.
 
@@ -275,7 +275,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 **Beadás gomb**
 
-* Moodle Assignment „Submit assignment / Beadás” – a háromrészes online szöveg (és/vagy a videófájl) leadása. Nincs külön exportlépés: a saját példányról a tanuló maga gondoskodik másolással vagy nyomtatással.
+* Moodle Assignment „Submit assignment / Beadás” – a háromrészes online szöveg (ha a tanuló a videós utat választotta, a videófájl) leadása. Nincs külön exportlépés: a saját példányról a tanuló maga gondoskodik másolással vagy nyomtatással.
 
 **Kis jelzés:**
 
@@ -290,7 +290,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 > ➜ A lecke után:
 
-1. Ha még nem tetted meg, véglegesítsd és add be a **„Záró reflexió + következő lépés”** ívedet (vagy az abból felvett videót).
+1. Ha még nem tetted meg, véglegesítsd és add be a **„Záró reflexió + következő lépés”** ívedet (vagy, ha azt választottad, az abból felvett videót).
 2. Utána töltsd ki a **„Képzési visszajelzés – név nélkül”** kérdőívet.
 
 ***
@@ -300,21 +300,21 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Ez **ugyanaz az Assignment**, amelynek szövegsablonját a 3. szakasz írja le – itt a fejlesztői beállításai és a tanulónak megjelenő leírás szerepel. Nincs második, külön beadandó.
 
 **Név:** `Záró reflexió + következő lépés`
-**Típus:** Assignment (Online text **és/vagy** File submission – videó)
+**Típus:** Assignment (Online text – alapértelmezés; File submission – opcionális videós út)
 
 ### Leírás (tanulónak szóló szöveg)
 
-*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; amíg a megőrzés nincs lezárva, az adatot gyűjtő aktivitás nem nyitható meg valódi madrichnak.)*
+*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet: a HUM-PRIV-01 projektgazdai döntése szerint a beadást csak a kijelölt mentor/értékelő látja, a videós útnál pedig a célt, a jogalapot, a hozzáférést, a megőrzést és a törlést is rögzíteni kell (HUM-PRIV-02); a videó jogalapja külön, önkéntes hozzájárulás, megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás. A megőrzési időket az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02); az adatot gyűjtő aktivitás csak az ezeket közlő tájékoztatóval nyitható meg valódi madrichnak.)*
 
 > **Feladatod:**
-> Töltsd ki és add be a **háromrészes záró reflexiós ívet**, **vagy** vegyél fel belőle egy **2–3 perces videót**, és azt add be.
+> Töltsd ki és add be a **háromrészes záró reflexiós ívet**. Ha inkább beszélnél, helyette felvehetsz belőle egy **2–3 perces videót**, és azt adhatod be – ez választható lehetőség, nem kötelező.
 
 > Az ív már a Z.1–Z.3-ban átgondolt dolgokra és a 3 kérdésre épül – itt most **leadod**, és ha szeretnéd, a beadás előtt még csiszolsz rajta.
 
 > A záró reflexiód 3 kérdésre válaszoljon:
 
-1. **2–3 pillanat**
-   „Nevezz meg **2–3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
+1. **Legalább 3 pillanat**
+   „Nevezz meg **legalább 3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
    Miért pont ezek?”
 2. **Szemléletváltozás**
    „Miben érzed úgy, hogy **változott a madrich-szemléleted** M0-hoz képest?”
@@ -323,39 +323,40 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
    Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > **Formátum:**
-> – *szöveg*: a kitöltött ív (kb. **1 oldalnyi**) közvetlenül az online szövegmezőben
-> – *videó*: **2–3 perc**, beszélhetsz szabadon, a kitöltött ív mint vázlat alapján
+> – *szöveg* (alapértelmezés): a kitöltött ív (kb. **1 oldalnyi**) közvetlenül az online szövegmezőben
+> – *videó* (választható): **2–3 perc**, beszélhetsz szabadon, a kitöltött ív mint vázlat alapján
 
-> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Hiányos” visszajelzést kap, és ha „Hiányos”, azt is megtudod, mivel egészítsd ki.
+> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Még nem teljesítve” visszajelzést kap, és ha „Még nem teljesítve”, azt is megtudod, mivel egészítsd ki. A beadásodat csak a kijelölt mentorod vagy értékelőd látja, aki a visszajelzést adja.
 > A cél, hogy **magadnak is megfogalmazd**, mit viszel tovább. A képzésről szóló visszajelzésedet a külön, név nélküli képzési visszajelző űrlapba írd.
 
 ### Beállítás-javaslatok
 
 * **Submission type:**
   * Online text: **ON**
-  * File submissions: **ON**, max 1 file, max size 100–200 MB (videó).
+  * File submissions: **ON**, max 1 file, max size 100–200 MB (opcionális videós út).
 * **Require students to click the submit button:** Yes – így van külön piszkozat és beadás (a 6. lépés beadásgombja); beadás után a tanuló már nem szerkesztheti a szöveget.
-* **Allowed attempts:** legalább 2; **Grant attempts:** Manually – a „Hiányos” visszajelzés utáni kiegészítéshez (a manifest ASSIGN-S profilja szerint újrabeadás engedett; az újranyitást az `LMS – H5P runtime acceptance.md` 3. pontja teszteli). A pontos feliratokat a célverzión vissza kell olvasni.
+* **Próbálkozások:** 1 normál + 1 javító próbálkozás: a javító próbálkozás a „Még nem teljesítve” visszajelzés után automatikusan nyílik, további próbálkozást csak a képző nyithat, kézzel. A completionhöz a legjobb megerősített eredmény számít; egy már megszerzett „Teljesítve” nem romolhat vissza egy önkéntes újrabeadástól, a legfrissebb próbálkozás visszajelzésként megmaradhat. (A manifest ASSIGN-S profilja szerint újrabeadás engedett; az újranyitást az `LMS – H5P runtime acceptance.md` 3. pontja teszteli.) A pontos Moodle-beállításokat és feliratokat a célverzión vissza kell olvasni.
+* **Due date:** 2027-03-10 18:00 (a Z completion határideje a központi naptár szerint, `LMS – activity manifest.md`); az eredmény megerősítése: 2027-03-11.
 * **Grading type:**
-  * „Pont nélküli skála”: `Teljesítve / Hiányos / Nem teljesítve`
+  * „Pont nélküli skála”: `Teljesítve / Még nem teljesítve`
 * **Completion rule:**
-  * Activity completion when **submission is made**.
+  * Completion csak akkor jár, ha a beadás előírt részeiben (a három szakaszban; a videós útnál a videóban mindhárom kérdésre kitérve) **tényleges, minimálisan értelmezhető tartalom** van; a puszta leadás, az üres sablon vagy a fájlfeltöltés önmagában nem completion. A Moodle-beli kódolást (értékeléshez kötött completion vagy kézi megerősítés) az `LMS – activity manifest.md` LMS-Z-04 sora rögzíti.
 
 ### Minimum elvárás a „Teljesítve”-hez
 
 Az értékelés nem pontozás, hanem egyszerű ellenőrzés, de ezeket érdemes szem előtt tartani:
 
-* Van benne **legalább 2 konkrét pillanat** + miért fontosak.
-* Van benne **legalább 2–3 mondat arról**, hogyan változott a madrich-szemlélet.
-* Van benne **1–2 konkrét következő lépés** + meg van nevezve, kinek mondja el.
+* Van benne **legalább 3 konkrét tanulási pillanat**, és mindegyiknél az, hogy miért fontos.
+* Van benne **2–3 mondat arról**, hogyan változott a madrich-szemlélet.
+* Van benne **1–2 következő lépés**, közülük legalább egy **konkrét és határidős**, és meg van nevezve, kinek mondja el.
 
 Ha nagyon hiányos / alibi:
 
-* **„Hiányos”** státusz + rövid SBI-stílusú visszajelzés, hogy mivel egészítse ki.
+* **„Még nem teljesítve”** státusz + rövid visszajelzés a Megfigyelés → Hatás → Következő lépés modell szerint, hogy mivel egészítse ki.
 
 Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 
-* nem kezeljük egyszerű tanulói beadandóként: a safeguarding-protokoll lép életbe, a HUM-PRIV-01 és a HUM-SAFE-01 szerint (`LMS – activity manifest.md` 1. szakasz; `Adatvédelem – tanulói adatok és AI.md` 5. szakasz).
+* nem kezeljük egyszerű tanulói beadandóként. Gyermekvédelmi feltárásnál az ötlépéses jelzési út lép életbe (`Gyermekvédelem – release gate.md` 4.1. pont): az értékelő azonnal bevonja a Memunát, az ügy dokumentációja pedig nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01). A különleges adatot a HUM-PRIV-01 szerint kezeljük (`LMS – activity manifest.md` 1. szakasz; `Adatvédelem – tanulói adatok és AI.md` 5. szakasz).
 
 ***
 
@@ -366,7 +367,7 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 
 **Leírás az űrlap elején (tanulónak):**
 
-> A válaszok név nélkül jelennek meg. Ha veszélyről van szó, azt ne csak ebbe az űrlapba írd: használd a kurzusban megadott, jóváhagyott helyi jelzési utat.
+> A válaszok név nélkül jelennek meg a feldolgozásban. Ha veszélyről van szó, azt ne csak ebbe az űrlapba írd: azonnal vond be a Memunát.
 
 ### Javasolt kérdésstruktúra (rövid, hogy tényleg kitöltsék)
 
@@ -396,7 +397,8 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 * **Amit ez a beállítás ad – és amit nem:** a válaszok az értékelést olvasók számára **név nélkül jelennek meg**. A hivatalos Moodle-dokumentáció ugyanakkor kimondja: „anonymous feedback is not anonymous in the sense that GDPR describes it” (docs.moodle.org, Feedback settings – a mondat az oldal site-szintű „Allow full anonymous” szakaszában áll). A kurzusszintű beállításra a Feedback FAQ (docs.moodle.org) a közvetlen forrás: „Anonymous” módban is „the username of the user who took the Feedback is still recorded in the database”, és bekapcsolt completion mellett „the activity will still be marked as complete”. Ezért aktivitásszinten sem ígérünk GDPR-értelemben vett anonimitást. A tanulónak ezért **„név nélkül megjelenő”** visszajelzést ígérünk.
 * **`Show analysis page` és `Enable notification of submissions`:** az értéküket a HUM-PRIV-03 gazdája (adatvédelmi/DPO felelős + programvezető) rögzíti.
 * **`Allow multiple submissions`:** No (a manifest FEEDBACK-N profilja szerint egyszer tölthető ki)
+* **Megőrzés:** a nyers válaszok 90 napig maradnak meg, utána csak összesítve (`Adatvédelem – tanulói adatok és AI.md` 3. szakasz; projektgazdai döntés, 2026-10-02).
 * **Feloldás:** a Z.A után (manifest LMS-Z-05)
-* **EMBERI DÖNTÉS (adatvédelem):** ha a szervezetnek technikai értelemben is anonim visszajelzés kell, azt külön eszköz-/konfigurációdöntés adja meg (lásd `Emberi jóváhagyás szükséges.md` 2. szakasz, HUM-PRIV-03, és `Adatvédelem – tanulói adatok és AI.md`). E döntés előtt a tanulói szöveg nem ígérhet „teljesen anonim”-at.
+* **Anonimitás (HUM-PRIV-03):** **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a DPO és a programvezető. A visszajelzés maradhat kötelező, de nem nevezhető anonimnak; a tanulói mondat: „A válaszok név nélkül jelennek meg a feldolgozásban.” Valódi anonimitáshoz a visszajelzést le kellene választani a fiókhoz kötött completionről: ha a szervezetnek technikai értelemben is anonim visszajelzés kell, azt külön eszköz-/konfigurációdöntés adja meg (lásd `Emberi jóváhagyás szükséges.md` 2. szakasz, HUM-PRIV-03, és `Adatvédelem – tanulói adatok és AI.md` 8. szakasz). Ilyen döntés nélkül a tanulói szöveg nem ígérhet „teljesen anonim”-at.
 * **Activity completion:** mark as complete when submitted. *(A completion személyhez kötött: azt, hogy ki töltötte ki, a kurzus rögzíti – a válasz tartalma jelenik meg név nélkül.)*
 * Nincs „helyes válasz” – ez tiszta visszajelzés.

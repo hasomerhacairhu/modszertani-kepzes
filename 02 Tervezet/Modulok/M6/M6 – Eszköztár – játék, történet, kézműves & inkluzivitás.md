@@ -11,7 +11,7 @@
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
-    "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment-feltöltéshez, kitölthető PDF vagy Google/Word sablon); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézi kitöltéshez."
+    "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment-feltöltéshez, kitölthető PDF vagy Word sablon; Google-sablon csak szervezeti fiókban, korlátozott megosztással); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézi kitöltéshez."
   },
   "a11y": {
     "note": "Akadálymentes nyomtatott/digitális űrlap: logikus olvasási sorrend, valódi szöveg (nem képbe ágyazott), kitölthető PDF-nél címkézett űrlapmezők (tab-sorrend, képernyőolvasó-kompatibilis mezőnevek); elegendő kontraszt; egyszerű, sallangmentes magyar instrukciós szöveg minden rovatnál."
@@ -31,7 +31,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – M6.A (1. hét) és M6.B (2. hét), kb. 45’ + 45’
 * **Online terhelés:** 4×15–20’ (M6.1–M6.4) mikrolecke, összesen kb. **60–80 perc**
-* **Teljes terhelés:** kb. 2,5–3 óra
+* **Teljes terhelés:** kb. **2,5–3 óra**, tervezéshez **3 óra** (a részidők összege 150–170 perc: online leckék 4×15–20’ = 60–80 perc + 2×45’ peula = 90 perc; ehhez jön még a játéklap véglegesítése és leadása, valamint a 12 itemes szcenárió-kvíz, amelyek idejét a modul külön nem becsüli; a V1 tervezési érték a projektgazdai döntés szerint 2,5–3 óra).
 
 **Modulközponti kérdés**
 
@@ -147,7 +147,7 @@ A modul végére a madrich…
 * **Fő cél:**
   * minden résztvevőnek legyen **egy első, használható játéklap-vázlata** (játék / történet / kézműves),
   * tudja kimondani: kinek szól (kvuca), mi a célja, milyen biztonsági és inkluzivitási szempontjai vannak,
-  * gyakorolja a **konkrét, megfigyelhető elemre épülő társas visszajelzést**.
+  * gyakorolja a **konkrét, megfigyelhető elemre épülő társas visszajelzést** a játéklapra (Megfigyelés → Hatás → Következő lépés).
 * **Rövid percbontás-vázlat:**
   1. 0–10’ – Felidézés: mi a játéklap minimum tartalma (cél, kvuca, leírás, eszközök, biztonság, inkluzivitás, variációk).
   2. 10–30’ – Műhelymunka: párok / kiscsoportok dolgoznak a saját játéklapon.
@@ -161,24 +161,26 @@ A modul végére a madrich…
 
 ***
 
-## 5. Felzárkóztató peula (ha szükséges) – 45’
+## 5. Felzárkóztató peula (kötelező, ha az éles kapu nem teljesült) – 45’
 
 ### M6.F – „Felzárkóztató peula – Eszköztár & játéklap” (45’)
 
 * **Kapcsolódó online leckék:** M6.1–M6.4
+* **Kinek szól:** annak, akinek az M6 kapuja – a játéklap – nem teljesült; mivel a kapu éles, számára a peula **kötelező**. A felzárkóztató peula (F-peula) facilitált, strukturált javítási alkalom, nem általános pótlás. Aki csak lemaradt egy leckével vagy peulával, csendes pótlással pótol; erre a peula csendes pótlási blokkja (5–25’) is helyet ad.
+* **Időpont:** a kapueredmény megerősítése után, a javító leadás előtt; a képző jelöli ki a központi naptár szerint.
 * **Fő célok tanulói nyelven:**
-  1. **Tisztábban látja, hol tart** az M6.1–M6.4 leckékben és a játéklap-vázlatával.
-  2. Legalább **egy leckében érdemben halad** (pótlás, újranézés vagy a játéklap finomítása).
+  1. **Tisztábban látja, hol tart** a játéklapjával: a kapun kapott visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján tudja, melyik rubrikasort kell javítania – különösen a Biztonság (R4) és az Inkluzivitás (R5) sort –, és mi hiányzik még az M6.1–M6.4 leckékből.
+  2. **Érdemben javít** a játéklapján, legalább a visszajelzésben jelzett sorokon (ha kell, egy leckerész pótlásával vagy újranézésével), és így felkészül a javító leadásra.
   3. Leckénként le tud írni vagy el tud mondani **1 gondolatot és 1 kérdést**.
-  4. Lát egy egyszerű **fogalom-térképet** az M6 modulról (játék – történet – kézműves – inkluzivitás – biztonság – játéklap).
+  4. Lát egy egyszerű **fogalom-térképet** az M6 modulról (játék – történet – kézműves – inkluzivitás – biztonság – játéklap), és el tudja helyezni rajta, amit a visszajelzés hiányként jelzett.
 * **Rövid percbontás-vázlat:**
-  1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg, hol tart az M6.1–M6.4 leckékkel és a játéklap-vázlatával, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
-  2. 5–25’ – Csendes pótlás fülessel: hiányzó Moodle / H5P leckék, Branching Scenario, játéklap-vázlat finomítása, „1 gondolat, 1 kérdés” jegyzeteléssel.
-  3. 25–40’ – Kérdések + fogalom-térkép: közös tisztázás a kulcsfogalmakról.
-  4. 40–45’ – Híd a normál peulára: mondatbefejezés – „Legközelebb, amikor játékot / történetet / kézművest választok, figyelni szeretnék arra, hogy…”.
+  1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a játéklapjára kapott visszajelzést és azt, hol tart az M6.1–M6.4 leckékkel, majd kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
+  2. 5–25’ – Csendes pótlás fülessel: a játéklap javítása a visszajelzés alapján, hiányzó Moodle / H5P leckék, Branching Scenario, „1 gondolat, 1 kérdés” jegyzeteléssel.
+  3. 25–40’ – Kérdések + fogalom-térkép: közös tisztázás a kulcsfogalmakról, elsősorban a visszajelzésekben jelzett hiányok mentén.
+  4. 40–45’ – Híd a javító leadáshoz: mondatbefejezés – „Legközelebb, amikor játékot / történetet / kézművest választok, figyelni szeretnék arra, hogy…”.
 * **Kompetenciakapcsolat:**
   * minden kimeneti kompetenciához alapszintű megértés,
-  * különösen 1. Eszköz–kvuca illesztés és 5. Módszerválasztási döntés (szcenáriók, játéklap-vázlat).
+  * különösen 1. Eszköz–kvuca illesztés, 2. Biztonság & inkluzivitás (a két blokkoló sor: R4, R5) és 5. Módszerválasztási döntés (szcenáriók, a javítandó játéklap).
 
 ## 6. Kapuk
 
@@ -237,13 +239,13 @@ Az M6 akkor **teljesített**, ha mindhárom teljesül:
   * M6.3: hányan jelölnek be inkluzivitási kockázatot a kézműveseknél.
 * **Szcenárió-kvíz eredmények (formatív/diagnosztikus jelzés):**
   * mely kérdéseknél hibáznak sokan (pl. túl komplex játék fiatalabb kvucának, inkluzivitás figyelmen kívül hagyása),
-  * ha a résztvevők >30%-a **nem éri el a 80%-ot** pár próbálkozás után → extra online ismétlés + M6.F ajánlás **a játéklap leadása előtt** (felkészítés, nem kapuzás).
+  * ha a résztvevők >30%-a **nem éri el a 80%-ot** pár próbálkozás után → extra online ismétlés **a játéklap leadása előtt** (felkészítés, nem kapuzás). Az M6.F (F-peula) nem ide tartozik: az a nem teljesült kapu utáni javítási alkalom.
 * **Játéklap-rubrika (éles kapu):**
   * hány játéklap ér el minimum „Oké” szintet,
-  * külön figyelni az R4 (Biztonság) és az R5 (Inkluzivitás) sorra – ha sok a gyenge lap, külön műhely „inkluzív játékok & kézművesek” témában.
+  * külön figyelni az R4 (Biztonság) és az R5 (Inkluzivitás) sorra – ha sok a gyenge lap, F-peula (M6.F) „inkluzív játékok & kézművesek” fókusszal.
 * **Küszöbök / beavatkozási pontok:**
-  * ha a résztvevők >30%-a nem éri el a 80%-ot a **formatív** szcenárió-kvízen → célzott támogatás / felzárkóztatás a játéklap előtt,
-  * ha a játéklapok >25%-ánál gyenge az R4 (Biztonság) vagy az R5 (Inkluzivitás) sor → külön műhely, illetve egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**.
+  * ha a résztvevők >30%-a nem éri el a 80%-ot a **formatív** szcenárió-kvízen → célzott támogatás és ismétlés a játéklap előtt,
+  * ha a játéklapok >25%-ánál gyenge az R4 (Biztonság) vagy az R5 (Inkluzivitás) sor → F-peula (M6.F), illetve egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**.
 
 ***
 

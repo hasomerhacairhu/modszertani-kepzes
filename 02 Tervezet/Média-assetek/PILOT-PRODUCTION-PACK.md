@@ -5,9 +5,14 @@ elindulnak. Ez a lap minden pilothoz megadja, amit a gyártáshoz tudni kell: a 
 forrást, a stílusfüggéseket, a promptot vagy elrendezés-briefet, a fájlnevet, valamint az
 **elfogadási és bukási feltételt**.
 
-> ⚠️ **Egyik pilot sem gyártható ma.** Mind a kilencen nyitott kapu ül. Ez a lap
-> **elő van készítve** a jóváhagyás utáni pillanatra — nem gyártási engedély. A
-> kapu-állapotokat a 2. szakasz tételesen kimondja.
+> ⚠️ **A csomag írásakor (2026-08-28) egyik pilot sem volt gyártható:** mind a kilencen
+> nyitott kapu ült. Ez a lap **elő van készítve** a jóváhagyás utáni pillanatra — nem
+> gyártási engedély. A kapu-állapotokat a 2. szakasz tételesen kimondja.
+>
+> **2026-10-02:** a hat vizuális és nyomtatott pilot (P-DIA, P-IKO, P-ILL, P-MUN, P-POS,
+> P-KRT) egyetlen kapuja a D1 volt, amely projektgazdai döntéssel lezárult; náluk már csak
+> az asset-szintű R5-blokkoló kivezetése van hátra a manifesztben. A P-NAR, a P-VID és a
+> P-KAR előtt továbbra is nyitott kapu áll.
 
 Kapcsolódó: [`MEDIA-PRODUCTION-PLAN.md`](./MEDIA-PRODUCTION-PLAN.md) (a generált
 köteg-terv és pilot-táblázat) · [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md)
@@ -30,7 +35,9 @@ köteg-terv és pilot-táblázat) · [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-
 | P-POS | poszter | `M7.B-POSZ-01` | 37 | B1 | R5 | a terv 2026-08-28-i javaslata |
 | P-KRT | kártyaszett | `M5.A-KART-01` | 23 | B1 | R5 | **kiegészítés** — indoklás lent |
 
-Az „Eredet” oszlop a csomag írásakori (2026-08-28) állapotot rögzíti. A generált terv a
+Az „Eredet” oszlop — és a „Kapuk” oszlop, valamint a pilotonkénti „Státusz · kapuk” sor —
+a csomag írásakori (2026-08-28) állapotot rögzíti; az R5 a D1 2026-10-02-i lezárásával
+kikerül a kapuk közül, az aktuális állapot a generált tervben áll. A generált terv a
 pilotot minden buildnél a saját szabálya szerint újraszámolja, ezért a mostani
 terv-pilot ettől eltérhet — az aktuális ID-k a
 [`MEDIA-PRODUCTION-PLAN.md`](./MEDIA-PRODUCTION-PLAN.md) 5. szakaszában vannak. Ez a lap a
@@ -47,6 +54,13 @@ Moodle-elem** és a **beszerzendő fizikai eszköz** családra — ezek a BATCH 
 **már ma gyárthatók**, és nincs szükségük külön briefre —, valamint a **fotó /
 képernyőkép** családra. Az aktuális ID-k a terv 5. szakaszában vannak; a
 fotó/képernyőkép-családhoz ez a lap nem ad briefet.
+
+> **A gyermekvédelmi és krízis-HOOK-ok nincsenek a P-VID családjában.** A projektgazdai
+> döntés szerint (`HUM-MEDIA-03`, 2026-10-02; utólagos ellenőrzés (vétó/QA): a
+> jogi/adatvédelmi felelős, az érintett jogosultak és a Memuna) az `M2.4-VID-01`, az
+> `M3.3-VID-01` és az `M3.4-VID-01` nem beszélőfej, hanem hangalámondás + tipográfia/grafika (`explainer`). A P-KAR sem méri őket — a generált terv
+> az `explainer` altípust a karakter-/jelenetvideó családba sorolja —, és ez a lap nem ad
+> hozzájuk briefet.
 
 ### 1.1. Miért tért el három tétel a terv 2026-08-28-i javaslatától
 
@@ -69,10 +83,10 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 
 | Pilot | Mire vár | Ki oldja fel |
 |---|---|---|
-| P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) | arculati/program-felelős |
+| P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) — **lezárva** (projektgazdai döntés, 2026-10-02); hátravan az asset-szintű R5-blokkoló kivezetése | a projektgazda döntött; utólagos ellenőrzés (vétó/QA): a kreatív/márkafelelős |
 | P-NAR | **D2** — de már csak a **kanonikus hang** kiválasztása (a szolgáltató eldőlt: ElevenLabs). Előtte: V2 hozzájárulás-bizonyíték → tanítási kimaradás → a két hang létrehozása a forrás-beszélők felvételeiből (a módszer nyitott) → azonosítás (voice-ID + hangtípus rögzítése). Mellette **D3/R2**: a szintetikus felmondás miatt az R2 a narrációt is kapuzza (R2-4/R2-5) | program-felelős, meghallgatás alapján; a hang-jogosultságról a jogi jóváhagyó és a hang jogosultja |
-| P-VID | a **kész ElevenLabs hangmester** (tehát P-NAR) → **D3/R2** (a fiók jogi bizonyítéka) — és a **J2/J3** emberi kapuk | + jogi jóváhagyó |
-| P-KAR | **D1** (karakter-lock) + **D3/R2** — és a **J1/J2** emberi kapuk. A **D2** csak az utómunkához kell, a képi generáláshoz nem (lásd 2.1.) | + jogi és gyermekvédelmi jóváhagyó |
+| P-VID | a **kész ElevenLabs hangmester** (tehát P-NAR) → **D3/R2** (a fiók jogi bizonyítéka) — és a **J2/J3** emberi kapuk | + jogi jóváhagyó; a J2-nél a Memuna (gyermekvédelmi felelős) és a szerző — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
+| P-KAR | **D1** (karakter-lock; a stílus 2026-10-02 óta eldőlt, a referencia-karakter és a seed rögzítése a gyártás első lépése) + **D3/R2** — és a **J1/J2** emberi kapuk. A **D2** csak az utómunkához kell, a képi generáláshoz nem (lásd 2.1.) | + jogi jóváhagyó (J1), a Memuna (gyermekvédelmi felelős) és a szerző (J2) — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 
 > **A szolgáltatói kérdések lezárultak.** Hang: **ElevenLabs**. Beszélőfej: **HeyGen**.
 > Ami maradt, az a **kanonikus hang** kiválasztása és a jogi bizonyíték — nem
@@ -142,7 +156,7 @@ Bármelyik teljesülése esetén a pilot **elutasítva**, és a testvér-köteg 
 | **Cím** | Slide 3 narráció – Dialog Cards felvezetés |
 | **Modul / egység** | M4 / M4.2 |
 | **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3** |
-| **Forrás** | `M4.2-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md` (deklaráció: 519. sor) · hash `cc5e9efdc46c9251` |
+| **Forrás** | `M4.2-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md` (deklaráció: 513. sor) · hash `cc5e9efdc46c9251` |
 | **Cél** | bevezeti és keretezi a Dialog Cards aktivitást |
 | **Közönség** | madrich, jellemzően 15+ |
 | **Hossz** | 20–25 mp · **43 szó** → 103–129 szó/perc; 110 szó/percen **23,5 mp** — a keretben |
@@ -178,7 +192,8 @@ szakszóval (`chanich`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 - **Beállítások:** minden kérésben **explicit** a teljes készlet (`stability` ~0,70,
   `similarity_boost` 0,75, `style` 0, `use_speaker_boost` true, `speed`), plusz rögzített
   `seed`. A tárolt beállításra hagyatkozni tilos.
-- **Kiejtés:** `chanich` — szóeleji és szóvégi torokhang. **Alias-szabállyal**, ha a
+- **Kiejtés:** `chanich` — „hanih”: a szó eleji és a szóvégi *h* is hallható torokhang
+  ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6.). **Alias-szabállyal**, ha a
   meghallgatás hibát mutat; a választott modell a fonéma-szabályokat kihagyja. A magyar
   toldalékolás miatt minden előforduló alakot fel kell venni.
 - **Export:** a csomag által engedett legjobb mester (`wav_44100` Pro-n, egyébként
@@ -224,7 +239,9 @@ Bármely szóeltérés a forrástól · a 25 mp túllépése hadarással kompenz
 ### Miért ez a pilot
 
 A 21 beszélőfej **modális esete**: HOOK-videó, közepes hossz, egy szereplő, kamerába
-beszél. A generált terv 2026-08-28-i választása.
+beszél. A generált terv 2026-08-28-i választása. A testvér-köteg a gyermekvédelmi és
+krízis-HOOK-okat nem tartalmazza (1. szakasz): ezekhez a projektgazdai döntés szerint
+készlet-AI-beszélőfej nem készül.
 
 ### Gyártási brief — **HeyGen** (felhasználói döntés, 2026-08-28)
 
@@ -235,7 +252,7 @@ A hang **nem itt készül**: a kanonikus hangmestert az ElevenLabs állítja el�
 |---|---|
 | **Szolgáltató** | **HeyGen** — a választás lezárva, nem tárgya ennek a briefnek |
 | **Hang** | **feltöltött ElevenLabs hangmester.** A HeyGen saját TTS-e **nincs használatban** — a séma ezt kikényszeríti: a `script` és az `audio_url` / `audio_asset_id` mező **kölcsönösen kizárja egymást** |
-| **Avatar** | **egyetlen nyilvános készlet-avatar** (`studio_avatar`, `ownership=public`), amely mind a 21 videóban visszatér. Készlet-avatarhoz **nem kell hozzájárulási lánc**; egyedi „digital twin” avatarhoz igen, és annak API-s létrehozása enterprise-szintű |
+| **Avatar** | **egyetlen nyilvános készlet-avatar** (`studio_avatar`, `ownership=public`), amely minden beszélőfej-videóban visszatér. A készlet-avatar **képmás-licencét a szolgáltató feltételei szerint dokumentálni kell** (`HUM-MEDIA-03`, R2-3; [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) H-3). Egyedi „digital twin” avatarhoz hozzájárulási lánc kell, és annak API-s létrehozása enterprise-szintű |
 | **Megjelenés** | **egyértelműen felnőtt** — ez nem stílus, hanem szabály: a szolgáltató moderációs politikája tiltja a 18 év alattinak látszó avatart (lásd a J2 kaput). Semleges, hétköznapi öltözet; nem tanáros, nem céges |
 | **Keretezés** | mellkép, tekintet a kamerába; a fej a felső harmadban, a cím-biztonságos zónán belül |
 | **Háttér** | egyszínű felület a palettából, vagy semleges világos háttér. **Védjegy-semlegesség (R4):** nem utánozhatja a Messenger / WhatsApp / Discord / Insta / Moodle vizuális nyelvét |
@@ -318,10 +335,11 @@ elutasítja a tartalmat.
 | **Cím** | Jelenet 1 karaktervideó – „Jegyzetbe bújó madrich” |
 | **Modul / egység** | M4 / M4.1 |
 | **Státusz · kapuk** | `jogtisztázás alatt` · **R2, R3, R5** |
-| **Forrás** | `M4.1-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md` (deklaráció: 751. sor) · hash `238cf16a52679083` |
+| **Forrás** | `M4.1-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md` (deklaráció: 748. sor) · hash `238cf16a52679083` |
 | **Hossz** | 20–25 mp, teljes alakos jelenet |
 | **Konténer** | beágyazva az `M4.1-VID-02` H5P Interactive Videóba (`composed_of`) — a felirat és a leirat **a konténeré**, nem ezé |
 | **Származék máshol** | az `M4.1-FOTO-01` freeze-frame-je ebből és az `M4.1-VID-05`-ből készül |
+| **Akadálymentesítés** | jelenetvideó: a testbeszéd hordozza a jelentést, ezért a képi sáv nem dekoratív, és szöveges alternatíva vagy hangalámondásos képleírás kell (projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a hozzáférhetőségi felelős és a médiafelelős). A formáját a lecke `a11y` mezője rögzíti |
 
 ### A szó szerinti narráció (másolat, nem kánon)
 
@@ -395,6 +413,7 @@ készül, nem ehhez a jelenethez. A freeze-frame-et képkocka-kivétellel vessz�
 - [ ] a narráció alámuxolva, szinkronban;
 - [ ] a referenciakép, a prompt és a seed rögzítve és verziókövetve;
 - [ ] a freeze-frame kivehető, és a képpár testtartás-kontrasztja látszik;
+- [ ] a képi sáv szöveges alternatívája vagy képleírása a lecke `a11y` mezője szerint elkészült;
 - [ ] a gépi provenance-jelölés megmaradt.
 
 ### Bukási feltétel
@@ -414,7 +433,7 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 > az `M4.1-FOTO-01` viszont nem gyártható le.
 
 > ⚠️ **A P-KAR nem indítható a `J1` és a `J2` emberi kapu megválaszolása előtt** —
-> [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.3.
+> [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.3.; a felelős és a bizonyíték: 1/A.5.
 
 > ⚠️ **A P-KAR elfogadása két testvérre nem vihető át.** Az `M1.3-VID-01` kétszereplős,
 > képernyőn zajló párbeszéd: a „videó néma” feltétel és a néma generálás rá nem
@@ -429,7 +448,7 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 
 | | |
 |---|---|
-| **Cím** | SLIDE 4 jelzési folyamatábra: észreveszem → nem maradok egyedül → jelzek → támogatást kapunk |
+| **Cím** | SLIDE 4 jelzési folyamatábra: az ötlépéses jelzési út (észreveszem → meghallgatom → nem nyomozok → bevonom a Memunát → közvetlen veszélynél 112) |
 | **Státusz · kapuk** | `produkciós szabályra vár` · **R5** |
 | **Cél** | a „madrich, nem terapeuta” logika egyetlen lineáris jelzési útvonalként; megerősíti, hogy a madrich nem egyedül old meg, hanem jelez |
 | **Deriváltak** | `::ALTTEXT` |
@@ -442,9 +461,13 @@ számít.
 
 ### Gyártási brief — **determinisztikus SVG, nem generatív**
 
-Négy csomópont, nyilakkal: **1)** Valami nem oké / Észreveszem · **2)** Nem maradok
-egyedül · **3)** Jelzek *(ken-vezető · gyermekvédelmi felelős · stáb)* · **4)** Támogatást
-kapunk.
+Öt csomópont, nyilakkal — az ötlépéses jelzési út (`HUM-SAFE-01`; projektgazdai döntés,
+2026-10-02; utólagos ellenőrzés (vétó/QA): a Memuna), a lecke SLIDE 4 szövegével:
+**1)** Észreveszem, és komolyan veszem · **2)** Meghallgatom, és nem ígérek teljes
+titoktartást · **3)** Nem nyomozok, nem konfrontálok, és nem próbálom egyedül megoldani ·
+**4)** Azonnal bevonom a kijelölt Memunát (összeférhetetlenség esetén a név szerint
+kijelölt helyettesét) · **5)** Közvetlen veszélynél előbb a biztonság és a 112, utána a
+belső jelzés.
 
 | | |
 |---|---|
@@ -458,7 +481,7 @@ kapunk.
 
 ### Elfogadási feltétel
 
-- [ ] a négy csomópont szövege szó szerint a lecke SLIDE 4 szakaszának lépéseivel (a **„Vizualitás”** folyamatábra és a **„Szöveg a dián”** 1–4. pontja) egyezik;
+- [ ] az öt csomópont szövege szó szerint a lecke SLIDE 4 szakaszának lépéseivel (a **„Vizualitás”** folyamatábra és a **„Szöveg a dián”** 1–5. pontja) egyezik;
 - [ ] a sorrend a számozásból is kiolvasható, nem csak a nyilakból;
 - [ ] 320 px széles nézetben olvasható;
 - [ ] fekete-fehérben nyomtatva minden információ megmarad;
@@ -574,7 +597,7 @@ OUTPUT       PNG, min. 2048 px hosszabb él, 4:5 álló arány (1638 × 2048).
 
 | | |
 |---|---|
-| **Szedés** | a jóváhagyott törzsbetűtípus, balra zárt, a buborékon belül keskeny margóval |
+| **Szedés** | a jóváhagyott törzsbetűtípus (Source Sans 3 — D1, B változat), balra zárt, a buborékon belül keskeny margóval |
 | **Kontraszt** | a mondat és a buborék-felület között **≥ 4,5:1** — mérve, nem becsülve |
 | **Kimenet** | a végleges mester **SVG**, amelybe a generált PNG-alap `<image>` elemként ágyazódik, a mondat pedig `<text>` rétegként kerül rá. Így a fájlnév-táblázat `__master.svg` bejegyzése teljesül, és a szöveg **vektoros marad** |
 
@@ -665,10 +688,10 @@ elhelyezését a P-ILL és a P-MUN validálja.
 Két mező egy lapon vagy két lapon:
 
 1. **„Zmán Kvucá = …”** — konkrét idősáv + kvuca + tér + felelősség; **nem** aznap
-   kitalált random program.
+   kitalált spontán, cél nélküli program.
 2. **„AI-határok”** — **mind a három** ponttal (a lecke 4.1. és 4.2. blokkja — az asset `spec` mezője is ezekre hivatkozik): nincs konkrét chanich-név vagy sztori;
-   gyermekvédelmi ügyben mentorhoz, nem AI-hoz; az AI csak ötletel, a felelősség a
-   madriché.
+   gyermekvédelmi ügyben a Memunához (a Somer gyermekvédelmi felelőséhez), nem AI-hoz; az
+   AI csak ötletel, a felelősség a madriché.
 
 | | |
 |---|---|
@@ -690,8 +713,10 @@ Két mező egy lapon vagy két lapon:
 
 ### Bukási feltétel
 
-Az AI-határok bármelyik kikötése lágyul vagy kimarad · a „gyermekvédelmi ügyben
-mentorhoz, nem AI-hoz” mondat elveszti az élét · nem olvasható teremtávolságból · téves
+Az AI-határok bármelyik kikötése lágyul vagy kimarad · a „gyermekvédelmi ügyben a
+Memunához, nem AI-hoz” mondat elveszti az élét · a „felelősség” elem úgy olvasható, hogy a
+kvuca biztonságáért a madrich egyedül felel (a gyermekvédelmi felelősség a jelen lévő,
+18 év feletti felnőtté — a lecke 4.1. blokkja) · nem olvasható teremtávolságból · téves
 AI-címke a lapon.
 
 ---
@@ -717,7 +742,7 @@ pilot nem méri.
 | | |
 |---|---|
 | **Előlap** | 1–3 mondatos szituáció-leírás; a szó szerinti szöveg kánoni helye a lecke **„## 6. Melléklet – 12 helyzetkártya – szövegek”** szakasza. Az asset `spec` ugyanerre a stabil szakaszcímre hivatkozik. |
-| **Hátlap** | képzői címke `[SULI]` / `[SOMER]` / `[RANDOM]` a fogalommal (formális / nonformális / informális) |
+| **Hátlap** | képzői címke `[SULI]` / `[SOMER]` / `[HÉTKÖZNAPOK]` a fogalommal (formális / nonformális / informális) |
 | **Kiosztás** | 4 kártya / A4, szaggatott vágóvonal `--rule` színnel |
 | **Duplex** | a hátoldal **oszlopsorrendje tükrözött**, hogy a hosszú élű duplex illeszkedjen |
 | **Tipográfia** | előlap törzs ≥ 12 pt (a képző felolvassa a teremben); hátlap-címke nagy, verzál |
@@ -760,6 +785,11 @@ Pilot V0
 ```
 
 - **Beszélt asseteknél a nyelvi review meghallgatásos**, nem átiratos.
+- **Az akadálymentesítési review-t nem a szerző végzi**, hanem a hozzáférhetőségi felelős
+  (accountable: a Ros Hinuh); az élesítés előtti, független második ellenőrzést a
+  `HUM-A11Y-01` tételben név szerint megnevezett második ellenőrző végzi
+  (`Emberi jóváhagyás szükséges.md`; projektgazdai döntés, 2026-10-02; utólagos
+  ellenőrzés (vétó/QA): a programvezető).
 - **Nincs 100 tételes köteg elfogadott pilot előtt.** Ez a lap ezért létezik.
 - Ha egy pilot bukik, a **családja nem indul** — de a többi család mehet tovább, mert a
   2.1. sorrendi ábra szerint csak a videós ág láncolt.
@@ -772,7 +802,7 @@ A teljes konvenció: [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) 7. szakasz.
 |---|---|---|
 | P-NAR | `M4.2-NAR-03__master.wav` | `…__master.mp3` · `…__captions.hu.vtt` · `…__transcript.hu.md` |
 | P-VID | `M5.1-VID-01__master.mp4` | `…__voiceover.wav` · `…__captions.hu.vtt` · `…__transcript.hu.md` |
-| P-KAR | `M4.1-VID-03__master.mp4` *(néma + alámuxolt narráció)* | felirat/leirat a konténerhez: `M4.1-VID-02__captions.hu.vtt` |
+| P-KAR | `M4.1-VID-03__master.mp4` *(néma + alámuxolt narráció)* | `…__alt.txt` · felirat/leirat a konténerhez: `M4.1-VID-02__captions.hu.vtt` |
 | P-DIA | `M0.2-DIA-01__master-wide.svg` · `…__master-tall.svg` | `…__master.png` · `…__alt.txt` |
 | P-IKO | `M1.3-IKO-01__master.svg` | `…__master.png` · `…__alt.txt` |
 | P-ILL | `M4.2-ILL-01__master.svg` | `…__master.png` · `…__alt.txt` |

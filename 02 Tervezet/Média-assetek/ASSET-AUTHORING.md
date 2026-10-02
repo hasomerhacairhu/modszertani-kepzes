@@ -23,9 +23,10 @@ származik.
   "id": "M9.1-VID-01",
   "kind": "video",
   "subtype": "ai-talking-head",
-  "title": "HOOK beszélő fej – suli / somer / random",
+  "title": "HOOK beszélő fej – suli / somer / hétköznapok",
   "source_ref": "M9.1-VID-01-VO",
-  "a11y": {"audio": "spoken", "visual": "decorative"},
+  "a11y": {"audio": "spoken", "visual": "decorative",
+           "alt_note": "csak a képi sáv (beszélő fej) dekoratív: minden információ benne van a hangban és a leiratban"},
   "derivatives": ["voiceover", "captions", "transcript"],
   "provenance": "ai",
   "production_rules": ["R1", "R2", "R3"]
@@ -82,6 +83,24 @@ kép — az a `spec` mezőbe való, nem forrásblokkba.
 
 Lásd az 1. pont példáját. A `voiceover` derivatíva a felvett hang, a `captions`
 és a `transcript` ugyanabból a `@source` blokkból készül.
+
+**A képi sávot videónként külön kell besorolni** (projektgazdai döntés, 2026-10-02;
+utólagos ellenőrzés (vétó/QA): a hozzáférhetőségi felelős és a médiafelelős). Nem a teljes videót nevezzük
+dekoratívnak: a beszélő fej **képi sávja** lehet dekoratív (`"visual": "decorative"`),
+ha minden információ benne van a hangban és a leiratban — ezt az `alt_note` mondja ki,
+ahogy az 1. pont példájában. **Jelenetvideónál**, ahol arckifejezés, gesztus vagy képi
+történés hordoz jelentést, a képi sáv tartalmi (`"visual": "informative"`, `alt-text`
+derivatívával): szöveges alternatíva vagy hangalámondásos képleírás kell (2.13).
+
+**Gyermekvédelmi vagy krízis-HOOK-hoz nem deklarálunk készlet-AI-beszélőfejet**
+(projektgazdai döntés, `HUM-MEDIA-03`, 2026-10-02; utólagos ellenőrzés (vétó/QA): a
+jogi/adatvédelmi felelős, az érintett jogosultak és a Memuna). Ott a videó
+`"subtype": "explainer"`: hangalámondás és tipográfia vagy grafika. A felirat és a leirat
+ugyanúgy kötelező, a `production_rules` mező pedig az R5-öt is tartalmazza (a D1
+2026-10-02-i lezárása óta az R5 nem nyitott kapu, ezért a `blockers` mezőbe nem kerül).
+Ha mégis beszélőfej kell, csak egyedi, nagykorú
+avatar jöhet szóba, kifejezett hozzájárulással, jogi/adatvédelmi és gyermekvédelmi
+felülvizsgálattal.
 
 ### 2.3 Néma videó (képernyőfelvétel, B-roll)
 
@@ -232,9 +251,9 @@ helyre. „Hasonló”, „ugyanaz a stílus”, „ugyanarról szól” — eze
  "title": "Interactive Video – 3 jelenet beágyazott kérdésekkel",
  "spec": "H5P Interactive Video, 3 mini-jelenet, mindegyik után kérdés.",
  "composed_of": ["M9.5-VID-02", "M9.5-VID-03", "M9.5-VID-04"],
- "a11y": {"audio": "spoken", "visual": "decorative",
-          "alt_note": "a felirat és a leirat szó szerint lefedi"},
- "derivatives": ["captions", "transcript"]}
+ "a11y": {"audio": "spoken", "visual": "informative",
+          "alt_note": "a jelenetekben a gesztus és az arckifejezés is jelentést hordoz: szöveges alternatíva vagy hangalámondásos képleírás kell"},
+ "derivatives": ["captions", "transcript", "alt-text"]}
 ```
 
 Akkor használod, ha **több jelenetből egyetlen futásidejű videó** áll össze. A
@@ -249,6 +268,12 @@ jelenetenkénti felirat-fájlnak futásidőben nincs hova kapcsolódnia. Ezért 
 a fordító hibát jelez, ha mégis ott van. Az összetevők a saját elsődleges
 fájljukat (a jelenetvideót) továbbra is legyártandóként viszik.
 
+A példában a konténer képi sávja **tartalmi**: ha a jelenetekben arckifejezés, gesztus
+vagy képi történés hordoz jelentést, a felirat és a leirat nem elég, szöveges
+alternatíva vagy hangalámondásos képleírás is kell (2.2). Ha egy jelenetben minden
+információ benne van a hangban és a leiratban, az `alt_note`-ban indokolva maradhat
+dekoratív — a besorolás videónként külön döntés.
+
 Amit a fordító megkövetel: az összetevők ugyanabban a fájlban éljenek, ne
 legyenek maguk is kompozitok, és **mindegyiküknek legyen `source_ref`-je** — egy
 szkript nélküli összetevő a konténert is `blokkolt` állapotban tartja.
@@ -258,7 +283,7 @@ szkript nélküli összetevő a konténert is `blokkolt` állapotban tartja.
 ```json
 {"id": "M9.B-KART-03", "kind": "card-set", "mode": "human-decision",
  "title": "Képzői safety-gyorskártya",
- "decision": "Kell-e ez a segédanyag, és ha igen, milyen tartalommal — a képzés gyermekvédelmi felelősével."}
+ "decision": "Kell-e ez a segédanyag, és ha igen, milyen tartalommal — a Memunával (a Somer gyermekvédelmi felelőse)."}
 ```
 
 A `decision` **kötelező**: eldöntetlen tétel nem tűnhet el csendben a leltárból.
@@ -296,7 +321,7 @@ Egy fájlban egy ilyen blokk lehet, és akkor nem lehet benne `@asset`.
 | `technical` | | szabad kulcs-érték (arány, hossz, méret, formátum) |
 | `external` | | `source`, `url`, `path`, `owner`, `licence`, `evidence`, `replace` |
 | `production_rules` | | R1–R8 hivatkozás |
-| `blockers` | | nyitott kapuk (R2, R3, R5, R7, R8) — ezek adják a státuszt |
+| `blockers` | | nyitott kapuk (R2, R3, R7, R8; az R5 a D1 2026-10-02-i lezárása óta nem nyitott) — ezek adják a státuszt |
 | `decision` | `human-decision`-nél ✅ | mit kell eldönteni és kinek. **Bármelyik módnál megadható**, és amíg nem üres, a státusz `emberi döntésre vár` — a produkciós szabályok előtt |
 | `reuse_of` | `reuse`-nál ✅ | a kanonikus asset ID-je |
 | `notes`, `review` | | megjegyzés, illetve migrációs/szerkesztői észrevétel |

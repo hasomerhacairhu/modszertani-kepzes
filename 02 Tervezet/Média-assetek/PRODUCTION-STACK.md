@@ -6,7 +6,7 @@ nyitott döntések megszületnek. **Nem lezárás, nem jóváhagyás, és nem in
 | | |
 |---|---|
 | **Státusz** | NYITOTT — FELHASZNÁLÓI DÖNTÉS SZÜKSÉGES |
-| **Mit változtat a manifeszten** | semmit. A 417 asset, a 901 deliverable és minden R2/R3/R5/R7/R8 blokkoló változatlan. |
+| **Mit változtat a manifeszten** | semmit. A 417 asset, a 901 deliverable és a blokkolók ettől a laptól nem változnak: a blokkolókat a leckék deklarációi és a `produkcios-szabalyok.json` viszik. |
 | **Mit fizettünk** | semmit. Fizetős API-t nem hívtunk, fiókot nem hoztunk létre, próbaidőszakot nem indítottunk, médiát nem generáltunk. |
 | **Kutatás dátuma** | 2026-08-27 (minden külső forrás ekkor lekérdezve) |
 
@@ -48,14 +48,18 @@ igazság.
 
 ---
 
-## 2. Vizuális rendszer — javaslat
+## 2. Vizuális rendszer — a D1 lezárva (2026-10-02)
 
 **Részletek és a számított kontrasztok:**
 [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md).
 
 Röviden: a mozgalomnak **van hivatalos arculati kézikönyve**, deklarált HEX / RGB / CMYK
 / Pantone palettával, és a hat alapszín a hivatalos logó-SVG-ből byte-azonosan
-megerősíthető. A D1 kérdése ezért nem „mi legyen a paletta”, hanem „átvesszük-e”.
+megerősíthető. A D1 kérdése ezért nem „mi legyen a paletta”, hanem „átvesszük-e” volt. A
+válasz (projektgazdai döntés, 2026-10-02, `HUM-MEDIA-01`): **igen** — a 2022-es kézikönyv és
+a hivatalos SVG színgenerációja a kánon, a produkciós rendszer pedig a B változat
+([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D1). Utólagos ellenőrzés
+(vétó/QA): a kreatív/márkafelelős.
 
 | Alapszín | HEX | Alapszín | HEX |
 |---|---|---|---|
@@ -71,7 +75,7 @@ megerősíthető. A D1 kérdése ezért nem „mi legyen a paletta”, hanem „
 - a jelentést mindig **forma vagy betűjel** hordozza, a szín kíséri;
 - a szín-szótár **modul-hatókörű**, nem globális.
 
-**Javasolt változat: B** — azonos márkaszínek és logóhasználat, de a tananyag-produkcióhoz
+**Elfogadott változat: B** (projektgazdai döntés, 2026-10-02) — azonos márkaszínek és logóhasználat, de a tananyag-produkcióhoz
 nyílt licencű betűtípus (Source Sans 3, SIL OFL 1.1; mérve: mind a **18** magyar ékezetes
 glif, valamint `·`, `„`, `”`, `–`, `—`, `✓`, `☐` megvan) és egy `#1D1D1B`-ből származtatott
 semleges skála. Indok: az A változat a Myriad Pro **beágyazási licencének** meg nem
@@ -89,7 +93,7 @@ végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
 |---|---|
 | **Szolgáltató** | ✅ **ElevenLabs** — lezárva |
 | **Hangjelöltek** | ✅ **VOICE-SRC-01** · **VOICE-SRC-02** — forrás-beszélők; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
-| **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 072 karakter, ≈ 0,15–0,61 $ |
+| **Kanonikus hang** | ⛔ **meghallgatásos döntés** — 6 minta, 3 216 karakter, ≈ 0,16–0,64 $ |
 | **Modell** | 🔎 javaslat: **`eleven_flash_v2_5`**, `language_code: "hu"` |
 | **Tempó** | `speed` paraméter (0,7–1,2) a 100–120 szó/perc célsávra |
 | **Kiejtés** | alias-szabályok szótárban — **csak a ténylegesen hibás szavakra**, a teszt után |
@@ -143,7 +147,7 @@ képet és a szájszinkront a HeyGen.**
 |---|---|
 | **Szolgáltató** | ✅ **HeyGen** — lezárva |
 | **Hang-integráció** | **feltöltött ElevenLabs hangmester** — a séma szerint a szöveges szkript-mező és a hang-mező **kölcsönösen kizárja egymást**, tehát a szolgáltató saját TTS-e nem szólalhat meg |
-| **Avatar-stratégia** | **egyetlen nyilvános készlet-avatar** mind a 21 videóra — hozzájárulási lánc nem keletkezik |
+| **Avatar-stratégia** | **egyetlen nyilvános készlet-avatar** a beszélőfej-videókra. A készlet-avatar képmás-licencét a szolgáltató feltételei szerint dokumentálni kell (`HUM-MEDIA-03`, R2-3). Gyermekvédelmi vagy krízis-HOOK-ban nincs készlet-AI-beszélőfej: az `M2.4-VID-01`, az `M3.3-VID-01` és az `M3.4-VID-01` hangalámondás + tipográfia/grafika (projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a jogi/adatvédelmi felelős, az érintett jogosultak és a Memuna) |
 | **Arány / felbontás** | **16:9** (explicit megadva), 1080p, 25 fps |
 | **Felirat** | a lecke `@source` szövegéből, **nem** a szolgáltató SRT-kimenetéből |
 | **Költség (21 × 30 mp + 100% újragyártás ≈ 1 260 mp)** | **≈ 21 $** készlet-avatarral |
@@ -199,7 +203,9 @@ Ezek nem hiányosságok a kutatásban — a szolgáltató nem publikálja őket.
    kifejezetten.
 4. **Átengedi-e az automatikus moderáció** ezt a tananyagot: a tiltott kategóriák közt
    szerepel a politikai tartalom, és az érzékeny („conditional”) oktatási anyag a
-   szabályzat szerint csak egyedi avatarral készíthető.
+   szabályzat szerint csak egyedi avatarral készíthető. A gyermekvédelmi és krízis-HOOK-ok
+   a projektgazdai döntés szerint nem készülnek beszélőfejjel (`HUM-MEDIA-03`), ezért rájuk ez
+   a próba nem vonatkozik.
 
 ### 4.3. Reprodukálhatóság — ez a stack leggyengébb pontja
 
@@ -264,11 +270,11 @@ lényegesen több — a generatív videónál 3–5 próbálkozásból lesz egy 
 
 | Köteg | Feltételezés | Alsó | Felső |
 |---|---|---:|---:|
-| **Hangválasztási teszt** — 6 minta, 2 hang × 3 szkript | **3 072 karakter, mérve** | **≈ 0,15 $** | **≈ 0,61 $** |
+| **Hangválasztási teszt** — 6 minta, 2 hang × 3 szkript | **3 216 karakter, mérve** | **≈ 0,16 $** | **≈ 0,64 $** |
 | **Hang** — ElevenLabs `flash_v2_5`, teljes tananyag 3× nyers | 150 000–225 000 karakter | **7,50 $** | **45,00 $** |
 | **Hang** — ElevenLabs `v3` (tartalék modell) | ugyanaz | 15,00 $ | 90,00 $ |
 | **Beszélőfej** — HeyGen, **nyilvános készlet-avatar** | 21 × 30 mp + 100% újragyártás ≈ 1 260 mp | **≈ 21 $** | **≈ 21 $** |
-| **Beszélőfej** — HeyGen, saját fotó-avatar (ha a moderáció megköveteli) | ugyanaz + avatar-létrehozás | ≈ 56 $ | ≈ 64 $ |
+| **Beszélőfej** — HeyGen, saját fotó-avatar (ha a moderáció megköveteli — érzékeny tartalomnál csak nagykorú személy egyedi avatarja, kifejezett hozzájárulással, jogi/adatvédelmi és gyermekvédelmi felülvizsgálattal: `HUM-MEDIA-03`, R2-3) | ugyanaz + avatar-létrehozás | ≈ 56 $ | ≈ 64 $ |
 | **Karakter-jelenet** — Veo 3.1, néma, 1080p | 15–18 használható 8 mp-es felvétel, 3–5× selejt → **45–90 generálás** | **36 $** | **144 $** |
 | **Karakter-lock** — referenciakép-készlet | 20–40 kép | **3 $** | **6 $** |
 | **Freeze-frame** | képkocka-kivétel a kész videóból | **0 $** | **0 $** |
@@ -502,6 +508,7 @@ utólagos ellenőrzés.
 | Követelmény | Mire vonatkozik |
 |---|---|
 | Felirat kötelező szinkronizált videóhoz (SC 1.2.2); a leirat **nem helyettesíti** | a 27 videó **23 feliratsávja**: az `M4.1-VID-03/04/05` jelenetek felirata az `M4.1-VID-02` konténeré, a néma `M1.1-VID-02` B-rollé pedig az alatta futó narrációé |
+| A videó **képi sávját videónként külön** kell besorolni (projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a hozzáférhetőségi felelős és a médiafelelős): a beszélő fej képi sávja lehet dekoratív, ha minden információ benne van a hangban és a leiratban; jelenetvideónál, ahol arckifejezés, gesztus vagy képi történés hordoz jelentést, szöveges alternatíva vagy hangalámondásos képleírás kell | minden videó, egyenként |
 | Csak hang → teljes szöveges átirat elég (SC 1.2.1) | 90 narráció |
 | Alt-szöveg minden beágyazott vizuális elemhez | ikon, diagram, illusztráció, fotó |
 | Szövegkontraszt ≥ 4,5:1 (nagy szöveg 3:1); jelentéshordozó grafikai elem ≥ 3:1 | minden vizuál |
@@ -534,30 +541,33 @@ a produkciós fiók bizonyítékával. Ami a kutatás után is hiányzik:
   az, hogy a beszélőfej/karakter felnőttnek kell hogy látsszon, miközben a madrich maga
   is lehet kiskorú (J2).
 
-A J2 **nem produkciós kérdés**, és ez a lap nem dönti el.
+A J2 **nem produkciós kérdés**, és ez a lap nem dönti el. A J1 és a J2 — a hangoldali V1-gyel
+és V3-mal együtt — a `HUM-MEDIA-02` alkapuja; felelős és bizonyíték:
+[`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5.
 
 ---
 
 ## 11. Nyitott felhasználói döntések
 
 Egyik sem zárul le ezzel a lappal. A teljes kérdésszöveg és hatásszám:
-[`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md).
+[`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md). A D1, a D5 és a D10 2026-10-02-án
+projektgazdai döntéssel lezárult; a sorukat nyomon követhetőségért hagytuk itt.
 
 | # | Döntés | Mit szabadít fel | Ajánlás |
 |---|---|---|---|
-| **D1** | vizuális rendszer: átvesszük-e a hivatalos palettát, és A vagy B változat | 245 asset / 484 deliverable | átvenni; **B változat** |
+| **D1** | vizuális rendszer: átvesszük-e a hivatalos palettát, és A vagy B változat | 245 asset / 484 deliverable | **LEZÁRVA** — projektgazdai döntés (2026-10-02): a hivatalos paletta, **B változat**; utólagos ellenőrzés (vétó/QA): a kreatív/márkafelelős |
 | **D2** | **melyik ElevenLabs egyedi hang** a kanonikus narrátor: a VOICE-SRC-01 vagy a VOICE-SRC-02 forrás-beszélőből készülő | önmagában 0 — mind a 117 R3-tételen az R2 is ül | **nincs ajánlás — előbb a két hang létrehozása (V2 bizonyítékkal, bekapcsolt tanítási kimaradással), majd meghallgatás**; a szolgáltató és a modell javaslata megvan |
 | **D3** | a videó-stack **jogi bizonyítéka** | önmagában 0; R2 + R3 együtt 109 asset / 344 deliverable | a beszélőfej-szolgáltató **eldőlt (HeyGen)**; karakter-jelenet: Veo 3.1 GA — **jogi review után** |
-| **D5** | M3 gyermekvédelmi lépéstérkép poszter | 1 asset | **NYITVA — nem ennek a passznak a hatásköre** |
-| **D8** | az R8 státusza: szabály vagy önálló kapu | 0 | **NYITVA — nem ennek a passznak a hatásköre** |
-| **D10** | ken alkohol- és dohányzási kódex | 2 asset | **NYITVA — nem ennek a passznak a hatásköre** |
-| **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2, R3 és R5 is ül rajta | **NYITVA** — a néma generálás erre nem alkalmazható (5. szakasz) |
-| **J1** | a karakter-jelenet szolgáltatójának 18 év alatti hozzáférési záradéka | a karakter-jelenet stack sorsa | **jogi jóváhagyó** |
-| **J2** | a beszélőfej/karakter **felnőtt megjelenése** ↔ a madrich maga is lehet kiskorú | a beszélőfej- és karakter-brief | **gyermekvédelmi felelős + szerző** |
+| **D5** | M3 gyermekvédelmi lépéstérkép poszter | 1 asset | **LEZÁRVA** — projektgazdai döntés (2026-10-02): az ötlépéses jelzési út (`HUM-SAFE-01`) az egyetlen kánon, a hub-poszter az `M3.B-MUNK-01` újrahasznosítása; utólagos ellenőrzés (vétó/QA): a Memuna és a helyettese |
+| **D8** | az R8 státusza: szabály vagy önálló kapu | 0 | **NYITVA** — a felvételek adatkezeléséről projektgazdai döntés van (2026-10-02, `HUM-PRIV-02`: alapértelmezésben nincs felvétel; jogalap a külön, önkéntes hozzájárulás; megőrzés legfeljebb 90 nap); az R8 státuszáról (A vagy B) a döntés nem szól |
+| **D10** | ken alkohol- és dohányzási kódex | 2 asset | **LEZÁRVA** — projektgazdai döntés (2026-10-02): a `HUM-SAFE-04` szabálya (kiskorúaknak szóló programon nulla alkohol, dohány, vape és nikotin); utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna. A két asset állapota a lecke `decision` mezőjét követi |
+| **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2, R3 és R5 is ül rajta | **NYITVA** — a néma generálás erre nem alkalmazható (5. szakasz); a projektgazdai döntés (2026-10-02) szerint a hangjogosultsági bizonyítékig (`HUM-MEDIA-02`) blokkolt |
+| **J1** | a karakter-jelenet szolgáltatójának 18 év alatti hozzáférési záradéka | a karakter-jelenet stack sorsa | **jogi jóváhagyó** — a `HUM-MEDIA-02` alkapuja; felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
+| **J2** | a beszélőfej/karakter **felnőtt megjelenése** ↔ a madrich maga is lehet kiskorú | a beszélőfej- és karakter-brief | **Memuna (gyermekvédelmi felelős) + szerző** — a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
 | **J3** | *(új, 2026-08-28)* a beszélőfej-szolgáltató **visszavonhatatlan, továbbadható tanítási licencet** kér a feltöltött tartalomra — és épp a **klónozott hang** mesterét töltenénk fel | a beszélőfej-lánc élesítése | **jogi jóváhagyó + a hang jogosultja** |
-| **V1** | *(átkeretezve)* a választott hang-szolgáltató **nem ír elő** közlési kötelezettséget előre renderelt narrációra. Az R1-címke ettől **projektszabály marad**. Ami nyitva van: kell-e kiskorú tanulóknál külön **szülői** tájékoztatás — ez a tananyag kérdése, nem a szolgáltatóé | a hang-stack élesítése | **gyermekvédelmi felelős + DPO** |
+| **V1** | *(átkeretezve)* a választott hang-szolgáltató **nem ír elő** közlési kötelezettséget előre renderelt narrációra. Az R1-címke ettől **projektszabály marad**. Ami nyitva van: kell-e kiskorú tanulóknál külön **szülői** tájékoztatás — ez a tananyag kérdése, nem a szolgáltatóé | a hang-stack élesítése | **Memuna (gyermekvédelmi felelős) + DPO** — a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
 | **V2** | *(új)* a **hang-jogosultság bizonyítéka**: a szolgáltató önbevalláson túl semmilyen formát nem ír elő | a kanonikus hang használhatósága | **jogi jóváhagyó + a hang jogosultja** |
-| **V3** | *(új)* a hang-szolgáltató saját dokumentumai **nem mondanak ugyanazt** a 18 év alattiakról | fiókhasználat | **gyermekvédelmi felelős** |
+| **V3** | *(új)* a hang-szolgáltató saját dokumentumai **nem mondanak ugyanazt** a 18 év alattiakról | fiókhasználat | **Memuna (gyermekvédelmi felelős)**; az E-8 jogi kérdésében a **jogi jóváhagyó** — az E-8 jogi felülvizsgálata külön lezárási feltétel; a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
 | **V4** | *(új, üzemeltetési)* a **tanítási kimaradást előre** kell bekapcsolni — visszamenőleg nem hat | minden feltöltés előtt, minden fiókban, ahová felvétel kerül | **a fiók gazdája** — PVC-nél a forrás-beszélő is, mert a hang az ő fiókjában jön létre (`HUM-MEDIA-02`) |
 
 ---
@@ -568,18 +578,18 @@ Minden ágnak van kifutása, hogy egyetlen elutasított döntés se állítsa me
 
 | Ha ez bukik… | …akkor |
 |---|---|
-| A Myriad Pro beágyazási licence nem igazolható | a **B változat** eleve nyílt licencű betűtípust használ — ez a tartalék maga |
-| A hivatalos paletta nem hagyható jóvá | a 26 kizárólag fekete-fehér nyomtatvány a stílus-token birtokában is indulhat (a manifeszt R5-blokkolója viszont csak a teljes R5-zárással kerül le róluk) |
+| A Myriad Pro beágyazási licence nem igazolható | a **B változat** eleve nyílt licencű betűtípust használ — 2026-10-02 óta ez az elfogadott változat (D1), a kockázat így a tananyagot nem érinti |
+| A hivatalos paletta nem hagyható jóvá | *(tárgytalan: a projektgazda 2026-10-02-án elfogadta a hivatalos palettát — D1.)* Korábban: a 26 kizárólag fekete-fehér nyomtatvány a stílus-token birtokában is indulhatott volna |
 | Ha a két elkészült hang egyike sem felel meg a meghallgatáson | a szolgáltatón belül marad a megoldás: új egyedi hang készítése vagy — jogi jóváhagyás után — tervezett (szintetikus) hang; **a szolgáltatóváltás nincs napirenden** |
 | A javasolt modell kiejtése alias-szabállyal sem javítható | `eleven_v3` — cserébe elveszik a tempó-vezérlés, a similarity- és speaker-boost-rögzítés, és duplázódik a költség |
 | A hang-jogosultság nem dokumentálható | a **tervezett (szintetikus) hang** útja — **csak jogi jóváhagyás után**: nincs azonosított természetes személy, akinek a hangját klónoznánk, de a bizonyíték-nyilvántartás ezt `LEGAL_REVIEW_REQUIRED` állapotban tartja, és nem mondja ki, hogy nincs jogi kérdés ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.0.) |
 | A beszélőfej magyar szájszinkronja gyenge | a szolgáltató másik avatar-osztálya vagy motorja — **a szolgáltató a felhasználó döntése, és marad** |
-| A beszélőfej-moderáció elutasítja a tartalmat | egyedi avatar (a szabályzat az érzékeny oktatási tartalmat ehhez köti), vagy a HOOK szövegének szerzői újrakeretezése |
+| A beszélőfej-moderáció elutasítja a tartalmat | egyedi avatar (a szabályzat az érzékeny oktatási tartalmat ehhez köti) — csak nagykorú személyről, kifejezett hozzájárulással, jogi/adatvédelmi és gyermekvédelmi felülvizsgálattal (`HUM-MEDIA-03`, R2-3, J2) —, vagy a HOOK szövegének szerzői újrakeretezése. Gyermekvédelmi és krízis-HOOK-ban a projektgazdai döntés (2026-10-02, `HUM-MEDIA-03`) szerint eleve hangalámondás + tipográfia/grafika készül, készlet-AI-beszélőfej nem |
 | **A feltöltési tanítási licenc nem vállalható (J3)** | a hangot nem töltjük fel: a beszélőfej **a szolgáltató saját hangjával** készül, és a kész videó hangsávját utómunkában cseréljük az ElevenLabs mesterre. **Ára:** a szájszinkron ekkor idegen hangra készül, tehát az illeszkedés romlik — a pilotnak ezt is meg kell mérnie, ha erre az ágra kerül sor |
 | A hangmestert a beszélőfej-szolgáltató újrakódolja | ha hallható romlás nincs, elfogadható; ha van, a hangsáv utómunkában cserélhető a mesterre — a kép marad |
 | A Google 18 év alatti záradéka kizáró (J1) | **Runway Gen-4.5** — kereskedelmi használat szintkorlát nélkül, C2PA; ára, hogy a szolgáltató a bemeneten és a kimeneten tanít. **Csak a videót cseréli:** a karakter-lock képgenerátora (`gemini-3-pro-image`) is Google-szolgáltatás, a képi lépésre ez a sor nem ad tartalékot — az a J1 jogi jóváhagyójának döntéséig nyitott |
 | A karakter-azonosság egyik eszközzel sem tartható | a jelenetek **statikus illusztráció-párrá** egyszerűsíthetők — de ez a lecke tartalmát érinti, tehát **szerzői döntés**, nem produkciós |
-| Bármelyik AI-videó ág elbukik | a 21 beszélőfej **narráció + statikus illusztráció** formára váltható — szintén **szerzői döntés**, mert a HOOK-formátumot érinti (vö. a lezárt D4) |
+| Bármelyik AI-videó ág elbukik | a 21 beszélőfej **narráció + statikus illusztráció** formára váltható — szintén **szerzői döntés**, mert a HOOK-formátumot érinti (vö. a lezárt D4). A gyermekvédelmi és krízis-HOOK-oknál a projektgazdai döntés (`HUM-MEDIA-03`) már ehhez hasonló utat jelöl ki: hangalámondás + tipográfia/grafika |
 
 > Az utolsó két sor szándékosan nem produkciós javaslat: a tananyag formátumát érintik,
 > és a lezárt D4 döntés mintája szerint **szerzői hatáskörbe** tartoznak.

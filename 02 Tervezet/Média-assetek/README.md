@@ -62,13 +62,13 @@ Ezek a fájlok **kézzel nem szerkeszthetők**:
 | [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) | A gyártás elindításához hiányzó **emberi döntések** — egy helyen, döntésenként egy kérdéssel, opciókkal és hatásszámmal. Kézzel karbantartott. |
 | [`RELEASE-MEDIA-STATUS.md`](./RELEASE-MEDIA-STATUS.md) | A release-szükségesség és a gyártási blokkoltság külön kezelése; az M0+M1 staging média-fallbackjei. |
 | [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) | Az R3 végrehajtási lapja: nyelv, regiszter, tempó, kiejtés, felirat-viszony, kimenet. A szintetikus út és az ElevenLabs már eldőlt; a konkrét voice-ID, modell, reprodukciós beállítások és kiejtési szótár maradt nyitva. |
-| [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) | Az R5 lock-lapja: mi kötelező már most, mi következetes de nem hivatalos, és mi hiányzik. |
-| [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) | R2/R8 bizonyíték-nyilvántartás. Nem hoz jogi következtetést, és személyes adatot nem tartalmaz. |
-| [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) | A D1 előkészítése: a mozgalom **hivatalos arculati kézikönyvéből** kinyert paletta és szabályok, számított WCAG-kontrasztokkal, és két jóváhagyható változat. Ajánlás, nem lezárás. |
+| [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) | Az R5 lock-lapja: mi kötelező már most, mi következetes de nem hivatalos, és mi hiányzott. A D1 2026-10-02-án projektgazdai döntéssel lezárult; a mezők kitöltve. |
+| [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) | R2/R8 bizonyíték-nyilvántartás, a `HUM-MEDIA-02` alkapuinak (J1, J2, V1, V3) felelős- és bizonyíték-mezőjével. Nem hoz jogi következtetést, és személyes adatot nem tartalmaz. |
+| [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) | A D1 előkészítése: a mozgalom **hivatalos arculati kézikönyvéből** kinyert paletta és szabályok, számított WCAG-kontrasztokkal, és két jóváhagyható változat. A D1 2026-10-02-án a **B változattal** lezárult (projektgazdai döntés); ez a lap a tananyag-produkció stílus-tokenje. |
 | [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) | A teljes gyártási stack előkészítése: vizuális rendszer, hang, beszélőfej, karakter-jelenet, formátumok, elnevezés, provenance, akadálymentesítés, jogi bizonyíték, nyitott döntések. |
 | [`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md) | A D2 tesztanyaga: három meglévő narráció, amelyen a hangjelöltek összemérhetők. Másolat, nem kánon. |
 | [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) | A D2 utolsó kérdésének végrehajtható terve: **VOICE-SRC-01 vs. VOICE-SRC-02**, hat minta, beállítások, kiejtési figyelőlista, pontozólap. **A két ElevenLabs hang még nincs létrehozva** (a két név forrás-beszélőt jelöl), ezért a teszt még nem futtatható. |
-| [`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) | Családonként egy pilot-brief: pontos forrás, promptok, elfogadási és bukási feltételek, fájlelnevezés. **Mind a kilencen nyitott kapu ül — egyik sem indítható a saját döntése előtt.** |
+| [`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) | Családonként egy pilot-brief: pontos forrás, promptok, elfogadási és bukási feltételek, fájlelnevezés. **A hat vizuális és nyomtatott pilot kapuja a D1 volt, amely 2026-10-02-án lezárult; a hangos és videós pilotokon (P-NAR, P-VID, P-KAR) továbbra is nyitott kapu ül.** |
 
 ## Parancsok
 
@@ -158,13 +158,19 @@ munkafüzet *Produkciós konvenciók* lapján olvasható.
 |---|---|---|
 | **R2** — AI-avatar / AI-hang IP-megfelelőség | a generátor neve, a kereskedelmi licenc és a voice-talent release igazolása | a 21 beszélőfej-videó, az 5 AI karakter-jelenet és a belőlük kivett 2 állókép, az AI karakter-B-roll (`M1.1-VID-02`), valamint — mivel a felmondás szintetikus — mind a 90 narráció; összesen 119 asset (29 vizuális + 90 narráció) |
 | **R3** — Narrátor hang-bible | a konkrét ElevenLabs voice-ID, modell-azonosító, reprodukciós beállítások és kiejtési szótár | minden narráció, hang és videó |
-| **R5** — Ikon- és karakter-batch + lock | a rögzített **someres hex-paletta** (a szabály ezen belül tartja nyitva) | minden tervezett vizuál és nyomtatott anyag, valamint az AI karakter-jelenetek |
+| **R5** — Ikon- és karakter-batch + lock | **nincs — a D1 2026-10-02-án lezárult** (projektgazdai döntés: a hivatalos someres hex-paletta és a B változat, [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D1); az asset-szintű R5-blokkolók kivezetése a manifesztben külön lépés | a kivezetésig: minden tervezett vizuál és nyomtatott anyag, valamint az AI karakter-jelenetek |
 | **R7** — Produkciós függőségek | a véglegesített Moodle-felület | a kurzusfelületet ábrázoló képernyőkép |
 | **R8** — GDPR / képmás-védelem | valós fotón/képernyőképen minden azonosítható személy és kézírás anonimizálása vagy kikeretezése; **felismerhető kiskorúnál előre dokumentált szülői hozzájárulás**; képernyőképen nincs valós felhasználónév, arc vagy licenc-korlátos harmadik felas elem | a tananyag **két** valós felvétele: a Moodle-képernyőkép és a kvuca-plakátok archív fotói |
 
 Az R8 hatálya a szabály saját szövegét követi („valós fotó/screenshot esetén”):
 AI-generált képre és beszerzendő fizikai eszközre nem terjed ki — az indoklás
 tételenként a [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 2. szakaszában áll.
+
+> **Projektgazdai döntés (2026-10-02, `HUM-MEDIA-03`):** gyermekvédelmi vagy
+> krízis-HOOK-ban nem használunk készlet-AI-beszélőfejet. Az `M2.4-VID-01`, az
+> `M3.3-VID-01` és az `M3.4-VID-01` hangalámondás + tipográfia/grafika (`explainer`): az R2
+> és az R3 rajtuk marad, és az R5 produkciós szabály is vonatkozik rájuk. Utólagos
+> ellenőrzés (vétó/QA): a jogi/adatvédelmi felelős, az érintett jogosultak és a Memuna.
 
 **Mit kell eldönteni ahhoz, hogy induljon a gyártás?** Egy helyen, döntésenként
 egy kérdéssel, opciókkal és hatásszámmal:
@@ -174,7 +180,8 @@ hangról és a vizuális rendszerről: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md),
 
 Nem blokkoló, de minden vizuális munkára érvényes konvenció: **R1** (egységes
 AI-jelölés — a tanulónak látható címke jóváhagyott szövege: „AI-generált médiaelem · emberi lektorálással.”), **R4**
-(védjegy-semlegesség), **R6** (szín-szótár).
+(védjegy-semlegesség), **R6** (szín-szótár — 2026-10-02 óta modulhatókörű: a jelentést
+mindig felirat, forma vagy betűjel hordozza).
 
 **Nyitott emberi döntés.** Egy nem üres `decision` mező önálló készültségi kapu:
 amíg ott áll, az asset státusza `emberi döntésre vár`, a produkciós szabályokból
@@ -194,8 +201,13 @@ döntésre váró tételek* szakasz mutatja őket.
 > ⚠️ **Emberi döntés:** az R8 szövegében — az R2/R3/R5-tel ellentétben — nincs
 > `⟬KITÖLTENDŐ⟭` jelölés. Hogy ez betartandó szabály-e (és így nem kapu), vagy
 > önálló jóváhagyást igényel a fotó/képernyőkép-assetek élesítése előtt, a
-> gyermekvédelmi és adatvédelmi felelősnek kell tisztáznia
-> ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md), D8).
+> Memunának (gyermekvédelmi felelős) és az adatvédelmi felelősnek kell tisztáznia
+> ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md), D8). A felvételek adatkezelésére
+> projektgazdai döntés van (`HUM-PRIV-02`, 2026-10-02): alapértelmezésben nincs fotó, videó
+> vagy hangfelvétel, csak indokolt célból; a jogalap külön, önkéntes hozzájárulás, a
+> megőrzés a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási
+> hozzájárulás (`Adatvédelem – tanulói adatok és AI.md` 3. szakasz). Az R8 státuszáról (D8)
+> a döntés nem szól.
 
 > ✅ **Az M4 HOOK-formátum szerzői döntése 2026-08-27-én megszületett.** A v1 README ezt
 > `J19` néven említette; ilyen azonosító sehol nincs a befagyasztott adathalmazban, a

@@ -5,7 +5,7 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – Peula A (M2.A, 1. hét) és Peula B (M2.B, 2. hét), kb. **45’ + 45’**
 * **Online terhelés:** kb. 4×15–20 perc mikrolecke (M2.1–M2.4, össz. 60–80 perc)
-* **Teljes terhelés:** kb. 2,5–3,5 óra (online leckék + 2×45’ peula + az 1 oldalas identitás-jegyzet megírása – ez az alapeset, az esetleges újrabeadás ideje nélkül). Ez a Program terv §0 modulonkénti 2–3,5 órás sávjának felső fele: az M2 produktummal záruló modul, ezért tervezz a felső értékkel.
+* **Teljes terhelés:** kb. 2,5–3,5 óra; tervezéshez 3,5 óra (online leckék + 2×45’ peula + az 1 oldalas identitás-jegyzet megírása – ez az alapeset, az esetleges újrabeadás ideje nélkül; a részidők összege kb. 170–200 perc, a V1 tervezési érték a projektgazdai döntés szerint 2,5–3,5 óra). Az M2 produktummal záruló modul, ezért a tervezésnél a felső értékkel számolj.
 
 **Modulközponti kérdés**
 
@@ -36,7 +36,7 @@ A modul végére a madrich…
 4. **Határok és felelősség**
    * 2–3 saját **határszabályt** megfogalmaz (online/offline).
    * **Megfogalmazza, hogyan ad** ezekkel **példát** a chanichoknak a saját határaik védéséről.
-   * **Támogató elemek:** M2.4 (privát–személyes–szakmai határok), M2.A (megosztási határok gyakorlása), M2.F (pótlás, fogalom-térkép).
+   * **Támogató elemek:** M2.4 (privát–személyes–szakmai határok), M2.A (megosztási határok gyakorlása), M2.F (F-peula: javítás, ha a kapu nem teljesült; fogalom-térkép).
 5. **Összegző írás**
    * Elkészít egy 1 oldalas **madrich identitás-jegyzetet**, amely összekapcsolja az identitás-köröket, az értékeket, a Somer-pilléreket és a dugma ishit-célt.
    * **Támogató elemek:** M2.1–M2.4 összesített reflexiói + Peula B utáni feladat.
@@ -118,7 +118,7 @@ A modul végére a madrich…
 
 ***
 
-## 5. Felzárkóztató peula (M2.F) – ha szükséges (45’)
+## 5. Felzárkóztató peula (M2.F) – ajánlott, ha a kapu nem teljesült (45’)
 
 <!-- @asset
 {
@@ -126,7 +126,7 @@ A modul végére a madrich…
   "kind": "diagram",
   "mode": "generate",
   "title": "M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás)",
-  "purpose": "A lemaradóknak (M2.F felzárkóztató műhely) egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét, hogy senki ne maradjon ki az identitás/érték/pillér/határ logikából, mielőtt továbblép a programban (vö. az 5. szakasz „Modulhoz való szerepe” pontjával).",
+  "purpose": "Az M2.F (F-peula) résztvevőinek – akiknek a modul kapuja nem teljesült – egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét, hogy senki ne maradjon ki az identitás/érték/pillér/határ logikából, mielőtt újra beadja az identitás-jegyzetét (vö. az 5. szakasz „Modulhoz való szerepe” pontjával).",
   "spec": "Egyszerű, áttekintő fogalom-térkép a teljes M2 modulról, amely vizuálisan összeköti a négy fogalmi blokkot: identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) → személyes értékek (3 érték + 1 kiemelt someres érték) → Somer 3 pillére (cionizmus, szocializmus, humanista zsidóság) → határok & személyes példamutatás (dugma ishit). Mutassa, hogyan futnak ezek össze az 1 oldalas madrich identitás-jegyzetben. Modul-szintű áttekintő ábra, NEM lecke-szintű részlettartalom.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
@@ -145,10 +145,8 @@ A modul végére a madrich…
     "R1",
     "R5"
   ],
-  "blockers": [
-    "R5"
-  ],
-  "notes": "Hub-szintű, elsősorban az M2.F (felzárkóztató műhely) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él, így az nem ennek a hubnak az assete – nincs duplikáció.",
+  "blockers": [],
+  "notes": "Hub-szintű, elsősorban az M2.F (F-peula) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él, így az nem ennek a hubnak az assete – nincs duplikáció.",
   "legacy": {
     "asset": [
       "M2-HUB-DIA-01"
@@ -160,20 +158,21 @@ A modul végére a madrich…
 * **Peula kód:** M2.F
 * **Cím:** Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás
 * **Kapcsolódó leckék:** M2.1, M2.2, M2.3, M2.4.
+* **Mikor:** az M2 puha kapu, ezért az F-peula ajánlott, ha a kapu nem teljesült; az időpontját – a kapueredmény megerősítése után, a javító beadás előtt – a képző jelöli ki a központi naptár szerint.
 * **Fő célok:**
-  1. **Beazonosítja**, hol tart az M2.1–M2.4 leckékben, és **megnevezi**, mit kell még pótolnia/újranéznie.
-  2. Legalább egy leckében érdemben halad (befejez, újranéz vagy kiegészít egy kritikus részt).
-  3. Le tud írni/mondani leckénként 1 gondolatot és 1 kérdést.
-  4. Lát egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás).
+  1. **Beazonosítja** a kapun kapott mentori visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján, hogy az identitás-jegyzetének melyik rubrikasorán (R1–R4) kell javítania, és **megnevezi** a következő lépést.
+  2. Érdemben javítja a jegyzet nem teljesült elemeit; ha ehhez valamelyik leckét (a rubrikasorok az M2.1–M2.4 leckékhez kötődnek) pótolnia vagy újranéznie kell, azt itt teszi meg – a javító beadás előtt.
+  3. Le tud írni/mondani leckénként 1 gondolatot és 1 kérdést, elsősorban a javítandó sorokhoz tartozó leckéknél.
+  4. Lát egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás), és ehhez köti a jegyzete javítandó részeit.
 * **Modulhoz való szerepe:**
-  * technikai és tartalmi „mentőöv” azoknak, akik lemaradtak;
-  * segít, hogy senki ne maradjon ki az identitás–érték–pillér–határ fogalmi keretből, mielőtt továbblép a programban.
+  * facilitált, strukturált javítási alkalom (F-peula) azoknak, akiknek a modul kapuja nem teljesült; aki csak lemaradt egy leckéről vagy peuláról, csendes pótlással, önállóan pótol;
+  * segít, hogy senki ne maradjon ki az identitás–érték–pillér–határ fogalmi keretből, mielőtt újra beadja az identitás-jegyzetét.
 
 ***
 
 ## 6. Kapuk
 
-* **Kaputípus:** puha kapu – az önreflexió a lényeg, nem vizsga; jelzés és támogatás, nem kizárás.
+* **Kaputípus:** puha kapu – az önreflexió a lényeg, nem vizsga; jelzés és támogatás, nem kizárás (a puha kapu definíciója: Program terv §5).
 * **A kapu értékelő sablonja:** az önellenőrző lista, az 1 oldalas jegyzet-sablon és a fejlesztő rubrika **nem itt, hanem a hivatalos [M2 – KAPU – értékelő (item-bank + rubrika)](./M2%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban él** – ez a §6 hivatkozási forrása. **Az ottani A. szakasz adja a 10 pontos tanulói önellenőrzést, a C. szakasz a 4 soros (R1–R4) fejlesztő rubrikát, a D. szakasz pedig az 1 oldalas jegyzet-sablont.**
 * **Eszközök:**
   * Activity completion (H5P; a szabad szöveges mezők útja az `LMS – H5P runtime acceptance.md` 6. pontja szerint) az M2.1–M2.4 leckékre **– ahol a „completion” nem a végiglapozást jelenti, hanem érdemi kitöltést** (lásd lentebb a „Mit jelent a complete?” pontot);
@@ -189,17 +188,17 @@ A modul végére a madrich…
 2. L2 / M2.2 – H5P értékválasztás + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
 4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza + 3 saját határszabály; a privát naplórész nem beadandó.
-5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal **– az értékelő-fájl D. szakaszának sablonja szerint, a tanuló előbb végignézi az A. szakasz 10 pontos önellenőrzését.**
+5. 1 oldalas **madrich identitás-jegyzet** leadva, záró dugma ishit-mondattal **– az értékelő-fájl D. szakaszának sablonja szerint, a tanuló előbb végignézi az A. szakasz 10 pontos önellenőrzését. Completion csak akkor jár, ha az előírt blokkokban tényleges, minimálisan értelmezhető tartalom van: üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem completion.**
 
 **Puha kapu küszöbe (az értékelő-fájlból átvéve):**
 
-> A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (felzárkóztató műhely) ajánlást kap, és újra beadhat** – nincs kizárás, nincs limit a próbálkozásra.
+> A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (F-peula) ajánlást kap, és újra beadhat** – nincs kizárás; 1 normál + 1 javító beadás automatikusan, további beadást a képző nyithat kézzel.
 
 > **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzeted, a választott someres értéked és a dugma ishit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika R1 (**SMART nevelési cél**) sora pedig pontozza a *„someres értékhez kötött”* jegyet (lásd „M7 – KAPU” §B, R1 sor). Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
 
 **Javítás / támogatás logika:**
 
-* Ha valaki nem fejezi be a modul valamelyik kulcselemét → mentor értesítése, M2.F (felzárkóztató műhely) ajánlása.
+* Ha valaki nem fejezi be a modul valamelyik kulcselemét → mentor értesítése, csendes pótlás; ha a kapu nem teljesül → M2.F (F-peula) ajánlása.
 * Nincs kizárás, csak jelzés és támogatás.
 
 ***
@@ -219,7 +218,7 @@ A modul végére a madrich…
   * A nem érzékeny M2.1/M2.4 feladatválaszok teljesítési aránya és az identitás-jegyzet leadási aránya; a személyes identitástérkép és a privát naplórész nem kerül be.
   * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrich-szerephez kötött szabály.
 * **Küszöbök / beavatkozási pontok (példák):**
-  * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → M2.F felzárkóztató műhely + extra emlékeztető.
+  * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → csendes pótlás + extra emlékeztető.
   * Ha az identitás-jegyzetek >30%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma ishitről.
 * **Program-szintű használat:**
   * az M2 completion-adatai jelzik, mennyire sikerül a résztvevőket bevonni a saját identitásuk és értékeik tudatosításába;

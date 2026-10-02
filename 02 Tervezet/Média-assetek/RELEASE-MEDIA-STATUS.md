@@ -73,9 +73,9 @@ Ezek Moodle/H5P build-elemek, nem külön vizuális gyártási kapuk.
 | nyomtatott peula-segédlet | `OPTIONAL` a technikai stagingben | A tényleges offline pilot előtt szükség szerint `REQUIRED_LATER`. |
 | H5P-interakció konfigurációja | `REQUIRED_FOR_FIRST_RELEASE` | Natív build-feladat; azonos tanulási céllal más támogatott típussal helyettesíthető. |
 | M0.3 Moodle screenshot | `OPTIONAL + RUNTIME_ONLY` | Stagingben szöveges navigáció; a screenshot csak a célfelület stabilizálása után készül. |
-| M0.A plakátfotó | `OPTIONAL + RUNTIME_ONLY` | A Z.A visszakötéshez a képzői jegyzet az adatminimalizált fallback. |
+| M0.A plakátfotó | `OPTIONAL + RUNTIME_ONLY` | A Z.A visszakötéshez a képzői jegyzet az adatminimalizált fallback. A projektgazdai döntés szerint (`HUM-PRIV-02`, 2026-10-02) a kézírásos plakátot lehetőleg fizikailag őrizzük meg; ha fotó kell, előbb a nevek és azonosítók eltávolítása, a háttérben ne legyen gyerek, feltöltés ellenőrzött tárhelyre, majd törlés a saját eszközről. A fotó jogalapja külön, önkéntes hozzájárulás; megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás (`Adatvédelem – tanulói adatok és AI.md` 3. szakasz). |
 
-**Következmény:** R2, R3 és R5 nyitottsága **nem blokkolja az M0+M1 belső staging pilotot**.
+**Következmény:** R2 és R3 nyitottsága **nem blokkolja az M0+M1 belső staging pilotot** — ahogy korábban az R5-é sem; az R5 a D1 2026-10-02-i lezárása óta nem nyitott.
 
 ## 4. Teljes learner release
 
@@ -88,6 +88,16 @@ Egy médiaelem csak akkor kötelező, ha legalább az egyik igaz:
 4. az offline peula lebonyolításához ténylegesen szükséges eszköz.
 
 Ha ezek egyike sem igaz, az elem `OPTIONAL`, még akkor is, ha a produkciós tervben legyártandóként szerepel.
+
+### 4.1. Release-állapot a médiakapuk szerint
+
+> **Projektgazdai döntés (2026-10-02)** (`Emberi jóváhagyás szükséges.md` 5. szakasz);
+> utólagos ellenőrzés (vétó/QA): a release owner és a jogi/adatvédelmi felelős.
+
+- A jogi és a gyermekvédelmi médiakapuk **blokkolják az általuk érintett tanulói asset release-ét** — például a `HUM-MEDIA-02` és alkapui (J1, J2, V1, V3: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5.), a `HUM-MEDIA-03`, valamint az R2 és az R8 jogi bizonyítéka.
+- A teljes release csak akkor **`READY`**, ha minden release-hatókörű médiakapu zárt, vagy az érintett assetet eltávolították vagy helyettesítették.
+- Külön állapot lehet: **`CONTENT_READY / MEDIA_PENDING`** (a tartalom kész, a média még kapura vár).
+- A „specifikáció zárt” állítás nem igaz, amíg kötelező asset nyitott jogi kapun áll.
 
 ## 5. Specifikáció vs. runtime
 
@@ -106,16 +116,18 @@ Ha az M0+M1 staging már működik, az első média-produkciós kör sorrendje:
 1. egy hozzáférhető, információhordozó **diagram/HTML-pár** M0-ból;
 2. egy M1-es **SBI-vizuál**;
 3. csak ezután narrációs pilot;
-4. AI beszélőfej csak a hang-, képmás- és szolgáltatói jogok lezárása után.
+4. AI beszélőfej csak a hang-, képmás- és szolgáltatói jogok lezárása után — gyermekvédelmi és krízis-HOOK-ban a projektgazdai döntés szerint (`HUM-MEDIA-03`) készlet-AI-beszélőfej egyáltalán nem: ott hangalámondás + tipográfia/grafika készül.
 
 A cél nem a 417 asset minél gyorsabb legyártása, hanem annak bizonyítása, hogy a vizuális/hangos réteg hozzáad értéket a már működő tanulási úthoz.
 
 ## 7. Kapcsolódó emberi döntések
 
-- `HUM-MEDIA-01`: vizuális rendszer;
-- `HUM-MEDIA-02`: hangjogosultság és ElevenLabs-hang;
-- `HUM-MEDIA-03`: HeyGen/avatar és média-jogok;
-- `HUM-PRIV-02`: fotó, videó, hang és kézírás adatkezelése;
-- `HUM-A11Y-01`: hozzáférhetőségi jóváhagyó szerepkör.
+- `HUM-MEDIA-01`: vizuális rendszer — a D1 lezárva: a hivatalos Somer-paletta és a B változat ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D1);
+- `HUM-MEDIA-02`: hangjogosultság és ElevenLabs-hang; alkapui a J1, J2, V1 és V3 (felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5.);
+- `HUM-MEDIA-03`: HeyGen/avatar és média-jogok; gyermekvédelmi és krízis-HOOK-ban nincs készlet-AI-beszélőfej;
+- `HUM-PRIV-02`: fotó, videó, hang és kézírás adatkezelése; alapértelmezésben nincs felvétel; a jogalap külön, önkéntes hozzájárulás, a megőrzés legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás;
+- `HUM-A11Y-01`: hozzáférhetőségi jóváhagyó szerepkör — a felelős (accountable) hozzáférhetőségi gazda a Ros Hinuh; az élesítés előtti, független második ellenőrzést a tételben név szerint megnevezett személy végzi; a szerző nem hagyja jóvá a saját munkáját.
+
+A `HUM-MEDIA-01`, a `HUM-MEDIA-02`, a `HUM-MEDIA-03`, a `HUM-PRIV-02` és a `HUM-A11Y-01` fenti tartalma projektgazdai döntés (2026-10-02). A megnevezett szerepek későbbi ellenőrzése vétó / minőségellenőrzés (QA), nem új döntési kapu; a szerepeket és a neveket az `Emberi jóváhagyás szükséges.md` rögzíti. A médiakapuk release-hatása: 4.1.
 
 Ezek közül egyik sem jogosítja fel az implementációs agentet arra, hogy hiányzó nevet, hozzájárulást, voice ID-t, licencet vagy jóváhagyási dátumot kitaláljon.
