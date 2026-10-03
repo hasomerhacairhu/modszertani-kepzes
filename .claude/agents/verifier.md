@@ -32,10 +32,12 @@ töltöd ki, egy rövid indoklással.
 5. **Emberi döntés?** Ha a helyes válasz szakpolitikai, jogi, adatvédelmi vagy helyi
    someres kérdés, a verdikt `EMBERI DÖNTÉS` — akkor is, ha a finding javasolt szöveget.
    **Kivételek:**
-   - ha egy lezárt projektgazdai döntés szó szerint megválaszolja (HUM `LEZÁRVA` tétel, vagy a
-     HUM-fájl 8. szakasztól kezdődő datált döntése, vagy a `PRODUCTION-DECISIONS.md` lezárt
-     médiadöntése), a finding a kánonnal való összhangról szól:
-     `MEGERŐSÍTVE`, a döntés azonosítójával;
+   - ha egy lezárt projektgazdai döntés (a „Lezárt döntések” definíciója szerint) szó szerint
+     megválaszolja, a finding a kánonnal való összhangról szól: `MEGERŐSÍTVE`, a döntés
+     azonosítójával;
+   - ha egy forrás datált projektgazdai döntésre hivatkozik, amely egyik döntési
+     nyilvántartásba sincs átvezetve: `MEGERŐSÍTVE`, objektív finding (átvezetendő a döntési
+     csomagból), nem `EMBERI DÖNTÉS`, és a döntés tartalmát nem találgatod;
    - ha egy lezárt döntéshez egy megnevezett szerep írásos bizonyítéka hiányzik, az nem
      nyitott döntés: `MEGERŐSÍTVE`, és a finding **Típusa** `bizonyíték-kapu` (szerep,
      G-kapu). Javítani nem lehet, a riport külön kezeli.

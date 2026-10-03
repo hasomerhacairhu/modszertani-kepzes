@@ -50,8 +50,9 @@ verifier és a reviewerek erre hivatkoznak.
   `LEZÁRVA` + `Jóváhagyta:` tételei, **és** ugyanennek a fájlnak a 8. szakasztól kezdődő,
   datált projektgazdai döntés-szakaszai (HUM-azonosító nélkül is; ma a 8. és a 9., egy
   később hozzáadott datált szakasz ugyanígy számít); **és** a média- és hangdöntések
-  nyilvántartása, a `Média-assetek/PRODUCTION-DECISIONS.md` `LEZÁRVA` szakaszai és datált
-  „Projektgazdai döntés (…)” blokkjai. Bizonyítékuk a `01 Fejlesztés/04 Audit/` döntési
+  nyilvántartása, a `Média-assetek/PRODUCTION-DECISIONS.md` `LEZÁRVA` szakaszai, datált
+  „Projektgazdai döntés (…)” blokkjai és „Lezárt döntések” táblázata. Bizonyítékuk a
+  `01 Fejlesztés/04 Audit/` döntési
   jegyzőkönyveiben van. Kövesd és vezesd át őket; ne
   nyisd újra, és ne jelentsd nyitott emberi döntésként. A döntés a kánoni sorrend 1–3.
   forrásai fölött áll: ha egy forrás ellentmond neki, az a forrás javítandó (objektív

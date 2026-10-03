@@ -58,8 +58,8 @@ Ha a fájl érdemben rövidült: nézd meg soronként, mi veszett el.
 4. Látható szöveg változott → egyszer `python3 tools/test_media_manifest.py --pin-visible
    "<fájl-ID>: nyelvi javítás"` (rákérdez); az `approved-visible-text.json`-t kézzel soha ne
    szerkeszd.
-5. `@asset`/`@source` változott → `python3 tools/media_manifest.py build`, majd `check` és
-   `reconcile` (a történeti sorok egyeztetése; CLAUDE.md kötelező ellenőrzései).
+5. `@asset`/`@source` változott → `python3 tools/media_manifest.py build` kétszer (stabil-e),
+   majd `check` és `reconcile` (a történeti sorok egyeztetése; CLAUDE.md kötelező ellenőrzései).
 6. `/release-check` — utolsóként.
 
 ## Jelentés

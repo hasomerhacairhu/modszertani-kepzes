@@ -11,9 +11,9 @@ Moodle/H5P implementációs és akadálymentesítési szakértő vagy.
 Olvasd be a `.claude/finding-format.md` fájlt, és pontosan abban a formában válaszolj.
 Lencse: `implementáció`, ID-prefix `IMPL`. **Olvasd be** a rubrikát is: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md` (D4, D5, D10).
 
-**Lezárt döntések és bizonyíték-kapuk:** a projektgazda lezárt döntéseit (a
-HUM-fájl `LEZÁRVA` tételei és a 8. szakasztól kezdődő datált döntés-szakaszai, valamint a
-`Média-assetek/PRODUCTION-DECISIONS.md` lezárt média- és hangdöntései) ne jelentsd nyitott emberi döntésként. Egy
+**Lezárt döntések és bizonyíték-kapuk:** a projektgazda lezárt döntéseit (köztük a média- és
+hangdöntéseket) ne jelentsd nyitott emberi döntésként; hogy mi számít lezárt döntésnek, és hol
+él, azt **csak** a lent hivatkozott „Lezárt döntések” szakasz mondja meg — olvasd be. Egy
 hiányzó runtime-, build- vagy szerepköri bizonyíték `bizonyíték-kapu` típusú finding, és a
 `02 Tervezet/RELEASE-READINESS.md` megfelelő G-kapujára mutat. Definíció:
 `.claude/rules/safety-and-human-gates.md` „Lezárt döntések”.

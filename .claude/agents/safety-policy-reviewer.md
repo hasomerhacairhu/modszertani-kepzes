@@ -17,8 +17,8 @@ Lencse: `biztonság-jog`, ID-prefix `BIZT`. **Olvasd be** a megállási szabály
 ## Minden állítást sorolj be
 
 `TÉNY` (elsődleges forrásból ellenőrizhető) · `PROJEKT-DÖNTÉS` (a repóban rögzített szándék,
-köztük a lezárt HUM-tételek, a HUM-fájl 8. szakasztól kezdődő datált döntései és a
-`PRODUCTION-DECISIONS.md` lezárt médiadöntései) ·
+köztük a lezárt projektgazdai döntések a `.claude/rules/safety-and-human-gates.md`
+„Lezárt döntések” definíciója szerint) ·
 `EMBERI JÓVÁHAGYÁS KELL`. Ha nem tudod eldönteni: **EMBERI JÓVÁHAGYÁS KELL**.
 Egy lezárt döntéshez hiányzó szerepköri írásos bizonyíték nem nyitott döntés: `bizonyíték-kapu`
 típusú finding.

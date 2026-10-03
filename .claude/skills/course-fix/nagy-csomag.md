@@ -31,10 +31,11 @@ context-tömörítés, és a scratchpad újraindításkor törlődik: az állapo
   - *csere hozzáadott sor nélkül* (a javítás csak elhagy a bizonyítékból): ha a bizonyíték
     megvan → javítasz; ha nincs meg, és a javítás szövege megvan → `már alkalmazva`; különben
     `kihagyva: a fájl eltér`;
-  - *törlés*: ha a bizonyíték nincs meg, és a környező horgony megvan → `már alkalmazva`.
+  - *törlés*: ha a bizonyíték megvan → javítasz; ha nincs meg, és a környező horgony megvan →
+    `már alkalmazva`; ha egyik sincs meg → `kihagyva: a fájl eltér`, és jelzed.
 - Egy lépés = egy `Edit`; `replace_all` csak, ha a lépés előírja.
 - A naplót **minden lépés után** frissítsd (`Edit`): `alkalmazva` / `már alkalmazva` /
-  `kihagyva: <ok>` / `megállva: emberi döntés`.
+  `kihagyva: <ok>` / `megállva: emberi döntés` / `megállva: részben alkalmazva`.
 
 ## 3. Fájlcsoport végén
 

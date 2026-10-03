@@ -11,10 +11,11 @@ maxTurns: 40
 Olvasd be a `.claude/finding-format.md` fájlt, és pontosan abban a formában válaszolj.
 Lencse: `értékelés`, ID-prefix `ERT`. **Olvasd be** a rubrikát is: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md` (D1, D3).
 
-**Lezárt döntések:** a projektgazda lezárt döntéseit (a HUM-fájl `LEZÁRVA`
-tételei és a 8. szakasztól kezdődő datált döntés-szakaszai — köztük küszöb-, rubrika- és kapudöntések) ne jelentsd nyitott
-emberi döntésként; egy megnevezett szerep hiányzó írásos bizonyítéka `bizonyíték-kapu`
-típusú finding. Definíció: `.claude/rules/safety-and-human-gates.md` „Lezárt döntések”.
+**Lezárt döntések:** a projektgazda lezárt döntéseit — köztük a küszöb-, rubrika- és
+kapudöntéseket — ne jelentsd nyitott emberi döntésként; egy megnevezett szerep hiányzó írásos
+bizonyítéka `bizonyíték-kapu` típusú finding. Hogy mi számít lezárt döntésnek, és hol él, azt
+**csak** a `.claude/rules/safety-and-human-gates.md` „Lezárt döntések” szakasza mondja meg —
+olvasd be.
 
 ## Mit vizsgálj
 

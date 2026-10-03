@@ -8,20 +8,12 @@
       "git *",
       "gh *",
       "python3 tools/media_manifest.py build",
+      "python3 tools/media_manifest.py build *",
       "python3 tools/test_media_manifest.py --pin-visible *"
     ],
     "filesystem": {
       "denyWrite": [
-        "./02 Tervezet",
-        "./.claude",
-        "./.github",
-        "./CLAUDE.md",
-        "./tools/approved-visible-text.json",
-        "./tools/content_integrity.py",
-        "./tools/media_manifest.py",
-        "./tools/media_migrate_v2.py",
-        "./tools/test_media_manifest.py",
-        "./.sandbox-probe"
+        "./"
       ]
     }
   },

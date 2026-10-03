@@ -94,9 +94,9 @@ saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
 
 **Tananyagot és governance-fájlt csak `Edit`/`Write` eszközzel szerkessz.** A `.claude/rules/`
 útvonalhoz kötött szabályai `Read`/`Edit`/`Write` eszköznél töltődnek be, Bash-nél nem. Ezért
-a sandbox (lásd „Git-biztonság”) OS-szinten tiltja a Bash-írást ezekbe a fájlokba, a hook pedig
+a sandbox (lásd „Git-biztonság”) OS-szinten tiltja a Bash-írást az egész repóba, a hook pedig
 érthető üzenettel előre megfogja a gyakori alakokat (sed/perl/awk helyben, tee, átirányítás,
-cp/mv, patch, inline szkript). Amit egyik sem lát, az is tilos.
+cp/mv, patch, inline szkript).
 
 ## Kontextus-fegyelem
 
@@ -111,9 +111,9 @@ cp/mv, patch, inline szkript). Amit egyik sem lát, az is tilos.
   újraindításkor törlődik.
 - **Governance-változás után új session.** A subagentek a session indulásakor betöltött
   CLAUDE.md-t és szabályokat kapják: egy CLAUDE.md- vagy `.claude/**`-commit után indíts új
-  sessiont, mielőtt skillt vagy review-t futtatsz. Claude Code 2.1.283-tól a `/doctor`
-  utasításfájl-ellenőrzése hiányzó hivatkozást és egymásnak ellentmondó szabályt is keres;
-  régebbi verzión ez az ellenőrzés nincs (`claude --version`).
+  sessiont, mielőtt skillt vagy review-t futtatsz. Claude Code 2.1.283-tól a `/doctor
+  prompt-audit` hiányzó hivatkozást és egymásnak ellentmondó szabályt is keres; régebbi
+  verzión ez nincs (`claude --version`).
 - A projekt beállításai (hook, deny/ask szabályok, sandbox) csak akkor töltődnek be, ha a
   Claude Code a repó gyökeréből indul.
 
@@ -125,27 +125,35 @@ cp/mv, patch, inline szkript). Amit egyik sem lát, az is tilos.
   history rewrite — a rövidített opcióalakok is (`--har`, `--amen`). A
   `.claude/hooks/guard-repo-safety.sh` hook ezeket blokkolja.
 - **Három réteg.** (1) **Sandbox** — az írási határ: a Bash-parancsok OS-szintű sandboxban
-  futnak (`.claude/settings.json` `sandbox`), és a `02 Tervezet/`, `.claude/`, `.github/`,
-  `CLAUDE.md`, a `tools/` négy Python-eszköze (név szerint felsorolva — új eszköznél a
-  `denyWrite` listát bővíteni kell) és a látható-szöveg pinek Bash-ből nem írhatók, bárhogy van
-  leírva a parancs. Sandboxon kívül csak a `git`, a `gh`, a `media_manifest.py build` és a
-  `--pin-visible` fut, önálló hívásként (összetett parancs sandboxban marad). A sandbox
-  parancsból nem kapcsolható ki, és ha nem indul, a Claude Code sem indul. Következmény: ebből a sessionből Bash nem ír a VO QA-repóba — azt a QA-repóból
-  indított session végzi. Ellenőrzés: `/sandbox`, és a `/release-check` sandbox-próbája.
-  (2) **Hook** — a sandboxon kívül futó git/gh őre; a tartalmi szabályai korai, érthető
-  figyelmeztetések. Fail closed: a 100 000 bájtnál hosszabb parancsot és a 15 mp alatt be nem
-  fejezett elemzést blokkolja. (3) **Settings** deny/ask szabályai.
-- `git push` és minden GitHubra író `gh`-parancs (`gh pr create/merge/close/comment/edit`,
-  `gh issue …`, `gh release create`, `gh workflow run` stb.) **kizárólag explicit kérésre**, és
-  csak egyszerű, önálló alakban (`git push origin <branch>`, `git -C <út> push …`,
-  `gh pr merge <n>`; hosszabb szöveg `--body-file`-lal): ezekre a settings ask-szabálya minden
-  módban rákérdez; minden más alakot (összetett parancs, `git -c … push`, `bash -c`,
-  `gh pr --repo … merge`) a hook blokkol. A GitHubra kerülő szöveget a hook a helyi
-  `.git/hooks/text-name-check`-kel névellenőrzi, ha telepítve van. Távoli branch vagy ref
-  törlése és GitHub API-írás blokkolt; távoli branchet a felhasználó töröl.
+  futnak (`.claude/settings.json` `sandbox`), és a repóba — a `.git`-et is beleértve — semmit
+  nem írhatnak, bárhogy van leírva a parancs; ideiglenes fájl a `$TMPDIR`-be kerül. Sandboxon
+  kívül csak az a hívás fut, amelynek minden része szó szerint `git …`, `gh …`,
+  `python3 tools/media_manifest.py build` vagy a `--pin-visible` parancs. A sandbox parancsból
+  nem kapcsolható ki, és ha nem indul, a Claude Code sem indul. Következmények: ebből a
+  sessionből Bash nem ír a VO QA-repóba (azt a QA-repóból indított session végzi); a
+  git-parancsot önálló hívásként futtasd (egy `git add … && python3 …` sandboxban marad, és nem
+  írhatja a `.git`-et). Ellenőrzés: `/sandbox`, és a `/release-check` sandbox-próbája.
+  (2) **Hook** — a sandboxon kívül futó git/gh hívások őre, engedélylistával: git csak ebben a
+  repóban (és a helyi, nem követett `.git/info/guard-allowed-roots` gyökereiben), csak ismert
+  alparancsokkal, programot futtató vagy fájlba író opció nélkül (`-c` a listán kívül,
+  `git config`-írás, `--upload-pack`/`--exec`/`ext::`, `--output`); gh csak olvasó
+  alparancsokkal, `gh api` GET-tel és PR/issue közzététellel. A hook szöveget elemez, nem
+  futtat — a sandboxon kívüli hívásoknál ez erős, de nem bizonyított határ. Fail closed:
+  értelmezhetetlen bemenet, 100 000 bájtnál hosszabb parancs és 15 mp alatt be nem fejezett
+  elemzés → blokk. (3) **Settings** deny/ask szabályai.
+- `git push` és a GitHubra író gh-parancsok (`gh pr create/merge/close/comment/edit/review/
+  reopen/ready`, `gh issue create/comment/edit/close/reopen`; minden más gh-írás blokkolt)
+  **kizárólag explicit kérésre**, és csak egyszerű, önálló alakban, egyszeres szóközökkel
+  (`git push origin <branch>`, `git -C <út> push …`, `gh pr merge <n>`; hosszabb szöveg
+  `--body-file <szó szerinti út>`-tal): ezekre a settings ask-szabálya minden módban rákérdez;
+  minden más alakot (összetett parancs, `git -c … push`, `bash -c`, `gh pr --repo … merge`) a
+  hook blokkol. A GitHubra kerülő szöveget (cím, törzs, `--body-file`) a hook a helyi
+  `.git/hooks/text-name-check`-kel névellenőrzi; ha az ellenőrző hiányzik, a közzététel
+  blokkolt. Távoli branch vagy ref törlése és GitHub API-írás blokkolt; távoli branchet a
+  felhasználó töröl.
 - **Push előtt** a névellenőrzés: a VO QA-repó `tools/check-course-push.py --range
-  origin/main..<branch>` (a helyi `.git/hooks/pre-push` is futtatja, ha telepítve van);
-  találatnál a branch nem pusholható.
+  origin/main..<branch>`; a helyi `.git/hooks/pre-push` ezt, valamint a ref-neveket és az
+  annotált tagek üzenetét minden pushnál ellenőrzi. Találatnál a branch nem pusholható.
 - A merge módját a felhasználó választja; atomikus átnevezést tartalmazó PR-nél a merge
   commit megőrzi az átnevezés-commitot (PR #12).
 - A CI kizárólag olvasó-ellenőrző (`.github/read-only-workflows.sh` allowlist; 2026-09-29-én
@@ -156,7 +164,7 @@ cp/mv, patch, inline szkript). Amit egyik sem lát, az is tilos.
 ## Kötelező ellenőrzések tartalmi módosítás után
 
 ```bash
-python3 -m py_compile tools/*.py                # minden Python tool szintaktikailag érvényes
+python3 -X pycache_prefix="${TMPDIR:-/tmp}/pyc" -m py_compile tools/*.py   # szintaxis; a bytecode a $TMPDIR-be (a repó sandboxból nem írható)
 python3 tools/content_integrity.py               # 0 ERROR kötelező
 python3 tools/media_manifest.py check            # elcsúszás → python3 tools/media_manifest.py build
 python3 tools/media_manifest.py reconcile        # történeti sorok egyeztetve

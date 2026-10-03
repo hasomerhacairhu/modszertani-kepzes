@@ -98,12 +98,15 @@ bizonyítékkal alátámasztott, helyhez kötött megállapítás; a mezőit a
 [`.claude/finding-format.md`](./.claude/finding-format.md) írja le.
 
 A `/course-review` és a `/release-check` külön, read-only subagentben fut, és csak a riportot
-adja vissza. Destruktív git-műveleteket (`reset --hard`, `reset <commit>`, `clean -f`, `rebase`,
-force push, `commit --amend`, távoli branch vagy ref törlése, GitHub API-írás) és a tananyag
-vagy a governance-fájlok Bash-alapú szerkesztését a `.claude/hooks/guard-repo-safety.sh` hook
-blokkolja; a `git push`, a `gh pr merge` és a `gh pr close` csak egyszerű, önálló alakban
-futhat, és mindig rákérdez. A nyilvános repóba nem kerül a hangok saját neve (szerepnévvel
-szerepelnek). Önteszt: `bash .claude/hooks/guard-repo-safety.sh --selftest`
+adja vissza. A védelem három rétegű (részletek: [CLAUDE.md](./CLAUDE.md) „Git-biztonság”):
+az OS-szintű **sandbox** a Bash-parancsoknak az egész repót (a `.git`-et is) írásvédetté teszi;
+a sandboxon kívül futó `git`/`gh` hívásokat a `.claude/hooks/guard-repo-safety.sh` **hook**
+engedélylistával szűri (destruktív és history-átíró git-műveletek, programot futtató opciók,
+GitHub-írás blokkolva); a **settings** deny/ask szabályai pedig rákérdeznek a közzétételre
+(`git push`, `gh pr create/merge/close/comment/…`, `gh issue create/comment/…`), amely csak
+egyszerű, önálló alakban futhat. A nyilvános repóba nem kerül a hangok saját neve (szerepnévvel
+szerepelnek). Öntesztek: `bash .claude/hooks/guard-repo-safety.sh --selftest`,
+`bash .github/read-only-workflows.sh --selftest`.
 
 ## Release-folyamat
 

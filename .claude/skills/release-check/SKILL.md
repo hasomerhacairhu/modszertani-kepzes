@@ -13,7 +13,7 @@ allowed-tools:
   - Bash(python3 tools/media_manifest.py lint *)
   - Bash(python3 tools/media_manifest.py stats)
   - Bash(python3 -m unittest tools.test_media_manifest*)
-  - Bash(python3 -m py_compile*)
+  - Bash(python3 -X pycache_prefix=* -m py_compile*)
   - Bash(python3 -m json.tool .claude/settings.json*)
   - Bash(bash -n .claude/hooks/*)
   - Bash(bash .claude/hooks/guard-repo-safety.sh --selftest)
@@ -80,7 +80,7 @@ python3 tools/media_manifest.py stats
 ## 3. Git-higiénia
 
 ```bash
-python3 -m py_compile tools/*.py
+python3 -X pycache_prefix="${TMPDIR:-/tmp}/pyc" -m py_compile tools/*.py   # a repó sandboxból nem írható
 git fetch --quiet origin main
 git diff --check                       # nem commitolt whitespace-hiba
 git diff --check origin/main...HEAD    # a CI a teljes PR-tartományt nézi (merge-base óta)
