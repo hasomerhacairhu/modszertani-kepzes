@@ -47,6 +47,10 @@ bizonyítéka változatlan; a `::CAPTIONS` hivatkozások létező derivatívákr
 rendben vannak; az öt rész a forrásblokkban, a gyártási jegyzetben és a `spec`-ben egymással és a K7-tel összhangban van;
 az 5. rész csak a „Mit látunk?” tényeit mondja.
 
+**Továbbvezetés (2026-10-03, a PR #15 merge-e után):** mind a 12 finding (a duplikátummal 11 tétel) a
+`2026-10-03 Fix pack – VO 2. fázis, 5. csomag.md`-be került (P5-01…P5-11; két független `verifier` ellenőrizte, 6 lépést
+az ő szövegükkel pontosítva). A mért hossz beírása a VO QA-repó újramérésére vár.
+
 ## Vétólista
 
 - **Answer key, küszöb, rubrika, kapu-típus, completion, időtartam:** nincs változás.

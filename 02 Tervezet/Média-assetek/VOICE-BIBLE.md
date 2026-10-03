@@ -29,7 +29,9 @@ nincs szkript nélküli beszélt asset.
 > szükséges.md`, `HUM-MEDIA-02`), a producer csak az álneveket látja. Kötelező mezők:
 > álnév, valódi név, hozzájárulás vagy szerződés hivatkozása, engedélyezett felhasználás,
 > modell/szolgáltató, terület, időtartam, visszavonás, aláírás dátuma, a bizonyíték helye
-> vagy hash-e. A git-előzmények kezelése: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
+> vagy hash-e, valamint a nagykorúság ellenőrzése (igen/nem, dátum, az ellenőrző szerepe;
+> életkor, születési dátum és igazolvány-adat nélkül — kiegészítő projektgazdai döntés, 2026-10-03,
+> K6). A git-előzmények kezelése: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md).
 > Utólagos ellenőrzés (vétó/QA): a jogi/adatvédelmi felelős és a hang tulajdonosai.
 >
 > Az 1–11. szakasz mindezektől függetlenül érvényes: ezek a tananyagból következnek, nem

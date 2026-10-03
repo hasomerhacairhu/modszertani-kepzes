@@ -1911,8 +1911,8 @@
       "unit": "M1.3",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
-      "hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben három ikon villant fel. A társa elgondolkodik.\n\nAz ikonok a madrih nyugodtabb mondatának három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "hash": "5c448e77c36bbd4c308b3860c5cd60ef2b57111ed1cf88677f04b80ec069fdcc",
       "note": "",
       "for": "",
       "used_by": [
@@ -7910,11 +7910,11 @@
       "status": "pending-rights",
       "title": "Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01)",
       "purpose": "A vak és gyengénlátó tanuló is megtudja, amit a HOOK-jelenet képe mutat: a két verzió címkéjét, ki hogyan reagál, és hogy a 2. verzióban melyik szövegrésznél villan fel az S, a B és az I ikon (WCAG 2.2 SC 1.2.5).",
-      "spec": "A kanonikus narrátorhangon felmondott képleírás, az M1.3-VID-01 hangsávjába keverve, öt rövid részben, a párbeszéd szüneteiben: 1. a videó elején, az első replika előtt; 2. az 1. verzió két replikája között; 3. a két verzió között; 4. a 2. verzió két replikája között (csak az ikonok felvillanása és a társ reakciója); 5. a 2. verzió után, mielőtt a videó a kérdésnél megáll: melyik ikon melyik szövegrésznél villant fel (projektgazdai döntés, 2026-10-03, K7). A replikákra nem beszél rá; nem kiterjesztett (megállított) képleírás. Hallgatási próba: a képleírás hallásra elkülönül Madrih A replikájától (azonos hang, K4). Szó szerinti szöveg: M1.3-NAR-08-VO (`@source`), a lecke képi leírásából (SLIDE 1, „Mit látunk?”) összeállítva; a végleges szövegezést és időzítést a legyártott videón kell ellenőrizni.",
+      "spec": "A kanonikus narrátorhangon felmondott képleírás, az M1.3-VID-01 hangsávjába keverve, öt rövid részben, a párbeszéd szüneteiben: 1. a videó elején, az első replika előtt; 2. az 1. verzió két replikája között; 3. a két verzió között; 4. a 2. verzió két replikája között (csak az ikonok felvillanása és a társ reakciója); 5. a 2. verzió után, mielőtt a videó a kérdésnél megáll: melyik ikon melyik szövegrésznél villant fel (projektgazdai döntés, 2026-10-03, K7). A replikákra nem beszél rá; nem kiterjesztett (megállított) képleírás. Hallgatási próba: ellenőrizni kell, hogy a képleírás – az 5. rész idézett szövegrészeinél is – hallásra elkülönül-e Madrih A replikájától (azonos hang, K4). Szó szerinti szöveg: M1.3-NAR-08-VO (`@source`), a lecke képi leírásából (SLIDE 1, „Mit látunk?”) összeállítva; a végleges szövegezést és időzítést a legyártott videón kell ellenőrizni.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
-        "note": "Hang, összesen kb. 25–35 mp (becslés), magyar; nem önálló lejátszóelem, hanem az M1.3-VID-01 hangsávjának része."
+        "note": "Hang, összesen kb. 25–35 mp (a K7 előtti becslés; a mért hossz a VO QA-repó újramérése után kerül ide, VO D-17), magyar; nem önálló lejátszóelem, hanem az M1.3-VID-01 hangsávjának része."
       },
       "a11y": {
         "note": "Szöveges ekvivalens: M1.3-NAR-08::TRANSCRIPT, az M1.3-VID-01 leirata mellett elérhetően. A képleírás a párbeszéd feliratsávjába nem kerül beszélőként; ha a feliratban megjelenik, külön jelölve."
@@ -7945,13 +7945,13 @@
         271,
         281
       ],
-      "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
-      "source_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
+      "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben három ikon villant fel. A társa elgondolkodik.\n\nAz ikonok a madrih nyugodtabb mondatának három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "source_hash": "5c448e77c36bbd4c308b3860c5cd60ef2b57111ed1cf88677f04b80ec069fdcc",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
-      "spec_hash": "15dbb7ee0ce2a1fbb0c0bdb3aac28910dcfc8d5ed933b39540d26c82e957f151",
+      "copy_hash": "5c448e77c36bbd4c308b3860c5cd60ef2b57111ed1cf88677f04b80ec069fdcc",
+      "spec_hash": "d46e254f4b10727b818af898c01d5c7a196b99959a30a42a726000c1696b3290",
       "deliverable_ids": [
         "M1.3-NAR-08",
         "M1.3-NAR-08::TRANSCRIPT"
@@ -33194,8 +33194,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-08-VO",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
-      "text_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben három ikon villant fel. A társa elgondolkodik.\n\nAz ikonok a madrih nyugodtabb mondatának három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "text_hash": "5c448e77c36bbd4c308b3860c5cd60ef2b57111ed1cf88677f04b80ec069fdcc",
       "blockers": [
         "R2",
         "R3"
@@ -33218,8 +33218,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-08-VO",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
-      "text_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben három ikon villant fel. A társa elgondolkodik.\n\nAz ikonok a madrih nyugodtabb mondatának három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "text_hash": "5c448e77c36bbd4c308b3860c5cd60ef2b57111ed1cf88677f04b80ec069fdcc",
       "blockers": [
         "R2",
         "R3"

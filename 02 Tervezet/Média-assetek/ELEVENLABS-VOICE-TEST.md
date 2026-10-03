@@ -62,7 +62,7 @@ bizonyíték függő).
   13.10., V3; [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) E-8). A nagykorúság
   ellenőrzését a `VOICE-RIGHTS-REGISTER` rögzíti (igen/nem, dátum, az ellenőrző szerepe; életkor,
   születési dátum és igazolvány-adat nélkül — kiegészítő projektgazdai döntés, 2026-10-03, K6); a
-  projektgazda tényközlése szerint a két forrás-beszélő nagykorú (K5). A bejegyzés és a jóváhagyói
+  projektgazda tényközlése szerint a két forrás-beszélő nagykorú (K5). A nyilvántartási bejegyzés és a jóváhagyói
   minősítés bizonyíték-kapu (VO D-08); életkor vagy születési dátum a repóba nem kerül. Hogy a
   nagykorúság igazolása a V2 hozzájárulás része-e, nyitott.
 - **Összevethetőség:** a tesztnek csak akkor van értelme, ha a két hang **azonos módszerrel**
