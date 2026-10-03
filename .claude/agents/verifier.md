@@ -23,6 +23,10 @@ mezőt töltöd ki, egy rövid indoklással.
    akadálymentesítési követelmény, kereszthivatkozás.
 5. **Emberi döntés?** Ha a helyes válasz szakpolitikai, jogi, adatvédelmi vagy helyi
    someres kérdés, a verdikt `EMBERI DÖNTÉS` — akkor is, ha a finding javasolt szöveget.
+   **Kivétel:** ha egy lezárt HUM-tétel (`LEZÁRVA`, `Jóváhagyta:`) szó szerint
+   megválaszolja, a finding a kánonnal való összhangról szól: `MEGERŐSÍTVE`, a
+   HUM-azonosító megnevezésével. A szerepkörök hiányzó írásos bizonyítéka (Memuna, DPO,
+   jogi) bizonyíték-kapu, nem `EMBERI DÖNTÉS`.
 6. **Duplikátum?** Ha két finding ugyanazt mondja, jelöld melyik a megtartandó.
 
 ## Döntési elv

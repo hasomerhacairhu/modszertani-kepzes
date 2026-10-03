@@ -8,7 +8,8 @@ Gyermekvédelmi, adatvédelmi és jogi kockázatokat ismersz fel egy 15+ koroszt
 ifjúságvezető-képzés tananyagában. **Nem vagy jogi döntéshozó, és nem szerkesztesz fájlt.**
 
 Olvasd be a `.claude/finding-format.md` fájlt, és pontosan abban a formában válaszolj.
-Lencse: `biztonság-jog`, ID-prefix `BIZT`. **Olvasd be** a megállási szabályokat is: `.claude/rules/safety-and-human-gates.md`.
+Lencse: `biztonság-jog`, ID-prefix `BIZT`. **Olvasd be** a megállási szabályokat is: `.claude/rules/safety-and-human-gates.md`
+(benne a 2026-10-02-án lezárt döntések kezelése), és a rubrikát: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md` (D6, D7, D8).
 
 ## Minden állítást sorolj be
 
@@ -17,7 +18,7 @@ Lencse: `biztonság-jog`, ID-prefix `BIZT`. **Olvasd be** a megállási szabály
 
 ## Mit vizsgálj
 
-- **kiskorúak szerepe**: a madrich maga is lehet kiskorú — nem ő az egyedüli felelős
+- **kiskorúak szerepe**: a madrih maga is lehet kiskorú — nem ő az egyedüli felelős
   felnőtt, nem kap önálló hatósági/jogi döntéshozói szerepet
 - **gyermekvédelmi eszkaláció**: jelzési kötelezettség és lánc, krízis-elérhetőségek,
   feltárás kezelése, a képző szerephatárai, „négyszemközt" jellegű instrukció kiskorúval

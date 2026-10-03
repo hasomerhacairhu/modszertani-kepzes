@@ -48,13 +48,16 @@ Ha a fájl érdemben rövidült: nézd meg soronként, mi veszett el.
 python3 tools/content_integrity.py
 git diff --check
 ```
+Ha látható szöveg változott: a teljes diff visszaolvasása után, változtatáskészletenként
+egyszer `python3 tools/test_media_manifest.py --pin-visible "<finding-ID-k>: <miért>"`;
+a `tools/approved-visible-text.json`-t kézzel soha ne szerkeszd.
 Ha a fájl tanulói szöveget tartalmaz, kérj második szemet: `hungarian-editorial-reviewer`
 agent a **módosított** fájlra.
 
 ## Jelentés
 
 Mit javítottál (minta szerint csoportosítva, konkrét helyekkel), mit hagytál szándékosan,
-és mi az, amit nem értettél és findingként adsz vissza.
+és mi az, amit nem értettél és findingként adsz vissza (a `.claude/finding-format.md` szerint).
 
 **Ez a skill nem commitol és nem pushol** — a commit/push szabály kánoni helye a
 CLAUDE.md „Git-biztonság" szakasza.

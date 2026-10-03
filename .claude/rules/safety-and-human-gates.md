@@ -22,7 +22,7 @@ Ha nem tudod eldönteni, melyik osztály: az **EMBERI JÓVÁHAGYÁS KELL**.
 
 Állj meg és jelezz, ha a szöveg ezekhez nyúlna:
 
-- **kiskorúak szerepe**: a madrich maga is lehet kiskorú — nem ő az egyedüli felelős felnőtt,
+- **kiskorúak szerepe**: a madrih maga is lehet kiskorú — nem ő az egyedüli felelős felnőtt,
   és nem kaphat önálló hatósági/jogi döntéshozói szerepet
 - **gyermekvédelmi eszkaláció**: jelzési kötelezettség, jelzőrendszer, krízisvonalak,
   feltárás kezelése, „négyszemközt" jellegű instrukció kiskorúval
@@ -32,12 +32,28 @@ Ha nem tudod eldönteni, melyik osztály: az **EMBERI JÓVÁHAGYÁS KELL**.
   AI Act szerepbesorolás (provider ≠ deployer), és a **kötelező nem-AI alternatíva**
 - **helyi someres döntés**: ideológiai keret, mozgalmi konvenció, terminológia
   (az írásmód 2026-10-02 óta eldöntött, HUM-SOMER-02: `madrih`, `hanih`, `hágsámá`, `dugma isit`, `Leviatán` — a migráció megtörtént, új szöveg ezeket használja)
-- **release**: bármely állítás arról, hogy valami éles, jóváhagyott vagy kész
+- **release**: bármely állítás arról, hogy valami éles vagy kész. Egy HUM-tétel lezárása
+  nem release-jóváhagyás; a release-állapotot csak a `content_integrity.py --release-report`
+  `RELEASE-VERDICT` sora és a `RELEASE-READINESS.md` adja
 
 A kánoni gate-dokumentumok: `02 Tervezet/Emberi jóváhagyás szükséges.md`,
 `02 Tervezet/Gyermekvédelem – release gate.md`,
 `02 Tervezet/Adatvédelem – tanulói adatok és AI.md`,
 `02 Tervezet/RELEASE-READINESS.md`.
+
+## Lezárt döntések (2026-10-02)
+
+- Az `Emberi jóváhagyás szükséges.md` `LEZÁRVA` + `Jóváhagyta:` tételei **PROJEKT-DÖNTÉSEK**:
+  kövesd és vezesd át őket; ne nyisd újra, és ne jelentsd nyitott emberi döntésként.
+  A megnevezett szerepek (Memuna, DPO, programvezető, jogi felelős) későbbi ellenőrzése
+  vétó / minőségellenőrzés; vétónál a tétel újranyílik.
+- A szerepek írásos bizonyítéka (a Memuna „átnéztem” bejegyzése, DPO-, jogi jóváhagyás)
+  **bizonyíték-kapu** (`RELEASE-READINESS.md` G1–G8), nem nyitott döntés: nem írod be és
+  nem feltételezed, a hiányát jelented. Megfogalmazás, ahol kell: „megvalósítási döntés:
+  projektgazda jóváhagyta; a formális szerepköri bizonyíték függő”.
+- Egy lezárt tétel vagy kánoni mondat szó szerinti átvezetése egy másik fájlba objektív
+  javítás (a HUM-azonosítóval). Ami a lezárt döntésen túlmegy, vagy annak új alkalmazási
+  esete, az továbbra is EMBERI JÓVÁHAGYÁS KELL.
 
 ## Ha tárgyi kérdés merül fel
 

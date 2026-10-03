@@ -17,7 +17,7 @@ Feladat: `$ARGUMENTS`
 1. **Kontextus**: olvasd be a `02 Tervezet/Program terv.md` érintett szakaszát, a modulhubot,
    a modul kapu-fájlját és a `Glosszárium` releváns tételeit. Nézd meg a szomszédos
    leckéket — formátumban és hangnemben illeszkedni kell.
-2. **Célcsoport**: 15+ korosztály, a madrichok maguk is lehetnek kiskorúak.
+2. **Célcsoport**: 15+ korosztály, a madrihok maguk is lehetnek kiskorúak.
 3. **Prerekvizit**: mit tud már a tanuló, és honnan. Nevezd meg a forrásmodult.
 4. **Tanulási cél**: kevés, mérhető, egy célt mondó.
 5. **Konstruktív illeszkedés**: cél → tevékenység → értékelés egy tengelyen.
@@ -54,8 +54,10 @@ modulhubba és ahol a program szintjén szerepelnie kell.
 4. `safety-policy-reviewer`, ha kiskorúakat, adatot, AI-t vagy érzékeny témát érint
 5. `implementation-reviewer` a Moodle/H5P/akadálymentesítési részre
 6. `verifier` az összegyűlt findingokra
-7. a megerősített findingok javítása
-8. `/release-check`
+7. a megerősített findingok javítása (a findingok mezői: `.claude/finding-format.md`)
+8. `/release-check`; látható szöveg változásakor előtte a `--pin-visible` újrapinnelés
+   (`python3 tools/test_media_manifest.py --pin-visible "<új lecke/peula ID>: <miért>"`),
+   új vagy módosított `@asset`/`@source`-nál a `python3 tools/media_manifest.py build`
 9. a **teljes** `git diff` visszaolvasása
 
 A riportban sorold fel, melyik kapu futott le, és mi az eredménye. Ha egy kapu kimaradt,

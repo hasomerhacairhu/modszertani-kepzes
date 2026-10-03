@@ -19,7 +19,9 @@ Scope és lencsék: `$ARGUMENTS`
 - `M3` → `02 Tervezet/Modulok/M3/` teljes fája (hub, kapu, online leckék, peulák)
 - `M4.A`, `Z.4`, `M7.1` → az adott azonosítójú fájl a modulon belül (Glob-bal keresd meg)
 - útvonal → pontosan az a fájl vagy mappa
-- ha nem egyértelmű: **kérdezz vissza**, ne találgass
+- ha nem egyértelmű: **ne folytasd a válasz után** — kérd, hogy a felhasználó indítsa újra
+  a `/course-review`-t pontos scope-pal. A `disallowed-tools` csak az indító körre érvényes:
+  a felhasználó következő üzenete után a review már szerkesztő eszközöket is kapna.
 
 ## 2. Lencsék kiválasztása — ne indítsd el mindet
 

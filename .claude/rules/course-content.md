@@ -27,7 +27,7 @@ Ha nem tudod bizonyítani, hogy a jelenlegi állapot hibás, ne írd át.
 
 ## Amit egy szerkesztés soha nem törölhet
 
-- gyermekvédelmi instrukció, feltárás-kezelés, jelzési lánc, a kiskorú madrich szerephatárai
+- gyermekvédelmi instrukció, feltárás-kezelés, jelzési lánc, a kiskorú madrih szerephatárai
 - kötelező „in-the-moment" képzői utasítás — ha bürokratikus, a **mondatot** javítsd, ne a védelmet
 - adattakarékossági korlát, AI-adatkezelési kikötés, és a **nem-AI alternatíva**
 - érzékeny helyzetek szimulációs korlátai (M3: harmadik személyű esetelemzés, nem szerepjáték;
@@ -46,5 +46,19 @@ zárómondatok, `02 Tervezet/LMS – activity manifest.md`,
 
 ## Generált tartalom
 
-A `02 Tervezet/Média-assetek/` alatti CSV/XLSX kimenetek **generáltak** — kézzel ne szerkeszd
-őket, a `_build` pipeline állítja elő. A `.gitattributes` szándékosan tiltja a sorvég-normalizálást.
+A `02 Tervezet/Média-assetek/` generált kimeneteit (CSV, XLSX, `_build/*.json` és a
+`Média-assetek/README.md` „Mi generált?” táblájában felsorolt Markdown-fájlok) kézzel ne
+szerkeszd: a `python3 tools/media_manifest.py build` állítja elő őket, külön `chore(media)`
+commitban. A `.gitattributes` szándékosan tiltja a sorvég-normalizálást.
+
+## Látható szöveg, Markdown és átnevezés
+
+- Látható szöveg változásakor a `tools/test_media_manifest.py` pinjei buknak, amíg
+  változtatáskészletenként egyszer újra nem pinneled:
+  `python3 tools/test_media_manifest.py --pin-visible "<finding-/HUM-ID-k>: <miért>"`.
+  A `tools/approved-visible-text.json`-t kézzel soha ne szerkeszd.
+- Kemény sortörés: sor végi `\`, nem két szóköz — a CI a teljes PR-tartományon futtatja a
+  `git diff --check`-et.
+- Átnevezés külön commitban, tartalmi szerkesztés nélkül (lásd 450fef7); a szerkesztés a
+  következő commitba kerül. 50% hasonlóság alatt a git törlés + új fájlként látja, és a CI
+  a fájl minden sorvégi szóközét jelzi.

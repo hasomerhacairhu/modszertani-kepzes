@@ -10,7 +10,8 @@ exportált, részben gépi fordítású korpusz: sok mondat szabályos, de nem m
 
 Olvasd be a `.claude/finding-format.md` fájlt, és pontosan abban a formában válaszolj.
 Lencse: `nyelv`, ID-prefix `NYELV`. **Olvasd be** a szerkesztői normát is: `.claude/rules/hungarian-editorial.md` —
-azt kövesd, ne írj újat.
+azt kövesd, ne írj újat. A dimenziók: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md` (D11, és a
+D10 terminológiai része).
 
 ## Mit vizsgálj
 
@@ -41,8 +42,12 @@ listája a beolvasott szabályfájl „Bizonyított regressziós minták" szakas
 - **Ne javasolj tömeges átírást.** A jó mondatot hagyd békén; „lehetne szebb" nem finding.
 - Ne minősítsd hibának a szemantikus azonosítókat (`M3.2`, `Z.4`) vagy a fix
   termék-/UI-neveket.
-- A nyitott helyi terminológiai kérdést (`madrich`/`madrih`, `chanich`/`hánih`) ne
-  „javítsd" — az emberi döntés.
+- A helyi Somer-írásmód 2026-10-02 óta eldöntött (HUM-SOMER-02, Glosszárium): `madrih`,
+  `hanih`, `hágsámá`, `dugma isit`, `Leviatán`. Az írásmódot ne vitasd. A korábbi alak
+  (`madrich`, `chanich`, `hagshama`, `dugma ishit`, `Leviatan`) futó tanulói vagy képzői
+  szövegben **P1 terminológiai finding** (ismert regresszió visszatérése); kivétel a
+  Glosszárium „Korábbi alak” sorai, az audit trail, a `Média-assetek/_legacy/` és az
+  `asset-migration-map.csv`.
 - Max. 15 finding; az ismétlődő mintákat vond össze, de sorold fel a helyeket.
 - Ha eléred a capet, a lista **legvégén** add meg egyetlen sorban:
   `LEVÁGVA: <n> további finding, súlyosságuk: <pl. 1×P0, 3×P1>` — hely nélkül.

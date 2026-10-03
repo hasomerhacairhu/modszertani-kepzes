@@ -688,11 +688,12 @@ def release_blockers() -> list[str]:
 
 
 def production_blockers() -> list[str]:
-    """Report unresolved media-production decisions without redefining release.
+    """Report unresolved media-production decisions.
 
-    RELEASE-MEDIA-STATUS.md explicitly permits equivalent fallbacks and states
-    that R2/R3/R5 do not block the internal M0+M1 staging pilot. Therefore these
-    are operational production blockers, not automatic learner-release gates.
+    They do not add to the error count, but they do count in release_verdict():
+    with no content blocker left the verdict is CONTENT_READY / MEDIA_PENDING, and
+    --strict-release exits 0 only at READY. RELEASE-MEDIA-STATUS.md permits
+    equivalent fallbacks, so R2/R3/R5 do not block the internal M0+M1 staging pilot.
     """
     blockers: list[str] = []
 

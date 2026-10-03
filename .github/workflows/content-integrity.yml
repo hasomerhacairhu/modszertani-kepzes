@@ -23,6 +23,10 @@ jobs:
         run: python -m py_compile tools/*.py
       - name: Repository diff whitespace
         run: git diff --check HEAD^ HEAD
+      # CI is a read-only checker (2026-09-29: 43fd22a pushed to main from a job).
+      # The bracketed letters keep this line from matching itself.
+      - name: Workflows stay read-only
+        run: "! grep -RInE 'contents:[[:space:]]*wr[i]te|git[[:space:]]+pu[s]h' .github/workflows"
       - name: Claude settings JSON
         run: python -c "import json; json.load(open('.claude/settings.json', encoding='utf-8')); print('settings.json OK')"
       - name: Safety hook syntax and selftest

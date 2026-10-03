@@ -1,8 +1,8 @@
-# Módszertani Képzés (Madrichképzés)
+# Módszertani Képzés (Madrihképzés)
 
 ## A projektről
 
-Ez a repository a Hasomer Hacair ifjúsági mozgalom megújult, **blended learning** alapú madrichképzésének (ifjúsági vezetőképzés) teljes módszertani és tartalmi **fejlesztési és implementációs specifikációja**.
+Ez a repository a Hasomer Hacair ifjúsági mozgalom megújult, **blended learning** alapú madrihképzésének (ifjúsági vezetőképzés) teljes módszertani és tartalmi **fejlesztési és implementációs specifikációja**.
 
 A program célja egy adaptív, 21. századi igényekre szabott, adatvezérelt oktatási rendszer, amely ötvözi az online mikroleckék rugalmasságát a személyes tréningek (peulák) közösségi élményével. A képzés moduláris felépítésű (M0–M7 + Zárás), és a **mastery learning** elvére épül.
 
@@ -62,7 +62,7 @@ A rendszer **Open Educational Resource (OER)**, azaz nyílt oktatási segédanya
 
 1. `02 Tervezet/Program terv.md` – program-architektúra.
 2. `02 Tervezet/Modulok/` – modul-, lecke-, peula- és kapuspecifikációk.
-3. `02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md` – terminológiai referencia **a nyitott helyi terminológiai döntés figyelembevételével**.
+3. `02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md` – terminológiai referencia; a helyi írásmód 2026-10-02 óta projektgazdai döntés (HUM-SOMER-02: madrih, hanih, hágsámá, dugma isit, Leviatán).
 4. `02 Tervezet/Emberi jóváhagyás szükséges.md` és a release-gate dokumentumok – olyan pontok, amelyeknél emberi/szakértői döntést tilos automatizálással helyettesíteni.
 5. `01 Fejlesztés/04 Audit/` – audit trail, nem tanulói tartalom.
 
@@ -90,15 +90,16 @@ A repository verziókezelt Claude Code munkakörnyezetet tartalmaz. A munkarende
 | `/course-fix <findingok>` | csak **validált** findingot javít, sebészi szerkesztéssel |
 | `/hungarian-edit <fájl>` | szűk hatókörű, jelentésmegőrző magyar nyelvi szerkesztés |
 | `/course-develop <feladat>` | új lecke/peula tervezése és megírása, kötelező review-kapukkal |
-| `/release-check [scope]` | objektív ellenőrzés: `tools/content_integrity.py`, diff, linkek, placeholderek |
+| `/release-check [scope]` | objektív, CI-paritású ellenőrzés: `content_integrity` (release-verdikt), média-manifeszt és -tesztek, whitespace, diff |
 
 A `--lens` értékei: `pedagogy`, `assessment`, `language`, `safety`, `implementation`, `all`.
 Ha nem tudod, melyik parancs kell: **mindig `/course-review` az első.** A „finding" egy
 bizonyítékkal alátámasztott, helyhez kötött megállapítás; a mezőit a
 [`.claude/finding-format.md`](./.claude/finding-format.md) írja le.
 
-Destruktív git-műveleteket (`reset --hard`, `clean -f`, `rebase`, force push, `commit --amend`)
-a `.claude/hooks/guard-repo-safety.sh` hook blokkolja. Önteszt:
+Destruktív git-műveleteket (`reset --hard`, `reset <commit>`, `clean -f`, `rebase`, force push,
+`commit --amend`, távoli branch törlése) a `.claude/hooks/guard-repo-safety.sh` hook blokkolja;
+a `git push` és a `gh pr merge` minden alakban rákérdez. Önteszt:
 `bash .claude/hooks/guard-repo-safety.sh --selftest`
 
 ## Release-folyamat

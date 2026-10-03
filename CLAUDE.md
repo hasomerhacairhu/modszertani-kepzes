@@ -2,7 +2,7 @@
 
 ## Mi ez a repository
 
-A Hasomer Hacair blended madrichképzésének (ifjúsági vezetőképzés) teljes módszertani
+A Hasomer Hacair blended madrihképzésének (ifjúsági vezetőképzés) teljes módszertani
 fejlesztési és implementációs specifikációja. Moduláris felépítés: **M0–M7 + Z**,
 mastery learning alapon, Moodle/H5P célplatformra.
 
@@ -14,6 +14,10 @@ mastery learning alapon, Moodle/H5P célplatformra.
   fordító/validátor és regressziós tesztréteg; a CI ezt külön, teljes historyval futtatja.
 - A korpusz **AFFiNE-ból exportált**: a természetellenes magyar mondatok jelentős része
   export- és gépifordítás-maradvány, nem szándékos szerzői stílus.
+- A hanggyártás (kanonikus narrátorhang, kiejtési szótár, renderelés) egy külön, privát VO
+  QA-repóban él; az ide szóló javításait fix packként adja át, amit a `/course-fix` visz be.
+  A nyilvános repóban a hangok szerepnéven szerepelnek („kanonikus narrátorhang”, „második
+  hang”), a forrás-beszélők `VOICE-SRC-01/02` álnéven (projektgazdai döntés, 2026-10-03).
 
 ## Kánoni forrás-sorrend
 
@@ -29,13 +33,21 @@ Ha 1–4 ellentmond egymásnak, az **finding**. Ne válassz közülük magadtól
 
 Ezekben Claude **nem dönt és nem talál ki választ** — findingot ír, és megáll:
 
-- **kiskorúak szerepe**: a madrich maga is lehet kiskorú, nem ő az egyedüli felelős
+- **kiskorúak szerepe**: a madrih maga is lehet kiskorú, nem ő az egyedüli felelős
   felnőtt, és nem kaphat önálló hatósági vagy jogi döntéshozói szerepet
 - gyermekvédelmi szakpolitika, eszkalációs szabály, szakértői gate
 - jogi álláspont, GDPR-jogalap, AI Act-besorolás, szolgáltatási feltétel
 - adatvédelmi (DPO) döntés: adatkör, megőrzés, hozzáférés
 - helyi someres ideológiai vagy terminológiai döntés
 - szervezeti jóváhagyás, release sign-off
+
+**Lezárt döntések.** Az `Emberi jóváhagyás szükséges.md` 2026-10-02-án lezárt
+(`LEZÁRVA` + `Jóváhagyta:`) tételei projektgazdai döntések: követed és átvezeted, nem
+nyitod újra (részletek: `.claude/rules/safety-and-human-gates.md`). A megnevezett szerepek
+(Memuna, DPO, jogi felelős) írásos bizonyítéka **bizonyíték-kapu**, nem nyitott döntés:
+nem írod be és nem feltételezed. A fenti határok az új, illetve a lezárt döntésen
+túlmenő kérdésekre érvényesek. A helyi írásmód is eldőlt (HUM-SOMER-02): `madrih`,
+`hanih`, `hágsámá`, `dugma isit`, `Leviatán`.
 
 ## Munkarend
 
@@ -50,8 +62,9 @@ soha nem indít új teljes auditot. A folyamat:
 ### Tananyagon ad hoc ne dolgozz
 
 A fenti garanciák (read-only reviewerek, adverzális ellenőrzés, finding-formátum,
-emberi kapuk) **a skillek belsejében élnek**, és a skilleket csak a felhasználó
-indíthatja el. Ezért:
+emberi kapuk) **a skillek belsejében élnek**. A `/course-review`, `/course-fix`,
+`/hungarian-edit` és `/course-develop` skillt csak a felhasználó indíthatja el (a nem
+mutáló `/release-check`-et Claude is futtathatja). Ezért:
 
 - Ha a kérés review, audit vagy „nézd át" jellegű → mondd meg, hogy a belépő
   `/course-review <scope>`, és **várd meg**. Ne kezdj el a fő contextben átvizsgálni.
@@ -65,6 +78,9 @@ fájlon belül, bizonyítható hibán dolgozik: a `/hungarian-edit` maga jelöli
 hibákat (tartalmi, pedagógiai vagy policy-hibát soha), a `/course-develop` pedig a
 saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
 
+Tananyagot csak `Edit`/`Write` eszközzel szerkessz: a `.claude/rules/` útvonalhoz kötött
+szabályai csak ezeknél töltődnek be, Bash-alapú (sed, python) szerkesztésnél nem.
+
 ## Kontextus-fegyelem
 
 - Egy jól körülhatárolt scope egyszerre: egy modul, egy fájl, egy lencse.
@@ -72,14 +88,24 @@ saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
   contextbe. A subagent rövid finding-listát ad vissza, nem fájldumpot.
 - Nem összefüggő workstream között `/clear`.
 - Ne olvass be teljes korpuszt „biztos, ami biztos" alapon.
+- Hosszú, többügynökös futásnál a pótolhatatlan bemenetet (a projektgazda szó szerinti
+  válasza, döntési csomag, validált finding-lista) azonnal tartós helyre írd
+  (`01 Fejlesztés/04 Audit/` vagy commit egy munkaágon): a `/private/tmp` scratchpad
+  újraindításkor törlődik.
 
 ## Git-biztonság
 
 - A branchen **lehetnek pusholatlan felhasználói commitok. Semmit ne dobj el.**
-- Tilos: `reset --hard`, `clean -f`, `checkout -- .`, `restore` (working tree),
-  `rebase`, `commit --amend`, force push, bármilyen history rewrite.
-  Ezeket a `.claude/hooks/guard-repo-safety.sh` hook blokkolja is.
-- `git push` **kizárólag explicit kérésre** (a settings rákérdez).
+- Tilos: `reset --hard`, `reset <commit>` (akár `--soft`), `clean -f`, `checkout -- .`,
+  `restore` (working tree), `rebase`, `commit --amend`, force push, bármilyen history
+  rewrite. Ezeket a `.claude/hooks/guard-repo-safety.sh` hook blokkolja is.
+- `git push`, `gh pr merge` és bármely távoli branch törlése **kizárólag explicit
+  kérésre**; a hook és a settings rákérdez (a `git -C <út> push` alakra is).
+- A merge módját a felhasználó választja; atomikus átnevezést tartalmazó PR-nél a merge
+  commit megőrzi az átnevezés-commitot (PR #12).
+- A CI kizárólag olvasó-ellenőrző: `contents: write` jogú, tartalmat vagy generált
+  kimenetet író vagy pusholó workflow tilos (2026-09-29: 43fd22a). A rebuild lokálisan,
+  külön `chore(media)` commitban készül.
 - Felhasználói checkpoint-commitot ne amendelj és ne írj felül.
 
 ## Kötelező ellenőrzések tartalmi módosítás után
@@ -87,17 +113,24 @@ saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
 ```bash
 python3 -m py_compile tools/*.py                # minden Python tool szintaktikailag érvényes
 python3 tools/content_integrity.py               # 0 ERROR kötelező
-python3 tools/media_manifest.py check            # generált media-output naprakész
+python3 tools/media_manifest.py check            # elcsúszás → python3 tools/media_manifest.py build
 python3 tools/media_manifest.py reconcile        # történeti sorok egyeztetve
-python3 -m unittest tools.test_media_manifest    # média-regressziós tesztek
-git diff --check                                 # whitespace-hibák
+python3 -m unittest tools.test_media_manifest    # média-regressziós tesztek + látható-szöveg pinek
+git diff --check                                 # nem commitolt változás
+git diff --check origin/main                     # a CI a teljes PR-tartományt nézi
 git diff                                         # olvasd vissza a saját változtatásodat
 ```
 
-A `/release-check` ezeket a teljes objektív ellenőrzési réteggel együtt futtatja;
-a media-teszteknél a történeti baseline commit elérhetőségét is külön ellenőrzi.
-A GitHub CI ezen felül Pandocot telepít, ezért a rejtett asset-meta render-parity teszt
-sem maradhat skipelt.
+- **Látható szöveg változott** → a teljes diff visszaolvasása után, változtatáskészletenként
+  egyszer: `python3 tools/test_media_manifest.py --pin-visible "<finding-/HUM-ID-k>: <miért>"`.
+  A `tools/approved-visible-text.json`-t kézzel soha ne szerkeszd.
+- **Kemény sortörés** sor végi `\`-sel, nem két szóközzel: a CI a teljes PR-tartományon
+  futtatja a `git diff --check`-et, és egy 50% alá eső átnevezésnél a fájl minden
+  sorvégi szóközét jelzi.
+
+A teljes, CI-paritású lista a `/release-check`; ha a CI-ba új lépés kerül, a skill is
+frissül. A GitHub CI ezen felül Pandocot telepít, ezért a rejtett asset-meta
+render-parity teszt sem maradhat skipelt.
 
 ## Nincs hamis készjelentés
 
@@ -119,4 +152,6 @@ javítás félkész maradt a fájlokban. Ezért:
   tananyagot valósítják meg. Ez **nem** ad engedélyt általános projekt-governance vagy
   folyamatdokumentum írására a `02 Tervezet/` bármely más pontján
 - ne építs második linter-rendszert a `tools/content_integrity.py` mellé
-- ne szerkeszd kézzel a `02 Tervezet/Média-assetek/` generált CSV/XLSX kimeneteit
+- ne szerkeszd kézzel a `02 Tervezet/Média-assetek/` generált kimeneteit (CSV, XLSX,
+  `_build/*.json` és a `Média-assetek/README.md` „Mi generált?” táblájában felsorolt
+  Markdown-fájlok): a `python3 tools/media_manifest.py build` állítja elő őket
