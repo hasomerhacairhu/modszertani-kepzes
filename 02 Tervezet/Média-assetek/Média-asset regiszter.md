@@ -99,7 +99,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | Szabály | Mi hiányzik | Érintett asset |
 |---|---|--:|
 | **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 118 |
-| **R3** — Narrátor hang-bible | Nyitott: a voice-ID rögzítésének helye ⟬KITÖLTENDŐ⟭ (a repóba csak a HUM-MEDIA-02 szerint kerülhet), és a P-NAR pilot (M4 | 116 |
+| **R3** — Narrátor hang-bible | 3-VID-01-hez ⟬KITÖLTENDŐ⟭ — addig az R3 nyitva marad | 116 |
 
 ## 🗂 Assetek fájlonként
 
@@ -1011,7 +1011,7 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. A dialógushangot az első gyártási körre a projektgazda eldöntötte (2026-10-03, VO D-14: a kanonikus narrátorhang mindkét szerepre, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. A dialógushangokat az első gyártási körre a projektgazda eldöntötte (2026-10-03, VO D-14 és K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
 
 ---
 
