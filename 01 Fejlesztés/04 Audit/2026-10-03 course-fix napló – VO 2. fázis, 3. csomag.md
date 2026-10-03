@@ -96,6 +96,12 @@ a tiltás megnevezett kivétele; a K5-szövegek nem állítanak jóváhagyást, 
 táblasor formailag illeszkedik; az új képleírás-mondat a „Mit látunk?” tényeit mondja, és nem árul el többet a
 kérdések válaszából, mint az ikonok.
 
+**Továbbvezetés (2026-10-03, a PR #14 merge-e után):** a projektgazda döntött az UE3-BIZT-3-ról (K6: a nyilvántartás
+„nagykorúság ellenőrizve” bejegyzést rögzít, életkor nélkül) és az UE3-PED-2-ről (K7: az ikon-hozzárendelés Madrih B
+válasza után). A többi tétel a K5–K7 átvezetésével együtt: `2026-10-03 Fix pack – VO 2. fázis, 4. csomag.md`
+(P4-01…P4-11; két független `verifier` ellenőrizte). Az UE3-PED-2 (1) — a mért hossz az időkeretbe — a VO QA-repó
+újramérésére vár.
+
 ## Vétólista
 
 - **Answer key, helyes-válasz jelölés, elosztó, küszöb, rubrika, kapu-típus, completion, időtartam:** nincs változás.
