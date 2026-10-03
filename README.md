@@ -98,8 +98,9 @@ bizonyítékkal alátámasztott, helyhez kötött megállapítás; a mezőit a
 [`.claude/finding-format.md`](./.claude/finding-format.md) írja le.
 
 Destruktív git-műveleteket (`reset --hard`, `reset <commit>`, `clean -f`, `rebase`, force push,
-`commit --amend`, távoli branch törlése) a `.claude/hooks/guard-repo-safety.sh` hook blokkolja;
-a `git push` és a `gh pr merge` minden alakban rákérdez. Önteszt:
+`commit --amend`, távoli branch vagy ref törlése) a `.claude/hooks/guard-repo-safety.sh` hook
+blokkolja; a `git push`, a `gh pr merge` és a `gh pr close --delete-branch` minden alakban
+rákérdez. Önteszt:
 `bash .claude/hooks/guard-repo-safety.sh --selftest`
 
 ## Release-folyamat

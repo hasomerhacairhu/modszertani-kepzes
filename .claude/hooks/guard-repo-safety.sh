@@ -9,7 +9,10 @@
 # Contract: reads the PreToolUse JSON on stdin.
 #   - block: exit 2 with a stderr message;
 #   - ask:   exit 0 with {"hookSpecificOutput": {"permissionDecision": "ask", ...}} on stdout
-#            (every git push and gh pr merge, in any spelling, incl. `git -C <path> push`);
+#            (every git push and gh pr merge, in any spelling, incl. `git -C <path> push`;
+#            gh pr close --delete-branch; gh api DELETE);
+#   - also blocks Bash edits of course content (sed -i, perl -i, tee, a redirect into
+#     `02 Tervezet/`, an inline script writing there): CLAUDE.md allows Edit/Write only;
 #   - pass:  exit 0 silently. Normal git (status, diff, add, commit, log, branch,
 #            checkout <branch>, switch -c) and all test commands pass through.
 # Every block is evaluated before any ask. The settings.json `ask` rules cover the same
@@ -55,6 +58,13 @@ PROT='(02(\\)?[[:space:]]Tervezet|01(\\)?[[:space:]]Fejlesztés|\.git|\.github|\
 REL_RE="(^|[[:space:]\"'=])(\\./)?${PROT}([/[:space:]\"']|\$)"
 TOP_RE="(^|[[:space:]\"'])(\\./)?${PROT}/?([[:space:]\"']|\$)"
 RM_RE="(^|[[:space:]\"'(])(/bin/|/usr/bin/|\\\\)?(rm|unlink|shred|trash)[[:space:]]"
+# Course content is edited only with the Edit/Write tools (CLAUDE.md): the path-scoped
+# rules in .claude/rules/ load only for those, and a Bash edit bypasses them.
+CONTENT_RE='02(\\)?[[:space:]]Tervezet'
+SED_I_RE='(^|[[:space:]])(sed|gsed)[[:space:]]([^|]*[[:space:]])?(-[a-zA-Z]*i|--in-place)'
+PERL_I_RE='(^|[[:space:]])perl[[:space:]]+(-[a-zA-Z]*[[:space:]]+)*-[a-zA-Z]*i'
+REDIR_RE=">>?[[:space:]]*[\"']?[^[:space:]\"'>]*02(\\\\)?[[:space:]]Tervezet"
+SCRIPT_WRITE_RE="(write_text|write_bytes|writeFileSync|appendFileSync|open\([^)]*[\"'][wa]\+?[\"'])"
 SPLIT_RE='^(.*[^[:alnum:]_./-])((git|gh)[[:space:]].*)$'
 OPT_VAL_RE="^git[[:space:]]+(-C|-c)[[:space:]]+(\"[^\"]*\"|'[^']*'|[^[:space:]]+)(.*)\$"
 OPT_FLAG_RE='^git[[:space:]]+(--git-dir=|--work-tree=|--namespace=|--exec-path=|--no-pager|-P|--no-replace-objects|--literal-pathspecs|--no-optional-locks)([^[:space:]]*)(.*)$'
@@ -116,6 +126,11 @@ check_piece() {
   # --- deletion or removal aimed at the repository (any program) -------------------
   if [[ ! $p =~ ^(git|gh)[[:space:]] ]]; then
     local q=" $p "
+    if [[ $q =~ $CONTENT_RE ]]; then
+      if [[ $q =~ $SED_I_RE ]] || [[ $q =~ $PERL_I_RE ]] || [[ $q =~ (^|[[:space:]])tee[[:space:]] ]] || [[ $q =~ $REDIR_RE ]]; then
+        echo "a tananyagot (02 Tervezet) Edit/Write eszközzel szerkeszd — a Bash-szerkesztés megkerüli a .claude/rules szabályait"; return 0
+      fi
+    fi
     if [[ $q =~ $RM_RE ]]; then
       names_repo_path "$q" && { echo "a repository tartalmának törlése"; return 0; }
       if has_flag "$q" r recursive && [[ $q =~ [[:space:]](\.|\.\.|/|\*|~|\$\(pwd\)|\$PWD|\`pwd\`)/?[[:space:]] ]]; then
@@ -243,6 +258,10 @@ check_piece() {
 # Echoes a reason. Returns 0 = block, 2 = ask, 1 = pass. All blocks win over any ask.
 verdict() {
   local piece r rc ask=""
+  # An inline script spans separators (`;` splits it into pieces), so check it whole.
+  if [[ $1 =~ (^|[[:space:]])(python3?|node|ruby)[[:space:]] ]] && [[ $1 =~ $CONTENT_RE ]] && [[ $1 =~ $SCRIPT_WRITE_RE ]]; then
+    echo "a tananyagot (02 Tervezet) Edit/Write eszközzel szerkeszd — szkriptből írni megkerüli a .claude/rules szabályait"; return 0
+  fi
   while IFS= read -r piece; do
     [[ -z ${piece//[[:space:]]/} ]] && continue
     r=$(check_piece "$piece"); rc=$?
@@ -292,6 +311,11 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "python3 -c \"import shutil; shutil.rmtree('$T')\"" "mv \"$T\" /tmp/" "$R -rf $REPO_ROOT/tools"
     "$H repo delete x --yes" "$H release delete v1" "$H api -X DELETE repos/o/r/git/refs/heads/x"
     "$H api --method PATCH repos/o/r/git/refs/heads/main -f sha=x"
+    # course content only through Edit/Write
+    "sed -i '' 's/a/b/' \"$T/x.md\"" "sed -E -i.bak 's/a/b/' \"$T/x.md\"" "perl -pi -e 's/a/b/' \"$T/x.md\""
+    "echo x > \"$T/x.md\"" "echo x >> \"$T/Modulok/a.md\"" "cat /tmp/x > \"/Users/u/repo/$T/x.md\""
+    "printf x | tee \"$T/x.md\"" "python3 - <<EOF p='$T/x.md'; open(p,'w').write('x') EOF"
+    "python3 -c \"import pathlib; pathlib.Path('$T/x.md').write_text('x')\""
   )
   must_pass=(
     "$G status" "$G status --short" "$G diff" "$G diff --check" "$G diff --stat"
@@ -319,6 +343,9 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "$G checkout main && ls -lf" "$G reset" "$G reset -- $T/x.md" "$G reset HEAD $T/x.md"
     "$G branch -d merged-branch" "$G -C /r status" "$H pr view 12" "$H pr list --state all"
     "$H api repos/o/r/git/refs/heads/main" "$G mv \"$T/a.md\" \"$T/b.md\""
+    "sed -n 5p \"$T/x.md\"" "grep -rn x \"$T\" | tee /tmp/out.txt" "cat \"$T/x.md\" > /tmp/x.md"
+    "python3 tools/media_manifest.py build" "python3 -c \"print(open('$T/x.md').read()[:10])\""
+    "python3 tools/test_media_manifest.py --pin-visible \"CF-01: x\""
   )
   must_ask=(
     "$G push origin main" "$G push -u origin HEAD" "$G -C /r push origin main"

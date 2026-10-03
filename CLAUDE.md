@@ -99,8 +99,13 @@ szabályai csak ezeknél töltődnek be, Bash-alapú (sed, python) szerkesztésn
 - Tilos: `reset --hard`, `reset <commit>` (akár `--soft`), `clean -f`, `checkout -- .`,
   `restore` (working tree), `rebase`, `commit --amend`, force push, bármilyen history
   rewrite. Ezeket a `.claude/hooks/guard-repo-safety.sh` hook blokkolja is.
-- `git push`, `gh pr merge` és bármely távoli branch törlése **kizárólag explicit
-  kérésre**; a hook és a settings rákérdez (a `git -C <út> push` alakra is).
+- `git push` és `gh pr merge` **kizárólag explicit kérésre**: a hook és a settings minden
+  alakban rákérdez (a `git -C <út> push`-ra is). Távoli branch vagy ref törlése (`git push -d`,
+  `:ref`, `--prune`, `gh api` DELETE a `git/refs`-en) blokkolt; a `gh pr merge|close
+  --delete-branch` rákérdez. Távoli branchet a felhasználó töröl.
+- **Nyilvános repó:** a hangok neve és a privát VO QA-repó neve nem kerülhet commitba — üzenetbe
+  sem (projektgazdai döntés, 2026-10-03). Push előtt a VO QA-repó `tools/check-course-push.py`
+  ellenőrzője átnézi a pusholandó tartományt; találatnál a branch nem pusholható.
 - A merge módját a felhasználó választja; atomikus átnevezést tartalmazó PR-nél a merge
   commit megőrzi az átnevezés-commitot (PR #12).
 - A CI kizárólag olvasó-ellenőrző: `contents: write` jogú, tartalmat vagy generált
@@ -117,7 +122,7 @@ python3 tools/media_manifest.py check            # elcsúszás → python3 tools
 python3 tools/media_manifest.py reconcile        # történeti sorok egyeztetve
 python3 -m unittest tools.test_media_manifest    # média-regressziós tesztek + látható-szöveg pinek
 git diff --check                                 # nem commitolt változás
-git diff --check origin/main                     # a CI a teljes PR-tartományt nézi
+git diff --check origin/main...HEAD              # a CI a teljes PR-tartományt nézi (merge-base óta)
 git diff                                         # olvasd vissza a saját változtatásodat
 ```
 
@@ -129,7 +134,8 @@ git diff                                         # olvasd vissza a saját válto
   sorvégi szóközét jelzi.
 
 A teljes, CI-paritású lista a `/release-check`; ha a CI-ba új lépés kerül, a skill is
-frissül. A GitHub CI ezen felül Pandocot telepít, ezért a rejtett asset-meta
+frissül. Governance-változás (CLAUDE.md, `.claude/**`) után a felhasználó futtassa a `/doctor`
+utasításfájl-ellenőrzését: hiányzó hivatkozást és egymásnak ellentmondó szabályt keres. A GitHub CI ezen felül Pandocot telepít, ezért a rejtett asset-meta
 render-parity teszt sem maradhat skipelt.
 
 ## Nincs hamis készjelentés

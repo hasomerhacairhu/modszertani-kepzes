@@ -52,7 +52,8 @@ Ha látható szöveg változott: a teljes diff visszaolvasása után, változtat
 egyszer `python3 tools/test_media_manifest.py --pin-visible "<finding-ID-k>: <miért>"`;
 a `tools/approved-visible-text.json`-t kézzel soha ne szerkeszd.
 Ha a fájl tanulói szöveget tartalmaz, kérj második szemet: `hungarian-editorial-reviewer`
-agent a **módosított** fájlra.
+agent a **módosított** fájlra. Végül `/release-check` (a teljes, CI-paritású ellenőrzés, benne
+a PR-tartomány whitespace-ellenőrzése és a média-tesztek).
 
 ## Jelentés
 

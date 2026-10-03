@@ -55,7 +55,9 @@ vagy a `Glosszárium`). **Ne olvasd be a teljes korpuszt.**
 
 ## 4. Delegálás
 
-Minden kiválasztott lencsét egy-egy subagentnek adj át **egy üzenetben, párhuzamosan**:
+Minden kiválasztott lencsét egy-egy subagentnek adj át **egy üzenetben, párhuzamosan, az
+előtérben** (nem háttérfeladatként): a review-nak — verifier és riport együtt — ebben az egy
+körben kell lefutnia, mert a `disallowed-tools` a felhasználó következő üzenetével megszűnik.
 
 | Lencse (`--lens` token) | Agent |
 |---|---|
@@ -67,7 +69,8 @@ Minden kiválasztott lencsét egy-egy subagentnek adj át **egy üzenetben, pár
 
 **Kizárólag ez az öt agent + a `verifier` indítható.** `general-purpose` vagy bármely
 más agent tiltott: azoknak `Edit`/`Write` eszközük van a `02 Tervezet/`-re. Ha egy
-lencse nem képezhető le ezekre, **kérdezz vissza**, ne helyettesítsd.
+lencse nem képezhető le ezekre, **állj meg** és kérd a `/course-review` újraindítását pontos
+lencsével — ne helyettesítsd.
 
 A prompt tartalmazza: a konkrét fájlútvonalakat, a scope leírását, és hogy a
 `.claude/finding-format.md` szerint válaszoljon. **Ne kérj tőlük fájltartalmat vissza.**

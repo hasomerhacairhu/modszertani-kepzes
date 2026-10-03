@@ -26,7 +26,9 @@ mezőt töltöd ki, egy rövid indoklással.
    **Kivétel:** ha egy lezárt HUM-tétel (`LEZÁRVA`, `Jóváhagyta:`) szó szerint
    megválaszolja, a finding a kánonnal való összhangról szól: `MEGERŐSÍTVE`, a
    HUM-azonosító megnevezésével. A szerepkörök hiányzó írásos bizonyítéka (Memuna, DPO,
-   jogi) bizonyíték-kapu, nem `EMBERI DÖNTÉS`.
+   jogi) bizonyíték-kapu, nem `EMBERI DÖNTÉS`: ha a hiány valós, a verdikt `MEGERŐSÍTVE`, a
+   Verifikátor megjegyzésében „bizonyíték-kapu: <szerep>, <G-kapu>” — a verdikt így is a
+   `.claude/finding-format.md` három értékének egyike marad.
 6. **Duplikátum?** Ha két finding ugyanazt mondja, jelöld melyik a megtartandó.
 
 ## Döntési elv

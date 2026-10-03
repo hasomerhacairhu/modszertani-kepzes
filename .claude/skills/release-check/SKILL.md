@@ -16,6 +16,7 @@ allowed-tools:
   - Bash(python3 -m json.tool .claude/settings.json*)
   - Bash(bash -n .claude/hooks/guard-repo-safety.sh)
   - Bash(bash .claude/hooks/guard-repo-safety.sh --selftest)
+  - Bash(bash .github/read-only-workflows.sh)
   - Bash(git cat-file*)
   - Bash(git diff*)
   - Bash(git status*)
@@ -99,7 +100,7 @@ python3 -m unittest tools.test_media_manifest
 ```bash
 python3 -m py_compile tools/*.py
 git diff --check              # nem commitolt whitespace-hiba, sorvégi szóköz
-git diff --check origin/main  # a CI a teljes PR-tartományt nézi (új fájlnál előbb git add -N)
+git diff --check origin/main...HEAD  # a CI a teljes PR-tartományt nézi (merge-base óta; új fájlnál előbb git add -N)
 git status --short
 git diff --stat
 ```
@@ -122,12 +123,13 @@ Ha van módosítás, **olvasd vissza a teljes saját diffedet** (`git diff`), é
   „rossz magyar" lint tilos; egy konkrét, dokumentált mass-replace hiba (például
   `műhelyban` → `műhelyben`) viszont szűk exact guardként védhető.
 
-## 5. Ecosystem-konfiguráció (ha `.claude/**` változott)
+## 5. Ecosystem-konfiguráció (ha `.claude/**` vagy `.github/**` változott)
 
 ```bash
 python3 -m json.tool .claude/settings.json > /dev/null   # csendes = érvényes JSON
 bash -n .claude/hooks/guard-repo-safety.sh                # csendes = szintaxis OK
 bash .claude/hooks/guard-repo-safety.sh --selftest
+bash .github/read-only-workflows.sh                       # a CI „Workflows stay read-only” lépése
 ```
 
 ## 6. Jelentés
