@@ -3,8 +3,8 @@
 > **2026-10-03 — a hangválasztás eldőlt, ez a lap történeti.** A projektgazda döntése szerint
 > (VO 2. fázis) mindkét ElevenLabs-hang — a kanonikus narrátorhang és a második hang — létezik, a hanghasználati jog
 > tisztázott, a hang tulajdonosai kifejezetten hozzájárultak (VO D-01). Az elsődleges
-> narrátor a **kanonikus narrátorhang**; a második hang jogtisztázott, a kalibrálása nem feltétele az első
-> gyártási körnek (VO D-14). A hatmintás összehasonlítás ezért nem fut. A hatályos gyártási
+> narrátor a **kanonikus narrátorhang**; a második hang jogtisztázott, és az első gyártási körben csak
+> az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után (VO D-14; K4). A hatmintás összehasonlítás ezért nem fut. A hatályos gyártási
 > konfiguráció a [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12. szakaszában áll; az alábbi 2.
 > szakasz ehhez igazodik. A P1–P3 szkript a pilotban a fülre hozott (B4) kiejtési döntéseket
 > ellenőrzi produkciós környezetben, nem dönt újra (VO D-13).
@@ -40,7 +40,7 @@ A hat mintát **nem szabad** legenerálni, amíg ez a három nem történt meg.
 ### 1.0. A hangok létrehozása — `A HANGOK LÉTEZNEK (2026-10-03)`
 
 **VOICE-SRC-01** és **VOICE-SRC-02** **forrás-beszélők**. A két ElevenLabs-hang (a kanonikus narrátorhang és a második hang)
-2026-10-03-án létezik (VO D-01); a voice-ID a repóba nem kerül. Az alábbi pontok a
+2026-10-03-án létezik (VO D-01); a voice-ID nem nyilvános, csak a VO QA-repó gyártási konfigurációjában él (K3). Az alábbi pontok a
 létrehozás előtti követelményeket rögzítik; hogy ezek a két hangnál hogyan teljesültek, azt csak
 valós bizonyíték rögzítheti ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5 — formális
 bizonyíték függő).
@@ -69,13 +69,13 @@ bizonyíték függő).
 ### 1.1. A hangok azonosítása — `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ`
 
 A hangok léteznek (2026-10-03, VO D-01). Ebben a repositoryban **nincs ElevenLabs hitelesítő
-adat**; a voice-ID a repóba nem kerül, a hangtípust csak fiókbizonyítékból lehet rögzíteni —
+adat**; a voice-ID a kurzusrepóba nem kerül (a VO QA-repó gyártási konfigurációjában él, K3), a hangtípust csak fiókbizonyítékból lehet rögzíteni —
 **kitalálni nem szabad.**
 
 | Hang | Voice ID | Hangtípus | Magyar nyelvre igazolt? | Modell-kompatibilitás |
 |---|---|---|---|---|
 | **Kanonikus narrátorhang** | `NEM A REPÓBAN` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | a gyártási próbák `eleven_v4`-en futottak (VO 2. fázis) |
-| **Második hang** | `NEM A REPÓBAN` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | nincs kalibrálva (VO D-14) |
+| **Második hang** | `NEM A REPÓBAN` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | kalibrálandó: az első körben az `M1.3-VID-01` Madrih B szerepét mondja (VO D-14, K4) |
 
 **A kinyerés menete a létrehozás után — a webes út elég:**
 
@@ -336,7 +336,7 @@ azonosítói (`previous_request_ids`). A voice-ID a kísérőadatban nem nyilvá
 ## 7. Amit ez a teszt NEM dönt el
 
 - **A második hang szerepét — ez eldőlt.** A második hang jogtisztázott; a kalibrálása
-  után az `M1.3-VID-01` egyik szerepe újrarenderelhető vele (VO D-14).
+  után már az első körben az `M1.3-VID-01` Madrih B szerepét mondja (VO D-14, K4).
 - **A csomagot.** A kimeneti formátum és a hangtípus dönti el, nem a karakterár —
   [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.7. és 13.9.
 - **A hang-jogosultságot.** → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) (R2-5; a V3

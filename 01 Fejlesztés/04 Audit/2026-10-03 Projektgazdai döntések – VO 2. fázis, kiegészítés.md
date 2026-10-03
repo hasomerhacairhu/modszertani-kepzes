@@ -2,7 +2,7 @@
 
 > **Audit trail, nem tananyag.** A projektgazda válaszai a VO 2. fázis course fix pack (`/course-fix`) utáni
 > egyeztetésen, 2026-10-03-án, a munkamenetben feltett kérdésekre (AskUserQuestion). A kérdés és a választott opció
-> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4 döntések bizonyítéka; a kapcsolódó
+> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4 döntések és a K5 tényközlés bizonyítéka; a kapcsolódó
 > nyitott findingok: `2026-10-03 course-fix napló – VO 2. fázis.md`, „Célzott utóellenőrzés”.
 
 **Jóváhagyta:** projektgazda · **Dátum:** 2026-10-03
@@ -53,3 +53,15 @@
     (R2-5) változatlanul függő.
   - A kurzusoldali dokumentumok (VOICE-BIBLE 8., 9., 11.; PRODUCTION-DECISIONS D11; az M1.3 `decision` mezője;
     PRODUCTION-STACK 5., 11.; PILOT-PRODUCTION-PACK P-KAR; ELEVENLABS-VOICE-TEST 7.) átvezetése `/course-fix`-szel.
+
+## K5 — A forrás-beszélők nagykorúsága (UE-BIZT-3) — projektgazdai tényközlés
+
+- **Forrás:** a projektgazda szabad szöveges üzenete a munkamenetben, 2026-10-03 (nem AskUserQuestion-válasz), szó
+  szerint: „forrásbeszélők nagykorúak”.
+- **Osztály:** projektgazdai tényközlés (a VO D-01 hanghasználati közlésének mintájára). Tartalmilag lezárja, hogy a
+  két forrás-beszélő (`VOICE-SRC-01`, `VOICE-SRC-02`) nagykorú.
+- **Nem állítja:** hogy a nagykorúság formális igazolását a DPO vagy a jogi felelős ellenőrizte. Az igazolás
+  (a `VOICE-RIGHTS-REGISTER` nem személyes hivatkozása, jóváhagyói minősítés) a VO D-08 szerint bizonyíték-kapu marad;
+  személyes adat (életkor, születési dátum) a repóba nem kerül.
+- **Átvezetés:** a kurzusoldali hivatkozó helyek (RIGHTS-EVIDENCE R2-5, ELEVENLABS-VOICE-TEST 1.0., a HUM-MEDIA-02
+  2026-10-03-i bekezdése) a következő fix packban, `/course-fix`-szel.

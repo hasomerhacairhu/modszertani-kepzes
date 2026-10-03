@@ -79,7 +79,7 @@ kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
 | R2-1 | A képgeneráló eszköz / szolgáltató **neve és verziója** | mind a 29 vizuális asset | **HIÁNYZIK** | KUTATVA — jelöltek és verziók: 1/A.1., 1/A.2. |
 | R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 118 | **HIÁNYZIK** — a fiókhoz és a választott csomaghoz kötött szövegváltozat kell | KUTATVA — a jelöltek nyilvános záradékai idézve: 1/A.1., 1/A.2. |
 | R2-3 | **Avatar- / képmás-jogosultság**: az avatar nem valós, azonosítható személy hasonmása, vagy van rá engedély | 27 videó + 2 állókép | **HIÁNYZIK** | KUTATVA — a jelöltek hozzájárulási feltételei idézve; a készlet-avatar képmás-licence dokumentálandó (H-3, `HUM-MEDIA-03`); a **J2 kiskorú-kérdés** nyitva: 1/A.3., 1/A.5. |
-| R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **RÉSZBEN MEGVAN** — a szolgáltató **ElevenLabs** (felhasználói döntés, 2026-08-28), a modell `eleven_v4` (projektgazdai döntés, 2026-10-03, VO D-02); a voice-ID nem a repóban él, a rögzítése nyitott; jóváhagyói minősítés nincs | a szolgáltató és a modell-javaslat: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz |
+| R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **RÉSZBEN MEGVAN** — a szolgáltató **ElevenLabs** (felhasználói döntés, 2026-08-28), a modell `eleven_v4` (projektgazdai döntés, 2026-10-03, VO D-02); a voice-ID nem nyilvános, a VO QA-repó gyártási konfigurációjában él (kiegészítő döntés, 2026-10-03, K3); jóváhagyói minősítés nincs | a szolgáltató és a modell-javaslat: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz |
 | R2-5 | **Hang-jogosultság**: a felhasznált egyedi hang használatának joga | a kanonikus narrátorhangra és a második hangra | **RÉSZBEN MEGVAN** — projektgazdai tényközlés (2026-10-03, VO D-01): mindkét hang létezik, a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten hozzájárultak. A nem személyes hivatkozás (`VOICE-RIGHTS-REGISTER`) és a jogi jóváhagyó minősítése a repóban nincs: a formális bizonyíték függő | KUTATVA — a szolgáltató feltételei és a hangtípusonkénti következmény: 1/A.0. |
 | R2-6 | Emberi felmondó esetén felhasználási szerződés | — | **NEM ALKALMAZHATÓ** — a felmondás 2026-08-28 óta szintetikus | — |
 
@@ -93,9 +93,9 @@ kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
 
 ## 1/A. Szolgáltató-kutatás (2026-08-27, kiegészítve 2026-08-28) — a bizonyíték-igény konkrétummá tétele
 
-> **A 28 asset R2-blokkolója változatlanul a helyén marad.** *(Azóta: 119 asset — lásd
-> az 1. szakaszt.)* A fenti hat sorból négy
-> továbbra is **HIÁNYZIK**; az R2-4 a szolgáltatói döntés után **RÉSZBEN MEGVAN**, az
+> **A 28 asset R2-blokkolója változatlanul a helyén marad.** *(Azóta: 118 asset — lásd
+> az 1. szakaszt.)* A fenti hat sorból három
+> továbbra is **HIÁNYZIK**; az R2-4 a szolgáltatói döntés után, az R2-5 2026-10-03 óta **RÉSZBEN MEGVAN**, az
 > R2-6 pedig **NEM ALKALMAZHATÓ** lett (a felmondás szintetikus). **Egyik sem jelent
 > feloldást:** a hiányzó rész — voice-ID, modell, licenc-igazolás, hang-jogosultság —
 > mind megvan még.** *(2026-10-03: a modell eldőlt, a hanghasználati jog tartalmilag tisztázott — R2-4, R2-5 RÉSZBEN MEGVAN; a formális bizonyíték és a licenc-igazolás hiányzik.)* Ez a szakasz csak annyit tesz, hogy a „⟬generátor neve⟭” absztrakt
@@ -169,7 +169,7 @@ használni. A hangtípus dönti el, mit kell igazolni:
 | E-8 | Kiskorúak | a feltételek szerint 18 alatti nem használhatja a szolgáltatást és kiskorú hangadata nem tölthető fel; a tiltólista viszont 13–18 közötti használatot szülői hozzájárulással elképzelhetőnek tart — **a saját dokumentumaik nem mondanak ugyanazt** | `LEGAL_REVIEW_REQUIRED` — lásd a V3 alkaput (1/A.5.) |
 | E-9 | Licenc a feltöltött felvételekre | a feltöltött hangfelvétel a 4(b) szerint a 4(d) alá esik: a tartalomra — a hangra is — szóló licenc „to provide the Services…, to improve the Services, and to develop new services and products”, és „perpetual and irrevocable (which means this license cannot be withdrawn)”, „sub-licensable, through multiple tiers”; a hangot engedély nélkül önállóan nem kommercializálja („will not commercialize your voice on a standalone basis without your permission”). A 4(g) szerint csak az tölthet fel, akinek megvan „all the rights necessary to grant us the license described above”. *(EGT-s feltételek, lekérdezve 2026-10-02)* | **`LEGAL_REVIEW_REQUIRED`** — a H-5 mintájára. A kimaradás (E-4) a tanítási felhasználásra szól; hogy a licenc többi célját érinti-e, és mit kell ehhez a V2 hozzájárulásnak lefednie, jogi kérdés. A projektgazdai döntés (2026-10-02, `HUM-MEDIA-02`) szerint ez az állapot a jogi felülvizsgálatig marad, hallgatólagosan nem tekinthető elfogadottnak |
 
-### 1/A.1. Beszélőfej-videó (21 asset) — a szolgáltató **HeyGen** (felhasználói döntés, 2026-08-28)
+### 1/A.1. Beszélőfej-videó (18 asset) — a szolgáltató **HeyGen** (felhasználói döntés, 2026-08-28)
 
 A szolgáltató-választás lezárult; ez a szakasz már nem hasonlít össze jelölteket, hanem a
 **választott** szolgáltató feltételeit rögzíti. A korábban vizsgált, **nem választott**
@@ -365,7 +365,7 @@ A kivezetés indoka minden esetben az asset saját deklarációjából következ
 
 Az M6.3 leckében a projekt korábban **fotóról illusztrációra** váltott, kimondottan a
 GDPR-kockázat elkerüléséért („DÖNTÉS: illusztráció (GDPR-kockázat elkerülése),
-FOTO→ILL”). Ennek eredménye, hogy a 417 assetből ma **kettő** épül valós felvételre.
+FOTO→ILL”). Ennek eredménye, hogy a 415 assetből ma **kettő** épül valós felvételre.
 Ez a lap ezt a döntést rögzíti, nem bírálja felül — és nem is használható arra, hogy egy
 **kötelezően valós** felvételt (a Moodle-képernyőképet) illusztrációra cseréljünk.
 

@@ -183,8 +183,8 @@ szakszóval (`hanih`). Aki ezt jól mondja fel, a 89-ből 80-at jól mond fel.
 - **Motor:** `eleven_v4`, `language_code: "hu"` (projektgazdai döntés, 2026-10-03, VO D-02) —
   a magyar olvasat kikényszerítése kötelező, enélkül a someres szavak angol vagy héber
   fonetikát kaphatnak.
-- **Hang:** a **kanonikus narrátorhang** (VO D-14). A voice-ID a gyártási környezet nem
-  verziókezelt konfigurációjában él, a repóban nincs.
+- **Hang:** a **kanonikus narrátorhang** (VO D-14). A voice-ID nem nyilvános: a VO QA-repó
+  gyártási konfigurációjában él, a kurzusrepóban nincs (K3).
 - **Bemenet:** a `@source` blokk szövege **tisztítva** — a `„ ”` határoló idézőjel nélkül, a
   `**…**` jelölés eltávolítva, emoji nélkül, szögletes zárójel nélkül; a kiejtés célzott
   cseréi (tts_text) csak a hang bemenetében élnek ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 2.1.).
@@ -442,8 +442,8 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 
 > ⚠️ **A P-KAR elfogadása két testvérre nem vihető át.** Az `M1.3-VID-01` kétszereplős,
 > képernyőn zajló párbeszéd: a „videó néma” feltétel és a néma generálás rá nem
-> alkalmazható; a hangja az első gyártási körben a kanonikus narrátorhang mindkét szerepre, beszélőnként
-> szegmentálva (VO D-14), a szájszinkronos gyártási útja nyitott döntés
+> alkalmazható; a hangja az első gyártási körben Madrih A-nál a kanonikus narrátorhang, Madrih B-nél a
+> második hang, beszélőnként szegmentálva (VO D-14, K4), a szájszinkronos gyártási útja nyitott döntés
 > ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11). Az `M1.1-VID-02` B-roll
 > („körben ülő fiatalok”) a 3.1. „kiskorúnak látszó szereplő” bukási feltételébe ütközhet;
 > az ábrázolás módja a `J2` emberi döntése.

@@ -198,7 +198,7 @@ Opciók:
     "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 15–20 mp, semleges felolvasó hang; opcionális elem."
   },
   "a11y": {
-    "note": "Felirat + leirat kötelező (lásd Z.1-NAR-01::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
+    "note": "Leirat/transzkript (Z.1-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; a Z.1-NAR-01::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
   },
   "derivatives": [
     "captions",
@@ -472,7 +472,7 @@ Opciók:
     "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 20–30 mp, semleges felolvasó hang; opcionális elem."
   },
   "a11y": {
-    "note": "Felirat + leirat kötelező (lásd Z.1-NAR-02::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
+    "note": "Leirat/transzkript (Z.1-NAR-02::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; a Z.1-NAR-02::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
   },
   "derivatives": [
     "captions",

@@ -14,7 +14,8 @@ nincs szkript nélküli beszélt asset.
 > **2026-10-03 óta (projektgazdai döntés, VO 2. fázis):** mindkét ElevenLabs-hang — a **kanonikus narrátorhang**
 > és a **második hang** — létezik; a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten
 > hozzájárultak (VO D-01). Az **elsődleges narrátor a kanonikus narrátorhang**; a második hang
-> jogtisztázott, a kalibrálása nem feltétele az első gyártási körnek (VO D-14). A modell, a
+> jogtisztázott; az első gyártási körben csak az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után — a többi
+> tételnek ez nem feltétele (VO D-14; K4). A modell, a
 > beállítások és a kiejtési szótár rögzítve: 12. szakasz. A formális jogosultsági bizonyíték (a
 > nem személyes hivatkozás és a jóváhagyói minősítés) függő —
 > [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5. A hangok és a VOICE-SRC-álnevek
@@ -164,26 +165,25 @@ hangzást rögzített: ott a kanonikus kiejtési szótár (12. szakasz) aliasa a
 - **Időtartamok:** `45’` = „negyvenöt perc”, `45 mp` = „negyvenöt másodperc”.
 - **Segélyvonalak** (112, 116-111, 116-123) narrációban **nem** hangzanak el — képzői
   kártyán szerepelnek (`M3.B-KART-02`). Ha valaha narrációba kerülnek, számjegyenként
-  kell mondani őket. **Kivétel: a 112** az `M3.3-NAR-01-VO` gyermekvédelmi lépéssorában
-  elhangzik, „száztizenkettő” alakban; az írott szöveg és a felirat „112” marad, a kimondott
+  kell mondani őket — **kivéve a 112-t**, amely mindig „száztizenkettő” alakban hangzik el,
+  soha nem „egy-egy-kettő”-ként. Ma egyedül az `M3.3-NAR-01-VO` gyermekvédelmi lépéssorában
+  hangzik el; az írott szöveg és a felirat „112” marad, a kimondott
   alakot a hang bemenete (tts_text) rögzíti (projektgazdai döntés, 2026-10-03, VO D-07;
   utólagos ellenőrzés (vétó/QA): a Memuna). A 116-os vonalakra a fenti szabály változatlan.
 
 ## 8. Karakter- és dialógushangok
 
-A tananyagban **két** jelenet hordoz szereplői beszédet; az első gyártási körben mindkettőt a
-kanonikus narrátorhang szólaltatja meg:
+A tananyagban **két** jelenet hordoz szereplői beszédet. Az első gyártási körben az `M4.1`-jeleneteket
+a kanonikus narrátorhang, az `M1.3-VID-01` párbeszédét a két hang együtt szólaltatja meg:
 
 - `M1.3-VID-01` — két madrih (A és B) beszélget, ugyanaz a helyzet kétféle
   visszajelzéssel. A szkriptet a szerző 2026-08-27-én jóváhagyta; a szó szerinti dialóg a
   leckében, `M1.3-VID-01-VO` forrásblokkban él. **Első gyártási kör (projektgazdai döntés,
-  2026-10-03, VO D-14):** mindkét szerepet a kanonikus narrátorhang mondja, de **beszélőnként külön
-  szegmensben** — a replikák nem fűződnek egyetlen névtelen TTS-folyammá, a beszélő
-  azonosítója a szerkezetben megmarad, és a felirat minden replikánál megnevezi a beszélőt.
-  Az első körben tehát **nem** szól két, hallhatóan megkülönböztethető hang; a beszélőt a
-  felirat jelöli. Ha a második hang kalibrálása elkészül, az egyik szerep szegmensei a második
-  hanggal újrarenderelhetők — az azonosítók, a felirat, a lecke szerkezete és a többi szegmens
-  változatlan marad. A kétszereplős, szájszinkronos gyártási út nyitott
+  2026-10-03, VO D-14; kiegészítő döntés K4):** Madrih A-t a kanonikus narrátorhang, Madrih B-t a
+  második hang mondja, **beszélőnként külön szegmensben** — a replikák nem fűződnek egyetlen
+  névtelen TTS-folyammá, a beszélő azonosítója a szerkezetben megmarad, és a felirat minden
+  replikánál megnevezi a beszélőt. A második hangot ehhez előbb kalibrálni kell (VO QA-repó);
+  az `M1.3-VID-01` hanganyaga addig nem készülhet el, a többi tételt ez nem blokkolja. A kétszereplős, szájszinkronos gyártási út nyitott
   ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11).
 - `M4.1-VID-03/04/05` — a karakter **nem beszél** a hangsávban: a jelenetek némán
   készülnek, és a narrátor beszél róla harmadik személyben („Nézd meg ezt a madrihot…”). A
@@ -219,8 +219,10 @@ Ez nem stílus, hanem akadálymentesítési követelmény
   élnek, a feliratba és a leiratba nem kerülnek (projektgazdai döntés, 2026-10-03, VO D-09 és
   a döntéscsomag 3. pontja). A kanonikus megvalósítás a VO QA-repó szövegkinyerője
   (display_text / tts_text).
-- **Párbeszéd:** a felirat minden replikánál megnevezi a beszélőt (pl. WebVTT `<v Madrih A>`);
-  a beszélő- és a verziócímke nem hangzik el (VO D-14).
+- **Párbeszéd:** a felirat minden replikánál kiírja a beszélő nevét a cue szövegében (pl. „Madrih A: …”);
+  a WebVTT `<v>` hangjelölés a megjelenített feliratban nem látszik, ezért legfeljebb kiegészítés. A
+  beszélő- és a verziócímke a párbeszédben nem hangzik el; a verziócímkét a hangalámondásos
+  képleírás (`M1.3-NAR-08-VO`) mondja el (VO D-14, D-18).
 - Az Interactive Videónál (`M1.3-VID-01`, `M4.1-VID-02`) **egy** felirat-sáv és **egy**
   leirat tartozik a teljes videóhoz; az `M4.1-VID-02` szövege a három jelenet
   narrációjának sorrendi összefűzése. Az `M1.3-VID-01` hangalámondásos
@@ -253,8 +255,9 @@ rögzítendő. Javaslat a pilothoz: beszédre normalizálva, azonos csúcsérté
 
 ## 11. Konzisztencia-szabályok
 
-1. **Egy hang mindenre.** Az első gyártási körben a 8. szakasz két jelenetét is a kanonikus
-   narrátorhang szólaltatja meg (VO D-14, D-15).
+1. **Egy narrátorhang mindenre.** A narrációt és az `M4.1`-jeleneteket a kanonikus narrátorhang
+   mondja (VO D-15); egyetlen kivétel az `M1.3-VID-01` Madrih B szerepe, amelyet a második hang
+   mond (VO D-14; K4).
 2. **A pilot ellenőriz, nem dönt újra.** A kiejtés kanonikus döntési forrása a
    VO QA-repó B4-regisztere (fülre hozott, kötelező döntések). A P1–P3 szkript
    ([`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md)) és a P-NAR ezeket produkciós
@@ -281,8 +284,8 @@ rögzítendő. Javaslat a pilothoz: beszédre normalizálva, azonos csúcsérté
 | Modell | ✅ **`eleven_v4`**, `language_code: "hu"` — projektgazdai döntés, 2026-10-03 (VO D-02); a fülre hozott kiejtési döntések ezen a modellen születtek |
 | Hangok | ✅ a **kanonikus narrátorhang** és a **második hang** — mindkét ElevenLabs-hang létezik; a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten hozzájárultak (VO D-01). A hangok és a **VOICE-SRC-01/02** álnevek megfeleltetését ez a lap nem rögzíti |
 | Hang-létrehozás (módszer: IVC / PVC / egyéb) | a hangok elkészültek; a módszerről és a fiókhoz kötött tényekről (hangtípus, fióktulajdon, tanítási kimaradás) csak valós bizonyítékból rögzíthető adat → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.0 |
-| Kanonikus narrátor | ✅ a **kanonikus narrátorhang** — az első teljes gyártási kör egyetlen hangja; a **második hang** jogtisztázott, a kalibrálása nem feltétele az első körnek (VO D-14) |
-| Voice-ID | a hang létezik; az azonosító a gyártási környezet nem verziókezelt konfigurációjában él, a repóban nincs. A `HUM-MEDIA-02` szerint ide csak a ténylegesen létrehozott, jogosult voice-ID kerülhet: ⟬KITÖLTENDŐ⟭ |
+| Kanonikus narrátor | ✅ a **kanonikus narrátorhang** — az első teljes gyártási kör narrátorhangja; a **második hang** jogtisztázott, és az első körben csak az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után (VO D-14; K4) |
+| Voice-ID | nem nyilvános: csak a VO QA-repó gyártási konfigurációjában él, a kurzusrepóba nem kerül (kiegészítő projektgazdai döntés, 2026-10-03, K3; ez a `HUM-MEDIA-02` „Implementáció” sorát felváltja) |
 | Hangtípus (klón / tervezett / stb.) | fiókbizonyítékból rögzítendő (13.4.) — nem találjuk ki |
 | Hangbeállítások és seed | ✅ `stability` **0,35**, `similarity_boost` **0,75** — a v4-en csak ez a kettő hat; `speed` és `style` nincs, nem is küldjük (VO D-02). Seed: rögzített (260930). A ténylegesen elküldött értékeket minden kérés kísérőadata rögzíti |
 | Szövegnormalizálás | ✅ `apply_text_normalization: auto`, plusz a hang bemenetének (tts_text) célzott, naplózott cseréi (VO D-09; mérve: az `off` nem jobb) |
@@ -291,8 +294,9 @@ rögzítendő. Javaslat a pilothoz: beszédre normalizálva, azonos csúcsérté
 | Hang-jogosultság igazolása | tartalmilag tisztázott (VO D-01); a formális bizonyíték függő → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5 |
 
 > **Az R3 tartalmilag kitöltve, a kapu még nem zárult le.** A kanonikus hang, a modell, a
-> beállítások és a szótár rögzítve; nyitott a voice-ID rögzítési helye (fent) és a P-NAR
-> pilot (`M4.2-NAR-03`) fülre jóváhagyása produkciós környezetben (11.2.; VO D-13). Az R3
+> beállítások és a szótár rögzítve, a voice-ID helye kijelölve (fent; K3); nyitott a P-NAR
+> pilot (`M4.2-NAR-03`) fülre jóváhagyása produkciós környezetben (11.2.; VO D-13) és a második
+> hang kalibrálása az `M1.3-VID-01`-hez (8. szakasz; K4). Az R3
 > blokkoló ezért a tételeken a helyén marad; a levétele a manifesztben külön, tömeges
 > módosítás ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D2).
 

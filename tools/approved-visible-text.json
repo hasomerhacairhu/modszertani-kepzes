@@ -5,8 +5,8 @@
       "sha256": "20059790ff36adf541cdf305e1461ac7eb73444602a8c28528f0a8d45514343c"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "23cd79cbf15f7b765a68d90dfc4ca3ed2c1ea732994bb225cd680c07cc82a955"
+      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
+      "sha256": "2a6ff6c731301872ecf3001a05f23aad0bf8c4615fc245da65cfe126a7ef5087"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
@@ -17,8 +17,8 @@
       "sha256": "52cfa3df06da60fcd7e7dbd8ecba460879a31374d35875e629fdf40dab5be7d0"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "fc9b3f420984d289b35a37fb00ced6d7575a500fb204c8ad650001abfa57bfa8"
+      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
+      "sha256": "a4adc079c17fa0ed42a8ed496e0d00f312243384c059d0c5c79fa933bfff50da"
     },
     "02 Tervezet/LMS – activity manifest.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
@@ -69,8 +69,8 @@
       "sha256": "a5d3a4a83e609f97da430d8d071aa1601f0ae8dc7b013c3b624762dc4a27c235"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "b8e944aa983c846e2ff071771b2c2fad85ecade2e6a731eca5a87f3f16849f3a"
+      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
+      "sha256": "ce46cf9fe502738f3053c3d5daabf8ac2078ebaac8329ee6caffe81fcafa880b"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
@@ -133,16 +133,16 @@
       "sha256": "270cbff7f4846b4017de4f6da1a5fdfa12076ecb0c38e39c212cb10e1cc76979"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "bbff13f803fb273b1107799117018d44aaeadf7f9ece852aa623ee0a88e99296"
+      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
+      "sha256": "72c9f200c78585eb38a20c0b0e94dee87fe459ee723611334dc8c1f1576729a9"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
       "sha256": "31e3d608df937ce57b5d8a9da271a20e47e56981f990d55335c676cef1cfc4cc"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "8dfb491020c0fbf62aab363b53ab65c3506efd8ba1cb9c69da80f35c1325ef3c"
+      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
+      "sha256": "17d8da9a79a27da5e66ec6a12c918aa5cb54e6e11e2d62774bfcf80625ec3966"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",

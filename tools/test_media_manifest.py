@@ -1807,11 +1807,11 @@ class TestApprovedDecisions(unittest.TestCase):
         self.assertEqual("M1.3-NAR-08-VO", ad["source_ref"])
         self.assertIn("transcript", ad["derivatives"])
         for phrase in ("első verzió – címke", "második verzió – SBI-szerű",
-                       "az S a szituációnál, a B a viselkedésnél, az I a hatásnál"):
+                       "háromszor félbeszakítottad a többieket’ résznél"):
             self.assertIn(phrase, ad["source_text"], phrase)
         dialogue = self.by_id["M1.3-VID-01"]
         self.assertEqual("M1.3-VID-01-VO", dialogue["source_ref"])
-        self.assertNotIn("szituációnál", dialogue["source_text"])
+        self.assertNotIn("résznél", dialogue["source_text"])
 
     # --- D4: the M4 HOOK format question is answered -------------------------
 

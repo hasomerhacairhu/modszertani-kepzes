@@ -18,8 +18,9 @@ vissza.
 
 **Mit NEM dönt el ez a lap:** magát a hangot — az eldőlt: a narrációt a kanonikus narrátorhang mondja (projektgazdai
 döntés, 2026-10-03, VO D-14). A beállítások a [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12.
-szakaszában, a kiejtési figyelőlista és a pontozólap az
-[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)-ben áll.
+szakaszában, a kiejtési figyelőlista az
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 4. szakaszában, az elfogadási feltétel e lap 6. szakaszában áll; a tesztlap
+pontozólapja a kéthangos választás idejéből való, történeti.
 
 > ✅ **2026-08-28: a szolgáltatói kérdés lezárult.** A felmondás **szintetikus**, a motor
 > az **ElevenLabs**. **2026-10-03:** mindkét hang (a kanonikus narrátorhang és a második hang) létezik, a narrációt a kanonikus

@@ -93,7 +93,7 @@ konfiguráció: projektgazdai döntés, 2026-10-03 (VO 2. fázis). Részletek:
 |---|---|
 | **Szolgáltató** | ✅ **ElevenLabs** — lezárva |
 | **Hangok** | ✅ a **kanonikus narrátorhang** és a **második hang** — mindkettő létezik; a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten hozzájárultak (VO D-01); a formális bizonyíték függő ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5) |
-| **Kanonikus hang** | ✅ **eldőlt** — a kanonikus narrátorhang; a második hang jogtisztázott, az első kör nem használja (VO D-14) |
+| **Kanonikus hang** | ✅ **eldőlt** — a kanonikus narrátorhang; a második hang jogtisztázott, az első körben csak az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után (VO D-14, K4) |
 | **Modell** | ✅ **`eleven_v4`**, `language_code: "hu"`; `stability` 0,35, `similarity_boost` 0,75 (VO D-02) |
 | **Tempó** | a v4-en nincs `speed`: a tempót a szöveg és az időkeret adja; a kanonikus narrátorhang mért tempója 107–164 szó/perc, medián ≈ 131 (VOICE-BIBLE 4.; VO D-17) |
 | **Kiejtés** | a kanonikus kiejtési szótár rögzített verziója (`ulYxuUbd8aSRJ89Pv2Q8` / `VFpQiiOF789b08uzsooM`), minden kérésben; szótár nélküli gyártás nincs (VO D-03) |
@@ -240,7 +240,7 @@ lecserélhető a videó újragenerálása nélkül.
 
 **Ahol a néma generálás nem elég:** az `M1.3-VID-01` két madrih képernyőn zajló
 párbeszéde — utólag aláillesztett hangnál nincs szájszinkron. A hangja az első gyártási körben
-eldőlt (a kanonikus narrátorhang mindkét szerepre, beszélőnként szegmentálva; VO D-14); a szájszinkronos gyártási
+eldőlt (Madrih A: a kanonikus narrátorhang, Madrih B: a második hang, beszélőnként szegmentálva; VO D-14, K4); a szájszinkronos gyártási
 útja nyitott döntés: [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11. Az
 `M4.1-VID-04/05` szereplője néma, a 3. jelenet mondatát a narrátor idézi (projektgazdai döntés,
 2026-10-03, VO D-15), így ott a néma generálás alkalmazható.
@@ -562,11 +562,11 @@ projektgazdai döntéssel lezárult; a sorukat nyomon követhetőségért hagytu
 |---|---|---|---|
 | **D1** | vizuális rendszer: átvesszük-e a hivatalos palettát, és A vagy B változat | 245 asset / 484 deliverable | **LEZÁRVA** — projektgazdai döntés (2026-10-02): a hivatalos paletta, **B változat**; utólagos ellenőrzés (vétó/QA): a kreatív/márkafelelős |
 | **D2** | **melyik ElevenLabs egyedi hang** a kanonikus narrátor: a VOICE-SRC-01 vagy a VOICE-SRC-02 forrás-beszélőből készülő | önmagában 0 — minden R3-tételen az R2 is ül | **LEZÁRVA** — projektgazdai döntés (2026-10-03): a **kanonikus narrátorhang**; modell `eleven_v4`, beállítások és kiejtési szótár: VOICE-BIBLE 12.; a hangjog formális bizonyítéka függő |
-| **D3** | a videó-stack **jogi bizonyítéka** | önmagában 0; R2 + R3 együtt 109 asset / 344 deliverable | a beszélőfej-szolgáltató **eldőlt (HeyGen)**; karakter-jelenet: Veo 3.1 GA — **jogi review után** |
+| **D3** | a videó-stack **jogi bizonyítéka** | önmagában 2 asset / 4 deliverable; R2 + R3 együtt 117 asset / 366 deliverable | a beszélőfej-szolgáltató **eldőlt (HeyGen)**; karakter-jelenet: Veo 3.1 GA — **jogi review után** |
 | **D5** | M3 gyermekvédelmi lépéstérkép poszter | 1 asset | **LEZÁRVA** — projektgazdai döntés (2026-10-02): az ötlépéses jelzési út (`HUM-SAFE-01`) az egyetlen kánon, a hub-poszter az `M3.B-MUNK-01` újrahasznosítása; utólagos ellenőrzés (vétó/QA): a Memuna és a helyettese |
 | **D8** | az R8 státusza: szabály vagy önálló kapu | 0 | **NYITVA** — a felvételek adatkezeléséről projektgazdai döntés van (2026-10-02, `HUM-PRIV-02`: alapértelmezésben nincs felvétel; jogalap a külön, önkéntes hozzájárulás; megőrzés legfeljebb 90 nap); az R8 státuszáról (A vagy B) a döntés nem szól |
 | **D10** | ken alkohol- és dohányzási kódex | 2 asset | **LEZÁRVA** — projektgazdai döntés (2026-10-02): a `HUM-SAFE-04` szabálya (kiskorúaknak szóló programon nulla alkohol, dohány, vape és nikotin); utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna. A két asset állapota a lecke `decision` mezőjét követi |
-| **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2, R3 és R5 is ül rajta | **RÉSZBEN** — a dialógushang az első körre eldőlt (VO D-14: a kanonikus narrátorhang mindkét szerepre, beszélőnként szegmentálva); az `M4.1-VID-04/05` szereplője néma (VO D-15); nyitott a szájszinkronos gyártási út (5. szakasz); a hangjog formális bizonyítéka függő (`HUM-MEDIA-02`) |
+| **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2, R3 és R5 is ül rajta | **RÉSZBEN** — a dialógushang az első körre eldőlt (VO D-14, K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang, beszélőnként szegmentálva); az `M4.1-VID-04/05` szereplője néma (VO D-15); nyitott a szájszinkronos gyártási út (5. szakasz); a hangjog formális bizonyítéka függő (`HUM-MEDIA-02`) |
 | **J1** | a karakter-jelenet szolgáltatójának 18 év alatti hozzáférési záradéka | a karakter-jelenet stack sorsa | **jogi jóváhagyó** — a `HUM-MEDIA-02` alkapuja; felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 | **J2** | a beszélőfej/karakter **felnőtt megjelenése** ↔ a madrih maga is lehet kiskorú | a beszélőfej- és karakter-brief | **Memuna (gyermekvédelmi felelős) + szerző** — a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
 | **J3** | *(új, 2026-08-28)* a beszélőfej-szolgáltató **visszavonhatatlan, továbbadható tanítási licencet** kér a feltöltött tartalomra — és épp a **klónozott hang** mesterét töltenénk fel | a beszélőfej-lánc élesítése | **jogi jóváhagyó + a hang jogosultja** — 2026-10-03: megvalósítási döntés (egy készlet-avatar + a kanonikus narrátorhang, VO D-20): projektgazda jóváhagyta; a formális szerepköri bizonyíték függő |
