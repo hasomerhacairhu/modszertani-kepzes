@@ -90,7 +90,6 @@
     ],
     "ask": [
       "Bash(git push*)",
-      "Bash(git -C * push*)",
       "Bash(gh pr merge*)",
       "Bash(gh pr close*)",
       "Bash(gh pr create*)",

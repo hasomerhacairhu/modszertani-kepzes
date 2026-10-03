@@ -43,7 +43,7 @@ REL_RE="(^|[[:space:]\"'=])(\\./)?${PROT}([/[:space:]\"']|\$)"
 TOP_RE="(^|[[:space:]\"'])(\\./)?${PROT}/?([[:space:]\"']|\$)"
 RM_RE="(^|[[:space:]\"'(])(/bin/|/usr/bin/|\\\\)?(rm|unlink|shred|trash)[[:space:]]"
 CONTENT_RE='02(\\)?[[:space:]]Tervezet'
-GUARD_RE="(^|[[:space:]\"'=])(\\./)?(02(\\\\)?[[:space:]]Tervezet|\\.claude/|\\.github/|\\.git/|\\.git([[:space:]\"']|\$)|CLAUDE\\.md|tools/approved-visible-text\\.json)"
+GUARD_RE="(^|[[:space:]\"'=])(\\./)?(02(\\\\)?[[:space:]]Tervezet|\\.claude/|\\.github/|\\.git/|\\.git([[:space:]\"']|\$)|\\.gitattributes|CLAUDE\\.md|tools/approved-visible-text\\.json|tools/[^[:space:]\"']*\\.py)"
 REDIR_RE="(^|[^->=])>[>|]?[[:space:]]*[\"']?"
 REDIR_TGT_RE="(^|[^->=])>[>|]?[[:space:]]*(\"[^\"]*\"|'[^']*'|(\\\\[[:space:]]|[^[:space:]])+)"
 SED_I_RE='(^|[[:space:]])(sed|gsed)[[:space:]]([^|]*[[:space:]])?(-[a-zA-Z]*i|--in-place)'
@@ -58,7 +58,7 @@ READONLY_LINE_RE='^[[:space:]({]*(grep|egrep|fgrep|rg|ag|ack)[[:space:]]'
 CD_RE="(^|[[:space:]\"'(\`{])(cd|pushd)[[:space:]]+(.*)\$"
 SEP_RE=$'[;&|`\n]'
 SCRIPT_G='((^|[^/[:alnum:]])02(\\)?[[:space:]]Tervezet|(^|[^/~[:alnum:]])\.git/|(^|[^/~[:alnum:]])\.claude/|(^|[^/~[:alnum:]])\.github/|(^|[^/[:alnum:]])CLAUDE\.md|tools/approved-visible-text\.json)'
-PLAIN_PUSH_RE='^git (-C [^ ;&|]+ )?push( |$)'
+PLAIN_PUSH_RE='^git push( |$)'   # from the repo root only: a `git -C` call stays sandboxed
 # gh: read-only subcommands pass; the publishing ones need the plain spelling + an ask rule;
 # everything else is blocked (the user runs it).
 GH_READ_RE='^gh([[:space:]]+((pr|issue)[[:space:]]+(view|list|status)|pr[[:space:]]+(diff|checks)|repo[[:space:]]+view|run[[:space:]]+(list|view|watch)|workflow[[:space:]]+(list|view)|release[[:space:]]+(list|view)|label[[:space:]]+list|gist[[:space:]]+(list|view)|search[[:space:]]+(repos|issues|prs|code|commits)|auth[[:space:]]+status|status|browse|cache[[:space:]]+list|secret[[:space:]]+list|variable[[:space:]]+list|ruleset[[:space:]]+(list|view|check)|version|help|--version|--help)([[:space:]]|$)|[[:space:]]*$)'
@@ -714,7 +714,8 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "$G format-patch -1" "$G archive -o x.zip HEAD" "$G tag -d v1" "$G branch -Dq x" "$G remote add evil https://e.x" "$G notes add -m x"
     "$G worktree add \"$T/wt\" main" "$G worktree add ./wt main" "$G -C /tmp/x status" "$G --exec-path=/tmp/x status"
     "$G push origin '+'main" "$G push origin \\+main" "$G push '-'f origin main" "$G push origin ':'old" "$G push -'-no-verify' origin main"
-    "$G push --all origin" "$G  push origin x" "$H pr  merge 1"
+    "$G push --all origin" "$G  push origin x" "$H pr  merge 1" "$G -C $REPO_ROOT push origin main"
+    "echo x > tools/evil.py" "printf x > .gitattributes" "cp /tmp/x tools/csv.py"
     "$H pr new" "$H issue new" "$H release new" "$H gist new" "$H repo new x" "$H pr update-branch 1" "$H pr revert 1" "$H pr checkout 1"
     "$H repo unarchive x" "$H repo deploy-key add k" "$H project create" "$H alias set --shell x 'ls'" "$H extension install x/y"
     "$H run download 1" "$H release download v1" "$H repo clone x" "$H workflow run x.yml" "$H secret set X" "$H release create v1"
@@ -736,7 +737,7 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "$G status && $G rebase --abort" "$G merge main" "$G revert HEAD" "$G worktree add ../wt-x feature"
     "$G rebase --abort;" "$G rebase --abort && $G status" "cd /repo && $G rebase --abort"
     "$G rebase --abort; echo done" "$G merge --abort;" "$G cherry-pick --abort && $G status"
-    "$G push origin main" "$G push -u origin HEAD" "$G push" "$G -C $REPO_ROOT push origin main" "$H pr merge 1 --merge" "$H pr close 3 --delete-branch"
+    "$G push origin main" "$G push -u origin HEAD" "$G push" "$H pr merge 1 --merge" "$H pr close 3 --delete-branch"
     "python3 tools/content_integrity.py" "python3 tools/content_integrity.py --release-report" "python3 tools/media_manifest.py build"
     "python3 tools/test_media_manifest.py --pin-visible \"CF-01: x\"" "python3 tools/test_media_manifest.py --pin-visible \"CF-01: a -> $T\""
     "grep -rn mintaszo '$T'" "ls -la" "ls -lf" "cat CLAUDE.md" "sed -n 5p \"$T/x.md\"" "grep -rn x \"$T\" | tee /tmp/out.txt"
