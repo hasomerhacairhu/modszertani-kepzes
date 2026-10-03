@@ -1911,8 +1911,8 @@
       "unit": "M1.3",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S az ‘amikor ma a játék közben’ résznél, a B a ‘háromszor félbeszakítottad a többieket’ résznél, az I a ‘nagyon nehéz volt megtartani a figyelmüket’ résznél. A társa elgondolkodik.”",
-      "hash": "0be63f0734683a740b4d1c0351df91279e5919385397aa1030cb60036e089c94",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
+      "hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
       "note": "",
       "for": "",
       "used_by": [
@@ -6029,7 +6029,7 @@
         "note": "Hang, 20–30 mp, magyar; opcionális"
       },
       "a11y": {
-        "note": "Ha legyártják: leirat/transzkript (M1.1-NAR-05::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.1-NAR-05::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Ha a narrációt legyártják, a leirat/transzkript (M1.1-NAR-05::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.1-NAR-05::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -6064,7 +6064,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
-      "spec_hash": "3bb44b8aa65e0f35f7bdb829d1cb514f0858e3a9ef713d1cd98b38ce088e7df8",
+      "spec_hash": "91a890ab1d62824b1cded5fd008f7c17f52c1836e6d583f25e9501e9c6d93bd6",
       "deliverable_ids": [
         "M1.1-NAR-05",
         "M1.1-NAR-05::CAPTIONS",
@@ -6835,7 +6835,7 @@
         "note": "Hangsáv, kb. 10–15 mp, magyar, opcionális"
       },
       "a11y": {
-        "note": "Ha elkészül: leirat/transzkript (M1.2-NAR-04::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.2-NAR-04::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Ha a narráció elkészül, a leirat/transzkript (M1.2-NAR-04::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.2-NAR-04::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -6870,7 +6870,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "c7b6be7105727d6f5d3b6b1205ff6f4e8ab77d09b2cd557b76434ce1bb08a137",
-      "spec_hash": "ed7b9f88abb6e0c991912f9161c39d2e48e3dbf485e39ed3f1a8701021dc55aa",
+      "spec_hash": "ab14891e26089121efed002db80534643612b15ff6cc5cfc5f206b8e70cf7700",
       "deliverable_ids": [
         "M1.2-NAR-04",
         "M1.2-NAR-04::CAPTIONS",
@@ -6908,7 +6908,7 @@
         "note": "Hangsáv, kb. 10–15 mp, magyar, opcionális"
       },
       "a11y": {
-        "note": "Ha elkészül: leirat/transzkript (M1.2-NAR-05::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.2-NAR-05::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Ha a narráció elkészül, a leirat/transzkript (M1.2-NAR-05::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.2-NAR-05::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -6943,7 +6943,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "c8990ef4eb1263f4f2f2cac16d3b4a54c41714286c2177147c6a0ac6823b435a",
-      "spec_hash": "7cc50eb0c96c90455996e945e0e2c6226cec21a3cda9c78a695457908eb18b8f",
+      "spec_hash": "48c979c2a38ea981c336d92d64ef40b54da8dab31a78c747bb84152d0833f301",
       "deliverable_ids": [
         "M1.2-NAR-05",
         "M1.2-NAR-05::CAPTIONS",
@@ -7430,7 +7430,7 @@
         "note": "Hangfájl, magyar, 20–30 mp, voice-over (a checklist szerint elég voice-over + grafika, opcionálisan 'beszélő fej')."
       },
       "a11y": {
-        "note": "Leirat/transzkript (M1.3-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.3-NAR-01::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Leirat/transzkript (M1.3-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.3-NAR-01::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); ha az opcionális beszélőfej-videó elkészül, ahhoz kapcsolható, szinkron magyar felirat kötelező (WCAG 2.2 SC 1.2.2; projektgazdai döntés, 2026-10-03, K2)"
       },
       "derivatives": [
         "captions",
@@ -7465,7 +7465,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485",
-      "spec_hash": "9b47eacbbe14775502a7826090296dec6040f16fd381548500acbc376ab52d7b",
+      "spec_hash": "23353db256ae27e91376ba0ec082ac3a9628c8058d9480fbab64abdae4684d01",
       "deliverable_ids": [
         "M1.3-NAR-01",
         "M1.3-NAR-01::CAPTIONS",
@@ -7945,12 +7945,12 @@
         271,
         279
       ],
-      "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S az ‘amikor ma a játék közben’ résznél, a B a ‘háromszor félbeszakítottad a többieket’ résznél, az I a ‘nagyon nehéz volt megtartani a figyelmüket’ résznél. A társa elgondolkodik.”",
-      "source_hash": "0be63f0734683a740b4d1c0351df91279e5919385397aa1030cb60036e089c94",
+      "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
+      "source_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "0be63f0734683a740b4d1c0351df91279e5919385397aa1030cb60036e089c94",
+      "copy_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
       "spec_hash": "3e84f2399cb91c60c80b8f21bbe30c42d17f282707ab97a1a013e07e37811e22",
       "deliverable_ids": [
         "M1.3-NAR-08",
@@ -8004,7 +8004,7 @@
       "readiness_issues": [
         "OPEN_DECISION"
       ],
-      "decision": "Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. A dialógushangokat az első gyártási körre a projektgazda eldöntötte (2026-10-03, VO D-14 és K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra.",
+      "decision": "Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. Az első gyártási kör dialógushangjairól a projektgazda döntött (2026-10-03, VO D-14 és K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra.",
       "notes": "Tartalmazza a dialóg-hangsávot (a videó része). Felvillanó S/B/I ikonok az M1.3-IKO-01-ből. A beépített kérdés szöveg- és visszajelzés-tartalma a SLIDE 1 „Interakció az Interactive Video-ban” blokkjában áll (tiszta szöveges H5P-interakció, nem külön média-asset). Az R5 felvéve: az R5 szövege az AI karakter-jeleneteket nevesítve rögzített referencia-karakterhez és seedhez köti, ezért ez a videó nem gyártható a karakter- és stílus-lock előtt. Az R2 felvéve: AI-generált emberi karakter szintetikus hanggal — a generátor neve, a kereskedelmi licenc és a hang-jogosultság igazolása ugyanúgy kell, mint a beszélőfej-videóknál. Ha a jóváhagyó az R2 hatályát a beszélőfejekre szűkíti, ez a sor visszavonható (PRODUCTION-DECISIONS.md D3). A spec két mondattöredéke elcsúszott a lecke látható szövegétől („szétszúrod” / „összetartani a figyelmüket”); a jelenlegi leckeszövegre igazítva, a tananyag mondatai változatlanok. A HOOK-dialóg szövegét a szerző 2026-08-27-én jóváhagyta; a szó szerinti szöveg azóta `@source` blokkban él a leckében (M1.3-VID-01-VO), és a felirat/leirat onnan generálódik. A korábbi „Nagyjából a fenti mondatok” megfogalmazás helyére a jóváhagyott dialóg került, a felirat-hosszra vonatkozó kikötés megmaradt. Hozzáférhetőségi besorolás – projektgazdai döntés (2026-10-02): a videókat egyenként kell besorolni; utólagos ellenőrzés (vétó/QA): hozzáférhetőségi felelős. Ez jelenetvideó, amelyben az arckifejezés, a reakció és az ikonok felvillanása jelentést hordoz, ezért a korábbi dekoratív jelölés helyett tartalmi (informative), szöveges alternatívával. A képi leírás a szöveges alternatívában (M1.3-VID-01::ALTTEXT) él; a dialóg-`@source`-ból (M1.3-VID-01-VO) generált felirat és leirat változatlanul csak a párbeszédet tartalmazza. A hangalámondásos képleírás külön forrásblokk (M1.3-NAR-08-VO), a narrátor hangján, a párbeszéd szüneteiben (projektgazdai döntés, 2026-10-03, VO D-18).",
       "review": "",
       "source_ref": "M1.3-VID-01-VO",
@@ -8020,7 +8020,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
-      "spec_hash": "0ce8f1e8e044914507538288edd9aab7a42951b3d3d1e846440986d3a3a39360",
+      "spec_hash": "659d2127e41c6640205d0f4f8545432eeb1632144f97de7fa24407c5bfd86096",
       "deliverable_ids": [
         "M1.3-VID-01",
         "M1.3-VID-01::CAPTIONS",
@@ -12910,7 +12910,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Opcionális (SLIDE 5, „Narráció (opcionális) – hang kb. 6–8 mp, utána gondolkodási idő”); ha bekerül, feliratot+leiratot is kér.",
+      "notes": "Opcionális (SLIDE 5, „Narráció (opcionális) – hang kb. 6–8 mp, utána gondolkodási idő”); ha bekerül, a dián vagy a médiaelem mellett látható leiratot is kér (VO D-19).",
       "review": "",
       "source_ref": "M3.1-NAR-04-VO",
       "composed_of": [],
@@ -15184,7 +15184,7 @@
         "note": "Magyar hang, kb. 15–20 mp; opcionális"
       },
       "a11y": {
-        "note": "Ha legyártják: leirat/transzkript (M3.4-NAR-02::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M3.4-NAR-02::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Ha a narrációt legyártják, a leirat/transzkript (M3.4-NAR-02::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M3.4-NAR-02::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -15219,7 +15219,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "a2a6ea86f26bb437e8eb5edfffccd4a53ec0ffba14a1e2fe8c131be6a5144ac4",
-      "spec_hash": "6abfa6af56fbd460365cf265258afff664ae5b9aac65fe7daeeefdabf63812b7",
+      "spec_hash": "f67f275b02eaaa5030ac6c18c31235a3e8a72fb8deb1acf29be0d2ef935b00ad",
       "deliverable_ids": [
         "M3.4-NAR-02",
         "M3.4-NAR-02::CAPTIONS",
@@ -16912,7 +16912,7 @@
         "note": "~20–25 mp, magyar."
       },
       "a11y": {
-        "note": "Leirat/transzkript (M4.1-NAR-06::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M4.1-NAR-06::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); a slide-szöveg részben/verbatim lefedheti."
+        "note": "Leirat/transzkript (M4.1-NAR-06::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M4.1-NAR-06::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); a narráció szövegét a slide-szöveg részben vagy szó szerint lefedheti."
       },
       "derivatives": [
         "captions",
@@ -16947,7 +16947,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6c268f491c8e130b9958b3f8b67a2f42d27a921730a22497d834d795f01a7585",
-      "spec_hash": "59e0da305648b646d36425cdd9706b82cffa173cd9350e4467d615c2f3c34530",
+      "spec_hash": "f41e940fd9972c21a965c39256516c1820706a3c88c1d6cd1260332f770a94e9",
       "deliverable_ids": [
         "M4.1-NAR-06",
         "M4.1-NAR-06::CAPTIONS",
@@ -16985,7 +16985,7 @@
         "note": "~30–40 mp, magyar, mp3/wav."
       },
       "a11y": {
-        "note": "Leirat/transzkript (M4.1-NAR-07::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M4.1-NAR-07::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); a slide-szöveg részben lefedi."
+        "note": "Leirat/transzkript (M4.1-NAR-07::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M4.1-NAR-07::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); a narráció szövegét a slide-szöveg részben lefedi."
       },
       "derivatives": [
         "captions",
@@ -17020,7 +17020,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
-      "spec_hash": "51a3f89d0d36217fc5e1b21a102ceafdbc4956ae40c5c32f3f64d3a91cb3794d",
+      "spec_hash": "7eda32d2177bfdaef8149442bb273dd57bfc75f1c4791c8020c74709b21decc6",
       "deliverable_ids": [
         "M4.1-NAR-07",
         "M4.1-NAR-07::CAPTIONS",
@@ -22803,7 +22803,7 @@
         "note": "Hang (TTS), kb. 50–65 mp, magyar"
       },
       "a11y": {
-        "note": "Teljes szöveges leirat kötelező a dián vagy a médiaelem mellől elérhető szövegként (M6.1-NAR-02::TRANSCRIPT; csak hangot tartalmazó narráció, WCAG 1.2.1); felirat ajánlott."
+        "note": "Leirat/transzkript (M6.1-NAR-02::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M6.1-NAR-02::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -22838,7 +22838,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "3829694775a418417df5db63b3c1a0a472bc0d195bfc4ce92bbe534d4aaf6a45",
-      "spec_hash": "da906b6676e575608a1a66bb6ab171c066b517d545342caaba93151d73c08c08",
+      "spec_hash": "437b9c0ed1aefa57f60b9af05f1b4cd65b540272abf907361d8f422d677ab371",
       "deliverable_ids": [
         "M6.1-NAR-02",
         "M6.1-NAR-02::CAPTIONS",
@@ -22873,7 +22873,7 @@
         "note": "Hang (TTS), kb. 45–60 mp, magyar"
       },
       "a11y": {
-        "note": "Teljes szöveges leirat kötelező a dián vagy a médiaelem mellől elérhető szövegként (M6.1-NAR-03::TRANSCRIPT; csak hangot tartalmazó narráció, WCAG 1.2.1); felirat ajánlott."
+        "note": "Leirat/transzkript (M6.1-NAR-03::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M6.1-NAR-03::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -22908,7 +22908,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "0115ed8e6281de0b1325d9f84e21ec3665a0722973d71f545effa387eed2ccee",
-      "spec_hash": "629001472e083726e15f9ecc5f819d2b695187aff8ffc095536b67cb3429a2be",
+      "spec_hash": "ec6a63c47b34dc0f36bc316e816a509ff0d23a132a4a978b618d91373bfb76df",
       "deliverable_ids": [
         "M6.1-NAR-03",
         "M6.1-NAR-03::CAPTIONS",
@@ -22943,7 +22943,7 @@
         "note": "Hang (TTS), kb. 35–45 mp, magyar"
       },
       "a11y": {
-        "note": "Teljes szöveges leirat kötelező a dián vagy a médiaelem mellől elérhető szövegként (M6.1-NAR-04::TRANSCRIPT; csak hangot tartalmazó narráció, WCAG 1.2.1); felirat ajánlott."
+        "note": "Leirat/transzkript (M6.1-NAR-04::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M6.1-NAR-04::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -22978,7 +22978,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
-      "spec_hash": "fafcce91eb1e9f7a4f398e84892ae6a6224aefaec8ab208a01c7b2fbdaa9da63",
+      "spec_hash": "5268d6b0c33ccab6b2f8c29d3f0a3a8f9e8fc2f8edc293121d23c03c710aa43f",
       "deliverable_ids": [
         "M6.1-NAR-04",
         "M6.1-NAR-04::CAPTIONS",
@@ -23013,7 +23013,7 @@
         "note": "Hang (TTS), kb. 40–50 mp, magyar"
       },
       "a11y": {
-        "note": "Teljes szöveges leirat kötelező a dián vagy a médiaelem mellől elérhető szövegként (M6.1-NAR-05::TRANSCRIPT; csak hangot tartalmazó narráció, WCAG 1.2.1); felirat ajánlott."
+        "note": "Leirat/transzkript (M6.1-NAR-05::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M6.1-NAR-05::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -23048,7 +23048,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "1ceb623ca4f7a90dee3b13aa75a6c91e304e5cdb45ac4904b9e0eb8bad2f8d4b",
-      "spec_hash": "2b37fbddfceb32f1f0f4bc0c289ea9c73a655b22b6b9f2b4fabf27689c259baa",
+      "spec_hash": "b5bb1f273352ef018511eeadd245dc01028ec0a157ad49b5b596f714c243823c",
       "deliverable_ids": [
         "M6.1-NAR-05",
         "M6.1-NAR-05::CAPTIONS",
@@ -23083,7 +23083,7 @@
         "note": "Hang (TTS), kb. 40–50 mp, magyar"
       },
       "a11y": {
-        "note": "Teljes szöveges leirat kötelező a dián vagy a médiaelem mellől elérhető szövegként (M6.1-NAR-06::TRANSCRIPT; csak hangot tartalmazó narráció, WCAG 1.2.1); felirat ajánlott."
+        "note": "Leirat/transzkript (M6.1-NAR-06::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M6.1-NAR-06::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -23118,7 +23118,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
-      "spec_hash": "fe82865d3c071aaa5d7eb443ebfce6d453dfd532dfeb19512d3d1815efddf7bc",
+      "spec_hash": "88a2cc5abc68ea5ffbe340929e2ef918c7f98788b09bd892a526c7514879c642",
       "deliverable_ids": [
         "M6.1-NAR-06",
         "M6.1-NAR-06::CAPTIONS",
@@ -23153,7 +23153,7 @@
         "note": "Hang (TTS), kb. 30–40 mp, magyar; opcionálisan beszélőfej-videó"
       },
       "a11y": {
-        "note": "Teljes szöveges leirat kötelező a dián vagy a médiaelem mellől elérhető szövegként (M6.1-NAR-07::TRANSCRIPT); ha az opcionális videó beépül, kapcsolható szinkron magyar felirat (WCAG 1.2.2) is kötelező (M6.1-NAR-07::CAPTIONS)."
+        "note": "Leirat/transzkript (M6.1-NAR-07::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke (projektgazdai döntés, 2026-10-03, VO D-19, D-21); ha az opcionális videó beépül, kapcsolható szinkron magyar felirat (WCAG 1.2.2) is kötelező (M6.1-NAR-07::CAPTIONS)."
       },
       "derivatives": [
         "captions",
@@ -23188,7 +23188,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
-      "spec_hash": "12110590d17f74dbae28aa0841326e16bc0752a78f311fe10bc01ef780ed08d9",
+      "spec_hash": "533ae9e58795fefbfaf7bebfd07a4b524881a35d8cc9af99272a88d9223c20b1",
       "deliverable_ids": [
         "M6.1-NAR-07",
         "M6.1-NAR-07::CAPTIONS",
@@ -27576,7 +27576,7 @@
         "note": "Hang, kb. 20–30 mp, magyar; opcionális elem."
       },
       "a11y": {
-        "note": "Ha elkészül: leirat/transzkript (M7.3-NAR-05::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M7.3-NAR-05::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Ha a narráció elkészül, a leirat/transzkript (M7.3-NAR-05::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M7.3-NAR-05::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -27611,7 +27611,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "350be51ad2e61ec4600c0387a6020e11a500973caf113f40767cd7a7260b4dd9",
-      "spec_hash": "3041dfa90c6ebeda9825e405d3e28690eefe2ad984a64d4aeb640485d0685c17",
+      "spec_hash": "04893b131b49e85ea88b8035649ec6886abe48c8e489687cdfb470d9a5e96295",
       "deliverable_ids": [
         "M7.3-NAR-05",
         "M7.3-NAR-05::CAPTIONS",
@@ -27848,7 +27848,7 @@
         "note": "20–30 mp audió, magyar nyelv, mobil-first H5P slide-ba"
       },
       "a11y": {
-        "note": "Ha legyártják: leirat/transzkript (M7.4-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M7.4-NAR-01::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Ha a narrációt legyártják, a leirat/transzkript (M7.4-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M7.4-NAR-01::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -27883,7 +27883,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "bc95c2f093cdd06c39d8ab7701c5c6dba44def2f7b3a1ac0437bb023ef1cadcc",
-      "spec_hash": "5816093f0f52a0d52fb1af232f81ebdbd9c8651bb90ee69ef9c8d8d8dea5673a",
+      "spec_hash": "742b868c4616cf4ee8610413448abd60521144abfadfceb85381fff6c58abf0f",
       "deliverable_ids": [
         "M7.4-NAR-01",
         "M7.4-NAR-01::CAPTIONS",
@@ -27921,7 +27921,7 @@
         "note": "20–30 mp audió, magyar nyelv, mobil-first H5P slide-ba"
       },
       "a11y": {
-        "note": "Ha legyártják: leirat/transzkript (M7.4-NAR-02::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M7.4-NAR-02::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
+        "note": "Ha a narrációt legyártják, a leirat/transzkript (M7.4-NAR-02::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M7.4-NAR-02::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "captions",
@@ -27956,7 +27956,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "50509520364058e39e604106d3801969ed525b0b03eaf8d31defc61d9c868f0f",
-      "spec_hash": "57752a3cceb264584fff19d9638faf817b6c0a5afb9ffe3664af85eb0de23530",
+      "spec_hash": "c3143037c21b5a2315bb0f5ff71613a224c121a92fb3f1e28a021a70c0bd7490",
       "deliverable_ids": [
         "M7.4-NAR-02",
         "M7.4-NAR-02::CAPTIONS",
@@ -29281,7 +29281,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Ezen a dián nincs kérdés (tiszta Input, lásd a dia záró sorát). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-NAR-01::CAPTIONS.",
+      "notes": "Ezen a dián nincs kérdés (tiszta Input, lásd a dia záró sorát). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak szöveges ekvivalense, a Z.1-NAR-01::TRANSCRIPT leirat (a Z.1-NAR-01::CAPTIONS archivált .vtt-derivatíva, VO D-19).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -29473,7 +29473,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia) és Z.1-NAR-01::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
+      "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia), Z.1-NAR-01::TRANSCRIPT (szöveges ekvivalens) és Z.1-NAR-01::CAPTIONS (archivált .vtt-derivatíva, VO D-19).",
       "review": "",
       "source_ref": "Z.1-NAR-01-VO",
       "composed_of": [],
@@ -29543,7 +29543,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Opcionális. Kapcsolódik: Z.1-NAR-02::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
+      "notes": "Opcionális. Kapcsolódik: Z.1-NAR-02::TRANSCRIPT (szöveges ekvivalens) és Z.1-NAR-02::CAPTIONS (archivált .vtt-derivatíva, VO D-19).",
       "review": "",
       "source_ref": "Z.1-NAR-02-VO",
       "composed_of": [],
@@ -33194,8 +33194,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-08-VO",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S az ‘amikor ma a játék közben’ résznél, a B a ‘háromszor félbeszakítottad a többieket’ résznél, az I a ‘nagyon nehéz volt megtartani a figyelmüket’ résznél. A társa elgondolkodik.”",
-      "text_hash": "0be63f0734683a740b4d1c0351df91279e5919385397aa1030cb60036e089c94",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
+      "text_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
       "blockers": [
         "R2",
         "R3"
@@ -33218,8 +33218,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-08-VO",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S az ‘amikor ma a játék közben’ résznél, a B a ‘háromszor félbeszakítottad a többieket’ résznél, az I a ‘nagyon nehéz volt megtartani a figyelmüket’ résznél. A társa elgondolkodik.”",
-      "text_hash": "0be63f0734683a740b4d1c0351df91279e5919385397aa1030cb60036e089c94",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
+      "text_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
       "blockers": [
         "R2",
         "R3"

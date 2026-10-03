@@ -1011,7 +1011,7 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. A dialógushangokat az első gyártási körre a projektgazda eldöntötte (2026-10-03, VO D-14 és K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. Az első gyártási kör dialógushangjairól a projektgazda döntött (2026-10-03, VO D-14 és K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
 
 ---
 
