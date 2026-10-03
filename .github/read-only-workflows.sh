@@ -1,19 +1,31 @@
 #!/usr/bin/env bash
 # The CI is a read-only checker. On 2026-09-29 (43fd22a) a one-shot job with
 # `contents: write` pushed straight to main, around the local hook and the push
-# confirmation. This check fails when any workflow gains a write permission, pushes,
-# merges a PR or writes through the GitHub API. Used by CI and by /release-check, so
-# the two cannot drift. Usage: bash .github/read-only-workflows.sh [workflow dir]
+# confirmation. This is an ALLOWLIST, used by CI and by /release-check:
+#   - every workflow declares a top-level `permissions:` block;
+#   - no permission value anywhere is `write` / `write-all`;
+#   - no `pull_request_target` trigger;
+#   - only first-party `actions/*` actions;
+#   - no command that pushes, merges a PR or writes through the GitHub API (line
+#     continuations are joined first).
+# Usage: bash .github/read-only-workflows.sh [workflow dir]
 set -uo pipefail
 dir="${1:-.github/workflows}"
-pattern='(contents|pull-requests|actions|packages|deployments|id-token|issues|statuses|checks|pages|security-events|repository-projects):[[:space:]]*write'
-pattern+='|write-all'
-pattern+='|git[[:space:]]+(-C[[:space:]]+[^[:space:]]+[[:space:]]+)?push'
-pattern+='|gh[[:space:]]+pr[[:space:]]+merge'
-pattern+='|gh[[:space:]]+api[^|]*(-X|--method)[[:space:]=]*(POST|PUT|PATCH|DELETE)'
-if hits=$(grep -RInE "$pattern" "$dir"); then
-  echo "Írási jog, push, merge vagy API-írás egy workflow-ban (a CI kizárólag olvasó-ellenőrző):" >&2
-  echo "$hits" >&2
-  exit 1
-fi
-echo "workflows read-only OK"
+fail=0
+note() { echo "$1" >&2; fail=1; }
+shopt -s nullglob
+files=("$dir"/*.yml "$dir"/*.yaml)
+(( ${#files[@]} )) || { echo "nincs workflow: $dir" >&2; exit 1; }
+for f in "${files[@]}"; do
+  grep -qE '^permissions:' "$f" || note "$f: nincs felső szintű permissions: blokk"
+  grep -nE '(^|[[:space:]])[a-z-]+:[[:space:]]*write([[:space:]]|$)|write-all' "$f" | sed "s|^|$f: írási jog: |" >&2 && fail=1
+  grep -nE 'pull_request_target' "$f" | sed "s|^|$f: pull_request_target: |" >&2 && fail=1
+  grep -nE '^[[:space:]-]*uses:[[:space:]]*' "$f" | grep -vE 'uses:[[:space:]]*actions/' | sed "s|^|$f: nem actions/* action: |" >&2 && fail=1
+  joined=$(awk '{ if (sub(/\\$/, "")) { buf = buf $0 } else { print buf $0; buf = "" } }' "$f")
+  printf '%s\n' "$joined" | grep -nE '(^|[^[:alnum:]_-])git([^[:alnum:]_-].*)?[^[:alnum:]_-]push([^[:alnum:]_-]|$)' | grep -vE '^[0-9]+:[[:space:]]*#' \
+    | sed "s|^|$f: git push: |" >&2 && fail=1
+  printf '%s\n' "$joined" | grep -nE 'gh[[:space:]]+pr[[:space:]]+merge|gh[[:space:]]+api.*((-X|--method)[[:space:]=]*(POST|PUT|PATCH|DELETE)|[[:space:]](-f|-F|--field|--raw-field|--input)[[:space:]])|curl.*-X[[:space:]]*(POST|PUT|PATCH|DELETE).*api\.github\.com' \
+    | sed "s|^|$f: GitHub-írás: |" >&2 && fail=1
+done
+(( fail )) && { echo "A CI kizárólag olvasó-ellenőrző lehet (CLAUDE.md, Git-biztonság)." >&2; exit 1; }
+echo "workflows read-only OK (${#files[@]} fájl)"

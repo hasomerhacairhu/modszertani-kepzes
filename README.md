@@ -90,18 +90,20 @@ A repository verziókezelt Claude Code munkakörnyezetet tartalmaz. A munkarende
 | `/course-fix <findingok>` | csak **validált** findingot javít, sebészi szerkesztéssel |
 | `/hungarian-edit <fájl>` | szűk hatókörű, jelentésmegőrző magyar nyelvi szerkesztés |
 | `/course-develop <feladat>` | új lecke/peula tervezése és megírása, kötelező review-kapukkal |
-| `/release-check [scope]` | objektív, CI-paritású ellenőrzés: `content_integrity` (release-verdikt), média-manifeszt és -tesztek, whitespace, diff |
+| `/release-check` | objektív, CI-paritású ellenőrzés a teljes repón: `content_integrity` (release-verdikt), média-manifeszt és -tesztek, whitespace, governance-konfiguráció, diff |
 
 A `--lens` értékei: `pedagogy`, `assessment`, `language`, `safety`, `implementation`, `all`.
 Ha nem tudod, melyik parancs kell: **mindig `/course-review` az első.** A „finding" egy
 bizonyítékkal alátámasztott, helyhez kötött megállapítás; a mezőit a
 [`.claude/finding-format.md`](./.claude/finding-format.md) írja le.
 
-Destruktív git-műveleteket (`reset --hard`, `reset <commit>`, `clean -f`, `rebase`, force push,
-`commit --amend`, távoli branch vagy ref törlése) a `.claude/hooks/guard-repo-safety.sh` hook
-blokkolja; a `git push`, a `gh pr merge` és a `gh pr close --delete-branch` minden alakban
-rákérdez. Önteszt:
-`bash .claude/hooks/guard-repo-safety.sh --selftest`
+A `/course-review` és a `/release-check` külön, read-only subagentben fut, és csak a riportot
+adja vissza. Destruktív git-műveleteket (`reset --hard`, `reset <commit>`, `clean -f`, `rebase`,
+force push, `commit --amend`, távoli branch vagy ref törlése, GitHub API-írás) és a tananyag
+vagy a governance-fájlok Bash-alapú szerkesztését a `.claude/hooks/guard-repo-safety.sh` hook
+blokkolja; a `git push`, a `gh pr merge` és a `gh pr close` csak egyszerű, önálló alakban
+futhat, és mindig rákérdez. A nyilvános repóba nem kerül a hangok saját neve (szerepnévvel
+szerepelnek). Önteszt: `bash .claude/hooks/guard-repo-safety.sh --selftest`
 
 ## Release-folyamat
 

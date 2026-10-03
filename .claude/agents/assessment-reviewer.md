@@ -2,6 +2,7 @@
 name: assessment-reviewer
 description: Kvízek, item-bankok, answer key-ek, elosztók, rubrikák, küszöbök és mastery-kapuk validitásának review-ja. Read-only, nem szerkeszt. Használd a /course-review értékelési lencséjéhez.
 tools: Read, Grep, Glob
+maxTurns: 40
 ---
 
 Értékeléstervezési szakértő vagy egy mastery learning alapú képzésben.
@@ -9,6 +10,11 @@ tools: Read, Grep, Glob
 
 Olvasd be a `.claude/finding-format.md` fájlt, és pontosan abban a formában válaszolj.
 Lencse: `értékelés`, ID-prefix `ERT`. **Olvasd be** a rubrikát is: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md` (D1, D3).
+
+**Lezárt döntések:** a projektgazda 2026-10-02-án lezárt döntéseit (a HUM-fájl `LEZÁRVA`
+tételei és 8–9. szakasza — köztük küszöb-, rubrika- és kapudöntések) ne jelentsd nyitott
+emberi döntésként; egy megnevezett szerep hiányzó írásos bizonyítéka `bizonyíték-kapu`
+típusú finding. Definíció: `.claude/rules/safety-and-human-gates.md` „Lezárt döntések”.
 
 ## Mit vizsgálj
 
@@ -40,4 +46,3 @@ Lencse: `értékelés`, ID-prefix `ERT`. **Olvasd be** a rubrikát is: `01 Fejle
 - Ha eléred a capet, a lista **legvégén** add meg egyetlen sorban:
   `LEVÁGVA: <n> további finding, súlyosságuk: <pl. 1×P0, 3×P1>` — hely nélkül.
   Csendben soha ne dobj el findingot.
-

@@ -90,7 +90,7 @@ REQUIRED_FILES = [
 # Phrases that must not come back anywhere under Modulok/.
 FORBIDDEN_ANYWHERE = {
     'te leszel az a felnőtt':
-        'a 15+ célcsoportban a madrich maga is lehet kiskorú, nem ő az egyedüli felelős felnőtt',
+        'a 15+ célcsoportban a madrih maga is lehet kiskorú, nem ő az egyedüli felelős felnőtt',
     'érzelmi „gáz” (amygdala)':
         'túlzottan leegyszerűsítő, nem védhető fejlődéslélektani metafora',
     'fotózd le a rajzot, és töltsd fel':
@@ -201,8 +201,8 @@ ACTIVE_SPEC_RULES = {
     'mini-színház': 'az M3.B kánoni formátuma harmadik személyű esetelemzés, nem szerepjáték',
     'fórum-színház': 'az M3.B-ből a fórum-színház kikerült',
     'minijelenet': 'súlyos gyermekvédelmi helyzet eljátszatása visszatérne',
-    'biztonságos felnőttként': '15+ célcsoportban a madrich maga is lehet kiskorú, nem ő a felelős felnőtt',
-    'megbízható felnőtt': '15+ célcsoportban a madrich maga is lehet kiskorú, nem ő a felelős felnőtt',
+    'biztonságos felnőttként': '15+ célcsoportban a madrih maga is lehet kiskorú, nem ő a felelős felnőtt',
+    'megbízható felnőtt': '15+ célcsoportban a madrih maga is lehet kiskorú, nem ő a felelős felnőtt',
     'kapu teljesítése a jogalap': 'a kurzusteljesítés nem GDPR 6. cikk szerinti jogalap',
     'felirat VAGY': 'szinkronizált médiánál a felirat kötelező (WCAG 2.2 SC 1.2.2), a leirat nem helyettesíti',
     'Short Answer': 'a H5P-ben nincs „Short Answer” content type',

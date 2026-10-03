@@ -59,6 +59,6 @@ commitban. A `.gitattributes` szándékosan tiltja a sorvég-normalizálást.
   A `tools/approved-visible-text.json`-t kézzel soha ne szerkeszd.
 - Kemény sortörés: sor végi `\`, nem két szóköz — a CI a teljes PR-tartományon futtatja a
   `git diff --check`-et.
-- Átnevezés külön commitban, tartalmi szerkesztés nélkül (lásd 450fef7); a szerkesztés a
+- Átnevezés külön commitban (`git mv`), tartalmi szerkesztés nélkül; a szerkesztés a
   következő commitba kerül. 50% hasonlóság alatt a git törlés + új fájlként látja, és a CI
   a fájl minden sorvégi szóközét jelzi.

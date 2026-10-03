@@ -3,9 +3,14 @@
   "permissions": {
     "deny": [
       "Bash(git reset --hard*)",
+      "Bash(git reset --ha*)",
       "Bash(git reset --merge*)",
+      "Bash(git reset --me*)",
+      "Bash(git reset --keep*)",
+      "Bash(git reset --k*)",
+      "Bash(git reset --soft *)",
       "Bash(git clean -f*)",
-      "Bash(git clean --force*)",
+      "Bash(git clean --f*)",
       "Bash(git checkout -- *)",
       "Bash(git checkout .)",
       "Bash(git checkout -B *)",
@@ -24,10 +29,16 @@
       "Bash(git rebase --onto*)",
       "Bash(git rebase --exec*)",
       "Bash(git rebase --root*)",
-      "Bash(git push --force*)",
+      "Bash(git push --for*)",
       "Bash(git push -f *)",
       "Bash(git push --mirror*)",
+      "Bash(git push -d *)",
+      "Bash(git push --delete*)",
+      "Bash(git push --prune*)",
+      "Bash(git pull --rebase)",
+      "Bash(git pull --rebase *)",
       "Bash(git commit --amend*)",
+      "Bash(git commit --am*)",
       "Bash(git filter-branch*)",
       "Bash(git filter-repo*)",
       "Bash(git branch -D *)",
@@ -39,56 +50,49 @@
       "Bash(git reflog expire*)",
       "Bash(git reflog delete*)",
       "Bash(git gc --prune*)",
-      "Bash(git update-ref -d*)",
+      "Bash(git update-ref*)",
       "Bash(git worktree remove -f*)",
       "Bash(git worktree remove --force*)",
-      "Bash(git reset --keep*)",
-      "Bash(git reset --soft *)",
-      "Bash(git push -d *)",
-      "Bash(git push --delete*)",
-      "Bash(git push --prune*)",
-      "Bash(git push --force-with-lease*)",
-      "Bash(git update-ref --delete*)",
-      "Bash(git pull --rebase)",
-      "Bash(git pull --rebase *)",
       "Bash(gh repo delete*)",
-      "Bash(gh release delete*)"
+      "Bash(gh repo sync*)",
+      "Bash(gh release delete*)",
+      "Edit(/.claude/settings.local.json)"
     ],
     "ask": [
       "Bash(git push*)",
       "Bash(git -C * push*)",
       "Bash(gh pr merge*)",
       "Bash(gh pr close *)",
-      "Bash(gh api *DELETE*)",
-      "Bash(python3 tools/test_media_manifest.py --pin-visible*)",
+      "Bash(* --pin-visible*)",
       "Edit(/.claude/hooks/**)",
-      "Write(/.claude/hooks/**)",
       "Edit(/.claude/settings.json)",
-      "Write(/.claude/settings.json)",
       "Edit(/.claude/skills/**)",
-      "Write(/.claude/skills/**)",
       "Edit(/.claude/agents/**)",
-      "Write(/.claude/agents/**)",
       "Edit(/.claude/rules/**)",
-      "Write(/.claude/rules/**)",
       "Edit(/.claude/finding-format.md)",
-      "Write(/.claude/finding-format.md)",
       "Edit(/CLAUDE.md)",
-      "Write(/CLAUDE.md)",
       "Edit(/.github/**)",
-      "Write(/.github/**)",
-      "Edit(/tools/approved-visible-text.json)",
-      "Write(/tools/approved-visible-text.json)"
+      "Edit(/tools/approved-visible-text.json)"
     ]
   },
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Bash",
+        "matcher": "Bash|Monitor",
         "hooks": [
           {
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/guard-repo-safety.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/stop-checks.sh"
           }
         ]
       }
