@@ -2,7 +2,7 @@
 
 > **Audit trail, nem tananyag.** A projektgazda válaszai a VO 2. fázis course fix pack (`/course-fix`) utáni
 > egyeztetésen, 2026-10-03-án, a munkamenetben feltett kérdésekre (AskUserQuestion). A kérdés és a választott opció
-> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4, K6, K7 döntések és a K5 tényközlés bizonyítéka; a kapcsolódó
+> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4, K6–K8 döntések és a K5 tényközlés bizonyítéka; a kapcsolódó
 > nyitott findingok: `2026-10-03 course-fix napló – VO 2. fázis.md`, „Célzott utóellenőrzés”.
 
 **Jóváhagyta:** projektgazda · **Dátum:** 2026-10-03
@@ -94,3 +94,21 @@
   hang, K4) és hossz-újramérés a VO QA-repóban.
 - **Átvezetés:** az M1.3 lecke `M1.3-NAR-08-VO` forrásblokkja, a gyártási jegyzet és az `M1.3-NAR-08` asset `spec`
   mezője — a következő fix packban, `/course-fix`-szel.
+
+## K8 — Ha az `M1.3-NAR-08` hallgatási próbája elbukik (UE5-PED-3)
+
+- **Kérdés (a munkamenetben, szabad szöveggel):** „mi legyen, ha a hallgatási próbán a képleírás az 5. résznél nem
+  különül el hallásra Madrih A hangjától? Válaszolhatsz egy betűvel: A) Előbb hangsúllyal, tempóval, szünettel és
+  keveréssel próbálják szétválasztani. Ha ez sem elég, a hozzáférhetőségi felelős dönt a következő lépésről. B) Ugyanez,
+  és ha nem megy, a kérdés előtti 5. részt egy „Az S ikon akkor villant fel, amikor ezt mondta: …” típusú, hallható
+  idézetkerettel írják át. C) Más megoldás, amit te mondasz meg.” A kérdés rögzítette, hogy egyik opció sem nyitja újra
+  a K4-et vagy a VO D-18-at.
+- **Válasz, szó szerint** (a 6. csomag `/course-fix` hívásával egy üzenetben): „illetve 2.A”.
+- **Döntés:** ha az `M1.3-NAR-08` hallgatási próbáján a képleírás – az 5. rész idézett szövegrészeinél is – nem
+  különül el hallásra Madrih A replikájától, előbb hangsúllyal, tempóval, szünettel és keveréssel kell szétválasztani;
+  ha ez sem elég, a hozzáférhetőségi felelős dönt a következő lépésről. A K4 (azonos hang) és a VO D-18 (a párbeszéd
+  szüneteiben, nem kiterjesztett képleírás) változatlan.
+- **Nem dönti el:** a hozzáférhetőségi felelős későbbi döntésének tartalmát; az a hallgatási próba után, külön tétel.
+- **Átvezetés:** `PRODUCTION-DECISIONS.md` „Lezárt döntések” (K8 sor), az `M1.3-NAR-08` `spec` mezője és az M1.3
+  gyártási jegyzete — a projektgazda kérésére ugyanabban a `/course-fix` futásban, a 6. csomag után. A hallgatási próba
+  eljárása a VO QA-repó oldalán is átvezetendő (QA-oldali feladat).

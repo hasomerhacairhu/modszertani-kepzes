@@ -43,6 +43,13 @@ diff jóváhagyást, aláírást vagy meglévő bejegyzést nem állít (VO D-08
 bizonyítéka érintetlen; a K6 sor 3. oszlopa mind a négy hivatkozott helyre helyesen mutat; a P5-02 rövidítése nem visz
 el információt, mert az 5. rész pótolja; a P5-03 megszünteti a kétértelműséget.
 
+**Továbbvezetés (2026-10-03, a PR #16 merge-e után):** a négy tárgyi tétel a
+`2026-10-03 Fix pack – VO 2. fázis, 6. csomag.md`-be került (P6-01…P6-06, 12 lépés; két független `verifier`
+ellenőrizte, 3 lépést az ő szövegükkel pontosítva, 2 általuk talált kihagyott hellyel bővítve). A P6-02 elsődleges
+forrásból azt is rögzíti, hogy mobilnézetben a H5P a „Poster” interakciót is gombként jeleníti meg. A P6-03 a reviewer
+javaslata helyett az 5. rész első mondatában nevezi meg az ikonokat, mert a regressziós teszt az „Az S ennél a résznél”
+frázist rögzíti. A UE5-PED-3 emberi döntés, nem került csomagba.
+
 ## Vétólista
 
 - **Answer key, helyes-válasz jelölés, elosztó, küszöb, rubrika, kapu-típus, completion:** nincs változás (a kérdés, az
