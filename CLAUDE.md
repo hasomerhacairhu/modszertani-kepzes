@@ -127,12 +127,13 @@ cp/mv, patch, inline szkript).
 - **Három réteg.** (1) **Sandbox** — az írási határ: a Bash-parancsok OS-szintű sandboxban
   futnak (`.claude/settings.json` `sandbox`), és a repóba — a `.git`-et is beleértve — semmit
   nem írhatnak, bárhogy van leírva a parancs; ideiglenes fájl a `$TMPDIR`-be kerül. Sandboxon
-  kívül csak az a hívás fut, amelynek minden része szó szerint `git …`, `gh …`,
-  `python3 tools/media_manifest.py build` vagy a `--pin-visible` parancs. A sandbox parancsból
-  nem kapcsolható ki, és ha nem indul, a Claude Code sem indul. Következmények: ebből a
-  sessionből Bash nem ír a VO QA-repóba (azt a QA-repóból indított session végzi); a
-  git-parancsot önálló hívásként futtasd (egy `git add … && python3 …` sandboxban marad, és nem
-  írhatja a `.git`-et). Ellenőrzés: `/sandbox`, és a `/release-check` sandbox-próbája.
+  kívül csak az a hívás fut, amelynek minden része szó szerint `git …` (a repó gyökeréből, `-C`
+  nélkül), `gh …`, `python3 tools/media_manifest.py build` vagy a `--pin-visible` parancs; egy
+  `cd`, egy `git -C <út>`, egy átirányítás vagy bármely más rész (pl. `; echo`, `| wc`) a
+  teljes hívást sandboxban tartja, ahol a `.git` nem írható. A sandbox parancsból nem
+  kapcsolható ki, és ha nem indul, a Claude Code sem indul. Következmény: ebből a sessionből
+  a VO QA-repóba semmi nem írható és nem commitolható — azt a QA-repóból indított session
+  vagy a felhasználó végzi. Ellenőrzés: `/sandbox`, és a `/release-check` sandbox-próbája.
   (2) **Hook** — a sandboxon kívül futó git/gh hívások őre, engedélylistával: git csak ebben a
   repóban (és a helyi, nem követett `.git/info/guard-allowed-roots` gyökereiben), csak ismert
   alparancsokkal, programot futtató vagy fájlba író opció nélkül (`-c` a listán kívül,
@@ -143,8 +144,8 @@ cp/mv, patch, inline szkript).
   elemzés → blokk. (3) **Settings** deny/ask szabályai.
 - `git push` és a GitHubra író gh-parancsok (`gh pr create/merge/close/comment/edit/review/
   reopen/ready`, `gh issue create/comment/edit/close/reopen`; minden más gh-írás blokkolt)
-  **kizárólag explicit kérésre**, és csak egyszerű, önálló alakban, egyszeres szóközökkel
-  (`git push origin <branch>`, `git -C <út> push …`, `gh pr merge <n>`; hosszabb szöveg
+  **kizárólag explicit kérésre**, és csak egyszerű, önálló alakban, egyszeres szóközökkel, a
+  repó gyökeréből (`git push origin <branch>`, `gh pr merge <n>`; hosszabb szöveg
   `--body-file <szó szerinti út>`-tal): ezekre a settings ask-szabálya minden módban rákérdez;
   minden más alakot (összetett parancs, `git -c … push`, `bash -c`, `gh pr --repo … merge`) a
   hook blokkol. A GitHubra kerülő szöveget (cím, törzs, `--body-file`) a hook a helyi
