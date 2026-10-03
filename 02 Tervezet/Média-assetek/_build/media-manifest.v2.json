@@ -5,18 +5,18 @@
     "files_with_assets": 65,
     "files_asset_free": 19,
     "files_declared_asset_free": 9,
-    "files_with_sources": 27,
-    "sources": 124,
-    "assets": 416,
-    "deliverables": 907,
-    "source_backed_assets": 128,
+    "files_with_sources": 26,
+    "sources": 123,
+    "assets": 415,
+    "deliverables": 903,
+    "source_backed_assets": 127,
     "by_mode": {
-      "generate": 402,
+      "generate": 401,
       "reuse": 8,
       "external": 6
     },
     "by_kind": {
-      "voiceover": 90,
+      "voiceover": 89,
       "worksheet": 64,
       "illustration": 47,
       "icon-set": 42,
@@ -30,43 +30,43 @@
     },
     "by_module": {
       "M0": 24,
-      "M1": 58,
+      "M1": 59,
       "M2": 48,
       "M3": 64,
       "M4": 58,
-      "M5": 31,
+      "M5": 30,
       "M6": 66,
-      "M7": 52,
+      "M7": 51,
       "Z": 15
     },
     "by_file_kind": {
-      "online-lecke": 279,
+      "online-lecke": 278,
       "peula": 126,
       "hub": 11
     },
     "by_provenance": {
-      "ai": 279,
+      "ai": 278,
       "human": 73,
       "mixed": 58,
       "stock": 6
     },
     "by_status": {
       "spec-ready": 295,
-      "pending-rights": 120,
+      "pending-rights": 119,
       "pending-human-decision": 1
     },
     "deliverables_by_role": {
-      "primary": 408,
+      "primary": 407,
       "alt-text": 131,
       "print-pdf": 121,
-      "transcript": 113,
-      "captions": 110,
+      "transcript": 112,
+      "captions": 108,
       "voiceover": 21,
       "editable": 3
     },
     "blockers": {
-      "R2": 119,
-      "R3": 117,
+      "R2": 118,
+      "R3": 116,
       "R8": 2,
       "R7": 1
     }
@@ -256,6 +256,7 @@
         "M1.3-NAR-05",
         "M1.3-NAR-06",
         "M1.3-NAR-07",
+        "M1.3-NAR-08",
         "M1.3-VID-01"
       ],
       "sources": [
@@ -266,6 +267,7 @@
         "M1.3-NAR-05-VO",
         "M1.3-NAR-06-VO",
         "M1.3-NAR-07-VO",
+        "M1.3-NAR-08-VO",
         "M1.3-VID-01-VO"
       ],
       "asset_free_reason": ""
@@ -887,12 +889,9 @@
         "M5.3-EGY-01",
         "M5.3-IKO-01",
         "M5.3-ILL-01",
-        "M5.3-ILL-02",
-        "M5.3-NAR-01"
+        "M5.3-ILL-02"
       ],
-      "sources": [
-        "M5.3-NAR-01-VO"
-      ],
+      "sources": [],
       "asset_free_reason": ""
     },
     {
@@ -1163,12 +1162,10 @@
         "M7.1-ILL-01",
         "M7.1-ILL-02",
         "M7.1-ILL-03",
-        "M7.1-NAR-01",
-        "M7.1-NAR-02"
+        "M7.1-NAR-01"
       ],
       "sources": [
-        "M7.1-NAR-01-VO",
-        "M7.1-NAR-02-VO"
+        "M7.1-NAR-01-VO"
       ],
       "asset_free_reason": ""
     },
@@ -1766,10 +1763,10 @@
       "id": "M1.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 371,
+      "line": 421,
       "body_lines": [
-        372,
-        381
+        422,
+        431
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1786,10 +1783,10 @@
       "id": "M1.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 509,
+      "line": 559,
       "body_lines": [
-        510,
-        519
+        560,
+        569
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1806,10 +1803,10 @@
       "id": "M1.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 646,
+      "line": 696,
       "body_lines": [
-        647,
-        654
+        697,
+        704
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1826,10 +1823,10 @@
       "id": "M1.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 759,
+      "line": 809,
       "body_lines": [
-        760,
-        764
+        810,
+        814
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1846,10 +1843,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 849,
+      "line": 899,
       "body_lines": [
-        850,
-        857
+        900,
+        907
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1866,10 +1863,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1005,
+      "line": 1055,
       "body_lines": [
-        1006,
-        1010
+        1056,
+        1060
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1886,10 +1883,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1029,
+      "line": 1079,
       "body_lines": [
-        1030,
-        1035
+        1080,
+        1085
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1903,13 +1900,33 @@
       ]
     },
     {
+      "id": "M1.3-NAR-08-VO",
+      "kind": "narration",
+      "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
+      "line": 270,
+      "body_lines": [
+        271,
+        279
+      ],
+      "unit": "M1.3",
+      "module": "M1",
+      "file_kind": "online-lecke",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S a szituációnál, a B a viselkedésnél, az I a hatásnál. A társa elgondolkodik.”",
+      "hash": "35ef1c4453baa92d3700f424c114e2024ba56236c329ed077452519fc023977f",
+      "note": "",
+      "for": "",
+      "used_by": [
+        "M1.3-NAR-08:source_ref"
+      ]
+    },
+    {
       "id": "M1.3-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 218,
+      "line": 252,
       "body_lines": [
-        219,
-        227
+        253,
+        261
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -3069,26 +3086,6 @@
       ]
     },
     {
-      "id": "M5.3-NAR-01-VO",
-      "kind": "narration",
-      "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "line": 221,
-      "body_lines": [
-        222,
-        246
-      ],
-      "unit": "M5.3",
-      "module": "M5",
-      "file_kind": "online-lecke",
-      "text": "**1. Gyakorlás**\n\nAmikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:\n– játszol,\n– mondod,\n– írod,\n– mutatod.\n\nPéldául: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.\n\n**2. Aktív felidézés**\n\nAmikor **fejből próbálod felidézni**,\nnem puskázol a lapról vagy a képernyőről.\n\nPéldául: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.\n\n**3. Időben elosztott gyakorlás**\n\nAmikor **nem egy nagy blokkban**, hanem\n**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.\n\nPéldául: nem egy este alatt próbálod megjegyezni a dalokat,\nhanem három külön napon, rövidebb időkre osztva.",
-      "hash": "364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497",
-      "note": "",
-      "for": "",
-      "used_by": [
-        "M5.3-NAR-01:source_ref"
-      ]
-    },
-    {
       "id": "M6.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
@@ -3566,26 +3563,6 @@
       "for": "",
       "used_by": [
         "M7.1-NAR-01:source_ref"
-      ]
-    },
-    {
-      "id": "M7.1-NAR-02-VO",
-      "kind": "narration",
-      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
-      "line": 571,
-      "body_lines": [
-        572,
-        585
-      ],
-      "unit": "M7.1",
-      "module": "M7",
-      "file_kind": "online-lecke",
-      "text": "Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).\n\n✏️ Írd le:\n\n1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).\n2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).\n\nA kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.\n\n💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:\n– „A peula végére …”\n– „Legalább X hanih …”\n– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",
-      "hash": "bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd",
-      "note": "",
-      "for": "",
-      "used_by": [
-        "M7.1-NAR-02:source_ref"
       ]
     },
     {
@@ -6118,11 +6095,11 @@
       "status": "pending-rights",
       "title": "Záró narráció – outro + átvezetés M1.2-re",
       "purpose": "Lezárás, normalizálás és átvezetés M1.2-re.",
-      "spec": "10–15 mp záró narráció: köszönet; „van egy térképed arról, mit látsz magadból és mit látnak mások belőled”; átvezetés a következő leckére (hogyan adj nem bántóan, konkrétan és tisztelettel visszajelzést – megfigyelés vs. címkézés). Verbatim: M1.1-NAR-06-VO (`@source`).",
+      "spec": "Kb. 17–20 mp záró narráció: köszönet; „van egy térképed arról, mit látsz magadból és mit látnak mások belőled”; átvezetés a következő leckére (hogyan adj nem bántóan, konkrétan és tisztelettel visszajelzést – megfigyelés vs. címkézés). Verbatim: M1.1-NAR-06-VO (`@source`).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hang, 10–15 mp, magyar"
+        "note": "Hang, kb. 17–20 mp, magyar"
       },
       "a11y": {
         "note": "Felirat + leirat kötelező (M1.1-NAR-06::CAPTIONS, M1.1-NAR-06::TRANSCRIPT)"
@@ -6160,7 +6137,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "dbc35fa1b1163a2453f93a6f41a0e47f06c2c39c40b7426e2fc9d4b26827d8da",
-      "spec_hash": "7047cce33c0da098f42130323f8e78aef7039a045580115e31e7cfe54026b037",
+      "spec_hash": "d6412a00d715e31d5f5bc30fa81d5e924ad640efc849049414d9e0bf802f990a",
       "deliverable_ids": [
         "M1.1-NAR-06",
         "M1.1-NAR-06::CAPTIONS",
@@ -6191,11 +6168,11 @@
       "status": "pending-rights",
       "title": "HOOK AI beszélő fej – „Mondtak már rólad mást?”",
       "purpose": "Bevonás, érzelmi azonosulás a lecke nyitásaként; a tanuló ráhangolása a vakfolt-témára.",
-      "spec": "16:9 AI-generált beszélő fej videó, kb. 30–40 mp. Fiatal felnőtt, barátságos, tegező, nemi szempontból semleges megjelenésű, videóról videóra váltogatható arc (lásd a 4. szakasz prompt-szempontjait). Semleges háttér, finom someres/mozgalmi színekkel (ne legyen zsúfolt, lásd SLIDE 1, „Mit látunk?”). A beszélő a hook-narrációt mondja el (lásd M1.1-VID-01::VOICEOVER). Felirattal; a felirat a narráció szövegét szó szerint közli (lásd a lecke meta „AI multimédia” blokkját és a SLIDE 1 feliratszabályát).",
+      "spec": "16:9 AI-generált beszélő fej videó, kb. 30–40 mp. Fiatal felnőtt, barátságos, tegező, nemi szempontból semleges megjelenésű arc — minden beszélőfej-videóban ugyanaz a készlet-avatar, a kanonikus narrátorhanggal (lásd a 4. szakasz prompt-szempontjait). Semleges háttér, finom someres/mozgalmi színekkel (ne legyen zsúfolt, lásd SLIDE 1, „Mit látunk?”). A beszélő a hook-narrációt mondja el (lásd M1.1-VID-01::VOICEOVER). Felirattal; a felirat a narráció szövegét szó szerint közli (lásd a lecke meta „AI multimédia” blokkját és a SLIDE 1 feliratszabályát).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "16:9, max 40–60 mp blokk, MP4; magyar nyelv; mobilon teljes szélességű lejátszás (lásd SLIDE 1, Mobil-tippek)"
+        "note": "16:9, kb. 30–40 mp, MP4; magyar nyelv; mobilon teljes szélességű lejátszás (lásd SLIDE 1, Mobil-tippek)"
       },
       "a11y": {
         "audio": "spoken",
@@ -6237,7 +6214,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "1ddd9f5e4b85a6278a69caeda73770e92cf793470562a48754a58288543bc68a",
-      "spec_hash": "df62c8a4bd3466ae4f9e7ee33f54bb3d37ea9dd648ea6d0f67c40119550894ea",
+      "spec_hash": "96a103b2b109ad6759ba66477533d48c8168dabb37387ad5cdd38810cdac5589",
       "deliverable_ids": [
         "M1.1-VID-01",
         "M1.1-VID-01::VOICEOVER",
@@ -6997,11 +6974,11 @@
       "status": "pending-rights",
       "title": "OUTRO záró narráció – híd az SBI-hez",
       "purpose": "A tanulság rögzítése és átvezetés (híd) az M1.3 SBI leckéhez a lecke zárásakor.",
-      "spec": "Záró narráció a lecke végén: köszönet a végigjátszásért, a megfigyelés–címke különbség megerősítése, átvezetés: előbb az M1.A peula, utána a következő lecke (S–B–I modell). Teljes szöveg: M1.2-NAR-06-VO (`@source`). Hossz 10–15 mp.",
+      "spec": "Záró narráció a lecke végén: köszönet a végigjátszásért, a megfigyelés–címke különbség megerősítése, átvezetés: előbb az M1.A peula, utána a következő lecke (S–B–I modell). Teljes szöveg: M1.2-NAR-06-VO (`@source`). Hossz kb. 17–20 mp.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hangsáv, kb. 10–15 mp, magyar, barátságos hangvétel"
+        "note": "Hangsáv, kb. 17–20 mp, magyar, barátságos hangvétel"
       },
       "a11y": {
         "note": "Felirat + leirat szükséges (M1.2-NAR-06::CAPTIONS, M1.2-NAR-06::TRANSCRIPT)"
@@ -7039,7 +7016,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b0a43c77a8fd0ba55cacb6f540692cd918b81a1cc92b69e4347f309fc2f93130",
-      "spec_hash": "1dd43106127eddca33e7300a5131dd2f829087b852a71b3690abadd7c6f4ff68",
+      "spec_hash": "665dc56182f13666866dfe40afd28fc0c72999799ca436aaa9e6781ba323fee3",
       "deliverable_ids": [
         "M1.2-NAR-06",
         "M1.2-NAR-06::CAPTIONS",
@@ -7074,7 +7051,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "16:9, kb. 30–40 mp, magyar nyelvű beszéd, beépített felirat"
+        "note": "16:9, kb. 30–40 mp, magyar nyelvű beszéd, kapcsolható, nem égetett WebVTT-felirat a lecke `@source` szövegéből"
       },
       "a11y": {
         "audio": "spoken",
@@ -7116,7 +7093,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b7854e81e99650e0284037d5050b972ec2a169cf4837efc327f0c2ea1524aaca",
-      "spec_hash": "e57e2babbc18c987b392bee211970d7047365c5a21fe726de838b888841e5a21",
+      "spec_hash": "1ca3875f863eff7c6e25c7b7695d8850d0c54a8aacba16c4ab672edd8572620e",
       "deliverable_ids": [
         "M1.2-VID-01",
         "M1.2-VID-01::VOICEOVER",
@@ -7144,7 +7121,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 271,
+      "line": 321,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7204,7 +7181,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 409,
+      "line": 459,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7264,7 +7241,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 546,
+      "line": 596,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7439,7 +7416,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 306,
+      "line": 356,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7479,8 +7456,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        372,
-        381
+        422,
+        431
       ],
       "source_text": "„Az **S**, mint *Situation*, azt jelenti, hogy elmondod:\n**mikor** és **milyen helyzetben** történt a dolog.\n\nPéldául: *‘Amikor ma a játék közben…’*,\nvagy *‘a beszélgetőkör elején…’*,\nvagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.\n\nEz segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",
       "source_hash": "56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485",
@@ -7509,7 +7486,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 444,
+      "line": 494,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7549,8 +7526,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        510,
-        519
+        560,
+        569
       ],
       "source_text": "„A **B**, mint *Behavior*, azaz *viselkedés*, arról szól,\nhogy **mit láttál vagy hallottál konkrétan**.\n\nPéldául: *‘háromszor félbeszakította a többieket’*,\nvagy *‘kivonult a teremből’*.\n\nEz a rész az előző leckéhez is kapcsolódik:\nitt **megfigyelést mondasz, nem címkét**.”",
       "source_hash": "9662d095add3cf802f625b06720b06fffda66f76c2dbc3191ebef5858924174e",
@@ -7579,7 +7556,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 581,
+      "line": 631,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7619,8 +7596,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        647,
-        654
+        697,
+        704
       ],
       "source_text": "„Az **I**, mint *Impact*, azt jelenti, hogy elmondod,\n**mi lett a hatása** annak, ami történt – rád vagy a csapatra.\n\nPéldául: *‘nagyon nehéz volt megtartani a figyelmüket’*,\nvagy *‘a kicsik utána már nem szólaltak meg’*,\nvagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",
       "source_hash": "58f57ac59c18b799df3d01a3a734694b0ff505bca6e8b89ba1781afcd1302373",
@@ -7649,7 +7626,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 690,
+      "line": 740,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7689,8 +7666,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        760,
-        764
+        810,
+        814
       ],
       "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
       "source_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
@@ -7719,7 +7696,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 780,
+      "line": 830,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7759,8 +7736,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        850,
-        857
+        900,
+        907
       ],
       "source_text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
@@ -7789,7 +7766,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 883,
+      "line": 933,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7829,8 +7806,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1006,
-        1010
+        1056,
+        1060
       ],
       "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
       "source_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
@@ -7859,7 +7836,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 926,
+      "line": 976,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7899,8 +7876,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1030,
-        1035
+        1080,
+        1085
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
@@ -7921,6 +7898,67 @@
       }
     },
     {
+      "id": "M1.3-NAR-08",
+      "unit": "M1.3",
+      "module": "M1",
+      "file_kind": "online-lecke",
+      "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
+      "line": 176,
+      "kind": "voiceover",
+      "subtype": "narration",
+      "mode": "generate",
+      "status": "pending-rights",
+      "title": "Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01)",
+      "purpose": "A vak és gyengénlátó tanuló is megtudja, amit a HOOK-jelenet képe mutat: a két verzió címkéjét, ki hogyan reagál, és hogy a 2. verzióban melyik szövegrésznél villan fel az S, a B és az I ikon (WCAG 2.2 SC 1.2.5).",
+      "spec": "A kanonikus narrátorhangon felmondott képleírás, az M1.3-VID-01 hangsávjába keverve, négy rövid részben, a párbeszéd szüneteiben: 1. a videó elején, az első replika előtt; 2. az 1. verzió két replikája között; 3. a két verzió között; 4. a 2. verzió két replikája között. A replikákra nem beszél rá; nem kiterjesztett (megállított) képleírás. Szó szerinti szöveg: M1.3-NAR-08-VO (`@source`), a lecke képi leírásából (SLIDE 1, „Mit látunk?”) összeállítva; a végleges szövegezést és időzítést a legyártott videón kell ellenőrizni.",
+      "provenance": "ai",
+      "provenance_note": "AI-generált (szintetikus narráció)",
+      "technical": {
+        "note": "Hang, összesen kb. 25–35 mp (becslés), magyar; nem önálló lejátszóelem, hanem az M1.3-VID-01 hangsávjának része."
+      },
+      "a11y": {
+        "note": "Szöveges ekvivalens: M1.3-NAR-08::TRANSCRIPT, az M1.3-VID-01 leirata mellett elérhetően. A képleírás a párbeszéd feliratsávjába nem kerül beszélőként; ha a feliratban megjelenik, külön jelölve."
+      },
+      "derivatives": [
+        "transcript"
+      ],
+      "reuse_of": "",
+      "reuse_resolves_to": "",
+      "external": {},
+      "blockers": [
+        "R2",
+        "R3"
+      ],
+      "production_rules": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "readiness_issues": [],
+      "decision": "",
+      "notes": "Projektgazdai döntés, 2026-10-03 (VO D-18, a) opció): a képleírás külön forrásblokk, átszámozás nélküli új azonosítóval, az első gyártási körben a kanonikus narrátorhanggal. A manifesztben nincs mező, amely egy hangot a videóhoz kötne; a kapcsolatot ez a jegyzet és az M1.3-VID-01 jegyzete rögzíti.",
+      "review": "",
+      "source_ref": "M1.3-NAR-08-VO",
+      "composed_of": [],
+      "composed_source_ids": [],
+      "source_line": [
+        271,
+        279
+      ],
+      "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S a szituációnál, a B a viselkedésnél, az I a hatásnál. A társa elgondolkodik.”",
+      "source_hash": "35ef1c4453baa92d3700f424c114e2024ba56236c329ed077452519fc023977f",
+      "alt_source_ref": "",
+      "alt_text": "",
+      "alt_hash": "",
+      "copy_hash": "35ef1c4453baa92d3700f424c114e2024ba56236c329ed077452519fc023977f",
+      "spec_hash": "3e84f2399cb91c60c80b8f21bbe30c42d17f282707ab97a1a013e07e37811e22",
+      "deliverable_ids": [
+        "M1.3-NAR-08",
+        "M1.3-NAR-08::TRANSCRIPT"
+      ],
+      "legacy": {}
+    },
+    {
       "id": "M1.3-VID-01",
       "unit": "M1.3",
       "module": "M1",
@@ -7933,7 +7971,7 @@
       "status": "pending-human-decision",
       "title": "HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel",
       "purpose": "Hook: a tanuló érezze a különbséget a címkéző és az SBI-szerű visszajelzés között, érzelmi és kognitív kontrasztban; a beépített kérdés azonnal aktiválja a megkülönböztetést.",
-      "spec": "16:9 AI-generált jelenet: peula után két madrih (A és B) beszélget folyosón/teremben. Két verzió egymás után ugyanarra a helyzetre. 1) Bénább/címkéző verzió (Madrih A felhúzva: 'mindig szétvered a peulát, komolyan mondom…', Madrih B védekező: 'Mi van?! Csak próbáltam feldobni…'). 2) SBI-s verzió (Madrih A nyugodt: 'amikor ma a játék közben…' / 'háromszor félbeszakítottad…' / 'nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat…' — mondat közben felvillannak az S/B/I ikonok a megfelelő szövegrésznél; Madrih B elgondolkodva: 'erre nem is gondoltam, oké figyelek rá'). Beépített H5P Multiple Choice kérdés „Single Choice (Radio Buttons)” módban a 2. verzió után (videó megáll), 4 opcióval és opció-specifikus feedbackkel (a Single Choice Setben nincs opciónkénti visszajelzés). Kb. 60–70 mp.",
+      "spec": "16:9 AI-generált jelenet: peula után két madrih (A és B) beszélget folyosón/teremben. Két verzió egymás után ugyanarra a helyzetre. 1) Bénább/címkéző verzió (Madrih A felhúzva: 'mindig szétvered a peulát, komolyan mondom…', Madrih B védekező: 'Mi van?! Csak próbáltam feldobni…'). 2) SBI-s verzió (Madrih A nyugodt: 'amikor ma a játék közben…' / 'háromszor félbeszakítottad…' / 'nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat…' — mondat közben felvillannak az S/B/I ikonok a megfelelő szövegrésznél; Madrih B elgondolkodva: 'erre nem is gondoltam, oké figyelek rá'). Beépített H5P Multiple Choice kérdés „Single Choice (Radio Buttons)” módban a 2. verzió után (videó megáll), 4 opcióval és opció-specifikus feedbackkel (a Single Choice Setben nincs opciónkénti visszajelzés). A párbeszéd kb. 20–24 mp; a teljes videó kb. 60–70 mp, a többletidő a képi történésé és a hangalámondásos képleírásé (M1.3-NAR-08).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -7942,8 +7980,8 @@
       "a11y": {
         "audio": "spoken",
         "visual": "informative",
-        "alt_note": "jelenetvideó: a képi sáv jelentést hordoz – a szereplők arckifejezése és reakciója (az 1. verzióban felhúzott és védekező, a 2. verzióban nyugodt és elgondolkodó), valamint a szövegrészekhez felvillanó S/B/I ikonok –, és ez a hangban nem hangzik el, ezért szöveges alternatíva / hangalámondásos képleírás kell (WCAG 2.2 SC 1.2.5); a végleges szöveget a legyártott videó alapján kell megírni",
-        "note": "Kötelező felirat (M1.3-VID-01::CAPTIONS) és leirat/transzkript (M1.3-VID-01::TRANSCRIPT); a képi történést (ki hogyan reagál, melyik szövegrésznél villan fel az S, a B és az I ikon) a szöveges alternatíva (M1.3-VID-01::ALTTEXT) írja le, a leirat mellett elérhetően – a dialógból generált leirat ezt nem tartalmazza; az ikon-overlay-eknek vizuálisan és feliratban/leiratban is megjeleníthető jelölés."
+        "alt_note": "jelenetvideó: a képi sáv jelentést hordoz – a szereplők arckifejezése és reakciója (az 1. verzióban felhúzott és védekező, a 2. verzióban nyugodt és elgondolkodó), valamint a szövegrészekhez felvillanó S/B/I ikonok –, és ez a párbeszédben nem hangzik el, ezért hangalámondásos képleírás (WCAG 2.2 SC 1.2.5; szkriptje: M1.3-NAR-08-VO) és mellette szöveges alternatíva (SC 1.2.3) kell; a szöveges alternatíva végleges szövegét a legyártott videó alapján kell megírni",
+        "note": "Kötelező felirat (M1.3-VID-01::CAPTIONS) és leirat/transzkript (M1.3-VID-01::TRANSCRIPT); a képi történést (ki hogyan reagál, melyik szövegrésznél villan fel az S, a B és az I ikon) a párbeszéd szüneteiben a hangalámondásos képleírás (M1.3-NAR-08) mondja el, és a szöveges alternatíva (M1.3-VID-01::ALTTEXT) is leírja, a leirat mellett elérhetően – a dialógból generált leirat ezt nem tartalmazza; az ikon-overlay-eknek vizuálisan és feliratban/leiratban is megjeleníthető jelölés."
       },
       "derivatives": [
         "captions",
@@ -7966,15 +8004,15 @@
       "readiness_issues": [
         "OPEN_DECISION"
       ],
-      "decision": "Nyitott (PRODUCTION-DECISIONS.md D11): a két madrih dialógushangja, a hangok jogosultsága (R2, V2) és a kétszereplős, szájszinkronos gyártási út. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra.",
-      "notes": "Tartalmazza a dialóg-hangsávot (a videó része). Felvillanó S/B/I ikonok az M1.3-IKO-01-ből. A beépített kérdés szöveg- és visszajelzés-tartalma a SLIDE 1 „Interakció az Interactive Video-ban” blokkjában áll (tiszta szöveges H5P-interakció, nem külön média-asset). Az R5 felvéve: az R5 szövege az AI karakter-jeleneteket nevesítve rögzített referencia-karakterhez és seedhez köti, ezért ez a videó nem gyártható a karakter- és stílus-lock előtt. Az R2 felvéve: AI-generált emberi karakter szintetikus hanggal — a generátor neve, a kereskedelmi licenc és a hang-jogosultság igazolása ugyanúgy kell, mint a beszélőfej-videóknál. Ha a jóváhagyó az R2 hatályát a beszélőfejekre szűkíti, ez a sor visszavonható (PRODUCTION-DECISIONS.md D3). A spec két mondattöredéke elcsúszott a lecke látható szövegétől („szétszúrod” / „összetartani a figyelmüket”); a jelenlegi leckeszövegre igazítva, a tananyag mondatai változatlanok. A HOOK-dialóg szövegét a szerző 2026-08-27-én jóváhagyta; a szó szerinti szöveg azóta `@source` blokkban él a leckében (M1.3-VID-01-VO), és a felirat/leirat onnan generálódik. A korábbi „Nagyjából a fenti mondatok” megfogalmazás helyére a jóváhagyott dialóg került, a felirat-hosszra vonatkozó kikötés megmaradt. Hozzáférhetőségi besorolás – projektgazdai döntés (2026-10-02): a videókat egyenként kell besorolni; utólagos ellenőrzés (vétó/QA): hozzáférhetőségi felelős. Ez jelenetvideó, amelyben az arckifejezés, a reakció és az ikonok felvillanása jelentést hordoz, ezért a korábbi dekoratív jelölés helyett tartalmi (informative), szöveges alternatívával. A képi leírás a szöveges alternatívában (M1.3-VID-01::ALTTEXT) él; a dialóg-`@source`-ból (M1.3-VID-01-VO) generált felirat és leirat változatlanul csak a párbeszédet tartalmazza.",
+      "decision": "Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. A dialógushangot az első gyártási körre a projektgazda eldöntötte (2026-10-03, VO D-14: a kanonikus narrátorhang mindkét szerepre, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra.",
+      "notes": "Tartalmazza a dialóg-hangsávot (a videó része). Felvillanó S/B/I ikonok az M1.3-IKO-01-ből. A beépített kérdés szöveg- és visszajelzés-tartalma a SLIDE 1 „Interakció az Interactive Video-ban” blokkjában áll (tiszta szöveges H5P-interakció, nem külön média-asset). Az R5 felvéve: az R5 szövege az AI karakter-jeleneteket nevesítve rögzített referencia-karakterhez és seedhez köti, ezért ez a videó nem gyártható a karakter- és stílus-lock előtt. Az R2 felvéve: AI-generált emberi karakter szintetikus hanggal — a generátor neve, a kereskedelmi licenc és a hang-jogosultság igazolása ugyanúgy kell, mint a beszélőfej-videóknál. Ha a jóváhagyó az R2 hatályát a beszélőfejekre szűkíti, ez a sor visszavonható (PRODUCTION-DECISIONS.md D3). A spec két mondattöredéke elcsúszott a lecke látható szövegétől („szétszúrod” / „összetartani a figyelmüket”); a jelenlegi leckeszövegre igazítva, a tananyag mondatai változatlanok. A HOOK-dialóg szövegét a szerző 2026-08-27-én jóváhagyta; a szó szerinti szöveg azóta `@source` blokkban él a leckében (M1.3-VID-01-VO), és a felirat/leirat onnan generálódik. A korábbi „Nagyjából a fenti mondatok” megfogalmazás helyére a jóváhagyott dialóg került, a felirat-hosszra vonatkozó kikötés megmaradt. Hozzáférhetőségi besorolás – projektgazdai döntés (2026-10-02): a videókat egyenként kell besorolni; utólagos ellenőrzés (vétó/QA): hozzáférhetőségi felelős. Ez jelenetvideó, amelyben az arckifejezés, a reakció és az ikonok felvillanása jelentést hordoz, ezért a korábbi dekoratív jelölés helyett tartalmi (informative), szöveges alternatívával. A képi leírás a szöveges alternatívában (M1.3-VID-01::ALTTEXT) él; a dialóg-`@source`-ból (M1.3-VID-01-VO) generált felirat és leirat változatlanul csak a párbeszédet tartalmazza. A hangalámondásos képleírás külön forrásblokk (M1.3-NAR-08-VO), a narrátor hangján, a párbeszéd szüneteiben (projektgazdai döntés, 2026-10-03, VO D-18).",
       "review": "",
       "source_ref": "M1.3-VID-01-VO",
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        219,
-        227
+        253,
+        261
       ],
       "source_text": "**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
       "source_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
@@ -7982,7 +8020,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
-      "spec_hash": "b037edfe7e387545a2c94c0ba3ee3be529b33ec3d165de2a27dd4501697b16ee",
+      "spec_hash": "93ea3e7641028eaca1dc7de40a8a5e611f746d8e47f5c782af138c6e13f42ddd",
       "deliverable_ids": [
         "M1.3-VID-01",
         "M1.3-VID-01::CAPTIONS",
@@ -8192,11 +8230,11 @@
       "status": "pending-rights",
       "title": "Slide 1 Hook-narráció – 3 helyzet bemutatása",
       "purpose": "Bevezeti és érzelmileg ráhangolja a tanulót a szituáció-választásra, ami a kapus beadandóhoz vezet.",
-      "spec": "Opcionális, 20–30 mp-es bevezető narráció: bemutatja, hogy három tipikus madrih-helyzetet lát a tanuló, és felkéri, válassza ki azt, amelyikről leginkább el tudna képzelni egy beszélgetést.",
+      "spec": "Opcionális bevezető narráció (hang kb. 8–10 mp, utána gondolkodási idő; a szakasz összesen 20–30 mp): bemutatja, hogy három tipikus madrih-helyzetet lát a tanuló, és felkéri, válassza ki azt, amelyikről leginkább el tudna képzelni egy beszélgetést.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "20–30 mp, magyar nyelvű hangfájl (TTS vagy emberi narráció), mp3/wav."
+        "note": "Hang kb. 8–10 mp (a szakasz a gondolkodási idővel együtt 20–30 mp), magyar nyelvű hangfájl, szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), mp3/wav."
       },
       "a11y": {
         "note": "Hanghoz felirat ÉS leirat/transzkript kötelező (lásd M1.4-NAR-01::CAPTIONS, M1.4-NAR-01::TRANSCRIPT)."
@@ -8234,7 +8272,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "20106618f16757485a21b2b532246897f9d2b4f4468e4bd693ae2d279f698693",
-      "spec_hash": "a67362e523e6598819ec2867edeba935060ee98a8d757bd766b32e575a974413",
+      "spec_hash": "f7f1b6e59bcc7d07846f5eac961eea9cb99f4392ba28f6dcbb711207596af476",
       "deliverable_ids": [
         "M1.4-NAR-01",
         "M1.4-NAR-01::CAPTIONS",
@@ -8269,7 +8307,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "20–30 mp, magyar nyelvű hangfájl (TTS vagy emberi narráció), mp3/wav."
+        "note": "20–30 mp, magyar nyelvű hangfájl, szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), mp3/wav."
       },
       "a11y": {
         "note": "Hanghoz felirat ÉS leirat/transzkript kötelező (lásd M1.4-NAR-02::CAPTIONS, M1.4-NAR-02::TRANSCRIPT)."
@@ -8307,7 +8345,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "089cf4e531b3c6cc7d68b6c09ac4487bcdce42f805dc24b0ac95ed7e032af6f9",
-      "spec_hash": "55fb220848b626ece09a7325d97b54af0dfb3a0b1ec25f296751883fb3efa425",
+      "spec_hash": "2d953f8106fee4b4d37f87dfc97a7e53cd4fe6becbd17d7823968058c9bc560e",
       "deliverable_ids": [
         "M1.4-NAR-02",
         "M1.4-NAR-02::CAPTIONS",
@@ -8342,7 +8380,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "10–15 mp, magyar nyelvű hangfájl (TTS vagy emberi narráció), mp3/wav."
+        "note": "10–15 mp, magyar nyelvű hangfájl, szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), mp3/wav."
       },
       "a11y": {
         "note": "Hanghoz felirat ÉS leirat/transzkript kötelező (lásd M1.4-NAR-03::CAPTIONS, M1.4-NAR-03::TRANSCRIPT)."
@@ -8380,7 +8418,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
-      "spec_hash": "2d7af85568177ce58b42187f4175ecc8a33494f13f6b1aeb5ba6a9a6f9f69d1b",
+      "spec_hash": "9fe06a75a1ed867690980617553008f7cd776f9d8003b195ad7e304a2215e0ef",
       "deliverable_ids": [
         "M1.4-NAR-03",
         "M1.4-NAR-03::CAPTIONS",
@@ -10703,11 +10741,11 @@
       "status": "pending-rights",
       "title": "Outro AI beszélő-fej videó (opcionális, INFERÁLT forma) – záró keret + híd az M2.B-re",
       "purpose": "Záró keret, motiváció a gyakorlatba ültetésre (hágsámá), átvezetés a következő lépéshez (M2.B peula).",
-      "spec": "FIGYELEM – a forrás (ZÁRÓ OLDAL, „Rövid narráció” blokk) az OUTRO-nál CSAK \"Rövid narrációt (20–30 mp, opcionális)\" ír elő, beszélő-fej videót NEM nevez meg (szemben a HOOK-kal, ahol a SLIDE 1 „Mit látunk?” blokkja explicit \"AI beszélő fej videó\"). A garantált, forrásolt deliverable az opcionális hang-narráció (lásd M2.3-VID-02::VOICEOVER). Ez az asset a HOOK-kal párhuzamos, OPCIONÁLIS beszélő-fej videó-forma INFERÁLT javaslata: ha videóként valósul meg, ~20–30 mp AI-generált beszélő-fej, amely lezárja a leckét, biztat a megfogalmazott mondat \"apró döntésekben\" megélésére (hágsámá), a többi ág kipróbálására, visszautal a már elvégzett M2.4 határleckére, és hidat ver az M2.B peulához, majd az identitás-jegyzethez. Ha NEM készül videó, az M2.3-VID-02::VOICEOVER narráció (+felirat/leirat) önállóan teljesíti az OUTRO-t.",
+      "spec": "FIGYELEM – a forrás (ZÁRÓ OLDAL, „Rövid narráció” blokk) az OUTRO-nál CSAK \"Rövid narrációt (kb. 30–40 mp, opcionális)\" ír elő, beszélő-fej videót NEM nevez meg (szemben a HOOK-kal, ahol a SLIDE 1 „Mit látunk?” blokkja explicit \"AI beszélő fej videó\"). A garantált, forrásolt deliverable az opcionális hang-narráció (lásd M2.3-VID-02::VOICEOVER). Ez az asset a HOOK-kal párhuzamos, OPCIONÁLIS beszélő-fej videó-forma INFERÁLT javaslata: ha videóként valósul meg, ~30–40 mp AI-generált beszélő-fej, amely lezárja a leckét, biztat a megfogalmazott mondat \"apró döntésekben\" megélésére (hágsámá), a többi ág kipróbálására, visszautal a már elvégzett M2.4 határleckére, és hidat ver az M2.B peulához, majd az identitás-jegyzethez. Ha NEM készül videó, az M2.3-VID-02::VOICEOVER narráció (+felirat/leirat) önállóan teljesíti az OUTRO-t.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "OPCIONÁLIS; ha videó: 16:9 beszélő-fej, ~20–30 mp, magyar hang, mobil-first. A forrás csak az opcionális narrációt mandátumozza – a videó-forma fejlesztői döntés (HOOK-analógia)."
+        "note": "OPCIONÁLIS; ha videó: 16:9 beszélő-fej, ~30–40 mp, magyar hang, mobil-first. A forrás csak az opcionális narrációt mandátumozza – a videó-forma fejlesztői döntés (HOOK-analógia)."
       },
       "a11y": {
         "audio": "spoken",
@@ -10749,7 +10787,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "dbbe251d0c388040dadea8ee9a84f6749792c515ac2ebf42d46ed4da3b9383b3",
-      "spec_hash": "4b6c69c322fb6a9d8cf84de17d4e23d41607efd29b3063d756a864987652fb30",
+      "spec_hash": "91a0fc722043bddad03615cefa9f02dbf7b670fcb228927a5d3c53fd3f5cc487",
       "deliverable_ids": [
         "M2.3-VID-02",
         "M2.3-VID-02::VOICEOVER",
@@ -11168,7 +11206,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Magyar TTS/felvétel, kb. 20–30 mp"
+        "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 20–30 mp"
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat kell (M2.4-NAR-02::CAPTIONS, M2.4-NAR-02::TRANSCRIPT)."
@@ -11206,7 +11244,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "8d56e8a178fe4b26eecbd036c96a9e09d2c989ce20a7e4a3533bbbbb5da7da7e",
-      "spec_hash": "17c4136c49f61d13a3b5ae8ca07ec3a01e996d517f16302b032f6d40015e2128",
+      "spec_hash": "cc5906ed04de9e765db7f2439c7aadc188a184c150c665d073cd08f3768a450c",
       "deliverable_ids": [
         "M2.4-NAR-02",
         "M2.4-NAR-02::CAPTIONS",
@@ -11241,7 +11279,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Magyar TTS/felvétel, kb. 40–60 mp"
+        "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 40–60 mp"
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat kell (M2.4-NAR-03::CAPTIONS, M2.4-NAR-03::TRANSCRIPT)."
@@ -11279,7 +11317,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "291ae590c1d8114a9c13e3954dc7c6acedb50b7f46a3fa8c511b427b323b69df",
-      "spec_hash": "6faef80ca9321d2103b88c6b6d567bbbe6ab46cf7184a81bf451c9b70229fd61",
+      "spec_hash": "cac06dc4ed02b24cf270d564f9e1f270d3f17b2598ec6f13f45d1939a0a7f8f4",
       "deliverable_ids": [
         "M2.4-NAR-03",
         "M2.4-NAR-03::CAPTIONS",
@@ -11314,7 +11352,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Magyar TTS/felvétel, kb. 20–30 mp"
+        "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 20–30 mp"
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat kell (M2.4-NAR-04::CAPTIONS, M2.4-NAR-04::TRANSCRIPT)."
@@ -11352,7 +11390,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "773624f25ab53bc1051e87a62222df88e5ccf04f3590f33450bff329b6e926b0",
-      "spec_hash": "ba6a610206b073f715ee98309100ebec9b1f64ba057c78124037b36faf72059e",
+      "spec_hash": "65383f41a17da73440bb9ab8c8c7e4c8322ae5d2051637d58864e917601cbf91",
       "deliverable_ids": [
         "M2.4-NAR-04",
         "M2.4-NAR-04::CAPTIONS",
@@ -12845,11 +12883,11 @@
       "status": "pending-rights",
       "title": "Reflexió narráció (opcionális)",
       "purpose": "A reflexiós feladat tehermentesítő bevezetése.",
-      "spec": "20–30 mp-es opcionális, megengedő hangvételű narráció a reflexiós feladathoz: nincs jó/rossz válasz, válassz egy kérdést, írj 1–2 mondatot ha van kedved.",
+      "spec": "Opcionális, megengedő hangvételű narráció a reflexiós feladathoz (hang kb. 6–8 mp, utána gondolkodási idő; a szakasz összesen 20–30 mp): nincs jó/rossz válasz, válassz egy kérdést, írj 1–2 mondatot ha van kedved.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "kb. 20–30 mp, magyar, hangsáv (opcionális elem)"
+        "note": "hang kb. 6–8 mp (a szakasz a gondolkodási idővel együtt 20–30 mp), magyar, hangsáv (opcionális elem)"
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat (M3.1-NAR-04::CAPTIONS, M3.1-NAR-04::TRANSCRIPT)."
@@ -12872,7 +12910,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Opcionális (SLIDE 5, „Narráció (20–30 mp, opcionális)”); ha bekerül, feliratot+leiratot is kér.",
+      "notes": "Opcionális (SLIDE 5, „Narráció (opcionális) — hang kb. 6–8 mp, utána gondolkodási idő”); ha bekerül, feliratot+leiratot is kér.",
       "review": "",
       "source_ref": "M3.1-NAR-04-VO",
       "composed_of": [],
@@ -12887,7 +12925,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6e533f12cd0e1b8ec7a0bddbf7fe26d26f69e0f24752859bbf84a47e43f396e4",
-      "spec_hash": "752f5801e73cee48b0d37a6164525f10b2cf4ce00c90a56d2ef85e466d0c689c",
+      "spec_hash": "18339b9e6aa3e33f1d41fa534d93d57e9d3895905cdb46c202ce0a816797b07f",
       "deliverable_ids": [
         "M3.1-NAR-04",
         "M3.1-NAR-04::CAPTIONS",
@@ -13499,7 +13537,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hangfelvétel/TTS, 40–60 mp, magyar, tegező. Opcionális elem."
+        "note": "Szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), 40–60 mp, magyar, tegező. Opcionális elem."
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat (M3.2-NAR-03::CAPTIONS, M3.2-NAR-03::TRANSCRIPT)."
@@ -13537,7 +13575,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "a7ce6315c3c3cef38f6bba287238d0a288f74269cbbbeca17d56646ccb51f6c0",
-      "spec_hash": "e480fc1d72c845705ed1fc01bf6ba44e65cf68dcf79afbdd99f5b73a834f3d62",
+      "spec_hash": "add2d25ede4a0518fe7dbd5d8e8d641648730b84dcb5b5402a46ddd057b12369",
       "deliverable_ids": [
         "M3.2-NAR-03",
         "M3.2-NAR-03::CAPTIONS",
@@ -13572,7 +13610,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hangfelvétel/TTS, 40–60 mp, magyar, tegező. Opcionális elem."
+        "note": "Szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), 40–60 mp, magyar, tegező. Opcionális elem."
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat (M3.2-NAR-04::CAPTIONS, M3.2-NAR-04::TRANSCRIPT)."
@@ -13610,7 +13648,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "d9eb989ab7e17ce0de5267d98c639099cb596179e0556024398bc6beff93a521",
-      "spec_hash": "0708841272628b59b150e3a1f2e2aab85ad6837c0e593d741721953652c72bb9",
+      "spec_hash": "b66f26f42097ece9f00cb76f6e525b2f9ad04e24e1943ab1988c9f7fa92484e1",
       "deliverable_ids": [
         "M3.2-NAR-04",
         "M3.2-NAR-04::CAPTIONS",
@@ -13645,7 +13683,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hangfelvétel/TTS, 15–20 mp, magyar, tegező."
+        "note": "Szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 22–26 mp, magyar, tegező."
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat szükséges (M3.2-NAR-05::CAPTIONS, M3.2-NAR-05::TRANSCRIPT)."
@@ -13683,7 +13721,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "e15618b3762a99a7a0b1db07ba94544b52c91d999137fc94d7e2677ba7f8927a",
-      "spec_hash": "3d1baf3b5099fcfe47892610cfa466905ceff7aea8605ee73718a6313aa3708c",
+      "spec_hash": "aef7584beb3ac4fe0f1efc79282bf4106099c416e36df7336a03511efcf22f56",
       "deliverable_ids": [
         "M3.2-NAR-05",
         "M3.2-NAR-05::CAPTIONS",
@@ -14243,7 +14281,7 @@
         "note": "Hangfájl (MP3/WAV), magyar, kb. 40–60 mp"
       },
       "a11y": {
-        "note": "Leirat/transzkript (M3.3-NAR-01::TRANSCRIPT) kötelező (hang-only, ezért a leirat a teljes szöveges ekvivalens)"
+        "note": "Leirat/transzkript (M3.3-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "transcript"
@@ -14277,7 +14315,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "11f7aa7b1123ae5833ae4cce80e441a008dedea5be10c547876b0e9f1a9378ba",
-      "spec_hash": "9fafc896139a7acbc22b9e04a9553470634cfcef713e9800ae6ebd3cdbd8812d",
+      "spec_hash": "f90a175030af3849d4dff63859df300b8841113a19851e653668a35d690e26b0",
       "deliverable_ids": [
         "M3.3-NAR-01",
         "M3.3-NAR-01::TRANSCRIPT"
@@ -14304,14 +14342,14 @@
       "status": "pending-rights",
       "title": "Narráció – Reflexió bevezető (opcionális)",
       "purpose": "Biztonságos, nyomásmentes hangolás a reflexióhoz",
-      "spec": "Opcionális hangnarráció, 20–30 mp: nincs jó vagy rossz válasz; elég 1–2 mondat a tanulságról; ha nincs kedve írni, az is oké, elég végiggondolni.",
+      "spec": "Opcionális hangnarráció (hang kb. 6–8 mp, utána gondolkodási idő; a szakasz összesen 20–30 mp): nincs jó vagy rossz válasz; elég 1–2 mondat a tanulságról; ha nincs kedve írni, az is oké, elég végiggondolni.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hangfájl (MP3/WAV), magyar, kb. 20–30 mp"
+        "note": "Hangfájl (MP3/WAV), magyar, hang kb. 6–8 mp (a szakasz a gondolkodási idővel együtt 20–30 mp)"
       },
       "a11y": {
-        "note": "Leirat/transzkript (M3.3-NAR-02::TRANSCRIPT) kötelező"
+        "note": "Leirat/transzkript (M3.3-NAR-02::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "transcript"
@@ -14345,7 +14383,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6346f55118ff39e9717736e32c209f3c47456320e7065b2208b9fa9cf188cd2f",
-      "spec_hash": "edf9dd4d6016385bc2291f2e531927b6d8227d807a58cbc6156ee76615739d35",
+      "spec_hash": "9dda69e9068e7b7eea83dbe697871bca820fbeff556d6afebeab9fd9d014e160",
       "deliverable_ids": [
         "M3.3-NAR-02",
         "M3.3-NAR-02::TRANSCRIPT"
@@ -14379,7 +14417,7 @@
         "note": "Hangfájl (MP3/WAV), magyar, kb. 15–20 mp"
       },
       "a11y": {
-        "note": "Leirat/transzkript (M3.3-NAR-03::TRANSCRIPT) kötelező"
+        "note": "Leirat/transzkript (M3.3-NAR-03::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke (projektgazdai döntés, 2026-10-03, VO D-19, D-21)"
       },
       "derivatives": [
         "transcript"
@@ -14413,7 +14451,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "d8fa9e5a80997c3a39409d1200f4b2f3d21099bdb1b8ba1fbf46cc6c0438ce7f",
-      "spec_hash": "443ceba35d7ec045b0deb12a6f7314dee83eb5d7f6056382a1c1db4be50f92a0",
+      "spec_hash": "bb0d43e66b6d7b4f89a5697c79fe73ff86081f83930eb1e4aa957fa68cdbb34a",
       "deliverable_ids": [
         "M3.3-NAR-03",
         "M3.3-NAR-03::TRANSCRIPT"
@@ -17017,7 +17055,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "16:9, ~35–40 mp, magyar narráció (férfi/női hang), semleges háttér, mobil-first; látható AI-címke valódi szövegként (nem a videóba égetve)."
+        "note": "16:9, ~35–40 mp, magyar narráció a kanonikus narrátorhanggal, semleges háttér, mobil-first; látható AI-címke valódi szövegként (nem a videóba égetve)."
       },
       "a11y": {
         "audio": "spoken",
@@ -17059,7 +17097,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b05b9278b21f46beaea4cead8620da9e0bb11d6aabe58408bd15d12560385024",
-      "spec_hash": "04b45412b007bb020a5f0e736b85e2317f8e9e8a3471a145c41b952e08858645",
+      "spec_hash": "8c99115ba63cd43d65c8113f9df51fcd05d4407cff364b54f7b8ede9ace51449",
       "deliverable_ids": [
         "M4.1-VID-01",
         "M4.1-VID-01::VOICEOVER",
@@ -18038,11 +18076,11 @@
       "status": "pending-rights",
       "title": "Slide 3 narráció – Dialog Cards felvezetés",
       "purpose": "Bevezeti és keretezi a Dialog Cards aktivitást.",
-      "spec": "20–25 mp narráció a Dialog Cards bevezetéséhez: tipikus mondatok, amiket társ vagy hanih mondhat; a kártyák hátoldalán kétféle válasz; gondold végig, melyik zár le és melyik segít, hogy a másik érezze: figyelsz rá.",
+      "spec": "Kb. 17–22 mp narráció a Dialog Cards bevezetéséhez: tipikus mondatok, amiket társ vagy hanih mondhat; a kártyák hátoldalán kétféle válasz; gondold végig, melyik zár le és melyik segít, hogy a másik érezze: figyelsz rá.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "20–25 mp, magyar nyelvű hangfelvétel."
+        "note": "Kb. 17–22 mp, magyar nyelvű hangfelvétel."
       },
       "a11y": {
         "note": "Felirat (M4.2-NAR-03::CAPTIONS) és leirat/transzkript (M4.2-NAR-03::TRANSCRIPT) kötelező."
@@ -18080,7 +18118,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "ce6604de9226b73d12fa53c7d59b33baed85b8170bcfc170a4176c7708c916a8",
-      "spec_hash": "1f21df69747bdd5a58c5a53776fa37ad8428e0b9c3e3a4802f6c5d03944015eb",
+      "spec_hash": "eca2fe1025f5fbdc3703610f5263179002d430262771c8df0f822be095123101",
       "deliverable_ids": [
         "M4.2-NAR-03",
         "M4.2-NAR-03::CAPTIONS",
@@ -20226,11 +20264,11 @@
       "status": "pending-rights",
       "title": "INPUT 2 narráció – három fogalom definíciója",
       "purpose": "A három fogalom tiszta, hangzó definíciója; a Somer = nonformális üzenet rögzítése.",
-      "spec": "Kb. 60 mp hangnarráció a három tanulási forma definíciójával: formális (suli – tanterv és intézményi keret, jeggyel/bizonyítvánnyal hitelesítve, jellemzően kötelező jelenléttel, tanár–diák szerepben), nonformális (Somer – a suli rendszerén kívüli, szervezett, megtervezett program, amelynek van nevelési célja, csak nem dolgozatban, hanem játékban, beszélgetésben és közös élményekben jelenik meg; a Somerbe ráadásul önként jössz), és informális (hétköznapi, spontán helyzetek – spontán, előre tervezett nevelési cél nélkül). A választóvonal a tudatos nevelési cél, nem az önkéntesség. A felmondandó szöveg a hivatkozott forrásblokkban él.",
+      "spec": "Kb. 70–90 mp hangnarráció a három tanulási forma definíciójával: formális (suli – tanterv és intézményi keret, jeggyel/bizonyítvánnyal hitelesítve, jellemzően kötelező jelenléttel, tanár–diák szerepben), nonformális (Somer – a suli rendszerén kívüli, szervezett, megtervezett program, amelynek van nevelési célja, csak nem dolgozatban, hanem játékban, beszélgetésben és közös élményekben jelenik meg; a Somerbe ráadásul önként jössz), és informális (hétköznapi, spontán helyzetek – spontán, előre tervezett nevelési cél nélkül). A választóvonal a tudatos nevelési cél, nem az önkéntesség. A felmondandó szöveg a hivatkozott forrásblokkban él.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hang, magyar, kb. 60 mp."
+        "note": "Hang, magyar, kb. 70–90 mp."
       },
       "a11y": {
         "note": "Hanghoz felirat + leirat kötelező (M5.1-NAR-02::CAPTIONS, M5.1-NAR-02::TRANSCRIPT)."
@@ -20253,7 +20291,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A forrás nem ír kifejezetten beszélő fejet a SLIDE 3-hoz, csak 60 mp narrációt a háromoszlopos grafika fölé. A szöveget kiadás előtt emberi szakmai lektorálásnak kell alávetni (bizonyítéka a release-jegyzőkönyv, Program terv §9.3). Összetartozik: M5.1-DIA-01.",
+      "notes": "A forrás nem ír kifejezetten beszélő fejet a SLIDE 3-hoz, csak narrációt (kb. 70–90 mp) a háromoszlopos grafika fölé. A szöveget kiadás előtt emberi szakmai lektorálásnak kell alávetni (bizonyítéka a release-jegyzőkönyv, Program terv §9.3). Összetartozik: M5.1-DIA-01.",
       "review": "A v1 spec azt állította, hogy a nonformális ÉS az informális tanulás is önkéntes, és ez választja el a formálistól. A jelenlegi M5.1 narráció ezt kifejezetten cáfolja: a választóvonal a tudatos nevelési cél, az önkéntesség pedig a Somer sajátja.",
       "source_ref": "M5.1-NAR-02-VO",
       "composed_of": [],
@@ -20268,7 +20306,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6ca88264ac481755172ce562d528c63d4b54d23516b5118a054ccaeff16c4fe2",
-      "spec_hash": "a9dcf0f0b419c28b53fcfaf93daf68098cc7ffd532b9100eb9255581cb3efd6a",
+      "spec_hash": "eda08500d0f1d94f0471f986f1fe7d1fee72a9296d3563feabb13b0d67e8189d",
       "deliverable_ids": [
         "M5.1-NAR-02",
         "M5.1-NAR-02::CAPTIONS",
@@ -20767,7 +20805,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "line": 440,
+      "line": 387,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -20945,7 +20983,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "line": 256,
+      "line": 203,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -20999,79 +21037,6 @@
         ],
         "asset": [
           "M5.3-ILL-02"
-        ]
-      }
-    },
-    {
-      "id": "M5.3-NAR-01",
-      "unit": "M5.3",
-      "module": "M5",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "line": 167,
-      "kind": "voiceover",
-      "subtype": "narration",
-      "mode": "generate",
-      "status": "pending-rights",
-      "title": "Opcionális narráció – három kulcsfogalom (20-30 mp)",
-      "purpose": "Auditív csatorna a definíciókhoz; multimodális megerősítés a vizuális szöveg mellett.",
-      "spec": "20-30 mp-es magyar hang-narráció, amely felmondja a slide három blokkjának szövegét: gyakorlás (nem csak hallgatsz, te csinálsz – játszol, mondod, írod, mutatod), aktív felidézés (fejből próbálod felidézni, nem puskázol), időben elosztott gyakorlás (több külön alkalommal, kisebb adagokban). Nyugodt, magyarázó tónus.",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
-      "technical": {
-        "note": "MP3/AAC, ~20-30 mp, magyar; tiszta beszéd, háttérzaj nélkül; H5P Course Presentation audio."
-      },
-      "a11y": {
-        "note": "Hanghoz felirat + leirat szükséges (lásd M5.3-NAR-01::CAPTIONS, M5.3-NAR-01::TRANSCRIPT)."
-      },
-      "derivatives": [
-        "captions",
-        "transcript"
-      ],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "production_rules": [
-        "R1",
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "Opcionális elem. Szövegforrás azonos a SLIDE 2 három szövegblokkjával (M5.3-NAR-01-VO).",
-      "review": "A felmondandó szöveg forrása a dia saját szövege: a lecke a három fogalom-blokk után kimondja: „(Opcionális 20–30 mp-es narráció ugyanezzel a szöveggel.)” — a felmondandó szöveg tehát a dia három blokkja, nem külön szkript.",
-      "source_ref": "M5.3-NAR-01-VO",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [
-        222,
-        246
-      ],
-      "source_text": "**1. Gyakorlás**\n\nAmikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:\n– játszol,\n– mondod,\n– írod,\n– mutatod.\n\nPéldául: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.\n\n**2. Aktív felidézés**\n\nAmikor **fejből próbálod felidézni**,\nnem puskázol a lapról vagy a képernyőről.\n\nPéldául: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.\n\n**3. Időben elosztott gyakorlás**\n\nAmikor **nem egy nagy blokkban**, hanem\n**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.\n\nPéldául: nem egy este alatt próbálod megjegyezni a dalokat,\nhanem három külön napon, rövidebb időkre osztva.",
-      "source_hash": "364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497",
-      "spec_hash": "fc416bd3208ce91c2470ae8483e53d4b7d9838b592239ca32a294cac6ea53049",
-      "deliverable_ids": [
-        "M5.3-NAR-01",
-        "M5.3-NAR-01::CAPTIONS",
-        "M5.3-NAR-01::TRANSCRIPT"
-      ],
-      "legacy": {
-        "asset": [
-          "M5.3-NAR-01"
-        ],
-        "captions": [
-          "M5.3-FEL-01"
-        ],
-        "transcript": [
-          "M5.3-LEI-01"
         ]
       }
     },
@@ -22831,11 +22796,11 @@
       "status": "pending-rights",
       "title": "Narráció – SLIDE 2: 3 aktuális korosztály bemutatása",
       "purpose": "A korosztály-keret hangos megerősítése.",
-      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a 3 aktuális kvuca-korosztály jellemzői (Parparim 6–9, Kivsza 10–12, Leviatán 13–17), zárás: ne csak játékban, hanem játék + kvuca párosban gondolkodj.",
+      "spec": "Szintetikus magyar narráció (kb. 50–65 mp): a 3 aktuális kvuca-korosztály jellemzői (Parparim 6–9, Kivsza 10–12, Leviatán 13–17), zárás: ne csak játékban, hanem játék + kvuca párosban gondolkodj.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Hang (TTS), kb. 40–50 mp, magyar"
+        "note": "Hang (TTS), kb. 50–65 mp, magyar"
       },
       "a11y": {
         "note": "Teljes szöveges leirat kötelező a dián vagy a médiaelem mellől elérhető szövegként (M6.1-NAR-02::TRANSCRIPT; csak hangot tartalmazó narráció, WCAG 1.2.1); felirat ajánlott."
@@ -22873,7 +22838,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "3829694775a418417df5db63b3c1a0a472bc0d195bfc4ce92bbe534d4aaf6a45",
-      "spec_hash": "e79a3ecf3a90f7e1c3ac9ae3ac2dcfda0d6f6dc46c189a246a1977fad3666da6",
+      "spec_hash": "da906b6676e575608a1a66bb6ab171c066b517d545342caaba93151d73c08c08",
       "deliverable_ids": [
         "M6.1-NAR-02",
         "M6.1-NAR-02::CAPTIONS",
@@ -23258,7 +23223,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "16:9 videó, kb. 35–45 mp, magyar, szintetikus beszéd, beágyazott felirat-réteg; gépi olvasható provenance-jelölés (C2PA/vízjel/metaadat): ha a generáló eszköz adja, az export ne távolítsa el (R1, ajánlott jó gyakorlat)"
+        "note": "16:9 videó, kb. 35–45 mp, magyar, szintetikus beszéd, kapcsolható, nem égetett WebVTT-felirat a lecke `@source` szövegéből; gépi olvasható provenance-jelölés (C2PA/vízjel/metaadat): ha a generáló eszköz adja, az export ne távolítsa el (R1, ajánlott jó gyakorlat)"
       },
       "a11y": {
         "audio": "spoken",
@@ -23300,7 +23265,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b750e8d307086e3a46389f3663a6eb5866292cb2bfc2f6b495e4a88f22cf3659",
-      "spec_hash": "4894c23ef002f300cef8631e6b558ef05208fc40045a198ea0905d8cdfbcd52a",
+      "spec_hash": "f0f35b927a3cc7a7112c00327b306388b6ae186e7242814627ae60ac8933a251",
       "deliverable_ids": [
         "M6.1-VID-01",
         "M6.1-VID-01::VOICEOVER",
@@ -23826,11 +23791,11 @@
       "status": "pending-rights",
       "title": "Hook – AI beszélő fej: „fagyott csend lett a sztoritól?”",
       "purpose": "Érzelmi bevonás, a lecke keretének felvezetése a tanuló saját élményén keresztül",
-      "spec": "AI-generált beszélő fej (30–40 mp) magyar narrációval, ami felvezeti a leckét: a kínos csend / túl személyes történet élménye, a történet mint erős, összekapcsoló de túlcsorduló eszköz, és hogy a lecke a történetet mint tükröt és a reflektáló kérdéseket veszi át. A SLIDE 1 narrációja (M6.2-VID-01-VO) a beszélt szöveg.",
+      "spec": "AI-generált beszélő fej (kb. 35–45 mp) magyar narrációval, ami felvezeti a leckét: a kínos csend / túl személyes történet élménye, a történet mint erős, összekapcsoló de túlcsorduló eszköz, és hogy a lecke a történetet mint tükröt és a reflektáló kérdéseket veszi át. A SLIDE 1 narrációja (M6.2-VID-01-VO) a beszélt szöveg.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "kb. 30–45 mp, fekvő videó, magyar beszéd, MP4, csatolt, kapcsolható felirat-sávval"
+        "note": "kb. 35–45 mp, fekvő videó, magyar beszéd, MP4, csatolt, kapcsolható felirat-sávval"
       },
       "a11y": {
         "audio": "spoken",
@@ -23872,7 +23837,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
-      "spec_hash": "004f2d66a0a91012758c41decbeaf16154f1a4652512f056ead2e349304be3fe",
+      "spec_hash": "5c8fabf2965da50f898dd71536db51712304946355afbbf0b9e6491a29a447ff",
       "deliverable_ids": [
         "M6.2-VID-01",
         "M6.2-VID-01::VOICEOVER",
@@ -23911,7 +23876,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "kb. 40–50 mp, magyar beszéd, MP4 felirat-sávval; opcionális elem"
+        "note": "kb. 30–35 mp, magyar beszéd, kapcsolható, nem égetett WebVTT-felirat a lecke `@source` szövegéből; opcionális elem"
       },
       "a11y": {
         "audio": "spoken",
@@ -23953,7 +23918,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
-      "spec_hash": "10303702410b9e5739ca87a0d39f52dafccf4915f115c0aa81b7934a87d0161a",
+      "spec_hash": "ea729424721ba4108cfa4222d83708771e64ef0c47cfcce52bbbd03b260afea1",
       "deliverable_ids": [
         "M6.2-VID-02",
         "M6.2-VID-02::VOICEOVER",
@@ -24417,7 +24382,7 @@
       "purpose": "Bevonás, a lecke keretének felvezetése.",
       "spec": "Kb. 35–45 mp narráció: a kézműves a peulákban néha „időtöltés\", máskor „valami fontosat tanít\" (együttműködés, közösségi felelősség, „mindenki hozzátesz valamit\"); felvezeti, hogy a lecke a tudatos kézműves-választásról szól, hogy a végeredménynek jelentése legyen.",
       "provenance": "ai",
-      "provenance_note": "AI-generált (szintetizált narráció) vagy emberi-felvétel (felmondás)",
+      "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
         "note": "Magyar nyelvű hang, kb. 35–45 mp; mobil-first lejátszás."
       },
@@ -24457,7 +24422,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "0bfa28ac73ba9e94d0da8cf08a795083216c42466f1c59cc3def7ac39ab59b91",
-      "spec_hash": "4a41b2fc8dcb99193bcc49f35888b1845c14d5d9e0e00284cabe2503ad73d12d",
+      "spec_hash": "c3c7334330dfa60e08093fc4c6108f1c0a48e7c9ca98a2f5a49d0afe6c22864a",
       "deliverable_ids": [
         "M6.3-NAR-01",
         "M6.3-NAR-01::CAPTIONS",
@@ -24490,7 +24455,7 @@
       "purpose": "Az alapkeret elmagyarázása narrációval.",
       "spec": "Kb. 45–55 mp narráció a három kérdésről kézműves előtt: 1) Mi a cél? (mit tanuljanak: együttműködés, „mindenki hozzátesz\", identitás); 2) Kinek lehet nehéz? (finommotorika, anyag-/szag-érzékenység, költség, instrukció nyelve, szorongás a körben megosztástól); 3) Milyen variációt kínálok? (matrica, szavak, más forma). Zárás: a kérdések segítenek, hogy a kézműves ne kirekesszen, hanem behívjon.",
       "provenance": "ai",
-      "provenance_note": "AI-generált vagy emberi-felvétel",
+      "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
         "note": "Magyar hang, kb. 45–55 mp; mobil-first."
       },
@@ -24530,7 +24495,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6e3c681ab31a6e650d74292513010764d62ccfc405e961663044f16aff574d81",
-      "spec_hash": "ba17a74e6c093c2bba125800a699c317bed643a72ede2b7ab9653bc855507a1d",
+      "spec_hash": "df5a8197bca74be2e4f5d3ec14635f1e639fa81e0ec31c1ddf13bff20f7116df",
       "deliverable_ids": [
         "M6.3-NAR-02",
         "M6.3-NAR-02::CAPTIONS",
@@ -24563,7 +24528,7 @@
       "purpose": "Az első példa pedagógiai magyarázata narrációval.",
       "spec": "Kb. 45–60 mp narráció a Közös kvuca-plakátról: együttműködést tanít, „a plakát mindannyiunké\", sokféle nézőpont; inkluzivitás: ne legyen művészeti verseny; matricák, kivágott formák, színes papír, szavak – aki nem szeret rajzolni, ragaszthat/írhat/szimbólumot választhat; üzenet: mindenki hozzátesz valamit.",
       "provenance": "ai",
-      "provenance_note": "AI-generált vagy emberi-felvétel",
+      "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
         "note": "Magyar hang, kb. 45–60 mp; mobil-first."
       },
@@ -24603,7 +24568,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "534f1fe438dd7d1249e1f4c0ea04eb8b2b8568dad69291955883f8380d9a0c3f",
-      "spec_hash": "46c21898b8ea416665748a9a989ef81f5f04048fa861bfcc3df7789971c91d46",
+      "spec_hash": "c8561e8192f3a5c6ca90ac42f7c31ec902ba2dd1bed93771741bfedb35961eb4",
       "deliverable_ids": [
         "M6.3-NAR-03",
         "M6.3-NAR-03::CAPTIONS",
@@ -24632,13 +24597,13 @@
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp)",
+      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp)",
       "purpose": "A második példa pedagógiai magyarázata narrációval.",
-      "spec": "Kb. 45–60 mp narráció a Személyes szimbólum-karkötőről: nem a „szép-e\", hanem hogy mit jelentenek az elemei; tanít önkifejezést, identitást, megosztást; inkluzivitás: finommotorika (vastagabb zsinór/nagyobb gyöngy), anyagok (fémallergia/tapintás), költség (státuszverseny veszélye); variációk: rajzos szimbólumkártya, páros munka (egyik fűz, másik segít a jelentésben).",
+      "spec": "Kb. 55–75 mp narráció a Személyes szimbólum-karkötőről: nem a „szép-e\", hanem hogy mit jelentenek az elemei; tanít önkifejezést, identitást, megosztást; inkluzivitás: finommotorika (vastagabb zsinór/nagyobb gyöngy), anyagok (fémallergia/tapintás), költség (státuszverseny veszélye); variációk: rajzos szimbólumkártya, páros munka (egyik fűz, másik segít a jelentésben).",
       "provenance": "ai",
-      "provenance_note": "AI-generált vagy emberi-felvétel",
+      "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
-        "note": "Magyar hang, kb. 45–60 mp; mobil-first."
+        "note": "Magyar hang, kb. 55–75 mp; mobil-first."
       },
       "a11y": {
         "note": "Kötelező felirat (M6.3-NAR-04::CAPTIONS) + leirat (M6.3-NAR-04::TRANSCRIPT)."
@@ -24676,7 +24641,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a",
-      "spec_hash": "6528ac5a56ccb1d48c981c0d407203b70fe924e169d24fa0feda35730607b003",
+      "spec_hash": "81c3bd95368a097183baad1ac30ee891323900f3b238c824667370ab4818ca8b",
       "deliverable_ids": [
         "M6.3-NAR-04",
         "M6.3-NAR-04::CAPTIONS",
@@ -24709,7 +24674,7 @@
       "purpose": "A harmadik példa pedagógiai magyarázata narrációval.",
       "spec": "Kb. 45–60 mp narráció a Kvuca-zászlóról: nemcsak „szép tárgy\", hanem „kik vagyunk mi együtt\"; tanít közös döntést és felelősséget (amit kiteszünk, azt vállaljuk); inkluzivitásnál a szimbólumokra kell figyelni (ne bántson senkit, ne legyen valaki identitásából/kinézetéből/hátteréből vicc); a zászló akkor tanít jól, ha mindenki talál benne saját részletet, és senki sem érzi, hogy „rajta röhög a kvuca\".",
       "provenance": "ai",
-      "provenance_note": "AI-generált vagy emberi-felvétel",
+      "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
         "note": "Magyar hang, kb. 45–60 mp; mobil-first."
       },
@@ -24749,7 +24714,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "2db3e67b6430b8b2154a17221905bbd5df601306880c174a1662401dcabd3a14",
-      "spec_hash": "84d4a0d29a02f92fdc9d2680b21edc406ed06b3f10c3e18e18aea6cb94b2bc2d",
+      "spec_hash": "58694fe91324f8979885b1bde69d432bf723e9c1b7b773b381beefb26e4db897",
       "deliverable_ids": [
         "M6.3-NAR-05",
         "M6.3-NAR-05::CAPTIONS",
@@ -24782,7 +24747,7 @@
       "purpose": "Az összefoglaló gyakorlat felvezetése.",
       "spec": "Kb. 30–40 mp narráció: „Most rajtad a sor.\" Válassz egy kézművest (a példák vagy saját ötlet) és nézd a három kérdéssel: Mit tanítson? Kinek lehet nehéz, miért? Hogyan variálnád, hogy senki ne maradjon kívül? Cél: a kézműves ne csak időt töltsön, hanem tudatosan tanítson egy konkrét kvucának.",
       "provenance": "ai",
-      "provenance_note": "AI-generált vagy emberi-felvétel",
+      "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
         "note": "Magyar hang, kb. 30–40 mp; mobil-first."
       },
@@ -24822,7 +24787,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "cc91c3767411c1ae09b44fd72418a1a79e3c14dc3d2b51b84d89137c0dbc4a13",
-      "spec_hash": "5eae9542528ce869b0c02b9ae66c2a69314b67f16559856cfad6aa8844d8e59e",
+      "spec_hash": "f1c99c3ad89537a433ed52f344a54859d2a9f4159876e527399e60c0d9b7c9a9",
       "deliverable_ids": [
         "M6.3-NAR-06",
         "M6.3-NAR-06::CAPTIONS",
@@ -26562,79 +26527,6 @@
       }
     },
     {
-      "id": "M7.1-NAR-02",
-      "unit": "M7.1",
-      "module": "M7",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
-      "line": 513,
-      "kind": "voiceover",
-      "subtype": "narration",
-      "mode": "generate",
-      "status": "pending-rights",
-      "title": "Narráció – záró feladat instrukció (opcionális)",
-      "purpose": "Auditív útmutató a záró íráshoz; multimodális támogatás.",
-      "spec": "15–20 mp narráció, amely hangban elmondja a záró feladat instrukcióját: válassz 1 saját peula-ötletet, írd le miről szól 1 mondatban (téma, korosztály) + egy SMART nevelési célt hozzá (R elem kötődjön az M2-es someres értékhez). Bátorító zárás: nem baj, ha nem tökéletes.",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
-      "technical": {
-        "note": "Magyar narráció, ~15–20 mp, MP3/AAC; opcionális"
-      },
-      "a11y": {
-        "note": "Felirat + leirat kell (M7.1-NAR-02::CAPTIONS, M7.1-NAR-02::TRANSCRIPT)"
-      },
-      "derivatives": [
-        "captions",
-        "transcript"
-      ],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "production_rules": [
-        "R1",
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "Tartalmilag a SLIDE 7 dia-szövegét (M7.1-NAR-02-VO) ismétli hangban.",
-      "review": "A felmondandó szöveg forrása a dia saját szövege: a lecke a dia-szöveg után kimondja: „(Opcionális narráció, 15–20 mp-ben ugyanez hangban.)” — a felmondandó szöveg tehát a dia szövege.",
-      "source_ref": "M7.1-NAR-02-VO",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [
-        572,
-        585
-      ],
-      "source_text": "Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).\n\n✏️ Írd le:\n\n1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).\n2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).\n\nA kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.\n\n💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:\n– „A peula végére …”\n– „Legalább X hanih …”\n– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",
-      "source_hash": "bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd",
-      "spec_hash": "85e113b731553d30ad0d255de468eb53c16a8821d9d06e5b8e19f5293ffb6f03",
-      "deliverable_ids": [
-        "M7.1-NAR-02",
-        "M7.1-NAR-02::CAPTIONS",
-        "M7.1-NAR-02::TRANSCRIPT"
-      ],
-      "legacy": {
-        "asset": [
-          "M7.1-NAR-02"
-        ],
-        "captions": [
-          "M7.1-FEL-02"
-        ],
-        "transcript": [
-          "M7.1-LEI-02"
-        ]
-      }
-    },
-    {
       "id": "M7.2-DIA-01",
       "unit": "M7.2",
       "module": "M7",
@@ -27951,7 +27843,7 @@
       "purpose": "Hangos vezetés és bátorítás a GYAKORLAT 1 kitöltéséhez.",
       "spec": "Opcionális hang-narráció (20–30 mp), amely végigvezeti a tanulót a GYAKORLAT 1 lépésein: kvuca-típus választás, kvuca-meta és SMART cél megírása, hangsúlyozva, hogy nem dolgozat, elég ha a tanuló érti a kvucát és a tervezett változást.",
       "provenance": "ai",
-      "provenance_note": "AI-generált (TTS) vagy emberi-felvétel narráció; kiadás előtt emberi szakmai lektorálás szükséges",
+      "provenance_note": "AI-generált (szintetikus narráció); kiadás előtt emberi szakmai lektorálás szükséges",
       "technical": {
         "note": "20–30 mp audió, magyar nyelv, mobil-first H5P slide-ba"
       },
@@ -27991,7 +27883,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "bc95c2f093cdd06c39d8ab7701c5c6dba44def2f7b3a1ac0437bb023ef1cadcc",
-      "spec_hash": "26fc4f2b04f737a0421fa9fed401e9766b26b0e3c2e39aba79a2ca650a556341",
+      "spec_hash": "e8ed088f9f6a510e239383ab18c9df58dd7427a123b305f6606b00c3dbd9a3ef",
       "deliverable_ids": [
         "M7.4-NAR-01",
         "M7.4-NAR-01::CAPTIONS",
@@ -28024,7 +27916,7 @@
       "purpose": "Lezárás, motiváció és híd a Moodle-beadandóhoz.",
       "spec": "Opcionális hangnarráció (20–30 mp): megerősíti, hogy a tanuló készen áll a Peula v1 megírására, átvezet a Moodle-beadandóhoz, és jelzi, hogy az M7.B műhelyben ebből készül a végleges, terepre vihető Peula v2.",
       "provenance": "ai",
-      "provenance_note": "AI-generált (TTS) vagy emberi-felvétel narráció; kiadás előtt emberi szakmai lektorálás szükséges",
+      "provenance_note": "AI-generált (szintetikus narráció); kiadás előtt emberi szakmai lektorálás szükséges",
       "technical": {
         "note": "20–30 mp audió, magyar nyelv, mobil-first H5P slide-ba"
       },
@@ -28064,7 +27956,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "50509520364058e39e604106d3801969ed525b0b03eaf8d31defc61d9c868f0f",
-      "spec_hash": "a6ef9470e1f550370f3a550d0e9b4503e4bafbd93f755528ca53638336931d35",
+      "spec_hash": "972536b5bf6fe070818bce5e9353d23ae98df02ca368563dd5c668eeff66bb96",
       "deliverable_ids": [
         "M7.4-NAR-02",
         "M7.4-NAR-02::CAPTIONS",
@@ -29552,13 +29444,13 @@
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Opcionális narráció – idővonal (30–40 mp)",
+      "title": "Opcionális narráció – idővonal (kb. 15–20 mp)",
       "purpose": "Az idővonal-input megerősítése hangsávval a feldolgozás segítésére.",
-      "spec": "30–40 mp-es, egyszerűen felolvasott narráció az idővonalról 1–2 plusz mondattal: honnan indultunk M0-ban, hova jutottunk M7-re; az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
+      "spec": "Kb. 15–20 mp-es narráció az idővonalról, szó szerint a Z.1-NAR-01-VO szövege: honnan indultunk M0-ban, hova jutottunk M7-re; az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Magyar hangfelvétel/TTS, kb. 30–40 mp, semleges felolvasó hang; opcionális elem."
+        "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 15–20 mp, semleges felolvasó hang; opcionális elem."
       },
       "a11y": {
         "note": "Felirat + leirat kötelező (lásd Z.1-NAR-01::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
@@ -29596,7 +29488,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "9bcc9f6d7b62601a9315b820db254c08a9d568ca5ae9b1cebfb87f27838add7b",
-      "spec_hash": "637810489ea5c3059afc73d86eaee2a1c3a1f68f34fa71c17c5e402bf81e4557",
+      "spec_hash": "0e96282792e5ded6ba62d21c650f2ac343a0912f5e46c5b95685d9b7592a46d6",
       "deliverable_ids": [
         "Z.1-NAR-01",
         "Z.1-NAR-01::CAPTIONS",
@@ -29628,7 +29520,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Magyar hangfelvétel/TTS, kb. 20–30 mp, semleges felolvasó hang; opcionális elem."
+        "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 20–30 mp, semleges felolvasó hang; opcionális elem."
       },
       "a11y": {
         "note": "Felirat + leirat kötelező (lásd Z.1-NAR-02::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
@@ -29666,7 +29558,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "8de6ff17f593cb94e2debc439d7069d807eae1e25fa7770e61f66c834de1c6fd",
-      "spec_hash": "f696b117fcec5c6cf40b37555ba0ae928407f1b54e5b17fa23733c7a56931617",
+      "spec_hash": "8b7720a628b730132a2e961a9ebf96d8eec2c160554b5d8fa2a6ea70a891e8e1",
       "deliverable_ids": [
         "Z.1-NAR-02",
         "Z.1-NAR-02::CAPTIONS",
@@ -33280,6 +33172,54 @@
       "source_id": "M1.3-NAR-07-VO",
       "text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "text_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
+      "blockers": [
+        "R2",
+        "R3"
+      ],
+      "readiness_issues": []
+    },
+    {
+      "id": "M1.3-NAR-08",
+      "asset_id": "M1.3-NAR-08",
+      "role": "primary",
+      "role_label": "elsődleges",
+      "kind": "voiceover",
+      "subtype": "narration",
+      "unit": "M1.3",
+      "module": "M1",
+      "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
+      "file_kind": "online-lecke",
+      "title": "Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01)",
+      "mode": "generate",
+      "status": "pending-rights",
+      "provenance": "ai",
+      "source_id": "M1.3-NAR-08-VO",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S a szituációnál, a B a viselkedésnél, az I a hatásnál. A társa elgondolkodik.”",
+      "text_hash": "35ef1c4453baa92d3700f424c114e2024ba56236c329ed077452519fc023977f",
+      "blockers": [
+        "R2",
+        "R3"
+      ],
+      "readiness_issues": []
+    },
+    {
+      "id": "M1.3-NAR-08::TRANSCRIPT",
+      "asset_id": "M1.3-NAR-08",
+      "role": "transcript",
+      "role_label": "leirat",
+      "kind": "voiceover",
+      "subtype": "narration",
+      "unit": "M1.3",
+      "module": "M1",
+      "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
+      "file_kind": "online-lecke",
+      "title": "Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01) — leirat",
+      "mode": "generate",
+      "status": "pending-rights",
+      "provenance": "ai",
+      "source_id": "M1.3-NAR-08-VO",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon: az S a szituációnál, a B a viselkedésnél, az I a hatásnál. A társa elgondolkodik.”",
+      "text_hash": "35ef1c4453baa92d3700f424c114e2024ba56236c329ed077452519fc023977f",
       "blockers": [
         "R2",
         "R3"
@@ -43341,78 +43281,6 @@
       "readiness_issues": []
     },
     {
-      "id": "M5.3-NAR-01",
-      "asset_id": "M5.3-NAR-01",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M5.3",
-      "module": "M5",
-      "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "file_kind": "online-lecke",
-      "title": "Opcionális narráció – három kulcsfogalom (20-30 mp)",
-      "mode": "generate",
-      "status": "pending-rights",
-      "provenance": "ai",
-      "source_id": "M5.3-NAR-01-VO",
-      "text": "**1. Gyakorlás**\n\nAmikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:\n– játszol,\n– mondod,\n– írod,\n– mutatod.\n\nPéldául: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.\n\n**2. Aktív felidézés**\n\nAmikor **fejből próbálod felidézni**,\nnem puskázol a lapról vagy a képernyőről.\n\nPéldául: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.\n\n**3. Időben elosztott gyakorlás**\n\nAmikor **nem egy nagy blokkban**, hanem\n**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.\n\nPéldául: nem egy este alatt próbálod megjegyezni a dalokat,\nhanem három külön napon, rövidebb időkre osztva.",
-      "text_hash": "364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497",
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": []
-    },
-    {
-      "id": "M5.3-NAR-01::CAPTIONS",
-      "asset_id": "M5.3-NAR-01",
-      "role": "captions",
-      "role_label": "felirat",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M5.3",
-      "module": "M5",
-      "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "file_kind": "online-lecke",
-      "title": "Opcionális narráció – három kulcsfogalom (20-30 mp) — felirat",
-      "mode": "generate",
-      "status": "pending-rights",
-      "provenance": "ai",
-      "source_id": "M5.3-NAR-01-VO",
-      "text": "**1. Gyakorlás**\n\nAmikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:\n– játszol,\n– mondod,\n– írod,\n– mutatod.\n\nPéldául: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.\n\n**2. Aktív felidézés**\n\nAmikor **fejből próbálod felidézni**,\nnem puskázol a lapról vagy a képernyőről.\n\nPéldául: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.\n\n**3. Időben elosztott gyakorlás**\n\nAmikor **nem egy nagy blokkban**, hanem\n**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.\n\nPéldául: nem egy este alatt próbálod megjegyezni a dalokat,\nhanem három külön napon, rövidebb időkre osztva.",
-      "text_hash": "364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497",
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": []
-    },
-    {
-      "id": "M5.3-NAR-01::TRANSCRIPT",
-      "asset_id": "M5.3-NAR-01",
-      "role": "transcript",
-      "role_label": "leirat",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M5.3",
-      "module": "M5",
-      "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "file_kind": "online-lecke",
-      "title": "Opcionális narráció – három kulcsfogalom (20-30 mp) — leirat",
-      "mode": "generate",
-      "status": "pending-rights",
-      "provenance": "ai",
-      "source_id": "M5.3-NAR-01-VO",
-      "text": "**1. Gyakorlás**\n\nAmikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:\n– játszol,\n– mondod,\n– írod,\n– mutatod.\n\nPéldául: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.\n\n**2. Aktív felidézés**\n\nAmikor **fejből próbálod felidézni**,\nnem puskázol a lapról vagy a képernyőről.\n\nPéldául: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.\n\n**3. Időben elosztott gyakorlás**\n\nAmikor **nem egy nagy blokkban**, hanem\n**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.\n\nPéldául: nem egy este alatt próbálod megjegyezni a dalokat,\nhanem három külön napon, rövidebb időkre osztva.",
-      "text_hash": "364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497",
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": []
-    },
-    {
       "id": "M5.4-ILL-01",
       "asset_id": "M5.4-ILL-01",
       "role": "primary",
@@ -46063,7 +45931,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp)",
+      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp)",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -46087,7 +45955,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp) — felirat",
+      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp) — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -46111,7 +45979,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp) — leirat",
+      "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp) — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -47468,78 +47336,6 @@
       "source_id": "M7.1-NAR-01-VO",
       "text": "„A SMART igazából csak egy emlékeztető arra, hogy a célod legyen **konkrét és ellenőrizhető**.\n\nSpecifikus: pontosan miről szól a peula?\nMérhető: miből fogod látni, hogy tényleg megtörtént valami?\nElérhető: reális ez ebben a kvucában, ebben az időkeretben?\nReleváns: van köze someres értékhez vagy a kvucátok helyzetéhez?\nÉs időhöz kötött: meddigre szeretnéd, hogy megvalósuljon – a peula végéig, hónap végéig, félév végéig?”",
       "text_hash": "ef495f92066556f7210dad7f6a7ed45eef9e876d6c8dc7f2aded235afc0bcd34",
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": []
-    },
-    {
-      "id": "M7.1-NAR-02",
-      "asset_id": "M7.1-NAR-02",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M7.1",
-      "module": "M7",
-      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
-      "file_kind": "online-lecke",
-      "title": "Narráció – záró feladat instrukció (opcionális)",
-      "mode": "generate",
-      "status": "pending-rights",
-      "provenance": "ai",
-      "source_id": "M7.1-NAR-02-VO",
-      "text": "Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).\n\n✏️ Írd le:\n\n1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).\n2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).\n\nA kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.\n\n💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:\n– „A peula végére …”\n– „Legalább X hanih …”\n– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",
-      "text_hash": "bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd",
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": []
-    },
-    {
-      "id": "M7.1-NAR-02::CAPTIONS",
-      "asset_id": "M7.1-NAR-02",
-      "role": "captions",
-      "role_label": "felirat",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M7.1",
-      "module": "M7",
-      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
-      "file_kind": "online-lecke",
-      "title": "Narráció – záró feladat instrukció (opcionális) — felirat",
-      "mode": "generate",
-      "status": "pending-rights",
-      "provenance": "ai",
-      "source_id": "M7.1-NAR-02-VO",
-      "text": "Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).\n\n✏️ Írd le:\n\n1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).\n2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).\n\nA kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.\n\n💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:\n– „A peula végére …”\n– „Legalább X hanih …”\n– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",
-      "text_hash": "bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd",
-      "blockers": [
-        "R2",
-        "R3"
-      ],
-      "readiness_issues": []
-    },
-    {
-      "id": "M7.1-NAR-02::TRANSCRIPT",
-      "asset_id": "M7.1-NAR-02",
-      "role": "transcript",
-      "role_label": "leirat",
-      "kind": "voiceover",
-      "subtype": "narration",
-      "unit": "M7.1",
-      "module": "M7",
-      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
-      "file_kind": "online-lecke",
-      "title": "Narráció – záró feladat instrukció (opcionális) — leirat",
-      "mode": "generate",
-      "status": "pending-rights",
-      "provenance": "ai",
-      "source_id": "M7.1-NAR-02-VO",
-      "text": "Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).\n\n✏️ Írd le:\n\n1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).\n2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).\n\nA kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.\n\n💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:\n– „A peula végére …”\n– „Legalább X hanih …”\n– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",
-      "text_hash": "bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd",
       "blockers": [
         "R2",
         "R3"
@@ -49888,7 +49684,7 @@
       "module": "Z",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
       "file_kind": "online-lecke",
-      "title": "Opcionális narráció – idővonal (30–40 mp)",
+      "title": "Opcionális narráció – idővonal (kb. 15–20 mp)",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -49912,7 +49708,7 @@
       "module": "Z",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
       "file_kind": "online-lecke",
-      "title": "Opcionális narráció – idővonal (30–40 mp) — felirat",
+      "title": "Opcionális narráció – idővonal (kb. 15–20 mp) — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -49936,7 +49732,7 @@
       "module": "Z",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
       "file_kind": "online-lecke",
-      "title": "Opcionális narráció – idővonal (30–40 mp) — leirat",
+      "title": "Opcionális narráció – idővonal (kb. 15–20 mp) — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",

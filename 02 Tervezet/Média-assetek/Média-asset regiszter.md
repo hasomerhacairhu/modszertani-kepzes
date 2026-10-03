@@ -19,15 +19,15 @@
 | Feldolgozott forrásfájl | **84** |
 | Assetet tartalmazó fájl | 65 |
 | Ellenőrzötten asset nélküli fájl | 19 |
-| Forrásblokk (`@source`) | 124 |
-| Szemantikus asset | **416** |
-| Produkciós deliverable | **907** |
+| Forrásblokk (`@source`) | 123 |
+| Szemantikus asset | **415** |
+| Produkciós deliverable | **903** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 402 |
+| legyártandó | 401 |
 | újrahasznosítás | 8 |
 | külső forrás | 6 |
 
@@ -35,7 +35,7 @@
 
 | Típus | Db |
 |---|--:|
-| voiceover | 90 |
+| voiceover | 89 |
 | worksheet | 64 |
 | illustration | 47 |
 | icon-set | 42 |
@@ -51,11 +51,11 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 408 |
+| elsődleges | 407 |
 | alt-szöveg | 131 |
 | nyomtatható PDF | 121 |
-| leirat | 113 |
-| felirat | 110 |
+| leirat | 112 |
+| felirat | 108 |
 | felmondott hang | 21 |
 | szerkeszthető, kitölthető változat | 3 |
 
@@ -64,13 +64,13 @@
 | Modul | Db |
 |---|--:|
 | M0 | 24 |
-| M1 | 58 |
+| M1 | 59 |
 | M2 | 48 |
 | M3 | 64 |
 | M4 | 58 |
-| M5 | 31 |
+| M5 | 30 |
 | M6 | 66 |
-| M7 | 52 |
+| M7 | 51 |
 | Z | 15 |
 
 **Státusz szerint**
@@ -78,15 +78,15 @@
 | Státusz | Db |
 |---|--:|
 | specifikáció kész | 295 |
-| jogtisztázás alatt | 120 |
+| jogtisztázás alatt | 119 |
 | emberi döntésre vár | 1 |
 
 **Nyitott produkciós blokkolók (hivatkozások szerint)**
 
 | Blokkoló | Érintett asset |
 |---|--:|
-| R2 | 119 |
-| R3 | 117 |
+| R2 | 118 |
+| R3 | 116 |
 | R8 | 2 |
 | R7 | 1 |
 
@@ -98,8 +98,8 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | Szabály | Mi hiányzik | Érintett asset |
 |---|---|--:|
-| **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 119 |
-| **R3** — Narrátor hang-bible | A konkrét voice-ID, a modell-azonosító, a hangbeállítások és a kiejtési szótár ⟬KITÖLTENDŐ⟭ — ezek nélkül a felvétel nem reprodukálható, ezért az R3 nyitva marad | 117 |
+| **R2** — AI-avatar / AI-hang IP-megfelelőség | A konkrét licenc-igazolás ⟬KITÖLTENDŐ⟭ (szervezeti/jogi) | 118 |
+| **R3** — Narrátor hang-bible | Nyitott: a voice-ID rögzítésének helye ⟬KITÖLTENDŐ⟭ (a repóba csak a HUM-MEDIA-02 szerint kerülhet), és a P-NAR pilot (M4 | 116 |
 
 ## 🗂 Assetek fájlonként
 
@@ -227,6 +227,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M1.3-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Activity 2 (saját mini-SBI) narráció (20–30 mp) | `M1.3-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M1.3-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | Önellenőrző narráció (10–15 mp) | `M1.3-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M1.3-NAR-07` | voiceover/narration | legyártandó | jogtisztázás alatt | Zárószöveg narráció (10–15 mp) | `M1.3-NAR-07-VO` | felirat, leirat | AI-generált |
+| `M1.3-NAR-08` | voiceover/narration | legyártandó | jogtisztázás alatt | Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01) | `M1.3-NAR-08-VO` | leirat | AI-generált |
 | `M1.3-VID-01` | video/interactive | legyártandó | emberi döntésre vár | HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel | `M1.3-VID-01-VO` | felirat, leirat, alt-szöveg | AI-generált |
 
 ### 02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md
@@ -650,7 +651,6 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M5.3-IKO-01` | icon-set | legyártandó | specifikáció kész | Három kulcsfogalom ikon-trió (gyakorlás, aktív felidézés, időben elosztott gyakorlás) | — | alt-szöveg | AI-generált |
 | `M5.3-ILL-01` | illustration | legyártandó | specifikáció kész | Két tanulási történet – A vs. B szembeállítás (Hook) | — | alt-szöveg | AI-generált |
 | `M5.3-ILL-02` | illustration | legyártandó | specifikáció kész | Somer-példák a három fogalomra – három mini-jelenet | — | alt-szöveg | AI-generált |
-| `M5.3-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – három kulcsfogalom (20-30 mp) | `M5.3-NAR-01-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md
 
@@ -764,7 +764,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.3-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 1 HOOK (35–45 mp) | `M6.3-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M6.3-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 2 INPUT 1 (45–55 mp) | `M6.3-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M6.3-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 3 PÉLDA 1 Közös plakát (45–60 mp) | `M6.3-NAR-03-VO` | felirat, leirat | AI-generált |
-| `M6.3-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp) | `M6.3-NAR-04-VO` | felirat, leirat | AI-generált |
+| `M6.3-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp) | `M6.3-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M6.3-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 5 PÉLDA 3 Kvuca-zászló (45–60 mp) | `M6.3-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M6.3-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 6 ACTIVITY (30–40 mp) | `M6.3-NAR-06-VO` | felirat, leirat | AI-generált |
 
@@ -838,7 +838,6 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.1-ILL-02` | illustration | legyártandó | specifikáció kész | Someres SMART példa – 2 kártya (szolidaritás / biztonság) | — | alt-szöveg | AI-generált |
 | `M7.1-ILL-03` | illustration | legyártandó | specifikáció kész | Példa prompt-kártya (AI-blokk) | — | alt-szöveg | AI-generált |
 | `M7.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SMART madrih-nyelven (opcionális) | `M7.1-NAR-01-VO` | felirat, leirat | AI-generált |
-| `M7.1-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – záró feladat instrukció (opcionális) | `M7.1-NAR-02-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md
 
@@ -941,7 +940,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `Z.1-DIA-01` | diagram | legyártandó | specifikáció kész | Vízszintes féléves idővonal M0→M7 | — | alt-szöveg | AI-generált |
 | `Z.1-IKO-01` | icon-set | legyártandó | specifikáció kész | Napló-ikon a highlight-esszéhez | — | alt-szöveg | AI-generált |
 | `Z.1-ILL-01` | illustration | legyártandó | specifikáció kész | Sorozatplakát-ikon M0–M7 epizódokkal | — | alt-szöveg | AI-generált |
-| `Z.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – idővonal (30–40 mp) | `Z.1-NAR-01-VO` | felirat, leirat | AI-generált |
+| `Z.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – idővonal (kb. 15–20 mp) | `Z.1-NAR-01-VO` | felirat, leirat | AI-generált |
 | `Z.1-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális záró narráció – outro (20–30 mp) | `Z.1-NAR-02-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md
@@ -1012,7 +1011,7 @@ készre, és kézzel beírt `status` sem írja felül.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a két madrih dialógushangja, a hangok jogosultsága (R2, V2) és a kétszereplős, szájszinkronos gyártási út. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. A dialógushangot az első gyártási körre a projektgazda eldöntötte (2026-10-03, VO D-14: a kanonikus narrátorhang mindkét szerepre, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
 
 ---
 
