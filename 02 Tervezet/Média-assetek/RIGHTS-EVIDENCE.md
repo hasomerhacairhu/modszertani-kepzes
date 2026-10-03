@@ -29,7 +29,9 @@ a fájl és nem a fordító.
 > `HUM-MEDIA-02` tételében áll, ebbe a fájlba nem kerül); a producer csak az álneveket
 > (`VOICE-SRC-01`, `VOICE-SRC-02`) látja. Kötelező mezők: álnév, valódi név, hozzájárulás vagy
 > szerződés hivatkozása, engedélyezett felhasználás, modell/szolgáltató, terület, időtartam,
-> visszavonás, aláírás dátuma, a bizonyíték helye vagy hash-e. A forrás-beszélők valódi neve
+> visszavonás, aláírás dátuma, a bizonyíték helye vagy hash-e, valamint a nagykorúság ellenőrzése (igen/nem,
+> dátum, az ellenőrző szerepe; életkor, születési dátum és igazolvány-adat nélkül — kiegészítő projektgazdai
+> döntés, 2026-10-03, K6). A forrás-beszélők valódi neve
 > semmilyen formában nem kerül a Gitbe.
 >
 > **A git-előzmények** (projektgazdai döntés, 2026-10-02): a korábbi commitokban maradt
@@ -80,7 +82,7 @@ kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
 | R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 118 | **HIÁNYZIK** — a fiókhoz és a választott csomaghoz kötött szövegváltozat kell | KUTATVA — a jelöltek nyilvános záradékai idézve: 1/A.1., 1/A.2. |
 | R2-3 | **Avatar- / képmás-jogosultság**: az avatar nem valós, azonosítható személy hasonmása, vagy van rá engedély | 27 videó + 2 állókép | **HIÁNYZIK** | KUTATVA — a jelöltek hozzájárulási feltételei idézve; a készlet-avatar képmás-licence dokumentálandó (H-3, `HUM-MEDIA-03`); a **J2 kiskorú-kérdés** nyitva: 1/A.3., 1/A.5. |
 | R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **RÉSZBEN MEGVAN** — a szolgáltató **ElevenLabs** (felhasználói döntés, 2026-08-28), a modell `eleven_v4` (projektgazdai döntés, 2026-10-03, VO D-02); a voice-ID nem nyilvános, a VO QA-repó gyártási konfigurációjában él (kiegészítő döntés, 2026-10-03, K3); jóváhagyói minősítés nincs | a szolgáltató és a modell-javaslat: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz |
-| R2-5 | **Hang-jogosultság**: a felhasznált egyedi hang használatának joga | a kanonikus narrátorhangra és a második hangra | **RÉSZBEN MEGVAN** — projektgazdai tényközlés (2026-10-03, VO D-01): mindkét hang létezik, a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten hozzájárultak; a két forrás-beszélő nagykorú (projektgazdai tényközlés, 2026-10-03, K5). A nem személyes hivatkozás (`VOICE-RIGHTS-REGISTER`) és a jogi jóváhagyó minősítése a repóban nincs: a formális bizonyíték függő | KUTATVA — a szolgáltató feltételei és a hangtípusonkénti következmény: 1/A.0. |
+| R2-5 | **Hang-jogosultság**: a felhasznált egyedi hang használatának joga | a kanonikus narrátorhangra és a második hangra | **RÉSZBEN MEGVAN** — projektgazdai tényközlés (2026-10-03, VO D-01): mindkét hang létezik, a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten hozzájárultak; a két forrás-beszélő nagykorú (projektgazdai tényközlés, 2026-10-03, K5; a nyilvántartás „nagykorúság ellenőrizve” bejegyzésként rögzíti, K6). A nem személyes hivatkozás (`VOICE-RIGHTS-REGISTER`) és a jogi jóváhagyó minősítése a repóban nincs: a formális bizonyíték függő | KUTATVA — a szolgáltató feltételei és a hangtípusonkénti következmény: 1/A.0. |
 | R2-6 | Emberi felmondó esetén felhasználási szerződés | — | **NEM ALKALMAZHATÓ** — a felmondás 2026-08-28 óta szintetikus | — |
 
 > **Fontos következmény.** A D2 válasza (2026-08-28): **szintetikus hang**. Ezért az R2
@@ -97,7 +99,7 @@ kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
 > az 1. szakaszt.)* A fenti hat sorból három
 > továbbra is **HIÁNYZIK**; az R2-4 a szolgáltatói döntés után, az R2-5 2026-10-03 óta **RÉSZBEN MEGVAN**, az
 > R2-6 pedig **NEM ALKALMAZHATÓ** lett (a felmondás szintetikus). **Egyik sem jelent
-> feloldást:** a hiányzó rész — voice-ID, modell, licenc-igazolás, hang-jogosultság —
+> feloldást:** a hiányzó rész — voice-ID, licenc-igazolás, hang-jogosultság —
 > mind nyitott még. *(2026-10-03: a modell eldőlt, a hanghasználati jog tartalmilag tisztázott — R2-4, R2-5 RÉSZBEN MEGVAN; a voice-ID nem nyilvános, a helye a VO QA-repó gyártási konfigurációja (K3); a formális bizonyíték és a licenc-igazolás hiányzik.)* Ez a szakasz csak annyit tesz, hogy a „⟬generátor neve⟭” absztrakt
 > mezőt lecseréli **megnevezett jelöltekre és a hozzájuk tényleg tartozó, idézhető
 > feltételekre** — hogy a jogi jóváhagyó ne nulláról induljon.
