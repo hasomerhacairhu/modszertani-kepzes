@@ -187,15 +187,15 @@ Opciók:
   "id": "Z.1-NAR-01",
   "kind": "voiceover",
   "mode": "generate",
-  "title": "Opcionális narráció – idővonal (30–40 mp)",
+  "title": "Opcionális narráció – idővonal (kb. 15–20 mp)",
   "subtype": "narration",
   "purpose": "Az idővonal-input megerősítése hangsávval a feldolgozás segítésére.",
-  "spec": "30–40 mp-es, egyszerűen felolvasott narráció az idővonalról 1–2 plusz mondattal: honnan indultunk M0-ban, hova jutottunk M7-re; az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
+  "spec": "Kb. 15–20 mp-es narráció az idővonalról, szó szerint a Z.1-NAR-01-VO szövege: honnan indultunk M0-ban, hova jutottunk M7-re; az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
   "source_ref": "Z.1-NAR-01-VO",
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
-    "note": "Magyar hangfelvétel/TTS, kb. 30–40 mp, semleges felolvasó hang; opcionális elem."
+    "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 15–20 mp, semleges felolvasó hang; opcionális elem."
   },
   "a11y": {
     "note": "Felirat + leirat kötelező (lásd Z.1-NAR-01::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."
@@ -259,7 +259,7 @@ Opciók:
 * **M7 – „Peula a papírtól a valóságig”**
   → Peula 11 pont, Zmán Kvucá, opcionális AI-támogatás
 
-Opcionális narráció (30–40 mp), egyszerűen felolvasva, 1–2 plusz mondattal:
+Opcionális narráció (kb. 15–20 mp), szó szerint az alábbi szöveg (Z.1-NAR-01-VO):
 
 **Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (vagy adj hozzá magyar feliratot), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
 
@@ -469,7 +469,7 @@ Opciók:
   "provenance": "ai",
   "provenance_note": "AI-generált",
   "technical": {
-    "note": "Magyar hangfelvétel/TTS, kb. 20–30 mp, semleges felolvasó hang; opcionális elem."
+    "note": "Magyar szintetikus narráció (ElevenLabs, a kanonikus narrátorhang), kb. 20–30 mp, semleges felolvasó hang; opcionális elem."
   },
   "a11y": {
     "note": "Felirat + leirat kötelező (lásd Z.1-NAR-02::CAPTIONS, amely a forrás szerint egyben verbatim leirat is); a narráció szövegét szó szerint meg kell jeleníteni a dián vagy alatta."

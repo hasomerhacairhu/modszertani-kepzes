@@ -28,6 +28,48 @@
       "v2_asset_id": "",
       "v2_deliverable_id": "",
       "reason": "Az M3 hub A/B sarok-aktivitásának két jelölőtáblája („Red flag” / „Nem red flag”, v2-ben M3-HUB-POSZ-02). A projektgazda 2026-10-02-i javasolt döntése (felmerült #10) szerint az A/B sarok csak akkor marad, ha saját pedagógiai funkciója van. A gyakorlat nem része a kanonikus M3.B peulának, a red flag-felismerést az M3.B harmadik személyű esetelemzése már elvégzi, ezért az aktivitás és az asset kikerült a tananyagból. Akadálymentesítési vagy gyermekvédelmi rés nem keletkezik: a felismerés gyakorlása az M3.B-ben megmarad."
+    },
+    {
+      "old_id": "M5.3-NAR-01",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M5.3 SLIDE 2 („Három fogalom”) OPCIONÁLIS narrációja, amely szó szerint a dia szövegét mondta volna fel. 2026-10-03-i projektgazdai döntés (VO D-16, C opció, a PRODUCTION-DECISIONS.md D7 mintája): a narráció nem készül el, mert dia-szövegként (listajelek, számozás, zárójeles kulcsszavak) nem fülre írt szöveg, és a látható 20–30 mp-es keret többszöröse lett volna. A dia teljes szövege változatlanul látható; a v2-ben nincs szemantikus asset."
+    },
+    {
+      "old_id": "M5.3-FEL-01",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M5.3-NAR-01 felirata. A szülő narráció nem készül el (lásd M5.3-NAR-01 diszpozíció, VO D-16), így nincs mit feliratozni. Akadálymentesítési rés nem keletkezik: a dia tartalma eleve olvasható szövegként áll a leckében."
+    },
+    {
+      "old_id": "M5.3-LEI-01",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M5.3-NAR-01 leirata. A szülő narráció nem készül el (VO D-16), így nincs csak hangban elérhető tartalom, amelyhez szöveges alternatíva kellene; a WCAG 2.2 SC 1.2.1 nem sérül, a dia szövege teljes."
+    },
+    {
+      "old_id": "M7.1-NAR-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M7.1 SLIDE 7 záró feladatának OPCIONÁLIS narrációja („ugyanez hangban”). 2026-10-03-i projektgazdai döntés (VO D-16, C opció, a PRODUCTION-DECISIONS.md D7 mintája): a narráció nem készül el — a 15–20 mp-es keretbe csak kb. 267 szó/perces tempóval fért volna, és dia-szövegként nem fülre írt szöveg. A dia teljes szövege, benne az adattakarékossági mondattal, változatlanul látható; a v2-ben nincs szemantikus asset."
+    },
+    {
+      "old_id": "M7.1-FEL-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M7.1-NAR-02 felirata. A szülő narráció nem készül el (lásd M7.1-NAR-02 diszpozíció, VO D-16), így nincs mit feliratozni. Akadálymentesítési rés nem keletkezik: a dia tartalma eleve olvasható szövegként áll a leckében."
+    },
+    {
+      "old_id": "M7.1-LEI-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M7.1-NAR-02 leirata. A szülő narráció nem készül el (VO D-16), így nincs csak hangban elérhető tartalom, amelyhez szöveges alternatíva kellene; a WCAG 2.2 SC 1.2.1 nem sérül, a dia szövege teljes."
     }
   ]
 }

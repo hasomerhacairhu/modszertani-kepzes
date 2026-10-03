@@ -13,9 +13,9 @@ kisebb vagy egyenlő, mint az „érintett”.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 417 | 901 |
-| Ebből központilag előgyártható | 406 | 896 |
-| Ebből **most gyártható** | **36** | **36** |
+| Összesen | 415 | 903 |
+| Ebből központilag előgyártható | 404 | 898 |
+| Ebből **most gyártható** | **285** | **526** |
 | Élő/runtime tétel (a képző hozza létre a peulán) | 3 | 5 |
 
 ---
@@ -129,17 +129,27 @@ nyitott-érték jelölés kivezetve) és R6 (a modulhatókörű feloldás),
 
 ---
 
-## D2 — Melyik ElevenLabs egyedi hang legyen a kanonikus narrátor? (R3)
+## D2 — Melyik ElevenLabs egyedi hang legyen a kanonikus narrátor? (R3) — LEZÁRVA
 
 > ✅ **A szolgáltatói kérdés lezárult (felhasználói döntés, 2026-08-28).** A felmondás
 > **szintetikus**, a motor az **ElevenLabs**. A „szintetikus vagy emberi” és a „melyik
 > szolgáltató” kérdés **többé nem nyitott**, és nem is kerül újra elő.
 
-**A megmaradt kérdés egyetlen mondat:** a két forrás-beszélő — **VOICE-SRC-01** és
-**VOICE-SRC-02** — felvételeiből **létrehozandó** két ElevenLabs egyedi hang közül melyik
-legyen a tananyag **kanonikus narrátora**? **A hangok még nem készültek el**, ezért a
-meghallgatás még nem futtatható: előbb hozzájárulás-bizonyíték (V2), majd a tanítási
-kimaradás bekapcsolása, és csak utána a két hang létrehozása (azonos módszerrel).
+> **Projektgazdai döntés (2026-10-03, VO 2. fázis; VO D-01, D-02, D-03, D-09, D-12, D-14):**
+> mindkét ElevenLabs-hang — a kanonikus narrátorhang és a második hang — létezik; a hanghasználati jog tisztázott, a
+> hang tulajdonosai kifejezetten hozzájárultak. Az elsődleges narrátor a **kanonikus narrátorhang**; a
+> második hang jogtisztázott, a kalibrálása nem feltétele az első gyártási körnek. A
+> gyártási konfiguráció: `eleven_v4`, `stability` 0,35, `similarity_boost` 0,75 (`speed` és
+> `style` nincs), `apply_text_normalization: auto`, `pcm_48000`, a kanonikus kiejtési szótár
+> (`ulYxuUbd8aSRJ89Pv2Q8` / `VFpQiiOF789b08uzsooM`); részletek: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md)
+> 12. szakasz. A meghallgatásos hangválasztás nem fut. A formális jogosultsági bizonyíték
+> ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5) függő. A döntés szó szerinti szövege:
+> `01 Fejlesztés/04 Audit/2026-10-03 Projektgazdai döntések – VO 2. fázis.md`.
+
+**A kérdés 2026-08-28-án** az volt, hogy a két forrás-beszélő — **VOICE-SRC-01** és
+**VOICE-SRC-02** — felvételeiből létrehozandó ElevenLabs egyedi hangok közül melyik legyen a
+tananyag **kanonikus narrátora**. A 2026-10-03-i projektgazdai döntés (fent) lezárta: a
+kanonikus narrátorhang ki van jelölve.
 
 **A) VOICE-SRC-01**
 **B) VOICE-SRC-02**
@@ -162,51 +172,50 @@ későbbi döntés** — ez a lap nem osztja ki neki.
 |---|---|
 | Felmondó típusa | ✅ **szintetikus** |
 | Motor / szolgáltató | ✅ **ElevenLabs** |
-| **Kanonikus hang** | ⛔ **A vagy B — meghallgatásos döntés** |
-| Hang-objektumok létrehozása | ⛔ **még nem történt meg** — előbb dokumentált hangjogosultság kell. **PVC esetén a forrásbeszélőnek a saját hangját saját maga kell létrehoznia és hitelesítenie; a projektfiók más személy PVC-jét még hozzájárulással sem hozhatja létre.** A kész PVC privát megosztással adható át. IVC csak akkor választható, ha a jogosultság, a fiók/workspace és az aktuális feltételek ezt lehetővé teszik. A feltöltés előtt a tanítási kimaradásnak abban a fiókban is élnie kell, ahová a felvétel kerül — PVC-nél tehát a forrásbeszélőében ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.2.). |
-| Voice-ID | ⛔ **NINCS — a hang még nem jött létre** |
-| Hangtípus | ⛔ **NINCS — a jogosulttal és az aktuális szolgáltatói feltételekkel összhangban kell kiválasztani** |
-| Modell | 🔎 javaslat: `eleven_flash_v2_5`, `language_code: "hu"` — a hangtípus és a meghallgatás erősíti meg |
-| Hangbeállítások és seed | ⛔ a teszt rögzíti |
-| Kiejtési szótár | ⛔ a teszt *eredménye*, nem a bemenete |
-| Hang-jogosultság igazolása | ⛔ → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
+| **Kanonikus hang** | ✅ **kijelölve** — a kanonikus narrátorhang (projektgazdai döntés, 2026-10-03, VO D-14); mellette a jogtisztázott második hang |
+| Hang-objektumok létrehozása | ✅ **megtörtént** — mindkét hang létezik (VO D-01). A létrehozás módjára vonatkozó szolgáltatói szabály (PVC-t a forrásbeszélő maga hoz létre és hitelesít; a tanítási kimaradásnak a feltöltés előtt élnie kell) változatlanul érvényes; hogy ez a két hangnál hogyan teljesült, azt csak valós bizonyíték rögzítheti ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.0, R2-5). |
+| Voice-ID | a hang létezik; az azonosító nem a repóban él. A `HUM-MEDIA-02` szerint a VOICE-BIBLE csak a ténylegesen létrehozott, jogosult voice-ID-t kaphatja meg — a rögzítés: ⟬KITÖLTENDŐ⟭ |
+| Hangtípus | fiókbizonyítékból rögzítendő (nem találjuk ki) |
+| Modell | ✅ `eleven_v4`, `language_code: "hu"` (VO D-02) |
+| Hangbeállítások és seed | ✅ `stability` 0,35, `similarity_boost` 0,75; rögzített seed (VO D-02) |
+| Kiejtési szótár | ✅ a kanonikus gyártási kiejtési szótár, `ulYxuUbd8aSRJ89Pv2Q8` / `VFpQiiOF789b08uzsooM` (VO D-03) |
+| Hang-jogosultság igazolása | tartalmilag tisztázott (VO D-01); formális bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5 (függő) |
 
-> ⛔ **A hangok még nem léteznek.** PVC esetén nem a projektfiók tölti fel és hitelesíti
-> más személy hangját: a forrásbeszélő a saját fiókjában hozza létre és hitelesíti a PVC-t,
-> majd privát megosztással adhat hozzáférést. IVC esetén külön kell igazolni a használati
-> jogosultságot és az aktuális fiók-/workspace-feltételeket. A meghallgatási folyamat csak
-> ezután indulhat ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
-> környezetben **nincs ElevenLabs hitelesítő adat** — sem környezeti változó, sem
-> konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. Voice-ID-t és
-> hangtípust ezért **nem rögzítettünk, és nem is találtunk ki.** A létrehozás utáni
-> azonosítás menete: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
+> ✅ **A hangok léteznek (projektgazdai tényközlés, 2026-10-03, VO D-01).** A létrehozás
+> módjára vonatkozó szolgáltatói szabály (PVC: a forrásbeszélő a saját fiókjában hozza létre és
+> hitelesíti, majd privát megosztással ad hozzáférést; IVC: külön igazolt használati
+> jogosultság) változatlan, de hogy a két hangnál ez hogyan teljesült, azt a repó csak valós
+> bizonyítékból rögzítheti. A repóban nincs ElevenLabs hitelesítő adat, és voice-ID-t, hangtípust
+> nem találunk ki. Az azonosítás menete: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
 
-**Miért nem elég a szolgáltató kiválasztása az R3 lezárásához:** amíg nincs kanonikus
-hang, ellenőrzött voice-ID, rögzített modell és beállítás-készlet, a felvétel **nem
-reprodukálható** — és a szolgáltató maga mondja ki, hogy modelljei nem determinisztikusak.
-Az R3 blokkoló ezért mind a **117 tételen** a helyén marad.
+**Mi kell még az R3 lezárásához (2026-10-03):** a kanonikus hang, a modell, a beállítások és a
+szótár rögzítve; nyitott a voice-ID rögzítési helye és a P-NAR pilot (`M4.2-NAR-03`) fülre
+jóváhagyása produkciós környezetben (VO D-13). Az R3 blokkoló ezért a tételeken a helyén marad;
+a levétele a manifesztben külön, tömeges módosítás (116 deklaráció).
 
-**Miért fontos:** a kutatás egy nem várt eredményt hozott. A szolgáltató **leghosszabb
+**Miért fontos (2026-08-28, történeti):** a kutatás egy nem várt eredményt hozott. A szolgáltató **leghosszabb
 formára legstabilabbnak jelölt modellje (`eleven_multilingual_v2`) nem támogatja a
 magyart** — a dokumentált 29 nyelve közt a `hu` nincs ott. A magyar tehát leszorít a
 stabilitási zászlóshajóról, és a választás az `eleven_flash_v2_5` és az `eleven_v3` között
 marad. A javaslat a `flash_v2_5`, mert az `eleven_v3`-on **nincs tempó-vezérlés**
 („Speed is not available for the Eleven v3 model”), a tananyag pedig kötött 100–120
-szó/perc célsávot ír elő. Részletek: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.1–13.2.
+szó/perc célsávot ír elő. Részletek: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.1–13.2. A 2026-10-03-i döntés
+az `eleven_v4`-et rögzítette, amelyen a fülre hozott kiejtési döntések születtek; tempó-vezérlés
+ott sincs, a tempót a szöveg és az időkeret adja ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 4., 12.).
 
 **Mit szabadít fel:** R3 lezárása önmagában **0 asset**: mind a 117 R3-tételen az R2 is
 ül, mert a felmondás szintetikus, így az R2 a narrációkra is kiterjed
 ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz). Az R3 + R2 együtt — az R5-öt és
 a nyitott emberi döntéseket még nyitva hagyva — **109 asset / 344 deliverable**.
 
-**Ki dönt:** a kanonikus hangról a program-felelős, meghallgatás alapján; a
-hang-jogosultságról a jogi jóváhagyó és a hang jogosultja.
+**Ki döntött:** a kanonikus hangról és a gyártási konfigurációról a projektgazda (2026-10-03); a
+hang-jogosultság formális bizonyítékáról a jogi jóváhagyó és a hang jogosultja.
 
 **A válasz helye:**
 - felmondó típusa: **szintetikus** ✅
 - motor: **ElevenLabs** ✅
-- kanonikus hang (a VOICE-SRC-01 / VOICE-SRC-02 forrás-beszélőből készült hangok közül): ⟬KITÖLTENDŐ⟭
-- voice-ID, modell, beállítások, seed, kiejtési szótár verziója: ⟬KITÖLTENDŐ⟭
+- kanonikus hang: **kijelölve** ✅ (2026-10-03)
+- modell, beállítások, seed, kiejtési szótár verziója: ✅ [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12. szakasz; voice-ID: ⟬KITÖLTENDŐ⟭ (a rögzítés helye nyitott)
 
 **Mit kell utána átírni:** `produkcios-szabalyok.json` R3,
 [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12. szakasz,
@@ -283,7 +292,7 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 - generátor / szolgáltató neve és verziója: ⟬KITÖLTENDŐ⟭
 - kereskedelmi-oktatási felhasználást engedő licenc hivatkozása: ⟬KITÖLTENDŐ⟭
 - avatar-/képmás-jogosultság igazolása: ⟬KITÖLTENDŐ⟭
-- hang-jogosultság (voice-talent release vagy klónozási engedély): ⟬KITÖLTENDŐ⟭
+- hang-jogosultság (voice-talent release vagy klónozási engedély): tartalmilag tisztázott — mindkét hang tulajdonosai kifejezetten hozzájárultak (projektgazdai tényközlés, 2026-10-03, VO D-01); a formális, nem személyes hivatkozás (`VOICE-RIGHTS-REGISTER`): ⟬KITÖLTENDŐ⟭
 
 ---
 
@@ -426,11 +435,17 @@ R2, R3 és R5 lezárása önmagában nem teszi gyárthatóvá.
 > kerül, nem a repositoryba ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md)). Utólagos
 > ellenőrzés (vétó/QA): a jogi/adatvédelmi felelős és a hang tulajdonosai.
 
+> **Projektgazdai döntés (2026-10-03, VO D-14, D-15):** az első gyártási körben mindkét madrihot
+> a kanonikus narrátorhang szólaltatja meg, beszélőnként külön szegmensben, a feliratban
+> beszélőjelöléssel; a második hang kalibrálása után az egyik szerep újrarenderelhető, az azonosítók és
+> a felirat változatlanok. Az `M4.1-VID-04/05` szereplője néma, a 3. jelenet mondatát a narrátor
+> idézi; karakterhang nem készül. Nyitott marad a kétszereplős, szájszinkronos gyártási út.
+
 **Ki dönt:** a hang-jogosultságról a `HUM-MEDIA-02` jóváhagyói (jogi/privacy felelős + a
-hang tulajdonosa); a hangkiosztásról és a gyártási útról: ⟬KITÖLTENDŐ⟭.
+hang tulajdonosa); a hangkiosztásról a projektgazda döntött (2026-10-03, VO D-14); a gyártási útról: ⟬KITÖLTENDŐ⟭.
 
 **A válasz helye:**
-- dialógushang(ok): ⟬KITÖLTENDŐ⟭
+- dialógushang(ok): **első kör: a kanonikus narrátorhang mindkét szerepre, beszélőnként szegmentálva** ✅ (VO D-14); a második hang kalibrálása után az egyik szerep újrarenderelhető
 - gyártási út (kétszereplős, szájszinkronos): ⟬KITÖLTENDŐ⟭
 
 **Mit kell utána átírni:** az `M1.3-VID-01` `decision` mezője a leckében (amíg a kérdés
@@ -471,5 +486,7 @@ fenti saját szakaszában maradt, mert ott állnak a kitöltött értékei.
 | **D4** | Az M4 HOOK-formátum marad vegyes: az M4.2–M4.4 statikus illusztrációval nyit, új beszélőfej-videó nem készül (A opció). | Az `M4.2-ILL-01` `decision` mezője kiürült; az asset a szokásos R5 alatt gyártandó. |
 | **D6** | Az `M1.3-VID-01` HOOK-dialógjának szövege jóváhagyva (A opció). | A szó szerinti szöveg `@source` blokkba került az M1.3 leckében (`M1.3-VID-01-VO`), az asset `source_ref`-fel hivatkozik rá, a felirat és a leirat onnan generálódik. Az asset továbbra is R2 + R3 + R5 alatt áll. |
 | **D7** | Az `M3.2-NAR-02` opcionális narráció **nem készül el** (B opció). | A szemantikus asset és a három deliverable megszűnt; a dia látható tartalma változatlan, csak az „Opcionális narráció (30–40 mp)” sor került ki. A három történeti v1 sor `NO_LONGER_REQUIRED` diszpozícióval, indoklással egyeztetve (`_legacy/legacy-dispositions.json`). |
+| **VO D-16** | Az `M5.3-NAR-01` és az `M7.1-NAR-02` opcionális, dia-szöveges narráció **nem készül el** (C opció, a D7 mintája; projektgazdai döntés, 2026-10-03). | A két szemantikus asset és a hat deliverable megszűnt; a dia látható tartalma változatlan, csak az „(Opcionális … narráció …)” sor került ki. A hat történeti v1 sor `NO_LONGER_REQUIRED` diszpozícióval, indoklással egyeztetve (`_legacy/legacy-dispositions.json`). |
+| **VO D-18** | Az `M1.3-VID-01` hangalámondásos képleírást kap (a) opció; projektgazdai döntés, 2026-10-03). | Új forrásblokk és asset: `M1.3-NAR-08-VO` / `M1.3-NAR-08` (voiceover, a narrátor hangján, a párbeszéd szüneteiben); átszámozás nincs. A végleges szöveg és időzítés a legyártott videón ellenőrizendő. |
 | **D9** | A kanonikus, tanulónak látható AI-provenance címke szövege: **„AI-generált médiaelem · emberi lektorálással.”** | Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve mind a 21 aktív előfordulásra a tananyagban. A címke **vizuális megjelenése és elhelyezése** a D1 első lépcsőjéből következik (2026-10-02: élő LMS-szöveg, a `PRODUCTION-STYLE-TOKEN.md` 7.3. pontja szerint). |
 | **F-02** | Az élő/runtime tételek nem számítanak a központi „most gyártható” kötegbe. | `technical.production_phase: trainer-at-runtime` három asseten (`M0.A-EGY-01`, `M0.A-FOTO-01`, `Z.A-KART-04`); a produkciós terv külön szakaszban mutatja őket, a rájuk vonatkozó kapukkal együtt. A követelményük és a deliverable-jük megmarad. |

@@ -929,14 +929,37 @@ class TestRepositoryCorpus(unittest.TestCase):
                 differing.append(path.name)
         self.assertEqual([], differing)
 
-    def test_slide_text_narrations_are_source_backed(self):
-        """Where the lesson says the narration is the slide text, it must be linked."""
+    def test_dropped_slide_text_narrations_keep_the_slide_text(self):
+        """VO D-16 (2026-10-03): the two slide-text narrations are not produced (D7 pattern).
+
+        The asset, its source block and its deliverables are gone; the slide keeps its
+        full visible text, found by the first and last line the one-time migration
+        used for these narrations (media_migrate_v2.SLIDE_TEXT_NARRATIONS).
+        """
         by_id = {a["id"]: a for a in self.model["assets"]}
-        for asset_id in ("M5.3-NAR-01", "M7.1-NAR-02"):
-            asset = by_id[asset_id]
-            self.assertTrue(asset["source_ref"], f"{asset_id} forrás nélkül maradt")
-            self.assertTrue(asset["source_text"].strip())
-            self.assertEqual([], asset["readiness_issues"], asset_id)
+        sources = {s["id"] for s in self.model["sources"]}
+        deliverables = {d["id"] for d in self.model["deliverables"]}
+        lessons = {
+            "M5.3-NAR-01": ("Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – "
+                            "Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
+                            "(Opcionális 20–30 mp-es narráció ugyanezzel a szöveggel.)"),
+            "M7.1-NAR-02": ("Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – "
+                            "SMART nevelési cél someres módra.md",
+                            "(Opcionális narráció, 15–20 mp-ben ugyanez hangban.)"),
+        }
+        for asset_id, (rel, dropped_line) in lessons.items():
+            self.assertNotIn(asset_id, by_id)
+            self.assertNotIn(f"{asset_id}-VO", sources)
+            for gone in (asset_id, f"{asset_id}::CAPTIONS", f"{asset_id}::TRANSCRIPT"):
+                self.assertNotIn(gone, deliverables)
+            text = mig.strip_metadata((mm.ACTIVE_ROOT / rel).read_text(encoding="utf-8"))
+            first, last, _why = mig.SLIDE_TEXT_NARRATIONS[asset_id]
+            self.assertIn(first, text, asset_id)
+            self.assertIn(last, text, asset_id)
+            self.assertNotIn(dropped_line, text, asset_id)
+            if asset_id == "M7.1-NAR-02":
+                self.assertIn("A kvucádról ne írj azonosító adatot", text,
+                              "az adattakarékossági mondat a dián marad")
 
     def test_asset_free_files_state_a_reason(self):
         for file_rec in self.model["files"]:
@@ -1760,6 +1783,35 @@ class TestApprovedDecisions(unittest.TestCase):
                      "előbb-utóbb vagy ők fognak unatkozni, vagy te készülsz ki teljesen",
                      "gyors **„fejprofilod”** mind a három aktuális kvucáról"):
             self.assertIn(kept, text, kept)
+
+    # --- VO D-16: two optional slide-text narrations are not produced ---------
+
+    def test_the_dropped_slide_text_narrations_keep_an_honest_disposition(self):
+        recon = mm.reconcile(self.model)
+        by_old = {row[0]: row for row in recon["rows"]}
+        for old_id in ("M5.3-NAR-01", "M5.3-FEL-01", "M5.3-LEI-01",
+                       "M7.1-NAR-02", "M7.1-FEL-02", "M7.1-LEI-02"):
+            self.assertIn(old_id, by_old)
+            status, reason = by_old[old_id][7], by_old[old_id][8]
+            self.assertEqual("NO_LONGER_REQUIRED", status, old_id)
+            self.assertIn("D-16", reason, old_id)
+        self.assertEqual(747, recon["legacy_total"])
+        self.assertEqual(0, recon["unmapped"])
+        self.assertEqual([], recon["conflicts"])
+
+    # --- VO D-18: the M1.3 HOOK gets an audio-description script --------------
+
+    def test_m13_audio_description_is_its_own_narration_source(self):
+        ad = self.by_id["M1.3-NAR-08"]
+        self.assertEqual("voiceover", ad["kind"])
+        self.assertEqual("M1.3-NAR-08-VO", ad["source_ref"])
+        self.assertIn("transcript", ad["derivatives"])
+        for phrase in ("első verzió – címke", "második verzió – SBI-szerű",
+                       "az S a szituációnál, a B a viselkedésnél, az I a hatásnál"):
+            self.assertIn(phrase, ad["source_text"], phrase)
+        dialogue = self.by_id["M1.3-VID-01"]
+        self.assertEqual("M1.3-VID-01-VO", dialogue["source_ref"])
+        self.assertNotIn("szituációnál", dialogue["source_text"])
 
     # --- D4: the M4 HOOK format question is answered -------------------------
 

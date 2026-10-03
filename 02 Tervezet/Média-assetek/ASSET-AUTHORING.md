@@ -79,6 +79,11 @@ kép — az a `spec` mezőbe való, nem forrásblokkba.
 -->
 ```
 
+Csak hangot tartalmazó narrációnál a szöveges ekvivalens a dián vagy a médiaelem mellett
+látható leirat (`transcript`), amelynek első sora a kanonikus AI-címke; a `captions` itt
+archivált `.vtt`-derivatíva, a H5P Audio elemben nem jelenik meg (projektgazdai döntés,
+2026-10-03, VO D-19, D-21; `LMS – hozzáférhetőségi sztenderd.md` 1. szakasz).
+
 ### 2.2 AI beszélő fej videó
 
 Lásd az 1. pont példáját. A `voiceover` derivatíva a felvett hang, a `captions`
@@ -90,7 +95,7 @@ dekoratívnak: a beszélő fej **képi sávja** lehet dekoratív (`"visual": "de
 ha minden információ benne van a hangban és a leiratban — ezt az `alt_note` mondja ki,
 ahogy az 1. pont példájában. **Jelenetvideónál**, ahol arckifejezés, gesztus vagy képi
 történés hordoz jelentést, a képi sáv tartalmi (`"visual": "informative"`, `alt-text`
-derivatívával): szöveges alternatíva vagy hangalámondásos képleírás kell (2.13).
+derivatívával): hangalámondásos képleírás és mellette szöveges alternatíva kell (2.13).
 
 **Gyermekvédelmi vagy krízis-HOOK-hoz nem deklarálunk készlet-AI-beszélőfejet**
 (projektgazdai döntés, `HUM-MEDIA-03`, 2026-10-02; utólagos ellenőrzés (vétó/QA): a
@@ -252,7 +257,7 @@ helyre. „Hasonló”, „ugyanaz a stílus”, „ugyanarról szól” — eze
  "spec": "H5P Interactive Video, 3 mini-jelenet, mindegyik után kérdés.",
  "composed_of": ["M9.5-VID-02", "M9.5-VID-03", "M9.5-VID-04"],
  "a11y": {"audio": "spoken", "visual": "informative",
-          "alt_note": "a jelenetekben a gesztus és az arckifejezés is jelentést hordoz: szöveges alternatíva vagy hangalámondásos képleírás kell"},
+          "alt_note": "a jelenetekben a gesztus és az arckifejezés is jelentést hordoz: hangalámondásos képleírás és mellette szöveges alternatíva kell"},
  "derivatives": ["captions", "transcript", "alt-text"]}
 ```
 
@@ -269,8 +274,8 @@ a fordító hibát jelez, ha mégis ott van. Az összetevők a saját elsődlege
 fájljukat (a jelenetvideót) továbbra is legyártandóként viszik.
 
 A példában a konténer képi sávja **tartalmi**: ha a jelenetekben arckifejezés, gesztus
-vagy képi történés hordoz jelentést, a felirat és a leirat nem elég, szöveges
-alternatíva vagy hangalámondásos képleírás is kell (2.2). Ha egy jelenetben minden
+vagy képi történés hordoz jelentést, a felirat és a leirat nem elég, hangalámondásos
+képleírás és mellette szöveges alternatíva is kell (2.2). Ha egy jelenetben minden
 információ benne van a hangban és a leiratban, az `alt_note`-ban indokolva maradhat
 dekoratív — a besorolás videónként külön döntés.
 
