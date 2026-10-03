@@ -5,8 +5,8 @@
       "sha256": "20059790ff36adf541cdf305e1461ac7eb73444602a8c28528f0a8d45514343c"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "P4-01…P4-11: VO 2. fázis 4. javítócsomag; K5–K7 (projektgazdai döntés, 2026-10-03)",
-      "sha256": "79b2a505d3a5a6eda8a05cfa14008fc5135cd02d2ae8cdb248e04720b5008d1d"
+      "reason": "P5-01…P5-11: VO 2. fázis 5. javítócsomag (UE4-findingok; K6, K7)",
+      "sha256": "5e11eb560493776ae069a11ff583f3856e85c104e39e8fb0ad7ec7384df6865f"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
@@ -69,8 +69,8 @@
       "sha256": "a5d3a4a83e609f97da430d8d071aa1601f0ae8dc7b013c3b624762dc4a27c235"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "P4-01…P4-11: VO 2. fázis 4. javítócsomag; K5–K7 (projektgazdai döntés, 2026-10-03)",
-      "sha256": "5f9377e6dd5bb31944188391ca07c43f6c911b45e5cfa902f7109b91c80fd82f"
+      "reason": "P5-01…P5-11: VO 2. fázis 5. javítócsomag (UE4-findingok; K6, K7)",
+      "sha256": "1f242bf90c14893f7b966ec4deb2dfcb7af966bb7c954614f2649642e9ff8eb8"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
