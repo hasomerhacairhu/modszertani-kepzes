@@ -170,7 +170,7 @@ Opciók:
     "R5"
   ],
   "blockers": [],
-  "notes": "Ezen a dián nincs kérdés (tiszta Input, lásd a dia záró sorát). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak felirat/leirat ekvivalense Z.1-NAR-01::CAPTIONS.",
+  "notes": "Ezen a dián nincs kérdés (tiszta Input, lásd a dia záró sorát). Kapcsolódik: Z.1-DIA-01::ALTTEXT, valamint az opcionális narráció Z.1-NAR-01 és annak szöveges ekvivalense, a Z.1-NAR-01::TRANSCRIPT leirat (a Z.1-NAR-01::CAPTIONS archivált .vtt-derivatíva, VO D-19).",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-02"
@@ -213,7 +213,7 @@ Opciók:
     "R2",
     "R3"
   ],
-  "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia) és Z.1-NAR-01::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
+  "notes": "Opcionális. Kapcsolódik: Z.1-DIA-01 (ugyanazon dia), Z.1-NAR-01::TRANSCRIPT (szöveges ekvivalens) és Z.1-NAR-01::CAPTIONS (archivált .vtt-derivatíva, VO D-19).",
   "legacy": {
     "asset": [
       "Z.1-NAR-01"
@@ -487,7 +487,7 @@ Opciók:
     "R2",
     "R3"
   ],
-  "notes": "Opcionális. Kapcsolódik: Z.1-NAR-02::CAPTIONS (szöveges ekvivalens, felirat+leirat egyben).",
+  "notes": "Opcionális. Kapcsolódik: Z.1-NAR-02::TRANSCRIPT (szöveges ekvivalens) és Z.1-NAR-02::CAPTIONS (archivált .vtt-derivatíva, VO D-19).",
   "legacy": {
     "asset": [
       "Z.1-NAR-02"

@@ -69,8 +69,8 @@
       "sha256": "a5d3a4a83e609f97da430d8d071aa1601f0ae8dc7b013c3b624762dc4a27c235"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
-      "sha256": "ce46cf9fe502738f3053c3d5daabf8ac2078ebaac8329ee6caffe81fcafa880b"
+      "reason": "P3-01…P3-15: VO 2. fázis 3. javítócsomag (projektgazdai döntés, 2026-10-03)",
+      "sha256": "9d05694327ba67f2c971166f0263836f0af22ed5bd74dc2d460a0308a74a72b6"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
@@ -241,12 +241,12 @@
       "sha256": "2bc4bd53af854f7096b8ad37a681b7180ac9a2a081aa6f8df7df76434de16377"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "7d2e2dfbcfc518ad9e09e2bd7f8adf76a9550a7409c0cbbab875bb0ebead3830"
+      "reason": "P3-01…P3-15: VO 2. fázis 3. javítócsomag (projektgazdai döntés, 2026-10-03)",
+      "sha256": "5ff389409765249be18bfe8890217d1728821898ef10c56159e600430eb161ca"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "f2220b4209314a084cc57a8053073c6a79586f3030f514496eda2b298d7df1c1"
+      "reason": "P3-01…P3-15: VO 2. fázis 3. javítócsomag (projektgazdai döntés, 2026-10-03)",
+      "sha256": "8d0348c6149a81fd1c442d4b53e59eb8f4914915fc07bf122a55f7865f2a0c7b"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",

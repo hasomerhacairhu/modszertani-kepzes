@@ -2,7 +2,7 @@
 
 > **Audit trail, nem tananyag.** A projektgazda válaszai a VO 2. fázis course fix pack (`/course-fix`) utáni
 > egyeztetésen, 2026-10-03-án, a munkamenetben feltett kérdésekre (AskUserQuestion). A kérdés és a választott opció
-> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4 döntések és a K5 tényközlés bizonyítéka; a kapcsolódó
+> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4, K6 döntések és a K5 tényközlés bizonyítéka; a kapcsolódó
 > nyitott findingok: `2026-10-03 course-fix napló – VO 2. fázis.md`, „Célzott utóellenőrzés”.
 
 **Jóváhagyta:** projektgazda · **Dátum:** 2026-10-03
@@ -65,3 +65,17 @@
   személyes adat (életkor, születési dátum) a repóba nem kerül.
 - **Átvezetés:** a kurzusoldali hivatkozó helyek (RIGHTS-EVIDENCE R2-5, ELEVENLABS-VOICE-TEST 1.0., a HUM-MEDIA-02
   2026-10-03-i bekezdése) a következő fix packban, `/course-fix`-szel.
+
+## K6 — A nagykorúság igazolása a hangjogosultsági nyilvántartásban (UE3-BIZT-3)
+
+- **Kérdés (a munkamenetben, szabad szöveggel):** „Nagykorúság igazolása: kerüljön-e a hangjogosultsági
+  nyilvántartásba (pl. „ellenőrizve: igen”, életkor nélkül)?”
+- **Válasz, szó szerint:** „persze kerüljön ellenőrizve vanna knagykorúak, pont.”
+- **Döntés:** a `VOICE-RIGHTS-REGISTER` a forrás-beszélőkhöz rögzíti, hogy a nagykorúság ellenőrizve (igen/nem), az
+  ellenőrzés dátumával és az ellenőrző szerepével; életkor, születési dátum vagy igazolvány-adat nem kerül bele. A
+  projektgazda közlése szerint mindkét forrás-beszélő nagykorúsága ellenőrizve van.
+- **Nem állítja:** DPO- vagy jogi jóváhagyást. A nyilvántartás bejegyzése és a jóváhagyói minősítés a VO D-08 szerint
+  bizonyíték-kapu marad (a nyilvántartás a repón kívül, korlátozott hozzáférésű helyen él; a repóba csak a nem
+  személyes hivatkozás kerülhet). Utólagos ellenőrzés (vétó/QA): DPO.
+- **Átvezetés:** ELEVENLABS-VOICE-TEST 1.0. („nyitott” mondat), RIGHTS-EVIDENCE (a nyilvántartás kötelező mezői, R2-5),
+  HUM-MEDIA-02 2026-10-03-i bekezdése — a következő fix packban, `/course-fix`-szel.

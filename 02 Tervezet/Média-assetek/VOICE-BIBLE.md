@@ -165,21 +165,20 @@ hangzást rögzített: ott a kanonikus kiejtési szótár (12. szakasz) aliasa a
 - **Időtartamok:** `45’` = „negyvenöt perc”, `45 mp` = „negyvenöt másodperc”.
 - **Segélyvonalak** (112, 116-111, 116-123) narrációban **nem** hangzanak el — képzői
   kártyán szerepelnek (`M3.B-KART-02`). Ha valaha narrációba kerülnek, számjegyenként
-  kell mondani őket — **kivéve a 112-t**, amely mindig „száztizenkettő” alakban hangzik el,
-  soha nem „egy-egy-kettő”-ként. Ma egyedül az `M3.3-NAR-01-VO` gyermekvédelmi lépéssorában
-  hangzik el; az írott szöveg és a felirat „112” marad, a kimondott
+  kell mondani őket. **Kivétel: a 112** az `M3.3-NAR-01-VO` gyermekvédelmi lépéssorában
+  elhangzik, mindig „száztizenkettő” alakban, soha nem „egy-egy-kettő”-ként; az írott szöveg és a felirat „112” marad, a kimondott
   alakot a hang bemenete (tts_text) rögzíti (projektgazdai döntés, 2026-10-03, VO D-07;
   utólagos ellenőrzés (vétó/QA): a Memuna). A 116-os vonalakra a fenti szabály változatlan.
 
 ## 8. Karakter- és dialógushangok
 
-A tananyagban **két** jelenet hordoz szereplői beszédet. Az első gyártási körben az `M4.1`-jeleneteket
-a kanonikus narrátorhang, az `M1.3-VID-01` párbeszédét a két hang együtt szólaltatja meg:
+A tananyagban **két** jelenet hordoz szereplői beszédet. Az első gyártási körben az `M4.1`-jelenetek narrációját
+a kanonikus narrátorhang mondja, az `M1.3-VID-01` párbeszédét a két hang együtt szólaltatja meg:
 
 - `M1.3-VID-01` — két madrih (A és B) beszélget, ugyanaz a helyzet kétféle
   visszajelzéssel. A szkriptet a szerző 2026-08-27-én jóváhagyta; a szó szerinti dialóg a
   leckében, `M1.3-VID-01-VO` forrásblokkban él. **Első gyártási kör (projektgazdai döntés,
-  2026-10-03, VO D-14; kiegészítő döntés K4):** Madrih A-t a kanonikus narrátorhang, Madrih B-t a
+  2026-10-03, VO D-14; kiegészítő döntés K4):** Madrih A szerepét a kanonikus narrátorhang, Madrih B szerepét a
   második hang mondja, **beszélőnként külön szegmensben** — a replikák nem fűződnek egyetlen
   névtelen TTS-folyammá, a beszélő azonosítója a szerkezetben megmarad, és a felirat minden
   replikánál megnevezi a beszélőt. A második hangot ehhez előbb kalibrálni kell (VO QA-repó);
@@ -255,7 +254,7 @@ rögzítendő. Javaslat a pilothoz: beszédre normalizálva, azonos csúcsérté
 
 ## 11. Konzisztencia-szabályok
 
-1. **Egy narrátorhang mindenre.** A narrációt és az `M4.1`-jeleneteket a kanonikus narrátorhang
+1. **Egy narrátorhang mindenre.** A narrációt — az `M4.1`-jelenetekét is — a kanonikus narrátorhang
    mondja (VO D-15); egyetlen kivétel az `M1.3-VID-01` Madrih B szerepe, amelyet a második hang
    mond (VO D-14; K4).
 2. **A pilot ellenőriz, nem dönt újra.** A kiejtés kanonikus döntési forrása a

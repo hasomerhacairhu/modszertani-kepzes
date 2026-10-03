@@ -61,7 +61,10 @@ bizonyíték függő).
   használható, és kiskorú hangjának klónozása tiltott ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md)
   13.10., V3; [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) E-8). Hogy mi igazolja a
   nagykorúságot, és ez a V2 hozzájárulás része-e, nyitott: a `HUM-MEDIA-02` projektgazdai
-  döntésének kötelező mezői között nem szerepel.
+  döntésének kötelező mezői között nem szerepel. *(2026-10-03, K5: a projektgazda
+  tényközlése szerint a két forrás-beszélő nagykorú; a formális igazolás — a
+  `VOICE-RIGHTS-REGISTER` nem személyes hivatkozása és a jóváhagyói minősítés —
+  bizonyíték-kapu marad, VO D-08; életkor vagy születési dátum a repóba nem kerül.)*
 - **Összevethetőség:** a tesztnek csak akkor van értelme, ha a két hang **azonos módszerrel**
   és feltételekkel készül el — különben a különbség nem a hangot, hanem a létrehozási
   módot mérné.

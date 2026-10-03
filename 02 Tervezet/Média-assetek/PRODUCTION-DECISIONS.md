@@ -165,7 +165,7 @@ de mindkét olvasatban egy dollár alatt marad.
 
 **Egy hang lesz a narrátor.** Az R3 első mondata egyetlen konzisztens narrátor-hangot ír
 elő. A másik hang esetleges szerepe (tartalék, dialógus- vagy karakterhang) **külön,
-későbbi döntés** — ez a lap nem osztja ki neki.
+későbbi döntés** — ez a lap nem osztja ki neki. *(2026-10-03: eldőlt — az első gyártási körben az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után; VO D-14, K4, lásd D11.)*
 
 ### Ami a szolgáltatói döntés után is nyitva maradt
 
@@ -418,7 +418,7 @@ viszont erre a jelenetre nem alkalmazható: utólag aláillesztett hangnál ninc
 Nyitott:
 
 - melyik hang(ok) szólaltatják meg a két madrihot — a második hang szerepe a D2 szerint
-  külön, későbbi döntés;
+  külön, későbbi döntés *(2026-10-03: eldőlt — VO D-14, K4, lásd lent)*;
 - a dialógushang(ok) jogosultsága (R2, V2);
 - a kétszereplős, szájszinkronos gyártási út.
 
@@ -443,7 +443,7 @@ R2, R3 és R5 lezárása önmagában nem teszi gyárthatóvá.
 > idézi; karakterhang nem készül. Nyitott marad a kétszereplős, szájszinkronos gyártási út.
 >
 > **Kiegészítő projektgazdai döntés (2026-10-03, K4; bizonyíték: `01 Fejlesztés/04 Audit/2026-10-03 Projektgazdai döntések – VO 2. fázis, kiegészítés.md`):** az első
-> gyártási körben Madrih B-t már a második hang mondja, a kalibrálása után (VO QA-repó); Madrih A,
+> gyártási körben Madrih B szerepét már a második hang mondja, a kalibrálása után (VO QA-repó); Madrih A,
 > a képleírás (`M1.3-NAR-08`) és minden más narráció a kanonikus narrátorhanggal szól. Az
 > `M1.3-VID-01` hanganyaga a kalibrálásig nem készülhet el; a többi tételt ez nem blokkolja.
 
@@ -512,5 +512,6 @@ fenti saját szakaszában maradt, mert ott állnak a kitöltött értékei.
 | **K2** | A csak hangot tartalmazó narrációk a11y-jegyzete egységesen a VO D-19 szerint (kiegészítő projektgazdai döntés, 2026-10-03). | 70 narráció a11y-jegyzete; a `captions` archivált .vtt-derivatívaként marad, a deliverable-ek száma nem változik. |
 | **K3** | A voice-ID csak a VO QA-repó gyártási konfigurációjában él, a kurzusrepóba nem kerül (kiegészítő projektgazdai döntés, 2026-10-03). | `VOICE-BIBLE.md` 12., D2 (fent), `README.md`, `RIGHTS-EVIDENCE.md` R2-4, `produkcios-szabalyok.json` R3, `HUM-MEDIA-02`. |
 | **K4** | A második hang az első gyártási körben az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után; a VO D-14 erre az egy tételre módosul (kiegészítő projektgazdai döntés, 2026-10-03). | `VOICE-BIBLE.md` 8., 11., 12.; D11 (fent); az `M1.3-VID-01` `decision` mezője; `PRODUCTION-STACK.md`, `PILOT-PRODUCTION-PACK.md`, `ELEVENLABS-VOICE-TEST.md`, `produkcios-szabalyok.json` R3. |
+| **K5** | A két forrás-beszélő (`VOICE-SRC-01`, `VOICE-SRC-02`) nagykorú — projektgazdai tényközlés (2026-10-03), a VO D-01 mintájára; a formális igazolás (a `VOICE-RIGHTS-REGISTER` nem személyes hivatkozása, jóváhagyói minősítés) bizonyíték-kapu marad (VO D-08); életkor, születési dátum a repóba nem kerül. | `ELEVENLABS-VOICE-TEST.md` 1.0.; `RIGHTS-EVIDENCE.md` R2-5. |
 | **D9** | A kanonikus, tanulónak látható AI-provenance címke szövege: **„AI-generált médiaelem · emberi lektorálással.”** | Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve mind a 21 aktív előfordulásra a tananyagban. A címke **vizuális megjelenése és elhelyezése** a D1 első lépcsőjéből következik (2026-10-02: élő LMS-szöveg, a `PRODUCTION-STYLE-TOKEN.md` 7.3. pontja szerint). Csak hangot tartalmazó narrációnál a címke a leirat első sora és a lecke alján egy sor (VO D-21, 2026-10-03). |
 | **F-02** | Az élő/runtime tételek nem számítanak a központi „most gyártható” kötegbe. | `technical.production_phase: trainer-at-runtime` három asseten (`M0.A-EGY-01`, `M0.A-FOTO-01`, `Z.A-KART-04`); a produkciós terv külön szakaszban mutatja őket, a rájuk vonatkozó kapukkal együtt. A követelményük és a deliverable-jük megmarad. |
