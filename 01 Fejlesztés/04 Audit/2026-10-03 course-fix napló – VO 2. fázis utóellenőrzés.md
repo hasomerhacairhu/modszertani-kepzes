@@ -185,6 +185,12 @@ helyes (W3C WebVTT 6.5); a `::CAPTIONS`/`::TRANSCRIPT` hivatkozások érvényes 
 „a voice-ID rögzítési helye nyitott” mondat; a HUM-MEDIA-02 dátuma, jóváhagyója és bizonyítéka változatlan; jogi,
 DPO- vagy Memuna-jóváhagyást az új szöveg nem állít (VO D-08); nem nyilvános adat nem került be.
 
+**Verifikáció és továbbvezetés (2026-10-03, a PR #13 merge-e után):** három független `verifier`-kör. MEGERŐSÍTVE vagy
+RÉSZBEN (objektív rész): UE2-BIZT-1, UE2-IMPL-1…6, UE2-PED-1 (= UE2-NYELV-4), UE2-PED-2, UE2-NYELV-1, -3, -6, -7, -8
+→ `2026-10-03 Fix pack – VO 2. fázis, 3. csomag.md` (P3-01…P3-14), a K5 tényközlés átvezetésével (P3-15). ELVETVE:
+UE2-BIZT-2, UE2-BIZT-3, UE2-NYELV-5, a VO D-18 sor „zárójele”. Emberi döntés: UE2-PED-3 (az UE-IMPL-4 maradéka), az
+`M4.1-NAR-02` besorolása.
+
 ## Vétólista
 
 - **Answer key, helyes-válasz jelölés, elosztó, küszöb, rubrika, kapu-típus, completion, időtartam:** nincs változás.
