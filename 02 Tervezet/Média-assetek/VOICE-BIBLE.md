@@ -227,7 +227,7 @@ Ez nem stílus, hanem akadálymentesítési követelmény
 - Az Interactive Videónál (`M1.3-VID-01`, `M4.1-VID-02`) **egy** felirat-sáv és **egy**
   leirat tartozik a teljes videóhoz; az `M4.1-VID-02` szövege a három jelenet
   narrációjának sorrendi összefűzése. Az `M1.3-VID-01` hangalámondásos
-  képleírása külön forrásblokk (`M1.3-NAR-08-VO`), amely a párbeszéd szüneteiben szól (VO D-18).
+  képleírása külön forrásblokk (`M1.3-NAR-08-VO`), amely a párbeszéd szüneteiben és a 2. verzió után szól (VO D-18, K7).
 
 **Gyakorlati következmény a felvételre:** minden narrációról tudni kell, melyik
 `@source` blokkból készült, és a felvétel eltérése a szövegtől **hiba**, nem szabadság.
