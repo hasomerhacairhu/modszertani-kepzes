@@ -1763,10 +1763,10 @@
       "id": "M1.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 421,
+      "line": 423,
       "body_lines": [
-        422,
-        431
+        424,
+        433
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1783,10 +1783,10 @@
       "id": "M1.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 559,
+      "line": 561,
       "body_lines": [
-        560,
-        569
+        562,
+        571
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1803,10 +1803,10 @@
       "id": "M1.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 696,
+      "line": 698,
       "body_lines": [
-        697,
-        704
+        699,
+        706
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1823,10 +1823,10 @@
       "id": "M1.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 809,
+      "line": 811,
       "body_lines": [
-        810,
-        814
+        812,
+        816
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1843,10 +1843,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 899,
+      "line": 901,
       "body_lines": [
-        900,
-        907
+        902,
+        909
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1863,10 +1863,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1055,
+      "line": 1057,
       "body_lines": [
-        1056,
-        1060
+        1058,
+        1062
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1883,10 +1883,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1079,
+      "line": 1081,
       "body_lines": [
-        1080,
-        1085
+        1082,
+        1087
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1906,13 +1906,13 @@
       "line": 270,
       "body_lines": [
         271,
-        279
+        281
       ],
       "unit": "M1.3",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
-      "hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
       "note": "",
       "for": "",
       "used_by": [
@@ -7121,7 +7121,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 321,
+      "line": 323,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7181,7 +7181,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 459,
+      "line": 461,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7241,7 +7241,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 596,
+      "line": 598,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7416,7 +7416,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 356,
+      "line": 358,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7430,7 +7430,7 @@
         "note": "Hangfájl, magyar, 20–30 mp, voice-over (a checklist szerint elég voice-over + grafika, opcionálisan 'beszélő fej')."
       },
       "a11y": {
-        "note": "Leirat/transzkript (M1.3-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.3-NAR-01::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); ha az opcionális beszélőfej-videó elkészül, ahhoz kapcsolható, szinkron magyar felirat kötelező (WCAG 2.2 SC 1.2.2; projektgazdai döntés, 2026-10-03, K2)"
+        "note": "Leirat/transzkript (M1.3-NAR-01::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke; az M1.3-NAR-01::CAPTIONS archivált .vtt-derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21); ha az opcionális beszélőfej-videó elkészül, az M1.3-NAR-01::CAPTIONS a videó kapcsolható, szinkron magyar feliratsávja, és kötelező (WCAG 2.2 SC 1.2.2)"
       },
       "derivatives": [
         "captions",
@@ -7456,8 +7456,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        422,
-        431
+        424,
+        433
       ],
       "source_text": "„Az **S**, mint *Situation*, azt jelenti, hogy elmondod:\n**mikor** és **milyen helyzetben** történt a dolog.\n\nPéldául: *‘Amikor ma a játék közben…’*,\nvagy *‘a beszélgetőkör elején…’*,\nvagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.\n\nEz segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",
       "source_hash": "56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485",
@@ -7465,7 +7465,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485",
-      "spec_hash": "23353db256ae27e91376ba0ec082ac3a9628c8058d9480fbab64abdae4684d01",
+      "spec_hash": "a5a08aa08739f3f349105340b0859ab669df60cf2a9e2c43268e5e7a685fd187",
       "deliverable_ids": [
         "M1.3-NAR-01",
         "M1.3-NAR-01::CAPTIONS",
@@ -7486,7 +7486,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 494,
+      "line": 496,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7526,8 +7526,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        560,
-        569
+        562,
+        571
       ],
       "source_text": "„A **B**, mint *Behavior*, azaz *viselkedés*, arról szól,\nhogy **mit láttál vagy hallottál konkrétan**.\n\nPéldául: *‘háromszor félbeszakította a többieket’*,\nvagy *‘kivonult a teremből’*.\n\nEz a rész az előző leckéhez is kapcsolódik:\nitt **megfigyelést mondasz, nem címkét**.”",
       "source_hash": "9662d095add3cf802f625b06720b06fffda66f76c2dbc3191ebef5858924174e",
@@ -7556,7 +7556,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 631,
+      "line": 633,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7596,8 +7596,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        697,
-        704
+        699,
+        706
       ],
       "source_text": "„Az **I**, mint *Impact*, azt jelenti, hogy elmondod,\n**mi lett a hatása** annak, ami történt – rád vagy a csapatra.\n\nPéldául: *‘nagyon nehéz volt megtartani a figyelmüket’*,\nvagy *‘a kicsik utána már nem szólaltak meg’*,\nvagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",
       "source_hash": "58f57ac59c18b799df3d01a3a734694b0ff505bca6e8b89ba1781afcd1302373",
@@ -7626,7 +7626,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 740,
+      "line": 742,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7666,8 +7666,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        810,
-        814
+        812,
+        816
       ],
       "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
       "source_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
@@ -7696,7 +7696,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 830,
+      "line": 832,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7736,8 +7736,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        900,
-        907
+        902,
+        909
       ],
       "source_text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
@@ -7766,7 +7766,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 933,
+      "line": 935,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7806,8 +7806,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1056,
-        1060
+        1058,
+        1062
       ],
       "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
       "source_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
@@ -7836,7 +7836,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 976,
+      "line": 978,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7876,8 +7876,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1080,
-        1085
+        1082,
+        1087
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
@@ -7910,7 +7910,7 @@
       "status": "pending-rights",
       "title": "Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01)",
       "purpose": "A vak és gyengénlátó tanuló is megtudja, amit a HOOK-jelenet képe mutat: a két verzió címkéjét, ki hogyan reagál, és hogy a 2. verzióban melyik szövegrésznél villan fel az S, a B és az I ikon (WCAG 2.2 SC 1.2.5).",
-      "spec": "A kanonikus narrátorhangon felmondott képleírás, az M1.3-VID-01 hangsávjába keverve, négy rövid részben, a párbeszéd szüneteiben: 1. a videó elején, az első replika előtt; 2. az 1. verzió két replikája között; 3. a két verzió között; 4. a 2. verzió két replikája között. A replikákra nem beszél rá; nem kiterjesztett (megállított) képleírás. Szó szerinti szöveg: M1.3-NAR-08-VO (`@source`), a lecke képi leírásából (SLIDE 1, „Mit látunk?”) összeállítva; a végleges szövegezést és időzítést a legyártott videón kell ellenőrizni.",
+      "spec": "A kanonikus narrátorhangon felmondott képleírás, az M1.3-VID-01 hangsávjába keverve, öt rövid részben, a párbeszéd szüneteiben: 1. a videó elején, az első replika előtt; 2. az 1. verzió két replikája között; 3. a két verzió között; 4. a 2. verzió két replikája között (csak az ikonok felvillanása és a társ reakciója); 5. a 2. verzió után, mielőtt a videó a kérdésnél megáll: melyik ikon melyik szövegrésznél villant fel (projektgazdai döntés, 2026-10-03, K7). A replikákra nem beszél rá; nem kiterjesztett (megállított) képleírás. Hallgatási próba: a képleírás hallásra elkülönül Madrih A replikájától (azonos hang, K4). Szó szerinti szöveg: M1.3-NAR-08-VO (`@source`), a lecke képi leírásából (SLIDE 1, „Mit látunk?”) összeállítva; a végleges szövegezést és időzítést a legyártott videón kell ellenőrizni.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
@@ -7943,15 +7943,15 @@
       "composed_source_ids": [],
       "source_line": [
         271,
-        279
+        281
       ],
-      "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
-      "source_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
+      "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "source_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
-      "spec_hash": "3e84f2399cb91c60c80b8f21bbe30c42d17f282707ab97a1a013e07e37811e22",
+      "copy_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
+      "spec_hash": "15dbb7ee0ce2a1fbb0c0bdb3aac28910dcfc8d5ed933b39540d26c82e957f151",
       "deliverable_ids": [
         "M1.3-NAR-08",
         "M1.3-NAR-08::TRANSCRIPT"
@@ -23153,7 +23153,7 @@
         "note": "Hang (TTS), kb. 30–40 mp, magyar; opcionálisan beszélőfej-videó"
       },
       "a11y": {
-        "note": "Leirat/transzkript (M6.1-NAR-07::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke (projektgazdai döntés, 2026-10-03, VO D-19, D-21); ha az opcionális videó beépül, kapcsolható szinkron magyar felirat (WCAG 1.2.2) is kötelező (M6.1-NAR-07::CAPTIONS)."
+        "note": "Leirat/transzkript (M6.1-NAR-07::TRANSCRIPT) kötelező: csak hang, ezért a dián vagy a médiaelem mellett látható leirat a teljes szöveges ekvivalens (WCAG 2.2 SC 1.2.1); első sora a kanonikus AI-címke (projektgazdai döntés, 2026-10-03, VO D-19, D-21); ha az opcionális videó beépül, kapcsolható szinkron magyar felirat (WCAG 2.2 SC 1.2.2) is kötelező (M6.1-NAR-07::CAPTIONS)."
       },
       "derivatives": [
         "captions",
@@ -23188,7 +23188,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
-      "spec_hash": "533ae9e58795fefbfaf7bebfd07a4b524881a35d8cc9af99272a88d9223c20b1",
+      "spec_hash": "a5b1eb53bb9769070b9c4b98e8448b66ac1aec38083d6e0270dbc6457787e913",
       "deliverable_ids": [
         "M6.1-NAR-07",
         "M6.1-NAR-07::CAPTIONS",
@@ -33194,8 +33194,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-08-VO",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
-      "text_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "text_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
       "blockers": [
         "R2",
         "R3"
@@ -33218,8 +33218,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-08-VO",
-      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. Az S ennél a résznél: ‘amikor ma a játék közben’; a B ennél: ‘háromszor félbeszakítottad a többieket’; az I ennél: ‘nagyon nehéz volt megtartani a figyelmüket’. A társa elgondolkodik.”",
-      "text_hash": "924eda0e85da986c0ec07c4c031ef2fbf623f8b2030c3f362fbbc3e52b93318c",
+      "text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben sorban felvillant az S, a B és az I ikon. A társa elgondolkodik.\n\nAz ikonok a nyugodtabban elmondott mondat három részénél villantak fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
+      "text_hash": "81d995f1d571c8ea37f9ef5555e240d13b9f0de2f9f485b134de13657328e9ce",
       "blockers": [
         "R2",
         "R3"
