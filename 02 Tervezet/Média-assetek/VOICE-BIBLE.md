@@ -166,7 +166,7 @@ hangzást rögzített: ott a kanonikus kiejtési szótár (12. szakasz) aliasa a
 - **Segélyvonalak** (112, 116-111, 116-123) narrációban **nem** hangzanak el — képzői
   kártyán szerepelnek (`M3.B-KART-02`). Ha valaha narrációba kerülnek, számjegyenként
   kell mondani őket. **Kivétel: a 112** az `M3.3-NAR-01-VO` gyermekvédelmi lépéssorában
-  elhangzik, mindig „száztizenkettő” alakban, soha nem „egy-egy-kettő”-ként; az írott szöveg és a felirat „112” marad, a kimondott
+  elhangzik. A 112 kiejtése — a fenti számjegyenkénti szabálytól eltérően — mindig „száztizenkettő”, soha nem „egy-egy-kettő”; az írott szöveg és a felirat „112” marad, a kimondott
   alakot a hang bemenete (tts_text) rögzíti (projektgazdai döntés, 2026-10-03, VO D-07;
   utólagos ellenőrzés (vétó/QA): a Memuna). A 116-os vonalakra a fenti szabály változatlan.
 

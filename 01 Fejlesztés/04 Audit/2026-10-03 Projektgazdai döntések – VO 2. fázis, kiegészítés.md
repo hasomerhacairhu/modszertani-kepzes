@@ -2,7 +2,7 @@
 
 > **Audit trail, nem tananyag.** A projektgazda válaszai a VO 2. fázis course fix pack (`/course-fix`) utáni
 > egyeztetésen, 2026-10-03-án, a munkamenetben feltett kérdésekre (AskUserQuestion). A kérdés és a választott opció
-> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4, K6 döntések és a K5 tényközlés bizonyítéka; a kapcsolódó
+> szó szerint áll; a hangok szerepnéven (2026-10-03-A). Ez a fájl a K1–K4, K6, K7 döntések és a K5 tényközlés bizonyítéka; a kapcsolódó
 > nyitott findingok: `2026-10-03 course-fix napló – VO 2. fázis.md`, „Célzott utóellenőrzés”.
 
 **Jóváhagyta:** projektgazda · **Dátum:** 2026-10-03
@@ -79,3 +79,18 @@
   személyes hivatkozás kerülhet). Utólagos ellenőrzés (vétó/QA): DPO.
 - **Átvezetés:** ELEVENLABS-VOICE-TEST 1.0. („nyitott” mondat), RIGHTS-EVIDENCE (a nyilvántartás kötelező mezői, R2-5),
   HUM-MEDIA-02 2026-10-03-i bekezdése — a következő fix packban, `/course-fix`-szel.
+
+## K7 — Az `M1.3-NAR-08` képleírás ikon-hozzárendelésének helye (UE3-PED-2)
+
+- **Kérdés:** „M1.3 képleírás: a kb. 19 mp-es ikon-magyarázat maradjon Madrih A és B mondata között, vagy kerüljön B
+  válasza után? mit ajánlasz erre?” Az ajánlás: kerüljön B válasza után, mert a lecke célja („a tanuló *érezze* a
+  különbséget”) és a videó utáni kérdés („amire ezért nehezebb védekezve reagálni”) az SBI-mondat és B azonnali
+  reakciója közti kapcsolatra épül; így a 2. verzió üteme az 1.-ével azonos; ára a hozzárendelés kb. 3 mp-es késése.
+- **Válasz, szó szerint:** „csináljuk az ajánlásod szerint ha magabiztos vagy benne és megalapozottan jobb a hatása”.
+- **Döntés:** a 2. verzió két replikája között csak az ikonok felvillanása és B reakciója hangzik el; a három ikon
+  szövegrész-hozzárendelése egy új, ötödik részben, Madrih B válasza után, a videó megállása (a kérdés) előtt szól. A
+  VO D-18 („place it in available dialogue gaps”) erre is kiterjed; a négyrészes felosztás nem a döntés része volt.
+- **Ellenőrzés:** a legyártott videón hallgatási próba (a képleírás hallásra elkülönül Madrih A replikájától — azonos
+  hang, K4) és hossz-újramérés a VO QA-repóban.
+- **Átvezetés:** az M1.3 lecke `M1.3-NAR-08-VO` forrásblokkja, a gyártási jegyzet és az `M1.3-NAR-08` asset `spec`
+  mezője — a következő fix packban, `/course-fix`-szel.
