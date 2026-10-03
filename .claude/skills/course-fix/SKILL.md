@@ -1,14 +1,28 @@
 ---
 name: course-fix
 description: Validált findingok sebészi javítása a tananyagban. Csak bizonyított, objektív hibát javít, egyesével, minimális szerkesztéssel. Nem indít új auditot, nem commitol magától, emberi döntést igénylő kérdésnél megáll.
-argument-hint: <finding-ID-k, vagy "az előző review P0-P1 findingjai", vagy konkrét fájl+probléma>
+argument-hint: <finding-ID-k, vagy "az előző review P0-P1 findingjai", vagy konkrét fájl+probléma, vagy egy fix pack útvonala>
 disable-model-invocation: true
+allowed-tools:
+  - Bash(python3 tools/content_integrity.py*)
+  - Bash(python3 tools/media_manifest.py check)
+  - Bash(python3 tools/media_manifest.py reconcile)
+  - Bash(python3 tools/media_manifest.py validate)
+  - Bash(python3 -m unittest tools.test_media_manifest*)
+  - Bash(git diff*)
+  - Bash(git status*)
 ---
 
 # Validált findingok javítása
 
 **Ez a skill nem auditál.** Nem keres új problémákat, nem olvas végig modulokat
 „hátha". Csak azt javítja, ami már **validált findingként** a kezében van.
+
+**Állandó szabályok (a futás végéig, tömörítés után is):** minden findingot a fájlban
+most bizonyítasz, mielőtt javítasz; findingonként egy minimális `Edit`; tananyagot Bash-sel
+nem szerkesztesz (a hook blokkolja); emberi döntésnél megállsz; nem commitolsz kérés nélkül.
+**Kb. 20+ tételes csomagnál** előbb olvasd be a `nagy-csomag.md`-t (ugyanebben a mappában):
+napló, sorrend, idempotencia, folytatás megszakítás után, lencsénkénti újraellenőrzés.
 
 Bemenet: `$ARGUMENTS`
 
@@ -64,7 +78,8 @@ változott, vagy a finding téves —, **ne javíts.** Jelezd, és lépj a köve
 
 ### 3. Minimális szerkesztés
 Egy `Edit`, a lehető legkisebb egyedi horgonnyal. **Soha ne generáld újra a fájlt**,
-és ne írj át bekezdést, ha egy szó a hiba.
+és ne írj át bekezdést, ha egy szó a hiba. Új fájlt vagy új blokkot csak az a finding
+hoz létre, amely kifejezetten előírja, pontosan a megadott tartalommal.
 
 ### 4. Olvasd vissza
 A módosított helyet és a körülötte lévő 5–10 sort. Nézd meg, nem esett-e áldozatul
@@ -103,11 +118,13 @@ fejből dolgozz.
 ## A végén
 
 1. Célzott újraellenőrzés: a módosított fájlra futtasd le **azt az egy specialistát**,
-   amelyik a findingot adta. Ne a `verifier`-t — annak a szerződése szerint már meglévő
+   amelyik a findingot adta; külső csomagnál a finding ID-jének lencséje szerintit
+   (`nagy-csomag.md` 5. pont). Ne a `verifier`-t — annak a szerződése szerint már meglévő
    findingokat vizsgál, javítás után pedig nincs mit. És **nem teljes új auditot.**
 2. `/release-check`
 3. Olvasd vissza a **teljes** `git diff`-et.
-4. Jelentés: mit javítottál, mit hagytál ki és miért, mi vár emberi döntésre (ez utóbbit
+4. Jelentés: tételenkénti állapottábla (`alkalmazva` / `már alkalmazva` / `kihagyva: <ok>` /
+   `megállva: emberi döntés`), mit hagytál ki és miért, mi vár emberi döntésre (ez utóbbit
    a `.claude/finding-format.md` szerinti findingként). Kánonból bizonyítható javításhoz
    ne kérj külön jóváhagyást; a jelentés viszont külön **vétólistában** sorolja fel
    minden answer key-, küszöb-, rubrika- és gyermekvédelmi/adatvédelmi
