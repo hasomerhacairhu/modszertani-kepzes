@@ -25,8 +25,8 @@ köteg-terv és pilot-táblázat) · [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-
 
 | # | Család | Pilot | Család mérete | Köteg | Kapuk | Eredet |
 |---|---|---|---:|---|---|---|
-| P-NAR | narráció / hang | `M4.2-NAR-03` | 90 | B3 | R2, R3 | a terv 2026-08-28-i javaslata |
-| P-VID | AI beszélőfej | `M5.1-VID-01` | 21 | B3 | R2, R3 | a terv 2026-08-28-i javaslata |
+| P-NAR | narráció / hang | `M4.2-NAR-03` | 89 | B3 | R2, R3 | a terv 2026-08-28-i javaslata; a 2026-10-03-i projektgazdai döntés (VO D-13) megerősítette |
+| P-VID | AI beszélőfej | `M5.1-VID-01` | 18 | B3 | R2, R3 | a terv 2026-08-28-i javaslata |
 | P-KAR | AI karakter-jelenet | `M4.1-VID-03` | 6 | B3 | R2, R3, R5 | **eltérés** — indoklás lent |
 | P-DIA | diagram | `M0.2-DIA-01` | 39 | B1 | R5 | a terv 2026-08-28-i javaslata |
 | P-IKO | ikon-készlet | `M1.3-IKO-01` | 40 | B1 | R5 | **eltérés** — indoklás lent |
@@ -84,12 +84,12 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 | Pilot | Mire vár | Ki oldja fel |
 |---|---|---|
 | P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) — **lezárva** (projektgazdai döntés, 2026-10-02); hátravan az asset-szintű R5-blokkoló kivezetése | a projektgazda döntött; utólagos ellenőrzés (vétó/QA): a kreatív/márkafelelős |
-| P-NAR | **D2** — de már csak a **kanonikus hang** kiválasztása (a szolgáltató eldőlt: ElevenLabs). Előtte: V2 hozzájárulás-bizonyíték → tanítási kimaradás → a két hang létrehozása a forrás-beszélők felvételeiből (a módszer nyitott) → azonosítás (voice-ID + hangtípus rögzítése). Mellette **D3/R2**: a szintetikus felmondás miatt az R2 a narrációt is kapuzza (R2-4/R2-5) | program-felelős, meghallgatás alapján; a hang-jogosultságról a jogi jóváhagyó és a hang jogosultja |
+| P-NAR | a **D2 lezárult** (projektgazdai döntés, 2026-10-03): a kanonikus narrátorhang, a modell, a beállítások és a kiejtési szótár rögzítve ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12.). Mellette **D3/R2**: a hanghasználati jog tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2-4/R2-5) függő. A tömeges gyártás előtt a QA-láncnak (kiejtés-regresszió, időkeret-ellenőrzés) zöldnek kell lennie | a P-NAR jóváhagyása fülre: magyar anyanyelvű, someres szóhasználatot ismerő jóváhagyó; a formális hangjog-bizonyítékról a jogi jóváhagyó és a hang jogosultja |
 | P-VID | a **kész ElevenLabs hangmester** (tehát P-NAR) → **D3/R2** (a fiók jogi bizonyítéka) — és a **J2/J3** emberi kapuk | + jogi jóváhagyó; a J2-nél a Memuna (gyermekvédelmi felelős) és a szerző — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 | P-KAR | **D1** (karakter-lock; a stílus 2026-10-02 óta eldőlt, a referencia-karakter és a seed rögzítése a gyártás első lépése) + **D3/R2** — és a **J1/J2** emberi kapuk. A **D2** csak az utómunkához kell, a képi generáláshoz nem (lásd 2.1.) | + jogi jóváhagyó (J1), a Memuna (gyermekvédelmi felelős) és a szerző (J2) — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 
 > **A szolgáltatói kérdések lezárultak.** Hang: **ElevenLabs**. Beszélőfej: **HeyGen**.
-> Ami maradt, az a **kanonikus hang** kiválasztása és a jogi bizonyíték — nem
+> Ami maradt, az a jogi bizonyíték (a kanonikus narrátorhang 2026-10-03 óta ki van jelölve, VO D-14) — nem
 > szolgáltatóválasztás.
 
 ### 2.1. Sorrendi kényszer, ami eddig nem látszott
@@ -115,7 +115,7 @@ D2 ──► P-NAR ──► [elfogadott hang] ──► P-VID           (a gene
 P-KAR képi generálás: D1 karakter-lock + R2 + J1/J2 — a hangtól FÜGGETLEN
 ```
 
-Ez jó hír a költség szempontjából: a beszélőfej-köteg — a drágább, 21 tételes ág — addig
+Ez jó hír a költség szempontjából: a beszélőfej-köteg — a drágább, 18 tételes ág — addig
 nem indul el, amíg a hang nincs elfogadva, tehát nem kell újragenerálni, ha a hang
 változik. A karakter-jelenet képi része viszont párhuzamosítható.
 
@@ -129,7 +129,7 @@ Minden pilotra érvényes, a családspecifikus feltételeken **felül**.
 - [ ] beszélt assetnél a hang **szó szerint** a `@source` blokk szövege, és a `source_hash` fel van jegyezve;
 - [ ] a kötelező derivatívák elkészültek (`derivatives` mező: felirat / leirat / alt-szöveg / nyomtatható PDF);
 - [ ] az akadálymentesítési feltételek teljesülnek (9. szakasz a [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md)-ben);
-- [ ] ahol az asset `production_rules` mezőjében szerepel az **R1**, ott a tanulónak látható AI-címke **az LMS-ben, szövegként** jelenik meg — nem a képbe égetve. *(A kilenc pilotból nyolcra vonatkozik; az `M7.B-POSZ-01` `provenance` mezője `human`, a szabálylistája nem tartalmazza az R1-et — oda **nem** kerül címke.)*
+- [ ] ahol az asset `production_rules` mezőjében szerepel az **R1**, ott a tanulónak látható AI-címke **az LMS-ben, szövegként** jelenik meg — nem a képbe égetve; csak hangot tartalmazó narrációnál a leirat első sora és a lecke alján egy sor (projektgazdai döntés, 2026-10-03, VO D-21). *(A kilenc pilotból nyolcra vonatkozik; az `M7.B-POSZ-01` `provenance` mezője `human`, a szabálylistája nem tartalmazza az R1-et — oda **nem** kerül címke.)*
 - [ ] ahol a generátor gépi provenance-jelölést ad, az az exportban **megmaradt** (ellenőrizve, nem feltételezve);
 - [ ] a fájlnév a 7. szakasz konvencióját követi;
 - [ ] a fekete-fehér nyomtatás olvasható marad (minden nyomtatványra és minden szemantikus vizuálra).
@@ -159,45 +159,46 @@ Bármelyik teljesülése esetén a pilot **elutasítva**, és a testvér-köteg 
 | **Forrás** | `M4.2-NAR-03-VO`, `02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md` (deklaráció: 513. sor) · hash `ce6604de9226b73d` |
 | **Cél** | bevezeti és keretezi a Dialog Cards aktivitást |
 | **Közönség** | madrih, jellemzően 15+ |
-| **Hossz** | 20–25 mp · **43 szó** → 103–129 szó/perc; 110 szó/percen **23,5 mp** — a keretben |
+| **Hossz** | kb. 17–22 mp · **43 szó**; a kanonikus narrátorhang mért természetes hossza 18,9 mp (≈ 137 szó/perc) — a keretben (VO D-13: a várható hossz a mért természetes hossz) |
 | **Deriváltak** | `::CAPTIONS` (felirat), `::TRANSCRIPT` (leirat) |
 | **Stílusfüggés** | nincs |
-| **Hangfüggés** | **maga a döntés tárgya** |
+| **Hangfüggés** | a kanonikus narrátorhang (VO D-14); a pilot a produkciós konfigurációt ellenőrzi |
 | **Jogi függés** | **R2** (R2-4/R2-5) — a felmondás 2026-08-28 óta szintetikus, ezért az R2 a narrációra is kiterjed ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz) |
 
 ### Miért ez a pilot
 
 A generált terv 2026-08-28-i választása: az akkori narráció-család **medián esete** —
 közepes hossz, tiszta instrukciós regiszter, egyetlen félkövér kiemeléssel, mozgalmi
-szakszóval (`hanih`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
+szakszóval (`hanih`). Aki ezt jól mondja fel, a 89-ből 80-at jól mond fel.
 
-> **Fontos:** a P-NAR a **családi** pilot. A **hangválasztás** viszont nem ezen dől el,
-> hanem a három tesztszkripten
-> ([`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md)) — azok szélesebb kiejtési és
-> érzelmi felületet mérnek. Sorrend: **hangválasztás a három szkripten → a P-NAR az első
-> éles felvétel az elfogadott hanggal.**
+> **Fontos:** a P-NAR a **családi** pilot, és a 2026-10-03-i projektgazdai döntés szerint is ez
+> marad (VO D-13), akkor is, ha a generált terv narráció-pilotja más. A kiejtés kanonikus döntési
+> forrása a VO QA-repó B4-regisztere; a P1–P3 ([`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md))
+> és a P-NAR ezeket produkciós környezetben ellenőrzi, nem dönt újra. Hangválasztás nincs: a
+> narrációt a kanonikus narrátorhang mondja (VO D-14). Sorrend: **zöld QA-lánc → P1–P3 és P-NAR a kanonikus narrátorhanggal →
+> a narrációs köteg.**
 
-### Gyártási brief — **ElevenLabs** (felhasználói döntés, 2026-08-28)
+### Gyártási brief — **ElevenLabs**, a 2026-10-03-i konfiguráció
 
-- **Motor:** `eleven_flash_v2_5`, `language_code: "hu"` — a magyar olvasat kikényszerítése
-  kötelező, enélkül a someres szavak angol vagy héber fonetikát kaphatnak.
-- **Hang:** a [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) meghallgatásán
-  **kiválasztott kanonikus hang** — a VOICE-SRC-01 vagy a VOICE-SRC-02 forrás-beszélőből
-  készült hangok közül. A P-NAR **nem indulhat**, amíg a két hang létre nem jött és a
-  választás nincs eldöntve.
-- **Bemenet:** a `@source` blokk szövege **tisztítva** — a `„ ”` határoló idézőjel nélkül,
-  a `**…**` jelölés eltávolítva, emoji nélkül, szögletes zárójel nélkül.
-- **Tempó:** a `speed` paraméterrel (0,7–1,2) a 110 szó/perc közelébe. Sortörés = rövid
-  levegő, üres sor = 0,6–1 mp.
-- **Beállítások:** minden kérésben **explicit** a teljes készlet (`stability` ~0,70,
-  `similarity_boost` 0,75, `style` 0, `use_speaker_boost` true, `speed`), plusz rögzített
-  `seed`. A tárolt beállításra hagyatkozni tilos.
-- **Kiejtés:** `hanih` — „hanih”: a szó eleji és a szóvégi *h* is hallható torokhang
-  ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6.). **Alias-szabállyal**, ha a
-  meghallgatás hibát mutat; a választott modell a fonéma-szabályokat kihagyja. A magyar
-  toldalékolás miatt minden előforduló alakot fel kell venni.
-- **Export:** a csomag által engedett legjobb mester (`wav_44100` Pro-n, egyébként
-  `mp3_44100_192`) → `mp3_44100_128` derivatíva a Moodle/H5P-hez.
+- **Motor:** `eleven_v4`, `language_code: "hu"` (projektgazdai döntés, 2026-10-03, VO D-02) —
+  a magyar olvasat kikényszerítése kötelező, enélkül a someres szavak angol vagy héber
+  fonetikát kaphatnak.
+- **Hang:** a **kanonikus narrátorhang** (VO D-14). A voice-ID nem nyilvános: a VO QA-repó
+  gyártási konfigurációjában él, a kurzusrepóban nincs (K3).
+- **Bemenet:** a `@source` blokk szövege **tisztítva** — a `„ ”` határoló idézőjel nélkül, a
+  `**…**` jelölés eltávolítva, emoji nélkül, szögletes zárójel nélkül; a kiejtés célzott
+  cseréi (tts_text) csak a hang bemenetében élnek ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 2.1.).
+- **Tempó:** a v4-en nincs `speed`; a hossz a mért természetes hossz (kb. 17–22 mp). A szünetet
+  a központozás adja; a sortörés és az üres sor nem szünetvezérlő, a bekezdéshatáron szükség
+  szerint az utómunka tesz kb. 0,6–1,0 mp-et (VO D-10).
+- **Beállítások:** minden kérésben **explicit** `stability` 0,35 és `similarity_boost` 0,75,
+  plusz rögzített `seed`; `style`, `use_speaker_boost` és `speed` nincs (VO D-02). A tárolt
+  beállításra hagyatkozni tilos; a ténylegesen elküldött értékeket a kísérőadat rögzíti.
+- **Kiejtés:** a kanonikus kiejtési szótár rögzített verziójával (`ulYxuUbd8aSRJ89Pv2Q8` /
+  `VFpQiiOF789b08uzsooM`, VO D-03): `hanih` → [xanix], a B4 szerint
+  ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6.).
+- **Export:** `pcm_48000` → 48 kHz / 16 bit / mono WAV-mester (VO D-12) → MP3 derivatíva a
+  Moodle/H5P-hez.
 - **Felirat-időzítés:** érdemes a szolgáltató **karakterszintű időbélyeget** adó
   végpontját kipróbálni. A felirat **szövege így is a lecke marad** — a végpont csak az
   időzítést adja.
@@ -205,20 +206,23 @@ szakszóval (`hanih`). Aki ezt jól mondja fel, a 90-ből 80-at jól mond fel.
 ### Elfogadási feltétel
 
 - [ ] a felmondás szó szerint a forrásszöveg;
-- [ ] hossz 20–25 mp között, hadarás nélkül;
-- [ ] `hanih` helyesen;
+- [ ] hossz kb. 17–22 mp között, gyorsítás és időnyújtás nélkül (VO D-13, D-17);
+- [ ] `hanih` a B4 szerinti [xanix] hangzással (VO D-04);
+- [ ] a jelentést hordozó hangsúly nem sérül (fülre) (VO D-11);
 - [ ] tegező, egyenrangú, nem tanáros;
 - [ ] tiszta beszéd, háttérzaj nélkül;
-- [ ] a `.vtt` felirat időzítése a hanghoz igazítva, szövege a forrással azonos;
+- [ ] a `.vtt` (archivált derivatíva, VO D-19) időzítése a hanghoz igazítva, szövege a forrással azonos;
+- [ ] a leirat első sora a kanonikus AI-címke, és a lecke alján ugyanez áll egy sorban (VO D-21);
 - [ ] a leirat a dián látható szövegként, a médiaelem mellől megnyitható szövegként vagy
       linkelt leirat-oldalként illeszthető be (a Course Presentation diáinak nincs
       jegyzetmezője — `LMS – hozzáférhetőségi sztenderd.md`); a billentyűzetes és
-      képernyőolvasós elérhetőséget az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja.
+      képernyőolvasós elérhetőséget az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja;
+- [ ] a hang nem indul el magától: a lejátszást a tanuló indítja (H5P Audio: „Enable autoplay” kikapcsolva; projektgazdai döntés 2026-10-03-B, IMPL-34).
 
 ### Bukási feltétel
 
-Bármely szóeltérés a forrástól · a 25 mp túllépése hadarással kompenzálva · anglicizált
-`hanih` · magázó vagy gyerekhangú felmondás · hallható zaj, szuszogás, vágásnyom.
+Bármely szóeltérés a forrástól · a 22 mp túllépése gyorsítással vagy időnyújtással kompenzálva ·
+a B4-ben elvetett `hanih`-olvasat (kerekített „honih”) · magázó vagy gyerekhangú felmondás · hallható zaj, szuszogás, vágásnyom.
 
 ---
 
@@ -238,7 +242,7 @@ Bármely szóeltérés a forrástól · a 25 mp túllépése hadarással kompenz
 
 ### Miért ez a pilot
 
-A 21 beszélőfej **modális esete**: HOOK-videó, közepes hossz, egy szereplő, kamerába
+A 18 beszélőfej **modális esete**: HOOK-videó, közepes hossz, egy szereplő, kamerába
 beszél. A generált terv 2026-08-28-i választása. A testvér-köteg a gyermekvédelmi és
 krízis-HOOK-okat nem tartalmazza (1. szakasz): ezekhez a projektgazdai döntés szerint
 készlet-AI-beszélőfej nem készül.
@@ -251,7 +255,7 @@ A hang **nem itt készül**: a kanonikus hangmestert az ElevenLabs állítja el�
 | | |
 |---|---|
 | **Szolgáltató** | **HeyGen** — a választás lezárva, nem tárgya ennek a briefnek |
-| **Hang** | **feltöltött ElevenLabs hangmester.** A HeyGen saját TTS-e **nincs használatban** — a séma ezt kikényszeríti: a `script` és az `audio_url` / `audio_asset_id` mező **kölcsönösen kizárja egymást** |
+| **Hang** | **feltöltött ElevenLabs hangmester, a kanonikus narrátorhanggal** (VO D-20). A HeyGen saját TTS-e **nincs használatban** — a séma ezt kikényszeríti: a `script` és az `audio_url` / `audio_asset_id` mező **kölcsönösen kizárja egymást** |
 | **Avatar** | **egyetlen nyilvános készlet-avatar** (`studio_avatar`, `ownership=public`), amely minden beszélőfej-videóban visszatér. A készlet-avatar **képmás-licencét a szolgáltató feltételei szerint dokumentálni kell** (`HUM-MEDIA-03`, R2-3; [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) H-3). Egyedi „digital twin” avatarhoz hozzájárulási lánc kell, és annak API-s létrehozása enterprise-szintű |
 | **Megjelenés** | **egyértelműen felnőtt** — ez nem stílus, hanem szabály: a szolgáltató moderációs politikája tiltja a 18 év alattinak látszó avatart (lásd a J2 kaput). Semleges, hétköznapi öltözet; nem tanáros, nem céges |
 | **Keretezés** | mellkép, tekintet a kamerába; a fej a felső harmadban, a cím-biztonságos zónán belül |
@@ -302,14 +306,15 @@ dokumentáció nem ad választ, csak egy tényleges renderelés.
 - [ ] **nincs vízjel** a fizetős renderen — a dokumentáció a vízjelmentességet a fizetős
       csomaghoz köti, de kifejezetten nem mondja ki; ellenőrizendő;
 - [ ] 16:9 és 1080p, ≤ 40 mp, 25 fps;
-- [ ] az avatar újrahasználható a további 20 videóhoz **ugyanazzal az azonosítóval**;
+- [ ] az avatar újrahasználható a további 17 videóhoz **ugyanazzal az azonosítóval**;
 - [ ] a moderáció **átengedi** a tananyag hangvételét — a szolgáltató automatikus
       moderációt futtat, és a politikai tartalom tiltott kategória; egy mozgalmi-ideológiai
       keretezésű HOOK elakadhat rajta. Ezt is a pilot deríti ki;
 - [ ] a `.vtt` felirat **a lecke `@source` szövegéből** készült, nem a szolgáltató
       SRT-kimenetéből;
 - [ ] az alsó 15%-ban nincs grafika;
-- [ ] az R1-címke az LMS-ben, szövegként jelenik meg (`M5.1-EGY-01`).
+- [ ] az R1-címke az LMS-ben, szövegként jelenik meg (`M5.1-EGY-01`);
+- [ ] a videó nem indul el magától: a lejátszást a tanuló indítja („Auto-play video” kikapcsolva; projektgazdai döntés 2026-10-03-B, IMPL-34).
 
 ### Bukási feltétel
 
@@ -321,7 +326,7 @@ elutasítja a tartalmat.
 > ⚠️ **Reprodukálhatósági kockázat, amit a pilot nem old meg.** A szolgáltató
 > avatar-leíró rekordjában **nincs verzió-mező**: az avatar megjelenése nem rögzíthető
 > egy adott változatra, és a szolgáltató a motorok viselkedését menet közben változtatja.
-> Ebből következő produkciós szabály: **a 21 beszélőfej-videót egyetlen szűk időablakban
+> Ebből következő produkciós szabály: **a 18 beszélőfej-videót egyetlen szűk időablakban
 > kell legyártani**, nem hónapokra elosztva, és minden kész MP4-et archiválni kell.
 > Egy év múlva egyetlen klip újragyártására nincs garancia, hogy ugyanaz az arc jön
 > vissza.
@@ -339,7 +344,7 @@ elutasítja a tartalmat.
 | **Hossz** | 20–25 mp, teljes alakos jelenet |
 | **Konténer** | beágyazva az `M4.1-VID-02` H5P Interactive Videóba (`composed_of`) — a felirat és a leirat **a konténeré**, nem ezé |
 | **Származék máshol** | az `M4.1-FOTO-01` freeze-frame-je ebből és az `M4.1-VID-05`-ből készül |
-| **Akadálymentesítés** | jelenetvideó: a testbeszéd hordozza a jelentést, ezért a képi sáv nem dekoratív, és szöveges alternatíva vagy hangalámondásos képleírás kell (projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a hozzáférhetőségi felelős és a médiafelelős). A formáját a lecke `a11y` mezője rögzíti |
+| **Akadálymentesítés** | jelenetvideó: a testbeszéd hordozza a jelentést, ezért a képi sáv nem dekoratív, és hangalámondásos képleírás, mellette szöveges alternatíva kell (projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a hozzáférhetőségi felelős és a médiafelelős). A formáját a lecke `a11y` mezője rögzíti |
 
 ### A szó szerinti narráció (másolat, nem kánon)
 
@@ -413,7 +418,7 @@ készül, nem ehhez a jelenethez. A freeze-frame-et képkocka-kivétellel vessz�
 - [ ] a narráció alámuxolva, szinkronban;
 - [ ] a referenciakép, a prompt és a seed rögzítve és verziókövetve;
 - [ ] a freeze-frame kivehető, és a képpár testtartás-kontrasztja látszik;
-- [ ] a képi sáv szöveges alternatívája vagy képleírása a lecke `a11y` mezője szerint elkészült;
+- [ ] a képi sáv hangalámondásos képleírása és szöveges alternatívája a lecke `a11y` mezője szerint elkészült;
 - [ ] a gépi provenance-jelölés megmaradt.
 
 ### Bukási feltétel
@@ -437,7 +442,8 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 
 > ⚠️ **A P-KAR elfogadása két testvérre nem vihető át.** Az `M1.3-VID-01` kétszereplős,
 > képernyőn zajló párbeszéd: a „videó néma” feltétel és a néma generálás rá nem
-> alkalmazható, a hangja és gyártási útja nyitott döntés
+> alkalmazható; a hangja az első gyártási körben Madrih A-nál a kanonikus narrátorhang, Madrih B-nél a
+> második hang, beszélőnként szegmentálva (VO D-14, K4), a szájszinkronos gyártási útja nyitott döntés
 > ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11). Az `M1.1-VID-02` B-roll
 > („körben ülő fiatalok”) a 3.1. „kiskorúnak látszó szereplő” bukási feltételébe ütközhet;
 > az ábrázolás módja a `J2` emberi döntése.

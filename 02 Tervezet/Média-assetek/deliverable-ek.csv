@@ -450,6 +450,20 @@ M1.3-NAR-07::TRANSCRIPT,M1.3-NAR-07,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online
 Most már tudod, hogyan épül fel egy SBI.
 A következő részben életszerű szituációkból fogsz választani,
 és olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8,"R2, R3"
+M1.3-NAR-08,M1.3-NAR-08,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01),AI-generált,M1.3-NAR-08-VO,"„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.
+
+A társa védekezően reagál.
+
+Ugyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.
+
+A mondata közben sorban felvillant az S, a B és az I ikon: az S az ‘amikor ma a játék közben’ résznél, a B a ‘háromszor félbeszakítottad a többieket’ résznél, az I a ‘nagyon nehéz volt megtartani a figyelmüket’ résznél. A társa elgondolkodik.”",0be63f0734683a740b4d1c0351df91279e5919385397aa1030cb60036e089c94,"R2, R3"
+M1.3-NAR-08::TRANSCRIPT,M1.3-NAR-08,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Hangalámondásos képleírás – HOOK-jelenet (M1.3-VID-01) — leirat,AI-generált,M1.3-NAR-08-VO,"„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.
+
+A társa védekezően reagál.
+
+Ugyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.
+
+A mondata közben sorban felvillant az S, a B és az I ikon: az S az ‘amikor ma a játék közben’ résznél, a B a ‘háromszor félbeszakítottad a többieket’ résznél, az I a ‘nagyon nehéz volt megtartani a figyelmüket’ résznél. A társa elgondolkodik.”",0be63f0734683a740b4d1c0351df91279e5919385397aa1030cb60036e089c94,"R2, R3"
 M1.3-VID-01,M1.3-VID-01,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel,AI-generált,M1.3-VID-01-VO,"**1. verzió – címke**
 **Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”
 **Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”
@@ -2560,78 +2574,6 @@ M5.3-ILL-01,M5.3-ILL-01,elsődleges,M5,M5.3,"02 Tervezet/Modulok/M5/Online leck�
 M5.3-ILL-01::ALTTEXT,M5.3-ILL-01,alt-szöveg,M5,M5.3,"02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",illustration,,legyártandó,specifikáció kész,,Két tanulási történet – A vs. B szembeállítás (Hook) — alt-szöveg,AI-generált,,,,
 M5.3-ILL-02,M5.3-ILL-02,elsődleges,M5,M5.3,"02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",illustration,,legyártandó,specifikáció kész,,Somer-példák a három fogalomra – három mini-jelenet,AI-generált,,,,
 M5.3-ILL-02::ALTTEXT,M5.3-ILL-02,alt-szöveg,M5,M5.3,"02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",illustration,,legyártandó,specifikáció kész,,Somer-példák a három fogalomra – három mini-jelenet — alt-szöveg,AI-generált,,,,
-M5.3-NAR-01,M5.3-NAR-01,elsődleges,M5,M5.3,"02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – három kulcsfogalom (20-30 mp),AI-generált,M5.3-NAR-01-VO,"**1. Gyakorlás**
-
-Amikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:
-– játszol,
-– mondod,
-– írod,
-– mutatod.
-
-Például: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.
-
-**2. Aktív felidézés**
-
-Amikor **fejből próbálod felidézni**,
-nem puskázol a lapról vagy a képernyőről.
-
-Például: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.
-
-**3. Időben elosztott gyakorlás**
-
-Amikor **nem egy nagy blokkban**, hanem
-**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.
-
-Például: nem egy este alatt próbálod megjegyezni a dalokat,
-hanem három külön napon, rövidebb időkre osztva.",364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497,"R2, R3"
-M5.3-NAR-01::CAPTIONS,M5.3-NAR-01,felirat,M5,M5.3,"02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – három kulcsfogalom (20-30 mp) — felirat,AI-generált,M5.3-NAR-01-VO,"**1. Gyakorlás**
-
-Amikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:
-– játszol,
-– mondod,
-– írod,
-– mutatod.
-
-Például: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.
-
-**2. Aktív felidézés**
-
-Amikor **fejből próbálod felidézni**,
-nem puskázol a lapról vagy a képernyőről.
-
-Például: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.
-
-**3. Időben elosztott gyakorlás**
-
-Amikor **nem egy nagy blokkban**, hanem
-**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.
-
-Például: nem egy este alatt próbálod megjegyezni a dalokat,
-hanem három külön napon, rövidebb időkre osztva.",364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497,"R2, R3"
-M5.3-NAR-01::TRANSCRIPT,M5.3-NAR-01,leirat,M5,M5.3,"02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – három kulcsfogalom (20-30 mp) — leirat,AI-generált,M5.3-NAR-01-VO,"**1. Gyakorlás**
-
-Amikor **nemcsak hallgatsz**, hanem *te csinálsz valamit*:
-– játszol,
-– mondod,
-– írod,
-– mutatod.
-
-Például: nemcsak elolvasod a dal szövegét, hanem tényleg **elénekled**.
-
-**2. Aktív felidézés**
-
-Amikor **fejből próbálod felidézni**,
-nem puskázol a lapról vagy a képernyőről.
-
-Például: becsukod a füzetet, és megpróbálod **felsorolni a dalokat** emlékezetből.
-
-**3. Időben elosztott gyakorlás**
-
-Amikor **nem egy nagy blokkban**, hanem
-**több külön alkalommal, kisebb adagokban** találkozol ugyanazzal.
-
-Például: nem egy este alatt próbálod megjegyezni a dalokat,
-hanem három külön napon, rövidebb időkre osztva.",364946ca285303611645f23bcae3db10794508e527486dba59fc7efaf9547497,"R2, R3"
 M5.4-ILL-01,M5.4-ILL-01,elsődleges,M5,M5.4,02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md,illustration,,legyártandó,specifikáció kész,,Minta-táblázat kártya-nézet (mobilbarát) – 3 helyzet blokk,AI-generált,,,,
 M5.4-ILL-01::ALTTEXT,M5.4-ILL-01,alt-szöveg,M5,M5.4,02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md,illustration,,legyártandó,specifikáció kész,,Minta-táblázat kártya-nézet (mobilbarát) – 3 helyzet blokk — alt-szöveg,AI-generált,,,,
 M5.4-MUNK-01,M5.4-MUNK-01,elsődleges,M5,M5.4,02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md,worksheet,,legyártandó,specifikáció kész,,Letölthető „Feladat–kvuca–módszer + tanulástan” kitölthető sablon (doc / sheet),emberi,,,,
@@ -3672,7 +3614,7 @@ ragaszthat, írhat, választhat szimbólumot.
 Így a foglalkozás **nem azt tanítja**,
 hogy ‘nézd, ki mennyire ügyes’,
 hanem azt, hogy **mindenki hozzátesz valamit**.”",534f1fe438dd7d1249e1f4c0ea04eb8b2b8568dad69291955883f8380d9a0c3f,"R2, R3"
-M6.3-NAR-04,M6.3-NAR-04,elsődleges,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp),AI-generált,M6.3-NAR-04-VO,"„A ‘Személyes szimbólum-karkötő’
+M6.3-NAR-04,M6.3-NAR-04,elsődleges,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp),AI-generált,M6.3-NAR-04-VO,"„A ‘Személyes szimbólum-karkötő’
 egy klasszikus kézműves feladat.
 
 Nemcsak az a kérdés,
@@ -3706,7 +3648,7 @@ ha valakinek nem megy a fűzés, vagy nem akarja,
 készíthet helyette egy rajzos **szimbólumkártyát**,
 vagy dolgozhat **párban** egy társával:
 egyik fűz, másik segít kitalálni a jelentést.”",7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a,"R2, R3"
-M6.3-NAR-04::CAPTIONS,M6.3-NAR-04,felirat,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp) — felirat,AI-generált,M6.3-NAR-04-VO,"„A ‘Személyes szimbólum-karkötő’
+M6.3-NAR-04::CAPTIONS,M6.3-NAR-04,felirat,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp) — felirat,AI-generált,M6.3-NAR-04-VO,"„A ‘Személyes szimbólum-karkötő’
 egy klasszikus kézműves feladat.
 
 Nemcsak az a kérdés,
@@ -3740,7 +3682,7 @@ ha valakinek nem megy a fűzés, vagy nem akarja,
 készíthet helyette egy rajzos **szimbólumkártyát**,
 vagy dolgozhat **párban** egy társával:
 egyik fűz, másik segít kitalálni a jelentést.”",7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a,"R2, R3"
-M6.3-NAR-04::TRANSCRIPT,M6.3-NAR-04,leirat,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – SLIDE 4 PÉLDA 2 Karkötő (45–60 mp) — leirat,AI-generált,M6.3-NAR-04-VO,"„A ‘Személyes szimbólum-karkötő’
+M6.3-NAR-04::TRANSCRIPT,M6.3-NAR-04,leirat,M6,M6.3,"02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp) — leirat,AI-generált,M6.3-NAR-04-VO,"„A ‘Személyes szimbólum-karkötő’
 egy klasszikus kézműves feladat.
 
 Nemcsak az a kérdés,
@@ -3966,45 +3908,6 @@ Mérhető: miből fogod látni, hogy tényleg megtörtént valami?
 Elérhető: reális ez ebben a kvucában, ebben az időkeretben?
 Releváns: van köze someres értékhez vagy a kvucátok helyzetéhez?
 És időhöz kötött: meddigre szeretnéd, hogy megvalósuljon – a peula végéig, hónap végéig, félév végéig?”",ef495f92066556f7210dad7f6a7ed45eef9e876d6c8dc7f2aded235afc0bcd34,"R2, R3"
-M7.1-NAR-02,M7.1-NAR-02,elsődleges,M7,M7.1,"02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – záró feladat instrukció (opcionális),AI-generált,M7.1-NAR-02-VO,"Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).
-
-✏️ Írd le:
-
-1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).
-2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).
-
-A kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.
-
-💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:
-– „A peula végére …”
-– „Legalább X hanih …”
-– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd,"R2, R3"
-M7.1-NAR-02::CAPTIONS,M7.1-NAR-02,felirat,M7,M7.1,"02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – záró feladat instrukció (opcionális) — felirat,AI-generált,M7.1-NAR-02-VO,"Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).
-
-✏️ Írd le:
-
-1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).
-2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).
-
-A kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.
-
-💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:
-– „A peula végére …”
-– „Legalább X hanih …”
-– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd,"R2, R3"
-M7.1-NAR-02::TRANSCRIPT,M7.1-NAR-02,leirat,M7,M7.1,"02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Narráció – záró feladat instrukció (opcionális) — leirat,AI-generált,M7.1-NAR-02-VO,"Válaszd ki **1 saját peula-ötletedet** (lehet olyasmi, amit már úgyis tervezel a kvucáddal).
-
-✏️ Írd le:
-
-1. **Miről és kinek szólna a peula 1 mondatban** (téma, kvuca-korosztály).
-2. **SMART nevelési cél** ehhez a peulához (max. 2 mondat). A cél **R (Releváns) eleme** kötődjön az **M2-ben** kiemelt someres értékedhez (az identitás-jegyzetedből).
-
-A kvucádról ne írj azonosító adatot, például nevet vagy konkrét, beazonosítható esetet; elég a korosztály.
-
-💡 Ha elakadsz, próbáld meg használni ugyanazt a mintát, mint a példáknál:
-– „A peula végére …”
-– „Legalább X hanih …”
-– „1–2 konkrét dolgot meg tudnak nevezni arról, hogy …”",bb9eb18c955727b5860eef922f8a15c6851ecd9020b712c390021412c5e451cd,"R2, R3"
 M7.2-DIA-01,M7.2-DIA-01,elsődleges,M7,M7.2,"02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",diagram,,legyártandó,specifikáció kész,,Peula 11 pontja – 3 fázisú térkép diagram,AI-generált,,,,
 M7.2-DIA-01::ALTTEXT,M7.2-DIA-01,alt-szöveg,M7,M7.2,"02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",diagram,,legyártandó,specifikáció kész,,Peula 11 pontja – 3 fázisú térkép diagram — alt-szöveg,AI-generált,M7.2-DIA-01-ALT,"A Peula 11 pontja három egymást követő fázisra bontva. 1. fázis – Előkészítés (4 pont): téma és modul; háttér és altémák; kvuca, idő és helyszín; SMART nevelési cél. 2. fázis – Megírás (4 pont): módszerek és élmény-blokk; felépítés (bevezetés–élmény–feldolgozás–zárás); realitás-check; kelléklista. 3. fázis – Biztonság és továbbfejlesztés (3 pont): biztonság és gyermekvédelem; visszajelzés és finomhangolás; utóreflexió és továbbfejlesztés. A nyilak a fázisok sorrendjét jelzik: előbb az Előkészítés, aztán a Megírás, végül a Biztonság és továbbfejlesztés.",79bab2e21b2f0fdfed14d62abec4ff31ef2ed4fc21564b6d0aca233e5248f548,
 M7.2-IKO-01,M7.2-IKO-01,elsődleges,M7,M7.2,"02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",icon-set,,legyártandó,specifikáció kész,,"Ikon-készlet – Megírás 4 pontja (játék, idővonal, óra, doboz)",AI-generált,,,,
@@ -4601,15 +4504,15 @@ Z.1-IKO-01,Z.1-IKO-01,elsődleges,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1
 Z.1-IKO-01::ALTTEXT,Z.1-IKO-01,alt-szöveg,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,icon-set,,legyártandó,specifikáció kész,,Napló-ikon a highlight-esszéhez — alt-szöveg,AI-generált,,,,
 Z.1-ILL-01,Z.1-ILL-01,elsődleges,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,illustration,,legyártandó,specifikáció kész,,Sorozatplakát-ikon M0–M7 epizódokkal,AI-generált,,,,
 Z.1-ILL-01::ALTTEXT,Z.1-ILL-01,alt-szöveg,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,illustration,,legyártandó,specifikáció kész,,Sorozatplakát-ikon M0–M7 epizódokkal — alt-szöveg,AI-generált,Z.1-ILL-01-ALT,"Sorozatplakát stílusú ikon, rajta az M0–M7 modulok nyolc kis téglalapként, mint egy nyolcrészes sorozat epizódjai.",1edfc7ef3624011e03d01f31d9f5b6604e66561784a5702997de627dd2c82200,
-Z.1-NAR-01,Z.1-NAR-01,elsődleges,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – idővonal (30–40 mp),AI-generált,Z.1-NAR-01-VO,"„Ez itt a féléved idővonala.
+Z.1-NAR-01,Z.1-NAR-01,elsődleges,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – idővonal (kb. 15–20 mp),AI-generált,Z.1-NAR-01-VO,"„Ez itt a féléved idővonala.
 Látod, honnan indultunk M0-ban, és hova jutottunk el M7-re.
 
 Közben az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át eljutottunk a **saját peulád** megírásáig.”",9bcc9f6d7b62601a9315b820db254c08a9d568ca5ae9b1cebfb87f27838add7b,"R2, R3"
-Z.1-NAR-01::CAPTIONS,Z.1-NAR-01,felirat,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – idővonal (30–40 mp) — felirat,AI-generált,Z.1-NAR-01-VO,"„Ez itt a féléved idővonala.
+Z.1-NAR-01::CAPTIONS,Z.1-NAR-01,felirat,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – idővonal (kb. 15–20 mp) — felirat,AI-generált,Z.1-NAR-01-VO,"„Ez itt a féléved idővonala.
 Látod, honnan indultunk M0-ban, és hova jutottunk el M7-re.
 
 Közben az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át eljutottunk a **saját peulád** megírásáig.”",9bcc9f6d7b62601a9315b820db254c08a9d568ca5ae9b1cebfb87f27838add7b,"R2, R3"
-Z.1-NAR-01::TRANSCRIPT,Z.1-NAR-01,leirat,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – idővonal (30–40 mp) — leirat,AI-generált,Z.1-NAR-01-VO,"„Ez itt a féléved idővonala.
+Z.1-NAR-01::TRANSCRIPT,Z.1-NAR-01,leirat,Z,Z.1,02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – idővonal (kb. 15–20 mp) — leirat,AI-generált,Z.1-NAR-01-VO,"„Ez itt a féléved idővonala.
 Látod, honnan indultunk M0-ban, és hova jutottunk el M7-re.
 
 Közben az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át eljutottunk a **saját peulád** megírásáig.”",9bcc9f6d7b62601a9315b820db254c08a9d568ca5ae9b1cebfb87f27838add7b,"R2, R3"

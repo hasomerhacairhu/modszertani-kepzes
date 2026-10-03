@@ -3,14 +3,17 @@ name: course-review
 description: Tananyag read-only review-ja — modul, lecke vagy peula pedagógiai, értékelési, nyelvi, gyermekvédelmi/jogi és implementációs átvizsgálása specialista subagentekkel, adverzális ellenőrzéssel. Nem szerkeszt semmit, validált finding-listát ad.
 argument-hint: <M3 | "02 Tervezet/.../fájl.md" | Z.4> [--lens pedagogy,assessment,language,safety,implementation|all]
 disable-model-invocation: true
-disallowed-tools: Edit, Write, NotebookEdit, Bash
+context: fork
+agent: course-review-orchestrator
+background: false
 ---
 
 # Tananyag-review
 
-**Ez a skill nem szerkeszt.** Az `Edit`, `Write` és `Bash` eszközök el vannak véve tőle
-erre a körre. A kimenet egy validált finding-lista, amiről **ember dönt**.
-A javítás külön skill: `/course-fix` vagy `/hungarian-edit`.
+Ez a skill egy külön, **read-only** subagentben fut (`course-review-orchestrator`: Read, Grep,
+Glob, Agent — szerkesztő eszköze nincs, és csak az öt lencse-reviewert meg a `verifier`-t
+indíthatja). A fő beszélgetés megvárja, és csak a riportot kapja meg. A kimenet egy validált
+finding-lista, amiről **ember dönt**; a javítás külön skill (`/course-fix`, `/hungarian-edit`).
 
 Scope és lencsék: `$ARGUMENTS`
 
@@ -19,7 +22,7 @@ Scope és lencsék: `$ARGUMENTS`
 - `M3` → `02 Tervezet/Modulok/M3/` teljes fája (hub, kapu, online leckék, peulák)
 - `M4.A`, `Z.4`, `M7.1` → az adott azonosítójú fájl a modulon belül (Glob-bal keresd meg)
 - útvonal → pontosan az a fájl vagy mappa
-- ha nem egyértelmű: **kérdezz vissza**, ne találgass
+- ha nem egyértelmű: **ne találgass** — riport helyett add vissza, mit kell pontosítani.
 
 ## 2. Lencsék kiválasztása — ne indítsd el mindet
 
@@ -30,30 +33,29 @@ Scope és lencsék: `$ARGUMENTS`
 | `--lens <lista>` | pontosan a felsoroltak |
 | `--lens all` / „teljes" | mind az öt |
 
-**Plusz kötelező**: futtasd a `biztonság-jog` lencsét is, ha a scope érinti az **M3**-at,
-az **M6**-ot, az **M7 AI-leckéit**, vagy a `02 Tervezet/Adatvédelem – tanulói adatok és AI.md`,
+**Plusz kötelező** a `biztonság-jog` lencse, ha a scope érinti az **M3**-at, az **M6**-ot, az
+**M7 AI-leckéit**, vagy a `02 Tervezet/Adatvédelem – tanulói adatok és AI.md`,
 `02 Tervezet/Gyermekvédelem – release gate.md`, `02 Tervezet/Emberi jóváhagyás szükséges.md`
-fájlokat — illetve ha a Grep **szóhatárra illesztve** talál ilyet: `gyermekvédel`, `kiskorú`,
-`személyes adat`, `adatvéd`, `jelzési kötelezettség`, `jelzőrendszer`, `hozzájárulás`,
-`feltárás`, `krízis`, `önfeltár`, `\bAI\b`.
+fájlokat — illetve ha a Grep **szókezdetre illesztve** (csak bal oldali szóhatárral, mert a
+toldalék jobbra hosszabbít) talál ilyet: `gyermekvédel`, `kiskorú`, `személyes adat`,
+`adatvéd`, `jelzési kötelezettség`, `jelzőrendszer`, `hozzájárulás`, `feltárás`, `krízis`,
+`önfeltár`; valamint az önálló `AI` szót **a `<!-- @asset … -->` blokkokon kívül** (az asset-
+blokkok `"AI-generált"` provenance-jegyzete nem trigger).
 
 > A puszta `adat` és `jelzés` **nem** trigger: magyarban a `feladat` és a `visszajelzés` is
-> illeszkedne rájuk, és akkor a lencse minden fájlon elindulna — ami épp azt a szabályt
-> ürítené ki, ami fölötte áll.
+> illeszkedne rájuk, és akkor a lencse minden fájlon elindulna.
 
-Ezt mondd is ki a riportban („biztonsági lencse bekapcsolva, mert …").
+Explicit `--lens` lista az erősebb: pontosan azt futtasd. Ha ezzel egy kötelező
+`biztonság-jog` lencse kimarad, a riport **első pontjában** mondd ki („kötelező biztonsági
+lencse kimaradt az explicit --lens miatt, mert …”). Bekapcsolt kötelező lencsénél is mondd ki,
+miért kapcsolt be.
 
-Ha csak nyelvi review-t kértek, **ne futtass pedagógiai vagy jogi auditot.**
+## 3. Kontextus
 
-## 3. Kontextus beolvasása (te, a fő contextben)
-
-Csak amire tényleg szükség van: a scope-ba eső fájlok listája, a modulhub, és a
-releváns kánoni dokumentum (`02 Tervezet/Program terv.md` érintett szakasza, a modul kapu-fájlja,
-vagy a `Glosszárium`). **Ne olvasd be a teljes korpuszt.**
+Csak amire tényleg szükség van: a scope-ba eső fájlok listája, a modulhub, és a releváns
+kánoni dokumentum érintett szakasza. **Ne olvasd be a teljes korpuszt.**
 
 ## 4. Delegálás
-
-Minden kiválasztott lencsét egy-egy subagentnek adj át **egy üzenetben, párhuzamosan**:
 
 | Lencse (`--lens` token) | Agent |
 |---|---|
@@ -63,36 +65,38 @@ Minden kiválasztott lencsét egy-egy subagentnek adj át **egy üzenetben, pár
 | biztonság-jog (`safety`) | `safety-policy-reviewer` |
 | implementáció (`implementation`) | `implementation-reviewer` |
 
-**Kizárólag ez az öt agent + a `verifier` indítható.** `general-purpose` vagy bármely
-más agent tiltott: azoknak `Edit`/`Write` eszközük van a `02 Tervezet/`-re. Ha egy
-lencse nem képezhető le ezekre, **kérdezz vissza**, ne helyettesítsd.
+Lencsénként egy hívás a scope fájllistájával; nagy modulnál lencsénként fájlcsoportokra bontva
+(a csoportok minden kiválasztott lencsénél ugyanazok). Minden prompt tartalmazza:
 
-A prompt tartalmazza: a konkrét fájlútvonalakat, a scope leírását, és hogy a
-`.claude/finding-format.md` szerint válaszoljon. **Ne kérj tőlük fájltartalmat vissza.**
+- a konkrét fájlútvonalakat és a scope leírását;
+- hogy a `.claude/finding-format.md` szerint válaszoljon, fájltartalmat ne adjon vissza;
+- a **lezárt döntés** és a **bizonyíték-kapu** definícióját szó szerint a
+  `.claude/rules/safety-and-human-gates.md` „Lezárt döntések” szakaszából (minden reviewer
+  ugyanazt a szabályt kapja).
+
+Ha egy reviewer a lépéskorlátja miatt részleges eredménnyel tér vissza, azt a lencsét a
+riportban **hiányosként** jelöld.
 
 ## 5. Adverzális ellenőrzés
 
-Az összegyűjtött findingokat add át a `verifier` agentnek — egyetlen hívásban, a
-teljes listával, hogy a duplikátumokat is lássa. Nagy lista esetén **lencsénként** bontsd,
-ne fájlonként: a duplikátumok jellemzően lencsék között keletkeznek (ugyanaz a
-terminológiai csúszás a `nyelv` és az `implementáció` lencsében). **Minden finding
-kapjon verdiktet.** Egy finding sem eshet ki csendben: ha valami
-kimarad a caps miatt, azt a riport végén **sorold fel** név szerint.
+Az összes findingot **egyetlen** `verifier`-hívásnak add át, a teljes listával — a
+duplikátumok épp a lencsék között keletkeznek. A promptban jelezd, hogy git-history nem áll
+rendelkezésre (a „restauráció vagy baseline” kérdésre „baseline ismeretlen” a válasz, és a
+súlyosság nem emelkedik). **Minden finding kapjon verdiktet**; egy sem eshet ki csendben.
 
 ## 6. Riport
 
 Sorrend: `P0` → `P1` → `P2`, ezen belül lencse szerint. Alapértelmezett maximum:
-**25 finding** teljes modulnál, **15** egyetlen fájlnál. Az `ELVETVE` verdiktűek közül
-a **P0 és P1** súlyosságúakat akkor is sorold fel egy-egy sorban (ID + az elvetés oka);
-a P2-esekből elég a darabszám. Ha egy specialista `LEVÁGVA` sorral tért vissza, azt is
-add tovább a 4. szakaszban.
+**25 finding** teljes modulnál, **15** egyetlen fájlnál. Az `ELVETVE` verdiktűek közül a
+**P0 és P1** súlyosságúakat akkor is sorold fel egy-egy sorban (ID + az elvetés oka); a
+P2-esekből elég a darabszám.
 
-A riport szerkezete:
-
-1. **Scope és futtatott lencsék** — mit néztünk meg, mit nem, és miért
-2. **Validált findingok** a `.claude/finding-format.md` mezőivel
+1. **Scope és futtatott lencsék** — mit néztünk meg, mit nem, miért; kimaradt kötelező vagy
+   hiányos lencse
+2. **Validált findingok** (`objektív` típus) a `.claude/finding-format.md` mezőivel
 3. **Emberi döntést igénylő tételek** külön blokkban — ezekre nincs javasolt szöveg
-4. **Cap miatt kihagyott findingok** felsorolása, ha volt ilyen
-4b. **Levágott findingok** — ha egy specialista elérte a saját capjét (`LEVÁGVA: n …`)
-5. **Következő lépés** — melyik findingra melyik skill (`/course-fix`, `/hungarian-edit`,
-   új tartalomnál `/course-develop`)
+4. **Bizonyíték-kapuk** külön blokkban — szerep, G-kapu (`02 Tervezet/RELEASE-READINESS.md`)
+   és a tracker-issue; ezek **nem** mennek `/course-fix`-be
+5. **Cap miatt kihagyott és levágott findingok** (`LEVÁGVA: n …`) felsorolása
+6. **Következő lépés** — melyik `objektív` findingra melyik skill (`/course-fix`,
+   `/hungarian-edit`, új tartalomnál `/course-develop`)

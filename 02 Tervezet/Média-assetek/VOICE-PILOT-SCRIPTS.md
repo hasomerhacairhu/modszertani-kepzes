@@ -1,28 +1,31 @@
-# 🎧 Hang-pilot szkriptek — a narrátor-döntés (D2) tesztanyaga
+# 🎧 Hang-pilot szkriptek — a kanonikus hang pilotszkriptjei (P1–P3)
 
-Ez a lap **három meglévő narrációt** jelöl ki a tananyagból, amelyeken a hangjelöltek
-összehasonlíthatók. A szövegek **másolatok, nem kánon**: a kánoni forrás továbbra is a
+Ez a lap **három meglévő narrációt** jelöl ki a tananyagból, amelyeken a kanonikus narrátorhang a
+fülre hozott kiejtési döntéseket produkciós környezetben ellenőrzi (P1–P3; VO D-13). A szövegek **másolatok, nem kánon**: a kánoni forrás továbbra is a
 leckében álló `@source` blokk, és a felvétel mindig onnan készül.
 
 > ⚠️ **Ez a lap nem hoz létre új narrációt, és nem írja felül a meglévőt.** Ha egy
 > forrásszöveg megváltozik a leckében, ez a lap **elavul** — a `Forrás-hash` oszlop
-> ezért van itt. Ellenőrzés: `python3 tools/media_manifest.py check`.
+> ezért van itt. Ellenőrzés kézzel: a `Forrás-hash` egyezzen a `_build/media-manifest.v2.json`
+> megfelelő `sources[].hash` értékének első 16 karakterével — a `python3 tools/media_manifest.py check`
+> ezt **nem** nézi, csak a generált kimenetek frissességét.
 
-**Miért kell pilot:** a [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 11. szakasza kimondja, hogy
-„a pilot dönt” — a tempót, a hangszínt, a szünetkezelést és a someres szavak kiejtését
-egyetlen jóváhagyott felvételen kell rögzíteni, és a többi tétel ehhez igazodik. A hang
-90 narráció-assetre és 27 videó hangsávjára hat; egy rossz választás 117 tételen kerül
+**Miért kell pilot:** a [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 11.2. szakasza szerint a pilot a
+hangszínt, a szünetkezelést és a mért hosszt hagyja jóvá produkciós környezetben; a someres
+szavak kiejtését a B4-regiszter fülre hozott döntései szerint **ellenőrzi**, nem dönti el újra
+(VO D-13). A hang 89 hang-assetre és 27 videó hangsávjára hat; egy hiba 116 tételen kerül
 vissza.
 
-**Mit NEM dönt el ez a lap:** magát a hangot. Ez a lap a **tesztanyagot** jelöli ki; a
-végrehajtható összehasonlítás — beállítások, kiejtési figyelőlista, pontozólap —
-[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
+**Mit NEM dönt el ez a lap:** magát a hangot — az eldőlt: a narrációt a kanonikus narrátorhang mondja (projektgazdai
+döntés, 2026-10-03, VO D-14). A beállítások a [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12.
+szakaszában, a kiejtési figyelőlista az
+[`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 4. szakaszában, az elfogadási feltétel e lap 6. szakaszában áll; a tesztlap
+pontozólapja a kéthangos választás idejéből való, történeti.
 
 > ✅ **2026-08-28: a szolgáltatói kérdés lezárult.** A felmondás **szintetikus**, a motor
-> az **ElevenLabs**, és a jelöltek a két forrás-beszélő — **VOICE-SRC-01** és
-> **VOICE-SRC-02** — felvételeiből **létrehozandó** egyedi hangok; **a hangok még nem készültek el**.
-> Az itt kijelölt három szkript ezért már nem „motorválasztási” tesztanyag, hanem a
-> **két hang összehasonlításának** anyaga — hatmintás mátrixban, a hangok létrehozása után.
+> az **ElevenLabs**. **2026-10-03:** mindkét hang (a kanonikus narrátorhang és a második hang) létezik, a narrációt a kanonikus
+> narrátorhang mondja (VO D-01, D-14). Az itt kijelölt három szkript ezért nem hangválasztási anyag, hanem a
+> kanonikus hang **produkciós ellenőrzésének** anyaga (VO D-13).
 
 ---
 
@@ -43,17 +46,19 @@ próba-keretet.
 |---|---|
 | `kvuca` / `kvucá-` (c = /ts/) | P1, P2, P3 |
 | `Somer` / `someres` (s = /ʃ/) | P1, P3 |
-| `madrih`, `madrihhoz` (szóvégi torokhang) | P2 |
-| `hanih` (szóeleji **és** szóvégi torokhang) | P2 |
+| `madrih`, `madrihhoz` („mádrih” [maːdrix], B4) | P2 |
+| `hanih` ([xanix], B4) | P2 |
 | `peula` | P2 |
-| `Parparim`, `Kivsza`, `Leviatán` | P3 |
-| `Tuckman` (szerzőnév, kiejtés rögzítendő) | P1 |
+| `Parparim`, `Kivsza`, `Leviatán` (hangja „Leviatan”, B4) | P3 |
+| `Tuckman` („Takmen”, B4) | P1 |
 | évszám felmondása (`1977`) | P1 |
 
-**Amit a három szkript NEM fed le** — ezeket a köteg-jóváhagyáskor külön kell
-ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma isit`, `hágsámá`, `bogrim`,
-`mazkirut`, `Hasomer Hacair`, `Johari`, `SBI` betűzés, korosztály-tartományok
-(`6–9`, `13–17`), időtartamok (`45’`, `45 mp`).
+**A narrációban ténylegesen előforduló, a próbák szerint kockázatos tételek, amelyeket a három
+szkript nem fed le** — ezeket a köteg-jóváhagyáskor és a QA kiejtési regressziós próbájában kell
+ellenőrizni, nem a piloton: `dugma isit`, `Zmán Kvucá`, `ken` („kenben”), `Johari`, `Memunát`,
+az `SBI` és az önálló `S`, `red flag`, `checklist`, `SMART`, `AI`, `Moodle`, `energizer`, a
+`13–17`, a `112`, az `M2.A`, az `az ÉN`, a modul- és leckekódok, a `Peula v1/v2` és a
+toldalékos számok (`18-tól`).
 
 ---
 
@@ -63,14 +68,15 @@ ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma isit`, `hágsámá`, 
 - **Forrás:** `02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md`, `@source` blokk `M3.1-NAR-02-VO` (deklaráció: 254. sor, törzs: 255–275. sor)
 - **Forrás-hash:** `92d86f7be3c403a5`
 - **Lecke-időkeret:** kb. 60–75 mp · **136 szó** → 109–136 szó/perc
-- **Céltempó szerint:** 110 szó/percen **74 mp** — a keretben marad.
+- **Becslés a kanonikus narrátorhang mért tempójával (2026-10-03):** kb. 64 mp — a keretben marad, gyorsítás nélkül.
 
 ### Miért ez a reprezentatív magyarázó szkript
 
 - A korpusz **leghosszabb egybefüggő INPUT-narrációja**. Ha egy hang egy percen át
   megtartja a figyelmet monotónia nélkül, a 20–40 mp-es többségen is meg fogja.
-- **Kilenc félkövér kiemelés** van benne — a hang-bible 5. szakasza szerint ezek
-  hangsúlyos szavak. Ez a legsűrűbb hangsúly-teszt a tananyagban.
+- **Kilenc félkövér kiemelés** van benne. A v4-en a félkövér nem hangsúlyjel (hang-bible 5.): a
+  szkript azt méri, hogy a jelentést hordozó hangsúly a mondatszerkezetből ép marad-e — fülre
+  (VO D-11). Ez a legsűrűbb ilyen hely a tananyagban.
 - **Öt `👉` emoji** áll sorkezdeten. A hang-bible szerint az emoji **hangulatjelölő, nem
   felmondandó** — ez egyben csővezeték-teszt: a szintézis bemenetéből az emojit ki kell
   szűrni, különben a motor felolvassa vagy megbotlik rajta.
@@ -110,10 +116,10 @@ ellenőrizni, nem a piloton: `ken`, `Zmán Kvucá`, `dugma isit`, `hágsámá`, 
 |---|---|---|
 | `kvuca` (2×) | „kvuca”, c = /ts/ | glosszárium, hang-bible 6. |
 | `someres` | „someres”, s = /ʃ/ | glosszárium, hang-bible 6. |
-| `Tuckman` (2×) | **a pilot rögzíti** — a leckék nem adnak kiejtési előírást; a jóváhagyott változatot utána következetesen kell tartani | hang-bible 7. |
-| `Mary Ann Jensen` | angol személynév | — |
+| `Tuckman` (2×) | „Takmen”; a teljes név „Brúsz Takmen” (B4, fülre jóváhagyva; VO D-04) | hang-bible 7. |
+| `Mary Ann Jensen` | „Méri En Dzsenszen” (B4) | hang-bible 7. |
 | `1977-ben` | „ezerkilencszázhetvenhét-ben”, nem számjegyenként | hang-bible 7. |
-| `forming` / `storming` / `norming` / `performing` / `adjourning` | angol olvasat, magyar mondatritmusban; az `adjourning`-ot toldalékkal | — |
+| `forming` / `storming` / `norming` / `performing` / `adjourning` | „fórming, sztórming, nórming, perfórming, edzsörning” (B4; VO D-04); az `adjourning`-ot toldalékkal | hang-bible 7. |
 
 ### Tempó és hangvétel
 
@@ -129,7 +135,7 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 - **Forrás:** `02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md`, `@source` blokk `M6.2-NAR-04-VO` (deklaráció: 492. sor, törzs: 493–512. sor)
 - **Forrás-hash:** `f78f0c8b737f2434`
 - **Lecke-időkeret:** kb. 40–50 mp · **71 szó** → 85–106 szó/perc
-- **Céltempó szerint:** 110 szó/percen **39 mp** — a keret alsó szélén, tehát **van hely a szüneteknek**. Ez itt szándékos.
+- **Becslés a kanonikus narrátorhang mért tempójával (2026-10-03):** kb. 30 mp — a keret alatt, tehát **van hely a szüneteknek**; szöveget nem töltünk fel a keretig (VO D-17). Ez itt szándékos.
 
 ### Miért ez a reprezentatív érzelmi szkript
 
@@ -174,8 +180,8 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 
 | Elem | Elvárás | Forrás |
 |---|---|---|
-| `madrih`, `madrihhoz` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/, nem /k/; a toldalékolt alakban is | hang-bible 6. |
-| `hanih` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | hang-bible 6. |
+| `madrih`, `madrihhoz` | „mádrih” [maːdrix] — a toldalékolt alakban is (B4; VO D-04) | hang-bible 6. |
+| `hanih` | [xanix] — a szótár aliasa adja (B4; VO D-04) | hang-bible 6. |
 | `peula` | „peula”, kisbetűs köznév | glosszárium |
 | `kvucának` | hosszú á a toldalékolt tőben | glosszárium |
 | `Lili`, `Lilinek` | magyar keresztnév | — |
@@ -183,7 +189,8 @@ vissza. Nincs lelkesedés, nincs tanári számonkérés.
 ### Tempó és hangvétel
 
 Visszafogott, tényszerű, meleg — **nem szomorkás és nem drámai**. A „Lili szinte végig
-csendben marad.” után valódi szünet kell (üres sor = 0,6–1 mp). Az idézetnél a
+csendben marad.” után valódi szünet kell: a v4 az üres sort nem veszi szünetnek, ezért ha a
+központozás kevés, az utómunka kb. 0,6–1,0 mp-et illeszt be (VO D-10). Az idézetnél a
 regiszter enyhén vált, a hangszín nem.
 
 ---
@@ -195,20 +202,17 @@ regiszter enyhén vált, a hangszín nem.
 - **Forrás-hash:** `17184b1a6e2cf25c`
 - **Lecke-időkeret:** 15–20 mp · **40 szó** → 120–160 szó/perc
 
-> ⚠️ **Mért eltérés, nem hiba a szkriptben.** A céltempón (110 szó/perc) ez a szöveg
-> **kb. 22 mp**, azaz ~2 másodperccel túllépi a lecke 15–20 mp-es keretét. A hang-bible
-> 4. szakasza erre kimondott szabályt ad: „a lecke időkerete a szűk, nem a szöveg
-> hosszú — ilyenkor a felvételnél a **hosszt kell tágítani**, nem a szöveget hadarni.”
-> A pilotnak ezt kell megerősítenie: a felvétel **nem** gyorsulhat 130 szó/perc fölé
-> csak azért, hogy beleférjen. Ha a jóváhagyó mégis a 20 mp-es keretet tartja
-> kötelezőnek, az **szerzői döntés a lecke időkeretéről**, nem hangdöntés.
+> ✅ **Mért hossz (kanonikus narrátorhang, 2026-10-03): 18,5 mp** — a lecke 15–20 mp-es keretén belül, gyorsítás
+> nélkül. A korábbi, 110 szó/perces céltempóra számolt kb. 22 mp-es becslés elavult (hang-bible
+> 4.). A szabály változatlan: ha egy felvétel nem fér a keretbe, **a keretet kell tágítani**, nem
+> a hangot gyorsítani — a keretről a szerző dönt, nem a hang (VO D-17).
 
 ### Miért ez a reprezentatív kiejtési szkript
 
 - A tananyag **legsűrűbb someres kiejtési tesztje**: 40 szóban több kiejtés-érzékeny elem, köztük **mind a három aktuális kvuca-tulajdonnév egyetlen felsorolásban**.
-- A `Leviatán` hangzóhossza: a projektgazdai döntés (2026-10-02) szerint a first-party
-  „Leviatán” alak a kánon, hosszú á-val; a tananyag írott alakja gépi migrációval vált át.
-  Ha egy hang ezt elrontja, az minden előfordulásnál látszani fog.
+- A `Leviatán`: az írott alak a kánon (projektgazdai döntés, 2026-10-02, HUM-SOMER-02), a hangja
+  a fülre jóváhagyott „Leviatan” (B4; projektgazdai döntés, 2026-10-03, VO D-05) — a szótár
+  aliasa adja, a felirat „Leviatán”. Ha a hang ezt elrontja, az minden előfordulásnál hallatszik.
 - Rövid: egy jelölt kiejtési profilja 20 másodperc alatt eldönthető, mielőtt a hosszabb
   szkriptekre költenél.
 
@@ -229,7 +233,7 @@ regiszter enyhén vált, a hangszín nem.
 |---|---|---|
 | `Parparim` | „parparim” | glosszárium |
 | `Kivsza` | „kivsza” | glosszárium |
-| `Leviatán` | „leviatán” — hosszú **á**, a first-party „Leviatán” alak szerint | projektgazdai döntés (2026-10-02); hang-bible 6. |
+| `Leviatán` | „Leviatan” [leviotɒn] — rövid a-val (B4); a felirat „Leviatán” | projektgazdai döntés (2026-10-03, VO D-05); hang-bible 6. |
 | `kvuca`, `kvucába` | c = /ts/; a toldalékolt tőben hosszú á | glosszárium |
 | `someres` | s = /ʃ/ | glosszárium |
 | `és` a felsorolás végén, `–` gondolatjel | a gondolatjel szünet, nem felmondandó | hang-bible 5. |
@@ -243,41 +247,36 @@ ez a szkript egyetlen valódi feladata. A gondolatjel után rövid levegő.
 
 ## 5. Hogyan kell a pilotot futtatni
 
-1. **Egy hang = mind a három szkript**, tehát a két jelölttel összesen **hat minta**. Egy
-   szkripten nem lehet hangot választani: P1 a tempót, P2 az érzelmi sávot, P3 a kiejtést
-   méri, és egy hang lehet az egyikben jó, a másikban rossz. A mátrixot és a beállításokat
-   a [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) tartalmazza.
-2. **A szintézis bemenete tisztított szöveg**, nem a nyers Markdown. A pontos szabályokat
-   a tesztlap 2.1. szakasza rögzíti — röviden: a `**…**` jelölés **eltávolítandó** (nem
-   fordítandó hangsúly-jelölésre), az emoji a mögötte álló szóközzel együtt törlendő, a
-   nyitó/záró `„ ”` a forrásblokk határa, a sortörés és az üres sor viszont marad.
-3. **Ugyanaz a tisztított szöveg megy mindkét hanghoz**, bájtra azonosan — különben nem
-   hangot hasonlítasz össze, hanem szövegváltozatokat.
-4. **A kiejtési táblát (hang-bible 6.) mindkét hangnál végig kell hallgatni** — a teszt
-   **szótár nélkül, egyetlen körben** fut. A kiejtési szótár a teszt **eredménye**, nem a
-   bemenete: előbb ki kell derülnie, melyik szó romlik el ténylegesen, és csak azokra
-   készül alias-szabály. *(A „szótárral és anélkül is lefuttatni" kétkörös eljárás a
-   motorválasztás idejéből maradt itt; a motor azóta eldőlt, és a kétkörös futtatás
-   megkétszerezné a hat mintát.)*
-5. **A jóváhagyó magyar anyanyelvű, someres szóhasználatot ismerő ember.** A
+1. **A három szkript a kanonikus narrátorhanggal fut**, a produkciós konfigurációval
+   ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12.); hangválasztás nincs (VO D-14). P1 a hosszú
+   magyarázó ívet, P2 az érzelmi sávot, P3 a kiejtést méri.
+2. **A szintézis bemenete a tisztított szöveg**, nem a nyers Markdown. A pontos szabályokat
+   az [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 2.1. szakasza rögzíti —
+   röviden: a `**…**` jelölés **eltávolítandó** (nem fordítandó hangsúly-jelölésre), az emoji a
+   mögötte álló szóközzel együtt törlendő, a nyitó/záró `„ ”` a forrásblokk határa; a sortörés
+   és az üres sor nem szünetvezérlő (VO D-10).
+3. **A kiejtési táblát (hang-bible 6–7.) végig kell hallgatni** — a futás a **kanonikus
+   szótárral** megy (VO D-03). A jóváhagyott hangzás a B4-regiszteré; ha egy szó a próbától
+   hallhatóan eltér, az regresszió, nem új döntés (VO D-13, D-23).
+4. **A jóváhagyó magyar anyanyelvű, someres szóhasználatot ismerő ember.** A
    `Leviatán` / `kvuca` / `hanih` alak helyességét nem lehet leírt átiratból eldönteni.
 
 ## 6. Elfogadási feltétel a hang-pilotra
 
-- [ ] mind a három szkript elkészült ugyanazzal a hanggal;
-- [ ] P1 tempója 100–125 szó/perc között marad, és a kilenc kiemelés hallható;
+- [ ] mind a három szkript elkészült a kanonikus narrátorhanggal;
+- [ ] P1 gyorsítás és időnyújtás nélkül a lecke 60–75 mp-es keretén belül marad, és a jelentést
+      hordozó hangsúly nem sérül (fülre) (VO D-11, D-17);
 - [ ] P1-ben egyetlen emoji sem hangzik el;
 - [ ] P2 nem játssza túl az érzelmi tartalmat, és az idézet nem külön karakterhang;
-- [ ] P3-ban mind a három aktuális kvuca-név helyes, és a `Leviatán` hosszú á-val,
-      „leviatán”-ként szól;
-- [ ] a `madrih` / `hanih` szóvégi és szóeleji hangja a hang-bible 6. szakasza szerint
-      hallható torokhang, nem /cs/ és nem /k/;
+- [ ] P3-ban mind a három aktuális kvuca-név helyes, és a `Leviatán` „Leviatan”-ként, rövid
+      a-val szól (B4; VO D-05);
+- [ ] a `madrih` „mádrih” [maːdrix], a `hanih` [xanix] hangzású (B4; VO D-04) — nem a fülre
+      elvetett kerekített olvasat;
 - [ ] a `kvuca` c-je /ts/, a `Somer` s-e /ʃ/;
 - [ ] a hang tegező, egyenrangú, nem gyerekhang és nem hivatalos;
 - [ ] a felvétel szó szerint fedi a forrásszöveget (a felirat ebből generálódik);
-- [ ] tiszta beszéd, háttérzaj nélkül; a hang-bible 10. szakaszának nyitott
-      mastering-értékei (mintavétel, bitmélység, csatorna, normalizálás) ekkor
-      rögzíthetők.
+- [ ] tiszta beszéd, háttérzaj nélkül; a mester 48 kHz / 16 bit / mono WAV (VO D-12); a
+      hangerő-normalizálás célértéke ekkor rögzíthető.
 
 > **Írásmód — projektgazdai döntés (2026-10-02):** a magyar Somer first-party alakjai a
 > kánon (madrih, hanih, hágsámá, dugma isit, Leviatán), és a tanulói korpusz egyszeri gépi

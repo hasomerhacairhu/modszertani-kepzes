@@ -9,7 +9,7 @@
 ## 1. Feliratozás és hangzó tartalom
 
 - **Előre rögzített, szinkronizált videóhoz (kép + hang) FELIRAT kell** — a teljes szöveges leirat **nem helyettesíti** (WCAG 2.2 SC 1.2.2, A szint). A leirat emellett **erősen ajánlott** kiegészítés, és a szinkronizált média szöveges alternatívájaként külön szerepet is betölt (SC 1.2.3).
-- **Csak hangot tartalmazó** (videó nélküli) előre rögzített tartalomnál elegendő a teljes szöveges leirat (SC 1.2.1).
+- **Csak hangot tartalmazó** (videó nélküli) előre rögzített tartalomnál elegendő a teljes szöveges leirat (SC 1.2.1). Csak hangot tartalmazó narrációnál ez a szöveges ekvivalens a dián vagy a médiaelem mellett látható leirat, és az első sora a kanonikus AI-címke: „AI-generált médiaelem · emberi lektorálással.” A H5P Audio elemhez nem írunk elő feliratsávot (a tartalomtípus `semantics.json`-jában nincs feliratmező); a `.vtt` legfeljebb archivált derivatíva (projektgazdai döntés, 2026-10-03, VO D-19, D-21). Ugyanez vonatkozik a csak leirattal tervezett narrációkra (pl. M3.3).
 - **Hangalámondás / audio description (SC 1.2.5, AA):** ott kell megvizsgálni, ahol a képi sáv olyan információt hordoz, ami a hangban nem hangzik el. Ha a videó minden lényegi információja elhangzik a narrációban, külön hangalámondás nem szükséges. A videókat **egyenként** kell besorolni, és a besorolást videónként rögzíteni; nem a teljes videót nevezzük dekoratívnak. A **beszélő fej képi sávja** lehet dekoratív, ha minden információ benne van a hangban és a leiratban. **Jelenetvideónál**, ahol arckifejezés, gesztus vagy képi történés hordoz jelentést, **hangalámondásos képleírás kell (SC 1.2.5, AA)**, mellette **szöveges alternatíva** is (SC 1.2.3).
 - **A leirat helye:** a H5P Course Presentation diáinak nincs külön jegyzetmezője (a `h5p-course-presentation` hivatalos `semantics.json`-ja szerint egy dia mezői: `elements`, `keywords`, `slideBackgroundSelector`), ezért a leirat ne „slide-jegyzetbe” kerüljön, hanem a dián látható szövegként, a médiaelem mellől megnyitható szövegként vagy linkelt leirat-oldalként jelenjen meg. Hogy a választott megoldás a célverzión billentyűzettel és képernyőolvasóval elérhető-e, az `LMS – H5P runtime acceptance.md` szerinti teszten kell igazolni.
 - A narráció **soha ne hordozzon kizárólag hangban elérhető információt**. Ha a hang önálló infót vagy hangulati keretet közöl, annak olvashatóan is meg kell jelennie a dián vagy a leiratban.
@@ -17,6 +17,7 @@
 - Az **Interactive Video** minden jelenete legyen feliratozva; az interaktív pontok szövege is legyen elérhető képernyőolvasóval.
 - A videó-megnevezésnél írd ki explicit a `felirattal` kitételt (pl. „AI beszélő fej videó, 16:9, **felirattal**”), hogy a feliratozás minden videós leckében konzisztens legyen.
 - Mobil-first környezetben a felirat **nem extra, hanem alap** — siket/nagyothalló és néma-lejátszású (tömegközlekedés, mobil) felhasználók miatt.
+- **Nincs automatikus lejátszás:** narráció és videó soha nem indul el magától; a lejátszást a tanuló indítja, és bármikor megállíthatja. A H5P-elemek automatikus lejátszása ki van kapcsolva (H5P Audio: „Enable autoplay”; H5P Video és Interactive Video: „Auto-play video”). A szabály szigorúbb a WCAG 2.2 SC 1.4.2-nél, amely csak a 3 mp-nél hosszabb, magától induló hanghoz kér leállítási vagy hangerő-szabályozási lehetőséget (projektgazdai döntés 2026-10-03-B, IMPL-34).
 
 **Sablon-emlékeztető fejlesztőnek:** *szinkronizált videó = felirat (kötelező) + leirat (ajánlott) + a kulcsüzenet a slide-on is olvasható.*
 
@@ -101,8 +102,9 @@
 
 ## Gyors checklist fejlesztőnek
 
-- [ ] Szinkronizált videó → **felirat** (kötelező, SC 1.2.2) + leirat a dián vagy a médiaelem mellől elérhető szövegként (ajánlott); csak hangot tartalmazó anyagnál a teljes leirat elegendő (SC 1.2.1); a hangalámondás igénye (SC 1.2.5) videónként megvizsgálva: a beszélő fej képi sávja lehet dekoratív, a jelentést hordozó jelenetvideóhoz hangalámondásos képleírás (SC 1.2.5) és mellette szöveges alternatíva (SC 1.2.3) kell
+- [ ] Szinkronizált videó → **felirat** (kötelező, SC 1.2.2) + leirat a dián vagy a médiaelem mellől elérhető szövegként (ajánlott); csak hangot tartalmazó anyagnál a teljes leirat elegendő (SC 1.2.1) — a dián vagy a médiaelem mellett látható szövegként, első sora az AI-címke; a hangalámondás igénye (SC 1.2.5) videónként megvizsgálva: a beszélő fej képi sávja lehet dekoratív, a jelentést hordozó jelenetvideóhoz hangalámondásos képleírás (SC 1.2.5) és mellette szöveges alternatíva (SC 1.2.3) kell
 - [ ] Narráció nem hordoz kizárólag hangban elérhető infót
+- [ ] Hang és videó nem indul el magától: a lejátszást a tanuló indítja (a H5P automatikus lejátszása kikapcsolva; 2026-10-03-B)
 - [ ] Interactive Video jelenetei feliratozva
 - [ ] Alt-szöveg minden képernyőképhez/ikonhoz/grafikához
 - [ ] Húzásra épülő feladat mellett **húzásmentes**, egykattintásos + billentyűzetes egyenértékű út (SC 2.5.7) — a konkrét típus húzásmentességét a renderen igazold

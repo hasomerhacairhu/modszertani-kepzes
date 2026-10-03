@@ -25,12 +25,12 @@
 
 | Mutató | Érték |
 |---|--:|
-| Szemantikus asset | **416** |
-| Produkciós deliverable | **907** |
-| ebből legyártandó | 402 |
+| Szemantikus asset | **415** |
+| Produkciós deliverable | **903** |
+| ebből legyártandó | 401 |
 | ebből újrahasznosítás | 8 |
 | ebből külső forrás | 6 |
-| Forrásblokk | 124 |
+| Forrásblokk | 123 |
 | Feldolgozott fájl | 84 |
 | Assetet tartalmazó fájl | 65 |
 
@@ -44,12 +44,12 @@ számolt *deliverable* keletkezik.
 
 | Diszpozíció | Db | Jelentése |
 |---|--:|---|
-| `PRESERVED` | 405 | azonos azonosítóval megmaradt szemantikus asset |
+| `PRESERVED` | 403 | azonos azonosítóval megmaradt szemantikus asset |
 | `CHANGED` | 3 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
-| `DERIVED_NOW` | 318 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
+| `DERIVED_NOW` | 314 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
 | `MERGED_INTO_PARENT` | 6 | a szülő asset deklarációjába olvadt, nincs külön deliverable |
 | `REUSE` | 11 | explicit újrahasznosítás egy kanonikus assetre |
-| `NO_LONGER_REQUIRED` | 4 | a jelenlegi tananyag már nem igényli |
+| `NO_LONGER_REQUIRED` | 10 | a jelenlegi tananyag már nem igényli |
 | `CURRENTLY_UNMAPPED_ERROR` | 0 | **hiba** — egyetlen sor sem maradhat itt |
 
 **Összesen: 747 / 747 sor diszpozícionálva.**
@@ -61,12 +61,12 @@ A soronkénti leképezés gépi formában: `asset-migration-map.csv`.
 
 | ID | Fájl | Mit kell eldönteni |
 |---|---|---|
-| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a két madrih dialógushangja, a hangok jogosultsága (R2, V2) és a kétszereplős, szájszinkronos gyártási út. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
+| `M1.3-VID-01` | 02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md | Nyitott (PRODUCTION-DECISIONS.md D11): a kétszereplős, szájszinkronos gyártási út. A dialógushangokat az első gyártási körre a projektgazda eldöntötte (2026-10-03, VO D-14 és K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként külön szegmensben, a feliratban beszélőjelöléssel); a hangok jogosultsága tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2, V2) függő. A jóváhagyott HOOK-szkriptet (D6) ez a döntés nem nyitja újra. |
 
 Hivatkozott produkciós szabályok / blokkolók:
 
-- **R2** — 119 asset
-- **R3** — 117 asset
+- **R2** — 118 asset
+- **R3** — 116 asset
 - **R8** — 2 asset
 - **R7** — 1 asset
 

@@ -90,7 +90,7 @@ REQUIRED_FILES = [
 # Phrases that must not come back anywhere under Modulok/.
 FORBIDDEN_ANYWHERE = {
     'te leszel az a felnőtt':
-        'a 15+ célcsoportban a madrich maga is lehet kiskorú, nem ő az egyedüli felelős felnőtt',
+        'a 15+ célcsoportban a madrih maga is lehet kiskorú, nem ő az egyedüli felelős felnőtt',
     'érzelmi „gáz” (amygdala)':
         'túlzottan leegyszerűsítő, nem védhető fejlődéslélektani metafora',
     'fotózd le a rajzot, és töltsd fel':
@@ -201,8 +201,8 @@ ACTIVE_SPEC_RULES = {
     'mini-színház': 'az M3.B kánoni formátuma harmadik személyű esetelemzés, nem szerepjáték',
     'fórum-színház': 'az M3.B-ből a fórum-színház kikerült',
     'minijelenet': 'súlyos gyermekvédelmi helyzet eljátszatása visszatérne',
-    'biztonságos felnőttként': '15+ célcsoportban a madrich maga is lehet kiskorú, nem ő a felelős felnőtt',
-    'megbízható felnőtt': '15+ célcsoportban a madrich maga is lehet kiskorú, nem ő a felelős felnőtt',
+    'biztonságos felnőttként': '15+ célcsoportban a madrih maga is lehet kiskorú, nem ő a felelős felnőtt',
+    'megbízható felnőtt': '15+ célcsoportban a madrih maga is lehet kiskorú, nem ő a felelős felnőtt',
     'kapu teljesítése a jogalap': 'a kurzusteljesítés nem GDPR 6. cikk szerinti jogalap',
     'felirat VAGY': 'szinkronizált médiánál a felirat kötelező (WCAG 2.2 SC 1.2.2), a leirat nem helyettesíti',
     'Short Answer': 'a H5P-ben nincs „Short Answer” content type',
@@ -688,11 +688,12 @@ def release_blockers() -> list[str]:
 
 
 def production_blockers() -> list[str]:
-    """Report unresolved media-production decisions without redefining release.
+    """Report unresolved media-production decisions.
 
-    RELEASE-MEDIA-STATUS.md explicitly permits equivalent fallbacks and states
-    that R2/R3/R5 do not block the internal M0+M1 staging pilot. Therefore these
-    are operational production blockers, not automatic learner-release gates.
+    They do not add to the error count, but they do count in release_verdict():
+    with no content blocker left the verdict is CONTENT_READY / MEDIA_PENDING, and
+    --strict-release exits 0 only at READY. RELEASE-MEDIA-STATUS.md permits
+    equivalent fallbacks, so R2/R3/R5 do not block the internal M0+M1 staging pilot.
     """
     blockers: list[str] = []
 

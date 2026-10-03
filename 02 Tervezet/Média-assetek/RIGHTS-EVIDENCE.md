@@ -45,7 +45,7 @@ a fájl és nem a fordító.
 assethez dokumentálandó: a használt generátor neve, a kereskedelmi/oktatási felhasználást
 engedő licenc, és a voice-talent release.”
 
-**Jelenlegi hatálya a manifesztben: 119 asset** — 29 vizuális asset és 90 narráció (lásd
+**Jelenlegi hatálya a manifesztben: 118 asset** — 29 vizuális asset és 89 hang-asset (88 narráció és az `M1.3-NAR-08` hangalámondásos képleírás) (lásd
 a „Fontos következmény” bekezdést). A hatály 2026-08-27-én eldőlt (A opció,
 [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) lezárt döntések): a szigorúbb
 olvasat marad érvényben, hacsak egy későbbi jogi review kifejezetten nem szűkíti.
@@ -53,11 +53,12 @@ olvasat marad érvényben, hacsak egy későbbi jogi review kifejezetten nem sz�
 
 | Osztály | Assetek | Miért tartozik ide |
 |---|---:|---|
-| **AI beszélőfej-videó** | 21 | szintetikus emberi persona, aki a tananyag nevében beszél |
+| **AI beszélőfej-videó** | 18 | szintetikus emberi persona, aki a tananyag nevében beszél |
+| **Hangalámondásos HOOK-videó (`explainer`)** | 3 | `M2.4-VID-01`, `M3.3-VID-01`, `M3.4-VID-01` — korábban beszélőfej; a `HUM-MEDIA-03` óta hangalámondás + tipográfia/grafika, a szintetikus hang miatt R2 alatt |
 | **AI karakter-jelenet (teljes alakos)** | 5 | `M1.3-VID-01`, `M4.1-VID-02/03/04/05` — AI-generált emberi alak, szintetikus narrációval |
 | **AI karakter-B-roll** | 1 | `M1.1-VID-02` — AI-generált kvuca-jelenetek emberi alakokkal; a saját jegyzete szerint AI karakter-anyag |
 | **Karakter-freeze-frame** | 2 | `M4.1-FOTO-01/02` — a fenti videókból kivett állókép |
-| **Szintetikus narráció** | 90 | a felmondás 2026-08-28 óta szintetikus (ElevenLabs) — az R2 „AI-hang” ága, lásd a „Fontos következmény” bekezdést |
+| **Szintetikus narráció** | 89 | a felmondás 2026-08-28 óta szintetikus (ElevenLabs) — az R2 „AI-hang” ága, lásd a „Fontos következmény” bekezdést |
 | **Hétköznapi AI-illusztráció, ikon, diagram** | 0 | **NEM tartozik ide:** az R2 avatar- és hangjog, nem általános AI-tartalom kapu. Ezekre az R1 (AI-jelölés) vonatkozik. |
 
 > **Projektgazdai döntés (2026-10-02, `HUM-MEDIA-03`):** gyermekvédelmi vagy
@@ -76,15 +77,15 @@ kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
 | # | Bizonyíték | Mire kell | Állapot | Kutatás |
 |---|---|---|---|---|
 | R2-1 | A képgeneráló eszköz / szolgáltató **neve és verziója** | mind a 29 vizuális asset | **HIÁNYZIK** | KUTATVA — jelöltek és verziók: 1/A.1., 1/A.2. |
-| R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 119 | **HIÁNYZIK** — a fiókhoz és a választott csomaghoz kötött szövegváltozat kell | KUTATVA — a jelöltek nyilvános záradékai idézve: 1/A.1., 1/A.2. |
+| R2-2 | A szolgáltató **kereskedelmi-oktatási felhasználást engedő** licencfeltétele (a felhasznált verzióra érvényes szövegváltozat) | mind a 118 | **HIÁNYZIK** — a fiókhoz és a választott csomaghoz kötött szövegváltozat kell | KUTATVA — a jelöltek nyilvános záradékai idézve: 1/A.1., 1/A.2. |
 | R2-3 | **Avatar- / képmás-jogosultság**: az avatar nem valós, azonosítható személy hasonmása, vagy van rá engedély | 27 videó + 2 állókép | **HIÁNYZIK** | KUTATVA — a jelöltek hozzájárulási feltételei idézve; a készlet-avatar képmás-licence dokumentálandó (H-3, `HUM-MEDIA-03`); a **J2 kiskorú-kérdés** nyitva: 1/A.3., 1/A.5. |
-| R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **RÉSZBEN MEGVAN** — a szolgáltató **ElevenLabs** (felhasználói döntés, 2026-08-28); a **modell-azonosító és a voice-ID még hiányzik** | a szolgáltató és a modell-javaslat: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz |
-| R2-5 | **Hang-jogosultság**: a felhasznált egyedi hang használatának joga | a kiválasztott kanonikus hangra | **HIÁNYZIK** | KUTATVA — a szolgáltató feltételei és a hangtípusonkénti következmény: 1/A.0. |
+| R2-4 | A hanggeneráló eszköz **neve és verziója** | minden szintetikus hang | **RÉSZBEN MEGVAN** — a szolgáltató **ElevenLabs** (felhasználói döntés, 2026-08-28), a modell `eleven_v4` (projektgazdai döntés, 2026-10-03, VO D-02); a voice-ID nem nyilvános, a VO QA-repó gyártási konfigurációjában él (kiegészítő döntés, 2026-10-03, K3); jóváhagyói minősítés nincs | a szolgáltató és a modell-javaslat: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13. szakasz |
+| R2-5 | **Hang-jogosultság**: a felhasznált egyedi hang használatának joga | a kanonikus narrátorhangra és a második hangra | **RÉSZBEN MEGVAN** — projektgazdai tényközlés (2026-10-03, VO D-01): mindkét hang létezik, a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten hozzájárultak. A nem személyes hivatkozás (`VOICE-RIGHTS-REGISTER`) és a jogi jóváhagyó minősítése a repóban nincs: a formális bizonyíték függő | KUTATVA — a szolgáltató feltételei és a hangtípusonkénti következmény: 1/A.0. |
 | R2-6 | Emberi felmondó esetén felhasználási szerződés | — | **NEM ALKALMAZHATÓ** — a felmondás 2026-08-28 óta szintetikus | — |
 
 > **Fontos következmény.** A D2 válasza (2026-08-28): **szintetikus hang**. Ezért az R2
-> „AI-hang” ága nemcsak a vizuális R2-assetekre, hanem **mind a 90 narráció-assetre** is
-> kiterjed: a manifesztben mind a 90 narráció `blockers` mezője viszi az R2-t, az R2-6
+> „AI-hang” ága nemcsak a vizuális R2-assetekre, hanem **mind a 89 hang-assetre** is
+> kiterjed: a manifesztben mind a 89 hang-asset `blockers` mezője viszi az R2-t, az R2-6
 > (emberi felmondó) pedig nem alkalmazható. **Ez a döntés következménye, nem külön
 > kérdés.**
 
@@ -92,12 +93,12 @@ kér igazolást, nem egy nyilvános feltétel-oldal létezésére.
 
 ## 1/A. Szolgáltató-kutatás (2026-08-27, kiegészítve 2026-08-28) — a bizonyíték-igény konkrétummá tétele
 
-> **A 28 asset R2-blokkolója változatlanul a helyén marad.** *(Azóta: 119 asset — lásd
-> az 1. szakaszt.)* A fenti hat sorból négy
-> továbbra is **HIÁNYZIK**; az R2-4 a szolgáltatói döntés után **RÉSZBEN MEGVAN**, az
+> **A 28 asset R2-blokkolója változatlanul a helyén marad.** *(Azóta: 118 asset — lásd
+> az 1. szakaszt.)* A fenti hat sorból három
+> továbbra is **HIÁNYZIK**; az R2-4 a szolgáltatói döntés után, az R2-5 2026-10-03 óta **RÉSZBEN MEGVAN**, az
 > R2-6 pedig **NEM ALKALMAZHATÓ** lett (a felmondás szintetikus). **Egyik sem jelent
 > feloldást:** a hiányzó rész — voice-ID, modell, licenc-igazolás, hang-jogosultság —
-> mind megvan még.** Ez a szakasz csak annyit tesz, hogy a „⟬generátor neve⟭” absztrakt
+> mind megvan még.** *(2026-10-03: a modell eldőlt, a hanghasználati jog tartalmilag tisztázott — R2-4, R2-5 RÉSZBEN MEGVAN; a formális bizonyíték és a licenc-igazolás hiányzik.)* Ez a szakasz csak annyit tesz, hogy a „⟬generátor neve⟭” absztrakt
 > mezőt lecseréli **megnevezett jelöltekre és a hozzájuk tényleg tartozó, idézhető
 > feltételekre** — hogy a jogi jóváhagyó ne nulláról induljon.
 >
@@ -123,20 +124,19 @@ szakasz a *bizonyíték jellegét*).
 
 ### 1/A.0. ElevenLabs egyedi hangok — a kanonikus narrátor jelöltjei
 
-A szolgáltató **eldőlt** (felhasználói döntés, 2026-08-28). A hang **nem**: a két
-forrás-beszélő — VOICE-SRC-01 és VOICE-SRC-02 — felvételeiből előbb **létre kell hozni** a
-két egyedi hangot (a módszer nyitott, V2 hozzájárulás-bizonyíték a feltöltés előtt
-kötelező), és utána lehet választani, meghallgatással
-([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)).
+A szolgáltató **eldőlt** (felhasználói döntés, 2026-08-28). A hangok azóta elkészültek, és a
+szerepük is eldőlt: az egyik a **kanonikus narrátorhang**, a másik a jogtisztázott **második hang** (projektgazdai
+döntés, 2026-10-03, VO D-01, D-14). Az alábbi tábla fiókbizonyítékot igénylő mezői ettől nem
+zárulnak le.
 
-> ⛔ **A hangok még nem léteznek** — voice-ID és hangtípus a létrehozás után rögzíthető.
-> Ebben a környezetben ráadásul **nincs ElevenLabs hitelesítő adat**, ezért semmit **nem
-> kérdeztünk le, és nem találtunk ki.** A létrehozás utáni azonosítás menete:
+> ✅ **A hangok léteznek** (projektgazdai tényközlés, 2026-10-03, VO D-01). A repóban nincs
+> ElevenLabs hitelesítő adat; a voice-ID-t és a hangtípust nem rögzítjük és nem találjuk ki — a
+> tábla fiókbizonyítékot igénylő mezői ezért nyitottak. Az azonosítás menete:
 > [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.4.
 
 | Mező | VOICE-SRC-01 | VOICE-SRC-02 |
 |---|---|---|
-| Hang (voice-objektum) létezik? | `MÉG NEM — LÉTREHOZANDÓ` | `MÉG NEM — LÉTREHOZANDÓ` |
+| Hang (voice-objektum) létezik? | `LÉTEZIK` — a két hang (a kanonikus narrátorhang és a második hang) létezik (VO D-01); hogy melyik melyik álnévhez tartozik, a repó nem rögzíti | `LÉTEZIK` — ugyanígy |
 | `voice_id` | `ACCOUNT_EVIDENCE_REQUIRED` | `ACCOUNT_EVIDENCE_REQUIRED` |
 | `voice_type` (`category`) | `ACCOUNT_EVIDENCE_REQUIRED` | `ACCOUNT_EVIDENCE_REQUIRED` |
 | Fióktulajdon / kontextus | `ACCOUNT_EVIDENCE_REQUIRED` | `ACCOUNT_EVIDENCE_REQUIRED` |
@@ -169,7 +169,7 @@ használni. A hangtípus dönti el, mit kell igazolni:
 | E-8 | Kiskorúak | a feltételek szerint 18 alatti nem használhatja a szolgáltatást és kiskorú hangadata nem tölthető fel; a tiltólista viszont 13–18 közötti használatot szülői hozzájárulással elképzelhetőnek tart — **a saját dokumentumaik nem mondanak ugyanazt** | `LEGAL_REVIEW_REQUIRED` — lásd a V3 alkaput (1/A.5.) |
 | E-9 | Licenc a feltöltött felvételekre | a feltöltött hangfelvétel a 4(b) szerint a 4(d) alá esik: a tartalomra — a hangra is — szóló licenc „to provide the Services…, to improve the Services, and to develop new services and products”, és „perpetual and irrevocable (which means this license cannot be withdrawn)”, „sub-licensable, through multiple tiers”; a hangot engedély nélkül önállóan nem kommercializálja („will not commercialize your voice on a standalone basis without your permission”). A 4(g) szerint csak az tölthet fel, akinek megvan „all the rights necessary to grant us the license described above”. *(EGT-s feltételek, lekérdezve 2026-10-02)* | **`LEGAL_REVIEW_REQUIRED`** — a H-5 mintájára. A kimaradás (E-4) a tanítási felhasználásra szól; hogy a licenc többi célját érinti-e, és mit kell ehhez a V2 hozzájárulásnak lefednie, jogi kérdés. A projektgazdai döntés (2026-10-02, `HUM-MEDIA-02`) szerint ez az állapot a jogi felülvizsgálatig marad, hallgatólagosan nem tekinthető elfogadottnak |
 
-### 1/A.1. Beszélőfej-videó (21 asset) — a szolgáltató **HeyGen** (felhasználói döntés, 2026-08-28)
+### 1/A.1. Beszélőfej-videó (18 asset) — a szolgáltató **HeyGen** (felhasználói döntés, 2026-08-28)
 
 A szolgáltató-választás lezárult; ez a szakasz már nem hasonlít össze jelölteket, hanem a
 **választott** szolgáltató feltételeit rögzíti. A korábban vizsgált, **nem választott**
@@ -301,6 +301,10 @@ alkalmazandó rá, a jogi jóváhagyó dönti el.
   a kurzus a külső AI-rendszerek használatában alkalmazóként (deployer) jár el —
   `HUM-PRIV-04`, `Adatvédelem – tanulói adatok és AI.md`; hogy ebből az 50. cikk (4) mely
   esetei érintik a médiaasseteket, továbbra is a jogi review kérdése.)*
+- Nem állítja, hogy jogi, DPO- vagy Memuna-jóváhagyás született. *(2026-10-03, VO D-08: a
+  konzervatív átláthatósági kezelést — a csak hangot tartalmazó narrációnál a leirat első sora és
+  a lecke alján egy sor a kanonikus AI-címkével, VO D-21 — a projektgazda jóváhagyta; az 50. cikk
+  (4) alkalmazhatóságának jogi minősítése és a V1 (Memuna + DPO) formális bizonyítéka függő.)*
 
 ---
 
@@ -361,7 +365,7 @@ A kivezetés indoka minden esetben az asset saját deklarációjából következ
 
 Az M6.3 leckében a projekt korábban **fotóról illusztrációra** váltott, kimondottan a
 GDPR-kockázat elkerüléséért („DÖNTÉS: illusztráció (GDPR-kockázat elkerülése),
-FOTO→ILL”). Ennek eredménye, hogy a 417 assetből ma **kettő** épül valós felvételre.
+FOTO→ILL”). Ennek eredménye, hogy a 415 assetből ma **kettő** épül valós felvételre.
 Ez a lap ezt a döntést rögzíti, nem bírálja felül — és nem is használható arra, hogy egy
 **kötelezően valós** felvételt (a Moodle-képernyőképet) illusztrációra cseréljünk.
 
@@ -370,12 +374,12 @@ Ez a lap ezt a döntést rögzíti, nem bírálja felül — és nem is használ
 ## 3. R1 — AI-provenance (nem kapu, de nyilvántartandó)
 
 Az R1 **kötelező projektszabály**, nem nyitott kapu: minden `provenance=ai` asseten
-egyetlen kanonikus, ember-olvasható AI-címke kell. Ez 280 assetet érint.
+egyetlen kanonikus, ember-olvasható AI-címke kell. Ez 278 assetet érint.
 
 | # | Tétel | Állapot |
 |---|---|---|
 | R1-1 | A címke **egységes szövege** | **MEGVAN** — 2026-08-27-én jóváhagyva, szó szerint: **AI-generált médiaelem · emberi lektorálással.** Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve a tananyag mind a 21 aktív előfordulására; a korábbi négy változat megszűnt. Regressziós teszt őrzi (`TestApprovedDecisions`). |
-| R1-2 | A címke vizuális formája és elhelyezése | **MEGVAN** — projektgazdai döntés (2026-10-02, D1 / `HUM-MEDIA-01`): élő LMS-szöveg, nem képbe égetve; a megjelenés és az elhelyezés a [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 7.3. pontja szerint (B változat; [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) 4. szakasz). |
+| R1-2 | A címke vizuális formája és elhelyezése | **MEGVAN** — projektgazdai döntés (2026-10-02, D1 / `HUM-MEDIA-01`): élő LMS-szöveg, nem képbe égetve; a megjelenés és az elhelyezés a [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 7.3. pontja szerint (B változat; [`VISUAL-SYSTEM-DECISION.md`](./VISUAL-SYSTEM-DECISION.md) 4. szakasz). Csak hangot tartalmazó narrációnál a narráció leiratának első sora és a lecke alján egy sor (projektgazdai döntés, 2026-10-03, VO D-21). |
 | R1-3 | Gépi provenance-jelölés (C2PA / Content Credentials / vízjel) megmaradása az exportban | **HIÁNYZIK** — a generátor kiválasztása után ellenőrizendő (R2-1) |
 
 ---

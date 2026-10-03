@@ -5,15 +5,21 @@ objektíven levezethető** a felmondásról. Ami nyitva maradt, azt a lap kimond
 [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D2 pontjára mutat — ott van
 egyetlen helyen az összes megválaszolandó érték.
 
-**Hatókör:** 90 narráció-asset, 21 beszélőfej-videó, 6 karakter- és jelenetvideó — összesen
-117 tétel, mind szó szerinti forrásblokkal. Nincs többé szkript nélküli beszélt asset.
+**Hatókör:** 89 hang-asset (88 narráció és az `M1.3-NAR-08` hangalámondásos képleírás), 18
+beszélőfej-videó, 3 hangalámondásos HOOK-videó (`explainer`) és 6 karakter- és jelenetvideó —
+összesen 116 tétel. Az `M1.1-VID-02` néma B-roll kivételével mind szó szerinti forrásblokkal;
+nincs szkript nélküli beszélt asset.
 
 > **A szolgáltató 2026-08-28-án eldőlt: a felmondás szintetikus, a motor az ElevenLabs.**
-> Ami még nyitva van, az a **kanonikus hang** — a két forrás-beszélő, **VOICE-SRC-01** és
-> **VOICE-SRC-02** felvételeiből **létrehozandó** két egyedi hang közül; **a hangok még nem
-> készültek el** —, valamint a hozzá tartozó voice-ID, modell, beállítás és jogosultsági
-> bizonyíték. Részletek a 12–13. szakaszban; a hangválasztás
-> végrehajtható terve: [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md).
+> **2026-10-03 óta (projektgazdai döntés, VO 2. fázis):** mindkét ElevenLabs-hang — a **kanonikus narrátorhang**
+> és a **második hang** — létezik; a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten
+> hozzájárultak (VO D-01). Az **elsődleges narrátor a kanonikus narrátorhang**; a második hang
+> jogtisztázott; az első gyártási körben csak az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után — a többi
+> tételnek ez nem feltétele (VO D-14; K4). A modell, a
+> beállítások és a kiejtési szótár rögzítve: 12. szakasz. A formális jogosultsági bizonyíték (a
+> nem személyes hivatkozás és a jóváhagyói minősítés) függő —
+> [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5. A hangok és a VOICE-SRC-álnevek
+> megfeleltetését ez a lap nem rögzíti.
 >
 > A két forrás-beszélő álnéven szerepel: a valódi név, a szerződés vagy hozzájárulás, a
 > hatókör és a dátum a korlátozott hozzáférésű jogosultsági nyilvántartásba tartozik, nem a
@@ -72,36 +78,38 @@ Az M6.2 lecke „fagyott csend” és az M3 „késő esti üzenet” jelenetein
 
 ## 4. Tempó
 
-A korpusz méri magát: 114 olyan tétel van, amelynél a lecke megadja a hosszt **és** a szó
-szerinti szöveget is.
+**A hang mért tempója (2026-10-03, VO 2. fázis).** A kanonikus narrátorhang természetes tempója
+`eleven_v4`-en, a 12. szakasz beállításaival, a 24 renderelt blokkon **107–164 szó/perc,
+medián ≈ 131**. A v4-en nincs tempó-vezérlés (`speed`), ezért ez adottság, nem beállítható
+érték (projektgazdai döntés, 2026-10-03, VO D-02).
 
-| | szó/perc |
-|---|---:|
-| medián | **103** |
-| átlag | 108 |
-| alsó kvartilis | 87 |
-| felső kvartilis | 127 |
+**A korábbi céltempó nem elfogadási feltétel.** A 100–120 szó/perces cél a leckék
+2026-08-27-i keret–szöveg arányából jött, és ezen a hangon nem érhető el. Az időkeret a mért
+természetes hosszhoz igazodik (VO D-17): ahol a szöveg hosszabb a keretnél, **a keretet kell
+tágítani, nem a hangot gyorsítani**, és nem a védett mondatot vágni. Időnyújtás (time-stretch)
+nem fő megoldás; legfeljebb ≤ 5%-os, hallhatóan ártalmatlan utómunkás igazítás jöhet szóba,
+ha az alaphossz már a keretben van.
 
-**Céltempó: 100–120 szó/perc**, azaz a magyar hírolvasó-tempónál lassabb, beszélgetős
-ritmus. Ez nem véletlen: a szövegek soronként tördeltek a leckében, és a sortörések
-lélegzetvételi helyek.
-
-Ahol a mért érték kilóg (leggyorsabb: `M7.1-NAR-02` ≈ 271 szó/perc, `M2.4-NAR-04`
-≈ 214 szó/perc), ott **a lecke időkerete a szűk, nem a szöveg hosszú** — ilyenkor a
-felvételnél a hosszt kell tágítani, nem a szöveget hadarni. Ellenkező irányban
-(`M3.2-NAR-04` ≈ 43 szó/perc) bőven van hely a szüneteknek.
-
-*(A mérés a 2026-08-27-i állapotot rögzíti. Azóta több narráció szövege vagy időkerete
-változott — például az `M7.1-NAR-02` 80 helyett 95 szó —, ezért a fenti számok elavultak;
-a szabály, hogy szűk keretnél a hosszt kell tágítani, változatlan.)*
+**Ahol a hang rövidebb a keretnél** (jellemzően a csak-hang felvezetőknél), ott a keretet nem
+töltjük fel szöveggel. Ha a keret a tanuló gondolkodási idejét is tartalmazza, a címke ezt
+kimondja: elöl a hang hossza, utána a gondolkodási idő (VO D-17.3), például „hang kb. 6–8 mp,
+utána gondolkodási idő (a szakasz összesen 20–30 mp)”.
 
 ## 5. Szünet és hangsúly
 
-- **Sortörés a forrásban = rövid levegő.** A szkriptek szándékosan soronként tördeltek.
-- **Üres sor = bekezdés-szünet** (0,6–1 mp).
-- **`**félkövér**` a forrásban = hangsúlyos szó.** A leckék ezzel jelölik a fogalmi
-  kulcsszót (`**neked beszél**`, `**végignéz**`, `**más pillanatok**`). A hangsúly
-  a kiemelt szón van, nem az egész mondaton.
+- **A szünetet a központozás adja.** Az `eleven_v4` a forrás sortörését és üres sorát nem
+  veszi szünetnek (mérve: a sor- és bekezdéstöréses változat azonos seeddel ±0,02 mp-en belül
+  ugyanazt adja), SSML-szünet nincs. A soronkénti tördelés a forrás olvashatóságát szolgálja.
+- **Bekezdés-szünet utómunkában.** Ahol a lehallgatás a bekezdéshatárt kevésnek találja, az
+  utómunka kb. 0,6–1,0 mp szünetet illeszt be, a felirat-időzítéssel együtt. Bekezdésenként
+  külön TTS-kérés csak a szünet kedvéért nem készül (projektgazdai döntés, 2026-10-03, VO D-10).
+- **A `**félkövér**` nem hangsúlyjel.** A leckék ezzel jelölik a fogalmi kulcsszót
+  (`**neked beszél**`, `**végignéz**`, `**más pillanatok**`), és a megjelenített szövegben, a
+  feliratban és a leiratban meg is marad. A v4-nek nincs hangsúlyjelölő eszköze, és a CSUPA
+  NAGYBETŰ sem megbízható kiemelés: a jelentést hordozó hangsúlyt a mondatszerkezet adja. Ahol
+  ez nem elég, szerkesztői szövegcsere jöhet szóba — a felirattal együtt, saját findinggal.
+  Az elfogadási feltétel: **a jelentést hordozó hangsúly nem sérül (fülre)** (projektgazdai
+  döntés, 2026-10-03, VO D-11).
 - A kérdőmondatok **valódi kérdésként** szólnak — a legtöbb HOOK kérdéssel indít.
 - Az emoji a forrásszövegben (pl. 😅) **hangulatjelölő, nem felmondandó**.
 
@@ -109,7 +117,10 @@ a szabály, hogy szűk keretnél a hosszt kell tágítani, változatlan.)*
 
 A tananyag írásmódja **magyar-fonetikus és szándékos**; a
 `Glosszárium – someres és pedagógiai fogalmak.md` ezt kánoni referenciaként rögzíti.
-Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
+Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni** — kivéve, ahol a
+VO QA-repó B4-regisztere (a kiejtési döntések kanonikus forrása, VO D-13) fülre más
+hangzást rögzített: ott a kanonikus kiejtési szótár (12. szakasz) aliasa adja a hangot, az
+írott alak, a felirat és a leirat pedig nem változik (projektgazdai döntés, 2026-10-03, VO D-03–D-06).
 
 | Írott alak | Kiejtés | Forrás / megjegyzés |
 |---|---|---|
@@ -117,57 +128,70 @@ Ebből következik a felmondás is: **a leírt alakot magyarul kell olvasni.**
 | `Somer`, `someres` | „somer” — az **s** = /ʃ/ | tulajdonnév, nagybetűs; **nem** „shomer” |
 | `Hasomer Hacair` | „hasomer hacair” | magyar-fonetikus; **nem** „Hashomer Hatzair” |
 | `peula`, `peulák` | „peula” | köznév, kisbetű |
-| `madrih`, `madrihok`, `madrihot` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/ és nem /k/ | a hibrid „madrihák” alak a tananyagban tiltott |
-| `hanih`, `hanihok` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | egy helyen (M0.2) szándékosan héber többes: „hanihim” |
-| `dugma isit` | „dugma isit” | köznév, kisbetű; a „Dugma Isit” személynévi alak kerülendő |
+| `madrih`, `madrihok`, `madrihot` | **„mádrih”** [maːdrix] — nem kerekített első magánhangzó, első szótagos hangsúly, szóvégi [x]; a szótár aliasa „mádrih” + rag (B4; VO D-04). A nyers olvasat (kerekített [mɔdrix]) fülre elvetve | a hibrid „madrihák” alak a tananyagban tiltott |
+| `hanih`, `hanihok` | **[xanix]** — a szótár héber írású aliasa adja, a magyar rag kötőjel után (B4; VO D-04). A nyers olvasat (kerekített, lágy „honih”) fülre elvetve | egy helyen (M0.2) szándékosan héber többes: „hanihim” |
+| `dugma isit` | [duɡma iʃit] — a szótár héber írású aliasa, kötőjeles raggal; jóváhagyott (B4), a fülpróba lezárva (VO D-06) | köznév, kisbetű; a „Dugma Isit” személynévi alak kerülendő |
 | `ken` | „ken” | rövid e, nem „kén” |
-| `Zmán Kvucá` | „zmán kvucá” — mindkét ékezet hosszú | a `c` itt is /ts/ |
+| `Zmán Kvucá` | [zman kvutsa] — a szótár héber írású aliasa, kötőjeles raggal; jóváhagyott (B4), a fülpróba lezárva (VO D-06). Az írott hosszú á-k a hangban nem hosszúak | a `c` itt is /ts/ |
 | `Parparim` | „parparim” | pillangók, 6–9 |
 | `Kivsza` | „kivsza” | bárány, 10–12 |
-| `Leviatán` | „leviatán” — hosszú **á** | 13–17; a first-party „Leviatán” alak a kánon (projektgazdai döntés, 2026-10-02) |
+| `Leviatán` | **„Leviatan”** [leviotɒn] — rövid a-val, a fülre jóváhagyott hangzás; a szótár aliasa Leviatán → Leviatan, Leviatánnál → Leviatannál (B4; VO D-05). A szóvégi hosszú á nem produkciós kiejtés | 13–17; a first-party „Leviatán” alak a kánon (projektgazdai döntés, 2026-10-02) — az írott alak és a felirat nem változik |
 | `hágsámá`, `bogrim`, `mazkirut` | magyar olvasat | ritkábban fordulnak elő |
 
 > ✅ **Írásmód — projektgazdai döntés (2026-10-02).** A magyar Somer first-party alakjai a
 > kánon: madrih, hanih, hágsámá, dugma isit, Leviatán. A tanulói korpusz — és vele a fenti
-> tábla „Írott alak” oszlopa — egyszeri gépi migrációt kap; a belső azonosítók nem
-> változnak. **A hangfelvételt ez érinti**, mert a felmondás a forrásszöveg írott alakját
-> olvassa, magyarul (a szakasz eleje): a „Kiejtés” oszlop ezért már a döntés szerinti alakot
-> adja meg. A hangok még nem készültek el, így a korábbi alakkal felvett hanganyag nincs; a
-> pilot-hangmintát a migrált szöveggel kell jóváhagyni, a someres szavakat a
-> pilot-felvételen ellenőrizve. Utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi
-> felelős.
+> tábla „Írott alak” oszlopa — egyszeri gépi migrációt kapott; a belső azonosítók nem
+> változtak. **A hangzást a kiejtési szótár köti a fülre hozott döntésekhez:** a kanonikus
+> szótár szabályai a migrált írott alakokra illeszkednek, a hangzás a B4-ben jóváhagyott
+> maradt (VO D-04, D-23). A pilot ezt produkciós környezetben ellenőrzi, nem dönti el újra
+> (11.2.; VO D-13). Utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi felelős.
 
 ## 7. Számok, betűszók, rövidítések
 
-- **Korosztályok:** a 2025/2026-os Oktatási terv szerinti felosztás (`HUM-SOMER-02`; projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi felelős): `Parparim 6–9`, `Kivsza 10–12`, `Leviatán 13–17`; felmondva „hat–kilenc éves”, „tíz–tizenkét éves”, „tizenhárom–tizenhét éves”.
+- **Korosztályok:** a 2025/2026-os Oktatási terv szerinti felosztás (`HUM-SOMER-02`; projektgazdai döntés, 2026-10-02; utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi felelős): `Parparim 6–9`, `Kivsza 10–12`, `Leviatán 13–17`; felmondva „hat–kilenc éves”, „tíz–tizenkét éves”, „tizenhárom–tizenhét éves”. A `13–17` a hang bemenetében (tts_text) kiírva szerepel („tizenhárom–tizenhét”), mert számjeggyel a hang „tizenháromtól tizenhét”-et mond; a felirat számjegyes marad (VO D-09, D-23).
 - **SBI:** betűzve, „es-bé-í”, és a modell elemei magyarul: Situation–Behavior–Impact →
   a leckék „S”, „B”, „I” betűjelet használnak, ezeket betűként kell mondani.
-- **Johari, Tuckman:** magyaros olvasat („johari”, „takmen” helyett „tuckman” magyar
-  betűzéssel) — ezek szerzőnevek, a leckék nem adnak kiejtési előírást, ezért a
-  pilot-felvételnél kell rögzíteni, és utána következetesen tartani.
+- **Tuckman és a Tuckman-szakaszok:** „Takmen”, a teljes név „Brúsz Takmen”, a társszerző
+  „Méri En Dzsenszen”; a szakaszok „fórming, sztórming, nórming, perfórming, edzsörning”
+  (B4, fülre jóváhagyva; VO D-04). A szótár aliasa adja, az írott alak nem változik.
+- **Johari:** a hang saját, magyaros olvasata — szabály nélkül, elfogadva (VO D-23).
+- **Angol szakszavak:** `energizer` → „enerdzsájzer”, `red flag` → „rett fleg”, `checklist` →
+  „csekliszt” (B4; VO D-23), a szótár aliasával.
+- **Kódok:** `M0`–`M7` „em nulla” … „em hét”, a pont „pont”; az „.A” végű kód „pont á”
+  (`M2.A` → „em kettő pont á”), mert a puszta „a” névelőnek hallatszik. Ez a hang bemenetében
+  (tts_text) történik, a felirat `M2.A` marad (VO D-23).
+- **Csupa nagybetűs szó:** a hang bemenetében az „ÉN” helyett „én” áll („az ÉN” → „az én”;
+  VO D-23, 5. szakasz).
 - **Időtartamok:** `45’` = „negyvenöt perc”, `45 mp` = „negyvenöt másodperc”.
 - **Segélyvonalak** (112, 116-111, 116-123) narrációban **nem** hangzanak el — képzői
   kártyán szerepelnek (`M3.B-KART-02`). Ha valaha narrációba kerülnek, számjegyenként
-  kell mondani őket.
+  kell mondani őket — **kivéve a 112-t**, amely mindig „száztizenkettő” alakban hangzik el,
+  soha nem „egy-egy-kettő”-ként. Ma egyedül az `M3.3-NAR-01-VO` gyermekvédelmi lépéssorában
+  hangzik el; az írott szöveg és a felirat „112” marad, a kimondott
+  alakot a hang bemenete (tts_text) rögzíti (projektgazdai döntés, 2026-10-03, VO D-07;
+  utólagos ellenőrzés (vétó/QA): a Memuna). A 116-os vonalakra a fenti szabály változatlan.
 
 ## 8. Karakter- és dialógushangok
 
-A tananyagban **két** dialógusos jelenet van, és ezek nem a narrátor hangjai:
+A tananyagban **két** jelenet hordoz szereplői beszédet. Az első gyártási körben az `M4.1`-jeleneteket
+a kanonikus narrátorhang, az `M1.3-VID-01` párbeszédét a két hang együtt szólaltatja meg:
 
 - `M1.3-VID-01` — két madrih (A és B) beszélget, ugyanaz a helyzet kétféle
-  visszajelzéssel. **Két megkülönböztethető hang kell**, hogy a felirat nélkül is
-  követhető legyen, ki beszél. A szkriptet a szerző 2026-08-27-én jóváhagyta; a szó
-  szerinti dialóg a leckében, `M1.3-VID-01-VO` forrásblokkban él. A dialógushangok, a
-  jogosultságuk és a szájszinkronos gyártási út nyitott döntés, és a hangjogosultsági
-  bizonyítékig blokkolt ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11;
-  `HUM-MEDIA-02`).
-- `M4.1-VID-03/04/05` — a karakter **nem beszél**, a narrátor beszél róla harmadik
-  személyben („Nézd meg ezt a madrihot…”). Egyetlen kivétel a 3. jelenet, ahol a
-  karakter egy mondatot mond: „Sziasztok, ma arról fogunk beszélni, hogy…”. Ez a mondat
-  a jelenetben hangzik el, nem a narrátor sávján. *(A 2. jelenet specifikációja szerint a
-  szereplő ott is „gyorsan beszél”, a 3. jelenet mondatát pedig az `M4.1-NAR-05-VO`
-  forrásblokk a narrátor szövegében idézi; hogy a szereplőnek lesz-e saját, hallható
-  hangsávja, nyitott — [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11.)*
+  visszajelzéssel. A szkriptet a szerző 2026-08-27-én jóváhagyta; a szó szerinti dialóg a
+  leckében, `M1.3-VID-01-VO` forrásblokkban él. **Első gyártási kör (projektgazdai döntés,
+  2026-10-03, VO D-14; kiegészítő döntés K4):** Madrih A-t a kanonikus narrátorhang, Madrih B-t a
+  második hang mondja, **beszélőnként külön szegmensben** — a replikák nem fűződnek egyetlen
+  névtelen TTS-folyammá, a beszélő azonosítója a szerkezetben megmarad, és a felirat minden
+  replikánál megnevezi a beszélőt. A második hangot ehhez előbb kalibrálni kell (VO QA-repó);
+  az `M1.3-VID-01` hanganyaga addig nem készülhet el, a többi tételt ez nem blokkolja. A kétszereplős, szájszinkronos gyártási út nyitott
+  ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11).
+- `M4.1-VID-03/04/05` — a karakter **nem beszél** a hangsávban: a jelenetek némán
+  készülnek, és a narrátor beszél róla harmadik személyben („Nézd meg ezt a madrihot…”). A
+  3. jelenet mondatát („Sziasztok, ma arról fogunk beszélni, hogy…”) **a narrátor idézi** az
+  `M4.1-NAR-05-VO` forrásblokk szerint; a szereplőnek nincs saját hangsávja, és külön
+  karakterhang nem készül (projektgazdai döntés, 2026-10-03, VO D-15). A 2. jelenet „gyorsan
+  beszél” utasítása a néma képen szájmozgásként jelenik meg; ezt a generálásnál
+  visszafogottan kell tartani.
 
 Minden más narráció **egyetlen, azonos narrátorhang** — ezt az R3 első mondata írja elő
 („EGYETLEN konzisztens narrátor-hang az egész tananyagban, tegező + barátságos
@@ -180,13 +204,29 @@ Ez nem stílus, hanem akadálymentesítési követelmény
 
 - **Szinkronizált videó → felirat kötelező** (WCAG 2.2 SC 1.2.2), és a teljes leirat
   **nem helyettesíti**.
-- **Csak hang → teljes szöveges átirat elegendő** (SC 1.2.1).
+- **Csak hang → a dián vagy a médiaelem mellett látható teljes leirat a szöveges ekvivalens**
+  (SC 1.2.1); első sora a kanonikus AI-címke (PRODUCTION-STYLE-TOKEN.md 7.3.). A H5P Audio
+  elemhez nem írunk elő feliratsávot; a `.vtt` legfeljebb archivált derivatíva (projektgazdai
+  döntés, 2026-10-03, VO D-19, D-21).
 - **A felirat szó szerint fedje le az elhangzottakat.** Ezért a felmondás **nem
   improvizál**: amit a `@source` blokk tartalmaz, azt kell mondani. Ha a szöveg
   változik, a leckében kell változnia — a felirat és a leirat onnan generálódik.
+- **Megjelenített szöveg és hangbemenet külön.** A felirat és a leirat a `@source` szövegét
+  adja a jelölők nélkül (`**`, `*`, a blokk külső „ ” idézőjele, emoji, sor eleji listajel),
+  minden szóval, a kanonikus írásmóddal. A kiejtési szótár aliasa és a hang bemenetének
+  (tts_text) célzott, naplózott cseréi — `M2.A` → „em kettő pont á”, `13–17` →
+  „tizenhárom–tizenhét”, `az ÉN` → „az én”, `112` → „száztizenkettő” — **csak a hangban**
+  élnek, a feliratba és a leiratba nem kerülnek (projektgazdai döntés, 2026-10-03, VO D-09 és
+  a döntéscsomag 3. pontja). A kanonikus megvalósítás a VO QA-repó szövegkinyerője
+  (display_text / tts_text).
+- **Párbeszéd:** a felirat minden replikánál kiírja a beszélő nevét a cue szövegében (pl. „Madrih A: …”);
+  a WebVTT `<v>` hangjelölés a megjelenített feliratban nem látszik, ezért legfeljebb kiegészítés. A
+  beszélő- és a verziócímke a párbeszédben nem hangzik el; a verziócímkét a hangalámondásos
+  képleírás (`M1.3-NAR-08-VO`) mondja el (VO D-14, D-18).
 - Az Interactive Videónál (`M1.3-VID-01`, `M4.1-VID-02`) **egy** felirat-sáv és **egy**
   leirat tartozik a teljes videóhoz; az `M4.1-VID-02` szövege a három jelenet
-  narrációjának sorrendi összefűzése.
+  narrációjának sorrendi összefűzése. Az `M1.3-VID-01` hangalámondásos
+  képleírása külön forrásblokk (`M1.3-NAR-08-VO`), amely a párbeszéd szüneteiben szól (VO D-18).
 
 **Gyakorlati következmény a felvételre:** minden narrációról tudni kell, melyik
 `@source` blokkból készült, és a felvétel eltérése a szövegtől **hiba**, nem szabadság.
@@ -198,59 +238,81 @@ A leckék technikai jegyzeteiből:
 - **Formátum:** MP3 vagy WAV (a jegyzetek 19 helyen kiírják; néhány helyen MP3/AAC a
   H5P Course Presentation audio miatt).
 - **Tartalom:** „tiszta beszéd, háttérzaj nélkül” — a leckék kifejezetten így fogalmaznak.
-- **Hossz:** tételenként a lecke adja meg (10–15 mp-től 45–60 mp-ig); a leggyakoribb
+- **Hossz:** tételenként a lecke adja meg (10–15 mp-től kb. 70–90 mp-ig); a leggyakoribb
   a 20–40 mp.
 - **Egy asset = egy fájl.** A narráció-assetek nem darabolódnak tovább.
 
-Nyitott, mert a repository nem rögzíti: mintavételi frekvencia, bitmélység, csatorna
-(mono/sztereó), hangerő-normalizálás célértéke. Ezek a pilot-felvétel jóváhagyásakor
-rögzítendők. Javaslat a pilothoz: mono, beszédre normalizálva, azonos csúcsértékkel
-minden fájlban.
+**Mester (projektgazdai döntés, 2026-10-03, VO D-12):** 48 kHz / 16 bit / mono WAV, a
+`pcm_48000` API-kimenetből, átmintavételezés nélkül — a fiók valódi 48 kHz-es PCM-et ad
+(mérve, 2026-10-03). A hangmodell saját sávszélessége kb. 16 kHz-nél véget ér, tehát a 48 kHz
+nem hordoz több hangtartalmat, mint egy 44,1 kHz-es kimenet; azért ez a mester, mert valódi
+API-mester, és egyezik a [`PRODUCTION-STACK.md`](./PRODUCTION-STACK.md) 6. szakaszával. A
+szállítási MP3 a mesterből készül. A kérésben ténylegesen elküldött formátumot és a
+mintavételt a kísérőadat rögzíti.
 
-> A szolgáltató kiválasztása után ezek **eldönthetővé váltak**: a formátum-lista és a
-> csomaghoz kötött korlátok a 13.7. szakaszban állnak. Röviden: veszteségmentes
-> 44,1 kHz-es WAV-mesterhez Pro-csomag kell; Creator-on a legjobb elérhető mester a
-> 192 kbps MP3. **A választás a csomagon múlik, és még nem történt meg.**
+Nyitott: a hangerő-normalizálás célértéke és a csúcsérték — a pilot-felvétel jóváhagyásakor
+rögzítendő. Javaslat a pilothoz: beszédre normalizálva, azonos csúcsértékkel minden fájlban.
 
 ## 11. Konzisztencia-szabályok
 
-1. **Egy hang mindenre** (a 8. szakasz két dialógusos kivételével).
-2. **A pilot dönt.** Az `M4.2-NAR-03` a kijelölt narráció-pilot
-   ([`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) P-NAR; a generált terv
-   aktuális pilotja a `MEDIA-PRODUCTION-PLAN.md` 5. szakaszában áll, és eltérhet tőle): a tempót,
-   a hangszínt, a szünetkezelést és a someres szavak kiejtését ezen kell jóváhagyni,
-   és minden további R3-tétel ehhez igazodik.
+1. **Egy narrátorhang mindenre.** A narrációt és az `M4.1`-jeleneteket a kanonikus narrátorhang
+   mondja (VO D-15); egyetlen kivétel az `M1.3-VID-01` Madrih B szerepe, amelyet a második hang
+   mond (VO D-14; K4).
+2. **A pilot ellenőriz, nem dönt újra.** A kiejtés kanonikus döntési forrása a
+   VO QA-repó B4-regisztere (fülre hozott, kötelező döntések). A P1–P3 szkript
+   ([`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md)) és a P-NAR ezeket produkciós
+   környezetben ellenőrzi, nem nyitja újra őket (projektgazdai döntés, 2026-10-03, VO D-13).
+   A P-NAR az `M4.2-NAR-03` ([`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md) P-NAR);
+   a generált terv narráció-pilotja (`MEDIA-PRODUCTION-PLAN.md` 5. szakasz) a fordító
+   szabálya szerinti javaslat, és eltérhet tőle. A pilot a hangszínt, a szünetkezelést és a
+   mért hosszt hagyja jóvá, és minden további R3-tétel ehhez igazodik. Ha egy jóváhagyott
+   kiejtés a produkcióban hallhatóan eltér a próbától, az regresszió, nem új döntési kérdés
+   (VO D-23).
 3. **A kiejtési táblát (6. szakasz) minden felvételnél újra kell futtatni** — ez a
    leggyakoribb elcsúszási pont egy több hónapos gyártásban.
 4. **Nincs verziószám a hangban.** Ha a lecke szövege változik, a fájl újra készül; a
    manifeszt `source_hash` mezője mutatja, melyik szövegverzióhoz készült.
 
-## 12. Motor és hang — a szolgáltató ELDŐLT, a hang még nem
+## 12. Motor, hang és gyártási konfiguráció
 
-**Felhasználói döntés, 2026-08-28.**
+**Felhasználói döntés, 2026-08-28; a hang és a konfiguráció: projektgazdai döntés, 2026-10-03 (VO 2. fázis).**
 
 | Mező | Állapot |
 |---|---|
 | Szintetikus vagy emberi felmondó | ✅ **SZINTETIKUS** — eldőlt |
 | Motor / szolgáltató | ✅ **ElevenLabs** — eldőlt |
-| Modell | 🔎 **javaslat: `eleven_flash_v2_5`**, `language_code: "hu"` — a meghallgatás erősíti meg (13.2.) |
-| Hangjelöltek | ✅ **VOICE-SRC-01** és **VOICE-SRC-02** — **forrás-beszélők**; a belőlük készülő ElevenLabs hangok **még nem jöttek létre** |
-| Hang-létrehozás (módszer: IVC / PVC / egyéb) | ⛔ **NYITOTT** — jog- és hozzájárulás-helyzet + fiók-/csomagkeret dönti el; V2 bizonyíték a feltöltés előtt kötelező |
-| Kanonikus narrátor | ⛔ **NYITOTT — meghallgatásos döntés** (13.3., [`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md)) |
-| Voice-ID | ⛔ **NINCS — a hang még nem jött létre** (létrehozás után rögzítendő: 13.4.) |
-| Hangtípus (klón / tervezett / stb.) | ⛔ **NINCS — a létrehozás módja is nyitott** (létrehozás után rögzítendő: 13.4.) |
-| Hangbeállítások és seed | ⛔ nyitott — a pilot rögzíti (13.6.) |
-| Kiejtési szótár | ⛔ nyitott — a meghallgatás mondja meg, mire kell (13.5.) |
-| Hang-jogosultság igazolása | ⛔ nyitott → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) |
+| Modell | ✅ **`eleven_v4`**, `language_code: "hu"` — projektgazdai döntés, 2026-10-03 (VO D-02); a fülre hozott kiejtési döntések ezen a modellen születtek |
+| Hangok | ✅ a **kanonikus narrátorhang** és a **második hang** — mindkét ElevenLabs-hang létezik; a hanghasználati jog tisztázott, a hang tulajdonosai kifejezetten hozzájárultak (VO D-01). A hangok és a **VOICE-SRC-01/02** álnevek megfeleltetését ez a lap nem rögzíti |
+| Hang-létrehozás (módszer: IVC / PVC / egyéb) | a hangok elkészültek; a módszerről és a fiókhoz kötött tényekről (hangtípus, fióktulajdon, tanítási kimaradás) csak valós bizonyítékból rögzíthető adat → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.0 |
+| Kanonikus narrátor | ✅ a **kanonikus narrátorhang** — az első teljes gyártási kör narrátorhangja; a **második hang** jogtisztázott, és az első körben csak az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után (VO D-14; K4) |
+| Voice-ID | nem nyilvános: csak a VO QA-repó gyártási konfigurációjában él, a kurzusrepóba nem kerül (kiegészítő projektgazdai döntés, 2026-10-03, K3; ez a `HUM-MEDIA-02` „Implementáció” sorát felváltja) |
+| Hangtípus (klón / tervezett / stb.) | fiókbizonyítékból rögzítendő (13.4.) — nem találjuk ki |
+| Hangbeállítások és seed | ✅ `stability` **0,35**, `similarity_boost` **0,75** — a v4-en csak ez a kettő hat; `speed` és `style` nincs, nem is küldjük (VO D-02). Seed: rögzített (260930). A ténylegesen elküldött értékeket minden kérés kísérőadata rögzíti |
+| Szövegnormalizálás | ✅ `apply_text_normalization: auto`, plusz a hang bemenetének (tts_text) célzott, naplózott cseréi (VO D-09; mérve: az `off` nem jobb) |
+| Mesterformátum | ✅ `pcm_48000` → 48 kHz / 16 bit / mono WAV (10. szakasz; VO D-12) |
+| Kiejtési szótár | ✅ a kanonikus gyártási kiejtési szótár — azonosító `ulYxuUbd8aSRJ89Pv2Q8`, verzió `VFpQiiOF789b08uzsooM`, 267 szabály; a forrása a VO QA-repó PLS-fájlja és konfigurációja, és minden gyártási konfiguráció a verziót rögzíti (VO D-03). Szótár nélküli gyártás nincs (13.5.) |
+| Hang-jogosultság igazolása | tartalmilag tisztázott (VO D-01); a formális bizonyíték függő → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5 |
 
-> **Az R3 ettől NEM zárul le.** A szolgáltató kiválasztása a kérdésnek csak az egyik fele.
-> Amíg nincs kanonikus hang, ellenőrzött voice-ID, rögzített modell és beállítás-készlet,
-> a felvétel **nem reprodukálható** — az R3 blokkoló ezért mind a 117 tételen a helyén
-> marad.
+> **Az R3 tartalmilag kitöltve, a kapu még nem zárult le.** A kanonikus hang, a modell, a
+> beállítások és a szótár rögzítve, a voice-ID helye kijelölve (fent; K3); nyitott a P-NAR
+> pilot (`M4.2-NAR-03`) fülre jóváhagyása produkciós környezetben (11.2.; VO D-13) és a második
+> hang kalibrálása az `M1.3-VID-01`-hez (8. szakasz; K4). Az R3
+> blokkoló ezért a tételeken a helyén marad; a levétele a manifesztben külön, tömeges
+> módosítás ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D2).
 
 ---
 
 ## 13. ElevenLabs — produkciós kutatás (2026-08-28)
+
+> **Történeti kutatás (2026-08-28) — a hatályos konfiguráció a 12. szakaszban áll.** A
+> 13.1–13.7. pont a `flash_v2_5` és a `v3` közti választás idején készült. A gyártás modellje az
+> `eleven_v4` (projektgazdai döntés, 2026-10-03, VO D-02): ezen csak a `stability` és a
+> `similarity_boost` hat; `speed`, `style` és SSML-szünet nincs; a szögletes zárójeles
+> audio-taget a modell előadja, ezért szögletes zárójel nem kerülhet a hang bemenetébe; az
+> IPA-fonémaszabály működik, de az alias az elsődleges eszköz. Az alábbi `speed`-, `style`- és
+> modellajánlások ezért **nem használhatók**: a tempót a szöveg és az időkeret adja (4.
+> szakasz), a mesterformátum a 10. szakaszban áll. Érvényes marad a 13.5. toldalékolási
+> csapdája, a 13.6. „minden kérésben explicit beállítás” szabálya és a determinizmus plafonja.
 
 Minden állítás a szolgáltató saját dokumentációjából, 2026-08-28-án lekérdezve. Fizetős
 API-t nem hívtunk, fiókot nem hoztunk létre, hangot nem generáltunk és nem klónoztunk.
@@ -316,7 +378,7 @@ olvasatra vált.
 
 ### 13.3. A hangválasztás — dokumentációból nem eldönthető
 
-A két jelölt a két forrás-beszélő felvételeiből létrehozandó egyedi hang (a hangok még nem készültek el):
+A két jelölt a két forrás-beszélő felvételeiből létrehozandó egyedi hang volt (2026-08-28-i állapot; azóta mindkét hang elkészült, és a kanonikus narrátorhang is ki van jelölve — 12. szakasz):
 
 | | |
 |---|---|
@@ -335,11 +397,10 @@ osztja ki neki egyik szerepet sem. Az `M1.3-VID-01` dialógushangjainak kérdés
 
 ### 13.4. A két hang azonosítása — a létrehozás után
 
-> ⛔ **A hangok még nem léteznek** — előbb létre kell hozni őket a forrás-beszélők
-> felvételeiből ([`ELEVENLABS-VOICE-TEST.md`](./ELEVENLABS-VOICE-TEST.md) 1.0). Ebben a
-> környezetben ráadásul **nincs ElevenLabs hitelesítő adat** — sem környezeti változó,
-> sem konfigurációs fájl, sem kulcstartó-bejegyzés, sem MCP-kapcsolat. A voice-ID-t és a
-> hangtípust ezért **nem rögzítettük, és nem is találjuk ki.**
+> ✅ **A hangok léteznek (projektgazdai tényközlés, 2026-10-03, VO D-01).** A 2026-08-28-i
+> kutatáskor még nem voltak meg. Ebben a repositoryban **nincs ElevenLabs hitelesítő adat**, és
+> a voice-ID-t, a hangtípust **nem rögzítjük és nem találjuk ki**: az alábbi menet a
+> fiókbizonyíték kinyerésére szolgál.
 
 **Amit a felhasználónak ki kell nyernie — webes út (a leggyorsabb):**
 
@@ -401,17 +462,20 @@ Szó szerint: „Pronunciation dictionary phoneme tags only work with eleven_fla
 eleven_v3 models. Other models skip dictionary phoneme tags and use the default
 pronunciation. For other models, **use alias tags instead**.”
 
-**A javasolt eljárás — és ez szándékosan a legkevesebb beavatkozás:**
+**Az eljárás (projektgazdai döntés, 2026-10-03, VO D-03) — a 2026-08-28-i „szótár nélküli
+első kör” helyett:**
 
-1. `language_code: "hu"`, **szótár nélkül** legyártani a hat mintát.
-2. **Meghallgatással** megállapítani, melyik szó romlik el ténylegesen. A várható
-   töréspont a `madrih` és a `hanih` torokhangja, valamint a `Leviatán` hangzóhossza
-   (a 6. szakasz „Kiejtés” oszlopa szerint).
-3. **Csak a tényleges hibákat** javítani alias-szabállyal: az alias olyan írott alakra
-   cseréli a hibásan olvasott szót, amelyből a modell a 6. szakasz „Kiejtés” oszlopa
-   szerinti hangzást adja (a magyarban nincs fonemikus /x/, a /h/ a természetes
-   realizáció). **Minden aliast meghallgatással kell megerősíteni.**
-4. Az IPA marad tartaléknak; ez az egyetlen ok, ami a v3-ra váltást indokolná.
+1. Minden gyártási kérés a **kanonikus kiejtési szótár** rögzített azonosítójával és
+   verziójával megy (12. szakasz). Szótár nélküli gyártás vagy próbakör nincs: a szótár
+   nélküli olvasat a fülre már elvetett változatokat hozná vissza (a kerekített [mɔdrix]-ot, a
+   lágy „honih”-ot, az angol s-sel ejtett „szomer”-t).
+2. A szabályokat a VO QA-repó építi a narráció ténylegesen előforduló alakjaiból
+   (minden toldalékos alakra külön szabály), PLS-ből reprodukálhatóan; a lefedettség-ellenőrzés
+   hibával áll meg, ha egy kanonikus írásmódú alakra nincs szabály.
+3. Új vagy módosított szabály csak próbával és fülre hozott döntéssel kerül be (B4-regiszter,
+   VO D-13); a B4-ben elvetett változat nem javasolható újra.
+4. Minden szótárváltozás új verziót ad; a gyártási konfiguráció a verziót rögzíti, a
+   kísérőadat minden kérésnél naplózza.
 
 > ⚠️ **Magyar toldalékolási csapda — ez a szakasz legfontosabb gyakorlati tudnivalója.**
 > A szótárszabályok `case_sensitive` és `word_boundaries` kapcsolója egyaránt
@@ -526,6 +590,10 @@ Magyar szervezetnek az **EGT-s** feltételszöveg az irányadó (lekérdezve 202
 | Teljes tananyag, **3× nyers** | 150–225 ezer | **7,50 – 11,25 $** | **30 – 45 $** |
 
 *(A `v3` mindkét olvasatban nagyjából a kétszerese.)*
+
+*(2026-10-03: a narráció mért terjedelme kb. 47 ezer karakter — QA-mérés, 2026-10-02: 47 070
+karakter, 112 blokk; a fenti „50–82 ezer” a 2026-08-28-i becslés, és a `flash_v2_5` árával
+számol. A v4-es karakterárat a fiók elszámolásából kell ellenőrizni.)*
 
 **A lényeg a bizonytalanság ellenére is áll:** a teljes tananyag hangja **tíz–ötven dollár
 nagyságrend**, a hatmintás teszt pedig **kevesebb, mint egy dollár**. A csomagot ezért ne a

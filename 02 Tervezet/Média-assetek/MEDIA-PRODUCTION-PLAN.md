@@ -13,26 +13,26 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 
 | | |
 |---|---:|
-| Szemantikus asset | **416** |
+| Szemantikus asset | **415** |
 | ebből újrahasznosítás (nem gyártandó) | 8 |
 | ebből élő/runtime tétel (a képző hozza létre a peulán) | 3 |
-| Központilag előgyártható asset | **405** |
-| Produkciós deliverable | **907** |
+| Központilag előgyártható asset | **404** |
+| Produkciós deliverable | **903** |
 
 ### Státusz szerint
 
 | Státusz | Asset | Deliverable |
 |---|---:|---:|
 | specifikáció kész | 295 | 529 |
-| jogtisztázás alatt | 120 | 374 |
+| jogtisztázás alatt | 119 | 370 |
 | emberi döntésre vár | 1 | 4 |
 
 ### Kapuk szerint
 
 | Kapu | Érintett asset |
 |---|---:|
-| R2 — AI-avatar / AI-hang jogtisztaság | 119 |
-| R3 — narrátor hang-bible (motor / voice-ID) | 117 |
+| R2 — AI-avatar / AI-hang jogtisztaság | 118 |
+| R3 — narrátor hang-bible (motor / voice-ID) | 116 |
 | R5 — vizuális rendszer: stílus-token + hex-paletta | 0 |
 | R7 — véglegesített Moodle-felület | 1 |
 | R8 — GDPR / képmás valós fotón és képernyőképen | 1 |
@@ -43,7 +43,7 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 |---|---:|---:|
 | nincs nyitott kapu | 285 | 526 |
 | pontosan EGY kapu | 2 | 4 |
-| TÖBB kapu | 118 | 372 |
+| TÖBB kapu | 117 | 368 |
 
 A kapu-számok és a 2–3. szakasz a **központilag előgyártható** tételekre
 vonatkoznak. Az élő/runtime tételek nem kerülnek gyártási sorba — a saját
@@ -58,8 +58,8 @@ ha az adott kaput önmagában lezárjuk.
 | Kapu | Érintett asset | Érintett deliverable | Önmagában felszabadul (asset) | …deliverable | Más kapu is ül rajta | A többi kapu |
 |---|---:|---:|---:|---:|---:|---|
 | R5 — vizuális rendszer: stílus-token + hex-paletta | 0 | 0 | **0** | 0 | 0 | — |
-| R3 — narrátor hang-bible (motor / voice-ID) | 117 | 370 | **0** | 0 | 117 | OPEN_DECISION×1, R2×117 |
-| R2 — AI-avatar / AI-hang jogtisztaság | 119 | 374 | **2** | 4 | 117 | OPEN_DECISION×1, R3×117 |
+| R3 — narrátor hang-bible (motor / voice-ID) | 116 | 366 | **0** | 0 | 116 | OPEN_DECISION×1, R2×116 |
+| R2 — AI-avatar / AI-hang jogtisztaság | 118 | 370 | **2** | 4 | 116 | OPEN_DECISION×1, R3×116 |
 | R8 — GDPR / képmás valós fotón és képernyőképen | 1 | 2 | **0** | 0 | 1 | R7×1 |
 | R7 — véglegesített Moodle-felület | 1 | 2 | **0** | 0 | 1 | R8×1 |
 | nyitott emberi döntés | 1 | 4 | **0** | 0 | 1 | R2×1, R3×1 |
@@ -74,12 +74,12 @@ legtöbb assetet **abban a pillanatban**. Ez nem határidő, hanem
 | # | Kapu | Ekkor felszabaduló asset | …deliverable | Halmozott gyártható asset |
 |---:|---|---:|---:|---:|
 | 1 | R2 — AI-avatar / AI-hang jogtisztaság | 2 | 4 | 287 |
-| 2 | R3 — narrátor hang-bible (motor / voice-ID) | 116 | 366 | 403 |
-| 3 | nyitott emberi döntés | 1 | 4 | 404 |
-| 4 | nincs jóváhagyott felmondható szkript | 0 | 0 | 404 |
-| 5 | R5 — vizuális rendszer: stílus-token + hex-paletta | 0 | 0 | 404 |
-| 6 | R7 — véglegesített Moodle-felület | 0 | 0 | 404 |
-| 7 | R8 — GDPR / képmás valós fotón és képernyőképen | 1 | 2 | 405 |
+| 2 | R3 — narrátor hang-bible (motor / voice-ID) | 115 | 362 | 402 |
+| 3 | nyitott emberi döntés | 1 | 4 | 403 |
+| 4 | nincs jóváhagyott felmondható szkript | 0 | 0 | 403 |
+| 5 | R5 — vizuális rendszer: stílus-token + hex-paletta | 0 | 0 | 403 |
+| 6 | R7 — véglegesített Moodle-felület | 0 | 0 | 403 |
+| 7 | R8 — GDPR / képmás valós fotón és képernyőképen | 1 | 2 | 404 |
 
 ## 4. Kötegek
 
@@ -97,7 +97,7 @@ peula alatt hoz létre, tehát előre egyáltalán nem gyárthatók.
 | **BATCH 0 — MOST GYÁRTHATÓ** | nincs nyitott kapu | 285 | 526 |
 | **BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN** | R5 — vizuális rendszer lock | 0 | 0 |
 | **BATCH 2 — HANG-ZÁR UTÁN** | R3 — narrátor-hang lock | 0 | 0 |
-| **BATCH 3 — AI-AVATAR, KARAKTERVIDEÓ ÉS SZINTETIKUS HANG** | R2 + R3 — avatar- és hang-jogtisztaság, hang-lock | 118 | 370 |
+| **BATCH 3 — AI-AVATAR, KARAKTERVIDEÓ ÉS SZINTETIKUS HANG** | R2 + R3 — avatar- és hang-jogtisztaság, hang-lock | 117 | 366 |
 | **BATCH 4 — JOGÉRZÉKENY (valós fotó / képernyőkép)** | R8 — képmás- és adatvédelmi bizonyíték | 0 | 0 |
 | **BATCH 5 — RUNTIME-KÉPERNYŐKÉP** | R7 (+ R8) — éles Moodle-felület | 1 | 2 |
 | **BATCH 6 — EMBERI DÖNTÉS / SZKRIPT-ZÁR** | szerzői/szakmai döntés vagy jóváhagyott szkript | 1 | 4 |
@@ -198,12 +198,12 @@ _Üres._
 
 ### BATCH 3 — AI-AVATAR, KARAKTERVIDEÓ ÉS SZINTETIKUS HANG
 
-**Függőség:** R2 + R3 — avatar- és hang-jogtisztaság, hang-lock · **118 asset / 370 deliverable**
+**Függőség:** R2 + R3 — avatar- és hang-jogtisztaság, hang-lock · **117 asset / 366 deliverable**
 
 | Modul | Típus | Asset | Deliverable |
 |---|---|---:|---:|
 | M1 | video | 3 | 10 |
-| M1 | voiceover | 20 | 60 |
+| M1 | voiceover | 21 | 62 |
 | M2 | video | 6 | 25 |
 | M2 | voiceover | 9 | 27 |
 | M3 | video | 4 | 18 |
@@ -212,14 +212,14 @@ _Üres._
 | M4 | video | 5 | 14 |
 | M4 | voiceover | 17 | 51 |
 | M5 | video | 2 | 8 |
-| M5 | voiceover | 2 | 6 |
+| M5 | voiceover | 1 | 3 |
 | M6 | video | 3 | 12 |
 | M6 | voiceover | 17 | 51 |
 | M7 | video | 3 | 12 |
-| M7 | voiceover | 12 | 36 |
+| M7 | voiceover | 11 | 33 |
 | Z | voiceover | 2 | 6 |
 
-A 118 tétel soronként a
+A 117 tétel soronként a
 `media-production-plan.csv` fájlban van (`Köteg` oszlop = `B3`).
 
 ### BATCH 4 — JOGÉRZÉKENY (valós fotó / képernyőkép)
@@ -263,7 +263,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 
 | Család | Pilot | Köteg | Kapuk | Család mérete | Cím |
 |---|---|---|---|---:|---|
-| Narráció / hang | `M3.2-NAR-05` | B3 | R2, R3 | 90 | Outro narráció hangsáv |
+| Narráció / hang | `M3.4-NAR-02` | B3 | R2, R3 | 89 | Outro narráció (opcionális) – SLIDE 7 |
 | AI beszélőfej-videó | `M2.2-VID-01` | B3 | R2, R3 | 18 | Hook-videó: „A kvucád 15 percet késik…” |
 | AI karakter- / jelenetvideó | `M4.1-VID-05` | B3 | R2, R3 | 9 | Jelenet 3 karaktervideó – „Nyitott, stabil madrih” |
 | Diagram / ábra | `M1.B-DIA-01` | B0 | — | 39 | Szerepcsere-ábra (A→C, C→B, B→A forgás) |

@@ -15,20 +15,38 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Python syntax
         run: python -m py_compile tools/*.py
+      # PR: the merge commit against its base. Push: every pushed commit, not only the last.
       - name: Repository diff whitespace
-        run: git diff --check HEAD^ HEAD
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          base=HEAD^
+          if [ "$EVENT" = push ] && [ -n "$BEFORE" ] && ! printf '%s' "$BEFORE" | grep -qE '^0+$' \
+             && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            base=$BEFORE
+          fi
+          git diff --check "$base" HEAD
+      # CI is a read-only checker; the same allowlist runs in /release-check.
+      - name: Workflows stay read-only
+        run: |
+          bash .github/read-only-workflows.sh --selftest
+          bash .github/read-only-workflows.sh
       - name: Claude settings JSON
-        run: python -c "import json; json.load(open('.claude/settings.json', encoding='utf-8')); print('settings.json OK')"
-      - name: Safety hook syntax and selftest
+        run: python -m json.tool .claude/settings.json > /dev/null
+      - name: Safety hooks syntax and selftest
         run: |
           bash -n .claude/hooks/guard-repo-safety.sh
           bash .claude/hooks/guard-repo-safety.sh --selftest
+          bash -n .claude/hooks/review-agent-allowlist.sh
+          bash .claude/hooks/review-agent-allowlist.sh --selftest
+          bash -n .claude/hooks/stop-checks.sh
       - name: Checker selftest
         run: python tools/content_integrity.py --selftest
       - name: Objective integrity checks
@@ -70,8 +88,14 @@ jobs:
         run: python tools/media_manifest.py reconcile
       - name: Undeclared asset lint
         run: python tools/media_manifest.py lint --high-only
-      - name: Media manifest tests
-        run: python -m unittest tools.test_media_manifest
+      # CLAUDE.md: the render-parity test must not stay skipped, so a skip fails CI.
+      - name: Media manifest tests (no skips)
+        run: |
+          python -m unittest tools.test_media_manifest 2>&1 | tee unittest.log
+          tail -n 1 unittest.log | grep -qx 'OK' || {
+            echo "::error::A média-tesztek buktak vagy skippeltek (a Pandocnak telepítve kell lennie)."
+            exit 1
+          }
       - name: Current counts
         if: always()
         run: python tools/media_manifest.py stats

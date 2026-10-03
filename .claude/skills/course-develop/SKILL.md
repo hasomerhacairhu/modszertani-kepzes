@@ -17,7 +17,7 @@ Feladat: `$ARGUMENTS`
 1. **Kontextus**: olvasd be a `02 Tervezet/Program terv.md` érintett szakaszát, a modulhubot,
    a modul kapu-fájlját és a `Glosszárium` releváns tételeit. Nézd meg a szomszédos
    leckéket — formátumban és hangnemben illeszkedni kell.
-2. **Célcsoport**: 15+ korosztály, a madrichok maguk is lehetnek kiskorúak.
+2. **Célcsoport**: 15+ korosztály, a madrihok maguk is lehetnek kiskorúak.
 3. **Prerekvizit**: mit tud már a tanuló, és honnan. Nevezd meg a forrásmodult.
 4. **Tanulási cél**: kevés, mérhető, egy célt mondó.
 5. **Konstruktív illeszkedés**: cél → tevékenység → értékelés egy tengelyen.
@@ -31,7 +31,9 @@ Feladat: `$ARGUMENTS`
     van-e önfeltárási kényszer; `.claude/rules/safety-and-human-gates.md`.
 12. **Implementáció**: Moodle-aktivitás és H5P-típus, ami **tényleg létezik és tud** annyit;
     egyeztetve a `02 Tervezet/LMS – activity manifest.md` és
-    `02 Tervezet/LMS – H5P runtime acceptance.md` fájlokkal.
+    `02 Tervezet/LMS – H5P runtime acceptance.md` fájlokkal. Minden médiaigény `@asset` /
+    `@source` deklarációt kap a `02 Tervezet/Média-assetek/ASSET-AUTHORING.md` szerint (a
+    deklarálatlan média a `lint --high-only`-t és a CI-t buktatja).
 
 **A pedagógiai design a te dolgod. A szervezeti, jogi, gyermekvédelmi és helyi someres
 döntés nem.** Ez utóbbit ne találd ki: jelöld `KITÖLTENDŐ`-vel vagy explicit
@@ -41,12 +43,14 @@ Mutasd meg a tervet, mielőtt írsz. Ha a felhasználó jóváhagyta, folytasd.
 
 ## B. Megírás
 
-Írd meg a fájlt a szomszédos leckék szerkezetét és hangnemét követve, a
-`.claude/rules/course-content.md` és `.claude/rules/hungarian-editorial.md` szerint.
-Új fájlnál: a fájlnév konvenció szerinti, a hivatkozásokat **fel is kell venni** a
-modulhubba és ahol a program szintjén szerepelnie kell.
+Írd meg a fájlt (`Write`/`Edit`) a szomszédos leckék szerkezetét és hangnemét követve, a
+`.claude/rules/course-content.md` és `.claude/rules/hungarian-editorial.md` szerint, a
+médiaigényeket az `ASSET-AUTHORING.md` szerint deklarálva. Új fájlnál: a fájlnév konvenció
+szerinti; létrehozás után azonnal `git add -N <fájl>` (különben a `git diff` és a
+whitespace-ellenőrzés nem látja); a hivatkozásokat **fel is kell venni** a modulhubba és ahol
+a program szintjén szerepelnie kell.
 
-## C. Definition of done — ezek nélkül nincs kész
+## C. Definition of done — ezek nélkül nincs kész, ebben a sorrendben
 
 1. `pedagogy-reviewer` az elkészült fájlra
 2. `hungarian-editorial-reviewer` az elkészült fájlra
@@ -54,9 +58,13 @@ modulhubba és ahol a program szintjén szerepelnie kell.
 4. `safety-policy-reviewer`, ha kiskorúakat, adatot, AI-t vagy érzékeny témát érint
 5. `implementation-reviewer` a Moodle/H5P/akadálymentesítési részre
 6. `verifier` az összegyűlt findingokra
-7. a megerősített findingok javítása
-8. `/release-check`
-9. a **teljes** `git diff` visszaolvasása
+7. a megerősített findingok javítása (a findingok mezői: `.claude/finding-format.md`)
+8. a **teljes** `git diff` visszaolvasása
+9. látható szöveg változásakor egyetlen
+   `python3 tools/test_media_manifest.py --pin-visible "<új lecke/peula ID>: <miért>"`
+10. új vagy módosított `@asset`/`@source`-nál `python3 tools/media_manifest.py build` kétszer
+    (stabil-e), majd `check` és `reconcile`
+11. `/release-check` — utolsóként
 
 A riportban sorold fel, melyik kapu futott le, és mi az eredménye. Ha egy kapu kimaradt,
 **mondd ki** — ne jelentsd késznek.

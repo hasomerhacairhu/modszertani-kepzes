@@ -41,8 +41,10 @@ A lencse → **agent** hozzárendelés kánoni helye a `/course-review` skill, n
 
 ## Routing — mi történik egy findinggel
 
-- **D6, D7, D8**: emberi döntés. A reviewer findingot ír, **nem javasol szakpolitikai
-  szöveget**, és a javítás nem automatizálható. Lásd `.claude/rules/safety-and-human-gates.md`.
+- **D6, D7, D8**: új szakpolitikai tartalom emberi döntés. A reviewer findingot ír, **nem
+  javasol új szakpolitikai szöveget**, és a javítás nem automatizálható. Egy lezárt
+  HUM-tétel vagy kánoni mondat szó szerinti átvezetése viszont objektív javítás (a
+  HUM-azonosítóval). Lásd `.claude/rules/safety-and-human-gates.md`.
 - **D9** tárgyi állítás: elsődleges forrással cáfolható vagy alátámasztható; ha nincs
   elsődleges forrás, ezt ki kell mondani.
 - **Minden más**: `verifier` adverzális ellenőrzés után `/course-fix` (tartalmi) vagy

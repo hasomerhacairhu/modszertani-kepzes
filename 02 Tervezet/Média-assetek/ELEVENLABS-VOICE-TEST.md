@@ -1,17 +1,26 @@
 # 🎧 ElevenLabs hangválasztás — végrehajtható meghallgatási teszt
 
+> **2026-10-03 — a hangválasztás eldőlt, ez a lap történeti.** A projektgazda döntése szerint
+> (VO 2. fázis) mindkét ElevenLabs-hang — a kanonikus narrátorhang és a második hang — létezik, a hanghasználati jog
+> tisztázott, a hang tulajdonosai kifejezetten hozzájárultak (VO D-01). Az elsődleges
+> narrátor a **kanonikus narrátorhang**; a második hang jogtisztázott, és az első gyártási körben csak
+> az `M1.3-VID-01` Madrih B szerepét mondja, a kalibrálása után (VO D-14; K4). A hatmintás összehasonlítás ezért nem fut. A hatályos gyártási
+> konfiguráció a [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12. szakaszában áll; az alábbi 2.
+> szakasz ehhez igazodik. A P1–P3 szkript a pilotban a fülre hozott (B4) kiejtési döntéseket
+> ellenőrzi produkciós környezetben, nem dönt újra (VO D-13).
+
 Egyetlen célja van: eldönteni, hogy a **VOICE-SRC-01** vagy a **VOICE-SRC-02** legyen a
 tananyag **kanonikus narrátora**.
 
 | | |
 |---|---|
 | **Szolgáltató** | **ElevenLabs** — felhasználói döntés, 2026-08-28, lezárva |
-| **Jelöltek** | **VOICE-SRC-01** · **VOICE-SRC-02** — **forrás-beszélők**: az ő felvételeikből készül majd a két ElevenLabs egyedi hang, amelyek **még nem jöttek létre** |
+| **Jelöltek** | **VOICE-SRC-01** · **VOICE-SRC-02** — forrás-beszélők. A két ElevenLabs-hang (a kanonikus narrátorhang és a második hang) 2026-10-03-án létezik (VO D-01); hogy melyik melyik álnévhez tartozik, a repó nem rögzíti |
 | **Eldöntendő** | melyik a kanonikus narrátor |
 | **Minta** | **6 db** — 2 hang × 3 meglévő tananyag-szkript |
 | **Mért méret** | **3 208 karakter** összesen |
 | **Becsült költség** | **0,16 – 0,64 $** (`eleven_flash_v2_5`) — a szolgáltató két árazási felülete eltérő szorzót ad; mindkét olvasatban **egy dollár alatt** |
-| **Állapot** | ⛔ **nem futtatható — a két ElevenLabs hang még nincs létrehozva** (előbb: hozzájárulás-bizonyíték → tanítási kimaradás → hang-létrehozás → azonosítás) |
+| **Állapot** | ✅ **nem fut — a kanonikus hang eldőlt** (VO D-14). A P1–P3 szkript a pilotban a kanonikus narrátorhanggal, a produkciós konfigurációval ellenőrző szerepben fut ([`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md); VO D-13) |
 
 Kapcsolódó: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12–13. szakasz (a kutatás és a
 modell-javaslat) · [`VOICE-PILOT-SCRIPTS.md`](./VOICE-PILOT-SCRIPTS.md) (a három szkript
@@ -28,11 +37,13 @@ A hat mintát **nem szabad** legenerálni, amíg ez a három nem történt meg.
 (1.0.) → tanítási kimaradás (1.2.) → a hangok létrehozása (1.0.) → azonosítás (1.1.). Az
 1.2. tehát a számozása ellenére **a létrehozás előtt** jön (6. szakasz).
 
-### 1.0. A hangok létrehozása — `A HANGOK MÉG NEM LÉTEZNEK`
+### 1.0. A hangok létrehozása — `A HANGOK LÉTEZNEK (2026-10-03)`
 
-**VOICE-SRC-01** és **VOICE-SRC-02** jelenleg **forrás-beszélők**: tőlük származnak (illetve
-készülnek) azok a felvételek, amelyekből a két ElevenLabs egyedi hangot létre kell hozni.
-A hang-objektumok **még nem léteznek**, ezért voice-ID sincs.
+**VOICE-SRC-01** és **VOICE-SRC-02** **forrás-beszélők**. A két ElevenLabs-hang (a kanonikus narrátorhang és a második hang)
+2026-10-03-án létezik (VO D-01); a voice-ID nem nyilvános, csak a VO QA-repó gyártási konfigurációjában él (K3). Az alábbi pontok a
+létrehozás előtti követelményeket rögzítik; hogy ezek a két hangnál hogyan teljesültek, azt csak
+valós bizonyíték rögzítheti ([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) R2-5 — formális
+bizonyíték függő).
 
 - **A létrehozás módja nyitott** (Instant Voice Clone / Professional Voice Clone / egyéb):
   a jog- és hozzájárulás-helyzet, valamint a fiók-/csomagkeret dönti el —
@@ -55,16 +66,16 @@ A hang-objektumok **még nem léteznek**, ezért voice-ID sincs.
   és feltételekkel készül el — különben a különbség nem a hangot, hanem a létrehozási
   módot mérné.
 
-### 1.1. A hangok azonosítása a létrehozás UTÁN — `LÉTREHOZÁS UTÁN RÖGZÍTENDŐ`
+### 1.1. A hangok azonosítása — `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ`
 
-Ebben a környezetben **nincs ElevenLabs hitelesítő adat**, és a hangok még nem is léteznek,
-ezért voice-ID-t és hangtípust rögzíteni még nem lehet. **Nem is találtuk ki őket.**
-Amint a két hang elkészült, ezt a táblát kell kitölteni:
+A hangok léteznek (2026-10-03, VO D-01). Ebben a repositoryban **nincs ElevenLabs hitelesítő
+adat**; a voice-ID a kurzusrepóba nem kerül (a VO QA-repó gyártási konfigurációjában él, K3), a hangtípust csak fiókbizonyítékból lehet rögzíteni —
+**kitalálni nem szabad.**
 
 | Hang | Voice ID | Hangtípus | Magyar nyelvre igazolt? | Modell-kompatibilitás |
 |---|---|---|---|---|
-| **VOICE-SRC-01** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
-| **VOICE-SRC-02** (a forrás-beszélőből készülő hang) | `MÉG NEM LÉTEZIK — LÉTREHOZÁS UTÁN RÖGZÍTENDŐ` | `MÉG NEM LÉTEZIK` | `LÉTREHOZÁS UTÁN` | `LÉTREHOZÁS UTÁN` |
+| **Kanonikus narrátorhang** | `NEM A REPÓBAN` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | a gyártási próbák `eleven_v4`-en futottak (VO 2. fázis) |
+| **Második hang** | `NEM A REPÓBAN` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | `FIÓKBIZONYÍTÉKBÓL RÖGZÍTENDŐ` | kalibrálandó: az első körben az `M1.3-VID-01` Madrih B szerepét mondja (VO D-14, K4) |
 
 **A kinyerés menete a létrehozás után — a webes út elég:**
 
@@ -105,22 +116,20 @@ licencként írja le; hogy ebből mit érint a kimaradás, jogi kérdés —
 
 ---
 
-## 2. A teszt beállításai
+## 2. A beállítások — a produkciós konfiguráció (2026-10-03)
 
 | Paraméter | Érték | Miért |
 |---|---|---|
-| `model_id` | **`eleven_flash_v2_5`** | a magyar támogatott, van tempó-vezérlés, a beállítások rögzíthetők — [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.2. |
+| `model_id` | **`eleven_v4`** | projektgazdai döntés, 2026-10-03 (VO D-02); a fülre hozott kiejtési döntések ezen születtek |
 | `language_code` | **`"hu"`** | ez kényszeríti a magyar olvasatot; enélkül a someres szavak angol vagy héber fonetikát kaphatnak |
-| `voice_settings.stability` | **0,70** | a 3. szakasz szűk érzelmi sávjához; alacsonyabb érték szélesebb, hullámzóbb előadást ad |
-| `voice_settings.similarity_boost` | **0,75** | alapérték; a hang karakterét tartja |
-| `voice_settings.style` | **0,0** | a szolgáltató kifejezett ajánlása; emelve romlik a stabilitás |
-| `voice_settings.use_speaker_boost` | **`true`** | alapérték |
-| `voice_settings.speed` | **1,0** kiindulásként | a mért tempóhoz igazítandó, tartomány 0,7–1,2 |
-| `seed` | **egyetlen rögzített egész**, mind a hat mintára ugyanaz | különben a hangok különbsége és a véletlen ingadozás összekeveredik |
-| `pronunciation_dictionary_locators` | **nincs — szándékosan üres** | a teszt egyik célja épp az, hogy kiderüljön, mire kell szótár |
-| `output_format` | **a legjobb, amit a csomag ad** (`wav_44100` Pro-n, egyébként `mp3_44100_192`) | a meghallgatást ne a tömörítés döntse el |
+| `voice_settings.stability` | **0,35** | a tesztelt konfiguráció (VO D-02) |
+| `voice_settings.similarity_boost` | **0,75** | a tesztelt konfiguráció (VO D-02) |
+| `style`, `use_speaker_boost`, `speed` | **nem küldjük** | a v4-en nincs ilyen vezérlés (VO D-02); a tempót a szöveg és az időkeret adja |
+| `seed` | **rögzített egész** (a gyártási konfigurációban 260930) | az ingadozás ne keveredjen a valódi különbséggel |
+| `pronunciation_dictionary_locators` | **a kanonikus szótár rögzített verziója** (`ulYxuUbd8aSRJ89Pv2Q8` / `VFpQiiOF789b08uzsooM`) | szótár nélküli futás nincs (VO D-03) |
+| `output_format` | **`pcm_48000`** → 48 kHz / 16 bit / mono WAV | valódi API-mester, nincs átmintavételezés (VO D-12) |
 | `use_pvc_as_ivc` | **explicit `false`**, ha a hang PVC | különben nem tudni, melyik renderelés szólalt meg |
-| `apply_text_normalization` | **explicit, rögzített érték** — mind a hat mintára ugyanaz | a 4. szakasz figyelőlistája kifejezetten teszteli a számnormalizálást (`1977-ben`); ha ez a paraméter nincs rögzítve, az eredmény nem köthető ismert beállításhoz. Ha a választott modell nem támogatja, azt is **rögzíteni kell** |
+| `apply_text_normalization` | **`auto`**, plusz a hang bemenetének (tts_text) célzott, naplózott cseréi | VO D-09 — mérve: az `off` az „1–2” típusú tartományt elrontja, és nem jobb |
 
 **A két hangnak minden más paramétere azonos legyen.** Amit összehasonlítunk, az a hang —
 nem a beállítás.
@@ -134,14 +143,19 @@ nem a beállítás.
 A `@source` blokk szövege, de:
 
 - a **nyitó és záró `„ ”`** idézőjel nélkül (az a forrásblokk határa, nem felmondandó);
-- a `**…**` félkövér-jelölés **eltávolítva** (a hangsúly forrása, de maga nem hangzik el);
+- a `**…**` félkövér és a `*…*` dőlt jelölés **eltávolítva** — a v4-en nem hangsúlyjel (VO D-11);
+  a sortörésen átnyúló kiemelés sem hagyhat magányos `*`-ot;
 - **minden emoji eltávolítva, a közvetlenül utána álló szóközzel együtt** — a P1-ben öt
   `👉 ` áll sorkezdeten, és a szóköz elhagyása nélkül a karakterszám 904 lenne, nem 899;
-- a sortörések és az üres sorok **megmaradnak** (rövid levegő, illetve bekezdés-szünet);
-- **szögletes zárójel nem kerülhet a szövegbe.** Ez **saját produkciós óvatosság, nem
-  idézett szolgáltatói előírás**: a szögletes zárójel a szolgáltatónál az *audio tag*
-  szintaxisa, amit a választott modell nem értelmez — a tananyag szövegében amúgy sem
-  fordul elő, tehát a szabály költségmentes.
+- a sor eleji listajel (`- `, `* `) eltávolítva; a beszélő- és a verziócímke (`**Madrih A:**`,
+  `**1. verzió – …**`) nem hangzik el, a párbeszéd beszélőnként külön szegmens (VO D-14);
+- a sortörés és az üres sor **nem** szünetvezérlő: a v4 nem veszi figyelembe őket, a szünetet a
+  központozás adja, a bekezdéshatáron szükség szerint az utómunka (VO D-10);
+- **szögletes zárójel nem kerülhet a szövegbe**: a v4 a szögletes zárójeles *audio taget*
+  előadja (mérve), tehát a zárójeles szöveg elhangzana vagy hangeffektust kapna;
+- a kiejtési és normalizálási cserék (szótár-alias, a tts_text célzott cseréi) **csak a hang
+  bemenetében** élnek, a feliratban és a leiratban nem (VO D-09). A kanonikus megvalósítás a
+  VO QA-repó szövegkinyerője (display_text / tts_text).
 
 **Mind a hat mintához bájtra ugyanaz a tisztított szöveg megy be.**
 
@@ -157,7 +171,7 @@ a forrás-hivatkozás és a kiválasztás indoklása:
 |---|---|---|---:|---:|---|---|
 | **P1** | `M3.1-NAR-02` | `92d86f7be3c403a5` | **899** | 136 | 60–75 mp | hosszú magyarázó ív, hangsúly, angol szakszavak, évszám |
 | **P2** | `M6.2-NAR-04` | `f78f0c8b737f2434` | **434** | 71 | 40–50 mp | visszafogott érzelmi sáv, idézet, `madrih`/`hanih`/`peula` |
-| **P3** | `M3.1-NAR-05` | `17184b1a6e2cf25c` | **271** | 40 | 15–20 mp | mind a három aktuális kvuca-tulajdonnév |
+| **P3** | `M3.1-NAR-05` | `17184b1a6e2cf25c` | **271** | 40 | 15–20 mp (mért: 18,5 mp, kanonikus narrátorhang, 2026-10-03) | mind a három aktuális kvuca-tulajdonnév |
 | | | **hangonként** | **1 604** | 247 | ≈ 2 perc | |
 | | | **hat minta** | **3 208** | 494 | ≈ 4 perc | |
 
@@ -182,40 +196,42 @@ munkaanyagai.
 
 ## 4. Kiejtési figyelőlista
 
-A teszt **szótár nélkül** fut. Ez a lista mondja meg, **mit kell figyelni**, és ebből lesz
-utána a szükséges alias-szabályok listája — csak azokra a szavakra, amelyek ténylegesen
-elromlanak.
+A P1–P3 a **kanonikus kiejtési szótárral** fut (VO D-03). Ez a lista mondja meg, **mit kell
+figyelni**: az elvárt kiejtés a VO QA-repó B4-regiszterének fülre hozott döntése (VO D-04,
+D-05, D-06, D-13), az írott alak és a felirat nem változik. Ha egy jóváhagyott szó a
+produkcióban hallhatóan eltér a próbától, az regresszió, nem új döntés (VO D-23).
 
-A kánoni alakok forrása a `Glosszárium – someres és pedagógiai fogalmak.md` és a
-[`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6. szakasza. **Az írásmód eldőlt** (projektgazdai
-döntés, 2026-10-02): a magyar Somer first-party alakjai a kánon (madrih, hanih, hágsámá,
-dugma isit, Leviatán), és a tanulói korpusz egyszeri gépi migrációt kap. A teszt a
-szkriptek mindenkori forrásszövegét használja, tehát a migrált alakokat méri; az „Elvárt
-kiejtés” oszlop már a döntés szerinti alakot adja meg.
+A kánoni írott alakok forrása a `Glosszárium – someres és pedagógiai fogalmak.md`, a hangzásé a
+[`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 6–7. szakasza. **Az írásmód eldőlt** (projektgazdai
+döntés, 2026-10-02): madrih, hanih, hágsámá, dugma isit, Leviatán; a tanulói korpusz migrált.
 
 | Szó | Elvárt kiejtés | Hol | Kockázat |
 |---|---|---|---|
 | `kvuca`, `kvucába`, `kvucának` | „kvuca” — a **c** = /ts/ | P1, P2, P3 | angol /k/ vagy /kw/ olvasat |
 | `someres` | **s** = /ʃ/ | P1, P3 | angol /s/ |
-| `madrih`, `madrihhoz` | „madrih” — a szóvégi **h** hallható torokhang, nem /cs/, nem /k/ | P2 | **magas** — héber eredetű szóvégi hang |
-| `hanih` | „hanih” — a szó eleji és a szóvégi **h** is hallható torokhang | P2 | **magas** |
+| `madrih`, `madrihhoz` | „mádrih” [maːdrix] — nem kerekített első magánhangzó, szóvégi [x] (B4) | P2 | a nyers olvasat kerekített [mɔdrix] — fülre elvetve |
+| `hanih` | [xanix] — a szótár héber írású aliasa adja (B4) | P2 | a nyers olvasat lágy, kerekített „honih” — fülre elvetve |
 | `peula` | „peula” | P2 | ékezet vagy hangsúly elcsúszása |
 | `Parparim` | „parparim” | P3 | idegen hangsúly |
 | `Kivsza` | „kivsza” | P3 | — |
-| `Leviatán` | „leviatán” — hosszú **á**, a first-party alak szerint | P3 | a hangzóhossz és a hangsúly |
-| `Tuckman` | a pilot rögzíti; utána következetesen | P1 | nincs kánoni előírás |
+| `Leviatán` | „Leviatan” [leviotɒn] — rövid a-val (B4); az írott alak és a felirat „Leviatán” | P3 | a szóvégi hosszú á nem produkciós kiejtés |
+| `Tuckman` | „Takmen”; `Bruce Tuckman` → „Brúsz Takmen”, `Mary Ann Jensen` → „Méri En Dzsenszen” (B4) | P1 | a nyers angol olvasat — fülre elvetve |
 | `1977-ben` | „ezerkilencszázhetvenhét-ben”, nem számjegyenként | P1 | számnormalizálás |
-| `forming` / `storming` / `norming` / `performing` / `adjourning`-ot | angol olvasat magyar mondatban, az utolsó magyar toldalékkal | P1 | kódváltás |
+| `forming` / `storming` / `norming` / `performing` / `adjourning`-ot | „fórming, sztórming, nórming, perfórming, edzsörning” (B4), az utolsó magyar toldalékkal | P1 | a nyers brit olvasat és a „forrming” — fülre elvetve |
 | `👉` (5×) | **nem hangzik el** | P1 | ha a tisztítás kimaradt, felolvassa |
 
-**Amit a három szkript nem fed le**, és a köteg-jóváhagyáskor külön kell ellenőrizni:
-`ken`, `Zmán Kvucá`, `dugma isit`, `hágsámá`, `bogrim`, `mazkirut`, `Hasomer Hacair`,
-`Johari`, az `SBI` betűzés, a korosztály-tartományok és az időtartamok.
+**A narrációban ténylegesen előforduló, a próbák szerint kockázatos tételek** — a köteg-jóváhagyáskor
+és a QA kiejtési regressziós próbájában külön kell ellenőrizni: `dugma isit`, `Zmán Kvucá`, `ken`
+(„kenben”), `Johari`, `Memunát`, az `SBI` és az önálló `S`, `red flag`, `checklist`, `SMART`,
+`AI`, `Moodle`, `energizer` („enerdzsájzer”), a `13–17` („tizenhárom–tizenhét”), a `112`
+(„száztizenkettő”), az `M2.A` („em kettő pont á”), az `az ÉN` („az én”), a modul- és
+leckekódok (`M2.4`), a `Peula v1/v2`, valamint a toldalékos számok (`18-tól`).
 
-> **Ha egy szó elromlik:** a `flash_v2_5` **alias**-szabályt fogad el (fonéma-szabályt
-> kihagy). A magyar toldalékolás miatt **minden ténylegesen előforduló alakot** fel kell
-> venni, mert a szóhatár-illesztés alapértelmezetten bekapcsolt: a `Somer` szabály nem
-> illeszkedik a `someres`-re. Részletek: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.5.
+> **Ha egy szó elromlik:** az eltérés regresszió, nem új döntés (VO D-23). A javítás a kanonikus
+> szótár új verziója — elsősorban alias-szabály, minden ténylegesen előforduló toldalékos alakra,
+> mert a szóhatár-illesztés alapértelmezetten bekapcsolt: a `Somer` szabály nem illeszkedik a
+> `someres`-re. Az IPA-fonémaszabály a v4-en működik, de az alias az elsődleges eszköz.
+> Részletek: [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.5.
 
 ---
 
@@ -261,9 +277,8 @@ kibírja-e 117 tételen — nem az, hogy melyik szebb egyetlen mintán.
 ### 5.1. Azonnali bukás — bármelyik önmagában kizár egy hangot
 
 - [ ] **B1 — Javíthatatlan kiejtés.** Egy kánoni someres szó rosszul szól, és
-      alias-szabállyal sem hozható helyre. *(Ilyen lehet például a `Leviatán`
-      hangzóhossza, ha alias-szabállyal sem hozható a 4. szakasz szerinti „leviatán”
-      alakra.)*
+      alias-szabállyal sem hozható helyre. *(Például ha egy B4-ben jóváhagyott alak — madrih,
+      hanih, Leviatán — a kanonikus szótárral sem a jóváhagyott hangzással szól.)*
 - [ ] **B2 — Instabilitás generálások között.** Ugyanaz a szöveg, ugyanaz a seed és
       beállítás **hallhatóan más** hangot ad. Ellenőrzés: a nyertes jelölt P2-jét
       **kétszer** kell legyártani és összevetni.
@@ -299,14 +314,19 @@ kibírja-e 117 tételen — nem az, hogy melyik szebb egyetlen mintán.
 
 **A 7. lépés a felhasználó döntése.** Ez a lap előkészíti, nem helyettesíti.
 
+*(2026-10-03: a 0b–7. lépés tárgytalan — a hangok léteznek, a kanonikus narrátorhang ki van jelölve, a modell
+az `eleven_v4` (VO D-01, D-02, D-14). A 8. lépés reprodukciós metaadatát a 6.1. sorolja fel.)*
+
 ### 6.1. Mit kell rögzíteni, amikor a döntés megszületik
 
 Ezek nélkül az R3 **nem** zárható le, mert a felvétel nem reprodukálható:
 
 `voice_id` · `voice_display_name` · `voice_type` (`category`) · `model_id` ·
-`language_code` · a teljes `voice_settings` objektum (mind az öt mező) · `seed` ·
-`output_format` · a kiejtési szótár azonosítója **és `version_id`-je** ·
-`use_pvc_as_ivc` · `apply_text_normalization`.
+`language_code` · a ténylegesen elküldött `voice_settings` (v4-en: `stability`,
+`similarity_boost`) · `seed` · `output_format` · a kiejtési szótár azonosítója **és
+`version_id`-je** · `use_pvc_as_ivc` · `apply_text_normalization` · a kérés azonosítója
+(`request-id`) és karakterköltsége (`character-cost`) · kérés-összefűzésnél az előző kérések
+azonosítói (`previous_request_ids`). A voice-ID a kísérőadatban nem nyilvános formában áll.
 
 > **Őszinte plafon.** A szolgáltató kimondja, hogy a modellek nem determinisztikusak, és
 > a seed is csak „best effort”. Egy fél év múlva újragyártott klip **hasonló lesz, nem
@@ -315,11 +335,12 @@ Ezek nélkül az R3 **nem** zárható le, mert a felvétel nem reprodukálható:
 
 ## 7. Amit ez a teszt NEM dönt el
 
-- **A második hang szerepét.** Egy hang lesz a kanonikus narrátor; a másik esetleges
-  szerepe (tartalék, dialógus- vagy karakterhang) **külön, későbbi döntés**.
+- **A második hang szerepét — ez eldőlt.** A második hang jogtisztázott; a kalibrálása
+  után már az első körben az `M1.3-VID-01` Madrih B szerepét mondja (VO D-14, K4).
 - **A csomagot.** A kimeneti formátum és a hangtípus dönti el, nem a karakterár —
   [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.7. és 13.9.
 - **A hang-jogosultságot.** → [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) (R2-5; a V3
   alkapu felelőse és bizonyítéka: 1/A.5.); a V2 és a V3 kérdése:
   [`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 13.10.
-- **A kiejtési szótár végleges tartalmát.** Az a teszt *eredménye*, nem a bemenete.
+- **A kiejtési szótár tartalmát.** A kanonikus szótár a B4-regiszterből épül (VO D-03, D-13): a
+  pilot bemenete, nem eredménye.

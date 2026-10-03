@@ -32,7 +32,7 @@ szabályos, de **nem magyar**. A cél: természetes, felnőttnek szóló, tegez�
 - **felsorolásban nyelvtani párhuzam**: minden pont ugyanabban a szerkezetben
 - **igét főnevesítés helyett**: „a jelzés megtétele" → „jelzel"
 - **hosszú beágyazott mondat szétvágása**: két gondolat = két mondat
-- **magyar tipográfia**: `„…"` idézőjel, beágyazva `'…'`; számtartományban nagykötőjel
+- **magyar tipográfia**: `„…”` idézőjel, beágyazva `‘…’`; számtartományban nagykötőjel
   (`15–20’`), telefonszámban kiskötőjel (`116-111`); `stb.` elé nincs vessző
 - **`+`, `/`, rövidítés-halmozás helyett rendes mondat**
 - **egy fogalomra egy magyar megnevezés** a teljes tananyagban
