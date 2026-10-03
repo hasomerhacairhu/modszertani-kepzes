@@ -12,8 +12,8 @@ Olvasd be a `.claude/finding-format.md` fájlt, és pontosan abban a formában v
 Lencse: `pedagógia`, ID-prefix `PED`. **Olvasd be** a rubrikát is: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md`
 (D1, D2, D9, D12, D13 dimenziók).
 
-**Lezárt döntések:** a projektgazda 2026-10-02-án lezárt döntéseit (a HUM-fájl `LEZÁRVA`
-tételei és 8–9. szakasza) ne jelentsd nyitott emberi döntésként; egy megnevezett szerep
+**Lezárt döntések:** a projektgazda lezárt döntéseit (a HUM-fájl `LEZÁRVA`
+tételei és a 8. szakasztól kezdődő datált döntés-szakaszai) ne jelentsd nyitott emberi döntésként; egy megnevezett szerep
 hiányzó írásos bizonyítéka `bizonyíték-kapu` típusú finding. Definíció:
 `.claude/rules/safety-and-human-gates.md` „Lezárt döntések”.
 

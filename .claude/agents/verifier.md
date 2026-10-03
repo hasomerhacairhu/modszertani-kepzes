@@ -33,7 +33,8 @@ töltöd ki, egy rövid indoklással.
    someres kérdés, a verdikt `EMBERI DÖNTÉS` — akkor is, ha a finding javasolt szöveget.
    **Kivételek:**
    - ha egy lezárt projektgazdai döntés szó szerint megválaszolja (HUM `LEZÁRVA` tétel, vagy a
-     HUM-fájl 8–9. szakaszának datált döntése), a finding a kánonnal való összhangról szól:
+     HUM-fájl 8. szakasztól kezdődő datált döntése, vagy a `PRODUCTION-DECISIONS.md` lezárt
+     médiadöntése), a finding a kánonnal való összhangról szól:
      `MEGERŐSÍTVE`, a döntés azonosítójával;
    - ha egy lezárt döntéshez egy megnevezett szerep írásos bizonyítéka hiányzik, az nem
      nyitott döntés: `MEGERŐSÍTVE`, és a finding **Típusa** `bizonyíték-kapu` (szerep,

@@ -41,17 +41,26 @@ A kánoni gate-dokumentumok: `02 Tervezet/Emberi jóváhagyás szükséges.md`,
 `02 Tervezet/Adatvédelem – tanulói adatok és AI.md`,
 `02 Tervezet/RELEASE-READINESS.md`.
 
-## Lezárt döntések (2026-10-02)
+## Lezárt döntések
 
 Ez a szakasz a lezárt döntés és a bizonyíték-kapu **egyetlen** definíciója; CLAUDE.md, a
 verifier és a reviewerek erre hivatkoznak.
 
 - **Lezárt projektgazdai döntés** (PROJEKT-DÖNTÉS): az `Emberi jóváhagyás szükséges.md`
-  `LEZÁRVA` + `Jóváhagyta:` tételei, **és** ugyanennek a fájlnak a 8. és 9. szakaszában
-  datált projektgazdai döntései (HUM-azonosító nélkül is). Kövesd és vezesd át őket; ne
+  `LEZÁRVA` + `Jóváhagyta:` tételei, **és** ugyanennek a fájlnak a 8. szakasztól kezdődő,
+  datált projektgazdai döntés-szakaszai (HUM-azonosító nélkül is; ma a 8. és a 9., egy
+  később hozzáadott datált szakasz ugyanígy számít); **és** a média- és hangdöntések
+  nyilvántartása, a `Média-assetek/PRODUCTION-DECISIONS.md` `LEZÁRVA` szakaszai és datált
+  „Projektgazdai döntés (…)” blokkjai. Bizonyítékuk a `01 Fejlesztés/04 Audit/` döntési
+  jegyzőkönyveiben van. Kövesd és vezesd át őket; ne
   nyisd újra, és ne jelentsd nyitott emberi döntésként. A döntés a kánoni sorrend 1–3.
   forrásai fölött áll: ha egy forrás ellentmond neki, az a forrás javítandó (objektív
   finding), nem választási kérdés.
+- **Hivatkozott, de még át nem vezetett döntés:** ha egy forrás datált projektgazdai döntésre
+  hivatkozik (pl. „projektgazdai döntés 2026-10-03-B”, „VO D-19”), előbb keresd meg a
+  `04 Audit` döntési jegyzőkönyvében. Ha ott sincs, vagy a fenti két nyilvántartás egyikébe sincs
+  átvezetve, az nem nyitott emberi döntés, és a tartalmát nem találgatod: objektív finding,
+  hogy a döntést át kell vezetni (forrás: a döntési csomag, szerepnéven).
 - **Vétó/QA-szerepek:** a HUM-fájl „Utólagos ellenőrzés (vétó/QA)” soraiban megnevezett
   szerepek (pl. Memuna, DPO, programvezető, jogi felelős, ken-vezető, hozzáférhetőségi gazda,
   értékelési felelős). Későbbi ellenőrzésük vétó / minőségellenőrzés; vétónál a tétel

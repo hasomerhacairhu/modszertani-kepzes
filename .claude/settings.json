@@ -1,5 +1,30 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "sandbox": {
+    "enabled": true,
+    "failIfUnavailable": true,
+    "allowUnsandboxedCommands": false,
+    "excludedCommands": [
+      "git *",
+      "gh *",
+      "python3 tools/media_manifest.py build",
+      "python3 tools/test_media_manifest.py --pin-visible *"
+    ],
+    "filesystem": {
+      "denyWrite": [
+        "./02 Tervezet",
+        "./.claude",
+        "./.github",
+        "./CLAUDE.md",
+        "./tools/approved-visible-text.json",
+        "./tools/content_integrity.py",
+        "./tools/media_manifest.py",
+        "./tools/media_migrate_v2.py",
+        "./tools/test_media_manifest.py",
+        "./.sandbox-probe"
+      ]
+    }
+  },
   "permissions": {
     "deny": [
       "Bash(git reset --hard*)",
@@ -15,12 +40,16 @@
       "Bash(git checkout .)",
       "Bash(git checkout -B *)",
       "Bash(git checkout -f*)",
-      "Bash(git checkout --force*)",
+      "Bash(git checkout --fo*)",
+      "Bash(git checkout-index*)",
+      "Bash(git read-tree*)",
       "Bash(git switch -f*)",
       "Bash(git switch -C *)",
-      "Bash(git switch --force*)",
-      "Bash(git switch --discard-changes*)",
+      "Bash(git switch --fo*)",
+      "Bash(git switch --di*)",
       "Bash(git restore .)",
+      "Bash(git restore --wo*)",
+      "Bash(git restore -W*)",
       "Bash(git rebase -i*)",
       "Bash(git rebase --interactive*)",
       "Bash(git rebase --continue*)",
@@ -35,16 +64,19 @@
       "Bash(git push -d *)",
       "Bash(git push --delete*)",
       "Bash(git push --prune*)",
+      "Bash(git push --no-v*)",
       "Bash(git pull --rebase)",
       "Bash(git pull --rebase *)",
       "Bash(git commit --amend*)",
       "Bash(git commit --am*)",
+      "Bash(git config alias.*)",
+      "Bash(git config core.hooksPath*)",
       "Bash(git filter-branch*)",
       "Bash(git filter-repo*)",
       "Bash(git branch -D *)",
       "Bash(git branch -M *)",
       "Bash(git branch -f *)",
-      "Bash(git branch --force*)",
+      "Bash(git branch --fo*)",
       "Bash(git stash clear*)",
       "Bash(git stash drop*)",
       "Bash(git reflog expire*)",
@@ -53,16 +85,67 @@
       "Bash(git update-ref*)",
       "Bash(git worktree remove -f*)",
       "Bash(git worktree remove --force*)",
+      "Bash(*--upload-pack*)",
+      "Bash(*--receive-pack*)",
       "Bash(gh repo delete*)",
       "Bash(gh repo sync*)",
-      "Bash(gh release delete*)",
+      "Bash(gh repo archive*)",
+      "Bash(gh repo rename*)",
+      "Bash(gh release delete *)",
+      "Bash(gh issue delete*)",
+      "Bash(gh run delete*)",
       "Edit(/.claude/settings.local.json)"
     ],
     "ask": [
       "Bash(git push*)",
       "Bash(git -C * push*)",
       "Bash(gh pr merge*)",
-      "Bash(gh pr close *)",
+      "Bash(gh pr close*)",
+      "Bash(gh pr create*)",
+      "Bash(gh pr edit*)",
+      "Bash(gh pr comment*)",
+      "Bash(gh pr review*)",
+      "Bash(gh pr reopen*)",
+      "Bash(gh pr ready*)",
+      "Bash(gh pr lock*)",
+      "Bash(gh pr unlock*)",
+      "Bash(gh issue create*)",
+      "Bash(gh issue edit*)",
+      "Bash(gh issue comment*)",
+      "Bash(gh issue close*)",
+      "Bash(gh issue reopen*)",
+      "Bash(gh issue transfer*)",
+      "Bash(gh issue lock*)",
+      "Bash(gh issue unlock*)",
+      "Bash(gh issue pin*)",
+      "Bash(gh issue unpin*)",
+      "Bash(gh issue develop*)",
+      "Bash(gh release create*)",
+      "Bash(gh release edit*)",
+      "Bash(gh release upload*)",
+      "Bash(gh release delete-asset*)",
+      "Bash(gh workflow run*)",
+      "Bash(gh workflow enable*)",
+      "Bash(gh workflow disable*)",
+      "Bash(gh run cancel*)",
+      "Bash(gh run rerun*)",
+      "Bash(gh secret set*)",
+      "Bash(gh secret delete*)",
+      "Bash(gh secret remove*)",
+      "Bash(gh variable set*)",
+      "Bash(gh variable delete*)",
+      "Bash(gh variable remove*)",
+      "Bash(gh label create*)",
+      "Bash(gh label edit*)",
+      "Bash(gh label delete*)",
+      "Bash(gh label clone*)",
+      "Bash(gh gist create*)",
+      "Bash(gh gist edit*)",
+      "Bash(gh gist delete*)",
+      "Bash(gh repo create*)",
+      "Bash(gh repo fork*)",
+      "Bash(gh repo edit*)",
+      "Bash(gh repo set-default*)",
       "Bash(* --pin-visible*)",
       "Edit(/.claude/hooks/**)",
       "Edit(/.claude/settings.json)",
@@ -82,7 +165,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/guard-repo-safety.sh"
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/guard-repo-safety.sh",
+            "timeout": 30
           }
         ]
       }
@@ -92,7 +176,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/stop-checks.sh"
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/stop-checks.sh",
+            "timeout": 180
           }
         ]
       }

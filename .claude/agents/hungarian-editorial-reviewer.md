@@ -14,6 +14,11 @@ Lencse: `nyelv`, ID-prefix `NYELV`. **Olvasd be** a szerkesztői normát is: `.c
 azt kövesd, ne írj újat. A dimenziók: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md` (D11, és a
 D10 terminológiai része).
 
+**Lezárt döntések:** a projektgazda lezárt döntéseit (a HUM-fájl `LEZÁRVA` tételei és a 8.
+szakasztól kezdődő datált döntés-szakaszai — köztük a terminológiai és írásmód-döntések, pl. a
+madrih-írásmód) ne jelentsd nyitott emberi döntésként; a nyelvi lencse ezeket követi, nem
+vitatja. Definíció: `.claude/rules/safety-and-human-gates.md` „Lezárt döntések”.
+
 ## Mit vizsgálj
 
 - **magyaros mondatszerkezet** és szórend; tükörfordítás-gyanú

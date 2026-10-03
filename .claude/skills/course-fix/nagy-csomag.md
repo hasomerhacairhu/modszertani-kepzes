@@ -18,11 +18,19 @@ context-tömörítés, és a scratchpad újraindításkor törlődik: az állapo
 
 ## 2. Lépésenként (a SKILL.md 1–6. lépése), plusz
 
-- **Idempotencia** — mielőtt szerkesztesz:
-  - *beszúrás*: ha a javítás **teljes** szövege már a fájlban van → `már alkalmazva`;
-  - *csere*: ha a javítás teljes szövege a fájlban van → `már alkalmazva` (akkor is, ha a
-    bizonyíték a javítás része, és így szintén megvan); ha a bizonyíték megvan, a javítás nincs →
-    javítasz; ha egyik sincs meg → `kihagyva: a fájl eltér`, és jelzed;
+- **Idempotencia** — mielőtt szerkesztesz. A döntés alapja a lépés **hozzáadott sorai**: a
+  javítás azon nem üres sorai, amelyek a bizonyítékban nincsenek (a közös horgonysor, pl. egy
+  címsor, nem hozzáadott sor). Nem a javítás teljes szövegblokkja dönt, mert két lépés
+  osztozhat egy horgonyon (pl. CF-101 és CF-104: a 23. pont a 22. és a címsor közé kerül, így
+  a CF-101 teljes blokkja már nem áll egyben, a hozzáadott sora viszont megvan):
+  - *beszúrás* és *csere*: ha **minden** hozzáadott sor már a fájlban van (annyiszor, ahányszor a
+    lépés hozzáadja) → `már alkalmazva`; ha **egyik sincs** meg, és a bizonyíték megvan →
+    javítasz; ha csak **egy részük** van meg → `megállva: részben alkalmazva`, nem szerkesztesz,
+    és a hiányzó sorokat jelzed; ha egyik sincs meg, és a bizonyíték sincs → `kihagyva: a fájl
+    eltér`, és jelzed;
+  - *csere hozzáadott sor nélkül* (a javítás csak elhagy a bizonyítékból): ha a bizonyíték
+    megvan → javítasz; ha nincs meg, és a javítás szövege megvan → `már alkalmazva`; különben
+    `kihagyva: a fájl eltér`;
   - *törlés*: ha a bizonyíték nincs meg, és a környező horgony megvan → `már alkalmazva`.
 - Egy lépés = egy `Edit`; `replace_all` csak, ha a lépés előírja.
 - A naplót **minden lépés után** frissítsd (`Edit`): `alkalmazva` / `már alkalmazva` /

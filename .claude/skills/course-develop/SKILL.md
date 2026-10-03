@@ -63,7 +63,7 @@ a program szintjén szerepelnie kell.
 9. látható szöveg változásakor egyetlen
    `python3 tools/test_media_manifest.py --pin-visible "<új lecke/peula ID>: <miért>"`
 10. új vagy módosított `@asset`/`@source`-nál `python3 tools/media_manifest.py build`, majd
-    `check`
+    `check` és `reconcile`
 11. `/release-check` — utolsóként
 
 A riportban sorold fel, melyik kapu futott le, és mi az eredménye. Ha egy kapu kimaradt,

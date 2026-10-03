@@ -35,7 +35,9 @@ jobs:
           git diff --check "$base" HEAD
       # CI is a read-only checker; the same allowlist runs in /release-check.
       - name: Workflows stay read-only
-        run: bash .github/read-only-workflows.sh
+        run: |
+          bash .github/read-only-workflows.sh --selftest
+          bash .github/read-only-workflows.sh
       - name: Claude settings JSON
         run: python -m json.tool .claude/settings.json > /dev/null
       - name: Safety hooks syntax and selftest

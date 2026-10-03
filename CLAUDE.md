@@ -32,11 +32,14 @@ lezárt projektgazdai döntés az 1–3. források fölött áll — ha egy forr
 a forrás javítandó.
 
 **Hol élnek a döntések:** projektgazdai döntések → `Emberi jóváhagyás szükséges.md` (a
-`LEZÁRVA` tételek és a 8–9. szakasz); bizonyítékuk → `01 Fejlesztés/04 Audit/` döntési
-jegyzőkönyvei; média- és hangdöntések → `02 Tervezet/Média-assetek/PRODUCTION-DECISIONS.md`;
-release-kapuk → `RELEASE-READINESS.md`. A release-állapotot **kizárólag** a
-`python3 tools/content_integrity.py --release-report` `RELEASE-VERDICT` sora mondja meg; egy
-HUM-tétel lezárása nem release-jóváhagyás.
+`LEZÁRVA` tételek és a 8. szakasztól kezdődő datált döntés-szakaszok); bizonyítékuk →
+`01 Fejlesztés/04 Audit/` döntési jegyzőkönyvei; média- és hangdöntések →
+`02 Tervezet/Média-assetek/PRODUCTION-DECISIONS.md` (ezek lezárt döntései ugyanúgy kötnek);
+release-kapuk → `RELEASE-READINESS.md`.
+A gépi release-állapotot a `python3 tools/content_integrity.py --release-report`
+`RELEASE-VERDICT` sora adja — más forrásból (riportból, emlékezetből) release-állapotot nem
+állítasz. A release ezen felül a G1–G8 kapuk szerepköri bizonyítékát és szervezeti sign-offot
+kíván: egy HUM-tétel lezárása nem release-jóváhagyás, és a `READY` verdikt sem az.
 
 ## Emberi döntési határok
 
@@ -90,10 +93,10 @@ hibákat (tartalmi, pedagógiai vagy policy-hibát soha), a `/course-develop` pe
 saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
 
 **Tananyagot és governance-fájlt csak `Edit`/`Write` eszközzel szerkessz.** A `.claude/rules/`
-útvonalhoz kötött szabályai `Read`/`Edit`/`Write` eszköznél töltődnek be, Bash-nél nem; a
-hook ezért blokkolja a Bash-szerkesztést (sed/perl/awk helyben, tee, átirányítás, cp/mv,
-patch, inline szkript). Amit a hook nem lát (szkriptfájl, változón át megadott út), az is
-tilos.
+útvonalhoz kötött szabályai `Read`/`Edit`/`Write` eszköznél töltődnek be, Bash-nél nem. Ezért
+a sandbox (lásd „Git-biztonság”) OS-szinten tiltja a Bash-írást ezekbe a fájlokba, a hook pedig
+érthető üzenettel előre megfogja a gyakori alakokat (sed/perl/awk helyben, tee, átirányítás,
+cp/mv, patch, inline szkript). Amit egyik sem lát, az is tilos.
 
 ## Kontextus-fegyelem
 
@@ -108,11 +111,11 @@ tilos.
   újraindításkor törlődik.
 - **Governance-változás után új session.** A subagentek a session indulásakor betöltött
   CLAUDE.md-t és szabályokat kapják: egy CLAUDE.md- vagy `.claude/**`-commit után indíts új
-  sessiont, mielőtt skillt vagy review-t futtatsz. A felhasználó ezután futtassa a `/doctor`
-  utasításfájl-ellenőrzését (Claude Code 2.1.283+): hiányzó hivatkozást és egymásnak
-  ellentmondó szabályt keres.
-- A projekt beállításai (hook, deny/ask szabályok) csak akkor töltődnek be, ha a Claude Code
-  a repó gyökeréből indul.
+  sessiont, mielőtt skillt vagy review-t futtatsz. Claude Code 2.1.283-tól a `/doctor`
+  utasításfájl-ellenőrzése hiányzó hivatkozást és egymásnak ellentmondó szabályt is keres;
+  régebbi verzión ez az ellenőrzés nincs (`claude --version`).
+- A projekt beállításai (hook, deny/ask szabályok, sandbox) csak akkor töltődnek be, ha a
+  Claude Code a repó gyökeréből indul.
 
 ## Git-biztonság
 
@@ -121,10 +124,24 @@ tilos.
   `checkout <út>`, `restore` (working tree), `rebase`, `commit --amend`, force push, bármilyen
   history rewrite — a rövidített opcióalakok is (`--har`, `--amen`). A
   `.claude/hooks/guard-repo-safety.sh` hook ezeket blokkolja.
-- `git push`, `gh pr merge` és `gh pr close` **kizárólag explicit kérésre**, és csak egyszerű,
-  önálló alakban (`git push origin <branch>`, `git -C <út> push …`, `gh pr merge <n>`): ezekre a
-  settings ask-szabálya minden módban rákérdez; minden más alakot (összetett parancs,
-  `git -c … push`, `bash -c`, `gh pr --repo … merge`) a hook blokkol. Távoli branch vagy ref
+- **Három réteg.** (1) **Sandbox** — az írási határ: a Bash-parancsok OS-szintű sandboxban
+  futnak (`.claude/settings.json` `sandbox`), és a `02 Tervezet/`, `.claude/`, `.github/`,
+  `CLAUDE.md`, a `tools/` négy Python-eszköze (név szerint felsorolva — új eszköznél a
+  `denyWrite` listát bővíteni kell) és a látható-szöveg pinek Bash-ből nem írhatók, bárhogy van
+  leírva a parancs. Sandboxon kívül csak a `git`, a `gh`, a `media_manifest.py build` és a
+  `--pin-visible` fut, önálló hívásként (összetett parancs sandboxban marad). A sandbox
+  parancsból nem kapcsolható ki, és ha nem indul, a Claude Code sem indul. Következmény: ebből a sessionből Bash nem ír a VO QA-repóba — azt a QA-repóból
+  indított session végzi. Ellenőrzés: `/sandbox`, és a `/release-check` sandbox-próbája.
+  (2) **Hook** — a sandboxon kívül futó git/gh őre; a tartalmi szabályai korai, érthető
+  figyelmeztetések. Fail closed: a 100 000 bájtnál hosszabb parancsot és a 15 mp alatt be nem
+  fejezett elemzést blokkolja. (3) **Settings** deny/ask szabályai.
+- `git push` és minden GitHubra író `gh`-parancs (`gh pr create/merge/close/comment/edit`,
+  `gh issue …`, `gh release create`, `gh workflow run` stb.) **kizárólag explicit kérésre**, és
+  csak egyszerű, önálló alakban (`git push origin <branch>`, `git -C <út> push …`,
+  `gh pr merge <n>`; hosszabb szöveg `--body-file`-lal): ezekre a settings ask-szabálya minden
+  módban rákérdez; minden más alakot (összetett parancs, `git -c … push`, `bash -c`,
+  `gh pr --repo … merge`) a hook blokkol. A GitHubra kerülő szöveget a hook a helyi
+  `.git/hooks/text-name-check`-kel névellenőrzi, ha telepítve van. Távoli branch vagy ref
   törlése és GitHub API-írás blokkolt; távoli branchet a felhasználó töröl.
 - **Push előtt** a névellenőrzés: a VO QA-repó `tools/check-course-push.py --range
   origin/main..<branch>` (a helyi `.git/hooks/pre-push` is futtatja, ha telepítve van);

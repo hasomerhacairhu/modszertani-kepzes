@@ -8,3 +8,6 @@ __pycache__/
 # Personal Claude Code config (the shared config in .claude/ IS committed)
 CLAUDE.local.md
 .claude/settings.local.json
+
+# /release-check sandbox probe: the write must fail; a leftover means the sandbox was off
+.sandbox-probe

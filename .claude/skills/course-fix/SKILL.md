@@ -112,7 +112,7 @@ A sérthetetlen invariánsok kánoni listája: `.claude/rules/course-content.md`
    kerülnek, nem újabb javításba. Ne a `verifier`-t, és **nem teljes új auditot**.
 5. `/release-check` — utolsóként.
 6. **Jelentés:** tételenkénti állapottábla (`alkalmazva` / `már alkalmazva` / `kihagyva: <ok>`
-   / `megállva: emberi döntés`); az emberi döntésre váró és a bizonyíték-kapu tételek
+   / `megállva: emberi döntés` / `megállva: részben alkalmazva`); az emberi döntésre váró és a bizonyíték-kapu tételek
    finding-formátumban; külön **vétólista** minden answer key-, küszöb-, rubrika- és
    gyermekvédelmi/adatvédelmi megfogalmazás-változásról (fájl:sor, előtte/utána, bizonyíték).
    Kánonból bizonyítható javításhoz külön jóváhagyást nem kérsz. A jelentésbe, a naplóba és

@@ -19,6 +19,10 @@ allowed-tools:
   - Bash(bash .claude/hooks/guard-repo-safety.sh --selftest)
   - Bash(bash .claude/hooks/review-agent-allowlist.sh --selftest)
   - Bash(bash .github/read-only-workflows.sh)
+  - Bash(bash .github/read-only-workflows.sh --selftest)
+  - Bash(bash -n .github/read-only-workflows.sh)
+  - Bash(touch .sandbox-probe)
+  - Bash(rm -f .sandbox-probe)
   - Bash(git fetch*)
   - Bash(git cat-file*)
   - Bash(git diff*)
@@ -111,8 +115,16 @@ bash .claude/hooks/guard-repo-safety.sh --selftest
 bash -n .claude/hooks/review-agent-allowlist.sh
 bash .claude/hooks/review-agent-allowlist.sh --selftest
 bash -n .claude/hooks/stop-checks.sh
+bash .github/read-only-workflows.sh --selftest
 bash .github/read-only-workflows.sh
+touch .sandbox-probe                   # sandbox-próba: ennek EL KELL BUKNIA
 ```
+
+A `.sandbox-probe` a `.claude/settings.json` sandbox `denyWrite` listáján van, ezért a `touch`
+helyes működésnél „Operation not permitted” hibával bukik — ez a várt eredmény, így jelented:
+„sandbox aktív”. Ha a `touch` **sikerül**, a Bash nem sandboxban fut (a settings nem töltődött
+be, vagy a session sandbox nélkül indult): ez **blokkoló governance-hiba**; a próbafájlt
+`rm -f .sandbox-probe` törli (gitignore-olt), és a riport első sora ezt mondja ki.
 
 ## 6. Jelentés
 
