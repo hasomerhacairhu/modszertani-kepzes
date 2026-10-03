@@ -213,9 +213,8 @@ szakszóval (`hanih`). Aki ezt jól mondja fel, a 89-ből 80-at jól mond fel.
 - [ ] tiszta beszéd, háttérzaj nélkül;
 - [ ] a `.vtt` (archivált derivatíva, VO D-19) időzítése a hanghoz igazítva, szövege a forrással azonos;
 - [ ] a leirat első sora a kanonikus AI-címke, és a lecke alján ugyanez áll egy sorban (VO D-21);
-- [ ] a leirat a dián látható szövegként, a médiaelem mellől megnyitható szövegként vagy
-      linkelt leirat-oldalként illeszthető be (a Course Presentation diáinak nincs
-      jegyzetmezője — `LMS – hozzáférhetőségi sztenderd.md`); a billentyűzetes és
+- [ ] a leirat a dián vagy a médiaelem mellett látható szövegként illeszthető be (VO D-19;
+      a Course Presentation diáinak nincs jegyzetmezője — `LMS – hozzáférhetőségi sztenderd.md`); a billentyűzetes és
       képernyőolvasós elérhetőséget az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja;
 - [ ] a hang nem indul el magától: a lejátszást a tanuló indítja (H5P Audio: „Enable autoplay” kikapcsolva; projektgazdai döntés 2026-10-03-B, IMPL-34).
 
@@ -443,7 +442,7 @@ személyre hasonlítás · a testtartás nem olvasható ki a képből.
 > ⚠️ **A P-KAR elfogadása két testvérre nem vihető át.** Az `M1.3-VID-01` kétszereplős,
 > képernyőn zajló párbeszéd: a „videó néma” feltétel és a néma generálás rá nem
 > alkalmazható; a hangja az első gyártási körben Madrih A-nál a kanonikus narrátorhang, Madrih B-nél a
-> második hang, beszélőnként szegmentálva (VO D-14, K4), a szájszinkronos gyártási útja nyitott döntés
+> második hang (a kalibrálása után), beszélőnként szegmentálva (VO D-14, K4), a szájszinkronos gyártási útja nyitott döntés
 > ([`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D11). Az `M1.1-VID-02` B-roll
 > („körben ülő fiatalok”) a 3.1. „kiskorúnak látszó szereplő” bukási feltételébe ütközhet;
 > az ábrázolás módja a `J2` emberi döntése.
