@@ -5,8 +5,8 @@
       "sha256": "20059790ff36adf541cdf305e1461ac7eb73444602a8c28528f0a8d45514343c"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "P5-01…P5-11: VO 2. fázis 5. javítócsomag (UE4-findingok; K6, K7)",
-      "sha256": "5e11eb560493776ae069a11ff583f3856e85c104e39e8fb0ad7ec7384df6865f"
+      "reason": "RM-D1…D6, Q-REL-1…4, Q-MED-1: a 2026-10-04-i release-modell és médiafázis-döntések átvezetése a HUM 10. szakaszába",
+      "sha256": "4da6cc6bb05630bd5b0d4d690d985957e1183a749a81e0ae6591483d02262962"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
