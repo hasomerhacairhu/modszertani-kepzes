@@ -257,8 +257,8 @@
       "sha256": "f7938a81f5f876290819d3fcf84426aeb32a676826d1545ee5153bc026f6b8a7"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md": {
-      "reason": "M6-NY-D24…D27 és a UE7/UE8/UE9 célzott újraellenőrzés objektív findingjai: a course-fix második köre (Workshop nélküli zárás, félcsoport-vezetés, kibillenés négy lépése, R1/R2 tükörhelyek, írásjelek)",
-      "sha256": "8648c4fa693678b6a627543c6ca17cf2d53f2504deb90083933c9605849297fc"
+      "reason": "M6-NY-D28 (UE8-PED-3) és UE10/UE11: az M6.B 4.4.2 nagycsoportos tartalékváltozata, ha nincs második felnőtt; a félcsoportos végrehajtás és előkészítés feltételhez kötve",
+      "sha256": "2bbf6ed13192c08721c9d5c3c85faeb6113488ee1eaaf145e929b26dc0d354cc"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md": {
       "reason": "M6 nyelvi review (NYELV-101…615, 2026-10-04) és M6-NY-D1…D23: 223 lépés a validált findingok és a projektgazdai döntések szerint",

@@ -367,7 +367,7 @@ együtt javítható.
 
 | ID | Hely | Probléma | Típus |
 |---|---|---|---|
-| UE8-PED-3 | M6.B:88, :378 | Nincs utasítás arra az esetre, ha a peulán nincs második felnőtt. Vagy nagycsoportos tartalékváltozat fut, vagy a peula csak második felnőttel tartható. A D26 szabályát (résztvevő nem vezet félcsoportot) nem érinti. | emberi-döntés (a peula tartalomfelelőse / projektgazda) |
+| UE8-PED-3 | M6.B:88, :378 | Nincs utasítás arra az esetre, ha a peulán nincs második felnőtt. Vagy nagycsoportos tartalékváltozat fut, vagy a peula csak második felnőttel tartható. A D26 szabályát (résztvevő nem vezet félcsoportot) nem érinti. | ~~emberi-döntés~~ **lezárva: M6-NY-D28, 3. kör** |
 | (régi, UE8-ERT megfigyelés) | KAPU P1-es pool-item | Az A (✅) opció jóval hosszabb a többinél, súghat. Nem a javítás hozta be. | objektív, külön kör |
 | (régi, UE8-ERT megfigyelés) | hub:211 | A korosztály-jellemzők listája előtt nincs „pl.”, a kapucellában van. Nem a javítás hozta be. | objektív, külön kör |
 | (régi, UE7-NYELV megfigyelés) | M6.A:180, M6.B:523, :565 | „kinek jelzel / kihez fordulsz …: a kijelölt Memunának”: a válasz csak a „kinek”-hez illik. A kánoni (HUM-SAFE-01) mondat, csak mindhárom helyen együtt javítható. | objektív, külön kör |
@@ -377,6 +377,44 @@ együtt javítható.
 `build` ×2 bájtra azonos (415 asset, 903 deliverable, 123 forrásblokk) · `check` OK · `validate` OK · `reconcile`
 747/747, 0 nem egyeztetett · `lint --high-only` 0 · `unittest tools.test_media_manifest` 150 OK · `git diff --check`
 és a PR-tartományé tiszta · VO/hash: lásd fent.
+
+## 3. kör — M6-NY-D28 (UE8-PED-3) (2026-10-04)
+
+- **Forrás:** a projektgazda 8. körös döntése (`2026-10-04 Projektgazdai döntések – M6 nyelvi review.md`, M6-NY-D28):
+  ha nincs második felnőtt, a 4.4.2 egyetlen nagycsoportban fut az egyetlen képző vezetésével. Ugyanott: a D6
+  „elég a név vagy az életkor” megfogalmazása jóváhagyva.
+- **Bázis:** a 2. kör végállapota (PR #19, `b036c3b`).
+- **Terjedelem:** csak az M6.B. A `02 Tervezet/` más tananyagfájlja nem épít félcsoportra.
+
+| ID | hely (a 3. kör végén) | állapot | megjegyzés |
+|---|---|---|---|
+| T01 | M6.B:57 (2.1) | alkalmazva | A második flipchart vagy nyomat csak két félcsoportnál. |
+| T02 | M6.B:79 (2.3) | alkalmazva | A második vezető kijelölése és eligazítása csak „ha van második felnőtt”; különben nagycsoport. Az eligazítás tartalma, benne a biztonsági keret, változatlan. |
+| T03 | M6.B:88 (percbontás) | alkalmazva | Két ág. A UE10-NYELV-3 szerint kettősponttal tagolva. |
+| T04 | M6.B:375 (blokkcél) | alkalmazva | 2–3 játéklap; két félcsoportnál félcsoportonként. |
+| T05 | M6.B:378–383 (4.4 „Szervezés”) | alkalmazva | Két ág: két félcsoport (D26) / nagycsoport (tartalékváltozat, D28). Résztvevő nem vezet félcsoportot. A félcsoportos csúszási szabály visszakerült (UE10-PED-1); „osztod” (UE10-NYELV-1); „időszelep” helyett „5. lista, időkezelés” (UE10-NYELV-2). |
+| T06 | M6.B:421 (4.4.1) | alkalmazva | Második flipchart csak két félcsoportnál. |
+| T07 | M6.B:433 (4.4.1 instrukció) | alkalmazva | A nagycsoportos változat első mondata zárójelben; a félcsoportos idézett instrukció változatlan. |
+| T08 | M6.B:459 (4.4.2, 1. lépés) | alkalmazva | Két félcsoportnál félcsoportonként. |
+| T09 | M6.B:533 (M6.B-MUNK-06 spec) | alkalmazva | „ha van második felnőtt: …; ha nincs, a 4.4.2 nagycsoportban fut”. |
+| T10 | M6.B:569 (5. lista, 2. pont) | alkalmazva | „Van második felnőtt? Ha igen: … Ha nincs: a 4.4.2 nagycsoportban fut.” |
+| T11 | M6.B:580 (5. lista, időkezelés) | alkalmazva | „2 helyett 1; két félcsoportnál félcsoportonként”. |
+
+A 2.2 tér-sora (M6.B:64, „félcsoportban **is** meg lehet mutatni”) mindkét változatban igaz, ezért nem változott. Az
+időtartamok, a tanulási célok (M6.B:19–24), a rubrika és a biztonsági keret nem változott.
+
+**Lencse-körök a 3. kör sorain:**
+
+- **UE10** (pedagógia, nyelv, biztonság): BIZT 0 finding. PED 1 (UE10-PED-1), javítva. NYELV 3 (UE10-NYELV-1…3),
+  javítva, a lencse pontos javaslata szerint.
+- **UE11** (megerősítő kör a végleges diffen; pedagógia, nyelv): PED 0 finding. NYELV 1 (UE11-NYELV-1: M6.B:380, a
+  második „ő” helyett „a stábtag”, mint a 88. sorban), javítva a lencse pontos javaslata szerint. Ez egyszavas csere,
+  a 88. sorban már ellenőrzött mintára; utána újabb lencse-kör nem futott.
+
+**Ellenőrzések a 3. kör végén:** a 3. kör teljes diffje visszaolvasva (a 2. kör végállapotához mérve) · `py_compile`
+OK · `content_integrity.py` 0 ERROR · `--pin-visible` egyszer, 1 fájl (M6.B) · `build` ×2 bájtra azonos · `check`,
+`validate` OK · `reconcile` 747/747 · `lint --high-only` 0 · `unittest` 150 OK · `git diff --check` tiszta ·
+VO/hash: narráció nem változott, csak az M6.B-MUNK-06 `Spec-hash`-e.
 
 ## Vétólista
 
