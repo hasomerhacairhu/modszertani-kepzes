@@ -253,3 +253,18 @@ Projektgazdai döntés (2026-10-02); utólagos ellenőrzés (vétó/QA): a progr
 | `M7_V2_DUE` | 2027-02-26, az M7.B után, a §2 további feltételeivel | 2027-03-03 18:00 |
 | `Z_L1`, `Z_L2`, `Z_L3` | §2 szerint | — |
 | `Z_REFLECTION`, `Z_FEEDBACK` | 2027-03-05, a Z.A után | 2027-03-10 18:00 (Z completion) |
+
+## Nyitott build-spec tételek (release-modell v2)
+
+A buildet meghatározó, még nem implementálható definíciók nyilvántartása (projektgazdai döntés, 2026-10-04;
+`Emberi jóváhagyás szükséges.md` 10. szakasz). Amíg egy sor `BUILD_SPEC_OPEN`, a `content_integrity.py --release-report`
+`BUILD-SPEC: MANIFEST-OPEN`-ként számolja, és a `MOODLE-BUILD-VERDICT` `NOT_READY`. A megoldott sor marad, az állapota
+`BUILD_SPEC_RESOLVED` lesz, a megoldó commitra hivatkozva. A tételek finding-formátumban:
+`01 Fejlesztés/04 Audit/2026-10-04 Release-modell v2 – Moodle build és learner release.md` 11. pont.
+
+| ID | Állapot | Tárgy | Hol | Döntés / forrás |
+|---|---|---|---|---|
+| BSPEC-01 | `BUILD_SPEC_OPEN` | a `GATE_CONFIRMED_<module>` checkpoint (M1, M3, M5, M6, M7): Moodle-objektumtípus, `build_id`, completion, a downstream restrict access kötése | §4 („Fontos”); runtime acceptance 8. pont | — |
+| BSPEC-02 | `BUILD_SPEC_OPEN` | a Moodle-oldali szabadszöveg-mezők saját sorai (LMS-M2-01, LMS-M4-01/02, Z.3) | §2 bevezetője; runtime acceptance 6. és 12. pont | HUM 6. szakasz: technikai kérdés |
+| BSPEC-03 | `BUILD_SPEC_OPEN` | az LMS-M5-07 típusa és késleltetése | §2, LMS-M5-07 | RM-D6: relatív dátum plugin + kézi tartalék |
+| BSPEC-04 | `BUILD_SPEC_OPEN` | a modulonkénti nyitás a Q-REL-2 szerint: bukott éles kapu után a tanulási rész nyílik, a következő éles kapu lezárása blokkolt | §2 unlock-oszlop; §4 táblázata | Q-REL-2 |

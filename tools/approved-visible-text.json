@@ -17,12 +17,12 @@
       "sha256": "52cfa3df06da60fcd7e7dbd8ecba460879a31374d35875e629fdf40dab5be7d0"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
-      "sha256": "a4adc079c17fa0ed42a8ed496e0d00f312243384c059d0c5c79fa933bfff50da"
+      "reason": "RM-D1…D6: két verdikt a RELEASE-READINESS-ben (G3/G4/G5 spec- és runtime-része, besorolás, életciklus, gépileg követett G4b és go/no-go), runtime acceptance teszt-állapot tábla, manifest build-spec nyilvántartás",
+      "sha256": "94831fe15f33cad04464b9c28202c25e6219ab887c61f287c30146ac36da7472"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "6cca70701628842291e38b54a7fb84c83023068f27392ad2ff7eef22d4fc53c9"
+      "reason": "RM-D1…D6: két verdikt a RELEASE-READINESS-ben (G3/G4/G5 spec- és runtime-része, besorolás, életciklus, gépileg követett G4b és go/no-go), runtime acceptance teszt-állapot tábla, manifest build-spec nyilvántartás",
+      "sha256": "1db056b152fc5046cb3db6af7d8d95035a609b4ddac160b86bece91cf2968e06"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
@@ -329,8 +329,8 @@
       "sha256": "637ada27dde4990c3411bb0b1bcfa464934562db2e7d8cc03ea374183f174d2d"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "cff13824dd63f31c9ac73532dac1c9fddb4853412d252bb7a490015ace9fe9f1"
+      "reason": "RM-D1…D6: két verdikt a RELEASE-READINESS-ben (G3/G4/G5 spec- és runtime-része, besorolás, életciklus, gépileg követett G4b és go/no-go), runtime acceptance teszt-állapot tábla, manifest build-spec nyilvántartás",
+      "sha256": "2c3f9ff21c57e4414411e1d986743a8cbceaf26f288cad9e365c1a1e3ec54c2c"
     },
     "02 Tervezet/Terepgyakorlat – 2. félév.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
