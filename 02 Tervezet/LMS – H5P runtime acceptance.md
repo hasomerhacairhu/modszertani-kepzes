@@ -95,6 +95,48 @@ Minden kritikus content type legalább:
 - megfelelő kontraszt és célméret;
 - hibás válasz után értelmes, nem csak „rossz” visszajelzés.
 
+## Teszt-állapot (gépileg követett)
+
+A fenti P0-tesztek és a11y-pontok állapota (release-modell v2, 2026-10-04). Minden sor `IMPLEMENTATION_TEST_REQUIRED` állapotból indul; `RUNTIME_VERIFIED`-re csak dátummal, pontos verzióval és bizonyítékkal rögzített, tényleges teszteredmény állíthatja. A `content_integrity.py --release-report` a nem igazolt sorokat `POST-BUILD: RUNTIME-TESTS`-ként számolja: ezek a tanulói release-t blokkolják, a buildet nem.
+
+| ID | Állapot | Teszt | Dátum | Verzió | Bizonyíték |
+|---|---|---|---|---|---|
+| RT-P0-01 | `IMPLEMENTATION_TEST_REQUIRED` | 1. Teljesítési szemantika | | | |
+| RT-P0-02 | `IMPLEMENTATION_TEST_REQUIRED` | 2. M6.4 Branching Scenario | | | |
+| RT-P0-03 | `IMPLEMENTATION_TEST_REQUIRED` | 3. Z.4 hosszú reflexió | | | |
+| RT-P0-04 | `IMPLEMENTATION_TEST_REQUIRED` | 4. M5 Dialog Cards | | | |
+| RT-P0-05 | `IMPLEMENTATION_TEST_REQUIRED` | 5. Moodle 5.x / Branching Scenario | | | |
+| RT-P0-06 | `IMPLEMENTATION_TEST_REQUIRED` | 6. Szabad szöveges mező megvalósítása | | | |
+| RT-P0-07 | `IMPLEMENTATION_TEST_REQUIRED` | 7. Resume / state | | | |
+| RT-P0-08 | `IMPLEMENTATION_TEST_REQUIRED` | 8. Összetett (konjunkciós) kapuk kikényszerítése | | | |
+| RT-P0-09 | `IMPLEMENTATION_TEST_REQUIRED` | 9. H5P-C completion | | | |
+| RT-P0-10 | `IMPLEMENTATION_TEST_REQUIRED` | 10. M2.3 Branching Scenario | | | |
+| RT-P0-11 | `IMPLEMENTATION_TEST_REQUIRED` | 11. M3.3 gyermekvédelmi szcenáriók | | | |
+| RT-P0-12 | `IMPLEMENTATION_TEST_REQUIRED` | 12. Kötelező szabad szöveges lépés | | | |
+| RT-P0-13 | `IMPLEMENTATION_TEST_REQUIRED` | 13. Húzásmentes út és párosítás | | | |
+| RT-P0-14 | `IMPLEMENTATION_TEST_REQUIRED` | 14. Választós elemek visszajelzése és pontozása | | | |
+| RT-P0-15 | `IMPLEMENTATION_TEST_REQUIRED` | 15. Szabad szöveg láthatósága | | | |
+| RT-P0-16 | `IMPLEMENTATION_TEST_REQUIRED` | 16. Z.4 Moodle Feedback (LMS-Z-05) | | | |
+| RT-P0-17 | `IMPLEMENTATION_TEST_REQUIRED` | 17. Learner-facing kontakt megjelenése | | | |
+| RT-P0-18 | `IMPLEMENTATION_TEST_REQUIRED` | 18. M5.2 Branching Scenario | | | |
+| RT-P0-19 | `IMPLEMENTATION_TEST_REQUIRED` | 19. Próbálkozások és a számító eredmény | | | |
+| RT-P0-20 | `IMPLEMENTATION_TEST_REQUIRED` | 20. AI-segéd (HUM-PRIV-04) | | | |
+| RT-P0-21 | `IMPLEMENTATION_TEST_REQUIRED` | 21. M2.1 identitás-kör kérdése (HUM-PRIV-01) | | | |
+| RT-P0-22 | `IMPLEMENTATION_TEST_REQUIRED` | 22. Csak hangot tartalmazó narráció | | | |
+| RT-P0-23 | `IMPLEMENTATION_TEST_REQUIRED` | 23. Nincs automatikus lejátszás | | | |
+| RT-A11Y-01 | `IMPLEMENTATION_TEST_REQUIRED` | teljes billentyűzetes út | | | |
+| RT-A11Y-02 | `IMPLEMENTATION_TEST_REQUIRED` | látható fókusz és logikus fókuszsorrend | | | |
+| RT-A11Y-03 | `IMPLEMENTATION_TEST_REQUIRED` | screen-reader ellenőrzés | | | |
+| RT-A11Y-04 | `IMPLEMENTATION_TEST_REQUIRED` | 200–400% zoom/reflow | | | |
+| RT-A11Y-05 | `IMPLEMENTATION_TEST_REQUIRED` | mobil portrait | | | |
+| RT-A11Y-06 | `IMPLEMENTATION_TEST_REQUIRED` | feliratos prerecorded videó | | | |
+| RT-A11Y-07 | `IMPLEMENTATION_TEST_REQUIRED` | a narráció és a videó leirata, a dián megnyitható szövegelemek elérhetősége | | | |
+| RT-A11Y-08 | `IMPLEMENTATION_TEST_REQUIRED` | nem csak színre támaszkodó visszajelzés | | | |
+| RT-A11Y-09 | `IMPLEMENTATION_TEST_REQUIRED` | időkorlát nélkül olvasható visszajelzés | | | |
+| RT-A11Y-10 | `IMPLEMENTATION_TEST_REQUIRED` | nincs automatikus hang- és videóindítás | | | |
+| RT-A11Y-11 | `IMPLEMENTATION_TEST_REQUIRED` | megfelelő kontraszt és célméret | | | |
+| RT-A11Y-12 | `IMPLEMENTATION_TEST_REQUIRED` | értelmes visszajelzés hibás válasz után | | | |
+
 ## Release evidence
 
 A teszt eredménye legyen issue, táblázat vagy screenshot/log, dátummal és pontos verzióval. „A H5P tudja” nem acceptance evidence.

@@ -36,10 +36,15 @@ a forrás javítandó.
 `01 Fejlesztés/04 Audit/` döntési jegyzőkönyvei; média- és hangdöntések →
 `02 Tervezet/Média-assetek/PRODUCTION-DECISIONS.md` (ezek lezárt döntései ugyanúgy kötnek);
 release-kapuk → `RELEASE-READINESS.md`.
-A gépi release-állapotot a `python3 tools/content_integrity.py --release-report`
-`RELEASE-VERDICT` sora adja — más forrásból (riportból, emlékezetből) release-állapotot nem
-állítasz. A release ezen felül a G1–G8 kapuk szerepköri bizonyítékát és szervezeti sign-offot
-kíván: egy HUM-tétel lezárása nem release-jóváhagyás, és a `READY` verdikt sem az.
+A gépi állapotot a `python3 tools/content_integrity.py --release-report` két verdikt-sora adja
+(release-modell v2, 2026-10-04): a `MOODLE-BUILD-VERDICT` (`NOT_READY` / `READY_FOR_STAGING_BUILD`:
+felépíthető-e Moodle-stagingben) és a `LEARNER-RELEASE-VERDICT` (`NO-GO` / `CONTENT_READY /
+MEDIA_PENDING` / `READY_FOR_CONTROLLED_PILOT`: odaadható-e valódi résztvevőknek kontrollált
+pilotként); a régi `RELEASE-VERDICT` sor egy release-ciklusig ennek aliasa. Más forrásból
+(riportból, emlékezetből) build- vagy release-állapotot nem állítasz. A `READY_FOR_STAGING_BUILD`
+nem release-jóváhagyás; a kontrollált pilothoz ezen felül a G1–G8 kapuk szerepköri bizonyítéka
+(`FINAL_RELEASE_QA`) és a go/no-go döntés kell: egy HUM-tétel lezárása nem release-jóváhagyás, és
+a `READY_FOR_CONTROLLED_PILOT` verdikt sem az.
 
 ## Emberi döntési határok
 

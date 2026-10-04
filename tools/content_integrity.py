@@ -7,15 +7,17 @@ Read-only and deterministic. Two separate concerns:
   broken internal links, resurrected duplicate canonical files, merge-conflict
   markers, terminology drift, and a small set of *known* content regressions that
   have actually happened here before and are dangerous to reintroduce.
-* **Release blockers** (reported, not failing unless ``--strict-release``) —
-  learner-release human decisions, unresolved LMS/runtime outputs and open release
-  checklists. These are never guessed or auto-filled.
-* **Production-only blockers** — media decisions that block asset production.
-  They are reported separately. Under the owner's decision proposal of 2026-10-02
-  (`Emberi jóváhagyás szükséges.md` §5) an open legal or safeguarding media gate
-  still keeps the full learner release from READY: the verdict is then
-  ``CONTENT_READY / MEDIA_PENDING``, and ``--strict-release`` fails until every
-  release-scope media gate is closed or the affected asset is removed/replaced.
+* **Release state** (reported with ``--release-report``; failing only with
+  ``--strict-release``) — two verdicts since the release-model v2 owner decisions of
+  2026-10-04 (`Emberi jóváhagyás szükséges.md` §10):
+  ``MOODLE-BUILD-VERDICT`` (``NOT_READY`` / ``READY_FOR_STAGING_BUILD``) asks whether
+  the spec is ready to be built; evidence that only a build or a runtime test can
+  produce never blocks it. ``LEARNER-RELEASE-VERDICT`` (``NO-GO`` /
+  ``CONTENT_READY / MEDIA_PENDING`` / ``READY_FOR_CONTROLLED_PILOT``) asks whether the
+  built system may go to real participants as a controlled pilot. Program transfer
+  is a post-release lifecycle phase, not a gate. ``RELEASE-VERDICT`` is a
+  compatibility alias of the learner verdict for one release cycle. Nothing is
+  guessed or auto-filled.
 
 Every rule below exists because the corresponding defect occurred in this
 repository. Do not add speculative prose linting: legitimate Hungarian text must
@@ -520,6 +522,45 @@ UNCHECKED_BOX = re.compile(r'^\s*-\s*\[\s\]\s*(.+)$')
 MODULE_PLACEHOLDER = re.compile(r'⟬KITÖLTENDŐ(?:[:][^⟭]*)?⟭')
 RUNTIME_OUTPUT_ROW = re.compile(r'^\|\s*[^|]+\|\s*`RUNTIME_OUTPUT`\s*\|')
 BUILD_OUTPUT_ROW = re.compile(r'^\|\s*LMS-[^|]+\|\s*BUILD_OUTPUT\s*\|')
+# Release-model v2 (2026-10-04, RM-D1…D6): a P0/a11y runtime test that has not run
+# yet, and an activity definition that cannot be built yet. Each is a table row.
+RUNTIME_TEST_OPEN_ROW = re.compile(r'^\|\s*RT-[A-Z0-9-]+\s*\|\s*`?IMPLEMENTATION_TEST_REQUIRED`?\s*\|')
+BUILD_SPEC_OPEN_ROW = re.compile(r'^\|\s*(BSPEC-\d+)\s*\|\s*`?BUILD_SPEC_OPEN`?\s*\|')
+# A checklist item's gate class: `- [ ] … <!-- gate: post-build -->`. Without a tag
+# the item is unclassified, and an unclassified item blocks the build (fail-safe).
+CHECKLIST_GATE_TAG = re.compile(r'<!--\s*gate:\s*([^>]*?)\s*-->')
+GATE_CLASSES = ('build', 'post-build', 'release-evidence', 'human-qa', 'signoff', 'lifecycle')
+# RIGHTS-EVIDENCE.md §1/A.5: a legal/safeguarding media sub-gate (J1, J2, V1, V3…)
+# still missing its evidence. Read so that clearing the R2 marker alone cannot open
+# the legal media gate.
+RIGHTS_SUBGATE_MISSING = re.compile(r'^\|\s*\*\*([JV]\d+)\*\*\s*\|.*\*\*HIÁNYZIK\*\*')
+# Q-MED-1 phases read straight from the decision: narration is phase B, video is
+# phase C. Every other kind is phase A until the media manifest carries
+# release_phase (fail-safe: phase A is release-mandatory).
+KIND_DEFAULT_PHASE = {'voiceover': 'B', 'video': 'C'}
+
+BUILD_NOT_READY = 'NOT_READY'
+BUILD_READY = 'READY_FOR_STAGING_BUILD'
+LEARNER_NO_GO = 'NO-GO'
+LEARNER_MEDIA_PENDING = 'CONTENT_READY / MEDIA_PENDING'
+LEARNER_PILOT_READY = 'READY_FOR_CONTROLLED_PILOT'
+
+# Where each blocker of the single-verdict model (before 2026-10-04) went. The
+# selftest checks that a fixture of each lands in exactly one new bucket.
+LEGACY_BLOCKER_CATEGORY = {
+    'ERROR': 'build_spec',
+    'MODULE-PLACEHOLDERS': 'build_spec',
+    'HUMAN-DECISIONS': 'build_spec',
+    'RUNTIME-ACCEPTANCE': 'learner',
+    'LMS-BUILD': 'learner',
+    'SAFEGUARDING-CHECKLIST': 'by gate tag (untagged: build_spec)',
+    'PRIVACY-CHECKLIST': 'by gate tag (untagged: build_spec)',
+    'A11Y-CHECKLIST': 'by gate tag (untagged: build_spec)',
+    'PROGRAM-TRANSFER': 'lifecycle',
+    'PRODUCTION-RULES': 'asset-level media (build_spec or media_release)',
+    'MEDIA-HUMAN-DECISIONS': 'media_release',
+    'GOVERNANCE-DECISIONS': 'governance',
+}
 
 
 # Which report an open HUM-* decision belongs to. A prefix not listed here falls
@@ -607,133 +648,215 @@ def unresolved_output_rows(text: str, pattern: re.Pattern[str]) -> int:
     return sum(1 for line in text.splitlines() if pattern.match(line))
 
 
-def release_blockers() -> list[str]:
-    """Report canonical unresolved release state without double-counting prose.
+def classify_checklist(text: str) -> list[tuple[str, str | None, bool]]:
+    """(text, gate class or None, repo-fixable) of every unchecked checklist item.
 
-    Human decisions live in one source-of-truth document. Generated media
-    registers and explanatory mentions of the word KITÖLTENDŐ are deliberately
-    not counted as separate blockers.
+    The class comes from a trailing `<!-- gate: … -->` comment. No tag, an unknown
+    word or two classes leave the item unclassified (None), which blocks the build:
+    until the item is classified nobody knows whether the build needs it. A tag
+    with only `repo-fixable` means a spec fix, so it counts as `build`.
     """
-    blockers: list[str] = []
+    items: list[tuple[str, str | None, bool]] = []
+    for line in text.splitlines():
+        match = UNCHECKED_BOX.match(line)
+        if not match:
+            continue
+        body = match.group(1)
+        gate_class: str | None = None
+        fixable = False
+        tag = CHECKLIST_GATE_TAG.search(body)
+        if tag:
+            words = [w.strip() for w in tag.group(1).split(',') if w.strip()]
+            fixable = 'repo-fixable' in words
+            classes = [w for w in words if w in GATE_CLASSES]
+            unknown = [w for w in words if w not in GATE_CLASSES and w != 'repo-fixable']
+            if not unknown and len(classes) == 1:
+                gate_class = classes[0]
+            elif not unknown and not classes and fixable:
+                gate_class = 'build'
+            body = CHECKLIST_GATE_TAG.sub('', body)
+        items.append((body.strip(), gate_class, fixable))
+    return items
 
-    # Learner-facing/module source may never carry a real unresolved placeholder.
+
+def missing_rights_subgates(text: str) -> list[str]:
+    """IDs of the legal/safeguarding media sub-gates still marked HIÁNYZIK."""
+    return [m.group(1) for line in text.splitlines()
+            if (m := RIGHTS_SUBGATE_MISSING.match(line))]
+
+
+# The checklist sources of the release state. RELEASE-READINESS.md holds the
+# lifecycle item (program transfer) and the go/no-go and G4b evidence items.
+CHECKLIST_SOURCES = (
+    ('SAFEGUARDING', 'Gyermekvédelem – release gate.md'),
+    ('PRIVACY', 'Adatvédelem – tanulói adatok és AI.md'),
+    ('A11Y', 'LMS – hozzáférhetőségi sztenderd.md'),
+    ('RELEASE-READINESS', 'RELEASE-READINESS.md'),
+)
+
+
+def _read(path: Path) -> str:
+    return path.read_text(encoding='utf-8', errors='replace') if path.exists() else ''
+
+
+def collect_release_inputs() -> dict:
+    """Read every source of the release state. No classification happens here."""
     module_placeholders: list[str] = []
     for path in MODULE_ROOT.rglob('*.md'):
-        for lineno, line in enumerate(
-                path.read_text(encoding='utf-8', errors='replace').splitlines(), 1):
+        for lineno, line in enumerate(_read(path).splitlines(), 1):
             if MODULE_PLACEHOLDER.search(line):
                 module_placeholders.append(f'{path.relative_to(ROOT)}:{lineno}')
-    if module_placeholders:
-        blockers.append(
-            f'MODULE-PLACEHOLDERS {len(module_placeholders)} open: '
-            + ', '.join(module_placeholders)
-        )
 
-    # Canonical organisational decisions. A decision is closed only when its
-    # HUM-* heading itself says LEZÁRVA; prose mentioning KITÖLTENDŐ is irrelevant.
-    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
-    if human_file.exists():
-        human_open = open_human_decision_ids(
-            human_file.read_text(encoding='utf-8', errors='replace'))
-        release_open = [
-            decision_id for decision_id in human_open
-            if decision_register(decision_id) == 'release'
-        ]
-        if release_open:
-            blockers.append(
-                f'HUMAN-DECISIONS {len(release_open)} open: '
-                + ', '.join(release_open)
-            )
-
-    # Concrete LMS build/runtime outputs are implementation facts, not human
-    # decisions. They stay blocking until the staging system writes real values.
-    runtime_file = ACTIVE_ROOT / 'LMS – H5P runtime acceptance.md'
-    if runtime_file.exists():
-        runtime_count = unresolved_output_rows(
-            runtime_file.read_text(encoding='utf-8', errors='replace'),
-            RUNTIME_OUTPUT_ROW,
-        )
-        if runtime_count:
-            blockers.append(
-                f'RUNTIME-ACCEPTANCE {runtime_count} unresolved RUNTIME_OUTPUT values'
-            )
-
-    manifest_file = ACTIVE_ROOT / 'LMS – activity manifest.md'
-    if manifest_file.exists():
-        build_count = unresolved_output_rows(
-            manifest_file.read_text(encoding='utf-8', errors='replace'),
-            BUILD_OUTPUT_ROW,
-        )
-        if build_count:
-            blockers.append(
-                f'LMS-BUILD {build_count} unresolved BUILD_OUTPUT values'
-            )
-
-    # Release/sign-off checklists are separate evidence layers. Report each once,
-    # rather than turning every explanatory placeholder mention into a blocker.
-    checklist_files = (
-        ('SAFEGUARDING-CHECKLIST', ACTIVE_ROOT / 'Gyermekvédelem – release gate.md'),
-        ('PRIVACY-CHECKLIST', ACTIVE_ROOT / 'Adatvédelem – tanulói adatok és AI.md'),
-        ('A11Y-CHECKLIST', ACTIVE_ROOT / 'LMS – hozzáférhetőségi sztenderd.md'),
-        ('PROGRAM-TRANSFER', ACTIVE_ROOT / 'RELEASE-READINESS.md'),
-    )
-    for label, path in checklist_files:
-        if not path.exists():
-            continue
-        items = unchecked_items(path.read_text(encoding='utf-8', errors='replace'))
-        if items:
-            blockers.append(f'{label} {len(items)} open checklist items')
-
-    return blockers
-
-
-def production_blockers() -> list[str]:
-    """Report unresolved media-production decisions.
-
-    They do not add to the error count, but they do count in release_verdict():
-    with no content blocker left the verdict is CONTENT_READY / MEDIA_PENDING, and
-    --strict-release exits 0 only at READY. RELEASE-MEDIA-STATUS.md permits
-    equivalent fallbacks, so R2/R3/R5 do not block the internal M0+M1 staging pilot.
-    """
-    blockers: list[str] = []
-
-    human_file = ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'
-    if human_file.exists():
-        human_open = open_human_decision_ids(
-            human_file.read_text(encoding='utf-8', errors='replace'))
-        media_open = [
-            decision_id for decision_id in human_open
-            if decision_register(decision_id) == 'production'
-        ]
-        if media_open:
-            blockers.append(
-                f'MEDIA-HUMAN-DECISIONS {len(media_open)} open: '
-                + ', '.join(media_open)
-            )
+    human_open = open_human_decision_ids(_read(ACTIVE_ROOT / 'Emberi jóváhagyás szükséges.md'))
+    runtime_text = _read(ACTIVE_ROOT / 'LMS – H5P runtime acceptance.md')
+    manifest_text = _read(ACTIVE_ROOT / 'LMS – activity manifest.md')
 
     rules_file = MEDIA_ROOT / 'produkcios-szabalyok.json'
+    open_rules: list[str] = []
     if rules_file.exists():
         payload = json.loads(rules_file.read_text(encoding='utf-8'))
-        open_rules = [
-            rule['id'] for rule in payload.get('rules', [])
-            if '⟬KITÖLTENDŐ⟭' in rule.get('text', '')
-        ]
-        if open_rules:
-            blockers.append(
-                f'PRODUCTION-RULES {len(open_rules)} open: '
-                + ', '.join(open_rules)
-            )
+        open_rules = [rule['id'] for rule in payload.get('rules', [])
+                      if '⟬KITÖLTENDŐ⟭' in rule.get('text', '')]
 
-    return blockers
+    media_manifest = MEDIA_ROOT / '_build' / 'media-manifest.v2.json'
+    assets = (json.loads(media_manifest.read_text(encoding='utf-8')).get('assets', [])
+              if media_manifest.exists() else None)
+
+    return {
+        'module_placeholders': module_placeholders,
+        'human_open_release': [d for d in human_open if decision_register(d) == 'release'],
+        'human_open_media': [d for d in human_open if decision_register(d) == 'production'],
+        'environment_rows': unresolved_output_rows(runtime_text, RUNTIME_OUTPUT_ROW),
+        'runtime_tests_open': unresolved_output_rows(runtime_text, RUNTIME_TEST_OPEN_ROW),
+        'build_output_rows': unresolved_output_rows(manifest_text, BUILD_OUTPUT_ROW),
+        'build_spec_open': [m.group(1) for line in manifest_text.splitlines()
+                            if (m := BUILD_SPEC_OPEN_ROW.match(line))],
+        'checklists': {label: classify_checklist(_read(ACTIVE_ROOT / name))
+                       for label, name in CHECKLIST_SOURCES},
+        'open_rules': open_rules,
+        'rights_missing': missing_rights_subgates(_read(MEDIA_ROOT / 'RIGHTS-EVIDENCE.md')),
+        'assets': assets,
+    }
 
 
-def release_verdict(blockers: list[str], production: list[str]) -> str:
-    """Overall learner-release verdict: content blockers first, then media gates."""
-    if blockers:
-        return 'NO-GO'
-    if production:
-        return 'CONTENT_READY / MEDIA_PENDING'
-    return 'READY'
+def media_assessment(assets: list[dict], legal_gate_open: bool) -> tuple[list[str], list[str], int]:
+    """Asset-level media gate (Q-MED-1, RM-D4).
+
+    Returns (phase-A assets on an open media gate without a fallback — a build-spec
+    gap; phase-A assets on an open gate shipping a temporary fallback — media
+    pending; number of assets without an explicit release_phase). Phase B and C
+    always carry a fallback under Q-MED-1, so they never block.
+    """
+    build_blocked: list[str] = []
+    pending: list[str] = []
+    unassigned = 0
+    for asset in assets:
+        if not asset.get('release_phase'):
+            unassigned += 1
+        phase = asset.get('release_phase') or KIND_DEFAULT_PHASE.get(asset.get('kind'), 'A')
+        gated = (asset.get('status') != 'spec-ready'
+                 or ('R2' in (asset.get('production_rules') or []) and legal_gate_open))
+        if not gated or phase != 'A' or asset.get('fallback_final'):
+            continue
+        (pending if asset.get('fallback') else build_blocked).append(asset.get('id', '?'))
+    return build_blocked, pending, unassigned
+
+
+def _checklist_summary(items_by_source: dict[str, list[str]]) -> str:
+    return ', '.join(f'{label} {len(items)}' for label, items in items_by_source.items() if items)
+
+
+def assemble_release_state(inputs: dict) -> dict[str, list[str]]:
+    """Sort every open item into exactly one bucket of the two-verdict model.
+
+    build_spec    — blocks MOODLE-BUILD-VERDICT (and therefore the learner verdict)
+    learner       — blocks LEARNER-RELEASE-VERDICT only (post-build, evidence, QA, sign-off)
+    media_release — CONTENT_READY / MEDIA_PENDING
+    lifecycle     — reported, never a gate (program transfer, Q-REL-1)
+    media_info    — reported for orientation, never a gate by itself
+    """
+    state: dict[str, list[str]] = {
+        'build_spec': [], 'learner': [], 'media_release': [], 'lifecycle': [], 'media_info': [],
+    }
+    build_spec, learner = state['build_spec'], state['learner']
+
+    if inputs['module_placeholders']:
+        build_spec.append(f'SOURCE-PLACEHOLDERS {len(inputs["module_placeholders"])} open: '
+                          + ', '.join(inputs['module_placeholders']))
+    if inputs['human_open_release']:
+        build_spec.append(f'HUMAN-DECISIONS {len(inputs["human_open_release"])} open: '
+                          + ', '.join(inputs['human_open_release']))
+    if inputs['build_spec_open']:
+        build_spec.append(f'MANIFEST-OPEN {len(inputs["build_spec_open"])} open: '
+                          + ', '.join(inputs['build_spec_open']))
+
+    by_class: dict[str | None, dict[str, list[str]]] = {}
+    for label, items in inputs['checklists'].items():
+        for text, gate_class, _fixable in items:
+            by_class.setdefault(gate_class, {}).setdefault(label, []).append(text)
+
+    def checklist_line(prefix: str, gate_class: str | None) -> str | None:
+        sources = by_class.get(gate_class, {})
+        count = sum(len(items) for items in sources.values())
+        return f'{prefix} {count} open ({_checklist_summary(sources)})' if count else None
+
+    for prefix, gate_class, bucket in (
+            ('CHECKLIST-BUILD', 'build', build_spec),
+            ('CHECKLIST-UNCLASSIFIED', None, build_spec),
+            ('POST-BUILD: CHECKLIST', 'post-build', learner),
+            ('RELEASE-EVIDENCE: CHECKLIST', 'release-evidence', learner),
+            ('FINAL-RELEASE-QA: CHECKLIST', 'human-qa', learner),
+            ('SIGNOFF: CHECKLIST', 'signoff', learner),
+            ('PROGRAM-TRANSFER', 'lifecycle', state['lifecycle'])):
+        line = checklist_line(prefix, gate_class)
+        if line:
+            bucket.append(line + (' — release utáni validáció (Q-REL-1), nem kapu'
+                                  if gate_class == 'lifecycle' else ''))
+
+    if inputs['build_output_rows']:
+        learner.append(f'POST-BUILD: BUILD-OUTPUT {inputs["build_output_rows"]} unresolved BUILD_OUTPUT values')
+    if inputs['environment_rows']:
+        learner.append(f'POST-BUILD: ENVIRONMENT-RECORD {inputs["environment_rows"]} unresolved RUNTIME_OUTPUT values')
+    if inputs['runtime_tests_open']:
+        learner.append(f'POST-BUILD: RUNTIME-TESTS {inputs["runtime_tests_open"]} not RUNTIME_VERIFIED')
+
+    legal_gate_open = 'R2' in inputs['open_rules'] or bool(inputs['rights_missing'])
+    if inputs['assets'] is None:
+        build_spec.append('MEDIA-MANIFEST-MISSING: a média-manifest nélkül a release-kötelező assetek nem értékelhetők')
+    else:
+        blocked, pending, unassigned = media_assessment(inputs['assets'], legal_gate_open)
+        if blocked:
+            build_spec.append(f'MEDIA-REQUIRED-WITHOUT-FALLBACK {len(blocked)}: ' + ', '.join(blocked))
+        if pending:
+            state['media_release'].append(f'MEDIA-ASSETS {len(pending)} on fallback: ' + ', '.join(pending))
+        if unassigned:
+            state['media_info'].append(
+                f'MEDIA-PHASE-UNASSIGNED {unassigned} asset (release_phase hiányzik; '
+                'alapértelmezés: voiceover → B, video → C, minden más → A)')
+    if inputs['human_open_media']:
+        state['media_release'].append(f'MEDIA-HUMAN-DECISIONS {len(inputs["human_open_media"])} open: '
+                                      + ', '.join(inputs['human_open_media']))
+    if inputs['open_rules']:
+        state['media_info'].append(f'PRODUCTION-RULES {len(inputs["open_rules"])} open: '
+                                   + ', '.join(inputs['open_rules']) + ' (asset-szinten értékelve)')
+    if inputs['rights_missing']:
+        state['media_info'].append(f'RIGHTS-SUBGATES {len(inputs["rights_missing"])} HIÁNYZIK: '
+                                   + ', '.join(inputs['rights_missing']))
+    return state
+
+
+def build_verdict(errors: list[str], build_spec: list[str]) -> str:
+    """MOODLE-BUILD-VERDICT. An objective error is never build-ready (RM-D4)."""
+    return BUILD_NOT_READY if errors or build_spec else BUILD_READY
+
+
+def learner_verdict(build: str, learner: list[str], media_release: list[str]) -> str:
+    """LEARNER-RELEASE-VERDICT. Nothing is learner-ready before the build is."""
+    if build != BUILD_READY or learner:
+        return LEARNER_NO_GO
+    if media_release:
+        return LEARNER_MEDIA_PENDING
+    return LEARNER_PILOT_READY
 
 
 def governance_items() -> list[str]:
@@ -919,35 +1042,123 @@ def selftest() -> int:
         failures += 1
     print(f'{"ok  " if zorea_ok else "HIBA"} korosztály-őr — Zorea a látható szövegben, metaadat kivétel')
 
-    checklist_fixture = '- [ ] nyitott\n- [x] kész\n'
-    checklist_ok = unchecked_items(checklist_fixture) == ['nyitott']
-    if not checklist_ok:
-        failures += 1
-    print(f'{"ok  " if checklist_ok else "HIBA"} release-parser — checklist')
+    fixed_checks = 4  # the HUM status, register, closure and Zorea checks above
+
+    def check(ok: bool, label: str) -> None:
+        nonlocal failures, fixed_checks
+        fixed_checks += 1
+        if not ok:
+            failures += 1
+        print(f'{"ok  " if ok else "HIBA"} {label}')
+
+    check(unchecked_items('- [ ] nyitott\n- [x] kész\n') == ['nyitott'], 'release-parser — checklist')
 
     output_fixture = (
         '> `cmid`: **BUILD_OUTPUT**, magyarázó definíció.\n'
         '| LMS-X-01 | BUILD_OUTPUT | M0 | valódi sor |\n'
         '| Moodle | `RUNTIME_OUTPUT` | RUN_DATE | TEST_OWNER |\n'
+        '| RT-P0-01 | `IMPLEMENTATION_TEST_REQUIRED` | teszt |\n'
+        '| RT-P0-02 | `RUNTIME_VERIFIED` | 2026-11-01 |\n'
+        '| BSPEC-01 | `BUILD_SPEC_OPEN` | hiány |\n'
+        '| BSPEC-02 | `BUILD_SPEC_RESOLVED` | megoldva |\n'
+        '| **J1** | kérdés | felelős | bizonyíték | **HIÁNYZIK** | érint |\n'
+        '| **V2** | kérdés | felelős | bizonyíték | **MEGVAN** | érint |\n'
     )
-    output_ok = (
-        unresolved_output_rows(output_fixture, BUILD_OUTPUT_ROW) == 1
-        and unresolved_output_rows(output_fixture, RUNTIME_OUTPUT_ROW) == 1
-    )
-    if not output_ok:
-        failures += 1
-    print(f'{"ok  " if output_ok else "HIBA"} release-parser — output táblázatsorok')
+    check(unresolved_output_rows(output_fixture, BUILD_OUTPUT_ROW) == 1
+          and unresolved_output_rows(output_fixture, RUNTIME_OUTPUT_ROW) == 1
+          and unresolved_output_rows(output_fixture, RUNTIME_TEST_OPEN_ROW) == 1
+          and [m.group(1) for line in output_fixture.splitlines()
+               if (m := BUILD_SPEC_OPEN_ROW.match(line))] == ['BSPEC-01']
+          and missing_rights_subgates(output_fixture) == ['J1'],
+          'release-parser — output-, teszt-, build-spec- és alkapu-sorok')
 
-    verdict_ok = (
-        release_verdict(['X'], ['Y']) == 'NO-GO'
-        and release_verdict([], ['Y']) == 'CONTENT_READY / MEDIA_PENDING'
-        and release_verdict([], []) == 'READY'
-    )
-    if not verdict_ok:
-        failures += 1
-    print(f'{"ok  " if verdict_ok else "HIBA"} release-verdict — nyitott médiakapu mellett nincs READY')
+    def inputs(**override) -> dict:
+        base = {'module_placeholders': [], 'human_open_release': [], 'human_open_media': [],
+                'environment_rows': 0, 'runtime_tests_open': 0, 'build_output_rows': 0,
+                'build_spec_open': [], 'checklists': {}, 'open_rules': [], 'rights_missing': [],
+                'assets': []}
+        base.update(override)
+        return base
 
-    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + 7
+    def verdicts(state: dict, errors: tuple = ()) -> tuple[str, str]:
+        build = build_verdict(list(errors), state['build_spec'])
+        return build, learner_verdict(build, state['learner'], state['media_release'])
+
+    check(build_verdict(['E'], []) == BUILD_NOT_READY
+          and build_verdict([], ['X']) == BUILD_NOT_READY
+          and build_verdict([], []) == BUILD_READY
+          and verdicts(assemble_release_state(inputs()), errors=('E',)) == (BUILD_NOT_READY, LEARNER_NO_GO),
+          'build-verdikt — ERROR mellett nincs READY_FOR_STAGING_BUILD')
+    check(learner_verdict(BUILD_NOT_READY, [], []) == LEARNER_NO_GO
+          and learner_verdict(BUILD_READY, ['X'], []) == LEARNER_NO_GO
+          and learner_verdict(BUILD_READY, [], ['M']) == LEARNER_MEDIA_PENDING
+          and learner_verdict(BUILD_READY, [], []) == LEARNER_PILOT_READY
+          and 'READY' not in (BUILD_READY, LEARNER_PILOT_READY),
+          'learner-verdikt — build nélkül NO-GO, csupasz READY nincs')
+
+    tag_fixture = (
+        '- [ ] a\n- [ ] b <!-- gate: post-build -->\n- [ ] c <!-- gate: lifecycle -->\n'
+        '- [ ] d <!-- gate: repo-fixable -->\n- [ ] e <!-- gate: build, signoff -->\n'
+        '- [ ] f <!-- gate: bogus -->\n- [ ] g <!-- gate: human-qa, repo-fixable -->\n'
+        '- [x] h <!-- gate: build -->\n'
+    )
+    check(classify_checklist(tag_fixture) == [
+        ('a', None, False), ('b', 'post-build', False), ('c', 'lifecycle', False),
+        ('d', 'build', True), ('e', None, False), ('f', None, False), ('g', 'human-qa', True)],
+          'checklist-jelölés — osztály, repo-fixable, hibás jelölés = besorolatlan')
+
+    unclassified = assemble_release_state(inputs(checklists={'SAFEGUARDING': classify_checklist('- [ ] x\n')}))
+    check(verdicts(unclassified) == (BUILD_NOT_READY, LEARNER_NO_GO)
+          and any(line.startswith('CHECKLIST-UNCLASSIFIED') for line in unclassified['build_spec']),
+          'hamis zöld — besorolatlan checklist-tétel blokkolja a buildet')
+
+    lifecycle = assemble_release_state(inputs(checklists={
+        'RELEASE-READINESS': classify_checklist('- [ ] transzfer <!-- gate: lifecycle -->\n')}))
+    check(verdicts(lifecycle) == (BUILD_READY, LEARNER_PILOT_READY) and lifecycle['lifecycle'],
+          'életciklus — a program-transzfer egyik verdiktet sem blokkolja')
+
+    check(verdicts(assemble_release_state(inputs(environment_rows=0, runtime_tests_open=1)))
+          == (BUILD_READY, LEARNER_NO_GO),
+          'hamis zöld — kitöltött környezeti rekord, futatlan runtime-teszt: NO-GO')
+
+    r2_photo = {'id': 'X-FOTO-01', 'kind': 'photo', 'status': 'spec-ready', 'production_rules': ['R2']}
+    check(verdicts(assemble_release_state(inputs(open_rules=[], rights_missing=['J1'], assets=[r2_photo])))[0]
+          == BUILD_NOT_READY
+          and verdicts(assemble_release_state(inputs(assets=[r2_photo]))) == (BUILD_READY, LEARNER_PILOT_READY),
+          'hamis zöld — az R2-jelölő kivétele nem nyitja a jogi kaput, amíg alkapu HIÁNYZIK')
+
+    media_fixture = [
+        {'id': 'a1', 'kind': 'voiceover', 'status': 'pending-rights'},
+        {'id': 'a2', 'kind': 'video', 'status': 'pending-rights'},
+        {'id': 'a3', 'kind': 'photo', 'status': 'pending-rights'},
+        {'id': 'a4', 'kind': 'photo', 'status': 'pending-rights', 'fallback': 'szöveges leírás'},
+        {'id': 'a5', 'kind': 'photo', 'status': 'pending-rights', 'fallback': 'x', 'fallback_final': True},
+        {'id': 'a6', 'kind': 'diagram', 'status': 'spec-ready'},
+        {'id': 'a7', 'kind': 'voiceover', 'status': 'pending-rights', 'release_phase': 'A'},
+    ]
+    check(media_assessment(media_fixture, False) == (['a3', 'a7'], ['a4'], 6)
+          and verdicts(assemble_release_state(inputs(assets=[media_fixture[3]])))
+          == (BUILD_READY, LEARNER_MEDIA_PENDING),
+          'médiakapu — asset-szinten: A fallback nélkül build-spec, átmeneti fallbackkel MEDIA_PENDING, B/C nem blokkol')
+
+    legacy_fixtures = {
+        'MODULE-PLACEHOLDERS': (inputs(module_placeholders=['x.md:1']), 'build_spec'),
+        'HUMAN-DECISIONS': (inputs(human_open_release=['HUM-SAFE-09']), 'build_spec'),
+        'RUNTIME-ACCEPTANCE': (inputs(environment_rows=1), 'learner'),
+        'LMS-BUILD': (inputs(build_output_rows=1), 'learner'),
+        'SAFEGUARDING-CHECKLIST': (inputs(checklists={'SAFEGUARDING': classify_checklist('- [ ] x\n')}), 'build_spec'),
+        'PROGRAM-TRANSFER': (inputs(checklists={'RELEASE-READINESS': classify_checklist(
+            '- [ ] x <!-- gate: lifecycle -->\n')}), 'lifecycle'),
+        'PRODUCTION-RULES': (inputs(open_rules=['R3']), 'media_info'),
+        'MEDIA-HUMAN-DECISIONS': (inputs(human_open_media=['HUM-MEDIA-09']), 'media_release'),
+    }
+    legacy_ok = set(legacy_fixtures) <= set(LEGACY_BLOCKER_CATEGORY)
+    for fixture, bucket in legacy_fixtures.values():
+        state = assemble_release_state(fixture)
+        legacy_ok &= [name for name, items in state.items() if items] == [bucket]
+    check(legacy_ok, 'migráció — minden régi blokker pontosan egy új kategóriába kerül')
+
+    total = len(SELFTEST_CASES) + len(SELFTEST_Z4) + len(ARTICLE_SELFTEST) + fixed_checks
     print(f'Selftest: {total - failures}/{total} eset rendben.')
     return 1 if failures else 0
 
@@ -973,33 +1184,43 @@ def main() -> int:
     check_regressions(errors)
     check_closed_decisions(errors)
 
-    blockers = release_blockers() if (args.strict_release or args.release_report) else []
-    production = production_blockers() if (args.strict_release or args.release_report) else []
-    governance = governance_items() if args.release_report else []
-
     print(f'Objective integrity errors: {len(errors)}')
     for item in errors:
         print(f'ERROR: {item}')
-    if blockers:
-        print(f'Release blockers: {len(blockers)}')
-        for item in blockers:
-            print(f'BLOCKER: {item}')
-    if production:
-        print(f'Production-only blockers: {len(production)}')
-        for item in production:
-            print(f'PRODUCTION: {item}')
-    if governance:
-        print(f'Governance-only items (not a release gate): {len(governance)}')
-        for item in governance:
-            print(f'GOVERNANCE: {item}')
 
-    verdict = release_verdict(blockers, production)
+    learner = None
     if args.strict_release or args.release_report:
-        print(f'RELEASE-VERDICT: {verdict}')
+        state = assemble_release_state(collect_release_inputs())
+        build = build_verdict(errors, state['build_spec'])
+        learner = learner_verdict(build, state['learner'], state['media_release'])
+        build_lines = ([f'ERROR {len(errors)} objective integrity errors (G7)'] if errors else []) \
+            + state['build_spec']
+        print(f'Build-spec blockers: {len(build_lines)}')
+        for item in build_lines:
+            print(f'BUILD-SPEC: {item}')
+        print(f'MOODLE-BUILD-VERDICT: {build}')
+        print(f'Learner-release blockers: {len(state["learner"])}')
+        for item in state['learner']:
+            print(item)
+        for item in state['media_release']:
+            print(f'MEDIA-RELEASE: {item}')
+        for item in state['media_info']:
+            print(f'MEDIA-INFO: {item}')
+        for item in state['lifecycle']:
+            print(f'LIFECYCLE: {item}')
+        if args.release_report:
+            governance = governance_items()
+            if governance:
+                print(f'Governance-only items (not a release gate): {len(governance)}')
+                for item in governance:
+                    print(f'GOVERNANCE: {item}')
+        print(f'LEARNER-RELEASE-VERDICT: {learner}')
+        # Compatibility alias for one release cycle (RM-D3): same value as above.
+        print(f'RELEASE-VERDICT: {learner}')
 
     if errors:
         return 1
-    if args.strict_release and verdict != 'READY':
+    if args.strict_release and learner != LEARNER_PILOT_READY:
         return 2
     print('Objective content integrity checks passed.')
     return 0

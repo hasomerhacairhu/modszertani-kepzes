@@ -32,9 +32,12 @@ Ha nem tudod eldönteni, melyik osztály: az **EMBERI JÓVÁHAGYÁS KELL**.
   AI Act szerepbesorolás (provider ≠ deployer), és a **kötelező nem-AI alternatíva**
 - **helyi someres döntés**: ideológiai keret, mozgalmi konvenció, terminológia
   (az írásmód 2026-10-02 óta eldöntött, HUM-SOMER-02: `madrih`, `hanih`, `hágsámá`, `dugma isit`, `Leviatán` — a migráció megtörtént, új szöveg ezeket használja)
-- **release**: bármely állítás arról, hogy valami éles vagy kész. Egy HUM-tétel lezárása
-  nem release-jóváhagyás; a release-állapotot csak a `content_integrity.py --release-report`
-  `RELEASE-VERDICT` sora és a `RELEASE-READINESS.md` adja
+- **release**: bármely állítás arról, hogy valami éles, kész vagy felépíthető. Egy HUM-tétel
+  lezárása nem release-jóváhagyás; a build- és a release-állapotot csak a
+  `content_integrity.py --release-report` két verdikt-sora (`MOODLE-BUILD-VERDICT`,
+  `LEARNER-RELEASE-VERDICT`) és a `RELEASE-READINESS.md` adja. A `READY_FOR_STAGING_BUILD` nem
+  release-jóváhagyás; a `FINAL_RELEASE_QA` (Memuna, DPO, független a11y pre-flight) és a go/no-go
+  szerepköri bizonyíték, nem írod be és nem feltételezed
 
 A kánoni gate-dokumentumok: `02 Tervezet/Emberi jóváhagyás szükséges.md`,
 `02 Tervezet/Gyermekvédelem – release gate.md`,

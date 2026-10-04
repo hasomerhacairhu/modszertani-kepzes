@@ -44,15 +44,26 @@ python3 tools/content_integrity.py --selftest
 python3 tools/content_integrity.py --release-report
 ```
 
-- `Objective integrity errors: 0` **kötelező**. Bármely `ERROR:` sor blokkoló.
-- A `BLOCKER:` sorok szemantikus learner-release kapuk (nyitott vagy vétóval újranyílt HUM-tétel,
-  tanulói `KITÖLTENDŐ`, LMS-build, runtime, valamint a gyermekvédelmi, adatvédelmi,
-  hozzáférhetőségi és program-transzfer checklistek nyitott pontjai). A megnevezett szerepek
-  hiányzó írásos bizonyítéka **bizonyíték-kapu**, nem nyitott döntés.
-- A `PRODUCTION:` sorok média-produkciós kapuk: az `ERROR`-számot nem növelik, de a verdiktbe
-  beszámítanak (`NO-GO` → `CONTENT_READY / MEDIA_PENDING` → `READY`; a `--strict-release` csak
-  `READY`-nél ad 0-s kilépési kódot). A `GOVERNANCE:` sorok nem release-kapuk.
-- A `RELEASE-VERDICT` sort **szó szerint** idézd. Nyitott értéket nem töltünk ki találgatásból.
+- `Objective integrity errors: 0` **kötelező**. Bármely `ERROR:` sor blokkoló, és a build-verdiktet
+  `NOT_READY`-ra állítja.
+- **Két verdikt** (release-modell v2, 2026-10-04; `02 Tervezet/RELEASE-READINESS.md`):
+  - A `BUILD-SPEC:` sorok a `MOODLE-BUILD-VERDICT` (`NOT_READY` / `READY_FOR_STAGING_BUILD`)
+    feltételei: objektív hiba, tanulói `KITÖLTENDŐ`, nyitott HUM-döntés, nyitott build-spec tétel
+    (`BSPEC-*`), `gate: build` vagy jelölés nélküli checklist-tétel, release-kötelező médiaasset
+    fallback nélkül.
+  - A `POST-BUILD:`, `RELEASE-EVIDENCE:`, `FINAL-RELEASE-QA:` és `SIGNOFF:` sorok csak a
+    `LEARNER-RELEASE-VERDICT`-et blokkolják (`NO-GO` / `CONTENT_READY / MEDIA_PENDING` /
+    `READY_FOR_CONTROLLED_PILOT`): build- és runtime-kimenet, runtime-teszt, szerepköri bizonyíték,
+    go/no-go. A megnevezett szerepek hiányzó írásos bizonyítéka **bizonyíték-kapu**, nem nyitott
+    döntés.
+  - A `MEDIA-RELEASE:` sor `CONTENT_READY / MEDIA_PENDING`-et okoz; a `MEDIA-INFO:`, a `LIFECYCLE:`
+    (program-transzfer, release utáni validáció) és a `GOVERNANCE:` sor egyik verdiktet sem
+    blokkolja.
+- A riport elején **mindkét** verdikt-sort szó szerint idézd, és mondd ki: a
+  `READY_FOR_STAGING_BUILD` nem release-jóváhagyás. A `RELEASE-VERDICT` sor egy release-ciklusig
+  kompatibilitási alias (a learner-verdikt értéke). A `--strict-release` csak
+  `READY_FOR_CONTROLLED_PILOT`-nál ad 0-s kilépési kódot. Nyitott értéket nem töltünk ki
+  találgatásból.
 
 ## 2. Média-manifest és generált output (a CI-vel azonos)
 
