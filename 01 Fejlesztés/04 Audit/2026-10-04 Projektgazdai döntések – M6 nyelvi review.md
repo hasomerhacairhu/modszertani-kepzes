@@ -293,6 +293,35 @@ adatfolyam).
   küszöbe az M6.A:498 szavaival áll („ha valaki erősen érintett”). A D1 kiváltó feltétele (csak a feltárás indítja az
   ötlépéses jelzési utat) és a blokkok védelmi elemei nem változnak.
 
+## 8. kör — UE8-PED-3 és a D6 megfogalmazása
+
+A `2026-10-04 course-fix napló – M6 nyelvi review.md` UE8-PED-3 tételére (a PR #19 nyitott tétele). A projektgazda a
+választ a munkamenetben írásban adta meg, és megerősítette, hogy az ő döntése és utasítása (AskUserQuestion: „Igen,
+mind így”). A válasz szó szerint áll.
+
+Utólagos ellenőrzés (vétó/QA): a peula tartalomfelelőse.
+
+### M6-NY-D28 — UE8-PED-3 (M6.B: ha nincs második felnőtt; a D26 kiegészítése)
+
+- **Kérdés (a course-fix jelentéséből):** ha a peulán nincs második felnőtt, nagycsoportos tartalékváltozat fut-e,
+  vagy a peula csak második felnőttel tartható?
+- **Válasz:** „Ha a peulán nincs második felnőtt, **nem osztjuk két félcsoportra a 4.4.2-t**. A blokk egyetlen
+  nagycsoportban fusson, az egyetlen képző vezetésével. Tehát: két félcsoport csak akkor van, ha rendelkezésre áll a
+  második, előre kijelölt felnőtt stábtag; résztvevő továbbra sem vezethet félcsoportot; ha nincs második felnőtt, a
+  peula ettől még megtartható; a 4.4.2 nagycsoportos tartalékváltozatban fusson; az eredeti teljes időkeret ne nőjön,
+  szükség esetén a bemutatók száma csökkenjen az időszelep szerint; a tanulási cél, a rubrika és a biztonsági keret ne
+  változzon. Ezt vezesd át minden olyan helyre, ahol a két félcsoportra épül a végrehajtás vagy az előkészítés, és
+  rögzítsd új projektgazdai döntésként.”
+- **Átvezetés:** az M6.B minden félcsoportra épülő helye (percbontás, blokkcél, 4.4 „Szervezés”, 4.4.1, 4.4.2,
+  előkészítés 2.1 és 2.3, 5. lista 2. pontja és időkezelése, M6.B-MUNK-06 spec) két ágat kap. Ha van második, előre
+  kijelölt felnőtt: két félcsoport (D26). Ha nincs: a 4.4.2 nagycsoportban fut, összesen 2–3 bemutatóval, ugyanabban
+  az időkeretben, csúszásnál az időszelep szerint. Időtartam, tanulási cél, rubrika és biztonsági keret nem változik.
+
+### A D6 megfogalmazásának jóváhagyása
+
+- **Válasz:** „A D6 átvezetését, vagyis az **„elég a név vagy az életkor”** megfogalmazást jóváhagyom. Ez pontosabb,
+  mint az eredeti „évszám”, és itt valóban a 6–9 / 10–12 / 13–17 korosztály-sávokról beszélünk.”
+
 ## Összesítés
 
 23 kérdés, 23 lezárt döntés (M6-NY-D1…D23); egyik sem „később döntök”. Lezárult velük a korábban nyitott **UE-IMPL-4**
@@ -300,4 +329,5 @@ is (M6-NY-D22). Az átvezetés a `/course-fix`-é, a validált finding-listával
 (`2026-10-04 Nyelvi review – M6, Anna-baseline összevetés.md`).
 
 A 7. kör négy további döntése (M6-NY-D24…D27) a course-fix célzott újraellenőrzésének nyitott tételeit zárja le. A
-D24 a D20 Workshopra vonatkozó részét felülírja.
+D24 a D20 Workshopra vonatkozó részét felülírja. A 8. kör (M6-NY-D28) a D26-ot egészíti ki arra az esetre, ha nincs
+második felnőtt, és jóváhagyja a D6 átvezetésének megfogalmazását.
