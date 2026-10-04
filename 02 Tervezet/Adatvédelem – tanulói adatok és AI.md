@@ -86,6 +86,8 @@ Külön review szükséges legalább:
 - M7 AI-promptok és Peula v1/v2; a Peula v2 valós kvucára is tervezhető, de csak nem azonosító, csoportszintű információval (nevek, egyéni érzékeny történetek, diagnózisok és hasonlók nélkül); saját kvuca hiányában a tanuló kitalált profilt kap;
 - a modulhubok és az F-peulák nem Moodle-ben vezetett mentori jegyzete, valamint a Google-sablonok (M5.4, M6);
 - Z.2/Z.4 személyes reflexiók és mentor-hozzáférés;
+- a Moodle-oldali kötelező szövegmezők (`LMS – activity manifest.md`, TEXT-C profil: nem anonim Moodle Feedback, a válasz a tanuló nevével rögzül, és a tanuló a saját válaszát felülírhatja): activitynként a fenti mezőtáblázat szerint;
+- a Z.3 kötelező szöveges válaszai (LMS-Z-06): a megőrzési sor („Szabad szöveges reflexió” vagy „Assignment / peulatervek”) DPO-döntés (BS-D6), a repository nem dönti el; amíg nincs rögzítve, az activity valódi madrihnak nem nyitható meg (Program terv §4);
 - Z.4 Moodle Feedback.
 
 A lista M2-, M3- és M7-sorának szabálya **projektgazdai döntés (2026-10-02)**; utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős, az M3-sornál a Memuna is, az M7-sornál a programvezető is.

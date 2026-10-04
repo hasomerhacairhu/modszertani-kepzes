@@ -39,7 +39,7 @@ Ez az M6 kapu **két komponensének** kész értékelőanyaga. A kettő **nem eg
 >
 > **Blokkoló feltétel:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/stábbal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
 >
-> **Újraértékelés:** a madrih kérheti, hogy az eredeti értékelőtől eltérő második képző nézze át a játéklapot és a kapudöntést, még a következő modul (M7) feloldása előtt (Program terv §5, „Újraértékelés a kizáró kapukon”).
+> **Újraértékelés:** a madrih kérheti, hogy az eredeti értékelőtől eltérő második képző nézze át a játéklapot és a kapudöntést, még mielőtt megnyílna a sikeres kapueredményhez kötött következő lépés, az M7 felkészültségi kvíze (az M7 tanulási része a megerősített eredménnyel már nyílik: Q-REL-2, BS-D2; Program terv §5, „Újraértékelés az éles kapukon”).
 >
 > **A kvíz terhe:** a kvíz **alacsony tétű** (önellenőrzés, korlátlan próbálkozás, nem buktat), ezért **nem növeli** a tanuló terhét. A blokkoló bizonyíték egyetlen produktumra (a játéklapra) koncentrálódik, így kevesebb a párhuzamos „éles” megmérettetés.
 

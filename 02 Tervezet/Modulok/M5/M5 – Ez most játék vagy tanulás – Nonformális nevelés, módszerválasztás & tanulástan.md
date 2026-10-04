@@ -188,7 +188,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 
 > **Megjegyzés:** üres / csak címke-szintű táblázat **nem „complete”** – a KAPU R4 „csak címke” = Hiányos, ami javításra visszaküldést jelent.
 
-> **Késleltetett felidézés (M5.3 §3.6):** az M5.3 teljesítése után 72 órával nyílik, és **kötelező**, de nem része az M5 „complete”-nek: **nem kapuzza a következő modult** (az M6 nyitásának nem feltétele), az online félév teljesítéséhez viszont kell.
+> **Késleltetett felidézés (M5.3 §3.6):** az M5.3 teljesítése után 72 órával nyílik (a plugin nélküli tartalékúton az M5.3 után látható, és a szövege kéri, hogy a tanuló 72 óra múlva térjen vissza: `LMS – activity manifest.md`, LMS-M5-07; RM-D6), és **kötelező**, de nem része az M5 „complete”-nek: **nem kapuzza a következő modult** (az M6 nyitásának nem feltétele), az online félév teljesítéséhez viszont kell.
 
 > A 12 itemes item-bank, a disztraktor-logika és a 4 soros, megfigyelhető rubrika (R1–R4) a hivatalos KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
 

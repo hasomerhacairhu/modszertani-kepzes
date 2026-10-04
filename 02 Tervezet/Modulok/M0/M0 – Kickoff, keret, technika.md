@@ -140,7 +140,7 @@ A modul végére a madrih…
       * „madrih, nem terapeuta” (1. item),
       * jelzési út gyermekvédelmi ügyben (2. item),
       * puha vs. éles kapu (3. item),
-      * **kapukövetkezmény** – 1 rövid szcenárió-item: „mi történik, ha egy éles kapu elsőre nem teljesül?” → válaszd ki a **helyes következményt** (visszajelzés, F-peula vagy más javítási út, majd újrapróbálkozás – nem kizárás; éles kapunál a következő kapuzott tartalom addig nem nyílik meg, amíg a minimumfeltétel és a szükséges emberi megerősítés nem teljesül – a definíció: Program terv §5) – az M0.3 SLIDE 6 „mi történik, ha…?” mintájára (4. item),
+      * **kapukövetkezmény** – 1 rövid szcenárió-item: „mi történik, ha egy éles kapu elsőre nem teljesül?” → válaszd ki a **helyes következményt** (visszajelzés, a kötelező F-peula (javítási út), majd újrapróbálkozás – nem kizárás; éles kapunál a következő kapuzott tartalom addig nem nyílik meg, amíg a minimumfeltétel és a szükséges emberi megerősítés nem teljesül – a definíció: Program terv §5) – az M0.3 SLIDE 6 „mi történik, ha…?” mintájára (4. item),
       * **online hangnem / szabály** – 1 felismerő item: melyik reakció / szabály illik egy **dugma isit** madrihhoz az online térben (chat, komment) – az M0.4 SLIDE 3–4 helyzeteinek és a „3 egyszerű szabály” logikájára építve (5. item),
       * **éves ív** – 1 felidéző item: melyik modulban lesz szó a visszajelzésről, a red flag-ekről és a gyermekvédelemről, illetve a peulatervezésről – az M0.1 SLIDE 2 idővonalára építve (6. item, párosítás),
       * „hol találom a modulokat / leckéket a Moodle-ben?” (7. item).
@@ -177,7 +177,7 @@ A modul végére a madrih…
 
 ### Az M0 belépőkvíz itemei
 
-* **Forrás és ellenőrzés:** az itemek szövegét és a kulcsot a projektgazda adta meg (projektgazdai döntés, 2026-10-02); a 3. és a 7. item disztraktorai, a 6. item legördülő listája és a hibás válaszokhoz tartozó visszajelzések szerkesztői kiegészítések. Utólagos ellenőrzés (vétó/QA): az értékelési felelős, az 1–2. itemnél a Memuna is.
+* **Forrás és ellenőrzés:** az itemek szövegét és a kulcsot a projektgazda adta meg (projektgazdai döntés, 2026-10-02); a 3. és a 7. item disztraktorai, a 6. item legördülő listája és a hibás válaszokhoz tartozó visszajelzések szerkesztői kiegészítések. A 4. item D) disztraktora és visszajelzése a BS-D5 szerint cserélve, mert a Q-REL-2 után a korábbi változat részben igaz lett (projektgazdai döntés, 2026-10-04); a helyes válasz és a kulcs változatlan. Utólagos ellenőrzés (vétó/QA): az értékelési felelős, az 1–2. itemnél a Memuna is.
 * **Beállítás:** Moodle Quiz, 7 item, ponthatár (cut-score) nélkül. A completion-feltétel: mind a 7 item megválaszolva, eredménytől függetlenül; az első próbálkozás diagnosztikus adat (§6). Hogy a Moodle-beállítás kikényszeríti-e mind a 7 item megválaszolását, vagy ezt a stábnak kell ellenőriznie, a stagingben kell igazolni.
 * **Kérdéstípus:** az 1–5. és a 7. item feleletválasztós kérdés egy helyes válasszal (egyválaszos); a válaszopciók sorrendjét a Moodle keverje, az A–D betű csak ennek a leírásnak a jelölése. A 6. item párosító kérdés (Matching): a három téma egy-egy sor, mindegyik mellett legördülő lista a kilenc állomás kódjával (M0, M1, …, M7, Z), így húzás nélkül is teljesíthető.
 * **Visszajelzés:** minden hibás válaszhoz egymondatos visszajelzés tartozik: miért nem jó, és hol találja a madrih a helyes szabályt.
@@ -227,8 +227,8 @@ Mi történik, ha egy éles kapu elsőre nem teljesül?
 * B) Automatikusan megfelel.
   *Visszajelzés:* Nem jó: az éles kapu nem teljesül magától, a minimumnak és a szükséges megerősítésnek ténylegesen meg kell lennie; lásd: M0.3, 5. dia (puha és éles kapu).
 * C) Visszajelzést kap, F-peulán / javítási úton dolgozik, majd újrapróbálkozik. ✅
-* D) A következő modulba lép, és majd később javít.
-  *Visszajelzés:* Nem jó: éles kapunál a következő kapuzott tartalom addig nem nyílik meg, amíg a minimum és a szükséges megerősítés nem teljesül; lásd: M0.3, 5. dia (puha és éles kapu).
+* D) Elég ugyanazt újra beadnia; külön fejlesztő visszajelzésre és F-peulára nincs szükség.
+  *Visszajelzés:* Nem jó: ha egy éles kapu nem teljesül, a javító próbálkozás előtt fejlesztő visszajelzés jár, és a kötelező F-peulán (a javítási úton) kell dolgozni; lásd: M0.3, 5. dia (puha és éles kapu) és a Glosszárium F-peula szócikke.
 
 **5. item – online hangnem / szabály**
 

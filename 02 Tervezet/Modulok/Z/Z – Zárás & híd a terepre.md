@@ -193,7 +193,7 @@ Nem „B peula”, nem kvuca-szintű foglalkozás, hanem **mentori vagy kiscsopo
 
 A kívánt ív (a Moodle-lista fentről lefelé haladó sorrendje ezt ne írja felül): **1) Z.1–Z.3 online a Z.A peula ELŐTT → 2) Z.A záró peula → 3) Z.4 záró reflexió + visszajelzés a peula UTÁN, abból dolgozva.** Moodle-szinten érdemes a **Z.4-et `restrict access`-szel a Z.A dátuma mögé tenni**, hogy a tanuló ne tudja a peula előtt megírni a záró reflexiót.
 
-1. Z.1–Z.3 mikroleckék activity completion (ajánlottan a peula előtt).
+1. Z.1–Z.3 mikroleckék activity completion (ajánlottan a peula előtt); a Z.3 három kötelező szöveges válasza beküldve, és a kijelölt mentor tartalmilag elfogadta őket, kiemelten a biztonsági lépést (`LMS – activity manifest.md`, LMS-Z-06 és LMS-Z-07; BS-D8). A beküldés után a tanuló továbbhaladhat: az elfogadás a Z teljesítésének feltétele, a következő tanulási lépésé nem.
 2. Z.A záró peula (offline).
 3. Z.4 leadott záró reflexió + benne a következő lépés(ek) (a peula után).
 4. Képzési visszajelző űrlap kitöltve. Ez a Z completion része, de **nem vizsga**: nincs helyes válasz, és a válasz tartalma nem pontozott; csak a kitöltés ténye számít teljesítésnek.
