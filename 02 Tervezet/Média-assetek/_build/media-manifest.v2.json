@@ -3117,8 +3117,8 @@
       "unit": "M6.1",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontakt-játékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
-      "hash": "0115ed8e6281de0b1325d9f84e21ec3665a0722973d71f545effa387eed2ccee",
+      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
+      "hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
       "note": "",
       "for": "",
       "used_by": [
@@ -3157,8 +3157,8 @@
       "unit": "M6.1",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„A **bizalom- és kontakt-játékok** már egy másik szint.\n\nA ‘Csukott szemű vezetésnél’\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
-      "hash": "1ceb623ca4f7a90dee3b13aa75a6c91e304e5cdb45ac4904b9e0eb8bad2f8d4b",
+      "text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
+      "hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
       "note": "",
       "for": "",
       "used_by": [
@@ -3177,8 +3177,8 @@
       "unit": "M6.1",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„A **reflexiós játékok**\nés az **érzékenyebb témák feldolgozása** között is van különbség.\n\nEgy beszélgető kártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználjatok fiktív, nem beazonosítható esetet,\nés kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
-      "hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
+      "text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
+      "hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
       "note": "",
       "for": "",
       "used_by": [
@@ -3197,8 +3197,8 @@
       "unit": "M6.1",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynak adnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
-      "hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
+      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
+      "hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
       "note": "",
       "for": "",
       "used_by": [
@@ -3337,8 +3337,8 @@
       "unit": "M6.2",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalaki láthatóan rosszul lett tőle,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
-      "hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
+      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
+      "hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
       "note": "",
       "for": "",
       "used_by": [
@@ -3537,8 +3537,8 @@
       "unit": "M6.3",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár egy saját ötletet –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
-      "hash": "cc91c3767411c1ae09b44fd72418a1a79e3c14dc3d2b51b84d89137c0dbc4a13",
+      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
+      "hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
       "note": "",
       "for": "",
       "used_by": [
@@ -21909,7 +21909,7 @@
       "status": "spec-ready",
       "title": "Korosztály-táblázat – 3 aktuális kvuca-korosztály (tartalmi ábra)",
       "purpose": "Közös nyelv a 3 aktuális korosztályról, amire a modul későbbi leckéi (M3-ból átvett korosztály-térkép) hivatkoznak.",
-      "spec": "Háromsoros korosztály-táblázat / ikon-sor tervezési kiindulópontokkal: Parparim 6–9 (rövid instrukció, mozgás, konkrét példa); Kivsza 10–12 (kortárs- és státuszdinamika megfigyelése); Leviatán 13–17 (identitás, valahová tartozás, barátság, az idősebbeknél több vita és reflexió). Minden sor mellett: »heurisztika, a konkrét kvucához igazítsd«. Fejlécsoros táblázat vagy élő szöveg + kísérő ikonok; a kulcstartalom nem ég kizárólag képbe. Alul 1–2 bullet a fő üzenettel.",
+      "spec": "Háromsoros korosztály-táblázat / ikon-sor tervezési kiindulópontokkal: Parparim 6–9 (rövid instrukció, mozgás, konkrét példa); Kivsza 10–12 (kortárs- és státuszdinamika megfigyelése); Leviatán 13–17 (identitás, valahová tartozás, barátság, az idősebbeknél több vita és reflexió). Minden sor mellett: ‘kiindulópont, a konkrét kvucához igazítsd’. Fejlécsoros táblázat vagy élő szöveg + kísérő ikonok; a kulcstartalom nem ég kizárólag képbe. Alul 1–2 bullet a fő üzenettel.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -21945,7 +21945,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5404ca276e8e3beba9a6475bc903f5bca25c9cf75f50d033b20ed29c3934b2b9",
+      "spec_hash": "3f467549a75381da0f2ab3607f74e4c7841ee848b2eaa1287404c0acf14a48c2",
       "deliverable_ids": [
         "M6.1-DIA-01",
         "M6.1-DIA-01::ALTTEXT"
@@ -22336,7 +22336,7 @@
       "status": "spec-ready",
       "title": "Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret",
       "purpose": "Kockázat-felismerés + biztonsági keret tanítása.",
-      "spec": "Rövid szabad szöveges kérdés: mi lehet kockázatos egy futkosós energizerben (3 falhoz tartozó jel, jelre különböző falakhoz futás teljes erőből) 10–12 évesekkel (tér, balesetveszély, kizáródás), 1–2 dolog. Válaszadás után megjelenő Biztonsági keret szöveg (tempó: gyors séta/kocogás; tér: akadálymentes; ütközés-kerülés; kizáródás tompítása).",
+      "spec": "Rövid szabad szöveges kérdés: mi lehet kockázatos egy futkosós energizerben (3 falhoz tartozó jel, jelre különböző falakhoz futás teljes erőből) 10–12 évesekkel (tér, balesetveszély, kimaradás), 1–2 dolog. Válaszadás után megjelenő Biztonsági keret szöveg (tempó: gyors séta/kocogás; tér: akadályoktól mentes; ütközés elkerülése; kimaradás tompítása).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22365,7 +22365,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "96419c22adf539c7a2e8d239ab17f24f2f2e5a0361a889599f743f0acaeef3e3",
+      "spec_hash": "97c2ff5402d8b6b0bb1521c17f7b1fb52ee16a34714d884264ecb0283e7507b6",
       "deliverable_ids": [
         "M6.1-EGY-08"
       ],
@@ -22388,7 +22388,7 @@
       "status": "spec-ready",
       "title": "Single Choice – miért hasznos kategóriákban gondolkodni",
       "purpose": "Fő üzenet rögzítése: kategóriás gondolkodás haszna.",
-      "spec": "H5P Multiple Choice („single” mód) 4 opcióval (»így jobban átlátod, mire való egy játék, és melyik korosztályhoz illik« a helyes); téves válaszra rövid, egységes visszajelzés.",
+      "spec": "H5P Multiple Choice („single” mód) 4 opcióval (»így jobban átlátom, mire való egy játék, és melyik korosztályhoz illik« a helyes); téves válaszra rövid, egységes visszajelzés.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22417,7 +22417,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "371a2de4e5b58e770bc8205acbdbad52a896ecd1814cf59b86f871509568f3fc",
+      "spec_hash": "fb628f3c5b44a58fa2459d5277868a891645e26d7a4baf12c4db9d515c77ba5f",
       "deliverable_ids": [
         "M6.1-EGY-09"
       ],
@@ -22492,7 +22492,7 @@
       "status": "spec-ready",
       "title": "Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat)",
       "purpose": "Záró transzfer-reflexió saját játékra.",
-      "spec": "Szabad szöveges mező, nyitott kérdés: gondolj egy szeretett játékra, írd le 1 mondatban, melyik korosztálynak használnád legszívesebben és mi az az 1 kockázat, amire figyelnél. 1–2 mondat elég.",
+      "spec": "Szabad szöveges mező, nyitott kérdés: gondolj egy szeretett játékra, írd le 1 mondatban, melyik korosztálynál használnád legszívesebben és mi az az 1 kockázat, amire figyelnél. 1–2 mondat elég.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22521,7 +22521,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0e2d9ae043bd6412a4a94e4a314612b0b57599c4a1e950fe813917c21ea5f33a",
+      "spec_hash": "2b7c32916ec87f2f187d5ef1803630e92943a7d9b4b5abd0045744d26aefb6ff",
       "deliverable_ids": [
         "M6.1-EGY-11"
       ],
@@ -22544,7 +22544,7 @@
       "status": "spec-ready",
       "title": "Játék-kategória ikonok – 5 kategória",
       "purpose": "Az 5 játék-kategória vizuális bevezetése név + rövid leírás szinten.",
-      "spec": "Öt kis kategória-ikon a számozott listához: 1. Ismerkedős/névtanulós; 2. Energizer/mozgásos; 3. Bizalom-/kontakt; 4. Reflexiós/beszélgetős; 5. Mélyebb élmény-alapú. Tartalmi ikon-lista; a kategórianevek + rövid leírás élő, számozott szövegként is jelen.",
+      "spec": "Öt kis kategória-ikon a számozott listához: 1. Ismerkedős/névtanulós; 2. Energizer/mozgásos; 3. Bizalom-/kontakt; 4. Reflexiós/beszélgetős; 5. Mélyebb élményjáték. Tartalmi ikon-lista; a kategórianevek + rövid leírás élő, számozott szövegként is jelen.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -22580,7 +22580,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c6ab0ee4122ca0725419c20815d531cc23ad6b012bdb58c779475733554b8237",
+      "spec_hash": "984ae09a57087336cb104f5967848273eb732bd8851df5e95f06321c0d0f26d3",
       "deliverable_ids": [
         "M6.1-IKO-01",
         "M6.1-IKO-01::ALTTEXT"
@@ -22669,8 +22669,8 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés”",
-      "purpose": "Rámutatni, hogy bizalom-/kontakt-játék = magasabb kockázat.",
-      "spec": "Egy kártya-illusztráció: bizalom-/kontakt-játék „Csukott szemű vezetés” – párokban, egyik csukott szemmel sétál, másik vezeti/irányítja/figyel. Korosztály-címke (inkább 13–17; fiatalabbaknál csak óvatosan).",
+      "purpose": "Rámutatni, hogy bizalom-/kontaktjáték = magasabb kockázat.",
+      "spec": "Egy kártya-illusztráció: bizalom-/kontaktjáték „Csukott szemű vezetés” – párokban, egyik csukott szemmel sétál, másik vezeti/irányítja/figyel. Korosztály-címke (inkább 13–17; fiatalabbaknál csak óvatosan).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -22706,7 +22706,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "233ae9e3cbb68280c91fa46861444687a0190e120181244fe9d488dc3c7fb255",
+      "spec_hash": "2f99889581aea486b3ba6d06b28380cdee957f18db4a19a3b70268086bcf8bd3",
       "deliverable_ids": [
         "M6.1-ILL-02",
         "M6.1-ILL-02::ALTTEXT"
@@ -22902,12 +22902,12 @@
         468,
         492
       ],
-      "source_text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontakt-játékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
-      "source_hash": "0115ed8e6281de0b1325d9f84e21ec3665a0722973d71f545effa387eed2ccee",
+      "source_text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
+      "source_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "0115ed8e6281de0b1325d9f84e21ec3665a0722973d71f545effa387eed2ccee",
+      "copy_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
       "spec_hash": "ec6a63c47b34dc0f36bc316e816a509ff0d23a132a4a978b618d91373bfb76df",
       "deliverable_ids": [
         "M6.1-NAR-03",
@@ -23004,7 +23004,7 @@
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat",
+      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat",
       "purpose": "A bizalomjáték kockázatának hangos kifejtése.",
       "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a „Csukott szemű vezetés” mint erős élmény és fizikai/érzelmi kockázat; mit nézz (kor, ismeretség, jelzés-képesség); inkább 13–17, fiatalabbaknál csak egyszerű, rövid, jól szabályozott verzió.",
       "provenance": "ai",
@@ -23042,13 +23042,13 @@
         850,
         869
       ],
-      "source_text": "„A **bizalom- és kontakt-játékok** már egy másik szint.\n\nA ‘Csukott szemű vezetésnél’\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
-      "source_hash": "1ceb623ca4f7a90dee3b13aa75a6c91e304e5cdb45ac4904b9e0eb8bad2f8d4b",
+      "source_text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
+      "source_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "1ceb623ca4f7a90dee3b13aa75a6c91e304e5cdb45ac4904b9e0eb8bad2f8d4b",
-      "spec_hash": "b5bb1f273352ef018511eeadd245dc01028ec0a157ad49b5b596f714c243823c",
+      "copy_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
+      "spec_hash": "7eac17dae74854130b381c6901c4908064c22bc4f05d9d4ac74d4518bc0a5145",
       "deliverable_ids": [
         "M6.1-NAR-05",
         "M6.1-NAR-05::CAPTIONS",
@@ -23112,12 +23112,12 @@
         1073,
         1091
       ],
-      "source_text": "„A **reflexiós játékok**\nés az **érzékenyebb témák feldolgozása** között is van különbség.\n\nEgy beszélgető kártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználjatok fiktív, nem beazonosítható esetet,\nés kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
-      "source_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
+      "source_text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
+      "source_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
+      "copy_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
       "spec_hash": "88a2cc5abc68ea5ffbe340929e2ef918c7f98788b09bd892a526c7514879c642",
       "deliverable_ids": [
         "M6.1-NAR-06",
@@ -23182,12 +23182,12 @@
         1384,
         1394
       ],
-      "source_text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynak adnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
-      "source_hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
+      "source_text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
+      "source_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
+      "copy_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
       "spec_hash": "a5b1eb53bb9769070b9c4b98e8448b66ac1aec38083d6e0270dbc6457787e913",
       "deliverable_ids": [
         "M6.1-NAR-07",
@@ -23229,7 +23229,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "csak a képi sáv (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a felirat és a leirat szó szerint lefedi a narrációt; a videóelemet a dián látható, leíró videócímke azonosítsa (SC 1.1.1)",
-        "note": "Kötelező kapcsolható szinkron magyar felirat (WCAG 1.2.2) + teljes szöveges leirat a dián vagy a médiaelem mellől elérhető szövegként; lásd M6.1-VID-01::CAPTIONS és M6.1-VID-01::TRANSCRIPT."
+        "note": "Kötelező kapcsolható szinkron magyar felirat (WCAG 1.2.2) + teljes szöveges leirat a dián vagy a médiaelem mellett látható szövegként; lásd M6.1-VID-01::CAPTIONS és M6.1-VID-01::TRANSCRIPT."
       },
       "derivatives": [
         "voiceover",
@@ -23265,7 +23265,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b750e8d307086e3a46389f3663a6eb5866292cb2bfc2f6b495e4a88f22cf3659",
-      "spec_hash": "f0f35b927a3cc7a7112c00327b306388b6ae186e7242814627ae60ac8933a251",
+      "spec_hash": "7554ae085033edbfc108414ceaab9748672859c0382d6060cf2e7d9a76b2f102",
       "deliverable_ids": [
         "M6.1-VID-01",
         "M6.1-VID-01::VOICEOVER",
@@ -23363,7 +23363,7 @@
       "status": "spec-ready",
       "title": "Tartalmi ikonok – „Miért mesélünk?” (szív, tükör, kérdőjel)",
       "purpose": "A négy ok vizuális megerősítése; az érdemi ikonok a kulcsfogalmat hordozzák",
-      "spec": "Kis ikon-készlet a 4 bullethez (pl. szív = érzéseket elérni, tükör = tükröt tart a kvucának, kérdőjel = ha jól kérdezel). A tartalmi ikonok érdemi alttal, az esetleges dekoratív kísérők rejtett alttal.",
+      "spec": "Kis ikon-készlet a 4 bullethez (pl. szív = „érezni, nem csak gondolkodni”, tükör = „tükröt tart a kvucának”, kérdőjel = ha jól kérdezel). A tartalmi ikonok érdemi alttal, az esetleges dekoratív kísérők rejtett alttal.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23399,7 +23399,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e624b37b9a343513a1fdf8fa73aa1d3215dbd885b6c41eb15216ff81fcba8cbb",
+      "spec_hash": "f62c06097de060be495beab6ecb36422b92f4287e71997b1a47108489ef3ac92",
       "deliverable_ids": [
         "M6.2-IKO-01",
         "M6.2-IKO-01::ALTTEXT"
@@ -23643,7 +23643,7 @@
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Narráció – SLIDE 6 „Nem minden téma/nyelv jó” (45–60 mp)",
+      "title": "Narráció – SLIDE 6 „Nem minden téma és nyelv jó” (45–60 mp)",
       "purpose": "Trigger- és korosztály-érzékenység átadása hangban",
       "spec": "45–60 mp magyar narráció: korosztály-érzékenység, kisebbeknek egyszerű hétköznapi helyzetek, kerülni a túl sötét/traumatikus sztorit, vallási/politikai kérdések kontextusa, cél a segítő tükör.",
       "provenance": "ai",
@@ -23687,7 +23687,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "e58dd7b746d44654201672b8ff90b5021d249da677434b5cbfdcc00e3a8b203e",
-      "spec_hash": "e72b3207cc4ec601c654a253e4a02ad309837f4eb77a132810d7c1c4afc7e472",
+      "spec_hash": "52a0a83d6ba0ce751b9a64f7f7e8a64934c94dea1645ce5d492ba0ad1915749a",
       "deliverable_ids": [
         "M6.2-NAR-06",
         "M6.2-NAR-06::CAPTIONS",
@@ -23789,7 +23789,7 @@
       "subtype": "ai-talking-head",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Hook – AI beszélő fej: „fagyott csend lett a sztoritól?”",
+      "title": "Hook – AI beszélő fej: „kínos csend lett a sztori után?”",
       "purpose": "Érzelmi bevonás, a lecke keretének felvezetése a tanuló saját élményén keresztül",
       "spec": "AI-generált beszélő fej (kb. 35–45 mp) magyar narrációval, ami felvezeti a leckét: a kínos csend / túl személyes történet élménye, a történet mint erős, összekapcsoló de túlcsorduló eszköz, és hogy a lecke a történetet mint tükröt és a reflektáló kérdéseket veszi át. A SLIDE 1 narrációja (M6.2-VID-01-VO) a beszélt szöveg.",
       "provenance": "ai",
@@ -23801,7 +23801,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "csak a képi sáv (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a felirat és a leirat szó szerint lefedi a narrációt; a videóelemet a dián látható, leíró videócímke azonosítsa (SC 1.1.1)",
-        "note": "Kell kapcsolható magyar felirat (WCAG 1.2.2) + teljes szöveges leirat a dián vagy a médiaelem mellől elérhető szövegként; lásd M6.2-VID-01::CAPTIONS és M6.2-VID-01::TRANSCRIPT"
+        "note": "Kell kapcsolható magyar felirat (WCAG 1.2.2) + teljes szöveges leirat a dián vagy a médiaelem mellett látható szövegként; lásd M6.2-VID-01::CAPTIONS és M6.2-VID-01::TRANSCRIPT"
       },
       "derivatives": [
         "voiceover",
@@ -23831,13 +23831,13 @@
         122,
         143
       ],
-      "source_text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalaki láthatóan rosszul lett tőle,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
-      "source_hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
+      "source_text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
+      "source_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
-      "spec_hash": "5c8fabf2965da50f898dd71536db51712304946355afbbf0b9e6491a29a447ff",
+      "copy_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
+      "spec_hash": "293cc446e950629d1ad7a95e9a520846e222041388a1a96a440256d1dd275d0e",
       "deliverable_ids": [
         "M6.2-VID-01",
         "M6.2-VID-01::VOICEOVER",
@@ -24781,12 +24781,12 @@
         1103,
         1119
       ],
-      "source_text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár egy saját ötletet –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
-      "source_hash": "cc91c3767411c1ae09b44fd72418a1a79e3c14dc3d2b51b84d89137c0dbc4a13",
+      "source_text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
+      "source_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "cc91c3767411c1ae09b44fd72418a1a79e3c14dc3d2b51b84d89137c0dbc4a13",
+      "copy_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
       "spec_hash": "23f15cc0ee756f2d9c4ffe3836a4451255ad064db8f886e0cd23d35a4e9e9197",
       "deliverable_ids": [
         "M6.3-NAR-06",
@@ -25164,7 +25164,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-      "line": 235,
+      "line": 237,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -25223,14 +25223,14 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-      "line": 130,
+      "line": 132,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Rubrika / minimum-checklista (értékelő lap)",
       "purpose": "Közös minőségi nyelvet ad: tisztázza, mi a „minimum oké” egy játéklapnál, és előkészíti a 4.4 blokk élő, rubrika-alapú társas visszajelzését.",
-      "spec": "Egyszerű, 5 soros értékelő lap kinyomtatva (vagy flipchartra felírható sablonként): az M6 KAPU játéklap-rubrikájának sorai háromfokú skálával (Még nem / Oké / Erős), soronként a kapu „Oké”-ellenőrzőlistájának pontjával: R1 Cél – 1 konkrét, kimondott, az eszközhöz illő cél; R2 Kvuca – korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) és létszám, az eszköz és a korosztály nem ütközik a tanultakkal; R3 Leírás – legalább 3 lépésből álló menet, időkeret és eszközlista; R4 Biztonság (blokkoló) – legalább 1 konkrét, erre az eszközre vonatkozó biztonsági mondat; R5 Inkluzivitás (blokkoló) – legalább 1 megnevezett akadály és 1 konkrét alternatív belépési pont. A 4.2 Lépés 2 ezt mutatja be; ugyanez a rubrika köszön vissza a 4.4 mini-bemutatók társas visszajelzésénél.",
+      "spec": "Egyszerű, 5 soros értékelő lap kinyomtatva (vagy flipchartra felírható sablonként): az M6 KAPU játéklap-rubrikájának sorai háromfokú skálával (Még nem / Oké / Erős), soronként a kapu „Oké”-ellenőrzőlistájának pontjával: R1 Cél – legalább 1 konkrét, kimondott, az eszközhöz illő cél; R2 Kvuca – korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17; elég a név vagy az életkor) és létszám, az eszköz és a korosztály nem ütközik a tanultakkal; R3 Leírás – legalább 3 lépésből álló menet, időkeret és eszközlista; R4 Biztonság (blokkoló) – legalább 1 konkrét, erre az eszközre vonatkozó biztonsági mondat; R5 Inkluzivitás (blokkoló) – legalább 1 megnevezett akadály és 1 konkrét alternatív belépési pont. A 4.2 Lépés 2 ezt mutatja be; ugyanez a rubrika köszön vissza a 4.4 mini-bemutatók társas visszajelzésénél.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -25263,7 +25263,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "938739455fc330c092a742cfd3128a57bb680cb0fc542f3854685b7d7a4dd491",
+      "spec_hash": "2499c79c76176d4a8200a56acf9c1b2f3dcc02741c9c56f564dc707747ed16a8",
       "deliverable_ids": [
         "M6.B-MUNK-02",
         "M6.B-MUNK-02::PRINTPDF"
@@ -25280,7 +25280,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-      "line": 162,
+      "line": 164,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -25337,7 +25337,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-      "line": 268,
+      "line": 270,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -25394,7 +25394,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-      "line": 300,
+      "line": 302,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -25451,14 +25451,14 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-      "line": 516,
+      "line": 521,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista (1 A4 – peula előtt/közben)",
       "purpose": "A képző felkészülését és a levezetés minőségbiztosítását segítő, kinyomtatható egyoldalas segédlet.",
-      "spec": "Egyoldalas (1 A4) képzői ellenőrzőlista a peula levezetéséhez, 6 blokkal: 1) Tiszták a célok?; 2) Megvan minden eszköz? (sablonok, rubrika, tollak/post-it/papír, időmérő, tábla/flipchart); 3) Van saját mintajátéklapod? (1 rövid játék-példa, mellette 1 történet- és 1 kézműves-mintapélda; mindegyikben cél/kvuca/biztonság/inkluzivitás/variációk); 4) Biztonsági keret a fejben (kész mondatok, pl. „Nem kell tökéletesnek lennie, ez egy első verzió…”; tudod, kit hívsz oda / kinek jelzel, ha valaki nagyon elbizonytalanodik); 5) Időkezelés (honnan veszel el időt, vállalás-körre min. 3 perc); 6) Híd Moodle felé. Pipálható tételekkel.",
+      "spec": "Egyoldalas (1 A4) képzői ellenőrzőlista a peula levezetéséhez, 6 blokkal: 1) Tiszták a célok?; 2) Megvan minden eszköz? (sablonok, rubrika, tollak/post-it/papír, időmérő, tábla/flipchart; a második félcsoporthoz kijelölt, eligazított felnőtt stábtag és második flipchart vagy kinyomtatott kérdéssor); 3) Van saját mintajátéklapod? (1 rövid játék-példa, mellette 1 történet- és 1 kézműves-mintapélda; mindegyikben cél/kvuca/biztonság/inkluzivitás/variációk); 4) Biztonsági keret a fejben (kész mondatok, pl. „Nem kell tökéletesnek lennie, ez egy első verzió…”; tudod, kinek jelzel / kihez fordulsz, ha a peula alatt valaki nagyon rosszul érzi magát egy játék, emlék vagy felismerés miatt: a kijelölt Memunának (a Somer gyermekvédelmi felelősének), összeférhetetlenség esetén a név szerint kijelölt helyettesének); 5) Időkezelés (honnan veszel el időt, vállalás-körre min. 3 perc); 6) Híd Moodle felé. Pipálható tételekkel.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -25491,7 +25491,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b0cbfd713f1c9d4c001c054510927373ff47f3cc26573ba6b61483de3abcd616",
+      "spec_hash": "3ecad81ccbfec95a98094cbfd9527c9c508000cf7ef2dc0e3f567d8d83c72509",
       "deliverable_ids": [
         "M6.B-MUNK-06",
         "M6.B-MUNK-06::PRINTPDF"
@@ -25508,14 +25508,14 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
-      "line": 380,
+      "line": 384,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Produktum-visszajelzés flipchart-sablon (Megfigyelés → Hatás → Következő lépés)",
       "purpose": "Vizuális keret a társas visszajelzés gyakorlásához; segít, hogy a résztvevők általános dicséret helyett a játéklap egy konkrét elemére, annak várható hatására és egy következő lépésre reagáljanak.",
-      "spec": "Flipchartra/táblára felírható vagy A3/A4-en kinyomtatható produktum-visszajelzési poszter három kérdéssel: (1) Megfigyelés: melyik konkrét elemet látod a lapon? (2) Hatás: milyen várható hatása lehet ennek a kvucára vagy a következő madrih munkájára? (3) Következő lépés: mit lenne jó még hozzáadni vagy pontosítani? Tartalmazza a kész mintamondatot: „Amikor elképzeltem, hogy egy 6–9 éves Parparim-kvucával ezt a játékot vinném, feltűnt, hogy a biztonság sorban külön odaírtad: ‘nem kötelező felállni, ülve maradni is rendben van’. Ettől egy szorongóbb hanihnak is lenne benne biztonságos opciója. Következő lépésként érdemes lehet még egy variációt írni egy másik korosztályra is.” A lap alján rövid horgony: „M1 emlékeztető: az SBI viselkedésre való; produktumra a Megfigyelés → Hatás → Következő lépés modellt használjuk.”",
+      "spec": "Flipchartra/táblára felírható vagy A3/A4-en kinyomtatható produktum-visszajelzési poszter három kérdéssel: (1) Megfigyelés: melyik konkrét elemet látod a lapon? (2) Hatás: milyen várható hatása lehet ennek a kvucára vagy a következő madrih munkájára? (3) Következő lépés: mit lenne jó még hozzáadni vagy pontosítani? Tartalmazza a kész mintamondatot: „Amikor elképzeltem, hogy egy 6–9 éves Parparim-kvucával ezt a játékot vinném, feltűnt, hogy a biztonság sorban külön odaírtad: ‘nem kötelező felállni, ülve maradni is rendben van’. Ettől egy szorongóbb hanihnak is lenne benne biztonságos opciója, és egy másik madrih is könnyebben tudná biztonságosan megtartani a játékot. Következő lépésként érdemes lehet még egy variációt írni egy másik korosztályra is.” A lap alján rövid horgony: „M1 emlékeztető: az SBI viselkedésre való; produktumra a Megfigyelés → Hatás → Következő lépés modellt használjuk.”",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -25536,7 +25536,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A forrás „Írd fel a táblára” instrukcióját egy egyszerű produktum-visszajelzési sablonra pontosítjuk. Az SBI viselkedésre való (emberre adott SBI-ben a B megfigyelhető viselkedés); a játéklapra mint produktumra a Megfigyelés → Hatás → Következő lépés modell szól.",
+      "notes": "A forrás „Írd fel a táblára” instrukcióját egy egyszerű produktum-visszajelzési sablonra pontosítjuk. Az SBI viselkedésre való (az emberre adott SBI-ben a „Viselkedés” (B) elem a megfigyelhető viselkedést írja le); a játéklapra mint produktumra a Megfigyelés → Hatás → Következő lépés modell szól.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -25548,7 +25548,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "9a7f05ecbaba57d833b58cb0bda3c78a04ea05d6cd190ec4254d9147c0866072",
+      "spec_hash": "5eb33adb846931db403d249bb17097785b54f6e9446b34d14cd0bbd012d1d5bb",
       "deliverable_ids": [
         "M6.B-POSZ-01",
         "M6.B-POSZ-01::PRINTPDF"
@@ -44397,8 +44397,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-03-VO",
-      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontakt-játékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
-      "text_hash": "0115ed8e6281de0b1325d9f84e21ec3665a0722973d71f545effa387eed2ccee",
+      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
+      "text_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
       "blockers": [
         "R2",
         "R3"
@@ -44421,8 +44421,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-03-VO",
-      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontakt-játékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
-      "text_hash": "0115ed8e6281de0b1325d9f84e21ec3665a0722973d71f545effa387eed2ccee",
+      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
+      "text_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
       "blockers": [
         "R2",
         "R3"
@@ -44445,8 +44445,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-03-VO",
-      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontakt-játékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
-      "text_hash": "0115ed8e6281de0b1325d9f84e21ec3665a0722973d71f545effa387eed2ccee",
+      "text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
+      "text_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
       "blockers": [
         "R2",
         "R3"
@@ -44536,13 +44536,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat",
+      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-05-VO",
-      "text": "„A **bizalom- és kontakt-játékok** már egy másik szint.\n\nA ‘Csukott szemű vezetésnél’\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
-      "text_hash": "1ceb623ca4f7a90dee3b13aa75a6c91e304e5cdb45ac4904b9e0eb8bad2f8d4b",
+      "text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
+      "text_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
       "blockers": [
         "R2",
         "R3"
@@ -44560,13 +44560,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat — felirat",
+      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-05-VO",
-      "text": "„A **bizalom- és kontakt-játékok** már egy másik szint.\n\nA ‘Csukott szemű vezetésnél’\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
-      "text_hash": "1ceb623ca4f7a90dee3b13aa75a6c91e304e5cdb45ac4904b9e0eb8bad2f8d4b",
+      "text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
+      "text_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
       "blockers": [
         "R2",
         "R3"
@@ -44584,13 +44584,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat — leirat",
+      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-05-VO",
-      "text": "„A **bizalom- és kontakt-játékok** már egy másik szint.\n\nA ‘Csukott szemű vezetésnél’\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
-      "text_hash": "1ceb623ca4f7a90dee3b13aa75a6c91e304e5cdb45ac4904b9e0eb8bad2f8d4b",
+      "text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
+      "text_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
       "blockers": [
         "R2",
         "R3"
@@ -44613,8 +44613,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-06-VO",
-      "text": "„A **reflexiós játékok**\nés az **érzékenyebb témák feldolgozása** között is van különbség.\n\nEgy beszélgető kártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználjatok fiktív, nem beazonosítható esetet,\nés kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
-      "text_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
+      "text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
+      "text_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
       "blockers": [
         "R2",
         "R3"
@@ -44637,8 +44637,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-06-VO",
-      "text": "„A **reflexiós játékok**\nés az **érzékenyebb témák feldolgozása** között is van különbség.\n\nEgy beszélgető kártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználjatok fiktív, nem beazonosítható esetet,\nés kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
-      "text_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
+      "text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
+      "text_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
       "blockers": [
         "R2",
         "R3"
@@ -44661,8 +44661,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-06-VO",
-      "text": "„A **reflexiós játékok**\nés az **érzékenyebb témák feldolgozása** között is van különbség.\n\nEgy beszélgető kártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználjatok fiktív, nem beazonosítható esetet,\nés kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
-      "text_hash": "be72000d2955098227206845ac8ab18dba8dcd4e53d25f4d597f570e4312a2cd",
+      "text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
+      "text_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
       "blockers": [
         "R2",
         "R3"
@@ -44685,8 +44685,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-07-VO",
-      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynak adnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
-      "text_hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
+      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
+      "text_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
       "blockers": [
         "R2",
         "R3"
@@ -44709,8 +44709,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-07-VO",
-      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynak adnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
-      "text_hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
+      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
+      "text_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
       "blockers": [
         "R2",
         "R3"
@@ -44733,8 +44733,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.1-NAR-07-VO",
-      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynak adnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
-      "text_hash": "b99343985ca7633093182791c15bc0152ac81e77dee7ba15367010624cd57cdc",
+      "text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
+      "text_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
       "blockers": [
         "R2",
         "R3"
@@ -45148,7 +45148,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 6 „Nem minden téma/nyelv jó” (45–60 mp)",
+      "title": "Narráció – SLIDE 6 „Nem minden téma és nyelv jó” (45–60 mp)",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -45172,7 +45172,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 6 „Nem minden téma/nyelv jó” (45–60 mp) — felirat",
+      "title": "Narráció – SLIDE 6 „Nem minden téma és nyelv jó” (45–60 mp) — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -45196,7 +45196,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 6 „Nem minden téma/nyelv jó” (45–60 mp) — leirat",
+      "title": "Narráció – SLIDE 6 „Nem minden téma és nyelv jó” (45–60 mp) — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -45292,13 +45292,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
       "file_kind": "online-lecke",
-      "title": "Hook – AI beszélő fej: „fagyott csend lett a sztoritól?”",
+      "title": "Hook – AI beszélő fej: „kínos csend lett a sztori után?”",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-01-VO",
-      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalaki láthatóan rosszul lett tőle,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
-      "text_hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
+      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
+      "text_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
       "blockers": [
         "R2",
         "R3"
@@ -45316,13 +45316,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
       "file_kind": "online-lecke",
-      "title": "Hook – AI beszélő fej: „fagyott csend lett a sztoritól?” — felmondott hang",
+      "title": "Hook – AI beszélő fej: „kínos csend lett a sztori után?” — felmondott hang",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-01-VO",
-      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalaki láthatóan rosszul lett tőle,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
-      "text_hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
+      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
+      "text_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
       "blockers": [
         "R2",
         "R3"
@@ -45340,13 +45340,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
       "file_kind": "online-lecke",
-      "title": "Hook – AI beszélő fej: „fagyott csend lett a sztoritól?” — felirat",
+      "title": "Hook – AI beszélő fej: „kínos csend lett a sztori után?” — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-01-VO",
-      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalaki láthatóan rosszul lett tőle,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
-      "text_hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
+      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
+      "text_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
       "blockers": [
         "R2",
         "R3"
@@ -45364,13 +45364,13 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
       "file_kind": "online-lecke",
-      "title": "Hook – AI beszélő fej: „fagyott csend lett a sztoritól?” — leirat",
+      "title": "Hook – AI beszélő fej: „kínos csend lett a sztori után?” — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-01-VO",
-      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalaki láthatóan rosszul lett tőle,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
-      "text_hash": "fd5f38c016688af96cd5675f41d0f0b307a273a6de7a9e0f1d36926895fedc7d",
+      "text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
+      "text_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
       "blockers": [
         "R2",
         "R3"
@@ -46080,8 +46080,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.3-NAR-06-VO",
-      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár egy saját ötletet –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
-      "text_hash": "cc91c3767411c1ae09b44fd72418a1a79e3c14dc3d2b51b84d89137c0dbc4a13",
+      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
+      "text_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
       "blockers": [
         "R2",
         "R3"
@@ -46104,8 +46104,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.3-NAR-06-VO",
-      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár egy saját ötletet –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
-      "text_hash": "cc91c3767411c1ae09b44fd72418a1a79e3c14dc3d2b51b84d89137c0dbc4a13",
+      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
+      "text_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
       "blockers": [
         "R2",
         "R3"
@@ -46128,8 +46128,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.3-NAR-06-VO",
-      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár egy saját ötletet –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
-      "text_hash": "cc91c3767411c1ae09b44fd72418a1a79e3c14dc3d2b51b84d89137c0dbc4a13",
+      "text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
+      "text_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
       "blockers": [
         "R2",
         "R3"

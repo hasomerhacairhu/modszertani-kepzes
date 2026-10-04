@@ -267,7 +267,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | AI beszélőfej-videó | `M2.2-VID-01` | B3 | R2, R3 | 18 | Hook-videó: „A kvucád 15 percet késik…” |
 | AI karakter- / jelenetvideó | `M4.1-VID-05` | B3 | R2, R3 | 9 | Jelenet 3 karaktervideó – „Nyitott, stabil madrih” |
 | Diagram / ábra | `M1.B-DIA-01` | B0 | — | 39 | Szerepcsere-ábra (A→C, C→B, B→A forgás) |
-| Ikon-készlet | `M6.2-IKO-01` | B0 | — | 40 | Tartalmi ikonok – „Miért mesélünk?” (szív, tükör, kérdőjel) |
+| Ikon-készlet | `M4.3-IKO-01` | B0 | — | 40 | Kérdéstípus szín-ikon készlet (4 db) |
 | Illusztráció | `M3.3-ILL-02` | B0 | — | 46 | Jelenet – Branching 2: sértő mém a csoportchatben |
 | Munkalap / nyomtatvány | `Z.A-MUNK-01` | B0 | — | 61 | Híd a terepre – kétoszlopos poszter-sablon |
 | Poszter és kártyaszett | `M5.B-KART-01` | B0 | — | 59 | Indítósor-kártyaszett (6-8 db kész táblázat-sor) |

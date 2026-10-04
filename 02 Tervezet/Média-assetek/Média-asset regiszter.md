@@ -727,7 +727,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.1-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 2: 3 aktuális korosztály bemutatása | `M6.1-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 3: 5 játék-kategória | `M6.1-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 4: ismerkedős + energizer | `M6.1-NAR-04-VO` | felirat, leirat | AI-generált |
-| `M6.1-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 5: bizalom-/kontakt-játék + kockázat | `M6.1-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M6.1-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat | `M6.1-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 6: reflexiós vs. mély élmény | `M6.1-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-07` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 8 outro (opcionális rövid videóhoz) | `M6.1-NAR-07-VO` | felirat, leirat | AI-generált |
 | `M6.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélőfej-videó – „Volt már olyan, hogy nem ült a játék?” | `M6.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
@@ -743,9 +743,9 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.2-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 2 „Miért mesélünk történeteket?” (40–50 mp) | `M6.2-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M6.2-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 4 történet 2. rész (40–50 mp) | `M6.2-NAR-04-VO` | felirat, leirat | AI-generált |
 | `M6.2-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 5 „Történet, mint tükör – kérdések” (45–60 mp) | `M6.2-NAR-05-VO` | felirat, leirat | AI-generált |
-| `M6.2-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 6 „Nem minden téma/nyelv jó” (45–60 mp) | `M6.2-NAR-06-VO` | felirat, leirat | AI-generált |
+| `M6.2-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 6 „Nem minden téma és nyelv jó” (45–60 mp) | `M6.2-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M6.2-NAR-07` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 7 Activity „Te hogyan tennéd tükörré?” (30–40 mp) | `M6.2-NAR-07-VO` | felirat, leirat | AI-generált |
-| `M6.2-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook – AI beszélő fej: „fagyott csend lett a sztoritól?” | `M6.2-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
+| `M6.2-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook – AI beszélő fej: „kínos csend lett a sztori után?” | `M6.2-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 | `M6.2-VID-02` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Opcionális beszélő fej / narrációs videó – „Az új lány a körben” (1. rész) | `M6.2-VID-02-VO` | felmondott hang, felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md
