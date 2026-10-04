@@ -209,6 +209,9 @@ Utólagos ellenőrzés (vétó/QA): a peula tartalomfelelőse.
 - **Következmény (nem új döntés, jelzés):** a „Workshop → műhely” csere ezen a helyen a Moodle-tevékenység nevét is
   lecserélte. Ha a korpuszban máshol is történt ilyen csere, az ugyanilyen hiba; a további modulok nyelvi review-jában
   külön figyelendő.
+- **Felülírva (2026-10-04, M6-NY-D24):** a Workshopra vonatkozó rész, a fenti „Következmény” jelzéssel együtt. A kérdés
+  nem mutatta meg a 2026-09-29-i konszolidáció kánonját (`Program terv.md:193, :248`; `LMS – activity manifest.md:75,
+  :160`: az M6 első kiadása nem függ a Moodle Workshoptól).
 
 ## 6. kör — cím, leirat, jelképek
 
@@ -244,8 +247,87 @@ tartalomgazda (D23).
 - **Átvezetés:** a 938. sor zárómondata („Az alábbi érzékenységkezelés ezt nem váltja ki, hanem kiegészíti”) helyett a
   szöveg egyértelműen kimondja, hogy az érzékenységi szabály a mozgalmi jelképekre is vonatkozik (M6-NY-D10-zel együtt).
 
+## 7. kör — a course-fix célzott újraellenőrzése (UE7)
+
+A `2026-10-04 course-fix napló – M6 nyelvi review.md` nyitott UE7-tételeire. A projektgazda a választ a munkamenetben
+írásban adta meg, és megerősítette, hogy az ő döntése és utasítása (AskUserQuestion: „Igen, mind így”). A válaszok
+szó szerint állnak.
+
+Utólagos ellenőrzés (vétó/QA): a peula tartalomfelelőse (D25, D26), a Memuna (D27), a DPO (D24: nem nyílik új
+adatfolyam).
+
+### M6-NY-D24 — UE7-BIZT-1 / UE7-PED-1 (M6.B:576; a D20 részleges felülírása)
+
+- **Kérdés (a course-fix jelentéséből):** a D20 szerint visszaírt „Moodle Workshop-tevékenység” ütközik a `Program
+  terv.md:193, :248` és az `LMS – activity manifest.md:75, :160` kánonjával, és új tanulói adatfolyamot nyitna. (a) A
+  Workshop bekerül az első kiadásba, vagy (b) a 576. sor a kánonhoz igazodik, Workshop nélkül.
+- **Válasz:** „(b). Az M6 első kiadásába **nem kerül Moodle Workshop**. A D20-at ebben a részében felülírom, mert a
+  döntéshez nem volt megadva a 2026-09-29-i konszolidáció és az LMS-manifest releváns kánonja. Az M6.B:576 igazodjon a
+  jelenlegi kánonhoz, Workshop nélkül. Használható például: „A mai élő peulán kapott visszajelzéseket a játéklap
+  véglegesítésekor is felhasználhatják.” Ne nyissunk emiatt új adatfolyamot, ne módosítsuk a Program tervet,
+  LMS-manifestet vagy Adatvédelem §5-öt.”
+- **Átvezetés:** M6.B 575–577: a Workshop-tagmondat helyett a válasz mintamondata. A Program terv, az LMS-manifest és
+  az `Adatvédelem` §5 nem változik.
+
+### M6-NY-D25 — UE7-PED-3 (M6.A:574; a D12 második fele)
+
+- **Válasz:** „Javítsd az M6.A:574-et erre: „Ennél a játéknál a tét nélküli, kiesésre vagy felállásra kényszerítő
+  verzió a rossz minta.” Így a mondat lokális marad, és pontosan összhangban van a D12 hatókörével.”
+- **Átvezetés:** M6.A:574 szó szerint a válasz mondatára.
+
+### M6-NY-D26 — UE7-PED-2 (M6.B:86, :373, 4.4.1–4.4.2; a D18 következménye)
+
+- **Válasz:** „A második félcsoportot **előre kijelölt felnőtt stábtag** vezeti ugyanazzal a facilitátori sablonnal.
+  Ha van második képző, ő legyen az elsődleges választás. Résztvevő ne vezesse a félcsoportot. Vezesd ezt
+  következetesen át az M6.B:86, :373 és a 4.4.1–4.4.2 lépések között.”
+- **Átvezetés:** M6.B 86, 373, a 4.4 blokk szervezése, a 4.4.1 instrukciója és a 4.4.2 lépései. Az időtartam nem
+  változik. A bemutatók száma (2–3) félcsoportonként értendő, mert mindkét félcsoport ugyanazt a 8–10 percet kapja
+  (4.4.2); az időszelep (569) ugyanígy.
+
+### M6-NY-D27 — UE7-PED-4 (M6.4:826 és :1014)
+
+- **Válasz:** „Igen, kerüljön mindkét érintett blokkba rövid utalás az M6.A négy lépéses eljárására. Fontos: ez csak
+  a látható kibillenés esetén követendő teendőt tegye egyértelművé. **A D1 kiváltó feltétele és a Memuna bevonásának
+  küszöbe ne változzon.** A kibillenés önmagában ne váljon automatikus gyermekvédelmi feltárási triggerré.”
+- **Átvezetés:** a két blokk végére ugyanaz a rövid utalás kerül az M6.A 4.3.2/B négy lépésére. A Memuna bevonásának
+  küszöbe az M6.A:498 szavaival áll („ha valaki erősen érintett”). A D1 kiváltó feltétele (csak a feltárás indítja az
+  ötlépéses jelzési utat) és a blokkok védelmi elemei nem változnak.
+
+## 8. kör — UE8-PED-3 és a D6 megfogalmazása
+
+A `2026-10-04 course-fix napló – M6 nyelvi review.md` UE8-PED-3 tételére (a PR #19 nyitott tétele). A projektgazda a
+választ a munkamenetben írásban adta meg, és megerősítette, hogy az ő döntése és utasítása (AskUserQuestion: „Igen,
+mind így”). A válasz szó szerint áll.
+
+Utólagos ellenőrzés (vétó/QA): a peula tartalomfelelőse.
+
+### M6-NY-D28 — UE8-PED-3 (M6.B: ha nincs második felnőtt; a D26 kiegészítése)
+
+- **Kérdés (a course-fix jelentéséből):** ha a peulán nincs második felnőtt, nagycsoportos tartalékváltozat fut-e,
+  vagy a peula csak második felnőttel tartható?
+- **Válasz:** „Ha a peulán nincs második felnőtt, **nem osztjuk két félcsoportra a 4.4.2-t**. A blokk egyetlen
+  nagycsoportban fusson, az egyetlen képző vezetésével. Tehát: két félcsoport csak akkor van, ha rendelkezésre áll a
+  második, előre kijelölt felnőtt stábtag; résztvevő továbbra sem vezethet félcsoportot; ha nincs második felnőtt, a
+  peula ettől még megtartható; a 4.4.2 nagycsoportos tartalékváltozatban fusson; az eredeti teljes időkeret ne nőjön,
+  szükség esetén a bemutatók száma csökkenjen az időszelep szerint; a tanulási cél, a rubrika és a biztonsági keret ne
+  változzon. Ezt vezesd át minden olyan helyre, ahol a két félcsoportra épül a végrehajtás vagy az előkészítés, és
+  rögzítsd új projektgazdai döntésként.”
+- **Átvezetés:** az M6.B minden félcsoportra épülő helye (percbontás, blokkcél, 4.4 „Szervezés”, 4.4.1, 4.4.2,
+  előkészítés 2.1 és 2.3, 5. lista 2. pontja és időkezelése, M6.B-MUNK-06 spec) két ágat kap. Ha van második, előre
+  kijelölt felnőtt: két félcsoport (D26). Ha nincs: a 4.4.2 nagycsoportban fut, összesen 2–3 bemutatóval, ugyanabban
+  az időkeretben, csúszásnál az időszelep szerint. Időtartam, tanulási cél, rubrika és biztonsági keret nem változik.
+
+### A D6 megfogalmazásának jóváhagyása
+
+- **Válasz:** „A D6 átvezetését, vagyis az **„elég a név vagy az életkor”** megfogalmazást jóváhagyom. Ez pontosabb,
+  mint az eredeti „évszám”, és itt valóban a 6–9 / 10–12 / 13–17 korosztály-sávokról beszélünk.”
+
 ## Összesítés
 
 23 kérdés, 23 lezárt döntés (M6-NY-D1…D23); egyik sem „később döntök”. Lezárult velük a korábban nyitott **UE-IMPL-4**
 is (M6-NY-D22). Az átvezetés a `/course-fix`-é, a validált finding-listával együtt
 (`2026-10-04 Nyelvi review – M6, Anna-baseline összevetés.md`).
+
+A 7. kör négy további döntése (M6-NY-D24…D27) a course-fix célzott újraellenőrzésének nyitott tételeit zárja le. A
+D24 a D20 Workshopra vonatkozó részét felülírja. A 8. kör (M6-NY-D28) a D26-ot egészíti ki arra az esetre, ha nincs
+második felnőtt, és jóváhagyja a D6 átvezetésének megfogalmazását.
