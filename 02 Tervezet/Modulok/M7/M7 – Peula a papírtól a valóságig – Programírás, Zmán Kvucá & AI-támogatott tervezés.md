@@ -180,7 +180,7 @@ A modul végére a madrih…
   Megkülönböztetni a „szétfolyó” kívánságszintű célokat a **SMART nevelési céltól**, és 1 saját peula-ötlethez SMART célt írni.
 * **Programírás-fókusz:**
   „Ha nem tudom pontosan, mit szeretnék, nem tudom jól megtervezni a peulát sem.”
-* **Eszközök:** H5P **Course Presentation** (**7 slide**) + beépített **Single Choice Set** + **Fill in the Blanks** + **rövid szöveges válasz** (a záró SLIDE 7 saját SMART cél megírására).
+* **Eszközök:** H5P **Course Presentation** (**7 slide**) + beépített **Single Choice Set** + **Fill in the Blanks**; a záró SLIDE 7 saját SMART céljának mezői a lecke melletti Moodle-oldali szövegmezőben (`LMS – activity manifest.md`, LMS-M7-10).
 * **Tartalom röviden:**
   * „Szétfolyó vágyak” vs. mérhető célok (kvuca-szituációkra írva).
   * SMART definíció **madrih-nyelven** + 2 someres minta (pl. szolidaritás / biztonság).

@@ -67,7 +67,7 @@ A modul végére a madrih…
   * M0–M7 + Z idővonal (modulcímek 1 mondattal);
   * mit ígér a program (nem vagy egyedül, támogatás, kapuk, fejlődés);
   * első reflektív kérdés: „Mit várok ettől az évtől madrihként?”
-* **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (idővonal + mini-kérdések, 1 nyitott kérdés). A szabad szöveges mezők konkrét megvalósítását az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli; a Course Presentation dián belüli szabad szöveges mező nem feltételezhető.
+* **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (idővonal + mini-kérdések, 3 szöveges lépés: SLIDE 1, 6, 7). A szöveges lépések tanuló-lokálisak: a tanuló magának írja le őket, beviteli elem és Moodle-oldali mező nem épül hozzájuk (BSPEC-02 leltár, a SLIDE 6-nál D-4; `LMS – activity manifest.md`, LMS-M0-01); a Course Presentation dián belüli szabad szöveges mező nem feltételezhető.
 
 ### L2 / M0.2 – Madrih, nem terapeuta – szerepek és elvárások (15–20’)
 
@@ -76,7 +76,7 @@ A modul végére a madrih…
   * szerepek: mit jelent madrihnak lenni (biztonság, keret, jelzés), és mi az, ami más felelős dolga (szakember, ken-vezető, gyermekvédelmi ügyben a kijelölt Memuna, a Somer gyermekvédelmi felelőse);
   * „madrih, nem terapeuta” – alap gyermekvédelmi logika jelzésszinten;
   * dugma isit 1 mondatban + 2–3 helyzet, ahol ez látszik.
-* **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-kvíz, nyitott reflexió). A szabad szöveges mezők konkrét megvalósítását az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli; a Course Presentation dián belüli szabad szöveges mező nem feltételezhető.
+* **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-kvíz, nyitott reflexió). A szöveges lépések tanuló-lokálisak: a tanuló magának írja le őket, beviteli elem és Moodle-oldali mező nem épül hozzájuk (BSPEC-02 leltár, a SLIDE 6-nál D-4; `LMS – activity manifest.md`, LMS-M0-02); a Course Presentation dián belüli szabad szöveges mező nem feltételezhető.
 
 ### L3 / M0.3 – „Hogyan működik a Moodle / H5P / kapu?” (15–20’)
 

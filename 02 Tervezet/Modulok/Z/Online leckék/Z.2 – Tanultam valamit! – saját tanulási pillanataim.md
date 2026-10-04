@@ -8,7 +8,9 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, mobil-first)
-* Beágyazott kérdéstípusok: Single Choice, Likert-szerű Single Choice, szöveges válasz
+* Beágyazott kérdéstípusok: Single Choice, Likert-szerű Single Choice; a szöveges lépések (SLIDE 5–7) tanuló-lokálisak, beviteli elem nélkül (3. szakasz)
+
+**Completion (lecke):** a választós interakciók érdemi megválaszolása (az LMS-Z-02 H5P-C profilja): SLIDE 1, SLIDE 3 és SLIDE 4 Single Choice. A SLIDE 5–6 reflexiója és a SLIDE 7 háromszavas önellenőrzése kötelező, de tanuló-lokális: nem completion-feltétel (D-3).
 
 **Mikrocél (tanulói nyelven):**
 
@@ -36,12 +38,12 @@
 > *„na, most tanultam valamit magamról / a kvucámról / a madrih-szerepről”*
 > – akár pozitív élmény volt, akár nehéz.
 
-> A lecke **csendes, reflektív**. A beadott válaszaidat csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van. **Nem kell intim vagy érzékeny részletet megosztanod.** Használj anonimizált/általánosított helyzetet, ne írj hanih-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat.
+> A lecke **csendes, reflektív**. A válaszaidat magadnak írod le (jegyzetbe vagy papírra), és nem adod be. **Nem kell intim vagy érzékeny részletet megosztanod.** Használj anonimizált/általánosított helyzetet, ne írj hanih-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat.
 > Nem fogalmazásverseny, hanem **a tanulásod felismerése**.
 
-> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit a lecke mezőibe írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a válaszokat látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak a lecke mezőibe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
+> **Ha veszélyről van szó (a szabály ugyanaz, mint az M3.3-ban):** ha abból, amit leírnál, az derül ki, hogy **te magad vagy valaki más veszélyben van**, azt ne a reflexióba írd: **azonnal vond be a Memunát** (a Somer gyermekvédelmi felelősét). Közvetlen életveszélynél **112**.
 
-*(Fejlesztői feltétel, nem tanulói szöveg: a fenti kivétel továbblépésről szóló mondata csak olyan megvalósításnál igaz, ahol egy kijelölt szerepkör ténylegesen látja a mező tartalmát – LMS a11y-sztenderd, 6. szakasz, 1. út: Moodle-oldali mező; lásd az `LMS – H5P runtime acceptance.md` 6. és 15. pontját. A tényleges hozzáférést a HUM-PRIV-01 döntése rögzíti.)*
+*(Fejlesztői feltétel, nem tanulói szöveg: a lecke szöveges lépései kötelezőek, de tanuló-lokálisak – a tanuló saját jegyzete, beviteli elem és Moodle-oldali mező nélkül (D-3; `LMS – activity manifest.md`, LMS-Z-02; `LMS – H5P runtime acceptance.md` 24. pont). Senki nem olvassa őket, ezért a fenti doboz nem ígér olvasót: a veszélyt közvetlenül a Memunához irányítja. Utólagos ellenőrzés (vétó/QA): a DPO a privacy-megoldásra (D-3), a doboz szövegére a Memuna.)*
 
 > A végén 3 szóval fogod összefoglalni, mit jelentett számodra ez a félév.
 
@@ -56,11 +58,11 @@
 
 ## 3. H5P Course Presentation – SLIDE-BY-SLIDE
 
-> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** – ha a teszt nem igazolja, a mező Moodle-oldalra kerül. A minimális karakterszámot kérő mezőknél azt, hogy a választott megvalósítás ezt ténylegesen kikényszeríti-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli.
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető.** A SLIDE 5 és a SLIDE 6 reflexiója, valamint a SLIDE 7 háromszavas önellenőrzése kötelező, de tanuló-lokális lépés (D-3, `Emberi jóváhagyás szükséges.md` 10. szakasz): a tanuló magának írja le, CP-be ágyazott beviteli elem és Moodle-oldali mező nem épül hozzájuk, minimális karakterszám nincs, és nem completion-feltételek (`LMS – activity manifest.md`, LMS-Z-02; `LMS – H5P runtime acceptance.md` 24. pont). A beadandó, mentor által látható záró reflexió a Z.4 (LMS-Z-04).
 
 > **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1., a 3. és a 4. dia „Single Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és az opciónkénti visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
-> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden adatot rögzítő mezője előtt (a D-3 szerint a Z.2 szöveges lépései nem ilyenek) ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
 
 ### SLIDE 1 – HOOK: „Volt már ilyen érzésed?”
 
@@ -245,7 +247,7 @@ Opciók:
 
 ***
 
-### SLIDE 5 – ACTIVITY 1: Saját tanulási pillanatom (ESSAY)
+### SLIDE 5 – ACTIVITY 1: Saját tanulási pillanatom (hosszabb szöveges reflexió)
 
 **Cél:** az első kulcskérdés kidolgozása – 1 konkrét pillanat.
 
@@ -271,17 +273,17 @@ Opciók:
 > Nem kell „tökéletes” sztori.
 > Itt egy **konkrét tanulási pillanatra** van szükség, de nem személyes kitárulkozásra. Leírhatod anonimizálva, és elég annyi kontextus, amennyi a tanulság megértéséhez kell.
 
-**Beágyazott kérdés – szabad szöveges válasz**
+**Hosszabb szöveges reflexió – tanuló-lokális lépés**
 
-* 1 nagy szövegmező, minimális karakterszám (pl. 250).
+* Beviteli elem nincs: a tanuló a saját jegyzetébe ír; minimális karakterszám nincs (D-3).
 
-**Megnyugtató kis szöveg a mező alatt:**
+**Megnyugtató kis szöveg a feladat alatt:**
 
-> A beadást csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van – a lecke elején leírt kivétellel: ha veszélyről van szó, azt ne csak ebbe a mezőbe írd, hanem azonnal vond be a Memunát. **Ne írj hanih-nevet. Egészségügyi, mentális, családi vagy más érzékeny részletet se adj meg, ha nem szükséges.** Nem az a cél, hogy „jó madrihnak tűnj”, hanem hogy **tudd, mit tanultál**.
+> A reflexiódat nem adod be: nálad marad. Ha veszélyről van szó, azt ne a reflexióba írd, hanem azonnal vond be a Memunát. **Ne írj hanih-nevet. Egészségügyi, mentális, családi vagy más érzékeny részletet se adj meg, ha nem szükséges.** Nem az a cél, hogy „jó madrihnak tűnj”, hanem hogy **tudd, mit tanultál**.
 
 ***
 
-### SLIDE 6 – ACTIVITY 2: Nehéz modul / ellenállás (ESSAY)
+### SLIDE 6 – ACTIVITY 2: Nehéz modul / ellenállás (hosszabb szöveges reflexió)
 
 **Kulcskérdés:**
 
@@ -302,13 +304,13 @@ Opciók:
 > 3️⃣ Mit mond ez rólad **most**? (pl. mire vagy érzékeny, miben vagy még bizonytalan)
 > 4️⃣ Szerinted **mit tanulhatsz** ebből a nehézségből madrihként?
 
-> Itt sem kell „szépen” fogalmazni. Ha a „mit mond ez rólad?” kérdés túl személyes lenne, válaszolj inkább erre a kérdésre: **„Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”** A teljesítéshez nem kell érzékeny önfeltárás, és ha veszélyről van szó, azt ne csak ebbe a mezőbe írd.
+> Itt sem kell „szépen” fogalmazni. Ha a „mit mond ez rólad?” kérdés túl személyes lenne, válaszolj inkább erre a kérdésre: **„Mit tanultál arról, milyen támogatás vagy tanulási forma segít neked, és mit próbálsz ki legközelebb?”** A teljesítéshez nem kell érzékeny önfeltárás, és ha veszélyről van szó, azt ne a reflexióba írd, hanem azonnal vond be a Memunát.
 
 > **Ha ez a téma téged is érint:** nem kell személyes részletet megosztanod. Mondhatsz passzt, kérhetsz szünetet, vagy beszélhetsz külön a mentoroddal vagy a Somer gyermekvédelmi kontaktjával. Ha te vagy valaki más veszélyben van, ezzel ne maradj egyedül: használd a „Segítség és kapcsolatok” blokkban megadott gyermekvédelmi utat. Közvetlen veszélyben hívd a 112-t. Ha 18 év alatti vagy, a gondviselődet bevonhatjuk, amikor ez a biztonságodat szolgálja. Ha a gondviselő bevonása növelhetné a veszélyt, vagy ő maga érintett a helyzetben, a Memuna más biztonságos felnőttet vagy hivatalos segítséget von be.
 
-**Beágyazott kérdés – szabad szöveges válasz**
+**Hosszabb szöveges reflexió – tanuló-lokális lépés**
 
-* 1 szövegmező, 5–8 mondatnyi hely, minimális karakterszám.
+* Beviteli elem nincs: a tanuló a saját jegyzetébe ír; minimális karakterszám nincs (D-3).
 
 ***
 
@@ -328,11 +330,11 @@ Opciók:
 > **Kérdés:**
 > *„Ha a félévedet 3 szóval kéne leírni, mik lennének ezek?”*
 
-> Írd le őket egymás után, vesszővel vagy sortöréssel elválasztva.
+> Írd le őket magadnak egymás után (jegyzetbe vagy papírra), vesszővel vagy sortöréssel elválasztva; nem adod be.
 
-**Beágyazott kérdés – rövid szöveges válasz**
+**Rövid szöveges válasz – tanuló-lokális lépés**
 
-* 1 rövid szövegmező (3–5 szó bőven elfér).
+* Beviteli elem nincs: a tanuló magának írja le a 3 szót; nem completion-feltétel (D-3).
 
 **Záró mondat:**
 

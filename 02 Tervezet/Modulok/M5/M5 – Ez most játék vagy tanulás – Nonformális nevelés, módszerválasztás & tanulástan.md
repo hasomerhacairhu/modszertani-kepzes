@@ -182,7 +182,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 
 **Minimális teljesítés (M5 „complete”):**
 
-1. **M5.1–M5.4** mikroleckék activity completion **– érdemi kitöltéssel, nem csak a slide-ok végigléptetésével** (M5.4-nél: a saját táblázat ténylegesen összeállítva és Assignmentként feltöltve, nem üres fájl).
+1. **M5.1–M5.4** mikroleckék activity completion **– érdemi kitöltéssel, nem csak a slide-ok végigléptetésével** (M5.4-nél: az LMS-M5-04 H5P-C profilja; a táblázat leadása – online szövegként vagy fájlként – a 2. pont, LMS-M5-05).
 2. **Éles kapu – modulproduktum:** a leadott **„Feladat–kvuca–módszer + tanulástan” táblázat** eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint, az R4 (tanulástan-elem valódisága) kritikus sor** (a „Hiányos” = javításra vissza, nincs kizárás).
 3. **Diagnosztikus fogalom-kvíz:** **formatív, completion-alapú** (kitöltés elég, NEM kapuz) – a ≥80% csak felzárkózás-jelző.
 

@@ -70,6 +70,7 @@ A modul végére a résztvevő…
 * **Cél:** rátekinteni az egész félévre **egyben**.
 * **Eszközök:** H5P Course Presentation (vizuális idővonal) + 3–5 könnyű emlékeztető kérdés.
 * **Kulcs:** modul-idővonal, modulonként 1 mondat; végén nyitott kérdés: „Írj le 1 dolgot, amit semmiképp nem szeretnél elfelejteni ebből a félévből.”
+* **Szöveges lépések:** a fénypont-reflexió (3–6 mondat) és a záró mondat kötelező, de tanuló-lokális: a tanuló magának írja le, nem adja be (D-2); a beadandó záró reflexió a Z.4.
 
 ***
 

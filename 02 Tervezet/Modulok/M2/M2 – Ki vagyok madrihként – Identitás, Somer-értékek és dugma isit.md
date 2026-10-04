@@ -69,7 +69,7 @@ A modul végére a madrih…
   * érték fogalma és példák (igazságosság, közösség, szolidaritás, someres értékek);
   * 10–15 érték közül top 3 kiválasztása;
   * rövid reflexió konkrét helyzetekről + 1 kiemelt érték, amelyben idén különösen személyes példát szeretne mutatni.
-* **Moodle/H5P mix:** H5P (választós + nyitott kérdések).
+* **Moodle/H5P mix:** H5P (választós kérdések) + a nyitott kérdések a lecke melletti Moodle-oldali szövegmezőben (LMS-M2-08; a megvalósítást az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli).
 
 ### L3 / M2.3 – Somer 3 pillére – mini-kapszula (15–20’)
 
@@ -180,7 +180,7 @@ A modul végére a madrih…
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
-> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve**; **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**.
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve**; **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
 
 **Követelmény az M2 „complete”-hez:**
 
@@ -212,11 +212,10 @@ A modul végére a madrih…
   * külön figyelni, hol esnek ki (különösen L3–L4 körül).
 * **H5P analitika:**
   * Melyik pillérnél (cionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
-  * Hányan írnak ténylegesen példát dugma isitre (legalább 1–1 mondat a végigjátszott pillér-ágakban).
-  * Mindkét M2.3-mutató csak akkor használható, ha az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja, hogy a Moodle rögzíti a Branching Scenario választásait és szöveges válaszait.
+  * Az M2.3-mutató csak akkor használható, ha az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja, hogy a Moodle rögzíti a Branching Scenario választásait.
 * **Szöveges feladatválaszok és Assignment-adatok:**
   * A nem érzékeny M2.1/M2.4 feladatválaszok teljesítési aránya és az identitás-jegyzet leadási aránya; a személyes identitástérkép és a privát naplórész nem kerül be.
-  * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrih-szerephez kötött szabály.
+  * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrih-szerephez kötött szabály. A stáb ezt csak összesített számként látja, név nélkül (Program terv §4); az egyéni választ csak a kijelölt mentor/értékelő nézi, és csak ha szükséges (HUM-PRIV-01).
 * **Küszöbök / beavatkozási pontok (példák):**
   * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → csendes pótlás + extra emlékeztető.
   * Ha az identitás-jegyzetek >30%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma isitről.
