@@ -149,3 +149,9 @@
 | R-24 | hungarian (NYELV-12) | M7.4 Completion-sor: a fókuszválasztás tagmondatából hiányzott az állítmány | alkalmazva, nyitott jelöléssel | a completion-szerepet nem találtam ki: „nyitott: a megvalósítását az RA 14. pontja teszteli” → jelentés (emberi/értékelési döntés) |
 | R-25 | hungarian (NYELV-13) | Z.1, Z.2 „(ugyanúgy, mint az M3.3-ban)” → „(a szabály ugyanaz, mint az M3.3-ban)” | alkalmazva | Memuna-QA |
 | R-26 | hungarian (NYELV-14) | egy fogalom, egy név: „kísérő activity” → „szövegmező” (M7 hub :183, M7.1 :8, :45); tanulói mutató hellyel (M7.1 :526); „mezőbe” → „szövegmezőbe” (M2.2 :705, M2.3 :896) | alkalmazva | a manifest §2 kánoni „kísérő activity” megnevezése változatlan |
+
+## Nyilvántartás
+
+| ID | lépés | állapot | megjegyzés |
+|---|---|---|---|
+| P-01 | BSPEC-02 → `BUILD_SPEC_RESOLVED`, megoldó commit `5b61e25` (tartalom, napló, pinek), média-build `0d40424` | alkalmazva (külön, csak nyilvántartási commitban) | valós SHA, nem kitalált; a nyitott kérdések learner-release tételek és bizonyíték-kapuk |

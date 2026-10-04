@@ -21,8 +21,8 @@
       "sha256": "396ddc82a3be487ae058b6b1e9a85095cb568aa16a6ccdbb14eea98ffa6c7d91"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
-      "sha256": "0df6e61b33734136ccf8894862a62ec6b112d340748dfbe1bc14f66e5822a07b"
+      "reason": "BSPEC-02 nyilvántartás: BUILD_SPEC_RESOLVED, megoldó commit 5b61e25 (média-build 0d40424)",
+      "sha256": "f1bb400aa2e459f03805286f52d21338dfdbf589dd9792a157849360bf3ff9e7"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "BSPEC-01/02 javítókör (A–M; BS-D2, BS-D3, BS-D5, BS-D8): TEXT-C Moodle Feedback, GATE-CP, M0 4. item D, M1.4 Q-REL-2, M3.1/M3.2 opcionális, M4.4/Z.3 mezőhely, Z.3 mentori elfogadás, M5.3 tartalékút, újraértékelési zárópont + célzott review-javítások",
