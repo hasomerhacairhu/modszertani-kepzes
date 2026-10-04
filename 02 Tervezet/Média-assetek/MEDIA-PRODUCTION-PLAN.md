@@ -272,7 +272,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Munkalap / nyomtatvány | `Z.A-MUNK-01` | B0 | — | 61 | Híd a terepre – kétoszlopos poszter-sablon |
 | Poszter és kártyaszett | `M5.B-KART-01` | B0 | — | 59 | Indítósor-kártyaszett (6-8 db kész táblázat-sor) |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B0 | — | 4 | Hook háttér – someres/kvuca-vizuál |
-| H5P-interakció / Moodle-elem | `M6.1-EGY-02` | B0 | — | 28 | Single Choice – önreflexió: „mi alapján döntesz?” |
+| H5P-interakció / Moodle-elem | `M3.4-EGY-03` | B0 | — | 27 | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4) |
 | Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Galériaséta reakció-eszközök (post-it / pötty-matrica) |
 
 ## 6. Újrahasznosítás — nem gyártandó

@@ -455,7 +455,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.4-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes a11y-alternatíva – Single Choice Set (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Mini-kvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6) | — | — | AI-generált |
-| `M3.4-EGY-06` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges reflexiós mező – „Saját listám arról, mit teszek és mit nem” (SLIDE 5) | — | — | AI-generált |
+| `M3.4-EGY-06` | other/ui-text | legyártandó | specifikáció kész | Reflexiós feladatleírás, beviteli elem nélkül – „Saját listám arról, mit teszek és mit nem” (SLIDE 5) | — | — | AI-generált |
 | `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
 | `M3.4-EGY-08` | other | legyártandó | specifikáció kész | Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret) | — | — | AI-generált |
 | `M3.4-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikon: madrih + kvuca stilizált „határvonallal” (SLIDE 2) | — | alt-szöveg | AI-generált |
@@ -719,7 +719,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.1-EGY-08` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret | — | — | emberi |
 | `M6.1-EGY-09` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – miért hasznos kategóriákban gondolkodni | — | — | emberi |
 | `M6.1-EGY-10` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice – mikor ne hozz mély élményjátékot | — | — | emberi |
-| `M6.1-EGY-11` | other/h5p-interaction | legyártandó | specifikáció kész | Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat) | — | — | emberi |
+| `M6.1-EGY-11` | other/h5p-interaction | legyártandó | specifikáció kész | Nyitott kérdés – záró mini-reflexió (kedvenc játék + kockázat) | — | — | emberi |
 | `M6.1-IKO-01` | icon-set | legyártandó | specifikáció kész | Játék-kategória ikonok – 5 kategória | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-01` | illustration | legyártandó | specifikáció kész | Kategória-kártyák 1 – ismerkedős + energizer (2 kártya) | — | alt-szöveg | AI-generált |
 | `M6.1-ILL-02` | illustration | legyártandó | specifikáció kész | Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés” | — | alt-szöveg | AI-generált |

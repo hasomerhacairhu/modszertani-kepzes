@@ -1463,10 +1463,10 @@
       "id": "M0.3-FOTO-01-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md",
-      "line": 140,
+      "line": 142,
       "body_lines": [
-        141,
-        141
+        143,
+        143
       ],
       "unit": "M0.3",
       "module": "M0",
@@ -1843,10 +1843,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 901,
+      "line": 899,
       "body_lines": [
-        902,
-        909
+        900,
+        907
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1863,10 +1863,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1057,
+      "line": 1055,
       "body_lines": [
-        1058,
-        1062
+        1056,
+        1060
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1883,10 +1883,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1081,
+      "line": 1079,
       "body_lines": [
-        1082,
-        1087
+        1080,
+        1085
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -2103,10 +2103,10 @@
       "id": "M2.2-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 301,
+      "line": 303,
       "body_lines": [
-        302,
-        311
+        304,
+        313
       ],
       "unit": "M2.2",
       "module": "M2",
@@ -2123,10 +2123,10 @@
       "id": "M2.2-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 433,
+      "line": 435,
       "body_lines": [
-        434,
-        440
+        436,
+        442
       ],
       "unit": "M2.2",
       "module": "M2",
@@ -2143,10 +2143,10 @@
       "id": "M2.2-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 165,
+      "line": 167,
       "body_lines": [
-        166,
-        178
+        168,
+        180
       ],
       "unit": "M2.2",
       "module": "M2",
@@ -2163,10 +2163,10 @@
       "id": "M2.2-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 710,
+      "line": 716,
       "body_lines": [
-        711,
-        716
+        717,
+        722
       ],
       "unit": "M2.2",
       "module": "M2",
@@ -2223,10 +2223,10 @@
       "id": "M2.3-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md",
-      "line": 907,
+      "line": 909,
       "body_lines": [
-        908,
-        919
+        910,
+        921
       ],
       "unit": "M2.3",
       "module": "M2",
@@ -2283,10 +2283,10 @@
       "id": "M2.4-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 789,
+      "line": 797,
       "body_lines": [
-        790,
-        798
+        798,
+        806
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2523,10 +2523,10 @@
       "id": "M3.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 263,
+      "line": 264,
       "body_lines": [
-        264,
-        269
+        265,
+        270
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2543,10 +2543,10 @@
       "id": "M3.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 814,
+      "line": 819,
       "body_lines": [
-        815,
-        818
+        820,
+        823
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2563,10 +2563,10 @@
       "id": "M3.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 938,
+      "line": 943,
       "body_lines": [
-        939,
-        944
+        944,
+        949
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2583,10 +2583,10 @@
       "id": "M3.3-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 118,
+      "line": 119,
       "body_lines": [
-        119,
-        131
+        120,
+        132
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2603,10 +2603,10 @@
       "id": "M3.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 813,
+      "line": 814,
       "body_lines": [
-        814,
-        818
+        815,
+        819
       ],
       "unit": "M3.4",
       "module": "M3",
@@ -2623,10 +2623,10 @@
       "id": "M3.4-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 164,
+      "line": 165,
       "body_lines": [
-        165,
-        178
+        166,
+        179
       ],
       "unit": "M3.4",
       "module": "M3",
@@ -3069,10 +3069,10 @@
       "id": "M5.1-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 624,
+      "line": 621,
       "body_lines": [
-        625,
-        633
+        622,
+        630
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3089,10 +3089,10 @@
       "id": "M6.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 336,
+      "line": 337,
       "body_lines": [
-        337,
-        349
+        338,
+        350
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3109,10 +3109,10 @@
       "id": "M6.1-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 467,
+      "line": 468,
       "body_lines": [
-        468,
-        492
+        469,
+        493
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3129,10 +3129,10 @@
       "id": "M6.1-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 643,
+      "line": 644,
       "body_lines": [
-        644,
-        663
+        645,
+        664
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3149,10 +3149,10 @@
       "id": "M6.1-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 849,
+      "line": 850,
       "body_lines": [
-        850,
-        869
+        851,
+        870
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3169,10 +3169,10 @@
       "id": "M6.1-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1072,
+      "line": 1075,
       "body_lines": [
-        1073,
-        1091
+        1076,
+        1094
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3189,10 +3189,10 @@
       "id": "M6.1-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1383,
+      "line": 1390,
       "body_lines": [
-        1384,
-        1394
+        1391,
+        1401
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3209,10 +3209,10 @@
       "id": "M6.1-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 181,
+      "line": 182,
       "body_lines": [
-        182,
-        200
+        183,
+        201
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3229,10 +3229,10 @@
       "id": "M6.2-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 276,
+      "line": 277,
       "body_lines": [
-        277,
-        294
+        278,
+        295
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3249,10 +3249,10 @@
       "id": "M6.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 492,
+      "line": 493,
       "body_lines": [
-        493,
-        512
+        494,
+        513
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3269,10 +3269,10 @@
       "id": "M6.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 614,
+      "line": 615,
       "body_lines": [
-        615,
-        636
+        616,
+        637
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3289,10 +3289,10 @@
       "id": "M6.2-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 784,
+      "line": 785,
       "body_lines": [
-        785,
-        808
+        786,
+        809
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3309,10 +3309,10 @@
       "id": "M6.2-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 921,
+      "line": 922,
       "body_lines": [
-        922,
-        936
+        923,
+        937
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3329,10 +3329,10 @@
       "id": "M6.2-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 121,
+      "line": 122,
       "body_lines": [
-        122,
-        143
+        123,
+        144
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3349,10 +3349,10 @@
       "id": "M6.2-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 388,
+      "line": 389,
       "body_lines": [
-        389,
-        408
+        390,
+        409
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3369,10 +3369,10 @@
       "id": "M6.3-FOTO-03-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 510,
+      "line": 512,
       "body_lines": [
-        511,
-        512
+        513,
+        514
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3389,10 +3389,10 @@
       "id": "M6.3-FOTO-04-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 707,
+      "line": 709,
       "body_lines": [
-        708,
-        709
+        710,
+        711
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3409,10 +3409,10 @@
       "id": "M6.3-FOTO-05-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 914,
+      "line": 916,
       "body_lines": [
-        915,
-        916
+        917,
+        918
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3429,10 +3429,10 @@
       "id": "M6.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 195,
+      "line": 197,
       "body_lines": [
-        196,
-        213
+        198,
+        215
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3449,10 +3449,10 @@
       "id": "M6.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 381,
+      "line": 383,
       "body_lines": [
-        382,
-        409
+        384,
+        411
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3469,10 +3469,10 @@
       "id": "M6.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 552,
+      "line": 554,
       "body_lines": [
-        553,
-        579
+        555,
+        581
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3489,10 +3489,10 @@
       "id": "M6.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 751,
+      "line": 753,
       "body_lines": [
-        752,
-        787
+        754,
+        789
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3509,10 +3509,10 @@
       "id": "M6.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 959,
+      "line": 961,
       "body_lines": [
-        960,
-        985
+        962,
+        987
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3529,10 +3529,10 @@
       "id": "M6.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1102,
+      "line": 1104,
       "body_lines": [
-        1103,
-        1119
+        1105,
+        1121
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3789,10 +3789,10 @@
       "id": "M7.4-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 487,
+      "line": 490,
       "body_lines": [
-        488,
-        493
+        491,
+        496
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3809,10 +3809,10 @@
       "id": "M7.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 705,
+      "line": 708,
       "body_lines": [
-        706,
-        710
+        709,
+        713
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3829,10 +3829,10 @@
       "id": "M7.4-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 179,
+      "line": 180,
       "body_lines": [
-        180,
-        197
+        181,
+        198
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3849,10 +3849,10 @@
       "id": "Z.1-DIA-01-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 235,
+      "line": 237,
       "body_lines": [
-        236,
-        237
+        238,
+        239
       ],
       "unit": "Z.1",
       "module": "Z",
@@ -3869,10 +3869,10 @@
       "id": "Z.1-ILL-01-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 111,
+      "line": 113,
       "body_lines": [
-        112,
-        112
+        114,
+        114
       ],
       "unit": "Z.1",
       "module": "Z",
@@ -3889,10 +3889,10 @@
       "id": "Z.1-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 266,
+      "line": 268,
       "body_lines": [
-        267,
-        272
+        269,
+        274
       ],
       "unit": "Z.1",
       "module": "Z",
@@ -3909,10 +3909,10 @@
       "id": "Z.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 529,
+      "line": 533,
       "body_lines": [
-        530,
-        534
+        534,
+        538
       ],
       "unit": "Z.1",
       "module": "Z",
@@ -3933,7 +3933,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 128,
+      "line": 132,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -3996,7 +3996,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 61,
+      "line": 63,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4059,7 +4059,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 207,
+      "line": 211,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4122,7 +4122,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 288,
+      "line": 292,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -4185,7 +4185,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 131,
+      "line": 135,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -4248,7 +4248,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 206,
+      "line": 210,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -4300,7 +4300,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 64,
+      "line": 66,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4363,7 +4363,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 363,
+      "line": 369,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4427,7 +4427,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md",
-      "line": 94,
+      "line": 96,
       "kind": "photo",
       "subtype": "",
       "mode": "generate",
@@ -4493,7 +4493,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md",
-      "line": 337,
+      "line": 339,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -4556,7 +4556,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md",
-      "line": 63,
+      "line": 65,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4617,7 +4617,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md",
-      "line": 99,
+      "line": 101,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -4681,7 +4681,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md",
-      "line": 175,
+      "line": 177,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -4745,7 +4745,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md",
-      "line": 248,
+      "line": 250,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -4809,7 +4809,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md",
-      "line": 375,
+      "line": 377,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -7696,7 +7696,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 832,
+      "line": 830,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7736,8 +7736,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        902,
-        909
+        900,
+        907
       ],
       "source_text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
@@ -7766,7 +7766,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 935,
+      "line": 933,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7806,8 +7806,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1058,
-        1062
+        1056,
+        1060
       ],
       "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
       "source_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
@@ -7836,7 +7836,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 978,
+      "line": 976,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7876,8 +7876,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1082,
-        1087
+        1080,
+        1085
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
@@ -9741,7 +9741,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 202,
+      "line": 204,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -9798,7 +9798,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 65,
+      "line": 67,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -9861,7 +9861,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 318,
+      "line": 320,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -9924,7 +9924,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 592,
+      "line": 596,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -9987,7 +9987,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 234,
+      "line": 236,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -10027,8 +10027,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        302,
-        311
+        304,
+        313
       ],
       "source_text": "„Érték az, ami alapján döntesz, akkor is, ha nem mondod ki.\nNemcsak egy szép szó, hanem valami, ami tényleg irányítja a választásaidat.\n\nAmikor madrih vagy, a hanihok **nem a szavaidból**,\nhanem a döntéseidből és a reakcióidból szűrik le, hogy mik az értékeid.\n\nA Somerben sok ilyen érték jelenik meg: egyenlőség, közösség, társadalmi felelősség, igazságosság, kritikus gondolkodás…\nA kérdés az, hogy **te melyik értékeidre akarsz építeni** madrihként.”",
       "source_hash": "99b80eaf207e9cee3f50b11991a61b6aaeae5d4007e1a32b4816e454850e7147",
@@ -10060,7 +10060,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 356,
+      "line": 358,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -10100,8 +10100,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        434,
-        440
+        436,
+        442
       ],
       "source_text": "„Itt néhány lehetséges értéket látsz.\nNem kell, hogy mindegyik közel álljon hozzád – és az is lehet, hogy épp olyan áll hozzád a legközelebb, ami most nincs is ezen a listán.\nA cél, hogy találj hármat,\namire tényleg tudsz építeni madrihként –\nés amit a hanihok is **le tudnak olvasni rólad** a viselkedéseden keresztül.”",
       "source_hash": "bb8a2cc7ea016efcb13ca75e8bf2939f4908ed92e2785feb41082766699af838",
@@ -10133,7 +10133,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 103,
+      "line": 105,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -10177,8 +10177,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        166,
-        178
+        168,
+        180
       ],
       "source_text": "„Képzeld el, hogy peulát tartasz.\nA kvucád 15 perccel később, kicsit szétesve érkezik meg.\n\nTe mit csinálsz?\n\nLehet, hogy fontos neked a pontosság.\nLehet, hogy a jó hangulat fontosabb, mint a szigorú időkeret.\nLehet, hogy a felelősségre nevelés az első.\n\nIlyen helyzetekben **az értékeid alapján reagálsz**,\nés ebből tanulja a kvucád, milyen **személyes példát** mutatsz nekik.”",
       "source_hash": "bc6fb350da0e9ae96a6a9c0d00f2818ab7ec3f4ef0ac86cf4242fb9c6292539a",
@@ -10214,7 +10214,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md",
-      "line": 630,
+      "line": 634,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -10258,8 +10258,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        711,
-        716
+        717,
+        722
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van három olyan értéked, amire tudatosan építeni tudsz madrihként.\nFigyeld a következő peulán, hogy ezekből **mit tudsz megmutatni** a viselkedésedben.\nA következő lépésed az M2.A peula, utána pedig az M2.4 lecke jön.\nKésőbb azt is megnézzük, hogyan találkoznak ezek az értékek a Somer nagyobb pilléreivel.”",
       "source_hash": "9a9be60387db5bc136885a561511e62a26c261830503e985b3c291c3b1485083",
@@ -10356,11 +10356,11 @@
       "status": "spec-ready",
       "title": "H5P Branching Scenario – 3 pillér döntési fa (a lecke magja)",
       "purpose": "A lecke pedagógiai magja: biztonságos környezetben hibázható döntés-helyzet (Apply-szint), választás → következmény → dugma isit-visszajelzés. Ez a fő gyártandó interaktív deliverable.",
-      "spec": "A teljes H5P Branching Scenario felépítése és navigációs logikája: belépő videó-oldal → pillérválasztó oldal 3 gombbal (🟦 C-ÁG / 🟥 S-ÁG / 🟩 H-ÁG) → ágonként 1 helyzetleíró + 1 döntés-oldal (3 választás) + 3 következmény/visszajelzés-oldal, mindegyikben \"Mit látnak rajtad?\" + \"Someres tükör\" + 1 mondatos mini-reflexió; minden visszajelzés-oldal egy közös elágazáshoz (Branching Question) vezet: „Vissza a pillérválasztóhoz” → pillérválasztó oldal, „Tovább a lezáráshoz” → SLIDE CHECK → ZÁRÓ OLDAL (rövid szabad szöveges lezáró mondat) → végképernyő. 1 teljes ág = completion, de csak akkor, ha ez a cél Moodle/H5P környezetben bizonyítottan mérhető; különben Moodle-checkpoint kell (vö. M6.4). A szöveg a forrásban, a gyártandó elem a struktúra és az elágazás H5P-konfigurációja; a mini-reflexiók és a záró mondat szabad szöveges mezőinek útját a lecke runtime-követelménye írja le.",
+      "spec": "A teljes H5P Branching Scenario felépítése és navigációs logikája: belépő videó-oldal → pillérválasztó oldal 3 gombbal (🟦 C-ÁG / 🟥 S-ÁG / 🟩 H-ÁG) → ágonként 1 helyzetleíró + 1 döntés-oldal (3 választás) + 3 következmény/visszajelzés-oldal, mindegyikben \"Mit látnak rajtad?\" + \"Someres tükör\" + 1 mondatos mini-reflexió (rögzítés nélküli, opcionális önreflexió, beviteli elem nélkül); minden visszajelzés-oldal egy közös elágazáshoz (Branching Question) vezet: „Vissza a pillérválasztóhoz” → pillérválasztó oldal, „Tovább a lezáráshoz” → SLIDE CHECK → ZÁRÓ OLDAL (a lezáró mondat megfogalmazása; a mező a Branching Scenario utáni Moodle-oldali szövegmező, LMS-M2-07) → végképernyő. 1 teljes ág = a Branching Scenario (LMS-M2-04) completionje, de csak akkor, ha ez a cél Moodle/H5P környezetben bizonyítottan mérhető; különben Moodle-checkpoint kell (vö. M6.4). A lecke completionjéhez a záró mondat beküldése is kell (LMS-M2-07, M2 hub §6). A szöveg a forrásban, a gyártandó elem a struktúra és az elágazás H5P-konfigurációja; a záró mondat mezőjének útját és a mini-reflexiók (beviteli elem nélküli) kezelését a lecke runtime-követelménye írja le.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "H5P Branching Scenario; mobil-first; billentyűzet- és képernyőolvasó-navigáció (WCAG 2.1.1); a mini-reflexió és a záró mező rövid szabad szöveges beviteli elem (a megvalósítás az LMS – H5P runtime acceptance.md 6. pontja szerint választandó és tesztelendő); a gyártási ráfordítás becslése a v1 forrásban nyitott döntésként szerepelt (a hivatkozott sorszám a jelenlegi leckében már nem oldható fel)"
+        "note": "H5P Branching Scenario; mobil-first; billentyűzet- és képernyőolvasó-navigáció (WCAG 2.1.1); a záró mező rövid szabad szöveges beviteli elem (alapértelmezett helye a Branching Scenario utáni Moodle-oldali szövegmező, LMS-M2-07; a megvalósítás az LMS – H5P runtime acceptance.md 6. pontja szerint választandó és tesztelendő); a mini-reflexiók rögzítés nélküli önreflexiók, beviteli elem nélkül; a gyártási ráfordítás becslése a v1 forrásban nyitott döntésként szerepelt (a hivatkozott sorszám a jelenlegi leckében már nem oldható fel)"
       },
       "a11y": {
         "note": "Teljes billentyűzet-navigáció az ágak között; minden ág-szöveg képernyőolvasóval olvasható; az emoji-színkódok (🟦/🟥/🟩) mellett szöveges pillér-megnevezés is szerepeljen (ne csak szín hordozza az információt – WCAG 1.4.1)"
@@ -10387,7 +10387,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "fca27b23dbfec28662a2b2c20dc288ff6b57e5202975f0b85763ba384b05fa92",
+      "spec_hash": "cec26f002409507fac6017cf03303632835e32788c90d61ac9f8578fd9ee02ab",
       "deliverable_ids": [
         "M2.3-EGY-02"
       ],
@@ -10778,8 +10778,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        908,
-        919
+        910,
+        921
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy mondatod arról,\nhogyan szeretnél személyes példát mutatni\nabban a someres helyzetben, amin most végigmentél.\nFigyeld a következő peulán vagy ünnepen,\nhogy hol tudod ezt a mondatot **apró döntésekben megélni** –\nés ha kíváncsi vagy, gyere vissza, és próbáld ki a másik két ágat is.\nA határleckében (**M2.4 – Reflektív napló és határok**) már láttad,\nhogy a **határtartásod** is személyes példamutatás.\nA következő lépésed az **M2.B** peula, utána pedig az identitás-jegyzeted.”",
       "source_hash": "dbbe251d0c388040dadea8ee9a84f6749792c515ac2ebf42d46ed4da3b9383b3",
@@ -10909,7 +10909,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Slide 4 fő vizuálja (a „táblázat” vizuál). A szabad szöveges mező H5P-elem, nem asset.",
+      "notes": "Slide 4 fő vizuálja (a „táblázat” vizuál). A szabad szöveges mező nem asset; alapértelmezett helye a lecke melletti Moodle-oldali szövegmező (LMS-M2-09).",
       "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
       "source_ref": "",
       "composed_of": [],
@@ -11035,7 +11035,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Slide 4. A szabad szöveges mező (SLIDE 4) H5P-elem, nem asset.",
+      "notes": "Slide 4. A szabad szöveges mező (SLIDE 4) nem asset; alapértelmezett helye a lecke melletti Moodle-oldali szövegmező (LMS-M2-09).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -11341,7 +11341,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 699,
+      "line": 707,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -11381,8 +11381,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        790,
-        798
+        798,
+        806
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nA határaid tartása nem önzés, hanem **felelősség** –\nmagaddal és a hanihokkal szemben is.\n\nHa valamelyik rész nehéz volt, érdemes róla beszélni a mentoroddal.\nEzzel is azt mutatod, hogy segítséget kérni rendben van –\nés ez is fontos része a **személyes példamutatásnak**.”",
       "source_hash": "773624f25ab53bc1051e87a62222df88e5ccf04f3590f33450bff329b6e926b0",
@@ -13826,7 +13826,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 162,
+      "line": 163,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -13889,7 +13889,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 285,
+      "line": 286,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -13952,7 +13952,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 710,
+      "line": 711,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14015,7 +14015,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 371,
+      "line": 372,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14078,7 +14078,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 409,
+      "line": 410,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14141,7 +14141,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 548,
+      "line": 549,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14204,7 +14204,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 586,
+      "line": 587,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14267,7 +14267,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 200,
+      "line": 201,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14306,8 +14306,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        264,
-        269
+        265,
+        270
       ],
       "source_text": "„Madrihként a gyermekvédelem nem azt jelenti, hogy te oldasz meg mindent.\n\nA te feladatod az, hogy **észrevedd** és **komolyan vedd**, ha valami nagyon nem oké.\nHallgasd meg a hanihot, de ne ígérj teljes titoktartást. Ne nyomozz, ne konfrontálj, és **ne próbáld egyedül megoldani**: azonnal vond be a kijelölt Memunát – összeférhetetlenség esetén a név szerint kijelölt helyettesét. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.”",
       "source_hash": "11f7aa7b1123ae5833ae4cce80e441a008dedea5be10c547876b0e9f1a9378ba",
@@ -14335,7 +14335,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 748,
+      "line": 749,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14374,8 +14374,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        815,
-        818
+        820,
+        823
       ],
       "source_text": "„Itt most nincs jó vagy rossz válasz.\nElég, ha 1–2 mondatban leírsz valamit, amit magaddal vinnél ebből a leckéből.”",
       "source_hash": "6346f55118ff39e9717736e32c209f3c47456320e7065b2208b9fa9cf188cd2f",
@@ -14403,7 +14403,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 825,
+      "line": 830,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14442,8 +14442,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        939,
-        944
+        944,
+        949
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy alap térképed arról, mi az a red flag, és mi a dolgod madrihként.\nA következő részben konkrétan végigvesszük, **mit tegyél és mit ne tegyél**,\nhogy még egyértelműbb legyen, mi fér bele és mi az, ami már veszélyes.”",
       "source_hash": "d8fa9e5a80997c3a39409d1200f4b2f3d21099bdb1b8ba1fbf46cc6c0438ce7f",
@@ -14471,7 +14471,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 57,
+      "line": 58,
       "kind": "video",
       "subtype": "explainer",
       "mode": "generate",
@@ -14517,8 +14517,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        119,
-        131
+        120,
+        132
       ],
       "source_text": "„Szia! Képzeld el, hogy egy hanih odajön hozzád peula után,\nés azt mondja: *‘Most olyat mondok, amit **senki más nem tudhat**, jó?’*\n\nKözben érzed, hogy valami komoly dolog jön.\n\nMit csinálsz ilyenkor?\nMegígéred, hogy **senkinek** nem mondod el?\nVagy jelezel valakinek, de félsz, hogy ezzel elárulod?\n\nEz a lecke arról szól, hogy **mi a felelős lépés** ilyen helyzetekben,\nés mit jelent az, hogy **red flag**.”",
       "source_hash": "1237ab16a1b970d2e54b8cdb17b24feb1adc883cf327b04b3d968a69dbcdd8de",
@@ -14552,7 +14552,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 302,
+      "line": 303,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -14615,7 +14615,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 71,
+      "line": 72,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -14669,7 +14669,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 198,
+      "line": 199,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -14723,7 +14723,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 401,
+      "line": 402,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -14777,7 +14777,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 430,
+      "line": 431,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -14831,7 +14831,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 610,
+      "line": 611,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -14885,21 +14885,21 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 514,
+      "line": 515,
       "kind": "other",
-      "subtype": "h5p-interaction",
+      "subtype": "ui-text",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Szabad szöveges reflexiós mező – „Saját listám arról, mit teszek és mit nem” (SLIDE 5)",
+      "title": "Reflexiós feladatleírás, beviteli elem nélkül – „Saját listám arról, mit teszek és mit nem” (SLIDE 5)",
       "purpose": "Önreflektív határlista megfogalmazása; pedagógiailag erős belső szintézis-lépés.",
-      "spec": "Szabad szöveges reflexiós mező konfigurálása a saját lista (mit teszek és mit nem) reflexiójához: instrukció (legalább 3-3 pont), DO- és DON’T-mintapéldák scaffolding-listája (SLIDE 5, DO/DON’T mintapéldák), valamint a bizalmasság/biztonság jelzések szövegei (SLIDE 5, 💬 és 🔒 jelzés) a feladat leírásába. Nem értékelt, elsősorban a tanulónak szól.",
+      "spec": "Szövegelem a saját lista (mit teszek és mit nem) reflexiójához: instrukció (legalább 3-3 pont, a tanuló saját jegyzetébe), DO- és DON’T-mintapéldák scaffolding-listája (SLIDE 5, DO/DON’T mintapéldák), valamint a bizalmasság/biztonság jelzések szövegei (SLIDE 5, 💬 és 🔒 jelzés). A dián nincs beviteli elem: a lista tanuló-lokális, nem tárolt, nem completion-feltétel (LMS-M3-04; runtime acceptance 24. pont). Nem értékelt, a tanulónak szól.",
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
-        "note": "Szabad szöveges mező, magyar, prompt + scaffolding szöveg; szabad szöveges válasz (a megvalósítás az LMS – H5P runtime acceptance.md 6. pontja szerint választandó és tesztelendő)"
+        "note": "Sima szöveg a dián (nem kitöltendő elem), magyar, prompt + scaffolding szöveg; CP-n belüli szövegmező nem épül hozzá"
       },
       "a11y": {
-        "note": "Billentyűzettel kitölthető szövegmező; címke (label) társítva a beviteli mezőhöz"
+        "note": "Képernyőolvasóval olvasható szöveg; nincs kitöltendő elem"
       },
       "derivatives": [],
       "reuse_of": "",
@@ -14911,7 +14911,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A lista-ikon (M3.4-IKO-02) ehhez a mezőhöz tartozik. A korábbi listából hiányzott (csak az ikon volt felvéve).",
+      "notes": "A lista-ikon (M3.4-IKO-02) ehhez a feladatleíráshoz tartozik. A korábbi listából hiányzott (csak az ikon volt felvéve).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -14923,7 +14923,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "86664289fe8e47c68033098f9b874f82cc84b9093d13426d976c83a3fa228e66",
+      "spec_hash": "f564bd675e614a507cd9ffab1657373b330b45b957fc1d950a8577739df0d4a3",
       "deliverable_ids": [
         "M3.4-EGY-06"
       ],
@@ -14939,7 +14939,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 690,
+      "line": 691,
       "kind": "other",
       "subtype": "moodle-activity",
       "mode": "generate",
@@ -14993,14 +14993,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 22,
+      "line": 23,
       "kind": "other",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret)",
       "purpose": "A lecke biztonságos, gyermekvédelmi keretének és a self-disclosure korlátainak előzetes felállítása; orientáció és elakadás-támogatás belépés előtt.",
-      "spec": "Moodle Label/oldal szövegének konfigurálása a lecke előtt: lecke-bevezető (mit csinál egy biztonságos madrih, lista arról, mit tegyél és mit ne + modulproduktum előkészítése), fókuszmondat (💡), a „Ha ez a téma téged is érint” támogató blokk (⚠️), technikai+tartalmi segítség-pointer M0.3/„Segítség és kapcsolatok” blokk/mentor/M3.F (🛟), és a kritikus „Biztonságos megosztás” adatvédelmi/önfeltárási blokk (🔒 – a SLIDE 5 lista és a modulproduktum-helyzet nem nyilvános, legfeljebb a kijelölt mentor/értékelő látja; csak kitalált, életszerű helyzet, valós eset névtelenítve sem; valós red flag esetet azonnal a Memunának jelezni).",
+      "spec": "Moodle Label/oldal szövegének konfigurálása a lecke előtt: lecke-bevezető (mit csinál egy biztonságos madrih, lista arról, mit tegyél és mit ne + modulproduktum előkészítése), fókuszmondat (💡), a „Ha ez a téma téged is érint” támogató blokk (⚠️), technikai+tartalmi segítség-pointer M0.3/„Segítség és kapcsolatok” blokk/mentor/M3.F (🛟), és a kritikus „Biztonságos megosztás” adatvédelmi/önfeltárási blokk (🔒 – a SLIDE 5 listát a tanuló magának írja le, nem adja be; a modulproduktum-helyzet nem nyilvános, legfeljebb a kijelölt mentor/értékelő látja; csak kitalált, életszerű helyzet, valós eset névtelenítve sem; valós red flag esetet azonnal a Memunának jelezni).",
       "provenance": "ai",
       "provenance_note": "AI-generált (Moodle Label/oldal konfiguráció)",
       "technical": {
@@ -15031,7 +15031,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0c8158f276f877f03064788c970e6695f8c43ec4cdcfdf6270b7f9dc9f6f02bb",
+      "spec_hash": "221615bce397249caee9dd3f200d64d80744a8a131205f886e3a5b47320cf402",
       "deliverable_ids": [
         "M3.4-EGY-08"
       ],
@@ -15047,7 +15047,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 227,
+      "line": 228,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -15110,7 +15110,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 543,
+      "line": 544,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -15141,7 +15141,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A reflexiós szövegmezőhöz (M3.4-EGY-06, rövid szabad szöveges mező) tartozó vizuális jelző.",
+      "notes": "A reflexiós feladatleíráshoz (M3.4-EGY-06, beviteli elem nélküli szövegelem) tartozó vizuális jelző.",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -15170,7 +15170,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 719,
+      "line": 720,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -15210,8 +15210,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        814,
-        818
+        815,
+        819
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy konkrétabb képed arról, mit csinál és mit nem csinál egy megbízható madrih.\nA modulproduktum-feladattal ezt fogod kipróbálni egy konkrét helyzeten keresztül.\nNe feledd: nem vagy egyedül – a cél az, hogy **együtt** tartsuk biztonságban a hanihokat.”",
       "source_hash": "a2a6ea86f26bb437e8eb5edfffccd4a53ec0ffba14a1e2fe8c131be6a5144ac4",
@@ -15243,7 +15243,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 100,
+      "line": 101,
       "kind": "video",
       "subtype": "explainer",
       "mode": "generate",
@@ -15289,8 +15289,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        165,
-        178
+        166,
+        179
       ],
       "source_text": "„Szia!\nKépzeld el, hogy madrihként nagyon jól kijössz egy hanihhal.\nSokat beszélgettek, írtok egymásnak, vicceltek.\n\nHol a határ aközött, hogy **közeli, bizalmi kapcsolat** van köztetek,\nés aközött, hogy már **nem oké, amit csinálsz**?\n\nAzzal is tanítasz, amit **nem** csinálsz.\n\nEbben a leckében arról lesz szó,\nmilyen listát érdemes fejben tartani arról, mit tegyél és mit ne madrihként –\nés hogy például miért **red flag**, ha egy madrih párkapcsolatban van egy hanihhal.”",
       "source_hash": "f647847c014c1b8224559f51471b20ec300edbd97191178ee419b97857383dd1",
@@ -20458,8 +20458,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        625,
-        633
+        622,
+        630
       ],
       "source_text": "„Köszi, hogy végigcsináltad ezt a leckét.\nMostanra látod, hogy a Somer **nem suli, de nem is csak közös lógás**:\nnonformális nevelés, ahol kvucával, élményekkel tanulunk.\n\nA következő leckében azt nézzük meg,\nhogyan jutsz el egy peula tervezésekor a **feladattól a célon és a kvucán át a módszerig** –\nés nem fordítva.”",
       "source_hash": "6e308c759e01baa70a0cfec5db798d7a3255f220c3ff9370c6af0773c02334a4",
@@ -20498,7 +20498,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 46,
+      "line": 47,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -20561,7 +20561,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 151,
+      "line": 152,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -20624,7 +20624,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 211,
+      "line": 212,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -20684,7 +20684,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 84,
+      "line": 85,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -20747,7 +20747,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 576,
+      "line": 577,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -20776,7 +20776,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A nyitott mondatbefejezés a leckében szövegmezőben is kitölthető (nem pontozott); a munkalap a fizikai/transzfer-ekvivalens.",
+      "notes": "A nyitott mondatbefejezés helye ez a munkalap vagy a tanuló saját jegyzete: a leckében nincs hozzá beviteli elem (tanuló-lokális lépés, D-4; nem pontozott).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -21046,7 +21046,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md",
-      "line": 76,
+      "line": 77,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -21106,13 +21106,13 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md",
-      "line": 267,
+      "line": 268,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Letölthető „Feladat–kvuca–módszer + tanulástan” kitölthető sablon (doc / sheet)",
-      "purpose": "A modulproduktum (Assignment-leadás) alternatív, fájl-alapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével teljesíti a leckét. A táblázat madrihként később újrahasznosítható peulatervezéshez.",
+      "purpose": "A modulproduktum (Assignment-leadás) alternatív, fájl-alapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével teljesíti a leadást. A táblázat madrihként később újrahasznosítható peulatervezéshez.",
       "spec": "4 oszlopos kitölthető sablon doc ÉS sheet formátumban. Oszlopok: Feladat / cél | Kvuca (kor, hangulat) | Módszer / forma | Tanulástan-szemlélet (gyakorlás / aktív felidézés / időben elosztott gyakorlás). Legalább 3–4 üres sor. A fejlécben a SLIDE 5 mini-sablon kitöltési logikája (1–4 mező) rövid útmutatóként; a struktúra kövesse a SLIDE 2 minta-táblázatot. Opcionálisan egy előre kitöltött minta-sor a SLIDE 2 / SLIDE 5 példából (pl. névtanulós labdajáték sor).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -21146,7 +21146,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "585d8504e675a958182d62f5853e3784226659b7427bf69714c0595d8d74b1a4",
+      "spec_hash": "420ff4758a64cd279846aa520cd75d2f0399dc5851342ccf2360709079c88fc7",
       "deliverable_ids": [
         "M5.4-MUNK-01",
         "M5.4-MUNK-01::PRINTPDF"
@@ -21902,7 +21902,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 229,
+      "line": 230,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -21965,7 +21965,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 52,
+      "line": 53,
       "kind": "other",
       "subtype": "ui-text",
       "mode": "generate",
@@ -22017,7 +22017,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 78,
+      "line": 79,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22069,7 +22069,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 499,
+      "line": 500,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22121,7 +22121,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 693,
+      "line": 694,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22173,7 +22173,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 719,
+      "line": 720,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22184,10 +22184,10 @@
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Rövid szabad szöveges mező, nyitott kérdés, magyar (a megvalósítás az LMS – H5P runtime acceptance.md 6. pontja szerint választandó és tesztelendő)"
+        "note": "Nyitott kérdés szövegként, magyar; a dián nincs beviteli elem (tanuló-lokális lépés: a tanuló magának írja le; D-5)"
       },
       "a11y": {
-        "note": "Szövegként hozzáférhető (H5P natív)."
+        "note": "Szövegként hozzáférhető; nincs kitöltendő elem."
       },
       "derivatives": [],
       "reuse_of": "",
@@ -22209,7 +22209,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e16cc4287091924ef68da6505ec4c26ab33f003757b9d15a74f9522c08f47b02",
+      "spec_hash": "054760986d2d8ec0ce4bfa1c5b5b0cafb948e641d740349e55276f82de354c01",
       "deliverable_ids": [
         "M6.1-EGY-05"
       ],
@@ -22225,7 +22225,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 930,
+      "line": 933,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22277,7 +22277,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1124,
+      "line": 1127,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22329,21 +22329,21 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1150,
+      "line": 1153,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret",
       "purpose": "Kockázat-felismerés + biztonsági keret tanítása.",
-      "spec": "Rövid szabad szöveges kérdés: mi lehet kockázatos egy futkosós energizerben (3 falhoz tartozó jel, jelre különböző falakhoz futás teljes erőből) 10–12 évesekkel (tér, balesetveszély, kimaradás), 1–2 dolog. Válaszadás után megjelenő Biztonsági keret szöveg (tempó: gyors séta/kocogás; tér: akadályoktól mentes; ütközés elkerülése; kimaradás tompítása).",
+      "spec": "Rövid szabad szöveges kérdés: mi lehet kockázatos egy futkosós energizerben (3 falhoz tartozó jel, jelre különböző falakhoz futás teljes erőből) 10–12 évesekkel (tér, balesetveszély, kimaradás), 1–2 dolog. A kérdés alatt vagy a következő dián statikus szövegként – rögzített választól függetlenül, mindig elérhetően – álló Biztonsági keret szöveg (tempó: gyors séta/kocogás; tér: akadályoktól mentes; ütközés elkerülése; kimaradás tompítása).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Rövid szabad szöveges mező + feltételes safety-keret szövegblokk, magyar (a megvalósítás az LMS – H5P runtime acceptance.md 6. pontja szerint választandó és tesztelendő)"
+        "note": "Nyitott kérdés szövegként + statikus safety-keret szövegblokk (a kérdés alatt vagy a következő dián), magyar; a dián nincs beviteli elem (D-5); a keret feltétel nélküli megjelenését az LMS – H5P runtime acceptance.md 24. pontja ellenőrzi"
       },
       "a11y": {
-        "note": "Szövegként hozzáférhető (H5P natív)."
+        "note": "Szövegként hozzáférhető; nincs kitöltendő elem."
       },
       "derivatives": [],
       "reuse_of": "",
@@ -22353,7 +22353,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A safety-keret a válaszadás után jelenik meg (feltételes megjelenítés, SLIDE 7, „Biztonsági keret” doboz).",
+      "notes": "A safety-keret statikus szövegként a kérdés alatt vagy a következő dián áll, rögzített választól függetlenül (SLIDE 7, „Biztonsági keret” doboz).",
       "review": "",
       "source_ref": "",
       "composed_of": [],
@@ -22365,7 +22365,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "97c2ff5402d8b6b0bb1521c17f7b1fb52ee16a34714d884264ecb0283e7507b6",
+      "spec_hash": "c89061b8403b1d0ec780e0b86817358d2aff30f8d9e06512c5c48fc1697c2a68",
       "deliverable_ids": [
         "M6.1-EGY-08"
       ],
@@ -22381,7 +22381,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1241,
+      "line": 1248,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22433,7 +22433,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1267,
+      "line": 1274,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -22485,21 +22485,21 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1293,
+      "line": 1300,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat)",
+      "title": "Nyitott kérdés – záró mini-reflexió (kedvenc játék + kockázat)",
       "purpose": "Záró transzfer-reflexió saját játékra.",
-      "spec": "Szabad szöveges mező, nyitott kérdés: gondolj egy szeretett játékra, írd le 1 mondatban, melyik korosztálynál használnád legszívesebben és mi az az 1 kockázat, amire figyelnél. 1–2 mondat elég.",
+      "spec": "Nyitott kérdés, beviteli elem nélkül (a tanuló magának írja le): gondolj egy szeretett játékra, írd le 1 mondatban, melyik korosztálynál használnád legszívesebben és mi az az 1 kockázat, amire figyelnél. 1–2 mondat elég.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Szabad szöveges mező, nyitott, magyar"
+        "note": "Nyitott kérdés szövegként, magyar; a dián nincs beviteli elem (tanuló-lokális lépés)"
       },
       "a11y": {
-        "note": "Szövegként hozzáférhető (H5P natív)."
+        "note": "Szövegként hozzáférhető; nincs kitöltendő elem."
       },
       "derivatives": [],
       "reuse_of": "",
@@ -22521,7 +22521,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2b7c32916ec87f2f187d5ef1803630e92943a7d9b4b5abd0045744d26aefb6ff",
+      "spec_hash": "4e93b27a6e40cfc51abc0033ac7d3d81ed8c21f46001d237e2260c7ab32fca58",
       "deliverable_ids": [
         "M6.1-EGY-11"
       ],
@@ -22537,7 +22537,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 356,
+      "line": 357,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -22600,7 +22600,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 525,
+      "line": 526,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -22663,7 +22663,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 745,
+      "line": 746,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -22726,7 +22726,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 956,
+      "line": 959,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -22789,7 +22789,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 267,
+      "line": 268,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -22829,8 +22829,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        337,
-        349
+        338,
+        350
       ],
       "source_text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatánnál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **a játék és a kvuca párosában** gondolkodj.”",
       "source_hash": "3829694775a418417df5db63b3c1a0a472bc0d195bfc4ce92bbe534d4aaf6a45",
@@ -22859,7 +22859,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 394,
+      "line": 395,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -22899,8 +22899,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        468,
-        492
+        469,
+        493
       ],
       "source_text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
       "source_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
@@ -22929,7 +22929,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 562,
+      "line": 563,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -22969,8 +22969,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        644,
-        663
+        645,
+        664
       ],
       "source_text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
       "source_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
@@ -22999,7 +22999,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 782,
+      "line": 783,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23039,8 +23039,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        850,
-        869
+        851,
+        870
       ],
       "source_text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
       "source_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
@@ -23069,7 +23069,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 993,
+      "line": 996,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23109,8 +23109,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1073,
-        1091
+        1076,
+        1094
       ],
       "source_text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
       "source_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
@@ -23139,7 +23139,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1320,
+      "line": 1327,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23179,8 +23179,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1384,
-        1394
+        1391,
+        1401
       ],
       "source_text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
       "source_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
@@ -23212,7 +23212,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 104,
+      "line": 105,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -23256,8 +23256,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        182,
-        200
+        183,
+        201
       ],
       "source_text": "„Szia!\nVolt már olyan, hogy bedobtál egy játékot,\nés azt érezted: *‘ez most nagyon nem működik’*?\n\nLehet, hogy túlpörgette a kvucát.\nLehet, hogy mindenki unta.\nLehet, hogy valaki teljesen kiesett belőle.\n\nMaga a játék ettől még lehet jó.\nCsak **nem annak a korosztálynak**.\nVagy **nem abban a hangulatban**.\nVagy **nem ebben a térben**.\n\nEbben a leckében azt nézzük meg,\nhogyan gondolkodhatsz **játék-kategóriákban**\nés **három aktuális korosztályban**,\nhogy tudatosabban válassz a kvucádnak.”",
       "source_hash": "b750e8d307086e3a46389f3663a6eb5866292cb2bfc2f6b495e4a88f22cf3659",
@@ -23293,7 +23293,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 669,
+      "line": 670,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -23356,7 +23356,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 170,
+      "line": 171,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -23419,7 +23419,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 208,
+      "line": 209,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23459,8 +23459,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        277,
-        294
+        278,
+        295
       ],
       "source_text": "„Peulán nemcsak azért mesélünk történetet,\nmert ‘jól hangzik’, hanem mert **eszköz**.\n\nEgy történet segít, hogy ne csak gondolkodjanak,\nhanem **érezzenek is valamit**.\nLássanak egy konkrét helyzetet,\namiben akár magukra ismerhetnek.\n\nSokszor könnyebb egy **kitalált szereplőről** beszélni,\nmint rögtön saját élményről.\nKisebb a bevonódás, esetleg a szégyen, így kisebb a tét.\n\nHa utána **jól kérdezel**,\na történet nemcsak ‘szép sztori’ lesz,\nhanem **tükröt tart** a kvucának:\n‘Hol vagyok én ebben? Mit csinálnék másképp?’”",
       "source_hash": "6d84d13fcacef0079cbdff95ddc2b72846c3acf78c6997f4e2f0190992006a2a",
@@ -23492,7 +23492,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 417,
+      "line": 418,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23532,8 +23532,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        493,
-        512
+        494,
+        513
       ],
       "source_text": "„A beszólás után Lili elhallgat.\nLehajtja a fejét, hátradől.\n\nA madrih hallja, mi történt.\nLátszik rajta, hogy gondolkodik,\nde végül csak megköszöni Lilinek a megosztást,\nés megy tovább a kör.\n\nA peula véget ér.\nLili szinte végig csendben marad.\n\nA végén két hanih odamegy a madrihhoz,\nés azt mondják:\n‘Figyi, szerintünk ez nem volt oké.\nLehetett volna valamit csinálni?’\n\nMost jön az a rész,\nahol **a történet tükröt tarthat a kvucának**.”",
       "source_hash": "f78f0c8b737f2434ee9f8025e63134936359d43d8b83a1018be5fe0061add7a0",
@@ -23565,7 +23565,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 546,
+      "line": 547,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23605,8 +23605,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        615,
-        636
+        616,
+        637
       ],
       "source_text": "„Ahhoz, hogy a történet **tükör** legyen,\nnem elég elmesélni és továbbmenni.\n\nAz segít, ha olyan kérdéseket teszel fel,\namelyekben a hanihok **magukra ismerhetnek**,\nde **nem szégyenülnek meg**.\n\nIlyenek lehetnek például:\n\n– ‘Melyik szereplő nézőpontját érted a legjobban, és miért?’\n– ‘Milyen hasonló helyzet volt már nálatok?\nNem kell nevet mondani.’\n– ‘Te mit tettél volna a madrih helyében?’\n– ‘Mit szeretnél, mit tegyen a kvuca,\nha legközelebb valakit kinevetnek?’\n\nEzek **nyitott kérdések**.\nNincs egyetlen jó válasz.\nÉs nem azt kérdezik:\n‘Na, ki szokott így beszólni közületek?’”",
       "source_hash": "f219beea277d1473e160e2153ff6479aedbed7e815431be6f74333d3525b34c7",
@@ -23638,7 +23638,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 707,
+      "line": 708,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23678,8 +23678,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        785,
-        808
+        786,
+        809
       ],
       "source_text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (Parparim 6–9, Kivsza 10–12)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a hanihokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
       "source_hash": "e58dd7b746d44654201672b8ff90b5021d249da677434b5cbfdcc00e3a8b203e",
@@ -23711,7 +23711,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 843,
+      "line": 844,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23751,8 +23751,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        922,
-        936
+        923,
+        937
       ],
       "source_text": "„Most rajtad a sor.\n\nKépzeld el, hogy ezt a történetet\na saját kvucádnak meséled el.\n\nMilyen kérdéseket tennél fel utána,\nhogy segítsd a gondolkodást?\n\nÉs milyen kérdést **nem** tennél fel,\nmert tudod, hogy szégyenítő lehet, vagy túlságosan irányító?\n\nÍrj le **két nyitott kérdést**,\nés egy olyat, amit inkább nem használnál.”",
       "source_hash": "453015a874561ee4d2fe3d20a19da232c98081d1804ce823b43861f29db2fd6b",
@@ -23784,7 +23784,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 52,
+      "line": 53,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -23828,8 +23828,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        122,
-        143
+        123,
+        144
       ],
       "source_text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
       "source_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
@@ -23865,7 +23865,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 301,
+      "line": 302,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -23909,8 +23909,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        389,
-        408
+        390,
+        409
       ],
       "source_text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
       "source_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
@@ -23946,7 +23946,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 244,
+      "line": 246,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -24009,7 +24009,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 59,
+      "line": 61,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -24072,7 +24072,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 97,
+      "line": 99,
       "kind": "illustration",
       "subtype": "",
       "mode": "reuse",
@@ -24127,7 +24127,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 416,
+      "line": 418,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -24190,7 +24190,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 613,
+      "line": 615,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -24253,7 +24253,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 820,
+      "line": 822,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -24316,7 +24316,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 282,
+      "line": 284,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -24373,7 +24373,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 128,
+      "line": 130,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24413,8 +24413,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        196,
-        213
+        198,
+        215
       ],
       "source_text": "„Szia!\nA peulákban sokszor van **kézműves** rész is.\n\nNéha ez olyan, mintha csak **időt töltenénk**:\nmindenki színez valamit, beszélgetünk,\nközben telik az este.\n\nMáskor viszont a kézműveskedés\n**valami fontosat tanít**:\negyüttműködést, közösségi felelősséget,\nvagy azt, hogy *mindenki hozzátesz valamit*.\n\nEbben a leckében azt nézzük,\nhogyan tudsz tudatosan **kézműves tevékenységet választani**,\nhogy ne csak szép legyen a végeredmény,\nhanem **jelentése is legyen**.”",
       "source_hash": "0bfa28ac73ba9e94d0da8cf08a795083216c42466f1c59cc3def7ac39ab59b91",
@@ -24446,7 +24446,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 314,
+      "line": 316,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24486,8 +24486,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        382,
-        409
+        384,
+        411
       ],
       "source_text": "„Mielőtt kézműves feladatot hozol egy kvucának,\nérdemes három egyszerű kérdést feltenni.\n\n**Első: Mi a cél?**\nMit szeretnél, hogy tanuljanak közben?\nEgyüttműködést?\nAzt, hogy ‘mindenki hozzátesz valamit’?\nVagy valamit az identitásukról?\n\n**Második: Kinek lehet ez nehéz?**\nValakinek gond lehet a finommotorika?\nValaki érzékeny az anyagokra, szagokra?\nVan, akinek gond a költség,\nha drága alapanyagot várunk tőle?\nValakinek nehéz az instrukció **nyelve**,\nvagy **szorong** attól, hogy körben elmondja,\nmit jelent neki, amit készített?\n\n**Harmadik: Milyen variációt tudok kínálni?**\nTudom-e úgy csinálni,\nhogy aki nem tud vagy nem akar rajzolni,\naz matricával, szavakkal, más formában kapcsolódhat?\n\nEzek a kérdések segítenek abban,\nhogy a kézműveskedés **ne kirekesszen**,\nhanem **bevonjon** mindenkit.”",
       "source_hash": "6e3c681ab31a6e650d74292513010764d62ccfc405e961663044f16aff574d81",
@@ -24519,7 +24519,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 454,
+      "line": 456,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24559,8 +24559,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        553,
-        579
+        555,
+        581
       ],
       "source_text": "„Nézzünk egy konkrét példát.\n\nA ‘Közös kvuca-plakát’-nál\negy nagy lapra mindenki tesz valamit,\nami szerinte a kvucát jelképezi.\n\nEz taníthat **együttműködést**,\nazt, hogy ‘ez a plakát mindannyiunké’.\nÉs azt is, hogy a kvucáról szóló kép\nnem egy ember fejéből jön,\nhanem **sokféle nézőpontból**.\n\nAz inkluzivitás szempontjából fontos,\nhogy ne legyen művészeti verseny.\nNe legyen az az üzenet,\nhogy ‘csak az számít, aki szépen rajzol’.\n\nTegyél ki matricákat, kivágott formákat,\nragasztót, színes papírt, szavakat.\nAki nem szeret rajzolni,\nragaszthat, írhat, választhat szimbólumot.\n\nÍgy a foglalkozás **nem azt tanítja**,\nhogy ‘nézd, ki mennyire ügyes’,\nhanem azt, hogy **mindenki hozzátesz valamit**.”",
       "source_hash": "534f1fe438dd7d1249e1f4c0ea04eb8b2b8568dad69291955883f8380d9a0c3f",
@@ -24592,7 +24592,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 651,
+      "line": 653,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24632,8 +24632,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        752,
-        787
+        754,
+        789
       ],
       "source_text": "„A ‘Személyes szimbólum-karkötő’\negy klasszikus kézműves feladat.\n\nNemcsak az a kérdés,\nhogy ‘szép lett-e a karkötő’,\nhanem hogy **mit jelentenek** az elemei.\n\nMit taníthat ez?\nÖnkifejezést: mi fontos nekem.\nIdentitást: milyen színek, jelek kapcsolódnak hozzám.\nÉs megosztást: el merem-e mondani, mit raktam rá.\n\nAz inkluzivitás szempontjából viszont\ntöbb dologra is figyelni kell.\n\nFinommotorika:\na nagyon apró gyöngyöket\nnem mindenki tudja kényelmesen fűzni.\nJó, ha van vastagabb zsinór, nagyobb gyöngy is.\n\nAnyagok:\nlehet valaki fémallergiás,\nvagy zavarja bizonyos anyag tapintása.\n\nKöltség:\nha a kézműves feladat eredménye azon is múlik,\nhogy ki milyen drága dolgot hoz otthonról,\nakkor könnyen lesz belőle **státuszverseny**.\n\nEzért fontosak a **variációk** is:\nha valakinek nem megy a fűzés, vagy nem akarja,\nkészíthet helyette egy rajzos **szimbólumkártyát**,\nvagy dolgozhat **párban** egy társával:\negyik fűz, másik segít kitalálni a jelentést.”",
       "source_hash": "7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a",
@@ -24665,7 +24665,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 858,
+      "line": 860,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24705,8 +24705,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        960,
-        985
+        962,
+        987
       ],
       "source_text": "„A ‘Kvuca-zászló’ egy\nnagyon hatékony kézműves program lehet.\n\nNemcsak egy ‘szép tárgy’ a falon,\nhanem arról szól,\nhogy **kik vagyunk mi együtt**.\n\nTanít közös döntést:\nmit teszünk rá, mit nem.\nTanít felelősséget:\namit kiteszünk, azt vállaljuk,\naz minket képvisel.\n\nInkluzivitásnál itt a **szimbólumokra** kell nagyon figyelni.\n\nMilyen jeleket teszünk rá?\nNem bánt-e ez valakit a kvucából?\nNem csinálunk-e viccet valaki identitásából,\nkinézetéből, hátteréből?\n\nA zászló akkor tanít jól,\nha mindenki talál benne **saját részletet**,\nés senki nem érzi azt,\nhogy rajta röhög a kvuca.”",
       "source_hash": "2db3e67b6430b8b2154a17221905bbd5df601306880c174a1662401dcabd3a14",
@@ -24738,7 +24738,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1017,
+      "line": 1019,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24772,14 +24772,14 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Felirat: M6.3-NAR-06::CAPTIONS, leirat: M6.3-NAR-06::TRANSCRIPT. A SLIDE 6 instrukciója és 3 nyitott kérdése („Mit látunk?”) szöveges interakció/UI – a szabad szöveges mezők helyét a 3. szakasz runtime-követelménye dönti el –, NEM legyártandó média-asset.",
+      "notes": "Felirat: M6.3-NAR-06::CAPTIONS, leirat: M6.3-NAR-06::TRANSCRIPT. A SLIDE 6 instrukciója és 3 nyitott kérdése („Mit látunk?”) szöveges UI – tanuló-lokális lépés, beviteli elem nélkül, a 3. szakasz runtime-követelménye szerint –, NEM legyártandó média-asset.",
       "review": "",
       "source_ref": "M6.3-NAR-06-VO",
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1103,
-        1119
+        1105,
+        1121
       ],
       "source_text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
       "source_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
@@ -27716,7 +27716,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 224,
+      "line": 225,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -27779,7 +27779,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 344,
+      "line": 345,
       "kind": "icon-set",
       "subtype": "",
       "mode": "reuse",
@@ -27834,7 +27834,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 375,
+      "line": 376,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -27874,8 +27874,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        488,
-        493
+        491,
+        496
       ],
       "source_text": "„Most kiválasztasz egy kvucát,\nmegírod hozzá a kvuca-infókat és a SMART célt.\nNem dolgozatot kérünk – a lényeg, hogy **érthető legyen**,\nmilyen kvucára és milyen változást tervezel.”",
       "source_hash": "bc95c2f093cdd06c39d8ab7701c5c6dba44def2f7b3a1ac0437bb023ef1cadcc",
@@ -27907,7 +27907,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 624,
+      "line": 627,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -27947,8 +27947,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        706,
-        710
+        709,
+        713
       ],
       "source_text": "„Gratulálok, készen állsz a Peula v1-edre.\nMost írd meg a Moodle-beadandóban.\nAz M7.B műhelyben visszajelzések alapján tovább dolgozol rajta, és ebből készül a végleges, terepre vihető Peula v2.”",
       "source_hash": "50509520364058e39e604106d3801969ed525b0b03eaf8d31defc61d9c868f0f",
@@ -27980,7 +27980,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 115,
+      "line": 116,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -28024,8 +28024,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        180,
-        197
+        181,
+        198
       ],
       "source_text": "„Szia!\nLehet, hogy már láttál olyan peulatervet,\nami **papíron gyönyörű volt** –\nde 45 percbe nem fért bele,\nnem volt B-terv,\nés a biztonsági szempontok is bizonytalanok voltak.\n\nÉs olyan peulát is,\nami papíron nem volt ‘tökéletes’,\nde a cél világos volt,\na lépések reálisak,\nés **madrihként vállalhatónak érezted**.\n\nEbben a leckében egy ilyen,\n**vállalható peulavázat** rakunk össze –\nolyat, amit tényleg el tudnál képzelni, hogy megtartod Zmán Kvucában.”",
       "source_hash": "cb74bb01a7864ca34fa39e0222fa05a050dead22a90bcb9822e583660af72be3",
@@ -29250,7 +29250,7 @@
       "module": "Z",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 147,
+      "line": 149,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -29313,7 +29313,7 @@
       "module": "Z",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 386,
+      "line": 388,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -29344,8 +29344,8 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-IKO-01::ALTTEXT.",
-      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
+      "notes": "A 2 kérdés szöveges UI (beviteli elem nélkül; a tanuló magának írja le), nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-IKO-01::ALTTEXT.",
+      "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható. A D-2 óta a dián nincs beviteli elem.",
       "source_ref": "",
       "composed_of": [],
       "composed_source_ids": [],
@@ -29376,7 +29376,7 @@
       "module": "Z",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 66,
+      "line": 68,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -29439,7 +29439,7 @@
       "module": "Z",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 185,
+      "line": 187,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -29479,8 +29479,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        267,
-        272
+        269,
+        274
       ],
       "source_text": "„Ez itt a féléved idővonala.\nLátod, honnan indultunk M0-ban, és hova jutottunk el M7-re.\n\nKözben az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át eljutottunk a **saját peulád** megírásáig.”",
       "source_hash": "9bcc9f6d7b62601a9315b820db254c08a9d568ca5ae9b1cebfb87f27838add7b",
@@ -29509,7 +29509,7 @@
       "module": "Z",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md",
-      "line": 459,
+      "line": 461,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -29549,8 +29549,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        530,
-        534
+        534,
+        538
       ],
       "source_text": "„Köszi, hogy végigmentél a visszanéző tükör leckén.\nA következő leckében (Z.2) már kifejezetten a saját **tanulási pillanataidról** fogunk beszélni –\nde ez az 1 mondat, amit most leírsz, jó kapaszkodó lesz ahhoz is.”",
       "source_hash": "8de6ff17f593cb94e2debc439d7069d807eae1e25fa7770e61f66c834de1c6fd",
@@ -29579,7 +29579,7 @@
       "module": "Z",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md",
-      "line": 67,
+      "line": 69,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -38637,12 +38637,12 @@
       "role": "primary",
       "role_label": "elsődleges",
       "kind": "other",
-      "subtype": "h5p-interaction",
+      "subtype": "ui-text",
       "unit": "M3.4",
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
       "file_kind": "online-lecke",
-      "title": "Szabad szöveges reflexiós mező – „Saját listám arról, mit teszek és mit nem” (SLIDE 5)",
+      "title": "Reflexiós feladatleírás, beviteli elem nélkül – „Saját listám arról, mit teszek és mit nem” (SLIDE 5)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -44131,7 +44131,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat)",
+      "title": "Nyitott kérdés – záró mini-reflexió (kedvenc játék + kockázat)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
