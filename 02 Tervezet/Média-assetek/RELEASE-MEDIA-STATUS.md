@@ -99,6 +99,13 @@ Ha ezek egyike sem igaz, az elem `OPTIONAL`, még akkor is, ha a produkciós ter
 - Külön állapot lehet: **`CONTENT_READY / MEDIA_PENDING`** (a tartalom kész, a média még kapura vár).
 - A „specifikáció zárt” állítás nem igaz, amíg kötelező asset nyitott jogi kapun áll.
 
+**2026-10-04 óta** (`Emberi jóváhagyás szükséges.md` 10. szakasz; Q-MED-1, RM-D3, RM-D4): a „`READY`” a
+`LEARNER-RELEASE-VERDICT: READY_FOR_CONTROLLED_PILOT`. A médiakapu asset-szintű, fallbackkel. Release-kötelező a Q-MED-1
+A fázisa; ilyen asset nyitott kapun fallback nélkül a `MOODLE-BUILD-VERDICT`-et blokkolja, átmeneti fallbackkel
+`CONTENT_READY / MEDIA_PENDING`. A B fázis (narráció) és a C fázis (videó, avatar, karakterjelenet) fallbackkel jár, ezért nem
+blokkol. A fenti `release_tier` az M0+M1 staging-szeletre szól; a teljes kurzusra a manifest `release_phase` mezője lesz
+a kánon (a bevezetéséig a gép a narrációt B-nek, a videót C-nek, minden mást A-nak tekint).
+
 ## 5. Specifikáció vs. runtime
 
 A média-hozzáférhetőség állapota háromlépcsős:

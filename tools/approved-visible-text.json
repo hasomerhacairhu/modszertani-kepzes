@@ -325,8 +325,8 @@
       "sha256": "3ffa8767b8075184f16c38445f4adbe080ee1c6ddaa36be51de96b0bc183cb8c"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "637ada27dde4990c3411bb0b1bcfa464934562db2e7d8cc03ea374183f174d2d"
+      "reason": "RM-D3, RM-D4, Q-MED-1: a READY a READY_FOR_CONTROLLED_PILOT, asset-szintű médiakapu fallbackkel (Program terv, RELEASE-MEDIA-STATUS)",
+      "sha256": "76e7492c52ebb21080b5d13546607c4a13bdcd6c327c3f31ef62a7d610d953dd"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "RM-D1…D6: két verdikt a RELEASE-READINESS-ben (G3/G4/G5 spec- és runtime-része, besorolás, életciklus, gépileg követett G4b és go/no-go), runtime acceptance teszt-állapot tábla, manifest build-spec nyilvántartás",
