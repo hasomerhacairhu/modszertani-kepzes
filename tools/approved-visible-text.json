@@ -21,8 +21,8 @@
       "sha256": "83b13dbd0394dd8e26f2318671ac1dcac5fde2ef54eb9bc352b9e4b54f522319"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "BSPEC-01/02 javítókör (A–M; BS-D2, BS-D3, BS-D5, BS-D8): TEXT-C Moodle Feedback, GATE-CP, M0 4. item D, M1.4 Q-REL-2, M3.1/M3.2 opcionális, M4.4/Z.3 mezőhely, Z.3 mentori elfogadás, M5.3 tartalékút, újraértékelési zárópont + célzott review-javítások",
-      "sha256": "ba1a3b7efd0eaad5eef240f68f23e7fe1eefc73f865e9a3f0f807ff9b7d39061"
+      "reason": "BSPEC-01 BUILD_SPEC_RESOLVED (9fdeebc); BSPEC-02/03/04 provenance hash-ek (e980a70, 9fdeebc): csak nyilvántartás",
+      "sha256": "5025ae8ce47d95a8edc92cd64d88f8c1f59e691fb9877fe33dfc1138eea31da4"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "BSPEC-01/02 javítókör (A–M; BS-D2, BS-D3, BS-D5, BS-D8): TEXT-C Moodle Feedback, GATE-CP, M0 4. item D, M1.4 Q-REL-2, M3.1/M3.2 opcionális, M4.4/Z.3 mezőhely, Z.3 mentori elfogadás, M5.3 tartalékút, újraértékelési zárópont + célzott review-javítások",

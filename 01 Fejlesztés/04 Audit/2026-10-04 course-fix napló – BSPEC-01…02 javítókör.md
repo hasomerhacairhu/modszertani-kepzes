@@ -104,7 +104,7 @@
 | F55 | K: RA 12 — Z.3 két állapot | RA | alkalmazva | |
 | F56 | K: RA 15 — Feedback-nézetek | RA | alkalmazva | |
 | F57 | BS-D1…D6, BS-D8 átvezetése a HUM 10. szakaszába | HUM | alkalmazva | a jobb oldali szerep a szülődöntés meglévő ellenőrzőjéből, forrásmegjelöléssel; a BS-D4-nél nincs |
-| F58 | M: BSPEC-01 → `BUILD_SPEC_RESOLVED` | M | alkalmazva (szöveg) | az állapotváltás és a hash a követő nyilvántartási commitban, a megoldó commit után |
+| F58 | M: BSPEC-01 → `BUILD_SPEC_RESOLVED` | M | alkalmazva | a megoldó commit `9fdeebc`; az állapotváltás és a hash-ek (BSPEC-01…04) külön nyilvántartási commitban |
 | F59 | M: BSPEC-02 → `BUILD_SPEC_OPEN`, frissített maradék | M | alkalmazva | a leltár-maradék tételesen |
 | F60 | M: BSPEC-03 javított hivatkozás | M | alkalmazva | + BSPEC-04 (BS-D2 pontosítás) |
 
