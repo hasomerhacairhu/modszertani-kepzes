@@ -28,12 +28,12 @@ köteg-terv és pilot-táblázat) · [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-
 | P-NAR | narráció / hang | `M4.2-NAR-03` | 89 | B3 | R2, R3 | a terv 2026-08-28-i javaslata; a 2026-10-03-i projektgazdai döntés (VO D-13) megerősítette |
 | P-VID | AI beszélőfej | `M5.1-VID-01` | 18 | B3 | R2, R3 | a terv 2026-08-28-i javaslata |
 | P-KAR | AI karakter-jelenet | `M4.1-VID-03` | 6 | B3 | R2, R3, R5 | **eltérés** — indoklás lent |
-| P-DIA | diagram | `M0.2-DIA-01` | 39 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-IKO | ikon-készlet | `M1.3-IKO-01` | 40 | B1 | R5 | **eltérés** — indoklás lent |
-| P-ILL | illusztráció | `M4.2-ILL-01` | 46 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-MUN | munkalap / nyomtatvány | `M6.A-MUNK-02` | 61 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-POS | poszter | `M7.B-POSZ-01` | 37 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-KRT | kártyaszett | `M5.A-KART-01` | 23 | B1 | R5 | **kiegészítés** — indoklás lent |
+| P-DIA | diagram | `M0.2-DIA-01` | 39 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-IKO | ikon-készlet | `M1.3-IKO-01` | 40 | B0 | R5 | **eltérés** — indoklás lent |
+| P-ILL | illusztráció | `M4.2-ILL-01` | 46 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-MUN | munkalap / nyomtatvány | `M6.A-MUNK-02` | 66 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-POS | poszter | `M7.B-POSZ-01` | 36 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-KRT | kártyaszett | `M5.A-KART-01` | 23 | B0 | R5 | **kiegészítés** — indoklás lent |
 
 Az „Eredet” oszlop — és a „Kapuk” oszlop, valamint a pilotonkénti „Státusz · kapuk” sor —
 a csomag írásakori (2026-08-28) állapotot rögzíti; az R5 a D1 2026-10-02-i lezárásával
@@ -44,8 +44,8 @@ terv-pilot ettől eltérhet — az aktuális ID-k a
 briefjeit a fenti ID-kre írta.
 
 A „család mérete” a terv számolásmódját követi: az újrahasznosított (`reuse`) és az
-élő/runtime tételek nélkül. A terv a posztert és a kártyaszettet **egyetlen, 60 tételes
-családként** kezeli (37 + 23) — itt azért bontjuk ketté, mert a produkciós módszerük
+élő/runtime tételek nélkül. A terv a posztert és a kártyaszettet **egyetlen, 59 tételes
+családként** kezeli (36 + 23) — itt azért bontjuk ketté, mert a produkciós módszerük
 eltér (lásd 1.1.). A kártyaszettek közül a `Z.A-KART-04` élő/runtime tétel — azt a képző
 hozza létre a peulán —, ezért nincs benne a 23-ban.
 

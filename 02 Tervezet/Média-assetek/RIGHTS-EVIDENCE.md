@@ -367,7 +367,7 @@ A kivezetés indoka minden esetben az asset saját deklarációjából következ
 
 Az M6.3 leckében a projekt korábban **fotóról illusztrációra** váltott, kimondottan a
 GDPR-kockázat elkerüléséért („DÖNTÉS: illusztráció (GDPR-kockázat elkerülése),
-FOTO→ILL”). Ennek eredménye, hogy a 415 assetből ma **kettő** épül valós felvételre.
+FOTO→ILL”). Ennek eredménye, hogy a 420 assetből ma **kettő** épül valós felvételre.
 Ez a lap ezt a döntést rögzíti, nem bírálja felül — és nem is használható arra, hogy egy
 **kötelezően valós** felvételt (a Moodle-képernyőképet) illusztrációra cseréljünk.
 

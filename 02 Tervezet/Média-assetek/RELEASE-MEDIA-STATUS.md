@@ -125,7 +125,7 @@ Ha az M0+M1 staging már működik, az első média-produkciós kör sorrendje:
 3. csak ezután narrációs pilot;
 4. AI beszélőfej csak a hang-, képmás- és szolgáltatói jogok lezárása után — gyermekvédelmi és krízis-HOOK-ban a projektgazdai döntés szerint (`HUM-MEDIA-03`) készlet-AI-beszélőfej egyáltalán nem: ott hangalámondás + tipográfia/grafika készül.
 
-A cél nem a 417 asset minél gyorsabb legyártása, hanem annak bizonyítása, hogy a vizuális/hangos réteg hozzáad értéket a már működő tanulási úthoz.
+A cél nem a 420 asset minél gyorsabb legyártása, hanem annak bizonyítása, hogy a vizuális/hangos réteg hozzáad értéket a már működő tanulási úthoz.
 
 ## 7. Kapcsolódó emberi döntések
 

@@ -13,9 +13,9 @@ kisebb vagy egyenlő, mint az „érintett”.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 415 | 903 |
-| Ebből központilag előgyártható | 404 | 898 |
-| Ebből **most gyártható** | **285** | **526** |
+| Összesen | 420 | 913 |
+| Ebből központilag előgyártható | 409 | 908 |
+| Ebből **most gyártható** | **290** | **536** |
 | Élő/runtime tétel (a képző hozza létre a peulán) | 3 | 5 |
 
 ---

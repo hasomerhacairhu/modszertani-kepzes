@@ -1,12 +1,12 @@
 # 🏭 Produkciós stack — döntés-előkészítés
 
-Ez a lap egy helyen írja le, **mivel és hogyan** készülne el a 903 deliverable, ha a
+Ez a lap egy helyen írja le, **mivel és hogyan** készülne el a 913 deliverable, ha a
 nyitott döntések megszületnek. **Nem lezárás, nem jóváhagyás, és nem indít gyártást.**
 
 | | |
 |---|---|
 | **Státusz** | NYITOTT — FELHASZNÁLÓI DÖNTÉS SZÜKSÉGES |
-| **Mit változtat a manifeszten** | semmit. A 415 asset, a 903 deliverable és a blokkolók ettől a laptól nem változnak: a blokkolókat a leckék deklarációi és a `produkcios-szabalyok.json` viszik. |
+| **Mit változtat a manifeszten** | semmit. A 420 asset, a 913 deliverable és a blokkolók ettől a laptól nem változnak: a blokkolókat a leckék deklarációi és a `produkcios-szabalyok.json` viszik. |
 | **Mit fizettünk** | semmit. Fizetős API-t nem hívtunk, fiókot nem hoztunk létre, próbaidőszakot nem indítottunk, médiát nem generáltunk. |
 | **Kutatás dátuma** | 2026-08-27 (minden külső forrás ekkor lekérdezve) |
 
@@ -41,9 +41,9 @@ igazság.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 415 | 903 |
-| Központilag előgyártható | 404 | 898 |
-| **Most gyártható (nincs nyitott kapu)** | **285** | **526** |
+| Összesen | 420 | 913 |
+| Központilag előgyártható | 409 | 908 |
+| **Most gyártható (nincs nyitott kapu)** | **290** | **536** |
 | Élő/runtime (a képző hozza létre a peulán) | 3 | 5 |
 
 ---
