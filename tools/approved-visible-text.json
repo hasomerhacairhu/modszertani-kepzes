@@ -21,8 +21,8 @@
       "sha256": "daf1b690faddc2e5fd67266599d9751ca09e1bf6c8f1638d52fe960ddae6db2f"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "BSPEC-05, BSPEC-06, BSPEC-07: registry provenance, resolving commit 17a76a0 cited (metadata only)",
-      "sha256": "7f55893003b8500864e9762fc78f8caf51b6d0690ce487e0f44ebff127260943"
+      "reason": "PR #21 squash provenance normalization; no learner-facing semantic change",
+      "sha256": "d9b00c47b5e5870fbff8a687e4bc69c95ea343ee01953f99ab288b17f4bc4bef"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "C6U2-01…C6U2-04 (C6U-BIZT-1/2/3/4, C6U-IMPL-1/2): feltárási feltétel kánonhoz igazítva, családi/identitás-garancia, GK §4.1 jelzési út utalás, értékelő-mondat, A11Y-07 portálnév-útmutatás, RT-P0-15 tesztfeltételek HUM-döntésként",
