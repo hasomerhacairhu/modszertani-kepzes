@@ -52,7 +52,8 @@ verifier és a reviewerek erre hivatkoznak.
 - **Lezárt projektgazdai döntés** (PROJEKT-DÖNTÉS): az `Emberi jóváhagyás szükséges.md`
   `LEZÁRVA` + `Jóváhagyta:` tételei, **és** ugyanennek a fájlnak a 8. szakasztól kezdődő,
   datált projektgazdai döntés-szakaszai (HUM-azonosító nélkül is; ma a 8. és a 9., egy
-  később hozzáadott datált szakasz ugyanígy számít); **és** a média- és hangdöntések
+  később hozzáadott datált szakasz ugyanígy számít; a bennük kifejezetten nyitottként
+  jelölt vagy besorolt sorok kivételével, lásd lent); **és** a média- és hangdöntések
   nyilvántartása, a `Média-assetek/PRODUCTION-DECISIONS.md` `LEZÁRVA` szakaszai, datált
   „Projektgazdai döntés (…)” blokkjai és „Lezárt döntések” táblázata. Bizonyítékuk a
   `01 Fejlesztés/04 Audit/` döntési
@@ -60,6 +61,22 @@ verifier és a reviewerek erre hivatkoznak.
   nyisd újra, és ne jelentsd nyitott emberi döntésként. A döntés a kánoni sorrend 1–3.
   forrásai fölött áll: ha egy forrás ellentmond neki, az a forrás javítandó (objektív
   finding), nem választási kérdés.
+- **Állapotlánc** (Q-REL-3; `RELEASE-READINESS.md`): `PROPOSED → OWNER_DECIDED → IMPLEMENTED →
+  RUNTIME_VERIFIED → FINAL_RELEASE_QA → RELEASE_APPROVED`, mellette `SUPERSEDED` és `REOPENED`.
+  Amíg a régi fejlécek nincsenek átállítva, a `LEZÁRVA` = `OWNER_DECIDED`, nem
+  release-jóváhagyás. Az `OWNER_DECIDED` lezárt projektdöntés: megvalósítod, nem döntöd el
+  újra, de a megvalósítása, runtime-, QA- vagy release-bizonyítéka még nyitott lehet. Az
+  `IMPLEMENTED` és a `RUNTIME_VERIFIED` egy már eldöntött tétel haladási, illetve bizonyítéki
+  állapota, nem új projektgazdai döntés. A `FINAL_RELEASE_QA` nyitott szakértői QA- és
+  release-kapu, amíg a megnevezett szerep bizonyítéka meg nincs; az `OWNER_DECIDED`-ból, az
+  `IMPLEMENTED`-ből vagy a `RUNTIME_VERIFIED`-ből nem következtetsz rá. A `RELEASE_APPROVED` a
+  tényleges végső release-jóváhagyás: soha nem következtetsz rá. A `SUPERSEDED` nem aktív
+  kánon; a `REOPENED` újra nyitott, nem kezeled lezárt döntésként.
+- **Nyitott tétel datált döntés-szakaszban:** egy datált projektgazdai döntés-szakasz nem zár
+  le minden benne álló sort. Ami kifejezetten `nyitott`, `PROPOSED`, `REOPENED`, `human-qa`,
+  `FINAL_RELEASE_QA`, `RELEASE-EVIDENCE`, `SIGNOFF` vagy `bizonyíték-kapu` jelölésű vagy
+  besorolású, az a megadott értelemben nyitott marad akkor is, ha ilyen szakaszban áll: a
+  szakaszon belüli elhelyezés nem teszi lezárt projektdöntéssé.
 - **Hivatkozott, de még át nem vezetett döntés:** ha egy forrás datált projektgazdai döntésre
   hivatkozik (pl. „projektgazdai döntés 2026-10-03-B”, „VO D-19”), előbb keresd meg a
   `04 Audit` döntési jegyzőkönyvében. Ha ott sincs, vagy a fenti két nyilvántartás egyikébe sincs
@@ -68,7 +85,7 @@ verifier és a reviewerek erre hivatkoznak.
 - **Vétó/QA-szerepek:** a HUM-fájl „Utólagos ellenőrzés (vétó/QA)” soraiban megnevezett
   szerepek (pl. Memuna, DPO, programvezető, jogi felelős, ken-vezető, hozzáférhetőségi gazda,
   értékelési felelős). Későbbi ellenőrzésük vétó / minőségellenőrzés; vétónál a tétel
-  újranyílik.
+  újranyílik (`REOPENED`).
 - **Bizonyíték-kapu:** ezeknek a szerepeknek az írásos bizonyítéka (a Memuna „átnéztem”
   bejegyzése, DPO-, jogi jóváhagyás, runtime- és build-bizonyíték) a `RELEASE-READINESS.md`
   G1–G8 kapuihoz tartozik, nem nyitott döntés: nem írod be és nem feltételezed, a hiányát
