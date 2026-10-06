@@ -336,7 +336,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
   * File submissions: **ON**, max 1 file, max size 100–200 MB (opcionális videós út).
 * **Require students to click the submit button:** Yes – így van külön piszkozat és beadás (a 6. lépés beadásgombja); beadás után a tanuló már nem szerkesztheti a szöveget.
 * **Próbálkozások:** 1 normál + 1 javító próbálkozás: a javító próbálkozás a „Még nem teljesítve” visszajelzés után automatikusan nyílik, további próbálkozást csak a képző nyithat, kézzel. A completionhöz a legjobb megerősített eredmény számít; egy már megszerzett „Teljesítve” nem romolhat vissza egy önkéntes újrabeadástól, a legfrissebb próbálkozás visszajelzésként megmaradhat. (A manifest ASSIGN-S profilja szerint újrabeadás engedett; az újranyitást az `LMS – H5P runtime acceptance.md` 3. pontja teszteli.) A pontos Moodle-beállításokat és feliratokat a célverzión vissza kell olvasni.
-* **Due date:** 2027-03-10 18:00 (a Z completion határideje a központi naptár szerint, `LMS – activity manifest.md`); az eredmény megerősítése: 2027-03-11.
+* **Due date:** a Z completion határideje 18:00, a központi naptár szerinti napon (`LMS – activity manifest.md` §7; a dátum `SCHEDULE_TO_RESYNC`); az eredmény megerősítése: a következő napon.
 * **Grading type:**
   * „Pont nélküli skála”: `Teljesítve / Még nem teljesítve`
 * **Completion rule:**

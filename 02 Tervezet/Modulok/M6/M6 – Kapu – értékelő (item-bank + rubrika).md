@@ -39,7 +39,7 @@ Ez az M6 kapu **két komponensének** kész értékelőanyaga. A kettő **nem eg
 >
 > **Blokkoló feltétel:** ha a **Biztonság** VAGY az **Inkluzivitás** sor nem éri el az „Oké” szintet → **javítás kötelező** (mentorral/stábbal egyeztetve), a többi sortól függetlenül. Ez a kapu indoklásának magja: érzelmi/fizikai biztonság nem „átléphető”.
 >
-> **Újraértékelés:** a madrih kérheti, hogy az eredeti értékelőtől eltérő második képző nézze át a játéklapot és a kapudöntést, még a következő modul (M7) feloldása előtt (Program terv §5, „Újraértékelés a kizáró kapukon”).
+> **Újraértékelés:** a madrih kérheti, hogy az eredeti értékelőtől eltérő második képző nézze át a játéklapot és a kapudöntést, még mielőtt megnyílna a sikeres kapueredményhez kötött következő lépés, az M7 felkészültségi kvíze (az M7 tanulási része a megerősített eredménnyel már nyílik: Q-REL-2, BS-D2; Program terv §5, „Újraértékelés az éles kapukon”).
 >
 > **A kvíz terhe:** a kvíz **alacsony tétű** (önellenőrzés, korlátlan próbálkozás, nem buktat), ezért **nem növeli** a tanuló terhét. A blokkoló bizonyíték egyetlen produktumra (a játéklapra) koncentrálódik, így kevesebb a párhuzamos „éles” megmérettetés.
 
@@ -57,10 +57,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 | Téma | Honnan (lecke/peula) | Itemek |
 |---|---|---|
-| Korosztály–eszköz illesztés (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) | M6.1, M6.4, M6.A | 1, 2, 3, 4 |
+| Korosztály–eszköz illesztés (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) | M6.1, M6.3, M6.4, M6.A | 1, 2, 3, 4 |
 | Hiányzó / szükséges **biztonsági** megjegyzés felismerése | M6.1 (bizalomjáték-minimum), M6.4, M6.A | 5, 6, 7 |
 | **Azonnali biztonsági reflex** (mikor állsz le / kinek jelzel) – R4 „Erős” | M6.A 4.3.2/B, ötlépéses jelzési út (M3.B lépéstérkép) | **P1** *(pool/csere-item)* |
-| **Inkluzivitást** növelő variáció azonosítása | M6.3, M6.4 | 8, 9, 10 |
+| **Inkluzivitást** növelő variáció azonosítása | M6.1, M6.3, M6.4 | 8, 9, 10 |
 | **Érzékenység a felkavaró tartalmakra** (történet/élményjáték) | M6.2, M6.4 (B-ág) | 11, 12 |
 
 ---
@@ -137,7 +137,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - D – Fáradtan **elvész a fonal** egy bonyolult, hosszú történetnél.
 
 **Visszajelzés:**
-> ✅ Fáradt napzáráshoz rövid, kis intenzitású, mindenki által teljesíthető lezáró élmény illik, ami egyszerre ad „pontot a mondat végére” és kis játékosságot. (M6.4, C. szcenárió)
+> ✅ Fáradt napzáráshoz rövid, kis intenzitású, mindenki által teljesíthető lezáró élmény illik, ami „pontot tesz a mondat végére”. (M6.1: „Napzáráskor” energizer-kártya; M6.3: „Közös plakát” példa; opcionális példa: M6.4, C. szcenárió)
 
 ---
 
@@ -275,13 +275,13 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ---
 
-## 10. ITEM – Inkluzivitás: energizer napzáráskor, energiatakarékos üzemmód
+## 10. ITEM – Inkluzivitás: energizer napzáráskor, fáradt résztvevők
 
 **Szár:**
 > Napzáráskor 13 éveseknél energizert választasz. Néhányan **már nagyon fáradtak**, fizikailag is. **Melyik megoldás a leginkluzívabb**, hogy ők se essenek ki?
 
 **Opciók:**
-- A) Kis intenzitású játékot választasz, és jelzed, hogy „energiatakarékos üzemmódban” (ülve, kevesebb mozdulattal) is részt lehet venni. ✅
+- A) Kis intenzitású játékot választasz, és jelzed, hogy ülve, kevesebb mozdulattal is részt lehet venni. ✅
 - B) Megmondod, hogy mindenki vegyen részt teljes erőből, mert a közös erőfeszítéstől lesz igazán összekovácsolt csapat.
 - C) A fáradtakat kiállítod a játékból, hogy ők is pihenjenek, és ne lassítsák le a többieket a játék közben.
 - D) Pörgetsz egy nagyon fizikai, intenzív játékot, mert a mozgás majd felébreszti és energizálja a fáradt résztvevőket.
@@ -293,7 +293,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - D – A „majd felébreszti” jó szándékú, DE a fáradtakat **tovább löki kívülre**, nem von be – épp a kapcsolódás vész el.
 
 **Visszajelzés:**
-> ✅ Inkluzív energizernél kis intenzitású formát választasz, felkínálod az energiatakarékos üzemmódot, és utána tartasz egy mini-kört, hogy a fáradtak is benne legyenek a lezárásban. (M6.4, C. szcenárió)
+> ✅ Ha napzáráskor néhányan már nagyon fáradtak, kis intenzitású energizert választasz, és jelzed, hogy ülve, kevesebb mozdulattal is részt lehet venni, így ők sem esnek ki. (M6.1: „Napzáráskor” energizer-kártya és „legyen mód lassabban vagy ülve, jelzéssel is részt venni”; opcionális példa: M6.4, C. szcenárió)
 
 ---
 
@@ -370,9 +370,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > **Ha elérted a 80%-ot:** Szép munka! Látszik, hogy **a kvuca, a cél, a biztonság és az inkluzivitás** szempontjait együtt látod. **Ez az önellenőrzés most jó alap** – jöhet a modul éles kapuja, a **játéklap**, ahol ezt egy saját eszközön kell megmutatnod.
 >
 > **Ha most kevesebb lett (nyugodtan újrapróbálható, nem buktat):** Semmi gond, **ez nem éles kapu, hanem felkészítő önellenőrzés**. Nézd vissza a témát, amelyikben többször hibáztál – főleg ha **biztonsági vagy inkluzivitási** kérdésnél, mert ezek a játéklap **blokkoló** sorai is:
-> - korosztály-illesztés → **M6.1** és **M6.4**,
+> - korosztály-illesztés → **M6.1**, **M6.3** és **M6.4**,
 > - biztonsági minimum → **M6.1** (bizalomjáték), **M6.4** és **M6.A**,
-> - inkluzív variáció → **M6.3** és **M6.4**,
+> - inkluzív variáció → **M6.1**, **M6.3** és **M6.4**,
 > - érzékenység a felkavaró tartalmakra → **M6.2**.
 
 ---
@@ -412,7 +412,7 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 >
 > **Próbálkozások és újraleadás:** 1 normál + 1 javító leadás jár; a javító leadás nem automatikus, hanem a kötelező F-peula (M6.F) után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele); további próbálkozást csak a képző nyithat, kézzel. A javított játéklapot a tanuló ugyanabban az Assignmentben adja le. A completionhöz a **legjobb megerősített eredmény** számít: egy már megszerzett teljesítés nem romlik vissza egy önkéntes, gyakorló újraleadástól, a legfrissebb leadás pedig visszajelzésként megmarad.
 >
-> **A kapueredmény megerősítése:** a kapu eredményét legkésőbb 24 órával a következő fix alkalom, a pénteki M7.A előtt meg kell erősíteni: beadás szerda 18:00-ig, első értékelés csütörtök délután, megerősítés legkésőbb csütörtök 18:00-ig (a V1 központi naptár szerint: beadás 2027-02-17 18:00, megerősítés 2027-02-18 18:00, M7.A 2027-02-19). A függőben lévő, még nem megerősített eredmény nem bukás. Ha a kapu nem teljesül, az F-peula (M6.F) **kötelező**: facilitált javítási alkalom a kapueredmény megerősítése után és a javító leadás előtt; az időpontját a képző jelöli ki a központi naptár szerint: 2027-02-22 (hétfő), 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hétre, 2027-03-08-ra (hétfő) teheti.
+> **A kapueredmény megerősítése:** a kapu eredményét legkésőbb 24 órával a következő fix alkalom, a pénteki M7.A előtt meg kell erősíteni: beadás szerda 18:00-ig, első értékelés csütörtök délután, megerősítés legkésőbb csütörtök 18:00-ig (a konkrét dátumokat a központi naptár adja). A függőben lévő, még nem megerősített eredmény nem bukás. Ha a kapu nem teljesül, az F-peula (M6.F) **kötelező**: facilitált javítási alkalom a kapueredmény megerősítése után és a javító leadás előtt; az időpontját a képző jelöli ki a központi naptár szerint: a kapu megerősítését követő hétfőn, 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hét hétfőjére teheti.
 
 ---
 

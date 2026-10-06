@@ -112,7 +112,7 @@
 ## 1. Modul meta
 
 * **Időtartam:** 2 hét
-* **Heti offline:** péntek 2. sáv – Peula A (1. hét; a V1 központi naptár szerint 2027-02-19) és Peula B (2. hét; 2027-02-26), **45’ + 45’**
+* **Heti offline:** péntek 2. sáv – Peula A (1. hét) és Peula B (2. hét; a dátumokat a központi naptár adja), **45’ + 45’**
 * **Online terhelés:** kb. **4 db mikrolecke** H5P-magja: az M7.1, az M7.3 és az M7.4 egyenként **15–20’**, az M7.2 **30–35’**, mert az elején kb. 15 perces **AI-jártassági blokk** van (össz. ~**75–95’**; V1 tervezési értékek: a későbbi pilot finomíthatja őket, de nem élesítési feltétel); ehhez jön **M7.3 Moodle Checklist (5–10’)** és **M7.4 Moodle Assignment-kitöltés (5–10’)** külön lépésként → online összterhelés **~85–115 perc**.
 * **Félévzáró szintézis-produktum (önálló írásmunka – külön, reális becslés):** a **véglegesített Peula v2 + Zmán Kvucá** NEM fér bele a fenti percekbe – ez a félév **szintézis-produktuma**, ezért külön tervezett munkaidőt igényel. **Reális becslés (madrih-óra, otthoni / védett munkaidő):**
   * **Peula v1 első vázlat** (M7.4 Assignment): **~30–45 perc** (kvuca-meta + SMART cél + 3–4 pont + operációs mini-tábla).
@@ -180,7 +180,7 @@ A modul végére a madrih…
   Megkülönböztetni a „szétfolyó” kívánságszintű célokat a **SMART nevelési céltól**, és 1 saját peula-ötlethez SMART célt írni.
 * **Programírás-fókusz:**
   „Ha nem tudom pontosan, mit szeretnék, nem tudom jól megtervezni a peulát sem.”
-* **Eszközök:** H5P **Course Presentation** (**7 slide**) + beépített **Single Choice Set** + **Fill in the Blanks** + **rövid szöveges válasz** (a záró SLIDE 7 saját SMART cél megírására).
+* **Eszközök:** H5P **Course Presentation** (**7 slide**) + beépített **Single Choice Set** + **Fill in the Blanks**; a záró SLIDE 7 saját SMART céljának mezői a lecke melletti Moodle-oldali szövegmezőben (`LMS – activity manifest.md`, LMS-M7-10).
 * **Tartalom röviden:**
   * „Szétfolyó vágyak” vs. mérhető célok (kvuca-szituációkra írva).
   * SMART definíció **madrih-nyelven** + 2 someres minta (pl. szolidaritás / biztonság).
@@ -323,7 +323,7 @@ A modul végére a madrih…
 }
 -->
 
-* **Kapcsolódás:** **F-peula** – facilitált, strukturált javítási alkalom azoknak, akiknek az M7 kapuja nem teljesült (meghatározása: Program terv, Glosszárium): a kapun kapott visszajelzésre (Megfigyelés → Hatás → Következő lépés) építve a nem teljesült kapuelemek javítását készíti elő, és ehhez rögzíti az **M7.1–M7.4** blokk fogalmait; **kötelező, ha az M7 éles kapuja nem teljesült**. Időpontja a kapueredmény megerősítése után, a javító próbálkozás előtt van; a képző jelöli ki a központi naptár szerint: 2027-03-08 (hétfő), 18:00-tól, a Z utáni héten. A javító próbálkozás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele). Aki csak lemaradt a leckékkel, csendes pótlással pótol.
+* **Kapcsolódás:** **F-peula** – facilitált, strukturált javítási alkalom azoknak, akiknek az M7 kapuja nem teljesült (meghatározása: Program terv, Glosszárium): a kapun kapott visszajelzésre (Megfigyelés → Hatás → Következő lépés) építve a nem teljesült kapuelemek javítását készíti elő, és ehhez rögzíti az **M7.1–M7.4** blokk fogalmait; **kötelező, ha az M7 éles kapuja nem teljesült**. Időpontja a kapueredmény megerősítése után, a javító próbálkozás előtt van; a képző jelöli ki a központi naptár szerint: a Z utáni hét hétfőjén, 18:00-tól. A javító próbálkozás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele). Aki csak lemaradt a leckékkel, csendes pótlással pótol.
 * **Fő cél:**
   * Segíteni azoknak, akiknek az M7 kapuja nem teljesült, hogy a kapun kapott visszajelzés alapján **előkészítsék a nem teljesült kapuelemek javítását** (a kvíz, a Peula v2 + Zmán Kvucá vagy mindkettő), és ehhez **értsék a fő fogalmakat** (SMART, Peula 11 pont, Zmán Kvucá-checklist, Peula v2 + AI),
   * valódi, védett időt adni a javító próbálkozás előkészítésére és a hiányzó leckék pótlására,
@@ -344,10 +344,10 @@ A modul végére a madrih…
 
 > **Hol történik a tényleges Peula v2 teljesítési leadása? (kétlépcsős, időben szétterítve)**
 > A félévzáró feladat **két lépcsőben** érik be:
-> – **v1 – elsővázlat-ellenőrzési pont (1. hét vége, M7.A után):** az M7.4 Assignment („Peula v1 – első vázlat”) **fejlesztő** (0/1 completion; üres sablon nem completion), **alacsony tét, újrapróbálható, NEM buktat**; a **kijelölt mentor** a v2 előtt rubrikára épülő, Megfigyelés → Hatás → Következő lépés szerkezetű visszajelzést ad rá – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu. (Határidő: `M7_V1_DUE` = 2027-02-24 (szerda) 18:00, a mentori visszajelzés 2027-02-25 (csütörtök) 18:00-ig – a V1 központi naptárból levezetett pontok (szerda, illetve csütörtök az M7.B előtt), nem külön megadott dátumok; a Moodle-ben előre beállítva és előre közölve.)
+> – **v1 – elsővázlat-ellenőrzési pont (1. hét vége, M7.A után):** az M7.4 Assignment („Peula v1 – első vázlat”) **fejlesztő** (0/1 completion; üres sablon nem completion), **alacsony tét, újrapróbálható, NEM buktat**; a **kijelölt mentor** a v2 előtt rubrikára épülő, Megfigyelés → Hatás → Következő lépés szerkezetű visszajelzést ad rá – ez a kapu **bemenete**, a **váz** (Peula v1), NEM maga a kapu. (Határidő: `M7_V1_DUE` = az M7.B előtti szerda 18:00, a mentori visszajelzés az M7.B előtti csütörtök 18:00-ig – a V1 központi naptárból levezetett pontok, nem külön megadott dátumok; a Moodle-ben előre beállítva és előre közölve.)
 > – **kvíz – felkészültségi kapu (a v1 leadása után nyílik; ajánlott még az M7.B előtt teljesíteni, a v2 leadása előtt kötelező):** a „SMART & Zmán Kvucá kvíz (felkészültségi)” (lásd lent, 2. pont) a v1 leadása után nyílik, és a megerősített eredménye a v2 leadásának feltétele (`LMS – activity manifest.md` LMS-M7-07); a kapu ettől még kétrészes marad: a kvíz ÉS a v2-rubrika.
 > – **~1 hét köztes fejlesztési idő:** a v1 visszajelzései után a finomítás az **M7.B peula-műhelyben és otthon** történik, nem aznapi v1→v2, hanem külön fejlesztési szakaszban.
-> – **v2 – teljesítési kapu (2. hét vége, M7.B után):** a **véglegesített Peula v2 + Zmán Kvucá** leadása az **éles kapu**. (Határidő: `M7_V2_DUE` = 2027-03-03 (szerda) 18:00 a V1 központi naptár szerint, a kapueredmény megerősítése legkésőbb 2027-03-04 18:00; a Moodle-ben előre beállítva és előre közölve.)
+> – **v2 – teljesítési kapu (2. hét vége, M7.B után):** a **véglegesített Peula v2 + Zmán Kvucá** leadása az **éles kapu**. (Határidő: `M7_V2_DUE` = szerda 18:00 a V1 központi naptár szerint, a kapueredmény megerősítése legkésőbb csütörtök 18:00; a Moodle-ben előre beállítva és előre közölve.)
 > A részletes értékelőt (item-bank, 8 soros rubrika, blokkoló biztonsági sor, ponthoz kötött ≥70%) az **[M7 – KAPU – értékelő (item-bank + rubrika)](./M7%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md)** fájl tartalmazza.
 > **Horgonyzás:** a végleges Peula v2-t a **félév végén, mentor / képző** zárja le ezen az éles kapun – ez NEM csúszik a modulon kívülre, és a Z modul completion-alapú reflexiója **nem helyettesíti** ezt a teljesítési értékelést.
 
@@ -384,7 +384,7 @@ A modul végére a madrih…
 * **Javítás / támogatás:**
   * ha valaki nem éri el a küszöböt:
     * rövid, konkrét **fejlesztő visszajelzés** Megfigyelés → Hatás → Következő lépés szerkezetben (legfeljebb három konkrét javaslatban),
-    * **kötelező felzárkóztató peula (F-peula)** mentorral / képzővel (egyéni támogatás; kettesben csak a safer-working szabály szerint: indokolt esetben, átlátható módon, egy másik felelős tudtával – online is) a kapueredmény megerősítése után, a javító próbálkozás előtt; az időpontot a képző jelöli ki a központi naptár szerint: 2027-03-08 (hétfő), 18:00-tól, a Z utáni héten,
+    * **kötelező felzárkóztató peula (F-peula)** mentorral / képzővel (egyéni támogatás; kettesben csak a safer-working szabály szerint: indokolt esetben, átlátható módon, egy másik felelős tudtával – online is) a kapueredmény megerősítése után, a javító próbálkozás előtt; az időpontot a képző jelöli ki a központi naptár szerint: a Z utáni hét hétfőjén, 18:00-tól,
     * utána lehetőség javított Peula v2 leadására (egy javító leadás jár, amely az F-peula után nyílik meg: a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; továbbit a képző nyit).
 
 ***

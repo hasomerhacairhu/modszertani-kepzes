@@ -142,18 +142,19 @@ Mind az öt tételben **projektgazdai döntés (2026-10-02)** született; a tart
 
 Learner-facing release előtt mindegyik legyen igazolt:
 
-- [ ] M3.3, M3.B, M3-kapu és az M7 gyermekvédelmi részei a Memuna által átnézve: egyszeri, írásos „átnéztem” a release-jegyzőkönyvben (élesítés előtti QA-lépés, nem a policy újradöntése; §2);
+- [ ] M3.3, M3.B, M3-kapu, az M7 gyermekvédelmi részei, valamint minden olyan tananyagelem, amely bántalmazásról, önsértésről, groomingról, szexuális/romantikus határátlépésről, súlyos veszélyeztetettségről vagy külső jelzésről tanít, a Memuna által átnézve: egyszeri, írásos „átnéztem” a release-jegyzőkönyvben (élesítés előtti QA-lépés, nem a policy újradöntése; §2); <!-- gate: human-qa -->
 - [x] HUM-SAFE-01–05 lezárva; **projektgazdai döntés: 2026-10-02** – az `Emberi jóváhagyás szükséges.md` mind az öt tételt dátummal, jóváhagyóval és bizonyítékkal zárta; a későbbi ellenőrzés vétó/QA (§5);
-- [ ] a learner-facing gyermekvédelmi kontakt – a Memuna és összeférhetetlenség esetére a név szerint kijelölt helyettese – a „Segítség és kapcsolatok” blokkban, a többi kontakttól külön, ténylegesen látható a Moodle-ben;
-- [ ] nincs 100%-os titoktartási ígéret;
-- [ ] nincs nyomozásra, konfrontációra vagy otthoni „lerendezésre” utasítás;
-- [ ] akut veszély útja és a segélyvonalak a review napján ellenőrizve;
-- [ ] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út (egységes szövege: §4.3);
-- [ ] a négyszemközti (1:1) helyzetek tananyaga és kvízkulcsai a HUM-SAFE-02 szerinti safer-working szabállyal és kivételeivel egyeznek (szövege: §4.2);
-- [ ] az alkohol-, dohány- és nikotinpéldák csak a HUM-SAFE-04 szerinti szervezeti szabályt állítják (tartalma: §5);
-- [ ] a 18 év feletti stáb alkalmassági ellenőrzése és gyermekvédelmi felkészítése, valamint a 15–17 éves madrih képzése, magatartási kódexe és felnőtt felügyelete HUM-SAFE-05 szerint dokumentált;
-- [ ] a jogszabályi állításoknál külön látszik, mi jogi kötelezettség, mi safeguarding szakmai minimum, és mi szervezeti policy;
-- [ ] jóváhagyás dátuma és következő felülvizsgálat dátuma rögzítve.
+- [ ] a learner-facing gyermekvédelmi kontakt – a Memuna és összeférhetetlenség esetére a név szerint kijelölt helyettese – a „Segítség és kapcsolatok” blokkban, a többi kontakttól külön, ténylegesen látható a Moodle-ben; <!-- gate: post-build -->
+- [ ] nincs 100%-os titoktartási ígéret; <!-- gate: human-qa -->
+- [ ] nincs nyomozásra, konfrontációra vagy otthoni „lerendezésre” utasítás; <!-- gate: human-qa -->
+- [ ] akut veszély útja és a segélyvonalak a review napján ellenőrizve; <!-- gate: release-evidence -->
+- [ ] saját érintettségre van rövid, szégyenítés nélküli kilépési/támogatási út (egységes szövege: §4.3); <!-- gate: signoff -->
+- [ ] a négyszemközti (1:1) helyzetek tananyaga és kvízkulcsai a HUM-SAFE-02 szerinti safer-working szabállyal és kivételeivel egyeznek (szövege: §4.2); <!-- gate: human-qa -->
+- [ ] SAFE-7: az M3.3 S1 23:15-ös bejövő privát üzenete és a ✅ első válasz HUM-SAFE-02-megfelelése a Memuna által QA-zva; nyitott, learner release előtt kötelező lezárni, a staging buildet nem blokkolja (`Emberi jóváhagyás szükséges.md` 11. szakasz). <!-- gate: human-qa -->
+- [ ] az alkohol-, dohány- és nikotinpéldák csak a HUM-SAFE-04 szerinti szervezeti szabályt állítják (tartalma: §5); <!-- gate: human-qa -->
+- [ ] a 18 év feletti stáb alkalmassági ellenőrzése és gyermekvédelmi felkészítése, valamint a 15–17 éves madrih képzése, magatartási kódexe és felnőtt felügyelete HUM-SAFE-05 szerint dokumentált; <!-- gate: release-evidence -->
+- [ ] a jogszabályi állításoknál külön látszik, mi jogi kötelezettség, mi safeguarding szakmai minimum, és mi szervezeti policy; <!-- gate: signoff -->
+- [ ] jóváhagyás dátuma és következő felülvizsgálat dátuma rögzítve. <!-- gate: signoff -->
 
 ## 7. Elsődleges források a szakértői review-hoz
 

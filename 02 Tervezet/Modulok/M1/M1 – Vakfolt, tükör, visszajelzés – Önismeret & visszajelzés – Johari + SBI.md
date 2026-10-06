@@ -3,7 +3,7 @@
 ## 1. Modul meta
 
 * **Időtartam:** 2 hét
-* **Heti offline:** péntek 2. sáv – M1.A (1. hét) és M1.B (2. hét), kb. 45’ + 45’
+* **Offline alkalom:** a központi naptár szerint. M1.A (1. hét) és M1.B (2. hét), kb. 45’ + 45’
 * **Online terhelés:** kb. 4×15–20 perc mikrolecke (M1.1–M1.4, össz. \~60–80’)
 * **Javasolt sorrend (egymásba fűzve / interleaving):** 1. hét: **M1.1–M1.2 online → M1.A peula**; 2. hét: **M1.3–M1.4 online (a kapu-beadóval) → M1.B peula**. A mikroleckék tehát **nem egy ülésben**, hanem a két peula köré csoportosítva haladnak: M1.A-t a tanuló **az M1.3–M1.4 ELŐTT** végezze (M1.A előremutató SBI-hídja erre épül), M1.B-t pedig **utánuk**. Az M1.4 SBI-beadandót (kapu) a 2. héten, M1.B előtt érdemes leadni. Az M1.B-n csiszolt SBI-t az M1.4 Assignment új próbálkozásában lehet beadni (az új próbálkozást a képző nyitja meg); a teljesítéshez a legjobb megerősített eredmény számít, így egy már teljesített kapu az önkéntes újrabeadástól nem romlik vissza.
 * **Kapueredmény és határidő:** a kapueredményt legkésőbb 24 órával a következő fix alkalom (az M2.A peula) előtt meg kell erősíteni: pénteki M2.A esetén az M1.4 SBI-beadandó határideje szerda 18:00, az első értékelés csütörtök délután, a megerősítés legkésőbb csütörtök 18:00. A függőben lévő (még nem megerősített) eredmény nem bukás. A konkrét V1 dátumokat a központi naptár rögzíti (`LMS – activity manifest.md`).
@@ -206,7 +206,7 @@ A modul végére a résztvevő…
 * **Cím (kvucának):** Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’)
 * **Kapcsolódó online leckék:** M1.1 – Johari-ablak – vakfoltjaim felismerése; M1.2 – Megfigyelés ≠ értelmezés; M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést?; M1.4 – Miniszituációk: „Mondd el SBI-ben”.
 * **Kinek szól:** annak, akinek az M1 éles kapuja (az M1.4 SBI-beadandó) nem teljesült – neki az F-peula **kötelező**: facilitált, strukturált javítási alkalom, nem általános pótlás. Aki csak egy leckéről vagy peuláról maradt le, csendes pótlással, önállóan pótol; erre az M1.F „Csendes pótlás” blokkja is helyet ad.
-* **Időpont:** a kapueredmény megerősítése után, a javító próbálkozás előtt; a képző jelöli ki a központi naptár szerint (2026-11-30, hétfő 18:00-tól).
+* **Időpont:** a kapueredmény megerősítése után, a javító próbálkozás előtt; a képző jelöli ki a központi naptár szerint (hétfő 18:00-tól).
 
 **Cél:**
 
@@ -255,7 +255,7 @@ A kapu **hivatalos, 4 soros rubrikáját** az [M1 – KAPU – értékelő (item
 ### Javítási logika
 
 * Ha nem éri el a minimumot, rövid, **konkrét fejlesztő visszajelzést** kap a beadott szövegre (Megfigyelés → Hatás → Következő lépés), és újrapróbálhatja (elsajátításig tartó tanulás): **1 normál + 1 javító próbálkozás**; éles kapunál a javító próbálkozás a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele); további próbálkozást a képző nyithat, kézzel. A teljesítéshez a legjobb megerősített eredmény számít.
-* Ha az éles kapu nem teljesült, a [Program terv](../../Program%20terv.md) §5 szerint az **M1.F felzárkóztató peula (F-peula)** kötelező: facilitált, strukturált javítási alkalom (egyéni vagy kiscsoportos támogatás) a kapueredmény megerősítése után, a javító próbálkozás előtt; időpontját a képző jelöli ki a központi naptár szerint (2026-11-30, hétfő 18:00-tól). Kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4.2 safer-working szabálya érvényes: 1:1 csak indokolt esetben, átlátható módon és egy másik felelős tudtával (HUM-SAFE-02).
+* Ha az éles kapu nem teljesült, a [Program terv](../../Program%20terv.md) §5 szerint az **M1.F felzárkóztató peula (F-peula)** kötelező: facilitált, strukturált javítási alkalom (egyéni vagy kiscsoportos támogatás) a kapueredmény megerősítése után, a javító próbálkozás előtt; időpontját a képző jelöli ki a központi naptár szerint (hétfő 18:00-tól). Kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4.2 safer-working szabálya érvényes: 1:1 csak indokolt esetben, átlátható módon és egy másik felelős tudtával (HUM-SAFE-02).
 * Ha eléri a minimumot, akkor is kap visszajelzést: érdemes kiemelni, pontosan mi és miért volt jó megoldás, hogy ez meg is erősödjön benne.
 
 ***

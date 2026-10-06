@@ -8,7 +8,9 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, reszponzív, mobil-first)
-* Beágyazott **Single Choice / Multi Choice** kérdések + **szabad szöveges válasz**
+* Beágyazott **Single Choice / Multi Choice** kérdések; a **szabad szöveges** lépések (SLIDE 5, SLIDE 6) a 3. szakasz runtime-követelménye szerint tanuló-lokálisak, beviteli elem nélkül
+
+**Completion (lecke):** a választós interakciók érdemi megválaszolása (az LMS-Z-01 H5P-C profilja): SLIDE 1 Single Choice, SLIDE 3 Multi Choice, SLIDE 4 Single Choice Set. A SLIDE 5 fénypont-reflexiója és a SLIDE 6 záró mondata kötelező, de tanuló-lokális: nem completion-feltétel (D-2).
 
 **Mikrocél (tanulói nyelven):**
 
@@ -50,7 +52,7 @@ Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb �
 
 ## 3. H5P Course Presentation – slide-by-slide
 
-> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** – ha a teszt nem igazolja, a mező Moodle-oldalra kerül. A minimális karakterszámot kérő mezőnél azt, hogy a választott megvalósítás ezt ténylegesen kikényszeríti-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli.
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető.** A SLIDE 5 fénypont-reflexiója és a SLIDE 6 záró mondata kötelező, de tanuló-lokális lépés (D-2, `Emberi jóváhagyás szükséges.md` 10. szakasz): a tanuló magának írja le, CP-be ágyazott beviteli elem és Moodle-oldali mező nem épül hozzájuk, minimális karakterszám nincs, és nem completion-feltételek (`LMS – activity manifest.md`, LMS-Z-01; `LMS – H5P runtime acceptance.md` 24. pont). A beadandó, mentor által látható záró reflexió a Z.4 (LMS-Z-04).
 
 > **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 3. dia „Single Choice” / „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
@@ -409,8 +411,8 @@ Opciók:
     "R5"
   ],
   "blockers": [],
-  "notes": "A szabad szöveges mező és a 2 kérdés szöveges interakció, nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-IKO-01::ALTTEXT.",
-  "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható.",
+  "notes": "A 2 kérdés szöveges UI (beviteli elem nélkül; a tanuló magának írja le), nem média-asset. Enum-kényszerből „ikon-készlet” (egyetlen ikonra is ez a legközelebbi típus). Párba állítva: Z.1-IKO-01::ALTTEXT.",
+  "review": "A v1 spec konkrét H5P content type-ot nevezett meg a szabad szöveges mezőre; a jelenlegi leckék ezt kifejezetten az `LMS – H5P runtime acceptance.md` 6. pontjára bízzák, és kikötik, hogy a Course Presentation dián belüli szabad szöveges mező nem feltételezhető. A megnevezés ezért kikerült a specből; az eredeti v1 szöveg a _legacy/media-merged.json-ban olvasható. A D-2 óta a dián nincs beviteli elem.",
   "legacy": {
     "alt-text": [
       "Z.1-ALT-03"
@@ -426,15 +428,15 @@ Opciók:
 
 #### Mit látunk?
 
-* Napló-ikon, 2 kérdés bulletben, 1 nagy szabad szöveges mező.
+* Napló-ikon, 2 kérdés bulletben; a tanuló a választ magának írja le, a dián nincs beviteli elem.
 
 #### Szöveg a dián:
 
 > **Az én félévem fénypontjai**
 
-> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban megfogalmaztad magadnak a *„Mit várok ettől az évtől madrihként?”* mondatot (M0.1) és a *„Madrihként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2). Ha elmentetted őket (jegyzet, képernyőkép), vedd elő – **mi valósult meg belőlük?** Ha nincs meg a mentésed, ne akadj el: idézd fel emlékezetből, mit vártál a félév elején, és mire ígérted, hogy figyelni fogsz – írd le mindkettőt 1–1 mondatban most. A **Z.4 záró reflexiónál** is ez a két mondat lesz a kiindulópontod – amilyen formában megvan.
+> 🔎 **Mielőtt írsz, nézz vissza:** az **M0**-ban megfogalmaztad magadnak a *„Mit várok ettől az évtől madrihként?”* mondatot (M0.1) és a *„Madrihként ebben az évben figyelek rá, hogy…”* ígéretet (M0.2). Ha elmentetted őket (jegyzet, képernyőkép), vedd elő – **mi valósult meg belőlük?** Ha nincs meg a mentésed, ne akadj el: idézd fel emlékezetből, mit vártál a félév elején, és mire ígérted, hogy figyelni fogsz – írd le mindkettőt 1–1 mondatban most a saját jegyzetedbe. A **Z.4 záró reflexiónál** is ez a két mondat lesz a kiindulópontod – amilyen formában megvan.
 
-> Írj **3–6 mondatot** egy szövegmezőben az alábbi kérdések alapján:
+> Írj magadnak **3–6 mondatot** (jegyzetbe vagy papírra) az alábbi kérdések alapján:
 
 > 1️⃣ Nevezz meg **legalább 3 pillanatot vagy modult**, ami különösen **megmaradt** benned ebből a félévből.
 > (Lehet modul, konkrét peula, egy mondat, egy beszélgetés…)
@@ -444,13 +446,13 @@ Opciók:
 > **Nem kell intim vagy érzékeny részletet megosztanod.** Használj általánosított helyzetet, és ne írj hanih-nevet vagy beazonosítható történetet.
 
 > Nem fogalmazásverseny – elég őszintének lenni.
-> Ezt a választ csak a kijelölt mentorod vagy értékelőd láthatja, és csak akkor, ha erre ténylegesen szükség van.
+> Ezt a választ nem adod be: nálad marad, és a **Z.4 záró reflexiónál** felhasználhatod.
 
-> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a választ látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe a mezőbe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
+> **Ha veszélyről van szó (a szabály ugyanaz, mint az M3.3-ban):** ha abból, amit leírnál, az derül ki, hogy **te magad vagy valaki más veszélyben van**, azt ne a reflexióba írd: **azonnal vond be a Memunát** (a Somer gyermekvédelmi felelősét). Közvetlen életveszélynél **112**.
 
-*(Fejlesztői feltétel, nem tanulói szöveg: a fenti kivétel továbblépésről szóló mondata csak olyan megvalósításnál igaz, ahol egy kijelölt szerepkör ténylegesen látja a mező tartalmát – LMS a11y-sztenderd, 6. szakasz, 1. út: Moodle-oldali mező; lásd az `LMS – H5P runtime acceptance.md` 6. és 15. pontját. A tényleges hozzáférést a HUM-PRIV-01 döntése rögzíti.)*
+*(Fejlesztői feltétel, nem tanulói szöveg: a fénypont-reflexió kötelező, de tanuló-lokális lépés – a tanuló saját jegyzete, beviteli elem és Moodle-oldali mező nélkül (D-2; `LMS – activity manifest.md`, LMS-Z-01; `LMS – H5P runtime acceptance.md` 24. pont). Senki nem olvassa, ezért a fenti doboz nem ígér olvasót: a veszélyt közvetlenül a Memunához irányítja. Utólagos ellenőrzés (vétó/QA): a DPO a privacy-megoldásra (D-2), a doboz szövegére a Memuna.)*
 
-**Szabad szöveges mező** – minimális karakterszámmal (pl. 200 karakter).
+**Beviteli elem nincs:** a tanuló a saját jegyzetébe ír; minimális karakterszám nincs, a „3–6 mondat” útmutatás (D-2).
 
 ***
 
@@ -503,7 +505,7 @@ Opciók:
 
 #### Mit látunk?
 
-* Rövid összegző bullet + 1 rövid szöveges válasz mező.
+* Rövid összegző bullet + 1 rövid szöveges válasz; a tanuló magának írja le, a dián nincs beviteli elem.
 
 #### Szöveg a dián:
 
@@ -521,6 +523,8 @@ Opciók:
 > Ez lehet egy mondat, egy kép, egy érzés vagy egy döntés is, amit magaddal viszel.
 
 **Rövid szöveges válasz** (max. 1 mondatot kérünk).
+
+> Írd le magadnak, jegyzetbe vagy papírra; nem adod be.
 
 Opcionális narráció (20–30 mp):
 

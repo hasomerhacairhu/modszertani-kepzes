@@ -1,64 +1,64 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "20059790ff36adf541cdf305e1461ac7eb73444602a8c28528f0a8d45514343c"
+      "reason": "C6U2-01…C6U2-04 (C6U-BIZT-1/2/3/4, C6U-IMPL-1/2): feltárási feltétel kánonhoz igazítva, családi/identitás-garancia, GK §4.1 jelzési út utalás, értékelő-mondat, A11Y-07 portálnév-útmutatás, RT-P0-15 tesztfeltételek HUM-döntésként",
+      "sha256": "4457dd194272fe6cb2a49f94471383019c459d56582bd456c49855fec1f5a43a"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "RM-D1…D6, Q-REL-1…4, Q-MED-1: a 2026-10-04-i release-modell és médiafázis-döntések átvezetése a HUM 10. szakaszába",
-      "sha256": "4da6cc6bb05630bd5b0d4d690d985957e1183a749a81e0ae6591483d02262962"
+      "reason": "C6U2-01…C6U2-04 (C6U-BIZT-1/2/3/4, C6U-IMPL-1/2): feltárási feltétel kánonhoz igazítva, családi/identitás-garancia, GK §4.1 jelzési út utalás, értékelő-mondat, A11Y-07 portálnév-útmutatás, RT-P0-15 tesztfeltételek HUM-döntésként",
+      "sha256": "695006141bd38f213acff551370e4fde5d147b6e6ad5f4e04430f893602837fa"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
       "sha256": "80b79154aa0d9689ea4fbf3c9e96435b8095429aa476d8648a4d7d85b762813b"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "52cfa3df06da60fcd7e7dbd8ecba460879a31374d35875e629fdf40dab5be7d0"
+      "reason": "FP-01…FP-12 (R-4; pilot-ütemezési jegyzőkönyv 5. szakasz): négy fotó release_phase/fallback, M4.1 SLIDE 4 szöveges kártyák, A11Y-15/18 release-evidence, SAFE-7 nyitott QA-tétel a GK §6-ban, HUM 11 státusz-szemantika és öt pontosítás, HUM :481 példálózó hatókör, MAN §7 pilot-hétköznap és kurzus-hozzáférés 2026-10-10, M3.4 → M4 a Q-REL-2/BSPEC-04 szerint",
+      "sha256": "0ebf17f584cba892c032bbd01b9acb1e803c2210f6d532134d18f7f48792e1a5"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "RM-D1…D6: két verdikt a RELEASE-READINESS-ben (G3/G4/G5 spec- és runtime-része, besorolás, életciklus, gépileg követett G4b és go/no-go), runtime acceptance teszt-állapot tábla, manifest build-spec nyilvántartás",
-      "sha256": "94831fe15f33cad04464b9c28202c25e6219ab887c61f287c30146ac36da7472"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "daf1b690faddc2e5fd67266599d9751ca09e1bf6c8f1638d52fe960ddae6db2f"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "RM-D1…D6: két verdikt a RELEASE-READINESS-ben (G3/G4/G5 spec- és runtime-része, besorolás, életciklus, gépileg követett G4b és go/no-go), runtime acceptance teszt-állapot tábla, manifest build-spec nyilvántartás",
-      "sha256": "1db056b152fc5046cb3db6af7d8d95035a609b4ddac160b86bece91cf2968e06"
+      "reason": "BSPEC-05, BSPEC-06, BSPEC-07: registry provenance, resolving commit 17a76a0 cited (metadata only)",
+      "sha256": "7f55893003b8500864e9762fc78f8caf51b6d0690ce487e0f44ebff127260943"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "274f83dc67cd0d9b0ac44e79c5cdbdf2ebaa27903f82f5b0bb9c296ba16dbcf2"
+      "reason": "C6U2-01…C6U2-04 (C6U-BIZT-1/2/3/4, C6U-IMPL-1/2): feltárási feltétel kánonhoz igazítva, családi/identitás-garancia, GK §4.1 jelzési út utalás, értékelő-mondat, A11Y-07 portálnév-útmutatás, RT-P0-15 tesztfeltételek HUM-döntésként",
+      "sha256": "3dd70995bc592fb70b34ae3ed5225da025949e1c21da663d80f450a7766e991d"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "2aeba11d00f5c9fa4ec6ec05b766898d44407275c46acec3a27d1578ae125477"
+      "reason": "C6U-01…C6U-14 (Command 6 utójavítások: C6-BIZT-2/5/6/7, C6-NYELV-1/2/4/5/6, C6-IMPL-1/2/3/4/6/7/8): adatvédelmi tájékoztató kánonhoz igazítva, A11Y-07 útmutatás és HUM-sor, offline változat hozzáférése és forrása, M0/M1 hub",
+      "sha256": "5095ab8c3a19e3b2b8b6f89810261664216aa485f1d6412e3d218b660b0ef4ca"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "4cea523dcdce8a0fc05125f8c07fa26d54c9363475e2cfff3232941834ee17ec"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "bd5a777af9bf614c846bd99cdd8c7cd7cca2db2ac0ff702716cc0f9920d9c480"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "184459a497eda77038514e5d64b4c23c948bba9aadedca2d54fe2c42a875e428"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "27c955a8f737340762ad35dd4533166220763867a9715fa6c6641eaf948840e2"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "a1383c96da1d2c0f3502c4331a7dda0d04fa84eefae024fa334cdc581eb658e3"
+      "reason": "FREEZE-A (R-1, R-2, R-11, IMPL-2, SAFE-6; D-a…D-j, PILOT-1…4, D-i): 2026-10-05 pilot-ütemezés – régi dátumok superseded, BSPEC-05/06/07 regisztrálva, 36 checklist-tétel jelölve, a Memuna-átnézés hatóköre a GK §2 szerint, M0.3 completion-sor a D-i szerint",
+      "sha256": "728e27e781fa9f6637a7b34291fb906324d4a044431e3885fcc0c85ee412f583"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "3b58e78ce9dcfe341a6961c156e782f48e4ebb4a4cbed1f2e82104bf2e07f346"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "fcdeceb47ecff04c717c09a84301e396fa62be83274e37cbb130a7bccd6dfb36"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
       "sha256": "ca7f814ac042080306161a68be86592166d7f25b74cc8753db042b5aa22b05e4"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "dd7aa621da307e45018843045ddae33dc88cdb745f22302480a9730a25e0e092"
+      "reason": "A11Y-15 (IMPL-15-1, IMPL-15-2), A11Y-18 (IMPL-18-1, IMPL-18-2): M3 drag-free default (Multiple Choice single-answer, per-answer feedback) and downloadable submission templates M1/M2/M3/M4/M7 v1",
+      "sha256": "4df7a6fd8b19f1dd92dcb9e3609b07799ae7eae8e473c6be9ed5569a7506993c"
     },
     "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "c062d482d575004e906fee71297ee69d5b4077c6cbe001920b74a186679f5e50"
+      "reason": "C6U-01…C6U-14 (Command 6 utójavítások: C6-BIZT-2/5/6/7, C6-NYELV-1/2/4/5/6, C6-IMPL-1/2/3/4/6/7/8): adatvédelmi tájékoztató kánonhoz igazítva, A11Y-07 útmutatás és HUM-sor, offline változat hozzáférése és forrása, M0/M1 hub",
+      "sha256": "489c170d5101c39382fd029c0a91b8d074f38570500d8e6a72f9d138e4e4d96f"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
@@ -69,12 +69,12 @@
       "sha256": "a5d3a4a83e609f97da430d8d071aa1601f0ae8dc7b013c3b624762dc4a27c235"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "P6-01…P6-06, K8, UE6-NYELV-1, UE6-IMPL-1, UE6-NYELV-2: VO 2. fázis 6. javítócsomag, a K8 átvezetése és a projektgazda által megnevezett három javítás",
-      "sha256": "e98e43a0823a7cf464a6b6bb3879de58c27ee0e67c1831534fd949e41590c63d"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "2bf58d81c0e49eb8ef6b61f3217c9becc814cd8f777cd9e4b725534474d95ae8"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "16d3471c6dbd7c999c82b36c5b87e65c966a5614258de0d9cff081fb39c0f3c1"
+      "reason": "A11Y-15 (IMPL-15-1, IMPL-15-2), A11Y-18 (IMPL-18-1, IMPL-18-2): M3 drag-free default (Multiple Choice single-answer, per-answer feedback) and downloadable submission templates M1/M2/M3/M4/M7 v1",
+      "sha256": "632b7a8065bd663b447494de44bc85ee84b2d423419df6ae2060b92a4f6b0513"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
@@ -85,32 +85,32 @@
       "sha256": "31a62945eebb9636925504f52fa2043c8ceec87b492e0f285b9a6e9fc8fc5405"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "d5390e19725b17ad4e23d9720eead98a1690e855e98709ab1cca6ff295b57d73"
+      "reason": "FREEZE-A (R-1, R-2, R-11, IMPL-2, SAFE-6; D-a…D-j, PILOT-1…4, D-i): 2026-10-05 pilot-ütemezés – régi dátumok superseded, BSPEC-05/06/07 regisztrálva, 36 checklist-tétel jelölve, a Memuna-átnézés hatóköre a GK §2 szerint, M0.3 completion-sor a D-i szerint",
+      "sha256": "ed05afeef8c8ee6e7f93c4f48ebb6faf7702015257ac5e631e94280d2cb4aa76"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
       "sha256": "baf47ca292fb07683052f6acc54585ae2324d997e8d40194528196b7c834c9d9"
     },
     "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "89369e9b3ac97c6ca690389992ff15bcebe2c2643668ec18e99d62edb44eca60"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "dc7567b5be46b971a9ab45a9b86af774c1882ab52ff5041f6f740569a351a717"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
       "sha256": "dcc99a841f71f95a26a6a4ea034fa04015bc88b9e24a2b14b42e0123a22b3628"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "c514a73c6ed94dad68b5993536013637d3b10b782fa8af070c578508a48e3639"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "45a053c3b333c7f40869a11f294274304f8b76f5891622ba34f39861f9f5932d"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "e6df3cde76bb5fd23cfedca239794c8ceb6954455231602f0ff78edbbf0443ee"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "bbc0c2ea2e7ddd3b275a160e571bd67f58199ad44878894360a1c534bfc6ab8b"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "f3520f882a445cc2d61b55bfb486ed997404fd3728551fa171e02360aed566a1"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "9ce752d695409b04745565482abeab5104a415cdd4a2d8e87a5f5fd978944daa"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
@@ -125,28 +125,28 @@
       "sha256": "4a667ba1db974d79fe8754568c3399951cc2f6700ceb36bf4bc5c14482be3041"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "0aab49350576a7ca8b19c80939553ed88a689b2c92f4433be897380e38deae8a"
+      "reason": "A11Y-15/18 re-check fixes C7-NYELV-1…10 (same change set as the previous pin): subject restored, dash/fragment cleanup, compound spelling",
+      "sha256": "8e606f434b84a935f8bc825ba7ce6185bd0325ef968c3e3cff773010e0c01a91"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "270cbff7f4846b4017de4f6da1a5fdfa12076ecb0c38e39c212cb10e1cc76979"
+      "reason": "A11Y-15/18 re-check fixes C7-NYELV-1…10 (same change set as the previous pin): subject restored, dash/fragment cleanup, compound spelling",
+      "sha256": "3e015e941f46ec5077ce257e5cb267bd2d7c90f9908899120b15847d9733313d"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
-      "sha256": "72c9f200c78585eb38a20c0b0e94dee87fe459ee723611334dc8c1f1576729a9"
+      "reason": "A11Y-15/18 re-check fixes C7-NYELV-1…10 (same change set as the previous pin): subject restored, dash/fragment cleanup, compound spelling",
+      "sha256": "16a9a958040d36e7cbef6e99e635995b81f61b622531ca95b025370097f27ab5"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "31e3d608df937ce57b5d8a9da271a20e47e56981f990d55335c676cef1cfc4cc"
+      "reason": "A11Y-15/18 re-check fixes C7-NYELV-1…10 (same change set as the previous pin): subject restored, dash/fragment cleanup, compound spelling",
+      "sha256": "48db54a65e131bde6db955a0f978d8b65ed20b8e9daa871d0f2e8b60f9aee1dc"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "UF-01…UF-16; K2–K4: VO 2. fázis utóellenőrzés (projektgazdai döntés, 2026-10-03)",
-      "sha256": "17d8da9a79a27da5e66ec6a12c918aa5cb54e6e11e2d62774bfcf80625ec3966"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "81345cbdf68afff3193640be4785fb799921d46edc0b73e33c2535257df93653"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "7b364860cd90672727b41dc9f84f3b763d7d359a4b73b89cfb96cff16acb18bb"
+      "reason": "A11Y-15/18 re-check fixes C7-NYELV-1…10 (same change set as the previous pin): subject restored, dash/fragment cleanup, compound spelling",
+      "sha256": "cba6566586845328258a2eac5d710ee3626b3e25451c033dd7c58dc3707056db"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
       "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
@@ -157,28 +157,28 @@
       "sha256": "872e4bbec3b8e1437b9fc6ec84676a5372b70fb27e0b7cbcc0ae061415cd760b"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "5f915b3b6743c12a27ca0cef546b81ce4cdaba1ebde04cf41d98e5c2ac9b36c6"
+      "reason": "FREEZE-A (R-1, R-2, R-11, IMPL-2, SAFE-6; D-a…D-j, PILOT-1…4, D-i): 2026-10-05 pilot-ütemezés – régi dátumok superseded, BSPEC-05/06/07 regisztrálva, 36 checklist-tétel jelölve, a Memuna-átnézés hatóköre a GK §2 szerint, M0.3 completion-sor a D-i szerint",
+      "sha256": "68429783795efe80295a3bafe7def2910f0f58fa8d932f13b0d2b6eaaebd795f"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
       "sha256": "35e5483a999f3dd6198b09478646390244b4bbf8e38aa94bf612135eb21fd60a"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "e11406fecdf962cdc670222a64a18bef9a3243d77ed8119cf701e863723d26f2"
+      "reason": "Command 6 (C6-01…C6-19): PR-01 adatleltár build-része, PR-02 tanulói adatvédelmi tájékoztató, A11Y-07 G5a/G5b, A11Y-17 offline változat, BIZT-2/3/4/11, M0/M1 hub ütemezés-semleges sor, Memuna-felsorolás példálózó, M4.1 példa/változat szóhasználat",
+      "sha256": "1c5c65bf5d241d00dbdc6f07a5facd94cc2aa6739ced98b30e7b681a15ba06f4"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
       "sha256": "f0eb213db6d834788c950321fb86f3baf0b1e6df5308a711d4aec7e9a5edf5d5"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "fb3c072e9805fc6f37697c9ac6f5ed246c790264d8af26f0377f930647ff492e"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "45146dbab517783472974c0e9abbf0656c4b1e18d69ee6800c07a76c201375bb"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "8e8e70e954992bc816cdcfe92dc48562c0c974bcf998c1bc4c83e0935eb51869"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "3cf7d32ab13566f6b0da282c6a2ca5b65787361d08bb89b5047f22ef91b17fc0"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
@@ -193,28 +193,28 @@
       "sha256": "d7e79a115c1e05be8515033b52d0444a0de80f4578f5876dcf72f88f84949eb9"
     },
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "2bd485ee059af1672c6579709e399b9f39a77a78f33eedc0f0b0ddda9cc62a6b"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "342e0e681457b868786b4bec45ea0873f8356d6543f127e29830902d3816e588"
     },
     "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "c109f9cfaed91815e64634f56e6561af1cea6a65d558b186e44bb2186f00ac20"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "af1263b6c0dd1c702adb11ecfbbed7da5086ec32b7f0e4486e8acb2fc2916177"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "b8d60894146b4a0586c3cf63cdbc089b837495022e4ee61c7beec43437332895"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "9619126a29b3e6329d807254db55203ec3d6b46a0906a269b0b079c6d88b6c5d"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "b8a66295182154bdd9834a41de73a2a24525bba6433907d1933d1b0a23c5d2de"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "678ef368356b62951914249ff8119b1ee4852715a18a796f54383e055f98c435"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "42827a1105cae1363915e200e9f20d7c14f2a17a42e9c285ac62a5fc31a2b434"
+      "reason": "BSPEC-01/02 javítókör (A–M; BS-D2, BS-D3, BS-D5, BS-D8): TEXT-C Moodle Feedback, GATE-CP, M0 4. item D, M1.4 Q-REL-2, M3.1/M3.2 opcionális, M4.4/Z.3 mezőhely, Z.3 mentori elfogadás, M5.3 tartalékút, újraértékelési zárópont + célzott review-javítások",
+      "sha256": "b42183b647ce0fcc1f65d97ed5f5e3c21a45a45025909f680b53e05c87c4f992"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "e464b288b1c0655a94e14d4e01211d9595e0b9a6a8b13b72276bd34ec9e11f3b"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "09c3e4b792825e4f04d023b3a2316e3394b5c4a71778dd2d532817d7384eef67"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
@@ -225,32 +225,32 @@
       "sha256": "3bacb7c550156582de687e35eee13139201214d203dedd19ee63de699871dbf6"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "fc5f0079bb7a947122adb5730b91c00dae081d531fb66fc04d8d48f9371ba7a1"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "f3c7230b83de1f645286ebf502a56f5e218c3a1e727550a3b6b912a4b020f687"
     },
     "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md": {
-      "reason": "M6-NY-D24…D27 és a UE7/UE8/UE9 célzott újraellenőrzés objektív findingjai: a course-fix második köre (Workshop nélküli zárás, félcsoport-vezetés, kibillenés négy lépése, R1/R2 tükörhelyek, írásjelek)",
-      "sha256": "30352cac3f02765aeefc0323fb82d1e11a534eab627ddfbeed4b748618ee9f11"
+      "reason": "M6.4 (course-develop, D-e): fix sorrendű A→B→(C)→D→6D→ZÁRÓ lánc, C-VÁLASZTÓ, közös 6D biztonsági keret, időtartam; manifest LMS-M6-04, M6 hub, runtime acceptance 2. pont",
+      "sha256": "98fc2f61c473d1feb954125feaed25dbfc503087fc43dc29717446010c052701"
     },
     "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M6-NY-D24…D27 és a UE7/UE8/UE9 célzott újraellenőrzés objektív findingjai: a course-fix második köre (Workshop nélküli zárás, félcsoport-vezetés, kibillenés négy lépése, R1/R2 tükörhelyek, írásjelek)",
-      "sha256": "7a922cf10498c5ba9e844e145887e32bc2f4007bbc11af61110aac24ee9d5739"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "bd78f4d4ffc0a941c99b74bc5848be8449f7bb9a5f34fe8038c93e98529b2993"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md": {
-      "reason": "M6 nyelvi review (NYELV-101…615, 2026-10-04) és M6-NY-D1…D23: 223 lépés a validált findingok és a projektgazdai döntések szerint",
-      "sha256": "9fd937cf0334595cb1188c75389df882b698bf77e212059a614d6d97a5d18d92"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "8d90f9fa6b6ba26911ed44a4db1d46a702531c1c02c34ed69acf7aeacc0ab561"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "M6 nyelvi review (NYELV-101…615, 2026-10-04) és M6-NY-D1…D23: 223 lépés a validált findingok és a projektgazdai döntések szerint",
-      "sha256": "66227f5e3871a521cab2531496674bb17e88132c92de715e60ae3105c0230d15"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "f5a77098634fb90201a6334fc68f4c4ffaa4f5704dd5944b47d1008f711082b6"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
-      "reason": "M6 nyelvi review (NYELV-101…615, 2026-10-04) és M6-NY-D1…D23: 223 lépés a validált findingok és a projektgazdai döntések szerint",
-      "sha256": "36eca200f78e4e8eab2eaf9f454f6a146b9bca9287727da98590d6032feb568b"
+      "reason": "BSPEC-02 leltár (F-M0.1…F-Z.2, X-1, D-1…D-6, H-6): tanuló-lokális szöveges lépések jelölése, a kötelező tárolt mezők helye (LMS-M1-07, LMS-M2-08, LMS-M2-09, LMS-M7-10), olvasót feltételező biztonsági mondatok javítása",
+      "sha256": "07819d09f6040e63606c1f699352494232c8bda922e2c21f5db0ba0dd969d1ed"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
-      "reason": "M6-NY-D24…D27 és a UE7/UE8/UE9 célzott újraellenőrzés objektív findingjai: a course-fix második köre (Workshop nélküli zárás, félcsoport-vezetés, kibillenés négy lépése, R1/R2 tükörhelyek, írásjelek)",
-      "sha256": "aa07596b3336545018da5e4c2ab3f5b21928d54cc6131cc6005d38eef59b1cce"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "2923ce780b4820c08894693849ddae8391261573103802f539ae181306c24599"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md": {
       "reason": "M6-NY-D24…D27 és a UE7/UE8/UE9 célzott újraellenőrzés objektív findingjai: a course-fix második köre (Workshop nélküli zárás, félcsoport-vezetés, kibillenés négy lépése, R1/R2 tükörhelyek, írásjelek)",
@@ -261,20 +261,20 @@
       "sha256": "2bbf6ed13192c08721c9d5c3c85faeb6113488ee1eaaf145e929b26dc0d354cc"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md": {
-      "reason": "M6 nyelvi review (NYELV-101…615, 2026-10-04) és M6-NY-D1…D23: 223 lépés a validált findingok és a projektgazdai döntések szerint",
-      "sha256": "326255e2b656572b30fddc3285afa115847abfa6bae39011e7a0c91eb556661b"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "c287bf12bcc165f8b7dea0a35945e26d63ce71b6ae2fa9bac8fa80289dfe54a8"
     },
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "fe7d65c12f3b8aae9b1a94ea39ea361b37d6626eb961700606f87ec69dd830cb"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "eb44ea7f41faefb25afbacef3b7ab4e5e04dec746dcd12c2b09f83adb5e12a91"
     },
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "a1e3a531521c822f46811d3dde91a11354daeb608a19e57afd89cec9d6b2bcd9"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "a381f719907739cbb055de4c8ce2a11a3dd7e4e3ba4af271a4a2bcb1b027ba43"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "e67701c69d6f699a3f8cc017dd657ee727e794b573e1f769f2cbfcfe677f3479"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "953fa85803940c4d1890a9ba7b431866849582b2394685e601bcca2527506404"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
@@ -285,56 +285,56 @@
       "sha256": "fe9f9a2663dd00d750621bdda8d1ff8979230d2b711ed4b5befe11403052c25d"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "3b8929f463e2f464273b62eec7a8ba15c75345262b9a23a4441f61328d30f17f"
+      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
+      "sha256": "7bf2b387ff963f5212d220bf123b8f2018dc9a59d49dd72c7481a8be95423782"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
       "sha256": "cdceedffd97ee46932f816e1ed748de71ef8078167f34312e471308e7bd80ff6"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "608a285470ba62722937cb8ee9f7da709d187c36fd13791bcb80b98c8504acd1"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "1f21ea2b8524d6c550be1cb2f50afcfab959ba7821bf203e68be1db577bf5e71"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "5bc33be3efccb912062b1e64c96c3e53e5ef163d838ee673fca423b570c72423"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "ccfbc1e1a440209a5eff791ba8a72d265afd8a3e36c1c13a847ca07cc6257952"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "d91bdc9f0c5afa87d3e7525ed0f64e6ffc031b436cc425d5bcf423285cf11dc3"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "a34cca1a12be28e4a16fb5e14c48a2a0c121f47e3602a76cb5f21d74dd404d8a"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "ec66986f06cbaf83cf2a063dd1f503fdc0ef92fafbd5be3822c0f85ab3e9c28f"
+      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
+      "sha256": "99ad349dc8fa506ca4edd0b0e816736e0dd2b36197d8cfd61dbbd935acbe5dad"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "05209d2ffe2eb101be0d6f5a81660770148c93b419180c62764827be0465dba3"
+      "reason": "BSPEC-01/02 javítókör (A–M; BS-D2, BS-D3, BS-D5, BS-D8): TEXT-C Moodle Feedback, GATE-CP, M0 4. item D, M1.4 Q-REL-2, M3.1/M3.2 opcionális, M4.4/Z.3 mezőhely, Z.3 mentori elfogadás, M5.3 tartalékút, újraértékelési zárópont + célzott review-javítások",
+      "sha256": "adf7d3cd5bb97d0ec4c3987b5e64edd49347cab435406b0bed24feeb93677757"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "c1473dbde69d24a73c6b3b5cac306aea34468202b38e872f3f8c5f35d7e69d88"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "563fed48e838e254e0a82aab5f99c1be1e9bd1f358bcd75eb2d1672ba8b24a7b"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
       "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
       "sha256": "69b960ea2c9006158f2c03e0a196d1269f3d3db40d1a93fcbc39c24e79923872"
     },
     "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "3ffa8767b8075184f16c38445f4adbe080ee1c6ddaa36be51de96b0bc183cb8c"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "d536e312307c3edf3c3fe86bc9a516299a3ec61b33042e741593f524980f940a"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "RM-D3, RM-D4, Q-MED-1: a READY a READY_FOR_CONTROLLED_PILOT, asset-szintű médiakapu fallbackkel (Program terv, RELEASE-MEDIA-STATUS)",
-      "sha256": "76e7492c52ebb21080b5d13546607c4a13bdcd6c327c3f31ef62a7d610d953dd"
+      "reason": "Command 6 (C6-01…C6-19): PR-01 adatleltár build-része, PR-02 tanulói adatvédelmi tájékoztató, A11Y-07 G5a/G5b, A11Y-17 offline változat, BIZT-2/3/4/11, M0/M1 hub ütemezés-semleges sor, Memuna-felsorolás példálózó, M4.1 példa/változat szóhasználat",
+      "sha256": "67a67423aa49b4540ca3a2f687f920cca6003f9c8a36dba473360f7e2f333a85"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
-      "reason": "RM-D1…D6: két verdikt a RELEASE-READINESS-ben (G3/G4/G5 spec- és runtime-része, besorolás, életciklus, gépileg követett G4b és go/no-go), runtime acceptance teszt-állapot tábla, manifest build-spec nyilvántartás",
-      "sha256": "2c3f9ff21c57e4414411e1d986743a8cbceaf26f288cad9e365c1a1e3ec54c2c"
+      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
+      "sha256": "31bb87b6884bcacd34528911e7e560672e465a6fb898d13a0b0074649e4beb57"
     },
     "02 Tervezet/Terepgyakorlat – 2. félév.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "eb56acbd9fc16f57ea2cb3885adbf5af790fb73f2ed75f9670707c8a6185039a"
+      "reason": "FREEZE-A (R-1, R-2, R-11, IMPL-2, SAFE-6; D-a…D-j, PILOT-1…4, D-i): 2026-10-05 pilot-ütemezés – régi dátumok superseded, BSPEC-05/06/07 regisztrálva, 36 checklist-tétel jelölve, a Memuna-átnézés hatóköre a GK §2 szerint, M0.3 completion-sor a D-i szerint",
+      "sha256": "45853fe64b2b5cf74a7bf47f7e9cf7fa7509a1f3532be51848a2578aed09a443"
     }
   },
   "schema": 1

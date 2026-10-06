@@ -494,6 +494,8 @@ M1.4-DIA-01,M1.4-DIA-01,elsődleges,M1,M1.4,02 Tervezet/Modulok/M1/Online lecké
 M1.4-DIA-01::ALTTEXT,M1.4-DIA-01,alt-szöveg,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,diagram,,legyártandó,specifikáció kész,,Slide 2 – S/B/I emlékeztető diagram ikonokkal — alt-szöveg,AI-generált,,,,
 M1.4-ILL-01,M1.4-ILL-01,elsődleges,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,illustration,,legyártandó,specifikáció kész,,Slide 1 – 3 szituáció-kártya vizuál,AI-generált,,,,
 M1.4-ILL-01::ALTTEXT,M1.4-ILL-01,alt-szöveg,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,illustration,,legyártandó,specifikáció kész,,Slide 1 – 3 szituáció-kártya vizuál — alt-szöveg,AI-generált,,,,
+M1.4-MUNK-01,M1.4-MUNK-01,elsődleges,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,worksheet,,legyártandó,specifikáció kész,,Letölthető „SBI-beadandó” kitölthető sablon (doc),emberi,,,,
+M1.4-MUNK-01::PRINTPDF,M1.4-MUNK-01,nyomtatható PDF,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,worksheet,,legyártandó,specifikáció kész,,Letölthető „SBI-beadandó” kitölthető sablon (doc) — nyomtatható PDF,emberi,,,,
 M1.4-NAR-01,M1.4-NAR-01,elsődleges,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Slide 1 Hook-narráció – 3 helyzet bemutatása,AI-generált,M1.4-NAR-01-VO,"„Itt három olyan helyzetet látsz, amit egy madrih bármikor átélhet.
 Válaszd ki azt, amelyikről **leginkább el tudnál képzelni egy beszélgetést**.”",20106618f16757485a21b2b532246897f9d2b4f4468e4bd693ae2d279f698693,"R2, R3"
 M1.4-NAR-01::CAPTIONS,M1.4-NAR-01,felirat,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Slide 1 Hook-narráció – 3 helyzet bemutatása — felirat,AI-generált,M1.4-NAR-01-VO,"„Itt három olyan helyzetet látsz, amit egy madrih bármikor átélhet.
@@ -549,6 +551,8 @@ M1.F-POSZ-01,M1.F-POSZ-01,elsődleges,M1,M1.F,"02 Tervezet/Modulok/M1/Peulák/M1
 M1.F-POSZ-01::PRINTPDF,M1.F-POSZ-01,nyomtatható PDF,M1,M1.F,"02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md",poster,,legyártandó,specifikáció kész,,Tájékozódó tábla – M1 leckelista + név nélküli témakérések — nyomtatható PDF,vegyes,,,,
 M2-HUB-DIA-01,M2-HUB-DIA-01,elsődleges,M2,M2-HUB,"02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md",diagram,,legyártandó,specifikáció kész,,M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás),AI-generált,,,,
 M2-HUB-DIA-01::ALTTEXT,M2-HUB-DIA-01,alt-szöveg,M2,M2-HUB,"02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md",diagram,,legyártandó,specifikáció kész,,M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás) — alt-szöveg,AI-generált,,,,
+M2-HUB-MUNK-01,M2-HUB-MUNK-01,elsődleges,M2,M2-HUB,"02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md",worksheet,,legyártandó,specifikáció kész,,Letölthető „Madrih identitás-jegyzet” kitölthető sablon (doc),emberi,,,,
+M2-HUB-MUNK-01::PRINTPDF,M2-HUB-MUNK-01,nyomtatható PDF,M2,M2-HUB,"02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md",worksheet,,legyártandó,specifikáció kész,,Letölthető „Madrih identitás-jegyzet” kitölthető sablon (doc) — nyomtatható PDF,emberi,,,,
 M2.1-DIA-01,M2.1-DIA-01,elsődleges,M2,M2.1,02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md,diagram,,legyártandó,specifikáció kész,,Identitás-körök koncentrikus diagram (animált),AI-generált,,,,
 M2.1-DIA-01::ALTTEXT,M2.1-DIA-01,alt-szöveg,M2,M2.1,02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md,diagram,,legyártandó,specifikáció kész,,Identitás-körök koncentrikus diagram (animált) — alt-szöveg,AI-generált,M2.1-DIA-01-ALT,"Koncentrikus körökből álló ábra. Középen: ÉN. Kifelé haladva a körök: 1) Család / közeli kapcsolatok, 2) Zsidóság / zsidó közösség, 3) Somer / tnuá / kvuca, 4) Más köreim (iskola, barátok, online, aktivizmus). Az ábra azt mutatja, hogy az identitás több, egymást körülvevő körből épül fel.",ed35caf6767ae0f3a60611caafda9669ed3357b993325963f56bc6cc3cbd6749,
 M2.1-IKO-01,M2.1-IKO-01,elsődleges,M2,M2.1,02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md,icon-set,,legyártandó,specifikáció kész,,Outro ikon – kvuca-kör + next nyíl,AI-generált,,,,
@@ -1304,7 +1308,7 @@ M3.2-DIA-03::ALTTEXT,M3.2-DIA-03,alt-szöveg,M3,M3.2,"02 Tervezet/Modulok/M3/Onl
 M3.2-DIA-04,M3.2-DIA-04,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",diagram,,legyártandó,specifikáció kész,,Korosztály-térkép mini-táblázat (3 sor),AI-generált,,,,
 M3.2-DIA-04::ALTTEXT,M3.2-DIA-04,alt-szöveg,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",diagram,,legyártandó,specifikáció kész,,Korosztály-térkép mini-táblázat (3 sor) — alt-szöveg,AI-generált,,,,
 M3.2-EGY-01,M3.2-EGY-01,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",other,h5p-interaction,legyártandó,specifikáció kész,,"Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke)",AI-generált,,,,
-M3.2-EGY-02,M3.2-EGY-02,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",other,h5p-interaction,legyártandó,specifikáció kész,,Húzásmentes párosító alternatíva (Single Choice Set),AI-generált,,,,
+M3.2-EGY-02,M3.2-EGY-02,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",other,h5p-interaction,legyártandó,specifikáció kész,,Húzásmentes párosító változat (Multiple Choice egyválaszos módban),AI-generált,,,,
 M3.2-IKO-01,M3.2-IKO-01,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",icon-set,,legyártandó,specifikáció kész,,3 kvuca ikon-készlet (🦋 🐑 🐋),AI-generált,,,,
 M3.2-IKO-01::ALTTEXT,M3.2-IKO-01,alt-szöveg,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",icon-set,,legyártandó,specifikáció kész,,3 kvuca ikon-készlet (🦋 🐑 🐋) — alt-szöveg,AI-generált,,,,
 M3.2-NAR-03,M3.2-NAR-03,elsődleges,M3,M3.2,"02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Parparim & Kivsza opcionális narráció,AI-generált,M3.2-NAR-03-VO,"„Parparimnál gyakran a játék, a mozgás és a kiszámítható, biztonságos keret segít a legtöbbet.
@@ -1470,16 +1474,18 @@ M3.4-DIA-01,M3.4-DIA-01,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leck�
 M3.4-DIA-01::ALTTEXT,M3.4-DIA-01,alt-szöveg,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",diagram,,legyártandó,specifikáció kész,,"„Mit tegyél / mit ne tegyél” – három témablokk, minibox-pár diagram (SLIDE 3) — alt-szöveg",AI-generált,,,,
 M3.4-EGY-01,M3.4-EGY-01,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,Single Choice interakció – „Mennyire érzed fontosnak…” (SLIDE 1),AI-generált,,,,
 M3.4-EGY-02,M3.4-EGY-02,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,Mini True/False interakció – szigorúbb határok (SLIDE 2),AI-generált,,,,
-M3.4-EGY-03,M3.4-EGY-03,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4),AI-generált,,,,
-M3.4-EGY-04,M3.4-EGY-04,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,Húzásmentes a11y-alternatíva – Single Choice Set (SLIDE 4),AI-generált,,,,
+M3.4-EGY-03,M3.4-EGY-03,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,"H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett)",AI-generált,,,,
+M3.4-EGY-04,M3.4-EGY-04,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4),AI-generált,,,,
 M3.4-EGY-05,M3.4-EGY-05,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,Mini-kvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6),AI-generált,,,,
-M3.4-EGY-06,M3.4-EGY-06,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,h5p-interaction,legyártandó,specifikáció kész,,"Szabad szöveges reflexiós mező – „Saját listám arról, mit teszek és mit nem” (SLIDE 5)",AI-generált,,,,
+M3.4-EGY-06,M3.4-EGY-06,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,ui-text,legyártandó,specifikáció kész,,"Reflexiós feladatleírás, beviteli elem nélkül – „Saját listám arról, mit teszek és mit nem” (SLIDE 5)",AI-generált,,,,
 M3.4-EGY-07,M3.4-EGY-07,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,moodle-activity,legyártandó,specifikáció kész,,Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum),AI-generált,,,,
 M3.4-EGY-08,M3.4-EGY-08,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",other,,legyártandó,specifikáció kész,,Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret),AI-generált,,,,
 M3.4-IKO-01,M3.4-IKO-01,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",icon-set,,legyártandó,specifikáció kész,,Ikon: madrih + kvuca stilizált „határvonallal” (SLIDE 2),AI-generált,,,,
 M3.4-IKO-01::ALTTEXT,M3.4-IKO-01,alt-szöveg,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",icon-set,,legyártandó,specifikáció kész,,Ikon: madrih + kvuca stilizált „határvonallal” (SLIDE 2) — alt-szöveg,AI-generált,,,,
 M3.4-IKO-02,M3.4-IKO-02,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",icon-set,,legyártandó,specifikáció kész,,Lista-ikon – a saját lista (mit teszek és mit nem) reflexiója (SLIDE 5),AI-generált,,,,
 M3.4-IKO-02::ALTTEXT,M3.4-IKO-02,alt-szöveg,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",icon-set,,legyártandó,specifikáció kész,,Lista-ikon – a saját lista (mit teszek és mit nem) reflexiója (SLIDE 5) — alt-szöveg,AI-generált,,,,
+M3.4-MUNK-01,M3.4-MUNK-01,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",worksheet,,legyártandó,specifikáció kész,,Letölthető „Helyzetleírás red flagekkel” kitölthető sablon (doc),emberi,,,,
+M3.4-MUNK-01::PRINTPDF,M3.4-MUNK-01,nyomtatható PDF,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",worksheet,,legyártandó,specifikáció kész,,Letölthető „Helyzetleírás red flagekkel” kitölthető sablon (doc) — nyomtatható PDF,emberi,,,,
 M3.4-NAR-02,M3.4-NAR-02,elsődleges,M3,M3.4,"02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",voiceover,narration,legyártandó,jogtisztázás alatt,,Outro narráció (opcionális) – SLIDE 7,AI-generált,M3.4-NAR-02-VO,"„Köszi, hogy végigmentél ezen a leckén.
 Mostanra van egy konkrétabb képed arról, mit csinál és mit nem csinál egy megbízható madrih.
 A modulproduktum-feladattal ezt fogod kipróbálni egy konkrét helyzeten keresztül.
@@ -1697,27 +1703,27 @@ a vállai lazák,
 
 Aztán röviden, érthetően mondja:
 ‘Sziasztok, ma arról fogunk beszélni, hogy…’.”",b7472130c708864b374c725ca63ead5beba53919ad532d26d0194fde84308b30,"R2, R3"
-M4.1-NAR-06,M4.1-NAR-06,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,jogtisztázás alatt,,SLIDE 4 közös bevezető narráció – „Mi a különbség?”,AI-generált,M4.1-NAR-06-VO,"„Most néhány pillanatképet nézünk meg.
+M4.1-NAR-06,M4.1-NAR-06,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,jogtisztázás alatt,,SLIDE 4 közös bevezető narráció – „Mi a különbség?”,AI-generált,M4.1-NAR-06-VO,"„Most néhány példát nézünk meg.
 Ugyanaz az ember, csak **más testtartással**,
 más tekintettel, más helyen a térben.
 
 A feladatod az, hogy megfogalmazd:
-**mi a különbség** a két kép között,
-és mit üzenhet ez a kvucának.”",6c268f491c8e130b9958b3f8b67a2f42d27a921730a22497d834d795f01a7585,"R2, R3"
-M4.1-NAR-06::CAPTIONS,M4.1-NAR-06,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,jogtisztázás alatt,,SLIDE 4 közös bevezető narráció – „Mi a különbség?” — felirat,AI-generált,M4.1-NAR-06-VO,"„Most néhány pillanatképet nézünk meg.
+**mi a különbség** a két változat között,
+és mit üzenhet ez a kvucának.”",649c7cba5cba8bedcfe4bb81757910bac5037a16f3cf6f85bb4f91439b474afb,"R2, R3"
+M4.1-NAR-06::CAPTIONS,M4.1-NAR-06,felirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,jogtisztázás alatt,,SLIDE 4 közös bevezető narráció – „Mi a különbség?” — felirat,AI-generált,M4.1-NAR-06-VO,"„Most néhány példát nézünk meg.
 Ugyanaz az ember, csak **más testtartással**,
 más tekintettel, más helyen a térben.
 
 A feladatod az, hogy megfogalmazd:
-**mi a különbség** a két kép között,
-és mit üzenhet ez a kvucának.”",6c268f491c8e130b9958b3f8b67a2f42d27a921730a22497d834d795f01a7585,"R2, R3"
-M4.1-NAR-06::TRANSCRIPT,M4.1-NAR-06,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,jogtisztázás alatt,,SLIDE 4 közös bevezető narráció – „Mi a különbség?” — leirat,AI-generált,M4.1-NAR-06-VO,"„Most néhány pillanatképet nézünk meg.
+**mi a különbség** a két változat között,
+és mit üzenhet ez a kvucának.”",649c7cba5cba8bedcfe4bb81757910bac5037a16f3cf6f85bb4f91439b474afb,"R2, R3"
+M4.1-NAR-06::TRANSCRIPT,M4.1-NAR-06,leirat,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,jogtisztázás alatt,,SLIDE 4 közös bevezető narráció – „Mi a különbség?” — leirat,AI-generált,M4.1-NAR-06-VO,"„Most néhány példát nézünk meg.
 Ugyanaz az ember, csak **más testtartással**,
 más tekintettel, más helyen a térben.
 
 A feladatod az, hogy megfogalmazd:
-**mi a különbség** a két kép között,
-és mit üzenhet ez a kvucának.”",6c268f491c8e130b9958b3f8b67a2f42d27a921730a22497d834d795f01a7585,"R2, R3"
+**mi a különbség** a két változat között,
+és mit üzenhet ez a kvucának.”",649c7cba5cba8bedcfe4bb81757910bac5037a16f3cf6f85bb4f91439b474afb,"R2, R3"
 M4.1-NAR-07,M4.1-NAR-07,elsődleges,M4,M4.1,02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md,voiceover,narration,legyártandó,jogtisztázás alatt,,SLIDE 6 outro narráció – „Mire figyelek legközelebb?”,AI-generált,M4.1-NAR-07-VO,"„Köszi, hogy végigmentél ezen a leckén.
 
 Ha idáig eljutottál,
@@ -2213,6 +2219,8 @@ M4.4-DIA-05,M4.4-DIA-05,elsődleges,M4,M4.4,02 Tervezet/Modulok/M4/Online lecké
 M4.4-DIA-05::ALTTEXT,M4.4-DIA-05,alt-szöveg,M4,M4.4,02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md,diagram,,legyártandó,specifikáció kész,,Slide 5 sablon-vizuál + összefoglaló — alt-szöveg,AI-generált,,,,
 M4.4-ILL-01,M4.4-ILL-01,elsődleges,M4,M4.4,02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md,illustration,,legyártandó,specifikáció kész,,"Hook-jelenet: madrih a kvuca előtt, 45 mp nyomás",AI-generált,,,,
 M4.4-ILL-01::ALTTEXT,M4.4-ILL-01,alt-szöveg,M4,M4.4,02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md,illustration,,legyártandó,specifikáció kész,,"Hook-jelenet: madrih a kvuca előtt, 45 mp nyomás — alt-szöveg",AI-generált,,,,
+M4.4-MUNK-01,M4.4-MUNK-01,elsődleges,M4,M4.4,02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md,worksheet,,legyártandó,specifikáció kész,,Letölthető „Peulabemutató-vázlat” kitölthető sablon (doc),emberi,,,,
+M4.4-MUNK-01::PRINTPDF,M4.4-MUNK-01,nyomtatható PDF,M4,M4.4,02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md,worksheet,,legyártandó,specifikáció kész,,Letölthető „Peulabemutató-vázlat” kitölthető sablon (doc) — nyomtatható PDF,emberi,,,,
 M4.4-NAR-01,M4.4-NAR-01,elsődleges,M4,M4.4,02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md,voiceover,narration,legyártandó,jogtisztázás alatt,,"Slide 1 narráció – „45 mp-ed van… Mit mondasz?""",AI-generált,M4.4-NAR-01-VO,"„Képzeld el, hogy peulát tartasz.
 A kvucád ott ül veled szemben,
 és érzed, hogy az első **fél perc–egy perc**
@@ -2618,7 +2626,7 @@ M6.1-EGY-07,M6.1-EGY-07,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online lecké
 M6.1-EGY-08,M6.1-EGY-08,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,,Szabad szöveges kérdés – Szitu 2 futkosós energizer kockázata + biztonsági keret,emberi,,,,
 M6.1-EGY-09,M6.1-EGY-09,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,,Single Choice – miért hasznos kategóriákban gondolkodni,emberi,,,,
 M6.1-EGY-10,M6.1-EGY-10,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,,Single Choice – mikor ne hozz mély élményjátékot,emberi,,,,
-M6.1-EGY-11,M6.1-EGY-11,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,,Szabad szöveges mező – záró mini-reflexió (kedvenc játék + kockázat),emberi,,,,
+M6.1-EGY-11,M6.1-EGY-11,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,other,h5p-interaction,legyártandó,specifikáció kész,,Nyitott kérdés – záró mini-reflexió (kedvenc játék + kockázat),emberi,,,,
 M6.1-IKO-01,M6.1-IKO-01,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,icon-set,,legyártandó,specifikáció kész,,Játék-kategória ikonok – 5 kategória,AI-generált,,,,
 M6.1-IKO-01::ALTTEXT,M6.1-IKO-01,alt-szöveg,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,icon-set,,legyártandó,specifikáció kész,,Játék-kategória ikonok – 5 kategória — alt-szöveg,AI-generált,,,,
 M6.1-ILL-01,M6.1-ILL-01,elsődleges,M6,M6.1,02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md,illustration,,legyártandó,specifikáció kész,,Kategória-kártyák 1 – ismerkedős + energizer (2 kártya),AI-generált,,,,
@@ -4376,6 +4384,8 @@ Itt fontos, hogy hol vagytok, mennyien vagytok, mi a cél,
 Nézzük meg, mit jelent ez a gyakorlatban.”",47a74316715f6d39675345e68814520a49ddacedf29e403779558870df669bf9,"R2, R3"
 M7.4-DIA-01,M7.4-DIA-01,elsődleges,M7,M7.4,02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md,diagram,,legyártandó,specifikáció kész,,3 építőkocka diagram – SMART cél / Peula 11 pontja / Zmán Kvucá,AI-generált,,,,
 M7.4-DIA-01::ALTTEXT,M7.4-DIA-01,alt-szöveg,M7,M7.4,02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md,diagram,,legyártandó,specifikáció kész,,3 építőkocka diagram – SMART cél / Peula 11 pontja / Zmán Kvucá — alt-szöveg,AI-generált,,,,
+M7.4-MUNK-01,M7.4-MUNK-01,elsődleges,M7,M7.4,02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md,worksheet,,legyártandó,specifikáció kész,,Letölthető „Peula v1 – első vázlat” kitölthető sablon (doc),emberi,,,,
+M7.4-MUNK-01::PRINTPDF,M7.4-MUNK-01,nyomtatható PDF,M7,M7.4,02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md,worksheet,,legyártandó,specifikáció kész,,Letölthető „Peula v1 – első vázlat” kitölthető sablon (doc) — nyomtatható PDF,emberi,,,,
 M7.4-NAR-01,M7.4-NAR-01,elsődleges,M7,M7.4,02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md,voiceover,narration,legyártandó,jogtisztázás alatt,,Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél),AI-generált,M7.4-NAR-01-VO,"„Most kiválasztasz egy kvucát,
 megírod hozzá a kvuca-infókat és a SMART célt.
 Nem dolgozatot kérünk – a lényeg, hogy **érthető legyen**,

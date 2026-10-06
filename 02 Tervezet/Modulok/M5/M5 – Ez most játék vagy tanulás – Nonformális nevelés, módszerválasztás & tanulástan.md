@@ -151,7 +151,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 
 ## 5. Felzárkóztató peula – M5.F (50–55’)
 
-**Státusz és időpont:** **kötelező, ha az M5 éles kapuja nem teljesült.** A kapueredmény megerősítése után, a javító újraleadás előtt kerül sorra; az időpontot a képző jelöli ki a központi naptár szerint: 2027-02-08 (hétfő), 18:00-tól.
+**Státusz és időpont:** **kötelező, ha az M5 éles kapuja nem teljesült.** A kapueredmény megerősítése után, a javító újraleadás előtt kerül sorra; az időpontot a képző jelöli ki a központi naptár szerint: a kapu megerősítését követő hétfőn, 18:00-tól.
 
 **Cél:** facilitált, strukturált javítási alkalom azoknak, akiknek az M5 kapuja (az M5.4 táblázat rubrikás értékelése) nem teljesült: a kapun kapott visszajelzésre (Megfigyelés → Hatás → Következő lépés) építve dolgoznak a Hiányosnak jelölt szempontokon (R1–R4), tisztázzák a modul kulcsfogalmait (formális–nonformális–informális, feladat→cél→kvuca→módszer, gyakorlás–aktív felidézés–időben elosztott gyakorlás), szükség esetén pótolják a hiányzó leckéket, és előkészítik a táblázat javító újraleadását. Aki csak lemaradt az online leckékkel (M5.1–M5.4), csendes pótlással pótol; erre az alkalom 5–25. perce is helyet ad.
 
@@ -182,13 +182,13 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 
 **Minimális teljesítés (M5 „complete”):**
 
-1. **M5.1–M5.4** mikroleckék activity completion **– érdemi kitöltéssel, nem csak a slide-ok végigléptetésével** (M5.4-nél: a saját táblázat ténylegesen összeállítva és Assignmentként feltöltve, nem üres fájl).
+1. **M5.1–M5.4** mikroleckék activity completion **– érdemi kitöltéssel, nem csak a slide-ok végigléptetésével** (M5.4-nél: az LMS-M5-04 H5P-C profilja; a táblázat leadása – online szövegként vagy fájlként – a 2. pont, LMS-M5-05).
 2. **Éles kapu – modulproduktum:** a leadott **„Feladat–kvuca–módszer + tanulástan” táblázat** eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint, az R4 (tanulástan-elem valódisága) kritikus sor** (a „Hiányos” = javításra vissza, nincs kizárás).
 3. **Diagnosztikus fogalom-kvíz:** **formatív, completion-alapú** (kitöltés elég, NEM kapuz) – a ≥80% csak felzárkózás-jelző.
 
 > **Megjegyzés:** üres / csak címke-szintű táblázat **nem „complete”** – a KAPU R4 „csak címke” = Hiányos, ami javításra visszaküldést jelent.
 
-> **Késleltetett felidézés (M5.3 §3.6):** az M5.3 teljesítése után 72 órával nyílik, és **kötelező**, de nem része az M5 „complete”-nek: **nem kapuzza a következő modult** (az M6 nyitásának nem feltétele), az online félév teljesítéséhez viszont kell.
+> **Késleltetett felidézés (M5.3 §3.6):** az M5.3 teljesítése után 72 órával nyílik (a plugin nélküli tartalékúton az M5.3 után látható, és a szövege kéri, hogy a tanuló 72 óra múlva térjen vissza: `LMS – activity manifest.md`, LMS-M5-07; RM-D6), és **kötelező**, de nem része az M5 „complete”-nek: **nem kapuzza a következő modult** (az M6 nyitásának nem feltétele), az online félév teljesítéséhez viszont kell.
 
 > A 12 itemes item-bank, a disztraktor-logika és a 4 soros, megfigyelhető rubrika (R1–R4) a hivatalos KAPU-fájlban van kidolgozva: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
 

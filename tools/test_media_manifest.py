@@ -1907,6 +1907,110 @@ class TestLiveDeliverables(unittest.TestCase):
         self.assertEqual(sorted(produced), sorted(placed))
 
 
+# ==========================================================================
+# Release phase and fallback (Q-MED-1; D-c, 2026-10-05)
+# ==========================================================================
+
+def photo(asset_id: str, **fields) -> str:
+    """A rights-gated photo declaration, like the four decided photo cases."""
+    return declaration(id=asset_id, kind="photo", title="Fotó", status="pending-rights",
+                       a11y={"visual": "decorative"}, **fields)
+
+
+class TestReleasePhase(unittest.TestCase):
+    """`release_phase`, `fallback` and `fallback_final` reach the manifest the
+    release report reads, and nothing contradicting Q-MED-1 compiles."""
+
+    def _asset(self, decl: str) -> dict:
+        model = compile_corpus({LESSON: lesson(decl)})
+        self.assertEqual([], [str(e) for e in model["errors"]])
+        return model["assets"][0]
+
+    def _errors(self, decl: str) -> list[str]:
+        return errors_of({LESSON: lesson(decl)})
+
+    def test_undeclared_fields_stay_empty(self):
+        """No default here: the release report applies the kind default itself."""
+        asset = self._asset(MINIMAL)
+        self.assertEqual(("", "", False),
+                         (asset["release_phase"], asset["fallback"], asset["fallback_final"]))
+
+    def test_declared_fields_reach_the_json_and_the_csv(self):
+        decl = photo("M9.1-FOTO-01", release_phase="A",
+                     fallback="szöveges leírás a dián", fallback_final=True)
+        model = compile_corpus({LESSON: lesson(decl)})
+        self.assertEqual([], [str(e) for e in model["errors"]])
+        json_asset = json.loads(mm.render_manifest_json(model))["assets"][0]
+        self.assertEqual(("A", "szöveges leírás a dián", True),
+                         (json_asset["release_phase"], json_asset["fallback"],
+                          json_asset["fallback_final"]))
+        row = mm.asset_csv_rows(model)[0]
+        self.assertEqual(len(mm.ASSET_CSV_HEADER), len(row))
+        self.assertEqual(["A", "szöveges leírás a dián", "igen"], row[-3:])
+
+    def test_unknown_phase_rejected(self):
+        self.assertTrue(any("ismeretlen `release_phase`" in e
+                            for e in self._errors(photo("M9.1-FOTO-01", release_phase="D"))))
+
+    def test_empty_or_non_text_fallback_rejected(self):
+        self.assertTrue(any("üres `fallback`" in e
+                            for e in self._errors(photo("M9.1-FOTO-01", fallback="  "))))
+        self.assertTrue(any("a `fallback` szöveg legyen" in e
+                            for e in self._errors(photo("M9.1-FOTO-01", fallback=True))))
+
+    def test_fallback_final_needs_a_fallback_and_a_boolean(self):
+        self.assertTrue(any("fallback nélkül" in e
+                            for e in self._errors(photo("M9.1-FOTO-01", fallback_final=True))))
+        self.assertTrue(any("logikai érték" in e for e in self._errors(
+            photo("M9.1-FOTO-01", fallback="x", fallback_final="true"))))
+
+    def test_phase_c_always_names_its_fallback(self):
+        self.assertTrue(any("C fázisú asset fallback nélkül" in e
+                            for e in self._errors(photo("M9.1-FOTO-01", release_phase="C"))))
+        self.assertEqual("C", self._asset(
+            photo("M9.1-FOTO-01", release_phase="C", fallback="szöveges kártya"))["release_phase"])
+
+    def test_phase_b_needs_its_transcript_captions_or_a_fallback(self):
+        bare = declaration(id="M9.1-NAR-01", kind="voiceover", title="N",
+                           source_ref="M9.1-S", release_phase="B")
+        with_transcript = declaration(id="M9.1-NAR-01", kind="voiceover", title="N",
+                                      source_ref="M9.1-S", release_phase="B",
+                                      derivatives=["transcript"])
+        script = source_block("M9.1-S", "narration", "> „Szia!")
+        self.assertTrue(any("B fázisú asset" in e
+                            for e in errors_of({LESSON: lesson(bare, script)})))
+        self.assertEqual([], errors_of({LESSON: lesson(with_transcript, script)}))
+
+    def test_the_four_decided_photo_cases_drive_the_build_gate(self):
+        """The shapes of the four decided photo records (2026-10-05) give the release
+        report exactly the intended verdict: a temporary fallback is MEDIA_PENDING, a
+        final fallback and a phase-C fallback do not block, an undeclared gated photo
+        still blocks the build (the fail-safe default)."""
+        import content_integrity as ci
+        files = {LESSON: lesson(
+            photo("M9.1-FOTO-01", release_phase="A", fallback="szöveges navigáció"),
+            photo("M9.1-FOTO-02", release_phase="A", fallback="felvétel nélküli megőrzés",
+                  fallback_final=True),
+            photo("M9.1-FOTO-03", release_phase="C", fallback="szöveges kártya",
+                  production_rules=["R2"]),
+            photo("M9.1-FOTO-04"))}
+        model = compile_corpus(files)
+        self.assertEqual([], [str(e) for e in model["errors"]])
+        assets = json.loads(mm.render_manifest_json(model))["assets"]
+        blocked, pending, _unassigned = ci.media_assessment(assets, legal_gate_open=True)
+        self.assertEqual(["M9.1-FOTO-04"], blocked)
+        self.assertEqual(["M9.1-FOTO-01"], pending)
+
+    def test_corpus_declarations_are_consistent(self):
+        """Every phase the real curriculum declares is one of A/B/C, and every
+        declared fallback is non-empty text (the compiler enforces; this pins it)."""
+        for asset in mm.compile_manifest()["assets"]:
+            self.assertIn(asset["release_phase"], ("",) + mm.RELEASE_PHASES, asset["id"])
+            self.assertIsInstance(asset["fallback_final"], bool, asset["id"])
+            if asset["fallback_final"]:
+                self.assertTrue(asset["fallback"].strip(), asset["id"])
+
+
 if __name__ == "__main__":
     if len(sys.argv) >= 2 and sys.argv[1] == "--pin-visible":
         sys.exit(pin_visible_text(" ".join(sys.argv[2:])))

@@ -116,7 +116,7 @@ A modul végére a madrih…
 ### M6.4 – „Döntési szcenáriók: mit választanál?” (15–20’)
 
 * **Fő fókusz:** kvuca + cél + körülmény → játék / történet / kézműves döntés, biztonság & inkluzivitás szempontokkal.
-* **Eszköz:** H5P Branching Scenario (4 szcenárió, döntési pontokkal; legalább 3 különböző ágat kell végigjátszani, a 4. opcionális).
+* **Eszköz:** H5P Branching Scenario (4 szcenárió, döntési pontokkal; a három kötelező szcenárió fix sorrendben A → B → D, a C opcionális bónuszgyakorlás; D-e).
 * **Mit tanul a madrih?**
   * 3–4 életszerű helyzetben módszert választani,
   * minden döntéshez **legalább 1 biztonsági és 1 inkluzivitási szempontot** megnevezni,
@@ -167,7 +167,7 @@ A modul végére a madrih…
 
 * **Kapcsolódó online leckék:** M6.1–M6.4
 * **Kinek szól:** annak, akinek az M6 kapuja – a játéklap – nem teljesült; mivel a kapu éles, számára a peula **kötelező**. A felzárkóztató peula (F-peula) facilitált, strukturált javítási alkalom, nem általános pótlás. Aki csak lemaradt egy leckével vagy peulával, csendes pótlással pótol; erre a peula csendes pótlási blokkja (5–25’) is helyet ad.
-* **Időpont:** a kapueredmény megerősítése után, a javító leadás előtt; a képző jelöli ki a központi naptár szerint: 2027-02-22 (hétfő), 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hétre, 2027-03-08-ra (hétfő) teheti. A javító leadás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele).
+* **Időpont:** a kapueredmény megerősítése után, a javító leadás előtt; a képző jelöli ki a központi naptár szerint: a kapu megerősítését követő hétfőn, 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hét hétfőjére teheti. A javító leadás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele).
 * **Fő célok tanulói nyelven:**
   1. **Tisztábban látja, hol tart** a játéklapjával: a kapun kapott visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján tudja, melyik rubrikasort kell javítania – különösen a Biztonság (R4) és az Inkluzivitás (R5) sort –, és mi hiányzik még az M6.1–M6.4 leckékből.
   2. **Érdemben javít** a játéklapján, legalább a visszajelzésben jelzett sorokon (ha kell, egy leckerész pótlásával vagy újranézésével), és így felkészül a javító leadásra.
@@ -221,7 +221,7 @@ A modul végére a madrih…
 
 Az M6 akkor **teljesített**, ha az alábbi két feltétel (1–2.) teljesül:
 
-1. **Az M6.1–M6.4 mikroleckék teljesítése (Moodle: activity completion)** – **érdemi kitöltéssel, nem végiglapozással** (kiemelten az **M6.4 Branching Scenarióban legalább 3 különböző ág igazolt teljesítése**, nem félbehagyva; a 4. ág opcionális).
+1. **Az M6.1–M6.4 mikroleckék teljesítése (Moodle: activity completion)** – **érdemi kitöltéssel, nem végiglapozással** (kiemelten az **M6.4 Branching Scenarióban a három kötelező szcenárió (A → B → D) végigvitele**, nem félbehagyva; a C opcionális).
 2. **Leadott játéklap, amely eléri a KAPU-rubrika küszöbét:** minden sor ≥ „Oké” (2), és **mindkét blokkoló feltétel (R4 Biztonság, R5 Inkluzivitás) teljesül**. Üres vagy csak általános kijelentést tartalmazó biztonsági vagy inkluzivitási rovat esetén a sor 1 pontot kap, és a kapueredmény **„Még nem teljesítve”**.
 3. A **szcenárió-kvíz (6.1) formatív** – ajánlott (≥80% önellenőrző cél), **nem feltétel**.
 

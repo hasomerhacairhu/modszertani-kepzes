@@ -202,11 +202,23 @@ REUSE_COMPATIBLE: dict[str, tuple[str, ...]] = {
 
 REQUIRED_ASSET_FIELDS = ("id", "kind", "title")
 
+#: Q-MED-1 (`Emberi jóváhagyás szükséges.md` 10. szakasz; D-c, 11. szakasz): the
+#: release phase of an asset. A is release-mandatory (learner text, native H5P,
+#: necessary aids, pedagogical diagram/graphic, alt and text equivalents); B is
+#: narration with its transcript/captions; C is video, avatar, character scene and
+#: branded polish, whose rights-dependent elements ship an A/B static or text
+#: fallback. An undeclared phase is not defaulted here: the release report reads
+#: the kind default itself (`content_integrity.py`, KIND_DEFAULT_PHASE).
+RELEASE_PHASES = ("A", "B", "C")
+#: Derivatives that are themselves the text fallback of a B-phase narration.
+B_PHASE_TEXT_FALLBACKS = ("transcript", "captions")
+
 KNOWN_ASSET_FIELDS = {
     "id", "unit", "kind", "subtype", "mode", "title", "purpose", "spec",
     "source_ref", "composed_of", "provenance", "provenance_note", "technical",
     "a11y", "derivatives", "reuse_of", "external", "status", "blockers",
     "production_rules", "decision", "notes", "legacy", "review",
+    "release_phase", "fallback", "fallback_final",
 }
 KNOWN_SOURCE_FIELDS = {"id", "kind", "note", "for"}
 KNOWN_ASSET_FREE_FIELDS = {"reason"}
@@ -817,6 +829,8 @@ def _normalise_asset(raw: dict, where: str, unit: str, module: str, file_kind: s
         raise ManifestError(where, f"ismeretlen `status`: {status!r}",
                             f"engedélyezett: {', '.join(STATUSES)}")
 
+    release_phase, fallback, fallback_final = _release_fields(raw, where, derivatives)
+
     legacy = raw.get("legacy") or {}
     if not isinstance(legacy, dict):
         raise ManifestError(where, "a `legacy` objektum legyen (szerep → régi ID-k)", "")
@@ -860,9 +874,50 @@ def _normalise_asset(raw: dict, where: str, unit: str, module: str, file_kind: s
         "decision": raw.get("decision", ""),
         "notes": raw.get("notes", ""),
         "review": raw.get("review", ""),
+        "release_phase": release_phase,
+        "fallback": fallback,
+        "fallback_final": fallback_final,
         "legacy": {role: list(ids) for role, ids in legacy.items()},
     }
     return asset
+
+
+def _release_fields(raw: dict, where: str, derivatives: list) -> tuple[str, str, bool]:
+    """Validate `release_phase`, `fallback` and `fallback_final` (Q-MED-1, D-c).
+
+    Returns (phase or "", fallback or "", fallback_final). An undeclared phase stays
+    empty: the release report applies the kind default, so the manifest records only
+    what the lesson declares.
+    """
+    phase = raw.get("release_phase", "")
+    if phase != "" and phase not in RELEASE_PHASES:
+        raise ManifestError(where, f"ismeretlen `release_phase`: {phase!r}",
+                            f"engedélyezett: {', '.join(RELEASE_PHASES)} (Q-MED-1)")
+
+    fallback = raw.get("fallback", "")
+    if not isinstance(fallback, str):
+        raise ManifestError(where, "a `fallback` szöveg legyen",
+                            "az elfogadott fallback rövid leírása")
+    if "fallback" in raw and not fallback.strip():
+        raise ManifestError(where, "üres `fallback`",
+                            "írd le az elfogadott fallbacket, vagy hagyd el a mezőt")
+
+    final = raw.get("fallback_final", False)
+    if not isinstance(final, bool):
+        raise ManifestError(where, "a `fallback_final` logikai érték legyen (true/false)", "")
+    if final and not fallback:
+        raise ManifestError(where, "`fallback_final: true` fallback nélkül",
+                            "a végleges helyettesítést a `fallback` mező írja le")
+
+    if phase == "C" and not fallback:
+        raise ManifestError(where, "C fázisú asset fallback nélkül",
+                            "Q-MED-1: a C fázis elemei A/B-s statikus vagy szöveges fallbackkel "
+                            "járnak — add meg a `fallback` mezőt")
+    if phase == "B" and not fallback and not any(d in derivatives for d in B_PHASE_TEXT_FALLBACKS):
+        raise ManifestError(where, "B fázisú asset leirat, felirat vagy fallback nélkül",
+                            "Q-MED-1: a narráció mindig a szükséges leirattal/felirattal jár — "
+                            "add meg a `transcript`/`captions` derivatívát vagy a `fallback` mezőt")
+    return phase, fallback, final
 
 
 # ==========================================================================
@@ -1578,6 +1633,7 @@ def _json_asset(asset: dict) -> dict:
             "mode", "status", "title", "purpose", "spec", "provenance", "provenance_note",
             "technical", "a11y", "derivatives", "reuse_of", "reuse_resolves_to", "external",
             "blockers", "production_rules", "readiness_issues", "decision", "notes", "review",
+            "release_phase", "fallback", "fallback_final",
             "source_ref", "composed_of", "composed_source_ids",
             "source_line", "source_text", "source_hash",
             "alt_source_ref", "alt_text", "alt_hash", "copy_hash", "spec_hash",
@@ -1593,6 +1649,7 @@ ASSET_CSV_HEADER = [
     "Eredet", "Eredet-megjegyzés", "Tech-spec", "Derivatívák", "Deliverable-ek",
     "Újrahasznosítás célja", "Összetevők (kompozit)", "Külső forrás", "Blokkolók",
     "Produkciós szabályok", "Emberi döntés", "Megjegyzés", "Spec-hash", "Régi ID-k",
+    "Release-fázis (Q-MED-1)", "Fallback", "Végleges fallback",
 ]
 
 
@@ -1647,6 +1704,7 @@ def asset_csv_rows(model: dict) -> list[list[str]]:
             _flat(a["external"]), _flat(a["blockers"]),
             _flat(a["production_rules"]), a["decision"], a["notes"], a["spec_hash"],
             _legacy_cell(a),
+            a["release_phase"], a["fallback"], "igen" if a["fallback_final"] else "",
         ])
     return rows
 
@@ -1929,8 +1987,9 @@ def render_xlsx(model: dict) -> bytes:
     ws = wb.active
     ws.title = "Assetek"
     widths = [16, 7, 10, 12, 34, 7, 14, 16, 18, 22, 26, 26, 46, 34, 16, 72, 18,
-              16, 46, 30, 16, 26, 26, 24, 34, 16, 30, 26, 16, 18, 30, 26, 18, 30]
-    wrapcols = {11, 12, 13, 14, 16, 19, 20, 22, 23, 24, 25, 26, 28, 31, 32, 34}
+              16, 46, 30, 16, 26, 26, 24, 34, 16, 30, 26, 16, 18, 30, 26, 18, 30,
+              12, 46, 12]
+    wrapcols = {11, 12, 13, 14, 16, 19, 20, 22, 23, 24, 25, 26, 28, 31, 32, 34, 36}
     sheet(ws, ASSET_CSV_HEADER, widths, wrapcols)
     rows = asset_csv_rows(model)
     modes = [a["mode"] for a in model["assets"]]

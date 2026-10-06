@@ -54,7 +54,7 @@
 
 ## 3. H5P Course Presentation – SLIDE-BY-SLIDE
 
-> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető** – ha a teszt nem igazolja, a mező Moodle-oldalra kerül. A **kötelező** mezőknél (4. és 6. dia, valamint a biztonsági lépés) azt, hogy a választott megvalósítás a továbblépést ténylegesen a kitöltéshez köti-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli; ha nem köti, a lépések kötelező, nem kihagyható státusza ettől nem gyengül.
+> **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető:** a **kötelező** mezők (4. és 6. dia, valamint a biztonsági lépés) alapértelmezett helye a lecke melletti Moodle-oldali szövegmező (`LMS – activity manifest.md`, LMS-Z-06, három kötelező kérdéssel); H5P-n belüli út csak a célverzión igazolt működés után válthatja fel. A beküldés kötelező, utána a tanuló továbbhaladhat. A tartalmi elfogadás külön lépés: a kijelölt mentor elfogadása (LMS-Z-07) a Z és az online félév teljesítésének feltétele, a következő tanulási tartalom nyitásáé nem; ha a mentor nem fogadja el, a tanuló javít, újra beküldi, és a mentor újraellenőriz (BS-D8). Hogy a választott megvalósítás az üres beküldést ténylegesen elutasítja-e, és hogy a beküldés és az elfogadás külön állapot-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli; a lépések kötelező, nem kihagyható státusza ettől nem gyengül.
 
 > **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 7. dia „Single Choice”, valamint a 3. dia „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
@@ -229,9 +229,9 @@ Opciók:
 
 > Fontos: legyen **valóságos**, amit beírsz – olyan terv, amit tényleg el tudsz képzelni magad előtt a kvucáddal.
 
-**Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
+**Kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
-**Rövid szöveges válasz** mező – a kitöltése **kötelező** a slide továbblépéséhez (mikor + melyik kvuca + 1 akadály ha–akkor formában).
+**Rövid szöveges válasz** mező – a kitöltése és beküldése **kötelező** (mikor + melyik kvuca + 1 akadály ha–akkor formában); helye a lecke melletti Moodle-oldali mező (LMS-Z-06, 1. kérdés).
 
 Mezőben megjelenő mintaszöveg:
 `A következő 3 Zmán Kvucámon a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...`
@@ -282,9 +282,9 @@ Mezőben megjelenő mintaszöveg:
 
 > **„Elmondom a Peula v2-tervemet ………-nak/-nek (a mentorom vagy egy kijelölt tapasztalt madrih neve), és ha elakadok, vagy közbejön az akadály, tőle kérek segítséget.”**
 
-**Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
+**Kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
-1 rövid mező, 1–3 mondat – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **kinek** mondod el, és ha–akkor formában azt, hogy miben kéred a támogatását a Peula v2 lefuttatásánál.
+1 rövid mező, 1–3 mondat – a kitöltése és beküldése **kötelező** (helye: LMS-Z-06, 2. kérdés). Tartalmazza: **kinek** mondod el, és ha–akkor formában azt, hogy miben kéred a támogatását a Peula v2 lefuttatásánál.
 
 ***
 
@@ -299,9 +299,11 @@ Mezőben megjelenő mintaszöveg:
 
 > **„Az első éles Zmán Kvucám előtt a Moodle-kurzus »Segítség és kapcsolatok« blokkjában ellenőrzöm a kijelölt Memuna és a helyettese nevét és elérhetőségét, és felírom magamnak. Ha ez nincs egyértelműen megadva, vagy egy éles alkalmon a felkészített, 18 év feletti felelős felnőtt nincs jelen, és a helyszínen sem érhető el azonnal, nem vezetek éles foglalkozást, hanem jelzem a képzőnek.”**
 
-**Beágyazott kérdés – rövid szöveges válasz (KÖTELEZŐ)**
+> Ezt a választ és a 4. és a 6. dián írtakat a mentorod átnézi. Ha hiányzik belőlük valami, szól: ekkor kiegészíted, és újra beküldöd. A Z modul akkor teljesül, ha a mentorod elfogadta őket.
 
-1 rövid mező – a kitöltése **kötelező** a továbblépéshez. Tartalmazza: **ki** a Memuna (vagy kit kérdezel meg róla) és **kinek jelzel** ebben az esetben. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy az első éles Zmán Kvucád előtt megtudd; lásd M0.A → M3.3.)*
+**Kérdés – rövid szöveges válasz (KÖTELEZŐ)**
+
+1 rövid mező – a kitöltése és beküldése **kötelező** (helye: LMS-Z-06, 3. kérdés); a kijelölt mentor a választ külön elfogadja (LMS-Z-07; BS-D8). Tartalmazza: **ki** a Memuna (vagy kit kérdezel meg róla) és **kinek jelzel** ebben az esetben. *(Ha most nem tudod a nevet, az is rendben – épp ezért a lépésed, hogy az első éles Zmán Kvucád előtt megtudd; lásd M0.A → M3.3.)*
 
 ***
 
