@@ -206,8 +206,8 @@ ott sincs, a tempót a szöveg és az időkeret adja ([`VOICE-BIBLE.md`](./VOICE
 
 **Mit szabadít fel:** R3 lezárása önmagában **0 asset**: mind a 116 R3-tételen az R2 is
 ül, mert a felmondás szintetikus, így az R2 a narrációkra is kiterjed
-([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz). Az R3 + R2 együtt — az R5-öt és
-a nyitott emberi döntéseket még nyitva hagyva — **117 asset / 366 deliverable**.
+([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz). Az R3 + R2 együtt — a nyitott
+emberi döntéseket még nyitva hagyva — **117 asset / 366 deliverable**.
 
 **Ki döntött:** a kanonikus hangról és a gyártási konfigurációról a projektgazda (2026-10-03); a
 hang-jogosultság formális bizonyítékáról a jogi jóváhagyó és a hang jogosultja.
@@ -395,7 +395,8 @@ tartalmától függ. A lecke korábban ki is mondta: „Ennek hiányában ez a t
 állapota sem tükrözte ezt — az `M3.4-EGY-03` emiatt tévesen a „most gyártható” kötegben
 állt.
 
-**Mit szabadít fel:** 2 asset / 3 deliverable. Az `M3.4-DIA-01` ezen felül az R5-re is vár.
+**Mit szabadít fel:** 2 asset / 3 deliverable. Az `M3.4-DIA-01`-re az R5 produkciós
+szabályként vonatkozik, de blokkolóként már nem.
 
 **Ki döntött:** projektgazdai döntés (2026-10-02, `HUM-SAFE-04`); utólagos ellenőrzés
 (vétó/QA): a kánoni `Emberi jóváhagyás szükséges.md` `HUM-SAFE-04` tételében megnevezett
@@ -428,7 +429,7 @@ készül.
 
 **Miért van itt:** az asset `decision` mezője erre a tételre mutat, ezért a manifeszt
 kapuzza: az `M1.3-VID-01` `emberi döntésre vár` állapotú, és a BATCH 6-ban áll, tehát az
-R2, R3 és R5 lezárása önmagában nem teszi gyárthatóvá.
+R2 és az R3 lezárása önmagában nem teszi gyárthatóvá, amíg a D11 nyitott.
 
 > **Projektgazdai döntés (2026-10-02, `HUM-MEDIA-02`):** a D11 a hangjogosultsági
 > bizonyítékig blokkolt, és hallgatólagosan nem tekintjük elfogadottnak. A bizonyíték a
