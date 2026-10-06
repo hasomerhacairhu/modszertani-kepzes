@@ -9,7 +9,7 @@
 ## 1. Modul meta
 
 * **Időtartam:** 1 hét (könnyített bevezető modul)
-* **Heti offline:** péntek 2. sáv – **Peula A (M0.A, 45–60’)** – Kickoff & ismerkedés + technikai segítségpont
+* **Offline alkalom:** a központi naptár szerint. **Peula A (M0.A, 45–60’)** – Kickoff & ismerkedés + technikai segítségpont
 * **Online terhelés:** kb. **4×15–20’** mikrolecke (M0.1–M0.4) **+ külön bemutatkozó fórumaktivitás** (poszt + komment), össz. kb. **60–80 perc + fórum**
 * **Teljes terhelés:** kb. **2–2,5 óra** – **kapacitástervezéshez 2,5 órával számolj (V1 tervezési érték):** a bemutatkozó fórumposzt + komment és a technikai első lépések (Moodle-belépés, H5P) az első héten reálisan a hosszabb sávot viszik. **Jobb felfelé kerekíteni, mint alábecsülni.**
 

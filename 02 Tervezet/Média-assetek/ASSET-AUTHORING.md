@@ -331,6 +331,9 @@ Egy fájlban egy ilyen blokk lehet, és akkor nem lehet benne `@asset`.
 | `reuse_of` | `reuse`-nál ✅ | a kanonikus asset ID-je |
 | `notes`, `review` | | megjegyzés, illetve migrációs/szerkesztői észrevétel |
 | `legacy` | | a v1 sorok leképezése (`{"asset": [...], "captions": [...]}`) |
+| `release_phase` | | `A`, `B` vagy `C` (Q-MED-1; `Emberi jóváhagyás szükséges.md` 10. és 11. szakasz, D-c). A: release-kötelező (tanulói szöveg, natív H5P, szükséges segédlet, pedagógiai diagram/grafika, alt- és szöveges ekvivalens); B: narráció a szükséges leirattal/felirattal; C: videó, avatar, karakterjelenet, márkás polish — a jogfüggő elem A/B-s statikus vagy szöveges fallbackkel. Megadása nélkül a release-riport a típus szerinti alapértelmezést használja (narráció → B, videó → C, minden más → A) |
+| `fallback` | | az elfogadott fallback rövid leírása (nem üres szöveg). A fázisú, nyitott médiakapun álló assetnél a fallback a buildet nem blokkolja, a tanulói release-t `CONTENT_READY / MEDIA_PENDING` állapotban tartja |
+| `fallback_final` | | `true`, ha a fallback a végleges helyettesítés (az asset nem release-kötelező); `fallback` nélkül nem adható meg |
 
 ---
 
@@ -346,7 +349,10 @@ Egy fájlban egy ilyen blokk lehet, és akkor nem lehet benne `@asset`.
 * `human-decision`-nél `decision`;
 * kompozíciónál: beszélt videó-konténer, létező és azonos fájlbeli összetevők,
   nincs beágyazott kompozíció, minden összetevőnek van forrásszövege, és a
-  felirat/leirat derivatíva a konténeré, nem az összetevőké.
+  felirat/leirat derivatíva a konténeré, nem az összetevőké;
+* release-fázisnál (Q-MED-1): csak `A`/`B`/`C`; a `C` fázisú asset megnevezi a fallbackjét; a `B`
+  fázisú assetnek leirat- vagy felirat-derivatívája vagy fallbackje van; a `fallback` nem üres
+  szöveg; a `fallback_final` logikai érték, és csak fallbackkel adható meg.
 
 A fordító a **manifeszt szerkezetét** ellenőrzi. Azt, hogy a kész Moodle/H5P
 oldal tényleg akadálymentes-e, továbbra is a release-elfogadás dönti el.

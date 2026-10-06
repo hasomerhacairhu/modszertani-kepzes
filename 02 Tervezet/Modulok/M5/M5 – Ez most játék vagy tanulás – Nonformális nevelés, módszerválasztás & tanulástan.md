@@ -151,7 +151,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 
 ## 5. Felzárkóztató peula – M5.F (50–55’)
 
-**Státusz és időpont:** **kötelező, ha az M5 éles kapuja nem teljesült.** A kapueredmény megerősítése után, a javító újraleadás előtt kerül sorra; az időpontot a képző jelöli ki a központi naptár szerint: 2027-02-08 (hétfő), 18:00-tól.
+**Státusz és időpont:** **kötelező, ha az M5 éles kapuja nem teljesült.** A kapueredmény megerősítése után, a javító újraleadás előtt kerül sorra; az időpontot a képző jelöli ki a központi naptár szerint: a kapu megerősítését követő hétfőn, 18:00-tól.
 
 **Cél:** facilitált, strukturált javítási alkalom azoknak, akiknek az M5 kapuja (az M5.4 táblázat rubrikás értékelése) nem teljesült: a kapun kapott visszajelzésre (Megfigyelés → Hatás → Következő lépés) építve dolgoznak a Hiányosnak jelölt szempontokon (R1–R4), tisztázzák a modul kulcsfogalmait (formális–nonformális–informális, feladat→cél→kvuca→módszer, gyakorlás–aktív felidézés–időben elosztott gyakorlás), szükség esetén pótolják a hiányzó leckéket, és előkészítik a táblázat javító újraleadását. Aki csak lemaradt az online leckékkel (M5.1–M5.4), csendes pótlással pótol; erre az alkalom 5–25. perce is helyet ad.
 

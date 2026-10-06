@@ -92,6 +92,44 @@ Külön review szükséges legalább:
 
 A lista M2-, M3- és M7-sorának szabálya **projektgazdai döntés (2026-10-02)**; utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős, az M3-sornál a Memuna is, az M7-sornál a programvezető is.
 
+### Activity-szintű adatleltár – build-rész (PR-01)
+
+A fenti mezőtáblázatból a buildhez szükséges rész: a **címzettek**, a **Moodle-szerepkör/capability** és a **mentor-láthatóság mechanizmusa**, profilonként. Egy activity sorát az `LMS – activity manifest.md` §2 „Profil” oszlopa köti ide; az activitynkénti eltéréseket a manifest adott sora és a fenti „Külön review” lista rögzíti. A többi mező (adatmező, cél, a jogalap- és a megőrzési sor hozzárendelése, törlés, export/hozzáférési kérelem, harmadik fél, kiskorú-specifikus szabály) kitöltése az LMS-gazda és a privacy felelős feladata (§9). A Moodle-alapértelmezések forrása a Moodle 4.5 `db/access.php` fájljai (`MOODLE_405_STABLE`); a célverzión a tényleges szerepkiosztást és capability-állapotot stagingben tesztfiókkal vissza kell olvasni (runtime acceptance 15. pont; §5).
+
+**Szerepkörök a kurzusban:**
+
+| Moodle-szerep | Kinek | `mod/feedback:viewreports` | `moodle/site:accessallgroups` | Mit lát a P2 szövegekből |
+|---|---|---|---|---|
+| Tanuló (Student) | a madrihok | nincs | nincs | csak a saját válaszát; a TEXT-C-ben a `mod/feedback:viewanalysepage` tiltva (`LMS – activity manifest.md` §1) |
+| Nem szerkesztő tanár (Non-editing teacher) | a kijelölt mentor/értékelő | van (alapértelmezés) | nincs (alapértelmezés; nem kaphatja meg) | a TEXT-C-ben csak a saját mentor-csoportja válaszait (lent); az ASSIGN-S/M és a P2-es H5P-C adatait a Moodle-alapértelmezés szerint csoporttól függetlenül (lent, profiltábla; a szűkítés DPO-kérdés: BIZT-5) |
+| Szerkesztő tanár (Editing teacher) | a kiosztást a privacy felelős tölti ki | van (alapértelmezés) | van (alapértelmezés) | csoporttól függetlenül minden választ |
+| Menedzser (Manager) | a kiosztást a privacy felelős tölti ki | van (alapértelmezés) | van (alapértelmezés) | csoporttól függetlenül minden választ |
+| Rendszergazda (site administrator) | a kiosztást a privacy felelős tölti ki | minden capability | minden capability | minden választ |
+
+A szerkesztő tanári, a menedzseri és a rendszergazdai, csoporttól független hozzáférés elfogadhatósága DPO-kérdés (BIZT-2): ez a szakasz nem dönti el.
+
+**Profilonként: ki lát még tanulói adatot** (Moodle 4.5 alapértelmezés):
+
+| Profil (`LMS – activity manifest.md` §1) | A tanuló | Ki lát még (capability) | Csoport szerinti szűkítés | Megjegyzés |
+|---|---|---|---|---|
+| H5P-C | a saját próbálkozásait | a próbálkozás-riportot (`mod/h5pactivity:reviewattempts`): nem szerkesztő tanár, szerkesztő tanár, menedzser | nincs rögzítve: DPO-kérdés (BIZT-5) | a tanuló-lokális lépések nem tárolódnak (manifest §2); a riport tényleges tartalmát a runtime acceptance 15. pontja olvassa vissza |
+| QUIZ-D, QUIZ-M | a saját próbálkozásait és eredményét | a kvízriportot és az értékelést (`mod/quiz:viewreports`, `mod/quiz:grade`): nem szerkesztő tanár, szerkesztő tanár, menedzser | nincs rögzítve (BIZT-5) | a zárt kvíz pontszámát az értékelő látja (§5) |
+| ASSIGN-S, ASSIGN-M, GATE-CP | a saját beadványát és értékelését | az értékelői nézetet (`mod/assign:grade`, `mod/assign:viewgrades`): nem szerkesztő tanár, szerkesztő tanár, menedzser | nincs rögzítve (BIZT-5) | P2 beadandót csak a kijelölt értékelő/mentor lát, csak ha ténylegesen szükséges (§5) |
+| TEXT-C | a saját válaszát (felülírhatja) | a válaszokat (`mod/feedback:viewreports`): a kijelölt mentor a saját csoportjában; a szerkesztő tanár, a menedzser és a rendszergazda csoporttól függetlenül | Separate groups (a mechanizmus lent) | — |
+| FEEDBACK-N (Z.4) | — | a válaszokat név nélkül megjelenítve (`mod/feedback:viewreports`; HUM-PRIV-03) | — | a mentor hozzáférése DPO-kérdés (BIZT-6) |
+| FORUM-C | a kurzus résztvevőinek posztjait | a kurzus résztvevői | — | a résztvevő előre tudja, hogy a csoport látja (§5) |
+| PAGE-C | — | — | — | tanulói adatot nem rögzít |
+
+A kurzusnaplót (`report/log:view`) és a pontkönyvet (`moodle/grade:viewall`) alapértelmezésben a nem szerkesztő tanár, a szerkesztő tanár és a menedzser látja.
+
+**A mentor-láthatóság mechanizmusa (TEXT-C).** Projektgazdai döntés (2026-10-05; `01 Fejlesztés/04 Audit/2026-10-05 Projektgazdai döntések – build-blocker leltár D-a…D-d.md`, 1. szakasz 2. pont). Ez technikai hozzáférés-szűkítés, nem a BS-D1 által elvetett, csoport-alapú kapuállapot. A döntés feltételes: a mechanizmust az RT-P0-15 kiterjesztett stagingtesztjének kell igazolnia; a DPO QA megmarad.
+
+- A TEXT-C activity csoportmódja („Group mode”) „Separate groups”, groupingot nem kap („Grouping”: nincs); a kurzus „Force group mode” beállítása „No” (BIZT-4, BIZT-3). Group- vagy Grouping-alapú hozzáférési feltétel sehol nincs (BS-D1).
+- A kurzus csoportjai a mentor-csoportok: minden tanuló a saját mentor-csoportjában van, és a kijelölt mentor ugyanennek a csoportnak a tagja. Más célú csoport a kurzusban nem jön létre; ha mégis kell, a TEXT-C elkülönítése új build-spec kérdés (BIZT-3, grouping-ág).
+- A mentor a nem szerkesztő tanári szerepet csak a csoportba sorolása után kapja meg, mert a csoport nélküli, `mod/feedback:viewreports` jogú néző az elemzőoldalon és az Excel-exportban minden választ látna (BIZT-3).
+- A mentor nem kap `moodle/site:accessallgroups` jogot; a tanuló nem kap riport-capabilityt.
+- „Enable notification of submissions” = „No” (BIZT-11): így a `mod/feedback:receivemail` jogúak nem kapnak a beküldőről nevet és közvetlen linket tartalmazó értesítést.
+
 ## 4. Kiskorúak és hozzájárulás
 
 A GDPR 8. cikke csak akkor alkalmazandó a saját korhatárszabályával, ha **az adatkezelés a 6. cikk (1) a) szerinti hozzájáruláson alapul, és információs társadalmi szolgáltatást kínálnak közvetlenül gyermeknek**. A GDPR alapesetben 16 éves korhatárt ír elő, és lehetővé teszi, hogy a tagállam ezt 13 éves korig csökkentse.
@@ -165,15 +203,17 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 ## 9. Release acceptance
 
 - [x] HUM-PRIV-01–04 lezárva; **projektgazdai döntés: 2026-10-02** – az `Emberi jóváhagyás szükséges.md` mind a négy tételt dátummal, jóváhagyóval és bizonyítékkal zárta; a későbbi ellenőrzés vétó/QA (§1);
-- [ ] teljes activity-szintű adatleltár elkészült (§3), a nem Moodle-ben vezetett mentori jegyzettel és a Google-sablonokkal együtt;
-- [ ] learner-facing adatvédelmi tájékoztató rövid, magyar és érthető;
-- [ ] mentor/képző hozzáférések tesztfiókkal ellenőrizve;
-- [ ] megőrzés/törlés folyamata és felelőse dokumentálva és tesztelve;
-- [ ] no-AI út ténylegesen végigvihető;
+- [x] az activity-szintű adatleltár build-része elkészült (§3, „Activity-szintű adatleltár – build-rész”): címzettek, Moodle-szerepkör/capability és a mentor-láthatóság mechanizmusa profilonként, az `LMS – activity manifest.md` §2 „Profil” oszlopával activityre bontva; **repo-spec: 2026-10-05** (PR-01; BIZT-2 objektív része, BIZT-3, BIZT-4, BIZT-11);
+- [ ] az activity-szintű adatleltár többi mezője (adatmező, cél, a jogalap- és a megőrzési sor hozzárendelése, törlés, export/hozzáférési kérelem, harmadik fél, kiskorú-specifikus szabály) kitöltve, a nem Moodle-ben vezetett mentori jegyzettel és a Google-sablonokkal együtt (§3: az LMS-gazda és a privacy felelős; vétó: DPO); <!-- gate: release-evidence -->
+- [x] learner-facing adatvédelmi tájékoztató rövid, magyar és érthető: a szövege a §11-ben; **repo-spec: 2026-10-05** (PR-02);
+- [ ] a tájékoztató belső mezői kitöltve, és az értékük a §11 szerint a tanulói szövegbe került (`PRIVACY_CONTACT_TO_CONFIGURE`: az adatvédelmi kontakt; `DPO_RETENTION_TO_CONFIRM`: az LMS-Z-06 megőrzése, BS-D6); a jelölő sem a tanulói szövegben, sem a renderelt tanulói tartalomban nem jelenik meg; <!-- gate: release-evidence -->
+- [ ] mentor/képző hozzáférések tesztfiókkal ellenőrizve; <!-- gate: post-build -->
+- [ ] megőrzés/törlés folyamata és felelőse dokumentálva és tesztelve; <!-- gate: release-evidence -->
+- [ ] no-AI út ténylegesen végigvihető; <!-- gate: post-build -->
 - [x] érzékeny saját történet nem kötelező teljesítési elem; **repo-audit: 2026-09-29** – az érintett reflektív/safety feladatok fiktív vagy általánosított alternatívát engednek;
-- [ ] fotó/videó/hang folyamat HUM-PRIV-02 szerint lezárva;
+- [ ] fotó/videó/hang folyamat HUM-PRIV-02 szerint lezárva; <!-- gate: release-evidence -->
 - [x] Z.4 nem ígér bizonyítatlan anonimitást; **repo-audit: 2026-09-29** – a learner-facing ígéret „név nélkül jelenik meg”, a dokumentum explicit kizárja a GDPR-értelemben vett teljes anonimitás ígéretét;
-- [ ] privacy/DPO/jogi signoff bizonyítéka rögzítve.
+- [ ] privacy/DPO/jogi signoff bizonyítéka rögzítve. <!-- gate: human-qa -->
 
 ## 10. Elsődleges források
 
@@ -181,5 +221,48 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 - Moodle aktuális privacy/completion/Feedback dokumentáció.
 - A választott külső szolgáltatók aktuális hivatalos feltételei és adatvédelmi dokumentációja (V1: az OpenAI API adatkezelési és ZDR-dokumentációja).
 - Az EU AI Act, azaz az (EU) 2024/1689 rendelet aktuális, egységes szerkezetű szövege, EUR-Lex – az alkalmazói (deployer) szerephez és a 4. cikk szerinti AI-jártassághoz.
+
+## 11. A kurzus adatvédelmi tájékoztatója (tanulói szöveg)
+
+*Fejlesztői feltétel (nem tanulói szöveg):*
+- A tájékoztató a kurzus elején, Moodle-oldalként (PAGE-C) áll (`LMS – activity manifest.md` §2, „Kurzusszintű elemek”).
+- Tartalma a §3–§8 lezárt döntéseiből és a `Program terv.md` §7 sablonjából származik (HUM-PRIV-01–04).
+- A „Ki látja?” rész a §5 lezárt szabályát közli. Hogy a tényleges beállítás ezzel egyezik-e, azt a runtime acceptance 15. pontja olvassa vissza; a szerkesztő tanári, a menedzseri és a rendszergazdai hozzáférés (BIZT-2) és a nem TEXT-C profilok szűkítése (BIZT-5) DPO-kérdés. A tájékoztató a §1 release-szabálya szerint a DPO jóváhagyása előtt nem élesíthető.
+
+**Belső mezők, a közzététel előtt kitöltendők.** A jelölők csak ebben a táblázatban és a §9 bizonyíték-tételében szerepelhetnek. A tanulói szövegbe és a renderelt tanulói tartalomba soha nem a jelölő kerül, hanem a kitöltött érték.
+
+| Mező | Mi kerül a tanulói szövegbe | Hová | Állapot |
+|---|---|---|---|
+| `PRIVACY_CONTACT_TO_CONFIGURE` | az adatvédelmi kontakt tényleges elérhetősége, külön sorban | a „Kihez fordulhatsz?” bekezdés alá | nyitott: a HUM-PRIV-01 szerint jóváhagyott kontakt (`Program terv.md` §4) |
+| `DPO_RETENTION_TO_CONFIRM` | egy új sor a „Meddig őrizzük meg?” listába: „a Z.3 szöveges válaszaidat:” és utána a DPO által rögzített megőrzés | a „szöveges reflexióidat” sor után | nyitott: BS-D6, LMS-Z-06 (§3) |
+
+> **Adatvédelem a kurzusban – röviden**
+>
+> **Mit rögzítünk?** A Moodle-fiókodat, a részvételedet és azt, hogy mit teljesítettél; a kvízek és a kapuk eredményét; és azt, amit egy beadandóba vagy egy szöveges mezőbe beírsz vagy feltöltesz. A szöveges mezőkbe írt válaszaid a neveddel együtt rögzülnek, hogy a mentorod szükség esetén neked szóló visszajelzést adhasson. Felesleges személyes adatot nem kérünk, és ahol egy feladat személyes példát kér, írhatsz fiktív vagy általánosított példát is, ha nem maga a személyes adat a feladat tárgya. Érzékeny családi vagy identitással kapcsolatos történetet egyik feladat sem kér kötelezően. Politikai, vallási, egészségügyi vagy más különleges adatot és valós gyermekvédelmi esetet egyik tanulási feladatba se írj be: ilyen adatot normál tanulási feladatban nem gyűjtünk. Ha egy feltárásban mégis megjelenik ilyen adat, kikerül a Moodle-ből, és a külön, hozzáférés-korlátozott gyermekvédelmi incidensfolyamatba kerül. Ha egy valós gyermekvédelmi helyzetet jelezned kell, azt ne egy tanulási feladatban tedd: azonnal vond be a kijelölt Memunát (a Somer gyermekvédelmi felelősét); az elérhetőségét a kurzus „Segítség és kapcsolatok” blokkjában találod.
+>
+> **Miért?** Hogy lásd a saját haladásodat a teljesítési kapukon, és hogy a kijelölt mentorod vagy értékelőd – ahol ez ténylegesen szükséges – visszajelzést tudjon adni. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
+>
+> **Ki látja?** A kvízek és a kapuk eredményét az értékelőd látja. A szöveges válaszaidat és a beadandóidat a kijelölt mentorod vagy értékelőd látja. A beadandóidat és a Z.3 lecke kötelező szöveges válaszait a teljesítésed megerősítéséhez elolvassa; a többi szöveges válaszodat csak akkor nézi meg, ha ténylegesen szükséges. A kurzusfórumra írt hozzászólásodat a kurzus résztvevői látják. A szöveges válaszaidat a többi résztvevő nem látja.
+>
+> **Meddig őrizzük meg?**
+> - a fiókodat, a részvételedet és a végső teljesítésedet: a képzés vége után 24 hónapig;
+> - a kvízpróbálkozásaid részleteit: a végső eredményed megerősítése után 90 napig;
+> - a végső pontszámodat és a kapueredményedet: 24 hónapig;
+> - a szöveges reflexióidat (a záró reflexiót is): a képzés vége után 90 napig;
+> - a beadandóidat és a peulaterveidet: a képzés vége után 12 hónapig;
+> - a mentorod fejlesztési és terepi megfigyelési jegyzetét (akkor is, ha nem a Moodle-ben készül; csak a fejlődésed támogatásához szükséges minimum kerül bele): az utolsó mentorálás után 6 hónapig;
+> - a mentori beszélgetéseitek naplóját (csak a dátum, a résztvevők, az időtartam, a cél kategóriája és az utánkövetés, a beszélgetés tartalma nem): az utolsó mentorálás után 6 hónapig;
+> - a peulákon név nélkül, papíron begyűjtött munkalapokat: összesítés után 30 napon belül megsemmisítjük;
+> - a „Képzési visszajelzés – név nélkül” kérdőív (Z.4) válaszait: 90 napig, utána csak összesítve.
+>
+> A megőrzési idő lejárta után az adatot töröljük vagy anonimizáljuk.
+>
+> **Fotó, videó, hang.** Alapból nem készül felvétel. Saját fotó vagy videó csak akkor kötelező, ha a feladathoz szakmailag elengedhetetlen; egyébként felvétel nélkül is teljesítheted a feladatot. Felvétel csak külön, önkéntes hozzájárulással készül, és a cél teljesüléséig, legfeljebb 90 napig őrizzük meg, hacsak nincs külön hozzájárulás a hosszabb megőrzéshez. Mindkét hozzájárulást 18 év alatt te és a gondviselőd együtt adjátok meg, 18 év felett te magad.
+>
+> **AI-segéd.** Az AI használata mindig opcionális: minden feladat nélküle is teljesíthető. Saját AI-fiókra nincs szükség: a kurzus AI-segédjét a Somer szervere közvetíti, szervezeti hozzáféréssel. Személyes adatot ide se írj.
+>
+> **„Képzési visszajelzés – név nélkül” (Z.4).** A válaszok név nélkül jelennek meg a feldolgozásban.
+>
+> **Kihez fordulhatsz?** Ha kérdésed vagy kérésed van az adataiddal kapcsolatban, az adatvédelmi kapcsolattartónkhoz fordulhatsz; az elérhetősége ez alatt áll.
 
 Ez a dokumentum adatvédelmi követelményrendszer, nem egyedi jogi tanács és nem helyettesíti a tényleges adatkezelő jogi/DPO döntését.

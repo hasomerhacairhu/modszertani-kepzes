@@ -62,12 +62,12 @@ A modul végére a résztvevő…
 * **Eszközök:**
   * Moodle Page – rövid intro a csoportélet szakaszairól
   * H5P Course Presentation / Timeline – 4 Tuckman-szakasz minitörténetekkel
-  * H5P Drag & Drop + Single Choice Set
+  * Húzásmentes besorolás (kártyánként egy H5P Multiple Choice elem egyválaszos módban) + H5P Drag & Drop
 * **Tartalom röviden:**
   * 3–4 rövid kvuca-sztori: „találd ki, melyik szakasz” jelleggel.
   * Kulcs: forming / storming / norming / performing – milyen ott hanihnak lenni.
   * Határ: a storming nem kortárs bántalmazás; ha valaki veszélyben van, azt nem kezeljük „normális stormingként”.
-  * Drag & Drop feladat: 6–8 helyzet → megfelelő Tuckman-szakasz.
+  * Besorolási feladat (alapból húzásmentes, mellette Drag & Drop): 6–8 helyzet → megfelelő Tuckman-szakasz.
   * Záró minikvíz: storming értelmezése, mi viszi tovább a csoportot stb.
 
 ***
@@ -100,10 +100,8 @@ A modul végére a résztvevő…
 * **Fókusz:**
   „Nem vagyok terapeuta – de **nem maradok egyedül** a red flag-ekkel.”
 * **Eszközök:**
-  * H5P Course Presentation
-  * Beépített **True/False** blokkok
-  * H5P Branching Scenario – 3–4 szituáció
-  * Rövid összefoglaló szövegblokkok / Page
+  * egyetlen H5P activity, **Branching Scenario befoglalóval**: a nem elágazó tartalom (True/False blokkok, mini-kérdések, mini-kvíz, rövid összefoglaló szövegek) Course Presentation- és Advanced Text-csomópontokban
+  * 4 szituáció, mindegyik előtt passz-választóval (HUM-SAFE-03, SAFE-1; csomóponttérkép: M3.3, 3. szakasz)
 * **Tartalom röviden:**
   * True/False belépők:
     * titoktartás-ígéret,
@@ -128,15 +126,15 @@ A modul végére a résztvevő…
 * **Fókusz:**
   „Azzal is tanítok, amit **nem** csinálok – a határtartás maga is **dugma isit**.”
 * **Eszközök:**
-  * H5P Course Presentation (7 slide: Hook – 2×Input – Besorolás (Drag and Drop) – Reflexió – Check – Modulproduktum)
-  * H5P Drag & Drop két célzónával – „OK / Nem OK madrihként”
+  * H5P Course Presentation (7 slide: Hook – 2×Input – Besorolás – Reflexió – Check – Modulproduktum)
+  * Húzásmentes besorolás (kártyánként egy H5P Multiple Choice elem egyválaszos módban) + H5P Drag & Drop két célzónával – „OK / Nem OK madrihként”
   * Moodle Assignment – modulproduktum (helyzetleírás) leadásához
 * **Tartalom röviden:**
   * Rövid Do/Don’t példa-lista:
     * **DO:** közös chat-szabályok, csoportos kommunikáció preferálása, red flag azonnali jelzése a Memunának.
     * **DON’T:** késő esti privát chat egy hanihhal, privát fotók kérése, red flag elhallgatása,
       * **+ egyértelműen:** madrih nem lehet párkapcsolatban hanihhal (súlyos red flag).
-  * Csoportosító feladat (H5P Drag & Drop, két célzóna) konkrét példákkal (OK / Nem OK).
+  * Csoportosító feladat (alapból húzásmentes, mellette H5P Drag & Drop két célzónával) konkrét példákkal (OK / Nem OK).
   * Assignment-sablon a modulproduktumhoz:
     * kitalált, de életszerű helyzetleírás (hol játszódik, kvuca-típus, mi történik),
     * red flag-ek megnevezése,
@@ -227,7 +225,7 @@ A modul végére a résztvevő…
   * a kapun kapott visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján kijavítsák a nem teljesült kapuelemeket,
   * értsék azokat a fő fogalmakat (Tuckman, 3 aktuális kvuca-profil, gyermekvédelem, red flag), amelyekben a visszajelzés hiányt jelzett,
   * felkészüljenek a javító próbálkozásra: pótolják, ha egy lecke még hiányzik, és megfogalmazzanak 1 gondolatot és 1 kérdést ahhoz a leckéhez, amelyre a visszajelzés utal.
-* **Időpont:** a kapueredmény megerősítése után, a javító próbálkozás előtt; a képző jelöli ki a központi naptár szerint (2027-01-11, hétfő 18:00-tól).
+* **Időpont:** a kapueredmény megerősítése után, a javító próbálkozás előtt; a képző jelöli ki a központi naptár szerint (a kapu megerősítését követő hétfőn, 18:00-tól).
 * **Kapcsolat az online résszel:**
   * A peula a kapun kapott visszajelzésre épít; ha valakinél egy **M3.1–M3.4** lecke még hiányzik, azt a csendes pótlás blokkban pótolhatja, a javító próbálkozás előtt.
   * A peula során ténylegesen Moodle/H5P-ben dolgoznak: pótlás, újranézés, kérdésgyűjtés.
@@ -251,12 +249,12 @@ A modul végére a résztvevő…
   * Moodle Quiz – **szcenárió-alapú kvíz** gyermekvédelem & red flag témában; H5P Question Set csak a kapu §0-ban rögzített feltételekkel (grade-alapú completion, igazoltan kikényszerített kritikus itemek).
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
 * **Követelmény az M3 „complete”-hez (kétkomponensű éles kapu – a hivatalos küszöb az [M3 – KAPU](./M3%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban):**
-  1. **M3.1–M3.4** mikroleckék activity completion – **érdemi kitöltéssel** (a beágyazott H5P-interakciók / kérdések megválaszolva – pl. M3.3 Branching végigvitele döntésekkel, az M3.4 csoportosító feladatának elvégzése), **nem csak a slide-ok végigléptetésével**. Hogy a Moodle-beállítás ezt ténylegesen kikényszeríti-e, azt tesztelni kell: [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md).
-  2. **Komponens B – modulproduktum:** kitalált, de életszerű helyzetleírás (red flag + első lépés + kit von be; valós eset névtelenítve sem kerülhet bele) **Assignmentként leadva** (határidő a központi naptár szerint: 2027-01-04, hétfő 18:00), és eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint (1), az R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) sor blokkoló** (M3.4-hez kapcsolódva).
-  3. **Komponens A – szcenárió-kvíz:** a helyzetleírás rubrikájának megerősítése után nyílik, határideje 2027-01-06 (szerda) 18:00; küszöbe **≥80% (≥10/12) ÉS a kötelező kritikus itemek (2., 4., 7., 9.) helyesek** – a kritikus itemek tévesztése a 80% mellett is bukás.
+  1. **M3.1–M3.4** mikroleckék activity completion – **érdemi kitöltéssel** (a beágyazott H5P-interakciók / kérdések megválaszolva – pl. M3.3 Branching végigvitele döntésekkel – egy szcenárió-checkpoint a HUM-SAFE-03 szerinti passzal is teljesül (SAFE-1) –, az M3.4 csoportosító feladatának elvégzése), **nem csak a slide-ok végigléptetésével**. Hogy a Moodle-beállítás ezt ténylegesen kikényszeríti-e, azt tesztelni kell: [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md).
+  2. **Komponens B – modulproduktum:** kitalált, de életszerű helyzetleírás (red flag + első lépés + kit von be; valós eset névtelenítve sem kerülhet bele) **Assignmentként leadva** (határidő a központi naptár szerint: hétfő 18:00), és eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint (1), az R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) sor blokkoló** (M3.4-hez kapcsolódva).
+  3. **Komponens A – szcenárió-kvíz:** a helyzetleírás rubrikájának megerősítése után nyílik, határideje a központi naptár szerint szerda 18:00; küszöbe **≥80% (≥10/12) ÉS a kötelező kritikus itemek (2., 4., 7., 9.) helyesek** – a kritikus itemek tévesztése a 80% mellett is bukás.
 * **Elakadás a kapun – támogatás:**
   * **1 normál + 1 javító próbálkozás**; éles kapunál a javító próbálkozás a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele); további próbálkozást a képző nyithat kézzel (elsajátításig tartó tanulás). A kvíznél egy automatikus próbálkozás van; a javító próbálkozás ott is az F-peula után nyílik. A completionhöz **a legjobb megerősített eredmény** számít.
-  * Ha az éles kapu nem teljesül, az **M3.F (F-peula)** kötelező: ez a facilitált javítási alkalom a kapueredmény megerősítése után, a javító próbálkozás előtt; az időpontját a képző jelöli ki a központi naptár szerint (2027-01-11, hétfő 18:00-tól).
+  * Ha az éles kapu nem teljesül, az **M3.F (F-peula)** kötelező: ez a facilitált javítási alkalom a kapueredmény megerősítése után, a javító próbálkozás előtt; az időpontját a képző jelöli ki a központi naptár szerint (a kapu megerősítését követő hétfőn, 18:00-tól).
   * Ha valaki 2 próbálkozás után sem éri el a küszöböt (≥10/12 + kritikus itemek, ill. a blokkoló rubrikasorok) → mentor bevonása, rövid egyéni beszélgetés (támogatás, nem büntetés). Ez – online is – előre egyeztetett mentorbeszélgetés, vagyis a safer-working szabály egyik engedélyezett 1:1 kivétele (`Gyermekvédelem – release gate.md` §4.2): legfeljebb 30 percig tart, hivatalos csatornán vagy fizikailag átlátható térben zajlik, és egy másik felelős tud róla.
 
 > **→ Ezt viszed tovább az M7 Peula v2-be:** az itt tanult **gyermekvédelmi keret** (red flag-felismerés és az ötlépéses jelzési út – M3.B lépéstérkép) és a **3 aktuális someres kvuca-profil** (Parparim/Kivsza/Leviatán) lesz az M7 záró produktumának biztonsági és korosztály-illeszkedési alapja: a Peula v2 **R4 (Gyermekvédelem & biztonság, blokkoló)** és **R2 (kvuca-illeszkedés)** sora pontosan erre az M3-ban megszerzett keretre épít (lásd „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS).

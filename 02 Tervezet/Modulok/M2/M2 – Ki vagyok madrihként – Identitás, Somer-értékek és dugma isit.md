@@ -78,7 +78,7 @@ A modul végére a madrih…
   * pillérválasztó: mindhárom pillérhez 1 hétköznapi kvuca-szituáció (vita, döntés, ünnep), mindegyik külön ág;
   * ágonként döntés („mit teszel a feszültségben?”), visszajelzés arról, mit látnak rajtad, és 1 mondatos mini-reflexió;
   * legalább 1 ág végigjátszása, majd 1 záró „így mutatok példát” mondat.
-* **Moodle/H5P mix:** H5P Branching Scenario (döntési fa). Az egy végigjátszott ághoz és a záró mondathoz kötött completion csak akkor számít teljesítésnek, ha a cél Moodle/H5P környezetben bizonyítottan mérhető; ha nem, külön activityként vagy Moodle-checkpointtal kell megvalósítani (vö. M6.4). A szabad szöveges mezők megvalósítását az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli.
+* **Moodle/H5P mix:** H5P Branching Scenario (döntési fa). A completion: legalább 1 végigjátszott ág, majd a Branching Scenario egyetlen végképernyője (LMS-M2-04, Moodle: Receive a grade; BSPEC-05), valamint a záró mondat beküldése (LMS-M2-07). Tartalékút nincs (D-g); a célverziós bizonyíték a runtime acceptance 10. pontja. A szabad szöveges mezők megvalósítását az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli.
 
 ### L4 / M2.4 – Reflektív napló & határok: „A dugma isit nem terapeuta” (15–20’)
 
@@ -146,7 +146,7 @@ A modul végére a madrih…
     "R5"
   ],
   "blockers": [],
-  "notes": "Hub-szintű, elsősorban az M2.F (F-peula) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él, így az nem ennek a hubnak az assete – nincs duplikáció.",
+  "notes": "Hub-szintű, elsősorban az M2.F (F-peula) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él; a jegyzet-sablon letölthető, kitölthető változata az M2-HUB-MUNK-01 (§6), amely a KAPU D. szakaszát szó szerint veszi át – nincs duplikáció.",
   "legacy": {
     "asset": [
       "M2-HUB-DIA-01"
@@ -180,15 +180,41 @@ A modul végére a madrih…
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
-> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = az értékválasztás megtörtént ÉS a nyitott mezők ki vannak töltve**; **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = a Check-kérdések eredménye elküldve ÉS a nyitott mezők ki vannak töltve** (az értékválasztás pedagógiai interakció, nem önálló completion-elem: D-i); **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
 
 **Követelmény az M2 „complete”-hez:**
 
 1. L1 / M2.1 – a viselkedésszintű, nem érzékeny reflexió rögzítve (az identitástérkép maga nem beadandó).
-2. L2 / M2.2 – H5P értékválasztás + nyitott kérdések kitöltve.
+2. L2 / M2.2 – H5P (a Check-kérdések eredménye; az értékválasztás nem önálló completion-elem, D-i) + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
 4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza + 3 saját határszabály; a privát naplórész nem beadandó.
 5. 1 oldalas **madrih identitás-jegyzet** leadva, záró dugma isit-mondattal **– az értékelő-fájl D. szakaszának sablonja szerint, a tanuló előbb végignézi az A. szakasz 10 pontos önellenőrzését. Completion csak akkor jár, ha az előírt blokkokban tényleges, minimálisan értelmezhető tartalom van: üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem completion.**
+
+<!-- @asset
+{
+  "id": "M2-HUB-MUNK-01",
+  "kind": "worksheet",
+  "mode": "generate",
+  "title": "Letölthető „Madrih identitás-jegyzet” kitölthető sablon (doc)",
+  "purpose": "Az M2 identitás-jegyzet (LMS-M2-05) fájlalapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével adja le a jegyzetet. A két út egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
+  "spec": "Kitölthető sablon doc formátumban, kizárólag az „M2 – KAPU – értékelő” fájl D. szakaszának („1 oldalas identitás-jegyzet – sablon (a tanulónak)”) szövegével, szó szerint: a bevezető bekezdés a 🔒 „Mit kérünk és mit nem” blokkal együtt, majd a „MADRIH IDENTITÁS-JEGYZET · M2” váz minden blokkja a kitöltési helyekkel. Új mező, minta vagy útmutató szöveg nem kerül bele.",
+  "provenance": "human",
+  "technical": {
+    "note": "Szerkeszthető dokumentum: Google Doc (csak szervezeti fiókban, korlátozott megosztással) és/vagy .docx; A4 nyomtatható elrendezés is; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
+  },
+  "a11y": {
+    "note": "Valódi szöveges dokumentum (nem kép), címsorokkal és megjelölt kitöltési helyekkel, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R5"
+  ],
+  "blockers": [],
+  "notes": "A11Y-18 statikus előfeltétele (IMPL-18-1). A jegyzet-sablon kanonikus szövege az „M2 – KAPU – értékelő” D. szakasza; ez az asset annak letölthető, kitölthető változata, nem új tartalom. A hub deklarálja, mert a kapu-fájl `@asset-free`. A sablon letölthetőségét és akadálymentességét a renderen kell igazolni (release-evidence)."
+}
+-->
 
 **Puha kapu küszöbe (az értékelő-fájlból átvéve):**
 
