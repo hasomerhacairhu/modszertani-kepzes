@@ -1,7 +1,7 @@
 # 🎨 Vizuális rendszer — produkciós lock-lap
 
 Az R5 produkciós szabály végrehajtási lapja. **Nem arculati kézikönyv:** csak azokat az
-értékeket rögzíti, amelyek nélkül a 258 vizuális és nyomtatott asset nem gyártható le
+értékeket rögzíti, amelyek nélkül a 265 vizuális és nyomtatott asset nem gyártható le
 egységesen. Ami már objektíven megvan a tananyagban, azt kimondja; ami hiányzik, azt
 nyitottként jelöli, és a [`PRODUCTION-DECISIONS.md`](./PRODUCTION-DECISIONS.md) D1
 pontjára mutat.
@@ -192,16 +192,16 @@ korábbi bizonyíték-állapot (🔎 / ⛔) zárójelben marad, nyomon követhet
 |---|---|---|
 | Someres alap-hex-paletta (elsődleges, másodlagos, akcent) | ✅ **eldőlt** (D1-a, D1-b): `#D84C15` piros, `#F2BC00` sárga, `#87B027` zöld, `#369D37` sötétzöld, `#08A0CA` sötétkék, `#82CDE9` kék; az árnyalatok: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 1.2. *(korábban: 🔎 megvan — 6 alapszín + 18 árnyalat, HEX/RGB/CMYK/Pantone; jóváhagyásra várt)* | a terv 1C alkötegében jelölt színfüggő tételek + minden színes vizuál |
 | Háttér- és szövegszín (világos/sötét) | ✅ **eldőlt** (D1-c, B változat): szöveg `#1D1D1B`, halvány `#5C5C5B`, szerkezeti vonal `#8E8E8D`, dekoratív vonal `#CDCDCD`, felület `#F1F1F1`; sötét módot a döntés nem ír elő *(korábban: 🔎 részben)* | minden vizuál |
-| Betűtípus — címsor és törzs | ✅ **eldőlt** (D1-c): **Source Sans 3** (SIL OFL 1.1) a tananyag-produkcióhoz; a betűméret-skála: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 3.4. A Myriad Pro beágyazási licence így a tananyagot nem érinti *(korábban: 🔎 részben — a kézikönyv betűméret-skálája kitöltetlen)* | mind a 258 R5-tétel |
+| Betűtípus — címsor és törzs | ✅ **eldőlt** (D1-c): **Source Sans 3** (SIL OFL 1.1) a tananyag-produkcióhoz; a betűméret-skála: [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 3.4. A Myriad Pro beágyazási licence így a tananyagot nem érinti *(korábban: 🔎 részben — a kézikönyv betűméret-skálája kitöltetlen)* | mind a 265 R5-tétel |
 | Ikon-stílus: vonal vagy kitöltés, vonalvastagság, sarokkerekítés | ✅ **eldőlt**: körvonalas, 24×24-es rács, 2/24 vonalvastagság, kerek vonalvég és -illesztés ([`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 5.) *(korábban: ⛔ a kézikönyv nem rendelkezik róla)* | 40 ikon-készlet |
 | Karakter-stílus és rögzített referencia-seed | ✅ **a stílus eldőlt**: lapos vektoros illusztráció, nem fotorealisztikus 3D, generált képben nincs szöveg; a referencia-karakter és a seed rögzítése a karakter-gyártás első lépése ([`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md), P-KAR) *(korábban: ⛔ nincs bizonyíték)* | 6 AI karakter-videó + 2 freeze-frame |
 | Logóhasználat, elhelyezés, biztonsági margó | ✅ **eldőlt**: a 2022-es kézikönyv használati tiltásai szerint (nem átszínezni, nem újrarajzolni, nem nyújtani, nem forgatni, effekt és árnyék nélkül); a `#2B2523` csak a logón belül (D1-e). Biztonsági margót és minimális méretet a kézikönyv nem ad meg | poszterek, nyomtatványok |
 | Az R6 szín-ütközés feloldása (kék és zöld többes szerepe) | ✅ **eldőlt** (D1-d): a szín szemantikája modulhatókörű, az elsődleges jel a forma és a felirat; a szín soha nem önálló jelentéshordozó *(a kontraszt-mérés szerint a paletta 15 színpárja közül egy sem éri el a 3:1-et, tehát más feloldás nem is működne)* | SBI, 3 pillér, kérdéstípusok, Do/Don't |
-| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | ✅ **eldőlt**: mindig élő LMS-szöveg, nem képbe égetve (ezt a tananyag is kimondja: `M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás a [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 7.3. pontja szerint | **331 R1-hatályú asset** (275 `ai` + 56 `mixed`) |
+| Az AI-jelölés vizuális formája és elhelyezése (a **szövege eldőlt**) | ✅ **eldőlt**: mindig élő LMS-szöveg, nem képbe égetve (ezt a tananyag is kimondja: `M5.1-EGY-01`, `M6.1-EGY-01`); a méret, a szín és az igazítás a [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) 7.3. pontja szerint | **329 R1-hatályú asset** (273 `ai` + 56 `mixed`) |
 
 **Amit ez a lap kifejezetten NEM tesz:** nem talál ki hex-értéket, nem nevez meg
 betűtípust és nem rögzít logóhasználatot. Ezek szervezeti-arculati döntések; egy kitalált
-érték 258 érintett szemantikus asseten válna szabállyá, mielőtt bárki jóváhagyta volna. A
+érték az akkori 258 érintett szemantikus asseten vált volna szabállyá, mielőtt bárki jóváhagyta volna. A
 fenti értékeket sem ez a lap találta ki: a megtalált bizonyítékokra és a
 [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-STYLE-TOKEN.md) B változatára a projektgazda
 2026-10-02-i döntése mondott igent.

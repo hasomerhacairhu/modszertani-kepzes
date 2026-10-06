@@ -1,12 +1,12 @@
 # 🏭 Produkciós stack — döntés-előkészítés
 
-Ez a lap egy helyen írja le, **mivel és hogyan** készülne el a 903 deliverable, ha a
+Ez a lap egy helyen írja le, **mivel és hogyan** készülne el a 913 deliverable, ha a
 nyitott döntések megszületnek. **Nem lezárás, nem jóváhagyás, és nem indít gyártást.**
 
 | | |
 |---|---|
 | **Státusz** | NYITOTT — FELHASZNÁLÓI DÖNTÉS SZÜKSÉGES |
-| **Mit változtat a manifeszten** | semmit. A 415 asset, a 903 deliverable és a blokkolók ettől a laptól nem változnak: a blokkolókat a leckék deklarációi és a `produkcios-szabalyok.json` viszik. |
+| **Mit változtat a manifeszten** | semmit. A 420 asset, a 913 deliverable és a blokkolók ettől a laptól nem változnak: a blokkolókat a leckék deklarációi és a `produkcios-szabalyok.json` viszik. |
 | **Mit fizettünk** | semmit. Fizetős API-t nem hívtunk, fiókot nem hoztunk létre, próbaidőszakot nem indítottunk, médiát nem generáltunk. |
 | **Kutatás dátuma** | 2026-08-27 (minden külső forrás ekkor lekérdezve) |
 
@@ -41,9 +41,9 @@ igazság.
 
 | | Asset | Deliverable |
 |---|---:|---:|
-| Összesen | 415 | 903 |
-| Központilag előgyártható | 404 | 898 |
-| **Most gyártható (nincs nyitott kapu)** | **285** | **526** |
+| Összesen | 420 | 913 |
+| Központilag előgyártható | 409 | 908 |
+| **Most gyártható (nincs nyitott kapu)** | **290** | **536** |
 | Élő/runtime (a képző hozza létre a peulán) | 3 | 5 |
 
 ---
@@ -566,7 +566,7 @@ projektgazdai döntéssel lezárult; a sorukat nyomon követhetőségért hagytu
 | **D5** | M3 gyermekvédelmi lépéstérkép poszter | 1 asset | **LEZÁRVA** — projektgazdai döntés (2026-10-02): az ötlépéses jelzési út (`HUM-SAFE-01`) az egyetlen kánon, a hub-poszter az `M3.B-MUNK-01` újrahasznosítása; utólagos ellenőrzés (vétó/QA): a Memuna és a helyettese |
 | **D8** | az R8 státusza: szabály vagy önálló kapu | 0 | **NYITVA** — a felvételek adatkezeléséről projektgazdai döntés van (2026-10-02, `HUM-PRIV-02`: alapértelmezésben nincs felvétel; jogalap a külön, önkéntes hozzájárulás; megőrzés legfeljebb 90 nap); az R8 státuszáról (A vagy B) a döntés nem szól |
 | **D10** | ken alkohol- és dohányzási kódex | 2 asset | **LEZÁRVA** — projektgazdai döntés (2026-10-02): a `HUM-SAFE-04` szabálya (kiskorúaknak szóló programon nulla alkohol, dohány, vape és nikotin); utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna. A két asset állapota a lecke `decision` mezőjét követi |
-| **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2, R3 és R5 is ül rajta | **RÉSZBEN** — a dialógushang az első körre eldőlt (VO D-14, K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként szegmentálva); az `M4.1-VID-04/05` szereplője néma (VO D-15); nyitott a szájszinkronos gyártási út (5. szakasz); a hangjog formális bizonyítéka függő (`HUM-MEDIA-02`) |
+| **D11** | az `M1.3-VID-01` párbeszéde: dialógushangok és szájszinkronos gyártási út (rokon eset: az `M4.1-VID-04/05` megszólalása) | önmagában 0 — R2 és R3 is ül rajta | **RÉSZBEN** — a dialógushang az első körre eldőlt (VO D-14, K4: Madrih A a kanonikus narrátorhang, Madrih B a második hang a kalibrálása után, beszélőnként szegmentálva); az `M4.1-VID-04/05` szereplője néma (VO D-15); nyitott a szájszinkronos gyártási út (5. szakasz); a hangjog formális bizonyítéka függő (`HUM-MEDIA-02`) |
 | **J1** | a karakter-jelenet szolgáltatójának 18 év alatti hozzáférési záradéka | a karakter-jelenet stack sorsa | **jogi jóváhagyó** — a `HUM-MEDIA-02` alkapuja; felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 | **J2** | a beszélőfej/karakter **felnőtt megjelenése** ↔ a madrih maga is lehet kiskorú | a beszélőfej- és karakter-brief | **Memuna (gyermekvédelmi felelős) + szerző** — a `HUM-MEDIA-02` alkapuja; `RIGHTS-EVIDENCE.md` 1/A.5. |
 | **J3** | *(új, 2026-08-28)* a beszélőfej-szolgáltató **visszavonhatatlan, továbbadható tanítási licencet** kér a feltöltött tartalomra — és épp a **klónozott hang** mesterét töltenénk fel | a beszélőfej-lánc élesítése | **jogi jóváhagyó + a hang jogosultja** — 2026-10-03: megvalósítási döntés (egy készlet-avatar + a kanonikus narrátorhang, VO D-20): projektgazda jóváhagyta; a formális szerepköri bizonyíték függő |

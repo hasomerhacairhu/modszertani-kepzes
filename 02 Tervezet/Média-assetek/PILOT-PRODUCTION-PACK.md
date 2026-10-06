@@ -28,12 +28,12 @@ köteg-terv és pilot-táblázat) · [`PRODUCTION-STYLE-TOKEN.md`](./PRODUCTION-
 | P-NAR | narráció / hang | `M4.2-NAR-03` | 89 | B3 | R2, R3 | a terv 2026-08-28-i javaslata; a 2026-10-03-i projektgazdai döntés (VO D-13) megerősítette |
 | P-VID | AI beszélőfej | `M5.1-VID-01` | 18 | B3 | R2, R3 | a terv 2026-08-28-i javaslata |
 | P-KAR | AI karakter-jelenet | `M4.1-VID-03` | 6 | B3 | R2, R3, R5 | **eltérés** — indoklás lent |
-| P-DIA | diagram | `M0.2-DIA-01` | 39 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-IKO | ikon-készlet | `M1.3-IKO-01` | 40 | B1 | R5 | **eltérés** — indoklás lent |
-| P-ILL | illusztráció | `M4.2-ILL-01` | 46 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-MUN | munkalap / nyomtatvány | `M6.A-MUNK-02` | 61 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-POS | poszter | `M7.B-POSZ-01` | 37 | B1 | R5 | a terv 2026-08-28-i javaslata |
-| P-KRT | kártyaszett | `M5.A-KART-01` | 23 | B1 | R5 | **kiegészítés** — indoklás lent |
+| P-DIA | diagram | `M0.2-DIA-01` | 39 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-IKO | ikon-készlet | `M1.3-IKO-01` | 40 | B0 | R5 | **eltérés** — indoklás lent |
+| P-ILL | illusztráció | `M4.2-ILL-01` | 46 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-MUN | munkalap / nyomtatvány | `M6.A-MUNK-02` | 66 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-POS | poszter | `M7.B-POSZ-01` | 36 | B0 | R5 | a terv 2026-08-28-i javaslata |
+| P-KRT | kártyaszett | `M5.A-KART-01` | 23 | B0 | R5 | **kiegészítés** — indoklás lent |
 
 Az „Eredet” oszlop — és a „Kapuk” oszlop, valamint a pilotonkénti „Státusz · kapuk” sor —
 a csomag írásakori (2026-08-28) állapotot rögzíti; az R5 a D1 2026-10-02-i lezárásával
@@ -44,8 +44,8 @@ terv-pilot ettől eltérhet — az aktuális ID-k a
 briefjeit a fenti ID-kre írta.
 
 A „család mérete” a terv számolásmódját követi: az újrahasznosított (`reuse`) és az
-élő/runtime tételek nélkül. A terv a posztert és a kártyaszettet **egyetlen, 60 tételes
-családként** kezeli (37 + 23) — itt azért bontjuk ketté, mert a produkciós módszerük
+élő/runtime tételek nélkül. A terv a posztert és a kártyaszettet **egyetlen, 59 tételes
+családként** kezeli (36 + 23) — itt azért bontjuk ketté, mert a produkciós módszerük
 eltér (lásd 1.1.). A kártyaszettek közül a `Z.A-KART-04` élő/runtime tétel — azt a képző
 hozza létre a peulán —, ezért nincs benne a 23-ban.
 
@@ -83,7 +83,7 @@ bizonyítania a családban, különben a jóváhagyás nem mond semmit a testvé
 
 | Pilot | Mire vár | Ki oldja fel |
 |---|---|---|
-| P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) — **lezárva** (projektgazdai döntés, 2026-10-02); hátravan az asset-szintű R5-blokkoló kivezetése | a projektgazda döntött; utólagos ellenőrzés (vétó/QA): a kreatív/márkafelelős |
+| P-DIA, P-IKO, P-ILL, P-MUN, P-POS, P-KRT | **D1** (stílus-token + paletta) — **lezárva** (projektgazdai döntés, 2026-10-02); az asset-szintű R5-blokkoló is kivezetve, így nincs nyitott kapu: a hat pilot a BATCH 0-ban áll | a projektgazda döntött; utólagos ellenőrzés (vétó/QA): a kreatív/márkafelelős |
 | P-NAR | a **D2 lezárult** (projektgazdai döntés, 2026-10-03): a kanonikus narrátorhang, a modell, a beállítások és a kiejtési szótár rögzítve ([`VOICE-BIBLE.md`](./VOICE-BIBLE.md) 12.). Mellette **D3/R2**: a hanghasználati jog tartalmilag tisztázott (VO D-01), a formális bizonyíték (R2-4/R2-5) függő. A tömeges gyártás előtt a QA-láncnak (kiejtés-regresszió, időkeret-ellenőrzés) zöldnek kell lennie | a P-NAR jóváhagyása fülre: magyar anyanyelvű, someres szóhasználatot ismerő jóváhagyó; a formális hangjog-bizonyítékról a jogi jóváhagyó és a hang jogosultja |
 | P-VID | a **kész ElevenLabs hangmester** (tehát P-NAR) → **D3/R2** (a fiók jogi bizonyítéka) — és a **J2/J3** emberi kapuk | + jogi jóváhagyó; a J2-nél a Memuna (gyermekvédelmi felelős) és a szerző — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
 | P-KAR | **D1** (karakter-lock; a stílus 2026-10-02 óta eldőlt, a referencia-karakter és a seed rögzítése a gyártás első lépése) + **D3/R2** — és a **J1/J2** emberi kapuk. A **D2** csak az utómunkához kell, a képi generáláshoz nem (lásd 2.1.) | + jogi jóváhagyó (J1), a Memuna (gyermekvédelmi felelős) és a szerző (J2) — felelős és bizonyíték: [`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1/A.5. |
