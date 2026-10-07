@@ -330,7 +330,7 @@ A szolgáltatói díj ezen a volumenen **nem a fő költség**. Ami az:
 | Tevékenység | Becslés | Megjegyzés |
 |---|---|---|
 | Pilot-kör családonként (gyártás + 4 review + javítás) | 9 pilot × 2–5 óra | a 13. szakasz jóváhagyási lánca a [`PILOT-PRODUCTION-PACK.md`](./PILOT-PRODUCTION-PACK.md)-ben |
-| Determinisztikus forrás megírása (SVG / HTML) | a 245 vizuális tétel érdemi része | egyszeri sablon után tételenként rövidül |
+| Determinisztikus forrás megírása (SVG / HTML) | az R5-hatályú vizuális és nyomtatott tételek érdemi része | egyszeri sablon után tételenként rövidül |
 | Lektorálás — **kötelező**, nem opció | minden AI-eredetű tételen | az R1-címke szó szerint „emberi lektorálással” |
 | Felirat- és leirat-ellenőrzés | 115 beszélt tétel | a szöveg generált, az **időzítés** nem |
 | Újravétel szövegváltozás után | a `source_hash` mutatja, mit érint | ez a v2 architektúra fő haszna: pontosan látszik, mit kell újra |

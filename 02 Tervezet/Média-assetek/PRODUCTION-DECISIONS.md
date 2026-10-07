@@ -206,8 +206,8 @@ ott sincs, a tempót a szöveg és az időkeret adja ([`VOICE-BIBLE.md`](./VOICE
 
 **Mit szabadít fel:** R3 lezárása önmagában **0 asset**: mind a 116 R3-tételen az R2 is
 ül, mert a felmondás szintetikus, így az R2 a narrációkra is kiterjed
-([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz). Az R3 + R2 együtt — az R5-öt és
-a nyitott emberi döntéseket még nyitva hagyva — **117 asset / 366 deliverable**.
+([`RIGHTS-EVIDENCE.md`](./RIGHTS-EVIDENCE.md) 1. szakasz). Az R3 + R2 együtt — a nyitott
+emberi döntéseket még nyitva hagyva — **117 asset / 366 deliverable**.
 
 **Ki döntött:** a kanonikus hangról és a gyártási konfigurációról a projektgazda (2026-10-03); a
 hang-jogosultság formális bizonyítékáról a jogi jóváhagyó és a hang jogosultja.
@@ -395,7 +395,8 @@ tartalmától függ. A lecke korábban ki is mondta: „Ennek hiányában ez a t
 állapota sem tükrözte ezt — az `M3.4-EGY-03` emiatt tévesen a „most gyártható” kötegben
 állt.
 
-**Mit szabadít fel:** 2 asset / 3 deliverable. Az `M3.4-DIA-01` ezen felül az R5-re is vár.
+**Mit szabadít fel:** 2 asset / 3 deliverable. Az `M3.4-DIA-01`-re az R5 produkciós
+szabályként vonatkozik, de blokkolóként már nem.
 
 **Ki döntött:** projektgazdai döntés (2026-10-02, `HUM-SAFE-04`); utólagos ellenőrzés
 (vétó/QA): a kánoni `Emberi jóváhagyás szükséges.md` `HUM-SAFE-04` tételében megnevezett
@@ -428,7 +429,7 @@ készül.
 
 **Miért van itt:** az asset `decision` mezője erre a tételre mutat, ezért a manifeszt
 kapuzza: az `M1.3-VID-01` `emberi döntésre vár` állapotú, és a BATCH 6-ban áll, tehát az
-R2, R3 és R5 lezárása önmagában nem teszi gyárthatóvá.
+R2 és az R3 lezárása önmagában nem teszi gyárthatóvá, amíg a D11 nyitott.
 
 > **Projektgazdai döntés (2026-10-02, `HUM-MEDIA-02`):** a D11 a hangjogosultsági
 > bizonyítékig blokkolt, és hallgatólagosan nem tekintjük elfogadottnak. A bizonyíték a
@@ -490,7 +491,7 @@ fenti saját szakaszában maradt, mert ott állnak a kitöltött értékei.
 |---|---|---|
 | **D3 (hatály)** | Az R2 a beszélőfej-videókra, az AI karakterjelenetekre és a freeze-frame-ekre is vonatkozik (A opció). | A 28 asset `blockers` mezője változatlanul viszi az R2-t. A bizonyíték-kérdés fent, D3 alatt marad nyitva. |
 | **D4** | Az M4 HOOK-formátum marad vegyes: az M4.2–M4.4 statikus illusztrációval nyit, új beszélőfej-videó nem készül (A opció). | Az `M4.2-ILL-01` `decision` mezője kiürült; az asset a szokásos R5 alatt gyártandó. |
-| **D6** | Az `M1.3-VID-01` HOOK-dialógjának szövege jóváhagyva (A opció). | A szó szerinti szöveg `@source` blokkba került az M1.3 leckében (`M1.3-VID-01-VO`), az asset `source_ref`-fel hivatkozik rá, a felirat és a leirat onnan generálódik. Az asset továbbra is R2 + R3 + R5 alatt áll. |
+| **D6** | Az `M1.3-VID-01` HOOK-dialógjának szövege jóváhagyva (A opció). | A szó szerinti szöveg `@source` blokkba került az M1.3 leckében (`M1.3-VID-01-VO`), az asset `source_ref`-fel hivatkozik rá, a felirat és a leirat onnan generálódik. Az asset továbbra is R2 + R3 blokkolók alatt áll; az R5 produkciós szabályként vonatkozik rá, de nem blokkoló. |
 | **D7** | Az `M3.2-NAR-02` opcionális narráció **nem készül el** (B opció). | A szemantikus asset és a három deliverable megszűnt; a dia látható tartalma változatlan, csak az „Opcionális narráció (30–40 mp)” sor került ki. A három történeti v1 sor `NO_LONGER_REQUIRED` diszpozícióval, indoklással egyeztetve (`_legacy/legacy-dispositions.json`). |
 | **VO D-16** | Az `M5.3-NAR-01` és az `M7.1-NAR-02` opcionális, dia-szöveges narráció **nem készül el** (C opció, a D7 mintája; projektgazdai döntés, 2026-10-03). | A két szemantikus asset és a hat deliverable megszűnt; a dia látható tartalma változatlan, csak az „(Opcionális … narráció …)” sor került ki. A hat történeti v1 sor `NO_LONGER_REQUIRED` diszpozícióval, indoklással egyeztetve (`_legacy/legacy-dispositions.json`). |
 | **VO D-18** | Az `M1.3-VID-01` hangalámondásos képleírást kap (a) opció; projektgazdai döntés, 2026-10-03). | Új forrásblokk és asset: `M1.3-NAR-08-VO` / `M1.3-NAR-08` (voiceover, a narrátor hangján, a párbeszéd szüneteiben); átszámozás nincs. A végleges szöveg és időzítés a legyártott videón ellenőrizendő. |
