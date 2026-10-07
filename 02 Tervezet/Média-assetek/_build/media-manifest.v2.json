@@ -7492,7 +7492,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Az M1.3-VID-01 videó része; külön asszetként, mert önálló grafikai elem. Az R5 felvéve: a saját specifikációja „az S/B/I színkóddal harmonizáló stílus”-t ír elő, az S/B/I színkód konkrét értéke pedig az R5 nyitott paletta-tétele — az overlay nem gyártható a vizuális rendszer lezárása előtt.",
+      "notes": "Az M1.3-VID-01 videó része; külön asszetként, mert önálló grafikai elem. Az R5 produkciós szabályként vonatkozik rá: a saját specifikációja az S/B/I színkóddal harmonizáló stílust ír elő. A vizuális rendszer lezárult, ezért az R5 nem blokkoló, az overlay gyártható.",
       "review": "",
       "release_phase": "",
       "fallback": "",
