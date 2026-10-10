@@ -99,7 +99,9 @@ bizonyítékkal alátámasztott, helyhez kötött megállapítás; a mezőit a
 
 A `/course-review` és a `/release-check` külön, read-only subagentben fut, és csak a riportot
 adja vissza. A védelem három rétegű (részletek: [CLAUDE.md](./CLAUDE.md) „Git-biztonság”):
-az OS-szintű **sandbox** a Bash-parancsoknak az egész repót (a `.git`-et is) írásvédetté teszi;
+az OS-szintű **sandbox** a Bash-parancsoknak az egész repót (a `.git`-et is) írásvédetté teszi
+(egyetlen szűk másolóút: a `tools/audit_import.py` kész audit-fájlt tesz az `01 Fejlesztés/04 Audit/`
+mappába);
 a sandboxon kívül futó `git`/`gh` hívásokat a `.claude/hooks/guard-repo-safety.sh` **hook**
 engedélylistával szűri (destruktív és history-átíró git-műveletek, programot futtató opciók,
 GitHub-írás blokkolva); a **settings** deny/ask szabályai pedig rákérdeznek a közzétételre

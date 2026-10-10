@@ -9,7 +9,8 @@
       "gh *",
       "python3 tools/media_manifest.py build",
       "python3 tools/media_manifest.py build *",
-      "python3 tools/test_media_manifest.py --pin-visible *"
+      "python3 tools/test_media_manifest.py --pin-visible *",
+      "python3 tools/audit_import.py *"
     ],
     "filesystem": {
       "denyWrite": [
