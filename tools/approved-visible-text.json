@@ -17,8 +17,8 @@
       "sha256": "0ebf17f584cba892c032bbd01b9acb1e803c2210f6d532134d18f7f48792e1a5"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "N-M1-04 (ERT-G1-1, IMPL-G1-2; projektgazdai döntés, 2026-10-10, P0 adatvédelmi freeze-kivétel): az M1.1 SLIDE 5 önreflexiója opcionális, kizárólag tanuló-lokális, nem tárolódik Moodle/H5P oldalon; a tároló Moodle-oldali tartalékút és a „lehetőleg learner-local” szabály kikerült; átvezetve: M1.1, LMS-M1-01, BSPEC-02, runtime acceptance 24. pont, HUM 12. szakasz",
-      "sha256": "102ba7013be4e8555e7ecc6f1d1f63e5d9e0cbd2ad5e7d03418579d7c7041409"
+      "reason": "N-M1-04, IMPL-QA-1, IMPL-QA-2, BIZT-QA-2, NYELV-QA-1, NYELV-QA-2, IMPL-QA-3, IMPL-QA2-1, BIZT-QA2-1, IMPL-QA2-2, IMPL-QA2-3, NYELV-QA2-1, NYELV-QA2-2, NYELV-QA2-3, NYELV-QA2-4, IMPL-QA3-1, IMPL-QA3-2, NYELV-QA3-1, NYELV-QA3-2, NYELV-QA3-3: M1.1 SLIDE 5 saját jegyzetes pontosítása és runtime-követelménye; RT-P0-24 mentett-állapot tesztlépés",
+      "sha256": "2050be0e89e853df707fa5033d6a7f15f52dd879b8066dce8c826c1cfea76979"
     },
     "02 Tervezet/LMS – activity manifest.md": {
       "reason": "N-M1-04 (ERT-G1-1, IMPL-G1-2; projektgazdai döntés, 2026-10-10, P0 adatvédelmi freeze-kivétel): az M1.1 SLIDE 5 önreflexiója opcionális, kizárólag tanuló-lokális, nem tárolódik Moodle/H5P oldalon; a tároló Moodle-oldali tartalékút és a „lehetőleg learner-local” szabály kikerült; átvezetve: M1.1, LMS-M1-01, BSPEC-02, runtime acceptance 24. pont, HUM 12. szakasz",
@@ -61,8 +61,8 @@
       "sha256": "489c170d5101c39382fd029c0a91b8d074f38570500d8e6a72f9d138e4e4d96f"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "N-M1-04 (ERT-G1-1, IMPL-G1-2; projektgazdai döntés, 2026-10-10, P0 adatvédelmi freeze-kivétel): az M1.1 SLIDE 5 önreflexiója opcionális, kizárólag tanuló-lokális, nem tárolódik Moodle/H5P oldalon; a tároló Moodle-oldali tartalékút és a „lehetőleg learner-local” szabály kikerült; átvezetve: M1.1, LMS-M1-01, BSPEC-02, runtime acceptance 24. pont, HUM 12. szakasz",
-      "sha256": "2b16711fb320da3236f3f6859a879ec640ef201c3983e4a78761190c58b6e76c"
+      "reason": "N-M1-04, IMPL-QA-1, IMPL-QA-2, BIZT-QA-2, NYELV-QA-1, NYELV-QA-2, IMPL-QA-3, IMPL-QA2-1, BIZT-QA2-1, IMPL-QA2-2, IMPL-QA2-3, NYELV-QA2-1, NYELV-QA2-2, NYELV-QA2-3, NYELV-QA2-4, IMPL-QA3-1, IMPL-QA3-2, NYELV-QA3-1, NYELV-QA3-2, NYELV-QA3-3: M1.1 SLIDE 5 saját jegyzetes pontosítása és runtime-követelménye; RT-P0-24 mentett-állapot tesztlépés",
+      "sha256": "f5df6795a3c83d54b4e915fce017f47e5552d2b9f681161062cac2e81e9cff17"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
       "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
