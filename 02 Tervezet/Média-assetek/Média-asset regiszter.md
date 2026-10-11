@@ -21,7 +21,7 @@
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 123 |
 | Szemantikus asset | **420** |
-| Produkciós deliverable | **913** |
+| Produkciós deliverable | **912** |
 
 **Produkciós mód szerint**
 
@@ -39,9 +39,9 @@
 | worksheet | 69 |
 | illustration | 47 |
 | icon-set | 42 |
-| diagram | 39 |
+| diagram | 38 |
 | poster | 37 |
-| other | 34 |
+| other | 35 |
 | video | 27 |
 | card-set | 25 |
 | print | 6 |
@@ -52,7 +52,7 @@
 | Szerep | Db |
 |---|--:|
 | elsődleges | 412 |
-| alt-szöveg | 131 |
+| alt-szöveg | 130 |
 | nyomtatható PDF | 126 |
 | leirat | 112 |
 | felirat | 108 |
@@ -418,7 +418,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.2-DIA-01` | diagram | legyártandó | specifikáció kész | Parparim & Kivsza – kétoszlopos profilkártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-02` | diagram | legyártandó | specifikáció kész | Leviatán – profilkártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-03` | diagram | legyártandó | specifikáció kész | 3 kulcsszó-kártya | — | alt-szöveg | AI-generált |
-| `M3.2-DIA-04` | diagram | legyártandó | specifikáció kész | Korosztály-térkép mini-táblázat (3 sor) | — | alt-szöveg | AI-generált |
+| `M3.2-DIA-04` | other/ui-text | legyártandó | specifikáció kész | Korosztály-térkép minitáblázat (3 sor) | — | — | AI-generált |
 | `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke) | — | — | AI-generált |
 | `M3.2-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes párosító változat (Multiple Choice egyválaszos módban) | — | — | AI-generált |
 | `M3.2-IKO-01` | icon-set | legyártandó | specifikáció kész | 3 kvuca ikon-készlet (🦋 🐑 🐋) | — | alt-szöveg | AI-generált |
@@ -456,7 +456,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.4-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Mini True/False interakció – szigorúbb határok (SLIDE 2) | — | — | AI-generált |
 | `M3.4-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett) | — | — | AI-generált |
 | `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4) | — | — | AI-generált |
-| `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Mini-kvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6) | — | — | AI-generált |
+| `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Minikvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6) | — | — | AI-generált |
 | `M3.4-EGY-06` | other/ui-text | legyártandó | specifikáció kész | Reflexiós feladatleírás, beviteli elem nélkül – „Saját listám arról, mit teszek és mit nem” (SLIDE 5) | — | — | AI-generált |
 | `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
 | `M3.4-EGY-08` | other | legyártandó | specifikáció kész | Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret) | — | — | AI-generált |

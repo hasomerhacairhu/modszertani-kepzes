@@ -17,13 +17,13 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 | ebből újrahasznosítás (nem gyártandó) | 8 |
 | ebből élő/runtime tétel (a képző hozza létre a peulán) | 3 |
 | Központilag előgyártható asset | **409** |
-| Produkciós deliverable | **913** |
+| Produkciós deliverable | **912** |
 
 ### Státusz szerint
 
 | Státusz | Asset | Deliverable |
 |---|---:|---:|
-| specifikáció kész | 300 | 539 |
+| specifikáció kész | 300 | 538 |
 | jogtisztázás alatt | 119 | 370 |
 | emberi döntésre vár | 1 | 4 |
 
@@ -41,7 +41,7 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 
 | Kapu-terheltség (központilag előgyártható tételek) | Asset | Deliverable |
 |---|---:|---:|
-| nincs nyitott kapu | 290 | 536 |
+| nincs nyitott kapu | 290 | 535 |
 | pontosan EGY kapu | 2 | 4 |
 | TÖBB kapu | 117 | 368 |
 
@@ -94,7 +94,7 @@ peula alatt hoz létre, tehát előre egyáltalán nem gyárthatók.
 
 | Köteg | Függőség | Asset | Deliverable |
 |---|---|---:|---:|
-| **BATCH 0 — MOST GYÁRTHATÓ** | nincs nyitott kapu | 290 | 536 |
+| **BATCH 0 — MOST GYÁRTHATÓ** | nincs nyitott kapu | 290 | 535 |
 | **BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN** | R5 — vizuális rendszer lock | 0 | 0 |
 | **BATCH 2 — HANG-ZÁR UTÁN** | R3 — narrátor-hang lock | 0 | 0 |
 | **BATCH 3 — AI-AVATAR, KARAKTERVIDEÓ ÉS SZINTETIKUS HANG** | R2 + R3 — avatar- és hang-jogtisztaság, hang-lock | 117 | 366 |
@@ -105,7 +105,7 @@ peula alatt hoz létre, tehát előre egyáltalán nem gyárthatók.
 
 ### BATCH 0 — MOST GYÁRTHATÓ
 
-**Függőség:** nincs nyitott kapu · **290 asset / 536 deliverable**
+**Függőség:** nincs nyitott kapu · **290 asset / 535 deliverable**
 
 A másolat és a specifikáció kész. Két dolgot érdemes tudni: a szabad
 szöveges H5P elemek megvalósítási típusát az `LMS – H5P runtime acceptance.md`
@@ -138,10 +138,10 @@ tisztázandó.
 | M2 | poster | 4 | 8 |
 | M2 | worksheet | 7 | 15 |
 | M3 | card-set | 5 | 10 |
-| M3 | diagram | 6 | 12 |
+| M3 | diagram | 5 | 10 |
 | M3 | icon-set | 8 | 15 |
 | M3 | illustration | 8 | 16 |
-| M3 | other | 10 | 10 |
+| M3 | other | 11 | 11 |
 | M3 | poster | 3 | 6 |
 | M3 | print | 2 | 2 |
 | M3 | worksheet | 7 | 14 |
@@ -266,7 +266,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Narráció / hang | `M3.4-NAR-02` | B3 | R2, R3 | 89 | Outro narráció (opcionális) – SLIDE 7 |
 | AI beszélőfej-videó | `M2.2-VID-01` | B3 | R2, R3 | 18 | Hook-videó: „A kvucád 15 percet késik…” |
 | AI karakter- / jelenetvideó | `M4.1-VID-05` | B3 | R2, R3 | 9 | Jelenet 3 karaktervideó – „Nyitott, stabil madrih” |
-| Diagram / ábra | `M1.B-DIA-01` | B0 | — | 39 | Szerepcsere-ábra (A→C, C→B, B→A forgás) |
+| Diagram / ábra | `M1.B-DIA-01` | B0 | — | 38 | Szerepcsere-ábra (A→C, C→B, B→A forgás) |
 | Ikon-készlet | `M4.3-IKO-01` | B0 | — | 40 | Kérdéstípus szín-ikon készlet (4 db) |
 | Illusztráció | `M3.3-ILL-02` | B0 | — | 46 | Jelenet – Branching 2: sértő mém a csoportchatben |
 | Munkalap / nyomtatvány | `Z.A-MUNK-01` | B0 | — | 66 | Híd a terepre – kétoszlopos poszter-sablon |

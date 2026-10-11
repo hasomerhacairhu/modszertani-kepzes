@@ -8,7 +8,7 @@
     "files_with_sources": 26,
     "sources": 123,
     "assets": 420,
-    "deliverables": 913,
+    "deliverables": 912,
     "source_backed_assets": 127,
     "by_mode": {
       "generate": 406,
@@ -20,9 +20,9 @@
       "worksheet": 69,
       "illustration": 47,
       "icon-set": 42,
-      "diagram": 39,
+      "diagram": 38,
       "poster": 37,
-      "other": 34,
+      "other": 35,
       "video": 27,
       "card-set": 25,
       "print": 6,
@@ -57,7 +57,7 @@
     },
     "deliverables_by_role": {
       "primary": 412,
-      "alt-text": 131,
+      "alt-text": 130,
       "print-pdf": 126,
       "transcript": 112,
       "captions": 108,
@@ -2328,10 +2328,10 @@
       "id": "M3.1-DIA-01-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 244,
+      "line": 250,
       "body_lines": [
-        245,
-        248
+        251,
+        254
       ],
       "unit": "M3.1",
       "module": "M3",
@@ -2348,10 +2348,10 @@
       "id": "M3.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 254,
+      "line": 260,
       "body_lines": [
-        255,
-        275
+        261,
+        281
       ],
       "unit": "M3.1",
       "module": "M3",
@@ -2368,10 +2368,10 @@
       "id": "M3.1-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 513,
+      "line": 519,
       "body_lines": [
-        514,
-        530
+        520,
+        536
       ],
       "unit": "M3.1",
       "module": "M3",
@@ -2388,10 +2388,10 @@
       "id": "M3.1-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 679,
+      "line": 689,
       "body_lines": [
-        680,
-        683
+        690,
+        693
       ],
       "unit": "M3.1",
       "module": "M3",
@@ -2408,10 +2408,10 @@
       "id": "M3.1-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 811,
+      "line": 821,
       "body_lines": [
-        812,
-        818
+        822,
+        828
       ],
       "unit": "M3.1",
       "module": "M3",
@@ -2488,10 +2488,10 @@
       "id": "M3.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
-      "line": 816,
+      "line": 812,
       "body_lines": [
-        817,
-        823
+        813,
+        819
       ],
       "unit": "M3.2",
       "module": "M3",
@@ -2528,10 +2528,10 @@
       "id": "M3.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 313,
+      "line": 314,
       "body_lines": [
-        314,
-        319
+        315,
+        320
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2548,10 +2548,10 @@
       "id": "M3.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 868,
+      "line": 869,
       "body_lines": [
-        869,
-        872
+        870,
+        873
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2568,10 +2568,10 @@
       "id": "M3.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 992,
+      "line": 993,
       "body_lines": [
-        993,
-        998
+        994,
+        999
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2588,10 +2588,10 @@
       "id": "M3.3-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 168,
+      "line": 169,
       "body_lines": [
-        169,
-        181
+        170,
+        182
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2608,10 +2608,10 @@
       "id": "M3.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 840,
+      "line": 843,
       "body_lines": [
-        841,
-        845
+        844,
+        848
       ],
       "unit": "M3.4",
       "module": "M3",
@@ -2628,10 +2628,10 @@
       "id": "M3.4-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 165,
+      "line": 168,
       "body_lines": [
-        166,
-        179
+        169,
+        182
       ],
       "unit": "M3.4",
       "module": "M3",
@@ -12872,7 +12872,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 147,
+      "line": 152,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -12883,7 +12883,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "animált (SVG/videó), magyar feliratok, szinkronban a 60–75 mp narrációval (M3.1-NAR-02)"
+        "note": "animált videó, magyar feliratok, szinkronban a 60–75 mp narrációval (M3.1-NAR-02)"
       },
       "a11y": {
         "visual": "informative",
@@ -12918,7 +12918,7 @@
       "alt_text": "Tuckman-görbe: vízszintes idővonal fölött egy emelkedő, hullámzó vonal öt szakaszra osztva, balról jobbra: forming (alakulás), storming (balhék), norming (szabályok), performing (működés), majd a lezáró adjourning (lezárás / szétválás). A görbe a csoport fejlődését mutatja az alakulástól a működő csapatig, majd a someres ciklus lezárásáig.",
       "alt_hash": "93ee21cdc2ce43d867b7e587df869c79fa29d0d0ad6d161d62106425c02d7669",
       "copy_hash": "93ee21cdc2ce43d867b7e587df869c79fa29d0d0ad6d161d62106425c02d7669",
-      "spec_hash": "b959bcd0e7778aa5d1f315d345e6bcf6845e5b1db74463c68218968693bc069e",
+      "spec_hash": "f409f30075fc63c6a1c0bb8b53fef23cf5a0ff2ed50433746d26a696909f8933",
       "deliverable_ids": [
         "M3.1-DIA-01",
         "M3.1-DIA-01::ALTTEXT"
@@ -12938,7 +12938,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 582,
+      "line": 592,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -12997,7 +12997,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 296,
+      "line": 302,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -13063,7 +13063,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 334,
+      "line": 340,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -13129,7 +13129,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 372,
+      "line": 378,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -13195,7 +13195,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 410,
+      "line": 416,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -13261,7 +13261,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 185,
+      "line": 190,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13304,8 +13304,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        255,
-        275
+        261,
+        281
       ],
       "source_text": "„Bruce Tuckman egy csoportkutató volt, aki azt mondta:\n\n**a legtöbb csoport négy fő szakaszon megy át**, mielőtt igazán jól működne (plusz van egy ötödik, a lezárás).\n\n👉 Az első a **forming**, vagyis az alakulás.\nIlyenkor mindenki kicsit bizonytalan, udvarias, figyeli a többieket.\n\n👉 A második a **storming**, amikor jönnek a viták, beszólások, klikkek.\nEz fárasztó lehet, de **nem hiba**, hanem a fejlődés része.\nFigyelj: a storming kölcsönös vita – a célzott bántás már nem storming.\n\n👉 A harmadik a **norming**, amikor megszületnek a közös szabályok.\nMár jobban figyelnek egymásra, és elkezd kialakulni a bizalom.\n\n👉 A negyedik a **performing**.\nItt a kvuca már tényleg **együtt dolgozik**, saját ötleteket hoz, és felelősséget vállal.\n\n👉 Tuckman 1977-ben, Mary Ann Jensennel közösen tett hozzá egy ötödiket, az **adjourning**-ot, vagyis a **lezárást**.\nEz a kvuca búcsúja: amikor egy someres ciklus véget ér, és szépen elköszöntök egymástól.”",
       "source_hash": "92d86f7be3c403a5bc77dfcb49923dff549bd563f2f0e554bfe74c4dd9fc39bb",
@@ -13337,7 +13337,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 448,
+      "line": 454,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13380,8 +13380,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        514,
-        530
+        520,
+        536
       ],
       "source_text": "„Nézzük meg, milyen **érzés** lehet benne lenni egy-egy szakaszban.\n\nA **forming**-ban sokszor olyan, mintha egy új társaságba csöppentél volna.\nMindenki kedves, de kicsit bizonytalan, figyeli, mi fér bele.\n\nA **storming**-nál jönnek a beszólások, viták.\nVan, aki sokat beszél, más meg elhallgat.\nEz feszültséget okoz, de közben elkezd kiderülni, kinek mi fontos.\n\nA **norming** akkor van, amikor a kvuca elkezd **közös szabályokat**, szokásokat kialakítani.\nMár jobban elfogadják egymást, és lehet nyíltabban beszélni.\n\nA **performing**-ban azt érzed: ‘Ez egy csapat’.\nMegjelennek a mélyebb beszélgetések, saját ötletek,\nés nem csak a madrih húzza a programot.”",
       "source_hash": "8af73718262c3380aa01ad9ee9a50f51ae19661f7a90f55eaa9f57716f7f9ea4",
@@ -13413,7 +13413,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 613,
+      "line": 623,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13456,8 +13456,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        680,
-        683
+        690,
+        693
       ],
       "source_text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki egy kérdést, és gondold végig, írd le 1–2 mondatban.”",
       "source_hash": "6e533f12cd0e1b8ec7a0bddbf7fe26d26f69e0f24752859bbf84a47e43f396e4",
@@ -13489,7 +13489,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md",
-      "line": 692,
+      "line": 702,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -13532,8 +13532,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        812,
-        818
+        822,
+        828
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már van egy térképed arról, hogyan fejlődik egy kvuca.\nA következő részben belenagyítunk a három aktuális someres kvucába:\nParparim, Kivsza és Leviatán –\nhogy lásd, milyen világban élnek, és te miben tudsz hozzájuk kapcsolódni.”",
       "source_hash": "17184b1a6e2cf25c999bfc2b393e7843bd6e08a34c6e67a11c14347e00253472",
@@ -13656,7 +13656,7 @@
       "status": "spec-ready",
       "title": "Parparim & Kivsza – kétoszlopos profilkártya",
       "purpose": "Két kisebb kvuca-profil tömör, jól megjegyezhető, összehasonlító vizuális rögzítése.",
-      "spec": "Kétoszlopos vizuális elrendezés (layout/diagram): bal oldalt 🦋 Parparim, jobb oldalt 🐑 Kivsza, mindkettő 3-4 rövid bullettel (Világ, Figyelem & energia, Motiváció, Fejlődési jellemzők) + 1 mini „tipikus jelenet\" idézettel. Mobilon olvasható, esetleg fokozatos megjelenítéssel.",
+      "spec": "Kétoszlopos vizuális elrendezés (layout/diagram): bal oldalt 🦋 Parparim, jobb oldalt 🐑 Kivsza, mindkettő 3–4 rövid bullettel (Világ, Figyelem & energia, Motiváció, Fejlődési jellemzők) + 1 mini „tipikus jelenet” idézettel. Mobilon olvasható, esetleg fokozatos megjelenítéssel.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -13695,7 +13695,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "ecb267a9b656c4239945784f2624a2059fb7aadcef36adca797d84d0aa3eb44d",
+      "spec_hash": "310538aedb1a698105bb8cbbc829dd9c24f491cc55ba44635723040f808a7e12",
       "deliverable_ids": [
         "M3.2-DIA-01",
         "M3.2-DIA-01::ALTTEXT"
@@ -13847,27 +13847,23 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
-      "line": 506,
-      "kind": "diagram",
-      "subtype": "",
+      "line": 531,
+      "kind": "other",
+      "subtype": "ui-text",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Korosztály-térkép mini-táblázat (3 sor)",
+      "title": "Korosztály-térkép minitáblázat (3 sor)",
       "purpose": "Egy lapon kéznél tartható „korosztály-térkép\", amely összeköti a kvucát az életkori sávval, fejlődési jellemzőkkel és madrih-szemponttal; M6-ra előremutató referencia.",
-      "spec": "3 soros mini-táblázat 3 oszloppal: Kvuca (kor) | 2–3 fejlődési jellemző | 1 madrih-szempont. Sorok: Parparim (6–9), Kivsza (10–12), Leviatán (13–17), a lecke aktuális tartalmával. Mobilon görgethető / kártyás formában is megjeleníthető.",
+      "spec": "3 soros minitáblázat 3 oszloppal: Kvuca (kor) | 2–3 fejlődési jellemző | 1 madrih-szempont. Sorok: Parparim (6–9), Kivsza (10–12), Leviatán (13–17), a lecke aktuális tartalmával. Élő szövegként jelenik meg a dián, nem képként; mobilon kártya / akkordeon nézetben (egy sor = egy blokk, a mezők egymás alatt), vízszintes görgetés nélkül (`LMS – hozzáférhetőségi sztenderd.md` §4).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Táblázat / reszponzív kártyás táblázat, 3 sor × 3 oszlop, ikonokkal, mobil-first (görgethető)."
+        "note": "Élő szöveg a dián (Course Presentation szövegelem, nem kép), 3 sor × 3 mező, ikonokkal, mobil-first: mobilon kártya / akkordeon nézet, vízszintes görgetés nélkül."
       },
       "a11y": {
-        "visual": "informative",
-        "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Táblázathoz megfelelő szöveges/szemantikus ekvivalens (M3.2-DIA-04::ALTTEXT) – screenreader-barát táblázatstruktúra."
+        "note": "Képernyőolvasóval olvasható élő szöveg; a sor–mező szerkezet szövegesen is követhető (kártyánként a kvuca neve, alatta a jellemzők és a madrih-szempont)."
       },
-      "derivatives": [
-        "alt-text"
-      ],
+      "derivatives": [],
       "reuse_of": "",
       "reuse_resolves_to": "",
       "external": {},
@@ -13893,10 +13889,9 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6b853d9ed9a55cd2501d26c7e7cadf7d32c5ac263125afd03cea5a6c0b2b857c",
+      "spec_hash": "e3cd97a3045f18c08c2f74a29085f019d25d095e8c5ba1ea26c77aee088d9fb0",
       "deliverable_ids": [
-        "M3.2-DIA-04",
-        "M3.2-DIA-04::ALTTEXT"
+        "M3.2-DIA-04"
       ],
       "legacy": {
         "alt-text": [
@@ -13913,14 +13908,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
-      "line": 591,
+      "line": 587,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke)",
       "purpose": "Az aktivitás tartalmi magja: jelenetek kvucához rendelése, a 3 aktuális profil alkalmazása; kapu-belépő feltétel (activity completion).",
-      "spec": "Interaktív párosító feladat H5P-ben: 7 rövid jelenet-kártya szövege + 3 kvuca-címke (Parparim, Kivsza, Leviatán), az aktualizált megoldókulccsal és visszajelzés-szövegekkel. Alapból ujjbarát, koppintásos párosítás (a konkrét H5P-típust, pl. jelenetenként egy Multiple Choice elem egyválaszos – „Single Choice (Radio Buttons)” – módban, válaszonkénti visszajelzéssel, a runtime acceptance-ben kell igazolni), mellette Drag & Drop. NINCS print/offline kártyaszett – kizárólag digitális H5P interakció.",
+      "spec": "Interaktív párosító feladat H5P-ben: 7 rövid jelenet-kártya szövege + 3 kvuca-címke (Parparim, Kivsza, Leviatán), az aktualizált megoldókulccsal és visszajelzés-szövegekkel. Alapból ujjbarát, koppintásos párosítás (jelenetenként egy Multiple Choice elem egyválaszos – „Single Choice (Radio Buttons)” – módban, válaszonkénti visszajelzéssel; a húzás nélküli teljesíthetőséget a runtime acceptance-ben kell igazolni), mellette Drag & Drop. NINCS print/offline kártyaszett – kizárólag digitális H5P interakció.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -13954,7 +13949,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "74a53ad3fbbadbf06c3130c5f012446d5b768bea3ba0b68398837a79b845122c",
+      "spec_hash": "686506c7af9e0c719307ffd78fd0c690abc66938ba1d2b92c77cae027d10a498",
       "deliverable_ids": [
         "M3.2-EGY-01"
       ],
@@ -13970,14 +13965,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
-      "line": 620,
+      "line": 616,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Húzásmentes párosító változat (Multiple Choice egyválaszos módban)",
       "purpose": "Kapu-belépő feltétel (activity completion) miatt kötelező a11y-egyenértékű út a Drag&Drop helyett.",
-      "spec": "Húzás nélkül teljesíthető párosító változat: minden jelenethez rádiógombos kvuca-választás (Parparim/Kivsza/Leviatán) – jelenetenként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`); legördülős kitöltés Course Presentationben nem érhető el. Csak billentyűzettel (Tab+Enter) végigvihető, célfelületek ≥24px, a visszajelzés megegyezik a húzós verzióéval; önmagában is completiont kell adnia (a mechanizmust a runtime acceptance-ben kell igazolni).",
+      "spec": "Húzás nélkül teljesíthető párosító változat: minden jelenethez rádiógombos kvuca-választás (Parparim/Kivsza/Leviatán) – jelenetenként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`); legördülős kitöltés Course Presentationben nem érhető el. Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) végigvihető, célfelületek ≥24px, a visszajelzés megegyezik a húzós verzióéval; önmagában is completiont kell adnia (a mechanizmust a runtime acceptance-ben kell igazolni).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -14011,7 +14006,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0a59a91c0d4e3faf3f61d3d42e84e3d07a6d3db3f005f82d4d2186ab4bd48cdd",
+      "spec_hash": "7f61535600aa681ccb9627bfbdef0bf48200f3a5824cd18e145f9dd5be96df66",
       "deliverable_ids": [
         "M3.2-EGY-02"
       ],
@@ -14043,7 +14038,7 @@
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Mindegyik ikonhoz alt-szöveg (pl. „pillangó – Parparim\") – lásd M3.2-IKO-01::ALTTEXT."
+        "note": "Mindegyik ikonhoz alt-szöveg (pl. „pillangó – Parparim”) – lásd M3.2-IKO-01::ALTTEXT."
       },
       "derivatives": [
         "alt-text"
@@ -14073,7 +14068,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1eb8eedd99a3d749e66621541e53a6d679ff5827110a3a3356b40b76605ddeac",
+      "spec_hash": "eabfe7e745ef28c7be3833da3202193f09a54a65ec57497388f3c26bec3bec1b",
       "deliverable_ids": [
         "M3.2-IKO-01",
         "M3.2-IKO-01::ALTTEXT"
@@ -14245,7 +14240,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
-      "line": 685,
+      "line": 681,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14288,8 +14283,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        817,
-        823
+        813,
+        819
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza és Leviatán kvucák\nmennyire különböző világban élnek.\nA következő lépés egy élő peula, ahol történeteken keresztül gyakoroljátok, hol tart egy kvuca.\nUtána azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben a kvucákban,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
       "source_hash": "e15618b3762a99a7a0b1db07ba94544b52c91d999137fc94d7e2677ba7f8927a",
@@ -14405,7 +14400,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 212,
+      "line": 213,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14471,7 +14466,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 335,
+      "line": 336,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14537,7 +14532,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 760,
+      "line": 761,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14603,7 +14598,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 421,
+      "line": 422,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14669,7 +14664,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 459,
+      "line": 460,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14735,7 +14730,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 598,
+      "line": 599,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14801,7 +14796,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 636,
+      "line": 637,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -14867,7 +14862,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 250,
+      "line": 251,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14900,7 +14895,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Társasset: M3.3-NAR-01::TRANSCRIPT. Kapcsolódó ikon-asset a slide-on: M3.3-IKO-01. A slide végi Single Choice mini-kérdés (SLIDE 2, „Mini kérdés a slide végén”) csak szöveges H5P UI, nem gyártandó asset.",
+      "notes": "Társasset: M3.3-NAR-01::TRANSCRIPT. Kapcsolódó ikon-asset a slide-on: M3.3-IKO-01. A slide végi Single Choice minikérdés (SLIDE 2, „Mini kérdés a slide végén”) csak szöveges H5P UI, nem gyártandó asset.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -14909,8 +14904,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        314,
-        319
+        315,
+        320
       ],
       "source_text": "„Madrihként a gyermekvédelem nem azt jelenti, hogy te oldasz meg mindent.\n\nA te feladatod az, hogy **észrevedd** és **komolyan vedd**, ha valami nagyon nem oké.\nHallgasd meg a hanihot, de ne ígérj teljes titoktartást. Ne nyomozz, ne konfrontálj, és **ne próbáld egyedül megoldani**: azonnal vond be a kijelölt Memunát – összeférhetetlenség esetén a név szerint kijelölt helyettesét. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.”",
       "source_hash": "11f7aa7b1123ae5833ae4cce80e441a008dedea5be10c547876b0e9f1a9378ba",
@@ -14938,7 +14933,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 798,
+      "line": 799,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14980,8 +14975,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        869,
-        872
+        870,
+        873
       ],
       "source_text": "„Itt most nincs jó vagy rossz válasz.\nElég, ha 1–2 mondatban leírsz valamit, amit magaddal vinnél ebből a leckéből.”",
       "source_hash": "6346f55118ff39e9717736e32c209f3c47456320e7065b2208b9fa9cf188cd2f",
@@ -15009,7 +15004,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 879,
+      "line": 880,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -15051,8 +15046,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        993,
-        998
+        994,
+        999
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy alap térképed arról, mi az a red flag, és mi a dolgod madrihként.\nA következő részben konkrétan végigvesszük, **mit tegyél és mit ne tegyél**,\nhogy még egyértelműbb legyen, mi fér bele és mi az, ami már veszélyes.”",
       "source_hash": "d8fa9e5a80997c3a39409d1200f4b2f3d21099bdb1b8ba1fbf46cc6c0438ce7f",
@@ -15080,7 +15075,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 107,
+      "line": 108,
       "kind": "video",
       "subtype": "explainer",
       "mode": "generate",
@@ -15129,8 +15124,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        169,
-        181
+        170,
+        182
       ],
       "source_text": "„Szia! Képzeld el, hogy egy hanih odajön hozzád peula után,\nés azt mondja: *‘Most olyat mondok, amit **senki más nem tudhat**, jó?’*\n\nKözben érzed, hogy valami komoly dolog jön.\n\nMit csinálsz ilyenkor?\nMegígéred, hogy **senkinek** nem mondod el?\nVagy jelezel valakinek, de félsz, hogy ezzel elárulod?\n\nEz a lecke arról szól, hogy **mi a felelős lépés** ilyen helyzetekben,\nés mit jelent az, hogy **red flag**.”",
       "source_hash": "1237ab16a1b970d2e54b8cdb17b24feb1adc883cf327b04b3d968a69dbcdd8de",
@@ -15164,7 +15159,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 303,
+      "line": 306,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -15230,7 +15225,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 72,
+      "line": 75,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -15287,7 +15282,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 199,
+      "line": 202,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -15344,7 +15339,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 402,
+      "line": 405,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -15401,14 +15396,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 431,
+      "line": 434,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4)",
       "purpose": "LMS a11y-sztenderd: a kapus completion ne csak drag & drop-pal legyen teljesíthető.",
-      "spec": "Ugyanaz a 8–10 (ténylegesen 10) helyzetkártya húzás nélkül is teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). Csak billentyűzettel (Tab+Enter) befejezhető, célfelületek ≥24px, per-kártya visszajelzés azonos a húzós verzióval; önmagában is completiont kell adnia (a mechanizmust a runtime acceptance-ben kell igazolni).",
+      "spec": "Ugyanaz a 8–10 (ténylegesen 10) helyzetkártya húzás nélkül is teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) befejezhető, célfelületek ≥24px, per-kártya visszajelzés azonos a húzós verzióval; önmagában is completiont kell adnia (a mechanizmust a runtime acceptance-ben kell igazolni).",
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
@@ -15442,7 +15437,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4d5b774a223106c2bcad7ab7643598be31d8eb6c74b41857690d5305b90e91f1",
+      "spec_hash": "86b71f6b9ef3fe470836b3e349cc9c37d27fed21d414002d735d6221ef4fcc76",
       "deliverable_ids": [
         "M3.4-EGY-04"
       ],
@@ -15458,14 +15453,14 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 611,
+      "line": 614,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Mini-kvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6)",
+      "title": "Minikvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6)",
       "purpose": "Kulcsállítások rögzítése: szerep, red flag, dugma isit-hatás.",
-      "spec": "3 kérdés külön Course Presentation-elemként (a Question Set nem ágyazható Course Presentationbe): K1 Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban (red flag első lépés, helyes: 3., + visszajelzés az 1./2./4. rossz válaszra, Kérdés 1 „Visszajelzés a rossz válaszokra”), K2 True/False (madrih–hanih párkapcsolat, helyes: Hamis, + visszajelzés, Kérdés 2 „Visszajelzés (hamis)”), K3 Single Choice Set (a „mit tegyél / mit ne tegyél madrihként” szemlélet mondata, helyes: 3.). Opciók és visszajelzés-szövegek beállítása.",
+      "spec": "3 kérdés külön Course Presentation-elemként (a Question Set nem ágyazható Course Presentationbe): K1 Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban (red flag első lépés, helyes: 3., + visszajelzés az 1./2./4. rossz válaszra, Kérdés 1 „Visszajelzés a rossz válaszokra”), K2 True/False (madrih–hanih párkapcsolat, helyes: Hamis, + visszajelzés, Kérdés 2 „Visszajelzés (hamis)”), K3 Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban (a „mit tegyél / mit ne tegyél madrihként” szemlélet mondata, helyes: 3.). Opciók és visszajelzés-szövegek beállítása.",
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
@@ -15499,7 +15494,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "62fe8491a2b6a77541c6745eefae218d819912b77fa57fe48db1d5cb8cb7d5cf",
+      "spec_hash": "a5e728d38a01ce182c0e9f6291fbd2208fff0733cae42218e8048e8dc3ef2605",
       "deliverable_ids": [
         "M3.4-EGY-05"
       ],
@@ -15515,7 +15510,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 515,
+      "line": 518,
       "kind": "other",
       "subtype": "ui-text",
       "mode": "generate",
@@ -15572,7 +15567,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 691,
+      "line": 694,
       "kind": "other",
       "subtype": "moodle-activity",
       "mode": "generate",
@@ -15629,7 +15624,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 23,
+      "line": 26,
       "kind": "other",
       "subtype": "",
       "mode": "generate",
@@ -15686,7 +15681,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 228,
+      "line": 231,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -15752,7 +15747,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 544,
+      "line": 547,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -15815,7 +15810,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 788,
+      "line": 791,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -15871,7 +15866,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 720,
+      "line": 723,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -15914,8 +15909,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        841,
-        845
+        844,
+        848
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy konkrétabb képed arról, mit csinál és mit nem csinál egy megbízható madrih.\nA modulproduktum-feladattal ezt fogod kipróbálni egy konkrét helyzeten keresztül.\nNe feledd: nem vagy egyedül – a cél az, hogy **együtt** tartsuk biztonságban a hanihokat.”",
       "source_hash": "a2a6ea86f26bb437e8eb5edfffccd4a53ec0ffba14a1e2fe8c131be6a5144ac4",
@@ -15947,7 +15942,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 101,
+      "line": 104,
       "kind": "video",
       "subtype": "explainer",
       "mode": "generate",
@@ -15996,8 +15991,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        166,
-        179
+        169,
+        182
       ],
       "source_text": "„Szia!\nKépzeld el, hogy madrihként nagyon jól kijössz egy hanihhal.\nSokat beszélgettek, írtok egymásnak, vicceltek.\n\nHol a határ aközött, hogy **közeli, bizalmi kapcsolat** van köztetek,\nés aközött, hogy már **nem oké, amit csinálsz**?\n\nAzzal is tanítasz, amit **nem** csinálsz.\n\nEbben a leckében arról lesz szó,\nmilyen listát érdemes fejben tartani arról, mit tegyél és mit ne madrihként –\nés hogy például miért **red flag**, ha egy madrih párkapcsolatban van egy hanihhal.”",
       "source_hash": "f647847c014c1b8224559f51471b20ec300edbd97191178ee419b97857383dd1",
@@ -16129,7 +16124,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A 2.1-ben adott verbatim feliratokkal (42-46) és a Blokk 2 emlékeztető szóhasználatával (137-140) konzisztens.",
+      "notes": "A 2.1-ben adott verbatim feliratokkal (2.1 Eszközök) és a Blokk 2 emlékeztető szóhasználatával (4.2, 1. lépés) konzisztens.",
       "review": "a v1 dedup-tag a modul-áttekintő fájl azonos azonosítójú sorára mutatott, nem erre az assetre; a v2 egység-névtér elválasztja a kettőt. A jelenlegi fájlban ez a sor önálló, külön legyártandó anyag.",
       "release_phase": "",
       "fallback": "",
@@ -16229,7 +16224,7 @@
       "status": "spec-ready",
       "title": "Megoldókulcs a képzőnek (kártya-hátlapok)",
       "purpose": "A képző tudja levezetni a közös átbeszélést, kezelni a téves tippeket és kimondani, hogy a jelolvasás a cél, nem a tökéletes besorolás.",
-      "spec": "Képzői megoldókulcs/segédlet a 8 kártyához: minden kártyához kanonikus típus+szakasz besorolás (pl. Parparim/Forming), rövid indoklás „miért ez a jó válasz”, és a gyakori téves tipp. Külön kiemelve (4.3: a kész kártyaszett leírása és a táblázat utáni két doboz): a kulcs irány, nem dogma; több érvényes olvasat lehet, a cél a jelolvasás; valamint a „Storming vagy kortárs bántalmazás?” elhatárolás: a storming (viharzás) kölcsönös csoportkonfliktus, amelyben a csoport a szabályokat, a pozíciókat és a határokat egyezteti; a kortárs bántalmazás (bullying) célzott, bántó dinamika, amely jellemzően ismétlődik vagy ismétlődhet, és erőfölényen alapul; ha valaki veszélyben van, azt nem kezeljük „normális stormingként”. Az 5. kártya „Határ” mondata erre az elhatárolásra utal. A 8. (ráadás) kártya rá-írandó történet-szövegét is tartalmazza.",
+      "spec": "Képzői megoldókulcs/segédlet a 8 kártyához: minden kártyához kanonikus típus+szakasz besorolás (pl. Parparim/Forming), rövid indoklás „miért ez a jó válasz”, és a gyakori téves tipp. Külön kiemelve (4.3: a kész kártyaszett leírása és a táblázat utáni két doboz): a kulcs irány, nem dogma; több érvényes olvasat lehet, a cél a jelolvasás; valamint a „Storming vagy kortárs bántalmazás?” elhatárolás: a storming („balhék”) kölcsönös csoportkonfliktus, amelyben a csoport a szabályokat, a pozíciókat és a határokat egyezteti; a kortárs bántalmazás (bullying) célzott, bántó dinamika, amely jellemzően ismétlődik vagy ismétlődhet, és erőfölényen alapul; ha valaki veszélyben van, azt nem kezeljük „normális stormingként”. Az 5. kártya „Határ” mondata erre az elhatárolásra utal. A 8. (ráadás) kártya rá-írandó történet-szövegét is tartalmazza.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -16266,7 +16261,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2e9255f979ac9baa5b70de115a1667a7b72836cc01c05a039981ec7934b82cad",
+      "spec_hash": "2e591e54011f504ccf53443c9c6fed405935fd12241e1e11f35c6df0ff1d335c",
       "deliverable_ids": [
         "M3.A-MUNK-01",
         "M3.A-MUNK-01::PRINTPDF"
@@ -16358,7 +16353,7 @@
         "note": "4 db kártya, A6 vagy A5 méret, kétoldalas nyomtatás javasolt (előlap: cím + kiváltó idézet; hátlap üres a húzáshoz), magyar nyelv, jól olvasható nagy betű. Robusztus karton ajánlott (ismételt használat)."
       },
       "a11y": {
-        "note": "Kell szöveges ekvivalens minden kártyához (lásd M3.B-KART-01); a kártya teljes szövege felolvasható kell legyen."
+        "note": "Kell szöveges ekvivalens minden kártyához (lásd 4.2.2); a kártya teljes szövege felolvasható kell legyen."
       },
       "derivatives": [
         "print-pdf"
@@ -16387,7 +16382,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "bf5446ef280c800c32445c966d4679f2b694a9d8e75df135272949b330e58d3e",
+      "spec_hash": "3c5fc2978b5c619ae26e2a7c251fe333227d3ba698d11fe4f993301c06af19d1",
       "deliverable_ids": [
         "M3.B-KART-01",
         "M3.B-KART-01::PRINTPDF"
@@ -16414,7 +16409,7 @@
       "status": "spec-ready",
       "title": "Krízis- / segélyvonal referenciakártya (képzőnek)",
       "purpose": "Hogy a képző krízishelyzetben azonnal, fejből-keresés nélkül ki tudja mondani a helyes segélyvonalakat és továbbküldési pontokat.",
-      "spec": "Kis méretű referenciakártya a képzőnek a krízis-lezáráshoz: 112 (közvetlen életveszély, azonnali sürgősségi helyzet), 116-111 – a Kék Vonal Lelkisegély-vonala gyerekeknek és fiataloknak (gyerek érdekében telefonáló, aggódó felnőtt is hívhatja), valamint külön megjegyzésként 116-123 **felnőtt** lelki elsősegély. A belső jelzés címzettje a kijelölt Memuna (a Somer gyermekvédelmi felelőse; elérhetősége a `somer.hu/kapcsolat` oldalon), összeférhetetlenség esetén a név szerint kijelölt helyettese (a Ros Hinuh). Nevet a kártyára nem nyomtatunk, mert a nevek változnak; arra az esetre, ha a Memuna és a helyettese is érintett vagy nem elérhető, a külső utat a helyi útvonal lap (M3.B-MUNK-02) adja. Gyorsan elővehető segédlet a peula végi biztonságos lezáráshoz és az in-the-moment triage-hez.",
+      "spec": "Kis méretű referenciakártya a képzőnek a krízis-lezáráshoz: 112 (közvetlen életveszély, azonnali sürgősségi helyzet), 116-111 – a Kék Vonal Lelkisegély-vonala gyerekeknek és fiataloknak (gyerek érdekében telefonáló, aggódó felnőtt is hívhatja), bántalmazott vagy eltűnt gyermek ügyében 116-000, valamint külön megjegyzésként 116-123 **felnőtt** lelki elsősegély. A belső jelzés címzettje a kijelölt Memuna (a Somer gyermekvédelmi felelőse; elérhetősége a `somer.hu/kapcsolat` oldalon), összeférhetetlenség esetén a név szerint kijelölt helyettese (a Ros Hinuh). Nevet a kártyára nem nyomtatunk, mert a nevek változnak; arra az esetre, ha a Memuna és a helyettese is érintett vagy nem elérhető, a külső utat a helyi útvonal lap (M3.B-MUNK-02) adja. Gyorsan elővehető segédlet a peula végi biztonságos lezáráshoz és az in-the-moment triage-hez.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -16450,7 +16445,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4509150553660f71d75a1acf8559ab1e24d3eb25c76892212d76591a1af9aa78",
+      "spec_hash": "26b1881623000654742cbce3783328b5e8f8a005b4394ff8e8e01bfebb1af3c2",
       "deliverable_ids": [
         "M3.B-KART-02",
         "M3.B-KART-02::PRINTPDF"
@@ -16541,7 +16536,7 @@
         "note": "Nagy formátum (A1 / csomagolópapír) vagy A4 mester, amit flipchartra fel lehet nagyítani; magyar felirat, 2-3 színnel jól olvasható, kézzel kitölthető üres mezőkkel. Minimum 1 nagy lap."
       },
       "a11y": {
-        "note": "Kell szöveges leírás a folyamatábráról (lásd M3.B-MUNK-01), hogy a vizuális struktúra szövegesen is elérhető legyen."
+        "note": "Kell szöveges leírás a folyamatábráról (lásd 4.3.2), hogy a vizuális struktúra szövegesen is elérhető legyen."
       },
       "derivatives": [
         "print-pdf"
@@ -16570,7 +16565,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f71a8e34200604b0252198392ea0b6315950fed824887b33ebde759e512e4915",
+      "spec_hash": "7a3cf77260b061a3d8c7704cf0be4750fa613133d2b2ede60392924cc75822f0",
       "deliverable_ids": [
         "M3.B-MUNK-01",
         "M3.B-MUNK-01::PRINTPDF"
@@ -39107,34 +39102,13 @@
       "asset_id": "M3.2-DIA-04",
       "role": "primary",
       "role_label": "elsődleges",
-      "kind": "diagram",
-      "subtype": "",
+      "kind": "other",
+      "subtype": "ui-text",
       "unit": "M3.2",
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
       "file_kind": "online-lecke",
-      "title": "Korosztály-térkép mini-táblázat (3 sor)",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.2-DIA-04::ALTTEXT",
-      "asset_id": "M3.2-DIA-04",
-      "role": "alt-text",
-      "role_label": "alt-szöveg",
-      "kind": "diagram",
-      "subtype": "",
-      "unit": "M3.2",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
-      "file_kind": "online-lecke",
-      "title": "Korosztály-térkép mini-táblázat (3 sor) — alt-szöveg",
+      "title": "Korosztály-térkép minitáblázat (3 sor)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -40235,7 +40209,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
       "file_kind": "online-lecke",
-      "title": "Mini-kvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6)",
+      "title": "Minikvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
