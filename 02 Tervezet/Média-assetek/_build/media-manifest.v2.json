@@ -2068,10 +2068,10 @@
       "id": "M2.1-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md",
-      "line": 652,
+      "line": 656,
       "body_lines": [
-        653,
-        660
+        657,
+        664
       ],
       "unit": "M2.1",
       "module": "M2",
@@ -9690,7 +9690,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md",
-      "line": 549,
+      "line": 551,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -9971,7 +9971,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md",
-      "line": 584,
+      "line": 586,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -10014,8 +10014,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        653,
-        660
+        657,
+        664
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén, és megrajzoltad a saját identitás-köreidet.\nMost már jobban látod, milyen közegek hatnak rád madrihként,\nés el tudsz kezdeni azon gondolkodni, mit szeretnél ebből tudatosan megmutatni a kvucádnak.\n\nA következő lépés az lesz, hogy ránézünk azokra az **értékekre, amelyek vezetnek**,\nés arra, hogyan tudnak ezek iránytűként működni a peulákban.”",
       "source_hash": "1665017a1645c78d517346c94ea69689fdb95f436804baecc12a251ab047b7cd",
@@ -10263,7 +10263,7 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Értékszófelhő (14 értékkel)",
-      "purpose": "Kész értéklista kínálása, hogy könnyebben válasszanak a következő aktivitásban (Slide 4 Multi Choice).",
+      "purpose": "Kész értéklista kínálása, hogy könnyebben válasszanak a következő aktivitásban (Slide 4 Multiple Choice).",
       "spec": "Statikus tipográfiai szófelhő-illusztráció 14 értékkel: igazságosság, közösség, szolidaritás, felelősség, őszinteség, bizalom, humor, kreativitás, fegyelem, szabadság, gondoskodás, bátorság, nyitottság, kitartás. Változó betűméret/elforgatás, de jól olvasható. A forrás nem ír animációt, ezért statikus illusztráció. Mellette a sima, balra zárt értéklista is megjelenik szöveges ekvivalensként.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -10303,7 +10303,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "562d8f98869dabd25613660961ee373a48fdd8b5965fa79e6f833fcb11308154",
+      "spec_hash": "1c611bb1eb65877d75e0d26a2f0af09697eb14c6a720dd776ba53c24cceac77b",
       "deliverable_ids": [
         "M2.2-ILL-02",
         "M2.2-ILL-02::ALTTEXT"
@@ -10558,7 +10558,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "csak a képi sáv (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a felirat és a leirat szó szerint lefedi a narrációt; a videóelemet a dián látható, leíró videócímke azonosítsa (SC 1.1.1)",
-        "note": "Kötelező: magyar felirat (bekapcsolható) + a narráció szó szerinti leirata a videó alatt a leckeoldalon (WCAG 1.2.2). Lásd külön felirat- (M2.2-VID-01::CAPTIONS) és leirat-asset (M2.2-VID-01::TRANSCRIPT)."
+        "note": "Kötelező: magyar felirat (bekapcsolható; WCAG 1.2.2) + a narráció szó szerinti leirata a videó alatt a leckeoldalon (WCAG 1.2.3; hozzáférhetőségi sztenderd, 1. szakasz). Lásd külön felirat- (M2.2-VID-01::CAPTIONS) és leirat-asset (M2.2-VID-01::TRANSCRIPT)."
       },
       "derivatives": [
         "voiceover",
@@ -10597,7 +10597,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "bc6fb350da0e9ae96a6a9c0d00f2818ab7ec3f4ef0ac86cf4242fb9c6292539a",
-      "spec_hash": "6c3346e2adf8ab763b4287962d291b085bf088abf67a72236ceb12d023ec8177",
+      "spec_hash": "1c5ce9a041b15d019fd46eeca093109d6e0f09b822e025bdcf6f9463e1095b82",
       "deliverable_ids": [
         "M2.2-VID-01",
         "M2.2-VID-01::VOICEOVER",
@@ -10642,7 +10642,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "csak a képi sáv (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a felirat és a leirat szó szerint lefedi a narrációt; a videóelemet a dián látható, leíró videócímke azonosítsa (SC 1.1.1)",
-        "note": "Felirat + leirat kötelező (videó/hang, WCAG 1.2.2) – lásd M2.2-VID-02::CAPTIONS, M2.2-VID-02::TRANSCRIPT. Köszönőkártya-verzió esetén alt-szöveg (M2.2-ILL-03::ALTTEXT)."
+        "note": "Felirat (WCAG 1.2.2) + leirat (WCAG 1.2.3; hozzáférhetőségi sztenderd, 1. szakasz) kötelező (videó/hang) – lásd M2.2-VID-02::CAPTIONS, M2.2-VID-02::TRANSCRIPT. Köszönőkártya-verzió esetén alt-szöveg (M2.2-ILL-03::ALTTEXT)."
       },
       "derivatives": [
         "voiceover",
@@ -10681,7 +10681,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "9a9be60387db5bc136885a561511e62a26c261830503e985b3c291c3b1485083",
-      "spec_hash": "6d89c863c2fd89ed8ae92779d6e7a2db9d9b4b3466547a59a8c9bfcef9b68922",
+      "spec_hash": "6a54468ac59edcf292d5b7e49c71e3320eaa42225cc663ef08368b496b24ba53",
       "deliverable_ids": [
         "M2.2-VID-02",
         "M2.2-VID-02::VOICEOVER",
@@ -10773,7 +10773,7 @@
       "status": "spec-ready",
       "title": "H5P Branching Scenario – 3 pillér döntési fa (a lecke magja)",
       "purpose": "A lecke pedagógiai magja: biztonságos környezetben hibázható döntés-helyzet (Apply-szint), választás → következmény → dugma isit-visszajelzés. Ez a fő gyártandó interaktív deliverable.",
-      "spec": "A teljes H5P Branching Scenario felépítése és navigációs logikája: belépő videó-oldal → pillérválasztó oldal 3 gombbal (🟦 C-ÁG / 🟥 S-ÁG / 🟩 H-ÁG) → ágonként 1 helyzetleíró + 1 döntés-oldal (3 választás) + 3 következmény/visszajelzés-oldal, mindegyikben \"Mit látnak rajtad?\" + \"Someres tükör\" + 1 mondatos mini-reflexió (rögzítés nélküli, opcionális önreflexió, beviteli elem nélkül); minden visszajelzés-oldal egy közös elágazáshoz (Branching Question) vezet: „Vissza a pillérválasztóhoz” → pillérválasztó oldal, „Tovább a lezáráshoz” → SLIDE CHECK → ZÁRÓ OLDAL (a lezáró mondat megfogalmazása; a mező a Branching Scenario utáni Moodle-oldali szövegmező, LMS-M2-07) → végképernyő. A végképernyő csak legalább 1 teljes ág után érhető el; az LMS-M2-04 Moodle-completionje ezen az egyetlen végképernyőn elküldött grade (Receive a grade; BSPEC-05). A próbálkozás-riport csak bizonyíték, nem unlock-trigger; tartalékút nincs (D-g). A lecke completionjéhez a záró mondat beküldése is kell (LMS-M2-07, M2 hub §6). A szöveg a forrásban, a gyártandó elem a struktúra és az elágazás H5P-konfigurációja; a záró mondat mezőjének útját és a mini-reflexiók (beviteli elem nélküli) kezelését a lecke runtime-követelménye írja le.",
+      "spec": "A teljes H5P Branching Scenario felépítése és navigációs logikája: belépő oldal (Course Presentation-csomópont, benne a videó) → pillérválasztó oldal 3 gombbal (🟦 C-ÁG / 🟥 S-ÁG / 🟩 H-ÁG) → ágonként 1 helyzetleíró + 1 döntés-oldal (3 választás) + 3 következmény/visszajelzés-oldal, mindegyikben \"Mit látnak rajtad?\" + \"Someres tükör\" + 1 mondatos mini-reflexió (rögzítés nélküli, opcionális önreflexió, beviteli elem nélkül); minden visszajelzés-oldal egy közös elágazáshoz (Branching Question) vezet: „Vissza a pillérválasztóhoz” → pillérválasztó oldal, „Tovább a lezáráshoz” → SLIDE CHECK → ZÁRÓ OLDAL (a lezáró mondat megfogalmazása; a mező a Branching Scenario utáni Moodle-oldali szövegmező, LMS-M2-07) → végképernyő. A végképernyő csak legalább 1 teljes ág után érhető el; az LMS-M2-04 Moodle-completionje ezen az egyetlen végképernyőn elküldött grade (Receive a grade; BSPEC-05). A próbálkozás-riport csak bizonyíték, nem unlock-trigger; tartalékút nincs (D-g). A lecke completionjéhez a záró mondat beküldése is kell (LMS-M2-07, M2 hub §6). A szöveg a forrásban, a gyártandó elem a struktúra és az elágazás H5P-konfigurációja; a záró mondat mezőjének útját és a mini-reflexiók (beviteli elem nélküli) kezelését a lecke runtime-követelménye írja le.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -10807,7 +10807,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "9d755204d7e582ef11f52dd4a1e6cf408c7228dfffa84b145509bd73b386c560",
+      "spec_hash": "01963004726e6e817ef8c95f4c33aed2195be18dcdcd70ffa95f789ed3358d7c",
       "deliverable_ids": [
         "M2.3-EGY-02"
       ],
@@ -10830,7 +10830,7 @@
       "status": "spec-ready",
       "title": "SLIDE CHECK mini-kvíz – 2 kérdés (fogalmi rögzítés)",
       "purpose": "A fő üzenetek fogalmi rögzítése a döntési fa után; önreflexió a saját szintről.",
-      "spec": "Egy Course Presentation-csomópont 2 kérdéssel (a Question Set nem lehet a Branching Scenario csomópontja, és Course Presentationbe sem ágyazható): Kérdés 1 (jó/rossz, helyes válasz a középső – \"viselkedéseden, döntéseiden keresztül látszik\" – Single Choice Set vagy Multiple Choice; Multiple Choice-nál \"Randomize answers\" bekapcsolva), Kérdés 2 (önjelző poll, nincs jó/rossz, 3 opció + egységes visszajelzés; a megvalósítási típust az LMS – H5P runtime acceptance.md rögzíti). Teljes szöveg a forrásban.",
+      "spec": "Egy Course Presentation-csomópont 2 kérdéssel (a Question Set nem lehet a Branching Scenario csomópontja, és Course Presentationbe sem ágyazható): Kérdés 1 (jó/rossz, helyes válasz a középső – \"viselkedéseden, döntéseiden keresztül látszik\" – Multiple Choice, \"Randomize answers\" bekapcsolva), Kérdés 2 (önjelző poll, nincs jó/rossz, 3 opció + egységes visszajelzés; a megvalósítási típust és a visszajelzés megjelenését az LMS – H5P runtime acceptance.md 14. pontja szerint kell kiválasztani és tesztelni a cél verzión). Teljes szöveg a forrásban.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -10864,7 +10864,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0a306637531c5cc72ac999332ef18d6642c38fd7e84436431b0a4c5e6f14fd91",
+      "spec_hash": "b52a00cbe83b80f59da1879dfff6120d91cce5dda51bb30182e1bf36a4d26a1d",
       "deliverable_ids": [
         "M2.3-EGY-03"
       ],
@@ -11102,7 +11102,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "csak a képi sáv (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a felirat és a leirat szó szerint lefedi a narrációt; a videóelemet a dián látható, leíró videócímke azonosítsa (SC 1.1.1)",
-        "note": "Kötelező kapcsolható, szinkronban futó magyar felirat (M2.3-VID-01::CAPTIONS) + teljes szöveges leirat (M2.3-VID-01::TRANSCRIPT); hang nélkül is teljesíthető (WCAG 1.2.2, A)"
+        "note": "Kötelező kapcsolható, szinkronban futó magyar felirat (M2.3-VID-01::CAPTIONS; WCAG 1.2.2, A) + teljes szöveges leirat (M2.3-VID-01::TRANSCRIPT; WCAG 1.2.3, hozzáférhetőségi sztenderd 1. szakasz); hang nélkül is teljesíthető"
       },
       "derivatives": [
         "voiceover",
@@ -11141,7 +11141,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "9f59b9aa901c5932f3751ceb4c4590e282d3e268ce1a967a8bd17f37c364d7ea",
-      "spec_hash": "e933437c4b5981e5c3bf53142f01170cdb794c45fbf0a76e5e3ef1673935e38e",
+      "spec_hash": "802498f9633828b98649ebf47fec6aaf8fe104eda36cda0cbe943aab95f42520",
       "deliverable_ids": [
         "M2.3-VID-01",
         "M2.3-VID-01::VOICEOVER",
@@ -11186,7 +11186,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "csak a képi sáv (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a felirat és a leirat szó szerint lefedi a narrációt; a videóelemet a dián látható, leíró videócímke azonosítsa (SC 1.1.1)",
-        "note": "Felirat + teljes szöveges leirat kötelező, magyar nyelven; a leirat a videó mellett, látható szövegként jelenjen meg (WCAG 1.2.2, A) – lásd ZÁRÓ OLDAL, ♿-sor"
+        "note": "Felirat (WCAG 1.2.2, A) + teljes szöveges leirat kötelező, magyar nyelven; a leirat a videó mellett, látható szövegként jelenjen meg (WCAG 1.2.3; hozzáférhetőségi sztenderd, 1. szakasz) – lásd ZÁRÓ OLDAL, ♿-sor"
       },
       "derivatives": [
         "voiceover",
@@ -11225,7 +11225,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "dbbe251d0c388040dadea8ee9a84f6749792c515ac2ebf42d46ed4da3b9383b3",
-      "spec_hash": "91a0fc722043bddad03615cefa9f02dbf7b670fcb228927a5d3c53fd3f5cc487",
+      "spec_hash": "e2aaa14e0393d59444a8ee1dfc1e32f525e6c2b8bc014f53770dff0c5ed7ae19",
       "deliverable_ids": [
         "M2.3-VID-02",
         "M2.3-VID-02::VOICEOVER",
@@ -11967,14 +11967,14 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 199,
+      "line": 200,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Identitás-vonal állítás-kártyák (8 db szett)",
       "purpose": "A facilitátor sorban felolvashatja/felmutathatja a 8 állítást az identitás-vonal játékhoz; kész szett, hogy ne kelljen improvizálni; testi-mozgásos átélés a különböző identitás-körök erősségéről, és gyakorlás, hogy nem minősítjük egymás pozícióját.",
-      "spec": "8 darab nyomtatható állítás-kártya, kártyánként EGY rövid állítás nagy betűkkel. A 8 verbatim állítás a forrásban (4.2 Blokk 2, 3. lépés, „Állítás-szett”): (1) „A Somer most az egyik legerősebb identitás-köröm.”; (2) „A családom nagyon erősen hat arra, milyen madrih vagyok.”; (3) „A zsidósághoz, a zsidó közösséghez fűződő viszonyom fontos része annak, ki vagyok.”; (4) „Szívesen beszélek a saját nehézségeimről a kvucámmal.”; (5) „Néha úgy érzem, nagyon különbözöm a saját kvucámtól.”; (6) „Könnyen megmutatom másoknak, mi van bennem.”; (7) „A saját online köreim (Discord, Insta stb.) erősen hatnak rám madrihként.”; (8) „Általában jól érzem, hol vannak a határaim – meddig megyek el a megosztásban.” FONTOS pontosítás: a 3. (zsidóság) állításhoz tartozó zárójeles magyarázat (sor 154: „A skálán bárhol megállhatsz…”) a FACILITÁTOR FELOLVASANDÓ kerete, nem feltétlenül a kártyára nyomtatandó szöveg – ne zsúfold rá a kártyára, vagy tedd külön facilitátor-jegyzetbe.",
+      "spec": "8 darab nyomtatható állítás-kártya, kártyánként EGY rövid állítás nagy betűkkel. A 8 verbatim állítás a forrásban (4.2 Blokk 2, 3. lépés, „Állítás-szett”): (1) „A Somer most az egyik legerősebb identitás-köröm.”; (2) „A családom nagyon erősen hat arra, milyen madrih vagyok.”; (3) „A zsidósághoz, a zsidó közösséghez fűződő viszonyom fontos része annak, ki vagyok.”; (4) „Szívesen beszélek a saját nehézségeimről a kvucámmal.”; (5) „Néha úgy érzem, nagyon különbözöm a saját kvucámtól.”; (6) „Könnyen megmutatom másoknak, mi van bennem.”; (7) „A saját online köreim (Discord, Insta stb.) erősen hatnak rám madrihként.”; (8) „Általában jól érzem, hol vannak a határaim – meddig megyek el a megosztásban.”",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -11996,7 +11996,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Kapcsolódik a 2.1 eszközlistában jelzett „6–10 állítás-kártya” tételhez; a forrás itt 8 konkrét állítást ad. A facilitátor cserélhet egy-egy állítást, de tartsa a „könnyed, nem felkavaró” jelleget (sor 149).",
+      "notes": "Kapcsolódik a 2.1 eszközlistában jelzett „6–10 állítás-kártya” tételhez; a forrás itt 8 konkrét állítást ad. A facilitátor cserélhet egy-egy állítást, de tartsa a „könnyed, nem felkavaró” jelleget (4.2 Blokk 2, 3. lépés).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -12011,7 +12011,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "ee35c4741de7457be0e8b929e1c630bc769581388958e528424815e94879d2df",
+      "spec_hash": "d57d0a950fd6a4a1af2e80e7c67d732fbeb04a9f990044915a6fe221b2f81b26",
       "deliverable_ids": [
         "M2.A-KART-01",
         "M2.A-KART-01::PRINTPDF"
@@ -12028,7 +12028,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 80,
+      "line": 81,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
@@ -12088,14 +12088,14 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 290,
+      "line": 291,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Identitás-térkép munkalap (ÉN + körök)",
-      "purpose": "Az M2.1 online identitás-térkép élő frissítése/elkészítése; vizuális keret a páros megosztáshoz (mit mutatok meg / mit rejtek).",
-      "spec": "Egyszerű, félig strukturált A4 munkalap: középen „ÉN” mező, körülötte 3–4 üres nagyobb kör címke-helyekkel. Támpont-feliratok a forrásból (4.3 Blokk 3, 1. lépés, képzői instrukció): „család”, „Somer”, „zsidóság”, „suli / barátok”, „online köreim” – ezek csak támpontok, a tanuló sajátot is írhat. Körönként hely 3–5 kulcsszónak (nevek, helyzetek, érzések). Rövid instrukció a jelöléshez: ALÁHÚZÁS = amit mások is látnak belőlem; BEKARIKÁZÁS = amit alig látnak (ugyanott). Hagyjon sok szabad kézi rajzteret a testreszabhatóság miatt. Opcionálisan tartalmazhat egy rövid emlékeztetőt, hogy a „zsidóság” kör tartalma szabad (ugyanott).",
+      "title": "Identitástérkép munkalap (ÉN + körök)",
+      "purpose": "Az M2.1 online identitástérkép élő frissítése/elkészítése; vizuális keret a páros megosztáshoz (mit mutatok meg / mit rejtek).",
+      "spec": "Egyszerű, félig strukturált A4 munkalap: középen „ÉN” mező, körülötte 3–4 üres nagyobb kör címke-helyekkel. Támpont-feliratok a forrásból (4.3 Blokk 3, 1. lépés, képzői instrukció): „család”, „Somer”, „zsidóság”, „suli / barátok”, „online köreim” – ezek csak támpontok, a tanuló sajátot is írhat. Körönként hely 3–5 kulcsszónak (nevek, helyzetek, érzések). Rövid instrukció a jelöléshez: ALÁHÚZÁS = amit mások is látnak belőlem; BEKARIKÁZÁS = amit alig látnak (ugyanott). Hagyjon sok szabad kézi rajzteret a testreszabhatóság miatt. Opcionálisan tartalmazhat egy rövid emlékeztetőt, hogy a „zsidóság” kör tartalma szabad (ugyanott). A rajz a tanulónál marad (privát munkalap, nincs fotófeltöltés).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -12132,7 +12132,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0349d53698a27ba7401cce2d9fe9c32a1566b5bfda90a21c1d6fb10fba54977a",
+      "spec_hash": "f6c38b2110961f274f748efdbb7a6b76802da97dcaf588ee1acc339943e61f75",
       "deliverable_ids": [
         "M2.A-MUNK-01",
         "M2.A-MUNK-01::PRINTPDF",
@@ -12150,14 +12150,14 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 114,
+      "line": 115,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Megosztási szabályok flipchart-sablon (kettős funkció: közös minták gyűjtéséhez is)",
       "purpose": "A pszichológiai biztonság kereteinek közös, látható rögzítése; a facilitátornak kész tartalék-opciók, ha a csoporttól nem jön javaslat. Másodlagos funkció: a kiscsoportos közös minták vizuális gyűjtéséhez üres flipchart-felület (2.1 eszközlista).",
-      "spec": "Flipchart-/poszter-sablon a közösen kialakított megosztási (biztonsági) szabályoknak: nagy üres jegyzetterület a csoport saját javaslatainak, plusz előre nyomtatható 4 tartalék-szabály opció (verbatim, 4.1 Blokk 1, „Megosztási szabályok – közös kialakítás”): „Amit itt hallunk, az nem kerül ki névvel a teremből – kivéve, ha valaki veszélyben van: ilyenkor felelős felnőttet vonunk be.”; „Nem tesszük kötelezővé a megosztást – mindenki döntheti, mennyit mond el.”; „Nem kommentáljuk egymás történetét »jaj, ez semmi« típusú mondatokkal.”; „Kérdezhetünk, de nem faggatjuk egymást.” Lehet előnyomott váz, amit a teremben kézzel kiegészítenek. Ugyanez a flipchart-sablon (üres flipchart-oldal) szolgálhat a 4.4.1 kiscsoportos „közös minták” gyűjtéséhez is (2.1 eszközlista: „Flipchart / tábla + filc a közös minták összegyűjtéséhez”). MEGJEGYZÉS: a 4.4.1 verbatim beszélgetőkérdései külön tétel (M2.A-KART-03), ez a poszter csak az üres gyűjtőfelület.",
+      "spec": "Flipchart-/poszter-sablon a közösen kialakított megosztási (biztonsági) szabályoknak: nagy üres jegyzetterület a csoport saját javaslatainak, plusz előre nyomtatható 4 tartalék-szabály opció (verbatim, 4.1 Blokk 1, „Megosztási szabályok – közös kialakítás”): „Amit itt hallunk, az nem kerül ki névvel a teremből – kivéve, ha valaki veszélyben van: ilyenkor a Memunát vonjuk be.”; „Nem tesszük kötelezővé a megosztást – mindenki döntheti, mennyit mond el.”; „Nem kommentáljuk egymás történetét »jaj, ez semmi« típusú mondatokkal.”; „Kérdezhetünk, de nem faggatjuk egymást.” Lehet előnyomott váz, amit a teremben kézzel kiegészítenek. Ugyanez a flipchart-sablon (üres flipchart-oldal) szolgálhat a 4.4.1 kiscsoportos „közös minták” gyűjtéséhez is (2.1 eszközlista: „Flipchart / tábla + filc a közös minták összegyűjtéséhez”). MEGJEGYZÉS: a 4.4.1 verbatim beszélgetőkérdései külön tétel (M2.A-KART-03), ez a poszter csak az üres gyűjtőfelület.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -12193,7 +12193,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1a4bca1c661a2d89bc5b524f1690df569e53b6e6468bdc0f186ee46b948c80b0",
+      "spec_hash": "64c1611751098baf0fda3946be12d115a63dd76f67488b1e63e7edf260b5440c",
       "deliverable_ids": [
         "M2.A-POSZ-01",
         "M2.A-POSZ-01::PRINTPDF"
@@ -12278,7 +12278,7 @@
       "status": "spec-ready",
       "title": "Storyboard-feladat instrukciós kártya",
       "purpose": "Önállóan futtatható csoportmunka támogatása anélkül, hogy a képzőnek ismételnie kelljen a feladatleírást.",
-      "spec": "Egy kirakható instrukciós kártya a csoportasztalokra a storyboard-feladat lépéseivel (a 4.3 Blokk 3, 2. lépés „Instrukció (kirakható kártyán is)” szövege alapján, verbatim): találjatok ki a pillérhez kapcsolódó rövid helyzetet; rajzoljátok/írjátok le két verzióban (vezető nem gondol bele, milyen értéket mutat / someres vezető tudatosan megmutatja a pillért); a lap aljára a két „Mit tanul a csapat…?” kérdés; pálcikaember is elég, csak a különbség legyen érthető. Opcionálisan a választható élőkép-opció rövid instrukciója is feltüntethető (4.3 Blokk 3, 2. lépés, „Választható megtestesítő opció”).",
+      "spec": "Egy kirakható instrukciós kártya a csoportasztalokra a storyboard-feladat lépéseivel (a 4.3 Blokk 3, 2. lépés „Instrukció (kirakható kártyán is)” szövege alapján, verbatim): találjatok ki a pillérhez kapcsolódó rövid helyzetet; rajzoljátok/írjátok le két verzióban (vezető nem gondol bele, milyen értéket mutat / someres vezető tudatosan megmutatja a pillért); a lap aljára a két „Mit tanul a csapat…?” kérdés; pálcikaember is elég, csak a különbség legyen érthető. Opcionálisan a választható élőkép-opció rövid instrukciója is feltüntethető (4.3 Blokk 3, 2. lépés, „Választható élőkép-opció”).",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -12300,7 +12300,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Verbatim feladatszöveg: 4.3 Blokk 3, 2. lépés, „Instrukció (kirakható kártyán is)”; élőkép-instrukció: ugyanott, „Választható megtestesítő opció”.",
+      "notes": "Verbatim feladatszöveg: 4.3 Blokk 3, 2. lépés, „Instrukció (kirakható kártyán is)”; élőkép-instrukció: ugyanott, „Választható élőkép-opció”.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -12315,7 +12315,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "aa7b4b1135866a8d7acc74a326cb59e9a0d3ff72c6b13479e3aab8072b523a11",
+      "spec_hash": "f6e65702d15b05019ba28c0c2ac9dad395b8cba5395df7f5d89673d1ba74b13c",
       "deliverable_ids": [
         "M2.B-KART-02",
         "M2.B-KART-02::PRINTPDF"
@@ -12393,7 +12393,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md",
-      "line": 392,
+      "line": 393,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -12459,13 +12459,13 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Egyéni reflexió + commit munkalap (A5)",
-      "purpose": "Strukturált egyéni reflexiós felület a már átélt vezetői helyzet érték-szemüveges elemzéséhez és a someres commit-mondathoz; a lapot a résztvevők maguknál tartják, és belőle írják később a TELJES 1 oldalas identitás-jegyzet érték-blokkját (4.4 Blokk 4, 2. lépés, peula utáni beadandó).",
-      "spec": "Résztvevőnként 1 A5-ös (vagy post-it-tel kiegészített) reflexiós lap a Blokk 4 egyéni íráshoz, 4 előnyomtatott prompt-mezővel verbatim a 4.4 Blokk 4, 1. lépés szerint: 1) „Mi történt?” (2–3 mondat), 2) „Mit csinált a vezető?” (konkrét viselkedés/döntés), 3) „Milyen érték látszott rajta?” (1–2 értékszó), 4) „Ha egyszer én lennék hasonló helyzetben madrihként, mit csinálnék ugyanígy, és min változtatnék, hogy jobban látsszanak a someres értékeim?” (2–3 mondat). A lap alján a commit-mondat kezdő-sablonja verbatim a 4.4 Blokk 4, 2. lépés szerint: „Idén someres értékként a(z) … szeretném tudatosan, személyes példamutatással megmutatni…” (kipontozott helyre az érték, pl. szolidaritást/felelősséget/közösséget/őszinteséget). A forrás alapból „A/5-ös lap vagy post-it” (2.1 eszközlista), ezért a strukturált változat opcionális/sablonosítható.",
+      "title": "Egyéni reflexió + vállalás-munkalap (A5)",
+      "purpose": "Strukturált egyéni reflexiós felület a már átélt vezetői helyzet érték-szemüveges elemzéséhez és a someres vállalás-mondathoz; a lapot a résztvevők maguknál tartják, és belőle írják később a TELJES 1 oldalas identitás-jegyzet érték-blokkját (4.4 Blokk 4, 2. lépés, peula utáni beadandó).",
+      "spec": "Résztvevőnként 1 A5-ös (vagy post-it-tel kiegészített) reflexiós lap a Blokk 4 egyéni íráshoz, 4 előnyomtatott prompt-mezővel verbatim a 4.4 Blokk 4, 1. lépés szerint: 1) „Mi történt?” (2–3 mondat), 2) „Mit csinált a vezető?” (konkrét viselkedés/döntés), 3) „Milyen érték látszott rajta?” (1–2 értékszó), 4) „Ha egyszer én lennék hasonló helyzetben madrihként, mit csinálnék ugyanígy, és min változtatnék, hogy jobban látsszanak a someres értékeim?” (2–3 mondat). A lap alján a vállalás-mondat kezdő-sablonja verbatim a 4.4 Blokk 4, 2. lépés szerint: „Idén a(z) [érték] értékben mutatok példát azzal, hogy [konkrét, megfigyelhető viselkedés].” ([érték] helyére az érték, pl. szolidaritás/felelősség/közösség/őszinteség). A forrás alapból „A/5-ös lap vagy post-it” (2.1 eszközlista), ezért a strukturált változat opcionális/sablonosítható.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "1 lap résztvevőnként, A5 álló, 4 prompt-mező + alul commit-mondat-sablon, kézzel kitölthető, magyar nyelv; egyszerű, post-it-tel is helyettesíthető, de a sablon nyomtatva is kiosztható"
+        "note": "1 lap résztvevőnként, A5 álló, 4 prompt-mező + alul vállalás-mondat-sablon, kézzel kitölthető, magyar nyelv; egyszerű, post-it-tel is helyettesíthető, de a sablon nyomtatva is kiosztható"
       },
       "a11y": {
         "note": "Nyomtatott prompt-szöveg legyen olvasható testméretben; a szöveg maga az asset, külön alt-szöveg nem szükséges. A kitöltés önkéntes (passzolható), ezt a sablonon is jelezni lehet."
@@ -12483,7 +12483,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "HOZZÁADVA a 2. körben: a forrás Blokk 4-ben (1. és 2. lépés) explicit 4 részes írásstruktúrát + verbatim commit-mondat-sablont ad, ami egy templatálható résztvevői reflexiós munkalap, és minden korábbi asszettől (csoport-storyboard MUNK-01, képzői checklist MUNK-02) elkülönül. A forrás default üres A5/post-it (2.1 eszközlista), ezért opcionális/sablonosítható printként rögzítve.",
+      "notes": "HOZZÁADVA a 2. körben: a forrás Blokk 4-ben (1. és 2. lépés) explicit 4 részes írásstruktúrát + verbatim vállalás-mondat-sablont ad, ami egy templatálható résztvevői reflexiós munkalap, és minden korábbi asszettől (csoport-storyboard MUNK-01, képzői checklist MUNK-02) elkülönül. A forrás default üres A5/post-it (2.1 eszközlista), ezért opcionális/sablonosítható printként rögzítve.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -12498,7 +12498,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "06a4c9450de60b109278a26d1cbaf7c5a41d5ce8b3ea6a5c2af324eadd082672",
+      "spec_hash": "29842e241ea3a78eb18be57104faf2af2f0bf13c799ca99ecdec61f9d6ebc9f4",
       "deliverable_ids": [
         "M2.B-MUNK-03",
         "M2.B-MUNK-03::PRINTPDF"
@@ -12582,7 +12582,7 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Jegyzetlap az F-peulához – „1 gondolat / 1 kérdés leckénként”",
-      "purpose": "Strukturálja a jegyzetjavítás és a csendes pótlás reflexióját: a négy szekció (L1–L4) a KAPU-rubrika R1–R4 sorához tartozó leckéket követi, így a résztvevő a mentori visszajelzésben jelzett soroknál látja, mit ért és hol bizonytalan; egyben név nélküli kérdésgyűjtés alapja a fogalom-térkép blokkhoz (4.2 Blokk 2, 3. lépés; 4.3 Blokk 3, 1. lépés).",
+      "purpose": "Strukturálja a jegyzetjavítás és a csendes pótlás reflexióját: a négy szekció (L1–L4) a KAPU-rubrika R1–R4 sorához tartozó leckéket követi, így a résztvevő a mentori visszajelzésben jelzett soroknál látja, mit ért és hol bizonytalan; egyben név nélküli kérdésgyűjtés alapja a fogalomtérkép blokkhoz (4.2 Blokk 2, 3. lépés; 4.3 Blokk 3, 1. lépés).",
       "spec": "Nyomtatható A4/A5 jegyzetlap minden résztvevőnek. Négy szekció, a forrás szerint L1–L4 felirattal, mindegyikhez 2-2 sor: egy „1 gondolat” és egy „1 kérdés” mező (a négy lecke L1 Identitás-körök / L2 Értékeim mint iránytű / L3 Somer 3 pillére / L4 Határok & személyes példamutatás megfeleltetés a tájékozódó táblán látható, M2.F-POSZ-01). A lap alján 1 üres sor a záró privát exit-mondatnak („Mire figyelek terepen / kenben?”, 4.4 Blokk 4, 3. lépés). Üres, kézzel kitölthető mezők.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -12619,7 +12619,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0db4b526acd129ba1a8b73abb27c1ed47c810b3cbfe05180fba5f25388a61ccd",
+      "spec_hash": "447e2d1497743fbd51b07767a04cb41b8026e0ba0d13137acc2d5e2296676dba",
       "deliverable_ids": [
         "M2.F-MUNK-01",
         "M2.F-MUNK-01::PRINTPDF"
@@ -12636,7 +12636,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md",
-      "line": 333,
+      "line": 334,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -12756,14 +12756,14 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md",
-      "line": 224,
+      "line": 225,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Fogalom-térkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok)",
+      "title": "Fogalomtérkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok)",
       "purpose": "Közös vizuális keret, amely összeköti az M2 négy nagy témáját; a résztvevők kulcsszavakkal töltik fel és nyilakkal kötik össze, megmutatva az identitás→értékek→pillérek→személyes példamutatás összefüggést (4.3 Blokk 3, 2–3. lépés).",
-      "spec": "Flipchart-/poszter-sablon a fogalom-térképhez: négy nagy üres buborék/kör középen felcímkézve – Identitás, Értékek, Somer 3 pillére, Határok & személyes példamutatás. A körök körül és között üres hely a résztvevői kulcsszavaknak és a köröket összekötő nyilaknak. A sablon a buborékokat adja, a tartalmat (kulcsszavak, nyilak) a csoport tölti élőben.",
+      "spec": "Flipchart-/poszter-sablon a fogalomtérképhez: négy nagy üres buborék/kör középen felcímkézve – Identitás, Értékek, Somer 3 pillére, Határok & személyes példamutatás. A körök körül és között üres hely a résztvevői kulcsszavaknak és a köröket összekötő nyilaknak. A sablon a buborékokat adja, a tartalmat (kulcsszavak, nyilak) a csoport tölti élőben.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -12799,7 +12799,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a55b8111949790bb31d0c6d2b4cb5e51328b2ae6cf0f1504971b20eb6d783d58",
+      "spec_hash": "11ad5daabb20b255368f6e1049431befeff9a56d306fb3269f719fd431092a2e",
       "deliverable_ids": [
         "M2.F-POSZ-02",
         "M2.F-POSZ-02::PRINTPDF"
@@ -37847,7 +37847,7 @@
       "module": "M2",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
       "file_kind": "peula",
-      "title": "Identitás-térkép munkalap (ÉN + körök)",
+      "title": "Identitástérkép munkalap (ÉN + körök)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -37868,7 +37868,7 @@
       "module": "M2",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
       "file_kind": "peula",
-      "title": "Identitás-térkép munkalap (ÉN + körök) — nyomtatható PDF",
+      "title": "Identitástérkép munkalap (ÉN + körök) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -37889,7 +37889,7 @@
       "module": "M2",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
       "file_kind": "peula",
-      "title": "Identitás-térkép munkalap (ÉN + körök) — szerkeszthető, kitölthető változat",
+      "title": "Identitástérkép munkalap (ÉN + körök) — szerkeszthető, kitölthető változat",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -38120,7 +38120,7 @@
       "module": "M2",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md",
       "file_kind": "peula",
-      "title": "Egyéni reflexió + commit munkalap (A5)",
+      "title": "Egyéni reflexió + vállalás-munkalap (A5)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
@@ -38141,7 +38141,7 @@
       "module": "M2",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md",
       "file_kind": "peula",
-      "title": "Egyéni reflexió + commit munkalap (A5) — nyomtatható PDF",
+      "title": "Egyéni reflexió + vállalás-munkalap (A5) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
@@ -38330,7 +38330,7 @@
       "module": "M2",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md",
       "file_kind": "peula",
-      "title": "Fogalom-térkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok)",
+      "title": "Fogalomtérkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -38351,7 +38351,7 @@
       "module": "M2",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md",
       "file_kind": "peula",
-      "title": "Fogalom-térkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok) — nyomtatható PDF",
+      "title": "Fogalomtérkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",

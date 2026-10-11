@@ -356,7 +356,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M2.A-KART-01` | card-set | legyártandó | specifikáció kész | Identitás-vonal állítás-kártyák (8 db szett) | — | nyomtatható PDF | emberi |
 | `M2.A-KART-03` | card-set | legyártandó | specifikáció kész | Kiscsoportos feldolgozás – beszélgetőkérdés-kártya / facilitátor-segédlet (4 kérdés) | — | nyomtatható PDF | emberi |
-| `M2.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Identitás-térkép munkalap (ÉN + körök) | — | nyomtatható PDF, szerkeszthető, kitölthető változat | emberi |
+| `M2.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Identitástérkép munkalap (ÉN + körök) | — | nyomtatható PDF, szerkeszthető, kitölthető változat | emberi |
 | `M2.A-POSZ-01` | poster | legyártandó | specifikáció kész | Megosztási szabályok flipchart-sablon (kettős funkció: közös minták gyűjtéséhez is) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md
@@ -369,7 +369,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M2.B-KART-02` | card-set | legyártandó | specifikáció kész | Storyboard-feladat instrukciós kártya | — | nyomtatható PDF | vegyes |
 | `M2.B-MUNK-01` | worksheet | legyártandó | specifikáció kész | A/B kép storyboard nagylap-sablon (flipchart) | — | nyomtatható PDF | vegyes |
 | `M2.B-MUNK-02` | worksheet | legyártandó | specifikáció kész | Képzői ellenőrző lista – 1 A4 sablon | — | nyomtatható PDF | vegyes |
-| `M2.B-MUNK-03` | worksheet | legyártandó | specifikáció kész | Egyéni reflexió + commit munkalap (A5) | — | nyomtatható PDF | vegyes |
+| `M2.B-MUNK-03` | worksheet | legyártandó | specifikáció kész | Egyéni reflexió + vállalás-munkalap (A5) | — | nyomtatható PDF | vegyes |
 | `M2.B-POSZ-01` | poster | legyártandó | specifikáció kész | Somer-pillér poszterszett (3 db A3) | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md
@@ -381,7 +381,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M2.F-MUNK-01` | worksheet | legyártandó | specifikáció kész | Jegyzetlap az F-peulához – „1 gondolat / 1 kérdés leckénként” | — | nyomtatható PDF | emberi |
 | `M2.F-MUNK-02` | worksheet | legyártandó | specifikáció kész | Képzői ellenőrző lista – Felzárkóztató peula (1 A4) | — | nyomtatható PDF | emberi |
 | `M2.F-POSZ-01` | poster | legyártandó | specifikáció kész | Tájékozódó tábla – M2 leckelista + név nélküli témakérések | — | nyomtatható PDF | emberi |
-| `M2.F-POSZ-02` | poster | legyártandó | specifikáció kész | Fogalom-térkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok) | — | nyomtatható PDF | emberi |
+| `M2.F-POSZ-02` | poster | legyártandó | specifikáció kész | Fogalomtérkép flipchart-sablon – 4 buborék (identitás–értékek–pillérek–határok) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md
 
