@@ -19,6 +19,26 @@
     }
   },
   "permissions": {
+    "allow": [
+      "Bash(python3 tools/content_integrity.py)",
+      "Bash(python3 tools/content_integrity.py --release-report)",
+      "Bash(python3 tools/content_integrity.py --selftest)",
+      "Bash(python3 tools/content_integrity.py --strict-release)",
+      "Bash(python3 tools/media_manifest.py --selftest)",
+      "Bash(python3 tools/media_manifest.py validate)",
+      "Bash(python3 tools/media_manifest.py check)",
+      "Bash(python3 tools/media_manifest.py reconcile)",
+      "Bash(python3 tools/media_manifest.py stats)",
+      "Bash(python3 tools/media_manifest.py lint --high-only)",
+      "Bash(python3 -m unittest tools.test_media_manifest)",
+      "Bash(python3 tools/autopilot_ledger.py validate)",
+      "Bash(python3 tools/autopilot_ledger.py check)",
+      "Bash(python3 tools/autopilot_ledger.py next)",
+      "Bash(python3 tools/autopilot_ledger.py --selftest)",
+      "Bash(bash .claude/hooks/guard-repo-safety.sh --selftest)",
+      "Bash(bash .github/read-only-workflows.sh)",
+      "Bash(bash .github/read-only-workflows.sh --selftest)"
+    ],
     "deny": [
       "Bash(git reset --hard*)",
       "Bash(git reset --ha*)",
@@ -138,7 +158,6 @@
       "Bash(gh repo fork*)",
       "Bash(gh repo edit*)",
       "Bash(gh repo set-default*)",
-      "Bash(* --pin-visible*)",
       "Edit(/.claude/hooks/**)",
       "Edit(/.claude/settings.json)",
       "Edit(/.claude/skills/**)",

@@ -12,9 +12,10 @@ context-tömörítés, és a scratchpad újraindításkor törlődik: az állapo
 2. Hozd létre a **naplót** (`Write`): `01 Fejlesztés/04 Audit/<ÉÉÉÉ-HH-NN> course-fix napló –
    <csomag rövid neve>.md`. Egy sor **lépésenként**: `| ID | lépés | fájl | állapot | megjegyzés |`,
    kezdetben `várakozik`. A forrást szerepnéven nevezd meg (pl. „VO QA-repó fix pack”), abszolút
-   útvonal és privát repónév nem kerül bele.
-3. Köztes commit nincs: a csomag köztes állapotai tervezetten lehetnek pirosak (lásd 3.). Commit
-   csak a végén, és csak a felhasználó kérésére.
+   útvonal és privát repónév nem kerül bele. Autopilot-futásban (`--run`) nincs külön napló: a
+   tételek állapota a `AUTOPILOT-LEDGER.md`-ben él.
+3. Köztes commit nincs: a csomag köztes állapotai tervezetten lehetnek pirosak (lásd 3.). A végén
+   a hívó commitol (a felhasználó kérésére vagy a `/course-autopilot`).
 
 ## 2. Lépésenként (a SKILL.md 1–6. lépése), plusz
 
@@ -35,7 +36,8 @@ context-tömörítés, és a scratchpad újraindításkor törlődik: az állapo
     `már alkalmazva`; ha egyik sincs meg → `kihagyva: a fájl eltér`, és jelzed.
 - Egy lépés = egy `Edit`; `replace_all` csak, ha a lépés előírja.
 - A naplót **minden lépés után** frissítsd (`Edit`): `alkalmazva` / `már alkalmazva` /
-  `kihagyva: <ok>` / `megállva: emberi döntés` / `megállva: részben alkalmazva`.
+  `kihagyva: <ok>` / `blokkolva: emberi döntés` / `megállva: részben alkalmazva`. Egy blokkolt vagy
+  részben alkalmazott lépés csak azt a lépést állítja meg; a tőle független lépésekkel folytatod.
 
 ## 3. Fájlcsoport végén
 
