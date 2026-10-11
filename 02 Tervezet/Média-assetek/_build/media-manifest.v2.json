@@ -3074,10 +3074,10 @@
       "id": "M5.1-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 621,
+      "line": 630,
       "body_lines": [
-        622,
-        630
+        631,
+        639
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -21415,7 +21415,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 535,
+      "line": 544,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -21462,8 +21462,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        622,
-        630
+        631,
+        639
       ],
       "source_text": "„Köszi, hogy végigcsináltad ezt a leckét.\nMostanra látod, hogy a Somer **nem suli, de nem is csak közös lógás**:\nnonformális nevelés, ahol kvucával, élményekkel tanulunk.\n\nA következő leckében azt nézzük meg,\nhogyan jutsz el egy peula tervezésekor a **feladattól a célon és a kvucán át a módszerig** –\nés nem fordítva.”",
       "source_hash": "6e308c759e01baa70a0cfec5db798d7a3255f220c3ff9370c6af0773c02334a4",
@@ -21502,7 +21502,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 47,
+      "line": 51,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -21533,7 +21533,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Ez a lecke gerince; ugyanaz a diagram újrahasználva SLIDE 1, 6A-6D mini-összegzésekben és SLIDE 9-en.",
+      "notes": "Ez a lecke gerince; ugyanaz a diagram újrahasználva SLIDE 1, 6A-6D miniösszegzésekben és SLIDE 9-en.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -21568,14 +21568,14 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 152,
+      "line": 156,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Döntési fa térkép – 4 ág + közös visszacsatlakozás",
       "purpose": "Vizuálisan érthetővé teszi a tanulónak (és a fejlesztőnek) a Branching Scenario szerkezetét; megmutatja, hogy bármelyik ág ugyanoda fut be.",
-      "spec": "Branching-térkép ábra: egy gyökérből (SLIDE 2) négy ág (A: ismerkedés, B: érték-reflexió, C: készségfejlesztés, D: infóátadás) indul, mindegyik 4 lépésen (cél-mini → kvuca → módszer → összegzés) fut át, majd mind a 4 ág visszacsatlakozik a közös SLIDE 7-8-9 záróblokkba. Ágszínek/ikonok megkülönböztetve.",
+      "spec": "Branching-térkép ábra: egy gyökérből (SLIDE 2) négy ág (A: ismerkedés, B: értékreflexió, C: készségfejlesztés, D: infóátadás) indul, mindegyik 4 lépésen (mini-célmagyarázat → kvuca → módszer → összegzés) fut át, majd mind a 4 ág visszacsatlakozik a közös SLIDE 7-8-9 záróblokkba. Ágszínek/ikonok megkülönböztetve.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -21614,7 +21614,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a04b1d4a25f588056cce7d5bcc13d6144e4cf962dc415019d451a90c2d04066b",
+      "spec_hash": "226b93019770265184ec67df6480cb22b291a2ff509318fe6abf54e59889995b",
       "deliverable_ids": [
         "M5.2-DIA-02",
         "M5.2-DIA-02::ALTTEXT"
@@ -21634,14 +21634,14 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 212,
+      "line": 216,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Ág-azonosító ikonkészlet (4 ikon)",
       "purpose": "Vizuális ágazonosítás: a tanuló minden ág-slide-on azonnal felismeri, melyik útvonalon jár; következetes vizuális nyelv a döntési fában.",
-      "spec": "Négy egységes stílusú ikon a négy ághoz: (A) palánta/csíra = ismerkedés & bizalomépítés, (B) kézfogás = érték-reflexió, (C) puzzle-darab = készségfejlesztés/együttműködés, (D) naptár = infóátadás/tábori program. A forrásban emojiként jelölve, de gyártandó, márkázott ikonkészletté egységesítendő.",
+      "spec": "Négy egységes stílusú ikon a négy ághoz: (A) palánta/csíra = ismerkedés & bizalomépítés, (B) kézfogás = értékreflexió, (C) puzzle-darab = készségfejlesztés/együttműködés, (D) naptár = infóátadás/tábori program. A forrásban emojiként jelölve, de gyártandó, márkázott ikonkészletté egységesítendő.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -21680,7 +21680,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "24fda96510b6ece679889e8b5e5401683e12d026062f5a7875e2ed6531874e96",
+      "spec_hash": "a133fe40a79f98c92bc7905c84a8c47108866488b97207801adadcf61b2c4bf1",
       "deliverable_ids": [
         "M5.2-IKO-01",
         "M5.2-IKO-01::ALTTEXT"
@@ -21697,7 +21697,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 85,
+      "line": 89,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -21763,7 +21763,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md",
-      "line": 577,
+      "line": 593,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -21824,14 +21824,14 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "line": 387,
+      "line": 393,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Dialog Cards Leitner-pakli (Repetition mód) – akadálymentes interaktív elem",
       "purpose": "Önreferenciális modell-elem: a lecke maga modellezi az aktív felidézést (azonos ülésen belüli ismételt előhívással), nem csak beszél róla. A kapuhoz kapcsolódó lecke kritikus interaktív komponense, explicit WCAG-specifikációkkal, amelyeket éles indítás előtt biztosítani kell.",
-      "spec": "H5P Dialog Cards interaktív elem `Repetition` (Leitner) módban, 6-7 kártyával (Pakli A: 3 definíciós kártya gyakorlás/aktív felidézés/időben elosztott gyakorlás; Pakli B: 4 someres felismerő kártya). Azonos ülésen belüli ismételt előhívás interakció: kártya eleje (inger) → fejből válasz → megfordítás → „tudtam”/„még gyakorolnám” jelölés → nem tudott kártya visszakerül. Kötelező akadálymentesség: érintőfelület ≥ 24×24 CSS px (WCAG 2.5.8 AA); billentyűzettel + képernyőolvasóval teljes lapozás/megfordítás/Leitner-jelölés (WCAG 2.1.1 A); látható, időkorlát nélküli fókuszjelölés (WCAG 2.4.7 AA).",
+      "spec": "H5P Dialog Cards interaktív elem `Repetition` (Leitner) módban, 6-7 kártyával (Pakli A: 3 definíciós kártya gyakorlás/aktív felidézés/időben elosztott gyakorlás; Pakli B: 4 someres felismerő kártya). Azonos ülésen belüli ismételt előhívás interakció: kártya eleje (inger) → fejből válasz → megfordítás → „tudtam”/„még gyakorolnám” jelölés → nem tudott kártya visszakerül. Kötelező akadálymentesség: érintőfelület ≥ 24×24 CSS px (WCAG 2.5.8 AA); billentyűzettel + képernyőolvasóval teljes lapozás/megfordítás/Leitner-jelölés (WCAG 2.1.1 A; a képernyőolvasós részhez WCAG 4.1.2 Name, Role, Value, A); látható, időkorlát nélküli fókuszjelölés (WCAG 2.4.7 AA).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -21863,7 +21863,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b5e3d398cacaf386dde2cbed1dfb1e55dea2c898f2d92cc6d176896b2a831ce1",
+      "spec_hash": "c77196714011bcdee973e42784e3ed1306db4cd878908bc90468c0617aafde32",
       "deliverable_ids": [
         "M5.3-EGY-01"
       ],
@@ -21879,7 +21879,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "line": 129,
+      "line": 131,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -22011,7 +22011,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md",
-      "line": 203,
+      "line": 205,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -22082,7 +22082,7 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Minta-táblázat kártya-nézet (mobilbarát) – 3 helyzet blokk",
+      "title": "Mintatáblázat kártya-nézet (mobilbarát) – 3 helyzet blokk",
       "purpose": "Konkrét, követhető példa a tanulónak arról, hogyan néz ki a saját elkészítendő táblázata; mintaként vezeti a SLIDE 4–5 saját kitöltést és az M5.4-MUNK-01 sablon tartalmi forrása is.",
       "spec": "3 kártyából álló, mobilbarát vizuális minta-elrendezés; minden kártya egy helyzet, benne a 4 mező egymás alatt (Feladat / cél, Kvuca, Módszer / forma, Tanulástan-szemlélet) a SLIDE 2 minta pontos tartalmával (1. ismerkedés / 2. szolidaritás-reflexió / 3. szabály-tisztázás). Mezőcímkék kiemelve, tiszta tipográfia. ELSŐDLEGESEN H5P-ben szövegként renderelendő; csak akkor készüljön külön vizuális asset, ha designolt kártya-mintaként jelenik meg.",
       "provenance": "ai",
@@ -22123,7 +22123,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "edfd7cbdae6879b302df2020f5ae259d35d57b63e1e00b8c174c70a20a07f19a",
+      "spec_hash": "3850eaad4d9d91f8dfaa2d39d95f0dc9115f65c1a40507e70a9124937371c56e",
       "deliverable_ids": [
         "M5.4-ILL-01",
         "M5.4-ILL-01::ALTTEXT"
@@ -22200,7 +22200,7 @@
       "module": "M5",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
-      "line": 152,
+      "line": 154,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
@@ -22267,7 +22267,7 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Poszter-sablon: 4 mezős „átöltöztetés” mini-táblázat",
+      "title": "Poszter-sablon: 4 mezős „átöltöztetés” minitáblázat",
       "purpose": "Strukturálja a kiscsoportos alkotást a feladat→cél→kvuca→módszer lánc mentén; biztosítja, hogy a poszter a galériasétán önmagában, kívülálló számára is érthető legyen.",
       "spec": "Kiscsoportonkénti A3/flipchart-lap sablon a fő gyakorlathoz. Felül sáv a kiinduló helyzet rövid (1–2 mondatos) leírásának. Alatta 4 mezős mini-táblázat: (1) Feladat / cél – mit éljen át/tanuljon a kvuca; (2) Kvuca – korosztály, hangulat, beszédesség; (3) Módszer / forma – konkrét gyakorlat/peula-részlet; (4) Mitől lesz Somer? – 1 mondat a sulis/spontán verziótól való különbségről. A mezők megnevezve, a csoport tölti ki filccel. Lehet üres A3 + külön mintaábra a 4 mező elrendezéséről, vagy előrenyomtatott keret. A poszter mellé szabad sáv/margó is kell a galériaséta post-it/pötty reakcióinak.",
       "provenance": "mixed",
@@ -22306,7 +22306,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5449c2833746ed0648dddd9da599d6320f40ca08b1a75035b0f69725d2571d10",
+      "spec_hash": "d9968fce6def43fa5591aa9b3a379c8d138845726fd6f135d491625e0a9d966c",
       "deliverable_ids": [
         "M5.A-MUNK-01",
         "M5.A-MUNK-01::PRINTPDF"
@@ -22323,7 +22323,7 @@
       "module": "M5",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
-      "line": 294,
+      "line": 296,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -22337,7 +22337,7 @@
         "note": "1 db flipchart-lap vagy A3 sablon; kézzel írható vagy nyomtatható/kivetíthető; magyar nyelv"
       },
       "a11y": {
-        "note": "Nagy, kontrasztos felirat a teremből olvashatósághoz; a lánc szóban is elhangzik az élő mini-felvezetőben (214-221), így nem csak vizuálisan érhető el."
+        "note": "Nagy, kontrasztos felirat a teremből olvashatósághoz; a lánc szóban is elhangzik az élő mini-felvezetőben (4.3.1), így nem csak vizuálisan érhető el."
       },
       "derivatives": [
         "print-pdf"
@@ -22352,7 +22352,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Tartalmilag kapcsolódik a 4.3.2 4 mezős sablonhoz (M5.A-MUNK-01); a lánc három eleme oda kerül át mezőkként (a 4. mező a „Mitől lesz Somer?”). Élőben kiváltja a 4.3.1 instrukció (190) „táblára felírt struktúra” szükségletét is.",
+      "notes": "Tartalmilag kapcsolódik a 4.3.2 4 mezős sablonhoz (M5.A-MUNK-01); a lánc három eleme oda kerül át mezőkként (a 4. mező a „Mitől lesz Somer?”). Élőben kiváltja a 4.3.1 instrukció „táblára felírt struktúra” szükségletét is.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -22367,7 +22367,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "81071c691a1cad6893cb1dc55c69d4d23f260c4edd3b19e5f8a30aacc3c1f1e8",
+      "spec_hash": "bed14bd71794160f011dd6c566e31e950668867e5d2751d09cf96d4f80c40a1b",
       "deliverable_ids": [
         "M5.A-MUNK-02",
         "M5.A-MUNK-02::PRINTPDF"
@@ -22384,7 +22384,7 @@
       "module": "M5",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
-      "line": 186,
+      "line": 188,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -22452,7 +22452,7 @@
       "status": "spec-ready",
       "title": "Indítósor-kártyaszett (6-8 db kész táblázat-sor)",
       "purpose": "Tartalékeszköz: ha a résztvevő nem hozta el / nem készült el az M5.4 táblázata, azonnal van miből dolgozni; a peula fő gyakorlata (1 sor → peula-részlet) így sem akad el. Az 'Indítókártyás mód' (kapu-csúszás) fő hordozója.",
-      "spec": "6-8 db nyomtatott kártya, mindegyiken egy kész 'táblázat-sor': CÉL + KVUCA (kor + hangulat) + 1 nyers MÓDSZER-mag. A forrás 6 konkrét mintát ad (44-50. sor): névtanulós labdajáték; szabály-színház; dilemma-kártyák + sarokba állás; gyors kvíz párokban; közös kihívás-pálya; páros interjú. A 6-8 db eléréséhez 1-2 további sort is meg kell írni hasonló mintára. A táblázatot nem hozó/elakadt csoport húz egyet, a saját korosztályára alakítja, és abból tervez tovább.",
+      "spec": "6-8 db nyomtatott kártya, mindegyiken egy kész 'táblázatsor': CÉL + KVUCA (kor + hangulat) + 1 nyers MÓDSZER-mag. A forrás 6 konkrét mintát ad (2.1): névtanulós labdajáték; szabályszínház; dilemmakártyák + sarokba állás; gyors kvíz párokban; közös kihíváspálya; páros interjú. A 6-8 db eléréséhez 1-2 további sort is meg kell írni hasonló mintára. A táblázatot nem hozó/elakadt csoport húz egyet, a saját korosztályára alakítja, és abból tervez tovább.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22488,7 +22488,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a473898c7cce73ecbf7a4096d0d965f75730ffd3298b551c72db2433b83fd3dc",
+      "spec_hash": "07fe621f110adecc8851a642824d3e39032a66bab1112af988bcb36404fbc20c",
       "deliverable_ids": [
         "M5.B-KART-01",
         "M5.B-KART-01::PRINTPDF"
@@ -22512,7 +22512,7 @@
       "status": "spec-ready",
       "title": "Élő kvíz – képzői állítás-kártyák (5 db igaz/hamis + súgó)",
       "purpose": "A nyitóblokk (0–10') hordozója: a képző folyékonyan, sorrendben tudja felolvasni az 5 állítást és a hozzá tartozó helyes választ + magyarázatot, hogy a tanulástan három kulcsfogalmát (gyakorlás, aktív felidézés, időben elosztott gyakorlás) élőben aktiválja. A checklist kötelező előkészített eleme.",
-      "spec": "5 db előre megírt, nyomtatott állítás-kártya az induló élő (igaz/hamis, állj-egyik-oldalra) kvízhez. A forrás (100-121. sor) MIND az 5 állítást szó szerint megadja, mindegyikhez a helyes választ és a képző által felolvasandó rövid magyarázatot: (1) időben elosztott gyakorlás = egyetlen hosszú blokk (Hamis); (2) kérdezés→aktív felidézés (Igaz); (3) madrih sokat beszél (Hamis); (4) gyakorlás=csinál valamit (Igaz); (5) többszöri visszatérés=időben elosztott gyakorlás (Igaz). Kártyánként: állítás szövege + HELYES válasz jelölése + 1-2 mondatos képzői súgó. Legyártandó: ezek tördelt, felolvasható elrendezése (képzői súgó-kártya / lap).",
+      "spec": "5 db előre megírt, nyomtatott állítás-kártya az induló élő (igaz/hamis, kézfeltartásos) kvízhez. A forrás (4.1) MIND az 5 állítást szó szerint megadja, mindegyikhez a helyes választ és a képző által felolvasandó rövid magyarázatot: (1) időben elosztott gyakorlás = egyetlen hosszú blokk (Hamis); (2) kérdezés→aktív felidézés (Igaz); (3) madrih sokat beszél (Hamis); (4) gyakorlás=csinál valamit (Igaz); (5) többszöri visszatérés=időben elosztott gyakorlás (Igaz). Kártyánként: állítás szövege + HELYES válasz jelölése + 1-2 mondatos képzői súgó. Legyártandó: ezek tördelt, felolvasható elrendezése (képzői súgó-kártya / lap).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22548,7 +22548,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d2863b1d7e8b0c23eec0b6b38a667553907eb13538602c06c863409527eb0b98",
+      "spec_hash": "1044a5f58274b05c23247dba3c93a6c6fc3dea26f03753f60ff6a2ce82984242",
       "deliverable_ids": [
         "M5.B-KART-02",
         "M5.B-KART-02::PRINTPDF"
@@ -22572,7 +22572,7 @@
       "status": "spec-ready",
       "title": "A3 / flipchart üres vázlatlap (3-4 blokkos peula-részlet)",
       "purpose": "Hordozó a kiscsoportos poszterezéshez: a 10-15 perces peula-részlet vázlatának (cél, kvuca, felépítés, tanulástan-elem) megrajzolásához.",
-      "spec": "Kiscsoportonként 1 db A3/flipchart-lap a peula-részlet vázlatának. A forrás szerint ez alapvetően ÜRES lap, amit a csoportok filccel töltenek ki; a 'javasolt rajz' csak ajánlás: 3-4 blokk (indítás / fő aktivitás / minizárás). A poszterre a csoportoknak min. 4 részt kell rajzolniuk (4.2.2, 174-180): (1) Cél, (2) Kvuca-jellemzők kor+hangulat, (3) Konkrét gyakorlat/játék lépésekben, (4) Hol jelenik meg: gyakorlás/aktív felidézés/időben elosztott gyakorlás. FONTOS: a forrás nem ír elő nyomtatott mezőket – a lap üres, a struktúrát a táblára felírt sablon adja (lásd M5.B-MUNK-03). Opcionálisan elő lehet rajzolni a 3-4 blokkot.",
+      "spec": "Kiscsoportonként 1 db A3/flipchart-lap a peula-részlet vázlatának. A forrás szerint ez alapvetően ÜRES lap, amit a csoportok filccel töltenek ki; a 'javasolt rajz' csak ajánlás: 3-4 blokk (indítás / fő aktivitás / minizárás). A poszterre a csoportoknak min. 4 részt kell rajzolniuk (4.2.2): (1) Cél, (2) Kvuca-jellemzők kor+hangulat, (3) Konkrét gyakorlat/játék lépésekben, (4) Hol jelenik meg: gyakorlás/aktív felidézés/időben elosztott gyakorlás. FONTOS: a forrás nem ír elő nyomtatott mezőket – a lap üres, a struktúrát a táblára felírt sablon adja (lásd M5.B-MUNK-03). Opcionálisan elő lehet rajzolni a 3-4 blokkot.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22608,7 +22608,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f9695e4ec5f3f72cf120b245b5823156a9588041a3bf13ecac3d884c66ed3fa6",
+      "spec_hash": "4d97f207a2b73cfa0342f193388c98aa67b30773ad23cdc2bf04e6a44a7506ed",
       "deliverable_ids": [
         "M5.B-MUNK-01",
         "M5.B-MUNK-01::PRINTPDF"
@@ -22773,7 +22773,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Begyűjthető a Blokk 3 elején név nélküli kérdésgyűjtésnek (line 172, 222–224). Tartalmilag kapcsolódik az M5.4 mini-táblázathoz; a checklist (line 335) is hivatkozza.",
+      "notes": "Begyűjthető a Blokk 3 elején név nélküli kérdésgyűjtésnek (4.2, 3. lépés; 4.3.1). Tartalmilag kapcsolódik az M5.4 mini-táblázathoz; a checklist (5. ellenőrző lista) is hivatkozza.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -22893,7 +22893,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Filcek a táblához (line 68) sima eszköz, nem asset. Élőben épül ki a társas aktív felidézés (4.3.0) és kérdésgyűjtés (4.3.1) után; a nyilak/összekötések a 4.3.3-ban kerülnek rá.",
+      "notes": "Filcek a táblához (2.1) sima eszköz, nem asset. Élőben épül ki a társas aktív felidézés (4.3.0) és kérdésgyűjtés (4.3.1) után; a nyilak/összekötések a 4.3.3-ban kerülnek rá.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -44963,7 +44963,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md",
       "file_kind": "online-lecke",
-      "title": "Minta-táblázat kártya-nézet (mobilbarát) – 3 helyzet blokk",
+      "title": "Mintatáblázat kártya-nézet (mobilbarát) – 3 helyzet blokk",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -44984,7 +44984,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md",
       "file_kind": "online-lecke",
-      "title": "Minta-táblázat kártya-nézet (mobilbarát) – 3 helyzet blokk — alt-szöveg",
+      "title": "Mintatáblázat kártya-nézet (mobilbarát) – 3 helyzet blokk — alt-szöveg",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -45089,7 +45089,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
       "file_kind": "peula",
-      "title": "Poszter-sablon: 4 mezős „átöltöztetés” mini-táblázat",
+      "title": "Poszter-sablon: 4 mezős „átöltöztetés” minitáblázat",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
@@ -45110,7 +45110,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
       "file_kind": "peula",
-      "title": "Poszter-sablon: 4 mezős „átöltöztetés” mini-táblázat — nyomtatható PDF",
+      "title": "Poszter-sablon: 4 mezős „átöltöztetés” minitáblázat — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",

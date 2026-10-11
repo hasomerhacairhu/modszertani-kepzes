@@ -662,7 +662,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M5.4-ILL-01` | illustration | legyártandó | specifikáció kész | Minta-táblázat kártya-nézet (mobilbarát) – 3 helyzet blokk | — | alt-szöveg | AI-generált |
+| `M5.4-ILL-01` | illustration | legyártandó | specifikáció kész | Mintatáblázat kártya-nézet (mobilbarát) – 3 helyzet blokk | — | alt-szöveg | AI-generált |
 | `M5.4-MUNK-01` | worksheet | legyártandó | specifikáció kész | Letölthető „Feladat–kvuca–módszer + tanulástan” kitölthető sablon (doc / sheet) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md
@@ -672,7 +672,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M5.A-KART-01` | card-set | legyártandó | specifikáció kész | 12 helyzetkártya – kétoldalas szett (front: sztori, hátlap: címke) | — | nyomtatható PDF | vegyes |
-| `M5.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Poszter-sablon: 4 mezős „átöltöztetés” mini-táblázat | — | nyomtatható PDF | vegyes |
+| `M5.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Poszter-sablon: 4 mezős „átöltöztetés” minitáblázat | — | nyomtatható PDF | vegyes |
 | `M5.A-MUNK-02` | worksheet | legyártandó | specifikáció kész | Flipchart-sablon: „Feladat / Cél → Kvuca → Módszer” lánc | — | nyomtatható PDF | vegyes |
 | `M5.A-POSZ-01` | poster | legyártandó | specifikáció kész | 3 sarok-felirat: SULI / SOMER / HÉTKÖZNAPOK | — | nyomtatható PDF | vegyes |
 

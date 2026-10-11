@@ -270,7 +270,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Ikon-készlet | `M4.3-IKO-01` | B0 | — | 40 | Kérdéstípus szín-ikon készlet (4 db) |
 | Illusztráció | `M3.3-ILL-02` | B0 | — | 46 | Jelenet – Branching 2: sértő mém a csoportchatben |
 | Munkalap / nyomtatvány | `Z.A-MUNK-01` | B0 | — | 66 | Híd a terepre – kétoszlopos poszter-sablon |
-| Poszter és kártyaszett | `M5.B-KART-01` | B0 | — | 59 | Indítósor-kártyaszett (6-8 db kész táblázat-sor) |
+| Poszter és kártyaszett | `M2.F-POSZ-01` | B0 | — | 59 | Tájékozódó tábla – M2 leckelista + név nélküli témakérések |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B0 | — | 4 | Hook háttér – someres/kvuca-vizuál |
 | H5P-interakció / Moodle-elem | `M3.4-EGY-03` | B0 | — | 27 | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett) |
 | Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Galériaséta reakció-eszközök (post-it / pötty-matrica) |
