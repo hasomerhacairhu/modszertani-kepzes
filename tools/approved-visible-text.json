@@ -161,36 +161,36 @@
       "sha256": "8d4ad3785c69b7a3befc0d38040131c688a2c8c1d3c8d42ac0574bf1313f11dc"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "35e5483a999f3dd6198b09478646390244b4bbf8e38aa94bf612135eb21fd60a"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "441d73dbd40694f4218352ca2b0923f43c7e347682c957b249ef93cf1e31274a"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
-      "reason": "Command 6 (C6-01…C6-19): PR-01 adatleltár build-része, PR-02 tanulói adatvédelmi tájékoztató, A11Y-07 G5a/G5b, A11Y-17 offline változat, BIZT-2/3/4/11, M0/M1 hub ütemezés-semleges sor, Memuna-felsorolás példálózó, M4.1 példa/változat szóhasználat",
-      "sha256": "1c5c65bf5d241d00dbdc6f07a5facd94cc2aa6739ced98b30e7b681a15ba06f4"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "62f197ee9ed028fc4fe245ba90dc2ae855a785c23769fc9ae45500072d820dd8"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
-      "reason": "VO D-13, D-16, D-17, D-18, D-19, D-20, D-21; 2026-10-03-B; PED-1, PED-2, NYELV-8, IMPL-6, IMPL-7, IMPL-30, IMPL-31, IMPL-34, IMPL-35, IMPL-36; AF-01, AF-02: VO 2. fázis course fix pack (projektgazdai döntés, 2026-10-03) és a 2026-10-03-i külső audit két objektív javítása",
-      "sha256": "f0eb213db6d834788c950321fb86f3baf0b1e6df5308a711d4aec7e9a5edf5d5"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "ecf99a93124af22ed70ad24602ce79b493a82732a6822236f0a61683f762fafe"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md": {
-      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
-      "sha256": "45146dbab517783472974c0e9abbf0656c4b1e18d69ee6800c07a76c201375bb"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "bc5da548ae53a14ab6448ee7d87b0aa6bc7514f37543a22d30a3e7f5c5069162"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
-      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
-      "sha256": "3cf7d32ab13566f6b0da282c6a2ca5b65787361d08bb89b5047f22ef91b17fc0"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "35aa3cccab47a83f8614daeae6997e6f2c31ef9d5c66451e1a897a5375e4b8f8"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "a98222d67603f122c3561c2e7dfb87bcffd7225ad64a0fc2bf634e733299b30b"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "efd767cf8f8acd92c2aaa707abd78e57eb11ec13627c1080404e95c463fb3e2c"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "42564a15493569d6293db201b3c743a146810b8f16dc5c8dcf40b69a8b49cb2e"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "b3756d950cf9ec7e2e87dde3eec9216fe4431eec9378df249d9515b5217c0c64"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "d7e79a115c1e05be8515033b52d0444a0de80f4578f5876dcf72f88f84949eb9"
+      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "3759d6a8fbcbd26da4d366103b89c87987c87bcc4ba21325c9e2aebb0b4328e9"
     },
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
       "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",

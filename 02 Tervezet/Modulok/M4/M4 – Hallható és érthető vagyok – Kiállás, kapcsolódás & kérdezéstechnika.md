@@ -39,7 +39,7 @@ A modul végére a résztvevő…
    * Képes egy 20–30 mp-es belépőt úgy elmondani, hogy a kijelölt távolságból a társ legalább a kulcsmondatot érthetően hallja; ha a tér/zaj ezt nem teszi lehetővé, **környezeti megoldást választ** (közelebb hívja a csoportot, csökkenti a háttérzajt, szükség esetén mikrofont használ), nem „túlharsogja” a teret.
      *(Főleg: M4.A „Hang-létra” gyakorlat; a blokk nem hangterápia és nem értékeli a hangszínt.)*
 3. **Aktív hallgatás & visszatükrözés**
-   * Felismeri a különbséget a **lezáró / bagatellizáló** és a **támogató, visszatükröző** reakciók között.
+   * Felismeri a különbséget a **lezáró / elütő** és a **támogató, visszatükröző** reakciók között.
    * Tud használni egyszerű **visszatükröző mondatokat** („Azt hallom, hogy…”, „Úgy tűnik, neked az a fontos, hogy…”), és nem ugrik azonnal tanácsadásba.
      *(Főleg: M4.2, M4.A, M4.B)*
 4. **Kérdezéstechnika – kérdésfajták tudatos használata**
@@ -59,29 +59,29 @@ A modul végére a résztvevő…
 
 * **Szerepe a modulban:** belépő a „test mint üzenet” témába; ráhangolás arra, hogy a kvuca már az első másodpercekben olvas a nonverbális jelekből.
 * **Kulcstémák:** testtartás, tekintet, térfoglalás; „zárt” vs. „nyitott” kiállás; 1–2 saját fejlesztési fókusz megfogalmazása.
-* **Formátum:** H5P Course Presentation (6 slide, mobil-first) rövid videókkal és reflektív kérdésekkel.
-* **Completion:** lecke végignézve + 2 reflektív kérdés megválaszolva (Moodle completion).
+* **Formátum:** H5P Course Presentation (6 slide, mobil-first) rövid videókkal; a reflektív kérdések a lecke melletti szövegmezőben vannak (LMS-M4-06).
+* **Completion:** a pontozott interakciók eredménye, amelyet a Course Presentation az összefoglaló dián küld el (Moodle: „Receive a grade”, Grade to pass nélkül; „Hide summary slide” = No; H5P-C profil, BSPEC-06), és a 2 reflektív kérdés megválaszolva a lecke melletti szövegmezőben (LMS-M4-06).
 
 ### M4.2 – Aktív hallgatás & visszatükrözés (L2, 15–20’)
 
 * **Szerepe a modulban:** nyelvet ad az aktív hallgatáshoz; megkülönbözteti a **lezáró** vs. **támogató** reakciókat.
 * **Kulcstémák:** „rá figyelek vs. elütöm”; visszatükröző mondatok alapsablonjai; mit él meg a másik egy-egy válasz mögött.
 * **Formátum:** H5P Course Presentation (6 slide) dialog cards + egyszerű csoportosító/drag&drop feladat.
-* **Completion:** lecke végignézve + 2 reflektív kérdés megválaszolva (1 saját visszatükröző mondat és 1 „elhagyandó” mondat megfogalmazása).
+* **Completion:** a pontozott interakciók eredménye, amelyet a Course Presentation az összefoglaló dián küld el (Moodle: „Receive a grade”, Grade to pass nélkül; „Hide summary slide” = No; H5P-C profil, BSPEC-06), és a 2 reflektív kérdés megválaszolva (1 saját visszatükröző mondat és 1 „elhagyandó” mondat megfogalmazása) a lecke melletti szövegmezőben (LMS-M4-07).
 
 ### M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések (L3, 15–20’)
 
 * **Szerepe a modulban:** kérdéstérkép adása; a madrih tudatosan látja, hogy **melyik kérdés mit csinál** a kvucával.
 * **Kulcstémák:** négy kérdéstípus definíciója + példák; „Na, értitek?” mint tipikus rossz kérdés; kérdések besorolása kategóriákba.
-* **Formátum:** H5P Course Presentation; csoportosító feladat 4 oszloppal + mini-kvíz a végén.
-* **Completion:** lecke végignézve + záró reflektív kérdés (melyik kérdéstípusból szeretne többet/kevesebbet használni).
+* **Formátum:** H5P Course Presentation; csoportosító feladat 4 oszloppal + minikvíz a végén.
+* **Completion:** a pontozott interakciók eredménye, amelyet a Course Presentation az összefoglaló dián küld el (Moodle: „Receive a grade”, Grade to pass nélkül; „Hide summary slide” = No; H5P-C profil, BSPEC-06), és a záró reflektív kérdés (melyik kérdéstípusból szeretne többet/kevesebbet használni) megválaszolva a lecke melletti szövegmezőben (LMS-M4-08).
 
 ### M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára (L4, 15–20’)
 
 * **Szerepe a modulban:** a modul **produktumának előkészítése** – konkrét peulabemutató-vázlat egy valós/valószerű kvucára.
 * **Kulcstémák:** 5 kérdéses peulabemutató-sablon (kihez beszélsz, miről szól, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza).
 * **Formátum:** H5P Course Presentation + külön Moodle Assignment („M4.4 – Peulabemutató-vázlat”) – ez lesz a modul kimeneti produktuma.
-* **Completion (modulszinten kulcs):** H5P lecke végignézve + **M4.4 Assignment leadva** – **nem üres beküldés**: az előírt mezőkben tényleges, minimálisan értelmezhető tartalom van (a puszta fájlfeltöltés nem completion). Hogy mind az 5 sablonelem (kvuca, téma, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza) azonosíthatóan jelen van-e, azt a §6 Kapu 2 rubrikája formatív visszajelzésként nézi; ez nem completion-feltétel.
+* **Completion (modulszinten kulcs):** a H5P pontozott minikvízének (SLIDE 4, Check) eredménye, amelyet a Course Presentation az összefoglaló dián küld el (Moodle: „Receive a grade”, Grade to pass nélkül; „Hide summary slide” = No; H5P-C profil, BSPEC-06), és a lecke záró vázlata beküldve a lecke melletti szövegmezőben (LMS-M4-09); modulszinten pedig **M4.4 Assignment leadva** – **nem üres beküldés**: az előírt mezőkben tényleges, minimálisan értelmezhető tartalom van (a puszta fájlfeltöltés nem completion). Hogy mind az 5 sablonelem (kvuca, téma, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza) azonosíthatóan jelen van-e, azt a §6 Kapu 2 rubrikája formatív visszajelzésként nézi; ez nem completion-feltétel.
 
 ***
 
@@ -96,7 +96,7 @@ A modul végére a résztvevő…
 ### Peula B (M4.B) – „Mit és hogyan kérdezek?” – Kérdezés & peulabemutató gyakorlása (45’)
 
 * **Kapcsolódó online leckék:** M4.2, M4.3, M4.4 (hallgatás – kérdések – peulabemutató).
-* **Fő fókusz:** a különböző kérdéstípusok **élő kipróbálása** (nyitott, zárt, tisztázó, irányító) és a saját 45 mp-es peulabemutató hangos gyakorlása kiscsoportban.
+* **Fő fókusz:** a különböző kérdéstípusok **élő kipróbálása** (nyitott és tisztázó; a zárt kör akkor jön, ha belefér; az irányító típust az M4.3 online leckéből ismerik fel) és a saját 45 mp-es peulabemutató hangos gyakorlása kiscsoportban.
 * **Modulbeli szerepe:** az M4.3–M4.4 tartalmak alkalmazása kvuca-helyzetben: kérdések hatásának megtapasztalása, peulabemutató gyakorlása + rövid társas visszajelzés; a modul végére 2 mondatos személyes fókusz megfogalmazása (melyik kérdéstípust használja tudatosan többet, melyik mondatot tartja meg a peulabemutatóból).
 
 ***
@@ -122,8 +122,8 @@ A modul végére a résztvevő…
 
 **Javasolt modulkapuk:**
 
-1. **Kapu 1 – M4.3 mini-kvíz + reflektív kérdés**
-   * **Eszköz:** az M4.3 H5P-ben lévő mini-kvíz és záró reflektív kérdés (kérdéstípusok felismerése).
+1. **Kapu 1 – M4.3 minikvíz + reflektív kérdés**
+   * **Eszköz:** az M4.3 H5P-ben lévő minikvíz (kérdéstípusok felismerése) és a záró reflektív kérdés a lecke melletti szövegmezőben (LMS-M4-08).
    * **Funkció:** ellenőrzi, hogy a résztvevő **megérti a kérdéstípusokat**, és tudatosan vállal egy változtatási irányt (melyiket használja többet / kevesebbet).
    * **Következmény:** ha gyenge az eredmény vagy hiányzik a completion, jelzés a mentornak / stábnak. A hiányzó completion lemaradás: a résztvevő csendes pótlással pótolja; gyenge eredménynél a mentor ajánlhatja az M4.F-et (F-peula, §5).
 2. **Kapu 2 – M4.4 beadandó – „Peulabemutató-vázlat”**
@@ -140,7 +140,7 @@ A modul végére a résztvevő…
 **Minimális teljesítés (M4 complete):**
 
 * **M4.1–M4.4 completion** érdemi kitöltéssel (nem csak a slide-ok végigléptetése; M4.1/M4.2/M4.3 reflektív kérdései megválaszolva).
-* **M4.4 peulabemutató-vázlat leadva érdemi tartalommal** – nem üres beküldés: az előírt mezőkben tényleges, minimálisan értelmezhető tartalom van, és ezt a kijelölt mentor megerősíti; a puszta fájlfeltöltés nem completion. Az 5 sablonelem megléte (a §6 Kapu 2 „alapszint / rendben” küszöbe) formatív visszajelzés: nem completion-feltétel, és nem zárja az M5-öt. A Moodle-beli megvalósítást az `LMS – activity manifest.md` LMS-M4-05 sora és 4. szakasza rögzíti. A kapueredményt legkésőbb 24 órával a következő fix alkalom előtt meg kell erősíteni; a még függőben lévő (meg nem erősített) eredmény nem bukás (Program terv §5).
+* **M4.4 peulabemutató-vázlat leadva érdemi tartalommal** – nem üres beküldés: az előírt mezőkben tényleges, minimálisan értelmezhető tartalom van, és ezt a kijelölt mentor megerősíti; a puszta fájlfeltöltés nem completion. Az 5 sablonelem megléte (a §6 Kapu 2 „alapszint / rendben” küszöbe) formatív visszajelzés: nem completion-feltétel, és nem zárja az M5-öt. A Moodle-beli megvalósítást az `LMS – activity manifest.md` LMS-M4-05 sora és 4. szakasza rögzíti. A mentori megerősítés helye az LMS-M4-10 (BSPEC-07): „Teljesítve” = az LMS-M4-05 legutóbb leadott vázlatának előírt mezőiben tényleges, minimálisan értelmezhető tartalom van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég); „Még nem teljesítve” esetén mentori visszajelzés, a tanuló javít, újra lead, a mentor újraellenőriz. A kapueredményt legkésőbb 24 órával a következő fix alkalom előtt meg kell erősíteni; a még függőben lévő (meg nem erősített) eredmény nem bukás (Program terv §5).
 
 *(A kapu továbbra is puha: a hiányos / „még nem éri el” szintű peulabemutató nem zár ki, csak mentori jelzést és finomító kört vált ki – de a „complete” nem áll be üres beküldésre. Összhangban van az M2 „nem üres beküldés / érdemi kitöltés” elvárásával.)*
 
@@ -160,15 +160,15 @@ A modul végére a résztvevő…
 2. **H5P-aktivitás részletei:**
    * M4.1–M4.2: mely nonverbális jelzéseket vagy reakciókat azonosítják sokan rosszul (zárt testtartás, „támogatónak” gondolt, valójában lezáró válaszok).
    * M4.3: mely kérdéstípusok keverednek leginkább (nyitott vs. irányító, tisztázó vs. zárt).
-3. **Kapukvíz / mini-kvíz eredmények (M4.3):**
-   * kérdésszintű statisztika: mely kérdéseknél hibáznak sokan → ezekhez az offline peulákon plusz példát / gyakorlást érdemes beépíteni (pl. több élő kérdésjáték M4.B-ben).
+3. **Kapukvíz / minikvíz eredmények (M4.3):**
+   * kérdésszintű statisztika: mely kérdéseknél hibáznak sokan → ezekhez az offline peulákon plusz példát / gyakorlást érdemes beépíteni (pl. több élő kérdésjáték az M4.B-ben).
    * *A 2. és 3. pont H5P-adatai nem külön Moodle-pontszámok: a Moodle-be a teljes Course Presentation összpontszáma jut, a kérdésenkénti eredmény tanulónként a H5P activity próbálkozás-riportjában látszik. Hogy a célverzió ad-e ebből összesített, kérdésszintű statisztikát, azt a célverzión kell igazolni.*
 4. **Assignment-adatok (M4.4 peulabemutató-vázlat):**
    * hány résztvevő adott le peulabemutatót;
-   * mely rubrikaelemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni M4.B-n, illetve a mentorok 2–3 mondatos írásos visszajelzésében.
+   * mely rubrikaelemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni az M4.B-n, illetve a mentorok 2–3 mondatos írásos visszajelzésében.
 5. **Küszöbök / beavatkozási pontok:**
    * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → a lemaradókat érdemes csendes pótlásra (önálló elmaradás-pótlásra) irányítani; ez lemaradás, nem F-peula-kiváltó (az M4.F a nem teljesült kapu után ajánlott, §5);
-   * ha a mini-kvíz átlaga (a 3. pont szerinti adatokból) nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” ismétlő blokk (élő példákkal).
+   * ha a minikvíz átlaga (a 3. pont szerinti adatokból) nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” ismétlő blokk (élő példákkal).
 
 ***
 
