@@ -126,7 +126,7 @@ A modul végére a résztvevő…
 * **Fókusz:**
   Modul-kapu előkészítése: legalább 1 használható SBI-szöveg megírása.
 * **Eszközök:**
-  H5P Column felidéző + **Moodle Assignment** – szöveges beadó (online mező).
+  H5P Course Presentation (felidéző mini-kvíz) + **Moodle Assignment** – szöveges beadó (online mező).
 * **Tartalom röviden:**
   3 rövid szituáció (peula, kvuca, madrih-gyűlés) közül választ;
   instrukció: írjon 1 (max. 2) SBI-t (S – mikor/hol; B – mit csinált a másik; I – hogyan hatott az SBI írójára / a csoportra);
@@ -174,13 +174,13 @@ A modul végére a résztvevő…
   "id": "M1-HUB-POSZ-02",
   "kind": "poster",
   "mode": "generate",
-  "title": "M1.F Közös fogalomtérkép sablon",
+  "title": "M1.F Közös fogalomtérkép-sablon",
   "purpose": "A modul kulcsfogalmainak integrált, vizuális összekapcsolása a felzárkóztató peulán (M1.F cél 4).",
   "spec": "Fogalomtérkép flipchart/poszter-sablon a három fő fogalom összekötésére: Johari – megfigyelés vs. címke – SBI; közös kitöltésre kérdésekkel-válaszokkal.",
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
-    "note": "Nyomtatható nagy formátumú fogalomtérkép sablon vagy üres flipchart-váz, magyar címkékkel."
+    "note": "Nyomtatható nagy formátumú fogalomtérkép-sablon vagy üres flipchart-váz, magyar címkékkel."
   },
   "a11y": {
     "note": "Fizikai print; jól olvasható betűméret."
