@@ -45,9 +45,9 @@
       "hub": 12
     },
     "by_provenance": {
-      "ai": 278,
-      "human": 78,
-      "mixed": 58,
+      "ai": 277,
+      "human": 80,
+      "mixed": 57,
       "stock": 6
     },
     "by_status": {
@@ -3094,10 +3094,10 @@
       "id": "M6.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 337,
+      "line": 339,
       "body_lines": [
-        338,
-        350
+        340,
+        352
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3114,10 +3114,10 @@
       "id": "M6.1-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 468,
+      "line": 470,
       "body_lines": [
-        469,
-        493
+        471,
+        495
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3134,10 +3134,10 @@
       "id": "M6.1-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 645,
+      "line": 647,
       "body_lines": [
-        646,
-        665
+        648,
+        667
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3154,10 +3154,10 @@
       "id": "M6.1-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 851,
+      "line": 853,
       "body_lines": [
-        852,
-        871
+        854,
+        873
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3174,10 +3174,10 @@
       "id": "M6.1-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1076,
+      "line": 1078,
       "body_lines": [
-        1077,
-        1095
+        1079,
+        1097
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3194,10 +3194,10 @@
       "id": "M6.1-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1391,
+      "line": 1393,
       "body_lines": [
-        1392,
-        1402
+        1394,
+        1404
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3214,10 +3214,10 @@
       "id": "M6.1-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 182,
+      "line": 184,
       "body_lines": [
-        183,
-        201
+        185,
+        203
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3234,10 +3234,10 @@
       "id": "M6.2-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 277,
+      "line": 281,
       "body_lines": [
-        278,
-        295
+        282,
+        299
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3254,10 +3254,10 @@
       "id": "M6.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 493,
+      "line": 497,
       "body_lines": [
-        494,
-        513
+        498,
+        517
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3274,10 +3274,10 @@
       "id": "M6.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 615,
+      "line": 619,
       "body_lines": [
-        616,
-        637
+        620,
+        641
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3294,10 +3294,10 @@
       "id": "M6.2-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 785,
+      "line": 789,
       "body_lines": [
-        786,
-        809
+        790,
+        813
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3314,10 +3314,10 @@
       "id": "M6.2-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 922,
+      "line": 926,
       "body_lines": [
-        923,
-        937
+        927,
+        941
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3334,10 +3334,10 @@
       "id": "M6.2-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 122,
+      "line": 126,
       "body_lines": [
-        123,
-        144
+        127,
+        148
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3354,10 +3354,10 @@
       "id": "M6.2-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 389,
+      "line": 393,
       "body_lines": [
-        390,
-        409
+        394,
+        413
       ],
       "unit": "M6.2",
       "module": "M6",
@@ -3374,10 +3374,10 @@
       "id": "M6.3-FOTO-03-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 512,
+      "line": 516,
       "body_lines": [
-        513,
-        514
+        517,
+        518
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3394,10 +3394,10 @@
       "id": "M6.3-FOTO-04-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 709,
+      "line": 713,
       "body_lines": [
-        710,
-        711
+        714,
+        715
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3414,10 +3414,10 @@
       "id": "M6.3-FOTO-05-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 916,
+      "line": 920,
       "body_lines": [
-        917,
-        918
+        921,
+        922
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3434,10 +3434,10 @@
       "id": "M6.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 197,
+      "line": 201,
       "body_lines": [
-        198,
-        215
+        202,
+        219
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3454,10 +3454,10 @@
       "id": "M6.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 383,
+      "line": 387,
       "body_lines": [
-        384,
-        411
+        388,
+        415
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3474,10 +3474,10 @@
       "id": "M6.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 554,
+      "line": 558,
       "body_lines": [
-        555,
-        581
+        559,
+        585
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3494,10 +3494,10 @@
       "id": "M6.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 753,
+      "line": 757,
       "body_lines": [
-        754,
-        789
+        758,
+        793
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3514,10 +3514,10 @@
       "id": "M6.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 961,
+      "line": 965,
       "body_lines": [
-        962,
-        987
+        966,
+        991
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3534,10 +3534,10 @@
       "id": "M6.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1104,
+      "line": 1108,
       "body_lines": [
-        1105,
-        1121
+        1109,
+        1125
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -22932,9 +22932,9 @@
       "status": "spec-ready",
       "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
       "purpose": "Ez a modul központi, kapuzott produktuma (éles teljesítési kapu, §6.2). A sablon vezeti a madrihot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és társak és mentor által áttekinthető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
-      "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
-      "provenance": "mixed",
-      "provenance_note": "vegyes",
+      "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: Cím, (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres értékkapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám + hangulat, (4) Lépésről lépésre leírás + időkeret + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat. A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
+      "provenance": "human",
+      "provenance_note": "emberi-felvétel",
       "technical": {
         "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment-feltöltéshez, kitölthető PDF vagy Word sablon; Google-sablon csak szervezeti fiókban, korlátozott megosztással); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézi kitöltéshez."
       },
@@ -22949,7 +22949,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (műhely / modulproduktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (2.1. Eszközök, 4.3. Blokk 3, 5. Képzői ellenőrző lista: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (2.1. Eszközök: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA, de NEM definiálja a rovatstruktúrát, ezért a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F-POSZ-02) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
+      "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (műhely / modulproduktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (2.1. Eszközök, 4.3. Blokk 3, 5. Képzői ellenőrző lista: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (2.1. Eszközök: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA; a rovatstruktúra forrása az M6.B-MUNK-01, és a két spec azonos; a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F-POSZ-02) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -22964,7 +22964,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "efb4262e4a7cc28a6c0d9b14de374823dee50a74e198c0159bea37de627837ff",
+      "spec_hash": "1dacf9e94ff4595104943bf01e5aa6071bcf993daef5160b95041d2878e2a5b6",
       "deliverable_ids": [],
       "legacy": {
         "asset": [
@@ -22978,13 +22978,13 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 230,
+      "line": 232,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Korosztály-táblázat – 3 aktuális kvuca-korosztály (tartalmi ábra)",
-      "purpose": "Közös nyelv a 3 aktuális korosztályról, amire a modul későbbi leckéi (M3-ból átvett korosztály-térkép) hivatkoznak.",
+      "purpose": "Közös nyelv a 3 aktuális korosztályról, amire a modul későbbi leckéi (az M3-ból átvett korosztály-térkép) hivatkoznak.",
       "spec": "Háromsoros korosztály-táblázat / ikon-sor tervezési kiindulópontokkal: Parparim 6–9 (rövid instrukció, mozgás, konkrét példa); Kivsza 10–12 (kortárs- és státuszdinamika megfigyelése); Leviatán 13–17 (identitás, valahová tartozás, barátság, az idősebbeknél több vita és reflexió). Minden sor mellett: ‘kiindulópont, a konkrét kvucához igazítsd’. Fejlécsoros táblázat vagy élő szöveg + kísérő ikonok; a kulcstartalom nem ég kizárólag képbe. Alul 1–2 bullet a fő üzenettel.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -23024,7 +23024,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3f467549a75381da0f2ab3607f74e4c7841ee848b2eaa1287404c0acf14a48c2",
+      "spec_hash": "d9448b4f64431525e40fda9f3acdbb21c3599b9da24ac6bbcbee7a798dffdd10",
       "deliverable_ids": [
         "M6.1-DIA-01",
         "M6.1-DIA-01::ALTTEXT"
@@ -23044,7 +23044,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 53,
+      "line": 55,
       "kind": "other",
       "subtype": "ui-text",
       "mode": "generate",
@@ -23099,7 +23099,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 79,
+      "line": 81,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23154,14 +23154,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 500,
+      "line": 502,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Single Choice – „Névkör labdával” korosztály",
       "purpose": "Első korosztály-választás gyakorlása.",
-      "spec": "H5P Multiple Choice („single” mód) 3 opcióval (Parparim 6–9 a helyes), jó válaszra szóló visszajelzés-szöveggel a fiatalabb kvuca természetes formájáról (egyszerű szabály, mindenki sorra kerül; Kivszánál, 10–12 évesen humor/csavar kell).",
+      "spec": "H5P Multiple Choice („single” mód) 3 opcióval (Parparim 6–9 a helyes), minden válaszra szóló visszajelzés-szöveggel a fiatalabb kvuca természetes formájáról (egyszerű szabály, mindenki sorra kerül; Kivszánál, 10–12 évesen humor/csavar kell).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -23193,7 +23193,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c193f12c86d009f30c6c3005ae2dadbecba68576daa4273e7648066b85e21364",
+      "spec_hash": "afad784d601a107d063e0deefce5f6edc37ef3b53c4b89cd8b1a5019a7bea604",
       "deliverable_ids": [
         "M6.1-EGY-03"
       ],
@@ -23209,14 +23209,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 695,
+      "line": 697,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Single Choice – Kivsza (10–12) bizalomjáték forma",
       "purpose": "Biztonságos formaválasztás gyakorlása Kivszánál (10–12).",
-      "spec": "H5P Multiple Choice („single” mód) 3 opcióval (2. a helyes: egyszerűbb, kevésbé kockázatos feladat, kis térben), jó válaszra szóló visszajelzés a Kivsza-korú (10–12) résztvevők testkép/csoportbizalmáról (biztonság, consent, egyszerű szabályok).",
+      "spec": "H5P Multiple Choice („single” mód) 3 opcióval (2. a helyes: egyszerűbb, kevésbé kockázatos feladat, kis térben), minden válaszra szóló visszajelzés a Kivsza-korú (10–12) résztvevők testkép/csoportbizalmáról (biztonság, consent, egyszerű szabályok).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -23248,7 +23248,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1c3345526fb0f61338d59612783919b002b5c09adf0af0fc982d59143c29e41d",
+      "spec_hash": "20c480d8bb6afa2d0d45f81cbd148b74e33cae89cd544fae7a4eadaaa9392d6a",
       "deliverable_ids": [
         "M6.1-EGY-04"
       ],
@@ -23264,7 +23264,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 721,
+      "line": 723,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23319,14 +23319,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 934,
+      "line": 936,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Single Choice – Parparim 6–9 reflexiós vs. mély",
       "purpose": "Biztonságos forma választása Parparimnál (6–9).",
-      "spec": "H5P Multiple Choice („single” mód) 2 opcióval (könnyebb beszélgető kártyák a helyes); jó és téves válaszra is rövid visszajelzés arról, hogy egy összetett, érzékeny eset feldolgozása Parparimnál (6–9) túl sok lehet, ha nincs elég megértés/feldolgozás.",
+      "spec": "H5P Multiple Choice („single” mód) 2 opcióval (könnyebb beszélgetőkártyák a helyes); jó és téves válaszra is rövid visszajelzés arról, hogy egy összetett, érzékeny eset feldolgozása Parparimnál (6–9) túl sok lehet, ha nincs elég megértés/feldolgozás.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -23358,7 +23358,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a66cd6921914d49cd479469c1e38761aae82fb08d4eb8605fbf0b0cdc1ba37b6",
+      "spec_hash": "ee64b55ef80a9de010d16a6d9a9965222561d91edd5db1d1bd3be4dabd017ce4",
       "deliverable_ids": [
         "M6.1-EGY-06"
       ],
@@ -23374,7 +23374,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1128,
+      "line": 1130,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23429,7 +23429,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1154,
+      "line": 1156,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23484,7 +23484,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1249,
+      "line": 1251,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23539,7 +23539,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1275,
+      "line": 1277,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23594,7 +23594,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1301,
+      "line": 1303,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23649,14 +23649,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 357,
+      "line": 359,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Játék-kategória ikonok – 5 kategória",
       "purpose": "Az 5 játék-kategória vizuális bevezetése név + rövid leírás szinten.",
-      "spec": "Öt kis kategória-ikon a számozott listához: 1. Ismerkedős/névtanulós; 2. Energizer/mozgásos; 3. Bizalom-/kontakt; 4. Reflexiós/beszélgetős; 5. Mélyebb élményjáték. Tartalmi ikon-lista; a kategórianevek + rövid leírás élő, számozott szövegként is jelen.",
+      "spec": "Öt kis kategória-ikon a számozott listához: 1. Ismerkedős/névtanulós; 2. Energizer/mozgásos; 3. Bizalom- és kontaktjáték; 4. Reflexiós/beszélgetős; 5. Mélyebb élményjáték. Tartalmi ikon-lista; a kategórianevek + rövid leírás élő, számozott szövegként is jelen.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23695,7 +23695,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "984ae09a57087336cb104f5967848273eb732bd8851df5e95f06321c0d0f26d3",
+      "spec_hash": "0a5f25edbea1a1fd374bfb64c445f5e40dacb5ca1fd66599d0ed9dadf022c1c0",
       "deliverable_ids": [
         "M6.1-IKO-01",
         "M6.1-IKO-01::ALTTEXT"
@@ -23715,7 +23715,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 526,
+      "line": 528,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -23781,14 +23781,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 747,
+      "line": 749,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Kategória-kártya 2 – bizalomjáték „Csukott szemű vezetés”",
-      "purpose": "Rámutatni, hogy bizalom-/kontaktjáték = magasabb kockázat.",
-      "spec": "Egy kártya-illusztráció: bizalom-/kontaktjáték „Csukott szemű vezetés” – párokban, egyik csukott szemmel sétál, másik vezeti/irányítja/figyel. Korosztály-címke (inkább 13–17; fiatalabbaknál csak óvatosan).",
+      "purpose": "Rámutatni, hogy bizalom- és kontaktjáték = magasabb kockázat.",
+      "spec": "Egy kártya-illusztráció: bizalom- és kontaktjáték „Csukott szemű vezetés” – párokban, egyik csukott szemmel sétál, másik vezeti/irányítja/figyel. Korosztály-címke (inkább 13–17; fiatalabbaknál csak óvatosan).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23827,7 +23827,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2f99889581aea486b3ba6d06b28380cdee957f18db4a19a3b70268086bcf8bd3",
+      "spec_hash": "acea1651536526901448d6151f946a886e4650fe92810e36bd02dfda53b830c6",
       "deliverable_ids": [
         "M6.1-ILL-02",
         "M6.1-ILL-02::ALTTEXT"
@@ -23847,14 +23847,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 960,
+      "line": 962,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Kategória-kártya 3 – reflexiós vs. mély élmény (2 minisztori)",
       "purpose": "Különbség könnyebb reflexiós játék és mély élmény között.",
-      "spec": "Két egymás alatti minisztori-illusztráció: A) Reflexiós „Beszélgető kártyák” (mindenki húz egy egyszerű kérdést, körben válaszol, nincs kötelező nagy megosztás); B) Érzékenyebb „fiktív eset kirekesztésről” (kívülről elemzett eset, nincs szerepjáték vagy demonstratív kizárás, hosszabb feldolgozó kör). Korosztály-címke csak az A kártyán: Kivsza/Leviatán (10–17); a B kártyán nincs korosztály-címke, helyette a látható „Biztonsági minimum” sorai.",
+      "spec": "Két egymás alatti minisztori-illusztráció: A) Reflexiós „Beszélgetőkártyák” (mindenki húz egy egyszerű kérdést, körben válaszol, nincs kötelező nagy megosztás); B) Érzékenyebb „fiktív eset kirekesztésről” (kívülről elemzett eset, nincs szerepjáték vagy demonstratív kizárás, hosszabb feldolgozó kör). Korosztály-címke csak az A kártyán: Kivsza/Leviatán (10–17); a B kártyán nincs korosztály-címke, helyette a látható „Biztonsági minimum” sorai.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -23893,7 +23893,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "eb49fadbc649027a861def4a29ed23dfdae383fa39c6f31d8b0aa5c9e5c4109c",
+      "spec_hash": "1d78b74961eb240f6364ff18980e1c11422306f33fe60e40c4622dff60c6b1af",
       "deliverable_ids": [
         "M6.1-ILL-03",
         "M6.1-ILL-03::ALTTEXT"
@@ -23913,7 +23913,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 268,
+      "line": 270,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23956,8 +23956,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        338,
-        350
+        340,
+        352
       ],
       "source_text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatánnál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **a játék és a kvuca párosában** gondolkodj.”",
       "source_hash": "3829694775a418417df5db63b3c1a0a472bc0d195bfc4ce92bbe534d4aaf6a45",
@@ -23986,14 +23986,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 395,
+      "line": 397,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 3: 5 játék-kategória",
       "purpose": "A kategóriák hangos kifejtése.",
-      "spec": "Szintetikus magyar narráció (kb. 45–60 mp): az 5 játék-kategória célja és jellege (ismerkedős, energizer, bizalom/kontakt, reflexiós, mély élmény), kockázat-utalásokkal; mély élmény inkább nagyobbaknál, kis létszámú kvucával.",
+      "spec": "Szintetikus magyar narráció (kb. 45–60 mp): az 5 játék-kategória célja és jellege (ismerkedős, energizer, bizalom- és kontaktjáték, reflexiós, mély élmény), kockázat-utalásokkal; mély élmény inkább nagyobbaknál, kis létszámú kvucával.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -24029,8 +24029,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        469,
-        493
+        471,
+        495
       ],
       "source_text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
       "source_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
@@ -24038,7 +24038,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
-      "spec_hash": "ec6a63c47b34dc0f36bc316e816a509ff0d23a132a4a978b618d91373bfb76df",
+      "spec_hash": "6cedb181f20db6baee25a49ed1cc1736dc8254739f450971877dbc94c5680836",
       "deliverable_ids": [
         "M6.1-NAR-03",
         "M6.1-NAR-03::CAPTIONS",
@@ -24059,7 +24059,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 563,
+      "line": 565,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24102,8 +24102,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        646,
-        665
+        648,
+        667
       ],
       "source_text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
       "source_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
@@ -24132,12 +24132,12 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 784,
+      "line": 786,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat",
+      "title": "Narráció – SLIDE 5: bizalom- és kontaktjáték + kockázat",
       "purpose": "A bizalomjáték kockázatának hangos kifejtése.",
       "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a „Csukott szemű vezetés” mint erős élmény és fizikai/érzelmi kockázat; mit nézz (kor, ismeretség, jelzés-képesség); inkább 13–17, fiatalabbaknál csak egyszerű, rövid, jól szabályozott verzió.",
       "provenance": "ai",
@@ -24175,8 +24175,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        852,
-        871
+        854,
+        873
       ],
       "source_text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
       "source_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
@@ -24184,7 +24184,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
-      "spec_hash": "7eac17dae74854130b381c6901c4908064c22bc4f05d9d4ac74d4518bc0a5145",
+      "spec_hash": "bd7148f270b1a086b6ef4f29b00bcef6e215110db9405a50ca411bacf5ef7fc7",
       "deliverable_ids": [
         "M6.1-NAR-05",
         "M6.1-NAR-05::CAPTIONS",
@@ -24205,14 +24205,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 997,
+      "line": 999,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 6: reflexiós vs. mély élmény",
       "purpose": "A reflexiós–mély különbség hangos kifejtése.",
-      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a beszélgető kártyás reflexió könnyebben emészthető; érzékenyebb kirekesztés-témánál fiktív esetet elemzünk kívülről, nem játszatunk el kirekesztést; ilyen témához idő, tér és utólagos megbeszélés kell, a kérdések a konkrét kvucához illeszkedjenek – nem az életkor önmagában dönti el, mi fér bele.",
+      "spec": "Szintetikus magyar narráció (kb. 40–50 mp): a beszélgetőkártyás reflexió könnyebben emészthető; érzékenyebb kirekesztés-témánál fiktív esetet elemzünk kívülről, nem játszatunk el kirekesztést; ilyen témához idő, tér és utólagos megbeszélés kell, a kérdések a konkrét kvucához illeszkedjenek – nem az életkor önmagában dönti el, mi fér bele.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -24248,8 +24248,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1077,
-        1095
+        1079,
+        1097
       ],
       "source_text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
       "source_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
@@ -24257,7 +24257,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
-      "spec_hash": "88a2cc5abc68ea5ffbe340929e2ef918c7f98788b09bd892a526c7514879c642",
+      "spec_hash": "dd18d3bea06dcbaa1f2ec74c55388ecfe4cf389ae970a10a81cc6faaed1703f2",
       "deliverable_ids": [
         "M6.1-NAR-06",
         "M6.1-NAR-06::CAPTIONS",
@@ -24278,7 +24278,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1328,
+      "line": 1330,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24321,8 +24321,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1392,
-        1402
+        1394,
+        1404
       ],
       "source_text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
       "source_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
@@ -24354,14 +24354,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 105,
+      "line": 107,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Hook beszélőfej-videó – „Volt már olyan, hogy nem ült a játék?”",
       "purpose": "Bevonás; ráérezni, hogy egy „jó játék” is lehet rossz döntés rossz kvucánál.",
-      "spec": "16:9 AI beszélő fej videó, kb. 35–45 mp, a SLIDE 1 narrációs szöveget mondja el (tegező, max 10–12 szavas mondatok). Bevonó hangvétel: a tanuló saját rossz játékélményére rezonál, bevezeti a játék-kategóriák + 3 aktuális korosztály keretet.",
+      "spec": "16:9 AI beszélőfej-videó, kb. 35–45 mp, a SLIDE 1 narrációs szöveget mondja el (tegező, max 10–12 szavas mondatok). Bevonó hangvétel: a tanuló saját rossz játékélményére rezonál, bevezeti a játék-kategóriák + 3 aktuális korosztály keretet.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -24392,7 +24392,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Összekapcsolódik: M6.1-VID-01::VOICEOVER (narráció), M6.1-VID-01::CAPTIONS (felirat), M6.1-VID-01::TRANSCRIPT (leirat), M6.1-EGY-01 (AI-provenance ember-olvasható sor). Gépi olvasható provenance-jelölés (C2PA/vízjel): ajánlott jó gyakorlat (R1, Program terv §4) – ha a generáló eszköz adja, az export ne távolítsa el; a generáló eszköz kiválasztása nyitott döntés (R2).",
+      "notes": "Összekapcsolódik: M6.1-VID-01::VOICEOVER (narráció), M6.1-VID-01::CAPTIONS (felirat), M6.1-VID-01::TRANSCRIPT (leirat), M6.1-EGY-01 (AI-provenance ember-olvasható sor). Gépi olvasható provenance-jelölés (C2PA/vízjel): ajánlott jó gyakorlat (R1, Program terv §4) – ha a generáló eszköz adja, az export ne távolítsa el; a szolgáltató kiválasztva (PRODUCTION-STACK 4.; RIGHTS-EVIDENCE 1/A.1), az R2 bizonyítéka függő.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -24401,8 +24401,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        183,
-        201
+        185,
+        203
       ],
       "source_text": "„Szia!\nVolt már olyan, hogy bedobtál egy játékot,\nés azt érezted: *‘ez most nagyon nem működik’*?\n\nLehet, hogy túlpörgette a kvucát.\nLehet, hogy mindenki unta.\nLehet, hogy valaki teljesen kiesett belőle.\n\nMaga a játék ettől még lehet jó.\nCsak **nem annak a korosztálynak**.\nVagy **nem abban a hangulatban**.\nVagy **nem ebben a térben**.\n\nEbben a leckében azt nézzük meg,\nhogyan gondolkodhatsz **játék-kategóriákban**\nés **három aktuális korosztályban**,\nhogy tudatosabban válassz a kvucádnak.”",
       "source_hash": "b750e8d307086e3a46389f3663a6eb5866292cb2bfc2f6b495e4a88f22cf3659",
@@ -24410,7 +24410,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "b750e8d307086e3a46389f3663a6eb5866292cb2bfc2f6b495e4a88f22cf3659",
-      "spec_hash": "7554ae085033edbfc108414ceaab9748672859c0382d6060cf2e7d9a76b2f102",
+      "spec_hash": "1470384558b4e877f0146f30d604e8b410d2a3aa213349bf034d93737c5b0809",
       "deliverable_ids": [
         "M6.1-VID-01",
         "M6.1-VID-01::VOICEOVER",
@@ -24438,7 +24438,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 670,
+      "line": 674,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -24504,7 +24504,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 171,
+      "line": 175,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -24570,7 +24570,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 209,
+      "line": 213,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24613,8 +24613,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        278,
-        295
+        282,
+        299
       ],
       "source_text": "„Peulán nemcsak azért mesélünk történetet,\nmert ‘jól hangzik’, hanem mert **eszköz**.\n\nEgy történet segít, hogy ne csak gondolkodjanak,\nhanem **érezzenek is valamit**.\nLássanak egy konkrét helyzetet,\namiben akár magukra ismerhetnek.\n\nSokszor könnyebb egy **kitalált szereplőről** beszélni,\nmint rögtön saját élményről.\nKisebb a bevonódás, esetleg a szégyen, így kisebb a tét.\n\nHa utána **jól kérdezel**,\na történet nemcsak ‘szép sztori’ lesz,\nhanem **tükröt tart** a kvucának:\n‘Hol vagyok én ebben? Mit csinálnék másképp?’”",
       "source_hash": "6d84d13fcacef0079cbdff95ddc2b72846c3acf78c6997f4e2f0190992006a2a",
@@ -24646,14 +24646,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 418,
+      "line": 422,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 4 történet 2. rész (40–50 mp)",
       "purpose": "A történet lezárása hangban, átvezetés a reflexióhoz",
-      "spec": "40–50 mp magyar narráció: Lili elhallgat, a madrih reakciója (csak megköszöni), Lili végig csendben marad, két hanih megszólítja a madrihot (’ez nem volt oké’), átvezetés a tükör-szakaszhoz.",
+      "spec": "40–50 mp magyar narráció: Lili elhallgat, a madrih reakciója (csak megköszöni), Lili végig csendben marad, két hanih megszólítja a madrihot (‘ez nem volt oké’), átvezetés a tükör-szakaszhoz.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -24689,8 +24689,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        494,
-        513
+        498,
+        517
       ],
       "source_text": "„A beszólás után Lili elhallgat.\nLehajtja a fejét, hátradől.\n\nA madrih hallja, mi történt.\nLátszik rajta, hogy gondolkodik,\nde végül csak megköszöni Lilinek a megosztást,\nés megy tovább a kör.\n\nA peula véget ér.\nLili szinte végig csendben marad.\n\nA végén két hanih odamegy a madrihhoz,\nés azt mondják:\n‘Figyi, szerintünk ez nem volt oké.\nLehetett volna valamit csinálni?’\n\nMost jön az a rész,\nahol **a történet tükröt tarthat a kvucának**.”",
       "source_hash": "f78f0c8b737f2434ee9f8025e63134936359d43d8b83a1018be5fe0061add7a0",
@@ -24698,7 +24698,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "f78f0c8b737f2434ee9f8025e63134936359d43d8b83a1018be5fe0061add7a0",
-      "spec_hash": "ceec1c2a58643910afc85ae8f554f33695abf1209335ef5a28d0a287e0050b35",
+      "spec_hash": "fc75c6b75116bffd5833b5c549ad8b1b95d5ca1e68ddd34c71f630f29702f87e",
       "deliverable_ids": [
         "M6.2-NAR-04",
         "M6.2-NAR-04::CAPTIONS",
@@ -24722,7 +24722,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 547,
+      "line": 551,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24765,8 +24765,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        616,
-        637
+        620,
+        641
       ],
       "source_text": "„Ahhoz, hogy a történet **tükör** legyen,\nnem elég elmesélni és továbbmenni.\n\nAz segít, ha olyan kérdéseket teszel fel,\namelyekben a hanihok **magukra ismerhetnek**,\nde **nem szégyenülnek meg**.\n\nIlyenek lehetnek például:\n\n– ‘Melyik szereplő nézőpontját érted a legjobban, és miért?’\n– ‘Milyen hasonló helyzet volt már nálatok?\nNem kell nevet mondani.’\n– ‘Te mit tettél volna a madrih helyében?’\n– ‘Mit szeretnél, mit tegyen a kvuca,\nha legközelebb valakit kinevetnek?’\n\nEzek **nyitott kérdések**.\nNincs egyetlen jó válasz.\nÉs nem azt kérdezik:\n‘Na, ki szokott így beszólni közületek?’”",
       "source_hash": "f219beea277d1473e160e2153ff6479aedbed7e815431be6f74333d3525b34c7",
@@ -24798,7 +24798,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 708,
+      "line": 712,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24841,8 +24841,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        786,
-        809
+        790,
+        813
       ],
       "source_text": "„Fontos, hogy **nem minden történet jó minden korosztálynak**.\n\nKisebbeknél (Parparim 6–9, Kivsza 10–12)\njobbak az egyszerű, hétköznapi helyzetek:\nkinevetés, bátorság, együttműködés.\n\nRövid sztori, kevés szereplő,\nérthető, konkrét nyelv.\n\nArra viszont nagyon figyelj,\nhogy ne hozz be túl sötét, traumatikus történeteket\npusztán ‘drámai hatásból’.\n\nHa valaki épp most él át hasonlót,\nez **túl sok** lehet neki.\n\nUgyanígy: vallási vagy politikai kérdéseknél\nfontos, hogy értsd a kvucádat, a kontextust,\nés hogy legyen idő, tér a feldolgozásra.\n\nA cél nem az, hogy elrettentsük vagy megijesszük a hanihokat,\nhanem hogy segítő **tükröt** adjunk nekik.”",
       "source_hash": "e58dd7b746d44654201672b8ff90b5021d249da677434b5cbfdcc00e3a8b203e",
@@ -24874,7 +24874,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 844,
+      "line": 848,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24917,8 +24917,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        923,
-        937
+        927,
+        941
       ],
       "source_text": "„Most rajtad a sor.\n\nKépzeld el, hogy ezt a történetet\na saját kvucádnak meséled el.\n\nMilyen kérdéseket tennél fel utána,\nhogy segítsd a gondolkodást?\n\nÉs milyen kérdést **nem** tennél fel,\nmert tudod, hogy szégyenítő lehet, vagy túlságosan irányító?\n\nÍrj le **két nyitott kérdést**,\nés egy olyat, amit inkább nem használnál.”",
       "source_hash": "453015a874561ee4d2fe3d20a19da232c98081d1804ce823b43861f29db2fd6b",
@@ -24950,14 +24950,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 53,
+      "line": 55,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Hook – AI beszélő fej: „kínos csend lett a sztori után?”",
       "purpose": "Érzelmi bevonás, a lecke keretének felvezetése a tanuló saját élményén keresztül",
-      "spec": "AI-generált beszélő fej (kb. 35–45 mp) magyar narrációval, ami felvezeti a leckét: a kínos csend / túl személyes történet élménye, a történet mint erős, összekapcsoló de túlcsorduló eszköz, és hogy a lecke a történetet mint tükröt és a reflektáló kérdéseket veszi át. A SLIDE 1 narrációja (M6.2-VID-01-VO) a beszélt szöveg.",
+      "spec": "AI-generált beszélő fej (kb. 35–45 mp) magyar narrációval, ami felvezeti a leckét: a kínos csend / túl személyes történet élménye, a történet mint erős, összekapcsoló, de túlcsorduló eszköz, és hogy a lecke a történetet mint tükröt és a reflektáló kérdéseket veszi át. A SLIDE 1 narrációja (M6.2-VID-01-VO) a beszélt szöveg.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -24997,8 +24997,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        123,
-        144
+        127,
+        148
       ],
       "source_text": "„Szia!\nTörtént már veled olyan, hogy elmeséltél a kvucádnak egy sztorit,\nés utána **kínos csend lett**?\n\nTe lelkesedtél,\nde a többiek néztek rád,\nmintha nem értenék, miről beszélsz.\n\nVagy fordítva:\negy nagyon személyes történetet mondtál,\nvalakit láthatóan felkavart,\nés utána nem tudtad, hogyan folytasd.\n\nA történetek nagyon erős eszközök.\nTudnak **összekapcsolni**,\nde lehetnek **túl megterhelők** is.\n\nEbben a leckében azt nézzük meg,\nhogyan lehet egy történet **tükör** a kvucának,\nés milyen kérdésekkel segítheted a reflektálást.”",
       "source_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
@@ -25006,7 +25006,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "17dc133911aaf884dbc35bde23e213b4eee084e64ff7c6a6d6fca1a1b60fc746",
-      "spec_hash": "293cc446e950629d1ad7a95e9a520846e222041388a1a96a440256d1dd275d0e",
+      "spec_hash": "007eebeba3231464fae62cf02ecdb612db8d9ca8300fbf336568d02ac3c7cad1",
       "deliverable_ids": [
         "M6.2-VID-01",
         "M6.2-VID-01::VOICEOVER",
@@ -25034,14 +25034,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md",
-      "line": 302,
+      "line": 306,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Opcionális beszélő fej / narrációs videó – „Az új lány a körben” (1. rész)",
       "purpose": "A történet 1. részének átélhetőbb átadása mozgóképben (opcionális)",
-      "spec": "Opcionális AI beszélő fej / narrációs videó, ami a „Lili, az új lány” történet 1. részét meséli el. A forrás szerint (SLIDE 3, „Mit látunk?”) a videó a slide-szöveggel („Történet – 1. rész”) azonos szöveget hordoz; a SLIDE 3 narráció (M6.2-VID-02::VOICEOVER, forrás: M6.2-VID-02-VO) ennek a sztorinak a rövidített, mesélt változata.",
+      "spec": "Opcionális AI beszélő fej / narrációs videó, ami a „Lili, az új lány” történet 1. részét meséli el. A videó a SLIDE 3 narrációt mondja, ebből készül a felirat is; a dián a slide-szöveg („Történet – 1. rész”) marad; a SLIDE 3 narráció (M6.2-VID-02::VOICEOVER, forrás: M6.2-VID-02-VO) ennek a sztorinak a rövidített, mesélt változata.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -25081,8 +25081,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        390,
-        409
+        394,
+        413
       ],
       "source_text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
       "source_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
@@ -25090,7 +25090,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
-      "spec_hash": "ea729424721ba4108cfa4222d83708771e64ef0c47cfcce52bbbd03b260afea1",
+      "spec_hash": "4a726fa50064c9a2dc7f463b000c2fa3f518efaf855ef484a823a4cfa5b7335a",
       "deliverable_ids": [
         "M6.2-VID-02",
         "M6.2-VID-02::VOICEOVER",
@@ -25118,18 +25118,18 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 246,
+      "line": 250,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Három-kérdés keret – ikon/box diagram (Cél–Inkluzivitás–Variációk)",
       "purpose": "A lecke alapkeretének (cél – inkluzivitás – variációk) vizuális rögzítése.",
-      "spec": "Három nagy ikon/box egymás alatt: 1) Cél – Mit tanít? (együttműködés/identitás/„mindenki hozzátesz\"/felelősség + someres érték: egalitás, társadalmi felelősség); 2) Inkluzivitás – Kinek nehéz? (finommotorika, anyagérzékenység, pénz, vallási/kulturális jelképek, nyelvi nehézség, szorongás); 3) Variációk – Hogyan vonok be mindenkit? (egyszerűbb verzió, közös alkotás egyéni helyett, más anyag). Vizuális keretábra a három kérdéssel.",
+      "spec": "Három nagy ikon/box egymás alatt: 1) Cél – Mit tanít? (együttműködés/identitás/„mindenki hozzátesz”/felelősség + someres érték: egalitás, társadalmi felelősség); 2) Inkluzivitás – Kinek nehéz? (finommotorika, anyagérzékenység, pénz, vallási/kulturális jelképek, nyelvi nehézség, szorongás); 3) Variációk – Hogyan vonok be mindenkit? (egyszerűbb verzió, közös alkotás egyéni helyett, más anyag). Vizuális keretábra a három kérdéssel.",
       "provenance": "ai",
       "provenance_note": "AI-generált / grafikus",
       "technical": {
-        "note": "Három-boxos függőleges ábra ikonokkal, magyar feliratok, mobil-first. Lehet statikus vagy lépésenként animált (a forrás nem ír elő animációt; az enumban a „animált-diagram\" a legközelebbi típus)."
+        "note": "Három-boxos függőleges ábra ikonokkal, magyar feliratok, mobil-first. Lehet statikus vagy lépésenként animált (a forrás nem ír elő animációt; az enumban az „animált-diagram” a legközelebbi típus)."
       },
       "a11y": {
         "visual": "informative",
@@ -25164,7 +25164,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "98d4bc6b5027fe96f2336651de341fe92cf80a2298bbeffae520c12e92cbfc62",
+      "spec_hash": "827e5fbf864e234aa2dd7f5598307161dc8e26f316c5f4c65405b9af6251bd40",
       "deliverable_ids": [
         "M6.3-DIA-01",
         "M6.3-DIA-01::ALTTEXT"
@@ -25184,14 +25184,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 61,
+      "line": 63,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "HOOK – Unottan színezgető gyerekek (bal kép)",
-      "purpose": "A „csak kézműveskedünk\" vs. „kézműves, ami tanít\" logika elválasztása; a két kép kontrasztja maga az üzenet.",
-      "spec": "Tartalmi fotó vagy illusztráció: gyerekek külön-külön, láthatóan unottan színezgetnek egy asztalnál. A „kézműves mint puszta időtöltés\" vizuális pólusa. Párban a jobb képpel (M6.3-FOTO-02) kontrasztot alkot.",
+      "purpose": "A „csak kézműveskedünk” vs. „kézműves, ami tanít” logika elválasztása; a két kép kontrasztja maga az üzenet.",
+      "spec": "Tartalmi fotó vagy illusztráció: gyerekek külön-külön, láthatóan unottan színezgetnek egy asztalnál. A „kézműves mint puszta időtöltés” vizuális pólusa. Párban a jobb képpel (M6.3-FOTO-02) kontrasztot alkot.",
       "provenance": "ai",
       "provenance_note": "AI-generált (illusztráció)",
       "technical": {
@@ -25230,7 +25230,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0e67d448a5ee95380d621a258edc8d7bfb56171719c22be4e30b80cb016aba60",
+      "spec_hash": "c5ab7316fc8dfe052a0708fde0c80004a985b04f5aa6e4d8cabf39a5fb1e737a",
       "deliverable_ids": [
         "M6.3-FOTO-01",
         "M6.3-FOTO-01::ALTTEXT"
@@ -25250,14 +25250,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 99,
+      "line": 101,
       "kind": "illustration",
       "subtype": "",
       "mode": "reuse",
       "status": "spec-ready",
       "title": "HOOK – Kvuca közös plakáton dolgozik (jobb kép)",
       "purpose": "Kontraszt-pár a bal képpel (M6.3-FOTO-01); a kézműves közös-élmény jellegét mutatja.",
-      "spec": "Tartalmi fotó vagy illusztráció: egy kvuca együtt, egymás mellett dolgozik egy nagy közös plakáton. A „kézműves mint közös élmény\" vizuális pólusa.",
+      "spec": "Tartalmi fotó vagy illusztráció: egy kvuca együtt, egymás mellett dolgozik egy nagy közös plakáton. A „kézműves mint közös élmény” vizuális pólusa.",
       "provenance": "ai",
       "provenance_note": "AI-generált (illusztráció)",
       "technical": {
@@ -25291,7 +25291,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3419270f6ef40d66db02e647083f73d77bf168b7ff255318b8d4f91e9471e83c",
+      "spec_hash": "500302fb3314fca1e85af789811a81e565afea74edc637c5185bfaac5804374b",
       "deliverable_ids": [],
       "legacy": {
         "alt-text": [
@@ -25308,14 +25308,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 418,
+      "line": 422,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Közös kvuca-plakát – sok kéz dolgozik rajta",
       "purpose": "Az első konkrét példa (Közös kvuca-plakát, együttműködés) vizuális megjelenítése.",
-      "spec": "Tartalmi kép: nagy csomagolópapír / poszter, sok kéz dolgozik rajta egyszerre, tele rajzokkal és szavakkal – „mindenki nyoma rajta van\".",
+      "spec": "Tartalmi kép: nagy csomagolópapír / poszter, sok kéz dolgozik rajta egyszerre, tele rajzokkal és szavakkal – „mindenki nyoma rajta van”.",
       "provenance": "ai",
       "provenance_note": "AI-generált (illusztráció)",
       "technical": {
@@ -25339,7 +25339,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Kötelező forrás + licenc, felismerhető kiskorú képmásánál pedig a jogalap és a dokumentáció igazolása a lecke képhasználati követelménye szerint (HUM-PRIV-02) a buildhez (3. szakasz, „Fotó / kép forrás-, jog- és adatvédelmi követelmény” doboz). A SLIDE 3 „Mit látunk?” blokkjában szereplő „poszter\" a kép TARTALMA (ábrázolt kézműves), nem print-deliverable. | DÖNTÉS: illusztráció (GDPR-kockázat elkerülése), FOTO→ILL.",
+      "notes": "Kötelező forrás + licenc, felismerhető kiskorú képmásánál pedig a jogalap és a dokumentáció igazolása a lecke képhasználati követelménye szerint (HUM-PRIV-02) a buildhez (3. szakasz, „Fotó / kép forrás-, jog- és adatvédelmi követelmény” doboz). A SLIDE 3 „Mit látunk?” blokkjában szereplő „poszter” a kép TARTALMA (ábrázolt kézműves), nem print-deliverable. | DÖNTÉS: illusztráció (GDPR-kockázat elkerülése), FOTO→ILL.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -25354,7 +25354,7 @@
       "alt_text": "Nagy csomagolópapírból készült közös plakát, sok kéz dolgozik rajta egyszerre, tele rajzokkal és szavakkal – mindenki nyomot hagy rajta.",
       "alt_hash": "b747d25628b4a25ef411764dcc7193f16018d1d585a2d0bf1086b2f2d9d57dc7",
       "copy_hash": "b747d25628b4a25ef411764dcc7193f16018d1d585a2d0bf1086b2f2d9d57dc7",
-      "spec_hash": "7b5579de18295169df08dc86992d135a2a9031a04133915d4e514d1cc7c5eea0",
+      "spec_hash": "b7a6ffbc2cf4cab9346a5ee473eed1b45ebe7685997f8cba3e34bb1b4b7899a5",
       "deliverable_ids": [
         "M6.3-FOTO-03",
         "M6.3-FOTO-03::ALTTEXT"
@@ -25374,7 +25374,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 615,
+      "line": 619,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -25440,7 +25440,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 822,
+      "line": 826,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -25506,7 +25506,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 284,
+      "line": 288,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -25566,14 +25566,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 130,
+      "line": 132,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 1 HOOK (35–45 mp)",
       "purpose": "Bevonás, a lecke keretének felvezetése.",
-      "spec": "Kb. 35–45 mp narráció: a kézműves a peulákban néha „időtöltés\", máskor „valami fontosat tanít\" (együttműködés, közösségi felelősség, „mindenki hozzátesz valamit\"); felvezeti, hogy a lecke a tudatos kézműves-választásról szól, hogy a végeredménynek jelentése legyen.",
+      "spec": "Kb. 35–45 mp narráció: a kézműves a peulákban néha „időtöltés”, máskor „valami fontosat tanít” (együttműködés, közösségi felelősség, „mindenki hozzátesz valamit”); felvezeti, hogy a lecke a tudatos kézműves-választásról szól, hogy a végeredménynek jelentése legyen.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
@@ -25609,8 +25609,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        198,
-        215
+        202,
+        219
       ],
       "source_text": "„Szia!\nA peulákban sokszor van **kézműves** rész is.\n\nNéha ez olyan, mintha csak **időt töltenénk**:\nmindenki színez valamit, beszélgetünk,\nközben telik az este.\n\nMáskor viszont a kézműveskedés\n**valami fontosat tanít**:\negyüttműködést, közösségi felelősséget,\nvagy azt, hogy *mindenki hozzátesz valamit*.\n\nEbben a leckében azt nézzük,\nhogyan tudsz tudatosan **kézműves tevékenységet választani**,\nhogy ne csak szép legyen a végeredmény,\nhanem **jelentése is legyen**.”",
       "source_hash": "0bfa28ac73ba9e94d0da8cf08a795083216c42466f1c59cc3def7ac39ab59b91",
@@ -25618,7 +25618,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "0bfa28ac73ba9e94d0da8cf08a795083216c42466f1c59cc3def7ac39ab59b91",
-      "spec_hash": "18cb24ebea69962016dc1767c49dfa819a7a14626e2567f3d9571e1b0eb2d51e",
+      "spec_hash": "d1f352163f22fa0b76ca8be37230da0c5e8e1eae3aed1ad4409dee058c00c657",
       "deliverable_ids": [
         "M6.3-NAR-01",
         "M6.3-NAR-01::CAPTIONS",
@@ -25642,14 +25642,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 316,
+      "line": 320,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 2 INPUT 1 (45–55 mp)",
       "purpose": "Az alapkeret elmagyarázása narrációval.",
-      "spec": "Kb. 45–55 mp narráció a három kérdésről kézműves előtt: 1) Mi a cél? (mit tanuljanak: együttműködés, „mindenki hozzátesz\", identitás); 2) Kinek lehet nehéz? (finommotorika, anyag-/szag-érzékenység, költség, instrukció nyelve, szorongás a körben megosztástól); 3) Milyen variációt kínálok? (matrica, szavak, más forma). Zárás: a kérdések segítenek, hogy a kézműves ne kirekesszen, hanem behívjon.",
+      "spec": "Kb. 45–55 mp narráció a három kérdésről kézműves előtt: 1) Mi a cél? (mit tanuljanak: együttműködés, „mindenki hozzátesz”, identitás); 2) Kinek lehet nehéz? (finommotorika, anyag-/szag-érzékenység, költség, instrukció nyelve, szorongás a körben megosztástól); 3) Milyen variációt kínálok? (matrica, szavak, más forma). Zárás: a kérdések segítenek, hogy a kézműves ne kirekesszen, hanem behívjon.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
@@ -25685,8 +25685,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        384,
-        411
+        388,
+        415
       ],
       "source_text": "„Mielőtt kézműves feladatot hozol egy kvucának,\nérdemes három egyszerű kérdést feltenni.\n\n**Első: Mi a cél?**\nMit szeretnél, hogy tanuljanak közben?\nEgyüttműködést?\nAzt, hogy ‘mindenki hozzátesz valamit’?\nVagy valamit az identitásukról?\n\n**Második: Kinek lehet ez nehéz?**\nValakinek gond lehet a finommotorika?\nValaki érzékeny az anyagokra, szagokra?\nVan, akinek gond a költség,\nha drága alapanyagot várunk tőle?\nValakinek nehéz az instrukció **nyelve**,\nvagy **szorong** attól, hogy körben elmondja,\nmit jelent neki, amit készített?\n\n**Harmadik: Milyen variációt tudok kínálni?**\nTudom-e úgy csinálni,\nhogy aki nem tud vagy nem akar rajzolni,\naz matricával, szavakkal, más formában kapcsolódhat?\n\nEzek a kérdések segítenek abban,\nhogy a kézműveskedés **ne kirekesszen**,\nhanem **bevonjon** mindenkit.”",
       "source_hash": "6e3c681ab31a6e650d74292513010764d62ccfc405e961663044f16aff574d81",
@@ -25694,7 +25694,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "6e3c681ab31a6e650d74292513010764d62ccfc405e961663044f16aff574d81",
-      "spec_hash": "4bd0dc2c007f4737a3d3517bf44e8a9205154b1e1a4813d54b50ac0714533760",
+      "spec_hash": "844cd107ae222c4b98e122afb3f9d8342dcb6ae42aab4be644094b7e49de4e4b",
       "deliverable_ids": [
         "M6.3-NAR-02",
         "M6.3-NAR-02::CAPTIONS",
@@ -25718,14 +25718,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 456,
+      "line": 460,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 3 PÉLDA 1 Közös plakát (45–60 mp)",
       "purpose": "Az első példa pedagógiai magyarázata narrációval.",
-      "spec": "Kb. 45–60 mp narráció a Közös kvuca-plakátról: együttműködést tanít, „a plakát mindannyiunké\", sokféle nézőpont; inkluzivitás: ne legyen művészeti verseny; matricák, kivágott formák, színes papír, szavak – aki nem szeret rajzolni, ragaszthat/írhat/szimbólumot választhat; üzenet: mindenki hozzátesz valamit.",
+      "spec": "Kb. 45–60 mp narráció a Közös kvuca-plakátról: együttműködést tanít, „a plakát mindannyiunké”, sokféle nézőpont; inkluzivitás: ne legyen művészeti verseny; matricák, kivágott formák, színes papír, szavak – aki nem szeret rajzolni, ragaszthat/írhat/szimbólumot választhat; üzenet: mindenki hozzátesz valamit.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
@@ -25752,7 +25752,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Felirat: M6.3-NAR-03::CAPTIONS, leirat: M6.3-NAR-03::TRANSCRIPT. A SLIDE 3 💡 „Egy rövid példa a gyakorlatból\" (Maja) doboza a slide-on RENDERELT SZÖVEGES tartalom (nem önálló legyártandó média-asset), nem a narráció része.",
+      "notes": "Felirat: M6.3-NAR-03::CAPTIONS, leirat: M6.3-NAR-03::TRANSCRIPT. A SLIDE 3 💡 „Egy rövid példa a gyakorlatból” (Maja) doboza a slide-on RENDERELT SZÖVEGES tartalom (nem önálló legyártandó média-asset), nem a narráció része.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -25761,8 +25761,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        555,
-        581
+        559,
+        585
       ],
       "source_text": "„Nézzünk egy konkrét példát.\n\nA ‘Közös kvuca-plakát’-nál\negy nagy lapra mindenki tesz valamit,\nami szerinte a kvucát jelképezi.\n\nEz taníthat **együttműködést**,\nazt, hogy ‘ez a plakát mindannyiunké’.\nÉs azt is, hogy a kvucáról szóló kép\nnem egy ember fejéből jön,\nhanem **sokféle nézőpontból**.\n\nAz inkluzivitás szempontjából fontos,\nhogy ne legyen művészeti verseny.\nNe legyen az az üzenet,\nhogy ‘csak az számít, aki szépen rajzol’.\n\nTegyél ki matricákat, kivágott formákat,\nragasztót, színes papírt, szavakat.\nAki nem szeret rajzolni,\nragaszthat, írhat, választhat szimbólumot.\n\nÍgy a foglalkozás **nem azt tanítja**,\nhogy ‘nézd, ki mennyire ügyes’,\nhanem azt, hogy **mindenki hozzátesz valamit**.”",
       "source_hash": "534f1fe438dd7d1249e1f4c0ea04eb8b2b8568dad69291955883f8380d9a0c3f",
@@ -25770,7 +25770,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "534f1fe438dd7d1249e1f4c0ea04eb8b2b8568dad69291955883f8380d9a0c3f",
-      "spec_hash": "c671939187338794c8df26d2dbb573c270a495e24f9161324d489b2c55eadb3d",
+      "spec_hash": "e81832af278ce33a172bb284e70a8b256d8eafc54e80073001ab799b394e75a5",
       "deliverable_ids": [
         "M6.3-NAR-03",
         "M6.3-NAR-03::CAPTIONS",
@@ -25794,14 +25794,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 653,
+      "line": 657,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 4 PÉLDA 2 Karkötő (kb. 55–75 mp)",
       "purpose": "A második példa pedagógiai magyarázata narrációval.",
-      "spec": "Kb. 55–75 mp narráció a Személyes szimbólum-karkötőről: nem a „szép-e\", hanem hogy mit jelentenek az elemei; tanít önkifejezést, identitást, megosztást; inkluzivitás: finommotorika (vastagabb zsinór/nagyobb gyöngy), anyagok (fémallergia/tapintás), költség (státuszverseny veszélye); variációk: rajzos szimbólumkártya, páros munka (egyik fűz, másik segít a jelentésben).",
+      "spec": "Kb. 55–75 mp narráció a Személyes szimbólum-karkötőről: nem a „szép-e”, hanem hogy mit jelentenek az elemei; tanít önkifejezést, identitást, megosztást; inkluzivitás: finommotorika (vastagabb zsinór/nagyobb gyöngy), anyagok (fémallergia/tapintás), költség (státuszverseny veszélye); variációk: rajzos szimbólumkártya, páros munka (egyik fűz, másik segít a jelentésben).",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
@@ -25837,8 +25837,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        754,
-        789
+        758,
+        793
       ],
       "source_text": "„A ‘Személyes szimbólum-karkötő’\negy klasszikus kézműves feladat.\n\nNemcsak az a kérdés,\nhogy ‘szép lett-e a karkötő’,\nhanem hogy **mit jelentenek** az elemei.\n\nMit taníthat ez?\nÖnkifejezést: mi fontos nekem.\nIdentitást: milyen színek, jelek kapcsolódnak hozzám.\nÉs megosztást: el merem-e mondani, mit raktam rá.\n\nAz inkluzivitás szempontjából viszont\ntöbb dologra is figyelni kell.\n\nFinommotorika:\na nagyon apró gyöngyöket\nnem mindenki tudja kényelmesen fűzni.\nJó, ha van vastagabb zsinór, nagyobb gyöngy is.\n\nAnyagok:\nlehet valaki fémallergiás,\nvagy zavarja bizonyos anyag tapintása.\n\nKöltség:\nha a kézműves feladat eredménye azon is múlik,\nhogy ki milyen drága dolgot hoz otthonról,\nakkor könnyen lesz belőle **státuszverseny**.\n\nEzért fontosak a **variációk** is:\nha valakinek nem megy a fűzés, vagy nem akarja,\nkészíthet helyette egy rajzos **szimbólumkártyát**,\nvagy dolgozhat **párban** egy társával:\negyik fűz, másik segít kitalálni a jelentést.”",
       "source_hash": "7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a",
@@ -25846,7 +25846,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a",
-      "spec_hash": "686d078ee23a030fa81b7b208ccf92d0e7ff9b76c4953ccf10f5a47d2caac983",
+      "spec_hash": "b49992f093465ed394b4eb35f64294d89c19a5535d4ffa887efae369836ce955",
       "deliverable_ids": [
         "M6.3-NAR-04",
         "M6.3-NAR-04::CAPTIONS",
@@ -25870,14 +25870,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 860,
+      "line": 864,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 5 PÉLDA 3 Kvuca-zászló (45–60 mp)",
       "purpose": "A harmadik példa pedagógiai magyarázata narrációval.",
-      "spec": "Kb. 45–60 mp narráció a Kvuca-zászlóról: nemcsak „szép tárgy\", hanem „kik vagyunk mi együtt\"; tanít közös döntést és felelősséget (amit kiteszünk, azt vállaljuk); inkluzivitásnál a szimbólumokra kell figyelni (ne bántson senkit, ne legyen valaki identitásából/kinézetéből/hátteréből vicc); a zászló akkor tanít jól, ha mindenki talál benne saját részletet, és senki sem érzi, hogy „rajta röhög a kvuca\".",
+      "spec": "Kb. 45–60 mp narráció a Kvuca-zászlóról: nemcsak „szép tárgy”, hanem „kik vagyunk mi együtt”; közös döntésre és felelősségre tanít (amit kiteszünk, azt vállaljuk); inkluzivitásnál a szimbólumokra kell figyelni (ne bántson senkit, ne legyen valaki identitásából/kinézetéből/hátteréből vicc); a zászló akkor tanít jól, ha mindenki talál benne saját részletet, és senki sem érzi, hogy „rajta röhög a kvuca”.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
@@ -25913,8 +25913,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        962,
-        987
+        966,
+        991
       ],
       "source_text": "„A ‘Kvuca-zászló’ egy\nnagyon hatékony kézműves program lehet.\n\nNemcsak egy ‘szép tárgy’ a falon,\nhanem arról szól,\nhogy **kik vagyunk mi együtt**.\n\nTanít közös döntést:\nmit teszünk rá, mit nem.\nTanít felelősséget:\namit kiteszünk, azt vállaljuk,\naz minket képvisel.\n\nInkluzivitásnál itt a **szimbólumokra** kell nagyon figyelni.\n\nMilyen jeleket teszünk rá?\nNem bánt-e ez valakit a kvucából?\nNem csinálunk-e viccet valaki identitásából,\nkinézetéből, hátteréből?\n\nA zászló akkor tanít jól,\nha mindenki talál benne **saját részletet**,\nés senki nem érzi azt,\nhogy rajta röhög a kvuca.”",
       "source_hash": "2db3e67b6430b8b2154a17221905bbd5df601306880c174a1662401dcabd3a14",
@@ -25922,7 +25922,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "2db3e67b6430b8b2154a17221905bbd5df601306880c174a1662401dcabd3a14",
-      "spec_hash": "5e321caaad6c8e22e97b87b770d81db263293615d589ab8729a4ccdc2af5552b",
+      "spec_hash": "802eb830b534a038a98fe6b37cd384f63f0aad600c04b4935d6f3f6eebdf4c8a",
       "deliverable_ids": [
         "M6.3-NAR-05",
         "M6.3-NAR-05::CAPTIONS",
@@ -25946,14 +25946,14 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1019,
+      "line": 1023,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Narráció – SLIDE 6 ACTIVITY (30–40 mp)",
       "purpose": "Az összefoglaló gyakorlat felvezetése.",
-      "spec": "Kb. 30–40 mp narráció: „Most rajtad a sor.\" Válassz egy kézművest (a példák vagy saját ötlet) és nézd a három kérdéssel: Mit tanítson? Kinek lehet nehéz, miért? Hogyan variálnád, hogy senki ne maradjon kívül? Cél: a kézműves ne csak időt töltsön, hanem tudatosan tanítson egy konkrét kvucának.",
+      "spec": "Kb. 30–40 mp narráció: „Most rajtad a sor.” Válassz egy kézművest (a példák vagy saját ötlet) és nézd a három kérdéssel: Mit tanítson? Kinek lehet nehéz, miért? Hogyan variálnád, hogy senki ne maradjon kívül? Cél: a kézműves ne csak időt töltsön, hanem tudatosan tanítson egy konkrét kvucának.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció)",
       "technical": {
@@ -25989,8 +25989,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1105,
-        1121
+        1109,
+        1125
       ],
       "source_text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
       "source_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
@@ -25998,7 +25998,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
-      "spec_hash": "23f15cc0ee756f2d9c4ffe3836a4451255ad064db8f886e0cd23d35a4e9e9197",
+      "spec_hash": "3df8c6c57c1a832285af194eaeeb53229e1622cbec560f96b33b6d557a418ab3",
       "deliverable_ids": [
         "M6.3-NAR-06",
         "M6.3-NAR-06::CAPTIONS",
@@ -26088,13 +26088,13 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
-      "line": 241,
+      "line": 242,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Kilépőkártya – „1 játék, amiről játéklapot készítenél”",
-      "purpose": "Zárás és átvezetés: rögzíti az egyéni választást, ami az M6.B játéklap-műhelyben készülő játéklap-vázlat kiindulópontja lesz; tanulói elköteleződést teremt.",
+      "purpose": "Zárás és átvezetés: rögzíti az egyéni választást, ami az M6.B játéklap-műhelyben készülő játéklap-vázlat kiindulópontja is lehet; tanulói elköteleződést teremt.",
       "spec": "Kisméretű, kiosztható kilépőkártya: 1 kitöltendő mező a játék nevének („1 játék, amiről játéklapot készítenél”) és 1 rövid mező az indoklásnak („1 szó, miért azt választottad”). Híd az M6.B játéklap-műhelyhez.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -26117,7 +26117,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A meta (1. Peula meta, „Peula utáni lépés”) explicit kapcsolja az M6.B-hez: „Az M6.B pont innen, a mai kilépőkártyádtól indul.” Opcionálisan kiosztható (4.4.3: „Ha szeretnéd…”).",
+      "notes": "A meta (1. Peula meta, „Peula utáni lépés”) explicit kapcsolja az M6.B-hez: „Ha a 4.4.3-ban kiosztod a kilépőkártyát (…), a résztvevők az M6.B-n abból is indulhatnak.” Opcionálisan kiosztható (4.4.3: „Ha szeretnéd…”).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -26132,7 +26132,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "21384642c61c08b41bcff721c979464ee52bfbdaaf4aa02815fc3ad2d5657aee",
+      "spec_hash": "1f44b15ffba22dac38cc0f1ef175e2eedb84588fb0d9f6260b368f762a9840b0",
       "deliverable_ids": [
         "M6.A-MUNK-01",
         "M6.A-MUNK-01::PRINTPDF"
@@ -26155,7 +26155,7 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet)",
-      "purpose": "A képzőnek egy nyomtatható, kéznél tartható egylapos összefoglalót ad, amellyel a peula előtt minden kulcselemet (meta, játékválasztás, eszközök/tér, safety, híd) végigellenőrizhet; a forrás explicit „1 oldalra” megjelölése szerint kifejezetten egy oldalas kézikártyának szánt anyag.",
+      "purpose": "A képzőnek egy nyomtatható, kéznél tartható egylapos összefoglalót ad, amellyel a peula előtt minden kulcselemet (meta, játékválasztás, eszközök/tér, safety, híd) végigellenőrizhet; a forrás explicit „1 oldalra” megjelölése szerint kifejezetten egyoldalas kézikártyának szánt anyag.",
       "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a peula levezetéséhez, a forrás 5. szekciójának 5 pontjával: 1) Meta tiszta (fő kérdés + M6.1/M6.4 kapcsolat), 2) Játékok kiválasztva (2 játék + cél/korosztály/rizikó fejből), 3) Eszközök & tér (3 kvuca-sarok, CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ tábla, hely, kijelölt csendes sarok mint biztonságos hely: felkavart kiskorút nem küldünk ki egyedül, egy felnőtt vele van), 4) Biztonsági keret a fejben (nem kötelező vállalni; mondat nehéz élményre; a külön beszélgetés csak diszkrét, de átlátható helyzetben, kettesben csak indokolt esetben és egy másik felelős tudtával), 5) Híd az M6.B játéklaphoz. Pipálható checklist-formátum.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -26178,7 +26178,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A forrás cím („1 oldalra”) egyértelműen egy oldalas kézikártyára utal, ezért legyártandó print-asset, nem pusztán szövegfolyam. Tartalmilag visszahivatkozik a POSZ-01 és POSZ-02 eszközökre (5. Képzői ellenőrző lista, 3. pont).",
+      "notes": "A forrás cím („1 oldalra”) egyértelműen egyoldalas kézikártyára utal, ezért legyártandó print-asset, nem pusztán szövegfolyam. Tartalmilag visszahivatkozik a POSZ-01 és POSZ-02 eszközökre (5. Képzői ellenőrző lista, 3. pont).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -26193,7 +26193,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "7154ce72f56eeb58366ff161abe8e43566b41fd9f8da3646697aaf9e3e39a275",
+      "spec_hash": "ae48dd261d0ad9cdd9174ceaa0d3178bf821f7cb301c2673bed8705b7e2cdc11",
       "deliverable_ids": [
         "M6.A-MUNK-02",
         "M6.A-MUNK-02::PRINTPDF"
@@ -26210,7 +26210,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
-      "line": 120,
+      "line": 121,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -26271,13 +26271,13 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
-      "line": 71,
+      "line": 70,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ mátrix flipchart-sablon",
-      "purpose": "A peula közös elemzési nyelvét („cél – kvuca – rizikó – variáció”) strukturálja és vizualizálja; a játék-választás 3+ szempontjának begyakorlását támogatja a 4.2.4 lépésben.",
+      "purpose": "A peula közös elemzési nyelvét („cél – kvuca – rizikó – variáció”) strukturálja és vizualizálja; a játékválasztás 3+ szempontjának begyakorlását támogatja a 4.2.4 lépésben.",
       "spec": "4 oszlopos flipchart/tábla-sablon az alábbi oszlopcímekkel: CÉL | KVUCA | RIZIKÓ | VARIÁCIÓ. Üres kitölthető mezők a játék-labor 1 közös elemzéséhez (kulcsszavak kézzel beírhatók). Letisztult, előre felrajzolható vagy nyomtatható poszter-sablon.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -26315,7 +26315,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "90eaed20b17b4a66fc316f0da9b07a57014c5360026fef3f32b0ead8a8f00593",
+      "spec_hash": "7744b9dab46fc3a76b693987a93610fbc7232702532795996460fd69bed1b842",
       "deliverable_ids": [
         "M6.A-POSZ-02",
         "M6.A-POSZ-02::PRINTPDF"
@@ -26332,7 +26332,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
-      "line": 274,
+      "line": 275,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -26400,7 +26400,7 @@
       "status": "spec-ready",
       "title": "Játéklap-sablon (üres kitölthető munkalap)",
       "purpose": "A peula fő kimenete: minden résztvevő ezen készíti el az első használható játéklap-vázlatát, amelyet később a Moodle-ben ad le (M6 Assignment: szövegként beírva vagy a szerkeszthető sablont kitöltve, fájlként).",
-      "spec": "Egyoldalas, kézzel kitölthető A4 munkalap a résztvevők saját eszközének megtervezéséhez. A rovatok az M6 KAPU rubrikájának R1–R5 sorait követik (ugyanez a sablon a hub M6-HUB-MUNK-01 modulproduktuma). Kötelező mezők, mindegyikhez elég írásterület: Cím; Eszköz típusa (játék / történet / kézműves, bekarikázható); Cél (mit tanít / mire használom?; ha van, a kapcsolódó someres érték) – R1; Kvuca(k): korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17), létszám, hangulat – R2; Időkeret, tér, eszközök – R3; Menet / leírás röviden, lépésről lépésre – R3; Biztonsági szempontok (fizikai és érzelmi / beleegyezés; mikor állsz le, és kit hívsz, ha valakinek sok) – R4, blokkoló; Inkluzivitás (kire kell külön figyelni; legalább 1 megnevezett akadály és hozzá 1 konkrét alternatív belépési pont) – R5, blokkoló; Variációk (könnyített / nehezített / alternatív használat). Fejenként 1–2 példányban nyomtatva, tartalékkal.",
+      "spec": "Egyoldalas, kézzel kitölthető A4 munkalap a résztvevők saját eszközének megtervezéséhez. A rovatok az M6 KAPU rubrikájának R1–R5 sorait követik (ugyanez a sablon a hub M6-HUB-MUNK-01 modulproduktuma). Kötelező mezők, mindegyikhez elég írásterület: Cím; Eszköz típusa (játék / történet / kézműves, bekarikázható); Cél (mit tanít / mire használod?; ha van, a kapcsolódó someres érték) – R1; Kvuca(k): korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17), létszám, hangulat – R2; Időkeret, tér, eszközök – R3; Menet / leírás röviden, lépésről lépésre – R3; Biztonsági szempontok (fizikai és érzelmi / beleegyezés; mikor állsz le, és kit hívsz, ha valakinek sok) – R4, blokkoló; Inkluzivitás (kire kell külön figyelni; legalább 1 megnevezett akadály és hozzá 1 konkrét alternatív belépési pont) – R5, blokkoló; Variációk (könnyített / nehezített / alternatív használat). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat. Fejenként 1–2 példányban nyomtatva, tartalékkal.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -26437,7 +26437,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "9f02ff4c9c8b45a841e32a45306fa732311636432fbed7523af226e7a78819af",
+      "spec_hash": "6a3d9c6bdcf12411b64a7c2c82cd06d9d729c5c0409bdce9535cdca75de097f5",
       "deliverable_ids": [
         "M6.B-MUNK-01",
         "M6.B-MUNK-01::PRINTPDF",
@@ -26460,9 +26460,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Rubrika / minimum-checklista (értékelő lap)",
+      "title": "Rubrika / minimum-ellenőrzőlista (értékelő lap)",
       "purpose": "Közös minőségi nyelvet ad: tisztázza, mi a „minimum oké” egy játéklapnál, és előkészíti a 4.4 blokk élő, rubrika-alapú társas visszajelzését.",
-      "spec": "Egyszerű, 5 soros értékelő lap kinyomtatva (vagy flipchartra felírható sablonként): az M6 KAPU játéklap-rubrikájának sorai háromfokú skálával (Még nem / Oké / Erős), soronként a kapu „Oké”-ellenőrzőlistájának pontjával: R1 Cél – legalább 1 konkrét, kimondott, az eszközhöz illő cél; R2 Kvuca – korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17; elég a név vagy az életkor) és létszám, az eszköz és a korosztály nem ütközik a tanultakkal; R3 Leírás – legalább 3 lépésből álló menet, időkeret és eszközlista; R4 Biztonság (blokkoló) – legalább 1 konkrét, erre az eszközre vonatkozó biztonsági mondat; R5 Inkluzivitás (blokkoló) – legalább 1 megnevezett akadály és 1 konkrét alternatív belépési pont. A 4.2 Lépés 2 ezt mutatja be; ugyanez a rubrika köszön vissza a 4.4 mini-bemutatók társas visszajelzésénél.",
+      "spec": "Egyszerű, 5 soros értékelő lap kinyomtatva (vagy flipchartra felírható sablonként): az M6 KAPU játéklap-rubrikájának sorai háromfokú skálával (Még nem / Oké / Erős), soronként a kapu „Oké”-ellenőrzőlistájának pontjával: R1 Cél – legalább 1 konkrét, kimondott, az eszközhöz illő cél; R2 Kvuca – korosztály-sáv (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17; elég a név vagy az életkor) és létszám, az eszköz és a korosztály nem ütközik a tanultakkal; R3 Leírás – legalább 3 lépésből álló menet, időkeret és eszközlista; R4 Biztonság (blokkoló) – legalább 1 konkrét, erre az eszközre vonatkozó biztonsági mondat; R5 Inkluzivitás (blokkoló) – legalább 1 megnevezett akadály és 1 konkrét alternatív belépési pont. A 4.2 Lépés 2 ezt mutatja be; ugyanez a rubrika köszön vissza a 4.4 minibemutatók társas visszajelzésénél.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -26483,7 +26483,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A 2.1-ben mint nyomtatható VAGY flipchartra írható eszköz szerepel. Az 5.2 checklist „Rubrika / checklist kirakva” tételével azonos.",
+      "notes": "A 2.1-ben mint nyomtatható VAGY flipchartra írható eszköz szerepel. Az 5.2 checklist „Rubrika / ellenőrzőlista kirakva” tételével azonos.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -26498,7 +26498,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2499c79c76176d4a8200a56acf9c1b2f3dcc02741c9c56f564dc707747ed16a8",
+      "spec_hash": "321be7b30295a179beff8f74bdbcc3eb7e03faafcbe60389f47d1500a5ed1298",
       "deliverable_ids": [
         "M6.B-MUNK-02",
         "M6.B-MUNK-02::PRINTPDF"
@@ -26702,7 +26702,7 @@
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista (1 A4 – peula előtt/közben)",
       "purpose": "A képző felkészülését és a levezetés minőségbiztosítását segítő, kinyomtatható egyoldalas segédlet.",
-      "spec": "Egyoldalas (1 A4) képzői ellenőrzőlista a peula levezetéséhez, 6 blokkal: 1) Tiszták a célok?; 2) Megvan minden eszköz? (sablonok, rubrika, tollak/post-it/papír, időmérő, tábla/flipchart; ha van második felnőtt: a második félcsoporthoz kijelölt, eligazított felnőtt stábtag és második flipchart vagy kinyomtatott kérdéssor; ha nincs, a 4.4.2 nagycsoportban fut); 3) Van saját mintajátéklapod? (1 rövid játék-példa, mellette 1 történet- és 1 kézműves-mintapélda; mindegyikben cél/kvuca/biztonság/inkluzivitás/variációk); 4) Biztonsági keret a fejben (kész mondatok, pl. „Nem kell tökéletesnek lennie, ez egy első verzió…”; tudod, kinek jelzel / kihez fordulsz, ha a peula alatt valaki nagyon rosszul érzi magát egy játék, emlék vagy felismerés miatt: a kijelölt Memunának (a Somer gyermekvédelmi felelősének), összeférhetetlenség esetén a név szerint kijelölt helyettesének); 5) Időkezelés (honnan veszel el időt, vállalás-körre min. 3 perc); 6) Híd Moodle felé. Pipálható tételekkel.",
+      "spec": "Egyoldalas (1 A4) képzői ellenőrzőlista a peula levezetéséhez, 6 blokkal: 1) Tiszták a célok?; 2) Megvan minden eszköz? (sablonok, rubrika, tollak/post-it/papír, időmérő, tábla/flipchart; ha van második felnőtt: a második félcsoporthoz kijelölt, eligazított felnőtt stábtag és második flipchart vagy kinyomtatott kérdéssor; ha nincs, a 4.4.2 nagycsoportban fut); 3) Van saját mintajátéklapod? (1 rövid játékpélda, mellette 1 történet- és 1 kézműves-mintapélda; mindegyikben cél/kvuca/biztonság/inkluzivitás/variációk); 4) Biztonsági keret a fejben (kész mondatok, pl. „Nem kell tökéletesnek lennie, ez egy első verzió…”; tudod, kinek jelzel / kihez fordulsz, ha a peula alatt valaki nagyon rosszul érzi magát egy játék, emlék vagy felismerés miatt: a kijelölt Memunának (a Somer gyermekvédelmi felelősének), összeférhetetlenség esetén a név szerint kijelölt helyettesének); 5) Időkezelés (honnan veszel el időt, vállaláskörre min. 3 perc); 6) Híd Moodle felé. Pipálható tételekkel.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -26738,7 +26738,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "7ff522f1e377c7dc0be685fe74d17539996179244a384f50002359684f7f9a38",
+      "spec_hash": "e8ddf134ace1905a05283a34434f7f70ce2b661d6362c28c5b4fa455f07e2778",
       "deliverable_ids": [
         "M6.B-MUNK-06",
         "M6.B-MUNK-06::PRINTPDF"
@@ -26762,7 +26762,7 @@
       "status": "spec-ready",
       "title": "Produktum-visszajelzés flipchart-sablon (Megfigyelés → Hatás → Következő lépés)",
       "purpose": "Vizuális keret a társas visszajelzés gyakorlásához; segít, hogy a résztvevők általános dicséret helyett a játéklap egy konkrét elemére, annak várható hatására és egy következő lépésre reagáljanak.",
-      "spec": "Flipchartra/táblára felírható vagy A3/A4-en kinyomtatható produktum-visszajelzési poszter három kérdéssel: (1) Megfigyelés: melyik konkrét elemet látod a lapon? (2) Hatás: milyen várható hatása lehet ennek a kvucára vagy a következő madrih munkájára? (3) Következő lépés: mit lenne jó még hozzáadni vagy pontosítani? Tartalmazza a kész mintamondatot: „Amikor elképzeltem, hogy egy 6–9 éves Parparim-kvucával ezt a játékot vinném, feltűnt, hogy a biztonság sorban külön odaírtad: ‘nem kötelező felállni, ülve maradni is rendben van’. Ettől egy szorongóbb hanihnak is lenne benne biztonságos opciója, és egy másik madrih is könnyebben tudná biztonságosan megtartani a játékot. Következő lépésként érdemes lehet még egy variációt írni egy másik korosztályra is.” A lap alján rövid horgony: „M1 emlékeztető: az SBI viselkedésre való; produktumra a Megfigyelés → Hatás → Következő lépés modellt használjuk.”",
+      "spec": "Flipchartra/táblára felírható vagy A3/A4-en kinyomtatható produktum-visszajelzési poszter három kérdéssel: (1) Megfigyelés: melyik konkrét elemet látod a játéklapon? (2) Hatás: milyen várható hatása lehet ennek a kvucára vagy a következő madrih munkájára? (3) Következő lépés: mit lenne jó még hozzáadni vagy pontosítani? Tartalmazza a kész mintamondatot: „Amikor elképzeltem, hogy egy 6–9 éves Parparim-kvucával ezt a játékot vinném, feltűnt, hogy a biztonság sorban külön odaírtad: ‘nem kötelező felállni, ülve maradni is rendben van’. Ettől egy szorongóbb hanihnak is lenne benne biztonságos opciója, és egy másik madrih is könnyebben tudná biztonságosan megtartani a játékot. Következő lépésként érdemes lehet még egy variációt írni egy másik korosztályra is.” A lap alján rövid horgony: „M1 emlékeztető: az SBI viselkedésre való; produktumra a Megfigyelés → Hatás → Következő lépés modellt használjuk.”",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -26798,7 +26798,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5eb33adb846931db403d249bb17097785b54f6e9446b34d14cd0bbd012d1d5bb",
+      "spec_hash": "c93309e87478b4d8a5f168de9211321952b52d053c577c5b1b9f5a23766d015d",
       "deliverable_ids": [
         "M6.B-POSZ-01",
         "M6.B-POSZ-01::PRINTPDF"
@@ -26815,7 +26815,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md",
-      "line": 159,
+      "line": 160,
       "kind": "print",
       "subtype": "consumable",
       "mode": "external",
@@ -26835,14 +26835,14 @@
       "reuse_of": "",
       "reuse_resolves_to": "",
       "external": {
-        "source": "beszerzendő irodaszer (post-it / matrica / filc / marker)",
+        "source": "beszerzendő irodaszer (post-it / cetli / filc / marker)",
         "owner": "képzés-logisztika"
       },
       "blockers": [],
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Category 'digitális-generálandó'-ról 'print-fizikai'-ra javítva: a matrica fizikai, megvásárolható tárgy, NEM digitálisan generált kimenet (a séma 'digitális-generálandó' kategóriája narrációt/videót/diagramot/illusztrációt/ikont/fotót/hangot sorol). assetType 'egyéb' és provenance 'stock' marad: beszerzendő stock irodaszer, az előkészítés (2.1 Eszközök) miatt asset-ként szerepel. A tájékozódó táblával (POSZ-01) együtt működik, kizárólag név nélküli témakérésre. Az R8 kivezetve: a szabály szövege kifejezetten „valós fotó/screenshot” esetére szól (azonosítható személy, kézírás, felhasználónév a képen). Ez a tétel beszerzendő fizikai irodaszer, nem képi anyag — se fotó, se képernyőkép, se ábrázolt személy —, így az R8-nak nincs alkalmazható kikötése rá. A beszerzési tétel specifikációja kész.",
+      "notes": "Category 'digitális-generálandó'-ról 'print-fizikai'-ra javítva: a post-it / cetli fizikai, megvásárolható tárgy, NEM digitálisan generált kimenet (a séma 'digitális-generálandó' kategóriája narrációt/videót/diagramot/illusztrációt/ikont/fotót/hangot sorol). assetType 'egyéb' és provenance 'stock' marad: beszerzendő stock irodaszer, az előkészítés (2.1 Eszközök) miatt asset-ként szerepel. A tájékozódó táblával (POSZ-01) együtt működik, kizárólag név nélküli témakérésre. Az R8 kivezetve: a szabály szövege kifejezetten „valós fotó/screenshot” esetére szól (azonosítható személy, kézírás, felhasználónév a képen). Ez a tétel beszerzendő fizikai irodaszer, nem képi anyag — se fotó, se képernyőkép, se ábrázolt személy —, így az R8-nak nincs alkalmazható kikötése rá. A beszerzési tétel specifikációja kész.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -26857,7 +26857,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d73aef948b6720ead301d4108a1c5ae76719b6cefaad42b4241be581f27a5ee1",
+      "spec_hash": "0932dab4840cef2ebdf7067ff61204de52a4c8c0d2782bf42191e2e7a2cea010",
       "deliverable_ids": [
         "M6.F-EGY-01"
       ],
@@ -26873,14 +26873,14 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md",
-      "line": 247,
+      "line": 248,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Jegyzetlap – „1 gondolat / 1 kérdés leckénként + játéklap”",
       "purpose": "Strukturált önreflexió: minden leckéhez 1 gondolat és 1 kérdés rögzítése; alapja a kérdésgyűjtésnek és az esetleges név nélküli begyűjtésnek.",
-      "spec": "Egyéni jegyzet-munkalap öt blokkra osztva, mindegyikhez 2–2 sor (1 gondolat / 1 kérdés): L1 – játék-kategóriák, korosztályok; L2 – történet, mint tükör; L3 – kézműves, ami tanít; L4 – döntési szcenáriók; Játéklap – biztonság & inkluzivitás. Hely az „ezt ma nem értem el” / „ezt szeretném pótolni” jelölésnek is.",
+      "spec": "Egyéni jegyzet-munkalap öt blokkra osztva, mindegyikhez 2–2 sor (1 gondolat / 1 kérdés): L1 – játékkategóriák, korosztályok; L2 – történet, mint tükör; L3 – kézműves, ami tanít; L4 – döntési szcenáriók; Játéklap – biztonság & inkluzivitás. Hely az „ezt ma nem értem el” / „ezt szeretném pótolni” jelölésnek is.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26917,7 +26917,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "30d66914219c76a80245e22295dcba2d11237b4e2e90c0c8d69d38ac7ea3f74b",
+      "spec_hash": "200e88194a25e41521393a5a0298479baf009d6989873e9a73a215584464e85f",
       "deliverable_ids": [
         "M6.F-MUNK-01",
         "M6.F-MUNK-01::PRINTPDF"
@@ -26934,7 +26934,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md",
-      "line": 280,
+      "line": 281,
       "kind": "worksheet",
       "subtype": "",
       "mode": "reuse",
@@ -26942,8 +26942,8 @@
       "title": "Üres játéklap-sablon (offline B-terv + F-peula)",
       "purpose": "Védett idő a játéklap javítására (a visszajelzésben jelzett sorok), illetve a vázlat írására/finomítására; wifi/eszköz kiesés esetén ütésálló offline alternatíva.",
       "spec": "Nyomtatott üres játéklap-sablon a saját eszköz (játék/történet/kézműves) leírásához, az M6.B-MUNK-01 sablon mezőivel (a rovatok az M6 KAPU R1–R5 sorait követik): cím; eszköz típusa; cél; kvuca (korosztály-sáv, létszám, hangulat); időkeret, tér, eszközök és menet lépésről lépésre; biztonsági szempontok (mikor állsz le, kit hívsz, ha valakinek sok); inkluzivitás („kinek lehet nehéz, és mit teszek ilyenkor”: legalább 1 akadály és 1 alternatív belépési pont); variációk. Online elérés kiesésekor a digitális játéklapot pótolja.",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
+      "provenance": "human",
+      "provenance_note": "emberi-felvétel",
       "technical": {
         "note": "A4, álló, magyar nyelvű, fejenként 1–2 példány, kitölthető mezőkkel"
       },
@@ -26973,7 +26973,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "285d698c53156cb50280b8a20e36e4481b8b377e6f3c0a479fb2d60cff545a88",
+      "spec_hash": "5412913d3cdf32a51e1b62a1b3ab9d437dec6349a4f24a81bd0dccfae7bbe97d",
       "deliverable_ids": [],
       "legacy": {
         "asset": [
@@ -26994,7 +26994,7 @@
       "status": "spec-ready",
       "title": "Lecke-összefoglalók M6.1–M6.4 (offline B-terv, 1–1 oldal)",
       "purpose": "Offline tartalmi pótlás és páros átbeszélés alapja, hogy az F-peula ideje ne omoljon össze online elérés nélkül; közös alapnyelv biztosítása.",
-      "spec": "Négy egyoldalas nyomtatott lecke-összefoglaló (M6.1 játék-kategóriák; M6.2 történet mint tükör; M6.3 kézműves ami tanít; M6.4 döntési szcenáriók), mindegyik a fő fogalmakkal és a tipikus elakadásokkal (lásd a 2.3 Képző felkészülése elakadás-listáját). Wifi/H5P kiesés esetén pótolja a videót/H5P-t.",
+      "spec": "Négy egyoldalas nyomtatott lecke-összefoglaló (M6.1 játékkategóriák; M6.2 történet mint tükör; M6.3 kézműves ami tanít; M6.4 döntési szcenáriók), mindegyik a fő fogalmakkal és a tipikus elakadásokkal (lásd a 2.3 Képző felkészülése elakadás-listáját). Wifi/H5P kiesés esetén pótolja a videót/H5P-t.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -27031,7 +27031,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "bf1d2357c8a1373bc9e64382fc4d52f8026d2b961fddf0241cf0e94611fcc875",
+      "spec_hash": "70222fca491e7c7b296a03a77c518fb9cbf1651be802da2f921b20b80f1634c3",
       "deliverable_ids": [
         "M6.F-MUNK-03",
         "M6.F-MUNK-03::PRINTPDF"
@@ -27048,14 +27048,14 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md",
-      "line": 466,
+      "line": 467,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista – 1 A4 (peula előtt/közben/után)",
       "purpose": "A képzőnek nyomtatott, egyoldalas önellenőrző segédlet, ami biztosítja a felzárkóztató keret, az eszközök, a tér, a safety és az időkeret/híd konzisztens betartását.",
-      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (F-peula: facilitált javítási alkalom, nem számonkérés; kötelező annak, akinek az M6 éles kapuja nem teljesült; cél: a nem teljesült rubrikasorok javítása a kapun kapott visszajelzés alapján + a hiányzó leckék pótlása + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, eszköz+füles+tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugodt, de átlátható pont egyéni beszélgetéshez – kettesben csak indokolt esetben és egy másik felelős tudtával); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótlás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (a javított játéklap javító leadása a Moodle-ben).",
+      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (F-peula: facilitált javítási alkalom, nem számonkérés; kötelező annak, akinek az M6 éles kapuja nem teljesült; cél: a nem teljesült rubrikasorok javítása a kapun kapott visszajelzés alapján + a hiányzó leckék pótlása + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, a közös eszközön saját fiókkal belépés és kijelentkezés, az M6.1 és az M6.2 offline letölthető leckeváltozata, eszköz+füles+tartalék, témakérő post-it/cetlik, tájékozódó tábla (POSZ-01), filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugodt, de átlátható pont egyéni beszélgetéshez – kettesben csak indokolt esetben és egy másik felelős tudtával); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótlás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (a javított játéklap javító leadása a Moodle-ben).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -27092,7 +27092,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "0daf6143997c056edbe508accb9b4e387c8bcc2c62b513e5566aa3afc0eead8a",
+      "spec_hash": "69318b5ad53b0d72dd0718bc53bad4c45327b2ebbdaaf4de47967440cd1cfd2f",
       "deliverable_ids": [
         "M6.F-MUNK-04",
         "M6.F-MUNK-04::PRINTPDF"
@@ -27109,7 +27109,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md",
-      "line": 188,
+      "line": 189,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -27170,7 +27170,7 @@
       "module": "M6",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md",
-      "line": 339,
+      "line": 340,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -46208,7 +46208,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat",
+      "title": "Narráció – SLIDE 5: bizalom- és kontaktjáték + kockázat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -46232,7 +46232,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat — felirat",
+      "title": "Narráció – SLIDE 5: bizalom- és kontaktjáték + kockázat — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -46256,7 +46256,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat — leirat",
+      "title": "Narráció – SLIDE 5: bizalom- és kontaktjáték + kockázat — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -48134,7 +48134,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
       "file_kind": "peula",
-      "title": "Rubrika / minimum-checklista (értékelő lap)",
+      "title": "Rubrika / minimum-ellenőrzőlista (értékelő lap)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -48155,7 +48155,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md",
       "file_kind": "peula",
-      "title": "Rubrika / minimum-checklista (értékelő lap) — nyomtatható PDF",
+      "title": "Rubrika / minimum-ellenőrzőlista (értékelő lap) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",

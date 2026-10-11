@@ -704,7 +704,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M6-HUB-MUNK-01` | worksheet | újrahasznosítás | specifikáció kész | Játéklap-sablon (üres, kitölthető) – M6 modul-produktum | — | — | vegyes |
+| `M6-HUB-MUNK-01` | worksheet | újrahasznosítás | specifikáció kész | Játéklap-sablon (üres, kitölthető) – M6 modul-produktum | — | — | emberi |
 
 ### 02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md
 
@@ -731,7 +731,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.1-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 2: 3 aktuális korosztály bemutatása | `M6.1-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 3: 5 játék-kategória | `M6.1-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 4: ismerkedős + energizer | `M6.1-NAR-04-VO` | felirat, leirat | AI-generált |
-| `M6.1-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 5: bizalom-/kontaktjáték + kockázat | `M6.1-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M6.1-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 5: bizalom- és kontaktjáték + kockázat | `M6.1-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 6: reflexiós vs. mély élmény | `M6.1-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M6.1-NAR-07` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SLIDE 8 outro (opcionális rövid videóhoz) | `M6.1-NAR-07-VO` | felirat, leirat | AI-generált |
 | `M6.1-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | Hook beszélőfej-videó – „Volt már olyan, hogy nem ült a játék?” | `M6.1-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
@@ -799,7 +799,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M6.B-MUNK-01` | worksheet | legyártandó | specifikáció kész | Játéklap-sablon (üres kitölthető munkalap) | — | nyomtatható PDF, szerkeszthető, kitölthető változat | emberi |
-| `M6.B-MUNK-02` | worksheet | legyártandó | specifikáció kész | Rubrika / minimum-checklista (értékelő lap) | — | nyomtatható PDF | emberi |
+| `M6.B-MUNK-02` | worksheet | legyártandó | specifikáció kész | Rubrika / minimum-ellenőrzőlista (értékelő lap) | — | nyomtatható PDF | emberi |
 | `M6.B-MUNK-03` | worksheet | legyártandó | specifikáció kész | Kész minta-játéklap – JÁTÉK példa (képzői mintalap) | — | nyomtatható PDF | emberi |
 | `M6.B-MUNK-04` | worksheet | legyártandó | specifikáció kész | Kész minta-játéklap – TÖRTÉNET példa (képzői mintalap) | — | nyomtatható PDF | emberi |
 | `M6.B-MUNK-05` | worksheet | legyártandó | specifikáció kész | Kész minta-játéklap – KÉZMŰVES példa (képzői mintalap) | — | nyomtatható PDF | emberi |
@@ -814,7 +814,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M6.F-EGY-01` | print/consumable | külső forrás | specifikáció kész | Cetli / post-it készlet a név nélküli témakérésekhez (beszerzendő irodaszer) | — | — | stock |
 | `M6.F-MUNK-01` | worksheet | legyártandó | specifikáció kész | Jegyzetlap – „1 gondolat / 1 kérdés leckénként + játéklap” | — | nyomtatható PDF | AI-generált |
-| `M6.F-MUNK-02` | worksheet | újrahasznosítás | specifikáció kész | Üres játéklap-sablon (offline B-terv + F-peula) | — | — | AI-generált |
+| `M6.F-MUNK-02` | worksheet | újrahasznosítás | specifikáció kész | Üres játéklap-sablon (offline B-terv + F-peula) | — | — | emberi |
 | `M6.F-MUNK-03` | worksheet | legyártandó | specifikáció kész | Lecke-összefoglalók M6.1–M6.4 (offline B-terv, 1–1 oldal) | — | nyomtatható PDF | AI-generált |
 | `M6.F-MUNK-04` | worksheet | legyártandó | specifikáció kész | Képzői ellenőrző lista – 1 A4 (peula előtt/közben/után) | — | nyomtatható PDF | AI-generált |
 | `M6.F-POSZ-01` | poster | legyártandó | specifikáció kész | Tájékozódó tábla – M6 leckelista + játéklap + név nélküli témakérések | — | nyomtatható PDF | AI-generált |

@@ -263,7 +263,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 
 | Család | Pilot | Köteg | Kapuk | Család mérete | Cím |
 |---|---|---|---|---:|---|
-| Narráció / hang | `M3.4-NAR-02` | B3 | R2, R3 | 89 | Outro narráció (opcionális) – SLIDE 7 |
+| Narráció / hang | `M4.2-NAR-01` | B3 | R2, R3 | 89 | Slide 1 narráció – „Mit mondanál elsőre?” |
 | AI beszélőfej-videó | `M2.2-VID-01` | B3 | R2, R3 | 18 | Hook-videó: „A kvucád 15 percet késik…” |
 | AI karakter- / jelenetvideó | `M4.1-VID-02` | B3 | R2, R3 | 9 | Interactive Video – 3 madrih-kiállás mini-jelenettel + beágyazott kérdések |
 | Diagram / ábra | `M1.B-DIA-01` | B0 | — | 38 | Szerepcsere-ábra (A→C, C→B, B→A forgás) |
