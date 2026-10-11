@@ -81,7 +81,7 @@ A modul végére a résztvevő…
 * **Eszközök:**
   * H5P Course Presentation (profilok)
   * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatán)
-  * Koppintásos párosítás (a megvalósító H5P-típust a runtime acceptance igazolja) / H5P Drag & Drop – helyzetek → kvucák
+  * Koppintásos párosítás (jelenetenként egy H5P Multiple Choice elem egyválaszos módban; a húzás nélküli teljesíthetőséget a runtime acceptance igazolja) / H5P Drag & Drop – helyzetek → kvucák
 * **Tartalom röviden:**
   * Kvucánként minileírás:
     * „Világ / élethelyzet” (iskola, kortársak, szülők szerepe),
@@ -269,7 +269,7 @@ A modul végére a résztvevő…
 * **H5P analitika:**
   * M3.1–M3.2: mely Tuckman-szakaszok / kvuca-típusok keverednek leggyakrabban (ez jelzi, hol kell több példa / tisztázás).
   * M3.3–M3.4: mely red flag típusokat **nem ismerik fel** (online zaklatás, önsértés, madrih–hanih határátlépés).
-* **Kapukvíz adatok:**
+* **A kapukvíz adatai:**
   * Mely kérdéseknél hibáznak sokan – ezeknél érdemes a tartalmat vagy a peula-részleteket finomhangolni (pl. madrih–hanih kapcsolat súlyossága, első lépés logikája).
 * **Küszöbök / beavatkozási pontok:**
   * Ha a résztvevők **>30%-a nem fejezi be az M3.3-at** a 2. hét végéig → extra emlékeztető + **csendes pótlás** (önálló elmaradás-pótlás). Az **M3.F (F-peula)** annak kötelező, akinek az M3 éles kapuja nem teljesült.
