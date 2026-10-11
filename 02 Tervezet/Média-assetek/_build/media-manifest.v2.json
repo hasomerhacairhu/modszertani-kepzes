@@ -10830,7 +10830,7 @@
       "status": "spec-ready",
       "title": "SLIDE CHECK mini-kvíz – 2 kérdés (fogalmi rögzítés)",
       "purpose": "A fő üzenetek fogalmi rögzítése a döntési fa után; önreflexió a saját szintről.",
-      "spec": "Egy Course Presentation-csomópont 2 kérdéssel (a Question Set nem lehet a Branching Scenario csomópontja, és Course Presentationbe sem ágyazható): Kérdés 1 (jó/rossz, helyes válasz a középső – \"viselkedéseden, döntéseiden keresztül látszik\" – Multiple Choice, \"Randomize answers\" bekapcsolva), Kérdés 2 (önjelző poll, nincs jó/rossz, 3 opció + egységes visszajelzés; a megvalósítási típust és a visszajelzés megjelenését az LMS – H5P runtime acceptance.md 14. pontja szerint kell kiválasztani és tesztelni a cél verzión). Teljes szöveg a forrásban.",
+      "spec": "Egy Course Presentation-csomópont 2 kérdéssel (a Question Set nem lehet a Branching Scenario csomópontja, és Course Presentationbe sem ágyazható): Kérdés 1 (jó/rossz, helyes válasz a középső – \"viselkedéseden, döntéseiden keresztül látszik\" – Multiple Choice, \"Randomize answers\" bekapcsolva), Kérdés 2 (önjelző poll, nincs jó/rossz, 3 opció + egységes visszajelzés; a megvalósítási típust és a visszajelzés megjelenését az LMS – H5P runtime acceptance.md 14. pontja szerint kell kiválasztani és tesztelni a célverzión). Teljes szöveg a forrásban.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -10864,7 +10864,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b52a00cbe83b80f59da1879dfff6120d91cce5dda51bb30182e1bf36a4d26a1d",
+      "spec_hash": "5869b267a3984aee48d87da6ee125baa7f637e3c59e63522f6974b04580aae04",
       "deliverable_ids": [
         "M2.3-EGY-03"
       ],
