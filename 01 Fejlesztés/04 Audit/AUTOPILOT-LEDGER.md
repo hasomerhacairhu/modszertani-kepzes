@@ -31,8 +31,8 @@
 | Modul | Review | Lencsék | Riport | Review-bázis | Javítás | Bizonyíték | Következő lépés |
 |---|---|---|---|---|---|---|---|
 | M0 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M0 course-review, B sáv.md`; `2026-10-11 Validált findingok – M0, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | FIXING | — | FIX (átfedéssel, a projektgazda 2026-10-11-i gyorsítási döntése szerint): csak az M0 saját fájljai; a közös kánoni fájlok és a Z.A-helyek az összes review után |
-| M1 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M1 course-review, B sáv.md`; `2026-10-11 Validált findingok – M1, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | FIXING | `ed4f52d` fix(M1) + `506fa78` chore(media) | REGRESSION: célzott QA a `ed4f52d` diffjére (fut); a manifest-rész (M1:ERT-G2-6) a közös kánoni körben |
-| M2 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M2, AP-2026-10-11-01.md` | 886165b (a `02 Tervezet/` változatlan a 213a4c5 óta) | PENDING | — | FIX (a review-fázis után) |
+| M1 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M1 course-review, B sáv.md`; `2026-10-11 Validált findingok – M1, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | FIXING | `ed4f52d` fix(M1) + `506fa78` chore(media); célzott QA: `2026-10-12 Célzott QA – M1 javítás (ed4f52d), AP-2026-10-11-01.md`, javítva `adde9dd` + `1922c75` | a kánoni rész (M1:ERT-G2-6 MAN, M1:QA-IMPL-3 RA, M1:QA-IMPL-2 MAN:20) az összes review után |
+| M2 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M2, AP-2026-10-11-01.md` | 886165b (a `02 Tervezet/` változatlan a 213a4c5 óta) | FIXING | `cee9849` fix(M2) + `3a92354` chore(media) | REGRESSION: célzott QA a `cee9849` diffjére (fut); a kánoni rész (IMPL-G1-2, IMPL-G1-6, ERT-G2-2 MAN; NYELV-G1-17 PT) az összes review után |
 | M3 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M3, AP-2026-10-11-01.md` | 4e2b805 (a `02 Tervezet/` változatlan a 213a4c5 óta) | PENDING | — | FIX (a review-fázis után) |
 | M4 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M4, AP-2026-10-11-01.md` | 4e2b805 (a `02 Tervezet/` változatlan a 213a4c5 óta) | PENDING | — | FIX (átfedéssel, a projektgazda 2026-10-11-i gyorsítási döntése szerint) |
 | M5 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M5, AP-2026-10-11-01.md` | 4e2b805 (a `02 Tervezet/Modulok/M5` változatlan a 213a4c5 óta) | PENDING | — | FIX (átfedéssel, a projektgazda 2026-10-11-i gyorsítási döntése szerint) |
@@ -357,6 +357,20 @@
 | M1:NYELV-G3-25 | P2 | objektív | ELVETVE | REJECTED | szándékos kulcsüzenet; a csere rontana (verifier) |
 | M1:NYELV-G3-26 | P2 | objektív | ELVETVE | REJECTED | a szerkezetből levezethető (verifier) |
 | M1:NYELV-G3-27 | P2 | objektív | ELVETVE | REJECTED | az idősávok azonosítják a blokkot (verifier) |
+| M1:QA-PED-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; M1.F:270 (az „amit majd a peulán / terepen tényleg használni fog” tagmondat törölve, HUM:462; a zárójeles kitétel marad) |
+| M1:QA-BIZT-1 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M1:QA-PED-2 (ugyanaz a tagmondat; a HUM:462 szó szerint megválaszolja, nem emberi döntés) |
+| M1:QA-NYELV-2 | P2 | objektív | ELVETVE | REJECTED | a zárójel helye nem nyelvtani hiba; a QA-PED-2 tagmondattörlése után tárgytalan (verifier) |
+| M1:QA-PED-1 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; M1.2:651 (a második mondat a :629 háromosztatú keretében; a :640 VO és a :573 spec az X-17 körében) |
+| M1:QA-NYELV-3 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M1:QA-PED-1 (ugyanaz a tényállás; a PED-G1-4 korlátja a visszajelzést is a javítás körébe vonta) |
+| M1:QA-ERT-1 | P2 | objektív | ELVETVE | REJECTED | a kulcs a címkét kifejezésként kezeli, a „Nagyon” következetesen kívül esik; bizonyított kulcshiba nincs (verifier) |
+| M1:QA-ERT-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; M1.F:100, :277 (a nem teljesült kapufeltétel a KAPU:23 szerint, a csupa „Rendben” esettel együtt) |
+| M1:QA-NYELV-1 | P2 | objektív | ELVETVE | REJECTED | a HUB:253 bontása a validált NYELV-G1-8 szó szerint; az „Ezért” ésszerűen visszautal, a sorrendcsere preferencia (verifier) |
+| M1:QA-NYELV-4 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; HUB:177, :183 („fogalomtérkép-sablon”, build: 1922c75); M1.2:803 („kategóriaválasztás” ×2) |
+| M1:QA-NYELV-5 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; M1.B:140 (a zárójelből a „nagy” törölve; a „3 nagy a képzőnek” marad) |
+| M1:QA-IMPL-1 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; HUB:129 („H5P Course Presentation (felidéző mini-kvíz)”, a beolvadt PED-G2-11 hub-helye) |
+| M1:QA-IMPL-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; KAPU:306 („Grant attempts” = „Manually”, „Allowed attempts” = „Unlimited”, MOODLE_405_STABLE assign.php); a MAN:20 kiegészítése a közös kánoni körben |
+| M1:QA-IMPL-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | RA: tanulói tesztfiókos tétel és RT-sor az LMS-M1-05 rubrika-előnézetére („Allow users to preview rubric”, „Show remarks to those being graded”); kánoni közös fájl, a MAN:50-nel (M1:ERT-G2-6) egy körben; a visszaolvasás G3b |
+| M1:QA-IMPL-4 | P2 | objektív | MEGERŐSÍTVE | FIXED | adde9dd; M1.2:976 (a fejlesztői checklist a :803 húzásmentes alapútjával; W3C SC 2.5.7) |
 | M2:BIZT-G1-1 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a KAPU §D (:201) „a mentorod azonnal bevonja a Memunát” ígérete és a KAPU:24 megerősítési határideje (legkésőbb 24 … — Memuna (HUM-SAFE-01); vétó: DPO / jogi felelős … (X-5) |
 | M2:BIZT-G1-2 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: kiegészüljön-e a KAPU 5. itemének visszajelzése (:113) a GK §4.1 kontakt-sorának szó szerinti tartalék útjával (mun … — Memuna, a SAFE-7 QA-val és az M2:ERT-G1-7 átnézésével együtt … (X-5) |
 | M2:BIZT-G1-3 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: különleges (vallási/etnikai) adat gyűjtésének minősül-e a zsidóság-kör megnevezése az LMS-M2-06 válaszában (M2.1:48 … — DPO / jogi felelős; someres vonatkozásban a projektgazda (G2 … (X-4) |
@@ -375,116 +389,116 @@
 | M2:BIZT-G2-7 | P1 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:IMPL-G2-1 |
 | M2:BIZT-G2-8 | P1 | bizonyíték-kapu | MEGERŐSÍTVE | EVIDENCE_GATE | Memuna, G1 / GK §6 (tracker #1): írásos „átnéztem” az M2.4 önsértésről és akut veszélyről szóló elemeire (:37–39 … (X-7, X-8) |
 | M2:BIZT-G2-9 | P1 | bizonyíték-kapu | MEGERŐSÍTVE | EVIDENCE_GATE | DPO / jogi felelős, G2 (tracker #2): a HUM-PRIV-01 és a D-j utólagos QA-ja az LMS-M2-07, -08 … (X-12, X-8) |
-| M2:BIZT-G3-1 | P1 | objektív | MEGERŐSÍTVE | OPEN | M2.A:175 és az M2.A-POSZ-01 spec (:121): a titoktartási kivétel címzettje „felelős felnőtt” helyett a GK §4.1:82 utalása („a … (riport I.2) |
+| M2:BIZT-G3-1 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:122, :176 (build: 3a92354) — M2.A:175 és az M2.A-POSZ-01 spec (:121): a titoktartási kivétel címzettje „felelős felnőtt” helyett a GK §4.1:82 utalása („a … (riport I.2) |
 | M2:BIZT-G3-10 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a közös / tartalék eszköz további kezelési szabályai az M2.F-en (jelszómentés tiltása … — LMS-gazda + DPO (X-4) |
 | M2:BIZT-G3-2 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: kötelező-e az M2.A, M2.B és M2.F peulákon második, 18 év feletti felkészített felnőtt (az M2.A:280 „egy felnőtt vel … — Memuna + programvezető (rokon: M0:BIZT-9, M1:BIZT-G3-2 … (X-5) |
 | M2:BIZT-G3-3 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: maradjanak-e az M2.A identitás-vonalán a 3–5. állítások (zsidósághoz fűződő viszony, család hatása … — Memuna + DPO (X-5, X-4) |
-| M2:BIZT-G3-4 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.A 4.3 1. lépése (:336–349) és az M2.A-MUNK-01 spec: a HUB:62 / HUB:25 kánoni fordulata szó szerint („a rajz a tanulónál ma … (riport I.2) |
+| M2:BIZT-G3-4 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:298, :337 (build: 3a92354) — M2.A 4.3 1. lépése (:336–349) és az M2.A-MUNK-01 spec: a HUB:62 / HUB:25 kánoni fordulata szó szerint („a rajz a tanulónál ma … (riport I.2) |
 | M2:BIZT-G3-5 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: (a) kiterjed-e a „név és felismerhető részlet nélkül” / „csak kitalált eset” korlát (GK §2:23) az M2.B 4.4 valós (S … — Memuna + DPO (X-5, X-4) |
-| M2:BIZT-G3-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F 4.3 név nélküli mód (:268) és 4.2 (:218): az ADV §3:67 „név nélkül” feltételének átvétele és utalás a sorra … (riport I.2) |
+| M2:BIZT-G3-6 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:269 — M2.F 4.3 név nélküli mód (:268) és 4.2 (:218): az ADV §3:67 „név nélkül” feltételének átvétele és utalás a sorra … (riport I.2) |
 | M2:BIZT-G3-7 | P2 | bizonyíték-kapu | MEGERŐSÍTVE | EVIDENCE_GATE | LMS-gazda + privacy felelős, release-evidence: az ADV §9:207 activity-leltár (tároló, címzettek … (X-12) |
 | M2:BIZT-G3-8 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:IMPL-G3-3 |
 | M2:BIZT-G3-9 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: kerüljön-e az M2.A páros megosztás B-instrukciójába (:360 „kérdezz rá, és segítsd a másikat … — Memuna (X-5) |
 | M2:ERT-G1-1 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:IMPL-G1-5 |
 | M2:ERT-G1-10 | P2 | emberi-döntés | ELVETVE | REJECTED | itemminőségi preferencia formatív kvízben (alacsony bizalom); az „Új kvíztételek” elv csak az M3-ra … (riport I.5) |
 | M2:ERT-G1-2 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:IMPL-G1-6 |
-| M2:ERT-G1-3 | P1 | objektív | MEGERŐSÍTVE | OPEN | HUB:16, :29, :67: a „mind a 3 értékhez megfigyelhető viselkedés” állítás igazítása az M2.2 mikrocéljához (:12–16) és a HUB:30 … (riport I.2) |
+| M2:ERT-G1-3 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; HUB:16, :29, :67 — HUB:16, :29, :67: a „mind a 3 értékhez megfigyelhető viselkedés” állítás igazítása az M2.2 mikrocéljához (:12–16) és a HUB:30 … (riport I.2) |
 | M2:ERT-G1-4 | P1 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:PED-G2-2 |
 | M2:ERT-G1-5 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a hub 3. kompetenciájának első pontja (HUB:33 „Röviden elmondja, mit jelent számára a cionizmus, szocializmus … — projektgazda; QA: helyi ideológiai felelős, DPO (X-14; DPO-rész: X-4) |
-| M2:ERT-G1-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:260–261 (§E 2–3.): az R2 = 2 és az R3 = 2 mentori összefoglalójának igazítása a C. szintleírásához (R2: konkrét viselked … (riport I.2) |
+| M2:ERT-G1-6 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:260, :261 — KAPU:260–261 (§E 2–3.): az R2 = 2 és az R3 = 2 mentori összefoglalójának igazítása a C. szintleírásához (R2: konkrét viselked … (riport I.2) |
 | M2:ERT-G1-7 | P1 | bizonyíték-kapu | MEGERŐSÍTVE | EVIDENCE_GATE | Memuna, G1 / GK §2, §6 (tracker #1): írásos „átnéztem” a KAPU 5. itemére (:106–113) … (X-7) |
-| M2:ERT-G1-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.1:542 (SLIDE 6, Kérdés 2, rossz-válasz-visszajelzés): a NYELV-G1-5 szövege („Nem a szép magyarázat és nem a hibátlanság a … (riport I.2) |
+| M2:ERT-G1-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.1:544 — M2.1:542 (SLIDE 6, Kérdés 2, rossz-válasz-visszajelzés): a NYELV-G1-5 szövege („Nem a szép magyarázat és nem a hibátlanság a … (riport I.2) |
 | M2:ERT-G1-9 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:IMPL-G1-6 (grade-rész); a kvíz-rész = M2:PED-G1-9 |
 | M2:ERT-G2-1 | P1 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:IMPL-G2-1 |
-| M2:ERT-G2-2 | P1 | objektív | MEGERŐSÍTVE | OPEN | MAN:54 (LMS-M2-02) Completion cellája az M2.2:31-ből és a D-i-ből szó szerint, a D-i azonosítóval … (riport I.2) |
-| M2:ERT-G2-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.2:27, :539, :541 és M2.3:766 (`@asset`, build), :791, :793: a Single Choice Set-ág és a „Single Choice Setben a helyes opc … (riport I.2) |
+| M2:ERT-G2-2 | P1 | objektív | MEGERŐSÍTVE | IN_PROGRESS | — (az M2-rész kész: cee9849, M2.2:461; a MAN-rész a közös kánoni körben) MAN:54 (LMS-M2-02) Completion cellája az M2.2:31-ből és a D-i-ből szó szerint, a D-i azonosítóval … (riport I.2) |
+| M2:ERT-G2-3 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.2:25, :27, :326, :453, :461, :539, :541; M2.3:766, :791, :793 (build: 3a92354) — M2.2:27, :539, :541 és M2.3:766 (`@asset`, build), :791, :793: a Single Choice Set-ág és a „Single Choice Setben a helyes opc … (riport I.2) |
 | M2:ERT-G2-4 | P2 | objektív | ELVETVE | REJECTED | preferencia: pass-küszöb nélküli Check, elosztó csak bizonyított hibánál cserélhető … (riport I.5) |
 | M2:ERT-G3-1 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:PED-G3-3 (az (a) rész); a (b) rész az M2:PED-G2-2 döntési csomagjában |
 | M2:ERT-G3-2 | P2 | objektív | ELVETVE | REJECTED | az M2.A:412 „mini” szóbeli zárókör más mondatkezdettel, jegyzetre utalás nélkül; hogy a jegyzet A.8-ába kerül … (riport I.5) |
 | M2:ERT-G3-3 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:PED-G3-2 |
 | M2:ERT-G3-4 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: az M2.B érték-szigetek 3. helyzete (:208–209 „nyers őszinteség vagy biztonság” … — modulgazda / módszertani felelős, a Memuna bevonásával (X-10) |
 | M2:ERT-G3-5 | P2 | objektív | ELVETVE | REJECTED | az M2.B:350 visszacsatolása a feladat saját A/B logikáját követi; a KAPU R3 a jegyzet rubrikája … (riport I.5) |
-| M2:IMPL-G1-1 | P1 | objektív | MEGERŐSÍTVE | OPEN | M2.1:18, :20, :465, :488, SLIDE 7 és HUB:63, :91: az M2.2:31/:476/:492/:705 mintájára az LMS-M2-06 („M2.1 – Szöveges válasz”) … (riport I.2) |
+| M2:IMPL-G1-1 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.1:18, :20, :467, :490, :648; HUB:63, :91 — M2.1:18, :20, :465, :488, SLIDE 7 és HUB:63, :91: az M2.2:31/:476/:492/:705 mintájára az LMS-M2-06 („M2.1 – Szöveges válasz”) … (riport I.2) |
 | M2:IMPL-G1-10 | P1 | bizonyíték-kapu | MEGERŐSÍTVE | DUPLICATE | = M2:BIZT-G1-9 |
-| M2:IMPL-G1-2 | P1 | objektív | MEGERŐSÍTVE | OPEN | M2.1:8 és :54 („7 slide”): a SLIDE 4 jelölése különálló, nem követett elemként, az LMS-M2-01 mondatának (MAN:16 … (riport I.2) |
+| M2:IMPL-G1-2 | P1 | objektív | MEGERŐSÍTVE | IN_PROGRESS | — (az M2-rész kész: cee9849, M2.1:8, :54; a MAN-rész a közös kánoni körben) M2.1:8 és :54 („7 slide”): a SLIDE 4 jelölése különálló, nem követett elemként, az LMS-M2-01 mondatának (MAN:16 … (riport I.2) |
 | M2:IMPL-G1-3 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: az M2.1 SLIDE 4 („Melyik köröd szólal meg?”) helye és formája a tanulói úton … — build- / LMS-gazda + M2 modulgazda; DPO nem kell (X-10) |
-| M2:IMPL-G1-4 | P1 | objektív | MEGERŐSÍTVE | OPEN | HUB:240–241 (§7 pillér-ág mutató): a D-j (HUM:562) és az M2.3:124 szó szerinti átvezetése (a pillér-választás fiókhoz kötött … (riport I.2) |
-| M2:IMPL-G1-5 | P1 | objektív | MEGERŐSÍTVE | OPEN | KAPU §0 Megerősítés sor (:24), E.5 (:263) és HUB §6 (:219–221): a MAN:61 / BSPEC-07 szó szerinti átvezetése (a mentor „Teljes … (riport I.2) |
-| M2:IMPL-G1-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU vagy HUB §6 és MAN:60 (LMS-M2-05): hivatkozásos specifikáció arról, mely KAPU-szakaszok kerülnek a tanulói Assignment-leírásba … (riport I.2) |
-| M2:IMPL-G1-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.1:22, SLIDE 4 fejlesztői megjegyzése és :502: csak fejlesztői megjegyzés változik (a típust a lecke adja … (riport I.2) |
-| M2:IMPL-G1-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:58: az SCS-mondatrész törlése (az SCS nem ágyazható Question Setbe, és nincs kérdésenkénti visszajelzése) … (riport I.2) |
+| M2:IMPL-G1-4 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; HUB:242 — HUB:240–241 (§7 pillér-ág mutató): a D-j (HUM:562) és az M2.3:124 szó szerinti átvezetése (a pillér-választás fiókhoz kötött … (riport I.2) |
+| M2:IMPL-G1-5 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:24, :263; HUB:223 — KAPU §0 Megerősítés sor (:24), E.5 (:263) és HUB §6 (:219–221): a MAN:61 / BSPEC-07 szó szerinti átvezetése (a mentor „Teljes … (riport I.2) |
+| M2:IMPL-G1-6 | P2 | objektív | MEGERŐSÍTVE | IN_PROGRESS | — (az M2-rész kész: cee9849, KAPU:26; a MAN-rész a közös kánoni körben) KAPU vagy HUB §6 és MAN:60 (LMS-M2-05): hivatkozásos specifikáció arról, mely KAPU-szakaszok kerülnek a tanulói Assignment-leírásba … (riport I.2) |
+| M2:IMPL-G1-7 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.1:22, :452, :504 — M2.1:22, SLIDE 4 fejlesztői megjegyzése és :502: csak fejlesztői megjegyzés változik (a típust a lecke adja … (riport I.2) |
+| M2:IMPL-G1-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:58 — KAPU:58: az SCS-mondatrész törlése (az SCS nem ágyazható Question Setbe, és nincs kérdésenkénti visszajelzése) … (riport I.2) |
 | M2:IMPL-G1-9 | P2 | objektív | ELVETVE | REJECTED | az M2.1:120 a felirat és a leirat együttes követelménye után hivatkozik a WCAG 1.2.2-re, ez a felirathoz helyes … (riport I.5) |
 | M2:IMPL-G2-1 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: mi adja az LMS-M2-03 (M2.4 H5P-C) grade-jét: a MAN:56 „rögzítés nélküli” pollok ↔ „Receive a grade” — projektgazda mint build-spec gazda; tárolás: DPO (X-6; DPO-rész: X-4) |
-| M2:IMPL-G2-2 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.2:33, M2.3:46, M2.3:766 (`@asset`, build), M2.4:55: a téves „a típust az RA rögzíti” kereszthivatkozás javítása a Z.1:57 / … (riport I.2) |
-| M2:IMPL-G2-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.2:124, :163, :653 és M2.3:215, :851: a felirathoz SC 1.2.2, a leirathoz SC 1.2.3 és a hozzáférhetőségi sztenderd 1. szakas … (riport I.2) |
-| M2:IMPL-G2-4 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.3 3. szakasz és az M2.3-EGY-02 spec (:11, build): a levezethető kötelező csomóponttípusok rögzítése (belépő oldal, KERET … (riport I.2) |
+| M2:IMPL-G2-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.2:33; M2.3:46, :766; M2.4:55 (build: 3a92354) — M2.2:33, M2.3:46, M2.3:766 (`@asset`, build), M2.4:55: a téves „a típust az RA rögzíti” kereszthivatkozás javítása a Z.1:57 / … (riport I.2) |
+| M2:IMPL-G2-3 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.2:124, :163, :653; M2.3:215, :851 (build: 3a92354) — M2.2:124, :163, :653 és M2.3:215, :851: a felirathoz SC 1.2.2, a leirathoz SC 1.2.3 és a hozzáférhetőségi sztenderd 1. szakas … (riport I.2) |
+| M2:IMPL-G2-4 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.3:11, :103, :104, :105, :108, :112 (build: 3a92354) — M2.3 3. szakasz és az M2.3-EGY-02 spec (:11, build): a levezethető kötelező csomóponttípusok rögzítése (belépő oldal, KERET … (riport I.2) |
 | M2:IMPL-G2-5 | P2 | objektív | ELVETVE | REJECTED | történeti fejlesztői jegyzet, nem ellentmondás (az M2.3:15 múlt idejű, az aktuális állapot a :42) … (riport I.5) |
 | M2:IMPL-G2-6 | P2 | objektív | ELVETVE | REJECTED | a FOTO-01 a11y-metaadata feltételes, nem önellentmondó; a kontraszt-kockázat feltételezés … (riport I.5) |
 | M2:IMPL-G2-7 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: kerüljön-e szó szerint az M2.4 SLIDE 5 ⚠️/🆘 biztonsági doboza az LMS-M2-09 mezőhöz (a TEXT-C profil „adatvédelmi/bi … — Memuna (X-5) |
-| M2:IMPL-G3-1 | P1 | objektív | MEGERŐSÍTVE | OPEN | M2.F 2.1 (:51–52) és 5. szakasz (:371–372): az A11Y:57 mondata szó szerint a közös / tartalék eszközre (saját fiók … (riport I.2) |
-| M2:IMPL-G3-10 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F:53 és :373: a POSZ-01 meglévő címének és státuszkorlátjának átvétele (tájékozódó tábla M2-leckelistával és név nélküli t … (riport I.2) |
+| M2:IMPL-G3-1 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:51, :52, :374 — M2.F 2.1 (:51–52) és 5. szakasz (:371–372): az A11Y:57 mondata szó szerint a közös / tartalék eszközre (saját fiók … (riport I.2) |
+| M2:IMPL-G3-10 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:53, :375 — M2.F:53 és :373: a POSZ-01 meglévő címének és státuszkorlátjának átvétele (tájékozódó tábla M2-leckelistával és név nélküli t … (riport I.2) |
 | M2:IMPL-G3-11 | P2 | objektív | ELVETVE | REJECTED | tisztán fájlnévszintű eltérés tanulói hatás nélkül; a Glosszárium:194 nem tiltja a „Study Lab”-ot, az átnevezés linket … (riport I.5) |
-| M2:IMPL-G3-2 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.A-KART-01 spec (:206) és notes (:223): az elavult „sor 154/149” hivatkozások és a már nem létező zsidóság-zárójelre utaló … (riport I.2) |
-| M2:IMPL-G3-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F:3: a megőrzési hivatkozás „mentori 1:1 meta-napló” sora helyett a §3 „Mentori fejlesztési jegyzet” sora (ADV §3:69 … (riport I.2) |
+| M2:IMPL-G3-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:207, :224 (build: 3a92354) — M2.A-KART-01 spec (:206) és notes (:223): az elavult „sor 154/149” hivatkozások és a már nem létező zsidóság-zárójelre utaló … (riport I.2) |
+| M2:IMPL-G3-3 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:3 — M2.F:3: a megőrzési hivatkozás „mentori 1:1 meta-napló” sora helyett a §3 „Mentori fejlesztési jegyzet” sora (ADV §3:69 … (riport I.2) |
 | M2:IMPL-G3-4 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:BIZT-G3-6 |
-| M2:IMPL-G3-5 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F:320 és :391: „a Moodle-ben megadott határidőig” helyett a MAN:249 fordulata („a képző által kijelölt időpontig”) … (riport I.2) |
+| M2:IMPL-G3-5 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:321, :393 — M2.F:320 és :391: „a Moodle-ben megadott határidőig” helyett a MAN:249 fordulata („a képző által kijelölt időpontig”) … (riport I.2) |
 | M2:IMPL-G3-6 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a pillér-sztori műhely csoportszáma és csoportlétszáma a 8–20 fős sávban (az M2.B:331 „3–5 fős csoportok” és a pont … — M2 modulgazda (X-10) |
 | M2:IMPL-G3-7 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a M2-HUB-DIA-01 fogalomtérkép-diagram (HUB:129, :149 „elsősorban az M2.F vizuálja”) szerepe az M2.F 4.3-ban … — M2 modulgazda, a médiafelelőssel (X-10) |
 | M2:IMPL-G3-8 | P2 | objektív | ELVETVE | REJECTED | a hozzáférhetőségi sztenderd hivatkozott szabályai online, H5P- és diaelemekre szólnak … (riport I.5) |
 | M2:IMPL-G3-9 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:BIZT-G3-4 |
-| M2:NYELV-G1-1 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:135 (Item 7 visszajelzése): a „mi látszik belőle a kvucádon” fordított irányának javítása (a kvuca a madrihon lát … (riport I.2) |
-| M2:NYELV-G1-10 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:27, :178, :263: főnévi „újra beadás” → „újrabeadás”; az igei „újra beadhat(od)” alakok és az „1 normál + 1 javító” nem v … (riport I.2) |
-| M2:NYELV-G1-11 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:253: „ha mind a 10-re pipa” → „ha mind a 10-re van pipa” (szűkítve); a :35 és a :48 szövege marad … (riport I.2) |
+| M2:NYELV-G1-1 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:135 — KAPU:135 (Item 7 visszajelzése): a „mi látszik belőle a kvucádon” fordított irányának javítása (a kvuca a madrihon lát … (riport I.2) |
+| M2:NYELV-G1-10 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:27, :178 — KAPU:27, :178, :263: főnévi „újra beadás” → „újrabeadás”; az igei „újra beadhat(od)” alakok és az „1 normál + 1 javító” nem v … (riport I.2) |
+| M2:NYELV-G1-11 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:253 — KAPU:253: „ha mind a 10-re pipa” → „ha mind a 10-re van pipa” (szűkítve); a :35 és a :48 szövege marad … (riport I.2) |
 | M2:NYELV-G1-12 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a HUB:103 „egymás történeteinek megtartása” jelentése (megtartó figyelem vagy bizalmas kezelés) — az M2.A modulgazdája; bizalmas kezelés olvasatnál a Memuna (X-10) |
 | M2:NYELV-G1-13 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: ≥2 vagy ≥3 legyen a HUB:244 „legalább 2–3” határszabály-mutató alsó határa (4. kompetencia: 2–3, completion: 3) … — modulgazda + értékelési felelős (X-6) |
 | M2:NYELV-G1-14 | P2 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M0:NYELV-G2-11 (M2-helyek: HUB:53, :83, :260; KAPU:42, :104; az M2.4 fájlneve és címe) |
-| M2:NYELV-G1-15 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:174: „3 szintes … skála” → „3 szintű”; a szintnevek, a 0/1/2 és a küszöb nem változik, az M3 KAPU:313 scope-on kívül (riport I.2) |
-| M2:NYELV-G1-16 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:146 (Item 8 visszajelzése): a két „sáv” → „szint” a törzs (:139) szavával; a törzs, az A–D opciók … (riport I.2) |
-| M2:NYELV-G1-17 | P2 | objektív | MEGERŐSÍTVE | OPEN | „identitás-térkép” → „identitástérkép” az M2.A-ban (:72, :288, :328, :336, :339, :347; a :295/:296 build úton) és a PT:152-n (riport I.2) |
+| M2:NYELV-G1-15 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:174 — KAPU:174: „3 szintes … skála” → „3 szintű”; a szintnevek, a 0/1/2 és a küszöb nem változik, az M3 KAPU:313 scope-on kívül (riport I.2) |
+| M2:NYELV-G1-16 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:146 — KAPU:146 (Item 8 visszajelzése): a két „sáv” → „szint” a törzs (:139) szavával; a törzs, az A–D opciók … (riport I.2) |
+| M2:NYELV-G1-17 | P2 | objektív | MEGERŐSÍTVE | IN_PROGRESS | — (az M2-rész kész: cee9849, M2.A:73, :289, :296, :297, :329, :340, :348 (build: 3a92354); a PT-rész a közös kánoni körben) „identitás-térkép” → „identitástérkép” az M2.A-ban (:72, :288, :328, :336, :339, :347; a :295/:296 build úton) és a PT:152-n (riport I.2) |
 | M2:NYELV-G1-2 | P2 | objektív | ELVETVE | REJECTED | az M2.1:396 „más köreid erősödnek fel” természetes olvasata „helyzetenként más körök”, az összetévesztés feltevés … (riport I.5) |
-| M2:NYELV-G1-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.1:469 („köreidet … belőle”) és :475 („kört … bele … címeiket”) egyeztetési hibái és a :484 hiányzó vesszője (riport I.2) |
-| M2:NYELV-G1-4 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:37 (A.1): az „egy mondatban … melyik kör hogyan hat rám” igazítása a körönkénti egy mondathoz (:214, :135) … (riport I.2) |
+| M2:NYELV-G1-3 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.1:471, :477, :486 — M2.1:469 („köreidet … belőle”) és :475 („kört … bele … címeiket”) egyeztetési hibái és a :484 hiányzó vesszője (riport I.2) |
+| M2:NYELV-G1-4 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:37 — KAPU:37 (A.1): az „egy mondatban … melyik kör hogyan hat rám” igazítása a körönkénti egy mondathoz (:214, :135) … (riport I.2) |
 | M2:NYELV-G1-5 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:ERT-G1-8 |
 | M2:NYELV-G1-6 | P2 | objektív | ELVETVE | REJECTED | az M2.1:437 „A válaszod nem kerül mentésre.” helyes és egyértelmű; DPO-QA alatt álló … (riport I.5) |
-| M2:NYELV-G1-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU:207: a „jobb oldal” térbeli utalás kiesik (a D. sablon 2–4. blokkja függőleges) … (riport I.2) |
-| M2:NYELV-G1-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | HUB:165: „Le tud írni/mondani” → „Le tud írni vagy el tud mondani” (az M2.F:29 alakja) … (riport I.2) |
-| M2:NYELV-G1-9 | P2 | objektív | MEGERŐSÍTVE | OPEN | KAPU (:54, :128, :135, :139, :146, :150, :157, :161, :168) és HUB (:55, :183, :240, :246): névelő a modulazonosító elé … (riport I.2) |
+| M2:NYELV-G1-7 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:207 — KAPU:207: a „jobb oldal” térbeli utalás kiesik (a D. sablon 2–4. blokkja függőleges) … (riport I.2) |
+| M2:NYELV-G1-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; HUB:165 — HUB:165: „Le tud írni/mondani” → „Le tud írni vagy el tud mondani” (az M2.F:29 alakja) … (riport I.2) |
+| M2:NYELV-G1-9 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; KAPU:54, :128, :135, :139, :146, :150, :157, :161, :168; HUB:55, :183, :247 — KAPU (:54, :128, :135, :139, :146, :150, :157, :161, :168) és HUB (:55, :183, :240, :246): névelő a modulazonosító elé … (riport I.2) |
 | M2:NYELV-G2-1 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:PED-G2-1 |
-| M2:NYELV-G2-10 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.2:25 és :453: „Multi Choice” → „Multiple Choice” (Edit), a :326 `@asset`-mező csak build úton … (riport I.2) |
+| M2:NYELV-G2-10 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.2:25, :326, :453 (build: 3a92354) — M2.2:25 és :453: „Multi Choice” → „Multiple Choice” (Edit), a :326 `@asset`-mező csak build úton … (riport I.2) |
 | M2:NYELV-G2-11 | P2 | emberi-döntés | ELVETVE | REJECTED | az M2.2:523 „hogyan beszélsz róluk a hátuk mögött” általános alanyú olvasata természetes, a jelentés nem torzul … (riport I.5) |
-| M2:NYELV-G2-12 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.4:688: „Az egyik határszabályom” → „Az első” (párhuzam a :691 és :694 sorral) … (riport I.2) |
+| M2:NYELV-G2-12 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.4:688 — M2.4:688: „Az egyik határszabályom” → „Az első” (párhuzam a :691 és :694 sorral) … (riport I.2) |
 | M2:NYELV-G2-13 | P2 | objektív | ELVETVE | REJECTED | az M2.3:713 szerkezete élőnyelvi, a :639 névmása a „terhet”-re mutat, nyelvtanilag helyes; stílus-kifogás, nem hiba (riport I.5) |
-| M2:NYELV-G2-14 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.3:51 (zárójelben zárójel), M2.2:483–484 és M2.4:661, :689, :692, :695 (mondatzáró jel utáni kisbetűs „(pl. …)”): csak írás … (riport I.2) |
+| M2:NYELV-G2-14 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.3:51; M2.2:483, :484; M2.4:661, :689, :692, :695 — M2.3:51 (zárójelben zárójel), M2.2:483–484 és M2.4:661, :689, :692, :695 (mondatzáró jel utáni kisbetűs „(pl. …)”): csak írás … (riport I.2) |
 | M2:NYELV-G2-15 | P2 | emberi-döntés | ELVETVE | REJECTED | az M2.2:709–710 kissé nehézkes, de érthető előrevetítő mondat, a szándékolt jelentést az M2.3:50–53 rögzíti … (riport I.5) |
-| M2:NYELV-G2-2 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.4:206 és :657: az első szintű egyes idézőjel (‘majd ha komolyabb’) helyett „…” … (riport I.2) |
+| M2:NYELV-G2-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.4:206, :657 — M2.4:206 és :657: az első szintű egyes idézőjel (‘majd ha komolyabb’) helyett „…” … (riport I.2) |
 | M2:NYELV-G2-3 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: átvehető-e az M2.4:208 és :653 gyermekvédelmi szabálymondataiban a „transzparens” helyére a HUM-SAFE-02 (GK §4.2) „átlátható” szava — projektgazda, a Memuna vétójával (X-13) |
 | M2:NYELV-G2-4 | P2 | objektív | ELVETVE | REJECTED | az M2.3 változásnapló-maradványai történeti fejlesztői jegyzetek, nem ellentmondások … (riport I.5) |
-| M2:NYELV-G2-5 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.4:580: a példalista sorrendcseréje, hogy a „például:” a „témakategóriák”-hoz kapcsolódjon … (riport I.2) |
+| M2:NYELV-G2-5 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.4:580 — M2.4:580: a példalista sorrendcseréje, hogy a „például:” a „témakategóriák”-hoz kapcsolódjon … (riport I.2) |
 | M2:NYELV-G2-6 | P2 | objektív | ELVETVE | REJECTED | a SLIDE 4–6 mezőnkénti adatvédelmi ismétlés funkcionális (az LMS-M2-09 tájékoztatója szó szerint ezeket kéri) … (riport I.5) |
 | M2:NYELV-G2-7 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:PED-G2-11 |
-| M2:NYELV-G2-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.3:89: „*dugma isit*-nek” → „*dugma isitnek*” (HUM-SOMER-02); a kötőjeles összetételek („dugma isit-mondat”) változatlanok … (riport I.2) |
-| M2:NYELV-G2-9 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.3:594 (S1): „A többiek alig kapcsolódnak.” → „…kapcsolódnak be.”; más nem változik, pin (riport I.2) |
-| M2:NYELV-G3-1 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.A:252: a „tartsd meg az előző kérdések jellegét” helyett a szett állításaira utaló megfogalmazás a „könnyed, nem felkavaró” minősítővel (:223) (riport I.2) |
-| M2:NYELV-G3-10 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.B-MUNK-03 mezői (:88, :89, :90, :94, :107): „commit” → „vállalás” (a törzs „vállalás-mondat” alakja), build úton (riport I.2) |
-| M2:NYELV-G3-11 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.A:73, :379, :384: „Kis csoportos” → „Kiscsoportos”; a főnévi „kis csoport(ok)” (:52, :393, :456) marad (riport I.2) |
-| M2:NYELV-G3-12 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F:167 (MUNK-01 purpose), :229 és :231 (POSZ-02): „Fogalom-térkép” → „fogalomtérkép”, csak build úton … (riport I.2) |
-| M2:NYELV-G3-13 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.B:81 és M2.F:99: „Blokk-leírások” → „Blokkleírások”; csak a két M2-cím, a többi 17 fájl a saját scope-ja (riport I.2) |
+| M2:NYELV-G2-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.3:89 — M2.3:89: „*dugma isit*-nek” → „*dugma isitnek*” (HUM-SOMER-02); a kötőjeles összetételek („dugma isit-mondat”) változatlanok … (riport I.2) |
+| M2:NYELV-G2-9 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.3:594 — M2.3:594 (S1): „A többiek alig kapcsolódnak.” → „…kapcsolódnak be.”; más nem változik, pin (riport I.2) |
+| M2:NYELV-G3-1 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:253 — M2.A:252: a „tartsd meg az előző kérdések jellegét” helyett a szett állításaira utaló megfogalmazás a „könnyed, nem felkavaró” minősítővel (:223) (riport I.2) |
+| M2:NYELV-G3-10 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.B:88, :89, :94, :107 (build: 3a92354) — M2.B-MUNK-03 mezői (:88, :89, :90, :94, :107): „commit” → „vállalás” (a törzs „vállalás-mondat” alakja), build úton (riport I.2) |
+| M2:NYELV-G3-11 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:74, :380, :385 — M2.A:73, :379, :384: „Kis csoportos” → „Kiscsoportos”; a főnévi „kis csoport(ok)” (:52, :393, :456) marad (riport I.2) |
+| M2:NYELV-G3-12 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:167, :230, :232 (build: 3a92354) — M2.F:167 (MUNK-01 purpose), :229 és :231 (POSZ-02): „Fogalom-térkép” → „fogalomtérkép”, csak build úton … (riport I.2) |
+| M2:NYELV-G3-13 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.B:81; M2.F:99 — M2.B:81 és M2.F:99: „Blokk-leírások” → „Blokkleírások”; csak a két M2-cím, a többi 17 fájl a saját scope-ja (riport I.2) |
 | M2:NYELV-G3-14 | P2 | objektív | ELVETVE | REJECTED | az M2.A:58–61 pontja érthető, a „nem túl mély” látható helyen áll (E-M2-043 VALID_IMPROVEMENT) … (riport I.5) |
-| M2:NYELV-G3-15 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.A:249 (felolvasandó keret): „valahova a skálán” → „valahol a skálán” (szűkítve) … (riport I.2) |
+| M2:NYELV-G3-15 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:250 — M2.A:249 (felolvasandó keret): „valahova a skálán” → „valahol a skálán” (szűkítve) … (riport I.2) |
 | M2:NYELV-G3-16 | P2 | objektív | ELVETVE | REJECTED | a „Fő célok (tanulói nyelven)” alatti harmadik személyű célok mind a hét F-peula közös sablonja … (riport I.5) |
-| M2:NYELV-G3-17 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F:18 (Korosztály): „képzős madrihok” → „képzős madrihok / madrihot” (Glosszárium:72); a 15+ és a zárójel marad (riport I.2) |
-| M2:NYELV-G3-18 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.A:7: a rövidített leckecímek helyett a hivatalos címek (mint a :24, :27); M2.F:55: „L1 = M2.1 … L4 = M2.4” (riport I.2) |
-| M2:NYELV-G3-19 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F:147–148 (két szóközös kemény sortörés → `\`), M2.A:346, :350, :353, :364 (sorvégi szóköz, lógó üres idézetsor) … (riport I.2) |
+| M2:NYELV-G3-17 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:18 — M2.F:18 (Korosztály): „képzős madrihok” → „képzős madrihok / madrihot” (Glosszárium:72); a 15+ és a zárójel marad (riport I.2) |
+| M2:NYELV-G3-18 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:7; M2.F:55 — M2.A:7: a rövidített leckecímek helyett a hivatalos címek (mint a :24, :27); M2.F:55: „L1 = M2.1 … L4 = M2.4” (riport I.2) |
+| M2:NYELV-G3-19 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:147, :148; M2.A:161, :170, :346, :349, :351–:365; M2.B:129, :132 — M2.F:147–148 (két szóközös kemény sortörés → `\`), M2.A:346, :350, :353, :364 (sorvégi szóköz, lógó üres idézetsor) … (riport I.2) |
 | M2:NYELV-G3-2 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:IMPL-G3-2 |
 | M2:NYELV-G3-20 | P2 | objektív | ELVETVE | REJECTED | a finding maga feltételes („csak akkor kell javítani, ha a Moodle-felület nem ezeket a jeleket mutatja”) … (riport I.5) |
-| M2:NYELV-G3-21 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.B:449: „(kiemelten M7-ben)” → „(kiemelten az M7-ben)”; csak a névelő (riport I.2) |
+| M2:NYELV-G3-21 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.B:450 — M2.B:449: „(kiemelten M7-ben)” → „(kiemelten az M7-ben)”; csak a névelő (riport I.2) |
 | M2:NYELV-G3-22 | P2 | objektív | ELVETVE | REJECTED | a „jelöl magának konkrét pótlási tervet” szokatlan, de egyértelmű, nem felolvasandó szöveg; lexikai preferencia (riport I.5) |
 | M2:NYELV-G3-3 | P2 | objektív | ELVETVE | REJECTED | a „kérdések / fogalomtérkép részben rövidítek” nem kétértelmű, a perjel házi stílus, nem nyelvtani hiba (riport I.5) |
-| M2:NYELV-G3-4 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F:50: a széttört „kérjétek, hogy hozzanak + füles” mondat helyreállítása (a füles az eszközlistába kerül) … (riport I.2) |
+| M2:NYELV-G3-4 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:50 — M2.F:50: a széttört „kérjétek, hogy hozzanak + füles” mondat helyreállítása (a füles az eszközlistába kerül) … (riport I.2) |
 | M2:NYELV-G3-5 | P2 | objektív | ELVETVE | REJECTED | a „Kinek az értékei kapcsán van kérdése?” két olvasata ugyanarra fut ki, felolvasva érthető; preferencia (riport I.5) |
 | M2:NYELV-G3-6 | P2 | objektív | ELVETVE | REJECTED | a :291 „a Somer-pillérek iránytűk” és a :320 nem zárja ki egymást; a metafora áthelyezése a fogalmi keretet írná át (riport I.5) |
 | M2:NYELV-G3-7 | P2 | objektív | ELVETVE | REJECTED | a mondat jelentése egyértelmű, az „activity manifest” a kánoni sorrendforrás neve … (riport I.5) |
-| M2:NYELV-G3-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.B:47, :344, :345: „a két kockát” → „a két képet”, és a :343 címke egységesítése „élőkép-opció”-ra … (riport I.2) |
+| M2:NYELV-G3-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.B:47, :227, :244, :343, :344, :345 (build: 3a92354) — M2.B:47, :344, :345: „a két kockát” → „a két képet”, és a :343 címke egységesítése „élőkép-opció”-ra … (riport I.2) |
 | M2:NYELV-G3-9 | P2 | objektív | ELVETVE | REJECTED | a „suliban, táborban, majd egyszer kvucával” nem nyelvtani hiba, a jelentés nem csúszik el; stílusbeli preferencia (riport I.5) |
 | M2:PED-G1-1 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:IMPL-G1-1 |
 | M2:PED-G1-10 | P2 | emberi-döntés | ELVETVE | REJECTED | az M1.2/SBI-kereszthivatkozás hiánya nem hiba, a finding maga új pedagógiai tartalomnak nevezi; preferencia (riport I.5) |
@@ -494,29 +508,29 @@
 | M2:PED-G1-4 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:IMPL-G1-5 |
 | M2:PED-G1-5 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a KAPU D. sablon név szerint tárolt „Választott pillér” mezője (:235; az R3 ≥ 1 feltétele … — DPO / jogi felelős; someres vonatkozásban a projektgazda (G2 … (X-4) |
 | M2:PED-G1-6 | P1 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:ERT-G1-5 |
-| M2:PED-G1-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | HUB:99: a „(opcionálisan M2.4)” igazítása az M2.A:7-hez (az M2.4 a peula utáni online lépés, nem előfeltétel … (riport I.2) |
-| M2:PED-G1-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | E-M2-046 restauráció: egyetlen képzői kérés az M2.A 2.3-ban a :64 után, a mátrix szerinti szöveggel („aki szeretné … (riport I.2) |
+| M2:PED-G1-7 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; HUB:99 — HUB:99: a „(opcionálisan M2.4)” igazítása az M2.A:7-hez (az M2.4 a peula utáni online lépés, nem előfeltétel … (riport I.2) |
+| M2:PED-G1-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.A:65 — E-M2-046 restauráció: egyetlen képzői kérés az M2.A 2.3-ban a :64 után, a mátrix szerinti szöveggel („aki szeretné … (riport I.2) |
 | M2:PED-G1-9 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: elkészül-e a KAPU B. fogalmi kvíze (10 item) Moodle-activityként (a KAPU:26, :56 és a HUB:179 ígéri … — projektgazda + értékelési felelős; = az M1:ERT-G2-4 döntéstípusa (X-6) |
-| M2:PED-G2-1 | P1 | objektív | MEGERŐSÍTVE | OPEN | M2.3 mind a 9 mini-reflexiója (:534, :551, :568, :625, :642, :659, :716, :733, :750): az „Írj 1 mondatot:” egységes cseréje (riport I.2) |
+| M2:PED-G2-1 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.3:126, :534, :551, :568, :625, :642, :659, :716, :733, :750 — M2.3 mind a 9 mini-reflexiója (:534, :551, :568, :625, :642, :659, :716, :733, :750): az „Írj 1 mondatot:” egységes cseréje (riport I.2) |
 | M2:PED-G2-10 | P2 | objektív | ELVETVE | REJECTED | a minták nem azonosak: az 1. minta hordozza a „nem ígérek titoktartást” elemet (GK §4), a javasolt csere ezt kivenné … (riport I.5) |
-| M2:PED-G2-11 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.4:809: a „záró dugma isit-mondatodat” birtokos előfeltevésének megszüntetése (törlés vagy előreutalás a jegyzet kapu szeri … (riport I.2) |
+| M2:PED-G2-11 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.4:809 — M2.4:809: a „záró dugma isit-mondatodat” birtokos előfeltevésének megszüntetése (törlés vagy előreutalás a jegyzet kapu szeri … (riport I.2) |
 | M2:PED-G2-2 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: mi számít someres értéknek az R2-nél (KAPU:38, :183 „1 konkrét someres érték … érték … — projektgazda, értékelési felelős, helyi ideológiai felelős (X-14) |
-| M2:PED-G2-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.2:466 és :481: a „közülük” / „az előző listából” fordulat igazítása a SLIDE 3 VO-hoz (:438: a legközelebbi érték lehet … (riport I.2) |
+| M2:PED-G2-3 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.2:466, :481 — M2.2:466 és :481: a „közülük” / „az előző listából” fordulat igazítása a SLIDE 3 VO-hoz (:438: a legközelebbi érték lehet … (riport I.2) |
 | M2:PED-G2-4 | P1 | emberi-döntés | ELVETVE | REJECTED | a „22–28 perc” kézi becslés, mért adat nincs, az időtartam csak bizonyított hibánál változik … (riport I.5) |
 | M2:PED-G2-5 | P0 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:BIZT-G2-2 |
 | M2:PED-G2-6 | P1 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:IMPL-G2-1 |
 | M2:PED-G2-7 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: kell-e támogató visszajelzés az M2.4 emoji-check megterhelést jelző válaszára (a :340 „Összetett … — Memuna (HUM-SAFE-03); ide tartozik az M2:BIZT-G2-7 Memuna-alkérdése (X-5) |
 | M2:PED-G2-8 | P2 | objektív | ELVETVE | REJECTED | a GK §4.1 megengedi a rövid utalást, az M2.4:210/:655 ennek megfelel, a :659 az 5. lépést helyben kifejti … (riport I.5) |
-| M2:PED-G2-9 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.3:466: a „nincs „egyetlen jó válasz”” tagmondat semlegesítése vagy törlése (minden ágban egy ✅ … (riport I.2) |
+| M2:PED-G2-9 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.3:466 — M2.3:466: a „nincs „egyetlen jó válasz”” tagmondat semlegesítése vagy törlése (minden ágban egy ✅ … (riport I.2) |
 | M2:PED-G3-1 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a lépésidők elosztása a rögzített blokkokon belül (az M2.A Blokk 3 lépései 20–25 percet adnak a 15 perces sávban … — modulgazda; vétó/QA: programvezető (HUM-OPS-01) (X-10) |
 | M2:PED-G3-10 | P2 | objektív | ELVETVE | REJECTED | a HUB:101 tágan jellemzi a peulát, az M2.2-előtanulás és a :430 mellett nem bizonyított ellentmondás … (riport I.5) |
 | M2:PED-G3-11 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: kapjon-e az M2.F (Létszám: 6–20 fő, M2.F:19) kis létszámú (1–5 fős) változatot a PT:286 „egyéni vagy kiscsoportos t … — modulgazda / programvezető (X-10) |
-| M2:PED-G3-2 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.F 4.2 (:205, :209–212, :216): a jegyzetjavítás legyen az alapút, leckepótlás csak a javítandó sorhoz … (riport I.2) |
-| M2:PED-G3-3 | P1 | objektív | MEGERŐSÍTVE | OPEN | M2.B:377 és az M2.B-MUNK-03 spec (:90): a KAPU:230–231 ÉRTÉK-MONDATA szó szerint, a spec build úton … (riport I.2) |
+| M2:PED-G3-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.F:205, :210, :217 — M2.F 4.2 (:205, :209–212, :216): a jegyzetjavítás legyen az alapút, leckepótlás csak a javítandó sorhoz … (riport I.2) |
+| M2:PED-G3-3 | P1 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.B:90, :377, :378 (build: 3a92354; a :378 négy példaértéke marad, csak a rag és a helyutalás igazodik az új mondattőhöz) — M2.B:377 és az M2.B-MUNK-03 spec (:90): a KAPU:230–231 ÉRTÉK-MONDATA szó szerint, a spec build úton … (riport I.2) |
 | M2:PED-G3-4 | P1 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:BIZT-G3-2 |
 | M2:PED-G3-5 | P2 | emberi-döntés | ELVETVE | REJECTED | a fogalomtérképet a peula saját 4. célja írja elő, az „1 → 2” mintagyakorlat új tevékenység; preferencia … (riport I.5) |
 | M2:PED-G3-6 | P2 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:ERT-G3-4 |
-| M2:PED-G3-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | M2.B:380: a „mindenki (vagy aki szeretné)” helyett „aki szeretné”, és az M2.A:432 passz-mondata szó szerint (HUM-SAFE-03) (riport I.2) |
+| M2:PED-G3-7 | P2 | objektív | MEGERŐSÍTVE | FIXED | cee9849; M2.B:380, :381 — M2.B:380: a „mindenki (vagy aki szeretné)” helyett „aki szeretné”, és az M2.A:432 passz-mondata szó szerint (HUM-SAFE-03) (riport I.2) |
 | M2:PED-G3-8 | P2 | objektív | MEGERŐSÍTVE | DUPLICATE | = M2:NYELV-G3-1 |
 | M2:PED-G3-9 | P2 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M2:IMPL-G3-6 |
 | M3:BIZT-G1-1 | P1 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: KAPU ITEM 4 (23:15-ös üzenet): SAFE-7 kiterjesztése, kiskorú madrih szerephatára, elérhetetlenségi mondat — Memuna; kulcsról projektgazda (X-5) |
@@ -1147,3 +1161,5 @@
 | 2026-10-12 | FIX | M1 (átfedéssel, csak az M1 kilenc saját fájlja): `ed4f52d` fix(M1) + `506fa78` chore(media; build kétszer, `check`, `reconcile`, unittest OK); `content_integrity` 0 ERROR, `git diff --check` tiszta, a teljes diff visszaolvasva, egy `--pin-visible` a FIXED ID-kkal. 47 FIXED, 3 `.obj` FIXED (IMPL-G1-8.obj, ERT-G2-5.obj, NYELV-G2-5.obj); BLOCKED_HUMAN: BIZT-G2-3 (X-5, a BIZT-G2-1/-G2-10 döntésével egy lépésben), IMPL-G1-8 és PED-G3-8 (X-10), ERT-G2-5 S-sor (X-6), BIZT-G2-7, NYELV-G1-6, NYELV-G2-5 VO-része (új kapu: X-17, hanggyártási fix pack); IN_PROGRESS: ERT-G2-6 (a manifest-sor a közös kánoni körben). A futó M6/M7/Z review-k scope-fájljai nem változtak. Következik: célzott QA. |
 | 2026-10-12 | REVIEW | M6 VERIFIED (öt lencse): `2026-10-11 Validált findingok – M6, AP-2026-10-11-01.md` — 130 nyers finding, 130/130 verdikt (V1–V8: 75 MEGERŐSÍTVE, ebből 5 bizonyíték-kapu; 45 EMBERI DÖNTÉS; 10 ELVETVE). Ledger: 131 sor (+1 `.obj`: IMPL-G1-5.obj) — 57 OPEN, 32 DUPLICATE (5 más modul kapujába: `M0:IMPL-3` ×4, `M2:BIZT-G3-2`), 28 BLOCKED_HUMAN, 4 EVIDENCE_GATE, 10 REJECTED; kapuk X-4…X-16 kiegészítve (a `M6:BIZT-G1-6` az `M5:BIZT-G1-6` mintájára X-16-on). Read-only bizonyíték a mentés előtt: mindkét érték `da39a3ee…` (változatlan); a köztes M0/M1-javítások az M6 scope-ját nem érintik. |
 | 2026-10-12 | REVIEW | Z VERIFIED (öt lencse): `2026-10-11 Validált findingok – Z, AP-2026-10-11-01.md` — 57 nyers finding, 57/57 verdikt (V1–V4). Ledger: 59 sor (+2 `.obj`: BIZT-G1-2.obj, BIZT-G1-9.obj) — 23 OPEN, 12 DUPLICATE (6 más modul kapujába: `M0:ERT-3`, `M0:IMPL-3`, `M2:BIZT-G2-3` ×2, `M2:BIZT-G3-2`, `M1:IMPL-G2-10`; a Z-n belüli duplikátum-célok `Z:` előtaggal), 14 BLOCKED_HUMAN, 1 EVIDENCE_GATE (X-7, X-8, X-12), 9 REJECTED; kapuk X-4…X-12 kiegészítve, új X-sor nem kellett. Read-only bizonyíték a mentés előtt: mindkét érték `da39a3ee…` (változatlan); a köztes M0/M1-javítások a Z scope-ját nem érintik. |
+| 2026-10-12 | REGRESSION | M1 célzott QA (az `ed4f52d` diff-hunkjaira, négy lencse + verifier): `2026-10-12 Célzott QA – M1 javítás (ed4f52d), AP-2026-10-11-01.md` — 14 nyers, 11 MEGERŐSÍTVE + objektív (9 megtartott, 2 duplikátum), 3 ELVETVE. 8 javítva: `adde9dd` fix(M1) + `1922c75` chore(media; build kétszer, `check`, `reconcile`, unittest OK); a QA-IMPL-3 (RA-tétel) OPEN, a közös kánoni körben. Ledger: `M1:QA-*` 14 sor. |
+| 2026-10-12 | FIX | M2 (átfedéssel, csak az M2 kilenc saját fájlja): `cee9849` fix(M2) + `3a92354` chore(media; build kétszer, `check`, `reconcile`, unittest OK); 170/174 tervblokk alkalmazva és gépileg visszaellenőrizve (4 DEFER_CANON: MAN ×3, PT ×1); `content_integrity` 0 ERROR, `git diff --check` tiszta, a teljes diff visszaolvasva, egy `--pin-visible`. 58 FIXED, 4 IN_PROGRESS (IMPL-G1-2, IMPL-G1-6, ERT-G2-2, NYELV-G1-17: a MAN/PT-rész a közös kánoni körben). A PED-G3-3 következmény-blokkjai (a :378 ragja és helyutalása) a terv indokolt javaslata szerint mentek, a négy példaérték változatlan. A futó review-k (nincs) és a többi modul fájljai nem változtak. Következik: célzott QA (fut). |
