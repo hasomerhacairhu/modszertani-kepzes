@@ -64,7 +64,7 @@ A modul végére a madrih…
 
 ### L2 / M2.2 – Értékeim mint iránytű (15–20’)
 
-* **Cél:** 3 vezető személyes érték azonosítása, és ezek közül 1 kiemelt érték „lefordítása” látható viselkedéssé, amit a hanih le tud olvasni a madrihról.
+* **Cél:** 3 vezető személyes érték azonosítása és ezek közül 1 kiemelt érték „lefordítása” látható viselkedéssé, amit a hanih le tud olvasni a madrihról.
 * **Fő tartalom röviden:**
   * érték fogalma és példák (igazságosság, közösség, szolidaritás, someres értékek);
   * 10–15 érték közül top 3 kiválasztása;
@@ -180,11 +180,11 @@ A modul végére a madrih…
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
-> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be az M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = a Check-kérdések eredménye elküldve ÉS a nyitott mezők ki vannak töltve** (az értékválasztás pedagógiai interakció, nem önálló completion-elem: D-i); **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be az M2.2-t**…”). Konkrétan: **M2.1 = a Check-kérdések eredménye elküldve ÉS a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = a Check-kérdések eredménye elküldve ÉS a nyitott mezők ki vannak töltve** (az értékválasztás pedagógiai interakció, nem önálló completion-elem: D-i); **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
 
 **Követelmény az M2 „complete”-hez:**
 
-1. L1 / M2.1 – a viselkedésszintű, nem érzékeny reflexió rögzítve (az identitástérkép maga nem beadandó).
+1. L1 / M2.1 – H5P (a Check-kérdések eredménye) + a viselkedésszintű, nem érzékeny reflexió rögzítve (az identitástérkép maga nem beadandó).
 2. L2 / M2.2 – H5P (a Check-kérdések eredménye; az értékválasztás nem önálló completion-elem, D-i) + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
 4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza + 3 saját határszabály; a privát naplórész nem beadandó.
