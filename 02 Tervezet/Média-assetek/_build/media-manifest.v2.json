@@ -1728,10 +1728,10 @@
       "id": "M1.2-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-      "line": 940,
+      "line": 946,
       "body_lines": [
-        941,
-        946
+        947,
+        952
       ],
       "unit": "M1.2",
       "module": "M1",
@@ -1828,10 +1828,10 @@
       "id": "M1.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 811,
+      "line": 810,
       "body_lines": [
-        812,
-        816
+        811,
+        815
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1848,10 +1848,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 899,
+      "line": 898,
       "body_lines": [
-        900,
-        907
+        899,
+        906
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1868,10 +1868,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1055,
+      "line": 1054,
       "body_lines": [
-        1056,
-        1060
+        1055,
+        1059
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1888,10 +1888,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1079,
+      "line": 1078,
       "body_lines": [
-        1080,
-        1085
+        1079,
+        1084
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -5523,13 +5523,13 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "M1.F Közös fogalom-térkép sablon",
+      "title": "M1.F Közös fogalomtérkép sablon",
       "purpose": "A modul kulcsfogalmainak integrált, vizuális összekapcsolása a felzárkóztató peulán (M1.F cél 4).",
-      "spec": "Fogalom-térkép flipchart/poszter-sablon a három fő fogalom összekötésére: Johari – megfigyelés vs. címke – SBI; közös kitöltésre kérdésekkel-válaszokkal.",
+      "spec": "Fogalomtérkép flipchart/poszter-sablon a három fő fogalom összekötésére: Johari – megfigyelés vs. címke – SBI; közös kitöltésre kérdésekkel-válaszokkal.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "Nyomtatható nagy formátumú fogalom-térkép sablon vagy üres flipchart-váz, magyar címkékkel."
+        "note": "Nyomtatható nagy formátumú fogalomtérkép sablon vagy üres flipchart-váz, magyar címkékkel."
       },
       "a11y": {
         "note": "Fizikai print; jól olvasható betűméret."
@@ -5562,7 +5562,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b00ae212a2d0b5be4fd2102b14860f1abe29fd80fa11888434b7daaf8ad21bd6",
+      "spec_hash": "1e2337a0e72e340f750b8751ee8061a4fd743a191a6c5c6ee74bb3f7f7eb8851",
       "deliverable_ids": [
         "M1-HUB-POSZ-02",
         "M1-HUB-POSZ-02::PRINTPDF"
@@ -6369,7 +6369,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Rövid B-roll klippek, 16:9, max 40–60 mp blokkok, magyar kontextus"
+        "note": "Rövid B-roll klipek, 16:9, max 40–60 mp blokkok, magyar kontextus"
       },
       "a11y": {
         "audio": "silent",
@@ -6410,7 +6410,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b385a1aaae020c33d4895eef33d4f22e2d0e48af490b05d640e3abcd0e36620f",
+      "spec_hash": "769fb809269d72d27c326b6aee6f58fc42a24648bc55521446a634af99715384",
       "deliverable_ids": [
         "M1.1-VID-02",
         "M1.1-VID-02::ALTTEXT"
@@ -7116,7 +7116,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-      "line": 807,
+      "line": 813,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7159,8 +7159,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        941,
-        946
+        947,
+        952
       ],
       "source_text": "„Köszi, hogy végigcsináltad ezt a leckét.\nMost már tudod, mi a különbség megfigyelés és címke között.\nEzt a következő peulán a kvucával élőben is kipróbáljátok.\nUtána megnézzük, hogyan lehet ebből **egy tiszta, rövid visszajelző mondatot** építeni – ez lesz az S–B–I.”",
       "source_hash": "b0a43c77a8fd0ba55cacb6f540692cd918b81a1cc92b69e4347f309fc2f93130",
@@ -7805,7 +7805,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 742,
+      "line": 741,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7848,8 +7848,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        812,
-        816
+        811,
+        815
       ],
       "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
       "source_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
@@ -7878,7 +7878,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 830,
+      "line": 829,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7921,8 +7921,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        900,
-        907
+        899,
+        906
       ],
       "source_text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
@@ -7951,7 +7951,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 933,
+      "line": 932,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7994,8 +7994,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1056,
-        1060
+        1055,
+        1059
       ],
       "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
       "source_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
@@ -8024,14 +8024,14 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 976,
+      "line": 975,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Zárószöveg narráció (10–15 mp)",
       "purpose": "A lecke érzelmi-tartalmi lezárása, átkötés a következő egységhez.",
-      "spec": "10–15 mp magyar voice-over záró narráció: megköszöni a részvételt, összegzi az SBI felépítését, és előrevetíti az M1.4 lecke életszerű szituációit és a kapu-feladatot.",
+      "spec": "10–15 mp magyar voice-over záró narráció: megköszöni a részvételt, összegzi az SBI felépítését, és előrevetíti az M1.4 lecke életszerű szituációit és a kapufeladatot.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -8067,8 +8067,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1080,
-        1085
+        1079,
+        1084
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
@@ -8076,7 +8076,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
-      "spec_hash": "e6781f36962a0441b8cd7abe6c56841f419c19c6d4b7516e9ded68dcf1f1fa56",
+      "spec_hash": "3b9968186d4afffbd884d1f98d3ed668cdb965b4bc62701b6929dc7dc4e3aeba",
       "deliverable_ids": [
         "M1.3-NAR-07",
         "M1.3-NAR-07::CAPTIONS",
@@ -8429,7 +8429,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 516,
+      "line": 524,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -8713,7 +8713,7 @@
       "module": "M1",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md",
-      "line": 320,
+      "line": 321,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -8774,7 +8774,7 @@
       "module": "M1",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md",
-      "line": 403,
+      "line": 404,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -9147,12 +9147,12 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Smiley-kártyák (😃 / 😐 / 😬)",
-      "purpose": "A smiley-s (felszínes) visszajelzés élményének gyors, vizuális felidézése a ráhangolódáshoz (2.1 és 4.1.1), az SBI-vel való szembeállításhoz; emellett a 4.1.2. mozgásos mini-kvíznél is segédeszközként szolgálhat a sarok-jelölésekhez.",
-      "spec": "Három nagyméretű, felmutatható kártya kartonon: 😃 „jó volt”, 😐 „oké / semleges”, 😬 „rossz / kínos”. A képző a ráhangoló blokkban (4.1.1.) felmutatja, referencia a smiley-s vs. SBI-visszajelzés kontraszthoz. Rajzolt vagy nyomtatott kivitel egyaránt megengedett (2.1: „akár rajzolva”).",
+      "purpose": "A smiley-s (felszínes) visszajelzés élményének gyors, vizuális felidézése a ráhangolódáshoz (2.1 és 4.1.1), az SBI-vel való szembeállításhoz.",
+      "spec": "Három nagyméretű, felmutatható kártya kartonon: 😃 „jó volt”, 😐 „oké / semleges”, 😬 „rossz / kínos”. A képző a ráhangoló blokkban (4.1.1.) felmutatja, referencia a smiley-s vs. SBI-visszajelzés kontraszthoz. Emellett fejenként egy kis, 3 smiley-s szett (😃 / 😐 / 😬) a résztvevőknek a 4.1.1 két felmutatásához. Rajzolt vagy nyomtatott kivitel egyaránt megengedett (2.1: „akár rajzolva”).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Nagy formátum (A4/karton), 3 db; rajzolt vagy nyomtatott emoji + felirat; magyar nyelv."
+        "note": "Nagy formátum (A4/karton), 3 db a képzőnek, plusz kis formátumú szett fejenként (létszám × 3 db); rajzolt vagy nyomtatott emoji + felirat; magyar nyelv."
       },
       "a11y": {
         "note": "Print, élő felmutatás; a felirat („jó volt”/„oké”/„kínos”) a vizuális mellett szövegesen is olvasható, ez biztosítja az emoji jelentését."
@@ -9169,7 +9169,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Ugyanez a 3 smiley használható a 4.1.2. mozgásos mini-kvíz A/B/igaz-hamis sarkainál is. 3 emoji, szemben az 5-elemű checklist-skálával (M1.B-MUNK-01).",
+      "notes": "3 emoji, szemben az 5-elemű checklist-skálával (M1.B-MUNK-01).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -9184,7 +9184,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "431885597882df6655e875ab5acca987b65a2a326f49d0111d9eed1be5edd41f",
+      "spec_hash": "6a2548cfccb4117d0351f5621fa37fd7606db801feb7d5282f8fa39a84557000",
       "deliverable_ids": [
         "M1.B-KART-02",
         "M1.B-KART-02::PRINTPDF"
@@ -9208,7 +9208,7 @@
       "status": "spec-ready",
       "title": "Trió-checklist lap a megfigyelőnek (C)",
       "purpose": "A megfigyelő strukturáltan tudja követni az S/B/I meglétét és a becsúszó címkézést (4.2.1 és 4.2.3); objektív tükör az A visszajelzéséhez a mini-reflexióban (4.2.3, 4. lépés).",
-      "spec": "Egyoldalas megfigyelő-munkalap a C szerepnek a forrás 2.1 listája szerint: Volt-e S? (igen/nem), Volt-e B? (igen/nem), Volt-e I? (igen/nem), Volt-e címke? (igen/nem + példa beírható), és „B hogyan érezte magát?” bekarikázható 5-fokú smiley-skálával (😃 / 🙂 / 😐 / 😬 / 😡). Mivel a megfigyelő 3 kört (4 fős triónál többet) figyel, több kör jelölésére alkalmas elrendezés ideális.",
+      "spec": "Egyoldalas megfigyelő-munkalap a C szerepnek a forrás 2.1 listája szerint: Volt-e S? (igen/nem), Volt-e B? (igen/nem), Volt-e I? (igen/nem), Volt-e címke? (igen/nem + példa beírható), és „A visszajelzést kapó (B) hogyan érezte magát?” bekarikázható 5-fokú smiley-skálával (😃 / 🙂 / 😐 / 😬 / 😡). Mivel a megfigyelő 3 kört (4 fős triónál többet) figyel, több kör jelölésére alkalmas elrendezés ideális.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -9229,7 +9229,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A B-érzés skálája 5 emojit tartalmaz (😃/🙂/😐/😬/😡, 2.1 és 4.2.3); ez NEM azonos a 3-elemű felmutatható Smiley-kártyaszettel (M1.B-KART-02, 3 emoji).",
+      "notes": "A visszajelzést kapó (B) érzésének skálája 5 emojit tartalmaz (😃/🙂/😐/😬/😡, 2.1 és 4.2.3); ez NEM azonos a 3-elemű felmutatható Smiley-kártyaszettel (M1.B-KART-02, 3 emoji).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -9244,7 +9244,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "883b40081b7a8d2557d302bd08c6df687db24f9f1bfdfc0d504f805d4101aab2",
+      "spec_hash": "7c1fb0de0b9325543d9f343d52e8b4840e5bd05238975dffa79b76232e8b90cd",
       "deliverable_ids": [
         "M1.B-MUNK-01",
         "M1.B-MUNK-01::PRINTPDF"
@@ -32625,7 +32625,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md",
       "file_kind": "hub",
-      "title": "M1.F Közös fogalom-térkép sablon",
+      "title": "M1.F Közös fogalomtérkép sablon",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
@@ -32646,7 +32646,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md",
       "file_kind": "hub",
-      "title": "M1.F Közös fogalom-térkép sablon — nyomtatható PDF",
+      "title": "M1.F Közös fogalomtérkép sablon — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
