@@ -12888,7 +12888,7 @@
       "a11y": {
         "visual": "informative",
         "alt_source_ref": "M3.1-DIA-01-ALT#1",
-        "note": "Tartalmi ábra: alt-szöveg KÖTELEZŐ (M3.1-DIA-01::ALTTEXT). A kulcsszöveg külön kijelölhető szövegként is."
+        "note": "Tartalmi ábra: alt-szöveg KÖTELEZŐ (M3.1-DIA-01::ALTTEXT). A kulcsszöveg külön kijelölhető szövegként is. A H5P Videónak nincs alt-mezője: a szöveges alternatíva a dián látható vagy a videó mellől megnyitható szövegként jelenik meg (`LMS – hozzáférhetőségi sztenderd.md` §1, „A leirat helye”)."
       },
       "derivatives": [
         "alt-text"
@@ -12918,7 +12918,7 @@
       "alt_text": "Tuckman-görbe: vízszintes idővonal fölött egy emelkedő, hullámzó vonal öt szakaszra osztva, balról jobbra: forming (alakulás), storming (balhék), norming (szabályok), performing (működés), majd a lezáró adjourning (lezárás / szétválás). A görbe a csoport fejlődését mutatja az alakulástól a működő csapatig, majd a someres ciklus lezárásáig.",
       "alt_hash": "93ee21cdc2ce43d867b7e587df869c79fa29d0d0ad6d161d62106425c02d7669",
       "copy_hash": "93ee21cdc2ce43d867b7e587df869c79fa29d0d0ad6d161d62106425c02d7669",
-      "spec_hash": "f409f30075fc63c6a1c0bb8b53fef23cf5a0ff2ed50433746d26a696909f8933",
+      "spec_hash": "aa8f7df1bc80cf72b688b6dbe5897a81d920796dea800ef1579b6a2a0f7d6cc3",
       "deliverable_ids": [
         "M3.1-DIA-01",
         "M3.1-DIA-01::ALTTEXT"
@@ -13854,11 +13854,11 @@
       "status": "spec-ready",
       "title": "Korosztály-térkép minitáblázat (3 sor)",
       "purpose": "Egy lapon kéznél tartható „korosztály-térkép\", amely összeköti a kvucát az életkori sávval, fejlődési jellemzőkkel és madrih-szemponttal; M6-ra előremutató referencia.",
-      "spec": "3 soros minitáblázat 3 oszloppal: Kvuca (kor) | 2–3 fejlődési jellemző | 1 madrih-szempont. Sorok: Parparim (6–9), Kivsza (10–12), Leviatán (13–17), a lecke aktuális tartalmával. Élő szövegként jelenik meg a dián, nem képként; mobilon kártya / akkordeon nézetben (egy sor = egy blokk, a mezők egymás alatt), vízszintes görgetés nélkül (`LMS – hozzáférhetőségi sztenderd.md` §4).",
+      "spec": "3 soros minitáblázat 3 oszloppal: Kvuca (kor) | 2–3 fejlődési jellemző | 1 madrih-szempont. Sorok: Parparim (6–9), Kivsza (10–12), Leviatán (13–17), a lecke aktuális tartalmával. Élő szövegként jelenik meg a dián, nem képként; kártyás elrendezésben (egy sor = egy blokk, a mezők egymás alatt), vízszintes görgetés nélkül (`LMS – hozzáférhetőségi sztenderd.md` §4).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Élő szöveg a dián (Course Presentation szövegelem, nem kép), 3 sor × 3 mező, ikonokkal, mobil-first: mobilon kártya / akkordeon nézet, vízszintes görgetés nélkül."
+        "note": "Élő szöveg a dián (Course Presentation szövegelem, nem kép), 3 sor × 3 mező, ikonokkal, mobil-first: kártyás elrendezés (egy sor = egy blokk, a mezők egymás alatt) minden eszközön, mert a Course Presentation mobilon nem rendezi át a diát; vízszintes görgetés nélkül (A11Y §4)."
       },
       "a11y": {
         "note": "Képernyőolvasóval olvasható élő szöveg; a sor–mező szerkezet szövegesen is követhető (kártyánként a kvuca neve, alatta a jellemzők és a madrih-szempont)."
@@ -13889,7 +13889,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e3cd97a3045f18c08c2f74a29085f019d25d095e8c5ba1ea26c77aee088d9fb0",
+      "spec_hash": "2cc2e4ccf6e99c7db7122663c0c148e6cb4afaf8fcfae73e3b1f839d61a65a86",
       "deliverable_ids": [
         "M3.2-DIA-04"
       ],
@@ -13922,7 +13922,7 @@
         "note": "Koppintásos párosítás / H5P Drag and Drop, 7 szöveges item + 3 címke, célfelületek ≥24px, mobil-first, ujjbarát. Szöveges itemekhez alt nem szükséges."
       },
       "a11y": {
-        "note": "Húzásmentes alternatíva kötelező (lásd M3.2-EGY-02); billentyűzettel (Tab+Enter) bejárható; szöveges kártyák, alt nem szükséges."
+        "note": "Húzásmentes alternatíva kötelező (lásd M3.2-EGY-02); billentyűzettel (a koppintásos úton: Tab, majd nyílbillentyűk vagy Szóköz) bejárható; szöveges kártyák, alt nem szükséges."
       },
       "derivatives": [],
       "reuse_of": "",
@@ -13949,7 +13949,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "686506c7af9e0c719307ffd78fd0c690abc66938ba1d2b92c77cae027d10a498",
+      "spec_hash": "492d3a4c982e323eb1b2d03b4f82faa8a2fc567eb223e4e52ab5ccbfc6103028",
       "deliverable_ids": [
         "M3.2-EGY-01"
       ],
@@ -14895,7 +14895,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Társasset: M3.3-NAR-01::TRANSCRIPT. Kapcsolódó ikon-asset a slide-on: M3.3-IKO-01. A slide végi Single Choice minikérdés (SLIDE 2, „Mini kérdés a slide végén”) csak szöveges H5P UI, nem gyártandó asset.",
+      "notes": "Társasset: M3.3-NAR-01::TRANSCRIPT. Kapcsolódó ikon-asset a slide-on: M3.3-IKO-01. A slide végi Single Choice minikérdés (SLIDE 2, „Minikérdés a slide végén”) csak szöveges H5P UI, nem gyártandó asset.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -15460,7 +15460,7 @@
       "status": "spec-ready",
       "title": "Minikvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6)",
       "purpose": "Kulcsállítások rögzítése: szerep, red flag, dugma isit-hatás.",
-      "spec": "3 kérdés külön Course Presentation-elemként (a Question Set nem ágyazható Course Presentationbe): K1 Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban (red flag első lépés, helyes: 3., + visszajelzés az 1./2./4. rossz válaszra, Kérdés 1 „Visszajelzés a rossz válaszokra”), K2 True/False (madrih–hanih párkapcsolat, helyes: Hamis, + visszajelzés, Kérdés 2 „Visszajelzés (hamis)”), K3 Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban (a „mit tegyél / mit ne tegyél madrihként” szemlélet mondata, helyes: 3.). Opciók és visszajelzés-szövegek beállítása.",
+      "spec": "3 kérdés külön Course Presentation-elemként (a Question Set nem ágyazható Course Presentationbe): K1 Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban (red flag első lépés, helyes: 3., + visszajelzés az 1./2./4. rossz válaszra, Kérdés 1 „Visszajelzés a rossz válaszokra”), K2 True/False (madrih–hanih párkapcsolat, helyes: Hamis, + visszajelzés, Kérdés 2 „Visszajelzés (mindkét válaszra)”), K3 Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban (a „mit tegyél / mit ne tegyél madrihként” szemlélet mondata, helyes: 3.). Opciók és visszajelzés-szövegek beállítása.",
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
@@ -15494,7 +15494,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a5e728d38a01ce182c0e9f6291fbd2208fff0733cae42218e8048e8dc3ef2605",
+      "spec_hash": "15985d971634cd11bce8ec37d923b5726f966426e8d5da33133af4c95194e7f0",
       "deliverable_ids": [
         "M3.4-EGY-05"
       ],
@@ -16828,7 +16828,7 @@
       "status": "spec-ready",
       "title": "Jegyzetlap – „1 gondolat / 1 kérdés leckénként”",
       "purpose": "A résztvevő rögzítse leckénként 1 gondolatát és 1 kérdését; kirajzolódik, mit ért és hol bizonytalan – különösen abban, amit a kapun kapott visszajelzés jelzett; név nélküli kérdésgyűjtés alapja a fogalomtérképhez.",
-      "spec": "Egy A4 munkalap résztvevőnként, négy szekcióra osztva, leckénként 2-2 sorral: L1 – 1 gondolat / 1 kérdés (Tuckman); L2 – 1 gondolat / 1 kérdés (kvuca-profilok); L3 – 1 gondolat / 1 kérdés (gyermekvédelem & red flag); L4 – 1 gondolat / 1 kérdés (Do / Don't madrihként). Hagyjon helyet az „ezt ma nem értem el” / „ezt pótolom a javító próbálkozás előtt” bejegyzéseknek is.",
+      "spec": "Egy A4 munkalap résztvevőnként, négy szekcióra osztva, leckénként 2-2 sorral: L1 – 1 gondolat / 1 kérdés (Tuckman); L2 – 1 gondolat / 1 kérdés (kvuca-profilok); L3 – 1 gondolat / 1 kérdés (gyermekvédelem & red flag); L4 – 1 gondolat / 1 kérdés (Do / Don't madrihként). Hagyjon helyet az „ezt ma nem értem el” / „ezt pótolom a javító próbálkozás előtt” bejegyzéseknek és a helyzetleírás konkrét javítási tervének is.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16865,7 +16865,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5884c54803562f2099f46081121181a158aa0aea9966f781126a7483b8ce42d1",
+      "spec_hash": "9544cd48bba5e73497ac828a76fd4d52c9f160b8b7fa277fbba4a08921506b77",
       "deliverable_ids": [
         "M3.F-MUNK-01",
         "M3.F-MUNK-01::PRINTPDF"
