@@ -13,7 +13,7 @@
 
 **Modulcél röviden**
 
-A madrih **megnevezi identitás-köreit és 3 személyes értékét, mindegyikhez 1 megfigyelhető madrih-viselkedést rendel**, és megfogalmazza, **milyen személyes példát szeretne mutatni** – konkrét viselkedésben, nem csak szavakban.
+A madrih **megnevezi identitás-köreit és 3 személyes értékét, ezek közül 1 kiemelt értékhez 1 megfigyelhető madrih-viselkedést rendel**, és megfogalmazza, **milyen személyes példát szeretne mutatni** – konkrét viselkedésben, nem csak szavakban.
 
 ***
 
@@ -26,7 +26,7 @@ A modul végére a madrih…
    * Megnevezi, melyik kör hogyan befolyásolja a madrih-szerepét.
    * **Támogató elemek:** M2.1 (identitás-körök), M2.A (identitás-megosztás élőben).
 2. **Értékalapú dugma isit**
-   * Kiválaszt **3 személyes értéket**, és mindegyikhez 1 konkrét viselkedést fogalmaz meg, amelyet a hanihok rajta láthatnak.
+   * Kiválaszt **3 személyes értéket**, és ezek közül 1 kiemelt értékhez 1 konkrét viselkedést fogalmaz meg, amelyet a hanihok rajta láthatnak.
    * **Ezek közül 1 someres értéket emel ki, amelyben idén tudatosan személyes példát szeretne mutatni – ez a kiemelt érték az, amit a kapu (az önellenőrző lista 2. pontja és a fejlesztő rubrika R2 sora) rögzít. A másik kettő a feltáró munkát gazdagítja, de a kapu produktuma a kiemelt értékre fókuszál.**
    * **Támogató elemek:** M2.2 (Értékeim mint iránytű), M2.B (Somer-értékek a gyakorlatban).
 3. **Ideológiai tudatosság mint példaadás**
@@ -52,7 +52,7 @@ A modul végére a madrih…
 * **L3 = M2.3** – Somer 3 pillére – mini-kapszula
 * **L4 = M2.4** – Reflektív napló & határok: „A dugma isit nem terapeuta”
 
-> **Ajánlott ütem (peula-vezérelt, NEM szigorúan sorszám szerint):** a fenti L1–L4 a leckék katalógusa, nem a végrehajtás kötelező sorrendje. A peulák elő/utó-bekötése miatt a tényleges ajánlott út: **1. hét** – M2.1 + M2.2 → **Peula A (M2.A)** → **M2.4** (a határlecke a Peula A élménye után erősebb, ezért M2.4 itt M2.3 elé kerül); **2. hét** – M2.3 → **Peula B (M2.B)** → az 1 oldalas identitás-jegyzet. Vagyis a sorszám (L4) és a haladási sorrend (M2.4 már az 1. héten) szándékosan eltér.
+> **Ajánlott ütem (peula-vezérelt, NEM szigorúan sorszám szerint):** a fenti L1–L4 a leckék katalógusa, nem a végrehajtás kötelező sorrendje. A peulák elő/utó-bekötése miatt a tényleges ajánlott út: **1. hét** – M2.1 + M2.2 → **Peula A (M2.A)** → **M2.4** (a határlecke a Peula A élménye után erősebb, ezért az M2.4 itt az M2.3 elé kerül); **2. hét** – M2.3 → **Peula B (M2.B)** → az 1 oldalas identitás-jegyzet. Vagyis a sorszám (L4) és a haladási sorrend (M2.4 már az 1. héten) szándékosan eltér.
 
 ### L1 / M2.1 – „Ki vagyok én madrihként?” – identitás-körök (15–20’)
 
@@ -60,11 +60,11 @@ A modul végére a madrih…
 * **Fő tartalom röviden:**
   * identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) rajzos feltérképezése;
   * **a rajz a tanulónál marad** (privát munkalap, nincs fotófeltöltés); a Moodle-be csak egy rövid, nem érzékeny, **viselkedésszintű** reflexió kerül arról, miben ad személyes példát a kvucájának.
-* **Moodle/H5P mix:** H5P Course Presentation + **rövid szabad szöveges mező** (a konkrét megvalósítást az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli; a Course Presentation dián belüli szabad szöveges mező nem feltételezhető). **File upload nincs** – lásd az M2.1 privacy-by-design jegyzetét.
+* **Moodle/H5P mix:** H5P Course Presentation + **rövid szabad szöveges mező** (LMS-M2-06; a konkrét megvalósítást az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli; a Course Presentation dián belüli szabad szöveges mező nem feltételezhető). **File upload nincs** – lásd az M2.1 privacy-by-design jegyzetét.
 
 ### L2 / M2.2 – Értékeim mint iránytű (15–20’)
 
-* **Cél:** 3 vezető személyes érték azonosítása és „lefordítása” látható viselkedéssé, amit a hanih le tud olvasni a madrihról.
+* **Cél:** 3 vezető személyes érték azonosítása, és ezek közül 1 kiemelt érték „lefordítása” látható viselkedéssé, amit a hanih le tud olvasni a madrihról.
 * **Fő tartalom röviden:**
   * érték fogalma és példák (igazságosság, közösség, szolidaritás, someres értékek);
   * 10–15 érték közül top 3 kiválasztása;
@@ -88,7 +88,7 @@ A modul végére a madrih…
   * privát/személyes/szakmai információk szétválasztása;
   * naplókérdések arról, mit oszt meg kivel (kvuca, barát, mentor/szakember);
   * 3 konkrét „határszabály” megfogalmazása, mint példaadás a hanihoknak.
-* **Moodle/H5P mix:** H5P Course Presentation + rövid, nem érzékeny szöveges válaszok az `LMS – H5P runtime acceptance.md` 6. pontja szerint. A háromoszlopos személyes naplórész **privát munkalap, nem kell beadni**; külön M2.4 Moodle Assignment nincs. A Moodle-be csak viselkedés-/szabályszintű válasz kerül, valódi név vagy érzékeny történet nélkül.
+* **Moodle/H5P mix:** H5P Course Presentation + rövid, nem érzékeny szöveges válaszok (LMS-M2-09) az `LMS – H5P runtime acceptance.md` 6. pontja szerint. A háromoszlopos személyes naplórész **privát munkalap, nem kell beadni**; külön M2.4 Moodle Assignment nincs. A Moodle-be csak viselkedés-/szabályszintű válasz kerül, valódi név vagy érzékeny történet nélkül.
 
 ***
 
@@ -96,7 +96,7 @@ A modul végére a madrih…
 
 ### Peula A (M2.A) – „Identitás-körök élőben – mit mutatok magamból?” (45’)
 
-* **Kapcsolódó leckék:** M2.1, M2.2 (opcionálisan M2.4).
+* **Kapcsolódó leckék:** M2.1, M2.2 (az M2.4 a peula utáni online lépésként kapcsolódik, nem előfeltétel).
 * **Fő cél:**
   * az online identitás- és értékmunka élményszerű feldolgozása kvucában;
   * biztonságos megosztási tér gyakorlása – mindenki annyit oszt meg, amennyi neki oké;
@@ -162,7 +162,7 @@ A modul végére a madrih…
 * **Fő célok:**
   1. **Beazonosítja** a kapun kapott mentori visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján, hogy az identitás-jegyzetének melyik rubrikasorán (R1–R4) kell javítania, és **megnevezi** a következő lépést.
   2. Érdemben javítja a jegyzet nem teljesült elemeit; ha ehhez valamelyik leckét (a rubrikasorok az M2.1–M2.4 leckékhez kötődnek) pótolnia vagy újranéznie kell, azt itt teszi meg – a javító beadás előtt.
-  3. Le tud írni/mondani leckénként 1 gondolatot és 1 kérdést, elsősorban a javítandó sorokhoz tartozó leckéknél.
+  3. Le tud írni vagy el tud mondani leckénként 1 gondolatot és 1 kérdést, elsősorban a javítandó sorokhoz tartozó leckéknél.
   4. Lát egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás), és ehhez köti a jegyzete javítandó részeit.
 * **Modulhoz való szerepe:**
   * facilitált, strukturált javítási alkalom (F-peula) azoknak, akiknek a modul kapuja nem teljesült; aki csak lemaradt egy leckéről vagy peuláról, csendes pótlással, önállóan pótol;
@@ -180,7 +180,7 @@ A modul végére a madrih…
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
-> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = a Check-kérdések eredménye elküldve ÉS a nyitott mezők ki vannak töltve** (az értékválasztás pedagógiai interakció, nem önálló completion-elem: D-i); **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be az M2.2-t**…”). Konkrétan: **M2.1 = a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = a Check-kérdések eredménye elküldve ÉS a nyitott mezők ki vannak töltve** (az értékválasztás pedagógiai interakció, nem önálló completion-elem: D-i); **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
 
 **Követelmény az M2 „complete”-hez:**
 
@@ -219,6 +219,8 @@ A modul végére a madrih…
 **Puha kapu küszöbe (az értékelő-fájlból átvéve):**
 
 > A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (F-peula) ajánlást kap, és újra beadhat** – nincs kizárás; 1 normál + 1 javító beadás automatikusan, további beadást a képző nyithat kézzel.
+>
+> **Mentori megerősítés (LMS-M2-10, BSPEC-07):** „Teljesítve” = az LMS-M2-05 legutóbb leadott jegyzetének előírt mezőiben tényleges, minimálisan értelmezhető tartalom van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég); a puha kapu rubrika-küszöbe formatív, nem feltétel (Program terv §5).
 
 > **Ezt viszed tovább (portfólió-átkötés):** az identitás-jegyzeted, a választott someres értéked és a dugma isit-mondatod nem itt ér véget. Ez lesz az iránytűd, amikor az **M7-ben** egy valós peulát tervezel: az M7.1 **SMART nevelési célja** kifejezetten kéri, hogy a cél **Somer-értékhez kötődjön (R – Releváns)**, az M7 produktum-rubrika R1 (**SMART nevelési cél**) sora pedig pontozza a *„someres értékhez kötött”* jegyet (lásd „M7 – KAPU” §B, R1 sor). Vagyis az itt megnevezett értéked és példamutatásod később egy konkrét Peula v2 nevelési céljává fordul – tedd el az identitás-jegyzeted.
 
@@ -237,13 +239,12 @@ A modul végére a madrih…
   * L1–L4 teljesítési arány leckénként;
   * külön figyelni, hol esnek ki (különösen L3–L4 körül).
 * **H5P analitika:**
-  * Melyik pillérnél (cionizmus / szocializmus / humanista zsidóság) állnak meg sokan M2.3-ban.
-  * Az M2.3-mutató csak akkor használható, ha az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja, hogy a Moodle rögzíti a Branching Scenario választásait.
+  * A pillér-ág választásának tanulói fiókhoz kötött tartós tárolása nem pedagógiai követelmény, és nem kívánt adat; a completion az ág identitását nem használja; jelentésben és manifestben nem állítjuk, hogy a konkrét pillér-választás megőrzése szükséges. Ha a core H5P attempt tracking technikailag mégis felhasználónként eltárolja, annak adatvédelmi elfogadhatósága DPO/jogi QA marad; feltételezéssel nem oldható meg (D-j; M2.3, 3. szakasz).
 * **Szöveges feladatválaszok és Assignment-adatok:**
   * A nem érzékeny M2.1/M2.4 feladatválaszok teljesítési aránya és az identitás-jegyzet leadási aránya; a személyes identitástérkép és a privát naplórész nem kerül be.
   * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrih-szerephez kötött szabály. A stáb ezt csak összesített számként látja, név nélkül (Program terv §4); az egyéni választ csak a kijelölt mentor/értékelő nézi, és csak ha szükséges (HUM-PRIV-01).
 * **Küszöbök / beavatkozási pontok (példák):**
-  * Ha a résztvevők >30%-a **nem fejezi be M2.2-t** a 2. hét végéig → csendes pótlás + extra emlékeztető.
+  * Ha a résztvevők >30%-a **nem fejezi be az M2.2-t** a 2. hét végéig → csendes pótlás + extra emlékeztető.
   * Ha az identitás-jegyzetek >30%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma isitről.
 * **Program-szintű használat:**
   * az M2 completion-adatai jelzik, mennyire sikerül a résztvevőket bevonni a saját identitásuk és értékeik tudatosításába;
