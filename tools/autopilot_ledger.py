@@ -14,6 +14,10 @@ the ledger with the Edit tool.
 
 `check` also runs live checks instead of trusting the ledger's own claims: the final-QA commit
 exists, `02 Tervezet/` and `tools/` are unchanged since it, and `content_integrity.py` passes.
+
+TERMINAL means every module and finding is in a verified final state — not that every defect is
+fixed. The `AUTOPILOT-RESULT` line says which: `ALL_FIXED` only when nothing is deferred, gated
+or unauthorized; otherwise `OPEN_ITEMS_REMAIN`, followed by every such key.
 """
 from __future__ import annotations
 
@@ -31,7 +35,9 @@ LEDGER = AUDIT / 'AUTOPILOT-LEDGER.md'
 RUN_KEYS = ('Run-ID', 'Állapot', 'Scope', 'Lencsék', 'Felhatalmazás', 'Munkaág',
             'Bázis-commit', 'Indítva', 'Záró QA')
 RUN_STATES = ('NONE', 'ACTIVE', 'FINISHED')
-MODULE_COLS = ('Modul', 'Review', 'Riport', 'Review-bázis', 'Javítás', 'Bizonyíték',
+VARIANTS = ('pilot', 'next-version')
+LENSES = ('pedagogy', 'assessment', 'language', 'safety', 'implementation')
+MODULE_COLS = ('Modul', 'Review', 'Lencsék', 'Riport', 'Review-bázis', 'Javítás', 'Bizonyíték',
                'Következő lépés')
 REVIEW_OPEN, REVIEW_DONE = ('PENDING', 'REVIEWING', 'RAW_SAVED'), ('VERIFIED', 'REUSED', 'SKIPPED')
 FIX_OPEN, FIX_DONE = ('PENDING', 'FIXING'), ('DONE', 'NONE_NEEDED', 'NOT_AUTHORIZED')
@@ -48,6 +54,29 @@ FINDING_DONE = ('FIXED', 'ALREADY_FIXED', 'REJECTED', 'DUPLICATE', 'BLOCKED_HUMA
 SECTIONS = ('Futás', 'Modulok', 'Külső kapuk', 'Findingok')
 SHA_RE = re.compile(r'(?<![0-9a-f])[0-9a-f]{7,40}(?![0-9a-f])')
 EMPTY = ('', '—', '-')
+# Result classes of a terminal ledger: only FIXED/NOT_DEFECT mean "nothing left to do here".
+RESULT_CLASSES = (('JAVÍTVA', ('FIXED', 'ALREADY_FIXED')),
+                  ('NEM HIBA', ('REJECTED', 'DUPLICATE')),
+                  ('HALASZTVA (projektgazdai döntés)', ('OWNER_DEFERRED',)),
+                  ('EMBERI DÖNTÉSRE VÁR', ('BLOCKED_HUMAN',)),
+                  ('BIZONYÍTÉKRA VÁR', ('EVIDENCE_GATE',)),
+                  ('NEM ENGEDÉLYEZETT JAVÍTÁS', ('NOT_AUTHORIZED',)))
+OPEN_CLASSES = ('OWNER_DEFERRED', 'BLOCKED_HUMAN', 'EVIDENCE_GATE', 'NOT_AUTHORIZED')
+FREEZE_RE = re.compile(r'freeze|POST-PILOT', re.I)
+
+
+def lens_set(text: str) -> set[str] | None:
+    """Lens tokens of a cell; `all` = the five; None when a token is unknown."""
+    if text in EMPTY:
+        return set()
+    tokens = {t.strip() for t in re.split(r'[,\s]+', text) if t.strip()}
+    if tokens == {'all'}:
+        return set(LENSES)
+    return tokens if tokens <= set(LENSES) else None
+
+
+def reports(cell: str) -> list[str]:
+    return [r.strip().strip('`') for r in cell.split(';') if r.strip().strip('`') not in EMPTY]
 
 
 def parse(text: str) -> tuple[dict[str, list[list[str]]], list[str]]:
@@ -104,6 +133,10 @@ def structure_errors(run, modules, gates, findings) -> list[str]:
     errors = [f'Futás: hiányzó kulcs: {k}' for k in RUN_KEYS if k not in run]
     if run.get('Állapot') not in RUN_STATES:
         errors.append(f'Futás/Állapot: {run.get("Állapot")!r} — megengedett: {", ".join(RUN_STATES)}')
+    if run.get('Változat', 'pilot') not in VARIANTS:
+        errors.append(f'Futás/Változat: {run.get("Változat")!r} — megengedett: {", ".join(VARIANTS)}')
+    if lens_set(run.get('Lencsék', '—')) is None:
+        errors.append(f'Futás/Lencsék: ismeretlen lencse — megengedett: {", ".join(LENSES)}, all')
     names = [m['Modul'] for m in modules]
     errors += [f'Modulok: duplikált modul {n}' for n in sorted({n for n in names if names.count(n) > 1})]
     for m in modules:
@@ -111,6 +144,8 @@ def structure_errors(run, modules, gates, findings) -> list[str]:
             errors.append(f'{m["Modul"]}: ismeretlen Review-állapot {m["Review"]!r}')
         if m['Javítás'] not in FIX_OPEN + FIX_DONE:
             errors.append(f'{m["Modul"]}: ismeretlen Javítás-állapot {m["Javítás"]!r}')
+        if lens_set(m['Lencsék']) is None:
+            errors.append(f'{m["Modul"]}: ismeretlen lencse a Lencsék oszlopban: {m["Lencsék"]!r}')
     keys = [g['Kulcs'] for g in gates] + [f['Kulcs'] for f in findings]
     errors += [f'duplikált kulcs: {k}' for k in sorted({k for k in keys if keys.count(k) > 1})]
     for g in gates:
@@ -133,7 +168,7 @@ def structure_errors(run, modules, gates, findings) -> list[str]:
     return errors
 
 
-def finding_terminal_errors(f: dict, keys: set[str]) -> list[str]:
+def finding_terminal_errors(f: dict, keys: set[str], variant: str = 'pilot') -> list[str]:
     k, state, ev = f['Kulcs'], f['Állapot'], f['Bizonyíték / döntési igény']
     if state in FINDING_OPEN:
         return [f'{k}: nem lezárt ({state})']
@@ -152,6 +187,11 @@ def finding_terminal_errors(f: dict, keys: set[str]) -> list[str]:
         return [f'{k}: BLOCKED_HUMAN — a bizonyíték „EMBERI DÖNTÉS: <mit, kitől>” alakú']
     if state == 'EVIDENCE_GATE' and f['Típus'] != 'bizonyíték-kapu':
         return [f'{k}: EVIDENCE_GATE csak bizonyíték-kapu típusnál']
+    if state == 'OWNER_DEFERRED':
+        if 'döntés:' not in ev or 'cél:' not in ev:
+            return [f'{k}: OWNER_DEFERRED — a bizonyíték „döntés: <hely>; cél: <változat>” alakú']
+        if variant == 'next-version' and FREEZE_RE.search(ev):
+            return [f'{k}: next-version futásban a pilot-freeze nem halasztási ok — javítandó vagy BLOCKED_HUMAN']
     return []
 
 
@@ -161,16 +201,24 @@ def terminal_errors(run, modules, gates, findings) -> list[str]:
         errors.append(f'Futás/Állapot: {run.get("Állapot")} (FINISHED kell)')
     if not modules:
         errors.append('Modulok: üres')
+    variant = run.get('Változat', 'pilot')
+    if variant == 'next-version' and 'next-version' not in run.get('Felhatalmazás', ''):
+        errors.append('Futás/Felhatalmazás: next-version futáshoz a projektgazda szó szerinti felhatalmazása kell')
+    required = lens_set(run.get('Lencsék', '—')) or set()
     for m in modules:
         name = m['Modul']
         if m['Review'] not in REVIEW_DONE:
             errors.append(f'{name}: review nem lezárt ({m["Review"]})')
         elif m['Review'] in ('VERIFIED', 'REUSED'):
-            report = m['Riport'].strip('`')
-            if report in EMPTY or not (AUDIT / report).is_file():
-                errors.append(f'{name}: a riport nem található az 04 Audit mappában: {m["Riport"]}')
+            files = reports(m['Riport'])
+            missing = [r for r in files if not (AUDIT / r).is_file()]
+            if not files or missing:
+                errors.append(f'{name}: a riport nem található az 04 Audit mappában: {", ".join(missing) or m["Riport"]}')
             if not SHA_RE.search(m['Review-bázis']):
                 errors.append(f'{name}: hiányzó Review-bázis commit')
+            gap = required - (lens_set(m['Lencsék']) or set())
+            if gap:
+                errors.append(f'{name}: a futás lencséi közül nem futott le: {", ".join(sorted(gap))}')
         if m['Javítás'] not in FIX_DONE:
             errors.append(f'{name}: javítás nem lezárt ({m["Javítás"]})')
         elif m['Javítás'] == 'DONE' and not SHA_RE.search(m['Bizonyíték']):
@@ -182,7 +230,7 @@ def terminal_errors(run, modules, gates, findings) -> list[str]:
             errors.append(f'{g["Kulcs"]}: nyitott előfeltétel')
     keys = {f['Kulcs'] for f in findings}
     for f in findings:
-        errors += finding_terminal_errors(f, keys)
+        errors += finding_terminal_errors(f, keys, variant)
     qa = run.get('Záró QA', '')
     if not SHA_RE.search(qa) or 'MOODLE-BUILD-VERDICT:' not in qa or 'LEARNER-RELEASE-VERDICT:' not in qa:
         errors.append('Futás/Záró QA: commit és a két verdikt-sor szó szerint kell')
@@ -252,6 +300,29 @@ def counts(modules, findings) -> str:
             f'findingok {done_f}/{len(findings)} lezárva' + (f' ({detail})' if detail else ''))
 
 
+def result_lines(run, findings) -> list[str]:
+    """Disclosure of a terminal ledger: fixed vs. not a defect vs. every open, deferred or gated key."""
+    open_keys = [f for f in findings if f['Állapot'] in OPEN_CLASSES]
+    head = 'ALL_FIXED' if not open_keys else 'OPEN_ITEMS_REMAIN'
+    variant = run.get('Változat', 'pilot')
+    lines = [f'AUTOPILOT-RESULT: {head} (változat: {variant}) — a TERMINAL azt jelenti, hogy minden tétel '
+             'igazolt végállapotban van, nem azt, hogy minden hiba javítva']
+    for label, states in RESULT_CLASSES:
+        items = [f['Kulcs'] for f in findings if f['Állapot'] in states]
+        line = f'  {label}: {len(items)}'
+        if items and set(states) & set(OPEN_CLASSES):
+            line += ' — ' + ', '.join(items)
+        lines.append(line)
+    deferred = [f for f in findings if f['Állapot'] == 'OWNER_DEFERRED']
+    targets: dict[str, list[str]] = {}
+    for f in deferred:
+        m = re.search(r'cél:\s*([^;|]+)', f['Bizonyíték / döntési igény'])
+        targets.setdefault(m.group(1).strip() if m else '?', []).append(f['Kulcs'])
+    for target, items in sorted(targets.items()):
+        lines.append(f'  következő munka (cél: {target}): {len(items)} — ' + ', '.join(items))
+    return lines
+
+
 def run_command(cmd: str, text: str, live: bool = True) -> tuple[int, list[str]]:
     run, modules, gates, findings, errors = load(text)
     errors += structure_errors(run, modules, gates, findings) if not errors else []
@@ -269,13 +340,13 @@ def run_command(cmd: str, text: str, live: bool = True) -> tuple[int, list[str]]
         more = [f'  … és még {len(errors) - 40}'] if len(errors) > 40 else []
         return 1, (['AUTOPILOT-LEDGER: INCOMPLETE', counts(modules, findings)]
                    + [f'  {e}' for e in errors[:40]] + more)
-    return 0, ['AUTOPILOT-LEDGER: TERMINAL', counts(modules, findings)]
+    return 0, ['AUTOPILOT-LEDGER: TERMINAL', counts(modules, findings)] + result_lines(run, findings)
 
 
 def ledger_text(run=None, modules=(), gates=(), findings=()) -> str:
     """Build a ledger (selftest and documentation of the exact layout)."""
-    base = {'Run-ID': 'AP-TEST', 'Állapot': 'FINISHED', 'Scope': 'M0', 'Lencsék': 'all',
-            'Felhatalmazás': 'fix, commit', 'Munkaág': 'autopilot/AP-TEST',
+    base = {'Run-ID': 'AP-TEST', 'Állapot': 'FINISHED', 'Változat': 'pilot', 'Scope': 'M0',
+            'Lencsék': 'all', 'Felhatalmazás': 'fix, commit', 'Munkaág': 'autopilot/AP-TEST',
             'Bázis-commit': 'abc1234', 'Indítva': '2026-10-11',
             'Záró QA': '`abc1234` · MOODLE-BUILD-VERDICT: X · LEARNER-RELEASE-VERDICT: Y'}
     base.update(run or {})
@@ -304,7 +375,8 @@ def selftest() -> int:
         global AUDIT
         saved, AUDIT = AUDIT, Path(tmp)
         (AUDIT / 'r.md').write_text('x', encoding='utf-8')
-        mod_ok = ('M0', 'VERIFIED', '`r.md`', 'abc1234', 'DONE', 'def5678 integrity 0', '—')
+        (AUDIT / 'r2.md').write_text('x', encoding='utf-8')
+        mod_ok = ('M0', 'VERIFIED', 'all', '`r.md`', 'abc1234', 'DONE', 'def5678 integrity 0', '—')
         fixed = ('M0:PED-1', 'P1', 'objektív', 'MEGERŐSÍTVE', 'FIXED', 'def5678 M0.1:12')
         blocked = ('M0:BIZT-2', 'P0', 'emberi-döntés', 'EMBERI DÖNTÉS', 'BLOCKED_HUMAN',
                    'EMBERI DÖNTÉS: jelzési lánc — gyermekvédelmi felelős')
@@ -329,9 +401,43 @@ def selftest() -> int:
             ('M0:ERT-1', 'P1', 'objektív', 'MEGERŐSÍTVE', 'DUPLICATE', 'ugyanaz')]), 'check', 1, 'megtartott')
         expect('open precondition', ledger_text(modules=[mod_ok], gates=[gate[:4] + ('OPEN',)]),
                'check', 1, 'előfeltétel')
-        expect('missing report file', ledger_text(modules=[('M0', 'REUSED', '`nincs.md`', 'abc1234',
+        expect('missing report file', ledger_text(modules=[('M0', 'REUSED', 'all', '`nincs.md`', 'abc1234',
                                                             'NONE_NEEDED', 'nincs objektív', '—')]),
                'check', 1, 'riport')
+        # Gap 2: a lens that never ran is not coverage, even if an older report exists.
+        four = 'pedagogy,assessment,implementation,safety'
+        expect('language lens missing', ledger_text(modules=[('M0', 'REUSED', four, '`r.md`', 'abc1234',
+                                                              'NONE_NEEDED', 'nincs objektív', '—')]),
+               'check', 1, 'nem futott le: language')
+        expect('four lenses suffice for a four-lens run', ledger_text(
+            {'Lencsék': four}, [('M0', 'REUSED', four, '`r.md`', 'abc1234', 'NONE_NEEDED', 'x', '—')]), 'check', 0)
+        expect('coverage from two reports', ledger_text(modules=[('M0', 'VERIFIED', 'all', '`r.md`; `r2.md`',
+                                                                  'abc1234', 'NONE_NEEDED', 'x', '—')]), 'check', 0)
+        expect('second report missing', ledger_text(modules=[('M0', 'VERIFIED', 'all', '`r.md`; `r3.md`',
+                                                              'abc1234', 'NONE_NEEDED', 'x', '—')]),
+               'check', 1, 'r3.md')
+        expect('unknown lens', ledger_text(modules=[mod_ok[:2] + ('style',) + mod_ok[3:]]),
+               'validate', 1, 'ismeretlen lencse')
+        # Gap 1: deferred items never read as "all fixed", and they are listed one by one.
+        deferred = ('M0:ERT-7', 'P2', 'objektív', 'MEGERŐSÍTVE', 'OWNER_DEFERRED',
+                    'döntés: HUM 11. szakasz, pilot-freeze 2026-10-05; cél: next-version')
+        expect('all fixed only without open items', ledger_text(modules=[mod_ok], findings=[fixed]),
+               'check', 0, 'AUTOPILOT-RESULT: ALL_FIXED')
+        expect('human gate keeps items open', good, 'check', 0, 'EMBERI DÖNTÉSRE VÁR: 1 — M0:BIZT-2')
+        expect('deferred disclosed', ledger_text(modules=[mod_ok], findings=[fixed, deferred]), 'check', 0,
+               'következő munka (cél: next-version): 1 — M0:ERT-7')
+        expect('deferred is not all fixed', ledger_text(modules=[mod_ok], findings=[fixed, deferred]), 'check', 0,
+               'AUTOPILOT-RESULT: OPEN_ITEMS_REMAIN')
+        expect('deferred without decision and target', ledger_text(modules=[mod_ok], findings=[
+            deferred[:5] + ('POST-PILOT',)]), 'check', 1, 'döntés: <hely>; cél:')
+        nv = {'Változat': 'next-version', 'Felhatalmazás': 'next-version: projektgazda, 2026-10-11, szó szerint …'}
+        expect('next-version rejects freeze deferral', ledger_text(nv, [mod_ok], [], [deferred]),
+               'check', 1, 'pilot-freeze nem halasztási ok')
+        expect('next-version keeps other owner deferrals', ledger_text(nv, [mod_ok], [], [
+            deferred[:5] + ('döntés: D-7 (projektgazda, 2026-10-04); cél: v3',)]), 'check', 0, 'cél: v3')
+        expect('next-version needs authorization', ledger_text({'Változat': 'next-version'}, [mod_ok]),
+               'check', 1, 'Felhatalmazás')
+        expect('unknown variant', ledger_text({'Változat': 'beta'}, [mod_ok]), 'validate', 1, 'Változat')
         expect('qa without verdicts', ledger_text({'Záró QA': '`abc1234`'}, [mod_ok]), 'check', 1, 'Záró QA')
         expect('unknown state', ledger_text(modules=[mod_ok], findings=[fixed[:4] + ('DONE', 'x')]),
                'validate', 1, 'ismeretlen állapot')
@@ -342,11 +448,11 @@ def selftest() -> int:
         expect('escaped pipe', ledger_text(modules=[mod_ok], findings=[
             fixed[:5] + ('def5678 a \\| b',)]), 'check', 0)
         none = ledger_text({'Állapot': 'NONE', 'Záró QA': '—'},
-                           [('M0', 'PENDING', '—', '—', 'PENDING', '—', 'review')])
+                           [('M0', 'PENDING', '—', '—', '—', 'PENDING', '—', 'review')])
         expect('template validates', none, 'validate', 0, 'VALID')
         expect('template next', none, 'next', 0, 'PREFLIGHT')
         active = ledger_text({'Állapot': 'ACTIVE', 'Záró QA': '—'},
-                             [mod_ok, ('M1', 'REVIEWING', '—', '—', 'PENDING', '—', 'verifier 2/3')],
+                             [mod_ok, ('M1', 'REVIEWING', '—', '—', '—', 'PENDING', '—', 'verifier 2/3')],
                              [], [fixed])
         expect('next review', active, 'next', 0, 'REVIEW M1')
         active2 = ledger_text({'Állapot': 'ACTIVE', 'Záró QA': '—'}, [mod_ok],

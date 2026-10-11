@@ -1,13 +1,18 @@
 ---
 name: course-autopilot
 description: Autonóm kurzusvéglegesítés a teljes vagy megadott modulkörre (M0–M7 + Z) — PREFLIGHT → INVENTORY → REVIEW → VERIFY → TRIAGE → FIX → REGRESSION → FINAL QA → REPORT, tartós ledgerrel (01 Fejlesztés/04 Audit/AUTOPILOT-LEDGER.md), megszakítás és tömörítés után folytatható. A meglévő skilleket hívja (/course-review, /course-fix, /hungarian-edit, /release-check); emberi döntést nem hoz, hanem pontosan rögzít, és a független munkával folytatja. Használd több modul vagy a teljes tananyag véglegesítésénél, és egy félbeszakadt autopilot-futás folytatásánál (resume).
-argument-hint: <M0-Z | M2,M5 | resume> [--lens pedagogy,assessment,language,safety,implementation|all] [--review-only]
+argument-hint: <M0-Z | M2,M5 | resume> [--lens pedagogy,assessment,language,safety,implementation|all] [--review-only] [--next-version]
 ---
 
 # Course autopilot
 
-Feladat: `$ARGUMENTS` (alapértelmezett lencsék: `pedagogy,assessment,implementation,safety`;
-`--review-only`: nincs javítás).
+Feladat: `$ARGUMENTS`
+
+- **Lencsék:** alapértelmezés mind az öt (`pedagogy,assessment,language,safety,implementation`);
+  a teljes kurzus véglegesítése (`M0-Z`) mindig mind az öttel fut. Szűkebb `--lens` csak részleges,
+  kifejezetten így kért futásnál; a jelentés ilyenkor kimondja, mely lencsék maradtak ki.
+- `--review-only`: nincs javítás.
+- `--next-version`: lásd a 4. pontot — csak a projektgazda szó szerint idézett felhatalmazásával.
 
 ## Állandó szabályok — a futás végéig, tömörítés után is
 
@@ -48,12 +53,23 @@ Feladat: `$ARGUMENTS` (alapértelmezett lencsék: `pedagogy,assessment,implement
      újraellenőrizve: `PRECONDITION` csak az, ami ennek a scope-nak a futását blokkolja; a scope-on
      kívüli nyitott tétel `HUMAN_DECISION`-ként marad. Nyitott `PRECONDITION` mellett a futás nem
      indul: jelentés, megállás.
-3. Ha a HEAD a `main`: `git switch -c autopilot/<Run-ID>` (önálló hívás).
+3. Ha a HEAD a `main`: `git switch -c autopilot/<Run-ID>` (önálló hívás); `next-version`
+   változatnál `git switch -c next-version/<Run-ID>`.
 4. **Korlátok a kánonból, minden futásnál újra:** a lezárt freeze-, pilot- és scope-döntések
    (`Emberi jóváhagyás szükséges.md` datált szakaszai, `04 Audit` döntési jegyzőkönyvek). Ma ilyen
-   az M0+M1 pilot-freeze (2026-10-05; a pilot 2026-10-10 óta fut): ott csak a freeze-kivétel
-   (P0 biztonsági, adatvédelmi, hozzáférhetőségi vagy előrehaladást blokkoló hiba) javítható, a
-   többi `OWNER_DEFERRED` (POST-PILOT). Ha a kánon azóta mást mond, az érvényes.
+   az M0+M1 pilot-freeze (2026-10-05; a pilot 2026-10-10 óta fut). Ha a kánon azóta mást mond, az
+   érvényes.
+   - **`pilot` változat (alapértelmezés):** a befagyasztott modulban csak a freeze-kivétel (P0
+     biztonsági, adatvédelmi, hozzáférhetőségi vagy előrehaladást blokkoló hiba) javítható, a többi
+     `OWNER_DEFERRED` (`döntés: <a freeze helye>; cél: next-version`).
+   - **`next-version` változat:** csak ha az indító üzenet a projektgazda kifejezett felhatalmazását
+     tartalmazza a következő kurzusváltozat véglegesítésére; ezt szó szerint a `Felhatalmazás` sorba
+     írod, `Változat: next-version`. Nélküle a kérés `PRECONDITION`, nem találod ki. Ebben a
+     változatban a POST-PILOT besorolású, validált objektív findingok javíthatók (`OPEN`), külön
+     ágon; a futó pilot nem változik, mert az ág a pilot-vonalba csak a projektgazda döntésével
+     kerülhet (VÉDETT). Lezárt döntést itt sem nyitsz újra; ami új szakpolitikai, jogi, adatvédelmi
+     vagy értékelési döntést kívánna, az itt is `BLOCKED_HUMAN`; a pilot-freeze nem halasztási ok
+     (a ledger-ellenőrző elutasítja), más lezárt projektgazdai halasztás igen.
 5. Kiinduló gépi állapot a Napló első sorába: `python3 tools/content_integrity.py` és a
    `--release-report` két verdikt-sora. Piros kiindulás → a javítása az első tétel.
 6. Commit (`git add` a ledgerre, `git commit -F <$TMPDIR-fájl>`): `audit(autopilot): <Run-ID> start`.
@@ -71,7 +87,11 @@ Modulonként:
   POST-PILOT) együtt;
 - Review: nincs változás a bázis óta, és a kért lencsék lefutottak → `REUSED`; csak egyes fájlok
   változtak → a `/course-review` csak azokra fut, és azok régi findingjai `NEEDS_RECHECK`; nincs
-  riport vagy hiányzik egy lencse → `PENDING`.
+  riport → `PENDING`; **hiányzik egy lencse** (pl. a B sávos M0/M1 riportban nem futott a
+  `language`) → `PENDING`, és a `/course-review` csak a hiányzó lencsével fut, a régi riport többi
+  része érvényes marad.
+- `Lencsék` oszlop: csak a riportok fejléce szerint ténylegesen lefutott lencse kerül bele; egy
+  kért, de le nem futott lencsét soha nem írsz be.
 
 Nagy riport kivonatolását read-only ügynökre bízhatod (kimenete: kész ledger-sorok); a beírás a te
 `Edit`-ed, utána `python3 tools/autopilot_ledger.py validate`.
@@ -90,7 +110,8 @@ A validált findingok a ledgerbe, a 2. pont szabályai szerint, és még:
 - `objektív`, de a javítása új pedagógiai tartalmat írna (új lecke, peula, feladat) →
   `BLOCKED_HUMAN` (`/course-develop`, a terv projektgazdai jóváhagyásával);
 - `objektív`, de a javítási korlát egy nyitott döntéstől függ → `BLOCKED_HUMAN`, a döntési igénnyel;
-- freeze alá esik, és nem freeze-kivétel → `OWNER_DEFERRED`;
+- `pilot` változatban freeze alá esik, és nem freeze-kivétel → `OWNER_DEFERRED`
+  (`döntés: …; cél: next-version`); `next-version` változatban ugyanez `OPEN`;
 - minden `BLOCKED_HUMAN` és `EVIDENCE_GATE` egy Külső kapu sorhoz tartozik (új vagy meglévő): mit
   kell eldönteni vagy bizonyítani, kinek, mely findingokat old fel.
 
@@ -122,15 +143,23 @@ A validált findingok a ledgerbe, a 2. pont szabályai szerint, és még:
 2. `Záró QA`: a release-check alatti commit és a két verdikt-sor szó szerint; `Állapot: FINISHED`;
    ledger-commit.
 3. `python3 tools/autopilot_ledger.py check` — **csak** `AUTOPILOT-LEDGER: TERMINAL` és 0-s
-   kilépési kód esetén kész; különben a kiírt okok a következő tételek.
+   kilépési kód esetén kész; különben a kiírt okok a következő tételek. A `TERMINAL` nem „minden
+   hiba javítva”: azt csak az `AUTOPILOT-RESULT: ALL_FIXED` mondja.
 
 ## 8. REPORT
 
-Rövid jelentés a ledgerre hivatkozva: modulonként review- és javítás-állapot, commitok; a
-`BLOCKED_HUMAN` / `EVIDENCE_GATE` tételek és Külső kapuk döntési igényként (mit, kitől, mely
-findingokat old fel); vétólista (answer key, küszöb, rubrika, gyermekvédelmi/adatvédelmi
-megfogalmazás: fájl:sor, előtte/utána, bizonyíték); a két verdikt-sor és a `check` kimenete. A
-`READY_FOR_STAGING_BUILD` és a `READY_FOR_CONTROLLED_PILOT` sem release-jóváhagyás.
+Rövid jelentés a ledgerre hivatkozva, három elkülönített résszel:
+1. **Elvégezve és igazolva:** modulonként review (a lefutott lencsékkel) és javítás, commitok.
+2. **Projektgazdai döntéssel halasztva:** az `AUTOPILOT-RESULT` sor és a halasztott tételek
+   **teljes** kulcslistája szó szerint, a döntés helyével és a célváltozattal — ezek hibák, amelyek
+   megmaradnak.
+3. **Nyitva, a következő munkához:** a `BLOCKED_HUMAN` / `EVIDENCE_GATE` / `NOT_AUTHORIZED` tételek
+   és Külső kapuk döntési igényként (mit, kitől, mely findingokat old fel).
+
+Ezen felül: vétólista (answer key, küszöb, rubrika, gyermekvédelmi/adatvédelmi megfogalmazás:
+fájl:sor, előtte/utána, bizonyíték); a két verdikt-sor és a `check` kimenete. „Minden hiba javítva”
+csak `ALL_FIXED` mellett írható. A `READY_FOR_STAGING_BUILD` és a `READY_FOR_CONTROLLED_PILOT` sem
+release-jóváhagyás.
 
 ## Indítás, `/goal`, folytatás
 
@@ -142,7 +171,7 @@ terminálban nem érvényes; a flag vagy a felhasználói settings igen):
 A sessionben egyetlen sor (a `/goal` minden kör után külön modellel ellenőrzi a feltételt, és amíg
 nem teljesül, új kört indít; a háttérben futó ügynökök alatt az ellenőrzés vár):
 
-    /goal Futtasd a /course-autopilot M0-Z futást, és folytasd, amíg a transzkriptben a `python3 tools/autopilot_ledger.py check` legutóbbi futása `AUTOPILOT-LEDGER: TERMINAL` sort és 0-s kilépési kódot mutat, a legutóbbi /release-check riport 0 objektív hibát jelent és mindkét verdikt-sort szó szerint idézi, és a `git status --short` üres. Közben nincs push, PR, merge vagy governance-módosítás, és emberi döntést nem implementálsz. Ha nyitott PRECONDITION miatt a futás nem indulhat, vagy ugyanaz a lépés háromszor egymás után elbukik, állj meg, és jelentsd az okát; legfeljebb 200 kör.
+    /goal Futtasd a /course-autopilot M0-Z futást mind az öt lencsével, és folytasd, amíg a transzkriptben a `python3 tools/autopilot_ledger.py check` legutóbbi futása `AUTOPILOT-LEDGER: TERMINAL` sort és 0-s kilépési kódot mutat, a záró jelentés szó szerint idézi az `AUTOPILOT-RESULT` sort és alatta minden halasztott és nyitott tétel kulcsát, a legutóbbi /release-check riport 0 objektív hibát jelent és mindkét verdikt-sort szó szerint idézi, és a `git status --short` üres. Közben nincs push, PR, merge vagy governance-módosítás, és emberi döntést nem implementálsz. Ha nyitott PRECONDITION miatt a futás nem indulhat, vagy ugyanaz a lépés háromszor egymás után elbukik, állj meg, és jelentsd az okát; legfeljebb 200 kör.
 
 Folytatás: `claude --continue` (a `/goal` visszaáll), vagy új sessionben `/course-autopilot resume`.
 Nem interaktív futás: `claude -p --permission-mode auto --permission-prompts none "/goal …"` — ott

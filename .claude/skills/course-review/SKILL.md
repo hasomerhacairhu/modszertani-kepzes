@@ -108,8 +108,9 @@ repó-relatívra rövidíted; privát repónév és hangnév nem kerülhet bele.
 ## 7. Riport (I. rész) — csonkítás nélkül
 
 Sorrend `P0` → `P3`, ezen belül lencse szerint. A fájlban nincs darabszám-korlát:
-1. **Scope és lencsék** — mit néztünk meg, mit nem, miért; kimaradt kötelező vagy hiányos lencse;
-   újrahasznosított rész; read-only bizonyíték (0. pont).
+1. **Scope és lencsék** — mit néztünk meg, mit nem, miért; a **ténylegesen lefutott** lencsék (ezt
+   veszi át a ledger `Lencsék` oszlopa; kért, de le nem futott lencse nem lefedettség); kimaradt
+   kötelező vagy hiányos lencse; újrahasznosított rész; read-only bizonyíték (0. pont).
 2. **Validált objektív findingok** (`MEGERŐSÍTVE` + `objektív`): ID (összevont duplikátumokkal),
    súly, hely, probléma, javítás és javítási korlát — a bizonyíték-idézet a C. mellékletben.
 3. **Emberi döntést igénylő tételek** — javasolt szöveg nélkül: mit kell eldönteni, kinek.

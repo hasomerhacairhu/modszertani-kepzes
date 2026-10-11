@@ -16,6 +16,7 @@
 |---|---|
 | Run-ID | — |
 | Állapot | NONE |
+| Változat | pilot |
 | Scope | — |
 | Lencsék | — |
 | Felhatalmazás | — |
@@ -27,17 +28,17 @@
 
 ## Modulok
 
-| Modul | Review | Riport | Review-bázis | Javítás | Bizonyíték | Következő lépés |
-|---|---|---|---|---|---|---|
-| M0 | PENDING | `2026-10-10 Validált findingok – M0 course-review, B sáv.md` | 82d0c7c | PENDING | — | INVENTORY: REUSE-ellenőrzés (lencsék: pedagógia, értékelés, implementáció, biztonság-jog) |
-| M1 | PENDING | `2026-10-10 Validált findingok – M1 course-review, B sáv.md` | 82d0c7c | PENDING | — | INVENTORY: REUSE-ellenőrzés; az N-M1-04 átvezetése után a változott M1-fájlok NEEDS_RECHECK |
-| M2 | PENDING | — | — | PENDING | — | review |
-| M3 | PENDING | — | — | PENDING | — | review |
-| M4 | PENDING | — | — | PENDING | — | review |
-| M5 | PENDING | — | — | PENDING | — | review |
-| M6 | PENDING | — | — | PENDING | — | review (a 2026-10-04-i M6 nyelvi review lezárva, PR #19 — csak a nyelvi lencsére újrahasznosítható) |
-| M7 | PENDING | — | — | PENDING | — | review |
-| Z | PENDING | — | — | PENDING | — | review |
+| Modul | Review | Lencsék | Riport | Review-bázis | Javítás | Bizonyíték | Következő lépés |
+|---|---|---|---|---|---|---|---|
+| M0 | PENDING | pedagogy,assessment,implementation,safety | `2026-10-10 Validált findingok – M0 course-review, B sáv.md` | 82d0c7c | PENDING | — | INVENTORY: REUSE-ellenőrzés a négy lefutott lencsére; a `language` lencse **nem futott** — teljes futásnál csak az indul |
+| M1 | PENDING | pedagogy,assessment,implementation,safety | `2026-10-10 Validált findingok – M1 course-review, B sáv.md` | 82d0c7c | PENDING | — | INVENTORY: REUSE-ellenőrzés a négy lencsére; a `language` lencse **nem futott**; az N-M1-04 átvezetése után a változott M1-fájlok NEEDS_RECHECK |
+| M2 | PENDING | — | — | — | PENDING | — | review |
+| M3 | PENDING | — | — | — | PENDING | — | review |
+| M4 | PENDING | — | — | — | PENDING | — | review |
+| M5 | PENDING | — | — | — | PENDING | — | review |
+| M6 | PENDING | — | — | — | PENDING | — | review — a 2026-10-04-i M6 nyelvi review (régi formátum) után a modul változott (PR #19), ezért lefedettséget nem ad |
+| M7 | PENDING | — | — | — | PENDING | — | review |
+| Z | PENDING | — | — | — | PENDING | — | review |
 
 ## Külső kapuk
 

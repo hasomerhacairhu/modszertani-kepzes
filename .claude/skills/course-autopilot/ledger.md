@@ -11,21 +11,28 @@ Cellában `|` csak `\|` alakban állhat. Üres érték: `—`.
 ## Futás — `| Kulcs | Érték |`
 
 Kötelező kulcsok: `Run-ID` (`AP-<ÉÉÉÉ-HH-NN>-<nn>`), `Állapot` (`NONE` · `ACTIVE` · `FINISHED`),
-`Scope`, `Lencsék`, `Felhatalmazás` (pl. `fix: igen; commit: helyi munkaágon; push/PR: nem`),
-`Munkaág`, `Bázis-commit`, `Indítva`, `Záró QA`. További kulcs megengedett (pl. `Korlátok`).
+`Scope`, `Lencsék` (`pedagogy`, `assessment`, `language`, `safety`, `implementation` vesszővel, vagy
+`all`), `Felhatalmazás` (pl. `fix: igen; commit: helyi munkaágon; push/PR: nem`), `Munkaág`,
+`Bázis-commit`, `Indítva`, `Záró QA`. `Változat`: `pilot` (alapértelmezés: a futó pilotot védő
+freeze érvényes) vagy `next-version` (csak a projektgazda szó szerint idézett felhatalmazásával, a
+`Felhatalmazás` sorban). További kulcs megengedett (pl. `Korlátok`).
 
 `Záró QA` = a záró `/release-check` alatti commit és a két verdikt-sor szó szerint:
 `` `<sha>` · content_integrity: 0 ERROR · MOODLE-BUILD-VERDICT: … · LEARNER-RELEASE-VERDICT: … ``.
 
-## Modulok — `| Modul | Review | Riport | Review-bázis | Javítás | Bizonyíték | Következő lépés |`
+## Modulok — `| Modul | Review | Lencsék | Riport | Review-bázis | Javítás | Bizonyíték | Következő lépés |`
 
 | Mező | Nyitott | Lezárt |
 |---|---|---|
 | Review | `PENDING` · `REVIEWING` · `RAW_SAVED` | `VERIFIED` · `REUSED` · `SKIPPED` |
 | Javítás | `PENDING` · `FIXING` | `DONE` · `NONE_NEEDED` · `NOT_AUTHORIZED` |
 
-- `VERIFIED` / `REUSED`: a `Riport` egy létező `04 Audit` fájlnév backtickben, a `Review-bázis` a
-  review alatti commit. `SKIPPED`: indoklás a `Következő lépés`-ben.
+- `Lencsék`: a modulra **ténylegesen lefutott** lencsék, a riportok fejléce szerint — nem a kért
+  lencsék. `VERIFIED` / `REUSED` csak akkor, ha ez lefedi a futás `Lencsék` sorát; egy hiányzó
+  lencse (pl. a `language` egy régi, négylencsés riport mellett) csak önmagában fut le, és a modul
+  addig nem lezárt.
+- `VERIFIED` / `REUSED`: a `Riport` egy vagy több létező `04 Audit` fájlnév backtickben, `;`-vel
+  elválasztva, a `Review-bázis` a review alatti commit. `SKIPPED`: indoklás a `Következő lépés`-ben.
 - `DONE`: a `Bizonyíték` megnevezi a javító commitot és a célzott ellenőrzés eredményét.
   `NONE_NEEDED` / `NOT_AUTHORIZED`: a `Bizonyíték` az indoklás.
 - `Következő lépés`: a pontos folytatás (pl. `verifier 2/3: M3:IMPL-4…M3:IMPL-9`), lezárt modulnál `—`.
@@ -53,7 +60,7 @@ Típus `objektív` · `emberi-döntés` · `bizonyíték-kapu`; Verdikt `MEGERŐ
 | `DUPLICATE` | a verifier összevonta | `= <megtartott kulcs>` |
 | `BLOCKED_HUMAN` | új emberi döntés kell; nem implementálod | `EMBERI DÖNTÉS: <mit, kitől, milyen bizonyítékkal>` |
 | `EVIDENCE_GATE` | `bizonyíték-kapu`: szerepköri vagy runtime-bizonyíték hiányzik | szerep, G-kapu |
-| `OWNER_DEFERRED` | lezárt projektgazdai döntés halasztja (pl. freeze → POST-PILOT) | a döntés helye |
+| `OWNER_DEFERRED` | lezárt projektgazdai döntés halasztja (pl. pilot-freeze → POST-PILOT); a hiba **megmarad** | `döntés: <hely>; cél: <változat>`, pl. `döntés: HUM 11. szakasz, pilot-freeze; cél: next-version` |
 | `NOT_AUTHORIZED` | a futás nem kapott javítási felhatalmazást | a Felhatalmazás sor |
 
 Egy `NEEDS_RECHECK` egyszer kap célzott újraellenőrzést (a lencse-reviewer a jelenlegi szövegre);
@@ -66,6 +73,13 @@ commit-tal; nincs nyitott `PRECONDITION`; minden finding lezárt, a fenti bizony
 `Záró QA` commitja létezik, azóta a `02 Tervezet/` és a `tools/` nem változott, nincs alatta nem
 követett fájl, és a `content_integrity.py` 0-val lép ki. A `next` a következő folytatható lépést
 írja ki (`AUTOPILOT-NEXT: …`).
+
+**A `TERMINAL` nem azt jelenti, hogy minden hiba javítva**, hanem hogy minden tétel igazolt
+végállapotban van. Az eredményt a következő sor mondja meg, és a riport szó szerint idézi:
+`AUTOPILOT-RESULT: ALL_FIXED` csak akkor, ha nincs `OWNER_DEFERRED`, `BLOCKED_HUMAN`,
+`EVIDENCE_GATE` vagy `NOT_AUTHORIZED` tétel; különben `OPEN_ITEMS_REMAIN`, és alatta osztályonként
+(javítva · nem hiba · halasztva · emberi döntésre vár · bizonyítékra vár · nem engedélyezett) a
+darabszám, a nyitott osztályoknál **minden kulcs**, a halasztottaknál célváltozatonként is.
 
 ## Napló — szabad formájú, nem ellenőrzött
 
