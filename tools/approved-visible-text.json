@@ -161,36 +161,36 @@
       "sha256": "43e59a52bd9e1348588fcced3d997d40927d0ef9c40814d266b1a329cd23840c"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
-      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "441d73dbd40694f4218352ca2b0923f43c7e347682c957b249ef93cf1e31274a"
+      "reason": "M4:QA-ERT-1, M4:QA-IMPL-1, M4:QA-IMPL-2, M4:QA-IMPL-3, M4:QA-NYELV-1, M4:QA-NYELV-4: a 4119d16 célzott QA-jának validált javításai",
+      "sha256": "e8a05cb71c3b272a91c1327ab11e7874984a6d324a10d917085584df3d3e55fb"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
-      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "62f197ee9ed028fc4fe245ba90dc2ae855a785c23769fc9ae45500072d820dd8"
+      "reason": "M4:QA-ERT-1, M4:QA-IMPL-1, M4:QA-IMPL-2, M4:QA-IMPL-3, M4:QA-NYELV-1, M4:QA-NYELV-4: a 4119d16 célzott QA-jának validált javításai",
+      "sha256": "bb586d76c22640a70ba80f5e5406cb66f6a718f1c06d83539117d4c0a31dda56"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
       "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
       "sha256": "ecf99a93124af22ed70ad24602ce79b493a82732a6822236f0a61683f762fafe"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md": {
-      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "bc5da548ae53a14ab6448ee7d87b0aa6bc7514f37543a22d30a3e7f5c5069162"
+      "reason": "M4:QA-ERT-1, M4:QA-IMPL-1, M4:QA-IMPL-2, M4:QA-IMPL-3, M4:QA-NYELV-1, M4:QA-NYELV-4: a 4119d16 célzott QA-jának validált javításai",
+      "sha256": "48a11a12a9232ae69fb09268db5ad35706f8373c87c2605b39b5e409f8764643"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
-      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "35aa3cccab47a83f8614daeae6997e6f2c31ef9d5c66451e1a897a5375e4b8f8"
+      "reason": "M4:QA-ERT-1, M4:QA-IMPL-1, M4:QA-IMPL-2, M4:QA-IMPL-3, M4:QA-NYELV-1, M4:QA-NYELV-4: a 4119d16 célzott QA-jának validált javításai",
+      "sha256": "42295863a59b0ba6d838a38817ae6fccce4d86d0f3c2e6e44b36f4ffd5c57767"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
-      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "efd767cf8f8acd92c2aaa707abd78e57eb11ec13627c1080404e95c463fb3e2c"
+      "reason": "M4:QA-ERT-1, M4:QA-IMPL-1, M4:QA-IMPL-2, M4:QA-IMPL-3, M4:QA-NYELV-1, M4:QA-NYELV-4: a 4119d16 célzott QA-jának validált javításai",
+      "sha256": "70570a113fa67021e9db5fe90594faf92e47702a5ff8a1f77125d456009bbc20"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md": {
-      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "b3756d950cf9ec7e2e87dde3eec9216fe4431eec9378df249d9515b5217c0c64"
+      "reason": "M4:QA-ERT-1, M4:QA-IMPL-1, M4:QA-IMPL-2, M4:QA-IMPL-3, M4:QA-NYELV-1, M4:QA-NYELV-4: a 4119d16 célzott QA-jának validált javításai",
+      "sha256": "feed75734474af23b6ebb2e492b965f58b410bfe708bdeb6e88f2174aa57620f"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md": {
-      "reason": "M4:PED-G1-2.obj, PED-G2-3, PED-G2-8, PED-G2-10, ERT-G1-2, ERT-G1-6.obj, ERT-G2-3, ERT-G2-5, IMPL-G1-1, IMPL-G1-2, IMPL-G1-3, IMPL-G1-6.obj, IMPL-G1-7, IMPL-G1-8, IMPL-G1-11, IMPL-G2-1, IMPL-G2-5, IMPL-G2-6, IMPL-G2-7, IMPL-G2-8, IMPL-G2-10, IMPL-G2-11, BIZT-G2-3, BIZT-G2-4, NYELV-G1-2, NYELV-G1-6, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G2-1, NYELV-G2-3, NYELV-G2-7, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G2-14: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "3759d6a8fbcbd26da4d366103b89c87987c87bcc4ba21325c9e2aebb0b4328e9"
+      "reason": "M4:QA-ERT-1, M4:QA-IMPL-1, M4:QA-IMPL-2, M4:QA-IMPL-3, M4:QA-NYELV-1, M4:QA-NYELV-4: a 4119d16 célzott QA-jának validált javításai",
+      "sha256": "5a68b0ac4fb0a2707882d1551dc73a1584af0d8f955a9581c31c312e8b44f127"
     },
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
       "reason": "M5:PED-G2-1, BIZT-G2-6, PED-G1-4.obj, PED-G1-7, PED-G1-8, PED-G1-11, PED-G2-3, PED-G2-4, PED-G2-5, PED-G2-6.obj, PED-G2-13, ERT-G1-3, ERT-G1-5, ERT-G2-1, ERT-G2-5, ERT-G2-7, IMPL-G1-2, IMPL-G1-3, IMPL-G1-5, IMPL-G1-6, IMPL-G1-7, IMPL-G1-10, IMPL-G1-12, IMPL-G2-3, IMPL-G2-5, IMPL-G2-6, IMPL-G2-10, IMPL-G2-11, IMPL-G2-12, BIZT-G1-3, BIZT-G2-3, NYELV-G1-1, NYELV-G1-2, NYELV-G1-4, NYELV-G1-5, NYELV-G1-6, NYELV-G1-8, NYELV-G1-14, NYELV-G2-3, NYELV-G2-6, NYELV-G2-7, NYELV-G2-9, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13: validált objektív javítások, AP-2026-10-11-01",
