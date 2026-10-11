@@ -1476,8 +1476,8 @@
       "unit": "M0.3",
       "module": "M0",
       "file_kind": "online-lecke",
-      "text": "* **Alt-szöveg (kötelező, a végleges képernyőkép alapján pontosítandó):** „A Moodle-kurzus főoldala. A modulok fentről lefelé sorban: M0, M1, M2, …, M7, Z. Minden modul címe mellett pipa jelzi a befejezett elemeket.”",
-      "hash": "3e1b01ac8787031a0e2b5ab8b41084dfecc3b5e80c2ffbd4a41464f751447f77",
+      "text": "* **Alt-szöveg (kötelező, a végleges képernyőkép alapján pontosítandó):** „A Moodle-kurzus főoldala. A modulok fentről lefelé sorban: M0, M1, M2, …, M7, Z. A leckék és feladatok mellett pipa jelzi a befejezett elemeket.”",
+      "hash": "d89e523e44ca0f740193f5adde0415ffea51b49ed116200dd3592af5c8d32586",
       "note": "",
       "for": "",
       "used_by": [
@@ -4502,9 +4502,9 @@
       "source_text": "",
       "source_hash": "",
       "alt_source_ref": "M0.3-FOTO-01-ALT#1",
-      "alt_text": "A Moodle-kurzus főoldala. A modulok fentről lefelé sorban: M0, M1, M2, …, M7, Z. Minden modul címe mellett pipa jelzi a befejezett elemeket.",
-      "alt_hash": "38db195cdbe6d20da43c530e8ca8ae6ada88b93448eaa43b32fb622993b0bb04",
-      "copy_hash": "38db195cdbe6d20da43c530e8ca8ae6ada88b93448eaa43b32fb622993b0bb04",
+      "alt_text": "A Moodle-kurzus főoldala. A modulok fentről lefelé sorban: M0, M1, M2, …, M7, Z. A leckék és feladatok mellett pipa jelzi a befejezett elemeket.",
+      "alt_hash": "df0c1bac207456b2a6c502f5df7b4b73703569d28acfd693dd985c8daafadee6",
+      "copy_hash": "df0c1bac207456b2a6c502f5df7b4b73703569d28acfd693dd985c8daafadee6",
       "spec_hash": "f65573b5f7c2e863420856f0a8c7b56d86003b4c7ec262ee3a7c2e963dd2eae9",
       "deliverable_ids": [
         "M0.3-FOTO-01",
@@ -31993,8 +31993,8 @@
       "status": "pending-rights",
       "provenance": "human",
       "source_id": "M0.3-FOTO-01-ALT",
-      "text": "A Moodle-kurzus főoldala. A modulok fentről lefelé sorban: M0, M1, M2, …, M7, Z. Minden modul címe mellett pipa jelzi a befejezett elemeket.",
-      "text_hash": "38db195cdbe6d20da43c530e8ca8ae6ada88b93448eaa43b32fb622993b0bb04",
+      "text": "A Moodle-kurzus főoldala. A modulok fentről lefelé sorban: M0, M1, M2, …, M7, Z. A leckék és feladatok mellett pipa jelzi a befejezett elemeket.",
+      "text_hash": "df0c1bac207456b2a6c502f5df7b4b73703569d28acfd693dd985c8daafadee6",
       "blockers": [
         "R7",
         "R8"
