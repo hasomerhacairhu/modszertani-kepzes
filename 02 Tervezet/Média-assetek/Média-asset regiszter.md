@@ -152,9 +152,9 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M0.A-EGY-01` | other | legyártandó | specifikáció kész | Zárókör induló-szavainak rögzítése (képzői jegyzet a Z.A-hoz) | — | — | emberi |
+| `M0.A-EGY-01` | other | legyártandó | specifikáció kész | Zárókör indulószavainak rögzítése (képzői jegyzet a Z.A-hoz) | — | — | emberi |
 | `M0.A-FOTO-01` | photo | legyártandó | jogtisztázás alatt | Kvuca-plakátok archív fotói (Z.A modulhoz) | — | alt-szöveg | emberi |
-| `M0.A-KART-01` | card-set | legyártandó | specifikáció kész | Red-flag mini-protokoll kártya a képzőnek | — | nyomtatható PDF | vegyes |
+| `M0.A-KART-01` | card-set | legyártandó | specifikáció kész | Red-flag miniprotokoll kártya a képzőnek | — | nyomtatható PDF | vegyes |
 | `M0.A-KART-02` | card-set | legyártandó | specifikáció kész | Képzői kártya biztonsági mondatokkal | — | nyomtatható PDF | vegyes |
 | `M0.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Kvuca-plakát 3 rubrikás sablon (Mit várok / Mitől félek / Mit hozok) | — | nyomtatható PDF | vegyes |
 | `M0.A-MUNK-02` | worksheet | legyártandó | specifikáció kész | Kilépőkártya – 2 kérdéses sablon | — | nyomtatható PDF | vegyes |

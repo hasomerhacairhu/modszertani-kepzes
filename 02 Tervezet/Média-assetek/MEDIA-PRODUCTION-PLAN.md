@@ -250,7 +250,7 @@ _Üres._
 
 | Asset | Típus | Deliverable | Kapuk | Cím |
 |---|---|---:|---|---|
-| `M0.A-EGY-01` | other | 1 | — | Zárókör induló-szavainak rögzítése (képzői jegyzet a Z.A-hoz) |
+| `M0.A-EGY-01` | other | 1 | — | Zárókör indulószavainak rögzítése (képzői jegyzet a Z.A-hoz) |
 | `M0.A-FOTO-01` | photo | 2 | R8 | Kvuca-plakátok archív fotói (Z.A modulhoz) |
 | `Z.A-KART-04` | card-set | 2 | — | M0-tükör név nélküli idézet-kártyák (M0.A kickoff visszakötés) |
 
