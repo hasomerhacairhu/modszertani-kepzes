@@ -30,7 +30,7 @@
 
 | Modul | Review | Lencsék | Riport | Review-bázis | Javítás | Bizonyíték | Következő lépés |
 |---|---|---|---|---|---|---|---|
-| M0 | PENDING | pedagogy,assessment,implementation,safety | `2026-10-10 Validált findingok – M0 course-review, B sáv.md` | 82d0c7c | PENDING | — | REVIEW: csak a hiányzó `language` lencse (`/course-review M0 --lens language --run AP-2026-10-11-01`); a négy lefutott lencse REUSED (M0 a 82d0c7c óta nem változott) |
+| M0 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M0 course-review, B sáv.md`; `2026-10-11 Validált findingok – M0, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | PENDING | — | FIX (a review-fázis után) |
 | M1 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M1 course-review, B sáv.md`; `2026-10-11 Validált findingok – M1, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | PENDING | — | RECHECK (12 NEEDS_RECHECK), majd FIX |
 | M2 | PENDING | — | — | — | PENDING | — | REVIEW: öt lencse, teljes modul |
 | M3 | PENDING | — | — | — | PENDING | — | REVIEW: öt lencse, teljes modul |
@@ -49,13 +49,13 @@
 | X-3 | HUMAN_DECISION | Az Anna-megfeleltetés és a 2026-10-10-i döntési jegyzőkönyv a mainen | RESOLVED 2026-10-11: PR #28 mergelve, `0c7e299` (`695e5e4` a `main` őse). A CC-04/CC-06 HUM-átvezetése innen objektív tétel: `M0:ERT-8`, `M1:IMPL-G1-2` | RESOLVED |
 | X-4 | HUMAN_DECISION | Adatkör, megőrzés, hozzáférés — DPO-döntések | DPO / jogi felelős: `M0:BIZT-7` (a bemutatkozó fórum megőrzési sora és tájékoztatója; a Program terv :228 szerint addig adatgyűjtő activity nem nyitható meg); `M1:BIZT-G2-4` (ASSIGN-M csoportszűkítés, szerkesztő tanári/menedzseri hozzáférés); `M1:IMPL-G1-5` (M1.1 SLIDE 1–2 választós tartalékútjának rögzítése); `M1:BIZT-G3-8` (M1.A Johari-cetlik sorsa, a tábla fotózása); DPO-vétó vagy -rész még: `M1:BIZT-G2-1`, `M1:BIZT-G2-6`, `M1:BIZT-G3-5`, `M1:ERT-G1-3`, `M1:ERT-G2-4`, `M1:IMPL-G2-10`, `M0:PED-8` | OPEN |
 | X-5 | HUMAN_DECISION | Gyermekvédelmi szabály-alkalmazás (Memuna, HUM-SAFE-02 QA) | Memuna (egyes tételeknél programvezető, DPO, szakmai lektor): `M0:BIZT-3` (SAFE-7 kiterjed-e az M0.4 SLIDE 3 2. helyzetére), `M0:BIZT-5` (csoportchat-szívatás jelzési küszöbe), `M0:BIZT-9` (két felnőtt az M0.A-n), `M0:PED-8` (egyéni utánkövetés a belépőkvíz 1–2. itemén; adatkör: DPO); `M1:BIZT-G1-4` (Memuna-mondat az M1.1 SLIDE 5 írása előtt), `M1:BIZT-G1-7` (kiskorú madrih önfeltárásának határa), `M1:BIZT-G2-10` (egyedi „nagyon nehéz helyzet” szöveg ↔ támogató blokk), `M1:BIZT-G2-6` (feltárást tartalmazó kapubeadvány kezelése), `M1:BIZT-G3-2` (facilitátori minimum a peulákban), `M1:BIZT-G3-5` (anonimizálási korlát szóbeli példákra), `M1:BIZT-G3-9` (Memuna-utalás az M1.B terepi vállalásánál) | OPEN |
-| X-6 | HUMAN_DECISION | Completion- és értékelési jelentésdöntések | projektgazda / build-spec gazda; QA: értékelési felelős, módszertani lektor: `M0:IMPL-3` (H5P-C completion = összefoglaló dia elérése vagy kikényszerített megválaszolás), `M0:ERT-3` (a D-d/D-i pontozatlan-választó elv általános-e); `M1:BIZT-G2-1` (N-1: valós, névtelenített helyzet az LMS-M1-07-ben; DPO-vétó), `M1:PED-G2-1` (az SBI kánoni hossza), `M1:ERT-G2-1` (a kész minta-SBI visszaadásának értékelői szabálya), `M1:ERT-G2-2` (B-sor ↔ hangnem-sor kettős levonás), `M1:IMPL-G2-2` (ASSIGN-M completion, D-h kiterjesztése), `M1:ERT-G2-4` (a KAPU item-bank tanulói activity vagy szerzői pool); `M1:NYELV-G2-4` (KAPU:55 S-„Erős” horgony olvasata; az M1:ERT-G2-5 S-része ettől függ), `M1:NYELV-G2-8` (KAPU:79 zárójel jelentése) | OPEN |
+| X-6 | HUMAN_DECISION | Completion- és értékelési jelentésdöntések | projektgazda / build-spec gazda; QA: értékelési felelős, módszertani lektor: `M0:IMPL-3` (H5P-C completion = összefoglaló dia elérése vagy kikényszerített megválaszolás), `M0:ERT-3` (a D-d/D-i pontozatlan-választó elv általános-e); `M1:BIZT-G2-1` (N-1: valós, névtelenített helyzet az LMS-M1-07-ben; DPO-vétó), `M1:PED-G2-1` (az SBI kánoni hossza), `M1:ERT-G2-1` (a kész minta-SBI visszaadásának értékelői szabálya), `M1:ERT-G2-2` (B-sor ↔ hangnem-sor kettős levonás), `M1:IMPL-G2-2` (ASSIGN-M completion, D-h kiterjesztése), `M1:ERT-G2-4` (a KAPU item-bank tanulói activity vagy szerzői pool); `M1:NYELV-G2-4` (KAPU:55 S-„Erős” horgony olvasata; az M1:ERT-G2-5 S-része ettől függ), `M1:NYELV-G2-8` (KAPU:79 zárójel jelentése); `M0:NYELV-G1-14` (a belépőkvíz projektgazdai itemszövegének nyelvi javíthatósága) | OPEN |
 | X-7 | EVIDENCE_GATE | Memuna írásos „átnéztem” bejegyzése (G1) | Memuna, G1 (GK :17, tracker #1): `M0:BIZT-1` | OPEN |
 | X-8 | RUNTIME | Célkörnyezeti Moodle-visszaolvasás | LMS-gazda, G3b/G4b/G8: `M0:IMPL-9` (a „Segítség és kapcsolatok” blokk kitöltése, RT-17, tanulói fiókkal); `M1:BIZT-G1-3` (RT-P0-24, N-M1-04), `M1:ERT-G1-2` (RT-P0-09/-13/-14, M1.1–M1.2 completion/unlock), `M1:BIZT-G2-2` (RT-P0-15 láthatóság), `M1:IMPL-G2-4` (RT-P0-01/-08/-09/-19, „Allowed attempts”) | OPEN |
 | X-9 | SIGNOFF | Értékelési szerepköri QA | értékelési felelős (az 1–2. itemnél Memuna): `M0:ERT-4` (a belépőkvíz projektgazdai itemszövegének utólagos QA-ja; answer key nem változik) | OPEN |
-| X-10 | HUMAN_DECISION | Programszintű és modulszerkezeti döntések | programvezető / modulgazda (egyes tételeknél build-felelős, médiafelelős, DPO): `M1:ERT-G1-3` (a hub 4. kompetenciájának záróreflexiós produktuma), `M1:PED-G1-8` (M1.1→M1.2 visszacsatolás, „4/5” mérés), `M1:PED-G3-9` (hub vagy peulafájl az irányadó), `M1:IMPL-G3-8` (PT:219 „Peulák” / „Extra / F-peula” blokk ↔ manifest, N-M4-07); `M1:NYELV-G2-9` (az SBI-sablon S-rése), `M1:NYELV-G3-16` (M1.A:277 „tedd meg nyugodtan”) | OPEN |
+| X-10 | HUMAN_DECISION | Programszintű és modulszerkezeti döntések | programvezető / modulgazda (egyes tételeknél build-felelős, médiafelelős, DPO): `M1:ERT-G1-3` (a hub 4. kompetenciájának záróreflexiós produktuma), `M1:PED-G1-8` (M1.1→M1.2 visszacsatolás, „4/5” mérés), `M1:PED-G3-9` (hub vagy peulafájl az irányadó), `M1:IMPL-G3-8` (PT:219 „Peulák” / „Extra / F-peula” blokk ↔ manifest, N-M4-07); `M1:NYELV-G2-9` (az SBI-sablon S-rése), `M1:NYELV-G3-16` (M1.A:277 „tedd meg nyugodtan”); `M0:NYELV-G2-22` (M0.A:347 „páratlan a létszám”) | OPEN |
 | X-11 | HUMAN_DECISION | LMS-konfigurációs döntések | LMS-gazda + DPO + hozzáférhetőségi gazda: `M1:IMPL-G2-10` (az M1.4 kapu „Accepted file types” és fájlszám, korpusz-szinten) | OPEN |
-| X-13 | HUMAN_DECISION | Terminológiai / kánoni forrásütközés (modul ↔ Glosszárium) | modulgazda + értékelési felelős, a Glosszárium gazdájával (ken-vezető / mozgalmi felelős QA): `M1:NYELV-G1-14` (SBI „S” = helyzet vagy szituáció) | OPEN |
+| X-13 | HUMAN_DECISION | Terminológiai / kánoni forrásütközés (modul ↔ Glosszárium) | modulgazda + értékelési felelős, a Glosszárium gazdájával (ken-vezető / mozgalmi felelős QA): `M1:NYELV-G1-14` (SBI „S” = helyzet vagy szituáció); projektgazda (QA: ken-vezető / mozgalmi felelős): `M0:NYELV-G2-11` (a Glosszárium:27 „kerüld” szabálya a kisbetűs „dugma isit vagy” alakra) | OPEN |
 | X-12 | EVIDENCE_GATE | DPO írásos jóváhagyása (G2) | DPO, G2: `M1:BIZT-G1-3` (N-M1-04 DPO QA, BIZT-QA-1), `M1:BIZT-G2-2` (LMS-M1-05/-07 adatkezelés, ADV:230) | OPEN |
 
 ## Findingok
@@ -102,6 +102,48 @@
 | M0:PED-9 | P2 | objektív | ELVETVE | REJECTED | pedagógiai preferencia: az M0.4 SLIDE 4 1. szabálya az M0.2:430 megerősítő ismétlése (verifier) |
 | M0:ERT-5 | P1 | objektív | ELVETVE | REJECTED | az M0.1-rész a PED-3 duplikátuma; a hub 2.2/2.5 mérés nélkülisége a lezárt D-4-ből és a puha kapuból következik (verifier) |
 | M0:ERT-10 | P2 | objektív | ELVETVE | REJECTED | item-írási preferencia: az M0.3:193 formatív, a visszajelzés tanít (verifier) |
+| M0:NYELV-G1-2 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a javítás után Memuna-QA: M0:BIZT-1 / G1) |
+| M0:NYELV-G1-5 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G1-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (csak „kisebb tétű”; az M0:ERT-1-gyel egy menetben) |
+| M0:NYELV-G1-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G1-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a javítás után Memuna-QA: M0:BIZT-1 / G1) |
+| M0:NYELV-G1-11 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G1-12 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G1-13 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G1-15 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G2-1 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a 45’-es részen az M0:PED-5-tel egy lépésben) |
+| M0:NYELV-G2-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (az M0:PED-10-zel egy lépésben) |
+| M0:NYELV-G2-4 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G2-5 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G2-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G2-12 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (csak a :565 utolsó pontja) |
+| M0:NYELV-G2-14 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G2-16 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (az M0:BIZT-8-cal és az M0:IMPL-7-tel összehangolva) |
+| M0:NYELV-G2-17 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G2-18 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a Z.A négy helye a Z-javítással egy menetben) |
+| M0:NYELV-G2-21 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G2-11 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a Glosszárium:27 „kerüld” szabálya kiterjed-e a kisbetűs „dugma isit vagy / dugma isit madrih” alakra (M0.2:26, :417; M0.4:25, :154, :248, :293, :296, :486; HUB:144, :238; M0.4-ILL-03; a HUB:235 projektgazdai itemtörzs) — projektgazda; QA: ken-vezető / mozgalmi felelős (X-13) |
+| M0:NYELV-G1-14 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a belépőkvíz projektgazdai itemszövege (HUB:180) nyelvileg javítható-e (7. item „a completion állapotát” különírás; 4. item alanya) — projektgazda, az értékelési felelős QA-jával (X-6) |
+| M0:NYELV-G2-22 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: az M0.A:347 „vagy páratlan a létszám” feltételének jelentése — modulgazda / projektgazda (X-10) |
+| M0:NYELV-G1-1 | P2 | emberi-döntés | EMBERI DÖNTÉS | DUPLICATE | = M0:NYELV-G2-11 (az M0.2:26 és a HUB:144 hely átvéve) |
+| M0:NYELV-G1-3 | P2 | objektív | ELVETVE | REJECTED | a csatornaszabály szerkezete a korpusz kánoni alakja; a csere szűkítene (verifier) |
+| M0:NYELV-G1-4 | P2 | objektív | ELVETVE | REJECTED | közvetlen hangnem, nem magázás (verifier) |
+| M0:NYELV-G1-9 | P2 | objektív | ELVETVE | REJECTED | bevett fordulat (verifier) |
+| M0:NYELV-G1-10 | P2 | objektív | ELVETVE | REJECTED | H5P típusnév, érvényes Markdown-escape (verifier) |
+| M0:NYELV-G1-16 | P2 | objektív | ELVETVE | REJECTED | a nagykötőjel viszonyt is jelöl; preferencia (verifier) |
+| M0:NYELV-G1-17 | P2 | objektív | ELVETVE | REJECTED | a beágyazott strong CommonMark szerint helyes (verifier) |
+| M0:NYELV-G1-18 | P2 | objektív | ELVETVE | REJECTED | jelentésében többes alany; preferencia (verifier) |
+| M0:NYELV-G1-19 | P2 | objektív | ELVETVE | REJECTED | informális, de egyértelmű címke (verifier) |
+| M0:NYELV-G1-20 | P2 | objektív | ELVETVE | REJECTED | bevett szerkezet (verifier) |
+| M0:NYELV-G2-2 | P2 | objektív | ELVETVE | REJECTED | szabályos különírás, diaszöveg (verifier) |
+| M0:NYELV-G2-7 | P2 | objektív | ELVETVE | REJECTED | korpusz-szintű konvenció; a javasolt csere rontana (verifier) |
+| M0:NYELV-G2-8 | P2 | objektív | ELVETVE | REJECTED | távirati képzői stílus (verifier) |
+| M0:NYELV-G2-9 | P2 | objektív | ELVETVE | REJECTED | a „jelen lenni” kánoni alak (verifier) |
+| M0:NYELV-G2-10 | P2 | objektív | ELVETVE | REJECTED | a szakszó megengedett; a csere jelentéseltolás (verifier) |
+| M0:NYELV-G2-13 | P2 | objektív | ELVETVE | REJECTED | a hub is „komment”-et ír (verifier) |
+| M0:NYELV-G2-15 | P2 | objektív | ELVETVE | REJECTED | szabályos szerkezet (verifier) |
+| M0:NYELV-G2-19 | P2 | objektív | ELVETVE | REJECTED | szabályos szórend; a K1 (ERT-1) átírja (verifier) |
+| M0:NYELV-G2-20 | P2 | objektív | ELVETVE | REJECTED | szabályos olvasat; nyomtatott biztonsági kártyát írna át (verifier) |
 | M1:ERT-G1-1 | P0 | objektív | MEGERŐSÍTVE | NEEDS_RECHECK | N-M1-04 javítás (ebf311e, c1545c3; QA-követés: 96996e2, db35119; merge: 213a4c5): a finding minden helye a 82d0c7c óta átíródott — M1.1:98 (runtime-követelmény: a SLIDE 5-re a tanuló-lokális szabály vonatkozik, a Moodle-oldali tároló tartalékút kikerült), :699–700 (@asset notes/review, build), :763 és :768 (alapból nincs beviteli elem; „a saját jegyzetedbe … Nem kell beküldened”), :792–794 (a „lehetőleg”/mentor-mondat helyett a döntés szövege); MAN:45 (LMS-M1-01) és MAN:308 (BSPEC-02 datált kiegészítés, állapot változatlan); RA:105 (24. pont, korábban :104: LMS-M1-01 a listában + mentett-állapot tesztlépés) és RA:11 (új Environment-sor); az ebf311e üzenete validált findingként nevezi; a fő session ellenőrzi |
 | M1:IMPL-G1-2 | P1 | objektív | MEGERŐSÍTVE | NEEDS_RECHECK | N-M1-04 javítás (ebf311e; QA-követés: 96996e2; merge: 213a4c5): új HUM 12. szakasz (:576–586) a döntéssel és a nyitott bizonyíték-kapuval; döntési jegyzőkönyv `2026-10-10 Projektgazdai döntés – N-M1-04, M1.1 SLIDE 5 önreflexió.md` a szó szerinti szöveggel; a mátrix nem változott (a finding szerint helyes); a finding CC-04/CC-06-része NINCS átvezetve (a jegyzőkönyv 3. szakasza szerint külön tétel, M0:ERT-8; ledger X-3); az ebf311e üzenete validált findingként nevezi; a fő session ellenőrzi |
 | M1:PED-G1-4 | P1 | objektív | MEGERŐSÍTVE | OPEN | — |
@@ -301,3 +343,4 @@
 | 2026-10-11 | INVENTORY | M0: a 82d0c7c óta nincs változás a modulban → a négy lencse REUSED, a `language` hiányzik. 40 ID a ledgerben (18 OPEN, 7 DUPLICATE, 7 BLOCKED_HUMAN, 3 EVIDENCE_GATE + 1 DUPLICATE kapu, 4 REJECTED). M1: kivonatolás folyamatban. |
 | 2026-10-11 | INVENTORY | M1: 132 sor (116 verdiktes ID + 13 levágott P2 + 3 részsor): 25 OPEN, 12 NEEDS_RECHECK (ERT-G1-1, IMPL-G1-2 az N-M1-04 javítása miatt; 2 részsor; 8 verdikt nélküli levágott P2), 46 DUPLICATE, 21 BLOCKED_HUMAN, 4 EVIDENCE_GATE, 24 REJECTED. A 82d0c7c óta változott M1-helyek (M1.1, MAN :45/:308, RA 24., HUM 12.) más megtartott objektív findinget nem érintenek. Külső kapuk: X-4…X-12. REVIEW indul: M0/M1 `language`, M2 öt lencse. |
 | 2026-10-11 | REVIEW | M1 `language` VERIFIED: `2026-10-11 Validált findingok – M1, nyelvi lencse, AP-2026-10-11-01.md` (57 nyers, 57/57 verdikt: 28 MEGERŐSÍTVE + objektív, 7 EMBERI DÖNTÉS (2 duplikátum), 22 ELVETVE); read-only bizonyíték a mentés előtt egyezik. Az M1-re mind az öt lencse lefutott. |
+| 2026-10-11 | REVIEW | M0 `language` VERIFIED: `2026-10-11 Validált findingok – M0, nyelvi lencse, AP-2026-10-11-01.md` (42 nyers, 42/42 verdikt: 20 MEGERŐSÍTVE + objektív, 4 EMBERI DÖNTÉS (1 duplikátum), 18 ELVETVE); read-only bizonyíték egyezik. Az M0-ra mind az öt lencse lefutott. M1 NEEDS_RECHECK (12) célzott verifierrel folyamatban; M2 lencsék futnak. |
