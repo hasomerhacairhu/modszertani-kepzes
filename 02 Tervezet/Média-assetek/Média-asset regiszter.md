@@ -169,7 +169,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M1-HUB-KART-01` | card-set | újrahasznosítás | specifikáció kész | M1.A 'Megfigyelés vagy címkézés?' kártyaszett | — | — | vegyes |
-| `M1-HUB-POSZ-02` | poster | legyártandó | specifikáció kész | M1.F Közös fogalomtérkép sablon | — | nyomtatható PDF | vegyes |
+| `M1-HUB-POSZ-02` | poster | legyártandó | specifikáció kész | M1.F Közös fogalomtérkép-sablon | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md
 

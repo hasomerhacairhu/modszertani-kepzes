@@ -5523,13 +5523,13 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "M1.F Közös fogalomtérkép sablon",
+      "title": "M1.F Közös fogalomtérkép-sablon",
       "purpose": "A modul kulcsfogalmainak integrált, vizuális összekapcsolása a felzárkóztató peulán (M1.F cél 4).",
       "spec": "Fogalomtérkép flipchart/poszter-sablon a három fő fogalom összekötésére: Johari – megfigyelés vs. címke – SBI; közös kitöltésre kérdésekkel-válaszokkal.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "Nyomtatható nagy formátumú fogalomtérkép sablon vagy üres flipchart-váz, magyar címkékkel."
+        "note": "Nyomtatható nagy formátumú fogalomtérkép-sablon vagy üres flipchart-váz, magyar címkékkel."
       },
       "a11y": {
         "note": "Fizikai print; jól olvasható betűméret."
@@ -5562,7 +5562,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1e2337a0e72e340f750b8751ee8061a4fd743a191a6c5c6ee74bb3f7f7eb8851",
+      "spec_hash": "ac4a638c775300d7fadb5ac15ecc725e4eca0930da95c960d797a5211cdb5da5",
       "deliverable_ids": [
         "M1-HUB-POSZ-02",
         "M1-HUB-POSZ-02::PRINTPDF"
@@ -32625,7 +32625,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md",
       "file_kind": "hub",
-      "title": "M1.F Közös fogalomtérkép sablon",
+      "title": "M1.F Közös fogalomtérkép-sablon",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
@@ -32646,7 +32646,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md",
       "file_kind": "hub",
-      "title": "M1.F Közös fogalomtérkép sablon — nyomtatható PDF",
+      "title": "M1.F Közös fogalomtérkép-sablon — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
