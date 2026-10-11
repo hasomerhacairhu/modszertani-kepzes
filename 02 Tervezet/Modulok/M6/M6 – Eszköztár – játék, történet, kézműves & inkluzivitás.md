@@ -7,9 +7,9 @@
   "mode": "reuse",
   "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
   "purpose": "Ez a modul központi, kapuzott produktuma (éles teljesítési kapu, §6.2). A sablon vezeti a madrihot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és társak és mentor által áttekinthető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
-  "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres érték-kapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám, (4) Lépésről lépésre leírás + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
-  "provenance": "mixed",
-  "provenance_note": "vegyes",
+  "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: Cím, (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres értékkapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám + hangulat, (4) Lépésről lépésre leírás + időkeret + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat. A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
+  "provenance": "human",
+  "provenance_note": "emberi-felvétel",
   "technical": {
     "note": "A4, álló, 1 oldal (kétoldalas verzió is megengedett, ha az R4/R5 mezőhöz több hely kell); nyomtatható PDF + szerkeszthető verzió (Moodle Assignment-feltöltéshez, kitölthető PDF vagy Word sablon; Google-sablon csak szervezeti fiókban, korlátozott megosztással); magyar nyelv; fekete-fehérben is olvasható, akadálymentes betűméret (min. 11 pt), tiszta rovat-keretek, elegendő íráshely a kézi kitöltéshez."
   },
@@ -17,7 +17,7 @@
     "note": "Akadálymentes nyomtatott/digitális űrlap: logikus olvasási sorrend, valódi szöveg (nem képbe ágyazott), kitölthető PDF-nél címkézett űrlapmezők (tab-sorrend, képernyőolvasó-kompatibilis mezőnevek); elegendő kontraszt; egyszerű, sallangmentes magyar instrukciós szöveg minden rovatnál."
   },
   "reuse_of": "M6.B-MUNK-01",
-  "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (műhely / modulproduktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (2.1. Eszközök, 4.3. Blokk 3, 5. Képzői ellenőrző lista: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (2.1. Eszközök: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA, de NEM definiálja a rovatstruktúrát, ezért a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F-POSZ-02) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
+  "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (műhely / modulproduktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (2.1. Eszközök, 4.3. Blokk 3, 5. Képzői ellenőrző lista: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (2.1. Eszközök: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA; a rovatstruktúra forrása az M6.B-MUNK-01, és a két spec azonos; a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F-POSZ-02) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
   "legacy": {
     "asset": [
       "M6-MUNK-01"
@@ -43,7 +43,7 @@
 
 A madrih **bővíti az eszközkészletét konkrét játékokkal, történetekkel és kézműves ötletekkel**, és érti, hogy **melyik eszköz melyik kvucának**, milyen céllal és **milyen biztonsági / inkluzivitási szempontokkal** való. A modul végére elkészít **1 használható játéklapot** választott játékhoz / történethez / kézműveshez, benne: cél, kvuca, leírás, biztonság, inkluzivitás, variációk.
 
-> 🔁 **Vissza M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / aktív felidézés / időben elosztott gyakorlás) **változatlanul érvényes** – az M6 eszköztára ennek a láncnak az eszköz-szintű folytatása. **Új dimenzió itt:** a **biztonság és az inkluzivitás** mint kapuzott mérce **az M6-ban indul** (nem korábbi M5-ismétlés) – itt kapcsoljuk rá a már ismert lánc minden lépésére.
+> 🔁 **Vissza az M5-höz:** Az M5-ben tanult **feladat → cél → kvuca → módszer** láncból ez a modul a **„módszer” lépést** tölti fel konkrét eszközökkel (játék / történet / kézműves). A választás sorrendje (előbb cél + kvuca, utána eszköz) és a tanulástan-szemlélet (gyakorlás / aktív felidézés / időben elosztott gyakorlás) **változatlanul érvényes** – az M6 eszköztára ennek a láncnak az eszköz-szintű folytatása. **Új dimenzió itt:** a **biztonság és az inkluzivitás** mint kapuzott mérce **az M6-ban indul** (nem korábbi M5-ismétlés) – itt kapcsoljuk rá a már ismert lánc minden lépésére.
 
 ## 2. Kimeneti kompetenciák
 
@@ -62,7 +62,7 @@ A modul végére a madrih…
    * Képes **3–4 nyitott kérdéssel** (nem szégyenítő módon) feldolgozni egy történetet különböző kvucákkal.
      *(Főleg: M6.2, M6.4 (T-ágak), M6.B, M6.F)*
 4. **Kézműves, ami tanít is**
-   * Fel tud sorolni legalább **2–3 egyszerű kézműves-ötletet**, mindegyikhez 1–1 **nevelési fókuszt** (pl. együttműködés, identitás, felelősség, környezet).
+   * Fel tud sorolni legalább **2–3 egyszerű kézműves ötletet**, mindegyikhez 1–1 **nevelési fókuszt** (pl. együttműködés, identitás, felelősség, környezet).
    * Észreveszi, ha egy kézműves feladat **kirekesztő** lehet (ár, anyaghoz való hozzáférés, finommotorika, érzékenységek), és tud rajta igazítani.
      *(Főleg: M6.3, M6.B, terep)*
 5. **Módszerválasztási döntés & játéklap**
@@ -81,7 +81,7 @@ A modul végére a madrih…
 * **Fő fókusz:** játéktípusok + korosztályok; „nem minden játék jó minden kvucának”.
 * **Eszköz:** H5P Course Presentation (kb. 8 slide, mobilra optimalizált).
 * **Mit tanul a madrih?**
-  * megkülönböztetni 3–5 alap játék-kategóriát (névtanulós, energizer, bizalom- / kontakt-, reflexiós, mélyebb élményjátékok),
+  * megkülönböztetni 3–5 alap játék-kategóriát (névtanulós, energizer, bizalom- és kontaktjátékok, reflexiós, mélyebb élményjátékok),
   * eldönteni, melyik kategória **melyik korosztálynak** való (6–9, 10–12, 13–17),
   * felismerni a tipikus kockázatokat (túl hosszú, bonyolult, balesetveszély, kirekesztés).
 * **Kompetenciakapcsolat:** 1. Eszköz–kvuca illesztés, 2. Biztonság & inkluzivitás.
@@ -96,7 +96,7 @@ A modul végére a madrih…
   * kiválasztani egy korosztályhoz illő, someres értéket hordozó történetet,
   * megkülönböztetni megértést ellenőrző és reflektív kérdéseket,
   * alap reflektív kérdésmintákat használni (pl. „Melyik szereplő nézőpontját érted a legjobban, és miért?”, „Milyen hasonló helyzet volt már nálatok? (Nem kell nevet mondani.)”).
-* **Kompetenciakapcsolat:** 3. Történet mint nevelési eszköz, 5. Módszerválasztási döntés & játéklap (érték-kapcsolódás).
+* **Kompetenciakapcsolat:** 3. Történet mint nevelési eszköz, 5. Módszerválasztási döntés & játéklap (értékkapcsolódás).
 
 ***
 
@@ -136,8 +136,8 @@ A modul végére a madrih…
   1. 0–5’ – Ráhangolódás: „Mondj egy játékot, amit szeretsz, és 1 okot, miért.”
   2. 5–20’ – Játék-labor 1: 1–2 játék kipróbálása, gyorsteszt: melyik korosztály, mi a cél, mi a rizikó.
   3. 20–35’ – Játék-labor 2: új játék / variáció, most hangsúlyosan inkluzivitás-szemüveggel.
-  4. 35–45’ – Zárókör: „Egy játék-szempont, amire mostantól figyelni akarok.”
-* **Kompetenciakapcsolat:** 1. Eszköz–kvuca illesztés (korosztály-szemüvegek), 2. Biztonság & inkluzivitás (kockázat- és variáció-kör), 5. Módszerválasztási döntés (játékok tudatos elemzése).
+  4. 35–45’ – Zárókör: „Egy játékszempont, amire mostantól figyelni akarok.”
+* **Kompetenciakapcsolat:** 1. Eszköz–kvuca illesztés (korosztály-szemüvegek), 2. Biztonság & inkluzivitás (kockázat- és variációkör), 5. Módszerválasztási döntés (játékok tudatos elemzése).
 
 ***
 
@@ -152,7 +152,7 @@ A modul végére a madrih…
   1. 0–10’ – Felidézés: mi a játéklap minimum tartalma (cél, kvuca, leírás, eszközök, biztonság, inkluzivitás, variációk).
   2. 10–30’ – Műhelymunka: párok / kiscsoportok dolgoznak a saját játéklapon.
   3. 30–40’ – Mini-bemutatók: 2–3 játéklap rövid megosztása, konkrét visszajelzési kör.
-  4. 40–45’ – Vállalás-kör: „Miben szeretnék a saját játékommal **a biztonság és az inkluzivitás szempontjából** személyes példát (*dugma isit*) mutatni?”
+  4. 40–45’ – Vállaláskör: „Miben szeretnék a saját játékommal **a biztonság és az inkluzivitás szempontjából** személyes példát (*dugma isit*) mutatni?”
 * **Kompetenciakapcsolat:**
   2. Biztonság & inkluzivitás (konkrét sor a játéklapon),
   3. Történet mint nevelési eszköz (ha történetet választ),
@@ -167,17 +167,17 @@ A modul végére a madrih…
 
 * **Kapcsolódó online leckék:** M6.1–M6.4
 * **Kinek szól:** annak, akinek az M6 kapuja – a játéklap – nem teljesült; mivel a kapu éles, számára a peula **kötelező**. A felzárkóztató peula (F-peula) facilitált, strukturált javítási alkalom, nem általános pótlás. Aki csak lemaradt egy leckével vagy peulával, csendes pótlással pótol; erre a peula csendes pótlási blokkja (5–25’) is helyet ad.
-* **Időpont:** a kapueredmény megerősítése után, a javító leadás előtt; a képző jelöli ki a központi naptár szerint: a kapu megerősítését követő hétfőn, 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hét hétfőjére teheti. A javító leadás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele).
+* **Időpont:** a kapueredmény megerősítése után, a javító leadás előtt; a képző jelöli ki a központi naptár szerint: a kapu megerősítését követő hétfőn, 18:00-tól; ha az M6 javítása az M7 útját akadályozza, a képző a Z utáni hét hétfőjére teheti. A javító leadás az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele), határideje a központi naptár szerint az F-peula utáni szerda 18:00.
 * **Fő célok tanulói nyelven:**
   1. **Tisztábban látja, hol tart** a játéklapjával: a kapun kapott visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján tudja, melyik rubrikasort kell javítania – különösen a Biztonság (R4) és az Inkluzivitás (R5) sort –, és mi hiányzik még az M6.1–M6.4 leckékből.
   2. **Érdemben javít** a játéklapján, legalább a visszajelzésben jelzett sorokon (ha kell, egy leckerész pótlásával vagy újranézésével), és így felkészül a javító leadásra.
   3. Leckénként le tud írni vagy el tud mondani **1 gondolatot és 1 kérdést**.
   4. Lát egy egyszerű **fogalomtérképet** az M6 modulról (játék – történet – kézműves – inkluzivitás – biztonság – játéklap), és el tudja helyezni rajta, amit a visszajelzés hiányként jelzett.
 * **Rövid percbontás-vázlat:**
-  1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a játéklapjára kapott visszajelzést és azt, hol tart az M6.1–M6.4 leckékkel, majd kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül; megőrzése: `Adatvédelem – tanulói adatok és AI.md` §3, „Mentori 1:1 meta-napló” sor). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
+  1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a játéklapjára kapott visszajelzést és azt, hol tart az M6.1–M6.4 leckékkel, majd kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül; megőrzése: `Adatvédelem – tanulói adatok és AI.md` §3, „Mentori fejlesztési jegyzet” sor). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   2. 5–25’ – Csendes pótlás fülessel: a játéklap javítása a visszajelzés alapján, hiányzó Moodle / H5P leckék, Branching Scenario, „1 gondolat, 1 kérdés” jegyzeteléssel.
   3. 25–40’ – Kérdések + fogalomtérkép: közös tisztázás a kulcsfogalmakról, elsősorban a visszajelzésekben jelzett hiányok mentén.
-  4. 40–45’ – Híd a javító leadáshoz: mondatbefejezés – „Legközelebb, amikor játékot / történetet / kézművest választok, figyelni szeretnék arra, hogy…”.
+  4. 40–45’ – Híd a javító leadáshoz: mondatbefejezés – „Legközelebb, amikor játékot, történetet vagy kézművest választok, figyelni szeretnék arra, hogy…”.
 * **Kompetenciakapcsolat:**
   * minden kimeneti kompetenciához alapszintű megértés,
   * különösen 1. Eszköz–kvuca illesztés, 2. Biztonság & inkluzivitás (a két blokkoló sor: R4, R5) és 5. Módszerválasztási döntés (szcenáriók, a javítandó játéklap).
@@ -186,11 +186,11 @@ A modul végére a madrih…
 
 * **Kaputípus:** éles teljesítési kapu – módszerválasztás és játékvezetés közvetlenül érinti a hanihok **biztonságát és inkluzív élményét**.
 
-> **A kapu súlyozása:** a modul nonformális és produktum-alapú, ezért az **éles, blokkoló kapu a játéklap-rubrika (6.2)** – itt a **Biztonság** és **Inkluzivitás** sor a valódi tét. A **szcenárió-kvíz (6.1) formatív/diagnosztikus** előkészítő: felkészít és jelez, de **nem blokkol**. Ez összhangban van az M6.4 Branching Scenario divergens logikájával („nincs egyetlen jó megoldás”). A mérvadó kapu-logika a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) él.
+> **A kapu súlyozása:** a modul nonformális és produktum-alapú, ezért az **éles, blokkoló kapu a játéklap-rubrika (6.2)** – itt a **Biztonság** és **Inkluzivitás** sor a valódi tét. A **szcenárió-kvíz (6.1) formatív/diagnosztikus** előkészítő: felkészít és jelez, de **nem blokkol**. Ez összhangban van az M6.4 Branching Scenario divergens logikájával („nincs egyetlen jó megoldás”). A mérvadó kapulogika a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) él.
 
-### 6.1. Szcenárió-kvíz (Question Set) – *formatív / diagnosztikus, ajánlott ≥80%*
+### 6.1. Szcenárió-kvíz (Moodle Quiz) – *formatív / diagnosztikus, ajánlott ≥80%*
 
-* **Eszköz:** Moodle Quiz vagy H5P Question Set.
+* **Eszköz:** Moodle Quiz (LMS-M6-06, QUIZ-D); a kurzusban: „M6 – Szcenárió-önellenőrzés”.
 * **Szerep:** **felkészítő önellenőrzés a játéklap előtt** – nem ez az éles kapu, nem buktat.
 * **Tartalom:**
   * rövid helyzetleírások (korosztály + kvuca + cél),
@@ -204,13 +204,13 @@ A modul végére a madrih…
 
 ### 6.2. Játéklap – Assignment + rubrika *(ELSŐDLEGES ÉLES KAPU)*
 
-* **Eszköz:** Moodle Assignment + rubrika (M6 játéklap feladat). A társas visszajelzés az M6.B élő műhely része.
-* **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz).
+* **Eszköz:** Moodle Assignment + rubrika (a kurzusban: „M6 – Játéklap”). A társas visszajelzés az M6.B élő műhely része.
+* **Kimenet:** 1 kész játéklap (játék / történet / kézműves eszközhöz). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat.
 * **Rubrika fő sorai** (a mérvadó **5 soros (R1–R5)** rubrika a [KAPU-fájlban](./M6%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) él – itt csak az áttekintés):
   1. **R1 – Cél-illeszkedés** – világos-e, mit tanít / mire való az eszköz; **„Erős” szinten 1 mondatban a someres értékhez (kvuca, egalitás, társadalmi felelősség) is kapcsolódik**.
   2. **R2 – Kvuca / korosztály-illesztés** – **megadja-e a korosztályt (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17; elég a név vagy az életkor) + létszámot, és életkorilag védhető-e az eszköz**; **„Erős” szinten ezen felül a hangulat/állapot is szerepel (fáradt, klikkes, friss), és a lap legalább 1, az M3.2-ben tanult korosztály-jellemzővel (figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) megindokolja, miért épp ennek a korosztálynak való – és melyiknek nem**.
   3. **R3 – Leírás végrehajthatósága** – érthető-e a folyamat, időkeret, lépések, eszközök; **egy másik madrih el tudná-e indítani**.
-  4. **R4 – Biztonság** *(**blokkoló feltétel**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyermekvédelem & biztonsági keret M6-os, eszközspecifikus rétege [beleegyezés / fizikai / felkavaró tartalom]; M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyermekvédelem & biztonság** (R4) sorba.)*
+  4. **R4 – Biztonság** *(**blokkoló feltétel**)* – van-e legalább 1 konkrét, eszközspecifikus fizikai **vagy** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés. *(Ez a „Biztonság” a tágabb gyermekvédelmi és biztonsági keret M6-os, eszközspecifikus rétege [beleegyezés / fizikai / felkavaró tartalom]; az M7-ben az M3 red-flag-kerettel együtt olvad be a **Gyermekvédelem & biztonság** (R4) sorba.)*
   5. **R5 – Inkluzivitás** *(**blokkoló feltétel**)* – van-e legalább 1 megnevezett akadály **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz.
 * **Követelmény:**
   * rubrikában min. „Oké” (2) szint **minden sorban**,
@@ -242,10 +242,10 @@ Az M6 akkor **teljesített**, ha az alábbi két feltétel (1–2.) teljesül:
   * ha a résztvevők >30%-a **nem éri el a 80%-ot** pár próbálkozás után → extra online ismétlés **a játéklap leadása előtt** (felkészítés, nem kapuzás). Az M6.F (F-peula) nem ide tartozik: az a nem teljesült kapu utáni javítási alkalom.
 * **Játéklap-rubrika (éles kapu):**
   * hány játéklap ér el minimum „Oké” szintet,
-  * külön figyelni az R4 (Biztonság) és az R5 (Inkluzivitás) sorra – ha sok a gyenge lap, F-peula (M6.F) „inkluzív játékok & kézművesek” fókusszal.
+  * külön figyelni az R4 (Biztonság) és az R5 (Inkluzivitás) sorra – ha sok a gyenge lap, F-peula (M6.F) mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva.
 * **Küszöbök / beavatkozási pontok:**
   * ha a résztvevők >30%-a nem éri el a 80%-ot a **formatív** szcenárió-kvízen → célzott támogatás és ismétlés a játéklap előtt,
-  * ha a játéklapok >25%-ánál gyenge az R4 (Biztonság) vagy az R5 (Inkluzivitás) sor → F-peula (M6.F), illetve egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**.
+  * ha a játéklapok >25%-ánál gyenge az R4 (Biztonság) vagy az R5 (Inkluzivitás) sor → F-peula (M6.F) mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva, illetve egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**.
 
 ***
 

@@ -229,40 +229,40 @@
       "sha256": "c80dfbb29ae7137cf303c2b11ad4affc676186ff1cd28ebf68bf1013e9308b4c"
     },
     "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md": {
-      "reason": "M6.4 (course-develop, D-e): fix sorrendű A→B→(C)→D→6D→ZÁRÓ lánc, C-VÁLASZTÓ, közös 6D biztonsági keret, időtartam; manifest LMS-M6-04, M6 hub, runtime acceptance 2. pont",
-      "sha256": "98fc2f61c473d1feb954125feaed25dbfc503087fc43dc29717446010c052701"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "6b88528c8735695715505a0da6976c568d8d0b128191365ffc1cd610d56df0c8"
     },
     "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
-      "sha256": "bd78f4d4ffc0a941c99b74bc5848be8449f7bb9a5f34fe8038c93e98529b2993"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "f4ed90ae72d952b33f1bd568c193ab98c49baca46c60da7d2ea9e6bd63c6bf85"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md": {
-      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
-      "sha256": "8d90f9fa6b6ba26911ed44a4db1d46a702531c1c02c34ed69acf7aeacc0ab561"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "4766f278832c1830a9d219470c254c842c643922df172d1017687564a014a6d2"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
-      "sha256": "f5a77098634fb90201a6334fc68f4c4ffaa4f5704dd5944b47d1008f711082b6"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "4bdd12b4c43a8df375b6206bc0ffc150cc39be20520dbb8a957c4f68e9c61f36"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
-      "reason": "BSPEC-02 leltár (F-M0.1…F-Z.2, X-1, D-1…D-6, H-6): tanuló-lokális szöveges lépések jelölése, a kötelező tárolt mezők helye (LMS-M1-07, LMS-M2-08, LMS-M2-09, LMS-M7-10), olvasót feltételező biztonsági mondatok javítása",
-      "sha256": "07819d09f6040e63606c1f699352494232c8bda922e2c21f5db0ba0dd969d1ed"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "c6486a136805a44ce9a9b56a47a67c41ed833f7c53b3c66e0b2c4842a0a76fb1"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
-      "reason": "Command 5 (C5-01…C5-20 + C5-BIZT-1/2, C5-ERT-1/2, C5-IMPL-1…6, C5-NYELV-1/3/4/5): BSPEC-05/06/07 build-spec, M3.3 SAFE-1/SAFE-4 topology, M6 gate items 3/10 sourced from M6.1/M6.3, M6.4 kvucával",
-      "sha256": "2923ce780b4820c08894693849ddae8391261573103802f539ae181306c24599"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "63d41a7813813d1cfb6fe461a87fd05375cf67c7432844fa1535dd4ece3790dc"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md": {
-      "reason": "M6-NY-D24…D27 és a UE7/UE8/UE9 célzott újraellenőrzés objektív findingjai: a course-fix második köre (Workshop nélküli zárás, félcsoport-vezetés, kibillenés négy lépése, R1/R2 tükörhelyek, írásjelek)",
-      "sha256": "f7938a81f5f876290819d3fcf84426aeb32a676826d1545ee5153bc026f6b8a7"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "57f927ac3a39e66a6b38b92171433589d48ae05317b41d2add41d35175715018"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md": {
-      "reason": "M6-NY-D28 (UE8-PED-3) és UE10/UE11: az M6.B 4.4.2 nagycsoportos tartalékváltozata, ha nincs második felnőtt; a félcsoportos végrehajtás és előkészítés feltételhez kötve",
-      "sha256": "2bbf6ed13192c08721c9d5c3c85faeb6113488ee1eaaf145e929b26dc0d354cc"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "2f4e63110e86f94440e0f9003ab9c70f0a6fcea3447b884c4d44157bc9ef2c22"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md": {
-      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
-      "sha256": "c287bf12bcc165f8b7dea0a35945e26d63ce71b6ae2fa9bac8fa80289dfe54a8"
+      "reason": "M6:BIZT-G1-3, PED-G1-6, PED-G1-7, ERT-G1-4, ERT-G1-5, ERT-G2-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-6, IMPL-G3-7, IMPL-G3-8, BIZT-G1-2, BIZT-G1-5, NYELV-G1-3, NYELV-G1-5, NYELV-G1-6, NYELV-G1-9, NYELV-G1-10, NYELV-G1-12, NYELV-G3-9, NYELV-G3-11, IMPL-G1-5.obj, PED-G2-1, BIZT-G1-8, NYELV-G1-14, NYELV-G1-7, BIZT-G2-1, ERT-G2-1, IMPL-G2-3, NYELV-G2-2, IMPL-G2-7, NYELV-G2-5, IMPL-G2-4, IMPL-G2-5, IMPL-G2-6, NYELV-G2-1, NYELV-G2-3, NYELV-G2-4, NYELV-G2-8, NYELV-G2-10, BIZT-G3-3, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-6, IMPL-G3-5, PED-G3-4, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8: validált objektív javítások, AP-2026-10-11-01",
+      "sha256": "a4a94b711877aeabf19140bd6682afa4cc92734b6c71620c22cf107f26d62859"
     },
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
