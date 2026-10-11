@@ -19,7 +19,7 @@
 
 **Modulcél röviden**
 
-A madrih **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alap elvárásokat és határokat („madrih, nem terapeuta”), megismeri az alap technikai eszközöket (Moodle, H5P, kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma isitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
+A madrih **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alapelvárásokat és határokat („madrih, nem terapeuta”), megismeri az alapvető technikai eszközöket (Moodle, H5P, kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma isitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
 
 ***
 
@@ -35,12 +35,12 @@ A modul végére a madrih…
    * Tud **2–3 mondatot** mondani arról, mit vár tőle a képzés és a ken (jelenlét, felelősség, jelzés, csapatmunka).
    * Meg tudja különböztetni, **mi az ő feladata és mi NEM az övé** (nem terapeuta, nem egyedül kezel gyermekvédelmi ügyet).
    * **Támogató elemek:** M0.2 (szerepek, „madrih, nem terapeuta”), M0.A (keretek közös kimondása).
-3. **Alap technikai működés biztonságban**
+3. **Alapszintű technikai működés biztonságban**
    * Be tud lépni a **Moodle-be**, megtalálja a saját kurzusát és a modulokat.
    * Elindít és végigvisz egy **H5P-leckét**, kitölt egy mini-kvízt.
    * El tud készíteni és közzé tud tenni egy **bemutatkozó fórumposztot és egy kommentet**.
    * **Támogató elemek:** M0.3 (Moodle / H5P / kapu), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
-4. **Kapuk és completion-logika alap megértése**
+4. **Kapuk és completion-logika alapszintű megértése**
    * Érti a **puha és éles kapuk** közti különbséget.
    * Tudja, hogy a kapuk nem azonnali kiesést jelentenek, hanem **jelzést és támogatást** (javítási lehetőség, mentor).
    * **Támogató elemek:** M0.3 (kapuk, completion), M0 belépőkvíz.
@@ -56,7 +56,7 @@ A modul végére a madrih…
 > **Mapping:**
 
 * **L1 = M0.1** – Üdv a képzésben! – Éves útiterv & mi köze hozzám
-* **L2 = M0.2** – Madrih, nem terapeuta – szerepek, elvárások, dugma isit alapok
+* **L2 = M0.2** – Madrih, nem terapeuta – szerepek és elvárások
 * **L3 = M0.3** – Hogyan működik a Moodle / H5P / kapu?
 * **L4 = M0.4** – Dugma isit az online térben + bemutatkozó fórum
 
@@ -74,13 +74,13 @@ A modul végére a madrih…
 * **Cél:** tisztázni a **madrih-szerepet** és a határokat (nem terapeuta, nem egyedüli felelős), és bevezetni a dugma isit fogalmát egyszerű példákkal.
 * **Fő tartalom röviden:**
   * szerepek: mit jelent madrihnak lenni (biztonság, keret, jelzés), és mi az, ami más felelős dolga (szakember, ken-vezető, gyermekvédelmi ügyben a kijelölt Memuna, a Somer gyermekvédelmi felelőse);
-  * „madrih, nem terapeuta” – alap gyermekvédelmi logika jelzésszinten;
+  * „madrih, nem terapeuta” – alapszintű gyermekvédelmi logika jelzésszinten;
   * dugma isit 1 mondatban + 2–3 helyzet, ahol ez látszik.
 * **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-kvíz, nyitott reflexió). A szöveges lépések tanuló-lokálisak: a tanuló magának írja le őket, beviteli elem és Moodle-oldali mező nem épül hozzájuk (BSPEC-02 leltár, a SLIDE 6-nál D-4; `LMS – activity manifest.md`, LMS-M0-02); a Course Presentation dián belüli szabad szöveges mező nem feltételezhető.
 
 ### L3 / M0.3 – „Hogyan működik a Moodle / H5P / kapu?” (15–20’)
 
-* **Cél:** biztonságos, gyakorlati beléptetés a technikai környezetbe; a madrih **megtanulja kezelni** a Moodle-felületet, alap H5P-t, és érti a kapuk logikáját.
+* **Cél:** biztonságos, gyakorlati beléptetés a technikai környezetbe; a madrih **megtanulja kezelni** a Moodle-felületet, alapszinten a H5P-t, és érti a kapuk logikáját.
 * **Fő tartalom röviden:**
   * kurzusstruktúra: hol találja a modulokat, mikroleckéket, peulákat, kapukat;
   * fogalmak: Moodle, H5P, activity completion, puha/éles kapu;
@@ -106,7 +106,7 @@ A modul végére a madrih…
 * **Fő cél:**
   * kvuca-szintű **ismerkedés**, első közös élmény;
   * a képzés rövid, közös keretezése („mire jöttünk ide?”, „mit várunk, mit vállalunk?”);
-  * az alap **biztonság és bizalom** megteremtése (és hogy legyen kinek szólni, ha valami nehéz).
+  * az alapvető **biztonság és bizalom** megteremtése (és hogy legyen kinek szólni, ha valami nehéz).
 * **Modulhoz való szerepe:**
   * ráhangol a teljes programra,
   * élőben kimondja azokat a kereteket, amikről az online leckékben szó volt,
@@ -135,7 +135,7 @@ A modul végére a madrih…
       * 1 saját bemutatkozó poszt (5–10 mondat),
       * 1 rövid komment legalább 1 másik résztvevő posztjára.
     * Completion: új téma + legalább 1 válasz. A Moodle a saját témára adott választ is beszámítja, ezért azt, hogy a komment másik résztvevő posztjára szól-e, a completion nem ellenőrzi: ezt a stáb nézi meg (lásd §6, 3. pont).
-  * **Moodle Quiz – „M0 belépőkvíz: keret, szerepek, technika”**
+  * **Moodle Quiz – „M0 belépőkvíz”**
     * **7 item** (6 feleletválasztós kérdés egy helyes válasszal és 1 párosító kérdés), témák:
       * „madrih, nem terapeuta” (1. item),
       * jelzési út gyermekvédelmi ügyben (2. item),
@@ -156,7 +156,7 @@ A modul végére a madrih…
       | 4. kapukövetkezmény (mi történik, ha…?) | 4. Kapuk és completion-logika (helyes következmény) |
       | 5. online hangnem / szabály | 5. Dugma isit az online térben |
       | 6. éves ív (melyik modulban lesz szó …?) | 1. Éves ív és keret átlátása |
-      | 7. hol találom a modulokat / leckéket | 3. Alap technikai működés (+ 1. éves ív tájékozódás) |
+      | 7. hol találom a modulokat / leckéket | 3. Alapszintű technikai működés (+ 1. éves ív tájékozódás) |
 
       Így a „mely kérdés / témakör megy rosszul → melyik modulban erősítsünk” elemzés (§6) **item-szinten** értelmezhető.
     * **A „kb. 60%” jelzőszint értelmezése:** ez **nem levezetett pszichometriai ponthatár**, hanem durva, gyakorlati stáb-küszöb: a 7 itemes belépőkvízben **átlagosan ≥ kb. fele-kétharmada helyes** azt jelzi, hogy a kvuca a strukturált belépéshez szükséges alapokat (keret, határ, jelzés, kapu) nagyjából átvette. **Item-szinten erősebb a jelzés, mint az átlag:** ha bármelyik **témakör tartósan < 50%-on** teljesít, az önmagában indok a ráerősítésre (lásd §6), függetlenül a globális átlagtól. A jelzőszintet az első kohorsz item-statisztikái után dokumentált stáb-review-ban kell újrakalibrálni; addig ez támogatási jelzés, nem pszichometriai ponthatár.
@@ -272,7 +272,7 @@ Hol találod a modulokat, leckéket, peulákat és a completion állapotát?
    * Akinek **egyetlen aktivitása sincs**, azt érdemes egyenként elérni (lehet technikai vagy motivációs elakadás).
 2. **Online leckék completion (M0.1–M0.4)**
    * Hányan fejezték be mind a 4 mikroleckét?
-   * Hol akad el a folyamat? (pl. elakadnak M0.3-nál, ahol több technikai elem van.)
+   * Hol akad el a folyamat? (pl. elakadnak az M0.3-nál, ahol több technikai elem van.)
 3. **Bemutatkozó fórum aktivitása**
    * Ki posztolt / ki kommentelt, és a komment **másik résztvevő** posztjára szólt-e? (A fórum-completion ezt nem ellenőrzi, lásd 5. Kapuk.)
    * Ha sokan csak formálisan írnak, az még oké, de jelzés lehet, hogy a következő modulban (M1, M2) több **kapcsolódást segítő** feladat kell.
@@ -280,7 +280,7 @@ Hol találod a modulokat, leckéket, peulákat és a completion állapotát?
    * Mely **témakör** megy nagyon rosszul (≈ tartósan < 50%)? A kvízterv megmondja, melyik M0-kompetencia gyenge.
    * Ha sokan félreértik a „madrih, nem terapeuta” vagy a „kihez jelzek?” itemeket, azt az M2-ben és az M3-ban **erősebben, többször** kell elővenni; ha a **kapukövetkezmény** vagy az **online hangnem / szabály** item gyenge, az még az M0-n belül (M0.3 / M0.4 újramondás, technikai segítségpont) is pótolható.
 5. **Küszöbök / beavatkozási pontok (javaslatok):**
-   * Ha az első hét végére a résztvevők **>30%-a nem „complete”** M0-ban:
+   * Ha az első hét végére a résztvevők **>30%-a nem teljesítette** az M0-t:
      * célzott emlékeztető,
      * extra technikai segítségpont szervezése (offline / online),
      * rövid felmérés: technikai vagy motivációs ok áll-e a háttérben.

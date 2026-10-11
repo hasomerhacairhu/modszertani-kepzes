@@ -29,28 +29,28 @@
       "sha256": "3dd70995bc592fb70b34ae3ed5225da025949e1c21da663d80f450a7766e991d"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
-      "reason": "C6U-01…C6U-14 (Command 6 utójavítások: C6-BIZT-2/5/6/7, C6-NYELV-1/2/4/5/6, C6-IMPL-1/2/3/4/6/7/8): adatvédelmi tájékoztató kánonhoz igazítva, A11Y-07 útmutatás és HUM-sor, offline változat hozzáférése és forrása, M0/M1 hub",
-      "sha256": "5095ab8c3a19e3b2b8b6f89810261664216aa485f1d6412e3d218b660b0ef4ca"
+      "reason": "M0:ERT-1, ERT-7, ERT-9, PED-3, PED-5.obj, PED-6, PED-10, BIZT-6, BIZT-8, BIZT-10, BIZT-11, IMPL-6, IMPL-7, IMPL-8, NYELV-G1-2, G1-5, G1-6, G1-7, G1-8, G1-11, G1-12, G1-13, G1-15, G2-1.obj, G2-3, G2-4, G2-5, G2-6, G2-12, G2-14, G2-16, G2-17, G2-18 (M0.A), G2-21: validált M0 findingok javítása (AP-2026-10-11-01)",
+      "sha256": "cfc94f9e367531c9a9e76ec99b174764fd42a9ee78c1a5cabf43a1b9eae6f526"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
-      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
-      "sha256": "bd5a777af9bf614c846bd99cdd8c7cd7cca2db2ac0ff702716cc0f9920d9c480"
+      "reason": "M0:ERT-1, ERT-7, ERT-9, PED-3, PED-5.obj, PED-6, PED-10, BIZT-6, BIZT-8, BIZT-10, BIZT-11, IMPL-6, IMPL-7, IMPL-8, NYELV-G1-2, G1-5, G1-6, G1-7, G1-8, G1-11, G1-12, G1-13, G1-15, G2-1.obj, G2-3, G2-4, G2-5, G2-6, G2-12, G2-14, G2-16, G2-17, G2-18 (M0.A), G2-21: validált M0 findingok javítása (AP-2026-10-11-01)",
+      "sha256": "df821da62de6349a87eb12fc4c47bd3058d42b223646741c47bf8a17ff22e598"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md": {
-      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
-      "sha256": "27c955a8f737340762ad35dd4533166220763867a9715fa6c6641eaf948840e2"
+      "reason": "M0:ERT-1, ERT-7, ERT-9, PED-3, PED-5.obj, PED-6, PED-10, BIZT-6, BIZT-8, BIZT-10, BIZT-11, IMPL-6, IMPL-7, IMPL-8, NYELV-G1-2, G1-5, G1-6, G1-7, G1-8, G1-11, G1-12, G1-13, G1-15, G2-1.obj, G2-3, G2-4, G2-5, G2-6, G2-12, G2-14, G2-16, G2-17, G2-18 (M0.A), G2-21: validált M0 findingok javítása (AP-2026-10-11-01)",
+      "sha256": "c8b0cca889873b8c32db05fabb29302e6b06cae7ae673fe7294bec48e0d3956c"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md": {
-      "reason": "FREEZE-A (R-1, R-2, R-11, IMPL-2, SAFE-6; D-a…D-j, PILOT-1…4, D-i): 2026-10-05 pilot-ütemezés – régi dátumok superseded, BSPEC-05/06/07 regisztrálva, 36 checklist-tétel jelölve, a Memuna-átnézés hatóköre a GK §2 szerint, M0.3 completion-sor a D-i szerint",
-      "sha256": "728e27e781fa9f6637a7b34291fb906324d4a044431e3885fcc0c85ee412f583"
+      "reason": "M0:ERT-1, ERT-7, ERT-9, PED-3, PED-5.obj, PED-6, PED-10, BIZT-6, BIZT-8, BIZT-10, BIZT-11, IMPL-6, IMPL-7, IMPL-8, NYELV-G1-2, G1-5, G1-6, G1-7, G1-8, G1-11, G1-12, G1-13, G1-15, G2-1.obj, G2-3, G2-4, G2-5, G2-6, G2-12, G2-14, G2-16, G2-17, G2-18 (M0.A), G2-21: validált M0 findingok javítása (AP-2026-10-11-01)",
+      "sha256": "29e26404a69c973892b8851bfe94dafd70d80916ddf115f5cd010f06dbd8164d"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md": {
-      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
-      "sha256": "fcdeceb47ecff04c717c09a84301e396fa62be83274e37cbb130a7bccd6dfb36"
+      "reason": "M0:ERT-1, ERT-7, ERT-9, PED-3, PED-5.obj, PED-6, PED-10, BIZT-6, BIZT-8, BIZT-10, BIZT-11, IMPL-6, IMPL-7, IMPL-8, NYELV-G1-2, G1-5, G1-6, G1-7, G1-8, G1-11, G1-12, G1-13, G1-15, G2-1.obj, G2-3, G2-4, G2-5, G2-6, G2-12, G2-14, G2-16, G2-17, G2-18 (M0.A), G2-21: validált M0 findingok javítása (AP-2026-10-11-01)",
+      "sha256": "0cf484223e3b15b0d879443ce6cf22b9f9f5f0548717c0df17a69cfa6b42a74c"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "ca7f814ac042080306161a68be86592166d7f25b74cc8753db042b5aa22b05e4"
+      "reason": "M0:ERT-1, ERT-7, ERT-9, PED-3, PED-5.obj, PED-6, PED-10, BIZT-6, BIZT-8, BIZT-10, BIZT-11, IMPL-6, IMPL-7, IMPL-8, NYELV-G1-2, G1-5, G1-6, G1-7, G1-8, G1-11, G1-12, G1-13, G1-15, G2-1.obj, G2-3, G2-4, G2-5, G2-6, G2-12, G2-14, G2-16, G2-17, G2-18 (M0.A), G2-21: validált M0 findingok javítása (AP-2026-10-11-01)",
+      "sha256": "2ce24d9676ad7020f2bc34a56caa75a852a7afe884e3dcb6ad2d2dd6b31eb71d"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "A11Y-15 (IMPL-15-1, IMPL-15-2), A11Y-18 (IMPL-18-1, IMPL-18-2): M3 drag-free default (Multiple Choice single-answer, per-answer feedback) and downloadable submission templates M1/M2/M3/M4/M7 v1",
