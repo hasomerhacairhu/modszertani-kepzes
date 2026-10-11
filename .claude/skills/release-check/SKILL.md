@@ -1,6 +1,6 @@
 ---
 name: release-check
-description: Objektív, gépi release-ellenőrzés a teljes repón — content_integrity és release-verdikt, media-manifest validáció és regressziós tesztek, whitespace, governance-konfiguráció, answer-key és küszöbváltozások a diffen. Nem módosít semmit; külön subagentben fut, és tömör riportot ad. Futtasd tartalmi módosítás után és release előtt.
+description: Objektív, gépi release-ellenőrzés a teljes repón — content_integrity és release-verdikt, media-manifest validáció és regressziós tesztek, whitespace, governance-konfiguráció, answer-key és küszöbváltozások a diffen. Nem módosít semmit; külön subagentben fut, és tömör riportot ad. Futtasd tartalmi módosítás után, a /course-autopilot checkpointjain és záró QA-jában, és release előtt.
 context: fork
 agent: release-checker
 background: false
@@ -17,7 +17,8 @@ allowed-tools:
   - Bash(python3 -m json.tool .claude/settings.json*)
   - Bash(bash -n .claude/hooks/*)
   - Bash(bash .claude/hooks/guard-repo-safety.sh --selftest)
-  - Bash(bash .claude/hooks/review-agent-allowlist.sh --selftest)
+  - Bash(python3 tools/autopilot_ledger.py --selftest)
+  - Bash(python3 tools/autopilot_ledger.py validate)
   - Bash(bash .github/read-only-workflows.sh)
   - Bash(bash .github/read-only-workflows.sh --selftest)
   - Bash(bash -n .github/read-only-workflows.sh)
@@ -83,8 +84,8 @@ python3 tools/media_manifest.py stats
   `chore(media)` commitban — megnevezed, nem futtatod.
 - A `reconcile` nem rejthet el unmapped/conflict sort.
 - A látható-szöveg teszt bukása: látható szöveg változott pin nélkül (vagy elavult a pin) →
-  `python3 tools/test_media_manifest.py --pin-visible "<ID-k>: <miért>"`, a felhasználó
-  jóváhagyásával — megnevezed, nem futtatod.
+  `python3 tools/test_media_manifest.py --pin-visible "<ID-k>: <miért>"`, amit a hívó futtat,
+  csak validált finding- vagy döntés-ID-kkel — megnevezed, nem futtatod.
 - A tesztek összegzése legyen `OK` skip nélkül; a CI egy skipre is bukik. Lokálisan Pandoc
   nélkül a render-parity skip előfordulhat — ezt jelezd.
 
@@ -116,6 +117,9 @@ nézd meg külön:
 - **ismert regressziók**: a checker `ACTIVE_SPEC_RULES`, `FORBIDDEN_ANYWHERE` és
   `M3_ROLEPLAY_PHRASES` listái — új guard csak bizonyított, ténylegesen előfordult
   regresszióra kerülhet be
+- **látható-szöveg pinek**: `git diff origin/main...HEAD -- tools/approved-visible-text.json` —
+  sorold fel az új vagy változott pineket az indoklásukkal; az az indoklás, amely nem nevez meg
+  finding- vagy döntés-azonosítót, a vétólistára kerül
 
 ## 5. Governance-konfiguráció (mindig, mint a CI-ben)
 
@@ -123,9 +127,9 @@ nézd meg külön:
 python3 -m json.tool .claude/settings.json > /dev/null
 bash -n .claude/hooks/guard-repo-safety.sh
 bash .claude/hooks/guard-repo-safety.sh --selftest
-bash -n .claude/hooks/review-agent-allowlist.sh
-bash .claude/hooks/review-agent-allowlist.sh --selftest
 bash -n .claude/hooks/stop-checks.sh
+python3 tools/autopilot_ledger.py --selftest
+python3 tools/autopilot_ledger.py validate   # a ledger szerkezete; a végállapot a check, nem ez
 bash .github/read-only-workflows.sh --selftest
 bash .github/read-only-workflows.sh
 touch .sandbox-probe                   # sandbox-próba: ennek EL KELL BUKNIA

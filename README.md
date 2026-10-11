@@ -82,23 +82,28 @@ A tananyagon végzett módosításnál:
 ## Fejlesztés Claude Code-dal
 
 A repository verziókezelt Claude Code munkakörnyezetet tartalmaz. A munkarendet a
-[`CLAUDE.md`](./CLAUDE.md) írja le; az audit és a javítás szándékosan külön művelet.
+[`CLAUDE.md`](./CLAUDE.md) írja le: a review és a javítás külön fázis, a munka három
+végrehajtási osztályba esik (autonóm · emberi/külső kapu · védett művelet), és egy engedélyezett
+feladaton belül Claude a skilleket maga is hívhatja.
 
 | Parancs | Mit csinál |
 |---|---|
-| `/course-review <M3 \| fájl> [--lens …]` | read-only tananyag-review specialistákkal, validált **finding**-listával |
-| `/course-fix <findingok>` | csak **validált** findingot javít, sebészi szerkesztéssel |
+| `/course-autopilot <M0-Z \| modulok \| resume>` | a teljes véglegesítési lánc (review → verifikáció → triázs → javítás → regresszió → záró QA) tartós, folytatható ledgerrel |
+| `/course-review <M3 \| fájl> [--lens …]` | read-only tananyag-review specialistákkal, validált **finding**-riporttal az `01 Fejlesztés/04 Audit/`-ban |
+| `/course-fix <riport + ID-k \| findingok>` | csak **validált** findingot vagy lezárt döntést javít, sebészi szerkesztéssel |
 | `/hungarian-edit <fájl>` | szűk hatókörű, jelentésmegőrző magyar nyelvi szerkesztés |
-| `/course-develop <feladat>` | új lecke/peula tervezése és megírása, kötelező review-kapukkal |
+| `/course-develop <feladat>` | új lecke/peula tervezése és megírása, kötelező review-kapukkal (csak kézzel indítható) |
 | `/release-check` | objektív, CI-paritású ellenőrzés a teljes repón: `content_integrity` (release-verdikt), média-manifeszt és -tesztek, whitespace, governance-konfiguráció, diff |
 
 A `--lens` értékei: `pedagogy`, `assessment`, `language`, `safety`, `implementation`, `all`.
 Ha nem tudod, melyik parancs kell: **mindig `/course-review` az első.** A „finding" egy
 bizonyítékkal alátámasztott, helyhez kötött megállapítás; a mezőit a
-[`.claude/finding-format.md`](./.claude/finding-format.md) írja le.
+[`.claude/finding-format.md`](./.claude/finding-format.md) írja le. Autonóm futás:
+`claude --permission-mode auto`, majd a [`course-autopilot`](./.claude/skills/course-autopilot/SKILL.md)
+skillben leírt `/goal` sor; az állapot az `01 Fejlesztés/04 Audit/AUTOPILOT-LEDGER.md`.
 
-A `/course-review` és a `/release-check` külön, read-only subagentben fut, és csak a riportot
-adja vissza. A védelem három rétegű (részletek: [CLAUDE.md](./CLAUDE.md) „Git-biztonság”):
+A review-t read-only lencse-ügynökök végzik, a `/release-check` külön, read-only subagentben fut.
+A védelem három rétegű (részletek: [CLAUDE.md](./CLAUDE.md) „Git-biztonság”):
 az OS-szintű **sandbox** a Bash-parancsoknak az egész repót (a `.git`-et is) írásvédetté teszi
 (egyetlen szűk másolóút: a `tools/audit_import.py` kész audit-fájlt tesz az `01 Fejlesztés/04 Audit/`
 mappába);
