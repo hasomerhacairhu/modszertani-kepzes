@@ -595,7 +595,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
 | `M4.B-MUNK-01` | worksheet | legyártandó | specifikáció kész | Kilépőkártya / öntapadós jegyzet sablon (2 kérdés) | — | nyomtatható PDF | emberi |
-| `M4.B-MUNK-02` | worksheet | legyártandó | specifikáció kész | Gyors peulabemutató-vázlat mini-sablon (B-terv munkalap) | — | nyomtatható PDF | emberi |
+| `M4.B-MUNK-02` | worksheet | legyártandó | specifikáció kész | Gyors peulabemutató-vázlat minisablon (B-terv munkalap) | — | nyomtatható PDF | emberi |
 | `M4.B-MUNK-03` | worksheet | legyártandó | specifikáció kész | Képzői checklist (1 A4) | — | nyomtatható PDF | emberi |
 | `M4.B-POSZ-01` | poster | legyártandó | specifikáció kész | Kérdéstípusok flipchart-/poszter-sablon (4 típus) | — | nyomtatható PDF | vegyes |
 
