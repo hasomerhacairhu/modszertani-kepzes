@@ -2,214 +2,168 @@
 
 ## Mi ez a repository
 
-A Hasomer Hacair blended madrihképzésének (ifjúsági vezetőképzés) teljes módszertani
-fejlesztési és implementációs specifikációja. Moduláris felépítés: **M0–M7 + Z**,
-mastery learning alapon, Moodle/H5P célplatformra.
+A Hasomer Hacair blended madrihképzésének (ifjúsági vezetőképzés) módszertani specifikációja:
+**M0–M7 + Z** modul, mastery learning, Moodle/H5P célplatform.
 
-- `02 Tervezet/` — **ez az aktív tananyag.** Minden más ezt szolgálja.
-- `01 Fejlesztés/04 Audit/` — **audit trail, nem tanulói tartalom, nem aktuális kánon.**
-  Az auditnaplók a múltat rögzítik; egy ottani mondat nem specifikáció. Két kivétel, mert
-  hivatkozott forrás: a `DEEP-AUDIT-RUBRIC.md` (a reviewerek dimenziólistája) és a
-  projektgazdai döntési jegyzőkönyvek (a HUM-tételek bizonyítéka).
-- `tools/content_integrity.py` — központi statikus tartalmi integritás-ellenőrző.
-- `tools/media_manifest.py` + `tools/test_media_manifest.py` — a média-manifest
-  fordító/validátor és regressziós tesztréteg; a CI ezt külön, teljes historyval futtatja.
-- A korpusz **AFFiNE-ból exportált**: a természetellenes magyar mondatok jelentős része
-  export- és gépifordítás-maradvány, nem szándékos szerzői stílus.
-- A hanggyártás (kanonikus narrátorhang, kiejtési szótár, renderelés) egy külön, privát VO
-  QA-repóban él; az ide szóló javításait fix packként adja át, amit a `/course-fix` visz be.
+- `02 Tervezet/` — **az aktív tananyag.** Minden más ezt szolgálja.
+- `01 Fejlesztés/04 Audit/` — audit trail, nem kánon; hivatkozott forrás belőle a
+  `DEEP-AUDIT-RUBRIC.md`, a döntési jegyzőkönyvek, a validált riportok és az `AUTOPILOT-LEDGER.md`.
+- Gépi ellenőrzés: `tools/content_integrity.py` (integritás, release-verdikt), `tools/media_manifest.py`
+  + `tools/test_media_manifest.py` (média, látható-szöveg pinek), `tools/autopilot_ledger.py`.
+  Más lintert nem építünk.
+- A korpusz AFFiNE-ból exportált: a természetellenes magyar mondatok nagy része export- és
+  gépifordítás-maradvány, nem szerzői stílus.
+- A hanggyártás külön, privát VO QA-repóban él; az ide szóló javításait fix packként adja át.
 
-## Kánoni forrás-sorrend és a döntések helye
+## Kánon és döntések
 
 1. `02 Tervezet/Program terv.md` — program-architektúra
 2. `02 Tervezet/Modulok/` — modul-, lecke-, peula- és kapuspecifikáció
 3. `02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md` — terminológia
 4. `02 Tervezet/Emberi jóváhagyás szükséges.md` + a release-gate dokumentumok
-5. `01 Fejlesztés/04 Audit/` — előzmény, nem kánon (a fenti két kivétellel)
 
-Ha 1–4 ellentmond egymásnak, az **finding**; ne válassz közülük magadtól. **Kivétel:** egy
-lezárt projektgazdai döntés az 1–3. források fölött áll — ha egy forrás ellentmond neki, az
-a forrás javítandó.
-
-**Hol élnek a döntések:** projektgazdai döntések → `Emberi jóváhagyás szükséges.md` (a
-`LEZÁRVA` tételek és a 8. szakasztól kezdődő datált döntés-szakaszok); bizonyítékuk →
-`01 Fejlesztés/04 Audit/` döntési jegyzőkönyvei; média- és hangdöntések →
-`02 Tervezet/Média-assetek/PRODUCTION-DECISIONS.md` (ezek lezárt döntései ugyanúgy kötnek);
-release-kapuk → `RELEASE-READINESS.md`.
-A gépi állapotot a `python3 tools/content_integrity.py --release-report` két verdikt-sora adja
-(release-modell v2, 2026-10-04): a `MOODLE-BUILD-VERDICT` (`NOT_READY` / `READY_FOR_STAGING_BUILD`:
-felépíthető-e Moodle-stagingben) és a `LEARNER-RELEASE-VERDICT` (`NO-GO` / `CONTENT_READY /
-MEDIA_PENDING` / `READY_FOR_CONTROLLED_PILOT`: odaadható-e valódi résztvevőknek kontrollált
-pilotként); a régi `RELEASE-VERDICT` sor egy release-ciklusig ennek aliasa. Más forrásból
-(riportból, emlékezetből) build- vagy release-állapotot nem állítasz. A `READY_FOR_STAGING_BUILD`
-nem release-jóváhagyás; a kontrollált pilothoz ezen felül a G1–G8 kapuk szerepköri bizonyítéka
-(`FINAL_RELEASE_QA`) és a go/no-go döntés kell: egy HUM-tétel lezárása nem release-jóváhagyás, és
-a `READY_FOR_CONTROLLED_PILOT` verdikt sem az.
-
-## Emberi döntési határok
-
-Ezekben Claude **nem dönt és nem talál ki választ** — findingot ír, és megáll:
-
-- **kiskorúak szerepe**: a madrih maga is lehet kiskorú, nem ő az egyedüli felelős
-  felnőtt, és nem kaphat önálló hatósági vagy jogi döntéshozói szerepet
-- gyermekvédelmi szakpolitika, eszkalációs szabály, szakértői gate
-- jogi álláspont, GDPR-jogalap, AI Act-besorolás, szolgáltatási feltétel
-- adatvédelmi (DPO) döntés: adatkör, megőrzés, hozzáférés
-- helyi someres ideológiai vagy terminológiai döntés
-- szervezeti jóváhagyás, release sign-off
-
-A határok az **új**, illetve a lezárt döntésen túlmenő kérdésekre érvényesek. Lezárt
-projektgazdai döntést követsz és átvezetsz, nem nyitsz újra; a megnevezett szerepek írásos
-bizonyítéka **bizonyíték-kapu**, nem nyitott döntés — nem írod be és nem feltételezed. A
-definíció egyetlen helye: `.claude/rules/safety-and-human-gates.md` „Lezárt döntések”.
+Ha 1–4 ellentmond egymásnak, az finding; ne válassz közülük magadtól. Egy **lezárt
+projektgazdai döntés** az 1–3. fölött áll: ha egy forrás ellentmond neki, a forrás javítandó.
+Döntések: `Emberi jóváhagyás szükséges.md` (`LEZÁRVA` tételek és a 8. szakasztól a datált
+szakaszok), média és hang: `02 Tervezet/Média-assetek/PRODUCTION-DECISIONS.md`; bizonyítékuk a
+`04 Audit` döntési jegyzőkönyveiben. Mi számít lezárt döntésnek és mi bizonyíték-kapunak:
+egyetlen definíció, `.claude/rules/safety-and-human-gates.md` „Lezárt döntések”. Lezárt döntést
+követsz és átvezetsz, nem nyitsz újra.
 
 **Írásmód** (HUM-SOMER-02): `madrih`, `hanih`, `hágsámá`, `dugma isit`, `Leviatán`.
 **Nyilvános repó** (projektgazdai döntés, 2026-10-03): a hangok szerepnéven szerepelnek
-(„kanonikus narrátorhang”, „második hang”), a forrás-beszélők `VOICE-SRC-01/02` álnéven;
-a hangok saját neve és a privát VO QA-repó neve nem kerülhet commitba, üzenetbe sem.
+(„kanonikus narrátorhang”, „második hang”), a forrás-beszélők `VOICE-SRC-01/02` álnéven; a hangok
+saját neve és a privát VO QA-repó neve nem kerülhet commitba, üzenetbe, PR-be.
 
-## Munkarend
+## Tananyag-invariánsok (részletek: `.claude/rules/`)
 
-**Előbb értsd meg → tervezz → módosíts → tesztelj → olvasd vissza a diffet.**
+- A jelentés nem változhat véletlenül: amit nem tudsz hibásnak bizonyítani, nem írod át.
+- Answer key, küszöb, ponthatár, időtartam, rubrikaszint, kapu-típus, completion-feltétel és a
+  kötelező/opcionális besorolás csak bizonyított objektív hibánál vagy lezárt döntés alapján
+  változik, a bizonyítékkal, a vétólistán jelentve.
+- Gyermekvédelmi, adatvédelmi, AI- és akadálymentesítési kikötés nem törölhető. A madrih maga is
+  lehet kiskorú: nem ő az egyedüli felelős felnőtt, és nem kap hatósági vagy jogi döntési szerepet.
+- Szemantikus azonosító (`M3.2`, `Z.4`) nem sorszám; fájlnév és a rá mutató link együtt mozog
+  (átnevezés, kemény sortörés: `.claude/rules/course-content.md`).
+- A `02 Tervezet/Média-assetek/` generált kimeneteit csak a `python3 tools/media_manifest.py
+  build` írja (külön `chore(media)` commitban); a `tools/approved-visible-text.json`-t csak a
+  `--pin-visible`.
+- Tananyagot és governance-fájlt csak `Edit`/`Write` eszközzel szerkesztesz: a `.claude/rules/`
+  path-szabályai csak így töltődnek be, és a sandbox a Bash-írást a repóba OS-szinten tiltja.
+- A `02 Tervezet/` alá nem kerül governance- vagy folyamatdokumentum; egyetlen kivétel a
+  `02 Tervezet/Média-assetek/` produkciós területe.
 
-Az **audit és a javítás külön művelet.** Review soha nem szerkeszt tananyagot; javítás
-soha nem indít új teljes auditot. A folyamat:
+## Végrehajtási osztályok
 
-`/course-review` → validált findingok → **emberi döntés** → `/course-fix` vagy
-`/hungarian-edit` → `/release-check`. Új lecke vagy peula: `/course-develop`.
+Egy kifejezetten engedélyezett feladaton belül (pl. „/course-autopilot M0-Z”, „javítsd a validált
+M3 findingokat”) minden lépés három osztály egyikébe esik.
 
-### Tananyagon ad hoc ne dolgozz
+| Osztály | Mi tartozik ide | Mit teszel |
+|---|---|---|
+| **AUTONÓM** | olvasás; specialista review, verifikáció, deduplikálás; validált objektív finding és lezárt projektgazdai döntés javítása a scope-on belül, a közvetlen következmény-frissítésekkel; helyi tesztek és média-validáció; engedélyezett generált output (`build`, `--pin-visible` finding-ID-kkel); audit-napló, ledger, helyi commit munkaágon; továbblépés a következő független tételre | kérdés nélkül végzed, és bizonyítékot rögzítesz |
+| **EMBERI / KÜLSŐ KAPU** | új gyermekvédelmi, eszkalációs vagy szakértői szabály; a kiskorú madrih szerepét érintő új szabály; új jogi, GDPR-, AI Act- vagy szolgáltatási értelmezés; DPO-döntés (adatkör, megőrzés, hozzáférés); nyitott helyi someres ideológiai vagy terminológiai kérdés; valódi küszöb-, kompetencia- vagy értékelési döntés; új pedagógiai tartalom; hiányzó szerepköri jóváhagyás (bizonyíték-kapu); valós Moodle-runtime bizonyíték | a tételt a pontos bizonyítékkal és döntési igénnyel (mit, kitől) rögzíted, **nem implementálod**, és **folytatod** a tőle független munkát |
+| **VÉDETT MŰVELET** | `git push`, PR nyitása vagy mergelése, írás a mainre, force push és history-átírás, éles telepítés, valódi tanulói hozzáférés, érzékeny vagy személyes adat közzététele, a scope-on kívüli külső művelet, governance-fájl módosítása | csak kifejezett, erre a műveletre szóló felhatalmazással; a platform rákérdezése ilyenkor is megjelenik |
 
-A fenti garanciák (read-only reviewerek, adverzális ellenőrzés, finding-formátum,
-emberi kapuk) **a skillek belsejében élnek**. A `/course-review`, `/course-fix`,
-`/hungarian-edit` és `/course-develop` skillt csak a felhasználó indíthatja el (a nem
-mutáló `/release-check`-et Claude is futtathatja). Ezért:
+Ha nem tudod eldönteni, AUTONÓM-e egy tétel: EMBERI KAPU. Egy hiányzó jóváhagyás rögzítése nem a
+jóváhagyás megadása; runtime-, QA- vagy release-bizonyítékot nem gyártasz és nem következtetsz ki.
+Kánonból bizonyítható javításhoz nem kérsz jóváhagyást; rutinkérdéssel nem állítod meg a munkát.
 
-- Ha a kérés review, audit vagy „nézd át" jellegű → mondd meg, hogy a belépő
-  `/course-review <scope>`, és **várd meg**. Ne kezdj el a fő contextben átvizsgálni.
-- Ha a kérés tananyag-javítás → `/course-fix` (tartalmi) vagy `/hungarian-edit` (nyelvi).
-- Ha a kérés új tananyag → `/course-develop`.
-- Egyetlen kivétel: a felhasználó által **konkrétan megnevezett, egyetlen** apró
-  javítás, amit ő maga már azonosított.
+## Skillek és delegálás
 
-**Két szándékos kivétel a review ↔ javítás szétválasztás alól**, mert mindkettő egyetlen
-fájlon belül, bizonyítható hibán dolgozik: a `/hungarian-edit` maga jelöli ki a nyelvi
-hibákat (tartalmi, pedagógiai vagy policy-hibát soha), a `/course-develop` pedig a
-saját, most írt fájlján futtatja a review-kapukat és javít. Máshol nem.
+| Skill | Mire | Ki indítja |
+|---|---|---|
+| `/course-autopilot <M0-Z \| modulok \| resume>` | a teljes PREFLIGHT → … → REPORT lánc, tartós ledgerrel | felhasználó vagy Claude |
+| `/course-review <scope> [--lens …]` | read-only, többlencsés review + adverzális verifikáció → validált riport az `04 Audit`-ban | felhasználó vagy Claude |
+| `/course-fix <riport + ID-k \| findingok \| fix pack>` | validált objektív finding és lezárt döntés sebészi javítása | felhasználó vagy Claude |
+| `/hungarian-edit <fájl>` | egyfájlos, jelentésmegőrző nyelvi szerkesztés | felhasználó vagy Claude |
+| `/release-check` | független, read-only gépi ellenőrzés (CI-paritás) | felhasználó vagy Claude |
+| `/course-develop <feladat>` | új lecke vagy peula — a tervet a projektgazda hagyja jóvá | csak a felhasználó |
 
-**Tananyagot és governance-fájlt csak `Edit`/`Write` eszközzel szerkessz.** A `.claude/rules/`
-útvonalhoz kötött szabályai `Read`/`Edit`/`Write` eszköznél töltődnek be, Bash-nél nem. Ezért
-a sandbox (lásd „Git-biztonság”) OS-szinten tiltja a Bash-írást az egész repóba, a hook pedig
-érthető üzenettel előre megfogja a gyakori alakokat (sed/perl/awk helyben, tee, átirányítás,
-cp/mv, patch, inline szkript).
-
-## Kontextus-fegyelem
-
-- Egy jól körülhatárolt scope egyszerre: egy modul, egy fájl, egy lencse.
-- Nagy kutatás és többfájlos átolvasás **specialista subagentbe** megy, nem a fő
-  contextbe. A subagent rövid finding-listát ad vissza, nem fájldumpot.
-- Nem összefüggő workstream között `/clear`.
-- Ne olvass be teljes korpuszt „biztos, ami biztos" alapon.
-- Hosszú, többügynökös futásnál a pótolhatatlan bemenetet (a projektgazda szó szerinti
-  válasza, döntési csomag, validált finding-lista) azonnal tartós helyre írd
-  (`01 Fejlesztés/04 Audit/` vagy commit egy munkaágon): a `/private/tmp` scratchpad
-  újraindításkor törlődik.
-- **Governance-változás után új session.** A subagentek a session indulásakor betöltött
-  CLAUDE.md-t és szabályokat kapják: egy CLAUDE.md- vagy `.claude/**`-commit után indíts új
-  sessiont, mielőtt skillt vagy review-t futtatsz. Claude Code 2.1.283-tól a `/doctor
-  prompt-audit` hiányzó hivatkozást és egymásnak ellentmondó szabályt is keres; régebbi
-  verzión ez nincs (`claude --version`).
-- A projekt beállításai (hook, deny/ask szabályok, sandbox) csak akkor töltődnek be, ha a
-  Claude Code a repó gyökeréből indul.
+- Munkarend: előbb értsd meg → tervezz → módosíts → tesztelj → olvasd vissza a diffet.
+- Review-, audit- vagy „nézd át” kérésre `/course-review`; tananyag-javításra `/course-fix` vagy
+  `/hungarian-edit`; több modulra vagy a kurzus véglegesítésére `/course-autopilot`. Ezeket a
+  Skill eszközzel indítod, és a szabályaik kötnek; ad hoc, skill nélkül csak a felhasználó által
+  konkrétan megnevezett, egyetlen apró javítást végzel.
+- A review és a javítás külön fázis: review közben nem szerkesztesz tananyagot (a lencse-reviewerek
+  és a `verifier` read-only: `Read`, `Grep`, `Glob`, néhol web), javítás közben nem indítasz
+  teljes új auditot — a javítás után célzott, diffre szabott ellenőrzés jön. Két szándékos
+  kivétel, egy fájlon belül: a `/hungarian-edit` maga jelöli ki a nyelvi hibákat (tartalmit
+  soha), a `/course-develop` a saját, most írt fájlján futtatja a review-kapukat és javít.
+- Egy scope egyszerre; teljes korpuszt „biztos, ami biztos” nem olvasol be. Nagy átolvasás
+  subagentbe megy, nem a fő contextbe; párhuzamosan csak read-only ügynökök futnak (egyszerre
+  legfeljebb 8); tananyagot csak a fő session ír, sorban.
+- Finding-formátum: `.claude/finding-format.md`; review-dimenziók: `01 Fejlesztés/04 Audit/DEEP-AUDIT-RUBRIC.md`.
 
 ## Git-biztonság
 
-- A branchen **lehetnek pusholatlan felhasználói commitok. Semmit ne dobj el.**
-- Tilos: `reset --hard`, `reset <commit>` (akár `--soft`), `clean -f`, `checkout -- .` és
-  `checkout <út>`, `restore` (working tree), `rebase`, `commit --amend`, force push, bármilyen
-  history rewrite — a rövidített opcióalakok is (`--har`, `--amen`). A
-  `.claude/hooks/guard-repo-safety.sh` hook ezeket blokkolja.
-- **Három réteg.** (1) **Sandbox** — az írási határ: a Bash-parancsok OS-szintű sandboxban
-  futnak (`.claude/settings.json` `sandbox`), és a repóba — a `.git`-et is beleértve — semmit
-  nem írhatnak, bárhogy van leírva a parancs; ideiglenes fájl a `$TMPDIR`-be kerül. Sandboxon
-  kívül csak az a hívás fut, amelynek minden része szó szerint `git …` (a repó gyökeréből, `-C`
-  nélkül), `gh …`, `python3 tools/media_manifest.py build` vagy a `--pin-visible` parancs; egy
-  `cd`, egy `git -C <út>`, egy átirányítás vagy bármely más rész (pl. `; echo`, `| wc`) a
-  teljes hívást sandboxban tartja, ahol a `.git` nem írható. A sandbox parancsból nem
-  kapcsolható ki, és ha nem indul, a Claude Code sem indul. Következmény: ebből a sessionből
-  a VO QA-repóba semmi nem írható és nem commitolható — azt a QA-repóból indított session
-  vagy a felhasználó végzi. Ellenőrzés: `/sandbox`, és a `/release-check` sandbox-próbája.
-  (2) **Hook** — a sandboxon kívül futó git/gh hívások őre, engedélylistával: git csak ebben a
-  repóban (és a helyi, nem követett `.git/info/guard-allowed-roots` gyökereiben), csak ismert
-  alparancsokkal, programot futtató vagy fájlba író opció nélkül (`-c` a listán kívül,
-  `git config`-írás, `--upload-pack`/`--exec`/`ext::`, `--output`); gh csak olvasó
-  alparancsokkal, `gh api` GET-tel és PR/issue közzététellel. A hook szöveget elemez, nem
-  futtat — a sandboxon kívüli hívásoknál ez erős, de nem bizonyított határ. Fail closed:
-  értelmezhetetlen bemenet, 100 000 bájtnál hosszabb parancs és 15 mp alatt be nem fejezett
-  elemzés → blokk. (3) **Settings** deny/ask szabályai.
-- `git push` és a GitHubra író gh-parancsok (`gh pr create/merge/close/comment/edit/review/
-  reopen/ready`, `gh issue create/comment/edit/close/reopen`; minden más gh-írás blokkolt)
-  **kizárólag explicit kérésre**, és csak egyszerű, önálló alakban, egyszeres szóközökkel, a
-  repó gyökeréből (`git push origin <branch>`, `gh pr merge <n>`; hosszabb szöveg
-  `--body-file <szó szerinti út>`-tal): ezekre a settings ask-szabálya minden módban rákérdez;
-  minden más alakot (összetett parancs, `git -c … push`, `bash -c`, `gh pr --repo … merge`) a
-  hook blokkol. A GitHubra kerülő szöveget (cím, törzs, `--body-file`) a hook a helyi
-  `.git/hooks/text-name-check`-kel névellenőrzi; ha az ellenőrző hiányzik, a közzététel
-  blokkolt. Távoli branch vagy ref törlése és GitHub API-írás blokkolt; távoli branchet a
-  felhasználó töröl.
-- **Push előtt** a névellenőrzés: a VO QA-repó `tools/check-course-push.py --range
-  origin/main..<branch>`; a helyi `.git/hooks/pre-push` ezt, valamint a ref-neveket és az
-  annotált tagek üzenetét minden pushnál ellenőrzi. Találatnál a branch nem pusholható.
-- A merge módját a felhasználó választja; atomikus átnevezést tartalmazó PR-nél a merge
-  commit megőrzi az átnevezés-commitot (PR #12).
-- A CI kizárólag olvasó-ellenőrző (`.github/read-only-workflows.sh` allowlist; 2026-09-29-én
-  egy író jogú job közvetlenül a main-re pusholt). A rebuild lokálisan, külön `chore(media)`
-  commitban készül.
-- Felhasználói checkpoint-commitot ne amendelj és ne írj felül.
+- A brancheken lehetnek pusholatlan felhasználói commitok és nem commitolt munka: **semmit ne dobj
+  el.** Tilos: `reset --hard` és `reset <commit>` (`--soft` is), `clean -f`, `checkout -- <út>`,
+  `restore` (working tree), `rebase`, `commit --amend`, force push, bármilyen history-átírás — a
+  rövidített opcióalakok is.
+- Három réteg. (1) **Sandbox** (`.claude/settings.json`): a Bash a repóba, a `.git`-et is
+  beleértve, nem ír; ideiglenes fájl a `$TMPDIR`-be kerül. Sandboxon kívül csak az a hívás fut,
+  amelynek **minden része** szó szerint `git …` (a repó gyökeréből, `-C` nélkül), `gh …`,
+  `python3 tools/media_manifest.py build`, a `--pin-visible`, vagy a
+  `python3 tools/audit_import.py <forrás.md> "<fájlnév.md>"` (kész `.md` a munkamenet ideiglenes
+  területéről, csak az `01 Fejlesztés/04 Audit/`-ba, követett fájl felülírása nélkül, a
+  névellenőrzés után). Egy `cd`, `git -C`, `| head`, `; echo` vagy átirányítás a teljes hívást
+  sandboxban tartja — a git-írás ezért mindig önálló hívás. A sandbox parancsból nem kapcsolható
+  ki; a privát VO QA-repóba ebből a sessionből semmi nem írható. (2) **Hook**
+  (`.claude/hooks/guard-repo-safety.sh`): a sandboxon kívüli git/gh hívások engedélylistája, fail
+  closed. (3) **Settings** deny/ask szabályai — az ask minden módban, auto módban is rákérdez.
+- Commit: egy engedélyezett feladaton belül, helyi munkaágon AUTONÓM (`git commit -F
+  <$TMPDIR-fájl>`, csak a saját útvonalaid). A mainre nem commitolsz; felhasználói commitot nem
+  amendelsz és nem írsz felül.
+- `git push` és a GitHubra író `gh` parancsok VÉDETTEK: csak kifejezett kérésre, egyszerű, önálló
+  alakban, a repó gyökeréből (`git push origin <branch>`, `gh pr create … --body-file <út>`); a
+  settings minden módban rákérdez, más alakot a hook blokkol. A GitHubra kerülő szöveget a helyi
+  `.git/hooks/text-name-check`, a pusht a `.git/hooks/pre-push` névellenőrzi; találatnál nincs
+  push. Távoli branch törlése és GitHub API-írás blokkolt. A merge módját a felhasználó
+  választja; átnevezést tartalmazó PR-nél a merge commit megőrzi az átnevezés-commitot (PR #12).
+- A CI kizárólag olvasó-ellenőrző (`.github/read-only-workflows.sh`); a teljes, CI-paritású
+  ellenőrzőlista a `/release-check` — ha a CI-ba új lépés kerül, a skill is frissül.
 
-## Kötelező ellenőrzések tartalmi módosítás után
+## Ellenőrzés és release
+
+Tartalmi módosítás után, a végállapoton:
 
 ```bash
-python3 -X pycache_prefix="${TMPDIR:-/tmp}/pyc" -m py_compile tools/*.py   # szintaxis; a bytecode a $TMPDIR-be (a repó sandboxból nem írható)
+python3 -X pycache_prefix="${TMPDIR:-/tmp}/pyc" -m py_compile tools/*.py
 python3 tools/content_integrity.py               # 0 ERROR kötelező
-python3 tools/media_manifest.py check            # elcsúszás → python3 tools/media_manifest.py build
-python3 tools/media_manifest.py reconcile        # történeti sorok egyeztetve
-python3 -m unittest tools.test_media_manifest    # média-regressziós tesztek + látható-szöveg pinek
-git diff --check                                 # nem commitolt változás
-git diff --check origin/main...HEAD              # a CI a teljes PR-tartományt nézi (merge-base óta)
+python3 tools/media_manifest.py check            # elcsúszás → build, külön chore(media) commit
+python3 tools/media_manifest.py reconcile
+python3 -m unittest tools.test_media_manifest    # látható szöveg változott → --pin-visible
+git diff --check && git diff --check origin/main...HEAD
 git diff                                         # olvasd vissza a saját változtatásodat
 ```
 
-- **Látható szöveg változott** → a teljes diff visszaolvasása után, változtatáskészletenként
-  egyszer: `python3 tools/test_media_manifest.py --pin-visible "<finding-/HUM-ID-k>: <miért>"`
-  (rákérdez). A `tools/approved-visible-text.json`-t kézzel soha ne szerkeszd.
-- Kemény sortörés, átnevezés, generált kimenetek: `.claude/rules/course-content.md`.
-- A Stop-hook nem enged úgy befejezni egy kört, hogy a tananyag nem commitolt változásai
-  `content_integrity` vagy whitespace-hibát okoznak.
-
-A teljes, CI-paritású lista a `/release-check`; ha a CI-ba új lépés kerül, a skill is frissül.
-A CI Pandocot telepít, és bukik, ha bármely média-teszt skippel.
+- Látható szöveg változott → a teljes diff visszaolvasása után, változtatáskészletenként egyszer
+  `python3 tools/test_media_manifest.py --pin-visible "<finding-/HUM-ID-k>: <miért>"`; az
+  indoklás csak validált finding- vagy döntés-azonosítót nevezhet meg.
+- Logikai checkpointnál és a végén `/release-check`; közben diffre szabott, célzott ellenőrzés.
+  A Stop-hook nem enged úgy befejezni egy kört, hogy a tananyag nem commitolt változásai
+  `content_integrity`- vagy whitespace-hibát okoznak.
+- Build- és release-állapotot csak a `python3 tools/content_integrity.py --release-report` két
+  verdikt-sora ad: `MOODLE-BUILD-VERDICT` és `LEARNER-RELEASE-VERDICT` (a `RELEASE-VERDICT` egy
+  ciklusig alias). Sem a `READY_FOR_STAGING_BUILD`, sem a `READY_FOR_CONTROLLED_PILOT` nem
+  release-jóváhagyás: a pilothoz a G1–G8 kapuk szerepköri bizonyítéka (`FINAL_RELEASE_QA`) és a
+  go/no-go döntés kell (`02 Tervezet/RELEASE-READINESS.md`); egy HUM-tétel lezárása sem az.
 
 ## Nincs hamis készjelentés
 
-**0 script error ≠ jó tananyag.** Ebben a repositoryban egyszer már egy futás közben
-önmagát átíró automatizmus adott „0 regresszió / validated" jelentést, miközben hét
-javítás félkész maradt a fájlokban. Ezért:
+0 script error ≠ jó tananyag. Ebben a repóban egyszer már egy önmagát átíró automatizmus adott
+„0 regresszió” jelentést, miközben hét javítás félkész maradt. Bizonyíték **kizárólag a
+végállapot visszaolvasása** (fájl, diff, parancskimenet), nem egy riport vagy a ledger. Ami
+kimaradt, elbukott vagy bizonytalan, azt kimondod; „kész”-t csak arra írsz, amit a fájlban
+ellenőriztél — governance-munkánál is, ahol független ellenőrzés nélkül semmi sem „naprakész”.
+Egy invariáns-ellenőrzés utasítás-osztályra nézzen, ne egyetlen szó szerinti mondatra.
 
-- Bizonyíték **kizárólag a végállapot visszaolvasása**, nem a záró riport.
-- Ha egy lépés kimaradt, elbukott vagy bizonytalan, mondd ki.
-- „Kész"-t csak arra írj, amit ténylegesen a fájlban ellenőriztél — governance-munkánál is:
-  egy független ellenőrzés eredménye nélkül nem „naprakész”.
-- Egy invariáns-ellenőrzés utasítás-osztályra nézzen, ne egyetlen szó szerinti mondatra.
+## Hosszú futás, folytatás, új session
 
-## Ebben a repositoryban NE
-
-- ne írj governance- vagy folyamatdokumentumot a `02 Tervezet/` alá (az tananyag).
-  **Egyetlen, szűk kivétel:** a `02 Tervezet/Média-assetek/` mappa a média-produkció
-  saját területe — ide tartoznak az asset-specifikációk, a produkciós szabályok, a
-  döntési nyilvántartások és a generált produkciós nézetek, mert közvetlenül az aktív
-  tananyagot valósítják meg. Ez **nem** ad engedélyt általános projekt-governance vagy
-  folyamatdokumentum írására a `02 Tervezet/` bármely más pontján
-- ne építs második linter-rendszert a `tools/content_integrity.py` mellé
-- ne szerkeszd kézzel a `02 Tervezet/Média-assetek/` generált kimeneteit (lista:
-  `.claude/rules/course-content.md` „Generált tartalom”)
+- A pótolhatatlan bemenetet (a projektgazda szó szerinti válasza, döntési csomag, validált
+  finding-lista, nyers lencse-kimenet) azonnal az `01 Fejlesztés/04 Audit/`-ba írod: a scratchpad
+  újraindításkor törlődik. Az autopilot állapota az `AUTOPILOT-LEDGER.md`; folytatás:
+  `python3 tools/autopilot_ledger.py next`; indítás és `/goal`: a `course-autopilot` skill.
+- A projekt-beállítások (hook, deny/ask, sandbox) csak a repó gyökeréből indított sessionben
+  töltődnek be. Governance-változás (CLAUDE.md, `.claude/**`) után **új session** kell: a subagentek
+  az induláskor betöltött szabályokat kapják. A `/doctor prompt-audit` 2.1.283-tól érhető el.

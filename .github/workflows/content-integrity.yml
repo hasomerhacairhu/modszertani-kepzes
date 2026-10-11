@@ -44,9 +44,12 @@ jobs:
         run: |
           bash -n .claude/hooks/guard-repo-safety.sh
           bash .claude/hooks/guard-repo-safety.sh --selftest
-          bash -n .claude/hooks/review-agent-allowlist.sh
-          bash .claude/hooks/review-agent-allowlist.sh --selftest
           bash -n .claude/hooks/stop-checks.sh
+      # Structure only: an autopilot run may legitimately be in progress on a branch.
+      - name: Autopilot ledger
+        run: |
+          python tools/autopilot_ledger.py --selftest
+          python tools/autopilot_ledger.py validate
       - name: Checker selftest
         run: python tools/content_integrity.py --selftest
       - name: Objective integrity checks

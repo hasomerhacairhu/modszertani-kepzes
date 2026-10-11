@@ -5,7 +5,7 @@ paths:
 
 # Biztonsági és emberi döntési kapuk
 
-Ez a fájl arról szól, **mikor kell megállni.** A tananyag kiskorúakkal dolgozó
+Ez a fájl arról szól, **mit nem dönthetsz el.** A tananyag kiskorúakkal dolgozó
 ifjúsági vezetőket képez; több kérdésben a helyes válasz nem levezethető a repóból.
 
 ## Állítás-osztályok — mindig különítsd el
@@ -14,13 +14,13 @@ ifjúsági vezetőket képez; több kérdésben a helyes válasz nem levezethet�
 |---|---|
 | **TÉNY** | ellenőrizhető elsődleges forrásból; javítható, ha bizonyítottan hibás |
 | **PROJEKT-DÖNTÉS** | a repóban már rögzített szándék; követni kell, nem újraértelmezni |
-| **EMBERI JÓVÁHAGYÁS KELL** | findingot írsz és megállsz — nem írsz be „ésszerű" választ |
+| **EMBERI JÓVÁHAGYÁS KELL** | findingot írsz, a tételt blokkoltként rögzíted (`BLOCKED_HUMAN`: mit kell eldönteni, kinek), **nem implementálod**, és a tőle független munkával folytatod — nem írsz be „ésszerű" választ |
 
 Ha nem tudod eldönteni, melyik osztály: az **EMBERI JÓVÁHAGYÁS KELL**.
 
-## Megállási jelek
+## Emberi kapu jelei
 
-Állj meg és jelezz, ha a szöveg ezekhez nyúlna:
+Ne implementáld, hanem rögzítsd és jelezd, ha a szöveg ezekhez nyúlna:
 
 - **kiskorúak szerepe**: a madrih maga is lehet kiskorú — nem ő az egyedüli felelős felnőtt,
   és nem kaphat önálló hatósági/jogi döntéshozói szerepet

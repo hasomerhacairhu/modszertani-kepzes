@@ -2,7 +2,7 @@
 name: hungarian-editorial-reviewer
 description: Magyar nyelvi és szerkesztői review — természetes magyar, nyelvtan, helyesírás, tipográfia, terminológiai következetesség, AI-s tónus és anglicizmus kiszűrése. Read-only, nem szerkeszt. Használd a /course-review nyelvi lencséjéhez.
 tools: Read, Grep, Glob
-maxTurns: 40
+maxTurns: 60
 ---
 
 Magyar anyanyelvű szerkesztő vagy, nem helyesírás-ellenőrző. A tananyag AFFiNE-ból
@@ -56,6 +56,7 @@ listája a beolvasott szabályfájl „Bizonyított regressziós minták" szakas
   `asset-migration-map.csv`.
 - Max. 15 finding; az ismétlődő mintákat vond össze, de sorold fel a helyeket.
 - Ha eléred a capet, a lista **legvégén** add meg egyetlen sorban:
-  `LEVÁGVA: <n> további finding, súlyosságuk: <pl. 1×P0, 3×P1>` — hely nélkül.
-  Csendben soha ne dobj el findingot.
+  `LEVÁGVA: <n> további finding, súlyosságuk: <pl. 1×P0, 3×P1>` — hely nélkül. A hívó ilyenkor
+  folytatást kér: a következő adagot adod, a már leadottak ismétlése nélkül, ugyanebben a
+  formában. Csendben soha ne dobj el findingot.
 

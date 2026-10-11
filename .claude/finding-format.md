@@ -2,11 +2,12 @@
 
 Minden review-finding ebben a formában készül — ez a formátum kánoni otthona.
 Hivatkozik rá: `.claude/agents/*`, `/course-review`, `/course-fix`, `/hungarian-edit`,
-`/course-develop`.
+`/course-develop`, `/course-autopilot`.
 
 ## Egy finding mezői
 
-- **ID** — `<LENCSE>-<sorszám>`, pl. `PED-3`, `NYELV-7`
+- **ID** — `<LENCSE>-<sorszám>`, pl. `PED-3`, `NYELV-7`; ha a hívó csoportjelet ad, azzal:
+  `PED-G2-3`. Az autopilot ledgerében a kulcs `<modul>:<ID>`, pl. `M3:PED-G2-3`.
 - **Súlyosság** — `P0` / `P1` / `P2`. P3 és lejjebb nincs.
 - **Bizalom** — `magas` / `közepes` / `alacsony`
 - **Lencse** — pedagógia | értékelés | nyelv | biztonság-jog | implementáció
