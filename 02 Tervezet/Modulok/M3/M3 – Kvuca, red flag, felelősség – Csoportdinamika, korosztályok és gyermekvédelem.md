@@ -5,11 +5,11 @@
 * **Időtartam:** 2 hét
 * **Heti offline:** péntek 2. sáv – **Peula A (M3.A)** az 1. héten, **Peula B (M3.B)** a 2. héten, kb. 45’ + 45’
 * **Online terhelés:** kb. 3×15–20 perc + 1×20–25 perc mikrolecke (**M3.1–M3.4**; a gyermekvédelmi M3.3 szándékosan hosszabb)
-* **Teljes terhelés:** kb. **180–225 perc (3–3,75 óra)** – ebből **online ~1–1,5 óra** (M3.1–M3.4) + **2 peula (2×45’ = 90’)** + **modulproduktum & kapu-kvíz ~30–45’** (a helyzetleírás megírása + a záró gyermekvédelmi kvíz, ami egy javító próbálkozást is jelenthet). Ez a hub saját részidőinek összege (60 + 90 + 30 = 180’, illetve 90 + 90 + 45 = 225’), és egyben az M3 V1 tervezési értéke (projektgazdai döntés, 2026-10-02).
+* **Teljes terhelés:** kb. **180–225 perc (3–3,75 óra)** – ebből **online ~1–1,5 óra** (M3.1–M3.4) + **2 peula (2×45’ = 90’)** + **modulproduktum & kapukvíz ~30–45’** (a helyzetleírás megírása + a záró gyermekvédelmi kvíz, ami egy javító próbálkozást is jelenthet). Ez a hub saját részidőinek összege (60 + 90 + 30 = 180’, illetve 90 + 90 + 45 = 225’), és egyben az M3 V1 tervezési értéke (projektgazdai döntés, 2026-10-02).
 
 **Modulközponti kérdés**
 
-> „Fel tudom-e ismerni, **hol tart egy kvuca és mi számít red flag-nek**, és tudom-e, mi az első felelős lépés madrihként?”
+> „Fel tudom-e ismerni, **hol tart egy kvuca és mi számít red flagnek**, és tudom-e, mi az első felelős lépés madrihként?”
 
 **Modulcél röviden**
 
@@ -30,7 +30,7 @@ A modul végére a résztvevő…
 2. **Korosztályi profilok – 3 kvuca, 3 világ**
    * 1-1 mondatos „miniprofilt” tud mondani a 3 aktuális kvucáról: **Parparim, Kivsza, Leviatán** **(M3.2)**.
    * Meg tud nevezni kvucánként legalább 2 tényezőt: figyelem & energia, tipikus motivációk, tipikus helyzetek.
-3. **Gyermekvédelem & red flag-ek**
+3. **Gyermekvédelem & red flagek**
    * Érti, mi a gyermekvédelem lényege: **észrevenni és jelezni**, nem egyedül „megoldani” **(M3.3)**.
    * Felismer tipikus **red flag** helyzeteket: pl. bántalmazásgyanú, önsértésre utaló jelek, online zaklatás, nagyon megváltozott viselkedés, madrih–hanih határátlépések **(M3.3, M3.B)**.
 4. **Határok, ígéretek, első lépések**
@@ -43,10 +43,10 @@ A modul végére a résztvevő…
 > *(Elsődleges jogforrás: 1997. évi XXXI. törvény 17. §, Nemzeti Jogszabálytár; kapcsolódó hatályos büntetőjogi szabály: Btk. 209/A. §. A tananyag nem helyettesíti a Somer gyermekvédelmi szabályrendszerét (Gyermekvédelmi működési standard v1.0).)*
 5. **Etikai Do/Don’t – beleértve a madrih–hanih kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyermekvédelemre **(M3.4)**.
-   * Külön kiemeli, hogy **madrih nem lehet párkapcsolatban hanihhal** – ezt súlyos határátlépésnek, red flag-nek tartja **(M3.4)**.
+   * Külön kiemeli, hogy **madrih nem lehet párkapcsolatban hanihhal** – ezt súlyos határátlépésnek, red flagnek tartja **(M3.4)**.
 6. **Szituációelemzés & modulproduktum**
    * Elkészít egy rövid, **kitalált, de életszerű helyzetleírást** (kvuca + konkrét eset; valós eset névtelenítve sem kerülhet bele), amelyben:
-     * megnevez legalább egy **red flag**-et,
+     * megnevez legalább egy **red flaget**,
      * leírja, mit tenne egy felelős madrih első lépésként, és kit vonna be **(M3.4, M3.B)**.
 
 ***
@@ -83,7 +83,7 @@ A modul végére a résztvevő…
   * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatán)
   * Koppintásos párosítás (a megvalósító H5P-típust a runtime acceptance igazolja) / H5P Drag & Drop – helyzetek → kvucák
 * **Tartalom röviden:**
-  * Kvucánként mini leírás:
+  * Kvucánként minileírás:
     * „Világ / élethelyzet” (iskola, kortársak, szülők szerepe),
     * figyelem & energia,
     * tipikus motiváció (játék, státusz, identitás, autonómia),
@@ -98,9 +98,9 @@ A modul végére a résztvevő…
 * **Cél:**
   Alap **gyermekvédelmi szemlélet**: mi az a red flag, és mi a felelős első lépés madrihként.
 * **Fókusz:**
-  „Nem vagyok terapeuta – de **nem maradok egyedül** a red flag-ekkel.”
+  „Nem vagyok terapeuta – de **nem maradok egyedül** a red flagekkel.”
 * **Eszközök:**
-  * egyetlen H5P activity, **Branching Scenario befoglalóval**: a nem elágazó tartalom (True/False blokkok, mini-kérdések, mini-kvíz, rövid összefoglaló szövegek) Course Presentation- és Advanced Text-csomópontokban
+  * egyetlen H5P activity, **Branching Scenario befoglalóval**: a nem elágazó tartalom (True/False blokkok, minikérdések, minikvíz, rövid összefoglaló szövegek) Course Presentation- és Advanced Text-csomópontokban
   * 4 szituáció, mindegyik előtt passz-választóval (HUM-SAFE-03, SAFE-1; csomóponttérkép: M3.3, 3. szakasz)
 * **Tartalom röviden:**
   * True/False belépők:
@@ -119,7 +119,7 @@ A modul végére a résztvevő…
 
 ***
 
-### M3.4 – „Do / Don’t madrihként” – határok, red flag-ek és modulproduktum (15–20’)
+### M3.4 – „Do / Don’t madrihként” – határok, red flagek és modulproduktum (15–20’)
 
 * **Cél:**
   A résztvevő **konkrét Do/Don’t listát** készít madrih-szerepre, és előkészíti a modulproduktumát (helyzetleírás + első lépés).
@@ -137,7 +137,7 @@ A modul végére a résztvevő…
   * Csoportosító feladat (alapból húzásmentes, mellette H5P Drag & Drop két célzónával) konkrét példákkal (OK / Nem OK).
   * Assignment-sablon a modulproduktumhoz:
     * kitalált, de életszerű helyzetleírás (hol játszódik, kvuca-típus, mi történik),
-    * red flag-ek megnevezése,
+    * red flagek megnevezése,
     * első madrih-lépés + kit von be.
 
 ***
@@ -246,7 +246,7 @@ A modul végére a résztvevő…
 * **Kaputípus:**
   * **Éles teljesítési kapu**, mivel a gyermekvédelem & red flag tematika biztonsági kérdés.
 * **Eszközök:**
-  * Moodle Quiz – **szcenárió-alapú kvíz** gyermekvédelem & red flag témában; H5P Question Set csak a kapu §0-ban rögzített feltételekkel (grade-alapú completion, igazoltan kikényszerített kritikus itemek).
+  * Moodle Quiz – **szcenárió-alapú kvíz** gyermekvédelem & red flag témában; H5P Question Set nem használt (`LMS – activity manifest.md`, LMS-M3-06: QUIZ-M; a korábbi feltételek a kapu §0-ban).
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
 * **Követelmény az M3 „complete”-hez (kétkomponensű éles kapu – a hivatalos küszöb az [M3 – KAPU](./M3%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban):**
   1. **M3.1–M3.4** mikroleckék activity completion – **érdemi kitöltéssel** (a beágyazott H5P-interakciók / kérdések megválaszolva – pl. M3.3 Branching végigvitele döntésekkel – egy szcenárió-checkpoint a HUM-SAFE-03 szerinti passzal is teljesül (SAFE-1) –, az M3.4 csoportosító feladatának elvégzése), **nem csak a slide-ok végigléptetésével**. Hogy a Moodle-beállítás ezt ténylegesen kikényszeríti-e, azt tesztelni kell: [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md).
@@ -269,11 +269,11 @@ A modul végére a résztvevő…
 * **H5P analitika:**
   * M3.1–M3.2: mely Tuckman-szakaszok / kvuca-típusok keverednek leggyakrabban (ez jelzi, hol kell több példa / tisztázás).
   * M3.3–M3.4: mely red flag típusokat **nem ismerik fel** (online zaklatás, önsértés, madrih–hanih határátlépés).
-* **Kapu-kvíz adatok:**
+* **Kapukvíz adatok:**
   * Mely kérdéseknél hibáznak sokan – ezeknél érdemes a tartalmat vagy a peula-részleteket finomhangolni (pl. madrih–hanih kapcsolat súlyossága, első lépés logikája).
 * **Küszöbök / beavatkozási pontok:**
   * Ha a résztvevők **>30%-a nem fejezi be az M3.3-at** a 2. hét végéig → extra emlékeztető + **csendes pótlás** (önálló elmaradás-pótlás). Az **M3.F (F-peula)** annak kötelező, akinek az M3 éles kapuja nem teljesült.
-  * Ha a kapu-kvízen az átlag **<80%** → a következő képzős napon rövid összefoglaló blokk gyermekvédelem & red flag témában (pl. további esetkártyák közös elemzése).
+  * Ha a kapukvízen az átlag **<80%** → a következő képzős napon rövid összefoglaló blokk gyermekvédelem & red flag témában (pl. további esetkártyák közös elemzése).
 
 
 
