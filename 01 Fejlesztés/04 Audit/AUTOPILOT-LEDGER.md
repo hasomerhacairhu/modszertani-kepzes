@@ -30,15 +30,15 @@
 
 | Modul | Review | Lencsék | Riport | Review-bázis | Javítás | Bizonyíték | Következő lépés |
 |---|---|---|---|---|---|---|---|
-| M0 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M0 course-review, B sáv.md`; `2026-10-11 Validált findingok – M0, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | PENDING | — | FIX (a review-fázis után) |
+| M0 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M0 course-review, B sáv.md`; `2026-10-11 Validált findingok – M0, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | FIXING | — | FIX (átfedéssel, a projektgazda 2026-10-11-i gyorsítási döntése szerint): csak az M0 saját fájljai; a közös kánoni fájlok és a Z.A-helyek az összes review után |
 | M1 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-10 Validált findingok – M1 course-review, B sáv.md`; `2026-10-11 Validált findingok – M1, nyelvi lencse, AP-2026-10-11-01.md` | 82d0c7c (négy lencse); 886165b (language) | PENDING | — | FIX (a review-fázis után; a 12 NEEDS_RECHECK lezárva: 4e2b805) |
 | M2 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M2, AP-2026-10-11-01.md` | 886165b (a `02 Tervezet/` változatlan a 213a4c5 óta) | PENDING | — | FIX (a review-fázis után) |
 | M3 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M3, AP-2026-10-11-01.md` | 4e2b805 (a `02 Tervezet/` változatlan a 213a4c5 óta) | PENDING | — | FIX (a review-fázis után) |
 | M4 | VERIFIED | pedagogy,assessment,implementation,safety,language | `2026-10-11 Validált findingok – M4, AP-2026-10-11-01.md` | 4e2b805 (a `02 Tervezet/` változatlan a 213a4c5 óta) | PENDING | — | FIX (átfedéssel, a projektgazda 2026-10-11-i gyorsítási döntése szerint) |
 | M5 | RAW_SAVED | — | `2026-10-11 Validált findingok – M5, AP-2026-10-11-01.md` (nem követett, NYERS) | 4e2b805 | PENDING | — | VERIFY kész (119/119 verdikt, V1–V8) → riport I. rész, ledger-sorok |
-| M6 | REVIEWING | — | — | ee209e5 | PENDING | — | REVIEW: öt lencse, teljes modul (G1 lencsék futnak) — a 2026-10-04-i M6 nyelvi review (régi formátum) után a modul változott (PR #19), ezért lefedettséget nem ad |
-| M7 | PENDING | — | — | — | PENDING | — | REVIEW: öt lencse, teljes modul |
-| Z | PENDING | — | — | — | PENDING | — | REVIEW: öt lencse, teljes modul |
+| M6 | RAW_SAVED | — | `2026-10-11 Validált findingok – M6, AP-2026-10-11-01.md` (nem követett, NYERS: 15/15 lencse-kimenet, 130 nyers ID) | ee209e5 | PENDING | — | VERIFY: klaszter-térkép (A.) → verifierek — a 2026-10-04-i M6 nyelvi review (régi formátum) után a modul változott (PR #19), ezért lefedettséget nem ad |
+| M7 | REVIEWING | — | `2026-10-11 Validált findingok – M7, AP-2026-10-11-01.md` (nem követett, NYERS) | 378d820 | PENDING | — | REVIEW: öt lencse, három fájlcsoport (G1 kész; G2, G3 lencsék futnak) |
+| Z | REVIEWING | — | — | 378d820 | PENDING | — | REVIEW: öt lencse, egy fájlcsoport (PED fut; ERT, IMPL, BIZT, NYELV sorban) |
 
 ## Külső kapuk
 
@@ -65,24 +65,25 @@
 
 | Kulcs | Súly | Típus | Verdikt | Állapot | Bizonyíték / döntési igény |
 |---|---|---|---|---|---|
-| M0:ERT-1 | P1 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:ERT-2 | P1 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:IMPL-2 | P1 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:IMPL-5 | P1 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:ERT-9 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:ERT-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:ERT-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:PED-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:PED-5 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:PED-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:PED-10 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:BIZT-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:BIZT-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:BIZT-10 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:BIZT-11 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:IMPL-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:IMPL-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:IMPL-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:ERT-1 | P1 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:324–350 (SLIDE 3, helyzetenkénti helyes és téves visszajelzés); M0.2:276 (a 2. kérdés saját helyes visszajelzése); utána Memuna-QA: M0:BIZT-1 / G1 |
+| M0:ERT-2 | P1 | objektív | MEGERŐSÍTVE | OPEN | — (közös kánoni fájl: az RA-tesztpontok az összes review lezárása után; a HUB:181 két ágából melyik működik, az runtime-bizonyíték, X-8) |
+| M0:IMPL-2 | P1 | objektív | MEGERŐSÍTVE | OPEN | — (közös kánoni fájl: MAN, az összes review lezárása után; előbb az M1:IMPL-G3-8 ütközését kell feloldani, X-10) |
+| M0:IMPL-5 | P1 | objektív | MEGERŐSÍTVE | OPEN | — (közös kánoni fájl: MAN, az összes review lezárása után) |
+| M0:ERT-9 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.2:195, :199–203 (opciók a listából szó szerint, típus Multiple Choice egyválaszos), :11 (típuslista) |
+| M0:ERT-7 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.3:258 (Glosszárium:194 szabálya szó szerint) |
+| M0:ERT-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (közös kánoni fájl: a HUM-átvezetés (CC-04, CC-06) az összes review lezárása után; az M0.1 SLIDE 5 kérdésének tartalma a pilot-visszajelzéssel, CC-04) |
+| M0:PED-3 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.1:17–18 (mikrocél a hub 1. kompetenciájához és a 6. itemhez) |
+| M0:PED-5 | P2 | objektív | MEGERŐSÍTVE | BLOCKED_HUMAN | EMBERI DÖNTÉS: a 45’-es és a 60’-es M0.A Blokk 2–3 lépésszintű vágási terve (a meglévő percsávokból nem rakható ki, új percszám kellene) — modulgazda / programvezető, a HUM-OPS-01 keretén belül (X-10); az objektív rész: M0:PED-5.obj |
+| M0:PED-5.obj | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.A:647 (a „Madrih, nem terapeuta” lépés a megtartandók közé, az M0.2:504 ígérete szerint) |
+| M0:PED-6 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.1:416 |
+| M0:PED-10 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:569 (a NYELV-G2-3-mal egy blokkban) |
+| M0:BIZT-6 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:172 (az M0.4:434 kánoni mondata szó szerint); utána Memuna-QA: M0:BIZT-1 / G1 |
+| M0:BIZT-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:516, :580 (ADV:245 szó szerint); a runtime-visszaolvasás X-8 |
+| M0:BIZT-10 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.2:473 (HUM:550 + GK:147) |
+| M0:BIZT-11 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.1:51 (GK:80 + ADV:243; a HUM-SAFE-03 blokk változatlan); utána Memuna-QA: M0:BIZT-1 / G1 |
+| M0:IMPL-6 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:11 (a); M0.3:338 (c); a (b) = M0:ERT-9, a (d) = M0:ERT-8 |
+| M0:IMPL-7 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:566, :577; HUB:138; M0.3:365; M0.2:514 (a manifest „Név” oszlopa szerint) |
+| M0:IMPL-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.3:162, :183 (az M0.3:145 `@source` alt-szöveg a validált soron kívül maradt) |
 | M0:PED-1 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M0:ERT-1 |
 | M0:BIZT-4 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M0:ERT-1 |
 | M0:IMPL-1 | P1 | objektív | MEGERŐSÍTVE | DUPLICATE | = M0:ERT-1 |
@@ -105,26 +106,27 @@
 | M0:PED-9 | P2 | objektív | ELVETVE | REJECTED | pedagógiai preferencia: az M0.4 SLIDE 4 1. szabálya az M0.2:430 megerősítő ismétlése (verifier) |
 | M0:ERT-5 | P1 | objektív | ELVETVE | REJECTED | az M0.1-rész a PED-3 duplikátuma; a hub 2.2/2.5 mérés nélkülisége a lezárt D-4-ből és a puha kapuból következik (verifier) |
 | M0:ERT-10 | P2 | objektív | ELVETVE | REJECTED | item-írási preferencia: az M0.3:193 formatív, a visszajelzés tanít (verifier) |
-| M0:NYELV-G1-2 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a javítás után Memuna-QA: M0:BIZT-1 / G1) |
-| M0:NYELV-G1-5 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G1-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (csak „kisebb tétű”; az M0:ERT-1-gyel egy menetben) |
-| M0:NYELV-G1-7 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G1-8 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a javítás után Memuna-QA: M0:BIZT-1 / G1) |
-| M0:NYELV-G1-11 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G1-12 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G1-13 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G1-15 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G2-1 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a 45’-es részen az M0:PED-5-tel egy lépésben) |
-| M0:NYELV-G2-3 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (az M0:PED-10-zel egy lépésben) |
-| M0:NYELV-G2-4 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G2-5 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G2-6 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G2-12 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (csak a :565 utolsó pontja) |
-| M0:NYELV-G2-14 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G2-16 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (az M0:BIZT-8-cal és az M0:IMPL-7-tel összehangolva) |
-| M0:NYELV-G2-17 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
-| M0:NYELV-G2-18 | P2 | objektív | MEGERŐSÍTVE | OPEN | — (a Z.A négy helye a Z-javítással egy menetben) |
-| M0:NYELV-G2-21 | P2 | objektív | MEGERŐSÍTVE | OPEN | — |
+| M0:NYELV-G1-2 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.2:348 (a „-nak” minősítés megmaradt); utána Memuna-QA: M0:BIZT-1 / G1 |
+| M0:NYELV-G1-5 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.2:40 (GK:80 formula betűhűen) |
+| M0:NYELV-G1-6 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.2:285 („kisebb tétű”) |
+| M0:NYELV-G1-7 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.1:200, :300; M0.2:285; M0.3:254, :293; `@asset` M0.2:142 (build: 69c2017) |
+| M0:NYELV-G1-8 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.2:264 (✅ és jelentés változatlan); M0.3:251, :257, :303, :313; utána Memuna-QA: M0:BIZT-1 / G1 |
+| M0:NYELV-G1-11 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; HUB:22, :38, :43, :77, :83, :109, :159; M0.2:173; `@asset` M0.2:141 (build: 69c2017) |
+| M0:NYELV-G1-12 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.2:285; M0.3:139, :235; „célverzión”: M0.1:61, M0.2:62, M0.3:59, M0.4:61; `@asset` M0.3:102 (build: 69c2017) |
+| M0:NYELV-G1-13 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; HUB:275, :283 (a >30% és az első hét változatlan) |
+| M0:NYELV-G1-15 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; HUB:59 |
+| M0:NYELV-G2-1 | P2 | objektív | MEGERŐSÍTVE | BLOCKED_HUMAN | EMBERI DÖNTÉS: a 45’-es percbontás címkéi (M0.A:152, :154, :155) a validált korlát szerint az M0:PED-5 vágási tervével egy lépésben változnak — modulgazda / programvezető (X-10); az objektív rész: M0:NYELV-G2-1.obj |
+| M0:NYELV-G2-1.obj | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.A:147, :148 (60’-es címkék: Blokk 2, Blokk 3); M0.A:647 („Kihez fordulhatok?”) |
+| M0:NYELV-G2-3 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:569 (az M0:PED-10-zel egy blokkban) |
+| M0:NYELV-G2-4 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.A:636 (a :90 első mondata szó szerint); `@asset` M0.A:58 (build: 69c2017) |
+| M0:NYELV-G2-5 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.A:638 (GK §4.1 5. lépésének formulája betű szerint) |
+| M0:NYELV-G2-6 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.A:610 |
+| M0:NYELV-G2-12 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:580 (csak a :565-ös fórumleírás utolsó pontja) |
+| M0:NYELV-G2-14 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:567 (a HUB:131 alakja szó szerint) |
+| M0:NYELV-G2-16 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.4:516 (a BIZT-8 blokkjában), :520, :540 |
+| M0:NYELV-G2-17 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.A:474, :481; `@asset` M0.A:196 (build: 69c2017) |
+| M0:NYELV-G2-18 | P2 | objektív | MEGERŐSÍTVE | IN_PROGRESS | — (az M0.A-rész kész: df2792d, M0.A:40, :102, :129, :168, :170, :174, :180, :264, :268, :286, :288, :321, :366, :367, :385, :427, :502, :629, :639, :657; build: 69c2017; a Z.A négy helye a Z-javítással egy menetben) |
+| M0:NYELV-G2-21 | P2 | objektív | MEGERŐSÍTVE | FIXED | df2792d; M0.A:355, :426, :594, :598; `@asset` M0.A:520 (build: 69c2017) |
 | M0:NYELV-G2-11 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a Glosszárium:27 „kerüld” szabálya kiterjed-e a kisbetűs „dugma isit vagy / dugma isit madrih” alakra (M0.2:26, :417; M0.4:25, :154, :248, :293, :296, :486; HUB:144, :238; M0.4-ILL-03; a HUB:235 projektgazdai itemtörzs) — projektgazda; QA: ken-vezető / mozgalmi felelős (X-13) |
 | M0:NYELV-G1-14 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: a belépőkvíz projektgazdai itemszövege (HUB:180) nyelvileg javítható-e (7. item „a completion állapotát” különírás; 4. item alanya) — projektgazda, az értékelési felelős QA-jával (X-6) |
 | M0:NYELV-G2-22 | P2 | emberi-döntés | EMBERI DÖNTÉS | BLOCKED_HUMAN | EMBERI DÖNTÉS: az M0.A:347 „vagy páratlan a létszám” feltételének jelentése — modulgazda / projektgazda (X-10) |
@@ -808,3 +810,4 @@
 | 2026-10-11 | REVIEW | M3 VERIFIED (öt lencse): `2026-10-11 Validált findingok – M3, AP-2026-10-11-01.md` — 186 nyers finding, 186/186 verdikt (V1–V12): 81 MEGERŐSÍTVE + objektív (15 duplikátum), 8 MEGERŐSÍTVE + bizonyíték-kapu (5 duplikátum), 71 EMBERI DÖNTÉS (31 duplikátum, 6 más modul kapujába), 26 ELVETVE. Ledger: 188 sor (+2 `.obj` alpont: IMPL-G2-11.obj, IMPL-G2-2.obj; a BIZT-G1-7 emberi maradéka saját kulccsal) — 68 OPEN, 50 DUPLICATE, 41 BLOCKED_HUMAN, 3 EVIDENCE_GATE, 26 REJECTED; új kapu: X-15 (jogi szakértői értelmezés). Read-only bizonyíték a mentés előtt egyezik (`da39a3ee…`). Közben: M4 verifikálva (103/103), M5 nyers (119), M6 lencsék futnak; a futás 2026-10-11 este egy fiókváltás miatt megszakadt ügynököket a megszakítás pontjáról folytatta. |
 | 2026-10-11 | DECISION | Projektgazdai döntés (szó szerint: `2026-10-11 Projektgazdai döntés – autopilot-gyorsítás, AP-2026-10-11-01.md`): (1) javítás átfedéssel a lezárt review-jú modulokban, amíg a többi review fut — minden javítás azonnal commitolva, a közös kánoni fájlok csak az összes review után; (2) legfeljebb 12 párhuzamos read-only ügynök. A CLAUDE.md nem változott. |
 | 2026-10-11 | REVIEW | M4 VERIFIED (öt lencse): `2026-10-11 Validált findingok – M4, AP-2026-10-11-01.md` — 103 nyers finding, 103/103 verdikt (V1–V7). Ledger: 106 sor (+3 `.obj` alpont: PED-G1-2.obj, ERT-G1-6.obj, IMPL-G1-6.obj) — 40 OPEN, 31 DUPLICATE (4 más modul kapujába: `M0:IMPL-3` ×3, `M2:BIZT-G2-3`), 21 BLOCKED_HUMAN, 3 EVIDENCE_GATE, 11 REJECTED; új kapu: X-16 (szakmai lektori release-bizonyíték). Read-only bizonyíték a mentés előtt egyezik (`da39a3ee…`). Közben: M5 verifikálva (119/119), M6 lencsék 14/15, M7 G1–G2 lencsék futnak. |
+| 2026-10-11 | FIX | M0 (átfedéssel, a projektgazda 2026-10-11-i döntése szerint; csak az M0 hat saját fájlja): `df2792d` fix(M0) + `69c2017` chore(media). 31 FIXED, 2 `.obj` FIXED (PED-5.obj, NYELV-G2-1.obj); PED-5 és NYELV-G2-1 maradéka BLOCKED_HUMAN (lépésszintű vágási terv, X-10); NYELV-G2-18 IN_PROGRESS (Z.A-rész a Z-körrel); ERT-2, ERT-8, IMPL-2, IMPL-5 OPEN (közös kánoni fájl, az összes review után). Gépi ellenőrzés a végállapoton: `content_integrity.py` 0 hiba; `git diff --check` tiszta; `--pin-visible` egyszer (6 fájl); `media_manifest.py build` kétszer, `check` OK, `reconcile` OK; `unittest tools.test_media_manifest` 159 OK. A futó M6/M7/Z review-k scope-fájljai nem változtak (`git diff --stat df2792d~1 69c2017` csak az M0 hat fájlját, a `Média-assetek/` generált kimeneteit és a `tools/approved-visible-text.json`-t mutatja; az M5, M6, M7 és Z mappájára üres). Célzott diff-ellenőrzés (NYELV, BIZT, ERT/PED, IMPL) fut. |
