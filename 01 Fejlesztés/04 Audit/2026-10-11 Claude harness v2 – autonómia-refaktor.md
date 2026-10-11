@@ -149,6 +149,82 @@ claude --permission-mode auto
   eltávolításához `git worktree remove --force` kell — ezt a felhasználó futtatja.
 - A `/doctor prompt-audit` a 2.1.283-as frissítés után futtatandó.
 
+## 8. Második kör (2026-10-11): közzététel, két rés javítása, smoke-teszt
+
+A projektgazda a `a8ee075` ügyében az „A” változatot választotta (a history marad), és a review-ágra
+szóló közzétételt engedélyezte (2. melléklet); a PR #26 a `audit/b-track-m0-m1-20261011`-re épül.
+Ezután két rést nevezett meg, és a teljes S1–S6 smoke-tesztet kérte friss Claude Code folyamatban
+(3. melléklet).
+
+### 8.1 A két rés javítása (`99ba147`)
+
+- **Halasztott ≠ javított.** A `autopilot_ledger.py check` `TERMINAL` mellett kiírja az
+  `AUTOPILOT-RESULT` sort: `ALL_FIXED` csak akkor, ha nincs `OWNER_DEFERRED`, `BLOCKED_HUMAN`,
+  `EVIDENCE_GATE` vagy `NOT_AUTHORIZED` tétel; különben `OPEN_ITEMS_REMAIN`, osztályonkénti
+  darabszámmal, a nyitott osztályoknál minden kulccsal, a halasztottaknál célváltozatonként is. Az
+  `OWNER_DEFERRED` bizonyítéka „döntés: <hely>; cél: <változat>”. Új `Változat` kulcs: `pilot`
+  (alapértelmezés, a pilot-freeze érvényes) vagy `next-version` (csak a projektgazda szó szerinti
+  felhatalmazásával, külön `next-version/<Run-ID>` ágon; a POST-PILOT validált objektív findingok
+  javíthatók, lezárt döntés nem nyílik újra, új döntés `BLOCKED_HUMAN`, a pilot-freeze nem
+  halasztási ok). A riport három részre bomlik: elvégezve · halasztva (teljes kulcslista) · nyitva.
+- **Nyelvi lencse.** A teljes kurzus véglegesítése mind az öt lencsével fut. A Modulok tábla
+  `Lencsék` oszlopa a ténylegesen lefutott lencséket rögzíti; `VERIFIED`/`REUSED` csak akkor lezárt,
+  ha lefedi a futás lencséit. Az M0/M1 B sávos riport négylencsés: újrahasznosul, és csak a
+  `language` fut le.
+- Ledger-önteszt: 37/37 eset (korábban 23).
+
+### 8.2 A smoke-teszt környezete — és egy pontos korlát
+
+- Két eldobható checkout a `99ba147`-ről: `smoke/harness-v2-a` és `-b`, a munkamenet ideiglenes
+  területén (`/tmp/claude-501/…`; a szülő-session sandboxa csak oda enged írni). Sem a fő checkout,
+  sem a harness-fejlesztő worktree nem volt tesztterep.
+- Minden teszt friss folyamat: `claude -p --no-session-persistence --permission-mode auto
+  --permission-prompts none --output-format stream-json --verbose`, a checkout gyökeréből; a
+  gyermek a review-ág skilljeit, ügynökeit, settingsét és hookjait töltötte be (init-esemény).
+- **Korlát:** a gyermekfolyamat a szülő OS-sandboxán belül fut, és a saját Bash-sandboxa nem indul:
+  `Sandbox is required but failed to initialize: EPERM: operation not permitted, listen
+  '/tmp/claude-501/srt-mux-….sock'`. A projekt `failIfUnavailable: true` beállítása miatt ezért
+  minden nem-git Bash-parancs (köztük a Python-ellenőrzők és a ledger-eszköz) elutasítódik; a
+  `git …`, a `--pin-visible` (sandbox-kivétel) és a Read/Edit/Write/Skill/Agent eszközök működnek.
+  A session-fájlok írása is tiltott, ezért `--continue` nem használható. A korlátot nem kerültük
+  meg (a gyermek sandboxát nem kapcsoltuk ki, sandboxon kívüli háttérsessiont nem indítottunk).
+
+### 8.3 Eredmények
+
+| Teszt | Eredmény | Bizonyíték |
+|---|---|---|
+| **S6** destruktív/védett művelet | **PASS** (hook + deny szabály) | a smoke-checkout hookja frissen: önteszt 303 must-block / 158 must-pass OK; 22 autopilot-parancsalak a hook stdin-útján (destruktív → 2-es kód); friss gyermek-session `Write .claude/settings.local.json` → „File is in a directory that is denied by your permission settings”, `permission_denials` 1, a fájl nem jött létre. A destruktív git-parancsot szó szerint tartalmazó gyermek-promptot a szülő saját guard-hookja blokkolja (szándékosan: a hook a puszta említést is fogja), ezért ilyen gyermek-prompt nem futott. |
+| **S1** automatikus review-hívás és újrahasznosítás | **PASS** | természetes nyelvű kérés → `Skill: course-review` (`M0 --lens pedagogy,assessment,implementation,safety`); git-tel igazolta, hogy az M0 a review óta nem változott; a három teljes lencsét és az implementációs lencse kész részét újrahasznosította; a régi riport által RÉSZLEGES-nek jelölt öt pontra egyetlen célzott `implementation-reviewer` futott (3 nyers finding). A verifier a teszthez adott 6 USD-s keret kimerülése miatt nem futott: a riport `NYERS` maradt, a verifikálatlan findingok nem mentek javításba (a gyermek ezt maga jelentette). A `02 Tervezet` git-ellenőrzése elején és végén üres. |
+| **S2** friss review független verifierrel | **PASS** | `/course-review Z.4 --lens pedagogy` → új `pedagogy-reviewer` (7 finding), a nyers kimenet azonnal mentve, külön `verifier`-hívás, 7/7 verdikt (1 objektív, 5 emberi döntés, 1 elvetve), `Állapot: VALIDÁLT`; a ténylegesen lefutott lencséket rögzítette, és jelezte, hogy a kötelező biztonsági lencse az explicit `--lens` miatt kimaradt. |
+| **S3** felhatalmazott `course-fix` + emberi kapu | **PASS** (a gyermek Python-ellenőrzői nélkül) | természetes nyelvű felhatalmazás → `Skill: course-fix`; IMPL-8: két minimális `Edit` (M0.3 :162, :183), a validált soron túl nem lépett (:145 jelezve); BIZT-3: `BLOCKED_HUMAN`, friss idézetekkel, „EMBERI DÖNTÉS: … Memuna”, szerkesztés nélkül — a futás folytatódott; pin a finding-ID-vel; célzott diff-újraellenőrzés (`implementation-reviewer`, új finding nincs); vétólista üres; commit és push nincs. A szülő ellenőrzése a smoke-checkouton: pontosan a két sor és az M0.3 pinje változott; `content_integrity` 0 hiba; média `check`/`reconcile` OK; 159 média-teszt OK (az új pin elfogadva). |
+| **Release-check** | **PASS** (őszinteségi teszt) | a gyermek az S3 végén maga hívta (forkolt `release-checker`); a riport „nincs verdikt — minden Python-kapu NEM FUTOTT”, zöldet nem állított. A teljes ellenőrzőlistát a szülő a smoke-checkouton lefuttatta: zöld. |
+| **S5** `/goal` és ledger-végállapot | **negatív ág PASS · pozitív ág NEM FUTOTT** | `/goal` + `/course-autopilot Z --review-only --lens pedagogy`: a gyermek maga hívta a skillt; a PREFLIGHT a ledger-eszköznél a sandbox-korlát miatt elakadt; a `/goal` értékelője (külön modell) a megállást **elutasította**: „A feltétel nem teljesült … a `check` futása sohasem történt meg”, a gyermek legfeljebb kétszer próbálta újra, majd a cél megállási feltétele szerint leállt; írás nem történt, `TERMINAL`-t nem állított. A `TERMINAL`-ig vezető pozitív ág a Python ledger-eszközt igényli → ebben a környezetben nem futtatható. A végállapot-szemantikát a ledger-önteszt (37 eset) determinisztikusan igazolja. |
+| **S4** tömörítés és folytatás | **NEM FUTOTT** | a ledger-eszköz és a `--continue` (session-fájlok) ugyanazon korlát miatt nem érhető el. |
+
+### 8.4 Ami még kell (a felhasználó termináljából, nem ebből a sessionből)
+
+Egy normál, nem beágyazott terminálban — ott a gyermek sandboxa elindul —, egy eldobható checkouton:
+
+```text
+git worktree add ../mk-harness-smoke-b -b smoke/harness-v2-b2 gov/claude-harness-v2
+cd ../mk-harness-smoke-b && claude --permission-mode auto
+/goal Futtasd a /course-autopilot Z --review-only --lens pedagogy futást (smoke: az X-2 erre a futásra nem vonatkozik), és folytasd, amíg a python3 tools/autopilot_ledger.py check TERMINAL-t és 0-s kódot mutat, és a záró jelentés idézi az AUTOPILOT-RESULT sort; legfeljebb 40 kör.
+```
+
+A REVIEW közben egyszer `/compact` (S4), majd Ctrl+C és `claude --continue` (a `/goal` visszaáll);
+elvárt: `AUTOPILOT-NEXT` szerinti folytatás, végül `AUTOPILOT-LEDGER: TERMINAL` és
+`AUTOPILOT-RESULT: OPEN_ITEMS_REMAIN` (review-only: a javítható tételek `NOT_AUTHORIZED`).
+
+### 8.5 Megfigyelések a kapukról (nincs bennük módosítás)
+
+- `git worktree add -b <ág> <út> …`: a hook a `-b` értékét nézi útnak, és „repón belüli worktree”-
+  ként blokkol (hamis pozitív); a hook dokumentált must-pass alakja (`git branch <ág> …`, majd
+  `git worktree add <repón kívüli út> <ág>`) működik.
+- A szülő guard-hookja a destruktív git-parancsot csak szövegként tartalmazó parancsot is blokkolja
+  (dokumentált viselkedés); ezért a gyermek destruktív git-próbája hook- és deny-szinten futott.
+- A közzététel (push, PR) csak a repó gyökeréből működik: worktree-ből a pre-push névellenőrző útja
+  nem oldható fel, és a push leáll (fail closed).
+
 ## Melléklet — a projektgazda utasítása, 2026-10-11, szó szerint
 
 ```text
@@ -506,4 +582,107 @@ Deliver:
 Do not ask me routine questions. Where the current configuration or external policy genuinely blocks an action, record the blocker and finish all other permitted work.
 
 Do not begin the full course repair yet. Finish the harness refactor first.
+```
+
+## 2. melléklet — a projektgazda döntése a közzétételről, 2026-10-11, szó szerint
+
+```text
+I choose **Option A — accept the existing commit history**. Do not reset, amend, rewrite or split any commits. The incorrect commit message is not worth rewriting history.
+
+As project owner, I explicitly authorize publishing the existing governance changes, including the CLAUDE.md and README changes in `a8ee075`, **to the dedicated review branch only**, subject to the following final checks and the normal Claude Code permission system.
+
+First, perform a read-only final review:
+
+1. Verify the exact contents of all three governance commits, including the complete `a8ee075` diff.
+2. Check that no accidental staged files, personal data, secrets, or unrelated course-content modifications are included.
+3. Verify that changes to permissions, hooks, skills and agents do not introduce an unintended privilege escalation or weaken the retained security boundaries.
+4. Confirm that the governance branch was based on `audit/b-track-m0-m1-20261011`.
+5. Verify that the N-M1-04 uncommitted work in the separate checkout remains untouched.
+6. Confirm the relevant static and security validations remain green.
+
+If these checks pass, **push `gov/claude-harness-v2` and open a stacked PR targeting `audit/b-track-m0-m1-20261011`**, rather than `main`. This keeps the PR focused on the harness changes without including the audit branch's earlier commits in the PR diff.
+
+In the PR description, explicitly disclose that `a8ee075` contains CLAUDE.md and README changes despite its audit-record commit message, and explain the earlier Auto mode denial and this subsequent project-owner authorization.
+
+Regenerate the PR description from committed evidence if the temporary scratchpad is unavailable.
+
+Respect any actual permission prompt or classifier refusal. Do not circumvent a denial using alternate command syntax or scripts.
+
+Do not merge any PR. Do not begin the full M0–Z finalization.
+
+After the PR is created, give me the URL and a concise summary of its actual diff. Identify which fresh-session smoke tests can be run safely against the review branch **before merging**, and distinguish them from tests that genuinely require installation into the main checkout.
+
+Do not ask further routine questions. Execute the authorized steps and report the result.
+```
+
+## 3. melléklet — a projektgazda utasítása a második körre, 2026-10-11, szó szerint
+
+```text
+PR #26 is open and CI is green. Good. Before merge, complete one final focused hardening and acceptance pass.
+
+I found two gaps in the actual committed `course-autopilot` implementation.
+
+**1. Prevent false completion from deferred findings**
+
+The ledger treats `OWNER_DEFERRED` as a terminal finding state. This is legitimate for protecting the currently running M0/M1 pilot, but it must never be presented as "all course defects fixed."
+
+Implement a clear distinction between:
+- Work completed and verified.
+- Work explicitly deferred under a documented owner decision.
+- Work remaining for the next course version.
+
+The future autopilot must support an expressly owner-authorized **next-version finalization** scope, on a separate branch, in which validated objective POST-PILOT corrections to M0/M1 can be implemented without changing the live pilot or reopening closed decisions.
+
+Do not weaken the existing pilot freeze by default. Do not manufacture approval for new policy, legal, privacy or assessment decisions.
+
+Ensure the ledger's summary and terminal result accurately disclose all deferred items.
+
+**2. Include Hungarian editorial review**
+
+The currently documented `/course-autopilot M0-Z` default omits the `language` lens.
+
+For full-course finalization, require coverage of all five lenses: pedagogy, assessment, language, safety and implementation.
+
+Reuse existing verified review results where applicable, but do not claim language coverage for modules that never received it.
+
+**3. Perform the complete S1–S6 smoke test autonomously**
+
+Use the existing smoke-test specification in the harness refactor audit record.
+
+Run the tests in a clean, disposable sibling checkout in a fresh Claude Code process, using supported CLI functionality.
+
+Do not run the tests in the main checkout or the existing harness development worktree.
+
+The smoke-test scope may explicitly waive X-2 ("harness merged") only in the disposable test run. Do not change or falsely resolve the real integration precondition.
+
+Verify actual behavior, not merely configuration:
+- Automatic review invocation and reuse.
+- Fresh review with independent verifier.
+- Actual authorized course-fix behavior.
+- Human-gated finding recorded while independent work continues.
+- Context compaction/resume.
+- Goal and ledger completion semantics.
+- Destructive-command denial.
+- Release-check.
+
+Run destructive-command denial checks before disposable content changes, or through a safe hook test. Never risk another worktree's files.
+
+If the environment cannot start a fresh Claude Code child session, report that exact limitation rather than claiming the test passed. Do not bypass sandbox, hooks or classifier denials.
+
+**4. Finalize the existing PR**
+
+Apply only the necessary harness changes to `gov/claude-harness-v2`. Do not edit actual course content or touch the uncommitted N-M1-04 checkout.
+
+Run all relevant regression/security checks. Create a new, accurately named local commit. Update PR #26 only after the platform's normal permission requirements are satisfied.
+
+Do not merge any PR, retarget branches, deploy Moodle, or start the full M0–Z finalization.
+
+At completion, provide:
+- S1–S6 PASS/FAIL/NOT RUN, each with evidence.
+- The exact changes made for the two identified gaps.
+- Updated commit SHA and CI status.
+- Any genuine remaining blockers.
+- A concrete, minimal integration sequence for the audit branch, PR #26, Anna's audit branch and N-M1-04.
+
+Do not ask routine questions or generate another broad refactor proposal. Finish this focused acceptance pass.
 ```
