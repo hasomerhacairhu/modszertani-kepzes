@@ -3,8 +3,10 @@
 #
 # 1. The OS SANDBOX (.claude/settings.json) is the write boundary: sandboxed Bash cannot write
 #    anywhere in the repository (`.git` included), however a command is spelled.
-# 2. Only calls whose every part is literally `git …` or `gh …` (plus the media build and the
-#    visible-text pin) run OUTSIDE the sandbox. For those this hook is the guard, and it works
+# 2. Only calls whose every part is literally `git …` or `gh …` (plus the media build, the
+#    visible-text pin and `tools/audit_import.py`, which enforces its own bounds: a finished .md
+#    from the session temp area into `01 Fejlesztés/04 Audit/` only, never over a tracked file,
+#    after the name check) run OUTSIDE the sandbox. For those this hook is the guard, and it works
 #    by ALLOWLIST: git only inside this repository (or a root listed in the untracked
 #    `.git/info/guard-allowed-roots`), only known subcommands, no code-executing options
 #    (-c except harmless keys, config writes, --upload-pack/--exec/ext::, --output, …), no
@@ -694,6 +696,7 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "cat /tmp/x > \"$REPO_ROOT/$T/x.md\"" "printf x | tee \"$T/x.md\"" "cp /tmp/x \"$T/x.md\"" "mv /tmp/x \"$T/Modulok/x.md\""
     "install /tmp/x \"$T/x.md\"" "rsync -a /tmp/x/ \"$T/\"" "rsync -a --delete /tmp/x/ ./" "cp -R /tmp/x/. ."
     "$G show HEAD:\"$T/x.md\" > \"$T/x.md\"" "patch -p1 < /tmp/p.diff" "dd if=/tmp/x of=\"$T/x.md\"" "truncate -s 0 \"$T/x.md\""
+    "python3 tools/audit_import.py /tmp/r.md x.md > \"$T/x.md\""
     "python3 -c \"import pathlib; pathlib.Path('$T/x.md').write_text('x')\"" "x=$G; \$x reset --soft HEAD~3" "\"\$GIT\" status"
     "printf 0123 > .git/refs/heads/main" ": > .git/logs/HEAD" "/opt/homebrew/opt/git/libexec/git-core/$G reset --hard"
     "$H pr create --title x --body 'ZZ''NAME''ZZ'" "$H pr create --title x --body \"ZZ\"NAMEZZ"
@@ -740,6 +743,8 @@ if [[ "${1:-}" == "--selftest" ]]; then
     "$G push origin main" "$G push -u origin HEAD" "$G push" "$H pr merge 1 --merge" "$H pr close 3 --delete-branch"
     "python3 tools/content_integrity.py" "python3 tools/content_integrity.py --release-report" "python3 tools/media_manifest.py build"
     "python3 tools/test_media_manifest.py --pin-visible \"CF-01: x\"" "python3 tools/test_media_manifest.py --pin-visible \"CF-01: a -> $T\""
+    "python3 tools/audit_import.py /private/tmp/claude-501/x/scratchpad/r.md \"2026-10-10 Validált findingok – x.md\""
+    "python3 tools/audit_import.py \"\$TMPDIR/r.md\" \"x.md\" --replace-untracked"
     "grep -rn mintaszo '$T'" "ls -la" "ls -lf" "cat CLAUDE.md" "sed -n 5p \"$T/x.md\"" "grep -rn x \"$T\" | tee /tmp/out.txt"
     "grep -rn \"$G push\" CLAUDE.md .claude/" "grep -rn \"$R -rf\" .claude/hooks/" "rg \"sed -i\" .claude/" "grep -n \"$G reset --hard\" CLAUDE.md"
     "cat \"$T/x.md\" > /tmp/x.md" "cp \"$T/x.md\" /tmp/x.md" "cp -r \"$T/Modulok\" /tmp/backup" "cd \"$T\" && grep -rn x ." "cd \"$T\" && ls > /tmp/list.txt"

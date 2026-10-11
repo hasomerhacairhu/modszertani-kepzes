@@ -133,7 +133,10 @@ cp/mv, patch, inline szkript).
   futnak (`.claude/settings.json` `sandbox`), és a repóba — a `.git`-et is beleértve — semmit
   nem írhatnak, bárhogy van leírva a parancs; ideiglenes fájl a `$TMPDIR`-be kerül. Sandboxon
   kívül csak az a hívás fut, amelynek minden része szó szerint `git …` (a repó gyökeréből, `-C`
-  nélkül), `gh …`, `python3 tools/media_manifest.py build` vagy a `--pin-visible` parancs; egy
+  nélkül), `gh …`, `python3 tools/media_manifest.py build`, a `--pin-visible` parancs vagy a
+  `python3 tools/audit_import.py <forrás.md> "<fájlnév.md>"` (kész `.md` a munkamenet ideiglenes
+  területéről, kizárólag az `01 Fejlesztés/04 Audit/` mappába, követett fájl felülírása nélkül, a
+  névellenőrzés után; a határait maga az eszköz kényszeríti ki); egy
   `cd`, egy `git -C <út>`, egy átirányítás vagy bármely más rész (pl. `; echo`, `| wc`) a
   teljes hívást sandboxban tartja, ahol a `.git` nem írható. A sandbox parancsból nem
   kapcsolható ki, és ha nem indul, a Claude Code sem indul. Következmény: ebből a sessionből
