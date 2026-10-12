@@ -7,7 +7,7 @@
   "mode": "reuse",
   "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
   "purpose": "Ez a modul központi, kapuzott produktuma (éles teljesítési kapu, §6.2). A sablon vezeti a madrihot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és társak és mentor által áttekinthető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
-  "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: Cím, (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres értékkapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám + hangulat, (4) Lépésről lépésre leírás + időkeret + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat. A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
+  "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: Cím, (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres értékkapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám + hangulat, (4) Lépésről lépésre leírás + időkeret + tér + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat. A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
   "provenance": "human",
   "provenance_note": "emberi-felvétel",
   "technical": {
@@ -242,10 +242,10 @@ Az M6 akkor **teljesített**, ha az alábbi két feltétel (1–2.) teljesül:
   * ha a résztvevők >30%-a **nem éri el a 80%-ot** pár próbálkozás után → extra online ismétlés **a játéklap leadása előtt** (felkészítés, nem kapuzás). Az M6.F (F-peula) nem ide tartozik: az a nem teljesült kapu utáni javítási alkalom.
 * **Játéklap-rubrika (éles kapu):**
   * hány játéklap ér el minimum „Oké” szintet,
-  * külön figyelni az R4 (Biztonság) és az R5 (Inkluzivitás) sorra – ha sok a gyenge lap, F-peula (M6.F) mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva.
+  * külön figyelni az R4 (Biztonság) és az R5 (Inkluzivitás) sorra – ha sok a gyenge lap, lásd a beavatkozási pontokat lent; az F-peula (M6.F) ettől függetlenül kötelező mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva.
 * **Küszöbök / beavatkozási pontok:**
   * ha a résztvevők >30%-a nem éri el a 80%-ot a **formatív** szcenárió-kvízen → célzott támogatás és ismétlés a játéklap előtt,
-  * ha a játéklapok >25%-ánál gyenge az R4 (Biztonság) vagy az R5 (Inkluzivitás) sor → F-peula (M6.F) mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva, illetve egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**.
+  * ha a játéklapok >25%-ánál gyenge az R4 (Biztonság) vagy az R5 (Inkluzivitás) sor → egyéni mentoros munka a kritikus esetekkel **(ez az éles kapu valódi beavatkozási pontja)**; az F-peula (M6.F) ettől függetlenül kötelező mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva.
 
 ***
 

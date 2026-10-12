@@ -116,7 +116,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - D – Valódi személy megnevezése és közös elemzése megszégyenítő; a cél a dinamika megértése, nem valaki kipécézése.
 
 **Visszajelzés:**
-> ✅ A kirekesztést **fiktív, harmadik személyű esetből** dolgozzuk fel: senkit nem hagyunk ki demonstrációként, nem osztunk „kirekesztett” vagy „kirekesztő” szerepet, és nem használunk beazonosítható valós konfliktust. (M6.1, SLIDE 6; példa: M6.4, B. szcenárió, játék-ág)
+> ✅ A kirekesztést **fiktív, harmadik személyű esetből** dolgozzuk fel: senkit nem hagyunk ki demonstrációként, nem osztunk „kirekesztett” vagy „kirekesztő” szerepet, és nem használunk beazonosítható valós konfliktust. (M6.1, SLIDE 6; példa: M6.4, B. szcenárió, játékág)
 
 ---
 
@@ -206,7 +206,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - D – A beazonosítható valós konfliktus közös elemzése megszégyenítő lehet és ráégetheti a szerepeket az érintettekre.
 
 **Visszajelzés:**
-> ✅ A kirekesztés felismerését fiktív, harmadik személyű helyzetből gyakoroljuk. **Nem hagyunk ki résztvevőt demonstrációként**, és senkire nem osztunk valódi „kirekesztett” szerepet. (M6.1, SLIDE 6; példa: M6.4, B. szcenárió, játék-ág)
+> ✅ A kirekesztés felismerését fiktív, harmadik személyű helyzetből gyakoroljuk. **Nem hagyunk ki résztvevőt demonstrációként**, és senkire nem osztunk valódi „kirekesztett” szerepet. (M6.1, SLIDE 6; példa: M6.4, B. szcenárió, játékág)
 
 ---
 
@@ -344,7 +344,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ## P1. POOL-ITEM (csere-item) – Biztonság: azonnali leállítás + jelzés
 
-> **Pool-item:** ez a 13. blokk a **kicserélhető item-pool** része (lásd „Miért 12 item”). A Moodle-ben futó kvíz alapesetben **12 itemes**; ez az item **becserélhető** valamelyik biztonsági item (5/6/7) helyére, vagy 13.-ként betehető (csak a kohorsz első próbálkozása előtt, menet közben nem), ha a stáb épp az **R4-hez tartozó azonnali reflexet** (mikor állok le / kihez fordulok) akarja diagnosztizálni. Az R4 „Erős” szint ezt a reflexet várja (jelzés, mikor kell leállítani / kit hív a madrih), és a peulák (M6.A 4.3.2/B) is ezt tanítják – ez az item ezt méri, anélkül hogy a kvíz tétjét emelné.
+> **Pool-item:** ez a 13. blokk a **kicserélhető item-pool** része (lásd „Miért 12 item”). A Moodle-ben futó kvíz alapesetben **12 itemes**; ez az item – csak a kohorsz első próbálkozása előtt, menet közben nem – **becserélhető** valamelyik biztonsági item (5/6/7) helyére, vagy 13.-ként betehető, ha a stáb épp az **R4-hez tartozó azonnali reflexet** (mikor állok le / kihez fordulok) akarja diagnosztizálni. Az R4 „Erős” szint ezt a reflexet várja (jelzés, mikor kell leállítani / kit hív a madrih), és a peulák (M6.A 4.3.2/B) is ezt tanítják – ez az item ezt méri, anélkül hogy a kvíz tétjét emelné.
 
 **Szár:**
 > Egy **15 éves** kvucában „Szél fújja azt, aki…” közben az egyik hanihot **láthatóan rosszul érinti** egy identitást súroló állítás: elhúzódik, könnybe lábad a szeme. A játék még tart. **Mit teszel ELSŐ lépésként?**
@@ -436,4 +436,4 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 ## (D) Stáb-jelzések (tanulási analitika, a modul-hub 7. szakasza alapján)
 
 - **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** nem éri el a 80%-ot pár próbálkozás után → célzott online ismétlés **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés). Az **M6.F** (F-peula) nem ide tartozik: az a nem teljesült kapu utáni javítási alkalom. Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 4 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapu-döntés**: a teljesítés érdemi bizonyítéka a játéklap, a blokkoló döntés pedig az **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
-- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → F-peula (M6.F) mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva + egyéni mentoros munka a kritikus esetekkel.
+- **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → egyéni mentoros munka a kritikus esetekkel; az F-peula (M6.F) ettől függetlenül kötelező mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva.
