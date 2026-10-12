@@ -1,8 +1,8 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "ADV-1, ADV-5, PRG-5 (KANON:QA14-BIZT-1, M1:BIZT-G2-4, M2:BIZT-G2-3, M7:BIZT-G1-6, M3:ERT-G3-10): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "5090322774280a5c57a2e45fa4cfbe7e492ebe2345e187bedd657cb888a698ab"
+      "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
+      "sha256": "6e608fb5e3791d9c597eabe3bbb7effdfa0fbc407eaf9bc330f4d3144a1574ad"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
       "reason": "Projektgazdai döntés 2026-10-12 (GYV-1…GYV-23, ADV-1…ADV-15, JOG-1, TERM-1…TERM-8, ERT-1…ERT-50, PRG-1…PRG-17, LMS-1…LMS-8, VO-1, TECH-1, TECH-2): a 125 döntés kánoni átvezetése, Emberi jóváhagyás szükséges.md 14. szakasz",
@@ -53,8 +53,8 @@
       "sha256": "d45f222277d6255e6098a055d4f2801feeb9b0c927189ad4af27f1bcfedd4cc7"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "289b53b9339d981970e454d2acc0a4a949007ad503e1c3f3a956052251c0693f"
+      "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
+      "sha256": "b39440b6919b702d2d8fa0191f8daf040e588d8b5187a550047bf505e9ba1312"
     },
     "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
       "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
@@ -129,8 +129,8 @@
       "sha256": "ba11e54ef6b36c622d2e6a5bc629211ca3b156c644cc17ed9d229374ec07623d"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
-      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "e15ef5ba12eeafb8a8c222157af6ea6e3e775821e33d343d678cde32e25938b1"
+      "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
+      "sha256": "f335ba3cefd3e31062bf4d81e65f4790c5b3a638d443a000ef31ccc15189eb47"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
       "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
