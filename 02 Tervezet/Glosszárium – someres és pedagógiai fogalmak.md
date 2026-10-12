@@ -175,7 +175,7 @@ A madrihképzés kanonikus minimum-gyermekvédelmi szabályrendszere (angolul: C
 Cél-megfogalmazási keret: **S**pecifikus, **M**érhető, **A**chievable (elérhető), **R**eleváns, **T**ime-bound (időhöz kötött). A tananyagban „someres módra” – a „még csak vágy, nem cél” állapotból konkrét, megfigyelhető nevelési céllá alakít. (M7)
 
 ### nonformális nevelés
-Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és kapcsolat-alapú, a kvuca valóságához kötve. A someres pedagógia alapállása – „a Somer NEM suli”. A peula a tipikus nonformális egység.
+Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és kapcsolatalapú, a kvuca valóságához kötve. A someres pedagógia alapállása – „a Somer NEM suli”. A peula a tipikus nonformális egység.
 
 ### teljesítési kapu
 Olyan kapu, amely a modul teljesítését egy **előre rögzített teljesítési minimumhoz** köti (éles kapunál a továbblépést is), nem egyszeri „megbuktató vizsgához”. Lehet rubrika- vagy kvízalapú; a cél, hogy a szükséges tudás vagy készség ténylegesen meglegyen, és javítás után újra lehessen próbálni. A régebbi fejlesztői jegyzetekben előfordulhat a `mastery-kapu` angol-magyar keverék, de **tanulói nyelven a `teljesítési kapu` a kanonikus alak**.

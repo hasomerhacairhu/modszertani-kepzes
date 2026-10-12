@@ -482,7 +482,7 @@ teljes release csak akkor `READY`, ha minden release-hatókörű médiakapu zár
 
 ---
 
-## Lezárt döntések (2026-08-27, 2026-10-02, 2026-10-03)
+## Lezárt döntések (2026-08-27, 2026-10-02, 2026-10-03, 2026-10-04)
 
 Nyomon követhetőségért; ezek már nem kérdések. A 2026-10-02-án lezárt D1, D5 és D10 a
 fenti saját szakaszában maradt, mert ott állnak a kitöltött értékei.
@@ -519,3 +519,4 @@ fenti saját szakaszában maradt, mert ott állnak a kitöltött értékei.
 | **K8** | Ha az `M1.3-NAR-08` hallgatási próbáján a képleírás – az 5. rész idézett szövegrészeinél is – nem különül el hallásra Madrih A replikájától, előbb hangsúllyal, tempóval, szünettel és keveréssel kell szétválasztani; ha ez sem elég, a hozzáférhetőségi felelős dönt a következő lépésről (kiegészítő projektgazdai döntés, 2026-10-03). A K4 (azonos hang) és a VO D-18 változatlan. | Az `M1.3-NAR-08` `spec` mezője és az M1.3 gyártási jegyzete. |
 | **D9** | A kanonikus, tanulónak látható AI-provenance címke szövege: **„AI-generált médiaelem · emberi lektorálással.”** | Rögzítve a `produkcios-szabalyok.json` R1 szabályában (`human_label` mező), és kivezetve mind a 21 aktív előfordulásra a tananyagban. A címke **vizuális megjelenése és elhelyezése** a D1 első lépcsőjéből következik (2026-10-02: élő LMS-szöveg, a `PRODUCTION-STYLE-TOKEN.md` 7.3. pontja szerint). Csak hangot tartalmazó narrációnál a címke a leirat első sora és a lecke alján egy sor (VO D-21, 2026-10-03). |
 | **F-02** | Az élő/runtime tételek nem számítanak a központi „most gyártható” kötegbe. | `technical.production_phase: trainer-at-runtime` három asseten (`M0.A-EGY-01`, `M0.A-FOTO-01`, `Z.A-KART-04`); a produkciós terv külön szakaszban mutatja őket, a rájuk vonatkozó kapukkal együtt. A követelményük és a deliverable-jük megmarad. |
+| **Q-MED-2** | A narrációk besorolása (animáció hangsávja vagy önálló dia-narráció; projektgazdai döntés, 2026-10-04). A döntés szó szerinti szövege és utólagos ellenőrzője (hozzáférhetőségi felelős) egyetlen helyen áll: `Emberi jóváhagyás szükséges.md` 10. szakasz; ez a sor csak hivatkozik rá. | Átvezetve a kánoni döntési helyre: `Emberi jóváhagyás szükséges.md` 10. szakasz (forrás: `01 Fejlesztés/04 Audit/2026-10-04 Projektgazdai döntések – összesítő 24 kérdése.md`, Q-MED-2). |

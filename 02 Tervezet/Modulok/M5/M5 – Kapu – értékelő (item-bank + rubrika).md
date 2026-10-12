@@ -10,7 +10,7 @@
 
 > **Ez a fájl az M5 teljesítési kapu értékelője:** teljes, auditálható item-bank + a modulproduktumhoz (M5.4 táblázat) tartozó megfigyelhető rubrika.
 >
-> **Kapu-filozófia (lásd Program terv §5):** mivel az M5 nonformális nevelést tanít, **az éles teljesítési kapu az M5.4 produktum rubrikás értékelése** (4. szakasz) – nem a fogalom-kvíz. A **kvíz formatív/diagnosztikus**: megmutatja, melyik fogalomcsalád szorul felzárkózásra, de nem egy-helyes-válaszos kvízkapuként szűr. Így a kapu a someres elvet (produktum + reflexió a sulis fogalom-kvíz helyett) követi, és közben megmarad a minőségbiztosítás.
+> **Kapu-filozófia (lásd Program terv §5):** mivel az M5 nonformális nevelést tanít, **az éles teljesítési kapu az M5.4 produktum rubrikás értékelése** (4. szakasz) – nem a fogalomkvíz. A **kvíz formatív/diagnosztikus**: megmutatja, melyik fogalomcsalád szorul felzárkózásra, de nem egy-helyes-válaszos kvízkapuként szűr. Így a kapu a someres elvet (produktum + reflexió a sulis fogalomkvíz helyett) követi, és közben megmarad a minőségbiztosítás.
 
 ---
 

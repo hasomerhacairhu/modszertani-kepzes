@@ -5,24 +5,24 @@
       "sha256": "4457dd194272fe6cb2a49f94471383019c459d56582bd456c49855fec1f5a43a"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "N-M1-04 (ERT-G1-1, IMPL-G1-2; projektgazdai döntés, 2026-10-10, P0 adatvédelmi freeze-kivétel): az M1.1 SLIDE 5 önreflexiója opcionális, kizárólag tanuló-lokális, nem tárolódik Moodle/H5P oldalon; a tároló Moodle-oldali tartalékút és a „lehetőleg learner-local” szabály kikerült; átvezetve: M1.1, LMS-M1-01, BSPEC-02, runtime acceptance 24. pont, HUM 12. szakasz",
-      "sha256": "45d7a585e1e3d3b7be2a336c48b7c198297f58708bbe623a9c391ad3a2e4219e"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "43de1775de11ea4ef88e800716e93c638a79568487badd3ad53520884e277ca1"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
-      "reason": "2026-10-02 projektgazdai döntések, 3. kör (12 tétel, „ajánlás szerint”): éles kapunál a javító próbálkozás a kötelező F-peula után nyílik; kiegészítő naptár; a Memuna élesítés előtti írásos átnézése (QA); kiskorú hozzájárulás a gondviselővel együtt; megőrzési sorok; az M2.1 válasz nem tárolódik; M7.1 „Mielőtt használod”; kitalált kvucánál a vállalás a terepgyakorlatra; „Teljesítve / Még nem teljesítve” kapucímkék; M3.A 3 kártya; az M3.B sorvégi sortörései backslash-re cserélve",
-      "sha256": "80b79154aa0d9689ea4fbf3c9e96435b8095429aa476d8648a4d7d85b762813b"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "46d1b53dcb10466a9d431d302a64f4a55c149a853e385de5758137881995ce16"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
       "reason": "FP-01…FP-12 (R-4; pilot-ütemezési jegyzőkönyv 5. szakasz): négy fotó release_phase/fallback, M4.1 SLIDE 4 szöveges kártyák, A11Y-15/18 release-evidence, SAFE-7 nyitott QA-tétel a GK §6-ban, HUM 11 státusz-szemantika és öt pontosítás, HUM :481 példálózó hatókör, MAN §7 pilot-hétköznap és kurzus-hozzáférés 2026-10-10, M3.4 → M4 a Q-REL-2/BSPEC-04 szerint",
       "sha256": "0ebf17f584cba892c032bbd01b9acb1e803c2210f6d532134d18f7f48792e1a5"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "N-M1-04, IMPL-QA-1, IMPL-QA-2, BIZT-QA-2, NYELV-QA-1, NYELV-QA-2, IMPL-QA-3, IMPL-QA2-1, BIZT-QA2-1, IMPL-QA2-2, IMPL-QA2-3, NYELV-QA2-1, NYELV-QA2-2, NYELV-QA2-3, NYELV-QA2-4, IMPL-QA3-1, IMPL-QA3-2, NYELV-QA3-1, NYELV-QA3-2, NYELV-QA3-3: M1.1 SLIDE 5 saját jegyzetes pontosítása és runtime-követelménye; RT-P0-24 mentett-állapot tesztlépés",
-      "sha256": "2050be0e89e853df707fa5033d6a7f15f52dd879b8066dce8c826c1cfea76979"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "e967928895c7a372844b286be1058e53cca23f47d961bff46fccb27f1f2fd6dc"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "N-M1-04 (ERT-G1-1, IMPL-G1-2; projektgazdai döntés, 2026-10-10, P0 adatvédelmi freeze-kivétel): az M1.1 SLIDE 5 önreflexiója opcionális, kizárólag tanuló-lokális, nem tárolódik Moodle/H5P oldalon; a tároló Moodle-oldali tartalékút és a „lehetőleg learner-local” szabály kikerült; átvezetve: M1.1, LMS-M1-01, BSPEC-02, runtime acceptance 24. pont, HUM 12. szakasz",
-      "sha256": "76200112f2cf0c560e61eecad3f59eddb801e3b2eb34a5ceb39d8aa0f1fbcedf"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "2d9a4dca8ed5b861ae1b2a07eae303886124937866de0add9be529b62529b95f"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "C6U2-01…C6U2-04 (C6U-BIZT-1/2/3/4, C6U-IMPL-1/2): feltárási feltétel kánonhoz igazítva, családi/identitás-garancia, GK §4.1 jelzési út utalás, értékelő-mondat, A11Y-07 portálnév-útmutatás, RT-P0-15 tesztfeltételek HUM-döntésként",
@@ -137,12 +137,12 @@
       "sha256": "9d2bff5383e58cddb2e0c317b473e03eea334bd28ce51b155d7364026f919b91"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
-      "reason": "M3:QA-ERT-1, M3:QA-NYELV-10, M3:QA-IMPL-4, M3:QA-IMPL-1, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-6, M3:QA-NYELV-9, M3:QA-IMPL-3, M3:QA-IMPL-5: a 3ae0c09/33050fa célzott QA-jának validált javításai",
-      "sha256": "d8039e811e24c54791963a1510baa5375746da451ee4276be03c30f0e4029725"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "d1339f7f3b73cfa35a1cff71a56135fcc18200b38c1844eec2c6e788f486bd54"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "M3:QA-ERT-1, M3:QA-NYELV-10, M3:QA-IMPL-4, M3:QA-IMPL-1, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-6, M3:QA-NYELV-9, M3:QA-IMPL-3, M3:QA-IMPL-5: a 3ae0c09/33050fa célzott QA-jának validált javításai",
-      "sha256": "cea04b30ce79b4f5dde007dc2ed16153dca8235a138c89249b46fb61bc675c90"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "668759884863865236d41dd04a9c59943c00733b2ce6c478af001dc028f6280a"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
       "reason": "M3 PED-G1-1, PED-G1-2, PED-G1-3, PED-G1-5, PED-G1-8, PED-G1-11, PED-G2-7, PED-G2-8, PED-G3-3, ERT-G1-2, ERT-G1-6, ERT-G1-7, ERT-G1-13, ERT-G3-3, ERT-G3-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-7, IMPL-G1-9, IMPL-G2-2.obj, IMPL-G2-3, IMPL-G2-9, IMPL-G2-11.obj, IMPL-G2-13, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-5, IMPL-G3-7, IMPL-G3-11, IMPL-G3-12, IMPL-G3-14, BIZT-G1-9, BIZT-G2-1, BIZT-G3-5, BIZT-G3-9, BIZT-G3-10, NYELV-G1-2, NYELV-G1-5, NYELV-G1-6, NYELV-G1-10, NYELV-G1-12, NYELV-G1-14, NYELV-G2-1, NYELV-G2-2, NYELV-G2-5, NYELV-G2-8, NYELV-G2-10, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G2-16, NYELV-G2-19, NYELV-G2-21, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-7, NYELV-G3-9, NYELV-G3-10: validált objektív findingok javítása (AP-2026-10-11-01)",
@@ -193,24 +193,24 @@
       "sha256": "5a68b0ac4fb0a2707882d1551dc73a1584af0d8f955a9581c31c312e8b44f127"
     },
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
-      "reason": "M5:PED-G2-1, BIZT-G2-6, PED-G1-4.obj, PED-G1-7, PED-G1-8, PED-G1-11, PED-G2-3, PED-G2-4, PED-G2-5, PED-G2-6.obj, PED-G2-13, ERT-G1-3, ERT-G1-5, ERT-G2-1, ERT-G2-5, ERT-G2-7, IMPL-G1-2, IMPL-G1-3, IMPL-G1-5, IMPL-G1-6, IMPL-G1-7, IMPL-G1-10, IMPL-G1-12, IMPL-G2-3, IMPL-G2-5, IMPL-G2-6, IMPL-G2-10, IMPL-G2-11, IMPL-G2-12, BIZT-G1-3, BIZT-G2-3, NYELV-G1-1, NYELV-G1-2, NYELV-G1-4, NYELV-G1-5, NYELV-G1-6, NYELV-G1-8, NYELV-G1-14, NYELV-G2-3, NYELV-G2-6, NYELV-G2-7, NYELV-G2-9, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13: validált objektív javítások, AP-2026-10-11-01",
-      "sha256": "1dfd13d4bb7004c2a6066d418e0c8e8caafdf00386f06d913d090e9e01a4fbbf"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "09f44647451d8cbe228ca14a17a0ec541c1a236aadc4d6cf658b00fc5674b24f"
     },
     "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M5:QA-IMPL-3, M5:QA-ERT-2, M5:QA-PED-1, M5:QA-IMPL-1, M5:QA-IMPL-5, M5:QA-NYELV-1, M5:QA-NYELV-RC-1, M5:QA-NYELV-RC-2, M5:QA-IMPL-2 (M4/M5 helyek): a 0932de3 célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "475c92516240e79e746fb8b98cb3b07a638fcf24e0ce52067aa7c95bb92853a6"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "21444a20f9dbce73811098967674fee2ac021b3e74063659d5f18a9add02a9a6"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
-      "reason": "M5:QA-IMPL-3, M5:QA-ERT-2, M5:QA-PED-1, M5:QA-IMPL-1, M5:QA-IMPL-5, M5:QA-NYELV-1, M5:QA-NYELV-RC-1, M5:QA-NYELV-RC-2, M5:QA-IMPL-2 (M4/M5 helyek): a 0932de3 célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "f47be89b7e9d92d0969ffdeb417a72fce2222995f4eeb66c8036a12774a54495"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "7204453fa07cc8c8672c423929c3d8699870fea31e346f008806cc3523d4b4ef"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
       "reason": "M5:PED-G2-1, BIZT-G2-6, PED-G1-4.obj, PED-G1-7, PED-G1-8, PED-G1-11, PED-G2-3, PED-G2-4, PED-G2-5, PED-G2-6.obj, PED-G2-13, ERT-G1-3, ERT-G1-5, ERT-G2-1, ERT-G2-5, ERT-G2-7, IMPL-G1-2, IMPL-G1-3, IMPL-G1-5, IMPL-G1-6, IMPL-G1-7, IMPL-G1-10, IMPL-G1-12, IMPL-G2-3, IMPL-G2-5, IMPL-G2-6, IMPL-G2-10, IMPL-G2-11, IMPL-G2-12, BIZT-G1-3, BIZT-G2-3, NYELV-G1-1, NYELV-G1-2, NYELV-G1-4, NYELV-G1-5, NYELV-G1-6, NYELV-G1-8, NYELV-G1-14, NYELV-G2-3, NYELV-G2-6, NYELV-G2-7, NYELV-G2-9, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13: validált objektív javítások, AP-2026-10-11-01",
       "sha256": "8143b7f16f2c283788c40e0b73c6b70d30ed08d591f916ab04efaf6be4155371"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
-      "reason": "M5:QA-IMPL-3, M5:QA-ERT-2, M5:QA-PED-1, M5:QA-IMPL-1, M5:QA-IMPL-5, M5:QA-NYELV-1, M5:QA-NYELV-RC-1, M5:QA-NYELV-RC-2, M5:QA-IMPL-2 (M4/M5 helyek): a 0932de3 célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "06d9ab65a1e8d32bac35714565eb8fd55720246b91d3b16e6544eb343a4b51ea"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "cf3a3f292417624ffd2ec519aaabbc4de961c9b82422c2528cf3de87666c40b5"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md": {
       "reason": "M5:QA-IMPL-3, M5:QA-ERT-2, M5:QA-PED-1, M5:QA-IMPL-1, M5:QA-IMPL-5, M5:QA-NYELV-1, M5:QA-NYELV-RC-1, M5:QA-NYELV-RC-2, M5:QA-IMPL-2 (M4/M5 helyek): a 0932de3 célzott QA validált findingjai, a verifier-korlátok szerint",
@@ -233,12 +233,12 @@
       "sha256": "b20353e2c9555d67dbb332357ab6ed6c10962eeb8f8098fa8f994601a9763dcd"
     },
     "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M6:QA-PED-1, M6:QA-PED-2, M6:QA-ERT-2, M6:QA-IMPL-1, M6:QA-IMPL-4, M6:QA-NYELV-1, M6:QA-NYELV-4, M6:QA-NYELV-5, M6:QA-NYELV-6, M5:QA-IMPL-2 (M6-helyek): a cf20a55 célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "f7fedda36c529915529267c61052afd524b5fa1a90b6831a48fa28d4448596f7"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "9c316b5ecad628cb769bfa9a8af9236293af6d2d26d84501f20e8db5f21f7f4e"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md": {
-      "reason": "M6:QA-PED-1, M6:QA-PED-2, M6:QA-ERT-2, M6:QA-IMPL-1, M6:QA-IMPL-4, M6:QA-NYELV-1, M6:QA-NYELV-4, M6:QA-NYELV-5, M6:QA-NYELV-6, M5:QA-IMPL-2 (M6-helyek): a cf20a55 célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "be9a0d8c084a956b4a11f68185f92687326f4df1ae241e4cbcac74237a0bb247"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "3c795f49c30595e822a20aa248ef227b1942fb248a78f31f9760bbc50d55556e"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
       "reason": "M6:QA-PED-1, M6:QA-PED-2, M6:QA-ERT-2, M6:QA-IMPL-1, M6:QA-IMPL-4, M6:QA-NYELV-1, M6:QA-NYELV-4, M6:QA-NYELV-5, M6:QA-NYELV-6, M5:QA-IMPL-2 (M6-helyek): a cf20a55 célzott QA validált findingjai, a verifier-korlátok szerint",
@@ -325,8 +325,8 @@
       "sha256": "0a2fd2dc0238e6db6108262f4673e22bef5d17b626328c6de112b9cf32eec878"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "Command 6 (C6-01…C6-19): PR-01 adatleltár build-része, PR-02 tanulói adatvédelmi tájékoztató, A11Y-07 G5a/G5b, A11Y-17 offline változat, BIZT-2/3/4/11, M0/M1 hub ütemezés-semleges sor, Memuna-felsorolás példálózó, M4.1 példa/változat szóhasználat",
-      "sha256": "67a67423aa49b4540ca3a2f687f920cca6003f9c8a36dba473360f7e2f333a85"
+      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
+      "sha256": "c659302b242d36696d59e74560e0f1a1c2dc80d79fa96396f45af217046df9cc"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",

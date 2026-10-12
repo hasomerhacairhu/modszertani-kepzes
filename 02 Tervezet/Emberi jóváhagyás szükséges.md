@@ -31,7 +31,7 @@
 | **Utólagos ellenőrzés (vétó/QA)** | a Memuna; a helyettes (Ros Hinuh). |
 | **Jóváhagyó** | **Memuna** (a Somer gyermekvédelmi felelőse) mint egyetlen felelős jóváhagyó; a programvezető operatív társdöntő; jogi szakértő csak a jogi minősítésnél. *(Projektgazdai döntés a jóváhagyói rendről, 2026-10-02; korábban: gyermekvédelmi felelős + szervezeti vezetés.)* |
 | **Blokkol** | éles M0 safety-kontakt, M3.3, M3.B, M3-kapu, M7 gyermekvédelmi részei és M7-kapu |
-| **Érintett források** | `Gyermekvédelem – release gate.md`, M0.2, M0.4, M0.A, M1.A, M2.A, M2.4, M2-kapu, M3.3, M3.B, M3-kapu, M4.2, M4.3, M4.A, M4.B, M5.2, M6.3, M6.4, M6.A, M7.2, M7.3, M7.4, M7.B, M7-kapu, Z.3, Z.A |
+| **Érintett források** | `Gyermekvédelem – release gate.md`, M0.2, M0.4, M0.A, M1.A, M2.A, M2.4, M2-kapu, M3.3, M3.B, M3-kapu, M4.2, M4.3, M4.A, M4.B, M5.2, M6.2, M6.3, M6.4, M6.A, M6.B, M6-kapu, M7.2, M7.3, M7.4, M7.B, M7-kapu, Z.3, Z.A |
 | **Implementáció a döntés után** | egyetlen jóváhagyott kontaktblokk kerül a Moodle-be; minden tananyag-hivatkozás ezt használja. |
 
 ### HUM-SAFE-02 — Négyszemközti / safer-working szabály — LEZÁRVA
@@ -493,7 +493,7 @@ A „Második jóváhagyói kör” oldal 12 maradék kérdésére a projektgazd
 
 ## 10. Projektgazdai döntések – release-modell és médiafázisok (2026-10-04)
 
-A 2026-10-04-i döntések átvezetése a kánoni döntési helyre. Szó szerint: a Q-REL-1…4 és a Q-MED-1
+A 2026-10-04-i döntések átvezetése a kánoni döntési helyre. Szó szerint: a Q-REL-1…4, a Q-MED-1, a Q-MED-2 és a Q-PED-4
 `01 Fejlesztés/04 Audit/2026-10-04 Projektgazdai döntések – összesítő 24 kérdése.md`, az RM-D1…D6
 `01 Fejlesztés/04 Audit/2026-10-04 Projektgazdai döntések – release-modell.md`, a BS-D1…D6 és a BS-D8
 `01 Fejlesztés/04 Audit/2026-10-04 Projektgazdai döntések – BSPEC-01…04 maradék.md`, a BSPEC-02 leltár D-1…D-6 döntése
@@ -511,6 +511,8 @@ zárnak; a jobb oldali szerep utólagos ellenőrzése vétó / minőségellenőr
 | Döntési és QA-lánc | A `LEZÁRVA` állapot felbontandó. Kötelező release-lánc: `OWNER_DECIDED → IMPLEMENTED → RUNTIME_VERIFIED → FINAL_RELEASE_QA → RELEASE_APPROVED`; mellette `PROPOSED`, `SUPERSEDED`, `REOPENED`. Az `OWNER_DECIDED` nem release-ready állapot. Két QA-fogalom: a `SPEC_QA` korai vétó vagy tanácsadó ellenőrzés, nem build-kapu; a `FINAL_RELEASE_QA` a kész, runtime-ellenőrzött rendszer szakértői ellenőrzése, release-kapu: ide tartozik a Memuna végső átnézése, a DPO release-ellenőrzése és a független a11y pre-flight. Amíg a fejlécek nincsenek átállítva, a `LEZÁRVA` az `OWNER_DECIDED`-nak felel meg. | Q-REL-3; RM-D2 | programvezető |
 | Kezdési idő | A kanonikus kezdési idő péntek 18:00, Europe/Budapest. | Q-REL-4 | programvezető |
 | Média-MVP fázisai | A fázis, release-kötelező: tanulói szöveg, natív H5P, szükséges segédlet, pedagógiai diagram/grafika és minden szükséges alt- vagy szöveges ekvivalens. B fázis: csak pedagógiailag indokolt narráció, mindig a szükséges leirattal/felirattal. C fázis: videó, avatar, karakterjelenet, márkás polish csak bizonyított tanulási funkcióval; a C fázis jogfüggő eleménél A/B-s statikus vagy szöveges fallback. Nem a 415 asset vagy a 903 deliverable teljes legyártása a release-feltétel. A manifeszt `release_phase: A/B/C` mezőt kap, és az lesz a scope-freeze. A médiakapu asset-szintű, fallbackkel. | Q-MED-1; RM-D4 | médiafelelős + programvezető |
+| Narrációk besorolása (animáció hangsávja vagy önálló dia-narráció) | **Besorolás:** `M1.1-NAR-03` = animáció hangsávja; `M1.2-NAR-02` = animáció hangsávja; `M1.2-NAR-03` = storyboard/animáció hangsávja; `M3.1-NAR-02` = animált Tuckman-ábra hangsávja. Ezekhez **felirat + leirat** kell. `M4.1-NAR-02` a jelenlegi spec alapján **önálló slide-narráció**, nincs időzítési/szinkron-kontraktusa az animált DIA-01-gyel, ezért VO D-19 szerint mellette látható leirat kell. Ha később ténylegesen az animációhoz szinkronizáljuk, akkor átkerül a hangsáv kategóriába. | Q-MED-2 | hozzáférhetőségi felelős |
+| Az M3.1 „szemüveg, nem menetrend” mondata | **Igen.** Kerüljön be: „**A modell szemüveg, nem menetrend: egy valódi csoport visszaléphet, átugorhat szakaszt, és egy helyzet többféleképpen is olvasható.**” | Q-PED-4 | módszertani felelős |
 | LMS-M5-07 (késleltetett felidézés) | Elsődleges út a „Restriction by relative date” plugin (a site admin telepíti); ha nincs telepítve, a pont az M5-03 után látható, és a lecke kéri a 72 órás várakozást. A build nem vár a pluginra. | RM-D6 | LMS-gazda / site admin |
 | A kapu-checkpoint tartalékútja (BSPEC-01) | A Group-alapú tartalékút elvetve, nem nyitott implementációs opció. A HUM-PRIV-01 nem változik meg azért, hogy egy tartalékút működjön: a tanulók nem láthatják egymás kapuállapotát vagy csoporttagságát. Ha nincs biztonságos tartalékút, és a primary `GATE_CONFIRMED` út core Moodle, determinisztikus, a kutatási tartományban támogatott, pontosan specifikált és runtime-teszttel igazolható, a „nincs tartalékút” elfogadható eredmény, de bizonyítani és dokumentálni kell. Alternatív tartalékutat csak azért nem gyártunk, hogy legyen. | BS-D1 | DPO/jogi felelős (a HUM-PRIV-01 utólagos ellenőrzője) |
 | A Q-REL-2 értelmezése | Nem új döntés. Bukott kapu után a következő modul első tanulási leckéje megnyílhat; a sikeres kapueredményhez kötött downstream activity a siker előtt nem nyílhat meg. A „downstream feloldás előtt” szövegezést minden érintett helyen egyértelművé kell tenni. | BS-D2 | programvezető + értékelési felelős (a Q-REL-2 szerint) |
@@ -584,3 +586,14 @@ szerinti: a döntés lezárt, a hozzá tartozó runtime-bizonyíték és DPO QA 
 |---|---|---|---|
 | Az M1.1 SLIDE 5 személyes önreflexiója | Opcionális, kizárólag tanuló-lokális, nem tárolódhat Moodle/H5P oldalon, és nem lehet completion-feltétel. Alapértelmezés: saját jegyzetben vagy fejben végiggondolt reflexió; nem szükséges szöveget beküldeni vagy megosztani. Interaktív beviteli elem kizárólag igazoltan adatmentes runtime-működéssel engedélyezett; a próbálkozás-riport, a mentett állapot és a tanári/mentori hozzáférés vizsgálata kötelező. Átvezetve: M1.1 3. szakasz (runtime-követelmény és SLIDE 5); `LMS – activity manifest.md` LMS-M1-01 és BSPEC-02; `LMS – H5P runtime acceptance.md` 24. pont. | N-M1-04 (a jegyzőkönyv 1. és 2. szakasza) | a DPO (QA, a döntés szövege szerint) |
 | Az N-M1-04 bizonyíték-kapuja — nyitott | Nem projektgazdai döntéssel zárul. A DPO jóváhagyása és a Moodle runtime-ellenőrzése (RT-P0-24 az LMS-M1-01-re: próbálkozás-riport, mentett állapot, tanári és mentori hozzáférés) nyitott bizonyíték-kapu (`RELEASE-READINESS.md` G2, G3b). Amíg az RT-P0-24 nem igazol adatmentes beviteli elemet, a SLIDE 5 beviteli elem nélkül, a saját jegyzetes úton nyílik meg. | N-M1-04 (a jegyzőkönyv 1. és 2. szakasza) | a DPO |
+
+## 13. Projektgazdai döntések – az M0.1 SLIDE 5 kérdésének finomítása (CC-04) és a Moodle-összevetés (CC-06) (2026-10-10)
+
+A 2026-10-10-i döntések átvezetése a kánoni döntési helyre. Szó szerint:
+`01 Fejlesztés/04 Audit/2026-10-10 Projektgazdai döntések – Anna-megfeleltetés indítása, M0.1 POST-PILOT, Moodle-összevetés.md`
+(1. szakasz, 2. és 3. pont). A státusz-szemantika a 11. szakasz szerinti.
+
+| Téma | Projektgazdai döntés (2026-10-10) | Forrás | Utólagos ellenőrzés (vétó/QA) |
+|---|---|---|---|
+| Az M0.1 SLIDE 5 kérdésének finomítása (kíváncsiság ↔ félelem) | „CC-04: POST-PILOT. Az M0+M1 freeze maradjon érvényben. Az M0.1 kérdésének finomítását a pilot visszajelzéseivel együtt kezeljük. Freeze-kivételt csak tényleges P0 biztonsági, adatvédelmi, hozzáférhetőségi vagy a tanulói előrehaladást blokkoló hiba indokolhat.” | CC-04 (a jegyzőkönyv 1. szakasza, 2. pont) | — (a döntési jegyzőkönyv nem nevez meg utólagos ellenőrzőt) |
+| A Moodle-ben felépített tartalom és a repó-forrás összevetése | „a Moodle összevetését most ne kezeld blokkolóként. A Moodle MCP a jóváhagyott, aktuális GitHub-forrásból fogja felépíteni a képzést. A pontos SHA, az implementált szöveg és a tényleges működés ellenőrzését külön build/runtime feladatként kezeljük. A média hiánya önmagában nem bizonyít elavult tartalmat.” | CC-06 (a jegyzőkönyv 1. szakasza, 3. pont) | — (a döntési jegyzőkönyv nem nevez meg utólagos ellenőrzőt) |

@@ -169,7 +169,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 
 ## 6. Kapu – az M5.4 produktum az éles kapu, a kvíz diagnosztikus
 
-> **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalom-kvíz dönti el a továbblépést**, hanem a someresebb, produktumalapú értékelés. **Az éles teljesítési kapu az M5.4 táblázat rubrikás értékelése** (mint az M1-ben és az M7-ben), a **kvíz pedig formatív/diagnosztikus**.
+> **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalomkvíz dönti el a továbblépést**, hanem a someresebb, produktumalapú értékelés. **Az éles teljesítési kapu az M5.4 táblázat rubrikás értékelése** (mint az M1-ben és az M7-ben), a **kvíz pedig formatív/diagnosztikus**.
 
 * **Éles kapu – M5.4 produktum (rubrika):**
   * Eszköz: **Moodle Assignment + rubrika**.
@@ -184,7 +184,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 
 1. **M5.1–M5.4** mikroleckék activity completion **– érdemi kitöltéssel, nem csak a slide-ok végigléptetésével** (M5.4-nél: az LMS-M5-04 H5P-C profilja; a táblázat leadása – online szövegként vagy fájlként – a 2. pont, LMS-M5-05).
 2. **Éles kapu – modulproduktum:** a leadott **„Feladat–kvuca–módszer + tanulástan” táblázat** eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint, az R4 (tanulástan-elem valódisága) kritikus sor** (a „Hiányos” = javításra vissza, nincs kizárás).
-3. **Diagnosztikus fogalom-kvíz:** **formatív, completion-alapú** (kitöltés elég, NEM kapuz) – a ≥80% csak felzárkózásjelző.
+3. **Diagnosztikus fogalomkvíz:** **formatív, completion-alapú** (kitöltés elég, NEM kapuz) – a ≥80% csak felzárkózásjelző.
 
 > **Megjegyzés:** üres / csak címkeszintű táblázat **nem „complete”** – a KAPU R4 „csak címke” = Hiányos, ami javításra visszaküldést jelent.
 
