@@ -2734,10 +2734,10 @@
       "id": "M4.1-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md",
-      "line": 993,
+      "line": 995,
       "body_lines": [
-        994,
-        1002
+        996,
+        1004
       ],
       "unit": "M4.1",
       "module": "M4",
@@ -2754,10 +2754,10 @@
       "id": "M4.1-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md",
-      "line": 1184,
+      "line": 1186,
       "body_lines": [
-        1185,
-        1199
+        1187,
+        1201
       ],
       "unit": "M4.1",
       "module": "M4",
@@ -2874,10 +2874,10 @@
       "id": "M4.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 166,
+      "line": 167,
       "body_lines": [
-        167,
-        178
+        168,
+        179
       ],
       "unit": "M4.3",
       "module": "M4",
@@ -2894,10 +2894,10 @@
       "id": "M4.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 363,
+      "line": 364,
       "body_lines": [
-        364,
-        384
+        365,
+        385
       ],
       "unit": "M4.3",
       "module": "M4",
@@ -2914,10 +2914,10 @@
       "id": "M4.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 630,
+      "line": 632,
       "body_lines": [
-        631,
-        645
+        633,
+        647
       ],
       "unit": "M4.3",
       "module": "M4",
@@ -17128,7 +17128,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md",
-      "line": 851,
+      "line": 853,
       "kind": "photo",
       "subtype": "",
       "mode": "generate",
@@ -17197,7 +17197,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md",
-      "line": 894,
+      "line": 896,
       "kind": "photo",
       "subtype": "",
       "mode": "generate",
@@ -17678,7 +17678,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md",
-      "line": 934,
+      "line": 936,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -17721,8 +17721,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        994,
-        1002
+        996,
+        1004
       ],
       "source_text": "„Most néhány példát nézünk meg.\nUgyanaz az ember, csak **más testtartással**,\nmás tekintettel, más helyen a térben.\n\nA feladatod az, hogy megfogalmazd:\n**mi a különbség** a két változat között,\nés mit üzenhet ez a kvucának.”",
       "source_hash": "649c7cba5cba8bedcfe4bb81757910bac5037a16f3cf6f85bb4f91439b474afb",
@@ -17754,7 +17754,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md",
-      "line": 1116,
+      "line": 1118,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -17797,8 +17797,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1185,
-        1199
+        1187,
+        1201
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le magadnak ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
       "source_hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
@@ -17921,7 +17921,7 @@
       "status": "pending-rights",
       "title": "Interactive Video – 3 madrih-kiállás mini-jelenettel + beágyazott kérdések",
       "purpose": "Élő példákon láthatóvá tenni „kevésbé szerencsés” és „inkább segítő” kiállásokat, beágyazott reflexióval.",
-      "spec": "H5P Interactive Video, kb. 2 perc, 3 mini-jelenettel; mindhárom jelenet után megáll és beágyazott kérdés ugrik fel (2 Single Choice + 1 Free Text; a Single Choice kérdések megvalósítási típusa a SLIDE 3 fejlesztői megjegyzése szerint). Lásd a 3 jelenet-videót külön (M4.1-VID-03/04/05).",
+      "spec": "H5P Interactive Video, kb. 2 perc, 3 mini-jelenettel; mindhárom jelenet után megáll és beágyazott kérdés ugrik fel (2 Single Choice + 1 beviteli mező nélküli, saját jegyzetre szóló gondolkodtató kérdés; a Single Choice kérdések megvalósítási típusa a SLIDE 3 fejlesztői megjegyzése szerint). Lásd a 3 jelenet-videót külön (M4.1-VID-03/04/05).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -17953,7 +17953,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Konténer a 3 jelenethez (M4.1-VID-03/04/05). A beágyazott Single Choice / Free Text kérdések tiszta szöveges UI-elemek, nem külön legyártandó média-asset. A felirat/leirat tulajdonosa futásidőből következik, nem ízlésből: a H5P Interactive Video egyetlen alap-videót (`files` — „Add a video”, a további bejegyzések ugyanannak a videónak más kódolásai) és egyetlen `textTracks` listát vesz fel (h5p/h5p-interactive-video semantics.json, lekérdezve 2026-08-27; H5P Help Center: „Subtitles, Captions and Descriptions”). A három jelenet tehát egyetlen alap-videóvá vágódik össze, egy felirat-sávval és egy leirattal — ezek ezé a konténeré. A szkript nincs újra leírva: a `composed_of` a három jelenet saját forrásblokkját fűzi össze sorrendben (M4.1-NAR-03/04/05-VO), így a lecke szövegének módosítása magával viszi a felirat-fájlt is. Az R2 és R5 a három összetevőtől öröklődik: a konténer ezekből a jelenetekből vágódik össze, így nem lehet készebb, mint a benne futó AI-karakteranyag.",
+      "notes": "Konténer a 3 jelenethez (M4.1-VID-03/04/05). A beágyazott Single Choice kérdések és a beviteli mező nélküli gondolkodtató kérdés tiszta szöveges UI-elemek, nem külön legyártandó média-asset. A felirat/leirat tulajdonosa futásidőből következik, nem ízlésből: a H5P Interactive Video egyetlen alap-videót (`files` — „Add a video”, a további bejegyzések ugyanannak a videónak más kódolásai) és egyetlen `textTracks` listát vesz fel (h5p/h5p-interactive-video semantics.json, lekérdezve 2026-08-27; H5P Help Center: „Subtitles, Captions and Descriptions”). A három jelenet tehát egyetlen alap-videóvá vágódik össze, egy felirat-sávval és egy leirattal — ezek ezé a konténeré. A szkript nincs újra leírva: a `composed_of` a három jelenet saját forrásblokkját fűzi össze sorrendben (M4.1-NAR-03/04/05-VO), így a lecke szövegének módosítása magával viszi a felirat-fájlt is. Az R2 és R5 a három összetevőtől öröklődik: a konténer ezekből a jelenetekből vágódik össze, így nem lehet készebb, mint a benne futó AI-karakteranyag.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -17976,7 +17976,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "c5a4eeb2b563afaebaea828d9ca0a9c4aac8fd4820f06d3ae404f3c9e1aded87",
-      "spec_hash": "e0ddbb297fc370fa41819cd24e88cd750f5ac2d3456f32337c2ff961e834db4c",
+      "spec_hash": "01930ae199801ff36969ef170eb7fc39564a5e3299eae58429b38d840df50dd2",
       "deliverable_ids": [
         "M4.1-VID-02",
         "M4.1-VID-02::CAPTIONS",
@@ -19055,7 +19055,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 205,
+      "line": 206,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -19121,7 +19121,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 243,
+      "line": 244,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -19184,7 +19184,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 68,
+      "line": 69,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -19250,7 +19250,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 106,
+      "line": 107,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -19293,8 +19293,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        167,
-        178
+        168,
+        179
       ],
       "source_text": "„Képzeld el, hogy peulán magyarázol valamit,\nés a végén megkérdezed: *‘Na, értitek?’*\n\nSíri csend. Senki nem szól vissza.\n\nIsmerős?\n\nEz a lecke arról szól,\nhogy **milyen kérdésekkel tudod jobban megnyitni, keretben tartani és lezárni** a beszélgetést,\nmint a ‘Na, értitek?’-típusú kérdésekkel.”",
       "source_hash": "9060e7eaece4684d14dc599eaac5b2c37a02eb216288c74471d4e9db6223c92b",
@@ -19326,7 +19326,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 278,
+      "line": 279,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -19369,8 +19369,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        364,
-        384
+        365,
+        385
       ],
       "source_text": "„Négy kérdéstípussal fogunk most dolgozni.\n\nA **nyitott kérdés** megnyitja a beszélgetést.\nNem lehet rá csak annyit mondani, hogy ‘igen’ vagy ‘nem’.\nPéldául: *‘Ti hogyan látjátok ezt a helyzetet a kvucában?’*\n\nA **zárt kérdés** rövid, konkrét választ kér.\nIgen vagy nem, egy szám vagy egy adat.\nPéldául: *‘Voltál már valaha a kenben peulán?’*\n\nA **tisztázó kérdés** arra való,\nhogy ellenőrizd, jól érted-e, amit a másik mondott.\nPéldául: *‘Jól értem, hogy az zavar, hogy mindig késve kezdünk?’*\n\nAz **irányító kérdés** pedig a te véleményed felé tolja a beszélgetést.\nPéldául: *‘Nem gondoljátok, hogy jobb lenne, ha mindig időben érkeznétek?’*\n\nMindegyiknek van helye –\na kérdés az, **mikor melyiket használod**.”",
       "source_hash": "134d347d9479c018cec212108dfd6eef9f8505a3eec73bb70644302c5247e841",
@@ -19402,7 +19402,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 560,
+      "line": 561,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -19445,8 +19445,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        631,
-        645
+        633,
+        647
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
       "source_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
@@ -19753,7 +19753,7 @@
       "provenance": "human",
       "provenance_note": "",
       "technical": {
-        "note": "Szerkeszthető dokumentum: Google Doc (csak szervezeti fiókban, korlátozott megosztással) és/vagy .docx; A4, 1 oldal, nyomtatható; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
+        "note": "Szerkeszthető dokumentum: .docx (Google Doc változat csak szervezeti fiókban, korlátozott megosztással, adatfeldolgozói és hozzáférési felülvizsgálat után); A4, 1 oldal, nyomtatható; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
       },
       "a11y": {
         "note": "Valódi szöveges dokumentum (nem kép), címsorokkal és megjelölt kitöltési helyekkel, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva."
@@ -19785,7 +19785,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6c606d0a84a1d188b51295a652cfc59cdbe4c6bc185d5afb649533da29b3bc6e",
+      "spec_hash": "a4a8129dbd80d141319972fda2e992a8856edc6d06101a2f125398dcf1b2bae7",
       "deliverable_ids": [
         "M4.4-MUNK-01",
         "M4.4-MUNK-01::PRINTPDF"
@@ -20169,8 +20169,8 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Exit-mondat post-it / fókuszmondat cédula",
-      "purpose": "A peula zárásának kézzelfogható kimenete: a résztvevő leírja az 1 mondatos személyes fókuszát, amit a közös „M4 – kiállás” borítékba/falra tesz, és amire a modul további részében visszautalnak.",
-      "spec": "Kis méretű kitölthető cédula/post-it-sablon az exit-mondathoz, előnyomott mondatkezdettel a forrás szó szerinti zárómondatával: „Egy dolog, amire legközelebb figyelni szeretnék, amikor a kvucám előtt állok, az az, hogy…”, alatta üres sorok a befejezéshez és opcionális névmezővel („név (opcionális):”).",
+      "purpose": "A peula zárásának kézzelfogható kimenete: a résztvevő leírja az 1 mondatos személyes fókuszát, amit név nélkül a közös „M4 – kiállás” borítékba/falra tehet, vagy emlékeztetőnek magával vihet.",
+      "spec": "Kis méretű kitölthető cédula/post-it-sablon az exit-mondathoz, előnyomott mondatkezdettel a forrás szó szerinti zárómondatával: „Egy dolog, amire legközelebb figyelni szeretnék, amikor a kvucám előtt állok, az az, hogy…”, alatta üres sorok a befejezéshez; névmező nincs (a cédula név nélküli).",
       "provenance": "mixed",
       "provenance_note": "vegyes (ember-írt sablonszöveg, AI-asszisztált tördelés)",
       "technical": {
@@ -20207,7 +20207,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "74cb4c0327db7353a0f84e79e7222670e49a84ba8a005d41d03b22aaaaa0eafc",
+      "spec_hash": "e80b16569fb4dee39966d82f5ebe181752542dd0f9b95c2d24ce0904e26386a0",
       "deliverable_ids": [
         "M4.A-MUNK-01",
         "M4.A-MUNK-01::PRINTPDF"
@@ -20224,14 +20224,14 @@
       "module": "M4",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md",
-      "line": 389,
+      "line": 390,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Képzői checklist – „Állj oda!” (1 A4)",
       "purpose": "A képző peula előtt/után gyorsan végigfuttatható ellenőrzőlistája az időkeret, eszközök, safety és online-híd biztosítására.",
-      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 5 pontja alapján: 1) Meta tiszta? (M4.1–M4.2 testbe vitele, saját kiállás kipróbálása, hang / teremhang alapszintű kipróbálása, 1 fókuszmondat); 2) Eszközök előkészítve? (székek körben + szabad „színpad”, tábla/flip + filc, papírok/post-itek + tollak, Moodle-értesítő 24 órával a peula előtt); 3) Biztonsági keret a fejedben? (nem kötelező beállni, „most inkább figyelek”; erős szorongásnál a peula után diszkrét, de átlátható megkeresés: kettesben (1:1), személyesen vagy online (online csak szervezeti csatornán, személyes közösségimédia-fiókról nem), csak indokolt esetben és egy másik felelős tudtával; a megengedett 1:1 helyzeteket a Gyermekvédelmi működési standard v1.0 safer-working szabálya sorolja fel); 4) Időkeret reális? (45 perc, mit rövidítesz – pl. kevesebb szobor, csak 1 kör triádokban); 5) Híd az online/következő lépéshez (M4.3–M4.4, peulabemutató). Bepipálható checkbox-okkal.",
+      "spec": "Egyoldalas, nyomtatható képzői ellenőrzőlista a forrás 5 pontja alapján: 1) Meta tiszta? (M4.1–M4.2 testbe vitele, saját kiállás kipróbálása, hang / teremhang alapszintű kipróbálása, 1 fókuszmondat); 2) Eszközök előkészítve? (székek körben + szabad „színpad”, tábla/flip + filc, papírok/post-itek + tollak, Moodle-értesítő 24 órával a peula előtt); 3) Biztonsági keret a fejedben? (nem kötelező beállni, „most inkább figyelek”; erős szorongásnál a peula után diszkrét megszólítás átlátható helyzetben, automatikus négyszemközti félrevonulás nélkül; kettesben (1:1) zajló beszélgetés – személyesen vagy online (online csak szervezeti csatornán, személyes közösségimédia-fiókról nem) – csak indokolt esetben, átlátható módon és egy másik felelős tudtával; a megengedett 1:1 helyzeteket a Gyermekvédelmi működési standard v1.0 safer-working szabálya sorolja fel); 4) Időkeret reális? (45 perc, mit rövidítesz – pl. kevesebb szobor, csak 1 kör triádokban); 5) Híd az online/következő lépéshez (M4.3–M4.4, peulabemutató). Bepipálható checkbox-okkal.",
       "provenance": "mixed",
       "provenance_note": "vegyes (ember-írt tartalom a forrásból, AI-asszisztált tördelés)",
       "technical": {
@@ -20268,7 +20268,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "edb55460654fd95407cca0c258dfd7138a5e22df005443eceda9b85458f035d6",
+      "spec_hash": "f9fc8eb7a2677298594b0a35273cbdf0205da73e9475e5412152d4a6da8b4e10",
       "deliverable_ids": [
         "M4.A-MUNK-02",
         "M4.A-MUNK-02::PRINTPDF"
@@ -20353,7 +20353,7 @@
       "status": "spec-ready",
       "title": "„M4 – kiállás” gyűjtő-boríték / fal-címke",
       "purpose": "Vizuális, kifüggeszthető gyűjtőpont a fókuszmondatoknak, amely láthatóvá teszi, „milyen fókuszokkal mentek innen tovább” (4.5/2. „Ez csak arra lesz, hogy lássuk…”).",
-      "spec": "Nyomtatható, kifüggeszthető fal-címke / boríték-fej a kitöltött exit-mondatok összegyűjtéséhez: nagy felirat „M4 – kiállás – fókuszmondatok”, opcionálisan rövid instrukcióval, hogy ide kerülnek a post-itek/cédulák.",
+      "spec": "Nyomtatható, kifüggeszthető fal-címke / boríték-fej a kitöltött exit-mondatok összegyűjtéséhez: nagy felirat „M4 – kiállás – fókuszmondatok”, opcionálisan rövid instrukcióval, hogy ide név nélkül kerülnek a post-itek/cédulák.",
       "provenance": "mixed",
       "provenance_note": "vegyes (ember-írt felirat, AI-asszisztált tördelés)",
       "technical": {
@@ -20390,7 +20390,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "fb5813df401407d675772edb9c8257aba209a289925a7672891a6184e06b3ab0",
+      "spec_hash": "5e39bbead4ec54b8ea8d5745a3dcdfbfca1258f18634d2a57d26104c0c76cf24",
       "deliverable_ids": [
         "M4.A-POSZ-01",
         "M4.A-POSZ-01::PRINTPDF"
