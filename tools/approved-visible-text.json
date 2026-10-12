@@ -29,28 +29,28 @@
       "sha256": "3dd70995bc592fb70b34ae3ed5225da025949e1c21da663d80f450a7766e991d"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M0-átvezetés (AP-2026-10-12-01): ADV-6, ERT-1, ERT-2, ERT-11, GYV-23, GYV-5, PRG-1, PRG-11, ADV-11",
-      "sha256": "96ad989fed583bfaf5a14a66bc4e3c035abcc6e6b801aaa06c8178ed1b0f3824"
+      "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
+      "sha256": "210c1fa40ec575b2e064d50792a85b8c4e480cc8c38b0a6119a1fa85d64b7b3a"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M0-átvezetés (AP-2026-10-12-01): ADV-6, ERT-1, ERT-2, ERT-11, GYV-23, GYV-5, PRG-1, PRG-11, ADV-11",
       "sha256": "2672550322a9bcc1873013b63e362b0cc40639c2dbd143f4b0422c7ada4ca8d7"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M0-átvezetés (AP-2026-10-12-01): ADV-6, ERT-1, ERT-2, ERT-11, GYV-23, GYV-5, PRG-1, PRG-11, ADV-11",
-      "sha256": "6b6ed0b3d245b058f1977329063d76150437721a0bd946051e882a9c55f7e4c7"
+      "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
+      "sha256": "ec5ad33ec4c1ed8e53789219017e085ee114bf94ff1b76bc2a0cd4cbefce82b6"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M0-átvezetés (AP-2026-10-12-01): ADV-6, ERT-1, ERT-2, ERT-11, GYV-23, GYV-5, PRG-1, PRG-11, ADV-11",
-      "sha256": "cbc8c0b9bb01d6a34112a07cca19b5ded8868d66f90ecd59646888aadde6c624"
+      "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
+      "sha256": "310c9f826243b80f87df09e5a2d9d8f5a85d57ed3475013242d4b86afd8ce5bf"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M0-átvezetés (AP-2026-10-12-01): ADV-6, ERT-1, ERT-2, ERT-11, GYV-23, GYV-5, PRG-1, PRG-11, ADV-11",
-      "sha256": "15be0b037d966cc632457ee186936b7d3044d4e1b6aff53326561295d7354896"
+      "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
+      "sha256": "399a9d5532b8cf6ef2d6a54e644ec7f1de84eaa11b13d1c977c82be54b4ff7e5"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M0-átvezetés (AP-2026-10-12-01): ADV-6, ERT-1, ERT-2, ERT-11, GYV-23, GYV-5, PRG-1, PRG-11, ADV-11",
-      "sha256": "1606ae6274a21a83fc7a0cbe39a555e48b5c3eabf752fcb31739e4357c8aee7b"
+      "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
+      "sha256": "d45f222277d6255e6098a055d4f2801feeb9b0c927189ad4af27f1bcfedd4cc7"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "M1:QA-PED-2 (BIZT-G3-1), M1:QA-PED-1 (PED-G1-4), M1:QA-ERT-2 (ERT-G3-1), M1:QA-NYELV-4 (NYELV-G1-15, IMPL-G1-8), M1:QA-NYELV-5 (IMPL-G3-4), M1:QA-IMPL-1 (IMPL-G2-6), M1:QA-IMPL-2 (IMPL-G2-1), M1:QA-IMPL-4 (IMPL-G1-8): validált célzott QA-findingok javítása (AP-2026-10-11-01)",

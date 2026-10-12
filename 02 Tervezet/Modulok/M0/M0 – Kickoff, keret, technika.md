@@ -89,7 +89,7 @@ A modul végére a madrih…
 
 ### L4 / M0.4 – „Dugma isit az online térben + bemutatkozó fórum” (15–20’)
 
-* **Cél:** a madrih elgondolkodik, mit jelent **online is dugma isitként jelen lenni**, és belép a közösségbe egy **bemutatkozó fórumposzttal**.
+* **Cél:** a madrih elgondolkodik, mit jelent **online is dugma isitként jelen lenni**, és – ha a „Bemutatkozó fal” fórum már nyitva van – belép a közösségbe egy **bemutatkozó fórumposzttal**.
 * **Fő tartalom röviden:**
   * online helyzetek (chat, insta, messenger, Moodle-komment) – mitől dugma isit / mitől nem;
   * 2–3 egyszerű szabály az online térre (pl. szervezeti csatorna és átlátható kommunikáció a hanihokkal, gyermekvédelmi jelzés, határok az elérhetőségben, tisztelet a kvucával kapcsolatban);
@@ -172,13 +172,13 @@ A modul végére a madrih…
 
 **Javítás / támogatás logika:**
 
-* Ha valakinek **hiányzik a bemutatkozó poszt** vagy a kvíz → személyes, támogató emlékeztető (mentor / képző), nem fenyegetés.
+* Ha valakinek **hiányzik a bemutatkozó poszt** (nyitott fórumnál) vagy a kvíz → személyes, támogató emlékeztető (mentor / képző), nem fenyegetés.
 * Ha valaki **technikailag akadt el**, választhat: online segítség (leírás, képernyőkép) vagy offline **technikai segítségpont**.
 * Nincs kizárás, csak **jelzés és támogatás**.
 
 ### Az M0 belépőkvíz itemei
 
-* **Forrás és ellenőrzés:** az itemek szövegét és a kulcsot a projektgazda adta meg (projektgazdai döntés, 2026-10-02); a 3. és a 7. item disztraktorai, a 6. item legördülő listája és a hibás válaszokhoz tartozó visszajelzések szerkesztői kiegészítések. A 4. item D) disztraktora és visszajelzése a BS-D5 szerint cserélve, mert a Q-REL-2 után a korábbi változat részben igaz lett (projektgazdai döntés, 2026-10-04); a helyes válasz és a kulcs változatlan. Utólagos ellenőrzés (vétó/QA): az értékelési felelős, az 1–2. itemnél a Memuna is.
+* **Forrás és ellenőrzés:** az itemek szövegét és a kulcsot a projektgazda adta meg (projektgazdai döntés, 2026-10-02); a 3. és a 7. item disztraktorai, a 6. item legördülő listája és a hibás válaszokhoz tartozó visszajelzések szerkesztői kiegészítések. A 4. item D) disztraktora és visszajelzése a BS-D5 szerint cserélve, mert a Q-REL-2 után a korábbi változat részben igaz lett (projektgazdai döntés, 2026-10-04); a helyes válasz és a kulcs változatlan. A 4. és a 7. item törzse, valamint a 7. item C) opciójának szövege az ERT-11 szerint nyelvileg javítva (projektgazdai döntés, 2026-10-12); a ✅ helye és a kulcs változatlan. Utólagos ellenőrzés (vétó/QA): az értékelési felelős, az 1–2. itemnél a Memuna is.
 * **Beállítás:** Moodle Quiz, 7 item, ponthatár (cut-score) nélkül. A completion-feltétel: mind a 7 item megválaszolva, eredménytől függetlenül; az első próbálkozás diagnosztikus adat (§6). Hogy a Moodle-beállítás kikényszeríti-e mind a 7 item megválaszolását, vagy ezt a stábnak kell ellenőriznie, a stagingben kell igazolni.
 * **Kérdéstípus:** az 1–5. és a 7. item feleletválasztós kérdés egy helyes válasszal (egyválaszos); a válaszopciók sorrendjét a Moodle keverje, az A–D betű csak ennek a leírásnak a jelölése. A 6. item párosító kérdés (Matching): a három téma egy-egy sor, mindegyik mellett legördülő lista a kilenc állomás kódjával (M0, M1, …, M7, Z), így húzás nélkül is teljesíthető.
 * **Visszajelzés:** minden hibás válaszhoz egymondatos visszajelzés tartozik: miért nem jó, és hol találja a madrih a helyes szabályt.
