@@ -39,7 +39,7 @@ A modul végére a résztvevő…
 
 > ⚖️ **Jó tudni – a jelzés Magyarországon szabályozott, de a szerepeket pontosan kell szétválasztani.**
 > A Gyvt. 17. § a gyermekvédelmi jelzőrendszer résztvevői között szervezeteket és személyeket is nevesít, és veszélyeztetettség esetén jelzési / kezdeményezési kötelezettséget ír elő. A Btk. 209/A. § nem valamennyi jelzéskésés általános büntetőszabálya, hanem a Gyvt. 17. § (4a)–(4c) szerinti speciális kötelezettségekhez kötődik. **Ebből azonban nem következik, hogy egy 15–17 éves önkéntes madrihnak önálló jogi minősítést vagy hatósági eljárást kellene végeznie.**
-> A képzésben ezért az ötlépéses jelzési utat követjük: **1. Észleld, és vedd komolyan. 2. Hallgasd meg, és ne ígérj teljes titoktartást. 3. Ne nyomozz, ne konfrontálj, és ne próbáld egyedül megoldani. 4. Azonnal vond be a kijelölt Memunát – összeférhetetlenség esetén a név szerint kijelölt helyettesét. 5. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.** A lépéseket részletesen az M3.B lépéstérképe mutatja. A Memuna és a helyettese elérhetőségét a kurzus „Segítség és kapcsolatok” blokkja adja. Azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, az éles használat előtt rögzíteni kell, és a Memunának jóvá kell hagynia; a külső jelzés jogi kérdésében jogi szakértő dönt.
+> A képzésben ezért az ötlépéses jelzési utat követjük: **1. Észleld, és vedd komolyan. 2. Hallgasd meg, és ne ígérj teljes titoktartást. 3. Ne nyomozz, ne konfrontálj, és ne próbáld egyedül megoldani. 4. Azonnal vond be a kijelölt Memunát – összeférhetetlenség esetén a név szerint kijelölt helyettesét. 5. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.** A lépéseket részletesen az M3.B lépéstérképe mutatja. A Memuna és a helyettese elérhetőségét a kurzus „Segítség és kapcsolatok” blokkja adja. Azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, az éles használat előtt rögzíteni kell, és a Memunának jóvá kell hagynia; a szervezet nevében a jogi tanács alapján kijelölt felnőtt dönt a külső jelzésről, anélkül hogy az akut védelem késne; a külső jelzés jogi kérdésében jogi szakértő dönt.
 > *(Elsődleges jogforrás: 1997. évi XXXI. törvény 17. §, Nemzeti Jogszabálytár; kapcsolódó hatályos büntetőjogi szabály: Btk. 209/A. §. A tananyag nem helyettesíti a Somer gyermekvédelmi szabályrendszerét (Gyermekvédelmi működési standard v1.0).)*
 5. **Etikai Do/Don’t – beleértve a madrih–hanih kapcsolatot**
    * Készít egy saját **Do/Don’t listát** kvucavezetésre és gyermekvédelemre **(M3.4)**.
@@ -127,14 +127,14 @@ A modul végére a résztvevő…
   „Azzal is tanítok, amit **nem** csinálok – a határtartás maga is **dugma isit**.”
 * **Eszközök:**
   * H5P Course Presentation (7 slide: Hook – 2×Input – Besorolás – Reflexió – Check – Modulproduktum)
-  * Húzásmentes besorolás (kártyánként egy H5P Multiple Choice elem egyválaszos módban) + H5P Drag & Drop két célzónával – „OK / Nem OK madrihként”
+  * Húzásmentes besorolás (kártyánként egy H5P Multiple Choice elem egyválaszos módban) – „OK / Nem OK madrihként”
   * Moodle Assignment – modulproduktum (helyzetleírás) leadásához
 * **Tartalom röviden:**
   * Rövid Do/Don’t példa-lista:
     * **DO:** közös chat-szabályok, csoportos kommunikáció preferálása, red flag azonnali jelzése a Memunának.
     * **DON’T:** késő esti privát chat egy hanihhal, privát fotók kérése, red flag elhallgatása,
       * **+ egyértelműen:** madrih nem lehet párkapcsolatban hanihhal (súlyos red flag).
-  * Csoportosító feladat (alapból húzásmentes, mellette H5P Drag & Drop két célzónával) konkrét példákkal (OK / Nem OK).
+  * Csoportosító feladat (húzásmentes) konkrét példákkal (OK / Nem OK).
   * Assignment-sablon a modulproduktumhoz:
     * kitalált, de életszerű helyzetleírás (hol játszódik, kvuca-típus, mi történik),
     * red flagek megnevezése,

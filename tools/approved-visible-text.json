@@ -21,8 +21,8 @@
       "sha256": "cdbac6709d3add984af617a507fe4e5268d6e821b9814288d36589e20e38e9a4"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "ERT-26, M5:QA-ERT-2: a Program terv M5 kapusora és a manifest LMS-M5-05/LMS-M5-08 küszöbcellája a rubrikasort nevezi meg (a teljes táblázat alapján), a hub és a kapu szóhasználatával egyezően",
-      "sha256": "68649f09d496109fe26dee1ca1df40195dfeb177bbea95fd1d073326b22d8797"
+      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
+      "sha256": "e7e4e91262ceac7f8ed0d47597ff671d9fdff8093ec418d1a2ecdc443fbcdec1"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
@@ -53,8 +53,8 @@
       "sha256": "d45f222277d6255e6098a055d4f2801feeb9b0c927189ad4af27f1bcfedd4cc7"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
-      "sha256": "7505e9517fd0d3757e741013c2b0402d68e8d4222de59df1bff7985f771fb52a"
+      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
+      "sha256": "289b53b9339d981970e454d2acc0a4a949007ad503e1c3f3a956052251c0693f"
     },
     "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
       "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
@@ -113,8 +113,8 @@
       "sha256": "add29ac91321c1fa63bb92ee162ee887b5e27a9772d9223d3649613cb259d7cc"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
-      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
-      "sha256": "81a8777e44618be9178a69ef1364e9320cdad0ff5d434804c884366605cb8bd8"
+      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
+      "sha256": "761bc057843f3e97408c8db993b9e54cd278952934a8f6512b20eb8a2b313307"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md": {
       "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
@@ -129,8 +129,8 @@
       "sha256": "ba11e54ef6b36c622d2e6a5bc629211ca3b156c644cc17ed9d229374ec07623d"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
-      "sha256": "14fd246abb2883f59fa67d1708157eda9a75adc7dde84e91426eb5fa88574e2f"
+      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
+      "sha256": "e15ef5ba12eeafb8a8c222157af6ea6e3e775821e33d343d678cde32e25938b1"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
       "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
@@ -145,8 +145,8 @@
       "sha256": "8a33957b2c189f2543c10f15d05a962388de8001fba642ecc66f6f8b69cf6065"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
-      "sha256": "3402b4c86079de4f8e61fcc70d79ced6921d1cdd48a5d5a0d379a9be83640dda"
+      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
+      "sha256": "cf2fa21fd4963847c2aa2b7e705010465f40c5165d635921177d30d021a543d9"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
       "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
@@ -253,8 +253,8 @@
       "sha256": "dd5e8ddbf65e4297f6fcccdd4242e122bd89dde91e73b7d0c8f9aa7b3ffdc88f"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md": {
-      "reason": "Célzott QA, M6 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M6:QA-BIZT-5 (GYV-17, a kötelező keret), M6:QA-BIZT-6 + QA-NYELV-2 (ADV-8), M6:QA-ERT-1 (ERT-31), M6:QA-IMPL-1 + QA-NYELV-8 (ERT-1, ERT-2), M6:QA-NYELV-1 (ERT-35), M6:QA-NYELV-3, QA-NYELV-4 (ADV-11), M6:QA-NYELV-9 (ADV-4, ERT-33), M6:QA-NYELV-10 (PRG-2), M6:QA-NYELV-11 (ADV-10)",
-      "sha256": "e769d091b4d64f1cf880b420132cb12d2a410f0ea2c42ad0d545cf365c4f1a93"
+      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
+      "sha256": "82f406d9322cf3f90b0f61c20c446892d2763fc07576f3ba6a6d3b29542bdad7"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M6-átvezetés (AP-2026-10-12-01): ADV-4, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-2, ERT-6, ERT-9, ERT-31, ERT-33, ERT-34, ERT-35, ERT-37, GYV-5, GYV-7, GYV-16, GYV-17, GYV-18, LMS-4, PRG-2, PRG-7, PRG-13, PRG-16",
@@ -265,8 +265,8 @@
       "sha256": "3bb68ee23c4a495021061c449e6f8f1f8fd1dc46e5f1a038116457f39926f71e"
     },
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M7:QA-NYELV-2, M7:QA-ERT-3, M7:QA-ERT-1 (part), M7:QA-NYELV-7 (part), M7:QA-ERT-4 (part), M7:QA-BIZT-1 (part), M7:QA-NYELV-9, M7:QA-BIZT-3, M7:QA-BIZT-4, M7:QA-IMPL-1, M7:QA-IMPL-2, M7:QA-IMPL-3, M7:QA-BIZT-2 (part), M7:QA-BIZT-5 (part), M7:QA-NYELV-1 (PRG-6, ERT-40, ERT-41, ERT-44, GYV-10, LMS-8, ADV-3, ADV-11, ADV-12, ERT-46, LMS-5, GYV-6, GYV-7): verifier-confirmed targeted QA fixes after f6e9c6e",
-      "sha256": "d50e6c04c5b7ca955315022524d28b55d7d4a00969afc444d0f553ec4612d719"
+      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
+      "sha256": "514c22f645fed9100dd6bd204672d073a8730cc1c0e4a3ac6eafb64f7bbb5c53"
     },
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md": {
       "reason": "M7:QA-NYELV-2, M7:QA-ERT-3, M7:QA-ERT-1 (part), M7:QA-NYELV-7 (part), M7:QA-ERT-4 (part), M7:QA-BIZT-1 (part), M7:QA-NYELV-9, M7:QA-BIZT-3, M7:QA-BIZT-4, M7:QA-IMPL-1, M7:QA-IMPL-2, M7:QA-IMPL-3, M7:QA-BIZT-2 (part), M7:QA-BIZT-5 (part), M7:QA-NYELV-1 (PRG-6, ERT-40, ERT-41, ERT-44, GYV-10, LMS-8, ADV-3, ADV-11, ADV-12, ERT-46, LMS-5, GYV-6, GYV-7): verifier-confirmed targeted QA fixes after f6e9c6e",

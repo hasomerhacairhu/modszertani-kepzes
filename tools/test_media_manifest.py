@@ -1884,7 +1884,8 @@ class TestLiveDeliverables(unittest.TestCase):
             self.assertFalse(mm.is_live_deliverable(info["asset"]), key)
 
     def test_an_org_decision_closed_in_the_register_releases_its_assets(self):
-        """`M3.4-EGY-03` and `M3.4-DIA-01` waited on HUM-SAFE-04 (the ken alcohol and tobacco code).
+        """`M3.4-EGY-04` and `M3.4-DIA-01` carry content decided by HUM-SAFE-04 (the ken alcohol and tobacco code).
+        `M3.4-EGY-03`, the Drag and Drop side path that first carried the dependency, left with LMS-2 (2026-10-12); its cards 6–8 live on in `M3.4-EGY-04`.
 
         The approval register closed HUM-SAFE-04 on 2026-10-02, so neither asset may
         still carry a `decision` or read as pending-human-decision. If a veto reopens
@@ -1894,7 +1895,7 @@ class TestLiveDeliverables(unittest.TestCase):
         approvals = (mm.ACTIVE_ROOT / "Emberi jóváhagyás szükséges.md").read_text(encoding="utf-8")
         self.assertIn("HUM-SAFE-04 — Alkohol- és dohányzási szabály — LEZÁRVA", approvals)
         by_id = {a["id"]: a for a in self.model["assets"]}
-        for asset_id in ("M3.4-EGY-03", "M3.4-DIA-01"):
+        for asset_id in ("M3.4-EGY-04", "M3.4-DIA-01"):
             asset = by_id[asset_id]
             self.assertFalse(asset.get("decision"), asset_id)
             self.assertNotEqual("pending-human-decision", asset["status"], asset_id)

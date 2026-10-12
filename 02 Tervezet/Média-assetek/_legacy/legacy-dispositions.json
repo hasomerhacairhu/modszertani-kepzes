@@ -126,6 +126,13 @@
       "v2_asset_id": "",
       "v2_deliverable_id": "",
       "reason": "Az M7.1-NAR-02 leirata. A szülő narráció nem készül el (VO D-16), így nincs csak hangban elérhető tartalom, amelyhez szöveges alternatíva kellene; a WCAG 2.2 SC 1.2.1 nem sérül, a dia szövege teljes."
+    },
+    {
+      "old_id": "M3.4-EGY-03",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.4 SLIDE 4 Drag and Drop mellékútja („OK / Nem OK madrihként”). 2026-10-12-i projektgazdai döntés (LMS-2, `Emberi jóváhagyás szükséges.md` 14. szakasz): a mellékút kikerül, mert a húzásmentes besoroló (M3.4-EGY-04) ugyanazt a tanulási célt és visszajelzést adja. Akadálymentesítési rés nem keletkezik: a kártyakészlet, a kulcs és a visszajelzések az M3.4-EGY-04-ben változatlanok."
     }
   ]
 }
