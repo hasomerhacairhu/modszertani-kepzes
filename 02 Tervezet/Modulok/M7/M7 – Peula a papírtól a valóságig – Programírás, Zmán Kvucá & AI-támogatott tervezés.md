@@ -134,7 +134,7 @@ A madrih a modul végére rendelkezik **1 db Peula v2-vel** egy konkrét kvucár
 > **Üzenet a madrihnak:** a félévzáró feladat **két lépcsőben** érik be – szándékosan **időben szétterítve**, hogy a peuládat ne egy lélegzetre, hanem két menetben csiszold:
 >
 > * **v1 – elsővázlat-ellenőrzési pont (az M7 1. hetének vége, az M7.A után):** leadod a **Peula v1 első vázlatot** (M7.4 Assignment). Ez **alacsony tétű**: NEM buktat, **újrapróbálható**, és a v2 előtt a **kijelölt mentorod** a v2-rubrika alapján visszajelzést ad rá – a célja, hogy lásd, hova tartasz, és hol kérsz segítséget. (A pontos dátumot a Moodle-ben látod.)
-> * **kvíz – felkészültségi kapu (a v1 után, a v2 előtt):** az „M7 – SMART & Zmán Kvucá kvíz (felkészültségi, a v2 előtt)” a v1 leadása után nyílik. Érdemes még az M7.B előtt kitöltened: így már a v2 csiszolása előtt kiderül, megvan-e a tudásalap (a gyermekvédelmi lépésekkel együtt). A v2-t csak a kvíz megerősített, sikeres eredménye után adhatod le; ha a megerősítés a v2 határidejéig elhúzódik, a v2 határidejét a képző egyénileg meghosszabbítja – a függőben lévő eredmény nem bukás.
+> * **kvíz – felkészültségi kapu (a v1 után, a v2 előtt):** az „M7 – SMART & Zmán Kvucá kvíz (felkészültségi, a v2 előtt)” a v1 leadása után nyílik. Érdemes még az M7.B előtt kitöltened: így már a v2 csiszolása előtt kiderül, megvan-e a tudásalap (a gyermekvédelmi lépésekkel együtt). A v2-t csak a kvíz megerősített, sikeres eredménye után adhatod le; ha a megerősítés a v2 határidejéig elhúzódik, a v2 határidejét a képző indokolt esetben egyénileg meghosszabbítja – a függőben lévő eredmény nem bukás.
 > * **~1 hét köztes fejlesztési idő:** a v1 visszajelzései után, **az M7.B peula-műhelyben és otthon** csiszolod a vázlatot – nem aznap, hanem a két hét közti időben érik be a gondolat.
 > * **v2 – teljesítési kapu (az M7 2. hetének vége, az M7.B után):** leadod a **véglegesített Peula v2 + Zmán Kvucá-operációt** – ez a tényleges, éles teljesítési kapu (rubrika + kvíz, lásd „M7 – KAPU”). (A pontos dátumot a Moodle-ben látod.)
 >
@@ -380,7 +380,7 @@ A modul végére a madrih…
   * ha valaki nem éri el a küszöböt:
     * rövid, konkrét **fejlesztő visszajelzés** Megfigyelés → Hatás → Következő lépés szerkezetben (legfeljebb három konkrét javaslatban),
     * **kötelező felzárkóztató peula (F-peula)** mentorral / képzővel (egyéni támogatás; kettesben csak a safer-working szabály szerint: indokolt esetben, átlátható módon, egy másik felelős tudtával – online is) a kapueredmény megerősítése után, a javító próbálkozás előtt; az időpontot a képző jelöli ki a központi naptár szerint: a Z utáni hét hétfőjén, 18:00-tól,
-    * utána lehetőség javított Peula v2 leadására (egy javító leadás jár, amely az F-peula után nyílik meg: a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; továbbit a képző nyit).
+    * utána lehetőség javított Peula v2 leadására (egy javító leadás jár, amely az F-peula után nyílik meg: a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; továbbit a képző nyit); ha a kvíz első próbálkozása nem teljesül, a Peula v2-re 1 normál + 1 javító leadás jár, mindkettő a meglévő M7.F után (második F-peula nincs; „M7 – KAPU”, javítási útvonal).
 
 ***
 
