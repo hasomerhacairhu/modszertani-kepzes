@@ -265,40 +265,40 @@
       "sha256": "3bb68ee23c4a495021061c449e6f8f1f8fd1dc46e5f1a038116457f39926f71e"
     },
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M7:QA-NYELV-1, M7:QA-ERT-2, M7:QA-ERT-3, M7:QA-BIZT-1, M7:QA-NYELV-4, M7:QA-NYELV-2, M7:QA-IMPL-3: a 729342a célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "b290c5a73198815f3a279b51e604032a85e64ccefeebdddf4fddaf5285a98716"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "d9985f442a1c018e74dc20c5b5c82c37344b1edba37b97c9ca5637fc76b531d8"
     },
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md": {
-      "reason": "M7:QA-NYELV-1, M7:QA-ERT-2, M7:QA-ERT-3, M7:QA-BIZT-1, M7:QA-NYELV-4, M7:QA-NYELV-2, M7:QA-IMPL-3: a 729342a célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "d4de39c45f0e4dba1a46eb56f15f22ef784494d8be9bd641886d26198bc5277a"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "c88d9942ab81bdb83eb8a6da78c202c3a6906ee4bdd5b8a42b4167c4f0103630"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md": {
-      "reason": "M7 (AP-2026-10-11-01) validált objektív findingjai: PED-G1-3, PED-G1-9, PED-G1-12.obj, PED-G3-11, ERT-G1-6, ERT-G1-8, ERT-G1-9, ERT-G1-10, ERT-G1-13, IMPL-G1-2, IMPL-G1-12, IMPL-G1-4, IMPL-G1-5, IMPL-G1-6, ERT-G2-7.obj, ERT-G2-9, ERT-G2-12, IMPL-G2-5.obj, IMPL-G2-6, IMPL-G2-8, IMPL-G2-9, IMPL-G2-11, IMPL-G2-12, PED-G2-6, PED-G2-9, BIZT-G2-7, ERT-G3-1, ERT-G3-2, ERT-G3-3, ERT-G3-4, ERT-G3-5, ERT-G3-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-6, IMPL-G3-9, PED-G3-4, PED-G3-8, PED-G3-9, BIZT-G3-5, NYELV-G1-1, NYELV-G1-3, NYELV-G1-4, NYELV-G1-5, NYELV-G1-6, NYELV-G1-7, NYELV-G1-9, NYELV-G1-15, NYELV-G1-17, NYELV-G1-18, NYELV-G2-1, NYELV-G2-2, NYELV-G2-4, NYELV-G2-6, NYELV-G2-7, NYELV-G2-9, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8, NYELV-G3-9, NYELV-G3-12, NYELV-G3-13, NYELV-G3-14, NYELV-G3-17",
-      "sha256": "b90b2eab01b38a0dfd4fc61779e2f272c5d748dc7c2a02ff68b5874541fb72fd"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "574fe013f85d2e8c312080438d200029a6f141ee2a0fb7bcc26bf8cd2ec27aa6"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
-      "reason": "M7:QA-NYELV-1, M7:QA-ERT-2, M7:QA-ERT-3, M7:QA-BIZT-1, M7:QA-NYELV-4, M7:QA-NYELV-2, M7:QA-IMPL-3: a 729342a célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "cf2789646fd3d15f76ef45b5ce52739b913f331489e94fd46acc8cff919e5de0"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "d0151107f9efcc5d7e6e531c0b7aa6443f5460055a41d51db4f389e7d5918534"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md": {
-      "reason": "M7 (AP-2026-10-11-01) validált objektív findingjai: PED-G1-3, PED-G1-9, PED-G1-12.obj, PED-G3-11, ERT-G1-6, ERT-G1-8, ERT-G1-9, ERT-G1-10, ERT-G1-13, IMPL-G1-2, IMPL-G1-12, IMPL-G1-4, IMPL-G1-5, IMPL-G1-6, ERT-G2-7.obj, ERT-G2-9, ERT-G2-12, IMPL-G2-5.obj, IMPL-G2-6, IMPL-G2-8, IMPL-G2-9, IMPL-G2-11, IMPL-G2-12, PED-G2-6, PED-G2-9, BIZT-G2-7, ERT-G3-1, ERT-G3-2, ERT-G3-3, ERT-G3-4, ERT-G3-5, ERT-G3-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-6, IMPL-G3-9, PED-G3-4, PED-G3-8, PED-G3-9, BIZT-G3-5, NYELV-G1-1, NYELV-G1-3, NYELV-G1-4, NYELV-G1-5, NYELV-G1-6, NYELV-G1-7, NYELV-G1-9, NYELV-G1-15, NYELV-G1-17, NYELV-G1-18, NYELV-G2-1, NYELV-G2-2, NYELV-G2-4, NYELV-G2-6, NYELV-G2-7, NYELV-G2-9, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8, NYELV-G3-9, NYELV-G3-12, NYELV-G3-13, NYELV-G3-14, NYELV-G3-17",
-      "sha256": "584bd282f8ad06563bb928e0424850acce8fd53d9974767661e20ef6d36d26da"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "252beb4c25e6fac9d56796620e5acd6792dfe5028f0f5920fd7d917493384a98"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md": {
-      "reason": "M7:QA-NYELV-1, M7:QA-ERT-2, M7:QA-ERT-3, M7:QA-BIZT-1, M7:QA-NYELV-4, M7:QA-NYELV-2, M7:QA-IMPL-3: a 729342a célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "8c25587f29962d59e027ec82c1685d3c06831254c29f9fa5123dd9aa2abd8ee1"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "72f20e92f4a53f6efaa1033da2bd744beb2fbaf16fe206de2bb0ffe92f5c207b"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md": {
-      "reason": "M7 (AP-2026-10-11-01) validált objektív findingjai: PED-G1-3, PED-G1-9, PED-G1-12.obj, PED-G3-11, ERT-G1-6, ERT-G1-8, ERT-G1-9, ERT-G1-10, ERT-G1-13, IMPL-G1-2, IMPL-G1-12, IMPL-G1-4, IMPL-G1-5, IMPL-G1-6, ERT-G2-7.obj, ERT-G2-9, ERT-G2-12, IMPL-G2-5.obj, IMPL-G2-6, IMPL-G2-8, IMPL-G2-9, IMPL-G2-11, IMPL-G2-12, PED-G2-6, PED-G2-9, BIZT-G2-7, ERT-G3-1, ERT-G3-2, ERT-G3-3, ERT-G3-4, ERT-G3-5, ERT-G3-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-6, IMPL-G3-9, PED-G3-4, PED-G3-8, PED-G3-9, BIZT-G3-5, NYELV-G1-1, NYELV-G1-3, NYELV-G1-4, NYELV-G1-5, NYELV-G1-6, NYELV-G1-7, NYELV-G1-9, NYELV-G1-15, NYELV-G1-17, NYELV-G1-18, NYELV-G2-1, NYELV-G2-2, NYELV-G2-4, NYELV-G2-6, NYELV-G2-7, NYELV-G2-9, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8, NYELV-G3-9, NYELV-G3-12, NYELV-G3-13, NYELV-G3-14, NYELV-G3-17",
-      "sha256": "dfe55752a12a98cad14e921de75082e970bfee24c5d1a8bc627f1b7d1106efa1"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "c0c5a94990ce8945dc3155a988b80308a95115c4a64f98dafac96e0e8d84b748"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md": {
-      "reason": "M7 (AP-2026-10-11-01) validált objektív findingjai: PED-G1-3, PED-G1-9, PED-G1-12.obj, PED-G3-11, ERT-G1-6, ERT-G1-8, ERT-G1-9, ERT-G1-10, ERT-G1-13, IMPL-G1-2, IMPL-G1-12, IMPL-G1-4, IMPL-G1-5, IMPL-G1-6, ERT-G2-7.obj, ERT-G2-9, ERT-G2-12, IMPL-G2-5.obj, IMPL-G2-6, IMPL-G2-8, IMPL-G2-9, IMPL-G2-11, IMPL-G2-12, PED-G2-6, PED-G2-9, BIZT-G2-7, ERT-G3-1, ERT-G3-2, ERT-G3-3, ERT-G3-4, ERT-G3-5, ERT-G3-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-6, IMPL-G3-9, PED-G3-4, PED-G3-8, PED-G3-9, BIZT-G3-5, NYELV-G1-1, NYELV-G1-3, NYELV-G1-4, NYELV-G1-5, NYELV-G1-6, NYELV-G1-7, NYELV-G1-9, NYELV-G1-15, NYELV-G1-17, NYELV-G1-18, NYELV-G2-1, NYELV-G2-2, NYELV-G2-4, NYELV-G2-6, NYELV-G2-7, NYELV-G2-9, NYELV-G2-10, NYELV-G2-11, NYELV-G2-12, NYELV-G2-13, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-6, NYELV-G3-7, NYELV-G3-8, NYELV-G3-9, NYELV-G3-12, NYELV-G3-13, NYELV-G3-14, NYELV-G3-17",
-      "sha256": "c890fbdb030aba469392854454e15d2edd317f50950cbe10443df5a9c7ef47a7"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "85ac3c03e5457cf907291de67e0ec4c1dc2743dec4515d27692b2f94c7a01795"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md": {
-      "reason": "M7:QA-NYELV-1, M7:QA-ERT-2, M7:QA-ERT-3, M7:QA-BIZT-1, M7:QA-NYELV-4, M7:QA-NYELV-2, M7:QA-IMPL-3: a 729342a célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "4182a4c845b9b27083d54fa5e024b81c921b9c324d47ea596de84b5d03c5df7c"
+      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
+      "sha256": "0c6c063755f653dc086c942c3151684131063b9f21df353d7e828d0d4fea6e0a"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
       "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
