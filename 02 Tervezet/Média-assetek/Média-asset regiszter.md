@@ -618,7 +618,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M5-HUB-EGY-01` | print/consumable | külső forrás | specifikáció kész | Galériaséta reakció-eszközök (post-it / pötty-matrica) | — | — | stock |
+| `M5-HUB-EGY-01` | print/consumable | külső forrás | specifikáció kész | Galériaséta reakció-eszközök (post-it / pöttymatrica) | — | — | stock |
 
 ### 02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md
 
@@ -682,7 +682,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M5.B-KART-01` | card-set | legyártandó | specifikáció kész | Indítósor-kártyaszett (6-8 db kész táblázat-sor) | — | nyomtatható PDF | emberi |
+| `M5.B-KART-01` | card-set | legyártandó | specifikáció kész | Indítósor-kártyaszett (6-8 db kész táblázatsor) | — | nyomtatható PDF | emberi |
 | `M5.B-KART-02` | card-set | legyártandó | specifikáció kész | Élő kvíz – képzői állítás-kártyák (5 db igaz/hamis + súgó) | — | nyomtatható PDF | emberi |
 | `M5.B-MUNK-01` | worksheet | legyártandó | specifikáció kész | A3 / flipchart üres vázlatlap (3-4 blokkos peula-részlet) | — | nyomtatható PDF | emberi |
 | `M5.B-MUNK-02` | worksheet | legyártandó | specifikáció kész | Mintatáblázat – „Cél–kvuca–módszer" (2-3 db tartalék) | — | nyomtatható PDF | emberi |
@@ -696,7 +696,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M5.F-MUNK-01` | worksheet | legyártandó | specifikáció kész | Jegyzetlap – „1 gondolat / 1 kérdés leckénként” (L1–L4) | — | nyomtatható PDF | emberi |
 | `M5.F-POSZ-01` | poster | legyártandó | specifikáció kész | Tájékozódó tábla – M5 leckelista + név nélküli témakérések | — | nyomtatható PDF | emberi |
-| `M5.F-POSZ-02` | poster | legyártandó | specifikáció kész | Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak | — | nyomtatható PDF | emberi |
+| `M5.F-POSZ-02` | poster | legyártandó | specifikáció kész | Fogalomtérkép flipchart-sablon – 3 nagy rész + nyilak | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md
 

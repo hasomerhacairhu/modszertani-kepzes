@@ -18399,7 +18399,7 @@
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "H5P Single Choice (Course Presentationön belül), magyar szöveg; a megvalósítási típus a SLIDE 5 fejlesztői megjegyzése szerint (a Single Choice Set nem ad kérdésenkénti visszajelzést)."
+        "note": "H5P Single Choice (Course Presentationön belül), magyar szöveg; a megvalósítási típus a SLIDE 5 fejlesztői megjegyzése szerint (a Single Choice Setnek nincs válaszonkénti visszajelző mezője)."
       },
       "a11y": {
         "note": "Billentyűzettel teljesíthető, látható fókusz; opciók képernyőolvasóval olvashatók."
@@ -18429,7 +18429,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6acfbe36087b223a0e26945b6aabda83f27cb96c978e8bb589d47b167409a01f",
+      "spec_hash": "05da5ee6a2b31633d12c6dc1b4c61e1ddffa64734ab4e06c9a4ec8b5471ea4a2",
       "deliverable_ids": [
         "M4.2-EGY-04"
       ],
@@ -21016,13 +21016,13 @@
       "subtype": "consumable",
       "mode": "external",
       "status": "spec-ready",
-      "title": "Galériaséta reakció-eszközök (post-it / pötty-matrica)",
+      "title": "Galériaséta reakció-eszközök (post-it / pöttymatrica)",
       "purpose": "Strukturált társas visszajelzés a galériaséta során, az átdolgozott peula-tervek értékeléséhez.",
-      "spec": "Post-it lapok és pötty-/pont-matricák a poszter-sétához, hogy a résztvevők reakciókat hagyhassanak a csoportposztereken („Mitől lett someresebb? Mi maradt még sulis?”). Beszerzendő/előkészítendő készlet, nem egyedi grafika.",
+      "spec": "Post-it lapok és pötty-/pontmatricák a posztersétához, hogy a résztvevők reakciókat hagyhassanak a csoportposztereken („Mitől lett someresebb? Mi maradt még sulis?”). Beszerzendő/előkészítendő készlet, nem egyedi grafika.",
       "provenance": "stock",
       "provenance_note": "",
       "technical": {
-        "note": "Beszerzett post-it (több szín) + pötty-matrica ívek; mennyiség a csoportlétszámhoz igazítva"
+        "note": "Beszerzett post-it (több szín) + pöttymatrica ívek; mennyiség a csoportlétszámhoz igazítva"
       },
       "a11y": {
         "note": "—"
@@ -21053,7 +21053,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "6dac4a62feb204c5a0c7780881aced0c6fbbff81f7b454634ef369fcb00b1d1a",
+      "spec_hash": "457e68e62763b4d5b57393ae8ba05ad6e1db882ea7dde456aad095f8b05acf6e",
       "deliverable_ids": [
         "M5-HUB-EGY-01"
       ],
@@ -22147,7 +22147,7 @@
       "status": "spec-ready",
       "title": "Letölthető „Feladat–kvuca–módszer + tanulástan” kitölthető sablon (doc / sheet)",
       "purpose": "A modulproduktum (Assignment-leadás) alternatív, fájl-alapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével teljesíti a leadást. A táblázat madrihként később újrahasznosítható peulatervezéshez.",
-      "spec": "4 oszlopos kitölthető sablon doc ÉS sheet formátumban. Oszlopok: Feladat / cél | Kvuca (kor, hangulat) | Módszer / forma | Tanulástan-szemlélet (gyakorlás / aktív felidézés / időben elosztott gyakorlás). Legalább 3–4 üres sor. A fejlécben a SLIDE 5 mini-sablon kitöltési logikája (1–4 mező) rövid útmutatóként; a struktúra kövesse a SLIDE 2 minta-táblázatot. Opcionálisan egy előre kitöltött minta-sor a SLIDE 2 / SLIDE 5 példából (pl. névtanulós labdajáték sor).",
+      "spec": "4 oszlopos kitölthető sablon doc ÉS sheet formátumban. Oszlopok: Feladat / cél | Kvuca (kor, hangulat) | Módszer / forma | Tanulástan-szemlélet (gyakorlás / aktív felidézés / időben elosztott gyakorlás). Legalább 3–4 üres sor. A fejlécben a SLIDE 5 minisablon kitöltési logikája (1–4 mező) rövid útmutatóként; a struktúra kövesse a SLIDE 2 mintatáblázatot. Opcionálisan egy előre kitöltött mintasor a SLIDE 2 / SLIDE 5 példából (pl. névtanulós labdajáték sor).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22168,7 +22168,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Ugyanaz a tartalmi struktúra, mint a SLIDE 2 minta-táblázat és a SLIDE 5 mini-sablon; az Assignment online-text mező alternatívája. provenance az enum hiányában „emberi-felvétel” = ember által összeállított/szerzett sablon (nem AI-generált); ez a négy provenance-érték közül a leghűbb a humán-szerzőségre.",
+      "notes": "Ugyanaz a tartalmi struktúra, mint a SLIDE 2 mintatáblázat és a SLIDE 5 minisablon; az Assignment online-text mező alternatívája. provenance az enum hiányában „emberi-felvétel” = ember által összeállított/szerzett sablon (nem AI-generált); ez a négy provenance-érték közül a leghűbb a humán-szerzőségre.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -22183,7 +22183,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "420ff4758a64cd279846aa520cd75d2f0399dc5851342ccf2360709079c88fc7",
+      "spec_hash": "816fffd874c6459a813cc8d425e3525e3914afc0c425e10db381d4b9da8f4c6f",
       "deliverable_ids": [
         "M5.4-MUNK-01",
         "M5.4-MUNK-01::PRINTPDF"
@@ -22207,7 +22207,7 @@
       "status": "spec-ready",
       "title": "12 helyzetkártya – kétoldalas szett (front: sztori, hátlap: címke)",
       "purpose": "A sarokjáték és a kiscsoportos „átöltöztetés” gyakorlat alapanyaga; konkrét élethelyzeteken keresztül gyakoroltatja a besorolást (Suli/Somer/Hétköznapok) és a feladat→cél→kvuca→módszer gondolkodást; több kártya szándékosan határeset a vitához.",
-      "spec": "12 db nyomtatható/kivágható helyzetkártya; a verbatim szöveg kánoni helye a „## 6. Melléklet – 12 helyzetkártya – szövegek” szakasz. Frontoldal: 1–3 mondatos szituáció-leírás (dolgozat jeggyel; péntek délutáni kvuca-kör; buszos TikTok; matek-szakkör versenyre; kenben felelősség-poszter; FIFA-maraton; tábortűz-történet a Somerről; iskolai szavalóverseny zsűrivel; családi vacsora; ken új játék + megbeszélés szolidaritásról; frontális 20 perces tanóra; Insta/TikTok görgetés). Hátoldal/sarok: képzői címke [SULI]/[SOMER]/[HÉTKÖZNAPOK] a fogalommal (formális/nonformális/informális). Felosztás: 6–8 db a 3 sarok játékhoz (kevert típus), csoportonként 2–3 db keverve a fő gyakorlathoz.",
+      "spec": "12 db nyomtatható/kivágható helyzetkártya; a verbatim szöveg kánoni helye a „## 6. Melléklet – 12 helyzetkártya – szövegek” szakasz. Frontoldal: 1–3 mondatos szituáció-leírás (dolgozat jeggyel; péntek délutáni kvuca-kör; buszos TikTok; matekszakkör versenyre; kenben felelősség-poszter; FIFA-maraton; tábortűz-történet a Somerről; iskolai szavalóverseny zsűrivel; családi vacsora; ken új játék + megbeszélés szolidaritásról; frontális 20 perces tanóra; Insta/TikTok görgetés). Hátoldal/sarok: képzői címke [SULI]/[SOMER]/[HÉTKÖZNAPOK] a fogalommal (formális/nonformális/informális). Felosztás: 6–8 db a 3 sarok játékhoz (kevert típus), csoportonként 2–3 db keverve a fő gyakorlathoz.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -22245,7 +22245,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e9d22b0e68c38bdc708099edf1f21bfaf001f673f0c92ea71f247bee1b84b4e5",
+      "spec_hash": "ec7d26c39205156d982c3b8e60f8f5dcf4ae7e26ce36cebea3a86a06eb58b865",
       "deliverable_ids": [
         "M5.A-KART-01",
         "M5.A-KART-01::PRINTPDF"
@@ -22269,7 +22269,7 @@
       "status": "spec-ready",
       "title": "Poszter-sablon: 4 mezős „átöltöztetés” minitáblázat",
       "purpose": "Strukturálja a kiscsoportos alkotást a feladat→cél→kvuca→módszer lánc mentén; biztosítja, hogy a poszter a galériasétán önmagában, kívülálló számára is érthető legyen.",
-      "spec": "Kiscsoportonkénti A3/flipchart-lap sablon a fő gyakorlathoz. Felül sáv a kiinduló helyzet rövid (1–2 mondatos) leírásának. Alatta 4 mezős mini-táblázat: (1) Feladat / cél – mit éljen át/tanuljon a kvuca; (2) Kvuca – korosztály, hangulat, beszédesség; (3) Módszer / forma – konkrét gyakorlat/peula-részlet; (4) Mitől lesz Somer? – 1 mondat a sulis/spontán verziótól való különbségről. A mezők megnevezve, a csoport tölti ki filccel. Lehet üres A3 + külön mintaábra a 4 mező elrendezéséről, vagy előrenyomtatott keret. A poszter mellé szabad sáv/margó is kell a galériaséta post-it/pötty reakcióinak.",
+      "spec": "Kiscsoportonkénti A3/flipchart-lap sablon a fő gyakorlathoz. Felül sáv a kiinduló helyzet rövid (1–2 mondatos) leírásának. Alatta 4 mezős minitáblázat: (1) Feladat / cél – mit éljen át/tanuljon a kvuca; (2) Kvuca – korosztály, hangulat, beszédesség; (3) Módszer / forma – konkrét gyakorlat/peula-részlet; (4) Mitől lesz Somer? – 1 mondat a sulis/spontán verziótól való különbségről. A mezők megnevezve, a csoport tölti ki filccel. Lehet üres A3 + külön mintaábra a 4 mező elrendezéséről, vagy előrenyomtatott keret. A poszter mellé szabad sáv/margó is kell a galériaséta post-it/pötty reakcióinak.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -22306,7 +22306,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d9968fce6def43fa5591aa9b3a379c8d138845726fd6f135d491625e0a9d966c",
+      "spec_hash": "e4c051f797f904b1761cbe4cd9388ddb8a7ed951472d503ef72b23c8d76b0f84",
       "deliverable_ids": [
         "M5.A-MUNK-01",
         "M5.A-MUNK-01::PRINTPDF"
@@ -22337,7 +22337,7 @@
         "note": "1 db flipchart-lap vagy A3 sablon; kézzel írható vagy nyomtatható/kivetíthető; magyar nyelv"
       },
       "a11y": {
-        "note": "Nagy, kontrasztos felirat a teremből olvashatósághoz; a lánc szóban is elhangzik az élő mini-felvezetőben (4.3.1), így nem csak vizuálisan érhető el."
+        "note": "Nagy, kontrasztos felirat a teremből olvashatósághoz; a lánc szóban is elhangzik az élő minifelvezetőben (4.3.1), így nem csak vizuálisan érhető el."
       },
       "derivatives": [
         "print-pdf"
@@ -22367,7 +22367,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "bed14bd71794160f011dd6c566e31e950668867e5d2751d09cf96d4f80c40a1b",
+      "spec_hash": "87a91ee494bac290349fc9bda6db758a1d5d67791dcbdec2ca87acc38c39bd46",
       "deliverable_ids": [
         "M5.A-MUNK-02",
         "M5.A-MUNK-02::PRINTPDF"
@@ -22450,13 +22450,13 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Indítósor-kártyaszett (6-8 db kész táblázat-sor)",
+      "title": "Indítósor-kártyaszett (6-8 db kész táblázatsor)",
       "purpose": "Tartalékeszköz: ha a résztvevő nem hozta el / nem készült el az M5.4 táblázata, azonnal van miből dolgozni; a peula fő gyakorlata (1 sor → peula-részlet) így sem akad el. Az 'Indítókártyás mód' (kapu-csúszás) fő hordozója.",
       "spec": "6-8 db nyomtatott kártya, mindegyiken egy kész 'táblázatsor': CÉL + KVUCA (kor + hangulat) + 1 nyers MÓDSZER-mag. A forrás 6 konkrét mintát ad (2.1): névtanulós labdajáték; szabályszínház; dilemmakártyák + sarokba állás; gyors kvíz párokban; közös kihíváspálya; páros interjú. A 6-8 db eléréséhez 1-2 további sort is meg kell írni hasonló mintára. A táblázatot nem hozó/elakadt csoport húz egyet, a saját korosztályára alakítja, és abból tervez tovább.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Nyomtatott kártyaszett, 6-8 db, kártya-méret (pl. A6/A5), magyar nyelv, kártyánként 1 cél + 1 kvuca + 1 módszer-mag."
+        "note": "Nyomtatott kártyaszett, 6-8 db, kártya-méret (pl. A6/A5), magyar nyelv, kártyánként 1 cél + 1 kvuca + 1 módszermag."
       },
       "a11y": {
         "note": "Olvasható, nagy betűs nyomtatás; tartalom rövid, kártyánként önállóan értelmezhető szöveg."
@@ -22488,7 +22488,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "07fe621f110adecc8851a642824d3e39032a66bab1112af988bcb36404fbc20c",
+      "spec_hash": "1659524da4cf0d32d0f7231f4021c874dda805418b678c6d886b84ec7036d75c",
       "deliverable_ids": [
         "M5.B-KART-01",
         "M5.B-KART-01::PRINTPDF"
@@ -22833,7 +22833,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A név nélküli témakérő cetlik sima, dekorálatlan fogyóeszközök – nem külön legyártandó designasset; státuszjelölésre nem használjuk (lásd a felszerelés-listát). Összekapcsolódik a fogalom-térkép flipcharttal (M5.F-POSZ-02) mint a peula két fő táblás eszköze. A képzői checklist is hivatkozza.",
+      "notes": "A név nélküli témakérő cetlik sima, dekorálatlan fogyóeszközök – nem külön legyártandó designasset; státuszjelölésre nem használjuk (lásd a felszerelés-listát). Összekapcsolódik a fogalomtérkép flipcharttal (M5.F-POSZ-02) mint a peula két fő táblás eszköze. A képzői checklist is hivatkozza.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -22870,9 +22870,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak",
+      "title": "Fogalomtérkép flipchart-sablon – 3 nagy rész + nyilak",
       "purpose": "Közös vizuális szerkezet, amelyre a csoport a saját kulcsszavait és összekötéseit írja; láthatóvá teszi, hogyan függ össze a tér, a tervezés és a tanulástan az M5-ben.",
-      "spec": "Flipchart/tábla-sablon a közös fogalom-térképhez: 3 nagy buborék/terület előre felskiccelve vagy rajzolási útmutatóval – 1) Suli / Somer / hétköznapok (formális–nonformális–informális), 2) Feladat → cél → kvuca → módszer, 3) Gyakorlás – aktív felidézés – időben elosztott gyakorlás. Üres belső tér a résztvevők kulcsszavainak, és hely a három rész közötti összekötő nyilaknak. A keretmondat („Suli/Somer/hétköznapok = milyen térben tanulunk; tervezés = hogyan tervezünk tudatosan; tanulástan = mitől marad meg a tanulás”) opcionális feliratként.",
+      "spec": "Flipchart/tábla-sablon a közös fogalomtérképhez: 3 nagy buborék/terület előre felskiccelve vagy rajzolási útmutatóval – 1) Suli / Somer / hétköznapok (formális–nonformális–informális), 2) Feladat → cél → kvuca → módszer, 3) Gyakorlás – aktív felidézés – időben elosztott gyakorlás. Üres belső tér a résztvevők kulcsszavainak, és hely a három rész közötti összekötő nyilaknak. A keretmondat („Suli/Somer/hétköznapok = milyen térben tanulunk; tervezés = hogyan tervezünk tudatosan; tanulástan = mitől marad meg a tanulás”) opcionális feliratként.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22908,7 +22908,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "8a7f2e53b3082b9932fd56120d304183bd710437d0923e6ab05826aa70248d4b",
+      "spec_hash": "315350d1987b85b028c1ba7f6f6abac2c6f526df7dadc760f2c1d719a45009ea",
       "deliverable_ids": [
         "M5.F-POSZ-02",
         "M5.F-POSZ-02::PRINTPDF"
@@ -44237,7 +44237,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md",
       "file_kind": "hub",
-      "title": "Galériaséta reakció-eszközök (post-it / pötty-matrica)",
+      "title": "Galériaséta reakció-eszközök (post-it / pöttymatrica)",
       "mode": "external",
       "status": "spec-ready",
       "provenance": "stock",
@@ -45215,7 +45215,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md",
       "file_kind": "peula",
-      "title": "Indítósor-kártyaszett (6-8 db kész táblázat-sor)",
+      "title": "Indítósor-kártyaszett (6-8 db kész táblázatsor)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -45236,7 +45236,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md",
       "file_kind": "peula",
-      "title": "Indítósor-kártyaszett (6-8 db kész táblázat-sor) — nyomtatható PDF",
+      "title": "Indítósor-kártyaszett (6-8 db kész táblázatsor) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -45509,7 +45509,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md",
       "file_kind": "peula",
-      "title": "Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak",
+      "title": "Fogalomtérkép flipchart-sablon – 3 nagy rész + nyilak",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -45530,7 +45530,7 @@
       "module": "M5",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md",
       "file_kind": "peula",
-      "title": "Fogalom-térkép flipchart-sablon – 3 nagy rész + nyilak — nyomtatható PDF",
+      "title": "Fogalomtérkép flipchart-sablon – 3 nagy rész + nyilak — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",

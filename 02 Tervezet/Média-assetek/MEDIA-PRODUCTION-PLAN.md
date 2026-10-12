@@ -273,7 +273,7 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 | Poszter és kártyaszett | `M2.F-POSZ-01` | B0 | — | 59 | Tájékozódó tábla – M2 leckelista + név nélküli témakérések |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B0 | — | 4 | Hook háttér – someres/kvuca-vizuál |
 | H5P-interakció / Moodle-elem | `M3.4-EGY-03` | B0 | — | 27 | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett) |
-| Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Galériaséta reakció-eszközök (post-it / pötty-matrica) |
+| Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Galériaséta reakció-eszközök (post-it / pöttymatrica) |
 
 ## 6. Újrahasznosítás — nem gyártandó
 
