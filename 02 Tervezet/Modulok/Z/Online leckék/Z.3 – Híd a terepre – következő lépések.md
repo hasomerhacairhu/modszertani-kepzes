@@ -237,7 +237,7 @@ Opciók:
 
 **Rövid szöveges válasz** mező – a kitöltése és beküldése **kötelező** (mikor + melyik kvuca + 1 akadály ha–akkor formában); helye a lecke melletti Moodle-oldali mező (LMS-Z-06, 1. kérdés).
 
-Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe, vagyis a mező címkéjébe kerül (a Moodle Feedback „Longer text answer” mezőjében nincs helyőrző vagy előre kitöltött szöveg; TEXT-C: „a kérdés(ek) szövege a mező címkéje”):
+Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe kerül (Moodle: a „Longer text answer” elem „Question” mezője, ez a beviteli mező látható címkéje; nem a „Label” mezőbe; a „Longer text answer” mezőjében nincs helyőrző vagy előre kitöltött szöveg; TEXT-C: „a kérdés(ek) szövege a mező címkéje”):
 `A következő 3 Zmán Kvucámon lefuttatom a Peula v2-met a ... kvucámmal, mégpedig a ... alkalommal. Ha ..., akkor ...`
 
 ***
@@ -321,7 +321,7 @@ Mezőben megjelenő mintaszöveg:
 
 > ✅ **Önellenőrzés – Ha holnap kezdenéd…**
 
-> Nézd meg a jegyzetedben a 2 célmondatodat (az „A következő 3 Zmán Kvucámon…” és az „A következő hónapban…” kezdetűeket).
+> Nézd meg a 2 célmondatodat (az „A következő 3 Zmán Kvucámon…” és az „A következő hónapban…” kezdetűeket).
 
 > Tegyél fel magadnak 1 kérdést:
 

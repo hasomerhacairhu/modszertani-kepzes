@@ -309,12 +309,12 @@
       "sha256": "b53c38625b8edcb0ce032626f97436b7adef1dbe73074ea27cb8cae257545a62"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
-      "sha256": "af547dd73032856a245f4dbcc5f847d382f69062e1717c3d86b609b80ae34a15"
+      "reason": "Z:QA-ERT-1, Z:QA-IMPL-1, Z:QA-NYELV-3: az 5fcf2b0 célzott QA validált findingjai, a verifier-korlátok szerint",
+      "sha256": "5ee1b14dbffee9d2c202a3ea82ba55794c666ed3d9bdfe1ad9a01a1853df31da"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
-      "sha256": "fd492b5b426c5a66ff2be3151df3b4b4cb66cca4c1736dd0b89e40494a04fcbe"
+      "reason": "Z:QA-ERT-1, Z:QA-IMPL-1, Z:QA-NYELV-3: az 5fcf2b0 célzott QA validált findingjai, a verifier-korlátok szerint",
+      "sha256": "1206920831e1a598cdc45fa72643abc3f4bc1f2584ffc837eb0ecbb0e4ca1903"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
       "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
