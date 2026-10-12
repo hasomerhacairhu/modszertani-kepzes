@@ -418,7 +418,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.2-DIA-01` | diagram | legyártandó | specifikáció kész | Parparim & Kivsza – kétoszlopos profilkártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-02` | diagram | legyártandó | specifikáció kész | Leviatán – profilkártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-03` | diagram | legyártandó | specifikáció kész | 3 kulcsszó-kártya | — | alt-szöveg | AI-generált |
-| `M3.2-DIA-04` | other/ui-text | legyártandó | specifikáció kész | Korosztály-térkép minitáblázat (3 sor) | — | — | AI-generált |
+| `M3.2-DIA-04` | other/ui-text | legyártandó | specifikáció kész | Korosztálytérkép minitáblázat (3 sor) | — | — | AI-generált |
 | `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke) | — | — | AI-generált |
 | `M3.2-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes párosító változat (Multiple Choice egyválaszos módban) | — | — | AI-generált |
 | `M3.2-IKO-01` | icon-set | legyártandó | specifikáció kész | 3 kvuca ikon-készlet (🦋 🐑 🐋) | — | alt-szöveg | AI-generált |
