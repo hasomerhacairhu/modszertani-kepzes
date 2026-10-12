@@ -1889,7 +1889,7 @@ class TestLiveDeliverables(unittest.TestCase):
 
         The approval register closed HUM-SAFE-04 on 2026-10-02, so neither asset may
         still carry a `decision` or read as pending-human-decision. If a veto reopens
-        the item, the `decision` field goes back on both assets and this test flips
+        the item, the `decision` field goes on both assets and this test flips
         back with the register heading.
         """
         approvals = (mm.ACTIVE_ROOT / "Emberi jóváhagyás szükséges.md").read_text(encoding="utf-8")
