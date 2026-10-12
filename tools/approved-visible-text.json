@@ -305,24 +305,24 @@
       "sha256": "223e2fa095dd9bccbb779925ae8c75e8cfc557df50ec1c9621695de311d81725"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
-      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
-      "sha256": "81605a066bdfec4d7806b16e647c845591bbc2fdfc329d56c27a72609e661417"
+      "reason": "Z:QA-IMPL-1, Z:QA-NYELV-2, Z:QA-IMPL-4, Z:QA-NYELV-6, Z:QA-ERT-3, Z:QA-IMPL-2, Z:QA-NYELV-10 (LMS-1, ADV-14, GYV-11, ADV-3, PRG-6, ERT-39, ERT-1, ERT-2, ADV-4): verifier-confirmed targeted QA fixes after c5bc2c4",
+      "sha256": "7d0c946be049b9b09b135469f034659526fbf075533956bfa08d989171e1440e"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
-      "sha256": "b71b2c853184db423b48255bff2093c48a7e337d241e076b5d808a831173ff07"
+      "reason": "Z:QA-IMPL-1, Z:QA-NYELV-2, Z:QA-IMPL-4, Z:QA-NYELV-6, Z:QA-ERT-3, Z:QA-IMPL-2, Z:QA-NYELV-10 (LMS-1, ADV-14, GYV-11, ADV-3, PRG-6, ERT-39, ERT-1, ERT-2, ADV-4): verifier-confirmed targeted QA fixes after c5bc2c4",
+      "sha256": "135fccc99f2e0fa761b069b8fe453c5e053248b42a205a7baaa462eaa128d65a"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
-      "sha256": "c1dfeb976cea137fc7ebb9f47c0d2d22d4e8cf6ca60a067cf00c6fc6ea4a1177"
+      "reason": "Z:QA-IMPL-1, Z:QA-NYELV-2, Z:QA-IMPL-4, Z:QA-NYELV-6, Z:QA-ERT-3, Z:QA-IMPL-2, Z:QA-NYELV-10 (LMS-1, ADV-14, GYV-11, ADV-3, PRG-6, ERT-39, ERT-1, ERT-2, ADV-4): verifier-confirmed targeted QA fixes after c5bc2c4",
+      "sha256": "508f7a26adfab7f8c34a1b0564dd34bbbf575fd89163ae7b0ab7fc037195c1bf"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
       "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
       "sha256": "5aad94cc22451925aa74b8745f1249ac884852946c124b7301c45330b55431cc"
     },
     "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md": {
-      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
-      "sha256": "49d035efeef5da7fd1f1f06dc5b947452c2e4baf8157b0df0ccf4a08c94eaffe"
+      "reason": "Z:QA-IMPL-1, Z:QA-NYELV-2, Z:QA-IMPL-4, Z:QA-NYELV-6, Z:QA-ERT-3, Z:QA-IMPL-2, Z:QA-NYELV-10 (LMS-1, ADV-14, GYV-11, ADV-3, PRG-6, ERT-39, ERT-1, ERT-2, ADV-4): verifier-confirmed targeted QA fixes after c5bc2c4",
+      "sha256": "d970ea9423845cce88a4a6bb5e3a071ff67ab4ff4d4e5b5b0f5e07738e5b78cf"
     },
     "02 Tervezet/Program terv.md": {
       "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
