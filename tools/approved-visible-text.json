@@ -53,12 +53,12 @@
       "sha256": "d45f222277d6255e6098a055d4f2801feeb9b0c927189ad4af27f1bcfedd4cc7"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "de95d1f7c9575803b7eda08ee14018737748e4080ef908926d936d23fc85049c"
+      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
+      "sha256": "7505e9517fd0d3757e741013c2b0402d68e8d4222de59df1bff7985f771fb52a"
     },
     "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "ccd822e990fbbf63b73f0358fafa2ce0db6e94dc1800dce180a8f36303481af3"
+      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
+      "sha256": "bdb89ff542face7b4dab4299b516883986d93c2399721bb22f62d13c38bf7d1f"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
@@ -69,24 +69,24 @@
       "sha256": "1b2ec56161f328376fa4dd238614bf0a90e6d026919f4f412cd2f3649c4b37d9"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "a19eb8fe247e6db6876e71ee16495a916ef52a8803149799734749c556ff3c29"
+      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
+      "sha256": "de9a6252463890ebe5ffafe3ec3d1eb6c24b526c6108e4f7af7fbe7e670ce863"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "e7e89d57a572c7f911fc525522e4595d0fda70cda61463015fb49834a0c3ff50"
+      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
+      "sha256": "1adcec75907223d4f442988ee69a0cfa3696d282a304241bf598b563c50a378c"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "54c73d8fa27e745b35b28a546a37b1cff6147c485283e24a38f9e2aa53d692de"
+      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
+      "sha256": "ce212923f2fc64df9d9c92f725bdcf73e49385c857ca638e08f7508b00afe434"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "14a48d17c81477138122b668d82db15f2292c306286fb31827181074b1d75541"
+      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
+      "sha256": "460b5b545668367e85d2efe23dd4453dbbe5da6d78ccd97dfe958f0490b6d2a0"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "34e7c27b6a7a9ee10aa61f46afd929b47f414b929b590fa1159156660cb2f250"
+      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
+      "sha256": "aff50d3591fb4c8bd2d7fb4adc2ae56f1a72c7c9eaa6a4123a08bc7f831c26ee"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",

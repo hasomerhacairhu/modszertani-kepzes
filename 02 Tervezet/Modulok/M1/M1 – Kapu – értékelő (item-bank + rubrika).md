@@ -129,7 +129,7 @@ A táblázat 2. és 3. esete a lényeg: **ha bármelyik rubrikasor 0 maradt, a b
 
 ---
 
-## 3. Kísérő item-bank (formatív / completion – NEM a kapu)
+## 3. Kísérő item-bank (formatív szerzői itempool – NEM a kapu)
 
 Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **Szerzői itempool: külön Moodle-activity és manifest-sor nem készül hozzá; a szabad szöveges itemek (Item 5–6) tárolt activitybe nem kerülnek.** A disztraktorok **plauzibilisek**: mindegyik egy valós madrih-tévedést testesít meg (címke, általánosítás, hatás helyett érzés), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli. Az opciók félkövér kiemelése és dőlt, zárójeles típusmegjegyzése szerzői jelölés: a kvízbe egyik sem kerül át.
 
@@ -198,7 +198,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 **Szituáció:** „A peuláról fél órát késik valaki, és hangosan röhögve érkezik meg a körbe.”
 **Feladat:** Írj rá **1 db, 2–3 mondatos SBI-t**, amiben van S, B és I, és tisztelettudó a hangnem.
 **Önellenőrző visszajelzés (a tanulónak, megoldás után):** Nézz rá a saját mondatodra:
-1. Van benne **konkrét hely és idő** (S)? 2. Van benne **megfigyelhető viselkedés**, címke nélkül (B)? 3. Kiderül, **hogyan hatott** rád / a kvucára (I)? 4. A **viselkedésről** beszélsz-e (nem a személyt minősíted)?
+1. Kiderül, **mikor vagy hol** (vagy mindkettő), és **a helyzet melyik szakaszában** történt (S)? 2. Van benne **megfigyelhető viselkedés**, címke nélkül (B)? 3. Kiderül, **hogyan hatott** rád / a kvucára (I)? 4. A **viselkedésről** beszélsz-e (nem a személyt minősíted)?
 Ha mind a 4-re „igen”, akkor kapuérett az SBI-vázad – ezt add be az M1.4 SBI-beadandóba.
 
 ***

@@ -114,7 +114,7 @@ A modul végére a résztvevő…
   Példa-SBI-k szétszedése (hol az S, B, I);
   Activity 1: félig kész SBI-mondatok kiegészítése saját szavakkal (S, B, I);
   Activity 2: saját mini-helyzet felvázolása (csak kitalált);
-  Check: önellenőrző lista – van-e hely és idő, megfigyelhető viselkedés, érthető hatás, és a viselkedésről szól-e (nem minősíti a személyt, nincs benne „mindig / soha”).
+  Check: önellenőrző lista – kiderül-e, mikor vagy hol, és a helyzet melyik szakaszában, megfigyelhető viselkedés, érthető hatás, és a viselkedésről szól-e (nem minősíti a személyt, nincs benne „mindig / soha”).
 
 ***
 
