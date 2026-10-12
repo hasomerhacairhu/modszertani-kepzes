@@ -43,7 +43,7 @@ A modul végére a résztvevő…
    * Tud használni egyszerű **visszatükröző mondatokat** („Azt hallom, hogy…”, „Úgy tűnik, neked az a fontos, hogy…”), és nem ugrik azonnal tanácsadásba.
      *(Főleg: M4.2, M4.A, M4.B)*
 4. **Kérdezéstechnika – kérdésfajták tudatos használata**
-   * Különbséget tud tenni **nyitott, zárt, tisztázó, irányító** kérdések között, és példát tud mondani mindegyikre.
+   * Különbséget tud tenni **nyitott, zárt, tisztázó, irányító** kérdések között, és a nyitott, illetve a tisztázó kérdésre példát is tud mondani.
    * Tudatosan választ kérdéstípust a peula különböző szakaszaiban (megnyitás, tisztázás, lezárás).
      *(Főleg: M4.3, M4.B)*
 5. **45 mp-es peulabemutató**
@@ -101,11 +101,11 @@ A modul végére a résztvevő…
 
 ***
 
-## 5. Felzárkóztató peula (ajánlott, ha a kapu nem teljesült) – 45’
+## 5. Felzárkóztató peula (ajánlott, ha a vázlat még nem éri el a küszöböt) – 45’
 
 * **Kapcsolódó peula:** M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató.
 * **Mikor használjuk?**
-  * Az F-peula (felzárkóztató peula) **ajánlott** annak, akinél az M4 kapuja (§6) **nem teljesült**; mivel az M4 puha kapu, nem kötelező. Facilitált, strukturált javítási alkalom, nem általános pótlás (a fogalmat a Program terv és a Glosszárium definiálja).
+  * Az F-peula (felzárkóztató peula) **ajánlott** annak, akinek a leadott peulabemutató-vázlata a mentori visszajelzés szerint **még nem éri el** az „alapszint / rendben” küszöböt (§6, Kapu 2); ez formatív javaslat, nem bukás, és mivel az M4 puha kapu, nem kötelező. Facilitált, strukturált javítási alkalom, nem általános pótlás (a fogalmat a Program terv és a Glosszárium definiálja).
   * **Időpontja:** a kapueredmény megerősítése után, a javító újrabeadás előtt; az alkalmat a képző jelöli ki a központi naptár (HUM-OPS-01) szerint.
   * Aki csak lemaradt valamelyik leckével (M4.1–M4.4), csendes pótlással (önálló elmaradás-pótlással) pótol; erre az F-peulán belül a csendes pótlás blokk is helyet ad.
 * **Fő célok:**
@@ -125,17 +125,17 @@ A modul végére a résztvevő…
 1. **Kapu 1 – M4.3 minikvíz + reflektív kérdés**
    * **Eszköz:** az M4.3 H5P-ben lévő minikvíz (kérdéstípusok felismerése) és a záró reflektív kérdés a lecke melletti szövegmezőben (LMS-M4-08).
    * **Funkció:** ellenőrzi, hogy a résztvevő **megérti a kérdéstípusokat**, és tudatosan vállal egy változtatási irányt (melyiket használja többet / kevesebbet).
-   * **Következmény:** ha gyenge az eredmény vagy hiányzik a completion, jelzés a mentornak / stábnak. A hiányzó completion lemaradás: a résztvevő csendes pótlással pótolja; gyenge eredménynél a mentor ajánlhatja az M4.F-et (F-peula, §5).
+   * **Következmény:** ha hiányzik a completion, jelzés a mentornak / stábnak: ez lemaradás, a résztvevő csendes pótlással pótolja. Az alacsony kvízeredményhez nincs egyéni küszöb, és nem jár belőle egyéni felzárkóztatási jelzés: a stáb a kérdésszintű eredményekből személyre nem szabott, összesített téma-visszajelzést ad (§7, 3. és 5. pont). Egyéni jelzés csak rögzített feladatszerkezet, validált értékhatár, hozzáférési szabály és Moodle runtime-teszt után vezethető be.
 2. **Kapu 2 – M4.4 beadandó – „Peulabemutató-vázlat”**
    * **Eszköz:** Moodle Assignment, online szöveges beadás és fájlfeltöltés letölthető sablonnal (a két út egyenértékű, lásd Program terv §5); az „M4.4 – A vázlat első változata” szövegmezőből (LMS-M4-09) átvett / finomított peulabemutató-vázlat.
    * **Követelmény (puha kapu):** a peulabemutató minden kérdésre válaszoljon (kvuca, téma, miért fontos nekik, mit fogtok csinálni, mit vigyenek haza); nincs fix pontszám, de a mentor a lenti, megfigyelhető viselkedést leíró rubrika alapján azt nézi, eléri-e legalább az „alapszint / rendben” szintet.
    * **Megfigyelhető rubrika (5 sablonelem mentén):** a peulabemutató-sablon öt eleme = **(1) kvuca (kihez beszélsz), (2) téma (miről szól), (3) miért fontos nekik, (4) mit fogtok csinálni, (5) mit vigyenek haza.** A mentor minden peulabemutatót az alábbi, egymást kizáró szinteken helyez el – a besorolás külső megfigyelő által, értelmezés nélkül eldönthető (megvan-e az adott elem, és kvuca-specifikus-e):
-     * **Fejlettebb (kvucára szabott):** **mind az 5 elem megnevezve, és legalább a kvuca + a „miért fontos nekik” rész konkrét, az adott kvucára szabott (nem általános) – pl. nevesített korosztály/élethelyzet, rájuk illő indok.** *(A kvucára szabottsághoz nem kell azonosító adat: a vázlatba a kvucáról csak nem azonosító, csoportszintű információ kerülhet – név, egyéni érzékeny történet, diagnózis vagy beazonosítható eset nem; lásd az M4.4 „Biztonságos megosztás” dobozát.)*
+     * **Fejlettebb (kvucára szabott):** **mind az 5 elem megnevezve, és legalább a kvuca + a „miért fontos nekik” rész konkrét, az adott kvucára szabott (nem általános) – pl. nevesített korosztály, hozzávetőleges létszám, a csoport általános energiája vagy hangulata, rájuk illő indok.** *(A kvucára szabottsághoz nem kell azonosító adat: a vázlatba a kvucáról csak nem azonosító, csoportszintű információ kerülhet – név, egyéni érzékeny történet, diagnózis vagy beazonosítható eset nem; lásd az M4.4 „Biztonságos megosztás” dobozát.)*
      * **Alapszint / rendben (= küszöb):** **mind az 5 elem megnevezve és értelmezhető, de általánosabb, nincs kifejezetten erre a kvucára szabva.**
      * **Még nem éri el:** **legalább egy elem hiányzik vagy nem értelmezhető (pl. nincs megnevezve a kvuca, vagy nincs „mit vigyenek haza”).**
    * **Küszöbérték indoklása:** **a küszöb az „alapszint / rendben” szint, azaz mind az 5 elem jelen van. Ez kritériumorientált, nem „kerek szám”: a modulcél (max. 45 mp-es, kvucának címzett peulabemutató-vázlat) akkor teljesül érdemben, ha a peulabemutató hiánytalanul lefedi az 5 kötelező elemet – egyetlen hiányzó elem (pl. „kihez beszélsz” vagy „miért fontos nekik”) esetén a peulabemutató nem tölti be a funkcióját. A kvucára szabottság fejlesztési cél, de puha kapunál nem feltétele a küszöb átlépésének.**
    * **Ajánlott folyamat (a két visszajelzési forrás sorrendje):** az **M4.B élő társas visszajelzés** (érthetőség/emlékezetesség + lehetséges nyitó kérdés) a peulabemutató **formáló finomítását** szolgálja → ezután adja le a résztvevő a **véglegesített peulabemutató-vázlatot** az M4.4 Assignmentbe → erre érkezik a strukturált **MENTORI** visszajelzés a Megfigyelés → Hatás → Következő lépés modell szerint (és szükség esetén újrabeadás). Így a társas (leadás előtti, formáló) és a mentori (leadás utáni, strukturált) visszajelzés nem mosódik össze.
-   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** visszajelzése a beadott peulabemutatóra a Megfigyelés → Hatás → Következő lépés modell szerint) + újrabeadás lehetősége (elsajátításig tartó tanulás: egy javító újrabeadás automatikusan nyílik, további próbálkozást a képző nyithat kézzel; a legjobb megerősített eredmény számít); a javító újrabeadás előtt ajánlott az M4.F (F-peula, §5). *(Megjegyzés: az M4.B peulán a társas visszajelzés az élő előadásra, vagyis viselkedésre szól, és két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, a résztvevők pedig ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott peulabemutató-vázlat írásos produktum: erre a mentor a Megfigyelés → Hatás → Következő lépés modell szerint ad strukturált visszajelzést.)*
+   * **Következmény:** ha nincs beadva vagy nagyon hiányos (a „még nem éri el” szint) → mentori jelzés, finomító kör (a **mentor** visszajelzése a beadott peulabemutatóra a Megfigyelés → Hatás → Következő lépés modell szerint) + újrabeadás lehetősége (elsajátításig tartó tanulás: egy javító újrabeadás automatikusan nyílik, további próbálkozást a képző nyithat kézzel; a legjobb megerősített eredmény számít); a javító újrabeadás előtt ajánlott az M4.F (F-peula, §5). *(Megjegyzés: az M4.B peulán a társas visszajelzés az élő előadásra, vagyis viselkedésre szól, és két rögzített szempontra épül – érthetőség/emlékezetesség + lehetséges nyitó kérdés –, kötelezően a Megfigyelés → Hatás → Következő lépés szerkezetben; a résztvevők ezt opcionálisan az M1-ben tanult SBI-logikával (és az M4.2 visszatükröző mondataival) is megfogalmazhatják. A leadott peulabemutató-vázlat írásos produktum: erre a mentor a Megfigyelés → Hatás → Következő lépés modell szerint ad strukturált visszajelzést.)*
 
 **Minimális teljesítés (M4 complete):**
 
@@ -156,7 +156,7 @@ A modul végére a résztvevő…
 
 1. **Completion-adatok (L1–L4):**
    * hányan fejezték be az M4.1–M4.4 leckéket,
-   * kik azok, akik 0% / <50% – őket érdemes külön megszólítani, és csendes pótlásra (önálló elmaradás-pótlásra) irányítani (az M4.F annak ajánlott, akinél a kapu nem teljesült, §5).
+   * kik azok, akik 0% / <50% – őket érdemes külön megszólítani, és csendes pótlásra (önálló elmaradás-pótlásra) irányítani (az M4.F annak ajánlott, akinek a vázlata még nem éri el a Kapu 2 küszöbét, §5).
 2. **H5P-aktivitás részletei:**
    * M4.1–M4.2: mely nonverbális jelzéseket vagy reakciókat azonosítják sokan rosszul (zárt testtartás, „támogatónak” gondolt, valójában lezáró válaszok).
    * M4.3: mely kérdéstípusok keverednek leginkább (nyitott vs. irányító, tisztázó vs. zárt).
@@ -167,7 +167,7 @@ A modul végére a résztvevő…
    * hány résztvevő adott le peulabemutatót;
    * mely rubrikaelemek gyengék (pl. kvuca-leírás, „miért fontos nekik” rész) – ezeket lehet célzottan fejleszteni az M4.B-n, illetve a mentorok 2–3 mondatos írásos visszajelzésében.
 5. **Küszöbök / beavatkozási pontok:**
-   * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → a lemaradókat érdemes csendes pótlásra (önálló elmaradás-pótlásra) irányítani; ez lemaradás, nem F-peula-kiváltó (az M4.F a nem teljesült kapu után ajánlott, §5);
+   * ha a résztvevők **>30%-a nem fejezi be** az M4.2-t vagy M4.3-at a 2. hét végére → a lemaradókat érdemes csendes pótlásra (önálló elmaradás-pótlásra) irányítani; ez lemaradás, nem F-peula-kiváltó (az M4.F akkor ajánlott, ha a vázlat még nem éri el a Kapu 2 küszöbét, §5);
    * ha a minikvíz átlaga (a 3. pont szerinti adatokból) nagyon alacsony → a következő képzős napon rövid „kiállás & kérdezés” ismétlő blokk (élő példákkal).
 
 ***
