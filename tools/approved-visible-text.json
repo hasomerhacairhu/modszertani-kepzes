@@ -33,8 +33,8 @@
       "sha256": "cfc94f9e367531c9a9e76ec99b174764fd42a9ee78c1a5cabf43a1b9eae6f526"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
-      "reason": "M0:QA-BIZT-1, QA-IMPL-1, QA-ERT-3, QA-PED-1, QA-NYELV-4, QA-ERT-1: a df2792d célzott QA-jának verifikált javításai (AP-2026-10-11-01)",
-      "sha256": "3fccaba86012e224f311fa60431a3af58367f33b9375b678eb8333fadba8dd98"
+      "reason": "Z:XMOD-1, M0:XMOD-2, M5:XMOD-3: a FINAL QA modulközi konzisztencia-ellenőrzésének validált findingjai (verifier, 2026-10-12)",
+      "sha256": "1692b38ccbcdeb0c46a7949e05207c767e6bda206bfc935beaf6fc1ba03e8116"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md": {
       "reason": "M0:QA-BIZT-1, QA-IMPL-1, QA-ERT-3, QA-PED-1, QA-NYELV-4, QA-ERT-1: a df2792d célzott QA-jának verifikált javításai (AP-2026-10-11-01)",
@@ -45,8 +45,8 @@
       "sha256": "445c396df5ec842e52f8aad3255ddbfdf1a870c8b61ac19cc4e25ef310ad7a91"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md": {
-      "reason": "M0:QA-BIZT-1, QA-IMPL-1, QA-ERT-3, QA-PED-1, QA-NYELV-4, QA-ERT-1: a df2792d célzott QA-jának verifikált javításai (AP-2026-10-11-01)",
-      "sha256": "acd041278037e296c907511f8b7b76dd660d314de243cdc9436c4c19fbcbed79"
+      "reason": "Z:XMOD-1, M0:XMOD-2, M5:XMOD-3: a FINAL QA modulközi konzisztencia-ellenőrzésének validált findingjai (verifier, 2026-10-12)",
+      "sha256": "48bb483f6cd60e0d124ac868dce7aac7cc93bf7423a9e082133d98ea3a9843f0"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
       "reason": "M0:ERT-1, ERT-7, ERT-9, PED-3, PED-5.obj, PED-6, PED-10, BIZT-6, BIZT-8, BIZT-10, BIZT-11, IMPL-6, IMPL-7, IMPL-8, NYELV-G1-2, G1-5, G1-6, G1-7, G1-8, G1-11, G1-12, G1-13, G1-15, G2-1.obj, G2-3, G2-4, G2-5, G2-6, G2-12, G2-14, G2-16, G2-17, G2-18 (M0.A), G2-21: validált M0 findingok javítása (AP-2026-10-11-01)",
@@ -321,12 +321,12 @@
       "sha256": "5e64ce9b68107ca733b866063f6bcf8f4923eebf3efff9d7714c3b19eb79fa04"
     },
     "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md": {
-      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
-      "sha256": "0a2fd2dc0238e6db6108262f4673e22bef5d17b626328c6de112b9cf32eec878"
+      "reason": "Z:XMOD-1, M0:XMOD-2, M5:XMOD-3: a FINAL QA modulközi konzisztencia-ellenőrzésének validált findingjai (verifier, 2026-10-12)",
+      "sha256": "784361eaea336d1167b248939383b9ca0b74b0d82c8287fbafdf851bdb231153"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
-      "sha256": "c659302b242d36696d59e74560e0f1a1c2dc80d79fa96396f45af217046df9cc"
+      "reason": "Z:XMOD-1, M0:XMOD-2, M5:XMOD-3: a FINAL QA modulközi konzisztencia-ellenőrzésének validált findingjai (verifier, 2026-10-12)",
+      "sha256": "66e27e3f02288ac0420c878b187a4bf55179d5f15a9d273ed7e2d677146855a6"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
