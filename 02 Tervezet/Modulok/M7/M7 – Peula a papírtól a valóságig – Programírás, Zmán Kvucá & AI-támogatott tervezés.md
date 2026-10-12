@@ -332,7 +332,7 @@ A modul végére a madrih…
   * egy egyszerű **fogalomtérképet** adni a modulhoz, amelyre a javító próbálkozás épülhet.
 * **Hangnem:** támogató, nem büntető – F-peula, nem pótvizsga.
 * **Rövid váz:**
-  * Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzést és azt, hol tart az M7.1–M7.4 leckékkel, és kiválasztja, melyik nem teljesült kapuelemmel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebben csak minimális, a fejlődéstámogatáshoz szükséges adat lehet, „árnyékdosszié” nélkül; megőrzése: `Adatvédelem – tanulói adatok és AI.md` §3, „Mentori 1:1 meta-napló” sor). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
+  * Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzést és azt, hol tart az M7.1–M7.4 leckékkel, és kiválasztja, melyik nem teljesült kapuelemmel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg (ebben csak minimális, a fejlődéstámogatáshoz szükséges adat lehet, „árnyékdosszié” nélkül; megőrzése: `Adatvédelem – tanulói adatok és AI.md` §3, „Mentori fejlesztési jegyzet” sor). A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
   * Csendes online munka fülessel: mindenki a saját tempójában a visszajelzés következő lépései szerint kijavítja a peula-terve érintett részét, vagy újranézi azt az 1–2 leckét, amelyhez a visszajelzésben jelzett hiány kapcsolódik; aki leckét hagyott ki, itt pótolja a javító próbálkozás előtt.
   * Fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2 összekötése közös beszélgetéssel, a név nélkül összegyűjtött kérdésekre és a visszajelzésekben jelzett hiányokra fókuszálva.
   * Zárás – híd a javító próbálkozás felé: 1 mondat arról, mire figyel majd leginkább a javító próbálkozásban (a kvízben, a Peula v2-ben vagy mindkettőben), plusz saját mini javítási terv (melyik visszajelzési pontot veszi elő, melyik leckét nézi újra).
@@ -404,7 +404,8 @@ A modul végére a madrih…
 
 * Hol lépnek ki a Course Presentationből?
 * Melyik AI-tipp slide-nál töltenek több időt (érdekli-e őket az AI-támogatás)?
-* Ez a két mutató csak akkor használható, ha az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja, hogy a Moodle rögzíti a diánkénti kilépést és a diánként eltöltött időt.
+
+Ez a két mutató csak akkor használható, ha az `LMS – H5P runtime acceptance.md` szerinti teszt igazolja, hogy a Moodle rögzíti a diánkénti kilépést és a diánként eltöltött időt.
 
 **Assignment-rubrika adatok (Peula v2 + Zmán Kvucá)**
 

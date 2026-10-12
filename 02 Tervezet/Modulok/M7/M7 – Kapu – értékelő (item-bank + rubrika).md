@@ -68,7 +68,7 @@
 - C) Strukturált (logikus-e a felépítés), Mérhető (miből látod), Alapos (mindenre kiterjed-e), Rugalmas (alakítható-e menet közben), Tervezett (előre átgondolt-e)
 - D) Specifikus (pontosan miről szól), Mérhető (miből látod), Aktivizáló (bevon-e mindenkit), Releváns (someres értékhez köt), Tartalmas (van-e mélysége)
 
-**Visszajelzés:** A SMART nem someres szlogen, hanem egy emlékeztető: **Specifikus – Mérhető – Achievable (elérhető) – Releváns – Time-bound (időhöz kötött)**. A többi sor hihető, de **téves** elemeket csempész be: ahol a „Motiváló”, az „Aktív”, a „Reális” és a „Tematikus” szerepel, ott a Specifikus mellett csak a Reális SMART-elem (az Achievable megfelelője), a Mérhető, a Releváns és a Time-bound hiányzik; ahol a „Strukturált”, az „Alapos”, a „Rugalmas” és a „Tervezett”, ott csak a Mérhető; ahol pedig az „Aktivizáló” és a „Tartalmas”, onnan az Achievable és a Time-bound hiányzik. A lényeg, hogy a peula végén tudd: tényleg megtörtént-e, amit szerettél volna. (M7.1)
+**Visszajelzés:** A SMART nem someres szlogen, hanem egy emlékeztető: **Specifikus – Mérhető – Achievable (elérhető) – Releváns – Time-bound (időhöz kötött)**. A többi sor hihető, de **téves** elemeket csempész be: ahol a „Motiváló”, az „Aktív”, a „Reális” és a „Tematikus” szerepel, ott a Specifikus mellett csak a Reális SMART-elem (az Achievable megfelelője) szerepel, a Mérhető, a Releváns és a Time-bound hiányzik; ahol a „Strukturált”, az „Alapos”, a „Rugalmas” és a „Tervezett”, ott csak a Mérhető; ahol pedig az „Aktivizáló” és a „Tartalmas”, onnan az Achievable és a Time-bound hiányzik. A lényeg, hogy a peula végén tudd: tényleg megtörtént-e, amit szerettél volna. (M7.1)
 
 #### Q2 — Vágy vs. SMART cél (Single Choice)
 
