@@ -20,14 +20,14 @@
 | Assetet tartalmazó fájl | 65 |
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 123 |
-| Szemantikus asset | **420** |
-| Produkciós deliverable | **912** |
+| Szemantikus asset | **416** |
+| Produkciós deliverable | **904** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 406 |
+| legyártandó | 402 |
 | újrahasznosítás | 8 |
 | külső forrás | 6 |
 
@@ -37,7 +37,7 @@
 |---|--:|
 | voiceover | 89 |
 | worksheet | 69 |
-| illustration | 47 |
+| illustration | 43 |
 | icon-set | 42 |
 | diagram | 38 |
 | poster | 37 |
@@ -51,8 +51,8 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 412 |
-| alt-szöveg | 130 |
+| elsődleges | 408 |
+| alt-szöveg | 126 |
 | nyomtatható PDF | 126 |
 | leirat | 112 |
 | felirat | 108 |
@@ -66,7 +66,7 @@
 | M0 | 24 |
 | M1 | 60 |
 | M2 | 49 |
-| M3 | 65 |
+| M3 | 61 |
 | M4 | 59 |
 | M5 | 30 |
 | M6 | 66 |
@@ -77,7 +77,7 @@
 
 | Státusz | Db |
 |---|--:|
-| specifikáció kész | 300 |
+| specifikáció kész | 296 |
 | jogtisztázás alatt | 119 |
 | emberi döntésre vár | 1 |
 
@@ -419,7 +419,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.2-DIA-02` | diagram | legyártandó | specifikáció kész | Leviatán – profilkártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-03` | diagram | legyártandó | specifikáció kész | 3 kulcsszó-kártya | — | alt-szöveg | AI-generált |
 | `M3.2-DIA-04` | other/ui-text | legyártandó | specifikáció kész | Korosztálytérkép minitáblázat (3 sor) | — | — | AI-generált |
-| `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke) | — | — | AI-generált |
+| `M3.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Párosító jelenet-feladat (koppintásos párosítás, 7 jelenet + 3 kvuca-címke) | — | — | AI-generált |
 | `M3.2-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes párosító változat (Multiple Choice egyválaszos módban) | — | — | AI-generált |
 | `M3.2-IKO-01` | icon-set | legyártandó | specifikáció kész | 3 kvuca ikon-készlet (🦋 🐑 🐋) | — | alt-szöveg | AI-generált |
 | `M3.2-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Parparim & Kivsza opcionális narráció | `M3.2-NAR-03-VO` | felirat, leirat | AI-generált |
@@ -436,10 +436,6 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.3-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikon-készlet – az ötlépéses jelzési út | — | alt-szöveg | AI-generált |
 | `M3.3-IKO-02` | icon-set | legyártandó | specifikáció kész | Piktogramok – Red flag példák | — | alt-szöveg | AI-generált |
 | `M3.3-IKO-03` | icon-set | legyártandó | specifikáció kész | Védelem ikon – pajzs/szív (reflexió) | — | alt-szöveg | AI-generált |
-| `M3.3-ILL-01` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 1: késő esti privát üzenet | — | alt-szöveg | AI-generált |
-| `M3.3-ILL-02` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 2: sértő mém a csoportchatben | — | alt-szöveg | AI-generált |
-| `M3.3-ILL-03` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 3: vágásnyomok táborban | — | alt-szöveg | AI-generált |
-| `M3.3-ILL-04` | illustration | legyártandó | specifikáció kész | Jelenet – Branching 4: madrih–hanih kapcsolat gyanú | — | alt-szöveg | AI-generált |
 | `M3.3-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – „Mi az a gyermekvédelem?” (öt lépés) | `M3.3-NAR-01-VO` | leirat | AI-generált |
 | `M3.3-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – Reflexió bevezető (opcionális) | `M3.3-NAR-02-VO` | leirat | AI-generált |
 | `M3.3-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – Outro / lecke lezárás | `M3.3-NAR-03-VO` | leirat | AI-generált |
@@ -458,11 +454,11 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Minikvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6) | — | — | AI-generált |
 | `M3.4-EGY-06` | other/ui-text | legyártandó | specifikáció kész | Reflexiós feladatleírás, beviteli elem nélkül – „Saját listám arról, mit teszek és mit nem” (SLIDE 5) | — | — | AI-generált |
-| `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
+| `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „M3 – Helyzetleírás” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
 | `M3.4-EGY-08` | other | legyártandó | specifikáció kész | Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret) | — | — | AI-generált |
 | `M3.4-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikon: madrih + kvuca stilizált „határvonallal” (SLIDE 2) | — | alt-szöveg | AI-generált |
 | `M3.4-IKO-02` | icon-set | legyártandó | specifikáció kész | Lista-ikon – a saját lista (mit teszek és mit nem) reflexiója (SLIDE 5) | — | alt-szöveg | AI-generált |
-| `M3.4-MUNK-01` | worksheet | legyártandó | specifikáció kész | Letölthető „Helyzetleírás red flagekkel” kitölthető sablon (doc) | — | nyomtatható PDF | emberi |
+| `M3.4-MUNK-01` | worksheet | legyártandó | specifikáció kész | Letölthető „M3 – Helyzetleírás” kitölthető sablon (doc) | — | nyomtatható PDF | emberi |
 | `M3.4-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Outro narráció (opcionális) – SLIDE 7 | `M3.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M3.4-VID-01` | video/explainer | legyártandó | jogtisztázás alatt | Hook magyarázó videó (hangalámondás + kinetikus tipográfia) – „Meddig mehetek el madrihként?” | `M3.4-VID-01-VO` | felmondott hang, felirat, leirat, alt-szöveg | AI-generált |
 
@@ -475,7 +471,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.A-IKO-01` | icon-set | legyártandó | specifikáció kész | Tuckman-szakasz ikonok (4 db) | — | alt-szöveg | AI-generált |
 | `M3.A-KART-01` | card-set | legyártandó | specifikáció kész | Tuckman-szakasz kártyaszett (4 db) | — | nyomtatható PDF | vegyes |
 | `M3.A-KART-02` | card-set | legyártandó | specifikáció kész | Kvuca-sztori kártyaszett – fix 8 db nyomtatható szett | — | nyomtatható PDF | vegyes |
-| `M3.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Megoldókulcs a képzőnek (kártya-hátlapok) | — | nyomtatható PDF | vegyes |
+| `M3.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Megoldókulcs a képzőnek | — | nyomtatható PDF | vegyes |
 | `M3.A-POSZ-01` | poster | legyártandó | specifikáció kész | Tuckman-idővonal flipchart-sablon ikonokkal | — | nyomtatható PDF | vegyes |
 
 ### 02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md

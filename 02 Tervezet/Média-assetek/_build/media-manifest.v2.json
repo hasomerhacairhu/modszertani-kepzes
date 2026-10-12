@@ -7,18 +7,18 @@
     "files_declared_asset_free": 9,
     "files_with_sources": 26,
     "sources": 123,
-    "assets": 420,
-    "deliverables": 912,
+    "assets": 416,
+    "deliverables": 904,
     "source_backed_assets": 127,
     "by_mode": {
-      "generate": 406,
+      "generate": 402,
       "reuse": 8,
       "external": 6
     },
     "by_kind": {
       "voiceover": 89,
       "worksheet": 69,
-      "illustration": 47,
+      "illustration": 43,
       "icon-set": 42,
       "diagram": 38,
       "poster": 37,
@@ -32,7 +32,7 @@
       "M0": 24,
       "M1": 60,
       "M2": 49,
-      "M3": 65,
+      "M3": 61,
       "M4": 59,
       "M5": 30,
       "M6": 66,
@@ -40,24 +40,24 @@
       "Z": 15
     },
     "by_file_kind": {
-      "online-lecke": 282,
+      "online-lecke": 278,
       "peula": 126,
       "hub": 12
     },
     "by_provenance": {
-      "ai": 277,
+      "ai": 273,
       "human": 80,
       "mixed": 57,
       "stock": 6
     },
     "by_status": {
-      "spec-ready": 300,
+      "spec-ready": 296,
       "pending-rights": 119,
       "pending-human-decision": 1
     },
     "deliverables_by_role": {
-      "primary": 412,
-      "alt-text": 130,
+      "primary": 408,
+      "alt-text": 126,
       "print-pdf": 126,
       "transcript": 112,
       "captions": 108,
@@ -577,10 +577,6 @@
         "M3.3-IKO-01",
         "M3.3-IKO-02",
         "M3.3-IKO-03",
-        "M3.3-ILL-01",
-        "M3.3-ILL-02",
-        "M3.3-ILL-03",
-        "M3.3-ILL-04",
         "M3.3-NAR-01",
         "M3.3-NAR-02",
         "M3.3-NAR-03",
@@ -2548,10 +2544,10 @@
       "id": "M3.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 869,
+      "line": 717,
       "body_lines": [
-        870,
-        873
+        718,
+        721
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2568,10 +2564,10 @@
       "id": "M3.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 993,
+      "line": 841,
       "body_lines": [
-        994,
-        999
+        842,
+        847
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -13913,16 +13909,16 @@
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke)",
+      "title": "Párosító jelenet-feladat (koppintásos párosítás, 7 jelenet + 3 kvuca-címke)",
       "purpose": "Az aktivitás tartalmi magja: jelenetek kvucához rendelése, a 3 aktuális profil alkalmazása; kapu-belépő feltétel (activity completion).",
-      "spec": "Interaktív párosító feladat H5P-ben: 7 rövid jelenet-kártya szövege + 3 kvuca-címke (Parparim, Kivsza, Leviatán), az aktualizált megoldókulccsal és visszajelzés-szövegekkel. Alapból ujjbarát, koppintásos párosítás (jelenetenként egy Multiple Choice elem egyválaszos – „Single Choice (Radio Buttons)” – módban, válaszonkénti visszajelzéssel; a húzás nélküli teljesíthetőséget a runtime acceptance-ben kell igazolni), mellette Drag & Drop. NINCS print/offline kártyaszett – kizárólag digitális H5P interakció.",
+      "spec": "Interaktív párosító feladat H5P-ben: 7 rövid jelenet-kártya szövege + 3 kvuca-címke (Parparim, Kivsza, Leviatán), az aktualizált megoldókulccsal és visszajelzés-szövegekkel. Alapból ujjbarát, koppintásos párosítás (jelenetenként egy Multiple Choice elem egyválaszos – „Single Choice (Radio Buttons)” – módban, válaszonkénti visszajelzéssel; a húzás nélküli teljesíthetőséget a runtime acceptance-ben kell igazolni); Drag & Drop mellékút nincs (LMS-2). NINCS print/offline kártyaszett – kizárólag digitális H5P interakció.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Koppintásos párosítás / H5P Drag and Drop, 7 szöveges item + 3 címke, célfelületek ≥24px, mobil-first, ujjbarát. Szöveges itemekhez alt nem szükséges."
+        "note": "Koppintásos párosítás, 7 szöveges item + 3 címke, célfelületek ≥24px, mobil-first, ujjbarát. Szöveges itemekhez alt nem szükséges."
       },
       "a11y": {
-        "note": "Húzásmentes alternatíva kötelező (lásd M3.2-EGY-02); billentyűzettel (a koppintásos úton: Tab, majd nyílbillentyűk vagy Szóköz) bejárható; szöveges kártyák, alt nem szükséges."
+        "note": "Maga a húzásmentes út (beállítás: M3.2-EGY-02); billentyűzettel (a koppintásos úton: Tab, majd nyílbillentyűk vagy Szóköz) bejárható; szöveges kártyák, alt nem szükséges."
       },
       "derivatives": [],
       "reuse_of": "",
@@ -13949,7 +13945,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "492d3a4c982e323eb1b2d03b4f82faa8a2fc567eb223e4e52ab5ccbfc6103028",
+      "spec_hash": "198b1ff95224edea9e7fb78b51fad810e3f45b539880e10ef1967b6228417e5d",
       "deliverable_ids": [
         "M3.2-EGY-01"
       ],
@@ -13971,15 +13967,15 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Húzásmentes párosító változat (Multiple Choice egyválaszos módban)",
-      "purpose": "Kapu-belépő feltétel (activity completion) miatt kötelező a11y-egyenértékű út a Drag&Drop helyett.",
-      "spec": "Húzás nélkül teljesíthető párosító változat: minden jelenethez rádiógombos kvuca-választás (Parparim/Kivsza/Leviatán) – jelenetenként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`); legördülős kitöltés Course Presentationben nem érhető el. Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) végigvihető, célfelületek ≥24px, a visszajelzés megegyezik a húzós verzióéval; önmagában is completiont kell adnia (a mechanizmust a runtime acceptance-ben kell igazolni).",
+      "purpose": "Kapu-belépő feltétel (activity completion) miatt kötelező húzásmentes út; a Drag & Drop mellékút az LMS-2 döntéssel kikerült.",
+      "spec": "Húzás nélkül teljesíthető párosító változat: minden jelenethez rádiógombos kvuca-választás (Parparim/Kivsza/Leviatán) – jelenetenként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`); legördülős kitöltés Course Presentationben nem érhető el. Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) végigvihető, célfelületek ≥24px, a visszajelzés a SLIDE 6 visszajelzés-mintáit követi; a lecke completionje a CP összefoglaló diájának elérése (BSPEC-06, ERT-1), a megválaszolatlan jelenetek esetét a runtime acceptance negatív tesztje rögzíti.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "H5P Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`), billentyűzettel navigálható, célfelület ≥24px, azonos visszajelzés, mint a húzós verzióban; a pontozást és a completiont a runtime acceptance-ben kell igazolni."
+        "note": "H5P Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`), billentyűzettel navigálható, célfelület ≥24px; a pontozást és a completiont a runtime acceptance-ben kell igazolni."
       },
       "a11y": {
-        "note": "Maga is hozzáférhetőségi alternatíva; tartalmilag azonos a húzós feladattal."
+        "note": "Ez maga a húzásmentes út; tartalmilag azonos az M3.2-EGY-01 párosító feladattal."
       },
       "derivatives": [],
       "reuse_of": "",
@@ -13991,7 +13987,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Az M3.2-EGY-01 párosító feladat a11y-ekvivalens változata; ugyanazokat a jeleneteket és visszajelzéseket használja.",
+      "notes": "Az M3.2-EGY-01 párosító feladat húzásmentes beállítása; ugyanazokat a jeleneteket és visszajelzéseket használja (a Drag & Drop mellékút az LMS-2 döntéssel kikerült).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -14006,7 +14002,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "7f61535600aa681ccb9627bfbdef0bf48200f3a5824cd18e145f9dd5be96df66",
+      "spec_hash": "e0a2f1d1768bf46fbeaa2b9e5912133c994b72693293fe042103c60a27bf126f",
       "deliverable_ids": [
         "M3.2-EGY-02"
       ],
@@ -14532,7 +14528,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 761,
+      "line": 609,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14589,270 +14585,6 @@
         ],
         "asset": [
           "M3.3-IKO-03"
-        ]
-      }
-    },
-    {
-      "id": "M3.3-ILL-01",
-      "unit": "M3.3",
-      "module": "M3",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 422,
-      "kind": "illustration",
-      "subtype": "",
-      "mode": "generate",
-      "status": "spec-ready",
-      "title": "Jelenet – Branching 1: késő esti privát üzenet",
-      "purpose": "A döntéshelyzet vizuális kontextualizálása a Branching Scenarióban",
-      "spec": "Illusztratív jelenet/képernyő a Branching node-hoz: este 23:15, mobiltelefonon érkező privát üzenet egy hanihtól, aki rosszul van és titoktartást kér. Hangulat: este, magányos, nem rémisztő.",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
-      "technical": {
-        "note": "Állókép, 16:9 vagy a Branching node arányához igazítva, magyar UI-utalás"
-      },
-      "a11y": {
-        "visual": "informative",
-        "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Alt-szöveg szükséges (M3.3-ILL-01::ALTTEXT)"
-      },
-      "derivatives": [
-        "alt-text"
-      ],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [],
-      "production_rules": [
-        "R1",
-        "R5"
-      ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "Branching Scenario H5P interaktív elem (a döntési logika/szöveg nem gyártandó asset). Alt: M3.3-ILL-01::ALTTEXT.",
-      "review": "",
-      "release_phase": "",
-      "fallback": "",
-      "fallback_final": false,
-      "source_ref": "",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [],
-      "source_text": "",
-      "source_hash": "",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "",
-      "spec_hash": "0b4286bf5023ccdb0e914e430768663874310fd03195e253b3e0ae2c83e043d3",
-      "deliverable_ids": [
-        "M3.3-ILL-01",
-        "M3.3-ILL-01::ALTTEXT"
-      ],
-      "legacy": {
-        "alt-text": [
-          "M3.3-ALT-04"
-        ],
-        "asset": [
-          "M3.3-ILL-01"
-        ]
-      }
-    },
-    {
-      "id": "M3.3-ILL-02",
-      "unit": "M3.3",
-      "module": "M3",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 460,
-      "kind": "illustration",
-      "subtype": "",
-      "mode": "generate",
-      "status": "spec-ready",
-      "title": "Jelenet – Branching 2: sértő mém a csoportchatben",
-      "purpose": "Az online zaklatás red flag helyzet vizuális kontextusa",
-      "spec": "Illusztratív jelenet a csoportchat-helyzethez: egy sértő mém üzenetfolyamban, többen nevetnek (reakciók), az érintett hanih hallgat. Online zaklatás vizuális megjelenítése, érzékenyen, konkrét személyt nem beazonosíthatóan.",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
-      "technical": {
-        "note": "Állókép, chat-UI stílus, magyar nyelvű buborékokkal"
-      },
-      "a11y": {
-        "visual": "informative",
-        "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Alt-szöveg szükséges (M3.3-ILL-02::ALTTEXT)"
-      },
-      "derivatives": [
-        "alt-text"
-      ],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [],
-      "production_rules": [
-        "R1",
-        "R5"
-      ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "Alt: M3.3-ILL-02::ALTTEXT",
-      "review": "",
-      "release_phase": "",
-      "fallback": "",
-      "fallback_final": false,
-      "source_ref": "",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [],
-      "source_text": "",
-      "source_hash": "",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "",
-      "spec_hash": "89b477085bbf1892e391c2fa565522c6d73dd4caa62e7bd54e159f494e9aaf70",
-      "deliverable_ids": [
-        "M3.3-ILL-02",
-        "M3.3-ILL-02::ALTTEXT"
-      ],
-      "legacy": {
-        "alt-text": [
-          "M3.3-ALT-05"
-        ],
-        "asset": [
-          "M3.3-ILL-02"
-        ]
-      }
-    },
-    {
-      "id": "M3.3-ILL-03",
-      "unit": "M3.3",
-      "module": "M3",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 599,
-      "kind": "illustration",
-      "subtype": "",
-      "mode": "generate",
-      "status": "spec-ready",
-      "title": "Jelenet – Branching 3: vágásnyomok táborban",
-      "purpose": "Az önsértés red flag helyzet kontextualizálása, érzékeny módon",
-      "spec": "Illusztratív, érzékeny jelenet: tábori játékhelyzet, ahol a madrih észreveszi egy hanih karján a régebbi vágásnyomokat. Visszafogott ábrázolás, nem grafikus/triggerelő; a fókusz a felismerésen és a feszültségen.",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
-      "technical": {
-        "note": "Állókép, finom, nem explicit ábrázolás, a Branching node arányához igazítva"
-      },
-      "a11y": {
-        "visual": "informative",
-        "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Alt-szöveg szükséges (M3.3-ILL-03::ALTTEXT); tartalmi érzékenység jelzése"
-      },
-      "derivatives": [
-        "alt-text"
-      ],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [],
-      "production_rules": [
-        "R1",
-        "R5"
-      ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "Alt: M3.3-ILL-03::ALTTEXT. A Memuna (gyermekvédelmi felelős, lektor) írásos átnézése (QA, a release-jegyzőkönyvben) az ábrázolás érzékenységére (vö. a lecke elején álló gyermekvédelmi lektorálási követelménnyel).",
-      "review": "",
-      "release_phase": "",
-      "fallback": "",
-      "fallback_final": false,
-      "source_ref": "",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [],
-      "source_text": "",
-      "source_hash": "",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "",
-      "spec_hash": "29cc65647be578230b643ae4e90b56db3be90c3533ad572c27b361756f81f9af",
-      "deliverable_ids": [
-        "M3.3-ILL-03",
-        "M3.3-ILL-03::ALTTEXT"
-      ],
-      "legacy": {
-        "alt-text": [
-          "M3.3-ALT-06"
-        ],
-        "asset": [
-          "M3.3-ILL-03"
-        ]
-      }
-    },
-    {
-      "id": "M3.3-ILL-04",
-      "unit": "M3.3",
-      "module": "M3",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 637,
-      "kind": "illustration",
-      "subtype": "",
-      "mode": "generate",
-      "status": "spec-ready",
-      "title": "Jelenet – Branching 4: madrih–hanih kapcsolat gyanú",
-      "purpose": "A madrih–hanih határátlépés mint súlyos red flag vizuális kontextualizálása",
-      "spec": "Illusztratív jelenet: táborban egy madrih és egy hanih feltűnően sok négyszemközti, összebújós időt tölt – határátlépés-gyanú vizuális jelzése. Érzékeny, nem szenzációhajhász ábrázolás.",
-      "provenance": "ai",
-      "provenance_note": "AI-generált",
-      "technical": {
-        "note": "Állókép, a Branching node arányához igazítva"
-      },
-      "a11y": {
-        "visual": "informative",
-        "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Alt-szöveg szükséges (M3.3-ILL-04::ALTTEXT)"
-      },
-      "derivatives": [
-        "alt-text"
-      ],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [],
-      "production_rules": [
-        "R1",
-        "R5"
-      ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "Alt: M3.3-ILL-04::ALTTEXT. A Memuna (gyermekvédelmi felelős, lektor) írásos átnézése (QA, a release-jegyzőkönyvben).",
-      "review": "",
-      "release_phase": "",
-      "fallback": "",
-      "fallback_final": false,
-      "source_ref": "",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [],
-      "source_text": "",
-      "source_hash": "",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "",
-      "spec_hash": "31433948c1867adef4279a39725f74d1223d2b73a182c88f41734d9776b53343",
-      "deliverable_ids": [
-        "M3.3-ILL-04",
-        "M3.3-ILL-04::ALTTEXT"
-      ],
-      "legacy": {
-        "alt-text": [
-          "M3.3-ALT-07"
-        ],
-        "asset": [
-          "M3.3-ILL-04"
         ]
       }
     },
@@ -14933,7 +14665,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 799,
+      "line": 647,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14975,8 +14707,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        870,
-        873
+        718,
+        721
       ],
       "source_text": "„Itt most nincs jó vagy rossz válasz.\nElég, ha 1–2 mondatban leírsz valamit, amit magaddal vinnél ebből a leckéből.”",
       "source_hash": "6346f55118ff39e9717736e32c209f3c47456320e7065b2208b9fa9cf188cd2f",
@@ -15004,7 +14736,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 880,
+      "line": 728,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -15046,8 +14778,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        994,
-        999
+        842,
+        847
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy alap térképed arról, mi az a red flag, és mi a dolgod madrihként.\nA következő részben konkrétan végigvesszük, **mit tegyél és mit ne tegyél**,\nhogy még egyértelműbb legyen, mi fér bele és mi az, ami már veszélyes.”",
       "source_hash": "d8fa9e5a80997c3a39409d1200f4b2f3d21099bdb1b8ba1fbf46cc6c0438ce7f",
@@ -15251,7 +14983,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A Hook videóval (M3.4-VID-01) egy slide-on; emoji-k dekoratívak, külön ikon-asset nem kell.",
+      "notes": "A Hook videóval (M3.4-VID-01) egy slide-on; emoji-k dekoratívak, külön ikon-asset nem kell. Érzelmi önjelzés (ADV-4): nem pontozott, nem completion-elem, és lehetőleg nem rögzül a követett próbálkozásban; hogy rögzül-e, azt a célverzión (próbálkozás-riport, xAPI/LRS, mentett állapot, szerepkörök) vissza kell olvasni, és ennek alapján kell a tárolásmentes megoldást kiválasztani.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -15403,7 +15135,7 @@
       "status": "spec-ready",
       "title": "Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4)",
       "purpose": "LMS a11y-sztenderd: a kapus completion ne csak drag & drop-pal legyen teljesíthető.",
-      "spec": "Ugyanaz a 8–10 (ténylegesen 10) helyzetkártya húzás nélkül is teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) befejezhető, célfelületek ≥24px, per-kártya visszajelzés azonos a húzós verzióval; önmagában is completiont kell adnia (a mechanizmust a runtime acceptance-ben kell igazolni).",
+      "spec": "Ugyanaz a 8–10 (ténylegesen 10) helyzetkártya húzás nélkül is teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) befejezhető, célfelületek ≥24px, per-kártya visszajelzés azonos a húzós verzióval; a lecke completionje a CP összefoglaló diájának elérése (BSPEC-06, ERT-1), a megválaszolatlan kártyák esetét a runtime acceptance negatív tesztje rögzíti.",
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
@@ -15437,7 +15169,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "86b71f6b9ef3fe470836b3e349cc9c37d27fed21d414002d735d6221ef4fcc76",
+      "spec_hash": "a954a93cec608387aa87e2212977d7c05609fcd9e88f2f2a41e29c49b08aa430",
       "deliverable_ids": [
         "M3.4-EGY-04"
       ],
@@ -15572,13 +15304,13 @@
       "subtype": "moodle-activity",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum)",
+      "title": "Moodle Assignment-sablon – „M3 – Helyzetleírás” (SLIDE 7 / modulproduktum)",
       "purpose": "Modulproduktum-feladat egyértelmű, kitölthető sablonja; a tanultak (mit tegyél és mit ne, red flagek) alkalmazása egy kitalált, de életszerű helyzeten.",
       "spec": "Moodle Assignment feladatszöveg/sablon konfigurálása: max. 8–10 mondatos helyzetleírás 5 vezetett kérdéssel (1. hol játszódik; 2. kvuca-típus – Parparim/Kivsza/Leviatán/vegyes; 3. mi történik; 4. red flagek/határproblémák, legalább egy red flag; 5. felelős madrih első lépése), plusz a SLIDE 7 sorrend-tippje (💡 „Tipp a sorrendhez”), a kapu tétjét közlő 📌 blokk és a záró bátorítás (💡). A modulproduktum leadási felülete.",
       "provenance": "ai",
       "provenance_note": "AI-generált (Moodle Assignment konfiguráció)",
       "technical": {
-        "note": "Moodle Assignment, magyar feladatleírás + sablon; beadás: Online text ON és File submissions ON (a kitöltött M3.4-MUNK-01 sablon feltöltéséhez; a két út egyenértékű, Program terv §5); a biztonságos megosztás kikötése: csak kitalált, életszerű helyzet, valós eset névtelenítve sem (lásd a Moodle intro „Biztonságos megosztás” blokkját és a sablon adatkímélő mondatát)"
+        "note": "Moodle Assignment, magyar feladatleírás + sablon; beadás: Online text ON és File submissions ON (a kitöltött M3.4-MUNK-01 sablon feltöltéséhez; a két út egyenértékű, Program terv §5); a fájlos út alapból legfeljebb 1 fájl, az elfogadott fájltípusok a sablon akadálymentes formátumaihoz igazodnak (például .docx, .odt, .pdf), kép- vagy képernyőkép-feltöltés nem szükséges és nem ösztönzött; a beállítást és az akadálymentességet a cél-Moodle-ön ellenőrizni kell (LMS-1); a biztonságos megosztás kikötése: csak kitalált, életszerű helyzet, valós eset névtelenítve sem (lásd a Moodle intro „Biztonságos megosztás” blokkját és a sablon adatkímélő mondatát)"
       },
       "a11y": {
         "note": "Szöveges feladatleírás, szövegmező; világos struktúra címsorokkal"
@@ -15608,7 +15340,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2e125d3781c2267d2df57dbe9a2fa5606cb8401c447df840dfbabcd9b2c834b9",
+      "spec_hash": "a53729571a343670307a93bfac5ab2cca7370712d36564ba7ad4863ca7ee592f",
       "deliverable_ids": [
         "M3.4-EGY-07"
       ],
@@ -15631,7 +15363,7 @@
       "status": "spec-ready",
       "title": "Moodle intro Label/oldal – „0. lépés” a lecke előtt (lecke-keret)",
       "purpose": "A lecke biztonságos, gyermekvédelmi keretének és a self-disclosure korlátainak előzetes felállítása; orientáció és elakadás-támogatás belépés előtt.",
-      "spec": "Moodle Label/oldal szövegének konfigurálása a lecke előtt: lecke-bevezető (mit csinál egy biztonságos madrih, lista arról, mit tegyél és mit ne + modulproduktum előkészítése), fókuszmondat (💡), a „Ha ez a téma téged is érint” támogató blokk (⚠️), technikai+tartalmi segítség-pointer M0.3/„Segítség és kapcsolatok” blokk/mentor/M3.F (🛟), és a kritikus „Biztonságos megosztás” adatvédelmi/önfeltárási blokk (🔒 – a SLIDE 5 listát a tanuló magának írja le, nem adja be; a modulproduktum-helyzet nem nyilvános, legfeljebb a kijelölt mentor/értékelő látja; csak kitalált, életszerű helyzet, valós eset névtelenítve sem; valós red flag esetet azonnal a Memunának jelezni).",
+      "spec": "Moodle Label/oldal szövegének konfigurálása a lecke előtt: lecke-bevezető (mit csinál egy biztonságos madrih, lista arról, mit tegyél és mit ne + modulproduktum előkészítése), fókuszmondat (💡), a „Ha ez a téma téged is érint” támogató blokk (⚠️), technikai+tartalmi segítség-pointer M0.3/„Segítség és kapcsolatok” blokk/mentor/M3.F (🛟), és a kritikus „Biztonságos megosztás” adatvédelmi/önfeltárási blokk (🔒 – a SLIDE 5 listát a tanuló magának írja le, nem adja be; a modulproduktum-helyzet nem nyilvános: a kijelölt értékelő olvassa, második vagy fellebbezési értékelő csak konkrét eljárásnál, a Memuna szükség esetén (ADV-2); csak kitalált, életszerű helyzet, valós eset névtelenítve sem; valós red flag esetet azonnal a Memunának jelezni).",
       "provenance": "ai",
       "provenance_note": "AI-generált (Moodle Label/oldal konfiguráció)",
       "technical": {
@@ -15665,7 +15397,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "221615bce397249caee9dd3f200d64d80744a8a131205f886e3a5b47320cf402",
+      "spec_hash": "eaac8ac16efa001f37ee23a2ac650e5d18217adea1bdf37a0da77d0e63979a63",
       "deliverable_ids": [
         "M3.4-EGY-08"
       ],
@@ -15815,13 +15547,13 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Letölthető „Helyzetleírás red flagekkel” kitölthető sablon (doc)",
+      "title": "Letölthető „M3 – Helyzetleírás” kitölthető sablon (doc)",
       "purpose": "Az M3 kapu helyzetleírásának (LMS-M3-05) fájlalapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével adja le a helyzetleírást. A két út egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
       "spec": "Kitölthető sablon doc formátumban, kizárólag a SLIDE 7 „Assignment-sablon (Moodle-feladat szövegéhez)” tanulói szövegével, szó szerint: a bevezető bekezdés (a valódi név és a valós eset tilalmával és a Memunára vonatkozó mondattal együtt), majd az 5 vezetett kérdés az alpontjaival, mindegyik után kitöltési hellyel. A dőlt „Képzői/fejlesztői jegyzet” nem tanulói szöveg, nem kerül bele. Új mező, minta vagy útmutató szöveg nem kerül bele.",
       "provenance": "human",
       "provenance_note": "",
       "technical": {
-        "note": "Szerkeszthető dokumentum: Google Doc (csak szervezeti fiókban, korlátozott megosztással) és/vagy .docx; A4 nyomtatható elrendezés is; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
+        "note": "Szerkeszthető dokumentum: .docx; Google Doc csak szervezeti fiókkal, adatfeldolgozói és hozzáférési felülvizsgálat után (ADV-10); A4 nyomtatható elrendezés is; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
       },
       "a11y": {
         "note": "Valódi szöveges dokumentum (nem kép), címsorokkal és megjelölt kitöltési helyekkel, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva."
@@ -15853,7 +15585,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "467a66111725e2e979a5387df538210e0c65a9d0a0479a5a32f5a8e1222a2e53",
+      "spec_hash": "d7fb563aac5e83fc49a7785178859b279e24794b1f98529befe3df73e70af182",
       "deliverable_ids": [
         "M3.4-MUNK-01",
         "M3.4-MUNK-01::PRINTPDF"
@@ -16156,18 +15888,18 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md",
-      "line": 315,
+      "line": 317,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Kvuca-sztori kártyaszett – fix 8 db nyomtatható szett",
       "purpose": "A kiscsoportok minden kártyánál kettőt tippelnek (kvuca-típus + Tuckman-szakasz); ez köti össze a kvuca-profilokat a fejlődési szakaszokkal.",
-      "spec": "8 db rövid (max. 4–5 soros) kvuca-történet kártya, mindegyiken egy konkrét helyzet leírása. A fix szett: 1) Parparim – tábor 2. napja, 2) Kivsza – kenben pár hét után, 3) Leviatán – év eleji stáb, 4) idősebb Leviatán – projekt tervezése, 5) Parparim – harmadik peula (sírás/lökdösődés), 6) Kivsza – félév közepe (telefonos doboz), 7) Leviatán – első találkozás, 8) idősebb Leviatán – „ki vigye a projektet?” (ráadáskártya; történet-szövege a forrásban a megoldókulcs-táblázat 8. sorában megvan, de a nyomtatott kártya előlapjára kézzel kell ráírni). A kártyák előlapján csak a történet; a kvuca-típus és Tuckman-szakasz a megoldás, nem látszik az előlapon.",
+      "spec": "8 db rövid (max. 4–5 soros) kvuca-történet kártya, mindegyiken egy konkrét helyzet leírása. A fix szett: 1) Parparim – tábor 2. napja, 2) Kivsza – kenben pár hét után, 3) Leviatán – év eleji kvuca, 4) idősebb Leviatán – projekt tervezése, 5) Parparim – harmadik peula (sírás/lökdösődés), 6) Kivsza – félév közepe (telefonos doboz), 7) Leviatán – első találkozás, 8) idősebb Leviatán – „ki vigye a projektet?” (ráadáskártya; történet-szövege a forrásban a megoldókulcs-táblázat 8. sorában megvan, de a nyomtatott kártya előlapjára kézzel kell ráírni). A kártyákon csak a történet áll; a kvuca-típus és a Tuckman-szakasz a megoldás, amely a képzői megoldókulcsban (M3.A-MUNK-01) van, a kártyán nem látszik.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "8 db nyomtatható kártya, kétoldalas (előlap: történet; hátlap: megoldás), A6/kártyaméret, magyar nyelv. A 8. (ráadás) kártya előlapját üres történet-mezővel kell nyomtatni, hogy a megoldókulcs-táblázat 8. sorában megadott szöveget kézzel rá lehessen írni."
+        "note": "8 db nyomtatható kártya, egyoldalas (csak a történet; a megoldás a képzői megoldókulcsban, M3.A-MUNK-01), A6/kártyaméret, magyar nyelv. A 8. (ráadás) kártya előlapját üres történet-mezővel kell nyomtatni, hogy a megoldókulcs-táblázat 8. sorában megadott szöveget kézzel rá lehessen írni."
       },
       "a11y": {
         "note": "Olvasható tipográfia; szöveges fizikai eszköz, alt-szöveg nem releváns."
@@ -16185,7 +15917,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A teljes verbatim történetek a forrásban (4.3: a példakártya és az ötletbank) és a megoldókulcs-táblázatban megtalálhatók. Hátoldal/megoldás = M3.A-MUNK-01.",
+      "notes": "A teljes verbatim történetek a forrásban (4.3: a példakártya és az ötletbank) és a megoldókulcs-táblázatban megtalálhatók. Megoldás = M3.A-MUNK-01 (a képzőnél).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -16200,7 +15932,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "54b87d0238f64da659bd9d3ca36761ec36faf9f4620165f585a59065f115d1d6",
+      "spec_hash": "e3bb880d7c6c0639a76100b6c75040ebbee23a0fb7875555ca684fef65a0a5c7",
       "deliverable_ids": [
         "M3.A-KART-02",
         "M3.A-KART-02::PRINTPDF"
@@ -16217,18 +15949,18 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md",
-      "line": 348,
+      "line": 350,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Megoldókulcs a képzőnek (kártya-hátlapok)",
+      "title": "Megoldókulcs a képzőnek",
       "purpose": "A képző tudja levezetni a közös átbeszélést, kezelni a téves tippeket és kimondani, hogy a jelolvasás a cél, nem a tökéletes besorolás.",
       "spec": "Képzői megoldókulcs/segédlet a 8 kártyához: minden kártyához kanonikus típus+szakasz besorolás (pl. Parparim/Forming), rövid indoklás „miért ez a jó válasz”, és a gyakori téves tipp. Külön kiemelve (4.3: a kész kártyaszett leírása és a táblázat utáni két doboz): a kulcs irány, nem dogma; több érvényes olvasat lehet, a cél a jelolvasás; valamint a „Storming vagy kortárs bántalmazás?” elhatárolás: a storming („balhék”) kölcsönös csoportkonfliktus, amelyben a csoport a szabályokat, a pozíciókat és a határokat egyezteti; a kortárs bántalmazás (bullying) célzott, bántó dinamika, amely jellemzően ismétlődik vagy ismétlődhet, és erőfölényen alapul; ha valaki veszélyben van, azt nem kezeljük „normális stormingként”. Az 5. kártya „Határ” mondata erre az elhatárolásra utal. A 8. (ráadás) kártya rá-írandó történet-szövegét is tartalmazza.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "1 oldalas nyomtatható képzői segédlet (vagy a kártyák hátoldalára nyomtatott megoldások), magyar nyelv."
+        "note": "1 oldalas nyomtatható képzői segédlet, magyar nyelv; a megoldás nem kerül a kártyák hátoldalára."
       },
       "a11y": {
         "note": "Szöveges fizikai eszköz; alt-szöveg nem releváns."
@@ -16246,7 +15978,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Funkcionálisan az M3.A-KART-02 kártyák hátoldala / kísérő lapja.",
+      "notes": "Funkcionálisan az M3.A-KART-02 kártyák kísérő lapja, a képzőnél.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -16261,7 +15993,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2e591e54011f504ccf53443c9c6fed405935fd12241e1e11f35c6df0ff1d335c",
+      "spec_hash": "4f3ef0eb6ad6c0eb6a4e1385ff6562502aa31932e828a0c7b81499b14ae00345",
       "deliverable_ids": [
         "M3.A-MUNK-01",
         "M3.A-MUNK-01::PRINTPDF"
@@ -16346,7 +16078,7 @@
       "status": "spec-ready",
       "title": "Esetkártyák (4 db red flag eset)",
       "purpose": "Esetelemzés alapja: a kiscsoportok ezekből dolgoznak fel red flag helyzeteket, ez adja a peula 2. blokkjának (4.2) gerincét.",
-      "spec": "4 db nyomtatott esetkártya, egyenként 1-1 red flag esettel, a jelenlegi lecke (4.2.2) szövegével szó szerint: (1) Késő esti privát üzenet – egy hanih azt írja: „Nagyon rosszul vagyok, de ezt csak neked mondhatom el, senki más nem tudhatja.”; (2) Online csúfolódás – a kvuca csoportchatjében megalázó mém készül egy hanihról, az érintett nem reagál; (3) Önsértésre utaló jelek – játék közben vágásnyomokat vesz észre egy madrih, a hanih viccel elüti a kérdést; (4) Madrih–hanih viszony, ami párkapcsolat-gyanús – sok külön töltött idő, ölelkezés, titkolózás: „Ezt ne mondjuk el senkinek.” A 4. esetet hordozó kártya csak nagy létszámnál kerül kiosztásra (alapból 3 csoport).",
+      "spec": "4 db nyomtatott esetkártya, egyenként 1-1 red flag esettel, a jelenlegi lecke (4.2.2) szövegével szó szerint: (1) Késő esti privát üzenet – egy hanih azt írja: „Nagyon rosszul vagyok, de ezt csak neked mondhatom el, senki más nem tudhatja.”; (2) Online csúfolódás – a kvuca csoportchatjében megalázó mém készül egy hanihról, az érintett nem reagál; (3) Önsértésre utaló jelek – játék közben vágásnyomokat vesz észre egy madrih, a hanih viccel elüti a kérdést; (4) Madrih–hanih viszony, ami párkapcsolat-gyanús – sok külön töltött idő, ölelkezés, titkolózás: „Ezt ne mondjuk el senkinek.” A 4. esetet hordozó kártya a 4.2-ben csak nagy létszámnál kerül kiosztásra (alapból 3 csoport); alapból ez a 4.3.3 gyors alkalmazásának előre megírt, fiktív esete.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -16382,7 +16114,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "3c5fc2978b5c619ae26e2a7c251fe333227d3ba698d11fe4f993301c06af19d1",
+      "spec_hash": "099ab8dbfde0335e1892c23988d068b095c050be75c86f88ac889a30a684ffee",
       "deliverable_ids": [
         "M3.B-KART-01",
         "M3.B-KART-01::PRINTPDF"
@@ -16705,7 +16437,7 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md",
-      "line": 119,
+      "line": 120,
       "kind": "print",
       "subtype": "consumable",
       "mode": "external",
@@ -16763,7 +16495,7 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md",
-      "line": 293,
+      "line": 294,
       "kind": "print",
       "subtype": "consumable",
       "mode": "external",
@@ -16821,7 +16553,7 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md",
-      "line": 209,
+      "line": 210,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -16882,7 +16614,7 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md",
-      "line": 500,
+      "line": 501,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -16943,14 +16675,14 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md",
-      "line": 148,
+      "line": 149,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Tájékozódó tábla – M3 leckelista + név nélküli témakérések",
       "purpose": "Közös, nem személyre szóló segédeszköz a Blokk 1-beli privát állapotfelméréshez: áttekintő térkép a modul leckéiről (a képző hangosan is felolvassa), mellette hely a név nélküli témakérés-cetliknek. Senkinek a saját haladása nem kerül ki rá.",
-      "spec": "Flipchart-/poszter-sablon az M3 leckelistával, 4 sorban: L1 – Tuckman – csoportélet szakaszai; L2 – 3 kvuca-profil (Parparim, Kivsza, Leviatán); L3 – Gyermekvédelem 101 – red flag & első lépés; L4 – Do / Don't madrihként – határok & felelősség; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M3” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
+      "spec": "Flipchart-/poszter-sablon az M3 leckelistával, 4 sorban: L1 – Tuckman – csoportélet szakaszai; L2 – 3 kvuca-profil (Parparim, Kivsza, Leviatán); L3 – Gyermekvédelem 101 – red flag & első lépés; L4 – Mit tegyél, mit ne tegyél madrihként? – határok & felelősség; mellette elkülönített sáv „Miben kérsz ma segítséget?” felirattal a név nélküli témakérés-cetliknek. Nincs matricahely, személyenkénti jelölés vagy „Kész az M3” állapotsor – a saját haladását mindenki maga nézi meg a Moodle-ben.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -16987,7 +16719,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e8eddb1fea8b30a16566286bca984f67580e6a28fb5139e904de4f0089b2b1e7",
+      "spec_hash": "bd39bd2eb0672ef230a37b8edb13154c2c19ea689a1c97018d5fe75e740a9834",
       "deliverable_ids": [
         "M3.F-POSZ-01",
         "M3.F-POSZ-01::PRINTPDF"
@@ -17004,7 +16736,7 @@
       "module": "M3",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md",
-      "line": 322,
+      "line": 323,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -39129,7 +38861,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
       "file_kind": "online-lecke",
-      "title": "Párosító jelenet-feladat (koppintásos párosítás / H5P Drag and Drop, 7 jelenet + 3 kvuca-címke)",
+      "title": "Párosító jelenet-feladat (koppintásos párosítás, 7 jelenet + 3 kvuca-címke)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -39641,174 +39373,6 @@
       "readiness_issues": []
     },
     {
-      "id": "M3.3-ILL-01",
-      "asset_id": "M3.3-ILL-01",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 1: késő esti privát üzenet",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.3-ILL-01::ALTTEXT",
-      "asset_id": "M3.3-ILL-01",
-      "role": "alt-text",
-      "role_label": "alt-szöveg",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 1: késő esti privát üzenet — alt-szöveg",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.3-ILL-02",
-      "asset_id": "M3.3-ILL-02",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 2: sértő mém a csoportchatben",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.3-ILL-02::ALTTEXT",
-      "asset_id": "M3.3-ILL-02",
-      "role": "alt-text",
-      "role_label": "alt-szöveg",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 2: sértő mém a csoportchatben — alt-szöveg",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.3-ILL-03",
-      "asset_id": "M3.3-ILL-03",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 3: vágásnyomok táborban",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.3-ILL-03::ALTTEXT",
-      "asset_id": "M3.3-ILL-03",
-      "role": "alt-text",
-      "role_label": "alt-szöveg",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 3: vágásnyomok táborban — alt-szöveg",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.3-ILL-04",
-      "asset_id": "M3.3-ILL-04",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 4: madrih–hanih kapcsolat gyanú",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
-      "id": "M3.3-ILL-04::ALTTEXT",
-      "asset_id": "M3.3-ILL-04",
-      "role": "alt-text",
-      "role_label": "alt-szöveg",
-      "kind": "illustration",
-      "subtype": "",
-      "unit": "M3.3",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "file_kind": "online-lecke",
-      "title": "Jelenet – Branching 4: madrih–hanih kapcsolat gyanú — alt-szöveg",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
       "id": "M3.3-NAR-01",
       "asset_id": "M3.3-NAR-01",
       "role": "primary",
@@ -40251,7 +39815,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
       "file_kind": "online-lecke",
-      "title": "Moodle Assignment-sablon – „Helyzetleírás red flagekkel” (SLIDE 7 / modulproduktum)",
+      "title": "Moodle Assignment-sablon – „M3 – Helyzetleírás” (SLIDE 7 / modulproduktum)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -40377,7 +39941,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
       "file_kind": "online-lecke",
-      "title": "Letölthető „Helyzetleírás red flagekkel” kitölthető sablon (doc)",
+      "title": "Letölthető „M3 – Helyzetleírás” kitölthető sablon (doc)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -40398,7 +39962,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
       "file_kind": "online-lecke",
-      "title": "Letölthető „Helyzetleírás red flagekkel” kitölthető sablon (doc) — nyomtatható PDF",
+      "title": "Letölthető „M3 – Helyzetleírás” kitölthető sablon (doc) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -40737,7 +40301,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md",
       "file_kind": "peula",
-      "title": "Megoldókulcs a képzőnek (kártya-hátlapok)",
+      "title": "Megoldókulcs a képzőnek",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
@@ -40758,7 +40322,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md",
       "file_kind": "peula",
-      "title": "Megoldókulcs a képzőnek (kártya-hátlapok) — nyomtatható PDF",
+      "title": "Megoldókulcs a képzőnek — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "mixed",
