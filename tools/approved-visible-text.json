@@ -5,8 +5,8 @@
       "sha256": "4457dd194272fe6cb2a49f94471383019c459d56582bd456c49855fec1f5a43a"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
-      "sha256": "43de1775de11ea4ef88e800716e93c638a79568487badd3ad53520884e277ca1"
+      "reason": "Projektgazdai döntés 2026-10-12 (GYV-1…GYV-23, ADV-1…ADV-15, JOG-1, TERM-1…TERM-8, ERT-1…ERT-50, PRG-1…PRG-17, LMS-1…LMS-8, VO-1, TECH-1, TECH-2): a 125 döntés kánoni átvezetése, Emberi jóváhagyás szükséges.md 14. szakasz",
+      "sha256": "73b28ede5232967e3e3c00481ef6ce5611e25675d7deca28c00f7565300249e1"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
