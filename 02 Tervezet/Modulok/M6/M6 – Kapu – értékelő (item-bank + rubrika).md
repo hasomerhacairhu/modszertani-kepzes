@@ -162,7 +162,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 - D – Az energizer nem szolgálja a célt (komoly téma elindítása); legfeljebb hangulatra jó.
 
 **Visszajelzés:**
-> ✅ Az idősebb Leviatánoknál a felelősségtéma jó belépője az esetleírás/történet több nézőponttal: kívülről ránéznek, nem kell rögtön magukat kiteregetni, és marad tér az árnyalatokra. (M6.4, záró oldal; részletesen: a D. szcenárió)
+> ✅ Az idősebb Leviatánoknál a felelősségtéma jó belépője az esetleírás/történet több nézőponttal: kívülről ránéznek, nem kell rögtön magukat kiteregetni, és marad tér az árnyalatokra. (M6.4, záró oldal; részletesen: az idősebb Leviatán-kvuca helyzete)
 
 ---
 
@@ -389,7 +389,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 >
 > **Stábdöntés a blokkoló sorokon (kötelező):** a két blokkoló sor (**R4 Biztonság** és **R5 Inkluzivitás**) végső pontját **mindig a képző/mentor adja**, és a megerősített kapueredmény (GATE-CP, LMS-M6-07) ehhez kötött. Az M6.B társas visszajelzése fejlesztő és pontozás nélküli („ma nem pontozunk”): a végső rubrikával a képző/mentor értékel, a stáb egymás között kalibrál, a társas visszajelzés pedig önmagában nem nyithatja meg a kaput.
 >
-> A szintek **megfigyelhető szövegjegyekre** épülnek (mit lehet konkrétan elolvasni a lapon), nem „jó/rossz” érzésre – hogy a **stáb** tagjai kalibráltan, ugyanoda sorolják a határeseteket, és a társak pontozás nélküli visszajelzése is ugyanezekre a jegyekre figyeljen.
+> A szintek **megfigyelhető szövegjegyekre** épülnek (mit lehet konkrétan elolvasni a lapon), nem „jó/rossz” érzésre – hogy a **stáb** tagjai kalibráltan, ugyanoda sorolják a határeseteket, és a társak is ugyanezekre a jegyekre figyeljenek, amikor pontozás nélkül visszajeleznek.
 
 | # | Kritérium | 1 – Még nem | 2 – Oké (minimum átmenő) | 3 – Erős |
 |---|---|---|---|---|
@@ -409,7 +409,7 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 - [ ] **R4** *(blokkoló)* – legalább **1** konkrét, eszközspecifikus biztonsági mondat (nem általánosság).
 - [ ] **R5** *(blokkoló)* – legalább **1** megnevezett akadály **+ 1** konkrét alternatív belépési pont.
 
-> **Döntési szabály:** Ha a játéklap **Biztonság (R4) vagy Inkluzivitás (R5) rovata** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két blokkoló sor teljesül) → **a kapu teljesült** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő társas visszajelzés önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **ajánlott formatív előkészítő** (nem blokkol); a kvíz által jelzett biztonsági vagy inkluzivitási hiányokat a játéklap előtt érdemes pótolni (lásd Kapulogika és (D) Stáb-jelzések).
+> **Döntési szabály:** Ha a játéklap **Biztonság (R4) vagy Inkluzivitás (R5) rovata** üres, vagy csak általános kijelentés áll benne → **a sor = 1**, a játéklap **javításra megy** (mentorral/stábbal). Ha **minden sor ≥ 2** (és a két blokkoló sor teljesül) → **a kapu teljesült** – ez az **éles, blokkoló** feltétel. **Az R4/R5 végső pontját a képző/mentor adja; az élő társas visszajelzés önmagában nem nyithatja meg a kaput.** A **szcenárió-kvíz** ehhez **formatív előkészítő**: a beküldése az M6 teljesítésének kötelező eleme (LMS-M6-06), az eredménye nem blokkol; a kvíz által jelzett biztonsági vagy inkluzivitási hiányokat a játéklap előtt érdemes pótolni (lásd Kapulogika és (D) Stáb-jelzések).
 >
 > **Visszajelzés a javításhoz:** ha a játéklap javításra megy, a képző/mentor a lapra **Megfigyelés → Hatás → Következő lépés** szerkezetű visszajelzést ad (az SBI viselkedésre való, a játéklap pedig produktum).
 >

@@ -119,7 +119,7 @@ A modul végére a madrih…
 * **Eszköz:** H5P Branching Scenario (4 szcenárió, döntési pontokkal; a három kötelező szcenárió fix sorrendben A → B → D, a C opcionális bónuszgyakorlás; D-e).
 * **Mit tanul a madrih?**
   * 3–4 életszerű helyzetben módszert választani,
-  * a döntések visszajelzéséből megismerni a **biztonsági és inkluzivitási szempontokat**, és a saját helyzetéhez legalább 1–1 ilyet megnevezni,
+  * a döntésekre kapott visszajelzésből megismerni a **biztonsági és inkluzivitási szempontokat**, és a saját helyzetéhez legalább egy-egy ilyet megnevezni,
   * a végén 1 saját helyzetet végiggondolni – ebből lesz a játéklap alapja.
 * **Kompetenciakapcsolat:** 1. Eszköz–kvuca illesztés, 2. Biztonság & inkluzivitás, 5. Módszerválasztási döntés & játéklap.
 
