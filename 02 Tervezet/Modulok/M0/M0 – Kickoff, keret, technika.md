@@ -19,7 +19,7 @@
 
 **Modulcél röviden**
 
-A madrih **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alapelvárásokat és határokat („madrih, nem terapeuta”), megismeri az alapvető technikai eszközöket (Moodle, H5P, kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma isitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek** (fórumposzt + komment).
+A madrih **belép a képzés világába**: átlátja az éves ívet (M0–M7 + Z), érti az alapelvárásokat és határokat („madrih, nem terapeuta”), megismeri az alapvető technikai eszközöket (Moodle, H5P, kapuk, kommunikációs csatornák), és gondolkodik azon, **mit jelent dugma isitként jelen lenni az online térben is**. A modul végére minden résztvevő képes egy egyszerű online feladat elvégzésére, és **bemutatkozik a közösségnek**: a „Bemutatkozó fal” fórum megnyitásáig szóban, rögzítés nélkül, utána fórumposzttal és kommenttel is (lásd 5. Kapuk).
 
 ***
 
@@ -38,7 +38,7 @@ A modul végére a madrih…
 3. **Alapszintű technikai működés biztonságban**
    * Be tud lépni a **Moodle-be**, megtalálja a saját kurzusát és a modulokat.
    * Elindít és végigvisz egy **H5P-leckét**, kitölt egy mini-kvízt.
-   * El tud készíteni és közzé tud tenni egy **bemutatkozó fórumposztot és egy kommentet**.
+   * El tud készíteni és közzé tud tenni egy **bemutatkozó fórumposztot és egy kommentet**, amint a „Bemutatkozó fal” fórum valódi tanulóknak megnyílt (lásd 5. Kapuk).
    * **Támogató elemek:** M0.3 (Moodle / H5P / kapu), M0.4 (bemutatkozó fórum), M0.A utáni technikai segítségpont.
 4. **Kapuk és completion-logika alapszintű megértése**
    * Érti a **puha és éles kapuk** közti különbséget.
@@ -135,6 +135,7 @@ A modul végére a madrih…
       * 1 saját bemutatkozó poszt (5–10 mondat),
       * 1 rövid komment legalább 1 másik résztvevő posztjára.
     * Completion: új téma + legalább 1 válasz. A Moodle a saját témára adott választ is beszámítja, ezért azt, hogy a komment másik résztvevő posztjára szól-e, a completion nem ellenőrzi: ezt a stáb nézi meg (lásd §6, 3. pont).
+    * Megnyitás: a fórum valódi tanulóknak zárva marad, amíg nincs dokumentált cél, hozzáférési kör, a DPO által elfogadott megőrzési idő és életkornak megfelelő tájékoztató (projektgazdai döntés, 2026-10-12, ADV-6). A „képzés vége + 90 nap” nem automatikus jogszerű alapérték. Addig a szóbeli, nem rögzített bemutatkozás a biztonságos alternatíva (élőben: a kickoff-peula „Név + 1 szó” köre, M0.A 4.1), és a fórum nem teljesítési feltétel (lásd lent, 2. pont).
   * **Moodle Quiz – „M0 belépőkvíz”**
     * **7 item** (6 feleletválasztós kérdés egy helyes válasszal és 1 párosító kérdés), témák:
       * „madrih, nem terapeuta” (1. item),
@@ -166,7 +167,7 @@ A modul végére a madrih…
 **Az M0 teljesítésének feltételei:**
 
 1. L1–L4 (M0.1–M0.4) mikroleckék activity completion.
-2. Bemutatkozó fórum: 1 poszt + 1 komment.
+2. Bemutatkozó fórum: 1 poszt + 1 komment – csak ha a fórum valódi tanulóknak megnyílt (ADV-6, lásd fent, „Megnyitás”); addig ez nem teljesítési feltétel.
 3. M0 belépőkvíz **kitöltve** (mind a 7 item megválaszolva) – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a kvíz completion-jelző, nem küszöbös kapu). **A „kb. 60%” nem belépési feltétel, hanem stáb-oldali jelzőszint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrihot zárja ki.
 
 **Javítás / támogatás logika:**
@@ -220,7 +221,7 @@ Mi a különbség a puha és az éles kapu között?
 
 **4. item – kapukövetkezmény**
 
-Mi történik, ha egy éles kapu elsőre nem teljesül?
+Mi történik a madrihhal, ha egy éles kapu elsőre nem teljesül?
 
 * A) Kiesik a képzésből.
   *Visszajelzés:* Nem jó: a kapu nem kizárás, éles kapunál is visszajelzés és javítási lehetőség jár; lásd: M0.3, 5–6. dia (a kapuk és a következményeik).
@@ -251,13 +252,13 @@ Párosítsd: visszajelzés / red flag és gyermekvédelem / peulatervezés
 
 **7. item – hol találom a modulokat / leckéket**
 
-Hol találod a modulokat, leckéket, peulákat és a completion állapotát?
+Hol találod a modulokat, leckéket, peulákat és a completion-állapotot?
 
 * A) A H5P-ben; a pipa azt mutatja, hány pontot értél el.
   *Visszajelzés:* Nem jó: a H5P csak egy eszköz a Moodle-ben, a pipa pedig azt jelzi, hogy végigmentél egy feladaton, nem a pontszámodat; lásd: M0.3, 2–3. dia (kurzusstruktúra és alapfogalmak).
 * B) A kvuca csoportchatjébe küldött linkeken; a completion-állapotot csak a képző látja.
   *Visszajelzés:* Nem jó: a modulokat, a leckéket és a peulákat a Moodle-kurzusban találod, és a pipákat te is látod; lásd: M0.3, 2. dia (kurzusstruktúra).
-* C) A Moodle-kurzus modulstruktúrájában; a leckék/activityk mellett látható completion-státusszal. ✅
+* C) A Moodle-kurzus modulstruktúrájában; a leckék/activityk mellett látható completion-állapottal. ✅
 * D) E-mailben, mert minden leckét külön levélben kapsz meg; a completion-állapot csak a modul végén derül ki.
   *Visszajelzés:* Nem jó: a leckék nem e-mailben érkeznek, hanem a Moodle-kurzus moduljaiban vannak, és a pipák folyamatosan mutatják, mit fejeztél be; lásd: M0.3, 2. dia (kurzusstruktúra).
 
@@ -279,6 +280,7 @@ Hol találod a modulokat, leckéket, peulákat és a completion állapotát?
 4. **M0-kvíz eredmények (item-szinten, a kvízterv mentén – lásd 5. Kapuk)**
    * Mely **témakör** megy nagyon rosszul (≈ tartósan < 50%)? A kvízterv megmondja, melyik M0-kompetencia gyenge.
    * Ha sokan félreértik a „madrih, nem terapeuta” vagy a „kihez jelzek?” itemeket, azt az M2-ben és az M3-ban **erősebben, többször** kell elővenni; ha a **kapukövetkezmény** vagy az **online hangnem / szabály** item gyenge, az még az M0-n belül (M0.3 / M0.4 újramondás, technikai segítségpont) is pótolható.
+   * Ha az 1–2. (biztonsági) item gyenge, első körben csoportszintű, nem megbélyegző korrekció és a két item nyilvános visszajelzése jár. Egyéni mentoros utánkövetés csak indokolt pedagógiai cél, célhoz kötött válaszhozzáférés és DPO-jóváhagyás mellett lehet (projektgazdai döntés, 2026-10-12, GYV-23); a kvíz diagnosztikus marad.
 5. **Küszöbök / beavatkozási pontok (javaslatok):**
    * Ha az első hét végére a résztvevők **>30%-a nem teljesítette** az M0-t:
      * célzott emlékeztető,
