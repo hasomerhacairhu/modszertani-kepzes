@@ -1,8 +1,8 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
-      "sha256": "6e608fb5e3791d9c597eabe3bbb7effdfa0fbc407eaf9bc330f4d3144a1574ad"
+      "reason": "ADV-1, ADV-5 (KANON:QA16-BIZT-1, KANON:QA16-BIZT-2, KANON:QA16-BIZT-3, KANON:QA16-IMPL-4): LMS-M7-10 carries the full ADV-5 transfer as LMS-M2-07; G2 lists LMS-M7-10; ASSIGN direct-URL negative case; ADV-1 scope marked open on QUIZ and GATE-CP as on H5P-C",
+      "sha256": "d3811ed1108710631d8556b943c27e3c8f35561f5ac66729081fccc39bd506b6"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
       "reason": "Projektgazdai döntés 2026-10-12 (GYV-1…GYV-23, ADV-1…ADV-15, JOG-1, TERM-1…TERM-8, ERT-1…ERT-50, PRG-1…PRG-17, LMS-1…LMS-8, VO-1, TECH-1, TECH-2): a 125 döntés kánoni átvezetése, Emberi jóváhagyás szükséges.md 14. szakasz",
@@ -17,12 +17,12 @@
       "sha256": "898151dd36d1a6bb9378491d3a01a97a8dd440c69661f0982e03045a373c00c3"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "ADV-1, ADV-5, PRG-5 (KANON:QA14-BIZT-1, M1:BIZT-G2-4, M2:BIZT-G2-3, M7:BIZT-G1-6, M3:ERT-G3-10): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "e838c843b01c021bc32f4e3f94387291708f883d4bad06f0196748baf0582049"
+      "reason": "ADV-1, ADV-5 (KANON:QA16-BIZT-1, KANON:QA16-BIZT-2, KANON:QA16-BIZT-3): LMS-M7-10 carries the full ADV-5 transfer as LMS-M2-07; G2 lists LMS-M7-10; ASSIGN direct-URL negative case",
+      "sha256": "bf6d3003806189e556a39d881989fc13af03e2949cb38195ffc9c0276ada5716"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "LMS-2, ERT-5 (M3:QA15-IMPL-1, M7:QA15-ERT-1): EGY-04 purpose and source pointers carried over from the removed EGY-03; LMS-M7-07 Review options verb",
-      "sha256": "94a5c6f818a486155ce0f54aff9a24b2877b910af6fd66bb74961fb228c52bba"
+      "reason": "ADV-1, ADV-5 (KANON:QA16-BIZT-1, KANON:QA16-BIZT-2, KANON:QA16-BIZT-3): LMS-M7-10 carries the full ADV-5 transfer as LMS-M2-07; G2 lists LMS-M7-10; ASSIGN direct-URL negative case",
+      "sha256": "bee8e5b422299e5da6efc141eebb243661863251e0b0f022d26bc5abf38a1f3d"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
@@ -329,8 +329,8 @@
       "sha256": "cbdc044716512c38c651ab112125eea56ef668f6d2bd1f7ba7baac18b7796214"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
-      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
-      "sha256": "31bb87b6884bcacd34528911e7e560672e465a6fb898d13a0b0074649e4beb57"
+      "reason": "ADV-1, ADV-5 (KANON:QA16-BIZT-1, KANON:QA16-BIZT-2, KANON:QA16-BIZT-3): LMS-M7-10 carries the full ADV-5 transfer as LMS-M2-07; G2 lists LMS-M7-10; ASSIGN direct-URL negative case",
+      "sha256": "09276a9cb6561eea3b25809e81031cfcd581674e21a399166323c5391ee06e7d"
     },
     "02 Tervezet/Terepgyakorlat – 2. félév.md": {
       "reason": "FREEZE-A (R-1, R-2, R-11, IMPL-2, SAFE-6; D-a…D-j, PILOT-1…4, D-i): 2026-10-05 pilot-ütemezés – régi dátumok superseded, BSPEC-05/06/07 regisztrálva, 36 checklist-tétel jelölve, a Memuna-átnézés hatóköre a GK §2 szerint, M0.3 completion-sor a D-i szerint",
