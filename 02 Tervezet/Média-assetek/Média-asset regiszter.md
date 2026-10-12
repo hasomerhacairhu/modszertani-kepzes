@@ -840,7 +840,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.1-IKO-01` | icon-set | legyártandó | specifikáció kész | SMART 5 elem ikon-készlet (S-M-A-R-T) | — | alt-szöveg | AI-generált |
 | `M7.1-ILL-01` | illustration | legyártandó | specifikáció kész | Hook – 3 vágy-mondat kártya | — | alt-szöveg | AI-generált |
 | `M7.1-ILL-02` | illustration | legyártandó | specifikáció kész | Someres SMART példa – 2 kártya (szolidaritás / biztonság) | — | alt-szöveg | AI-generált |
-| `M7.1-ILL-03` | illustration | legyártandó | specifikáció kész | Példa prompt-kártya (AI-blokk) | — | alt-szöveg | AI-generált |
+| `M7.1-ILL-03` | illustration | legyártandó | specifikáció kész | Példa promptkártya (AI-blokk) | — | alt-szöveg | AI-generált |
 | `M7.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SMART madrih-nyelven (opcionális) | `M7.1-NAR-01-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md
@@ -883,7 +883,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.4-DIA-01` | diagram | legyártandó | specifikáció kész | 3 építőkocka diagram – SMART cél / Peula 11 pontja / Zmán Kvucá | — | alt-szöveg | AI-generált |
 | `M7.4-IKO-01` | icon-set | újrahasznosítás | specifikáció kész | Kvuca-típus piktogramok – Parparim / Kivsza / Leviatán | — | — | AI-generált |
 | `M7.4-MUNK-01` | worksheet | legyártandó | specifikáció kész | Letölthető „Peula v1 – első vázlat” kitölthető sablon (doc) | — | nyomtatható PDF | emberi |
-| `M7.4-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél) | `M7.4-NAR-01-VO` | felirat, leirat | AI-generált |
+| `M7.4-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – GYAKORLAT 1 (kvuca-típus + kvuca-infó + SMART cél) | `M7.4-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M7.4-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Opcionális narráció – zárás (gratuláció + következő lépés) | `M7.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.4-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK – AI beszélő fej: papíron szép vs. vállalható peula | `M7.4-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
@@ -893,12 +893,12 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M7.A-KART-01` | card-set | legyártandó | specifikáció kész | „Szétfolyó cél” kártyaszett a sarok-játékhoz | — | nyomtatható PDF | emberi |
+| `M7.A-KART-01` | card-set | legyártandó | specifikáció kész | „Szétfolyó cél” kártyaszett a sarokjátékhoz | — | nyomtatható PDF | emberi |
 | `M7.A-KART-02` | card-set | legyártandó | specifikáció kész | Minta-peula-ötlet kártyák (tartalék, ha valaki elakad) | — | nyomtatható PDF | emberi |
 | `M7.A-MUNK-01` | worksheet | legyártandó | specifikáció kész | Képzői ellenőrző lista (1 A4) – peula előtti átfutó | — | nyomtatható PDF | emberi |
-| `M7.A-MUNK-02` | worksheet | legyártandó | specifikáció kész | Képzői felolvasó-kulcs a sarok-játékhoz (besorolás + indok) | — | nyomtatható PDF | emberi |
+| `M7.A-MUNK-02` | worksheet | legyártandó | specifikáció kész | Képzői felolvasó-kulcs a sarokjátékhoz (besorolás + indok) | — | nyomtatható PDF | emberi |
 | `M7.A-POSZ-01` | poster | legyártandó | specifikáció kész | „Peula 11 pontja” flipchart / poszter – kanonikus pont-lista | — | nyomtatható PDF | emberi |
-| `M7.A-POSZ-02` | poster | legyártandó | specifikáció kész | Tábla / flipchart-sablon – kulcsszavak és SMART irányító-kérdések | — | nyomtatható PDF | emberi |
+| `M7.A-POSZ-02` | poster | legyártandó | specifikáció kész | Tábla / flipchart-sablon – kulcsszavak és SMART irányító kérdések | — | nyomtatható PDF | emberi |
 | `M7.A-POSZ-03` | poster | legyártandó | specifikáció kész | Társas visszajelzés – két mondatkezdő tábla / flipchart-sablon | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md
@@ -907,12 +907,12 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 
 | ID | Típus | Mód | Státusz | Cím | Forrásblokk | Derivatívák | Eredet |
 |---|---|---|---|---|---|---|---|
-| `M7.B-EGY-01` | card-set | legyártandó | specifikáció kész | A/B sarok-kvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap) | — | nyomtatható PDF | emberi |
+| `M7.B-EGY-01` | card-set | legyártandó | specifikáció kész | A/B sarokkvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-01` | worksheet | legyártandó | specifikáció kész | Zmán Kvucá-mini-checklist (kiscsoportos munkalap) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-02` | worksheet | legyártandó | specifikáció kész | "Előtte–utána"-lap (galériaséta artefaktum-sablon) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-03` | worksheet | legyártandó | specifikáció kész | Minta-Peula v1 (B-terv tartalék vázlat) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-04` | worksheet | legyártandó | specifikáció kész | Kilépőkártya – mini visszajelző cetli | — | nyomtatható PDF | emberi |
-| `M7.B-MUNK-05` | worksheet | legyártandó | specifikáció kész | Kipróbálási kötelezettségvállalás – ha–akkor mini sablon (3 sor) | — | nyomtatható PDF | emberi |
+| `M7.B-MUNK-05` | worksheet | legyártandó | specifikáció kész | Kipróbálási kötelezettségvállalás – ha–akkor minisablon (3 sor) | — | nyomtatható PDF | emberi |
 | `M7.B-MUNK-06` | worksheet | legyártandó | specifikáció kész | Képzői ellenőrző lista (1 A4 – gyors átfutásra) | — | nyomtatható PDF | emberi |
 | `M7.B-POSZ-01` | poster | legyártandó | specifikáció kész | Flipchart-poszter: "Zmán Kvucá = …" definíció + "AI-határok" | — | nyomtatható PDF | emberi |
 | `M7.B-POSZ-02` | poster | legyártandó | specifikáció kész | Falra kifüggesztett poszter: a Zmán Kvucá-checklist 5 területe nagyban | — | nyomtatható PDF | emberi |

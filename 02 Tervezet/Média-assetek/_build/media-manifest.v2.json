@@ -3794,10 +3794,10 @@
       "id": "M7.4-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 490,
+      "line": 494,
       "body_lines": [
-        491,
-        496
+        495,
+        500
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3814,10 +3814,10 @@
       "id": "M7.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 708,
+      "line": 717,
       "body_lines": [
-        709,
-        713
+        718,
+        722
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3834,10 +3834,10 @@
       "id": "M7.4-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 180,
+      "line": 182,
       "body_lines": [
-        181,
-        198
+        183,
+        200
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -27231,7 +27231,7 @@
       "module": "M7",
       "file_kind": "hub",
       "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
-      "line": 288,
+      "line": 290,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -27304,7 +27304,7 @@
       "status": "spec-ready",
       "title": "Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu",
       "purpose": "Vizuálisan érthetővé teszi az időben elosztott, két menetben érő félévzáró logikát (v1 = próba, v2 = vállalható verzió), amit a szöveg kétszer is fontosnak tart kifejteni; csökkenti a „mikor mit adok le\" bizonytalanságot.",
-      "spec": "Idővonal/folyamatábra a félévzáró feladat két lépcsőjéről, időben szétterítve: (1) v1 – elsővázlat-ellenőrzési pont az M7 1. hetének végén, az M7.A után (formatív, alacsony tét, NEM buktat, újrapróbálható, M7.4 Assignment; a kijelölt mentor a v2 előtt rubrikára épülő visszajelzést ad rá); (2) a kvíz (felkészültségi kapu) a v1 leadása után nyílik – ajánlott még az M7.B előtt teljesíteni –, és a megerősített eredménye a v2 leadásának feltétele; ~1 hét köztes fejlesztési idő, csiszolás az M7.B peula-műhelyben és otthon; (3) v2 – teljesítési kapu az M7 2. hetének végén, az M7.B után (éles kapu: v2-rubrika ÉS a v2 előtt teljesített kvíz). Jelölje a két határidő helyét a központi ütemezési kulcsokkal: `M7_V1_DUE` és `M7_V2_DUE`; a renderelt változatban ezek értékeit a HUM-OPS-01 szerinti központi schedule tölti ki.",
+      "spec": "Idővonal/folyamatábra a félévzáró feladat két lépcsőjéről, időben szétterítve: (1) v1 – elsővázlat-ellenőrzési pont az M7 1. hetének végén, az M7.A után (formatív, alacsony tétű, NEM buktat, újrapróbálható, M7.4 Assignment; a kijelölt mentor a v2 előtt rubrikára épülő visszajelzést ad rá); (2) a kvíz (felkészültségi kapu) a v1 leadása után nyílik – ajánlott még az M7.B előtt teljesíteni –, és a megerősített eredménye a v2 leadásának feltétele; ~1 hét köztes fejlesztési idő, csiszolás az M7.B peula-műhelyben és otthon; (3) v2 – teljesítési kapu az M7 2. hetének végén, az M7.B után (éles kapu: v2-rubrika ÉS a v2 előtt teljesített kvíz). Jelölje a két határidő helyét a központi ütemezési kulcsokkal: `M7_V1_DUE` és `M7_V2_DUE`; a renderelt változatban ezek értékeit a HUM-OPS-01 szerinti központi schedule tölti ki.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -27343,7 +27343,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "260de56fd29520778ce582ab0acfd675fe0b1123166459946d16792e9eacadff",
+      "spec_hash": "4277221dd0770496786fee50c5db6ab8d8aa402f153b6e4fa8a3466dc408c03c",
       "deliverable_ids": [
         "M7-HUB-DIA-02",
         "M7-HUB-DIA-02::ALTTEXT"
@@ -27693,18 +27693,18 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Példa prompt-kártya (AI-blokk)",
+      "title": "Példa promptkártya (AI-blokk)",
       "purpose": "Megmutatja, hogyan kérhető etikusan AI-segítség a cél megfogalmazásához.",
-      "spec": "Egy „prompt-kártya” vizuál, amely egy konkrét példapromptot mutat: „Írd át ezt a mondatot SMART nevelési céllá 10–12 éves Kivsza-kvucára, someres peulához: ’Tanuljanak a felelősségről’.” Stílus: chat/prompt-buborék jellegű keret. Cím: „Ha elakadsz, kérj segítséget – de maradjon a te célod”.",
+      "spec": "Egy „promptkártya” vizuál, amely egy konkrét példapromptot mutat: „Írd át ezt a mondatot SMART nevelési céllá 10–12 éves Kivsza-kvucára, someres peulához: ‘Tanuljanak a felelősségről’.” Stílus: chat/prompt-buborék jellegű keret. Cím: „Ha elakadsz, kérj segítséget – de maradjon a te célod”.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
-        "note": "Reszponzív H5P slide-grafika, prompt-kártya keret, magyar szöveg"
+        "note": "Reszponzív H5P slide-grafika, promptkártya keret, magyar szöveg"
       },
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Alt-szöveg kell: prompt-kártya és a benne lévő példaprompt leírása (lásd M7.1-ILL-03::ALTTEXT)"
+        "note": "Alt-szöveg kell: promptkártya és a benne lévő példaprompt leírása (lásd M7.1-ILL-03::ALTTEXT)"
       },
       "derivatives": [
         "alt-text"
@@ -27734,7 +27734,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "cbe8cb76fc54b6b0679b49775646fd40da9a4485560c6333606df9bf7af6a24b",
+      "spec_hash": "ee06a49ebbd83ef182b0cd7b34877916eb634a68d3f5856aeaad11712d37e0ac",
       "deliverable_ids": [
         "M7.1-ILL-03",
         "M7.1-ILL-03::ALTTEXT"
@@ -28263,7 +28263,7 @@
       "status": "pending-rights",
       "title": "SLIDE 5 narráció – Biztonság & továbbfejlesztés (3 pont)",
       "purpose": "A Biztonság & továbbfejlesztés fázis súlyának és gyermekvédelmi keretének szóbeli kiemelése.",
-      "spec": "60–90 mp magyar narráció, tegező. A harmadik fázis (Biztonság & továbbfejlesztés) 3 pontja: biztonság & gyermekvédelem (red flag-ek, az ötlépéses jelzési út, például a Memuna azonnali bevonása, nem maradsz egyedül), visszajelzés & finomhangolás (másik nézőpont), utóreflexió & továbbfejlesztés.",
+      "spec": "60–90 mp magyar narráció, tegező. A harmadik fázis (Biztonság & továbbfejlesztés) 3 pontja: biztonság & gyermekvédelem (red flagek, az ötlépéses jelzési út, például a Memuna azonnali bevonása, nem maradsz egyedül), visszajelzés & finomhangolás (másik nézőpont), utóreflexió & továbbfejlesztés.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -28308,7 +28308,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "85e1c4d1cf75bc5c480bac63d25f27483be829376d3d80b97525f74da5eee71e",
-      "spec_hash": "e4660d78f94e8cf370e762e40aab8b69440d0b58eb5a9dffbb8a1df6e487f37c",
+      "spec_hash": "b2f9b89a75453b91ff16e78e0b151e78b8aff3895f448792dcfac40301512373",
       "deliverable_ids": [
         "M7.2-NAR-05",
         "M7.2-NAR-05::CAPTIONS",
@@ -28447,7 +28447,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A lecke-meta 26. sorban jelzett „diagram / ikon-set”. Az ikonokat lásd M7.3-IKO-01. Slide narráció: M7.3-NAR-04. Mini párosítás (interakció, nem asset).",
+      "notes": "A lecke-meta AI / multimédia listájában jelzett „diagram / ikon-set”. Az ikonokat lásd M7.3-IKO-01. Slide narráció: M7.3-NAR-04. Minipárosítás (interakció, nem asset).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -28495,7 +28495,7 @@
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Alt-szöveg/címke minden ikonhoz (lefedi M7.3-IKO-01::ALTTEXT)."
+        "note": "Alt-szöveg/címke minden ikonhoz (lefedi M7.3-IKO-01::ALTTEXT); az alt-szöveg szó szerint a Program terv §4 szerint: „Öt ikon: Idő & helyszín; Létszám & madrih–hanih arány; Anyagok, technika & B-terv; Hozzáférhetőség & inkluzivitás; Gyermekvédelem & határok.”"
       },
       "derivatives": [
         "alt-text"
@@ -28510,7 +28510,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Az M7.3-DIA-01 diagram része; a lecke-meta 26. sorban „diagram / ikon-set”.",
+      "notes": "Az M7.3-DIA-01 diagram része; a lecke-meta AI / multimédia listájában „diagram / ikon-set”.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -28525,7 +28525,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4420c31e10d65f93d178affa2f0cbc537e4ec1b7b274b56b4b7cf72184e95e93",
+      "spec_hash": "5c38ada3862c9e6c84521d933496b6545ca08181321673de8e586195fa90a92e",
       "deliverable_ids": [
         "M7.3-IKO-01",
         "M7.3-IKO-01::ALTTEXT"
@@ -28642,7 +28642,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A lecke-meta 27. sorban jelzett „illusztrált mintaprogram kártya”. Slide narráció: M7.3-NAR-03. Single Choice kérdés (nem asset).",
+      "notes": "A lecke-meta AI / multimédia listájában jelzett „illusztrált mintaprogram kártya”. Slide narráció: M7.3-NAR-03. Single Choice kérdés (nem asset).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -28998,7 +28998,7 @@
         "audio": "spoken",
         "visual": "decorative",
         "alt_note": "csak a képi sáv (beszélő fej) dekoratív: hangalámondás nem kell (WCAG 2.2 SC 1.2.5), mert a felirat és a leirat szó szerint lefedi a narrációt; a videóelemet a dián látható, leíró videócímke azonosítsa (SC 1.1.1)",
-        "note": "Kapcsolható, nem égetett WebVTT-felirat a lecke `@source` szövegéből + leirat/transzkript kötelező (M7.3-VID-01::CAPTIONS, M7.3-VID-01::TRANSCRIPT); AI-provenance felirat a videó alá (lecke-meta 29. sor)."
+        "note": "Kapcsolható, nem égetett WebVTT-felirat a lecke `@source` szövegéből + leirat/transzkript kötelező (M7.3-VID-01::CAPTIONS, M7.3-VID-01::TRANSCRIPT); AI-provenance felirat a videó alá (lecke-meta, provenance-jegyzet)."
       },
       "derivatives": [
         "voiceover",
@@ -29037,7 +29037,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "47a74316715f6d39675345e68814520a49ddacedf29e403779558870df669bf9",
-      "spec_hash": "aace05935ea3c190aaec8533a23d6e557c3b929a0bb8cc63d2c147d2ec004323",
+      "spec_hash": "dfc22031c2c4c6934fc2f9d7e0d8e8b168a774befe596ead91c0758bd9ef2e8f",
       "deliverable_ids": [
         "M7.3-VID-01",
         "M7.3-VID-01::VOICEOVER",
@@ -29065,7 +29065,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 225,
+      "line": 229,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -29081,7 +29081,7 @@
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "Kell alt-szöveg (lásd M7.4-DIA-01::ALTTEXT), amely felsorolja a 3 építőkockát és tartalmukat; a részletes szövegtartalom a dián valós HTML-szövegként is megjelenik (SLIDE 2, „Szöveg a dián”), így képernyőolvasóval elérhető"
+        "note": "Kell alt-szöveg (lásd M7.4-DIA-01::ALTTEXT), szó szerint a Program terv §4 szerint: „Három építőkocka, amire a Peula v2 épül: SMART nevelési cél (M7.1), Peula 11 pontja (M7.2), Zmán Kvucá-checklist (M7.3).”; a részletes szövegtartalom a dián valós HTML-szövegként is megjelenik (SLIDE 2, „Szöveg a dián”), így képernyőolvasóval elérhető"
       },
       "derivatives": [
         "alt-text"
@@ -29096,7 +29096,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A diagram szövegtartalma a SLIDE 2 „Szöveg a dián\" blokkból jön. A „📂 Portfólió-beemelés\" doboz és a Mini True/False tiszta H5P-szöveg/interakció, nem külön media-asset.",
+      "notes": "A diagram szövegtartalma a SLIDE 2 „Szöveg a dián” blokkból jön. A „📂 Portfólió-beemelés” doboz és a Mini True/False tiszta H5P-szöveg/interakció, nem külön media-asset.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -29111,7 +29111,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "b4e3718ba98db2ada3407ed2ab39de79773ccd81bf297f379f65451adb151231",
+      "spec_hash": "0c4e886bb7034af5f995e85c0f065b1375920c7fd0a07b6b553ce63c07658c8f",
       "deliverable_ids": [
         "M7.4-DIA-01",
         "M7.4-DIA-01::ALTTEXT"
@@ -29131,23 +29131,23 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 345,
+      "line": 349,
       "kind": "icon-set",
       "subtype": "",
       "mode": "reuse",
       "status": "spec-ready",
       "title": "Kvuca-típus piktogramok – Parparim / Kivsza / Leviatán",
       "purpose": "Vizuális támogatás a kvuca-típus választáshoz, korosztály-felismerés segítése a GYAKORLAT 1 döntésnél.",
-      "spec": "Három piktogram/ikon a kvuca-típus választóhoz: Parparim (pillangó, 6–9 év), Kivsza (bárány, 10–12 év), Leviatán (bálna, 13–17 év). Egységes ikon-/piktogram-stílusban, a Single Choice opciókhoz illesztve.",
+      "spec": "Három piktogram/ikon a kvuca-típus választóhoz: Parparim (pillangó, 6–9 év), Kivsza (bárány, 10–12 év), Leviatán (bálna, 13–17 év). Egységes ikon-/piktogram-stílusban, a kvuca-típus-választó mellett, külön Course Presentation Image elemként.",
       "provenance": "ai",
       "provenance_note": "AI-generált (piktogramok); kiadás előtt emberi szakmai lektorálás szükséges",
       "technical": {
-        "note": "4 db kompatibilis ikon/piktogram, áttetsző háttér, mobil-first méretezés, H5P Single Choice opciókhoz"
+        "note": "3 db kompatibilis ikon/piktogram, áttetsző háttér, mobil-first méretezés, a Single Choice mellett külön Course Presentation Image elemként"
       },
       "a11y": {
         "visual": "informative",
         "alt_note": "a lecke előírja az alt-szöveget, de a végleges szöveget a legyártott vizuál alapján kell megírni",
-        "note": "A három piktogram alt-szövegét a reuse cél, az M3.2-IKO-01::ALTTEXT biztosítja; az M7.4-IKO-01 nem gyárt külön deriváltat."
+        "note": "A piktogramok alt-szövege szó szerint a Program terv §4 szerint: „Kvuca-típus-választó piktogramok: Parparim, Kivsza, Leviatán.”; az M7.4-IKO-01 nem gyárt külön deriváltat."
       },
       "derivatives": [],
       "reuse_of": "M3.2-IKO-01",
@@ -29157,7 +29157,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Újrahasznosítás indoklása (v1 dedup): Azonos három ikon. Eltérés csak a felhasználásban: M3.2-ben kártyákon/oszlopfejekben/táblázatban ismétlődve, M7.4-ben Single Choice opciókhoz illesztett piktogramként (korosztály-címkével: 6–9 / 10–12 / 13–17). A vizuális asset ugyanaz. A lecke-meta (AI / multimédia lista) „illusztráció\"-ként hivatkozik rájuk, de tartalmilag piktogram-/ikon-készlet (3 egységes elem) → assetType ikon-készlet, ezért az ID-rövidítés is IKO (nem ILL, hogy az ID-séma típushoz illeszkedjen). Meta §1 szerint AI-generált; provenance-jelölés a Program terv §4 (R1) szerint. Az emoji-jelölések (🦋🐑🐋) a forrásban orientálnak a vizuál tartalmára.",
+      "notes": "Újrahasznosítás indoklása (v1 dedup): Azonos három ikon. Eltérés csak a felhasználásban: M3.2-ben kártyákon/oszlopfejekben/táblázatban ismétlődve, M7.4-ben a kvuca-típus-választó Single Choice mellett, külön Course Presentation Image elemként (korosztály-címkével: 6–9 / 10–12 / 13–17). A vizuális asset ugyanaz. A lecke-meta (AI / multimédia lista) „illusztráció”-ként hivatkozik rájuk, de tartalmilag piktogram-/ikon-készlet (3 egységes elem) → assetType ikon-készlet, ezért az ID-rövidítés is IKO (nem ILL, hogy az ID-séma típushoz illeszkedjen). Meta §1 szerint AI-generált; provenance-jelölés a Program terv §4 (R1) szerint. Az emoji-jelölések (🦋🐑🐋) a forrásban orientálnak a vizuál tartalmára.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -29172,7 +29172,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "025aa7a60d36774e8ebbb61f4b46e948490888ae8b8b07ef8a99e9b519123895",
+      "spec_hash": "c4c39f6111b628c6f5112e7cc601e24a86a6008078c60b06061256f20eef19d6",
       "deliverable_ids": [],
       "legacy": {
         "alt-text": [
@@ -29189,14 +29189,14 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 801,
+      "line": 810,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Letölthető „Peula v1 – első vázlat” kitölthető sablon (doc)",
       "purpose": "A Peula v1 (LMS-M7-05) fájlalapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével adja le a v1-et. A két út egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
-      "spec": "Kitölthető sablon doc formátumban, kizárólag az Assignment „Minimum elvárás” 1–4. pontjával, szó szerint: 1. „Kvuca-meta” (a pont adatkímélő mondatával és három alpontjával); 2. „SMART nevelési cél (max. 1–2 mondatban)”; 3. „Legalább 3–4 Peula-terület rövidebb kidolgozása (összesen kb. 10–20 sor)” a két alpontjával; 4. „Zmán Kvucá-operációs mini-táblázat (min. 3–4 sor)” a forrás oszlopfejléceivel („Idő (kb.)”, „Mi történik?”, „Ki felel érte?”) és 4 üres sorral, utána szó szerint a „(A neveknél most elég annyi …)” mondat és az 1:1 helyzetekről szóló dőlt bekezdés; a sablon végén szó szerint a ⚠️ adatkímélő mondat. A forrás táblázatának példasorai nem kerülnek bele. Új mező, minta vagy útmutató szöveg nem kerül bele.",
+      "spec": "Kitölthető sablon doc formátumban, kizárólag az Assignment „Minimum elvárás” 1–4. pontjával, szó szerint: 1. „Kvuca-infó” (a pont adatkímélő mondatával és három alpontjával); 2. „SMART nevelési cél (max. 1–2 mondatban)”; 3. „Legalább 3–4 Peula-terület rövidebb kidolgozása (összesen kb. 10–20 sor)” a két alpontjával; 4. „Zmán Kvucá-operációs minitáblázat (min. 3–4 sor)” a forrás oszlopfejléceivel („Idő (kb.)”, „Mi történik?”, „Ki felel érte?”) és 4 üres sorral, utána szó szerint a „(A neveknél most elég annyi …)” mondat és az 1:1 helyzetekről szóló dőlt bekezdés; a sablon végén szó szerint a ⚠️ adatkímélő mondat. A forrás táblázatának példasorai nem kerülnek bele. Új mező, minta vagy útmutató szöveg nem kerül bele.",
       "provenance": "human",
       "provenance_note": "",
       "technical": {
@@ -29232,7 +29232,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c928fbc38c499dfae05fc14222273eec843c7339cbadb7cc0a244a9f91b45c69",
+      "spec_hash": "0763a6e13d46eab899af734171def5e43a9b7f0c689a42da84c362c5a7bccb4a",
       "deliverable_ids": [
         "M7.4-MUNK-01",
         "M7.4-MUNK-01::PRINTPDF"
@@ -29245,14 +29245,14 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 376,
+      "line": 380,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél)",
+      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + kvuca-infó + SMART cél)",
       "purpose": "Hangos vezetés és bátorítás a GYAKORLAT 1 kitöltéséhez.",
-      "spec": "Opcionális hang-narráció (20–30 mp), amely végigvezeti a tanulót a GYAKORLAT 1 lépésein: kvuca-típus választás, kvuca-meta és SMART cél megírása, hangsúlyozva, hogy nem dolgozat, elég ha a tanuló érti a kvucát és a tervezett változást.",
+      "spec": "Opcionális hang-narráció (20–30 mp), amely végigvezeti a tanulót a GYAKORLAT 1 lépésein: kvuca-típus választás, kvuca-infó és SMART cél megírása, hangsúlyozva, hogy nem dolgozat, elég ha a tanuló érti a kvucát és a tervezett változást.",
       "provenance": "ai",
       "provenance_note": "AI-generált (szintetikus narráció); kiadás előtt emberi szakmai lektorálás szükséges",
       "technical": {
@@ -29288,8 +29288,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        491,
-        496
+        495,
+        500
       ],
       "source_text": "„Most kiválasztasz egy kvucát,\nmegírod hozzá a kvuca-infókat és a SMART célt.\nNem dolgozatot kérünk – a lényeg, hogy **érthető legyen**,\nmilyen kvucára és milyen változást tervezel.”",
       "source_hash": "bc95c2f093cdd06c39d8ab7701c5c6dba44def2f7b3a1ac0437bb023ef1cadcc",
@@ -29297,7 +29297,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "bc95c2f093cdd06c39d8ab7701c5c6dba44def2f7b3a1ac0437bb023ef1cadcc",
-      "spec_hash": "742b868c4616cf4ee8610413448abd60521144abfadfceb85381fff6c58abf0f",
+      "spec_hash": "5fd4dcf6d720cb56aaf8f30e8e70fa6da91ada8c35e2f2c28dd4e790f01e5971",
       "deliverable_ids": [
         "M7.4-NAR-01",
         "M7.4-NAR-01::CAPTIONS",
@@ -29321,7 +29321,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 627,
+      "line": 636,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -29364,8 +29364,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        709,
-        713
+        718,
+        722
       ],
       "source_text": "„Gratulálok, készen állsz a Peula v1-edre.\nMost írd meg a Moodle-beadandóban.\nAz M7.B műhelyben visszajelzések alapján tovább dolgozol rajta, és ebből készül a végleges, terepre vihető Peula v2.”",
       "source_hash": "50509520364058e39e604106d3801969ed525b0b03eaf8d31defc61d9c868f0f",
@@ -29397,14 +29397,14 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 116,
+      "line": 118,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
       "status": "pending-rights",
       "title": "HOOK – AI beszélő fej: papíron szép vs. vállalható peula",
-      "purpose": "Bevonás, azonosulás; érzelmi keretezés a „vállalható peula\" üzenet köré a HOOK-ban.",
-      "spec": "16:9 AI beszélő-fej videó, 30–40 mp. A narráció szembeállítja a „papíron gyönyörű, de 45 percbe nem férő, B-terv és biztonsági átgondolás nélküli\" peulát a „nem tökéletes, de világos célú, reális, vállalható\" peulával, és bevezeti, hogy a leckében egy vállalható peulavázat raknak össze, amit Zmán Kvucában is el lehet képzelni.",
+      "purpose": "Bevonás, azonosulás; érzelmi keretezés a „vállalható peula” üzenet köré a HOOK-ban.",
+      "spec": "16:9 AI beszélő-fej videó, 30–40 mp. A narráció szembeállítja a „papíron gyönyörű, de 45 percbe nem férő, B-terv és biztonsági átgondolás nélküli” peulát a „nem tökéletes, de világos célú, reális, vállalható” peulával, és bevezeti, hogy a leckében egy vállalható peulavázat raknak össze, amit Zmán Kvucában is el lehet képzelni.",
       "provenance": "ai",
       "provenance_note": "AI-generált (avatar + narráció); kiadás előtt emberi szakmai lektorálás szükséges – a videó alatt a kanonikus R1-szöveg: „AI-generált médiaelem · emberi lektorálással.”",
       "technical": {
@@ -29444,8 +29444,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        181,
-        198
+        183,
+        200
       ],
       "source_text": "„Szia!\nLehet, hogy már láttál olyan peulatervet,\nami **papíron gyönyörű volt** –\nde 45 percbe nem fért bele,\nnem volt B-terv,\nés a biztonsági szempontok is bizonytalanok voltak.\n\nÉs olyan peulát is,\nami papíron nem volt ‘tökéletes’,\nde a cél világos volt,\na lépések reálisak,\nés **madrihként vállalhatónak érezted**.\n\nEbben a leckében egy ilyen,\n**vállalható peulavázat** rakunk össze –\nolyat, amit tényleg el tudnál képzelni, hogy megtartod Zmán Kvucában.”",
       "source_hash": "cb74bb01a7864ca34fa39e0222fa05a050dead22a90bcb9822e583660af72be3",
@@ -29453,7 +29453,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "cb74bb01a7864ca34fa39e0222fa05a050dead22a90bcb9822e583660af72be3",
-      "spec_hash": "cfbc6fd6e09da3efccefb525d2e02bc19cc15fee1d7644a2b0a00550455968bd",
+      "spec_hash": "c9c437f3e25fe7d1afe98ea093ad2552dcbeadaf53b75928c1a90963cb1f0b9a",
       "deliverable_ids": [
         "M7.4-VID-01",
         "M7.4-VID-01::VOICEOVER",
@@ -29483,8 +29483,8 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "„Szétfolyó cél” kártyaszett a sarok-játékhoz",
-      "purpose": "A blokk 2 mozgásos sarok-játékának fizikai eszköze: a madrihok élményben (A/B sarokba állással) különböztetik meg a szétfolyó vágyat a SMART-közeli céltól.",
+      "title": "„Szétfolyó cél” kártyaszett a sarokjátékhoz",
+      "purpose": "A blokk 2 mozgásos sarokjátékának fizikai eszköze: a madrihok élményben (A/B sarokba állással) különböztetik meg a szétfolyó vágyat a SMART-közeli céltól.",
       "spec": "10–12 db nyomtatott kártya, mindegyiken egy célnak látszó mondat someres szituációkra: egy részük SZÉTFOLYÓ vágy, egy részük SMART-KÖZELI. A forrás 5 konkrét mintamondatot ad (ezeket be kell emelni): „Jó hangulat legyen a purimi programon.”; „A kvuca értse meg a Szolidaritás fogalmát.”; „Beszéljünk a háborúról.” (mindhárom szétfolyó); valamint „A Kivsza kvuca (kb. 10–12 év) a következő hónap végére legalább 2 új játékot tudjon, amit ők maguk magyaráznak el egymásnak.” és „A Parparim kvuca (kb. 6–9 év) tagjai a 45 perces peula alatt legalább 1-szer, kb. 1 perces körben végighallgatják egymást.” (mindkettő SMART-közeli). FIGYELEM – tartalmi hiány: a forrás csak 5 mondatot ad, de 10–12 kártyás szettet kér; a fennmaradó 5–7 kártyához ÚJ, a mintázathoz illeszkedő someres mondatokat kell írni (jellemzően több szétfolyó + 1–2 további SMART-közeli). A kártyán CSAK a mondat látszik – a besorolás-kulcs NEM kerül a kártyára (az az M7.A-MUNK-02 képzői kulcsban van). A játék során a 10–12-ből csak 4–6 kerül felolvasásra (4.2. blokk, 3. lépés).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -29521,7 +29521,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "39cd8c26570fa2764b2e24272337e3258a8d87f6486d0564574c21a3c55f275b",
+      "spec_hash": "59216268c802535227cd8b03fbd19b5a9116406d0be029652c1fba5712933257",
       "deliverable_ids": [
         "M7.A-KART-01",
         "M7.A-KART-01::PRINTPDF"
@@ -29544,7 +29544,7 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Minta-peula-ötlet kártyák (tartalék, ha valaki elakad)",
-      "purpose": "Hogy senki ne maradjon ötlet nélkül a mini-műhelyben – aki elakad, azonnal választhat egy konkrét kvuca-névvel ellátott ötletet.",
+      "purpose": "Hogy senki ne maradjon ötlet nélkül a miniműhelyben – aki elakad, azonnal választhat egy konkrét kvuca-névvel ellátott ötletet.",
       "spec": "3–4 db nyomtatott minta-peula-ötlet kártya, mindegyiken egy ötlet + a hozzá tartozó kvuca-név és korosztály, hogy az elakadó azonnal tudjon „kire” gondolni. A forrás 4 mintát ad: (1) Hanuka-peula a Parparim kvucának (6–9 év) – fény/sötétség témán át „mitől félek / mi ad biztonságot”; (2) Első kvuca-alkalom a Kivsza kvucának (kb. 10–12 év) – ismerkedés + közös kvuca-szabályok; (3) Konfliktuskezelő peula a Leviatán kvucának (kb. 13–17 év) – tipikus kvucán belüli súrlódás megbeszélése; (4) Élménybeszámoló-peula egy szeminárium/tábor után – „mit viszek haza”, kapcsolódás és lezárás.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -29581,7 +29581,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a6a20a5a49441d2d79e29c043ad7be1ae7e17e4a605d54cbbd72d1d5b671b763",
+      "spec_hash": "13f7399e6b02347e87684fc3544e80361503e1c29b90764e77f27b0599ef7f33",
       "deliverable_ids": [
         "M7.A-KART-02",
         "M7.A-KART-02::PRINTPDF"
@@ -29605,7 +29605,7 @@
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista (1 A4) – peula előtti átfutó",
       "purpose": "A képző gyors, nyomtatható felkészülési segédlete a peula előtt.",
-      "spec": "Egyoldalas képzői ellenőrzőlista a peula előtti átfutáshoz, 5 fő blokkal a forrás szerint: 1) Meta tiszta (két fő fókusz: SMART someres nyelven + 11 pontból 3–4 kulcspont; M7.1–M7.2 kapcsolat); 2) Eszközök előkészítve (szétfolyó-cél kártyák 10–12 db; papír / post-it + toll mindenkinek; 11 pont jól láthatóan kint; hely a sarok-játékhoz és kiscsoport-munkához); 3) Biztonsági keret (nem kell érzékeny példa, lehet kitalált/hétköznapi; kit szólít meg – mentor/képzésfelelős); 4) Időkeret (hol rövidít, ha csúszik: kevesebb mondat / 2 önkéntes / 3 pont a 4 helyett); 5) Híd (M7.3 Zmán Kvucá-checklist / M7.4 Peula v1 felé).",
+      "spec": "Egyoldalas képzői ellenőrzőlista a peula előtti átfutáshoz, 5 fő blokkal a forrás szerint: 1) Meta tiszta (két fő fókusz: SMART someres nyelven + 11 pontból 3–4 kulcspont; M7.1–M7.2 kapcsolat); 2) Eszközök előkészítve (szétfolyó-cél kártyák 10–12 db; papír / post-it + toll mindenkinek; 11 pont jól láthatóan kint; hely a sarokjátékhoz és kiscsoportmunkához); 3) Biztonsági keret (nem kell érzékeny példa, lehet kitalált/hétköznapi; kit szólít meg – mentor/képzésfelelős); 4) Időkeret (hol rövidít, ha csúszik: kevesebb mondat / 2 önkéntes / 3 pont a 4 helyett); 5) Híd (M7.3 Zmán Kvucá-checklist / M7.4 Peula v1 felé).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29641,7 +29641,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c80d44aec6528bf79ecba3b3190e1cdddf2e8ab1661270ead8b09262aa853227",
+      "spec_hash": "3d75dd7e99e03d9feb3275296cee8a14efcd37cf8c2584bbfb9790844a878869",
       "deliverable_ids": [
         "M7.A-MUNK-01",
         "M7.A-MUNK-01::PRINTPDF"
@@ -29663,8 +29663,8 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Képzői felolvasó-kulcs a sarok-játékhoz (besorolás + indok)",
-      "purpose": "Hogy a képző a sarok-játék közben magabiztosan tudja a helyes besorolást és indoklást, anélkül hogy a zárójeles kulcsot felolvasná.",
+      "title": "Képzői felolvasó-kulcs a sarokjátékhoz (besorolás + indok)",
+      "purpose": "Hogy a képző a sarokjáték közben magabiztosan tudja a helyes besorolást és indoklást, anélkül hogy a zárójeles kulcsot felolvasná.",
       "spec": "Képzőnek szóló, NEM résztvevői, nyomtatott segédlap, amely minden kártyamondathoz megadja a besorolást (szétfolyó vs. SMART-közeli) ÉS a forrásbeli rövid indoklást: „nincs konkrét kvuca, nincs megfigyelhető viselkedés, nem tudod, mikor teljesült”; „a megérti nem látszik kívülről; mit csinálnának másképp?”; „téma, nem cél; nincs benne kvuca, idő, eredmény”; „konkrét kvuca + időtáv + megfigyelhető viselkedés”. Tartalmazza azt is, hogy a Parparim-mondat mértéke a korosztály felső sávjára (8–9 év) van szabva, valamint a Parparim alsó korhatárra (6–7 év) vonatkozó Achievable-figyelmeztetést (a hosszabb csendes figyelem ott még nem reális, a mértéket korosztályhoz kell igazítani). Az M7.A-KART-01 mondataival 1:1 párban.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -29701,7 +29701,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "ad6c061e50b9b1e87cc8f0589642095357c616a73db73f3f7eba8c7d167c5796",
+      "spec_hash": "47fab1d5edac55276efcdcc9ace978914e6e6b255efb26ac86ab3746303c4725",
       "deliverable_ids": [
         "M7.A-MUNK-02",
         "M7.A-MUNK-02::PRINTPDF"
@@ -29783,9 +29783,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Tábla / flipchart-sablon – kulcsszavak és SMART irányító-kérdések",
-      "purpose": "Vizuális vezérfonal a SMART-cél megfogalmazásához a párok/hármasok számára a mini műhely alatt.",
-      "spec": "Flipchart- vagy tábla-sablon a kulcsszavakkal („vágy-mondat”, „SMART”, „11 pont”) és a SMART cél megfogalmazását segítő 4 irányító kérdéssel a forrásból: „Kinek? (Melyik kvuca? Melyik korosztály?)”, „Mikorra / milyen időtávban?”, „Mit tudjon vagy csináljon a kvuca a peula után, amit előtte nem?”, „Honnan fogod tudni, hogy ez megtörtént? (Mi a jele?)”. A forrás megengedi a kézi felírást is – a nyomtatott segéd-sablon opcionális, de gyártható asset.",
+      "title": "Tábla / flipchart-sablon – kulcsszavak és SMART irányító kérdések",
+      "purpose": "Vizuális vezérfonal a SMART-cél megfogalmazásához a párok/hármasok számára a miniműhely alatt.",
+      "spec": "Flipchart- vagy tábla-sablon a kulcsszavakkal („vágymondat”, „SMART”, „11 pont”) és a SMART cél megfogalmazását segítő 4 irányító kérdéssel a forrásból: „Kinek? (Melyik kvuca? Melyik korosztály?)”, „Mikorra / milyen időtávban?”, „Mit tudjon vagy csináljon a kvuca a peula után, amit előtte nem?”, „Honnan fogod tudni, hogy ez megtörtént? (Mi a jele?)”. A forrás megengedi a kézi felírást is – a nyomtatott segéd-sablon opcionális, de gyártható asset.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29821,7 +29821,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "60c1bf49f0d396d4c033839af0090ac254a2d1c7eaeec925a66252a0e024c011",
+      "spec_hash": "767962d08978bd1b4daa2e65a1dc390946e962e64af861b0992f721df98db339",
       "deliverable_ids": [
         "M7.A-POSZ-02",
         "M7.A-POSZ-02::PRINTPDF"
@@ -29845,7 +29845,7 @@
       "status": "spec-ready",
       "title": "Társas visszajelzés – két mondatkezdő tábla / flipchart-sablon",
       "purpose": "Strukturált, támogató társas visszajelzés kerete – hogy a visszajelzés ne csússzon át peula-szétszedésbe.",
-      "spec": "Táblára / flipchartra kiírt két ítélkezésmentes mondatkezdő, amelyre minden visszajelzés épül: „Hol érzem SMART-nak?” és „Mit kérdeznék még, ami kimaradt?”. Ugyanezt a két mondatkezdőt használják a mini-prezentációk társas visszajelzésénél (4.4. blokk, 3. lépés) és a galériaséta post-it-reagálásánál (4.4. blokk, galériaséta-variáns, 2. lépés).",
+      "spec": "Táblára / flipchartra kiírt két ítélkezésmentes mondatkezdő, amelyre minden visszajelzés épül: „Hol érzem SMART-nak?” és „Mit kérdeznék még, ami kimaradt?”. Ugyanezt a két mondatkezdőt használják a miniprezentációk társas visszajelzésénél (4.4. blokk, 3. lépés) és a galériaséta post-it-reagálásánál (4.4. blokk, galériaséta-variáns, 2. lépés).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29866,7 +29866,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Mindkét blokk-4 formátum (mini-prezentáció és galériaséta) ugyanezt a két mondatkezdőt használja – egyetlen sablon szolgálja ki mindkettőt. A galériaséta a Greenaway-féle 4F (Facts–Feelings–Findings–Future) reflexiós ívére épül (4.4. blokk, „Miért működik”); a 4F nem külön nyomtatott asset, hanem ennek a visszajelzési keretnek a háttér-rationáléja.",
+      "notes": "Mindkét blokk-4 formátum (miniprezentáció és galériaséta) ugyanezt a két mondatkezdőt használja – egyetlen sablon szolgálja ki mindkettőt. A galériaséta a Greenaway-féle 4F (Facts–Feelings–Findings–Future) reflexiós ívéhez hasonló ívet követ (4.4. blokk, „Háttér”); a 4F nem külön nyomtatott asset, hanem ennek a visszajelzési keretnek a háttérpárhuzama.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -29881,7 +29881,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f08b72db616451d702239c85c11eedcaccbc32eac8788c8a560b83408b280e36",
+      "spec_hash": "cfb60f90f6221ef2716a2bd42ee8e103ff5887bcabd53bc8b24661aac2f2ad25",
       "deliverable_ids": [
         "M7.A-POSZ-03",
         "M7.A-POSZ-03::PRINTPDF"
@@ -29903,7 +29903,7 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "A/B sarok-kvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap)",
+      "title": "A/B sarokkvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap)",
       "purpose": "A Blokk 1 mozgós nyitókvíz tartalma; felidézi a Zmán Kvucá lényegét és tudatosítja az AI-határokat.",
       "spec": "Az 5 előre megfogalmazott A/B-állítás felolvasáshoz (inkább igaz / inkább nem igaz mozgós kvíz, középen bizonytalan zóna – 4.1. blokk, instrukció), a 4.1. blokk 2. lépése szerint szó szerint: (1) \"Zmán Kvucá = bármilyen program, ami eszünkbe jut aznap.\", (2) \"Peula-tervben nem kell biztonságról gondolkozni, az a felnőttek dolga.\", (3) \"AI-val írni peulát úgy, hogy bemásolok konkrét hanih-sztorikat, oké.\", (4) \"Zmán Kvucánál az is fontos, hogy hány hanihra hány madrih jut.\", (5) \"Ha AI ad egy jó játékszabályt, azt gondolkodás nélkül használhatom.\". Felolvasó kártyaként vagy képzői segédlapon.",
       "provenance": "human",
@@ -29941,7 +29941,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "37a2d20584440c2a36ac127fd0aeb5480c088f2f1e24a0367e723c91670613a2",
+      "spec_hash": "b466eeca7f38af08dcaea7d1d1871dd5ce1ac5affee8566093f40b9c5737b24f",
       "deliverable_ids": [
         "M7.B-EGY-01",
         "M7.B-EGY-01::PRINTPDF"
@@ -29958,7 +29958,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
-      "line": 284,
+      "line": 285,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -29986,7 +29986,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Tartalmilag az M7.3 lecke 5 területéből vezetve. Kiscsoportonként 1 példány. Csúszás esetén csak 3 terület végignézése is opció (4.2 facilitátori tipp / 5. Képzői ellenőrző lista, 4. Időkeret).",
+      "notes": "Tartalmilag az M7.3 lecke 5 területéből vezetve. Kiscsoportonként 1 példány. Csúszás esetén csak 3 terület végignézése is opció, de a 4. és az 5. terület nem hagyható el (4.2 facilitátori tipp / 5. Képzői ellenőrző lista, 4. Időkeret).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -30018,7 +30018,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
-      "line": 316,
+      "line": 317,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -30032,7 +30032,7 @@
         "note": "A5 vagy A4, üres kétsoros sablon, kiscsoportonként 1 példány, magyar nyelv. Nagy, vastag vonalvezetésre méretezett írófelület (filctollal, távolról olvashatóan kitölthető)."
       },
       "a11y": {
-        "note": "A lapot a teljes kvuca távolról olvassa a galériasétán, ezért nagy, kontrasztos kézírásra méretezett kitöltőfelület kell (filctoll). A forrás (4.3. blokk, „Nem-írásos alternatíva”) nem-írásos alternatívát is ad nyelvi akadály / írásfáradtság esetére: élőszavas \"2 mondat az állomásnál\", vagy \"tárgyas előtte–utána\" (két tárgy/rajz egymás mellett) – a sablon csak az írott úthoz kell, az inkluzív alternatíva szöveg nélkül is működik."
+        "note": "A lapot a teljes kvuca távolról olvassa a galériasétán, ezért nagy, kontrasztos kézírásra méretezett kitöltőfelület kell (filctoll). A forrás (4.3. blokk, „Nem írásos alternatíva”) nem írásos alternatívát is ad nyelvi akadály / írásfáradtság esetére: élőszavas \"2 mondat az állomásnál\" – a sablon csak az írott úthoz kell, az inkluzív alternatíva szöveg nélkül is működik."
       },
       "derivatives": [
         "print-pdf"
@@ -30046,7 +30046,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Nem-írásos alternatíva is létezik (élőszó / tárgyas változat, 4.3. blokk) – a sablon csak az írott úthoz kell.",
+      "notes": "Nem írásos alternatíva is létezik (élőszó, 4.3. blokk) – a sablon csak az írott úthoz kell.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -30061,7 +30061,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2c46ac4f9f7eaa6538b1be4f7c3c83fb8c137659fabe3f5db68824947fddd183",
+      "spec_hash": "86e3f5a8f4530c291e47ecd2ad8fdc79a3073117b8fe0aedf8485b9ba87d77da",
       "deliverable_ids": [
         "M7.B-MUNK-02",
         "M7.B-MUNK-02::PRINTPDF"
@@ -30078,7 +30078,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
-      "line": 348,
+      "line": 349,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -30145,7 +30145,7 @@
       "status": "spec-ready",
       "title": "Kilépőkártya – mini visszajelző cetli",
       "purpose": "Rövid névtelen visszajelzés a képzőnek a peula zárásában; lezárja a tanulási ívet.",
-      "spec": "Kis papírcetli/sablon a névtelen kilépőkártyához egy kérdéssel (forrás: 4.4. blokk, 3. lépés): \"Mi az az egy dolog a Zmán Kvucáról, ami ma a leginkább átment / kattant nálad – és mi az, ami még kérdéses maradt?\". Két rövid íróhely (átment / kérdéses), név nélkül.",
+      "spec": "Kis papírcetli/sablon a névtelen kilépőkártyához egy kérdéssel (forrás: 4.4. blokk, 3. lépés): \"Mi az az egy dolog a Zmán Kvucáról, ami ma a leginkább átment nálad – és mi az, ami még kérdéses maradt?\". Két rövid íróhely (átment / kérdéses), név nélkül. A begyűjtött lapok sorsa: a peula után összesítés, majd 30 napon belül megsemmisítés (`Adatvédelem – tanulói adatok és AI.md` §3, „Név nélkül begyűjtött papír munkalap” sor).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -30181,7 +30181,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "cd1f074e57dd7b99d1728684e8495f722a9724cb07f64f94da6254218ba868be",
+      "spec_hash": "b00654ca4c352e726d51af954b61b6657e04182b058dec61694bf119886a0328",
       "deliverable_ids": [
         "M7.B-MUNK-04",
         "M7.B-MUNK-04::PRINTPDF"
@@ -30203,9 +30203,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Kipróbálási kötelezettségvállalás – ha–akkor mini sablon (3 sor)",
+      "title": "Kipróbálási kötelezettségvállalás – ha–akkor minisablon (3 sor)",
       "purpose": "A peula földet érésének rögzítése: konkrét kipróbálási szándék; ugyanez a mező kerül a véglegesített Peula v2 mellé a teljesítési leadáskor (\"M7 – KAPU\").",
-      "spec": "Személyes, be nem szedett 3 soros ha–akkor sablon: (1) MIKOR / MELYIK Zmán Kvucán vinnéd be? (kb. dátum/alkalom), (2) 1 várható akadály (pl. 'kevés lesz az idő', 'nem lesz B-termem'), (3) HA ez az akadály jön, AKKOR mit teszel (1 konkrét megkerülés). A résztvevő magának tölti ki.",
+      "spec": "Személyes, be nem szedett 3 soros ha–akkor sablon: (1) MIKOR, MELYIK Zmán Kvucán vinnéd be? (kb. dátum/alkalom), (2) 1 várható akadály (pl. 'kevés lesz az idő', 'nem lesz B-termem'), (3) HA ez az akadály jön, AKKOR mit teszel (1 konkrét megkerülés). A résztvevő magának tölti ki.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -30226,7 +30226,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "NEM értékelt, nem rubrika-pont; a résztvevőé marad (4.4. blokk, 2. lépés). Tükrözi az \"M7 – KAPU\" leadási mezőt (4.4. blokk, 2. lépés).",
+      "notes": "NEM értékelt, nem rubrikapont; a résztvevőé marad (4.4. blokk, 2. lépés). Tükrözi az \"M7 – KAPU\" leadási mezőt (4.4. blokk, 2. lépés).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -30241,7 +30241,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5c85b36db700053502373a4330335d9358bb3437718c763c6b54f40f791ef3e9",
+      "spec_hash": "0a2dd66ab13986dba02c754e8254eb29e6dbee8b2f5961f4a29a06455ff4a94a",
       "deliverable_ids": [
         "M7.B-MUNK-05",
         "M7.B-MUNK-05::PRINTPDF"
@@ -30258,7 +30258,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
-      "line": 580,
+      "line": 581,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -30325,7 +30325,7 @@
       "status": "spec-ready",
       "title": "Flipchart-poszter: \"Zmán Kvucá = …\" definíció + \"AI-határok\"",
       "purpose": "Egész peula alatt látható referencia-felület, amire a Blokk 1 kvíz (4.1) és a Blokk 2 AI-tipp (4.2) visszautal; tudatosítja a Zmán Kvucá definíciót és az AI-határokat.",
-      "spec": "Kétoldalas (vagy kétmezős) nagy flipchart/poszter-sablon: egyik oldalon \"Zmán Kvucá = …\" rövid definíció (a 4.1. blokk képzői összegzése szerint: konkrét idősáv + kvuca + tér + felelősség, nem aznap kitalált spontán, cél nélküli program), másik oldalon \"AI-határok\" 2–3 bulletben (a 4.1. blokk szerint: nincs konkrét hanih-név/sztori; gyermekvédelmi ügyben a Memunához (a Somer gyermekvédelmi felelőséhez), nem AI-hoz; az AI csak ötletel, a felelősség a madrihé – 4.2. blokk).",
+      "spec": "Kétoldalas (vagy kétmezős) nagy flipchart/poszter-sablon: egyik oldalon \"Zmán Kvucá = …\" rövid definíció (a 4.1. blokk képzői összegzése szerint: konkrét idősáv + kvuca + tér + felelősség, nem aznap kitalált spontán, cél nélküli program), másik oldalon \"AI-határok\" 2–3 pontban (a 4.1. blokk szerint: nincs konkrét hanih-név/sztori; gyermekvédelmi ügyben a Memunához (a Somer gyermekvédelmi felelőséhez), nem AI-hoz; az AI csak ötletel, a felelősség a madrihé – 4.2. blokk).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -30361,7 +30361,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4aae211e03de0af751a55d1aface375ddf071de7e07e691388e25712fb43b688",
+      "spec_hash": "8ed8d54cf5d3f355c178bd9544f7410dcb1d8551c1671bd62a15f6208cc773ec",
       "deliverable_ids": [
         "M7.B-POSZ-01",
         "M7.B-POSZ-01::PRINTPDF"
@@ -30384,7 +30384,7 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Falra kifüggesztett poszter: a Zmán Kvucá-checklist 5 területe nagyban",
-      "purpose": "Vizuális horgony az egész peulához; a galériaséta tanulság-körében (4.3) is erre utalnak vissza (\"idő és helyszín; létszám és madrih–hanih arány; anyagok, technika és B-terv; hozzáférhetőség és inkluzivitás; gyermekvédelem és határok – melyik Zmán Kvucá-szempont hozta a változást?\").",
+      "purpose": "Vizuális horgony az egész peulához; a galériaséta tanulságkörében (4.3) is erre utalnak vissza (\"idő és helyszín; létszám és madrih–hanih arány; anyagok, technika és B-terv; hozzáférhetőség és inkluzivitás; gyermekvédelem és határok – melyik Zmán Kvucá-szempont hozta a változást?\").",
       "spec": "Nagyméretű, falra kifüggeszthető poszter, amely az 5 Zmán Kvucá-területet jeleníti meg jól láthatóan: 1) Idő & helyszín, 2) Létszám & madrih–hanih arány, 3) Anyagok, technika & B-terv, 4) Hozzáférhetőség & inkluzivitás, 5) Gyermekvédelem & határok. Cím + 5 jól elkülönülő blokk, opcionálisan ikonokkal.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
@@ -30406,7 +30406,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A galériaséta (Blokk 3) tanulság-kérdése (4.3. blokk) erre az 5 területre hivatkozik (idő & helyszín; létszám & madrih–hanih arány; anyagok, technika & B-terv; hozzáférhetőség & inkluzivitás; gyermekvédelem & határok).",
+      "notes": "A galériaséta (Blokk 3) tanulságkérdése (4.3. blokk) erre az 5 területre hivatkozik (idő & helyszín; létszám & madrih–hanih arány; anyagok, technika & B-terv; hozzáférhetőség & inkluzivitás; gyermekvédelem & határok).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -30421,7 +30421,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "27b85f6c264f5cbd2f417175591892000b60e59de4672fd31912b0ea208dd74a",
+      "spec_hash": "1f732fd5db292aa744b029a43c59fc98a3270730fdcac235d6342b9291f97cd0",
       "deliverable_ids": [
         "M7.B-POSZ-02",
         "M7.B-POSZ-02::PRINTPDF"
@@ -30438,14 +30438,14 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
-      "line": 162,
+      "line": 164,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Jegyzetlap – '1 gondolat / 1 kérdés leckénként' (L1–L4) + opcionális javítási terv",
       "purpose": "Strukturált önreflexió a kapun kapott visszajelzés mellé: leckénként kirajzolódjon, mit ért és hol bizonytalan a résztvevő, különösen a nem teljesült kapurészhez tartozó leckéknél; egyúttal (opcionálisan begyűjthető) név nélküli kérdésgyűjtés alapja a fogalomtérképhez (4.2. blokk, 3. lépés; 4.3. blokk, 2. lépés).",
-      "spec": "Nyomtatható egyéni munkalap/jegyzetlap, leckénként 2–2 sorra felosztva: L1, L2, L3, L4 – mindegyikhez '1 gondolat / 1 kérdés'. Minden leckéhez hely 1 mondatnyi 'legfontosabb gondolat' és 1 'benne maradt kérdés' beírásához; üres válasz helyett megadható: 'még nem kezdtem el' / 'ezt pótolnom kell' (4.2. blokk, 3. lépés). Az alján (opcionális) 1 soros hely a privát javítási tervnek a javító próbálkozásig (4.4. blokk, 3. lépés: pl. 'A visszajelzés 1. lépése szerint átírom a SMART célomat, és újranézem a Zmán Kvucá-checklistet (M7.3).').",
+      "spec": "Nyomtatható egyéni munkalap/jegyzetlap, leckénként 2–2 sorra felosztva: L1, L2, L3, L4 – mindegyikhez '1 gondolat / 1 kérdés'. Minden leckéhez hely 1 mondatnyi 'legfontosabb gondolat' és 1 'benne maradt kérdés' beírásához; üres válasz helyett megadható: 'még nem kezdtem el' / 'ezt pótolnom kell' (4.2. blokk, 3. lépés). Az alján (opcionális) 1 soros, letéphető csík a privát javítási tervnek a javító próbálkozásig (4.4. blokk, 3. lépés: pl. 'A visszajelzés 1. lépése szerint átírom a SMART célomat, és újranézem a Zmán Kvucá-checklistet (M7.3).'): a résztvevő megtartja; ha a lapot név nélkül begyűjtötték, a terv külön cetlire kerül.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -30467,7 +30467,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A Blokk 2 lépés 3 (1 gondolat/1 kérdés) és a Blokk 4 opcionális javítási terve (exit) is ugyanezt a lapot használja.",
+      "notes": "A Blokk 2 lépés 3 (1 gondolat/1 kérdés) ezt a lapot használja; a Blokk 4 opcionális javítási terve (exit) a lap letéphető csíkjára kerül, amelyet a résztvevő megtart, vagy – ha a lapot begyűjtötték – külön cetlire.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -30482,7 +30482,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e128606cebd0fb2915e40deed4b57f0d4b1b25dd2fbf3cbe3d6215224bfb8330",
+      "spec_hash": "6040b90d3b5d6c812b8009ed082706a2d3bada0800ed2842a6e07ef4628b9957",
       "deliverable_ids": [
         "M7.F-MUNK-01",
         "M7.F-MUNK-01::PRINTPDF",
@@ -30500,14 +30500,14 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
-      "line": 341,
+      "line": 343,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista (1 A4) – peula előtt/közben/után",
       "purpose": "Gyors, nyomtatható segédlet a képzőnek a peula konzisztens, biztonságtudatos levezetéséhez.",
-      "spec": "Egyoldalas, A4-es nyomtatható képzői ellenőrző lista a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (F-peula: kötelező javítási alkalom annak, akinek az M7 éles kapuja nem teljesült, nem büntetés; cél: a kapun kapott visszajelzés alapján haladás a nem teljesült rész javításában + a hozzá tartozó M7.1–M7.4 leckerészek újranézése / pótlása + 4 fogalom összekapcsolása, a javító próbálkozás előkészítéseként); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1–2 tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalomtérkép-flipchart); (3) Tér működik? (csendes online munka; nagykör; nyugodt, de átlátható pont egyéni beszélgetéshez; kettesben zajló (1:1) beszélgetés csak indokolt esetben, átlátható módon és egy másik felelős tudtával); (4) Biztonsági keret a fejemben? (nem szégyenlista; frusztráció-reagálás; a Memunát kell bevonni, ha valakit mélyen érint egy gyermekvédelmi téma; külső AI-ba nem kerülhet hanih beazonosítható vagy érzékeny adata); (5) Időkeret reális? (a 20 perces csendes pótlás szent idő; csúszáskor a fogalomtérképes rész rövidíthető, de a záró üzenet marad); (6) Híd kimondása? (a modulkapu javító próbálkozása: előbb a kvíz, utána a Peula v2 + checklist).",
+      "spec": "Egyoldalas, A4-es nyomtatható képzői ellenőrző lista a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (F-peula: kötelező javítási alkalom annak, akinek az M7 éles kapuja nem teljesült, nem büntetés; cél: a kapun kapott visszajelzés alapján haladás a nem teljesült rész javításában + a hozzá tartozó M7.1–M7.4 leckerészek újranézése / pótlása + 4 fogalom összekapcsolása, a javító próbálkozás előkészítéseként); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1–2 tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalomtérkép-flipchart; a közös eszközön mindenki a saját fiókjával dolgozik, és a munka végén kijelentkezik, hogy a szabad szöveges válaszait más ne lássa); (3) Tér működik? (csendes online munka; nagykör; nyugodt, de átlátható pont egyéni beszélgetéshez; kettesben zajló (1:1) beszélgetés csak indokolt esetben, átlátható módon és egy másik felelős tudtával); (4) Biztonsági keret a fejemben? (nem szégyenlista; frusztráció-reagálás; a Memunát kell bevonni, ha valakit mélyen érint egy gyermekvédelmi téma; külső AI-ba nem kerülhet hanih beazonosítható vagy érzékeny adata); (5) Időkeret reális? (a 20 perces csendes pótlás szent idő; csúszáskor a fogalomtérképes rész rövidíthető, de a záró üzenet marad); (6) Híd kimondása? (a modulkapu javító próbálkozása: előbb a kvíz, utána a Peula v2 + checklist; határideje az M7 javító határideje, a Z utáni hét szerdája, 18:00 – ha a kvíz első próbálkozása nem teljesült, a Peula v2 határideje is ez; a peula után a képző megnyitja a javító próbálkozást annak, akinek a kapuja nem teljesült – kvíznél felhasználói felülbírálással, az Assignmentnél újabb próbálkozás engedélyezésével –, ha nem az F-peula jelenléti completionje nyitja meg).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -30543,7 +30543,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d30585639fb83ef35411bf0bd528e2930cc9b4324cc89a56c791d21c08b02da1",
+      "spec_hash": "2192bfc8bf58bb9d1c50aea8f8607e989198dd954cebe45ef5d0127f371d99e3",
       "deliverable_ids": [
         "M7.F-MUNK-02",
         "M7.F-MUNK-02::PRINTPDF"
@@ -30560,7 +30560,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
-      "line": 104,
+      "line": 106,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -30620,7 +30620,7 @@
       "module": "M7",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md",
-      "line": 223,
+      "line": 225,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -30634,7 +30634,7 @@
         "note": "Flipchart-lap vagy A1 poszter; 4 előre elhelyezett, feliratozott buborék + üres rajzolható tér a kulcsszavaknak és nyilaknak; filccel (2.1) kiegészíthető; magyar nyelvű."
       },
       "a11y": {
-        "note": "A térképre felírt kulcsszavakat és összefüggéseket a képző hangosan is összegzi (4.3. blokk, 4. lépés: mini-keret), így nem csak vizuálisan érhető el."
+        "note": "A térképre felírt kulcsszavakat és összefüggéseket a képző hangosan is összegzi (4.3. blokk, 4. lépés: minikeret), így nem csak vizuálisan érhető el."
       },
       "derivatives": [
         "print-pdf"
@@ -30663,7 +30663,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "70badf0ba74409eb7203b7b801bf993a91072ae808ba31424e0e763a1ef82b46",
+      "spec_hash": "8306a07039475b71cec58ddac644517c255e660507e37a657c8d3ccafa70b601",
       "deliverable_ids": [
         "M7.F-POSZ-02",
         "M7.F-POSZ-02::PRINTPDF"
@@ -48911,7 +48911,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
       "file_kind": "online-lecke",
-      "title": "Példa prompt-kártya (AI-blokk)",
+      "title": "Példa promptkártya (AI-blokk)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -48932,7 +48932,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md",
       "file_kind": "online-lecke",
-      "title": "Példa prompt-kártya (AI-blokk) — alt-szöveg",
+      "title": "Példa promptkártya (AI-blokk) — alt-szöveg",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -50171,7 +50171,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
       "file_kind": "online-lecke",
-      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél)",
+      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + kvuca-infó + SMART cél)",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -50195,7 +50195,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
       "file_kind": "online-lecke",
-      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél) — felirat",
+      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + kvuca-infó + SMART cél) — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -50219,7 +50219,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
       "file_kind": "online-lecke",
-      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + meta + SMART cél) — leirat",
+      "title": "Opcionális narráció – GYAKORLAT 1 (kvuca-típus + kvuca-infó + SMART cél) — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -50411,7 +50411,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "„Szétfolyó cél” kártyaszett a sarok-játékhoz",
+      "title": "„Szétfolyó cél” kártyaszett a sarokjátékhoz",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50432,7 +50432,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "„Szétfolyó cél” kártyaszett a sarok-játékhoz — nyomtatható PDF",
+      "title": "„Szétfolyó cél” kártyaszett a sarokjátékhoz — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50537,7 +50537,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "Képzői felolvasó-kulcs a sarok-játékhoz (besorolás + indok)",
+      "title": "Képzői felolvasó-kulcs a sarokjátékhoz (besorolás + indok)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50558,7 +50558,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "Képzői felolvasó-kulcs a sarok-játékhoz (besorolás + indok) — nyomtatható PDF",
+      "title": "Képzői felolvasó-kulcs a sarokjátékhoz (besorolás + indok) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50621,7 +50621,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "Tábla / flipchart-sablon – kulcsszavak és SMART irányító-kérdések",
+      "title": "Tábla / flipchart-sablon – kulcsszavak és SMART irányító kérdések",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50642,7 +50642,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md",
       "file_kind": "peula",
-      "title": "Tábla / flipchart-sablon – kulcsszavak és SMART irányító-kérdések — nyomtatható PDF",
+      "title": "Tábla / flipchart-sablon – kulcsszavak és SMART irányító kérdések — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50705,7 +50705,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
       "file_kind": "peula",
-      "title": "A/B sarok-kvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap)",
+      "title": "A/B sarokkvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50726,7 +50726,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
       "file_kind": "peula",
-      "title": "A/B sarok-kvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap) — nyomtatható PDF",
+      "title": "A/B sarokkvíz 5 állítása (felolvasandó kártyaszett / képzői segédlap) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50915,7 +50915,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
       "file_kind": "peula",
-      "title": "Kipróbálási kötelezettségvállalás – ha–akkor mini sablon (3 sor)",
+      "title": "Kipróbálási kötelezettségvállalás – ha–akkor minisablon (3 sor)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -50936,7 +50936,7 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md",
       "file_kind": "peula",
-      "title": "Kipróbálási kötelezettségvállalás – ha–akkor mini sablon (3 sor) — nyomtatható PDF",
+      "title": "Kipróbálási kötelezettségvállalás – ha–akkor minisablon (3 sor) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
