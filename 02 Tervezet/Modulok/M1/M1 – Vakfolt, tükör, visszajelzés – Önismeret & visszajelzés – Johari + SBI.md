@@ -27,13 +27,13 @@ A modul végére a résztvevő…
    – **Meg tudja nevezni** a Johari-ablak 4 mezőjét, és **saját (akár fiktív) példával illusztrálja**, miért természetes, hogy mindenkinek vannak **vakfoltjai** – és hogy a visszajelzés ezek feltárásában segít, nem „megtámad”.
    – Támogató tartalmak: M1.1, M1.A, M1.F.
 2. **Megfigyelés vs. címkézés**
-   – **Megkülönbözteti** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – **legalább 4/5 tételben helyesen besorolja** *(formatív célérték, nem kapuzott)*, és **címkéből megfigyelést ír át**.
+   – **Megkülönbözteti** a **konkrét megfigyelést** („háromszor közbevágott”) a **címkézéstől / értelmezéstől** („tiszteletlen voltál”) – a mondatokat **helyesen besorolja** a két kategóriába *(formatív, nem kapuzott)*, és **címkéből megfigyelést ír át**.
    – Támogató tartalmak: M1.2, M1.A, M1.B, M1.F.
 3. **SBI-nyelv használata**
    – **Megír egy 2–3 mondatos, egyszerű, de korrekt SBI-visszajelzést, amely tartalmaz S-t (helyzet), B-t (viselkedés) és I-t (hatás)**.
    – Támogató tartalmak: M1.3, M1.4, M1.B, M1.F.
 4. **Visszajelzéshez való viszony** *(nem értékelt, nevelési cél)*
-   – **Megfogalmaz** a záróreflexióban **1 mondatot arról, milyen visszajelzés segített már neki**, és **megnevezi**, mit tesz legközelebb, amikor visszajelzést kap – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk; reflexiós produktumként jelenik meg, nem a kapu része.)*
+   – **Végiggondolja**, milyen visszajelzés volt már hasznos neki (az M1.A kiscsoportos reflexiójában, szóban), és visszajelzést nemcsak ad, hanem **kap is** (M1.B) – így tudatosul, hogy a visszajelzés **tanulási eszköz**, nem csak kritika. *(Ezt a viszonyulást nem pontozzuk, és nem a kapu része.)*
    – Támogató tartalmak: M1.1–M1.4, M1.A, M1.B, M1.F.
 5. **Modulproduktum előállítása**
    – **Elkészít** 1–2 db **2–3 mondatos SBI-vázat** kitalált, életszerű helyzetre, és **feltölti** az Assignmentbe.
@@ -90,13 +90,12 @@ A modul végére a résztvevő…
 ### M1.2 – „Megfigyelés ≠ értelmezés” (15–20’)
 
 * **Cél:**
-  **Besorolni 4/5 mondatot helyesen** „megfigyelés” vagy „értelmezés / címke” kategóriába – így megmutatva, hogy **nem mindegy, megfigyelést vagy címkét mondunk-e**, és hogy a jó visszajelzés megfigyelésre épül. (A címkék megfigyeléssé átírását a résztvevő élőben, az M1.A peulán gyakorolja, és az SBI-írásban – M1.3–M1.4 – használja élesben.)
+  **Helyesen besorolni a mondatokat** „megfigyelés” vagy „értelmezés / címke” kategóriába – így megmutatva, hogy **nem mindegy, megfigyelést vagy címkét mondunk-e**, és hogy a jó visszajelzés megfigyelésre épül. (A címkék megfigyeléssé átírását a résztvevő élőben, az M1.A peulán gyakorolja, és az SBI-írásban – M1.3–M1.4 – használja élesben.)
 * **Fókusz:**
   „Bunkó voltál” vs. „háromszor közbevágott, amíg más beszélt” típusú különbségek; „kamera” (tényszerű leírás) vs. „kommentár a fejemben”.
 * **Eszközök:**
-  H5P Drag & Drop / Mark the Words – mondatok besorolása „megfigyelés” vagy „értelmezés / címke” kategóriába; rövid felidézés a Johari-vakfoltról.
+  H5P Mark the Words és húzásmentes (rádiógombos) besorolás – mondatok besorolása „megfigyelés” vagy „értelmezés / címke” kategóriába.
 * **Tartalom röviden:**
-  Rövid visszacsatolás M1.1-re (miért fontos, *hogyan* adunk visszajelzést);
   példamondatok, ahol dönteni kell megfigyelés vs. címke között;
   mini-szabályok (konkrét idő/hely/viselkedés = megfigyelés; minősítő jelzők = címke);
   Check: 3 rövid záró kérdés a megfigyelés–címke különbségre (nem átírás).
@@ -114,7 +113,7 @@ A modul végére a résztvevő…
 * **Tartalom röviden:**
   Példa-SBI-k szétszedése (hol az S, B, I);
   Activity 1: félig kész SBI-mondatok kiegészítése saját szavakkal (S, B, I);
-  Activity 2: saját mini-helyzet felvázolása (valós vagy fiktív);
+  Activity 2: saját mini-helyzet felvázolása (csak kitalált);
   Check: önellenőrző lista – van-e hely és idő, megfigyelhető viselkedés, érthető hatás, és a viselkedésről szól-e (nem minősíti a személyt, nincs benne „mindig / soha”).
 
 ***
@@ -144,11 +143,12 @@ A modul végére a résztvevő…
 * **Fókusz:**
   Johari „életbe léptetése” (nagy Johari-ablak, saját példák) + megfigyelés/címke játékok biztonságos térben.
 * **Rövid percbontás-vázlat:**
-  1. 0–5’ – Ráhangolódás: milyen érzés a „visszajelzés” szó.
-  2. 5–15’ – Nagy Johari-ablak megrajzolása, példák a 4 mezőre.
-  3. 15–30’ – „Megfigyelés vagy címkézés?” játék (oldalválasztás / kártyák).
-  4. 30–40’ – Kiscsoportos beszélgetés saját (akár fiktív) példákkal.
-  5. 40–45’ – Zárókör + híd az SBI-hez („legközelebb megnézzük, hogyan mondjuk el jól”).
+  1. 0–5’ – Ráhangoló kör: „Mi jut eszedbe az önismeretről?”
+  2. 5–20’ – Johari-ablak + post-it-ek a nagy táblára (Nyitott / Rejtett; a Vakfolt-mező most üresen marad).
+  3. 20–32’ – „Megfigyelés vagy címkézés?” mozgásos játék + átvezetés a saját cetlikre.
+  4. 32–41’ – Mini-reflexió 3–4 fős kiscsoportokban.
+  5. 41–44’ – Záró üzenet + online híd az SBI-hez (M1.3–M1.4).
+  6. 44–45’ – Kilépőkártya (1 szó).
 
 ***
 
@@ -218,8 +218,8 @@ A modul végére a résztvevő…
 **Rövid percbontás-vázlat:**
 
 1. 0–5’ – Ráhangolódás: **privát** önellenőrzés – mindenki magának nézi meg a Moodle-ben a kapun kapott visszajelzését és azt, hol tart az M1.1–M1.4 leckékkel, és kiválasztja, mivel foglalkozik. **Név szerinti haladási státusz nem kerül közös táblára**; ha a képzőnek kell a kép, azt a Moodle-ben vagy a saját, nem nyilvános mentorjegyzetében nézi meg – ebbe csak a fejlődéstámogatáshoz szükséges minimális adat kerül, „árnyékdosszié” nem készül. A mentorjegyzet megőrzésére az `Adatvédelem – tanulói adatok és AI.md` §3 mátrixának a mentori 1:1 meta-naplóra vonatkozó sora érvényes. A közös falra legfeljebb **név nélküli témakérés** kerül („miben kérsz ma segítséget?”).
-2. 5–25’ – Csendes pótlás és javítás fülessel (H5P-k, videók, a javított SBI vázlata); jegyzetlap: „leckénként 1 gondolat, 1 kérdés”.
-3. 25–40’ – Közös fogalomtérkép: Johari – megfigyelés vs. címke – SBI; kérdések–válaszok, a kapun kapott visszajelzésekben jelzett hiányokra fókuszálva.
+2. 5–25’ – Csendes pótlás és javítás fülessel (H5P-k, videók, a javított SBI vázlata); jegyzetlap: „1 mondat + 1 kérdés”.
+3. 25–40’ – Kérdések–válaszok + rövid magyarázat: Johari, megfigyelés ≠ címke, SBI – a kapun kapott visszajelzésekben jelzett hiányokra fókuszálva.
 4. 40–45’ – Zárókör + híd a javító próbálkozás felé: ki mit fog még pótolni, és mire figyel a javított SBI-ben; megerősítés, hogy a felzárkózás **felelősségvállalás, nem ciki**.
 
 ***
@@ -238,7 +238,7 @@ A modul végére a résztvevő…
 
 A kapu **hivatalos, 4 soros rubrikáját** az [M1 – KAPU – értékelő (item-bank + rubrika)](./M1%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájl tartalmazza (soronként 0/1/2 pont). A négy sor:
 
-1. Szituáció (S) **konkrét-e** (hely, idő, kontextus).
+1. Helyzet (S) **konkrét-e** (hely, idő, kontextus).
 2. Viselkedés (B) **megfigyelhető-e** (nincs címke, kamera is felvenné).
 3. Hatás (I) **érthető / hiteles-e** (S–B–I logika felismerhető).
 4. **Tisztelettudó, nem támadó hangnem** – a viselkedésről szól (nem a személyt minősíti), nincs „mindig/soha”, a másik nem védekezve tudna rá reagálni.
@@ -268,15 +268,11 @@ A kapu **hivatalos, 4 soros rubrikáját** az [M1 – KAPU – értékelő (item
    * a csoport >30%-a nem fejezte be M1.2-t → célzott emlékeztető a **csendes pótlásra** (önálló pótlás), fókuszban a „megfigyelés ≠ címke” rész; az **M1.F felzárkóztató peula (F-peula)** nem általános pótlás, hanem annak szól, akinek az M1 kapuja nem teljesült.
    * a csoport >30%-a nem adta le az M1.4 Assignmentet → célzott emlékeztető + mentorjelzés.
 2. **H5P statisztikák**
-   – M1.2 Drag & Drop / Mark the Words hibás mondatai: jelzik, hogy a „megfigyelés vs. címke” rész hol szorul erősítésre; erre lehet ráerősíteni M1.A-ban és M1.B-ben.
+   – M1.2 besorolási feladat / Mark the Words hibás mondatai: jelzik, hogy a „megfigyelés vs. címke” rész hol szorul erősítésre; erre lehet ráerősíteni M1.A-ban és M1.B-ben.
 3. **Assignment eredmények (M1.4 SBI)**
    – Rubrika-szintek eloszlása mind a négy sorban (S, B, I, hangnem);
    – ha sok 0 pont van a „Viselkedés megfigyelhetősége” sorban → több példa, extra gyakorlás M1.B-ben, illetve plusz AI-videós magyarázat későbbi finomhangoláskor.
-4. **Offline visszajelzés**
-   – M1.B végén 1 perces, név nélküli kérdés:
-   * „Mennyire érzed, hogy tudnál SBI-t használni a való életben? (1–5)”
-   * „Mi az, ami még zavaros?”
-5. **Program-szintű mutatók (M1-re fókuszálva)**
+4. **Program-szintű mutatók (M1-re fókuszálva)**
    – M1 teljesítési arány (hányan teljesítik az Assignment-kaput első / második próbálkozásra);
    – M1-nél jelentkező „kiesési pontok”: ahol sok a félbehagyott lecke vagy hiányzó Assignment – ezekre a következő évben extra támogatást (pl. több példa, rövidebb videók, gyakorló peula-elemek) érdemes tervezni.
 

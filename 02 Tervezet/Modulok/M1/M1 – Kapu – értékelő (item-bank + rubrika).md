@@ -18,14 +18,14 @@
 | Mező | Érték |
 |---|---|
 | **Melyik kapuhoz tartozik** | M1 – „Vakfolt, tükör, visszajelzés” modul **éles teljesítési kapuja** (az SBI-nyelv produktív használata). |
-| **Mit mér a kapu** | Tud-e a résztvevő **konkrét szituációra (S)**, **megfigyelhető viselkedésre (B)** és **érthető hatásra (I)** épülő, **címkézésmentes, tisztelettudó**, 2–3 mondatos SBI-visszajelzést **írni**. |
+| **Mit mér a kapu** | Tud-e a résztvevő **konkrét helyzetre (S)**, **megfigyelhető viselkedésre (B)** és **érthető hatásra (I)** épülő, **címkézésmentes, tisztelettudó**, 2–3 mondatos SBI-visszajelzést **írni** (a mondatszám útmutatás, nem pontozott küszöb). |
 | **Fő LMS-eszköz (a kapu maga)** | **Moodle Assignment** (M1.4 – online text beadó) + **Rubric** (alábbi 4 soros, szintezett rubrika). Grading method: *Rubric*. |
 | **Kapuküszöb (hivatalos)** | **Minden rubrikasor eléri legalább a „Rendben” szintet (≥1 pont) ÉS legalább egy sor eléri az „Erős” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: a „Még nem” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért a teljesítéshez kevés.) |
 | **Próbálkozás** | **1 normál + 1 javító próbálkozás**; éles kapunál a javító próbálkozás nem automatikus, hanem a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele); további próbálkozást a képző nyithat, kézzel. A teljesítéshez **a legjobb megerősített eredmény** számít: egy már megerősített teljesítés önkéntes, gyakorló újrabeadástól nem romlik vissza, a legfrissebb próbálkozás visszajelzésként megmaradhat. Nem teljesített eredménynél rövid képzői visszajelzés a beadott szövegre, **Megfigyelés → Hatás → Következő lépés** szerkezetben (ez produktum-visszajelzés, ezért nem SBI: az SBI viselkedésre való) + a javító próbálkozás megnyitása az F-peula után. Ha a kapu nem teljesült, a [Program terv](../../Program%20terv.md) §5 szerint az **M1.F felzárkóztató peula (F-peula)** kötelező: facilitált, strukturált javítási alkalom (egyéni vagy kiscsoportos támogatás) a kapueredmény megerősítése után, a javító próbálkozás előtt; időpontját a képző jelöli ki a központi naptár szerint (hétfő 18:00-tól). Kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4.2 safer-working szabálya érvényes: 1:1 csak indokolt esetben, átlátható módon és egy másik felelős tudtával (HUM-SAFE-02). |
 | **Újraértékelés** | A madrih kérheti, hogy **az eredeti értékelőtől eltérő második képző** nézze át a beadást és a kapudöntést, **még mielőtt megnyílna a sikeres kapueredményhez kötött következő lépés, az M3 kapufeladata** (az M2 tanulási része a megerősített eredménnyel már nyílik: Q-REL-2, BS-D2; [Program terv](../../Program%20terv.md) §5, „Újraértékelés az éles kapukon”). |
 | **Megerősítési határidő** | A kapueredményt legkésőbb **24 órával a következő fix alkalom (az M2.A peula) előtt** meg kell erősíteni. Pénteki M2.A esetén: beadás szerda 18:00-ig, első értékelés csütörtök délután, megerősítés legkésőbb csütörtök 18:00-ig. **A függőben lévő (még nem megerősített) eredmény nem bukás.** |
-| **Gyermekvédelmi feltárás a beadványban** | Nem kezeljük egyszerű „tanulói beadandóként”, és nem normál tanulási rekord: a gyermekvédelmi protokoll lép életbe ([Adatvédelem – tanulói adatok és AI](../../Adatvédelem%20–%20tanulói%20adatok%20és%20AI.md) §5) – azonnal bevonod a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét; összeférhetetlenség esetén a név szerint kijelölt helyettesét). Az ügy dokumentációja nem Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül; a rubrikába és a Moodle-visszajelzésbe nem írsz róla azonosítható részletet. A spontán megjelenő különleges vagy gyermekvédelmi adatot a **HUM-PRIV-01** és a **HUM-SAFE-01** szerint kell kezelni ([LMS – activity manifest](../../LMS%20–%20activity%20manifest.md) §1). |
-| **Kísérő mérés (NEM kapu)** | A 3. szakasz item-bankja (Moodle Quiz / **H5P Question Set**) **formatív / completion** – a felismerő tudást méri, nincs ≥80% küszöbe, nem dönt a kapuról. |
+| **Gyermekvédelmi feltárás a beadványban** | Nem kezeljük egyszerű „tanulói beadandóként”, és nem normál tanulási rekord: a gyermekvédelmi protokoll lép életbe ([Adatvédelem – tanulói adatok és AI](../../Adatvédelem%20–%20tanulói%20adatok%20és%20AI.md) §5) – azonnal bevonod a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét; összeférhetetlenség esetén a név szerint kijelölt helyettesét). Az ügy dokumentációja nem Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül; a rubrikába és a Moodle-visszajelzésbe nem írsz róla azonosítható részletet. A spontán megjelenő különleges vagy gyermekvédelmi adatot a **HUM-PRIV-01** és a **HUM-SAFE-01** szerint kell kezelni ([LMS – activity manifest](../../LMS%20–%20activity%20manifest.md) §1). A kapueredmény nem függhet a feltárástól: a tanuló biztonságos, feltárásmentes pótlási utat kap. Bizonyítékot jogi megőrzési felülvizsgálat nélkül nem törlünk automatikusan. |
+| **Kísérő mérés (NEM kapu)** | A 3. szakasz item-bankja **szerzői itempool**: külön Moodle-activity és manifest-sor nem készül hozzá. Formatív, a felismerő tudást méri, nincs ≥80% küszöbe, nem dönt a kapuról. |
 
 > **Fontos elhatárolás.** A kapu maga a **produktív** beadvány (SBI írása) – ez méri a tényleges kimeneti kompetenciát. A kvíz-itemek (S/B/I azonosítás, megfigyelés vs. címke) **felismerést** mérnek, és csak gyakorlásra/önellenőrzésre valók. Ne keverd a kettőt: a kvíz **nem** „ment meg” senkit, ha a beadott SBI nem éri el a rubrikaküszöböt – a kvíz eredménye a kapudöntést egyik irányban sem befolyásolja.
 
@@ -44,7 +44,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 
 ***
 
-### 1. sor – Szituáció (S) konkrétsága
+### 1. sor – Helyzet (S) konkrétsága
 
 *Kérdés a szöveghez:* „Pontosan tudom-e a szövegből, **mikor / hol / milyen helyzetben** történt?”
 
@@ -52,7 +52,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 |---|---|---|
 | **Még nem (0)** | Nincs időpont és nincs kontextus; a helyzet azonosíthatatlan, vagy csak a viselkedésre/érzésre utal. | „Amikor így viselkedsz, rossz nekem.” / „Mindig ezt csinálod.” |
 | **Rendben (1)** | Van valamilyen helyzet-megjelölés, de **tág / általános**, nem köthető konkrét alkalomhoz. | „Amikor a peulán ilyen voltál…” / „A kenben szoktál…” |
-| **Erős (2)** | Érthető a **konkrét alkalom**: idő ÉS/VAGY hely ÉS a helyzet szakasza azonosítható. | „Amikor ma a játék közben, a kör második felében…” |
+| **Erős (2)** | Érthető a **konkrét alkalom**: az idő vagy a hely (vagy mindkettő) ÉS a helyzet releváns szakasza azonosítható. (Pontozói példák: „ma” + „a kör második felében” = Erős; „a peulán”, szakasz nélkül = Rendben, lásd 4.1.) | „Amikor ma a játék közben, a kör második felében…” |
 
 ### 2. sor – Viselkedés (B) megfigyelhetősége (nincs címke)
 
@@ -76,9 +76,11 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 
 ### 4. sor – Tisztelettudó, nem támadó hangnem
 
-*Kérdés:* „A szöveg a **viselkedésről** beszél-e (megtartható kapcsolatban), vagy a **személyt támadja / minősíti**?”
+*Kérdés:* „A szöveg a **viselkedésről** beszél-e, vagy a **személyt támadja / minősíti**?” *(A kapcsolat megtartása ennek a pedagógiai oka, nem külön pontozott szempont.)*
 
 > Ez a sor **nem az S/B/I meglétét** méri (azt az 1–3. sor lefedi), hanem a **megszólítás módját**: a hangnemet, a címkementességet és azt, hogy a másik tudna-e rá nem védekezve reagálni. Ez a modul saját tanítása: az SBI attól működik, hogy „nem egy nagy címkét akasztasz a másikra” (M1.2), és „nehezebb rá azt mondani, hogy igazságtalan vagy túloz” (M1.3).
+>
+> **Nincs kettős levonás:** ugyanazért az enyhe minősítő szóért csak egyszer vonj le. Ha a minősítés a viselkedés leírásába csúszik be, azt a 2. sor (B) viseli; a hangnem-sor emiatt csak akkor kerül „Erős” alá, ha a szövegben ettől független, önállóan igazolható kommunikációs hiba is van.
 
 | Szint | Megfigyelhető szövegjegy | Idézhető példa a beadványból |
 |---|---|---|
@@ -129,7 +131,7 @@ A táblázat 2. és 3. esete a lényeg: **ha bármelyik rubrikasor 0 maradt, a b
 
 ## 3. Kísérő item-bank (formatív / completion – NEM a kapu)
 
-Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **LMS-eszköz: Moodle Quiz vagy H5P Question Set, completion-alapú, küszöb nélkül.** A disztraktorok **plauzibilisek**: mindegyik egy valós madrih-tévedést testesít meg (címke, általánosítás, hatás helyett érzés), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli. Az opciók félkövér kiemelése és dőlt, zárójeles típusmegjegyzése szerzői jelölés: a kvízbe egyik sem kerül át.
+Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonosítás, megfigyelés vs. címke, hangnem). **Szerzői itempool: külön Moodle-activity és manifest-sor nem készül hozzá; a szabad szöveges itemek (Item 5–6) tárolt activitybe nem kerülnek.** A disztraktorok **plauzibilisek**: mindegyik egy valós madrih-tévedést testesít meg (címke, általánosítás, hatás helyett érzés), nem nyilvánvaló töltelék. A helyes választ ✅ jelöli. Az opciók félkövér kiemelése és dőlt, zárójeles típusmegjegyzése szerzői jelölés: a kvízbe egyik sem kerül át.
 
 > Megjegyzés a construct-validitásról: a leckékben több disztraktor túl könnyű volt (pl. az egyetlen időhatározós opció felületi mintázatból megfejthető). Az alábbi itemeknél ezért **minden disztraktor egy-egy konkrét SBI-hibatípus**, és van **alkalmazó (író) item** is, nem csak besorolás.
 
@@ -295,15 +297,18 @@ A pontokat **soronként idézett szövegjeggyel** indokoljuk, és a visszajelzé
 ## 5. Moodle-beállítási gyorslista (a kapuhoz)
 
 - **Activity:** Assignment (M1.4) – Online text submission ✅ + File submission ✅ (a két út egyenértékű, Program terv §5).
+- **Fájlos út:** „Maximum number of uploaded files” = 1; az „Accepted file types” a hozzáférhető sablon (M1.4-MUNK-01) formátumaihoz igazodik, például .docx, .odt, .pdf. Kép- vagy képernyőkép-feltöltés nem szükséges, és nem ösztönözzük. A beállítást és az akadálymentességet a célverzión kell ellenőrizni.
 - **Grading method:** Rubric → vidd be a fenti 4 sort, soronként 0/1/2 ponttal és a szintleírásokkal.
 - **A rubrika a tanulónak:** a tanuló a rubrikát a beadás előtt is lássa („Allow users to preview rubric” = Yes; a MOODLE_405_STABLE alapértéke is ez), értékelés után pedig soronként a kapott szintet és a megjegyzést. A további beállításneveket a célverzión kell igazolni; a tanulói nézetet tanulói tesztfiókkal kell visszaolvasni (G3b).
 - **Grade:** Type = Point, **Maximum grade = 8** (4 sor × 2 pont). A Moodle a rubrika pontösszegét arányosan átszámítja a maximális jegyre, ezért a lenti „Grade to pass = 5” csak így jelent 5/8-ot.
 - **Két beadott SBI esetén:** a rubrikát SBI-nként alkalmazd. A hub §6 szerint a kapu teljesül, ha legalább az egyik SBI eléri a küszöböt; ilyenkor ennek az SBI-nek a pontjait rögzítsd.
+- **Ha a beadás a lecke kész mintáját adja vissza:** a mintaválasz szó szerinti vagy közel szó szerinti bemásolása önmagában nem kompetencia. A rubrikával azt értékeld, mennyire igazította a tanuló a mintát a saját választott helyzetéhez (adaptáció, helyzetre szabás).
 - **Grade to pass (csak az összpont-komponens):** **5** (a 8-ból). ⚠️ Ez **önmagában nem a kapu**, csak a küszöb numerikus fele. A Moodle natívan az **összpontot** kapuzza, a „minden sorban ≥1” sorküszöböt nem látja – egy **0 + 1 + 2 + 2 = 5** pontos beadvány tehát elérheti a nyers 5-ös határt úgy, hogy a **hivatalos kapun megbukik**.
 - **A kapu hivatalos (szemantikus) eredménye:** a rubrika kitöltése után a képző rögzíti, hogy **mindkét feltétel** teljesült-e – (a) minden sor ≥1 **ÉS** (b) összpont ≥5/8. **„Teljesítve” csak akkor**, ha mindkettő igaz. Ha bármely sor 0, az eredmény **„Még nem teljesítve” / újrapróbálható**, a pontösszegtől függetlenül.
 - **Továbblépés (unlock):** a következő kapuzott activityt a **megerősített, összetett kapueredmény** nyitja, **nem** a nyers ≥5-ös pontszám. Amíg nincs igazolva, hogy a cél-Moodle a sorküszöböt is kikényszeríti, a downstream feltétel **nem köthető közvetlenül a nyers grade/pass állapothoz**.
+- **Az Assignment saját completionje:** „Make a submission” (SUBMITTED: a beadás megtörtént); a jegyalapú completion („Receive a grade”, „Receive a passing grade”) ki van kapcsolva. A megerősített kapueredmény (CONFIRMED) nem itt, hanem a `GATE_CONFIRMED_M1` checkpointon (LMS-M1-06) áll be; a pontküszöb (minden sor ≥1 ÉS összpont ≥5/8) nem változik.
 - **Runtime acceptance:** az összetett eredményt a stáb a `GATE_CONFIRMED_M1` checkpointba írja (LMS-M1-06, GATE-CP profil), és a downstream feltétel ennek Grade-feltétele („M1 megerősítve”, illetve „M1 complete”: [`LMS – activity manifest.md`](../../LMS%20–%20activity%20manifest.md) §4); tartalékút nincs (BS-D1). Hogy ez a célverzión működik, a runtime acceptance 8. pontja (RT-P0-08) igazolja – lásd [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md). Moodle-képességet teszt nélkül **nem feltételezünk**.
 - **Attempts:** **1 normál + 1 javító próbálkozás**; a javító próbálkozás nem automatikus, hanem a kötelező M1.F (F-peula) után nyílik: a képző nyitja meg (újabb próbálkozás engedélyezésével; az Assignmentben „Grant attempts” = „Manually”, „Allowed attempts” = „Unlimited”), vagy a javító próbálkozás hozzáférési feltétele az F-peula jelenléti completionje. A második, javító próbálkozás után további próbálkozást csak a képző nyithat, kézzel. Mivel a kapueredményt a megerősített összetett eredmény adja, a javító próbálkozást akkor is meg kell nyitni, ha a nyers pontszám eléri az 5-öt, de valamelyik sor 0. Hogy a cél-Moodle ezt melyik beállítással valósítja meg, a runtime acceptance-teszten dől el.
 - **Melyik eredmény számít:** a teljesítéshez **a legjobb megerősített kapueredmény**. Egy már megerősített teljesítés önkéntes, gyakorló újrabeadástól (pl. az M1.B után) nem romlik vissza; a legfrissebb próbálkozás visszajelzésként megmaradhat. A továbblépés ezért a megerősített kapueredményhez kötődik, nem a legutóbbi próbálkozás nyers pontjához.
 - **Minden próbálkozás után:** rövid, Megfigyelés → Hatás → Következő lépés szerkezetű visszajelzés (lásd 4. szakasz sablonjai); nem teljesített eredménynél a javító próbálkozás megnyitása az F-peula után.
-- **A 3. szakasz item-bankja** külön Quiz/H5P Question Set, **completion-only**, NEM kötve a kapuhoz.
+- **A 3. szakasz item-bankja** szerzői itempool: külön Quiz/H5P Question Set nem készül belőle, és NEM kötődik a kapuhoz.

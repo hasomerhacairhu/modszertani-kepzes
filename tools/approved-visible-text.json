@@ -53,40 +53,40 @@
       "sha256": "d45f222277d6255e6098a055d4f2801feeb9b0c927189ad4af27f1bcfedd4cc7"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M1:QA-PED-2 (BIZT-G3-1), M1:QA-PED-1 (PED-G1-4), M1:QA-ERT-2 (ERT-G3-1), M1:QA-NYELV-4 (NYELV-G1-15, IMPL-G1-8), M1:QA-NYELV-5 (IMPL-G3-4), M1:QA-IMPL-1 (IMPL-G2-6), M1:QA-IMPL-2 (IMPL-G2-1), M1:QA-IMPL-4 (IMPL-G1-8): validált célzott QA-findingok javítása (AP-2026-10-11-01)",
-      "sha256": "9ec86ea60bb1afb9f208d2812cf1c0005fa2dde4f6d8f7b2c53a3880210cd8bb"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "de95d1f7c9575803b7eda08ee14018737748e4080ef908926d936d23fc85049c"
     },
     "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
-      "reason": "M1:QA-PED-2 (BIZT-G3-1), M1:QA-PED-1 (PED-G1-4), M1:QA-ERT-2 (ERT-G3-1), M1:QA-NYELV-4 (NYELV-G1-15, IMPL-G1-8), M1:QA-NYELV-5 (IMPL-G3-4), M1:QA-IMPL-1 (IMPL-G2-6), M1:QA-IMPL-2 (IMPL-G2-1), M1:QA-IMPL-4 (IMPL-G1-8): validált célzott QA-findingok javítása (AP-2026-10-11-01)",
-      "sha256": "bb25c22dc71f88260e397e07ae5a0d610894b2677fe4d6165ac89b7a1e3e5bce"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "ccd822e990fbbf63b73f0358fafa2ce0db6e94dc1800dce180a8f36303481af3"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "M1 PED-G1-4, PED-G1-3, PED-G2-6, PED-G1-8.obj, ERT-G1-3.obj, ERT-G1-7, ERT-G2-5, ERT-G2-6, ERT-G2-7, ERT-G2-8, ERT-G3-1, IMPL-G1-6, IMPL-G1-8, IMPL-G2-1, IMPL-G2-6, IMPL-G2-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-9, BIZT-G2-5, BIZT-G3-1, BIZT-G3-4, BIZT-G3-7, BIZT-G3-8.obj, NYELV-G1-2, NYELV-G1-3, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G1-13, NYELV-G1-15, NYELV-G2-1, NYELV-G2-2, NYELV-G2-3, NYELV-G2-5, NYELV-G2-6, NYELV-G2-7, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G3-3, NYELV-G3-4, NYELV-G3-8, NYELV-G3-10, NYELV-G3-11, NYELV-G3-12, NYELV-G3-13, NYELV-G3-15, NYELV-G3-24: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "8332643d6289c5b4598a1ebdd6229382321e1e8be552bf775130dac58e354d72"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "5922ee7f1e18378907302374852e91f70a98c3892d4666b88ea58082b7f63f2a"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
-      "reason": "M1:QA-PED-2 (BIZT-G3-1), M1:QA-PED-1 (PED-G1-4), M1:QA-ERT-2 (ERT-G3-1), M1:QA-NYELV-4 (NYELV-G1-15, IMPL-G1-8), M1:QA-NYELV-5 (IMPL-G3-4), M1:QA-IMPL-1 (IMPL-G2-6), M1:QA-IMPL-2 (IMPL-G2-1), M1:QA-IMPL-4 (IMPL-G1-8): validált célzott QA-findingok javítása (AP-2026-10-11-01)",
-      "sha256": "1f92efbac1a3115ff3f847eeecfe4f33b1b8d84553d84c25c26334d5190a7b26"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "1b2ec56161f328376fa4dd238614bf0a90e6d026919f4f412cd2f3649c4b37d9"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "M1 PED-G1-4, PED-G1-3, PED-G2-6, PED-G1-8.obj, ERT-G1-3.obj, ERT-G1-7, ERT-G2-5, ERT-G2-6, ERT-G2-7, ERT-G2-8, ERT-G3-1, IMPL-G1-6, IMPL-G1-8, IMPL-G2-1, IMPL-G2-6, IMPL-G2-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-9, BIZT-G2-5, BIZT-G3-1, BIZT-G3-4, BIZT-G3-7, BIZT-G3-8.obj, NYELV-G1-2, NYELV-G1-3, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G1-13, NYELV-G1-15, NYELV-G2-1, NYELV-G2-2, NYELV-G2-3, NYELV-G2-5, NYELV-G2-6, NYELV-G2-7, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G3-3, NYELV-G3-4, NYELV-G3-8, NYELV-G3-10, NYELV-G3-11, NYELV-G3-12, NYELV-G3-13, NYELV-G3-15, NYELV-G3-24: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "7e3c3a6d3c2e27b34d1906686b7035ae218881d06a6c2daf24fff80f471657be"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "a19eb8fe247e6db6876e71ee16495a916ef52a8803149799734749c556ff3c29"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
-      "reason": "M1 PED-G1-4, PED-G1-3, PED-G2-6, PED-G1-8.obj, ERT-G1-3.obj, ERT-G1-7, ERT-G2-5, ERT-G2-6, ERT-G2-7, ERT-G2-8, ERT-G3-1, IMPL-G1-6, IMPL-G1-8, IMPL-G2-1, IMPL-G2-6, IMPL-G2-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-9, BIZT-G2-5, BIZT-G3-1, BIZT-G3-4, BIZT-G3-7, BIZT-G3-8.obj, NYELV-G1-2, NYELV-G1-3, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G1-13, NYELV-G1-15, NYELV-G2-1, NYELV-G2-2, NYELV-G2-3, NYELV-G2-5, NYELV-G2-6, NYELV-G2-7, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G3-3, NYELV-G3-4, NYELV-G3-8, NYELV-G3-10, NYELV-G3-11, NYELV-G3-12, NYELV-G3-13, NYELV-G3-15, NYELV-G3-24: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "d5e1e28a6d9ddce2375727fc63e2c48ce5dac99d029b4dcff8be4d18a14b377a"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "e7e89d57a572c7f911fc525522e4595d0fda70cda61463015fb49834a0c3ff50"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md": {
-      "reason": "M1 PED-G1-4, PED-G1-3, PED-G2-6, PED-G1-8.obj, ERT-G1-3.obj, ERT-G1-7, ERT-G2-5, ERT-G2-6, ERT-G2-7, ERT-G2-8, ERT-G3-1, IMPL-G1-6, IMPL-G1-8, IMPL-G2-1, IMPL-G2-6, IMPL-G2-7, IMPL-G3-3, IMPL-G3-4, IMPL-G3-9, BIZT-G2-5, BIZT-G3-1, BIZT-G3-4, BIZT-G3-7, BIZT-G3-8.obj, NYELV-G1-2, NYELV-G1-3, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-12, NYELV-G1-13, NYELV-G1-15, NYELV-G2-1, NYELV-G2-2, NYELV-G2-3, NYELV-G2-5, NYELV-G2-6, NYELV-G2-7, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G3-3, NYELV-G3-4, NYELV-G3-8, NYELV-G3-10, NYELV-G3-11, NYELV-G3-12, NYELV-G3-13, NYELV-G3-15, NYELV-G3-24: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "cd656702cdd975072eed7a35ab5bc64ad8ef3e2879cd4ecd5cea5aaeaed52e68"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "54c73d8fa27e745b35b28a546a37b1cff6147c485283e24a38f9e2aa53d692de"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’).md": {
-      "reason": "M1:QA-PED-2 (BIZT-G3-1), M1:QA-PED-1 (PED-G1-4), M1:QA-ERT-2 (ERT-G3-1), M1:QA-NYELV-4 (NYELV-G1-15, IMPL-G1-8), M1:QA-NYELV-5 (IMPL-G3-4), M1:QA-IMPL-1 (IMPL-G2-6), M1:QA-IMPL-2 (IMPL-G2-1), M1:QA-IMPL-4 (IMPL-G1-8): validált célzott QA-findingok javítása (AP-2026-10-11-01)",
-      "sha256": "29ec05ac837b67366c01f215ba402f4ed0b7ba2f8516f7c93f8eafe3c7a86a2a"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "14a48d17c81477138122b668d82db15f2292c306286fb31827181074b1d75541"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md": {
-      "reason": "M1:QA-PED-2 (BIZT-G3-1), M1:QA-PED-1 (PED-G1-4), M1:QA-ERT-2 (ERT-G3-1), M1:QA-NYELV-4 (NYELV-G1-15, IMPL-G1-8), M1:QA-NYELV-5 (IMPL-G3-4), M1:QA-IMPL-1 (IMPL-G2-6), M1:QA-IMPL-2 (IMPL-G2-1), M1:QA-IMPL-4 (IMPL-G1-8): validált célzott QA-findingok javítása (AP-2026-10-11-01)",
-      "sha256": "9c7340593b3badfcb6a4fd0e9d61e7b29cbb8b451df5e15ab0e346ef6c99c176"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
+      "sha256": "34e7c27b6a7a9ee10aa61f46afd929b47f414b929b590fa1159156660cb2f250"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "M2 ERT-G1-3, ERT-G1-6, ERT-G1-8, ERT-G2-2, ERT-G2-3, IMPL-G1-1, IMPL-G1-2, IMPL-G1-4, IMPL-G1-5, IMPL-G1-6, IMPL-G1-7, IMPL-G1-8, IMPL-G2-2, IMPL-G2-3, IMPL-G2-4, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-5, IMPL-G3-10, PED-G1-7, PED-G1-8, PED-G2-1, PED-G2-3, PED-G2-9, PED-G2-11, PED-G3-2, PED-G3-3, PED-G3-7, BIZT-G3-1, BIZT-G3-4, BIZT-G3-6, NYELV-G1-1, NYELV-G1-3, NYELV-G1-4, NYELV-G1-7, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-15, NYELV-G1-16, NYELV-G1-17, NYELV-G2-2, NYELV-G2-5, NYELV-G2-8, NYELV-G2-9, NYELV-G2-10, NYELV-G2-12, NYELV-G2-14, NYELV-G3-1, NYELV-G3-4, NYELV-G3-8, NYELV-G3-10, NYELV-G3-11, NYELV-G3-12, NYELV-G3-13, NYELV-G3-15, NYELV-G3-17, NYELV-G3-18, NYELV-G3-19, NYELV-G3-21: validált objektív findingok javítása (AP-2026-10-11-01)",
