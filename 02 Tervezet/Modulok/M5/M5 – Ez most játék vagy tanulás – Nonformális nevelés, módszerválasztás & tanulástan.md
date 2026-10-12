@@ -182,8 +182,8 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 
 **Minimális teljesítés (M5 „complete”):**
 
-1. **M5.1–M5.4** mikroleckék activity completion a manifest profilja szerint – a Course Presentation-alapú M5.1-nél az összefoglaló dia elérése (a beágyazott kérdések kitöltését a completion nem kényszeríti ki), az M5.2-nél egy ág végigvitele a végképernyőig (M5.4-nél: az LMS-M5-04 H5P-C profilja; a táblázat leadása – online szövegként vagy fájlként – a 2. pont, LMS-M5-05).
-2. **Éles kapu – modulproduktum:** a leadott **„Feladat–kvuca–módszer + tanulástan” táblázat** eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint, az R4 (tanulástan-elem valódisága) kritikus sor** (a „Hiányos” = javításra vissza, nincs kizárás).
+1. **M5.1–M5.4** mikroleckék activity completion a manifest profilja szerint – a Course Presentation-alapú M5.1-nél az összefoglaló dia elérése (a beágyazott kérdések kitöltését a completion nem kényszeríti ki), az M5.2-nél egy ág végigvitele a végképernyőig, az M5.4-nél az LMS-M5-04 H5P-C profilja (a táblázat leadása – online szövegként vagy fájlként – a 2. pont, LMS-M5-05).
+2. **Éles kapu – modulproduktum:** a leadott **„Feladat–kvuca–módszer + tanulástan” táblázat** eléri a KAPU-rubrika küszöbét: **minden rubrikasor ≥ Alapszint, az R4 (tanulástan-elem valódisága) kritikus sor** (a „Hiányos” = javításra vissza, nincs kizárás).
 3. **Diagnosztikus fogalomkvíz:** **formatív, completion-alapú** (a beküldés ténye elég, tartalmi bukás nincs; NEM kapuz) – a ≥80% csak felzárkózásjelző.
 
 > **Megjegyzés:** üres / csak címkeszintű táblázat **nem „complete”** – a KAPU R4 „csak címke” = Hiányos, ami javításra visszaküldést jelent.

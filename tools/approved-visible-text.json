@@ -193,28 +193,28 @@
       "sha256": "38d92c5920f7840c8c596666991f357b186018b93bb02b4a111f727b73969897"
     },
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
-      "sha256": "b22d019d2b239c70b5797d697adc8a9d6142f5a7223191a31e648345432992e7"
+      "reason": "Célzott QA, M5 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M5:QA-BIZT-1 + QA-NYELV-7 (ADV-11), M5:QA-ERT-2, M5:QA-NYELV-4 (ERT-26), M5:QA-ERT-4, M5:QA-NYELV-5 (ERT-1), M5:QA-IMPL-1 (ERT-29), M5:QA-NYELV-3 (ERT-6), M5:QA-NYELV-6 (ADV-8), M5:QA-NYELV-8 (ADV-9)",
+      "sha256": "ecdfb42ba9f3c482fa2c279e2b5b5206dfe9c5a26a8f11264d5807446eaca693"
     },
     "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
-      "sha256": "d886e33726d27cb0e45fde39a2b2b50557a1ca7bfce2d2cd0991efeaacba2ad9"
+      "reason": "Célzott QA, M5 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M5:QA-BIZT-1 + QA-NYELV-7 (ADV-11), M5:QA-ERT-2, M5:QA-NYELV-4 (ERT-26), M5:QA-ERT-4, M5:QA-NYELV-5 (ERT-1), M5:QA-IMPL-1 (ERT-29), M5:QA-NYELV-3 (ERT-6), M5:QA-NYELV-6 (ADV-8), M5:QA-NYELV-8 (ADV-9)",
+      "sha256": "0ac47dbb079616f780bfd43804ff8621d7a9faf16b72a3e0b65963efd37b8fd7"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
       "sha256": "3e746b53bfb81f200fd4b6f50c0701fc48748e6861a7667761a2c03cf3a57487"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
-      "sha256": "33a511825a4f69611d05f333b2070df9ad7f85da200f6d3f78a5c3b8bc533786"
+      "reason": "Célzott QA, M5 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M5:QA-BIZT-1 + QA-NYELV-7 (ADV-11), M5:QA-ERT-2, M5:QA-NYELV-4 (ERT-26), M5:QA-ERT-4, M5:QA-NYELV-5 (ERT-1), M5:QA-IMPL-1 (ERT-29), M5:QA-NYELV-3 (ERT-6), M5:QA-NYELV-6 (ADV-8), M5:QA-NYELV-8 (ADV-9)",
+      "sha256": "12fc38b8210bafc4b35e8364cdf59ab76db1d7587abd5d1b48e8756038da5115"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
       "sha256": "524c0fd8978b328afbeafbb94e1eb2a4900d0f6626313d9435aa719acf205edc"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
-      "sha256": "1bc7a57dfa633a43b4a442fbad5fcb49a37b286378ec04d8b8246390bf7604b5"
+      "reason": "Célzott QA, M5 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M5:QA-BIZT-1 + QA-NYELV-7 (ADV-11), M5:QA-ERT-2, M5:QA-NYELV-4 (ERT-26), M5:QA-ERT-4, M5:QA-NYELV-5 (ERT-1), M5:QA-IMPL-1 (ERT-29), M5:QA-NYELV-3 (ERT-6), M5:QA-NYELV-6 (ADV-8), M5:QA-NYELV-8 (ADV-9)",
+      "sha256": "77d61c8c64e51eaffdf7c25f50f8025ecf43213e0edba6b3d857d9a0926c3180"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
@@ -225,8 +225,8 @@
       "sha256": "a96da437ec407b2b0dd59ed0279dae99d93ae4929ba606f481563dc346765757"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
-      "sha256": "c75a984943211fefcf2376206bb25b7c7c334626f240f1c990908e3614680ad9"
+      "reason": "Célzott QA, M5 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M5:QA-BIZT-1 + QA-NYELV-7 (ADV-11), M5:QA-ERT-2, M5:QA-NYELV-4 (ERT-26), M5:QA-ERT-4, M5:QA-NYELV-5 (ERT-1), M5:QA-IMPL-1 (ERT-29), M5:QA-NYELV-3 (ERT-6), M5:QA-NYELV-6 (ADV-8), M5:QA-NYELV-8 (ADV-9)",
+      "sha256": "aab90786e98023d4076f8894320ced2990e3bac42ef33a9b838059135a30e373"
     },
     "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M6-átvezetés (AP-2026-10-12-01): ADV-4, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-2, ERT-6, ERT-9, ERT-31, ERT-33, ERT-34, ERT-35, ERT-37, GYV-5, GYV-7, GYV-16, GYV-17, GYV-18, LMS-4, PRG-2, PRG-7, PRG-13, PRG-16",
