@@ -16,7 +16,7 @@
 | Kulcs | Érték |
 |---|---|
 | Run-ID | AP-2026-10-12-02 |
-| Állapot | ACTIVE |
+| Állapot | FINISHED |
 | Változat | next-version |
 | Scope | M0-Z célzott kör: az AP-2026-10-12-01 nyitott tételei (BLOCKED_HUMAN, EVIDENCE_GATE), a HUM 14 részleges átvezetései, ERT-5 (M7) |
 | Lencsék | pedagogy,assessment,language,safety,implementation |
@@ -24,7 +24,7 @@
 | Munkaág | next-version/AP-2026-10-11-01 |
 | Bázis-commit | 20d29c3 |
 | Indítva | 2026-10-12 |
-| Záró QA | — |
+| Záró QA | `d0f9636` (a /release-check ellenőrzőlistája, a fő sessionben futtatva) · MOODLE-BUILD-VERDICT: READY_FOR_STAGING_BUILD · LEARNER-RELEASE-VERDICT: NO-GO |
 | Korlátok | (1) A 125 elfogadott döntés (HUM 14. szakasz) nem nyílik újra; csak az zárható le, amit a döntés vagy a kánon szövege szó szerint vagy közvetlen következményként megválaszol, bizonyítékkal. (2) Új gyermekvédelmi, eszkalációs, adatvédelmi (jogalap, megőrzés, hozzáférés), AI-, értékelési (küszöb, rubrikaszint, kulcs) vagy pedagógiai szabály, és a szerepköri jóváhagyás: `BLOCKED_HUMAN` / `EVIDENCE_GATE`, kutatott javaslattal, implementáció nélkül. (3) Új teljes audit nincs: a review REUSED, a javítás után célzott QA a diffre. (4) A futó M0/M1 pilot, a `main` és a CC-04 freeze érintetlen; PR #30 draft; merge, staging, learner release nincs. (5) Generált médiát csak a `media_manifest.py build`, látható-szöveg pint csak a `--pin-visible` ír. (6) Hangok csak szerepnéven; VO-szöveg csak VO fix packkel változik. (7) A governance (CLAUDE.md, `.claude/**`) nem változik. |
 
 ## Modulok
@@ -267,3 +267,4 @@
 | 2026-10-13 | FIX | 958bced: ADV-1 (H5P-C cella, RA 15 ASSIGN-teszt), ADV-5 (a), PRG-5 (M6.F, M7.F); pin; média 0b695a0. 16a9ad9: QA15-BIZT-1, -2. 11a89b4: QA15-IMPL-1, QA15-ERT-1; média 87c08c1. |
 | 2026-10-13 | QA | Célzott QA a 958bced+16a9ad9 hunkjaira: biztonság (QA16-BIZT-1…3), implementáció (QA16-IMPL-1…4). Javítva 93da996 (BIZT-1, -2, -3, IMPL-4); IMPL-1, -3 duplikátum; IMPL-2 emberi döntés (X-13). Minden javítás után: content_integrity 0 ERROR, 159 teszt OK, media check OK. |
 | 2026-10-13 | REPORT | Kutatott, összevont döntési javaslatok: `2026-10-13 Döntési javaslatok – QA-döntések és részleges átvezetések, AP-2026-10-12-02.md`. 23 emberi döntési csomag (D-01…D-23), 13 bizonyíték-kapu (BK-01…BK-13), 2 külső függőség (KF-01 VO fix pack, KF-02 SIGNOFF); a dokumentum 7. szakasza minden nyitott kulcsot csomaghoz rendel. Új külső kapuk: X-12 (ERT-5 D1/D2), X-13 (ADV-1 hozzáférési csomag), X-14 (JOG-1 nyilvántartás); X-10 RESOLVED. |
+| 2026-10-13 | FINAL-QA | Záró ellenőrzés a `d0f9636`-on (a tananyag utolsó változása: `93da996`). A `/release-check` ellenőrzőlistája a fő sessionben futott: `content_integrity` 0 ERROR (selftest 57/57); média selftest, validate, check, reconcile (747 sor, 0 nem egyeztetett), lint (0 HIGH) OK; 159 unittest OK, skip nélkül; `py_compile` OK; `git diff --check` és `git diff --check origin/main...HEAD` tiszta; guard selftest és a read-only workflow-ellenőrzés OK; ledger validate VALID; a sandbox-próba (írás a repóba) a várt módon elbukott; munkafa tiszta. `MOODLE-BUILD-VERDICT: READY_FOR_STAGING_BUILD` · `LEARNER-RELEASE-VERDICT: NO-GO`. |
