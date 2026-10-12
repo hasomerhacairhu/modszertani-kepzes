@@ -125,40 +125,40 @@
       "sha256": "b8d1c90ec8245e6d007b93073361dca334fbc71a0f26f5d8ebee29007a6c335a"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
-      "sha256": "61472a40b5bec5419cc42657ea66e651e3dc0e76320bb8b5d07fd9109e5b5a84"
+      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
+      "sha256": "ba11e54ef6b36c622d2e6a5bc629211ca3b156c644cc17ed9d229374ec07623d"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
       "sha256": "14fd246abb2883f59fa67d1708157eda9a75adc7dde84e91426eb5fa88574e2f"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
-      "sha256": "6799b790f4b1a140dbb955554c742ba1727f8921809c6fc7a7be20377f571744"
+      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
+      "sha256": "1e26396fe2130ebb1b92d8e61ca8dd2489acfee081bab8170c284a84f4877cb0"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
       "sha256": "9d62e1e7498c405d80131b975ac9984c28d6449baf29a6ce512a45378facc0d1"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
-      "sha256": "a9730692637d1a007e44e9fdb5096167fe68ec7fb81fde298e39ffcc093df525"
+      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
+      "sha256": "8a33957b2c189f2543c10f15d05a962388de8001fba642ecc66f6f8b69cf6065"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
-      "sha256": "cb7a81a8f6cc27096367e7c963cdf9b5fbbb2c333b1320864905d214c3d4f8cb"
+      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
+      "sha256": "3402b4c86079de4f8e61fcc70d79ced6921d1cdd48a5d5a0d379a9be83640dda"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
-      "sha256": "7f3ad59cffa415a51e21a32e2d3b7dd8879b5029859f2f0a07e1396cb0e90029"
+      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
+      "sha256": "bd2b686aa1adc4dc72bc265312b7c10a0c6564ead19533d0743cd4252a542ae6"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
       "sha256": "ec3506831d825a25d4725ca1f6c64ef87947649940a51c56316eae605baf3139"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
-      "sha256": "a92b9752d9cb39b67dbe9417c1f7b4596d43c20b74c752056064fba7fbc786ea"
+      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
+      "sha256": "b60fff2e6d98b6a27b3b8c05788f0b1535d8e78178fd7470ba7c52c40dc9733f"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
       "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",
