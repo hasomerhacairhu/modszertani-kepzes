@@ -1,32 +1,32 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
-      "sha256": "a2b01d31c3bb64375172176f6d1b665e3d52345753a68f4b03a1733e1bd867d8"
+      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
+      "sha256": "2788baa1f63a73050e6da3721ec09b238ba03ddb496b975b9103343c95963909"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
       "reason": "Projektgazdai döntés 2026-10-12 (GYV-1…GYV-23, ADV-1…ADV-15, JOG-1, TERM-1…TERM-8, ERT-1…ERT-50, PRG-1…PRG-17, LMS-1…LMS-8, VO-1, TECH-1, TECH-2): a 125 döntés kánoni átvezetése, Emberi jóváhagyás szükséges.md 14. szakasz",
       "sha256": "73b28ede5232967e3e3c00481ef6ce5611e25675d7deca28c00f7565300249e1"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
-      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
-      "sha256": "2780e3ab75d65e1efe559bce20b4a45da6f4e22b09c30a11670062fab986d96d"
+      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
+      "sha256": "e2e0b29d46ea4056bf64759b978e2e3fe2c148e6e5eae84b4bf727dd3173db8a"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
-      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
-      "sha256": "47c1d2354b9c45264fa5e4bdca3bae8658c9fc6353702daf1f3dd2e3dc1f2a09"
+      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
+      "sha256": "898151dd36d1a6bb9378491d3a01a97a8dd440c69661f0982e03045a373c00c3"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
-      "sha256": "25da790a4818c359b9ca228ebf2a7d7ed9a2f4ba44c8a05bc644a4f20acaf389"
+      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
+      "sha256": "cdbac6709d3add984af617a507fe4e5268d6e821b9814288d36589e20e38e9a4"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
-      "sha256": "9f6975c2a7250f51e3f8196276ea8d19bd833c6e4adedad2e5b09d71967ca6d2"
+      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
+      "sha256": "54faab99323171e9df7745a8f90231686784be8a026847953d2d6e0e41e601fb"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
-      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
-      "sha256": "2f27781489e9affe31e13dc596b86ea438f8d233789b3f190570a66e33e75e5e"
+      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
+      "sha256": "47ee249787444122b186638594540aaec6a9492938f1328bd142481edac8b0ff"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
       "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
@@ -325,8 +325,8 @@
       "sha256": "d970ea9423845cce88a4a6bb5e3a071ff67ab4ff4d4e5b5b0f5e07738e5b78cf"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
-      "sha256": "846b59a8e0623fdd6f303df8da91cde83ea68d31ef2987979a281c475944ba3f"
+      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
+      "sha256": "7f844ed2e970446c6ab29371f9b8452341189caa88cba6a50f7de2bf43225d11"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",

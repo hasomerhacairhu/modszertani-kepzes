@@ -62,7 +62,7 @@ Ezek a szabályok a tananyagban akkor is maradnak, ha a konkrét szervezeti/jogi
 - a résztvevőnek nem kell saját traumát vagy érzékeny történetet megosztania;
 - ha a képzés közben saját érintettség kerül elő, a facilitátor nem folytat nyilvános feldolgozást, hanem biztonságos támogatási útra terel (a tanulói „ha téged is érint” blokk: §4.3);
 - felkavart kiskorút **nem küldünk ki egyedül**: legyen kijelölt biztonságos hely és egy felnőtt, aki vele van;
-- érzékeny, potenciálisan felkavaró peulán előzetesen legalább két rendelkezésre álló, felkészített, 18 év feletti felelős van, vagy azonnal elérhető helyettes és kötelező megállítási protokoll; egyszemélyes működés csak dokumentált alacsony kockázatú helyzetben lehet, és felkavart kiskorú nem maradhat egyedül; a végleges létszámnorma a Memuna és a programvezető hatásköre (projektgazdai döntés, 2026-10-12, GYV-5);
+- érzékeny, potenciálisan felkavaró peulán előzetesen legyen legalább két rendelkezésre álló, felkészített, 18 év feletti felelős, vagy azonnal elérhető helyettes és kötelező megállítási protokoll; egyszemélyes működés csak dokumentált alacsony kockázatú helyzetben lehet, és felkavart kiskorú nem maradhat egyedül; a végleges létszámnorma a Memuna és a programvezető hatásköre (projektgazdai döntés, 2026-10-12, GYV-5);
 - a tananyag nem ír elő automatikus négyszemközti félrevonulást;
 - diszkrét beszélgetés csak **átlátható helyzetben**, a §4.2 safer-working szabálya szerint.
 
