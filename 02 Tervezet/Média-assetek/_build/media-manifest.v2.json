@@ -15076,8 +15076,8 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Húzásmentes besoroló – Multiple Choice egyválaszos módban (SLIDE 4)",
-      "purpose": "LMS a11y-sztenderd: a besorolás húzás nélkül teljesíthető; a Drag & Drop mellékút az LMS-2 döntéssel kikerült.",
-      "spec": "A 8–10 (ténylegesen 10) helyzetkártya húzás nélkül teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) befejezhető, célfelületek ≥24px; a lecke completionje a CP összefoglaló diájának elérése (BSPEC-06, ERT-1), a megválaszolatlan kártyák esetét a runtime acceptance negatív tesztje rögzíti.",
+      "purpose": "Annak aktív gyakorlása, mit tegyél és mit ne, életszerű helyzetekkel, húzás nélkül teljesíthető formában (LMS a11y-sztenderd).",
+      "spec": "A 8–10 (ténylegesen 10) helyzetkártya húzás nélkül teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). A kártyák és a helyes besorolás a „Kártyák (ajánlott készlet)” részből, a visszajelzés-szövegek az 5., 6., 7., 8. és 10. kártyához a „Visszajelzés minták” részből, az instrukció az „Instrukció” részből. Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) befejezhető, célfelületek ≥24px; a lecke completionje a CP összefoglaló diájának elérése (BSPEC-06, ERT-1), a megválaszolatlan kártyák esetét a runtime acceptance negatív tesztje rögzíti.",
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
@@ -15096,7 +15096,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A SLIDE 4 egyetlen, húzásmentes besorolója; a Drag & Drop mellékút (korábban M3.4-EGY-03) az LMS-2 döntéssel kikerült. A 6–8. kártya és visszajelzésük a HUM-SAFE-04 projektgazdai döntésén (2026-10-02) alapul; utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna; vétó esetén a `decision` mező visszakerül.",
+      "notes": "A SLIDE 4 egyetlen, húzásmentes besorolója; a Drag & Drop mellékút (korábban M3.4-EGY-03) az LMS-2 döntéssel kikerült. A 6–8. kártya és visszajelzésük a HUM-SAFE-04 projektgazdai döntésén (2026-10-02) alapul; utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna; vétó esetén a `decision` mező bekerül.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -15111,7 +15111,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "10eabe253c5dfbadd9861de6c963775f61fcbb007d465a8a7ab7826bc297cb57",
+      "spec_hash": "cd8bb931a79bebe7ff60ef39de425fcd76bcc690cabf3f9c5fd434a877bf0b52",
       "deliverable_ids": [
         "M3.4-EGY-04"
       ],
