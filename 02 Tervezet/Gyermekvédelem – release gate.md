@@ -20,7 +20,7 @@ M3.3, M3.B, az M3-kapu, az M7 gyermekvédelmi részei, valamint minden olyan tan
 
 Zárt Moodle-stagingben, szintetikus tesztadatokkal és csak szerkesztői/QA hozzáféréssel ezek az elemek felépíthetők és technikailag tesztelhetők.
 
-A jelen repo biztonságos szakmai alapértelmezése: súlyos helyzeteket **harmadik személyű esetelemzéssel**, nem traumatikus szerepjátékkal dolgozunk fel. **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a Memuna és a DPO. Esetalapú kapuproduktumba (elsősorban az M3 helyzetleírásába) **csak kitalált, életszerű eset** kerülhet; valós eset névtelenítve sem, mert kis közösségben könnyen visszaazonosítható. Valós gyermekvédelmi eset soha nem pedagógiai feladat.
+A jelen repo biztonságos szakmai alapértelmezése: súlyos helyzeteket **harmadik személyű esetelemzéssel**, nem traumatikus szerepjátékkal dolgozunk fel. **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a Memuna és a DPO. Esetalapú kapuproduktumba (elsősorban az M3 helyzetleírásába) **csak kitalált, életszerű eset** kerülhet; valós eset névtelenítve sem, mert kis közösségben könnyen visszaazonosítható. Valós gyermekvédelmi eset soha nem pedagógiai feladat. **Projektgazdai döntés (2026-10-12, GYV-21)** – utólagos ellenőrzés (vétó/QA): a Memuna és a DPO. A „név nélkül” egy kis kvucában nem azonos az anonimmal: gyermekvédelmi és érzékeny példából szóban is csak kitalált, illetve ténylegesen nem visszaazonosítható, általánosított változatot kérünk; valós eset sem szóban, sem beadandóban nem lehet alapkövetelmény.
 
 **Médiakapuk.** **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a release owner és a jogi/adatvédelmi felelős. A jogi és gyermekvédelmi médiakapuk (köztük a HUM-MEDIA-02 alkapui: J1, J2, V1, V3, valamint a HUM-MEDIA-03) blokkolják az általuk érintett tanulói asset release-ét. Gyermekvédelmi vagy krízis-HOOK-ban nem használunk készlet (stock) AI-beszélőfejet. A tételeket az `Emberi jóváhagyás szükséges.md` 5. szakasza tartja nyilván.
 
@@ -62,6 +62,7 @@ Ezek a szabályok a tananyagban akkor is maradnak, ha a konkrét szervezeti/jogi
 - a résztvevőnek nem kell saját traumát vagy érzékeny történetet megosztania;
 - ha a képzés közben saját érintettség kerül elő, a facilitátor nem folytat nyilvános feldolgozást, hanem biztonságos támogatási útra terel (a tanulói „ha téged is érint” blokk: §4.3);
 - felkavart kiskorút **nem küldünk ki egyedül**: legyen kijelölt biztonságos hely és egy felnőtt, aki vele van;
+- érzékeny, potenciálisan felkavaró peulán előzetesen legalább két rendelkezésre álló, felkészített, 18 év feletti felelős van, vagy azonnal elérhető helyettes és kötelező megállítási protokoll; egyszemélyes működés csak dokumentált alacsony kockázatú helyzetben lehet, és felkavart kiskorú nem maradhat egyedül; a végleges létszámnorma a Memuna és a programvezető hatásköre (projektgazdai döntés, 2026-10-12, GYV-5);
 - a tananyag nem ír elő automatikus négyszemközti félrevonulást;
 - diszkrét beszélgetés csak **átlátható helyzetben**, a §4.2 safer-working szabálya szerint.
 

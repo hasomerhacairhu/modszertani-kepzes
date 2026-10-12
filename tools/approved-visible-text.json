@@ -1,32 +1,32 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "C6U2-01…C6U2-04 (C6U-BIZT-1/2/3/4, C6U-IMPL-1/2): feltárási feltétel kánonhoz igazítva, családi/identitás-garancia, GK §4.1 jelzési út utalás, értékelő-mondat, A11Y-07 portálnév-útmutatás, RT-P0-15 tesztfeltételek HUM-döntésként",
-      "sha256": "4457dd194272fe6cb2a49f94471383019c459d56582bd456c49855fec1f5a43a"
+      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
+      "sha256": "a2b01d31c3bb64375172176f6d1b665e3d52345753a68f4b03a1733e1bd867d8"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
       "reason": "Projektgazdai döntés 2026-10-12 (GYV-1…GYV-23, ADV-1…ADV-15, JOG-1, TERM-1…TERM-8, ERT-1…ERT-50, PRG-1…PRG-17, LMS-1…LMS-8, VO-1, TECH-1, TECH-2): a 125 döntés kánoni átvezetése, Emberi jóváhagyás szükséges.md 14. szakasz",
       "sha256": "73b28ede5232967e3e3c00481ef6ce5611e25675d7deca28c00f7565300249e1"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
-      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
-      "sha256": "46d1b53dcb10466a9d431d302a64f4a55c149a853e385de5758137881995ce16"
+      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
+      "sha256": "2780e3ab75d65e1efe559bce20b4a45da6f4e22b09c30a11670062fab986d96d"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
-      "reason": "FP-01…FP-12 (R-4; pilot-ütemezési jegyzőkönyv 5. szakasz): négy fotó release_phase/fallback, M4.1 SLIDE 4 szöveges kártyák, A11Y-15/18 release-evidence, SAFE-7 nyitott QA-tétel a GK §6-ban, HUM 11 státusz-szemantika és öt pontosítás, HUM :481 példálózó hatókör, MAN §7 pilot-hétköznap és kurzus-hozzáférés 2026-10-10, M3.4 → M4 a Q-REL-2/BSPEC-04 szerint",
-      "sha256": "0ebf17f584cba892c032bbd01b9acb1e803c2210f6d532134d18f7f48792e1a5"
+      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
+      "sha256": "47c1d2354b9c45264fa5e4bdca3bae8658c9fc6353702daf1f3dd2e3dc1f2a09"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
-      "sha256": "e967928895c7a372844b286be1058e53cca23f47d961bff46fccb27f1f2fd6dc"
+      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
+      "sha256": "25da790a4818c359b9ca228ebf2a7d7ed9a2f4ba44c8a05bc644a4f20acaf389"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
-      "sha256": "2d9a4dca8ed5b861ae1b2a07eae303886124937866de0add9be529b62529b95f"
+      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
+      "sha256": "9f6975c2a7250f51e3f8196276ea8d19bd833c6e4adedad2e5b09d71967ca6d2"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
-      "reason": "C6U2-01…C6U2-04 (C6U-BIZT-1/2/3/4, C6U-IMPL-1/2): feltárási feltétel kánonhoz igazítva, családi/identitás-garancia, GK §4.1 jelzési út utalás, értékelő-mondat, A11Y-07 portálnév-útmutatás, RT-P0-15 tesztfeltételek HUM-döntésként",
-      "sha256": "3dd70995bc592fb70b34ae3ed5225da025949e1c21da663d80f450a7766e991d"
+      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
+      "sha256": "2f27781489e9affe31e13dc596b86ea438f8d233789b3f190570a66e33e75e5e"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
       "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
@@ -325,8 +325,8 @@
       "sha256": "49d035efeef5da7fd1f1f06dc5b947452c2e4baf8157b0df0ccf4a08c94eaffe"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "Z:XMOD-1, M0:XMOD-2, M5:XMOD-3: a FINAL QA modulközi konzisztencia-ellenőrzésének validált findingjai (verifier, 2026-10-12)",
-      "sha256": "66e27e3f02288ac0420c878b187a4bf55179d5f15a9d273ed7e2d677146855a6"
+      "reason": "ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-12, ERT-18, ERT-29, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-3, ADV-4, ADV-5, ADV-6, ADV-7, ADV-9, ADV-10, ADV-11, ADV-12, ADV-14, ADV-15, GYV-1, GYV-2, GYV-5, GYV-10, GYV-11, GYV-12, GYV-21, LMS-1, LMS-3, LMS-4, LMS-5, LMS-8, PRG-6, PRG-8, PRG-9, PRG-10, TERM-4, TERM-5, ERT-33; Z:QA-ERT-3, Z:QA-IMPL-1, Z:QA-IMPL-2: canon round of the HUM section 14 implementation",
+      "sha256": "846b59a8e0623fdd6f303df8da91cde83ea68d31ef2987979a281c475944ba3f"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
