@@ -7958,7 +7958,7 @@
       "status": "pending-rights",
       "title": "Önellenőrző narráció (10–15 mp)",
       "purpose": "Lezárja az önellenőrző szakaszt, motivál a folytatásra.",
-      "spec": "10–15 mp magyar voice-over: megerősíti, hogy ha mind a négy önellenőrző állítás igaz, akkor használható SBI-váza van, és ezt viszik tovább az M1.4 leckében és a beadandóban.",
+      "spec": "10–15 mp magyar voice-over: megerősíti, hogy ha mind a négy önellenőrző állítás igaz, akkor használható SBI-váza van, és ezt viszi tovább az M1.4 leckében és a beadandóban.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -8003,7 +8003,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
-      "spec_hash": "082e3fa975189144cf824fa9791827abe8480497d16582a7fa5a8592afba812a",
+      "spec_hash": "5f1297a56f1aea7117259d8faa5964083f624fc5c0b2c9b86854672bb17b3a3d",
       "deliverable_ids": [
         "M1.3-NAR-06",
         "M1.3-NAR-06::CAPTIONS",
@@ -8429,7 +8429,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 524,
+      "line": 522,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
