@@ -17,7 +17,7 @@
 
 A modul végére **megnevezed**, mitől nonformális a someres nevelés, **alkalmazod** a tudatos **feladat → cél → kvuca → módszer** logikát, és saját szavaiddal **elmagyarázod**, hogyan tanulnak tényleg a hanihok (**gyakorlás, aktív felidézés, időben elosztott gyakorlás**).
 
-> 🔁 **Honnan jössz:** Az M4-ben megírtad az első, kvucára szabott **peulabemutató-vázlatodat** (téma + kvuca). Itt ezt visszük tovább: ugyanaz a kvuca és témakör lehet az **M5.4 „Feladat–kvuca–módszer” táblázatod** egyik kiinduló sora – most a tudatos **módszer-** és **tanulástan-szempontot** tesszük hozzá.
+> 🔁 **Honnan jössz:** Az M4-ben megírtad az első, kvucára szabott **peulabemutató-vázlatodat** (téma + kvuca). Itt ezt visszük tovább: ugyanaz a kvuca és témakör lehet az **M5.4 „Feladat–kvuca–módszer” táblázatod** egyik kiinduló sora (valós kvucánál csak nem azonosító, csoportszintű információval; kitalált kvucaprofil ugyanúgy megfelel) – most a tudatos **módszer-** és **tanulástan-szempontot** tesszük hozzá.
 
 **Célcsoport:** képzős madrihok / madrihot (kb. 15+)
 
@@ -32,7 +32,7 @@ A modul végére a madrih / madriha…
 3. **Elmagyarázza az alap tanulástan-fogalmakat és alkalmazza őket a saját peuláira.**
    * Saját szavaival el tudja magyarázni a **gyakorlás, aktív felidézés és időben elosztott gyakorlás** fogalmakat, és 2–3 konkrét ötlete van, hogyan jelenjenek meg a kvuca életében (M5.3, M5.B).
 4. **Modulproduktumot készít.**
-   * Összeállít egy legalább 3–4 soros **„Feladat–kvuca–módszer + tanulástan” táblázatot**, amelyben minden sorban látszik, milyen tanulástan-logika (gyakorlás / aktív felidézés / időben elosztott gyakorlás) érvényesül (M5.4).
+   * Összeállít egy legalább 3–4 soros **„Feladat–kvuca–módszer + tanulástan” táblázatot**, amelyben minden sorban látható a módszertani indok, és legalább egy sorban konkrét tanulástan-elem (gyakorlás / aktív felidézés / időben elosztott gyakorlás) is megjelenik (M5.4).
 
 ## 3. Online mikroleckék (L1–L4)
 
@@ -173,18 +173,18 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 
 * **Éles kapu – M5.4 produktum (rubrika):**
   * Eszköz: **Moodle Assignment + rubrika**.
-  * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrika-soron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor: **feladat / cél konkrétsága (R1), kvuca megnevezése (R2), módszer–cél illeszkedés (R3), tanulástan-elem valódisága (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
+  * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrikasoron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor: **feladat / cél konkrétsága (R1), kvuca megnevezése (R2), módszer–cél illeszkedés (R3), tanulástan-elem valódisága (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
   * **Javítási útvonal:** ha egy sor „Hiányos”, rövid fejlesztő visszajelzés (Megfigyelés → Hatás → Következő lépés) + a kapueredmény megerősítése után a kötelező **M5.F (F-peula)** + **egy javító újraleadás**, amely az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; további leadást a képző nyithat), és az F-peula utáni szerda 18:00-ig adható le – nincs kizárás, a cél a megértés. A teljesítéshez a legjobb megerősített eredmény számít.
 * **Diagnosztikus kvíz – fogalmi felzárkózás (NEM éles kapu):**
   * Eszköz: Moodle **Quiz**, **12 kérdés** (formális–nonformális–informális; feladat→cél→kvuca→módszer; gyakorlás/aktív felidézés/időben elosztott gyakorlás).
-  * **2–3 próbálkozás** engedélyezve; hibánál rövid magyarázó visszajelzés: merre menjen vissza (M5.1–M5.4) javítani a megértést.
+  * **3 próbálkozás** engedélyezve: a diagnosztikus jelzést az **első, visszajelzés előtti próbálkozás** adja, a további próbálkozások gyakorlásra szolgálnak, és nem írják felül ezt a jelzést; hibánál rövid magyarázó visszajelzés: merre menjen vissza (M5.1–M5.4) javítani a megértést.
   * Ajánlott **diagnosztikus jelzőküszöb ≥ 80% (≥10/12)** – ez **nem kizáró feltétel**: aki alatta van, **nem bukik**, hanem felzárkóztató hurokba kerül (a kvíz item-szintű analitikája alapján célzott visszairányítás). A kvíz célja, hogy a fogalmi tudást **felmérjük és fejlesszük**, mire a madrih a produktumot beadja.
 
 **Minimális teljesítés (M5 „complete”):**
 
-1. **M5.1–M5.4** mikroleckék activity completion **– érdemi kitöltéssel, nem csak a slide-ok végigléptetésével** (M5.4-nél: az LMS-M5-04 H5P-C profilja; a táblázat leadása – online szövegként vagy fájlként – a 2. pont, LMS-M5-05).
+1. **M5.1–M5.4** mikroleckék activity completion a manifest profilja szerint – a Course Presentation-alapú M5.1-nél az összefoglaló dia elérése (a beágyazott kérdések kitöltését a completion nem kényszeríti ki), az M5.2-nél egy ág végigvitele a végképernyőig (M5.4-nél: az LMS-M5-04 H5P-C profilja; a táblázat leadása – online szövegként vagy fájlként – a 2. pont, LMS-M5-05).
 2. **Éles kapu – modulproduktum:** a leadott **„Feladat–kvuca–módszer + tanulástan” táblázat** eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint, az R4 (tanulástan-elem valódisága) kritikus sor** (a „Hiányos” = javításra vissza, nincs kizárás).
-3. **Diagnosztikus fogalomkvíz:** **formatív, completion-alapú** (kitöltés elég, NEM kapuz) – a ≥80% csak felzárkózásjelző.
+3. **Diagnosztikus fogalomkvíz:** **formatív, completion-alapú** (a beküldés ténye elég, tartalmi bukás nincs; NEM kapuz) – a ≥80% csak felzárkózásjelző.
 
 > **Megjegyzés:** üres / csak címkeszintű táblázat **nem „complete”** – a KAPU R4 „csak címke” = Hiányos, ami javításra visszaküldést jelent.
 
@@ -205,10 +205,10 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 3. **Diagnosztikus kvíz (Quiz) eredmények – felzárkózás-jelző, nem kapu:**
    * kérdésszintű elemzés: ha sokan félreértik az időben elosztott gyakorlást → több példa a következő évfolyamnak, és **célzott visszairányítás** az érintett madrihoknak;
    * ha sokan előbb választanak módszert, mint célt → erősíteni az M5.2 üzenetét („cél az első”);
-   * a ≥80% jelzőküszöb alattiak **nem buknak**, hanem célzott felzárkóztatást kapnak a produktum beadása előtt.
+   * a ≥80% jelzőküszöb alattiak **nem buknak**: az eredményből a mentor támogató, nem kötelező beavatkozási ajánlást kap, és a programvezető a meglévő tananyagból ismétlést vagy beszélgetést rendelhet.
 4. **Modulproduktum (Assignment – M5.4) – az éles kapu:**
    * leadási arány: hányan adták le a táblázatot;
-   * **minőségellenőrzés a hivatalos KAPU-fájl 4 soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-ellenőrzés, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden soron legalább „Alapszint”. **Ez a sor dönti el a továbblépést** (a kvíz csak diagnosztizál). A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
+   * **minőségellenőrzés a hivatalos KAPU-fájl 4 soros megfigyelhető rubrikájával** (nem bináris „van-e” jelenlét-ellenőrzés, hanem szintezett): **R1 feladat/cél konkrétsága, R2 kvuca kor + hangulat szinten, R3 módszer–cél illeszkedés, R4 tanulástan-elem valódisága (kritikus sor)** – minden rubrikasoron legalább „Alapszint”. **A továbblépést ez a produktum-rubrika dönti el** (a kvíz csak diagnosztizál). A teljes rubrika (Hiányos / Alapszint / Erős szintekkel) itt: [M5 – KAPU – értékelő (item-bank + rubrika)](./M5%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md).
 5. **Offline zárókör-jelzés (M5.B végén):**
    * Az M5.B záró mondatbefejező köréből (**„Ha legközelebb peulát tervezek, először arra fogok figyelni, hogy…”**) a stáb élőben hallja, mire fókuszálnak a madrihok: a cél elsődlegessége, az aktív hanih vagy a tanulástan (gyakorlás / aktív felidézés / időben elosztott gyakorlás). Ha sokan általánosságban maradnak, érdemes a következő évfolyamnál erősíteni a tanulástan-elem konkretizálását (M5.3–M5.4).
 
