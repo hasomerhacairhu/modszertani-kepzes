@@ -9511,7 +9511,7 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás)",
-      "purpose": "Az M2.F (F-peula) résztvevőinek – akiknek a modul kapuja nem teljesült – egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét, hogy senki ne maradjon ki az identitás/érték/pillér/határ logikából, mielőtt újra beadja az identitás-jegyzetét (vö. az 5. szakasz „Modulhoz való szerepe” pontjával).",
+      "purpose": "Modul-szintű áttekintő ábra a hubon: egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét (identitás/érték/pillér/határ). Az M2.F-en a fogalomtérképet a csoport élőben rajzolja meg (M2.F-POSZ-02, 4.3 Blokk 3), ezért ez az ábra ott nem eszköz (HUM 14. szakasz, PRG-3).",
       "spec": "Egyszerű, áttekintő fogalom-térkép a teljes M2 modulról, amely vizuálisan összeköti a négy fogalmi blokkot: identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) → személyes értékek (3 érték + 1 kiemelt someres érték) → Somer 3 pillére (cionizmus, szocializmus, humanista zsidóság) → határok & személyes példamutatás (dugma isit). Mutassa, hogyan futnak ezek össze az 1 oldalas madrih identitás-jegyzetben. Modul-szintű áttekintő ábra, NEM lecke-szintű részlettartalom.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -9536,7 +9536,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Hub-szintű, elsősorban az M2.F (F-peula) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él; a jegyzet-sablon letölthető, kitölthető változata az M2-HUB-MUNK-01 (§6), amely a KAPU D. szakaszát szó szerint veszi át – nincs duplikáció.",
+      "notes": "Hub-szintű áttekintő ábra; az M2.F a fogalomtérképet élőben rajzolja (M2.F-POSZ-02), ezt az ábrát nem használja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él; a jegyzet-sablon letölthető, kitölthető változata az M2-HUB-MUNK-01 (§6), amely a KAPU D. szakaszát szó szerint veszi át – nincs duplikáció.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -9551,7 +9551,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "5c0d511ab2f66a962d8e34f75fa62716d0b500a93f04484ad9d8bc31db9d771e",
+      "spec_hash": "517dede8256d0cd4a6b0ef14ba52ac88d1340f7f0b970830273878321801a0b0",
       "deliverable_ids": [
         "M2-HUB-DIA-01",
         "M2-HUB-DIA-01::ALTTEXT"
@@ -9579,7 +9579,7 @@
       "provenance": "human",
       "provenance_note": "",
       "technical": {
-        "note": "Szerkeszthető dokumentum: Google Doc (csak szervezeti fiókban, korlátozott megosztással) és/vagy .docx; A4 nyomtatható elrendezés is; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
+        "note": "Szerkeszthető dokumentum: .docx; A4 nyomtatható elrendezés is; magyar nyelv. Google Doc-változat addig nem készül, amíg nincs szervezeti fiók, adatfeldolgozói és hozzáférési felülvizsgálat, és nem ismert a szolgáltató, az adatkör, a megőrzés és a harmadik fél (HUM 14. szakasz, ADV-10). Moodle-ben az Assignment „Additional files” mezőjébe kerül."
       },
       "a11y": {
         "note": "Valódi szöveges dokumentum (nem kép), címsorokkal és megjelölt kitöltési helyekkel, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva."
@@ -9611,7 +9611,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f61633ea9618a5037580585214852374c4d7379f796cc36b4eaccc6c9fc2d336",
+      "spec_hash": "6ff6997f97b32dc6178e8bca3bc991577d67e5bee1aae25da33da6e6d7297369",
       "deliverable_ids": [
         "M2-HUB-MUNK-01",
         "M2-HUB-MUNK-01::PRINTPDF"
@@ -11967,7 +11967,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 200,
+      "line": 201,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
@@ -11996,7 +11996,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Kapcsolódik a 2.1 eszközlistában jelzett „6–10 állítás-kártya” tételhez; a forrás itt 8 konkrét állítást ad. A facilitátor cserélhet egy-egy állítást, de tartsa a „könnyed, nem felkavaró” jelleget (4.2 Blokk 2, 3. lépés).",
+      "notes": "Kapcsolódik a 2.1 eszközlistában jelzett „6–10 állítás-kártya” tételhez; a forrás itt 8 konkrét állítást ad. A facilitátor cserélhet egy-egy állítást, de tartsa a „könnyed, nem felkavaró” jelleget (4.2 Blokk 2, 3. lépés). A (2), (3) és (5) állításnál nincs nyilvános kiállás: a résztvevők fejben vagy a saját papírjukon jelölik a helyüket (4.2 Blokk 2, 2. lépés; HUM 14. szakasz, GYV-20).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -12028,7 +12028,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 81,
+      "line": 82,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
@@ -12088,7 +12088,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 291,
+      "line": 292,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -12150,14 +12150,14 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md",
-      "line": 115,
+      "line": 116,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Megosztási szabályok flipchart-sablon (kettős funkció: közös minták gyűjtéséhez is)",
       "purpose": "A pszichológiai biztonság kereteinek közös, látható rögzítése; a facilitátornak kész tartalék-opciók, ha a csoporttól nem jön javaslat. Másodlagos funkció: a kiscsoportos közös minták vizuális gyűjtéséhez üres flipchart-felület (2.1 eszközlista).",
-      "spec": "Flipchart-/poszter-sablon a közösen kialakított megosztási (biztonsági) szabályoknak: nagy üres jegyzetterület a csoport saját javaslatainak, plusz előre nyomtatható 4 tartalék-szabály opció (verbatim, 4.1 Blokk 1, „Megosztási szabályok – közös kialakítás”): „Amit itt hallunk, az nem kerül ki névvel a teremből – kivéve, ha valaki veszélyben van: ilyenkor a Memunát vonjuk be.”; „Nem tesszük kötelezővé a megosztást – mindenki döntheti, mennyit mond el.”; „Nem kommentáljuk egymás történetét »jaj, ez semmi« típusú mondatokkal.”; „Kérdezhetünk, de nem faggatjuk egymást.” Lehet előnyomott váz, amit a teremben kézzel kiegészítenek. Ugyanez a flipchart-sablon (üres flipchart-oldal) szolgálhat a 4.4.1 kiscsoportos „közös minták” gyűjtéséhez is (2.1 eszközlista: „Flipchart / tábla + filc a közös minták összegyűjtéséhez”). MEGJEGYZÉS: a 4.4.1 verbatim beszélgetőkérdései külön tétel (M2.A-KART-03), ez a poszter csak az üres gyűjtőfelület.",
+      "spec": "Flipchart-/poszter-sablon a közösen kialakított megosztási (biztonsági) szabályoknak: nagy üres jegyzetterület a csoport saját javaslatainak, plusz előre nyomtatható 4 tartalék-szabály opció (verbatim, 4.1 Blokk 1, „Megosztási szabályok – közös kialakítás”): „Amit itt hallunk, az nem kerül ki névvel a teremből – kivéve, ha valaki veszélyben van: ilyenkor azonnal bevonjuk a Memunát.”; „Nem tesszük kötelezővé a megosztást – mindenki döntheti, mennyit mond el.”; „Nem kommentáljuk egymás történetét »jaj, ez semmi« típusú mondatokkal.”; „Kérdezhetünk, de nem faggatjuk egymást.” Lehet előnyomott váz, amit a teremben kézzel kiegészítenek. Ugyanez a flipchart-sablon (üres flipchart-oldal) szolgálhat a 4.4.1 kiscsoportos „közös minták” gyűjtéséhez is (2.1 eszközlista: „Flipchart / tábla + filc a közös minták összegyűjtéséhez”). MEGJEGYZÉS: a 4.4.1 verbatim beszélgetőkérdései külön tétel (M2.A-KART-03), ez a poszter csak az üres gyűjtőfelület.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -12193,7 +12193,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "64c1611751098baf0fda3946be12d115a63dd76f67488b1e63e7edf260b5440c",
+      "spec_hash": "f82745645ae6fda556727aef3537681ac53ad4e98a5cd5e67680377038dc1343",
       "deliverable_ids": [
         "M2.A-POSZ-01",
         "M2.A-POSZ-01::PRINTPDF"
@@ -12271,7 +12271,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md",
-      "line": 220,
+      "line": 221,
       "kind": "card-set",
       "subtype": "",
       "mode": "generate",
@@ -12282,7 +12282,7 @@
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "1–3 db kis kártya (csoportonként), A5/A6, rövid felsorolásos instrukció, magyar nyelv"
+        "note": "csoportonként 1 db kis kártya (a csoportok számától függően), A5/A6, rövid felsorolásos instrukció, magyar nyelv"
       },
       "a11y": {
         "note": "Olvasható testméret; a szöveg maga az asset."
@@ -12315,7 +12315,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "f6e65702d15b05019ba28c0c2ac9dad395b8cba5395df7f5d89673d1ba74b13c",
+      "spec_hash": "9e10529be19e960a5ae9bd9614a4581232732340fb7e0a4f87aed595bbc0e5eb",
       "deliverable_ids": [
         "M2.B-KART-02",
         "M2.B-KART-02::PRINTPDF"
@@ -12332,7 +12332,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md",
-      "line": 253,
+      "line": 254,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -12343,7 +12343,7 @@
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
-        "note": "3 nagy lap (flipchart vagy A3, csoportonként 1 – 2.1 eszközlista), kétoszlopos A/B felosztás, alul 2 kérdés-mező, filccel írható; magyar nyelv"
+        "note": "csoportonként 1 nagy lap (flipchart vagy A3; a darabszám a csoportok számától függ – 2.1 eszközlista), kétoszlopos A/B felosztás, alul 2 kérdés-mező, filccel írható; magyar nyelv"
       },
       "a11y": {
         "note": "Üres kitöltős sablon; nyomtatott vezérszöveg legyen olvasható. Külön alt-szöveg nem szükséges."
@@ -12376,7 +12376,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "53ea8004d22a70fac7f8e5fc2c2be1707f353054720359b5aa07875ffd88c0a4",
+      "spec_hash": "2c9c8972a59e67ee2b1cd857523c9efbbe3d63fad21b5c7ab0a98d2578e6ed33",
       "deliverable_ids": [
         "M2.B-MUNK-01",
         "M2.B-MUNK-01::PRINTPDF"
@@ -12393,14 +12393,14 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md",
-      "line": 393,
+      "line": 395,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista – 1 A4 sablon",
       "purpose": "A képző gyorsan, egy lapon átfutható felkészülési és lebonyolítási ellenőrzőlistát kapjon, ami biztosítja az eszközök, tér, safety és időkeret rendben-létét, valamint az online híd kiosztását.",
-      "spec": "Egy A4-es, képző-felé néző ellenőrző sablon, amely a peula 6 felkészülési pontját foglalja össze pipálható formában: 1) Meta tiszta? (fókusz: someres értékek → döntések → személyes példamutatás; M2.2–M2.3 kapcsolat), 2) Eszközök előkészítve? (4 érték-sziget karton, 3 pillér-poszter, 3 nagy lap + filcek, kis lapok + tollak), 3) Tér rendben? (4 sarok, 3 asztal, körben ülés), 4) Biztonsági keret a fejemben?, 5) Időkeret reális? (0–5'/5–20'/20–35'/35–45'), 6) Híd az online/további munkához (peula utáni beadandó: TELJES 1 oldalas identitás-jegyzet, M2 – KAPU D. sablon). A forrás explicit „1 A4-re” formátumkövetelményt ad.",
+      "spec": "Egy A4-es, képző-felé néző ellenőrző sablon, amely a peula 6 felkészülési pontját foglalja össze pipálható formában: 1) Meta tiszta? (fókusz: someres értékek → döntések → személyes példamutatás; M2.2–M2.3 kapcsolat), 2) Eszközök előkészítve? (4 érték-sziget karton, 3 pillér-poszter, csoportonként 1 nagy lap + filcek, kis lapok + tollak), 3) Tér rendben? (4 sarok, csoportonként 1 asztal, körben ülés), 4) Biztonsági keret a fejemben?, 5) Időkeret reális? (0–5'/5–20'/20–35'/35–45'), 6) Híd az online/további munkához (peula utáni beadandó: TELJES 1 oldalas identitás-jegyzet, M2 – KAPU D. sablon). A forrás explicit „1 A4-re” formátumkövetelményt ad.",
       "provenance": "mixed",
       "provenance_note": "vegyes",
       "technical": {
@@ -12437,7 +12437,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "84db534911cc82470e4e0640cbc27a610e00b79c6391193d16142073456a1b50",
+      "spec_hash": "7c0b93ade5fa45d286469d31e6d556950d9d47d9da57ebb9b77c9aada48a8185",
       "deliverable_ids": [
         "M2.B-MUNK-02",
         "M2.B-MUNK-02::PRINTPDF"
@@ -12515,7 +12515,7 @@
       "module": "M2",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md",
-      "line": 286,
+      "line": 287,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
