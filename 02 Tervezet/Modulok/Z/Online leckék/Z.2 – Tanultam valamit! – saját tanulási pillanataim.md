@@ -15,7 +15,7 @@
 **Mikrocél (tanulói nyelven):**
 
 > A lecke végére **fel fogsz tudni idézni legalább 1 konkrét tanulási pillanatot** ebből a félévből,
-> meg tudod nevezni, **volt-e olyan modul, amit nehéznek éltél meg és mit mond ez rólad**,
+> meg tudod nevezni, **volt-e olyan modul, amit nehéznek éltél meg, és mit mond ez rólad**,
 > és **3 szóban össze tudod foglalni** a féléves madrihképzős élményeidet.
 
 **Központi mondat:**
@@ -104,7 +104,7 @@
 }
 -->
 
-**Cél:** ráhangolás, érzés-szintű belépés.
+**Cél:** ráhangolás, érzésszintű belépés.
 
 **Vizualitás:**
 

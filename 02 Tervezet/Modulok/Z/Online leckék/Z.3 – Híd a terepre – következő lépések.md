@@ -8,7 +8,7 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, mobil-first)
-* Beágyazott kérdéstípusok: Single Choice, rövid szöveges válasz, esetleg Multi Choice
+* Beágyazott kérdéstípusok: Single Choice, rövid szöveges válasz, esetleg Multiple Choice
 
 **Mikrocél (tanulói nyelven):**
 
@@ -56,9 +56,9 @@
 
 > **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető:** a **kötelező** mezők (4. és 6. dia, valamint a biztonsági lépés) alapértelmezett helye a lecke melletti Moodle-oldali szövegmező (`LMS – activity manifest.md`, LMS-Z-06, három kötelező kérdéssel); H5P-n belüli út csak a célverzión igazolt működés után válthatja fel. A beküldés kötelező, utána a tanuló továbbhaladhat. A tartalmi elfogadás külön lépés: a kijelölt mentor elfogadása (LMS-Z-07) a Z és az online félév teljesítésének feltétele, a következő tanulási tartalom nyitásáé nem; ha a mentor nem fogadja el, a tanuló javít, újra beküldi, és a mentor újraellenőriz (BS-D8). Hogy a választott megvalósítás az üres beküldést ténylegesen elutasítja-e, és hogy a beküldés és az elfogadás külön állapot-e, az `LMS – H5P runtime acceptance.md` 12. pontja teszteli; a lépések kötelező, nem kihagyható státusza ettől nem gyengül.
 
-> **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 7. dia „Single Choice”, valamint a 3. dia „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
+> **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 7. dia „Single Choice”, valamint a 3. dia „Multiple Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
 
-> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; az LMS-Z-06 válaszainak megőrzési sora („Szabad szöveges reflexió” vagy „Assignment / peulatervek”) DPO-döntés (BS-D6), addig az activity valódi madrihnak nem nyitható meg (`LMS – activity manifest.md`, LMS-Z-06); az adatot gyűjtő aktivitás csak a megőrzési időt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
 
 ### SLIDE 1 – HOOK: „Nagyon nagyot, vagy inkább kicsit?”
 
@@ -178,7 +178,7 @@ Opciók:
 > – meg van nevezve **a konkrét cselekvés**,
 > – és **reálisan felmérhető**, hogy sikerült-e.
 
-**Beágyazott kérdés – Multi Choice**
+**Beágyazott kérdés – Multiple Choice**
 
 > „Melyik példa áll hozzád most a **legközelebb**?”
 
@@ -214,27 +214,31 @@ Opciók:
 
 > 🔁 Az **M7-ben a Peula v2-d mellé már leadtál egy kipróbálási szándékot** (mikor / melyik Zmán Kvucán + 1 várható akadály → **ha–akkor** megkerülés). **Vedd most elő** – itt nem nulláról kezded, hanem **a tényleges első Zmán Kvucádra finomítod / aktualizálod** ugyanazt az egy vállalást.
 
+> Ha a Peula v2-det még nem adtad le, mert még az M7 javítási útján vagy, a Peula v1-edre és arra a kipróbálási szándékra építs, amelyet az M7.B peulán magadnak leírtál.
+
 > Írd át / pontosítsd a **kipróbálási szándékodat** a Peula v2-dre az alábbi kezdéssel:
 
 > **„A következő 3 Zmán Kvucámon…”**
 
 > Töltsd ki mind a hármat (ez nem fogadalom, hanem terv):
-> – **MIKOR** futtatod le? (pl. „a következő 3 Zmán Kvucám közül a másodikon”)
+> – **MIKOR** futtatod le? (pl. „a 2. alkalommal”)
 > – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed. Csak csoportszintű információt írj: hanih-nevet, egyéni érzékeny történetet vagy diagnózist ne.
 > – **1 ELŐRE LÁTOTT AKADÁLY → ha–akkor megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
 
 > Segítő példa (ha–akkor):
-> – „…a Peula v2-met a 2. Zmán Kvucámon futtatom le a Leviatán-kvucámmal. **Ha** kevesebben jönnek a tervezettnél, **akkor** a páros feladatot egész csoportos körré alakítom át.”
+> – „…lefuttatom a Peula v2-met a Leviatán-kvucámmal, mégpedig a 2. alkalommal. **Ha** kevesebben jönnek a tervezettnél, **akkor** a páros feladatot egész csoportos körré alakítom át.”
 > – „…**ha** nincs elég idő a teljes peulára, **akkor** a nyitó-ráhangolódó részt lerövidítem, és a fő élményrészt viszem végig.”
 
 > Fontos: legyen **valóságos**, amit beírsz – olyan terv, amit tényleg el tudsz képzelni magad előtt a kvucáddal.
+
+> A válaszodat a lecke után következő „Z.3 – Szöveges válaszok” szövegmezőbe írod be; addig írd fel a jegyzetedbe.
 
 **Kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
 **Rövid szöveges válasz** mező – a kitöltése és beküldése **kötelező** (mikor + melyik kvuca + 1 akadály ha–akkor formában); helye a lecke melletti Moodle-oldali mező (LMS-Z-06, 1. kérdés).
 
-Mezőben megjelenő mintaszöveg:
-`A következő 3 Zmán Kvucámon a ... Zmán Kvucámon futtatom le a Peula v2-met a ... kvucámmal. Ha ..., akkor ...`
+Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe, vagyis a mező címkéjébe kerül (a Moodle Feedback „Longer text answer” mezőjében nincs helyőrző vagy előre kitöltött szöveg; TEXT-C: „a kérdés(ek) szövege a mező címkéje”):
+`A következő 3 Zmán Kvucámon lefuttatom a Peula v2-met a ... kvucámmal, mégpedig a ... alkalommal. Ha ..., akkor ...`
 
 ***
 
@@ -282,6 +286,8 @@ Mezőben megjelenő mintaszöveg:
 
 > **„Elmondom a Peula v2-tervemet ………-nak/-nek (a mentorom vagy egy kijelölt tapasztalt madrih neve), és ha elakadok, vagy közbejön az akadály, tőle kérek segítséget.”**
 
+> Ezt a mondatot is a lecke után következő „Z.3 – Szöveges válaszok” szövegmezőbe írod be; addig írd fel a jegyzetedbe.
+
 **Kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
 1 rövid mező, 1–3 mondat – a kitöltése és beküldése **kötelező** (helye: LMS-Z-06, 2. kérdés). Tartalmazza: **kinek** mondod el, és ha–akkor formában azt, hogy miben kéred a támogatását a Peula v2 lefuttatásánál.
@@ -299,7 +305,7 @@ Mezőben megjelenő mintaszöveg:
 
 > **„Az első éles Zmán Kvucám előtt a Moodle-kurzus »Segítség és kapcsolatok« blokkjában ellenőrzöm a kijelölt Memuna és a helyettese nevét és elérhetőségét, és felírom magamnak. Ha ez nincs egyértelműen megadva, vagy egy éles alkalmon a felkészített, 18 év feletti felelős felnőtt nincs jelen, és a helyszínen sem érhető el azonnal, nem vezetek éles foglalkozást, hanem jelzem a képzőnek.”**
 
-> Ezt a választ és a 4. és a 6. dián írtakat a mentorod átnézi. Ha hiányzik belőlük valami, szól: ekkor kiegészíted, és újra beküldöd. A Z modul akkor teljesül, ha a mentorod elfogadta őket.
+> Ezt a választ is a lecke után következő „Z.3 – Szöveges válaszok” szövegmezőbe írod be (addig írd fel a jegyzetedbe). A beküldés után ezt és a 4. és a 6. dián kért válaszaidat a mentorod átnézi. Ha hiányzik belőlük valami, szól: ekkor kiegészíted, és újra beküldöd. A Z modul akkor teljesül, ha a mentorod elfogadta őket.
 
 **Kérdés – rövid szöveges válasz (KÖTELEZŐ)**
 
@@ -315,7 +321,7 @@ Mezőben megjelenő mintaszöveg:
 
 > ✅ **Önellenőrzés – Ha holnap kezdenéd…**
 
-> Nézd meg a 2 célmondatodat (az „A következő 3 Zmán Kvucámon…” és az „A következő hónapban…” kezdetűeket).
+> Nézd meg a jegyzetedben a 2 célmondatodat (az „A következő 3 Zmán Kvucámon…” és az „A következő hónapban…” kezdetűeket).
 
 > Tegyél fel magadnak 1 kérdést:
 
@@ -345,6 +351,6 @@ Opciók:
 * Félig:
   > „Oké – érdemes lehet még 1 szót hozzátenni (pl. mikor, hol, kivel), hogy biztosabb legyen.”
 * Nem:
-  > „Teljesen oké – inkább most derüljön ki. Nyugodtan lépj vissza 1–2 diát, és írd át úgy, hogy **konkrétabb és reálisabb legyen, és tényleg elhidd**, hogy meg tudod csinálni.”
+  > „Teljesen oké – inkább most derüljön ki. Mielőtt beküldöd, nyugodtan írd át a jegyzetedben úgy, hogy **konkrétabb és reálisabb legyen, és tényleg elhidd**, hogy meg tudod csinálni.”
 
 (Opcionálisan alul: mini szöveges válasz – „Ha szeretnéd, 1 szóban írd le, milyen érzés most ezekkel a célokkal a terepre gondolni.” – de ez már extra.)

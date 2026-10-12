@@ -24,7 +24,7 @@
 
 **Eszközök:**
 
-* **Moodle Assignment – Online text** – „Záró reflexiós ív” (strukturált sablonnal, piszkozatmentéssel; a tényleges draft/resume működést acceptance teszt igazolja)
+* **Moodle Assignment – Online text** – „Záró reflexió + következő lépés” (strukturált sablonnal, piszkozatmentéssel; a tényleges draft/resume működést acceptance teszt igazolja)
 * Ugyanez az Assignment a **leadás helye is**: online szöveg (alapértelmezés) **vagy** – ha a tanuló választja – abból felvett 2–3 perces videó
 * **Moodle Feedback** (core; Questionnaire csak az 5. szakasz feltételével) – képzésértékelő, a válaszok név nélkül jelennek meg a feldolgozásban *(külön marad)*
 
@@ -58,7 +58,7 @@
 > Az íven 3 vezető kérdésed lesz:
 
 1. „Nevezz meg **legalább 3 pillanatot** ebből a félévből, ami különösen megmaradt benned. Miért pont ezek?”
-2. „Miben érzed úgy, hogy **változott a madrih-szemléleted** M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket M0-ban magadnak elmentettél** – a *‘Mit várok ettől az évtől madrihként?’* és a *‘figyelek rá, hogy…’* mondatot –, és nézd meg, mi valósult meg belőlük.)”
+2. „Miben érzed úgy, hogy **változott a madrih-szemléleted** az M0-hoz képest? (Ehhez **vedd elő a SAJÁT mondataidat, amiket az M0-ban magadnak elmentettél** – a *‘Mit várok ettől az évtől madrihként?’* és a *‘figyelek rá, hogy…’* mondatot –, és nézd meg, mi valósult meg belőlük.)”
 3. „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre. Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > Most **egy összefüggő íven** rendezed a gondolataidat, a végén **beadod**, utána kitöltöd a visszajelző űrlapot.
@@ -70,11 +70,11 @@
 > * **Ha technikailag akadsz el** (például nem töltődik be az oldal, vagy nem sikerül a beadás): nyisd meg a kurzus **„Segítség és kapcsolatok”** blokkját, és használd az ott megadott technikai segítségkérési csatornát.
 > * **Ha tartalmilag akadsz el** (nem érted a feladatot, elbizonytalanodtál egy fogalomban): nézd meg a [Glosszáriumot](../../../Glosszárium%20–%20someres%20és%20pedagógiai%20fogalmak.md), és ha továbbra is kérdésed van, írj a kurzus „Segítség és kapcsolatok” blokkjában megadott mentorodnak – nem „vizsgázol”, a kérdés is fejlődés.
 
-**Gomb:** „Tovább a leckére” → Moodle Assignment (Z.4 – „Záró reflexiós ív”, Online text)
+**Gomb:** „Tovább a leckére” → Moodle Assignment (Z.4 – „Záró reflexió + következő lépés”, Online text)
 
 ***
 
-## 3. Moodle Assignment – „Záró reflexiós ív” (lépésről lépésre)
+## 3. Moodle Assignment – „Záró reflexió + következő lépés” (lépésről lépésre)
 
 > **Miért Moodle Assignment?** A záró modulban könnyen halmozódik a sok külön szabad szöveges mező, és ez **fárasztó**. A Moodle Assignment online szöveges sablonja ezeket **egy összefüggő ívbe** fűzi. Így nem támaszkodunk a H5P Documentation Tool nem igazolt session-resume képességére, és a hosszabb szöveg a Moodle saját draft/leadási folyamatában kezelhető. A három kérdés (pillanatok / szemléletváltozás / következő lépés) **ennek az ívnek a szakaszai**. **Nonformális keret:** az ív nyelve **someres, élményalapú** marad (üzenet magadnak), nem portfólió-formális dokumentum.
 
@@ -134,7 +134,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Miért pont ezek?”
 
 > 2️⃣ **Szemléletváltozás**
-> „Miben érzed úgy, hogy **változott a madrih-szemléleted** M0-hoz képest?”
+> „Miben érzed úgy, hogy **változott a madrih-szemléleted** az M0-hoz képest?”
 
 > 3️⃣ **Következő lépések és megosztás**
 > „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre.
@@ -187,18 +187,18 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 > a) **Madrih-szemléleted változása**
 
-> Mielőtt írsz, **vedd elő a SAJÁT két mondatodat, amit M0-ban magadnak elmentettél** (jegyzet vagy képernyőkép):
-> – az M0.1 várakozás-mondatát: *„Mit várok ettől az évtől madrihként?”*,
-> – és az M0.2 ígéret-mondatát: *„Madrihként ebben az évben figyelek rá, hogy…”*.
+> Mielőtt írsz, **vedd elő a SAJÁT két mondatodat, amit az M0-ban magadnak elmentettél** (jegyzet vagy képernyőkép):
+> – az M0.1 várakozásmondatát: *„Mit várok ettől az évtől madrihként?”*,
+> – és az M0.2 ígéretmondatát: *„Madrihként ebben az évben figyelek rá, hogy…”*.
 > *(Figyelj: itt a **te saját két mondatodról** van szó, nem a programtól kapott 3 ígéretről – azokra majd a végén, a képzési visszajelzésben reflektálsz.)*
 > Ha nincs meg, nem baj – idézd fel emlékezetből, körülbelül mit írtál akkor.
 
 > Írj **3–5 mondatot**:
 
-> – *„Miben érzed úgy, hogy változott a madrih-szemléleted M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
+> – *„Miben érzed úgy, hogy változott a madrih-szemléleted az M0-hoz képest? Mi valósult meg abból, amit az M0-ban magadnak megfogalmaztál?”*
 > (Gondolj arra, hogyan tekintesz ma a kvucára, a felelősségre, a gyermekvédelemre, a saját határaidra, a visszajelzésre…)
 
-> **Egy fontos kivétel (ugyanaz, mint az M3.3-ban):** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a beadást látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe az ívbe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
+> **Egy fontos kivétel:** ha abból, amit ide írsz, az derül ki, hogy **te magad vagy valaki más veszélyben van**, a beadást látó mentornak vagy értékelőnek azonnal be kell vonnia a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét) – ezért itt sem ígérünk teljes titoktartást. Ha veszélyről van szó, azt ne csak ebbe az ívbe írd: **azonnal vond be a Memunát**. Közvetlen életveszélynél **112**.
 
 **Az ív 2. szakasza (szakaszcím a sablonban, a rész)** – szakaszcím: *„Madrih-szemléletem változása”*. A szöveg **a beadás része lesz**.
 
@@ -230,7 +230,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Görgess vissza, és nézd át, amit az előző lépéseken írtál.
 
 > ✔ Van benne **legalább 3 konkrét pillanat**, röviden leírva, és mindegyiknél az, hogy **miért fontos**?
-> ✔ Leírtad, **miben változott a madrih-szemléleted** M0-hoz képest?
+> ✔ Leírtad, **miben változott a madrih-szemléleted** az M0-hoz képest?
 > ✔ Van **1–2 konkrét célod a következő lépésekhez** (legalább az egyik határidős), és megvan, hogy **kinek mondod el**?
 
 > Ha a fenti 3 kérdésre **igen** a válaszod, mehetsz a **leadásra** – a következő lépésben
@@ -317,7 +317,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
    „Nevezz meg **legalább 3 pillanatot** ebből a félévből, ami különösen megmaradt benned.
    Miért pont ezek?”
 2. **Szemléletváltozás**
-   „Miben érzed úgy, hogy **változott a madrih-szemléleted** M0-hoz képest?”
+   „Miben érzed úgy, hogy **változott a madrih-szemléleted** az M0-hoz képest?”
 3. **Következő lépések és megosztás**
    „Írj le **1–2 konkrét célt a következő lépésekhez** a terepre.
    Kinek fogod elmondani, hogy ezeket vállalod?”
@@ -335,12 +335,12 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
   * Online text: **ON**
   * File submissions: **ON**, max 1 file, max size 100–200 MB (opcionális videós út).
 * **Require students to click the submit button:** Yes – így van külön piszkozat és beadás (a 6. lépés beadásgombja); beadás után a tanuló már nem szerkesztheti a szöveget.
-* **Próbálkozások:** 1 normál + 1 javító próbálkozás: a javító próbálkozás a „Még nem teljesítve” visszajelzés után automatikusan nyílik, további próbálkozást csak a képző nyithat, kézzel. A completionhöz a legjobb megerősített eredmény számít; egy már megszerzett „Teljesítve” nem romolhat vissza egy önkéntes újrabeadástól, a legfrissebb próbálkozás visszajelzésként megmaradhat. (A manifest ASSIGN-S profilja szerint újrabeadás engedett; az újranyitást az `LMS – H5P runtime acceptance.md` 3. pontja teszteli.) A pontos Moodle-beállításokat és feliratokat a célverzión vissza kell olvasni.
+* **Próbálkozások:** 1 normál + 1 javító próbálkozás: a javító próbálkozás a „Még nem teljesítve” visszajelzés után automatikusan nyílik, további próbálkozást csak a képző nyithat, kézzel. A completionhöz a legjobb megerősített eredmény számít; egy már megszerzett „Teljesítve” nem romolhat vissza egy önkéntes újrabeadástól, a legfrissebb próbálkozás visszajelzésként megmaradhat. (A manifest ASSIGN-S profilja szerint a puha kapus beadásoknál (LMS-Z-04) 1 normál + 1 javító beadás automatikusan, további beadást a képző nyit kézzel; az újranyitást az `LMS – H5P runtime acceptance.md` 3. pontja teszteli.) A pontos Moodle-beállításokat és feliratokat a célverzión vissza kell olvasni.
 * **Due date:** a Z completion határideje 18:00, a központi naptár szerinti napon (`LMS – activity manifest.md` §7; a dátum `SCHEDULE_TO_RESYNC`); az eredmény megerősítése: a következő napon.
 * **Grading type:**
-  * „Pont nélküli skála”: `Teljesítve / Még nem teljesítve`
+  * „Pont nélküli skála”, pontosan két elemmel, ebben a sorrendben: 1. „Még nem teljesítve”, 2. „Teljesítve” (`LMS – activity manifest.md` §1, GATE-CP)
 * **Completion rule:**
-  * Completion csak akkor jár, ha a beadás előírt részeiben (a három szakaszban; a videós útnál a videóban mindhárom kérdésre kitérve) **tényleges, minimálisan értelmezhető tartalom** van; a puszta leadás, az üres sablon vagy a fájlfeltöltés önmagában nem completion. A Moodle-beli kódolást (értékeléshez kötött completion vagy kézi megerősítés) az `LMS – activity manifest.md` LMS-Z-04 sora rögzíti.
+  * Két külön állapot, nem vonható össze (BSPEC-07; `LMS – activity manifest.md`, LMS-Z-04 és LMS-Z-08): **SUBMITTED** – a reflexió leadva (`completionsubmit`), ez az Assignment saját completionje; **CONFIRMED** – a kijelölt mentor/értékelő az LMS-Z-08-ba „Teljesítve” értéket ír, ha a beadás előírt részeiben (a három szakaszban; a videós útnál a videóban mindhárom kérdésre kitérve) **tényleges, minimálisan értelmezhető tartalom** van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég), egyébként „Még nem teljesítve” értéket. A Z teljesítéséhez a leadás és az LMS-Z-08 = „Teljesítve” együtt kell (`LMS – activity manifest.md` §4); az LMS-Z-08 completion-állapotát a stáb kézzel nem írja felül (§1, GATE-CP).
 
 ### Minimum elvárás a „Teljesítve”-hez
 
@@ -380,9 +380,9 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
    > c) **Számított a hangom** (a kérdéseim, visszajelzéseim eljutottak valahova).
    >
    > *(Kísérő rövid szöveges válasz, opcionális):* „Hol hiányzott ezekből valami?”
-3. **Hasznos modulok** – Multi Choice (több válasz jelölhető)
+3. **Hasznos modulok** – Multiple choice (több válasz jelölhető)
    > „Melyik modul(oka)t élted meg **a leghasznosabbnak**?” (M0–M7 listázva)
-4. **Terhelés** – Single Choice
+4. **Terhelés** – Multiple choice (egy válasz jelölhető)
    > „Hogyan élted meg a félév összterhelését (online és offline)?” – Túl kevés / pont elég / néha sok / túl sok
 5. **Mi segített a legjobban?** – rövid szöveges válasz
    > „Mi volt az az 1–2 dolog (modul, peula, módszer, ember), ami **a legtöbbet segített** neked madrihként?”

@@ -301,28 +301,28 @@
       "sha256": "ccfbc1e1a440209a5eff791ba8a72d265afd8a3e36c1c13a847ca07cc6257952"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
-      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
-      "sha256": "a34cca1a12be28e4a16fb5e14c48a2a0c121f47e3602a76cb5f21d74dd404d8a"
+      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
+      "sha256": "a754754c88f5af0b4df693244b969f810b70a14a81448a81304453b55f4b6ea2"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
-      "reason": "BSPEC-02 leltár, célzott újraellenőrzés utójavításai (R-01…R-26: ERT-1/2, BIZT-1/3, IMPL-1…7, NYELV-1…14): tanuló-lokális jelölés, mutatók és névmási hivatkozások pontosítása",
-      "sha256": "99ad349dc8fa506ca4edd0b0e816736e0dd2b36197d8cfd61dbbd935acbe5dad"
+      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
+      "sha256": "b53c38625b8edcb0ce032626f97436b7adef1dbe73074ea27cb8cae257545a62"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "BSPEC-01/02 javítókör (A–M; BS-D2, BS-D3, BS-D5, BS-D8): TEXT-C Moodle Feedback, GATE-CP, M0 4. item D, M1.4 Q-REL-2, M3.1/M3.2 opcionális, M4.4/Z.3 mezőhely, Z.3 mentori elfogadás, M5.3 tartalékút, újraértékelési zárópont + célzott review-javítások",
-      "sha256": "adf7d3cd5bb97d0ec4c3987b5e64edd49347cab435406b0bed24feeb93677757"
+      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
+      "sha256": "af547dd73032856a245f4dbcc5f847d382f69062e1717c3d86b609b80ae34a15"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
-      "sha256": "563fed48e838e254e0a82aab5f99c1be1e9bd1f358bcd75eb2d1672ba8b24a7b"
+      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
+      "sha256": "fd492b5b426c5a66ff2be3151df3b4b4cb66cca4c1736dd0b89e40494a04fcbe"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
-      "reason": "2026-10-02 projektgazdai döntés (HUM-SOMER-02): helyi Somer-írásmód gépi migrációja (madrich→madrih, chanich→hanih, hagshama→hágsámá, dugma ishit→dugma isit, Leviatan→Leviatán), 8 fájl átnevezése a hivatkozásokkal együtt; tartalmi változás nincs",
-      "sha256": "69b960ea2c9006158f2c03e0a196d1269f3d3db40d1a93fcbc39c24e79923872"
+      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
+      "sha256": "5e64ce9b68107ca733b866063f6bcf8f4923eebf3efff9d7714c3b19eb79fa04"
     },
     "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md": {
-      "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
-      "sha256": "d536e312307c3edf3c3fe86bc9a516299a3ec61b33042e741593f524980f940a"
+      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
+      "sha256": "0a2fd2dc0238e6db6108262f4673e22bef5d17b626328c6de112b9cf32eec878"
     },
     "02 Tervezet/Program terv.md": {
       "reason": "Command 6 (C6-01…C6-19): PR-01 adatleltár build-része, PR-02 tanulói adatvédelmi tájékoztató, A11Y-07 G5a/G5b, A11Y-17 offline változat, BIZT-2/3/4/11, M0/M1 hub ütemezés-semleges sor, Memuna-felsorolás példálózó, M4.1 példa/változat szóhasználat",

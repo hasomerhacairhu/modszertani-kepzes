@@ -8,7 +8,7 @@
 **Modul:** `Z – Zárás & híd a terepre`
 **Időtartam:** `45’–75’ (ideális: 75’, szűkített verzió: 45’)`
 
-**Korosztály:** képzős madrihok (15+)
+**Korosztály:** képzős madrihok / madrihot (15+)
 **Létszám:** kb. 8–20 fő
 
 **Fő célok (tanulói nyelven):**
@@ -20,8 +20,8 @@
 
 **Kapcsolat az online résszel:**
 
-* **Online előtanulás (ideális):** Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 idővonal, tanulási pillanatok, következő lépések).
-* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzési visszajelzés” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg a feldolgozásban). A Z.4-ben a madrih a peulán megfogalmazott gondolataiból dolgozik.
+* **Online előtanulás (ideális):** a Z.1–Z.3 leckék legalább nagyjából meglegyenek (M0–M7 idővonal, tanulási pillanatok, következő lépések).
+* **Peula utáni online lépés:** Z.4 – „Záró reflexió + képzési visszajelzés”: a „Záró reflexió + következő lépés” Assignment + a kérdőív kitöltése (a válaszok név nélkül jelennek meg a feldolgozásban). A Z.4-ben a madrih a peulán megfogalmazott gondolataiból dolgozik.
 
 ***
 
@@ -30,17 +30,19 @@
 ### 2.1. Eszközök
 
 * A4-es lapok (min. 3–4 db kiscsoportonként) – a „Híd a terepre” poszterhez
+* Kiscsoportonként 1 flipchart lap vagy A3 (Z.A-MUNK-01 sablon)
 * Színes filcek, tollak
 * Kis cetlik / post-itok (mindenkinek 2–3 db) – névhúzáshoz + szófelhőhöz
 * 1 nagyobb papír / flipchart lap vagy falfelület a **„Mit viszek magammal?” felhőnek**
 * 1 tál / kalap / doboz a nevek húzásához
 * Ragasztó / blu-tack a poszterek és a szófelhő rögzítéséhez
 * Időmérő (telefon is elég) az időkeretek tartásához
+* **Felvétel:** a peulán a központi felvételi szabály érvényes (HUM-PRIV-02; `Adatvédelem – tanulói adatok és AI.md` 6. szakasz): alapértelmezés szerint **nincs fotó, videó vagy hangfelvétel**, csak indokolt célból.
 
 ### 2.2. Tér
 
 * Székek **nagykörben** a ráhangolódáshoz és a zárókörhöz.
-* A terem egyik oldalán hely 2–3 **kiscsoportos „poszter-állomásnak”** (asztal vagy föld, ahol rajzolhatnak).
+* A terem egyik oldalán hely 2–3 **kiscsoportos „poszterállomásnak”** (asztal vagy föld, ahol rajzolhatnak).
 * Falfelület / ajtó / tábla, ahova a poszterek és a szófelhő felkerülhet.
 * Legyen egy kijelölt **csendesebb, de átlátható pont**, ahol valaki szünetet tarthat: felkavart résztvevőt nem küldünk ki egyedül, ott is egy felnőtt van vele.
 * Fontos: legyen olyan hangulat, ahol **nyugodtan lehet beszélgetni** – ne túl zajos környezet.
@@ -52,7 +54,7 @@
 * Előre átgondolja a **biztonsági keretet** (4.2 / 1. lépés), és a benne lévő „Ha ez a téma téged is érint” blokkot szó szerint mondja el.
 * Tudja, **kihez fordul**, ha a peula alatt valakit láthatóan nagyon megérint egy téma: a résztvevő kijelölt mentorához, gyermekvédelmi aggálynál pedig a kijelölt **Memunához** (a Somer gyermekvédelmi felelőséhez). Utána diszkréten, de átlátható helyzetben lép oda a résztvevőhöz; kettesben (1:1) csak indokolt esetben, átlátható módon és egy másik felelős tudtával beszél vele (safer-working szabály: `Gyermekvédelem – release gate.md` 4.2. pont).
 * Tudja, hogy ha a peula alatt – akár egy párban – feltárás történik vagy gyermekvédelmi aggály merül fel, nem dolgozza fel a csoport előtt, hanem az ötlépéses jelzési út (M3.B lépéstérkép) szerint jár el – azonnal bevonja a Memunát –, és ezzel a helyzettel nem marad egyedül.
-* **Még a peula előtt beszerzi az M0 produktumokat** (ezekre épül a 4.2 „M0-tükör” és a 4.4.2 záró rituálé): elkéri a ken-vezetőtől / stábtól az **M0.A kickoff-plakátot** (*mit várok / mitől félek / mit hozok*), és – ha rögzítették – az **M0.A induló-szavak** listáját. Ha nincs archiválva, a saját jegyzeteiből készít **2–3 név nélküli idézetet**, amit a táblára kitehet, hogy a visszakötés ne csak emlékezetből menjen. A plakátot és az idézeteket kihelyezés előtt ugyanúgy átnézi, mint az M0.A-ban: ne legyen rajtuk név, elérhetőség vagy más beazonosítható, érzékeny személyes tartalom; ha ilyen mégis rákerült, kitakarja vagy leveszi.
+* **Még a peula előtt beszerzi az M0 produktumokat** (ezekre épül a 4.2 „M0-tükör” és a 4.4.2 záró rituálé): elkéri a ken-vezetőtől / stábtól az **M0.A kickoff-plakátot** (*mit várok / mitől félek / mit hozok*), és – ha rögzítették – az **M0.A indulószavak** listáját. Ha nincs archiválva, a saját jegyzeteiből készít **2–3 név nélküli idézetet**, amit a táblára kitehet, hogy a visszakötés ne csak emlékezetből menjen. A plakátot és az idézeteket kihelyezés előtt ugyanúgy átnézi, mint az M0.A-ban: ne legyen rajtuk név, elérhetőség vagy más beazonosítható, érzékeny személyes tartalom; ha ilyen mégis rákerült, kitakarja vagy leveszi.
 
 ***
 
@@ -61,31 +63,31 @@
 **0–10’** – Ráhangolódás: „Félév-emojik”
 **10–30’** – 1. fő aktivitás: „Időkapszula” – tanulási pillanatok megosztása párokban / hármasokban
 **30–50’** – 2. fő aktivitás: „Híd a terepre” kiscsoportos poszter
-**50–70’** – 3. fő aktivitás: Elismerés-kör – párcsere (Időkapszula-párok oda-vissza SBI-elismerése) + névhúzásos rákötés
+**50–70’** – 3. fő aktivitás: Elismeréskör – párcsere (Időkapszula-párok oda-vissza SBI-elismerése) + névhúzásos rákötés
 **70–75’** – Záró rituálé: 1 szó, szófelhő, közös lezárás
 
 **45 perces verzió – explicit percbontás:**
 
 **0–7’** – Ráhangolódás: „Félév-emojik” (gyorsabb kör, max. 1 mondat/fő)
 **7–18’** – 1. fő aktivitás: „Időkapszula” – tanulási pillanatok párokban (nagykörös visszahozás nélkül)
-**18–30’** – 2. fő aktivitás: „Híd a terepre” poszter (rövidítve, poszter-bemutató nélkül)
-**30–41’** – 3. fő aktivitás: Elismerés-kör – párcsere (Időkapszula-párok oda-vissza SBI-elismerése); 45’-ben a párcsere a teljes blokk, névhúzás nélkül
+**18–30’** – 2. fő aktivitás: „Híd a terepre” poszter (rövidítve, poszterbemutató nélkül)
+**30–41’** – 3. fő aktivitás: Elismeréskör – párcsere (Időkapszula-párok oda-vissza SBI-elismerése); 45’-ben a párcsere a teljes blokk, névhúzás nélkül
 **41–45’** – Záró rituálé: 1 szó, szófelhő, közös lezárás
 
-*(Vagyis a 45’-es verziónál **minden blokk rövidül**, a legnagyobb vágás a **2. (Időkapszula, 20’→11’, –9’)** és a **4. (Elismerés-kör, 20’→11’, –9’) blokkon** van, a poszter **8’-cel** (20’→12’), a ráhangolódás **3’-cel** (10’→7’), a záró rituálé pedig csak **1’-cel** (5’→4’) rövidül: kevesebb beszélő kör, rövidebb poszter-idő, a poszter- és nagykörös visszahozások esnek ki először – az elismerés-kört és a záró szót próbáld megtartani.)*
+*(Vagyis a 45’-es verziónál **minden blokk rövidül**, a legnagyobb vágás a **2. (Időkapszula, 20’→11’, –9’)** és a **4. (Elismeréskör, 20’→11’, –9’) blokkon** van, a poszter **8’-cel** (20’→12’), a ráhangolódás **3’-cel** (10’→7’), a záró rituálé pedig csak **1’-cel** (5’→4’) rövidül: kevesebb beszélő kör, rövidebb poszteridő, a poszter- és nagykörös visszahozások esnek ki először – az elismeréskört és a záró szót próbáld megtartani.)*
 
-> **Hol fér bele a párcsere?** Az elismerés-kör magját a **párcsere** adja (4.4.1 / 1–2. lépés): az Időkapszula-párok **oda-vissza** mondanak egymásnak 1-1 SBI-elismerést. Ehhez **nem kell új idő**, mert a névhúzásos kör idejéből kap helyet, és a párok már megvannak a 2. blokkból. A **45’-es verzióban a párcsere maga a teljes 11’-es blokk** (a névhúzásos nagykörös rákötés kimarad); a **75’-es verzióban** a párcsere (kb. 7’) után marad idő a névhúzásos körre is (kb. 6’) – ha csúszol, a névhúzás esik ki először, a párcsere a fő.
+> **Hol fér bele a párcsere?** Az elismeréskör magját a **párcsere** adja (4.4.1 / 1–2. lépés): az Időkapszula-párok **oda-vissza** mondanak egymásnak 1-1 SBI-elismerést. Ehhez **nem kell új idő**, mert a névhúzásos kör idejéből kap helyet, és a párok már megvannak a 2. blokkból. A **45’-es verzióban a párcsere maga a teljes 11’-es blokk** (a névhúzásos nagykörös rákötés kimarad); a **75’-es verzióban** a párcsere (kb. 7’) után marad idő a névhúzásos körre is (kb. 6’) – ha csúszol, a névhúzás esik ki először, a párcsere a fő.
 
 **Reális időtervezés:**
 
 * **A fenti percek feszesek** – záró peulánál a megosztó körök szinte mindig túlcsúsznak (több az érzelem, többen akarnak beszélni). **Tervezz 10–15% puffert**: a 75’-es verziónál gondolkodj inkább **75–85’-ben**, a 45’-esnél **45–50’-ben**, és inkább a felső sávval kalkulálj.
 * **Mag (ezt ne hagyd el) vs. elhagyható/rövidíthető** – ha csúszol, ebben a sorrendben vágj:
-  * **Mag (a peula lényege):** Ráhangolódás (Blokk 1) · az **Elismerés-kör párcsere-magja** (4.4.1 / 1–2. lépés – az Időkapszula-párok oda-vissza SBI-elismerése) · a **záró szófelhő rituálé** (4.4.2). Ezek adják a lezárás élményét – ezeket tartsd meg.
-  * **Elhagyható / rövidíthető elsőként:** a poszter **nagykörös bemutatása** (4.3 / 4. lépés) · az Időkapszula **nagykörös visszahozása** (4.2 / 4. lépés) · az elismerés-kör **névhúzásos nagykörös rákötése** (4.4.1 / 3. lépés – ez épül a párcsere magjára, de elhagyható, ha csúszol). A párokban/kiscsoportban zajló rész marad, csak a nagykörös visszahozás esik ki vagy rövidül 1–2 önkéntesre.
+  * **Mag (a peula lényege):** Ráhangolódás (Blokk 1) · az **Elismeréskör párcsere-magja** (4.4.1 / 1–2. lépés – az Időkapszula-párok oda-vissza SBI-elismerése) · a **záró szófelhő-rituálé** (4.4.2). Ezek adják a lezárás élményét – ezeket tartsd meg.
+  * **Elhagyható / rövidíthető elsőként:** a poszter **nagykörös bemutatása** (4.3 / 4. lépés) · az Időkapszula **nagykörös visszahozása** (4.2 / 4. lépés) · az elismeréskör **névhúzásos nagykörös rákötése** (4.4.1 / 3. lépés – ez épül a párcsere magjára, de elhagyható, ha csúszol). A párokban/kiscsoportban zajló rész marad, csak a nagykörös visszahozás esik ki vagy rövidül 1–2 önkéntesre.
 
 ***
 
-## 4. Blokk-leírások (részletesen)
+## 4. Blokkleírások (részletesen)
 
 ### 4.1. Blokk 1 – Ráhangolódás (`0–10’`)
 
@@ -102,7 +104,7 @@
 > „Kezdjünk egy gyors ráhangolódással arra, mit is zárunk ma le.
 
 > Kérdés:
-> **Ha a féléved egy emoji lenne, melyik lenne az és miért?**
+> **Ha a féléved egy emoji lenne, melyik lenne az, és miért?**
 
 > Elég egy emoji és egy-két mondat. Ha most nem szeretnél megszólalni, nyugodtan mondhatod azt is, hogy *passz*.”
 
@@ -203,13 +205,13 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    > „Ne mondj hanih-nevet vagy beazonosítható történetet; ha egy tanulási pillanat túl személyes, válassz másikat. Figyeljetek arra, hogy amit a másik mond, azt **nem visszük tovább pletykaként vagy engedély nélkül**. Egy fontos kivétel van: ha valaki veszélyben lehet, vagy gyermekvédelmi aggály merül fel, **nem ígérünk teljes titoktartást**, hanem a lehető legszűkebb körben azonnal bevonjuk a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét). Ha valós gyermekvédelmi aggályod van, azt ne itt, a körben mondd el, hanem azonnal vond be a Memunát.”
    * **M0-tükör (kb. 1 perc – kösd vissza az első peulához):** Az első, kickoff-peulán (M0.A) a kvuca egy plakátra felírta, hogy **mit vár, mitől fél, mit hoz** a képzésbe – akkor azt ígértük, hogy a Z-modulnál visszanézünk rá. Ha az eredeti plakát fizikailag megvan, **hozd be és függeszd ki** most (a 2.3 szerint előre átnézve); ha nincs meg, emlékezetből idéztesd fel. Indító mondat:
      > „Az első alkalmon felírtátok egy plakátra, mit vártok ettől a képzéstől, mitől féltek, és mit hoztok bele. Most, mielőtt párba álltok, gondolj vissza: **amitől akkor féltél, az hogy alakult? Amit vártál, megvalósult-e?** Lehet, hogy épp ez lesz az egyik tanulási pillanatod, amit meg tudsz osztani mindjárt.”
-     > Aki az **M0.1–M0.2 online leckében** elmentette magának a *„Mit várok ettől az évtől madrihként?”* és a *„Madrihként ebben az évben figyelek rá, hogy…”* mondatát, most idézze fel (jegyzetből vagy emlékezetből) – ez is lehet az egyik tanulási pillanatod, amit mindjárt megosztasz a párodnak. Ha nincs meg, semmi gond, idézd fel körülbelül.
+     > Ha az **M0.1–M0.2 online leckében** elmentetted magadnak a *„Mit várok ettől az évtől madrihként?”* és a *„Madrihként ebben az évben figyelek rá, hogy…”* mondatodat, most idézd fel (jegyzetből vagy emlékezetből) – ez is lehet az egyik tanulási pillanatod, amit mindjárt megosztasz a párodnak. Ha nincs meg, semmi gond, idézd fel körülbelül.
 2. **Párok / hármasok kialakítása (1–2 perc)**
    * Kérd meg őket, hogy alakítsanak **párokat vagy hármasokat** (létszámtól függ).
    * Ha valaki egyedül maradna, a képző csatlakozik hozzá.
 3. **Megosztás – 1 tanulási pillanat mindenkinek (10–12 perc)**
    Instrukció a csoportoknak:
-   > „Mindenki meséljen el a többieknek **egy tanulási pillanatot** ebből a félévből. Ez lehet egy modul, egy peula, egy visszajelzés, egy nehéz beszélgetés… bármi. A többiek feladata: **figyelmesen hallgatni, közbevágás nélkül**. A történet végén egyikőtök mondjon vissza 1 mondatot arról, ami neki megmaradt ebből. Idő: fejenként kb. 3–4 perc.”
+   > „Mindenki meséljen el a többieknek **egy tanulási pillanatot** ebből a félévből. Ez lehet egy modul, egy peula, egy visszajelzés, egy nehéz beszélgetés… bármi. A többiek feladata: **figyelmesen hallgatni, közbevágás nélkül**. A történet végén egyikőtök mondjon vissza 1 mondatot arról, ami neki megmaradt ebből. Idő: fejenként kb. 3 perc.”
    * Képző figyel az időre, kb. 3 perc/fő.
 
    > **Mi van, ha sokan NEM csinálták meg az online leckéket (Z.1–Z.3) és „üres kézzel” érkeznek?** Ez teljesen normális, ne hagyd, hogy ettől megakadjon a blokk. A párok kialakítása előtt iktass be **1–2 perc néma, egyéni gondolkodást**, és mondd ki: „Mielőtt párba álltok, gondoljatok magatokban egy pillanatra – nem kell leírni, csak felidézni.” Ehhez tartsd készenlétben ezeket az **előhívó kérdéseket**, ha valaki elakad (akár fel is írhatod a táblára):
@@ -288,7 +290,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
     "R5"
   ],
   "blockers": [],
-  "notes": "Eszközlistában szerepel: A4-es lapok (min. 3–4 db kiscsoportonként), flipchart/A3 (2.1. Eszközök; 4.3 / 1. lépés). A 45’-es verzióban poszter-bemutató nélkül, de a sablon ugyanaz (3. Percbontás, 45 perces verzió).",
+  "notes": "Eszközlistában szerepel: A4-es lapok (min. 3–4 db kiscsoportonként), flipchart/A3 (2.1. Eszközök; 4.3 / 1. lépés). A 45’-es verzióban poszterbemutató nélkül, de a sablon ugyanaz (3. Percbontás, 45 perces verzió).",
   "legacy": {
     "asset": [
       "Z.A-MUNK-01"
@@ -310,7 +312,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 1. **Kiscsoportok alakítása (2 perc)**
    * Osszd a csoportot 3–5 fős kiscsoportokra (létszámtól függően).
    * Mindegyik kapjon 1 nagy lapot (flipchart / A3).
-2. **Poszter-keret elmagyarázása (1–2 perc)**
+2. **Poszterkeret elmagyarázása (1–2 perc)**
    Képző:
    > „Készítsetek egy közös plakátot, aminek két fele van: – bal oldal: **Mit tanultunk?** – kulcsszavak az M0–M7-ből, mondatok, élmények – jobb oldal: **Mit csinálunk másképp a terepen?** – konkrét jövőbeli lépések. Nem művészeti verseny – rajzolhattok, írhattok, használhattok jeleket, ikonokat, ami jólesik.”
 3. **Kiscsoportos munka (10–12 perc)**
@@ -326,7 +328,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
      – bal oldalra (Mit tanultunk?): **„SBI-visszajelzés – nem smiley, hanem konkrét helyzet + viselkedés + hatás”**, **„Johari-ablak: van vakfoltom”**, **„Zmán Kvucá tudatos tervezése”**, **„gyermekvédelmi red flag-ek”**.
      – jobb oldalra (Mit csinálunk másképp?): **„A peuláinkon több nyitott kérdést teszünk fel, nem mi mondjuk meg a tanulságot.”**, **„Figyeljük a red flag-eket, és tudjuk, kihez fordulunk.”**
      Aztán kérdezz vissza: „Nektek melyik mondat igaz ezek közül? Mit írnátok mellé?” – általában ettől beindul a csoport.
-4. **Rövid poszter-bemutatás nagykörben (5–6 perc)**
+4. **Rövid poszterbemutatás nagykörben (5–6 perc)**
    Képző a végén:
    * Minden kiscsoportból 1–2 ember **max. 1-1 percben** bemutatja:
      – 1 dolgot a bal oldalról („Mit tanultunk?”),
@@ -340,10 +342,10 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 **Cím:** Elismerés & szófelhő – kvuca-búcsú
 **Időtartam:** 50–75’
 
-*(75’ verzió: 20’ elismerés-kör [kb. 2’ keret + 7’ párcsere + 6’ névhúzásos rákötés + 3–5’ képzői és ken-vezetői záró szavak] + 5’ rituálé;
+*(75’-es verzió: 20’ elismeréskör [kb. 2’ keret + 7’ párcsere + 6’ névhúzásos rákötés + 3–5’ képzői és ken-vezetői záró szavak] + 5’ rituálé;
 45’-es peulánál rövidíts: 11’ elismerés [keret + párcsere, névhúzás nélkül] + 3–4’ rituálé.)*
 
-#### 4.4.1. Elismerés-kör – párcsere + névhúzás (`50–70’`)
+#### 4.4.1. Elismeréskör – párcsere + névhúzás (`50–70’`)
 
 <!-- @asset
 {
@@ -389,7 +391,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 1. **Mini-SBI keret elmagyarázása (2 perc)**
    Képző:
-   > „Most egy **elismerés-kört** csinálunk – és először azzal kezdjük, akivel az imént az **Időkapszulában** párban vagy hármasban voltatok. Üljetek vissza a párotokhoz vagy a hármasotokhoz.
+   > „Most egy **elismeréskört** csinálunk – és először azzal kezdjük, akivel az imént az **Időkapszulában** párban vagy hármasban voltatok. Üljetek vissza a párotokhoz vagy a hármasotokhoz.
    > Arra kérlek, hogy a párodnak mondj 1 rövid **elismerő mondatot** erről a félévről – nem általában dicsérsz, hanem a párod egy **erősségét vagy egy konkrét sikerét** nevezed meg: mi az, amit jól csinált, és mikor láttad ezt működni.
    > Segítő minta (nem kell szóról szóra), ahogy az SBI-nél tanultuk – helyzet, konkrét viselkedés és hatás:
    > – **„Amikor [helyzet], te [konkrét dolgot csináltál] – és ez nekem / a csoportnak [hatás] volt.”**
@@ -400,7 +402,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Kérd meg őket, hogy a másikat **közbevágás nélkül** hallgassák végig, és aki kapta, **csak annyit mondjon vissza: „köszönöm”** – ne magyarázkodjon, ne hárítsa el (ez a forma intimitását védi).
    * Képző körbejár, figyel az időre (kb. 1-1 perc / irány), és diszkréten segít, ha egy pár elakad: „Gondolj egy konkrét pillanatra a félévből, amikor a párod jól csinált valamit.”
    > **Ha valakinek nem jutott pár** (a 2. blokkban a képző csatlakozott hozzá): a képző adja és fogadja a párcsere-elismerést, vagy ez a résztvevő a legközelebbi hármashoz csatlakozik – senki ne maradjon ki.
-3. **Névhúzásos rákötés – a kör kinyitása (kb. 6 perc, *75’-es verzióban; 45’-ben kihagyható*)**
+3. **Névhúzásos rákötés – a kör kinyitása (kb. 6 perc, *75’-es verzióban; 45’-ben kimarad*)**
    Ha van rá idő, a páron túl is csorogjon át az elismerés a kvucába:
    * Mindenki nevét írjátok fel külön kis cetlire, tegyétek egy tálba / kalapba; mindenki húz egy nevet (ha valaki saját magát húzza, húzhat újra; ha már csak a saját neve maradt, cseréljen cetlit az előtte húzóval).
    * Menjetek körbe nagykörben: mindenki mond **1 rövid elismerő mondatot** (ugyanazzal az SBI-mintával) annak, **akit kihúzott** – így a párján kívül még valakitől kap mindenki egy mondatot.
@@ -420,7 +422,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
   "mode": "generate",
   "title": "„Mit viszek magammal?” – szófelhő fejléc-poszter",
   "purpose": "A peula és a félév szimbolikus, vizuális lezárása; közös kvuca-emlék, amelyhez mindenki hozzátesz egy szót.",
-  "spec": "Nagy flipchart/fal-poszter fejléc a közös szófelhőhöz, középcím: „Mit viszek magammal?”. Nagy üres felület, ahova a résztvevők a saját 1-szavas cetlijeiket felragasztják, így vizuális szófelhő áll össze a félévről. Diszkrét visszakötés az M0.A induló-szavakhoz.",
+  "spec": "Nagy flipchart/fal-poszter fejléc a közös szófelhőhöz, középcím: „Mit viszek magammal?”. Nagy üres felület, ahova a résztvevők a saját 1-szavas cetlijeiket felragasztják, így vizuális szófelhő áll össze a félévről. Diszkrét visszakötés az M0.A indulószavakhoz.",
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
@@ -437,7 +439,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
     "R5"
   ],
   "blockers": [],
-  "notes": "Kiegészítő anyag: post-itok/cetlik és ragasztó/blu-tack (2.1. Eszközök); kötődik az M0.A induló-szavakhoz (4.4.2 / 1. lépés).",
+  "notes": "Kiegészítő anyag: post-itok/cetlik és ragasztó/blu-tack (2.1. Eszközök); kötődik az M0.A indulószavakhoz (4.4.2 / 1. lépés).",
   "review": "a v1 dedup-tag a HUB-fájl azonos ID-jű sorára mutatott; ez a sor a peula „Mit viszek magammal?” szófelhő fejléc-posztere, nem a „Híd a terepre” kétoszlopos plakát (Z.A-MUNK-01) — külön nyomtatandó anyag.",
   "legacy": {
     "asset": [
@@ -454,9 +456,9 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 **Lépések:**
 
-1. **Szó-írás (2–3 perc)**
-   Képző (kösd vissza az M0.A induló-szavaihoz):
-   > „Az első alkalmon mindenki mondott **1 szót, amivel elindult** ebben a képzős évben. Most nézzük meg, **milyen szóval érkeztetek meg**. Mindenki kap egy kis cetlit – írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat, mondat – ami neked most igaz. Nem kell nevet írni rá.”
+1. **Szóírás (2–3 perc)**
+   Képző (kösd vissza az M0.A indulószavaihoz):
+   > „Az első alkalmon mindenki mondott **1 szót, amivel elindult** ebben a képzős évben. Most nézzük meg, **milyen szóval érkeztetek meg**. Mindenki kap egy kis cetlit – írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat – ami neked most igaz. Nem kell nevet írni rá.”
    * Mindenki felír egy szót.
 2. **Közös felhő kirakása (2 perc)**
    * Kérd meg őket, hogy egyenként (vagy egyszerre) vigyék a cetlit a kijelölt felületre (plakát, fal, kör közepe).
@@ -477,7 +479,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
   "mode": "generate",
   "title": "Képzői ellenőrző lista – 1 oldalas, a peula előtti előkészülethez",
   "purpose": "A képző gyors, egy oldalon átlátható felkészülését támogatja a peula lebonyolítása előtt.",
-  "spec": "Egyoldalas, nyomtatható képzői ellenőrző lista a peula előtti előkészülethez 6 ponttal: 1) Meta tiszta? / 2) Eszközök előkészítve? / 3) Tér rendben? / 4) Biztonság a fejedben? / 5) Időkeret & prioritás (mit rövidítesz – először poszter-bemutató, nagykörös megosztások, névhúzásos rákötés; tartsd meg a párcsere-magot és a záró szót) / 6) Híd az online Z.4-hez / terepre. Kipipálható tételekkel.",
+  "spec": "Egyoldalas, nyomtatható képzői ellenőrző lista a peula előtti előkészülethez 6 ponttal: 1) Meta tiszta? / 2) Eszközök előkészítve? / 3) Tér rendben? / 4) Biztonság a fejedben? / 5) Időkeret & prioritás (mit rövidítesz – először poszterbemutató, nagykörös megosztások, névhúzásos rákötés; tartsd meg a párcsere-magot és a záró szót) / 6) Híd az online Z.4-hez / terepre. Kipipálható tételekkel.",
   "provenance": "mixed",
   "provenance_note": "vegyes",
   "technical": {
@@ -517,7 +519,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Van órád vagy időmérőd, hogy az időkereteket tudd tartani?
 3. **Tér rendben?**
    * Van hely **nagykörre**?
-   * Van hely 2–3 **kiscsoportos „poszter-állomásnak”**?
+   * Van hely 2–3 **kiscsoportos „poszterállomásnak”**?
    * Van olyan felület, ahova ki tudjátok tenni a posztereket és a szófelhőt?
    * Van kijelölt **csendesebb, de átlátható pont**, ahol a felkavart résztvevővel egy felnőtt van?
 4. **Biztonság a fejedben?**
@@ -526,8 +528,8 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Fel vagy készülve rá, hogy a félév lezárása **erősebb érzéseket is hozhat** (pl. búcsú, fáradtság, megkönnyebbülés)?
 5. **Időkeret & prioritás**
    * Tudod, mit rövidítesz, ha csúsztok?
-     – először a poszter-bemutatót, a nagykörös megosztásokat és az elismerés-kör **névhúzásos rákötését** (4.4.1 / 3. lépés) érdemes rövidíteni / kihagyni,
-     – az elismerés-kör **párcsere-magját** (4.4.1 / 2. lépés – az Időkapszula-párok oda-vissza SBI-elismerése) **és a záró szót** viszont próbáld meg megtartani.
+     – először a poszterbemutatót, a nagykörös megosztásokat és az elismeréskör **névhúzásos rákötését** (4.4.1 / 3. lépés) érdemes rövidíteni / kihagyni,
+     – az elismeréskör **párcsere-magját** (4.4.1 / 2. lépés – az Időkapszula-párok oda-vissza SBI-elismerése) **és a záró szót** viszont próbáld meg megtartani.
 6. **Híd az online Z.4-hez / terepre**
    * Tudod, mit fogsz mondani a peula végén arról, hogy:
      – **hol folytatódik** ez a folyamat online (Z.4 Assignment + visszajelzés),
