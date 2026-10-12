@@ -1,7 +1,73 @@
 # 2026-10-12 Célzott QA – M5 átvezetés (aadf41b), AP-2026-10-12-01
 
-- **Állapot:** NYERS — verifikáció folyamatban.
-- **Review-bázis:** `aadf41b`.
+- **Scope:** az M5 modul HUM 14. szakasz szerinti átvezetésének diffje (`aadf41b`), csak a módosított sorok és közvetlen környezetük. Nem teljes új audit.
+- **Lencsék (ténylegesen lefutott):** biztonság-jog (`safety-policy-reviewer`), értékelés + LMS (`assessment-reviewer`), nyelv (`hungarian-editorial-reviewer`). Adverzális második kör: `verifier`, mind a 19 ID-ra.
+- **Run-ID:** AP-2026-10-12-01 · **Review-bázis:** `aadf41b` · **Javítás:** `9764987` (médiabuild nem kellett).
+- **Állapot:** VALIDÁLT.
+
+## I. Riport
+
+### 1. Validált objektív findingok — javítva (`9764987`)
+
+| ID | Súly | Hely | Javítás |
+|---|---|---|---|
+| M5:QA-BIZT-1 (+ QA-NYELV-7 RÉSZBEN; ADV-11) | P2 | M5.F:56, :401 | „személyes munkapéldányt nem hoz létre rajta” (a döntés: tilos), a :401 megnevezése egységesítve |
+| M5:QA-ERT-2 (ERT-26) | P2 | HUB:186, KAPU:305 | „minden rubrikasor ≥ Alapszint”; a MAN:83/:86 és a PT:183 a kánoni körre marad |
+| M5:QA-NYELV-4 (ERT-26) | P2 | KAPU:288 | „a teljes leadott táblázat alapján (a szintleírásokat lásd az alábbi rubrikában)” |
+| M5:QA-ERT-4 (ERT-1) | P2 | M5.2:9 | „a manifest profilja szerint (M5 hub §6)” |
+| M5:QA-NYELV-5 (ERT-1) | P2 | HUB:185 | a felsorolás párhuzama (az M5.4 tag nem tapad az M5.2-höz) |
+| M5:QA-IMPL-1 (ERT-29) | P2 | M5.4:250–256 | a ☐ jelek törölve a beviteli elem nélküli önellenőrzésből; ✅ nincs |
+| M5:QA-NYELV-3 (ERT-6) | P2 | KAPU:24 | „a diagnosztikus jelzést” |
+| M5:QA-NYELV-6 (ADV-8) | P2 | M5.F:225 | „A lap alapból náluk marad” |
+| M5:QA-NYELV-8 (ADV-9) | P2 | KAPU:283 | a tiltólista kiegészül az „egyéni érzékeny történet”-tel (kánoni szöveg átvezetése) |
+
+### 2. Emberi döntést igénylő tétel
+
+| ID | Mit kell eldönteni | Kitől |
+|---|---|---|
+| M5:QA-ERT-1 (ERT-26) | a „soronként látható módszertani indok” kalibrációja a meglévő R3 szinteken belül (a küszöb, a szintek és az R4 nem változhat) | értékelési felelős; QA: módszertani lektor |
+
+### 3. Bizonyíték-kapuk
+
+- M5:QA-BIZT-3 — G1 (Memuna + programvezető: GYV-6, GYV-7, PRG-5 1:1-kitétel) és G2 (DPO / jogi felelős: ADV-1, -7, -8, -9, -10, -11; az ADV-11-nél LMS-gazda is). A tananyag nem változik; IMPLEMENTED, FINAL_RELEASE_QA nyitott.
+- M5:QA-BIZT-2 (RÉSZBEN) — a G2 kapuba olvad: a DPO-ellenőrzés nevezze meg a KAPU:293 R2 Erős példáját is.
+
+### 4. Elvetve
+
+- M5:QA-ERT-3 — a „felzárkóztató hurok” a saját zárójele szerint célzott visszairányítás, megfér a PRG-7-tel.
+- M5:QA-ERT-5 — a négy mező kitöltése a modul saját szabálya (M5.4:140).
+- M5:QA-NYELV-1 — a GYV-7 kiváltó okainak közel szó szerinti átvezetése; a javaslat szűkítené a gyermekvédelmi szabályt.
+- M5:QA-NYELV-2 — ízlésbeli kifogás egy küszöbmondaton.
+- M5:QA-NYELV-9 — a PRG-5 szó szerinti átvezetése.
+- M5:QA-NYELV-10 — a PRG-7 szó szerinti átvezetése.
+
+### 5. Modulközi megjegyzés
+
+A verifier szerint ugyanaz a gyengébb ADV-11-olvasat áll az M0.A:604-ben és az M4.F:52-ben; ezeket a következő QA-javítási kör egységesíti.
+
+## B. Verifier-verdiktek (tömörítve; a teljes indoklás a fenti I. részben)
+
+| ID | Verdikt | Típus | Súly |
+|---|---|---|---|
+| M5:QA-BIZT-1 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-BIZT-2 | RÉSZBEN | bizonyíték-kapu | P2 |
+| M5:QA-BIZT-3 | MEGERŐSÍTVE | bizonyíték-kapu | P1 |
+| M5:QA-ERT-1 | MEGERŐSÍTVE | emberi-döntés | P2 |
+| M5:QA-ERT-2 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-ERT-3 | ELVETVE | — | — |
+| M5:QA-ERT-4 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-ERT-5 | ELVETVE | — | — |
+| M5:QA-IMPL-1 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-NYELV-1 | ELVETVE | — | — |
+| M5:QA-NYELV-2 | ELVETVE | — | — |
+| M5:QA-NYELV-3 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-NYELV-4 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-NYELV-5 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-NYELV-6 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-NYELV-7 | RÉSZBEN (= BIZT-1) | objektív | P2 |
+| M5:QA-NYELV-8 | MEGERŐSÍTVE | objektív | P2 |
+| M5:QA-NYELV-9 | ELVETVE | — | — |
+| M5:QA-NYELV-10 | ELVETVE | — | — |
 
 ## C. Nyers lencse-kimenetek (szó szerint)
 
