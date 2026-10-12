@@ -23,7 +23,7 @@
 | Munkaág | next-version/AP-2026-10-11-01 |
 | Bázis-commit | 213a4c5 |
 | Indítva | 2026-10-11 |
-| Záró QA | `5fcabea` · `/release-check` 2026-10-12, tiszta munkafa, 0 objektív hiba · MOODLE-BUILD-VERDICT: READY_FOR_STAGING_BUILD · LEARNER-RELEASE-VERDICT: NO-GO |
+| Záró QA | `aa126a5` · `/release-check` 2026-10-12, tiszta munkafa, 0 objektív hiba (az előző záró QA: `5fcabea`; közben csak a HUM 14. szakasz, a pin és auditfájlok változtak) · MOODLE-BUILD-VERDICT: READY_FOR_STAGING_BUILD · LEARNER-RELEASE-VERDICT: NO-GO |
 | Korlátok | (1) Az M0+M1 pilot-freeze (2026-10-05) és a `POST-PILOT` címke ezen az ágon nem halasztási ok (felhatalmazás); a futó pilot forrása, a `main`, nem változik. (2) Lezárt döntés érvényes és nem nyílik újra: HUM 1–12. szakasz (N-M1-04: `2026-10-10 Projektgazdai döntés – N-M1-04…`), D-a…D-j, PILOT-1…4, a 2026-10-05-i scope-korrekció, a 2026-10-10-i Anna-döntések (CC-04: az M0.1 SLIDE 5 finomítása; CC-06: Moodle-összevetés külön build/runtime feladat; külső kutatási hivatkozás nem igazolt bizonyíték; kerülendő a szükségtelen módosítás és Anna természetes szövegezésének romlása). (3) Új szakpolitikai, gyermekvédelmi, adatvédelmi, értékelési döntés → `BLOCKED_HUMAN`; DPO-, szakértői, runtime-bizonyíték → `EVIDENCE_GATE`. (4) Hangok csak szerepnéven (nyilvános repó, 2026-10-03). (5) Generált médiát csak a `media_manifest.py build`, látható-szöveg pint csak a `--pin-visible` ír. |
 
 ## Modulok
