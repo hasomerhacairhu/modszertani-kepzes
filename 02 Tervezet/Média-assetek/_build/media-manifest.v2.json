@@ -7,11 +7,11 @@
     "files_declared_asset_free": 9,
     "files_with_sources": 26,
     "sources": 123,
-    "assets": 416,
-    "deliverables": 903,
+    "assets": 415,
+    "deliverables": 902,
     "source_backed_assets": 127,
     "by_mode": {
-      "generate": 401,
+      "generate": 400,
       "reuse": 9,
       "external": 6
     },
@@ -22,7 +22,7 @@
       "icon-set": 42,
       "diagram": 38,
       "poster": 37,
-      "other": 35,
+      "other": 34,
       "video": 27,
       "card-set": 25,
       "print": 6,
@@ -32,7 +32,7 @@
       "M0": 24,
       "M1": 60,
       "M2": 49,
-      "M3": 61,
+      "M3": 60,
       "M4": 59,
       "M5": 30,
       "M6": 66,
@@ -40,23 +40,23 @@
       "Z": 15
     },
     "by_file_kind": {
-      "online-lecke": 278,
+      "online-lecke": 277,
       "peula": 126,
       "hub": 12
     },
     "by_provenance": {
-      "ai": 273,
+      "ai": 272,
       "human": 80,
       "mixed": 57,
       "stock": 6
     },
     "by_status": {
-      "spec-ready": 296,
+      "spec-ready": 295,
       "pending-rights": 119,
       "pending-human-decision": 1
     },
     "deliverables_by_role": {
-      "primary": 407,
+      "primary": 406,
       "alt-text": 126,
       "print-pdf": 126,
       "transcript": 112,
@@ -599,7 +599,6 @@
         "M3.4-DIA-01",
         "M3.4-EGY-01",
         "M3.4-EGY-02",
-        "M3.4-EGY-03",
         "M3.4-EGY-04",
         "M3.4-EGY-05",
         "M3.4-EGY-06",
@@ -2604,10 +2603,10 @@
       "id": "M3.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 843,
+      "line": 814,
       "body_lines": [
-        844,
-        848
+        815,
+        819
       ],
       "unit": "M3.4",
       "module": "M3",
@@ -14922,7 +14921,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A 3C blokk tartalma a HUM-SAFE-04 projektgazdai döntése (2026-10-02; lásd a 3C blokk „Fejlesztői feltétel” sorát); utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna. Ugyanaz a függés, mint az M3.4-EGY-03-nál: vétó esetén a diagram 3C blokkja is újra emberi döntésre vár. A HUM-SAFE-04 lezárásával (2026-10-02) a `decision` mező kivezetve.",
+      "notes": "A 3C blokk tartalma a HUM-SAFE-04 projektgazdai döntése (2026-10-02; lásd a 3C blokk „Fejlesztői feltétel” sorát); utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna. Ugyanaz a függés, mint az M3.4-EGY-04-nél: vétó esetén a diagram 3C blokkja is újra emberi döntésre vár. A HUM-SAFE-04 lezárásával (2026-10-02) a `decision` mező kivezetve.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -15066,7 +15065,7 @@
       }
     },
     {
-      "id": "M3.4-EGY-03",
+      "id": "M3.4-EGY-04",
       "unit": "M3.4",
       "module": "M3",
       "file_kind": "online-lecke",
@@ -15076,73 +15075,16 @@
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett)",
-      "purpose": "Annak aktív gyakorlása, mit tegyél és mit ne, életszerű helyzetekkel; ez kapus belépő feltétel (activity completion).",
-      "spec": "H5P Drag and Drop két célzónával („OK madrihként” / „Nem OK / red flag-gyanús”). A forrás struktúrája „8–10 kártyát” említ (SLIDE 4, „Mit lát a tanuló?”), és pontosan 10 felsorolt helyzetkártyát ad meg („Kártyák (ajánlott készlet)”), helyes besorolással. Per-kártya visszajelzés-szövegek az 5., 6., 7., 8., 10. kártyához („Visszajelzés minták”) + instrukció („Instrukció”).",
-      "provenance": "ai",
-      "provenance_note": "AI-generált (H5P konfiguráció)",
-      "technical": {
-        "note": "H5P Drag and Drop, 2 célzóna, 10 kártya, magyar, visszajelzéssel; célfelületek ≥24px"
-      },
-      "a11y": {
-        "note": "A húzásmentes alapértelmezett út az M3.4-EGY-04; billentyűzetes elérés"
-      },
-      "derivatives": [],
-      "reuse_of": "",
-      "reuse_resolves_to": "",
-      "external": {},
-      "blockers": [],
-      "production_rules": [
-        "R1"
-      ],
-      "readiness_issues": [],
-      "decision": "",
-      "notes": "A 6–8. kártya és visszajelzésük a HUM-SAFE-04 projektgazdai döntésén (2026-10-02) alapul; utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna. A forrás („Mit lát a tanuló?”) „8–10” kártyát ír, a felsorolás konkrétan 10 kártya. A kódex-függés 2026-08-27-én `decision` mezőbe került: a jegyzet korábban leírta, de a készültségi állapot nem tükrözte, így a tétel tévesen a „most gyártható” kötegben állt. A HUM-SAFE-04 lezárásával (2026-10-02) a `decision` mező kivezetve; vétó esetén visszakerül.",
-      "review": "",
-      "release_phase": "",
-      "fallback": "",
-      "fallback_final": false,
-      "source_ref": "",
-      "composed_of": [],
-      "composed_source_ids": [],
-      "source_line": [],
-      "source_text": "",
-      "source_hash": "",
-      "alt_source_ref": "",
-      "alt_text": "",
-      "alt_hash": "",
-      "copy_hash": "",
-      "spec_hash": "086dd91bad7135cc9fbeb492f2973482b6ddde4bcf4ac2c917a6e24cfd63ec11",
-      "deliverable_ids": [
-        "M3.4-EGY-03"
-      ],
-      "legacy": {
-        "asset": [
-          "M3.4-EGY-03"
-        ]
-      }
-    },
-    {
-      "id": "M3.4-EGY-04",
-      "unit": "M3.4",
-      "module": "M3",
-      "file_kind": "online-lecke",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 434,
-      "kind": "other",
-      "subtype": "h5p-interaction",
-      "mode": "generate",
-      "status": "spec-ready",
-      "title": "Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4)",
-      "purpose": "LMS a11y-sztenderd: a kapus completion ne csak drag & drop-pal legyen teljesíthető.",
-      "spec": "Ugyanaz a 8–10 (ténylegesen 10) helyzetkártya húzás nélkül is teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) befejezhető, célfelületek ≥24px, per-kártya visszajelzés azonos a húzós verzióval; a lecke completionje a CP összefoglaló diájának elérése (BSPEC-06, ERT-1), a megválaszolatlan kártyák esetét a runtime acceptance negatív tesztje rögzíti.",
+      "title": "Húzásmentes besoroló – Multiple Choice egyválaszos módban (SLIDE 4)",
+      "purpose": "LMS a11y-sztenderd: a besorolás húzás nélkül teljesíthető; a Drag & Drop mellékút az LMS-2 döntéssel kikerült.",
+      "spec": "A 8–10 (ténylegesen 10) helyzetkártya húzás nélkül teljesíthető formában: minden kártyához kétopciós rádiógomb („OK madrihként” / „Nem OK / red flag-gyanús”), kártyánként egy H5P Multiple Choice elem egyválaszos („Single Choice (Radio Buttons)”) módban, válaszonkénti visszajelzéssel (`chosenFeedback`). Csak billentyűzettel (Tab, majd nyílbillentyűk vagy Szóköz) befejezhető, célfelületek ≥24px; a lecke completionje a CP összefoglaló diájának elérése (BSPEC-06, ERT-1), a megválaszolatlan kártyák esetét a runtime acceptance negatív tesztje rögzíti.",
       "provenance": "ai",
       "provenance_note": "AI-generált (H5P konfiguráció)",
       "technical": {
         "note": "H5P Multiple Choice egyválaszos („Single Choice (Radio Buttons)”) módban, kártyánként egy elem, válaszonkénti visszajelzéssel (`chosenFeedback`), billentyűzetes, ≥24px célfelület; a completiont a runtime acceptance-ben kell igazolni"
       },
       "a11y": {
-        "note": "Ez maga az a11y-megoldás; a visszajelzés-szövegek ugyanazok."
+        "note": "Ez maga az a11y-megoldás."
       },
       "derivatives": [],
       "reuse_of": "",
@@ -15154,7 +15096,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A SLIDE 4 alapértelmezett, húzásmentes besorolója; mellette az M3.4-EGY-03 (Drag and Drop) is elérhető; azonos kártyakészlet és visszajelzés.",
+      "notes": "A SLIDE 4 egyetlen, húzásmentes besorolója; a Drag & Drop mellékút (korábban M3.4-EGY-03) az LMS-2 döntéssel kikerült. A 6–8. kártya és visszajelzésük a HUM-SAFE-04 projektgazdai döntésén (2026-10-02) alapul; utólagos ellenőrzés (vétó/QA): a szervezeti vezetés és a Memuna; vétó esetén a `decision` mező visszakerül.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -15169,7 +15111,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a954a93cec608387aa87e2212977d7c05609fcd9e88f2f2a41e29c49b08aa430",
+      "spec_hash": "10eabe253c5dfbadd9861de6c963775f61fcbb007d465a8a7ab7826bc297cb57",
       "deliverable_ids": [
         "M3.4-EGY-04"
       ],
@@ -15185,7 +15127,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 614,
+      "line": 585,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -15242,7 +15184,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 518,
+      "line": 489,
       "kind": "other",
       "subtype": "ui-text",
       "mode": "generate",
@@ -15299,7 +15241,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 694,
+      "line": 665,
       "kind": "other",
       "subtype": "moodle-activity",
       "mode": "generate",
@@ -15479,7 +15421,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 547,
+      "line": 518,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -15542,7 +15484,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 791,
+      "line": 762,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -15598,7 +15540,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 723,
+      "line": 694,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -15641,8 +15583,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        844,
-        848
+        815,
+        819
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy konkrétabb képed arról, mit csinál és mit nem csinál egy megbízható madrih.\nA modulproduktum-feladattal ezt fogod kipróbálni egy konkrét helyzeten keresztül.\nNe feledd: nem vagy egyedül – a cél az, hogy **együtt** tartsuk biztonságban a hanihokat.”",
       "source_hash": "a2a6ea86f26bb437e8eb5edfffccd4a53ec0ffba14a1e2fe8c131be6a5144ac4",
@@ -39715,27 +39657,6 @@
       "readiness_issues": []
     },
     {
-      "id": "M3.4-EGY-03",
-      "asset_id": "M3.4-EGY-03",
-      "role": "primary",
-      "role_label": "elsődleges",
-      "kind": "other",
-      "subtype": "h5p-interaction",
-      "unit": "M3.4",
-      "module": "M3",
-      "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "file_kind": "online-lecke",
-      "title": "H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett)",
-      "mode": "generate",
-      "status": "spec-ready",
-      "provenance": "ai",
-      "source_id": "",
-      "text": "",
-      "text_hash": "",
-      "blockers": [],
-      "readiness_issues": []
-    },
-    {
       "id": "M3.4-EGY-04",
       "asset_id": "M3.4-EGY-04",
       "role": "primary",
@@ -39746,7 +39667,7 @@
       "module": "M3",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
       "file_kind": "online-lecke",
-      "title": "Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4)",
+      "title": "Húzásmentes besoroló – Multiple Choice egyválaszos módban (SLIDE 4)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",

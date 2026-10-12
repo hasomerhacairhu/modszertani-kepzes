@@ -20,14 +20,14 @@
 | Assetet tartalmazó fájl | 65 |
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 123 |
-| Szemantikus asset | **416** |
-| Produkciós deliverable | **903** |
+| Szemantikus asset | **415** |
+| Produkciós deliverable | **902** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 401 |
+| legyártandó | 400 |
 | újrahasznosítás | 9 |
 | külső forrás | 6 |
 
@@ -41,7 +41,7 @@
 | icon-set | 42 |
 | diagram | 38 |
 | poster | 37 |
-| other | 35 |
+| other | 34 |
 | video | 27 |
 | card-set | 25 |
 | print | 6 |
@@ -51,7 +51,7 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 407 |
+| elsődleges | 406 |
 | alt-szöveg | 126 |
 | nyomtatható PDF | 126 |
 | leirat | 112 |
@@ -66,7 +66,7 @@
 | M0 | 24 |
 | M1 | 60 |
 | M2 | 49 |
-| M3 | 61 |
+| M3 | 60 |
 | M4 | 59 |
 | M5 | 30 |
 | M6 | 66 |
@@ -77,7 +77,7 @@
 
 | Státusz | Db |
 |---|--:|
-| specifikáció kész | 296 |
+| specifikáció kész | 295 |
 | jogtisztázás alatt | 119 |
 | emberi döntésre vár | 1 |
 
@@ -450,8 +450,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M3.4-DIA-01` | diagram | legyártandó | specifikáció kész | „Mit tegyél / mit ne tegyél” – három témablokk, minibox-pár diagram (SLIDE 3) | — | alt-szöveg | AI-generált |
 | `M3.4-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Single Choice interakció – „Mennyire érzed fontosnak…” (SLIDE 1) | — | — | AI-generált |
 | `M3.4-EGY-02` | other/h5p-interaction | legyártandó | specifikáció kész | Mini True/False interakció – szigorúbb határok (SLIDE 2) | — | — | AI-generált |
-| `M3.4-EGY-03` | other/h5p-interaction | legyártandó | specifikáció kész | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett) | — | — | AI-generált |
-| `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes alapértelmezett út – Multiple Choice egyválaszos módban (SLIDE 4) | — | — | AI-generált |
+| `M3.4-EGY-04` | other/h5p-interaction | legyártandó | specifikáció kész | Húzásmentes besoroló – Multiple Choice egyválaszos módban (SLIDE 4) | — | — | AI-generált |
 | `M3.4-EGY-05` | other/h5p-interaction | legyártandó | specifikáció kész | Minikvíz – 3 kérdés külön Course Presentation-elemként (SLIDE 6) | — | — | AI-generált |
 | `M3.4-EGY-06` | other/ui-text | legyártandó | specifikáció kész | Reflexiós feladatleírás, beviteli elem nélkül – „Saját listám arról, mit teszek és mit nem” (SLIDE 5) | — | — | AI-generált |
 | `M3.4-EGY-07` | other/moodle-activity | legyártandó | specifikáció kész | Moodle Assignment-sablon – „M3 – Helyzetleírás” (SLIDE 7 / modulproduktum) | — | — | AI-generált |
