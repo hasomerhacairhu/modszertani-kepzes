@@ -199,13 +199,13 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M1.2-DIA-01` | diagram | legyártandó | specifikáció kész | Megfigyelés vs. értelmezés – kétoszlopos animált grafika | — | alt-szöveg | AI-generált |
 | `M1.2-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikonok a megfigyelés/értelmezés példákhoz | — | alt-szöveg | AI-generált |
 | `M1.2-IKO-02` | icon-set | legyártandó | specifikáció kész | Helyzet-piktogramok – iskola / ken / család | — | alt-szöveg | AI-generált |
-| `M1.2-IKO-03` | icon-set | legyártandó | specifikáció kész | Drop-zóna ikonok – szem (megfigyelés) / maszk (értelmezés) | — | — | AI-generált |
+| `M1.2-IKO-03` | icon-set | legyártandó | specifikáció kész | Kategória-ikonok – szem (megfigyelés) / maszk (értelmezés) | — | — | AI-generált |
 | `M1.2-ILL-01` | illustration | legyártandó | specifikáció kész | Két chat-buborék – "Bunkó voltál" / "Háromszor közbevágtál" | — | alt-szöveg | AI-generált |
 | `M1.2-ILL-02` | illustration | legyártandó | specifikáció kész | Storyboard – 3 kontextus kártya (iskola / ken / család) | — | alt-szöveg | AI-generált |
 | `M1.2-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | INPUT narráció – definíciók (kamera-teszt) | `M1.2-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M1.2-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | INPUT 2 narráció – hétköznapi példák (suli/ken/otthon) | `M1.2-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M1.2-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | Mark the Words instrukció-narráció (opcionális) | `M1.2-NAR-04-VO` | felirat, leirat | AI-generált |
-| `M1.2-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Drag & Drop instrukció-narráció (opcionális) | `M1.2-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M1.2-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | Besorolási feladat – instrukció-narráció (opcionális) | `M1.2-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M1.2-NAR-06` | voiceover/narration | legyártandó | jogtisztázás alatt | OUTRO záró narráció – híd az SBI-hez | `M1.2-NAR-06-VO` | felirat, leirat | AI-generált |
 | `M1.2-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK beszélő fej – "Bunkó voltál" vs. "Háromszor közbevágtál" | `M1.2-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 

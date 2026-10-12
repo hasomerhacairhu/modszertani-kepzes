@@ -1868,10 +1868,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1054,
+      "line": 1052,
       "body_lines": [
-        1055,
-        1059
+        1053,
+        1057
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1888,10 +1888,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1078,
+      "line": 1076,
       "body_lines": [
-        1079,
-        1084
+        1077,
+        1082
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -6624,9 +6624,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Drop-zóna ikonok – szem (megfigyelés) / maszk (értelmezés)",
-      "purpose": "A két kategória (megfigyelés / értelmezés) gyors vizuális elkülönítése a Drag & Drop-ban.",
-      "spec": "Két drop-zóna fejlécéhez ikonok: \"👁️ Megfigyelés (tény)\" szem-ikon és \"🎭 Értelmezés / címke\" maszk-ikon, a húzós feladat oszlopainak vizuális megkülönböztetéséhez.",
+      "title": "Kategória-ikonok – szem (megfigyelés) / maszk (értelmezés)",
+      "purpose": "A két kategória (megfigyelés / értelmezés) gyors vizuális elkülönítése a besorolási feladatban.",
+      "spec": "A két kategória fejlécéhez ikonok: \"👁️ Megfigyelés (tény)\" szem-ikon és \"🎭 Értelmezés / címke\" maszk-ikon, a besorolási feladat két kategóriájának vizuális megkülönböztetéséhez.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -6635,7 +6635,7 @@
       "a11y": {
         "visual": "decorative",
         "alt_note": "a lecke akadálymentesítési jegyzete dekoratívként jelöli (üres / rejtett alt)",
-        "note": "A zóna szöveges címkéje adja az ekvivalenciát; ikon dekoratív kíséret"
+        "note": "A kategória szöveges címkéje adja az ekvivalenciát; ikon dekoratív kíséret"
       },
       "derivatives": [],
       "reuse_of": "",
@@ -6663,7 +6663,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d4100f4973479ea785d22731a66fe9919d9a102bdfccf13699bfbc4f5fa61298",
+      "spec_hash": "812b8a39c261b81017d741d070a9916feffced8f52a86f548925d63d56cc0c00",
       "deliverable_ids": [
         "M1.2-IKO-03"
       ],
@@ -6971,7 +6971,7 @@
       "status": "pending-rights",
       "title": "Mark the Words instrukció-narráció (opcionális)",
       "purpose": "Hangos feladatutasítás a Mark the Words aktivitáshoz.",
-      "spec": "Rövid instrukciós narráció a címke-kereső feladathoz: kattints rá minden szóra/kifejezésre, ami inkább címke vagy minősítés, nem konkrét tény. Hossz 10–15 mp, opcionális.",
+      "spec": "Rövid instrukciós narráció a címke-kereső feladathoz: kattints rá minden szóra, ami inkább címke vagy minősítés, nem konkrét tény. Hossz 10–15 mp, opcionális.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -7016,7 +7016,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "c7b6be7105727d6f5d3b6b1205ff6f4e8ab77d09b2cd557b76434ce1bb08a137",
-      "spec_hash": "ab14891e26089121efed002db80534643612b15ff6cc5cfc5f206b8e70cf7700",
+      "spec_hash": "2f57ef3a17ce7b137a665655d1662234e210aec8e21ea683cd0068d1d27b5f39",
       "deliverable_ids": [
         "M1.2-NAR-04",
         "M1.2-NAR-04::CAPTIONS",
@@ -7045,9 +7045,9 @@
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "Drag & Drop instrukció-narráció (opcionális)",
-      "purpose": "Hangos feladatutasítás a Drag & Drop aktivitáshoz.",
-      "spec": "Rövid instrukciós narráció a kategorizáló feladathoz: sorold a mondatokat a megfelelő kategóriába – az egyikbe azok kerülnek, amiket egy kamera is rögzítene, a másikba a vélemény/címke jellegűek. Hossz 10–15 mp, opcionális. Ne feltételezzen kizárólag húzásos interakciót.",
+      "title": "Besorolási feladat – instrukció-narráció (opcionális)",
+      "purpose": "Hangos feladatutasítás a besorolási feladathoz.",
+      "spec": "Rövid instrukciós narráció a kategorizáló feladathoz: sorold a mondatokat a megfelelő kategóriába – az egyikbe azok kerülnek, amiket egy kamera is rögzítene, a másikba a vélemény/címke jellegűek. Hossz 10–15 mp, opcionális. Ne feltételezzen húzásos interakciót.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -7074,7 +7074,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Opcionális; a Drag & Drop feladat (SLIDE 5) hangja.",
+      "notes": "Opcionális; a besorolási feladat (SLIDE 5) hangja.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -7092,7 +7092,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "c8990ef4eb1263f4f2f2cac16d3b4a54c41714286c2177147c6a0ac6823b435a",
-      "spec_hash": "48c979c2a38ea981c336d92d64ef40b54da8dab31a78c747bb84152d0833f301",
+      "spec_hash": "dc94b6207920c60b9f2de8d0bbd3f4b719bfa4401d8abfedcfedddf01c65e1a6",
       "deliverable_ids": [
         "M1.2-NAR-05",
         "M1.2-NAR-05::CAPTIONS",
@@ -7812,7 +7812,7 @@
       "status": "pending-rights",
       "title": "Activity 1 (vezetett SBI) narráció (15–20 mp)",
       "purpose": "Instruálja és bátorítja a tanulót a vezetett, szabad szöveges SBI-kiegészítéshez.",
-      "spec": "15–20 mp magyar voice-over: a félig kész SBI-mondat kiegészítésére biztat, kérje a tanulót, hogy képzeljen el egy egyszerű helyzetet és írja be, mikor történt, mit csinált a másik, mi lett a hatása.",
+      "spec": "15–20 mp magyar voice-over: a félig kész SBI-mondat kiegészítésére biztat, kérje a tanulót, hogy képzeljen el egy egyszerű helyzetet és írja le, mikor történt, mit csinált a másik, mi lett a hatása.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -7857,7 +7857,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
-      "spec_hash": "76a6d37e23e4694fc09eaa93f91bd2dcfe5e6ed614b34cc6ea0591d550009f39",
+      "spec_hash": "843e5fa236509d4975cfc845cf1a94851ca1dafdc698b4fe23deec495155342b",
       "deliverable_ids": [
         "M1.3-NAR-04",
         "M1.3-NAR-04::CAPTIONS",
@@ -7885,7 +7885,7 @@
       "status": "pending-rights",
       "title": "Activity 2 (saját mini-SBI) narráció (20–30 mp)",
       "purpose": "Instruálja a tanulót a saját SBI-váz írásához, csökkenti a megfogalmazási szorongást.",
-      "spec": "20–30 mp magyar voice-over: a tanulót saját mini-SBI megfogalmazására biztatja (valós vagy kitalált helyzet), kiemelve, hogy legyen benne mikor (S), mit csinált a másik (B), mit okozott (I).",
+      "spec": "20–30 mp magyar voice-over: a tanulót saját mini-SBI megfogalmazására biztatja (kitalált, életszerű helyzet), kiemelve, hogy legyen benne mikor (S), mit csinált a másik (B), mit okozott (I).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -7930,7 +7930,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
-      "spec_hash": "87614226e4ce816a76a41b16e72438623fc760bb2777b5c5bbd6a32013c654b0",
+      "spec_hash": "426dfb360de357dd92417c7901aecb8e9b715cb944b1d930a25e6e3bd608c868",
       "deliverable_ids": [
         "M1.3-NAR-05",
         "M1.3-NAR-05::CAPTIONS",
@@ -7951,14 +7951,14 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 932,
+      "line": 930,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
       "title": "Önellenőrző narráció (10–15 mp)",
       "purpose": "Lezárja az önellenőrző szakaszt, motivál a folytatásra.",
-      "spec": "10–15 mp magyar voice-over: megerősíti, hogy ha mind a négy önellenőrző állítás igaz, akkor használható SBI-váza van, és ezt viszik tovább az M1.4 leckében és az Assignmentben.",
+      "spec": "10–15 mp magyar voice-over: megerősíti, hogy ha mind a négy önellenőrző állítás igaz, akkor használható SBI-váza van, és ezt viszik tovább az M1.4 leckében és a beadandóban.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -7994,8 +7994,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1055,
-        1059
+        1053,
+        1057
       ],
       "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
       "source_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
@@ -8003,7 +8003,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
-      "spec_hash": "1effc69b6773a0f560f7e2ebddfbf0fd3fd0bc2fd82eafe70d03b12c75cdad8b",
+      "spec_hash": "082e3fa975189144cf824fa9791827abe8480497d16582a7fa5a8592afba812a",
       "deliverable_ids": [
         "M1.3-NAR-06",
         "M1.3-NAR-06::CAPTIONS",
@@ -8024,7 +8024,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 975,
+      "line": 973,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -8067,8 +8067,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1079,
-        1084
+        1077,
+        1082
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
@@ -8436,7 +8436,7 @@
       "status": "spec-ready",
       "title": "Letölthető „SBI-beadandó” kitölthető sablon (doc)",
       "purpose": "Az M1 kapu beadandójának (LMS-M1-05) fájlalapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével adja le az SBI-t. A két út egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
-      "spec": "Kitölthető sablon doc formátumban, kizárólag a lecke 2–4. lépésének meglévő elemeivel, szó szerint: a három mező („S – Szituáció: mikor, hol, milyen helyzetben történt?”, „B – Viselkedés: mit csinált a másik konkrétan (megfigyelés, nem címke)?”, „I – Hatás: ez hogyan hatott rád vagy a csapatra?”); a „Formátum – javaslat” mondatváza („Amikor [S – mikor, hol, milyen helyzetben voltunk], és te [B – mit csináltál konkrétan], én / a kvuca [I – mit éreztem / mi lett a hatás].”); két SBI-blokk a 4. lépés szerint (minimum 1 teljes SBI-mondat, maximum 2 különböző SBI); a sablon végén szó szerint a lecke „Extra biztonsági megjegyzés a leírás végére” blokkja. Új mező, minta vagy útmutató szöveg nem kerül bele.",
+      "spec": "Kitölthető sablon doc formátumban, kizárólag a lecke 2–4. lépésének meglévő elemeivel, szó szerint: a három mező („S – Helyzet: mikor, hol, milyen helyzetben történt?”, „B – Viselkedés: mit csinált a másik konkrétan (megfigyelés, nem címke)?”, „I – Hatás: ez hogyan hatott rád vagy a csapatra?”); a „Formátum – javaslat” mondatváza („Amikor [S – mikor, hol, milyen helyzetben voltunk] [B – mit csináltál konkrétan], én / a kvuca [I – mit éreztem / mi lett a hatás].”); két SBI-blokk a 4. lépés szerint (minimum 1 teljes SBI, maximum 2 különböző SBI); a sablon végén szó szerint a lecke „Extra biztonsági megjegyzés a leírás végére” blokkja. Új mező, minta vagy útmutató szöveg nem kerül bele.",
       "provenance": "human",
       "provenance_note": "",
       "technical": {
@@ -8472,7 +8472,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "57773abb6af3dce2b0073b4975fa9851819e47ca493b3b517e95fab1070e6318",
+      "spec_hash": "f3be3ace5c63f7eb94ffde5b0da8652bd382dea76b35785520fffc54f8d97adc",
       "deliverable_ids": [
         "M1.4-MUNK-01",
         "M1.4-MUNK-01::PRINTPDF"
@@ -8568,7 +8568,7 @@
       "status": "pending-rights",
       "title": "Slide 2 narráció – SBI emlékeztető",
       "purpose": "Felidézi az M1.3-ból tanult SBI-modellt, mielőtt a tanuló a mini-kérdéseket megoldja.",
-      "spec": "20–30 mp-es narráció, amely röviden átismétli az SBI három elemét: S = szituáció (mikor, hol voltunk), B = viselkedés (mit csinált a másik), I = hatás (mit okozott bennem/a csapatban).",
+      "spec": "20–30 mp-es narráció, amely röviden átismétli az SBI három elemét: S = helyzet (mikor, hol voltunk), B = viselkedés (mit csinált a másik), I = hatás (mit okozott bennem/a csapatban).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -8613,7 +8613,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "089cf4e531b3c6cc7d68b6c09ac4487bcdce42f805dc24b0ac95ed7e032af6f9",
-      "spec_hash": "8e1dbd2875b29545e2bf1cc726517a38b7e111dd7798fa96026ec5ad69b58b33",
+      "spec_hash": "fdb380c11e78fa2c1e70421403bffbad91b442b618a20644b3af20b51f5c18fc",
       "deliverable_ids": [
         "M1.4-NAR-02",
         "M1.4-NAR-02::CAPTIONS",
@@ -8644,7 +8644,7 @@
       "status": "pending-rights",
       "title": "Slide 6 átvezető narráció – beadandóra hívás",
       "purpose": "Lezárja a mini-quizt és átvezet a Moodle Assignment (kapus beadandó) felé.",
-      "spec": "10–15 mp-es záró narráció: jelzi, hogy a tanuló kész a beadandóra, felkéri egy szituáció kiválasztására (a három közül vagy saját, kitalált) és 1–2 mondatos SBI-visszajelzés megírására.",
+      "spec": "10–15 mp-es záró narráció: jelzi, hogy a tanuló kész a beadandóra, felkéri egy szituáció kiválasztására (a három közül vagy saját, kitalált) és 2–3 mondatos SBI-visszajelzés megírására.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -8689,7 +8689,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
-      "spec_hash": "f066099221fe17c37fe72f0c531f3180da6ef2fd30d400a2b0c2c0c61dea6f59",
+      "spec_hash": "eec0cd18e69667b913a13d143574c69fc0ad7bfe5dd6b7d3d545c265cedf9c2b",
       "deliverable_ids": [
         "M1.4-NAR-03",
         "M1.4-NAR-03::CAPTIONS",
@@ -8713,7 +8713,7 @@
       "module": "M1",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md",
-      "line": 321,
+      "line": 322,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -8774,7 +8774,7 @@
       "module": "M1",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md",
-      "line": 404,
+      "line": 405,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -9261,7 +9261,7 @@
       "module": "M1",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md",
-      "line": 185,
+      "line": 187,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -9322,7 +9322,7 @@
       "module": "M1",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md",
-      "line": 219,
+      "line": 221,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -9390,7 +9390,7 @@
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista – „Peula előtt / közben / után” (1 A4)",
       "purpose": "A képző peula előtti/közbeni/utáni gyors önellenőrzése; biztosítja az eszköz-, tér-, safety- és időkeret-feltételek teljesülését, és hogy a záró híd ne maradjon el.",
-      "spec": "Egyoldalas, kinyomtatható képzői ellenőrzőlista 6 csoportosított ponttal: (1) Meta tiszta? (F-peula: kötelező javítási alkalom annak, akinek az M1 éles kapuja nem teljesült, nem büntetés; cél: a nem teljesült rubrikasorok javítása a kapun kapott visszajelzés alapján, a javító próbálkozás előkészítéseként + a hiányzó leckék pótlása + kulcsfogalmak); (2) Eszközök rendben? (wifi, Moodle/H5P belépés, eszköz + füles, tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok); (3) Tér működik? (csendes online sarok; nagykör; nyugodt, de átlátható pont egyéni beszélgetéshez – kettesben (1:1) csak indokolt esetben és egy másik felelős tudtával, a safer-working szabály szerint); (4) Biztonsági keret a fejemben?; (5) Reális az időkeret? (20’ csendes pótlás szent idő; csúszásnál Q&A-ből venni vissza); (6) Híd kimondása? (a javító próbálkozás felé; a peula után a javító próbálkozás megnyitása, ha nem az F-peula jelenléti completionje nyitja). Pipálható checkbox-okkal.",
+      "spec": "Egyoldalas, kinyomtatható képzői ellenőrzőlista 6 csoportosított ponttal: (1) Meta tiszta? (F-peula: kötelező javítási alkalom annak, akinek az M1 éles kapuja nem teljesült, nem büntetés; cél: a nem teljesült rubrikasorok javítása a kapun kapott visszajelzés alapján, a javító próbálkozás előkészítéseként + a hiányzó leckék pótlása + kulcsfogalmak); (2) Eszközök rendben? (wifi, Moodle/H5P belépés, eszköz + füles, tartalék (a közös eszközön nincs jelszómentés és személyes munkapéldány; kijelentkezés, a letöltések törlése), témakérő post-it/cetlik, tábla, filcek, jegyzetlapok); (3) Tér működik? (csendes online sarok; nagykör; nyugodt, de átlátható pont egyéni beszélgetéshez – kettesben (1:1) csak indokolt esetben és egy másik felelős tudtával, a safer-working szabály szerint); (4) Biztonsági keret a fejemben?; (5) Reális az időkeret? (20’ csendes pótlás szent idő; csúszásnál Q&A-ből venni vissza); (6) Híd kimondása? (a javító próbálkozás felé; a peula után a javító próbálkozás megnyitása, ha nem az F-peula jelenléti completionje nyitja). Pipálható checkbox-okkal.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -9427,7 +9427,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "411d053179186815b5ed7223563ff20f194b3258e32e00c7b47f058f0cf49858",
+      "spec_hash": "a85554452e16117969d45333b1170e860a6d4000d3840892610b065897d22f25",
       "deliverable_ids": [
         "M1.F-MUNK-03",
         "M1.F-MUNK-03::PRINTPDF"
@@ -9444,7 +9444,7 @@
       "module": "M1",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md",
-      "line": 124,
+      "line": 126,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -33460,7 +33460,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
       "file_kind": "online-lecke",
-      "title": "Drop-zóna ikonok – szem (megfigyelés) / maszk (értelmezés)",
+      "title": "Kategória-ikonok – szem (megfigyelés) / maszk (értelmezés)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -33781,7 +33781,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
       "file_kind": "online-lecke",
-      "title": "Drag & Drop instrukció-narráció (opcionális)",
+      "title": "Besorolási feladat – instrukció-narráció (opcionális)",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -33805,7 +33805,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
       "file_kind": "online-lecke",
-      "title": "Drag & Drop instrukció-narráció (opcionális) — felirat",
+      "title": "Besorolási feladat – instrukció-narráció (opcionális) — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
@@ -33829,7 +33829,7 @@
       "module": "M1",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
       "file_kind": "online-lecke",
-      "title": "Drag & Drop instrukció-narráció (opcionális) — leirat",
+      "title": "Besorolási feladat – instrukció-narráció (opcionális) — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
