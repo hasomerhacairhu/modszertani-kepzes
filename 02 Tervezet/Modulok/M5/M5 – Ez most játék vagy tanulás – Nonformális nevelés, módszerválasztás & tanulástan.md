@@ -96,13 +96,13 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   "id": "M5-HUB-EGY-01",
   "kind": "print",
   "mode": "external",
-  "title": "Galériaséta reakció-eszközök (post-it / pötty-matrica)",
+  "title": "Galériaséta reakció-eszközök (post-it / pöttymatrica)",
   "subtype": "consumable",
   "purpose": "Strukturált társas visszajelzés a galériaséta során, az átdolgozott peula-tervek értékeléséhez.",
-  "spec": "Post-it lapok és pötty-/pont-matricák a poszter-sétához, hogy a résztvevők reakciókat hagyhassanak a csoportposztereken („Mitől lett someresebb? Mi maradt még sulis?”). Beszerzendő/előkészítendő készlet, nem egyedi grafika.",
+  "spec": "Post-it lapok és pötty-/pontmatricák a posztersétához, hogy a résztvevők reakciókat hagyhassanak a csoportposztereken („Mitől lett someresebb? Mi maradt még sulis?”). Beszerzendő/előkészítendő készlet, nem egyedi grafika.",
   "provenance": "stock",
   "technical": {
-    "note": "Beszerzett post-it (több szín) + pötty-matrica ívek; mennyiség a csoportlétszámhoz igazítva"
+    "note": "Beszerzett post-it (több szín) + pöttymatrica ívek; mennyiség a csoportlétszámhoz igazítva"
   },
   "a11y": {
     "note": "—"
