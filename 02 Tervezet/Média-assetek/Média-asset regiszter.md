@@ -21,14 +21,14 @@
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 123 |
 | Szemantikus asset | **416** |
-| Produkciós deliverable | **904** |
+| Produkciós deliverable | **903** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 402 |
-| újrahasznosítás | 8 |
+| legyártandó | 401 |
+| újrahasznosítás | 9 |
 | külső forrás | 6 |
 
 **Asset-típus szerint**
@@ -51,7 +51,7 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 408 |
+| elsődleges | 407 |
 | alt-szöveg | 126 |
 | nyomtatható PDF | 126 |
 | leirat | 112 |
@@ -825,7 +825,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7-HUB-DIA-01` | diagram | legyártandó | specifikáció kész | Modul-fogalomtérkép: SMART – Peula 11 pont – Zmán Kvucá – Peula v2 | — | alt-szöveg | AI-generált |
 | `M7-HUB-DIA-02` | diagram | legyártandó | specifikáció kész | Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu | — | alt-szöveg | AI-generált |
 | `M7-HUB-DIA-03` | diagram | legyártandó | specifikáció kész | Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2 | — | alt-szöveg | AI-generált |
-| `M7-HUB-MUNK-01` | worksheet | legyártandó | specifikáció kész | 1 perces kilépőkártya-munkalap (M7.A/M7.B/M7.F utáni offline visszajelzés) | — | nyomtatható PDF | vegyes |
+| `M7-HUB-MUNK-01` | worksheet | újrahasznosítás | specifikáció kész | 1 perces kilépőkártya (M7.B utáni offline visszajelzés) | — | — | vegyes |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md
 
@@ -836,7 +836,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.1-IKO-01` | icon-set | legyártandó | specifikáció kész | SMART 5 elem ikon-készlet (S-M-A-R-T) | — | alt-szöveg | AI-generált |
 | `M7.1-ILL-01` | illustration | legyártandó | specifikáció kész | Hook – 3 vágy-mondat kártya | — | alt-szöveg | AI-generált |
 | `M7.1-ILL-02` | illustration | legyártandó | specifikáció kész | Someres SMART példa – 2 kártya (szolidaritás / biztonság) | — | alt-szöveg | AI-generált |
-| `M7.1-ILL-03` | illustration | legyártandó | specifikáció kész | Példa promptkártya (AI-blokk) | — | alt-szöveg | AI-generált |
+| `M7.1-ILL-03` | illustration | legyártandó | specifikáció kész | Példa promptkártya (AI-blokk) | — | alt-szöveg, nyomtatható PDF | AI-generált |
 | `M7.1-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Narráció – SMART madrih-nyelven (opcionális) | `M7.1-NAR-01-VO` | felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md

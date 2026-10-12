@@ -26,9 +26,9 @@
 | Mutató | Érték |
 |---|--:|
 | Szemantikus asset | **416** |
-| Produkciós deliverable | **904** |
-| ebből legyártandó | 402 |
-| ebből újrahasznosítás | 8 |
+| Produkciós deliverable | **903** |
+| ebből legyártandó | 401 |
+| ebből újrahasznosítás | 9 |
 | ebből külső forrás | 6 |
 | Forrásblokk | 123 |
 | Feldolgozott fájl | 84 |
@@ -45,10 +45,10 @@ számolt *deliverable* keletkezik.
 | Diszpozíció | Db | Jelentése |
 |---|--:|---|
 | `PRESERVED` | 399 | azonos azonosítóval megmaradt szemantikus asset |
-| `CHANGED` | 3 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
+| `CHANGED` | 2 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
 | `DERIVED_NOW` | 309 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
 | `MERGED_INTO_PARENT` | 7 | a szülő asset deklarációjába olvadt, nincs külön deliverable |
-| `REUSE` | 11 | explicit újrahasznosítás egy kanonikus assetre |
+| `REUSE` | 12 | explicit újrahasznosítás egy kanonikus assetre |
 | `NO_LONGER_REQUIRED` | 18 | a jelenlegi tananyag már nem igényli |
 | `CURRENTLY_UNMAPPED_ERROR` | 0 | **hiba** — egyetlen sor sem maradhat itt |
 
