@@ -3014,10 +3014,10 @@
       "id": "M5.1-DIA-01-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 351,
+      "line": 353,
       "body_lines": [
-        352,
-        353
+        354,
+        355
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3034,10 +3034,10 @@
       "id": "M5.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 379,
+      "line": 381,
       "body_lines": [
-        380,
-        397
+        382,
+        399
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3054,10 +3054,10 @@
       "id": "M5.1-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 151,
+      "line": 153,
       "body_lines": [
-        152,
-        164
+        154,
+        166
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3074,10 +3074,10 @@
       "id": "M5.1-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 630,
+      "line": 632,
       "body_lines": [
-        631,
-        639
+        633,
+        641
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -21069,7 +21069,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 223,
+      "line": 225,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -21136,7 +21136,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 57,
+      "line": 59,
       "kind": "other",
       "subtype": "ui-text",
       "mode": "generate",
@@ -21191,7 +21191,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 262,
+      "line": 264,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -21252,7 +21252,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 295,
+      "line": 297,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -21295,8 +21295,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        380,
-        397
+        382,
+        399
       ],
       "source_text": "„Háromféle tanulási helyzetről beszélünk.\n\nA **formális tanulás** az, amikor suliban vagy:\na keretet a tanterv és az intézmény adja, **jeggyel, bizonyítvánnyal** hitelesítik, jellemzően kötelező jelenléttel, tanár–diák szerepben.\n\nA **nonformális tanulás** olyan, mint a Somer:\nszervezett, megtervezett program a suli rendszerén kívül,\nvan **nevelési cél**, csak nem dolgozatban, hanem játékban, beszélgetésben, közös élményekben jelenik meg.\nA Somerbe ráadásul **önként jössz** – nálunk a részvétel nem kötelező.\n\nAz **informális tanulás** pedig **hétköznapi, spontán helyzetekben** történik:\namikor a barátaiddal beszélgetsz, nézel egy videót, hallasz valamit otthon –\nnincs rá előre tervezett nevelési cél,\nés **sokszor észre sem veszed, hogy közben tanultál** – mégis megragad belőle valami.\n\nJó tudni: a választóvonal **nem az önkéntesség**, hanem a **tudatos nevelési cél**. A someres programot az teszi nonformálissá, hogy **szándékosan, célzottan tervezzük**; az informális tanulás viszont menet közben, tervezés nélkül történik – gyakran anélkül, hogy tanulni akartál volna. Az önkéntesség a **Somer sajátja**, nem az informális tanulás ismertetőjegye.”",
       "source_hash": "6ca88264ac481755172ce562d528c63d4b54d23516b5118a054ccaeff16c4fe2",
@@ -21328,7 +21328,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 83,
+      "line": 85,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -21375,8 +21375,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        152,
-        164
+        154,
+        166
       ],
       "source_text": "„Szia!\nGondolj vissza az elmúlt hetekre.\nVoltál **suliban**, voltál **Somer-programon**, és voltak teljesen **más pillanatok** a barátaiddal.\n\nNéha a tanár feleltet, néha a madrih sztorikat mesél a kvucának,\nnéha pedig csak TikTokokat küldötök egymásnak.\n\nEbben a leckében azt nézzük meg,\nhogy ezek közül **mi számít formális, mi nonformális és mi informális tanulásnak**.\n\nÉs azt is, hogy **a Somer hol van ebben a képben**.”",
       "source_hash": "a461ce6828fbc62ccd916adee0377f165eb3256e9a704ca468ed91f57fd32783",
@@ -21415,7 +21415,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 544,
+      "line": 546,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -21462,8 +21462,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        631,
-        639
+        633,
+        641
       ],
       "source_text": "„Köszi, hogy végigcsináltad ezt a leckét.\nMostanra látod, hogy a Somer **nem suli, de nem is csak közös lógás**:\nnonformális nevelés, ahol kvucával, élményekkel tanulunk.\n\nA következő leckében azt nézzük meg,\nhogyan jutsz el egy peula tervezésekor a **feladattól a célon és a kvucán át a módszerig** –\nés nem fordítva.”",
       "source_hash": "6e308c759e01baa70a0cfec5db798d7a3255f220c3ff9370c6af0773c02334a4",
@@ -22140,7 +22140,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md",
-      "line": 268,
+      "line": 269,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -22151,7 +22151,7 @@
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "Szerkeszthető dokumentum: Google Doc + Google Sheet (csak szervezeti fiókban, korlátozott megosztással) és/vagy .docx / .xlsx; A4 nyomtatható elrendezés is; magyar nyelv."
+        "note": "Szerkeszthető dokumentum: .docx / .xlsx, Moodle-ből letölthető fájlként; Google Doc / Sheet változat csak szervezeti fiókban, korlátozott megosztással, adatfeldolgozói és hozzáférési felülvizsgálat után (ADV-10); A4 nyomtatható elrendezés is; magyar nyelv."
       },
       "a11y": {
         "note": "Valódi táblázat-struktúra (nem kép), megjelölt oszlopfejlécekkel és kitölthető cellákkal, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva."
@@ -22183,7 +22183,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "816fffd874c6459a813cc8d425e3525e3914afc0c425e10db381d4b9da8f4c6f",
+      "spec_hash": "542aaedf2588aad1bce6b89c12f8dcfeb598eaefdcaec3a79df594a8da2334ca",
       "deliverable_ids": [
         "M5.4-MUNK-01",
         "M5.4-MUNK-01::PRINTPDF"
@@ -22323,7 +22323,7 @@
       "module": "M5",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md",
-      "line": 296,
+      "line": 297,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -22745,7 +22745,7 @@
       "module": "M5",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md",
-      "line": 165,
+      "line": 166,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -22773,7 +22773,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Begyűjthető a Blokk 3 elején név nélküli kérdésgyűjtésnek (4.2, 3. lépés; 4.3.1). Tartalmilag kapcsolódik az M5.4 mini-táblázathoz; a checklist (5. ellenőrző lista) is hivatkozza.",
+      "notes": "Alapból a résztvevőnél marad; a Blokk 3 elején név nélküli kérdésgyűjtésre csak akkor gyűjthető be, ha ténylegesen senkihez sem köthető (4.2, 3. lépés; 4.3.1). Tartalmilag kapcsolódik az M5.4 mini-táblázathoz; a checklist (5. ellenőrző lista) is hivatkozza.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -22805,7 +22805,7 @@
       "module": "M5",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md",
-      "line": 105,
+      "line": 106,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
@@ -22865,7 +22865,7 @@
       "module": "M5",
       "file_kind": "peula",
       "file": "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md",
-      "line": 241,
+      "line": 242,
       "kind": "poster",
       "subtype": "",
       "mode": "generate",
