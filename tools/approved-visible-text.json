@@ -89,40 +89,40 @@
       "sha256": "34e7c27b6a7a9ee10aa61f46afd929b47f414b929b590fa1159156660cb2f250"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M2 ERT-G1-3, ERT-G1-6, ERT-G1-8, ERT-G2-2, ERT-G2-3, IMPL-G1-1, IMPL-G1-2, IMPL-G1-4, IMPL-G1-5, IMPL-G1-6, IMPL-G1-7, IMPL-G1-8, IMPL-G2-2, IMPL-G2-3, IMPL-G2-4, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-5, IMPL-G3-10, PED-G1-7, PED-G1-8, PED-G2-1, PED-G2-3, PED-G2-9, PED-G2-11, PED-G3-2, PED-G3-3, PED-G3-7, BIZT-G3-1, BIZT-G3-4, BIZT-G3-6, NYELV-G1-1, NYELV-G1-3, NYELV-G1-4, NYELV-G1-7, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-15, NYELV-G1-16, NYELV-G1-17, NYELV-G2-2, NYELV-G2-5, NYELV-G2-8, NYELV-G2-9, NYELV-G2-10, NYELV-G2-12, NYELV-G2-14, NYELV-G3-1, NYELV-G3-4, NYELV-G3-8, NYELV-G3-10, NYELV-G3-11, NYELV-G3-12, NYELV-G3-13, NYELV-G3-15, NYELV-G3-17, NYELV-G3-18, NYELV-G3-19, NYELV-G3-21: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "9625d53d4b19cf4559921cc0d8008ccb9abcc23413ccaf85f59d8c6d2de3e410"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "5d6c397c2b99a8561a2fde1bf3c3ea15b0d14906200e5ea727256af97847ab9e"
     },
     "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md": {
-      "reason": "M2:QA-ERT-1, M2:QA-IMPL-3, M2:QA-BIZT-2, M2:QA-NYELV-3, M2:QA-NYELV-6, M2:QA-NYELV-9, M2:QA-IMPL-4: a cee9849 célzott QA-jának validált javításai",
-      "sha256": "03131ef16020161542c3485db4ee342d00ec6d5fdde77ea16def3471da7abd5a"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "f616623564cfba966fdaa9e382f0a17d5ad3e732c8ac1219ffb8d289f937e3ae"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md": {
-      "reason": "M2:QA-ERT-1, M2:QA-IMPL-3, M2:QA-BIZT-2, M2:QA-NYELV-3, M2:QA-NYELV-6, M2:QA-NYELV-9, M2:QA-IMPL-4: a cee9849 célzott QA-jának validált javításai",
-      "sha256": "8fe084031ee67a2b2c613c2bce6f1de5afe6c5c9de30b3f8e779a6bf844e9440"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "1921c30df5a78b7a06af2fc5eae705f9425523bea1bbd1fbcf35cf59cd7181e5"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md": {
-      "reason": "M2:QA-ERT-1, M2:QA-IMPL-3, M2:QA-BIZT-2, M2:QA-NYELV-3, M2:QA-NYELV-6, M2:QA-NYELV-9, M2:QA-IMPL-4: a cee9849 célzott QA-jának validált javításai",
-      "sha256": "09002ca8c6abf829154f41e13e2fbc9c3a96eae347f0020da05eac3c81df57d9"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "2ed5ebad534cbf4b359664c4d5722b8f6bcc30db74b151f323f242980368f01a"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md": {
-      "reason": "M2:QA-ERT-1, M2:QA-IMPL-3, M2:QA-BIZT-2, M2:QA-NYELV-3, M2:QA-NYELV-6, M2:QA-NYELV-9, M2:QA-IMPL-4: a cee9849 célzott QA-jának validált javításai",
-      "sha256": "ec7bee5364ef92434ace3cad1e4c6e7f53daadbae6b31622dfb00e4770b25542"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "75a3670743c249b6b16d3dd607053ad28d4ab0d10e04ad27b5f8e660e4534304"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "M2:QA-ERT-1, M2:QA-IMPL-3, M2:QA-BIZT-2, M2:QA-NYELV-3, M2:QA-NYELV-6, M2:QA-NYELV-9, M2:QA-IMPL-4: a cee9849 célzott QA-jának validált javításai",
-      "sha256": "44fba349b55b3f8d14ff885737e46c70828d47253b79dae973fbbdce40418fa8"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "8eea76850cb73f69b81555efaa4c95447714224f0db8938c3c7a22b6a0a5528b"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
-      "reason": "M2:QA-ERT-1, M2:QA-IMPL-3, M2:QA-BIZT-2, M2:QA-NYELV-3, M2:QA-NYELV-6, M2:QA-NYELV-9, M2:QA-IMPL-4: a cee9849 célzott QA-jának validált javításai",
-      "sha256": "72515378c8d52638754dede657824d22a20c7f2b7d21365b2c644981ca346e51"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "9dc4220ced293793bf7cfabd4f3a194c8387bd74d8a09502621e7d75fd88591a"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md": {
-      "reason": "M2 ERT-G1-3, ERT-G1-6, ERT-G1-8, ERT-G2-2, ERT-G2-3, IMPL-G1-1, IMPL-G1-2, IMPL-G1-4, IMPL-G1-5, IMPL-G1-6, IMPL-G1-7, IMPL-G1-8, IMPL-G2-2, IMPL-G2-3, IMPL-G2-4, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-5, IMPL-G3-10, PED-G1-7, PED-G1-8, PED-G2-1, PED-G2-3, PED-G2-9, PED-G2-11, PED-G3-2, PED-G3-3, PED-G3-7, BIZT-G3-1, BIZT-G3-4, BIZT-G3-6, NYELV-G1-1, NYELV-G1-3, NYELV-G1-4, NYELV-G1-7, NYELV-G1-8, NYELV-G1-9, NYELV-G1-10, NYELV-G1-11, NYELV-G1-15, NYELV-G1-16, NYELV-G1-17, NYELV-G2-2, NYELV-G2-5, NYELV-G2-8, NYELV-G2-9, NYELV-G2-10, NYELV-G2-12, NYELV-G2-14, NYELV-G3-1, NYELV-G3-4, NYELV-G3-8, NYELV-G3-10, NYELV-G3-11, NYELV-G3-12, NYELV-G3-13, NYELV-G3-15, NYELV-G3-17, NYELV-G3-18, NYELV-G3-19, NYELV-G3-21: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "2b794d453acb93ddaf043b6d9010cc3c105f6a50bdff4965c4f101d45c098afc"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "513ea84bcb9426fb224cec462fbf117957d80027035a5dfacbe8acb78224a868"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md": {
-      "reason": "M2:QA-ERT-1, M2:QA-IMPL-3, M2:QA-BIZT-2, M2:QA-NYELV-3, M2:QA-NYELV-6, M2:QA-NYELV-9, M2:QA-IMPL-4: a cee9849 célzott QA-jának validált javításai",
-      "sha256": "ddad3ae17b5059994f7d5ea2e560f798449e4904fccc1b94d47f0e895687fba2"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
+      "sha256": "7244525801e82b0b42d14b9afbb3b7ca190499285d15317afb5f3620be6b2ba7"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "M3:QA-ERT-1, M3:QA-NYELV-10, M3:QA-IMPL-4, M3:QA-IMPL-1, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-6, M3:QA-NYELV-9, M3:QA-IMPL-3, M3:QA-IMPL-5: a 3ae0c09/33050fa célzott QA-jának validált javításai",

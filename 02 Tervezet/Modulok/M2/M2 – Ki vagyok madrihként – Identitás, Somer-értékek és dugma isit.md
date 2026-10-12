@@ -30,13 +30,13 @@ A modul végére a madrih…
    * **Ezek közül 1 someres értéket emel ki, amelyben idén tudatosan személyes példát szeretne mutatni – ez a kiemelt érték az, amit a kapu (az önellenőrző lista 2. pontja és a fejlesztő rubrika R2 sora) rögzít. A másik kettő a feltáró munkát gazdagítja, de a kapu produktuma a kiemelt értékre fókuszál.**
    * **Támogató elemek:** M2.2 (Értékeim mint iránytű), M2.B (Somer-értékek a gyakorlatban).
 3. **Ideológiai tudatosság mint példaadás**
-   * Röviden elmondja, mit jelent számára a **cionizmus, szocializmus, humanista zsidóság**.
+   * Végiggondolja, mit jelent számára a **cionizmus, szocializmus, humanista zsidóság** – ez nem pontozott, reflektív cél, nem névhez kötött véleménymérés.
    * Legalább **1 pillérhez** konkrét helyzet-példát hoz arra, hogyan akar **személyes példát mutatni** a kvucájának (a döntési fa egy ágát végigjátszva), a másik kettőt feltáró módon megismeri.
    * **Támogató elemek:** M2.3 (Somer 3 pillére – mini-kapszula), M2.B (értékek konkrét helyzetekben).
 4. **Határok és felelősség**
    * 2–3 saját **határszabályt** megfogalmaz (online/offline).
    * **Megfogalmazza, hogyan ad** ezekkel **példát** a hanihoknak a saját határaik védéséről.
-   * **Támogató elemek:** M2.4 (privát–személyes–szakmai határok), M2.A (megosztási határok gyakorlása), M2.F (F-peula: javítás, ha a kapu nem teljesült; fogalom-térkép).
+   * **Támogató elemek:** M2.4 (privát–személyes–szakmai határok), M2.A (megosztási határok gyakorlása), M2.F (F-peula: javítás, ha a jegyzet a kapu küszöbe alatt maradt; fogalom-térkép).
 5. **Összegző írás**
    * Elkészít egy 1 oldalas **madrih identitás-jegyzetet**, amely összekapcsolja az identitás-köröket, az értékeket, a Somer-pilléreket és a dugma isit-célt.
    * **Támogató elemek:** M2.1–M2.4 összesített reflexiói + Peula B utáni feladat.
@@ -100,7 +100,7 @@ A modul végére a madrih…
 * **Fő cél:**
   * az online identitás- és értékmunka élményszerű feldolgozása kvucában;
   * biztonságos megosztási tér gyakorlása – mindenki annyit oszt meg, amennyi neki oké;
-  * kérdezés, tükrözés, egymás történeteinek megtartása.
+  * kérdezés, tükrözés, támogató figyelem egymás történetei iránt.
 * **Modulhoz való szerepe:**
   * mélyíti az identitás-tudatosságot;
   * konkrét élményt ad a határok tiszteletéről és arról, hogyan néz ki a gyakorlatban a biztonságos dugma isit.
@@ -118,7 +118,7 @@ A modul végére a madrih…
 
 ***
 
-## 5. Felzárkóztató peula (M2.F) – ajánlott, ha a kapu nem teljesült (45’)
+## 5. Felzárkóztató peula (M2.F) – ajánlott, ha a jegyzet a kapu küszöbe alatt maradt (45’)
 
 <!-- @asset
 {
@@ -126,7 +126,7 @@ A modul végére a madrih…
   "kind": "diagram",
   "mode": "generate",
   "title": "M2 modul fogalom-térkép (identitás–értékek–pillérek–határok & személyes példamutatás)",
-  "purpose": "Az M2.F (F-peula) résztvevőinek – akiknek a modul kapuja nem teljesült – egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét, hogy senki ne maradjon ki az identitás/érték/pillér/határ logikából, mielőtt újra beadja az identitás-jegyzetét (vö. az 5. szakasz „Modulhoz való szerepe” pontjával).",
+  "purpose": "Modul-szintű áttekintő ábra a hubon: egyetlen képben átláthatóvá teszi az M2 modul teljes fogalmi keretét (identitás/érték/pillér/határ). Az M2.F-en a fogalomtérképet a csoport élőben rajzolja meg (M2.F-POSZ-02, 4.3 Blokk 3), ezért ez az ábra ott nem eszköz (HUM 14. szakasz, PRG-3).",
   "spec": "Egyszerű, áttekintő fogalom-térkép a teljes M2 modulról, amely vizuálisan összeköti a négy fogalmi blokkot: identitás-körök (Én–család–zsidóság–Somer–egyéb közegek) → személyes értékek (3 érték + 1 kiemelt someres érték) → Somer 3 pillére (cionizmus, szocializmus, humanista zsidóság) → határok & személyes példamutatás (dugma isit). Mutassa, hogyan futnak ezek össze az 1 oldalas madrih identitás-jegyzetben. Modul-szintű áttekintő ábra, NEM lecke-szintű részlettartalom.",
   "provenance": "ai",
   "provenance_note": "AI-generált",
@@ -146,7 +146,7 @@ A modul végére a madrih…
     "R5"
   ],
   "blockers": [],
-  "notes": "Hub-szintű, elsősorban az M2.F (F-peula) vizuálja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él; a jegyzet-sablon letölthető, kitölthető változata az M2-HUB-MUNK-01 (§6), amely a KAPU D. szakaszát szó szerint veszi át – nincs duplikáció.",
+  "notes": "Hub-szintű áttekintő ábra; az M2.F a fogalomtérképet élőben rajzolja (M2.F-POSZ-02), ezt az ábrát nem használja. A részletes tartalmat a gyermek-leckék (M2.1–M2.4) adják; ez csak az áttekintő ábra. A §6 Kapuk szakaszban NINCS fogalom-térkép említve – az eredeti listában a §6-os horgony téves volt, javítva. Megerősítve: az M2.1 identitástérkép a tanuló **privát, helyben maradó munkalapja**, nem beadandó és nem gyártandó központi asset; a Moodle-be csak a nem érzékeny, viselkedésszintű reflexió kerül. A self-check / 4 soros rubrika / 1 oldalas végső identitás-jegyzet-sablon a kanonikus „M2 – KAPU – értékelő” fájlban él; a jegyzet-sablon letölthető, kitölthető változata az M2-HUB-MUNK-01 (§6), amely a KAPU D. szakaszát szó szerint veszi át – nincs duplikáció.",
   "legacy": {
     "asset": [
       "M2-HUB-DIA-01"
@@ -158,14 +158,14 @@ A modul végére a madrih…
 * **Peula kód:** M2.F
 * **Cím:** Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás
 * **Kapcsolódó leckék:** M2.1, M2.2, M2.3, M2.4.
-* **Mikor:** az M2 puha kapu, ezért az F-peula ajánlott, ha a kapu nem teljesült; az időpontját – a kapueredmény megerősítése után, a javító beadás előtt – a képző jelöli ki a központi naptár szerint.
+* **Mikor:** az M2 puha kapu, ezért az F-peula ajánlott, ha a jegyzet a kapu küszöbe alatt maradt (ez nem bukás); az időpontját – a kapueredmény megerősítése után, a javító beadás előtt – a képző jelöli ki a központi naptár szerint.
 * **Fő célok:**
   1. **Beazonosítja** a kapun kapott mentori visszajelzés (Megfigyelés → Hatás → Következő lépés) alapján, hogy az identitás-jegyzetének melyik rubrikasorán (R1–R4) kell javítania, és **megnevezi** a következő lépést.
   2. Érdemben javítja a jegyzet nem teljesült elemeit; ha ehhez valamelyik leckét (a rubrikasorok az M2.1–M2.4 leckékhez kötődnek) pótolnia vagy újranéznie kell, azt itt teszi meg – a javító beadás előtt.
   3. Le tud írni vagy el tud mondani leckénként 1 gondolatot és 1 kérdést, elsősorban a javítandó sorokhoz tartozó leckéknél.
   4. Lát egy egyszerű fogalom-térképet az M2 modulról (identitás–értékek–pillérek–határok & személyes példamutatás), és ehhez köti a jegyzete javítandó részeit.
 * **Modulhoz való szerepe:**
-  * facilitált, strukturált javítási alkalom (F-peula) azoknak, akiknek a modul kapuja nem teljesült; aki csak lemaradt egy leckéről vagy peuláról, csendes pótlással, önállóan pótol;
+  * facilitált, strukturált javítási alkalom (F-peula) azoknak, akiknek az identitás-jegyzete a kapu küszöbe alatt maradt; aki csak lemaradt egy leckéről vagy peuláról, csendes pótlással, önállóan pótol;
   * segít, hogy senki ne maradjon ki az identitás–érték–pillér–határ fogalmi keretből, mielőtt újra beadja az identitás-jegyzetét.
 
 ***
@@ -176,18 +176,18 @@ A modul végére a madrih…
 * **A kapu értékelő sablonja:** az önellenőrző lista, az 1 oldalas jegyzet-sablon és a fejlesztő rubrika **nem itt, hanem a hivatalos [M2 – KAPU – értékelő (item-bank + rubrika)](./M2%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban él** – ez a §6 hivatkozási forrása. **Az ottani A. szakasz adja a 10 pontos tanulói önellenőrzést, a C. szakasz a 4 soros (R1–R4) fejlesztő rubrikát, a D. szakasz pedig az 1 oldalas jegyzet-sablont.**
 * **Eszközök:**
   * Activity completion (H5P; a szabad szöveges mezők útja az `LMS – H5P runtime acceptance.md` 6. pontja szerint) az M2.1–M2.4 leckékre **– ahol a „completion” nem a végiglapozást jelenti, hanem érdemi kitöltést** (lásd lentebb a „Mit jelent a complete?” pontot);
-  * **az identitás-jegyzet Moodle Assignment, hozzá a fenti értékelő-fájl 4 soros rubrikája Moodle „Rubric” értékelési módszerként rögzítve**; **opcionálisan H5P Question Set / Moodle Quiz a B. szakasz fogalmi önellenőrző itemeivel – ez formatív, completion-alapú, NEM a kapu.**
+  * **az identitás-jegyzet Moodle Assignment, hozzá a fenti értékelő-fájl 4 soros rubrikája Moodle „Rubric” értékelési módszerként rögzítve**; **a B. szakasz fogalmi önellenőrző itemjei szerzői itempoolt alkotnak: Moodle-activity csak akkor készül belőlük, ha a tanulói út megköveteli, és a DPO elfogadta (ERT-4); ha elkészül, formatív, completion-alapú, NEM a kapu.**
 
 **Mit jelent a „complete”? (nem a végiglapozás)**
 
-> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be az M2.2-t**…”). Konkrétan: **M2.1 = a Check-kérdések eredménye elküldve ÉS a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = a Check-kérdések eredménye elküldve ÉS a nyitott mezők ki vannak töltve** (az értékválasztás pedagógiai interakció, nem önálló completion-elem: D-i); **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**. A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
+> A completion mindegyik leckénél **érdemi kitöltést** jelent, nem csak a diasor végiglapozását – összhangban a §7 beavatkozási küszöbével (pl. „ha a résztvevők >30%-a **nem fejezi be az M2.2-t**…”). Konkrétan: **M2.1 = a Check-kérdések eredménye elküldve ÉS a nem érzékeny, viselkedésszintű reflexió érdemben rögzítve**, az identitástérkép maga helyben marad; **M2.2 = a Check-kérdések eredménye elküldve ÉS a nyitott mezők ki vannak töltve** (az értékválasztás pedagógiai interakció, nem önálló completion-elem: D-i); **M2.3 = legalább 1 pillér-ág végigjátszva + a záró „így mutatok példát” mondat beírva**; **M2.4 = a nem érzékeny szabálymondat, a fiktív eset szakmai válasza (vagy a passz és egy mondat arról, kit vonna be) és a 3 határszabály érdemben rögzítve**, miközben a személyes háromoszlopos naplórészt **nem kell beadni, és nem tároljuk tanulói produktumként**; az M2.4 önjelző kérdései nem követettek, a lecke H5P-je megtekintéssel teljesül (ERT-18). A Moodle a beküldést ellenőrzi; az érdemi tartalmat – ha szükséges – a kijelölt mentor/értékelő nézi át (BS-D4).
 
 **Követelmény az M2 „complete”-hez:**
 
 1. L1 / M2.1 – H5P (a Check-kérdések eredménye) + a viselkedésszintű, nem érzékeny reflexió rögzítve (az identitástérkép maga nem beadandó).
 2. L2 / M2.2 – H5P (a Check-kérdések eredménye; az értékválasztás nem önálló completion-elem, D-i) + nyitott kérdések kitöltve.
 3. L3 / M2.3 – H5P mini-kapszula: legalább 1 pillér-ág végigjátszva, záró „így mutatok példát” mondat beírva.
-4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza + 3 saját határszabály; a privát naplórész nem beadandó.
+4. L4 / M2.4 – a nem érzékeny feladatválaszok elkészültek: szabálymondat + fiktív eset szakmai válasza (vagy passz egy mondattal arról, kit vonna be) + 3 saját határszabály; a privát naplórész nem beadandó.
 5. 1 oldalas **madrih identitás-jegyzet** leadva, záró dugma isit-mondattal **– az értékelő-fájl D. szakaszának sablonja szerint, a tanuló előbb végignézi az A. szakasz 10 pontos önellenőrzését. Completion csak akkor jár, ha az előírt blokkokban tényleges, minimálisan értelmezhető tartalom van: üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem completion.**
 
 <!-- @asset
@@ -200,7 +200,7 @@ A modul végére a madrih…
   "spec": "Kitölthető sablon doc formátumban, kizárólag az „M2 – KAPU – értékelő” fájl D. szakaszának („1 oldalas identitás-jegyzet – sablon (a tanulónak)”) szövegével, szó szerint: a bevezető bekezdés a 🔒 „Mit kérünk és mit nem” blokkal együtt, majd a „MADRIH IDENTITÁS-JEGYZET · M2” váz minden blokkja a kitöltési helyekkel. Új mező, minta vagy útmutató szöveg nem kerül bele.",
   "provenance": "human",
   "technical": {
-    "note": "Szerkeszthető dokumentum: Google Doc (csak szervezeti fiókban, korlátozott megosztással) és/vagy .docx; A4 nyomtatható elrendezés is; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
+    "note": "Szerkeszthető dokumentum: .docx; A4 nyomtatható elrendezés is; magyar nyelv. Google Doc-változat addig nem készül, amíg nincs szervezeti fiók, adatfeldolgozói és hozzáférési felülvizsgálat, és nem ismert a szolgáltató, az adatkör, a megőrzés és a harmadik fél (HUM 14. szakasz, ADV-10). Moodle-ben az Assignment „Additional files” mezőjébe kerül."
   },
   "a11y": {
     "note": "Valódi szöveges dokumentum (nem kép), címsorokkal és megjelölt kitöltési helyekkel, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva."
@@ -226,7 +226,7 @@ A modul végére a madrih…
 
 **Javítás / támogatás logika:**
 
-* Ha valaki nem fejezi be a modul valamelyik kulcselemét → mentor értesítése, csendes pótlás; ha a kapu nem teljesül → M2.F (F-peula) ajánlása.
+* Ha valaki nem fejezi be a modul valamelyik kulcselemét → mentor értesítése, csendes pótlás; ha a jegyzet a kapu küszöbe alatt marad → M2.F (F-peula) ajánlása (formatív javaslat, nem bukás).
 * Nincs kizárás, csak jelzés és támogatás.
 
 ***
@@ -242,7 +242,7 @@ A modul végére a madrih…
   * A pillér-ág választásának tanulói fiókhoz kötött tartós tárolása nem pedagógiai követelmény, és nem kívánt adat; a completion az ág identitását nem használja; jelentésben és manifestben nem állítjuk, hogy a konkrét pillér-választás megőrzése szükséges. Ha a core H5P attempt tracking technikailag mégis felhasználónként eltárolja, annak adatvédelmi elfogadhatósága DPO/jogi QA marad; feltételezéssel nem oldható meg (D-j; M2.3, 3. szakasz).
 * **Szöveges feladatválaszok és Assignment-adatok:**
   * A nem érzékeny M2.1/M2.4 feladatválaszok teljesítési aránya és az identitás-jegyzet leadási aránya; a személyes identitástérkép és a privát naplórész nem kerül be.
-  * Határszabályok jelenléte: van-e legalább 2–3 konkrét, madrih-szerephez kötött szabály. A stáb ezt csak összesített számként látja, név nélkül (Program terv §4); az egyéni választ csak a kijelölt mentor/értékelő nézi, és csak ha szükséges (HUM-PRIV-01).
+  * Határszabályok: a stáb a szabad szöveges válaszokat programanalitikai célból nem olvassa újra, és ehhez nincs külön mutató; a határszabályokról csak a fenti teljesítési arány (az M2.4 szöveges válaszainak beküldése) szól, összesítve, név nélkül (Program terv §4). Az egyéni választ csak a kijelölt mentor/értékelő nézi, és csak ha szükséges (HUM-PRIV-01).
 * **Küszöbök / beavatkozási pontok (példák):**
   * Ha a résztvevők >30%-a **nem fejezi be az M2.2-t** a 2. hét végéig → csendes pótlás + extra emlékeztető.
   * Ha az identitás-jegyzetek >30%-a hiányos vagy nagyon felszínes → modul utáni csoportos reflektív beszélgetés a dugma isitről.

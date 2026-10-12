@@ -23,7 +23,7 @@
 | **Küszöb (puha kapu)** | **Beadáshoz:** az önellenőrző lista **önellenőrzés**, nem beadás-blokkoló – ha mind a 10 pont pipa, biztosan kész; ha 1–2 hiányzik, **akkor is beadható** (a mentor fejlesztő kommentet ad, nem buktat). **A mentor felé:** a rubrika **mind a 4 során legalább „1 – elindult” szint** ÉS **legalább 1 soron „2 – kész”** szint. Ez NEM ponthatáros vizsga: a puha kapu formatív, nem blokkol (definíciója: Program terv §5). Aki a küszöb alatt van, **nem bukik**, hanem **fejlesztő visszajelzést + M2.F (F-peula) ajánlást** kap, és újra beadhat. |
 | **Megerősítés** | A mentor a kapueredményt legkésőbb 24 órával a következő fix alkalom előtt megerősíti. A még meg nem erősített, függőben lévő eredmény nem bukás. A megerősítés az LMS-M2-10 mentori checkpoint (BSPEC-07): „Teljesítve” = az LMS-M2-05 legutóbb leadott jegyzetének előírt mezőiben tényleges, minimálisan értelmezhető tartalom van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég); a puha kapu rubrika-küszöbe formatív, nem feltétel (Program terv §5). |
 | **Mit NEM csinálunk** | Nem pontozzuk numerikusan, nem rangsorolunk, nem osztályozunk. A rubrika „erős/gyenge” helyett **megfigyelhető szövegjegyeket** néz. A jegyzet tartalma privát: csak a kijelölt mentor/értékelő látja, és csak annyiban, amennyiben az értékeléshez ténylegesen szükséges. |
-| **LMS-eszköz** | **Moodle Assignment + rubrika** (a fő produktum: az identitás-jegyzet feltöltése, fájl vagy online szöveg; a 4 soros rubrika a Moodle „Rubric” értékelési módszereként rögzítve, fejlesztő kommenttel). **Opcionálisan: H5P Question Set / Moodle Quiz** a B. szakasz fogalmi önellenőrző itemeivel – ez **formatív, completion-alapú, NEM ponthatáros**, csak segít a tanulónak ellenőrizni, érti-e a kulcsfogalmakat a jegyzet megírása előtt. **Az Assignment tanulói leírásába** ebből a fájlból az A. önellenőrző lista, a D. szakasz bevezetője a 🔒 „Mit kérünk és mit nem” blokkal és a jegyzet-sablon kerül; a B. szakasz kulcsai, a C., az E. szakasz és ez a fejléc (§0) nem. |
+| **LMS-eszköz** | **Moodle Assignment + rubrika** (a fő produktum: az identitás-jegyzet feltöltése, fájl vagy online szöveg; a 4 soros rubrika a Moodle „Rubric” értékelési módszereként rögzítve, fejlesztő kommenttel). A B. szakasz fogalmi önellenőrző itemjei **szerzői itempoolt** alkotnak: Moodle-activity (H5P Question Set / Moodle Quiz) és manifest-sor csak akkor készül belőlük, ha a tanulói út megköveteli, és a DPO elfogadta (HUM 14. szakasz, ERT-4); ha elkészül, **formatív, completion-alapú, NEM ponthatáros**, csak segít a tanulónak ellenőrizni, érti-e a kulcsfogalmakat a jegyzet megírása előtt. **Az Assignment tanulói leírásába** ebből a fájlból az A. önellenőrző lista, a D. szakasz bevezetője a 🔒 „Mit kérünk és mit nem” blokkal és a jegyzet-sablon kerül; a B. szakasz kulcsai, a C., az E. szakasz és ez a fejléc (§0) nem. |
 | **Javítási útvonal** | Hiányos / nagyon felszínes jegyzet → a mentor fejlesztő üzenete a produktum-visszajelzés modellje szerint (Megfigyelés → Hatás → Következő lépés; max. 3 pont) + M2.F ajánlása + újrabeadás. Próbálkozások: 1 normál + 1 javító beadás automatikusan, további beadást a képző nyithat kézzel. A legjobb megerősített eredmény számít; egy már elfogadott jegyzet nem romlik vissza egy önkéntes újrabeadástól. |
 
 > ⚠️ **Mit mér valójában a kapu?** Ha csak a *leadás tényét* mérnénk, azt üres vagy felszínes tartalommal is ki lehetne váltani. Ezért minden rubrikasor **megfigyelhető, viselkedésszintű kritériumhoz** van kötve (pl. „van konkrét, viselkedésszintű mondat” vs. „csak absztrakt értékszó”), nem „jó/rossz” minősítéshez. A B. szakasz kvízei szándékosan **nem a kapu** – formatív önellenőrzés.
@@ -38,14 +38,14 @@
 - [ ] **2. 1 someres érték.** Kiválasztottam **1 konkrét someres értéket** (pl. egyenlőség, közösség, társadalmi felelősség, szolidaritás, igazságosság), amiben idén tudatosan példát szeretnék mutatni – és ez **érték, nem hangulat** (nem „jó fej leszek”, hanem pl. „egyenlőség”).
 - [ ] **3. Érték → viselkedés.** Az értékemhez leírtam **legalább 1 konkrét, megfigyelhető viselkedést**, amit a hanihok **rajtam láthatnak** (pl. „a csendesebbeket is név szerint megszólítom körben”), nem csak azt, hogy „fontos nekem a közösség”.
 - [ ] **4. Külső nézőpont.** Megfogalmaztam, **mit olvasna le rólam egy hanih**, ha csak figyelne egy peulán – tehát kívülről, a viselkedésemből nézem, nem belülről a szándékomból.
-- [ ] **5. Pillér-kapcsolat.** Legalább **1 helyen összekötöttem** az értékemet vagy a viselkedésemet a Somer egyik pillérével (cionizmus / szocializmus / humanista zsidóság) egy konkrét helyzeten keresztül.
+- [ ] **5. Pillér-kapcsolat.** Legalább **1 helyen összekötöttem** az értékemet vagy a viselkedésemet a Somer egyik pillérével (cionizmus / szocializmus / humanista zsidóság) egy konkrét helyzeten keresztül. (Ezt egy kitalált madrih példáján is megmutathatod.)
 - [ ] **6. Határ / dugma isit ≠ terapeuta.** Beírtam **legalább 1 saját határszabályt** (pl. „nem nyitok privát 1:1 chatet hanihokkal, hanem csoportos / hivatalos csatornára terelem a beszélgetést”, „gyermekvédelmi jelzésnél nem maradok egyedül, azonnal bevonom a kijelölt Memunát (a Somer gyermekvédelmi felelősét)”), és értem, hogy **a határtartás is példamutatás**.
 - [ ] **7. Idei vállalás.** Van benne **1 konkrét, idei (most kezdődő évre szóló) dugma isit-vállalásom** – nem általános elv, hanem valami, amit a saját kvucámmal el tudok kezdeni.
 - [ ] **8. Záró dugma isit-mondat.** Van egy **záró mondatom**, ami így (vagy hasonlóan) kezdődik: *„Idén madrihként abban szeretnék személyes példát mutatni, hogy…”* – és konkrét viselkedéssel folytatódik.
 - [ ] **9. Saját szavak.** A jegyzet **a saját szavaimmal** szól, őszinte – nem a leckék mondatait másoltam be. (Nem kell szép, kell igaz.)
 - [ ] **10. Egy oldal.** Belefér **kb. 1 oldalba** – inkább tömör és konkrét, mint hosszú és általános.
 
-> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak; ha a kapu ezután nem teljesül, az M2.F-en (F-peula) tovább dolgozhatsz rajta. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
+> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak; ha a jegyzeted ezután a kapu küszöbe alatt marad, az M2.F-en (F-peula) tovább dolgozhatsz rajta. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
 
 ***
 
@@ -53,7 +53,7 @@
 
 > Ezek a kérdések **nem pontoznak és nem buktatnak**. Arra valók, hogy a jegyzet megírása előtt ellenőrizd: tényleg érted-e az M2 kulcsfogalmait – érték vs. hangulat (M2.2), dugma isit = a viselkedésen látszik (M2.1–M2.3), identitás-körök hatása (M2.1), pillérek a gyakorlatban (M2.3), valamint a privát/személyes/szakmai határ és „nem terapeuta” logika (M2.4). A **10 item** mind a négy lecke tartalmából kérdez, és mindegyikhez rövid visszajelzés tartozik.
 
-> **LMS:** H5P Question Set vagy Moodle Quiz, „kitöltve = complete” (eredménytől függetlenül). Több próbálkozás engedélyezve. A forrásban minden kérdésnél ✅ jelöli a helyes választ.
+> **LMS:** szerzői itempool; Moodle-activity csak a §0 „LMS-eszköz” sorában írt feltétellel készül belőle (ERT-4). Ha elkészül: H5P Question Set vagy Moodle Quiz, „kitöltve = complete” (eredménytől függetlenül), több próbálkozás engedélyezve. A forrásban minden kérdésnél ✅ jelöli a helyes választ.
 >
 > **Fejlesztői beállítás (kötelező – válaszsorrend):** az alábbi A–D betűk csak a szerkesztői hivatkozást rögzítik, **NEM** a megjelenítési sorrendet. A visszajelzés **a helyes válasz SZÖVEGÉHEZ van horgonyozva** (nem a betűhöz), így a keverés után sem csúszik el. A H5P-ben/Moodle-ben kapcsold be a **válaszopciók keverését** (Multiple Choice-nál a „Randomize answers” opciót; Moodle Quizben a „Shuffle within questions” beállítást, és minden kérdésben a „Shuffle the choices?” opciót is), hogy a helyes válasz pozíciója próbálkozásonként váltakozzon. A jelenlegi forrásban a kulcs aránytalanul a „C” opcióra esik, ezért a keverés **kötelező**, nem elhagyható. Mivel a visszajelzés a szöveghez kötött (a többi opciót is a tartalmával nevezi meg, nem a betűjével), a keverés nem teszi érvénytelenné a „✅” hivatkozásokat; a betű-jelölés csak emlékeztető a szöveg mellett.
 
@@ -110,7 +110,7 @@ Egy 12 éves hanihod késő este privátban ír: *„Senki nem ért meg. Minden 
 - C) Nem válaszolsz neki, mert ez már nem a te dolgod, túl nagy teher, és nem egy madrih felelőssége ezt megoldani.
 - D) Megígéred neki, hogy ez kettőtök titka marad, és magad próbálod megoldani.
 
-> **Visszajelzés:** ✅ **B – „Röviden jelzed a szervezeti csatornán, hogy láttad és segítséget hívsz, … és azonnal bevonod a Memunát”.** Ez a *„nem terapeuta, de megbízható madrih”* alapelv: **nem maradsz egyedül a helyzettel, és azonnal bevonod a Memunát** (a Somer gyermekvédelmi felelősét) – a teljes, ötlépéses jelzési utat az M3.B peulán rakjuk össze (lépéstérkép). A rövid üzenet csak nyugtázás, nem a helyzet megoldása: a beszélgetést nem viszed tovább privátban, hanem hivatalos csatornára tereled. Kiskorúval a személyes közösségimédia-fiókodról nem kommunikálsz, a szervezeti csatorna viszont használható. Az egész éjszakás privát chatelés összemossa a határokat, és függőséget építhet; a válasz elmaradása magára hagyja a gyereket; a titoktartás ígérete pedig gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 4. blokkjában.
+> **Visszajelzés:** ✅ **B – „Röviden jelzed a szervezeti csatornán, hogy láttad és segítséget hívsz, … és azonnal bevonod a Memunát”.** Ez a *„nem terapeuta, de megbízható madrih”* alapelv: **nem maradsz egyedül a helyzettel, és azonnal bevonod a Memunát** (a Somer gyermekvédelmi felelősét) – a teljes, ötlépéses jelzési utat az M3.B peulán rakjuk össze (lépéstérkép). Ha a Memuna nem érhető el, a helyettesét vond be; ha egyikük sem érhető el (például munkaidőn kívül), közvetlen veszélyben a 112, érzelmi támogatásra a Kék Vonal 116-111 az út – az elérhetőségeket a kurzus „Segítség és kapcsolatok” blokkjában találod. A rövid üzenet csak nyugtázás, nem a helyzet megoldása: a beszélgetést nem viszed tovább privátban, hanem hivatalos csatornára tereled. Kiskorúval a személyes közösségimédia-fiókodról nem kommunikálsz, a szervezeti csatorna viszont használható. Az egész éjszakás privát chatelés összemossa a határokat, és függőséget építhet; a válasz elmaradása magára hagyja a gyereket; a titoktartás ígérete pedig gyermekvédelmi hiba. Egy ilyen üzenet **nem „majd ha komolyabb”** – már önmagában jelzésértékű. Ezt a fajta határtartást fogalmazd meg a jegyzeted 4. blokkjában.
 
 ### Item 6 – Mi az „idei vállalás”? (M2 integráció)
 
@@ -176,6 +176,8 @@ Közös hanukai programon valaki odaszól: *„Ez az egész zsidó dolog tök ci
 > **LMS:** Moodle Assignment → értékelési módszer: **Rubric** (4 sor, soronként 3 szint). A szintekhez a Moodle-ben rendelhető 0/1/2 „pont”, de ezt **ne mutasd osztályzatként** – a tanuló a **szöveges szintleírást és a kommentet** látja, nem rangsort.
 >
 > **Puha kapu küszöbe:** beadás elfogadva, ha **minden sor ≥ „1 – elindult”** ÉS **legalább 1 sor „2 – kész”**. Ez alatt → fejlesztő komment + M2.F ajánlás + újrabeadás (nincs bukás; 1 normál + 1 javító beadás automatikusan, további a képző kézi nyitásával).
+>
+> **Someres érték (R2):** a someres érték értékelésének viszonyítási pontja a helyi Ideológiai Kézikönyv. Az R2 az érték és a hangulat különbségét nyitott, leírt kritérium alapján fogadja el: értékítélet legyen, ne hangulat vagy népszerűség (A.2). Személyes világnézeti vallomást nem kérünk (HUM 14. szakasz, TERM-8).
 
 | # | Mit nézünk (megfigyelhető) | 0 – még nincs meg | 1 – elindult | 2 – kész (látható, konkrét) |
 |---|---|---|---|---|
@@ -198,12 +200,13 @@ A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha e
 
 ## D. 1 oldalas identitás-jegyzet – sablon (a tanulónak)
 
-> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Üres vagy kitöltetlen sablon feltöltése nem teljesítés: a blokkokba tényleges, saját tartalom kell. A beadásodat csak a kijelölt mentorod vagy értékelőd látja és értékeli. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz. Ha a jegyzetből az derül ki, hogy valaki – akár te magad – veszélyben van, azt nem a feladat részeként kezeljük: a mentorod azonnal bevonja a Memunát.
+> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Üres vagy kitöltetlen sablon feltöltése nem teljesítés: a blokkokba tényleges, saját tartalom kell. A beadásodat csak a kijelölt mentorod vagy értékelőd látja és értékeli; technikai okból a Moodle rendszergazdája is hozzáférhet. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz. Ha a jegyzetből az derül ki, hogy valaki – akár te magad – veszélyben van, azt nem a feladat részeként kezeljük, és nem tartjuk titokban. Ha egy valós gyermekvédelmi helyzetet jelezned kell, azt ne ebben a jegyzetben tedd: azonnal vond be a Memunát; az elérhetőségét a kurzus „Segítség és kapcsolatok” blokkjában találod.
 >
 > 🔒 **Mit kérünk és mit nem.** Itt **nem az identitásod tartalmát értékeljük**, hanem azt, hogy tudsz-e belőle **megfigyelhető madrih-viselkedést** levezetni. Ezért:
 > – a köröket elég **általánosan** megnevezned (pl. „család”, „zsidó közösség”, „iskola”) – nem kell személyes történet, diagnózis, családi konfliktus vagy más érzékeny részlet;
 > – **3 kör is elég** (a rubrika ennyit kér), és bármelyiket kihagyhatod, ha nem szeretnéd leírni – ez nem pontlevonás;
-> – **más embert ne azonosíts be** (hanih, családtag: név nélkül).
+> – **más embert ne azonosíts be** (hanih, családtag: név nélkül);
+> – a 3. blokkban nem kell a saját világnézetedről nyilatkoznod: a pillért és a helyzetet egy kitalált madrih példáján is bemutathatod – ez sem pontlevonás.
 > A lényeg mindenhol az, **mit lát ebből a kvucád rajtad**.
 
 ```
@@ -250,7 +253,7 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
    __________________________________________________________________ .”
 ```
 
-> **Tipp:** mielőtt beadod, nézd végig az **A. önellenőrző listát** – ha mind a 10-re van pipa, kész vagy. Ha valamiben elakadsz, az pont egy jó beszélgetés a mentoroddal; ha pedig a kapu nem teljesül, az M2.F-en (F-peula) javíthatsz rajta.
+> **Tipp:** mielőtt beadod, nézd végig az **A. önellenőrző listát** – ha mind a 10-re van pipa, kész vagy. Ha valamiben elakadsz, az pont egy jó beszélgetés a mentoroddal; ha pedig a jegyzeted a kapu küszöbe alatt marad, az M2.F-en (F-peula) javíthatsz rajta.
 
 ***
 
@@ -258,7 +261,7 @@ Név (vagy becenév): ______________________   Kvuca / csoport: ______________
 
 1. **Megvan mind a 4 blokk** a jegyzetben (identitás-körök / érték / pillér / határ+vállalás)? → R1–R4 sor.
 2. **Van megnevezett someres érték, legalább általános szándékkal** (R2 ≥ 1), nem csak absztrakt szó vagy hangulat? A konkrét, megfigyelhető viselkedés és a külső nézőpont: R2 = 2.
-3. **Van megnevezett pillér, és kapcsolódik hozzá érték** (R3 ≥ 1), nem csak a pillér neve vagy definíciója? A konkrét kvuca-helyzethez kötés és a viselkedés, amellyel ott példát mutatna: R3 = 2.
+3. **Van megnevezett pillér, és kapcsolódik hozzá érték** (R3 ≥ 1), nem csak a pillér neve vagy definíciója? A konkrét kvuca-helyzethez kötés és a viselkedés, amellyel ott példát mutatna: R3 = 2. Ha a tanuló a 3. blokkot egy kitalált madrih példáján írja meg, ugyanígy értékeled, pontlevonás nélkül (ADV-5).
 4. **Van záró dugma isit-mondat és/vagy határszabály**, ha még általános is (R4 ≥ 1)? A konkrét határszabály és a záró mondatban az idei, konkrét vállalás: R4 = 2.
 5. **Küszöb:** minden sor ≥ 1 ÉS legalább 1 sor = 2 → **elfogadva**. Ha nem → fejlesztő komment (1 erősség + 1 következő lépés) + **M2.F ajánlás** + újrabeadás. **Nincs kizárás**; 1 normál + 1 javító beadás automatikusan, további a képző kézi nyitásával. **Megerősítés (LMS-M2-10, BSPEC-07):** „Teljesítve” = az LMS-M2-05 legutóbb leadott jegyzetének előírt mezőiben tényleges, minimálisan értelmezhető tartalom van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég); a puha kapu rubrika-küszöbe formatív, nem feltétel (Program terv §5).
 
