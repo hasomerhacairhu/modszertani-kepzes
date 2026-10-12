@@ -301,28 +301,28 @@
       "sha256": "0c6c063755f653dc086c942c3151684131063b9f21df353d7e828d0d4fea6e0a"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
-      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
-      "sha256": "a754754c88f5af0b4df693244b969f810b70a14a81448a81304453b55f4b6ea2"
+      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
+      "sha256": "223e2fa095dd9bccbb779925ae8c75e8cfc557df50ec1c9621695de311d81725"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
-      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
-      "sha256": "b53c38625b8edcb0ce032626f97436b7adef1dbe73074ea27cb8cae257545a62"
+      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
+      "sha256": "81605a066bdfec4d7806b16e647c845591bbc2fdfc329d56c27a72609e661417"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "Z:QA-ERT-1, Z:QA-IMPL-1, Z:QA-NYELV-3: az 5fcf2b0 célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "5ee1b14dbffee9d2c202a3ea82ba55794c666ed3d9bdfe1ad9a01a1853df31da"
+      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
+      "sha256": "b71b2c853184db423b48255bff2093c48a7e337d241e076b5d808a831173ff07"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "Z:QA-ERT-1, Z:QA-IMPL-1, Z:QA-NYELV-3: az 5fcf2b0 célzott QA validált findingjai, a verifier-korlátok szerint",
-      "sha256": "1206920831e1a598cdc45fa72643abc3f4bc1f2584ffc837eb0ecbb0e4ca1903"
+      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
+      "sha256": "c1dfeb976cea137fc7ebb9f47c0d2d22d4e8cf6ca60a067cf00c6fc6ea4a1177"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
-      "reason": "Z:ERT-G1-2, Z:PED-G1-1, Z:BIZT-G1-3, Z:BIZT-G1-2.obj, Z:IMPL-G1-5, Z:IMPL-G1-6, Z:IMPL-G1-10, Z:NYELV-G1-2, Z:IMPL-G1-2, Z:BIZT-G1-9.obj, Z:PED-G1-6, Z:PED-G1-9, Z:NYELV-G1-1, Z:NYELV-G1-4, Z:NYELV-G1-6, Z:NYELV-G1-7, Z:NYELV-G1-8, Z:NYELV-G1-9, Z:NYELV-G1-10, Z:NYELV-G1-12, Z:NYELV-G1-13, Z:NYELV-G1-17, Z:NYELV-G1-18, M0:NYELV-G2-18 (Z.A): a Z validált objektív findingjai, AP-2026-10-11-01",
-      "sha256": "5e64ce9b68107ca733b866063f6bcf8f4923eebf3efff9d7714c3b19eb79fa04"
+      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
+      "sha256": "5aad94cc22451925aa74b8745f1249ac884852946c124b7301c45330b55431cc"
     },
     "02 Tervezet/Modulok/Z/Z – Zárás & híd a terepre.md": {
-      "reason": "Z:XMOD-1, M0:XMOD-2, M5:XMOD-3: a FINAL QA modulközi konzisztencia-ellenőrzésének validált findingjai (verifier, 2026-10-12)",
-      "sha256": "784361eaea336d1167b248939383b9ca0b74b0d82c8287fbafdf851bdb231153"
+      "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
+      "sha256": "49d035efeef5da7fd1f1f06dc5b947452c2e4baf8157b0df0ccf4a08c94eaffe"
     },
     "02 Tervezet/Program terv.md": {
       "reason": "Z:XMOD-1, M0:XMOD-2, M5:XMOD-3: a FINAL QA modulközi konzisztencia-ellenőrzésének validált findingjai (verifier, 2026-10-12)",

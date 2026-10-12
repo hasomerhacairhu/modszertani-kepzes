@@ -37,7 +37,8 @@
 * 1 tál / kalap / doboz a nevek húzásához
 * Ragasztó / blu-tack a poszterek és a szófelhő rögzítéséhez
 * Időmérő (telefon is elég) az időkeretek tartásához
-* **Felvétel:** a peulán a központi felvételi szabály érvényes (HUM-PRIV-02; `Adatvédelem – tanulói adatok és AI.md` 6. szakasz): alapértelmezés szerint **nincs fotó, videó vagy hangfelvétel**, csak indokolt célból.
+* **Felvétel:** a peulán a központi felvételi szabály érvényes (HUM-PRIV-02; `Adatvédelem – tanulói adatok és AI.md` 6. szakasz): alapértelmezés szerint **nincs fotó, videó vagy hangfelvétel**, csak indokolt célból. Szükséges csoportproduktumról (például a „Híd a terepre” poszterről vagy a szófelhőről) csak előre rögzített céllal és hozzáféréssel, a résztvevők tájékoztatása után és a HUM-PRIV-02 szerinti engedéllyel készülhet fotó; saját telefon használata nem lehet kötelező (projektgazdai döntés, 2026-10-12, ADV-7).
+* **Papír:** a személyes, önfeltáró cetli a résztvevőnél marad, vagy visszakerül hozzá; névvel nem függesztjük ki, és nem gyűjtjük be (a szófelhő cetlijére nem kerül név, 4.4.2).
 
 ### 2.2. Tér
 
@@ -52,8 +53,10 @@
 * Átolvassa a Z modul rövid leírását és az online leckék fő kérdéseit (tanulási pillanatok, következő lépések).
 * Végiggondol **1–2 saját példát** a félévéről, amit meg tud osztani (egy tanulási pillanat + egy „mit viszek magammal” szó).
 * Előre átgondolja a **biztonsági keretet** (4.2 / 1. lépés), és a benne lévő „Ha ez a téma téged is érint” blokkot szó szerint mondja el.
-* Tudja, **kihez fordul**, ha a peula alatt valakit láthatóan nagyon megérint egy téma: a résztvevő kijelölt mentorához, gyermekvédelmi aggálynál pedig a kijelölt **Memunához** (a Somer gyermekvédelmi felelőséhez). Utána diszkréten, de átlátható helyzetben lép oda a résztvevőhöz; kettesben (1:1) csak indokolt esetben, átlátható módon és egy másik felelős tudtával beszél vele (safer-working szabály: `Gyermekvédelem – release gate.md` 4.2. pont).
+* Tudja, **mit tesz és kihez fordul**, ha a peula alatt valakit láthatóan nagyon megérint egy téma: előbb diszkréten, de átlátható helyzetben odalép a résztvevőhöz, nyugodtan meghallgatja, és gondoskodik a biztonságáról; kettesben (1:1) csak indokolt esetben, átlátható módon és egy másik felelős tudtával beszél vele (safer-working szabály: `Gyermekvédelem – release gate.md` 4.2. pont). Gyermekvédelmi aggálynál azonnal bevonja a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét); egyéb támogatáshoz a résztvevő kijelölt mentorához fordul (projektgazdai döntés, 2026-10-12, GYV-6).
+* Ha valakinél saját érintettség kerül elő, nem folytat nyilvános feldolgozást, hanem biztonságos támogatási útra terel (a „Ha ez a téma téged is érint” blokk szerint); felkavart résztvevőt nem küld ki egyedül (2.2: a csendesebb, átlátható ponton egy felnőtt van vele). A szereplési szorongás önmagában nem gyermekvédelmi krízis, de bármelyik megszólalásnál szabad megállni és passzolni.
 * Tudja, hogy ha a peula alatt – akár egy párban – feltárás történik vagy gyermekvédelmi aggály merül fel, nem dolgozza fel a csoport előtt, hanem az ötlépéses jelzési út (M3.B lépéstérkép) szerint jár el – azonnal bevonja a Memunát –, és ezzel a helyzettel nem marad egyedül.
+* **Felnőttek a peulán (GYV-5):** a záró peula személyes megosztást és erősebb érzéseket is hozhat (4.2 / 1. lépés; 5. ellenőrző lista, 4. pont), ezért előzetesen legyen legalább két rendelkezésre álló, felkészített, 18 év feletti felelős, vagy azonnal elérhető helyettes és kötelező megállítási protokoll. Egyszemélyes működés csak dokumentált alacsony kockázatú helyzetben lehet; felkavart kiskorú nem maradhat egyedül. A végleges létszámnormát a Memuna és a programvezető határozza meg.
 * **Még a peula előtt beszerzi az M0 produktumokat** (ezekre épül a 4.2 „M0-tükör” és a 4.4.2 záró rituálé): elkéri a ken-vezetőtől / stábtól az **M0.A kickoff-plakátot** (*mit várok / mitől félek / mit hozok*), és – ha rögzítették – az **M0.A indulószavak** listáját. Ha nincs archiválva, a saját jegyzeteiből készít **2–3 név nélküli idézetet**, amit a táblára kitehet, hogy a visszakötés ne csak emlékezetből menjen. A plakátot és az idézeteket kihelyezés előtt ugyanúgy átnézi, mint az M0.A-ban: ne legyen rajtuk név, elérhetőség vagy más beazonosítható, érzékeny személyes tartalom; ha ilyen mégis rákerült, kitakarja vagy leveszi.
 
 ***
@@ -225,7 +228,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 **Facilitátori tippek:**
 
-* Ha látod, hogy valakit nagyon megérintett valami, **jegyezd meg magadnak**, és a peula után finoman odamehetsz hozzá egy rövid „minden oké?” kérdéssel – nyíltan, a többiek közelében. Ha hosszabb beszélgetés kellene, kettesben (1:1) csak indokolt esetben, átlátható módon és egy másik felelős tudtával szervezd (safer-working szabály: `Gyermekvédelem – release gate.md` 4.2. pont).
+* Ha látod, hogy valakit nagyon megérintett valami, **jegyezd meg magadnak**, és a peula után finoman odamehetsz hozzá egy rövid „minden oké?” kérdéssel – nyíltan, a többiek közelében. Ha hosszabb beszélgetés kellene, kettesben (1:1) csak indokolt esetben, átlátható módon és egy másik felelős tudtával szervezd (safer-working szabály: `Gyermekvédelem – release gate.md` 4.2. pont). Ha a beszélgetésből gyermekvédelmi aggály derül ki, azonnal vond be a Memunát (az ötlépéses jelzési út szerint).
 * Ha valaki túl részletes, emlékeztesd az időkeretre:
   > „Köszi, hogy elmondtad – figyeljünk, hogy mindenkinek legyen ideje, max. még 1 mondat.”
 
@@ -316,7 +319,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    Képző:
    > „Készítsetek egy közös plakátot, aminek két fele van: – bal oldal: **Mit tanultunk?** – kulcsszavak az M0–M7-ből, mondatok, élmények – jobb oldal: **Mit csinálunk másképp a terepen?** – konkrét jövőbeli lépések. Nem művészeti verseny – rajzolhattok, írhattok, használhattok jeleket, ikonokat, ami jólesik.”
 3. **Kiscsoportos munka (10–12 perc)**
-   Képző körbejár, kérdezhet:
+   Képző körbejár, figyel arra, hogy a kiscsoportban mindenki szóhoz jusson, és kérdezhet:
    * Bal oldalra gyűljenek:
      – modulnevek / témák (önismeret, visszajelzés, kvuca, gyermekvédelem, nonformális stb.),
      – 1-1 szó vagy mondat arról, mit visznek ebből.
@@ -458,7 +461,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
 
 1. **Szóírás (2–3 perc)**
    Képző (kösd vissza az M0.A indulószavaihoz):
-   > „Az első alkalmon mindenki mondott **1 szót, amivel elindult** ebben a képzős évben. Most nézzük meg, **milyen szóval érkeztetek meg**. Mindenki kap egy kis cetlit – írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat – ami neked most igaz. Nem kell nevet írni rá.”
+   > „Az első alkalmon mindenki mondott **1 szót, amivel elindult** ebben a képzős évben. Most nézzük meg, **milyen szóval érkeztetek meg**. Mindenki kap egy kis cetlit – írj rá **1 szót**, amit magaddal viszel ebből a félévből. Lehet érzés, érték, gyakorlat – ami neked most igaz. Nevet ne írj rá.”
    * Mindenki felír egy szót.
 2. **Közös felhő kirakása (2 perc)**
    * Kérd meg őket, hogy egyenként (vagy egyszerre) vigyék a cetlit a kijelölt felületre (plakát, fal, kör közepe).
@@ -524,7 +527,7 @@ Körben mindenki mond 1 emojit + 1 rövid magyarázatot (max. 1–2 mondat).
    * Van kijelölt **csendesebb, de átlátható pont**, ahol a felkavart résztvevővel egy felnőtt van?
 4. **Biztonság a fejedben?**
    * Megvan a biztonsági kereted, benne a „Ha ez a téma téged is érint” blokk (**nem kell személyes részletet megosztani**, lehet passzolni és szünetet kérni)?
-   * Tudod, kinek jelezel / kit hívsz oda, ha valakit láthatóan nagyon megérint egy téma?
+   * Tudod, mit teszel, ha valakit láthatóan nagyon megérint egy téma: előbb nyugodtan meghallgatod, és gondoskodsz a biztonságáról, gyermekvédelmi aggálynál pedig azonnal bevonod a Memunát?
    * Fel vagy készülve rá, hogy a félév lezárása **erősebb érzéseket is hozhat** (pl. búcsú, fáradtság, megkönnyebbülés)?
 5. **Időkeret & prioritás**
    * Tudod, mit rövidítesz, ha csúsztok?

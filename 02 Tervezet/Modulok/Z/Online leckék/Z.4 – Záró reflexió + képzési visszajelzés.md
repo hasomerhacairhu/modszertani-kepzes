@@ -13,7 +13,7 @@
 **Időtartam (teljes lecke):** **kb. 40–65 perc – tervezz inkább a felsővel (kb. 65 perc).** Ez a Z modul leghosszabb online eleme, mert nemcsak jegyzetelsz, hanem egy kész, **menthető záró reflexiót** is összeraksz. Bontása:
 
 * **Moodle Assignment (online text, draft mentéssel)** – záró reflexiós ív kitöltése (a 3 kérdéshez): **~20–30’**
-* **Véglegesítés + Moodle Assignment leadás** (alapesetben a mentett szöveget adod be; ha szeretnéd, helyette abból egy 2–3 perces videót készíthetsz): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
+* **Véglegesítés + Moodle Assignment leadás** (alapesetben a mentett szöveget adod be; ha a kurzusban a videós beadás be van kapcsolva, és szeretnéd, helyette abból egy 2–3 perces videót készíthetsz): **~15–25’** *(a videós út a felvétel + esetleges újrafelvétel miatt jellemzően a felső érték felé húz)*
 * Képzési visszajelző űrlap (a válaszok név nélkül jelennek meg a feldolgozásban): **~5–10’**
 
 > **Reális terhelés:** a Z modul záró leckéje könnyen **kifárasztó**, ha minden kérdés külön üres mezőként néz rád. Ezért most **egy összefüggő reflexiós ívbe** fűzzük a kérdéseket: végighaladsz rajta, és a végén **véglegesíted és beadod** – ez lesz a záró dokumentumod. Tervezd úgy, hogy egy ülésben végigmész rajta, és közben a szövegedet külön is mentsd le.
@@ -25,7 +25,7 @@
 **Eszközök:**
 
 * **Moodle Assignment – Online text** – „Záró reflexió + következő lépés” (strukturált sablonnal, piszkozatmentéssel; a tényleges draft/resume működést acceptance teszt igazolja)
-* Ugyanez az Assignment a **leadás helye is**: online szöveg (alapértelmezés) **vagy** – ha a tanuló választja – abból felvett 2–3 perces videó
+* Ugyanez az Assignment a **leadás helye is**: online szöveg (alapértelmezés) **vagy** – ha a videós út be van kapcsolva (alapból ki van kapcsolva, lásd 4. szakasz), és a tanuló választja – abból felvett 2–3 perces videó
 * **Moodle Feedback** (core; Questionnaire csak az 5. szakasz feltételével) – képzésértékelő, a válaszok név nélkül jelennek meg a feldolgozásban *(külön marad)*
 
 **Mikrocél (tanulói nyelven):**
@@ -52,7 +52,7 @@
 
 > Két dolgot csinálunk:
 
-1. Végigmész egy **összefüggő záró reflexiós íven** – ez egy Moodle Assignment strukturált szövegsablonja –, és a végén **beadod** egy darabban (alapesetben szövegként; ha szeretnéd, helyette belőle felvett videóként).
+1. Végigmész egy **összefüggő záró reflexiós íven** – ez egy Moodle Assignment strukturált szövegsablonja –, és a végén **beadod** egy darabban (alapesetben szövegként; ha a kurzusban a videós beadás be van kapcsolva, és szeretnéd, helyette belőle felvett videóként).
 2. Kitöltesz egy **képzésértékelő űrlapot** – **a válaszok név nélkül jelennek meg a feldolgozásban** –, hogy mi, képzők is tanulni tudjunk ebből a félévből. (Azt, hogy kitöltötted-e, a Moodle a haladásodnál rögzíti.)
 
 > Az íven 3 vezető kérdésed lesz:
@@ -95,14 +95,14 @@
 
 > A képzésről szóló visszajelzésedet nem ide írod, hanem a végén a külön, név nélküli **képzési visszajelző űrlapba**.
 
-> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Még nem teljesítve” visszajelzést kap, és ha „Még nem teljesítve”, azt is megtudod, mivel egészítsd ki. A beadásodat csak a kijelölt mentorod vagy értékelőd látja, aki a visszajelzést adja.
+> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Még nem teljesítve” visszajelzést kap, és ha „Még nem teljesítve”, azt is megtudod, mivel egészítsd ki. A „Teljesítve”-hez tényleges, értelmezhető beadás kell; a 3 kérdés szerinti részletes szerkezet (például a legalább 3 pillanat) útmutató, nem bukási feltétel, és adatvédelmi szempontból érzékeny részt kihagyhatsz. A beadásodat csak a kijelölt mentorod vagy értékelőd látja, aki a visszajelzést adja; technikai okból a Moodle rendszergazdája is hozzáférhet.
 > Az számít, hogy **őszinte** legyél – magaddal és velünk.
 
 > Az íven **3 kérdésen** mész végig, a végén **beadod** egy darabban.
 
 *(Fejlesztői feltétel: a megszakítás és a visszatérés lehetőségét csak akkor kommunikáljuk a tanulónak, ha a cél Moodle-környezetben a piszkozatmentést acceptance-teszttel igazoltuk – lásd `LMS – H5P runtime acceptance.md`. Amíg ez nincs meg, a lecke egy ülésben elvégzendő, és javasolja a szöveg külön lementését.)*
 
-**Önellenőrző kérdés (statikus szöveg, nincs külön mező)**
+**Önellenőrző kérdés (statikus szöveg, nincs külön mező; a kérdés és a hozzá tartozó Kis jelzés csak akkor jelenik meg, ha a videós beadás be van kapcsolva – 4. szakasz, ADV-14)**
 
 > „Milyen formában készítenéd el szívesebben a záró reflexiódat?”
 
@@ -141,7 +141,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Kinek fogod elmondani, hogy ezeket vállalod?”
 
 > A következő lépésekben **végighaladsz** mindhárom kérdésen, egy összefüggő íven.
-> A végén ebből lesz **a végleges záró reflexiód** – a szöveged, vagy a videód vázlata.
+> A végén ebből lesz **a végleges záró reflexiód** – a szöveged, vagy ha a videós beadás be van kapcsolva, és azt választod, a videód vázlata.
 
 *(Ezen a lépésen nincs beírnivaló, csak Input.)*
 
@@ -280,7 +280,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 **Kis jelzés:**
 
 > Nem fogalmazásverseny, nem portfólió – ez **a te íved magadnak**.
-> A közös, élő lezárás a kvucával a **Z.A záró peulán** volt; ez az ív arra **épít**, nem váltja ki.
+> A közös, élő lezárás a kvucával a **Z.A záró peula**; ez az ív arra **épít**, nem váltja ki.
 
 ***
 
@@ -300,14 +300,14 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Ez **ugyanaz az Assignment**, amelynek szövegsablonját a 3. szakasz írja le – itt a fejlesztői beállításai és a tanulónak megjelenő leírás szerepel. Nincs második, külön beadandó.
 
 **Név:** `Záró reflexió + következő lépés`
-**Típus:** Assignment (Online text – alapértelmezés; File submission – opcionális videós út)
+**Típus:** Assignment (Online text – alapértelmezés; File submission – opcionális videós út, alapból kikapcsolva, lásd a Beállítás-javaslatokat: ADV-14, LMS-1)
 
 ### Leírás (tanulónak szóló szöveg)
 
-*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet: a HUM-PRIV-01 projektgazdai döntése szerint a beadást csak a kijelölt mentor/értékelő látja, a videós útnál pedig a célt, a jogalapot, a hozzáférést, a megőrzést és a törlést is rögzíteni kell (HUM-PRIV-02); a videó jogalapja külön, önkéntes hozzájárulás (18 év alatt a résztvevő és a gondviselője együtt adja meg, 18 év felett a résztvevő), megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás. A beadandó szövegének megőrzésére a mátrix „Szabad szöveges reflexió” sora vonatkozik. A megőrzési időket az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02); az adatot gyűjtő aktivitás csak az ezeket közlő tájékoztatóval nyitható meg valódi madrihnak.)*
+*(Fejlesztői feltétel, nem tanulói szöveg: a leírás elejére, a feladat elé a Program terv 4. szakasza szerinti „just-in-time” adatkezelési tájékoztató kerül – mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja. A tartalma csak a HUM-PRIV-01 – a videós útnál a HUM-PRIV-02 – szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet: a HUM-PRIV-01 projektgazdai döntése szerint a beadást csak a kijelölt mentor/értékelő látja (a technikai adminisztrátor hozzáférését a tájékoztató nem tagadja, és a „ki látja” szövegét a staging role-matrix után a tényleges szerepbeállításhoz kell igazítani: ADV-1), a videós útnál pedig a célt, a jogalapot, a hozzáférést, a megőrzést és a törlést is rögzíteni kell (HUM-PRIV-02); a videó jogalapja külön, önkéntes hozzájárulás (18 év alatt a résztvevő és a gondviselője együtt adja meg, 18 év felett a résztvevő), megőrzése a cél teljesüléséig, legfeljebb 90 nap, hacsak nincs külön archiválási hozzájárulás. A beadandó szövegének megőrzésére a mátrix „Szabad szöveges reflexió” sora vonatkozik. A megőrzési időket az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02); az adatot gyűjtő aktivitás csak az ezeket közlő tájékoztatóval nyitható meg valódi madrihnak.)*
 
 > **Feladatod:**
-> Töltsd ki és add be a **háromrészes záró reflexiós ívet**. Ha inkább beszélnél, helyette felvehetsz belőle egy **2–3 perces videót**, és azt adhatod be – ez választható lehetőség, nem kötelező. A videóhoz külön, önkéntes hozzájárulás kell: ha még nem vagy 18 éves, ezt a gondviselőddel együtt adjátok meg.
+> Töltsd ki és add be a **háromrészes záró reflexiós ívet**. Ha a kurzusban a videós beadás be van kapcsolva, és inkább beszélnél, helyette felvehetsz belőle egy **2–3 perces videót**, és azt adhatod be – ez választható lehetőség, nem kötelező. A videóhoz külön, önkéntes hozzájárulás kell: ha még nem vagy 18 éves, ezt a gondviselőddel együtt adjátok meg.
 
 > Az ív már a Z.1–Z.3-ban átgondolt dolgokra és a 3 kérdésre épül – itt most **leadod**, és ha szeretnéd, a beadás előtt még csiszolsz rajta.
 
@@ -324,39 +324,39 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 > **Formátum:**
 > – *szöveg* (alapértelmezés): a kitöltött ív (kb. **1 oldalnyi**) közvetlenül az online szövegmezőben
-> – *videó* (választható): **2–3 perc**, beszélhetsz szabadon, a kitöltött ív mint vázlat alapján
+> – *videó* (választható, ha a kurzusban a videós beadás be van kapcsolva): **2–3 perc**, beszélhetsz szabadon, a kitöltött ív mint vázlat alapján
 
-> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Még nem teljesítve” visszajelzést kap, és ha „Még nem teljesítve”, azt is megtudod, mivel egészítsd ki. A beadásodat csak a kijelölt mentorod vagy értékelőd látja, aki a visszajelzést adja.
+> Nem fogalmazásverseny és nem jegy: a beadásod „Teljesítve” vagy „Még nem teljesítve” visszajelzést kap, és ha „Még nem teljesítve”, azt is megtudod, mivel egészítsd ki. A „Teljesítve”-hez tényleges, értelmezhető beadás kell; a 3 kérdés szerinti részletes szerkezet (például a legalább 3 pillanat) útmutató, nem bukási feltétel, és adatvédelmi szempontból érzékeny részt kihagyhatsz. A beadásodat csak a kijelölt mentorod vagy értékelőd látja, aki a visszajelzést adja; technikai okból a Moodle rendszergazdája is hozzáférhet.
 > A cél, hogy **magadnak is megfogalmazd**, mit viszel tovább. A képzésről szóló visszajelzésedet a külön, név nélküli képzési visszajelző űrlapba írd.
 
 ### Beállítás-javaslatok
 
 * **Submission type:**
   * Online text: **ON**
-  * File submissions: **ON**, max 1 file, max size 100–200 MB (opcionális videós út).
+  * File submissions: **OFF** – a videós út alapból ki van kapcsolva (projektgazdai döntés, 2026-10-12, ADV-14). Csak akkor kapcsolható be (ekkor: ON, max 1 file, max size 100–200 MB), ha van hozzájárulás- és jogosultsági folyamat, visszavonási/törlési út és feltöltés előtti ellenőrzés; a fő szöveges út teljesen egyenértékű. Bevezetéskor a fotóra vonatkozó szigorúbb szabályokat a videóra is alkalmazni kell, a kiskorú jogalapját jogász/DPO ellenőrzi, és a videó csak külön, DPO által engedélyezett profilon szerepelhet (LMS-1); a beállítást és az akadálymentességet a célverzión ellenőrizni kell.
 * **Require students to click the submit button:** Yes – így van külön piszkozat és beadás (a 6. lépés beadásgombja); beadás után a tanuló már nem szerkesztheti a szöveget.
 * **Próbálkozások:** 1 normál + 1 javító próbálkozás: a javító próbálkozás a „Még nem teljesítve” visszajelzés után automatikusan nyílik, további próbálkozást csak a képző nyithat, kézzel. A completionhöz a legjobb megerősített eredmény számít; egy már megszerzett „Teljesítve” nem romolhat vissza egy önkéntes újrabeadástól, a legfrissebb próbálkozás visszajelzésként megmaradhat. (A manifest ASSIGN-S profilja szerint a puha kapus beadásoknál – így az LMS-Z-04-nél is – 1 normál + 1 javító beadás nyílik automatikusan, további beadást a képző nyit kézzel; az újranyitást az `LMS – H5P runtime acceptance.md` 3. pontja teszteli.) A pontos Moodle-beállításokat és feliratokat a célverzión vissza kell olvasni.
-* **Due date:** a Z completion határideje 18:00, a központi naptár szerinti napon (`LMS – activity manifest.md` §7; a dátum `SCHEDULE_TO_RESYNC`); az eredmény megerősítése: a következő napon.
+* **Due date:** a Z completion határideje 18:00, a központi naptár szerinti napon (`LMS – activity manifest.md` §7; a dátum `SCHEDULE_TO_RESYNC`); az eredmény megerősítése: a következő napon. „Még nem teljesítve” után a javító beadás időpontját a kijelölt mentor jelöli ki, és a Z teljesítése bevárja az eredményt (projektgazdai döntés, 2026-10-12, PRG-6); konkrét dátum csak a tényleges központi naptárból kerülhet ide.
 * **Grading type:**
   * „Pont nélküli skála”, pontosan két elemmel, ebben a sorrendben: 1. „Még nem teljesítve”, 2. „Teljesítve” (`LMS – activity manifest.md` §1, GATE-CP)
 * **Completion rule:**
-  * Két külön állapot, nem vonható össze (BSPEC-07; `LMS – activity manifest.md`, LMS-Z-04 és LMS-Z-08): **SUBMITTED** – a reflexió leadva (`completionsubmit`), ez az Assignment saját completionje; **CONFIRMED** – a kijelölt mentor/értékelő az LMS-Z-08-ba „Teljesítve” értéket ír, ha a beadás előírt részeiben (a három szakaszban; a videós útnál a videóban mindhárom kérdésre kitérve) **tényleges, minimálisan értelmezhető tartalom** van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég), egyébként „Még nem teljesítve” értéket. A Z teljesítéséhez a leadás és az LMS-Z-08 = „Teljesítve” együtt kell (`LMS – activity manifest.md` §4); az LMS-Z-08 completion-állapotát a stáb kézzel nem írja felül (§1, GATE-CP).
+  * Két külön állapot, nem vonható össze (BSPEC-07; `LMS – activity manifest.md`, LMS-Z-04 és LMS-Z-08): **SUBMITTED** – a reflexió leadva (`completionsubmit`), ez az Assignment saját completionje; **CONFIRMED** – a kijelölt mentor/értékelő az LMS-Z-08-ba „Teljesítve” értéket ír, ha a beadás előírt részeiben (a három szakaszban; a videós útnál a videóban mindhárom kérdésre kitérve) **tényleges, minimálisan értelmezhető tartalom** van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég; az adatvédelmi szempontból érzékeny részek passzolhatók, ERT-38), egyébként „Még nem teljesítve” értéket. A Z teljesítéséhez a leadás és az LMS-Z-08 = „Teljesítve” együtt kell (`LMS – activity manifest.md` §4); az LMS-Z-08 completion-állapotát a stáb kézzel nem írja felül (§1, GATE-CP).
 
-### Minimum elvárás a „Teljesítve”-hez
+### A „Teljesítve” mércéje és az ideális szerkezet
 
-Az értékelés nem pontozás, hanem egyszerű ellenőrzés, de ezeket érdemes szem előtt tartani:
+Az értékelés nem pontozás, hanem egyszerű ellenőrzés. A „Teljesítve”-hez tényleges, minimálisan értelmezhető beadás kell (lásd a Completion rule-t); az alábbi háromrészes szerkezet formatív útmutató, nem rejtett bukási küszöb: ha egy eleme hiányzik, de a beadás értelmezhető, akkor is „Teljesítve” jár, és a visszajelzés megnevezi, mivel lehetne teljesebb. Az adatvédelmi szempontból érzékeny részek passzolhatók; ezt a tanuló a feladatleírásból előre tudja (projektgazdai döntés, 2026-10-12, ERT-38). Ezeket érdemes szem előtt tartani:
 
 * Van benne **legalább 3 konkrét tanulási pillanat**, és mindegyiknél az, hogy miért fontos.
 * Van benne **2–3 mondat arról**, hogyan változott a madrih-szemlélet.
 * Van benne **1–2 következő lépés**, közülük legalább egy **konkrét és határidős**, és meg van nevezve, kinek mondja el.
 
-Ha nagyon hiányos / alibi:
+Ha a beadásban nincs tényleges, minimálisan értelmezhető tartalom (üres vagy kitöltetlen sablon, puszta fájlfeltöltés):
 
 * **„Még nem teljesítve”** státusz + rövid visszajelzés a Megfigyelés → Hatás → Következő lépés modell szerint, hogy mivel egészítse ki.
 
 Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 
-* nem kezeljük egyszerű tanulói beadandóként. Gyermekvédelmi feltárásnál az ötlépéses jelzési út lép életbe (`Gyermekvédelem – release gate.md` 4.1. pont): az értékelő azonnal bevonja a Memunát, az ügy dokumentációja pedig nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01). A különleges adatot a HUM-PRIV-01 szerint kezeljük (`LMS – activity manifest.md` 1. szakasz; `Adatvédelem – tanulói adatok és AI.md` 5. szakasz).
+* nem kezeljük egyszerű tanulói beadandóként. Gyermekvédelmi feltárásnál az ötlépéses jelzési út lép életbe (`Gyermekvédelem – release gate.md` 4.1. pont): az értékelő azonnal bevonja a Memunát, az ügy dokumentációja pedig nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01). A különleges adatot a HUM-PRIV-01 szerint kezeljük (`LMS – activity manifest.md` 1. szakasz; `Adatvédelem – tanulói adatok és AI.md` 5. szakasz). A beadás nem az incidens elsődleges nyilvántartása; kezeléséhez dokumentált, jogosult Memuna-eljárás, szükség szerinti korlátozás vagy helyesbítés és adatvédelmileg jóváhagyott törlési és megőrzési rend kell, és jogi megőrzési felülvizsgálat nélkül automatikusan nem töröljük. A tanuló biztonságos, feltárásmentes pótlási utat kap (feltárásmentes változatot adhat be; ha kell, a képző kézzel nyit hozzá próbálkozást), és a „Teljesítve” értékelés nem függ a feltárástól (projektgazdai döntés, 2026-10-12, GYV-11).
 
 ***
 
@@ -367,11 +367,11 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 
 **Leírás az űrlap elején (tanulónak):**
 
-> A válaszok név nélkül jelennek meg a feldolgozásban. Ha veszélyről van szó, azt ne csak ebbe az űrlapba írd: azonnal vond be a Memunát.
+> A válaszok név nélkül jelennek meg a feldolgozásban. Ha veszélyről van szó, azt ne csak ebbe az űrlapba írd: azonnal vond be a Memunát. Csak az 1. kérdésre kötelező válaszolni, a többit kihagyhatod.
 
 ### Javasolt kérdésstruktúra (rövid, hogy tényleg kitöltsék)
 
-1. **Általános elégedettség** – Likert (1–5)
+1. **Általános elégedettség** – Likert (1–5); **Required**: ez az egyetlen kötelező kérdés (nem érzékeny, értelmezhető válasz; ERT-3)
    > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrihként fejlődj?”
 2. **A 3 belépő-ígéret beváltása** – 3 külön Multiple choice kérdés (Igen / Részben / Nem), vagy 3 külön Multiple choice (Rated) kérdés 1–5-ös skálával (a Feedbackben nincs rács-kérdéstípus)
    > „Az **M0.1 leckében a program 3 ígéretet** adott neked. *(Most NEM a saját mondataidról van szó, amiket a reflexiós íven elővettél, hanem a képzéstől kapott 3 ígéretről; arra reflektálsz, beváltak-e.)* Mennyire érezted, hogy ezek **beváltak**?”
@@ -395,9 +395,10 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 
 * **`Record user names`:** `Anonymous`
 * **Amit ez a beállítás ad – és amit nem:** a válaszok az értékelést olvasók számára **név nélkül jelennek meg**. A hivatalos Moodle-dokumentáció ugyanakkor kimondja: „anonymous feedback is not anonymous in the sense that GDPR describes it” (docs.moodle.org, Feedback settings – a mondat az oldal site-szintű „Allow full anonymous” szakaszában áll). A kurzusszintű beállításra a Feedback FAQ (docs.moodle.org) a közvetlen forrás: „Anonymous” módban is „the username of the user who took the Feedback is still recorded in the database”, és bekapcsolt completion mellett „the activity will still be marked as complete”. Ezért aktivitásszinten sem ígérünk GDPR-értelemben vett anonimitást. A tanulónak ezért **„név nélkül megjelenő”** visszajelzést ígérünk.
-* **`Show analysis page` és `Enable notification of submissions`:** az értéküket a HUM-PRIV-03 gazdája (adatvédelmi/DPO felelős + programvezető) rögzíti.
+* **`Show analysis page`:** No. **`Enable notification of submissions`:** No (projektgazdai döntés, 2026-10-12, ADV-15; utólagos ellenőrzés (vétó/QA): a DPO és a programvezető, HUM-PRIV-03). A résztvevő ne lássa a kis kohorsz válaszmintáját, és automatikus e-mailben ne terjesszünk válaszokat. Az anonim mód és az adminisztratív back-end hozzáférés tényleges működését külön kell vizsgálni (`LMS – H5P runtime acceptance.md` 16. pont).
 * **`Allow multiple submissions`:** No (a manifest FEEDBACK-N profilja szerint egyszer tölthető ki)
-* **Megőrzés:** a nyers válaszok 90 napig maradnak meg, utána csak összesítve (`Adatvédelem – tanulói adatok és AI.md` 3. szakasz; projektgazdai döntés, 2026-10-02).
+* **Kötelező kérdés (Required):** csak az 1. kérdés. A többi kérdés – köztük a személyes szöveges kérdések – kihagyható, a teljesítés nem függ tőlük (projektgazdai döntés, 2026-10-12, ERT-3). A „kiürítés” valós működését stagingben tesztelni kell (`LMS – H5P runtime acceptance.md` 16. pont).
+* **Megőrzés:** a nyers válaszok 90 napig maradnak meg, utána csak összesítve (`Adatvédelem – tanulói adatok és AI.md` 3. szakasz; projektgazdai döntés, 2026-10-02). Ha egy válasz gyermekvédelmi feltárást tartalmaz, a válaszokat feldolgozó azonnal bevonja a Memunát (az ötlépéses jelzési út szerint), az ügy dokumentációja nem a Moodle-ben, hanem a hozzáférés-korlátozott incidensnyilvántartásban készül (HUM-SAFE-01), és ezt a választ jogi megőrzési felülvizsgálat nélkül automatikusan nem töröljük; a korlátozáshoz, a helyesbítéshez és a törlési vagy megőrzési döntéshez dokumentált, jogosult Memuna-eljárás és adatvédelmileg jóváhagyott rend kell (projektgazdai döntés, 2026-10-12, GYV-11).
 * **Feloldás:** a Z.A után (manifest LMS-Z-05)
 * **Anonimitás (HUM-PRIV-03):** **Projektgazdai döntés (2026-10-02)** – utólagos ellenőrzés (vétó/QA): a DPO és a programvezető. A visszajelzés maradhat kötelező, de nem nevezhető anonimnak; a tanulói mondat: „A válaszok név nélkül jelennek meg a feldolgozásban.” Valódi anonimitáshoz a visszajelzést le kellene választani a fiókhoz kötött completionről: ha a szervezetnek technikai értelemben is anonim visszajelzés kell, azt külön eszköz-/konfigurációdöntés adja meg (lásd `Emberi jóváhagyás szükséges.md` 2. szakasz, HUM-PRIV-03, és `Adatvédelem – tanulói adatok és AI.md` 8. szakasz). Ilyen döntés nélkül a tanulói szöveg nem ígérhet „teljesen anonim”-at.
 * **Activity completion:** mark as complete when submitted. *(A completion személyhez kötött: azt, hogy ki töltötte ki, a kurzus rögzíti – a válasz tartalma jelenik meg név nélkül.)*
