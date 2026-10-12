@@ -4597,7 +4597,7 @@
       "mode": "generate",
       "status": "spec-ready",
       "title": "Online-felület ikonkészlet (chat / insta / messenger / Moodle-komment)",
-      "purpose": "Vizuális konzisztencia a slide-okon át; az online terek gyors felismerhetősége a felsorolásokban és a Multi Choice opcióknál (SLIDE 1).",
+      "purpose": "Vizuális konzisztencia a slide-okon át; az online terek gyors felismerhetősége a felsorolásokban és a Multiple Choice opcióknál (SLIDE 1).",
       "spec": "Egységes, lapos ikonkészlet a visszatérő online terekhez: csoportchat (Messenger/WhatsApp/Discord jellegű buborék), insta-sztori/DM, online játék / voice chat, Moodle/tanulási platform komment. Min. 4-5 ikon egy stíluscsaládban.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
@@ -4638,7 +4638,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "e2327f6a5f07cf6e48f5fe41719c12d8ecced3f31612d3124ac9c3a3229594ec",
+      "spec_hash": "e43b5053fc795d06492c3705a03f35a23b2fe216377fcbb116c075983bbebb4f",
       "deliverable_ids": [
         "M0.4-IKO-01",
         "M0.4-IKO-01::ALTTEXT"
