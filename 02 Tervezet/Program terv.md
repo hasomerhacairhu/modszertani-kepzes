@@ -180,7 +180,7 @@ Az M5 modul segít a madrihnak **„belenézni” a peulák belsejébe**: mitől
 
 * **Online:** M5.1–M5.4 – tanulási formák; feladat→cél→kvuca→módszer döntési fa; tanulástan-kapszula; saját táblázat összeállítása.
 * **Offline:** M5.A – peulák elemzése: „Ez most játék, suli, Somer?”; M5.B – saját ötletek cél–kvuca–módszer bontásban.
-* **Produktum & kapu:** 3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázat; **éles kapu az M5.4 produktum-rubrika** (minden sor ≥ „Alapszint”, R4 tanulástan-elem kritikus); a **fogalomkvíz formatív/diagnosztikus** (≥80% jelzőküszöb, nem kizáró – lásd §5 és [M5 – KAPU]).
+* **Produktum & kapu:** 3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázat; **éles kapu az M5.4 produktum-rubrika** (minden rubrikasor ≥ „Alapszint” a teljes táblázat alapján, R4 tanulástan-elem kritikus); a **fogalomkvíz formatív/diagnosztikus** (≥80% jelzőküszöb, nem kizáró – lásd §5 és [M5 – KAPU]).
 
 ***
 

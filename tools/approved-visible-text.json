@@ -21,8 +21,8 @@
       "sha256": "cdbac6709d3add984af617a507fe4e5268d6e821b9814288d36589e20e38e9a4"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
-      "sha256": "54faab99323171e9df7745a8f90231686784be8a026847953d2d6e0e41e601fb"
+      "reason": "ERT-26, M5:QA-ERT-2: a Program terv M5 kapusora és a manifest LMS-M5-05/LMS-M5-08 küszöbcellája a rubrikasort nevezi meg (a teljes táblázat alapján), a hub és a kapu szóhasználatával egyezően",
+      "sha256": "68649f09d496109fe26dee1ca1df40195dfeb177bbea95fd1d073326b22d8797"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
@@ -325,8 +325,8 @@
       "sha256": "d970ea9423845cce88a4a6bb5e3a071ff67ab4ff4d4e5b5b0f5e07738e5b78cf"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
-      "sha256": "7f844ed2e970446c6ab29371f9b8452341189caa88cba6a50f7de2bf43225d11"
+      "reason": "ERT-26, M5:QA-ERT-2: a Program terv M5 kapusora és a manifest LMS-M5-05/LMS-M5-08 küszöbcellája a rubrikasort nevezi meg (a teljes táblázat alapján), a hub és a kapu szóhasználatával egyezően",
+      "sha256": "cbdc044716512c38c651ab112125eea56ef668f6d2bd1f7ba7baac18b7796214"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "FREEZE-A utójavítás (FA-BIZT-2, FA-BIZT-3, FA-IMPL-2…5, FA-NYELV-1…5): a célzott újraellenőrzés szerinti hűség-, megkülönböztető-horgony- és nyelvi javítások ugyanabban a változtatáskészletben",
