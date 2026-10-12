@@ -570,7 +570,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M4.4-DIA-03` | diagram | legyártandó | specifikáció kész | Slide 3 sablon-vizuál: 5 kérdéses peulabemutató-sablon | — | alt-szöveg | AI-generált |
 | `M4.4-DIA-05` | diagram | legyártandó | specifikáció kész | Slide 5 összefoglaló | — | alt-szöveg | AI-generált |
 | `M4.4-ILL-01` | illustration | legyártandó | specifikáció kész | Hook-jelenet: madrih a kvuca előtt, 45 mp nyomás | — | alt-szöveg | AI-generált |
-| `M4.4-MUNK-01` | worksheet | legyártandó | specifikáció kész | Letölthető „Peulabemutató-vázlat” kitölthető sablon (doc) | — | nyomtatható PDF | emberi |
+| `M4.4-MUNK-01` | worksheet | legyártandó | specifikáció kész | Letölthető „Peulabemutató-vázlat” kitölthető sablon (.docx) | — | nyomtatható PDF | emberi |
 | `M4.4-NAR-01` | voiceover/narration | legyártandó | jogtisztázás alatt | Slide 1 narráció – „45 mp-ed van… Mit mondasz?" | `M4.4-NAR-01-VO` | felirat, leirat | AI-generált |
 | `M4.4-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | Slide 2 narráció – „Mi az a rövid peulabemutató?" | `M4.4-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M4.4-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | Slide 3 narráció – Az 5 kérdéses peulabemutató-sablon | `M4.4-NAR-03-VO` | felirat, leirat | AI-generált |

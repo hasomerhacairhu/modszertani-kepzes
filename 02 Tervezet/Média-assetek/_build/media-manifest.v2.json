@@ -19747,13 +19747,13 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Letölthető „Peulabemutató-vázlat” kitölthető sablon (doc)",
-      "purpose": "Az M4.4 peulabemutató-vázlat (LMS-M4-05) fájlalapú leadási útja: a „Beadás módja” szerinti „1 oldalas doc / pdf, a letölthető sablon alapján”. Az online szöveges leadással egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
-      "spec": "1 oldalas kitölthető sablon doc formátumban, kizárólag az Assignment „Leírás (tanulónak)” 5 kérdéses szerkezetével, szó szerint: „1. Kihez beszélsz? (kvuca / korosztály, 1 mondat)”, „2. Miről szól a peula? (1 mondat)”, „3. Miért fontos ez nekik? (1–2 mondat)”, „4. Mit fogtok csinálni? (1 mondat)”, „5. Mit szeretnél, hogy hazavigyenek? (1 mondat)”, mindegyik után kitöltési hellyel; a sablon elején szó szerint a leírás 🔒 „Biztonságos megosztás” bekezdése. Új mező, minta vagy útmutató szöveg nem kerül bele.",
+      "title": "Letölthető „Peulabemutató-vázlat” kitölthető sablon (.docx)",
+      "purpose": "Az M4.4 peulabemutató-vázlat (LMS-M4-05) fájlalapú leadási útja: a „Beadás módja” szerinti „legfeljebb 1 fájl (1 oldalas .docx vagy .pdf), a letölthető sablon alapján”. Az online szöveges leadással egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
+      "spec": "1 oldalas kitölthető sablon .docx formátumban, kizárólag az Assignment „Leírás (tanulónak)” 5 kérdéses szerkezetével, szó szerint: „1. Kihez beszélsz? (kvuca / korosztály, 1 mondat)”, „2. Miről szól a peula? (1 mondat)”, „3. Miért fontos ez nekik? (1–2 mondat)”, „4. Mit fogtok csinálni? (1 mondat)”, „5. Mit szeretnél, hogy hazavigyenek? (1 mondat)”, mindegyik után kitöltési hellyel; a sablon elején szó szerint a leírás 🔒 „Biztonságos megosztás” bekezdése. Új mező, minta vagy útmutató szöveg nem kerül bele.",
       "provenance": "human",
       "provenance_note": "",
       "technical": {
-        "note": "Szerkeszthető dokumentum: .docx (Google Doc változat csak szervezeti fiókban, korlátozott megosztással, adatfeldolgozói és hozzáférési felülvizsgálat után); A4, 1 oldal, nyomtatható; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
+        "note": "Szerkeszthető dokumentum: .docx (Google Doc-változat csak szervezeti fiókban, korlátozott megosztással, adatfeldolgozói és hozzáférési felülvizsgálat után); A4, 1 oldal, nyomtatható; magyar nyelv. Moodle-ben az Assignment „Additional files” mezőjébe kerül."
       },
       "a11y": {
         "note": "Valódi szöveges dokumentum (nem kép), címsorokkal és megjelölt kitöltési helyekkel, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva."
@@ -19785,7 +19785,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "a4a8129dbd80d141319972fda2e992a8856edc6d06101a2f125398dcf1b2bae7",
+      "spec_hash": "d29415f39aade2abee5aa989f25ff88ac29ae461d71b40a87785843dee5abcab",
       "deliverable_ids": [
         "M4.4-MUNK-01",
         "M4.4-MUNK-01::PRINTPDF"
@@ -26902,7 +26902,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Név nélkül begyűjthető (4.2 Blokk 2 vége) a kérdésgyűjtéshez (4.3 Blokk 3, 2. lépés). A sorok megegyeznek a POSZ-01 leckesoraival és a POSZ-02 buborékjaival.",
+      "notes": "Elsősorban a résztvevőknél marad; ha a képző a 4.2 Blokk 2 végén mégis begyűjti, a kérdésgyűjtéshez (4.3 Blokk 3, 2. lépés) használható, de kis csoportban nem anonim. A sorok megegyeznek a POSZ-01 leckesoraival és a POSZ-02 buborékjaival.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -27055,7 +27055,7 @@
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista – 1 A4 (peula előtt/közben/után)",
       "purpose": "A képzőnek nyomtatott, egyoldalas önellenőrző segédlet, ami biztosítja a felzárkóztató keret, az eszközök, a tér, a safety és az időkeret/híd konzisztens betartását.",
-      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (F-peula: facilitált javítási alkalom, nem számonkérés; kötelező annak, akinek az M6 éles kapuja nem teljesült; cél: a nem teljesült rubrikasorok javítása a kapun kapott visszajelzés alapján + a hiányzó leckék pótlása + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P, a közös eszközön saját fiókkal belépés jelszómentés és személyes munkapéldány nélkül, kijelentkezés, munkamenet-ellenőrzés és a letöltések törlése, alternatívaként papír vagy saját eszköz, az M6.1 és az M6.2 offline letölthető leckeváltozata, eszköz+füles+tartalék, témakérő post-it/cetlik, tájékozódó tábla (POSZ-01), filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugodt, de átlátható pont egyéni beszélgetéshez – kettesben csak indokolt esetben és egy másik felelős tudtával); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótlás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (a javított játéklap javító leadása a Moodle-ben).",
+      "spec": "Egyoldalas képzői ellenőrzőlista hat blokkban, gyorsan átfutható pipálható pontokkal: 1) Meta tiszta (F-peula: facilitált javítási alkalom, nem számonkérés; kötelező annak, akinek az M6 éles kapuja nem teljesült; cél: a nem teljesült rubrikasorok javítása a kapun kapott visszajelzés alapján + a hiányzó leckék pótlása + fogalom-összekötés); 2) Eszközök rendben (wifi/Moodle/H5P; közös eszköz: belépés saját fiókkal, jelszót nem ment, személyes munkapéldányt nem hoz létre, kijelentkezés, munkamenet-ellenőrzés, a letöltések törlése, helyette papír vagy saját eszköz is választható; az M6.1 és az M6.2 offline letölthető leckeváltozata, eszköz+füles+tartalék, témakérő post-it/cetlik, tájékozódó tábla (POSZ-01), filcek, jegyzetlapok, fogalom-térkép tábla); 3) Tér működik (csendes online munka, nagykör, nyugodt, de átlátható pont egyéni beszélgetéshez – kettesben csak indokolt esetben és egy másik felelős tudtával); 4) Biztonsági keret a fejemben (keretmondatok); 5) Időkeret reális (20’ csendes pótlás szent idő, fogalom-térkép rövidíthető, záró mondatbefejezés nem marad el); 6) Híd kimondása (a javított játéklap javító leadása a Moodle-ben).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -27092,7 +27092,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "443af9aae54246a076ae855f3d31591eb19fd080d5b4f636fefcc805eb5a0b58",
+      "spec_hash": "6ac5224372197410423ba3a1668f980f6dc1cbace2f65cea901fbc3e43b5366a",
       "deliverable_ids": [
         "M6.F-MUNK-04",
         "M6.F-MUNK-04::PRINTPDF"
@@ -43319,7 +43319,7 @@
       "module": "M4",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Letölthető „Peulabemutató-vázlat” kitölthető sablon (doc)",
+      "title": "Letölthető „Peulabemutató-vázlat” kitölthető sablon (.docx)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -43340,7 +43340,7 @@
       "module": "M4",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md",
       "file_kind": "online-lecke",
-      "title": "Letölthető „Peulabemutató-vázlat” kitölthető sablon (doc) — nyomtatható PDF",
+      "title": "Letölthető „Peulabemutató-vázlat” kitölthető sablon (.docx) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
