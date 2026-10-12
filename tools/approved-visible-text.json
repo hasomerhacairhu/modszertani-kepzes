@@ -89,8 +89,8 @@
       "sha256": "aff50d3591fb4c8bd2d7fb4adc2ae56f1a72c7c9eaa6a4123a08bc7f831c26ee"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "5d6c397c2b99a8561a2fde1bf3c3ea15b0d14906200e5ea727256af97847ab9e"
+      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
+      "sha256": "3deefabcf12bc359be696b22ddad8a1c3719979e4cbb7faf46f561313b0a21c5"
     },
     "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
@@ -105,24 +105,24 @@
       "sha256": "2ed5ebad534cbf4b359664c4d5722b8f6bcc30db74b151f323f242980368f01a"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "75a3670743c249b6b16d3dd607053ad28d4ab0d10e04ad27b5f8e660e4534304"
+      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
+      "sha256": "aa45c725020eb6224e61ed03067f3eb0679f2fa79954a6a0fa324527a7e6d896"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "8eea76850cb73f69b81555efaa4c95447714224f0db8938c3c7a22b6a0a5528b"
+      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
+      "sha256": "add29ac91321c1fa63bb92ee162ee887b5e27a9772d9223d3649613cb259d7cc"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "9dc4220ced293793bf7cfabd4f3a194c8387bd74d8a09502621e7d75fd88591a"
+      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
+      "sha256": "81a8777e44618be9178a69ef1364e9320cdad0ff5d434804c884366605cb8bd8"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "513ea84bcb9426fb224cec462fbf117957d80027035a5dfacbe8acb78224a868"
+      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
+      "sha256": "1162faf4fa5cc64b5eebd666fcdec4ff187d90df2132b0bc97e952219298aea0"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "7244525801e82b0b42d14b9afbb3b7ca190499285d15317afb5f3620be6b2ba7"
+      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
+      "sha256": "b8d1c90ec8245e6d007b93073361dca334fbc71a0f26f5d8ebee29007a6c335a"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
