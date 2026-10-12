@@ -29991,7 +29991,7 @@
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista (1 A4 – gyors átfutásra)",
       "purpose": "A képző gyors önellenőrzése a peula előtt/alatt; minden kritikus elem egy lapon.",
-      "spec": "Egyoldalas (A4) nyomtatható képzői felkészülési checklist 5 blokkal (forrás: 5. Képzői ellenőrző lista): 1) Meta tiszta? (3 fő cél + kapcsolódás M7.3/M7.4-hez + a 2. hét helye az ívben), 2) Eszközök előkészítve? (v1 vázlat, mini-checklist, tábla, papír/toll; az opcionális AI-ághoz a kurzus AI-segédje, amelyhez a promptot a képző küldi el – a Somer szervere közvetíti, szervezeti hozzáféréssel; saját AI-fiók nem kell –, az AI nélküli úthoz nyomtatott promptkártya / saját ötletelési alternatíva), 3) Biztonsági keret a fejemben? (hanih-sztori-mondat, gyermekvédelem→Memuna, kit szólítok), 4) Időkeret (csúszás esetén rövidítések), 5) Híd (záró üzenet a v2-höz). Pipálható lista formátum.",
+      "spec": "Egyoldalas (A4) nyomtatható képzői felkészülési checklist 5 blokkal (forrás: 5. Képzői ellenőrző lista): 1) Meta tiszta? (3 fő cél + kapcsolódás M7.3/M7.4-hez + a 2. hét helye az ívben), 2) Eszközök előkészítve? (v1 vázlat, mini-checklist, tábla, papír/toll; az opcionális AI-ághoz a kurzus AI-segédje, amelyhez a promptot a képző küldi el – a Somer szervere közvetíti, szervezeti hozzáféréssel; saját AI-fiók nem kell –, az AI nélküli úthoz nyomtatott promptkártya / saját ötletelési alternatíva), 3) Biztonsági keret a fejemben? (hanih-sztori-mondat, gyermekvédelem→Memuna, kit szólítok; saját érintettségnél nincs nyilvános feldolgozás, biztonságos támogatási út; felkavart kiskorút nem küldünk ki egyedül – kijelölt biztonságos hely és egy felnőtt), 4) Időkeret (csúszás esetén rövidítések), 5) Híd (záró üzenet a v2-höz). Pipálható lista formátum.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -30027,7 +30027,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "836de897d128ec7a39d8a87fb01c161d3eddda5a88f52ace89dd5016799d3a50",
+      "spec_hash": "db71934f89ef4fe2e756b30e7565c81aca4ddc91eca02d01281d17a301a75b33",
       "deliverable_ids": [
         "M7.B-MUNK-06",
         "M7.B-MUNK-06::PRINTPDF"
@@ -30233,7 +30233,7 @@
       "status": "spec-ready",
       "title": "Képzői ellenőrző lista (1 A4) – peula előtt/közben/után",
       "purpose": "Gyors, nyomtatható segédlet a képzőnek a peula konzisztens, biztonságtudatos levezetéséhez.",
-      "spec": "Egyoldalas, A4-es nyomtatható képzői ellenőrző lista a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (F-peula: kötelező javítási alkalom annak, akinek az M7 éles kapuja nem teljesült, nem büntetés; cél: a kapun kapott visszajelzés alapján haladás a nem teljesült rész javításában + a hozzá tartozó M7.1–M7.4 leckerészek újranézése / pótlása + 4 fogalom összekapcsolása, a javító próbálkozás előkészítéseként); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1–2 tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalomtérkép-flipchart; a közös eszközön mindenki a saját fiókjával dolgozik, jelszót nem ment, személyes munkapéldányt nem hoz létre rajta, a munka végén kijelentkezik és törli a letöltéseit, hogy a szabad szöveges válaszait más ne lássa; papír vagy saját eszköz is választható); (3) Tér működik? (csendes online munka; nagykör; nyugodt, de átlátható pont egyéni beszélgetéshez; kettesben zajló (1:1) beszélgetés csak indokolt esetben, átlátható módon és egy másik felelős tudtával); (4) Biztonsági keret a fejemben? (nem szégyenlista; frusztráció-reagálás; feltárásnál, zaklatás, önsértés vagy más veszélyeztetettség gyanújánál azonnal a Memuna, pusztán érzelmi érintettségnél támogató mentorálás, választási lehetőséggel; külső AI-ba nem kerülhet hanih beazonosítható vagy érzékeny adata); (5) Időkeret reális? (a 20 perces csendes pótlás szent idő; csúszáskor a fogalomtérképes rész rövidíthető, de a záró üzenet marad); (6) Híd kimondása? (a modulkapu javító próbálkozása: előbb a kvíz, utána a Peula v2 + checklist és operációs táblázat; határideje az M7 javító határideje, a Z utáni hét szerdája, 18:00 – ha a kvíz első próbálkozása nem teljesült, a Peula v2 határideje is ez; a peula után a képző megnyitja a javító próbálkozást annak, akinek a kapuja nem teljesült – kvíznél felhasználói felülbírálással, az Assignmentnél újabb próbálkozás engedélyezésével –, ha nem az F-peula jelenléti completionje nyitja meg).",
+      "spec": "Egyoldalas, A4-es nyomtatható képzői ellenőrző lista a felzárkóztató peula levezényléséhez, hat számozott blokkban átfutható ellenőrzőpont-listával: (1) Meta tiszta? (F-peula: kötelező javítási alkalom annak, akinek az M7 éles kapuja nem teljesült, nem büntetés; cél: a kapun kapott visszajelzés alapján haladás a nem teljesült rész javításában + a hozzá tartozó M7.1–M7.4 leckerészek újranézése / pótlása + 4 fogalom összekapcsolása, a javító próbálkozás előkészítéseként); (2) Eszközök rendben? (wifi/Moodle/H5P, eszköz+füles, 1–2 tartalék, témakérő post-it/cetlik, tábla, filcek, jegyzetlapok, fogalomtérkép-flipchart; a közös eszközön mindenki a saját fiókjával dolgozik, jelszót nem ment, személyes munkapéldányt nem hoz létre rajta, a munka végén kijelentkezik, ellenőrzi, hogy a munkamenet lezárult, és törli a letöltéseit, hogy a szabad szöveges válaszait más ne lássa; adatmentes alternatívaként papír vagy saját eszköz is választható); (3) Tér működik? (csendes online munka; nagykör; nyugodt, de átlátható pont egyéni beszélgetéshez; kettesben zajló (1:1) beszélgetés csak indokolt esetben, átlátható módon és egy másik felelős tudtával); (4) Biztonsági keret a fejemben? (nem szégyenlista; frusztráció-reagálás; feltárásnál, zaklatás, önsértés vagy más veszélyeztetettség gyanújánál azonnal a Memuna, pusztán érzelmi érintettségnél támogató mentorálás, választási lehetőséggel; külső AI-ba nem kerülhet hanih beazonosítható vagy érzékeny adata); (5) Időkeret reális? (a 20 perces csendes pótlás szent idő; csúszáskor a fogalomtérképes rész rövidíthető, de a záró üzenet marad); (6) Híd kimondása? (a modulkapu javító próbálkozása: előbb a kvíz, utána a Peula v2 + checklist és operációs táblázat; határideje az M7 javító határideje, a Z utáni hét szerdája, 18:00 – ha a kvíz első próbálkozása nem teljesült, a Peula v2 határideje is ez; a peula után a képző megnyitja a javító próbálkozást annak, akinek a kapuja nem teljesült – kvíznél felhasználói felülbírálással, az Assignmentnél újabb próbálkozás engedélyezésével –, ha nem az F-peula jelenléti completionje nyitja meg).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -30269,7 +30269,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4b92eb12c8b07edd181a8dc77b8127a67f0391be0f3f354598cae454ab97c808",
+      "spec_hash": "e5a67f635db8befc18ecc026037349b310434c901c3f35f7f87eac3c72e2dc3e",
       "deliverable_ids": [
         "M7.F-MUNK-02",
         "M7.F-MUNK-02::PRINTPDF"
