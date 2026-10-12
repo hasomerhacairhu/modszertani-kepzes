@@ -790,7 +790,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M6.A-MUNK-02` | worksheet | legyártandó | specifikáció kész | Képzői ellenőrző lista – „Játék-labor 3 aktuális kvucára” (1 oldalas gyorssegédlet) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-01` | poster | legyártandó | specifikáció kész | 3 kvuca-sarok korosztály-lapok (szett) | — | nyomtatható PDF | AI-generált |
 | `M6.A-POSZ-02` | poster | legyártandó | specifikáció kész | CÉL–KVUCA–RIZIKÓ–VARIÁCIÓ mátrix flipchart-sablon | — | nyomtatható PDF | AI-generált |
-| `M6.A-POSZ-03` | poster | legyártandó | specifikáció kész | Inkluzivitás-elemző tábla-sablon (4 oszlop) | — | nyomtatható PDF | AI-generált |
+| `M6.A-POSZ-03` | poster | legyártandó | specifikáció kész | Inkluzivitáselemző tábla-sablon (4 oszlop) | — | nyomtatható PDF | AI-generált |
 
 ### 02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md
 

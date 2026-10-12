@@ -3094,10 +3094,10 @@
       "id": "M6.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 339,
+      "line": 341,
       "body_lines": [
-        340,
-        352
+        342,
+        354
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3114,10 +3114,10 @@
       "id": "M6.1-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 470,
+      "line": 472,
       "body_lines": [
-        471,
-        495
+        473,
+        497
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3134,10 +3134,10 @@
       "id": "M6.1-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 647,
+      "line": 649,
       "body_lines": [
-        648,
-        667
+        650,
+        669
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3154,10 +3154,10 @@
       "id": "M6.1-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 853,
+      "line": 855,
       "body_lines": [
-        854,
-        873
+        856,
+        875
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3174,10 +3174,10 @@
       "id": "M6.1-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1078,
+      "line": 1080,
       "body_lines": [
-        1079,
-        1097
+        1081,
+        1099
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3194,10 +3194,10 @@
       "id": "M6.1-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1393,
+      "line": 1395,
       "body_lines": [
-        1394,
-        1404
+        1396,
+        1406
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -3214,10 +3214,10 @@
       "id": "M6.1-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 184,
+      "line": 186,
       "body_lines": [
-        185,
-        203
+        187,
+        205
       ],
       "unit": "M6.1",
       "module": "M6",
@@ -22932,7 +22932,7 @@
       "status": "spec-ready",
       "title": "Játéklap-sablon (üres, kitölthető) – M6 modul-produktum",
       "purpose": "Ez a modul központi, kapuzott produktuma (éles teljesítési kapu, §6.2). A sablon vezeti a madrihot, hogy minden kapuzott elem (cél, kvuca, leírás, R4 Biztonság blokkoló feltétel, R5 Inkluzivitás blokkoló feltétel, variációk) kötelezően kitöltött mezőként jelenjen meg; biztosítja, hogy a produktum egységes és társak és mentor által áttekinthető legyen, és továbbvihető az M7 félévzáró összegző feladatába.",
-      "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: Cím, (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres értékkapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám + hangulat, (4) Lépésről lépésre leírás + időkeret + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat. A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
+      "spec": "Egylapos, nyomtatható és digitálisan is kitölthető játéklap-sablon kötött rovatokkal: Cím, (1) Eszköz típusa (játék / történet / kézműves), (2) Cél + someres értékkapcsolódás, (3) Kvuca/korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17) + létszám + hangulat, (4) Lépésről lépésre leírás + időkeret + tér + szükséges eszközök, (5) Biztonsági megjegyzések (fizikai / beleegyezés / felkavaró tartalom / időkeret / felelősségek; mikor kell leállítani, és kit hív a madrih, ha valakinek sok), (6) Inkluzivitás: legalább 1 megnevezett akadály + 1 konkrét alternatív belépési pont, (7) Variációk („ha valakinek ez nehéz, akkor…”). A játéklapon a kvucáról ne szerepeljen azonosító adat, például név vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat. A rovatstruktúra 1:1 feleljen meg az M6 KAPU-rubrika R1–R5 sorainak, hogy a kapuzás közvetlenül a lapon legyen ellenőrizhető.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -22964,7 +22964,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1dacf9e94ff4595104943bf01e5aa6071bcf993daef5160b95041d2878e2a5b6",
+      "spec_hash": "708e714cd58c44a2008def2a55dcf90966134cd72e0949bd123b2565f41d8bce",
       "deliverable_ids": [],
       "legacy": {
         "asset": [
@@ -22978,7 +22978,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 232,
+      "line": 234,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -23106,11 +23106,11 @@
       "status": "spec-ready",
       "title": "Single Choice – önreflexió: „mi alapján döntesz?”",
       "purpose": "Bevonás, ráhangolás a tudatos döntésre játékválasztáskor.",
-      "spec": "H5P Multiple Choice egyválaszos („single”) módban: önreflexiós kérdés (nincs jó/rossz válasz) 4 opcióval, egységes (jó/rossz független) visszajelzés-szöveggel: „Köszi, hogy választottál…”. Egyik opció sem jelölhető hibásnak (pl. minden opció elfogadott válasz, megoldás-gomb nélkül); a beállítást az LMS – H5P runtime acceptance.md szerint tesztelni kell.",
+      "spec": "Önreflexiós kérdés (nincs jó/rossz válasz) 4 opcióval, egységes (jó/rossz független) visszajelzés-szöveggel: „Köszi, hogy választottál…”. Egyik opció sem jelölhető hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát; a megvalósítási típust az LMS – H5P runtime acceptance.md 14. pontja szerint kell kiválasztani és tesztelni.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "H5P Multiple Choice („single” mód), 4 opció, magyar, egységes visszajelzés"
+        "note": "Helyes válasz nélküli választós kérdés (runtime acceptance 14. pont), 4 opció, magyar, egységes visszajelzés"
       },
       "a11y": {
         "note": "Szövegként hozzáférhető (H5P natív)."
@@ -23138,7 +23138,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "1395ab6f2a02ef5db9b049d721e0d2af90388bf35ad87085776711d871deac9d",
+      "spec_hash": "992ceaa7450d52ac9403074b0301df3b60006067b79443970dd653f171dea2ee",
       "deliverable_ids": [
         "M6.1-EGY-02"
       ],
@@ -23154,7 +23154,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 502,
+      "line": 504,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23209,7 +23209,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 697,
+      "line": 699,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23264,7 +23264,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 723,
+      "line": 725,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23319,7 +23319,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 936,
+      "line": 938,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23374,7 +23374,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1130,
+      "line": 1132,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23429,7 +23429,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1156,
+      "line": 1158,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23484,7 +23484,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1251,
+      "line": 1253,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23539,7 +23539,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1277,
+      "line": 1279,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23594,7 +23594,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1303,
+      "line": 1305,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -23649,7 +23649,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 359,
+      "line": 361,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -23715,7 +23715,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 528,
+      "line": 530,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -23781,7 +23781,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 749,
+      "line": 751,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -23847,7 +23847,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 962,
+      "line": 964,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -23913,7 +23913,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 270,
+      "line": 272,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -23956,8 +23956,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        340,
-        352
+        342,
+        354
       ],
       "source_text": "„Ebben a modulban három aktuális kvuca-korosztállyal dolgozunk.\n\n**Parparimnál, 6–9 éveseknél** gyakran jó kiindulópont a rövid, világos instrukció, a mozgás és a konkrét példa – de figyeld, hogy a te kvucádnak mi működik.\n\n**Kivszánál, 10–12 éveseknél** a kortársak és a státusz kérdése sok csoportban fontosabbá válhat. Ez nem szabály: nézd meg a tényleges dinamikát.\n\n**Leviatánnál, 13–17 éveseknél** identitás, barátság és valahová tartozás sokaknál hangsúlyos téma lehet; az idősebbeknél több tér adható vitának, önálló döntésnek és reflexiónak. A magasabb életkor nem jelent automatikus érettséget vagy nagyobb terhelhetőséget.\n\nUgyanaz a játék mást jelent ezeknél a korosztályoknál.\nEzért fontos, hogy **ne csak játékban**,\nhanem **a játék és a kvuca párosában** gondolkodj.”",
       "source_hash": "3829694775a418417df5db63b3c1a0a472bc0d195bfc4ce92bbe534d4aaf6a45",
@@ -23986,7 +23986,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 397,
+      "line": 399,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24029,8 +24029,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        471,
-        495
+        473,
+        497
       ],
       "source_text": "„A ‘játék’ szó nagyon sok mindent takar.\n\nVannak **ismerkedős, névtanulós játékok**.\nEzeknél az a cél, hogy *mindenki sorra kerüljön*,\nbiztonságosan, kis tét mellett.\n\nVannak **energizer, mozgásos játékok**.\nEzek felrázzák a fáradt kvucát,\nlevezetik a feszültséget,\nadnak egy kis közös nevetést.\n\nA **bizalom- vagy kontaktjátékok** már több kockázatot hoznak.\nTestközelség, érintés,\n‘rábízom-e magam a többiekre’ élmény.\n\nA **reflexiós, beszélgetős játékok**\nkönnyebb kérdésekkel nyitnak témákat,\nsegítik, hogy a kvuca megossza, amit gondol.\n\nA **mélyebb élményjátékok**\nerős, emlékezetes helyzetet teremtenek,\nés utána komolyabb feldolgozást igényelnek.\nEzeket inkább nagyobbaknál, kis létszámú kvucával érdemes használni.”",
       "source_hash": "6a51801924a6f81164d2eec0fb277538b82adf932fb8481b7c25e1aaf270d751",
@@ -24059,7 +24059,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 565,
+      "line": 567,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24102,8 +24102,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        648,
-        667
+        650,
+        669
       ],
       "source_text": "„Kezdjük két ‘alap’ kategóriával.\n\nAz **ismerkedős, névtanulós játékok**\nakkor jók, amikor friss a kvuca,\nés még senki nem tudja pontosan, ki kicsoda.\n\nA ‘Névkör labdával’ egyszerű, átlátható,\nmindenki sorra kerül,\nés nincs nagy tétje annak, mit mond.\n\nAz **energizer játékok**\ninkább a pörgésről és a nevetésről szólnak.\nSegítenek, ha a kvuca fáradt, vagy túl feszült.\n\nEzek a játékok általában nagyon jól működnek\negy 6–9 éves Parparim-kvucánál, illetve többnyire megfelelőek egy 10–12 éves Kivsza-kvucának is.\nNagyobbaknál már érdemes csavart, humort vinni bele,\nhogy ne legyen ‘túl gyerekes’ érzésük.”",
       "source_hash": "27dee1dd36da1cedf8586ee456844d3521ae31c8f6ed37b62cbf97987e3732c6",
@@ -24132,7 +24132,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 786,
+      "line": 788,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24175,8 +24175,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        854,
-        873
+        856,
+        875
       ],
       "source_text": "„A **bizalom- és kontaktjátékok** már egy másik szint.\n\nA ‘Csukott szemű vezetés’-nél\nvalakinek szó szerint rá kell bíznia magát a társára.\nNem látja, merre megy.\nA másik felel a biztonságáért.\n\nEz nagyon erős élmény lehet.\nÉs közben nagy a **fizikai és érzelmi kockázat** is.\n\nIlyen játékoknál mindig nézd:\nhány évesek, mennyire ismerik egymást,\nmennyire tudják jelezni, ha **valami sok** nekik.\n\nIdősebb kvucáknál is csak akkor használd,\nha a konkrét csoport és a helyzet ezt indokolja.\nFiatalabbaknál pedig különösen egyszerű, rövid,\njól szabályozott változatban gondolkodj.”",
       "source_hash": "7c7fd142c05ea108e99ce2b21f97a2509688731b7db9b83bd8767ec723d36ca2",
@@ -24205,7 +24205,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 999,
+      "line": 1001,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24248,8 +24248,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1079,
-        1097
+        1081,
+        1099
       ],
       "source_text": "„A **reflexiós játékok**\nés a **mélyebb élményjátékok** között is van különbség.\n\nEgy beszélgetőkártyás játék\nkönnyebben emészthető.\nEgyszerű kérdések, rövid válaszok,\nmindenki maga dönti el, mennyire megy mélyre.\n\nA kirekesztésről is lehet komolyan gondolkodni,\nde ehhez nem kell senkit ténylegesen kirekeszteni.\nHasználj fiktív, nem beazonosítható esetet,\nés a kvucával kívülről nézzétek meg a szereplők döntéseit.\n\nIlyen érzékeny témánál fontos,\nhogy legyen rá idő, tér és utólagos megbeszélés,\nés hogy a kérdések illeszkedjenek a konkrét kvucához.\nNem az életkor önmagában dönti el, mi fér bele.”",
       "source_hash": "bc24a04420ed059d3133439a96395fffd86aeb8e08c6529a49d29c71e1d289a5",
@@ -24278,7 +24278,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md",
-      "line": 1330,
+      "line": 1332,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -24321,8 +24321,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1394,
-        1404
+        1396,
+        1406
       ],
       "source_text": "„Zárásként nézzük meg, mire emlékszel.\n\nTudod-e, miért hasznos **kategóriákban gondolkodni**,\nés mikor nem jó **túl mély** játékot hozni?\n\nA végén egy mondatban írd le azt is,\nhogy egy saját kedvenc játékodat\nmelyik korosztálynál használnád inkább,\nés mi az az egy kockázat, amire figyelnél benne.”",
       "source_hash": "ca46104110ba2aedf88e51761c7df57d66f5fc95493acee15c1a4dea46a64235",
@@ -24401,8 +24401,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        185,
-        203
+        187,
+        205
       ],
       "source_text": "„Szia!\nVolt már olyan, hogy bedobtál egy játékot,\nés azt érezted: *‘ez most nagyon nem működik’*?\n\nLehet, hogy túlpörgette a kvucát.\nLehet, hogy mindenki unta.\nLehet, hogy valaki teljesen kiesett belőle.\n\nMaga a játék ettől még lehet jó.\nCsak **nem annak a korosztálynak**.\nVagy **nem abban a hangulatban**.\nVagy **nem ebben a térben**.\n\nEbben a leckében azt nézzük meg,\nhogyan gondolkodhatsz **játék-kategóriákban**\nés **három aktuális korosztályban**,\nhogy tudatosabban válassz a kvucádnak.”",
       "source_hash": "b750e8d307086e3a46389f3663a6eb5866292cb2bfc2f6b495e4a88f22cf3659",
@@ -24653,7 +24653,7 @@
       "status": "pending-rights",
       "title": "Narráció – SLIDE 4 történet 2. rész (40–50 mp)",
       "purpose": "A történet lezárása hangban, átvezetés a reflexióhoz",
-      "spec": "40–50 mp magyar narráció: Lili elhallgat, a madrih reakciója (csak megköszöni), Lili végig csendben marad, két hanih megszólítja a madrihot (‘ez nem volt oké’), átvezetés a tükör-szakaszhoz.",
+      "spec": "40–50 mp magyar narráció: Lili elhallgat, a madrih reakciója (csak megköszöni), Lili végig csendben marad, két hanih megszólítja a madrihot („ez nem volt oké”), átvezetés a tükör-szakaszhoz.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -24698,7 +24698,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "f78f0c8b737f2434ee9f8025e63134936359d43d8b83a1018be5fe0061add7a0",
-      "spec_hash": "fc75c6b75116bffd5833b5c549ad8b1b95d5ca1e68ddd34c71f630f29702f87e",
+      "spec_hash": "5d0516384f85e2c0cafea49ac2bf1f05ca3f3081b9768bc105bcf6da205020f8",
       "deliverable_ids": [
         "M6.2-NAR-04",
         "M6.2-NAR-04::CAPTIONS",
@@ -26337,9 +26337,9 @@
       "subtype": "",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Inkluzivitás-elemző tábla-sablon (4 oszlop)",
+      "title": "Inkluzivitáselemző tábla-sablon (4 oszlop)",
       "purpose": "A 2. játék inkluzivitás-szemüveges elemzését strukturálja (4.3.4); segít megnevezni, kinek nehéz a játék, hol a kirekesztés rizikója, és milyen inkluzív variáció lehetséges.",
-      "spec": "4 oszlopos flipchart/tábla-sablon az inkluzivitás-elemzéshez, oszlopcímek: KVUCA | KINEK NEHÉZ | KIREKESZTÉS / RIZIKÓ | INKLUZÍV VARIÁCIÓ. Üres, kézzel kitölthető mezők a „Szél fújja azt, aki…” játék inkluzivitás-elemzéséhez.",
+      "spec": "4 oszlopos flipchart/tábla-sablon az inkluzivitáselemzéshez, oszlopcímek: KVUCA | KINEK NEHÉZ | KIREKESZTÉS / RIZIKÓ | INKLUZÍV VARIÁCIÓ. Üres, kézzel kitölthető mezők a „Szél fújja azt, aki…” játék inkluzivitáselemzéséhez.",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -26376,7 +26376,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "d683414318fa451c6c6d2d0f77e46f95678735a3c4f3248465ec534b5a36d63e",
+      "spec_hash": "a1dc589e5eb13c22ac0bb636c5abe98033bc6772fda474791d44d015b1d0338e",
       "deliverable_ids": [
         "M6.A-POSZ-03",
         "M6.A-POSZ-03::PRINTPDF"
@@ -48029,7 +48029,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
       "file_kind": "peula",
-      "title": "Inkluzivitás-elemző tábla-sablon (4 oszlop)",
+      "title": "Inkluzivitáselemző tábla-sablon (4 oszlop)",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
@@ -48050,7 +48050,7 @@
       "module": "M6",
       "file": "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md",
       "file_kind": "peula",
-      "title": "Inkluzivitás-elemző tábla-sablon (4 oszlop) — nyomtatható PDF",
+      "title": "Inkluzivitáselemző tábla-sablon (4 oszlop) — nyomtatható PDF",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
