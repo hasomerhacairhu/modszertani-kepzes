@@ -505,4 +505,3 @@ Fájlrövidítések (a teljes elérési út):
   - A jóváhagyás, a négy ismérv és a papíros alapértelmezés nem változik. A látható szöveg változik, ezért pin kell.
 - **Típus:** objektív
 - **Verdikt:** —
-

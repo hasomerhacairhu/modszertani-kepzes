@@ -188,4 +188,3 @@ Ez read-only ellenőrzés volt. Csak a diff hunkjait és a közvetlen környezet
 Az ADV-1 betoldásnak egy nyelvi problémája van, a QA-NYELV-1. A mondat egyébként természetes, tegező, és az öt helyen azonos a szóhasználat.
 
 Nincs P0/P1 finding, és nincs levágott finding.
-
