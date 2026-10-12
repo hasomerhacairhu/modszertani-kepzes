@@ -125,40 +125,40 @@
       "sha256": "7244525801e82b0b42d14b9afbb3b7ca190499285d15317afb5f3620be6b2ba7"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "M3:QA-ERT-1, M3:QA-NYELV-10, M3:QA-IMPL-4, M3:QA-IMPL-1, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-6, M3:QA-NYELV-9, M3:QA-IMPL-3, M3:QA-IMPL-5: a 3ae0c09/33050fa célzott QA-jának validált javításai",
-      "sha256": "b470f77996c5509dc95cd958d2588f7705fc52955410c39aba48d37ab38112ca"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "61472a40b5bec5419cc42657ea66e651e3dc0e76320bb8b5d07fd9109e5b5a84"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
-      "reason": "M3:QA-ERT-1, M3:QA-NYELV-10, M3:QA-IMPL-4, M3:QA-IMPL-1, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-6, M3:QA-NYELV-9, M3:QA-IMPL-3, M3:QA-IMPL-5: a 3ae0c09/33050fa célzott QA-jának validált javításai",
-      "sha256": "8f3b55b3d214afa171b5d689301d68cfaa5e39d186cae638ed4e5f95394d0a8c"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "14fd246abb2883f59fa67d1708157eda9a75adc7dde84e91426eb5fa88574e2f"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "M3 PED-G1-1, PED-G1-2, PED-G1-3, PED-G1-5, PED-G1-8, PED-G1-11, PED-G2-7, PED-G2-8, PED-G3-3, ERT-G1-2, ERT-G1-6, ERT-G1-7, ERT-G1-13, ERT-G3-3, ERT-G3-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-7, IMPL-G1-9, IMPL-G2-2.obj, IMPL-G2-3, IMPL-G2-9, IMPL-G2-11.obj, IMPL-G2-13, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-5, IMPL-G3-7, IMPL-G3-11, IMPL-G3-12, IMPL-G3-14, BIZT-G1-9, BIZT-G2-1, BIZT-G3-5, BIZT-G3-9, BIZT-G3-10, NYELV-G1-2, NYELV-G1-5, NYELV-G1-6, NYELV-G1-10, NYELV-G1-12, NYELV-G1-14, NYELV-G2-1, NYELV-G2-2, NYELV-G2-5, NYELV-G2-8, NYELV-G2-10, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G2-16, NYELV-G2-19, NYELV-G2-21, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-7, NYELV-G3-9, NYELV-G3-10: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "9d2bff5383e58cddb2e0c317b473e03eea334bd28ce51b155d7364026f919b91"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "6799b790f4b1a140dbb955554c742ba1727f8921809c6fc7a7be20377f571744"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
-      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
-      "sha256": "d1339f7f3b73cfa35a1cff71a56135fcc18200b38c1844eec2c6e788f486bd54"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "9d62e1e7498c405d80131b975ac9984c28d6449baf29a6ce512a45378facc0d1"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "Kánoni kör (AP-2026-10-11-01): M0:ERT-2, M0:IMPL-5, M0:ERT-8, M1:ERT-G2-6, M1:QA-IMPL-3, M1:QA-IMPL-2, M2:ERT-G2-2, M2:IMPL-G1-2, M2:IMPL-G1-6, M2:NYELV-G1-17, M3:BIZT-G2-1, M3:ERT-G1-13, M3:IMPL-G1-12, M3:IMPL-G2-12, M3:IMPL-G2-3, M3:NYELV-G2-16, M3:NYELV-G2-18, M3:PED-G1-11, M4:PED-G1-2.obj, M5:IMPL-G2-2.obj, M5:IMPL-G2-13, M5:NYELV-G1-2.obj, M6:BIZT-G2-8, M7:NYELV-G2-1: validált objektív findingok és lezárt döntések (CC-04, CC-06, Q-MED-2, Q-PED-4) átvezetése",
-      "sha256": "668759884863865236d41dd04a9c59943c00733b2ce6c478af001dc028f6280a"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "a9730692637d1a007e44e9fdb5096167fe68ec7fb81fde298e39ffcc093df525"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "M3 PED-G1-1, PED-G1-2, PED-G1-3, PED-G1-5, PED-G1-8, PED-G1-11, PED-G2-7, PED-G2-8, PED-G3-3, ERT-G1-2, ERT-G1-6, ERT-G1-7, ERT-G1-13, ERT-G3-3, ERT-G3-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-7, IMPL-G1-9, IMPL-G2-2.obj, IMPL-G2-3, IMPL-G2-9, IMPL-G2-11.obj, IMPL-G2-13, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-5, IMPL-G3-7, IMPL-G3-11, IMPL-G3-12, IMPL-G3-14, BIZT-G1-9, BIZT-G2-1, BIZT-G3-5, BIZT-G3-9, BIZT-G3-10, NYELV-G1-2, NYELV-G1-5, NYELV-G1-6, NYELV-G1-10, NYELV-G1-12, NYELV-G1-14, NYELV-G2-1, NYELV-G2-2, NYELV-G2-5, NYELV-G2-8, NYELV-G2-10, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G2-16, NYELV-G2-19, NYELV-G2-21, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-7, NYELV-G3-9, NYELV-G3-10: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "0d0aa010954743feb46233b60a7a3dfd3788d9bf6d7f1d59a8fd24202c790974"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "cb7a81a8f6cc27096367e7c963cdf9b5fbbb2c333b1320864905d214c3d4f8cb"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
-      "reason": "M3 PED-G1-1, PED-G1-2, PED-G1-3, PED-G1-5, PED-G1-8, PED-G1-11, PED-G2-7, PED-G2-8, PED-G3-3, ERT-G1-2, ERT-G1-6, ERT-G1-7, ERT-G1-13, ERT-G3-3, ERT-G3-4, IMPL-G1-3, IMPL-G1-4, IMPL-G1-7, IMPL-G1-9, IMPL-G2-2.obj, IMPL-G2-3, IMPL-G2-9, IMPL-G2-11.obj, IMPL-G2-13, IMPL-G3-1, IMPL-G3-2, IMPL-G3-3, IMPL-G3-5, IMPL-G3-7, IMPL-G3-11, IMPL-G3-12, IMPL-G3-14, BIZT-G1-9, BIZT-G2-1, BIZT-G3-5, BIZT-G3-9, BIZT-G3-10, NYELV-G1-2, NYELV-G1-5, NYELV-G1-6, NYELV-G1-10, NYELV-G1-12, NYELV-G1-14, NYELV-G2-1, NYELV-G2-2, NYELV-G2-5, NYELV-G2-8, NYELV-G2-10, NYELV-G2-11, NYELV-G2-13, NYELV-G2-14, NYELV-G2-16, NYELV-G2-19, NYELV-G2-21, NYELV-G3-1, NYELV-G3-2, NYELV-G3-3, NYELV-G3-4, NYELV-G3-5, NYELV-G3-7, NYELV-G3-9, NYELV-G3-10: validált objektív findingok javítása (AP-2026-10-11-01)",
-      "sha256": "85955149f3c29925394893fe4c179f5a1abb33a2d5c8eea034912e08a615564d"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "7f3ad59cffa415a51e21a32e2d3b7dd8879b5029859f2f0a07e1396cb0e90029"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md": {
-      "reason": "M3:IMPL-G3-5: a képzői ellenőrző lista eszközsora a 2.1 eszközlista megnevezéseit veszi át",
-      "sha256": "62b359379ffe496a5b80bd82eda313cd1fb4cd023fc6d4b8e1d21351c219e5b1"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "ec3506831d825a25d4725ca1f6c64ef87947649940a51c56316eae605baf3139"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
-      "reason": "M3:QA-ERT-1, M3:QA-NYELV-10, M3:QA-IMPL-4, M3:QA-IMPL-1, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-6, M3:QA-NYELV-9, M3:QA-IMPL-3, M3:QA-IMPL-5: a 3ae0c09/33050fa célzott QA-jának validált javításai",
-      "sha256": "43e59a52bd9e1348588fcced3d997d40927d0ef9c40814d266b1a329cd23840c"
+      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M3-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-3, ADV-4, ADV-10, ADV-11, ERT-1, ERT-5, ERT-10, ERT-21, ERT-22, ERT-23, GYV-3, GYV-4, GYV-5, GYV-6, GYV-11, GYV-13, GYV-15, GYV-16, JOG-1, LMS-1, LMS-2 (M3.2), PRG-2, PRG-3, PRG-5, PRG-9, PRG-11, PRG-12, PRG-16, TERM-4, TERM-5, TERM-6",
+      "sha256": "a92b9752d9cb39b67dbe9417c1f7b4596d43c20b74c752056064fba7fbc786ea"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
       "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",

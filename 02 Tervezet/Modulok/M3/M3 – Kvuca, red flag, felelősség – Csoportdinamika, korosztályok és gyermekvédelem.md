@@ -24,9 +24,9 @@ A résztvevő érti a csoportfejlődés (Tuckman) alaplogikáját, fejben tartja
 A modul végére a résztvevő…
 
 1. **Csoportdinamika-alapozó (Tuckman)**
-   * Rövid kvuca-sztorik alapján be tudja azonosítani a Tuckman-szakaszt (forming–storming–norming–performing, + a lezáró **adjourning**) **(M3.1, M3.A)**.
+   * Rövid kvuca-sztorik alapján be tudja azonosítani a Tuckman-szakaszt (forming–storming–norming–performing) **(M3.1, M3.A)**, és megismeri a lezáró **adjourning** szakaszt **(M3.1)**.
    * Megérti, hogy a **storming nem „hiba”**, hanem a fejlődés része: kölcsönös csoportkonfliktus, amelyben a csoport a szabályokat, a pozíciókat és a határokat egyezteti.
-   * Megkülönbözteti a stormingot a **kortárs bántalmazástól** (bullying): az célzott, bántó dinamika, amely jellemzően ismétlődik vagy ismétlődhet, és erőfölényen alapul. Ha valaki veszélyben van, azt nem kezeli „normális stormingként” **(M3.1, M3.A)**.
+   * Tudja, hogy a storming nem azonos a **kortárs bántalmazással** (bullying): az célzott, bántó dinamika, amely jellemzően ismétlődik vagy ismétlődhet, és erőfölényen alapul. Ha valaki veszélyben van, azt nem kezeli „normális stormingként” **(M3.1, M3.A)**.
 2. **Korosztályi profilok – 3 kvuca, 3 világ**
    * 1-1 mondatos „miniprofilt” tud mondani a 3 aktuális kvucáról: **Parparim, Kivsza, Leviatán** **(M3.2)**.
    * Meg tud nevezni kvucánként legalább 2 tényezőt: figyelem & energia, tipikus motivációk, tipikus helyzetek.
@@ -38,7 +38,7 @@ A modul végére a résztvevő…
    * Tudja, hogy gyermekvédelmi helyzetben az **ötlépéses jelzési utat** kell követnie, amelynek része, hogy azonnal bevonja a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét); tudja, mi a felelős első lépés **(M3.3, M3.B)**.
 
 > ⚖️ **Jó tudni – a jelzés Magyarországon szabályozott, de a szerepeket pontosan kell szétválasztani.**
-> A Gyvt. 17. § a gyermekvédelmi jelzőrendszer résztvevői között szervezeteket és személyeket is nevesít, és veszélyeztetettség esetén jelzési / kezdeményezési kötelezettséget ír elő. A kiemelt veszélyeztető okokra vonatkozó hatályos szabályoknál a haladéktalan, legkésőbb három munkanapon belüli továbblépésnek büntetőjogi relevanciája is lehet. **Ebből azonban nem következik, hogy egy 15–17 éves önkéntes madrihnak önálló jogi minősítést vagy hatósági eljárást kellene végeznie.**
+> A Gyvt. 17. § a gyermekvédelmi jelzőrendszer résztvevői között szervezeteket és személyeket is nevesít, és veszélyeztetettség esetén jelzési / kezdeményezési kötelezettséget ír elő. A Btk. 209/A. § nem valamennyi jelzéskésés általános büntetőszabálya, hanem a Gyvt. 17. § (4a)–(4c) szerinti speciális kötelezettségekhez kötődik. **Ebből azonban nem következik, hogy egy 15–17 éves önkéntes madrihnak önálló jogi minősítést vagy hatósági eljárást kellene végeznie.**
 > A képzésben ezért az ötlépéses jelzési utat követjük: **1. Észleld, és vedd komolyan. 2. Hallgasd meg, és ne ígérj teljes titoktartást. 3. Ne nyomozz, ne konfrontálj, és ne próbáld egyedül megoldani. 4. Azonnal vond be a kijelölt Memunát – összeférhetetlenség esetén a név szerint kijelölt helyettesét. 5. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.** A lépéseket részletesen az M3.B lépéstérképe mutatja. A Memuna és a helyettese elérhetőségét a kurzus „Segítség és kapcsolatok” blokkja adja. Azt, hogy az adott szervezeti jogállás mellett ki tesz külső jelzést, az éles használat előtt rögzíteni kell, és a Memunának jóvá kell hagynia; a külső jelzés jogi kérdésében jogi szakértő dönt.
 > *(Elsődleges jogforrás: 1997. évi XXXI. törvény 17. §, Nemzeti Jogszabálytár; kapcsolódó hatályos büntetőjogi szabály: Btk. 209/A. §. A tananyag nem helyettesíti a Somer gyermekvédelmi szabályrendszerét (Gyermekvédelmi működési standard v1.0).)*
 5. **Etikai Do/Don’t – beleértve a madrih–hanih kapcsolatot**
@@ -56,7 +56,7 @@ A modul végére a résztvevő…
 ### M3.1 – „Történetek egy kvucáról” – Tuckman-szakaszok felismerése (15–20’)
 
 * **Cél:**
-  A résztvevő megismeri a **Tuckman-modellt**, és kvuca-sztorikhoz tudja párosítani a szakaszokat (forming–storming–norming–performing, valamint a lezáró adjourning).
+  A résztvevő megismeri a **Tuckman-modellt** – a lezáró adjourning szakasszal együtt –, és kvuca-sztorikhoz tudja párosítani a szakaszokat (forming–storming–norming–performing).
 * **Fókusz:**
   „Ha ránézek egy kvucára, **hol tart a történetében**?”
 * **Eszközök:**
@@ -81,7 +81,7 @@ A modul végére a résztvevő…
 * **Eszközök:**
   * H5P Course Presentation (profilok)
   * H5P Column – kvucánként 1 blokk (Parparim, Kivsza, Leviatán)
-  * Koppintásos párosítás (jelenetenként egy H5P Multiple Choice elem egyválaszos módban; a húzás nélküli teljesíthetőséget a runtime acceptance igazolja) / H5P Drag & Drop – helyzetek → kvucák
+  * Koppintásos párosítás (jelenetenként egy H5P Multiple Choice elem egyválaszos módban; a húzás nélküli teljesíthetőséget a runtime acceptance igazolja) – helyzetek → kvucák
 * **Tartalom röviden:**
   * Kvucánként minileírás:
     * „Világ / élethelyzet” (iskola, kortársak, szülők szerepe),
@@ -119,7 +119,7 @@ A modul végére a résztvevő…
 
 ***
 
-### M3.4 – „Do / Don’t madrihként” – határok, red flagek és modulproduktum (15–20’)
+### M3.4 – „Mit tegyél, mit ne tegyél madrihként?” – határok, red flagek és modulproduktum (15–20’)
 
 * **Cél:**
   A résztvevő **konkrét Do/Don’t listát** készít madrih-szerepre, és előkészíti a modulproduktumát (helyzetleírás + első lépés).
@@ -236,8 +236,8 @@ A modul végére a résztvevő…
      * Mindenki a saját eszközén újranézi azt a leckerészt, amelyre a kapun kapott visszajelzése utal, vagy pótolja a hiányzó leckét, hogy a javító próbálkozás előtt érdemben haladjon.
   3. **25–40’ – Kérdések + fogalomtérkép:**
      * Közös tábla: Tuckman – 3 kvuca – gyermekvédelem – red flag – madrih szerepe; a fókusz azokon a témákon van, amelyekben a visszajelzések hiányt jeleztek (név nélkül).
-  4. **40–45’ – Átvezetés:**
-     * „Mit fogsz még pótolni vagy átdolgozni a javító próbálkozás előtt?” + híd a javító próbálkozáshoz.
+  4. **40–45’ – Zárókör + híd:**
+     * Mondatbefejezés: „Ha madrih leszek, red flag helyzetben nem maradok egyedül, hanem…” + híd a javító próbálkozáshoz.
 
 ***
 
@@ -249,7 +249,7 @@ A modul végére a résztvevő…
   * Moodle Quiz – **szcenárió-alapú kvíz** gyermekvédelem & red flag témában; H5P Question Set nem használt (`LMS – activity manifest.md`, LMS-M3-06: QUIZ-M; a korábbi feltételek a kapu §0-ban).
   * Moodle Assignment – modulproduktum (helyzetleírás + red flag + első lépés) feltöltésére.
 * **Követelmény az M3 „complete”-hez (kétkomponensű éles kapu – a hivatalos küszöb az [M3 – KAPU](./M3%20–%20Kapu%20–%20értékelő%20%28item-bank%20+%20rubrika%29.md) fájlban):**
-  1. **M3.1–M3.4** mikroleckék activity completion – **érdemi kitöltéssel** (a beágyazott H5P-interakciók / kérdések megválaszolva – pl. M3.3 Branching végigvitele döntésekkel – egy szcenárió-checkpoint a HUM-SAFE-03 szerinti passzal is teljesül (SAFE-1) –, az M3.4 csoportosító feladatának elvégzése), **nem csak a slide-ok végigléptetésével**. Hogy a Moodle-beállítás ezt ténylegesen kikényszeríti-e, azt tesztelni kell: [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md).
+  1. **M3.1–M3.4** mikroleckék activity completion: a Course Presentation-leckéknél (M3.1, M3.2, M3.4) az összefoglaló dia elérése, amelyen a CP az eredményt elküldi – a beágyazott kérdések kitöltését a CP nem kényszeríti ki (H5P-C profil, BSPEC-06) –, az M3.3-nál a Branching Scenario végigvitele az egyetlen végképernyőig (BSPEC-05). Egy szcenárió-checkpoint a HUM-SAFE-03 szerinti passzal is teljesül (SAFE-1). A megválaszolatlan interakciókkal elért összefoglaló dia esetét (negatív teszt) tesztelni kell: [`LMS – H5P runtime acceptance.md`](../../LMS%20–%20H5P%20runtime%20acceptance.md).
   2. **Komponens B – modulproduktum:** kitalált, de életszerű helyzetleírás (red flag + első lépés + kit von be; valós eset névtelenítve sem kerülhet bele) **Assignmentként leadva** (határidő a központi naptár szerint: hétfő 18:00), és eléri a KAPU-rubrika küszöbét: **minden sor ≥ Alapszint (1), az R2 (titoktartás) és R4 (nem nyomoz / nem konfrontál) sor blokkoló** (M3.4-hez kapcsolódva).
   3. **Komponens A – szcenárió-kvíz:** a helyzetleírás rubrikájának megerősítése után nyílik, határideje a központi naptár szerint szerda 18:00; küszöbe **≥80% (≥10/12) ÉS a kötelező kritikus itemek (2., 4., 7., 9.) helyesek** – a kritikus itemek tévesztése a 80% mellett is bukás.
 * **Elakadás a kapun – támogatás:**
@@ -285,7 +285,7 @@ A modul végére a résztvevő…
 
 [M3.3 – „Gyermekvédelem 101” – red flag felismerése & első lépések](./Online%20leckék/M3.3%20–%20Gyermekvédelem%20101%20–%20red%20flag%20felismerése%20&%20első%20lépések.md)
 
-[M3.4 – „Do / Don’t madrihként” – határok, red flag-ek és modulproduktum](./Online%20leckék/M3.4%20–%20Do%20és%20Don’t%20madrihként%20–%20határok,%20red%20flag-ek%20és%20modulproduktum.md)
+[M3.4 – „Mit tegyél, mit ne tegyél madrihként?” – határok, red flagek és modulproduktum](./Online%20leckék/M3.4%20–%20Do%20és%20Don’t%20madrihként%20–%20határok,%20red%20flag-ek%20és%20modulproduktum.md)
 
 [M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át](./Peulák/M3.A%20–%20Találd%20ki,%20hol%20tart%20a%20kvuca!%20–%20Történetek%20Tuckman%20szemüvegén%20át.md)
 

@@ -30,6 +30,62 @@
       "reason": "Az M3 hub A/B sarok-aktivitásának két jelölőtáblája („Red flag” / „Nem red flag”, v2-ben M3-HUB-POSZ-02). A projektgazda 2026-10-02-i javasolt döntése (felmerült #10) szerint az A/B sarok csak akkor marad, ha saját pedagógiai funkciója van. A gyakorlat nem része a kanonikus M3.B peulának, a red flag-felismerést az M3.B harmadik személyű esetelemzése már elvégzi, ezért az aktivitás és az asset kikerült a tananyagból. Akadálymentesítési vagy gyermekvédelmi rés nem keletkezik: a felismerés gyakorlása az M3.B-ben megmarad."
     },
     {
+      "old_id": "M3.3-ILL-01",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3 1. szcenáriójának illusztrációja. 2026-10-12-i projektgazdai döntés (PRG-9, `Emberi jóváhagyás szükséges.md` 14. szakasz): az M3.3 négy illusztrációja csak bizonyított pedagógiai szerep esetén, az elágazás UTÁN épülhet be, különben kimarad; bizonyíték nincs, ezért kimarad. A szcenárió szövege a kérdésmezőben teljes, a SAFE-1 passz-választó előtt képi expozíció nincs."
+    },
+    {
+      "old_id": "M3.3-ILL-02",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3 2. szcenáriójának illusztrációja. 2026-10-12-i projektgazdai döntés (PRG-9, `Emberi jóváhagyás szükséges.md` 14. szakasz): az M3.3 négy illusztrációja csak bizonyított pedagógiai szerep esetén, az elágazás UTÁN épülhet be, különben kimarad; bizonyíték nincs, ezért kimarad. A szcenárió szövege a kérdésmezőben teljes, a SAFE-1 passz-választó előtt képi expozíció nincs."
+    },
+    {
+      "old_id": "M3.3-ILL-03",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3 3. szcenáriójának illusztrációja. 2026-10-12-i projektgazdai döntés (PRG-9, `Emberi jóváhagyás szükséges.md` 14. szakasz): az M3.3 négy illusztrációja csak bizonyított pedagógiai szerep esetén, az elágazás UTÁN épülhet be, különben kimarad; bizonyíték nincs, ezért kimarad. A szcenárió szövege a kérdésmezőben teljes, a SAFE-1 passz-választó előtt képi expozíció nincs."
+    },
+    {
+      "old_id": "M3.3-ILL-04",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3 4. szcenáriójának illusztrációja. 2026-10-12-i projektgazdai döntés (PRG-9, `Emberi jóváhagyás szükséges.md` 14. szakasz): az M3.3 négy illusztrációja csak bizonyított pedagógiai szerep esetén, az elágazás UTÁN épülhet be, különben kimarad; bizonyíték nincs, ezért kimarad. A szcenárió szövege a kérdésmezőben teljes, a SAFE-1 passz-választó előtt képi expozíció nincs."
+    },
+    {
+      "old_id": "M3.3-ALT-04",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3-ILL-01 alt-szövege. A szülő illusztráció kimarad (lásd az M3.3-ILL-01 diszpozícióját, PRG-9), így nincs mit leírni; akadálymentesítési rés nem keletkezik, a szcenárió szövegesen teljes."
+    },
+    {
+      "old_id": "M3.3-ALT-05",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3-ILL-02 alt-szövege. A szülő illusztráció kimarad (lásd az M3.3-ILL-02 diszpozícióját, PRG-9), így nincs mit leírni; akadálymentesítési rés nem keletkezik, a szcenárió szövegesen teljes."
+    },
+    {
+      "old_id": "M3.3-ALT-06",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3-ILL-03 alt-szövege. A szülő illusztráció kimarad (lásd az M3.3-ILL-03 diszpozícióját, PRG-9), így nincs mit leírni; akadálymentesítési rés nem keletkezik, a szcenárió szövegesen teljes."
+    },
+    {
+      "old_id": "M3.3-ALT-07",
+      "status": "NO_LONGER_REQUIRED",
+      "v2_asset_id": "",
+      "v2_deliverable_id": "",
+      "reason": "Az M3.3-ILL-04 alt-szövege. A szülő illusztráció kimarad (lásd az M3.3-ILL-04 diszpozícióját, PRG-9), így nincs mit leírni; akadálymentesítési rés nem keletkezik, a szcenárió szövegesen teljes."
+    },
+    {
       "old_id": "M5.3-NAR-01",
       "status": "NO_LONGER_REQUIRED",
       "v2_asset_id": "",
