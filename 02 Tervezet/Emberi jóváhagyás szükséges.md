@@ -848,3 +848,23 @@ státusz-szemantika a 11. szakasz szerinti.
 | LMS-M4-05 | Az M4 fejlesztő rubrikája egyetlen holisztikus kritérium a meglévő három szinttel; szintpont: 0 (Még nem éri el), 1 (Alapszint / rendben), 2 (Fejlettebb); Grade type: Point; Maximum grade: 2; Grade to pass: üres. A numerikus érték a tanuló elől rejtett, a szöveges értékelés látható. A három szint szövege nem változik. | manifest LMS-M4-05; runtime acceptance 26. pont | értékelési QA; Moodle-visszaolvasás a célverzión; a végső pontszám rejtésének módja (projektgazda mint build-spec gazda + LMS-gazda; manifest LMS-M4-05). |
 | D-16 | A 15. szakasz D-16 sora nem végleges lezárt döntés, hanem szakmai jóváhagyásra vár. A meglévő implementáció marad, automatikusan nem vonjuk vissza. | 15. szakasz: a D-16 sor a nyitott táblában | értékelési felelős; vétó/QA: programvezető, a Z.4-nél DPO + programvezető. |
 | JOG-1 | A JOG-1 nyilvántartására előkészített komment közzétéve a G1 tracker-issue-ban (#1), személyes adat nélkül. | G1 tracker-issue (#1) | a jogász írásos ellenőrzése és a Memuna jóváhagyása (G1). |
+
+## 17. Projektgazdai döntés – X-16 staging-validációra (2026-10-13)
+
+A projektgazda 2026-10-13-i döntése a rubrikás Assignmentek numerikus összpontjáról (X-16). Szó szerint:
+`01 Fejlesztés/04 Audit/2026-10-13 Projektgazdai döntés – X-16 staging-validációra és staging-előkészítés, AP-2026-10-13-04.md`.
+A státusz-szemantika a 11. szakasz szerinti.
+
+- **Hatókör:** staging-tesztelési jóváhagyás, nem végleges X-16 release-elfogadás. A végleges elfogadás a runtime-teszt
+  (runtime acceptance 28. és 29. pont) és a lenti nyitott kérdések rendezése után külön döntés.
+- **Nyitott (release-kapu):** ha a tanuló a `graderaw` vagy más út révén a numerikus pontszámhoz hozzáfér, a rejtés nem
+  teljesült. A Moodle 4.5 forrása szerint a hivatalos mobil-webszolgáltatás két függvénye (`gradereport_user_get_grade_items`:
+  `graderaw`; `mod_assign_get_submission_status`: `feedback.grade`) a nyers pontot visszaadja; a lezárás módjáról a
+  projektgazda, az LMS-gazda és a site-adminisztrátor dönt (manifest LMS-M4-05).
+- **Nyitott (adatvédelmi kérdés):** a tanuló saját adatexportja („Data requests” – „Export all of my personal data”) is
+  tartalmazza a nyers Assignment-pontot. Arról, hogy a rejtés release-feltétele erre az útra is vonatkozik-e, a DPO, a jogi
+  felelős és a projektgazda dönt; a build ezt az utat nem korlátozza (manifest LMS-M4-05).
+
+| Azonosító | Projektgazdai döntés (2026-10-13) | Érintett hely | Nyitva marad |
+|---|---|---|---|
+| X-16 | A Moodle „Grade letter” megoldás staging-validációra elfogadva: egységes címke „Szöveges értékelés”, 0 %-os alsó határral; az LMS-M2-05, LMS-M4-05 és LMS-M6-05 rubrikáján `showscorestudent` = No, a grade itemen „Grade display type” = „Letter”, a grade item látható; a javasolt tanulói pontkönyv-beállítások érvényesek, „Show average” = No, „Show grades” = Yes, „Show feedback” = Yes; a „Course total” rejtett. A rubrikaszintek, a pontértékek, a küszöbök, a completion és a GATE-CP változatlanok. A kurzusszintű mellékhatásokat külön regressziós teszt ellenőrzi. | manifest LMS-M4-05 (LMS-M2-05, LMS-M6-05 mutatóval); runtime acceptance 28., 29. pont | a runtime-teszt (RT-P0-28, RT-P0-29); a webszolgáltatás-út lezárása; az adatexport-út adatvédelmi kérdése; a végleges release-elfogadás. |
