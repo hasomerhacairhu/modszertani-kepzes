@@ -2523,10 +2523,10 @@
       "id": "M3.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 314,
+      "line": 315,
       "body_lines": [
-        315,
-        320
+        316,
+        321
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2543,10 +2543,10 @@
       "id": "M3.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 717,
+      "line": 718,
       "body_lines": [
-        718,
-        721
+        719,
+        722
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2563,10 +2563,10 @@
       "id": "M3.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 841,
+      "line": 842,
       "body_lines": [
-        842,
-        847
+        843,
+        848
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2583,10 +2583,10 @@
       "id": "M3.3-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 169,
+      "line": 170,
       "body_lines": [
-        170,
-        182
+        171,
+        183
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -14395,7 +14395,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 213,
+      "line": 214,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14461,7 +14461,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 336,
+      "line": 337,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14527,7 +14527,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 609,
+      "line": 610,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14593,7 +14593,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 251,
+      "line": 252,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14635,8 +14635,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        315,
-        320
+        316,
+        321
       ],
       "source_text": "„Madrihként a gyermekvédelem nem azt jelenti, hogy te oldasz meg mindent.\n\nA te feladatod az, hogy **észrevedd** és **komolyan vedd**, ha valami nagyon nem oké.\nHallgasd meg a hanihot, de ne ígérj teljes titoktartást. Ne nyomozz, ne konfrontálj, és **ne próbáld egyedül megoldani**: azonnal vond be a kijelölt Memunát – összeférhetetlenség esetén a név szerint kijelölt helyettesét. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.”",
       "source_hash": "11f7aa7b1123ae5833ae4cce80e441a008dedea5be10c547876b0e9f1a9378ba",
@@ -14664,7 +14664,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 647,
+      "line": 648,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14706,8 +14706,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        718,
-        721
+        719,
+        722
       ],
       "source_text": "„Itt most nincs jó vagy rossz válasz.\nElég, ha 1–2 mondatban leírsz valamit, amit magaddal vinnél ebből a leckéből.”",
       "source_hash": "6346f55118ff39e9717736e32c209f3c47456320e7065b2208b9fa9cf188cd2f",
@@ -14735,7 +14735,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 728,
+      "line": 729,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14777,8 +14777,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        842,
-        847
+        843,
+        848
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy alap térképed arról, mi az a red flag, és mi a dolgod madrihként.\nA következő részben konkrétan végigvesszük, **mit tegyél és mit ne tegyél**,\nhogy még egyértelműbb legyen, mi fér bele és mi az, ami már veszélyes.”",
       "source_hash": "d8fa9e5a80997c3a39409d1200f4b2f3d21099bdb1b8ba1fbf46cc6c0438ce7f",
@@ -14806,7 +14806,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 108,
+      "line": 109,
       "kind": "video",
       "subtype": "explainer",
       "mode": "generate",
@@ -14855,8 +14855,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        170,
-        182
+        171,
+        183
       ],
       "source_text": "„Szia! Képzeld el, hogy egy hanih odajön hozzád peula után,\nés azt mondja: *‘Most olyat mondok, amit **senki más nem tudhat**, jó?’*\n\nKözben érzed, hogy valami komoly dolog jön.\n\nMit csinálsz ilyenkor?\nMegígéred, hogy **senkinek** nem mondod el?\nVagy jelezel valakinek, de félsz, hogy ezzel elárulod?\n\nEz a lecke arról szól, hogy **mi a felelős lépés** ilyen helyzetekben,\nés mit jelent az, hogy **red flag**.”",
       "source_hash": "1237ab16a1b970d2e54b8cdb17b24feb1adc883cf327b04b3d968a69dbcdd8de",
@@ -16020,11 +16020,11 @@
       "status": "spec-ready",
       "title": "Esetkártyák (4 db red flag eset)",
       "purpose": "Esetelemzés alapja: a kiscsoportok ezekből dolgoznak fel red flag helyzeteket, ez adja a peula 2. blokkjának (4.2) gerincét.",
-      "spec": "4 db nyomtatott esetkártya, egyenként 1-1 red flag esettel, a jelenlegi lecke (4.2.2) szövegével szó szerint: (1) Késő esti privát üzenet – egy hanih azt írja: „Nagyon rosszul vagyok, de ezt csak neked mondhatom el, senki más nem tudhatja.”; (2) Online csúfolódás – a kvuca csoportchatjében megalázó mém készül egy hanihról, az érintett nem reagál; (3) Önsértésre utaló jelek – játék közben vágásnyomokat vesz észre egy madrih, a hanih viccel elüti a kérdést; (4) Madrih–hanih viszony, ami párkapcsolat-gyanús – sok külön töltött idő, ölelkezés, titkolózás: „Ezt ne mondjuk el senkinek.” A 4. esetet hordozó kártya a 4.2-ben csak nagy létszámnál kerül kiosztásra (alapból 3 csoport); alapból ez a 4.3.3 gyors alkalmazásának előre megírt, fiktív esete.",
+      "spec": "4 db nyomtatott esetkártya, egyenként 1-1 red flag esettel, a jelenlegi lecke (4.2.2) szövegével szó szerint: (1) Késő esti privát üzenet – egy hanih azt írja: „Nagyon rosszul vagyok, de ezt csak neked mondhatom el, senki más nem tudhatja.”; (2) Online csúfolódás – a kvuca csoportchatjében megalázó mém készül egy hanihról, az érintett nem reagál; (3) Önsértésre utaló jelek – játék közben vágásnyomokat vesz észre egy madrih, a hanih viccel elüti a kérdést; (4) Madrih–hanih viszony, ami párkapcsolat-gyanús – sok külön töltött idő, ölelkezés, titkolózás: „Ezt ne mondjuk el senkinek.” A 4. esetet hordozó kártya a 4.2-ben nem kerül kiosztásra: ez a 4.3.3 gyors alkalmazásának előre megírt, fiktív esete. Négy csoporttól a 4.2-ben az 1–3. eset kártyájából két példány kell.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "4 db kártya, A6 vagy A5 méret, kétoldalas nyomtatás javasolt (előlap: cím + kiváltó idézet; hátlap üres a húzáshoz), magyar nyelv, jól olvasható nagy betű. Robusztus karton ajánlott (ismételt használat)."
+        "note": "4 db kártya (négy csoporttól az 1–3. esetből két példány), A6 vagy A5 méret, kétoldalas nyomtatás javasolt (előlap: cím + kiváltó idézet; hátlap üres a húzáshoz), magyar nyelv, jól olvasható nagy betű. Robusztus karton ajánlott (ismételt használat)."
       },
       "a11y": {
         "note": "Kell szöveges ekvivalens minden kártyához (lásd 4.2.2); a kártya teljes szövege felolvasható kell legyen."
@@ -16056,7 +16056,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "099ab8dbfde0335e1892c23988d068b095c050be75c86f88ac889a30a684ffee",
+      "spec_hash": "a104d067b38bf8e99db347d30ec0a75f98d140bc488d44f01e6131a9568c63da",
       "deliverable_ids": [
         "M3.B-KART-01",
         "M3.B-KART-01::PRINTPDF"
@@ -29633,7 +29633,7 @@
       "status": "spec-ready",
       "title": "Zmán Kvucá-mini-checklist (kiscsoportos munkalap)",
       "purpose": "A kiscsoport ezzel futtatja végig a kiválasztott Peula v1-et az 5 Zmán Kvucá-területen; ez a Blokk 2 fő munkaeszköze, ami strukturálja a finomhangolást.",
-      "spec": "5 soros nyomtatható kiscsoportos checklist-munkalap, soronként két oszloppal: \"Mi az, ami már megvan a tervben?\" / \"Mi az, ami hiányzik, vagy nem elég konkrét?\". Az 5 sor a 4.2. blokk 2. lépése szerint: (1) Idő & helyszín (hossz, pontos hely, átjárás), (2) Létszám & madrih–hanih arány (kevesebb/több jön-e), (3) Anyagok, technika & B-terv (eső/eszközhiány/zaj), (4) Hozzáférhetőség & inkluzivitás (kerekesszékes/zajérzékeny/nyelvi akadály – eleve neki is az övé; a munkalapra és a tervbe csak csoportszintű, nem azonosító információ kerül), (5) Gyermekvédelem & határok (piros zászló, mit nem csinálsz, kihez fordulsz) – a forrásban szereplő segítő kérdésekkel.",
+      "spec": "5 soros nyomtatható kiscsoportos checklist-munkalap, soronként két oszloppal: \"Mi az, ami már megvan a tervben?\" / \"Mi az, ami hiányzik, vagy nem elég konkrét?\". Az 5 sor a 4.2. blokk 2. lépése szerint: (1) Idő & helyszín (hossz, pontos hely, átvonulás másik helyszínre), (2) Létszám & madrih–hanih arány (kevesebb/több jön-e), (3) Anyagok, technika & B-terv (eső/eszközhiány/zaj), (4) Hozzáférhetőség & inkluzivitás (kerekesszékes/zajérzékeny/nyelvi akadály – eleve neki is az övé; a munkalapra és a tervbe csak csoportszintű, nem azonosító információ kerül), (5) Gyermekvédelem & határok (piros zászló, mit nem csinálsz, kihez fordulsz) – a forrásban szereplő segítő kérdésekkel.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29669,7 +29669,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "2cbb5115073469addd4ce65886084553b9903213e9b7c6f5229eaa224f856660",
+      "spec_hash": "4ec31fdf45e74aa47a26e60030d01b965692d681c0b8abd8dc4c22ed94b97fae",
       "deliverable_ids": [
         "M7.B-MUNK-01",
         "M7.B-MUNK-01::PRINTPDF"
