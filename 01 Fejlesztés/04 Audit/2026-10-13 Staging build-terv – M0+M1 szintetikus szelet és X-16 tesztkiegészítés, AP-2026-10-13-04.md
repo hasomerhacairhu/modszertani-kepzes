@@ -93,7 +93,11 @@ kerül (MAN :222).
 A kurzusszintű PAGE-C és File elemeknek nincs build-ID-ja (RR „Staging-szabály” 4.); a build-visszaolvasás előtt ki kell
 jelölni (X-17; a repó nem nevez meg felelőst).
 
-## 5. X-16 tesztkiegészítés (döntésre vár)
+## 5. X-16 tesztkiegészítés (eldöntve: (a), 2026-10-13)
+
+> **Döntés (projektgazda, 2026-10-13; AP-2026-10-13-05):** az (a) változat; HUM 18. szakasz, X-16-TESZT. A hat teszt-only
+> elem azonosítója, beállítása és elkülönítése: MAN §8 (`QA-X16-…`); eltávolítás és a valódi lánc tesztje: RA 30. Az
+> alábbi szöveg a döntés előtti állapot.
 
 Az RT-P0-28 az LMS-M2-05, LMS-M4-05 és LMS-M6-05 Assignmentet kéri, ezek nincsenek az M0+M1 szeletben. Két út; a választás a
 projektgazdáé:
@@ -117,7 +121,9 @@ Javaslat: (a), mert az RT-P0-28 a tanulói megjelenítést méri, nem a nyitást
     LMS-M7-07 nincs benne); a (d) Grade-feltételű célpont nélkül nem mérhető (az LMS-M3-06 nincs benne).
 - Opció a RA 8 és a RA 29 (d) esetére: tesztcélú csonk-activity a szeletben, a MAN §4 „M1 megerősítve”, illetve „M1
   complete” Grade-feltételével az LMS-M1-06-ra, a környezeti rekordban rögzítve; a manifest unlock-feltételei és a RA-pontok
-  nem változnak. A választás a projektgazdáé (7. pont).
+  nem változnak. A választás a projektgazdáé (7. pont). **Döntés (projektgazda, 2026-10-13; AP-2026-10-13-05):** jóváhagyva;
+  HUM 18. szakasz, RA8-29-CSONK; a két csonk: MAN §8 (`QA-STUB-M1-MEG`, `QA-STUB-M1-COMPL`); az eredmény csak a
+  mechanizmust igazolja (RA 8, 29, 30).
 - Az eredmény a RA „Teszt-állapot” táblájába dátummal, verzióval és bizonyítékkal kerül; tesztfiókok név nélkül,
   képernyőkép személyes adat nélkül.
 
@@ -130,10 +136,10 @@ Javaslat: (a), mert az RT-P0-28 a tanulói megjelenítést méri, nem a nyitást
 | build-ID a kurzusszintű PAGE-C/File elemekre | a repó nem nevez meg felelőst |
 | az LMS-M0-06 próbálkozásszáma | a repó nem nevez meg felelőst |
 | az LMS-M1-05 elfogadott fájltípusa | LMS-gazda + DPO + hozzáférhetőségi gazda |
-| az X-16 tesztkiegészítés módja (5. pont) | projektgazda |
-| tesztcélú csonk-activity a RA 8 és a RA 29 (d) esetére (6. pont) | projektgazda |
-| a tanulói webszolgáltatás-elérés lezárása (X-16 release-kapu) | projektgazda + LMS-gazda + site-adminisztrátor |
-| az adatexport-út: vonatkozik-e rá a rejtés release-feltétele (HUM 17. szakasz) | DPO + jogi felelős + projektgazda |
+| az X-16 tesztkiegészítés módja (5. pont) | eldöntve: (a), 2026-10-13 (HUM 18. szakasz) |
+| tesztcélú csonk-activity a RA 8 és a RA 29 (d) esetére (6. pont) | eldöntve: jóváhagyva, 2026-10-13 (HUM 18. szakasz) |
+| a tanulói webszolgáltatás-elérés lezárása (X-16 release-kapu); a mobil-webszolgáltatás letiltása nincs jóváhagyva (HUM 18. szakasz, X-16-WS) | projektgazda + LMS-gazda + site-adminisztrátor |
+| az adatexport-út: vonatkozik-e rá a rejtés release-feltétele (HUM 17. szakasz); projektgazdai javaslat: HUM 18. szakasz, X-16-PRIV (PROPOSED) | DPO + jogi felelős (a projektgazda javaslatával) |
 
 ## 8. Célzott QA (QA20, implementáció) és feldolgozása
 
