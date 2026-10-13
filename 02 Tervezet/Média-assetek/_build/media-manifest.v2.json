@@ -2523,10 +2523,10 @@
       "id": "M3.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 315,
+      "line": 319,
       "body_lines": [
-        316,
-        321
+        320,
+        325
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2543,10 +2543,10 @@
       "id": "M3.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 718,
+      "line": 722,
       "body_lines": [
-        719,
-        722
+        723,
+        726
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2563,10 +2563,10 @@
       "id": "M3.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 842,
+      "line": 846,
       "body_lines": [
-        843,
-        848
+        847,
+        852
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -2583,10 +2583,10 @@
       "id": "M3.3-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 170,
+      "line": 174,
       "body_lines": [
-        171,
-        183
+        175,
+        187
       ],
       "unit": "M3.3",
       "module": "M3",
@@ -14395,7 +14395,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 214,
+      "line": 218,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14461,7 +14461,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 337,
+      "line": 341,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14527,7 +14527,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 610,
+      "line": 614,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -14593,7 +14593,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 252,
+      "line": 256,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14635,8 +14635,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        316,
-        321
+        320,
+        325
       ],
       "source_text": "„Madrihként a gyermekvédelem nem azt jelenti, hogy te oldasz meg mindent.\n\nA te feladatod az, hogy **észrevedd** és **komolyan vedd**, ha valami nagyon nem oké.\nHallgasd meg a hanihot, de ne ígérj teljes titoktartást. Ne nyomozz, ne konfrontálj, és **ne próbáld egyedül megoldani**: azonnal vond be a kijelölt Memunát – összeférhetetlenség esetén a név szerint kijelölt helyettesét. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.”",
       "source_hash": "11f7aa7b1123ae5833ae4cce80e441a008dedea5be10c547876b0e9f1a9378ba",
@@ -14664,7 +14664,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 648,
+      "line": 652,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14706,8 +14706,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        719,
-        722
+        723,
+        726
       ],
       "source_text": "„Itt most nincs jó vagy rossz válasz.\nElég, ha 1–2 mondatban leírsz valamit, amit magaddal vinnél ebből a leckéből.”",
       "source_hash": "6346f55118ff39e9717736e32c209f3c47456320e7065b2208b9fa9cf188cd2f",
@@ -14735,7 +14735,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 729,
+      "line": 733,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -14777,8 +14777,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        843,
-        848
+        847,
+        852
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy alap térképed arról, mi az a red flag, és mi a dolgod madrihként.\nA következő részben konkrétan végigvesszük, **mit tegyél és mit ne tegyél**,\nhogy még egyértelműbb legyen, mi fér bele és mi az, ami már veszélyes.”",
       "source_hash": "d8fa9e5a80997c3a39409d1200f4b2f3d21099bdb1b8ba1fbf46cc6c0438ce7f",
@@ -14806,7 +14806,7 @@
       "module": "M3",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md",
-      "line": 109,
+      "line": 113,
       "kind": "video",
       "subtype": "explainer",
       "mode": "generate",
@@ -14855,8 +14855,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        171,
-        183
+        175,
+        187
       ],
       "source_text": "„Szia! Képzeld el, hogy egy hanih odajön hozzád peula után,\nés azt mondja: *‘Most olyat mondok, amit **senki más nem tudhat**, jó?’*\n\nKözben érzed, hogy valami komoly dolog jön.\n\nMit csinálsz ilyenkor?\nMegígéred, hogy **senkinek** nem mondod el?\nVagy jelezel valakinek, de félsz, hogy ezzel elárulod?\n\nEz a lecke arról szól, hogy **mi a felelős lépés** ilyen helyzetekben,\nés mit jelent az, hogy **red flag**.”",
       "source_hash": "1237ab16a1b970d2e54b8cdb17b24feb1adc883cf327b04b3d968a69dbcdd8de",
