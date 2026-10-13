@@ -240,7 +240,7 @@ Naptár és időkeretek (projektgazdai döntés, 2026-10-02): indulás 2026-11-0
 **Blokkol:** learner-facing support szöveg véglegesítése, nem a belső staging build.  
 **Implementáció:** egy központi kurzusoldal „Segítség és kapcsolatok” blokkjából hivatkozik minden modul.
 
-**Projektgazdai döntés (2026-10-02)**: a „Segítség és kapcsolatok” blokk négy, szerep szerinti kontaktot ad: technikai segítség, tanulási/programkontakt, a kijelölt mentor, és ettől külön a Memuna (gyermekvédelem). Nincs „mentor / felelős / vezető” típusú lánc. Mentor:madrih kapacitás: javasolt kiinduló plafon 1:8, legfeljebb 1:10.
+**Projektgazdai döntés (2026-10-02)**: a „Segítség és kapcsolatok” blokk négy, szerep szerinti kontaktot ad: technikai segítség, tanulási/programkontakt, a kijelölt mentor, és ettől külön a Memuna (gyermekvédelem). Nincs „mentor / felelős / vezető” típusú lánc. **[SUPERSEDED (csak a kapacitás-mondat): a következő bekezdés kemény 1:8-as plafonja; az 1:10 tartalék kikerült]** Mentor:madrih kapacitás: javasolt kiinduló plafon 1:8, legfeljebb 1:10.
 
 Kapacitás (projektgazdai döntés, 2026-10-02): **kemény plafon 1:8** — egy mentor legfeljebb 8 aktív madrihot visz; az 1:10 tartalék kikerült (például 17 résztvevőhöz legalább 3 mentor kell). A gyermekvédelmi kontakt: lásd HUM-SAFE-01.
 

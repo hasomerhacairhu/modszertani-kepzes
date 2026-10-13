@@ -5,8 +5,8 @@
       "sha256": "6fc8496a73e4a1073226e99e3cca861583ea454b3ed2843f2d31ff156cc24d33"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "HUM 16 (D-08 b, LMS-M4-05, D-16, D-20, D-21, ERT-43, M6-NY-D27, JOG-1): owner decisions of 2026-10-13 within owner competence; QA18-BIZT-1, QA18-ERT-1..5, QA18-IMPL-1..3: targeted QA fixes",
-      "sha256": "dd41f3072a1c91325b44c474bd4b6e3334252778d928c9bf9ad86bd69ca853c0"
+      "reason": "X-16 (HUM 16 LMS-M4-05 open item): proposed configuration and RA 28 tests, decision pending; QA19-IMPL-1..5: targeted QA fixes; RT-P0-27 tracking row; HUM 243 capacity sentence superseded by HUM 245",
+      "sha256": "87546f631c49db18fb65367d54db8aff1a7f8ed54e81c3db69efd49d0fb0939f"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
@@ -17,12 +17,12 @@
       "sha256": "5492fe1f17a8c7a67704cdcc7d2897deb0527c751197f73721eb02750965d40e"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "HUM 16 (D-08 b, LMS-M4-05, D-16, D-20, D-21, ERT-43, M6-NY-D27, JOG-1): owner decisions of 2026-10-13 within owner competence; QA18-BIZT-1, QA18-ERT-1..5, QA18-IMPL-1..3: targeted QA fixes",
-      "sha256": "bc17eb78202b6838efed459e3790613cc3202953f80bf1cdff26367afc883258"
+      "reason": "X-16 (HUM 16 LMS-M4-05 open item): proposed configuration and RA 28 tests, decision pending; QA19-IMPL-1..5: targeted QA fixes; RT-P0-27 tracking row; HUM 243 capacity sentence superseded by HUM 245",
+      "sha256": "52fe3cb5e3817c67fbeb0afa8e0b943013985a4398b88f41d0718c2fbebadd55"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "HUM 16 (D-08 b, LMS-M4-05, D-16, D-20, D-21, ERT-43, M6-NY-D27, JOG-1): owner decisions of 2026-10-13 within owner competence; QA18-BIZT-1, QA18-ERT-1..5, QA18-IMPL-1..3: targeted QA fixes",
-      "sha256": "4fb54f82c98570538aff985cc9d61e07a6d5708525c2457df699c009444ba0f5"
+      "reason": "X-16 (HUM 16 LMS-M4-05 open item): proposed configuration and RA 28 tests, decision pending; QA19-IMPL-1..5: targeted QA fixes; RT-P0-27 tracking row; HUM 243 capacity sentence superseded by HUM 245",
+      "sha256": "2bb4250173901133b0cdebf6e4d16655df848edb633f03a4e2dee311807e6f0b"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
