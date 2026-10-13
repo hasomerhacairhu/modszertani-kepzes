@@ -25,10 +25,10 @@
 
 | Mutató | Érték |
 |---|--:|
-| Szemantikus asset | **420** |
-| Produkciós deliverable | **913** |
-| ebből legyártandó | 406 |
-| ebből újrahasznosítás | 8 |
+| Szemantikus asset | **415** |
+| Produkciós deliverable | **902** |
+| ebből legyártandó | 400 |
+| ebből újrahasznosítás | 9 |
 | ebből külső forrás | 6 |
 | Forrásblokk | 123 |
 | Feldolgozott fájl | 84 |
@@ -44,12 +44,12 @@ számolt *deliverable* keletkezik.
 
 | Diszpozíció | Db | Jelentése |
 |---|--:|---|
-| `PRESERVED` | 403 | azonos azonosítóval megmaradt szemantikus asset |
-| `CHANGED` | 3 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
-| `DERIVED_NOW` | 314 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
-| `MERGED_INTO_PARENT` | 6 | a szülő asset deklarációjába olvadt, nincs külön deliverable |
-| `REUSE` | 11 | explicit újrahasznosítás egy kanonikus assetre |
-| `NO_LONGER_REQUIRED` | 10 | a jelenlegi tananyag már nem igényli |
+| `PRESERVED` | 398 | azonos azonosítóval megmaradt szemantikus asset |
+| `CHANGED` | 2 | megmaradt, de a v2 egység-névtérben új azonosítót kapott |
+| `DERIVED_NOW` | 309 | a v2-ben egy szülő asset derivatívája (felirat / leirat / alt / hang) |
+| `MERGED_INTO_PARENT` | 7 | a szülő asset deklarációjába olvadt, nincs külön deliverable |
+| `REUSE` | 12 | explicit újrahasznosítás egy kanonikus assetre |
+| `NO_LONGER_REQUIRED` | 19 | a jelenlegi tananyag már nem igényli |
 | `CURRENTLY_UNMAPPED_ERROR` | 0 | **hiba** — egyetlen sor sem maradhat itt |
 
 **Összesen: 747 / 747 sor diszpozícionálva.**

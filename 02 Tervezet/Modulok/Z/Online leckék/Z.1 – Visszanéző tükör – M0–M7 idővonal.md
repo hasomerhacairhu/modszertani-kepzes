@@ -8,9 +8,9 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, reszponzív, mobil-first)
-* Beágyazott **Single Choice / Multi Choice** kérdések; a **szabad szöveges** lépések (SLIDE 5, SLIDE 6) a 3. szakasz runtime-követelménye szerint tanuló-lokálisak, beviteli elem nélkül
+* Beágyazott **Single Choice / Multiple Choice** kérdések; a **szabad szöveges** lépések (SLIDE 5, SLIDE 6) a 3. szakasz runtime-követelménye szerint tanuló-lokálisak, beviteli elem nélkül
 
-**Completion (lecke):** a választós interakciók érdemi megválaszolása (az LMS-Z-01 H5P-C profilja): SLIDE 1 Single Choice, SLIDE 3 Multi Choice, SLIDE 4 Single Choice Set. A SLIDE 5 fénypont-reflexiója és a SLIDE 6 záró mondata kötelező, de tanuló-lokális: nem completion-feltétel (D-2).
+**Completion (lecke):** az összefoglaló dia elérése (az LMS-Z-01 H5P-C profilja, „Receive a grade”; runtime acceptance 9. pont), nem minden beágyazott kérdés megválaszolása (projektgazdai döntés, 2026-10-12, ERT-1). A Course Presentation feladatelemei: SLIDE 4, kérdésenként egy H5P Multiple Choice elem, egyválaszos („Single Choice (Radio Buttons)”) módban. A SLIDE 1 Single Choice és a SLIDE 3 Multiple Choice pontozatlan véleményválasztó, nem önálló completion-elem (ERT-2). A SLIDE 5 fénypont-reflexiója és a SLIDE 6 záró mondata kötelező, de tanuló-lokális: nem completion-feltétel (D-2).
 
 **Mikrocél (tanulói nyelven):**
 
@@ -54,9 +54,9 @@ Nincs interakció – csak orientál, aztán **„Tovább a leckére”** gomb �
 
 > **Runtime-követelmény – szabad szöveges mezők:** a lecke szabad szöveges mezőibe a tanuló **saját, előre nem ismert szövege** kerül, ezért ezek nem kötött megoldású elemek, és nem pontozzuk automatikusan. A tényleges megvalósítást (Moodle-oldali szövegmező, H5P **Free Text Question** igazolt host/befoglaló-támogatással, vagy H5P **Essay** olyan befoglalóban, amely azt igazoltan támogatja) az `LMS – H5P runtime acceptance.md` 6. pontja dönti el és teszteli a cél verzión. **A Course Presentation dián belüli szabad szöveges mező nem feltételezhető.** A SLIDE 5 fénypont-reflexiója és a SLIDE 6 záró mondata kötelező, de tanuló-lokális lépés (D-2, `Emberi jóváhagyás szükséges.md` 10. szakasz): a tanuló magának írja le, CP-be ágyazott beviteli elem és Moodle-oldali mező nem épül hozzájuk, minimális karakterszám nincs, és nem completion-feltételek (`LMS – activity manifest.md`, LMS-Z-01; `LMS – H5P runtime acceptance.md` 24. pont). A beadandó, mentor által látható záró reflexió a Z.4 (LMS-Z-04).
 
-> **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 3. dia „Single Choice” / „Multi Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión.
+> **Runtime-követelmény – helyes válasz nélküli választós kérdések:** az 1. és a 3. dia „Single Choice” / „Multiple Choice” jelölésű reflektív kérdései pedagógiai igényt jelölnek, nem konkrét H5P content type-ot: egyetlen őszinte válasz sem jelölődhet hibásnak, és a választás nem torzíthatja a befoglaló elem pontszámát. A megvalósítási típust és a visszajelzés megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja szerint kell kiválasztani és tesztelni a cél verzión. A választások pontozatlanok, egyik sem önálló completion-elem, és a követett H5P próbálkozás lehetőleg ne rögzítse őket (ADV-4, ERT-2; `Emberi jóváhagyás szükséges.md` 14. szakasz).
 
-> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden szabad szöveges mezője előtt ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
+> **Fejlesztői feltétel – adatkezelési tájékoztató:** a lecke minden adatot rögzítő mezője előtt (a D-2 szerint a Z.1 szöveges lépései nem ilyenek) ott kell állnia a Program terv 4. szakasza szerinti „just-in-time” tájékoztatónak (mit írsz be, mire használjuk, meddig tároljuk, kihez fordulhatsz, ki látja). A tartalma csak a HUM-PRIV-01 szerint jóváhagyott célból, címzettkörből, megőrzésből és kontaktból jöhet; a megőrzési időt az `Adatvédelem – tanulói adatok és AI.md` 3. szakaszának mátrixa rögzíti (projektgazdai döntés, 2026-10-02), és az adatot gyűjtő aktivitás csak az ezt közlő tájékoztatóval nyitható meg valódi madrihnak (Program terv 4. szakasz).
 
 Összesen **6–7 slide**.
 Struktúra: Intro/Hook → Idővonal Input → Modul-egymondatosok → Mini-check → Saját fénypont → Záró reflektív kérdés.
@@ -263,7 +263,7 @@ Opciók:
 
 Opcionális narráció (kb. 15–20 mp), szó szerint az alábbi szöveg (Z.1-NAR-01-VO):
 
-**Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (vagy adj hozzá magyar feliratot), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
+**Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (csak hangot tartalmazó narráció: ez a látható leirat a szöveges ekvivalens, első sora a kanonikus AI-címke; a H5P Audio elemtől feliratsáv nem várható – VO D-19, D-21), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
 
 <!-- @source {"id": "Z.1-NAR-01-VO", "kind": "narration"} -->
 
@@ -318,7 +318,7 @@ Alul 1 gyors Check-kérdés:
 
 > „Melyik modulnál érzed úgy, hogy **‘ez rólam szól’** vagy **‘ez igaz rám’**?”
 
-H5P **Multi Choice** (pipálhat többet is – nincs jó/rossz, csak reflexió) – „Válaszd ki 1–3 modult a listából”.
+H5P **Multiple Choice** (pipálhat többet is – nincs jó/rossz, csak reflexió) – „Válaszd ki 1–3 modult a listából”.
 
 Visszajelzés:
 
@@ -332,7 +332,7 @@ Visszajelzés:
 
 #### Mit látunk?
 
-* Egyszerű **Single Choice Set** (3–5 kérdés, egymás után).
+* Egyszerű **H5P Multiple Choice** egyválaszos („Single Choice (Radio Buttons)”) módban, kérdésenként egy elem (3–5 kérdés, egymás után).
 * Minden kérdésben egy rövid leírás áll, és a tanuló három modul közül választja ki, melyikhez tartozik.
 
 #### Példák:
@@ -365,7 +365,7 @@ Opciók:
 
 **Kérdés 4**
 
-> „Melyik modulban írtál **Peula v2-t Zmán Kvucával**?”
+> „Melyik modulban írtál **Peula v2-t Zmán Kvucára**?”
 
 * M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”
 * M7 – „Peula a papírtól a valóságig” ✅
@@ -379,7 +379,7 @@ Opciók:
   * 2. kérdés: „Majdnem 🙂 – a kvuca fejlődése és a gyermekvédelem az M3-ban volt: ott tanultál a csoportszakaszokról, a gyermekvédelmi jelzésekről, és arról, hogy kinek jelzel.”
   * 3. kérdés: „Majdnem 🙂 – a nonformális nevelés és a tanulástan az M5-ben volt: ott gondolkodtál cél–kvuca–módszer logikával.”
   * 4. kérdés: „Majdnem 🙂 – a Peula v2-t Zmán Kvucára az M7-ben írtad meg.”
-* A Single Choice Setben nincs kérdésenkénti visszajelző mező (csak pontsávos összesítő visszajelzés); hogy a kérdésenkénti szöveg a választott megvalósításban megjelenik-e, az `LMS – H5P runtime acceptance.md` 14. pontja teszteli.
+* A kérdésenkénti szöveg a Multiple Choice opciónkénti visszajelzésébe kerül (a Single Choice Setben nincs ilyen mező); a megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja teszteli.
 
 ***
 
@@ -528,7 +528,7 @@ Opciók:
 
 Opcionális narráció (20–30 mp):
 
-**Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (vagy adj hozzá magyar feliratot), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
+**Akadálymentesség (kötelező): a narráció szövegét szó szerint jelenítsd meg a dián vagy a slide alatti szövegmezőben (csak hangot tartalmazó narráció: ez a látható leirat a szöveges ekvivalens, első sora a kanonikus AI-címke; a H5P Audio elemtől feliratsáv nem várható – VO D-19, D-21), hogy a tanulási cél hang nélkül is teljesüljön. Új tartalom nem hangozhat el, ami a leírt szövegben nincs benne.**
 
 <!-- @source {"id": "Z.1-NAR-02-VO", "kind": "narration"} -->
 

@@ -13,17 +13,17 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 
 | | |
 |---|---:|
-| Szemantikus asset | **420** |
-| ebből újrahasznosítás (nem gyártandó) | 8 |
+| Szemantikus asset | **415** |
+| ebből újrahasznosítás (nem gyártandó) | 9 |
 | ebből élő/runtime tétel (a képző hozza létre a peulán) | 3 |
-| Központilag előgyártható asset | **409** |
-| Produkciós deliverable | **913** |
+| Központilag előgyártható asset | **403** |
+| Produkciós deliverable | **902** |
 
 ### Státusz szerint
 
 | Státusz | Asset | Deliverable |
 |---|---:|---:|
-| specifikáció kész | 300 | 539 |
+| specifikáció kész | 295 | 528 |
 | jogtisztázás alatt | 119 | 370 |
 | emberi döntésre vár | 1 | 4 |
 
@@ -41,7 +41,7 @@ karban. A soronkénti munkalista: `media-production-plan.csv`.
 
 | Kapu-terheltség (központilag előgyártható tételek) | Asset | Deliverable |
 |---|---:|---:|
-| nincs nyitott kapu | 290 | 536 |
+| nincs nyitott kapu | 284 | 525 |
 | pontosan EGY kapu | 2 | 4 |
 | TÖBB kapu | 117 | 368 |
 
@@ -73,13 +73,13 @@ legtöbb assetet **abban a pillanatban**. Ez nem határidő, hanem
 
 | # | Kapu | Ekkor felszabaduló asset | …deliverable | Halmozott gyártható asset |
 |---:|---|---:|---:|---:|
-| 1 | R2 — AI-avatar / AI-hang jogtisztaság | 2 | 4 | 292 |
-| 2 | R3 — narrátor hang-bible (motor / voice-ID) | 115 | 362 | 407 |
-| 3 | nyitott emberi döntés | 1 | 4 | 408 |
-| 4 | nincs jóváhagyott felmondható szkript | 0 | 0 | 408 |
-| 5 | R5 — vizuális rendszer: stílus-token + hex-paletta | 0 | 0 | 408 |
-| 6 | R7 — véglegesített Moodle-felület | 0 | 0 | 408 |
-| 7 | R8 — GDPR / képmás valós fotón és képernyőképen | 1 | 2 | 409 |
+| 1 | R2 — AI-avatar / AI-hang jogtisztaság | 2 | 4 | 286 |
+| 2 | R3 — narrátor hang-bible (motor / voice-ID) | 115 | 362 | 401 |
+| 3 | nyitott emberi döntés | 1 | 4 | 402 |
+| 4 | nincs jóváhagyott felmondható szkript | 0 | 0 | 402 |
+| 5 | R5 — vizuális rendszer: stílus-token + hex-paletta | 0 | 0 | 402 |
+| 6 | R7 — véglegesített Moodle-felület | 0 | 0 | 402 |
+| 7 | R8 — GDPR / képmás valós fotón és képernyőképen | 1 | 2 | 403 |
 
 ## 4. Kötegek
 
@@ -94,7 +94,7 @@ peula alatt hoz létre, tehát előre egyáltalán nem gyárthatók.
 
 | Köteg | Függőség | Asset | Deliverable |
 |---|---|---:|---:|
-| **BATCH 0 — MOST GYÁRTHATÓ** | nincs nyitott kapu | 290 | 536 |
+| **BATCH 0 — MOST GYÁRTHATÓ** | nincs nyitott kapu | 284 | 525 |
 | **BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN** | R5 — vizuális rendszer lock | 0 | 0 |
 | **BATCH 2 — HANG-ZÁR UTÁN** | R3 — narrátor-hang lock | 0 | 0 |
 | **BATCH 3 — AI-AVATAR, KARAKTERVIDEÓ ÉS SZINTETIKUS HANG** | R2 + R3 — avatar- és hang-jogtisztaság, hang-lock | 117 | 366 |
@@ -105,7 +105,7 @@ peula alatt hoz létre, tehát előre egyáltalán nem gyárthatók.
 
 ### BATCH 0 — MOST GYÁRTHATÓ
 
-**Függőség:** nincs nyitott kapu · **290 asset / 536 deliverable**
+**Függőség:** nincs nyitott kapu · **284 asset / 525 deliverable**
 
 A másolat és a specifikáció kész. Két dolgot érdemes tudni: a szabad
 szöveges H5P elemek megvalósítási típusát az `LMS – H5P runtime acceptance.md`
@@ -138,9 +138,9 @@ tisztázandó.
 | M2 | poster | 4 | 8 |
 | M2 | worksheet | 7 | 15 |
 | M3 | card-set | 5 | 10 |
-| M3 | diagram | 6 | 12 |
+| M3 | diagram | 5 | 10 |
 | M3 | icon-set | 8 | 15 |
-| M3 | illustration | 8 | 16 |
+| M3 | illustration | 4 | 8 |
 | M3 | other | 10 | 10 |
 | M3 | poster | 3 | 6 |
 | M3 | print | 2 | 2 |
@@ -171,9 +171,9 @@ tisztázandó.
 | M7 | card-set | 3 | 6 |
 | M7 | diagram | 6 | 12 |
 | M7 | icon-set | 3 | 6 |
-| M7 | illustration | 6 | 12 |
+| M7 | illustration | 6 | 13 |
 | M7 | poster | 7 | 14 |
-| M7 | worksheet | 12 | 25 |
+| M7 | worksheet | 11 | 23 |
 | Z | card-set | 3 | 6 |
 | Z | diagram | 1 | 2 |
 | Z | icon-set | 2 | 4 |
@@ -181,7 +181,7 @@ tisztázandó.
 | Z | poster | 1 | 2 |
 | Z | worksheet | 2 | 4 |
 
-A 290 tétel soronként a
+A 284 tétel soronként a
 `media-production-plan.csv` fájlban van (`Köteg` oszlop = `B0`).
 
 ### BATCH 1 — VIZUÁLIS RENDSZER ZÁRÁSA UTÁN
@@ -250,7 +250,7 @@ _Üres._
 
 | Asset | Típus | Deliverable | Kapuk | Cím |
 |---|---|---:|---|---|
-| `M0.A-EGY-01` | other | 1 | — | Zárókör induló-szavainak rögzítése (képzői jegyzet a Z.A-hoz) |
+| `M0.A-EGY-01` | other | 1 | — | Zárókör indulószavainak rögzítése (képzői jegyzet a Z.A-hoz) |
 | `M0.A-FOTO-01` | photo | 2 | R8 | Kvuca-plakátok archív fotói (Z.A modulhoz) |
 | `Z.A-KART-04` | card-set | 2 | — | M0-tükör név nélküli idézet-kártyák (M0.A kickoff visszakötés) |
 
@@ -263,17 +263,17 @@ specifikációjú — se a leghiányosabb brief, se a legbonyolultabb darab.
 
 | Család | Pilot | Köteg | Kapuk | Család mérete | Cím |
 |---|---|---|---|---:|---|
-| Narráció / hang | `M3.4-NAR-02` | B3 | R2, R3 | 89 | Outro narráció (opcionális) – SLIDE 7 |
+| Narráció / hang | `M4.2-NAR-01` | B3 | R2, R3 | 89 | Slide 1 narráció – „Mit mondanál elsőre?” |
 | AI beszélőfej-videó | `M2.2-VID-01` | B3 | R2, R3 | 18 | Hook-videó: „A kvucád 15 percet késik…” |
-| AI karakter- / jelenetvideó | `M4.1-VID-05` | B3 | R2, R3 | 9 | Jelenet 3 karaktervideó – „Nyitott, stabil madrih” |
-| Diagram / ábra | `M1.B-DIA-01` | B0 | — | 39 | Szerepcsere-ábra (A→C, C→B, B→A forgás) |
+| AI karakter- / jelenetvideó | `M4.1-VID-02` | B3 | R2, R3 | 9 | Interactive Video – 3 madrih-kiállás mini-jelenettel + beágyazott kérdések |
+| Diagram / ábra | `M1.B-DIA-01` | B0 | — | 38 | Szerepcsere-ábra (A→C, C→B, B→A forgás) |
 | Ikon-készlet | `M4.3-IKO-01` | B0 | — | 40 | Kérdéstípus szín-ikon készlet (4 db) |
-| Illusztráció | `M3.3-ILL-02` | B0 | — | 46 | Jelenet – Branching 2: sértő mém a csoportchatben |
-| Munkalap / nyomtatvány | `Z.A-MUNK-01` | B0 | — | 66 | Híd a terepre – kétoszlopos poszter-sablon |
-| Poszter és kártyaszett | `M5.B-KART-01` | B0 | — | 59 | Indítósor-kártyaszett (6-8 db kész táblázat-sor) |
+| Illusztráció | `M0.4-ILL-01` | B0 | — | 42 | Hook-vizuál: a kvuca online terei a telefonon |
+| Munkalap / nyomtatvány | `Z.A-MUNK-01` | B0 | — | 65 | Híd a terepre – kétoszlopos poszter-sablon |
+| Poszter és kártyaszett | `M2.F-POSZ-01` | B0 | — | 59 | Tájékozódó tábla – M2 leckelista + név nélküli témakérések |
 | Fotó / képernyőkép | `M2.3-FOTO-01` | B0 | — | 4 | Hook háttér – someres/kvuca-vizuál |
-| H5P-interakció / Moodle-elem | `M3.4-EGY-03` | B0 | — | 27 | H5P Drag and Drop (két célzóna) – „OK / Nem OK madrihként” (SLIDE 4, a húzásmentes alapértelmezett út mellett) |
-| Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Galériaséta reakció-eszközök (post-it / pötty-matrica) |
+| H5P-interakció / Moodle-elem | `M0.2-EGY-01` | B0 | — | 26 | Akadálymentes iframe-cím és fókusz-spec a SLIDE 3 interakcióhoz |
+| Beszerzendő fizikai eszköz | `M5-HUB-EGY-01` | B0 | — | 6 | Galériaséta reakció-eszközök (post-it / pöttymatrica) |
 
 ## 6. Újrahasznosítás — nem gyártandó
 
@@ -288,6 +288,7 @@ legyártásával elkészülnek.
 | `M6-HUB-MUNK-01` | `M6.B-MUNK-01` | M6 |
 | `M6.3-FOTO-02` | `M6.3-FOTO-03` | M6 |
 | `M6.F-MUNK-02` | `M6.B-MUNK-01` | M6 |
+| `M7-HUB-MUNK-01` | `M7.B-MUNK-04` | M7 |
 | `M7.4-IKO-01` | `M3.2-IKO-01` | M7 |
 | `Z-HUB-POSZ-02` | `Z.A-POSZ-01` | Z |
 
