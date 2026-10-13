@@ -863,8 +863,24 @@ A státusz-szemantika a 11. szakasz szerinti.
   projektgazda, az LMS-gazda és a site-adminisztrátor dönt (manifest LMS-M4-05).
 - **Nyitott (adatvédelmi kérdés):** a tanuló saját adatexportja („Data requests” – „Export all of my personal data”) is
   tartalmazza a nyers Assignment-pontot. Arról, hogy a rejtés release-feltétele erre az útra is vonatkozik-e, a DPO, a jogi
-  felelős és a projektgazda dönt; a build ezt az utat nem korlátozza (manifest LMS-M4-05).
+  felelős és a projektgazda dönt; a build ezt az utat nem korlátozza (manifest LMS-M4-05). A projektgazda javaslata: 18.
+  szakasz, X-16-PRIV (PROPOSED).
 
 | Azonosító | Projektgazdai döntés (2026-10-13) | Érintett hely | Nyitva marad |
 |---|---|---|---|
 | X-16 | A Moodle „Grade letter” megoldás staging-validációra elfogadva: egységes címke „Szöveges értékelés”, 0 %-os alsó határral; az LMS-M2-05, LMS-M4-05 és LMS-M6-05 rubrikáján `showscorestudent` = No, a grade itemen „Grade display type” = „Letter”, a grade item látható; a javasolt tanulói pontkönyv-beállítások érvényesek, „Show average” = No, „Show grades” = Yes, „Show feedback” = Yes; a „Course total” rejtett. A rubrikaszintek, a pontértékek, a küszöbök, a completion és a GATE-CP változatlanok. A kurzusszintű mellékhatásokat külön regressziós teszt ellenőrzi. | manifest LMS-M4-05 (LMS-M2-05, LMS-M6-05 mutatóval); runtime acceptance 28., 29. pont | a runtime-teszt (RT-P0-28, RT-P0-29); a webszolgáltatás-út lezárása; az adatexport-út adatvédelmi kérdése; a végleges release-elfogadás. |
+
+## 18. Projektgazdai döntés – X-16 tesztkiegészítés, csonk-activityk és QA-elkülönítés (2026-10-13)
+
+A projektgazda 2026-10-13-i döntése a staging build-terv két nyitott tesztkiegészítéséről és a QA-elemek elkülönítéséről.
+Szó szerint: `01 Fejlesztés/04 Audit/2026-10-13 Projektgazdai döntés – X-16 tesztkiegészítés, RA 8 és 29 csonk-activityk,
+QA-elkülönítés, AP-2026-10-13-05.md`. A státusz-szemantika a 11. szakasz szerinti. A deploymentre ez a döntés nem ad
+engedélyt; runtime-teszt ettől nem igazolt.
+
+| Azonosító | Projektgazdai döntés (2026-10-13) | Érintett hely | Nyitva marad |
+|---|---|---|---|
+| X-16-TESZT | Az X-16 tesztkiegészítés (a) változata: az LMS-M2-05, LMS-M4-05 és LMS-M6-05 Assignment, valamint a hozzájuk tartozó három GATE-CP sor (LMS-M2-10, LMS-M4-10, LMS-M6-07) tesztcélú, előfeltétel nélküli példányként készül el a zárt staging QA-környezetben. A tényleges rubrika, pontozás, szintek és GATE-CP-szemantika változatlan; a kanonikus sorok valódi unlock-szabályai nem változnak. | manifest §8; runtime acceptance 28. pont, 29. pont (a), (f), 30. pont | a runtime-teszt (RT-P0-28, RT-P0-29, RT-P0-30); nyitott projektgazdai döntés: elég-e az RT-P0-28-hoz és az RT-P0-29 (a), (f) esetéhez a QA-másolaton kapott eredmény a kanonikus beállítások visszaolvasásával (runtime acceptance 30. pont (c)). |
+| RA8-29-CSONK | A runtime acceptance 8. és 29. pontjához két tesztcélú csonk-activity: a valódi, LMS-M1-06-ra épülő Grade-alapú hozzáférési feltételt modellezik („M1 megerősítve”, „M1 complete”); a negatív és a pozitív próbához mindkét szükséges állapot előállítható. Az eredmény kizárólag az adott mechanizmust igazolja, nem a teljes M2–Z end-to-end működést. | manifest §8; runtime acceptance 8., 29., 30. pont | a runtime-teszt (RT-P0-08, RT-P0-29, RT-P0-30). |
+| STG-QA | QA-elkülönítés: a 13 kanonikus M0+M1 activity önálló, változatlan build-szelet; a hat X-16 tesztelem és a két csonk kizárólag belső QA-elem ugyanabban a zárt staging-kurzusban, elkülönített tesztszakaszban; egyértelmű tesztazonosítót kapnak, nem kerülnek a kanonikus completion-követelményekbe és a tanulói release-be; a release előtt eltávolítandók, és a valódi előfeltétel-lánc külön tesztelendő; a manifestben a kanonikus build-ID-k és a teszt-only azonosítók elkülönülnek. | manifest §8, §6; runtime acceptance 30. pont; `RELEASE-READINESS.md` Staging-szabály 6. | az eltávolítás és a valódi lánc tesztje (RT-P0-30). |
+| X-16-PRIV | **PROPOSED – projektgazdai javaslat, nem lezárt döntés.** A numerikus értékelés ne jelenjen meg a normál tanulói Assignment-, Grades-, Quiz- vagy mobilos tanulási felületen. A GDPR szerinti, jogosult sajátadat-hozzáférést és adatexportot ettől külön kell kezelni. A nyers értékelési adat pusztán a felületi rejtés érdekében nem tartható vissza automatikusan. | 17. szakasz („Nyitott (adatvédelmi kérdés)”); manifest LMS-M4-05 | nyitott: a DPO és a jogi felelős döntési kapuja. |
+| X-16-WS | **Nyitott – nincs jóváhagyva:** a mobil-webszolgáltatások letiltása. A site-szintű hatásokat, a már kiadott tokeneket és az alternatív jogosultságkorlátozást a site-adminisztrátorral kell tisztázni. | 17. szakasz („Nyitott (release-kapu)”); manifest LMS-M4-05 | nyitott: a webszolgáltatás-út lezárása (projektgazda + LMS-gazda + site-adminisztrátor). |

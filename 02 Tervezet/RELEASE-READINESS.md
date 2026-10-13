@@ -76,7 +76,8 @@ A staging buildben:
 2. emberi döntés helyén **belső build-jelölő** maradhat, de ez nem kerülhet learner-facing nézetbe;
 3. személyes adat helyett szintetikus tesztadatot használunk;
 4. minden tényleges Moodle activity kap stabil build-ID-t és a létrehozás után rögzített Moodle `cmid`-t;
-5. minden runtime-bizonyítást `IMPLEMENTATION_TEST_REQUIRED` állapotból csak tényleges teszteredmény mozdíthat `RUNTIME_VERIFIED` állapotba.
+5. minden runtime-bizonyítást `IMPLEMENTATION_TEST_REQUIRED` állapotból csak tényleges teszteredmény mozdíthat `RUNTIME_VERIFIED` állapotba;
+6. teszt-only QA-elem (`LMS – activity manifest.md` §8, `QA-` azonosító) csak a zárt staging-kurzus elkülönített QA-szakaszában lehet: nem kanonikus build-ID, nem completion-kritérium, tanulói release-be nem kerül; eredménye csak az adott mechanizmust igazolja; a release előtt eltávolítandó, és a valódi előfeltétel-lánc külön tesztelendő (`LMS – H5P runtime acceptance.md` 30. pont; projektgazdai döntés, 2026-10-13, `Emberi jóváhagyás szükséges.md` 18. szakasz).
 
 ## Modul-specifikus élesítés
 
@@ -86,7 +87,7 @@ A safeguarding-tartalomra külön szabály vonatkozik: M3.3, M3.B és az M3/M7 g
 
 ## Legkisebb értelmes staging-szelet
 
-**M0 + M1**, belső tesztfiókokkal.
+**M0 + M1**, belső tesztfiókokkal. A 13 kanonikus M0+M1 activity önálló, változatlan szelet; a szelethez ugyanabban a zárt kurzusban, elkülönített QA-szakaszban teszt-only QA-elemek kapcsolódhatnak (`LMS – activity manifest.md` §8; Staging-szabály 6.).
 
 Miért ez a minimum:
 - M0 bizonyítja a kurzusnavigációt, H5P completiont, fórumot és a puha completion-logikát;
