@@ -8,7 +8,7 @@
 **Eszközök:**
 
 * H5P **Course Presentation** (6–7 slide, mobil-first)
-* Beágyazott kérdéstípusok: Single Choice, esetleg Multiple Choice; a kötelező szöveges válaszok helye a lecke melletti Moodle-oldali mező (LMS-Z-06), az 5. dia célmondata és a 7. dia opcionális mini válasza pedig tanuló-lokális, beviteli elem nélkül (3. szakasz)
+* Beágyazott kérdéstípusok: Single Choice, esetleg Multiple Choice; a kötelező szöveges válaszok helye a lecke melletti Moodle-oldali mező (LMS-Z-06), az 5. dia célmondata (kötelező tanulási lépés) és a 7. dia opcionális mini válasza pedig tanuló-lokális, beviteli elem nélkül (3. szakasz)
 
 **Mikrocél (tanulói nyelven):**
 
@@ -263,7 +263,7 @@ Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe kerül (Moodle: a „L
 
 **Rövid szöveges válasz – tanuló-lokális lépés**
 
-* Beviteli elem nincs: a tanuló a saját jegyzetébe írja a mondatot; nem tárolt, nem completion-feltétel, és nem része a „Z.3 – Szöveges válaszok” mezőnek (projektgazdai döntés, 2026-10-12, ADV-3; az N-M1-04 mintája).
+* Kötelező tanulási lépés, de tanuló-lokális (projektgazdai döntés, 2026-10-13, D-15 (b); a Z.1 SLIDE 5–6 és a Z.2 SLIDE 5–7 mintája): beviteli elem nincs, a tanuló a saját jegyzetébe írja a mondatot; nem tárolt, nem completion-feltétel, és nem része a „Z.3 – Szöveges válaszok” mezőnek (projektgazdai döntés, 2026-10-12, ADV-3; az N-M1-04 mintája).
 
 Mintakezdés a dián:
 `A következő hónapban minden peula után ...`

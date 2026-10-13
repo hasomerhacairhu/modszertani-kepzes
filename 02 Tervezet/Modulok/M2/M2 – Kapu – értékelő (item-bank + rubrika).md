@@ -211,7 +211,7 @@ A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha e
 
 ```
 MADRIH IDENTITÁS-JEGYZET  ·  M2
-Név (vagy becenév): ______________________   Kvuca / csoport: ______________
+Kvuca / csoport: ______________
 
 1) AZ IDENTITÁS-KÖREIM  (M2.1)
    3–4 körömet megnevezem, és mindegyikhez 1 mondat: hogyan hat rám MADRIHKÉNT?

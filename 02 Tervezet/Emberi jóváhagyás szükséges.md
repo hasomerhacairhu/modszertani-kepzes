@@ -767,3 +767,61 @@ a 11. szakasz szerinti.
 | RT-4 | M6.4 Branching Scenario A → B → opcionális C → D → 6D → ZÁRÓ valós bejárása; kizárólag végponti completion, passz és érintés/húzásmentes működés | LMS-gazda + a11y | nyitott bizonyíték-kapu |
 | RT-5 | M7 AI „store=false” és esetleges proxy/provider naplózások auditja, API és ZDR jogcím; no-AI út feladat-, grade- és completion-paritása | LMS-gazda + DPO | nyitott bizonyíték-kapu |
 | RT-6 | M7.2/M7.3 minden párosítás billentyűzettel és egyérintéses kattintás/koppintás útján egyenértékű, azonos visszajelzéssel; mobil portrait teszt | LMS-gazda + független hozzáférhetőségi QA | nyitott bizonyíték-kapu |
+
+## 15. Projektgazdai döntések és irányok – a D-01…D-23 csomagok (2026-10-13)
+
+A 2026-10-13-i projektgazdai irányok átvezetése a kánoni döntési helyre. Szó szerint:
+`01 Fejlesztés/04 Audit/2026-10-13 Projektgazdai felhatalmazás és irányok – D-01…D-23, AP-2026-10-13-01.md`. A csomagok
+(kérdések, opciók, kutatás): `01 Fejlesztés/04 Audit/2026-10-13 Döntési javaslatok – QA-döntések és részleges átvezetések, AP-2026-10-12-02.md`.
+A státusz-szemantika a 11. szakasz szerinti.
+
+- **A 14. szakasz nem nyílik újra.** Ez a szakasz a 14. szakasz döntéseinek alkalmazását rögzíti ott, ahol a döntés a
+  projektgazda hatáskörében marad.
+- **Lezárt döntés:** az első táblázat sorai. Projektgazdai hatáskör: a 14. szakasz érintett sorában nincs más szerepnek
+  fenntartott jóváhagyás, és a független ellenőrzés (verifier) a tételt nem sorolta szerepköri döntésnek. A jobb oldali
+  oszlop utólagos vétó/QA; vétónál a sor `REOPENED`.
+- **Nyitott, szerepköri döntésre vár:** a második táblázat sorai. A projektgazda iránya ezeknél **nem döntés**, és nem
+  helyettesíti a megnevezett szerep döntését vagy írásos jóváhagyását; a sorok kifejezetten `nyitott` jelölésűek. A
+  kitöltött elfogadási javaslatok: az `01 Fejlesztés/04 Audit/` 2026-10-13-i jóváhagyási csomagjai.
+- **Amit a szakasz nem zár le:** a 14. szakasz bizonyíték- és aláírás-bejegyzéseit (G1–G8), a runtime-bizonyítékot, a
+  futó pilotot (`main@213a4c5`, CC-04) és a release-t. A szakasz nem release-jóváhagyás.
+- **Pontosítások a korábbi szövegekhez:** a D-08 (b) sorban a 11. szakasz és az M3.3 §7.1 „ugyanaz a passz-választó”
+  szabálya a kérdésre és a két opcióra vonatkozik, a csomópont címe csomópontonként eltér; a D-15 (e) sor a PRG-9 b
+  átvezetése, ezért az M2.1 identitás-kör kérdésénél a HUM-PRIV-01 zárójeles mechanizmusa helyett az interakció nélküli,
+  nem rögzítő dia érvényes (a HUM-PRIV-01 célja – a válasz nem kerül tárolásra – változatlan); a D-22 sor a PRG-16
+  „átjárás”-olvasatát az M7.B-re pontosítja.
+
+| Azonosító | Projektgazdai döntés (2026-10-13) | Alap (14. szakasz) | Utólagos ellenőrzés (vétó/QA) |
+|---|---|---|---|
+| D-02 | A GYV-17 „a kiskorúakra is térjen ki” fordulata alkalmazási kört jelent: a tiltott zónák keretét kiskorú résztvevőkkel is mindig ki kell mondani. Az M6.A meglévő, kötelező kerete ezt teljesíti; további szöveg nem kell. | GYV-17 | Memuna + a peula tartalomfelelőse. |
+| D-03 | Az M3.A és az M3.B kártya- és esetkészlete a meglévő kártyák duplikálásával igazodik a létszámhoz (8–20 főnél 3–5 fős csoportok; négy csoporttól a 8 kártyás szett második példánya, illetve az 1–3. eset két példányban, visszahozás esetenként); az M3.B 4. esetkártyája a 4.3.3 előre megírt, fiktív esete marad, a lépés címéből kikerül az „új”. Új eset nem készül. | PRG-11, PRG-12 | M3 modulgazda + Memuna; a 4. esetkártya forgatókönyvének Memuna-reviewja (PRG-12) nyitott bizonyíték. |
+| D-06 | A JOG-1 jogászi ellenőrzésének elsődleges nyilvántartása a G1 tracker-issue (#1); a `RELEASE-READINESS.md` és a `Gyermekvédelem – release gate.md` erre hivatkozik. Az issue nyilvános: személyes adat nem kerül bele. | JOG-1 („a nyilvántartás helyéről a projektgazda”) | jogi szakértő; jóváhagyás: Memuna (GK §5). |
+| D-08 (b) | Az M3.3 P1–P4 passz-választóin a soron következő szitu meglévő címe előzetes témajelzésként megjelenik (build-spec, `showContentTitle`); a megjelenést stagingben igazolni kell. | GYV-2 (MAN:57 és az M3.3 §7.1: projektgazda mint build-spec gazda) | Memuna (QA: a cím terhelő-e). |
+| D-11 | Az ADV-1 csoportszűkítése kiterjed a H5P-C, a QUIZ-D/QUIZ-M, az ASSIGN-S/ASSIGN-M és a GATE-CP mentori nézetére. A csoportmód önmagában nem elegendő: „Separate groups” az activityken és a kurzuson (a pontkönyv miatt; „Force group mode”: „No”), a mentor szerepe csak csoportba sorolás után, csoportokon átnyúló jogosultság a mentor szerepén nincs, a szélesebb szerepek szűken, név szerint, auditálhatóan; második értékelő és F-peula képző az ADV-2 szerint; az M0 belépőkvíz egyéni válaszai a GYV-23 szerint. Negatív hozzáférési tesztek a runtime acceptance 15. pontjában. | ADV-1 (ADV §3: „a döntés kiterjedéséről a projektgazda dönt”), ADV-2, GYV-23 | DPO / jogi felelős; a szerepkiosztást az LMS-gazda rögzíti; runtime: RT-P0-15. |
+| D-12 | A GYV-23 „a biztonsági 1–2. item nyilvános visszajelzése”: a két item helyes válasza és magyarázata név és egyéni eredmény nélkül, csoportszinten, mindenkinek. | GYV-23 | programvezető + Memuna; adatkör: DPO. |
+| D-13 (a), (e) | (a) Az ADV-11 közös eszköz-protokollja minden közös vagy tartalék eszközre vonatkozik, az M0.A technikai segítségpontjára is. (e) Az M2 kapubeadvány külön névmezője megszűnik; a beadást a Moodle-fiók azonosítja. Megőrzési időt ez a sor nem rögzít. | ADV-11, ADV-1 | (a) LMS-gazda + DPO; (e) DPO / jogi felelős. |
+| D-15 | A hat build-spec javaslat: (a) az M3 kapukvíz a helyzetleírás megerősített rubrikájának külön GATE-CP-je (LMS-M3-08) után nyílik, határ nélküli Grade-feltétellel (ERT-9); (b) a Z.3 5. dia célmondata kötelező, tanuló-lokális lépés beviteli elem és completion nélkül (ADV-3); (c) az M4 fejlesztő rubrikája az LMS-M4-05-ön rögzül (ERT-8); (d) az LMS-M6-05 pontozása a rubrika nyers összege, a tanuló elől rejtve, a rubrikapontértékek változatlanok (LMS-4); (e) az M2.1 SLIDE 4 a követett CP interakció nélküli reflexiós diája (PRG-9 b); (f) a fórum feltétele csak a megnyitás után induló kohorszban él, zárt állapotban egyetlen feltétel sem hivatkozik rá (ADV-6). Mindegyik külön tesztelendő. | ERT-9, ADV-3, ERT-8, LMS-4, PRG-9 b, ADV-6 | (a) projektgazda / build-spec gazda, QA: értékelési felelős; (b) DPO / jogi felelős; (c) értékelési felelős, programvezető, adatkör: DPO; (d) LMS-gazda + értékelési felelős; (e) build-/LMS-gazda + M2 modulgazda; (f) DPO / jogi felelős. |
+| D-16 | A Z.4 „Teljesítve” mércéje a beadás egészének minimális értelmezhetősége; a három részes szerkezet formatív útmutató, a szenzitív részek passzolhatók. Az ERT-3 „kiürítés” szava az üres kötelező beküldés negatív tesztjét jelenti; a válaszok törlése külön megőrzési kérdés (DPO). | ERT-38, ERT-3 | ERT-38: programvezető; Z.4: DPO + programvezető. |
+| D-17 (d) | A v2 R1 változatlan: a semleges vagy kitalált someres érték teljesíti (ADV-5). | ADV-5 (someres vonatkozásban a projektgazda) | DPO / jogi felelős; QA: helyi ideológiai felelős (HUM-SOMER-01). |
+| D-19 (b) | Az M4.1 ILO 2 a ténylegesen mért szintre (felismerés) szűkül. | PRG-2, ADV-3 | M4 modulgazda; QA: értékelési felelős. |
+| D-22 | Az M7.B „átjárás” szava logisztikai értelmű: átvonulás másik helyszínre. A PRG-16 részvételi olvasata erre a helyre nem vonatkozik. | PRG-16 | M7 modulgazda. |
+| D-23 | Az M7 kapukvízen a helyes válasz és a megoldókulcsot felfedő visszajelzés egyik automatikus review-ablakban sem jelenik meg, a lezárás után sem; nincs automatikus kvízszintű zárás. A hibázott kompetenciát vagy kritikus követelményt a mentor közli a GATE-CP-n (LMS-M7-09), a kulcs felfedése nélkül. A beállítást cél-Moodle-ben tesztelni kell (RT-P0-19, RT-P0-08). Az M3 kapukvíz rendje nem változik. | ERT-5 (a `3b160fc`-ben átvezetett rész nem nyílik újra) | értékelési felelős. |
+
+**Nyitott – szerepköri döntésre vagy jóváhagyásra vár (a projektgazda iránya rögzítve, nem döntés).**
+
+| Azonosító | Projektgazdai irány (2026-10-13) | Ki dönt / hagyja jóvá | Állapot |
+|---|---|---|---|
+| D-01 | Egységes peula-megállítási protokoll, helyszíni helyettesítés, érzékeny foglalkozásoknál két felkészített 18+ felelős. | Memuna + programvezető (GYV-5: a létszámnorma az ő hatáskörük) | nyitott |
+| D-04 | A meglévő kétlépcsős eszkaláció alkalmazása, egyértelmű címzettekkel és közvetlen veszélynél azonnali biztonsági intézkedéssel (a Z.3 veszélydoboz 112-mondatával együtt). | Memuna; a GYV-8 részeknél + programvezető; az M6.4 6D/ZÁRÓ küszöbét az M6-NY-D27 is zárolja | nyitott |
+| D-05 | A 116-111 és a 116-000 félrevezető leírásának javítása aktuális elsődleges forrás alapján. | Memuna (GYV-14: formális újranyitás) | nyitott, sürgős |
+| D-07 | Biztonságkritikus rubrikák és itemek közös szakértői kalibrációja, előzetesen nem közölt bukási feltétel nélkül. | értékelési felelős + Memuna; rubrikaszint és kulcs: projektgazda | nyitott |
+| D-08 (a) | Valódi passzjog az M2.4-ben, egyenértékű fiktív tudásdemonstrációval. | Memuna + programvezető (HUM-SAFE-03) | nyitott |
+| D-09 | A 24 órás kapuértékelési határidő elkülönítése a gyermekvédelmi bejelentésektől; a határidő csak az illetékesek döntésével változhat. | Memuna + DPO (GYV-1 feltétele) | nyitott |
+| D-10 | Incidensnyilvántartás, hozzáférés-korlátozás, dokumentált megőrzés/törlés, feltárásmentes pótlási út. | Memuna + DPO; pótlás: értékelési felelős + programvezető | nyitott |
+| D-13 (b), (c), (d) | Adattakarékosság (az M4 fókuszmondat-kártya és a Z.A szófelhő-cetli besorolása; az M2.A csoportnorma a felismerhető részletre). | (b), (c) DPO / jogi felelős; (d) Memuna + DPO | nyitott |
+| D-14 | A nem igazolt AI-adatfolyam inaktív marad; a no-AI út egyenértékű; a naplózás, a megőrzés, az adattovábbítás és a képző által közvetített AI-használat dokumentálandó. | DPO / jogi felelős; programvezető + Moodle-adminisztrátor | nyitott (az inaktív alapállapot a GYV-10 és az ADV-12 szerint már érvényes) |
+| D-17 (a)–(c) | Rubrikakalibráció indokolatlan küszöbemelés nélkül; a pedagógiai pontozás és az adatvédelmi stop külön. | értékelési felelős (+ DPO az ERT-42-nél); az ERT-43 hatálybalépéséhez projektgazdai jóváhagyás és előzetes tanulói tájékoztató | nyitott |
+| D-18 | Az itemkulcsok a ténylegesen tanított tartalomhoz igazodnak; kulcs csak szakmai jóváhagyással változik. | értékelési felelős + modulgazda / M5 szerző / szakmai lektor | nyitott |
+| D-19 (a), (c) | A kimenetek ne ígérjenek magasabb szintet, mint amit a tananyag gyakoroltat és mér. | modulgazda / értékelési felelős (TERM-7) | nyitott |
+| D-20 | Modulonkénti, lépésszintű vágási terv a védett lépések megtartásával. | az adott modulgazda (M3.B: + Memuna); vétó/QA: programvezető | nyitott |
+| D-21 | Közös 1–5 fős F-peula keret modulspecifikus kiegészítéssel; konkrét `/course-develop` terv, tartalomgyártás a terv projektgazdai elfogadásáig nincs. | projektgazda (a terv elfogadása); modulgazda; Memuna (1:1); programvezető (kapacitás) | nyitott |

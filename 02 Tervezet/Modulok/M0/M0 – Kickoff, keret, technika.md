@@ -167,7 +167,7 @@ A modul végére a madrih…
 **Az M0 teljesítésének feltételei:**
 
 1. L1–L4 (M0.1–M0.4) mikroleckék activity completion.
-2. Bemutatkozó fórum: 1 poszt + 1 komment – csak ha a fórum valódi tanulóknak megnyílt (ADV-6, lásd fent, „Megnyitás”); addig ez nem teljesítési feltétel.
+2. Bemutatkozó fórum: 1 poszt + 1 komment – csak a fórum ADV-6 szerinti megnyitása után induló kohorszban (lásd fent, „Megnyitás”; projektgazdai döntés, 2026-10-13, D-15 (f)); addig, és a megnyitáskor már futó kohorszban, ez nem teljesítési feltétel.
 3. M0 belépőkvíz **kitöltve** (mind a 7 item megválaszolva) – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a kvíz completion-jelző, nem küszöbös kapu). **A „kb. 60%” nem belépési feltétel, hanem stáb-oldali jelzőszint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrihot zárja ki.
 
 **Javítás / támogatás logika:**
@@ -280,7 +280,7 @@ Hol találod a modulokat, leckéket, peulákat és a completion-állapotot?
 4. **M0-kvíz eredmények (item-szinten, a kvízterv mentén – lásd 5. Kapuk)**
    * Mely **témakör** megy nagyon rosszul (≈ tartósan < 50%)? A kvízterv megmondja, melyik M0-kompetencia gyenge.
    * Ha sokan félreértik a „madrih, nem terapeuta” vagy a „kihez jelzek?” itemeket, azt az M2-ben és az M3-ban **erősebben, többször** kell elővenni; ha a **kapukövetkezmény** vagy az **online hangnem / szabály** item gyenge, az még az M0-n belül (M0.3 / M0.4 újramondás, technikai segítségpont) is pótolható.
-   * Ha az 1–2. (biztonsági) item gyenge, első körben csoportszintű, nem megbélyegző korrekció és a két item nyilvános visszajelzése jár. Egyéni mentoros utánkövetés csak indokolt pedagógiai cél, célhoz kötött válaszhozzáférés és DPO-jóváhagyás mellett lehet (projektgazdai döntés, 2026-10-12, GYV-23); a kvíz diagnosztikus marad.
+   * Ha az 1–2. (biztonsági) item gyenge, első körben csoportszintű, nem megbélyegző korrekció jár: a két item helyes válaszát és magyarázatát név és egyéni eredmény nélkül, csoportszinten mindenki megkapja (projektgazdai döntés, 2026-10-13, D-12). Egyéni mentoros utánkövetés csak indokolt pedagógiai cél, célhoz kötött válaszhozzáférés és DPO-jóváhagyás mellett lehet (projektgazdai döntés, 2026-10-12, GYV-23); a kvíz diagnosztikus marad.
 5. **Küszöbök / beavatkozási pontok (javaslatok):**
    * Ha az első hét végére a résztvevők **>30%-a nem teljesítette** az M0-t:
      * célzott emlékeztető,
