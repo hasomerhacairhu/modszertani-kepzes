@@ -1,28 +1,28 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "b0ab74ce219172df773650274cf7cbabc9e53b8fae30e638d6a2f3c5fa6df2a1"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "6fc8496a73e4a1073226e99e3cca861583ea454b3ed2843f2d31ff156cc24d33"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "0f48e61d39b1847e9948ba4b1bf05dbbdbdc26ad375b1d95a61c66adbd0e0526"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "48cac4cdaf35d9b64da7c9b5aac737d4437d2e50c88ec2a32b326c9c2e124207"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
       "sha256": "e2e0b29d46ea4056bf64759b978e2e3fe2c148e6e5eae84b4bf727dd3173db8a"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "b87b0762f7ddd4561e62e2f2922dcae34e7958a18db09e78583965e7400e9831"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "5492fe1f17a8c7a67704cdcc7d2897deb0527c751197f73721eb02750965d40e"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "71e03a29350c6858c66f18cc919dc0a911082853d6d17b6f8eb0c00f537560ab"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "80000308c9d7eb710c5d86a7e05448f45e6e56163f2f069cc6c84ad15aa3b5e8"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "4ef0ce88ebfcd5407b3a22089933a80dd46c49e805fd1a9a35dfd0e2de9d6491"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "2a9d698872617b6320fc7aeffdbd81ec5c31c32bfc0fe039cc49b4a5874e53a5"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
@@ -49,8 +49,8 @@
       "sha256": "e187f5730761736a803d50c9fe14f25fbaf808d548ed045ab1ff6b5d52d6ce75"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "7055adbf543517adac4ddfabcef775b030cd035eb40827f12bfe58c94e7c40c3"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "55c279564f0cc05296fb533db9b451f4ccb07505bd3efee032ddb1d8a4d44012"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
       "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
@@ -97,8 +97,8 @@
       "sha256": "f616623564cfba966fdaa9e382f0a17d5ad3e732c8ac1219ffb8d289f937e3ae"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "bc81de755e21bdeb4e7893fdc3d3d8c878474fbb666974bdca1e13d9171634af"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "507cfffadd342153909e431e920e744f840b520f7accbda3ba1a846fa90cde6d"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
@@ -113,8 +113,8 @@
       "sha256": "add29ac91321c1fa63bb92ee162ee887b5e27a9772d9223d3649613cb259d7cc"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "b4e2531742256a1b0d4aacf4e14e87d642242bb811726a94cad8db5e6600b907"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "fa2d643dbad43fecdec7e7f5df3620a47ff6acf1a3e2134c92f5c381b503298e"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md": {
       "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
@@ -153,8 +153,8 @@
       "sha256": "62c8d00ea4c9576053ff0cd3480b691cc8bbeba178ae325d37e1c1a4280b3fbe"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "287994131af2343bb250977d90c8485e8d6a415042f68e082121482528d0b348"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "e22ca45853a360500ed964eef95199352722220ff58b7fac755f3495d14c2c99"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
       "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
@@ -265,8 +265,8 @@
       "sha256": "cbfb3e6f55355627a07a3e40ea43d9cbe7ac6bdd2b98015340c8afeff695de52"
     },
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "82955fc2c112b00864194f3ce8013a07cc4688561ca2643be4c136fa07ee34ea"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "a8f5ac6765510db3febbbcb8188ed747c9dde1928cba94373608e18f027e415e"
     },
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md": {
       "reason": "M7:QA-NYELV-2, M7:QA-ERT-3, M7:QA-ERT-1 (part), M7:QA-NYELV-7 (part), M7:QA-ERT-4 (part), M7:QA-BIZT-1 (part), M7:QA-NYELV-9, M7:QA-BIZT-3, M7:QA-BIZT-4, M7:QA-IMPL-1, M7:QA-IMPL-2, M7:QA-IMPL-3, M7:QA-BIZT-2 (part), M7:QA-BIZT-5 (part), M7:QA-NYELV-1 (PRG-6, ERT-40, ERT-41, ERT-44, GYV-10, LMS-8, ADV-3, ADV-11, ADV-12, ERT-46, LMS-5, GYV-6, GYV-7): verifier-confirmed targeted QA fixes after f6e9c6e",
@@ -313,8 +313,8 @@
       "sha256": "0263a7cc18a7ded5ec5479dade33032974caf0834bb16cca463164e5636fbaee"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "a709bf442f080c31df438671394cfcaadc9e837321a277e62e3f096a3a780de3"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "0c71582b7c8881a45d8c88cb6ccdbf98a973d8563caa4d520106f41d4375e80d"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
       "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
@@ -329,8 +329,8 @@
       "sha256": "cbdc044716512c38c651ab112125eea56ef668f6d2bd1f7ba7baac18b7796214"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "8a69abf4b89098bbf466c67fff71a3614392f34e3ba7a32ed166d32eb80ee038"
+      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
+      "sha256": "2a4dc94147d3522aadcfc99137a8e649a964ca5366328775e49a0d0b52ecbfad"
     },
     "02 Tervezet/Terepgyakorlat – 2. félév.md": {
       "reason": "FREEZE-A (R-1, R-2, R-11, IMPL-2, SAFE-6; D-a…D-j, PILOT-1…4, D-i): 2026-10-05 pilot-ütemezés – régi dátumok superseded, BSPEC-05/06/07 regisztrálva, 36 checklist-tétel jelölve, a Memuna-átnézés hatóköre a GK §2 szerint, M0.3 completion-sor a D-i szerint",

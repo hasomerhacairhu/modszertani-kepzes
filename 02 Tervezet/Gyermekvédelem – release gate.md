@@ -30,7 +30,7 @@ A jelen repo biztonságos szakmai alapértelmezése: súlyos helyzeteket **harma
 
 A hatályos 1997. évi XXXI. törvény 17. § (1) a gyermekvédelmi jelzőrendszer résztvevői között **egyesületeket, alapítványokat és egyházi jogi személyeket is nevesít**. A 17. § (2) a felsorolt intézmények és személyek számára veszélyeztetettség esetére jelzést, súlyos esetekben hatósági eljárás kezdeményezését írja elő.
 
-**Nyitott jogi alkalmazási kérdés:** a képzést ténylegesen működtető szervezeti jogalany, a madrihok és az egyes önkéntes szerepkörök pontosan hogyan esnek a törvényi kötelezettségek alá. Ezt a repository nem minősíti önállóan. A jogászi ellenőrzés (JOG-1) elsődleges nyilvántartása a `RELEASE-READINESS.md` szerinti G1 tracker-issue (#1; projektgazdai döntés, 2026-10-13, D-06).
+**Nyitott jogi alkalmazási kérdés:** a képzést ténylegesen működtető szervezeti jogalany, a madrihok és az egyes önkéntes szerepkörök pontosan hogyan esnek a törvényi kötelezettségek alá. Ezt a repository nem minősíti önállóan. A jogászi ellenőrzés (JOG-1) elsődleges nyilvántartása a `RELEASE-READINESS.md` szerinti G1 tracker-issue (#1; projektgazdai döntés, 2026-10-13, D-06). Az issue nyilvános: személyes adat nem kerül bele.
 
 ### 3.2. Btk. 209/A. §
 
