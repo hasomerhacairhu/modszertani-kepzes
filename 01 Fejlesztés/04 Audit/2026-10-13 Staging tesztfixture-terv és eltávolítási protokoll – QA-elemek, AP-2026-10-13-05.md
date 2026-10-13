@@ -36,12 +36,16 @@ döntésével készülhet).
 
 ## 3. Rögzítés
 
-- A RA „Teszt-állapot” táblájában a QA-elemen kapott eredmény a Bizonyíték oszlopba kerül, „QA-elemen, mechanizmus-
-  bizonyíték” jelöléssel; az RT-P0-08, RT-P0-28 és RT-P0-29 sor ettől `IMPLEMENTATION_TEST_REQUIRED` marad (RA 30 (c)).
+- A RA „Teszt-állapot” táblájában a QA-elemen kapott eredmény a Bizonyíték oszlopba kerül, „mechanizmus-bizonyíték
+  (QA-elemen)” jelöléssel; az RT-P0-08, RT-P0-28 és RT-P0-29 sor ettől `IMPLEMENTATION_TEST_REQUIRED` marad (RA 30 (c),
+  (d); RA „Teszt-állapot”).
 - Minden bejegyzés: dátum, Moodle-verzió, `test_id` és `cmid`, a fiók szintetikus címkéje; képernyőkép személyes adat
   nélkül.
-- A webszolgáltatás és a mobil-elérés staging-állapota a RA 28 (g), (g2) szerint rögzítendő; a letiltás nincs jóváhagyva
-  (HUM 18. szakasz, X-16-WS), ezért a staging a site meglévő beállításával fut.
+- A webszolgáltatás és a mobil-elérés staging-állapota a RA 28 (g), (g2) szerint rögzítendő; a site-szintű letiltás nem
+  engedélyezett, és a cél-Moodle-ben nem bizonyított hatású jogosultsági korlátozás nem állítható be (HUM 18. és 19.
+  szakasz, X-16-WS), ezért a staging a site meglévő beállításával fut.
+- **Kiegészítés (AP-2026-10-13-06, HUM 19. szakasz, X-16-KANON):** a QA-X16 elemeken kapott RT-P0-28 és RT-P0-29 (a), (f)
+  eredmény előzetes, mechanizmusszintű runtime-bizonyíték; az Állapot oszlop nem kap új értéket (RA „Teszt-állapot”).
 
 ## 4. Eltávolítás és a valódi lánc (RA 30)
 
@@ -59,6 +63,11 @@ Tanulói release előtt, és mielőtt a kurzus vagy annak másolata, mentése va
 5. Az RT-P0-30 sor a törlés, a visszaolvasás (lomtárral) és a 4. lépés lánc-tesztjének bizonyítékával. Az RT-P0-08 és az
    RT-P0-29 (d) esete csak a 4. lépés után állítható `RUNTIME_VERIFIED`-re; az RT-P0-28-nál és az RT-P0-29 (a), (f) esetnél
    nyitott projektgazdai döntés, hogy a QA-másolat eredménye a kanonikus beállítások visszaolvasásával elegendő-e (RA 30 (c)).
+   **Eldöntve (AP-2026-10-13-06, HUM 19. szakasz, X-16-KANON):** a teljes megismétlés nem kell; a kanonikus elemeken
+   célzott visszaellenőrzés kell, a RA 30 (d) öt feltételével (a beállítások egyezése dokumentált eltérésekkel; tanulói
+   fiókkal a három kanonikus Assignmenten a rejtés, a szöveges rubrikaszint és a mentori komment; változatlan értékelői
+   munkafolyamat, GATE-CP, rubrikapontok, completion és kapuküszöbök; a RA 29 (a), (f) kanonikus eredménye; a nyitott
+   API-, mobil- és adatvédelmi kapuk valós bizonyíték szerinti kezelése).
 
 ## 5. Célzott QA (QA21, implementáció) és feldolgozása
 
