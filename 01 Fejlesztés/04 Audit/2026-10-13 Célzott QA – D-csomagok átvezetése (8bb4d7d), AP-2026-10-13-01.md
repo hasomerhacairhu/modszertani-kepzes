@@ -686,4 +686,3 @@ Lefedettség: a diff mind a 24 `02 Tervezet/` fájljának `+` sora. 14 findingot
 - Hatás: kétértelmű lépéscím a képzőnek.
 - Javaslat: EMBERI DÖNTÉS (M3 modulgazda): mire utal a „kívülről”, a 4.2-ben ki nem osztott esetre vagy másra. Szöveget erre nem javaslok.
 - Típus: emberi-döntés · Verdikt: —
-

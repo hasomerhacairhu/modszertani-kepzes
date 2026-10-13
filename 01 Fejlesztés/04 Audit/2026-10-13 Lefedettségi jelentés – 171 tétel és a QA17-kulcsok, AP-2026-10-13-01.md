@@ -319,4 +319,3 @@ Minden átvett és új kulcs pontosan egyszer. „Besorolás”: a döntési dok
 - **Staging build:** a gépi verdikt engedi; a tényleges staging deploymenthez a projektgazda külön, kifejezett engedélye kell (ebben a futásban nem volt), és a G4 build-előfeltételei (dátumok, kontaktok, tracker #4).
 - **Learner release:** a runtime-tesztek `RUNTIME_VERIFIED` állapota (G3b, G5b; LMS-csomag), a G1 Memuna-„átnéztem” (GYV-24), a G2 DPO release-QA (ADV-E1–E3), a SIGNOFF-ok (SIG-1…SIG-6, ERT-19), a média-jogosultsági kapuk (J1, J2, V1, V3), a VO fix pack, a HUM 15 nyitott szerepköri sorai, majd a `FINAL_RELEASE_QA` és a go/no-go döntés.
 - A futó M0/M1 pilot (`main@213a4c5`) és a CC-04 freeze változatlan; PR #30 draft.
-
