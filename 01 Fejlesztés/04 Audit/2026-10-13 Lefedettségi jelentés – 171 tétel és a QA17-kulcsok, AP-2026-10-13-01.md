@@ -316,6 +316,6 @@ Minden átvett és új kulcs pontosan egyszer. „Besorolás”: a döntési dok
 ## 6. Mi kell a staging buildhez, és mi a learner release-hez
 
 - **Gépi állapot (`content_integrity.py --release-report`):** `MOODLE-BUILD-VERDICT: READY_FOR_STAGING_BUILD` · `LEARNER-RELEASE-VERDICT: NO-GO`.
-- **Staging build:** a gépi verdikt engedi; a tényleges staging deploymenthez a projektgazda külön, kifejezett engedélye kell (ebben a futásban nem volt), és a G4 build-előfeltételei (dátumok, kontaktok, tracker #4).
+- **Staging build:** a gépi verdikt engedi; a tényleges staging deploymenthez a projektgazda külön, kifejezett engedélye kell (ebben a futásban nem volt), és a célkörnyezet; a valódi dátumok és kontaktok az RR G8 sora szerint RELEASE-EVIDENCE tételek, stagingben belső build-jelölő megengedett (javítva 2026-10-13, AP-2026-10-13-03).
 - **Learner release:** a runtime-tesztek `RUNTIME_VERIFIED` állapota (G3b, G5b; LMS-csomag), a G1 Memuna-„átnéztem” (GYV-24), a G2 DPO release-QA (ADV-E1–E3), a SIGNOFF-ok (SIG-1…SIG-6, ERT-19), a média-jogosultsági kapuk (J1, J2, V1, V3), a VO fix pack, a HUM 15 nyitott szerepköri sorai, majd a `FINAL_RELEASE_QA` és a go/no-go döntés.
 - A futó M0/M1 pilot (`main@213a4c5`) és a CC-04 freeze változatlan; PR #30 draft.

@@ -53,7 +53,8 @@
 ## Mi kell a staging buildhez, és mi a learner release-hez
 
 - **Staging build:** a gépi verdikt engedi (`READY_FOR_STAGING_BUILD`); a tényleges staging deploymenthez a projektgazda
-  külön, kifejezett engedélye kell (ebben a futásban nem volt), és a G4 build-előfeltételei (dátumok, kontaktok, `#4`).
+  külön, kifejezett engedélye kell (ebben a futásban nem volt), és a célkörnyezet; a valódi dátumok és kontaktok az RR G8
+  sora szerint RELEASE-EVIDENCE tételek, stagingben belső build-jelölő megengedett (javítva 2026-10-13, AP-2026-10-13-03).
 - **Learner release:** `NO-GO`. Kell hozzá: a fenti runtime-tesztek `RUNTIME_VERIFIED` állapota (G3b, G5b), a G1 Memuna
   „átnéztem” (GYV-24), a G2 DPO release-QA (ADV-E1–E3), a SIGNOFF-ok (SIG-1…SIG-6, ERT-19), a média-jogosultsági kapuk
   (J1, J2, V1, V3; SIG-6), a VO fix pack, a szerepköri döntések (D-01, D-04, D-05, D-07…D-10, D-13, D-14, D-17–D-21), majd

@@ -11,8 +11,10 @@
 A gépi verdikt engedi a staging buildet. A tényleges deploymenthez kell:
 
 - a projektgazda külön, kifejezett engedélye (ebben a futásban nem volt);
-- a G4 build-előfeltételei: a `SCHEDULE_TO_RESYNC` dátumok (G8: dátum nélkül az activity felépíthető, de tanulónak nem
-  nyitható) és a valódi kontaktok (RT-1);
+- a célkörnyezet (Moodle-példány, verzió, site-adminisztrátori hozzáférés); a valódi `SCHEDULE_TO_RESYNC` dátumok és
+  kontaktok a staginghez nem kellenek: az RR G8 sora szerint RELEASE-EVIDENCE tételek, stagingben belső build-jelölő
+  megengedett, és a dátumfüggő activity dátum nélkül is felépíthető (PILOT-2) (javítva 2026-10-13, AP-2026-10-13-03:
+  az első változat ezeket tévesen staging-előfeltételnek írta);
 - a staging-szabály: szintetikus tesztadat, személyes adat nélkül; emberi döntés helyén csak belső build-jelölő.
 
 A Memuna, a DPO és az értékelési felelős jóváhagyása a staging buildnek nem előfeltétele; a staging runtime-tesztjei
