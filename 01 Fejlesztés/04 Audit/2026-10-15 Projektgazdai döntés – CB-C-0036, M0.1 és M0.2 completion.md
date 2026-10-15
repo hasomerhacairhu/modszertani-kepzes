@@ -1,6 +1,6 @@
 # Projektgazdai döntés – CB-C-0036: M0.1 és M0.2 completion (D-039 / D-040)
 
-> **Audit trail, nem kánon.** A projektgazda 2026-10-14-i D-039 döntésének és a 2026-10-15-i D-040 átvezetési felhatalmazásának körülhatárolt nyilvántartása. A kánoni döntés helye: `02 Tervezet/Emberi jóváhagyás szükséges.md` **20. szakasz**. Ez a jegyzőkönyv sem Moodle-deploymentet, sem adatvédelmi jóváhagyást, sem learner release-t nem igazol.
+> **Audit trail, nem kánon.** A projektgazda 2026-10-14-i D-039 és D-040 döntéseinek 2026-10-15-i, körülhatárolt átvezetési nyilvántartása. A kánoni döntés helye: `02 Tervezet/Emberi jóváhagyás szükséges.md` **20. szakasz**. Ez a jegyzőkönyv sem Moodle-deploymentet, sem adatvédelmi jóváhagyást, sem learner release-t nem igazol.
 
 ## Forrás és bizonyíték
 
