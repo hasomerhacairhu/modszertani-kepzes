@@ -102,6 +102,33 @@
 }
 -->
 
+<!-- @asset
+{
+  "id": "M7-HUB-MUNK-02",
+  "kind": "worksheet",
+  "mode": "generate",
+  "title": "Letölthető „Peula v2 + Zmán Kvucá” kitölthető sablon (doc)",
+  "purpose": "A Peula v2 (LMS-M7-06) egységes leadási sablonja és fájlalapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével adja le a v2-t. A két út egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
+  "spec": "Kitölthető sablon doc formátumban, kizárólag az M7 KAPU (D2) szakaszának nyolc pontja szerint, ugyanabban a sorrendben: 1. Kvuca-infó, a (D1) 1. részének kérdéseivel és 3–5 sornyi hellyel; 2. SMART nevelési cél, a (D1) 2. részének mondatával és 1–2 mondatnyi hellyel; 3. A peula 11 pontja az M7.2 végleges listája szerint, a három fázis alcímével, minden pont alatt írási hellyel, a 3., 5., 9. és 11. pont alatt a rájuk vonatkozó M7 KAPU (D1)-bekezdés szó szerint, segédszövegként; 4. Zmán Kvucá-operációs táblázat „Idő (kb.)”, „Mi történik?”, „Ki felel érte?” oszlopfejlécekkel és 4 üres sorral, alatta szó szerint az M7 KAPU (D1) 1:1 helyzetekről szóló dőlt bekezdése; 5. Zmán Kvucá-checklist: az öt terület a (D1) 5. részének felsorolása szerint, ahol van, a zárójeles pontosítással, „Mit terveztem rá?” írási hellyel, opcionális 0–1–2 önpontozó oszloppal; 6. AI-használat (1 sor); 7. Kipróbálási kötelezettségvállalás (a három sor kérdései); 8. a sablon végén szó szerint a (D1) ⚠️ adatkímélő mondata. Ezeken túl új mező, minta vagy útmutató szöveg nem kerül bele.",
+  "provenance": "human",
+  "provenance_note": "emberi-felvétel",
+  "technical": {
+    "note": "Szerkeszthető dokumentum: .docx; A4 nyomtatható elrendezés is; magyar nyelv. Google-sablon csak szervezeti fiókkal, adatfeldolgozói és hozzáférési felülvizsgálat után készülhet (ADV-10). Moodle-ben az LMS-M7-06 Assignment „Additional files” mezőjébe kerül."
+  },
+  "a11y": {
+    "note": "Valódi szöveges dokumentum (nem kép), valódi címsorokkal és valódi táblázatstruktúrával, megjelölt oszlopfejlécekkel és kitölthető cellákkal, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva. A checklist nem vízszintesen görgetett táblázat (hozzáférhetőségi sztenderd §4)."
+  },
+  "derivatives": [
+    "print-pdf"
+  ],
+  "production_rules": [
+    "R5"
+  ],
+  "blockers": [],
+  "notes": "A Peula v2 sablonjának mezőlistáját (IMPL-18-1; M7.4-MUNK-01 jegyzete) az M7 KAPU (D) szakasza rögzíti a projektgazda 2026-10-18-i végrehajtási utasítása alapján (AP-2026-10-18-01); vétó/QA: értékelési felelős. A v1 sablonja külön asset (M7.4-MUNK-01). A sablon letölthetőségét és akadálymentességét a renderen kell igazolni (release-evidence)."
+}
+-->
+
 ## 1. Modul meta
 
 * **Időtartam:** 2 hét
@@ -362,14 +389,18 @@ A modul végére a madrih…
    > * **M5 – módszer-logika** (feladat–cél–kvuca–módszer + tanulástan): a cél ↔ módszer ↔ kvuca tudatos illesztését a Peula v2 indokolja meg.
    > * **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk): a peula konkrét élmény-blokkja egy kész M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők itt élnek tovább.
    >
-   > Üzenet a madrihnak: „Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját értékedet (ha ezt nem szeretnéd megnevezni, semleges vagy kitalált someres értéket is választhatsz), az M3-ból a biztonsági keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat és az M6-ból egy játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS.)
+   > Üzenet a madrihnak: „Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját értékedet (ha ezt nem szeretnéd megnevezni, semleges vagy kitalált someres értéket is választhatsz, pontlevonás nélkül), az M3-ból a kvuca-profilt és a biztonsági keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat és az M6-ból egy játéklapot – itt **egy** vállalható peulává kötöd össze őket.” (Részletes átkötés-tábla: „M7 – KAPU” §PORTFÓLIÓ-ÁTKÖTÉS.)
 
-   * **Rubrikaminimum (példa):**
-     1. SMART cél – egyértelmű, someres értékhez kötött.
-     2. Kvuca-illeszkedés – korosztály, energiaszint, **életkori / korosztályi sajátosságok**.
-     3. Struktúra – a Peula 11 pontja felismerhetően jelen van.
-     4. Biztonság & gyermekvédelem – átgondolt biztonsági rész a Zmán Kvucá-checklist alapján.
-     5. AI-használat – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható hanih-sztorik.
+   * **A tanulói feladatleírás és az egységes leadási sablon:** „M7 – KAPU” (D) szakasz (sablon: M7-HUB-MUNK-02).
+   * **Rubrika – áttekintés** (a mérvadó, 8 soros rubrika: „M7 – KAPU” §B):
+     1. R1 – SMART nevelési cél *(kritikus)* – egyértelmű, someres értékhez kötött.
+     2. R2 – Kvuca-illeszkedés – korosztály, energiaszint, **életkori / korosztályi sajátosságok**.
+     3. R3 – Struktúra – a Peula 11 pontja felismerhetően jelen van, végigkövethető ívvel.
+     4. R4 – Gyermekvédelem & biztonság *(kritikus, blokkoló)* – átgondolt biztonsági rész a Zmán Kvucá-checklist alapján.
+     5. R5 – Inkluzivitás & hozzáférhetőség *(kritikus)* – konkrét igény és hozzá variáció.
+     6. R6 – Módszer-illeszkedés *(kritikus)* – a módszer a célt szolgálja, és belefér a keretekbe.
+     7. R7 – Operáció: Zmán Kvucá-keret – idő–feladat–felelős.
+     8. R8 – Etikus AI-használat & emberi szöveg – emberi, érthető szöveg; nincs „robotnyelv”, nincsenek beazonosítható hanih-sztorik.
    * **Követelmény:**
      * **„Teljesítve” = (összpont ≥70% = ≥17/24) ÉS (R1 – SMART nevelési cél, R5 – Inkluzivitás & hozzáférhetőség és R6 – Módszer-illeszkedés: mindegyik ≥2 = „Megfelelő”) ÉS (R4 – Gyermekvédelem & biztonság ≥2, blokkoló)** – zárt **ÉS**-logika; a kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező**, a blokkoló biztonsági sor (R4) pedig, ha 2 pont alatt marad, a %-tól függetlenül buktat (a pontos szabály: „M7 – KAPU” §B).
 2. **Moodle Quiz – „M7 – SMART & Zmán Kvucá kvíz (felkészültségi, a v2 előtt)”** **(kötelező 2. rész a kétrészes teljesítési kapuban – legalább 12 teljesen helyes item a 14-ből; fogalmi belépő, vagyis felkészültségi kapu: a v1 leadása után nyílik, az M6 complete feltétellel (`LMS – activity manifest.md` LMS-M7-07, §4), ajánlott még az M7.B előtt teljesíteni, a Peula v2 leadása előtt kötelező; a teljesítése is feltétel, mindkét részt teljesíteni kell)**

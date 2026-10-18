@@ -180,7 +180,7 @@ Opciók:
 
 **Beágyazott kérdés – Multiple Choice**
 
-> „Melyik példa áll hozzád most a **legközelebb**?”
+> „Melyik példa áll hozzád most a **legközelebb**? Ha több is, jelöld be mindet.”
 
 (legalább 1 válasz választható)
 

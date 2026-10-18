@@ -20,14 +20,14 @@
 | Assetet tartalmazó fájl | 65 |
 | Ellenőrzötten asset nélküli fájl | 19 |
 | Forrásblokk (`@source`) | 123 |
-| Szemantikus asset | **415** |
-| Produkciós deliverable | **902** |
+| Szemantikus asset | **417** |
+| Produkciós deliverable | **906** |
 
 **Produkciós mód szerint**
 
 | Mód | Db |
 |---|--:|
-| legyártandó | 400 |
+| legyártandó | 402 |
 | újrahasznosítás | 9 |
 | külső forrás | 6 |
 
@@ -36,7 +36,7 @@
 | Típus | Db |
 |---|--:|
 | voiceover | 89 |
-| worksheet | 69 |
+| worksheet | 71 |
 | illustration | 43 |
 | icon-set | 42 |
 | diagram | 38 |
@@ -51,9 +51,9 @@
 
 | Szerep | Db |
 |---|--:|
-| elsődleges | 406 |
+| elsődleges | 408 |
+| nyomtatható PDF | 128 |
 | alt-szöveg | 126 |
-| nyomtatható PDF | 126 |
 | leirat | 112 |
 | felirat | 108 |
 | felmondott hang | 21 |
@@ -70,14 +70,14 @@
 | M4 | 59 |
 | M5 | 30 |
 | M6 | 66 |
-| M7 | 52 |
+| M7 | 54 |
 | Z | 15 |
 
 **Státusz szerint**
 
 | Státusz | Db |
 |---|--:|
-| specifikáció kész | 295 |
+| specifikáció kész | 297 |
 | jogtisztázás alatt | 119 |
 | emberi döntésre vár | 1 |
 
@@ -121,7 +121,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 |---|---|---|---|---|---|---|---|
 | `M0.2-DIA-01` | diagram | legyártandó | specifikáció kész | SLIDE 4 jelzési folyamatábra: az ötlépéses jelzési út (észreveszem → meghallgatom → nem nyomozok → bevonom a Memunát → közvetlen veszélynél 112) | — | alt-szöveg | AI-generált |
 | `M0.2-DIA-02` | diagram | legyártandó | specifikáció kész | SLIDE 2 kétoszlopos összevetés: „Madrihként csinálom” vs. „Nem (csak) az én feladatom” | — | alt-szöveg | AI-generált |
-| `M0.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Akadálymentes iframe-cím és fókusz-spec a SLIDE 3 interakcióhoz | — | — | emberi |
+| `M0.2-EGY-01` | other/h5p-interaction | legyártandó | specifikáció kész | Akadálymentes konfiguráció és fókusz-spec a SLIDE 3 kérdésoldalaihoz | — | — | emberi |
 | `M0.2-IKO-01` | icon-set | legyártandó | specifikáció kész | SLIDE 1 hook-ikonok: barát / tanár / szuperhős | — | alt-szöveg | AI-generált |
 | `M0.2-IKO-02` | icon-set | legyártandó | specifikáció kész | SLIDE 5 dugma isit ikonok: kör / chat / kulissza | — | alt-szöveg | AI-generált |
 
@@ -825,6 +825,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7-HUB-DIA-02` | diagram | legyártandó | specifikáció kész | Kétlépcsős félévzáró idővonal: v1 első vázlat → köztes fejlesztés → v2 teljesítési kapu | — | alt-szöveg | AI-generált |
 | `M7-HUB-DIA-03` | diagram | legyártandó | specifikáció kész | Portfólió-átkötés / félévzáró összegzés: M1 SBI … M6 játéklap → 1 Peula v2 | — | alt-szöveg | AI-generált |
 | `M7-HUB-MUNK-01` | worksheet | újrahasznosítás | specifikáció kész | 1 perces kilépőkártya (M7.B utáni offline visszajelzés) | — | — | vegyes |
+| `M7-HUB-MUNK-02` | worksheet | legyártandó | specifikáció kész | Letölthető „Peula v2 + Zmán Kvucá” kitölthető sablon (doc) | — | nyomtatható PDF | emberi |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md
 
@@ -863,6 +864,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.3-IKO-01` | icon-set | legyártandó | specifikáció kész | Ikon-készlet – Zmán Kvucá 5 területe | — | alt-szöveg | AI-generált |
 | `M7.3-ILL-01` | illustration | legyártandó | specifikáció kész | Kéthasábos kontraszt-vizuál: „Csak játékban” vs. „Zmán Kvucában gondolkozunk” | — | alt-szöveg | AI-generált |
 | `M7.3-ILL-02` | illustration | legyártandó | specifikáció kész | Illusztrált mintaprogram-kártya: „Péntek esti Zmán Kvucá a kenben” | — | alt-szöveg | AI-generált |
+| `M7.3-MUNK-01` | worksheet | legyártandó | specifikáció kész | Letölthető, nyomtatható Zmán Kvucá-checklist munkalap – péntek esti mintaprogram | — | nyomtatható PDF | emberi |
 | `M7.3-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | INPUT 1 narráció (SLIDE 2) | `M7.3-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.3-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | INPUT 2 narráció – mintaprogram (SLIDE 3) | `M7.3-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M7.3-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | ACTIVITY narráció – 5 terület végigvétele (SLIDE 4) | `M7.3-NAR-04-VO` | felirat, leirat | AI-generált |

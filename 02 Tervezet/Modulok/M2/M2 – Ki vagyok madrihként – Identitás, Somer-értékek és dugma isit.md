@@ -218,7 +218,7 @@ A modul végére a madrih…
 
 **Puha kapu küszöbe (az értékelő-fájlból átvéve):**
 
-> A jegyzet beadása elfogadott, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (F-peula) ajánlást kap, és újra beadhat** – nincs kizárás; 1 normál + 1 javító beadás automatikusan, további beadást a képző nyithat kézzel.
+> A jegyzet eléri a formatív küszöböt, ha a fejlesztő rubrika **mind a 4 sora (R1–R4) legalább „1 – elindult” szinten áll, ÉS legalább 1 sor eléri a „2 – kész” szintet.** Ez **nem ponthatáros vizsga**: aki ez alatt van, **nem bukik**, hanem **fejlesztő kommentet (1 erősség + 1 következő lépés) + M2.F (F-peula) ajánlást kap, és újra beadhat** – nincs kizárás; 1 normál + 1 javító beadás automatikusan, további beadást a képző nyithat kézzel.
 >
 > **Mentori megerősítés (LMS-M2-10, BSPEC-07):** „Teljesítve” = az LMS-M2-05 legutóbb leadott jegyzetének előírt mezőiben tényleges, minimálisan értelmezhető tartalom van (üres vagy kitöltetlen sablon, illetve a puszta fájlfeltöltés nem elég); a puha kapu rubrika-küszöbe formatív, nem feltétel (Program terv §5).
 

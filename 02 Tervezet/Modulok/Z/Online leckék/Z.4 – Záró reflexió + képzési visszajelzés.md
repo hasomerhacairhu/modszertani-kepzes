@@ -381,7 +381,7 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
    >
    > *(Kísérő rövid szöveges válasz, opcionális):* „Hol hiányzott ezekből valami?”
 3. **Hasznos modulok** – Multiple choice (több válasz jelölhető)
-   > „Melyik modul(oka)t élted meg **a leghasznosabbnak**?” (M0–M7 listázva)
+   > „Melyik modul(oka)t élted meg **a leghasznosabbnak**?” (M0–M7 listázva; az opciók szövege az M0.1 SLIDE 5 modullistája szó szerint, a „Z – Zárás & híd a terepre” sor nélkül)
 4. **Terhelés** – Multiple choice (egy válasz jelölhető)
    > „Hogyan élted meg a félév összterhelését (online és offline)?” – Túl kevés / pont elég / néha sok / túl sok
 5. **Mi segített a legjobban?** – rövid szöveges válasz

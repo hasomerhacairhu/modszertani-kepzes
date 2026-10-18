@@ -25,9 +25,9 @@
 
 | Mutató | Érték |
 |---|--:|
-| Szemantikus asset | **415** |
-| Produkciós deliverable | **902** |
-| ebből legyártandó | 400 |
+| Szemantikus asset | **417** |
+| Produkciós deliverable | **906** |
+| ebből legyártandó | 402 |
 | ebből újrahasznosítás | 9 |
 | ebből külső forrás | 6 |
 | Forrásblokk | 123 |

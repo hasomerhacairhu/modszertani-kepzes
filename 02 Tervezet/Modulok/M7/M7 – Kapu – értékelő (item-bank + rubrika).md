@@ -54,6 +54,16 @@
 * Minden itemhez egyértelmű helyes válasz, plauzibilis disztraktorok (gyakori someres félreértésekre építve), rövid tanulói visszajelzés.
 * Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12), **gyermekvédelem & biztonság (Q13–Q14 – a blokkoló R4-sor tudásalapját fedik le; a kötelezően helyes blokkoló item ezen belül egyedül a Q13, a Q14 lefedettségi item)** → így a kvíz az M7.4 etikus AI, idő–feladat–felelős logikáját **és a kapu blokkoló gyermekvédelmi konstruktumát** is méri, nem csak M7.1–M7.3 felismerést.
 
+**Tanulói bevezető (a Moodle Quiz leírásába):**
+
+*Fejlesztőnek:* a bevezető elé a Program terv §7 szerinti „just-in-time” adatkezelési tájékoztató kerül (a kvíz indítópontja, PT §7 (a)); a bevezető a kötelezően helyes kérdés témáját megnevezi, a kulcsot nem. Forrás: e szakasz beállításai és a manifest LMS-M7-07, LMS-M7-09 sora; új szabály nincs benne (forrás-szerzés, AP-2026-10-18-01).
+
+> Ez a kvíz az M7 éles, kétrészes kapujának egyik része; a másik a Peula v2. Tizennégy rövid kérdést kapsz a SMART nevelési célról, a peula 11 pontjáról, a Zmán Kvucá-checklistről, az etikus AI-használatról és a peula megszervezéséről (idő, feladat, felelős), valamint a gyermekvédelemről. Ugyanabban a próbálkozásban legalább 12 kérdésre kell teljesen jól válaszolnod. A több jó választ kérő kérdések csak akkor számítanak jó válasznak, ha minden helyes opciót bejelölsz, és hibásat egyet sem. Emellett a red flag esetén követendő jelzési útról szóló gyermekvédelmi kérdésre mindenképp helyesen kell felelned: ha ez nem sikerül, a kvíz akkor sem teljesül, ha a többi megvan.
+>
+> A beküldés után a pontszámodat látod. Azt, hogy melyik témánál hibáztál, a kijelölt mentorod vagy értékelőd írja meg, amikor megerősíti az eredményedet; a helyes válaszokat a kvíz nem mutatja meg. Egy próbálkozásod van. Ha nem sikerül, ilyenkor kötelező a felzárkóztató peula (F-peula, M7.F), utána van egy javító próbálkozásod; további próbálkozást a képződ nyithat. A teljesítéshez a legjobb megerősített eredményed számít. Ha nem értesz egyet a kapudöntéssel, kérheted, hogy egy másik képző is átnézze, még az online félév teljesítésének lezárása előtt.
+>
+> A kvíz a Peula v1 leadása után nyílik meg, ha az M6-ot teljesítetted; érdemes még az M7.B előtt kitölteni. A Peula v2-t csak a kvíz megerősített, sikeres eredménye után adhatod le; a még meg nem erősített eredmény nem bukás.
+
 > **Cél → item lefedettségi tábla (konstruktumvaliditás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyermekvédelem & biztonság (rubrika R4, BLOKKOLÓ) → Q13–Q14** (a kötelezően helyes **blokkoló** item ezen belül **csak a Q13**; a Q14 a területet bővebben fedi le, de nem külön blokkoló küszöb). Így **minden teljesítési kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alulreprezentálva azt, amit a produktum-rubrika kapuz.
 
 ***
@@ -250,7 +260,7 @@
 **Maximum:** 8 × 3 = **24 pont**. **Küszöb (zárt ÉS-logika): „Teljesítve” = (összpont ≥70% = ≥17 pont, kerekítve) ÉS (R1, R5, R6 mindegyike ≥2) ÉS (R4 ≥2, blokkoló).** A kritikus sorok ≥2 minimuma a ponthatártól **függetlenül mindig kötelező** – egy gyenge kritikus soros, de pontszámban átmenő Peula v2 nem csúszhat át.
 **Blokkoló (felülíró) sor:** **R4 – Gyermekvédelem & biztonság**. Ha ez „0” vagy „1”, a kapu **NEM** teljesül, a teljes %-tól függetlenül. (Itt nem elég a „kb. értem” – gyermekvédelmi tét.)
 
-**Mit ad le a tanuló (a kapu produktuma):** kitöltött **Peula v2** (kvuca-infó + SMART cél + a Peula 11 pontos szerkezete felismerhetően) + **Zmán Kvucá-operációs táblázat** (idő–feladat–felelős, lásd (C) pontozó váz). A Peula v2 **tervezhető valós kvucára**, de csak nem azonosító, csoportszintű információval: nevek, egyéni érzékeny történetek, diagnózisok és hasonlók nem kerülhetnek bele. Akinek nincs saját kvucája, **kitalált profilt** kap.
+**Mit ad le a tanuló (a kapu produktuma):** kitöltött **Peula v2** (kvuca-infó + SMART cél + a Peula 11 pontos szerkezete felismerhetően) + **Zmán Kvucá-operációs táblázat** (idő–feladat–felelős) + **Zmán Kvucá-checklist** a saját peulára (az öt terület, lásd (C) pontozó váz; nem külön kapu), egyetlen Assignmentben, a (D) szakasz egységes sablonja szerint; mellette a két nem pontozott kísérő mező (kipróbálási kötelezettségvállalás, AI-használat-megjegyzés, lent). A Peula v2 **tervezhető valós kvucára**, de csak nem azonosító, csoportszintű információval: nevek, egyéni érzékeny történetek, diagnózisok és hasonlók nem kerülhetnek bele. Akinek nincs saját kvucája, **kitalált profilt** kap.
 
 > 🎯 **Kipróbálási kötelezettségvállalás (a v2 leadása MELLÉ – rögzített szándék, NEM rubrikapont).**
 > A véglegesített Peula v2 mellé a madrih leadja a saját **kipróbálási szándékát** is. **Ez nem értékelt, nem számít bele a 24 pontba, és nem blokkol** – a célja, hogy a peula a fiókból a **terepre** kerüljön. Formátum (someres nyelven, 3 sor):
@@ -266,7 +276,7 @@
 **Szintezés logikája:** minden sor megfigyelhető **szövegjegyhez** kötött (mit kell látnia az értékelőnek a leadott szövegben), nem „jó/rossz” érzéshez.
 **0 = Hiányzik / nem értékelhető · 1 = Kezdő · 2 = Megfelelő · 3 = Mesteri.**
 
-**Kritikus sorok (a kettős küszöb „minden kritikus sorban ≥2” feltételéhez):** **R1 (SMART cél), R4 (Gyermekvédelem & biztonság – egyben blokkoló), R5 (Inkluzivitás), R6 (Módszer-illeszkedés).** Az **R2 – Kvuca-illeszkedés (korosztály-illeszkedés)** **értékelt és fontos sor, de szándékosan NEM kritikus küszöbsor**: beleszámít az összpontba, de önmagában nem blokkol (a modul-áttekintő §6 rubrikaminimumában a korosztály-illeszkedés mint értékelt elem szerepel, nem mint nem alkudható küszöb).
+**Kritikus sorok (a kettős küszöb „minden kritikus sorban ≥2” feltételéhez):** **R1 (SMART cél), R4 (Gyermekvédelem & biztonság – egyben blokkoló), R5 (Inkluzivitás), R6 (Módszer-illeszkedés).** Az **R2 – Kvuca-illeszkedés (korosztály-illeszkedés)** **értékelt és fontos sor, de szándékosan NEM kritikus küszöbsor**: beleszámít az összpontba, de önmagában nem blokkol (a modul-áttekintő §6 „Rubrika – áttekintés” listájában a korosztály-illeszkedés mint értékelt elem szerepel, nem mint nem alkudható küszöb).
 
 ***
 
@@ -357,10 +367,12 @@
 
 | Pont | Megfigyelhető kritérium |
 | --- | --- |
-| **0** | A szöveg „robotnyelvű”, sablonos, AI-másolat hatású, **és/vagy** beazonosítható hanih-adat (név, konkrét sztori) szerepel benne. **(Adatszivárgás esetén jelzés a mentornak; ha gyermekvédelmi feltárás jelenik meg benne, az kikerül a Moodle-ből, és a Memuna bevonásával az incidensfolyamatba kerül.)** |
+| **0** | A szöveg „robotnyelvű”, sablonos, AI-másolat hatású, **és/vagy** beazonosítható hanih-adat (név, konkrét sztori) szerepel benne. |
 | **1** | Vegyes: helyenként emberi, de vannak nyersen bemásolt, a kvucára nem szabott AI-blokkok; nincs jele a saját döntésnek. |
 | **2** | A szöveg **emberi, érthető**; **nincs** beazonosítható hanih-adat. |
 | **3** | Egyértelműen **saját, someres hangú** munka, amelyből látszik a madrih tényleges szakmai döntése. **No-AI út:** önállóan/mentorral dolgozott, és a produktum végig saját, kvucára szabott. **AI-támogatott út:** látszik a kritikus átdolgozás (mi illik a kvucához, mit hagyott ki). A két út értékben egyenértékű; a felelősség végig a madrihnál marad. |
+
+> **Az értékelőnek (nem rubrikaszöveg):** ha a leadásban beazonosítható hanih-adat szerepel (0 pont), jelezd a mentornak; ha gyermekvédelmi feltárás jelenik meg benne, az kikerül a Moodle-ből, és a Memuna bevonásával az incidensfolyamatba kerül. A kapueredmény nem függhet a feltárástól: a tanuló biztonságos, feltárásmentes pótlási utat kap, és bizonyítékot jogi megőrzési felülvizsgálat nélkül nem törlünk automatikusan (projektgazdai döntés, 2026-10-12, GYV-11; `Adatvédelem – tanulói adatok és AI.md` §5). A rubrika celláit a Moodle annak is megmutatja, akit értékelnek, ezért ez az útmutatás nem kerül a rubrikába.
 
 ***
 
@@ -406,6 +418,135 @@ A Peula v2 a **félév szintézis-produktuma**: a korábbi modulok kész produkt
 | **M6 – játéklap** (cél, kvuca, leírás, biztonság, inkluzivitás, variációk) | A peula konkrét élmény-blokkja egy M6-játéklapból emelhető be; a biztonsági és inkluzivitási mezők továbbélnek. | R3 (élmény-blokk), **R5 (inkluzivitás)**, **R4 (gyermekvédelem & biztonság)** |
 
 > **Üzenet a tanulónak (a feladatleírásba is beilleszthető):** „A Peula v2-d nem nulláról indul. Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját someres értékedet (ez lesz a SMART cél R – Releváns eleme; ha nem szeretnéd a sajátodat megnevezni, semleges vagy kitalált someres érték is elfogadott, pontlevonás nélkül), az M3-ból a kvuca-profilt és a biztonsági keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot – itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani.”
+
+***
+
+## (D) Moodle-feladat – „Peula v2 + Zmán Kvucá” (LMS-M7-06): tanulói leírás, egységes sablon, beállítás
+
+> **Fejlesztői jegyzet (nem tanulói szöveg):** a (D1) a feladat Moodle-leírása szó szerint, a (D2) a leadás egyetlen, egységes sablonja (asset: `M7-HUB-MUNK-02`, a modul-hubban), a (D3) a beállítás. A Peula v2 sablonjának mezőlistáját (IMPL-18-1) a projektgazda 2026-10-18-i végrehajtási utasítása alapján ez a szakasz rögzíti („establish ONE internally consistent template specification”; AP-2026-10-18-01). Minden mező a (B) rubrika soraira, a (C) checklistre, a PORTFÓLIÓ-ÁTKÖTÉS táblára, az M7.4 4. szakaszára (a v1 minimuma, az 1:1 helyzetek mondata, a kipróbálás mondata), az M7.2 11 pontjára, az M7.3 öt területére és a manifest LMS-M7-06 sorára vezethető vissza; új követelmény, küszöb, beadási activity vagy büntetés nem került bele. A gyermekvédelmi mondatok a meglévő kánoni szövegek átvételei; az M7 gyermekvédelmi részei valódi madrihoknak a Memuna írásos átnézése nélkül nem nyithatók meg (`Gyermekvédelem – release gate.md` §2; X-1). Vétó/QA a mezőlistára: értékelési felelős.
+
+### (D1) Feladatleírás (tanulói nézetre)
+
+**Cím:**
+
+> Peula v2 + Zmán Kvucá
+
+**Leírás:**
+
+> **Mit csinálsz?** Leadod a **véglegesített, terepre vihető peuládat (Peula v2)** és a hozzá tartozó **Zmán Kvucá-táblázatot és -checklistet**. Ez **nem a Peula v1:** a v1 az első vázlatod volt, amelyre a mentorodtól visszajelzést kaptál; az M7.B műhely és a visszajelzések után most a végleges változatot adod le. A v1-hez képest új, hogy a sablonban mind a 11 pont szerepel (ebből 3–4 részletesen), és hozzáteszed a Zmán Kvucá-checklist öt területét és a két rövid kísérő mezőt. **Ez az M7 modul kétrészes éles kapujának egyik része (a másik a felkészültségi kvíz), és egyben a félév záró feladata.**
+
+> **Röviden:** a Peula v2-t a sablon szerint adod le, a v1-határidő után egy héttel, szerdán 18:00-ig. A kapu akkor teljesül, ha legalább 17 pontod van a 24-ből, és a négy kritikus szempont mindegyike legalább 2 pont.
+
+> **A Peula v2-d nem nulláról indul.** Hozd be az M1-ből a konkrét megfigyelésre épülő visszajelzési szemléletet, az M2-ből a saját someres értékedet, az M3-ból a kvuca-profilt és a biztonsági keretet, az M4-ből a kérdezéstechnikádat (feldolgozó kérdések, visszatükrözés), az M5-ből a módszer-logikádat, az M6-ból egy kész játéklapot. Itt ezeket kötöd össze **egy** olyan peulává, amit Zmán Kvucában tényleg meg mernél tartani. Az M2-es értéked lesz a SMART cél R – Releváns eleme; ha nem szeretnéd a sajátodat megnevezni, semleges vagy kitalált someres érték is elfogadott, pontlevonás nélkül.
+
+> 🔒 **Mielőtt leadod – mi lesz a beadásoddal?**
+> – **Mit gyűjtünk:** azt, amit beírsz vagy feltöltesz (a Peula v2-det, a Zmán Kvucá-táblázatot és -checklistet, a két rövid kísérő mezőt), az értékelését és a kapueredményedet.
+> – **Mire használjuk:** a te tanulásodhoz – hogy a kijelölt mentorod / értékelőd visszajelzést tudjon adni, és megerősítse a kapueredményedet. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
+> – **Meddig tároljuk:** a végső pontszámodat és a kapueredményedet 24 hónapig; a Peula v2-det és a mellékleteit a képzés vége után 12 hónapig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
+> – **Ki látja:** te és a **kijelölt mentorod / értékelőd**, és ő is csak annyit, amennyire ténylegesen szükség van. Második vagy fellebbezési értékelő csak konkrét eljárásnál látja – például ha a kapu egy kritikus szemponton dől el, és ketten döntenek róla, vagy ha újraértékelést kérsz –, a Memuna pedig szükség esetén. Az F-peula képzője a kapueredményekből csak összesített vagy minimális hiánylistát lát. Technikai okból a Moodle rendszergazdája is hozzáférhet.
+> – **Kihez fordulhatsz:** ha meg szeretnéd nézni, javíttatni vagy töröltetni, amit tárolunk rólad, az **adatvédelmi kapcsolattartóhoz** fordulhatsz; az elérhetőségét a Moodle-kurzus adatkezelési tájékoztatójában találod.
+>
+> Valós kvucára is tervezhetsz, de csak nem azonosító, csoportszintű információval. Ha nincs saját kvucád, használd azt a kitalált kvuca-profilt, amelyre a Peula v1-et írtad. ⚠️ Ne írd be egy hanih nevét, képét, elérhetőségét, pontos helyét, egészségügyi vagy mentális állapotát, családi hátterét, vallási, etnikai vagy más érzékeny identitását, se beazonosítható eseményt.
+
+> **Mit adsz le? – a sablon öt fő része** (a feladathoz csatolt sablon ugyanebben a sorrendben kéri; a végén a két rövid kísérő mező áll)
+>
+> **1. Kvuca-infó** (3–5 sor): kvuca-típus és korosztály, kb. hány fő, milyen a kvuca kiinduló hangulata vagy helyzete.
+>
+> **2. SMART nevelési cél** (1–2 mondat): konkrét kvucának szól, someres értékhez kötődik, és van benne legalább egy mérhető jel vagy időkeret (pl. „a peula végére…”, „legalább X hanih…”).
+>
+> **3. A peula 11 pontja.** A sablonban mind a 11 pont szerepel, három fázisban:
+> – **Előkészítés:** 1. Téma & modul · 2. Háttér & altémák · 3. Kvuca + idő + helyszín · 4. Nevelési cél (SMART) – ez a 2. rész;
+> – **Megírás:** 5. Módszerek & élmény-blokk · 6. Felépítés (bevezetés–élmény–feldolgozás–zárás) · 7. Realitás-check (idő, korosztály, létszám) · 8. Kelléklista;
+> – **Biztonság & továbbfejlesztés:** 9. Biztonság & gyermekvédelem · 10. Visszajelzés & finomhangolás · 11. Utóreflexió & továbbfejlesztés.
+>
+> Nem kell mindegyiket egyforma részletességgel kitöltened. **Legalább 3–4 pontot dolgozz ki részletesen** úgy, hogy végigkövethető legyen a bevezetés–élmény–feldolgozás–zárás ív; a többinél elég röviden. Ezekre figyelj külön:
+> – **3. pont (Kvuca + idő + helyszín) – inkluzivitás:** legalább 1 konkrét hozzáférhetőségi szempont (pl. mozgás, zajérzékenység, introvertált vagy szorongó hanih, nyelvi akadály) és hozzá 1 konkrét variáció. Az igényeket csoportszinten írd le, név és diagnózis nélkül; az M6 játéklapod inkluzivitási rovatából is átemelheted.
+> – **5. pont – módszer:** derüljön ki, hogyan szolgálja a módszer a célt, és hogy belefér az időbe, a kvucába és a térbe. Erősebb, ha 1 mondatban azt is megindokolod, miért épp ez a forma illik ehhez a célhoz és ehhez a kvucához.
+> – **9. pont – biztonság és gyermekvédelem:** legalább 1 konkrét gyermekvédelmi lépés – mit teszel red flag esetén, és kit vonsz be (a Memunát) –, és a kockázatos elemnél egy B-terv. A tervben ne maradjon aktív kockázat, például ellenőrizetlen, az 1:1 szabályt sértő négyszemközti helyzet (lásd a 4. részt) vagy B-terv nélküli kockázatos elem: ha mégis marad, ez a szempont 0 pontot kap, és a kapu nem teljesül. Erősebb, ha azt is leírod: mit teszel, ha egy hanih feltár valamit, és mit, ha felnőttre esik a gyanú; hogyan kezeled a négyszemközti (1:1) helyzeteket; és mit nem engedsz meg.
+> – **11. pont – utóreflexió:** erősebb, ha előre leírod, mit fogsz a megtartás után megfigyelni, miből látod majd a hatást, és mi alapján döntesz a következő változtatásról. Kitalált, múlt idejű reflexiót egy még meg nem tartott peuláról ne írj.
+>
+> **4. Zmán Kvucá-operációs táblázat** (idő – mi történik – ki felel érte): legalább 3 sor (4 ajánlott, de nem kötelező) a kezdéstől a zárásig, reális időkkel; derüljön ki a madrih–hanih arány és a tér is. A neveknél elég annyi, hogy „madrih A / B”.
+> *Ha a kiscsoportos részt külön szobákban – vagy online, kiscsoportos szobákban (breakout room) – tervezed, egyik szobában se maradjon ellenőrizetlen, kettesben zajló (1:1) helyzet egy hanihhal: lehetőleg legalább két résztvevő legyen egy szobában, a felnőtt jelenléte pedig váltakozó és ellenőrizhető. Egy felnőtt és egy hanih elszigetelt szobája csak előre meghatározott kivételként megengedett (előre egyeztetett mentorbeszélgetés, biztonsági vagy feltárási beszélgetés, rövid technikai segítség): legfeljebb 30 percig, hivatalos csatornán vagy fizikailag átlátható térben, és egy másik felelős tudtával.*
+>
+> **5. Zmán Kvucá-checklist:** mind az öt területnél írd le, mit terveztél rá a saját peuládban:
+> 1. Idő & helyszín (kezdés–zárás, helyszín; ki tud a felügyeletről, és hogyan jutnak haza a résztvevők);
+> 2. Létszám & madrih–hanih arány;
+> 3. Anyagok, technika & B-terv;
+> 4. Hozzáférhetőség & inkluzivitás;
+> 5. Gyermekvédelem & határok (red flag lépés, az 1:1 helyzetek kezelése, kihez fordulsz – a Memunához –, és ki a jelen lévő, 18 év feletti felelős felnőtt).
+>
+> Ez önellenőrzés is: ha valamelyik területre nem tudsz konkrétat írni, azt érdemes leadás előtt pótolnod – a 4. és az 5. terület a kapunál kritikus. A checklist nem külön kapu: az értékelő a biztonsági, az inkluzivitási és az operációs szemponthoz használja.
+
+> **Plusz két rövid mező a leadás mellé – ezeket nem pontozzuk, és nem buktatnak:**
+> – **AI-használat (1 sor):** hol és mire használtál AI-t – vagy írd ide: „nem használtam AI-t”. Az AI nélküli út teljesen egyenértékű.
+> – **Kipróbálási kötelezettségvállalás (3 sor, „ha…, akkor…”):** MIKOR, MELYIK Zmán Kvucán próbálod ki (kitalált kvuca-profilnál: a terepgyakorlat első alkalmán); 1 várható akadály; HA ez az akadály jön, AKKOR mit teszel. Az M7.B zárókörében már megfogalmaztad.
+>
+> Ha valamelyik mező hiányzik vagy üres, a mentorod megkér, hogy pótold; ez nem buktatja a kaput, és a Peula v2 értékelését sem akadályozza. *A kipróbálás éles terepi alkalom: ilyenkor mindig jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé.*
+
+> **Ha AI-t használsz:** egyelőre a képződön keresztül kérhetsz AI-ötletet (játékvariációk, kérdésötletek): ő küldi el a promptot, személyes adat nélkül. Ne másold be nyersen, amit kapsz – gondold át, illik-e a kvucádhoz, a Somer értékeihez és a gyermekvédelmi keretekhez. Hogy mit használsz fel belőle, az a te szakmai döntésed.
+
+> **Hogyan add le?** Két egyenértékű út közül választhatsz:
+> – **szövegként:** a feladat szövegmezőjébe írod, a fenti öt részt és a két kísérő mezőt egymás alá; a táblázat sorait elég „idő – mi történik – ki felel” formában egymás alá írni, **vagy**
+> – **fájlként:** letöltöd a feladathoz csatolt sablont, kitöltöd, és feltöltöd.
+>
+> A sablon címsorokkal és táblázattal készült, képernyőolvasóval is kitölthető. Ha a mentés után a Moodle külön beküldésgombot is mutat, azt is nyomd meg: a munkád csak így számít leadottnak. Ha egyik út sem működik, a kurzus „Segítség és kapcsolatok” blokkjában kérj segítséget.
+
+> **Mikor?**
+> – A feladat három feltétellel nyílik meg: leadtad a Peula v1-et, lezajlott az M7.B, és a mentorod a felkészültségi kvízen („M7 – SMART & Zmán Kvucá kvíz”) elért eredményedet „Teljesítve”-ként megerősítette. A v1 leadása és az M7.B után külön átdolgozási időd van: amíg a feladat meg nem nyílik, a v1-vázlatodon és a saját jegyzetedben dolgozz tovább; a v2-sablont a feladat megnyílásakor töltheted le.
+> – **Határidő:** a v1-határidő után egy héttel, szerdán 18:00 (a pontos dátumot a kurzus naptára mutatja). A kijelölt mentorod / értékelőd legkésőbb csütörtök 18:00-ig megerősíti az eredményedet. Amíg ez nem történik meg, az eredményed függőben van – ez nem bukás.
+> – Ha a kvízed megerősítése a v2 határidejéig nem történik meg, a képződ indokolt esetben egyénileg meghosszabbítja a határidőt.
+
+> **Mi alapján értékelünk?** Nyolc szempont szerint, szempontonként 0–3 ponttal (0 = hiányzik, 1 = kezdő, 2 = megfelelő, 3 = mesteri), legfeljebb 24 pont. Ennyi kell a „megfelelő” (2 pont) szinthez:
+
+| Szempont | Megfelelő (2 pont) – ennyi kell |
+|---|---|
+| SMART nevelési cél – **kritikus** | Konkrét kvucának szól, someres értékhez kötött, és van benne legalább egy mérhető jel vagy időkeret. |
+| Kvuca-illeszkedés & kvuca-infó | Típus, korosztály, kb. létszám és kiinduló hangulat – és a program láthatóan igazodik hozzá (energiaszint, figyelem-időtartam). |
+| A Peula 11 pontjának szerkezete | A 3–4 kidolgozott pont között végigkövethető a bevezetés–élmény–feldolgozás–zárás ív, és felismerhető a 11 pont három fázisa. |
+| Gyermekvédelem & biztonság – **kritikus, blokkoló** | Legalább 1 konkrét gyermekvédelmi lépés (mit teszel red flag esetén, kit vonsz be – a Memunát), és B-terv a kockázatos elemnél. |
+| Inkluzivitás & hozzáférhetőség – **kritikus** | Legalább 1 konkrét hozzáférhetőségi szempont és hozzá 1 konkrét variáció. |
+| Módszer-illeszkedés (cél ↔ módszer ↔ kvuca) – **kritikus** | A módszer láthatóan a célt szolgálja, és belefér az időbe, a kvucába és a térbe. |
+| Operáció: Zmán Kvucá-keret (idő–feladat–felelős) | Legalább 3 soros idő–feladat–felelős táblázat a kezdéstől a zárásig, átgondolt madrih–hanih aránnyal és térrel, reális időkkel. |
+| Etikus AI-használat & emberi szöveg | Emberi, érthető szöveg, beazonosítható hanih-adat nélkül – AI-val és AI nélkül ugyanúgy. |
+
+> **Mikor teljesül a kapu?** Ha egyszerre igaz, hogy (1) legalább **17 pontod** van a 24-ből, (2) a SMART cél, az inkluzivitás és a módszer-illeszkedés **mindegyike legalább 2 pont**, és (3) a gyermekvédelem és biztonság szempontja **legalább 2 pont**. Ez utóbbi blokkoló: ha 0 vagy 1, a kapu nem teljesül, akárhány pontod van összesen. A gyermekvédelmi szempont akkor is 0 pontot kap, ha a tervben aktív kockázat marad – például ellenőrizetlen, az 1:1 szabályt sértő négyszemközti helyzet vagy B-terv nélküli kockázatos elem. A kapu másik része a felkészültségi kvíz, amelyet már a v2 előtt teljesítettél. Ha a kapu egy kritikus szemponton dől el, arról a kijelölt mentorod / értékelőd és egy második képző együtt dönt.
+
+> **Ha javítanod kell:**
+> – Rövid visszajelzést kapsz: mit láttunk, mit okoz, és mi a következő lépés; benne legfeljebb három konkrét javaslattal.
+> – Ilyenkor az **M7.F felzárkóztató peula (F-peula)** kötelező: a Z utáni hét hétfőjén, 18:00-tól (a pontos időpontot a képződ jelöli ki a központi naptár szerint).
+> – Az F-peula után egyszer újra leadhatod a javított Peula v2-t, ugyanebben a feladatban; a javító leadás határideje az F-peula utáni szerda 18:00. További leadást a képző nyithat.
+> – Ha a felkészültségi kvíz első próbálkozása nem sikerült, a v2-re ugyanígy egy leadás és egy javító leadás jár, mindkettő az M7.F után; a javító leadás időpontját a képződ egyénileg jelöli ki. Ilyenkor a Peula v2 határideje is az M7 javító határideje, nem a v1 utáni egy hét; a Z-határidődet a képződ egyénileg ütemezi, és a program teljesítése ezt bevárja.
+> – A teljesítéshez a **legjobb megerősített eredményed** számít: ha a Peula v2-d már „Teljesítve” lett, és utána önként leadsz egy csiszoltabb változatot, a teljesítésed ettől nem vész el.
+> – Kérheted azt is, hogy az eredeti értékelődtől eltérő második képző nézze át a beadásodat és a kapudöntést, még mielőtt az online félév teljesítését lezárjuk. Ha a vitatott döntés biztonsági kérdést érint, a Memunát is bevonjuk.
+
+> **Mi jön utána?** A Z modul tanulási része a megerősített kapueredménnyel megnyílik – „Még nem teljesítve” eredménnyel is. Az online félév és a program teljesítéséhez viszont az M7 kapu „Teljesítve” eredménye kell.
+
+> **Elakadtál?** Tartalmi kérdéssel írj a kurzus „Segítség és kapcsolatok” blokkjában megadott mentorodnak; technikai gondnál ugyanitt találod, hogyan kérhetsz segítséget. Ha a tervezés közben valódi gyermekvédelmi aggály jut eszedbe (valakit bántanak, vagy veszélyben lehet), azt ne a beadandóba írd: azonnal vond be a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét).
+
+### (D2) A leadás egységes sablonja (`M7-HUB-MUNK-02`)
+
+Egyetlen dokumentum, a (D1) sorrendjében; az alábbiakon túl új mező, minta vagy útmutató szöveg nem kerül bele:
+
+1. **Kvuca-infó** – a (D1) 1. részének kérdései, 3–5 sornyi hellyel.
+2. **SMART nevelési cél** – a (D1) 2. részének mondata, 1–2 mondatnyi hellyel.
+3. **A peula 11 pontja** – a 11 pont címe az M7.2 végleges listája szerint, a három fázis alcímével; minden pont alatt írási hely; a 3., az 5., a 9. és a 11. pont alatt a rájuk vonatkozó (D1)-bekezdés szó szerint, segédszövegként (a 9. pontnál az aktív kockázatról szóló mondattal együtt).
+4. **Zmán Kvucá-operációs táblázat** – három oszlop: „Idő (kb.)”, „Mi történik?”, „Ki felel érte?”; 4 üres sor; alatta szó szerint az 1:1 helyzetekről szóló dőlt bekezdés.
+5. **Zmán Kvucá-checklist** – az öt terület a (D1) 5. részének felsorolása szerint, ahol van, a zárójeles pontosítással, mindegyik mellett írási hely („Mit terveztem rá?”); nem pipálós lista. Mellette opcionálisan a (C) 0–1–2 önpontozó oszlopa.
+6. **AI-használat** – 1 sor.
+7. **Kipróbálási kötelezettségvállalás** – a három sor kérdései.
+8. A sablon végén szó szerint a (D1) ⚠️ adatkímélő mondata.
+
+Ugyanez a szerkezet szövegként is leadható (online szöveg); a két út egyenértékű.
+
+### (D3) Beállítások (fejlesztőnek)
+
+* **Azonosító és profil:** `LMS-M7-06`, név: „Peula v2 + Zmán Kvucá”, ASSIGN-M (`LMS – activity manifest.md` §1, §2); nyitás és határidő a manifest LMS-M7-06 sora és §7 szerint (az LMS-M7-05 SUBMITTED → M7.B → külön revíziós szakasz; az LMS-M7-09 = „Teljesítve”, Grade-feltétel, alsó határ 50%; `M7_V2_DUE`).
+* **Beadási típusok:** online szöveg = igen; fájlbeadás = igen (Program terv §5). Az `M7-HUB-MUNK-02` sablon a feladat „Additional files” mezőjébe kerül; további fájltípusról és a méretkorlátról az LMS-gazda, a DPO és a hozzáférhetőségi gazda dönt (mint az LMS-M1-05-nél, X-17). A két kísérő mező a leadás része, külön activity nem kell (ERT-41).
+* **Completion:** „Make a submission” (`completionsubmit`) (SUBMITTED); a megerősített rubrika és kapueredmény (CONFIRMED) az LMS-M7-08 GATE-CP (ERT-9).
+* **Értékelés:** Grade type: Point, Maximum grade = 24; „Grading method” = „Rubric” (a rubrikát az „Advanced grading” oldalon kell definiálni), a (B) nyolc sora, soronként a négy szint (0–3) szintleírásával szó szerint; minden szintleírás a kánoni szintnévvel kezdődik („Hiányzik / nem értékelhető: …”, „Kezdő: …”, „Megfelelő: …”, „Mesteri: …”). Az értékelőnek szóló megjegyzések (pl. az R8 alatti) nem kerülnek a rubrikába. A „Teljesítve” feltétele egyetlen „Grade to pass” értékkel nem kódolható; a kapudöntést az LMS-M7-08 GATE-CP hordozza (§4; runtime acceptance 8. pont).
+* **Javító leadás:** az ASSIGN-M profil szerint („Grant attempts” = „Manually”, „Allowed attempts” = „Unlimited”), a kötelező M7.F után; a dátumok a manifest §7 kiegészítő naptárából.
+* **„Require students to click the submit button”:** nyitott build-spec tétel (`LMS – activity manifest.md` BSPEC-09); a tanulói leírás beküldésgombos mondata mindkét értékkel igaz.
+* **A leírás és a sablon elérhetősége a nyitás előtt:** nyitott (LMS-gazda + értékelési felelős; `01 Fejlesztés/04 Audit/2026-10-18 Forrás-hibaregiszter – builder-bizonyíték és célzott QA, AP-2026-10-18-01.md`, QA-PED-1 b): a sablon most csak a zárolt feladat „Additional files” mezőjében van, ezért az M7.4 és az M7.B nem ígéri, hogy a revíziós szakaszban elérhető. Lehetséges út: a sablon második, az LMS-M7-05 SUBMITTED feltételhez kötött helye az M7 szakaszban (az M5.4-MUNK-01 mintájára), vagy a feladatleírás megjelenítése a kurzusoldalon a nyitás előtt (célverzión visszaolvasandó).
 
 ***
 

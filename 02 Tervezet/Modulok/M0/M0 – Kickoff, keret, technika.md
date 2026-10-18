@@ -67,7 +67,7 @@ A modul végére a madrih…
   * M0–M7 + Z idővonal (modulcímek 1 mondattal);
   * mit ígér a program (nem vagy egyedül, támogatás, kapuk, fejlődés);
   * első reflektív kérdés: „Mit várok ettől az évtől madrihként?”
-* **Moodle/H5P mix:** Moodle intro Page + H5P Course Presentation (idővonal + mini-kérdések, 3 szöveges lépés: SLIDE 1, 6, 7). A szöveges lépések tanuló-lokálisak: a tanuló magának írja le őket, beviteli elem és Moodle-oldali mező nem épül hozzájuk (BSPEC-02 leltár, a SLIDE 6-nál D-4; `LMS – activity manifest.md`, LMS-M0-01); a Course Presentation dián belüli szabad szöveges mező nem feltételezhető.
+* **Moodle/H5P mix:** Moodle intro Page + H5P Interactive Book (idővonal, 3 szöveges lépés: SLIDE 1, 6, 7) + utána háromoldalas, pontozatlan Moodle Feedback a három kötelező véleménykérdéssel; a lecke a Feedback beküldésével teljesül (projektgazdai döntés, 2026-10-15, CB-C-0036, `Emberi jóváhagyás szükséges.md` 20. szakasz; LMS-M0-01, LMS-M0-07). A szöveges lépések tanuló-lokálisak: a tanuló magának írja le őket, beviteli elem és Moodle-oldali mező nem épül hozzájuk (BSPEC-02 leltár, a SLIDE 6-nál D-4; `LMS – activity manifest.md`, LMS-M0-01); a könyv oldalán belüli szabad szöveges mező nem feltételezhető.
 
 ### L2 / M0.2 – Madrih, nem terapeuta – szerepek és elvárások (15–20’)
 
@@ -76,7 +76,7 @@ A modul végére a madrih…
   * szerepek: mit jelent madrihnak lenni (biztonság, keret, jelzés), és mi az, ami más felelős dolga (szakember, ken-vezető, gyermekvédelmi ügyben a kijelölt Memuna, a Somer gyermekvédelmi felelőse);
   * „madrih, nem terapeuta” – alapszintű gyermekvédelmi logika jelzésszinten;
   * dugma isit 1 mondatban + 2–3 helyzet, ahol ez látszik.
-* **Moodle/H5P mix:** H5P Course Presentation (szerep-összehasonlító táblázat, mini-kvíz, nyitott reflexió). A szöveges lépések tanuló-lokálisak: a tanuló magának írja le őket, beviteli elem és Moodle-oldali mező nem épül hozzájuk (BSPEC-02 leltár, a SLIDE 6-nál D-4; `LMS – activity manifest.md`, LMS-M0-02); a Course Presentation dián belüli szabad szöveges mező nem feltételezhető.
+* **Moodle/H5P mix:** natív Moodle Lecke (szerep-összehasonlító táblázat, négy kötelező helyzetkérdés kérdésoldalon, nyitott reflexió); a lecke a négy kérdés megválaszolása után, a lecke végén teljesül, helyességtől függetlenül (projektgazdai döntés, 2026-10-15, CB-C-0036, `Emberi jóváhagyás szükséges.md` 20. szakasz; LMS-M0-02). A szöveges lépések tanuló-lokálisak: a tanuló magának írja le őket, beviteli elem és Moodle-oldali mező nem épül hozzájuk (BSPEC-02 leltár, a SLIDE 6-nál D-4; `LMS – activity manifest.md`, LMS-M0-02); a lecke oldalán belüli szabad szöveges mező nem épül.
 
 ### L3 / M0.3 – „Hogyan működik a Moodle / H5P / kapu?” (15–20’)
 
@@ -166,7 +166,7 @@ A modul végére a madrih…
 
 **Az M0 teljesítésének feltételei:**
 
-1. L1–L4 (M0.1–M0.4) mikroleckék activity completion.
+1. L1–L4 (M0.1–M0.4) mikroleckék activity completion (az M0.1-nél a könyv utáni „M0.1 – Rövid kérdőív” Feedback beküldése, LMS-M0-07; az M0.2-nél a natív Lecke vége a négy kérdés megválaszolása után; `Emberi jóváhagyás szükséges.md` 20. szakasz).
 2. Bemutatkozó fórum: 1 poszt + 1 komment – csak a fórum ADV-6 szerinti megnyitása után induló kohorszban (lásd fent, „Megnyitás”; projektgazdai döntés, 2026-10-13, D-15 (f)); addig, és a megnyitáskor már futó kohorszban, ez nem teljesítési feltétel.
 3. M0 belépőkvíz **kitöltve** (mind a 7 item megválaszolva) – **a completion-feltétel maga a kitöltés, eredménytől függetlenül** (a kvíz completion-jelző, nem küszöbös kapu). **A „kb. 60%” nem belépési feltétel, hanem stáb-oldali jelzőszint:** ha sokan tartósan ez alatt vannak, az a _stábnak_ jelez (ráerősítés a keret-/jelzés-témára), nem a madrihot zárja ki.
 
@@ -177,6 +177,9 @@ A modul végére a madrih…
 * Nincs kizárás, csak **jelzés és támogatás**.
 
 ### Az M0 belépőkvíz itemei
+
+* **Tanulói bevezető (a Moodle Quiz leírásába; előtte a fenti „just-in-time” adatkezelési tájékoztató; forrás-szerzés e szakasz alapján, AP-2026-10-18-01).** A visszajelzésről szóló mondat a Review options rögzítésétől függ: a forrás nem adja meg, mikor látja a tanuló a hibás válasz visszajelzését (`LMS – activity manifest.md` BSPEC-11, nyitott: LMS-gazda + értékelési felelős, az LMS-M5-06 mintájára). Amíg ez nincs rögzítve, a mondat nem élesíthető.
+  > Ez a rövid kvíz azt nézi meg, mennyire állnak már össze benned a képzés alapjai. Hét kérdést kapsz a madrih szerepéről, a gyermekvédelmi jelzési útról, a kapukról, az online hangnemről, az éves ívről és arról, hol találod a leckéket. Mindegyikre válaszolj: a teljesítéshez ez kell, az eredményed nem számít bele, és nincs ponthatár. Ha valamit elvétesz, a visszajelzés megmondja, miért nem jó, és hol találod a helyes szabályt.
 
 * **Forrás és ellenőrzés:** az itemek szövegét és a kulcsot a projektgazda adta meg (projektgazdai döntés, 2026-10-02); a 3. és a 7. item disztraktorai, a 6. item legördülő listája és a hibás válaszokhoz tartozó visszajelzések szerkesztői kiegészítések. A 4. item D) disztraktora és visszajelzése a BS-D5 szerint cserélve, mert a Q-REL-2 után a korábbi változat részben igaz lett (projektgazdai döntés, 2026-10-04); a helyes válasz és a kulcs változatlan. A 4. és a 7. item törzse, valamint a 7. item C) opciójának szövege az ERT-11 szerint nyelvileg javítva (projektgazdai döntés, 2026-10-12); a ✅ helye és a kulcs változatlan. Utólagos ellenőrzés (vétó/QA): az értékelési felelős, az 1–2. itemnél a Memuna is.
 * **Beállítás:** Moodle Quiz, 7 item, ponthatár (cut-score) nélkül. A completion-feltétel: mind a 7 item megválaszolva, eredménytől függetlenül; az első próbálkozás diagnosztikus adat (§6). Hogy a Moodle-beállítás kikényszeríti-e mind a 7 item megválaszolását, vagy ezt a stábnak kell ellenőriznie, a stagingben kell igazolni.

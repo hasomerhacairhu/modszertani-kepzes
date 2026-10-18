@@ -297,7 +297,7 @@ Opciók:
 > amit **nehéznek éltél meg**, vagy amelyiknél **ellenállást éreztél**
 > (pl. „unalmas”, „túl sok”, „túl személyes”, „nem nekem való”).
 
-> Írj róla **5–8 mondatot**:
+> Írj róla **5–8 mondatot** – magadnak, jegyzetbe vagy papírra; nem adod be:
 
 > 1️⃣ Melyik modul / téma volt ez? (pl. M1 – visszajelzés, M3 – gyermekvédelem, M5 – tanulástan…)
 > 2️⃣ Pontosan **mi volt benne nehéz** vagy taszító?
