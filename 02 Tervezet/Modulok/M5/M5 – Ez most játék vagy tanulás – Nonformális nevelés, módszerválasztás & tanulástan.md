@@ -172,7 +172,7 @@ Hozzáállás: **támogató tér, nem büntető óra**; a madrih maga dönt, men
 > **Kapu-filozófia (Program terv §5):** az M5 nonformális nevelést tanít, ezért **nem egy „sulis” fogalomkvíz dönti el a továbblépést**, hanem a someresebb, produktumalapú értékelés. **Az éles teljesítési kapu az M5.4 táblázat rubrikás értékelése** (mint az M1-ben és az M7-ben), a **kvíz pedig formatív/diagnosztikus**.
 
 * **Éles kapu – M5.4 produktum (rubrika):**
-  * Eszköz: **Moodle Assignment + rubrika**.
+  * Eszköz: **Moodle Assignment + rubrika** (a tanulói feladatleírás és a beállítás: [M5.4](./Online%20leckék/M5.4%20–%20Cél–kvuca–módszer%20mini-táblázat%20–%20saját%20adatbázisod%20madrihként.md) 4. szakasz).
   * A leadott „Feladat–kvuca–módszer + tanulástan” táblázat **minden rubrikasoron eléri legalább az „Alapszint”-et**. A négy megfigyelhető sor: **feladat / cél konkrétsága (R1), kvuca megnevezése (R2), módszer–cél illeszkedés (R3), tanulástan-elem valódisága (R4)**. A **tanulástan-elem valódisága (R4) kritikus sor:** itt a „Hiányos” szint javításra visszaküldést jelent.
   * **Javítási útvonal:** ha egy sor „Hiányos”, rövid fejlesztő visszajelzés (Megfigyelés → Hatás → Következő lépés) + a kapueredmény megerősítése után a kötelező **M5.F (F-peula)** + **egy javító újraleadás**, amely az F-peula után nyílik meg (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele; további leadást a képző nyithat), és az F-peula utáni szerda 18:00-ig adható le – nincs kizárás, a cél a megértés. A teljesítéshez a legjobb megerősített eredmény számít.
 * **Diagnosztikus kvíz – fogalmi felzárkózás (NEM éles kapu):**

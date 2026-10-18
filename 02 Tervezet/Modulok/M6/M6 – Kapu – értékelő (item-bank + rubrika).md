@@ -439,3 +439,91 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 - **Kvíz (formatív/diagnosztikus):** ha a résztvevők **>30%-a** az első, visszajelzés előtti próbálkozáson nem éri el a 80%-ot → a programvezető a meglévő tananyagból ismétlést vagy beszélgetést rendelhet **a játéklap leadása előtt** (nem kapuzás, hanem felkészítés; új tanulási modul nem készül). Az **M6.F** (F-peula) nem ide tartozik: az a nem teljesült kapu utáni javítási alkalom. Külön nézni, **mely témánál** (korosztály / biztonság / inkluzivitás / felkavaró tartalom) hibáznak sokan – ez **irányadó jelzés, nem statisztikai bizonyíték** (a témánkénti itemszám kicsi: 4 / 3 / 3 / 2, a felkavaró tartalom pl. csak 2 item). A **biztonsági/inkluzivitási** itemeknél való rendszeres hibázás ezért **a beszélgetés indoka** egy egyéni mentori egyeztetésre a játéklap előtt, **nem maga a kapudöntés**: a teljesítés érdemi bizonyítéka a játéklap, a blokkoló döntés pedig az **R4/R5 blokkoló feltételén** dől el, nem 2 kvíz-itemen.
 - **Játéklap:** ha a lapok **>25%-ánál** gyenge az **R4 Biztonság** vagy **R5 Inkluzivitás** sor → egyéni mentoros munka a kritikus esetekkel; az F-peula (M6.F) ettől függetlenül kötelező mindenkinek, akinek a kapuja nem teljesült, a visszajelzésben jelzett sorokra fókuszálva.
+
+---
+
+## (E) Moodle-feladat – „M6 – Játéklap” (LMS-M6-05): tanulói leírás és beállítás
+
+> **Fejlesztői jegyzet (nem tanulói szöveg):** az (E1) a feladat Moodle-leírása szó szerint, az (E2) a beállítás összefoglalója. Forrás: az M6.B 1. és 2.1. pontja és a játéklap-sablon (M6.B-MUNK-01, M6-HUB-MUNK-01), a (B) rubrika és „Oké”-ellenőrzőlistája, a modul-hub §6.2, valamint a Program terv §7 tájékoztató-sablonja és az `Adatvédelem – tanulói adatok és AI.md` §3 megőrzési mátrixa (HUM-PRIV-01). Új követelmény, küszöb vagy biztonsági szabály nem került bele (forrás-szerzés a projektgazdai végrehajtási utasítás alapján, 2026-10-18, AP-2026-10-18-01). A rubrika és a pontozás nem változik.
+
+### (E1) Feladatleírás (tanulói nézetre)
+
+**Cím:**
+
+> M6 – Játéklap
+
+**Leírás:**
+
+> **Mit csinálsz?** Véglegesíted és leadod a **saját játéklapodat**: egy játék, egy történet vagy egy kézműves eszköz leírását úgy, hogy egy másik madrih is biztonságosan meg tudja tartani a kvucájával. A vázlatot az M6.B peulán kezdted el; most csiszolod, és **önállóan** adod le. Ha a peulán párban dolgoztatok, a közös lap csak vázlat: a Moodle-ben mindenki önállóan véglegesíti, és a saját játéklapjaként adja le. **Ez az M6 modul éles kapuja.**
+
+> **Röviden:** egy kész játéklapot adsz le, az M6.B utáni szerda 18:00-ig; a kapu akkor teljesül, ha mind az öt szempont legalább „Oké”, és a Biztonság és az Inkluzivitás rovat konkrét.
+
+> **Miért?** A játéklap az eszköztárad első kész darabja, és az M7 Peula v2 élmény-blokkjába is beemelheted. A legfontosabb része a biztonság és az inkluzivitás: ezek mutatják meg, hogyan vigyázol a hanihokra.
+
+> 🔒 **Mielőtt leadod – mi lesz a játéklapoddal?**
+> – **Mit gyűjtünk:** azt, amit beírsz vagy feltöltesz (a játéklapodat), az értékelését és azt, hogy leadtad-e.
+> – **Mire használjuk:** a te tanulásodhoz – hogy a kijelölt mentorod / értékelőd visszajelzést tudjon adni, és megerősítse a kapueredményedet. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
+> – **Meddig tároljuk:** a végső pontszámodat és a kapueredményedet 24 hónapig; a leadott játéklapodat a képzés vége után 12 hónapig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
+> – **Ki látja:** te és a **kijelölt mentorod / értékelőd**, és ő is csak annyit, amennyire ténylegesen szükség van. Második vagy fellebbezési értékelő csak konkrét eljárásnál – például ha újraértékelést kérsz – látja, a Memuna pedig szükség esetén. Az F-peula képzője a kapueredményekből csak összesített vagy minimális hiánylistát lát. Technikai okból a Moodle rendszergazdája is hozzáférhet.
+> – **Kihez fordulhatsz:** ha meg szeretnéd nézni, javíttatni vagy töröltetni, amit tárolunk rólad, a Moodle-kurzus adatkezelési tájékoztatójában megadott elérhetőségű **adatvédelmi kapcsolattartóhoz** fordulhatsz.
+>
+> A játéklapon a kvucáról ne szerepeljen azonosító adat – név, egyéni érzékeny történet, diagnózis vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat.
+
+> **Mi kerüljön a játéklapra?** (a sablon rovatai, ebben a sorrendben)
+>
+> 1. **Cím**
+> 2. **Az eszköz típusa:** játék, történet vagy kézműves.
+> 3. **Cél:** mit tanít, mire használod? Ha van, írd mellé a kapcsolódó someres értéket is.
+> 4. **Kvuca:** korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17; elég a név vagy az életkor), létszám és hangulat.
+> 5. **Időkeret, tér, eszközök**
+> 6. **Menet:** lépésről lépésre, legalább 3 lépésben – úgy, hogy egy másik madrih is el tudja indítani.
+> 7. **Biztonság:** legalább 1 konkrét, erre az eszközre vonatkozó fizikai vagy érzelmi / beleegyezéssel kapcsolatos megjegyzés (pl. „stop” jelszó, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). Erős akkor lesz, ha legalább két konkrét elemet írsz, fizikai és érzelmi / beleegyezési szempontból is, és azt is leírod, mikor állsz le, és kit hívsz, ha valakinek sok.
+> 8. **Inkluzivitás:** legalább 1 megnevezett akadály (pl. finommotorika, anyagérzékenység, költség, nyelv, szorongás, mozgás) és hozzá 1 konkrét alternatív belépési pont ugyanahhoz a célhoz – nem felmentés, hanem egy másik út a feladatba.
+> 9. **Variációk:** könnyített, nehezített vagy más korosztálynak szóló változat.
+
+> **A két legfontosabb rovat – így még nem elég, így már jó:**
+> – **Biztonság.** Még nem elég: „Figyelünk egymásra.” Már jó: egy konkrét, erre az eszközre szóló megjegyzés, például egy „stop” jelszó, vagy az, hogy felállni nem kötelező.
+> – **Inkluzivitás.** Még nem elég: „Mindenki vegyen részt.” Már jó: megnevezed, kinek lehet nehéz a feladat, és adsz hozzá egy másik utat – például akinek nehéz sokat állni vagy mozogni, ülve, a helyéről is bekapcsolódhat ugyanabba a feladatba.
+
+> **Hogyan add le?** Két egyenértékű út közül választhatsz:
+> – **szövegként:** beírod a feladat szövegmezőjébe, a rovatokat a fenti sorrendben egymás alá, **vagy**
+> – **fájlként:** letöltöd a feladathoz csatolt játéklap-sablont, kitöltöd, és feltöltöd.
+>
+> A sablon kitölthető, és képernyőolvasóval is használható. Ha a mentés után a Moodle külön beküldésgombot is mutat, azt is nyomd meg: a munkád csak így számít leadottnak. Ha egyik út sem működik, a kurzus „Segítség és kapcsolatok” blokkjában kérj segítséget.
+
+> **Mikor?** A feladat az M6.B peula után nyílik meg, ha az M5 modult teljesítetted (benne az M5 kapu „Teljesítve” eredményével). **Határidő:** az M6.B utáni szerda 18:00 (a pontos dátumot a kurzus naptára mutatja). A kijelölt mentorod / értékelőd legkésőbb csütörtök 18:00-ig megerősíti az eredményedet. Amíg ez nem történik meg, az eredményed függőben van – ez nem bukás.
+
+> **Előtte érdemes:** kitölteni az „M6 – Szcenárió-önellenőrzés” kvízt. Nem buktat, korlátlanul újrapróbálható, és megmutatja, melyik biztonsági vagy inkluzivitási szempontot érdemes még átnézned. A beküldése az M6 teljesítéséhez és az M7 leckéinek megnyílásához kell, az eredménye nem.
+
+> **Mi alapján értékelünk?** Öt szempont szerint, három szinten: **Még nem, Oké, Erős.** Ennyi kell az „Oké” szinthez:
+
+| Szempont | Oké – ennyi kell |
+|---|---|
+| Cél-illeszkedés | Legalább 1 kimondott, az eszközhöz illő cél. |
+| Kvuca / korosztály-illesztés | Korosztály és létszám, és az eszköz illik ehhez a korhoz. |
+| Leírás végrehajthatósága | Legalább 3 lépésből álló menet, időkeret és eszközlista. |
+| Biztonság | Legalább 1 konkrét, erre az eszközre vonatkozó biztonsági mondat – nem általánosság. |
+| Inkluzivitás | Legalább 1 megnevezett akadály és hozzá 1 konkrét alternatív belépési pont. |
+
+> **Mikor teljesül a kapu?** Ha **mind az öt szempont legalább „Oké”**. A **Biztonság** és az **Inkluzivitás** blokkoló: ha bármelyik üres, vagy csak általános kijelentés áll benne, a játéklap javításra megy, akármilyen erős a többi rész. A két blokkoló szempont végső értékét mindig a kijelölt mentorod / értékelőd adja; az M6.B-n kapott társas visszajelzés segít, de nem dönt. Értékelés után szempontonként a szöveges szintet és a mentorod megjegyzését látod; pontszámot nem.
+
+> **Ha javítanod kell:**
+> – Rövid visszajelzést kapsz: mit láttunk a lapon, mit okoz, és mi a következő lépés.
+> – Ilyenkor az **M6.F felzárkóztató peula (F-peula)** kötelező: a kapueredmény megerősítése utáni hétfőn, 18:00-tól (a pontos időpontot a képződ jelöli ki a központi naptár szerint; ha a javítás az M7 útját akadályozná, a Z utáni hétre is teheti).
+> – Az F-peula után egyszer újra leadhatod a javított játéklapot, ugyanebben a feladatban; a javító leadás határideje az F-peula utáni szerda 18:00. További leadást a képző nyithat.
+> – A teljesítéshez a **legjobb megerősített eredményed** számít: ha a játéklapod már „Teljesítve” lett, és utána önként leadsz egy csiszoltabb változatot, a teljesítésed ettől nem vész el.
+> – Kérheted azt is, hogy az eredeti értékelődtől eltérő második képző nézze át a játéklapodat és a kapudöntést – még mielőtt az M7 felkészültségi kvíze megnyílik.
+
+> **Mi jön utána?** Az M7 leckéi a megerősített kapueredménnyel megnyílnak – „Még nem teljesítve” eredménnyel is –, ha az M6 leckéit elvégezted, és a szcenárió-önellenőrzést is beküldted. Az M7 felkészültségi kvízéhez viszont az M6 teljesítése kell, benne a játéklap „Teljesítve” eredményével.
+
+> **Elakadtál?** Tartalmi kérdéssel írj a kurzus „Segítség és kapcsolatok” blokkjában megadott mentorodnak; technikai gondnál ugyanitt találod, hogyan kérhetsz segítséget.
+
+### (E2) Beállítások (fejlesztőnek)
+
+* **Azonosító és profil:** `LMS-M6-05`, név: „M6 – Játéklap”, ASSIGN-M (`LMS – activity manifest.md` §1, §2); nyitás: az M6.B után, az M5 complete feltétellel (§4; Q-REL-2).
+* **Egyéni beadás:** csoportos beadás nincs; minden résztvevő önállóan véglegesít és ad le egyéni játéklapot (ERT-37). A társas visszajelzés élőben, az M6.B-n történik, nem Moodle Workshopban.
+* **Beadási típusok:** online szöveg = igen; fájlbeadás = igen (Program terv §5: „online-text ON + letölthető sablon”). A játéklap-sablon szerkeszthető, akadálymentes változata (M6.B-MUNK-01 / M6-HUB-MUNK-01: kitölthető PDF vagy Word) a feladat „Additional files” mezőjébe kerül; további fájltípusról és a méretkorlátról az LMS-gazda, a DPO és a hozzáférhetőségi gazda dönt (mint az LMS-M1-05-nél, X-17).
+* **Completion:** „Make a submission” (`completionsubmit`) (SUBMITTED); a megerősített kapueredmény (CONFIRMED) az LMS-M6-07 GATE-CP (D-h; ERT-9).
+* **Értékelés:** „Grading method” = „Rubric” (a rubrikát az „Advanced grading” oldalon kell definiálni); a (B) rubrika öt sora és szintleírása szó szerint. A Moodle-rubrika szintjének csak leírása és pontja van, ezért minden szintleírás a kánoni szintnévvel kezdődik, számjegy nélkül („Még nem (hiányos): …”, „Oké (átadható): …”, „Erős (mintaértékű): …”), így a tanuló rejtett szintpont mellett is látja, melyik szintet kapta. Grade type, Maximum grade, a rubrika minimum-beállítása, a szintpont és a végső pont rejtése a manifest LMS-M6-05 sora szerint (Point, Maximum grade = 15, nyers összeg 5–15; `showscorestudent` = No; a végső pont rejtésének módja X-16, staging-validációra elfogadva). A kapudöntést a GATE-CP hordozza, nem a nyers pont (LMS-4, D-15 (d)). A tanulói leírás „pontszámot nem” tagmondata az X-16 kanonikus visszaellenőrzésétől függ (RT-P0-28, runtime acceptance 28. és 30. pont, X-16-WS): ha a mód a célverzión nem tartható, a tagmondat törlendő.
+* **Javító leadás:** az ASSIGN-M profil szerint („Grant attempts” = „Manually”, „Allowed attempts” = „Unlimited”), a kötelező M6.F után; a dátumok a manifest §7 kiegészítő naptárából.
+* **„Require students to click the submit button”:** nyitott build-spec tétel (`LMS – activity manifest.md` BSPEC-09); a tanulói leírás beküldésgombos mondata mindkét értékkel igaz.
