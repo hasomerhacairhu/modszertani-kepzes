@@ -120,3 +120,48 @@ Bemenet: a `709423b` előtti diff (`02 Tervezet/`).
 | M5.4, M6 KAPU, M7 KAPU tájékoztatók | új tanulói tájékoztató | ADAT §3 mátrix, §5, §11; Program terv §7 |
 | M7 KAPU (D1) 9. pont, kapuszabály | az R4 0. szintje tanulói nyelven | M7 KAPU R4 0. szint (:312) |
 | BSPEC-08, BSPEC-09 | új `BUILD_SPEC_OPEN` sorok, `PROPOSED` értékekkel | nincs kánoni érték; a build-verdikt `NOT_READY` |
+| BSPEC-10, BSPEC-11 | új `BUILD_SPEC_OPEN` sorok (`f009c9b`), `PROPOSED` értékekkel | QF-IMPL-1 (`mod/lesson/lang/en/lesson.php`, D-039); QA2-ERT-2 |
+| M4.3 SLIDE 4 célzóna-visszajelzés | kártyára szóló szöveg → oszlopra szóló szöveg a húzásos úton; a kártyánkénti szöveg a húzásmentes úton marad; kulcs változatlan | h5p-drag-question `feedbackOnIncorrect`; QF-ERT-1 |
+| M7 KAPU (A) bevezető | a Q13 témája tanulói nyelven, a kulcs nélkül; a Memuna-lábjegyzet törölve, mert a Q13 kulcsára utalt | QA2-ERT-5; M7 KAPU Q13 C ✅ |
+| GYV §4.1 :88, Program terv :251, M3 KAPU :13 | `17905fd`: „közvetlen veszélyben a 112, munkaidőn kívül a Kék Vonal” → `f009c9b`: az eredeti mondat visszaállítva | a két olvasat közti választás a Memunáé (QF-BIZT-4, QF-NYELV-1, QF-PED-3); a Segítség-blokk addig csak a kánoni „közvetlen veszélyben hívd a 112-t” mondatot hozza (GYV :79, :105) |
+| Segítség-blokk gyermekvédelmi pontja | új tanulói szöveg: előbb a biztonság és a 112; címzett a Memuna (helyettes: Ros Hinuh); „te vagy valaki más” | GYV :79, :81, :87, :105; HUM-OPS-02, HUM-SAFE-01, -03; élesítés: programvezető + Memuna |
+| Adatvédelem §11.1 TEXT-C sablon | új tanulói sablon, a lezárt értékekből | §3 (90 nap), §5, §11 (Ki látja?, más célra); PT :238 (3); végső „Ki látja?”: DPO + LMS-gazda |
+
+## F. Generatív AI-val írt tanulói szöveg (provenance, PRG-14 a))
+
+A futás minden forrásszövegét generatív AI (Claude, Claude Code-ban) írta a projektgazda 2026-10-18-i utasítása alapján; a commitok `Co-Authored-By` sora ezt rögzíti. A PRG-14 szerint az AI-eredetet csak szerzői / provenance-bizonyíték alapján jelöljük: ez a lista az a bizonyíték, a tanulói jelölés módja és a szerzői nyilatkozat a szerzőé / tananyagfelelősé (M4:BIZT-G1-7, X-3).
+
+- **Új tanulói feladatleírások és sablon:** M5.4 4.1 (`709423b`); M6 KAPU (E1) (`709423b`); M7 KAPU (D1), (D2), M7-HUB-MUNK-02 (`709423b`); M7.3-MUNK-01 (`139bc24`).
+- **Új vagy átírt kvíz- és feladat-visszajelzés:** M5.1 SLIDE 2 válaszonkénti visszajelzés, SLIDE 4 5. helyzet (`709423b`, `f009c9b`); M4.3 SLIDE 1 két korrekciós visszajelzése, SLIDE 4 három új kártyája és célzóna-visszajelzései (`139bc24`, `f009c9b`).
+- **Új tanulói bevezetők és blokkok:** a négy kvíz-bevezető (LMS-M0-06, -M5-06, -M6-06, -M7-07), a GATE-CP tanulói leírás, a „Segítség és kapcsolatok” blokk, az Adatvédelem §11.1 sablon (`17905fd`, `f009c9b`); M0.1 „Hogyan teljesíted?”, M0.2 navigációs mondatok (`73f30ca`, `f009c9b`).
+- **Instrukció-javítások:** M4.2, M4.3, M3.4 húzásmentes út; M1.3, M5.4, M6.3, Z.1–Z.4 írási helyek (`139bc24`, `f009c9b`).
+- A M4.2 és az M4.3 „Szakmai lektorálás” sora már jelöli, hogy a 2026-10-02-i lektorálás ezekre az elemekre nem terjed ki (`f009c9b`).
+
+## G. Második célzott QA (QA2) és záró regressziós QA (QF) – lezárás
+
+Nyers kimenet: `2026-10-18 Builder-bizonyíték – nyers kivonatok, AP-2026-10-18-01.md`, G. szakasz. QA2: safety, assessment, Hungarian a `17905fd` előtti diffen. QF: pedagogy, assessment, safety, implementation, Hungarian a `f96ce43` → `17905fd` teljes diffen (34 fájl); a pedagógiai, értékelési és implementációs lencse a 60 körös korlátnál megállt, a már ellenőrzött részekből adott riportot, és megnevezte, mit nem nézett meg (lent).
+
+| Tétel | Osztály | Hogyan zárult | Commit |
+|---|---|---|---|
+| QA2-BIZT-1, -2, -4, -6 (objektív rész), -7, -8, -9, -10 a) | objektív | javítva (112 előbb; „te vagy valaki más”; helyettes a vétóban; ADV-1 feltétel; kontakt tényleges elérhetőségként; teljes Z.3-mondat, LMS-M7-10; „más célra” mondat; kizárólagos kihagyási lista) | `17905fd` |
+| QA2-BIZT-3, QA2-BIZT-6 (végső szöveg) | emberi döntés | KANON:QA2-BIZT-3; KANON:QF-BIZT-6 | — |
+| QA2-BIZT-5, QA2-BIZT-10 b) | bizonyíték-kapu | KANON:QA2-BIZT-5; KANON:QA2-BIZT-10b | — |
+| QA2-ERT-1…6, GATE-CP „ha kell” | objektív | javítva („Közvetlenül a beküldés után”; BSPEC-11; kötelező M7.F, újraértékelés; egy próbálkozásban; lábjegyzet törölve; első próbálkozás, mentornak szóló jelzés) | `17905fd`, `f009c9b` |
+| QA2-NYELV-1 | — | lásd QF-BIZT-4 | `f009c9b` |
+| QA2-NYELV-2…10, -12 | objektív | javítva | `17905fd` |
+| QA2-NYELV-11 | emberi döntés (kis súly) | a kvíz-bevezetőben a manifest szerinti „kijelölt mentorod vagy értékelőd”; az Adatvédelem §11 „értékelőd” mondata változatlan (DPO-szöveg, KANON:QF-BIZT-6) | `f009c9b` |
+| QF-BIZT-1, -3 | objektív / bizonyíték-kapu átvezetése | javítva (M0.2 just-in-time feltétel; a HUM 20 nyitott oszlopa szó szerint az M0.1-ben és az M0.2-ben) | `f009c9b` |
+| QF-BIZT-2, -5, -6 | emberi döntés | M0:QF-BIZT-2; KANON:QF-BIZT-5; KANON:QF-BIZT-6 | — |
+| QF-BIZT-4, QF-NYELV-1, QF-PED-3 | emberi döntés (Memuna) | a kánoni mondat visszaállítva; KANON:QF-BIZT-4 | `f009c9b` |
+| QF-PED-1, -2, -4, -5, -6, -8 | objektív | javítva (könyv → kérdőív átadás; célzóna-szöveg; Lesson-a11y; RA 31 záróoldal; javítási ág ütemezése; M5.1 visszautalás) | `f009c9b` |
+| QF-PED-7 | emberi döntés | M7:QF-PED-7 | — |
+| QF-PED-9 | nem hiba | az M5 KAPU 307–309 ismétlése értékelői szöveg; a cellából áthelyezett eredeti mondat szó szerinti megőrzése szándékos | — |
+| QF-ERT-1, -2, -3, -4 | objektív | javítva (= QF-PED-2; = QF-PED-8; G1, G2, G5b és Adatvédelem §3; RA 19 negatív eset) | `f009c9b` |
+| QF-ERT-5 | emberi döntés | M0:QF-ERT-5 (a forrásban fejlesztői figyelmeztetés) | `f009c9b` |
+| QF-IMPL-1 | build-spec | BSPEC-10, M0:BSPEC-10 | `f009c9b` |
+| QF-IMPL-2…7, -9 | objektív | javítva (Lesson-a11y; célzóna; 4.5-ös címkék; LESSON profil, H5P-C kivétel; G2 / §3; mechanizmus-bizonyíték; teljes fájlnév) | `f009c9b` |
+| QF-IMPL-8 | emberi döntés | M0:QF-IMPL-8 (az M0.1 :322 builder-javaslatként hivatkozza) | `f009c9b` |
+| QF-NYELV-2…20 | objektív | javítva (a -19 a „feladatot / célt” betoldással) | `f009c9b` |
+| Ledger-újraellenőrzés (161 sor) | — | 14 sor forráshely-megjegyzéssel frissítve; döntéssel lezárt 0 | ledger |
+
+**Amit a záró QA nem nézett meg** (a lencsék saját jelentése szerint): M0.3, M0.4, M1, M2.4, Z.1–Z.4 a diffen túl; az M5.B, M6.B, M7.B teljes peulaszövege; az időbecslések újraszámolása (M4.3: 8 → 12 kártya; M0.1: plusz egy Feedback); a Lesson záró URL-je és jegyrögzítése Moodle-forrásból; az ASSIGN-S újranyitás a CB-C-0017-en túl; a hétköznapi határidők a pilot-felülírással (HUM 11) szemben; WCAG célméret és kontraszt a Lesson- és Feedback-képernyőkön. Ezek nem „rendben” állapotúak, hanem nem vizsgáltak.
