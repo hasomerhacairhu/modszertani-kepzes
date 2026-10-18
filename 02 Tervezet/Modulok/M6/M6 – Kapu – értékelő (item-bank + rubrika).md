@@ -462,14 +462,14 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 
 > **Röviden:** egy kész játéklapot adsz le, az M6.B utáni szerda 18:00-ig; a kapu akkor teljesül, ha mind az öt szempont legalább „Oké”, és a Biztonság és az Inkluzivitás rovat konkrét.
 
-> **Miért?** A játéklap az eszköztárad első kész darabja, és az M7 Peula v2 élmény-blokkjába is beemelheted. A legfontosabb része a biztonság és az inkluzivitás: ezek mutatják meg, hogyan vigyázol a hanihokra.
+> **Miért?** A játéklap az eszköztárad első kész darabja, és az M7 Peula v2 élmény-blokkjába is beemelheted. A két legfontosabb része a biztonság és az inkluzivitás: ezek mutatják meg, hogyan vigyázol a hanihokra.
 
 > 🔒 **Mielőtt leadod – mi lesz a játéklapoddal?**
 > – **Mit gyűjtünk:** azt, amit beírsz vagy feltöltesz (a játéklapodat), az értékelését és azt, hogy leadtad-e.
 > – **Mire használjuk:** a te tanulásodhoz – hogy a kijelölt mentorod / értékelőd visszajelzést tudjon adni, és megerősítse a kapueredményedet. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
 > – **Meddig tároljuk:** a végső pontszámodat és a kapueredményedet 24 hónapig; a leadott játéklapodat a képzés vége után 12 hónapig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
 > – **Ki látja:** te és a **kijelölt mentorod / értékelőd**, és ő is csak annyit, amennyire ténylegesen szükség van. Második vagy fellebbezési értékelő csak konkrét eljárásnál – például ha újraértékelést kérsz – látja, a Memuna pedig szükség esetén. Az F-peula képzője a kapueredményekből csak összesített vagy minimális hiánylistát lát. Technikai okból a Moodle rendszergazdája is hozzáférhet.
-> – **Kihez fordulhatsz:** ha meg szeretnéd nézni, javíttatni vagy töröltetni, amit tárolunk rólad, a Moodle-kurzus adatkezelési tájékoztatójában megadott elérhetőségű **adatvédelmi kapcsolattartóhoz** fordulhatsz.
+> – **Kihez fordulhatsz:** ha meg szeretnéd nézni, javíttatni vagy töröltetni, amit tárolunk rólad, az **adatvédelmi kapcsolattartóhoz** fordulhatsz; az elérhetőségét a Moodle-kurzus adatkezelési tájékoztatójában találod.
 >
 > A játéklapon a kvucáról ne szerepeljen azonosító adat – név, egyéni érzékeny történet, diagnózis vagy konkrét, beazonosítható eset; elég a korosztály, a körülbelüli létszám és a hangulat.
 
@@ -509,16 +509,16 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 | Biztonság | Legalább 1 konkrét, erre az eszközre vonatkozó biztonsági mondat – nem általánosság. |
 | Inkluzivitás | Legalább 1 megnevezett akadály és hozzá 1 konkrét alternatív belépési pont. |
 
-> **Mikor teljesül a kapu?** Ha **mind az öt szempont legalább „Oké”**. A **Biztonság** és az **Inkluzivitás** blokkoló: ha bármelyik üres, vagy csak általános kijelentés áll benne, a játéklap javításra megy, akármilyen erős a többi rész. A két blokkoló szempont végső értékét mindig a kijelölt mentorod / értékelőd adja; az M6.B-n kapott társas visszajelzés segít, de nem dönt. Értékelés után szempontonként a szöveges szintet és a mentorod megjegyzését látod; pontszámot nem.
+> **Mikor teljesül a kapu?** Ha **mind az öt szempont legalább „Oké”**. A **Biztonság** és az **Inkluzivitás** blokkoló: ha bármelyik üres, vagy csak általános kijelentés áll benne, a játéklap javításra megy, akármilyen erős a többi rész. A két blokkoló szempont végső szintjét mindig a kijelölt mentorod vagy értékelőd adja; az M6.B-n kapott társas visszajelzés segít, de nem dönt. Értékelés után szempontonként a szöveges szintet és a mentorod megjegyzését látod; pontszámot nem.
 
 > **Ha javítanod kell:**
 > – Rövid visszajelzést kapsz: mit láttunk a lapon, mit okoz, és mi a következő lépés.
-> – Ilyenkor az **M6.F felzárkóztató peula (F-peula)** kötelező: a kapueredmény megerősítése utáni hétfőn, 18:00-tól (a pontos időpontot a képződ jelöli ki a központi naptár szerint; ha a javítás az M7 útját akadályozná, a Z utáni hétre is teheti).
+> – Ilyenkor az **M6.F felzárkóztató peula (F-peula)** kötelező: a kapueredmény megerősítése utáni hétfőn, 18:00-tól (a pontos időpontot a képződ jelöli ki a központi naptár szerint; ha a javítás az M7 útját akadályozná, a Z utáni hétre is teheti). Ha a javításod a Z utáni hétre kerül, az M7 és a Z teljes útját a képződ egyénileg ütemezi, és a program teljesítése ezt bevárja.
 > – Az F-peula után egyszer újra leadhatod a javított játéklapot, ugyanebben a feladatban; a javító leadás határideje az F-peula utáni szerda 18:00. További leadást a képző nyithat.
 > – A teljesítéshez a **legjobb megerősített eredményed** számít: ha a játéklapod már „Teljesítve” lett, és utána önként leadsz egy csiszoltabb változatot, a teljesítésed ettől nem vész el.
 > – Kérheted azt is, hogy az eredeti értékelődtől eltérő második képző nézze át a játéklapodat és a kapudöntést – még mielőtt az M7 felkészültségi kvíze megnyílik.
 
-> **Mi jön utána?** Az M7 leckéi a megerősített kapueredménnyel megnyílnak – „Még nem teljesítve” eredménnyel is –, ha az M6 leckéit elvégezted, és a szcenárió-önellenőrzést is beküldted. Az M7 felkészültségi kvízéhez viszont az M6 teljesítése kell, benne a játéklap „Teljesítve” eredményével.
+> **Mi jön utána?** Az M7 leckéi akkor nyílnak meg, ha elvégezted az M6 leckéit, beküldted a szcenárió-önellenőrzést, és a kijelölt mentorod vagy értékelőd megerősítette a kapueredményedet – akkor is, ha ez „Még nem teljesítve”. Az M7 felkészültségi kvízéhez viszont az M6 teljesítése kell, benne a játéklap „Teljesítve” eredményével.
 
 > **Elakadtál?** Tartalmi kérdéssel írj a kurzus „Segítség és kapcsolatok” blokkjában megadott mentorodnak; technikai gondnál ugyanitt találod, hogyan kérhetsz segítséget.
 
