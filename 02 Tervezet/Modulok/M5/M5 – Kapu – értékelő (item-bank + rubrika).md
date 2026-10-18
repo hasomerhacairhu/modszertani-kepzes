@@ -48,6 +48,12 @@
 | Q11 | Tanulástan | Alkalmazás (határeset: időben elosztott gyakorlás vs. magolás) |
 | Q12 | Tanulástan | Alkalmazás (kombinált, peula-tervezés) |
 
+**Tanulói bevezető („M5 – Fogalmi önellenőrzés”, LMS-M5-06; a Moodle Quiz leírásába):**
+
+*Fejlesztőnek:* a bevezető elé a Program terv §7 szerinti „just-in-time” adatkezelési tájékoztató kerül (fent, „Adatkezelési tájékoztató”). Forrás: e szakasz és a manifest LMS-M5-06 sora; új szabály nincs benne (forrás-szerzés, AP-2026-10-18-01).
+
+> Ez a kvíz önellenőrzés, nem vizsga: megmutatja neked és a stábnak, melyik témát érted már, és melyiket érdemes még átnézni. 12 kérdést kapsz a formális, nonformális és informális tanulásról, a feladat → cél → kvuca → módszer láncról és a tanulástanról (gyakorlás, aktív felidézés, időben elosztott gyakorlás). A teljesítéshez a beküldés elég; az eredményed nem számít bele. Közvetlenül a beküldés után kérdésenként látod, jól válaszoltál-e, és miért. Háromszor próbálkozhatsz; az első próbálkozásod mutatja meg, hol tartasz, a többivel gyakorolsz. Ha az első próbálkozásodon 12-ből 10-nél kevesebb a jó válaszod, az nem bukás és nem kizárás: ez a mentorodnak szóló jelzés, a visszajelzés pedig megmutatja, mit érdemes újranézni.
+
 ---
 
 ## 1. Item-bank – Fogalomcsalád 1: formális / nonformális / informális

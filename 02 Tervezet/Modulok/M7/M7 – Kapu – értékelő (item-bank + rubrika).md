@@ -54,6 +54,16 @@
 * Minden itemhez egyértelmű helyes válasz, plauzibilis disztraktorok (gyakori someres félreértésekre építve), rövid tanulói visszajelzés.
 * Lefedettség: SMART (Q1–Q3), Peula 11 pontja (Q4–Q6), Zmán Kvucá-checklist (Q7–Q9), etikus AI + operáció (Q10–Q12), **gyermekvédelem & biztonság (Q13–Q14 – a blokkoló R4-sor tudásalapját fedik le; a kötelezően helyes blokkoló item ezen belül egyedül a Q13, a Q14 lefedettségi item)** → így a kvíz az M7.4 etikus AI, idő–feladat–felelős logikáját **és a kapu blokkoló gyermekvédelmi konstruktumát** is méri, nem csak M7.1–M7.3 felismerést.
 
+**Tanulói bevezető (a Moodle Quiz leírásába):**
+
+*Fejlesztőnek:* a bevezető elé a Program terv §7 szerinti „just-in-time” adatkezelési tájékoztató kerül (a kvíz indítópontja, PT §7 (a)); a bevezető a kötelezően helyes kérdés témáját megnevezi, a kulcsot nem. Forrás: e szakasz beállításai és a manifest LMS-M7-07, LMS-M7-09 sora; új szabály nincs benne (forrás-szerzés, AP-2026-10-18-01).
+
+> Ez a kvíz az M7 éles, kétrészes kapujának egyik része; a másik a Peula v2-d. 14 rövid kérdést kapsz a SMART nevelési célról, a peula 11 pontjáról, a Zmán Kvucá-checklistről, az etikus AI-használatról és a peula megszervezéséről (idő, feladat, felelős), valamint a gyermekvédelemről. Ugyanabban a próbálkozásban legalább 12 kérdésre kell teljesen jól válaszolnod. A több jó választ kérő kérdések csak akkor számítanak, ha minden helyes opciót bejelölsz, és hibásat egyet sem. Emellett arra a gyermekvédelmi kérdésre, amely azt kérdezi, mi a jelzési út red flag esetén, mindenképp helyesen kell felelned: ha ez nem sikerül, akkor is újra kell próbálkoznod, ha a többi megvan.
+>
+> A beküldés után a pontszámodat látod. Azt, hogy melyik témánál hibáztál, a kijelölt mentorod vagy értékelőd írja meg, amikor megerősíti az eredményedet; a helyes válaszokat a kvíz nem mutatja meg. Egy próbálkozásod van. Ha nem sikerül, a felzárkóztató peula (F-peula, M7.F) – ez ilyenkor kötelező – után van egy javító próbálkozásod; további próbálkozást a képződ nyithat. A teljesítéshez a legjobb megerősített eredményed számít. Ha nem értesz egyet a kapudöntéssel, kérheted, hogy egy másik képző is átnézze, még az online félév teljesítésének lezárása előtt.
+>
+> A kvíz a Peula v1 leadása után nyílik meg, ha az M6-ot teljesítetted; érdemes még az M7.B előtt kitölteni. A Peula v2-t csak a kvíz megerősített, sikeres eredménye után adhatod le; a még meg nem erősített eredmény nem bukás.
+
 > **Cél → item lefedettségi tábla (konstruktumvaliditás):** SMART → Q1–Q3 · Peula 11 pont → Q4–Q6 · Zmán Kvucá-checklist → Q7–Q9 · etikus AI + operáció → Q10–Q12 · **Gyermekvédelem & biztonság (rubrika R4, BLOKKOLÓ) → Q13–Q14** (a kötelezően helyes **blokkoló** item ezen belül **csak a Q13**; a Q14 a területet bővebben fedi le, de nem külön blokkoló küszöb). Így **minden teljesítési kulcscélnak**, beleértve a blokkoló R4-sort, **van legalább egy itemje** – a fogalmi belépő nem hagyja alulreprezentálva azt, amit a produktum-rubrika kapuz.
 
 ***

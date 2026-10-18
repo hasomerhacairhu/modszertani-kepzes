@@ -74,6 +74,10 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > **Diagnosztikus jelzés:** az első, visszajelzés előtti próbálkozás számít; a későbbi próbálkozások gyakorlásra szolgálnak, és nem írják felül a korai jelzést. A stáb-jelzést az első próbálkozás item-statisztikájából kell számolni, nem a gradebook pontszámából.
 > A disztraktorok mind **valós madrih-tévedést** testesítenek meg (nem karikatúrát, nem tölteléket).
 >
+> **Tanulói bevezető („M6 – Szcenárió-önellenőrzés”, LMS-M6-06; a Moodle Quiz leírásába; előtte a Program terv §7 szerinti adatkezelési tájékoztató; forrás-szerzés e szakasz alapján, AP-2026-10-18-01):**
+>
+> > Ez a kvíz felkészít a játéklapodra: 12 helyzetet kapsz, amelyek arról szólnak, melyik eszköz illik egy kvucához, mire kell figyelned a biztonságnál és az inkluzivitásnál, és hogyan bánj a felkavaró tartalmakkal. Nem éles kapu, és nem buktat: a teljesítéshez a beküldés elég, és korlátlanul újra megpróbálhatod. Közvetlenül a beküldés után kérdésenként látod, jól válaszoltál-e, és miért. Az a jó, ha legalább 10 kérdésre jól felelsz; ha kevesebbre, rögtön a beküldés után nézd át a visszajelzéseket, vagy próbáld újra, mielőtt a játéklapodat megírod. Az első próbálkozásodból a stáb azt látja, melyik témánál kell még segítség.
+>
 > **Megjegyzés a konvergenciáról:** a 12 item egy része (eszköz-illesztés) szándékosan **egy-helyes-válaszos** – ott valódi biztonsági/illesztési minimum van (pl. résztvevőt nem zárunk ki demonstrációként; a kirekesztést fiktív esetből elemezzük). Ez **diagnosztikai** jelzés, nem éles kapuzás. A **nyitott, divergens** mérlegelést a játéklap-rubrika (B) és az M6.4 Branching Scenario viszi, ahol nincs „egyetlen jó megoldás”.
 
 ---

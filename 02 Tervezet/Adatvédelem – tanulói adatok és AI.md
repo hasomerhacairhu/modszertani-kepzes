@@ -277,4 +277,15 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 >
 > **Kihez fordulhatsz?** Ha kérdésed vagy kérésed van az adataiddal kapcsolatban, az adatvédelmi kapcsolattartónkhoz fordulhatsz; az elérhetősége ez alatt áll.
 
+### 11.1 Rövid tájékoztató a szabad szöveges mezők (TEXT-C) előtt – sablon
+
+*Fejlesztői feltétel (nem tanulói szöveg):* az `LMS – activity manifest.md` TEXT-C profilja szerint a beviteli mező előtt, a Feedback első, „Label” típusú elemeként álló ötpontos „just-in-time” tájékoztató szövege; a lecke mező melletti adatvédelmi / biztonsági megjegyzése a „Mit írsz be?” pontba kerül, szó szerint. Az értékek e fájl lezárt döntéseiből valók (§3 „Szabad szöveges reflexió”: a képzés vége + 90 nap; §5 és a §11 „Ki látja?” bekezdése; HUM-PRIV-01); új szabály nincs benne (AP-2026-10-18-01, a builder DPO-csomagjának §5. pontja nyomán). A „Ki látja?” pont a §11 „Ki látja?” bekezdésével együtt a staging role-matrix után a tényleges szerepkiosztáshoz igazodik (ADV-1, BIZT-2; runtime acceptance 15. pont): a végső szöveget a DPO és az LMS-gazda adja, a technikai adminisztrátor hozzáférését a tájékoztató nem tagadja. A „Kihez fordulhatsz?” ‹…› helyére a §11 belső mezőjének (adatvédelmi kontakt) kitöltött értéke kerül, tényleges elérhetőségként (`Program terv.md` §4). **Eltérések:** az LMS-Z-06-nál (Z.3) a „Meddig tároljuk?” értéke nyitott (a §11 belső mezői közül a Z.3 megőrzése, BS-D6), a „Mire használjuk?” és a „Ki látja?” pontban pedig a §11 Z.3-mondata áll: „A beadandóidat és a Z.3 lecke kötelező szöveges válaszait a teljesítésed megerősítéséhez elolvassa”, mert ott a kijelölt mentor elfogadása a teljesítés feltétele (LMS-Z-07); az LMS-M7-10-en a manifest sora szerinti, nyitott különleges-adat tétel (G2) a sablon alkalmazása előtt lezárandó.
+
+> 🔒 **Mielőtt beírod – mi lesz a válaszoddal?**
+> – **Mit írsz be?** ‹a lecke mező melletti megjegyzése, szó szerint›
+> – **Mire használjuk?** A te tanulásodhoz: a kijelölt mentorod vagy értékelőd szükség esetén neked szóló visszajelzést ad rá. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
+> – **Meddig tároljuk?** A képzés vége után 90 napig; utána töröljük vagy anonimizáljuk.
+> – **Ki látja?** A válaszod a neveddel együtt rögzül, és a kijelölt mentorod vagy értékelőd látja; csak akkor nézi meg, ha ténylegesen szükséges. A többi résztvevő nem látja. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek.
+> – **Kihez fordulhatsz?** Az adatvédelmi kapcsolattartónkhoz: ‹elérhetőség›.
+
 Ez a dokumentum adatvédelmi követelményrendszer, nem egyedi jogi tanács és nem helyettesíti a tényleges adatkezelő jogi/DPO döntését.
