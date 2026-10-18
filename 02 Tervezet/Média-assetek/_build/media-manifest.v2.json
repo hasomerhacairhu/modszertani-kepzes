@@ -7,17 +7,17 @@
     "files_declared_asset_free": 9,
     "files_with_sources": 26,
     "sources": 123,
-    "assets": 415,
-    "deliverables": 902,
+    "assets": 417,
+    "deliverables": 906,
     "source_backed_assets": 127,
     "by_mode": {
-      "generate": 400,
+      "generate": 402,
       "reuse": 9,
       "external": 6
     },
     "by_kind": {
       "voiceover": 89,
-      "worksheet": 69,
+      "worksheet": 71,
       "illustration": 43,
       "icon-set": 42,
       "diagram": 38,
@@ -36,29 +36,29 @@
       "M4": 59,
       "M5": 30,
       "M6": 66,
-      "M7": 52,
+      "M7": 54,
       "Z": 15
     },
     "by_file_kind": {
-      "online-lecke": 277,
+      "online-lecke": 278,
       "peula": 126,
-      "hub": 12
+      "hub": 13
     },
     "by_provenance": {
       "ai": 272,
-      "human": 80,
+      "human": 82,
       "mixed": 57,
       "stock": 6
     },
     "by_status": {
-      "spec-ready": 295,
+      "spec-ready": 297,
       "pending-rights": 119,
       "pending-human-decision": 1
     },
     "deliverables_by_role": {
-      "primary": 406,
+      "primary": 408,
+      "print-pdf": 128,
       "alt-text": 126,
-      "print-pdf": 126,
       "transcript": 112,
       "captions": 108,
       "voiceover": 21,
@@ -1137,7 +1137,8 @@
         "M7-HUB-DIA-01",
         "M7-HUB-DIA-02",
         "M7-HUB-DIA-03",
-        "M7-HUB-MUNK-01"
+        "M7-HUB-MUNK-01",
+        "M7-HUB-MUNK-02"
       ],
       "sources": [],
       "asset_free_reason": ""
@@ -1203,6 +1204,7 @@
         "M7.3-IKO-01",
         "M7.3-ILL-01",
         "M7.3-ILL-02",
+        "M7.3-MUNK-01",
         "M7.3-NAR-02",
         "M7.3-NAR-03",
         "M7.3-NAR-04",
@@ -2849,10 +2851,10 @@
       "id": "M4.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 879,
+      "line": 880,
       "body_lines": [
-        880,
-        893
+        881,
+        894
       ],
       "unit": "M4.2",
       "module": "M4",
@@ -2889,10 +2891,10 @@
       "id": "M4.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 364,
+      "line": 367,
       "body_lines": [
-        365,
-        385
+        368,
+        388
       ],
       "unit": "M4.3",
       "module": "M4",
@@ -2909,10 +2911,10 @@
       "id": "M4.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 632,
+      "line": 643,
       "body_lines": [
-        633,
-        647
+        644,
+        658
       ],
       "unit": "M4.3",
       "module": "M4",
@@ -3009,10 +3011,10 @@
       "id": "M5.1-DIA-01-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 353,
+      "line": 367,
       "body_lines": [
-        354,
-        355
+        368,
+        369
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3029,10 +3031,10 @@
       "id": "M5.1-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 381,
+      "line": 395,
       "body_lines": [
-        382,
-        399
+        396,
+        413
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3049,10 +3051,10 @@
       "id": "M5.1-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 153,
+      "line": 154,
       "body_lines": [
-        154,
-        166
+        155,
+        167
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3069,10 +3071,10 @@
       "id": "M5.1-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 632,
+      "line": 646,
       "body_lines": [
-        633,
-        641
+        647,
+        655
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -3389,10 +3391,10 @@
       "id": "M6.3-FOTO-04-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 713,
+      "line": 714,
       "body_lines": [
-        714,
-        715
+        715,
+        716
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3409,10 +3411,10 @@
       "id": "M6.3-FOTO-05-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 920,
+      "line": 922,
       "body_lines": [
-        921,
-        922
+        923,
+        924
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3489,10 +3491,10 @@
       "id": "M6.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 757,
+      "line": 758,
       "body_lines": [
-        758,
-        793
+        759,
+        794
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3509,10 +3511,10 @@
       "id": "M6.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 965,
+      "line": 967,
       "body_lines": [
-        966,
-        991
+        968,
+        993
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3529,10 +3531,10 @@
       "id": "M6.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1108,
+      "line": 1112,
       "body_lines": [
-        1109,
-        1125
+        1113,
+        1129
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3809,10 +3811,10 @@
       "id": "M7.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 717,
+      "line": 718,
       "body_lines": [
-        718,
-        722
+        719,
+        723
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3933,7 +3935,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 134,
+      "line": 140,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -3999,7 +4001,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 65,
+      "line": 71,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4065,7 +4067,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 213,
+      "line": 219,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4131,7 +4133,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 300,
+      "line": 304,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -4197,7 +4199,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 137,
+      "line": 139,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -4263,18 +4265,18 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 216,
+      "line": 220,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
       "status": "spec-ready",
-      "title": "Akadálymentes iframe-cím és fókusz-spec a SLIDE 3 interakcióhoz",
+      "title": "Akadálymentes konfiguráció és fókusz-spec a SLIDE 3 kérdésoldalaihoz",
       "purpose": "Az M0 puha kapu completion-eleme akadálymentes legyen (LMS-sztenderd §3 + KAPUS pre-flight); képernyőolvasóval és billentyűzettel is teljesíthető.",
-      "spec": "Beszédes magyar iframe-cím és akadálymentes konfiguráció a SLIDE 3 Multiple Choice (egyválaszos, rádiógombos) elemeihez: ≥24 px érintőfelület, látható fókusz, billentyűzettel végigvihető, húzásmentes. Drag & Drop csak kiegészítő feladatként kerülhet be, kötelező húzásmentes alternatívával (Matching / Single Choice), ugyanazzal a 4 helyzettel (a SLIDE 3 kérdései).",
+      "spec": "Akadálymentes konfiguráció a SLIDE 3 négy kérdésoldalához (natív Moodle Lecke, Multichoice, egyválaszos, rádiógombos; Emberi jóváhagyás szükséges.md 20. szakasz): beszédes magyar oldalcím, ≥24 px érintőfelület, látható fókusz, billentyűzettel végigvihető, húzásmentes. Drag & Drop csak kiegészítő feladatként kerülhet be, kötelező húzásmentes alternatívával, ugyanazzal a 4 helyzettel (a SLIDE 3 kérdései).",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
-        "note": "H5P iframe cím (magyar), fókusz-stílus, ≥24px touch target; H5P Multiple Choice konfig (egyválaszos mód, válaszonkénti visszajelzés)"
+        "note": "Moodle Lecke kérdésoldal (Multichoice, egyválaszos, válaszonkénti „Response” visszajelzés), magyar oldalcím, fókusz-stílus, ≥24px touch target; H5P-konténer esetén magyar iframe-cím"
       },
       "a11y": {
         "note": "—"
@@ -4302,7 +4304,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "098b92bf89fd2b4193ca0f76805fb875f625bbf4deae4b61ff1721e57daf6ac7",
+      "spec_hash": "b89062e0c29a4bb6aa4123bc36ad478c3de217fbe77ae3313cf27f02dcd33303",
       "deliverable_ids": [
         "M0.2-EGY-01"
       ],
@@ -4318,7 +4320,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 68,
+      "line": 70,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -4384,7 +4386,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
-      "line": 377,
+      "line": 381,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -18062,7 +18064,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 669,
+      "line": 670,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -18119,7 +18121,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 745,
+      "line": 746,
       "kind": "other",
       "subtype": "h5p-interaction",
       "mode": "generate",
@@ -18362,7 +18364,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 775,
+      "line": 776,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -18653,7 +18655,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md",
-      "line": 811,
+      "line": 812,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -18696,8 +18698,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        880,
-        893
+        881,
+        894
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nNem az a cél, hogy soha többé ne mondj ügyetlen mondatokat –\nilyen mindenkivel előfordul.\n\nA cél az, hogy legyen **legalább egy mondatod**,\namivel legközelebb nem tanácsot adsz,\nhanem **visszatükrözöd**, amit a másik mond.\n\nÉs legyen egy mondat,\namit tudatosan elengedsz,\nmert inkább lezár, mint segít.”",
       "source_hash": "89a9806d48b8e59a156deda78d1487c48f87217fd312b2d22bef3e7d4958ec07",
@@ -18729,7 +18731,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 206,
+      "line": 209,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -18795,7 +18797,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 244,
+      "line": 247,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -19000,7 +19002,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 279,
+      "line": 282,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -19043,8 +19045,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        365,
-        385
+        368,
+        388
       ],
       "source_text": "„Négy kérdéstípussal fogunk most dolgozni.\n\nA **nyitott kérdés** megnyitja a beszélgetést.\nNem lehet rá csak annyit mondani, hogy ‘igen’ vagy ‘nem’.\nPéldául: *‘Ti hogyan látjátok ezt a helyzetet a kvucában?’*\n\nA **zárt kérdés** rövid, konkrét választ kér.\nIgen vagy nem, egy szám vagy egy adat.\nPéldául: *‘Voltál már valaha a kenben peulán?’*\n\nA **tisztázó kérdés** arra való,\nhogy ellenőrizd, jól érted-e, amit a másik mondott.\nPéldául: *‘Jól értem, hogy az zavar, hogy mindig késve kezdünk?’*\n\nAz **irányító kérdés** pedig a te véleményed felé tolja a beszélgetést.\nPéldául: *‘Nem gondoljátok, hogy jobb lenne, ha mindig időben érkeznétek?’*\n\nMindegyiknek van helye –\na kérdés az, **mikor melyiket használod**.”",
       "source_hash": "134d347d9479c018cec212108dfd6eef9f8505a3eec73bb70644302c5247e841",
@@ -19076,7 +19078,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 561,
+      "line": 572,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -19119,8 +19121,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        633,
-        647
+        644,
+        658
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
       "source_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
@@ -20743,7 +20745,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 225,
+      "line": 239,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -20810,7 +20812,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 59,
+      "line": 60,
       "kind": "other",
       "subtype": "ui-text",
       "mode": "generate",
@@ -20865,7 +20867,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 264,
+      "line": 278,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -20926,7 +20928,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 297,
+      "line": 311,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -20969,8 +20971,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        382,
-        399
+        396,
+        413
       ],
       "source_text": "„Háromféle tanulási helyzetről beszélünk.\n\nA **formális tanulás** az, amikor suliban vagy:\na keretet a tanterv és az intézmény adja, **jeggyel, bizonyítvánnyal** hitelesítik, jellemzően kötelező jelenléttel, tanár–diák szerepben.\n\nA **nonformális tanulás** olyan, mint a Somer:\nszervezett, megtervezett program a suli rendszerén kívül,\nvan **nevelési cél**, csak nem dolgozatban, hanem játékban, beszélgetésben, közös élményekben jelenik meg.\nA Somerbe ráadásul **önként jössz** – nálunk a részvétel nem kötelező.\n\nAz **informális tanulás** pedig **hétköznapi, spontán helyzetekben** történik:\namikor a barátaiddal beszélgetsz, nézel egy videót, hallasz valamit otthon –\nnincs rá előre tervezett nevelési cél,\nés **sokszor észre sem veszed, hogy közben tanultál** – mégis megragad belőle valami.\n\nJó tudni: a választóvonal **nem az önkéntesség**, hanem a **tudatos nevelési cél**. A someres programot az teszi nonformálissá, hogy **szándékosan, célzottan tervezzük**; az informális tanulás viszont menet közben, tervezés nélkül történik – gyakran anélkül, hogy tanulni akartál volna. Az önkéntesség a **Somer sajátja**, nem az informális tanulás ismertetőjegye.”",
       "source_hash": "6ca88264ac481755172ce562d528c63d4b54d23516b5118a054ccaeff16c4fe2",
@@ -21002,7 +21004,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 85,
+      "line": 86,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -21049,8 +21051,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        154,
-        166
+        155,
+        167
       ],
       "source_text": "„Szia!\nGondolj vissza az elmúlt hetekre.\nVoltál **suliban**, voltál **Somer-programon**, és voltak teljesen **más pillanatok** a barátaiddal.\n\nNéha a tanár feleltet, néha a madrih sztorikat mesél a kvucának,\nnéha pedig csak TikTokokat küldötök egymásnak.\n\nEbben a leckében azt nézzük meg,\nhogy ezek közül **mi számít formális, mi nonformális és mi informális tanulásnak**.\n\nÉs azt is, hogy **a Somer hol van ebben a képben**.”",
       "source_hash": "a461ce6828fbc62ccd916adee0377f165eb3256e9a704ca468ed91f57fd32783",
@@ -21089,7 +21091,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 546,
+      "line": 560,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -21136,8 +21138,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        633,
-        641
+        647,
+        655
       ],
       "source_text": "„Köszi, hogy végigcsináltad ezt a leckét.\nMostanra látod, hogy a Somer **nem suli, de nem is csak közös lógás**:\nnonformális nevelés, ahol kvucával, élményekkel tanulunk.\n\nA következő leckében azt nézzük meg,\nhogyan jutsz el egy peula tervezésekor a **feladattól a célon és a kvucán át a módszerig** –\nés nem fordítva.”",
       "source_hash": "6e308c759e01baa70a0cfec5db798d7a3255f220c3ff9370c6af0773c02334a4",
@@ -22623,7 +22625,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (műhely / modulproduktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (2.1. Eszközök, 4.3. Blokk 3, 5. Képzői ellenőrző lista: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (2.1. Eszközök: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA; a rovatstruktúra forrása az M6.B-MUNK-01, és a két spec azonos; a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F-POSZ-02) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
+      "notes": "Újrahasznosítás indoklása (v1 dedup): M6.B-MUNK-01 az elsődleges/forrás-sablon, amire M6-MUNK-01 és M6.F-MUNK-02 explicit visszahivatkozik ('a digitális/sablon nyomtatott változata'). Ugyanaz az egylapos játéklap; a felhasználási kontextus (műhely / modulproduktum / offline B-terv) eltér, de a média egy darab. Modul-szintű, közös print/űrlap-deliverable: használja az M6.B (2.1. Eszközök, 4.3. Blokk 3, 5. Képzői ellenőrző lista: „Játéklap-sablon nyomtatva”, „Oszd ki a játéklap-sablonokat”) és az M6.F (2.1. Eszközök: „nyomtatott üres játéklap-sablonok”) – mindkét gyermekfájl HASZNÁLJA; a rovatstruktúra forrása az M6.B-MUNK-01, és a két spec rovatai tartalmilag azonosak (a hub a menetet, az időkeretet, a teret és az eszközöket egy rovatba vonja; a mérvadó sorrend és felosztás az M6.B-MUNK-01-é, ezt követi a tanulói feladatleírás is: M6 KAPU (E1)); a kanonikus horgony a hub (§2.5 + §6.2 R1–R5 megfeleltetés). A kapuzás az M6 – KAPU fájl rubrikája (R1–R5) szerint történik. A KAPU-rubrika, a quiz item-bank, a fogalom-térkép (M6.F-POSZ-02) és a lecke-szintű slide/narráció/branching tartalmak NEM itt, hanem a dedikált gyermekfájlokban (M6 – KAPU, M6.1–M6.4, M6.F) gyártandók – a kettős számolás elkerülése végett.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -25048,7 +25050,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 619,
+      "line": 620,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -25114,7 +25116,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 826,
+      "line": 828,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -25468,7 +25470,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 657,
+      "line": 658,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -25511,8 +25513,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        758,
-        793
+        759,
+        794
       ],
       "source_text": "„A ‘Személyes szimbólum-karkötő’\negy klasszikus kézműves feladat.\n\nNemcsak az a kérdés,\nhogy ‘szép lett-e a karkötő’,\nhanem hogy **mit jelentenek** az elemei.\n\nMit taníthat ez?\nÖnkifejezést: mi fontos nekem.\nIdentitást: milyen színek, jelek kapcsolódnak hozzám.\nÉs megosztást: el merem-e mondani, mit raktam rá.\n\nAz inkluzivitás szempontjából viszont\ntöbb dologra is figyelni kell.\n\nFinommotorika:\na nagyon apró gyöngyöket\nnem mindenki tudja kényelmesen fűzni.\nJó, ha van vastagabb zsinór, nagyobb gyöngy is.\n\nAnyagok:\nlehet valaki fémallergiás,\nvagy zavarja bizonyos anyag tapintása.\n\nKöltség:\nha a kézműves feladat eredménye azon is múlik,\nhogy ki milyen drága dolgot hoz otthonról,\nakkor könnyen lesz belőle **státuszverseny**.\n\nEzért fontosak a **variációk** is:\nha valakinek nem megy a fűzés, vagy nem akarja,\nkészíthet helyette egy rajzos **szimbólumkártyát**,\nvagy dolgozhat **párban** egy társával:\negyik fűz, másik segít kitalálni a jelentést.”",
       "source_hash": "7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a",
@@ -25544,7 +25546,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 864,
+      "line": 866,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -25587,8 +25589,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        966,
-        991
+        968,
+        993
       ],
       "source_text": "„A ‘Kvuca-zászló’ egy\nnagyon hatékony kézműves program lehet.\n\nNemcsak egy ‘szép tárgy’ a falon,\nhanem arról szól,\nhogy **kik vagyunk mi együtt**.\n\nTanít közös döntést:\nmit teszünk rá, mit nem.\nTanít felelősséget:\namit kiteszünk, azt vállaljuk,\naz minket képvisel.\n\nInkluzivitásnál itt a **szimbólumokra** kell nagyon figyelni.\n\nMilyen jeleket teszünk rá?\nNem bánt-e ez valakit a kvucából?\nNem csinálunk-e viccet valaki identitásából,\nkinézetéből, hátteréből?\n\nA zászló akkor tanít jól,\nha mindenki talál benne **saját részletet**,\nés senki nem érzi azt,\nhogy rajta röhög a kvuca.”",
       "source_hash": "2db3e67b6430b8b2154a17221905bbd5df601306880c174a1662401dcabd3a14",
@@ -25620,7 +25622,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1023,
+      "line": 1026,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -25663,8 +25665,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1109,
-        1125
+        1113,
+        1129
       ],
       "source_text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
       "source_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
@@ -26905,7 +26907,7 @@
       "module": "M7",
       "file_kind": "hub",
       "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
-      "line": 283,
+      "line": 310,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -27149,6 +27151,62 @@
           "M7-MUNK-01"
         ]
       }
+    },
+    {
+      "id": "M7-HUB-MUNK-02",
+      "unit": "M7-HUB",
+      "module": "M7",
+      "file_kind": "hub",
+      "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
+      "line": 105,
+      "kind": "worksheet",
+      "subtype": "",
+      "mode": "generate",
+      "status": "spec-ready",
+      "title": "Letölthető „Peula v2 + Zmán Kvucá” kitölthető sablon (doc)",
+      "purpose": "A Peula v2 (LMS-M7-06) egységes leadási sablonja és fájlalapú leadási útja: aki nem online szövegként ad le, ennek kitöltésével és feltöltésével adja le a v2-t. A két út egyenértékű (Program terv §5; hozzáférhetőségi sztenderd §4).",
+      "spec": "Kitölthető sablon doc formátumban, kizárólag az M7 KAPU (D2) szakaszának nyolc pontja szerint, ugyanabban a sorrendben: 1. Kvuca-infó, a (D1) 1. részének kérdéseivel és 3–5 sornyi hellyel; 2. SMART nevelési cél, a (D1) 2. részének mondatával és 1–2 mondatnyi hellyel; 3. A peula 11 pontja az M7.2 végleges listája szerint, a három fázis alcímével, minden pont alatt írási hellyel, a 3., 5., 9. és 11. pont alatt a rájuk vonatkozó M7 KAPU (D1)-bekezdés szó szerint, segédszövegként; 4. Zmán Kvucá-operációs táblázat „Idő (kb.)”, „Mi történik?”, „Ki felel érte?” oszlopfejlécekkel és 4 üres sorral, alatta szó szerint az M7 KAPU (D1) 1:1 helyzetekről szóló dőlt bekezdése; 5. Zmán Kvucá-checklist: az öt terület a (D1) 5. részének felsorolása szerint, ahol van, a zárójeles pontosítással, „Mit terveztem rá?” írási hellyel, opcionális 0–1–2 önpontozó oszloppal; 6. AI-használat (1 sor); 7. Kipróbálási kötelezettségvállalás (a három sor kérdései); 8. a sablon végén szó szerint a (D1) ⚠️ adatkímélő mondata. Ezeken túl új mező, minta vagy útmutató szöveg nem kerül bele.",
+      "provenance": "human",
+      "provenance_note": "emberi-felvétel",
+      "technical": {
+        "note": "Szerkeszthető dokumentum: .docx; A4 nyomtatható elrendezés is; magyar nyelv. Google-sablon csak szervezeti fiókkal, adatfeldolgozói és hozzáférési felülvizsgálat után készülhet (ADV-10). Moodle-ben az LMS-M7-06 Assignment „Additional files” mezőjébe kerül."
+      },
+      "a11y": {
+        "note": "Valódi szöveges dokumentum (nem kép), valódi címsorokkal és valódi táblázatstruktúrával, megjelölt oszlopfejlécekkel és kitölthető cellákkal, hogy képernyőolvasóval is használható és kitölthető legyen; a dokumentum nyelve magyarra állítva. A checklist nem vízszintesen görgetett táblázat (hozzáférhetőségi sztenderd §4)."
+      },
+      "derivatives": [
+        "print-pdf"
+      ],
+      "reuse_of": "",
+      "reuse_resolves_to": "",
+      "external": {},
+      "blockers": [],
+      "production_rules": [
+        "R5"
+      ],
+      "readiness_issues": [],
+      "decision": "",
+      "notes": "A Peula v2 sablonjának mezőlistáját (IMPL-18-1; M7.4-MUNK-01 jegyzete) az M7 KAPU (D) szakasza rögzíti a projektgazda 2026-10-18-i végrehajtási utasítása alapján (AP-2026-10-18-01); vétó/QA: értékelési felelős. A v1 sablonja külön asset (M7.4-MUNK-01). A sablon letölthetőségét és akadálymentességét a renderen kell igazolni (release-evidence).",
+      "review": "",
+      "release_phase": "",
+      "fallback": "",
+      "fallback_final": false,
+      "source_ref": "",
+      "composed_of": [],
+      "composed_source_ids": [],
+      "source_line": [],
+      "source_text": "",
+      "source_hash": "",
+      "alt_source_ref": "",
+      "alt_text": "",
+      "alt_hash": "",
+      "copy_hash": "",
+      "spec_hash": "84c9cdc9a793a95d57f1cb07ff77d3be69c565b43f8e2a782bdfe7f50289c7fb",
+      "deliverable_ids": [
+        "M7-HUB-MUNK-02",
+        "M7-HUB-MUNK-02::PRINTPDF"
+      ],
+      "legacy": {}
     },
     {
       "id": "M7.1-IKO-01",
@@ -28340,6 +28398,62 @@
       }
     },
     {
+      "id": "M7.3-MUNK-01",
+      "unit": "M7.3",
+      "module": "M7",
+      "file_kind": "online-lecke",
+      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md",
+      "line": 825,
+      "kind": "worksheet",
+      "subtype": "",
+      "mode": "generate",
+      "status": "spec-ready",
+      "title": "Letölthető, nyomtatható Zmán Kvucá-checklist munkalap – péntek esti mintaprogram",
+      "purpose": "A lecke OUTRO-jában és a meta-sorban ígért letölthető munkalap (LMS-5): a tanuló ezen pipál és írja fel a kérdéseit, tanuló-lokálisan, a Moodle-be semmi nem kerül.",
+      "spec": "Egy- vagy kétoldalas munkalap kizárólag e szakasz meglévő szövegéből, ugyanabban a sorrendben: a „Leírás (tanulónak)” bekezdései szó szerint; a péntek esti mintaprogram adatai az M7.3-ILL-02 mintaprogram-kártya hat blokkjának szövegével; az öt terület címe és példatételei szó szerint, mindegyik előtt üres jelölőnégyzettel (papíron pipálható); minden terület alatt írási hely („mire kérdeznék rá?”); a záró nyitott kérdés szó szerint, két sor írási hellyel; a záró zárójeles mondat („nem kell beküldened”). Új tétel, minta vagy útmutató szöveg nem kerül bele.",
+      "provenance": "human",
+      "provenance_note": "emberi-felvétel",
+      "technical": {
+        "note": "A4, nyomtatható PDF + szerkeszthető változat (.docx); magyar nyelv; Moodle-ben letölthető fájlként, a „Zmán Kvucá-checklist – péntek esti mintaprogram” oldal mellett."
+      },
+      "a11y": {
+        "note": "Valódi szöveges dokumentum (nem kép), valódi listaszerkezettel és címsorokkal; a dokumentum nyelve magyar; képernyőolvasóval olvasható. A papíros pipálás nem helyettesíti az olvasható Moodle-oldalt, amely jelölő- és beviteli elem nélküli lista marad (LMS-5)."
+      },
+      "derivatives": [
+        "print-pdf"
+      ],
+      "reuse_of": "",
+      "reuse_resolves_to": "",
+      "external": {},
+      "blockers": [],
+      "production_rules": [
+        "R5"
+      ],
+      "readiness_issues": [],
+      "decision": "",
+      "notes": "A lecke a meta-sorban és az OUTRO-ban („…vagy töltsd le a munkalapot”) ígéri; eddig nem volt hozzá asset (builder: CB-C-0035; AP-2026-10-18-01). A tartalom a lecke 4. szakaszának szó szerinti átvétele, az LMS-5 lezárt döntés szerint tanuló-lokálisan.",
+      "review": "",
+      "release_phase": "",
+      "fallback": "",
+      "fallback_final": false,
+      "source_ref": "",
+      "composed_of": [],
+      "composed_source_ids": [],
+      "source_line": [],
+      "source_text": "",
+      "source_hash": "",
+      "alt_source_ref": "",
+      "alt_text": "",
+      "alt_hash": "",
+      "copy_hash": "",
+      "spec_hash": "3a4466079b4b22282437038dec83d06bc23fb1319ffaa107a22273bcf06e77dd",
+      "deliverable_ids": [
+        "M7.3-MUNK-01",
+        "M7.3-MUNK-01::PRINTPDF"
+      ],
+      "legacy": {}
+    },
+    {
       "id": "M7.3-NAR-02",
       "unit": "M7.3",
       "module": "M7",
@@ -28810,7 +28924,7 @@
       "provenance": "ai",
       "provenance_note": "AI-generált (piktogramok); kiadás előtt emberi szakmai lektorálás szükséges",
       "technical": {
-        "note": "3 db kompatibilis ikon/piktogram, áttetsző háttér, mobil-first méretezés, a Single Choice mellett külön Course Presentation Image elemként"
+        "note": "3 db kompatibilis ikon/piktogram, áttetsző háttér, mobil-first méretezés, a kvuca-típus lista mellett külön Course Presentation Image elemként"
       },
       "a11y": {
         "visual": "informative",
@@ -28825,7 +28939,7 @@
       "production_rules": [],
       "readiness_issues": [],
       "decision": "",
-      "notes": "Újrahasznosítás indoklása (v1 dedup): Azonos három ikon. Eltérés csak a felhasználásban: M3.2-ben kártyákon/oszlopfejekben/táblázatban ismétlődve, M7.4-ben a kvuca-típus-választó Single Choice mellett, külön Course Presentation Image elemként (korosztály-címkével: 6–9 / 10–12 / 13–17). A vizuális asset ugyanaz. A lecke-meta (AI / multimédia lista) „illusztráció”-ként hivatkozik rájuk, de tartalmilag piktogram-/ikon-készlet (3 egységes elem) → assetType ikon-készlet, ezért az ID-rövidítés is IKO (nem ILL, hogy az ID-séma típushoz illeszkedjen). Meta §1 szerint AI-generált; provenance-jelölés a Program terv §4 (R1) szerint. Az emoji-jelölések (🦋🐑🐋) a forrásban orientálnak a vizuál tartalmára.",
+      "notes": "Újrahasznosítás indoklása (v1 dedup): Azonos három ikon. Eltérés csak a felhasználásban: M3.2-ben kártyákon/oszlopfejekben/táblázatban ismétlődve, M7.4-ben a kvuca-típus-választó kvuca-típus lista mellett, külön Course Presentation Image elemként (korosztály-címkével: 6–9 / 10–12 / 13–17). A vizuális asset ugyanaz. A lecke-meta (AI / multimédia lista) „illusztráció”-ként hivatkozik rájuk, de tartalmilag piktogram-/ikon-készlet (3 egységes elem) → assetType ikon-készlet, ezért az ID-rövidítés is IKO (nem ILL, hogy az ID-séma típushoz illeszkedjen). Meta §1 szerint AI-generált; provenance-jelölés a Program terv §4 (R1) szerint. Az emoji-jelölések (🦋🐑🐋) a forrásban orientálnak a vizuál tartalmára.",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -28840,7 +28954,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "c4c39f6111b628c6f5112e7cc601e24a86a6008078c60b06061256f20eef19d6",
+      "spec_hash": "3a4ad6dd4aa3a2ff82ea395342bf6901238145b9f6cfc36511b8b79b2b0401b5",
       "deliverable_ids": [],
       "legacy": {
         "alt-text": [
@@ -28857,7 +28971,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 810,
+      "line": 811,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -28885,7 +28999,7 @@
       ],
       "readiness_issues": [],
       "decision": "",
-      "notes": "A11Y-18 statikus előfeltétele (IMPL-18-1): a Program terv §5 beadási szabálya szerinti letölthető sablon a Peula v1-hez; tartalma kizárólag a „Minimum elvárás” meglévő szövegéből áll. A Peula v2 sablonja nem ez az asset: annak mezőlistája emberi döntés (IMPL-18-1, M7 v2). A sablon letölthetőségét és akadálymentességét a renderen kell igazolni (release-evidence).",
+      "notes": "A11Y-18 statikus előfeltétele (IMPL-18-1): a Program terv §5 beadási szabálya szerinti letölthető sablon a Peula v1-hez; tartalma kizárólag a „Minimum elvárás” meglévő szövegéből áll. A Peula v2 sablonja nem ez az asset: annak mezőlistáját az M7 KAPU (D) szakasza rögzíti (IMPL-18-1; projektgazdai végrehajtási utasítás, 2026-10-18), az assetje M7-HUB-MUNK-02. A sablon letölthetőségét és akadálymentességét a renderen kell igazolni (release-evidence).",
       "review": "",
       "release_phase": "",
       "fallback": "",
@@ -28989,7 +29103,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 636,
+      "line": 637,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -29032,8 +29146,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        718,
-        722
+        719,
+        723
       ],
       "source_text": "„Gratulálok, készen állsz a Peula v1-edre.\nMost írd meg a Moodle-beadandóban.\nAz M7.B műhelyben visszajelzések alapján tovább dolgozol rajta, és ebből készül a végleges, terepre vihető Peula v2.”",
       "source_hash": "50509520364058e39e604106d3801969ed525b0b03eaf8d31defc61d9c868f0f",
@@ -31522,7 +31636,7 @@
       "module": "M0",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md",
       "file_kind": "online-lecke",
-      "title": "Akadálymentes iframe-cím és fókusz-spec a SLIDE 3 interakcióhoz",
+      "title": "Akadálymentes konfiguráció és fókusz-spec a SLIDE 3 kérdésoldalaihoz",
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "human",
@@ -48212,6 +48326,48 @@
       "readiness_issues": []
     },
     {
+      "id": "M7-HUB-MUNK-02",
+      "asset_id": "M7-HUB-MUNK-02",
+      "role": "primary",
+      "role_label": "elsődleges",
+      "kind": "worksheet",
+      "subtype": "",
+      "unit": "M7-HUB",
+      "module": "M7",
+      "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
+      "file_kind": "hub",
+      "title": "Letölthető „Peula v2 + Zmán Kvucá” kitölthető sablon (doc)",
+      "mode": "generate",
+      "status": "spec-ready",
+      "provenance": "human",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [],
+      "readiness_issues": []
+    },
+    {
+      "id": "M7-HUB-MUNK-02::PRINTPDF",
+      "asset_id": "M7-HUB-MUNK-02",
+      "role": "print-pdf",
+      "role_label": "nyomtatható PDF",
+      "kind": "worksheet",
+      "subtype": "",
+      "unit": "M7-HUB",
+      "module": "M7",
+      "file": "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md",
+      "file_kind": "hub",
+      "title": "Letölthető „Peula v2 + Zmán Kvucá” kitölthető sablon (doc) — nyomtatható PDF",
+      "mode": "generate",
+      "status": "spec-ready",
+      "provenance": "human",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [],
+      "readiness_issues": []
+    },
+    {
       "id": "M7.1-IKO-01",
       "asset_id": "M7.1-IKO-01",
       "role": "primary",
@@ -49144,6 +49300,48 @@
       "mode": "generate",
       "status": "spec-ready",
       "provenance": "ai",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [],
+      "readiness_issues": []
+    },
+    {
+      "id": "M7.3-MUNK-01",
+      "asset_id": "M7.3-MUNK-01",
+      "role": "primary",
+      "role_label": "elsődleges",
+      "kind": "worksheet",
+      "subtype": "",
+      "unit": "M7.3",
+      "module": "M7",
+      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md",
+      "file_kind": "online-lecke",
+      "title": "Letölthető, nyomtatható Zmán Kvucá-checklist munkalap – péntek esti mintaprogram",
+      "mode": "generate",
+      "status": "spec-ready",
+      "provenance": "human",
+      "source_id": "",
+      "text": "",
+      "text_hash": "",
+      "blockers": [],
+      "readiness_issues": []
+    },
+    {
+      "id": "M7.3-MUNK-01::PRINTPDF",
+      "asset_id": "M7.3-MUNK-01",
+      "role": "print-pdf",
+      "role_label": "nyomtatható PDF",
+      "kind": "worksheet",
+      "subtype": "",
+      "unit": "M7.3",
+      "module": "M7",
+      "file": "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md",
+      "file_kind": "online-lecke",
+      "title": "Letölthető, nyomtatható Zmán Kvucá-checklist munkalap – péntek esti mintaprogram — nyomtatható PDF",
+      "mode": "generate",
+      "status": "spec-ready",
+      "provenance": "human",
       "source_id": "",
       "text": "",
       "text_hash": "",
