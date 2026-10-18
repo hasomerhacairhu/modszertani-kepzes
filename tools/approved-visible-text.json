@@ -5,8 +5,8 @@
       "sha256": "6fc8496a73e4a1073226e99e3cca861583ea454b3ed2843f2d31ff156cc24d33"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "X-16-KANON, X-16-PRIV-HATÓKÖR, X-16-WS (HUM 19): canonical re-check rule, privacy-proposal scope, WS status",
-      "sha256": "f0fe0f846e935d8aebfd45407cc53bd4386adc153cd58c3b07299730fd07cb25"
+      "reason": "CB-C-0036 (HUM 20): projektgazdai döntés (D-039, D-040), M0.1 és M0.2 completion",
+      "sha256": "4063c32e2b157f29db1ca83f7619942e14382b6d74affd1f0e5702e051abceb0"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
