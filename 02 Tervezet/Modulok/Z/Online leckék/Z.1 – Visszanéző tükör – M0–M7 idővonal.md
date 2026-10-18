@@ -316,7 +316,7 @@ Nincs kérdés ezen a dián – ez tiszta Input.
 
 Alul 1 gyors Check-kérdés:
 
-> „Melyik modulnál érzed úgy, hogy **‘ez rólam szól’** vagy **‘ez igaz rám’**?”
+> „Melyik modulnál vagy moduloknál érzed úgy, hogy **‘ez rólam szól’** vagy **‘ez igaz rám’**? Válassz 1–3-at.”
 
 H5P **Multiple Choice** (pipálhat többet is – nincs jó/rossz, csak reflexió) – „Válaszd ki 1–3 modult a listából”.
 
