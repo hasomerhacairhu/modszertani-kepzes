@@ -85,7 +85,7 @@ A modul végére a madrih…
   * kurzusstruktúra: hol találja a modulokat, mikroleckéket, peulákat, kapukat;
   * fogalmak: Moodle, H5P, activity completion, puha/éles kapu;
   * mini-kvíz: „mi történik, ha…?” (nem tölt ki valamit, nem megy elsőre a kapu).
-* **Moodle/H5P mix:** Moodle Page + H5P Course Presentation (beágyazott képernyőképek, fogalom–definíció párosítás, Single Choice kérdések).
+* **Moodle/H5P mix:** Moodle Page + H5P Course Presentation (beágyazott képernyőképek, fogalom–definíció párosítás, egyválaszos módú Multiple Choice kérdések).
 
 ### L4 / M0.4 – „Dugma isit az online térben + bemutatkozó fórum” (15–20’)
 
@@ -194,21 +194,21 @@ Egy hanih elmond egy nehéz személyes helyzetet. Mi a madrih szerepe?
   *Visszajelzés:* Nem jó: a madrih nem terapeuta, nem neki kell megoldania a helyzetet; lásd: M0.2, 2. dia (mit csinál a madrih, és mit nem).
 * B) Meghallgatja, visszatükrözi, és szükség esetén felelős felnőttet von be. ✅
 * C) Kideríti, ki a hibás.
-  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem az ő dolga kideríteni, ki a hibás; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem az ő dolga kideríteni, ki a hibás; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 * D) Titokban tartja, bármi történjen.
-  *Visszajelzés:* Nem jó: a madrih nem ígérhet teljes titoktartást, mert ha valaki veszélyben van, segítséget kell bevonni; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih nem ígérhet teljes titoktartást, mert ha valaki veszélyben van, segítséget kell bevonni; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 
 **2. item – jelzési út gyermekvédelmi ügyben**
 
 Egy hanih olyan dolgot mond, ami bántalmazásra vagy közvetlen veszélyre utal. Mi a helyes elsődleges út?
 
 * A) Saját maga utánajár.
-  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem próbálja egyedül megoldani a helyzetet; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem próbálja egyedül megoldani a helyzetet; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 * B) Csoportchatbe ír.
   *Visszajelzés:* Nem jó: a madrih gyermekvédelmi ügyről nem ír csoportchatbe, hanem azonnal bevonja a Memunát; a Memuna elérhetőségét lásd: a kurzus „Segítség és kapcsolatok” blokkja.
 * C) Komolyan veszi, nem ígér teljes titoktartást, nem nyomoz, és a jóváhagyott gyermekvédelmi utat követi; közvetlen veszélyben 112. ✅
 * D) Vár másnapig.
-  *Visszajelzés:* Nem jó: a madrih ilyenkor nem vár, hanem azonnal bevonja a Memunát, közvetlen veszélyben pedig előbb a biztonság és a 112 jön; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih ilyenkor nem vár, hanem azonnal bevonja a Memunát, közvetlen veszélyben pedig előbb a biztonság és a 112 jön; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 
 **3. item – puha vs. éles kapu**
 
@@ -251,7 +251,7 @@ Melyik online reakció dugma isit?
 Melyik modulban lesz szó ezekről? Párosítsd a témát a modul kódjával: visszajelzés / red flag és gyermekvédelem / peulatervezés
 
 * Kulcs: visszajelzés → M1; red flag és gyermekvédelem → M3; peulatervezés → M7 ✅
-* *Visszajelzés hibás vagy részben hibás párosításra:* Nem egészen: nem minden téma került a saját moduljához; lásd: M0.1, 2. dia (éves útiterv).
+* *Visszajelzés hibás vagy részben hibás párosításra:* Nem egészen: nem minden téma került a saját moduljához; lásd: M0.1, „Éves útiterv – M0–M7 + Z”.
 
 **7. item – hol találom a modulokat / leckéket**
 

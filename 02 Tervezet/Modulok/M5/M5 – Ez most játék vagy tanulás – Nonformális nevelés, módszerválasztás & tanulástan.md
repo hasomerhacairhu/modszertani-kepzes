@@ -79,7 +79,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Cél:**
   Elkészíteni a modul produktumának vázát: egy **3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázatot**, amihez madrihként később is vissza tud térni.
 * **Eszközök:**
-  * H5P **Column** – rövid felidézés + mintatáblázat + ellenőrző lista.
+  * H5P **Column** – mintatáblázat + ellenőrző lista.
   * **Moodle Assignment** – a kész táblázat leadására.
 * **Rövid menet:**
   * Hook: „3–4 helyzet, ahol nagyon nem mindegy, mit csinálsz” – tipikus madrih-helyzetek felsorolása.

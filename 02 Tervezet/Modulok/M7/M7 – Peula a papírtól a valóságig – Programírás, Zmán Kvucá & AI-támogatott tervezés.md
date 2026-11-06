@@ -223,7 +223,7 @@ A modul végére a madrih…
   * **AI-jártassági blokk a lecke elején (kb. 15’):** mi az AI, mire jó és mire nem; hallucináció; adatvédelem; emberi ellenőrzés; a promptba nem írható adatok (`Adatvédelem – tanulói adatok és AI.md` §7). Saját AI-fiókra nincs szükség; az AI továbbra is opcionális, a no-AI út teljes értékű.
   * A 11 pont nevei és someres példái (pl. Kvuca + idő + helyszín, Módszerek & élmény-blokk, Felépítés, Realitás-check, Biztonság & gyermekvédelem).
   * Minden ponthoz 1 rövid magyarázat; fázisonként 1 ajánlott **AI-prompt**-példa. Gyermekvédelmi döntést, red flag minősítést vagy kríziskezelést **nem delegálunk AI-nak**: ilyen ügyben azonnal a Memunát kell bevonni (M7.2, kötelező AI-keret).
-  * Párosító feladat (koppintással / kattintással, húzás nélkül): pont → leírás.
+  * Párosító feladat (koppintással / kattintással, húzás nélkül): leírás → pont.
   * Önellenőrzés (SLIDE 7): egy hiányos példa-peulavázról kérdés arról, melyik pont hiányzik belőle, és 1 mondatos minireflexió.
 
 ***
