@@ -2245,10 +2245,10 @@
       "id": "M2.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 322,
+      "line": 326,
       "body_lines": [
-        323,
-        330
+        327,
+        334
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2265,10 +2265,10 @@
       "id": "M2.4-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 465,
+      "line": 469,
       "body_lines": [
-        466,
-        480
+        470,
+        484
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2285,10 +2285,10 @@
       "id": "M2.4-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 799,
+      "line": 803,
       "body_lines": [
-        800,
-        808
+        804,
+        812
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -11250,7 +11250,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 350,
+      "line": 354,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -11316,7 +11316,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 525,
+      "line": 529,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -11382,7 +11382,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 218,
+      "line": 222,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -11448,7 +11448,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 487,
+      "line": 491,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -11581,7 +11581,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 598,
+      "line": 602,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -11648,7 +11648,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 256,
+      "line": 260,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -11691,8 +11691,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        323,
-        330
+        327,
+        334
       ],
       "source_text": "„Madrihként nagyon fontos vagy, de nem vagy mindenható.\nNem kell egyedül megoldanod mások problémáit.\n\nAzzal is példát mutatsz, ha tudod,\nmikor kell bevonnod a mentorodat – gyermekvédelmi ügyben pedig azonnal a Memunát –,\nés mikor mondod azt, hogy ‘ezt nem nekem kell egyedül megoldanom’. Ebből a hanihok is azt tanulják, hogy segítséget kérni rendben van – és vannak helyzetek, amikor szükséges is.”",
       "source_hash": "8d56e8a178fe4b26eecbd036c96a9e09d2c989ce20a7e4a3533bbbbb5da7da7e",
@@ -11724,7 +11724,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 388,
+      "line": 392,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -11767,8 +11767,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        466,
-        480
+        470,
+        484
       ],
       "source_text": "„Nem minden dolognak ugyanott a helye.\n\nA **privát** az, amit nem szeretnél megosztani a kvucával.\nEz maradhat szűk körben, a legközelebbi barátaiddal vagy családtagjaiddal, esetleg szakemberrel.\n\nA **személyes** az, amit megoszthatsz,\nhogy tudjatok kapcsolódni: példák, érzések, amik segítik a kapcsolódást.\n\nA **szakmai** rész azokból a keretekből és szabályokból áll,\namelyeket madrihként be kell tartanod: például a gyermekvédelmi lépésekből.\n\nAzzal is **személyes példát mutatsz**,\nahogyan különbséget teszel e három között.”",
       "source_hash": "291ae590c1d8114a9c13e3954dc7c6acedb50b7f46a3fa8c511b427b323b69df",
@@ -11800,7 +11800,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 709,
+      "line": 713,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -11843,8 +11843,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        800,
-        808
+        804,
+        812
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nA határaid tartása nem önzés, hanem **felelősség** –\nmagaddal és a hanihokkal szemben is.\n\nHa valamelyik rész nehéz volt, érdemes róla beszélni a mentoroddal.\nEzzel is azt mutatod, hogy segítséget kérni rendben van –\nés ez is fontos része a **személyes példamutatásnak**.”",
       "source_hash": "773624f25ab53bc1051e87a62222df88e5ccf04f3590f33450bff329b6e926b0",
