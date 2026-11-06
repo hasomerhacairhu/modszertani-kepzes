@@ -215,24 +215,24 @@ Egy hanih olyan dolgot mond, ami bántalmazásra vagy közvetlen veszélyre utal
 Mi a különbség a puha és az éles kapu között?
 
 * A) Puha = ha elsőre nem sikerül, kiesel. Éles = ha elsőre nem sikerül, szintén kiesel.
-  *Visszajelzés:* Nem jó: egyik kapu sem a kiesésről szól – a puha kapu nem zár el a továbblépéstől, az éles kapunál pedig visszajelzést és javítási lehetőséget kapsz; lásd: M0.3, 5. dia (puha és éles kapu).
-* B) Puha = formatív és nem blokkol. Éles = a minimum + szükséges megerősítés nélkül nem nyílik a következő kapuzott tartalom. ✅
+  *Visszajelzés:* Nem jó: egyik kapu sem a kiesésről szól – a puha kapu nem zár el a továbblépéstől, az éles kapunál pedig visszajelzést és javítási lehetőséget kapsz; lásd: M0.3, „Puha vs. éles kapu”.
+* B) Puha = formatív (fejlesztő célú) és nem blokkol. Éles = a minimum + szükséges megerősítés nélkül nem nyílik a következő kapuzott tartalom. ✅
 * C) Puha = magától teljesül, akkor is, ha nem csinálsz vele semmit. Éles = csak ezzel kell ténylegesen foglalkoznod.
-  *Visszajelzés:* Nem jó: a puha kaput is el kell végezned, csak az eredménye nem zár el a továbblépéstől; lásd: M0.3, 5. dia (puha és éles kapu).
+  *Visszajelzés:* Nem jó: a puha kaput is el kell végezned, csak az eredménye nem zár el a továbblépéstől; lásd: M0.3, „Puha vs. éles kapu”.
 * D) Puha = elég megnyitni. Éles = elég beadni, és már nyílik is a következő kapuzott tartalom.
-  *Visszajelzés:* Nem jó: a puha kaput végig kell csinálnod, az éles kapunál pedig a beadás önmagában nem elég, a minimumnak és a szükséges megerősítésnek is teljesülnie kell; lásd: M0.3, 5. dia (puha és éles kapu).
+  *Visszajelzés:* Nem jó: a puha kaput végig kell csinálnod, az éles kapunál pedig a beadás önmagában nem elég, a minimumnak és a szükséges megerősítésnek is teljesülnie kell; lásd: M0.3, „Puha vs. éles kapu”.
 
 **4. item – kapukövetkezmény**
 
 Mi történik a madrihhal, ha egy éles kapu elsőre nem teljesül?
 
 * A) Kiesik a képzésből.
-  *Visszajelzés:* Nem jó: a kapu nem kizárás, éles kapunál is visszajelzés és javítási lehetőség jár; lásd: M0.3, 5–6. dia (a kapuk és a következményeik).
+  *Visszajelzés:* Nem jó: a kapu nem kizárás, éles kapunál is visszajelzés és javítási lehetőség jár; lásd: M0.3, „Puha vs. éles kapu” és „Mi történik, ha…?” (a kapuk és a következményeik).
 * B) Automatikusan megfelel.
-  *Visszajelzés:* Nem jó: az éles kapu nem teljesül magától, a minimumnak és a szükséges megerősítésnek ténylegesen meg kell lennie; lásd: M0.3, 5. dia (puha és éles kapu).
+  *Visszajelzés:* Nem jó: az éles kapu nem teljesül magától, a minimumnak és a szükséges megerősítésnek ténylegesen meg kell lennie; lásd: M0.3, „Puha vs. éles kapu”.
 * C) Visszajelzést kap, F-peulán / javítási úton dolgozik, majd újrapróbálkozik. ✅
 * D) Elég ugyanazt újra beadnia; külön fejlesztő visszajelzésre és F-peulára nincs szükség.
-  *Visszajelzés:* Nem jó: ha egy éles kapu nem teljesül, a javító próbálkozás előtt fejlesztő visszajelzés jár, és a kötelező F-peulán (a javítási úton) kell dolgozni; lásd: M0.3, 5. dia (puha és éles kapu) és a Glosszárium F-peula szócikke.
+  *Visszajelzés:* Nem jó: ha egy éles kapu nem teljesül, a javító próbálkozás előtt fejlesztő visszajelzés jár, és a kötelező F-peulán (a javítási úton) kell dolgozni; lásd: M0.3, „Puha vs. éles kapu” és a Glosszárium F-peula szócikke.
 
 **5. item – online hangnem / szabály**
 
@@ -258,12 +258,12 @@ Párosítsd: visszajelzés / red flag és gyermekvédelem / peulatervezés
 Hol találod a modulokat, leckéket, peulákat és a completion-állapotot?
 
 * A) A H5P-ben; a pipa azt mutatja, hány pontot értél el.
-  *Visszajelzés:* Nem jó: a H5P csak egy eszköz a Moodle-ben, a pipa pedig azt jelzi, hogy végigmentél egy feladaton, nem a pontszámodat; lásd: M0.3, 2–3. dia (kurzusstruktúra és alapfogalmak).
+  *Visszajelzés:* Nem jó: a H5P csak egy eszköz a Moodle-ben, a pipa pedig azt jelzi, hogy végigmentél egy feladaton, nem a pontszámodat; lásd: M0.3, „Hol mit találsz a kurzusban?” és „Alapfogalmak – 1 mondatban”.
 * B) A kvuca csoportchatjébe küldött linkeken; a completion-állapotot csak a képző látja.
-  *Visszajelzés:* Nem jó: a modulokat, a leckéket és a peulákat a Moodle-kurzusban találod, és a pipákat te is látod; lásd: M0.3, 2. dia (kurzusstruktúra).
+  *Visszajelzés:* Nem jó: a modulokat, a leckéket és a peulákat a Moodle-kurzusban találod, és a pipákat te is látod; lásd: M0.3, „Hol mit találsz a kurzusban?” (kurzusstruktúra).
 * C) A Moodle-kurzus modulstruktúrájában; a leckék/activityk mellett látható completion-állapottal. ✅
 * D) E-mailben, mert minden leckét külön levélben kapsz meg; a completion-állapot csak a modul végén derül ki.
-  *Visszajelzés:* Nem jó: a leckék nem e-mailben érkeznek, hanem a Moodle-kurzus moduljaiban vannak, és a pipák folyamatosan mutatják, mit fejeztél be; lásd: M0.3, 2. dia (kurzusstruktúra).
+  *Visszajelzés:* Nem jó: a leckék nem e-mailben érkeznek, hanem a Moodle-kurzus moduljaiban vannak, és a pipák folyamatosan mutatják, mit fejeztél be; lásd: M0.3, „Hol mit találsz a kurzusban?” (kurzusstruktúra).
 
 ***
 

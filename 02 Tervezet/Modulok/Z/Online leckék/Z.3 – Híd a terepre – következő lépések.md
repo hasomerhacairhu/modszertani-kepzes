@@ -192,7 +192,7 @@ Opciók:
 **Visszajelzés:**
 
 > „Jó kiindulópont, amit választottál.
-> A következő diákon **a saját mondatodat** fogod megfogalmazni hasonló szerkezetben.”
+> A lecke gyakorlataiban **a saját mondatodat** is hasonló szerkezetben fogalmazod meg.”
 
 ***
 
@@ -250,7 +250,7 @@ Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe kerül (Moodle: a „L
 
 > **2. saját cél – én mint madrih**
 
-> Írj még 1 mondatot a jegyzetedbe az alábbi kezdéssel:
+> Ezt a mondatot csak a saját jegyzetedbe írd (a „Z.3 – Szöveges válaszok” nem kéri, és a mentorod sem nézi át), az alábbi kezdéssel:
 
 > **„A következő hónapban…”**
 
@@ -259,7 +259,7 @@ Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe kerül (Moodle: a „L
 > – „…legalább **2-szer leülök a mentorommal / madrih-társammal** átbeszélni, mi ment jól és mi volt nehéz.”
 > – „…minden héten **1 konkrét visszajelzést kérek** valakitől a stábban.”
 
-> Itt is az a cél, hogy **kicsi, de konkrét** lépést írj le.
+> Itt is az a cél, hogy **kicsi, de konkrét** lépést írj le. A Z.4 záró reflexiójában ezt is finomítod és véglegesíted.
 
 **Rövid szöveges válasz – tanuló-lokális lépés**
 

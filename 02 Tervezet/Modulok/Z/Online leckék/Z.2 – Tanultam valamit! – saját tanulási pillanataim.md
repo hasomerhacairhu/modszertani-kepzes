@@ -241,7 +241,7 @@ Opciók:
 
 **Visszajelzés:**
 
-> „Teljesen rendben van.
+> „Bármit jelöltél, teljesen rendben van.
 > Nem az a cél, hogy minden nehézséget ‘pozitív tanulsággá’ sminkeljünk,
 > hanem hogy **észrevedd azokat a pontokat**, ahol valami benned változott.”
 
