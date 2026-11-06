@@ -3071,10 +3071,10 @@
       "id": "M5.1-VID-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 646,
+      "line": 648,
       "body_lines": [
-        647,
-        655
+        649,
+        657
       ],
       "unit": "M5.1",
       "module": "M5",
@@ -21091,7 +21091,7 @@
       "module": "M5",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md",
-      "line": 560,
+      "line": 562,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -21138,8 +21138,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        647,
-        655
+        649,
+        657
       ],
       "source_text": "„Köszi, hogy végigcsináltad ezt a leckét.\nMostanra látod, hogy a Somer **nem suli, de nem is csak közös lógás**:\nnonformális nevelés, ahol kvucával, élményekkel tanulunk.\n\nA következő leckében azt nézzük meg,\nhogyan jutsz el egy peula tervezésekor a **feladattól a célon és a kvucán át a módszerig** –\nés nem fordítva.”",
       "source_hash": "6e308c759e01baa70a0cfec5db798d7a3255f220c3ff9370c6af0773c02334a4",
