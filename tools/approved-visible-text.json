@@ -33,8 +33,8 @@
       "sha256": "277eb3a9f187b598330879d9a88e7f06e7e33c1c14b66244f74451455d7620be"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "269f76518a8ecca311d3a475c01cb4f80a7b59c0eba79781d853fa71f88c98fc"
+      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
+      "sha256": "6180e26c9dc341c2156ea4c73316f6cb5a6200ed08585248a978a454af0815be"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -65,8 +65,8 @@
       "sha256": "85963f6a1418830ff743241dc69f62496cac44163bf356937a27025f36f0b982"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "5bd7ba933e9e4b02cfe6f2782c8a4b994eb3282512777810b4896af02316d878"
+      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
+      "sha256": "38504e94cf039bf88669b3f32a396e0e0dba8b18df2b4389fa2daa7ca9c4a867"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -133,8 +133,8 @@
       "sha256": "f335ba3cefd3e31062bf4d81e65f4790c5b3a638d443a000ef31ccc15189eb47"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "874ad7a122b787ae2d5547823268f5e01e325af919dd432410be7ae47280a3b1"
+      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
+      "sha256": "303b1a0a92ad234f73e39f2b18cccca435f88450fec15749d74c71467ada6035"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -201,16 +201,16 @@
       "sha256": "5dc0baf7e1b17633ee2d6a95dadc7ff17309efb48a6f49f3d5d06e72551e129c"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "ad960415b51cde2cfbb89dcabdd10fd0c948fe8eb1187a2e9c4b163d7c3cffdc"
+      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
+      "sha256": "e79d96da059bac042cb495f68c31b44aac4672f6d6532d0fcb20969cd44a0a9e"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
       "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
       "sha256": "e69a8423f5c9fb0634112e51afe1ada0ce3d34c6587cc3af6a7f7e645dd2071e"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "76783a7f474dd42a4fd7c75c4a59377976d9d1512a034e83de2fd16ae77c9eea"
+      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
+      "sha256": "7acee3044f50f9a75160cb3c9dbfef2bf08f8adec9826c638f6274b3ac27eb48"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -241,8 +241,8 @@
       "sha256": "c6d31667576c395f402088b1360bd230ba5672d9454e004de92354c890b39091"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
-      "sha256": "0756b7df7d3abb4e23861e701868c31fea298abcf57b0314f0ed808c3a9976bc"
+      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
+      "sha256": "f30a3f09ba352c3b6f9deebeac92f5b87e6dde137e89dbef72dcce7097ebb524"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
