@@ -277,8 +277,8 @@
       "sha256": "f078c5a84e355e88b95c572f279677b56cecbaa4d8ecbcfe78737ed1a9f5bacf"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
-      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
-      "sha256": "5719154a87c447e1f7db0436474f0c2611a8b2af7d1ae607f820231105bed401"
+      "reason": "R2-M6Z-11: D-095, trailing spaces removed inside a code block (no visible change)",
+      "sha256": "942037510b31b9cfb4048e25cdc9b22d02bacfba77810cacfaa89bf5c9eeee66"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md": {
       "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
