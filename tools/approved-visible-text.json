@@ -45,8 +45,8 @@
       "sha256": "150ec4eaea4819c48059ae85597458392653289f864210ae2893b9c05ad66efb"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "264d52bea18676ae9662f5296a5264638efd704c58ac7319e8dbb45b5b6179f2"
+      "reason": "D-095 (D5-F028, AD-22, AD-32, A-14, A-15, 1.07, C4-1.22): drafts for the Memuna's / DPO's review",
+      "sha256": "55367515c60821c46ee0ad50c2f4d03e32dd2a11a4b292a3e569f95ceaf438ec"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
       "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
@@ -109,8 +109,8 @@
       "sha256": "b4d331258f6ae03c300c9ef39f604a6bdbcf04d53db6b0cb16e2f98ceb2c441f"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "96a99aaa7bdf6e98c1bcf7dd6a8b38411d5a9a274e0297b4d719501ef89e9c05"
+      "reason": "D-095 (D5-F028, AD-22, AD-32, A-14, A-15, 1.07, C4-1.22): drafts for the Memuna's / DPO's review",
+      "sha256": "970693e6a1d7737bf17fdd07d18516f33664b12abddd22e68afb322d6c370dba"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
       "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
@@ -125,8 +125,8 @@
       "sha256": "b8d1c90ec8245e6d007b93073361dca334fbc71a0f26f5d8ebee29007a6c335a"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "8d09bd7f101016573afb4bcf254c541f272fa4d2a8ab0c34137990979fcab2c0"
+      "reason": "D-095 (D5-F028, AD-22, AD-32, A-14, A-15, 1.07, C4-1.22): drafts for the Memuna's / DPO's review",
+      "sha256": "873cd631e5e60d36e9ec434f90d4cb3335e325bb565df559436da525824fc1f8"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
       "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
@@ -145,8 +145,8 @@
       "sha256": "1cb4a937a9c6d71072029a98dd2346953a9da07372593358e116497ccd87eed4"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "d60676c30e1540e365b6de7aa8bf2167e88c61051e69e679bf21f03f88e6a213"
+      "reason": "D-095 (D5-F028, AD-22, AD-32, A-14, A-15, 1.07, C4-1.22): drafts for the Memuna's / DPO's review",
+      "sha256": "aa2fdd1c191eb5bae47b1d64250e296ab882f4f59c8a5c45b55556e1db5dee23"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
       "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
