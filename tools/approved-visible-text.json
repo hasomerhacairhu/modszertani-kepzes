@@ -29,8 +29,8 @@
       "sha256": "47ee249787444122b186638594540aaec6a9492938f1328bd142481edac8b0ff"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "b302b781068aa82043c8d7a971bc55646a699c5d0f990c34dc3ec7790b01c13c"
+      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
+      "sha256": "277eb3a9f187b598330879d9a88e7f06e7e33c1c14b66244f74451455d7620be"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -205,8 +205,8 @@
       "sha256": "ad960415b51cde2cfbb89dcabdd10fd0c948fe8eb1187a2e9c4b163d7c3cffdc"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "c68170321c26e0124b2390efa1301f9a7bdbdb6236ef401edda1d6b03ae8ad99"
+      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
+      "sha256": "e69a8423f5c9fb0634112e51afe1ada0ce3d34c6587cc3af6a7f7e645dd2071e"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -241,8 +241,8 @@
       "sha256": "c6d31667576c395f402088b1360bd230ba5672d9454e004de92354c890b39091"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "68e857097a69937a15682b7c5ff155299fcadce23c291d08caaccd17f6cf0bff"
+      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
+      "sha256": "0756b7df7d3abb4e23861e701868c31fea298abcf57b0314f0ed808c3a9976bc"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -277,8 +277,8 @@
       "sha256": "3ab0d79ed8753780e3ab29e3eba4b3ef6148b192b76a0be037b30924a616b134"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "2bf5c8e73fc49a163f7a7b219880ec39561496f9ed82ac89f0b727fed3e1be69"
+      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
+      "sha256": "34b4e2521301b4def1678473ba539add2e43780728a1b6caa4647d681303d350"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
@@ -309,8 +309,8 @@
       "sha256": "e6bd37e058ee05338de2b848c427b30562ed5b55a5b2526b7c4604f80867ba91"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "799a27d81a4cd490e5f3780f598e08bf5c489c3d2a9bb5ba78b737279d8e8289"
+      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
+      "sha256": "f234e88bcb8ed2f86e382ebd6bdc01537621989415c432cfa18e4ad981574e68"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",

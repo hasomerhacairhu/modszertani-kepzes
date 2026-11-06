@@ -222,7 +222,7 @@ Opciók:
 
 > Töltsd ki mind a hármat (ez nem fogadalom, hanem terv):
 > – **MIKOR** futtatod le? (pl. „a 2. alkalommal”)
-> – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed. Csak csoportszintű információt írj: hanih-nevet, egyéni érzékeny történetet vagy diagnózist ne.
+> – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed; ha ezt még nem tudod, azt a kitalált kvuca-profilt, amellyel az M7-ben dolgoztál. Csak csoportszintű információt írj: hanih-nevet, egyéni érzékeny történetet vagy diagnózist ne.
 > – **1 ELŐRE LÁTOTT AKADÁLY → ha–akkor megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
 
 > Segítő példa (ha–akkor):

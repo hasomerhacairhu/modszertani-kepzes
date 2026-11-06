@@ -248,7 +248,7 @@ Melyik online reakció dugma isit?
 
 **6. item – éves ív (párosítás)**
 
-Párosítsd: visszajelzés / red flag és gyermekvédelem / peulatervezés
+Melyik modulban lesz szó ezekről? Párosítsd a témát a modul kódjával: visszajelzés / red flag és gyermekvédelem / peulatervezés
 
 * Kulcs: visszajelzés → M1; red flag és gyermekvédelem → M3; peulatervezés → M7 ✅
 * *Visszajelzés hibás vagy részben hibás párosításra:* Nem egészen: nem minden téma került a saját moduljához; lásd: M0.1, 2. dia (éves útiterv).
