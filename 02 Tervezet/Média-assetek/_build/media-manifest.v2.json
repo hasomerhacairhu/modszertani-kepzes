@@ -1593,8 +1593,8 @@
       "unit": "M1.1",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz gépelni, az is teljesen oké, ha csak magadban gondolod végig.”",
-      "hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
+      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz írni, az is teljesen oké, ha csak magadban gondolod végig.”",
+      "hash": "030ad81f01f259b47d41d071515be409fa41380fd0d189d40406c912d0bd0d75",
       "note": "",
       "for": "",
       "used_by": [
@@ -1705,10 +1705,10 @@
       "id": "M1.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-      "line": 765,
+      "line": 770,
       "body_lines": [
-        766,
-        770
+        771,
+        775
       ],
       "unit": "M1.2",
       "module": "M1",
@@ -1725,10 +1725,10 @@
       "id": "M1.2-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-      "line": 946,
+      "line": 951,
       "body_lines": [
-        947,
-        952
+        952,
+        957
       ],
       "unit": "M1.2",
       "module": "M1",
@@ -1833,8 +1833,8 @@
       "unit": "M1.3",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
-      "hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
+      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg leírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
+      "hash": "d439c0fc653f0847662f1fe2f0af345ab42bb1ad1b0e3c0a45eed2fece55224a",
       "note": "",
       "for": "",
       "used_by": [
@@ -1873,8 +1873,8 @@
       "unit": "M1.3",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
-      "hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
+      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és a beadandóban erre építhetsz.”",
+      "hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
       "note": "",
       "for": "",
       "used_by": [
@@ -1993,8 +1993,8 @@
       "unit": "M1.4",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 1–2 mondatos SBI-visszajelzést.”",
-      "hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
+      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 2–3 mondatos SBI-visszajelzést.”",
+      "hash": "206cf4a7f301e8261059c805a9371ed4f87003c21b812e0f73b2bfa8e674488f",
       "note": "",
       "for": "",
       "used_by": [
@@ -2245,10 +2245,10 @@
       "id": "M2.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 320,
+      "line": 322,
       "body_lines": [
-        321,
-        328
+        323,
+        330
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2265,10 +2265,10 @@
       "id": "M2.4-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 463,
+      "line": 465,
       "body_lines": [
-        464,
-        478
+        466,
+        480
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2285,10 +2285,10 @@
       "id": "M2.4-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 797,
+      "line": 799,
       "body_lines": [
-        798,
-        806
+        800,
+        808
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2305,10 +2305,10 @@
       "id": "M2.4-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 168,
+      "line": 170,
       "body_lines": [
-        169,
-        186
+        171,
+        188
       ],
       "unit": "M2.4",
       "module": "M2",
@@ -2911,10 +2911,10 @@
       "id": "M4.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 649,
+      "line": 654,
       "body_lines": [
-        650,
-        664
+        655,
+        669
       ],
       "unit": "M4.3",
       "module": "M4",
@@ -3359,8 +3359,8 @@
       "unit": "M6.2",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
-      "hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
+      "text": "„Ismerj meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
+      "hash": "9185672631d25197c2d1e9ba6d1697524237d3f3b6c55ff23200263d70d0ec17",
       "note": "",
       "for": "",
       "used_by": [
@@ -3391,10 +3391,10 @@
       "id": "M6.3-FOTO-04-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 714,
+      "line": 719,
       "body_lines": [
-        715,
-        716
+        720,
+        721
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3411,10 +3411,10 @@
       "id": "M6.3-FOTO-05-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 922,
+      "line": 927,
       "body_lines": [
-        923,
-        924
+        928,
+        929
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3491,10 +3491,10 @@
       "id": "M6.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 758,
+      "line": 763,
       "body_lines": [
-        759,
-        794
+        764,
+        799
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3511,10 +3511,10 @@
       "id": "M6.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 967,
+      "line": 972,
       "body_lines": [
-        968,
-        993
+        973,
+        998
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3531,10 +3531,10 @@
       "id": "M6.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1112,
+      "line": 1117,
       "body_lines": [
-        1113,
-        1129
+        1118,
+        1134
       ],
       "unit": "M6.3",
       "module": "M6",
@@ -3759,8 +3759,8 @@
       "unit": "M7.3",
       "module": "M7",
       "file_kind": "online-lecke",
-      "text": "„Most egy Moodle Checklistben fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
-      "hash": "350be51ad2e61ec4600c0387a6020e11a500973caf113f40767cd7a7260b4dd9",
+      "text": "„Most egy checklisttel fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki a munkalapon vagy a jegyzetedben, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
+      "hash": "5f5d148adbe79bd7f3817c700dc8e4e0a8e691697a9551d836ba90153e644812",
       "note": "",
       "for": "",
       "used_by": [
@@ -3791,10 +3791,10 @@
       "id": "M7.4-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 494,
+      "line": 495,
       "body_lines": [
-        495,
-        500
+        496,
+        501
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3811,10 +3811,10 @@
       "id": "M7.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 718,
+      "line": 720,
       "body_lines": [
-        719,
-        723
+        721,
+        725
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -3831,10 +3831,10 @@
       "id": "M7.4-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 182,
+      "line": 183,
       "body_lines": [
-        183,
-        200
+        184,
+        201
       ],
       "unit": "M7.4",
       "module": "M7",
@@ -4067,7 +4067,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 219,
+      "line": 221,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -6126,7 +6126,7 @@
       "status": "pending-rights",
       "title": "Narráció – Önreflexió bevezető (opcionális)",
       "purpose": "Az önreflexiós feladat alacsony nyomású keretezése.",
-      "spec": "20–30 mp opcionális narráció: nincs jó/rossz válasz; válassz egy kérdést, írj 2–3 mondatot ha szeretnél; ha nem akarsz gépelni, fejben is végiggondolhatod. Verbatim: M1.1-NAR-05-VO (`@source`).",
+      "spec": "20–30 mp opcionális narráció: nincs jó/rossz válasz; válassz egy kérdést, írj 2–3 mondatot ha szeretnél; ha nem akarsz írni, fejben is végiggondolhatod. Verbatim: M1.1-NAR-05-VO (`@source`).",
       "provenance": "ai",
       "provenance_note": "AI-generált",
       "technical": {
@@ -6165,13 +6165,13 @@
         781,
         785
       ],
-      "source_text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz gépelni, az is teljesen oké, ha csak magadban gondolod végig.”",
-      "source_hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
+      "source_text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz írni, az is teljesen oké, ha csak magadban gondolod végig.”",
+      "source_hash": "030ad81f01f259b47d41d071515be409fa41380fd0d189d40406c912d0bd0d75",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
-      "spec_hash": "91a890ab1d62824b1cded5fd008f7c17f52c1836e6d583f25e9501e9c6d93bd6",
+      "copy_hash": "030ad81f01f259b47d41d071515be409fa41380fd0d189d40406c912d0bd0d75",
+      "spec_hash": "d008855175be32e02b06d18b83f1cea2d2b3eaf04197844b6f9e71e30572e39a",
       "deliverable_ids": [
         "M1.1-NAR-05",
         "M1.1-NAR-05::CAPTIONS",
@@ -6616,7 +6616,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-      "line": 663,
+      "line": 668,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -7037,7 +7037,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-      "line": 695,
+      "line": 700,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7080,8 +7080,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        766,
-        770
+        771,
+        775
       ],
       "source_text": "„Sorold a mondatokat a két kategória egyikébe.\nA **Megfigyeléshez** kerüljenek azok, amiket egy kamera is rögzítene.\nAz **Értelmezéshez** azok, amelyek inkább véleményt vagy címkét mondanak.”",
       "source_hash": "c8990ef4eb1263f4f2f2cac16d3b4a54c41714286c2177147c6a0ac6823b435a",
@@ -7113,7 +7113,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md",
-      "line": 813,
+      "line": 818,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7156,8 +7156,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        947,
-        952
+        952,
+        957
       ],
       "source_text": "„Köszi, hogy végigcsináltad ezt a leckét.\nMost már tudod, mi a különbség megfigyelés és címke között.\nEzt a következő peulán a kvucával élőben is kipróbáljátok.\nUtána megnézzük, hogyan lehet ebből **egy tiszta, rövid visszajelző mondatot** építeni – ez lesz az S–B–I.”",
       "source_hash": "b0a43c77a8fd0ba55cacb6f540692cd918b81a1cc92b69e4347f309fc2f93130",
@@ -7848,12 +7848,12 @@
         811,
         815
       ],
-      "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
-      "source_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
+      "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg leírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
+      "source_hash": "d439c0fc653f0847662f1fe2f0af345ab42bb1ad1b0e3c0a45eed2fece55224a",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
+      "copy_hash": "d439c0fc653f0847662f1fe2f0af345ab42bb1ad1b0e3c0a45eed2fece55224a",
       "spec_hash": "843e5fa236509d4975cfc845cf1a94851ca1dafdc698b4fe23deec495155342b",
       "deliverable_ids": [
         "M1.3-NAR-04",
@@ -7994,12 +7994,12 @@
         1053,
         1057
       ],
-      "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
-      "source_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
+      "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és a beadandóban erre építhetsz.”",
+      "source_hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
+      "copy_hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
       "spec_hash": "5f1297a56f1aea7117259d8faa5964083f624fc5c0b2c9b86854672bb17b3a3d",
       "deliverable_ids": [
         "M1.3-NAR-06",
@@ -8680,12 +8680,12 @@
         431,
         435
       ],
-      "source_text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 1–2 mondatos SBI-visszajelzést.”",
-      "source_hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
+      "source_text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 2–3 mondatos SBI-visszajelzést.”",
+      "source_hash": "206cf4a7f301e8261059c805a9371ed4f87003c21b812e0f73b2bfa8e674488f",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
+      "copy_hash": "206cf4a7f301e8261059c805a9371ed4f87003c21b812e0f73b2bfa8e674488f",
       "spec_hash": "eec0cd18e69667b913a13d143574c69fc0ad7bfe5dd6b7d3d545c265cedf9c2b",
       "deliverable_ids": [
         "M1.4-NAR-03",
@@ -11250,7 +11250,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 348,
+      "line": 350,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -11316,7 +11316,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 523,
+      "line": 525,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -11382,7 +11382,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 216,
+      "line": 218,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -11448,7 +11448,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 485,
+      "line": 487,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -11514,7 +11514,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 63,
+      "line": 65,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -11581,7 +11581,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 596,
+      "line": 598,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -11648,7 +11648,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 254,
+      "line": 256,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -11691,8 +11691,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        321,
-        328
+        323,
+        330
       ],
       "source_text": "„Madrihként nagyon fontos vagy, de nem vagy mindenható.\nNem kell egyedül megoldanod mások problémáit.\n\nAzzal is példát mutatsz, ha tudod,\nmikor kell bevonnod a mentorodat – gyermekvédelmi ügyben pedig azonnal a Memunát –,\nés mikor mondod azt, hogy ‘ezt nem nekem kell egyedül megoldanom’. Ebből a hanihok is azt tanulják, hogy segítséget kérni rendben van – és vannak helyzetek, amikor szükséges is.”",
       "source_hash": "8d56e8a178fe4b26eecbd036c96a9e09d2c989ce20a7e4a3533bbbbb5da7da7e",
@@ -11724,7 +11724,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 386,
+      "line": 388,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -11767,8 +11767,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        464,
-        478
+        466,
+        480
       ],
       "source_text": "„Nem minden dolognak ugyanott a helye.\n\nA **privát** az, amit nem szeretnél megosztani a kvucával.\nEz maradhat szűk körben, a legközelebbi barátaiddal vagy családtagjaiddal, esetleg szakemberrel.\n\nA **személyes** az, amit megoszthatsz,\nhogy tudjatok kapcsolódni: példák, érzések, amik segítik a kapcsolódást.\n\nA **szakmai** rész azokból a keretekből és szabályokból áll,\namelyeket madrihként be kell tartanod: például a gyermekvédelmi lépésekből.\n\nAzzal is **személyes példát mutatsz**,\nahogyan különbséget teszel e három között.”",
       "source_hash": "291ae590c1d8114a9c13e3954dc7c6acedb50b7f46a3fa8c511b427b323b69df",
@@ -11800,7 +11800,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 707,
+      "line": 709,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -11843,8 +11843,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        798,
-        806
+        800,
+        808
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nA határaid tartása nem önzés, hanem **felelősség** –\nmagaddal és a hanihokkal szemben is.\n\nHa valamelyik rész nehéz volt, érdemes róla beszélni a mentoroddal.\nEzzel is azt mutatod, hogy segítséget kérni rendben van –\nés ez is fontos része a **személyes példamutatásnak**.”",
       "source_hash": "773624f25ab53bc1051e87a62222df88e5ccf04f3590f33450bff329b6e926b0",
@@ -11876,7 +11876,7 @@
       "module": "M2",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md",
-      "line": 102,
+      "line": 104,
       "kind": "video",
       "subtype": "explainer",
       "mode": "generate",
@@ -11926,8 +11926,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        169,
-        186
+        171,
+        188
       ],
       "source_text": "„Szia!\nKépzeld el, hogy már este van, ágyban vagy, holnap suli vagy munka,\nés egy 12 éves hanihod ír Messengeren:\n\n*‘Senki nem ért meg. Minden rossz.\nTe vagy az egyetlen, aki normális.’*\n\nMit érzel? Mit csinálsz?\n\nIlyenkor nagyon könnyű úgy érezni,\nhogy neked kell **mindent megoldani**.\n\nEbben a leckében azt nézzük meg,\nhogyan tudsz **segítő madrih lenni**,\núgy, hogy közben **vigyázol a saját határaidra és a hanih határaira** –\nés ezzel adsz **személyes példát** (dugma isit).”",
       "source_hash": "5529d532ce6f66f382f88dbc16a478d39ef0f441433eadc2f63278790b84261e",
@@ -16841,7 +16841,7 @@
       "notes": "Forrás: M4.1-VID-03/04/05; alt M4.1-FOTO-01::ALTTEXT; közös narráció M4.1-NAR-06. (A „karba tett kéz” póz a 3 jelenet szövegében nem szerepel explicit; a freeze-frame-et az IV-videókból kell előállítani, ezt a forrás maga is „az előző videókból” hivatkozza – SLIDE 4, „Mit látunk?”.) Az R8 kivezetve, helyette R2 + R5: a képpár nem valós felvétel, hanem az AI-generált karakterjelenetekből (M4.1-VID-03/04/05) kivett állókép, így az R8 „valós fotó/screenshot” kikötése nem alkalmazható. Az R5 szövege viszont épp ezt mondja ki („a freeze-frame-ek a videó-gyártás részeként”), az R2 pedig a forrásvideók AI-karakter jogtisztaságát viszi tovább az állóképre.",
       "review": "",
       "release_phase": "C",
-      "fallback": "Bal/jobb jelölésű szöveges leíró kártyák a SLIDE 4-en az asset leírása szerint (karba tett kéz vs. nyitott kéz és felsőtest), AI-címke nélkül; a freeze-frame a C fázisú karakterjelenet-videókkal (M4.1-VID-03/04/05) együtt készül (R5; Q-MED-1).",
+      "fallback": "Első/második jelölésű szöveges leíró kártyák a SLIDE 4-en az asset leírása szerint (karba tett kéz vs. nyitott kéz és felsőtest), AI-címke nélkül; a freeze-frame a C fázisú karakterjelenet-videókkal (M4.1-VID-03/04/05) együtt készül (R5; Q-MED-1).",
       "fallback_final": false,
       "source_ref": "",
       "composed_of": [],
@@ -16910,7 +16910,7 @@
       "notes": "Forrás: M4.1-VID-03/05; alt M4.1-FOTO-02::ALTTEXT. Az R8 kivezetve, helyette R2 + R5: a képpár nem valós felvétel, hanem az AI-generált karakterjelenetekből (M4.1-VID-03/04/05) kivett állókép, így az R8 „valós fotó/screenshot” kikötése nem alkalmazható. Az R5 szövege viszont épp ezt mondja ki („a freeze-frame-ek a videó-gyártás részeként”), az R2 pedig a forrásvideók AI-karakter jogtisztaságát viszi tovább az állóképre.",
       "review": "",
       "release_phase": "C",
-      "fallback": "Bal/jobb jelölésű szöveges leíró kártyák a SLIDE 4-en az asset leírása szerint (földre néz, kicsit befelé fordul vs. végignéz a csoporton, nyitott felsőtest), AI-címke nélkül; a freeze-frame a C fázisú karakterjelenet-videókkal (M4.1-VID-03/05) együtt készül (R5; Q-MED-1).",
+      "fallback": "Első/második jelölésű szöveges leíró kártyák a SLIDE 4-en az asset leírása szerint (földre néz, kicsit befelé fordul vs. végignéz a csoporton, nyitott felsőtest), AI-címke nélkül; a freeze-frame a C fázisú karakterjelenet-videókkal (M4.1-VID-03/05) együtt készül (R5; Q-MED-1).",
       "fallback_final": false,
       "source_ref": "",
       "composed_of": [],
@@ -19078,7 +19078,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md",
-      "line": 578,
+      "line": 583,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -19121,8 +19121,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        650,
-        664
+        655,
+        669
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
       "source_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
@@ -24760,12 +24760,12 @@
         394,
         413
       ],
-      "source_text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
-      "source_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
+      "source_text": "„Ismerj meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
+      "source_hash": "9185672631d25197c2d1e9ba6d1697524237d3f3b6c55ff23200263d70d0ec17",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
+      "copy_hash": "9185672631d25197c2d1e9ba6d1697524237d3f3b6c55ff23200263d70d0ec17",
       "spec_hash": "4a726fa50064c9a2dc7f463b000c2fa3f518efaf855ef484a823a4cfa5b7335a",
       "deliverable_ids": [
         "M6.2-VID-02",
@@ -25050,7 +25050,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 620,
+      "line": 625,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -25116,7 +25116,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 828,
+      "line": 833,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -25470,7 +25470,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 658,
+      "line": 663,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -25513,8 +25513,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        759,
-        794
+        764,
+        799
       ],
       "source_text": "„A ‘Személyes szimbólum-karkötő’\negy klasszikus kézműves feladat.\n\nNemcsak az a kérdés,\nhogy ‘szép lett-e a karkötő’,\nhanem hogy **mit jelentenek** az elemei.\n\nMit taníthat ez?\nÖnkifejezést: mi fontos nekem.\nIdentitást: milyen színek, jelek kapcsolódnak hozzám.\nÉs megosztást: el merem-e mondani, mit raktam rá.\n\nAz inkluzivitás szempontjából viszont\ntöbb dologra is figyelni kell.\n\nFinommotorika:\na nagyon apró gyöngyöket\nnem mindenki tudja kényelmesen fűzni.\nJó, ha van vastagabb zsinór, nagyobb gyöngy is.\n\nAnyagok:\nlehet valaki fémallergiás,\nvagy zavarja bizonyos anyag tapintása.\n\nKöltség:\nha a kézműves feladat eredménye azon is múlik,\nhogy ki milyen drága dolgot hoz otthonról,\nakkor könnyen lesz belőle **státuszverseny**.\n\nEzért fontosak a **variációk** is:\nha valakinek nem megy a fűzés, vagy nem akarja,\nkészíthet helyette egy rajzos **szimbólumkártyát**,\nvagy dolgozhat **párban** egy társával:\negyik fűz, másik segít kitalálni a jelentést.”",
       "source_hash": "7b73f86cea8b9e2bbe73f3ca0c08b29b836418027dce57dd04ed03fb31bb6d6a",
@@ -25546,7 +25546,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 866,
+      "line": 871,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -25589,8 +25589,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        968,
-        993
+        973,
+        998
       ],
       "source_text": "„A ‘Kvuca-zászló’ egy\nnagyon hatékony kézműves program lehet.\n\nNemcsak egy ‘szép tárgy’ a falon,\nhanem arról szól,\nhogy **kik vagyunk mi együtt**.\n\nTanít közös döntést:\nmit teszünk rá, mit nem.\nTanít felelősséget:\namit kiteszünk, azt vállaljuk,\naz minket képvisel.\n\nInkluzivitásnál itt a **szimbólumokra** kell nagyon figyelni.\n\nMilyen jeleket teszünk rá?\nNem bánt-e ez valakit a kvucából?\nNem csinálunk-e viccet valaki identitásából,\nkinézetéből, hátteréből?\n\nA zászló akkor tanít jól,\nha mindenki talál benne **saját részletet**,\nés senki nem érzi azt,\nhogy rajta röhög a kvuca.”",
       "source_hash": "2db3e67b6430b8b2154a17221905bbd5df601306880c174a1662401dcabd3a14",
@@ -25622,7 +25622,7 @@
       "module": "M6",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md",
-      "line": 1026,
+      "line": 1031,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -25665,8 +25665,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1113,
-        1129
+        1118,
+        1134
       ],
       "source_text": "„Most rajtad a sor.\n\nVálassz ki egy kézműves feladatot\n– akár a példák közül, akár a saját ötleteid közül –,\nés nézz rá a három kérdéssel:\n\n– Mit tanítson?\n– Kinek lehet nehéz, miért?\n– Hogyan tudnád variálni,\nhogy senki ne maradjon ki?\n\nA cél az, hogy a kézműveskedés\n**ne csak időkitöltő legyen**,\nhanem **tudatosan tanítson** valamit\negy konkrét kvucának.”",
       "source_hash": "3e0013892038168a216d14421d8ebd238f85090aa36bea6f02f0ac8cf5f59a70",
@@ -28692,9 +28692,9 @@
       "subtype": "narration",
       "mode": "generate",
       "status": "pending-rights",
-      "title": "OUTRO narráció – híd a Moodle Checklistre (SLIDE 6, opcionális)",
-      "purpose": "Átvezetés a konkrét Moodle Checklist-aktivitásra.",
-      "spec": "20–30 mp magyar narráció (opcionális): átvezetés a Moodle Checklistre; csak azt pipáld, ami ténylegesen kiderül; a hiányok kérdésként mehetnek a vezető felé; ugyanezt a saját Zmán Kvucáknál is használod.",
+      "title": "OUTRO narráció – híd a Zmán Kvucá-checklistre (SLIDE 6, opcionális)",
+      "purpose": "Átvezetés a Zmán Kvucá-checklistre.",
+      "spec": "20–30 mp magyar narráció (opcionális): átvezetés a Zmán Kvucá-checklistre; csak azt pipáld, ami ténylegesen kiderül; a hiányok kérdésként mehetnek a vezető felé; ugyanezt a saját Zmán Kvucáknál is használod.",
       "provenance": "ai",
       "provenance_note": "AI-generált narráció; kiadás előtt emberi szakmai lektorálás szükséges",
       "technical": {
@@ -28733,13 +28733,13 @@
         795,
         806
       ],
-      "source_text": "„Most egy Moodle Checklistben fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
-      "source_hash": "350be51ad2e61ec4600c0387a6020e11a500973caf113f40767cd7a7260b4dd9",
+      "source_text": "„Most egy checklisttel fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki a munkalapon vagy a jegyzetedben, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
+      "source_hash": "5f5d148adbe79bd7f3817c700dc8e4e0a8e691697a9551d836ba90153e644812",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "350be51ad2e61ec4600c0387a6020e11a500973caf113f40767cd7a7260b4dd9",
-      "spec_hash": "04893b131b49e85ea88b8035649ec6886abe48c8e489687cdfb470d9a5e96295",
+      "copy_hash": "5f5d148adbe79bd7f3817c700dc8e4e0a8e691697a9551d836ba90153e644812",
+      "spec_hash": "09f829fc9407c3d7ee5a375ac8ba701fc476fef3a555c807d5ba65f9803c6fab",
       "deliverable_ids": [
         "M7.3-NAR-05",
         "M7.3-NAR-05::CAPTIONS",
@@ -28847,7 +28847,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 229,
+      "line": 230,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -28913,7 +28913,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 349,
+      "line": 350,
       "kind": "icon-set",
       "subtype": "",
       "mode": "reuse",
@@ -28971,7 +28971,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 811,
+      "line": 813,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -29027,7 +29027,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 380,
+      "line": 381,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -29070,8 +29070,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        495,
-        500
+        496,
+        501
       ],
       "source_text": "„Most kiválasztasz egy kvucát,\nmegírod hozzá a kvuca-infókat és a SMART célt.\nNem dolgozatot kérünk – a lényeg, hogy **érthető legyen**,\nmilyen kvucára és milyen változást tervezel.”",
       "source_hash": "bc95c2f093cdd06c39d8ab7701c5c6dba44def2f7b3a1ac0437bb023ef1cadcc",
@@ -29103,7 +29103,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 637,
+      "line": 638,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -29146,8 +29146,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        719,
-        723
+        721,
+        725
       ],
       "source_text": "„Gratulálok, készen állsz a Peula v1-edre.\nMost írd meg a Moodle-beadandóban.\nAz M7.B műhelyben visszajelzések alapján tovább dolgozol rajta, és ebből készül a végleges, terepre vihető Peula v2.”",
       "source_hash": "50509520364058e39e604106d3801969ed525b0b03eaf8d31defc61d9c868f0f",
@@ -29179,7 +29179,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md",
-      "line": 118,
+      "line": 119,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -29226,8 +29226,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        183,
-        200
+        184,
+        201
       ],
       "source_text": "„Szia!\nLehet, hogy már láttál olyan peulatervet,\nami **papíron gyönyörű volt** –\nde 45 percbe nem fért bele,\nnem volt B-terv,\nés a biztonsági szempontok is bizonytalanok voltak.\n\nÉs olyan peulát is,\nami papíron nem volt ‘tökéletes’,\nde a cél világos volt,\na lépések reálisak,\nés **madrihként vállalhatónak érezted**.\n\nEbben a leckében egy ilyen,\n**vállalható peulavázat** rakunk össze –\nolyat, amit tényleg el tudnál képzelni, hogy megtartod Zmán Kvucában.”",
       "source_hash": "cb74bb01a7864ca34fa39e0222fa05a050dead22a90bcb9822e583660af72be3",
@@ -32833,8 +32833,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.1-NAR-05-VO",
-      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz gépelni, az is teljesen oké, ha csak magadban gondolod végig.”",
-      "text_hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
+      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz írni, az is teljesen oké, ha csak magadban gondolod végig.”",
+      "text_hash": "030ad81f01f259b47d41d071515be409fa41380fd0d189d40406c912d0bd0d75",
       "blockers": [
         "R2",
         "R3"
@@ -32857,8 +32857,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.1-NAR-05-VO",
-      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz gépelni, az is teljesen oké, ha csak magadban gondolod végig.”",
-      "text_hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
+      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz írni, az is teljesen oké, ha csak magadban gondolod végig.”",
+      "text_hash": "030ad81f01f259b47d41d071515be409fa41380fd0d189d40406c912d0bd0d75",
       "blockers": [
         "R2",
         "R3"
@@ -32881,8 +32881,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.1-NAR-05-VO",
-      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz gépelni, az is teljesen oké, ha csak magadban gondolod végig.”",
-      "text_hash": "357163e7eecfd58ed0aba70e9798b5bbcb2d1888a96a9ec5c3c89ae1f8d11341",
+      "text": "„Itt most nincs jó vagy rossz válasz.\nVálassz ki **egy** kérdést, és ha szeretnél, írj rá 2–3 mondatot.\nHa nem akarsz írni, az is teljesen oké, ha csak magadban gondolod végig.”",
+      "text_hash": "030ad81f01f259b47d41d071515be409fa41380fd0d189d40406c912d0bd0d75",
       "blockers": [
         "R2",
         "R3"
@@ -34213,8 +34213,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-04-VO",
-      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
-      "text_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
+      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg leírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
+      "text_hash": "d439c0fc653f0847662f1fe2f0af345ab42bb1ad1b0e3c0a45eed2fece55224a",
       "blockers": [
         "R2",
         "R3"
@@ -34237,8 +34237,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-04-VO",
-      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
-      "text_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
+      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg leírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
+      "text_hash": "d439c0fc653f0847662f1fe2f0af345ab42bb1ad1b0e3c0a45eed2fece55224a",
       "blockers": [
         "R2",
         "R3"
@@ -34261,8 +34261,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-04-VO",
-      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg beírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
-      "text_hash": "417ebdad19e0609ee65b133d784654c84015eba54b72eda47397f1488961f401",
+      "text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg leírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
+      "text_hash": "d439c0fc653f0847662f1fe2f0af345ab42bb1ad1b0e3c0a45eed2fece55224a",
       "blockers": [
         "R2",
         "R3"
@@ -34357,8 +34357,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-06-VO",
-      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
-      "text_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
+      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és a beadandóban erre építhetsz.”",
+      "text_hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
       "blockers": [
         "R2",
         "R3"
@@ -34381,8 +34381,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-06-VO",
-      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
-      "text_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
+      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és a beadandóban erre építhetsz.”",
+      "text_hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
       "blockers": [
         "R2",
         "R3"
@@ -34405,8 +34405,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-06-VO",
-      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és az Assignmentben erre építhetsz.”",
-      "text_hash": "ad3218992935260af8d9cf794b7635bfb3cbb5ca787b31f1b16d9510bbea517e",
+      "text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és a beadandóban erre építhetsz.”",
+      "text_hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
       "blockers": [
         "R2",
         "R3"
@@ -34923,8 +34923,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.4-NAR-03-VO",
-      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 1–2 mondatos SBI-visszajelzést.”",
-      "text_hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
+      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 2–3 mondatos SBI-visszajelzést.”",
+      "text_hash": "206cf4a7f301e8261059c805a9371ed4f87003c21b812e0f73b2bfa8e674488f",
       "blockers": [
         "R2",
         "R3"
@@ -34947,8 +34947,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.4-NAR-03-VO",
-      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 1–2 mondatos SBI-visszajelzést.”",
-      "text_hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
+      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 2–3 mondatos SBI-visszajelzést.”",
+      "text_hash": "206cf4a7f301e8261059c805a9371ed4f87003c21b812e0f73b2bfa8e674488f",
       "blockers": [
         "R2",
         "R3"
@@ -34971,8 +34971,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.4-NAR-03-VO",
-      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 1–2 mondatos SBI-visszajelzést.”",
-      "text_hash": "a40b8b25655b1a3b77140f8d60752b89b52493c7f52bbd649b33d9043efdef28",
+      "text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 2–3 mondatos SBI-visszajelzést.”",
+      "text_hash": "206cf4a7f301e8261059c805a9371ed4f87003c21b812e0f73b2bfa8e674488f",
       "blockers": [
         "R2",
         "R3"
@@ -46658,8 +46658,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-02-VO",
-      "text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
-      "text_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
+      "text": "„Ismerj meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
+      "text_hash": "9185672631d25197c2d1e9ba6d1697524237d3f3b6c55ff23200263d70d0ec17",
       "blockers": [
         "R2",
         "R3"
@@ -46682,8 +46682,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-02-VO",
-      "text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
-      "text_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
+      "text": "„Ismerj meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
+      "text_hash": "9185672631d25197c2d1e9ba6d1697524237d3f3b6c55ff23200263d70d0ec17",
       "blockers": [
         "R2",
         "R3"
@@ -46706,8 +46706,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-02-VO",
-      "text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
-      "text_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
+      "text": "„Ismerj meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
+      "text_hash": "9185672631d25197c2d1e9ba6d1697524237d3f3b6c55ff23200263d70d0ec17",
       "blockers": [
         "R2",
         "R3"
@@ -46730,8 +46730,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M6.2-VID-02-VO",
-      "text": "„Hallgass meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
-      "text_hash": "419886dc2fc50c7d6ed8121ebc46f9bf64eff9c6e9312852190a7a76591d35bc",
+      "text": "„Ismerj meg egy rövid történetet egy kvuca-alkalomról.\n\nTizenhárom évesek ülnek körben.\nRégi barátok, régi poénok.\nMost először jön egy új lány, Lili.\n\nA madrih kéri őket,\nhogy mondjanak egy jó dolgot a hetükről.\n\nLili kicsit zavarban van,\nde azt mondja: az jó,\nhogy anyukája elengedte ide.\n\nValaki halkan odaszól:\n‘Na, még egy kocka…’\nés a kör egy része kuncog.\n\nNézd meg, mi történik ezután.”",
+      "text_hash": "9185672631d25197c2d1e9ba6d1697524237d3f3b6c55ff23200263d70d0ec17",
       "blockers": [
         "R2",
         "R3"
@@ -49575,13 +49575,13 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md",
       "file_kind": "online-lecke",
-      "title": "OUTRO narráció – híd a Moodle Checklistre (SLIDE 6, opcionális)",
+      "title": "OUTRO narráció – híd a Zmán Kvucá-checklistre (SLIDE 6, opcionális)",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M7.3-NAR-05-VO",
-      "text": "„Most egy Moodle Checklistben fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
-      "text_hash": "350be51ad2e61ec4600c0387a6020e11a500973caf113f40767cd7a7260b4dd9",
+      "text": "„Most egy checklisttel fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki a munkalapon vagy a jegyzetedben, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
+      "text_hash": "5f5d148adbe79bd7f3817c700dc8e4e0a8e691697a9551d836ba90153e644812",
       "blockers": [
         "R2",
         "R3"
@@ -49599,13 +49599,13 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md",
       "file_kind": "online-lecke",
-      "title": "OUTRO narráció – híd a Moodle Checklistre (SLIDE 6, opcionális) — felirat",
+      "title": "OUTRO narráció – híd a Zmán Kvucá-checklistre (SLIDE 6, opcionális) — felirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M7.3-NAR-05-VO",
-      "text": "„Most egy Moodle Checklistben fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
-      "text_hash": "350be51ad2e61ec4600c0387a6020e11a500973caf113f40767cd7a7260b4dd9",
+      "text": "„Most egy checklisttel fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki a munkalapon vagy a jegyzetedben, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
+      "text_hash": "5f5d148adbe79bd7f3817c700dc8e4e0a8e691697a9551d836ba90153e644812",
       "blockers": [
         "R2",
         "R3"
@@ -49623,13 +49623,13 @@
       "module": "M7",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md",
       "file_kind": "online-lecke",
-      "title": "OUTRO narráció – híd a Moodle Checklistre (SLIDE 6, opcionális) — leirat",
+      "title": "OUTRO narráció – híd a Zmán Kvucá-checklistre (SLIDE 6, opcionális) — leirat",
       "mode": "generate",
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M7.3-NAR-05-VO",
-      "text": "„Most egy Moodle Checklistben fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
-      "text_hash": "350be51ad2e61ec4600c0387a6020e11a500973caf113f40767cd7a7260b4dd9",
+      "text": "„Most egy checklisttel fogod végignézni\na péntek esti mintaprogramot a Zmán Kvucá-checklist 5 területe mentén.\n\nCsak azt pipáld ki a munkalapon vagy a jegyzetedben, ami **ténylegesen kiderül** a leírásból.\nAmi nem derül ki vagy kérdéses, azt hagyd üresen,\nés nyugodtan jelöld kérdésként a vezetőd felé.\n\nEz még csak gyakorlás –\nugyanezt a szemléletet fogod használni\na **saját Zmán Kvucáidnál** is.”",
+      "text_hash": "5f5d148adbe79bd7f3817c700dc8e4e0a8e691697a9551d836ba90153e644812",
       "blockers": [
         "R2",
         "R3"
