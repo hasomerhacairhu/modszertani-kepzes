@@ -2605,10 +2605,10 @@
       "id": "M3.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md",
-      "line": 814,
+      "line": 817,
       "body_lines": [
-        815,
-        819
+        818,
+        822
       ],
       "unit": "M3.4",
       "module": "M3",
@@ -15585,8 +15585,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        815,
-        819
+        818,
+        822
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMostanra van egy konkrétabb képed arról, mit csinál és mit nem csinál egy megbízható madrih.\nA modulproduktum-feladattal ezt fogod kipróbálni egy konkrét helyzeten keresztül.\nNe feledd: nem vagy egyedül – a cél az, hogy **együtt** tartsuk biztonságban a hanihokat.”",
       "source_hash": "a2a6ea86f26bb437e8eb5edfffccd4a53ec0ffba14a1e2fe8c131be6a5144ac4",
