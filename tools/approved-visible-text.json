@@ -109,8 +109,8 @@
       "sha256": "b4d331258f6ae03c300c9ef39f604a6bdbcf04d53db6b0cb16e2f98ceb2c441f"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "D-095 (D5-F028, AD-22, AD-32, A-14, A-15, 1.07, C4-1.22): drafts for the Memuna's / DPO's review",
-      "sha256": "970693e6a1d7737bf17fdd07d18516f33664b12abddd22e68afb322d6c370dba"
+      "reason": "D5-F047: D-095 round 2, M2.4 safeguarding frame in paragraphs (same words; draft for the Memuna's review)",
+      "sha256": "04df0bce431d1e33dc1ceb51d572f29d4a7f4a6b63521c9674c71cdf531b8260"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
       "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
