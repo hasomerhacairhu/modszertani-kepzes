@@ -61,20 +61,20 @@
       "sha256": "bdb89ff542face7b4dab4299b516883986d93c2399721bb22f62d13c38bf7d1f"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "85963f6a1418830ff743241dc69f62496cac44163bf356937a27025f36f0b982"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "789b0c23a31eed15afbfaf60ba51b60d9871b7133bf425fea927cc8ddb61387b"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
-      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
-      "sha256": "38504e94cf039bf88669b3f32a396e0e0dba8b18df2b4389fa2daa7ca9c4a867"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "a20537ee05429ecbba3a8d5f0e02bc0d575302e6b88b39818b44b5786e07d621"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "9edaa450c1bec9e0daa8cb5ddccb8f9e24c3702b25afaef4bdb583b8fbb5b488"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "f5bbb3adc09fc7c9a76b186d6950036ccd0eed1f21a4539d4c885334de16716b"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "9386b97e0f45fb351b33b18aaec013d14e79a8762d2c867fc162ff9f190ab995"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "46939abb0297cb9cfed8db2a86d72d575188c7bea94c2db18a4ac361a493266c"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md": {
       "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
@@ -97,20 +97,20 @@
       "sha256": "1eff252f462e23b2d73234a0151916cf24ff3dadb605e20be0d888e2e2a29583"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md": {
-      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
-      "sha256": "507cfffadd342153909e431e920e744f840b520f7accbda3ba1a846fa90cde6d"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "abbb445a749dee9f75cf7f1d0ad889d08665ea6d4bbfcb4c1948d188781d9841"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "2ed5ebad534cbf4b359664c4d5722b8f6bcc30db74b151f323f242980368f01a"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "a261263ca3c3568cc5bdec195d0bd95bc8f05441ba1de6ec1b22c9e0d84af53c"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "b4d331258f6ae03c300c9ef39f604a6bdbcf04d53db6b0cb16e2f98ceb2c441f"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "54b4090e7c363bda7f7bea9a1835ee546965a776dc35918fa443981ff193a0fd"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "D5-F047: D-095 round 2, M2.4 safeguarding frame in paragraphs (same words; draft for the Memuna's review)",
-      "sha256": "04df0bce431d1e33dc1ceb51d572f29d4a7f4a6b63521c9674c71cdf531b8260"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "855cb1a5f31d113b67f47fc887c18adc4848c10907bcdd5f69ab78a451044cca"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
       "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
@@ -133,20 +133,20 @@
       "sha256": "f335ba3cefd3e31062bf4d81e65f4790c5b3a638d443a000ef31ccc15189eb47"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
-      "sha256": "303b1a0a92ad234f73e39f2b18cccca435f88450fec15749d74c71467ada6035"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "358753ebe7b649ade6c306295f08fb269d5d806282d90b6e286e068520e51f3c"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "07dafb6c0a69d4f8d65398a75a470fc3fcbe51be6f77989c2f47ef8e0cbd4dd0"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "6f0d273edec5682c9e3dfc06d2325d15a1dad93bbc3a94f0747541c2c28812a7"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "1cb4a937a9c6d71072029a98dd2346953a9da07372593358e116497ccd87eed4"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "7e3b27d164aea1c55f5ba1a3e0512ced6fddca579148cbe4daa4ddce055446b5"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "D-095 (D5-F028, AD-22, AD-32, A-14, A-15, 1.07, C4-1.22): drafts for the Memuna's / DPO's review",
-      "sha256": "aa2fdd1c191eb5bae47b1d64250e296ab882f4f59c8a5c45b55556e1db5dee23"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "e786102737159ee8d5385be2349727e50c2fa081b73af0893749b9cc348c5926"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
       "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
@@ -165,20 +165,20 @@
       "sha256": "28e1a35437378b0b14e8e884d82a7655d96129ab05fd941d681e367de0fd1ae9"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "50b1b3f55f35a60406b2f460d95fb02bedacadad003718d6b8c0cced721c0ead"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "579c15d77ddcc8ddbb390f77038a86ca0d2ee43a5876974204d0ba47d9be11f4"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "743d11b3b8123ec48237ef65e6f4e99aacd4939c5b2201e73686b77b92078d11"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "7bb24ffc6fe462976cc2f664c17544bfd610a4adda737befb918f7f155fbdd8a"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "59e60d606e1fcac7c59780946df29207f6f08c0efe89a85602d15526c1d8601d"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "db8172b04384c96204600041bedf4b97926000e3d33399e16fc144551818d840"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "14da4d871a072bee1b1449b725f810ae529402fca9041f5fc32622039ac396f6"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "9d0e68f9bcc08ac4d47d49e8b2892ec002c6636413f9ae24b75611e22a56c08f"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
       "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",
@@ -201,20 +201,20 @@
       "sha256": "5dc0baf7e1b17633ee2d6a95dadc7ff17309efb48a6f49f3d5d06e72551e129c"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
-      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
-      "sha256": "e79d96da059bac042cb495f68c31b44aac4672f6d6532d0fcb20969cd44a0a9e"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "fab38d803a0f51771187df84bf0f3f55f01a395f2b627a2af80ef0bd57f01501"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
-      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
-      "sha256": "e69a8423f5c9fb0634112e51afe1ada0ce3d34c6587cc3af6a7f7e645dd2071e"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "efecf5429333515186491f8804aa25a81d8673a7822a72ae5d4a4072ddee3694"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
-      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
-      "sha256": "7acee3044f50f9a75160cb3c9dbfef2bf08f8adec9826c638f6274b3ac27eb48"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "d704addd7d2f63dc8066227e683efc59ec5f87cbeb9be636df673fd650e18367"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "856833c83ffd760902c1ef1c20091117faee5849a5dda4b36506b16bd5c57ad4"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "7d3747f8948f0ee3e9912f59062de63d3e58f49a9db95f77e2a4edac9f931548"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
@@ -237,20 +237,20 @@
       "sha256": "0b64ef527b9a8e4683f89437978ad26310253dd2c97668987300fcd4d29f7d7b"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md": {
-      "reason": "Célzott QA, M6 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M6:QA-BIZT-5 (GYV-17, a kötelező keret), M6:QA-BIZT-6 + QA-NYELV-2 (ADV-8), M6:QA-ERT-1 (ERT-31), M6:QA-IMPL-1 + QA-NYELV-8 (ERT-1, ERT-2), M6:QA-NYELV-1 (ERT-35), M6:QA-NYELV-3, QA-NYELV-4 (ADV-11), M6:QA-NYELV-9 (ADV-4, ERT-33), M6:QA-NYELV-10 (PRG-2), M6:QA-NYELV-11 (ADV-10)",
-      "sha256": "c6d31667576c395f402088b1360bd230ba5672d9454e004de92354c890b39091"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "bc02af1287e3e6d878330598cf8602ef7bcbfb7ccaff8e7d8803c7f37f45ddac"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "M5-F039, M5-F014, D5-F043, D5-F039, D5-F040, D5-F058: D-095 round 2 (the D-094c Phase 4b learner findings; owner decision D-095)",
-      "sha256": "f30a3f09ba352c3b6f9deebeac92f5b87e6dde137e89dbef72dcce7097ebb524"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "ca7f6e242703be99eccbfff7938e445f863878f378807b0a7ccb73b59a7f3d71"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "0e1e65edbb5e7a83441f4acbb1a8c00d478a94e2ab7dccc24f27286fccbdf7f1"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "90f2069e7d00347a76c54a14be4db79d95e9d7e53d8712d40b13fbb1867d2ead"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "ebbde76a1bfc745be6ca8ae788edee8d44a346c43fc3d74d69291e606b8f10ea"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "6262635979cbcac6e98244e0c6bbc491c38ca0699e3b37ca09328a12ee8275cd"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md": {
       "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
@@ -273,20 +273,20 @@
       "sha256": "dc39f62df6aad7d3d011f9b1711dc35f6786a99061b90ff6a3ae9e306d8be034"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "3ab0d79ed8753780e3ab29e3eba4b3ef6148b192b76a0be037b30924a616b134"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "9874e93ccbfd9b499198c42eb94a355516a3a291058e80c0bd1b695dc31603d3"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
-      "reason": "D-095 (D5-F015, D5-F026, D5-F030): design changes",
-      "sha256": "34b4e2521301b4def1678473ba539add2e43780728a1b6caa4647d681303d350"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "8e515cd35a8de83dbcdea6315fa1df2a77119aec66e7db679ee5c936b9629f51"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "e85cb7ce9d75630844fc9a705546386788f23a9aa73951e8e5e6f33e7b9245bf"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "97571890078af494d9f32416f0aa08106a740c15b671aefe574ca87929649e0e"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "17e83bb050374e4f298721116558f6f3757c0b558ca0e74c0c90f411435b7db6"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "ad1ce9fb3d18e2eb769c860fd33e1329a3697d32199b73fbf420e27befb8ab12"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md": {
       "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
