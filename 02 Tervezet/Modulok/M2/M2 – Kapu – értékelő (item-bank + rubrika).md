@@ -92,7 +92,7 @@ Tegyük fel, hogy a jegyzetedbe a „felelősség” értéket írod. Melyik meg
 
 ### Item 4 – Pillér a gyakorlatban (M2.3)
 
-Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mutat **leginkább dugma isitet a cionizmus pillérében**, ahogy az M2.3 tanítja?
+Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mutat **leginkább dugma isitet a cionizmus pillérében**, ahogy az M2.3 „Cionizmus – vita Izraelről” ága tanítja?
 
 - A) Gyorsan lezárod a témát, mert kínos, és áttérsz egy játékra.
 - B) Elmondod a saját, „helyes” véleményedet, lezárod vele a vitát, és nem kéred ki a többiek nézőpontját.
@@ -158,7 +158,7 @@ Az M2.4 központi gondolata, hogy a határtartás maga is **dugma isit**. Miért
 
 ### Item 10 – Humanista zsidóság helyzetben (M2.3)
 
-Közös hanukai programon valaki odaszól: *„Ez az egész zsidó dolog tök ciki.”* Egy másik hanih vallásos hangon leteremti, többen feszengeni kezdenek. Melyik viselkedés mutat **leginkább dugma isitet a humanista zsidóság pillérében**, ahogy az M2.3 tanítja?
+Közös hanukai programon valaki odaszól: *„Ez az egész zsidó dolog tök ciki.”* Egy másik hanih vallásos hangon leteremti, többen feszengeni kezdenek. Melyik viselkedés mutat **leginkább dugma isitet a humanista zsidóság pillérében**, ahogy az M2.3 „Humanista zsidóság – közös ünneplés” ága tanítja?
 
 - A) Igazat adsz a vallásos hanihnak, megmondod, hogy a hagyományt tisztelni kell, pont, és a többi élményt nem engeded szóhoz.
 - B) Gyorsan továbblépsz a programban, hogy oldódjon a kínos helyzet.

@@ -169,7 +169,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 - C) „Mindig a telefonodat nyomkodod.” *(általánosított viselkedés, ráadásul „mindig”)*
 - D) „A megbeszélésen, a vége felé…” *(ez S – szituáció)*
 
-**Visszajelzés:** Az I azt mondja el, **mit okozott benned / a csapatban**. Az „Idegesítő vagy” minősít, a „Mindig a telefonodat nyomkodod” általánosít („mindig”), „A megbeszélésen, a vége felé…” pedig a helyzetet jelöli – nem a hatást.
+**Visszajelzés:** Az I azt mondja el, **mit okozott benned / a csapatban**. Az „Idegesítő vagy” minősít, a „Mindig a telefonodat nyomkodod” általánosít („mindig”), „A megbeszélésen, a vége felé…” pedig a helyzetet jelöli – nem a hatást. Az I-t én-perspektívából is megfogalmazhatod („úgy éreztem…”): ilyenkor a saját érzésedet mondod el, és nem tényként állítod, mit gondol a másik.
 
 ***
 
