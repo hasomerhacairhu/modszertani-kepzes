@@ -1853,8 +1853,8 @@
       "unit": "M1.3",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
-      "hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
+      "text": "„Ez most **a te mondatod**.\nTalálj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
+      "hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
       "note": "",
       "for": "",
       "used_by": [
@@ -2485,10 +2485,10 @@
       "id": "M3.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md",
-      "line": 814,
+      "line": 818,
       "body_lines": [
-        815,
-        821
+        819,
+        825
       ],
       "unit": "M3.2",
       "module": "M3",
@@ -3571,10 +3571,10 @@
       "id": "M7.2-DIA-01-ALT",
       "kind": "alt-text",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 403,
+      "line": 401,
       "body_lines": [
-        404,
-        407
+        402,
+        405
       ],
       "unit": "M7.2",
       "module": "M7",
@@ -3591,10 +3591,10 @@
       "id": "M7.2-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 435,
+      "line": 433,
       "body_lines": [
-        436,
-        455
+        434,
+        453
       ],
       "unit": "M7.2",
       "module": "M7",
@@ -3611,10 +3611,10 @@
       "id": "M7.2-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 582,
+      "line": 580,
       "body_lines": [
-        583,
-        595
+        581,
+        593
       ],
       "unit": "M7.2",
       "module": "M7",
@@ -3631,10 +3631,10 @@
       "id": "M7.2-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 730,
+      "line": 728,
       "body_lines": [
-        731,
-        750
+        729,
+        748
       ],
       "unit": "M7.2",
       "module": "M7",
@@ -3651,10 +3651,10 @@
       "id": "M7.2-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 844,
+      "line": 842,
       "body_lines": [
-        845,
-        860
+        843,
+        858
       ],
       "unit": "M7.2",
       "module": "M7",
@@ -3671,10 +3671,10 @@
       "id": "M7.2-VID-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 264,
+      "line": 262,
       "body_lines": [
-        265,
-        279
+        263,
+        277
       ],
       "unit": "M7.2",
       "module": "M7",
@@ -4067,7 +4067,7 @@
       "module": "M0",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md",
-      "line": 221,
+      "line": 222,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -7921,12 +7921,12 @@
         901,
         908
       ],
-      "source_text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
-      "source_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
+      "source_text": "„Ez most **a te mondatod**.\nTalálj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
+      "source_hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
+      "copy_hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
       "spec_hash": "426dfb360de357dd92417c7901aecb8e9b715cb944b1d930a25e6e3bd608c868",
       "deliverable_ids": [
         "M1.3-NAR-05",
@@ -14280,8 +14280,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        815,
-        821
+        819,
+        825
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már jobban látod, hogy a Parparim, Kivsza és Leviatán kvucák\nmennyire különböző világban élnek.\nA következő lépés egy élő peula, ahol történeteken keresztül gyakoroljátok, hol tart egy kvuca.\nUtána azt nézzük meg, milyen red flag helyzetek jelenhetnek meg ezekben a kvucákban,\nés mit tehetsz első lépésként, hogy ne maradj egyedül velük.”",
       "source_hash": "e15618b3762a99a7a0b1db07ba94544b52c91d999137fc94d7e2677ba7f8927a",
@@ -19418,7 +19418,7 @@
       "module": "M4",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md",
-      "line": 763,
+      "line": 765,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -27556,7 +27556,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 308,
+      "line": 306,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -27622,7 +27622,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 602,
+      "line": 600,
       "kind": "icon-set",
       "subtype": "",
       "mode": "generate",
@@ -27688,7 +27688,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 464,
+      "line": 462,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -27754,7 +27754,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 346,
+      "line": 344,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -27797,8 +27797,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        436,
-        455
+        434,
+        453
       ],
       "source_text": "„Ez itt a **Peula 11 pontjának térképe**.\n\nAz első blokk az, amit **peula előtt** csinálsz:\nmegnézed a **témát és modult**,\npicit utánanézel a **háttérnek**,\nátgondolod, **melyik kvucának, mennyi időre, milyen helyszínre** írod a peulát,\nés írsz egy **SMART nevelési célt**.\n\nA második blokk az, amikor **megírod a peulát**:\nkitalálod a **módszereket és az élmény-blokkot**,\nösszerakod a **felépítést**,\nmegnézed, hogy **reális-e** időben és a kvucának,\nés írsz egy egyszerű **kelléklistát**.\n\nA harmadik blokk arról szól, hogy a peula **biztonságos legyen és fejlődni tudjon**:\nelőre gondolsz a **biztonságra és a gyermekvédelemre**,\nmég a megtartás előtt kérsz **visszajelzést és finomítasz**,\nutána pedig visszanézed, **mi működött, mi nem, és min változtatnál legközelebb**.”",
       "source_hash": "6738f0e89b7db0d0e8f8e8bbe099b1b4d4b02f2e71f657aede1edc77588d3583",
@@ -27830,7 +27830,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 502,
+      "line": 500,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -27873,8 +27873,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        583,
-        595
+        581,
+        593
       ],
       "source_text": "„Az **előkészítés** arról szól, hogy ne vakon lőj.\n\nElőször megnézed, mi a **téma és modul**.\nUtána pár percet rászánsz, hogy megértsd a téma **hátterét és altémáit**.\nÁtgondolod, **melyik kvucának, mennyi időre, milyen helyszínre** írod a peulát.\nÉs írsz egy **SMART nevelési célt**, ami nemcsak annyi, hogy\n‘legyen jó hangulat’, hanem valami konkrét változás.\n\nAI-t megkérhetsz, hogy segítsen altémákat kitalálni\nvagy egyszerűen elmagyarázni a fogalmat –\nde neveket, konkrét sztorikat akkor sem írsz be.”",
       "source_hash": "89423b67eae633e003b2661313f01e25ed002cbc794a7baf385d1a3a6d4d23a5",
@@ -27906,7 +27906,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 640,
+      "line": 638,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -27949,8 +27949,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        731,
-        750
+        729,
+        748
       ],
       "source_text": "„Amikor a peulát **megírod**, négy dolgot érdemes végiggondolni.\n\nElőször: milyen **módszer és élmény-blokk** segíti a célodat?\nUtána: hogyan néz ki a **felépítés** időben? Itt mindig\nugyanaz a **4 fázis** segít: **első a bevezetés vagy ráhangolás,\nmásodik az élmény vagy fő tevékenység, harmadik a feldolgozás vagy beszélgetés, negyedik a zárás.**\nEz a 4 lépcső a peula gerince – a játék az élmény-fázis,\nde a **cél a feldolgozásban** válik tudatossá, ezért egyik fázist sem hagyod ki.\n\nA **realitás-check** arról szól, hogy őszintén ránézel:\nműködni fog ez ennyi időben, ezzel a kvucával, ebben a térben?\n\nVégül egy egyszerű **kelléklista** – mire lesz szükséged,\nki hozza, hol lesz.\n\nAI-t használhatsz ötletelésre,\nde az, hogy mi illik a kvucádhoz,\nakkor is a te döntésed marad.”",
       "source_hash": "935abce0a9d5811f2ce1942be89610f03e11061052e161d8fe0725a3219450f4",
@@ -27982,7 +27982,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 757,
+      "line": 755,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -28025,8 +28025,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        845,
-        860
+        843,
+        858
       ],
       "source_text": "„A peula nem akkor ér véget, amikor szétszeditek a kört.\n\nA **biztonság és gyermekvédelem** arról szól, hogy előre végiggondolod,\nmilyen határhelyzetek, red flag-ek jöhetnek elő,\nés hogy ilyenkor az M3-ban tanult ötlépéses jelzési út szerint jársz el –\npéldául azonnal bevonod a Memunát, és nem maradsz egyedül a helyzetben.\n\nA **visszajelzés és finomhangolás** még a megtartás előtt segít, hogy ne egyedül gondolkodj,\nhanem kapj másik nézőpontot is.\n\nAz **utóreflexió és továbbfejlesztés** már a peula után jön:\nleírod, mi történt, mi működött, mi nem,\nés mit változtatnál a következő alkalomra.\nÍgy a tapasztalat tényleg visszakerül a következő tervedbe.”",
       "source_hash": "85e1c4d1cf75bc5c480bac63d25f27483be829376d3d80b97525f74da5eee71e",
@@ -28058,7 +28058,7 @@
       "module": "M7",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md",
-      "line": 201,
+      "line": 199,
       "kind": "video",
       "subtype": "ai-talking-head",
       "mode": "generate",
@@ -28105,8 +28105,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        265,
-        279
+        263,
+        277
       ],
       "source_text": "„Szia!\nVolt már olyan, hogy tartottál egy **nagyon jó, élvezetes játékot Zmán Kvucán**,\nde a végén nem nagyon tudtad megfogalmazni,\nhogy **mit értél el vele**?\n\nVagy olyan, hogy valaki hozott egy szuper játékot,\nde közben nem volt igazán **nevelési célja**,\nés **biztonság** szempontjából sem voltatok biztosak benne?\n\nEz a lecke arról szól, hogy **milyen 11 ponton érdemes végigmenni**,\namikor peulát írsz –\nés hogy **hol segíthet ebben az AI**,\nanélkül, hogy átvenné a helyedet.”",
       "source_hash": "6e25eb488337bc35d878d82eba93a6ce84bee850488f8638a5ec901e62fd787e",
@@ -29747,7 +29747,7 @@
       "status": "spec-ready",
       "title": "Zmán Kvucá-mini-checklist (kiscsoportos munkalap)",
       "purpose": "A kiscsoport ezzel futtatja végig a kiválasztott Peula v1-et az 5 Zmán Kvucá-területen; ez a Blokk 2 fő munkaeszköze, ami strukturálja a finomhangolást.",
-      "spec": "5 soros nyomtatható kiscsoportos checklist-munkalap, soronként két oszloppal: \"Mi az, ami már megvan a tervben?\" / \"Mi az, ami hiányzik, vagy nem elég konkrét?\". Az 5 sor a 4.2. blokk 2. lépése szerint: (1) Idő & helyszín (hossz, pontos hely, átvonulás másik helyszínre), (2) Létszám & madrih–hanih arány (kevesebb/több jön-e), (3) Anyagok, technika & B-terv (eső/eszközhiány/zaj), (4) Hozzáférhetőség & inkluzivitás (kerekesszékes/zajérzékeny/nyelvi akadály – eleve neki is az övé; a munkalapra és a tervbe csak csoportszintű, nem azonosító információ kerül), (5) Gyermekvédelem & határok (piros zászló, mit nem csinálsz, kihez fordulsz) – a forrásban szereplő segítő kérdésekkel.",
+      "spec": "5 soros nyomtatható kiscsoportos checklist-munkalap, soronként két oszloppal: \"Mi az, ami már megvan a tervben?\" / \"Mi az, ami hiányzik, vagy nem elég konkrét?\". Az 5 sor a 4.2. blokk 2. lépése szerint: (1) Idő & helyszín (hossz, pontos hely, átvonulás másik helyszínre), (2) Létszám & madrih–hanih arány (kevesebb/több jön-e), (3) Anyagok, technika & B-terv (eső/eszközhiány/zaj), (4) Hozzáférhetőség & inkluzivitás (kerekesszékkel közlekedő/zajérzékeny/nyelvi akadály – eleve neki is az övé; a munkalapra és a tervbe csak csoportszintű, nem azonosító információ kerül), (5) Gyermekvédelem & határok (piros zászló, mit nem csinálsz, kihez fordulsz) – a forrásban szereplő segítő kérdésekkel.",
       "provenance": "human",
       "provenance_note": "emberi-felvétel",
       "technical": {
@@ -29783,7 +29783,7 @@
       "alt_text": "",
       "alt_hash": "",
       "copy_hash": "",
-      "spec_hash": "4ec31fdf45e74aa47a26e60030d01b965692d681c0b8abd8dc4c22ed94b97fae",
+      "spec_hash": "31a5086291d7f3a3c994057971dbcc9ea2883d0d45056863ef8dd72428edc94e",
       "deliverable_ids": [
         "M7.B-MUNK-01",
         "M7.B-MUNK-01::PRINTPDF"
@@ -34285,8 +34285,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-05-VO",
-      "text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
-      "text_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
+      "text": "„Ez most **a te mondatod**.\nTalálj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
+      "text_hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
       "blockers": [
         "R2",
         "R3"
@@ -34309,8 +34309,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-05-VO",
-      "text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
-      "text_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
+      "text": "„Ez most **a te mondatod**.\nTalálj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
+      "text_hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
       "blockers": [
         "R2",
         "R3"
@@ -34333,8 +34333,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M1.3-NAR-05-VO",
-      "text": "„Ez most **a te mondatod**.\nGondolj egy helyzetre, ami eszedbe jut – vagy találj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
-      "text_hash": "5792a1e841d9903a7e801b0667bcbcae2a5fcaaabd1dd0162577362cbdb6f877",
+      "text": "„Ez most **a te mondatod**.\nTalálj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
+      "text_hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
       "blockers": [
         "R2",
         "R3"
