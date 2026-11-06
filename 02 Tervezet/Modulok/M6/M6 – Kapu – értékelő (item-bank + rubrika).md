@@ -332,7 +332,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > Elmeséled a történetet Liliről, az új lányról (egy újonnan érkezőt egy beszólás kicsit kirekeszt). Tudod, hogy a kvucában nemrég valakit tényleg kicsúfoltak. **Melyik feldolgozó kérdés a legbiztonságosabb és leginkább reflektív** ezután?
 
 **Opciók:**
-- A) „Láttál-e már olyat, hogy egy beszólás miatt valaki kívül érezte magát? (Nem kell nevet mondani.)” ✅
+- A) „Láttál-e már olyat, hogy egy beszólás miatt valaki kívül érezte magát? (Nem kell nevet mondani, és bárki indoklás nélkül passzolhat.)” ✅
 - B) „Ki volt itt a bunkó? Nevezzük meg!”
 - C) „Ugye mindannyian egyetértünk, hogy ilyet sosem csinálunk?”
 - D) „Szerintetek Lili túlreagálta?”
