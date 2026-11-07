@@ -1945,10 +1945,10 @@
       "id": "M1.4-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 146,
+      "line": 148,
       "body_lines": [
-        147,
-        150
+        149,
+        152
       ],
       "unit": "M1.4",
       "module": "M1",
@@ -1965,10 +1965,10 @@
       "id": "M1.4-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 298,
+      "line": 300,
       "body_lines": [
-        299,
-        304
+        301,
+        306
       ],
       "unit": "M1.4",
       "module": "M1",
@@ -1985,10 +1985,10 @@
       "id": "M1.4-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 432,
+      "line": 434,
       "body_lines": [
-        433,
-        437
+        435,
+        439
       ],
       "unit": "M1.4",
       "module": "M1",
@@ -8239,7 +8239,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 163,
+      "line": 165,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -8302,7 +8302,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 198,
+      "line": 200,
       "kind": "icon-set",
       "subtype": "",
       "mode": "reuse",
@@ -8360,7 +8360,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 45,
+      "line": 47,
       "kind": "illustration",
       "subtype": "",
       "mode": "generate",
@@ -8426,7 +8426,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 524,
+      "line": 526,
       "kind": "worksheet",
       "subtype": "",
       "mode": "generate",
@@ -8482,7 +8482,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 83,
+      "line": 85,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -8525,8 +8525,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        147,
-        150
+        149,
+        152
       ],
       "source_text": "„Itt három olyan helyzetet látsz, amit egy madrih bármikor átélhet.\nVálaszd ki azt, amelyikről **leginkább el tudnál képzelni egy beszélgetést**.”",
       "source_hash": "20106618f16757485a21b2b532246897f9d2b4f4468e4bd693ae2d279f698693",
@@ -8558,7 +8558,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 229,
+      "line": 231,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -8601,8 +8601,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        299,
-        304
+        301,
+        306
       ],
       "source_text": "„Csak emlékeztetőnek: az SBI-ben\n**S**: elmondod a szituációt – mikor, hol voltunk,\n**B**: elmondod a viselkedést – mit csinált a másik,\n**I**: elmondod a hatást – mit okozott benned vagy a csapatban.”",
       "source_hash": "089cf4e531b3c6cc7d68b6c09ac4487bcdce42f805dc24b0ac95ed7e032af6f9",
@@ -8634,7 +8634,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md",
-      "line": 374,
+      "line": 376,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -8677,8 +8677,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        433,
-        437
+        435,
+        439
       ],
       "source_text": "„Most már továbbléphetsz a beadandóhoz.\nVálassz ki egy szituációt – akár a három közül egyet, akár egy saját, kitalált helyzetet –\nés írj rá 2–3 mondatos SBI-visszajelzést.”",
       "source_hash": "206cf4a7f301e8261059c805a9371ed4f87003c21b812e0f73b2bfa8e674488f",
