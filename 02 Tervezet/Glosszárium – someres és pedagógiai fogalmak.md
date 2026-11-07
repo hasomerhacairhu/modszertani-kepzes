@@ -18,7 +18,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 ### bogrim (בוגרים)
 - **Jelentés:** „érettek / idősebbek”. **A 2025/26-os magyarországi oktatási tervben nem külön kvuca-korosztály neve**; a jelen tananyag aktuális korosztály-struktúrájában nem használjuk önálló 16+ csoportcímkeként.
 - **Írásmód (hivatalos):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
-- **Megjegyzés:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért a tanulói szövegben aktuális korosztálycímkeként nem használjuk.
+- **Korábbi alak:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért a tanulói szövegben aktuális korosztálycímkeként nem használjuk.
 
 ### dugma isit (דוגמא אישית)
 - **Jelentés:** személyes példamutatás; a hanihok abból tanulnak, amit a madrihon **élőben** látnak (nem távoli példakép / role model).
@@ -41,7 +41,8 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 - **Írásmód (hivatalos):** 🧑‍🏫 `hanih` – kisbetűs köznév, mondat elején nagybetűvel; a `somer.hu/kapcsolat` alakja (a Somer–Magyar szótár címszava „Hánih”).
 - **Korábbi alak:** `chanich` (toldalékolva: `chanichok` stb.) – a 2026-10-02-i projektgazdai döntés szerint gépileg migrálva.
 - **Toldalékolás (magyaros, hivatalos):** hanihok, hanihoknak, hanihhal, hanihoktól.
-- **Megjegyzés:** a magyar toldalékolás a domináns és kötelező. A héber többes (*hanihim*) a tananyagban nem használatos: az M0.2-ben korábban szereplő egyetlen héber többest a 2026-07-20-i lektori javítás magyar toldalékolásra cserélte.
+- **Megjegyzés:** a magyar toldalékolás a domináns és kötelező. A héber többes (*hanihim*) a tananyagban nem használatos.
+- **Korábbi alak:** az M0.2-ben korábban szereplő egyetlen héber többest a 2026-07-20-i lektori javítás magyar toldalékolásra cserélte.
 
 ### ken (קן)
 - **Jelentés:** „fészek” – a Hasomer Hacair helyi csoportja és fizikai klubhelyisége egyben.
