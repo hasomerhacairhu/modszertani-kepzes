@@ -9,8 +9,8 @@
       "sha256": "4063c32e2b157f29db1ca83f7619942e14382b6d74affd1f0e5702e051abceb0"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
-      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
-      "sha256": "93fd14a9add46be956b6fb4a57984c368f1695cbdab7e8853cb6d7d9dd8be78b"
+      "reason": "D095-4D-L02: the glossary's editor-history remarks moved to „Korábbi alak” lines, kept off the learner page by the manifest's rule (owner decision D-095)",
+      "sha256": "4b5c2df39e5e650f25dc99b88307a979380d5ae8e3cc17e5e46c90f760f97c0f"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
       "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
