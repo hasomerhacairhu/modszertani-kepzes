@@ -68,6 +68,7 @@ A mentori sorok a tanulónak rejtve maradnak; a mentor a kapupont („megerősí
 Ahol a kép leírása nem a lecke saját szövege, a képernyőolvasó ezt az alt-szöveget olvassa fel. A dekoratív kép
 alt-szövege üres.
 
+- **M0.4-ILL-01**: Egy madrih telefonnal a kezében; körülötte a négy online felület: csoportchat-buborékok, insta-sztori kör, privát üzenet és Moodle-komment.
 - **M0.4-POSZ-01**: Nyomtatható poszter: „3 egyszerű szabály – dugma isit online”: 1. „Amit nem olvasnék fel nagykörben, azt nem írom le privátban.” 2. „Gyermekvédelmi red flag online is red flag.” 3. „Nem vagyok éjjel-nappali ügyelet.”
 - **M1.1-IKO-01**: dekoratív kép, üres alt-szöveg.
 - **M1.1-ILL-02**: dekoratív kép, üres alt-szöveg.

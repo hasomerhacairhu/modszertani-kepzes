@@ -34,6 +34,13 @@ A kérdések és a projektgazda választásai (a választott opció címkéje sz
    választ a fiókhoz köti)
 7. „M5.4's assignment: should its final score be hidden from learners, as on M2's, M4's and M6's assignments? …” →
    „Hide it, like M2/M4/M6 (Recommended)”
+8. „M0.2 is now a Moodle lesson, and it stores each learner's answers to its 4 question pages. What should I record as
+   the DPO's decision (relayed by you)?” → „Like M0.1: 90 days, mentor (Recommended)” (az opció szövege: a válaszok
+   megőrzése a képzés vége után 90 nap, utána törlés vagy anonimizálás; csak a csoport mentora látja őket, más tanuló
+   soha; ugyanaz a modell, mint az M0.1 kérdőívénél)
+
+A BSPEC-10 (az M0.2 navigációs beállításai: a D-090 iránya, a builder ellenőrzött „config B” beállításai) az 1. válasz
+LMS-gazdai szerepe és a D-099 („i give you all”) alapján rögzül.
 
 ## Előzmény-döntések, amelyeket a 22. szakasz átvezet
 
