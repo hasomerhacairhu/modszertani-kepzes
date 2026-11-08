@@ -34,7 +34,7 @@ A modul végére a madrih…
    * Legalább **1 pillérhez** konkrét helyzet-példát hoz arra, hogyan akar **személyes példát mutatni** a kvucájának (a döntési fa egy ágát végigjátszva), a másik kettőt feltáró módon megismeri.
    * **Támogató elemek:** M2.3 (Somer 3 pillére – mini-kapszula), M2.B (értékek konkrét helyzetekben).
 4. **Határok és felelősség**
-   * 2–3 saját **határszabályt** megfogalmaz (online/offline).
+   * 3 saját **határszabályt** megfogalmaz (online/offline).
    * **Megfogalmazza, hogyan ad** ezekkel **példát** a hanihoknak a saját határaik védéséről.
    * **Támogató elemek:** M2.4 (privát–személyes–szakmai határok), M2.A (megosztási határok gyakorlása), M2.F (F-peula: javítás, ha a jegyzet a kapu küszöbe alatt maradt; fogalom-térkép).
 5. **Összegző írás**

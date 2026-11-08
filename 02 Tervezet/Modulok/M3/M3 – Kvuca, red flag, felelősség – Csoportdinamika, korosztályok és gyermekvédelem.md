@@ -126,7 +126,7 @@ A modul végére a résztvevő…
 * **Fókusz:**
   „Azzal is tanítok, amit **nem** csinálok – a határtartás maga is **dugma isit**.”
 * **Eszközök:**
-  * H5P Course Presentation (7 slide: Hook – 2×Input – Besorolás – Reflexió – Check – Modulproduktum)
+  * H5P Course Presentation (9 dia: Hook – 2×Input, ebből a SLIDE 3 három dián: 3A–3C – Besorolás – Reflexió – Check – Modulproduktum)
   * Húzásmentes besorolás (kártyánként egy H5P Multiple Choice elem egyválaszos módban) – „OK / Nem OK madrihként”
   * Moodle Assignment – modulproduktum (helyzetleírás) leadásához
 * **Tartalom röviden:**
@@ -207,7 +207,7 @@ A modul végére a résztvevő…
   1. **0–5’ – Ráhangolódás:**
      * Gyors kör: 1 szó a „gyermekvédelem” szóról; aki nem szeretne megszólalni, indoklás nélkül passzolhat.
   2. **5–25’ – Esetelemzés:**
-     * Kiscsoportok 1-1 **esetkártyát** kapnak (online zaklatás, önsértésgyanú, madrih–hanih határhelyzet stb.), és négy pont mentén elemzik: mi a red flag → mi az első mondat → mit nem tesz a madrih → kit von be.
+     * Kiscsoportok 1-1 **esetkártyát** kapnak (késő esti privát üzenet, online zaklatás, önsértésgyanú; a madrih–hanih határhelyzet a lépéstérkép gyors alkalmazásában jön), és négy pont mentén elemzik: mi a red flag → mi az első mondat → mit nem tesz a madrih → kit von be.
      * A csoportok az **elemzésüket** hozzák vissza, nem jelenetet mutatnak be.
   3. **25–40’ – Lépéstérkép:**
      * Közös plakáton az **M3.B ötlépéses lépéstérképe**: **1. Észreveszem, és komolyan veszem. 2. Meghallgatom, és nem ígérek teljes titoktartást. 3. Nem nyomozok, nem konfrontálok, és nem próbálom egyedül megoldani. 4. Azonnal bevonom a kijelölt Memunát (összeférhetetlenség esetén a név szerint kijelölt helyettesét). 5. Közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.**

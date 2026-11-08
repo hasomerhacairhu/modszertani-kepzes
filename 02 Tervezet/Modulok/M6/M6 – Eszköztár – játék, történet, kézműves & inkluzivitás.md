@@ -59,7 +59,7 @@ A modul végére a madrih…
      *(Főleg: M6.1, M6.3, M6.4, M6.B)*
 3. **Történet mint nevelési eszköz**
    * Érti, hogyan működik egy rövid történet **„tükörként”**: mit mutat a kvucának, milyen értéket hordoz.
-   * Felismeri a nyitott, nem szégyenítő feldolgozó kérdést, és egy történethez **2 ilyen kérdést** meg tud fogalmazni.
+   * Felismeri a nyitott, nem szégyenítő feldolgozó kérdést, és egy történethez **2 ilyen kérdést** meg tud fogalmazni *(formatív, nem kapuzott: a megfogalmazást az M6.2 és az M6.4 T-ágai gyakoroltatják)*.
      *(Főleg: M6.2, M6.4 (T-ágak), M6.B, M6.F)*
 4. **Kézműves, ami tanít is**
    * Fel tud sorolni legalább **2–3 egyszerű kézműves ötletet**, mindegyikhez 1–1 **nevelési fókuszt** (pl. együttműködés, identitás, felelősség, környezet).

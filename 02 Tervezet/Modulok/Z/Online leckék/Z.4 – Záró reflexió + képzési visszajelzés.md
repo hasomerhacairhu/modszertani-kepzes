@@ -271,16 +271,16 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > – és a következő lépéseid, valamint az, hogy kinek mondod el.
 
 > Az íved **üzenet a jövőbeli önmagadnak** is – ha szeretnéd megtartani, **másold ki magadnak a szöveget** (vagy nyomtasd ki a böngészőből), mielőtt beadod.
-> Utána nyomd meg a **„Beadás / Véglegesítés”** gombot.
+> Utána nyomd meg a **„Feladat leadása”** gombot.
 
 **Beadás gomb**
 
-* Moodle Assignment „Submit assignment / Beadás” – a háromrészes online szöveg (ha a tanuló a videós utat választotta, a videófájl) leadása. Nincs külön exportlépés: a saját példányról a tanuló maga gondoskodik másolással vagy nyomtatással.
+* Moodle Assignment „Submit assignment / Feladat leadása” – a háromrészes online szöveg (ha a tanuló a videós utat választotta, a videófájl) leadása. Nincs külön exportlépés: a saját példányról a tanuló maga gondoskodik másolással vagy nyomtatással.
 
 **Kis jelzés:**
 
 > Nem fogalmazásverseny, nem portfólió – ez **a te íved magadnak**.
-> A közös, élő lezárás a kvucával a **Z.A záró peula**; ez az ív arra **épít**, nem váltja ki.
+> A közös, élő lezárás a kvucával a **Z.A záró peula**. Ez az ív a peula **után** jön, és arra **épít**, de nem váltja ki a közös lezárást.
 
 ***
 
@@ -288,7 +288,7 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 
 **Szöveg a lépésen:**
 
-> ➜ A lecke után:
+> ➜ Hogyan tovább?
 
 1. Ha még nem tetted meg, véglegesítsd és add be a **„Záró reflexió + következő lépés”** ívedet (vagy, ha azt választottad, az abból felvett videót).
 2. Utána töltsd ki a **„Képzési visszajelzés – név nélkül”** kérdőívet.
@@ -310,6 +310,8 @@ Lehetőségek (a tanuló végiggondolja, nem rögzíti):
 > Töltsd ki és add be a **háromrészes záró reflexiós ívet**. Ha a kurzusban a videós beadás be van kapcsolva, és inkább beszélnél, helyette felvehetsz belőle egy **2–3 perces videót**, és azt adhatod be – ez választható lehetőség, nem kötelező. A videóhoz külön, önkéntes hozzájárulás kell: ha még nem vagy 18 éves, ezt a gondviselőddel együtt adjátok meg.
 
 > Az ív már a Z.1–Z.3-ban átgondolt dolgokra és a 3 kérdésre épül – itt most **leadod**, és ha szeretnéd, a beadás előtt még csiszolsz rajta.
+
+> A részletes írási útmutatót (a lépéseket, a három szakaszcímet és az önellenőrző kérdéseket) akkor látod, amikor elkezded a beadandót: a szövegmező fölött jelenik meg.
 
 > A záró reflexiód 3 kérdésre válaszoljon:
 
@@ -369,10 +371,14 @@ Ha a beadásban gyermekvédelmi feltárás vagy különleges adat jelenik meg:
 
 > A válaszok név nélkül jelennek meg a feldolgozásban. Ha veszélyről van szó, azt ne csak ebbe az űrlapba írd: azonnal vond be a Memunát. Csak az 1. kérdésre kötelező válaszolni, a többit kihagyhatod.
 
+**Szöveg a beküldés után (tanulónak; Moodle: a Feedback „Completion message” mezője, `page_after_submit`):**
+
+> Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva. Vagyis a Peula v2 nem a végállomás, hanem az **első bevetésed alapanyaga**. A pontos naptárt, a mentor-hozzárendelést és a dokumentálás formáját a képződ mondja meg.
+
 ### Javasolt kérdésstruktúra (rövid, hogy tényleg kitöltsék)
 
 1. **Általános elégedettség** – Likert (1–5); **Required**: ez az egyetlen kötelező kérdés (nem érzékeny, értelmezhető válasz; ERT-3)
-   > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrihként fejlődj?”
+   > „Mennyire érzed úgy, hogy **segített** ez a félév abban, hogy madrihként fejlődj? (1 = egyáltalán nem, 5 = nagyon)”
 2. **A 3 belépő-ígéret beváltása** – 3 külön Multiple choice kérdés (Igen / Részben / Nem), vagy 3 külön Multiple choice (Rated) kérdés 1–5-ös skálával (a Feedbackben nincs rács-kérdéstípus)
    > „Az **M0.1 leckében a program 3 ígéretet** adott neked. *(Most NEM a saját mondataidról van szó, amiket a reflexiós íven elővettél, hanem a képzéstől kapott 3 ígéretről; arra reflektálsz, beváltak-e.)* Mennyire érezted, hogy ezek **beváltak**?”
    > a) **Nem voltam egyedül** (volt kvuca / stáb / mentor, akire számíthattam).

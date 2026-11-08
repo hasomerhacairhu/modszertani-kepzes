@@ -125,7 +125,7 @@ A modul végére a résztvevő…
 * **Fókusz:**
   Modul-kapu előkészítése: legalább 1 használható SBI-szöveg megírása.
 * **Eszközök:**
-  H5P Course Presentation (felidéző mini-kvíz) + **Moodle Assignment** – szöveges beadó (online mező).
+  H5P Course Presentation (felidéző mini-kvíz) + **Moodle Assignment** – szöveges beadó (online mező vagy csatolt dokumentum).
 * **Tartalom röviden:**
   3 rövid szituáció (peula, kvuca, madrih-gyűlés) közül választ;
   instrukció: írjon 1 (max. 2) SBI-t (S – mikor/hol; B – mit csinált a másik; I – hogyan hatott az SBI írójára / a csoportra);

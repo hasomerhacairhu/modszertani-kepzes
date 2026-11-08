@@ -18,7 +18,7 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 ### bogrim (בוגרים)
 - **Jelentés:** „érettek / idősebbek”. **A 2025/26-os magyarországi oktatási tervben nem külön kvuca-korosztály neve**; a jelen tananyag aktuális korosztály-struktúrájában nem használjuk önálló 16+ csoportcímkeként.
 - **Írásmód (hivatalos):** kisbetűs köznév; magyar toldalékolás: bogrimra, bogrimmal.
-- **Megjegyzés:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért a tanulói szövegben aktuális korosztálycímkeként nem használjuk.
+- **Korábbi alak:** korábbi repo-verziókban a `Zorea` / 16+ külön csoportként szerepelt. Ez **nem része a 2025/26-os háromcsoportos felosztásnak**, ezért a tanulói szövegben aktuális korosztálycímkeként nem használjuk.
 
 ### dugma isit (דוגמא אישית)
 - **Jelentés:** személyes példamutatás; a hanihok abból tanulnak, amit a madrihon **élőben** látnak (nem távoli példakép / role model).
@@ -41,7 +41,8 @@ Sorrend: alfabetikus. Forma: **hivatalos magyar írásmód** · héber + szó sz
 - **Írásmód (hivatalos):** 🧑‍🏫 `hanih` – kisbetűs köznév, mondat elején nagybetűvel; a `somer.hu/kapcsolat` alakja (a Somer–Magyar szótár címszava „Hánih”).
 - **Korábbi alak:** `chanich` (toldalékolva: `chanichok` stb.) – a 2026-10-02-i projektgazdai döntés szerint gépileg migrálva.
 - **Toldalékolás (magyaros, hivatalos):** hanihok, hanihoknak, hanihhal, hanihoktól.
-- **Megjegyzés:** a magyar toldalékolás a domináns és kötelező. A héber többes (*hanihim*) a tananyagban nem használatos: az M0.2-ben korábban szereplő egyetlen héber többest a 2026-07-20-i lektori javítás magyar toldalékolásra cserélte.
+- **Megjegyzés:** a magyar toldalékolás a domináns és kötelező. A héber többes (*hanihim*) a tananyagban nem használatos.
+- **Korábbi alak:** az M0.2-ben korábban szereplő egyetlen héber többest a 2026-07-20-i lektori javítás magyar toldalékolásra cserélte.
 
 ### ken (קן)
 - **Jelentés:** „fészek” – a Hasomer Hacair helyi csoportja és fizikai klubhelyisége egyben.
@@ -112,7 +113,8 @@ Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései.
 | **Kivsza** | bárány/juh | **10–12** | 🐑 | kiskamasz |
 | **Leviatán** | cet/leviatán | **13–17** | 🐋 | tinédzser / idősebb hanihok |
 
-- **Figyelem:** 🧑‍🏫 a hivatalos alak `Leviatán`, hosszú á-val, a forrás szerint. Korábbi alak: `Leviatan` – a 2026-10-02-i projektgazdai döntés szerint gépileg migrálva.
+- **Figyelem:** 🧑‍🏫 a hivatalos alak `Leviatán`, hosszú á-val, a forrás szerint.
+- **Korábbi alak:** `Leviatan` – a 2026-10-02-i projektgazdai döntés szerint gépileg migrálva.
 - **Forrás és státusz:** 🧑‍🏫 a korosztály-besorolás forrása az **„Oktatási terv 2025/2026 – Hasomer Hacair Magyarország”** (Google Docs; a Somer „A Hasomer Hacair Ideológiai Kézikönyve” oldaláról „25/26 Oktatási terv” néven linkelve: https://docs.google.com/document/d/1L1zJJv0EcQxsOF9eaxwARrmS5Qh3XbUA1wla0A08hZE ; megtekintve 2026-10-02). A bevezető szerint: „Parparim (6-9)”, „Kivsza (10-12)”, „Leviatán (13-17)”. A tananyag ezt a háromcsoportos modellt alkalmazza: **projektgazdai döntés (2026-10-02, HUM-SOMER-02)**; utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi felelős. A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
 
 ---
@@ -175,11 +177,11 @@ A madrihképzés kanonikus minimum-gyermekvédelmi szabályrendszere (angolul: C
 Cél-megfogalmazási keret: **S**pecifikus, **M**érhető, **A**chievable (elérhető), **R**eleváns, **T**ime-bound (időhöz kötött). A tananyagban „someres módra” – a „még csak vágy, nem cél” állapotból konkrét, megfigyelhető nevelési céllá alakít. (M7)
 
 ### nonformális nevelés
-Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és kapcsolatalapú, a kvuca valóságához kötve. A someres pedagógia alapállása – „a Somer NEM suli”. A peula a tipikus nonformális egység.
+Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és kapcsolatalapú, a kvuca valóságához kötve. Az informális, spontán tanulástól a **tudatos, tervezett nevelési cél** választja el (M5.1). A someres pedagógia alapállása – „a Somer NEM suli”. A peula a tipikus nonformális egység.
 
 ### teljesítési kapu
 Olyan kapu, amely a modul teljesítését egy **előre rögzített teljesítési minimumhoz** köti (éles kapunál a továbblépést is), nem egyszeri „megbuktató vizsgához”. Lehet rubrika- vagy kvízalapú; a cél, hogy a szükséges tudás vagy készség ténylegesen meglegyen, és javítás után újra lehessen próbálni. A régebbi fejlesztői jegyzetekben előfordulhat a `mastery-kapu` angol-magyar keverék, de **tanulói nyelven a `teljesítési kapu` a kanonikus alak**.
-- **Puha kapu:** formatív, **nem blokkol**.
+- **Puha kapu:** formatív, **nem blokkol**: az eredménye nem zár el a továbblépéstől; ha beadandó is tartozik hozzá, a következő modul arra vár, hogy a mentor megerősítse: a beadás érdemi, nem üres.
 - **Éles kapu:** a minimumfeltétel és a szükséges emberi megerősítés teljesülése nélkül **nincs következő kapuzott tartalom**.
 - A két kaputípus definíciója itt és a `Program terv.md` §5-ben él (ott az is, melyik modul kapuja puha és melyiké éles); máshol erre hivatkozz.
 - **Próbálkozások:** **1 normál + 1 javító próbálkozás**; éles kapunál a javító próbálkozás a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele), puha kapunál (M2, M4) és a Z-nél automatikus; további próbálkozást a képző nyithat, kézzel. A completionhöz **a legjobb megerősített eredmény** számít. Egy már megszerzett teljesítés **nem romolhat vissza** önkéntes, gyakorló újrabeadástól; a legfrissebb próbálkozás visszajelzésként megmaradhat. A szabály a kapukra vonatkozik, a diagnosztikus, formatív kvízekre nem.

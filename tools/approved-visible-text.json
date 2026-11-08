@@ -5,316 +5,316 @@
       "sha256": "a817697bedb8235d0c779866454bd1f7a97cac7eccae6da1e50600d1b9f7df11"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "CB-C-0036 (HUM 20): projektgazdai döntés (D-039, D-040), M0.1 és M0.2 completion",
-      "sha256": "4063c32e2b157f29db1ca83f7619942e14382b6d74affd1f0e5702e051abceb0"
+      "reason": "D-098: HUM 21 row",
+      "sha256": "3357f69b89661ca448df9ef6623beddd38d32295b365555bd0e31fcd6aeb2b86"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "f24f7d6cfe44b5396bb88e39dd0b1691bbd377ed703c56c3e78365c0cff5110a"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "67091865ebf1b2f152b503a88b4b9e09f72703950d273a60268fd3d2804a8ed9"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
       "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
       "sha256": "5492fe1f17a8c7a67704cdcc7d2897deb0527c751197f73721eb02750965d40e"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "1d99da2e9d9e78251b4b6aedb2069bc170501d5737136c55eeb714c8bd5d5d93"
+      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
+      "sha256": "f4a9c61f147064cf269538fa3794360bccdae66e4494aeabfffcaf7f22efc1bf"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "7109ccf53173f81f1f9eb10608a6739b4e76e5565ad814b529ca8d838da3554f"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "58d7d5d4328de64da00f926acae81220cd4163530098b728493ec9d2f1dc5d83"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
       "sha256": "47ee249787444122b186638594540aaec6a9492938f1328bd142481edac8b0ff"
     },
     "02 Tervezet/Modulok/M0/M0 – Kickoff, keret, technika.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "fae7b8cc6975f0cc1d692c109d1e15ac0c2c0edac234c082266e14680c1fabd4"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "015e358dc4a7c021ae98633954d64fe7d9a00814f10d436758033813b250c76b"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.1 – Üdv a képzésben! – Éves útiterv & mi köze hozzám.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "600451873d793a6e10460e76e352738c1acab1bd3d573dfd60ae1b39b84fc97d"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "d56020209bf9bed0de5d2c49ec0b16e62a4aadf68eb778e59cc7a1e3ffd9d381"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.2 – Madrih, nem terapeuta – szerepek és elvárások.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "c3b6c76bb56b9bfd6afb43ac469322ab5a9e66a9a0348289f05b348f2ac0535f"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "d3adf028737068eddc819f6069b137bdc9f4edfe901f95051d9893140222fd33"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.3 – Hogyan működik a Moodle, H5P és a kapu.md": {
-      "reason": "Célzott QA, M0 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M0:QA-BIZT-1 (ADV-6), M0:QA-NYELV-1, M0:QA-NYELV-4 (PRG-1), M0:QA-NYELV-8, M0:QA-IMPL-1 (ERT-1), M0:QA-ERT-3 (ERT-11)",
-      "sha256": "310c9f826243b80f87df09e5a2d9d8f5a85d57ed3475013242d4b86afd8ce5bf"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "bbfc5c86cb3333a9e1cdcf3924c0c39e25104e3a3c038772e80534d19cce4396"
     },
     "02 Tervezet/Modulok/M0/Online leckék/M0.4 – Dugma isit az online térben + bemutatkozó fórum.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "e187f5730761736a803d50c9fe14f25fbaf808d548ed045ab1ff6b5d52d6ce75"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "7c3034bb176b933e76aec73f3c70b40b25886a441b401b160b8dc2e8cff69baa"
     },
     "02 Tervezet/Modulok/M0/Peulák/M0.A – Kickoff & ismerkedés + közös keret.md": {
-      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
-      "sha256": "55c279564f0cc05296fb533db9b451f4ccb07505bd3efee032ddb1d8a4d44012"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "a48f8bc8e50360dea94a8dc7be433e80c3a55f3a47f554f8979eed8cc655fa14"
     },
     "02 Tervezet/Modulok/M1/M1 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
-      "sha256": "b39440b6919b702d2d8fa0191f8daf040e588d8b5187a550047bf505e9ba1312"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "c0530edcea403366d405ec60b24a5f8daab2cd01db0e09599d0f07faa7edb195"
     },
     "02 Tervezet/Modulok/M1/M1 – Vakfolt, tükör, visszajelzés – Önismeret & visszajelzés – Johari + SBI.md": {
-      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
-      "sha256": "bdb89ff542face7b4dab4299b516883986d93c2399721bb22f62d13c38bf7d1f"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "aae717d78a16076eeeb3f7c7fc78acb2b1cb36c86283bce2e63bd3a4a1827408"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "5922ee7f1e18378907302374852e91f70a98c3892d4666b88ea58082b7f63f2a"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "0af983ae33e9c4d208486dfa121374d57271112495e4153c9ad3f89011f74a81"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M1-átvezetés (AP-2026-10-12-01): ADV-1, ADV-2, ADV-4, ADV-7, ADV-8, ADV-11, ERT-4, ERT-9, ERT-12, ERT-13, ERT-14, ERT-15, ERT-16, ERT-17, GYV-6, GYV-11, GYV-12, GYV-13, GYV-21, GYV-22, LMS-1, PRG-2, PRG-3, PRG-5, PRG-9, PRG-16, TERM-2, VO-1",
-      "sha256": "1b2ec56161f328376fa4dd238614bf0a90e6d026919f4f412cd2f3649c4b37d9"
+      "reason": "D-098: Z.3 model sentence (Phase 4e D8A-F002), M1.2 sentence 5 (C-059)",
+      "sha256": "bc72b365b737186dcc3e5aa0920b525a82465c2579b71d33872fcc97cd0c46ff"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "251bc6e607a52eeae6cac86ed7bd6b264b8c39fea925b23bfc490a954b7fb6aa"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "bceb76b82deeb68cdfbcbdbc2cf76c56c277e67033c89305a09bb7b26d288ba8"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
-      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
-      "sha256": "1adcec75907223d4f442988ee69a0cfa3696d282a304241bf598b563c50a378c"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "3bf84836cbf6c87392bb0e0bc5b38a4364a3cc832420138dfbd6856e0dd88628"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.A – Önismeret & Johari + megfigyelés vs. címkézés (45’).md": {
-      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
-      "sha256": "ce212923f2fc64df9d9c92f725bdcf73e49385c857ca638e08f7508b00afe434"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "305b6ef9a98eef33f0ec1967b2e4eadd4e99970b8540e684a266412dcabfffc9"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.B – SBI-lab – Smiley-tól a használható visszajelzésig (45’).md": {
-      "reason": "Célzott QA, M1 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M1:QA-BIZT-2 (GYV-12, GK 4.3), M1:QA-BIZT-4 (ADV-7), M1:QA-ERT-2 (ERT-13), M1:QA-ERT-5 (ERT-15), M1:QA-ERT-6 (ERT-16), M1:QA-ERT-7 (ERT-4), M1:QA-NYELV-1 + QA-NYELV-4 (ADV-2), M1:QA-NYELV-2 (GYV-6), M1:QA-NYELV-5 (ERT-13), M1:QA-NYELV-7 (GYV-21), M1:QA-NYELV-9 (VO-1)",
-      "sha256": "460b5b545668367e85d2efe23dd4453dbbe5da6d78ccd97dfe958f0490b6d2a0"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "c7feadefb67c87aabdc5a1a4236f774f62e9568bad35dd5994592c21ac2ec9fc"
     },
     "02 Tervezet/Modulok/M1/Peulák/M1.F – Felzárkóztató peula – Johari, megfigyelés és SBI egyben (45’).md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "0671c38498dc8d54ac87e971d56f6a2a63f45e15a3fb946f5e7ef93dcdd8a38f"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "921134d140b737ae2e576dafc52980584dab3d034302c8034f5c99ff7eac96ee"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "6b015ec517a5e9841f7c7c3f89250ad9847c22130c87608989ef54d6088fc154"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "e54defef0e076719cfa3365e92f2c395a93f048336a36a0fe616c6448d898eee"
     },
     "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "1eff252f462e23b2d73234a0151916cf24ff3dadb605e20be0d888e2e2a29583"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "302fd5716b61c5e2b346670d1e807f3624b2c7976b2ae98465f45334e7268331"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md": {
-      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
-      "sha256": "507cfffadd342153909e431e920e744f840b520f7accbda3ba1a846fa90cde6d"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "3075741b72fff7dec2653bf5c6fcc2df7e3f75474f73b72f537785fb9c99801a"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.2 – Értékeim mint iránytű.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M2-átvezetés (AP-2026-10-12-01): ADV-1, ADV-5, ADV-7, ADV-8, ADV-10, ADV-11, ADV-13, ERT-4, ERT-8, ERT-18, GYV-1, GYV-2, GYV-4, GYV-5, GYV-12, GYV-13, GYV-19, GYV-20, GYV-21, PRG-3, PRG-11, PRG-15, PRG-16, TERM-3, TERM-7, TERM-8",
-      "sha256": "2ed5ebad534cbf4b359664c4d5722b8f6bcc30db74b151f323f242980368f01a"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "ec975810e148940a49ab8ec0e28df63b5b8c4e2a1eb0488f67acd793ea867b97"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.3 – Somer 3 pillére – mini-kapszula.md": {
-      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
-      "sha256": "aa45c725020eb6224e61ed03067f3eb0679f2fa79954a6a0fa324527a7e6d896"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "510b47e4b640d4fdcb76156ee9cb92099bc382b7704a74916fa524a96e484ac5"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
-      "sha256": "add29ac91321c1fa63bb92ee162ee887b5e27a9772d9223d3649613cb259d7cc"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "1fff3bb74d5825d04e402e3ae4709daa7164b01d29dcd3adf2a42650976e8b6a"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
-      "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
-      "sha256": "fa2d643dbad43fecdec7e7f5df3620a47ff6acf1a3e2134c92f5c381b503298e"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "8f8b0ab1b94ff05f93657080060486970d0671c4cc339c2212d682a21da78706"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.B – Somer-értékek a gyakorlatban – döntések, amelyek tanítanak.md": {
-      "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
-      "sha256": "1162faf4fa5cc64b5eebd666fcdec4ff187d90df2132b0bc97e952219298aea0"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "caf0749dca752348aae7bcf3b18a3a84d9be833c78f35a9c8f5614ce1d92bbca"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.F – Felzárkóztató peula – Identitás, értékek, pillérek, személyes példamutatás (Study Lab).md": {
       "reason": "Célzott QA, M2 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M2:QA-BIZT-1 (GYV-4, GK 3.3/4.1), M2:QA-BIZT-8 (ADV-8), M2:QA-BIZT-9 (ADV-5), M2:QA-ERT-1 (TERM-8), M2:QA-ERT-4 (ADV-1), M2:QA-NYELV-3 + QA-NYELV-4 (GYV-1), M2:QA-NYELV-6 (GYV-20), M2:QA-NYELV-8 (GYV-21), M2:QA-NYELV-9 (PRG-15)",
       "sha256": "b8d1c90ec8245e6d007b93073361dca334fbc71a0f26f5d8ebee29007a6c335a"
     },
     "02 Tervezet/Modulok/M3/M3 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "8d09bd7f101016573afb4bcf254c541f272fa4d2a8ab0c34137990979fcab2c0"
+      "reason": "D-095 (D5-F028, AD-22, AD-32, A-14, A-15, 1.07, C4-1.22): drafts for the Memuna's / DPO's review",
+      "sha256": "873cd631e5e60d36e9ec434f90d4cb3335e325bb565df559436da525824fc1f8"
     },
     "02 Tervezet/Modulok/M3/M3 – Kvuca, red flag, felelősség – Csoportdinamika, korosztályok és gyermekvédelem.md": {
-      "reason": "GYV-11, JOG-1 (M1:QA15-BIZT-1, M3:QA15-BIZT-2): jogosult Memuna-eljárás as in HUM GYV-11; comma before hogy",
-      "sha256": "f335ba3cefd3e31062bf4d81e65f4790c5b3a638d443a000ef31ccc15189eb47"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "9e817dc7c509aa060e92b1b28c3c9db411ec6515730551f28fd85af4fda78802"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.1 – Történetek egy kvucáról – Tuckman-szakaszok felismerése.md": {
-      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
-      "sha256": "1e26396fe2130ebb1b92d8e61ca8dd2489acfee081bab8170c284a84f4877cb0"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "eb85881845d9f1128331d4b655fa9dd0323210a81fbf1105f4a7bd80822ae84e"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.2 – Parparim, Kivsza, Leviatán – 3 kvuca, 3 világ.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "6d69b5d554eb1cd22ab392fd4accf5202366487222492b3e47e39d035c858e5f"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "0ea7dfb5cce4cb824904262b7942f2315d46b12a0d018c55e8a2a1f824807332"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "518ad649e9697f64c333afd9abaff3a3011aac0fee34ccba94e49c59c88d73d0"
+      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
+      "sha256": "7e3b27d164aea1c55f5ba1a3e0512ced6fddca579148cbe4daa4ddce055446b5"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "4853142c01849b1f626739d8de55961e4032efbecb5136d32a601b6a4ff403d9"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "ca92e83d2f1007df11f01be2c9a491f228d926ddf10939bc78816d112768c868"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.A – Találd ki, hol tart a kvuca! – Történetek Tuckman szemüvegén át.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "62c8d00ea4c9576053ff0cd3480b691cc8bbeba178ae325d37e1c1a4280b3fbe"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "5583f26ae0ee57cc2930117891cb5a3e0926db878e7b223c28b4c25cf84a4060"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.B – Red flag vagy nem – Esetelemzés & lépéstérkép.md": {
       "reason": "KANON:QA17-IMPL-2, KANON:QA17-BIZT-2, KANON:QA17-IMPL-6, KANON:QA17-BIZT-6, KANON:QA17-BIZT-3, KANON:QA17-BIZT-4, M2:QA17-BIZT-5, KANON:QA17-IMPL-4, KANON:QA17-IMPL-5, M7:QA17-ERT-1, M3:QA17-ERT-2, QA17-NYELV-1..10, -12, -13: verifier-confirmed targeted QA of 8bb4d7d (D-11, D-15, D-16, D-23, D-03, D-06 transfer fixes)",
       "sha256": "e22ca45853a360500ed964eef95199352722220ff58b7fac755f3495d14c2c99"
     },
     "02 Tervezet/Modulok/M3/Peulák/M3.F – Felzárkóztató peula – Kvucadinamika & gyermekvédelem (Study Lab).md": {
-      "reason": "M3:QA-BIZT-3, M3:QA-ERT-1, M3:QA-ERT-2, M3:QA-ERT-3, M3:QA-ERT-4, M3:QA-NYELV-2, M3:QA-NYELV-3, M3:QA-NYELV-5, M3:QA-NYELV-6, M3:QA-NYELV-7, M3:QA-NYELV-8, M3:QA-NYELV-10, M3:QA-NYELV-11 (GYV-11, ERT-5, ERT-21, PRG-2, ADV-11, PRG-5): verifier-confirmed targeted QA fixes after ce04b9c",
-      "sha256": "b60fff2e6d98b6a27b3b8c05788f0b1535d8e78178fd7470ba7c52c40dc9733f"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "16bb715253ee50b3a7798d2e8c18bc9675477cb79158e9af3a6e607e284dafe9"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
-      "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",
-      "sha256": "28e1a35437378b0b14e8e884d82a7655d96129ab05fd941d681e367de0fd1ae9"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "c19a80b40cd65b25cfeef0805f77a32fa6ef22f61e6176c8ec272f26255ac82c"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
-      "reason": "D-03, D-06, D-08, D-11, D-12, D-13, D-15, D-16, D-19, D-22, D-23 (HUM 15); M3:QA17-PED-1, M2:QA17-PED-2, M1:QA17-PED-3: owner decisions of 2026-10-13 within owner competence, verifier-confirmed; PRG-1, GYV-20, PRG-5 consistency",
-      "sha256": "2f48237dc180a59d5c6e33dd72fa7669fb1e29e0a5b18904ec661e29f93a74ba"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "36f7508edc404a0c3748bf1e533cd530a19172f9890b707cd37ee36f9ae64f51"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "08e3cf4f89019d84a9825b7ec37cfcc41135d03a2c03a58faa67c054e342cd18"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "899ce26b8800295e62e8371af1720cfdbf001028755bc7aa01f5691c8422a222"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.3 – Kérdezési minták – nyitott, zárt, tisztázó, irányító kérdések.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "6f82d4b6cc6c645760cb572afb31f02fa21750d968c14051f098544e7d211c78"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "73341e5df88195e5746451a8dc5825437c5dfde904792295f124f0560418476a"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
-      "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",
-      "sha256": "f51524577da754084c742a88ce87d7559851490e9823dc3e9dfbed44977c1e7a"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "beb9179b2789ecca3efda01077ce8f49c56e5ea34ed26ca96d7ac17caa6897a1"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
-      "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",
-      "sha256": "6550d4e1d5080eccb0ce1e8e21917695b0ad8359e1a3bec52343ba32302c3e31"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "ea8c0895de7fb9df03beab08c84f33c441f3ddec6e93665855ac4d1f74a4b5e9"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.B – Mit és hogyan kérdezek – Kérdezés & peulabemutató gyakorlása.md": {
       "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",
       "sha256": "c82094d6bb96efe7ee7ee7d4d8f8d0c2209eedc18743bd9f12e16724d9416a16"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.F – Felzárkóztató peula – Test, hang, kérdések & peulabemutató (Study Lab).md": {
-      "reason": "Célzott QA, M4 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M4:QA-BIZT-2 (ADV-1), M4:QA-BIZT-6 (ADV-7), M4:QA-BIZT-7 (GYV-6), M4:QA-ERT-4 (ERT-8), M4:QA-NYELV-8 (ADV-11), M4:QA-IMPL-1 + QA-NYELV-10 (LMS-1, ADV-10), M4:QA-ERT-1 (ERT-8), M4:QA-NYELV-3 (ADV-3), M4:QA-NYELV-4 (ERT-24)",
-      "sha256": "e1ed6bb08f9fbc3813db110a06404cd2f2b7f81edfad7edda8a79f44212153d2"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "75f6ed095606107d5b503881979459818b0f2a74a5012861b8967edaaf4ade02"
     },
     "02 Tervezet/Modulok/M5/M5 – Ez most játék vagy tanulás – Nonformális nevelés, módszerválasztás & tanulástan.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "6f2e4c089a5d69aec249c485d4a519b527145493de86cdb2287108aad1ca5976"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "629014ef891d54b9479504934401d9ba5766788c8aa4a54257d819d7209ccd73"
     },
     "02 Tervezet/Modulok/M5/M5 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "5dc0baf7e1b17633ee2d6a95dadc7ff17309efb48a6f49f3d5d06e72551e129c"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "08239fc6e97bbbcb6edf21c778d32ccecc10047ff8710f7abbbecf7d9fbb7e0b"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.1 – Mi a nonformális nevelés – Suli, Somer, random.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "ad960415b51cde2cfbb89dcabdd10fd0c948fe8eb1187a2e9c4b163d7c3cffdc"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "d959a6f1e293d6dbc0b22f5c10a9771c92ca6eb5275266736ae79f18de38a02b"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.2 – Feladat → módszer döntési fa – Mit választok először.md": {
-      "reason": "Célzott QA, M5 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M5:QA-BIZT-1 + QA-NYELV-7 (ADV-11), M5:QA-ERT-2, M5:QA-NYELV-4 (ERT-26), M5:QA-ERT-4, M5:QA-NYELV-5 (ERT-1), M5:QA-IMPL-1 (ERT-29), M5:QA-NYELV-3 (ERT-6), M5:QA-NYELV-6 (ADV-8), M5:QA-NYELV-8 (ADV-9)",
-      "sha256": "12fc38b8210bafc4b35e8364cdf59ab76db1d7587abd5d1b48e8756038da5115"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "7247de70f5930db441cb8c7a0a3995b3e781074c0e1763c68e7994b104487375"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.3 – Hogyan tanulunk tényleg – Gyakorlás, aktív felidézés, időben elosztott gyakorlás.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
-      "sha256": "524c0fd8978b328afbeafbb94e1eb2a4900d0f6626313d9435aa719acf205edc"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "1f26020dc4e0e50c279c22eeeabdce0af69e3788629c80ad707ae6d9a2fe56e6"
     },
     "02 Tervezet/Modulok/M5/Online leckék/M5.4 – Cél–kvuca–módszer mini-táblázat – saját adatbázisod madrihként.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "74eb68c595e0b6eb431e1dd001fd0fa393c8e2ae3f2e73b27b9819049d8e93af"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "00f0e2b9b9b59a4b69b9ca0ca4c58927a1aad7633d5df5adaba3cad5d57ea114"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.A – Suli, Somer vagy random – Hol tanulunk és hogyan.md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
       "sha256": "4558aaf2c408e36ad527e4a0798027f2d37be2076fd1e1d1f93aadf1d6adb15e"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.B – Tervezek egy nonformális peula-részletet – hogy tényleg tanuljunk is.md": {
-      "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M5-átvezetés (AP-2026-10-12-01): ADV-1, ADV-4, ADV-7, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-3, ERT-6, ERT-26, ERT-27, ERT-29, GYV-6, GYV-7, LMS-3, PRG-5, PRG-7, PRG-10, PRG-13",
-      "sha256": "a96da437ec407b2b0dd59ed0279dae99d93ae4929ba606f481563dc346765757"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "edc18933af7a806957960ab8703a20dd7dc646f7f2050d4987e7b97177e3491d"
     },
     "02 Tervezet/Modulok/M5/Peulák/M5.F – Felzárkóztató peula – Suli, Somer & tanulástan (Study Lab).md": {
-      "reason": "Célzott QA, M5 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M5:QA-BIZT-1 + QA-NYELV-7 (ADV-11), M5:QA-ERT-2, M5:QA-NYELV-4 (ERT-26), M5:QA-ERT-4, M5:QA-NYELV-5 (ERT-1), M5:QA-IMPL-1 (ERT-29), M5:QA-NYELV-3 (ERT-6), M5:QA-NYELV-6 (ADV-8), M5:QA-NYELV-8 (ADV-9)",
-      "sha256": "aab90786e98023d4076f8894320ced2990e3bac42ef33a9b838059135a30e373"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "dd8a93624117fa3133d8d6616485c30442c3c05aad37c60fc06edd1355e717a6"
     },
     "02 Tervezet/Modulok/M6/M6 – Eszköztár – játék, történet, kézműves & inkluzivitás.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "1f495fc68765d1e54f9a41b5f2474785993dc10f7f22ac58e32a93c1b0e4cc76"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "355f0bdb4623283f3d5559043d27d766911ed1121bedddc9c9ec857d674466c6"
     },
     "02 Tervezet/Modulok/M6/M6 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "2b7be7caa39ff86badedf2028bad18a7159501bb25c6172e4086850f7d3f5ef1"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "6acb2149dbcf3ae95b0c6613df1a1912e5330323c89c956c77bc2295a0241539"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.1 – Játék-kategóriák 3 aktuális kvucára.md": {
-      "reason": "Célzott QA, M6 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M6:QA-BIZT-5 (GYV-17, a kötelező keret), M6:QA-BIZT-6 + QA-NYELV-2 (ADV-8), M6:QA-ERT-1 (ERT-31), M6:QA-IMPL-1 + QA-NYELV-8 (ERT-1, ERT-2), M6:QA-NYELV-1 (ERT-35), M6:QA-NYELV-3, QA-NYELV-4 (ADV-11), M6:QA-NYELV-9 (ADV-4, ERT-33), M6:QA-NYELV-10 (PRG-2), M6:QA-NYELV-11 (ADV-10)",
-      "sha256": "c6d31667576c395f402088b1360bd230ba5672d9454e004de92354c890b39091"
+      "reason": "D095-4D-L84: M6.1–M6.3 send the learner to the lesson's end (owner decision D-095)",
+      "sha256": "fe4b2037ec26792a0d6e93749b79317c3a251eac3a2b6230708552e39256310d"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.2 – Történet, mint tükör.md": {
-      "reason": "Célzott QA, M6 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M6:QA-BIZT-5 (GYV-17, a kötelező keret), M6:QA-BIZT-6 + QA-NYELV-2 (ADV-8), M6:QA-ERT-1 (ERT-31), M6:QA-IMPL-1 + QA-NYELV-8 (ERT-1, ERT-2), M6:QA-NYELV-1 (ERT-35), M6:QA-NYELV-3, QA-NYELV-4 (ADV-11), M6:QA-NYELV-9 (ADV-4, ERT-33), M6:QA-NYELV-10 (PRG-2), M6:QA-NYELV-11 (ADV-10)",
-      "sha256": "6fd45c9f4a6520d146216b7f008bd4b277bc8c09f374a26f8fb92badc1ba31c3"
+      "reason": "D095-4D-L84: M6.1–M6.3 send the learner to the lesson's end (owner decision D-095)",
+      "sha256": "f5a9449ae67ea7a79fbad341ad825a0c663d42ecf567db6c80b40e5b97a2531a"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "ecbf1ee8b38daf5bd6329bac45be2ce31c11097a4a1fd2733ada7fb42ef621fb"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "e39e9ea40afb8481307c95ee17bd4406612f34f1e24f6a3ebcca2d9cf7151f1b"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
-      "reason": "Célzott QA, M6 (AP-2026-10-12-01), verifier által MEGERŐSÍTVE: M6:QA-BIZT-5 (GYV-17, a kötelező keret), M6:QA-BIZT-6 + QA-NYELV-2 (ADV-8), M6:QA-ERT-1 (ERT-31), M6:QA-IMPL-1 + QA-NYELV-8 (ERT-1, ERT-2), M6:QA-NYELV-1 (ERT-35), M6:QA-NYELV-3, QA-NYELV-4 (ADV-11), M6:QA-NYELV-9 (ADV-4, ERT-33), M6:QA-NYELV-10 (PRG-2), M6:QA-NYELV-11 (ADV-10)",
-      "sha256": "dd5e8ddbf65e4297f6fcccdd4242e122bd89dde91e73b7d0c8f9aa7b3ffdc88f"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "2cf3b154e49b3d5dce620ac83b9cacece84c38e285e97231d9332728f7733264"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.A – Peula – Játék-labor 3 aktuális kvucára (45’).md": {
-      "reason": "LMS-2, GYV-5, GYV-11, GYV-19, JOG-1, ERT-40, ERT-5 (M3:QA14-IMPL-1, M3:IMPL-G2-2, M6:QA14-BIZT-4, M1:QA14-BIZT-5, M2:QA14-BIZT-3, M3:BIZT-G1-8, M7:QA14-ERT-1b): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "82f406d9322cf3f90b0f61c20c446892d2763fc07576f3ba6a6d3b29542bdad7"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "d56ed50d8aeb0568a7e7866df8e9e916fe2696792d1d3ee891308f062ce10824"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.B – Peula – Játéklap-műhely – saját eszköz tervezése (45’).md": {
       "reason": "Projektgazdai döntés 2026-10-12, HUM 14. szakasz, M6-átvezetés (AP-2026-10-12-01): ADV-4, ADV-8, ADV-9, ADV-10, ADV-11, ERT-1, ERT-2, ERT-6, ERT-9, ERT-31, ERT-33, ERT-34, ERT-35, ERT-37, GYV-5, GYV-7, GYV-16, GYV-17, GYV-18, LMS-4, PRG-2, PRG-7, PRG-13, PRG-16",
       "sha256": "91eb6e91e79f327837feafea3129e9ec3fdbd193a66d2656cad4f3e4e711a3a5"
     },
     "02 Tervezet/Modulok/M6/Peulák/M6.F – Felzárkóztató peula – Eszköztár & játéklap (Study Lab).md": {
-      "reason": "ADV-1, ADV-5, PRG-5 (KANON:QA14-BIZT-1, M1:BIZT-G2-4, M2:BIZT-G2-3, M7:BIZT-G1-6, M3:ERT-G3-10): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "cbfb3e6f55355627a07a3e40ea43d9cbe7ac6bdd2b98015340c8afeff695de52"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "12b6dcc2a8fc1bb06875abffa5606c6aed766929f60b2f583938930aa287d064"
     },
     "02 Tervezet/Modulok/M7/M7 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "059c508de294124848b76c88a3f41146d99bdfcb977a33bde4d4e9f8519372de"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "dc851b8ee6cafa4b37751ea44c3b557105ab79368d245e5520341121cef9c362"
     },
     "02 Tervezet/Modulok/M7/M7 – Peula a papírtól a valóságig – Programírás, Zmán Kvucá & AI-támogatott tervezés.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "dc39f62df6aad7d3d011f9b1711dc35f6786a99061b90ff6a3ae9e306d8be034"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "7438111c09f638eca303dfa78dbac5ea7fdb573d626395eeb8f163883ada9a9c"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.1 – Ez még csak vágy, nem cél – SMART nevelési cél someres módra.md": {
-      "reason": "ADV-1, ADV-5, PRG-5 (KANON:QA14-BIZT-1, M1:BIZT-G2-4, M2:BIZT-G2-3, M7:BIZT-G1-6, M3:ERT-G3-10): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "19a49e1ed63d47838b67f56655764d87a0cc2e57887a4eac68ec326da0306029"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "120548bdb5d86c6f315fd92ca0341dc962e5dc22934784ad38edb6f9cb7f84d6"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.2 – Nemcsak játék, hanem peula – 11 tervezési pont & AI-támogatás.md": {
-      "reason": "M7:QA-NYELV-2, M7:QA-ERT-3, M7:QA-ERT-1 (part), M7:QA-NYELV-7 (part), M7:QA-ERT-4 (part), M7:QA-BIZT-1 (part), M7:QA-NYELV-9, M7:QA-BIZT-3, M7:QA-BIZT-4, M7:QA-IMPL-1, M7:QA-IMPL-2, M7:QA-IMPL-3, M7:QA-BIZT-2 (part), M7:QA-BIZT-5 (part), M7:QA-NYELV-1 (PRG-6, ERT-40, ERT-41, ERT-44, GYV-10, LMS-8, ADV-3, ADV-11, ADV-12, ERT-46, LMS-5, GYV-6, GYV-7): verifier-confirmed targeted QA fixes after f6e9c6e",
-      "sha256": "37cc770bbee6ea448da6dfe65458bc43f8cb16620c0c40ebd1c9f3b157f5f861"
+      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
+      "sha256": "7f0f372c8b64c8a7256dc4ee2c234e0193048b5ec3cdddbca089628cb3d34b9a"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.3 – Zmán Kvucá-checklist – idő, tér, felelősség.md": {
-      "reason": "M7:QA-NYELV-2, M7:QA-ERT-3, M7:QA-ERT-1 (part), M7:QA-NYELV-7 (part), M7:QA-ERT-4 (part), M7:QA-BIZT-1 (part), M7:QA-NYELV-9, M7:QA-BIZT-3, M7:QA-BIZT-4, M7:QA-IMPL-1, M7:QA-IMPL-2, M7:QA-IMPL-3, M7:QA-BIZT-2 (part), M7:QA-BIZT-5 (part), M7:QA-NYELV-1 (PRG-6, ERT-40, ERT-41, ERT-44, GYV-10, LMS-8, ADV-3, ADV-11, ADV-12, ERT-46, LMS-5, GYV-6, GYV-7): verifier-confirmed targeted QA fixes after f6e9c6e",
-      "sha256": "f39f640a2bb4a8a1681b1fe92914d4e0fe9e858b70d9393220768fbea1b43b24"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "3b170e68472a89828098e4c8569ad54d4329ae2248be8c55b5d987b982f0a505"
     },
     "02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "05effaa5eed37e5ae567da53538d9109f45c3a85920235bd1dae0ad5bc148ade"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "fea046658e980aed80639010d7a868df6a9b0e73f435993710a0a7da22cdd4a0"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.A – Célból peula – SMART & 11 pont élőben.md": {
-      "reason": "ADV-2, ADV-3, ADV-5, ADV-10, ADV-11, ADV-12, ERT-1, ERT-2, ERT-5, ERT-40, ERT-41, ERT-44, ERT-45, ERT-46, ERT-47, ERT-48, ERT-49, ERT-50, GYV-6, GYV-7, GYV-10, GYV-13, LMS-5, LMS-6, LMS-8, PRG-2, PRG-3, PRG-6, PRG-14, PRG-16: M7 implementation of the HUM section 14 owner decisions",
-      "sha256": "c0c5a94990ce8945dc3155a988b80308a95115c4a64f98dafac96e0e8d84b748"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "5ccebb0a0ca2816dd61c974ef9e56ce12718e8e54dbec1fc072b2b5185edf5a3"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.B – Peula v2 & Zmán Kvucá – amikor a papír találkozik a valósággal.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "4b64580b3f5f6bf76d34989ea5f217b76c8afa0746c207dca92f85b68818fd83"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "426205d2fa296700b7483318a40cebee5f2a6d086f454fd0e4845702f11bcbd0"
     },
     "02 Tervezet/Modulok/M7/Peulák/M7.F – Felzárkóztató peula – Peula & Zmán Kvucá (Study Lab).md": {
-      "reason": "ADV-1, ADV-5, PRG-5 (KANON:QA14-BIZT-1, M1:BIZT-G2-4, M2:BIZT-G2-3, M7:BIZT-G1-6, M3:ERT-G3-10): a lezárt döntések verifier által igazolt átvezetése, AP-2026-10-12-02",
-      "sha256": "67ed9d75f29cd4b8ad6582584945f82795fb62af2e0df64068ca73bbd58971fa"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "6ef412f576f5f1da606447a87f0d9901ffd67e187cac64c786ba87ff4d7d6e52"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "6a20ec2ee3d52bf0e35b029e92b6622175a22699bb981c8345601a631cab29ef"
+      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
+      "sha256": "697f867682d3100fd87db94dd7fa9e30683b8956766ba12e8078bc25a422d0f7"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "5d3148b19e3e2c10291cf60b47afc52454ed10a308ef9765f323d00df079bff7"
+      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
+      "sha256": "e6bd37e058ee05338de2b848c427b30562ed5b55a5b2526b7c4604f80867ba91"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "1d84a089e3f294c9350e39b33170a7381bef72b50ddf76fa820ee9bc7c17de2d"
+      "reason": "D-098: Z.3 model sentence (Phase 4e D8A-F002), M1.2 sentence 5 (C-059)",
+      "sha256": "f8dad7a05de9afff5a65cb01f2f76c2209243152659bb834dd3911bb25d9c24d"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "AP-2026-10-18-01: LMS-M5-01, LMS-M5-05, LMS-M6-05, LMS-M7-06 source blockers (M51-A/B/C, M55-A/D, M65-A, M76-A/B, IMPL-18-1); CB-C-0036 (HUM 20) carry-over; CB-C-0018; CB-C-0016; CB-C-0035; CB-C-0012; review-package A3, A4, A5, A7, A12, A13; targeted QA fixes QA-ERT-1..7, QA-BIZT-1/2/3/5/9, QA-PED-2/4/5/6/7/8/10, QA-NYELV-1..21, QA-IMPL-1/2/4/5/7/8",
-      "sha256": "2c84e5b4e3a2942f436f039d4ae039e5ac722cd7100aa1f4c8e21005ab977244"
+      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
+      "sha256": "f0624b934973bb46ffed72a700a2e9fd9b89458857a084a1e6f2c73d09ca0362"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
       "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
@@ -325,8 +325,8 @@
       "sha256": "d970ea9423845cce88a4a6bb5e3a071ff67ab4ff4d4e5b5b0f5e07738e5b78cf"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "cbdc044716512c38c651ab112125eea56ef668f6d2bd1f7ba7baac18b7796214"
+      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
+      "sha256": "43c2d2dcb042cf32d49c27c1d4331e4b4e2ad4b1455ac0a9a74806aa33a3c4bf"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",

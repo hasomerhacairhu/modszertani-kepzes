@@ -35,7 +35,7 @@
 > Nézd végig ezt a listát, mielőtt feltöltöd az identitás-jegyzetedet. Ez **nem vizsga** – arra jó, hogy te magad lásd, tényleg összeállt-e a jegyzeted, vagy maradt benne valami félkész. Ha **mindegyikre tudsz pipát tenni**, biztosan kész vagy. Ez **önellenőrzés, nem beadás-feltétel**: ha 1–2 pontnál elakadsz, **akkor is beadhatod** – az elakadás pont egy jó pont, amin még dolgozhatsz (vagy amit a mentoroddal átbeszélhetsz), és a mentor fejlesztő kommentet ad, nem buktat.
 
 - [ ] **1. Identitás-körök.** Megneveztem **legalább 3 identitás-körömet** (pl. ÉN–család–zsidóság–Somer–egyéb közegek), nemcsak felsoroltam, hanem mindegyikhez egy mondatban azt is leírtam, **hogyan hat rám madrihként**.
-- [ ] **2. 1 someres érték.** Kiválasztottam **1 konkrét someres értéket** (pl. egyenlőség, közösség, társadalmi felelősség, szolidaritás, igazságosság), amiben idén tudatosan példát szeretnék mutatni – és ez **érték, nem hangulat** (nem „jó fej leszek”, hanem pl. „egyenlőség”).
+- [ ] **2. 1 someres érték.** Kiválasztottam **1 konkrét someres értéket** – azt, amelyet az M2.2-ben kiemeltem (pl. egyenlőség, közösség, társadalmi felelősség, szolidaritás, igazságosság) –, amiben idén tudatosan példát szeretnék mutatni – és ez **érték, nem hangulat** (nem „jó fej leszek”, hanem pl. „egyenlőség”).
 - [ ] **3. Érték → viselkedés.** Az értékemhez leírtam **legalább 1 konkrét, megfigyelhető viselkedést**, amit a hanihok **rajtam láthatnak** (pl. „a csendesebbeket is név szerint megszólítom körben”), nem csak azt, hogy „fontos nekem a közösség”.
 - [ ] **4. Külső nézőpont.** Megfogalmaztam, **mit olvasna le rólam egy hanih**, ha csak figyelne egy peulán – tehát kívülről, a viselkedésemből nézem, nem belülről a szándékomból.
 - [ ] **5. Pillér-kapcsolat.** Legalább **1 helyen összekötöttem** az értékemet vagy a viselkedésemet a Somer egyik pillérével (cionizmus / szocializmus / humanista zsidóság) egy konkrét helyzeten keresztül. (Ezt egy kitalált madrih példáján is megmutathatod.)
@@ -45,7 +45,7 @@
 - [ ] **9. Saját szavak.** A jegyzet **a saját szavaimmal** szól, őszinte – nem a leckék mondatait másoltam be. (Nem kell szép, kell igaz.)
 - [ ] **10. Egy oldal.** Belefér **kb. 1 oldalba** – inkább tömör és konkrét, mint hosszú és általános.
 
-> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak; ha a jegyzeted ezután a kapu küszöbe alatt marad, az M2.F-en (F-peula) tovább dolgozhatsz rajta. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
+> Ha mind a 10-re pipát tettél: **add be** – biztosan kész. Ha 1–2 helyen elakadtál, **akkor is beadhatod**, az nem baj – jelöld magadnak; ha a jegyzeted ezután a kapu küszöbe alatt marad (a küszöb: a rubrika mind a 4 sora legalább „1 – elindult” szinten áll, és legalább 1 sora eléri a „2 – kész” szintet), az M2.F-en (F-peula) tovább dolgozhatsz rajta. A hiányzó pipa **nem blokkolja a beadást**, a mentor fejlesztő kommentet ad, nem buktat.
 
 ***
 
@@ -92,7 +92,7 @@ Tegyük fel, hogy a jegyzetedbe a „felelősség” értéket írod. Melyik meg
 
 ### Item 4 – Pillér a gyakorlatban (M2.3)
 
-Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mutat **leginkább dugma isitet a cionizmus pillérében**, ahogy az M2.3 tanítja?
+Vita robban ki Izraelről a peulán, feszült a hangulat. Melyik viselkedés mutat **leginkább dugma isitet a cionizmus pillérében**, ahogy az M2.3 „Cionizmus – vita Izraelről” ága tanítja?
 
 - A) Gyorsan lezárod a témát, mert kínos, és áttérsz egy játékra.
 - B) Elmondod a saját, „helyes” véleményedet, lezárod vele a vitát, és nem kéred ki a többiek nézőpontját.
@@ -158,7 +158,7 @@ Az M2.4 központi gondolata, hogy a határtartás maga is **dugma isit**. Miért
 
 ### Item 10 – Humanista zsidóság helyzetben (M2.3)
 
-Közös hanukai programon valaki odaszól: *„Ez az egész zsidó dolog tök ciki.”* Egy másik hanih vallásos hangon leteremti, többen feszengeni kezdenek. Melyik viselkedés mutat **leginkább dugma isitet a humanista zsidóság pillérében**, ahogy az M2.3 tanítja?
+Közös hanukai programon valaki odaszól: *„Ez az egész zsidó dolog tök ciki.”* Egy másik hanih vallásos hangon leteremti, többen feszengeni kezdenek. Melyik viselkedés mutat **leginkább dugma isitet a humanista zsidóság pillérében**, ahogy az M2.3 „Humanista zsidóság – közös ünneplés” ága tanítja?
 
 - A) Igazat adsz a vallásos hanihnak, megmondod, hogy a hagyományt tisztelni kell, pont, és a többi élményt nem engeded szóhoz.
 - B) Gyorsan továbblépsz a programban, hogy oldódjon a kínos helyzet.
@@ -200,7 +200,7 @@ A mentor a rubrika mellé **1–3 rövid, fejlesztő mondatot** ír. Minta, ha e
 
 ## D. 1 oldalas identitás-jegyzet – sablon (a tanulónak)
 
-> Másold be ezt a vázat (Assignment online szöveg vagy feltöltött fájl), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Üres vagy kitöltetlen sablon feltöltése nem teljesítés: a blokkokba tényleges, saját tartalom kell. A beadásodat csak a kijelölt mentorod vagy értékelőd látja és értékeli; technikai okból a Moodle rendszergazdája is hozzáférhet. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz. Ha a jegyzetből az derül ki, hogy valaki – akár te magad – veszélyben van, azt nem a feladat részeként kezeljük, és nem tartjuk titokban. Ha egy valós gyermekvédelmi helyzetet jelezned kell, azt ne ebben a jegyzetben tedd: azonnal vond be a Memunát; az elérhetőségét a kurzus „Segítség és kapcsolatok” blokkjában találod.
+> Másold be ezt a vázat (a beadandóba, online szövegként vagy feltöltött fájlként), és töltsd ki a saját szavaiddal. Nem kell szép, nem kell hosszú – **konkrét** legyen. Kb. 1 oldal. Üres vagy kitöltetlen sablon feltöltése nem teljesítés: a blokkokba tényleges, saját tartalom kell. A beadásodat csak a kijelölt mentorod vagy értékelőd látja és értékeli; technikai okból a Moodle rendszergazdája is hozzáférhet. Ne írj bele olyan érzékeny történetet vagy személyes adatot, amely nem szükséges a feladathoz. Ha a jegyzetből az derül ki, hogy valaki – akár te magad – veszélyben van, azt nem a feladat részeként kezeljük, és nem tartjuk titokban. Ha egy valós gyermekvédelmi helyzetet jelezned kell, azt ne ebben a jegyzetben tedd: azonnal vond be a Memunát; az elérhetőségét a kurzus „Segítség és kapcsolatok” blokkjában találod.
 >
 > 🔒 **Mit kérünk és mit nem.** Itt **nem az identitásod tartalmát értékeljük**, hanem azt, hogy tudsz-e belőle **megfigyelhető madrih-viselkedést** levezetni. Ezért:
 > – a köröket elég **általánosan** megnevezned (pl. „család”, „zsidó közösség”, „iskola”) – nem kell személyes történet, diagnózis, családi konfliktus vagy más érzékeny részlet;
@@ -223,7 +223,7 @@ Kvuca / csoport: ______________
    → Amit ebből egy hanih is LÁT rajtam: ___________________________
 
 2) AZ ÉRTÉKEM, AMI IRÁNYTŰ  (M2.2)
-   Az 1 someres érték, amiben idén tudatosan példát mutatok:
+   Az 1 someres érték (az M2.2-ben kiemelt értékem), amiben idén tudatosan példát mutatok:
    ÉRTÉK: __________________________  (pl. egyenlőség / közösség / felelősség)
    Ezt KONKRÉT VISELKEDÉSBEN így látja meg a kvucám:
    • __________________________________________________________________

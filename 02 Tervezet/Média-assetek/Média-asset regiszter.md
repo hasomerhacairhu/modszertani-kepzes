@@ -868,7 +868,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | `M7.3-NAR-02` | voiceover/narration | legyártandó | jogtisztázás alatt | INPUT 1 narráció (SLIDE 2) | `M7.3-NAR-02-VO` | felirat, leirat | AI-generált |
 | `M7.3-NAR-03` | voiceover/narration | legyártandó | jogtisztázás alatt | INPUT 2 narráció – mintaprogram (SLIDE 3) | `M7.3-NAR-03-VO` | felirat, leirat | AI-generált |
 | `M7.3-NAR-04` | voiceover/narration | legyártandó | jogtisztázás alatt | ACTIVITY narráció – 5 terület végigvétele (SLIDE 4) | `M7.3-NAR-04-VO` | felirat, leirat | AI-generált |
-| `M7.3-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | OUTRO narráció – híd a Moodle Checklistre (SLIDE 6, opcionális) | `M7.3-NAR-05-VO` | felirat, leirat | AI-generált |
+| `M7.3-NAR-05` | voiceover/narration | legyártandó | jogtisztázás alatt | OUTRO narráció – híd a Zmán Kvucá-checklistre (SLIDE 6, opcionális) | `M7.3-NAR-05-VO` | felirat, leirat | AI-generált |
 | `M7.3-VID-01` | video/ai-talking-head | legyártandó | jogtisztázás alatt | HOOK beszélő-fej: „Zmán Kvucá = csak programidő…?” | `M7.3-VID-01-VO` | felmondott hang, felirat, leirat | AI-generált |
 
 ### 02 Tervezet/Modulok/M7/Online leckék/M7.4 – Peula v1 + AI – első modulproduktum-vázlat.md

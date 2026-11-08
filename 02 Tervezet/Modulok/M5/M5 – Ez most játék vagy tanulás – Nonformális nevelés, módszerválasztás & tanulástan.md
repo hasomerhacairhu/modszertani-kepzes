@@ -79,7 +79,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
 * **Cél:**
   Elkészíteni a modul produktumának vázát: egy **3–4 soros „Feladat–kvuca–módszer + tanulástan” táblázatot**, amihez madrihként később is vissza tud térni.
 * **Eszközök:**
-  * H5P **Column** – rövid felidézés + mintatáblázat + ellenőrző lista.
+  * H5P **Column** – mintatáblázat + ellenőrző lista.
   * **Moodle Assignment** – a kész táblázat leadására.
 * **Rövid menet:**
   * Hook: „3–4 helyzet, ahol nagyon nem mindegy, mit csinálsz” – tipikus madrih-helyzetek felsorolása.
@@ -140,7 +140,7 @@ A 4 lecke **Hook–Input–Activity–Check** logikával épül, Moodle + H5P es
   * Egy konkrét sor a saját „Cél–kvuca–módszer” táblázatból 10–15 perces, használható **peula-részletté** alakítva.
   * Közös nyelv arra, hogy a madrih hol lát tényleges tanulást a peuláiban.
 * **Rövid percbontás (drótváz):**
-  * 0–10’ – Gyors felidézés / élő kvíz: 5 állítás igaz/hamis formában a tanulástanról, rövid megbeszéléssel.
+  * 0–10’ – Gyors felidézés / élő kvíz: előbb fejből, párban előhívás, aztán 5 állítás igaz/hamis formában a tanulástanról, rövid megbeszéléssel.
   * 10–30’ – Miniprojekt kiscsoportban:
     * választanak egy sort a saját (vagy mintaként adott) táblázatukból,
     * kidolgoznak belőle egy 10–15 perces peula-részletet: cél, kvuca-jellemzők, konkrét gyakorlat, hol jelenik meg benne gyakorlás / aktív felidézés / időben elosztott gyakorlás.

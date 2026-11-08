@@ -192,7 +192,7 @@ Opciók:
 **Visszajelzés:**
 
 > „Jó kiindulópont, amit választottál.
-> A következő diákon **a saját mondatodat** fogod megfogalmazni hasonló szerkezetben.”
+> A lecke gyakorlataiban **a saját mondatodat** is hasonló szerkezetben fogalmazod meg.”
 
 ***
 
@@ -204,7 +204,7 @@ Opciók:
 
 > **1. saját cél – a Peula v2-d éles bevetése**
 
-> 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál – **terv → levezetés → megfigyelés → visszajelzés → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrih **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán. Legalább **1 alkalom** tudatos inkluzivitási adaptációt tartalmaz, és legalább **1 alkalom** után dokumentált biztonsági és határkezelési reflexiót készítesz akkor is, ha nem történt incidens. A megfigyelési jegyzeted rövid és adatminimalizált legyen: hanih érzékeny adata nélkül.
+> 🎯 **Hol tart most a képzés?** Az online félév a **tervezésig** vitt el. A programot viszont akkor fejezed be, ha ezt **terepen is meg tudod csinálni**: a **2. félévben 6 valódi, 60–90 perces peulát** tervezel és vezetsz a saját szerepedhez igazodva, ugyanazzal a ciklussal minden alkalomnál – **terv → levezetés → megfigyelés → visszajelzés → reflexió → javítás**. Ebből legalább **2 alkalmat** mentor vagy kijelölt tapasztalt madrih **élőben megnéz**, és legalább **2 alkalomnál** meg is mutatod, mit változtattál egy korábbi visszajelzés nyomán. Legalább **1 alkalom** tudatos inkluzivitási adaptációt tartalmaz, és legalább **1 alkalom** után dokumentált biztonsági és határkezelési reflexiót készítesz akkor is, ha nem történt incidens. A megfigyelési jegyzeted rövid és adatminimalizált legyen: hanih érzékeny adata nélkül. A terepgyakorlat akkor **„Teljesítve”**, ha megvan a 6 peula, a kötelező megfigyelések, valamint a visszajelzés és az átdolgozás bizonyítéka; a rubrikából egyéni feltétel csak az, hogy a **„biztonság és határtartás”** soron legalább 1 pontot érj el.
 >
 > Vagyis a Peula v2 nem a végállomás, hanem az **első bevetésed alapanyaga**. A pontos naptárt, a mentor-hozzárendelést és a dokumentálás formáját a képződ mondja meg.
 >
@@ -222,7 +222,7 @@ Opciók:
 
 > Töltsd ki mind a hármat (ez nem fogadalom, hanem terv):
 > – **MIKOR** futtatod le? (pl. „a 2. alkalommal”)
-> – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed. Csak csoportszintű információt írj: hanih-nevet, egyéni érzékeny történetet vagy diagnózist ne.
+> – **MELYIK KVUCÁVAL?** Írd be a saját kvucád **konkrét nevét és korosztályát**. Ha még nincs saját kvucád, írd be azt a csoportot, amelyikkel a terepgyakorlatot várhatóan végzed; ha ezt még nem tudod, azt a kitalált kvuca-profilt, amellyel az M7-ben dolgoztál. Csak csoportszintű információt írj: hanih-nevet, egyéni érzékeny történetet vagy diagnózist ne.
 > – **1 ELŐRE LÁTOTT AKADÁLY → ha–akkor megkerülés**: nevezz meg **1** dolgot, ami közbejöhet, és írd le **ha–akkor** formában, mit lépsz.
 
 > Segítő példa (ha–akkor):
@@ -250,7 +250,7 @@ Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe kerül (Moodle: a „L
 
 > **2. saját cél – én mint madrih**
 
-> Írj még 1 mondatot a jegyzetedbe az alábbi kezdéssel:
+> Ezt a mondatot csak a saját jegyzetedbe írd (a „Z.3 – Szöveges válaszok” nem kéri, és a mentorod sem nézi át), az alábbi kezdéssel:
 
 > **„A következő hónapban…”**
 
@@ -259,7 +259,7 @@ Mintaszöveg – az LMS-Z-06 1. kérdésének szövegébe kerül (Moodle: a „L
 > – „…legalább **2-szer leülök a mentorommal / madrih-társammal** átbeszélni, mi ment jól és mi volt nehéz.”
 > – „…minden héten **1 konkrét visszajelzést kérek** valakitől a stábban.”
 
-> Itt is az a cél, hogy **kicsi, de konkrét** lépést írj le.
+> Itt is az a cél, hogy **kicsi, de konkrét** lépést írj le. A Z.4 záró reflexiójában ezt is finomítod és véglegesíted.
 
 **Rövid szöveges válasz – tanuló-lokális lépés**
 
@@ -307,7 +307,7 @@ Mintakezdés a dián:
 
 > Írd le 1 mondatban (ha még nincs meg a név, írd be, kit kérdezel meg róla):
 
-> **„Az első éles Zmán Kvucám előtt a Moodle-kurzus »Segítség és kapcsolatok« blokkjában ellenőrzöm a kijelölt Memuna és a helyettese nevét és elérhetőségét, és felírom magamnak. Ha ez nincs egyértelműen megadva, vagy egy éles alkalmon a felkészített, 18 év feletti felelős felnőtt nincs jelen, és a helyszínen sem érhető el azonnal, nem vezetek éles foglalkozást, hanem jelzem a képzőnek; ha pedig akut kockázatot látok, a Memunát is azonnal bevonom.”**
+> **„Az első éles Zmán Kvucám előtt a Moodle-kurzus »Segítség és kapcsolatok« blokkjában ellenőrzöm a kijelölt Memuna és a helyettese nevét és elérhetőségét, és felírom magamnak. Ha ez nincs egyértelműen megadva, vagy egy éles alkalmon a felkészített, 18 év feletti felelős felnőtt nincs jelen, és a helyszínen sem érhető el azonnal, nem vezetek éles foglalkozást, hanem jelzem a képzőnek; ha pedig gyermekvédelmi aggályom van, a Memunát is azonnal bevonom.”**
 
 > Ezt a választ is a lecke után következő „Z.3 – Szöveges válaszok” szövegmezőbe írod be (addig írd fel a jegyzetedbe). A beküldés után ezt és a 4. és a 6. dián kért válaszaidat a mentorod átnézi. Ha hiányzik belőlük valami, szól: ekkor kiegészíted, és újra beküldöd; az újrabeküldés időpontját a mentorod jelöli ki. A Z modul akkor teljesül, ha a mentorod elfogadta őket.
 

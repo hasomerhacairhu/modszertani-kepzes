@@ -19,7 +19,7 @@
 |---|---|
 | **Melyik kapuhoz tartozik** | M1 – „Vakfolt, tükör, visszajelzés” modul **éles teljesítési kapuja** (az SBI-nyelv produktív használata). |
 | **Mit mér a kapu** | Tud-e a résztvevő **konkrét helyzetre (S)**, **megfigyelhető viselkedésre (B)** és **érthető hatásra (I)** épülő, **címkézésmentes, tisztelettudó**, 2–3 mondatos SBI-visszajelzést **írni** (a mondatszám útmutatás, nem pontozott küszöb). |
-| **Fő LMS-eszköz (a kapu maga)** | **Moodle Assignment** (M1.4 – online text beadó) + **Rubric** (alábbi 4 soros, szintezett rubrika). Grading method: *Rubric*. |
+| **Fő LMS-eszköz (a kapu maga)** | **Moodle Assignment** (M1.4 – online text vagy fájlos beadó) + **Rubric** (alábbi 4 soros, szintezett rubrika). Grading method: *Rubric*. |
 | **Kapuküszöb (hivatalos)** | **Minden rubrikasor eléri legalább a „Rendben” szintet (≥1 pont) ÉS legalább egy sor eléri az „Erős” szintet (=2 pont).** Ez pontszámban: **minden sorban ≥1 ÉS összpontszám ≥5/8** (4×1 + 1 = 5). (Lásd 2. szakasz – az inkonzisztencia feloldása. Figyelem: a „Még nem” az 1. szakaszban a **legalsó, 0 pontos** szint, ezért a teljesítéshez kevés.) |
 | **Próbálkozás** | **1 normál + 1 javító próbálkozás**; éles kapunál a javító próbálkozás nem automatikus, hanem a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele); további próbálkozást a képző nyithat, kézzel. A teljesítéshez **a legjobb megerősített eredmény** számít: egy már megerősített teljesítés önkéntes, gyakorló újrabeadástól nem romlik vissza, a legfrissebb próbálkozás visszajelzésként megmaradhat. Nem teljesített eredménynél rövid képzői visszajelzés a beadott szövegre, **Megfigyelés → Hatás → Következő lépés** szerkezetben (ez produktum-visszajelzés, ezért nem SBI: az SBI viselkedésre való) + a javító próbálkozás megnyitása az F-peula után. Ha a kapu nem teljesült, a [Program terv](../../Program%20terv.md) §5 szerint az **M1.F felzárkóztató peula (F-peula)** kötelező: facilitált, strukturált javítási alkalom (egyéni vagy kiscsoportos támogatás) a kapueredmény megerősítése után, a javító próbálkozás előtt; időpontját a képző jelöli ki a központi naptár szerint (hétfő 18:00-tól). Kettesben folyó helyzetben a [Gyermekvédelem – release gate](../../Gyermekvédelem%20–%20release%20gate.md) §4.2 safer-working szabálya érvényes: 1:1 csak indokolt esetben, átlátható módon és egy másik felelős tudtával (HUM-SAFE-02). |
 | **Újraértékelés** | A madrih kérheti, hogy **az eredeti értékelőtől eltérő második képző** nézze át a beadást és a kapudöntést, **még mielőtt megnyílna a sikeres kapueredményhez kötött következő lépés, az M3 kapufeladata** (az M2 tanulási része a megerősített eredménnyel már nyílik: Q-REL-2, BS-D2; [Program terv](../../Program%20terv.md) §5, „Újraértékelés az éles kapukon”). |
@@ -52,7 +52,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 |---|---|---|
 | **Még nem (0)** | Nincs időpont és nincs kontextus; a helyzet azonosíthatatlan, vagy csak a viselkedésre/érzésre utal. | „Amikor így viselkedsz, rossz nekem.” / „Mindig ezt csinálod.” |
 | **Rendben (1)** | Van valamilyen helyzet-megjelölés, de **tág / általános**, nem köthető konkrét alkalomhoz. | „Amikor a peulán ilyen voltál…” / „A kenben szoktál…” |
-| **Erős (2)** | Érthető a **konkrét alkalom**: az idő vagy a hely (vagy mindkettő) ÉS a helyzet releváns szakasza azonosítható. (Pontozói példák: „ma” + „a kör második felében” = Erős; „a peulán”, szakasz nélkül = Rendben, lásd 4.1.) | „Amikor ma a játék közben, a kör második felében…” |
+| **Erős (2)** | Érthető a **konkrét alkalom**: az idő vagy a hely (vagy mindkettő) ÉS a helyzet releváns szakasza azonosítható. (Pontozói példák: „ma” + „a kör második felében” = Erős; „a peulán”, szakasz nélkül = Rendben.) | „Amikor ma a játék közben, a kör második felében…” |
 
 ### 2. sor – Viselkedés (B) megfigyelhetősége (nincs címke)
 
@@ -86,7 +86,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 |---|---|---|
 | **Még nem (0)** | **Személyt minősít / támad**: általánosító „mindig/soha”, jellem-címke, gúny, leszólás. | „Te mindig szétvered a peulát.” / „Reménytelen vagy.” |
 | **Rendben (1)** | **Alapvetően a viselkedésről** szól, de van benne egy-egy éles/szúrós fordulat vagy enyhe minősítés. | „Megint elkéstél, ami azért elég gáz tőled.” |
-| **Erős (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címkementes és nem általánosít**, a másik **nem védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de az „Erős” szint kritériuma a viselkedés-fókuszú hangnem, nem az „én-üzenet” nyelvtan; a leckékben tanított sablonban a B „te”-, az I „én / a kvuca” alakú.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt megtartani a figyelmet – jó lenne, ha a többiek is több teret kapnának.” |
+| **Erős (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címkementes és nem általánosít**, a másik **nem védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de az „Erős” szint kritériuma a viselkedés-fókuszú hangnem, nem az én-perspektíva; a leckékben tanított sablonban a B „te”-, az I „én / a kvuca” alakú.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt megtartani a figyelmet – jó lenne, ha a többiek is több teret kapnának.” |
 
 ***
 
@@ -169,7 +169,7 @@ Ezek az itemek a **felismerő** tudást mérik és gyakoroltatják (S/B/I azonos
 - C) „Mindig a telefonodat nyomkodod.” *(általánosított viselkedés, ráadásul „mindig”)*
 - D) „A megbeszélésen, a vége felé…” *(ez S – szituáció)*
 
-**Visszajelzés:** Az I azt mondja el, **mit okozott benned / a csapatban**. Az „Idegesítő vagy” minősít, a „Mindig a telefonodat nyomkodod” általánosít („mindig”), „A megbeszélésen, a vége felé…” pedig a helyzetet jelöli – nem a hatást.
+**Visszajelzés:** Az I azt mondja el, **mit okozott benned / a csapatban**. Az „Idegesítő vagy” minősít, a „Mindig a telefonodat nyomkodod” általánosít („mindig”), „A megbeszélésen, a vége felé…” pedig a helyzetet jelöli – nem a hatást. Az I-t én-perspektívából is megfogalmazhatod („úgy éreztem…”): ilyenkor a saját érzésedet mondod el, és nem tényként állítod, mit gondol a másik.
 
 ***
 

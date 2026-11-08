@@ -85,7 +85,7 @@ A modul végére a madrih…
   * kurzusstruktúra: hol találja a modulokat, mikroleckéket, peulákat, kapukat;
   * fogalmak: Moodle, H5P, activity completion, puha/éles kapu;
   * mini-kvíz: „mi történik, ha…?” (nem tölt ki valamit, nem megy elsőre a kapu).
-* **Moodle/H5P mix:** Moodle Page + H5P Course Presentation (beágyazott képernyőképek, fogalom–definíció párosítás, Single Choice kérdések).
+* **Moodle/H5P mix:** Moodle Page + H5P Course Presentation (beágyazott képernyőképek, fogalom–definíció párosítás, egyválaszos módú Multiple Choice kérdések).
 
 ### L4 / M0.4 – „Dugma isit az online térben + bemutatkozó fórum” (15–20’)
 
@@ -143,7 +143,7 @@ A modul végére a madrih…
       * puha vs. éles kapu (3. item),
       * **kapukövetkezmény** – 1 rövid szcenárió-item: „mi történik, ha egy éles kapu elsőre nem teljesül?” → válaszd ki a **helyes következményt** (visszajelzés, a kötelező F-peula (javítási út), majd újrapróbálkozás – nem kizárás; éles kapunál a következő kapuzott tartalom addig nem nyílik meg, amíg a minimumfeltétel és a szükséges emberi megerősítés nem teljesül – a definíció: Program terv §5) – az M0.3 SLIDE 6 „mi történik, ha…?” mintájára (4. item),
       * **online hangnem / szabály** – 1 felismerő item: melyik reakció / szabály illik egy **dugma isit** madrihhoz az online térben (chat, komment) – az M0.4 SLIDE 3–4 helyzeteinek és a „3 egyszerű szabály” logikájára építve (5. item),
-      * **éves ív** – 1 felidéző item: melyik modulban lesz szó a visszajelzésről, a red flag-ekről és a gyermekvédelemről, illetve a peulatervezésről – az M0.1 SLIDE 2 idővonalára építve (6. item, párosítás),
+      * **éves útiterv** – 1 felidéző item: melyik modulban lesz szó a visszajelzésről, a red flag-ekről és a gyermekvédelemről, illetve a peulatervezésről – az M0.1 SLIDE 2 idővonalára építve (6. item, párosítás),
       * „hol találom a modulokat / leckéket a Moodle-ben?” (7. item).
     * **Az itemek szövege, kulcsa, disztraktorai és opciónkénti visszajelzése:** lásd lent, „Az M0 belépőkvíz itemei” alatt. A „jelzési út” item (2.) tartalmi alapja az M0.2 SLIDE 4-ben is tanított ötlépéses jelzési út (M3.B lépéstérkép): észleld, és vedd komolyan; hallgasd meg, és ne ígérj teljes titoktartást; ne nyomozz, ne konfrontálj, és ne próbáld egyedül megoldani; azonnal vond be a kijelölt Memunát (összeférhetetlenség esetén a név szerint kijelölt helyettesét); közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.
     * Több próbálkozás engedélyezett. A §6 stáb-jelzés (átlag és témakörszintű arány) az **első próbálkozás** item-statisztikájából számol, mert a visszajelzés utáni újrapróbálkozás felfelé torzítaná az eredményt.
@@ -156,7 +156,7 @@ A modul végére a madrih…
       | 3. puha vs. éles kapu | 4. Kapuk és completion-logika |
       | 4. kapukövetkezmény (mi történik, ha…?) | 4. Kapuk és completion-logika (helyes következmény) |
       | 5. online hangnem / szabály | 5. Dugma isit az online térben |
-      | 6. éves ív (melyik modulban lesz szó …?) | 1. Éves ív és keret átlátása |
+      | 6. éves útiterv (melyik modulban lesz szó …?) | 1. Éves ív és keret átlátása |
       | 7. hol találom a modulokat / leckéket | 3. Alapszintű technikai működés (+ 1. éves ív tájékozódás) |
 
       Így a „mely kérdés / témakör megy rosszul → melyik modulban erősítsünk” elemzés (§6) **item-szinten** értelmezhető.
@@ -179,7 +179,7 @@ A modul végére a madrih…
 ### Az M0 belépőkvíz itemei
 
 * **Tanulói bevezető (a Moodle Quiz leírásába; előtte a fenti „just-in-time” adatkezelési tájékoztató; forrás-szerzés e szakasz alapján, AP-2026-10-18-01).** A visszajelzésről szóló mondat a Review options rögzítésétől függ: a forrás nem adja meg, mikor látja a tanuló a hibás válasz visszajelzését (`LMS – activity manifest.md` BSPEC-11, nyitott: LMS-gazda + értékelési felelős, az LMS-M5-06 mintájára). Amíg ez nincs rögzítve, a mondat nem élesíthető.
-  > Ez a rövid kvíz azt nézi meg, mennyire állnak már össze benned a képzés alapjai. Hét kérdést kapsz a madrih szerepéről, a gyermekvédelmi jelzési útról, a kapukról, az online hangnemről, az éves ívről és arról, hol találod a leckéket. Mindegyikre válaszolj: a teljesítéshez ez kell, az eredményed nem számít bele, és nincs ponthatár. Ha valamit elvétesz, a visszajelzés megmondja, miért nem jó, és hol találod a helyes szabályt.
+  > Ez a rövid kvíz azt nézi meg, mennyire állnak már össze benned a képzés alapjai. Hét kérdést kapsz a madrih szerepéről, a gyermekvédelmi jelzési útról, a kapukról, az online hangnemről, az éves útitervről és arról, hol találod a leckéket. Mindegyikre válaszolj: a teljesítéshez ez kell, az eredményed nem számít bele, és nincs ponthatár. Ha valamit elvétesz, a visszajelzés megmondja, miért nem jó, és hol találod a helyes szabályt.
 
 * **Forrás és ellenőrzés:** az itemek szövegét és a kulcsot a projektgazda adta meg (projektgazdai döntés, 2026-10-02); a 3. és a 7. item disztraktorai, a 6. item legördülő listája és a hibás válaszokhoz tartozó visszajelzések szerkesztői kiegészítések. A 4. item D) disztraktora és visszajelzése a BS-D5 szerint cserélve, mert a Q-REL-2 után a korábbi változat részben igaz lett (projektgazdai döntés, 2026-10-04); a helyes válasz és a kulcs változatlan. A 4. és a 7. item törzse, valamint a 7. item C) opciójának szövege az ERT-11 szerint nyelvileg javítva (projektgazdai döntés, 2026-10-12); a ✅ helye és a kulcs változatlan. Utólagos ellenőrzés (vétó/QA): az értékelési felelős, az 1–2. itemnél a Memuna is.
 * **Beállítás:** Moodle Quiz, 7 item, ponthatár (cut-score) nélkül. A completion-feltétel: mind a 7 item megválaszolva, eredménytől függetlenül; az első próbálkozás diagnosztikus adat (§6). Hogy a Moodle-beállítás kikényszeríti-e mind a 7 item megválaszolását, vagy ezt a stábnak kell ellenőriznie, a stagingben kell igazolni.
@@ -194,45 +194,45 @@ Egy hanih elmond egy nehéz személyes helyzetet. Mi a madrih szerepe?
   *Visszajelzés:* Nem jó: a madrih nem terapeuta, nem neki kell megoldania a helyzetet; lásd: M0.2, 2. dia (mit csinál a madrih, és mit nem).
 * B) Meghallgatja, visszatükrözi, és szükség esetén felelős felnőttet von be. ✅
 * C) Kideríti, ki a hibás.
-  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem az ő dolga kideríteni, ki a hibás; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem az ő dolga kideríteni, ki a hibás; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 * D) Titokban tartja, bármi történjen.
-  *Visszajelzés:* Nem jó: a madrih nem ígérhet teljes titoktartást, mert ha valaki veszélyben van, segítséget kell bevonni; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih nem ígérhet teljes titoktartást, mert ha valaki veszélyben van, segítséget kell bevonni; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 
 **2. item – jelzési út gyermekvédelmi ügyben**
 
 Egy hanih olyan dolgot mond, ami bántalmazásra vagy közvetlen veszélyre utal. Mi a helyes elsődleges út?
 
 * A) Saját maga utánajár.
-  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem próbálja egyedül megoldani a helyzetet; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih nem nyomoz, és nem próbálja egyedül megoldani a helyzetet; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 * B) Csoportchatbe ír.
   *Visszajelzés:* Nem jó: a madrih gyermekvédelmi ügyről nem ír csoportchatbe, hanem azonnal bevonja a Memunát; a Memuna elérhetőségét lásd: a kurzus „Segítség és kapcsolatok” blokkja.
 * C) Komolyan veszi, nem ígér teljes titoktartást, nem nyomoz, és a jóváhagyott gyermekvédelmi utat követi; közvetlen veszélyben 112. ✅
 * D) Vár másnapig.
-  *Visszajelzés:* Nem jó: a madrih ilyenkor nem vár, hanem azonnal bevonja a Memunát, közvetlen veszélyben pedig előbb a biztonság és a 112 jön; lásd: M0.2, 4. dia (az ötlépéses jelzési út).
+  *Visszajelzés:* Nem jó: a madrih ilyenkor nem vár, hanem azonnal bevonja a Memunát, közvetlen veszélyben pedig előbb a biztonság és a 112 jön; lásd: M0.2, „‘Madrih, nem terapeuta’ – mit jelent ez?” (az ötlépéses jelzési út).
 
 **3. item – puha vs. éles kapu**
 
 Mi a különbség a puha és az éles kapu között?
 
 * A) Puha = ha elsőre nem sikerül, kiesel. Éles = ha elsőre nem sikerül, szintén kiesel.
-  *Visszajelzés:* Nem jó: egyik kapu sem a kiesésről szól – a puha kapu nem zár el a továbblépéstől, az éles kapunál pedig visszajelzést és javítási lehetőséget kapsz; lásd: M0.3, 5. dia (puha és éles kapu).
-* B) Puha = formatív és nem blokkol. Éles = a minimum + szükséges megerősítés nélkül nem nyílik a következő kapuzott tartalom. ✅
+  *Visszajelzés:* Nem jó: egyik kapu sem a kiesésről szól – a puha kapu eredménye nem zár el a továbblépéstől, az éles kapunál pedig visszajelzést és javítási lehetőséget kapsz; lásd: M0.3, „Puha vs. éles kapu”.
+* B) Puha = formatív (fejlesztő célú) és nem blokkol. Éles = a minimum + szükséges megerősítés nélkül nem nyílik a következő kapuzott tartalom. ✅
 * C) Puha = magától teljesül, akkor is, ha nem csinálsz vele semmit. Éles = csak ezzel kell ténylegesen foglalkoznod.
-  *Visszajelzés:* Nem jó: a puha kaput is el kell végezned, csak az eredménye nem zár el a továbblépéstől; lásd: M0.3, 5. dia (puha és éles kapu).
+  *Visszajelzés:* Nem jó: a puha kaput is el kell végezned, csak az eredménye nem zár el a továbblépéstől; lásd: M0.3, „Puha vs. éles kapu”.
 * D) Puha = elég megnyitni. Éles = elég beadni, és már nyílik is a következő kapuzott tartalom.
-  *Visszajelzés:* Nem jó: a puha kaput végig kell csinálnod, az éles kapunál pedig a beadás önmagában nem elég, a minimumnak és a szükséges megerősítésnek is teljesülnie kell; lásd: M0.3, 5. dia (puha és éles kapu).
+  *Visszajelzés:* Nem jó: a puha kaput végig kell csinálnod, az éles kapunál pedig a beadás önmagában nem elég, a minimumnak és a szükséges megerősítésnek is teljesülnie kell; lásd: M0.3, „Puha vs. éles kapu”.
 
 **4. item – kapukövetkezmény**
 
 Mi történik a madrihhal, ha egy éles kapu elsőre nem teljesül?
 
 * A) Kiesik a képzésből.
-  *Visszajelzés:* Nem jó: a kapu nem kizárás, éles kapunál is visszajelzés és javítási lehetőség jár; lásd: M0.3, 5–6. dia (a kapuk és a következményeik).
+  *Visszajelzés:* Nem jó: a kapu nem kizárás, éles kapunál is visszajelzés és javítási lehetőség jár; lásd: M0.3, „Puha vs. éles kapu” és „Mi történik, ha…?” (a kapuk és a következményeik).
 * B) Automatikusan megfelel.
-  *Visszajelzés:* Nem jó: az éles kapu nem teljesül magától, a minimumnak és a szükséges megerősítésnek ténylegesen meg kell lennie; lásd: M0.3, 5. dia (puha és éles kapu).
+  *Visszajelzés:* Nem jó: az éles kapu nem teljesül magától, a minimumnak és a szükséges megerősítésnek ténylegesen meg kell lennie; lásd: M0.3, „Puha vs. éles kapu”.
 * C) Visszajelzést kap, F-peulán / javítási úton dolgozik, majd újrapróbálkozik. ✅
 * D) Elég ugyanazt újra beadnia; külön fejlesztő visszajelzésre és F-peulára nincs szükség.
-  *Visszajelzés:* Nem jó: ha egy éles kapu nem teljesül, a javító próbálkozás előtt fejlesztő visszajelzés jár, és a kötelező F-peulán (a javítási úton) kell dolgozni; lásd: M0.3, 5. dia (puha és éles kapu) és a Glosszárium F-peula szócikke.
+  *Visszajelzés:* Nem jó: ha egy éles kapu nem teljesül, a javító próbálkozás előtt fejlesztő visszajelzés jár, és a kötelező F-peulán (a javítási úton) kell dolgozni; lásd: M0.3, „Puha vs. éles kapu” és a Glosszárium F-peula szócikke.
 
 **5. item – online hangnem / szabály**
 
@@ -246,24 +246,24 @@ Melyik online reakció dugma isit?
 * D) Nem reagálni semmire.
   *Visszajelzés:* Nem jó: ha valakit online bántanak, a hallgatás magára hagyja az érintettet, ezért tisztelettel közbelépsz, és szükség esetén segítséget kérsz; lásd: M0.4, 3–4. dia (online helyzetek és szabályok).
 
-**6. item – éves ív (párosítás)**
+**6. item – éves útiterv (párosítás)**
 
-Párosítsd: visszajelzés / red flag és gyermekvédelem / peulatervezés
+Melyik modulban lesz szó ezekről? Párosítsd a témát a modul kódjával: visszajelzés / red flag és gyermekvédelem / peulatervezés
 
 * Kulcs: visszajelzés → M1; red flag és gyermekvédelem → M3; peulatervezés → M7 ✅
-* *Visszajelzés hibás vagy részben hibás párosításra:* Nem egészen: nem minden téma került a saját moduljához; lásd: M0.1, 2. dia (éves útiterv).
+* *Visszajelzés hibás vagy részben hibás párosításra:* Nem egészen: nem minden téma került a saját moduljához; lásd: M0.1, „Éves útiterv – M0–M7 + Z”.
 
 **7. item – hol találom a modulokat / leckéket**
 
 Hol találod a modulokat, leckéket, peulákat és a completion-állapotot?
 
 * A) A H5P-ben; a pipa azt mutatja, hány pontot értél el.
-  *Visszajelzés:* Nem jó: a H5P csak egy eszköz a Moodle-ben, a pipa pedig azt jelzi, hogy végigmentél egy feladaton, nem a pontszámodat; lásd: M0.3, 2–3. dia (kurzusstruktúra és alapfogalmak).
+  *Visszajelzés:* Nem jó: a H5P csak egy eszköz a Moodle-ben, a pipa pedig azt jelzi, hogy végigmentél egy feladaton, nem a pontszámodat; lásd: M0.3, „Hol mit találsz a kurzusban?” és „Alapfogalmak – 1 mondatban”.
 * B) A kvuca csoportchatjébe küldött linkeken; a completion-állapotot csak a képző látja.
-  *Visszajelzés:* Nem jó: a modulokat, a leckéket és a peulákat a Moodle-kurzusban találod, és a pipákat te is látod; lásd: M0.3, 2. dia (kurzusstruktúra).
+  *Visszajelzés:* Nem jó: a modulokat, a leckéket és a peulákat a Moodle-kurzusban találod, és a pipákat te is látod; lásd: M0.3, „Hol mit találsz a kurzusban?” (kurzusstruktúra).
 * C) A Moodle-kurzus modulstruktúrájában; a leckék/activityk mellett látható completion-állapottal. ✅
 * D) E-mailben, mert minden leckét külön levélben kapsz meg; a completion-állapot csak a modul végén derül ki.
-  *Visszajelzés:* Nem jó: a leckék nem e-mailben érkeznek, hanem a Moodle-kurzus moduljaiban vannak, és a pipák folyamatosan mutatják, mit fejeztél be; lásd: M0.3, 2. dia (kurzusstruktúra).
+  *Visszajelzés:* Nem jó: a leckék nem e-mailben érkeznek, hanem a Moodle-kurzus moduljaiban vannak, és a pipák folyamatosan mutatják, mit fejeztél be; lásd: M0.3, „Hol mit találsz a kurzusban?” (kurzusstruktúra).
 
 ***
 

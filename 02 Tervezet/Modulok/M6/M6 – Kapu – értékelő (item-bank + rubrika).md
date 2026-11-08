@@ -76,7 +76,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 >
 > **Tanulói bevezető („M6 – Szcenárió-önellenőrzés”, LMS-M6-06; a Moodle Quiz leírásába; előtte a Program terv §7 szerinti adatkezelési tájékoztató; forrás-szerzés e szakasz alapján, AP-2026-10-18-01):**
 >
-> > Ez a kvíz felkészít a játéklapodra: 12 helyzetet kapsz, amelyek arról szólnak, melyik eszköz illik egy kvucához, mire kell figyelned a biztonságnál és az inkluzivitásnál, és hogyan bánj a felkavaró tartalmakkal. Nem éles kapu, és nem buktat: a teljesítéshez a beküldés elég, és korlátlanul újra megpróbálhatod. Közvetlenül a beküldés után kérdésenként látod, jól válaszoltál-e, és miért. Az a jó, ha legalább 10 kérdésre jól felelsz; ha kevesebbre, rögtön a beküldés után nézd át a visszajelzéseket, vagy próbáld újra, mielőtt a játéklapodat megírod. Az első próbálkozásodból a stáb azt látja, melyik témánál kell még segítség.
+> > Ez a kvíz felkészít a játéklapodra: 12 helyzetet kapsz, amelyek arról szólnak, melyik eszköz illik egy kvucához, mire kell figyelned a biztonságnál és az inkluzivitásnál, és hogyan bánj a felkavaró tartalmakkal. Nem éles kapu, és nem buktat: a teljesítéshez a beküldés elég, és korlátlanul újra megpróbálhatod. Közvetlenül a beküldés után kérdésenként látod, jól válaszoltál-e, és miért. Itt kérdésenként egy helyes válasz van. Ez nem azt jelenti, hogy a módszerválasztásban „egyetlen jó megoldás” lenne – az M6.4-ben épp azt láttad, hogy nincs. A kérdések egy részében azért van egyetlen jó válasz, mert ott a biztonságos munka minimumáról van szó: a biztonságról és arról, hogy az eszköz illik-e a kvucához és a célhoz (például résztvevőt nem zárunk ki demonstrációként, a kirekesztést fiktív esetből elemezzük). Az a jó, ha legalább 10 kérdésre jól felelsz; ha kevesebbre, rögtön a beküldés után nézd át a visszajelzéseket, vagy próbáld újra, mielőtt a játéklapodat megírod. Az első próbálkozásodból a stáb azt látja, melyik témánál kell még segítség.
 >
 > **Megjegyzés a konvergenciáról:** a 12 item egy része (eszköz-illesztés) szándékosan **egy-helyes-válaszos** – ott valódi biztonsági/illesztési minimum van (pl. résztvevőt nem zárunk ki demonstrációként; a kirekesztést fiktív esetből elemezzük). Ez **diagnosztikai** jelzés, nem éles kapuzás. A **nyitott, divergens** mérlegelést a játéklap-rubrika (B) és az M6.4 Branching Scenario viszi, ahol nincs „egyetlen jó megoldás”.
 
@@ -332,7 +332,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 > Elmeséled a történetet Liliről, az új lányról (egy újonnan érkezőt egy beszólás kicsit kirekeszt). Tudod, hogy a kvucában nemrég valakit tényleg kicsúfoltak. **Melyik feldolgozó kérdés a legbiztonságosabb és leginkább reflektív** ezután?
 
 **Opciók:**
-- A) „Láttál-e már olyat, hogy egy beszólás miatt valaki kívül érezte magát? (Nem kell nevet mondani.)” ✅
+- A) „Láttál-e már olyat, hogy egy beszólás miatt valaki kívül érezte magát? (Nem kell nevet mondani, és bárki indoklás nélkül passzolhat.)” ✅
 - B) „Ki volt itt a bunkó? Nevezzük meg!”
 - C) „Ugye mindannyian egyetértünk, hogy ilyet sosem csinálunk?”
 - D) „Szerintetek Lili túlreagálta?”
@@ -374,9 +374,9 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 
 ### Kvíz-zárás (a két kimenet szövege)
 
-> **Ha elérted a 80%-ot:** Szép munka! Látszik, hogy **a kvuca, a cél, a biztonság és az inkluzivitás** szempontjait együtt látod. **Ez az önellenőrzés most jó alap** – jöhet a modul éles kapuja, a **játéklap**, ahol ezt egy saját eszközön kell megmutatnod.
+> **Legalább 80%-ot értél el.** Szép munka! Látszik, hogy **a kvuca, a cél, a biztonság és az inkluzivitás** szempontjait együtt látod. **Ez az önellenőrzés most jó alap** – jöhet a modul éles kapuja, a **játéklap**, ahol ezt egy saját eszközön kell megmutatnod.
 >
-> **Ha most kevesebb lett (nyugodtan újrapróbálható, nem buktat):** Semmi gond, **ez nem éles kapu, hanem felkészítő önellenőrzés**. Nézd vissza a témát, amelyikben többször hibáztál – főleg ha **biztonsági vagy inkluzivitási** kérdésnél, mert ezek a játéklap **blokkoló** sorai is:
+> **Most 80%-nál kevesebb lett (nyugodtan újrapróbálható, nem buktat).** Semmi gond, **ez nem éles kapu, hanem felkészítő önellenőrzés**. Nézd vissza a témát, amelyikben többször hibáztál – főleg ha **biztonsági vagy inkluzivitási** kérdésnél, mert ezek a játéklap **blokkoló** sorai is:
 > - korosztály-illesztés → **M6.1**, **M6.3** és **M6.4**,
 > - biztonsági minimum → **M6.1** (bizalomjáték), **M6.4** és **M6.A**,
 > - inkluzív variáció → **M6.1**, **M6.3** és **M6.4**,
@@ -401,7 +401,7 @@ Az itemek a **ténylegesen tanított** tartalmat mérik:
 | **R2** | **Kvuca / korosztály-illesztés** | Nincs megadva korosztály, vagy az eszköz **nyilvánvalóan nem illik** a megadott korhoz (pl. hosszú, összetett társadalmi vita 6–9-re). | Megadva a **korosztály (Parparim 6–9 / Kivsza 10–12 / Leviatán 13–17; elég a név vagy az életkor) + létszám**, és az eszköz **életkorilag védhető** (pl. névkör Parparimnál, esetleírás+vita idősebb Leviatánnál). | A korosztályon túl **hangulat/állapot** is szerepel (fáradt, klikkes, friss), és a lap **legalább 1 korosztály-jellemzővel** (pl. figyelem / absztrakció / kortárs-hatás / érzelmi szabályozás) **megindokolja**, miért épp ennek a korosztálynak való – és melyiknek **nem**. A korosztály-jellemzők az **M3.2** korosztálytérképéből valók. |
 | **R3** | **Leírás végrehajthatósága** | A menet hiányos: egy másik madrih **nem tudná lejátszani** belőle (nincs lépés, idő vagy eszköz). | A lapon **lépésről lépésre** menet + **időkeret** + **szükséges eszközök** szerepelnek; egy másik madrih kézbe véve **el tudná indítani**. | A leíráshoz **legalább 1 variáció** is tartozik (könnyített / nehezített / más korosztályra), így **rugalmasan** átvehető. |
 | **R4** | **BIZTONSÁG** *(blokkoló)* | Nincs biztonsági megjegyzés, vagy általánosság („figyelünk egymásra”) konkrétum nélkül. | **Legalább 1 konkrét** fizikai **VAGY** érzelmi / beleegyezéssel kapcsolatos biztonsági megjegyzés, ami **erre az eszközre** vonatkozik (pl. „stop” jelszó, „felállni nem kötelező”, „fiktív esetet elemzünk; nem zárunk ki résztvevőt demonstrációként”). | **Legalább 2** konkrét, eszközspecifikus biztonsági elem, **fizikai ÉS érzelmi / beleegyezéssel kapcsolatos** szempontot is lefedve, + jelzés, **mikor kell leállítani / kit hív** a madrih, ha valakinek sok. |
-| **R5** | **INKLUZIVITÁS** *(blokkoló)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 megnevezett** akadály (finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** megnevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
+| **R5** | **INKLUZIVITÁS** *(blokkoló)* | Nincs inkluzivitási szempont, vagy csak általános kijelentés („mindenki vegyen részt”) konkrét megoldás nélkül. | **Legalább 1 megnevezett** akadály (pl. finommotorika / anyag-érzékenység / költség / nyelv / szorongás / mozgás) **+ 1 konkrét alternatív belépési pont** ugyanahhoz a célhoz. | **Legalább 2** megnevezett akadály, mindegyikhez **konkrét variáció** (alternatív belépési pont, nem felmentés), és a lap kerüli a státusz-/teljesítményversenyt (pl. nem drága alapanyag, nem „ki szebben”). |
 
 ### Megfigyelhető „Oké”-küszöb – számolható ellenőrzőlista (stáb; a társas visszajelzéshez is)
 
@@ -495,7 +495,7 @@ A „2 = Oké” akkor adható, ha a lapon **konkrétan megtalálható**:
 >
 > A sablon kitölthető, és képernyőolvasóval is használható. Ha a mentés után a Moodle külön beküldésgombot is mutat, azt is nyomd meg: a munkád csak így számít leadottnak. Ha egyik út sem működik, a kurzus „Segítség és kapcsolatok” blokkjában kérj segítséget.
 
-> **Mikor?** A feladat az M6.B peula után nyílik meg, ha az M5 modult teljesítetted (benne az M5 kapu „Teljesítve” eredményével). **Határidő:** az M6.B utáni szerda 18:00 (a pontos dátumot a kurzus naptára mutatja). A kijelölt mentorod / értékelőd legkésőbb csütörtök 18:00-ig megerősíti az eredményedet. Amíg ez nem történik meg, az eredményed függőben van – ez nem bukás.
+> **Mikor?** A leadás az M6.B peula után nyílik meg, ha az M5 modult teljesítetted (benne az M5 kapu „Teljesítve” eredményével). **Határidő:** az M6.B utáni szerda 18:00 (a pontos dátumot a kurzus naptára mutatja). A kijelölt mentorod / értékelőd legkésőbb csütörtök 18:00-ig megerősíti az eredményedet. Amíg ez nem történik meg, az eredményed függőben van – ez nem bukás.
 
 > **Előtte érdemes:** kitölteni az „M6 – Szcenárió-önellenőrzés” kvízt. Nem buktat, korlátlanul újrapróbálható, és megmutatja, melyik biztonsági vagy inkluzivitási szempontot érdemes még átnézned. A beküldése az M6 teljesítéséhez és az M7 leckéinek megnyílásához kell, az eredménye nem.
 

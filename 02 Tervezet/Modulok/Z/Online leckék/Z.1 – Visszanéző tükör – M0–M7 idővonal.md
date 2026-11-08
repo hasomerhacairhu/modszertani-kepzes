@@ -365,7 +365,7 @@ Opciók:
 
 **Kérdés 4**
 
-> „Melyik modulban írtál **Peula v2-t Zmán Kvucára**?”
+> „Melyik modulban dolgoztál a **Peula v1-en és a Peula v2-n**?”
 
 * M6 – „Eszköztár: játék, történet, kézműves & inkluzivitás”
 * M7 – „Peula a papírtól a valóságig” ✅
@@ -378,7 +378,7 @@ Opciók:
   * 1. kérdés: „Majdnem 🙂 – a Johari-ablak és az SBI az M1-ben volt: ott tanultad, hogy a visszajelzés nem bántás, hanem tükör.”
   * 2. kérdés: „Majdnem 🙂 – a kvuca fejlődése és a gyermekvédelem az M3-ban volt: ott tanultál a csoportszakaszokról, a gyermekvédelmi jelzésekről, és arról, hogy kinek jelzel.”
   * 3. kérdés: „Majdnem 🙂 – a nonformális nevelés és a tanulástan az M5-ben volt: ott gondolkodtál cél–kvuca–módszer logikával.”
-  * 4. kérdés: „Majdnem 🙂 – a Peula v2-t Zmán Kvucára az M7-ben írtad meg.”
+  * 4. kérdés: „Majdnem 🙂 – a Peula v1-en és a Peula v2-n az M7-ben dolgoztál.”
 * A kérdésenkénti szöveg a Multiple Choice opciónkénti visszajelzésébe kerül (a Single Choice Setben nincs ilyen mező); a megjelenését az `LMS – H5P runtime acceptance.md` 14. pontja teszteli.
 
 ***
