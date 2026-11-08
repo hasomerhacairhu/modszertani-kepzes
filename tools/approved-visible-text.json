@@ -65,8 +65,8 @@
       "sha256": "0af983ae33e9c4d208486dfa121374d57271112495e4153c9ad3f89011f74a81"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "5dec68475862b27aa8c131719a6bd59dbb478ce884eb6ca46c93f4d1770a48f5"
+      "reason": "D-098: Z.3 model sentence (Phase 4e D8A-F002), M1.2 sentence 5 (C-059)",
+      "sha256": "bc72b365b737186dcc3e5aa0920b525a82465c2579b71d33872fcc97cd0c46ff"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -309,8 +309,8 @@
       "sha256": "e6bd37e058ee05338de2b848c427b30562ed5b55a5b2526b7c4604f80867ba91"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.3 – Híd a terepre – következő lépések.md": {
-      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
-      "sha256": "a996b2429e702f18125bdf1c658a79d0e9902de1ba8fc50f24c53ee2060dfd7e"
+      "reason": "D-098: Z.3 model sentence (Phase 4e D8A-F002), M1.2 sentence 5 (C-059)",
+      "sha256": "f8dad7a05de9afff5a65cb01f2f76c2209243152659bb834dd3911bb25d9c24d"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
