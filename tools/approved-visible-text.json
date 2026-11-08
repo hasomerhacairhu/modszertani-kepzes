@@ -1,12 +1,12 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
-      "sha256": "a817697bedb8235d0c779866454bd1f7a97cac7eccae6da1e50600d1b9f7df11"
+      "reason": "HUM 22 (D-099, D-100): the final build's conditions carried into the source: BSPEC-08/09/11, LESSON profile for M1.1–M1.3, manual reopening, Z.4 without grade, Z.2/Z.3 view completion, deploy-time dates, the DPO's relayed values, J1",
+      "sha256": "e13631da419edb9e7bf0682b651248c2b5a38439e053a956fb05a10db749d51c"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "D-098: HUM 21 row",
-      "sha256": "3357f69b89661ca448df9ef6623beddd38d32295b365555bd0e31fcd6aeb2b86"
+      "reason": "HUM 22 (D-099, D-100): the final build's conditions carried into the source: BSPEC-08/09/11, LESSON profile for M1.1–M1.3, manual reopening, Z.4 without grade, Z.2/Z.3 view completion, deploy-time dates, the DPO's relayed values, J1",
+      "sha256": "088b2b5654199da8e137fad36b054ffede11651b9078414a56fa76ce894f2317"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -21,8 +21,12 @@
       "sha256": "f4a9c61f147064cf269538fa3794360bccdae66e4494aeabfffcaf7f22efc1bf"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "58d7d5d4328de64da00f926acae81220cd4163530098b728493ec9d2f1dc5d83"
+      "reason": "HUM 22 (D-099, D-100): the final build's conditions carried into the source: BSPEC-08/09/11, LESSON profile for M1.1–M1.3, manual reopening, Z.4 without grade, Z.2/Z.3 view completion, deploy-time dates, the DPO's relayed values, J1",
+      "sha256": "ee1278d4d85d61456a0b5b7c6e767ae96b14bcb406f4f802234811f1f6ef003e"
+    },
+    "02 Tervezet/LMS – felületi szövegek.md": {
+      "reason": "HUM 22 (D-099, D-100): the final build's conditions carried into the source: BSPEC-08/09/11, LESSON profile for M1.1–M1.3, manual reopening, Z.4 without grade, Z.2/Z.3 view completion, deploy-time dates, the DPO's relayed values, J1",
+      "sha256": "074f259e25a0673d5120680c9420c33cec2d39150d192b0a212531f6e2084db0"
     },
     "02 Tervezet/LMS – hozzáférhetőségi sztenderd.md": {
       "reason": "CANON:QA-ERT-1, CANON:QA-ERT-3, CANON:QA-ERT-4, CANON:QA-ERT-5, CANON:QA-ERT-6, CANON:QA-IMPL-1, CANON:QA-IMPL-2, CANON:QA-IMPL-3, CANON:QA-IMPL-4, CANON:QA-IMPL-5, CANON:QA-IMPL-6, CANON:QA-IMPL-7, CANON:QA-BIZT-1 (interim text), CANON:QA-BIZT-2, CANON:QA-BIZT-3, CANON:QA-BIZT-6, CANON:QA-NYELV-1, -2, -3, -5, -6, -7, -8, -9, -10, -11, -12, -14, -15 (ERT-1, ERT-2, ERT-3, ERT-5, ERT-6, ERT-8, ERT-9, ERT-39, ERT-40, ERT-41, ERT-48, ADV-1, ADV-2, ADV-6, ADV-9, ADV-10, ADV-14, GYV-5, GYV-10, LMS-3, LMS-5, LMS-8, TERM-5): verifier-confirmed canon QA fixes after bdb94ab",
@@ -313,8 +317,8 @@
       "sha256": "f8dad7a05de9afff5a65cb01f2f76c2209243152659bb834dd3911bb25d9c24d"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "f0624b934973bb46ffed72a700a2e9fd9b89458857a084a1e6f2c73d09ca0362"
+      "reason": "HUM 22 (D-099, D-100): the final build's conditions carried into the source: BSPEC-08/09/11, LESSON profile for M1.1–M1.3, manual reopening, Z.4 without grade, Z.2/Z.3 view completion, deploy-time dates, the DPO's relayed values, J1",
+      "sha256": "a2539d6f77cac511f5d9e5dc1dc1cfeed8671dd092c6c9e0d22d65c792335590"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
       "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
