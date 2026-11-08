@@ -1,9 +1,9 @@
 {
   "schema_version": "2.0",
   "counts": {
-    "files_discovered": 84,
+    "files_discovered": 85,
     "files_with_assets": 65,
-    "files_asset_free": 19,
+    "files_asset_free": 20,
     "files_declared_asset_free": 9,
     "files_with_sources": 26,
     "sources": 123,
@@ -1416,6 +1416,15 @@
     },
     {
       "file": "02 Tervezet/LMS – activity manifest.md",
+      "unit": "LMS",
+      "module": "—",
+      "file_kind": "program-doc",
+      "assets": [],
+      "sources": [],
+      "asset_free_reason": ""
+    },
+    {
+      "file": "02 Tervezet/LMS – felületi szövegek.md",
       "unit": "LMS",
       "module": "—",
       "file_kind": "program-doc",

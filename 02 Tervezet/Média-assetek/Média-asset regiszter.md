@@ -16,9 +16,9 @@
 
 | Mutató | Érték |
 |---|--:|
-| Feldolgozott forrásfájl | **84** |
+| Feldolgozott forrásfájl | **85** |
 | Assetet tartalmazó fájl | 65 |
-| Ellenőrzötten asset nélküli fájl | 19 |
+| Ellenőrzötten asset nélküli fájl | 20 |
 | Forrásblokk (`@source`) | 123 |
 | Szemantikus asset | **417** |
 | Produkciós deliverable | **906** |
@@ -994,6 +994,7 @@ detektálható, ezért a `content_integrity.py --release-report` számolja.
 | 02 Tervezet/Gyermekvédelem – release gate.md | `GYERMEKVEDELEM` | program-doc | — |
 | 02 Tervezet/LMS – H5P runtime acceptance.md | `LMS` | program-doc | — |
 | 02 Tervezet/LMS – activity manifest.md | `LMS` | program-doc | — |
+| 02 Tervezet/LMS – felületi szövegek.md | `LMS` | program-doc | — |
 | 02 Tervezet/LMS – hozzáférhetőségi sztenderd.md | `LMS` | program-doc | — |
 | 02 Tervezet/Program terv.md | `PROGRAMTERV` | program-doc | — |
 | 02 Tervezet/RELEASE-READINESS.md | `RELEASEREADINESS` | program-doc | — |
