@@ -9,8 +9,8 @@
       "sha256": "4063c32e2b157f29db1ca83f7619942e14382b6d74affd1f0e5702e051abceb0"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
-      "reason": "D095-4D-L02: the glossary's editor-history remarks moved to „Korábbi alak” lines, kept off the learner page by the manifest's rule (owner decision D-095)",
-      "sha256": "4b5c2df39e5e650f25dc99b88307a979380d5ae8e3cc17e5e46c90f760f97c0f"
+      "reason": "D-095 Phase 4d L-02 (round 4 Q-03): the Leviatán note's former-form clause on its own „Korábbi alak” line, words unchanged",
+      "sha256": "948109f84345bbd3511da91df5f51b1bcec7a4e104a9e0990b3a13e40893305a"
     },
     "02 Tervezet/Gyermekvédelem – release gate.md": {
       "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",

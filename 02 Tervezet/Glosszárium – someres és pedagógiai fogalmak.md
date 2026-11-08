@@ -113,7 +113,8 @@ Természetből vett héber tulajdonnevek, a magyar ken korosztály-elnevezései.
 | **Kivsza** | bárány/juh | **10–12** | 🐑 | kiskamasz |
 | **Leviatán** | cet/leviatán | **13–17** | 🐋 | tinédzser / idősebb hanihok |
 
-- **Figyelem:** 🧑‍🏫 a hivatalos alak `Leviatán`, hosszú á-val, a forrás szerint. Korábbi alak: `Leviatan` – a 2026-10-02-i projektgazdai döntés szerint gépileg migrálva.
+- **Figyelem:** 🧑‍🏫 a hivatalos alak `Leviatán`, hosszú á-val, a forrás szerint.
+- **Korábbi alak:** `Leviatan` – a 2026-10-02-i projektgazdai döntés szerint gépileg migrálva.
 - **Forrás és státusz:** 🧑‍🏫 a korosztály-besorolás forrása az **„Oktatási terv 2025/2026 – Hasomer Hacair Magyarország”** (Google Docs; a Somer „A Hasomer Hacair Ideológiai Kézikönyve” oldaláról „25/26 Oktatási terv” néven linkelve: https://docs.google.com/document/d/1L1zJJv0EcQxsOF9eaxwARrmS5Qh3XbUA1wla0A08hZE ; megtekintve 2026-10-02). A bevezető szerint: „Parparim (6-9)”, „Kivsza (10-12)”, „Leviatán (13-17)”. A tananyag ezt a háromcsoportos modellt alkalmazza: **projektgazdai döntés (2026-10-02, HUM-SOMER-02)**; utólagos ellenőrzés (vétó/QA): a ken-vezető / mozgalmi felelős. A korábbi négycsoportos `Zorea 16+` modell történeti repo-maradvány; aktuális tananyagban külön kvucaként nem használható.
 
 ---
