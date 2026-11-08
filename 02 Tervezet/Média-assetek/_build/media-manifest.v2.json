@@ -1845,10 +1845,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 901,
+      "line": 903,
       "body_lines": [
-        902,
-        909
+        904,
+        911
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1865,10 +1865,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1055,
+      "line": 1057,
       "body_lines": [
-        1056,
-        1060
+        1058,
+        1062
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1885,10 +1885,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1079,
+      "line": 1081,
       "body_lines": [
-        1080,
-        1085
+        1082,
+        1087
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -2759,8 +2759,8 @@
       "unit": "M4.1",
       "module": "M4",
       "file_kind": "online-lecke",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le magadnak ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
-      "hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
+      "hash": "e0805976d04fadede366dd62a18a25f4b1027ca31a2715881ec63726a65d1c5a",
       "note": "",
       "for": "",
       "used_by": [
@@ -2919,8 +2919,8 @@
       "unit": "M4.3",
       "module": "M4",
       "file_kind": "online-lecke",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
-      "hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
+      "hash": "9568ee3ca4ec6cd5ce6136fb0d3ebab943b51266cde4a15f8fc97fec29cbef8a",
       "note": "",
       "for": "",
       "used_by": [
@@ -7918,8 +7918,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        902,
-        909
+        904,
+        911
       ],
       "source_text": "„Ez most **a te mondatod**.\nTalálj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
@@ -7948,7 +7948,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 933,
+      "line": 935,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7991,8 +7991,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1056,
-        1060
+        1058,
+        1062
       ],
       "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és a beadandóban erre építhetsz.”",
       "source_hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
@@ -8021,7 +8021,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 976,
+      "line": 978,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -8064,8 +8064,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1080,
-        1085
+        1082,
+        1087
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
@@ -17476,12 +17476,12 @@
         1189,
         1203
       ],
-      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le magadnak ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
-      "source_hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
+      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
+      "source_hash": "e0805976d04fadede366dd62a18a25f4b1027ca31a2715881ec63726a65d1c5a",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
+      "copy_hash": "e0805976d04fadede366dd62a18a25f4b1027ca31a2715881ec63726a65d1c5a",
       "spec_hash": "7eda32d2177bfdaef8149442bb273dd57bfc75f1c4791c8020c74709b21decc6",
       "deliverable_ids": [
         "M4.1-NAR-07",
@@ -19124,12 +19124,12 @@
         657,
         671
       ],
-      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
-      "source_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
+      "source_text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
+      "source_hash": "9568ee3ca4ec6cd5ce6136fb0d3ebab943b51266cde4a15f8fc97fec29cbef8a",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
+      "copy_hash": "9568ee3ca4ec6cd5ce6136fb0d3ebab943b51266cde4a15f8fc97fec29cbef8a",
       "spec_hash": "3ee23c858c684bdcf723395d0adce188bc28046276e63a2d308dd321928e3db0",
       "deliverable_ids": [
         "M4.3-NAR-03",
@@ -41459,8 +41459,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M4.1-NAR-07-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le magadnak ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
-      "text_hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
+      "text_hash": "e0805976d04fadede366dd62a18a25f4b1027ca31a2715881ec63726a65d1c5a",
       "blockers": [
         "R2",
         "R3"
@@ -41483,8 +41483,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M4.1-NAR-07-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le magadnak ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
-      "text_hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
+      "text_hash": "e0805976d04fadede366dd62a18a25f4b1027ca31a2715881ec63726a65d1c5a",
       "blockers": [
         "R2",
         "R3"
@@ -41507,8 +41507,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M4.1-NAR-07-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le magadnak ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
-      "text_hash": "c88971559dfe4906869d31ba7ab5166d2085ffacd80212b865c7d3008fb5aff9",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nHa idáig eljutottál,\nakkor már tudod, hogy a testtartásod, a tekinteted\nés az, hova állsz a térben,\nnagyon sokat üzen arról, mennyire vagy jelen.\n\nNem az a cél, hogy ne izgulj,\nhanem az, hogy legyen **2 dolog**, amire tudatosan figyelsz,\namikor a kvucád elé állsz.\n\nMost írd le ezt a két dolgot –\nez lesz a saját minivállalásod a következő peulára.”",
+      "text_hash": "e0805976d04fadede366dd62a18a25f4b1027ca31a2715881ec63726a65d1c5a",
       "blockers": [
         "R2",
         "R3"
@@ -42677,8 +42677,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M4.3-NAR-03-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
-      "text_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
+      "text_hash": "9568ee3ca4ec6cd5ce6136fb0d3ebab943b51266cde4a15f8fc97fec29cbef8a",
       "blockers": [
         "R2",
         "R3"
@@ -42701,8 +42701,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M4.3-NAR-03-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
-      "text_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
+      "text_hash": "9568ee3ca4ec6cd5ce6136fb0d3ebab943b51266cde4a15f8fc97fec29cbef8a",
       "blockers": [
         "R2",
         "R3"
@@ -42725,8 +42725,8 @@
       "status": "pending-rights",
       "provenance": "ai",
       "source_id": "M4.3-NAR-03-VO",
-      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le magadnak röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
-      "text_hash": "a5385923c885c94213befbd5b87c406109456096bda9ae541042b9bcdefc158c",
+      "text": "„Köszi, hogy végigmentél ezen a leckén.\n\nA peulákon nemcsak az számít,\nhogy mit mondasz,\nhanem az is, **hogyan kérdezel**.\n\nVan, hogy nyitott kérdésre van szükség,\nvan, hogy egy tisztázó kérdés segít,\nés van, amikor egy egyszerű zárt kérdés elég a lezáráshoz.\n\nMost írd le röviden:\n**melyik kérdéstípusból szeretnél tudatosan többet használni**,\nés melyikből kevesebbet a következő peulákon.”",
+      "text_hash": "9568ee3ca4ec6cd5ce6136fb0d3ebab943b51266cde4a15f8fc97fec29cbef8a",
       "blockers": [
         "R2",
         "R3"
