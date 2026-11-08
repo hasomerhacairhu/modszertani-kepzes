@@ -359,7 +359,7 @@
 | **0** | Nincs operációs tábla; nem derül ki, mikor mi történik és ki felel. |
 | **1** | Van időbeosztás, de **hiányos** (nincs felelős, vagy az idők nem adnak ki értelmes egészet / túllépik a tervezett időkeretet – a 45 perc csak példa). |
 | **2** | A **legalább 3 soros** (4 sor ajánlott, de nem kötelező) idő–feladat–felelős tábla összeáll (kezdés→zárás), a madrih–hanih arány és a tér átgondolt, az idők reálisak. |
-| **3** | Az operáció **a Zmán Kvucá-checklist 5 területét tükrözi** (idő/hely, arány, anyag/B-terv, hozzáférhetőség, gyermekvédelem), és van benne tartalék / puffer a csúszásra. |
+| **3** | Az operáció **a Zmán Kvucá-checklist 5 területét tükrözi** (idő/hely, arány, anyag/B-terv, hozzáférhetőség, gyermekvédelem), és van benne tartalék / puffer a csúszásra – a táblában vagy a mellé leadott checklistben. |
 
 ***
 

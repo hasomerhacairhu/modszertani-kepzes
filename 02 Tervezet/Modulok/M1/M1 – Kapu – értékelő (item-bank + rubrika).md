@@ -52,7 +52,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 |---|---|---|
 | **Még nem (0)** | Nincs időpont és nincs kontextus; a helyzet azonosíthatatlan, vagy csak a viselkedésre/érzésre utal. | „Amikor így viselkedsz, rossz nekem.” / „Mindig ezt csinálod.” |
 | **Rendben (1)** | Van valamilyen helyzet-megjelölés, de **tág / általános**, nem köthető konkrét alkalomhoz. | „Amikor a peulán ilyen voltál…” / „A kenben szoktál…” |
-| **Erős (2)** | Érthető a **konkrét alkalom**: az idő vagy a hely (vagy mindkettő) ÉS a helyzet releváns szakasza azonosítható. (Pontozói példák: „ma” + „a kör második felében” = Erős; „a peulán”, szakasz nélkül = Rendben, lásd 4.1.) | „Amikor ma a játék közben, a kör második felében…” |
+| **Erős (2)** | Érthető a **konkrét alkalom**: az idő vagy a hely (vagy mindkettő) ÉS a helyzet releváns szakasza azonosítható. (Pontozói példák: „ma” + „a kör második felében” = Erős; „a peulán”, szakasz nélkül = Rendben.) | „Amikor ma a játék közben, a kör második felében…” |
 
 ### 2. sor – Viselkedés (B) megfigyelhetősége (nincs címke)
 
@@ -86,7 +86,7 @@ A rubrika **megfigyelhető szövegjegyeket** pontoz, nem „jó/rossz” összbe
 |---|---|---|
 | **Még nem (0)** | **Személyt minősít / támad**: általánosító „mindig/soha”, jellem-címke, gúny, leszólás. | „Te mindig szétvered a peulát.” / „Reménytelen vagy.” |
 | **Rendben (1)** | **Alapvetően a viselkedésről** szól, de van benne egy-egy éles/szúrós fordulat vagy enyhe minősítés. | „Megint elkéstél, ami azért elég gáz tőled.” |
-| **Erős (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címkementes és nem általánosít**, a másik **nem védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de az „Erős” szint kritériuma a viselkedés-fókuszú hangnem, nem az „én-üzenet” nyelvtan; a leckékben tanított sablonban a B „te”-, az I „én / a kvuca” alakú.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt megtartani a figyelmet – jó lenne, ha a többiek is több teret kapnának.” |
+| **Erős (2)** | Végig a **viselkedésre és a hatásra** fókuszál, **címkementes és nem általánosít**, a másik **nem védekezve** tudna reagálni; nincs gúny. (A hatást [I] meg lehet fogalmazni én-perspektívából is – „úgy éreztem…” –, de az „Erős” szint kritériuma a viselkedés-fókuszú hangnem, nem az én-perspektíva; a leckékben tanított sablonban a B „te”-, az I „én / a kvuca” alakú.) | „Amikor ma a körben háromszor közbevágtál, nehéz volt megtartani a figyelmet – jó lenne, ha a többiek is több teret kapnának.” |
 
 ***
 

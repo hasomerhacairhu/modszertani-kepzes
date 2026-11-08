@@ -143,7 +143,7 @@ A modul végére a madrih…
       * puha vs. éles kapu (3. item),
       * **kapukövetkezmény** – 1 rövid szcenárió-item: „mi történik, ha egy éles kapu elsőre nem teljesül?” → válaszd ki a **helyes következményt** (visszajelzés, a kötelező F-peula (javítási út), majd újrapróbálkozás – nem kizárás; éles kapunál a következő kapuzott tartalom addig nem nyílik meg, amíg a minimumfeltétel és a szükséges emberi megerősítés nem teljesül – a definíció: Program terv §5) – az M0.3 SLIDE 6 „mi történik, ha…?” mintájára (4. item),
       * **online hangnem / szabály** – 1 felismerő item: melyik reakció / szabály illik egy **dugma isit** madrihhoz az online térben (chat, komment) – az M0.4 SLIDE 3–4 helyzeteinek és a „3 egyszerű szabály” logikájára építve (5. item),
-      * **éves ív** – 1 felidéző item: melyik modulban lesz szó a visszajelzésről, a red flag-ekről és a gyermekvédelemről, illetve a peulatervezésről – az M0.1 SLIDE 2 idővonalára építve (6. item, párosítás),
+      * **éves útiterv** – 1 felidéző item: melyik modulban lesz szó a visszajelzésről, a red flag-ekről és a gyermekvédelemről, illetve a peulatervezésről – az M0.1 SLIDE 2 idővonalára építve (6. item, párosítás),
       * „hol találom a modulokat / leckéket a Moodle-ben?” (7. item).
     * **Az itemek szövege, kulcsa, disztraktorai és opciónkénti visszajelzése:** lásd lent, „Az M0 belépőkvíz itemei” alatt. A „jelzési út” item (2.) tartalmi alapja az M0.2 SLIDE 4-ben is tanított ötlépéses jelzési út (M3.B lépéstérkép): észleld, és vedd komolyan; hallgasd meg, és ne ígérj teljes titoktartást; ne nyomozz, ne konfrontálj, és ne próbáld egyedül megoldani; azonnal vond be a kijelölt Memunát (összeférhetetlenség esetén a név szerint kijelölt helyettesét); közvetlen veszélynél előbb a biztonság és a 112, utána a belső jelzés.
     * Több próbálkozás engedélyezett. A §6 stáb-jelzés (átlag és témakörszintű arány) az **első próbálkozás** item-statisztikájából számol, mert a visszajelzés utáni újrapróbálkozás felfelé torzítaná az eredményt.
@@ -156,7 +156,7 @@ A modul végére a madrih…
       | 3. puha vs. éles kapu | 4. Kapuk és completion-logika |
       | 4. kapukövetkezmény (mi történik, ha…?) | 4. Kapuk és completion-logika (helyes következmény) |
       | 5. online hangnem / szabály | 5. Dugma isit az online térben |
-      | 6. éves ív (melyik modulban lesz szó …?) | 1. Éves ív és keret átlátása |
+      | 6. éves útiterv (melyik modulban lesz szó …?) | 1. Éves ív és keret átlátása |
       | 7. hol találom a modulokat / leckéket | 3. Alapszintű technikai működés (+ 1. éves ív tájékozódás) |
 
       Így a „mely kérdés / témakör megy rosszul → melyik modulban erősítsünk” elemzés (§6) **item-szinten** értelmezhető.
@@ -179,7 +179,7 @@ A modul végére a madrih…
 ### Az M0 belépőkvíz itemei
 
 * **Tanulói bevezető (a Moodle Quiz leírásába; előtte a fenti „just-in-time” adatkezelési tájékoztató; forrás-szerzés e szakasz alapján, AP-2026-10-18-01).** A visszajelzésről szóló mondat a Review options rögzítésétől függ: a forrás nem adja meg, mikor látja a tanuló a hibás válasz visszajelzését (`LMS – activity manifest.md` BSPEC-11, nyitott: LMS-gazda + értékelési felelős, az LMS-M5-06 mintájára). Amíg ez nincs rögzítve, a mondat nem élesíthető.
-  > Ez a rövid kvíz azt nézi meg, mennyire állnak már össze benned a képzés alapjai. Hét kérdést kapsz a madrih szerepéről, a gyermekvédelmi jelzési útról, a kapukról, az online hangnemről, az éves ívről és arról, hol találod a leckéket. Mindegyikre válaszolj: a teljesítéshez ez kell, az eredményed nem számít bele, és nincs ponthatár. Ha valamit elvétesz, a visszajelzés megmondja, miért nem jó, és hol találod a helyes szabályt.
+  > Ez a rövid kvíz azt nézi meg, mennyire állnak már össze benned a képzés alapjai. Hét kérdést kapsz a madrih szerepéről, a gyermekvédelmi jelzési útról, a kapukról, az online hangnemről, az éves útitervről és arról, hol találod a leckéket. Mindegyikre válaszolj: a teljesítéshez ez kell, az eredményed nem számít bele, és nincs ponthatár. Ha valamit elvétesz, a visszajelzés megmondja, miért nem jó, és hol találod a helyes szabályt.
 
 * **Forrás és ellenőrzés:** az itemek szövegét és a kulcsot a projektgazda adta meg (projektgazdai döntés, 2026-10-02); a 3. és a 7. item disztraktorai, a 6. item legördülő listája és a hibás válaszokhoz tartozó visszajelzések szerkesztői kiegészítések. A 4. item D) disztraktora és visszajelzése a BS-D5 szerint cserélve, mert a Q-REL-2 után a korábbi változat részben igaz lett (projektgazdai döntés, 2026-10-04); a helyes válasz és a kulcs változatlan. A 4. és a 7. item törzse, valamint a 7. item C) opciójának szövege az ERT-11 szerint nyelvileg javítva (projektgazdai döntés, 2026-10-12); a ✅ helye és a kulcs változatlan. Utólagos ellenőrzés (vétó/QA): az értékelési felelős, az 1–2. itemnél a Memuna is.
 * **Beállítás:** Moodle Quiz, 7 item, ponthatár (cut-score) nélkül. A completion-feltétel: mind a 7 item megválaszolva, eredménytől függetlenül; az első próbálkozás diagnosztikus adat (§6). Hogy a Moodle-beállítás kikényszeríti-e mind a 7 item megválaszolását, vagy ezt a stábnak kell ellenőriznie, a stagingben kell igazolni.
@@ -215,7 +215,7 @@ Egy hanih olyan dolgot mond, ami bántalmazásra vagy közvetlen veszélyre utal
 Mi a különbség a puha és az éles kapu között?
 
 * A) Puha = ha elsőre nem sikerül, kiesel. Éles = ha elsőre nem sikerül, szintén kiesel.
-  *Visszajelzés:* Nem jó: egyik kapu sem a kiesésről szól – a puha kapu nem zár el a továbblépéstől, az éles kapunál pedig visszajelzést és javítási lehetőséget kapsz; lásd: M0.3, „Puha vs. éles kapu”.
+  *Visszajelzés:* Nem jó: egyik kapu sem a kiesésről szól – a puha kapu eredménye nem zár el a továbblépéstől, az éles kapunál pedig visszajelzést és javítási lehetőséget kapsz; lásd: M0.3, „Puha vs. éles kapu”.
 * B) Puha = formatív (fejlesztő célú) és nem blokkol. Éles = a minimum + szükséges megerősítés nélkül nem nyílik a következő kapuzott tartalom. ✅
 * C) Puha = magától teljesül, akkor is, ha nem csinálsz vele semmit. Éles = csak ezzel kell ténylegesen foglalkoznod.
   *Visszajelzés:* Nem jó: a puha kaput is el kell végezned, csak az eredménye nem zár el a továbblépéstől; lásd: M0.3, „Puha vs. éles kapu”.
@@ -246,7 +246,7 @@ Melyik online reakció dugma isit?
 * D) Nem reagálni semmire.
   *Visszajelzés:* Nem jó: ha valakit online bántanak, a hallgatás magára hagyja az érintettet, ezért tisztelettel közbelépsz, és szükség esetén segítséget kérsz; lásd: M0.4, 3–4. dia (online helyzetek és szabályok).
 
-**6. item – éves ív (párosítás)**
+**6. item – éves útiterv (párosítás)**
 
 Melyik modulban lesz szó ezekről? Párosítsd a témát a modul kódjával: visszajelzés / red flag és gyermekvédelem / peulatervezés
 

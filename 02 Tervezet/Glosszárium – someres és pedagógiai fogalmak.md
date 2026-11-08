@@ -181,7 +181,7 @@ Strukturált, de **nem frontális/sulis** nevelés: élmény-, részvétel- és 
 
 ### teljesítési kapu
 Olyan kapu, amely a modul teljesítését egy **előre rögzített teljesítési minimumhoz** köti (éles kapunál a továbblépést is), nem egyszeri „megbuktató vizsgához”. Lehet rubrika- vagy kvízalapú; a cél, hogy a szükséges tudás vagy készség ténylegesen meglegyen, és javítás után újra lehessen próbálni. A régebbi fejlesztői jegyzetekben előfordulhat a `mastery-kapu` angol-magyar keverék, de **tanulói nyelven a `teljesítési kapu` a kanonikus alak**.
-- **Puha kapu:** formatív, **nem blokkol**.
+- **Puha kapu:** formatív, **nem blokkol**: az eredménye nem zár el a továbblépéstől; ha beadandó is tartozik hozzá, a következő modul arra vár, hogy a mentor megerősítse: a beadás érdemi, nem üres.
 - **Éles kapu:** a minimumfeltétel és a szükséges emberi megerősítés teljesülése nélkül **nincs következő kapuzott tartalom**.
 - A két kaputípus definíciója itt és a `Program terv.md` §5-ben él (ott az is, melyik modul kapuja puha és melyiké éles); máshol erre hivatkozz.
 - **Próbálkozások:** **1 normál + 1 javító próbálkozás**; éles kapunál a javító próbálkozás a kötelező F-peula után nyílik (a képző nyitja meg, vagy az F-peula jelenléti completionje a feltétele), puha kapunál (M2, M4) és a Z-nél automatikus; további próbálkozást a képző nyithat, kézzel. A completionhöz **a legjobb megerősített eredmény** számít. Egy már megszerzett teljesítés **nem romolhat vissza** önkéntes, gyakorló újrabeadástól; a legfrissebb próbálkozás visszajelzésként megmaradhat. A szabály a kapukra vonatkozik, a diagnosztikus, formatív kvízekre nem.
