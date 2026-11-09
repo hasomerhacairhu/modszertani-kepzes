@@ -1,12 +1,12 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "HUM 22 (D-100): M0.2's relayed DPO values and BSPEC-10; the M0.4-ILL-01 alt text written from the produced picture (M0.4 :118)",
-      "sha256": "59cb0b51bcd92c76c75720de8f2a75bd35f759454e1abe4b2fd9ee0051eb121c"
+      "reason": "HUM 22 (D-100): contacts filled at deploy; the M1 lessons' relayed DPO values; the author items as tested; the M7 plugin",
+      "sha256": "7ad9cd54e5bac1d092f2abe56343d0402f4f31cfe3b58ad30aa81a6babfb1e73"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "HUM 22 (D-100): M0.2's relayed DPO values and BSPEC-10; the M0.4-ILL-01 alt text written from the produced picture (M0.4 :118)",
-      "sha256": "556f48bcd3f4e489938f766217bc1f78182a09f2903b5184bb63be1d087d1791"
+      "reason": "HUM 22 (D-100): contacts filled at deploy; the M1 lessons' relayed DPO values; the author items as tested; the M7 plugin",
+      "sha256": "00d209966a46ab904db771e46795f69f130deb72f7d019785f85a8bf62073fc5"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -21,8 +21,8 @@
       "sha256": "f4a9c61f147064cf269538fa3794360bccdae66e4494aeabfffcaf7f22efc1bf"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "HUM 22 (D-100): M0.2's relayed DPO values and BSPEC-10; the M0.4-ILL-01 alt text written from the produced picture (M0.4 :118)",
-      "sha256": "f3d8aae9d899659161dcb85576333bf584e87e51dae17a29544976bcb6058d9c"
+      "reason": "HUM 22 (D-100): contacts filled at deploy; the M1 lessons' relayed DPO values; the author items as tested; the M7 plugin",
+      "sha256": "706d6765032688eba284c666886e93a3d1dadd3e5f150cdf202e2d2c5b3c9df7"
     },
     "02 Tervezet/LMS – felületi szövegek.md": {
       "reason": "HUM 22 (D-100): M0.2's relayed DPO values and BSPEC-10; the M0.4-ILL-01 alt text written from the produced picture (M0.4 :118)",

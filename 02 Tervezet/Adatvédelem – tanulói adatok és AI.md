@@ -88,7 +88,7 @@ Külön review szükséges legalább:
 - Z.2/Z.4 személyes reflexiók és mentor-hozzáférés;
 - a Moodle-oldali kötelező szövegmezők (`LMS – activity manifest.md`, TEXT-C profil: nem anonim Moodle Feedback, a válasz a tanuló nevével rögzül, és a tanuló a saját válaszát felülírhatja): activitynként a fenti mezőtáblázat szerint;
 - a Z.3 kötelező szöveges válaszai (LMS-Z-06): a megőrzés a képzés vége után 90 nap, a „Szabad szöveges reflexió” sora szerint (a DPO döntése a projektgazda közlésével, 2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz; BS-D6);
-- az M0.1 háromoldalas Moodle Feedbackje (LMS-M0-07: személyhez köthető véleményválaszok): a megőrzés a képzés vége után 90 nap, utána törlés vagy anonimizálás; a nevek más tanulónak nem látszanak; a válaszokat csak a csoport mentora látja (a DPO döntése a projektgazda közlésével, 2026-11-08, 22. szakasz; CB-C-0009). Az M0.2 natív Moodle Leckéje (LMS-M0-02: egyéni kérdésoldal-válaszok): ugyanígy, a képzés vége után 90 nap, utána törlés vagy anonimizálás; a válaszokat csak a csoport mentora látja, más tanuló soha (a DPO döntése a projektgazda közlésével, 2026-11-08, 22. szakasz; CB-C-0036, 20. szakasz);
+- az M0.1 háromoldalas Moodle Feedbackje (LMS-M0-07: személyhez köthető véleményválaszok): a megőrzés a képzés vége után 90 nap, utána törlés vagy anonimizálás; a nevek más tanulónak nem látszanak; a válaszokat csak a csoport mentora látja (a DPO döntése a projektgazda közlésével, 2026-11-08, 22. szakasz; CB-C-0009). Az M0.2 és az M1.1–M1.4 natív Moodle Leckéi (LMS-M0-02, LMS-M1-01…LMS-M1-04: egyéni kérdésoldal-válaszok): ugyanígy, a képzés vége után 90 nap, utána törlés vagy anonimizálás; a válaszokat csak a csoport mentora látja, más tanuló soha (a DPO döntése a projektgazda közlésével, 2026-11-08, 22. szakasz; CB-C-0036, 20. szakasz);
 - Z.4 Moodle Feedback.
 
 A lista M2-, M3- és M7-sorának szabálya **projektgazdai döntés (2026-10-02)**; utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős, az M3-sornál a Memuna is, az M7-sornál a programvezető is.
@@ -246,7 +246,7 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 
 | Mező | Mi kerül a tanulói szövegbe | Hová | Állapot |
 |---|---|---|---|
-| `PRIVACY_CONTACT_TO_CONFIGURE` | az adatvédelmi kontakt tényleges elérhetősége, külön sorban | a „Kihez fordulhatsz?” bekezdés alá | nyitott: a HUM-PRIV-01 szerint jóváhagyott kontakt (`Program terv.md` §4) |
+| `PRIVACY_CONTACT_TO_CONFIGURE` | az adatvédelmi kontakt tényleges elérhetősége, külön sorban | a „Kihez fordulhatsz?” bekezdés alá | a telepítéskor kerül be, a szervezet jóváhagyott kontaktjából (HUM-PRIV-01, `Program terv.md` §4; projektgazdai döntés, 2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz); amíg üres, a kurzus valódi tanulónak nem nyitható meg |
 | `DPO_RETENTION_TO_CONFIRM` | egy új sor a „Meddig őrizzük meg?” listába: „a Z.3 szöveges válaszaidat:” és utána a DPO által rögzített megőrzés | a „szöveges reflexióidat” sor után | kitöltve (2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz): a lenti listában |
 
 > **Adatvédelem a kurzusban – röviden**

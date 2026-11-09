@@ -39,6 +39,18 @@ A kérdések és a projektgazda választásai (a választott opció címkéje sz
    megőrzése a képzés vége után 90 nap, utána törlés vagy anonimizálás; csak a csoport mentora látja őket, más tanuló
    soha; ugyanaz a modell, mint az M0.1 kérdőívénél)
 
+9. „Contact data: the privacy contact line and the help block's channels block about 10 activities, because every
+   privacy notice ends with „Kihez fordulhatsz? …”. Should they be filled in at deployment, the same way as the cohort
+   dates?” → „Fill at deploy (Recommended)” (az opció szövege: a kurzuscsomag jelölt helyet visz, amelyet a telepítés
+   tölt ki a szervezet értékeiből; amíg egy hely üres, a telepítés nem nyitja meg a kurzust tanulónak)
+10. „M1.1–M1.4 are now Moodle lessons too, and they store each learner's answers to their question pages, as M0.2
+    does. What should I record as the DPO's decision for them?” → „Same as M0.2 (Recommended)”
+11. „M7's quiz uses the qtype_multichoiceset plugin (all-or-nothing multi-select), version 1.10.2. … Do you accept it
+    for the production site (D-030 D7)?” → „Accept the plugin (Recommended)”
+
+A szerzői tételeket (22. szakasz, „Szerzői tételek”) a D-096 és a D-097 alapján a végrehajtó dönti el: a tesztelt
+megvalósítás jóváhagyása, új szöveg nélkül.
+
 A BSPEC-10 (az M0.2 navigációs beállításai: a D-090 iránya, a builder ellenőrzött „config B” beállításai) az 1. válasz
 LMS-gazdai szerepe és a D-099 („i give you all”) alapján rögzül.
 
