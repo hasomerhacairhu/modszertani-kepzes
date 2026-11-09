@@ -5,8 +5,8 @@
       "sha256": "7ad9cd54e5bac1d092f2abe56343d0402f4f31cfe3b58ad30aa81a6babfb1e73"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
-      "sha256": "37385036ee8dbf96f618e68152cc01b628e91e01142a387a260ddee359ee1149"
+      "reason": "CB-C-0028, D-102: a projektgazda mint szerző jóváhagyta az M1.1 mondatát",
+      "sha256": "2d14db2962d41e51d791bd3eec61667d1613f26393f6c4a3c50320cc3ae7396e"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
