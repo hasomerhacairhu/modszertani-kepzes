@@ -1,12 +1,12 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "HUM 22 (D-100): contacts filled at deploy; the M1 lessons' relayed DPO values; the author items as tested; the M7 plugin",
-      "sha256": "7ad9cd54e5bac1d092f2abe56343d0402f4f31cfe3b58ad30aa81a6babfb1e73"
+      "reason": "D-102 Q3: PROPOSED adatvédelmi tájékoztatók",
+      "sha256": "19cfed257cc34291f5a834b1ee824f9359b5e6b24e2719b329d59b3e3fe41ffa"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "CB-C-0028, D-102: a projektgazda mint szerző jóváhagyta az M1.1 mondatát",
-      "sha256": "2d14db2962d41e51d791bd3eec61667d1613f26393f6c4a3c50320cc3ae7396e"
+      "reason": "D-102 Q3: PROPOSED adatvédelmi tájékoztatók",
+      "sha256": "d5917c29dc885ff78ad7ace19f9084b0b7010e42c8da3d1eb91ad13b4e223c8c"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
