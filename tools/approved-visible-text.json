@@ -5,8 +5,8 @@
       "sha256": "7ad9cd54e5bac1d092f2abe56343d0402f4f31cfe3b58ad30aa81a6babfb1e73"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "HUM 22 (D-100): the M6.3 alt texts match the produced pictures",
-      "sha256": "f9ed049765126f42e3d0db86121d8d35419e4290322ac9ac9def826c3890be17"
+      "reason": "CB-C-0028, D-102: a projektgazda mint szerző jóváhagyta az M1.1 mondatát",
+      "sha256": "2d14db2962d41e51d791bd3eec61667d1613f26393f6c4a3c50320cc3ae7396e"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -17,12 +17,12 @@
       "sha256": "5492fe1f17a8c7a67704cdcc7d2897deb0527c751197f73721eb02750965d40e"
     },
     "02 Tervezet/LMS – H5P runtime acceptance.md": {
-      "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",
-      "sha256": "f4a9c61f147064cf269538fa3794360bccdae66e4494aeabfffcaf7f22efc1bf"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "708967da1d2cc803071121b4332a711aeb1002a02bb03415f7373505078d5cb4"
     },
     "02 Tervezet/LMS – activity manifest.md": {
-      "reason": "HUM 22 (D-100): contacts filled at deploy; the M1 lessons' relayed DPO values; the author items as tested; the M7 plugin",
-      "sha256": "706d6765032688eba284c666886e93a3d1dadd3e5f150cdf202e2d2c5b3c9df7"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "feac29e86d3c2014eece7b8d4c5ad35595486be154fa66e77e938daa33ed8b9a"
     },
     "02 Tervezet/LMS – felületi szövegek.md": {
       "reason": "HUM 22 (D-100): M0.2's relayed DPO values and BSPEC-10; the M0.4-ILL-01 alt text written from the produced picture (M0.4 :118)",
@@ -65,8 +65,8 @@
       "sha256": "aae717d78a16076eeeb3f7c7fc78acb2b1cb36c86283bce2e63bd3a4a1827408"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
-      "sha256": "0af983ae33e9c4d208486dfa121374d57271112495e4153c9ad3f89011f74a81"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "c5e791f382c281781e8e57ed8cae396dd5f7556fd712119cd4e90ed4434397d0"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
       "reason": "D-098: Z.3 model sentence (Phase 4e D8A-F002), M1.2 sentence 5 (C-059)",
@@ -93,12 +93,12 @@
       "sha256": "921134d140b737ae2e576dafc52980584dab3d034302c8034f5c99ff7eac96ee"
     },
     "02 Tervezet/Modulok/M2/M2 – Kapu – értékelő (item-bank + rubrika).md": {
-      "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
-      "sha256": "e54defef0e076719cfa3365e92f2c395a93f048336a36a0fe616c6448d898eee"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "03dd564f855fc2ef200969f350fc76a04e5abb8bcba6fe602d531fef082ebef0"
     },
     "02 Tervezet/Modulok/M2/M2 – Ki vagyok madrihként – Identitás, Somer-értékek és dugma isit.md": {
-      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
-      "sha256": "302fd5716b61c5e2b346670d1e807f3624b2c7976b2ae98465f45334e7268331"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "e62f0d3800fbc224e42454caeaf78f755e432cfa6d2934a1d51f774d3260894e"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.1 – Ki vagyok én madrihként – identitás-körök.md": {
       "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
@@ -165,8 +165,8 @@
       "sha256": "16bb715253ee50b3a7798d2e8c18bc9675477cb79158e9af3a6e607e284dafe9"
     },
     "02 Tervezet/Modulok/M4/M4 – Hallható és érthető vagyok – Kiállás, kapcsolódás & kérdezéstechnika.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "c19a80b40cd65b25cfeef0805f77a32fa6ef22f61e6176c8ec272f26255ac82c"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "a7dd2cab845c6960098175ce4047881a89e37f5214a33df5a92b840e3f0d37f7"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -181,8 +181,8 @@
       "sha256": "73341e5df88195e5746451a8dc5825437c5dfde904792295f124f0560418476a"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.4 – 45 mp-es peulabemutató – vázlat egy konkrét kvucára.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "beb9179b2789ecca3efda01077ce8f49c56e5ea34ed26ca96d7ac17caa6897a1"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "afc79045f66df8b0548f0740ab1637735f6df85010ec2b3e92dc3ab336356279"
     },
     "02 Tervezet/Modulok/M4/Peulák/M4.A – Állj oda! – Kiállás & jelenlét a térben.md": {
       "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
@@ -317,8 +317,8 @@
       "sha256": "f8dad7a05de9afff5a65cb01f2f76c2209243152659bb834dd3911bb25d9c24d"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.4 – Záró reflexió + képzési visszajelzés.md": {
-      "reason": "HUM 22 (D-099, D-100): the final build's conditions carried into the source: BSPEC-08/09/11, LESSON profile for M1.1–M1.3, manual reopening, Z.4 without grade, Z.2/Z.3 view completion, deploy-time dates, the DPO's relayed values, J1",
-      "sha256": "a2539d6f77cac511f5d9e5dc1dc1cfeed8671dd092c6c9e0d22d65c792335590"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "69b378faf987f7bb47df048c3183acb2dbc5d0c862ef3ad27028a3872cc7eb71"
     },
     "02 Tervezet/Modulok/Z/Peulák/Z.A – Mit viszek magammal – Záró kvuca-peula.md": {
       "reason": "ADV-1, ADV-3, ADV-4, ADV-7, ADV-14, ADV-15, ERT-1, ERT-2, ERT-3, ERT-38, ERT-39, GYV-5, GYV-6, GYV-8, GYV-11, LMS-1, PRG-2, PRG-6, PRG-11, PRG-16: Z implementation of the HUM section 14 owner decisions",
@@ -329,8 +329,8 @@
       "sha256": "d970ea9423845cce88a4a6bb5e3a071ff67ab4ff4d4e5b5b0f5e07738e5b78cf"
     },
     "02 Tervezet/Program terv.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "43c2d2dcb042cf32d49c27c1d4331e4b4e2ad4b1455ac0a9a74806aa33a3c4bf"
+      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
+      "sha256": "cb5ca136c686d8db9057ce78e57a0cf6038308a51419d24cb1c60c547bb45909"
     },
     "02 Tervezet/RELEASE-READINESS.md": {
       "reason": "AP-2026-10-18-01 final QA: QF-BIZT-1, QF-BIZT-3, QF-BIZT-4, QF-PED-1, QF-PED-2, QF-PED-4, QF-PED-5, QF-PED-6, QF-ERT-1, QF-ERT-2, QF-ERT-3, QF-ERT-4, QF-IMPL-1, QF-IMPL-2, QF-IMPL-4, QF-IMPL-5, QF-IMPL-6, QF-IMPL-7, QF-IMPL-8, QF-IMPL-9, QF-NYELV-1..20, HUM-SAFE-01, CB-C-0036: lesson handoff, Lesson a11y, drop-zone feedback, BSPEC-10/11, release gates, wording; 112 / Kek Vonal canon sentence restored pending Memuna",
