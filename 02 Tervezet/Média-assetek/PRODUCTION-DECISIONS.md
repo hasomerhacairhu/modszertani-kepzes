@@ -290,7 +290,7 @@ hang-jogosultságot. Ebből ma **egy sincs meg**; a teljes lista soronként:
 > jogi/adatvédelmi felelős, az érintett jogosultak és a Memuna.
 
 **A válasz helye:**
-- generátor / szolgáltató neve és verziója: ⟬KITÖLTENDŐ⟭
+- generátor / szolgáltató neve és verziója: OpenAI ChatGPT képgenerálás (az image-use web backendjén át; a generálásonkénti backend, „seed n/a” és sha256 a produkciós nyilvántartásban); a J1 jogi jóváhagyója a projektgazda (projektgazdai döntés, 2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz; CB-C-0003)
 - kereskedelmi-oktatási felhasználást engedő licenc hivatkozása: ⟬KITÖLTENDŐ⟭
 - avatar-/képmás-jogosultság igazolása: ⟬KITÖLTENDŐ⟭
 - hang-jogosultság (voice-talent release vagy klónozási engedély): tartalmilag tisztázott — mindkét hang tulajdonosai kifejezetten hozzájárultak (projektgazdai tényközlés, 2026-10-03, VO D-01); a formális, nem személyes hivatkozás (`VOICE-RIGHTS-REGISTER`): ⟬KITÖLTENDŐ⟭

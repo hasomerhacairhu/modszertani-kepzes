@@ -87,8 +87,8 @@ Külön review szükséges legalább:
 - a modulhubok és az F-peulák nem Moodle-ben vezetett mentori jegyzete, valamint a Google-sablonok (M5.4, M6);
 - Z.2/Z.4 személyes reflexiók és mentor-hozzáférés;
 - a Moodle-oldali kötelező szövegmezők (`LMS – activity manifest.md`, TEXT-C profil: nem anonim Moodle Feedback, a válasz a tanuló nevével rögzül, és a tanuló a saját válaszát felülírhatja): activitynként a fenti mezőtáblázat szerint;
-- a Z.3 kötelező szöveges válaszai (LMS-Z-06): a megőrzési sor („Szabad szöveges reflexió” vagy „Assignment / peulatervek”) DPO-döntés (BS-D6), a repository nem dönti el; amíg nincs rögzítve, az activity valódi madrihnak nem nyitható meg (Program terv §4);
-- az M0.1 háromoldalas Moodle Feedbackje (LMS-M0-07: személyhez köthető véleményválaszok) és az M0.2 natív Moodle Leckéje (LMS-M0-02: egyéni kérdésoldal-válaszok): az adatkör, a hozzáférés és a megőrzés/törlés DPO-döntés; a DPO írásos jóváhagyásáig valódi tanulóval nem használhatók (projektgazdai döntés, 2026-10-15, CB-C-0036, `Emberi jóváhagyás szükséges.md` 20. szakasz; CB-C-0009);
+- a Z.3 kötelező szöveges válaszai (LMS-Z-06): a megőrzés a képzés vége után 90 nap, a „Szabad szöveges reflexió” sora szerint (a DPO döntése a projektgazda közlésével, 2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz; BS-D6);
+- az M0.1 háromoldalas Moodle Feedbackje (LMS-M0-07: személyhez köthető véleményválaszok): a megőrzés a képzés vége után 90 nap, utána törlés vagy anonimizálás; a nevek más tanulónak nem látszanak; a válaszokat csak a csoport mentora látja (a DPO döntése a projektgazda közlésével, 2026-11-08, 22. szakasz; CB-C-0009). Az M0.2 és az M1.1–M1.4 natív Moodle Leckéi (LMS-M0-02, LMS-M1-01…LMS-M1-04: egyéni kérdésoldal-válaszok): ugyanígy, a képzés vége után 90 nap, utána törlés vagy anonimizálás; a válaszokat csak a csoport mentora látja, más tanuló soha (a DPO döntése a projektgazda közlésével, 2026-11-08, 22. szakasz; CB-C-0036, 20. szakasz);
 - Z.4 Moodle Feedback.
 
 A lista M2-, M3- és M7-sorának szabálya **projektgazdai döntés (2026-10-02)**; utólagos ellenőrzés (vétó/QA): a DPO/jogi felelős, az M3-sornál a Memuna is, az M7-sornál a programvezető is.
@@ -246,8 +246,8 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 
 | Mező | Mi kerül a tanulói szövegbe | Hová | Állapot |
 |---|---|---|---|
-| `PRIVACY_CONTACT_TO_CONFIGURE` | az adatvédelmi kontakt tényleges elérhetősége, külön sorban | a „Kihez fordulhatsz?” bekezdés alá | nyitott: a HUM-PRIV-01 szerint jóváhagyott kontakt (`Program terv.md` §4) |
-| `DPO_RETENTION_TO_CONFIRM` | egy új sor a „Meddig őrizzük meg?” listába: „a Z.3 szöveges válaszaidat:” és utána a DPO által rögzített megőrzés | a „szöveges reflexióidat” sor után | nyitott: BS-D6, LMS-Z-06 (§3) |
+| `PRIVACY_CONTACT_TO_CONFIGURE` | az adatvédelmi kontakt tényleges elérhetősége, külön sorban | a „Kihez fordulhatsz?” bekezdés alá | a telepítéskor kerül be, a szervezet jóváhagyott kontaktjából (HUM-PRIV-01, `Program terv.md` §4; projektgazdai döntés, 2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz); amíg üres, a kurzus valódi tanulónak nem nyitható meg |
+| `DPO_RETENTION_TO_CONFIRM` | egy új sor a „Meddig őrizzük meg?” listába: „a Z.3 szöveges válaszaidat:” és utána a DPO által rögzített megőrzés | a „szöveges reflexióidat” sor után | kitöltve (2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz): a lenti listában |
 
 > **Adatvédelem a kurzusban – röviden**
 >
@@ -262,6 +262,7 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 > - a kvízpróbálkozásaid részleteit: a végső eredményed megerősítése után 90 napig;
 > - a végső pontszámodat és a kapueredményedet: 24 hónapig;
 > - a szöveges reflexióidat (a záró reflexiót is): a képzés vége után 90 napig;
+> - a Z.3 szöveges válaszaidat: a képzés vége után 90 napig;
 > - a beadandóidat és a peulaterveidet: a képzés vége után 12 hónapig;
 > - a mentorod fejlesztési és terepi megfigyelési jegyzetét (akkor is, ha nem a Moodle-ben készül; csak a fejlődésed támogatásához szükséges minimum kerül bele): az utolsó mentorálás után 6 hónapig;
 > - a mentori beszélgetéseitek naplóját (csak a dátum, a résztvevők, az időtartam, a cél kategóriája és az utánkövetés, a beszélgetés tartalma nem): az utolsó mentorálás után 6 hónapig;
@@ -280,7 +281,7 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 
 ### 11.1 Rövid tájékoztató a szabad szöveges mezők (TEXT-C) előtt – sablon
 
-*Fejlesztői feltétel (nem tanulói szöveg):* az `LMS – activity manifest.md` TEXT-C profilja szerint a beviteli mező előtt, a Feedback első, „Text and media area” (`label`) típusú elemeként álló ötpontos „just-in-time” tájékoztató szövege; a lecke mező melletti adatvédelmi / biztonsági megjegyzése a „Mit írsz be?” pontba kerül, szó szerint. Az értékek e fájl lezárt döntéseiből valók (§3 „Szabad szöveges reflexió”: a képzés vége + 90 nap; §5 és a §11 „Ki látja?” bekezdése; HUM-PRIV-01); új szabály nincs benne (AP-2026-10-18-01, a builder DPO-csomagjának §5. pontja nyomán). A „Ki látja?” pont a §11 „Ki látja?” bekezdésével együtt a staging role-matrix után a tényleges szerepkiosztáshoz igazodik (ADV-1, BIZT-2; runtime acceptance 15. pont): a végső szöveget a DPO és az LMS-gazda adja, a technikai adminisztrátor hozzáférését a tájékoztató nem tagadja. A „Kihez fordulhatsz?” ‹…› helyére a §11 belső mezőjének (adatvédelmi kontakt) kitöltött értéke kerül, tényleges elérhetőségként (`Program terv.md` §4). **Eltérések:** az LMS-Z-06-nál (Z.3) a „Meddig tároljuk?” értéke nyitott (a §11 belső mezői közül a Z.3 megőrzése, BS-D6), a „Mire használjuk?” és a „Ki látja?” pontban pedig a §11 Z.3-mondata áll: „A beadandóidat és a Z.3 lecke kötelező szöveges válaszait a teljesítésed megerősítéséhez elolvassa”, mert ott a kijelölt mentor elfogadása a teljesítés feltétele (LMS-Z-07); az LMS-M7-10-en a manifest sora szerinti, nyitott különleges-adat tétel (G2) a sablon alkalmazása előtt lezárandó.
+*Fejlesztői feltétel (nem tanulói szöveg):* az `LMS – activity manifest.md` TEXT-C profilja szerint a beviteli mező előtt, a Feedback első, „Text and media area” (`label`) típusú elemeként álló ötpontos „just-in-time” tájékoztató szövege; a lecke mező melletti adatvédelmi / biztonsági megjegyzése a „Mit írsz be?” pontba kerül, szó szerint. Az értékek e fájl lezárt döntéseiből valók (§3 „Szabad szöveges reflexió”: a képzés vége + 90 nap; §5 és a §11 „Ki látja?” bekezdése; HUM-PRIV-01); új szabály nincs benne (AP-2026-10-18-01, a builder DPO-csomagjának §5. pontja nyomán). A „Ki látja?” pont a §11 „Ki látja?” bekezdésével együtt a staging role-matrix után a tényleges szerepkiosztáshoz igazodik (ADV-1, BIZT-2; runtime acceptance 15. pont): a végső szöveget a DPO és az LMS-gazda adja, a technikai adminisztrátor hozzáférését a tájékoztató nem tagadja. A „Kihez fordulhatsz?” ‹…› helyére a §11 belső mezőjének (adatvédelmi kontakt) kitöltött értéke kerül, tényleges elérhetőségként (`Program terv.md` §4). **Eltérések:** az LMS-Z-06-nál (Z.3) a „Meddig tároljuk?” értéke a sablon szerinti (a képzés vége után 90 nap; a DPO döntése a projektgazda közlésével, 2026-11-08, `Emberi jóváhagyás szükséges.md` 22. szakasz; BS-D6), a „Mire használjuk?” és a „Ki látja?” pontban pedig a §11 Z.3-mondata áll: „A beadandóidat és a Z.3 lecke kötelező szöveges válaszait a teljesítésed megerősítéséhez elolvassa”, mert ott a kijelölt mentor elfogadása a teljesítés feltétele (LMS-Z-07); az LMS-M7-10-en a manifest sora szerinti, nyitott különleges-adat tétel (G2) a sablon alkalmazása előtt lezárandó.
 
 > 🔒 **Mielőtt beírod – mi lesz a válaszoddal?**
 > – **Mit írsz be?** ‹a lecke mező melletti megjegyzése, szó szerint›

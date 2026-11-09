@@ -1,9 +1,9 @@
 {
   "schema_version": "2.0",
   "counts": {
-    "files_discovered": 84,
+    "files_discovered": 85,
     "files_with_assets": 65,
-    "files_asset_free": 19,
+    "files_asset_free": 20,
     "files_declared_asset_free": 9,
     "files_with_sources": 26,
     "sources": 123,
@@ -1416,6 +1416,15 @@
     },
     {
       "file": "02 Tervezet/LMS – activity manifest.md",
+      "unit": "LMS",
+      "module": "—",
+      "file_kind": "program-doc",
+      "assets": [],
+      "sources": [],
+      "asset_free_reason": ""
+    },
+    {
+      "file": "02 Tervezet/LMS – felületi szövegek.md",
       "unit": "LMS",
       "module": "—",
       "file_kind": "program-doc",
@@ -3379,8 +3388,8 @@
       "unit": "M6.3",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "**Alt-szöveg (buildhez, kötelező – tartalmi kép):** **„Nagy csomagolópapírból készült közös plakát, sok kéz dolgozik rajta egyszerre, tele rajzokkal és szavakkal – mindenki nyomot hagy rajta.”**",
-      "hash": "48890ee269210549297412c849ddaf55013d7a4b51a003ddcbb82ce52539b7bc",
+      "text": "**Alt-szöveg (buildhez, kötelező – tartalmi kép):** **„Nagy csomagolópapírból készült közös plakát, sok kéz dolgozik rajta egyszerre, tele rajzokkal – mindenki nyomot hagy rajta.”**",
+      "hash": "f90d42443c7e4fcfe7ce6dddf31c1c68525d092f9c41ff28f3e0c5f9182e273c",
       "note": "",
       "for": "",
       "used_by": [
@@ -3419,8 +3428,8 @@
       "unit": "M6.3",
       "module": "M6",
       "file_kind": "online-lecke",
-      "text": "**Alt-szöveg (buildhez, kötelező – tartalmi kép):** **„Egy kvuca közösen fest egy zászlót, rajta a csoportot jelképező közös színekkel, jelekkel és szavakkal.”**",
-      "hash": "7082b77adfb45916ec23c97296335fad7c421db91f2dd67ca1b9b60cec19b482",
+      "text": "**Alt-szöveg (buildhez, kötelező – tartalmi kép):** **„Egy kvuca közösen fest egy zászlót, rajta a csoportot jelképező közös színekkel és jelekkel.”**",
+      "hash": "9a1654c22961014eb816228e27b9ebba5435df399ffbd2852cd17854f2571f0a",
       "note": "",
       "for": "",
       "used_by": [
@@ -25027,9 +25036,9 @@
       "source_text": "",
       "source_hash": "",
       "alt_source_ref": "M6.3-FOTO-03-ALT#1",
-      "alt_text": "Nagy csomagolópapírból készült közös plakát, sok kéz dolgozik rajta egyszerre, tele rajzokkal és szavakkal – mindenki nyomot hagy rajta.",
-      "alt_hash": "b747d25628b4a25ef411764dcc7193f16018d1d585a2d0bf1086b2f2d9d57dc7",
-      "copy_hash": "b747d25628b4a25ef411764dcc7193f16018d1d585a2d0bf1086b2f2d9d57dc7",
+      "alt_text": "Nagy csomagolópapírból készült közös plakát, sok kéz dolgozik rajta egyszerre, tele rajzokkal – mindenki nyomot hagy rajta.",
+      "alt_hash": "8dd4703a9631021345ba52a9a2cd00e6b88970369246e937b8625eb16c29ab2c",
+      "copy_hash": "8dd4703a9631021345ba52a9a2cd00e6b88970369246e937b8625eb16c29ab2c",
       "spec_hash": "b7a6ffbc2cf4cab9346a5ee473eed1b45ebe7685997f8cba3e34bb1b4b7899a5",
       "deliverable_ids": [
         "M6.3-FOTO-03",
@@ -25159,9 +25168,9 @@
       "source_text": "",
       "source_hash": "",
       "alt_source_ref": "M6.3-FOTO-05-ALT#1",
-      "alt_text": "Egy kvuca közösen fest egy zászlót, rajta a csoportot jelképező közös színekkel, jelekkel és szavakkal.",
-      "alt_hash": "702e1d6990882601840cc7aeba3b15984c32208dbff7c2e4b8a7ebfeff1bbc20",
-      "copy_hash": "702e1d6990882601840cc7aeba3b15984c32208dbff7c2e4b8a7ebfeff1bbc20",
+      "alt_text": "Egy kvuca közösen fest egy zászlót, rajta a csoportot jelképező közös színekkel és jelekkel.",
+      "alt_hash": "ff0030c1e97f62653090f578c8ef3e47bbcb3886a9a138f094dd248e2a9017f0",
+      "copy_hash": "ff0030c1e97f62653090f578c8ef3e47bbcb3886a9a138f094dd248e2a9017f0",
       "spec_hash": "558d4d97f22408b7d77246b52147f09b6f3dae1ae360e60a710afc990302722c",
       "deliverable_ids": [
         "M6.3-FOTO-05",
@@ -46859,8 +46868,8 @@
       "status": "spec-ready",
       "provenance": "ai",
       "source_id": "M6.3-FOTO-03-ALT",
-      "text": "Nagy csomagolópapírból készült közös plakát, sok kéz dolgozik rajta egyszerre, tele rajzokkal és szavakkal – mindenki nyomot hagy rajta.",
-      "text_hash": "b747d25628b4a25ef411764dcc7193f16018d1d585a2d0bf1086b2f2d9d57dc7",
+      "text": "Nagy csomagolópapírból készült közös plakát, sok kéz dolgozik rajta egyszerre, tele rajzokkal – mindenki nyomot hagy rajta.",
+      "text_hash": "8dd4703a9631021345ba52a9a2cd00e6b88970369246e937b8625eb16c29ab2c",
       "blockers": [],
       "readiness_issues": []
     },
@@ -46943,8 +46952,8 @@
       "status": "spec-ready",
       "provenance": "ai",
       "source_id": "M6.3-FOTO-05-ALT",
-      "text": "Egy kvuca közösen fest egy zászlót, rajta a csoportot jelképező közös színekkel, jelekkel és szavakkal.",
-      "text_hash": "702e1d6990882601840cc7aeba3b15984c32208dbff7c2e4b8a7ebfeff1bbc20",
+      "text": "Egy kvuca közösen fest egy zászlót, rajta a csoportot jelképező közös színekkel és jelekkel.",
+      "text_hash": "ff0030c1e97f62653090f578c8ef3e47bbcb3886a9a138f094dd248e2a9017f0",
       "blockers": [],
       "readiness_issues": []
     },

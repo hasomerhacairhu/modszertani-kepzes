@@ -31,7 +31,7 @@
 | ebből újrahasznosítás | 9 |
 | ebből külső forrás | 6 |
 | Forrásblokk | 123 |
-| Feldolgozott fájl | 84 |
+| Feldolgozott fájl | 85 |
 | Assetet tartalmazó fájl | 65 |
 
 A két szám **nem összemérhető közvetlenül**: a régi leltár egy táblában

@@ -1,0 +1,67 @@
+# Projektgazdai döntések – D-099, D-100, a végleges build feltételei (2026-11-08)
+
+A projektgazda üzenetei a D-095 munkamenetben, 2026-11-08, szó szerint (angolul, ahogy írta). A nyilvántartás:
+`02 Tervezet/Emberi jóváhagyás szükséges.md` 22. szakasz. A projektgazda a tananyag szerzője (D-097); az LMS-gazda és
+az értékelési felelős szerepében is döntött; a DPO döntését ő közölte.
+
+## D-099 (kb. 19:38Z)
+
+> if you need authorizatin i give you all and if you need me i can run commands to enable you
+
+## D-100 (kb. 20:27Z–21:15Z)
+
+> we have to finishd thins in 24 hours
+
+A kérdések és a projektgazda választásai (a választott opció címkéje szó szerint):
+
+1. „Can I record the two assessment settings as approved by you, as LMS owner and assessment owner? Those are BSPEC-09
+   (the submit button stays on, 7 activities) and BSPEC-11 (the M0 entry quiz's review options set like M5's quiz).”
+   → „Yes, approve both (Recommended)”
+2. „15 activities open on dates from the cohort calendar. How should the final course handle those dates?” → „Set dates
+   at deploy (Recommended)” (az opció szövege: a kurzuscsomag nem függ egy kohorsztól; a completion-feltételek maradnak,
+   a kohorsz dátumai a telepítéskor kerülnek be, mint az A2 lépés)
+3. „23 images are AI or hybrid scenes, which need a legal OK (CB-C-0003). What should the final course ship?” → „I give
+   the legal OK” (az opció szövege: a projektgazda mint J1 jogi jóváhagyó jóváhagyja a generált képeket; a képek
+   review-n mennek át, és a jóváhagyás rögzül)
+4. „Can you get the DPO's written approval and contact line, plus the help-block contacts (technical help, programme,
+   mentor channel), within about 12 hours? …” → „DPO yes now, contacts later” (az opció szövege: a projektgazda most
+   közli a DPO jóváhagyását minden adatkezelési tételre, mint az A2-nél; a súgóblokk és az adatvédelmi kontakt a
+   kapcsolati adatok megérkezéséig blokkolt)
+5. „Z.3's text answers: how long are they kept? …” → „90 days, like the rest (Recommended)”
+6. „M0.1's three-question form (LMS-M0-07): which privacy settings should I record as the DPO's (relayed by you)?” →
+   „90 days, mentor only (Recommended)” (az opció szövege: a válaszok megőrzése a képzés vége után 90 nap, utána törlés
+   vagy anonimizálás; a nevek más tanulónak nem látszanak; csak a csoport mentora látja a válaszokat; a Moodle a
+   választ a fiókhoz köti)
+7. „M5.4's assignment: should its final score be hidden from learners, as on M2's, M4's and M6's assignments? …” →
+   „Hide it, like M2/M4/M6 (Recommended)”
+8. „M0.2 is now a Moodle lesson, and it stores each learner's answers to its 4 question pages. What should I record as
+   the DPO's decision (relayed by you)?” → „Like M0.1: 90 days, mentor (Recommended)” (az opció szövege: a válaszok
+   megőrzése a képzés vége után 90 nap, utána törlés vagy anonimizálás; csak a csoport mentora látja őket, más tanuló
+   soha; ugyanaz a modell, mint az M0.1 kérdőívénél)
+
+9. „Contact data: the privacy contact line and the help block's channels block about 10 activities, because every
+   privacy notice ends with „Kihez fordulhatsz? …”. Should they be filled in at deployment, the same way as the cohort
+   dates?” → „Fill at deploy (Recommended)” (az opció szövege: a kurzuscsomag jelölt helyet visz, amelyet a telepítés
+   tölt ki a szervezet értékeiből; amíg egy hely üres, a telepítés nem nyitja meg a kurzust tanulónak)
+10. „M1.1–M1.4 are now Moodle lessons too, and they store each learner's answers to their question pages, as M0.2
+    does. What should I record as the DPO's decision for them?” → „Same as M0.2 (Recommended)”
+11. „M7's quiz uses the qtype_multichoiceset plugin (all-or-nothing multi-select), version 1.10.2. … Do you accept it
+    for the production site (D-030 D7)?” → „Accept the plugin (Recommended)”
+
+A szerzői tételeket (22. szakasz, „Szerzői tételek”) a D-096 és a D-097 alapján a végrehajtó dönti el: a tesztelt
+megvalósítás jóváhagyása, új szöveg nélkül.
+
+A BSPEC-10 (az M0.2 navigációs beállításai: a D-090 iránya, a builder ellenőrzött „config B” beállításai) az 1. válasz
+LMS-gazdai szerepe és a D-099 („i give you all”) alapján rögzül.
+
+## Előzmény-döntések, amelyeket a 22. szakasz átvezet
+
+- D-090 8A (2026-10-24): kézi, mentori újranyitás; a szerzői társjóváhagyást a projektgazda mint szerző adja (D-097).
+- D-092 (2026-10-25), D-069 §5: az M1.1–M1.3 natív Moodle Leckeként.
+- D-098 #5 (2026-11-08): a Z.4 záró reflexiója pontozás nélküli.
+- D-095 (round 3), D-098 #3: a mentori oldalak.
+- D-096 (2026-11-06): a projektgazdára tartozó döntéseket a végrehajtó hozza meg kutatás alapján (CB-C-0024: a Z.2 és
+  a Z.3 completion-alapja megtekintés).
+
+**A döntések nem release-engedélyek.** A DPO, a Memuna és az értékelési felelős írásos szerepköri bizonyítéka
+(`FINAL_RELEASE_QA`) függő.
