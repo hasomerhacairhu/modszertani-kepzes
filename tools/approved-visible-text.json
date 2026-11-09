@@ -5,8 +5,8 @@
       "sha256": "7ad9cd54e5bac1d092f2abe56343d0402f4f31cfe3b58ad30aa81a6babfb1e73"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "HUM 22 (D-100): contacts filled at deploy; the M1 lessons' relayed DPO values; the author items as tested; the M7 plugin",
-      "sha256": "00d209966a46ab904db771e46795f69f130deb72f7d019785f85a8bf62073fc5"
+      "reason": "HUM 22 (D-100): the M6.3 alt texts match the produced pictures",
+      "sha256": "f9ed049765126f42e3d0db86121d8d35419e4290322ac9ac9def826c3890be17"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -249,8 +249,8 @@
       "sha256": "f5a9449ae67ea7a79fbad341ad825a0c663d42ecf567db6c80b40e5b97a2531a"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.3 – Kézműves, ami tanít is.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "e39e9ea40afb8481307c95ee17bd4406612f34f1e24f6a3ebcca2d9cf7151f1b"
+      "reason": "HUM 22 (D-100): the M6.3 alt texts match the produced pictures",
+      "sha256": "ff5b17dab988a5e1b72ff3e3ef870c6fbbc27069e6fd2986d65a613c0cc6e6fd"
     },
     "02 Tervezet/Modulok/M6/Online leckék/M6.4 – Döntési szcenáriók – mit választanál.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
