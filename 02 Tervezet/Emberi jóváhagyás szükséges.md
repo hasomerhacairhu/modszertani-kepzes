@@ -974,3 +974,13 @@ A projektgazda 2026-11-11-én kijelentette, hogy a projektben **ideiglenes adatv
 | **D-108 / pilot** | Felügyelt valós tanulói pilot: csak elvi adatvédelmi jóváhagyás; feltétele az ellenőrzött beállítás, a tájékoztatás és a jogalap, az életkornak megfelelő védelem, a Memuna egyetértése és külön írásos pilot-GO. | `RELEASE-READINESS.md` | a Memuna; a pilot-GO |
 
 **Állapot:** `OWNER_DECIDED` (ideiglenes adatvédelmi döntéshozóként). `RUNTIME_VERIFIED`, `FINAL_RELEASE_QA` és `RELEASE_APPROVED` nem következik belőle.
+
+## 24. Projektgazdai döntés – D-109: az LMS-M0-07 tájékoztatója (2026-11-11)
+
+A projektgazda 2026-11-11-én projektgazdaként, szerzőként és ideiglenes adatvédelmi döntéshozóként döntött; a szó szerinti szöveg: `01 Fejlesztés/04 Audit/2026-11-11 Projektgazdai döntés – D-109, az LMS-M0-07 tájékoztatója.md`. Ez nem független DPO-jóváhagyás.
+
+| Azonosító | Projektgazdai döntés | Érintett hely | Nyitva marad (szerepköri QA / bizonyíték-kapu) |
+|---|---|---|---|
+| **D-109 / LMS-M0-07** | A kérdőív név nélküli marad (FEEDBACK-N, külön csoportok), a 11/25-ös E025-felosztás változatlan, név nélküli válaszra nincs egyéni mentori visszajelzés; a tájékoztató a tényleges hozzáférést írja le (C változat: a mentor nem látja a válaszokat, a stáb összesítve dolgozik velük), mert a mentori szerep a kurzusban nem nyithatja meg a Feedback-válaszokat, és a D-108 mentori hozzáférése (A2) csak a Z.3 név szerinti kérdőívére szól. A 23. szakasz „LMS-M0-07 nyitott” bejegyzése ezzel lezárul. | Adatvédelem §11.1.1, LMS-M0-07 | a DPO írásos bizonyítéka (`FINAL_RELEASE_QA`); a kapcsolattartó a telepítéskor |
+
+**Állapot:** `OWNER_DECIDED`. `RUNTIME_VERIFIED`, `FINAL_RELEASE_QA` és `RELEASE_APPROVED` nem következik belőle.
