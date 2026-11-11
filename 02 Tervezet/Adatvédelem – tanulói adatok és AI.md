@@ -62,6 +62,7 @@ Az `LMS – activity manifest.md` minden tényleges activityhez privacy-osztály
 | Moodle-fiók, részvétel, végső completion | jogos érdek, a képzés működtetése | a képzés vége + 24 hónap |
 | Nyers kvízpróbálkozások | jogos érdek, értékelés/diagnosztika | a végső megerősítés + 90 nap |
 | Végső pontszám / kapueredmény | jogos érdek, a teljesítés igazolása | 24 hónap |
+| Nem kapus diagnosztikus kvíz végső pontszáma (LMS-M0-06 belépőkvíz, LMS-M5-06 és LMS-M6-06 önellenőrzés; D-108) | jogos érdek, diagnosztika és formatív tanulás; a mentor az LMS-M0-06 egyéni eredményét nem látja, a stáb összesítve dolgozik vele | a képzés vége + 90 nap |
 | Szabad szöveges reflexió (a Z.4 beadandó is) | jogos érdek, kizárólag ha szükséges | a képzés vége + 90 nap |
 | Assignment / peulatervek | jogos érdek | a képzés vége + 12 hónap |
 | Név nélkül begyűjtött papír munkalap | név nélkül, papíron begyűjtve | a peula után összesítés, majd 30 napon belül megsemmisítés |
@@ -261,6 +262,7 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 > - a fiókodat, a részvételedet és a végső teljesítésedet: a képzés vége után 24 hónapig;
 > - a kvízpróbálkozásaid részleteit: a végső eredményed megerősítése után 90 napig;
 > - a végső pontszámodat és a kapueredményedet: 24 hónapig;
+> - a belépőkvízen és az önellenőrző kvízeken elért pontszámodat viszont csak a képzés vége után 90 napig;
 > - a szöveges reflexióidat (a záró reflexiót is): a képzés vége után 90 napig;
 > - a Z.3 szöveges válaszaidat: a képzés vége után 90 napig;
 > - a beadandóidat és a peulaterveidet: a képzés vége után 12 hónapig;
@@ -290,22 +292,22 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 > – **Ki látja?** A válaszod a neveddel együtt rögzül, és a kijelölt mentorod vagy értékelőd látja; csak akkor nézi meg, ha ténylegesen szükséges. A többi résztvevő nem látja. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek.
 > – **Kihez fordulhatsz?** Az adatvédelmi kapcsolattartónkhoz: ‹elérhetőség›.
 
-#### 11.1.1 Aktivitásonkénti tájékoztatók – PROPOSED (D-102), DPO-jóváhagyásra vár
+#### 11.1.1 Aktivitásonkénti tájékoztatók – jóváhagyva (D-108), az LMS-M0-07 kivételével
 
-*Fejlesztői feltétel (nem tanulói szöveg):* kilenc adatot gyűjtő aktivitás „just-in-time” tájékoztatójának **tervezete** (projektgazdai megbízás, 2026-11-09, D-102 Q3), egy helyen, hogy a DPO egyben nézhesse át. Egyik sem tanulói szöveg és nem élesíthető, amíg a DPO írásban jóvá nem hagyja, és a projektgazda mint szerző a megfogalmazást el nem fogadja (`Emberi jóváhagyás szükséges.md` 22. szakasz, D-102 sor). A szabad szöveges (TEXT-C) mezőknél a forma a fenti §11.1 sablon, a kvízeknél és a beadandóknál a már jóváhagyott beadás-tájékoztatóké (`M6 – Kapu – értékelő` :466–:472, `M7 – Kapu – értékelő` :442–:447). Minden tény e fájl lezárt értékeiből (§3, §5, §6, §11) és az aktivitás saját forrássorából jön; amit a forrás nem rögzít, azt `‹DPO-döntés: …›` jelöli, és a tervezet nem pótolja. A „[PROPOSED]” jelölés és a „‹DPO-döntés›” jelölők a jóváhagyáskor kikerülnek; a jóváhagyott szöveg az aktivitás saját forrássorába kerül, onnan épül.
+*Fejlesztői feltétel (nem tanulói szöveg):* kilenc adatot gyűjtő aktivitás „just-in-time” tájékoztatója (projektgazdai megbízás, 2026-11-09, D-102 Q3). Nyolcat a projektgazda mint ideiglenes adatvédelmi döntéshozó a megadott módosításokkal jóváhagyott (D-108, 2026-11-11; `Emberi jóváhagyás szükséges.md` 23. szakasz); ez nem független DPO-jóváhagyás, a DPO írásos bizonyítéka (`FINAL_RELEASE_QA`) nyitott. Az LMS-M0-07 tervezete nyitott (lent), és nem élesíthető. A szabad szöveges (TEXT-C) mezőknél a forma a fenti §11.1 sablon, a kvízeknél és a beadandóknál a már jóváhagyott beadás-tájékoztatóké (`M6 – Kapu – értékelő` :466–:472, `M7 – Kapu – értékelő` :442–:447). Minden tény e fájl lezárt értékeiből (§3, §5, §6, §11) és az aktivitás saját forrássorából jön. A „‹DPO-döntés›” jelölőket a D-108 egyenként oldotta fel: a Z.3 mentora alapból nem kap automatikus értesítést a beküldésről, ezért a tájékoztató nem említ értesítést; a nem kapus kvízek (LMS-M0-06, LMS-M5-06, LMS-M6-06) végső pontszáma a képzés vége után 90 napig marad meg (a fenti tábla „Nem kapus diagnosztikus kvíz” sora), nem 24 hónapig; az LMS-M0-06 egyéni eredményét a mentor nem látja, a stáb összesítve dolgozik vele (ezt a „Ki látja” sor már kimondja). A build a jóváhagyott szöveget innen veszi, sorhivatkozással. Az elérhetőség (`‹elérhetőség›`) a telepítéskor kerül be a szervezet valós, jóváhagyott kapcsolattartójával (22. szakasz, D-100 / kapcsolatok); amíg üres, tanuló nem fér hozzá a kurzushoz. A megőrzési idők törlési folyamata a telepítés feltétele.
 
 ##### LMS-Z-06 – „Z.3 – Szöveges válaszok” (P0)
 
-> **[PROPOSED]** 🔒 **Mielőtt beírod – mi lesz a válaszoddal?**
+> 🔒 **Mielőtt beírod – mi lesz a válaszoddal?**
 > – **Mit írsz be?** A 15–17 éves madrih vezethet peulát, de soha nem ő az egyetlen felelős felnőtt: minden éles terepi alkalmon jelen van egy jóváhagyott, felkészített, 18 év feletti felnőtt – fizikailag ott van, vagy ugyanazon a helyszínen azonnal elérhető –, és a gyermekvédelmi felelősség az övé. Ha valós gyermekvédelmi eset történik, annak azonosítható részleteit a biztonsági reflexióba se írd: ilyenkor azonnal bevonod a kijelölt **Memunát** (a Somer gyermekvédelmi felelősét), az eset dokumentációja pedig nem a Moodle-ben, hanem külön, hozzáférés-korlátozott incidensnyilvántartásban készül. A beküldés után ezt és a 4. és a 6. dián kért válaszaidat a mentorod átnézi. Ha hiányzik belőlük valami, szól: ekkor kiegészíted, és újra beküldöd; az újrabeküldés időpontját a mentorod jelöli ki. A Z modul akkor teljesül, ha a mentorod elfogadta őket.
 > – **Mire használjuk?** A te tanulásodhoz: a kijelölt mentorod a Z.3 lecke kötelező szöveges válaszait a teljesítésed megerősítéséhez elolvassa, és szükség esetén neked szóló visszajelzést ad rá. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
 > – **Meddig tároljuk?** A képzés vége után 90 napig; utána töröljük vagy anonimizáljuk.
-> – **Ki látja?** A válaszod a neveddel együtt rögzül, és a kijelölt mentorod látja: a teljesítésed megerősítéséhez elolvassa. A többi résztvevő nem látja. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek. ‹DPO-döntés: kap-e a mentor értesítést a beküldésről, és ha igen, ez itt álljon-e›
+> – **Ki látja?** A válaszod a neveddel együtt rögzül, és a kijelölt mentorod látja: a teljesítésed megerősítéséhez elolvassa. A többi résztvevő nem látja. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek.
 > – **Kihez fordulhatsz?** Az adatvédelmi kapcsolattartónkhoz: ‹elérhetőség›.
 
 ##### LMS-M3-06 – „M3 – Gyermekvédelmi kapukvíz” (P1)
 
-> **[PROPOSED]** 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
+> 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
 > – **Mit gyűjtünk:** a kvízben adott válaszaidat, a próbálkozásaidat és az eredményedet.
 > – **Mire használjuk:** a te tanulásodhoz – hogy a kijelölt mentorod / értékelőd visszajelzést tudjon adni, és megerősítse a kapueredményedet. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk.
 > – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat és a kapueredményedet 24 hónapig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
@@ -314,14 +316,16 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 
 ##### LMS-M0-06 – „M0 belépőkvíz”
 
-> **[PROPOSED]** 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
+> 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
 > – **Mit gyűjtünk:** a kvízben adott válaszaidat, a próbálkozásaidat és az eredményedet.
 > – **Mire használjuk:** a stáb az eredményeket összesítve, a csoport szintjén nézi meg, hogy lássa, mire kell a képzésben jobban figyelni. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk.
-> – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat 24 hónapig. ‹DPO-döntés: a nem kapus belépőkvíz eredményére a „Végső pontszám / kapueredmény: 24 hónap” sor vonatkozik-e› A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
-> – **Ki látja:** az egyéni eredményedet a mentorod nem látja: a stáb csak összesítve dolgozik vele. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek. ‹DPO-döntés: ki láthatja a kvíz statisztikai riportját (§3: stagingben igazolandó)›
+> – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat a képzés vége után 90 napig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
+> – **Ki látja:** az egyéni eredményedet a mentorod nem látja: a stáb csak összesítve dolgozik vele. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek.
 > – **Kihez fordulhatsz:** ha meg szeretnéd nézni, javíttatni vagy töröltetni, amit tárolunk rólad, az **adatvédelmi kapcsolattartóhoz** fordulhatsz; az elérhetőségét a Moodle-kurzus adatkezelési tájékoztatójában találod.
 
 ##### LMS-M0-07 – „M0.1 – Rövid kérdőív”
+
+*Fejlesztői feltétel (nem tanulói szöveg):* **nyitott** (D-108). A projektgazda a célt, a hozzáférési kört (csak a csoport mentora és a jóváhagyott technikai adminisztrátorok) és a 90 napos megőrzést jóváhagyta, de a tervezet két mondata nem egyezik a kérdőív beállításával: a kérdőív FEEDBACK-N profilú, a válaszok név nélkül jelennek meg (a felhasználó azonosítója az adatbázisban marad; manifest §1), a tervezet viszont azt írja, hogy a válasz „a neveddel együtt rögzül”, és hogy a mentor „neked szóló visszajelzést ad rá”. Döntés kell (a projektgazdától, mint a D-108 ideiglenes adatvédelmi döntéshozójától és a szerzőtől): vagy a szöveg igazodik a név nélküli beállításhoz, vagy a beállítás lesz név szerinti (ez a D-108 11/25-ös E025-felosztását is módosítja). A döntésig ez a tervezet nem kerül a kurzusba; a kérdőív a Program terv §7 „Mit írsz be?” mondatát mutatja.
 
 > **[PROPOSED]** 🔒 **Mielőtt beírod – mi lesz a válaszaiddal?**
 > – **Mit írsz be?** A kérdőívbe a saját válaszaidat írod. Nem kérünk be felesleges személyes adatot – csak azt, ami a tanuláshoz kell.
@@ -332,25 +336,25 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 
 ##### LMS-M5-06 – „M5 – Fogalmi önellenőrzés”
 
-> **[PROPOSED]** 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
+> 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
 > – **Mit gyűjtünk:** a kvízben adott válaszaidat, a próbálkozásaidat és az eredményedet.
 > – **Mire használjuk:** a te tanulásodhoz: ez önellenőrzés, az eredménye nem bukási feltétel; belőle a mentorod támogató, nem kötelező javaslatot kap arra, hogyan segíthet neked. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk.
-> – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat 24 hónapig. ‹DPO-döntés: a diagnosztikus önellenőrzés eredményére a „Végső pontszám / kapueredmény: 24 hónap” sor vonatkozik-e› A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
+> – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat a képzés vége után 90 napig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
 > – **Ki látja:** te és a **kijelölt mentorod**, és ő is csak annyit, amennyire ténylegesen szükség van. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek.
 > – **Kihez fordulhatsz:** ha meg szeretnéd nézni, javíttatni vagy töröltetni, amit tárolunk rólad, az **adatvédelmi kapcsolattartóhoz** fordulhatsz; az elérhetőségét a Moodle-kurzus adatkezelési tájékoztatójában találod.
 
 ##### LMS-M6-06 – „M6 – Szcenárió-önellenőrzés”
 
-> **[PROPOSED]** 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
+> 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
 > – **Mit gyűjtünk:** a kvízben adott válaszaidat, a próbálkozásaidat és az eredményedet.
 > – **Mire használjuk:** a te tanulásodhoz: ez önellenőrzés, az eredménye nem bukási feltétel; belőle a mentorod támogató, nem kötelező javaslatot kap arra, hogyan segíthet neked. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk.
-> – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat 24 hónapig. ‹DPO-döntés: a diagnosztikus önellenőrzés eredményére a „Végső pontszám / kapueredmény: 24 hónap” sor vonatkozik-e› A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
+> – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat a képzés vége után 90 napig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
 > – **Ki látja:** te és a **kijelölt mentorod**, és ő is csak annyit, amennyire ténylegesen szükség van. A kurzus kezelésére név szerint kijelölt szerkesztők és a Moodle rendszergazdája technikai okból hozzáférhetnek.
 > – **Kihez fordulhatsz:** ha meg szeretnéd nézni, javíttatni vagy töröltetni, amit tárolunk rólad, az **adatvédelmi kapcsolattartóhoz** fordulhatsz; az elérhetőségét a Moodle-kurzus adatkezelési tájékoztatójában találod.
 
 ##### LMS-M7-05 – „Peula v1 – első vázlat”
 
-> **[PROPOSED]** 🔒 **Mielőtt leadod – mi lesz a Peula v1-eddel?**
+> 🔒 **Mielőtt leadod – mi lesz a Peula v1-eddel?**
 > – **Mit gyűjtünk:** azt, amit beírsz vagy feltöltesz (a Peula v1-edet), a mentorod visszajelzését és megerősítését, és azt, hogy leadtad-e.
 > – **Mire használjuk:** a te tanulásodhoz – hogy a kijelölt mentorod / értékelőd visszajelzést tudjon adni, és megerősítse, hogy a vázlatod érdemi; az M7.B műhelyben ebből dolgozol tovább. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
 > – **Meddig tároljuk:** a Peula v1-edet a képzés vége után 12 hónapig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
@@ -359,7 +363,7 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 
 ##### LMS-M7-07 – „M7 – SMART & Zmán Kvucá kvíz (felkészültségi, a v2 előtt)”
 
-> **[PROPOSED]** 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
+> 🔒 **Mielőtt elkezded – mi lesz a válaszaiddal?**
 > – **Mit gyűjtünk:** a kvízben adott válaszaidat, a próbálkozásaidat és az eredményedet.
 > – **Mire használjuk:** a te tanulásodhoz – hogy a kijelölt mentorod / értékelőd megerősítse a kvíz eredményét; a Peula v2 leadása ehhez a megerősített eredményhez kötődik. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk.
 > – **Meddig tároljuk:** a kvízpróbálkozásaid részleteit a végső eredményed megerősítése után 90 napig; a végső pontszámodat és a kapueredményedet 24 hónapig. A törlésről a kurzushoz kiadott **adatkezelési tájékoztató** szól.
@@ -368,7 +372,7 @@ A core Moodle Feedback `Record user names` = `Anonymous` beállítása esetén a
 
 ##### LMS-Z-04 – „Záró reflexió + következő lépés”
 
-> **[PROPOSED]** 🔒 **Mielőtt leadod – mi lesz a záró reflexióddal?**
+> 🔒 **Mielőtt leadod – mi lesz a záró reflexióddal?**
 > – **Mit gyűjtünk:** azt, amit beírsz vagy feltöltesz (a záró reflexiódat szövegként vagy dokumentumként), a mentorod visszajelzését, és azt, hogy leadtad-e. Videót ebben a feladatban nem töltesz fel: a videós út ki van kapcsolva.
 > – **Mire használjuk:** a te tanulásodhoz – hogy a kijelölt mentorod visszajelzést tudjon adni, és megerősítse a Z modul teljesítését. A program fejlesztéséhez csak összesített, beazonosíthatatlan adatot használunk. Egyedi szöveget más célra csak névtelenítve és a külön, visszavonható hozzájárulásoddal használunk; ha nem járulsz hozzá, az semmiben nem korlátoz a kurzusban.
 > – **Meddig tároljuk:** a záró reflexiódat a képzés vége után 90 napig; utána töröljük vagy anonimizáljuk.
