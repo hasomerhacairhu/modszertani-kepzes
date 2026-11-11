@@ -1,12 +1,12 @@
 {
   "files": {
     "02 Tervezet/Adatvédelem – tanulói adatok és AI.md": {
-      "reason": "HUM 22 (D-100): contacts filled at deploy; the M1 lessons' relayed DPO values; the author items as tested; the M7 plugin",
-      "sha256": "7ad9cd54e5bac1d092f2abe56343d0402f4f31cfe3b58ad30aa81a6babfb1e73"
+      "reason": "D-109, HUM 24. szakasz: az LMS-M0-07 adatvédelmi tájékoztatója a tényleges hozzáféréshez igazítva",
+      "sha256": "6f51d23fd4ebe45bd6b10c28f0f4cf26ff1fb055cd0cf3c056db65751dcbb4dd"
     },
     "02 Tervezet/Emberi jóváhagyás szükséges.md": {
-      "reason": "CB-C-0028, D-102: a projektgazda mint szerző jóváhagyta az M1.1 mondatát",
-      "sha256": "2d14db2962d41e51d791bd3eec61667d1613f26393f6c4a3c50320cc3ae7396e"
+      "reason": "D-109, HUM 24. szakasz: az LMS-M0-07 adatvédelmi tájékoztatója a tényleges hozzáféréshez igazítva",
+      "sha256": "93f9db4d9698862b20270e72f06a7f8edfc6eefe61de5b1a0b415e89300c6c31"
     },
     "02 Tervezet/Glosszárium – someres és pedagógiai fogalmak.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -73,8 +73,8 @@
       "sha256": "bc72b365b737186dcc3e5aa0920b525a82465c2579b71d33872fcc97cd0c46ff"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "bceb76b82deeb68cdfbcbdbc2cf76c56c277e67033c89305a09bb7b26d288ba8"
+      "reason": "D-108, HUM 23. szakasz: nyolc adatvédelmi tájékoztató jóváhagyva (a projektgazda mint ideiglenes adatvédelmi döntéshozó), a diagnosztikus kvízek megőrzése; D-106/D-107 E018: az M1.3 jelenetének szöveges változata",
+      "sha256": "4a71e2afc41d729e5204645463fb69a9e7b0b64e903ed033f59670f930453cf1"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
