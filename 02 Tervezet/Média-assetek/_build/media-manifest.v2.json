@@ -1774,10 +1774,10 @@
       "id": "M1.3-NAR-01-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 426,
+      "line": 428,
       "body_lines": [
-        427,
-        436
+        429,
+        438
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1794,10 +1794,10 @@
       "id": "M1.3-NAR-02-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 564,
+      "line": 566,
       "body_lines": [
-        565,
-        574
+        567,
+        576
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1814,10 +1814,10 @@
       "id": "M1.3-NAR-03-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 701,
+      "line": 703,
       "body_lines": [
-        702,
-        709
+        704,
+        711
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1834,10 +1834,10 @@
       "id": "M1.3-NAR-04-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 813,
+      "line": 815,
       "body_lines": [
-        814,
-        818
+        816,
+        820
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1854,10 +1854,10 @@
       "id": "M1.3-NAR-05-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 903,
+      "line": 905,
       "body_lines": [
-        904,
-        911
+        906,
+        913
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1874,10 +1874,10 @@
       "id": "M1.3-NAR-06-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1057,
+      "line": 1059,
       "body_lines": [
-        1058,
-        1062
+        1060,
+        1064
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1894,10 +1894,10 @@
       "id": "M1.3-NAR-07-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 1081,
+      "line": 1083,
       "body_lines": [
-        1082,
-        1087
+        1084,
+        1089
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1914,10 +1914,10 @@
       "id": "M1.3-NAR-08-VO",
       "kind": "narration",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 272,
+      "line": 274,
       "body_lines": [
-        273,
-        283
+        275,
+        285
       ],
       "unit": "M1.3",
       "module": "M1",
@@ -1937,13 +1937,13 @@
       "line": 254,
       "body_lines": [
         255,
-        263
+        265
       ],
       "unit": "M1.3",
       "module": "M1",
       "file_kind": "online-lecke",
-      "text": "**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
-      "hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
+      "text": "**A jelenet szövegesen**\n\n**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "hash": "5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a",
       "note": "",
       "for": "",
       "used_by": [
@@ -7282,7 +7282,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 325,
+      "line": 327,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7345,7 +7345,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 464,
+      "line": 466,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7408,7 +7408,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 601,
+      "line": 603,
       "kind": "diagram",
       "subtype": "",
       "mode": "generate",
@@ -7592,7 +7592,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 360,
+      "line": 362,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7635,8 +7635,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        427,
-        436
+        429,
+        438
       ],
       "source_text": "„Az **S**, mint *Situation*, azt jelenti, hogy elmondod:\n**mikor** és **milyen helyzetben** történt a dolog.\n\nPéldául: *‘Amikor ma a játék közben…’*,\nvagy *‘a beszélgetőkör elején…’*,\nvagy *‘a múlt heti peulán, amikor a kicsikkel voltunk…’*.\n\nEz segít, hogy a másik is pontosan értse, **melyik jelenetről beszélsz**.”",
       "source_hash": "56548ddba52426045021e89de76d5851c0a8188891c28b6b0ba8bfe29da1d485",
@@ -7665,7 +7665,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 499,
+      "line": 501,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7708,8 +7708,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        565,
-        574
+        567,
+        576
       ],
       "source_text": "„A **B**, mint *Behavior*, azaz *viselkedés*, arról szól,\nhogy **mit láttál vagy hallottál konkrétan**.\n\nPéldául: *‘háromszor félbeszakította a többieket’*,\nvagy *‘kivonult a teremből’*.\n\nEz a rész az előző leckéhez is kapcsolódik:\nitt **megfigyelést mondasz, nem címkét**.”",
       "source_hash": "9662d095add3cf802f625b06720b06fffda66f76c2dbc3191ebef5858924174e",
@@ -7738,7 +7738,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 636,
+      "line": 638,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7781,8 +7781,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        702,
-        709
+        704,
+        711
       ],
       "source_text": "„Az **I**, mint *Impact*, azt jelenti, hogy elmondod,\n**mi lett a hatása** annak, ami történt – rád vagy a csapatra.\n\nPéldául: *‘nagyon nehéz volt megtartani a figyelmüket’*,\nvagy *‘a kicsik utána már nem szólaltak meg’*,\nvagy egyszerűen: *‘én frusztráltnak éreztem magam’*.”",
       "source_hash": "58f57ac59c18b799df3d01a3a734694b0ff505bca6e8b89ba1781afcd1302373",
@@ -7811,7 +7811,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 744,
+      "line": 746,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7854,8 +7854,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        814,
-        818
+        816,
+        820
       ],
       "source_text": "„Most egy félig kész SBI-mondatot egészítesz ki.\nKépzelj el egy egyszerű helyzetet, és próbáld meg leírni,\n**mikor történt, mit csinált a másik, és mi lett a hatása**.”",
       "source_hash": "d439c0fc653f0847662f1fe2f0af345ab42bb1ad1b0e3c0a45eed2fece55224a",
@@ -7884,7 +7884,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 832,
+      "line": 834,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -7927,8 +7927,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        904,
-        911
+        906,
+        913
       ],
       "source_text": "„Ez most **a te mondatod**.\nTalálj ki egy egyszerű, kisebb sztorit.\nA lényeg, hogy legyen benne:\n*mikor történt* (S),\n*mit csinált a másik* (B),\nés *mit okozott benned vagy a csapatban* (I).”",
       "source_hash": "9125bc44b30680e9ed6e080d63180cccbe8dd6ef5430addcc8727a304b9d3ae4",
@@ -7957,7 +7957,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 935,
+      "line": 937,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -8000,8 +8000,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1058,
-        1062
+        1060,
+        1064
       ],
       "source_text": "„Ha mind a négy állításra azt mondod, hogy ‘igen’,\nakkor **már van egy használható SBI-vázad**.\nMentsd el magadnak: a következő leckében és a beadandóban erre építhetsz.”",
       "source_hash": "c3368e009b8414cbe23bff2615aee7a00397ab885ca27334a71ba10a3248a34a",
@@ -8030,7 +8030,7 @@
       "module": "M1",
       "file_kind": "online-lecke",
       "file": "02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md",
-      "line": 978,
+      "line": 980,
       "kind": "voiceover",
       "subtype": "narration",
       "mode": "generate",
@@ -8073,8 +8073,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        1082,
-        1087
+        1084,
+        1089
       ],
       "source_text": "„Köszi, hogy végigmentél ezen a leckén.\nMost már tudod, hogyan épül fel egy SBI.\nA következő részben életszerű szituációkból fogsz választani,\nés olyan visszajelzést írsz, amit a terepen is simán használhatsz.”",
       "source_hash": "36759e68015bebe345470ddc67bd8e37e5c45653ac32b572bf436fea7a618ab8",
@@ -8142,8 +8142,8 @@
       "composed_of": [],
       "composed_source_ids": [],
       "source_line": [
-        273,
-        283
+        275,
+        285
       ],
       "source_text": "„Peula után két madrih beszélget. A képen ez a felirat: első verzió – címke. Az egyik madrih kicsit felhúzva szól a társához.\n\nA társa védekezően reagál.\n\nUgyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-szerű. Ugyanaz a madrih most nyugodtabban szólal meg.\n\nA mondata közben három ikon villant fel. A társa elgondolkodik.\n\nAz S, a B és az I ikon a madrih nyugodtabb mondatának három részénél villant fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",
       "source_hash": "9edc6178656257425944176d8e674e0f4eb4515c126ce272374963c45d62037f",
@@ -8215,14 +8215,14 @@
       "composed_source_ids": [],
       "source_line": [
         255,
-        263
+        265
       ],
-      "source_text": "**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
-      "source_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
+      "source_text": "**A jelenet szövegesen**\n\n**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "source_hash": "5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a",
       "alt_source_ref": "",
       "alt_text": "",
       "alt_hash": "",
-      "copy_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
+      "copy_hash": "5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a",
       "spec_hash": "dea17d618c020a0d8e2c580ece83b424adc4f4de5c6d2be142a829a91411d123",
       "deliverable_ids": [
         "M1.3-VID-01",
@@ -34558,8 +34558,8 @@
       "status": "pending-human-decision",
       "provenance": "ai",
       "source_id": "M1.3-VID-01-VO",
-      "text": "**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
-      "text_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
+      "text": "**A jelenet szövegesen**\n\n**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "text_hash": "5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a",
       "blockers": [
         "R2",
         "R3"
@@ -34584,8 +34584,8 @@
       "status": "pending-human-decision",
       "provenance": "ai",
       "source_id": "M1.3-VID-01-VO",
-      "text": "**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
-      "text_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
+      "text": "**A jelenet szövegesen**\n\n**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "text_hash": "5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a",
       "blockers": [
         "R2",
         "R3"
@@ -34610,8 +34610,8 @@
       "status": "pending-human-decision",
       "provenance": "ai",
       "source_id": "M1.3-VID-01-VO",
-      "text": "**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
-      "text_hash": "7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980",
+      "text": "**A jelenet szövegesen**\n\n**1. verzió – címke**\n**Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”\n**Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”\n\n**2. verzió – SBI-szerű**\n**Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”\n**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",
+      "text_hash": "5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a",
       "blockers": [
         "R2",
         "R3"

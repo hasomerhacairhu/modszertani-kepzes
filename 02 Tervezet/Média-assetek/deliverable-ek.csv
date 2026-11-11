@@ -468,27 +468,33 @@ Ugyanez a helyzet még egyszer. A képen ez a felirat: második verzió – SBI-
 A mondata közben három ikon villant fel. A társa elgondolkodik.
 
 Az S, a B és az I ikon a madrih nyugodtabb mondatának három részénél villant fel. Az S ennél a résznél: ‘amikor ma a játék közben’. A B ennél a résznél: ‘háromszor félbeszakítottad a többieket’. Az I ennél a résznél: ‘nagyon nehéz volt megtartani a figyelmüket’.”",9edc6178656257425944176d8e674e0f4eb4515c126ce272374963c45d62037f,"R2, R3"
-M1.3-VID-01,M1.3-VID-01,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel,AI-generált,M1.3-VID-01-VO,"**1. verzió – címke**
+M1.3-VID-01,M1.3-VID-01,elsődleges,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel,AI-generált,M1.3-VID-01-VO,"**A jelenet szövegesen**
+
+**1. verzió – címke**
 **Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”
 **Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”
 
 **2. verzió – SBI-szerű**
 **Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”
-**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980,"R2, R3"
-M1.3-VID-01::CAPTIONS,M1.3-VID-01,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — felirat,AI-generált,M1.3-VID-01-VO,"**1. verzió – címke**
+**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a,"R2, R3"
+M1.3-VID-01::CAPTIONS,M1.3-VID-01,felirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — felirat,AI-generált,M1.3-VID-01-VO,"**A jelenet szövegesen**
+
+**1. verzió – címke**
 **Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”
 **Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”
 
 **2. verzió – SBI-szerű**
 **Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”
-**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980,"R2, R3"
-M1.3-VID-01::TRANSCRIPT,M1.3-VID-01,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — leirat,AI-generált,M1.3-VID-01-VO,"**1. verzió – címke**
+**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a,"R2, R3"
+M1.3-VID-01::TRANSCRIPT,M1.3-VID-01,leirat,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — leirat,AI-generált,M1.3-VID-01-VO,"**A jelenet szövegesen**
+
+**1. verzió – címke**
 **Madrih A:** „Te mindig szétvered a peulát, komolyan mondom…”
 **Madrih B:** „Mi van?! Csak próbáltam feldobni a hangulatot…”
 
 **2. verzió – SBI-szerű**
 **Madrih A:** „Figyelj, amikor ma a játék közben háromszor félbeszakítottad a többieket, nagyon nehéz volt megtartani a figyelmüket és a bevonódásukat. Jó lenne, ha ők is több teret kapnának.”
-**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",7b0bc24b305f57820e363f5874a09856cac6ddb50cb121c21f95deda75d86980,"R2, R3"
+**Madrih B:** „Jaa… erre nem is gondoltam. Oké, figyelek rá.”",5eb1d69585bb919a6b9c7062b3c8797252b0652df3360c5bb085bca70e332d2a,"R2, R3"
 M1.3-VID-01::ALTTEXT,M1.3-VID-01,alt-szöveg,M1,M1.3,02 Tervezet/Modulok/M1/Online leckék/M1.3 – SBI-modell – hogyan adjak korrekt visszajelzést.md,video,interactive,legyártandó,emberi döntésre vár,nyitott emberi döntés,HOOK Interactive Video – ugyanaz a helyzet kétféle visszajelzéssel — alt-szöveg,AI-generált,,,,"R2, R3"
 M1.4-DIA-01,M1.4-DIA-01,elsődleges,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,diagram,,legyártandó,specifikáció kész,,Slide 2 – S/B/I emlékeztető diagram ikonokkal,AI-generált,,,,
 M1.4-DIA-01::ALTTEXT,M1.4-DIA-01,alt-szöveg,M1,M1.4,02 Tervezet/Modulok/M1/Online leckék/M1.4 – Miniszituációk – Mondd el SBI-ben.md,diagram,,legyártandó,specifikáció kész,,Slide 2 – S/B/I emlékeztető diagram ikonokkal — alt-szöveg,AI-generált,,,,
