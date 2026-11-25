@@ -65,8 +65,8 @@
       "sha256": "aae717d78a16076eeeb3f7c7fc78acb2b1cb36c86283bce2e63bd3a4a1827408"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
-      "sha256": "c5e791f382c281781e8e57ed8cae396dd5f7556fd712119cd4e90ed4434397d0"
+      "reason": "VO-D127-W1: D-127 / D-136 projektgazdai (szerzői) döntés a hangreview-ból, az M1.1 zárómondata; projektgazdai freeze-kivétel erre az egy mondatra",
+      "sha256": "a8fcb17a90f19464e29eaf01dbbc2fe1ad50fa71f6a68aafaa67668d17a77b95"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
       "reason": "D-098: Z.3 model sentence (Phase 4e D8A-F002), M1.2 sentence 5 (C-059)",
