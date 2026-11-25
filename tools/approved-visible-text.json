@@ -65,8 +65,8 @@
       "sha256": "aae717d78a16076eeeb3f7c7fc78acb2b1cb36c86283bce2e63bd3a4a1827408"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.1 – Johari-ablak – vakfoltjaim felismerése.md": {
-      "reason": "CB-C-0017, CB-C-0004, CB-C-0028: D-090 8A kézi újranyitás átvezetve; manifest §5 a v1.3.0-hoz; M1.1 Lecke-forma (PROPOSED)",
-      "sha256": "c5e791f382c281781e8e57ed8cae396dd5f7556fd712119cd4e90ed4434397d0"
+      "reason": "VO-D127-W1: D-127 / D-136 projektgazdai (szerzői) döntés a hangreview-ból, az M1.1 zárómondata; projektgazdai freeze-kivétel erre az egy mondatra",
+      "sha256": "a8fcb17a90f19464e29eaf01dbbc2fe1ad50fa71f6a68aafaa67668d17a77b95"
     },
     "02 Tervezet/Modulok/M1/Online leckék/M1.2 – Megfigyelés ≠ értelmezés.md": {
       "reason": "D-098: Z.3 model sentence (Phase 4e D8A-F002), M1.2 sentence 5 (C-059)",
@@ -113,8 +113,8 @@
       "sha256": "510b47e4b640d4fdcb76156ee9cb92099bc382b7704a74916fa524a96e484ac5"
     },
     "02 Tervezet/Modulok/M2/Online leckék/M2.4 – Reflektív napló & határok – A dugma isit nem terapeuta.md": {
-      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
-      "sha256": "1fff3bb74d5825d04e402e3ae4709daa7164b01d29dcd3adf2a42650976e8b6a"
+      "reason": "VO-D127-W2, VO-D127-W3, VO-D127-W4, VO-D127-W5: D-127 / D-133 projektgazdai (szerzői) döntés a hangreview-ból, négy VO-blokk szövegjavítása",
+      "sha256": "ec251fee79e41f4cba056da68676a8bffcadd5dc8e2ea9e66d665afbe328881c"
     },
     "02 Tervezet/Modulok/M2/Peulák/M2.A – Identitás-körök élőben – mit mutatok magamból (45’).md": {
       "reason": "R2-M0M1-03, R2-M0M1-09, R2-M0M1-12, R2-M0M1-17, R2-M0M1-20, R2-M0M1-22, R2-M0M1-25, R2-M0M1-26, R2-M2M3-02, R2-M2M3-03, R2-M2M3-06, R2-M2M3-08, R2-M2M3-10, R2-M2M3-11, R2-M2M3-13, R2-M2M3-15, R2-M4M5-08, R2-M4M5-11, R2-M4M5-13, R2-M6Z-01, R2-M6Z-02, R2-M6Z-05, R2-M6Z-06, R2-M6Z-12, R2-M6Z-13, R2-M6Z-17: D-095 expert review drafts (owner decision D-095)",
@@ -145,8 +145,8 @@
       "sha256": "0ea7dfb5cce4cb824904262b7942f2315d46b12a0d018c55e8a2a1f824807332"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.3 – Gyermekvédelem 101 – red flag felismerése & első lépések.md": {
-      "reason": "M5-F013: D-095 round 2, the „Tovább a leckére” button line in the M1–M7 lesson intros",
-      "sha256": "7e3b27d164aea1c55f5ba1a3e0512ced6fddca579148cbe4daa4ddce055446b5"
+      "reason": "VO-D127-W2, VO-D127-W3, VO-D127-W4, VO-D127-W5: D-127 / D-133 projektgazdai (szerzői) döntés a hangreview-ból, négy VO-blokk szövegjavítása",
+      "sha256": "6ac3db39a49e4963637c1c1343bd0ecddcd7d9664a7ce35d02d1c60fc6f89a56"
     },
     "02 Tervezet/Modulok/M3/Online leckék/M3.4 – Do és Don’t madrihként – határok, red flag-ek és modulproduktum.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -169,8 +169,8 @@
       "sha256": "a7dd2cab845c6960098175ce4047881a89e37f5214a33df5a92b840e3f0d37f7"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.1 – Mit üzen a testem – Nonverbális kiállás.md": {
-      "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
-      "sha256": "36f7508edc404a0c3748bf1e533cd530a19172f9890b707cd37ee36f9ae64f51"
+      "reason": "VO-D127-W2, VO-D127-W3, VO-D127-W4, VO-D127-W5: D-127 / D-133 projektgazdai (szerzői) döntés a hangreview-ból, négy VO-blokk szövegjavítása",
+      "sha256": "b25ed978c5dbbd59e5d36abe36e782704740a21a7fe6f261d7ef46580fede6a6"
     },
     "02 Tervezet/Modulok/M4/Online leckék/M4.2 – Aktív hallgatás & visszatükrözés.md": {
       "reason": "D-097 author decisions (HUM 21. szakasz) on the D-095 findings E-087, C-078, T-20, C-059, C-021, E-088, C-045, C-081, C-057, E-039, L-63, E-025, T-23, E-060, C-047, C-018, L-81, E-078, E-081, T-34, C-017",
@@ -305,8 +305,8 @@
       "sha256": "6ef412f576f5f1da606447a87f0d9901ffd67e187cac64c786ba87ff4d7d6e52"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.1 – Visszanéző tükör – M0–M7 idővonal.md": {
-      "reason": "R2-M0M1-01, R2-M0M1-02, R2-M0M1-04, R2-M0M1-05, R2-M0M1-06, R2-M0M1-08, R2-M0M1-18, R2-M2M3-01, R2-M2M3-07, R2-M2M3-12, R2-M4M5-03, R2-M4M5-05, R2-M4M5-07, R2-M4M5-12, R2-M4M5-14, R2-M6Z-04, R2-M6Z-08, R2-M6Z-11, R2-M6Z-14, R2-M6Z-16, M5-F013: D-095 expert review (owner decision D-095)",
-      "sha256": "697f867682d3100fd87db94dd7fa9e30683b8956766ba12e8078bc25a422d0f7"
+      "reason": "VO-D127-W2, VO-D127-W3, VO-D127-W4, VO-D127-W5: D-127 / D-133 projektgazdai (szerzői) döntés a hangreview-ból, négy VO-blokk szövegjavítása",
+      "sha256": "d57096e28329f0ad11d08be845282d026a40ff0ebf5caa513830fdd4a549441d"
     },
     "02 Tervezet/Modulok/Z/Online leckék/Z.2 – Tanultam valamit! – saját tanulási pillanataim.md": {
       "reason": "D-095 (D-094c Phase 4b, AUTHOR-FIXPACK, AUTHOR-DECISIONS): objective fixes",

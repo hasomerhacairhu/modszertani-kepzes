@@ -192,7 +192,7 @@ Opciók:
   "title": "Opcionális narráció – idővonal (kb. 15–20 mp)",
   "subtype": "narration",
   "purpose": "Az idővonal-input megerősítése hangsávval a feldolgozás segítésére.",
-  "spec": "Kb. 15–20 mp-es narráció az idővonalról, szó szerint a Z.1-NAR-01-VO szövege: honnan indultunk M0-ban, hova jutottunk M7-re; az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
+  "spec": "Kb. 15–20 mp-es narráció az idővonalról, szó szerint a Z.1-NAR-01-VO szövege: honnan indultunk M0-ból, hova jutottunk M7-re; az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át a saját peula megírásáig. Új tartalom NEM hangozhat el, ami a leírt szövegben nincs benne (lásd a dia akadálymentességi kikötését).",
   "source_ref": "Z.1-NAR-01-VO",
   "provenance": "ai",
   "provenance_note": "AI-generált",
@@ -268,7 +268,7 @@ Opcionális narráció (kb. 15–20 mp), szó szerint az alábbi szöveg (Z.1-NA
 <!-- @source {"id": "Z.1-NAR-01-VO", "kind": "narration"} -->
 
 > „Ez itt a féléved idővonala.
-> Látod, honnan indultunk M0-ban, és hova jutottunk el M7-re.
+> Látod, honnan indultunk M0-ból, és hova jutottunk el M7-re.
 
 > Közben az önismerettől és a visszajelzéstől a kvucán, a gyermekvédelmen és a módszereken át eljutottunk a **saját peulád** megírásáig.”
 
